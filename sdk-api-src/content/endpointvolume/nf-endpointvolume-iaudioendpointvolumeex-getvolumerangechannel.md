@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioendpointvolumeex_getvolumerangechannel.htm
 old-project: CoreAudio
 ms.assetid: 869fe1cc-aa32-45e5-899f-3ae0d0f1b256
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/14/2018
 ms.keywords: GetVolumeRangeChannel, GetVolumeRangeChannel method [Core Audio], GetVolumeRangeChannel method [Core Audio],IAudioEndpointVolumeEx interface, IAudioEndpointVolumeEx interface [Core Audio],GetVolumeRangeChannel method, IAudioEndpointVolumeEx.GetVolumeRangeChannel, IAudioEndpointVolumeEx::GetVolumeRangeChannel, coreaudio.iaudioendpointvolumeex_getvolumerangechannel, endpointvolume/IAudioEndpointVolumeEx::GetVolumeRangeChannel
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: NA:holographicspaceinterop
 ms.assetid: eb4fcb8b-a576-39ee-a253-44dbbdc0af05
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

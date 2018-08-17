@@ -62,31 +62,31 @@ Gets info about how a tiled resource is broken into tiles.
 
 ### -param pTiledResource [in]
 
-Type: <b><a href="https://msdn.microsoft.com/3823ec00-cb3c-43ce-9f1a-be4e1e99d587">ID3D11Resource</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476584(v=VS.85).aspx">ID3D11Resource</a>*</b>
 
 A pointer to the tiled resource to get info about.
 
 
 ### -param pNumTilesForEntireResource [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a>*</b>
 
 A pointer to a variable that receives the number of tiles needed to store the entire tiled resource. 
 
 
 ### -param pPackedMipDesc [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/1c200c44-6cd6-4e77-8187-54cd6cd79c84">D3D11_PACKED_MIP_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn280418(v=VS.85).aspx">D3D11_PACKED_MIP_DESC</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/1c200c44-6cd6-4e77-8187-54cd6cd79c84">D3D11_PACKED_MIP_DESC</a> structure that <b>GetResourceTiling</b> fills with info about how the tiled resource's mipmaps are packed.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn280418(v=VS.85).aspx">D3D11_PACKED_MIP_DESC</a> structure that <b>GetResourceTiling</b> fills with info about how the tiled resource's mipmaps are packed.
           
 
 
 ### -param pStandardTileShapeForNonPackedMips [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/B4B9D82C-2890-4CC4-AB5C-026FBD931B4E">D3D11_TILE_SHAPE</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn280443(v=VS.85).aspx">D3D11_TILE_SHAPE</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/B4B9D82C-2890-4CC4-AB5C-026FBD931B4E">D3D11_TILE_SHAPE</a> structure that <b>GetResourceTiling</b> fills with info about the tile shape. This is info about how pixels fit in the tiles, independent of tiled resource's dimensions,
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn280443(v=VS.85).aspx">D3D11_TILE_SHAPE</a> structure that <b>GetResourceTiling</b> fills with info about the tile shape. This is info about how pixels fit in the tiles, independent of tiled resource's dimensions,
             not including packed mipmaps.  If the entire tiled resource is packed, this parameter is meaningless because the tiled resource has no defined layout
             for packed mipmaps.
             In this situation, <b>GetResourceTiling</b> sets the members of <b>D3D11_TILE_SHAPE</b> to zeros.
@@ -95,7 +95,7 @@ A pointer to a <a href="https://msdn.microsoft.com/B4B9D82C-2890-4CC4-AB5C-026FB
 
 ### -param pNumSubresourceTilings [in, out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a>*</b>
 
 A pointer to a variable that contains the number of tiles in the subresource. On input, this is the number of subresources to query tilings for; on output, this is the number that was actually retrieved at <i>pSubresourceTilingsForNonPackedMips</i> (clamped to what's available).
           
@@ -103,7 +103,7 @@ A pointer to a variable that contains the number of tiles in the subresource. On
 
 ### -param FirstSubresourceTilingToGet [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 The number of the first subresource tile to get. <b>GetResourceTiling</b> ignores this parameter if the number that <i>pNumSubresourceTilings</i> points to is 0.
           
@@ -111,12 +111,12 @@ The number of the first subresource tile to get. <b>GetResourceTiling</b> ignore
 
 ### -param pSubresourceTilingsForNonPackedMips [out]
 
-Type: <b><a href="https://msdn.microsoft.com/679E4AD1-3AC8-4055-9D38-37776E2D17BE">D3D11_SUBRESOURCE_TILING</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn280434(v=VS.85).aspx">D3D11_SUBRESOURCE_TILING</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/679E4AD1-3AC8-4055-9D38-37776E2D17BE">D3D11_SUBRESOURCE_TILING</a> structure that <b>GetResourceTiling</b> fills with info about subresource tiles.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn280434(v=VS.85).aspx">D3D11_SUBRESOURCE_TILING</a> structure that <b>GetResourceTiling</b> fills with info about subresource tiles.
           
 
-If subresource tiles are part of packed mipmaps, <b>GetResourceTiling</b> sets the members of <a href="https://msdn.microsoft.com/679E4AD1-3AC8-4055-9D38-37776E2D17BE">D3D11_SUBRESOURCE_TILING</a> to zeros, except the <b>StartTileIndexInOverallResource</b> member, which <b>GetResourceTiling</b> sets to <b>D3D11_PACKED_TILE</b> (0xffffffff). The <b>D3D11_PACKED_TILE</b> constant indicates that the whole
+If subresource tiles are part of packed mipmaps, <b>GetResourceTiling</b> sets the members of <a href="https://msdn.microsoft.com/en-us/library/Dn280434(v=VS.85).aspx">D3D11_SUBRESOURCE_TILING</a> to zeros, except the <b>StartTileIndexInOverallResource</b> member, which <b>GetResourceTiling</b> sets to <b>D3D11_PACKED_TILE</b> (0xffffffff). The <b>D3D11_PACKED_TILE</b> constant indicates that the whole
             <b>D3D11_SUBRESOURCE_TILING</b> structure is meaningless for this situation, and the info that the <i>pPackedMipDesc</i> parameter points to applies.
           
 
@@ -145,7 +145,7 @@ For more info about tiled resources, see <a href="https://msdn.microsoft.com/030
 
 
 
-<a href="https://msdn.microsoft.com/C476AA0E-4A49-4E1E-8308-FB72EAD3E30C">ID3D11Device2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280493(v=VS.85).aspx">ID3D11Device2</a>
  
 
  

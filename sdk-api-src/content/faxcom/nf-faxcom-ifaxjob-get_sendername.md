@@ -66,7 +66,7 @@ This property is read-only.
 
 If the sender's name is not available, the <b>SenderName</b> property contains an empty string.
 
-You can call the <a href="https://msdn.microsoft.com/725bef60-dfe8-443b-a8ee-268944bd6569">UserName</a> method to retrieve the name of the account that queued the fax job. 
+You can call the <a href="https://msdn.microsoft.com/en-us/library/ms691960(v=VS.85).aspx">UserName</a> method to retrieve the name of the account that queued the fax job. 
 
 <b>SenderName</b> allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690878(v=VS.85).aspx">Freeing Fax Resources</a>.
 
@@ -98,7 +98,7 @@ You can call the <a href="https://msdn.microsoft.com/725bef60-dfe8-443b-a8ee-268
 
 
 
-<a href="https://msdn.microsoft.com/725bef60-dfe8-443b-a8ee-268944bd6569">UserName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691960(v=VS.85).aspx">UserName</a>
  
 
  

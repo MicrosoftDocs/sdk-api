@@ -4,10 +4,10 @@ title: PERF_MEM_FREE
 author: windows-sdk-content
 description: Providers implement this function to provide custom memory management for PERFLIB.
 old-location: perf\freememory.htm
-old-project: PerfCtrs
+old-project: perfctrs
 ms.assetid: 3b2f9f68-131a-4e17-8b43-6c3a20871dad
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/08/2018
 ms.keywords: FreeMemory, FreeMemory callback function [Perf], PERF_MEM_FREE, PERF_MEM_FREE callback, perf.freememory, perflib/FreeMemory
 ms.prod: windows
 ms.technology: windows-sdk

@@ -100,7 +100,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms687526(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/27b05cd9-7c5a-4ebd-b5a2-1d1e3c9b9d6e">CSID</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690159(v=VS.85).aspx">CSID</a>
 
 
 </td>
@@ -116,7 +116,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms690159(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/0d04289d-706a-420a-8c88-33e17e4bf805">DeviceName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687548(v=VS.85).aspx">DeviceName</a>
 
 
 </td>
@@ -132,7 +132,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms687548(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/ec4040b1-b4f2-4f3f-aba4-f51cb8fd2b4b">DocumentName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms688249(v=VS.85).aspx">DocumentName</a>
 
 
 </td>
@@ -148,7 +148,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms688249(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/a3c70d0f-bb92-44fa-9665-50c01ea76435">Id</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms688575(v=VS.85).aspx">Id</a>
 
 
 </td>
@@ -260,7 +260,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms688010(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/5ae842c8-e063-4d54-a575-b119cc0dcbef">Size</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690042(v=VS.85).aspx">Size</a>
 
 
 </td>
@@ -308,7 +308,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms689189(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c76a9597-7a8a-4c59-9eb7-fe17f335c5e9">SubmissionTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687539(v=VS.85).aspx">SubmissionTime</a>
 
 
 </td>
@@ -356,7 +356,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms690059(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/0d74492b-b504-4c67-a8bd-b23f5814763f">TSID</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689104(v=VS.85).aspx">TSID</a>
 
 
 </td>

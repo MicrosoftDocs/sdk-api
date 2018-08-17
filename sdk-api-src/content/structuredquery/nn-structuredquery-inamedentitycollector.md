@@ -73,7 +73,7 @@ The <b>INamedEntityCollector</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7e83554f-e039-41a8-b3f1-28576aa0dce5">Add</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231360(v=VS.85).aspx">Add</a>
 </td>
 <td align="left" width="63%">
 Adds a single (potential) named entity to this <b>INamedEntityCollector</b> collection, as identified in a tokenized span of the input string being parsed.

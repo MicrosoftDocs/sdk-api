@@ -61,19 +61,19 @@ Describes a query.
 
 #### - Query
 
-A <a href="https://msdn.microsoft.com/4161fbeb-7f58-422c-a195-ea10f737fd0c">D3D11_QUERY</a>-typed value that specifies the type of query.
+A <a href="https://msdn.microsoft.com/en-us/library/Ff476191(v=VS.85).aspx">D3D11_QUERY</a>-typed value that specifies the type of query.
 
 
 #### - MiscFlags
 
-A combination of <a href="https://msdn.microsoft.com/a49a04f9-5804-43fb-b12d-f703721f4d30">D3D11_QUERY_MISC_FLAG</a>-typed values that are combined by using a bitwise OR operation. The resulting value specifies query behavior.
+A combination of <a href="https://msdn.microsoft.com/en-us/library/Ff476196(v=VS.85).aspx">D3D11_QUERY_MISC_FLAG</a>-typed values that are combined by using a bitwise OR operation. The resulting value specifies query behavior.
 
 
 
 
 #### - ContextType
 
-A <a href="https://msdn.microsoft.com/5467F07C-E429-4324-B52E-FDC25B4DB9FE">D3D11_CONTEXT_TYPE</a>-typed value that specifies the context for the query.
+A <a href="https://msdn.microsoft.com/en-us/library/Dn859366(v=VS.85).aspx">D3D11_CONTEXT_TYPE</a>-typed value that specifies the context for the query.
 
 
 ## -see-also
@@ -81,7 +81,7 @@ A <a href="https://msdn.microsoft.com/5467F07C-E429-4324-B52E-FDC25B4DB9FE">D3D1
 
 
 
-<a href="https://msdn.microsoft.com/2a45182a-7114-4075-b8b8-147f52fe7aa9">Core Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476155(v=VS.85).aspx">Core Structures</a>
  
 
  

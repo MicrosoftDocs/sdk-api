@@ -84,11 +84,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/03738363-5923-4e26-a0ea-e345b927140c">GetTuningSpace</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693428(v=VS.85).aspx">GetTuningSpace</a>
 
 
 
-<a href="https://msdn.microsoft.com/fe88b628-7959-4d2f-981f-7de9126146f6">IBDA_SignalProperties Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693425(v=VS.85).aspx">IBDA_SignalProperties Interface</a>
  
 
  

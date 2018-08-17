@@ -74,7 +74,7 @@ The <b>IFaxOutboundRoutingRules</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3588272c-13c1-4bd4-96d2-19289a2ee07d">Add</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689134(v=VS.85).aspx">Add</a>
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms689134(v=VS.85).aspx">IFaxOutboundRoutingRules::Add</a> method adds an outbound routing rule (<a href="https://msdn.microsoft.com/en-us/library/ms690232(v=VS.85).aspx">IFaxOutboundRoutingRule</a> interface) to the collection defined by the <b>IFaxOutboundRoutingRules</b> interface.
@@ -92,7 +92,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms688413(v=VS.85).aspx">IF
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6463b423-af8c-4d35-badb-4ea7e749875e">Item</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689575(v=VS.85).aspx">Item</a>
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms689575(v=VS.85).aspx">IFaxOutboundRoutingRules::get_Item</a> method returns a <a href="https://msdn.microsoft.com/en-us/library/ms690232(v=VS.85).aspx">IFaxOutboundRoutingRule</a> interface from the <b>IFaxOutboundRoutingRules</b> interface using the routing rule's index.
@@ -110,7 +110,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms690143(v=VS.85).aspx">IF
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ed1221a2-f3dc-46fb-b05c-8af85ba5a142">Remove</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689581(v=VS.85).aspx">Remove</a>
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms689581(v=VS.85).aspx">IFaxOutboundRoutingRules::Remove</a> method removes an outbound routing rule (<a href="https://msdn.microsoft.com/en-us/library/ms690230(v=VS.85).aspx">FaxOutboundRoutingRule</a> object) from the <a href="https://msdn.microsoft.com/en-us/library/ms689525(v=VS.85).aspx">FaxOutboundRoutingRules</a> collection using the routing rule's index.
@@ -137,7 +137,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms689207(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/3add9157-b82a-4046-ad20-f6a29f92257e">Count</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687550(v=VS.85).aspx">Count</a>
 
 
 </td>

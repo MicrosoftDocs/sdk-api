@@ -83,21 +83,21 @@ Identifies the subitem, or zero if none.
 
 ### -field uNewState
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 New item state. This member is zero for notification messages that do not use it. For a list of possible values, see <a href="https://msdn.microsoft.com/en-us/library/Bb774733(v=VS.85).aspx">List-View Item States</a>. 
 
 
 ### -field uOldState
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Old item state. This member is zero for notification messages that do not use it. For a list of possible values, see <a href="https://msdn.microsoft.com/en-us/library/Bb774733(v=VS.85).aspx">List-View Item States</a>.
 
 
 ### -field uChanged
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Set of flags that indicate the item attributes that have changed. This member is zero for notifications that do not use it. Otherwise, it can have the same values as the 
 					<b>mask</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb774760(v=VS.85).aspx">LVITEM</a> structure. 
@@ -113,7 +113,7 @@ Type: <b><a href="https://msdn.microsoft.com/ecb0f0e1-90c2-48ab-a069-552262b49c7
 
 ### -field lParam
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPARAM</a></b>
 
 Application-defined value of the item. This member is undefined for notification messages that do not use it. 
 

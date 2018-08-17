@@ -7,7 +7,7 @@ old-location: appxpkg\getpackagepathbyfullname.htm
 old-project: appxpkg
 ms.assetid: 9C25708C-1464-4C59-9740-E9F105116385
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/15/2018
 ms.keywords: GetPackagePathByFullName, GetPackagePathByFullName function [App packaging and management], appmodel/GetPackagePathByFullName, appxpkg.getpackagepathbyfullname
 ms.prod: windows
 ms.technology: windows-sdk

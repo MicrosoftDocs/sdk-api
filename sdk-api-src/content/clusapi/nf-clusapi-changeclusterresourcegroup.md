@@ -51,8 +51,8 @@ req.irql:
 ## -description
 
 
-Moves a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> from one 
-    <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a> to another. The 
+Moves a <a href="https://msdn.microsoft.com/en-us/library/Aa372152(v=VS.85).aspx">resource</a> from one 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa369645(v=VS.85).aspx">group</a> to another. The 
     <b>PCLUSAPI_CHANGE_CLUSTER_RESOURCE_GROUP</b> type defines a pointer to this function.
 
 
@@ -79,7 +79,7 @@ Handle of the group that should receive the resource identified by
 If the function succeeds, it returns <b>ERROR_SUCCESS</b>.
 
 If the function fails, it returns one of the 
-       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>.
+       <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error codes</a>.
 
 
 
@@ -90,13 +90,13 @@ If the function fails, it returns one of the
 
 With the <b>ChangeClusterResourceGroup</b> 
     function, both the group that a resource currently belongs to and its new group must be owned by the same 
-    <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a> regardless of the resource's state.
+    <a href="https://msdn.microsoft.com/en-us/library/Aa371745(v=VS.85).aspx">node</a> regardless of the resource's state.
 
 Do not call <b>ChangeClusterResourceGroup</b> 
     from a resource DLL. For more information, see 
-    <a href="https://msdn.microsoft.com/0eaa4aea-8d9a-4552-b43a-fafa23a3e736">Function Calls to Avoid in Resource DLLs</a>. 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa369588(v=VS.85).aspx">Function Calls to Avoid in Resource DLLs</a>. 
     If the resource identified by <i>hResource</i> has 
-    <a href="https://msdn.microsoft.com/2ad913d2-99cb-4885-a1de-822f77dc2030">dependencies</a>, all of the resources in its dependency 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa372236(v=VS.85).aspx">dependencies</a>, all of the resources in its dependency 
     tree are moved to the group identified by <i>hGroup</i>. For example, in the situation shown 
     in the following diagram, changing resource B to group 2 will move the entire dependency tree (resources A, X, and 
     Y) .
@@ -104,7 +104,7 @@ Do not call <b>ChangeClusterResourceGroup</b>
 <img alt="" border="0" src="images/resmove.png"/>
 Do not pass LPC and RPC handles to the same function call. Otherwise, the call will raise an RPC exception and 
     can have additional destructive effects. For information on how LPC and RPC handles are created, see 
-    <a href="https://msdn.microsoft.com/709effda-5ff1-439e-805a-9169ca63c182">Using Object Handles</a> and 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa372959(v=VS.85).aspx">Using Object Handles</a> and 
     <a href="https://msdn.microsoft.com/b2ee2575-cc1e-4696-8e95-9798fb556c58">OpenCluster</a>.
 
 

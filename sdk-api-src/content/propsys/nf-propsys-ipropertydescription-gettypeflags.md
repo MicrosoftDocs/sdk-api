@@ -99,7 +99,7 @@ Always returns <b>S_OK</b>.
 
 If the property description instance comes from <a href="https://msdn.microsoft.com/en-us/library/Bb776503(v=VS.85).aspx">PSGetPropertyDescription</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb776504(v=VS.85).aspx">PSGetPropertyDescriptionByName</a>, these flags come from the .propdesc file that defines the property description.
 
-If the instance comes from <a href="shell.IPropertyDescriptionList_GetAt">GetAt</a>, the type flags come from the .propdesc file and may be influenced by the specific proplist. This means that flags obtained from one property description instance may be slightly different from another instance (both referring to the same property).
+If the instance comes from <a href="https://msdn.microsoft.com/en-us/library/Dd372028(v=VS.85).aspx">GetAt</a>, the type flags come from the .propdesc file and may be influenced by the specific proplist. This means that flags obtained from one property description instance may be slightly different from another instance (both referring to the same property).
 
 For additional information on type flags, see the <i>canGroupBy</i>, <i>canStackBy</i>, <i>isInnate</i>, <i>multipleValues</i>, <i>isGroup</i>, <i>isTreeProperty</i>, <i>isViewable</i>, <i>isQueryable</i>, and <i>includeInFullTextQuery</i> attributes of the <a href="https://msdn.microsoft.com/en-us/library/Bb773889(v=VS.85).aspx">typeInfo</a> element in the property's .propdesc file.
 

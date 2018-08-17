@@ -7,7 +7,7 @@ old-location: base\rtlunwindex.htm
 old-project: debug
 ms.assetid: 3d2d8778-311e-4cc1-b280-4f83ab457755
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: RtlUnwindEx, RtlUnwindEx function, base.rtlunwindex, winnt/RtlUnwindEx
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IResultData::GetItem
 author: windows-sdk-content
 description: Enables a user to retrieve the parameters of a single item.
 old-location: mmc\iresultdata_getitem.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: 18c345b0-7d3c-4c80-8d1e-b8d5791bc550
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/14/2018
 ms.keywords: GetItem, GetItem method [MMC], GetItem method [MMC],IResultData interface, GetItem method [MMC],IResultData2 interface, IResultData interface [MMC],GetItem method, IResultData.GetItem, IResultData2 interface [MMC],GetItem method, IResultData2::GetItem, IResultData::GetItem, _slate_iresultdata_getitem, mmc.iresultdata_getitem, mmc/IResultData2::GetItem, mmc/IResultData::GetItem
 ms.prod: windows
 ms.technology: windows-sdk

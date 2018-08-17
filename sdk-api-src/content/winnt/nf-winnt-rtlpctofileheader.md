@@ -7,7 +7,7 @@ old-location: base\rtlpctofileheader.htm
 old-project: debug
 ms.assetid: 690c9f20-d471-49c9-a40c-28926f03acac
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: RtlPcToFileHeader, RtlPcToFileHeader function, base.rtlpctofileheader, winnt/RtlPcToFileHeader
 ms.prod: windows
 ms.technology: windows-sdk

@@ -53,7 +53,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Graphics::GetDpiX</b> method gets the horizontal resolution, in dots per inch, of the display device associated with this 
-			<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object.
+			<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ Type: <strong>Type: <b>REAL</b>
 </strong>
 
 This method returns the horizontal resolution, in dots per inch, of the display device associated with this 
-						<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object.
 
 
 
@@ -85,7 +85,7 @@ This method returns the horizontal resolution, in dots per inch, of the display 
 
 
 
-<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
 
 
 

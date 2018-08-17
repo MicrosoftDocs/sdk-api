@@ -61,35 +61,35 @@ The <b>TaskDialog</b> function creates, displays, and operates a task dialog. Th
 
 ### -param hwndOwner [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 Handle to the owner window of the task dialog to be created. If this parameter is <b>NULL</b>, the task dialog has no owner window.
 
 
 ### -param hInstance [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HINSTANCE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HINSTANCE</a></b>
 
 Handle to the module that contains the icon resource identified by the <i>pszIcon</i> member, and the string resources identified by the <i>pszWindowTitle</i> and <i>pszMainInstruction</i> members.  If this parameter is <b>NULL</b>, <i>pszIcon</i> must be <b>NULL</b> or a pointer to a null-terminated, Unicode string that contains a system resource identifier, for example, TD_ERROR_ICON. 
 
 
 ### -param pszWindowTitle [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">PCWSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">PCWSTR</a></b>
 
 Pointer to the string to be used for the task dialog title. This parameter is a null-terminated, Unicode string that contains either text, or an integer resource identifier passed through the <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro.  If this parameter is <b>NULL</b>, the filename of the executable program is used.
 
 
 ### -param pszMainInstruction [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">PCWSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">PCWSTR</a></b>
 
 Pointer to the string to be used for the main instruction. This parameter is a null-terminated, Unicode string that contains either text, or an integer resource identifier passed through the <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro.  This parameter can be <b>NULL</b> if no main instruction is wanted.
 
 
 ### -param pszContent [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">PCWSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">PCWSTR</a></b>
 
 Pointer to a string used for additional text that appears below the main instruction, in a smaller font. This parameter is a null-terminated, Unicode string that contains either text, or an integer resource identifier passed through the <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro. Can be <b>NULL</b> if no additional text is wanted.
 
@@ -173,7 +173,7 @@ The task dialog contains the push button: <b>Close</b>.
 
 ### -param pszIcon [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">PCWSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">PCWSTR</a></b>
 
 Pointer to a string that identifies the icon to display in the task dialog. This parameter must be an integer resource identifier passed to the <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro or one of the following predefined values. If this parameter is <b>NULL</b>, no icon will be displayed. If the <i>hInstance</i> parameter is <b>NULL</b> and one of the predefined values is not used, the <b>TaskDialog</b> function fails.
 
@@ -272,7 +272,7 @@ If this value is <b>NULL</b>, no value is returned.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HRESULT</a></b>
 
 This function can return one of these values.
 

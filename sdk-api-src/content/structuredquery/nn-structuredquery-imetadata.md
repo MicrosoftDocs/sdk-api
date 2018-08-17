@@ -72,7 +72,7 @@ The <b>IMetaData</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c044dca9-0e74-454b-8c9a-3ef8267d316d">GetData</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231365(v=VS.85).aspx">GetData</a>
 </td>
 <td align="left" width="63%">
 Retrieves one key/value pair from the metadata of an <a href="https://msdn.microsoft.com/en-us/library/Bb231373(v=VS.85).aspx">IEntity</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb231339(v=VS.85).aspx">IRelationship</a>, or <a href="https://msdn.microsoft.com/en-us/library/Bb231326(v=VS.85).aspx">ISchemaProvider</a> object.

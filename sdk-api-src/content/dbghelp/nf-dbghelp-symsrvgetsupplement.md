@@ -7,7 +7,7 @@ old-location: base\symsrvgetsupplement.htm
 old-project: debug
 ms.assetid: 2cad61c6-c8a1-437f-8e2c-1fa70eb348c2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: SymSrvGetSupplement, SymSrvGetSupplement function, SymSrvGetSupplementW, base.symsrvgetsupplement, dbghelp/SymSrvGetSupplement, dbghelp/SymSrvGetSupplementW
 ms.prod: windows
 ms.technology: windows-sdk

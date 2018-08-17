@@ -68,14 +68,14 @@ This function is an extension to <a href="https://msdn.microsoft.com/1f1c16c1-43
 ### -param ConnectionId [in]
 
 
-### -param OPTIONAL
+### -param Reserved
+
+
+### -param Overlapped
 
 TBD
 
 
-
-
-#### - Reserved
 
 
 #### - pOverlapped [in]

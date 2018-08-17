@@ -63,7 +63,7 @@ Contains information about an item in a ComboBoxEx control.
 
 ### -field mask
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 A set of bit flags that specify attributes of this structure or of an operation that is using this structure. The flags specify members that are valid or must be filled in. This member can be a combination of the following values. 
 
@@ -154,14 +154,14 @@ The
 
 ### -field iItem
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT_PTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">INT_PTR</a></b>
 
 The zero-based index of the item. 
 
 
 ### -field pszText
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPTSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPTSTR</a></b>
 
 A pointer to a character buffer that contains or receives the item's text. If text information is being retrieved, this member must be set to the address of a character buffer that will receive the text. The size of this buffer must also be indicated in 
 					<b>cchTextMax</b>. If this member is set to LPSTR_TEXTCALLBACK, the control will request the information by using the <a href="https://msdn.microsoft.com/en-us/library/Bb775762(v=VS.85).aspx">CBEN_GETDISPINFO</a> notification codes. 
@@ -204,7 +204,7 @@ The number of indent spaces to display for the item. Each indentation equals 10 
 
 ### -field lParam
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPARAM</a></b>
 
 A value specific to the item. 
 

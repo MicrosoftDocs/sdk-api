@@ -4,10 +4,10 @@ title: ICertConfig
 author: windows-sdk-content
 description: The ICertConfig interface provides functionality for retrieving the public configuration data (specified during client setup) for a Certificate Services server.
 old-location: security\icertconfig.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 92bece6a-73f0-47cf-8142-77e986448824
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: ICertConfig, ICertConfig interface [Security], ICertConfig interface [Security],described, _certsrv_icertconfig, certcli/ICertConfig, security.icertconfig
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,7 +76,7 @@ Certificate Services interfaces support both apartment-threading and free-thread
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertConfig</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICertConfig</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -89,35 +89,35 @@ The <b>ICertConfig</b> interface has these methods.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3a35b2a0-f8e4-496d-b76a-a7310842cc4c">GetConfig</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383274(v=VS.85).aspx">GetConfig</a>
 </td>
 <td align="left" width="63%">
-Gets the default configuration string (the server name and <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) name) for a Certificate Services server.</p> (Inherited from <b>ICertConfig</b><a href="https://msdn.microsoft.com/6bac5961-f9cc-4859-affa-aa7ed152ebfa">ICertConfig2</a>
-<a href="https://msdn.microsoft.com/6bac5961-f9cc-4859-affa-aa7ed152ebfa">CCertConfig</a>)</td>
+Gets the default configuration string (the server name and <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> (CA) name) for a Certificate Services server.</p> (Inherited from <b>ICertConfig</b><a href="https://msdn.microsoft.com/en-us/library/Aa383272(v=VS.85).aspx">ICertConfig2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383272(v=VS.85).aspx">CCertConfig</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8e477fa7-d0e7-43f3-98b5-79c924a1a29c">GetField</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383277(v=VS.85).aspx">GetField</a>
 </td>
 <td align="left" width="63%">
-Gets a specific field from the current record of the configuration database.</p> (Inherited from <b>ICertConfig</b><a href="https://msdn.microsoft.com/6bac5961-f9cc-4859-affa-aa7ed152ebfa">ICertConfig2</a>
-<a href="https://msdn.microsoft.com/6bac5961-f9cc-4859-affa-aa7ed152ebfa">CCertConfig</a>)</td>
+Gets a specific field from the current record of the configuration database.</p> (Inherited from <b>ICertConfig</b><a href="https://msdn.microsoft.com/en-us/library/Aa383272(v=VS.85).aspx">ICertConfig2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383272(v=VS.85).aspx">CCertConfig</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/af81c25e-94e7-4c50-9e90-612c034e24b4">Next</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383280(v=VS.85).aspx">Next</a>
 </td>
 <td align="left" width="63%">
-Points to the next available Certificate Services server configuration in the configuration point.</p> (Inherited from <b>ICertConfig</b><a href="https://msdn.microsoft.com/6bac5961-f9cc-4859-affa-aa7ed152ebfa">ICertConfig2</a>
-<a href="https://msdn.microsoft.com/6bac5961-f9cc-4859-affa-aa7ed152ebfa">CCertConfig</a>)</td>
+Points to the next available Certificate Services server configuration in the configuration point.</p> (Inherited from <b>ICertConfig</b><a href="https://msdn.microsoft.com/en-us/library/Aa383272(v=VS.85).aspx">ICertConfig2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383272(v=VS.85).aspx">CCertConfig</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/62c24bda-463a-4238-be70-14e28bcbfb39">Reset</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383282(v=VS.85).aspx">Reset</a>
 </td>
 <td align="left" width="63%">
-Resets the configuration query <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">state</a>.</p> (Inherited from <b>ICertConfig</b><a href="https://msdn.microsoft.com/6bac5961-f9cc-4859-affa-aa7ed152ebfa">ICertConfig2</a>
-<a href="https://msdn.microsoft.com/6bac5961-f9cc-4859-affa-aa7ed152ebfa">CCertConfig</a>)</td>
+Resets the configuration query <a href="https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx">state</a>.</p> (Inherited from <b>ICertConfig</b><a href="https://msdn.microsoft.com/en-us/library/Aa383272(v=VS.85).aspx">ICertConfig2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383272(v=VS.85).aspx">CCertConfig</a>)</td>
 </tr>
 </table> 
 

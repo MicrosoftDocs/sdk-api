@@ -153,7 +153,7 @@ Pointer to an array of <a href="https://msdn.microsoft.com/63fa8741-c8c8-480d-97
 
 ### -param pABC [out, optional]
 
-Pointer to an <a href="https://msdn.microsoft.com/00000000-0000-0000-0000-000000000001">ABC</a> structure in which this function retrieves the <a href="https://msdn.microsoft.com/en-us/library/Dd374094(v=VS.85).aspx">ABC width</a> for the entire <a href="uniscribe_glossary.htm">run</a>.
+Pointer to an <a href="https://msdn.microsoft.com/00000000-0000-0000-0000-000000000001">ABC</a> structure in which this function retrieves the <a href="https://msdn.microsoft.com/en-us/library/Dd374094(v=VS.85).aspx">ABC width</a> for the entire <a href="https://msdn.microsoft.com/en-us/library/Dd374094(v=VS.85).aspx">run</a>.
 
 
 ## -returns

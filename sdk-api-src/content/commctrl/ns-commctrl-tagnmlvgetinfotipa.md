@@ -71,14 +71,14 @@ Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).asp
 
 ### -field dwFlags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
 
 Either zero or LVGIT_UNFOLDED. See Remarks.
 
 
 ### -field pszText
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPTSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPTSTR</a></b>
 
 Address of a string buffer that receives any additional text information. If 
 					<b>dwFlags</b> is zero, this member will contain the existing item text. In this case, you should append any additional text onto the end of this string. The size of this buffer is specified by the 
@@ -109,7 +109,7 @@ One-based index of the subitem to which this structure refers. If this member is
 
 ### -field lParam
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPARAM</a></b>
 
 Application-defined value associated with the item. This member is not currently used and will always be zero. 
 

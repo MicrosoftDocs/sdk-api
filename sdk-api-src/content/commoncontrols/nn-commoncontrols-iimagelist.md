@@ -76,7 +76,7 @@ The <b>IImageList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1dafbf09-6ac7-440b-a005-a6fe1dca4c17">Add</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761435(v=VS.85).aspx">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an image or images to an image list.
@@ -105,7 +105,7 @@ Begins dragging an image.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e0ad7e66-2d42-443c-9f0d-9235b1d5d823">Clone</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761442(v=VS.85).aspx">Clone</a>
 </td>
 <td align="left" width="63%">
 Clones an existing image list.
@@ -115,7 +115,7 @@ Clones an existing image list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7d1bdb15-8cb4-4a8b-8a4c-eaadd03b5ace">Copy</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761443(v=VS.85).aspx">Copy</a>
 </td>
 <td align="left" width="63%">
 Copies images from a given image list.
@@ -274,7 +274,7 @@ Retrieves a specified image from the list of images used as overlay masks.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2f72fae4-3111-409e-967f-2b73336f772b">Merge</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761492(v=VS.85).aspx">Merge</a>
 </td>
 <td align="left" width="63%">
 Creates a new image by combining two existing images. This method also creates a new image list in which to store the image. 
@@ -284,7 +284,7 @@ Creates a new image by combining two existing images. This method also creates a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/96d20b2c-78d6-424c-a45a-58b68070286d">Remove</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761494(v=VS.85).aspx">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes an image from an image list. 

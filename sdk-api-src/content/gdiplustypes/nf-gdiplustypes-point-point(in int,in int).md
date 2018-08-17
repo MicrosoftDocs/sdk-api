@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a> object and initializes the 
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a> object and initializes the 
 			<b>X</b> and 
 			<b>Y</b> data members to zero. This is the default constructor.
 
@@ -79,7 +79,7 @@ Creates a <a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286
 
 
 
-<a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: security\createwellknownsid.htm
 old-project: secauthz
 ms.assetid: 00e75bae-fbce-41a3-a0bc-c345c36f2c84
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: CreateWellKnownSid, CreateWellKnownSid function [Security], _win32_createwellknownsid, security.createwellknownsid, securitybaseapi/CreateWellKnownSid
 ms.prod: windows
 ms.technology: windows-sdk

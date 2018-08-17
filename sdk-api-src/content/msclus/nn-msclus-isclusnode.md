@@ -68,7 +68,7 @@ Enables operations on a
 <td>
 <a href="https://msdn.microsoft.com/fd0e7191-0df5-465e-b867-2c395447ebc9">Cluster</a> Property</td>
 <td>Returns a <a href="https://msdn.microsoft.com/4a765dce-c823-4a79-8608-ff41feec8a39">Cluster</a> object providing access to the 
-      <a href="c_gly.htm">cluster</a> associated with the node.</td>
+      <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> associated with the node.</td>
 </tr>
 <tr>
 <td>

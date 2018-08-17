@@ -61,14 +61,14 @@ Ends the editing of a tree-view item's label. You can use this macro or send the
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 Handle to the tree-view control. 
 
 
 ### -param fCancel
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
 
 Variable that indicates whether the editing is canceled without being saved to the label. If this parameter is <b>TRUE</b>, the system cancels editing without saving the changes. Otherwise, the system saves the changes to the label. 
 

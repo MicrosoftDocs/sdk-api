@@ -110,7 +110,7 @@ The mouse is leaving the button.
 
 
 
-<a href="https://msdn.microsoft.com/f96da91c-e3b3-4dfa-92f3-276eb468612d">Buttons</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775943(v=VS.85).aspx">Buttons</a>
 
 
 

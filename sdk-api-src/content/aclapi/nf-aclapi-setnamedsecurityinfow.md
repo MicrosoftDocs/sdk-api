@@ -7,7 +7,7 @@ old-location: security\setnamedsecurityinfo.htm
 old-project: secauthz
 ms.assetid: 70fbba50-2576-4857-a955-119fb12bf7b6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: SetNamedSecurityInfo, SetNamedSecurityInfo function [Security], SetNamedSecurityInfoA, SetNamedSecurityInfoW, _win32_setnamedsecurityinfo, aclapi/SetNamedSecurityInfo, aclapi/SetNamedSecurityInfoA, aclapi/SetNamedSecurityInfoW, security.setnamedsecurityinfo
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_session_close.htm
 old-project: wmi_v2
 ms.assetid: c77a93b0-446c-417b-81ab-746c639477f7
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/13/2018
 ms.keywords: MI_Session_Close, MI_Session_Close function [Windows Management Infrastructure (MI)], mi/MI_Session_Close, wmi_v2.mi_session_close
 ms.prod: windows
 ms.technology: windows-sdk

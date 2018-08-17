@@ -7,7 +7,7 @@ old-location: base\symgetmoduleinfo64.htm
 old-project: debug
 ms.assetid: e8057cb5-3331-4460-b07c-4338a57024be
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: SymGetModuleInfo, SymGetModuleInfo function, SymGetModuleInfo64, SymGetModuleInfo64 function, SymGetModuleInfoW, SymGetModuleInfoW64, _win32_symgetmoduleinfo64, base.symgetmoduleinfo64, dbghelp/SymGetModuleInfo, dbghelp/SymGetModuleInfo64, dbghelp/SymGetModuleInfoW, dbghelp/SymGetModuleInfoW64
 ms.prod: windows
 ms.technology: windows-sdk

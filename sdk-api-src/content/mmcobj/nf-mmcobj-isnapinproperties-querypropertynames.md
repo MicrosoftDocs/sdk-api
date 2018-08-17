@@ -4,10 +4,10 @@ title: ISnapinProperties::QueryPropertyNames
 author: windows-sdk-content
 description: The QueryPropertyNames method returns the names of the properties used for the snap-in's configuration.
 old-location: mmc\isnapinproperties_querypropertynames.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: 41f949aa-4be5-4e60-aa1d-0605f489fec6
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/14/2018
 ms.keywords: ISnapinProperties interface [MMC],QueryPropertyNames method, ISnapinProperties.QueryPropertyNames, ISnapinProperties::QueryPropertyNames, QueryPropertyNames, QueryPropertyNames method [MMC], QueryPropertyNames method [MMC],ISnapinProperties interface, _slate_isnapinproperties_querypropertynames, mmc.isnapinproperties_querypropertynames, mmcobj/ISnapinProperties::QueryPropertyNames
 ms.prod: windows
 ms.technology: windows-sdk

@@ -109,7 +109,7 @@ Collapses the specified text range into a degenerate point at either the beginni
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4e998d86-e101-4bea-8389-3760e9289151">Copy</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787742(v=VS.85).aspx">Copy</a>
 </td>
 <td align="left" width="63%">
 Copies the text to a data object. 
@@ -293,7 +293,7 @@ Get the type of the range's story.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8cef8a1c-7b21-43cd-a4dd-b5a579bbfdaf">GetText</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774036(v=VS.85).aspx">GetText</a>
 </td>
 <td align="left" width="63%">
 Gets the plain text in this range. The Text property is the default property of the <b>ITextRange</b> interface.
@@ -320,7 +320,7 @@ Determines whether this range's story is the same as a specified range's story.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/beb9eeec-7edd-4569-91f5-3ec0407240fe">IsEqual</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787841(v=VS.85).aspx">IsEqual</a>
 </td>
 <td align="left" width="63%">
 Determines whether this range has the same character positions and story as those of a specified range. 

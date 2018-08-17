@@ -124,7 +124,7 @@ The <b>length</b> member of <a href="https://msdn.microsoft.com/en-us/library/ms
 
 
 
-<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: display\xlateobj.htm
 old-project: display
 ms.assetid: 08bdead0-290a-4b23-8118-5f1f941e439f
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/13/2018
 ms.keywords: XLATEOBJ, XLATEOBJ structure [Display Devices], _XLATEOBJ, display.xlateobj, grstrcts_36b2a277-ceee-4ee5-9dd6-55088df73d85.xml, winddi/XLATEOBJ
 ms.prod: windows
 ms.technology: windows-sdk

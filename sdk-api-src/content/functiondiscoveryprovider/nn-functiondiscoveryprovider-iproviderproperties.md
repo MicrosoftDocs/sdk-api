@@ -128,7 +128,7 @@ at the time the instance is created or when the client calls <a href="https://ms
 
 
 
-<a href="shell_IPropertyStore_cpp">IPropertyStore</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a>
  
 
  

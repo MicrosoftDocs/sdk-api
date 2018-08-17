@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>Region::FromHRGN</b> method creates a Windows GDI+<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a> object from a Windows Graphics Device Interface (GDI)  region.
+The <b>Region::FromHRGN</b> method creates a Windows GDI+<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a> object from a Windows Graphics Device Interface (GDI)  region.
 
 
 ## -parameters
@@ -71,11 +71,11 @@ Handle to an existing GDI region.
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>*</b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>*</b>
 </strong>
 
 This method returns a pointer to the new 
-						<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a> object.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a> object.
 
 
 

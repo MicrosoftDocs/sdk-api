@@ -61,17 +61,17 @@ Writes a number of 32-bit immediate values to the specified buffer locations dir
 
 ### -param Count
 
-The number of <a href="https://msdn.microsoft.com/7CF8A888-BB3A-4557-8DA5-7AFAFC6747CF">D3D12_WRITEBUFFERIMMEDIATE_PARAMETER</a> structures that are pointed to by <i>pParams</i> and <i>pModes</i>.
+The number of <a href="https://msdn.microsoft.com/en-us/library/Mt844815(v=VS.85).aspx">D3D12_WRITEBUFFERIMMEDIATE_PARAMETER</a> structures that are pointed to by <i>pParams</i> and <i>pModes</i>.
 
 
 ### -param pParams [in]
 
-The address of an array containing a number of <a href="https://msdn.microsoft.com/7CF8A888-BB3A-4557-8DA5-7AFAFC6747CF">D3D12_WRITEBUFFERIMMEDIATE_PARAMETER</a> structures equal to <i>Count</i>.
+The address of an array containing a number of <a href="https://msdn.microsoft.com/en-us/library/Mt844815(v=VS.85).aspx">D3D12_WRITEBUFFERIMMEDIATE_PARAMETER</a> structures equal to <i>Count</i>.
 
 
 ### -param pModes [in, optional]
 
-The address of an array containing a number of  <a href="https://msdn.microsoft.com/0AB6674C-B73E-4C38-8B6F-18B9BE596B71">D3D12_WRITEBUFFERIMMEDIATE_MODE</a> structures equal to <i>Count</i>. The default value is <b>null</b>; passing <b>null</b> causes the system to write all immediate values using <b>D3D12_WRITEBUFFERIMMEDIATE_MODE_DEFAULT</b>.
+The address of an array containing a number of  <a href="https://msdn.microsoft.com/en-us/library/Mt844814(v=VS.85).aspx">D3D12_WRITEBUFFERIMMEDIATE_MODE</a> structures equal to <i>Count</i>. The default value is <b>null</b>; passing <b>null</b> causes the system to write all immediate values using <b>D3D12_WRITEBUFFERIMMEDIATE_MODE_DEFAULT</b>.
 
 
 ## -returns
@@ -99,7 +99,7 @@ The receiving buffer (resource) must be in the <b>D3D12_RESOURCE_STATE_COPY_DEST
 
 
 
-<a href="https://msdn.microsoft.com/6A1BF079-CAE7-45E9-A95F-E19ACD380143">ID3D12GraphicsCommandList2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt844817(v=VS.85).aspx">ID3D12GraphicsCommandList2</a>
  
 
  

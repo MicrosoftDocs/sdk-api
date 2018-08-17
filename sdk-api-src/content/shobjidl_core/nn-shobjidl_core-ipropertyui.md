@@ -108,7 +108,7 @@ Developers should use <a href="https://msdn.microsoft.com/en-us/library/Bb761561
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="shell.IPropertyUI_GetFlags">GetFlags</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd370748(v=VS.85).aspx">GetFlags</a>
 </td>
 <td align="left" width="63%">
 Developers should use <a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a> instead. Gets property feature flags for a specified property.

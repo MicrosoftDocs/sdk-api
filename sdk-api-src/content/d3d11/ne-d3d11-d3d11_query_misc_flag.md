@@ -61,14 +61,14 @@ Flags that describe miscellaneous query behavior.
 
 ### -field D3D11_QUERY_MISC_PREDICATEHINT
 
-Tell the hardware that if it is not yet sure if something is hidden or not to draw it anyway. This is only used with an occlusion predicate. Predication data cannot be returned to your application via <a href="https://msdn.microsoft.com/338d02ad-2227-49e5-9b4f-fb86a3898f73">ID3D11DeviceContext::GetData</a> when using this flag.
+Tell the hardware that if it is not yet sure if something is hidden or not to draw it anyway. This is only used with an occlusion predicate. Predication data cannot be returned to your application via <a href="https://msdn.microsoft.com/en-us/library/Ff476428(v=VS.85).aspx">ID3D11DeviceContext::GetData</a> when using this flag.
 
 
 ## -remarks
 
 
 
-This flag is part of a query description (see <a href="https://msdn.microsoft.com/2ed8e380-744b-41e1-87c8-9c7e8100ea2f">D3D11_QUERY_DESC</a>).
+This flag is part of a query description (see <a href="https://msdn.microsoft.com/en-us/library/Ff476195(v=VS.85).aspx">D3D11_QUERY_DESC</a>).
 
 
 
@@ -78,7 +78,7 @@ This flag is part of a query description (see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/1641713a-5ac8-4597-900b-1bba54f9f522">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476152(v=VS.85).aspx">Core Enumerations</a>
  
 
  

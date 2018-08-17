@@ -7,7 +7,7 @@ old-location: security\adjusttokengroups.htm
 old-project: secauthz
 ms.assetid: 839c4b58-4c61-4f72-8337-1e3dfa267ee5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: AdjustTokenGroups, AdjustTokenGroups function [Security], _win32_adjusttokengroups, security.adjusttokengroups, securitybaseapi/AdjustTokenGroups
 ms.prod: windows
 ms.technology: windows-sdk

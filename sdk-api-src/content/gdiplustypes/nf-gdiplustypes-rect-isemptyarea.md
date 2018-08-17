@@ -86,7 +86,7 @@ A rectangle is defined as empty if either the width or the height is zero or les
 
 
 The following example creates a 
-						<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a> object, inflates the dimensions of the rectangle, and determines whether the rectangle is empty.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a> object, inflates the dimensions of the rectangle, and determines whether the rectangle is empty.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -126,7 +126,7 @@ The following example creates a
 
 
 
-<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a>
 
 
 

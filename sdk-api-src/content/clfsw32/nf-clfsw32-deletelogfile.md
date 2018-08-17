@@ -78,14 +78,7 @@ This  name is specified when creating the log  by using  <a href="https://msdn.m
   For more information, see <a href="https://msdn.microsoft.com/a7099979-346c-434d-8af1-6bf1d5a0512f">Log Types</a>.
 
 
-### -param OPTIONAL
-
-TBD
-
-
-
-
-#### - pvReserved [in, optional]
+### -param pvReserved [in, optional]
 
 This parameter is reserved and should be set to <b>NULL</b>.
 

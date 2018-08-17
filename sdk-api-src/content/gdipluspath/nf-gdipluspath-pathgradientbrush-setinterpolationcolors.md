@@ -62,9 +62,9 @@ The <b>PathGradientBrush::SetInterpolationColors</b> method sets the preset colo
 
 ### -param presetColors [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a>*</b>
 
-Pointer to an array of <a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a> objects that specifies the interpolation colors for the gradient. A color of a given index in the 
+Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a> objects that specifies the interpolation colors for the gradient. A color of a given index in the 
 					<i>presetColors</i> array corresponds to the blend position of that same index in the 
 					<i>blendPositions</i> array. 
 
@@ -80,7 +80,7 @@ Pointer to an array that specifies the blend positions. Each blend position is a
 
 Type: <b>INT</b>
 
-Integer that specifies the number of <a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a> objects in the 
+Integer that specifies the number of <a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a> objects in the 
 					<i>presetColors</i> array. This is the same as the number of elements in the 
 					<i>blendPositions</i> array. 
 
@@ -89,14 +89,14 @@ Integer that specifies the number of <a href="https://msdn.microsoft.com/dae648f
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
 </strong>
 
 If the method succeeds, it returns <b>Ok</b>, which is an element of the 
-						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
 
 
 
@@ -158,7 +158,7 @@ The following example creates a
 
 
 
-<a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a>
 
 
 

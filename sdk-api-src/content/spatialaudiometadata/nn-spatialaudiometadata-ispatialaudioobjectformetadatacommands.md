@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioobjectformetadatacommands.htm
 old-project: CoreAudio
 ms.assetid: B142D5CC-7321-4F3C-804D-50E728C37D10
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/14/2018
 ms.keywords: ISpatialAudioObjectForMetadataCommands, ISpatialAudioObjectForMetadataCommands interface [Core Audio], ISpatialAudioObjectForMetadataCommands interface [Core Audio],described, coreaudio.ispatialaudioobjectformetadatacommands, spatialaudiometadata/ISpatialAudioObjectForMetadataCommands
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ This interface is a part of  Windows Sonic, Microsoft’s audio platform for mor
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpatialAudioObjectForMetadataCommands</b> interface inherits from <a href="coreaudio.ispatialaudioobjectbase">ISpatialAudioObjectBase</a>. <b>ISpatialAudioObjectForMetadataCommands</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpatialAudioObjectForMetadataCommands</b> interface inherits from <a href="https://msdn.microsoft.com/library/Mt829727(v=VS.85).aspx">ISpatialAudioObjectBase</a>. <b>ISpatialAudioObjectForMetadataCommands</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -88,7 +88,7 @@ Writes a metadata command to the spatial audio object, each command may only be 
 
 
 
-<div class="alert"><b>Note</b>  Many of the methods provided by this interface are implemented in the inherited <a href="coreaudio.ispatialaudioobjectbase">ISpatialAudioObjectBase</a> interface.</div>
+<div class="alert"><b>Note</b>  Many of the methods provided by this interface are implemented in the inherited <a href="https://msdn.microsoft.com/library/Mt829727(v=VS.85).aspx">ISpatialAudioObjectBase</a> interface.</div>
 <div> </div>
 
 
@@ -98,7 +98,7 @@ Writes a metadata command to the spatial audio object, each command may only be 
 
 
 
-<a href="coreaudio.ispatialaudioobjectbase">ISpatialAudioObjectBase</a>
+<a href="https://msdn.microsoft.com/library/Mt829727(v=VS.85).aspx">ISpatialAudioObjectBase</a>
  
 
  

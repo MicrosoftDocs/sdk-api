@@ -129,7 +129,7 @@ A memory allocation failure occurred.
 
 
 
-<a href="https://msdn.microsoft.com/16612641-2bff-4e6f-a955-85793021a20b">ITfLangBarItem</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms628701(v=VS.85).aspx">ITfLangBarItem</a>
 
 
 

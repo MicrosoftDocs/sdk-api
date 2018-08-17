@@ -73,7 +73,7 @@ The <b>IEnumWIA_DEV_CAPS</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/00129d58-d3e1-46c3-9dad-3787fafc2ba7">Clone</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms629836(v=VS.85).aspx">Clone</a>
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms629836(v=VS.85).aspx">IEnumWIA_DEV_CAPS::Clone</a> method creates an additional instance of the <b>IEnumWIA_DEV_CAPS</b> interface and sends back a pointer to it.
@@ -82,7 +82,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms629836(v=VS.85).aspx">IE
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c9418d1f-0890-4771-9641-5ea723449779">GetCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms629839(v=VS.85).aspx">GetCount</a>
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms629839(v=VS.85).aspx">IEnumWIA_DEV_CAPS::GetCount</a> method returns the number of elements stored by this enumerator.
@@ -91,7 +91,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms629839(v=VS.85).aspx">IE
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a2d4bc7a-cf2c-4ac2-9ae4-43334ddcb171">Next</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms630167(v=VS.85).aspx">Next</a>
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms630167(v=VS.85).aspx">IEnumWIA_DEV_CAPS::Next</a> method fills an array of pointers to <a href="https://msdn.microsoft.com/en-us/library/ms629872(v=VS.85).aspx">WIA_DEV_CAP</a> structures.
@@ -101,7 +101,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms630167(v=VS.85).aspx">IE
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c5a3239d-f60d-4bff-b788-155286e97545">Reset</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms630168(v=VS.85).aspx">Reset</a>
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms630168(v=VS.85).aspx">IEnumWIA_DEV_CAPS::Reset</a> method is used by applications to restart the enumeration of device capabilities.
@@ -110,7 +110,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms630168(v=VS.85).aspx">IE
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/172f9ba6-5ca8-4d42-ba6b-5e9e5606b67d">Skip</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms630169(v=VS.85).aspx">Skip</a>
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms630169(v=VS.85).aspx">IEnumWIA_DEV_CAPS::Skip</a> method skips the specified number of hardware device capabilities during an enumeration of available device capabilities.

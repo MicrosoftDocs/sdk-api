@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/FB426909-3C91-4709-9E3A-E45C7AE345A3">Table transfer effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh706373(v=VS.85).aspx">Table transfer effect</a>.
         
 
 

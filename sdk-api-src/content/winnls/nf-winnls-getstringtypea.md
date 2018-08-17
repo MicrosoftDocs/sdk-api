@@ -132,7 +132,7 @@ Returns a nonzero value if successful, or 0 otherwise. To get extended error inf
 
 
 
-For an overview of the use of the string functions, see <a href="_win32_strings_cpp">Strings</a>.
+For an overview of the use of the string functions, see <a href="https://msdn.microsoft.com/en-us/library/ms646979(v=VS.85).aspx">Strings</a>.
 
 This function converts the source string to Unicode and calls the 
 corresponding <a href="https://msdn.microsoft.com/092541ea-e568-4aa3-b99e-ce0bac9c120b">GetStringTypeW</a> function. Thus the words in the output buffer correspond not to the original ANSI string but to its Unicode equivalent. The conversion from ANSI to Unicode can result in a change in string length, for example, a pair of ANSI characters can map to a single 

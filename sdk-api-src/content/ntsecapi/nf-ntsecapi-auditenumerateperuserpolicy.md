@@ -7,7 +7,7 @@ old-location: security\auditenumerateperuserpolicy_func.htm
 old-project: secauthz
 ms.assetid: 4b13f021-ba08-4eb8-9c7a-0512992ef272
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: AuditEnumeratePerUserPolicy, AuditEnumeratePerUserPolicy function [Security], ntsecapi/AuditEnumeratePerUserPolicy, security.auditenumerateperuserpolicy_func
 ms.prod: windows
 ms.technology: windows-sdk

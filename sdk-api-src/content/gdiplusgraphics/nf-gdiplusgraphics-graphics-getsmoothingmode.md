@@ -53,7 +53,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Graphics::GetSmoothingMode</b> method determines whether smoothing (antialiasing) is applied to the 
-			<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object.
+			<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms53417
 </strong>
 
 If smoothing (antialiasing) is applied to this 
-						<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object, this method returns SmoothingModeAntiAlias. If smoothing (antialiasing) is not applied to this 
+						<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object, this method returns SmoothingModeAntiAlias. If smoothing (antialiasing) is not applied to this 
 						<b>Graphics</b> object, this method returns SmoothingModeNone. SmoothingModeAntiAlias and SmoothingModeNone are elements of the 
 						<a href="https://msdn.microsoft.com/en-us/library/ms534173(v=VS.85).aspx">SmoothingMode</a> enumeration.
 
@@ -136,7 +136,7 @@ The following example sets the smoothing mode to high speed and draws an ellipse
 
 
 
-<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
 
 
 

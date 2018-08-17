@@ -62,9 +62,9 @@ Retrieves a render-state value for a device.
 
 ### -param State [in]
 
-Type: <b><a href="https://msdn.microsoft.com/2fd56388-f3bd-409f-876c-ae893840b623">D3DRENDERSTATETYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172599(v=VS.85).aspx">D3DRENDERSTATETYPE</a></b>
 
-Device state variable that is being queried. This parameter can be any member of the <a href="https://msdn.microsoft.com/2fd56388-f3bd-409f-876c-ae893840b623">D3DRENDERSTATETYPE</a> enumerated type. 
+Device state variable that is being queried. This parameter can be any member of the <a href="https://msdn.microsoft.com/en-us/library/Bb172599(v=VS.85).aspx">D3DRENDERSTATETYPE</a> enumerated type. 
 
 
 ### -param pValue [out, retval]

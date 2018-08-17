@@ -52,7 +52,7 @@ req.irql:
 
 
 Identifies your implementation of the 
-<a href="https://msdn.microsoft.com/e1aa6775-d1e5-4463-ae0f-32c0498881e1">IBackgroundCopyCallback</a> interface to BITS. Use the 
+<a href="https://msdn.microsoft.com/en-us/library/Aa362867(v=VS.85).aspx">IBackgroundCopyCallback</a> interface to BITS. Use the 
 <b>IBackgroundCopyCallback</b> interface to receive notification of job-related events.
 
 
@@ -71,7 +71,7 @@ Identifies your implementation of the
 #### - pNotifyInterface
 
 An 
-<a href="https://msdn.microsoft.com/e1aa6775-d1e5-4463-ae0f-32c0498881e1">IBackgroundCopyCallback</a> interface pointer. To remove the current callback interface pointer, set this parameter to <b>NULL</b>.
+<a href="https://msdn.microsoft.com/en-us/library/Aa362867(v=VS.85).aspx">IBackgroundCopyCallback</a> interface pointer. To remove the current callback interface pointer, set this parameter to <b>NULL</b>.
 
 
 ## -returns
@@ -118,9 +118,9 @@ The state of the job cannot be BG_JOB_STATE_CANCELLED or BG_JOB_STATE_ACKNOWLEDG
 
 
 Call this method only if you implement the 
-<a href="https://msdn.microsoft.com/e1aa6775-d1e5-4463-ae0f-32c0498881e1">IBackgroundCopyCallback</a> interface. Use the 
+<a href="https://msdn.microsoft.com/en-us/library/Aa362867(v=VS.85).aspx">IBackgroundCopyCallback</a> interface. Use the 
 <b>SetNotifyInterface</b> method in conjunction with the 
-<a href="https://msdn.microsoft.com/24aa6445-d7bd-4825-9121-402e63ae6f69">SetNotifyFlags</a> method to specify the type of notification that you want to receive. 
+<a href="https://msdn.microsoft.com/en-us/library/Aa363044(v=VS.85).aspx">SetNotifyFlags</a> method to specify the type of notification that you want to receive. 
 
 The notification interface becomes invalid when your application terminates; BITS does not persist the notify interface. As a result, your application's initialization process should call the 
 <b>SetNotifyInterface</b> method on those existing jobs for which you want to receive notification. If you need to capture state and progress information that occurred since the last time your application was run, poll for state and progress information during application initialization.
@@ -128,7 +128,7 @@ The notification interface becomes invalid when your application terminates; BIT
 Note that BITS will call your callback even if the event for which you registered already occurred.
 
 As an alternative to receiving callback notification, you can register to have BITS execute a command line for error and transferred events. For more details, see the 
-<a href="https://msdn.microsoft.com/61b99d01-ca0f-4a89-b7ca-77d23c21a9ad">IBackgroundCopyJob2::SetNotifyCmdLine</a> method.
+<a href="https://msdn.microsoft.com/en-us/library/Aa362988(v=VS.85).aspx">IBackgroundCopyJob2::SetNotifyCmdLine</a> method.
 
 Note that if more than one application calls the  <b>SetNotifyInterface</b> method to set the notification interface for the job, the last application to call the <b>SetNotifyInterface</b> method is the one that will receive notifications—the other applications will not receive notifications.
 
@@ -137,8 +137,8 @@ Note that if more than one application calls the  <b>SetNotifyInterface</b> meth
 
 The following example shows how to call the 
 <b>SetNotifyInterface</b> method. For details on the CNotifyInterface example class used in the following example, see the 
-<a href="https://msdn.microsoft.com/e1aa6775-d1e5-4463-ae0f-32c0498881e1">IBackgroundCopyCallback</a> interface. The example assumes the 
-<a href="https://msdn.microsoft.com/91dd1ae1-1740-4d95-a476-fc18aead1dc2">IBackgroundCopyJob</a> interface pointer is valid.
+<a href="https://msdn.microsoft.com/en-us/library/Aa362867(v=VS.85).aspx">IBackgroundCopyCallback</a> interface. The example assumes the 
+<a href="https://msdn.microsoft.com/en-us/library/Aa362973(v=VS.85).aspx">IBackgroundCopyJob</a> interface pointer is valid.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -173,19 +173,19 @@ if (FAILED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/e1aa6775-d1e5-4463-ae0f-32c0498881e1">IBackgroundCopyCallback</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362867(v=VS.85).aspx">IBackgroundCopyCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/61b99d01-ca0f-4a89-b7ca-77d23c21a9ad">IBackgroundCopyJob2::SetNotifyCmdLine</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362988(v=VS.85).aspx">IBackgroundCopyJob2::SetNotifyCmdLine</a>
 
 
 
-<a href="https://msdn.microsoft.com/6a954fbc-baf6-4efa-bec0-dd86b4b7a916">IBackgroundCopyJob::GetNotifyInterface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363031(v=VS.85).aspx">IBackgroundCopyJob::GetNotifyInterface</a>
 
 
 
-<a href="https://msdn.microsoft.com/24aa6445-d7bd-4825-9121-402e63ae6f69">IBackgroundCopyJob::SetNotifyFlags</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363044(v=VS.85).aspx">IBackgroundCopyJob::SetNotifyFlags</a>
  
 
  

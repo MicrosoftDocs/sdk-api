@@ -7,7 +7,7 @@ old-location: base\getservicedisplayname.htm
 old-project: services
 ms.assetid: 704812f3-134c-4161-b3b4-a955d87ff563
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: GetServiceDisplayName, GetServiceDisplayName function, GetServiceDisplayNameA, GetServiceDisplayNameW, _win32_getservicedisplayname, base.getservicedisplayname, winsvc/GetServiceDisplayName, winsvc/GetServiceDisplayNameA, winsvc/GetServiceDisplayNameW
 ms.prod: windows
 ms.technology: windows-sdk

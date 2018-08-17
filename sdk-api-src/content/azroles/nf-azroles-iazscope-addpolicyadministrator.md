@@ -7,7 +7,7 @@ old-location: security\iazscope_addpolicyadministrator.htm
 old-project: secauthz
 ms.assetid: 7aa77615-1f12-4641-877e-87b26343db4d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: AddPolicyAdministrator, AddPolicyAdministrator method [Security], AddPolicyAdministrator method [Security],AzScope object, AddPolicyAdministrator method [Security],IAzScope interface, AzScope object [Security],AddPolicyAdministrator method, IAzScope interface [Security],AddPolicyAdministrator method, IAzScope.AddPolicyAdministrator, IAzScope::AddPolicyAdministrator, azroles/IAzScope::AddPolicyAdministrator, security.iazscope_addpolicyadministrator
 ms.prod: windows
 ms.technology: windows-sdk

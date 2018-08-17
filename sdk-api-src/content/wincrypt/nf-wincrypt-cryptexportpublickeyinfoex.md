@@ -4,10 +4,10 @@ title: CryptExportPublicKeyInfoEx function
 author: windows-sdk-content
 description: Exports the public key information associated with the provider's corresponding private key.
 old-location: security\cryptexportpublickeyinfoex.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 38274222-90b3-4038-86d3-6b2813100ce2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: CryptExportPublicKeyInfoEx, CryptExportPublicKeyInfoEx function [Security], _crypto2_cryptexportpublickeyinfoex, security.cryptexportpublickeyinfoex, wincrypt/CryptExportPublicKeyInfoEx
 ms.prod: windows
 ms.technology: windows-sdk

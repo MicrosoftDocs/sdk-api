@@ -7,7 +7,7 @@ old-location: iphlp\getownermodulefromudpentry.htm
 old-project: iphlp
 ms.assetid: bd8f82b0-4a2d-48f1-8ae7-85257c6ae656
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: GetOwnerModuleFromUdpEntry, GetOwnerModuleFromUdpEntry function [IP Helper], iphlp.getownermodulefromudpentry, iphlpapi/GetOwnerModuleFromUdpEntry
 ms.prod: windows
 ms.technology: windows-sdk

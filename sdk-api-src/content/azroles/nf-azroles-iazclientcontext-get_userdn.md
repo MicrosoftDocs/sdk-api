@@ -7,7 +7,7 @@ old-location: security\iazclientcontext_userdn.htm
 old-project: secauthz
 ms.assetid: 1561352c-254e-41a2-bfc9-795a678ce180
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: AzClientContext object [Security],UserDn property, IAzClientContext interface [Security],UserDn property, IAzClientContext.UserDn, IAzClientContext.get_UserDn, IAzClientContext::UserDn, IAzClientContext::get_UserDn, UserDn property [Security], UserDn property [Security],AzClientContext object, UserDn property [Security],IAzClientContext interface, azroles/IAzClientContext::UserDn, azroles/IAzClientContext::get_UserDn, get_UserDn, security.iazclientcontext_userdn
 ms.prod: windows
 ms.technology: windows-sdk

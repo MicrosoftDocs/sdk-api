@@ -54,7 +54,7 @@ req.product: GDI+ 1.1
 
 The <b>DitherType</b> enumeration identifies the available algorithms for dithering when a bitmap is converted. 
 
-Calling the <a href="https://msdn.microsoft.com/en-us/library/ms536306(v=VS.85).aspx">Bitmap::ConvertFormat</a> method of a <a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a> object changes the pixel format of that <b>Bitmap</b>. If the conversion results in a reduced bit depth (fewer bits per pixel), then certain colors in the original bitmap will be simulated by a dither (checkerboard) pattern made up of colors that are available in the new pixel format. The members of the <b>DitherType</b> enumeration identify the algorithms available for performing this dithering.
+Calling the <a href="https://msdn.microsoft.com/en-us/library/ms536306(v=VS.85).aspx">Bitmap::ConvertFormat</a> method of a <a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a> object changes the pixel format of that <b>Bitmap</b>. If the conversion results in a reduced bit depth (fewer bits per pixel), then certain colors in the original bitmap will be simulated by a dither (checkerboard) pattern made up of colors that are available in the new pixel format. The members of the <b>DitherType</b> enumeration identify the algorithms available for performing this dithering.
 
 
 ## -enum-fields

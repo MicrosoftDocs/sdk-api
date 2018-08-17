@@ -4,10 +4,10 @@ title: CertCompareIntegerBlob function
 author: windows-sdk-content
 description: The CertCompareIntegerBlob function compares two integer BLOBs to determine whether they represent equal numeric values.
 old-location: security\certcompareintegerblob.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 467ce464-2f22-4583-a745-711ba3b05f4f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: CertCompareIntegerBlob, CertCompareIntegerBlob function [Security], _crypto2_certcompareintegerblob, security.certcompareintegerblob, wincrypt/CertCompareIntegerBlob
 ms.prod: windows
 ms.technology: windows-sdk

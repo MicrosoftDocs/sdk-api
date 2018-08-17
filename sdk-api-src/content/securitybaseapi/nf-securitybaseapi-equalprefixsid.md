@@ -7,7 +7,7 @@ old-location: security\equalprefixsid.htm
 old-project: secauthz
 ms.assetid: ef41de63-4ab5-40c6-8b16-b960e1308b5b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: EqualPrefixSid, EqualPrefixSid function [Security], _win32_equalprefixsid, security.equalprefixsid, securitybaseapi/EqualPrefixSid
 ms.prod: windows
 ms.technology: windows-sdk

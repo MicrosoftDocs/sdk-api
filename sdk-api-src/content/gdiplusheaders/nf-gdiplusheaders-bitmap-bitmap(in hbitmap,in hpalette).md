@@ -53,7 +53,7 @@ req.product: GDI+ 1.0
 
 
 <span>This topic lists the constructors of the 
-			<a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a> class. For a complete class listing, see <b>Bitmap Class</b>. 
+			<a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a> class. For a complete class listing, see <b>Bitmap Class</b>. 
 </span><h3>Overload list</h3><table>
 <tr>
 <th align="left" width="37%">Constructor</th>
@@ -120,7 +120,7 @@ Creates a <a href="https://msdn.microsoft.com/en-us/library/ms536312(v=VS.85).as
 <a href="https://msdn.microsoft.com/en-us/library/ms536311(v=VS.85).aspx">Bitmap(INT,INT,Graphics*)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms536311(v=VS.85).aspx">Bitmap::Bitmap</a> object based on a <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object, a width, and a height.
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms536311(v=VS.85).aspx">Bitmap::Bitmap</a> object based on a <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object, a width, and a height.
 
 </td>
 </tr>

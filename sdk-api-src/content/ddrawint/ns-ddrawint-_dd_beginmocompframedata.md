@@ -7,7 +7,7 @@ old-location: display\dd_beginmocompframedata.htm
 old-project: display
 ms.assetid: 4a75642d-87e3-4c95-be67-2d494bf6122e
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/13/2018
 ms.keywords: "*PDD_BEGINMOCOMPFRAMEDATA, DD_BEGINMOCOMPFRAMEDATA, DD_BEGINMOCOMPFRAMEDATA structure [Display Devices], _DD_BEGINMOCOMPFRAMEDATA, ddrawint/DD_BEGINMOCOMPFRAMEDATA, ddstrcts_6e61d707-7245-4d0d-aaa5-f63bb610d2e5.xml, display.dd_beginmocompframedata"
 ms.prod: windows
 ms.technology: windows-sdk

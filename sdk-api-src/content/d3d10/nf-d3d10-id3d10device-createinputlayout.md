@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_createinputlayout.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_createinputlayout.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 1535092d-4b37-123e-52db-51ce771e66b9, CreateInputLayout, CreateInputLayout method [Direct3D 10], CreateInputLayout method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreateInputLayout method, ID3D10Device.CreateInputLayout, ID3D10Device::CreateInputLayout, d3d10/ID3D10Device::CreateInputLayout, direct3d10.id3d10device_createinputlayout
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,7 +69,7 @@ An array of the input-assembler stage input data types; each type is described b
 
 ### -param NumElements [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 The number of input-data types in the array of input-elements.
 
@@ -83,7 +83,7 @@ A pointer to the compiled shader. To get this pointer see <a href="https://msdn.
 
 ### -param BytecodeLength [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">SIZE_T</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">SIZE_T</a></b>
 
 Size of the compiled shader.
 

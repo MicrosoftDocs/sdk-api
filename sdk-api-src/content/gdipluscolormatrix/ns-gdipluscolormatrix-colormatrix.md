@@ -81,7 +81,7 @@ A 5×5 color matrix is a homogeneous matrix for a 4-space transformation. The el
 
 
 
-<a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a>
 
 
 

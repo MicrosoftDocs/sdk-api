@@ -64,12 +64,12 @@ The <b>GetProgramProperties</b> method retrieves the properties for a specified 
 
 ### -param varProgramDescriptionID [in]
 
-Specifies the unique identifier for the program. Call the <a href="https://msdn.microsoft.com/d182057a-096b-4286-8174-a3ce25c1c86f">IGuideData::GetGuideProgramIDs</a> method to get a list of program identifiers.
+Specifies the unique identifier for the program. Call the <a href="https://msdn.microsoft.com/en-us/library/Dd694112(v=VS.85).aspx">IGuideData::GetGuideProgramIDs</a> method to get a list of program identifiers.
 
 
 ### -param ppEnumProperties [out]
 
-Pointer to a variable that receives an <a href="https://msdn.microsoft.com/ae4db426-7e90-4cb6-b53a-2cb7074308fc">IEnumGuideDataProperties</a> interface pointer. Use this interface to enumerate the properties. The caller must release the interface.
+Pointer to a variable that receives an <a href="https://msdn.microsoft.com/en-us/library/Dd693993(v=VS.85).aspx">IEnumGuideDataProperties</a> interface pointer. Use this interface to enumerate the properties. The caller must release the interface.
 
 
 ## -returns
@@ -128,7 +128,7 @@ The returned collection includes the following properties.
 </table>
  
 
-The method fails if the TIF has not received the program information from the PSI tables in the transport stream. The client should implement the <a href="https://msdn.microsoft.com/9da565f2-fbcb-4d71-ae40-7d9821f46630">IGuideDataEvent</a> interface and wait for the <a href="https://msdn.microsoft.com/06fcf24b-5d35-4689-9c88-240fe18a46de">IGuideDataEvent::ProgramChanged</a> event to be fired.
+The method fails if the TIF has not received the program information from the PSI tables in the transport stream. The client should implement the <a href="https://msdn.microsoft.com/en-us/library/Dd694099(v=VS.85).aspx">IGuideDataEvent</a> interface and wait for the <a href="https://msdn.microsoft.com/en-us/library/Dd694101(v=VS.85).aspx">IGuideDataEvent::ProgramChanged</a> event to be fired.
 
 
 
@@ -138,11 +138,11 @@ The method fails if the TIF has not received the program information from the PS
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/3bd27fce-90be-480b-b157-a17beccda068">IGuideData Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694098(v=VS.85).aspx">IGuideData Interface</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: display\drvqueryfontcaps.htm
 old-project: display
 ms.assetid: 304ee95a-7e40-40cb-a66c-17397dac0a76
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/13/2018
 ms.keywords: DrvQueryFontCaps, DrvQueryFontCaps function [Display Devices], ddifncs_7ae0a56c-3c98-456c-9595-b127f36209a1.xml, display.drvqueryfontcaps, winddi/DrvQueryFontCaps
 ms.prod: windows
 ms.technology: windows-sdk

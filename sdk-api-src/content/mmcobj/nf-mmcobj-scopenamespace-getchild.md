@@ -4,10 +4,10 @@ title: ScopeNamespace::GetChild
 author: windows-sdk-content
 description: The GetChild method returns the first child node for a given scope node. Use the ScopeNamespace.GetNext method to retrieve the siblings of the node returned by the GetChild method.
 old-location: mmc\scopenamespace_getchild.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: 955b35fb-4dbf-4e58-ba90-4dbc93367746
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/14/2018
 ms.keywords: GetChild, GetChild method [MMC], GetChild method [MMC],ScopeNamespace interface, GetChild method [MMC],ScopeNamespace object, ScopeNamespace interface [MMC],GetChild method, ScopeNamespace object [MMC],GetChild method, ScopeNamespace.GetChild, ScopeNamespace::GetChild, _slate_scopenamespace.getchild_method, mmc.scopenamespace_getchild
 ms.prod: windows
 ms.technology: windows-sdk

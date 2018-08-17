@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_instance_getclass.htm
 old-project: wmi_v2
 ms.assetid: 4799e9f0-f233-499f-acec-9041074eab42
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/13/2018
 ms.keywords: MI_Instance_GetClass, MI_Instance_GetClass function [Windows Management Infrastructure (MI)], mi/MI_Instance_GetClass, wmi_v2.mi_instance_getclass
 ms.prod: windows
 ms.technology: windows-sdk

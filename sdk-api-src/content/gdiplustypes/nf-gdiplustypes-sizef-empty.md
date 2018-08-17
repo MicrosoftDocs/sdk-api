@@ -123,7 +123,7 @@ if(size.Empty())
 
 
 
-<a href="https://msdn.microsoft.com/d5be390d-11c7-47e3-8cd0-335fb6b031fd">Size</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534504(v=VS.85).aspx">Size</a>
 
 
 

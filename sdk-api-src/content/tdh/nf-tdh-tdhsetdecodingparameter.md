@@ -4,10 +4,10 @@ title: TdhSetDecodingParameter function
 author: windows-sdk-content
 description: Sets the value of a decoding parameter.
 old-location: etw\tdhsetdecodingparameter.htm
-old-project: ETW
+old-project: etw
 ms.assetid: 00a286f4-cf0f-46d5-a797-bb7494a68034
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/08/2018
 ms.keywords: TdhSetDecodingParameter, TdhSetDecodingParameter function [ETW], etw.tdhsetdecodingparameter, tdh/TdhSetDecodingParameter
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: CryptXmlGetSignature function
 author: windows-sdk-content
 description: Returns an XML Signature element.
 old-location: security\cryptxmlgetsignature.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: ef6748eb-1d3b-43e0-9525-2b588c2ae13f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: CryptXmlGetSignature, CryptXmlGetSignature function [Security], cryptxml/CryptXmlGetSignature, security.cryptxmlgetsignature
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ The handle of the <b>Signature</b> element.
 
 ### -param ppStruct [out]
 
-A pointer to a  pointer to a <a href="https://msdn.microsoft.com/d9930946-aec0-42a4-949f-af8b2e9c6e6c">CRYPT_XML_SIGNATURE</a> structure to receive the signature.
+A pointer to a  pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd433864(v=VS.85).aspx">CRYPT_XML_SIGNATURE</a> structure to receive the signature.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: security\azauthorizationstore_addpolicyreader.htm
 old-project: secauthz
 ms.assetid: 52872839-1066-4a43-8549-b7f37a0ebe40
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: AddPolicyReader, AddPolicyReader method [Security], AddPolicyReader method [Security],AzAuthorizationStore object, AddPolicyReader method [Security],IAzAuthorizationStore interface, AzAuthorizationStore object [Security],AddPolicyReader method, IAzAuthorizationStore interface [Security],AddPolicyReader method, IAzAuthorizationStore.AddPolicyReader, IAzAuthorizationStore::AddPolicyReader, azroles/IAzAuthorizationStore::AddPolicyReader, security.azauthorizationstore_addpolicyreader
 ms.prod: windows
 ms.technology: windows-sdk

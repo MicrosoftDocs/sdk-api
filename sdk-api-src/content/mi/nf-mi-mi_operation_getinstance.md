@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_operation_getinstance.htm
 old-project: wmi_v2
 ms.assetid: 25c2d3fa-276d-4506-a044-4057c8cdc863
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/13/2018
 ms.keywords: MI_Operation_GetInstance, MI_Operation_GetInstance function [Windows Management Infrastructure (MI)], mi/MI_Operation_GetInstance, wmi_v2.mi_operation_getinstance
 ms.prod: windows
 ms.technology: windows-sdk

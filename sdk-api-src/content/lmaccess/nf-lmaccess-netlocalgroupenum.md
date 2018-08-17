@@ -61,11 +61,9 @@ The
 
 
 
-### -param OPTIONAL
+### -param servername [in]
 
-TBD
-
-
+Pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
 
 
 ### -param level [in]
@@ -128,14 +126,9 @@ Pointer to a value that receives the count of elements actually enumerated.
 Pointer to a value that receives the approximate total number of entries that could have been enumerated from the current resume position. The total number of entries is only a hint. For more information about determining the exact number of entries, see the following Remarks section.
 
 
-#### - resumehandle [in, out]
+### -param resumehandle [in, out]
 
 Pointer to a value that contains a resume handle that is used to continue an existing local group search. The handle should be zero on the first call and left unchanged for subsequent calls. If this parameter is <b>NULL</b>, then no resume handle is stored. For more information, see the following Remarks section.
-
-
-#### - servername [in]
-
-Pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
 
 
 ## -returns

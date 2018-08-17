@@ -53,14 +53,14 @@ req.irql:
 
 The <b>ITfLangBarItemBalloon</b> interface is implemented by an application or text service and is used by the language bar manager to obtain information specific to a balloon item on the language bar.
 
-The language bar manager obtains an instance of this interface by calling QueryInterface on the <a href="https://msdn.microsoft.com/16612641-2bff-4e6f-a955-85793021a20b">ITfLangBarItem</a> passed to <a href="https://msdn.microsoft.com/c9a36b2c-e7ea-4932-928e-05dd05ca02ca">ITfLangBarItemMgr::AddItem</a> with IID_ITfLangBarItemBalloon.
+The language bar manager obtains an instance of this interface by calling QueryInterface on the <a href="https://msdn.microsoft.com/en-us/library/ms628701(v=VS.85).aspx">ITfLangBarItem</a> passed to <a href="https://msdn.microsoft.com/en-us/library/ms628724(v=VS.85).aspx">ITfLangBarItemMgr::AddItem</a> with IID_ITfLangBarItemBalloon.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfLangBarItemBalloon</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfLangBarItemBalloon</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfLangBarItemBalloon</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ITfLangBarItemBalloon</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -73,7 +73,7 @@ The <b>ITfLangBarItemBalloon</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4cf695dc-dfb7-4541-a364-4395650f9419">GetBalloonInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms628703(v=VS.85).aspx">GetBalloonInfo</a>
 </td>
 <td align="left" width="63%">
 Obtains information about the balloon.
@@ -82,7 +82,7 @@ Obtains information about the balloon.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/73f3a12e-b787-424e-9998-276baee63264">GetPreferredSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms628704(v=VS.85).aspx">GetPreferredSize</a>
 </td>
 <td align="left" width="63%">
 Obtains the preferred size,in pixels, of the balloon.
@@ -91,7 +91,7 @@ Obtains the preferred size,in pixels, of the balloon.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/52592a39-8b79-4e9c-9d8b-1100c9f36eca">OnClick</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms628705(v=VS.85).aspx">OnClick</a>
 </td>
 <td align="left" width="63%">
 Not currently used.

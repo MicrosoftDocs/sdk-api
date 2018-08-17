@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_opensharedresource.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_opensharedresource.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: ID3D10Device interface [Direct3D 10],OpenSharedResource method, ID3D10Device.OpenSharedResource, ID3D10Device::OpenSharedResource, OpenSharedResource, OpenSharedResource method [Direct3D 10], OpenSharedResource method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::OpenSharedResource, direct3d10.id3d10device_opensharedresource, e1b41a59-f80c-625e-e0a5-cc59636f10e1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Give a device access to a shared resource created on a different Direct3d device
 
 ### -param hResource [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HANDLE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HANDLE</a></b>
 
 A resource handle. See remarks.
 

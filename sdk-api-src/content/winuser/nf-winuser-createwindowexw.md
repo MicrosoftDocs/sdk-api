@@ -208,7 +208,7 @@ The following predefined control classes can be specified in the <i>lpClassName<
 <tr>
 <td><b>BUTTON</b></td>
 <td>
-Designates a small rectangular child window that represents a button the user can click to turn it on or off. Button controls can be used alone or in groups, and they can either be labeled or appear without text. Button controls typically change appearance when the user clicks them. For more information, see <a href="_win32_Buttons">Buttons</a>.
+Designates a small rectangular child window that represents a button the user can click to turn it on or off. Button controls can be used alone or in groups, and they can either be labeled or appear without text. Button controls typically change appearance when the user clicks them. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms725173(v=VS.85).aspx">Buttons</a>.
 
 For a table of the button styles you can specify in the <i>dwStyle</i> parameter, see <a href="https://msdn.microsoft.com/en-us/library/Bb775951(v=VS.85).aspx">Button Styles</a>.
 
@@ -380,7 +380,7 @@ The <b>WS_EX_NOACTIVATE</b> value for <i>dwExStyle</i> prevents foreground activ
 
 
 
-<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
  
 
  

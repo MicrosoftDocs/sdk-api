@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudiometadatawriter_writenextitemcommand.htm
 old-project: CoreAudio
 ms.assetid: A614AEC6-7CA3-4624-BAFE-46618BCB64FA
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/14/2018
 ms.keywords: ISpatialAudioMetadataWriter interface [Core Audio],WriteNextItemCommand method, ISpatialAudioMetadataWriter.WriteNextItemCommand, ISpatialAudioMetadataWriter::WriteNextItemCommand, WriteNextItemCommand, WriteNextItemCommand method [Core Audio], WriteNextItemCommand method [Core Audio],ISpatialAudioMetadataWriter interface, coreaudio.ispatialaudiometadatawriter_writenextitemcommand, spatialaudiometadata/ISpatialAudioMetadataWriter::WriteNextItemCommand
 ms.prod: windows
 ms.technology: windows-sdk

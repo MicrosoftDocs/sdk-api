@@ -52,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Initializes a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure with a string.
+Initializes a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure with a string.
 
 
 ## -parameters
@@ -64,14 +64,14 @@ Initializes a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structu
 
 Type: <b>PCWSTR</b>
 
-Pointer to a buffer that contains the source Unicode string. If this value is <b>NULL</b>, the function initializes the <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> with a <b>NULL</b> <b>BSTR</b>.
+Pointer to a buffer that contains the source Unicode string. If this value is <b>NULL</b>, the function initializes the <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> with a <b>NULL</b> <b>BSTR</b>.
 
 
 ### -param pvar [out]
 
 Type: <b>VARIANT*</b>
 
-When this function returns, contains the initialized <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
+When this function returns, contains the initialized <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure.
 
 
 ## -returns

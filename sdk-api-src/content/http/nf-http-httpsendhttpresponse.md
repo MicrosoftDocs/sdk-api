@@ -182,11 +182,14 @@ A pointer to an
 <a href="https://msdn.microsoft.com/F94646C0-7293-4543-842B-F08D8C7E2247">HTTP_RESPONSE</a> structure that defines the HTTP response.
 
 
-### -param OPTIONAL
+### -param CachePolicy
 
 TBD
 
 
+### -param BytesSent
+
+TBD
 
 
 ### -param Reserved1 [out]
@@ -199,6 +202,18 @@ When making an asynchronous call using <i>pOverlapped</i>, set <i>pBytesSent</i>
 ### -param Reserved2 [in]
 
 This parameter is reserved and must be <b>NULL</b>.
+
+
+### -param Overlapped
+
+TBD
+
+
+### -param LogData
+
+TBD
+
+
 
 
 #### - Reserved3 [in]

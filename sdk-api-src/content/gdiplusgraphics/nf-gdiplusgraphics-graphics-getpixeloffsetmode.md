@@ -53,7 +53,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Graphics::GetPixelOffsetMode</b> method gets the pixel offset mode currently set for this 
-			<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object. 
+			<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object. 
 
 
 ## -parameters
@@ -71,7 +71,7 @@ Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms53416
 </strong>
 
 This method returns an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534169(v=VS.85).aspx">PixelOffsetMode</a> enumeration that indicates the pixel offset mode currently set for this 
-						<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object.
 
 
 
@@ -81,7 +81,7 @@ This method returns an element of the <a href="https://msdn.microsoft.com/en-us/
 
 
 
-<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
 
 
 

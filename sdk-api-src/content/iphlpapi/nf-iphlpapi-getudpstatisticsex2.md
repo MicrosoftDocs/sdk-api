@@ -7,7 +7,7 @@ old-location: iphlp\getudpstatisticsex2.htm
 old-project: iphlp
 ms.assetid: 8DE392C5-90EF-490D-B53A-58D75A854138
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: AF_INET, AF_INET6, GetUdpStatisticsEx2, GetUdpStatisticsEx2 function [IP Helper], iphlp.getudpstatisticsex2, iphlpapi/GetUdpStatisticsEx2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,8 +51,6 @@ req.product: GDI+ 1.1
 
 ## -description
 
-
-<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
 
 The 
 <b>GetUdpStatisticsEx2</b> function retrieves the User Datagram Protocol (UDP) statistics for the current computer. The 

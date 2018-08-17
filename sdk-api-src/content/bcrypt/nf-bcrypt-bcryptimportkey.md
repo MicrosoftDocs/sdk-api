@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-The <b>BCryptImportKey</b> function imports a symmetric key from a key <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a>. The <a href="https://msdn.microsoft.com/271fc084-6121-4666-b521-b849c7d7966c">BCryptImportKeyPair</a> function is used to import a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public/private key pair</a>.
+The <b>BCryptImportKey</b> function imports a symmetric key from a key <a href="https://msdn.microsoft.com/en-us/library/ms721569(v=VS.85).aspx">BLOB</a>. The <a href="https://msdn.microsoft.com/en-us/library/Aa375472(v=VS.85).aspx">BCryptImportKeyPair</a> function is used to import a <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">public/private key pair</a>.
 
 
 ## -parameters
@@ -254,7 +254,7 @@ To call this function in kernel mode, use Cng.lib, which is part of the Driver D
 
 
 
-<a href="https://msdn.microsoft.com/271fc084-6121-4666-b521-b849c7d7966c">BCryptImportKeyPair</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375472(v=VS.85).aspx">BCryptImportKeyPair</a>
  
 
  

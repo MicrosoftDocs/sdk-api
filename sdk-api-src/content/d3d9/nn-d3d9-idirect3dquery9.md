@@ -72,7 +72,7 @@ The <b>IDirect3DQuery9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5363b5a4-6ac1-4f4e-8d64-949968d2a08a">GetData</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205873(v=VS.85).aspx">GetData</a>
 </td>
 <td align="left" width="63%">
 Polls a queried resource to get the query state or a query result. For more information about queries, see <a href="https://msdn.microsoft.com/en-us/library/Bb147308(v=VS.85).aspx">Queries (Direct3D 9)</a>.
@@ -90,7 +90,7 @@ Gets the number of bytes in the query data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a686b8b1-d2ec-41cd-ad28-caad46d20fc2">GetDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205875(v=VS.85).aspx">GetDevice</a>
 </td>
 <td align="left" width="63%">
 Gets the device that is being queried.
@@ -99,7 +99,7 @@ Gets the device that is being queried.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/292431c4-33d6-477c-943c-fa90503b5f46">GetType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205876(v=VS.85).aspx">GetType</a>
 </td>
 <td align="left" width="63%">
 Gets the query type.

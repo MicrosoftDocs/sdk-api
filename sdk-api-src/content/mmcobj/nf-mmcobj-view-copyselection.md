@@ -4,10 +4,10 @@ title: View::CopySelection
 author: windows-sdk-content
 description: The CopySelection method copies the selected item's data object to the clipboard.
 old-location: mmc\view_copyselection.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: 0ffdbdf5-4c76-495f-bf87-f656f7e9dd22
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/14/2018
 ms.keywords: CopySelection, CopySelection method [MMC], CopySelection method [MMC],View interface, CopySelection method [MMC],View object, View interface [MMC],CopySelection method, View object [MMC],CopySelection method, View.CopySelection, View::CopySelection, _slate_view.copyselection_method, mmc.view_copyselection
 ms.prod: windows
 ms.technology: windows-sdk

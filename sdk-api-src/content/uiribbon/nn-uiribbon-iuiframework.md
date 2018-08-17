@@ -113,7 +113,7 @@ Retrieves the address of a pointer to an interface that represents a Ribbon fram
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bb6525dd-7e05-40e0-bdcc-c66f31a99f46">Initialize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371373(v=VS.85).aspx">Initialize</a>
 </td>
 <td align="left" width="63%">
 Connects the host application to the Ribbon framework.

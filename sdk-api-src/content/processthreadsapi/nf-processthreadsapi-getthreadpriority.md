@@ -7,7 +7,7 @@ old-location: base\getthreadpriority.htm
 old-project: procthread
 ms.assetid: 9e5ce4e8-bdd1-48c3-aa1d-b24b2b7bfb00
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: GetThreadPriority, GetThreadPriority function, _win32_getthreadpriority, base.getthreadpriority, processthreadsapi/GetThreadPriority, winbase/GetThreadPriority
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: PSS_VA_SPACE_INFORMATION
+req.typenames: PROCESS_MEMORY_EXHAUSTION_TYPE, *PPROCESS_MEMORY_EXHAUSTION_TYPE
 topic_type:
  - APIRef
  - kbSyntax

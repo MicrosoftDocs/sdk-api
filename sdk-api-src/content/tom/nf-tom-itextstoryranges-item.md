@@ -127,7 +127,7 @@ Failure for some other reason.
 
 
 
-<a href="https://msdn.microsoft.com/ef7f5b30-c3d1-4b8f-ad2d-925e09cab462">GetCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773939(v=VS.85).aspx">GetCount</a>
 
 
 

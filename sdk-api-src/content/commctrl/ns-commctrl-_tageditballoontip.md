@@ -61,28 +61,28 @@ Contains information about a balloon tip associated with a button control.
 
 ### -field cbStruct
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
 
 A <b>DWORD</b> that contains the size, in bytes, of the structure. 
 
 
 ### -field pszTitle
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCWSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPCWSTR</a></b>
 
 A pointer to a Unicode string that contains the title of the balloon tip. 
 
 
 ### -field pszText
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCWSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPCWSTR</a></b>
 
 A pointer to a Unicode string that contains the balloon tip text. 
 
 
 ### -field ttiIcon
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">INT</a></b>
 
 A value of type <b>INT</b> that specifies the type of icon to associate with the balloon tip. This member can be one of the following values. 
 

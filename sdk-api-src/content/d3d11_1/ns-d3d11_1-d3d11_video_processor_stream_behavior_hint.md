@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Provides information about the input streams passed into the <a href="https://msdn.microsoft.com/DDA8B3DE-A9D2-48A5-ABEE-E3F7A0EEB965">ID3DVideoContext1::VideoProcessorGetBehaviorHints</a> method.
+Provides information about the input streams passed into the <a href="https://msdn.microsoft.com/en-us/library/Dn894132(v=VS.85).aspx">ID3DVideoContext1::VideoProcessorGetBehaviorHints</a> method.
 
 
 ## -struct-fields
@@ -84,7 +84,7 @@ The format of the input stream.
 
 
 
-<a href="https://msdn.microsoft.com/416159A4-F50E-4027-9367-727BA81D2A21">Direct3D 11 Video Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh447680(v=VS.85).aspx">Direct3D 11 Video Structures</a>
  
 
  

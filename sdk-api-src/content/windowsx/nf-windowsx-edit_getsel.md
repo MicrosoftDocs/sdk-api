@@ -71,7 +71,7 @@ A handle to the control.
 
 
 
-This macro does not have the complete functionality of the <a href="https://msdn.microsoft.com/en-us/library/Bb761598(v=VS.85).aspx">EM_GETSEL</a> message, because it does not receive the 32-bit return values in the parameters of <a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a>.
+This macro does not have the complete functionality of the <a href="https://msdn.microsoft.com/en-us/library/Bb761598(v=VS.85).aspx">EM_GETSEL</a> message, because it does not receive the 32-bit return values in the parameters of <a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a>.
 
 
 

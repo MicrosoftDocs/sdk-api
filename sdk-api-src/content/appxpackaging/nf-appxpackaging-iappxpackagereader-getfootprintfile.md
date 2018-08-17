@@ -7,7 +7,7 @@ old-location: appxpkg\iappxpackagereader_getfootprintfile.htm
 old-project: appxpkg
 ms.assetid: 8CCF9135-308F-4BDC-A67F-1E3ED2ACF565
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/15/2018
 ms.keywords: GetFootprintFile, GetFootprintFile method [App packaging and management], GetFootprintFile method [App packaging and management],IAppxPackageReader interface, IAppxPackageReader interface [App packaging and management],GetFootprintFile method, IAppxPackageReader.GetFootprintFile, IAppxPackageReader::GetFootprintFile, appxpackaging/IAppxPackageReader::GetFootprintFile, appxpkg.iappxpackagereader_getfootprintfile
 ms.prod: windows
 ms.technology: windows-sdk

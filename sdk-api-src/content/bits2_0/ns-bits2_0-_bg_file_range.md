@@ -83,11 +83,11 @@ The range must exist in the file or BITS generates an <b>BG_E_INVALID_RANGE</b> 
 
 
 
-<a href="https://msdn.microsoft.com/2e0ea08e-5f97-45c9-9280-ce6c4dce7a17">IBackgroundCopyFile2::GetFileRanges</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362946(v=VS.85).aspx">IBackgroundCopyFile2::GetFileRanges</a>
 
 
 
-<a href="https://msdn.microsoft.com/b3601f23-1a69-47db-8943-7515652cf015">IBackgroundCopyJob3::AddFileWithRanges</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362991(v=VS.85).aspx">IBackgroundCopyJob3::AddFileWithRanges</a>
  
 
  

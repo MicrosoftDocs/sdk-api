@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Brings the <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a>
-<a href="o_gly.htm">online</a>.
+<a href="https://msdn.microsoft.com/en-us/library/Aa371781(v=VS.85).aspx">online</a>.
 
 
 ## -parameters

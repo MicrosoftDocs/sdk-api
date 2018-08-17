@@ -62,9 +62,9 @@ Gets a formatted, Unicode string representation of a property value stored in a 
 
 ### -param pps [in]
 
-Type: <b><a href="shell.IPropertyStore">IPropertyStore</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a>*</b>
 
-Pointer to an <a href="shell.IPropertyStore">IPropertyStore</a>, which represents the property store from which the property value is taken.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a>, which represents the property store from which the property value is taken.
 
 
 ### -param ppd [in]

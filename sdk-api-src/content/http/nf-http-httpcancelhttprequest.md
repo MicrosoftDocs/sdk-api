@@ -70,7 +70,7 @@ A handle to the request queue from which the request came.
 The ID of the request to be canceled.
 
 
-### -param OPTIONAL
+### -param Overlapped
 
 TBD
 

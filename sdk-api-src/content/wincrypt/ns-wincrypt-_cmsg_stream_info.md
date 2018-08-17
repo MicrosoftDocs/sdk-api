@@ -4,10 +4,10 @@ title: "_CMSG_STREAM_INFO"
 author: windows-sdk-content
 description: Used to enable stream processing of data rather than single block processing.
 old-location: security\cmsg_stream_info.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: a4e7f6e8-351f-4981-b223-50b65f503394
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: "*PCMSG_STREAM_INFO, CMSG_STREAM_INFO, CMSG_STREAM_INFO structure [Security], PCMSG_STREAM_INFO, PCMSG_STREAM_INFO structure pointer [Security], _CMSG_STREAM_INFO, _crypto2_cmsg_stream_info, cbData, fFinal, pbData, pvArg, security.cmsg_stream_info, wincrypt/CMSG_STREAM_INFO, wincrypt/PCMSG_STREAM_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

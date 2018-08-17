@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_viewport.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_viewport.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: D3D10_VIEWPORT, D3D10_VIEWPORT structure [Direct3D 10], d3d10/D3D10_VIEWPORT, direct3d10.d3d10_viewport, fabe1f82-a825-d3c2-8bfb-f2f706d1c57d
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,42 +61,42 @@ Defines the dimensions of a <a href="https://msdn.microsoft.com/en-us/library/Bb
 
 ### -field TopLeftX
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">INT</a></b>
 
 X position of the left hand side of the viewport. Ranges between D3D10_VIEWPORT_BOUNDS_MIN and D3D10_VIEWPORT_BOUNDS_MAX.
 
 
 ### -field TopLeftY
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">INT</a></b>
 
 Y position of the top of the viewport. Ranges between D3D10_VIEWPORT_BOUNDS_MIN and D3D10_VIEWPORT_BOUNDS_MAX.
 
 
 ### -field Width
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Width of the viewport.
 
 
 ### -field Height
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Height of the viewport.
 
 
 ### -field MinDepth
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">FLOAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">FLOAT</a></b>
 
 Minimum depth of the viewport. Ranges between 0 and 1.
 
 
 ### -field MaxDepth
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">FLOAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">FLOAT</a></b>
 
 Maximum depth of the viewport. Ranges between 0 and 1.
 

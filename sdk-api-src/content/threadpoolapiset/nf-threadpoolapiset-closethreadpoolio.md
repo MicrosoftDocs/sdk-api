@@ -7,7 +7,7 @@ old-location: base\closethreadpoolio.htm
 old-project: procthread
 ms.assetid: 499190de-54e8-4be6-909b-04505bcb0aa6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: CloseThreadpoolIo, CloseThreadpoolIo function, base.closethreadpoolio, threadpoolapiset/CloseThreadpoolIo, winbase/CloseThreadpoolIo
 ms.prod: windows
 ms.technology: windows-sdk

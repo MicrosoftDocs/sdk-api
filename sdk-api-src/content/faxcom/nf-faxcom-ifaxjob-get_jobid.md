@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-You can use the <b>JobId</b> property to uniquely identify a fax job because it is possible for multiple fax jobs to have the same <a href="https://msdn.microsoft.com/f8dd3a5a-9f3d-4c3e-b023-ee9f9aef2930">DisplayName</a> property. Note that the fax job identifier can be different from the identifier of a fax print job.
+You can use the <b>JobId</b> property to uniquely identify a fax job because it is possible for multiple fax jobs to have the same <a href="https://msdn.microsoft.com/en-us/library/ms692370(v=VS.85).aspx">DisplayName</a> property. Note that the fax job identifier can be different from the identifier of a fax print job.
 
 
 
@@ -74,7 +74,7 @@ You can use the <b>JobId</b> property to uniquely identify a fax job because it 
 
 
 
-<a href="https://msdn.microsoft.com/f8dd3a5a-9f3d-4c3e-b023-ee9f9aef2930">DisplayName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692370(v=VS.85).aspx">DisplayName</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: appxpkg\apppolicygetwindowingmodel_function.htm
 old-project: appxpkg
 ms.assetid: AA1682F8-1DDD-48C3-B16A-6C89D28455E8
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/15/2018
 ms.keywords: AppPolicyGetWindowingModel, AppPolicyGetWindowingModel function [App packaging and management], appmodel/AppPolicyGetWindowingModel, appxpkg.apppolicygetwindowingmodel_function
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,7 +69,7 @@ A handle that identifies the access token for a process.
 
 ### -param policy [out]
 
-A pointer to a variable of the <a href="appxpkg.apppolicywindowingmodel_enumeration">AppPolicyWindowingModel</a> enumerated type. When the function returns successfully, the variable contains an enumerated constant value indicating the windowing model of the identified process.
+A pointer to a variable of the <a href="https://msdn.microsoft.com/library/Mt829725(v=VS.85).aspx">AppPolicyWindowingModel</a> enumerated type. When the function returns successfully, the variable contains an enumerated constant value indicating the windowing model of the identified process.
 
 
 ## -returns

@@ -54,7 +54,7 @@ req.product: GDI+ 1.0
 
 <span>This topic lists the 
 			GetRegionScans methods of the 
-			<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a> class. For a complete list of methods for the <b>Region</b> class, see <a href="https://msdn.microsoft.com/en-us/library/ms534761(v=VS.85).aspx">Region Methods</a>.
+			<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a> class. For a complete list of methods for the <b>Region</b> class, see <a href="https://msdn.microsoft.com/en-us/library/ms534761(v=VS.85).aspx">Region Methods</a>.
 
 </span><h3>Overload list</h3><table>
 <tr>

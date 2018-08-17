@@ -7,7 +7,7 @@ old-location: base\createprocess.htm
 old-project: procthread
 ms.assetid: 3ef0a5b2-4d71-4c17-8188-76a4025287fc
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: CreateProcess, CreateProcess function, CreateProcessA, CreateProcessW, _win32_createprocess, base.createprocess, processthreadsapi/CreateProcess, processthreadsapi/CreateProcessA, processthreadsapi/CreateProcessW, winbase/CreateProcess, winbase/CreateProcessA, winbase/CreateProcessW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: PSS_VA_SPACE_INFORMATION
+req.typenames: PROCESS_MEMORY_EXHAUSTION_TYPE, *PPROCESS_MEMORY_EXHAUSTION_TYPE
 topic_type:
  - APIRef
  - kbSyntax

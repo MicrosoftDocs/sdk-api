@@ -51,7 +51,7 @@ req.irql:
 
 
 Returns 
-    the current state of a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a>. The <b>PCLUSAPI_GET_CLUSTER_RESOURCE_STATE</b> type defines a pointer to this function.
+    the current state of a <a href="https://msdn.microsoft.com/en-us/library/Aa372152(v=VS.85).aspx">resource</a>. The <b>PCLUSAPI_GET_CLUSTER_RESOURCE_STATE</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -102,7 +102,7 @@ Pointer to the size of the <i>lpszGroupName</i> buffer as a count of characters.
 
 <i>GetClusterResourceState</i> returns the 
        current state of the resource enumerated from the 
-       <a href="https://msdn.microsoft.com/bd5dee18-a06f-4e46-a27e-c907b1c25a68">CLUSTER_RESOURCE_STATE</a> enumeration, which can be 
+       <a href="https://msdn.microsoft.com/en-us/library/Bb309168(v=VS.85).aspx">CLUSTER_RESOURCE_STATE</a> enumeration, which can be 
        represented by one of the following values.
 
 
@@ -116,12 +116,12 @@ Do not call <i>GetClusterResourceState</i> from
      any resource DLL entry point function. 
      <i>GetClusterResourceState</i> can safely be called 
      from a worker thread. For more information, see 
-     <a href="https://msdn.microsoft.com/0eaa4aea-8d9a-4552-b43a-fafa23a3e736">Function Calls to Avoid in Resource DLLs</a>.
+     <a href="https://msdn.microsoft.com/en-us/library/Aa369588(v=VS.85).aspx">Function Calls to Avoid in Resource DLLs</a>.
 
 
 #### Examples
 
-See <a href="https://msdn.microsoft.com/de1d4ad2-3531-467e-a2e6-24d22514ce6e">Getting Object States</a> for an example.
+See <a href="https://msdn.microsoft.com/en-us/library/Aa369639(v=VS.85).aspx">Getting Object States</a> for an example.
 
 <div class="code"></div>
 
@@ -132,7 +132,7 @@ See <a href="https://msdn.microsoft.com/de1d4ad2-3531-467e-a2e6-24d22514ce6e">Ge
 
 
 
-<a href="https://msdn.microsoft.com/bd5dee18-a06f-4e46-a27e-c907b1c25a68">CLUSTER_RESOURCE_STATE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb309168(v=VS.85).aspx">CLUSTER_RESOURCE_STATE</a>
 
 
 

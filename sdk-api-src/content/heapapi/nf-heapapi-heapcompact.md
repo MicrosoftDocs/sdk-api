@@ -7,7 +7,7 @@ old-location: base\heapcompact.htm
 old-project: memory
 ms.assetid: 792ec16f-d6b0-4afd-a832-29fe12b25058
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: HEAP_NO_SERIALIZE, HeapCompact, HeapCompact function, _win32_heapcompact, base.heapcompact, heapapi/HeapCompact, winbase/HeapCompact
 ms.prod: windows
 ms.technology: windows-sdk

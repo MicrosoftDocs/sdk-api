@@ -4,10 +4,10 @@ title: ICertServerPolicy::GetRequestProperty
 author: windows-sdk-content
 description: Retrieves a specific property from a request.
 old-location: security\icertserverpolicy_getrequestproperty.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 4055008a-7034-47f3-bbae-c870165ab3ef
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: CCertServerPolicy object [Security],GetRequestProperty method, GetRequestProperty, GetRequestProperty method [Security], GetRequestProperty method [Security],CCertServerPolicy object, GetRequestProperty method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],GetRequestProperty method, ICertServerPolicy.GetRequestProperty, ICertServerPolicy::GetRequestProperty, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, RawRequest, RequestAttributes, RequestID, RequestType, RequesterName, SubmittedWhen, _certsrv_icertserverpolicy_getrequestproperty, certif/ICertServerPolicy::GetRequestProperty, security.icertserverpolicy_getrequestproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ The <b>GetRequestProperty</b> method retrieves a specific property from a reques
 Specifies the name of the property to retrieve. This parameter can be set to a name property or  a request property.
 
 Name properties include  a stock set of certificate properties that are always valid and can be retrieved by calling this method. For information about these properties, see 
-<a href="https://msdn.microsoft.com/c32756f7-4431-410e-ab3a-c7b748a43829">Name Properties</a>.
+<a href="https://msdn.microsoft.com/en-us/library/Aa386991(v=VS.85).aspx">Name Properties</a>.
 
 Request properties are unique to requests and include the following possible values.
 
@@ -195,7 +195,7 @@ Binary data.
 </dl>
 </td>
 <td width="60%">
-<a href="https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb">Unicode</a> string data.
+<a href="https://msdn.microsoft.com/en-us/library/ms721629(v=VS.85).aspx">Unicode</a> string data.
 
 </td>
 </tr>
@@ -215,7 +215,7 @@ A pointer to the <b>VARIANT</b> that contains the request property type.
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK, and  the <i>pvarPropertyValue</i> parameter contains the  request property.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the request property.
@@ -228,7 +228,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 The 
-<a href="https://msdn.microsoft.com/ba45cda8-49a5-4bd6-af68-90b4b56aff7d">SetContext</a> method must be called prior to calling this method. The call to <b>SetContext</b> specifies which request is used as the current context.
+<a href="https://msdn.microsoft.com/en-us/library/Aa385398(v=VS.85).aspx">SetContext</a> method must be called prior to calling this method. The call to <b>SetContext</b> specifies which request is used as the current context.
 
 Requests  hold all the associated states for the request and the eventual granted certificate that is not a part of the certificate. Thus, data such as revocation times and disposition data are kept in the request data object.
 
@@ -301,15 +301,15 @@ if ( NULL != bstrPropName )
 
 
 
-<a href="https://msdn.microsoft.com/7d16161e-9827-46a0-9989-30ebca792bb1">ICertServerPolicy</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385080(v=VS.85).aspx">ICertServerPolicy</a>
 
 
 
-<a href="https://msdn.microsoft.com/ba45cda8-49a5-4bd6-af68-90b4b56aff7d">ICertServerPolicy::SetContext</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385398(v=VS.85).aspx">ICertServerPolicy::SetContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/c32756f7-4431-410e-ab3a-c7b748a43829">Name Properties</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa386991(v=VS.85).aspx">Name Properties</a>
  
 
  

@@ -68,7 +68,7 @@ Describes a 2D texture.
 
 #### - ArraySize
 
-Number of textures in the texture array. The  range is from 1 to D3D11_REQ_TEXTURE2D_ARRAY_AXIS_DIMENSION (2048). For a texture cube-map, this value is a multiple of 6 (that is, 6 times the value in the <b>NumCubes</b> member of <a href="https://msdn.microsoft.com/e8b496a7-89d9-4168-908a-1731ce045851">D3D11_TEXCUBE_ARRAY_SRV</a>), and the  range is from 6 to 2046. The range is actually constrained by the <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> at which you create the rendering device. For more information about restrictions, see Remarks.
+Number of textures in the texture array. The  range is from 1 to D3D11_REQ_TEXTURE2D_ARRAY_AXIS_DIMENSION (2048). For a texture cube-map, this value is a multiple of 6 (that is, 6 times the value in the <b>NumCubes</b> member of <a href="https://msdn.microsoft.com/en-us/library/Ff476250(v=VS.85).aspx">D3D11_TEXCUBE_ARRAY_SRV</a>), and the  range is from 6 to 2046. The range is actually constrained by the <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> at which you create the rendering device. For more information about restrictions, see Remarks.
 
 
 #### - BindFlags

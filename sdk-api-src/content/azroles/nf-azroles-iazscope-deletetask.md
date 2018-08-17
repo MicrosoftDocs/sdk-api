@@ -7,7 +7,7 @@ old-location: security\iazscope_deletetask.htm
 old-project: secauthz
 ms.assetid: de72b944-2796-4445-9fdd-4d56526dc903
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: AzScope object [Security],DeleteTask method, DeleteTask, DeleteTask method [Security], DeleteTask method [Security],AzScope object, DeleteTask method [Security],IAzScope interface, IAzScope interface [Security],DeleteTask method, IAzScope.DeleteTask, IAzScope::DeleteTask, azroles/IAzScope::DeleteTask, security.iazscope_deletetask
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: iphlp\setipstatistics.htm
 old-project: iphlp
 ms.assetid: d857ee04-38b8-4d98-a3e7-6ca8657ac9ed
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: SetIpStatistics, SetIpStatistics function [IP Helper], _iphlp_setipstatistics, iphlp.setipstatistics, iphlpapi/SetIpStatistics
 ms.prod: windows
 ms.technology: windows-sdk

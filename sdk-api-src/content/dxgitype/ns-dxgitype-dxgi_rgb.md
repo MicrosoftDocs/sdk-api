@@ -84,7 +84,7 @@ A value representing the color of the blue component. The range of this value is
 
 
 
-This structure is a member of the <a href="https://msdn.microsoft.com/1c215306-f278-4843-8411-eb7e45fb3054">DXGI_GAMMA_CONTROL</a> structure.
+This structure is a member of the <a href="https://msdn.microsoft.com/en-us/library/Bb173061(v=VS.85).aspx">DXGI_GAMMA_CONTROL</a> structure.
 
 
 

@@ -106,7 +106,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms686170(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/ace23017-9839-4c5c-a992-e038ae1c0635">ImageName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684599(v=VS.85).aspx">ImageName</a>
 
 
 </td>
@@ -218,7 +218,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms684813(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/496b2216-8ec6-4de9-8829-13b8ec404514">Status</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687475(v=VS.85).aspx">Status</a>
 
 
 </td>

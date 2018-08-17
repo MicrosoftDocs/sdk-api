@@ -7,7 +7,7 @@ old-location: base\winexec.htm
 old-project: procthread
 ms.assetid: 00ac3bd8-59d3-4f7f-8720-e57d05cee056
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: WinExec, WinExec function, _win32_winexec, base.winexec, winbase/WinExec
 ms.prod: windows
 ms.technology: windows-sdk

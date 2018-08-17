@@ -71,7 +71,7 @@ A handle to the control.
 
 
 
-This macro passes zero as the <i>wParam</i> member of <a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a>. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775860(v=VS.85).aspx">CB_GETITEMHEIGHT</a>.
+This macro passes zero as the <i>wParam</i> member of <a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a>. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775860(v=VS.85).aspx">CB_GETITEMHEIGHT</a>.
 	
 
 

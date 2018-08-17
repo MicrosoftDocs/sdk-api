@@ -7,7 +7,7 @@ old-location: security\authzfreecentralaccesspolicycache.htm
 old-project: secauthz
 ms.assetid: 0F972A95-3CD7-4C86-99DE-5B3D50CE9A34
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: AuthzFreeCentralAccessPolicyCache, AuthzFreeCentralAccessPolicyCache function [Security], authz/AuthzFreeCentralAccessPolicyCache, security.authzfreecentralaccesspolicycache
 ms.prod: windows
 ms.technology: windows-sdk

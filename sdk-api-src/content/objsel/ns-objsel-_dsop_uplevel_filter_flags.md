@@ -75,13 +75,13 @@ Includes objects that have the <a href="https://msdn.microsoft.com/library/ms679
 
 #### DSOP_FILTER_USERS (2 (0x2))
 
-Includes <a href="ad.win2k_c_user">user</a> objects.
+Includes <a href="https://msdn.microsoft.com/en-us/library/Ff801657(v=VS.85).aspx">user</a> objects.
 
 
 
 #### DSOP_FILTER_BUILTIN_GROUPS (4 (0x4))
 
-Includes built-in <a href="ad.win2k_c_group">group</a> objects. Built-in groups are group objects with a <a href="https://msdn.microsoft.com/en-us/library/JJ151955(v=VS.85).aspx">groupType</a> value that contain the <b>GROUP_TYPE_BUILTIN_LOCAL_GROUP</b> (0x00000001), <b>GROUP_TYPE_RESOURCE_GROUP</b> (0x00000004), and <b>GROUP_TYPE_SECURITY_ENABLED</b> (0x80000000) flags.
+Includes built-in <a href="https://msdn.microsoft.com/en-us/library/Hh707481(v=VS.85).aspx">group</a> objects. Built-in groups are group objects with a <a href="https://msdn.microsoft.com/en-us/library/JJ151955(v=VS.85).aspx">groupType</a> value that contain the <b>GROUP_TYPE_BUILTIN_LOCAL_GROUP</b> (0x00000001), <b>GROUP_TYPE_RESOURCE_GROUP</b> (0x00000004), and <b>GROUP_TYPE_SECURITY_ENABLED</b> (0x80000000) flags.
 
 
 
@@ -93,7 +93,7 @@ Includes the contents of the Well Known Security Principals container.
 
 #### DSOP_FILTER_UNIVERSAL_GROUPS_DL (16 (0x10))
 
-Includes distribution <a href="ad.win2k_c_group">group</a> objects with universal scope.
+Includes distribution <a href="https://msdn.microsoft.com/en-us/library/Hh707481(v=VS.85).aspx">group</a> objects with universal scope.
 
 
 
@@ -105,25 +105,25 @@ Includes security groups with universal scope. This flag has no affect in a mixe
 
 #### DSOP_FILTER_GLOBAL_GROUPS_DL (64 (0x40))
 
-Includes distribution <a href="ad.win2k_c_group">group</a> objects with global scope.
+Includes distribution <a href="https://msdn.microsoft.com/en-us/library/Hh707481(v=VS.85).aspx">group</a> objects with global scope.
 
 
 
 #### DSOP_FILTER_GLOBAL_GROUPS_SE (128 (0x80))
 
-Includes security <a href="ad.win2k_c_group">group</a> objects with global scope.
+Includes security <a href="https://msdn.microsoft.com/en-us/library/Hh707481(v=VS.85).aspx">group</a> objects with global scope.
 
 
 
 #### DSOP_FILTER_DOMAIN_LOCAL_GROUPS_DL (256 (0x100))
 
-Includes distribution <a href="ad.win2k_c_group">group</a> objects with domain local scope.
+Includes distribution <a href="https://msdn.microsoft.com/en-us/library/Hh707481(v=VS.85).aspx">group</a> objects with domain local scope.
 
 
 
 #### DSOP_FILTER_DOMAIN_LOCAL_GROUPS_SE (512 (0x200))
 
-Includes security <a href="ad.win2k_c_group">group</a> objects with domain local scope.
+Includes security <a href="https://msdn.microsoft.com/en-us/library/Hh707481(v=VS.85).aspx">group</a> objects with domain local scope.
 
 
 
@@ -135,7 +135,7 @@ Includes <a href="https://msdn.microsoft.com/en-us/library/Ff800911(v=VS.85).asp
 
 #### DSOP_FILTER_COMPUTERS (2048 (0x800))
 
-Includes <a href="ad.win2k_c_computer">computer</a> objects.
+Includes <a href="https://msdn.microsoft.com/en-us/library/Ff521653(v=VS.85).aspx">computer</a> objects.
 
 
 

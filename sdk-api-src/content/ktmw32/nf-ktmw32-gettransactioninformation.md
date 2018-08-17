@@ -65,9 +65,24 @@ Returns the requested information about the specified transaction.
 A handle to the transaction. The handle must have  the TRANSACTION_QUERY_INFORMATION permission to retrieve the information.
 
 
-### -param OPTIONAL
+### -param Outcome [out, optional]
 
-TBD
+A pointer to a buffer that receives the current outcome of the transaction. If the call to the <b>GetTransactionInformation</b> function is successful, this value will be one of the <a href="https://msdn.microsoft.com/d4315a62-b65f-4744-8084-2317ad39c32c">TRANSACTION_OUTCOME</a> enumeration values.
+
+
+### -param IsolationLevel [out, optional]
+
+Reserved.
+
+
+### -param IsolationFlags [out, optional]
+
+Reserved.
+
+
+### -param Timeout [out, optional]
+
+A pointer to a variable that receives the timeout value, in milliseconds, for this transaction.
 
 
 ### -param BufferLength [in]
@@ -78,26 +93,6 @@ The size of the <i>Description</i> parameter, in bytes. The buffer length value 
 ### -param Description [out, optional]
 
 A pointer to a buffer that receives the user-defined description of the transaction.
-
-
-#### - IsolationFlags [out, optional]
-
-Reserved.
-
-
-#### - IsolationLevel [out, optional]
-
-Reserved.
-
-
-#### - Outcome [out, optional]
-
-A pointer to a buffer that receives the current outcome of the transaction. If the call to the <b>GetTransactionInformation</b> function is successful, this value will be one of the <a href="https://msdn.microsoft.com/d4315a62-b65f-4744-8084-2317ad39c32c">TRANSACTION_OUTCOME</a> enumeration values.
-
-
-#### - Timeout [out, optional]
-
-A pointer to a variable that receives the timeout value, in milliseconds, for this transaction.
 
 
 ## -returns

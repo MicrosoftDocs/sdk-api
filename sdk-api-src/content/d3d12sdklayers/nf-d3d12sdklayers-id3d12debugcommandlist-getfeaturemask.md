@@ -66,7 +66,7 @@ Returns the debug feature flags that have been set on a command list.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/36E0A5DC-8313-4D9D-988C-21E6FFCC8730">D3D12_DEBUG_FEATURE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn950141(v=VS.85).aspx">D3D12_DEBUG_FEATURE</a></b>
 
 A bit mask containing the set debug features.
           
@@ -79,7 +79,7 @@ A bit mask containing the set debug features.
 
 
 
-<a href="https://msdn.microsoft.com/EDE527F0-4091-4B03-9030-6F693FE901BE">ID3D12DebugCommandList</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn950154(v=VS.85).aspx">ID3D12DebugCommandList</a>
  
 
  

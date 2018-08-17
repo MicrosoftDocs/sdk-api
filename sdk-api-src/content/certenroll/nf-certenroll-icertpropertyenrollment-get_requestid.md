@@ -64,19 +64,19 @@ This property is read-only.
 
 
 
-Set the  <b>RequestId</b> property by calling the <a href="https://msdn.microsoft.com/47e9b11f-3f23-4e2f-817a-4b6311e3d710">Initialize</a> method. The request ID is created during the enrollment process. For more information, see the <a href="https://msdn.microsoft.com/64048d5d-36fd-4709-a924-7f84a2b2b97e">RequestId</a> property on the <a href="https://msdn.microsoft.com/37f1dd3b-bbe9-40ab-87c9-2405d97f5541">IX509Enrollment</a> interface.
+Set the  <b>RequestId</b> property by calling the <a href="https://msdn.microsoft.com/en-us/library/Aa375690(v=VS.85).aspx">Initialize</a> method. The request ID is created during the enrollment process. For more information, see the <a href="https://msdn.microsoft.com/en-us/library/Aa378067(v=VS.85).aspx">RequestId</a> property on the <a href="https://msdn.microsoft.com/en-us/library/Aa377809(v=VS.85).aspx">IX509Enrollment</a> interface.
 
 The ID can be used during subsequent communication between the client and the CA. For example, if a CA marks a request as pending when initially submitted, the client can use the request ID and the configuration string when it again contacts the CA and attempts to retrieve the certificate response.
 
 You can also call the following properties to retrieve the other values specified during initialization:<ul>
 <li>
-<a href="https://msdn.microsoft.com/5b388cfe-e0b1-4b57-bf6c-81f9ab65ffcf">CADnsName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375672(v=VS.85).aspx">CADnsName</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/ea490e37-e1b9-4887-8051-c3447136875c">CAName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375676(v=VS.85).aspx">CAName</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/a12b7368-cace-47c4-bfd4-08845dc2634c">FriendlyName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375681(v=VS.85).aspx">FriendlyName</a>
 </li>
 </ul>
 
@@ -89,11 +89,11 @@ You can also call the following properties to retrieve the other values specifie
 
 
 
-<a href="https://msdn.microsoft.com/947c2f09-993d-4ced-8b76-66b79d96e3bc">ICertProperty</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375239(v=VS.85).aspx">ICertProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/7530998b-b59c-426b-a74a-ead4bca55c3b">ICertPropertyEnrollment</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375665(v=VS.85).aspx">ICertPropertyEnrollment</a>
  
 
  

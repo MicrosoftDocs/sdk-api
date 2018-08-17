@@ -96,7 +96,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-To retrieve an item from the <a href="https://msdn.microsoft.com/en-us/library/ms684819(v=VS.85).aspx">FaxDevices</a> collection using the device's index, call the <a href="https://msdn.microsoft.com/2c8539a4-19e5-47a3-9375-f7adefcb72a4">Item</a> property.
+To retrieve an item from the <a href="https://msdn.microsoft.com/en-us/library/ms684819(v=VS.85).aspx">FaxDevices</a> collection using the device's index, call the <a href="https://msdn.microsoft.com/en-us/library/ms686188(v=VS.85).aspx">Item</a> property.
 
 
 

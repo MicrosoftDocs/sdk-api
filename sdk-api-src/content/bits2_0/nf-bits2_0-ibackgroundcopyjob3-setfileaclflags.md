@@ -74,7 +74,7 @@ Flags that identify the owner and ACL information to maintain when transferring 
 </dl>
 </td>
 <td width="60%">
-If set, the file's owner information is maintained. Otherwise, the user who calls the <a href="https://msdn.microsoft.com/d57b0b2e-1181-45ed-b7fc-d002d14527cf">Complete</a> method owns the file.
+If set, the file's owner information is maintained. Otherwise, the user who calls the <a href="https://msdn.microsoft.com/en-us/library/Aa363021(v=VS.85).aspx">Complete</a> method owns the file.
 
 You must have SeRestorePrivilege to set this flag. The administrators group contains the SeRestorePrivilege privilege.
 
@@ -159,7 +159,7 @@ Successfully set the flags.
 </dl>
 </td>
 <td width="60%">
-You must call this method before the job transitions to the <a href="https://msdn.microsoft.com/a7857cf1-05b7-42df-b79e-50a2f6a406dc">BG_JOB_STATE_TRANSFERRED</a> state. 
+You must call this method before the job transitions to the <a href="https://msdn.microsoft.com/en-us/library/Aa362809(v=VS.85).aspx">BG_JOB_STATE_TRANSFERRED</a> state. 
 
 </td>
 </tr>
@@ -190,7 +190,7 @@ BITS propagates the file time stamps and  attributes (not extended attributes) f
 
 BITS applies the owner and ACL information to the file at the time the file transfer is complete, not when it <a href="https://msdn.microsoft.com/library/Aa363858(v=VS.85).aspx">creates</a> the temporary transfer file. BITS does not specify a security descriptor when it creates the temporary transfer file (the file inherits the ACL information from the destination directory). If the transferred data is sensitive, the application should specify an appropriate ACL on the destination directory to prevent unauthorized access.
 
-To ensure the proper owner and ACL information is set on all files in the job, call this method after you create the job and before calling the <a href="https://msdn.microsoft.com/a9e6f057-0a51-4f2d-810b-edbb3e019370">IBackgroundCopyJob::Resume</a> method. Otherwise, those files that transferred before the flags were set will not contain the appropriate owner and ACL information. 
+To ensure the proper owner and ACL information is set on all files in the job, call this method after you create the job and before calling the <a href="https://msdn.microsoft.com/en-us/library/Aa363039(v=VS.85).aspx">IBackgroundCopyJob::Resume</a> method. Otherwise, those files that transferred before the flags were set will not contain the appropriate owner and ACL information. 
 
 This method is modeled after the XCopy DOS command.
 
@@ -201,7 +201,7 @@ If the user does not have privileges on the local and remote computers to copy t
 
 #### Examples
 
-The following example shows how to call the <b>SetFileACLFlags</b> method to specify what owner and ACL information to maintain with the files that BITS downloads. The example assumes the <a href="https://msdn.microsoft.com/91dd1ae1-1740-4d95-a476-fc18aead1dc2">IBackgroundCopyJob</a> variable, pJob, is valid, points to a new job, and is suspended.
+The following example shows how to call the <b>SetFileACLFlags</b> method to specify what owner and ACL information to maintain with the files that BITS downloads. The example assumes the <a href="https://msdn.microsoft.com/en-us/library/Aa362973(v=VS.85).aspx">IBackgroundCopyJob</a> variable, pJob, is valid, points to a new job, and is suspended.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -248,11 +248,11 @@ The following example shows how to call the <b>SetFileACLFlags</b> method to spe
 
 
 
-<a href="https://msdn.microsoft.com/46e115bb-2634-4b79-b307-45720d8cb2be">IBackgroundCopyJob3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362990(v=VS.85).aspx">IBackgroundCopyJob3</a>
 
 
 
-<a href="https://msdn.microsoft.com/569df1e5-d45a-4f18-82ad-1e4957f47d94">IBackgroundCopyJob3::GetFileACLFlags</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362992(v=VS.85).aspx">IBackgroundCopyJob3::GetFileACLFlags</a>
  
 
  

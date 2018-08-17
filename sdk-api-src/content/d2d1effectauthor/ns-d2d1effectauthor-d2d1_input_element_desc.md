@@ -89,7 +89,7 @@ The offset in bytes between each element.
 
 
 
-This structure is a subset of <a href="https://msdn.microsoft.com/45545d24-1513-4efd-9344-20673c5b98d5">D3D11_INPUT_ELEMENT_DESC</a> that omits fields required to define a vertex layout.
+This structure is a subset of <a href="https://msdn.microsoft.com/en-us/library/Ff476180(v=VS.85).aspx">D3D11_INPUT_ELEMENT_DESC</a> that omits fields required to define a vertex layout.
 
 If the <a href="https://msdn.microsoft.com/en-us/library/Dd370975(v=VS.85).aspx">D2D1_APPEND_ALIGNED_ELEMENT</a> constant is used for  <b>alignedByteOffset</b>, the elements will be packed contiguously for convenience.
 
@@ -102,7 +102,7 @@ If the <a href="https://msdn.microsoft.com/en-us/library/Dd370975(v=VS.85).aspx"
 
 
 
-<a href="https://msdn.microsoft.com/ff122e0d-5f0e-4a61-bead-53bea6f1648f">D2D1_VERTEX_USAGE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404337(v=VS.85).aspx">D2D1_VERTEX_USAGE</a>
 
 
 

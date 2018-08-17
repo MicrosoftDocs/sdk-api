@@ -177,7 +177,7 @@ The return value is a pointer to the preceding character in the string, or to th
 
 
 
-<a href="https://msdn.microsoft.com/f2cb0888-b245-448c-9910-a634312aff67">Strings</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646979(v=VS.85).aspx">Strings</a>
  
 
  

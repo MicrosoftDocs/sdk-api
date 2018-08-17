@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_gsgetshader.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_gsgetshader.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: GSGetShader, GSGetShader method [Direct3D 10], GSGetShader method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GSGetShader method, ID3D10Device.GSGetShader, ID3D10Device::GSGetShader, cdbac92b-f473-124b-66e8-4af3395c926a, d3d10/ID3D10Device::GSGetShader, direct3d10.id3d10device_gsgetshader
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,7 +80,7 @@ Returns nothing.
 
 
 
-Any returned interfaces will have their reference count incremented by one. Applications should call <a href="http://msdn.microsoft.com/en-us/library/ms682317(VS.85).aspx">IUnknown::Release</a> on the returned interfaces when they are no longer needed to avoid memory leaks.
+Any returned interfaces will have their reference count incremented by one. Applications should call <a href="https://msdn.microsoft.com/en-us/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> on the returned interfaces when they are no longer needed to avoid memory leaks.
 
 
 

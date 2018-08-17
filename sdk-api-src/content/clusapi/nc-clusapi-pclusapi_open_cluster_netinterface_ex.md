@@ -51,7 +51,7 @@ req.irql:
 
 
 Opens a handle to a 
-    <a href="https://msdn.microsoft.com/cc0cbbc3-e342-483e-9c94-4ee43f4d588d">network interface</a>.
+    <a href="https://msdn.microsoft.com/en-us/library/Aa371519(v=VS.85).aspx">network interface</a>.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Opens a handle to a
 
 ### -param hCluster [in]
 
-Handle to a <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a>.
+Handle to a <a href="https://msdn.microsoft.com/en-us/library/Aa369114(v=VS.85).aspx">cluster</a>.
 
 
 ### -param lpszNetInterfaceName
@@ -109,7 +109,7 @@ If the operation was successful,
 
 
 
-<a href="https://msdn.microsoft.com/63602522-6425-4c3f-b80f-32ee2c3d6469">Network Interface Management Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa371724(v=VS.85).aspx">Network Interface Management Functions</a>
 
 
 

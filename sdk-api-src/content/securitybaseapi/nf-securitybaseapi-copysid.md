@@ -7,7 +7,7 @@ old-location: security\copysid.htm
 old-project: secauthz
 ms.assetid: 2d7c182e-cdf8-4604-97bf-468bb4bd9232
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: CopySid, CopySid function [Security], _win32_copysid, security.copysid, securitybaseapi/CopySid
 ms.prod: windows
 ms.technology: windows-sdk

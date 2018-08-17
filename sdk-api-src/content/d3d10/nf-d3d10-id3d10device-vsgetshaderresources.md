@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_vsgetshaderresources.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_vsgetshaderresources.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 55f36c24-a1d1-912f-485e-13d633bf3178, ID3D10Device interface [Direct3D 10],VSGetShaderResources method, ID3D10Device.VSGetShaderResources, ID3D10Device::VSGetShaderResources, VSGetShaderResources, VSGetShaderResources method [Direct3D 10], VSGetShaderResources method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::VSGetShaderResources, direct3d10.id3d10device_vsgetshaderresources
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,14 +62,14 @@ Get the vertex shader resources.
 
 ### -param StartSlot [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Index into the device's zero-based array to begin getting shader resources from.
 
 
 ### -param NumViews [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 The number of resources to get from the device. Up to a maximum of 128 slots are available for shader resources.
 

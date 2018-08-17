@@ -7,7 +7,7 @@ old-location: base\getprocessworkingsetsizeex.htm
 old-project: procthread
 ms.assetid: d2de0bf2-012b-480c-a1a5-54e4d3928381
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: GetProcessWorkingSetSizeEx, GetProcessWorkingSetSizeEx function, QUOTA_LIMITS_HARDWS_MAX_DISABLE, QUOTA_LIMITS_HARDWS_MAX_ENABLE, QUOTA_LIMITS_HARDWS_MIN_DISABLE, QUOTA_LIMITS_HARDWS_MIN_ENABLE, base.getprocessworkingsetsizeex, memoryapi/GetProcessWorkingSetSizeEx, winbase/GetProcessWorkingSetSizeEx
 ms.prod: windows
 ms.technology: windows-sdk

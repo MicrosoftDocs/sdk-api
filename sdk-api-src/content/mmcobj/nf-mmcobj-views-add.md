@@ -4,10 +4,10 @@ title: Views::Add
 author: windows-sdk-content
 description: The Add method adds a view at a specified root node.
 old-location: mmc\views_add.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: 86c809b4-6533-4e02-a49e-f141fac228b1
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/14/2018
 ms.keywords: Add, Add method [MMC], Add method [MMC],Views interface, Add method [MMC],Views object, ViewOption_Default, ViewOption_NoToolBars, ViewOption_NotPersistable, ViewOption_ScopeTreeHidden, Views interface [MMC],Add method, Views object [MMC],Add method, Views.Add, Views::Add, _slate_views.add_method, mmc.views_add
 ms.prod: windows
 ms.technology: windows-sdk

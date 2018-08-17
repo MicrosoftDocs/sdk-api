@@ -7,7 +7,7 @@ old-location: security\authzfreeresourcemanager.htm
 old-project: secauthz
 ms.assetid: 8b716368-8d81-4c62-9086-0976b39bbcf8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: AuthzFreeResourceManager, AuthzFreeResourceManager function [Security], _win32_authzfreeresourcemanager, authz/AuthzFreeResourceManager, security.authzfreeresourcemanager
 ms.prod: windows
 ms.technology: windows-sdk

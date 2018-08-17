@@ -7,7 +7,7 @@ old-location: coreaudio\ipart.htm
 old-project: CoreAudio
 ms.assetid: 3bcfab9f-fad8-4605-8780-0b7c2068fcdf
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/14/2018
 ms.keywords: IPart, IPart interface [Core Audio], IPart interface [Core Audio],described, coreaudio.ipart, devicetopology/IPart
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\iazapplication_deletetask.htm
 old-project: secauthz
 ms.assetid: b97015d7-00c3-445c-a445-07c52ef6ff29
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: AzApplication object [Security],DeleteTask method, DeleteTask, DeleteTask method [Security], DeleteTask method [Security],AzApplication object, DeleteTask method [Security],IAzApplication interface, IAzApplication interface [Security],DeleteTask method, IAzApplication.DeleteTask, IAzApplication::DeleteTask, azroles/IAzApplication::DeleteTask, security.iazapplication_deletetask
 ms.prod: windows
 ms.technology: windows-sdk

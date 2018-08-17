@@ -61,9 +61,11 @@ The <b>DsEnumerateDomainTrusts</b> function obtains domain trust data for a spec
 
 
 
-### -param OPTIONAL
+### -param ServerName [in, optional]
 
-TBD
+Pointer to a null-terminated string that specifies the name of a computer in the domain to obtain the trust information for. If this parameter is <b>NULL</b>, the name of the local computer is used. The caller must be an authenticated user in this domain.
+
+If this computer is a domain controller, this function returns the trust data immediately. If this computer is not a domain controller, this function  obtains the trust data  from cached data if the cached data is not expired. If the cached data is expired, this function obtains the trust data from a domain controller in the domain that this computer is a member of and updates the cache. The cached data automatically expires after five minutes.
 
 
 ### -param Flags [in]
@@ -115,13 +117,6 @@ Pointer to a <b>PDS_DOMAIN_TRUSTS</b> value that receives an array of <a href="h
 ### -param DomainCount [out]
 
 Pointer to a <b>ULONG</b> value that receives the number of elements returned in the <i>Domains</i> array.
-
-
-#### - ServerName [in, optional]
-
-Pointer to a null-terminated string that specifies the name of a computer in the domain to obtain the trust information for. If this parameter is <b>NULL</b>, the name of the local computer is used. The caller must be an authenticated user in this domain.
-
-If this computer is a domain controller, this function returns the trust data immediately. If this computer is not a domain controller, this function  obtains the trust data  from cached data if the cached data is not expired. If the cached data is expired, this function obtains the trust data from a domain controller in the domain that this computer is a member of and updates the cache. The cached data automatically expires after five minutes.
 
 
 ## -returns

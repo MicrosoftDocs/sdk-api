@@ -4,10 +4,10 @@ title: Column::SetAsSortColumn
 author: windows-sdk-content
 description: The SetAsSortColumn method specifies the sort order for the column.
 old-location: mmc\column_setassortcolumn.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: dbbf6c9c-ba58-4588-b972-7d9b2029ee91
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/14/2018
 ms.keywords: Column interface [MMC],SetAsSortColumn method, Column object [MMC],SetAsSortColumn method, Column.SetAsSortColumn, Column::SetAsSortColumn, SetAsSortColumn, SetAsSortColumn method [MMC], SetAsSortColumn method [MMC],Column interface, SetAsSortColumn method [MMC],Column object, SortOrder_Ascending, SortOrder_Descending, _slate_column.setassortcolumn_method, mmc.column_setassortcolumn
 ms.prod: windows
 ms.technology: windows-sdk

@@ -158,7 +158,7 @@ static const UUID D3D12ExperimentalShaderModels = { /* 76f5573e-f13a-40f5-b297-8
 
 
 
-<a href="https://msdn.microsoft.com/C0F9A52C-483D-40B2-9E1F-CB92ADDC2856">Core Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn770456(v=VS.85).aspx">Core Functions</a>
  
 
  

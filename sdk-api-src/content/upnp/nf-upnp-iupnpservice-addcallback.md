@@ -4,10 +4,10 @@ title: IUPnPService::AddCallback
 author: windows-sdk-content
 description: The AddCallback method registers an application's callback with the UPnP framework.
 old-location: upnp\iupnpservice_addcallback.htm
-old-project: upnp
+old-project: UPnP
 ms.assetid: f5797907-ae65-48e6-adf8-b717bfb5101f
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/15/2018
 ms.keywords: AddCallback, AddCallback method [UPnP APIs], AddCallback method [UPnP APIs],IUPnPService interface, IUPnPService interface [UPnP APIs],AddCallback method, IUPnPService.AddCallback, IUPnPService::AddCallback, _upnp_iupnpservice_addcallback, upnp.iupnpservice_addcallback, upnp/IUPnPService::AddCallback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,7 +91,7 @@ The object referred to by <i>pUnkCallback</i> must either support the
 <b>AddCallback</b> method then queries <i>pUnkCallback</i> for the <b>IDispatch</b> interface. If the <b>IDispatch</b> interface is not supported, both checks have failed and the 
 <b>AddCallback</b> method returns E_FAIL.
 
-If only <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> is supported, the <a href="s_gly.htm">service object</a> invokes the callback by calling <a href="https://msdn.microsoft.com/en-us/library/ms221479(v=VS.85).aspx">IDispatch::Invoke</a> with the dispatch ID specified as zero, which indicates the default method. This default <b>IDispatch</b> method is passed the same parameters as the 
+If only <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> is supported, the <a href="https://msdn.microsoft.com/en-us/library/Aa382301(v=VS.85).aspx">service object</a> invokes the callback by calling <a href="https://msdn.microsoft.com/en-us/library/ms221479(v=VS.85).aspx">IDispatch::Invoke</a> with the dispatch ID specified as zero, which indicates the default method. This default <b>IDispatch</b> method is passed the same parameters as the 
 <a href="https://msdn.microsoft.com/44515be4-891b-4f3d-a2c2-1699e468e708">IUPnPServiceCallback</a> method, but the first parameter passed is a string that indicates the reason the callback is invoked. Valid values are VARIABLE_UPDATE and SERVICE_INSTANCE_DIED.
 
 

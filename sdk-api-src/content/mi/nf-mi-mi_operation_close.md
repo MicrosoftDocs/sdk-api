@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_operation_close.htm
 old-project: wmi_v2
 ms.assetid: 3e698e34-d537-4ea4-9345-cc4f493ff823
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/13/2018
 ms.keywords: MI_Operation_Close, MI_Operation_Close function [Windows Management Infrastructure (MI)], mi/MI_Operation_Close, wmi_v2.mi_operation_close
 ms.prod: windows
 ms.technology: windows-sdk

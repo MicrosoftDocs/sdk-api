@@ -172,7 +172,7 @@ An additional value associated with the keystroke. Use the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/733638f6-e9a0-497d-af70-3b70c8c1193c">INPUT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646270(v=VS.85).aspx">INPUT</a>
 
 
 

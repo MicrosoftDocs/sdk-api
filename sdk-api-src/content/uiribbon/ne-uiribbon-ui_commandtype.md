@@ -68,14 +68,14 @@ The type of command is not known.
 ### -field UI_COMMANDTYPE_GROUP
 
 
-<a href="https://msdn.microsoft.com/5d098d3f-a4ee-4f76-8c81-832d0c49cb80">Group</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd940499(v=VS.85).aspx">Group</a>
 
 
 
 ### -field UI_COMMANDTYPE_ACTION
 
 
-<a href="https://msdn.microsoft.com/6d4aa571-dbea-4139-a6b7-45a85595dd04">Button</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd940490(v=VS.85).aspx">Button</a>
 
 
 

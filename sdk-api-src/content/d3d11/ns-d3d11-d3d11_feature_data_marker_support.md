@@ -82,7 +82,7 @@ If the Direct3D API is the Direct3D 11.2 runtime and can support 11.2 features, 
 
 
 
-<a href="https://msdn.microsoft.com/48c3bf65-f077-45e6-a306-03d5760eeccb">D3D11_FEATURE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476124(v=VS.85).aspx">D3D11_FEATURE</a>
  
 
  

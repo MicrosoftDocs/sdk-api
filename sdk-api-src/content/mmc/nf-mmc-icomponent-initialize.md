@@ -4,10 +4,10 @@ title: IComponent::Initialize
 author: windows-sdk-content
 description: The IComponent::Initialize method provides an entry point to the console.
 old-location: mmc\icomponent_initialize.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: 2a8b8f79-05c0-49e8-8210-7c1002ee5978
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/14/2018
 ms.keywords: IComponent interface [MMC],Initialize method, IComponent.Initialize, IComponent::Initialize, Initialize, Initialize method [MMC], Initialize method [MMC],IComponent interface, _slate_icomponent_initialize, mmc.icomponent_initialize, mmc/IComponent::Initialize
 ms.prod: windows
 ms.technology: windows-sdk

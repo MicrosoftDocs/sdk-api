@@ -75,7 +75,7 @@ A <a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT
 
 ### -field uAlign
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 A <b>UINT</b> that specifies the alignment to use. This parameter can be one of the following values.
 
@@ -159,7 +159,7 @@ Center the image.
 
 
 
-<a href="https://msdn.microsoft.com/f96da91c-e3b3-4dfa-92f3-276eb468612d">Buttons</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775943(v=VS.85).aspx">Buttons</a>
 
 
 

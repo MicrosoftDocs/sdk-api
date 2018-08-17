@@ -61,9 +61,9 @@ Creates a render-target view for accessing resource data.
 
 ### -param pResource [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn788709(v=VS.85).aspx">ID3D12Resource</a>*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a> object that represents the render target.
+A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dn788709(v=VS.85).aspx">ID3D12Resource</a> object that represents the render target.
           
 
 At least one of <i>pResource</i> or <i>pDesc</i>  must be provided.
@@ -73,16 +73,16 @@ A null <i>pResource</i> is used to initialize a null descriptor, which guarantee
 
 ### -param pDesc [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/D8602EB9-70EB-4A4E-8D8D-A2016335AAC6">D3D12_RENDER_TARGET_VIEW_DESC</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dn770389(v=VS.85).aspx">D3D12_RENDER_TARGET_VIEW_DESC</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/D8602EB9-70EB-4A4E-8D8D-A2016335AAC6">D3D12_RENDER_TARGET_VIEW_DESC</a> structure that describes the render-target view.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn770389(v=VS.85).aspx">D3D12_RENDER_TARGET_VIEW_DESC</a> structure that describes the render-target view.
 
 A null <i>pDesc</i> is used to initialize a default descriptor, if possible. This behavior is identical to the D3D11 null descriptor behavior, where defaults are filled in. This behavior inherits the resource format and dimension (if not typeless) and RTVs target the first mip and all array slices. Not all resources support null descriptor initialization.
 
 
 ### -param DestDescriptor [in]
 
-Type: <b><a href="https://msdn.microsoft.com/92451E4C-5E70-4015-8760-3F75066A44FD">D3D12_CPU_DESCRIPTOR_HANDLE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn859369(v=VS.85).aspx">D3D12_CPU_DESCRIPTOR_HANDLE</a></b>
 
 Describes the CPU descriptor handle that represents the start of the heap that holds the render-target view.
           
@@ -102,7 +102,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/D32B3397-A1E0-48AF-9251-2EDA96261A9F">ID3D12Device</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn788650(v=VS.85).aspx">ID3D12Device</a>
  
 
  

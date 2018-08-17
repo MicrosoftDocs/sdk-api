@@ -145,7 +145,7 @@ Optional. A pointer to a variable that receives the size, in bytes, of the entit
 When making an asynchronous call using <i>pOverlapped</i>, set <i>pBytesReceived</i> to <b>NULL</b>. Otherwise, when <i>pOverlapped</i> is set to <b>NULL</b>, <i>pBytesReceived</i> must contain a valid memory address, and not be set to <b>NULL</b>.
 
 
-### -param OPTIONAL
+### -param Overlapped
 
 TBD
 

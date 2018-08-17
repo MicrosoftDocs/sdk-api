@@ -7,7 +7,7 @@ old-location: security\queryserviceobjectsecurity.htm
 old-project: secauthz
 ms.assetid: 5d95945f-f11b-42af-b302-8d924917b9ab
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: QueryServiceObjectSecurity, QueryServiceObjectSecurity function [Security], _win32_queryserviceobjectsecurity, security.queryserviceobjectsecurity, winsvc/QueryServiceObjectSecurity
 ms.prod: windows
 ms.technology: windows-sdk

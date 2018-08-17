@@ -69,16 +69,16 @@ Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775483(v=VS.85).asp
 
 ### -field clrText
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">COLORREF</a></b>
 
 <b>COLORREF</b> value representing the color that will be used to display text foreground in the list-view control. 
 
 
 ### -field clrTextBk
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">COLORREF</a></b>
 
-<b>COLORREF</b> value representing the color that will be used to display text background in the list-view control. In <a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.0., </a> this member is ignored if the background image is set with the <a href="https://msdn.microsoft.com/en-us/library/Bb761155(v=VS.85).aspx">LVM_SETBKIMAGE</a> message. 
+<b>COLORREF</b> value representing the color that will be used to display text background in the list-view control. In <a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 6.0., </a> this member is ignored if the background image is set with the <a href="https://msdn.microsoft.com/en-us/library/Bb761155(v=VS.85).aspx">LVM_SETBKIMAGE</a> message. 
 
 
 ### -field iSubItem
@@ -86,15 +86,15 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Type: <b>int</b>
 
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 4.71.</a> Index of the subitem that is being drawn. If the main item is being drawn, this member will be zero. 
+<a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 4.71.</a> Index of the subitem that is being drawn. If the main item is being drawn, this member will be zero. 
 
 
 ### -field dwItemType
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
 
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.0. </a> 
+<a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 6.0. </a> 
 					<b>DWORD</b> that contains the type of the item to draw. This member can be one of the following values. 
 
 <table>
@@ -138,10 +138,10 @@ Every item is to be drawn.
 
 ### -field clrFace
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">COLORREF</a></b>
 
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.0.</a> 
+<a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 6.0.</a> 
 					<b>COLORREF</b> value representing the color that will be used to display the face of an item. 
 
 
@@ -150,7 +150,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Type: <b>int</b>
 
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.0.</a>  
+<a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 6.0.</a>  
 					Value of type <b>int</b> that specifies the effect that is applied to an icon, such as Glow, Shadow, or Pulse. 
 
 
@@ -159,7 +159,7 @@ Type: <b>int</b>
 Type: <b>int</b>
 
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.0.</a>  
+<a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 6.0.</a>  
 					Value of type <b>int</b> that specifies the phase of an icon. 
 
 
@@ -168,7 +168,7 @@ Type: <b>int</b>
 Type: <b>int</b>
 
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.0.</a>  
+<a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 6.0.</a>  
 					Value of type <b>int</b> that specifies the ID of the part of an item to draw. 
 
 
@@ -177,7 +177,7 @@ Type: <b>int</b>
 Type: <b>int</b>
 
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.0.</a>  
+<a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 6.0.</a>  
 					Value of type <b>int</b> that specifies the ID of the state of an item to draw. 
 
 
@@ -186,16 +186,16 @@ Type: <b>int</b>
 Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe8">RECT</a></b>
 
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.0.</a>  
+<a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 6.0.</a>  
 					<b>RECT</b> that specifies the rectangle in which the text is to be drawn. 
 
 
 ### -field uAlign
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.0.</a>  
+<a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 6.0.</a>  
 					<b>UINT</b> that specifies how a group should be aligned. This member can be one of the following values. 
 
 <table>

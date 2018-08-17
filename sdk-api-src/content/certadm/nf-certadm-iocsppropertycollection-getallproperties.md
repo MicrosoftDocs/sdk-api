@@ -4,10 +4,10 @@ title: IOCSPPropertyCollection::GetAllProperties
 author: windows-sdk-content
 description: Gets all properties in a property set.
 old-location: security\iocsppropertycollection_getallproperties_method.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 46a20d55-a673-4f9b-9fb9-bfc631d70f99
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: GetAllProperties, GetAllProperties method [Security], GetAllProperties method [Security],IOCSPPropertyCollection interface, IOCSPPropertyCollection interface [Security],GetAllProperties method, IOCSPPropertyCollection.GetAllProperties, IOCSPPropertyCollection::GetAllProperties, certadm/IOCSPPropertyCollection::GetAllProperties, security.iocsppropertycollection_getallproperties_method
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,7 +74,7 @@ This array is a two-dimensional array of elements, each of type <b>VARIANT</b>. 
 If the method succeeds, it returns <b>S_OK</b>.
 
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
 
 <h3>VB</h3>
 A safe array that contains the properties as name-value pairs.
@@ -89,7 +89,7 @@ This array is a two-dimensional array of elements, each of type <b>Variant</b>. 
 
 
 
-<a href="https://msdn.microsoft.com/8c700357-0cb4-4780-9ff1-ac57c46f9183">IOCSPPropertyCollection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa386394(v=VS.85).aspx">IOCSPPropertyCollection</a>
  
 
  

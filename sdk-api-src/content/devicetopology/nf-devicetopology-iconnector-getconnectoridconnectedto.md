@@ -7,7 +7,7 @@ old-location: coreaudio\iconnector_getconnectoridconnectedto.htm
 old-project: CoreAudio
 ms.assetid: 865add93-9174-41c5-8998-b68f75eb35a1
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/14/2018
 ms.keywords: GetConnectorIdConnectedTo, GetConnectorIdConnectedTo method [Core Audio], GetConnectorIdConnectedTo method [Core Audio],IConnector interface, IConnector interface [Core Audio],GetConnectorIdConnectedTo method, IConnector.GetConnectorIdConnectedTo, IConnector::GetConnectorIdConnectedTo, IConnectorGetConnectorIdConnectedTo, coreaudio.iconnector_getconnectoridconnectedto, devicetopology/IConnector::GetConnectorIdConnectedTo
 ms.prod: windows
 ms.technology: windows-sdk

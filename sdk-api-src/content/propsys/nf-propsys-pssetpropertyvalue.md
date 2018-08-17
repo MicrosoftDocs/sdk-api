@@ -62,9 +62,9 @@ Sets the value of a property in a property store.
 
 ### -param pps [in]
 
-Type: <b><a href="shell.IPropertyStore">IPropertyStore</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a>*</b>
 
-Pointer to an instance of the <a href="shell.IPropertyStore">IPropertyStore</a> interface, which represents the property store that contains the property.
+Pointer to an instance of the <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a> interface, which represents the property store that contains the property.
 
 
 ### -param ppd [in]
@@ -96,7 +96,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-This helper function is used to write a property value to a store. If the calling code already has a <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> structure, it might be simpler to call <a href="shell.IPropertyStore_SetValue">IPropertyStore::SetValue</a> directly.
+This helper function is used to write a property value to a store. If the calling code already has a <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> structure, it might be simpler to call <a href="https://msdn.microsoft.com/en-us/library/Ff536963(v=VS.85).aspx">IPropertyStore::SetValue</a> directly.
 
 
 #### Examples
@@ -131,7 +131,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.IPropertyStore_Commit">IPropertyStore::Commit</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff536957(v=VS.85).aspx">IPropertyStore::Commit</a>
 
 
 

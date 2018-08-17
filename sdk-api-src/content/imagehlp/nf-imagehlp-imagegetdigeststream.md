@@ -7,7 +7,7 @@ old-location: base\imagegetdigeststream.htm
 old-project: debug
 ms.assetid: e4560609-5b10-453f-a9a6-c5483d88cd64
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: CERT_PE_IMAGE_DIGEST_ALL_IMPORT_INFO, CERT_PE_IMAGE_DIGEST_DEBUG_INFO, CERT_PE_IMAGE_DIGEST_RESOURCES, ImageGetDigestStream, ImageGetDigestStream function, _win32_imagegetdigeststream, base.imagegetdigeststream, imagehlp/ImageGetDigestStream
 ms.prod: windows
 ms.technology: windows-sdk

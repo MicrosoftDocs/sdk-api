@@ -7,7 +7,7 @@ old-location: display\engallocusermem.htm
 old-project: display
 ms.assetid: 5864d8dc-e239-4ba8-bd22-4a4a8952c39e
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/13/2018
 ms.keywords: EngAllocUserMem, EngAllocUserMem function [Display Devices], display.engallocusermem, gdifncs_fb95fed4-9948-4bc1-8917-8757ebe29442.xml, winddi/EngAllocUserMem
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: CryptHashToBeSigned function
 author: windows-sdk-content
 description: Important  This API is deprecated.
 old-location: security\crypthashtobesigned.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 84477054-dd76-4dde-b465-9edeaf192714
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: CryptHashToBeSigned, CryptHashToBeSigned function [Security], _crypto2_crypthashtobesigned, security.crypthashtobesigned, wincrypt/CryptHashToBeSigned
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: display\engcheckabort.htm
 old-project: display
 ms.assetid: 0d117983-912b-4b77-8631-f801b914c769
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/13/2018
 ms.keywords: EngCheckAbort, EngCheckAbort function [Display Devices], display.engcheckabort, gdifncs_2d8e7bbc-f9b8-4a8b-bfd8-f9a9b93808ef.xml, winddi/EngCheckAbort
 ms.prod: windows
 ms.technology: windows-sdk

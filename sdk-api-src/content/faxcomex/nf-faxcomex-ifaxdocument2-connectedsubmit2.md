@@ -104,7 +104,7 @@ You must set the <a href="https://msdn.microsoft.com/en-us/library/Aa359008(v=VS
 
 
 
-<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/1679d433-5a62-4e98-a083-f15ac9d4fb2d">Body</a> property must be <b>NULL</b> to use <b>ConnectedSubmit2</b>.</div>
+<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/en-us/library/ms684817(v=VS.85).aspx">Body</a> property must be <b>NULL</b> to use <b>ConnectedSubmit2</b>.</div>
 <div> </div>
 This method is not supported for a remote connection to a fax server running Windows XP Home Edition or Windows XP Professional, and will return the error: <a href="https://msdn.microsoft.com/en-us/library/ms693490(v=VS.85).aspx">FAX_E_NOT_SUPPORTED_ON_THIS_SKU</a>.
 

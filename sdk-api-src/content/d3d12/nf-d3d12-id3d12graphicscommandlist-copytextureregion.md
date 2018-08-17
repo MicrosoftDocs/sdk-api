@@ -61,9 +61,9 @@ This method uses the GPU to copy texture data between two locations. Both the so
 
 ### -param pDst [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/D63EC731-EE75-44CD-9CCD-7FB4A761D1A3">D3D12_TEXTURE_COPY_LOCATION</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dn903818(v=VS.85).aspx">D3D12_TEXTURE_COPY_LOCATION</a>*</b>
 
-Specifies the destination <a href="https://msdn.microsoft.com/D63EC731-EE75-44CD-9CCD-7FB4A761D1A3">D3D12_TEXTURE_COPY_LOCATION</a>. The subresource referred to must be in the D3D12_RESOURCE_STATE_COPY_DEST state.
+Specifies the destination <a href="https://msdn.microsoft.com/en-us/library/Dn903818(v=VS.85).aspx">D3D12_TEXTURE_COPY_LOCATION</a>. The subresource referred to must be in the D3D12_RESOURCE_STATE_COPY_DEST state.
 
 
 
@@ -93,15 +93,15 @@ The z-coordinate of the upper left corner of the destination region. For a 1D or
 
 ### -param pSrc [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/D63EC731-EE75-44CD-9CCD-7FB4A761D1A3">D3D12_TEXTURE_COPY_LOCATION</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dn903818(v=VS.85).aspx">D3D12_TEXTURE_COPY_LOCATION</a>*</b>
 
-Specifies the source <a href="https://msdn.microsoft.com/D63EC731-EE75-44CD-9CCD-7FB4A761D1A3">D3D12_TEXTURE_COPY_LOCATION</a>.
+Specifies the source <a href="https://msdn.microsoft.com/en-us/library/Dn903818(v=VS.85).aspx">D3D12_TEXTURE_COPY_LOCATION</a>.
           The subresource referred to must be in the D3D12_RESOURCE_STATE_COPY_SOURCE state.
 
 
 ### -param pSrcBox [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/DD3973CC-043E-486E-9403-B46D8B7DE644">D3D12_BOX</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dn770341(v=VS.85).aspx">D3D12_BOX</a>*</b>
 
 Specifies an optional  D3D12_BOX that sets the size of the source texture to copy.
           
@@ -121,7 +121,7 @@ This method does not return a value.
 
 
 
-The source box must be within the size of the source resource. The destination offsets, (x, y, and z), allow the source box to be offset when writing into the destination resource; however, the dimensions of the source box and the offsets must be within the size of the resource. If you try and copy outside the destination resource or specify a source box that is larger than the source resource, the behavior of <b>CopyTextureRegion</b> is undefined. If you created a device that supports the <a href="https://msdn.microsoft.com/c545983c-5351-42a9-82e5-deea73aa035f">debug layer</a>, the debug output reports an error on this invalid <b>CopyTextureRegion</b> call. Invalid parameters to <b>CopyTextureRegion</b> cause undefined behavior and might result in incorrect rendering, clipping, no copy, or even the removal of the rendering device.
+The source box must be within the size of the source resource. The destination offsets, (x, y, and z), allow the source box to be offset when writing into the destination resource; however, the dimensions of the source box and the offsets must be within the size of the resource. If you try and copy outside the destination resource or specify a source box that is larger than the source resource, the behavior of <b>CopyTextureRegion</b> is undefined. If you created a device that supports the <a href="https://msdn.microsoft.com/en-us/library/Ff476881(v=VS.85).aspx">debug layer</a>, the debug output reports an error on this invalid <b>CopyTextureRegion</b> call. Invalid parameters to <b>CopyTextureRegion</b> cause undefined behavior and might result in incorrect rendering, clipping, no copy, or even the removal of the rendering device.
         
 
 If the resources are buffers, all coordinates are in bytes; if the resources are textures, all coordinates are in texels. 
@@ -135,13 +135,13 @@ If the resources are buffers, all coordinates are in bytes; if the resources are
 </ul>
 <b>CopyTextureRegion</b> only supports copy; it does not support any stretch, color key, or blend. <b>CopyTextureRegion</b> can reinterpret the resource data between a few format types. 
 
-If your app needs to copy an entire resource, we recommend to use <a href="https://msdn.microsoft.com/EFC305CF-FBA9-4192-999B-6C6BFCDFF51F">CopyResource</a> instead.
+If your app needs to copy an entire resource, we recommend to use <a href="https://msdn.microsoft.com/en-us/library/Dn903859(v=VS.85).aspx">CopyResource</a> instead.
         
 
 <div class="alert"><b>Note</b>  If you use <b>CopyTextureRegion</b> with a depth-stencil buffer or a multisampled resource, you must copy the whole subresource. In this situation, you must pass 0 to the <i>DstX</i>, <i>DstY</i>, and <i>DstZ</i> parameters and <b>NULL</b> to the <i>pSrcBox</i> parameter. In addition, source and destination resources, which are represented by the <i>pSrcResource</i> and <i>pDstResource</i> parameters, should have identical sample count values.
         </div>
 <div> </div>
-<b>CopyTextureRegion</b> may be used to initialize resources which alias the same heap memory. See <a href="https://msdn.microsoft.com/4581A82D-D2B6-4CAE-A336-07B8CF90A0BA">CreatePlacedResource</a> for more details.
+<b>CopyTextureRegion</b> may be used to initialize resources which alias the same heap memory. See <a href="https://msdn.microsoft.com/en-us/library/Dn899180(v=VS.85).aspx">CreatePlacedResource</a> for more details.
 
 <h3><a id="Example"></a><a id="example"></a><a id="EXAMPLE"></a>Example</h3>
 The following code snippet copies the box (located at (120,100),(200,220)) from a source texture into the region (10,20),(90,140) in a destination texture.
@@ -239,7 +239,7 @@ The <b>HelloTriangle</b> sample uses <b>ID3D12GraphicsCommandList::CopyTextureRe
 </td>
 </tr>
 </table></span></div>
-See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
+See <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85).aspx">Example Code in the D3D12 Reference</a>.
         
 
 <div class="code"></div>
@@ -251,11 +251,11 @@ See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Ex
 
 
 
-<a href="https://msdn.microsoft.com/46F89B85-EDAA-4095-B6C6-4CC47F972F09">CopyBufferRegion</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903856(v=VS.85).aspx">CopyBufferRegion</a>
 
 
 
-<a href="https://msdn.microsoft.com/1BF282A7-F6D4-43A9-BDAD-D877564A1C6B">ID3D12GraphicsCommandList</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903537(v=VS.85).aspx">ID3D12GraphicsCommandList</a>
  
 
  

@@ -65,9 +65,9 @@ The
 
 
 
-### -param OPTIONAL
+### -param Servername [in, optional]
 
-TBD
+A pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
 
 
 ### -param PointerToBuffer [out]
@@ -97,11 +97,6 @@ A pointer to a value that receives the total number of entries that could have b
 ### -param ResumeHandle [in, out]
 
 A pointer to a value that contains a resume handle which is used to continue a job enumeration. The handle should be zero on the first call and left unchanged for subsequent calls. If this parameter is <b>NULL</b>, then no resume handle is stored.
-
-
-#### - Servername [in, optional]
-
-A pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
 
 
 ## -returns

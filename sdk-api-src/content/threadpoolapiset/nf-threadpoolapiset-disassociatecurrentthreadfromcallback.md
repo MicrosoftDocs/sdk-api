@@ -7,7 +7,7 @@ old-location: base\disassociatecurrentthreadfromcallback.htm
 old-project: procthread
 ms.assetid: f25f936c-2570-4e8c-807b-42000cd878bb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: DisassociateCurrentThreadFromCallback, DisassociateCurrentThreadFromCallback function, base.disassociatecurrentthreadfromcallback, threadpoolapiset/DisassociateCurrentThreadFromCallback, winbase/DisassociateCurrentThreadFromCallback
 ms.prod: windows
 ms.technology: windows-sdk

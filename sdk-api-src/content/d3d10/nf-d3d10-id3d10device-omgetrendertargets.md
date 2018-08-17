@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_omgetrendertargets.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_omgetrendertargets.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: ID3D10Device interface [Direct3D 10],OMGetRenderTargets method, ID3D10Device.OMGetRenderTargets, ID3D10Device::OMGetRenderTargets, OMGetRenderTargets, OMGetRenderTargets method [Direct3D 10], OMGetRenderTargets method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::OMGetRenderTargets, direct3d10.id3d10device_omgetrendertargets, f378deb9-1829-aecc-36fe-7c3ab163d523
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ Get pointers to the render targets and the depth-stencil buffer that are availab
 
 ### -param NumViews [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Number of render targets to retrieve.
 

@@ -123,7 +123,7 @@ Gets the document format, represented as a Multipurpose Internet Mail Extensions
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/410be931-d458-458a-b0cd-4e9f0c444423">GetFileName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231418(v=VS.85).aspx">GetFileName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the file name of the item, which the filter host uses for indexing. If the item does not exist in a file system and the <a href="https://msdn.microsoft.com/en-us/library/Bb231415(v=VS.85).aspx">IUrlAccessor::BindToStream</a> method is implemented, this method returns the shell's System.ParsingPath property for the item. 

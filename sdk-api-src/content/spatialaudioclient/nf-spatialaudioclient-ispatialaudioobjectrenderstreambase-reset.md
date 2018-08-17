@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioobjectrenderstream_reset.htm
 old-project: CoreAudio
 ms.assetid: F6F096C0-3384-4463-B25F-99C6A7B3263B
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/14/2018
 ms.keywords: ISpatialAudioObjectRenderStreamBase interface [Core Audio],Reset method, ISpatialAudioObjectRenderStreamBase.Reset, ISpatialAudioObjectRenderStreamBase::Reset, Reset, Reset method [Core Audio], Reset method [Core Audio],ISpatialAudioObjectRenderStreamBase interface, coreaudio.ispatialaudioobjectrenderstream_reset, spatialaudioclient/ISpatialAudioObjectRenderStreamBase::Reset
 ms.prod: windows
 ms.technology: windows-sdk
@@ -113,7 +113,7 @@ The stream must have been previously stopped with a call to <a href="https://msd
 
 
 
-<a href="coreaudio.ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a>
+<a href="https://msdn.microsoft.com/library/Mt829728(v=VS.85).aspx">ISpatialAudioObjectRenderStreamBase</a>
  
 
  

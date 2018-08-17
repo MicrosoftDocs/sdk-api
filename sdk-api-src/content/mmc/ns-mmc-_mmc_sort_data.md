@@ -4,10 +4,10 @@ title: "_MMC_SORT_DATA"
 author: windows-sdk-content
 description: Contains the column sort data of a single column in a column set.
 old-location: mmc\mmc_sort_data.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: 26500d98-4355-4e0c-a636-2c6898955ef0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/14/2018
 ms.keywords: MMC_SORT_DATA, MMC_SORT_DATA structure [MMC], RSI_DESCENDING = 0x0001, RSI_NOSORTICON = 0x0002, _MMC_SORT_DATA, _slate_mmc_sort_data, mmc.mmc_sort_data, mmc/MMC_SORT_DATA
 ms.prod: windows
 ms.technology: windows-sdk

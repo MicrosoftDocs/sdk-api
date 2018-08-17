@@ -4,10 +4,10 @@ title: MS_ADDINFO_FLAT_
 author: windows-sdk-content
 description: Provides additional information about flat or end-to-end subject types.
 old-location: security\ms_addinfo_flat.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 9f5bebd1-8eda-456d-9339-3334a19c0ea4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: "*PMS_ADDINFO_FLAT, MS_ADDINFO_FLAT, MS_ADDINFO_FLAT structure [Security], MS_ADDINFO_FLAT_, PMS_ADDINFO_FLAT, PMS_ADDINFO_FLAT structure pointer [Security], mssip/MS_ADDINFO_FLAT_, mssip/PMS_ADDINFO_FLAT, security.ms_addinfo_flat"
 ms.prod: windows
 ms.technology: windows-sdk

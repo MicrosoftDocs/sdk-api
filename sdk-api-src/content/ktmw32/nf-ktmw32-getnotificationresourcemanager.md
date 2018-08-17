@@ -77,24 +77,17 @@ A pointer to a <a href="https://msdn.microsoft.com/4f87de9d-a068-4ab9-8f38-b75f2
 The size of the <i>TransactionNotification</i> buffer, in bytes.
 
 
-### -param OPTIONAL
-
-TBD
-
-
-
-
-#### - ReturnLength [out, optional]
-
-A pointer to a variable that receives the actual size of the notification received by the 
-      <i>TransactionNotification</i> parameter.
-
-
-#### - dwMilliseconds [in, optional]
+### -param dwMilliseconds [in, optional]
 
 The time, in milliseconds, for which the calling application is blocking while waiting for the notification 
       to become available. If no notifications are available when the timeout expires, 
       <b>ERROR_TIMEOUT</b> is returned.
+
+
+### -param ReturnLength [out, optional]
+
+A pointer to a variable that receives the actual size of the notification received by the 
+      <i>TransactionNotification</i> parameter.
 
 
 ## -returns

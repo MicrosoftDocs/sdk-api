@@ -4,10 +4,10 @@ title: INDESPolicy::Initialize
 author: windows-sdk-content
 description: Initializes the NDES policy module.
 old-location: security\indespolicy_initialize.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 654b4e1d-f717-459a-bbf5-dcc733756608
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: INDESPolicy interface [Security],Initialize method, INDESPolicy.Initialize, INDESPolicy::Initialize, Initialize, Initialize method [Security], Initialize method [Security],INDESPolicy interface, certpol/INDESPolicy::Initialize, security.indespolicy_initialize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,7 +75,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/9ed31493-832a-4f66-bb95-02ef1ad7ca15">INDESPolicy</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn383665(v=VS.85).aspx">INDESPolicy</a>
  
 
  

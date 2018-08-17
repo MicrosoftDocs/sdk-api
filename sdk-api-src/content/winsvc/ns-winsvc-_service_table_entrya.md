@@ -7,7 +7,7 @@ old-location: base\service_table_entry_str.htm
 old-project: services
 ms.assetid: dd40c4f0-cbbe-429f-91c0-3ba141dab702
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: "*LPSERVICE_TABLE_ENTRYA, LPSERVICE_TABLE_ENTRY, LPSERVICE_TABLE_ENTRY structure pointer, SERVICE_TABLE_ENTRY, SERVICE_TABLE_ENTRY structure, SERVICE_TABLE_ENTRYA, SERVICE_TABLE_ENTRYW, _SERVICE_TABLE_ENTRYA, _win32_service_table_entry_str, base.service_table_entry_str, winsvc/LPSERVICE_TABLE_ENTRY, winsvc/SERVICE_TABLE_ENTRY, winsvc/SERVICE_TABLE_ENTRYA, winsvc/SERVICE_TABLE_ENTRYW"
 ms.prod: windows
 ms.technology: windows-sdk

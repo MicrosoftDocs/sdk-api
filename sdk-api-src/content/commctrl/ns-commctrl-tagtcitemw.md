@@ -64,7 +64,7 @@ Specifies or receives the attributes of a tab item. It is used with the <a href=
 
 ### -field mask
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Value that specifies which members to retrieve or set. This member can be a combination of the following values: 
 
@@ -112,7 +112,7 @@ The string pointed to by
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 4.70</a>. The 
+<a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 4.70</a>. The 
 <b>dwState</b> member is valid.
 
 </td>
@@ -133,23 +133,23 @@ The <b>pszText</b> member is valid.
 
 ### -field dwState
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
 
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 4.70</a>. Specifies the item's current state if information is being retrieved. If item information is being set, this member contains the state value to be set for the item. For a list of valid tab control item states, see <a href="https://msdn.microsoft.com/en-us/library/Bb760547(v=VS.85).aspx">Tab Control Item States</a>. This member is ignored in the <a href="https://msdn.microsoft.com/en-us/library/Bb760606(v=VS.85).aspx">TCM_INSERTITEM</a> message. 
+<a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 4.70</a>. Specifies the item's current state if information is being retrieved. If item information is being set, this member contains the state value to be set for the item. For a list of valid tab control item states, see <a href="https://msdn.microsoft.com/en-us/library/Bb760547(v=VS.85).aspx">Tab Control Item States</a>. This member is ignored in the <a href="https://msdn.microsoft.com/en-us/library/Bb760606(v=VS.85).aspx">TCM_INSERTITEM</a> message. 
 
 
 ### -field dwStateMask
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
 
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 4.70</a>. Specifies which bits of the <b>dwState</b> member contain valid information. This member is ignored in the <a href="https://msdn.microsoft.com/en-us/library/Bb760606(v=VS.85).aspx">TCM_INSERTITEM</a> message. 
+<a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 4.70</a>. Specifies which bits of the <b>dwState</b> member contain valid information. This member is ignored in the <a href="https://msdn.microsoft.com/en-us/library/Bb760606(v=VS.85).aspx">TCM_INSERTITEM</a> message. 
 
 
 ### -field pszText
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPTSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPTSTR</a></b>
 
 Pointer to a null-terminated string that contains the tab text when item information is being set. If item information is being retrieved, this member specifies the address of the buffer that receives the tab text. 
 
@@ -171,25 +171,25 @@ Index in the tab control's image list, or -1 if there is no image for the tab.
 
 ### -field lParam
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPARAM</a></b>
 
 Application-defined data associated with the tab control item. If more or less than 4 bytes of application-defined data exist per tab, an application must define a structure and use it instead of the <b>TCITEM</b> structure. The first member of the application-defined structure must be a <a href="https://msdn.microsoft.com/en-us/library/Bb760556(v=VS.85).aspx">TCITEMHEADER</a> structure. 
 
 
 #### - lpReserved1
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 4.00</a>. Not used. 
+<a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 4.00</a>. Not used. 
 
 
 #### - lpReserved2
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 4.00</a>. Not used. 
+<a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 4.00</a>. Not used. 
 
 
 ## -remarks

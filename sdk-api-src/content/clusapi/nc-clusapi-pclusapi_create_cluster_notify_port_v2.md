@@ -55,7 +55,7 @@ req.irql:
 
 Creates 
     or modifies a notification port. For information about  notification ports, see 
-    <a href="https://msdn.microsoft.com/6d69cdd8-b29a-40c5-94c6-908b9bea22ef">Receiving Cluster Events</a>.
+    <a href="https://msdn.microsoft.com/en-us/library/Aa371823(v=VS.85).aspx">Receiving Cluster Events</a>.
 
 
 ## -parameters
@@ -72,7 +72,7 @@ A handle to a notification port or <b>INVALID_HANDLE_VALUE</b>, indicating that 
 
 ### -param hCluster [in]
 
-A handle to the <a href="c_gly.htm">cluster</a> to be associated with the 
+A handle to the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> to be associated with the 
        notification port that is  identified by the  <i>hChange</i>    parameter or 
        <b>INVALID_HANDLE_VALUE</b>, indicating that the notification port should not be associated 
        with a cluster. If the  <i>hChange</i>  parameter  is not set to 
@@ -82,7 +82,7 @@ A handle to the <a href="c_gly.htm">cluster</a> to be associated with the
 
 ### -param *Filters [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/E173F5D8-955B-44FF-980E-CEF536A87AF5">NOTIFY_FILTER_AND_TYPE</a> structure that specifies the  type of notifications that the port can accept.
+A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dn622942(v=VS.85).aspx">NOTIFY_FILTER_AND_TYPE</a> structure that specifies the  type of notifications that the port can accept.
 
 
 ### -param dwFilterCount [in]
@@ -116,7 +116,7 @@ If the operation fails, the
 
 
 
-<a href="https://msdn.microsoft.com/1b3a3b23-39db-47b7-b4a8-17fc1ee45df6">Failover Cluster Management Function</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa369107(v=VS.85).aspx">Failover Cluster Management Function</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: coreaudio\idevicetopology_getsubunitcount.htm
 old-project: CoreAudio
 ms.assetid: 70fa57bb-56fe-4f8c-9967-10714f1cba22
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/14/2018
 ms.keywords: GetSubunitCount, GetSubunitCount method [Core Audio], GetSubunitCount method [Core Audio],IDeviceTopology interface, IDeviceTopology interface [Core Audio],GetSubunitCount method, IDeviceTopology.GetSubunitCount, IDeviceTopology::GetSubunitCount, IDeviceTopologyGetSubunitCount, coreaudio.idevicetopology_getsubunitcount, devicetopology/IDeviceTopology::GetSubunitCount
 ms.prod: windows
 ms.technology: windows-sdk

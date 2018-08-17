@@ -52,7 +52,7 @@ req.irql:
 
 
 Used with the 
-    <a href="https://msdn.microsoft.com/12c35048-660d-47d3-b35c-24eea5627ffb">CLUSCTL_RESOURCE_SET_CSV_MAINTENANCE_MODE</a> 
+    <a href="https://msdn.microsoft.com/en-us/library/Ee342496(v=VS.85).aspx">CLUSCTL_RESOURCE_SET_CSV_MAINTENANCE_MODE</a> 
     control code to enables or disables the  maintenance mode on a cluster shared volume (CSV).
 
 
@@ -77,11 +77,11 @@ The volume <b>GUID</b> path of the CSV.
 
 
 
-<a href="https://msdn.microsoft.com/12c35048-660d-47d3-b35c-24eea5627ffb">CLUSCTL_RESOURCE_SET_CSV_MAINTENANCE_MODE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee342496(v=VS.85).aspx">CLUSCTL_RESOURCE_SET_CSV_MAINTENANCE_MODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/45da8dbc-dd70-4f95-b933-66d8e4340448">Utility structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa373109(v=VS.85).aspx">Utility structures</a>
  
 
  

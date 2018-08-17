@@ -64,12 +64,12 @@ The <b>GetScheduleEntryProperties</b> method retrieves the properties for a spec
 
 ### -param varScheduleEntryDescriptionID [in]
 
-Specifies the unique identifier for the schedule entry. Call the <a href="https://msdn.microsoft.com/d44abd0d-bcfc-418f-b541-c085032fb933">IGuideData::GetScheduleEntryIDs</a> method to get a list of schedule entry identifiers.
+Specifies the unique identifier for the schedule entry. Call the <a href="https://msdn.microsoft.com/en-us/library/Dd694114(v=VS.85).aspx">IGuideData::GetScheduleEntryIDs</a> method to get a list of schedule entry identifiers.
 
 
 ### -param ppEnumProperties [out]
 
-Pointer to a variable that receives an <a href="https://msdn.microsoft.com/ae4db426-7e90-4cb6-b53a-2cb7074308fc">IEnumGuideDataProperties</a> interface pointer. Use this interface to enumerate the properties. The caller must release the interface
+Pointer to a variable that receives an <a href="https://msdn.microsoft.com/en-us/library/Dd693993(v=VS.85).aspx">IEnumGuideDataProperties</a> interface pointer. Use this interface to enumerate the properties. The caller must release the interface
 
 
 ## -returns
@@ -136,7 +136,7 @@ The returned collection includes the following properties.
 </table>
  
 
-The method fails if the TIF has not received the schedule information from the PSI tables in the transport stream. The client should implement the <a href="https://msdn.microsoft.com/9da565f2-fbcb-4d71-ae40-7d9821f46630">IGuideDataEvent</a> interface and wait for the <a href="https://msdn.microsoft.com/04c278a0-8a92-4801-9463-696beb22819e">IGuideDataEvent::ScheduleEntryChanged</a> event to be fired.
+The method fails if the TIF has not received the schedule information from the PSI tables in the transport stream. The client should implement the <a href="https://msdn.microsoft.com/en-us/library/Dd694099(v=VS.85).aspx">IGuideDataEvent</a> interface and wait for the <a href="https://msdn.microsoft.com/en-us/library/Dd694104(v=VS.85).aspx">IGuideDataEvent::ScheduleEntryChanged</a> event to be fired.
 
 
 
@@ -146,11 +146,11 @@ The method fails if the TIF has not received the schedule information from the P
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/3bd27fce-90be-480b-b157-a17beccda068">IGuideData Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd694098(v=VS.85).aspx">IGuideData Interface</a>
  
 
  

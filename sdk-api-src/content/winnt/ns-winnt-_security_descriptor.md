@@ -7,7 +7,7 @@ old-location: security\security_descriptor.htm
 old-project: secauthz
 ms.assetid: 653992aa-4e32-4187-b3ac-727e82bfe0b6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: "*PISECURITY_DESCRIPTOR, PISECURITY_DESCRIPTOR, PISECURITY_DESCRIPTOR structure pointer [Security], SECURITY_DESCRIPTOR, SECURITY_DESCRIPTOR structure [Security], _SECURITY_DESCRIPTOR, _win32_security_descriptor_str, security.security_descriptor, winnt/PISECURITY_DESCRIPTOR, winnt/SECURITY_DESCRIPTOR"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -55,7 +55,7 @@ req.product: Windows UI
 ## -description
 
 
-Takes an array of advance widths for a <a href="uniscribe_glossary.htm">run</a> and generates an array of adjusted advance glyph widths.
+Takes an array of advance widths for a <a href="https://msdn.microsoft.com/en-us/library/Dd374094(v=VS.85).aspx">run</a> and generates an array of adjusted advance glyph widths.
 
 
 ## -parameters

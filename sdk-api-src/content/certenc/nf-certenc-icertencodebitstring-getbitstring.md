@@ -4,10 +4,10 @@ title: ICertEncodeBitString::GetBitString
 author: windows-sdk-content
 description: Returns the string of bits in the object's bit string.
 old-location: security\icertencodebitstring_getbitstring.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: d0c6c501-3aaa-42ab-a077-69f6d24f1eff
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: CCertEncodeBitString object [Security],GetBitString method, GetBitString, GetBitString method [Security], GetBitString method [Security],CCertEncodeBitString object, GetBitString method [Security],ICertEncodeBitString interface, ICertEncodeBitString interface [Security],GetBitString method, ICertEncodeBitString.GetBitString, ICertEncodeBitString::GetBitString, _certsrv_icertencodebitstring_getbitstring, certenc/ICertEncodeBitString::GetBitString, security.icertencodebitstring_getbitstring
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,7 +79,7 @@ A pointer to a <b>BSTR</b> that will contain the bit string. When you have finis
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the bit string.
@@ -92,7 +92,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-<a href="https://msdn.microsoft.com/51178b67-46da-49f8-9bd7-a500e846e0a8">ICertEncodeBitString</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383767(v=VS.85).aspx">ICertEncodeBitString</a>
  
 
  

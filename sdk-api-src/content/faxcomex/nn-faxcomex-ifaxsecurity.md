@@ -82,7 +82,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms690274(v=VS.85).aspx">IF
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a016aff7-ca25-4724-b13c-92d31da28a38">Save</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690247(v=VS.85).aspx">Save</a>
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms690247(v=VS.85).aspx">IFaxSecurity::Save</a> method saves the <a href="https://msdn.microsoft.com/en-us/library/ms689509(v=VS.85).aspx">FaxSecurity</a> object data.

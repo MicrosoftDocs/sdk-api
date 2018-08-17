@@ -64,11 +64,11 @@ Reserves space for log buffers, or appends a log record to the log, or does both
 A pointer to a  marshaling context that is allocated by using the <a href="https://msdn.microsoft.com/750c0615-bfac-402b-a590-6c9d800cf2d8">CreateLogMarshallingArea</a> function.
 
 
-### -param OPTIONAL
+### -param rgWriteEntries [in, optional]
 
-TBD
+A pointer to an array of <a href="https://msdn.microsoft.com/7c81a695-b93c-4c74-8ee8-133eea9f12d9">CLFS_WRITE_ENTRY</a> buffers to be marshaled into  one  record.
 
-
+This parameter is ignored if the <i>cWriteEntries</i> parameter is zero.
 
 
 ### -param cWriteEntries [in]
@@ -76,6 +76,16 @@ TBD
 The number of write entries  in the <i>rgWriteEntries</i>  array. 
 
 If this value is nonzero, you must specify a buffer in the <i>rgWriteEntries</i> parameter.
+
+
+### -param plsnUndoNext [in, optional]
+
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb540343(v=VS.85).aspx">CLFS_LSN</a> structure that specifies the log sequence number (LSN) of the next record in the undo-chain.   
+
+
+### -param plsnPrevious [in, optional]
+
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb540343(v=VS.85).aspx">CLFS_LSN</a> structure that specifies the LSN of the previous record in the previous-chain.
 
 
 ### -param cReserveRecords [in]
@@ -89,7 +99,7 @@ A pointer to an array of reservation sizes for each record  that  the <i>cReserv
 
  This parameter is ignored if the <i>cReserveRecords</i> parameter is zero.    If a reservation size is negative, a reservation of that size is released.
 
-The actual space that is reserved for each record, including required overhead, is returned in the individual array elements on successful completion. These values can  be passed to the <a href="https://msdn.microsoft.com/a5e71e4c-5871-4bea-a4a5-a56c7e70276b">FreeReservedLog</a>  function to adjust space that is reserved in the marshaling area.
+The actual space that is reserved for each record, including required overhead, is returned in the individual array elements on successful completion. These values can  be passed to the <a href="https://msdn.microsoft.com/en-us/library/Bb540377(v=VS.85).aspx">FreeReservedLog</a>  function to adjust space that is reserved in the marshaling area.
 
 
 ### -param fFlags [in]
@@ -151,33 +161,16 @@ Assigns no flags.
  
 
 
-#### - pOverlapped [in, out, optional]
+### -param plsn [out, optional]
 
-A pointer to an <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure. 
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb540343(v=VS.85).aspx">CLFS_LSN</a> structure that receives the LSN  of the appended record.
+
+
+### -param pOverlapped [in, out, optional]
+
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms684342(v=VS.85).aspx">OVERLAPPED</a> structure. 
 
 This parameter can be <b>NULL</b> if asynchronous operation is not used.
-
-
-#### - plsn [out, optional]
-
-A pointer to a <a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a> structure that receives the LSN  of the appended record.
-
-
-#### - plsnPrevious [in, optional]
-
-A pointer to a <a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a> structure that specifies the LSN of the previous record in the previous-chain.
-
-
-#### - plsnUndoNext [in, optional]
-
-A pointer to a <a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a> structure that specifies the log sequence number (LSN) of the next record in the undo-chain.   
-
-
-#### - rgWriteEntries [in, optional]
-
-A pointer to an array of <a href="https://msdn.microsoft.com/7c81a695-b93c-4c74-8ee8-133eea9f12d9">CLFS_WRITE_ENTRY</a> buffers to be marshaled into  one  record.
-
-This parameter is ignored if the <i>cWriteEntries</i> parameter is zero.
 
 
 ## -returns
@@ -219,7 +212,7 @@ To complete the log record copy, the client should first synchronize its executi
 
 
 
-<a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb540343(v=VS.85).aspx">CLFS_LSN</a>
 
 
 
@@ -231,7 +224,7 @@ To complete the log record copy, the client should first synchronize its executi
 
 
 
-<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684342(v=VS.85).aspx">OVERLAPPED</a>
  
 
  

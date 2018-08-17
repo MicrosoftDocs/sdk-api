@@ -92,7 +92,7 @@ Sets the flags of a <a href="https://msdn.microsoft.com/en-us/library/Aa359063(v
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c1f3a114-ac7f-4a8b-9c75-802393a3b7d9">AccountName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359057(v=VS.85).aspx">AccountName</a>
 
 
 </td>

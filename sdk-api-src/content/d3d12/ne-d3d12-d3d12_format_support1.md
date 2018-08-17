@@ -120,7 +120,7 @@ The HLSL <a href="https://msdn.microsoft.com/en-us/library/Bb509695(v=VS.85).asp
 
 The HLSL <a href="https://msdn.microsoft.com/en-us/library/Bb509696(v=VS.85).aspx">SampleCmp</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb509697(v=VS.85).aspx">SampleCmpLevelZero</a> functions for texture objects are supported.
 
-<div class="alert"><b>Note</b>  Windows 8 and later might provide limited support for these functions on Direct3D <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature levels</a> 9_1, 9_2, and 9_3. For more info, see <a href="https://msdn.microsoft.com/BB8B4119-E79B-468C-A5E0-E250BF204A98">Implementing shadow buffers for Direct3D feature level 9</a>.
+<div class="alert"><b>Note</b>  Windows 8 and later might provide limited support for these functions on Direct3D <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature levels</a> 9_1, 9_2, and 9_3. For more info, see <a href="https://msdn.microsoft.com/BB8B4119-E79B-468C-A5E0-E250BF204A98">Implementing shadow buffers for Direct3D feature level 9</a>.
 </div>
 <div> </div>
 
@@ -151,7 +151,7 @@ Depth stencils supported.
 
 ### -field D3D12_FORMAT_SUPPORT1_MULTISAMPLE_RESOLVE
 
-Multisample antialiasing (MSAA) resolve operations are supported. For more info, see <a href="https://msdn.microsoft.com/F1D4BAD1-B08E-47D0-9D2B-41873D6B4456">ID3D12GraphicsCommandList::ResolveSubresource</a>. 
+Multisample antialiasing (MSAA) resolve operations are supported. For more info, see <a href="https://msdn.microsoft.com/en-us/library/Dn903897(v=VS.85).aspx">ID3D12GraphicsCommandList::ResolveSubresource</a>. 
 
 
 ### -field D3D12_FORMAT_SUPPORT1_DISPLAY
@@ -218,7 +218,7 @@ Format can be used with the video encoder.
 
 
 
-This enum is used by the <a href="https://msdn.microsoft.com/6E4EB08F-0B60-4B1E-AD27-8F0AE2BD0766">D3D12_FEATURE_DATA_FORMAT_SUPPORT</a> structure. 
+This enum is used by the <a href="https://msdn.microsoft.com/en-us/library/Dn859386(v=VS.85).aspx">D3D12_FEATURE_DATA_FORMAT_SUPPORT</a> structure. 
 
 
 
@@ -228,11 +228,11 @@ This enum is used by the <a href="https://msdn.microsoft.com/6E4EB08F-0B60-4B1E-
 
 
 
-<a href="https://msdn.microsoft.com/76E76C85-128E-4F0E-9711-C72C4CF6C835">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn770455(v=VS.85).aspx">Core Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/C3C1B611-714C-49DB-8034-9C9B7D6772E4">D3D12_HEAP_FLAGS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn986730(v=VS.85).aspx">D3D12_HEAP_FLAGS</a>
  
 
  

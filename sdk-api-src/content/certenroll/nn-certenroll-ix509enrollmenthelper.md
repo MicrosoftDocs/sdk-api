@@ -58,7 +58,7 @@ The <b>IX509EnrollmentHelper</b> interface defines methods that enable a web app
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509EnrollmentHelper</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IX509EnrollmentHelper</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>IX509EnrollmentHelper</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a354fc02-299d-472c-9821-1509e299ccb9">AddEnrollmentServer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee351688(v=VS.85).aspx">AddEnrollmentServer</a>
 </td>
 <td align="left" width="63%">
 Saves certificate enrollment server (CES) access credentials in the credential cache.
@@ -82,7 +82,7 @@ Saves certificate enrollment server (CES) access credentials in the credential c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6b341b5a-88f2-4221-812d-b2997829aa4c">AddPolicyServer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee351689(v=VS.85).aspx">AddPolicyServer</a>
 </td>
 <td align="left" width="63%">
 Registers a certificate enrollment policy (CEP) server and saves CEP access credentials in the credential cache.
@@ -93,7 +93,7 @@ Registers a certificate enrollment policy (CEP) server and saves CEP access cred
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4f178df7-714f-49e6-9bf5-647acc23b0ad">Enroll</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee351690(v=VS.85).aspx">Enroll</a>
 </td>
 <td align="left" width="63%">
 Enrolls a certificate request and retrieves the issued certificate.
@@ -104,7 +104,7 @@ Enrolls a certificate request and retrieves the issued certificate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/83cb603b-9396-4983-8707-12d1c5b8b234">Initialize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee351691(v=VS.85).aspx">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes an <b>IX509EnrollmentHelper</b> object.

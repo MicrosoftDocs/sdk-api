@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_rssetviewports.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_rssetviewports.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 38205573-be63-f56a-8e33-466b9154f1a9, ID3D10Device interface [Direct3D 10],RSSetViewports method, ID3D10Device.RSSetViewports, ID3D10Device::RSSetViewports, RSSetViewports, RSSetViewports method [Direct3D 10], RSSetViewports method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::RSSetViewports, direct3d10.id3d10device_rssetviewports
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ Bind an array of <a href="https://msdn.microsoft.com/en-us/library/Bb205126(v=VS
 
 ### -param NumViewports [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Number of viewports to bind.
 

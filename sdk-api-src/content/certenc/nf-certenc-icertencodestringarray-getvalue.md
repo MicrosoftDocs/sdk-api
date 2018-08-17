@@ -4,10 +4,10 @@ title: ICertEncodeStringArray::GetValue
 author: windows-sdk-content
 description: Returns the specified string from the string array.
 old-location: security\icertencodestringarray_getvalue.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 93f827c6-4dc6-462f-8865-eb631d7fe7bc
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: CCertEncodeStringArray object [Security],GetValue method, GetValue, GetValue method [Security], GetValue method [Security],CCertEncodeStringArray object, GetValue method [Security],ICertEncodeStringArray interface, ICertEncodeStringArray interface [Security],GetValue method, ICertEncodeStringArray.GetValue, ICertEncodeStringArray::GetValue, _certsrv_icertencodestringarray_getvalue, certenc/ICertEncodeStringArray::GetValue, security.icertencodestringarray_getvalue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ A pointer to a <b>BSTR</b> that represents the string value. When you have finis
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the string value at the specified index.
@@ -90,15 +90,15 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-<a href="https://msdn.microsoft.com/5515c25e-f788-4222-8f66-f5d86bd2a3a3">ICertEncodeStringArray</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385013(v=VS.85).aspx">ICertEncodeStringArray</a>
 
 
 
-<a href="https://msdn.microsoft.com/7020f364-4f92-46b8-a8e8-360d8e0fa051">ICertEncodeStringArray::GetStringType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385017(v=VS.85).aspx">ICertEncodeStringArray::GetStringType</a>
 
 
 
-<a href="https://msdn.microsoft.com/41e5c2b8-a0da-426a-b411-0bdc3fd7ecfe">ICertEncodeStringArray::SetValue</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385020(v=VS.85).aspx">ICertEncodeStringArray::SetValue</a>
  
 
  

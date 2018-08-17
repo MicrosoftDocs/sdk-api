@@ -72,7 +72,7 @@ Number of buffers to set (ranges from 0 to D3D11_COMMONSHADER_CONSTANT_BUFFER_AP
 
 ### -param ppConstantBuffers [in, optional]
 
-Array of constant buffers (see <a href="https://msdn.microsoft.com/7224de57-75cb-4d68-9d70-f5dd2f92b1fd">ID3D11Buffer</a>) being given to the device.
+Array of constant buffers (see <a href="https://msdn.microsoft.com/en-us/library/Ff476351(v=VS.85).aspx">ID3D11Buffer</a>) being given to the device.
 
 
 ### -param pFirstConstant [in, optional]
@@ -106,12 +106,12 @@ From the shader’s point of view, element [0] in the constant buffers array is 
 
 Out of bounds access to the constant buffers from the shader to the range that is defined by <i>pFirstConstant</i> and <i>pNumConstants</i> returns 0. 
 
-If <i>pFirstConstant</i> and <i>pNumConstants</i> arrays are <b>NULL</b>, you get the same result as if you were binding the entire buffer into view.  You get this same result if you call the <a href="https://msdn.microsoft.com/40970d1d-bad3-48e0-8f0e-6d45fe602594">CSSetConstantBuffers</a> method. If the buffer is larger than the maximum constant buffer size that is supported by shaders (4096 elements), the shader can access only the first 4096 constants.
+If <i>pFirstConstant</i> and <i>pNumConstants</i> arrays are <b>NULL</b>, you get the same result as if you were binding the entire buffer into view.  You get this same result if you call the <a href="https://msdn.microsoft.com/en-us/library/Ff476400(v=VS.85).aspx">CSSetConstantBuffers</a> method. If the buffer is larger than the maximum constant buffer size that is supported by shaders (4096 elements), the shader can access only the first 4096 constants.
 
 If either <i>pFirstConstant</i> or <i>pNumConstants</i> is <b>NULL</b>, the other parameter must also be <b>NULL</b>.
 
 <h3><a id="Calling_CSSetConstantBuffers1_with_command_list_emulation"></a><a id="calling_cssetconstantbuffers1_with_command_list_emulation"></a><a id="CALLING_CSSETCONSTANTBUFFERS1_WITH_COMMAND_LIST_EMULATION"></a>Calling CSSetConstantBuffers1 with command list emulation</h3>
-The runtime's <a href="https://msdn.microsoft.com/4f581bc7-6c5e-4e56-b768-7f3cc5dbcb3e">command list</a> emulation of <b>CSSetConstantBuffers1</b> sometimes doesn't actually change the offsets or sizes for the arrays of constant buffers. This behavior occurs when 
+The runtime's <a href="https://msdn.microsoft.com/en-us/library/Ff476885(v=VS.85).aspx">command list</a> emulation of <b>CSSetConstantBuffers1</b> sometimes doesn't actually change the offsets or sizes for the arrays of constant buffers. This behavior occurs when 
 
 <b>CSSetConstantBuffers1</b> doesn't effectively change the constant buffers at the beginning and end of the range of slots that you set to update. This section shows how to work around this 
 
@@ -199,7 +199,7 @@ If you change multiple constant buffers, set the first and last constant buffers
 
 
 
-<a href="https://msdn.microsoft.com/DD2A556D-AEF0-407E-A497-CF17ACDEB1A7">ID3D11DeviceContext1</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404598(v=VS.85).aspx">ID3D11DeviceContext1</a>
  
 
  

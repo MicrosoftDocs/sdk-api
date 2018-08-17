@@ -62,9 +62,10 @@ The
 
 
 
-### -param OPTIONAL
+### -param ServerName [in]
 
-TBD
+Pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
+					
 
 
 ### -param Level [in]
@@ -120,12 +121,6 @@ Pointer to a string that specifies the prefix for which to search.
 ### -param Index [out]
 
 Pointer to a value that receives the index of the requested entry.
-
-
-#### - ServerName [in]
-
-Pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
-					
 
 
 ## -returns

@@ -73,7 +73,7 @@ The <b>IRichChunk</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/09a1a0f5-2779-4aa3-ba56-605e846de16d">GetData</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231335(v=VS.85).aspx">GetData</a>
 </td>
 <td align="left" width="63%">
 Retrieves the <a href="https://msdn.microsoft.com/en-us/library/Aa380072(v=VS.85).aspx">PROPVARIANT</a> and input string that represents a chunk of data.

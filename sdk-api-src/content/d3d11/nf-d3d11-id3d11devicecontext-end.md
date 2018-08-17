@@ -80,7 +80,7 @@ Returns nothing.
 
 
 
-Use <a href="https://msdn.microsoft.com/5a9cdc60-2226-4d18-bfbd-5db10de35e53">ID3D11DeviceContext::Begin</a> to mark the beginning of the series of commands.
+Use <a href="https://msdn.microsoft.com/en-us/library/Ff476386(v=VS.85).aspx">ID3D11DeviceContext::Begin</a> to mark the beginning of the series of commands.
 
 
 
@@ -90,7 +90,7 @@ Use <a href="https://msdn.microsoft.com/5a9cdc60-2226-4d18-bfbd-5db10de35e53">ID
 
 
 
-<a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476385(v=VS.85).aspx">ID3D11DeviceContext</a>
  
 
  

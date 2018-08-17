@@ -7,7 +7,7 @@ old-location: security\buildsecuritydescriptor.htm
 old-project: secauthz
 ms.assetid: becc1218-5bc3-4ab2-86f8-3ebd10e16966
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: BuildSecurityDescriptor, BuildSecurityDescriptor function [Security], BuildSecurityDescriptorA, BuildSecurityDescriptorW, _win32_buildsecuritydescriptor, aclapi/BuildSecurityDescriptor, aclapi/BuildSecurityDescriptorA, aclapi/BuildSecurityDescriptorW, security.buildsecuritydescriptor
 ms.prod: windows
 ms.technology: windows-sdk

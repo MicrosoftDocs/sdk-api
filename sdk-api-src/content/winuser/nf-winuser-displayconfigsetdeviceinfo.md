@@ -7,7 +7,7 @@ old-location: display\displayconfigsetdeviceinfo.htm
 old-project: display
 ms.assetid: 4050b1f0-a588-427c-a0df-eefdc488fc20
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/13/2018
 ms.keywords: CCD_Functions_0124386b-2a62-4d91-9eca-9268a569c976.xml, DisplayConfigSetDeviceInfo, DisplayConfigSetDeviceInfo function [Display Devices], display.displayconfigsetdeviceinfo, winuser/DisplayConfigSetDeviceInfo
 ms.prod: windows
 ms.technology: windows-sdk

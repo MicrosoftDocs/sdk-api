@@ -4,10 +4,10 @@ title: ConvertAuxiliaryCounterToPerformanceCounter function
 author: windows-sdk-content
 description: Converts the specified auxiliary counter value to the corresponding performance counter value; optionally provides the estimated conversion error in nanoseconds due to latencies and maximum possible drift.
 old-location: base\convertauxiliarycountertoperformancecounter.htm
-old-project: SysInfo
+old-project: sysinfo
 ms.assetid: 94664D63-D1B0-443B-BB88-C8A8771577A6
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/10/2018
 ms.keywords: ConvertAuxiliaryCounterToPerformanceCounter, ConvertAuxiliaryCounterToPerformanceCounter function, base.convertauxiliarycountertoperformancecounter, realtimeapiset/ConvertAuxiliaryCounterToPerformanceCounter
 ms.prod: windows
 ms.technology: windows-sdk

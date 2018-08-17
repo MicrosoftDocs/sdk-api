@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/050246fd-f91a-4a2a-858a-5f0447e3ecbf">D2D1_BITMAP_PROPERTIES</a> structure.
+Creates a <a href="https://msdn.microsoft.com/en-us/library/Dd368075(v=VS.85).aspx">D2D1_BITMAP_PROPERTIES</a> structure.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ Creates a <a href="https://msdn.microsoft.com/050246fd-f91a-4a2a-858a-5f0447e3ec
 
 ### -param pixelFormat [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/e95afd9c-5793-4cb7-bcb8-aae4d28b6532">D2D1_PIXEL_FORMAT</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dd368138(v=VS.85).aspx">D2D1_PIXEL_FORMAT</a></b>
 
-The bitmap's pixel format and alpha mode. The default value is a <a href="https://msdn.microsoft.com/e95afd9c-5793-4cb7-bcb8-aae4d28b6532">D2D1_PIXEL_FORMAT</a> with a <b>format</b> of <a href="http://msdn.microsoft.com/en-us/library/bb173059(VS.85).aspx">DXGI_FORMAT_UNKNOWN</a> and an <b>alphaMode</b> of  <a href="https://msdn.microsoft.com/f1b1e735-2e89-4dc1-9fee-dfb4626ef453">D2D1_ALPHA_MODE_UNKNOWN</a>. For more information about pixel formats, see <a href="https://msdn.microsoft.com/09b1f9c6-1780-4733-ac22-9e8c21466b67">Supported Pixel Formats and Alpha Modes</a>.
+The bitmap's pixel format and alpha mode. The default value is a <a href="https://msdn.microsoft.com/en-us/library/Dd368138(v=VS.85).aspx">D2D1_PIXEL_FORMAT</a> with a <b>format</b> of <a href="http://msdn.microsoft.com/en-us/library/bb173059(VS.85).aspx">DXGI_FORMAT_UNKNOWN</a> and an <b>alphaMode</b> of  <a href="https://msdn.microsoft.com/en-us/library/Dd368058(v=VS.85).aspx">D2D1_ALPHA_MODE_UNKNOWN</a>. For more information about pixel formats, see <a href="https://msdn.microsoft.com/en-us/library/Dd756766(v=VS.85).aspx">Supported Pixel Formats and Alpha Modes</a>.
 
 
 ### -param dpiX
@@ -84,7 +84,7 @@ The vertical dpi of the bitmap. The default value is 96.0f.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/050246fd-f91a-4a2a-858a-5f0447e3ecbf">D2D1_BITMAP_PROPERTIES</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368075(v=VS.85).aspx">D2D1_BITMAP_PROPERTIES</a></b>
 
 A structure that describes the pixel format and dpi 
     of a bitmap. 

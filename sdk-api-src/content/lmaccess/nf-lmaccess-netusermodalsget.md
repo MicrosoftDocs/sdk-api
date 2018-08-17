@@ -61,9 +61,13 @@ The
 
 
 
-### -param OPTIONAL
+### -param servername [in, optional]
 
-TBD
+A pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used. For more information, see the following Remarks section. 
+
+
+
+					
 
 
 ### -param level [in]
@@ -135,15 +139,6 @@ A pointer to the buffer that receives the data. The format of this data depends 
 The buffer for this data is allocated by the system and the application must call the <a href="https://msdn.microsoft.com/0e99483c-8cd7-402a-8bf6-1e0118764dd3">NetApiBufferFree</a> function to free the allocated memory when the data returned is no longer needed. For more information, see 
 <a href="https://msdn.microsoft.com/f27e6cf5-f26a-4e6c-8d77-873bff6cc8e4">Network Management Function Buffers</a> and 
 <a href="https://msdn.microsoft.com/08599966-68a1-420b-bbc7-6daac833d08f">Network Management Function Buffer Lengths</a>.
-
-
-#### - servername [in, optional]
-
-A pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used. For more information, see the following Remarks section. 
-
-
-
-					
 
 
 ## -returns

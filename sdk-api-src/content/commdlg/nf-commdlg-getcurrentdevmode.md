@@ -83,7 +83,7 @@ Type: <b>HRESULT</b>
 
 If the method is successful, the return value is <b>S_OK</b>. If no printer is currently selected, the return value is <b>S_OK</b>, the value returned in <i>pcbSize</i> is zero, and the <i>lpDevMode</i> buffer is unchanged.
 
-If an error occurs, the return value is a COM error code. For more information, see <a href="_com_error_handling">Error Handling</a>.
+If an error occurs, the return value is a COM error code. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa376932(v=VS.85).aspx">Error Handling</a>.
 
 
 

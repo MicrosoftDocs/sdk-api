@@ -76,14 +76,7 @@ A pointer to a <a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fd
 
 
 
-### -param OPTIONAL
-
-TBD
-
-
-
-
-#### - pReserved [in, out, optional]
+### -param pReserved [in, out, optional]
 
 This parameter is reserved and should be set to <b>NULL</b>. 
 

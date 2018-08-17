@@ -7,7 +7,7 @@ old-location: base\getdisplayautorotationpreferencesbyprocessid.htm
 old-project: procthread
 ms.assetid: 34A769D0-5160-4049-9C72-76BA7F8B8260
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: GetDisplayAutoRotationPreferencesByProcessId, GetDisplayAutoRotationPreferencesByProcessId function, base.getdisplayautorotationpreferencesbyprocessid, winuser/GetDisplayAutoRotationPreferencesByProcessId
 ms.prod: windows
 ms.technology: windows-sdk

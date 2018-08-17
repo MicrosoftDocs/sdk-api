@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10devicechild.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10devicechild.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: ID3D10DeviceChild, ID3D10DeviceChild interface [Direct3D 10], ID3D10DeviceChild interface [Direct3D 10],described, d3d10/ID3D10DeviceChild, direct3d10.id3d10devicechild, e38df520-7753-67fb-6fb9-7bd65b783c01
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,9 +57,9 @@ A device-child interface accesses data used by a device.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10DeviceChild</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID3D10DeviceChild</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10DeviceChild</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ID3D10DeviceChild</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -72,7 +72,7 @@ The <b>ID3D10DeviceChild</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c8c7fa40-470b-4348-be81-f8702f103def">GetDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173530(v=VS.85).aspx">GetDevice</a>
 </td>
 <td align="left" width="63%">
 Get a pointer to the device that created this interface.

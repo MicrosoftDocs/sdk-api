@@ -7,7 +7,7 @@ old-location: base\symgetlinefromname64.htm
 old-project: debug
 ms.assetid: cb8870f6-1bae-40df-842e-ec3ca0167691
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: SymGetLineFromName, SymGetLineFromName function, SymGetLineFromName64, SymGetLineFromName64 function, SymGetLineFromNameW64, _win32_symgetlinefromname64, base.symgetlinefromname64, dbghelp/SymGetLineFromName, dbghelp/SymGetLineFromName64, dbghelp/SymGetLineFromNameW64
 ms.prod: windows
 ms.technology: windows-sdk

@@ -52,7 +52,7 @@ req.irql:
 
 
 Opens an 
-    enumerator for iterating through the installed <a href="https://msdn.microsoft.com/cc0cbbc3-e342-483e-9c94-4ee43f4d588d">network interfaces</a>.
+    enumerator for iterating through the installed <a href="https://msdn.microsoft.com/en-us/library/Aa371519(v=VS.85).aspx">network interfaces</a>.
 
 
 ## -parameters

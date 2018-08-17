@@ -68,7 +68,7 @@ A handle to the image list.
 
 ### -param clrBk [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">COLORREF</a></b>
 
 The background color to set. This parameter can be the CLR_NONE value; in that case, images are drawn transparently using the mask. 
 
@@ -77,7 +77,7 @@ The background color to set. This parameter can be the CLR_NONE value; in that c
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">COLORREF</a></b>
 
 Returns the previous background color if successful, or CLR_NONE otherwise.
 

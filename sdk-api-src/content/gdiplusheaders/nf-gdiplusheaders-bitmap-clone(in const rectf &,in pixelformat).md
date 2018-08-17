@@ -54,7 +54,7 @@ req.product: GDI+ 1.0
 
 <span>This topic lists the 
 			Clone methods of the 
-			<a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a> class. For a complete list of methods for the 
+			<a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a> class. For a complete list of methods for the 
 			<b>Bitmap</b> class, see <a href="https://msdn.microsoft.com/en-us/library/ms536286(v=VS.85).aspx">Bitmap Methods</a>.
 
 </span><h3>Overload list</h3><table>
@@ -79,7 +79,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms535367(v=VS.85).aspx">Im
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms536302(v=VS.85).aspx">Bitmap::Clone</a> method creates a new 
-			<a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a> object by copying a portion of this bitmap.
+			<a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a> object by copying a portion of this bitmap.
 
 </td>
 </tr>
@@ -89,7 +89,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms536302(v=VS.85).aspx">Bi
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms536303(v=VS.85).aspx">Bitmap::Clone</a> method creates a new 
-			<a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a> object by copying a portion of this bitmap.
+			<a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a> object by copying a portion of this bitmap.
 
 </td>
 </tr>
@@ -99,7 +99,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms536303(v=VS.85).aspx">Bi
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms536305(v=VS.85).aspx">Bitmap::Clone</a> method creates a new 
-			<a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a>object by copying a portion of this bitmap.
+			<a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a>object by copying a portion of this bitmap.
 
 </td>
 </tr>
@@ -109,7 +109,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms536305(v=VS.85).aspx">Bi
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms536304(v=VS.85).aspx">Bitmap::Clone</a> method creates a new 
-			<a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a>object by copying a portion of this bitmap.
+			<a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a>object by copying a portion of this bitmap.
 
 </td>
 </tr>

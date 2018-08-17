@@ -52,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Frees the memory and references used by an array of <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structures stored in an array.
+Frees the memory and references used by an array of <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structures stored in an array.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ Frees the memory and references used by an array of <a href="e305240e-9e11-4006-
 
 Type: <b>VARIANT*</b>
 
-Array of <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structures to free.
+Array of <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structures to free.
 
 
 ### -param cvars [in]

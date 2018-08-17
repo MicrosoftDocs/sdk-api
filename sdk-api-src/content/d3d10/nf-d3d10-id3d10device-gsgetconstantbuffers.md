@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_gsgetconstantbuffers.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_gsgetconstantbuffers.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 31eb9c1b-cc8e-64bc-4567-a82debaa5287, GSGetConstantBuffers, GSGetConstantBuffers method [Direct3D 10], GSGetConstantBuffers method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GSGetConstantBuffers method, ID3D10Device.GSGetConstantBuffers, ID3D10Device::GSGetConstantBuffers, d3d10/ID3D10Device::GSGetConstantBuffers, direct3d10.id3d10device_gsgetconstantbuffers
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,14 +62,14 @@ Get the <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx
 
 ### -param StartSlot [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Index into the device's zero-based array to begin retrieving constant buffers from.
 
 
 ### -param NumBuffers [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Number of buffers to retrieve.
 
@@ -94,7 +94,7 @@ Returns nothing.
 
 
 
-Any returned interfaces will have their reference count incremented by one. Applications should call <a href="http://msdn.microsoft.com/en-us/library/ms682317(VS.85).aspx">IUnknown::Release</a> on the returned interfaces when they are no longer needed to avoid memory leaks.
+Any returned interfaces will have their reference count incremented by one. Applications should call <a href="https://msdn.microsoft.com/en-us/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> on the returned interfaces when they are no longer needed to avoid memory leaks.
 
 
 

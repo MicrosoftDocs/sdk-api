@@ -81,7 +81,7 @@ Frees the specified private data associated with this resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/396921c6-acf4-4dc8-bfc7-e0d5340cb074">GetDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205880(v=VS.85).aspx">GetDevice</a>
 </td>
 <td align="left" width="63%">
 Retrieves the device associated with a resource.
@@ -108,7 +108,7 @@ Copies the private data associated with the resource to a provided buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4126cd36-34e5-4224-8b62-54b090322ddc">GetType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205883(v=VS.85).aspx">GetType</a>
 </td>
 <td align="left" width="63%">
 Returns the type of the resource.

@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Enables operations on the 
-    <a href="c_gly.htm">cluster</a> and provides access to all of the objects in the 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> and provides access to all of the objects in the 
     cluster.
 
 

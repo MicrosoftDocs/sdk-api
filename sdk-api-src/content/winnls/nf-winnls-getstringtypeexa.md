@@ -144,7 +144,7 @@ Returns a nonzero value if successful, or 0 otherwise. To get extended error inf
 
 
 
-For an overview of the use of the string functions, see <a href="_win32_strings_cpp">Strings</a>.
+For an overview of the use of the string functions, see <a href="https://msdn.microsoft.com/en-us/library/ms646979(v=VS.85).aspx">Strings</a>.
 
 Using the ANSI code page for the supplied locale, this function translates the source string from ANSI to Unicode. It then analyzes each Unicode character for character type information.
 

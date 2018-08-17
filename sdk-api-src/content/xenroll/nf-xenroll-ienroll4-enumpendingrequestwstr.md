@@ -4,10 +4,10 @@ title: IEnroll4::enumPendingRequestWStr
 author: windows-sdk-content
 description: Enumerates pending certificate requests and retrieves a specified property from each.
 old-location: security\ienroll4_enumpendingrequestwstr.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: ae1ac12c-0332-4796-8269-a3b6f72b8bff
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: IEnroll4 interface [Security],enumPendingRequestWStr method, IEnroll4.enumPendingRequestWStr, IEnroll4::enumPendingRequestWStr, XEPR_CADNS, XEPR_CAFRIENDLYNAME, XEPR_CANAME, XEPR_HASH, XEPR_REQUESTID, enumPendingRequestWStr, enumPendingRequestWStr method [Security], enumPendingRequestWStr method [Security],IEnroll4 interface, security.ienroll4_enumpendingrequestwstr, xenroll/IEnroll4::enumPendingRequestWStr
 ms.prod: windows
 ms.technology: windows-sdk

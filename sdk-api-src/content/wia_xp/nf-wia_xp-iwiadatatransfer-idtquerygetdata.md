@@ -74,7 +74,7 @@ Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms629878(v=VS.85)
 
 Type: <b>HRESULT</b>
 
-If this method succeeds, it returns S_OK. Otherwise it returns a value specified in <a href="https://msdn.microsoft.com/3abbe92b-32b7-4820-b208-45c847243078">Error Codes</a>, or a standard COM error.
+If this method succeeds, it returns S_OK. Otherwise it returns a value specified in <a href="https://msdn.microsoft.com/en-us/library/ms630183(v=VS.85).aspx">Error Codes</a>, or a standard COM error.
 
 
 

@@ -60,7 +60,7 @@ req.product: GDI+ 1.1
 Returns a 
     <a href="https://msdn.microsoft.com/7d0dc4fd-733c-4a2a-9136-7dc0089b213d">ClusNetInterfaces</a> collection providing 
     access to the <a href="https://msdn.microsoft.com/cc0cbbc3-e342-483e-9c94-4ee43f4d588d">network interfaces</a> in a 
-    <a href="c_gly.htm">cluster</a>.
+    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
 
 This property is read-only.
 

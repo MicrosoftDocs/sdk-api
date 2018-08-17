@@ -7,7 +7,7 @@ old-location: base\imagegetcertificateheader.htm
 old-project: debug
 ms.assetid: 84b10926-7f49-406c-8939-d85f62844806
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: ImageGetCertificateHeader, ImageGetCertificateHeader function, _win32_imagegetcertificateheader, base.imagegetcertificateheader, imagehlp/ImageGetCertificateHeader
 ms.prod: windows
 ms.technology: windows-sdk

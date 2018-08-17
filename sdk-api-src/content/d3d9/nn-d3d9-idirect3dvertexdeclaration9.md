@@ -81,7 +81,7 @@ Gets the vertex shader declaration.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c183de38-ab09-4a8b-951a-b12ab4e6de26">GetDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205921(v=VS.85).aspx">GetDevice</a>
 </td>
 <td align="left" width="63%">
 Gets the current device.

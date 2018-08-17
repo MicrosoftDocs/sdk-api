@@ -69,12 +69,12 @@ The state of the group is unknown.
 
 ### -field ClusterGroupOnline
 
-All of the resources in the group are <a href="o_gly.htm">online</a>.
+All of the resources in the group are <a href="https://msdn.microsoft.com/en-us/library/Aa371781(v=VS.85).aspx">online</a>.
 
 
 ### -field ClusterGroupOffline
 
-All of the resources in the group are <a href="o_gly.htm">offline</a> or 
+All of the resources in the group are <a href="https://msdn.microsoft.com/en-us/library/Aa371781(v=VS.85).aspx">offline</a> or 
       there are no resources in the group.
 
 

@@ -54,7 +54,7 @@ req.product: Windows XP with SP1 and later
 
 The 
 <b>ITScriptableAudioFormat</b> interface is used by scriptable clients to get the audio format from, or set the audio format for, the track. The interface provides properties for each member from the 
-<a href="_win32_waveformatex_str">WAVEFORMATEX</a> structure.
+<a href="https://msdn.microsoft.com/en-us/library/Dd757713(v=VS.85).aspx">WAVEFORMATEX</a> structure.
 
 The 
 <a href="https://msdn.microsoft.com/3677b85c-15a4-4960-88ad-18855349fedd">ITFileTrack::get_AudioFormatForScripting</a> and 
@@ -110,7 +110,7 @@ Gets the value for the <b>nBlockAlign</b> member in the <b>WAVEFORMATEX</b> stru
 </td>
 <td align="left" width="63%">
 Gets the value for the <b>nChannels</b> member in the 
-<a href="_win32_waveformatex_str">WAVEFORMATEX</a> structure.
+<a href="https://msdn.microsoft.com/en-us/library/Dd757713(v=VS.85).aspx">WAVEFORMATEX</a> structure.
 
 </td>
 </tr>

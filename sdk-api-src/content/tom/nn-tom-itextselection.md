@@ -81,7 +81,7 @@ Mimics the functionality of the End key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e3100b62-a3f1-4d4b-85d2-df06c20ebd70">GetFlags</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773953(v=VS.85).aspx">GetFlags</a>
 </td>
 <td align="left" width="63%">
 Gets the text selection flags.
@@ -90,7 +90,7 @@ Gets the text selection flags.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/85d4a3f0-855e-4d24-9686-3d4e62743356">GetType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774037(v=VS.85).aspx">GetType</a>
 </td>
 <td align="left" width="63%">
 Gets the type of text selection.
@@ -144,7 +144,7 @@ Mimics the functionality of the  Up Arrow and Page Up keys.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e4b96d2a-2e75-4459-9a6e-5e0483926ce1">SetFlags</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774143(v=VS.85).aspx">SetFlags</a>
 </td>
 <td align="left" width="63%">
 Sets the text selection flags.

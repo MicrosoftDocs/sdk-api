@@ -80,21 +80,16 @@ The size of the <i>lpOemName</i> buffer, in characters. If
       <i>lpOemName</i> is <b>NULL</b>, this parameter must be 0 (zero).
 
 
-### -param OPTIONAL
+### -param pbNameContainsSpaces [out, optional]
 
-TBD
+Indicates whether or not a name contains spaces. This parameter can be <b>NULL</b>. If 
+      the name is not a valid 8.3 FAT file system name, this parameter is undefined.
 
 
 ### -param pbNameLegal [out]
 
 If the function succeeds, this parameter indicates whether a file name is a valid 8.3 FAT file name when 
       the current OEM code page is applied to the file name.
-
-
-#### - pbNameContainsSpaces [out, optional]
-
-Indicates whether or not a name contains spaces. This parameter can be <b>NULL</b>. If 
-      the name is not a valid 8.3 FAT file system name, this parameter is undefined.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: base\closeservicehandle.htm
 old-project: services
 ms.assetid: 6cf25994-4939-4aff-af38-5ffc8fc606ae
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: CloseServiceHandle, CloseServiceHandle function, _win32_closeservicehandle, base.closeservicehandle, winsvc/CloseServiceHandle
 ms.prod: windows
 ms.technology: windows-sdk

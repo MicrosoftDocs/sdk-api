@@ -82,14 +82,14 @@ A pointer to an interface identifier of the requested object.
 
 ### -field pObject
 
-Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>*</b>
 
 A pointer to an object provided by the window processing the notification code. The application processing the notification code sets this member. 
 
 
 ### -field hResult
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HRESULT</a></b>
 
 COM success or failure flags. The application processing the notification code sets this member. 
 

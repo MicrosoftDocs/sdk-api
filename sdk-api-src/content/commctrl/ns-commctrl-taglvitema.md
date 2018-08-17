@@ -63,7 +63,7 @@ Specifies or receives the attributes of a list-view item. This structure has bee
 
 ### -field mask
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Set of flags that specify which members of this structure contain data to be set or which members are being requested. This member can have one or more of the following flags set: 
 
@@ -194,7 +194,7 @@ One-based index of the subitem to which this structure refers, or zero if this s
 
 ### -field state
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Indicates the item's state, state image, and overlay image. The 
 					<b>stateMask</b> member indicates the valid bits of this member. 
@@ -214,7 +214,7 @@ Bits 12 through 15 of this member specify the state image index. The state image
 
 ### -field stateMask
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Value specifying which bits of the 
 					<b>state</b> member will be retrieved or modified. For example, setting this member to <a href="https://msdn.microsoft.com/en-us/library/Bb774733(v=VS.85).aspx">LVIS_SELECTED</a> will cause only the item's selection state to be retrieved. 
@@ -329,7 +329,7 @@ The item does not belong to a group.
 
 ### -field cColumns
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 
 <a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.0 </a> Number of data columns (subitems) to display for this item in tile view. The maximum value is 20. If this value is I_COLUMNSCALLBACK, the size of the column array and the array itself (<b>puColumns</b>) are obtained by sending a <a href="https://msdn.microsoft.com/en-us/library/Bb774818(v=VS.85).aspx">LVN_GETDISPINFO</a> notification.

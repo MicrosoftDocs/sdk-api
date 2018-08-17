@@ -53,7 +53,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Bitmap::FromDirectDrawSurface7</b> method creates a 
-			<a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a> object based on a DirectDraw surface. The 
+			<a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a> object based on a DirectDraw surface. The 
 			<b>Bitmap</b> object maintains a reference to the DirectDraw surface until the 
 			<b>Bitmap</b> object is deleted.
 
@@ -75,11 +75,11 @@ Pointer to an
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a>*</b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a>*</b>
 </strong>
 
 This method returns a pointer to the new 
-						<a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a> object.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a> object.
 
 
 
@@ -89,7 +89,7 @@ This method returns a pointer to the new
 
 
 
-<a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a>
 
 
 

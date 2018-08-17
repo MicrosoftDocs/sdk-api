@@ -61,9 +61,10 @@ The
 
 
 
-### -param OPTIONAL
+### -param servername [in]
 
-TBD
+Pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
+					
 
 
 ### -param GroupName [in]
@@ -74,12 +75,6 @@ Pointer to a constant string that specifies the name of the global group from wh
 ### -param Username [in]
 
 Pointer to a constant string that specifies the name of the user to remove from the global group. For more information, see the following Remarks section.
-
-
-#### - servername [in]
-
-Pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
-					
 
 
 ## -returns

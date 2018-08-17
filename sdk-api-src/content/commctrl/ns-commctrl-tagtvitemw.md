@@ -64,7 +64,7 @@ Specifies or receives attributes of a tree-view item. This structure is identica
 
 ### -field mask
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Array of flags that indicate which of the other structure members contain valid data. When this structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb773596(v=VS.85).aspx">TVM_GETITEM</a> message, the <b>mask</b> member indicates the item attributes to retrieve. If used with the <a href="https://msdn.microsoft.com/en-us/library/Bb773758(v=VS.85).aspx">TVM_SETITEM</a> message, the <b>mask</b> indicates the attributes to set. This member can be one or more of the following values: 
 
@@ -175,7 +175,7 @@ Handle to the item.
 
 ### -field state
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Set of bit flags and image list indexes that indicate the item's state. When setting the state of an item, the 
 					<b>stateMask</b> member indicates the valid bits of this member. When retrieving the state of an item, this member returns the current state for the bits indicated in the 
@@ -201,7 +201,7 @@ To set the state image index, use <a href="https://msdn.microsoft.com/en-us/libr
 
 ### -field stateMask
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Bits of the 
 					<b>state</b> member that are valid. If you are retrieving an item's state, set the bits of the 

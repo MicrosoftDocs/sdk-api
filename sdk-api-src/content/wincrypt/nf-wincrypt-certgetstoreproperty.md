@@ -4,10 +4,10 @@ title: CertGetStoreProperty function
 author: windows-sdk-content
 description: Retrieves a store property.
 old-location: security\certgetstoreproperty.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 0df4f18b-3b0f-498e-90a5-74d686af83e0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: CertGetStoreProperty, CertGetStoreProperty function [Security], _crypto2_certgetstoreproperty, security.certgetstoreproperty, wincrypt/CertGetStoreProperty
 ms.prod: windows
 ms.technology: windows-sdk

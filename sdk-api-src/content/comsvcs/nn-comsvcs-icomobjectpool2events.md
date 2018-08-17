@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Notifies the subscriber if a transactional or non-transactional object is added to or obtained from the object pool. The events are published to the subscriber using the <a href="https://msdn.microsoft.com/1e0570ae-9099-465a-9133-72aa7d574932">COM+ Events</a> service, a loosely coupled events system that stores event information from different publishers in an event store in the COM+ catalog.
+Notifies the subscriber if a transactional or non-transactional object is added to or obtained from the object pool. The events are published to the subscriber using the <a href="https://msdn.microsoft.com/en-us/library/ms679237(v=VS.85).aspx">COM+ Events</a> service, a loosely coupled events system that stores event information from different publishers in an event store in the COM+ catalog.
 
 
 ## -inheritance
@@ -98,7 +98,7 @@ Generated when an object is added to the pool.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f737289f-c990-455e-bc9b-e94f25c9297f">OnObjPoolRecycleToTx2</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms688367(v=VS.85).aspx">OnObjPoolRecycleToTx2</a>
 </td>
 <td align="left" width="63%">
 Generated when a transactional object is returned to the pool.
@@ -113,11 +113,11 @@ Generated when a transactional object is returned to the pool.
 
 
 
-<a href="https://msdn.microsoft.com/1e0570ae-9099-465a-9133-72aa7d574932">COM+ Events</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms679237(v=VS.85).aspx">COM+ Events</a>
 
 
 
-<a href="https://msdn.microsoft.com/07f68734-a382-4fe5-86af-90805f61c68d">COM+ Instrumentation</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms678896(v=VS.85).aspx">COM+ Instrumentation</a>
  
 
  

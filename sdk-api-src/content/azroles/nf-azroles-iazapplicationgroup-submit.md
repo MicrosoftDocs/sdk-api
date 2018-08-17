@@ -7,7 +7,7 @@ old-location: security\iazapplicationgroup_submit.htm
 old-project: secauthz
 ms.assetid: 51a855dd-4a90-4f7a-b32f-f91e3941655b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: AzApplicationGroup object [Security],Submit method, IAzApplicationGroup interface [Security],Submit method, IAzApplicationGroup.Submit, IAzApplicationGroup::Submit, Submit, Submit method [Security], Submit method [Security],AzApplicationGroup object, Submit method [Security],IAzApplicationGroup interface, azroles/IAzApplicationGroup::Submit, security.iazapplicationgroup_submit
 ms.prod: windows
 ms.technology: windows-sdk

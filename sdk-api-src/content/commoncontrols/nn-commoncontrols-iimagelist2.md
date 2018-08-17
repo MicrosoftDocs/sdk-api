@@ -116,7 +116,7 @@ Gets an image list statistics structure.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1282EFEF-B5E6-41CD-9D7C-0A45AF929C1F">Initialize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761421(v=VS.85).aspx">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes an image list, as specified.

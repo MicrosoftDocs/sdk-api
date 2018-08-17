@@ -149,7 +149,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/e3100b62-a3f1-4d4b-85d2-df06c20ebd70">GetFlags</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773953(v=VS.85).aspx">GetFlags</a>
 
 
 

@@ -72,7 +72,7 @@ The <b>IUICommandHandler</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d4f3e260-2839-4f0b-892b-7e61f20238f3">Execute</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371489(v=VS.85).aspx">Execute</a>
 </td>
 <td align="left" width="63%">
 Responds to execute events on Commands bound to the Command handler.  

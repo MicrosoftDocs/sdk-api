@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-The <b>ItemByOperations</b> property retrieves an <a href="https://msdn.microsoft.com/30cc43c8-6ef3-49ad-8cff-9a5b7389ff68">ICspStatus</a> object that has the same name as the  provider specified on input and the same algorithm but identifies a different cryptographic operation.
+The <b>ItemByOperations</b> property retrieves an <a href="https://msdn.microsoft.com/en-us/library/Aa376760(v=VS.85).aspx">ICspStatus</a> object that has the same name as the  provider specified on input and the same algorithm but identifies a different cryptographic operation.
 
 This property is read-only.
 
@@ -65,11 +65,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/30cc43c8-6ef3-49ad-8cff-9a5b7389ff68">ICspStatus</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa376760(v=VS.85).aspx">ICspStatus</a>
 
 
 
-<a href="https://msdn.microsoft.com/73d0f3a7-7afd-42c9-88db-911531c50137">ICspStatuses</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa376761(v=VS.85).aspx">ICspStatuses</a>
  
 
  

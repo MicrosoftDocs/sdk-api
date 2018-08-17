@@ -61,14 +61,14 @@ Carries information used to load common control classes from the dynamic-link li
 
 ### -field dwSize
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
 
 The size of the structure, in bytes. 
 
 
 ### -field dwICC
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
 
 The set of bit flags that indicate which common control classes will be loaded from the DLL. This can be a combination of the following values. 
 

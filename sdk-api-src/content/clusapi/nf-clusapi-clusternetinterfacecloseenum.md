@@ -61,7 +61,7 @@ Closes a  network interface enumeration handle.
 
 ### -param hNetInterfaceEnum [in]
 
-Handle to the node enumerator to close. This is a handle originally returned by the  <a href="https://msdn.microsoft.com/fd300162-2472-4bd2-91d6-357397c4134c">ClusterNetInterfaceOpenEnum</a> function.
+Handle to the node enumerator to close. This is a handle originally returned by the  <a href="https://msdn.microsoft.com/en-us/library/Mt705443(v=VS.85).aspx">ClusterNetInterfaceOpenEnum</a> function.
 
 
 ## -returns
@@ -70,7 +70,7 @@ Handle to the node enumerator to close. This is a handle originally returned by 
 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
      If the operation fails, 
-the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>.
+the function returns a <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>.
 
 
 

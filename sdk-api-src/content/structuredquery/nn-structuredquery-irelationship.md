@@ -102,7 +102,7 @@ Reports whether a relationship is real.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b3322f0c-8929-4f0f-8d2d-44f063ff83db">MetaData</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231341(v=VS.85).aspx">MetaData</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumeration of <a href="https://msdn.microsoft.com/en-us/library/Bb231366(v=VS.85).aspx">IMetaData</a> objects for this relationship.
@@ -112,7 +112,7 @@ Retrieves an enumeration of <a href="https://msdn.microsoft.com/en-us/library/Bb
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3d1078d9-9f61-48ab-8317-f1be12027393">Name</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231342(v=VS.85).aspx">Name</a>
 </td>
 <td align="left" width="63%">
 Retrieves the name of the relationship.

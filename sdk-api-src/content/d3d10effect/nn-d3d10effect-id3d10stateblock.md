@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10stateblock.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10stateblock.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 23872e09-b63b-11d0-bb95-f57009f0fab6, ID3D10StateBlock, ID3D10StateBlock interface [Direct3D 10], ID3D10StateBlock interface [Direct3D 10],described, d3d10effect/ID3D10StateBlock, direct3d10.id3d10stateblock
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,7 +90,7 @@ Capture the current value of states that are included in a stateblock.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/08ac4a1f-b185-497f-88b2-e66268035dda">GetDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173859(v=VS.85).aspx">GetDevice</a>
 </td>
 <td align="left" width="63%">
 Get the device.

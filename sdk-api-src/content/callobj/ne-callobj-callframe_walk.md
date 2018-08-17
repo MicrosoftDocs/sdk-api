@@ -80,7 +80,7 @@ The [out] parameter values will be walked.
 
 
 
-<a href="https://msdn.microsoft.com/64e4967b-6b54-4416-ae10-04987f13d39a">ICallFrame::WalkFrame</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms683962(v=VS.85).aspx">ICallFrame::WalkFrame</a>
  
 
  

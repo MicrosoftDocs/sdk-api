@@ -64,11 +64,9 @@ The <b>NetAccessEnum</b> function retrieves information about each access permis
 
 
 
-### -param OPTIONAL
+### -param servername
 
 TBD
-
-
 
 
 ### -param BasePath
@@ -141,6 +139,13 @@ Pointer to an unsigned short integer that receives the count of elements actuall
 
 Pointer to an unsigned short integer that receives the total number of entries that could have been enumerated. The count is valid only if the 
 <b>NetAccessEnum</b> function returns <b>NERR_Success</b> or <b>ERROR_MORE_DATA</b>.
+
+
+### -param resume_handle
+
+TBD
+
+
 
 
 #### - pszServer

@@ -51,15 +51,15 @@ req.irql:
 ## -description
 
 
-The <b>IX509CertificateRequestCmc2</b> interface represents a CMC (Certificate Management Message over CMS) certificate request. It includes all of the methods defined by the <a href="https://msdn.microsoft.com/77059388-c442-4db5-ab27-1db25e2f63b9">IX509CertificateRequestCmc</a> interface and adds methods that enable initialization from certificate request templates.
+The <b>IX509CertificateRequestCmc2</b> interface represents a CMC (Certificate Management Message over CMS) certificate request. It includes all of the methods defined by the <a href="https://msdn.microsoft.com/en-us/library/Aa377133(v=VS.85).aspx">IX509CertificateRequestCmc</a> interface and adds methods that enable initialization from certificate request templates.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509CertificateRequestCmc2</b> interface inherits from <a href="https://msdn.microsoft.com/77059388-c442-4db5-ab27-1db25e2f63b9">IX509CertificateRequestCmc</a>. <b>IX509CertificateRequestCmc2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509CertificateRequestCmc2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Aa377133(v=VS.85).aspx">IX509CertificateRequestCmc</a>. <b>IX509CertificateRequestCmc2</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Properties</a></li>
 </ul>
 
 ## -members
@@ -72,7 +72,7 @@ The <b>IX509CertificateRequestCmc2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/10ccda23-98d7-49ad-bb0c-60050d01892d">CheckCertificateSignature</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee351618(v=VS.85).aspx">CheckCertificateSignature</a>
 </td>
 <td align="left" width="63%">
 Verifies the signature for a specified signer.
@@ -81,7 +81,7 @@ Verifies the signature for a specified signer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/55051bcd-0002-4a0e-874e-8b09e196a838">CheckSignature</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee351619(v=VS.85).aspx">CheckSignature</a>
 </td>
 <td align="left" width="63%">
 Verifies that the certificate request has been signed and that the signature is valid.
@@ -90,7 +90,7 @@ Verifies that the certificate request has been signed and that the signature is 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/12490859-bb4a-49ff-9d92-24bf04ab3999">InitializeFromInnerRequestTemplate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee351620(v=VS.85).aspx">InitializeFromInnerRequestTemplate</a>
 </td>
 <td align="left" width="63%">
 Initializes the certificate request from an inner request  object and a template.
@@ -99,7 +99,7 @@ Initializes the certificate request from an inner request  object and a template
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/576e3349-1da7-4f1e-9410-a72c30e22063">InitializeFromTemplate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee351621(v=VS.85).aspx">InitializeFromTemplate</a>
 </td>
 <td align="left" width="63%">
 Initializes the certificate request by using a template.
@@ -117,7 +117,7 @@ Initializes the certificate request by using a template.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/3a0aa790-c337-4033-a8fa-52f2b06ac005">PolicyServer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee351622(v=VS.85).aspx">PolicyServer</a>
 
 
 </td>
@@ -133,7 +133,7 @@ Retrieves the certificate enrollment policy (CEP) server that contains the templ
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/50c1b376-60e4-4a77-8e12-01fd61805d92">Template</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee351623(v=VS.85).aspx">Template</a>
 
 
 </td>
@@ -154,11 +154,11 @@ Retrieves the certificate request template used during initialization.
 
 
 
-<a href="https://msdn.microsoft.com/77059388-c442-4db5-ab27-1db25e2f63b9">IX509CertificateRequestCmc</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377133(v=VS.85).aspx">IX509CertificateRequestCmc</a>
 
 
 
-<a href="https://msdn.microsoft.com/ae869557-6523-4387-835e-c9631898d864">IX509CertificateRequestPkcs7</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377608(v=VS.85).aspx">IX509CertificateRequestPkcs7</a>
  
 
  

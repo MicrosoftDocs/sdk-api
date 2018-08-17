@@ -76,7 +76,7 @@ The height, in pixels, of each image.
 
 ### -param flags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 A set of bit flags that specify the type of image list to create. This parameter can be a combination of the <a href="https://msdn.microsoft.com/en-us/library/Bb775232(v=VS.85).aspx">Image List Creation Flags</a>. 
 

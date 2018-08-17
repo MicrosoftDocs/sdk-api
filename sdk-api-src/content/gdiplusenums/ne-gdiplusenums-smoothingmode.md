@@ -53,7 +53,7 @@ req.product: GDI+ 1.1
 
 
 The <b>SmoothingMode</b> enumeration specifies the type of smoothing (antialiasing) that is applied to lines and curves. This enumeration is used by the <a href="https://msdn.microsoft.com/en-us/library/ms535723(v=VS.85).aspx">Graphics::GetSmoothingMode</a> and <a href="https://msdn.microsoft.com/en-us/library/ms535815(v=VS.85).aspx">Graphics::SetSmoothingMode</a> methods of the 
-			<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> class.
+			<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> class.
 
 
 ## -enum-fields

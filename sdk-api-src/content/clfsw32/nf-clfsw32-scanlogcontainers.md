@@ -125,14 +125,7 @@ Cannot be used if <b>CLFS_SCAN_FORWARD</b> is specified.
  
 
 
-### -param OPTIONAL
-
-TBD
-
-
-
-
-#### - pReserved [in, out, optional]
+### -param pReserved [in, out, optional]
 
 Reserved.  Set <i>pReserved</i> to <b>NULL</b>. 
 
@@ -194,7 +187,7 @@ For an example that uses this function, see <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684342(v=VS.85).aspx">OVERLAPPED</a>
  
 
  

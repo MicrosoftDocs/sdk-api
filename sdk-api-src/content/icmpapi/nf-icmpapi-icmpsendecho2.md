@@ -7,7 +7,7 @@ old-location: iphlp\icmpsendecho2.htm
 old-project: iphlp
 ms.assetid: 1f70b6cc-9085-4eb8-b2cc-3b3d98d0ea46
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: IcmpSendEcho2, IcmpSendEcho2 function [IP Helper], _iphlp_icmpsendecho2, icmpapi/IcmpSendEcho2, iphlp.icmpsendecho2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -114,7 +114,7 @@ This parameter may be <b>NULL</b> if no IP header options need to be specified.
 
 A pointer to a buffer to hold any replies to the request. Upon return, the buffer contains an array of 
 <a href="https://msdn.microsoft.com/e6d43c35-1009-4df1-bc39-aec97178cae6">ICMP_ECHO_REPLY</a> structures followed by options and data. The buffer must be large enough to hold at least one 
-<b>ICMP_ECHO_REPLY</b> structure plus <i>RequestSize</i> bytes of data. On a 64-bit platform, upon return the buffer contains an array of <a href="https://msdn.microsoft.com/4a84f29c-31bd-453c-b215-300cc782595f">ICMP_ECHO_REPLY32</a> structures followed by the options and data for the replies.
+<b>ICMP_ECHO_REPLY</b> structure plus <i>RequestSize</i> bytes of data.
 
 This buffer should also be large enough to also hold 8 more bytes of data (the size of an ICMP error message) plus space for an <b>IO_STATUS_BLOCK</b> structure.
 
@@ -123,8 +123,7 @@ This buffer should also be large enough to also hold 8 more bytes of data (the s
 ### -param ReplySize [in]
 
 The allocated size, in bytes,  of the reply buffer. The buffer should be large enough to hold at least one 
-<a href="https://msdn.microsoft.com/e6d43c35-1009-4df1-bc39-aec97178cae6">ICMP_ECHO_REPLY</a> structure plus <i>RequestSize</i> bytes of data. On a 64-bit platform, The buffer should be large enough to hold at least one 
-<a href="https://msdn.microsoft.com/4a84f29c-31bd-453c-b215-300cc782595f">ICMP_ECHO_REPLY32</a> structure plus <i>RequestSize</i> bytes of data.
+<a href="https://msdn.microsoft.com/e6d43c35-1009-4df1-bc39-aec97178cae6">ICMP_ECHO_REPLY</a> structure plus <i>RequestSize</i> bytes of data.
 
 This buffer should also be large enough to also hold 8 more bytes of data (the size of an ICMP error message) plus space for an <b>IO_STATUS_BLOCK</b> structure.
 
@@ -161,7 +160,7 @@ If the function fails, the extended error code returned by <a href="https://msdn
 </dl>
 </td>
 <td width="60%">
-An invalid parameter was passed to the function. This error is returned if the <i>IcmpHandle</i> parameter contains an invalid handle. This error can also be returned if the <i>ReplySize</i> parameter specifies a value less than the size of an <a href="https://msdn.microsoft.com/e6d43c35-1009-4df1-bc39-aec97178cae6">ICMP_ECHO_REPLY</a> or <a href="https://msdn.microsoft.com/4a84f29c-31bd-453c-b215-300cc782595f">ICMP_ECHO_REPLY32</a> structure.
+An invalid parameter was passed to the function. This error is returned if the <i>IcmpHandle</i> parameter contains an invalid handle. This error can also be returned if the <i>ReplySize</i> parameter specifies a value less than the size of an <a href="https://msdn.microsoft.com/e6d43c35-1009-4df1-bc39-aec97178cae6">ICMP_ECHO_REPLY</a> structure.
 
 </td>
 </tr>
@@ -485,10 +484,6 @@ int __cdecl main(int argc, char **argv)
 
 
 <a href="https://msdn.microsoft.com/e6d43c35-1009-4df1-bc39-aec97178cae6">ICMP_ECHO_REPLY</a>
-
-
-
-<a href="https://msdn.microsoft.com/4a84f29c-31bd-453c-b215-300cc782595f">ICMP_ECHO_REPLY32</a>
 
 
 

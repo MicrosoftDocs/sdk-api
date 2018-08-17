@@ -82,7 +82,7 @@ Refreshes <a href="https://msdn.microsoft.com/en-us/library/Aa358873(v=VS.85).as
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7ae27584-956c-464a-8c0c-48b06ac9e309">Save</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358983(v=VS.85).aspx">Save</a>
 </td>
 <td align="left" width="63%">
 Saves the <a href="https://msdn.microsoft.com/en-us/library/ms689509(v=VS.85).aspx">FaxSecurity</a> object data.

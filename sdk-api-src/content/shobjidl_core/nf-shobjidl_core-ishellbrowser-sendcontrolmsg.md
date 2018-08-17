@@ -93,7 +93,7 @@ The value depends on the message specified in the <i>uMsg</i> parameter.
 Type: <b>LRESULT*</b>
 
 The address of the return value of the 
-					<a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a> function.
+					<a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a> function.
 
 
 ## -returns

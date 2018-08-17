@@ -62,47 +62,47 @@ Copies mappings from a source tiled resource to a destination tiled resource.
 
 ### -param pDestTiledResource [in]
 
-Type: <b><a href="https://msdn.microsoft.com/3823ec00-cb3c-43ce-9f1a-be4e1e99d587">ID3D11Resource</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476584(v=VS.85).aspx">ID3D11Resource</a>*</b>
 
 A pointer to the destination tiled resource.
 
 
 ### -param pDestRegionStartCoordinate [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/4639E5FA-44D7-4F6E-8843-17EE862BD9C4">D3D11_TILED_RESOURCE_COORDINATE</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dn280437(v=VS.85).aspx">D3D11_TILED_RESOURCE_COORDINATE</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/4639E5FA-44D7-4F6E-8843-17EE862BD9C4">D3D11_TILED_RESOURCE_COORDINATE</a> structure that describes the starting coordinates of the destination tiled resource.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn280437(v=VS.85).aspx">D3D11_TILED_RESOURCE_COORDINATE</a> structure that describes the starting coordinates of the destination tiled resource.
        
 
 
 ### -param pSourceTiledResource [in]
 
-Type: <b><a href="https://msdn.microsoft.com/3823ec00-cb3c-43ce-9f1a-be4e1e99d587">ID3D11Resource</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476584(v=VS.85).aspx">ID3D11Resource</a>*</b>
 
 A pointer to the source tiled resource.
 
 
 ### -param pSourceRegionStartCoordinate [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/4639E5FA-44D7-4F6E-8843-17EE862BD9C4">D3D11_TILED_RESOURCE_COORDINATE</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dn280437(v=VS.85).aspx">D3D11_TILED_RESOURCE_COORDINATE</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/4639E5FA-44D7-4F6E-8843-17EE862BD9C4">D3D11_TILED_RESOURCE_COORDINATE</a> structure that describes the starting coordinates of the source tiled resource.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn280437(v=VS.85).aspx">D3D11_TILED_RESOURCE_COORDINATE</a> structure that describes the starting coordinates of the source tiled resource.
        
 
 
 ### -param pTileRegionSize [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/D4A93462-9A2F-416A-9CC1-AC24DFF35890">D3D11_TILE_REGION_SIZE</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dn280442(v=VS.85).aspx">D3D11_TILE_REGION_SIZE</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/D4A93462-9A2F-416A-9CC1-AC24DFF35890">D3D11_TILE_REGION_SIZE</a> structure that describes the size of the tiled region.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn280442(v=VS.85).aspx">D3D11_TILE_REGION_SIZE</a> structure that describes the size of the tiled region.
        
 
 
 ### -param Flags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
-A combination of <a href="https://msdn.microsoft.com/13B4665C-F8A2-45A7-BBE9-FEB45FB08963">D3D11_TILE_MAPPING_FLAGS</a> values that are combined by using a bitwise OR operation. The only valid value is <b>D3D11_TILE_MAPPING_NO_OVERWRITE</b>, which indicates that previously submitted commands to the device that may still be executing do not reference any of the tile region being updated. The device can then avoid having to flush previously submitted work to perform the tile mapping update.  If the app violates this promise by updating tile mappings for locations in tiled resources that are still being referenced by outstanding commands, undefined rendering behavior results, including the potential for significant slowdowns on some architectures.  This is like the "no overwrite" concept that exists elsewhere in the Direct3D API, except applied to the tile mapping data structure itself (which in hardware is a page table). The absence of the <b>D3D11_TILE_MAPPING_NO_OVERWRITE</b> value requires that tile mapping updates that <b>CopyTileMappings</b> specifies must be completed before any subsequent Direct3D command can proceed.
+A combination of <a href="https://msdn.microsoft.com/en-us/library/Dn280440(v=VS.85).aspx">D3D11_TILE_MAPPING_FLAGS</a> values that are combined by using a bitwise OR operation. The only valid value is <b>D3D11_TILE_MAPPING_NO_OVERWRITE</b>, which indicates that previously submitted commands to the device that may still be executing do not reference any of the tile region being updated. The device can then avoid having to flush previously submitted work to perform the tile mapping update.  If the app violates this promise by updating tile mappings for locations in tiled resources that are still being referenced by outstanding commands, undefined rendering behavior results, including the potential for significant slowdowns on some architectures.  This is like the "no overwrite" concept that exists elsewhere in the Direct3D API, except applied to the tile mapping data structure itself (which in hardware is a page table). The absence of the <b>D3D11_TILE_MAPPING_NO_OVERWRITE</b> value requires that tile mapping updates that <b>CopyTileMappings</b> specifies must be completed before any subsequent Direct3D command can proceed.
        
 
 
@@ -146,7 +146,7 @@ For more info about tiled resources, see <a href="https://msdn.microsoft.com/030
 
 
 
-<a href="https://msdn.microsoft.com/8B6B6F6E-9236-4DEE-A1BA-5FE45736DFAA">ID3D11DeviceContext2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280498(v=VS.85).aspx">ID3D11DeviceContext2</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: base\setthreadpooltimer.htm
 old-project: procthread
 ms.assetid: 017f88c6-e14c-47ba-94d2-e7bb0dc95d12
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: SetThreadpoolTimer, SetThreadpoolTimer function, base.setthreadpooltimer, threadpoolapiset/SetThreadpoolTimer, winbase/SetThreadpoolTimer
 ms.prod: windows
 ms.technology: windows-sdk

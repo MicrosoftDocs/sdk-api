@@ -7,7 +7,7 @@ old-location: base\registerservicectrlhandlerex.htm
 old-project: services
 ms.assetid: 23eea346-9899-4214-88f4-9b7eb7ce1332
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: RegisterServiceCtrlHandlerEx, RegisterServiceCtrlHandlerEx function, RegisterServiceCtrlHandlerExA, RegisterServiceCtrlHandlerExW, _win32_registerservicectrlhandlerex, base.registerservicectrlhandlerex, winsvc/RegisterServiceCtrlHandlerEx, winsvc/RegisterServiceCtrlHandlerExA, winsvc/RegisterServiceCtrlHandlerExW
 ms.prod: windows
 ms.technology: windows-sdk

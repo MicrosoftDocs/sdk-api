@@ -70,7 +70,7 @@ A handle to the image list.
 
 ### -param dwFlags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
 
 A flag that specifies how the stream is written.
 
@@ -87,7 +87,7 @@ A flag that specifies how the stream is written.
 </dl>
 </td>
 <td width="60%">
-Writes to the stream using the file format for <a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Common Controls 6.0</a>, which includes information about image list attributes new to this version.  
+Writes to the stream using the file format for <a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Common Controls 6.0</a>, which includes information about image list attributes new to this version.  
 			
 
 </td>
@@ -119,7 +119,7 @@ The address of the stream.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HRESULT</a></b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 

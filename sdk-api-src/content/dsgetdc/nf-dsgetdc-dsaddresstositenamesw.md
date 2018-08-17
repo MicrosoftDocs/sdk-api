@@ -61,9 +61,10 @@ The <b>DsAddressToSiteNames</b> function obtains  the site names corresponding t
 
 
 
-### -param OPTIONAL
+### -param ComputerName [in, optional]
 
-TBD
+Pointer to a null-terminated string that specifies the name of the remote server to process this function. This parameter must be the name of a domain controller. A non-domain controller can call this function by calling 
+<a href="https://msdn.microsoft.com/da8b2983-5e45-40b0-b552-c9b3a1d8ae94">DsGetDcName</a> to find the domain controller.
 
 
 ### -param EntryCount [in]
@@ -79,12 +80,6 @@ Contains an array of <a href="https://msdn.microsoft.com/37fbcb96-a859-4eca-8928
 ### -param SiteNames [out]
 
 Receives an array of null-terminated string pointers that contain the site names for the addresses. Each element in this array corresponds to the same element in the <i>SocketAddresses</i> array. An element is <b>NULL</b> if the corresponding address does not map to any known site or if the address entry is not of the proper form. The caller must free this array when it is no longer required by calling <a href="https://msdn.microsoft.com/0e99483c-8cd7-402a-8bf6-1e0118764dd3">NetApiBufferFree</a>.
-
-
-#### - ComputerName [in, optional]
-
-Pointer to a null-terminated string that specifies the name of the remote server to process this function. This parameter must be the name of a domain controller. A non-domain controller can call this function by calling 
-<a href="https://msdn.microsoft.com/da8b2983-5e45-40b0-b552-c9b3a1d8ae94">DsGetDcName</a> to find the domain controller.
 
 
 ## -returns

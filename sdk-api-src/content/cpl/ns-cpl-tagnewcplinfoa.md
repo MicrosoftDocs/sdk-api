@@ -134,7 +134,7 @@ The <a href="https://msdn.microsoft.com/23063e34-9d77-4167-83cd-8561accf0a8d">CP
 
 
 
-<a href="https://msdn.microsoft.com/707950c9-c242-43b2-b665-c97a89e632c5">CPLINFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773239(v=VS.85).aspx">CPLINFO</a>
  
 
  

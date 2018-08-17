@@ -89,11 +89,11 @@ The catalog download completed.
 
 
 
-<a href="https://msdn.microsoft.com/7359585f-6e8f-498f-a5a2-230265bae147">Enumerations for Type 1 Online Stores</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd562861(v=VS.85).aspx">Enumerations for Type 1 Online Stores</a>
 
 
 
-<a href="https://msdn.microsoft.com/9464ce82-cd84-4a35-83d2-e46198c0c1e7">IWMPContentPartner::Notify</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563172(v=VS.85).aspx">IWMPContentPartner::Notify</a>
  
 
  

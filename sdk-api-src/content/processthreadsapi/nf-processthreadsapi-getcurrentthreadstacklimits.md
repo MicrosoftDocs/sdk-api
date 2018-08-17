@@ -7,7 +7,7 @@ old-location: base\getcurrentthreadstacklimits.htm
 old-project: procthread
 ms.assetid: a5556124-a832-477d-80ab-424779eb9553
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: GetCurrentThreadStackLimits, GetCurrentThreadStackLimits function, base.getcurrentthreadstacklimits, processthreadsapi/GetCurrentThreadStackLimits
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: PSS_VA_SPACE_INFORMATION
+req.typenames: PROCESS_MEMORY_EXHAUSTION_TYPE, *PPROCESS_MEMORY_EXHAUSTION_TYPE
 topic_type:
  - APIRef
  - kbSyntax

@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Returns a handle to the <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a> associated with a  <a href="https://msdn.microsoft.com/cc0cbbc3-e342-483e-9c94-4ee43f4d588d">network interface</a>. The <b>PCLUSAPI_GET_CLUSTER_FROM_NET_INTERFACE</b> type defines a pointer to this function.
+Returns a handle to the <a href="https://msdn.microsoft.com/en-us/library/Aa369114(v=VS.85).aspx">cluster</a> associated with a  <a href="https://msdn.microsoft.com/cc0cbbc3-e342-483e-9c94-4ee43f4d588d">network interface</a>. The <b>PCLUSAPI_GET_CLUSTER_FROM_NET_INTERFACE</b> type defines a pointer to this function.
 
 
 ## -parameters

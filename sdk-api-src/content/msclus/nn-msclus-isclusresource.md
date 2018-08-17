@@ -197,7 +197,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Returns the <a href="c_gly.htm">cluster</a> that includes the resource.
+Returns the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> that includes the resource.
 
 </td>
 </tr>

@@ -4,10 +4,10 @@ title: CryptUIDlgCertMgr function
 author: windows-sdk-content
 description: Displays a dialog box that allows the user to manage certificates.
 old-location: security\cryptuidlgcertmgr.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 8d94694e-1724-42aa-99bb-6ed2c6d3bc0e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: CryptUIDlgCertMgr, CryptUIDlgCertMgr function [Security], cryptuiapi/CryptUIDlgCertMgr, security.cryptuidlgcertmgr
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ The <b>CryptUIDlgCertMgr</b> function displays a dialog box that allows the user
 
 ### -param pCryptUICertMgr [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/e6c24d16-0ae2-443c-8971-2d7da3aae963">CRYPTUI_CERT_MGR_STRUCT</a> structure that contains information about how to create the dialog box.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa380605(v=VS.85).aspx">CRYPTUI_CERT_MGR_STRUCT</a> structure that contains information about how to create the dialog box.
 
 
 ## -returns

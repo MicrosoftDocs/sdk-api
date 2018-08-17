@@ -61,7 +61,7 @@ Contains information that defines a split button (<a href="https://msdn.microsof
 
 ### -field mask
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 A set of flags that specify which members of this structure contain data to be set or which members are being requested. Set this member to one or more of the following flags.
 
@@ -123,7 +123,7 @@ A handle to the image list. The provider retains ownership of the image list and
 
 ### -field uSplitStyle
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 The split button style. Value must be one or more of the following flags.
 

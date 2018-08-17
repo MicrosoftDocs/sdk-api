@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Gets an <a href="https://msdn.microsoft.com/78FF30C5-7F23-489D-9E9D-916F6CE09C0E">ID3D12ShaderReflectionType Interface</a>  interface containing the variable base class type.
+Gets an <a href="https://msdn.microsoft.com/en-us/library/Dn933684(v=VS.85).aspx">ID3D12ShaderReflectionType Interface</a>  interface containing the variable base class type.
         
 
 
@@ -68,7 +68,7 @@ Gets an <a href="https://msdn.microsoft.com/78FF30C5-7F23-489D-9E9D-916F6CE09C0E
 
 Type: <b><a href="https://msdn.microsoft.com/78FF30C5-7F23-489D-9E9D-916F6CE09C0E">ID3D12ShaderReflectionType</a>*</b>
 
-Returns A pointer to a <a href="https://msdn.microsoft.com/78FF30C5-7F23-489D-9E9D-916F6CE09C0E">ID3D12ShaderReflectionType Interface</a>.
+Returns A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn933684(v=VS.85).aspx">ID3D12ShaderReflectionType Interface</a>.
           
 
 

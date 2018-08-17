@@ -153,7 +153,7 @@ If the driver type is set to <a href="https://msdn.microsoft.com/ceeec7d6-4bdc-4
 
 
 
-<a href="https://msdn.microsoft.com/2a45182a-7114-4075-b8b8-147f52fe7aa9">Core Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476155(v=VS.85).aspx">Core Structures</a>
  
 
  

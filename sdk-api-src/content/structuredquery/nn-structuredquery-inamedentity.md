@@ -81,7 +81,7 @@ Retrieves a default phrase to use for this named entity in restatements.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d12bd497-2fb9-41be-933d-ab97f3420522">GetValue</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231363(v=VS.85).aspx">GetValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of this named entity as a string.

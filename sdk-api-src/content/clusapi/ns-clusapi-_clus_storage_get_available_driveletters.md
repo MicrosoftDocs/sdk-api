@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Contains a bitmask of the driver letters that are available on  a node. It is used as the return value of the <a href="https://msdn.microsoft.com/7960baea-64b5-481b-9237-044ffa7b3b0a">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_DRIVELETTERS</a> control code.
+Contains a bitmask of the driver letters that are available on  a node. It is used as the return value of the <a href="https://msdn.microsoft.com/en-us/library/Bb736300(v=VS.85).aspx">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_DRIVELETTERS</a> control code.
 
 
 ## -struct-fields
@@ -69,7 +69,7 @@ The least significant bit represents the letter 'A' and is set to zero if any pa
 
 
 
-<a href="https://msdn.microsoft.com/7960baea-64b5-481b-9237-044ffa7b3b0a">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_DRIVELETTERS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb736300(v=VS.85).aspx">CLUSCTL_RESOURCE_TYPE_STORAGE_GET_DRIVELETTERS</a>
  
 
  

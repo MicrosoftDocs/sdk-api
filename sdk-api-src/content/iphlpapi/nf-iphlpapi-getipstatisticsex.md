@@ -7,7 +7,7 @@ old-location: iphlp\getipstatisticsex.htm
 old-project: iphlp
 ms.assetid: da9143cd-ccc9-4229-aa1e-d9949bbcb736
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: AF_INET, AF_INET6, GetIpStatisticsEx, GetIpStatisticsEx function [IP Helper], _iphlp_getipstatisticsex, iphlp.getipstatisticsex, iphlpapi/GetIpStatisticsEx
 ms.prod: windows
 ms.technology: windows-sdk

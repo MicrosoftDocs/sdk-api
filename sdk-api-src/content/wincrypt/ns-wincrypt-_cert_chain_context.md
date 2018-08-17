@@ -4,10 +4,10 @@ title: "_CERT_CHAIN_CONTEXT"
 author: windows-sdk-content
 description: Contains an array of simple certificate chains and a trust status structure that indicates summary validity data on all of the connected simple chains.
 old-location: security\cert_chain_context.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 609311f4-9cd6-4945-9f93-7266b3fc4a74
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: "*PCERT_CHAIN_CONTEXT, CERT_CHAIN_CONTEXT, CERT_CHAIN_CONTEXT structure [Security], PCERT_CHAIN_CONTEXT, PCERT_CHAIN_CONTEXT structure pointer [Security], _CERT_CHAIN_CONTEXT, _crypto2_cert_chain_context, security.cert_chain_context, wincrypt/CERT_CHAIN_CONTEXT, wincrypt/PCERT_CHAIN_CONTEXT"
 ms.prod: windows
 ms.technology: windows-sdk

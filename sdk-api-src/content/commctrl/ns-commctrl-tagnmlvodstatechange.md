@@ -83,14 +83,14 @@ Zero-based index of the last item in the range of items.
 
 ### -field uNewState
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Value indicating the new state for the item or items. This member can be any valid combination of the <a href="https://msdn.microsoft.com/en-us/library/Bb774733(v=VS.85).aspx">list-view item states</a>. 
 
 
 ### -field uOldState
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Value indicating the old state for the item or items. This member can be any valid combination of the <a href="https://msdn.microsoft.com/en-us/library/Bb774733(v=VS.85).aspx">list-view item states</a>. 
 

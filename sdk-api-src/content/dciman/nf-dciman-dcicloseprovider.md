@@ -64,7 +64,7 @@ Closes a device context of a display.
 
 ### -param hdc [in]
 
-The device context handle to be closed.  The handle was created with <a href="https://msdn.microsoft.com/9411c969-3434-400b-a285-33d5403b1a23">DCIOpenProvider</a>.
+The device context handle to be closed.  The handle was created with <a href="https://msdn.microsoft.com/en-us/library/ms648432(v=VS.85).aspx">DCIOpenProvider</a>.
  
 
 

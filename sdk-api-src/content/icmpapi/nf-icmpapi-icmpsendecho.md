@@ -7,7 +7,7 @@ old-location: iphlp\icmpsendecho.htm
 old-project: iphlp
 ms.assetid: c3cdc535-2c13-48c6-9ab1-88cc5e5119b5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: IcmpSendEcho, IcmpSendEcho function [IP Helper], _iphlp_icmpsendecho, icmpapi/IcmpSendEcho, iphlp.icmpsendecho
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,14 +97,11 @@ A buffer to hold any replies to the echo request. Upon return, the buffer contai
 <a href="https://msdn.microsoft.com/e6d43c35-1009-4df1-bc39-aec97178cae6">ICMP_ECHO_REPLY</a> structures followed by the options and data for the replies. The buffer should be large enough to hold at least one 
 <b>ICMP_ECHO_REPLY</b> structure plus <i>RequestSize</i> bytes of data.
 
-On a 64-bit platform, upon return the buffer contains an array of <a href="https://msdn.microsoft.com/4a84f29c-31bd-453c-b215-300cc782595f">ICMP_ECHO_REPLY32</a> structures followed by the options and data for the replies.
-
 
 ### -param ReplySize [in]
 
 The allocated size, in bytes,  of the reply buffer. The buffer should be large enough to hold at least one 
-<a href="https://msdn.microsoft.com/e6d43c35-1009-4df1-bc39-aec97178cae6">ICMP_ECHO_REPLY</a> structure plus <i>RequestSize</i> bytes of data. On a 64-bit platform, The buffer should be large enough to hold at least one 
-<a href="https://msdn.microsoft.com/4a84f29c-31bd-453c-b215-300cc782595f">ICMP_ECHO_REPLY32</a> structure plus <i>RequestSize</i> bytes of data.
+<a href="https://msdn.microsoft.com/e6d43c35-1009-4df1-bc39-aec97178cae6">ICMP_ECHO_REPLY</a> structure plus <i>RequestSize</i> bytes of data.
 
 This buffer should also be large enough to also hold 8 more bytes of data (the size of an ICMP error message).
 
@@ -121,7 +118,7 @@ The time, in milliseconds, to wait for replies.
 
 The 
 						<b>IcmpSendEcho</b> function returns the number of 
-<a href="https://msdn.microsoft.com/e6d43c35-1009-4df1-bc39-aec97178cae6">ICMP_ECHO_REPLY</a> or <a href="https://msdn.microsoft.com/4a84f29c-31bd-453c-b215-300cc782595f">ICMP_ECHO_REPLY32</a> structures stored in the <i>ReplyBuffer</i>. The status of each reply is contained in the structure. If the return value is zero, call 
+<a href="https://msdn.microsoft.com/e6d43c35-1009-4df1-bc39-aec97178cae6">ICMP_ECHO_REPLY</a> structures stored in the <i>ReplyBuffer</i>. The status of each reply is contained in the structure. If the return value is zero, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> for additional error information.
 
 If the function fails, the extended error code returned by <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> can be one of the following values.
@@ -149,7 +146,7 @@ The data area passed to a system call is too small. This error is returned if th
 </dl>
 </td>
 <td width="60%">
-An invalid parameter was passed to the function. This error is returned if the <i>IcmpHandle</i> parameter contains an invalid handle. This error can also be returned if the <i>ReplySize</i> parameter specifies a value less than the size of an <a href="https://msdn.microsoft.com/e6d43c35-1009-4df1-bc39-aec97178cae6">ICMP_ECHO_REPLY</a> or <a href="https://msdn.microsoft.com/4a84f29c-31bd-453c-b215-300cc782595f">ICMP_ECHO_REPLY32</a> structure.
+An invalid parameter was passed to the function. This error is returned if the <i>IcmpHandle</i> parameter contains an invalid handle. This error can also be returned if the <i>ReplySize</i> parameter specifies a value less than the size of an <a href="https://msdn.microsoft.com/e6d43c35-1009-4df1-bc39-aec97178cae6">ICMP_ECHO_REPLY</a> structure.
 
 </td>
 </tr>
@@ -323,10 +320,6 @@ int __cdecl main(int argc, char **argv)  {
 
 
 <a href="https://msdn.microsoft.com/e6d43c35-1009-4df1-bc39-aec97178cae6">ICMP_ECHO_REPLY</a>
-
-
-
-<a href="https://msdn.microsoft.com/4a84f29c-31bd-453c-b215-300cc782595f">ICMP_ECHO_REPLY32</a>
 
 
 

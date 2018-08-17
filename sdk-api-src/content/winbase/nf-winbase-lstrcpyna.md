@@ -215,7 +215,7 @@ Review <a href="https://msdn.microsoft.com/en-us/library/Hh969198(v=VS.85).aspx"
 
 
 
-<a href="https://msdn.microsoft.com/f2cb0888-b245-448c-9910-a634312aff67">Strings</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646979(v=VS.85).aspx">Strings</a>
 
 
 

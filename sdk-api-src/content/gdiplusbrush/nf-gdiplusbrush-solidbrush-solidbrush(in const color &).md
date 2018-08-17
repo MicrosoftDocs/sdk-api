@@ -62,9 +62,9 @@ Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534508(v=VS.85).as
 
 #### - color [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a></b>
 
-Reference to a <a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a> object that specifies the initial color of this solid brush. 
+Reference to a <a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a> object that specifies the initial color of this solid brush. 
 
 
 ## -see-also
@@ -76,7 +76,7 @@ Reference to a <a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4
 
 
 
-<a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a>
 
 
 

@@ -61,7 +61,7 @@ Loads an icon. If the icon is not a standard size, this function scales down a l
 
 ### -param hinst [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HINSTANCE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HINSTANCE</a></b>
 
 A handle to the module of either a DLL or executable (.exe) file that contains the icon to be loaded. For more information, see <a href="https://msdn.microsoft.com/951c7e6e-1d6d-4393-a675-d2b353c53b87">GetModuleHandle</a>.
 
@@ -72,7 +72,7 @@ To load a predefined icon or a standalone icon file, set this parameter to <b>NU
 
 ### -param pszName [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">PCWSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">PCWSTR</a></b>
 
 A pointer to a null-terminated, Unicode buffer that contains location information about the icon to load. 
 

@@ -4,10 +4,10 @@ title: IHeaderCtrl::GetColumnWidth
 author: windows-sdk-content
 description: Retrieves the width, in pixels, of the column.
 old-location: mmc\iheaderctrl_getcolumnwidth.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: 2F0C08F2-C7AF-4E91-A7AD-34BC19D65DC2
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/14/2018
 ms.keywords: GetColumnWidth, GetColumnWidth method [MMC], GetColumnWidth method [MMC],IHeaderCtrl interface, IHeaderCtrl interface [MMC],GetColumnWidth method, IHeaderCtrl.GetColumnWidth, IHeaderCtrl::GetColumnWidth, mmc.iheaderctrl_getcolumnwidth, mmc/IHeaderCtrl::GetColumnWidth
 ms.prod: windows
 ms.technology: windows-sdk

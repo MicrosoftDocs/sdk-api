@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>Graphics::ResetTransform</b> method sets the world transformation matrix of this <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object to the identity matrix.
+The <b>Graphics::ResetTransform</b> method sets the world transformation matrix of this <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object to the identity matrix.
 
 
 ## -parameters
@@ -66,12 +66,12 @@ The <b>Graphics::ResetTransform</b> method sets the world transformation matrix 
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
 </strong>
 
-If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
 
-If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
 
 
 
@@ -80,14 +80,14 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-The identity matrix represents a transformation that does nothing. If the world transformation matrix of a <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object is the identity matrix, then no world transformation is applied to items drawn by that <b>Graphics</b> object.
+The identity matrix represents a transformation that does nothing. If the world transformation matrix of a <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object is the identity matrix, then no world transformation is applied to items drawn by that <b>Graphics</b> object.
 
 
 #### Examples
 
 
 
-The following example sets the world transformation of a <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object to a 45-degree rotation and then draws a rectangle. The code calls the <b>ResetTransform</b> method of the <b>Graphics</b> object and then draws a second rectangle. No rotation transformation is applied to the second rectangle.
+The following example sets the world transformation of a <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object to a 45-degree rotation and then draws a rectangle. The code calls the <b>ResetTransform</b> method of the <b>Graphics</b> object and then draws a second rectangle. No rotation transformation is applied to the second rectangle.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -124,7 +124,7 @@ The following example sets the world transformation of a <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
 
 
 

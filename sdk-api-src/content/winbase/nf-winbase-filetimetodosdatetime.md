@@ -4,10 +4,10 @@ title: FileTimeToDosDateTime function
 author: windows-sdk-content
 description: Converts a file time to MS-DOS date and time values.
 old-location: base\filetimetodosdatetime.htm
-old-project: SysInfo
+old-project: sysinfo
 ms.assetid: 7295da08-02f0-4390-862f-cf4267b69230
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/10/2018
 ms.keywords: FileTimeToDosDateTime, FileTimeToDosDateTime function, _win32_filetimetodosdatetime, base.filetimetodosdatetime, winbase/FileTimeToDosDateTime
 ms.prod: windows
 ms.technology: windows-sdk

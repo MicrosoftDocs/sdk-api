@@ -64,7 +64,7 @@ Called when an <a href="https://msdn.microsoft.com/en-us/library/Dd371519(v=VS.8
 
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd371548(v=VS.85).aspx">UI_COLLECTIONCHANGE</a></b>
 
-The <a href="https://msdn.microsoft.com/8edb3772-04c6-45ac-8ccf-2b8ddd37db6d">action</a> performed on the 
+The <a href="https://msdn.microsoft.com/en-us/library/Dd371548(v=VS.85).aspx">action</a> performed on the 
 					<a href="https://msdn.microsoft.com/en-us/library/Dd371519(v=VS.85).aspx">IUICollection</a>.
 				
 

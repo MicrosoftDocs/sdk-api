@@ -7,7 +7,7 @@ old-location: security\iaztask_deleteoperation.htm
 old-project: secauthz
 ms.assetid: 3f370d04-2115-4dcc-bf18-2d28a52bdead
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: AzTask object [Security],DeleteOperation method, DeleteOperation, DeleteOperation method [Security], DeleteOperation method [Security],AzTask object, DeleteOperation method [Security],IAzTask interface, IAzTask interface [Security],DeleteOperation method, IAzTask.DeleteOperation, IAzTask::DeleteOperation, azroles/IAzTask::DeleteOperation, security.iaztask_deleteoperation
 ms.prod: windows
 ms.technology: windows-sdk

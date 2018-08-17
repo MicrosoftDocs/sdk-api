@@ -107,11 +107,11 @@ The server application that BITS passed the upload file to generated an error wh
 
 
 
-<a href="https://msdn.microsoft.com/abdf115d-3ff2-4664-b053-f55872ad24ab">IBackgroundCopyError::GetError</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362876(v=VS.85).aspx">IBackgroundCopyError::GetError</a>
 
 
 
-<a href="https://msdn.microsoft.com/87f5ae62-c171-4637-bebb-3a5c5aa546b3">IBackgroundCopyError::GetErrorContextDescription</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362877(v=VS.85).aspx">IBackgroundCopyError::GetErrorContextDescription</a>
  
 
  

@@ -116,7 +116,7 @@ The <b>flags</b> member of the <a href="https://msdn.microsoft.com/en-us/library
 </dl>
 </td>
 <td width="60%">
-All the text in the current chunk has been returned. Additional calls to the <a href="https://msdn.microsoft.com/d63639a6-6729-44cd-8105-198a268ff2d6">GetText</a> method should return this error until the <a href="https://msdn.microsoft.com/en-us/library/ms691080(v=VS.85).aspx">IFilter::GetChunk</a> method has been called successfully. 
+All the text in the current chunk has been returned. Additional calls to the <a href="https://msdn.microsoft.com/en-us/library/ms690992(v=VS.85).aspx">GetText</a> method should return this error until the <a href="https://msdn.microsoft.com/en-us/library/ms691080(v=VS.85).aspx">IFilter::GetChunk</a> method has been called successfully. 
 
 
 </td>
@@ -128,7 +128,7 @@ All the text in the current chunk has been returned. Additional calls to the <a 
 </dl>
 </td>
 <td width="60%">
-As an optimization, the last call that returns text can return FILTER_S_LAST_TEXT, indicating that the next call to the <a href="https://msdn.microsoft.com/d63639a6-6729-44cd-8105-198a268ff2d6">GetText</a> method will return FILTER_E_NO_MORE_TEXT. This optimization can save time by eliminating unnecessary calls to <b>GetText</b>.
+As an optimization, the last call that returns text can return FILTER_S_LAST_TEXT, indicating that the next call to the <a href="https://msdn.microsoft.com/en-us/library/ms690992(v=VS.85).aspx">GetText</a> method will return FILTER_E_NO_MORE_TEXT. This optimization can save time by eliminating unnecessary calls to <b>GetText</b>.
 
 </td>
 </tr>

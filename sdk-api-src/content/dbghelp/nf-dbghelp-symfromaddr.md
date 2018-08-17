@@ -7,7 +7,7 @@ old-location: base\symfromaddr.htm
 old-project: debug
 ms.assetid: 20338631-19ab-4ad8-9ba2-56fa4812b33e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: SymFromAddr, SymFromAddr function, SymFromAddrW, _win32_symfromaddr, base.symfromaddr, dbghelp/SymFromAddr, dbghelp/SymFromAddrW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: base\getnumanodenumberfromhandle.htm
 old-project: procthread
 ms.assetid: 7622f7c9-2dfc-4ab7-b3e9-48d483c6cc0e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: GetNumaNodeNumberFromHandle, GetNumaNodeNumberFromHandle function, base.getnumanodenumberfromhandle, winbase/GetNumaNodeNumberFromHandle
 ms.prod: windows
 ms.technology: windows-sdk

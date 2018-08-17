@@ -51,17 +51,17 @@ req.irql:
 ## -description
 
 
-The <b>ICertPropertyDescription</b> interface enables you to specify and retrieve a string that contains descriptive information for a  certificate. You can use this interface to identify the intended purpose of a certificate for display in a user interface.<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/e7ad0ec5-a568-4506-ba54-908e00083c2b">CERTENROLL_PROPERTYID</a> value is XCN_CERT_DESCRIPTION_PROP_ID.</div>
+The <b>ICertPropertyDescription</b> interface enables you to specify and retrieve a string that contains descriptive information for a  certificate. You can use this interface to identify the intended purpose of a certificate for display in a user interface.<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/en-us/library/Aa374867(v=VS.85).aspx">CERTENROLL_PROPERTYID</a> value is XCN_CERT_DESCRIPTION_PROP_ID.</div>
 <div> </div>
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertPropertyDescription</b> interface inherits from <a href="https://msdn.microsoft.com/947c2f09-993d-4ced-8b76-66b79d96e3bc">ICertProperty</a>. <b>ICertPropertyDescription</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertPropertyDescription</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Aa375239(v=VS.85).aspx">ICertProperty</a>. <b>ICertPropertyDescription</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Properties</a></li>
 </ul>
 
 ## -members
@@ -74,7 +74,7 @@ The <b>ICertPropertyDescription</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/17e8ee9c-c861-4437-a70d-ccad6a5a293d">Initialize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375662(v=VS.85).aspx">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the object from a string that contains descriptive information about the certificate.
@@ -93,7 +93,7 @@ Initializes the object from a string that contains descriptive information about
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/afc8c4f4-186b-4f00-b12b-54b50913865d">Description</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375653(v=VS.85).aspx">Description</a>
 
 
 </td>
@@ -110,15 +110,15 @@ Retrieves  a description of the certificate.
 
 
 
-<a href="https://msdn.microsoft.com/b830c0af-0a38-419d-8a33-8e3626c4e8f1">ICertProperties</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375231(v=VS.85).aspx">ICertProperties</a>
 
 
 
-<a href="https://msdn.microsoft.com/947c2f09-993d-4ced-8b76-66b79d96e3bc">ICertProperty</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375239(v=VS.85).aspx">ICertProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/d2bfe2f2-423e-4620-8933-bbae4f98c62a">ICertPropertyFriendlyName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375715(v=VS.85).aspx">ICertPropertyFriendlyName</a>
  
 
  

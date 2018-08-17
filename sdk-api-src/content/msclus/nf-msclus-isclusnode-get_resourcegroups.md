@@ -72,7 +72,7 @@ This property is read-only.
 
 
 To retrieve information about all of the groups in the 
-    <a href="c_gly.htm">cluster</a>, use the 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>, use the 
     <a href="https://msdn.microsoft.com/449e4432-571c-403c-81c7-da50f455224c">Cluster.ResourceGroups</a> property.
 
 

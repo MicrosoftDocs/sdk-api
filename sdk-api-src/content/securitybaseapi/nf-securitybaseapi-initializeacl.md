@@ -7,7 +7,7 @@ old-location: security\initializeacl.htm
 old-project: secauthz
 ms.assetid: b990a7bd-7840-4c10-baf8-68b3862147f4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: InitializeAcl, InitializeAcl function [Security], _win32_initializeacl, security.initializeacl, securitybaseapi/InitializeAcl
 ms.prod: windows
 ms.technology: windows-sdk

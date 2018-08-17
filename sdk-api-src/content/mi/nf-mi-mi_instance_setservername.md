@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_instance_setservername.htm
 old-project: wmi_v2
 ms.assetid: 34864c69-091f-4dbd-9d56-e43f8d218b09
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/13/2018
 ms.keywords: MI_Instance_SetServerName, MI_Instance_SetServerName function [Windows Management Infrastructure (MI)], mi/MI_Instance_SetServerName, wmi_v2.mi_instance_setservername
 ms.prod: windows
 ms.technology: windows-sdk

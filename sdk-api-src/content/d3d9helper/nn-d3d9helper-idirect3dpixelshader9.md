@@ -72,7 +72,7 @@ The <b>IDirect3DPixelShader9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c0aeefb5-8314-4189-a9db-6ee0543ba26f">GetDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205870(v=VS.85).aspx">GetDevice</a>
 </td>
 <td align="left" width="63%">
 Gets the device.

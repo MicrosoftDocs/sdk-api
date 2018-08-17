@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiometerinformation.htm
 old-project: CoreAudio
 ms.assetid: eff1c1cd-792b-489a-8381-4b783c57f005
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/14/2018
 ms.keywords: IAudioMeterInformation, IAudioMeterInformation interface [Core Audio], IAudioMeterInformation interface [Core Audio],described, coreaudio.iaudiometerinformation, endpointvolume/IAudioMeterInformation
 ms.prod: windows
 ms.technology: windows-sdk

@@ -94,7 +94,7 @@ Adds a <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx"
 <a href="https://msdn.microsoft.com/4c71948d-2321-41b5-b961-c4a514830b26">ClearOptions</a>
 </td>
 <td align="left" width="63%">
-Removes any <a href="windows_remote_management_glossary.htm">options</a> from the <b>IWSManResourceLocator</b> object.
+Removes any <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">options</a> from the <b>IWSManResourceLocator</b> object.
 
 </td>
 </tr>

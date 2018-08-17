@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>X509EnrollmentPolicyLoadOption</b> enumeration is used by the <a href="https://msdn.microsoft.com/5b617c6e-91bc-4a22-acd6-41083102850a">LoadPolicy</a> method on the <a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a> interface to specify how to retrieve policy from the policy server.
+The <b>X509EnrollmentPolicyLoadOption</b> enumeration is used by the <a href="https://msdn.microsoft.com/en-us/library/Ee351712(v=VS.85).aspx">LoadPolicy</a> method on the <a href="https://msdn.microsoft.com/en-us/library/Ee351692(v=VS.85).aspx">IX509EnrollmentPolicyServer</a> interface to specify how to retrieve policy from the policy server.
 
 
 ## -enum-fields
@@ -84,7 +84,7 @@ Registers a thread to update a sequence number if there are changes to the templ
 
 
 
-<a href="https://msdn.microsoft.com/5b617c6e-91bc-4a22-acd6-41083102850a">LoadPolicy</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee351712(v=VS.85).aspx">LoadPolicy</a>
  
 
  

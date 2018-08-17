@@ -74,9 +74,16 @@ The  name is specified when creating the log  by using  <a href="https://msdn.mi
 For more information, see <a href="https://msdn.microsoft.com/a7099979-346c-434d-8af1-6bf1d5a0512f">Log Types</a>.
 
 
-### -param OPTIONAL
+### -param psaLogFile [in, optional]
 
-TBD
+A pointer to a <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> structure that  specifies the security attributes of a log. 
+
+This parameter can be <b>NULL</b>.
+
+
+### -param pinfoBuffer [out, optional]
+
+A pointer to a <a href="https://msdn.microsoft.com/06f5919e-b98f-4502-9653-9ef42c1ebe5a">CLFS_INFORMATION</a> structure that receives log metadata. 
 
 
 ### -param pcbBuffer [in, out]
@@ -84,18 +91,6 @@ TBD
 A pointer to a variable that, on input, specifies the size of the <i>pinfoBuffer</i> metadata buffer, in bytes.  
 
 On output, it receives the amount of information that is copied to the buffer, in bytes.
-
-
-#### - pinfoBuffer [out, optional]
-
-A pointer to a <a href="https://msdn.microsoft.com/06f5919e-b98f-4502-9653-9ef42c1ebe5a">CLFS_INFORMATION</a> structure that receives log metadata. 
-
-
-#### - psaLogFile [in, optional]
-
-A pointer to a <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> structure that  specifies the security attributes of a log. 
-
-This parameter can be <b>NULL</b>.
 
 
 ## -returns

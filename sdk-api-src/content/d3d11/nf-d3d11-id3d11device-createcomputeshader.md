@@ -115,7 +115,7 @@ For an example, see <a href="https://msdn.microsoft.com/6114dd90-626b-4c9e-9da5-
 
 
 
-<a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476379(v=VS.85).aspx">ID3D11Device</a>
  
 
  

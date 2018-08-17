@@ -72,7 +72,7 @@ The <b>IDirect3DVertexShader9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7058fb2f-4c82-4314-b216-b15880a36d63">GetDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205923(v=VS.85).aspx">GetDevice</a>
 </td>
 <td align="left" width="63%">
 Gets the device.

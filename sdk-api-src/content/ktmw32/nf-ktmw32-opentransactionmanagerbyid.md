@@ -70,14 +70,7 @@ The identifier of the transaction to open.
 The access requested. See <a href="https://msdn.microsoft.com/8f9b9d3d-e7ea-4df2-82b1-2d4c3e0766c0">Transaction Manager Access Masks</a> for a list of valid values.
 
 
-### -param OPTIONAL
-
-TBD
-
-
-
-
-#### - OpenOptions [in, optional]
+### -param OpenOptions [in, optional]
 
 Reserved; specify zero.
 

@@ -71,7 +71,7 @@ Name of the resource to open.
 
 
 <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a1a-7f1756f97804">Cluster database</a> key for the 
-       <a href="c_gly.htm">cluster</a> that includes the resource represented by 
+       <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> that includes the resource represented by 
        <i>ResourceName</i>.
 
 

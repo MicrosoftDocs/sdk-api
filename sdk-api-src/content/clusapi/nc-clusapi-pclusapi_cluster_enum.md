@@ -50,8 +50,8 @@ req.irql:
 ## -description
 
 
-Enumerates the <a href="https://msdn.microsoft.com/609cc002-2db9-4ec6-a802-8f7bdbb11b90">cluster objects</a> in a 
-    <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a>, returning the name of one object with each 
+Enumerates the <a href="https://msdn.microsoft.com/en-us/library/Aa369115(v=VS.85).aspx">cluster objects</a> in a 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa369114(v=VS.85).aspx">cluster</a>, returning the name of one object with each 
     call. The <b>PCLUSAPI_CLUSTER_ENUM</b> type defines a pointer to this function.
 
 
@@ -76,43 +76,43 @@ The index used to identify the next entry to be enumerated. This parameter shoul
 ### -param lpdwType [out]
 
 A pointer to the type of object returned. One of the following values of the 
-       <a href="https://msdn.microsoft.com/e3d5a207-d30e-4935-be95-0957e68d4fe6">CLUSTER_ENUM</a> enumeration is returned with each call.
+       <a href="https://msdn.microsoft.com/en-us/library/Bb309146(v=VS.85).aspx">CLUSTER_ENUM</a> enumeration is returned with each call.
 
 
 
 #### CLUSTER_ENUM_NODE (1 (0x1))
 
-Enumerates the <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">nodes</a> in the cluster.
+Enumerates the <a href="https://msdn.microsoft.com/en-us/library/Aa371745(v=VS.85).aspx">nodes</a> in the cluster.
 
 
 
 #### CLUSTER_ENUM_RESTYPE (2 (0x2))
 
-Enumerates the <a href="https://msdn.microsoft.com/d02e4f51-7b86-451a-a51c-ea850ae464d1">resource types</a> in the cluster.
+Enumerates the <a href="https://msdn.microsoft.com/en-us/library/Aa372279(v=VS.85).aspx">resource types</a> in the cluster.
 
 
 
 #### CLUSTER_ENUM_RESOURCE (4 (0x4))
 
-Enumerates the <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resources</a> in the cluster.
+Enumerates the <a href="https://msdn.microsoft.com/en-us/library/Aa372152(v=VS.85).aspx">resources</a> in the cluster.
 
 
 
 #### CLUSTER_ENUM_GROUP (8 (0x8))
 
-Enumerates the <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">groups</a> in the cluster.
+Enumerates the <a href="https://msdn.microsoft.com/en-us/library/Aa369645(v=VS.85).aspx">groups</a> in the cluster.
 
 
 
 #### CLUSTER_ENUM_NETWORK (16 (0x10))
 
-Enumerates the <a href="https://msdn.microsoft.com/57d16e1f-e774-4ffb-b26b-7e72d6d589aa">networks</a> in the cluster.
+Enumerates the <a href="https://msdn.microsoft.com/en-us/library/Aa371501(v=VS.85).aspx">networks</a> in the cluster.
 
 
 
 #### CLUSTER_ENUM_NETINTERFACE (32 (0x20))
 
-Enumerates the <a href="https://msdn.microsoft.com/cc0cbbc3-e342-483e-9c94-4ee43f4d588d">network interfaces</a> in the 
+Enumerates the <a href="https://msdn.microsoft.com/en-us/library/Aa371519(v=VS.85).aspx">network interfaces</a> in the 
          cluster.
 
 
@@ -143,7 +143,7 @@ Enumerates the networks used by the cluster for internal communication. The netw
 
 #### CLUSTER_ENUM_ALL ((CLUSTER_ENUM_NODE | CLUSTER_ENUM_RESTYPE | CLUSTER_ENUM_RESOURCE | CLUSTER_ENUM_GROUP | CLUSTER_ENUM_NETWORK | CLUSTER_ENUM_NETINTERFACE))
 
-Enumerates all <a href="https://msdn.microsoft.com/609cc002-2db9-4ec6-a802-8f7bdbb11b90">cluster objects</a>.
+Enumerates all <a href="https://msdn.microsoft.com/en-us/library/Aa369115(v=VS.85).aspx">cluster objects</a>.
 
 
 ### -param lpszName [out]
@@ -173,13 +173,13 @@ The function returns one of the following values.
 
 
 The <i>ClusterEnum</i> function is typically used to iterate 
-     through a collection of <a href="https://msdn.microsoft.com/609cc002-2db9-4ec6-a802-8f7bdbb11b90">cluster objects</a> of one 
+     through a collection of <a href="https://msdn.microsoft.com/en-us/library/Aa369115(v=VS.85).aspx">cluster objects</a> of one 
      or more types. If, for example, an application wants to enumerate all of the 
-     <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">nodes</a> in a cluster, it calls 
+     <a href="https://msdn.microsoft.com/en-us/library/Aa371745(v=VS.85).aspx">nodes</a> in a cluster, it calls 
      <a href="https://msdn.microsoft.com/b6eb5c03-dd6e-42ef-a020-cf0d61143040">ClusterOpenEnum</a> to open a cluster 
      enumerator that can process nodes. The <i>dwType</i> parameter is set to 
      <b>CLUSTER_ENUM_NODE</b> to specify nodes as the object type to be enumerated. If the 
-     application enumerates <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">groups</a> in addition to nodes, the 
+     application enumerates <a href="https://msdn.microsoft.com/en-us/library/Aa369645(v=VS.85).aspx">groups</a> in addition to nodes, the 
      <i>dwType</i> parameter is set to 
      <code>CLUSTER_ENUM_NODE | CLUSTER_ENUM_GROUP</code>. With the handle that 
      <i>ClusterOpenEnum</i> returns, the application calls 
@@ -189,12 +189,12 @@ The <i>ClusterEnum</i> function is typically used to iterate
 Note that <i>lpcchName</i> refers to a count of characters and not a count of bytes, and 
      that the returned size does not include the terminating <b>NULL</b> in the count. For more 
      information on sizing buffers, see 
-     <a href="https://msdn.microsoft.com/283dc560-d547-4b42-b45c-435045080639">Data Size Conventions</a>.
+     <a href="https://msdn.microsoft.com/en-us/library/Aa369338(v=VS.85).aspx">Data Size Conventions</a>.
 
 
 #### Examples
 
-See <a href="https://msdn.microsoft.com/391b87d1-6765-45fd-bd27-37a1127e639a">Enumerating Objects</a>.
+See <a href="https://msdn.microsoft.com/en-us/library/Aa369563(v=VS.85).aspx">Enumerating Objects</a>.
 
 <div class="code"></div>
 

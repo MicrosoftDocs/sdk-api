@@ -63,14 +63,14 @@ The <b>TOOLINFO</b> structure contains information about a tool in a tooltip con
 
 ### -field cbSize
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Size of this structure, in bytes. This member must be specified. 
 
 
 ### -field uFlags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Flags that control the tooltip display. This member can be a combination of the following values: 
 
@@ -116,7 +116,7 @@ Indicates that the <b>uId</b> member is the window handle to the tool. If this f
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 6.0 and later</a>. Indicates that links in the tooltip text should be parsed.
+<a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 6.0 and later</a>. Indicates that links in the tooltip text should be parsed.
                         
                         
 
@@ -170,14 +170,14 @@ Causes the tooltip control to forward mouse event messages to the parent window.
 
 ### -field hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 Handle to the window that contains the tool. If <b>lpszText</b> includes the LPSTR_TEXTCALLBACK value, this member identifies the window that receives the <a href="https://msdn.microsoft.com/en-us/library/Bb760269(v=VS.85).aspx">TTN_GETDISPINFO</a> notification codes.
 
 
 ### -field uId
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT_PTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT_PTR</a></b>
 
 Application-defined identifier of the tool. If <b>uFlags</b> includes the TTF_IDISHWND flag, <b>uId</b> must specify the window handle to the tool. 
 
@@ -191,14 +191,14 @@ The bounding rectangle coordinates of the tool. The coordinates are relative to 
 
 ### -field hinst
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HINSTANCE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HINSTANCE</a></b>
 
 Handle to the instance that contains the string resource for the tool. If <b>lpszText</b> specifies the identifier of a string resource, this member is used.
 
 
 ### -field lpszText
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPTSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPTSTR</a></b>
 
 Pointer to the buffer that contains the text for the tool, or identifier of the string resource that contains the text. This member is sometimes used to return values. If you need to examine the returned value,  must point to a valid buffer of sufficient size. Otherwise, it can be set to <b>NULL</b>. If <b>lpszText</b> is set to LPSTR_TEXTCALLBACK, the control sends
 the <a href="https://msdn.microsoft.com/en-us/library/Bb760269(v=VS.85).aspx">TTN_GETDISPINFO</a> notification code to the owner window to retrieve the text.
@@ -206,7 +206,7 @@ the <a href="https://msdn.microsoft.com/en-us/library/Bb760269(v=VS.85).aspx">TT
 
 ### -field lParam
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPARAM</a></b>
 
 <b>Version 4.70 and later</b>. A 32-bit application-defined value that is associated with the tool. 
 

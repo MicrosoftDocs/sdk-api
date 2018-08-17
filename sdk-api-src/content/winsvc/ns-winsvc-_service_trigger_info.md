@@ -7,7 +7,7 @@ old-location: base\service_trigger_info.htm
 old-project: services
 ms.assetid: 8de46056-1ea5-46f2-a260-ad140fd77bc1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: "*PSERVICE_TRIGGER_INFO, PSERVICE_TRIGGER_INFO, PSERVICE_TRIGGER_INFO structure pointer, SERVICE_TRIGGER_INFO, SERVICE_TRIGGER_INFO structure, _SERVICE_TRIGGER_INFO, base.service_trigger_info, winsvc/PSERVICE_TRIGGER_INFO, winsvc/SERVICE_TRIGGER_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

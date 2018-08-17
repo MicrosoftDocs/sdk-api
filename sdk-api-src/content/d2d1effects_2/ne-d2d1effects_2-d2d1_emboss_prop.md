@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/74f63875-35cd-f335-62cd-410a953e53ea">Emboss effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Dn890765(v=VS.85).aspx">Emboss effect</a>.
 
 
 ## -enum-fields

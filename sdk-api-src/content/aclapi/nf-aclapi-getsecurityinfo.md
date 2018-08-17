@@ -7,7 +7,7 @@ old-location: security\getsecurityinfo.htm
 old-project: secauthz
 ms.assetid: 64767a6b-cd79-4e02-881a-706a078ff446
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: GetSecurityInfo, GetSecurityInfo function [Security], _win32_getsecurityinfo, aclapi/GetSecurityInfo, security.getsecurityinfo
 ms.prod: windows
 ms.technology: windows-sdk

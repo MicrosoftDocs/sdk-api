@@ -114,7 +114,7 @@ Adds a column to the result set.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/621d45e8-0f28-4c9c-bfc5-878ad3d2de1d">Get</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms670052(v=VS.85).aspx">Get</a>
 </td>
 <td align="left" width="63%">
 Gets the property in the specified row and column and fills the given property object.

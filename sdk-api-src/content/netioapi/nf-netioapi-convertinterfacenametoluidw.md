@@ -7,7 +7,7 @@ old-location: iphlp\convertinterfacenametoluidw.htm
 old-project: iphlp
 ms.assetid: 473be9f0-7fac-46f0-b33c-839906411fdc
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: ConvertInterfaceNameToLuidW, ConvertInterfaceNameToLuidW function [IP Helper], iphlp.convertinterfacenametoluidw, netioapi/ConvertInterfaceNameToLuidW
 ms.prod: windows
 ms.technology: windows-sdk

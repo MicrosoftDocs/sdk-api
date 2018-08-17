@@ -65,14 +65,7 @@ Recovers an enlistment's state.
 A handle to the enlistment.
 
 
-### -param OPTIONAL
-
-TBD
-
-
-
-
-#### - EnlistmentKey [in, optional]
+### -param EnlistmentKey [in, optional]
 
 The key to the enlistment to be recovered.
 

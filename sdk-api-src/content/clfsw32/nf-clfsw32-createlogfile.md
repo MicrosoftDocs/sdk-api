@@ -186,9 +186,21 @@ Enables open operations on the object to request write access. Without this valu
  
 
 
-### -param OPTIONAL
+### -param psaLogFile [in, optional]
 
-TBD
+A pointer to a <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> 
+      structure that  specifies the security attributes of a log.
+
+It determines whether the returned handle can be 
+      inherited by child processes. If this parameter is <b>NULL</b>, the handle cannot be 
+      inherited.
+
+The <b>lpSecurityDescriptor</b> member of 
+      <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> specifies a 
+      <a href="https://msdn.microsoft.com/6512d128-3b0c-4ba7-8709-2fd225389a40">security descriptor</a> for the new log 
+      handle. If <i>psaLogFile</i> is <b>NULL</b>, the object gets a default 
+      security descriptor. The access control lists (ACL) in the default security descriptor for a log come from the 
+      primary or impersonation token of the creator.
 
 
 ### -param fCreateDisposition [in]
@@ -278,23 +290,6 @@ Specifying <b>FILE_FLAG_OVERLAPPED</b> means that a file is opened for overlappe
  
 
 
-#### - psaLogFile [in, optional]
-
-A pointer to a <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> 
-      structure that  specifies the security attributes of a log.
-
-It determines whether the returned handle can be 
-      inherited by child processes. If this parameter is <b>NULL</b>, the handle cannot be 
-      inherited.
-
-The <b>lpSecurityDescriptor</b> member of 
-      <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> specifies a 
-      <a href="https://msdn.microsoft.com/6512d128-3b0c-4ba7-8709-2fd225389a40">security descriptor</a> for the new log 
-      handle. If <i>psaLogFile</i> is <b>NULL</b>, the object gets a default 
-      security descriptor. The access control lists (ACL) in the default security descriptor for a log come from the 
-      primary or impersonation token of the creator.
-
-
 ## -returns
 
 
@@ -330,11 +325,11 @@ The following list identifies the  possible error codes:
 
 
 
-<a href="https://msdn.microsoft.com/a3059828-d291-493d-a4fe-13d06e49ed12">Common Log File System Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb540361(v=VS.85).aspx">Common Log File System Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/750c0615-bfac-402b-a590-6c9d800cf2d8">CreateLogMarshallingArea</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb540367(v=VS.85).aspx">CreateLogMarshallingArea</a>
 
 
 

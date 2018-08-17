@@ -7,7 +7,7 @@ old-location: base\getnumaprocessornodeex.htm
 old-project: procthread
 ms.assetid: 6b843cd8-eeb5-4aa1-aad4-ce98916346b1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: GetNumaProcessorNodeEx, GetNumaProcessorNodeEx function, base.getnumaprocessornodeex, winbase/GetNumaProcessorNodeEx
 ms.prod: windows
 ms.technology: windows-sdk

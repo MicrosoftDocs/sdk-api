@@ -7,7 +7,7 @@ old-location: iphlp\gettcptable2.htm
 old-project: iphlp
 ms.assetid: 942e8cb6-545f-45ab-919a-246e3b2d4c6a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: GetTcpTable2, GetTcpTable2 function [IP Helper], iphlp.gettcptable2, iphlpapi/GetTcpTable2
 ms.prod: windows
 ms.technology: windows-sdk

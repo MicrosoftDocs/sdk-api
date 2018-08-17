@@ -62,9 +62,9 @@ The <b>MetafileHeader::GetBounds</b> method gets the bounding rectangle for the 
 
 ### -param rect [out]
 
-Type: <b><a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a> object that receives the bounding rectangle. 
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a> object that receives the bounding rectangle. 
 
 
 ## -returns
@@ -101,7 +101,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a>
  
 
  

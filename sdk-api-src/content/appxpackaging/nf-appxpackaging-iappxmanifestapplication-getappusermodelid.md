@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestapplication_getappusermodelid.htm
 old-project: appxpkg
 ms.assetid: A1CD62B4-A314-43B3-AD80-3EB3EDF63B3D
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/15/2018
 ms.keywords: GetAppUserModelId, GetAppUserModelId method [App packaging and management], GetAppUserModelId method [App packaging and management],IAppxManifestApplication interface, IAppxManifestApplication interface [App packaging and management],GetAppUserModelId method, IAppxManifestApplication.GetAppUserModelId, IAppxManifestApplication::GetAppUserModelId, appxpackaging/IAppxManifestApplication::GetAppUserModelId, appxpkg.iappxmanifestapplication_getappusermodelid
 ms.prod: windows
 ms.technology: windows-sdk

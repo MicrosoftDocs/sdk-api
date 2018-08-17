@@ -7,7 +7,7 @@ old-location: iphlp\getbestinterfaceex.htm
 old-project: iphlp
 ms.assetid: cfd1108e-d7a0-4fe5-be3f-299189089d37
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: GetBestInterfaceEx, GetBestInterfaceEx function [IP Helper], iphlp.getbestinterfaceex, iphlpapi/GetBestInterfaceEx
 ms.prod: windows
 ms.technology: windows-sdk

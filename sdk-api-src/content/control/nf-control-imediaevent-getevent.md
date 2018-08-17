@@ -129,9 +129,9 @@ Timeout expired.
 
 If no event is on the queue, this method waits up to <i>msTimeout</i> milliseconds for an event to arrive. Avoid using a time-out interval of INFINITE, because threads cannot process any messages while waiting in <code>GetEvent</code>. If you call <code>GetEvent</code> from the same thread that processes Windows messages, specify only small wait times, in order to remain responsive to user input.
 
-After calling <code>GetEvent</code>, call the <a href="https://msdn.microsoft.com/d98f37a4-3482-4cf7-bede-c7e7be70652a">IMediaEvent::FreeEventParams</a> method to release any resources allocated for the event parameters.
+After calling <code>GetEvent</code>, call the <a href="https://msdn.microsoft.com/en-us/library/Dd406905(v=VS.85).aspx">IMediaEvent::FreeEventParams</a> method to release any resources allocated for the event parameters.
 
-For a list of notification codes and event parameter values, see <a href="https://msdn.microsoft.com/339ffcd9-7724-4c92-b241-afbed81d9380">Event Notification Codes</a>.
+For a list of notification codes and event parameter values, see <a href="https://msdn.microsoft.com/en-us/library/Dd375625(v=VS.85).aspx">Event Notification Codes</a>.
 
 Because this method removes the event from the filter graph event queue, there is no way for multiple clients to monitor events from the same graph.
 
@@ -143,15 +143,15 @@ Because this method removes the event from the filter graph event queue, there i
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/651561d1-4e7e-48de-9cba-769ddb553e63">IMediaEvent Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406896(v=VS.85).aspx">IMediaEvent Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/9d367b0a-c7ec-49d4-a41e-045ac81d2c51">IMediaEventEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd406897(v=VS.85).aspx">IMediaEventEx</a>
  
 
  

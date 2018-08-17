@@ -7,7 +7,7 @@ old-location: appxpkg\iappxencryptionfactory3.htm
 old-project: appxpkg
 ms.assetid: ABF2F4BE-FC6A-4AF5-BD15-243ABFA055D9
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/15/2018
 ms.keywords: IAppxEncryptionFactory3, IAppxEncryptionFactory3 interface [App packaging and management], IAppxEncryptionFactory3 interface [App packaging and management],described, appxpackaging/IAppxEncryptionFactory3, appxpkg.iappxencryptionfactory3
 ms.prod: windows
 ms.technology: windows-sdk

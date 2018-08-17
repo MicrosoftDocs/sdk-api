@@ -4,10 +4,10 @@ title: CryptUIDlgViewContext function
 author: windows-sdk-content
 description: Displays a certificate, CTL, or CRL context.
 old-location: security\cryptuidlgviewcontext.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: d4b8f01b-7c3e-4286-bc37-d5ec4a1e1c2f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: CERT_STORE_CERTIFICATE_CONTEXT, CERT_STORE_CRL_CONTEXT, CERT_STORE_CTL_CONTEXT, CryptUIDlgViewContext, CryptUIDlgViewContext function [Security], _crypto2_cryptuidlgviewcontext, cryptuiapi/CryptUIDlgViewContext, security.cryptuidlgviewcontext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -146,7 +146,7 @@ This function returns <b>TRUE</b> on success and <b>FALSE</b> on failure.
 
 
 
-<a href="https://msdn.microsoft.com/5774af1c-f2d4-4b1e-a20b-dfb57bf9aa37">CryptUIDlgSelectCertificateFromStore</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380288(v=VS.85).aspx">CryptUIDlgSelectCertificateFromStore</a>
  
 
  

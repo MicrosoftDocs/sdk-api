@@ -74,7 +74,7 @@ The <b>IUISimplePropertySet</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6d62ce1c-58ac-47a0-8b06-57655e18c982">GetValue</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371357(v=VS.85).aspx">GetValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value identified by a property key.

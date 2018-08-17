@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioobjectrenderstream_start.htm
 old-project: CoreAudio
 ms.assetid: 25D968AC-F5D2-4CAB-87ED-29FC63E5A5A4
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/14/2018
 ms.keywords: ISpatialAudioObjectRenderStreamBase interface [Core Audio],Start method, ISpatialAudioObjectRenderStreamBase.Start, ISpatialAudioObjectRenderStreamBase::Start, Start, Start method [Core Audio], Start method [Core Audio],ISpatialAudioObjectRenderStreamBase interface, coreaudio.ispatialaudioobjectrenderstream_start, spatialaudioclient/ISpatialAudioObjectRenderStreamBase::Start
 ms.prod: windows
 ms.technology: windows-sdk
@@ -113,7 +113,7 @@ The stream must have been previously stopped with a call to <a href="https://msd
 
 
 
-<a href="coreaudio.ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a>
+<a href="https://msdn.microsoft.com/library/Mt829728(v=VS.85).aspx">ISpatialAudioObjectRenderStreamBase</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_drawinstanced.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_drawinstanced.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 59daf614-be34-5946-a8e4-10a976e15345, DrawInstanced, DrawInstanced method [Direct3D 10], DrawInstanced method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],DrawInstanced method, ID3D10Device.DrawInstanced, ID3D10Device::DrawInstanced, d3d10/ID3D10Device::DrawInstanced, direct3d10.id3d10device_drawinstanced
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,28 +62,28 @@ Draw non-indexed, instanced primitives.
 
 ### -param VertexCountPerInstance [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Number of vertices to draw.
 
 
 ### -param InstanceCount [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Number of instances to draw.
 
 
 ### -param StartVertexLocation [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Index of the first vertex.
 
 
 ### -param StartInstanceLocation [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Index of the first instance.
 

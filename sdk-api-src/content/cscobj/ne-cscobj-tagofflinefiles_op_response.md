@@ -79,19 +79,19 @@ Stop processing now.
 
 
 
-<a href="https://msdn.microsoft.com/0e3496ee-e987-4c37-93ff-bc8409acabde">IOfflineFilesSimpleProgress::ItemBegin</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530617(v=VS.85).aspx">IOfflineFilesSimpleProgress::ItemBegin</a>
 
 
 
-<a href="https://msdn.microsoft.com/60ed3b12-b56e-4a58-8e37-a4a745ddb783">IOfflineFilesSimpleProgress::ItemResult</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530618(v=VS.85).aspx">IOfflineFilesSimpleProgress::ItemResult</a>
 
 
 
-<a href="https://msdn.microsoft.com/c1cdbc30-bcc9-4023-a3a2-070fb9958609">IOfflineFilesSyncProgress::SyncItemBegin</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530638(v=VS.85).aspx">IOfflineFilesSyncProgress::SyncItemBegin</a>
 
 
 
-<a href="https://msdn.microsoft.com/2a93d52e-6b91-4d91-9372-5f0718621841">IOfflineFilesSyncProgress::SyncItemResult</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530639(v=VS.85).aspx">IOfflineFilesSyncProgress::SyncItemResult</a>
  
 
  

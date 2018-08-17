@@ -156,7 +156,7 @@ The system only does marshalling for system messages (those in the range 0 to (<
 
 
 
-<a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a>
 
 
 

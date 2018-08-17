@@ -53,7 +53,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Bitmap::FromHBITMAP</b> method creates a 
-			<a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a> object based on a handle to a Windows Graphics Device Interface (GDI) bitmap and a handle to a GDI palette.
+			<a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a> object based on a handle to a Windows Graphics Device Interface (GDI) bitmap and a handle to a GDI palette.
 
 
 ## -parameters
@@ -80,11 +80,11 @@ Handle to a GDI palette used to define the bitmap colors if
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a>*</b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a>*</b>
 </strong>
 
 This method returns a pointer to the new 
-						<a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a> object.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a> object.
 
 
 
@@ -94,7 +94,7 @@ This method returns a pointer to the new
 
 
 You are responsible for deleting the GDI bitmap and the GDI palette. However, you should not delete the GDI bitmap or the GDI palette until after the GDI+ 
-				<a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a> object is deleted or goes out of scope.
+				<a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a> object is deleted or goes out of scope.
 
 Do not pass to the <b>Bitmap::FromHBITMAP</b> method a GDI bitmap or a GDI palette that is currently (or was previously) selected into a device context.
 
@@ -108,7 +108,7 @@ This method does not preserve the alpha channel of the source GDI bitmap.
 
 
 
-<a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a>
 
 
 

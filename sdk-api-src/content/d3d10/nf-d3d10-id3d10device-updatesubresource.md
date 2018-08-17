@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_updatesubresource.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_updatesubresource.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 05dfa0e1-63e3-e98a-c07e-e9473eb93d43, ID3D10Device interface [Direct3D 10],UpdateSubresource method, ID3D10Device.UpdateSubresource, ID3D10Device::UpdateSubresource, UpdateSubresource, UpdateSubresource method [Direct3D 10], UpdateSubresource method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::UpdateSubresource, direct3d10.id3d10device_updatesubresource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,7 +69,7 @@ A pointer to the destination resource (see <a href="https://msdn.microsoft.com/e
 
 ### -param DstSubresource [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 A zero-based index, that identifies the destination subresource. See <a href="https://msdn.microsoft.com/en-us/library/Bb694525(v=VS.85).aspx">D3D10CalcSubresource</a> for more details.
 
@@ -92,14 +92,14 @@ A pointer to the source data in memory.
 
 ### -param SrcRowPitch [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 The size of one row of the source data.
 
 
 ### -param SrcDepthPitch [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 The size of one depth slice of source data.
 

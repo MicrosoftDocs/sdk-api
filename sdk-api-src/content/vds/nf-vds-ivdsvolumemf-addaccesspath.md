@@ -101,7 +101,7 @@ The path was added successfully.
 <td width="60%">
 The access path was added successfully, however, an error occurred. VDS possibly failed to update the 
         GPT_BASIC_DATA_ATTRIBUTE_NO_DRIVE_LETTER attribute of a partition or failed to add a default network share (such as F$) 
-        while adding the drive letter. For more information, see <a href="base.partition_information_gpt_str">PARTITION_INFORMATION_GPT</a>.
+        while adding the drive letter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa365449(v=VS.85).aspx">PARTITION_INFORMATION_GPT</a>.
 
 </td>
 </tr>

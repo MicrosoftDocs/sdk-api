@@ -68,12 +68,12 @@ A handle to a notification port that is created with the
 
 ### -param Filter [in]
 
-A <a href="https://msdn.microsoft.com/E173F5D8-955B-44FF-980E-CEF536A87AF5">NOTIFY_FILTER_AND_TYPE</a> structure that specifies the event type to create.
+A <a href="https://msdn.microsoft.com/en-us/library/Dn622942(v=VS.85).aspx">NOTIFY_FILTER_AND_TYPE</a> structure that specifies the event type to create.
 
 
 ### -param hObject [in]
 
-A handle to the <a href="https://msdn.microsoft.com/609cc002-2db9-4ec6-a802-8f7bdbb11b90">failover cluster object</a> 
+A handle to the <a href="https://msdn.microsoft.com/en-us/library/Aa369115(v=VS.85).aspx">failover cluster object</a> 
        that is affected by the event as specified in the <i>dwFilterType</i> parameter. The type of handle 
       depends on the value of <i>dwFilterType</i>.
 
@@ -92,7 +92,7 @@ The notification key that is returned from the
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, the function returns a 
-       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>.
+       <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>.
 
 
 
@@ -102,7 +102,7 @@ If the operation fails, the function returns a
 
 
 
-<a href="https://msdn.microsoft.com/1b3a3b23-39db-47b7-b4a8-17fc1ee45df6">Failover Cluster Management Function</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa369107(v=VS.85).aspx">Failover Cluster Management Function</a>
  
 
  

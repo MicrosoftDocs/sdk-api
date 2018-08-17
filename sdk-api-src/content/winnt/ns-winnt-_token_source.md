@@ -7,7 +7,7 @@ old-location: security\token_source.htm
 old-project: secauthz
 ms.assetid: 9c533327-e4a0-4852-828c-622d190b7d1e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: "*PTOKEN_SOURCE, PTOKEN_SOURCE, PTOKEN_SOURCE structure pointer [Security], TOKEN_SOURCE, TOKEN_SOURCE structure [Security], _TOKEN_SOURCE, _win32_token_source_str, security.token_source, winnt/PTOKEN_SOURCE, winnt/TOKEN_SOURCE"
 ms.prod: windows
 ms.technology: windows-sdk

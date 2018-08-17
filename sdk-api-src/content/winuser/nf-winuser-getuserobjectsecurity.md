@@ -7,7 +7,7 @@ old-location: security\getuserobjectsecurity.htm
 old-project: secauthz
 ms.assetid: 998c2520-7833-4efd-a794-b13b528f0485
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: GetUserObjectSecurity, GetUserObjectSecurity function [Security], _win32_getuserobjectsecurity, security.getuserobjectsecurity, winuser/GetUserObjectSecurity
 ms.prod: windows
 ms.technology: windows-sdk

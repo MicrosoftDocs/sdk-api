@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-The key property serves as the primary identifier for a collection. In some cases, it is a GUID, such as CLSID for a component; in some cases, it is the object name, as with roles. The key property of a collection is identified in the documentation for each specific collection of the <a href="https://msdn.microsoft.com/eed8ca97-39ad-4188-afc6-8670b5073fad">COM+ Administration Collections</a>.
+The key property serves as the primary identifier for a collection. In some cases, it is a GUID, such as CLSID for a component; in some cases, it is the object name, as with roles. The key property of a collection is identified in the documentation for each specific collection of the <a href="https://msdn.microsoft.com/en-us/library/ms687763(v=VS.85).aspx">COM+ Administration Collections</a>.
 
 If you add a new object and save it with the key property of an existing object, you overwrite the existing object.
 
@@ -76,7 +76,7 @@ If you add a new object and save it with the key property of an existing object,
 
 
 
-<a href="https://msdn.microsoft.com/fe3f7452-57b2-4f9e-9b48-5dedfe519ac1">ICatalogObject</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms688526(v=VS.85).aspx">ICatalogObject</a>
  
 
  

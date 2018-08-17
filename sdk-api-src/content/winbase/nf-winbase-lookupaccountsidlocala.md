@@ -7,7 +7,7 @@ old-location: security\lookupaccountsidlocal.htm
 old-project: secauthz
 ms.assetid: B039FFD7-B483-4CC0-B606-FAA5003DA238
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: LookupAccountSidLocal, LookupAccountSidLocal function [Security], LookupAccountSidLocalA, LookupAccountSidLocalW, security.lookupaccountsidlocal, winbase/LookupAccountSidLocal, winbase/LookupAccountSidLocalA, winbase/LookupAccountSidLocalW
 ms.prod: windows
 ms.technology: windows-sdk

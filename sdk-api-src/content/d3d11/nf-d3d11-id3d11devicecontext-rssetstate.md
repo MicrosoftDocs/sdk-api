@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-Set the <a href="https://msdn.microsoft.com/53252fef-f557-46d1-b6a7-ccc8a059752a">rasterizer state</a> for the rasterizer stage of the pipeline.
+Set the <a href="https://msdn.microsoft.com/en-us/library/Ff476198(v=VS.85).aspx">rasterizer state</a> for the rasterizer stage of the pipeline.
 
 
 ## -parameters
@@ -62,9 +62,9 @@ Set the <a href="https://msdn.microsoft.com/53252fef-f557-46d1-b6a7-ccc8a059752a
 
 ### -param pRasterizerState [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/fbe6d2b9-375e-4390-9d34-36acef0a5aa2">ID3D11RasterizerState</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476580(v=VS.85).aspx">ID3D11RasterizerState</a>*</b>
 
-Pointer to a rasterizer-state interface (see <a href="https://msdn.microsoft.com/fbe6d2b9-375e-4390-9d34-36acef0a5aa2">ID3D11RasterizerState</a>) to bind to the pipeline.
+Pointer to a rasterizer-state interface (see <a href="https://msdn.microsoft.com/en-us/library/Ff476580(v=VS.85).aspx">ID3D11RasterizerState</a>) to bind to the pipeline.
 
 
 ## -returns
@@ -80,7 +80,7 @@ Returns nothing.
 
 
 
-To create a rasterizer state interface, call <a href="https://msdn.microsoft.com/b49a8dbb-2280-4d5d-ae65-58cde2e9ed10">ID3D11Device::CreateRasterizerState</a>.
+To create a rasterizer state interface, call <a href="https://msdn.microsoft.com/en-us/library/Ff476516(v=VS.85).aspx">ID3D11Device::CreateRasterizerState</a>.
 
 The method will hold a reference to the interfaces passed in.
       This differs from the device state behavior in Direct3D 10.
@@ -93,7 +93,7 @@ The method will hold a reference to the interfaces passed in.
 
 
 
-<a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476385(v=VS.85).aspx">ID3D11DeviceContext</a>
  
 
  

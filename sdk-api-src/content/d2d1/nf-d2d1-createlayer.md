@@ -98,7 +98,7 @@ The layer automatically resizes itself, as needed.
 
 #### Examples
 
-The following example uses a layer to clip a bitmap to a geometric mask. For the complete example, see <a href="https://msdn.microsoft.com/eaeb6cfd-de62-46f1-972d-a11e0ccc11d9">How to Clip to a Geometric Mask</a>.
+The following example uses a layer to clip a bitmap to a geometric mask. For the complete example, see <a href="https://msdn.microsoft.com/en-us/library/Dd756675(v=VS.85).aspx">How to Clip to a Geometric Mask</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -157,7 +157,7 @@ The following example uses a layer to clip a bitmap to a geometric mask. For the
 
 
 
-<a href="https://msdn.microsoft.com/22d161fb-8470-49cc-a523-309f90643ea9">Layers Overview</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd756654(v=VS.85).aspx">Layers Overview</a>
  
 
  

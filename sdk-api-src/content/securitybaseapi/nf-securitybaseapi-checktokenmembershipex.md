@@ -7,7 +7,7 @@ old-location: security\checktokenmembershipex.htm
 old-project: secauthz
 ms.assetid: 0420FC77-8035-42A5-8907-83D0CE53FB64
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: CheckTokenMembershipEx, CheckTokenMembershipEx function [Security], security.checktokenmembershipex, securitybaseapi/CheckTokenMembershipEx
 ms.prod: windows
 ms.technology: windows-sdk

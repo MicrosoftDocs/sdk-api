@@ -60,7 +60,7 @@ req.irql:
 
 ### -param pMenu [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/303115e1-8d52-4a0a-b05e-b5c92b8b3e2a">ITfMenu</a> interface that the system language bar item uses to add items to the system language bar menu.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms628780(v=VS.85).aspx">ITfMenu</a> interface that the system language bar item uses to add items to the system language bar menu.
 
 
 ## -returns
@@ -112,7 +112,7 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/a88b20ec-fc54-4814-9ca1-131664b4f377">ITfSystemLangBarItemSink</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms628957(v=VS.85).aspx">ITfSystemLangBarItemSink</a>
  
 
  

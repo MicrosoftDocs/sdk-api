@@ -4,10 +4,10 @@ title: TdhLoadManifestFromBinary function
 author: windows-sdk-content
 description: Takes a NULL-terminated path to a binary file that contains metadata resources needed to decode a specific event provider.
 old-location: etw\tdhloadmanifestfrombinary.htm
-old-project: ETW
+old-project: etw
 ms.assetid: e152d25c-bbc9-4573-9575-9cf9583433a7
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/08/2018
 ms.keywords: TdhLoadManifestFromBinary, TdhLoadManifestFromBinary function [ETW], etw.tdhloadmanifestfrombinary, tdh/TdhLoadManifestFromBinary
 ms.prod: windows
 ms.technology: windows-sdk

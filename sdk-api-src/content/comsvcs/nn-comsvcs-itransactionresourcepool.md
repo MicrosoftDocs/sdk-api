@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Maintains a list of pooled objects, keyed by <a href="https://msdn.microsoft.com/d3730a37-933b-4705-b787-4b8bb728a278">IObjPool</a>, that are used until the transaction completes.
+Maintains a list of pooled objects, keyed by <a href="https://msdn.microsoft.com/en-us/library/ms686740(v=VS.85).aspx">IObjPool</a>, that are used until the transaction completes.
 
 
 
@@ -98,11 +98,11 @@ Adds an object to the list of pooled objects.
 
 
 
-<a href="https://msdn.microsoft.com/d3730a37-933b-4705-b787-4b8bb728a278">IObjPool</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686740(v=VS.85).aspx">IObjPool</a>
 
 
 
-<a href="https://msdn.microsoft.com/602842ce-abb1-4830-99b3-d361d18ac074">ITransactionProperty</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms681768(v=VS.85).aspx">ITransactionProperty</a>
  
 
  

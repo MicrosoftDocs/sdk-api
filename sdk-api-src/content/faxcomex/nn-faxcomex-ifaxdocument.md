@@ -116,7 +116,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms686176(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/02338d62-234d-4fd9-a136-24dbcab16f88">Body</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684817(v=VS.85).aspx">Body</a>
 
 
 </td>
@@ -164,7 +164,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms686003(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/f95352b8-6f19-47b2-907a-5835568799ac">DocumentName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms685139(v=VS.85).aspx">DocumentName</a>
 
 
 </td>
@@ -276,7 +276,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms687440(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/1c8f5adf-9c94-4c4b-9a9a-e8377682f6f9">ScheduleTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686129(v=VS.85).aspx">ScheduleTime</a>
 
 
 </td>

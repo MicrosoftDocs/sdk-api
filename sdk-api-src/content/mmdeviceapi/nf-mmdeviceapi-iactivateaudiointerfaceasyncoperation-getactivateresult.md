@@ -7,7 +7,7 @@ old-location: coreaudio\iactivateaudiointerfaceasyncoperation_getactivateresult.
 old-project: CoreAudio
 ms.assetid: 4dd0e555-ee62-40f6-9b4a-57c6063981bf
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/14/2018
 ms.keywords: GetActivateResult, GetActivateResult method [Core Audio], GetActivateResult method [Core Audio],IActivateAudioInterfaceAsyncOperation interface, IActivateAudioInterfaceAsyncOperation interface [Core Audio],GetActivateResult method, IActivateAudioInterfaceAsyncOperation.GetActivateResult, IActivateAudioInterfaceAsyncOperation::GetActivateResult, coreaudio.iactivateaudiointerfaceasyncoperation_getactivateresult, mmdeviceapi/IActivateAudioInterfaceAsyncOperation::GetActivateResult
 ms.prod: windows
 ms.technology: windows-sdk

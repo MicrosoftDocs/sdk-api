@@ -4,10 +4,10 @@ title: IsWindowsVersionOrGreater function
 author: windows-sdk-content
 description: Indicates if the current OS version matches, or is greater than, the provided version information.
 old-location: base\iswindowsversionorgreater.htm
-old-project: SysInfo
+old-project: sysinfo
 ms.assetid: B28DFEC0-A94E-49F6-9DF0-4EE470EC4AF5
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/10/2018
 ms.keywords: IsWindowsVersionOrGreater, IsWindowsVersionOrGreater function, base.iswindowsversionorgreater, versionhelpers/IsWindowsVersionOrGreater
 ms.prod: windows
 ms.technology: windows-sdk

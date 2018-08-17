@@ -7,7 +7,7 @@ old-location: appxpkg\apppolicygetmediafoundationcodecloading.htm
 old-project: appxpkg
 ms.assetid: 59231147-0505-4353-AADE-D81701ECBAD5
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/15/2018
 ms.keywords: AppPolicyGetMediaFoundationCodecLoading, AppPolicyGetMediaFoundationCodecLoading function [App packaging and management], appmodel/AppPolicyGetMediaFoundationCodecLoading, appxpkg.apppolicygetmediafoundationcodecloading
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ A handle that identifies the access token for a process.
 
 ### -param policy [out]
 
-A pointer to a variable of the <a href="appxpkg.apppolicymediafoundationcodecloading">AppPolicyMediaFoundationCodecLoading</a> enumerated type. When the function returns successfully, the variable contains an enumerated constant value indicating the codec-loading policy of the identified process.
+A pointer to a variable of the <a href="https://msdn.microsoft.com/library/Mt829724(v=VS.85).aspx">AppPolicyMediaFoundationCodecLoading</a> enumerated type. When the function returns successfully, the variable contains an enumerated constant value indicating the codec-loading policy of the identified process.
 
 
 ## -returns

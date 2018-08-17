@@ -4,10 +4,10 @@ title: IOCSPPropertyCollection::InitializeFromProperties
 author: windows-sdk-content
 description: Creates a property set from the properties contained in an existing server configuration.
 old-location: security\iocsppropertycollection_initializefromproperties_method.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: e944af4e-80e4-470e-be04-770cf0f89871
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: IOCSPPropertyCollection interface [Security],InitializeFromProperties method, IOCSPPropertyCollection.InitializeFromProperties, IOCSPPropertyCollection::InitializeFromProperties, InitializeFromProperties, InitializeFromProperties method [Security], InitializeFromProperties method [Security],IOCSPPropertyCollection interface, certadm/IOCSPPropertyCollection::InitializeFromProperties, security.iocsppropertycollection_initializefromproperties_method
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,7 +86,7 @@ An array that contains the property values. Each array element is a <b>Variant</
 If the method succeeds, it returns <b>S_OK</b>.
 
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
 
 If the method returns <b>E_UNEXPECTED</b>, the array pointed to by the <i>pVarProperties</i> parameter contained duplicate properties.
 
@@ -100,7 +100,7 @@ If the method returns <b>DISP_E_ARRAYISLOCKED</b>, the array pointed to by the <
 
 
 
-<a href="https://msdn.microsoft.com/8c700357-0cb4-4780-9ff1-ac57c46f9183">IOCSPPropertyCollection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa386394(v=VS.85).aspx">IOCSPPropertyCollection</a>
  
 
  

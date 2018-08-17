@@ -94,7 +94,7 @@ A <a href="https://msdn.microsoft.com/DAE5C06B-ED1F-4B35-812E-31E26B51704C">D3D1
 
 
 
-This structure is used by <a href="https://msdn.microsoft.com/FFA361B2-D8FA-4F5A-8D0C-022C2AA76B57">CreateComputePipelineState</a>.
+This structure is used by <a href="https://msdn.microsoft.com/en-us/library/Dn788658(v=VS.85).aspx">CreateComputePipelineState</a>.
       
 
 
@@ -105,7 +105,7 @@ This structure is used by <a href="https://msdn.microsoft.com/FFA361B2-D8FA-4F5A
 
 
 
-<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn770459(v=VS.85).aspx">Core Structures</a>
  
 
  

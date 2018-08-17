@@ -73,7 +73,7 @@ The <b>IFaxRecipients</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e9f193ed-e34c-4317-9143-6e460e457100">Add</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689572(v=VS.85).aspx">Add</a>
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms689572(v=VS.85).aspx">IFaxRecipients::Add</a> method adds a new <a href="https://msdn.microsoft.com/en-us/library/ms690204(v=VS.85).aspx">FaxRecipient</a> object to the <a href="https://msdn.microsoft.com/en-us/library/ms689604(v=VS.85).aspx">FaxRecipients</a> collection. 
@@ -91,16 +91,16 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms688373(v=VS.85).aspx">IF
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a2b6554c-ea08-4f61-a357-6de0b8e00db5">Item</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687543(v=VS.85).aspx">Item</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/efb17932-40c9-4903-9c6e-80e4e684d063">Item</a> method returns a <a href="https://msdn.microsoft.com/en-us/library/ms690204(v=VS.85).aspx">FaxRecipient</a> object from the <a href="https://msdn.microsoft.com/en-us/library/ms689604(v=VS.85).aspx">FaxRecipients</a> collection. 
+The <a href="https://msdn.microsoft.com/en-us/library/ms687542(v=VS.85).aspx">Item</a> method returns a <a href="https://msdn.microsoft.com/en-us/library/ms690204(v=VS.85).aspx">FaxRecipient</a> object from the <a href="https://msdn.microsoft.com/en-us/library/ms689604(v=VS.85).aspx">FaxRecipients</a> collection. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a3874a59-2eed-4cfb-b90e-2a437c00a5ae">Remove</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690208(v=VS.85).aspx">Remove</a>
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms690208(v=VS.85).aspx">IFaxRecipients::Remove</a> method removes an item from the <a href="https://msdn.microsoft.com/en-us/library/ms689604(v=VS.85).aspx">FaxRecipients</a> collection.
@@ -118,7 +118,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms690208(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/5607cb79-c790-40b9-bf3a-8c4e19dd136b">Count</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms688447(v=VS.85).aspx">Count</a>
 
 
 </td>

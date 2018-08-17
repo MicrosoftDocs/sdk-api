@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessioncontrol2_issystemsoundssession.htm
 old-project: CoreAudio
 ms.assetid: 9060f89c-83b1-433d-96e3-86ae4b1c7e7c
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/14/2018
 ms.keywords: IAudioSessionControl2 interface [Core Audio],IsSystemSoundsSession method, IAudioSessionControl2.IsSystemSoundsSession, IAudioSessionControl2::IsSystemSoundsSession, IsSystemSoundsSession, IsSystemSoundsSession method [Core Audio], IsSystemSoundsSession method [Core Audio],IAudioSessionControl2 interface, audiopolicy/IAudioSessionControl2::IsSystemSoundsSession, coreaudio.iaudiosessioncontrol2_issystemsoundssession
 ms.prod: windows
 ms.technology: windows-sdk

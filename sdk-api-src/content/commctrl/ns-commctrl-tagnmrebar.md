@@ -69,7 +69,7 @@ Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).asp
 
 ### -field dwMask
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
 
 Set of flags that define which members of this structure contain valid information. This can be one or more of the following values: 
 
@@ -117,14 +117,14 @@ The
 
 ### -field uBand
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Zero-based index of the band affected by the notification. This will be -1 if no band is affected. 
 
 
 ### -field fStyle
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 The style of the band. This is one or more of the RBBS_ styles detailed in the 
 					<b>fStyle</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb774393(v=VS.85).aspx">REBARBANDINFO</a> structure. This member is only valid if 
@@ -133,7 +133,7 @@ The style of the band. This is one or more of the RBBS_ styles detailed in the
 
 ### -field wID
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Application-defined identifier of the band. This member is only valid if 
 					<b>dwMask</b> contains RBNM_ID. 
@@ -141,7 +141,7 @@ Application-defined identifier of the band. This member is only valid if
 
 ### -field lParam
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPARAM</a></b>
 
 Application-defined value associated with the band. This member is only valid if 
 					<b>dwMask</b> contains RBNM_LPARAM. 

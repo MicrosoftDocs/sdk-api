@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_copysubresourceregion.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_copysubresourceregion.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 6ed5c759-9864-ef56-3e1a-e3f8ff730dff, CopySubresourceRegion, CopySubresourceRegion method [Direct3D 10], CopySubresourceRegion method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CopySubresourceRegion method, ID3D10Device.CopySubresourceRegion, ID3D10Device::CopySubresourceRegion, d3d10/ID3D10Device::CopySubresourceRegion, direct3d10.id3d10device_copysubresourceregion
 ms.prod: windows
 ms.technology: windows-sdk
@@ -144,7 +144,7 @@ If the resources are buffers, all coordinates are in bytes; if the resources are
 
 <ul>
 <li>Must be different subresources (although they can be from the same resource).</li>
-<li>Must be the same <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">type</a>.</li>
+<li>Must be the same <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">type</a>.</li>
 <li>Must have compatible <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">formats</a> (the formats must either be identical or be from the same type group). For example, a DXGI_FORMAT_R32G32B32_FLOAT texture can be copied to an DXGI_FORMAT_R32G32B32_UINT texture because both of these formats are in the DXGI_FORMAT_R32G32B32_TYPELESS group. Beginning with Direct3D 10.1, <b>CopySubresourceRegion</b> can copy between a few format types. For more info, see <a href="https://msdn.microsoft.com/en-us/library/Bb694531(v=VS.85).aspx">Format Conversion using Direct3D 10.1</a>.</li>
 <li>May not be currently <a href="https://msdn.microsoft.com/en-us/library/Bb205132(v=VS.85).aspx">mapped</a>.</li>
 </ul>

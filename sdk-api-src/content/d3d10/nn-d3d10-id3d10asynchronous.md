@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10asynchronous.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10asynchronous.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: ID3D10Asynchronous, ID3D10Asynchronous interface [Direct3D 10], ID3D10Asynchronous interface [Direct3D 10],described, bbcae8e9-6f10-e6ca-52e5-20302edce780, d3d10/ID3D10Asynchronous, direct3d10.id3d10asynchronous
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ This interface encapsulates methods for retrieving data from the GPU asynchronou
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Asynchronous</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb173529(v=VS.85).aspx">ID3D10DeviceChild</a>. <b>ID3D10Asynchronous</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -90,7 +90,7 @@ Ends the collection of GPU data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f8993ac8-3632-48d0-a583-08f117e8f587">GetData</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173503(v=VS.85).aspx">GetData</a>
 </td>
 <td align="left" width="63%">
 Get data from the GPU asynchronously.

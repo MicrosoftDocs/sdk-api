@@ -4,10 +4,10 @@ title: CertUnregisterSystemStore function
 author: windows-sdk-content
 description: The CertUnregisterSystemStore function unregisters a specified system store.
 old-location: security\certunregistersystemstore.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 958e4185-4c37-450c-abfc-91b95593227e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: CERT_STORE_DELETE_FLAG, CERT_SYSTEM_STORE_RELOCATE_FLAG, CertUnregisterSystemStore, CertUnregisterSystemStore function [Security], _crypto2_certunregistersystemstore, security.certunregistersystemstore, wincrypt/CertUnregisterSystemStore
 ms.prod: windows
 ms.technology: windows-sdk

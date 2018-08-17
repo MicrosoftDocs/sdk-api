@@ -4,10 +4,10 @@ title: CertRemoveEnhancedKeyUsageIdentifier function
 author: windows-sdk-content
 description: The CertRemoveEnhancedKeyUsageIdentifier function removes a usage identifier object identifier (OID) from the enhanced key usage (EKU) extended property of the certificate.
 old-location: security\certremoveenhancedkeyusageidentifier.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 4fb27073-674c-4bac-9a62-6e33e1a5785e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: CertRemoveEnhancedKeyUsageIdentifier, CertRemoveEnhancedKeyUsageIdentifier function [Security], _crypto2_certremoveenhancedkeyusageidentifier, security.certremoveenhancedkeyusageidentifier, wincrypt/CertRemoveEnhancedKeyUsageIdentifier
 ms.prod: windows
 ms.technology: windows-sdk

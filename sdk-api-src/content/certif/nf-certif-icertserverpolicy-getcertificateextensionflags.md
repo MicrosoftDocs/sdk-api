@@ -4,10 +4,10 @@ title: ICertServerPolicy::GetCertificateExtensionFlags
 author: windows-sdk-content
 description: Retrieves the flags associated with the extension acquired by the most recent call to GetCertificateExtension.
 old-location: security\icertserverpolicy_getcertificateextensionflags.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 6266e96d-81da-478f-99da-86936b4cfc6b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: CCertServerPolicy object [Security],GetCertificateExtensionFlags method, GetCertificateExtensionFlags, GetCertificateExtensionFlags method [Security], GetCertificateExtensionFlags method [Security],CCertServerPolicy object, GetCertificateExtensionFlags method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],GetCertificateExtensionFlags method, ICertServerPolicy.GetCertificateExtensionFlags, ICertServerPolicy::GetCertificateExtensionFlags, _certsrv_icertserverpolicy_getcertificateextensionflags, certif/ICertServerPolicy::GetCertificateExtensionFlags, security.icertserverpolicy_getcertificateextensionflags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.irql:
 
 
 The <b>GetCertificateExtensionFlags</b> method retrieves the  flags associated with the extension acquired by the most recent call to 
-<a href="https://msdn.microsoft.com/e2c8e1d5-6ddb-4c8f-8052-f45cd52e2bef">GetCertificateExtension</a>.
+<a href="https://msdn.microsoft.com/en-us/library/Aa385087(v=VS.85).aspx">GetCertificateExtension</a>.
 
 
 ## -parameters
@@ -71,12 +71,12 @@ A pointer to a <b>LONG</b> variable that contains the extension flags.
 
 
 <h3>C++</h3>
- If the method succeeds, the method returns S_OK, and the <i>pExtFlags</i> parameter contains the flags from the extension acquired by the most recent call to <a href="https://msdn.microsoft.com/e2c8e1d5-6ddb-4c8f-8052-f45cd52e2bef">GetCertificateExtension</a>.
+ If the method succeeds, the method returns S_OK, and the <i>pExtFlags</i> parameter contains the flags from the extension acquired by the most recent call to <a href="https://msdn.microsoft.com/en-us/library/Aa385087(v=VS.85).aspx">GetCertificateExtension</a>.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
 
 <h3>VB</h3>
- The return value is the flags from the extension acquired by the most recent call to <a href="https://msdn.microsoft.com/e2c8e1d5-6ddb-4c8f-8052-f45cd52e2bef">GetCertificateExtension</a>.
+ The return value is the flags from the extension acquired by the most recent call to <a href="https://msdn.microsoft.com/en-us/library/Aa385087(v=VS.85).aspx">GetCertificateExtension</a>.
 
 
 
@@ -85,7 +85,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-The <a href="https://msdn.microsoft.com/ba45cda8-49a5-4bd6-af68-90b4b56aff7d">SetContext</a> and <a href="https://msdn.microsoft.com/e2c8e1d5-6ddb-4c8f-8052-f45cd52e2bef">GetCertificateExtension</a> methods must be called before <b>GetCertificateExtensionFlags</b>. The <b>SetContext</b> method specifies which request is used as the current context, and the <b>GetCertificateExtension</b> method retrieves the extensions for the request.
+The <a href="https://msdn.microsoft.com/en-us/library/Aa385398(v=VS.85).aspx">SetContext</a> and <a href="https://msdn.microsoft.com/en-us/library/Aa385087(v=VS.85).aspx">GetCertificateExtension</a> methods must be called before <b>GetCertificateExtensionFlags</b>. The <b>SetContext</b> method specifies which request is used as the current context, and the <b>GetCertificateExtension</b> method retrieves the extensions for the request.
 
 Extensions can contain policy and origin flags. Policy flags provide information about the certificate extension. Policy flags can be set by the policy module. Origin flags indicate the module that set the certificate extension. Origin flags are only set by the server engine.
 
@@ -123,7 +123,7 @@ One of the following origin flags can also be returned.<table>
 <tr>
 <td>EXTENSION_ORIGIN_ADMIN</td>
 <td>The administrator set the extension. For more information, see 
-<a href="https://msdn.microsoft.com/d26061da-acc3-45d8-93de-f2d431d350a6">ICertAdmin::SetCertificateExtension</a>.</td>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383257(v=VS.85).aspx">ICertAdmin::SetCertificateExtension</a>.</td>
 </tr>
 <tr>
 <td>EXTENSION_ORIGIN_SERVER</td>
@@ -136,7 +136,7 @@ One of the following origin flags can also be returned.<table>
 <tr>
 <td>EXTENSION_ORIGIN_IMPORTEDCERT</td>
 <td>The extension was extracted from an imported certificate (the certificate was passed to 
-<a href="https://msdn.microsoft.com/b79a726e-5823-468b-869d-382e6fd73b44">ICertAdmin::ImportCertificate</a>).</td>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383245(v=VS.85).aspx">ICertAdmin::ImportCertificate</a>).</td>
 </tr>
 <tr>
 <td>EXTENSION_ORIGIN_PKCS7</td>
@@ -223,23 +223,23 @@ switch (ExtFlags &amp; EXTENSION_ORIGIN_MASK)
 
 
 
-<a href="https://msdn.microsoft.com/d26061da-acc3-45d8-93de-f2d431d350a6">ICertAdmin::SetCertificateExtension</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383257(v=VS.85).aspx">ICertAdmin::SetCertificateExtension</a>
 
 
 
-<a href="https://msdn.microsoft.com/7d16161e-9827-46a0-9989-30ebca792bb1">ICertServerPolicy</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385080(v=VS.85).aspx">ICertServerPolicy</a>
 
 
 
-<a href="https://msdn.microsoft.com/e2c8e1d5-6ddb-4c8f-8052-f45cd52e2bef">ICertServerPolicy::GetCertificateExtension</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385087(v=VS.85).aspx">ICertServerPolicy::GetCertificateExtension</a>
 
 
 
-<a href="https://msdn.microsoft.com/ba45cda8-49a5-4bd6-af68-90b4b56aff7d">ICertServerPolicy::SetContext</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385398(v=VS.85).aspx">ICertServerPolicy::SetContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/c175eba9-ea7c-4018-876a-2db732cb57c4">IEnumCERTVIEWEXTENSION::GetFlags</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa386208(v=VS.85).aspx">IEnumCERTVIEWEXTENSION::GetFlags</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: security\editsecurity.htm
 old-project: secauthz
 ms.assetid: 756c94b0-946f-47eb-b4b4-db3e6e89fe46
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: EditSecurity, EditSecurity function [Security], _win32_editsecurity, aclui/EditSecurity, security.editsecurity
 ms.prod: windows
 ms.technology: windows-sdk

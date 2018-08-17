@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10rasterizerstate.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10rasterizerstate.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: ID3D10RasterizerState, ID3D10RasterizerState interface [Direct3D 10], ID3D10RasterizerState interface [Direct3D 10],described, ce1e96e6-707f-1c9e-1985-3b3acefd307f, d3d10/ID3D10RasterizerState, direct3d10.id3d10rasterizerstate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ A rasterizer-state interface accesses rasterizer state for the <a href="https://
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10RasterizerState</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb173529(v=VS.85).aspx">ID3D10DeviceChild</a>. <b>ID3D10RasterizerState</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members

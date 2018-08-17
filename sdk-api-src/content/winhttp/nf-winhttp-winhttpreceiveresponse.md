@@ -7,7 +7,7 @@ old-location: http\winhttpreceiveresponse.htm
 old-project: winhttp
 ms.assetid: 0b79e73b-9f6a-42eb-9108-1ba142ad7c48
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/09/2018
 ms.keywords: WinHttpReceiveResponse, WinHttpReceiveResponse function [WinHTTP], http.winhttpreceiveresponse, winhttp.winhttpreceiveresponse_function, winhttp/WinHttpReceiveResponse
 ms.prod: windows
 ms.technology: windows-sdk

@@ -61,20 +61,15 @@ The <b>DsGetSiteName</b> function returns the name of the site where a computer 
 
 
 
-### -param OPTIONAL
+### -param ComputerName [in]
 
-TBD
+Pointer to a null-terminated string that specifies the name of the server to send this function. A <b>NULL</b> implies the local computer.
 
 
 ### -param SiteName [out]
 
 Pointer to a variable that receives a pointer to a null-terminated string specifying the site location of this computer. This string is allocated by the system and must be freed using the 
 <a href="https://msdn.microsoft.com/0e99483c-8cd7-402a-8bf6-1e0118764dd3">NetApiBufferFree</a> function.
-
-
-#### - ComputerName [in]
-
-Pointer to a null-terminated string that specifies the name of the server to send this function. A <b>NULL</b> implies the local computer.
 
 
 ## -returns

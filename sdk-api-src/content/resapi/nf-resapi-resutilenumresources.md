@@ -53,7 +53,7 @@ req.product: ADAM
 
 
 Enumerates all of the <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resources</a> in the local 
-    <a href="c_gly.htm">cluster</a> and initiates a user-defined operation for each 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> and initiates a user-defined operation for each 
     resource. The <b>PRESUTIL_ENUM_RESOURCES</b> type defines a pointer to this function.
 
 

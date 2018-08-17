@@ -61,9 +61,13 @@ The
 
 
 
-### -param OPTIONAL
+### -param servername [in]
 
-TBD
+A pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used. 
+
+
+
+					
 
 
 ### -param groupname [in]
@@ -117,15 +121,6 @@ A pointer to the buffer that contains the data. For more information, see
 ### -param totalentries [in]
 
 The number of entries in the buffer pointed to by the <i>buf</i> parameter.
-
-
-#### - servername [in]
-
-A pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used. 
-
-
-
-					
 
 
 ## -returns

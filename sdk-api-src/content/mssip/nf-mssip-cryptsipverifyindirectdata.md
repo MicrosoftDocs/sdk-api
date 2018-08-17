@@ -4,10 +4,10 @@ title: CryptSIPVerifyIndirectData function
 author: windows-sdk-content
 description: Validates the indirect hashed data against the supplied subject.
 old-location: security\cryptsipverifyindirectdata.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 137b8858-a31f-4ef6-96bd-c5e26ae7b3e8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: CryptSIPVerifyIndirectData, CryptSIPVerifyIndirectData function [Security], mssip/CryptSIPVerifyIndirectData, security.cryptsipverifyindirectdata
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: base\symfromindex.htm
 old-project: debug
 ms.assetid: 84e94edd-2874-4b57-89eb-18b01dac91f4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: SymFromIndex, SymFromIndex function, SymFromIndexW, base.symfromindex, dbghelp/SymFromIndex, dbghelp/SymFromIndexW
 ms.prod: windows
 ms.technology: windows-sdk

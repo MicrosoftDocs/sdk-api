@@ -7,7 +7,7 @@ old-location: security\iazscope2_createroleassignment.htm
 old-project: secauthz
 ms.assetid: 98cb412b-9742-4f94-a470-61e675f6b253
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: CreateRoleAssignment, CreateRoleAssignment method [Security], CreateRoleAssignment method [Security],IAzScope2 interface, IAzScope2 interface [Security],CreateRoleAssignment method, IAzScope2.CreateRoleAssignment, IAzScope2::CreateRoleAssignment, azroles/IAzScope2::CreateRoleAssignment, security.iazscope2_createroleassignment
 ms.prod: windows
 ms.technology: windows-sdk

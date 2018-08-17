@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/B6E24036-1548-4B9E-A8FE-8B87D4DBF97A">Spot-specular lighting effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh706371(v=VS.85).aspx">Spot-specular lighting effect</a>.
         
 
 
@@ -161,7 +161,7 @@ The default value is {1.0f, 1.0f}.
 The interpolation mode the effect uses to scale the image to the corresponding kernel unit length. There are six scale modes that range in quality and speed.
             
 
-The type is <a href="https://msdn.microsoft.com/6E99B62F-CDEE-4612-824E-94FE232490DF">D2D1_SPOTSPECULAR_SCALE_MODE</a>.
+The type is <a href="https://msdn.microsoft.com/en-us/library/Dn934267(v=VS.85).aspx">D2D1_SPOTSPECULAR_SCALE_MODE</a>.
 
 The default value is D2D1_SPOTSPECULAR_SCALE_MODE_LINEAR.
 

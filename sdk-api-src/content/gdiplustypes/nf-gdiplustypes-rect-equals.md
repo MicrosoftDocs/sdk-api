@@ -95,7 +95,7 @@ Two rectangles are the same if their
 
 
 The following example creates two 
-						<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a> objects, moves the second 
+						<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a> objects, moves the second 
 						<b>Rect</b> object horizontally by a specified value, and then determines whether the two 
 						<b>Rect</b> objects are the same.
 
@@ -129,7 +129,7 @@ if(rect2.Equals(rect1))
 
 
 
-<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a>
 
 
 

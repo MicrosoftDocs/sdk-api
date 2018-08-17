@@ -4,10 +4,10 @@ title: IEnroll::get_RenewalCertificate
 author: windows-sdk-content
 description: Specifies the certificate context for the renewal certificate.
 old-location: security\ienroll4_renewalcertificate.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 9806cd48-0d95-420b-aa26-0175dd95da46
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: IEnroll interface [Security],RenewalCertificate property, IEnroll.RenewalCertificate, IEnroll.get_RenewalCertificate, IEnroll::RenewalCertificate, IEnroll::get_RenewalCertificate, IEnroll::put_RenewalCertificate, RenewalCertificate property [Security], RenewalCertificate property [Security],IEnroll interface, get_RenewalCertificate, security.ienroll4_renewalcertificate, xenroll/IEnroll::RenewalCertificate, xenroll/IEnroll::get_RenewalCertificate, xenroll/IEnroll::put_RenewalCertificate
 ms.prod: windows
 ms.technology: windows-sdk

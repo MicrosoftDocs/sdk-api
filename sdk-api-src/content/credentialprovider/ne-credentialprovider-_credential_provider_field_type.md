@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Specifies a type of credential field. Used by <a href="https://msdn.microsoft.com/8409b4b7-c601-4e85-95f9-4272feb29028">CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR</a>.
+Specifies a type of credential field. Used by <a href="https://msdn.microsoft.com/en-us/library/Bb773243(v=VS.85).aspx">CREDENTIAL_PROVIDER_FIELD_DESCRIPTOR</a>.
 
 
 ## -enum-fields
@@ -76,7 +76,7 @@ A stand-alone text label is drawn in the smaller of two font sizes.
 
 ### -field CPFT_COMMAND_LINK
 
-An uneditable string that a user may click to perform an action. The credential provider is informed of the user's click, and then performs the requested action. Use <a href="https://msdn.microsoft.com/04e371cb-f968-4a15-9285-e676dff59899">CommandLinkClicked</a> in your credential provider to respond to the click.
+An uneditable string that a user may click to perform an action. The credential provider is informed of the user's click, and then performs the requested action. Use <a href="https://msdn.microsoft.com/en-us/library/Bb776020(v=VS.85).aspx">CommandLinkClicked</a> in your credential provider to respond to the click.
 
 
 ### -field CPFT_EDIT_TEXT

@@ -4,10 +4,10 @@ title: ICertSrvSetupKeyInformation::get_Length
 author: windows-sdk-content
 description: Gets or sets the strength of the key to one of the values supported by the cryptographic service provider (CSP).
 old-location: security\icertsrvsetupkeyinformation_length.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 4d641bc4-7b27-48b0-bff1-bb49359ec5f1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: ICertSrvSetupKeyInformation interface [Security],Length property, ICertSrvSetupKeyInformation.Length, ICertSrvSetupKeyInformation.get_Length, ICertSrvSetupKeyInformation::Length, ICertSrvSetupKeyInformation::get_Length, ICertSrvSetupKeyInformation::put_Length, Length property [Security], Length property [Security],ICertSrvSetupKeyInformation interface, casetup/ICertSrvSetupKeyInformation::Length, casetup/ICertSrvSetupKeyInformation::get_Length, casetup/ICertSrvSetupKeyInformation::put_Length, get_Length, security.icertsrvsetupkeyinformation_length
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.irql:
 ## -description
 
 
-The <b>Length</b> property gets or sets the strength of the key to one of the values supported by the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP).
+The <b>Length</b> property gets or sets the strength of the key to one of the values supported by the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">cryptographic service provider</a> (CSP).
 
 This property is read/write.
 
@@ -66,7 +66,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/d27c9ba5-ddee-4c9c-b812-e61b974b515a">ICertSrvSetupKeyInformation</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb736372(v=VS.85).aspx">ICertSrvSetupKeyInformation</a>
  
 
  

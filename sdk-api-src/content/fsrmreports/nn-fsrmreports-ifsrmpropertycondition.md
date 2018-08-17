@@ -95,7 +95,7 @@ Removes this property condition from the collection of property conditions speci
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/45efc964-9632-434a-a4ae-93a65fcb2951">Name</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd392473(v=VS.85).aspx">Name</a>
 
 
 </td>
@@ -111,7 +111,7 @@ The name of the classification property whose value you want to compare to the p
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/2cec0753-20ec-4df4-9a74-c65bfed28070">Type</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd392474(v=VS.85).aspx">Type</a>
 
 
 </td>
@@ -127,7 +127,7 @@ The comparison operator used to determine whether property condition is met.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/51316f3b-ca69-4e0c-936c-8cafc0e2b1b7">Value</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd392475(v=VS.85).aspx">Value</a>
 
 
 </td>
@@ -147,7 +147,7 @@ The property condition's value.
 
 
 
-The property condition specifies the classification property in the file to test. When the file management job runs, it gets the value of the classification property and uses the comparison operator to compare the value of the specified classification property (see the <a href="https://msdn.microsoft.com/45efc964-9632-434a-a4ae-93a65fcb2951">Name</a> property) to the condition's value (see the <a href="https://msdn.microsoft.com/51316f3b-ca69-4e0c-936c-8cafc0e2b1b7">Value</a> property). If this condition  and all the other specified conditions for the job are met, FSRM can expire the file or call the custom action if it is defined.
+The property condition specifies the classification property in the file to test. When the file management job runs, it gets the value of the classification property and uses the comparison operator to compare the value of the specified classification property (see the <a href="https://msdn.microsoft.com/en-us/library/Dd392473(v=VS.85).aspx">Name</a> property) to the condition's value (see the <a href="https://msdn.microsoft.com/en-us/library/Dd392475(v=VS.85).aspx">Value</a> property). If this condition  and all the other specified conditions for the job are met, FSRM can expire the file or call the custom action if it is defined.
 
 
 

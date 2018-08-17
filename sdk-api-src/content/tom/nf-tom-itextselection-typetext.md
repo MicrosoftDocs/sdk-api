@@ -124,9 +124,9 @@ Out of memory.
 
 
 
-This method types the string given by <i>bstr</i> at this selection as if someone typed it. Using <b>TypeText</b> is faster than sending characters through the <a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a>function, but it is slower than using <a href="https://msdn.microsoft.com/en-us/library/Bb787831(v=VS.85).aspx">SetText</a>. 
+This method types the string given by <i>bstr</i> at this selection as if someone typed it. Using <b>TypeText</b> is faster than sending characters through the <a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a>function, but it is slower than using <a href="https://msdn.microsoft.com/en-us/library/Bb787831(v=VS.85).aspx">SetText</a>. 
 
-<b>TypeText</b> is similar to the underlying <a href="https://msdn.microsoft.com/en-us/library/Bb787831(v=VS.85).aspx">SetText</a> method, however, it is sensitive to the Insert/Overtype key state and UI settings like AutoCorrect and smart quotes. For example, it deletes any nondegenerate selection and then inserts or overtypes (depending on the Insert/Overtype key state—see the <a href="https://msdn.microsoft.com/e4b96d2a-2e75-4459-9a6e-5e0483926ce1">SetFlags</a> method) the string <i>bstr</i> at the insertion point, leaving this selection as an insertion point following the inserted text. 
+<b>TypeText</b> is similar to the underlying <a href="https://msdn.microsoft.com/en-us/library/Bb787831(v=VS.85).aspx">SetText</a> method, however, it is sensitive to the Insert/Overtype key state and UI settings like AutoCorrect and smart quotes. For example, it deletes any nondegenerate selection and then inserts or overtypes (depending on the Insert/Overtype key state—see the <a href="https://msdn.microsoft.com/en-us/library/Bb774143(v=VS.85).aspx">SetFlags</a> method) the string <i>bstr</i> at the insertion point, leaving this selection as an insertion point following the inserted text. 
 
 
 
@@ -152,11 +152,11 @@ This method types the string given by <i>bstr</i> at this selection as if someon
 
 
 
-<a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/e4b96d2a-2e75-4459-9a6e-5e0483926ce1">SetFlags</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774143(v=VS.85).aspx">SetFlags</a>
 
 
 

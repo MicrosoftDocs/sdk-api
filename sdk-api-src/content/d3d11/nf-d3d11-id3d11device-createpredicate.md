@@ -62,9 +62,9 @@ Creates a predicate.
 
 ### -param pPredicateDesc [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/2ed8e380-744b-41e1-87c8-9c7e8100ea2f">D3D11_QUERY_DESC</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Ff476195(v=VS.85).aspx">D3D11_QUERY_DESC</a>*</b>
 
-Pointer to a query description where the type of query must be a D3D11_QUERY_SO_OVERFLOW_PREDICATE or D3D11_QUERY_OCCLUSION_PREDICATE (see <a href="https://msdn.microsoft.com/2ed8e380-744b-41e1-87c8-9c7e8100ea2f">D3D11_QUERY_DESC</a>).
+Pointer to a query description where the type of query must be a D3D11_QUERY_SO_OVERFLOW_PREDICATE or D3D11_QUERY_OCCLUSION_PREDICATE (see <a href="https://msdn.microsoft.com/en-us/library/Ff476195(v=VS.85).aspx">D3D11_QUERY_DESC</a>).
 
 
 ### -param ppPredicate [out, optional]
@@ -80,7 +80,7 @@ Address of a pointer to a predicate (see <a href="https://msdn.microsoft.com/ad1
 
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
+This method returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Ff476174(v=VS.85).aspx">Direct3D 11 Return Codes</a>.
 
 
 
@@ -90,7 +90,7 @@ This method returns one of the following <a href="https://msdn.microsoft.com/c08
 
 
 
-<a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476379(v=VS.85).aspx">ID3D11Device</a>
  
 
  

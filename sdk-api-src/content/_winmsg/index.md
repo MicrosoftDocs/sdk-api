@@ -2,7 +2,7 @@
 UID: TP:winmsg
 ms.assetid: afb81356-945b-37d0-8a33-e69b5d192770
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

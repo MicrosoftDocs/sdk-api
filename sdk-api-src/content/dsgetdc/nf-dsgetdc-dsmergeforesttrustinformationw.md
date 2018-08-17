@@ -70,9 +70,10 @@ Pointer to an <b>LSA_FOREST_TRUST_INFORMATION</b> structure that contains the ne
         The <b>Flags</b> and <b>Time</b> members of the entries are ignored.
 
 
-### -param OPTIONAL
+### -param OldForestTrustInfo [in, optional]
 
-TBD
+Pointer to an <b>LSA_FOREST_TRUST_INFORMATION</b> structure that contains the old forest trust data to be merged.
+        This parameter may be <b>NULL</b> if no records exist.
 
 
 ### -param MergedForestTrustInfo [out]
@@ -80,12 +81,6 @@ TBD
 Pointer to an <b>LSA_FOREST_TRUST_INFORMATION</b> structure pointer that receives the merged forest trust data.
 
 The caller must free this structure when it is no longer required by calling <a href="https://msdn.microsoft.com/0e99483c-8cd7-402a-8bf6-1e0118764dd3">NetApiBufferFree</a>.
-
-
-#### - OldForestTrustInfo [in, optional]
-
-Pointer to an <b>LSA_FOREST_TRUST_INFORMATION</b> structure that contains the old forest trust data to be merged.
-        This parameter may be <b>NULL</b> if no records exist.
 
 
 ## -returns

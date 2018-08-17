@@ -7,7 +7,7 @@ old-location: security\authz_rpc_init_info_client.htm
 old-project: secauthz
 ms.assetid: 6859A0CB-F88E-42BF-A350-293D28E908DD
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: "*PAUTHZ_RPC_INIT_INFO_CLIENT, AUTHZ_RPC_INIT_INFO_CLIENT, AUTHZ_RPC_INIT_INFO_CLIENT structure [Security], PAUTHZ_RPC_INIT_INFO_CLIENT, PAUTHZ_RPC_INIT_INFO_CLIENT structure pointer [Security], _AUTHZ_RPC_INIT_INFO_CLIENT, authz/AUTHZ_RPC_INIT_INFO_CLIENT, authz/PAUTHZ_RPC_INIT_INFO_CLIENT, security.authz_rpc_init_info_client"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -74,7 +74,7 @@ The <b>IDXGIDevice</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d0effc0a-0ec9-4350-ac44-c64c29984a02">CreateSurface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174530(v=VS.85).aspx">CreateSurface</a>
 </td>
 <td align="left" width="63%">
 Returns a surface. This method is used internally and you should not call it directly in your application.

@@ -63,9 +63,53 @@ The <b>DsGetDcName</b> function returns the name of a
 
 
 
-### -param OPTIONAL
+### -param ComputerName [in]
 
-TBD
+Pointer to a null-terminated string that specifies the name of the server to process this function. 
+      Typically, this parameter is <b>NULL</b>, which indicates that the local computer is 
+      used.
+
+
+### -param DomainName [in]
+
+Pointer to a null-terminated string that specifies the name of the domain or application partition to 
+       query. This name can either be a DNS style name, for example, fabrikam.com, or a flat-style name, for example, 
+       Fabrikam. If a DNS style name is specified, the name may be specified with or without a trailing period.
+
+If the <i>Flags</i> parameter contains the <b>DS_GC_SERVER_REQUIRED</b> 
+       flag, <i>DomainName</i> must be the name of the forest. In this case, 
+       <b>DsGetDcName</b> fails if <i>DomainName</i> 
+       specifies a name that is not the forest root.
+
+If the <i>Flags</i> parameter contains 
+       the <b>DS_GC_SERVER_REQUIRED</b> flag and <i>DomainName</i> is 
+       <b>NULL</b>, <b>DsGetDcName</b> attempts to 
+       find a global catalog in the forest of the computer identified by <i>ComputerName</i>, which 
+       is the local computer if <i>ComputerName</i> is <b>NULL</b>.
+
+If <i>DomainName</i> is <b>NULL</b> and the 
+       <i>Flags</i> parameter does not contain the <b>DS_GC_SERVER_REQUIRED</b> 
+       flag, <i>ComputerName</i> is set to the default domain name of the primary domain of the 
+       computer identified by <i>ComputerName</i>.
+
+
+### -param DomainGuid [in]
+
+Pointer to a <a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a> structure that specifies the 
+    <b>GUID</b> of the domain queried. If <i>DomainGuid</i> is not 
+  <b>NULL</b> and the domain specified by <i>DomainName</i> or 
+  <i>ComputerName</i> cannot be found, 
+  <b>DsGetDcName</b> attempts to locate a domain controller in the 
+      domain having the GUID specified by <i>DomainGuid</i>.
+
+
+### -param SiteName [in]
+
+Pointer to a null-terminated string that specifies the name of the site where the returned domain 
+      controller should physically exist. If this parameter is <b>NULL</b>, 
+      <b>DsGetDcName</b> attempts to return a domain controller in the 
+      site closest to the site of the computer specified by <i>ComputerName</i>. This parameter 
+      should be <b>NULL</b>, by default.
 
 
 ### -param Flags [in]
@@ -298,55 +342,6 @@ Pointer to a <b>PDOMAIN_CONTROLLER_INFO</b> value that receives a pointer to a
       <b>DsGetDcName</b>. The caller must free the structure using the 
       <a href="https://msdn.microsoft.com/0e99483c-8cd7-402a-8bf6-1e0118764dd3">NetApiBufferFree</a> function when it is no longer 
       required.
-
-
-#### - ComputerName [in]
-
-Pointer to a null-terminated string that specifies the name of the server to process this function. 
-      Typically, this parameter is <b>NULL</b>, which indicates that the local computer is 
-      used.
-
-
-#### - DomainGuid [in]
-
-Pointer to a <a href="https://msdn.microsoft.com/323e33b7-676f-4ed0-a9c7-908273c6e10f">GUID</a> structure that specifies the 
-    <b>GUID</b> of the domain queried. If <i>DomainGuid</i> is not 
-  <b>NULL</b> and the domain specified by <i>DomainName</i> or 
-  <i>ComputerName</i> cannot be found, 
-  <b>DsGetDcName</b> attempts to locate a domain controller in the 
-      domain having the GUID specified by <i>DomainGuid</i>.
-
-
-#### - DomainName [in]
-
-Pointer to a null-terminated string that specifies the name of the domain or application partition to 
-       query. This name can either be a DNS style name, for example, fabrikam.com, or a flat-style name, for example, 
-       Fabrikam. If a DNS style name is specified, the name may be specified with or without a trailing period.
-
-If the <i>Flags</i> parameter contains the <b>DS_GC_SERVER_REQUIRED</b> 
-       flag, <i>DomainName</i> must be the name of the forest. In this case, 
-       <b>DsGetDcName</b> fails if <i>DomainName</i> 
-       specifies a name that is not the forest root.
-
-If the <i>Flags</i> parameter contains 
-       the <b>DS_GC_SERVER_REQUIRED</b> flag and <i>DomainName</i> is 
-       <b>NULL</b>, <b>DsGetDcName</b> attempts to 
-       find a global catalog in the forest of the computer identified by <i>ComputerName</i>, which 
-       is the local computer if <i>ComputerName</i> is <b>NULL</b>.
-
-If <i>DomainName</i> is <b>NULL</b> and the 
-       <i>Flags</i> parameter does not contain the <b>DS_GC_SERVER_REQUIRED</b> 
-       flag, <i>ComputerName</i> is set to the default domain name of the primary domain of the 
-       computer identified by <i>ComputerName</i>.
-
-
-#### - SiteName [in]
-
-Pointer to a null-terminated string that specifies the name of the site where the returned domain 
-      controller should physically exist. If this parameter is <b>NULL</b>, 
-      <b>DsGetDcName</b> attempts to return a domain controller in the 
-      site closest to the site of the computer specified by <i>ComputerName</i>. This parameter 
-      should be <b>NULL</b>, by default.
 
 
 ## -returns

@@ -65,7 +65,7 @@ The <b>Rect::GetBounds</b> method makes a copy of this rectangle.
 Type: <b>Rect*</b>
 
 Pointer to a 
-					<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a> object that receives the copy of this rectangle. 
+					<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a> object that receives the copy of this rectangle. 
 
 
 ## -returns
@@ -86,7 +86,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: security\iazapplication_deletepolicyadministrator.htm
 old-project: secauthz
 ms.assetid: 240dbfbc-ae0f-4a8e-9cbc-b58efb258ad5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: AzApplication object [Security],DeletePolicyAdministrator method, DeletePolicyAdministrator, DeletePolicyAdministrator method [Security], DeletePolicyAdministrator method [Security],AzApplication object, DeletePolicyAdministrator method [Security],IAzApplication interface, IAzApplication interface [Security],DeletePolicyAdministrator method, IAzApplication.DeletePolicyAdministrator, IAzApplication::DeletePolicyAdministrator, azroles/IAzApplication::DeletePolicyAdministrator, security.iazapplication_deletepolicyadministrator
 ms.prod: windows
 ms.technology: windows-sdk

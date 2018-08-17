@@ -119,7 +119,7 @@ The return value specifies the result of the message processing and depends on t
 
 The <b>SendDlgItemMessage</b> function does not return until the message has been processed. 
 
-Using <b>SendDlgItemMessage</b> is identical to retrieving a handle to the specified control and calling the <a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a> function. 
+Using <b>SendDlgItemMessage</b> is identical to retrieving a handle to the specified control and calling the <a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a> function. 
 
 
 #### Examples
@@ -147,7 +147,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644996(v
 
 
 
-<a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a>
  
 
  

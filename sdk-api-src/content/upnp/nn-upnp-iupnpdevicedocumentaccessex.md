@@ -4,10 +4,10 @@ title: IUPnPDeviceDocumentAccessEx
 author: windows-sdk-content
 description: Provides a method to obtain the entire XML device description document for a specific device.
 old-location: upnp\iupnpdevicedocumentaccessex.htm
-old-project: upnp
+old-project: UPnP
 ms.assetid: 9ea79bbb-3841-4704-9606-56fcd2f8bf89
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/15/2018
 ms.keywords: IUPnPDeviceDocumentAccessEx, IUPnPDeviceDocumentAccessEx interface [UPnP APIs], IUPnPDeviceDocumentAccessEx interface [UPnP APIs],described, upnp.iupnpdevicedocumentaccessex, upnp/IUPnPDeviceDocumentAccessEx
 ms.prod: windows
 ms.technology: windows-sdk

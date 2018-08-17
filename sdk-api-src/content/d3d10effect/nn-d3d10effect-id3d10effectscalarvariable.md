@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectscalarvariable.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectscalarvariable.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 0954ac9f-acd1-fb91-e361-0b5644656816, ID3D10EffectScalarVariable, ID3D10EffectScalarVariable interface [Direct3D 10], ID3D10EffectScalarVariable interface [Direct3D 10],described, d3d10effect/ID3D10EffectScalarVariable, direct3d10.id3d10effectscalarvariable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,7 +72,7 @@ The <b>ID3D10EffectScalarVariable</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/86f4952f-f6c5-4e81-b078-613123ae1fe1">GetBool</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173681(v=VS.85).aspx">GetBool</a>
 </td>
 <td align="left" width="63%">
 Get a boolean variable.
@@ -126,7 +126,7 @@ Get an array of integer variables.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/83a5056c-08cd-4199-a150-d5403bdbf4b1">SetBool</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173687(v=VS.85).aspx">SetBool</a>
 </td>
 <td align="left" width="63%">
 Set a boolean variable.

@@ -4,10 +4,10 @@ title: View::IsSelected
 author: windows-sdk-content
 description: The IsSelected method returns whether the specified node is selected.
 old-location: mmc\view_isselected.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: afce77e6-ed5b-4151-9965-80ed70af5772
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/14/2018
 ms.keywords: IsSelected, IsSelected method [MMC], IsSelected method [MMC],View interface, IsSelected method [MMC],View object, View interface [MMC],IsSelected method, View object [MMC],IsSelected method, View.IsSelected, View::IsSelected, _slate_view.isselected_method, mmc.view_isselected
 ms.prod: windows
 ms.technology: windows-sdk

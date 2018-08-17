@@ -82,7 +82,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms686042(v=VS.85).aspx">IF
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7fd645f1-9162-46ea-89a9-0888d86ec187">Save</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684815(v=VS.85).aspx">Save</a>
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms684815(v=VS.85).aspx">IFaxInboundRoutingMethod::Save</a> method saves the <b>IFaxInboundRoutingMethod</b> interface's data.
@@ -148,7 +148,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms686911(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/bb6d674d-d506-4c9e-8858-c9ce40912d72">GUID</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686469(v=VS.85).aspx">GUID</a>
 
 
 </td>
@@ -164,7 +164,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms686469(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/920f4b67-b216-4056-a109-36ed5d8bc556">Name</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms685341(v=VS.85).aspx">Name</a>
 
 
 </td>

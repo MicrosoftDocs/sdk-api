@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effect.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effect.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 8f18434d-7574-2504-c371-767566771aca, ID3D10Effect, ID3D10Effect interface [Direct3D 10], ID3D10Effect interface [Direct3D 10],described, d3d10effect/ID3D10Effect, direct3d10.id3d10effect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -99,7 +99,7 @@ Get an effect description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/122496c3-1de7-4ae6-9272-724c368e0965">GetDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173764(v=VS.85).aspx">GetDevice</a>
 </td>
 <td align="left" width="63%">
 Get the device that created the effect.

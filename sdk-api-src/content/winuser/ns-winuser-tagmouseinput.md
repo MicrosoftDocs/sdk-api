@@ -344,7 +344,7 @@ The system applies two tests to the specified relative mouse movement. If the sp
 
 
 
-<a href="https://msdn.microsoft.com/733638f6-e9a0-497d-af70-3b70c8c1193c">INPUT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646270(v=VS.85).aspx">INPUT</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: security\reggetkeysecurity.htm
 old-project: secauthz
 ms.assetid: 26bd8f89-9241-4c13-a214-c2b276d68c92
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: RegGetKeySecurity, RegGetKeySecurity function [Security], _win32_reggetkeysecurity, security.reggetkeysecurity, winreg/RegGetKeySecurity
 ms.prod: windows
 ms.technology: windows-sdk

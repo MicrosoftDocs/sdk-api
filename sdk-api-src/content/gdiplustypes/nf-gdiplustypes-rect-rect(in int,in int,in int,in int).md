@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a> object whose x-coordinate, y-coordinate, width, and height are all zero. This is the default constructor. 
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a> object whose x-coordinate, y-coordinate, width, and height are all zero. This is the default constructor. 
 
 
 ## -parameters
@@ -91,7 +91,7 @@ Creates a <a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3
 
 
 
-<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a>
 
 
 

@@ -133,7 +133,7 @@ Most property descriptions specify the type that their values are expected to us
 
 It is important to note that if this method fails, it will have already called the <a href="https://msdn.microsoft.com/en-us/library/ms712573(v=VS.85).aspx">PropVariantClear</a> on the input <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure. Only if this method succeeds is the calling application responsible for calling the <b>PropVariantClear</b> on <i>ppropvar</i> when the structure is no longer needed.
 
-The coercion performed by this method is also performed by the property system during  <a href="shell.IPropertyStore_GetValue">IPropertyStore::GetValue</a>  and <a href="shell.IPropertyStore_SetValue">IPropertyStore::SetValue</a> calls. Applications may depend on the property system to perform the coercions, or may use this method to perform the coercion at a time of the application's choosing.
+The coercion performed by this method is also performed by the property system during  <a href="https://msdn.microsoft.com/en-us/library/Ff536962(v=VS.85).aspx">IPropertyStore::GetValue</a>  and <a href="https://msdn.microsoft.com/en-us/library/Ff536963(v=VS.85).aspx">IPropertyStore::SetValue</a> calls. Applications may depend on the property system to perform the coercions, or may use this method to perform the coercion at a time of the application's choosing.
 
 The coercion is performed in four steps, as follows:
                 

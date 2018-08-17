@@ -72,7 +72,7 @@ The <b>IITDatabase</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cdcc35f0-d629-4ca5-9342-945a88b49feb">Close</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms670031(v=VS.85).aspx">Close</a>
 </td>
 <td align="left" width="63%">
 Closes a database.
@@ -105,7 +105,7 @@ Retrieves a specified <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a37
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/39e38979-7680-418f-b4f5-9b6841953524">Open</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms670035(v=VS.85).aspx">Open</a>
 </td>
 <td align="left" width="63%">
 Opens a database.

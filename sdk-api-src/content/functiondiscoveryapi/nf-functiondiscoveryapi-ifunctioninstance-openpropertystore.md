@@ -87,7 +87,7 @@ The access mode to be assigned to the open stream.  For this method, the followi
 
 ### -param ppIPropertyStore [out]
 
-A pointer to an <a href="shell_IPropertyStore_cpp">IPropertyStore</a> interface pointer.
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a> interface pointer.
 
 
 ## -returns

@@ -183,7 +183,7 @@ D3DDisassemble11Trace walks the steps of a shader trace and outputs appropriate 
 
 
 
-<a href="https://msdn.microsoft.com/4acbd433-c28d-4630-aa0e-25f2fb5c32d0">Shader Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn933227(v=VS.85).aspx">Shader Functions</a>
  
 
  

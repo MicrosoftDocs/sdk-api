@@ -56,9 +56,9 @@ Enables a user interface control for a camera device..
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICameraUIControl</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ICameraUIControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICameraUIControl</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ICameraUIControl</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>ICameraUIControl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d1f73422-37e9-488e-92e6-8e8dd99af57f">Close</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh802724(v=VS.85).aspx">Close</a>
 </td>
 <td align="left" width="63%">
 Closes the user interface control.
@@ -80,7 +80,7 @@ Closes the user interface control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9ef05929-7292-4833-95e7-d420abb6cd43">GetActiveItem</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh802725(v=VS.85).aspx">GetActiveItem</a>
 </td>
 <td align="left" width="63%">
 Gets the active captured item.
@@ -89,7 +89,7 @@ Gets the active captured item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1037db43-58db-4131-9a7d-d392250e133a">GetCurrentViewType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh802726(v=VS.85).aspx">GetCurrentViewType</a>
 </td>
 <td align="left" width="63%">
 Gets the type of the current view.
@@ -98,7 +98,7 @@ Gets the type of the current view.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/572cbf23-b9b5-441c-9bde-55ef856397ca">GetSelectedItems</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh802727(v=VS.85).aspx">GetSelectedItems</a>
 </td>
 <td align="left" width="63%">
 Gets the selected items.
@@ -107,7 +107,7 @@ Gets the selected items.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/384b08e4-7683-43e1-b088-38455a0b956f">RemoveCapturedItem</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh802728(v=VS.85).aspx">RemoveCapturedItem</a>
 </td>
 <td align="left" width="63%">
 Removes  the captured item.
@@ -116,7 +116,7 @@ Removes  the captured item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/42bd87ab-8877-48cd-abc1-6fae2cb111aa">Resume</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh802729(v=VS.85).aspx">Resume</a>
 </td>
 <td align="left" width="63%">
 Simulates resume of the user interface control.
@@ -125,7 +125,7 @@ Simulates resume of the user interface control.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0426a6ce-9d3e-4ce1-8be8-5d216edc9f2f">Show</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh802730(v=VS.85).aspx">Show</a>
 </td>
 <td align="left" width="63%">
 Displays the user interface control for the camera.
@@ -134,7 +134,7 @@ Displays the user interface control for the camera.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/864333e6-b17f-4225-9302-4335556d0164">Suspend</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh802731(v=VS.85).aspx">Suspend</a>
 </td>
 <td align="left" width="63%">
 Simulates suspend of the user interface control.

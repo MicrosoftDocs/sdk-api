@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_checkcounter.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_checkcounter.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 16cb87e3-fdfa-0b39-e72e-a725642eb2ba, CheckCounter, CheckCounter method [Direct3D 10], CheckCounter method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CheckCounter method, ID3D10Device.CheckCounter, ID3D10Device::CheckCounter, d3d10/ID3D10Device::CheckCounter, direct3d10.id3d10device_checkcounter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,49 +76,49 @@ Pointer to the data type of a counter (see <a href="https://msdn.microsoft.com/e
 
 ### -param pActiveCounters [out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a>*</b>
 
 Pointer to the number of hardware counters that are needed for this counter type to be created. All instances of the same counter type use the same hardware counters.
 
 
 ### -param szName [out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPSTR</a></b>
 
 String to be filled with a brief name for the counter. May be <b>NULL</b> if the application is not interested in the name of the counter.
 
 
 ### -param pNameLength [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a>*</b>
 
 Length of the string returned to szName. Can be <b>NULL</b>.
 
 
 ### -param szUnits [out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPSTR</a></b>
 
 Name of the units a counter measures, provided the memory the pointer points to has enough room to hold the string. Can be <b>NULL</b>. The returned string will always be in English.
 
 
 ### -param pUnitsLength [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a>*</b>
 
 Length of the string returned to szUnits. Can be <b>NULL</b>.
 
 
 ### -param szDescription [out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPSTR</a></b>
 
 A description of the counter, provided the memory the pointer points to has enough room to hold the string. Can be <b>NULL</b>. The returned string will always be in English.
 
 
 ### -param pDescriptionLength [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a>*</b>
 
 Length of the string returned to szDescription. Can be <b>NULL</b>.
 

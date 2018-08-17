@@ -7,7 +7,7 @@ old-location: security\iazclientcontext_accesscheck.htm
 old-project: secauthz
 ms.assetid: 0bd16cdb-3dba-4656-b264-32e622732155
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: AccessCheck, AccessCheck method [Security], AccessCheck method [Security],AzClientContext object, AccessCheck method [Security],IAzClientContext interface, AzClientContext object [Security],AccessCheck method, IAzClientContext interface [Security],AccessCheck method, IAzClientContext.AccessCheck, IAzClientContext::AccessCheck, azroles/IAzClientContext::AccessCheck, security.iazclientcontext_accesscheck
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,17 +72,17 @@ A variant that contains either a <a href="https://msdn.microsoft.com/en-us/libra
 
 ### -param varOperations [in]
 
-The operations for which access by the client context is checked. This is a variant that contains either a <a href="https://msdn.microsoft.com/en-us/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> or the  JScript <a href="https://msdn.microsoft.com/library/k4h76zbx(v=VS.85).aspx">Array</a> object. Each element of the array holds a <b>VT_I2</b> or <b>VT_I4</b> that represents the <a href="https://msdn.microsoft.com/3466dea1-b005-40fc-87d1-29b5e033f6a0">OperationID</a> property of an <a href="https://msdn.microsoft.com/054fa4aa-70be-4618-a635-3941c830ea4e">IAzOperation</a> object in the <a href="https://msdn.microsoft.com/ea4a8a84-5003-44da-b75e-34da6bd898dd">IAzApplication</a> policy. 
+The operations for which access by the client context is checked. This is a variant that contains either a <a href="https://msdn.microsoft.com/en-us/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> or the  JScript <a href="https://msdn.microsoft.com/library/k4h76zbx(v=VS.85).aspx">Array</a> object. Each element of the array holds a <b>VT_I2</b> or <b>VT_I4</b> that represents the <a href="https://msdn.microsoft.com/en-us/library/Aa377910(v=VS.85).aspx">OperationID</a> property of an <a href="https://msdn.microsoft.com/en-us/library/Aa377899(v=VS.85).aspx">IAzOperation</a> object in the <a href="https://msdn.microsoft.com/en-us/library/Aa446684(v=VS.85).aspx">IAzApplication</a> policy. 
 
 
 ### -param varParameterNames [in, optional]
 
-The names of the parameters available to business rules (BizRules) through the <a href="https://msdn.microsoft.com/9c956eea-92a5-4da8-abe0-a5ab4e41ab85">AzBizRuleContext::GetParameter</a> method. This is a variant that contains either a <a href="https://msdn.microsoft.com/en-us/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> or the  JScript <a href="https://msdn.microsoft.com/library/k4h76zbx(v=VS.85).aspx">Array</a> object. Each element of the array holds a <b>VT_BSTR</b> that contains a parameter name. This array must be sorted alphabetically by the caller; the sort order is as defined by a case-sensitive <a href="https://msdn.microsoft.com/en-us/library/ms221006(v=VS.85).aspx">VarCmp</a>. The order of the <i>varParameterValues</i> array must match the order of this array. The default value is <b>VT_NULL</b>.
+The names of the parameters available to business rules (BizRules) through the <a href="https://msdn.microsoft.com/en-us/library/Aa376376(v=VS.85).aspx">AzBizRuleContext::GetParameter</a> method. This is a variant that contains either a <a href="https://msdn.microsoft.com/en-us/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> or the  JScript <a href="https://msdn.microsoft.com/library/k4h76zbx(v=VS.85).aspx">Array</a> object. Each element of the array holds a <b>VT_BSTR</b> that contains a parameter name. This array must be sorted alphabetically by the caller; the sort order is as defined by a case-sensitive <a href="https://msdn.microsoft.com/en-us/library/ms221006(v=VS.85).aspx">VarCmp</a>. The order of the <i>varParameterValues</i> array must match the order of this array. The default value is <b>VT_NULL</b>.
 
 
 ### -param varParameterValues [in, optional]
 
-The values of the parameters that are available to business rules (BizRules) through the <a href="https://msdn.microsoft.com/9c956eea-92a5-4da8-abe0-a5ab4e41ab85">AzBizRuleContext::GetParameter</a> method. This is a variant that contains either a <a href="https://msdn.microsoft.com/en-us/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> or the  JScript <a href="https://msdn.microsoft.com/library/k4h76zbx(v=VS.85).aspx">Array</a> object. Each element of the array holds a value that corresponds to an element in the <i>varParameterNames</i> array. The default value is <b>VT_NULL</b>. The entries in the array can hold any type except <b>VT_UNKNOWN</b> and <b>VT_DISPATCH</b>.
+The values of the parameters that are available to business rules (BizRules) through the <a href="https://msdn.microsoft.com/en-us/library/Aa376376(v=VS.85).aspx">AzBizRuleContext::GetParameter</a> method. This is a variant that contains either a <a href="https://msdn.microsoft.com/en-us/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> or the  JScript <a href="https://msdn.microsoft.com/library/k4h76zbx(v=VS.85).aspx">Array</a> object. Each element of the array holds a value that corresponds to an element in the <i>varParameterNames</i> array. The default value is <b>VT_NULL</b>. The entries in the array can hold any type except <b>VT_UNKNOWN</b> and <b>VT_DISPATCH</b>.
 
 
 ### -param varInterfaceNames [in, optional]
@@ -113,7 +113,7 @@ In  JScript, the returned <a href="https://msdn.microsoft.com/en-us/library/ms22
 
 If the method succeeds, the method returns NO_ERROR.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the status of the method, not the result of the access check. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the status of the method, not the result of the access check. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -128,7 +128,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the statu
 </dl>
 </td>
 <td width="60%">
-This error code can be returned if an Active Directory authorization store is used and the administration of the scope has been delegated. The task and role definitions within a delegated scope cannot have BizRules. If a task or role definition within a delegated scope contains a BizRule (this is possible if the store is corrupted), the <a href="https://msdn.microsoft.com/0bd16cdb-3dba-4656-b264-32e622732155">AccessCheck</a> method will fail.
+This error code can be returned if an Active Directory authorization store is used and the administration of the scope has been delegated. The task and role definitions within a delegated scope cannot have BizRules. If a task or role definition within a delegated scope contains a BizRule (this is possible if the store is corrupted), the <a href="https://msdn.microsoft.com/en-us/library/Aa377880(v=VS.85).aspx">AccessCheck</a> method will fail.
 
 </td>
 </tr>
@@ -154,7 +154,7 @@ The BizRule used to evaluate access contains a syntax error.
 
 
 
-If the <a href="https://msdn.microsoft.com/817b3693-b989-431c-a8b3-bdeeb0367dc6">RoleForAccessCheck</a> property is defined in the client context, the <b>AccessCheck</b> method will be performed only on that role.
+If the <a href="https://msdn.microsoft.com/en-us/library/Aa377884(v=VS.85).aspx">RoleForAccessCheck</a> property is defined in the client context, the <b>AccessCheck</b> method will be performed only on that role.
 
 When this method is called, the application group membership is added to the client context so that it does not need to be recomputed for subsequent access checks on the same client context.
 

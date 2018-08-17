@@ -101,7 +101,7 @@ Creates a new <b>Point</b> object and copies the data members from another <b>Po
 </td>
 <td align="left" width="63%">
 Creates a <b>Point</b> object using a 
-			<a href="https://msdn.microsoft.com/d5be390d-11c7-47e3-8cd0-335fb6b031fd">Size</a> object to initialize the 
+			<a href="https://msdn.microsoft.com/en-us/library/ms534504(v=VS.85).aspx">Size</a> object to initialize the 
 			<b>X</b> and 
 			<b>Y</b> data members.
 

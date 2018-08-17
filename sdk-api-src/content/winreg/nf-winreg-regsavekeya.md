@@ -4,10 +4,10 @@ title: RegSaveKeyA function
 author: windows-sdk-content
 description: Saves the specified key and all of its subkeys and values to a new file, in the standard format.
 old-location: base\regsavekey.htm
-old-project: SysInfo
+old-project: sysinfo
 ms.assetid: da80f40d-0099-4748-94ca-5d3b001e633e
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/10/2018
 ms.keywords: RegSaveKey, RegSaveKey function, RegSaveKeyA, RegSaveKeyW, _win32_regsavekey, base.regsavekey, winreg/RegSaveKey, winreg/RegSaveKeyA, winreg/RegSaveKeyW
 ms.prod: windows
 ms.technology: windows-sdk

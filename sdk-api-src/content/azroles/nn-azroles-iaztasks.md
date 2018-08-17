@@ -7,7 +7,7 @@ old-location: security\iaztasks.htm
 old-project: secauthz
 ms.assetid: 324dec16-3fd6-4289-ba15-002e8626dec8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: IAzTasks, IAzTasks interface [Security], IAzTasks interface [Security],described, azroles/IAzTasks, security.iaztasks
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 
 
 The <b>IAzTasks</b> interface represents a collection of  
-<a href="https://msdn.microsoft.com/90eb19c9-1490-43f4-ab4b-393e825aeb2f">IAzTask</a> objects.
+<a href="https://msdn.microsoft.com/en-us/library/Aa378367(v=VS.85).aspx">IAzTask</a> objects.
 
 
 ## -inheritance
@@ -94,7 +94,7 @@ Retrieves the value of the <a href="https://msdn.microsoft.com/505768ce-27a3-4f3
 <a href="https://msdn.microsoft.com/eddfebba-4f0e-405a-90b5-dbdc87dca3da">get_Item</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/eddfebba-4f0e-405a-90b5-dbdc87dca3da">Item</a> property.
+Retrieves the value of the <a href="https://msdn.microsoft.com/en-us/library/Aa378372(v=VS.85).aspx">Item</a> property.
 
 </td>
 </tr>
@@ -134,14 +134,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves the number of <a href="https://msdn.microsoft.com/90eb19c9-1490-43f4-ab4b-393e825aeb2f">IAzTask</a> objects in the collection.
+Retrieves the number of <a href="https://msdn.microsoft.com/en-us/library/Aa378367(v=VS.85).aspx">IAzTask</a> objects in the collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/eddfebba-4f0e-405a-90b5-dbdc87dca3da">Item</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa378372(v=VS.85).aspx">Item</a>
 
 
 </td>
@@ -150,7 +150,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://msdn.microsoft.com/90eb19c9-1490-43f4-ab4b-393e825aeb2f">IAzTask</a> object at the specified index into the <b>IAzTasks</b> collection.
+Retrieves the <a href="https://msdn.microsoft.com/en-us/library/Aa378367(v=VS.85).aspx">IAzTask</a> object at the specified index into the <b>IAzTasks</b> collection.
 
 </td>
 </tr>

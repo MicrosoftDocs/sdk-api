@@ -73,7 +73,7 @@ The <b>ICondition</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6ef3be0f-bbed-48a6-afd8-b8815a5a11de">Clone</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231388(v=VS.85).aspx">Clone</a>
 </td>
 <td align="left" width="63%">
 Creates a deep copy of this <b>ICondition</b> object.
