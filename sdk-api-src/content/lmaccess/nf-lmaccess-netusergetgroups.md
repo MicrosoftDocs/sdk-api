@@ -61,9 +61,13 @@ The
 
 
 
-### -param OPTIONAL
+### -param servername [in]
 
-TBD
+A pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used. 
+
+
+
+					
 
 
 ### -param username [in]
@@ -129,15 +133,6 @@ A pointer to a value that receives the count of elements actually retrieved.
 ### -param totalentries [out]
 
 A pointer to a value that receives the total number of entries that could have been retrieved.
-
-
-#### - servername [in]
-
-A pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used. 
-
-
-
-					
 
 
 ## -returns

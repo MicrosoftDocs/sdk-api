@@ -60,11 +60,9 @@ Creates a new transaction manager (TM) object and returns a handle with the spec
 
 
 
-### -param OPTIONAL
+### -param lpTransactionAttributes [in, optional]
 
-TBD
-
-
+The transaction <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> (ACLs) for the TM object. 
 
 
 ### -param LogFileName [in, optional]
@@ -72,12 +70,7 @@ TBD
 The log file stream name.  If the stream does not exist in the log, it is created. To create a volatile TM, this parameter must be <b>NULL</b> and <i>CreateOptions</i> must specify TRANSACTION_MANAGER_VOLATILE, this transaction manager is considered volatile.
 
 
-#### - CommitStrength [in, optional]
-
-Reserved; specify zero.
-
-
-#### - CreateOptions [in, optional]
+### -param CreateOptions [in, optional]
 
 Any optional attributes for the new TM.
 
@@ -100,9 +93,9 @@ Indicates that the TM is volatile, and does not perform recovery.
  
 
 
-#### - lpTransactionAttributes [in, optional]
+### -param CommitStrength [in, optional]
 
-The transaction <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> (ACLs) for the TM object. 
+Reserved; specify zero.
 
 
 ## -returns

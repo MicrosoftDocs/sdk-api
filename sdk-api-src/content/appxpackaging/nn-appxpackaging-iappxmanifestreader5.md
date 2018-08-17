@@ -7,7 +7,7 @@ old-location: appxpkg\iappxmanifestreader5.htm
 old-project: appxpkg
 ms.assetid: 6B435A29-2825-4FFD-8E05-2FE94E75A531
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/15/2018
 ms.keywords: IAppxManifestReader5, IAppxManifestReader5 interface [App packaging and management], IAppxManifestReader5 interface [App packaging and management],described, appxpackaging/IAppxManifestReader5, appxpkg.iappxmanifestreader5
 ms.prod: windows
 ms.technology: windows-sdk

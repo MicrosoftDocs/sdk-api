@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10view.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10view.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: ID3D10View, ID3D10View interface [Direct3D 10], ID3D10View interface [Direct3D 10],described, d3d10/ID3D10View, direct3d10.id3d10view, f36206a8-55f1-ac58-4818-8c308ce6e81f
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,14 +52,14 @@ req.irql:
 ## -description
 
 
-A view interface specifies the parts of a resource the pipeline can access during rendering (see <a href="https://msdn.microsoft.com/ccfe6273-0dcf-4b42-9d74-665a0b4cd14a">view</a>).
+A view interface specifies the parts of a resource the pipeline can access during rendering (see <a href="https://msdn.microsoft.com/en-us/library/Bb205128(v=VS.85).aspx">view</a>).
 
 
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10View</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb173529(v=VS.85).aspx">ID3D10DeviceChild</a>. <b>ID3D10View</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members

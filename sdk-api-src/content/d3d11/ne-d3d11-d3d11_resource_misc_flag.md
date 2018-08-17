@@ -61,7 +61,7 @@ Identifies options for resources.
 
 ### -field D3D11_RESOURCE_MISC_GENERATE_MIPS
 
-Enables MIP map generation by using <a href="https://msdn.microsoft.com/43012c58-3b1a-4956-993f-4ff3f5ec7fce">ID3D11DeviceContext::GenerateMips</a> on a texture resource. The resource must be created with the <a href="https://msdn.microsoft.com/4ffa1714-bd85-4d5a-930d-20526f46e4b9">bind flags</a> that specify that the resource is a render target and a shader resource.
+Enables MIP map generation by using <a href="https://msdn.microsoft.com/en-us/library/Ff476426(v=VS.85).aspx">ID3D11DeviceContext::GenerateMips</a> on a texture resource. The resource must be created with the <a href="https://msdn.microsoft.com/en-us/library/Ff476085(v=VS.85).aspx">bind flags</a> that specify that the resource is a render target and a shader resource.
           
 
 
@@ -86,7 +86,7 @@ Enables resource data sharing between two or more Direct3D devices. The only res
 
 ### -field D3D11_RESOURCE_MISC_TEXTURECUBE
 
-Sets a resource to be a cube texture created from a <a href="https://msdn.microsoft.com/78ab2feb-4d67-4f6f-bffe-48d55183ce28">Texture2DArray</a> that contains 6 textures.
+Sets a resource to be a cube texture created from a <a href="https://msdn.microsoft.com/en-us/library/Ff471526(v=VS.85).aspx">Texture2DArray</a> that contains 6 textures.
           
 
 
@@ -97,43 +97,43 @@ Enables instancing of GPU-generated content.
 
 ### -field D3D11_RESOURCE_MISC_BUFFER_ALLOW_RAW_VIEWS
 
-Enables a resource as a <a href="https://msdn.microsoft.com/597cc12f-dd0e-4603-b670-3f584f25e192">byte address buffer</a>.
+Enables a resource as a <a href="https://msdn.microsoft.com/en-us/library/Ff476335(v=VS.85).aspx">byte address buffer</a>.
           
 
 
 ### -field D3D11_RESOURCE_MISC_BUFFER_STRUCTURED
 
-Enables a resource as a <a href="https://msdn.microsoft.com/597cc12f-dd0e-4603-b670-3f584f25e192">structured buffer</a>.
+Enables a resource as a <a href="https://msdn.microsoft.com/en-us/library/Ff476335(v=VS.85).aspx">structured buffer</a>.
           
 
 
 ### -field D3D11_RESOURCE_MISC_RESOURCE_CLAMP
 
-Enables a resource with MIP map clamping for use with <a href="https://msdn.microsoft.com/c718bc0b-fb3b-49fd-91f1-098edc0c115d">ID3D11DeviceContext::SetResourceMinLOD</a>.
+Enables a resource with MIP map clamping for use with <a href="https://msdn.microsoft.com/en-us/library/Ff476482(v=VS.85).aspx">ID3D11DeviceContext::SetResourceMinLOD</a>.
           
 
 
 ### -field D3D11_RESOURCE_MISC_SHARED_KEYEDMUTEX
 
-Enables the resource  to be synchronized by using the <a href="https://msdn.microsoft.com/31edab76-7b16-4a02-83ff-998c21e77f2e">IDXGIKeyedMutex::AcquireSync</a>  and 
-          <a href="https://msdn.microsoft.com/324741c9-33f2-4420-8c3f-4984e2ca0962">IDXGIKeyedMutex::ReleaseSync</a> APIs. 
-          The following Direct3D 11 resource creation  APIs, that take <a href="https://msdn.microsoft.com/2a324055-21b0-4dad-a8e0-781905329dc2">D3D11_RESOURCE_MISC_FLAG</a> parameters, have been extended to support the new flag.
+Enables the resource  to be synchronized by using the <a href="https://msdn.microsoft.com/en-us/library/Ff471339(v=VS.85).aspx">IDXGIKeyedMutex::AcquireSync</a>  and 
+          <a href="https://msdn.microsoft.com/en-us/library/Ff471340(v=VS.85).aspx">IDXGIKeyedMutex::ReleaseSync</a> APIs. 
+          The following Direct3D 11 resource creation  APIs, that take <a href="https://msdn.microsoft.com/en-us/library/Ff476203(v=VS.85).aspx">D3D11_RESOURCE_MISC_FLAG</a> parameters, have been extended to support the new flag.
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/34cdf984-8b2e-4ed3-a77b-b373752539f6">ID3D11Device::CreateTexture1D</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476520(v=VS.85).aspx">ID3D11Device::CreateTexture1D</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/69950ce7-9c8e-4f00-860d-e118e2bbc81a">ID3D11Device::CreateTexture2D</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476521(v=VS.85).aspx">ID3D11Device::CreateTexture2D</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/92b31baf-2d64-47fe-bd0d-550f2a65ed9a">ID3D11Device::CreateTexture3D</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476522(v=VS.85).aspx">ID3D11Device::CreateTexture3D</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/5aec93c5-12a1-4b4e-813e-ee1e85adbf14">ID3D11Device::CreateBuffer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476501(v=VS.85).aspx">ID3D11Device::CreateBuffer</a>
 </li>
 </ul>
-If you call any of these  methods with the <b>D3D11_RESOURCE_MISC_SHARED_KEYEDMUTEX</b> flag set, the interface returned will support the <a href="https://msdn.microsoft.com/f790eb46-f116-4258-8c8d-de1ece4a1f21">IDXGIKeyedMutex</a> interface.  You can retrieve a pointer to the <b>IDXGIKeyedMutex</b> interface from the resource by using <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">IUnknown::QueryInterface</a>.  The <b>IDXGIKeyedMutex</b> interface implements the <a href="https://msdn.microsoft.com/31edab76-7b16-4a02-83ff-998c21e77f2e">IDXGIKeyedMutex::AcquireSync</a> and <a href="https://msdn.microsoft.com/324741c9-33f2-4420-8c3f-4984e2ca0962">IDXGIKeyedMutex::ReleaseSync</a> APIs to synchronize access to the surface. The device that creates the surface, and any other device that opens the surface by using <a href="https://msdn.microsoft.com/bc054547-e098-457e-8c8a-a41496234a63">OpenSharedResource</a>, must call <b>IDXGIKeyedMutex::AcquireSync</b> before they issue any rendering commands to the surface. When those devices finish rendering, they must call <b>IDXGIKeyedMutex::ReleaseSync</b>.
+If you call any of these  methods with the <b>D3D11_RESOURCE_MISC_SHARED_KEYEDMUTEX</b> flag set, the interface returned will support the <a href="https://msdn.microsoft.com/en-us/library/Ff471338(v=VS.85).aspx">IDXGIKeyedMutex</a> interface.  You can retrieve a pointer to the <b>IDXGIKeyedMutex</b> interface from the resource by using <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">IUnknown::QueryInterface</a>.  The <b>IDXGIKeyedMutex</b> interface implements the <a href="https://msdn.microsoft.com/en-us/library/Ff471339(v=VS.85).aspx">IDXGIKeyedMutex::AcquireSync</a> and <a href="https://msdn.microsoft.com/en-us/library/Ff471340(v=VS.85).aspx">IDXGIKeyedMutex::ReleaseSync</a> APIs to synchronize access to the surface. The device that creates the surface, and any other device that opens the surface by using <a href="https://msdn.microsoft.com/en-us/library/Ff476531(v=VS.85).aspx">OpenSharedResource</a>, must call <b>IDXGIKeyedMutex::AcquireSync</b> before they issue any rendering commands to the surface. When those devices finish rendering, they must call <b>IDXGIKeyedMutex::ReleaseSync</b>.
             
 
 <b>D3D11_RESOURCE_MISC_SHARED</b> and <b>D3D11_RESOURCE_MISC_SHARED_KEYEDMUTEX</b> are mutually exclusive.
@@ -149,7 +149,7 @@ If you call any of these  methods with the <b>D3D11_RESOURCE_MISC_SHARED_KEYEDMU
 
 ### -field D3D11_RESOURCE_MISC_GDI_COMPATIBLE
 
-Enables a resource compatible with GDI. You must set the <b>D3D11_RESOURCE_MISC_GDI_COMPATIBLE</b> flag  on surfaces that you use with GDI. Setting the <b>D3D11_RESOURCE_MISC_GDI_COMPATIBLE</b> flag allows GDI rendering on the surface via <a href="https://msdn.microsoft.com/b148d2b4-36a2-46b9-8a98-9f3c478549a4">IDXGISurface1::GetDC</a>.
+Enables a resource compatible with GDI. You must set the <b>D3D11_RESOURCE_MISC_GDI_COMPATIBLE</b> flag  on surfaces that you use with GDI. Setting the <b>D3D11_RESOURCE_MISC_GDI_COMPATIBLE</b> flag allows GDI rendering on the surface via <a href="https://msdn.microsoft.com/en-us/library/Ff471345(v=VS.85).aspx">IDXGISurface1::GetDC</a>.
             
 
 Consider the following programming tips for using D3D11_RESOURCE_MISC_GDI_COMPATIBLE when you create a texture or use that texture in a swap chain:
@@ -157,11 +157,11 @@ Consider the following programming tips for using D3D11_RESOURCE_MISC_GDI_COMPAT
 <ul>
 <li>D3D11_RESOURCE_MISC_SHARED_KEYEDMUTEX and D3D11_RESOURCE_MISC_GDI_COMPATIBLE are mutually exclusive. Therefore, do not use them together.</li>
 <li>D3D11_RESOURCE_MISC_RESOURCE_CLAMP and D3D11_RESOURCE_MISC_GDI_COMPATIBLE are mutually exclusive. Therefore, do not use them together.</li>
-<li>You must bind the texture as a render target for the output-merger stage. For example, set the D3D11_BIND_RENDER_TARGET flag in the <b>BindFlags</b> member of the <a href="https://msdn.microsoft.com/90c0f877-daf5-4b3d-9846-5bb414c55461">D3D11_TEXTURE2D_DESC</a> structure.
+<li>You must bind the texture as a render target for the output-merger stage. For example, set the D3D11_BIND_RENDER_TARGET flag in the <b>BindFlags</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Ff476253(v=VS.85).aspx">D3D11_TEXTURE2D_DESC</a> structure.
               </li>
-<li>You must set the maximum number of MIP map levels to 1. For example, set the <b>MipLevels</b> member of the <a href="https://msdn.microsoft.com/90c0f877-daf5-4b3d-9846-5bb414c55461">D3D11_TEXTURE2D_DESC</a> structure to 1.
+<li>You must set the maximum number of MIP map levels to 1. For example, set the <b>MipLevels</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Ff476253(v=VS.85).aspx">D3D11_TEXTURE2D_DESC</a> structure to 1.
               </li>
-<li>You must specify that the texture requires read and write access by the GPU. For example, set the <b>Usage</b> member of the <a href="https://msdn.microsoft.com/90c0f877-daf5-4b3d-9846-5bb414c55461">D3D11_TEXTURE2D_DESC</a> structure to D3D11_USAGE_DEFAULT.
+<li>You must specify that the texture requires read and write access by the GPU. For example, set the <b>Usage</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Ff476253(v=VS.85).aspx">D3D11_TEXTURE2D_DESC</a> structure to D3D11_USAGE_DEFAULT.
               </li>
 <li>
 You must set the texture format to one of the following types. 
@@ -170,9 +170,9 @@ You must set the texture format to one of the following types.
 <li>DXGI_FORMAT_B8G8R8A8_UNORM</li>
 <li>DXGI_FORMAT_B8G8R8A8_TYPELESS</li>
 <li>DXGI_FORMAT_B8G8R8A8_UNORM_SRGB</li>
-</ul>For example, set the <b>Format</b> member of the <a href="https://msdn.microsoft.com/90c0f877-daf5-4b3d-9846-5bb414c55461">D3D11_TEXTURE2D_DESC</a> structure to one of these  types.
+</ul>For example, set the <b>Format</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Ff476253(v=VS.85).aspx">D3D11_TEXTURE2D_DESC</a> structure to one of these  types.
               </li>
-<li>You cannot use D3D11_RESOURCE_MISC_GDI_COMPATIBLE with multisampling. Therefore, set the <b>Count</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb173072(v=VS.85).aspx">DXGI_SAMPLE_DESC</a> structure to 1. Then, set the <b>SampleDesc</b> member of the <a href="https://msdn.microsoft.com/90c0f877-daf5-4b3d-9846-5bb414c55461">D3D11_TEXTURE2D_DESC</a> structure to this <b>DXGI_SAMPLE_DESC</b> structure.
+<li>You cannot use D3D11_RESOURCE_MISC_GDI_COMPATIBLE with multisampling. Therefore, set the <b>Count</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb173072(v=VS.85).aspx">DXGI_SAMPLE_DESC</a> structure to 1. Then, set the <b>SampleDesc</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Ff476253(v=VS.85).aspx">D3D11_TEXTURE2D_DESC</a> structure to this <b>DXGI_SAMPLE_DESC</b> structure.
               </li>
 </ul>
 
@@ -180,7 +180,7 @@ You must set the texture format to one of the following types.
 
 Set this flag to enable the use of NT HANDLE values when you create a shared resource.  By enabling this flag, you deprecate the use of existing HANDLE values.
 
-The value specifies a new shared resource type that directs the runtime to use NT HANDLE values for the shared resource. The runtime then must confirm that the shared resource  works on all hardware at the specified <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature level</a>.
+The value specifies a new shared resource type that directs the runtime to use NT HANDLE values for the shared resource. The runtime then must confirm that the shared resource  works on all hardware at the specified <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a>.
             
 
 Without this flag set, the runtime does not strictly validate shared resource parameters (that is, formats, flags, usage, and so on). When the runtime does not validate shared resource parameters, behavior of much of the Direct3D   API might be undefined and might vary from driver to driver.  
@@ -211,12 +211,12 @@ Set this flag to indicate that the driver  restricts access to the shared surfac
 
 ### -field D3D11_RESOURCE_MISC_GUARDED
 
-Set this flag to indicate that the resource is guarded. Such a resource is returned by the <a href="https://msdn.microsoft.com/0D7E90A1-90E4-44BE-A4DA-8DA300C81A35">IDCompositionSurface::BeginDraw</a> (DirectComposition) and <a href="https://msdn.microsoft.com/9F08AF78-AD8B-4AFC-ABFF-7006873FA506">ISurfaceImageSourceNative::BeginDraw</a> (Windows Runtime) APIs.  For these APIs, you provide a region of interest (ROI) on a surface to update. This surface isn't compatible with multiple render targets (MRT).
+Set this flag to indicate that the resource is guarded. Such a resource is returned by the <a href="https://msdn.microsoft.com/0D7E90A1-90E4-44BE-A4DA-8DA300C81A35">IDCompositionSurface::BeginDraw</a> (DirectComposition) and <a href="https://msdn.microsoft.com/en-us/library/Hh848323(v=VS.85).aspx">ISurfaceImageSourceNative::BeginDraw</a> (Windows Runtime) APIs.  For these APIs, you provide a region of interest (ROI) on a surface to update. This surface isn't compatible with multiple render targets (MRT).
 
 A guarded resource automatically restricts all writes to the region that is related to one of the preceding APIs. Additionally, the resource enforces access to the ROI with these restrictions:
 
 <ul>
-<li>Copy operations from the resource by using <a href="https://msdn.microsoft.com/54c1c08a-792c-463d-8237-9f7947d15396">ID3D11DeviceContext::CopyResource</a> or <a href="https://msdn.microsoft.com/aed89483-9870-445d-96e3-a9cee764f0ad">ID3D11DeviceContext::CopySubresourceRegion</a> are restricted to only copy from the ROI.
+<li>Copy operations from the resource by using <a href="https://msdn.microsoft.com/en-us/library/Ff476392(v=VS.85).aspx">ID3D11DeviceContext::CopyResource</a> or <a href="https://msdn.microsoft.com/en-us/library/Ff476394(v=VS.85).aspx">ID3D11DeviceContext::CopySubresourceRegion</a> are restricted to only copy from the ROI.
               </li>
 <li>When a guarded resource is set as a render target, it must be the only target.</li>
 </ul>
@@ -244,12 +244,12 @@ Set this flag to indicate that the resource should be created such that it will 
 This flag has the following restrictions:
 
 <ul>
-<li>This flag cannot be used with the following <a href="https://msdn.microsoft.com/251d462e-964e-42db-8554-dba8f5a9b1ef">D3D11_USAGE</a> values:<ul>
+<li>This flag cannot be used with the following <a href="https://msdn.microsoft.com/en-us/library/Ff476259(v=VS.85).aspx">D3D11_USAGE</a> values:<ul>
 <li><b>D3D11_USAGE_DYNAMIC</b></li>
 <li><b>D3D11_USAGE_STAGING</b></li>
 </ul>
 </li>
-<li>This flag cannot be used with the following <a href="https://msdn.microsoft.com/4ffa1714-bd85-4d5a-930d-20526f46e4b9">D3D11_BIND_FLAG</a> values.<ul>
+<li>This flag cannot be used with the following <a href="https://msdn.microsoft.com/en-us/library/Ff476085(v=VS.85).aspx">D3D11_BIND_FLAG</a> values.<ul>
 <li><b>D3D11_BIND_VERTEX_BUFFER</b></li>
 <li><b>D3D11_BIND_INDEX_BUFFER</b></li>
 </ul>
@@ -268,7 +268,7 @@ This flag has the following restrictions:
 
 
 
-This enumeration is used in <a href="https://msdn.microsoft.com/a5e470bb-011b-4a2a-96d6-cbf76fe12638">D3D11_BUFFER_DESC</a>, <a href="https://msdn.microsoft.com/8523d7b1-856e-4ec8-9286-4f1f2730a428">D3D11_TEXTURE1D_DESC</a>, <a href="https://msdn.microsoft.com/90c0f877-daf5-4b3d-9846-5bb414c55461">D3D11_TEXTURE2D_DESC</a>, <a href="https://msdn.microsoft.com/b3fd4280-c967-4eed-8a10-97f0c7ef56ac">D3D11_TEXTURE3D_DESC</a>. 
+This enumeration is used in <a href="https://msdn.microsoft.com/en-us/library/Ff476092(v=VS.85).aspx">D3D11_BUFFER_DESC</a>, <a href="https://msdn.microsoft.com/en-us/library/Ff476252(v=VS.85).aspx">D3D11_TEXTURE1D_DESC</a>, <a href="https://msdn.microsoft.com/en-us/library/Ff476253(v=VS.85).aspx">D3D11_TEXTURE2D_DESC</a>, <a href="https://msdn.microsoft.com/en-us/library/Ff476254(v=VS.85).aspx">D3D11_TEXTURE3D_DESC</a>. 
 
 These flags can be combined by bitwise OR.
         
@@ -283,7 +283,7 @@ The <b>D3D11_RESOURCE_MISC_FLAG</b> cannot be used when creating resources with 
 
 
 
-<a href="https://msdn.microsoft.com/b547819b-7006-40b5-84a4-adf198048051">Resource Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476170(v=VS.85).aspx">Resource Enumerations</a>
  
 
  

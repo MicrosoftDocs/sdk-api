@@ -7,7 +7,7 @@ old-location: security\allocateandinitializesid.htm
 old-project: secauthz
 ms.assetid: fcdff2f8-7f43-4c0f-b548-4914b1991937
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: AllocateAndInitializeSid, AllocateAndInitializeSid function [Security], _win32_allocateandinitializesid, security.allocateandinitializesid, securitybaseapi/AllocateAndInitializeSid
 ms.prod: windows
 ms.technology: windows-sdk

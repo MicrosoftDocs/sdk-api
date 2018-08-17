@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/ce575df6-9464-4672-9a0e-ff7e016d9354">D2D1_LAYER_PARAMETERS</a> structure.
+Creates a <a href="https://msdn.microsoft.com/en-us/library/Dd368127(v=VS.85).aspx">D2D1_LAYER_PARAMETERS</a> structure.
 
 
 ## -parameters
@@ -61,9 +61,9 @@ Creates a <a href="https://msdn.microsoft.com/ce575df6-9464-4672-9a0e-ff7e016d93
 
 ### -param contentBounds [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/a961c0e3-fb76-4c07-b76e-47d8c09ada08">D2D1_RECT_F</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dd368151(v=VS.85).aspx">D2D1_RECT_F</a></b>
 
-The content bounds of the layer. Content outside these bounds is not guaranteed to render.  The default value is <a href="https://msdn.microsoft.com/c2f75645-3197-4afa-81ac-8a362ce99620">D2D1::InfiniteRect</a>.
+The content bounds of the layer. Content outside these bounds is not guaranteed to render.  The default value is <a href="https://msdn.microsoft.com/en-us/library/Dd372261(v=VS.85).aspx">D2D1::InfiniteRect</a>.
 
 
 ### -param geometricMask [in, optional]
@@ -75,16 +75,16 @@ A mask that specifies the area of the  layer that is composited into the render 
 
 ### -param maskAntialiasMode
 
-Type: <b><a href="https://msdn.microsoft.com/3ca12155-6dd0-41bb-8778-3387422c4ffe">D2D1_ANTIALIAS_MODE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368061(v=VS.85).aspx">D2D1_ANTIALIAS_MODE</a></b>
 
-A value that specifies the antialiasing mode for the  geometric mask. The default value is   <a href="https://msdn.microsoft.com/3ca12155-6dd0-41bb-8778-3387422c4ffe">D2D1_ANTIALIAS_MODE_PER_PRIMITIVE</a>.
+A value that specifies the antialiasing mode for the  geometric mask. The default value is   <a href="https://msdn.microsoft.com/en-us/library/Dd368061(v=VS.85).aspx">D2D1_ANTIALIAS_MODE_PER_PRIMITIVE</a>.
 
 
 ### -param maskTransform
 
-Type: <b><a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368132(v=VS.85).aspx">D2D1_MATRIX_3X2_F</a></b>
 
-A value that specifies the transform that is applied to the geometric mask when composing the layer. The default value is <a href="https://msdn.microsoft.com/09c2ed59-db4a-4753-a98a-bef7748d3803">D2D1::IdentityMatrix</a>.
+A value that specifies the transform that is applied to the geometric mask when composing the layer. The default value is <a href="https://msdn.microsoft.com/en-us/library/Dd372258(v=VS.85).aspx">D2D1::IdentityMatrix</a>.
 
 
 ### -param opacity
@@ -104,9 +104,9 @@ is mapped to the layer, and the alpha channel of each mapped brush pixel is mult
 
 ### -param layerOptions
 
-Type: <b><a href="https://msdn.microsoft.com/d278211a-e99c-429d-9752-45c305f52ed8">D2D1_LAYER_OPTIONS</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368124(v=VS.85).aspx">D2D1_LAYER_OPTIONS</a></b>
 
-A value that specifies whether the layer intends to render text with ClearType antialiasing. The default value is <a href="https://msdn.microsoft.com/d278211a-e99c-429d-9752-45c305f52ed8">D2D1_LAYER_OPTIONS_NONE</a>.
+A value that specifies whether the layer intends to render text with ClearType antialiasing. The default value is <a href="https://msdn.microsoft.com/en-us/library/Dd368124(v=VS.85).aspx">D2D1_LAYER_OPTIONS_NONE</a>.
 
 
 
@@ -114,7 +114,7 @@ A value that specifies whether the layer intends to render text with ClearType a
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/ce575df6-9464-4672-9a0e-ff7e016d9354">D2D1_LAYER_PARAMETERS</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368127(v=VS.85).aspx">D2D1_LAYER_PARAMETERS</a></b>
 
 A structure that contains the content bounds, mask information, opacity settings, and other options for a layer resource.  
 
@@ -126,15 +126,15 @@ A structure that contains the content bounds, mask information, opacity settings
 
 
 
-<a href="https://msdn.microsoft.com/3ca12155-6dd0-41bb-8778-3387422c4ffe">D2D1_ANTIALIAS_MODE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd368061(v=VS.85).aspx">D2D1_ANTIALIAS_MODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/d278211a-e99c-429d-9752-45c305f52ed8">D2D1_LAYER_OPTIONS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd368124(v=VS.85).aspx">D2D1_LAYER_OPTIONS</a>
 
 
 
-<a href="https://msdn.microsoft.com/ce575df6-9464-4672-9a0e-ff7e016d9354">D2D1_LAYER_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd368127(v=VS.85).aspx">D2D1_LAYER_PARAMETERS</a>
 
 
 
@@ -142,7 +142,7 @@ A structure that contains the content bounds, mask information, opacity settings
 
 
 
-<a href="https://msdn.microsoft.com/22d161fb-8470-49cc-a523-309f90643ea9">Layers Overview</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd756654(v=VS.85).aspx">Layers Overview</a>
  
 
  

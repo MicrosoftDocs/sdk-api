@@ -61,9 +61,9 @@ The creation properties for a <a href="https://msdn.microsoft.com/0E8D8218-0671-
 
 ### -field fontSubset
 
-Type: <b><a href="https://msdn.microsoft.com/B8361117-6018-48EE-AD3D-2A37F6B71293">D2D1_PRINT_FONT_SUBSET_MODE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh871442(v=VS.85).aspx">D2D1_PRINT_FONT_SUBSET_MODE</a></b>
 
-The mode to use for subsetting fonts for printing, defaults to <a href="https://msdn.microsoft.com/B8361117-6018-48EE-AD3D-2A37F6B71293">D2D1_PRINT_FONT_SUBSET_MODE_DEFAULT</a>.
+The mode to use for subsetting fonts for printing, defaults to <a href="https://msdn.microsoft.com/en-us/library/Hh871442(v=VS.85).aspx">D2D1_PRINT_FONT_SUBSET_MODE_DEFAULT</a>.
 
 
 ### -field rasterDPI
@@ -75,7 +75,7 @@ DPI for rasterization of all unsupported Direct2D commands or options, defaults 
 
 ### -field colorSpace
 
-Type: <b><a href="https://msdn.microsoft.com/2c90978b-8a5a-4e5d-9ced-e0ec917271ff">D2D1_COLOR_SPACE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh446992(v=VS.85).aspx">D2D1_COLOR_SPACE</a></b>
 
-Color space for vector graphics, defaults to <a href="https://msdn.microsoft.com/2c90978b-8a5a-4e5d-9ced-e0ec917271ff">D2D1_COLOR_SPACE_SRGB</a>.
+Color space for vector graphics, defaults to <a href="https://msdn.microsoft.com/en-us/library/Hh446992(v=VS.85).aspx">D2D1_COLOR_SPACE_SRGB</a>.
 

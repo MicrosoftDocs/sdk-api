@@ -7,7 +7,7 @@ old-location: security\iaznameresolver.htm
 old-project: secauthz
 ms.assetid: 9426a623-cefc-43ed-9987-77802fce1a78
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: IAzNameResolver, IAzNameResolver interface [Security], IAzNameResolver interface [Security],described, azroles/IAzNameResolver, security.iaznameresolver
 ms.prod: windows
 ms.technology: windows-sdk

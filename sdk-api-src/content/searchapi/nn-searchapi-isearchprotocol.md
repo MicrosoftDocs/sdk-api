@@ -96,7 +96,7 @@ Creates and initializes an <a href="https://msdn.microsoft.com/en-us/library/Bb2
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f055f283-4b2f-4dcb-aed6-1e2ae24f2518">Init</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231439(v=VS.85).aspx">Init</a>
 </td>
 <td align="left" width="63%">
 Initializes a protocol handler. 
@@ -106,7 +106,7 @@ Initializes a protocol handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/47f644a0-bd70-4af5-bf0b-5a6fe77cbefa">ShutDown</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231441(v=VS.85).aspx">ShutDown</a>
 </td>
 <td align="left" width="63%">
 Shuts down the protocol handler.

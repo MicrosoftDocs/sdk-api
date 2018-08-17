@@ -7,7 +7,7 @@ old-location: appxpkg\iappxcontentgroupsenumerator_movenext.htm
 old-project: appxpkg
 ms.assetid: 001F7B38-9588-4C87-9EC3-FB8D91959BB0
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/15/2018
 ms.keywords: IAppxContentGroupsEnumerator interface [App packaging and management],MoveNext method, IAppxContentGroupsEnumerator.MoveNext, IAppxContentGroupsEnumerator::MoveNext, MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management],IAppxContentGroupsEnumerator interface, appxpackaging/IAppxContentGroupsEnumerator::MoveNext, appxpkg.iappxcontentgroupsenumerator_movenext
 ms.prod: windows
 ms.technology: windows-sdk

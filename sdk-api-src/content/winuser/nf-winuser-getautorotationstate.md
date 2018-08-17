@@ -7,7 +7,7 @@ old-location: base\getautorotationstate.htm
 old-project: procthread
 ms.assetid: E041717B-920E-44F8-AC7F-B30CB82F1476
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: GetAutoRotationState, GetAutoRotationState function, base.getautorotationstate, winuser/GetAutoRotationState
 ms.prod: windows
 ms.technology: windows-sdk

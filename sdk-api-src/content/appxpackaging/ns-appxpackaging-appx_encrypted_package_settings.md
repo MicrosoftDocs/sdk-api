@@ -7,7 +7,7 @@ old-location: appxpkg\appx_encrypted_package_settings.htm
 old-project: appxpkg
 ms.assetid: B5502C1D-2C92-4AE6-BC01-50A853D25CE5
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/15/2018
 ms.keywords: APPX_ENCRYPTED_PACKAGE_SETTINGS, APPX_ENCRYPTED_PACKAGE_SETTINGS structure [App packaging and management], PAPPX_ENCRYPTED_PACKAGE_SETTINGS, PAPPX_ENCRYPTED_PACKAGE_SETTINGS structure pointer [App packaging and management], appxpackaging/APPX_ENCRYPTED_PACKAGE_SETTINGS, appxpackaging/PAPPX_ENCRYPTED_PACKAGE_SETTINGS, appxpkg.appx_encrypted_package_settings
 ms.prod: windows
 ms.technology: windows-sdk

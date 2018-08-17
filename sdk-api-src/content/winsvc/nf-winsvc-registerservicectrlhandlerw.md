@@ -7,7 +7,7 @@ old-location: base\registerservicectrlhandler.htm
 old-project: services
 ms.assetid: 31ec28fe-8774-48fc-91ba-6fa43108e2cc
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: RegisterServiceCtrlHandler, RegisterServiceCtrlHandler function, RegisterServiceCtrlHandlerA, RegisterServiceCtrlHandlerW, _win32_registerservicectrlhandler, base.registerservicectrlhandler, winsvc/RegisterServiceCtrlHandler, winsvc/RegisterServiceCtrlHandlerA, winsvc/RegisterServiceCtrlHandlerW
 ms.prod: windows
 ms.technology: windows-sdk

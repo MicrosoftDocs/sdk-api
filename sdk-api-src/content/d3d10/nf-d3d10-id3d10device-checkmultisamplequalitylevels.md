@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_checkmultisamplequalitylevels.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_checkmultisamplequalitylevels.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 5555dfc7-c61e-e6e9-a6a5-956255410a73, CheckMultisampleQualityLevels, CheckMultisampleQualityLevels method [Direct3D 10], CheckMultisampleQualityLevels method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CheckMultisampleQualityLevels method, ID3D10Device.CheckMultisampleQualityLevels, ID3D10Device::CheckMultisampleQualityLevels, d3d10/ID3D10Device::CheckMultisampleQualityLevels, direct3d10.id3d10device_checkmultisamplequalitylevels
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,14 +69,14 @@ The texture format. See <a href="https://msdn.microsoft.com/en-us/library/Bb1730
 
 ### -param SampleCount [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 The number of samples during multisampling.
 
 
 ### -param pNumQualityLevels [out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a>*</b>
 
 Number of quality levels supported by the adapter. See remarks.
 

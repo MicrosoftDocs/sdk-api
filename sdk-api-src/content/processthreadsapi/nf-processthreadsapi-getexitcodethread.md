@@ -7,7 +7,7 @@ old-location: base\getexitcodethread.htm
 old-project: procthread
 ms.assetid: 67482c3d-b845-4c0f-8aa1-0e3cf8cb5127
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: GetExitCodeThread, GetExitCodeThread function, _win32_getexitcodethread, base.getexitcodethread, processthreadsapi/GetExitCodeThread, winbase/GetExitCodeThread
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: PSS_VA_SPACE_INFORMATION
+req.typenames: PROCESS_MEMORY_EXHAUSTION_TYPE, *PPROCESS_MEMORY_EXHAUSTION_TYPE
 topic_type:
  - APIRef
  - kbSyntax

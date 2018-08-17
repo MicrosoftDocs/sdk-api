@@ -90,7 +90,7 @@ Returns the number of output frames that will be generated from a given number o
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F9922DF3-3E7D-4847-A6B1-C2AE99C6ADEC">GetRegistrationProperties</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee418451(v=VS.85).aspx">GetRegistrationProperties</a>
 </td>
 <td align="left" width="63%">
 Returns the registration properties of an XAPO. 
@@ -99,7 +99,7 @@ Returns the registration properties of an XAPO.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4C975ED7-5656-4C48-A402-99011B7D37AF">Initialize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee418452(v=VS.85).aspx">Initialize</a>
 </td>
 <td align="left" width="63%">
 Performs any effect-specific initialization.
@@ -129,13 +129,13 @@ Queries if a specific output format is supported for a given input format.
 <a href="https://msdn.microsoft.com/en-us/library/Ee418455(v=VS.85).aspx">LockForProcess</a>
 </td>
 <td align="left" width="63%">
-Called by XAudio2 to lock the input and output configurations of an XAPO allowing it to do any final initialization before <a href="https://msdn.microsoft.com/2510590D-578A-4A39-847A-34DFE620A7CC">Process</a> is called on the realtime thread.
+Called by XAudio2 to lock the input and output configurations of an XAPO allowing it to do any final initialization before <a href="https://msdn.microsoft.com/en-us/library/Ee418456(v=VS.85).aspx">Process</a> is called on the realtime thread.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2510590D-578A-4A39-847A-34DFE620A7CC">Process</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee418456(v=VS.85).aspx">Process</a>
 </td>
 <td align="left" width="63%">
 Runs the XAPO's digital signal processing (DSP) code on the given input and output buffers.
@@ -144,7 +144,7 @@ Runs the XAPO's digital signal processing (DSP) code on the given input and outp
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/10AF806C-B560-4B65-9C39-E4CE5EC23476">Reset</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee418459(v=VS.85).aspx">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets variables dependent on frame history.

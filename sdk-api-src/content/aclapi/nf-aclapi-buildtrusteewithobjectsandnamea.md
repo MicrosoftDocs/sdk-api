@@ -7,7 +7,7 @@ old-location: security\buildtrusteewithobjectsandname.htm
 old-project: secauthz
 ms.assetid: 62edadfe-0a7b-43ec-bd02-a63f928c7618
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: BuildTrusteeWithObjectsAndName, BuildTrusteeWithObjectsAndName function [Security], BuildTrusteeWithObjectsAndNameA, BuildTrusteeWithObjectsAndNameW, _win32_buildtrusteewithobjectsandname, aclapi/BuildTrusteeWithObjectsAndName, aclapi/BuildTrusteeWithObjectsAndNameA, aclapi/BuildTrusteeWithObjectsAndNameW, security.buildtrusteewithobjectsandname
 ms.prod: windows
 ms.technology: windows-sdk

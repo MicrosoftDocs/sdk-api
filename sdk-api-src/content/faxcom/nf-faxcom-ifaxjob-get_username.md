@@ -97,7 +97,7 @@ You can use the <b>UserName</b> property to retrieve the name of the person who 
 
 
 
-<a href="https://msdn.microsoft.com/c0fc5c5a-8451-4c5b-9b11-b3dcb45e5f80">SenderName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691367(v=VS.85).aspx">SenderName</a>
  
 
  

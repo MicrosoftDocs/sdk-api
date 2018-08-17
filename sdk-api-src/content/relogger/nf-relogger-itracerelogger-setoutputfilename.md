@@ -4,10 +4,10 @@ title: ITraceRelogger::SetOutputFilename
 author: windows-sdk-content
 description: Indicates the file to which ETW should write the new, relogged trace.
 old-location: etw\itracerelogger_setoutputfilename.htm
-old-project: ETW
+old-project: etw
 ms.assetid: ed3f8bcd-88c7-4d05-a396-41ee8f35bc97
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/08/2018
 ms.keywords: ITraceRelogger interface [ETW],SetOutputFilename method, ITraceRelogger.SetOutputFilename, ITraceRelogger::SetOutputFilename, SetOutputFilename, SetOutputFilename method [ETW], SetOutputFilename method [ETW],ITraceRelogger interface, etw.itracerelogger_setoutputfilename, relogger/ITraceRelogger::SetOutputFilename
 ms.prod: windows
 ms.technology: windows-sdk

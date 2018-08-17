@@ -7,7 +7,7 @@ old-location: security\setkernelobjectsecurity.htm
 old-project: secauthz
 ms.assetid: 2a70483e-245d-4bc7-b90a-58d143364ce1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: SetKernelObjectSecurity, SetKernelObjectSecurity function [Security], _win32_setkernelobjectsecurity, security.setkernelobjectsecurity, securitybaseapi/SetKernelObjectSecurity
 ms.prod: windows
 ms.technology: windows-sdk

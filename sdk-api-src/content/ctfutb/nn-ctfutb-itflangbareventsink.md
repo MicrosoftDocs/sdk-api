@@ -51,14 +51,14 @@ req.irql:
 ## -description
 
 
-The <b>ITfLangBarEventSink</b> interface is implemented by an application or text service and used by the language bar to supply notifications of certain events that occur in the language bar. The application or text service installs this event sink by calling <a href="https://msdn.microsoft.com/8ac607fd-b2c4-4441-8738-c64c25b6c586">ITfLangBarMgr::AdviseEventSink</a>.
+The <b>ITfLangBarEventSink</b> interface is implemented by an application or text service and used by the language bar to supply notifications of certain events that occur in the language bar. The application or text service installs this event sink by calling <a href="https://msdn.microsoft.com/en-us/library/ms628750(v=VS.85).aspx">ITfLangBarMgr::AdviseEventSink</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfLangBarEventSink</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfLangBarEventSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfLangBarEventSink</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ITfLangBarEventSink</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>ITfLangBarEventSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/05747d41-1342-4189-b654-ceb8fadcadd5">GetItemFloatingRect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms628695(v=VS.85).aspx">GetItemFloatingRect</a>
 </td>
 <td align="left" width="63%">
 Not currently used.
@@ -80,7 +80,7 @@ Not currently used.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/781efe26-f3f4-401b-9558-d228e875abc4">OnModalInput</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms628696(v=VS.85).aspx">OnModalInput</a>
 </td>
 <td align="left" width="63%">
 Not currently used.
@@ -89,7 +89,7 @@ Not currently used.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/66d70ff3-dcd4-42cd-bda4-7dbdf1c99da5">OnSetFocus</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms628697(v=VS.85).aspx">OnSetFocus</a>
 </td>
 <td align="left" width="63%">
 Called when the thread the event sink was installed from receives the input focus.
@@ -98,7 +98,7 @@ Called when the thread the event sink was installed from receives the input focu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b59688f9-feb0-4598-bf4a-b0661dda5fad">OnThreadItemChange</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms628698(v=VS.85).aspx">OnThreadItemChange</a>
 </td>
 <td align="left" width="63%">
 Called when a language bar item changes.
@@ -107,7 +107,7 @@ Called when a language bar item changes.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cdb5d505-524b-4fbc-a90a-181d22cbadbc">OnThreadTerminate</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms628699(v=VS.85).aspx">OnThreadTerminate</a>
 </td>
 <td align="left" width="63%">
 Not currently used.
@@ -116,7 +116,7 @@ Not currently used.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f667762a-f276-4311-827e-f89eca7eba1e">ShowFloating</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms628700(v=VS.85).aspx">ShowFloating</a>
 </td>
 <td align="left" width="63%">
 Called when ITfLangBarMgr::ShowFloating is called.

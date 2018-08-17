@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_createshaderresourceview.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_createshaderresourceview.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 0714089a-e113-6e43-f46d-91d40fd54005, CreateShaderResourceView, CreateShaderResourceView method [Direct3D 10], CreateShaderResourceView method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreateShaderResourceView method, ID3D10Device.CreateShaderResourceView, ID3D10Device::CreateShaderResourceView, d3d10/ID3D10Device::CreateShaderResourceView, direct3d10.id3d10device_createshaderresourceview
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-Create a shader-resource <a href="https://msdn.microsoft.com/ccfe6273-0dcf-4b42-9d74-665a0b4cd14a">view</a> for accessing data in a resource.
+Create a shader-resource <a href="https://msdn.microsoft.com/en-us/library/Bb205128(v=VS.85).aspx">view</a> for accessing data in a resource.
 
 
 ## -parameters

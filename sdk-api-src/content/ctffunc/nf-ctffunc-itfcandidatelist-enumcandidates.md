@@ -60,7 +60,7 @@ req.irql:
 
 ### -param ppEnum [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/4daef7e9-e5ab-4eb8-acb6-a475b84d4de6">IEnumTfCandidates</a> interface pointer that receives the enumerator object. The caller must release this interface when it is no longer required.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms538125(v=VS.85).aspx">IEnumTfCandidates</a> interface pointer that receives the enumerator object. The caller must release this interface when it is no longer required.
 
 
 ## -returns
@@ -123,7 +123,7 @@ A memory allocation failure occurred.
 
 
 
-<a href="https://msdn.microsoft.com/e41ba461-6337-4feb-ba16-3942920ebb9f">ITfCandidateList</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms538492(v=VS.85).aspx">ITfCandidateList</a>
  
 
  

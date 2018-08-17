@@ -7,7 +7,7 @@ old-location: security\iazbizruleparameters_addparameters_method.htm
 old-project: secauthz
 ms.assetid: ebf336a9-a64a-4ded-b508-56491ebf48e2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: AddParameters, AddParameters method [Security], AddParameters method [Security],IAzBizRuleParameters interface, IAzBizRuleParameters interface [Security],AddParameters method, IAzBizRuleParameters.AddParameters, IAzBizRuleParameters::AddParameters, azroles/IAzBizRuleParameters::AddParameters, security.iazbizruleparameters_addparameters_method
 ms.prod: windows
 ms.technology: windows-sdk

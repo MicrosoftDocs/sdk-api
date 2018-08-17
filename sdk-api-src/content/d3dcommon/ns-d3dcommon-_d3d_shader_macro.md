@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_shader_macro.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_macro.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: "*LPD3D_SHADER_MACRO, 6228b971-e519-bff0-1831-d585a34e8212, D3D10_SHADER_MACRO, D3D10_SHADER_MACRO structure [Direct3D 10], D3D_SHADER_MACRO, D3D_SHADER_MACRO structure [Direct3D 10], LPD3D10_SHADER_MACRO, LPD3D10_SHADER_MACRO structure pointer [Direct3D 10], _D3D_SHADER_MACRO, d3d10shader/D3D10_SHADER_MACRO, d3d10shader/LPD3D10_SHADER_MACRO, d3dcommon/D3D10_SHADER_MACRO, d3dcommon/LPD3D10_SHADER_MACRO, direct3d10.d3d10_shader_macro"
 ms.prod: windows
 ms.technology: windows-sdk

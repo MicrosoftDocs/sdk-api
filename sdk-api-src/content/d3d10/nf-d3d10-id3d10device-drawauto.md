@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_drawauto.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_drawauto.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 8ce13c14-3a43-9492-8641-4e2c8d9cc273, DrawAuto, DrawAuto method [Direct3D 10], DrawAuto method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],DrawAuto method, ID3D10Device.DrawAuto, ID3D10Device::DrawAuto, d3d10/ID3D10Device::DrawAuto, direct3d10.id3d10device_drawauto
 ms.prod: windows
 ms.technology: windows-sdk

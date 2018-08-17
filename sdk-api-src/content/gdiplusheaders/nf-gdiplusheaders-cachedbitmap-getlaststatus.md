@@ -67,7 +67,7 @@ The <b>CachedBitmap::GetLastStatus</b> method returns a value that indicates whe
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
 </strong>
 
 If this 
@@ -77,7 +77,7 @@ If this
 
 If this 
 						<a href="https://msdn.microsoft.com/en-us/library/ms534425(v=VS.85).aspx">CachedBitmap</a> object was not constructed successfully, the <b>CachedBitmap::GetLastStatus</b> method returns an element of the 
-						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration that indicates the nature of the failure.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration that indicates the nature of the failure.
 
 
 
@@ -87,7 +87,7 @@ If this
 
 
 
-<a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a>
 
 
 
@@ -95,7 +95,7 @@ If this
 
 
 
-<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
 
 
 

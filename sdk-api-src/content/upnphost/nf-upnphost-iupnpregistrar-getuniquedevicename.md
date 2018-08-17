@@ -4,10 +4,10 @@ title: IUPnPRegistrar::GetUniqueDeviceName
 author: windows-sdk-content
 description: The GetUniqueDeviceName method retrieves the UDN for the specified device.
 old-location: upnp\iupnpregistrar_getuniquedevicename.htm
-old-project: upnp
+old-project: UPnP
 ms.assetid: dcffee59-8b2f-443c-915f-6d823018eadd
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/15/2018
 ms.keywords: GetUniqueDeviceName, GetUniqueDeviceName method [UPnP APIs], GetUniqueDeviceName method [UPnP APIs],IUPnPRegistrar interface, IUPnPRegistrar interface [UPnP APIs],GetUniqueDeviceName method, IUPnPRegistrar.GetUniqueDeviceName, IUPnPRegistrar::GetUniqueDeviceName, _upnp_iupnpregistrar_getuniquedevicename, upnp.iupnpregistrar_getuniquedevicename, upnphost/IUPnPRegistrar::GetUniqueDeviceName
 ms.prod: windows
 ms.technology: windows-sdk

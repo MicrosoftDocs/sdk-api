@@ -61,7 +61,7 @@ Calls the <a href="https://msdn.microsoft.com/en-us/library/Bb761548(v=VS.85).as
 
 ### -param hi
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HINSTANCE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HINSTANCE</a></b>
 
 This parameter is not used and should always be zero. 
 

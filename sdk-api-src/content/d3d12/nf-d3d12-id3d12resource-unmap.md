@@ -107,7 +107,7 @@ Refer to the extensive Remarks and Examples for the <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/C4F92F8A-DBF0-412B-8707-CC4C1BF2D88F">Subresources</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn705766(v=VS.85).aspx">Subresources</a>
  
 
  

@@ -52,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Gets an <a href="shell.IPropertyStore">IPropertyStore</a> object, given a set of property keys. This provides an alternative, possibly faster, method of getting an <b>IPropertyStore</b> object compared to calling <a href="https://msdn.microsoft.com/library/Bb761447(v=VS.85).aspx">IPropertyStoreFactory::GetPropertyStore</a>.
+Gets an <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a> object, given a set of property keys. This provides an alternative, possibly faster, method of getting an <b>IPropertyStore</b> object compared to calling <a href="https://msdn.microsoft.com/library/Bb761447(v=VS.85).aspx">IPropertyStoreFactory::GetPropertyStore</a>.
 
 
 ## -parameters
@@ -93,7 +93,7 @@ A reference to IID of the object to create.
 
 Type: <b>void**</b>
 
-When this method returns, contains the address of an <a href="shell.IPropertyStore">IPropertyStore</a> interface pointer.
+When this method returns, contains the address of an <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a> interface pointer.
         
 
 

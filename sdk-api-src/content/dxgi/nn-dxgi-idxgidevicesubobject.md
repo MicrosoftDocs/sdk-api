@@ -73,7 +73,7 @@ The <b>IDXGIDeviceSubObject</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f15df6a1-287c-4cf2-b6a7-80e60b3cd0d6">GetDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174529(v=VS.85).aspx">GetDevice</a>
 </td>
 <td align="left" width="63%">
 Retrieves the device.

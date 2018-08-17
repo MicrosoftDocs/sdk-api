@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectstringvariable.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectstringvariable.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: ID3D10EffectStringVariable, ID3D10EffectStringVariable interface [Direct3D 10], ID3D10EffectStringVariable interface [Direct3D 10],described, d3d10effect/ID3D10EffectStringVariable, direct3d10.id3d10effectstringvariable, f5ea166d-7f4e-006c-4f7e-f59dae22d889
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,7 +72,7 @@ The <b>ID3D10EffectStringVariable</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/46ed4d9d-17b1-4f05-b016-6ad69bb821a3">GetString</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173706(v=VS.85).aspx">GetString</a>
 </td>
 <td align="left" width="63%">
 Get the string.

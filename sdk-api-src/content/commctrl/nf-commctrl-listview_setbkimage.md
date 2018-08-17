@@ -61,7 +61,7 @@ Sets the background image in a list-view control. You can use this macro or send
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 A handle to the list-view control. 
 
@@ -77,7 +77,7 @@ A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb774742(v=VS.
 
 
 
-Because the list-view control uses OLE COM to manipulate the background images, the calling application must call <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> or <a href="https://msdn.microsoft.com/9a13e7a0-f2e2-466b-98f5-38d5972fa391">OleInitialize</a> before using this macro. It is best to call one of these functions when the application is initialized and call either <a href="https://msdn.microsoft.com/9411cbed-fa3b-46f7-b677-6ada53324edc">CoUninitialize</a> or <a href="https://msdn.microsoft.com/b2a8233f-7e1b-4c54-9363-7478c40c3830">OleUninitialize</a> when the application is terminating. 
+Because the list-view control uses OLE COM to manipulate the background images, the calling application must call <a href="https://msdn.microsoft.com/en-us/library/ms678543(v=VS.85).aspx">CoInitialize</a> or <a href="https://msdn.microsoft.com/en-us/library/ms690134(v=VS.85).aspx">OleInitialize</a> before using this macro. It is best to call one of these functions when the application is initialized and call either <a href="https://msdn.microsoft.com/en-us/library/ms688715(v=VS.85).aspx">CoUninitialize</a> or <a href="https://msdn.microsoft.com/b2a8233f-7e1b-4c54-9363-7478c40c3830">OleUninitialize</a> when the application is terminating. 
 
 
 

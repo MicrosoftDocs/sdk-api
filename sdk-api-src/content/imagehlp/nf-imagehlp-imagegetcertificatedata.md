@@ -7,7 +7,7 @@ old-location: base\imagegetcertificatedata.htm
 old-project: debug
 ms.assetid: ca4cf3a3-9324-4784-a6d8-44692f4840eb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: ImageGetCertificateData, ImageGetCertificateData function, _win32_imagegetcertificatedata, base.imagegetcertificatedata, imagehlp/ImageGetCertificateData
 ms.prod: windows
 ms.technology: windows-sdk

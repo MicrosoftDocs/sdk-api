@@ -7,7 +7,7 @@ old-location: appxpkg\iappxpackagereader.htm
 old-project: appxpkg
 ms.assetid: D34D0909-BE2B-4182-8C3D-36A4E8DDC820
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/15/2018
 ms.keywords: IAppxPackageReader, IAppxPackageReader interface [App packaging and management], IAppxPackageReader interface [App packaging and management],described, appxpackaging/IAppxPackageReader, appxpkg.iappxpackagereader
 ms.prod: windows
 ms.technology: windows-sdk

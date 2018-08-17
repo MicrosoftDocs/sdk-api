@@ -98,7 +98,7 @@ Causes the
 ### -param lpReturnStatusBuffer [out]
 
 Pointer to an output buffer that receives an array of 
-       <a href="https://msdn.microsoft.com/a9e0e99f-b57b-4bf1-93d5-6f09d907aed1">CLUSTER_SET_PASSWORD_STATUS</a> structures 
+       <a href="https://msdn.microsoft.com/en-us/library/Aa369164(v=VS.85).aspx">CLUSTER_SET_PASSWORD_STATUS</a> structures 
        describing the result of the password update for each cluster node. If this parameter is not 
        <b>NULL</b> and the buffer is not large enough to hold the resulting data, the function 
        returns <b>ERROR_MORE_DATA</b> and sets <i>lpcbReturnStatusBufferSize</i> 
@@ -122,7 +122,7 @@ On input, pointer to a value specifying the size (in bytes) of the output buffer
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b> (0).
 
 If the operation fails, the function returns a 
-      <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. The following are possible error 
+      <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>. The following are possible error 
       codes.
 
 
@@ -162,11 +162,11 @@ Do not call
 
 
 
-<a href="https://msdn.microsoft.com/a9e0e99f-b57b-4bf1-93d5-6f09d907aed1">CLUSTER_SET_PASSWORD_STATUS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa369164(v=VS.85).aspx">CLUSTER_SET_PASSWORD_STATUS</a>
 
 
 
-<a href="https://msdn.microsoft.com/1b3a3b23-39db-47b7-b4a8-17fc1ee45df6">Cluster Management Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa369107(v=VS.85).aspx">Cluster Management Functions</a>
  
 
  

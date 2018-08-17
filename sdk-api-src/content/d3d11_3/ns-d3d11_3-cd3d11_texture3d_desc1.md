@@ -68,7 +68,7 @@ Describes a 3D texture.
 
 #### - BindFlags
 
-Flags (see <a href="https://msdn.microsoft.com/4ffa1714-bd85-4d5a-930d-20526f46e4b9">D3D11_BIND_FLAG</a>) for binding to pipeline stages. The flags can be combined by a logical OR.
+Flags (see <a href="https://msdn.microsoft.com/en-us/library/Ff476085(v=VS.85).aspx">D3D11_BIND_FLAG</a>) for binding to pipeline stages. The flags can be combined by a logical OR.
 
 
 #### - CPUAccessFlags

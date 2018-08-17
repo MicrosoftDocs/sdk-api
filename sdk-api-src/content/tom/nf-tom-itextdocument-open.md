@@ -314,7 +314,7 @@ if(hr == STG_E_FILENOTFOUND)
 
 
 
-<a href="https://msdn.microsoft.com/bd81fcee-c792-4f7a-b5ee-cd63deafb08a">Save</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774103(v=VS.85).aspx">Save</a>
 
 
 

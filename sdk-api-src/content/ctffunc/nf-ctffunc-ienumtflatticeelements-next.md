@@ -65,7 +65,7 @@ Specifies the number of elements to obtain.
 
 ### -param rgsElements [out]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/55cc631f-c9ab-4ca8-ab5b-43e8a2e88fc9">TF_LMLATTELEMENT</a> structures that receives the requested data. This array must be at least <i>ulCount</i> elements in size.
+Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/ms629081(v=VS.85).aspx">TF_LMLATTELEMENT</a> structures that receives the requested data. This array must be at least <i>ulCount</i> elements in size.
 
 The caller must free the <b>bstrText</b> member of every structure obtained using <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> when it is no longer required.
 
@@ -130,7 +130,7 @@ The method reached the end of the enumeration before the specified number of ele
 
 
 
-<a href="https://msdn.microsoft.com/5e36f052-a539-4020-8899-fb14c792c666">IEnumTfLatticeElements</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms538208(v=VS.85).aspx">IEnumTfLatticeElements</a>
 
 
 

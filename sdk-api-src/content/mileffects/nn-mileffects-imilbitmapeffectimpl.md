@@ -108,7 +108,7 @@ Gets the output bitmap source of the effect of the given render context.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/97b5fd4e-cab0-4d64-a650-ca8451082975">Initialize</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735280(v=VS.85).aspx">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the effect with the given object.

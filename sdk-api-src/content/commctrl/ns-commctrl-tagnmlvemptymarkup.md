@@ -69,7 +69,7 @@ Info on the notification message.
 
 ### -field dwFlags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
 
 One of the following values. If <b>NULL</b>, markup is rendered left-justified in the listview area.
 
@@ -94,7 +94,7 @@ Render markup centered in the listview area.
 
 ### -field szMarkup
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WCHAR</a>[L_MAX_URL_LENGTH]</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">WCHAR</a>[L_MAX_URL_LENGTH]</b>
 
 Markup to display.
 

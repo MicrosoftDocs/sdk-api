@@ -60,7 +60,7 @@ req.product: GDI+ 1.1
 
 Returns the 
     read/write <a href="https://msdn.microsoft.com/a1dee11c-f1fe-4509-a40a-a58c4b8999ef">private properties</a> of a 
-    <a href="c_gly.htm">cluster</a>.
+    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
 
 This property is read-only.
 

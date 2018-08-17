@@ -61,34 +61,29 @@ The <b>DsDeregisterDnsHostRecords</b> function deletes DNS entries, except for t
 
 
 
-### -param OPTIONAL
+### -param ServerName [in, optional]
 
-TBD
+The null-terminated string that specifies the name of the remote domain controller. Can be set to <b>NULL</b> if the calling application is running on the domain controller being updated.
+
+
+### -param DnsDomainName [in, optional]
+
+The null-terminated string that specifies the DNS domain name of the domain occupied by the domain controller. It is unnecessary for this to be a domain hosted by this domain controller. If <b>NULL</b>, the <i>DnsHostName</i> with the leftmost label removed is specified.
+
+
+### -param DomainGuid [in, optional]
+
+Pointer to the Domain GUID of the domain. If <b>NULL</b>, GUID specific names are not removed.
+
+
+### -param DsaGuid [in, optional]
+
+Pointer to the GUID of the <b>NTDS-DSA</b> object to be deleted. If <b>NULL</b>, <b>NTDS-DSA</b> specific names are not removed.
 
 
 ### -param DnsHostName [in]
 
 Pointer to the null-terminated string that specifies the DNS host name of the domain controller whose DNS records are being deleted.
-
-
-#### - DnsDomainName [in, optional]
-
-The null-terminated string that specifies the DNS domain name of the domain occupied by the domain controller. It is unnecessary for this to be a domain hosted by this domain controller. If <b>NULL</b>, the <i>DnsHostName</i> with the leftmost label removed is specified.
-
-
-#### - DomainGuid [in, optional]
-
-Pointer to the Domain GUID of the domain. If <b>NULL</b>, GUID specific names are not removed.
-
-
-#### - DsaGuid [in, optional]
-
-Pointer to the GUID of the <b>NTDS-DSA</b> object to be deleted. If <b>NULL</b>, <b>NTDS-DSA</b> specific names are not removed.
-
-
-#### - ServerName [in, optional]
-
-The null-terminated string that specifies the name of the remote domain controller. Can be set to <b>NULL</b> if the calling application is running on the domain controller being updated.
 
 
 ## -returns

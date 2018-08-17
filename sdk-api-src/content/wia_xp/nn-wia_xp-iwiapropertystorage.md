@@ -72,7 +72,7 @@ The <b>IWiaPropertyStorage</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3a960b9c-d970-4feb-9282-c2b880ff3659">GetCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms629932(v=VS.85).aspx">GetCount</a>
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms629932(v=VS.85).aspx">IWiaPropertyStorage::GetCount</a> method returns the number of properties stored in the property storage.

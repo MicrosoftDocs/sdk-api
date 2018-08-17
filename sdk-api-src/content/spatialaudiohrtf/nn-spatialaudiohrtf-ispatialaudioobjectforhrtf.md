@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioobjectforhrtf.htm
 old-project: CoreAudio
 ms.assetid: E69F1D09-B937-4BCC-A040-18EF8A838289
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/14/2018
 ms.keywords: ISpatialAudioObjectForHrtf, ISpatialAudioObjectForHrtf interface [Core Audio], ISpatialAudioObjectForHrtf interface [Core Audio],described, coreaudio.ispatialaudioobjectforhrtf, spatialaudiohrtf/ISpatialAudioObjectForHrtf
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,14 +52,14 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-Represents an object that provides audio data to  be  rendered from a position in 3D space, relative to the user, a head-relative transfer function (HRTF). Spatial audio objects can be static or dynamic, which you specify with the <i>type</i> parameter to the <a href="https://msdn.microsoft.com/3E26D14B-5F69-4EBD-A48D-D63E24520D59">ISpatialAudioObjectRenderStream::ForHrtfActivateSpatialAudioObject</a>   method. Dynamic audio objects can be placed in an arbitrary position in space and can be moved over time. Static audio objects are assigned to one or more channels, defined in the <a href="https://msdn.microsoft.com/DFFE770F-41C0-4048-A38F-FB96353E9216">AudioObjectType</a> enumeration, that each correlate to a fixed speaker location that may be a physical or a virtualized speaker
+Represents an object that provides audio data to  be  rendered from a position in 3D space, relative to the user, a head-relative transfer function (HRTF). Spatial audio objects can be static or dynamic, which you specify with the <i>type</i> parameter to the <a href="https://msdn.microsoft.com/3E26D14B-5F69-4EBD-A48D-D63E24520D59">ISpatialAudioObjectRenderStreamForHrtf::ActivateSpatialAudioObjectForHrtf</a>   method. Dynamic audio objects can be placed in an arbitrary position in space and can be moved over time. Static audio objects are assigned to one or more channels, defined in the <a href="https://msdn.microsoft.com/DFFE770F-41C0-4048-A38F-FB96353E9216">AudioObjectType</a> enumeration, that each correlate to a fixed speaker location that may be a physical or a virtualized speaker
 
 This interface is a part of  Windows Sonic, Microsoft’s audio platform for more immersive audio which includes integrated spatial sound on Xbox and Windows.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpatialAudioObjectForHrtf</b> interface inherits from <a href="coreaudio.ispatialaudioobjectbase">ISpatialAudioObjectBase</a>. <b>ISpatialAudioObjectForHrtf</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISpatialAudioObjectForHrtf</b> interface inherits from <a href="https://msdn.microsoft.com/library/Mt829727(v=VS.85).aspx">ISpatialAudioObjectBase</a>. <b>ISpatialAudioObjectForHrtf</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -133,7 +133,7 @@ Sets the position in 3D space, relative to the listener, from which the <b>ISpat
 
 
 
-<div class="alert"><b>Note</b>  Many of the methods provided by this interface are implemented in the inherited <a href="coreaudio.ispatialaudioobjectbase">ISpatialAudioObjectBase</a> interface.</div>
+<div class="alert"><b>Note</b>  Many of the methods provided by this interface are implemented in the inherited <a href="https://msdn.microsoft.com/library/Mt829727(v=VS.85).aspx">ISpatialAudioObjectBase</a> interface.</div>
 <div> </div>
 
 
@@ -143,7 +143,7 @@ Sets the position in 3D space, relative to the listener, from which the <b>ISpat
 
 
 
-<a href="coreaudio.ispatialaudioobjectbase">ISpatialAudioObjectBase</a>
+<a href="https://msdn.microsoft.com/library/Mt829727(v=VS.85).aspx">ISpatialAudioObjectBase</a>
  
 
  

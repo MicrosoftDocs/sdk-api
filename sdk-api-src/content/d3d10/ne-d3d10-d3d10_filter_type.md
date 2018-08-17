@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_filter_type.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_filter_type.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 137ceae1-1546-228a-f67c-1e9ba1c8ef29, D3D10_FILTER_TYPE, D3D10_FILTER_TYPE enumeration [Direct3D 10], D3D10_FILTER_TYPE_LINEAR, D3D10_FILTER_TYPE_POINT, d3d10/D3D10_FILTER_TYPE, d3d10/D3D10_FILTER_TYPE_LINEAR, d3d10/D3D10_FILTER_TYPE_POINT, direct3d10.d3d10_filter_type
 ms.prod: windows
 ms.technology: windows-sdk

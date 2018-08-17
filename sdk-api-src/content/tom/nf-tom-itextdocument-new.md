@@ -95,7 +95,7 @@ If another document is open, this method saves any current changes and closes th
 
 
 
-<a href="https://msdn.microsoft.com/6ea20837-4987-49c9-88e5-81d79c9016ac">Open</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774093(v=VS.85).aspx">Open</a>
 
 
 

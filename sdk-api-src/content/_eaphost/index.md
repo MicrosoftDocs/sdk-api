@@ -2,7 +2,7 @@
 UID: TP:eaphost
 ms.assetid: bfd933dc-0ef7-3b44-91ff-81467060c7da
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IUPnPDevice::get_ModelURL
 author: windows-sdk-content
 description: The ModelURL property specifies the URL for a Web page that contains model-specific information for the device.
 old-location: upnp\iupnpdevice_modelurl.htm
-old-project: upnp
+old-project: UPnP
 ms.assetid: e9f3231a-5836-4629-9df5-6ed9184fb753
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/15/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_ModelURL method, IUPnPDevice.get_ModelURL, IUPnPDevice::get_ModelURL, _upnp_iupnpdevice_modelurl, get_ModelURL, get_ModelURL method [UPnP APIs], get_ModelURL method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_modelurl, upnp/IUPnPDevice::get_ModelURL
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ The
 
 ### -param pbstr [out]
 
-Receives a reference to a string that contains the URL. Release this string with <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> when it is no longer required. If the device does not specify this URL, this parameter is set to <b>NULL</b>.
+Receives a reference to a string that contains the URL. Release this string with <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> when it is no longer required. If the device does not specify this URL, this parameter is set to <b>NULL</b>.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: display\dd_createsurfaceexdata.htm
 old-project: display
 ms.assetid: 61965d6b-7473-4121-8c85-fb677a665388
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/13/2018
 ms.keywords: "*PDD_CREATESURFACEEXDATA, DD_CREATESURFACEEXDATA, DD_CREATESURFACEEXDATA structure [Display Devices], _DD_CREATESURFACEEXDATA, d3dstrct_221c1055-03a3-4b43-bef4-8b0fbd6eb45e.xml, ddrawint/DD_CREATESURFACEEXDATA, display.dd_createsurfaceexdata"
 ms.prod: windows
 ms.technology: windows-sdk

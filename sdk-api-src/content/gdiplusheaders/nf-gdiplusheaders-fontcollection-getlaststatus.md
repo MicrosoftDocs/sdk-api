@@ -66,14 +66,14 @@ The <b>FontCollection::GetLastStatus</b> method returns a value that indicates t
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
 </strong>
 
-The <b>FontCollection::GetLastStatus</b> method returns an element of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+The <b>FontCollection::GetLastStatus</b> method returns an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
 
 If the previous method invoked on this <a href="https://msdn.microsoft.com/en-us/library/ms534438(v=VS.85).aspx">FontCollection</a> object succeeded, <b>FontCollection::GetLastStatus</b> returns Ok.
 
-If the previous method failed, then <b>FontCollection::GetLastStatus</b> returns one of the other elements of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration that indicates the nature of the failure.
+If the previous method failed, then <b>FontCollection::GetLastStatus</b> returns one of the other elements of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration that indicates the nature of the failure.
 
 
 

@@ -79,7 +79,7 @@ Returns the locale identifier to be used with property and wizard pages.
 
 
 
-<a href="https://msdn.microsoft.com/5d89c4b8-0554-4672-9e06-2ce7c5d15d5f">Failover Cluster Administrator</a> extensions call the 
+<a href="https://msdn.microsoft.com/en-us/library/Aa369060(v=VS.85).aspx">Failover Cluster Administrator</a> extensions call the 
      <b>GetLocale</b> method to retrieve the locale 
      identifier that can be used for loading dialog resources. A single Failover Cluster Administrator extension DLL 
      can support multiple languages.
@@ -92,7 +92,7 @@ Returns the locale identifier to be used with property and wizard pages.
 
 
 
-<a href="https://msdn.microsoft.com/e41afb20-5bb8-475f-a056-53d7be8f4bf0">IGetClusterUIInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa370234(v=VS.85).aspx">IGetClusterUIInfo</a>
  
 
  

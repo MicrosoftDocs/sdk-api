@@ -150,7 +150,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 For more information about leaf node terms (property, value, and operation), see 
 <a href="https://msdn.microsoft.com/en-us/library/Bb231391(v=VS.85).aspx">ICondition::GetInputTerms</a>.
 
-A virtual property has one or more metadata items in which the key is "MapsToRelation" and the value is a property name (which is one expansion of the property). For more information about metadata, see <a href="https://msdn.microsoft.com/b3322f0c-8929-4f0f-8d2d-44f063ff83db">MetaData</a>. 
+A virtual property has one or more metadata items in which the key is "MapsToRelation" and the value is a property name (which is one expansion of the property). For more information about metadata, see <a href="https://msdn.microsoft.com/en-us/library/Bb231341(v=VS.85).aspx">MetaData</a>. 
      
 
 

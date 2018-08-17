@@ -7,7 +7,7 @@ old-location: security\gettrusteeform.htm
 old-project: secauthz
 ms.assetid: e5e450b8-0b7b-4324-b453-5c020e74b1ee
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: GetTrusteeForm, GetTrusteeForm function [Security], GetTrusteeFormA, GetTrusteeFormW, _win32_gettrusteeform, aclapi/GetTrusteeForm, aclapi/GetTrusteeFormA, aclapi/GetTrusteeFormW, security.gettrusteeform
 ms.prod: windows
 ms.technology: windows-sdk

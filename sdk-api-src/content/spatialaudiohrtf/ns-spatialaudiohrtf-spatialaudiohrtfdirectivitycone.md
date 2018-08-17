@@ -7,7 +7,7 @@ old-location: coreaudio\spatialaudiohrtfdirectivitycone.htm
 old-project: CoreAudio
 ms.assetid: C34F26C2-4979-4C06-8EAC-64547745238F
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/14/2018
 ms.keywords: PSpatialAudioHrtfDirectivityCone, PSpatialAudioHrtfDirectivityCone structure pointer [Core Audio], SpatialAudioHrtfDirectivityCone, SpatialAudioHrtfDirectivityCone structure [Core Audio], coreaudio.spatialaudiohrtfdirectivitycone, spatialaudiohrtf/PSpatialAudioHrtfDirectivityCone, spatialaudiohrtf/SpatialAudioHrtfDirectivityCone
 ms.prod: windows
 ms.technology: windows-sdk

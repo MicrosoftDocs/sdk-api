@@ -499,7 +499,7 @@ Despite its name, this attribute can be set for basic and dynamic disks.
 If this attribute is set, the partition is read-only. 
 
 All requests to write to the partition will fail.  
-          <a href="base.ioctl_disk_is_writable">IOCTL_DISK_IS_WRITABLE</a> will fail with the ERROR_WRITE_PROTECT Win32 error code, which causes the file system to mount as read-only, if a file system is present. 
+          <a href="https://msdn.microsoft.com/en-us/library/Aa365182(v=VS.85).aspx">IOCTL_DISK_IS_WRITABLE</a> will fail with the ERROR_WRITE_PROTECT Win32 error code, which causes the file system to mount as read-only, if a file system is present. 
 
 VSS uses this attribute.
 

@@ -54,7 +54,7 @@ req.irql:
 ## -description
 
 
-Sets the name for a <a href="c_gly.htm">cluster</a>. The <b>PCLUSAPI_SetClusterName</b> type defines a pointer to this function.
+Sets the name for a <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>. The <b>PCLUSAPI_SetClusterName</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -79,7 +79,7 @@ Pointer to a null-terminated Unicode string containing the new cluster name.
 If the operation succeeds, the function returns <b>ERROR_RESOURCE_PROPERTIES_STORED</b>.
 
 If the operation fails, 
-the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>.
+the function returns a <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>.
 
 
 
@@ -88,9 +88,9 @@ the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f
 
 
 
-The cluster name is stored in the  <a href="https://msdn.microsoft.com/09903bd1-1049-462f-9a11-b680763e3c36">Name</a> private property of the core  <a href="https://msdn.microsoft.com/7b5b9d3f-98ab-419b-936e-26e9e5fc022d">Network Name</a> resource (that is, the Network Name resource of the cluster). Because of possible dependencies on this resource, the change is not effective until the Network Name resource is brought back online.
+The cluster name is stored in the  <a href="https://msdn.microsoft.com/en-us/library/Aa371735(v=VS.85).aspx">Name</a> private property of the core  <a href="https://msdn.microsoft.com/en-us/library/Aa371733(v=VS.85).aspx">Network Name</a> resource (that is, the Network Name resource of the cluster). Because of possible dependencies on this resource, the change is not effective until the Network Name resource is brought back online.
 
-Do not call  <b>SetClusterName</b> from a resource DLL. For more information, see  <a href="https://msdn.microsoft.com/0eaa4aea-8d9a-4552-b43a-fafa23a3e736">Function Calls to Avoid in Resource DLLs</a>.
+Do not call  <b>SetClusterName</b> from a resource DLL. For more information, see  <a href="https://msdn.microsoft.com/en-us/library/Aa369588(v=VS.85).aspx">Function Calls to Avoid in Resource DLLs</a>.
 
 
 
@@ -100,7 +100,7 @@ Do not call  <b>SetClusterName</b> from a resource DLL. For more information, se
 
 
 
-<a href="https://msdn.microsoft.com/09903bd1-1049-462f-9a11-b680763e3c36">Name</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa371735(v=VS.85).aspx">Name</a>
  
 
  

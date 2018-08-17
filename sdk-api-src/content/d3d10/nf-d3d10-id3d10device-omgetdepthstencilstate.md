@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_omgetdepthstencilstate.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_omgetdepthstencilstate.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 5fead180-40d5-ddfe-7065-11f773e4032e, ID3D10Device interface [Direct3D 10],OMGetDepthStencilState method, ID3D10Device.OMGetDepthStencilState, ID3D10Device::OMGetDepthStencilState, OMGetDepthStencilState, OMGetDepthStencilState method [Direct3D 10], OMGetDepthStencilState method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::OMGetDepthStencilState, direct3d10.id3d10device_omgetdepthstencilstate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,7 +69,7 @@ Address of a pointer to a depth-stencil state interface (see <a href="https://ms
 
 ### -param pStencilRef [out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a>*</b>
 
 Pointer to the stencil reference value used in the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">depth-stencil</a> test.
 
@@ -87,7 +87,7 @@ Returns nothing.
 
 
 
-Any returned interfaces will have their reference count incremented by one. Applications should call <a href="http://msdn.microsoft.com/en-us/library/ms682317(VS.85).aspx">IUnknown::Release</a> on the returned interfaces when they are no longer needed to avoid memory leaks.
+Any returned interfaces will have their reference count incremented by one. Applications should call <a href="https://msdn.microsoft.com/en-us/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> on the returned interfaces when they are no longer needed to avoid memory leaks.
 
 
 

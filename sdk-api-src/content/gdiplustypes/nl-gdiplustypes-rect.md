@@ -91,9 +91,9 @@ Creates a <b>Rect</b> object by using four integers to initialize the
 <a href="https://msdn.microsoft.com/en-us/library/ms534988(v=VS.85).aspx">Rect::Rect(Point&,Size&)</a>
 </td>
 <td align="left" width="63%">
-Creates a <b>Rect</b> object by using a <a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a> object to initialize the 
+Creates a <b>Rect</b> object by using a <a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a> object to initialize the 
 			<b>X</b> and 
-			<b>Y</b> data members and a <a href="https://msdn.microsoft.com/d5be390d-11c7-47e3-8cd0-335fb6b031fd">Size</a> object to initialize the 
+			<b>Y</b> data members and a <a href="https://msdn.microsoft.com/en-us/library/ms534504(v=VS.85).aspx">Size</a> object to initialize the 
 			<b>Width</b> and 
 			<b>Height</b> data members.
 

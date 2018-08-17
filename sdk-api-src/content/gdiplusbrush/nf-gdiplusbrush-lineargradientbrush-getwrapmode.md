@@ -154,7 +154,7 @@ The following example creates a linear gradient brush and sets its wrap mode. Ne
 
 
 
-<a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a>
 
 
 

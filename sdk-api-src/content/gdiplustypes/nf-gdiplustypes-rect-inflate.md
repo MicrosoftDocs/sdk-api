@@ -54,7 +54,7 @@ req.product: GDI+ 1.0
 
 <span>This topic lists the 
 			Inflate methods of the 
-			<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a> class. For a complete list of methods for the 
+			<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a> class. For a complete list of methods for the 
 			<b>Rect</b> class, see <a href="https://msdn.microsoft.com/en-us/library/ms534961(v=VS.85).aspx">Rect Methods</a>. 
 </span><h3>Overload list</h3><table>
 <tr>

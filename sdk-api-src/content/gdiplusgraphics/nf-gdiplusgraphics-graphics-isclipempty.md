@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>Graphics::IsClipEmpty</b> method determines whether the clipping region of this <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object is empty.
+The <b>Graphics::IsClipEmpty</b> method determines whether the clipping region of this <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object is empty.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ The <b>Graphics::IsClipEmpty</b> method determines whether the clipping region o
 Type: <strong>Type: <b>BOOL</b>
 </strong>
 
-If the clipping region of a <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object is empty, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
+If the clipping region of a <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object is empty, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 
 
 
@@ -78,7 +78,7 @@ If the clipping region of a <a href="https://msdn.microsoft.com/7e874710-3cd3-42
 
 
 
-If the clipping region of a <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object is empty, there is no area left in which to draw. Consequently, nothing will be drawn when the clipping region is empty.
+If the clipping region of a <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object is empty, there is no area left in which to draw. Consequently, nothing will be drawn when the clipping region is empty.
 
 
 #### Examples
@@ -126,7 +126,7 @@ The following example determines whether the clipping region is empty and, if it
 
 
 
-<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
 
 
 
@@ -142,7 +142,7 @@ The following example determines whether the clipping region is empty and, if it
 
 
 
-<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>
 
 
 

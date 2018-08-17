@@ -98,7 +98,7 @@ An array of values describing control points; the maximum length of control poin
 
 
 
-To get a list of the capabilities for controlling gamma correction, call <a href="https://msdn.microsoft.com/bb9adbe7-74b2-41c6-987d-d292d0f80b62">IDXGIOutput::GetGammaControlCapabilities</a>.
+To get a list of the capabilities for controlling gamma correction, call <a href="https://msdn.microsoft.com/en-us/library/Bb174553(v=VS.85).aspx">IDXGIOutput::GetGammaControlCapabilities</a>.
 
 For info about using gamma correction, see <a href="https://msdn.microsoft.com/97ACDAE3-514E-4AAF-A27D-E5FFC162DB2A">Using gamma correction</a>. 
 

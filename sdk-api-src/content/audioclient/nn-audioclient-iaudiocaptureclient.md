@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiocaptureclient.htm
 old-project: CoreAudio
 ms.assetid: c0fa6841-56bf-421e-9949-c6a037cf9fd4
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/14/2018
 ms.keywords: IAudioCaptureClient, IAudioCaptureClient interface [Core Audio], IAudioCaptureClient interface [Core Audio],described, audioclient/IAudioCaptureClient, coreaudio.iaudiocaptureclient
 ms.prod: windows
 ms.technology: windows-sdk

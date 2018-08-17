@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_operationoptions_getpromptusermode.htm
 old-project: wmi_v2
 ms.assetid: 611e2798-4ab5-405b-9586-5054fe14cd96
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/13/2018
 ms.keywords: MI_OperationOptions_GetPromptUserMode, MI_OperationOptions_GetPromptUserMode function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_GetPromptUserMode, wmi_v2.mi_operationoptions_getpromptusermode
 ms.prod: windows
 ms.technology: windows-sdk

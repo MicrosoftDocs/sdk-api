@@ -56,9 +56,9 @@ Used to activate the COM+ component load balancing service.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICOMLBArguments</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ICOMLBArguments</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICOMLBArguments</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ICOMLBArguments</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>ICOMLBArguments</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0475bd9e-dcde-47e4-b9e4-bcaa6d0ad919">GetCLSID</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms678866(v=VS.85).aspx">GetCLSID</a>
 </td>
 <td align="left" width="63%">
 Retrieves the object's CLSID.
@@ -80,7 +80,7 @@ Retrieves the object's CLSID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b1f6adc8-2e89-4f64-9694-2342c967a142">GetMachineName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms685973(v=VS.85).aspx">GetMachineName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the computer name for the load balancing server.
@@ -89,7 +89,7 @@ Retrieves the computer name for the load balancing server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/66f24611-0f98-4226-858b-90fef35cc257">SetCLSID</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms681808(v=VS.85).aspx">SetCLSID</a>
 </td>
 <td align="left" width="63%">
 Sets the object's CLSID.
@@ -98,7 +98,7 @@ Sets the object's CLSID.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/55f9d45e-5c36-4f02-9a9d-111ad4abf016">SetMachineName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms681313(v=VS.85).aspx">SetMachineName</a>
 </td>
 <td align="left" width="63%">
 Sets the computer name for the load balancing server.
@@ -113,7 +113,7 @@ Sets the computer name for the load balancing server.
 
 
 
-<a href="https://msdn.microsoft.com/ce2edece-6375-4101-b288-c250fb21cfb7">ISelectCOMLBServer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686509(v=VS.85).aspx">ISelectCOMLBServer</a>
  
 
  

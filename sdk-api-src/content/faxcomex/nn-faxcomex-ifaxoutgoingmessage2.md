@@ -80,7 +80,7 @@ The <b>IFaxOutgoingMessage2</b> interface has these methods.
 <a href="https://msdn.microsoft.com/en-us/library/Aa358989(v=VS.85).aspx">Refresh</a>
 </td>
 <td align="left" width="63%">
-Refreshes <a href="https://msdn.microsoft.com/en-us/library/ms690149(v=VS.85).aspx">FaxOutgoingMessage</a> object information from the fax server. When the <a href="https://msdn.microsoft.com/en-us/library/Aa358989(v=VS.85).aspx">Refresh</a> method is called, any configuration changes made after the last <a href="https://msdn.microsoft.com/e0492e6e-db3e-449c-b58b-ff365d80d5f7">Save</a> method call are lost.
+Refreshes <a href="https://msdn.microsoft.com/en-us/library/ms690149(v=VS.85).aspx">FaxOutgoingMessage</a> object information from the fax server. When the <a href="https://msdn.microsoft.com/en-us/library/Aa358989(v=VS.85).aspx">Refresh</a> method is called, any configuration changes made after the last <a href="https://msdn.microsoft.com/en-us/library/Aa358990(v=VS.85).aspx">Save</a> method call are lost.
 
 
 
@@ -90,7 +90,7 @@ Refreshes <a href="https://msdn.microsoft.com/en-us/library/ms690149(v=VS.85).as
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e0492e6e-db3e-449c-b58b-ff365d80d5f7">Save</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358990(v=VS.85).aspx">Save</a>
 </td>
 <td align="left" width="63%">
 Saves the <a href="https://msdn.microsoft.com/en-us/library/ms690149(v=VS.85).aspx">FaxOutgoingMessage</a> object's data.
@@ -132,7 +132,7 @@ Indicates if the fax has a cover page.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/fbeda393-943d-4d4a-9a61-62ace812c903">Read</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358986(v=VS.85).aspx">Read</a>
 
 
 </td>

@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_constuint32field.htm
 old-project: wmi_v2
 ms.assetid: c37e773e-2df4-4445-883d-9c211d0875bb
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/13/2018
 ms.keywords: MI_ConstUint32Field, MI_ConstUint32Field structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, _MI_ConstUint32Field, mi/MI_ConstUint32Field, wmi._mi_constuint32field, wmi_v2.mi_constuint32field
 ms.prod: windows
 ms.technology: windows-sdk

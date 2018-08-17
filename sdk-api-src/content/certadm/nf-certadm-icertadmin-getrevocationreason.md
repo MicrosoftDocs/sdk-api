@@ -4,10 +4,10 @@ title: ICertAdmin::GetRevocationReason
 author: windows-sdk-content
 description: Returns the reason a certificate was revoked. This method was first defined in the ICertAdmin interface.
 old-location: security\icertadmin2_getrevocationreason.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 244b121a-76ba-44fd-b15d-f076b722b030
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: CCertAdmin object [Security],GetRevocationReason method, GetRevocationReason, GetRevocationReason method [Security], GetRevocationReason method [Security],CCertAdmin object, GetRevocationReason method [Security],ICertAdmin interface, GetRevocationReason method [Security],ICertAdmin2 interface, ICertAdmin interface [Security],GetRevocationReason method, ICertAdmin.GetRevocationReason, ICertAdmin2 interface [Security],GetRevocationReason method, ICertAdmin2::GetRevocationReason, ICertAdmin::GetRevocationReason, certadm/ICertAdmin2::GetRevocationReason, certadm/ICertAdmin::GetRevocationReason, security.icertadmin2_getrevocationreason
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,10 +53,10 @@ req.irql:
 ## -description
 
 
-The <b>GetRevocationReason</b> method  returns  the reason a certificate was revoked. This method was first defined in the <a href="https://msdn.microsoft.com/e906b69b-5574-4dd5-aa30-9c2a67972202">ICertAdmin</a> interface.
+The <b>GetRevocationReason</b> method  returns  the reason a certificate was revoked. This method was first defined in the <a href="https://msdn.microsoft.com/en-us/library/Aa383233(v=VS.85).aspx">ICertAdmin</a> interface.
 
 Before you call this method, you must call the 
-<a href="https://msdn.microsoft.com/cd133c57-a62e-4083-b4fd-7eaf0c9e7606">IsValidCertificate</a> method. For more information, see Remarks.
+<a href="https://msdn.microsoft.com/en-us/library/Aa383247(v=VS.85).aspx">IsValidCertificate</a> method. For more information, see Remarks.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ A pointer to a variable that will receive the revocation reason.
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK, and  the <i>pReason</i> parameter is set to one of the values listed in the following table.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  Returns a value that specifies the reason the certificate was revoked. The value can be one of the following revocation reason codes (defined in Wincrypt.h).
@@ -174,7 +174,7 @@ The certificate has been placed on hold.
 
 
 Before you call <b>GetRevocationReason</b>, call the 
-<a href="https://msdn.microsoft.com/cd133c57-a62e-4083-b4fd-7eaf0c9e7606">IsValidCertificate</a> method to retrieve the disposition of the certificate. To call <b>GetRevocationReason</b>, you must receive a certificate disposition CA_DISP_REVOKED from this earlier call, indicating that the certificate has been revoked. The call to <b>IsValidCertificate</b> establishes the identity of the certificate whose revocation reason you want to retrieve.
+<a href="https://msdn.microsoft.com/en-us/library/Aa383247(v=VS.85).aspx">IsValidCertificate</a> method to retrieve the disposition of the certificate. To call <b>GetRevocationReason</b>, you must receive a certificate disposition CA_DISP_REVOKED from this earlier call, indicating that the certificate has been revoked. The call to <b>IsValidCertificate</b> establishes the identity of the certificate whose revocation reason you want to retrieve.
 
 Administration tasks use DCOM. Code that calls this interface method as defined in an earlier version of Certadm.h will run on Windows-based servers as long as the client and the server are both running the same Windows operating system.
 
@@ -215,19 +215,19 @@ if (CA_DISP_REVOKED == nDisp)
 
 
 
-<a href="https://msdn.microsoft.com/df40b6ac-825d-4e8d-a80b-6e57a4e740a2">CCertAdmin</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383234(v=VS.85).aspx">CCertAdmin</a>
 
 
 
-<a href="https://msdn.microsoft.com/e906b69b-5574-4dd5-aa30-9c2a67972202">ICertAdmin</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383233(v=VS.85).aspx">ICertAdmin</a>
 
 
 
-<a href="https://msdn.microsoft.com/df40b6ac-825d-4e8d-a80b-6e57a4e740a2">ICertAdmin2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383234(v=VS.85).aspx">ICertAdmin2</a>
 
 
 
-<a href="https://msdn.microsoft.com/cd133c57-a62e-4083-b4fd-7eaf0c9e7606">IsValidCertificate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383247(v=VS.85).aspx">IsValidCertificate</a>
  
 
  

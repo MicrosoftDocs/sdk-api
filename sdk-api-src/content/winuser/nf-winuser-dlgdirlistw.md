@@ -198,7 +198,7 @@ Includes system files.
 </dl>
 </td>
 <td width="60%">
-If set, <b>DlgDirList</b> uses the <a href="https://msdn.microsoft.com/en-us/library/ms644944(v=VS.85).aspx">PostMessage</a> function to send messages to the list box. If not set, <b>DlgDirList</b> uses the <a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a> function.
+If set, <b>DlgDirList</b> uses the <a href="https://msdn.microsoft.com/en-us/library/ms644944(v=VS.85).aspx">PostMessage</a> function to send messages to the list box. If not set, <b>DlgDirList</b> uses the <a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a> function.
 
 </td>
 </tr>

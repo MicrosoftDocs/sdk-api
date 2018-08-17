@@ -318,7 +318,7 @@ Retrieves the widow and orphan control state for the paragraphs in a range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7aeea001-9144-4199-91dc-22c1085d38de">IsEqual</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787847(v=VS.85).aspx">IsEqual</a>
 </td>
 <td align="left" width="63%">
 Determines if the current range has the same properties as a specified range.
@@ -327,7 +327,7 @@ Determines if the current range has the same properties as a specified range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1952c4b7-9f78-49a9-ba4b-a9c666fa1010">Reset</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787849(v=VS.85).aspx">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the paragraph formatting to a choice of default values. 

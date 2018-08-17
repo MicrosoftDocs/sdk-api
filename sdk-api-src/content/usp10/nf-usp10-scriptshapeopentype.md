@@ -122,7 +122,7 @@ Maximum number of glyphs to generate.
 
 ### -param pwLogClust [out]
 
-Pointer to a buffer in which this function retrieves an array of logical <a href="uniscribe_glossary.htm">cluster</a> information. Each array element corresponds to a character in the array of Unicode characters. The value of each element is the offset from the first glyph in the run to the first glyph in the cluster containing the corresponding character. Note that, when the <b>fRTL</b> member of the <a href="https://msdn.microsoft.com/c673d5cc-c4ca-4238-8090-55abe3db324b">SCRIPT_ANALYSIS</a> structure is <b>TRUE</b>, the elements decrease as the array is read.
+Pointer to a buffer in which this function retrieves an array of logical <a href="https://msdn.microsoft.com/en-us/library/Dd374094(v=VS.85).aspx">cluster</a> information. Each array element corresponds to a character in the array of Unicode characters. The value of each element is the offset from the first glyph in the run to the first glyph in the cluster containing the corresponding character. Note that, when the <b>fRTL</b> member of the <a href="https://msdn.microsoft.com/c673d5cc-c4ca-4238-8090-55abe3db324b">SCRIPT_ANALYSIS</a> structure is <b>TRUE</b>, the elements decrease as the array is read.
 
 
 ### -param pCharProps [out]

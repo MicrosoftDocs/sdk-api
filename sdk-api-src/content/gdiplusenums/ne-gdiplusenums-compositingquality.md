@@ -53,7 +53,7 @@ req.product: GDI+ 1.0
 
 
 The <b>CompositingQuality</b> enumeration specifies whether gamma correction is applied when colors are blended with background colors. This enumeration is used by the <a href="https://msdn.microsoft.com/en-us/library/ms535701(v=VS.85).aspx">Graphics::GetCompositingQuality</a> and <a href="https://msdn.microsoft.com/en-us/library/ms535809(v=VS.85).aspx">Graphics::SetCompositingQuality</a> methods of the 
-			<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> class.
+			<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> class.
 
 
 ## -enum-fields

@@ -56,9 +56,9 @@ Retrieves information about a tracking information collection.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComTrackingInfoCollection</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IComTrackingInfoCollection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComTrackingInfoCollection</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IComTrackingInfoCollection</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>IComTrackingInfoCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/72578a4e-bc23-4bc8-ab40-346ba9c5a6d7">Count</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms682778(v=VS.85).aspx">Count</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of objects in a tracking information collection.
@@ -80,7 +80,7 @@ Retrieves the number of objects in a tracking information collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/61da742b-d8cd-48db-a9b7-c754b8963907">Item</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms681784(v=VS.85).aspx">Item</a>
 </td>
 <td align="left" width="63%">
 Retrieves the specified interface from a specified member of a tracking information collection.
@@ -89,7 +89,7 @@ Retrieves the specified interface from a specified member of a tracking informat
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ee7c16ac-be47-44e7-b8a6-46a7ec29a2c1">Type</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687754(v=VS.85).aspx">Type</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of a tracking information collection.
@@ -104,11 +104,11 @@ Retrieves the type of a tracking information collection.
 
 
 
-<a href="https://msdn.microsoft.com/07f68734-a382-4fe5-86af-90805f61c68d">COM+ Instrumentation</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms678896(v=VS.85).aspx">COM+ Instrumentation</a>
 
 
 
-<a href="https://msdn.microsoft.com/ad3bdeb5-f303-411a-abfb-ccde3f9a86b9">COM+ Tracking</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd179218(v=VS.85).aspx">COM+ Tracking</a>
  
 
  

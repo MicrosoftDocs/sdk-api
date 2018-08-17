@@ -140,7 +140,7 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 
-<a href="https://msdn.microsoft.com/b90473fe-eb8c-463a-971c-422c108dec1d">SetupDiGetClassProperty</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff551086(v=VS.85).aspx">SetupDiGetClassProperty</a>
 
 
 

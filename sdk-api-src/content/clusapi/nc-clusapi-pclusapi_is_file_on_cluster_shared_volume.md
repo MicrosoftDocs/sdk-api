@@ -77,7 +77,7 @@ A Unicode string that specifies the path of the cluster shared volume. The strin
 If the function succeeds, it returns <b>ERROR_SUCCESS</b>.
 
 If the function fails, 
-it returns one of the <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>.
+it returns one of the <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error codes</a>.
 
 
 
@@ -87,7 +87,7 @@ it returns one of the <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f0
 
 
 
-<a href="https://msdn.microsoft.com/d1f7360d-f592-49fb-b3b4-60d93afd7c6f">Failover Cluster Resource Management Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa372262(v=VS.85).aspx">Failover Cluster Resource Management Functions</a>
  
 
  

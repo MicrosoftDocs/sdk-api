@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10buffer_map.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10buffer_map.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 7d41a2a2-1ba6-cc42-c30b-821d5734b5c3, ID3D10Buffer interface [Direct3D 10],Map method, ID3D10Buffer.Map, ID3D10Buffer::Map, Map, Map method [Direct3D 10], Map method [Direct3D 10],ID3D10Buffer interface, d3d10/ID3D10Buffer::Map, direct3d10.id3d10buffer_map
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,7 +69,7 @@ Flag that specifies the CPU's permissions for the reading and writing of a resou
 
 ### -param MapFlags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Flag that specifies what the CPU should do when the GPU is busy (see <a href="https://msdn.microsoft.com/en-us/library/Bb205321(v=VS.85).aspx">D3D10_MAP_FLAG</a>). This flag is optional.
 

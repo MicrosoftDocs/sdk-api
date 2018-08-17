@@ -61,7 +61,7 @@ Gets the rectangle for a specified group. Use this macro or send the <a href="ht
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 A handle to the list-view control.
 
@@ -75,7 +75,7 @@ Specifies the group by <b>iGroupId</b> (see <a href="https://msdn.microsoft.com/
 
 ### -param type [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LONG</a></b>
 
 Specifies the type of rectangle to retrieve. This parameter must be one of the following values. 
 

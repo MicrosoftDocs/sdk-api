@@ -122,7 +122,7 @@ This method returns one of the following error codes.
 
 
 
-<a href="https://msdn.microsoft.com/BBC4C5BC-2DA0-48BD-B182-FBF62A2491A7">ID3D11VideoProcessorEnumerator1</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn894146(v=VS.85).aspx">ID3D11VideoProcessorEnumerator1</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_resource_return_type.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_resource_return_type.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: D3D10_RESOURCE_RETURN_TYPE, D3D10_RESOURCE_RETURN_TYPE enumeration [Direct3D 10], D3D10_RETURN_TYPE_FLOAT, D3D10_RETURN_TYPE_MIXED, D3D10_RETURN_TYPE_SINT, D3D10_RETURN_TYPE_SNORM, D3D10_RETURN_TYPE_UINT, D3D10_RETURN_TYPE_UNORM, D3D_RESOURCE_RETURN_TYPE, b94e184e-c3af-ff27-27e0-19f7b353b053, d3d10shader/D3D10_RESOURCE_RETURN_TYPE, d3d10shader/D3D10_RETURN_TYPE_FLOAT, d3d10shader/D3D10_RETURN_TYPE_MIXED, d3d10shader/D3D10_RETURN_TYPE_SINT, d3d10shader/D3D10_RETURN_TYPE_SNORM, d3d10shader/D3D10_RETURN_TYPE_UINT, d3d10shader/D3D10_RETURN_TYPE_UNORM, d3dcommon/D3D10_RESOURCE_RETURN_TYPE, d3dcommon/D3D10_RETURN_TYPE_FLOAT, d3dcommon/D3D10_RETURN_TYPE_MIXED, d3dcommon/D3D10_RETURN_TYPE_SINT, d3dcommon/D3D10_RETURN_TYPE_SNORM, d3dcommon/D3D10_RETURN_TYPE_UINT, d3dcommon/D3D10_RETURN_TYPE_UNORM, direct3d10.d3d10_resource_return_type
 ms.prod: windows
 ms.technology: windows-sdk

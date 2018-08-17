@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_vsgetconstantbuffers.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_vsgetconstantbuffers.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 2359bc62-0205-acb7-f462-1ceafd1f8b80, ID3D10Device interface [Direct3D 10],VSGetConstantBuffers method, ID3D10Device.VSGetConstantBuffers, ID3D10Device::VSGetConstantBuffers, VSGetConstantBuffers, VSGetConstantBuffers method [Direct3D 10], VSGetConstantBuffers method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::VSGetConstantBuffers, direct3d10.id3d10device_vsgetconstantbuffers
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,14 +62,14 @@ Get the <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx
 
 ### -param StartSlot [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Index into the device's zero-based array to begin retrieving constant buffers from.
 
 
 ### -param NumBuffers [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Number of buffers to retrieve.
 

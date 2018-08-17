@@ -89,7 +89,7 @@ Retrieves the number of threads currently in the pool.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/93404c39-b4f8-4247-a437-fd373b0b68fe">GetDeleteDelay</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684244(v=VS.85).aspx">GetDeleteDelay</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of milliseconds a pooled thread can idle before being destroyed.
@@ -98,7 +98,7 @@ Retrieves the number of milliseconds a pooled thread can idle before being destr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/349e6635-5ba6-4b8e-b321-8ffd87cd762c">GetMaxQueuedRequests</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms679804(v=VS.85).aspx">GetMaxQueuedRequests</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum number of asynchronous execution requests that can be simultaneously queued.
@@ -107,7 +107,7 @@ Retrieves the maximum number of asynchronous execution requests that can be simu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cf99a8f3-fe48-41f3-9162-8550981520a2">GetMaxThreads</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686532(v=VS.85).aspx">GetMaxThreads</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum number of threads that are allowed in the pool.
@@ -116,7 +116,7 @@ Retrieves the maximum number of threads that are allowed in the pool.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dd01dc40-fbf6-48f9-bef7-8a935a6adf28">SetDeleteDelay</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687006(v=VS.85).aspx">SetDeleteDelay</a>
 </td>
 <td align="left" width="63%">
 Sets the number of milliseconds a pooled thread can idle before being destroyed.
@@ -125,7 +125,7 @@ Sets the number of milliseconds a pooled thread can idle before being destroyed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/63f579a0-853e-484b-bc49-1c0f4c76d889">SetMaxQueuedRequests</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms681796(v=VS.85).aspx">SetMaxQueuedRequests</a>
 </td>
 <td align="left" width="63%">
 Sets the maximum number of asynchronous execution requests that can be simultaneously queued.
@@ -134,7 +134,7 @@ Sets the maximum number of asynchronous execution requests that can be simultane
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/abca2ec3-4dcd-4770-a500-1d46b87b4cda">SetMaxThreads</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms685191(v=VS.85).aspx">SetMaxThreads</a>
 </td>
 <td align="left" width="63%">
 Sets the maximum number of threads to be allowed in the pool.
@@ -143,7 +143,7 @@ Sets the maximum number of threads to be allowed in the pool.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/17852fb8-7e8e-44bb-99f2-b7b7a5053f49">SetMinThreads</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms679192(v=VS.85).aspx">SetMinThreads</a>
 </td>
 <td align="left" width="63%">
 Sets the minimum number of threads to be maintained in the pool.
@@ -152,7 +152,7 @@ Sets the minimum number of threads to be maintained in the pool.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/42c12d8b-d7e6-4dd3-926c-176638433839">SetQueueDepth</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680625(v=VS.85).aspx">SetQueueDepth</a>
 </td>
 <td align="left" width="63%">
 Sets the threshold number of execution requests above which a new thread is added to the pool.

@@ -99,7 +99,7 @@ Reference to the requested IID of the interface that will represent the created 
 
 Type: <b>void**</b>
 
-When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="shell.IPropertyStore">IPropertyStore</a>.
+When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a>.
 
 
 ## -returns
@@ -117,7 +117,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-This function creates a Component Object Model (COM) object that implements <a href="shell.IPropertyStore">IPropertyStore</a>, 
+This function creates a Component Object Model (COM) object that implements <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a>, 
  <a href="https://msdn.microsoft.com/5f7997ba-a5c8-42b5-90c8-5cb34afd6092">INamedPropertyStore</a>, <a href="https://msdn.microsoft.com/477991e5-0882-475c-9178-c3add695dc2c">IObjectProvider</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb761452(v=VS.85).aspx">IPropertyStoreCapabilities</a>.
 
 Applications must call this object from only one thread at a time.
@@ -127,7 +127,7 @@ You must initialize COM with <a href="https://msdn.microsoft.com/0f171cf4-87b9-4
 
 <a href="https://msdn.microsoft.com/en-us/library/Bb776488(v=VS.85).aspx">PSCreateDelayedMultiplexPropertyStore</a> is designed as an alternative to <a href="https://msdn.microsoft.com/en-us/library/Bb776490(v=VS.85).aspx">PSCreateMultiplexPropertyStore</a>, which requires that the array of property stores be initialized before it creates the multiplex property store.
 
-The delayed binding mechanism is designed as a performance enhancement for calls to <a href="shell.IPropertyStore_GetValue">IPropertyStore::GetValue</a> on a multiplex property store. When asked for the value of a property, the delayed multiplex property store checks each of the property stores for the value. After the value is found, there is no need to create and initialize subsequent stores. The delayed multiplex property store stops searching for a value when one of the property stores returns a success code and a non-VT_EMPTY value.
+The delayed binding mechanism is designed as a performance enhancement for calls to <a href="https://msdn.microsoft.com/en-us/library/Ff536962(v=VS.85).aspx">IPropertyStore::GetValue</a> on a multiplex property store. When asked for the value of a property, the delayed multiplex property store checks each of the property stores for the value. After the value is found, there is no need to create and initialize subsequent stores. The delayed multiplex property store stops searching for a value when one of the property stores returns a success code and a non-VT_EMPTY value.
 
 When the delayed multiplex property store needs to access a particular property store, it first checks to see if it has already obtained an interface to that property store. If not, it calls <a href="https://msdn.microsoft.com/26df5fec-2a21-454e-9539-877c00a4f8fb">IDelayedPropertyStoreFactory::GetDelayedPropertyStore</a> with the appropriate property store ID to obtain the property store. It always uses the property store IDs in the order in which they are provided by the application. It is possible that not all IDs will be used.
 

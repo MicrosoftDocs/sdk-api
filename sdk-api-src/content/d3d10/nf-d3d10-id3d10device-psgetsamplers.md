@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_psgetsamplers.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_psgetsamplers.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 192d3ca7-55ed-f763-e7fe-8bb5eb1322a9, ID3D10Device interface [Direct3D 10],PSGetSamplers method, ID3D10Device.PSGetSamplers, ID3D10Device::PSGetSamplers, PSGetSamplers, PSGetSamplers method [Direct3D 10], PSGetSamplers method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::PSGetSamplers, direct3d10.id3d10device_psgetsamplers
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,14 +62,14 @@ Get an array of sampler states from the <a href="https://msdn.microsoft.com/libr
 
 ### -param StartSlot [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Index into the device's zero-based array to begin getting samplers from.
 
 
 ### -param NumSamplers [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Number of samplers to get from the device. Each pipeline stage has a total of 16 sampler slots available.
 
@@ -94,7 +94,7 @@ Returns nothing.
 
 
 
-Any returned interfaces will have their reference count incremented by one. Applications should call <a href="http://msdn.microsoft.com/en-us/library/ms682317(VS.85).aspx">IUnknown::Release</a> on the returned interfaces when they are no longer needed to avoid memory leaks.
+Any returned interfaces will have their reference count incremented by one. Applications should call <a href="https://msdn.microsoft.com/en-us/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> on the returned interfaces when they are no longer needed to avoid memory leaks.
 
 
 

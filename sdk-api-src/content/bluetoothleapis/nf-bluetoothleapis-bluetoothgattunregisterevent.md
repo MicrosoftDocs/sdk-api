@@ -62,7 +62,7 @@ The <b>BluetoothGATTUnregisterEvent</b> function unregisters the given character
 
 ### -param EventHandle [in]
 
-Handle returned from a previous call to <a href="https://msdn.microsoft.com/8C1477F8-8342-4405-8FE1-8109E6147EE9">BluetoothGATTRegisterEvent</a>.
+Handle returned from a previous call to <a href="https://msdn.microsoft.com/en-us/library/Hh450804(v=VS.85).aspx">BluetoothGATTRegisterEvent</a>.
 
 
 ### -param Flags [in]
@@ -143,7 +143,7 @@ A parameter was invalid.
 
 
 
-<a href="https://msdn.microsoft.com/8C1477F8-8342-4405-8FE1-8109E6147EE9">BluetoothGATTRegisterEvent</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh450804(v=VS.85).aspx">BluetoothGATTRegisterEvent</a>
  
 
  

@@ -61,30 +61,30 @@ Controls the settings of a gamma curve.
 
 ### -field Scale
 
-Type: <b><a href="https://msdn.microsoft.com/a8d01bdd-c6b2-4c0b-862c-ac1ddd615427">DXGI_RGB</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173071(v=VS.85).aspx">DXGI_RGB</a></b>
 
-A <a href="https://msdn.microsoft.com/a8d01bdd-c6b2-4c0b-862c-ac1ddd615427">DXGI_RGB</a> structure with scalar values that are applied to rgb values before being sent to the gamma look up table.
+A <a href="https://msdn.microsoft.com/en-us/library/Bb173071(v=VS.85).aspx">DXGI_RGB</a> structure with scalar values that are applied to rgb values before being sent to the gamma look up table.
 
 
 ### -field Offset
 
-Type: <b><a href="https://msdn.microsoft.com/a8d01bdd-c6b2-4c0b-862c-ac1ddd615427">DXGI_RGB</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173071(v=VS.85).aspx">DXGI_RGB</a></b>
 
-A <a href="https://msdn.microsoft.com/a8d01bdd-c6b2-4c0b-862c-ac1ddd615427">DXGI_RGB</a> structure with offset values that are applied to the rgb values before being sent to the gamma look up table.
+A <a href="https://msdn.microsoft.com/en-us/library/Bb173071(v=VS.85).aspx">DXGI_RGB</a> structure with offset values that are applied to the rgb values before being sent to the gamma look up table.
 
 
 ### -field GammaCurve
 
-Type: <b><a href="https://msdn.microsoft.com/a8d01bdd-c6b2-4c0b-862c-ac1ddd615427">DXGI_RGB</a>[1025]</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173071(v=VS.85).aspx">DXGI_RGB</a>[1025]</b>
 
-An array of <a href="https://msdn.microsoft.com/a8d01bdd-c6b2-4c0b-862c-ac1ddd615427">DXGI_RGB</a> structures that control the points of a gamma curve.
+An array of <a href="https://msdn.microsoft.com/en-us/library/Bb173071(v=VS.85).aspx">DXGI_RGB</a> structures that control the points of a gamma curve.
 
 
 ## -remarks
 
 
 
-The <b>DXGI_GAMMA_CONTROL</b> structure is used by the <a href="https://msdn.microsoft.com/2c0f15a0-f5e5-4360-aa45-9b1453536670">IDXGIOutput::SetGammaControl</a> method.
+The <b>DXGI_GAMMA_CONTROL</b> structure is used by the <a href="https://msdn.microsoft.com/en-us/library/Bb174557(v=VS.85).aspx">IDXGIOutput::SetGammaControl</a> method.
 
 For info about using gamma correction, see <a href="https://msdn.microsoft.com/97ACDAE3-514E-4AAF-A27D-E5FFC162DB2A">Using gamma correction</a>. 
 

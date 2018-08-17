@@ -61,14 +61,14 @@ Sets the day states for all months that are currently visible within a month cal
 
 ### -param hmc
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 Handle to a month calendar control. 
 
 
 ### -param cbds
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">INT</a></b>
 
 Value of type <b>int</b> indicating how many elements are in the array that <i>lpDayStateArray</i> points to. 
 

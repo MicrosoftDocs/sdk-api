@@ -7,7 +7,7 @@ old-location: display\lineattrs.htm
 old-project: display
 ms.assetid: 40fcd6e2-7ed4-433f-ab8b-cc75a305adb9
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/13/2018
 ms.keywords: "*PLINEATTRS, LINEATTRS, LINEATTRS structure [Display Devices], PLINEATTRS, PLINEATTRS structure pointer [Display Devices], _LINEATTRS, display.lineattrs, grstrcts_2e75edb5-bba8-4f62-b7f4-e3af44794eb2.xml, winddi/LINEATTRS, winddi/PLINEATTRS"
 ms.prod: windows
 ms.technology: windows-sdk

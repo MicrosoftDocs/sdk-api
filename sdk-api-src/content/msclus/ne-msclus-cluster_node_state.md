@@ -92,7 +92,7 @@ The node is running but not participating in cluster operations. This value is a
 
 ### -field ClusterNodeJoining
 
-The node is in the process of joining a <a href="c_gly.htm">cluster</a>.
+The node is in the process of joining a <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
 
 
 ## -see-also

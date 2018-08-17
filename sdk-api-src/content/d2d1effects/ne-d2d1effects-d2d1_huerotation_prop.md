@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/D322DB2C-2B8B-4101-BFB2-97E49CAC7BF6">Hue rotate effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh706342(v=VS.85).aspx">Hue rotate effect</a>.
 
 
 ## -enum-fields

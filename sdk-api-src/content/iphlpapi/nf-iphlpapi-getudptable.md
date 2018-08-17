@@ -7,7 +7,7 @@ old-location: iphlp\getudptable.htm
 old-project: iphlp
 ms.assetid: 00e80e90-1a6d-426d-90cd-20b967ebbb8e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: GetUdpTable, GetUdpTable function [IP Helper], _iphlp_getudptable, iphlp.getudptable, iphlpapi/GetUdpTable
 ms.prod: windows
 ms.technology: windows-sdk

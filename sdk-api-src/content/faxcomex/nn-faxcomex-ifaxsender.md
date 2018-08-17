@@ -180,7 +180,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms689597(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/292562dd-9364-4e67-b0a6-7026867a34d0">Email</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms688301(v=VS.85).aspx">Email</a>
 
 
 </td>
@@ -228,7 +228,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms690265(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/ad01dcca-ad01-4aea-80fa-2655ad38015b">Name</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689577(v=VS.85).aspx">Name</a>
 
 
 </td>
@@ -308,7 +308,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms690078(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/46303355-f186-4b5c-80fc-d106b7d7df34">Title</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689144(v=VS.85).aspx">Title</a>
 
 
 </td>
@@ -324,7 +324,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms689144(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/50d42e18-b79c-4356-9222-de506c6105d1">TSID</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms688471(v=VS.85).aspx">TSID</a>
 
 
 </td>

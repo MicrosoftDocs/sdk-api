@@ -7,7 +7,7 @@ old-location: security\getsecuritydescriptorrmcontrol.htm
 old-project: secauthz
 ms.assetid: a1e2ce12-586b-4011-a82d-e246d5544367
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: GetSecurityDescriptorRMControl, GetSecurityDescriptorRMControl function [Security], _win32_getsecuritydescriptorrmcontrol, security.getsecuritydescriptorrmcontrol, securitybaseapi/GetSecurityDescriptorRMControl
 ms.prod: windows
 ms.technology: windows-sdk

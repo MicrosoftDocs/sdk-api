@@ -53,7 +53,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Graphics::GetCompositingMode</b> method gets the compositing mode currently set for this 
-			<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object.
+			<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object.
 
 
 ## -parameters
@@ -72,7 +72,7 @@ Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms53409
 
 This method returns an element of the 
 						<a href="https://msdn.microsoft.com/en-us/library/ms534093(v=VS.85).aspx">CompositingMode</a> enumeration that indicates the compositing mode currently set for this 
-						<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object.
 
 
 
@@ -82,7 +82,7 @@ This method returns an element of the
 
 
 Suppose you create a <a href="https://msdn.microsoft.com/en-us/library/ms534508(v=VS.85).aspx">SolidBrush</a> object based on a color that has an alpha component of 192, which is about 75 percent of 255. If your 
-				<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object has its compositing mode set to CompositingModeSourceOver, then areas filled with the solid brush are a blend that is 75 percent brush color and 25 percent background color. If your 
+				<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object has its compositing mode set to CompositingModeSourceOver, then areas filled with the solid brush are a blend that is 75 percent brush color and 25 percent background color. If your 
 				<b>Graphics</b> object has its compositing mode set to CompositingModeSourceCopy, then the background color is not blended with the brush color. However, the color rendered by the brush has an intensity that is 75 percent of what it would be if the alpha component were 255.
 
 
@@ -91,7 +91,7 @@ Suppose you create a <a href="https://msdn.microsoft.com/en-us/library/ms534508(
 
 
 The following example creates a 
-						<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object and sets its compositing mode to CompositingModeSourceCopy. The code creates a <a href="https://msdn.microsoft.com/en-us/library/ms534508(v=VS.85).aspx">SolidBrush</a> object based on a color with an alpha component of 128. The code passes the address of that brush to the
+						<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object and sets its compositing mode to CompositingModeSourceCopy. The code creates a <a href="https://msdn.microsoft.com/en-us/library/ms534508(v=VS.85).aspx">SolidBrush</a> object based on a color with an alpha component of 128. The code passes the address of that brush to the
 <a href="https://msdn.microsoft.com/en-us/library/ms535957(v=VS.85).aspx">Graphics::FillRectangle</a> method of the 
 						<b>Graphics</b> object to fill a rectangle with a color that is not blended with the background color. The call to the <b>Graphics::GetCompositingMode</b> method of the 
 						<b>Graphics</b> object demonstrates how to obtain the compositing mode (which is already known in this case). The code determines whether the compositing mode is CompositingModeSourceCopy and if so, changes it to CompositingModeSourceOver. Then the code calls 
@@ -137,7 +137,7 @@ The following example creates a
 
 
 
-<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
 
 
 

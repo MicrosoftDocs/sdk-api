@@ -62,7 +62,7 @@ A generic method for getting BITS job properties.
 
 ### -param PropertyId [in]
 
-The ID of the property that is being obtained specified as a <a href="https://msdn.microsoft.com/4ED7419E-3435-4F12-B293-1FDC24F40D63">BITS_JOB_PROPERTY_ID</a> enum value.
+The ID of the property that is being obtained specified as a <a href="https://msdn.microsoft.com/en-us/library/Hh446783(v=VS.85).aspx">BITS_JOB_PROPERTY_ID</a> enum value.
 
 
 ### -param PropertyValue
@@ -110,11 +110,11 @@ Success
 
 
 
-<a href="https://msdn.microsoft.com/97481F9D-1F7B-473A-B288-A52E527478A0">IBackgroundCopyJob5</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh446781(v=VS.85).aspx">IBackgroundCopyJob5</a>
 
 
 
-<a href="https://msdn.microsoft.com/D5DB8A96-7417-4142-BA27-783314835CED">IBackgroundCopyJob5::SetProperty</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404135(v=VS.85).aspx">IBackgroundCopyJob5::SetProperty</a>
  
 
  

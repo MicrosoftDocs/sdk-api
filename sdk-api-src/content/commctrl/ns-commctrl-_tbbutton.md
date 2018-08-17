@@ -66,7 +66,7 @@ Type: <b>int</b>
 Zero-based index of the button image. Set this member to I_IMAGECALLBACK, and the toolbar will send the <a href="https://msdn.microsoft.com/en-us/library/Bb787268(v=VS.85).aspx">TBN_GETDISPINFO</a> notification code to retrieve the image index when it is needed. 
 
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 5.81</a>. Set this member to I_IMAGENONE to indicate that the button does not have an image. The button layout will not include any space for a bitmap, only text.
+<a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 5.81</a>. Set this member to I_IMAGENONE to indicate that the button does not have an image. The button layout will not include any space for a bitmap, only text.
 
 If the button is a separator, that is, if <b>fsStyle</b> is set to <a href="https://msdn.microsoft.com/en-us/library/Bb760439(v=VS.85).aspx">BTNS_SEP</a>, <b>iBitmap</b> determines the width of the separator, in pixels. For information on selecting button images from image lists, see <a href="https://msdn.microsoft.com/en-us/library/Bb787433(v=VS.85).aspx">TB_SETIMAGELIST</a> message.
 
@@ -80,14 +80,14 @@ Command identifier associated with the button. This identifier is used in a <a h
 
 ### -field fsState
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BYTE</a></b>
 
 Button state flags. This member can be a combination of the values listed in <a href="https://msdn.microsoft.com/en-us/library/Bb760437(v=VS.85).aspx">Toolbar Button States</a>. 
 
 
 ### -field fsStyle
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BYTE</a></b>
 
 Button style. This member can be a combination of the button style values listed in <a href="https://msdn.microsoft.com/en-us/library/Bb760439(v=VS.85).aspx">Toolbar Control and Button Styles</a>. 
 
@@ -99,28 +99,28 @@ Button style. This member can be a combination of the button style values listed
 
 ### -field dwData
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD_PTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD_PTR</a></b>
 
 Application-defined value. 
 
 
 ### -field iString
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT_PTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">INT_PTR</a></b>
 
 Zero-based index of the button string, or a pointer to a string buffer that contains text for the button. 
 
 
 #### - bReserved[2]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BYTE</a></b>
 
 Reserved. 
 
 
 #### - bReserved[6]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BYTE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BYTE</a></b>
 
 Reserved. 
 

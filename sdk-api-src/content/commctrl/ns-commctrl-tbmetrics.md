@@ -61,14 +61,14 @@ Defines the metrics of a toolbar that are used to shrink or expand toolbar items
 
 ### -field cbSize
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Size of the <b>TBMETRICS</b> structure.
 
 
 ### -field dwMask
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
 
 Mask that determines the metric to retrieve. It can be any combination of the following:
 

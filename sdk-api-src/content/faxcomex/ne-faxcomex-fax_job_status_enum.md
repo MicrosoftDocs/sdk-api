@@ -128,7 +128,7 @@ The fax job is being routed.
 
 
 
-<a href="https://msdn.microsoft.com/fd84a3b4-a7ce-400c-a8a9-8134d7308bef">Status</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684823(v=VS.85).aspx">Status</a>
  
 
  

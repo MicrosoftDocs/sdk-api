@@ -52,7 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The  <b>PaletteType</b> enumeration is used by the <a href="https://msdn.microsoft.com/en-us/library/ms536309(v=VS.85).aspx">Bitmap::InitializePalette</a> and <a href="https://msdn.microsoft.com/en-us/library/ms536306(v=VS.85).aspx">Bitmap::ConvertFormat</a> methods of the <a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a> class. The members of the enumeration identify several standard color palette formats.
+The  <b>PaletteType</b> enumeration is used by the <a href="https://msdn.microsoft.com/en-us/library/ms536309(v=VS.85).aspx">Bitmap::InitializePalette</a> and <a href="https://msdn.microsoft.com/en-us/library/ms536306(v=VS.85).aspx">Bitmap::ConvertFormat</a> methods of the <a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a> class. The members of the enumeration identify several standard color palette formats.
 
 
 ## -enum-fields
@@ -67,7 +67,7 @@ An arbitrary custom palette provided by the caller.
 
 ### -field PaletteTypeOptimal
 
-An palette of colors that are optimal for a particular bitmap. To create an optimal palette, pass PaletteTypeOptimal, the number of colors you want in the palette, and the address of a <a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a> object to the <a href="https://msdn.microsoft.com/en-us/library/ms536309(v=VS.85).aspx">Bitmap::InitializePalette</a> method.
+An palette of colors that are optimal for a particular bitmap. To create an optimal palette, pass PaletteTypeOptimal, the number of colors you want in the palette, and the address of a <a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a> object to the <a href="https://msdn.microsoft.com/en-us/library/ms536309(v=VS.85).aspx">Bitmap::InitializePalette</a> method.
 
 
 ### -field PaletteTypeFixedBW

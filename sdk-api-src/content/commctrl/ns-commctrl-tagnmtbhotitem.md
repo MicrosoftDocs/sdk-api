@@ -83,7 +83,7 @@ Command identifier of the item about to be highlighted.
 
 ### -field dwFlags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
 
 Flags that indicate why the hot item has changed. This can be one or more of the following values: 
 
@@ -191,7 +191,7 @@ The change in the hot item resulted from the user entering the shortcut key for 
 </td>
 <td width="60%">
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 5.80.</a> Causes the button to switch states. 
+<a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 5.80.</a> Causes the button to switch states. 
 
 </td>
 </tr>

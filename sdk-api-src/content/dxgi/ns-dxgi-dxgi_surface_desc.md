@@ -92,7 +92,7 @@ A member of the <a href="https://msdn.microsoft.com/en-us/library/Bb173072(v=VS.
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/Bb174566(v=VS.85).aspx">GetDesc</a> and  <a href="https://msdn.microsoft.com/d0effc0a-0ec9-4350-ac44-c64c29984a02">CreateSurface</a> methods.
+This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/Bb174566(v=VS.85).aspx">GetDesc</a> and  <a href="https://msdn.microsoft.com/en-us/library/Bb174530(v=VS.85).aspx">CreateSurface</a> methods.
 
 
 

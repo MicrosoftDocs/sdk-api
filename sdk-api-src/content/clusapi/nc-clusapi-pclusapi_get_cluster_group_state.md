@@ -94,13 +94,13 @@ Pointer to the size of the <i>lpszNodeName</i> buffer as a count of characters. 
 Note that <i>lpcchName</i> refers to a count of characters and not a count of bytes, and 
      that the returned size does not include the terminating <b>NULL</b> in the count. For more 
      information on sizing buffers, see 
-     <a href="https://msdn.microsoft.com/283dc560-d547-4b42-b45c-435045080639">Data Size Conventions</a>.
+     <a href="https://msdn.microsoft.com/en-us/library/Aa369338(v=VS.85).aspx">Data Size Conventions</a>.
 
 Do not call <i>GetClusterGroupState</i> from any 
      resource DLL entry point function. 
      <i>GetClusterGroupState</i> can safely be called from a 
      worker thread. For more information, see 
-     <a href="https://msdn.microsoft.com/0eaa4aea-8d9a-4552-b43a-fafa23a3e736">Function Calls to Avoid in Resource DLLs</a>.
+     <a href="https://msdn.microsoft.com/en-us/library/Aa369588(v=VS.85).aspx">Function Calls to Avoid in Resource DLLs</a>.
 
 
 
@@ -110,15 +110,15 @@ Do not call <i>GetClusterGroupState</i> from any
 
 
 
-<a href="https://msdn.microsoft.com/1dbc5494-a830-4ee7-b982-48792ad87c51">CLUSTER_GROUP_STATE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb309150(v=VS.85).aspx">CLUSTER_GROUP_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/bd5dee18-a06f-4e46-a27e-c907b1c25a68">CLUSTER_RESOURCE_STATE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb309168(v=VS.85).aspx">CLUSTER_RESOURCE_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/a2336594-ac24-476e-94e8-460a31c1f643">Group Management Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa369686(v=VS.85).aspx">Group Management Functions</a>
 
 
 

@@ -139,7 +139,7 @@ If, after you call <b>ITextRange::SetText</b>, you call <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/8cef8a1c-7b21-43cd-a4dd-b5a579bbfdaf">GetText</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774036(v=VS.85).aspx">GetText</a>
 
 
 

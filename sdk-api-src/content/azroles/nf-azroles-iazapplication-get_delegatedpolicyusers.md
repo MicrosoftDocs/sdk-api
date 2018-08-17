@@ -7,7 +7,7 @@ old-location: security\iazapplication_delegatedpolicyusers.htm
 old-project: secauthz
 ms.assetid: b20e1d5c-b07e-4f75-8b63-38036b07b24d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: AzApplication object [Security],DelegatedPolicyUsers property, DelegatedPolicyUsers property [Security], DelegatedPolicyUsers property [Security],AzApplication object, DelegatedPolicyUsers property [Security],IAzApplication interface, IAzApplication interface [Security],DelegatedPolicyUsers property, IAzApplication.DelegatedPolicyUsers, IAzApplication.get_DelegatedPolicyUsers, IAzApplication::DelegatedPolicyUsers, IAzApplication::get_DelegatedPolicyUsers, azroles/IAzApplication::DelegatedPolicyUsers, azroles/IAzApplication::get_DelegatedPolicyUsers, get_DelegatedPolicyUsers, security.iazapplication_delegatedpolicyusers
 ms.prod: windows
 ms.technology: windows-sdk

@@ -127,7 +127,7 @@ If necessary, a stretch operation is applied to transfer the pixels within the s
 
 
 
-<a href="https://msdn.microsoft.com/6d672f22-9843-4ff7-ae79-4903f56cd1e9">Reset</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174425(v=VS.85).aspx">Reset</a>
  
 
  

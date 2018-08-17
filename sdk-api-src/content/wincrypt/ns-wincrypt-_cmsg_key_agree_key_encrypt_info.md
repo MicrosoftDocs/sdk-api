@@ -4,10 +4,10 @@ title: "_CMSG_KEY_AGREE_KEY_ENCRYPT_INFO"
 author: windows-sdk-content
 description: Contains the encrypted key for a key agreement recipient of an enveloped message.
 old-location: security\cmsg_key_agree_key_encrypt_info.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 586d40cc-8ef6-475b-8b7b-cc1a0bdddfcb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: "*PCMSG_KEY_AGREE_KEY_ENCRYPT_INFO, CMSG_KEY_AGREE_KEY_ENCRYPT_INFO, CMSG_KEY_AGREE_KEY_ENCRYPT_INFO structure [Security], PCMSG_KEY_AGREE_KEY_ENCRYPT_INFO, PCMSG_KEY_AGREE_KEY_ENCRYPT_INFO structure pointer [Security], _CMSG_KEY_AGREE_KEY_ENCRYPT_INFO, security.cmsg_key_agree_key_encrypt_info, wincrypt/CMSG_KEY_AGREE_KEY_ENCRYPT_INFO, wincrypt/PCMSG_KEY_AGREE_KEY_ENCRYPT_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

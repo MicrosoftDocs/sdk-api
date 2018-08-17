@@ -143,7 +143,7 @@ Type: <b>HRESULT</b>
 
 <b>IWiaDevMgr::GetImageDlg</b> returns S_FALSE if the user cancels the device selection or image acquisition dialog boxes, WIA_S_NO_DEVICE_AVAILABLE if no WIA device is currently available, E_NOTIMPL if no UI is available, and S_OK if the data is transferred successfully.
 
-<b>IWiaDevMgr::GetImageDlg</b> returns a value specified in <a href="https://msdn.microsoft.com/3abbe92b-32b7-4820-b208-45c847243078">Error Codes</a>, or a standard COM error if it fails for any reason other than those specified.
+<b>IWiaDevMgr::GetImageDlg</b> returns a value specified in <a href="https://msdn.microsoft.com/en-us/library/ms630183(v=VS.85).aspx">Error Codes</a>, or a standard COM error if it fails for any reason other than those specified.
 
 
 

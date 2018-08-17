@@ -4,10 +4,10 @@ title: CryptSIPLoad function
 author: windows-sdk-content
 description: Loads the dynamic-link library (DLL) that implements a subject interface package (SIP) and assigns appropriate library export functions to a SIP_DISPATCH_INFO structure.
 old-location: security\cryptsipload.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 3378ecee-bd5d-45e5-9a1f-a3734d086782
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: CryptSIPLoad, CryptSIPLoad function [Security], mssip/CryptSIPLoad, security.cryptsipload
 ms.prod: windows
 ms.technology: windows-sdk

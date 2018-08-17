@@ -110,7 +110,7 @@ Finds named entities of a specified type in a tokenized string, and returns the 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b52790b6-ef8e-411a-9a58-251ab648756c">MetaData</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231329(v=VS.85).aspx">MetaData</a>
 </td>
 <td align="left" width="63%">
 Retrieves an enumeration of global <a href="https://msdn.microsoft.com/en-us/library/Bb231366(v=VS.85).aspx">IMetaData</a> objects for the loaded schema.

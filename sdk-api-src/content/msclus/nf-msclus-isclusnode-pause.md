@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Suspends the 
-    <a href="c_gly.htm">cluster</a> activity of a 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> activity of a 
     <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a>.
 
 

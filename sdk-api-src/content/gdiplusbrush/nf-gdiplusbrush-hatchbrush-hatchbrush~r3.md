@@ -64,14 +64,14 @@ Creates a <b>HatchBrush::HatchBrush</b> object based on a hatch style, a foregro
 
 #### - backColor [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a></b>
 
-Optional. Reference to a color to use for the background. The default value is <b>Color</b>()(a <a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a> object created by the default <b>Color</b> constructor). 
+Optional. Reference to a color to use for the background. The default value is <b>Color</b>()(a <a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a> object created by the default <b>Color</b> constructor). 
 
 
 #### - foreColor [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a></b>
 
 Reference to a color to use for the hatch lines. 
 
@@ -92,7 +92,7 @@ Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534127(v=VS.8
 
 
 
-<a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a>
 
 
 

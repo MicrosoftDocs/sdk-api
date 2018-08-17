@@ -408,7 +408,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms689081(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/18efaadb-0d26-46be-b8e3-73f539a8d42b">ServerName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687524(v=VS.85).aspx">ServerName</a>
 
 
 </td>

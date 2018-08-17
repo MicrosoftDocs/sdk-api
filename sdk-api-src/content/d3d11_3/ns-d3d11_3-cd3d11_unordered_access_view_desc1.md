@@ -68,7 +68,7 @@ Describes the subresources from a resource that are accessible using an unordere
 
 #### - Buffer
 
-A <a href="https://msdn.microsoft.com/8dcd2281-1875-474e-8c86-a6920ab2b515">D3D11_BUFFER_UAV</a> structure that specifies which buffer elements can be accessed.
+A <a href="https://msdn.microsoft.com/en-us/library/Ff476095(v=VS.85).aspx">D3D11_BUFFER_UAV</a> structure that specifies which buffer elements can be accessed.
 
 
 #### - Format

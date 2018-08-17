@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Opens the root of the  <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a1a-7f1756f97804">cluster database</a> subtree for a  <a href="https://msdn.microsoft.com/57d16e1f-e774-4ffb-b26b-7e72d6d589aa">network</a>.
+Opens the root of the  <a href="https://msdn.microsoft.com/en-us/library/Aa369094(v=VS.85).aspx">cluster database</a> subtree for a  <a href="https://msdn.microsoft.com/en-us/library/Aa371501(v=VS.85).aspx">network</a>.
 
 
 ## -parameters
@@ -85,7 +85,7 @@ the function returns <b>NULL</b>. For more information about the error, call <a 
 
 
 
-The  <b>GetClusterNetworkKey</b> function returns a handle to a cluster database key representing the subtree root for the network identified by <i>hNetwork</i>. Callers should call  <a href="https://msdn.microsoft.com/2216ac42-6beb-4ceb-bd15-12bb2886bc6a">ClusterRegCloseKey</a> to close the key handle retrieved by  <b>GetClusterNetworkKey</b> when they are done with it.
+The  <b>GetClusterNetworkKey</b> function returns a handle to a cluster database key representing the subtree root for the network identified by <i>hNetwork</i>. Callers should call  <a href="https://msdn.microsoft.com/en-us/library/Aa368989(v=VS.85).aspx">ClusterRegCloseKey</a> to close the key handle retrieved by  <b>GetClusterNetworkKey</b> when they are done with it.
 
 
 
@@ -95,7 +95,7 @@ The  <b>GetClusterNetworkKey</b> function returns a handle to a cluster database
 
 
 
-<a href="https://msdn.microsoft.com/2216ac42-6beb-4ceb-bd15-12bb2886bc6a">ClusterRegCloseKey</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa368989(v=VS.85).aspx">ClusterRegCloseKey</a>
 
 
 

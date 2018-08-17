@@ -67,7 +67,7 @@ Provides a collection of one or more documents to the fax document.
 
 Examples of documents that you can send as fax bodies include text files (.txt), Microsoft Word documents (.doc), or Microsoft Excel spreadsheets (.xls). Filenames are separated with semi-colons ";". For example, "myfile.txt;anotherfile.doc".
 
-Either the <b>Bodies</b> property or the <a href="https://msdn.microsoft.com/1679d433-5a62-4e98-a083-f15ac9d4fb2d">Body</a> property must be <b>NULL</b>. You must use <b>Bodies</b> if you will be submitting using either <a href="https://msdn.microsoft.com/en-us/library/Aa359009(v=VS.85).aspx">ConnectedSubmit2</a> or <a href="https://msdn.microsoft.com/en-us/library/Aa359012(v=VS.85).aspx">Submit2</a> (both available only in Windows Vista or later). You must use <b>Body</b> if you will be submitting using either <a href="https://msdn.microsoft.com/en-us/library/ms686178(v=VS.85).aspx">ConnectedSubmit</a> or <a href="https://msdn.microsoft.com/en-us/library/ms687477(v=VS.85).aspx">Submit</a>. 
+Either the <b>Bodies</b> property or the <a href="https://msdn.microsoft.com/en-us/library/ms684817(v=VS.85).aspx">Body</a> property must be <b>NULL</b>. You must use <b>Bodies</b> if you will be submitting using either <a href="https://msdn.microsoft.com/en-us/library/Aa359009(v=VS.85).aspx">ConnectedSubmit2</a> or <a href="https://msdn.microsoft.com/en-us/library/Aa359012(v=VS.85).aspx">Submit2</a> (both available only in Windows Vista or later). You must use <b>Body</b> if you will be submitting using either <a href="https://msdn.microsoft.com/en-us/library/ms686178(v=VS.85).aspx">ConnectedSubmit</a> or <a href="https://msdn.microsoft.com/en-us/library/ms687477(v=VS.85).aspx">Submit</a>. 
 
 
 

@@ -70,14 +70,14 @@ Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).asp
 
 ### -field wVKey
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">WORD</a></b>
 
 Virtual key code. 
 
 
 ### -field flags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Always zero. 
 

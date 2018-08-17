@@ -92,7 +92,7 @@ Returns a <a href="https://msdn.microsoft.com/en-us/library/Aa358967(v=VS.85).as
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/af926d20-fd72-4b9a-ba70-e3bf64eda3a4">Count</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359018(v=VS.85).aspx">Count</a>
 
 
 </td>
@@ -108,7 +108,7 @@ Holds the number of items in the <b>IFaxAccounts</b> collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/90eebc3b-1113-4512-b08f-5d73df8b2d7f">NewEnum</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359021(v=VS.85).aspx">NewEnum</a>
 
 
 </td>

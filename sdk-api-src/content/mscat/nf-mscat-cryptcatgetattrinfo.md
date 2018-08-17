@@ -4,10 +4,10 @@ title: CryptCATGetAttrInfo function
 author: windows-sdk-content
 description: Retrieves information about an attribute of a member of a catalog.
 old-location: security\cryptcatgetattrinfo.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: e36966ea-741e-4380-85cd-5a3c9db38e6d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: CryptCATGetAttrInfo, CryptCATGetAttrInfo function [Security], mscat/CryptCATGetAttrInfo, security.cryptcatgetattrinfo
 ms.prod: windows
 ms.technology: windows-sdk

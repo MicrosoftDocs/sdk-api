@@ -4,10 +4,10 @@ title: PdhEnumObjectsW function
 author: windows-sdk-content
 description: Returns a list of objects available on the specified computer or in the specified log file. To use handles to data sources, use the PdhEnumObjectsH function.
 old-location: perf\pdhenumobjects.htm
-old-project: PerfCtrs
+old-project: perfctrs
 ms.assetid: dfa4b10f-5134-4620-a6b0-0fa2c13a33ec
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/08/2018
 ms.keywords: FALSE, PERF_DETAIL_ADVANCED, PERF_DETAIL_EXPERT, PERF_DETAIL_NOVICE, PERF_DETAIL_WIZARD, PdhEnumObjects, PdhEnumObjects function [Perf], PdhEnumObjectsA, PdhEnumObjectsW, TRUE, _win32_pdhenumobjects, base.pdhenumobjects, pdh/PdhEnumObjects, pdh/PdhEnumObjectsA, pdh/PdhEnumObjectsW, perf.pdhenumobjects
 ms.prod: windows
 ms.technology: windows-sdk

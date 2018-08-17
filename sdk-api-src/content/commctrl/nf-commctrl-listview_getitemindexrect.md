@@ -61,7 +61,7 @@ Gets the bounding rectangle for all or part of a subitem in the current view of 
 
 ### -param hwnd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 A handle to the list-view control.
 
@@ -75,14 +75,14 @@ A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb774762(v=VS.8
 
 ### -param iSubItem [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LONG</a></b>
 
 The index of the subitem.
 
 
 ### -param code [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LONG</a></b>
 
 The portion of the list-view subitem for which to retrieve the bounding rectangle. This parameter must be one of the following values. 
 

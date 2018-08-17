@@ -7,7 +7,7 @@ old-location: base\queryservicestatus.htm
 old-project: services
 ms.assetid: dcd2d8a1-10ef-4229-b873-b4fc3ec9293f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: QueryServiceStatus, QueryServiceStatus function, _win32_queryservicestatus, base.queryservicestatus, winsvc/QueryServiceStatus
 ms.prod: windows
 ms.technology: windows-sdk

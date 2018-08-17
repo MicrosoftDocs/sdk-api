@@ -70,7 +70,7 @@ An <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMH
 
 ### -field fChanged
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
 
 A value indicating whether the contents of the control's edit box have changed. This value is nonzero if the contents have been modified, or zero otherwise. 
 
@@ -84,7 +84,7 @@ The zero-based index of the item that will be selected after completing the edit
 
 ### -field szText
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">TCHAR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">TCHAR</a></b>
 
 A zero-terminated string that contains the text from within the control's edit box. 
 

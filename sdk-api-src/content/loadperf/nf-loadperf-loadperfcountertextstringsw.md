@@ -4,10 +4,10 @@ title: LoadPerfCounterTextStringsW function
 author: windows-sdk-content
 description: Loads onto the computer the performance objects and counters defined in the specified initialization file.
 old-location: perf\loadperfcountertextstrings.htm
-old-project: PerfCtrs
+old-project: perfctrs
 ms.assetid: 19f6989a-708a-485d-94c0-ab617707ced4
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/08/2018
 ms.keywords: LoadPerfCounterTextStrings, LoadPerfCounterTextStrings function [Perf], LoadPerfCounterTextStringsA, LoadPerfCounterTextStringsW, _win32_loadperfcountertextstrings, base.loadperfcountertextstrings, loadperf/LoadPerfCounterTextStrings, loadperf/LoadPerfCounterTextStringsA, loadperf/LoadPerfCounterTextStringsW, perf.loadperfcountertextstrings
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_iagetinputlayout.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_iagetinputlayout.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: IAGetInputLayout, IAGetInputLayout method [Direct3D 10], IAGetInputLayout method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],IAGetInputLayout method, ID3D10Device.IAGetInputLayout, ID3D10Device::IAGetInputLayout, d3d10/ID3D10Device::IAGetInputLayout, direct3d10.id3d10device_iagetinputlayout, fc7e34a5-1fc3-6283-98db-681a4f1138cf
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,7 +81,7 @@ Returns nothing.
 
 For information about creating an input-layout object, see <a href="https://msdn.microsoft.com/en-us/library/Bb205117(v=VS.85).aspx">Creating the Input-Layout Object</a>.
 
-Any returned interfaces will have their reference count incremented by one. Applications should call <a href="http://msdn.microsoft.com/en-us/library/ms682317(VS.85).aspx">IUnknown::Release</a> on the returned interfaces when they are no longer needed to avoid memory leaks.
+Any returned interfaces will have their reference count incremented by one. Applications should call <a href="https://msdn.microsoft.com/en-us/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> on the returned interfaces when they are no longer needed to avoid memory leaks.
 
 
 

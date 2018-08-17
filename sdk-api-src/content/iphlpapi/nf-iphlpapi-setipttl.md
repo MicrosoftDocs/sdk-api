@@ -7,7 +7,7 @@ old-location: iphlp\setipttl.htm
 old-project: iphlp
 ms.assetid: dfde8712-f68f-4fa4-b939-ea36e23b5b1e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: SetIpTTL, SetIpTTL function [IP Helper], _iphlp_setipttl, iphlp.setipttl, iphlpapi/SetIpTTL
 ms.prod: windows
 ms.technology: windows-sdk

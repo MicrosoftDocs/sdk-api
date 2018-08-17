@@ -7,7 +7,7 @@ old-location: display\engacquiresemaphore.htm
 old-project: display
 ms.assetid: da13ff30-7817-4ed4-9791-2d205a260259
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/13/2018
 ms.keywords: EngAcquireSemaphore, EngAcquireSemaphore function [Display Devices], display.engacquiresemaphore, gdifncs_eae93ab5-f0f0-4d4e-a857-50ec8698527b.xml, winddi/EngAcquireSemaphore
 ms.prod: windows
 ms.technology: windows-sdk

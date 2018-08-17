@@ -174,11 +174,9 @@ This flag is only allowed when the <b>StatusCode</b> member of <i>pHttpResponse<
 <div class="alert"><b>Caution</b>  Combining both flags in a single call to the <a href="https://msdn.microsoft.com/0183584f-105e-4fa3-8991-d3f2dfca1d62">HttpSendHttpResponse</a> function produces undefined results.</div>
 <div> </div>
 
-### -param OPTIONAL
+### -param EntityChunkCount [in]
 
-TBD
-
-
+A number of structures in the array pointed to by <i>pEntityChunks</i>. This count cannot exceed 9999.
 
 
 ### -param EntityChunks [in]
@@ -187,14 +185,31 @@ A pointer to an array of
 <a href="https://msdn.microsoft.com/ae67c066-c8bd-483f-829f-30192f49593d">HTTP_DATA_CHUNK</a> structures to be sent as entity-body data.
 
 
-#### - EntityChunkCount [in]
+### -param BytesSent
 
-A number of structures in the array pointed to by <i>pEntityChunks</i>. This count cannot exceed 9999.
+TBD
 
 
-#### - Reserved2 [in]
+### -param Reserved1
+
+TBD
+
+
+### -param Reserved2 [in]
 
 This parameter is reserved and must be zero.
+
+
+### -param Overlapped
+
+TBD
+
+
+### -param LogData
+
+TBD
+
+
 
 
 #### - pBytesSent [out]

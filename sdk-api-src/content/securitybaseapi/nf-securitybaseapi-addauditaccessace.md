@@ -7,7 +7,7 @@ old-location: security\addauditaccessace.htm
 old-project: secauthz
 ms.assetid: 34f22aea-9cde-411e-b2d5-bfcd3bfe325d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: AddAuditAccessAce, AddAuditAccessAce function [Security], _win32_addauditaccessace, security.addauditaccessace, securitybaseapi/AddAuditAccessAce
 ms.prod: windows
 ms.technology: windows-sdk

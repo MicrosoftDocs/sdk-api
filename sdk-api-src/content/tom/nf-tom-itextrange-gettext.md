@@ -144,7 +144,7 @@ The text returned by the Text property is given in Unicode. The end-of-paragraph
 
 
 
-<a href="https://msdn.microsoft.com/4e998d86-e101-4bea-8389-3760e9289151">Copy</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787742(v=VS.85).aspx">Copy</a>
 
 
 

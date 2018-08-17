@@ -7,7 +7,7 @@ old-location: base\setprocessshutdownparameters.htm
 old-project: procthread
 ms.assetid: c467950e-31e1-4608-a08a-0736a5524e0e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: SHUTDOWN_NORETRY, SetProcessShutdownParameters, SetProcessShutdownParameters function, _win32_setprocessshutdownparameters, base.setprocessshutdownparameters, processthreadsapi/SetProcessShutdownParameters, winbase/SetProcessShutdownParameters
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: PSS_VA_SPACE_INFORMATION
+req.typenames: PROCESS_MEMORY_EXHAUSTION_TYPE, *PPROCESS_MEMORY_EXHAUSTION_TYPE
 topic_type:
  - APIRef
  - kbSyntax

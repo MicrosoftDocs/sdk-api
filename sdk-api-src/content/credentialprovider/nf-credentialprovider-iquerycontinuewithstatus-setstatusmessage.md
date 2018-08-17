@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Enables the credential provider to set status messages as it attempts to complete <a href="https://msdn.microsoft.com/0fe91d1a-811a-4956-bb2f-47712ae2a155">IConnectableCredentialProviderCredential::Connect</a>.
+Enables the credential provider to set status messages as it attempts to complete <a href="https://msdn.microsoft.com/en-us/library/Bb776100(v=VS.85).aspx">IConnectableCredentialProviderCredential::Connect</a>.
 
 
 ## -parameters
@@ -81,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The Logon UI will display the status message during <a href="https://msdn.microsoft.com/0fe91d1a-811a-4956-bb2f-47712ae2a155">Connect</a>. This is especially useful during lengthy attempt to connect to inform the user of the status and continued attempts. 
+The Logon UI will display the status message during <a href="https://msdn.microsoft.com/en-us/library/Bb776100(v=VS.85).aspx">Connect</a>. This is especially useful during lengthy attempt to connect to inform the user of the status and continued attempts. 
 
 
 

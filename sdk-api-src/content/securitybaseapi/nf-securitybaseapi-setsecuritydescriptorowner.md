@@ -7,7 +7,7 @@ old-location: security\setsecuritydescriptorowner.htm
 old-project: secauthz
 ms.assetid: cb3ba617-322a-4b8c-a9d5-32910315fb56
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: SetSecurityDescriptorOwner, SetSecurityDescriptorOwner function [Security], _win32_setsecuritydescriptorowner, security.setsecuritydescriptorowner, securitybaseapi/SetSecurityDescriptorOwner
 ms.prod: windows
 ms.technology: windows-sdk

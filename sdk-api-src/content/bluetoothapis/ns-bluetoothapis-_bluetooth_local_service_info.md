@@ -66,7 +66,7 @@ If <b>TRUE</b>, specifies that the advertised services are enabled; otherwise th
 
 ### -field btAddr
 
-A <a href="https://msdn.microsoft.com/2262a91b-c8b0-415a-9c23-7504998cc2a4">BLUETOOTH_ADDRESS</a> structure that contains the address of a remote device. This address is used when advertising services to a device.
+A <a href="https://msdn.microsoft.com/en-us/library/Aa362897(v=VS.85).aspx">BLUETOOTH_ADDRESS</a> structure that contains the address of a remote device. This address is used when advertising services to a device.
 
 
 ### -field szName

@@ -7,7 +7,7 @@ old-location: security\iazroleassignments.htm
 old-project: secauthz
 ms.assetid: d38fd7e0-6d0b-4b68-b6e5-f7adc2cfef47
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: IAzRoleAssignments, IAzRoleAssignments interface [Security], IAzRoleAssignments interface [Security],described, azroles/IAzRoleAssignments, security.iazroleassignments
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,5 +51,5 @@ req.irql:
 ## -description
 
 
-The <b>IAzRoleAssignments</b> interface represents a collection of <a href="https://msdn.microsoft.com/3f0b926f-77f4-4477-b155-5f866822baba">IAzRoleAssignment</a> objects.
+The <b>IAzRoleAssignments</b> interface represents a collection of <a href="https://msdn.microsoft.com/en-us/library/Aa377918(v=VS.85).aspx">IAzRoleAssignment</a> objects.
 

@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-<span>Creates an <a href="https://msdn.microsoft.com/0E8D8218-0671-44A2-AD6E-13BB0B4EB66C">ID2D1PrintControl</a> object that converts <a href="https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b">Direct2D</a> primitives stored in <a href="https://msdn.microsoft.com/30b89f53-d20b-4070-abcd-ef95813130d1">ID2D1CommandList</a> into a fixed page representation.  The print sub-system then consumes the primitives.
+<span>Creates an <a href="https://msdn.microsoft.com/0E8D8218-0671-44A2-AD6E-13BB0B4EB66C">ID2D1PrintControl</a> object that converts <a href="https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx">Direct2D</a> primitives stored in <a href="https://msdn.microsoft.com/30b89f53-d20b-4070-abcd-ef95813130d1">ID2D1CommandList</a> into a fixed page representation.  The print sub-system then consumes the primitives.
 </span><h3>Overload list</h3><table>
 <tr>
 <th align="left" width="37%">Method</th>
@@ -62,7 +62,7 @@ req.irql:
 <a href="https://msdn.microsoft.com/dcffa436-154a-4283-9c1c-f167de5f9888">CreatePrintControl (IWICImagingFactory*, IPrintDocumentPackageTarget*, D2D1_PRINT_CONTROL_PROPERTIES*, ID2D1PrintControl**)</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://msdn.microsoft.com/0E8D8218-0671-44A2-AD6E-13BB0B4EB66C">ID2D1PrintControl</a> object that converts <a href="https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b">Direct2D</a> primitives stored in <a href="https://msdn.microsoft.com/30b89f53-d20b-4070-abcd-ef95813130d1">ID2D1CommandList</a> into a fixed page representation.  The print sub-system then consumes the primitives.
+Creates an <a href="https://msdn.microsoft.com/0E8D8218-0671-44A2-AD6E-13BB0B4EB66C">ID2D1PrintControl</a> object that converts <a href="https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx">Direct2D</a> primitives stored in <a href="https://msdn.microsoft.com/30b89f53-d20b-4070-abcd-ef95813130d1">ID2D1CommandList</a> into a fixed page representation.  The print sub-system then consumes the primitives.
 
 </td>
 </tr>
@@ -71,7 +71,7 @@ Creates an <a href="https://msdn.microsoft.com/0E8D8218-0671-44A2-AD6E-13BB0B4EB
 <a href="https://msdn.microsoft.com/7F1BE691-2CC4-4A53-9D4D-42E3D7354509">CreatePrintControl (IWICImagingFactory*, IPrintDocumentPackageTarget*, D2D1_PRINT_CONTROL_PROPERTIES&, ID2D1PrintControl**)</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://msdn.microsoft.com/0E8D8218-0671-44A2-AD6E-13BB0B4EB66C">ID2D1PrintControl</a> object that converts <a href="https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b">Direct2D</a> primitives stored in <a href="https://msdn.microsoft.com/30b89f53-d20b-4070-abcd-ef95813130d1">ID2D1CommandList</a> into a fixed page representation.  The print sub-system then consumes the primitives.
+Creates an <a href="https://msdn.microsoft.com/0E8D8218-0671-44A2-AD6E-13BB0B4EB66C">ID2D1PrintControl</a> object that converts <a href="https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx">Direct2D</a> primitives stored in <a href="https://msdn.microsoft.com/30b89f53-d20b-4070-abcd-ef95813130d1">ID2D1CommandList</a> into a fixed page representation.  The print sub-system then consumes the primitives.
 
 </td>
 </tr>

@@ -146,7 +146,7 @@ The function signature PFN_D3D12_CREATE_DEVICE is provided as a typedef, so that
       
 
 The <b>REFIID</b>, or <b>GUID</b>, of the interface to a device can be obtained by using the<code> __uuidof()</code> macro.
-        For example, <code>__uuidof</code>(<a href="https://msdn.microsoft.com/D32B3397-A1E0-48AF-9251-2EDA96261A9F">ID3D12Device</a>) will get the <b>GUID</b> of the interface to a device.
+        For example, <code>__uuidof</code>(<a href="https://msdn.microsoft.com/en-us/library/Dn788650(v=VS.85).aspx">ID3D12Device</a>) will get the <b>GUID</b> of the interface to a device.
       
 
 
@@ -190,7 +190,7 @@ else
 </td>
 </tr>
 </table></span></div>
-Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>. 
+Refer to the <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85).aspx">Example Code in the D3D12 Reference</a>. 
 
 <div class="code"></div>
 
@@ -201,11 +201,11 @@ Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A
 
 
 
-<a href="https://msdn.microsoft.com/C0F9A52C-483D-40B2-9E1F-CB92ADDC2856">Core Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn770456(v=VS.85).aspx">Core Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">Working Samples</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt186624(v=VS.85).aspx">Working Samples</a>
  
 
  

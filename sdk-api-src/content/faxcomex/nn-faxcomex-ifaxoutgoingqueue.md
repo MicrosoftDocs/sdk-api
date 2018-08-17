@@ -100,7 +100,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms689117(v=VS.85).aspx">IF
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cbb71582-cff9-4bba-aea8-9c88be61ea47">Save</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689100(v=VS.85).aspx">Save</a>
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms689100(v=VS.85).aspx">IFaxOutgoingQueue::Save</a> method saves the <a href="https://msdn.microsoft.com/en-us/library/ms687528(v=VS.85).aspx">FaxOutgoingQueue</a> object data.

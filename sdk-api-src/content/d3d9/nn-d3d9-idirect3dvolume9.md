@@ -99,7 +99,7 @@ Retrieves a description of the volume.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8b857d5f-bfe6-4892-ab31-e58527d8428e">GetDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205936(v=VS.85).aspx">GetDevice</a>
 </td>
 <td align="left" width="63%">
 Retrieves the device associated with a volume.

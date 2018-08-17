@@ -7,7 +7,7 @@ old-location: security\getfilesecurity.htm
 old-project: secauthz
 ms.assetid: 4043b76b-76b9-4111-8a29-a808b2412be0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: GetFileSecurity, GetFileSecurity function [Security], GetFileSecurityA, GetFileSecurityW, _win32_getfilesecurity, security.getfilesecurity, winbase/GetFileSecurity, winbase/GetFileSecurityA, winbase/GetFileSecurityW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -148,7 +148,7 @@ To read the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd
 
 
 
-<a href="authorization_functions.htm">Low-level Access Control Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Low-level Access Control Functions</a>
 
 
 

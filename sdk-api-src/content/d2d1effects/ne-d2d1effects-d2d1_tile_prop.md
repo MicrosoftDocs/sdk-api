@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/C7505DBF-5F79-4407-84C4-634EA7EC06B7">Tile effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh706374(v=VS.85).aspx">Tile effect</a>.
         
 
 

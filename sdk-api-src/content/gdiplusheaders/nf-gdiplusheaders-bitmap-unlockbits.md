@@ -72,14 +72,14 @@ Pointer to a
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
 </strong>
 
 If the method succeeds, it returns <b>Ok</b>, which is an element of the 
-						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
 
 
 
@@ -90,7 +90,7 @@ If the method fails, it returns one of the other elements of the
 
 
 <a href="https://msdn.microsoft.com/en-us/library/ms536298(v=VS.85).aspx">Bitmap::LockBits</a> and <b>Bitmap::UnlockBits</b> must be used as a pair. A call to the <b>Bitmap::LockBits</b> method of a 
-				<a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a> object establishes a temporary buffer that you can use to read or write pixel data in a specified format. After you write to the temporary buffer, a call to <b>Bitmap::UnlockBits</b> copies the pixel data in the buffer to the 
+				<a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a> object establishes a temporary buffer that you can use to read or write pixel data in a specified format. After you write to the temporary buffer, a call to <b>Bitmap::UnlockBits</b> copies the pixel data in the buffer to the 
 				<b>Bitmap</b> object. If the pixel format of the temporary buffer is different from the pixel format of the 
 				<b>Bitmap</b> object, the pixel data is converted appropriately.
 
@@ -102,7 +102,7 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a>
 
 
 

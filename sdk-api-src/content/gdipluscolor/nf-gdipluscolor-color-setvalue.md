@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>Color::SetValue</b> method sets the color of this <a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a> object.
+The <b>Color::SetValue</b> method sets the color of this <a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a> object.
 
 
 ## -parameters
@@ -81,7 +81,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a>
 
 
 

@@ -61,9 +61,9 @@ The
 
 
 
-### -param OPTIONAL
+### -param servername [in]
 
-TBD
+Pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
 
 
 ### -param localgroupname [in]
@@ -157,11 +157,6 @@ Pointer to a value that receives the total number of entries that could have bee
 ### -param resumehandle [in, out]
 
 Pointer to a value that contains a resume handle which is used to continue an existing group member search. The handle should be zero on the first call and left unchanged for subsequent calls. If this parameter is <b>NULL</b>, then no resume handle is stored.
-
-
-#### - servername [in]
-
-Pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
 
 
 ## -returns

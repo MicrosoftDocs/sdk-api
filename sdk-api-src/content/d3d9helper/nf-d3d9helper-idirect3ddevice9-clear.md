@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-Clears one or more surfaces such as a render target, <a href="https://msdn.microsoft.com/ae48c5ce-b7f5-4189-8b04-880836be3fe0">multiple render targets</a>, a stencil buffer, and a depth buffer.
+Clears one or more surfaces such as a render target, <a href="https://msdn.microsoft.com/en-us/library/Bb147221(v=VS.85).aspx">multiple render targets</a>, a stencil buffer, and a depth buffer.
 
 
 ## -parameters

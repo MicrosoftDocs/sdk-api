@@ -116,7 +116,7 @@ The sample mask for the blend state.
 
 ### -field RasterizerState
 
-A <a href="https://msdn.microsoft.com/52ECF841-72BE-44B7-BFB1-305B6981C1F4">D3D12_RASTERIZER_DESC</a> structure that describes the rasterizer state.
+A <a href="https://msdn.microsoft.com/en-us/library/Dn770387(v=VS.85).aspx">D3D12_RASTERIZER_DESC</a> structure that describes the rasterizer state.
           
 
 
@@ -182,7 +182,7 @@ A cached pipeline state object, as a <a href="https://msdn.microsoft.com/82A0CF7
 
 ### -field Flags
 
-A <a href="https://msdn.microsoft.com/DAE5C06B-ED1F-4B35-812E-31E26B51704C">D3D12_PIPELINE_STATE_FLAGS</a> enumeration constant such as for "tool debug".
+A <a href="https://msdn.microsoft.com/en-us/library/Dn986737(v=VS.85).aspx">D3D12_PIPELINE_STATE_FLAGS</a> enumeration constant such as for "tool debug".
           
 
 
@@ -190,7 +190,7 @@ A <a href="https://msdn.microsoft.com/DAE5C06B-ED1F-4B35-812E-31E26B51704C">D3D1
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/E35FCC4A-7527-4A6C-8569-0801A06AA427">CreateGraphicsPipelineState</a> method.
+This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/Dn788663(v=VS.85).aspx">CreateGraphicsPipelineState</a> method.
       
 
 The runtime validates:
@@ -206,7 +206,7 @@ The runtime validates:
 <li>Whether anti-aliasing lines aren't allowed with the center MSAA pattern.
           </li>
 <li>
-If the <b>ForcedSampleCount</b> member of <a href="https://msdn.microsoft.com/52ECF841-72BE-44B7-BFB1-305B6981C1F4">D3D12_RASTERIZER_DESC</a> that <b>RasterizerState</b> specifies isn't zero:
+If the <b>ForcedSampleCount</b> member of <a href="https://msdn.microsoft.com/en-us/library/Dn770387(v=VS.85).aspx">D3D12_RASTERIZER_DESC</a> that <b>RasterizerState</b> specifies isn't zero:
               
 
 <ul>
@@ -238,15 +238,15 @@ If the <b>ForcedSampleCount</b> member of <a href="https://msdn.microsoft.com/52
 
 
 
-<a href="https://msdn.microsoft.com/081199AD-1702-4EC8-95AD-B1148C676199">Conservative Rasterization</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903791(v=VS.85).aspx">Conservative Rasterization</a>
 
 
 
-<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn770459(v=VS.85).aspx">Core Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/D308BF3E-8CBE-4DF0-B020-4D202E858D99">Rasterizer Ordered Views</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903929(v=VS.85).aspx">Rasterizer Ordered Views</a>
  
 
  

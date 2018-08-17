@@ -7,7 +7,7 @@ old-location: appxpkg\iappxencryptionfactory2_createencryptedpackagewriter.htm
 old-project: appxpkg
 ms.assetid: 70C3B332-7FB5-49CD-B0E2-43FD44AFF813
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/15/2018
 ms.keywords: CreateEncryptedPackageWriter, CreateEncryptedPackageWriter method [App packaging and management], CreateEncryptedPackageWriter method [App packaging and management],IAppxEncryptionFactory2 interface, IAppxEncryptionFactory2 interface [App packaging and management],CreateEncryptedPackageWriter method, IAppxEncryptionFactory2.CreateEncryptedPackageWriter, IAppxEncryptionFactory2::CreateEncryptedPackageWriter, appxpackaging/IAppxEncryptionFactory2::CreateEncryptedPackageWriter, appxpkg.iappxencryptionfactory2_createencryptedpackagewriter
 ms.prod: windows
 ms.technology: windows-sdk

@@ -61,8 +61,8 @@ Enables operations
     on a <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a>, its properties, and related objects. Use 
     <b>ClusResGroup</b> to move groups between 
     <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">nodes</a>, bring groups 
-    <a href="o_gly.htm">online</a> and 
-    <a href="o_gly.htm">offline</a>, access the 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa371781(v=VS.85).aspx">online</a> and 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa371781(v=VS.85).aspx">offline</a>, access the 
     <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resources</a> in the group, and perform other group-related tasks.
 
 
@@ -138,7 +138,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Returns the <a href="c_gly.htm">cluster</a> associated with a group.
+Returns the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> associated with a group.
 
 </td>
 </tr>

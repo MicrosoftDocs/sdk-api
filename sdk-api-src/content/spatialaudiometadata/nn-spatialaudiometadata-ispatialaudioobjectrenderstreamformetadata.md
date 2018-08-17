@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioobjectrenderstreamformetadata.htm
 old-project: CoreAudio
 ms.assetid: 1623B280-FC12-4C19-9D4A-D8463D1A1046
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/14/2018
 ms.keywords: ISpatialAudioObjectRenderStreamForMetadata, ISpatialAudioObjectRenderStreamForMetadata interface [Core Audio], ISpatialAudioObjectRenderStreamForMetadata interface [Core Audio],described, coreaudio.ispatialaudioobjectrenderstreamformetadata, spatialaudiometadata/ISpatialAudioObjectRenderStreamForMetadata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ This interface is a part of  Windows Sonic, Microsoft’s audio platform for mor
 
 
 
-<div class="alert"><b>Note</b>  Many of the methods provided by this interface are implemented in the inherited <a href="coreaudio.ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a> interface.</div>
+<div class="alert"><b>Note</b>  Many of the methods provided by this interface are implemented in the inherited <a href="https://msdn.microsoft.com/library/Mt829728(v=VS.85).aspx">ISpatialAudioObjectRenderStreamBase</a> interface.</div>
 <div> </div>
 
 
@@ -71,7 +71,7 @@ This interface is a part of  Windows Sonic, Microsoft’s audio platform for mor
 
 
 
-<a href="coreaudio.ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a>
+<a href="https://msdn.microsoft.com/library/Mt829728(v=VS.85).aspx">ISpatialAudioObjectRenderStreamBase</a>
  
 
  

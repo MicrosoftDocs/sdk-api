@@ -91,14 +91,14 @@ Each <b>PushLayer</b> must have a matching <a href="https://msdn.microsoft.com/6
 A particular <a href="https://msdn.microsoft.com/ce7b2345-f0e5-4e44-9146-b1f140bb00ca">ID2D1Layer</a> resource can be active only at one time. In other words, you cannot call a <a href="https://msdn.microsoft.com/905e9c76-d09e-4df8-8343-520d856ec6b8">PushLayer</a>  method, and then immediately follow  with another <b>PushLayer</b> method with the same layer resource. Instead, you must call the second <b>PushLayer</b> method with different layer resources. 
 
 
-For an example, see <a href="https://msdn.microsoft.com/eaeb6cfd-de62-46f1-972d-a11e0ccc11d9">How to Clip a Region with Layers</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/Dd756675(v=VS.85).aspx">How to Clip a Region with Layers</a>.
 
 This method doesn't return an error code if it fails. To determine whether a drawing operation (such as <b>PushLayer</b>) failed, check the result returned by the <a href="https://msdn.microsoft.com/a8f24501-4e85-4981-bb38-2bd6333a7b49">ID2D1RenderTarget::EndDraw</a> or <a href="https://msdn.microsoft.com/3ad9c966-85f5-4ddb-a8c1-aefcba533509">ID2D1RenderTarget::Flush</a> methods. 
 
 
 #### Examples
 
-The following example uses a layer to clip a bitmap to a geometric mask. For the complete example, see <a href="https://msdn.microsoft.com/eaeb6cfd-de62-46f1-972d-a11e0ccc11d9">How to Clip to a Geometric Mask</a>.
+The following example uses a layer to clip a bitmap to a geometric mask. For the complete example, see <a href="https://msdn.microsoft.com/en-us/library/Dd756675(v=VS.85).aspx">How to Clip to a Geometric Mask</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -157,7 +157,7 @@ The following example uses a layer to clip a bitmap to a geometric mask. For the
 
 
 
-<a href="https://msdn.microsoft.com/22d161fb-8470-49cc-a523-309f90643ea9">Layers Overview</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd756654(v=VS.85).aspx">Layers Overview</a>
  
 
  

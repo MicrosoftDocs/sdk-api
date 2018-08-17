@@ -159,7 +159,7 @@ The following example creates a path that has one ellipse and one line. The code
 
 
 
-<a href="https://msdn.microsoft.com/b8e9a4cb-72e1-4646-956a-50801176a3bd">PathData</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534481(v=VS.85).aspx">PathData</a>
 
 
 

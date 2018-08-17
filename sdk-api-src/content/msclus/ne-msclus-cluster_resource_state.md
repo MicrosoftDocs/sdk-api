@@ -100,7 +100,7 @@ The resource has <a href="https://msdn.microsoft.com/en-us/library/Aa369590(v=VS
 ### -field ClusterResourcePending
 
 The resource is in the process of coming online or going 
-       <a href="o_gly.htm">offline</a>.
+       <a href="https://msdn.microsoft.com/en-us/library/Aa371781(v=VS.85).aspx">offline</a>.
 
 
 ### -field ClusterResourceOnlinePending

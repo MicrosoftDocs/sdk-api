@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10counter.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10counter.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 004d04e1-a54d-6c89-c551-db2d30d9d7e9, ID3D10Counter, ID3D10Counter interface [Direct3D 10], ID3D10Counter interface [Direct3D 10],described, d3d10/ID3D10Counter, direct3d10.id3d10counter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ This interface encapsulates methods for measuring GPU performance.
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Counter</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb173500(v=VS.85).aspx">ID3D10Asynchronous</a>. <b>ID3D10Counter</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members

@@ -101,7 +101,7 @@ Indicates that the pen type is unknown.
 A pen's type is determined when the pen is constructed. For example, if you pass a 
 				<a href="https://msdn.microsoft.com/en-us/library/ms534459(v=VS.85).aspx">HatchBrush</a> object to a 
 				<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> constructor, then the pen that is constructed has a pen type of <b><b>PenTypeHatchFill</b></b>. If you pass a 
-				<a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a> object or a 
+				<a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a> object or a 
 				<a href="https://msdn.microsoft.com/en-us/library/ms534508(v=VS.85).aspx">SolidBrush</a> object to a 
 				<b>Pen</b> constructor, then the pen that is constructed has a pen type of <b><b>PenTypeSolidColor</b></b>. 
 

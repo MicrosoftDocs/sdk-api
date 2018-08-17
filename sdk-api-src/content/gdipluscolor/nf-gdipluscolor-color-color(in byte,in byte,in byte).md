@@ -82,7 +82,7 @@ Creates a <b>Color::Color</b> object and initializes it to opaque black. This is
 
 
 
-<a href="https://msdn.microsoft.com/dae648fd-1302-481e-9f5b-331a4c1b5e0d">Color</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534427(v=VS.85).aspx">Color</a>
 
 
 

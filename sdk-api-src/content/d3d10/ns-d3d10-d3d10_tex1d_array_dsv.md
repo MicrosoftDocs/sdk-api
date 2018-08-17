@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_tex1d_array_dsv.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_tex1d_array_dsv.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 6ec1c875-1c8a-b908-390d-b6e25b6557b8, D3D10_TEX1D_ARRAY_DSV, D3D10_TEX1D_ARRAY_DSV structure [Direct3D 10], d3d10/D3D10_TEX1D_ARRAY_DSV, direct3d10.d3d10_tex1d_array_dsv
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,21 +61,21 @@ Specifies the <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85
 
 ### -field MipSlice
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 The index of the first mipmap level to use (see <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">mip slice</a>).
 
 
 ### -field FirstArraySlice
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 The index of the first texture to use in an array of textures (see <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">array slice</a>)
 
 
 ### -field ArraySize
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Number of textures to use.
 

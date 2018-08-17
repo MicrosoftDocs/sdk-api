@@ -118,7 +118,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms684807(v=VS.85).aspx">Ca
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/ffac0808-a546-40f5-b38b-28e5998683e3">CSID</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684809(v=VS.85).aspx">CSID</a>
 
 
 </td>
@@ -127,14 +127,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/ffac0808-a546-40f5-b38b-28e5998683e3">CSID</a> property is a null-terminated string that contains the CSID for the inbound fax message.
+The <a href="https://msdn.microsoft.com/en-us/library/ms684809(v=VS.85).aspx">CSID</a> property is a null-terminated string that contains the CSID for the inbound fax message.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/dfc21bf6-84f6-41a0-9325-110c3b1b8d45">DeviceName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686182(v=VS.85).aspx">DeviceName</a>
 
 
 </td>
@@ -143,14 +143,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/dfc21bf6-84f6-41a0-9325-110c3b1b8d45">DeviceName</a> property is a null-terminated string that contains the name of the device on which the inbound fax message was received.
+The <a href="https://msdn.microsoft.com/en-us/library/ms686182(v=VS.85).aspx">DeviceName</a> property is a null-terminated string that contains the name of the device on which the inbound fax message was received.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/cba22154-22b0-49c9-8246-9b5827ffd162">Id</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684854(v=VS.85).aspx">Id</a>
 
 
 </td>
@@ -159,7 +159,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/cba22154-22b0-49c9-8246-9b5827ffd162">Id</a> property is a null-terminated string that contains a unique ID for the inbound fax message.
+The <a href="https://msdn.microsoft.com/en-us/library/ms684854(v=VS.85).aspx">Id</a> property is a null-terminated string that contains a unique ID for the inbound fax message.
 
 </td>
 </tr>
@@ -214,7 +214,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms684850(v=VS.85).aspx">Ro
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/0d4aca3a-315e-4bc3-aae9-99951bb90128">Size</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684562(v=VS.85).aspx">Size</a>
 
 
 </td>
@@ -223,7 +223,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/0d4aca3a-315e-4bc3-aae9-99951bb90128">Size</a> property is a value that indicates the size of the TIFF Class F file associated with the inbound fax message.
+The <a href="https://msdn.microsoft.com/en-us/library/ms684562(v=VS.85).aspx">Size</a> property is a value that indicates the size of the TIFF Class F file associated with the inbound fax message.
 
 </td>
 </tr>
@@ -262,7 +262,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms684556(v=VS.85).aspx">Tr
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/754a5b45-da88-484b-92fc-ab5906367a8f">TSID</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686838(v=VS.85).aspx">TSID</a>
 
 
 </td>
@@ -271,7 +271,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/754a5b45-da88-484b-92fc-ab5906367a8f">TSID</a> property is a null-terminated string that contains the TSID associated with the inbound fax message.
+The <a href="https://msdn.microsoft.com/en-us/library/ms686838(v=VS.85).aspx">TSID</a> property is a null-terminated string that contains the TSID associated with the inbound fax message.
 
 </td>
 </tr>

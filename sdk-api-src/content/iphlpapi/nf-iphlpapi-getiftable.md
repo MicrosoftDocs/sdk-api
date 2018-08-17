@@ -7,7 +7,7 @@ old-location: iphlp\getiftable.htm
 old-project: iphlp
 ms.assetid: 6a46c1df-b274-415e-b842-fc1adf6fa206
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: GetIfTable, GetIfTable function [IP Helper], _iphlp_getiftable, iphlp.getiftable, iphlpapi/GetIfTable
 ms.prod: windows
 ms.technology: windows-sdk

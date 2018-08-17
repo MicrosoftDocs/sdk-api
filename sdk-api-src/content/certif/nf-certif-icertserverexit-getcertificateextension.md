@@ -4,10 +4,10 @@ title: ICertServerExit::GetCertificateExtension
 author: windows-sdk-content
 description: Gets a specified certificate extension.
 old-location: security\icertserverexit_getcertificateextension.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: ba2d2e5f-230e-4e69-8d86-dad9c743e5ee
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: CCertServerExit object [Security],GetCertificateExtension method, GetCertificateExtension, GetCertificateExtension method [Security], GetCertificateExtension method [Security],CCertServerExit object, GetCertificateExtension method [Security],ICertServerExit interface, ICertServerExit interface [Security],GetCertificateExtension method, ICertServerExit.GetCertificateExtension, ICertServerExit::GetCertificateExtension, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, _certsrv_icertserverexit_getcertificateextension, certif/ICertServerExit::GetCertificateExtension, security.icertserverexit_getcertificateextension
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.irql:
 
 The <b>GetCertificateExtension</b> method gets a specified certificate extension.
 
-Note that certificate extensions are distinct from certificate properties. Properties are generic data attached to the request object. Some of these properties are encoded into the certificate (example: <i>BeginDate</i>), while others are just used to mark requests in the queue and log. Extensions that are not disabled are encoded into the certificate. Extensions are always marked with an <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> and always have a critical/noncritical flag.
+Note that certificate extensions are distinct from certificate properties. Properties are generic data attached to the request object. Some of these properties are encoded into the certificate (example: <i>BeginDate</i>), while others are just used to mark requests in the queue and log. Extensions that are not disabled are encoded into the certificate. Extensions are always marked with an <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> and always have a critical/noncritical flag.
 
 
 ## -parameters
@@ -132,7 +132,7 @@ A  pointer to a <b>VARIANT</b> that receives the requested extension value.
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK, and *<i>pvarValue</i> is set to the <b>VARIANT</b> that contains the extension value.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the requested extension value.
@@ -145,7 +145,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 You must call 
-<a href="https://msdn.microsoft.com/8d317114-17bd-4b22-8e37-99db72740538">ICertServerExit::SetContext</a> prior to using this method.
+<a href="https://msdn.microsoft.com/en-us/library/Aa385079(v=VS.85).aspx">ICertServerExit::SetContext</a> prior to using this method.
 
 
 #### Examples
@@ -188,15 +188,15 @@ VariantClear(&amp;varExt);</pre>
 
 
 
-<a href="https://msdn.microsoft.com/1554c09c-a7c1-44ad-9821-93c0913212fc">ICertServerExit</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385055(v=VS.85).aspx">ICertServerExit</a>
 
 
 
-<a href="https://msdn.microsoft.com/0eee1d67-116b-4f93-9273-b70d50fa2c5d">ICertServerExit::GetCertificateExtensionFlags</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385072(v=VS.85).aspx">ICertServerExit::GetCertificateExtensionFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/8d317114-17bd-4b22-8e37-99db72740538">ICertServerExit::SetContext</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385079(v=VS.85).aspx">ICertServerExit::SetContext</a>
  
 
  

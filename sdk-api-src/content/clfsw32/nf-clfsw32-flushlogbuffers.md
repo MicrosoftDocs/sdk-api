@@ -64,14 +64,7 @@ Forces all records appended to this marshaling area to be flushed to  disk.  Thi
 A pointer to the  marshaling context that is allocated by using the <a href="https://msdn.microsoft.com/750c0615-bfac-402b-a590-6c9d800cf2d8">CreateLogMarshallingArea</a> function.
 
 
-### -param OPTIONAL
-
-TBD
-
-
-
-
-#### - pOverlapped [in, out, optional]
+### -param pOverlapped [in, out, optional]
 
 A pointer to an <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure that  is required for asynchronous operation. 
 

@@ -66,26 +66,13 @@ The <b>DsGetDcNext</b> function retrieves the next domain controller in a domain
 Contains the domain controller enumeration context handle provided by the <a href="https://msdn.microsoft.com/2811cc30-f367-4f1a-8f0c-ed0a77dad24c">DsGetDcOpen</a> function.
 
 
-### -param OPTIONAL
-
-TBD
-
-
-
-
-#### - DnsHostName [out, optional]
-
-Pointer to a string pointer that receives the DNS name of the domain controller.
-        This parameter receives <b>NULL</b> if no host name is known. The caller must free this memory when it is no longer required by calling <a href="https://msdn.microsoft.com/0e99483c-8cd7-402a-8bf6-1e0118764dd3">NetApiBufferFree</a>.
-
-
-#### - SockAddressCount [out, optional]
+### -param SockAddressCount [out, optional]
 
 Pointer to a <b>ULONG</b> value that receives the number of elements in the <i>SockAddresses</i> array.
         If this parameter is <b>NULL</b>, socket addresses are not retrieved.
 
 
-#### - SockAddresses [out, optional]
+### -param SockAddresses [out, optional]
 
 Pointer to an array of <a href="https://msdn.microsoft.com/37fbcb96-a859-4eca-8928-8051f95407b9">SOCKET_ADDRESS</a> structures that receives the socket address data for the domain controller. <i>SockAddressCount</i> receives the number of elements in this array.
 
@@ -96,6 +83,12 @@ All returned addresses will be of type <b>AF_INET</b> or <b>AF_INET6</b>.
 The caller must free this memory when it is no longer required by calling <a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a>.
 
 This parameter is ignored if <i>SockAddressCount</i> is <b>NULL</b>.
+
+
+### -param DnsHostName [out, optional]
+
+Pointer to a string pointer that receives the DNS name of the domain controller.
+        This parameter receives <b>NULL</b> if no host name is known. The caller must free this memory when it is no longer required by calling <a href="https://msdn.microsoft.com/0e99483c-8cd7-402a-8bf6-1e0118764dd3">NetApiBufferFree</a>.
 
 
 ## -returns

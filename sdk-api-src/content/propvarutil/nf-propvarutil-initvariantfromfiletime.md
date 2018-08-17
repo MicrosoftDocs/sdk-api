@@ -52,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Initializes a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure with the contents of a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure.
+Initializes a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure with the contents of a <a href="https://msdn.microsoft.com/9baf8a0e-59e3-4fbd-9616-2ec9161520d1">FILETIME</a> structure.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ Pointer to date and time information stored in a <a href="https://msdn.microsoft
 
 Type: <b>VARIANT*</b>
 
-When this function returns, contains the initialized <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
+When this function returns, contains the initialized <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure.
 
 
 ## -returns

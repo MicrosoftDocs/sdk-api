@@ -99,7 +99,7 @@ Gets a pointer to the license information for this implementation of the <b>IWor
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7685d85b-de66-4a1e-af54-2a6a42d5de8c">Init</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266432(v=VS.85).aspx">Init</a>
 </td>
 <td align="left" width="63%">
 Initializes the <b>IWordBreaker</b> implementation and indicates the mode in which the component operates.

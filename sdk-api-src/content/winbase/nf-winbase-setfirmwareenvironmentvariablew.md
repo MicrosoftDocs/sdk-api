@@ -4,10 +4,10 @@ title: SetFirmwareEnvironmentVariableW function
 author: windows-sdk-content
 description: Sets the value of the specified firmware environment variable.
 old-location: base\setfirmwareenvironmentvariable.htm
-old-project: SysInfo
+old-project: sysinfo
 ms.assetid: 42117632-61aa-4f83-abe1-c08f40cf3f0a
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/10/2018
 ms.keywords: SetFirmwareEnvironmentVariable, SetFirmwareEnvironmentVariable function, SetFirmwareEnvironmentVariableA, SetFirmwareEnvironmentVariableW, base.setfirmwareenvironmentvariable, winbase/SetFirmwareEnvironmentVariable, winbase/SetFirmwareEnvironmentVariableA, winbase/SetFirmwareEnvironmentVariableW
 ms.prod: windows
 ms.technology: windows-sdk

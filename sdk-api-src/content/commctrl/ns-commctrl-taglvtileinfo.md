@@ -61,7 +61,7 @@ Provides information about an item in a list-view control when it is displayed i
 
 ### -field cbSize
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 The size of the <b>LVTILEINFO</b> structure.
 
@@ -75,7 +75,7 @@ The item for which the information is retrieved or set.
 
 ### -field cColumns
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 The number of data columns displayed for this item. When retrieving information, initialize this value to the size of the <b>puColumns</b> array. On return, the member is set to the number of columns actually set for the item.
 

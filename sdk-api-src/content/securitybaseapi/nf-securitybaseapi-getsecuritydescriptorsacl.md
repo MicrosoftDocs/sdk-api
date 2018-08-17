@@ -7,7 +7,7 @@ old-location: security\getsecuritydescriptorsacl.htm
 old-project: secauthz
 ms.assetid: 6bf59735-aaa3-4751-8c98-00cc197df4e5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: GetSecurityDescriptorSacl, GetSecurityDescriptorSacl function [Security], _win32_getsecuritydescriptorsacl, security.getsecuritydescriptorsacl, securitybaseapi/GetSecurityDescriptorSacl
 ms.prod: windows
 ms.technology: windows-sdk

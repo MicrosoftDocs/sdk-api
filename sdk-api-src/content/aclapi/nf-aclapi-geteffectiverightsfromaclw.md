@@ -7,7 +7,7 @@ old-location: security\geteffectiverightsfromacl.htm
 old-project: secauthz
 ms.assetid: c40973e8-72a9-43a2-9873-ea5c666a094c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: GetEffectiveRightsFromAcl, GetEffectiveRightsFromAcl function [Security], GetEffectiveRightsFromAclA, GetEffectiveRightsFromAclW, _win32_geteffectiverightsfromacl, aclapi/GetEffectiveRightsFromAcl, aclapi/GetEffectiveRightsFromAclA, aclapi/GetEffectiveRightsFromAclW, security.geteffectiverightsfromacl
 ms.prod: windows
 ms.technology: windows-sdk

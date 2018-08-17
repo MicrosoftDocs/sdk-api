@@ -7,7 +7,7 @@ old-location: base\destroythreadpoolenvironment.htm
 old-project: procthread
 ms.assetid: b6a635f3-a603-4c2f-9aa9-1baa51922394
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: DestroyThreadpoolEnvironment, DestroyThreadpoolEnvironment function, base.destroythreadpoolenvironment, winbase/DestroyThreadpoolEnvironment
 ms.prod: windows
 ms.technology: windows-sdk

@@ -74,7 +74,7 @@ The <b>IUICollectionChangedEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5a524071-2679-44c7-85db-a40cfcb4a321">OnChanged</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371502(v=VS.85).aspx">OnChanged</a>
 </td>
 <td align="left" width="63%">
 Called when an <a href="https://msdn.microsoft.com/en-us/library/Dd371519(v=VS.85).aspx">IUICollection</a> changes.

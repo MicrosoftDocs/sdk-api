@@ -78,7 +78,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/337fba05-80d5-4638-9936-2e02767a5b1b">IBDA_DigitalDemodulator2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693285(v=VS.85).aspx">IBDA_DigitalDemodulator2</a>
  
 
  

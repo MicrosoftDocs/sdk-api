@@ -61,9 +61,9 @@ The <b>DsGetDcSiteCoverage</b> function returns the site names of all sites cove
 
 
 
-### -param OPTIONAL
+### -param ServerName [in, optional]
 
-TBD
+The null-terminated string value that specifies the name of the remote domain controller.
 
 
 ### -param EntryCount [out]
@@ -74,11 +74,6 @@ Pointer to a <b>ULONG</b> value that receives  the number of sites covered by th
 ### -param SiteNames [out]
 
 Pointer to an array of pointers to null-terminated strings that receives the site names. To free the returned buffer, call the <a href="https://msdn.microsoft.com/0e99483c-8cd7-402a-8bf6-1e0118764dd3">NetApiBufferFree</a> function.
-
-
-#### - ServerName [in, optional]
-
-The null-terminated string value that specifies the name of the remote domain controller.
 
 
 ## -returns

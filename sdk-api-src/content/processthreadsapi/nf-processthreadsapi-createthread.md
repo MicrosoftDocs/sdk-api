@@ -7,7 +7,7 @@ old-location: base\createthread.htm
 old-project: procthread
 ms.assetid: 202a4b42-513a-45de-894a-72e56c706a58
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: CREATE_SUSPENDED, CreateThread, CreateThread function, STACK_SIZE_PARAM_IS_A_RESERVATION, _win32_createthread, base.createthread, processthreadsapi/CreateThread, winbase/CreateThread
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: PSS_VA_SPACE_INFORMATION
+req.typenames: PROCESS_MEMORY_EXHAUSTION_TYPE, *PPROCESS_MEMORY_EXHAUSTION_TYPE
 topic_type:
  - APIRef
  - kbSyntax

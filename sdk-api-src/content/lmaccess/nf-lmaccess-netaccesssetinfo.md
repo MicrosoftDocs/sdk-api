@@ -64,11 +64,9 @@ Not supported.
 
 
 
-### -param OPTIONAL
+### -param servername
 
 TBD
-
-
 
 
 ### -param resource
@@ -103,6 +101,13 @@ The <i>pbBuffer</i> parameter points to an
 ### -param buf
 
 Pointer to the buffer that contains the access information structure. The format of this data depends on the value of the <i>sLevel</i> parameter.
+
+
+### -param parm_err
+
+TBD
+
+
 
 
 #### - cbBuffer

@@ -90,10 +90,10 @@ Signals Direct3D to begin recording a device-state block.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3163f313-a382-4a05-92a6-1f27d8bcb98a">Clear</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174352(v=VS.85).aspx">Clear</a>
 </td>
 <td align="left" width="63%">
-Clears one or more surfaces such as a render target, <a href="https://msdn.microsoft.com/ae48c5ce-b7f5-4189-8b04-880836be3fe0">multiple render targets</a>, a stencil buffer, and a depth buffer.
+Clears one or more surfaces such as a render target, <a href="https://msdn.microsoft.com/en-us/library/Bb147221(v=VS.85).aspx">multiple render targets</a>, a stencil buffer, and a depth buffer.
 
 </td>
 </tr>
@@ -540,7 +540,7 @@ Gets an integer shader constant.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/27af5b34-665a-4e96-b918-5dcfedd088ee">GetRasterStatus</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174402(v=VS.85).aspx">GetRasterStatus</a>
 </td>
 <td align="left" width="63%">
 Returns information describing the raster of the monitor on which the swap chain is presented.
@@ -747,7 +747,7 @@ Applies the vertex processing defined by the vertex shader to the set of input d
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6d672f22-9843-4ff7-ae79-4903f56cd1e9">Reset</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174425(v=VS.85).aspx">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the type, size, and format of the swap chain.

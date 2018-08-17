@@ -7,7 +7,7 @@ old-location: base\getprocessversion.htm
 old-project: procthread
 ms.assetid: ed12f2e5-1674-4885-878f-9ba39415780c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: GetProcessVersion, GetProcessVersion function, _win32_getprocessversion, base.getprocessversion, processthreadsapi/GetProcessVersion, winbase/GetProcessVersion
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: PSS_VA_SPACE_INFORMATION
+req.typenames: PROCESS_MEMORY_EXHAUSTION_TYPE, *PPROCESS_MEMORY_EXHAUSTION_TYPE
 topic_type:
  - APIRef
  - kbSyntax

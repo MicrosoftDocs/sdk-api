@@ -68,7 +68,7 @@ Zero-based index of the insertion mark. If this member is -1, there is no insert
 
 ### -field dwFlags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
 
 Defines where the insertion mark is in relation to 
 					<b>iButton</b>. This can be one of the following values: 

@@ -4,10 +4,10 @@ title: CryptImportPublicKeyInfoEx function
 author: windows-sdk-content
 description: Important  This API is deprecated.
 old-location: security\cryptimportpublickeyinfoex.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: d3a59f83-c761-46bb-ac4f-f42f689ea5f1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: CryptImportPublicKeyInfoEx, CryptImportPublicKeyInfoEx function [Security], _crypto2_cryptimportpublickeyinfoex, security.cryptimportpublickeyinfoex, wincrypt/CryptImportPublicKeyInfoEx
 ms.prod: windows
 ms.technology: windows-sdk

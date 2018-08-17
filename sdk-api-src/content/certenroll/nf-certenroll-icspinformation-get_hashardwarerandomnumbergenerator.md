@@ -74,7 +74,7 @@ There are currently no Microsoft cryptographic providers that support this featu
 
 
 
-<a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375967(v=VS.85).aspx">ICspInformation</a>
  
 
  

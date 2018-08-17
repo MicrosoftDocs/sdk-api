@@ -68,7 +68,7 @@ Releases the memory used by the data encapsulated in <a href="https://msdn.micro
 
 See <a href="https://msdn.microsoft.com/2fb6698c-5d59-4ba0-a8ff-1313fade438c">PrintAsyncNotifyError</a> for the possible values.
 
-For more information about COM error codes, see <a href="_com_error_handling">Error Handling</a>.
+For more information about COM error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa376932(v=VS.85).aspx">Error Handling</a>.
 
 
 

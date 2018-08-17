@@ -282,7 +282,7 @@ Deprecated. Saves the state of browser toolbars.
 <a href="https://msdn.microsoft.com/159516ce-1731-478a-8d84-85d0001f9c63">_SendChildren</a>
 </td>
 <td align="left" width="63%">
-Deprecated. Allows the derived class to send a message through the <a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a> function directly instead of relying on the base class.
+Deprecated. Allows the derived class to send a message through the <a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a> function directly instead of relying on the base class.
 
 </td>
 </tr>
@@ -372,7 +372,7 @@ Deprecated. Coordinates the updating of state when creating a new browser view w
 <a href="https://msdn.microsoft.com/8db9fbf9-9132-47a4-a788-93c303598ba0">ForwardViewMsg</a>
 </td>
 <td align="left" width="63%">
-Deprecated. Calls the <a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a> function with a message received by the view, using the <b>_hwndView</b> member of the <a href="https://msdn.microsoft.com/d56e42e8-a556-4470-82d9-466edd84214f">BASEBROWSERDATA</a> structure as the <b>SendMessage</b>
+Deprecated. Calls the <a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a> function with a message received by the view, using the <b>_hwndView</b> member of the <a href="https://msdn.microsoft.com/d56e42e8-a556-4470-82d9-466edd84214f">BASEBROWSERDATA</a> structure as the <b>SendMessage</b>
 <i>hWnd</i> parameter.
 
 </td>

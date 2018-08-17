@@ -55,7 +55,7 @@ req.irql:
 ## -description
 
 
-Switches the call context object used by <a href="https://msdn.microsoft.com/b82e32c0-840d-402e-90d5-ff678c51faf1">CoGetCallContext</a>.
+Switches the call context object used by <a href="https://msdn.microsoft.com/en-us/library/ms691483(v=VS.85).aspx">CoGetCallContext</a>.
 
 
 ## -parameters
@@ -116,11 +116,11 @@ Out of memory.
 
 
 
-Custom marshallers call <b>CoSwitchCallContext</b> to change the call context object used by the <a href="https://msdn.microsoft.com/b82e32c0-840d-402e-90d5-ff678c51faf1">CoGetCallContext</a> function. Before dispatching an arriving call, custom marshallers call <b>CoSwitchCallContext</b>, specifying the new context object. After sending a reply, they must restore the original call context by calling <b>CoSwitchCallContext</b> again, this time passing a pointer to the original context object.
+Custom marshallers call <b>CoSwitchCallContext</b> to change the call context object used by the <a href="https://msdn.microsoft.com/en-us/library/ms691483(v=VS.85).aspx">CoGetCallContext</a> function. Before dispatching an arriving call, custom marshallers call <b>CoSwitchCallContext</b>, specifying the new context object. After sending a reply, they must restore the original call context by calling <b>CoSwitchCallContext</b> again, this time passing a pointer to the original context object.
 
 <b>CoSwitchCallContext</b> does not add a reference to the new context object. Custom marshallers must ensure that the lifetime of their context object continues throughout their call and until the call to restore the original context.  Custom marshallers should not release the value that they placed into the <i>ppOldObject</i> parameter when they set their context.
 
-Call context objects provided by custom marshallers should support the <a href="https://msdn.microsoft.com/aacef77c-7185-44ed-aa1a-465c6100a431">IServerSecurity</a> interface.
+Call context objects provided by custom marshallers should support the <a href="https://msdn.microsoft.com/en-us/library/ms691215(v=VS.85).aspx">IServerSecurity</a> interface.
 
 
 
@@ -131,15 +131,15 @@ Call context objects provided by custom marshallers should support the <a href="
 
 
 
-<a href="https://msdn.microsoft.com/b82e32c0-840d-402e-90d5-ff678c51faf1">CoGetCallContext</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691483(v=VS.85).aspx">CoGetCallContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/aacef77c-7185-44ed-aa1a-465c6100a431">IServerSecurity</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691215(v=VS.85).aspx">IServerSecurity</a>
 
 
 
-<a href="https://msdn.microsoft.com/c9f6d06c-da24-48ea-908a-2462c33f7ee3">Security in COM</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693319(v=VS.85).aspx">Security in COM</a>
  
 
  

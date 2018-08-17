@@ -147,7 +147,7 @@ The property condition is met if the property value matches the specified patter
 
 
 
-<a href="https://msdn.microsoft.com/2cec0753-20ec-4df4-9a74-c65bfed28070">IFsrmPropertyCondition.Type</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd392474(v=VS.85).aspx">IFsrmPropertyCondition.Type</a>
  
 
  

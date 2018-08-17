@@ -52,7 +52,7 @@ req.product: Use Windows Update or a Windows Update Services Server to retrieve 
 ## -description
 
 
-Defines stream buffer parameters that may change from one call to the next. Used with the <a href="https://msdn.microsoft.com/2510590D-578A-4A39-847A-34DFE620A7CC">Process</a> method.
+Defines stream buffer parameters that may change from one call to the next. Used with the <a href="https://msdn.microsoft.com/en-us/library/Ee418456(v=VS.85).aspx">Process</a> method.
 
 
 ## -struct-fields

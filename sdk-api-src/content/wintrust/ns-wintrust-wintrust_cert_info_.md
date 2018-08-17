@@ -4,10 +4,10 @@ title: WINTRUST_CERT_INFO_
 author: windows-sdk-content
 description: Used when calling WinVerifyTrust to verify a CERT_CONTEXT.
 old-location: security\wintrust_cert_info.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 6522d1f0-3d96-4499-9220-23288122e0e6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: "*PWINTRUST_CERT_INFO, PWINTRUST_CERT_INFO, PWINTRUST_CERT_INFO structure pointer [Security], WINTRUST_CERT_INFO, WINTRUST_CERT_INFO structure [Security], WINTRUST_CERT_INFO_, _win32_wintrust_cert_info, security.wintrust_cert_info, wintrust/PWINTRUST_CERT_INFO, wintrust/WINTRUST_CERT_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

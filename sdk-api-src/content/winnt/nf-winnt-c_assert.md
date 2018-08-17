@@ -7,7 +7,7 @@ old-location: base\c_assert.htm
 old-project: debug
 ms.assetid: 6cae9a14-584c-474c-b34e-7c6e410afcc1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: C_ASSERT, C_ASSERT macro, base.c_assert, winnt/C_ASSERT
 ms.prod: windows
 ms.technology: windows-sdk

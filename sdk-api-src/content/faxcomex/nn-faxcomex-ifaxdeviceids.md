@@ -73,7 +73,7 @@ The <b>IFaxDeviceIds</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/181de45f-dbff-40c1-908c-8dc712e61073">Add</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686139(v=VS.85).aspx">Add</a>
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms686139(v=VS.85).aspx">IFaxDeviceIds::Add</a> method adds a fax device to the <a href="https://msdn.microsoft.com/en-us/library/ms686501(v=VS.85).aspx">FaxDeviceIds</a> collection, using the device's ID.
@@ -100,7 +100,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms684590(v=VS.85).aspx">IF
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/97d01996-9777-4ec4-ab47-cd0340b7ef32">Remove</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686154(v=VS.85).aspx">Remove</a>
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms686154(v=VS.85).aspx">IFaxDeviceIds::Remove</a> method removes an item from the <a href="https://msdn.microsoft.com/en-us/library/ms686501(v=VS.85).aspx">FaxDeviceIds</a> collection.
@@ -127,7 +127,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms686156(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/d47b51e0-d228-467b-acb3-b84e3cebb76d">Count</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686492(v=VS.85).aspx">Count</a>
 
 
 </td>

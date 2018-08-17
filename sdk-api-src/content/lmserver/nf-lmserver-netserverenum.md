@@ -63,11 +63,9 @@ The
 
 
 
-### -param OPTIONAL
+### -param servername [in, optional]
 
-TBD
-
-
+Reserved; must be <b>NULL</b>.
 
 
 ### -param level [in]
@@ -508,7 +506,7 @@ All servers. This is a convenience that will return all possible servers.
  
 
 
-#### - domain [in, optional]
+### -param domain [in, optional]
 
 A pointer to a constant string that specifies the name of the domain for which a list of servers is to be returned. The domain name must be a NetBIOS domain name (for example, microsoft). 
 The <b>NetServerEnum</b> function does not support DNS-style names (for example, microsoft.com). 
@@ -516,14 +514,9 @@ The <b>NetServerEnum</b> function does not support DNS-style names (for example,
 If this parameter is <b>NULL</b>, the primary domain is implied.
 
 
-#### - resume_handle [in, out, optional]
+### -param resume_handle [in, out, optional]
 
 Reserved; must be set to zero.
-
-
-#### - servername [in, optional]
-
-Reserved; must be <b>NULL</b>.
 
 
 ## -returns

@@ -73,7 +73,7 @@ The <b>IQueryParser</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/85216ad7-6988-43cd-87b3-49a2ca1173b6">GetOption</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231351(v=VS.85).aspx">GetOption</a>
 </td>
 <td align="left" width="63%">
 Retrieves a specified simple option value for this query parser.

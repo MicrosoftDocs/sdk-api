@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-Represents information about the <a href="https://msdn.microsoft.com/6722d075-02e0-4817-abc3-dce8951c17da">Failover</a> attempts for a resource. This structure is used by the <a href="https://msdn.microsoft.com/131EEF4A-DB1E-4FF7-8329-4AA422AB83B0">RESOURCE_FAILURE_INFO_BUFFER</a> structure.
+Represents information about the <a href="https://msdn.microsoft.com/en-us/library/Aa369573(v=VS.85).aspx">Failover</a> attempts for a resource. This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/Dn622953(v=VS.85).aspx">RESOURCE_FAILURE_INFO_BUFFER</a> structure.
 
 
 ## -struct-fields
@@ -62,12 +62,12 @@ Represents information about the <a href="https://msdn.microsoft.com/6722d075-02
 
 ### -field dwRestartAttemptsRemaining
 
-The number of remaining failover attempts that can be made on the resource during the current <a href="https://msdn.microsoft.com/5277a4a7-2866-4c16-8ad0-ea3a33714583">FailoverPeriod</a> time interval.
+The number of remaining failover attempts that can be made on the resource during the current <a href="https://msdn.microsoft.com/en-us/library/Aa369665(v=VS.85).aspx">FailoverPeriod</a> time interval.
 
 
 ### -field dwRestartPeriodRemaining
 
-The amount of time remaining for the <a href="https://msdn.microsoft.com/5277a4a7-2866-4c16-8ad0-ea3a33714583">FailoverPeriod</a>, in seconds.
+The amount of time remaining for the <a href="https://msdn.microsoft.com/en-us/library/Aa369665(v=VS.85).aspx">FailoverPeriod</a>, in seconds.
 
 
 ## -see-also
@@ -75,11 +75,11 @@ The amount of time remaining for the <a href="https://msdn.microsoft.com/5277a4a
 
 
 
-<a href="https://msdn.microsoft.com/131EEF4A-DB1E-4FF7-8329-4AA422AB83B0">RESOURCE_FAILURE_INFO_BUFFER</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn622953(v=VS.85).aspx">RESOURCE_FAILURE_INFO_BUFFER</a>
 
 
 
-<a href="https://msdn.microsoft.com/45da8dbc-dd70-4f95-b933-66d8e4340448">Utility Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa373109(v=VS.85).aspx">Utility Structures</a>
  
 
  

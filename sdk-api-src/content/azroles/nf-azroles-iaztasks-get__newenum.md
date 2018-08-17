@@ -7,7 +7,7 @@ old-location: security\iaztasks_newenum.htm
 old-project: secauthz
 ms.assetid: 2598295f-da23-4eb2-aefc-e8e43f8c0f60
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: AzTasks object [Security],_NewEnum property, IAzTasks interface [Security],_NewEnum property, IAzTasks._NewEnum, IAzTasks.get__NewEnum, IAzTasks::_NewEnum, IAzTasks::get__NewEnum, _NewEnum property [Security], _NewEnum property [Security],AzTasks object, _NewEnum property [Security],IAzTasks interface, azroles/IAzTasks::_NewEnum, azroles/IAzTasks::get__NewEnum, get__NewEnum, security.iaztasks_newenum
 ms.prod: windows
 ms.technology: windows-sdk

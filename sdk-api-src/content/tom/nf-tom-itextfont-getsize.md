@@ -125,7 +125,7 @@ The font object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/268900f8-d7a7-41e3-adb1-32bf2af5d5db">SetSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787813(v=VS.85).aspx">SetSize</a>
 
 
 

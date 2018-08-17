@@ -7,7 +7,7 @@ old-location: base\getthreaddescription.htm
 old-project: procthread
 ms.assetid: 9CFF0A2D-2196-4AE0-8F77-229A8AB7A3E8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: GetThreadDescription, GetThreadDescription function, base.getthreaddescription, processthreadsapi/GetThreadDescription
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: PSS_VA_SPACE_INFORMATION
+req.typenames: PROCESS_MEMORY_EXHAUSTION_TYPE, *PPROCESS_MEMORY_EXHAUSTION_TYPE
 topic_type:
  - APIRef
  - kbSyntax

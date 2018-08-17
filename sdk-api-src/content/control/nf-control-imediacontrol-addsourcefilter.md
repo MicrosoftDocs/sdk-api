@@ -57,7 +57,7 @@ The <code>AddSourceFilter</code> method adds a source filter to the filter graph
 
 
 
-This method is intended for use by Visual Basic 6.0 applications. It was documented for Visual Basic 6.0 as the <b>FilgraphManager.AddSourceFilter</b> method. C++ applications should use the <a href="https://msdn.microsoft.com/ed4d7fc6-558b-474f-ae8d-58aa8479b4d2">IGraphBuilder::AddSourceFilter</a> method instead.
+This method is intended for use by Visual Basic 6.0 applications. It was documented for Visual Basic 6.0 as the <b>FilgraphManager.AddSourceFilter</b> method. C++ applications should use the <a href="https://msdn.microsoft.com/en-us/library/Dd390087(v=VS.85).aspx">IGraphBuilder::AddSourceFilter</a> method instead.
 
 
 ## -parameters
@@ -89,7 +89,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/bce64088-3751-420c-b9de-b9b5f3119198">IMediaControl Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd390170(v=VS.85).aspx">IMediaControl Interface</a>
  
 
  

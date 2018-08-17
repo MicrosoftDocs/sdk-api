@@ -89,7 +89,7 @@ This method doesn't return an error code if it fails. To determine whether a dra
 
 #### Examples
 
-The following example uses the <b>DrawRoundedRectangle</b> and <a href="https://msdn.microsoft.com/9c4765b0-858f-4a20-b044-0acf87a1f131">FillRoundedRectangle</a> methods to outline and fill a rounded rectangle.  This example produces the output shown in the following illustration. 
+The following example uses the <b>DrawRoundedRectangle</b> and <a href="https://msdn.microsoft.com/en-us/library/Dd742852(v=VS.85).aspx">FillRoundedRectangle</a> methods to outline and fill a rounded rectangle.  This example produces the output shown in the following illustration. 
 
 <img alt="Illustration of four rounded rectangles with different stroke styles and fills" src="./images/drawroundedrectangle_scr.png"/>
 
@@ -177,11 +177,11 @@ HRESULT DrawAndFillRoundedRectangleExample::OnRender()
 
 
 
-<a href="https://msdn.microsoft.com/200119a2-941c-493f-9e56-c9f306dc5322">D2D1::RoundedRect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372352(v=VS.85).aspx">D2D1::RoundedRect</a>
 
 
 
-<a href="https://msdn.microsoft.com/8a68fc3f-118c-447b-856c-05417ae4ef29">How to Draw and Fill a Basic Shape</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd756683(v=VS.85).aspx">How to Draw and Fill a Basic Shape</a>
 
 
 

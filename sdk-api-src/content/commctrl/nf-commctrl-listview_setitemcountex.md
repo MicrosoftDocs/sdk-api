@@ -61,7 +61,7 @@ Sets the virtual number of items in a <a href="https://msdn.microsoft.com/en-us/
 
 ### -param hwndLV
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 A handle to a virtual list-view control. 
 
@@ -75,7 +75,7 @@ The number of items that the list-view control will contain.
 
 ### -param dwFlags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
 
 Values that specify the behavior of the list-view control after resetting the item count. This value can be a combination of the following: 
 

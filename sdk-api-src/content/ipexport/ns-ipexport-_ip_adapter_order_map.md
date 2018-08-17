@@ -7,7 +7,7 @@ old-location: iphlp\ip_adapter_order_map.htm
 old-project: iphlp
 ms.assetid: 0bbd008e-67d4-4557-bff7-f0404a8878ff
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: "*PIP_ADAPTER_ORDER_MAP, IP_ADAPTER_ORDER_MAP, IP_ADAPTER_ORDER_MAP structure [IP Helper], PIP_ADAPTER_ORDER_MAP, PIP_ADAPTER_ORDER_MAP structure pointer [IP Helper], _IP_ADAPTER_ORDER_MAP, ipexport/IP_ADAPTER_ORDER_MAP, ipexport/PIP_ADAPTER_ORDER_MAP, iphlp.ip_adapter_order_map"
 ms.prod: windows
 ms.technology: windows-sdk

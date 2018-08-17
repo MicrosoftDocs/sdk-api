@@ -7,7 +7,7 @@ old-location: display\ddgetirqinfo.htm
 old-project: display
 ms.assetid: fdc3b929-902b-4759-b603-1624e3fb01dc
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/13/2018
 ms.keywords: "*PDDGETIRQINFO, DDGETIRQINFO, DDGETIRQINFO structure [Display Devices], PDDGETIRQINFO, PDDGETIRQINFO structure pointer [Display Devices], Video_Structs_18f717ac-c026-4679-b55f-394135132ccc.xml, _DDGETIRQINFO, display.ddgetirqinfo, dxmini/DDGETIRQINFO, dxmini/PDDGETIRQINFO"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -85,11 +85,11 @@ The number of bytes that are encrypted after each block of skipped bytes.
 
 
 
-<a href="https://msdn.microsoft.com/416159A4-F50E-4027-9367-727BA81D2A21">Direct3D 11 Video Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh447680(v=VS.85).aspx">Direct3D 11 Video Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/39010E57-FFF2-4793-B839-E336E8D2C1B2">ID3D11VideoContext::SubmitDecoderBuffers</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh447718(v=VS.85).aspx">ID3D11VideoContext::SubmitDecoderBuffers</a>
  
 
  

@@ -4,10 +4,10 @@ title: Properties::Remove
 author: windows-sdk-content
 description: The Remove method removes the specified property from the collection.
 old-location: mmc\properties_remove.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: 7d5b605c-bdf0-4418-9ef0-4e6643f074e0
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/14/2018
 ms.keywords: Properties interface [MMC],Remove method, Properties object [MMC],Remove method, Properties.Remove, Properties::Remove, Remove, Remove method [MMC], Remove method [MMC],Properties interface, Remove method [MMC],Properties object, _slate_properties.remove_method, mmc.properties_remove
 ms.prod: windows
 ms.technology: windows-sdk

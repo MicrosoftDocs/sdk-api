@@ -4,10 +4,10 @@ title: PerfQueryInstance function
 author: windows-sdk-content
 description: Retrieves a pointer to the specified counter set instance. Providers use this function.
 old-location: perf\perfqueryinstance.htm
-old-project: PerfCtrs
+old-project: perfctrs
 ms.assetid: 844f3f9e-8de2-4995-b13c-befe0da8a1ab
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/08/2018
 ms.keywords: PerfQueryInstance, PerfQueryInstance function [Perf], base.perfqueryinstance, perf.perfqueryinstance, perflib/PerfQueryInstance
 ms.prod: windows
 ms.technology: windows-sdk

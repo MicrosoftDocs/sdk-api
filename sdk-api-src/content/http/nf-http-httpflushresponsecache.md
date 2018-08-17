@@ -90,7 +90,7 @@ This parameter can contain the following flag:
 Causes response fragments that have names in which the site portion is a hierarchical descendant of the specified UrlPrefix to be removed from the fragment cache, in addition to those fragments having site portions that directly match.
 
 
-### -param OPTIONAL
+### -param Overlapped
 
 TBD
 

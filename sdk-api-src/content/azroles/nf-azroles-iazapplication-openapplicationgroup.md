@@ -7,7 +7,7 @@ old-location: security\iazapplication_openapplicationgroup.htm
 old-project: secauthz
 ms.assetid: 6f9c9d65-73aa-40e9-bd04-d4d5d4370201
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: AzApplication object [Security],OpenApplicationGroup method, IAzApplication interface [Security],OpenApplicationGroup method, IAzApplication.OpenApplicationGroup, IAzApplication::OpenApplicationGroup, OpenApplicationGroup, OpenApplicationGroup method [Security], OpenApplicationGroup method [Security],AzApplication object, OpenApplicationGroup method [Security],IAzApplication interface, azroles/IAzApplication::OpenApplicationGroup, security.iazapplication_openapplicationgroup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-The <b>OpenApplicationGroup</b> method opens an <a href="https://msdn.microsoft.com/6a15acde-e582-4c49-b7e4-82d4e54012b1">IAzApplicationGroup</a> object with the specified name.
+The <b>OpenApplicationGroup</b> method opens an <a href="https://msdn.microsoft.com/en-us/library/Aa377253(v=VS.85).aspx">IAzApplicationGroup</a> object with the specified name.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The <b>OpenApplicationGroup</b> method opens an <a href="https://msdn.microsoft.
 
 ### -param bstrGroupName [in]
 
-Name of the <a href="https://msdn.microsoft.com/6a15acde-e582-4c49-b7e4-82d4e54012b1">IAzApplicationGroup</a> object to open.
+Name of the <a href="https://msdn.microsoft.com/en-us/library/Aa377253(v=VS.85).aspx">IAzApplicationGroup</a> object to open.
 
 
 ### -param varReserved [in, optional]
@@ -72,7 +72,7 @@ Reserved for future use.
 
 ### -param ppGroup [out]
 
-A pointer to a pointer to the opened <a href="https://msdn.microsoft.com/6a15acde-e582-4c49-b7e4-82d4e54012b1">IAzApplicationGroup</a> object.
+A pointer to a pointer to the opened <a href="https://msdn.microsoft.com/en-us/library/Aa377253(v=VS.85).aspx">IAzApplicationGroup</a> object.
 
 
 ## -returns

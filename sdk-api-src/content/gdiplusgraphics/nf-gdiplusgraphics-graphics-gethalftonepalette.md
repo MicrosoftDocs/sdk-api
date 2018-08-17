@@ -86,10 +86,10 @@ The purpose of the <b>Graphics::GetHalftonePalette</b> method is to enable GDI+ 
 <li>Realize the palette by calling the 
 						<a href="https://msdn.microsoft.com/1c744ad2-09bc-455f-bc3c-9a2583b57a30">RealizePalette</a> function. </li>
 <li>Construct a 
-						<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object from a handle to the device context. </li>
+						<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object from a handle to the device context. </li>
 <li>Call the
 <a href="https://msdn.microsoft.com/en-us/library/ms536028(v=VS.85).aspx">Graphics::DrawImage</a> method of the 
-						<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object. </li>
+						<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object. </li>
 </ol>
 Be sure to delete the palette when you have finished using it. If you do not follow the preceding procedure, then on an 8-bits-per-pixel-display device, the default, 16-color process is used, which results in a lesser quality halftone.
 
@@ -137,7 +137,7 @@ The following example draws the same image twice. Before the image is drawn the 
 
 
 
-<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
 
 
 

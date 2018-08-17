@@ -52,7 +52,7 @@ req.irql:
 
 
 
-The <b>TF_LMLATTELEMENT</b> structure contains information about a lattice element. A lattice element is used in speech recognition. This structure is used with the <a href="https://msdn.microsoft.com/066493c9-6597-43f4-9f65-51578af00a9b">IEnumTfLatticeElements::Next</a> method.
+The <b>TF_LMLATTELEMENT</b> structure contains information about a lattice element. A lattice element is used in speech recognition. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/ms538212(v=VS.85).aspx">IEnumTfLatticeElements::Next</a> method.
 
 
 

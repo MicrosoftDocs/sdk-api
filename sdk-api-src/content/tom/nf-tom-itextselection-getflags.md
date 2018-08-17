@@ -138,7 +138,7 @@ The method returns an
 
 
 
-<a href="https://msdn.microsoft.com/e4b96d2a-2e75-4459-9a6e-5e0483926ce1">SetFlags</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774143(v=VS.85).aspx">SetFlags</a>
 
 
 

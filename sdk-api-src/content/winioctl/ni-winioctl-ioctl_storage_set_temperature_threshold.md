@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: STORAGE_QUERY_TYPE, *PSTORAGE_QUERY_TYPE
+req.typenames: WRITE_THROUGH
 topic_type:
  - APIRef
  - kbSyntax

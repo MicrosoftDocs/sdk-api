@@ -317,7 +317,7 @@ Gets the font weight for the characters in a range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9c567d78-a915-4b44-bf52-61e72101c08b">IsEqual</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787863(v=VS.85).aspx">IsEqual</a>
 </td>
 <td align="left" width="63%">
 Determines whether this text font object has the same properties as the specified text font object.
@@ -326,7 +326,7 @@ Determines whether this text font object has the same properties as the specifie
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9b0517bf-f27e-42ff-901d-9d6a797f0c82">Reset</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787865(v=VS.85).aspx">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the character formatting to the specified values.
@@ -488,7 +488,7 @@ Sets whether characters are displayed as shadowed characters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/268900f8-d7a7-41e3-adb1-32bf2af5d5db">SetSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787813(v=VS.85).aspx">SetSize</a>
 </td>
 <td align="left" width="63%">
 Sets the font size.

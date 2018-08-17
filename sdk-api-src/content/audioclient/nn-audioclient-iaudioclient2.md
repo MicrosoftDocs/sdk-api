@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioclient2.htm
 old-project: CoreAudio
 ms.assetid: 9CE79CEB-115E-4802-A687-B2CB23E6A0E0
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/14/2018
 ms.keywords: IAudioClient2, IAudioClient2 interface [Core Audio], IAudioClient2 interface [Core Audio],described, audioclient/IAudioClient2, coreaudio.iaudioclient2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: base\symfindfileinpath.htm
 old-project: debug
 ms.assetid: f85d8cd9-958a-490a-b155-3a9abdeda922
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: SSRVOPT_DWORD, SSRVOPT_DWORDPTR, SSRVOPT_GUIDPTR, SymFindFileInPath, SymFindFileInPath function, SymFindFileInPathW, _win32_symfindfileinpath, base.symfindfileinpath, dbghelp/SymFindFileInPath, dbghelp/SymFindFileInPathW
 ms.prod: windows
 ms.technology: windows-sdk

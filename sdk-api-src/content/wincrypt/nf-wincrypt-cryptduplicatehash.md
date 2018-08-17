@@ -4,10 +4,10 @@ title: CryptDuplicateHash function
 author: windows-sdk-content
 description: Makes an exact copy of a hash to the point when the duplication is done.
 old-location: security\cryptduplicatehash.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 527fce4d-8d42-437b-9692-42583092efbb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: CryptDuplicateHash, CryptDuplicateHash function [Security], _crypto2_cryptduplicatehash, security.cryptduplicatehash, wincrypt/CryptDuplicateHash
 ms.prod: windows
 ms.technology: windows-sdk

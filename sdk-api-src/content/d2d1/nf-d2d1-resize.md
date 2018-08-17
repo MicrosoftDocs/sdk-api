@@ -84,7 +84,7 @@ Changes the size of the render target to the specified pixel size.
 
 
 
-After this method is called, the contents of the render target's back-buffer are not defined, even if the <a href="https://msdn.microsoft.com/56178ee9-7d35-42e1-97f8-62835010f277">D2D1_PRESENT_OPTIONS_RETAIN_CONTENTS</a> option was specified when the render target was created.
+After this method is called, the contents of the render target's back-buffer are not defined, even if the <a href="https://msdn.microsoft.com/en-us/library/Dd368144(v=VS.85).aspx">D2D1_PRESENT_OPTIONS_RETAIN_CONTENTS</a> option was specified when the render target was created.
 
 
 

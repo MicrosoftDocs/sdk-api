@@ -60,9 +60,11 @@ The fax service calls the <b>FaxDevReportStatus</b> function to query a fax serv
 
 
 
-### -param OPTIONAL
+### -param FaxHandle [in]
 
-TBD
+Type: <b>HANDLE</b>
+
+Specifies a fax handle returned by the <a href="https://msdn.microsoft.com/en-us/library/ms684541(v=VS.85).aspx">FaxDevStartJob</a> function that is associated with the fax job.
 
 
 ### -param FaxStatus [out]
@@ -84,13 +86,6 @@ Specifies the size, in bytes, of the buffer pointed to by the <i>FaxStatus</i> p
 Type: <b>LPDWORD</b>
 
 Pointer to a variable that receives the calculated size, in bytes, of the buffer required to hold a <a href="https://msdn.microsoft.com/en-us/library/ms684534(v=VS.85).aspx">FAX_DEV_STATUS</a> structure. For more information, see the following Remarks section.
-
-
-#### - FaxHandle [in]
-
-Type: <b>HANDLE</b>
-
-Specifies a fax handle returned by the <a href="https://msdn.microsoft.com/en-us/library/ms684541(v=VS.85).aspx">FaxDevStartJob</a> function that is associated with the fax job.
 
 
 ## -returns

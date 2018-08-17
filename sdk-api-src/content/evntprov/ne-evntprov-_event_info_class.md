@@ -4,10 +4,10 @@ title: "_EVENT_INFO_CLASS"
 author: windows-sdk-content
 description: Defines a type of operation to perform on a registration object.
 old-location: etw\event_info_class.htm
-old-project: ETW
+old-project: etw
 ms.assetid: 76ac2b93-d5df-4504-b36d-1530bbb12ab4
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/08/2018
 ms.keywords: EVENT_INFO_CLASS, EVENT_INFO_CLASS enumeration [ETW], EventProviderBinaryTrackInfo, EventProviderSetTraits, EventProviderUseDescriptorType, MaxEventInfo, _EVENT_INFO_CLASS, etw.event_info_class, evntprov/EVENT_INFO_CLASS, evntprov/EventProviderBinaryTrackInfo, evntprov/EventProviderSetTraits, evntprov/EventProviderUseDescriptorType, evntprov/MaxEventInfo
 ms.prod: windows
 ms.technology: windows-sdk

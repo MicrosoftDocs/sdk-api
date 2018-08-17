@@ -82,7 +82,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms687481(v=VS.85).aspx">IF
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b647f803-5979-44af-828f-f853b716ecf5">Item</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687505(v=VS.85).aspx">Item</a>
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms687505(v=VS.85).aspx">IFaxInboundRoutingExtensions::get_Item</a> method returns a <a href="https://msdn.microsoft.com/en-us/library/ms684581(v=VS.85).aspx">IFaxInboundRoutingExtension</a> interface from the <b>IFaxInboundRoutingExtensions</b> collection.
@@ -100,7 +100,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms687505(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/12ab8005-c1e3-41fb-a02b-36b84d1726bb">Count</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms685078(v=VS.85).aspx">Count</a>
 
 
 </td>

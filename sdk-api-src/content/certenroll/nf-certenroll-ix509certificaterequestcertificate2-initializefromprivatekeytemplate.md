@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>InitializeFromPrivateKeyTemplate</b> method initializes the certificate request by using an <a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a> object and a certificate template.
+The <b>InitializeFromPrivateKeyTemplate</b> method initializes the certificate request by using an <a href="https://msdn.microsoft.com/en-us/library/Aa378921(v=VS.85).aspx">IX509PrivateKey</a> object and a certificate template.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>InitializeFromPrivateKeyTemplate</b> method initializes the certificate r
 
 ### -param Context [in]
 
-An <a href="https://msdn.microsoft.com/2db0e129-a566-47ba-ab57-53c7db09e8e3">X509CertificateEnrollmentContext</a> enumeration value that specifies whether the requested certificate is intended for an end user, a computer, or an administrator acting on behalf of the computer. This can be one of the following values. However, if the <a href="https://msdn.microsoft.com/bdc3278e-3b5a-4ad0-9e9b-9639a2db4040">MachineContext</a> property of the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> is set, you must specify the <b>ContextMachine</b> enumeration value.
+An <a href="https://msdn.microsoft.com/en-us/library/Aa379399(v=VS.85).aspx">X509CertificateEnrollmentContext</a> enumeration value that specifies whether the requested certificate is intended for an end user, a computer, or an administrator acting on behalf of the computer. This can be one of the following values. However, if the <a href="https://msdn.microsoft.com/en-us/library/Aa379024(v=VS.85).aspx">MachineContext</a> property of the <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">private key</a> is set, you must specify the <b>ContextMachine</b> enumeration value.
 
 <table>
 <tr>
@@ -107,17 +107,17 @@ The certificate is being requested by an administrator acting on the behalf of a
 
 ### -param pPrivateKey [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a> interface that represents the private key.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa378921(v=VS.85).aspx">IX509PrivateKey</a> interface that represents the private key.
 
 
 ### -param pPolicyServer [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a> object that represents the certificate enrollment policy (CEP) server that contains the template specified by the <i>pTemplate</i> parameter.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee351692(v=VS.85).aspx">IX509EnrollmentPolicyServer</a> object that represents the certificate enrollment policy (CEP) server that contains the template specified by the <i>pTemplate</i> parameter.
 
 
 ### -param pTemplate [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/56122d92-7e38-4eaa-b2f5-713adc81e68e">IX509CertificateTemplate</a> object that represents the template to use during initialization.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee351664(v=VS.85).aspx">IX509CertificateTemplate</a> object that represents the template to use during initialization.
 
 
 ## -returns
@@ -126,7 +126,7 @@ Pointer to an <a href="https://msdn.microsoft.com/56122d92-7e38-4eaa-b2f5-713adc
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -166,20 +166,20 @@ The certificate request object has already been initialized.
 
 
 The <b>InitializeFromPrivateKeyTemplate</b> method performs the following actions:<ul>
-<li>Adds the extensions specified by the template to an <a href="https://msdn.microsoft.com/d6bdbcff-1d6b-4813-8269-b75061a42de8">IX509Extensions</a> collection.</li>
-<li>Creates an <a href="https://msdn.microsoft.com/f376a33e-005b-4810-9a26-b642236ff7af">IObjectIds</a> collection and populates it with the default XCN_OID_KEY_USAGE and XCN_OID_BASIC_CONSTRAINTS2 object identifiers. If the template indicates that these OIDs are not critical, they are removed from the collection. The OIDs marked critical by the template are added.</li>
-<li>Sets the <a href="https://msdn.microsoft.com/5aa027d7-3c31-4b70-92a5-d15d2c410366">SmimeCapabilities</a> property if the template supports symmetric algorithms.</li>
-<li>Sets the <a href="https://msdn.microsoft.com/57a87aab-1e53-4b0b-a7b9-2fe89083819b">AlternateSignatureAlgorithm</a> property if the template requires a discrete signature algorithm OID.</li>
-<li>Creates an <a href="https://msdn.microsoft.com/25774ccb-8e76-443d-89da-177d6e77c019">IX509SignatureInformation</a> object.</li>
-<li>Creates a hash algorithm OID if the algorithm is specified in the template and sets it on the <a href="https://msdn.microsoft.com/25774ccb-8e76-443d-89da-177d6e77c019">IX509SignatureInformation</a> object.</li>
-<li>Retrieves an asymmetric encryption algorithm OID, if it exists, from the template and sets it on the <a href="https://msdn.microsoft.com/25774ccb-8e76-443d-89da-177d6e77c019">IX509SignatureInformation</a> object.</li>
-<li>Populates many of the <a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a> properties from the template settings.</li>
+<li>Adds the extensions specified by the template to an <a href="https://msdn.microsoft.com/en-us/library/Aa378174(v=VS.85).aspx">IX509Extensions</a> collection.</li>
+<li>Creates an <a href="https://msdn.microsoft.com/en-us/library/Aa376785(v=VS.85).aspx">IObjectIds</a> collection and populates it with the default XCN_OID_KEY_USAGE and XCN_OID_BASIC_CONSTRAINTS2 object identifiers. If the template indicates that these OIDs are not critical, they are removed from the collection. The OIDs marked critical by the template are added.</li>
+<li>Sets the <a href="https://msdn.microsoft.com/en-us/library/Aa377586(v=VS.85).aspx">SmimeCapabilities</a> property if the template supports symmetric algorithms.</li>
+<li>Sets the <a href="https://msdn.microsoft.com/en-us/library/Aa965816(v=VS.85).aspx">AlternateSignatureAlgorithm</a> property if the template requires a discrete signature algorithm OID.</li>
+<li>Creates an <a href="https://msdn.microsoft.com/en-us/library/Aa379050(v=VS.85).aspx">IX509SignatureInformation</a> object.</li>
+<li>Creates a hash algorithm OID if the algorithm is specified in the template and sets it on the <a href="https://msdn.microsoft.com/en-us/library/Aa379050(v=VS.85).aspx">IX509SignatureInformation</a> object.</li>
+<li>Retrieves an asymmetric encryption algorithm OID, if it exists, from the template and sets it on the <a href="https://msdn.microsoft.com/en-us/library/Aa379050(v=VS.85).aspx">IX509SignatureInformation</a> object.</li>
+<li>Populates many of the <a href="https://msdn.microsoft.com/en-us/library/Aa378921(v=VS.85).aspx">IX509PrivateKey</a> properties from the template settings.</li>
 </ul>
 
 
-If the <a href="https://msdn.microsoft.com/7be532ab-0ab0-4c22-b274-c925fd5827d5">CSPInformations</a> property is not specified, the method creates an <a href="https://msdn.microsoft.com/8141023c-c162-46d6-9c37-e227ce1c8761">ICspInformations</a> collection from the providers installed on the computer.
+If the <a href="https://msdn.microsoft.com/en-us/library/Aa377643(v=VS.85).aspx">CSPInformations</a> property is not specified, the method creates an <a href="https://msdn.microsoft.com/en-us/library/Aa375968(v=VS.85).aspx">ICspInformations</a> collection from the providers installed on the computer.
 
-No private key is created at this point. If the <a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a> object passed to the method does not represent an existing key, a key is created when the <a href="https://msdn.microsoft.com/098788f4-539f-420b-a4e1-65625dd56ca1">Encode</a> method is called. The key will be created by using the default provider if no template was specified and the <a href="https://msdn.microsoft.com/42a348ae-9946-4d76-a035-14990d823449">ProviderName</a> property on the <b>IX509PrivateKey</b> is not set. When a private key exists, it is set on the <a href="https://msdn.microsoft.com/691e136f-1434-4b72-b571-e14ade4f2cf2">PrivateKey</a> property.
+No private key is created at this point. If the <a href="https://msdn.microsoft.com/en-us/library/Aa378921(v=VS.85).aspx">IX509PrivateKey</a> object passed to the method does not represent an existing key, a key is created when the <a href="https://msdn.microsoft.com/en-us/library/Aa377650(v=VS.85).aspx">Encode</a> method is called. The key will be created by using the default provider if no template was specified and the <a href="https://msdn.microsoft.com/en-us/library/Aa379031(v=VS.85).aspx">ProviderName</a> property on the <b>IX509PrivateKey</b> is not set. When a private key exists, it is set on the <a href="https://msdn.microsoft.com/en-us/library/Aa377559(v=VS.85).aspx">PrivateKey</a> property.
 
 
 
@@ -189,7 +189,7 @@ No private key is created at this point. If the <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/4f4b5c95-3213-4ccb-9bdd-05cb221f54bd">IX509CertificateRequestCertificate2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee351612(v=VS.85).aspx">IX509CertificateRequestCertificate2</a>
  
 
  

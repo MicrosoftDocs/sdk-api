@@ -4,10 +4,10 @@ title: "_MMC_BUTTON_STATE"
 author: windows-sdk-content
 description: The MMC_BUTTON_STATE enumeration defines the possible states of buttons available in MMC. These values are used in the nState parameter of IConsoleVerb::GetVerbState, IConsoleVerb::SetVerbState, IToolbar::GetButtonState, and IToolbar::SetButtonState.
 old-location: mmc\mmc_button_state.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: b08c8905-1a6d-485f-9136-d63efd0e8194
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/14/2018
 ms.keywords: BUTTONPRESSED, CHECKED, ENABLED, HIDDEN, INDETERMINATE, MMC_BUTTON_STATE, MMC_BUTTON_STATE enumeration [MMC], _MMC_BUTTON_STATE, _slate_mmc_button_state, mmc.mmc_button_state, mmc/BUTTONPRESSED, mmc/CHECKED, mmc/ENABLED, mmc/HIDDEN, mmc/INDETERMINATE, mmc/MMC_BUTTON_STATE
 ms.prod: windows
 ms.technology: windows-sdk

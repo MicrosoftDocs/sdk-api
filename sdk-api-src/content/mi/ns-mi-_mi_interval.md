@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_interval.htm
 old-project: wmi_v2
 ms.assetid: b6bf3d47-c292-4140-8bc6-f15ad8a8019f
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/13/2018
 ms.keywords: MI_Interval, MI_Interval structure [Windows Management Infrastructure (MI)], _MI_Interval, mi/MI_Interval, wmi._mi_interval, wmi_v2.mi_interval
 ms.prod: windows
 ms.technology: windows-sdk

@@ -51,14 +51,14 @@ req.irql:
 ## -description
 
 
-Exposes methods that provide a standard mechanism for credential providers to call <a href="https://msdn.microsoft.com/9beabfc9-56b9-4778-8027-939aa986086a">QueryContinue</a> while attempting to connect to the network to determine if they should continue these attempts. Credential providers can also use this interface to display messages to the user while attempting to establish a network connection.
+Exposes methods that provide a standard mechanism for credential providers to call <a href="https://msdn.microsoft.com/en-us/library/Bb761369(v=VS.85).aspx">QueryContinue</a> while attempting to connect to the network to determine if they should continue these attempts. Credential providers can also use this interface to display messages to the user while attempting to establish a network connection.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQueryContinueWithStatus</b> interface inherits from <a href="https://msdn.microsoft.com/94dee6cc-a142-4180-a562-14f4ded16884">IQueryContinue</a>. <b>IQueryContinueWithStatus</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQueryContinueWithStatus</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb761367(v=VS.85).aspx">IQueryContinue</a>. <b>IQueryContinueWithStatus</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,10 +71,10 @@ The <b>IQueryContinueWithStatus</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1619c592-f79b-429f-a1dc-ce0b66542dd6">SetStatusMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761365(v=VS.85).aspx">SetStatusMessage</a>
 </td>
 <td align="left" width="63%">
-Enables the credential provider to pass status messages to the Logon UI as it attempts to complete <a href="https://msdn.microsoft.com/0fe91d1a-811a-4956-bb2f-47712ae2a155">IConnectableCredentialProviderCredential::Connect</a>.
+Enables the credential provider to pass status messages to the Logon UI as it attempts to complete <a href="https://msdn.microsoft.com/en-us/library/Bb776100(v=VS.85).aspx">IConnectableCredentialProviderCredential::Connect</a>.
 
 </td>
 </tr>
@@ -85,7 +85,7 @@ Enables the credential provider to pass status messages to the Logon UI as it at
 
 
 
-This interface also provides the methods of the <a href="https://msdn.microsoft.com/94dee6cc-a142-4180-a562-14f4ded16884">IQueryContinue</a> interface, from which it inherits.
+This interface also provides the methods of the <a href="https://msdn.microsoft.com/en-us/library/Bb761367(v=VS.85).aspx">IQueryContinue</a> interface, from which it inherits.
 
 
 

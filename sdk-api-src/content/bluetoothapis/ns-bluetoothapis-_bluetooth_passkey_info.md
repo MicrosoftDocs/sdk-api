@@ -69,15 +69,15 @@ The passkey used for authentication.
 
 
 
-<a href="https://msdn.microsoft.com/2374df2c-2f50-4a06-aaad-384d81b067c5">BLUETOOTH_AUTHENTICATION_METHODS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd469470(v=VS.85).aspx">BLUETOOTH_AUTHENTICATION_METHODS</a>
 
 
 
-<a href="https://msdn.microsoft.com/9f8ff768-a794-4a61-a215-ae17e9acf620">BluetoothAuthenticateDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362770(v=VS.85).aspx">BluetoothAuthenticateDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/948bf14c-9661-4fe9-b082-009afd867baf">BluetoothAuthenticateDeviceEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Cc766819(v=VS.85).aspx">BluetoothAuthenticateDeviceEx</a>
  
 
  

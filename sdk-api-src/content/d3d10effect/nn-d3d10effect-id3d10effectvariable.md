@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectvariable.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 8ca39e59-14b1-dd93-b1d0-8cf16752726e, ID3D10EffectVariable, ID3D10EffectVariable interface [Direct3D 10], ID3D10EffectVariable interface [Direct3D 10],described, d3d10effect/ID3D10EffectVariable, direct3d10.id3d10effectvariable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -263,7 +263,7 @@ Get data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c1b081df-5cc6-45a2-860b-a214ef06f06a">GetType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173745(v=VS.85).aspx">GetType</a>
 </td>
 <td align="left" width="63%">
 Get type information.
@@ -499,7 +499,7 @@ Get data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c1b081df-5cc6-45a2-860b-a214ef06f06a">GetType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173745(v=VS.85).aspx">GetType</a>
 </td>
 <td align="left" width="63%">
 Get type information.

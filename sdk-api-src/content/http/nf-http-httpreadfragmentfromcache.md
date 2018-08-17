@@ -74,11 +74,9 @@ Handle to the request queue with which the specified response fragment is associ
 Pointer to a <a href="https://msdn.microsoft.com/4f317bf6-ee6a-47a8-a531-78534217109d">UrlPrefix string</a> that contains the name of the fragment to be retrieved. This must match a UrlPrefix string used in a previous successful call to <a href="https://msdn.microsoft.com/caef2e93-39cd-4282-97d9-870f8236d8c4">HttpAddFragmentToCache</a>.
 
 
-### -param OPTIONAL
+### -param ByteRange
 
 TBD
-
-
 
 
 ### -param Buffer [out]
@@ -99,6 +97,13 @@ Optional pointer to a variable that receives the number of bytes to be written i
 
 
 When making an asynchronous call using <i>pOverlapped</i>, set <i>pBytesRead</i> to <b>NULL</b>. Otherwise, when <i>pOverlapped</i> is set to <b>NULL</b>, <i>pBytesRead</i> must contain a valid memory address, and not be set to <b>NULL</b>.
+
+
+### -param Overlapped
+
+TBD
+
+
 
 
 #### - pByteRange [in]

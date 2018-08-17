@@ -83,11 +83,11 @@ A new synchronization domain is always created.
 
 
 
-This enumeration is used to configure synchronization through <a href="https://msdn.microsoft.com/f546ded4-255e-4565-b588-f36175902778">CServiceConfig</a> for either the work submitted through the activity created by <a href="https://msdn.microsoft.com/3009eb4f-e3f3-497b-ba05-5b750d8a40d0">CoCreateActivity</a> or the work that is enclosed between calls to <a href="https://msdn.microsoft.com/84640b3b-1f43-4bec-abf6-c295cfb3da8b">CoEnterServiceDomain</a> and <a href="https://msdn.microsoft.com/b67b3cf6-4462-4578-b61b-c5c61d809822">CoLeaveServiceDomain</a>.
+This enumeration is used to configure synchronization through <a href="https://msdn.microsoft.com/f546ded4-255e-4565-b588-f36175902778">CServiceConfig</a> for either the work submitted through the activity created by <a href="https://msdn.microsoft.com/en-us/library/ms679553(v=VS.85).aspx">CoCreateActivity</a> or the work that is enclosed between calls to <a href="https://msdn.microsoft.com/en-us/library/ms683559(v=VS.85).aspx">CoEnterServiceDomain</a> and <a href="https://msdn.microsoft.com/b67b3cf6-4462-4578-b61b-c5c61d809822">CoLeaveServiceDomain</a>.
 
-Synchronization can affect the components created by the contained code even if it has no immediate impact on the contained code itself. For example, if the same code is running on two different threads and this code calls <a href="https://msdn.microsoft.com/84640b3b-1f43-4bec-abf6-c295cfb3da8b">CoEnterServiceDomain</a> asking for synchronization services, each thread is contained in its own synchronization domain.
+Synchronization can affect the components created by the contained code even if it has no immediate impact on the contained code itself. For example, if the same code is running on two different threads and this code calls <a href="https://msdn.microsoft.com/en-us/library/ms683559(v=VS.85).aspx">CoEnterServiceDomain</a> asking for synchronization services, each thread is contained in its own synchronization domain.
 
-If it is incompatible with the transaction setting from <a href="https://msdn.microsoft.com/3524d7b3-4bcd-4e92-afc2-ddac98a23b7c">CSC_TransactionConfig</a>, the synchronization setting is increased to the minimum that is required for the transaction.
+If it is incompatible with the transaction setting from <a href="https://msdn.microsoft.com/en-us/library/ms679826(v=VS.85).aspx">CSC_TransactionConfig</a>, the synchronization setting is increased to the minimum that is required for the transaction.
 
 
 
@@ -97,7 +97,7 @@ If it is incompatible with the transaction setting from <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/a348959a-fa23-495c-ba1c-85bc3ae92396">COM+ Synchronization</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms685093(v=VS.85).aspx">COM+ Synchronization</a>
 
 
 
@@ -105,15 +105,15 @@ If it is incompatible with the transaction setting from <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/3009eb4f-e3f3-497b-ba05-5b750d8a40d0">CoCreateActivity</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms679553(v=VS.85).aspx">CoCreateActivity</a>
 
 
 
-<a href="https://msdn.microsoft.com/84640b3b-1f43-4bec-abf6-c295cfb3da8b">CoEnterServiceDomain</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms683559(v=VS.85).aspx">CoEnterServiceDomain</a>
 
 
 
-<a href="https://msdn.microsoft.com/83fe6958-6639-4468-a3f5-3322316ccbc4">IServiceSynchronizationConfig::ConfigureSynchronization</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms683545(v=VS.85).aspx">IServiceSynchronizationConfig::ConfigureSynchronization</a>
  
 
  

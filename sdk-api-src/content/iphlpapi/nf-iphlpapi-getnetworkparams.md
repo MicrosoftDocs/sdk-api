@@ -7,7 +7,7 @@ old-location: iphlp\getnetworkparams.htm
 old-project: iphlp
 ms.assetid: 5f54a120-5db9-4b8d-a281-1112be0042d6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: GetNetworkParams, GetNetworkParams function [IP Helper], _iphlp_getnetworkparams, iphlp.getnetworkparams, iphlpapi/GetNetworkParams
 ms.prod: windows
 ms.technology: windows-sdk

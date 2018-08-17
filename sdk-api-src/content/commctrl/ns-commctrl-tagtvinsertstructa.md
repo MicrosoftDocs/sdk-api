@@ -131,7 +131,7 @@ Inserts the item into the list in alphabetical order.
 <b>Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb773459(v=VS.85).aspx">TVITEMEX</a></b>
 </b>
 
-<a href="https://msdn.microsoft.com/1B524A91-B433-4968-9546-8A6AFB67E89C">Version 4.71</a>. <a href="https://msdn.microsoft.com/en-us/library/Bb773459(v=VS.85).aspx">TVITEMEX</a> structure that contains information about the item to add. 
+<a href="https://msdn.microsoft.com/en-us/library/Hh298349(v=VS.85).aspx">Version 4.71</a>. <a href="https://msdn.microsoft.com/en-us/library/Bb773459(v=VS.85).aspx">TVITEMEX</a> structure that contains information about the item to add. 
 
 
 ### -field DUMMYUNIONNAME.item

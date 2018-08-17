@@ -73,7 +73,7 @@ A <b>Long</b> value that specifies the ID of the fax device to add to the collec
 
 This method can also return remote procedure call (RPC) return values. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa378645(v=VS.85).aspx">RPC Return Values</a>.
 
-<div class="alert"><b>Note</b>  You cannot add devices to the special <b>All Devices</b> routing group. Also, you can only add valid device IDs. You can obtain the valid ID of a device in the <a href="https://msdn.microsoft.com/en-us/library/ms686501(v=VS.85).aspx">FaxDeviceIds</a> collection through the <a href="https://msdn.microsoft.com/e208dce9-b61c-4981-8cf1-cca5f0fbbafd">Id</a> property.</div>
+<div class="alert"><b>Note</b>  You cannot add devices to the special <b>All Devices</b> routing group. Also, you can only add valid device IDs. You can obtain the valid ID of a device in the <a href="https://msdn.microsoft.com/en-us/library/ms686501(v=VS.85).aspx">FaxDeviceIds</a> collection through the <a href="https://msdn.microsoft.com/en-us/library/ms684582(v=VS.85).aspx">Id</a> property.</div>
 <div> </div>
 To use this method, a user must have the <a href="https://msdn.microsoft.com/en-us/library/ms689205(v=VS.85).aspx">farMANAGE_CONFIG</a> access right.
 

@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-A fax client application can use the <b>DeviceId</b> property to uniquely identify a fax port. A fax client can call the <a href="https://msdn.microsoft.com/f94a4330-6447-4f93-9f5e-1a1ec660064d">Name</a> property to retrieve the user-friendly name for the fax port. Note, however, that it is possible for multiple fax ports to have the same user-friendly name.
+A fax client application can use the <b>DeviceId</b> property to uniquely identify a fax port. A fax client can call the <a href="https://msdn.microsoft.com/en-us/library/ms690887(v=VS.85).aspx">Name</a> property to retrieve the user-friendly name for the fax port. Note, however, that it is possible for multiple fax ports to have the same user-friendly name.
 
 
 
@@ -94,7 +94,7 @@ A fax client application can use the <b>DeviceId</b> property to uniquely identi
 
 
 
-<a href="https://msdn.microsoft.com/f94a4330-6447-4f93-9f5e-1a1ec660064d">Name</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690887(v=VS.85).aspx">Name</a>
  
 
  

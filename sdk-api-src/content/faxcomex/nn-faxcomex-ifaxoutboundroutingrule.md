@@ -83,7 +83,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms689556(v=VS.85).aspx">IF
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5fd084a6-3b74-4e6a-8656-de934e75e923">Save</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687544(v=VS.85).aspx">Save</a>
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms687544(v=VS.85).aspx">IFaxOutboundRoutingRule::Save</a> method saves the <a href="https://msdn.microsoft.com/en-us/library/ms690230(v=VS.85).aspx">FaxOutboundRoutingRule</a> object data.
@@ -101,7 +101,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms687544(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/7863cd01-956e-4ec8-952b-9b13e88e859c">AreaCode</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687997(v=VS.85).aspx">AreaCode</a>
 
 
 </td>
@@ -165,7 +165,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms688543(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/5a880005-92a2-4809-b64c-b5af63382203">Status</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689593(v=VS.85).aspx">Status</a>
 
 
 </td>

@@ -82,7 +82,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms686986(v=VS.85).aspx">IF
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/04783d57-a568-4848-b563-a8ef8544089d">Save</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684805(v=VS.85).aspx">Save</a>
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms684805(v=VS.85).aspx">IFaxEventLogging::Save</a> method saves the <b>IFaxEventLogging</b> interface's data.

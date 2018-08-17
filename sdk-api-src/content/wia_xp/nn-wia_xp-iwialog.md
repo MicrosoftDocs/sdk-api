@@ -90,7 +90,7 @@ Not currently supported.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9b623fbf-5ef1-4883-b9eb-67839ff48b09">Log</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms629968(v=VS.85).aspx">Log</a>
 </td>
 <td align="left" width="63%">
 Not currently supported.

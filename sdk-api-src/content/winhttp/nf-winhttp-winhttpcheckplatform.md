@@ -7,7 +7,7 @@ old-location: http\winhttpcheckplatform.htm
 old-project: winhttp
 ms.assetid: 0daec97f-c1c9-4d87-8e24-485e262d8a85
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/09/2018
 ms.keywords: WinHttpCheckPlatform, WinHttpCheckPlatform function [WinHTTP], http.winhttpcheckplatform, winhttp.winhttpcheckplatform_function, winhttp/WinHttpCheckPlatform
 ms.prod: windows
 ms.technology: windows-sdk

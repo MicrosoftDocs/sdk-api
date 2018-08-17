@@ -95,7 +95,7 @@ If the <i>pCapabilities</i> is not compliant with the <a href="https://msdn.micr
 
 If <i>hProvider</i> was opened in a different thread, the <b>HRESULT</b> is E_INVALIDARG.
 
-Otherwise, another error code is returned in the <b>HRESULT</b>. For more information about COM error codes, see <a href="_com_error_handling">Error Handling</a>.
+Otherwise, another error code is returned in the <b>HRESULT</b>. For more information about COM error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa376932(v=VS.85).aspx">Error Handling</a>.
 
 
 

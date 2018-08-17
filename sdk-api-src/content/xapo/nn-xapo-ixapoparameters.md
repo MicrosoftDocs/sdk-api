@@ -72,7 +72,7 @@ The <b>IXAPOParameters</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/FBF27BCD-6B20-4D8A-BD9D-8E0889889F8B">GetParameters</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee418443(v=VS.85).aspx">GetParameters</a>
 </td>
 <td align="left" width="63%">
 Gets the current values for any effect-specific parameters.

@@ -4,10 +4,10 @@ title: tagUpdateAssessment
 author: windows-sdk-content
 description: UpdateAssessment contains information that assesses how up-to-date an installed OS is.
 old-location: base\updateassessment.htm
-old-project: SysInfo
+old-project: sysinfo
 ms.assetid: BD456DF6-4A29-41B4-8EB4-8F29910981E7
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/10/2018
 ms.keywords: UpdateAssessment, UpdateAssessment structure, base.updateassessment, tagUpdateAssessment, waasapitypes/UpdateAssessment
 ms.prod: windows
 ms.technology: windows-sdk

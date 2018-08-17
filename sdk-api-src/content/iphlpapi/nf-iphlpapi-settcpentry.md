@@ -7,7 +7,7 @@ old-location: iphlp\settcpentry.htm
 old-project: iphlp
 ms.assetid: 5916f66d-3c85-406d-b6f9-6c1c84161be4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: SetTcpEntry, SetTcpEntry function [IP Helper], _iphlp_settcpentry, iphlp.settcpentry, iphlpapi/SetTcpEntry
 ms.prod: windows
 ms.technology: windows-sdk

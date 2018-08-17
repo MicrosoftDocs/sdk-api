@@ -7,7 +7,7 @@ old-location: security\adjusttokenprivileges.htm
 old-project: secauthz
 ms.assetid: 8e3f70cd-814e-4aab-8f48-0ca482beef2e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: AdjustTokenPrivileges, AdjustTokenPrivileges function [Security], None, SE_PRIVILEGE_ENABLED, SE_PRIVILEGE_REMOVED, _win32_adjusttokenprivileges, security.adjusttokenprivileges, securitybaseapi/AdjustTokenPrivileges
 ms.prod: windows
 ms.technology: windows-sdk

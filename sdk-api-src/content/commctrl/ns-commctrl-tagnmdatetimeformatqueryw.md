@@ -70,7 +70,7 @@ An <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMH
 
 ### -field pszFormat
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCTSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPCTSTR</a></b>
 
 A pointer to a substring that defines a DTP control callback field. The substring is one or more "X" characters followed by a <b>NULL</b>. (For additional information about callback fields, see <a href="https://msdn.microsoft.com/en-us/library/Bb761726(v=VS.85).aspx">Callback fields</a>.) 
 

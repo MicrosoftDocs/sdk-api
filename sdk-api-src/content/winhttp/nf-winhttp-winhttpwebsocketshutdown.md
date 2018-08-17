@@ -7,7 +7,7 @@ old-location: http\winhttpwebsocketshutdown.htm
 old-project: winhttp
 ms.assetid: C98FDBE1-DDBC-45c7-81FA-CB7C5940E3B5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/09/2018
 ms.keywords: WinHttpWebSocketShutdown, WinHttpWebSocketShutdown function [WinHTTP], http.winhttpwebsocketshutdown, winhttp/WinHttpWebSocketShutdown
 ms.prod: windows
 ms.technology: windows-sdk

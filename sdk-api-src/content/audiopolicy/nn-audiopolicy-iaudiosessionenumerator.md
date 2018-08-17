@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessionenumerator.htm
 old-project: CoreAudio
 ms.assetid: a7976d13-3391-4747-b83a-cfb9407b34f2
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/14/2018
 ms.keywords: IAudioSessionEnumerator, IAudioSessionEnumerator interface [Core Audio], IAudioSessionEnumerator interface [Core Audio],described, audiopolicy/IAudioSessionEnumerator, coreaudio.iaudiosessionenumerator
 ms.prod: windows
 ms.technology: windows-sdk

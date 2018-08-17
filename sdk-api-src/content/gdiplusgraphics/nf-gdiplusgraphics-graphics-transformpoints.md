@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>Graphics::TransformPoints</b> method converts an array of points from one coordinate space to another. The conversion is based on the current world and page transformations of this <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object.
+The <b>Graphics::TransformPoints</b> method converts an array of points from one coordinate space to another. The conversion is based on the current world and page transformations of this <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534097(v=VS.8
 
 ### -param pts [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a>*</b>
 
 Pointer to an array that, on input, holds the points to be converted and, on output, holds the converted points. 
 
@@ -92,12 +92,12 @@ Integer that specifies the number of elements in the <i>pts</i> array.
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
 </strong>
 
-If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
 
-If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
 
 
 
@@ -113,7 +113,7 @@ The world transformation converts points from the world coordinate space to the 
 
 
 
-The following example creates a <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object and sets its world transformation to a translation 40 units right and 30 units down. Then the code creates an array of points and passes the address of that array to the <b>Graphics::TransformPoints</b> method of the same <b>Graphics</b> object. The points in the array are transformed by the world transformation of the <b>Graphics</b> object. The code calls the <a href="https://msdn.microsoft.com/en-us/library/ms536020(v=VS.85).aspx">Graphics::DrawLine</a> method twice: once to connect the two points before the transformation and once to connect the two points after the transformation.
+The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object and sets its world transformation to a translation 40 units right and 30 units down. Then the code creates an array of points and passes the address of that array to the <b>Graphics::TransformPoints</b> method of the same <b>Graphics</b> object. The points in the array are transformed by the world transformation of the <b>Graphics</b> object. The code calls the <a href="https://msdn.microsoft.com/en-us/library/ms536020(v=VS.85).aspx">Graphics::DrawLine</a> method twice: once to connect the two points before the transformation and once to connect the two points after the transformation.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -163,7 +163,7 @@ The following example creates a <a href="https://msdn.microsoft.com/7e874710-3cd
 
 
 
-<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
 
 
 

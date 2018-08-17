@@ -76,7 +76,7 @@ Address of an application-defined callback function, which is called during a so
 
 ### -field lParam
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPARAM</a></b>
 
 Application-defined value that gets passed as the 
 					<i>lParamSort</i> argument in the callback function specified in 

@@ -4,10 +4,10 @@ title: PdhAddCounterA function
 author: windows-sdk-content
 description: Adds the specified counter to the query.
 old-location: perf\pdhaddcounter.htm
-old-project: PerfCtrs
+old-project: perfctrs
 ms.assetid: b8b9a332-ce28-46d4-92e2-91f9f6c24da5
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/08/2018
 ms.keywords: PdhAddCounter, PdhAddCounter function [Perf], PdhAddCounterA, PdhAddCounterW, _win32_pdhaddcounter, base.pdhaddcounter, pdh/PdhAddCounter, pdh/PdhAddCounterA, pdh/PdhAddCounterW, perf.pdhaddcounter
 ms.prod: windows
 ms.technology: windows-sdk

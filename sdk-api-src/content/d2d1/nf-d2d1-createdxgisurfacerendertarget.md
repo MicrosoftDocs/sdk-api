@@ -84,7 +84,7 @@ Creates a render target that draws to a DirectX Graphics Infrastructure (DXGI) s
 
 
 
-To write to a Direct3D surface, you obtain an <a href="http://msdn.microsoft.com/en-us/library/bb174565(VS.85).aspx">IDXGISurface</a> and pass it to the <b>CreateDxgiSurfaceRenderTarget</b> method to create a DXGI surface render target; you can then use the DXGI surface render target to draw 2-D content to the DXGI surface.  
+To write to a Direct3D surface, you obtain an <a href="https://msdn.microsoft.com/en-us/library/Bb174565(v=VS.85).aspx">IDXGISurface</a> and pass it to the <b>CreateDxgiSurfaceRenderTarget</b> method to create a DXGI surface render target; you can then use the DXGI surface render target to draw 2-D content to the DXGI surface.  
 
 A DXGI surface render target is a type of <a href="https://msdn.microsoft.com/40629be9-5840-4bde-b369-56bbfd791775">ID2D1RenderTarget</a>. Like other Direct2D render targets, you can use it to create resources and issue drawing commands. 
 
@@ -92,18 +92,18 @@ The DXGI surface render target and the DXGI surface must use the same DXGI forma
 
 The DXGI surface render target does not perform DXGI surface synchronization. 
 
-To work with Direct2D, the Direct3D device that provides the <a href="http://msdn.microsoft.com/en-us/library/bb174565(VS.85).aspx">IDXGISurface</a> must be created with the <b>D3D10_CREATE_DEVICE_BGRA_SUPPORT</b> flag.
+To work with Direct2D, the Direct3D device that provides the <a href="https://msdn.microsoft.com/en-us/library/Bb174565(v=VS.85).aspx">IDXGISurface</a> must be created with the <b>D3D10_CREATE_DEVICE_BGRA_SUPPORT</b> flag.
 
-For more information about creating and using DXGI surface render targets, see the <a href="https://msdn.microsoft.com/27680714-dc68-44eb-ab16-2cae3529b352">Direct2D and Direct3D Interoperability Overview</a>.
+For more information about creating and using DXGI surface render targets, see the <a href="https://msdn.microsoft.com/en-us/library/Dd370966(v=VS.85).aspx">Direct2D and Direct3D Interoperability Overview</a>.
 
-When you create a render target and hardware acceleration is available, you allocate resources on the computer's GPU. By creating a render target once and retaining it as long as possible, you gain performance benefits. Your application should create render targets once and hold onto them for the life of the application or until the render target's <a href="https://msdn.microsoft.com/a8f24501-4e85-4981-bb38-2bd6333a7b49">EndDraw</a> method returns the <a href="https://msdn.microsoft.com/018bfca5-6ef4-497c-a4b6-8502c3cdac1b">D2DERR_RECREATE_TARGET</a>  error. When you receive this error, you need to recreate the render target (and any resources it created). 
+When you create a render target and hardware acceleration is available, you allocate resources on the computer's GPU. By creating a render target once and retaining it as long as possible, you gain performance benefits. Your application should create render targets once and hold onto them for the life of the application or until the render target's <a href="https://msdn.microsoft.com/a8f24501-4e85-4981-bb38-2bd6333a7b49">EndDraw</a> method returns the <a href="https://msdn.microsoft.com/en-us/library/Dd370979(v=VS.85).aspx">D2DERR_RECREATE_TARGET</a>  error. When you receive this error, you need to recreate the render target (and any resources it created). 
 
 
 
 
 #### Examples
 
-The following example obtains a  DXGI surface  (<i>pBackBuffer</i>) from an <a href="http://msdn.microsoft.com/en-us/library/bb174569(VS.85).aspx">IDXGISwapChain</a> and uses it to create a DXGI surface render target.
+The following example obtains a  DXGI surface  (<i>pBackBuffer</i>) from an <a href="https://msdn.microsoft.com/en-us/library/Bb174569(v=VS.85).aspx">IDXGISwapChain</a> and uses it to create a DXGI surface render target.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -178,7 +178,7 @@ hr = m_pSwapChain-&gt;GetBuffer(
 
 
 
-<a href="https://msdn.microsoft.com/27680714-dc68-44eb-ab16-2cae3529b352">Direct2D and Direct3D Interoperability Overview</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd370966(v=VS.85).aspx">Direct2D and Direct3D Interoperability Overview</a>
 
 
 

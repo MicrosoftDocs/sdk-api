@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_subscriptiondeliveryoptions_setbookmark.htm
 old-project: wmi_v2
 ms.assetid: 9450dde9-fcd6-41c9-a1cb-2dce308653b8
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/13/2018
 ms.keywords: MI_SUBSCRIBE_BOOKMARK_NEWEST, MI_SUBSCRIBE_BOOKMARK_OLDEST, MI_SubscriptionDeliveryOptions_SetBookmark, MI_SubscriptionDeliveryOptions_SetBookmark function [Windows Management Infrastructure (MI)], mi/MI_SubscriptionDeliveryOptions_SetBookmark, wmi_v2.mi_subscriptiondeliveryoptions_setbookmark
 ms.prod: windows
 ms.technology: windows-sdk

@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The interpolation mode the <a href="https://msdn.microsoft.com/74D71A2D-8D1D-4FDE-898A-2D2F5A8D5D31">Distant-specular lighting effect</a> uses to scale the image to the corresponding kernel unit length. 
+The interpolation mode the <a href="https://msdn.microsoft.com/en-us/library/Hh706332(v=VS.85).aspx">Distant-specular lighting effect</a> uses to scale the image to the corresponding kernel unit length. 
         There are six scale modes that range in quality and speed.
 
 

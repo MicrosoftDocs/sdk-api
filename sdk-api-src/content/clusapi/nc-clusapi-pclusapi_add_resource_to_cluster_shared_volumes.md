@@ -73,7 +73,7 @@ If the operation succeeds, it returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
        <i>AddResourceToClusterSharedVolumes</i> 
-       returns one of the <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>.
+       returns one of the <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error codes</a>.
 
 
 

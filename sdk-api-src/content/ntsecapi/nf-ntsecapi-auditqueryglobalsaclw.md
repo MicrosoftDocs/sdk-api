@@ -7,7 +7,7 @@ old-location: security\auditqueryglobalsacl.htm
 old-project: secauthz
 ms.assetid: 133BBC94-9C89-437A-9146-75A9898A6566
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: AuditQueryGlobalSacl, AuditQueryGlobalSacl function [Security], AuditQueryGlobalSaclA, AuditQueryGlobalSaclW, ntsecapi/AuditQueryGlobalSacl, ntsecapi/AuditQueryGlobalSaclA, ntsecapi/AuditQueryGlobalSaclW, security.auditqueryglobalsacl
 ms.prod: windows
 ms.technology: windows-sdk

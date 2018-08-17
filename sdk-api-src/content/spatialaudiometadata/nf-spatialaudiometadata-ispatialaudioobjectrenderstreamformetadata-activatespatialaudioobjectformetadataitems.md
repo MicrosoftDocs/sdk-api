@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioobjectrenderstreamformetadataitems_activate
 old-project: CoreAudio
 ms.assetid: A9743D42-659A-404C-BB21-8A5086870F34
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/14/2018
 ms.keywords: ActivateSpatialAudioObjectForMetadataItems, ActivateSpatialAudioObjectForMetadataItems method [Core Audio], ActivateSpatialAudioObjectForMetadataItems method [Core Audio],ISpatialAudioObjectRenderStreamForMetadata interface, ISpatialAudioObjectRenderStreamForMetadata interface [Core Audio],ActivateSpatialAudioObjectForMetadataItems method, ISpatialAudioObjectRenderStreamForMetadata.ActivateSpatialAudioObjectForMetadataItems, ISpatialAudioObjectRenderStreamForMetadata::ActivateSpatialAudioObjectForMetadataItems, coreaudio.ispatialaudioobjectformetadataitems_activatespatialaudioobjectformetadataitems, coreaudio.ispatialaudioobjectrenderstreamformetadataitems_activatespatialaudioobjectformetadataitems, spatialaudiometadata/ISpatialAudioObjectRenderStreamForMetadata::ActivateSpatialAudioObjectForMetadataItems
 ms.prod: windows
 ms.technology: windows-sdk
@@ -146,7 +146,7 @@ The value specified in the <i>type</i> parameter is not one of the values define
 
 
 
-A dynamic <a href="https://msdn.microsoft.com/4861D2AA-E685-4A72-BE98-6FEEB72ACF67">ISpatialAudioObjectForMetadataItems</a> is one that was activated by setting the <i>type</i> parameter to the   <b>ActivateSpatialAudioObjectForMetadataItems</b> method to <b>AudioObjectType_Dynamic</b>. The client has a limit of the maximum number of dynamic spatial audio objects that can be activated at one time. After the limit has been reached, attempting to activate additional audio objects will result in this method returning an SPTLAUDCLNT_E_NO_MORE_OBJECTS error. To avoid this, call <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a> on each dynamic <b>ISpatialAudioObjectForMetadataItems</b> after it is no longer being used to free up the resource so that it can be reallocated. See <a href="https://msdn.microsoft.com/8D957B91-9380-44D5-8AC4-F13FAC375D9F">ISpatialAudioObjectForMetadataItems::IsActive</a>  and <a href="https://msdn.microsoft.com/EF8A5E0D-ED1A-483F-98C6-CE636B4B1162">ISpatialAudioObjectForMetadataItems::SetEndOfStream</a> for more information on the managing the lifetime of spatial audio objects.
+A dynamic <a href="https://msdn.microsoft.com/4861D2AA-E685-4A72-BE98-6FEEB72ACF67">ISpatialAudioObjectForMetadataItems</a> is one that was activated by setting the <i>type</i> parameter to the   <b>ActivateSpatialAudioObjectForMetadataItems</b> method to <b>AudioObjectType_Dynamic</b>. The client has a limit of the maximum number of dynamic spatial audio objects that can be activated at one time. After the limit has been reached, attempting to activate additional audio objects will result in this method returning an SPTLAUDCLNT_E_NO_MORE_OBJECTS error. To avoid this, call <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a> on each dynamic <b>ISpatialAudioObjectForMetadataItems</b> after it is no longer being used to free up the resource so that it can be reallocated. See <a href="https://msdn.microsoft.com/3339E021-4AC3-43CB-9306-C8D58541CA5F">ISpatialAudioObjectBase::IsActive</a> and  <a href="https://msdn.microsoft.com/17294E5D-04D7-43B9-AD41-392344309308">ISpatialAudioObjectBase::SetEndOfStream</a> for more information on the managing the lifetime of spatial audio objects.
 
 
 

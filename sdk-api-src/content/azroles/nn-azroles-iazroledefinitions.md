@@ -7,7 +7,7 @@ old-location: security\iazroledefinitions.htm
 old-project: secauthz
 ms.assetid: 9d17647c-3ff9-4881-a02f-d7bcb508e102
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: IAzRoleDefinitions, IAzRoleDefinitions interface [Security], IAzRoleDefinitions interface [Security],described, azroles/IAzRoleDefinitions, security.iazroledefinitions
 ms.prod: windows
 ms.technology: windows-sdk

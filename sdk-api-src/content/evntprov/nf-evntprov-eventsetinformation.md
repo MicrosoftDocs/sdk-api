@@ -4,10 +4,10 @@ title: EventSetInformation function
 author: windows-sdk-content
 description: Performs operations on a registration object.
 old-location: etw\eventsetinformation.htm
-old-project: ETW
+old-project: etw
 ms.assetid: e8b408ba-4bb5-4166-bf43-d18e4fe8de32
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/08/2018
 ms.keywords: EventSetInformation, EventSetInformation function [ETW], etw.eventsetinformation, evntprov/EventSetInformation
 ms.prod: windows
 ms.technology: windows-sdk

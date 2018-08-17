@@ -52,8 +52,8 @@ req.irql:
 
 
 Represents a Bezier segment to be used in the creation of an <a href="https://msdn.microsoft.com/4B6DD4C2-8E91-4AEA-AFB5-21B4FD13F75A">ID2D1Ink</a> object. 
-        This structure differs from <a href="https://msdn.microsoft.com/cf8df7d2-c4fe-4a46-a4b2-7e0eed67df2a">D2D1_BEZIER_SEGMENT</a> in that it is composed 
-        of <a href="https://msdn.microsoft.com/C18E7B04-12B8-4EB9-BAFB-24FBA99210E9">D2D1_INK_POINT</a>s, which contain a radius in addition to x- and y-coordinates.
+        This structure differs from <a href="https://msdn.microsoft.com/en-us/library/Dd368070(v=VS.85).aspx">D2D1_BEZIER_SEGMENT</a> in that it is composed 
+        of <a href="https://msdn.microsoft.com/en-us/library/Dn890752(v=VS.85).aspx">D2D1_INK_POINT</a>s, which contain a radius in addition to x- and y-coordinates.
         
 
 

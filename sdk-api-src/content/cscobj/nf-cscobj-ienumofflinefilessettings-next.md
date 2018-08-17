@@ -89,7 +89,7 @@ Returns <b>S_OK</b> if the number of elements returned is <i>celt</i>; S_FALSE i
 
 
 
-<a href="https://msdn.microsoft.com/2d0e45d5-5559-4c2e-9c20-4e5b84b5fbbd">IEnumOfflineFilesSettings</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530481(v=VS.85).aspx">IEnumOfflineFilesSettings</a>
  
 
  

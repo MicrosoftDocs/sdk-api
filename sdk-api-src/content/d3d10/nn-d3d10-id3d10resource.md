@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10resource.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10resource.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: ID3D10Resource, ID3D10Resource interface [Direct3D 10], ID3D10Resource interface [Direct3D 10],described, a827797e-b4b8-c82b-c567-463061c6d963, d3d10/ID3D10Resource, direct3d10.id3d10resource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ A resource interface provides common actions on all <a href="https://msdn.micros
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Resource</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb173529(v=VS.85).aspx">ID3D10DeviceChild</a>. <b>ID3D10Resource</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -81,7 +81,7 @@ Get the eviction priority of a resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/78e91654-e3e7-4565-99be-8ccf480b954b">GetType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173831(v=VS.85).aspx">GetType</a>
 </td>
 <td align="left" width="63%">
 Get the type of the resource.
@@ -104,7 +104,7 @@ Set the eviction priority of a resource.
 
 
 
-A resource interface cannot be created directly; instead, <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">buffers</a> and textures are created that inherit from a resource interface (see <a href="https://msdn.microsoft.com/en-us/library/Bb205130(v=VS.85).aspx">Creating Buffer Resources</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb205131(v=VS.85).aspx">Creating Texture Resources</a>).
+A resource interface cannot be created directly; instead, <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">buffers</a> and textures are created that inherit from a resource interface (see <a href="https://msdn.microsoft.com/en-us/library/Bb205130(v=VS.85).aspx">Creating Buffer Resources</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb205131(v=VS.85).aspx">Creating Texture Resources</a>).
 
 
 

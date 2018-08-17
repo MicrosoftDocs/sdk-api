@@ -61,11 +61,9 @@ Creates an enlistment, sets its initial state, and opens a handle to the enlistm
 
 
 
-### -param OPTIONAL
+### -param lpEnlistmentAttributes
 
 TBD
-
-
 
 
 ### -param ResourceManagerHandle [in]
@@ -84,7 +82,7 @@ The notifications this RM is requesting for the <i>TransactionHandle</i> paramet
       a list of valid values, see <a href="https://msdn.microsoft.com/65db8ba5-193c-439b-8e8c-6cb4a9bd4efd">NOTIFICATION_MASK</a>.
 
 
-#### - CreateOptions [in, optional]
+### -param CreateOptions [in, optional]
 
 Any optional enlistment instructions.
 
@@ -108,7 +106,7 @@ Enlist as a superior transaction manager.
  
 
 
-#### - EnlistmentKey [in, optional]
+### -param EnlistmentKey [in, optional]
 
 A pointer to a user-defined structure used by the RM that is returned when a notification is sent in the 
       <a href="https://msdn.microsoft.com/4f87de9d-a068-4ab9-8f38-b75f20552b1d">TRANSACTION_NOTIFICATION</a> structure. This is 

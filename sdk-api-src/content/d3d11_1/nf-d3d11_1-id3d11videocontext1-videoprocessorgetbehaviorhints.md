@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Returns driver hints that indicate which of the video processor operations are best performed using multi-plane overlay hardware rather than <a href="https://msdn.microsoft.com/D526BB31-A4B9-4BBD-BAE3-43FDFF58A32A">ID3D11VideoContext::VideoProcessorBlt</a> method.
+Returns driver hints that indicate which of the video processor operations are best performed using multi-plane overlay hardware rather than <a href="https://msdn.microsoft.com/en-us/library/Hh447719(v=VS.85).aspx">ID3D11VideoContext::VideoProcessorBlt</a> method.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Returns driver hints that indicate which of the video processor operations are b
 
 Type: <b>ID3D11VideoProcessor*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/AF6F6781-A7F9-4196-8E91-FDFDD1924E24">ID3D11VideoProcessor</a> interface.
+A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Hh447799(v=VS.85).aspx">ID3D11VideoProcessor</a> interface.
 
 
 ### -param OutputWidth [in]
@@ -96,7 +96,7 @@ The number of input streams to process.
 
 ### -param pStreams [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/0B90AB2C-3F62-49FF-A1DB-FCB07A33F482">D3D11_VIDEO_PROCESSOR_STREAM_BEHAVIOR_HINT</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dn894123(v=VS.85).aspx">D3D11_VIDEO_PROCESSOR_STREAM_BEHAVIOR_HINT</a>*</b>
 
 An array of structures that specifies the format of each input stream and whether each stream should be used when computing behavior hints.
 
@@ -105,7 +105,7 @@ An array of structures that specifies the format of each input stream and whethe
 
 Type: <b>UINT*</b>
 
-A pointer to a bitwise OR combination of <a href="https://msdn.microsoft.com/0EB7F918-EA7A-4E7E-9B6D-53F582CC6B28">D3D11_VIDEO_PROCESSOR_BEHAVIOR_HINTS</a> values indicating which video processor operations would best be performed using multi-plane overlay hardware rather than the <a href="https://msdn.microsoft.com/D526BB31-A4B9-4BBD-BAE3-43FDFF58A32A">ID3D11VideoContext::VideoProcessorBlt</a> method.
+A pointer to a bitwise OR combination of <a href="https://msdn.microsoft.com/en-us/library/Dn894122(v=VS.85).aspx">D3D11_VIDEO_PROCESSOR_BEHAVIOR_HINTS</a> values indicating which video processor operations would best be performed using multi-plane overlay hardware rather than the <a href="https://msdn.microsoft.com/en-us/library/Hh447719(v=VS.85).aspx">ID3D11VideoContext::VideoProcessorBlt</a> method.
 
 
 ## -returns
@@ -139,7 +139,7 @@ This method returns one of the following error codes.
 
 
 
-This method computes the behavior hints using the current state of the video processor as set by the "SetOutput" and "SetStream" methods of <a href="https://msdn.microsoft.com/6EF09C31-56C7-46B5-87AE-B1FE43EC66FC">ID3D11VideoContext</a> and <a href="https://msdn.microsoft.com/64D12F68-C2AA-4C1D-9608-5F97CF7AD430">ID3D11VideoContext1</a>. You must set the proper state before calling this method to ensure that the returned hints contain useful data.
+This method computes the behavior hints using the current state of the video processor as set by the "SetOutput" and "SetStream" methods of <a href="https://msdn.microsoft.com/en-us/library/Hh447703(v=VS.85).aspx">ID3D11VideoContext</a> and <a href="https://msdn.microsoft.com/en-us/library/Dn894126(v=VS.85).aspx">ID3D11VideoContext1</a>. You must set the proper state before calling this method to ensure that the returned hints contain useful data.
 
 
 
@@ -149,7 +149,7 @@ This method computes the behavior hints using the current state of the video pro
 
 
 
-<a href="https://msdn.microsoft.com/64D12F68-C2AA-4C1D-9608-5F97CF7AD430">ID3D11VideoContext1</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn894126(v=VS.85).aspx">ID3D11VideoContext1</a>
  
 
  

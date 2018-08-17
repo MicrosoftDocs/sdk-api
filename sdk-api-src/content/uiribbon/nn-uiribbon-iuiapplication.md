@@ -95,7 +95,7 @@ Called for each Command specified in the Ribbon framework markup when the applic
 <a href="https://msdn.microsoft.com/en-us/library/Dd371537(v=VS.85).aspx">OnViewChanged</a>
 </td>
 <td align="left" width="63%">
-Called when the state of a  <a href="https://msdn.microsoft.com/e7549b8b-0f95-477a-9024-1a99ee1412c2">View</a> changes.
+Called when the state of a  <a href="https://msdn.microsoft.com/en-us/library/Dd371600(v=VS.85).aspx">View</a> changes.
 
 </td>
 </tr>

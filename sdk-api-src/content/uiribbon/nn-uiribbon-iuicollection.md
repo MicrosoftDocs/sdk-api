@@ -74,7 +74,7 @@ The <b>IUICollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5a6d483e-583e-45a2-8b29-2541c6721ade">Add</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371504(v=VS.85).aspx">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an item to the end of the <b>IUICollection</b>.
@@ -83,7 +83,7 @@ Adds an item to the end of the <b>IUICollection</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/597401e0-1773-41e3-b80f-df89f51868cf">Clear</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371506(v=VS.85).aspx">Clear</a>
 </td>
 <td align="left" width="63%">
 Deletes all items from the <b>IUICollection</b>.
@@ -92,7 +92,7 @@ Deletes all items from the <b>IUICollection</b>.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ee2d7e9f-52fa-439f-a067-9f62ed60575d">GetCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371509(v=VS.85).aspx">GetCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of items contained in the <b>IUICollection</b>.
@@ -119,7 +119,7 @@ Inserts an item into the <b>IUICollection</b> at the specified index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8fab1db7-bbb8-425f-817c-a4539eaa2f29">RemoveAt</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd371521(v=VS.85).aspx">RemoveAt</a>
 </td>
 <td align="left" width="63%">
 Removes an item from the <b>IUICollection</b> at the specified index.

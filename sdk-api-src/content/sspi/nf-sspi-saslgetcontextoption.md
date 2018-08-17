@@ -136,14 +136,7 @@ A pointer to a buffer that receives the requested property. For the data type of
 The size, in bytes, of the buffer specified by the <i>Value</i> parameter.
 
 
-### -param OPTIONAL
-
-TBD
-
-
-
-
-#### - Needed [out, optional]
+### -param Needed [out, optional]
 
 A pointer to an unsigned <b>LONG</b> value that returns the value if the buffer specified by the <i>Value</i> parameter is not large enough to contain the data value of the property specified by the <i>Option</i> parameter.
 

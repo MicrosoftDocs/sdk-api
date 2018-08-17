@@ -93,7 +93,7 @@ For single GPU operation, set this to zero. If there are multiple GPU nodes, set
 This structure is passed into <a href="https://msdn.microsoft.com/556D068C-9939-4B42-AFC2-4EBB2D7B553B">CreateCommandQueue</a>.
         
 
-This structure is returned by <a href="https://msdn.microsoft.com/AEEE6B15-AEB0-47C5-A3F8-9957516BFBEE">ID3D12CommandQueue::GetDesc</a>.
+This structure is returned by <a href="https://msdn.microsoft.com/en-us/library/Dn914410(v=VS.85).aspx">ID3D12CommandQueue::GetDesc</a>.
         
 
 
@@ -104,7 +104,7 @@ This structure is returned by <a href="https://msdn.microsoft.com/AEEE6B15-AEB0-
 
 
 
-<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn770459(v=VS.85).aspx">Core Structures</a>
  
 
  

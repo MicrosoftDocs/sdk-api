@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_gssetshaderresources.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_gssetshaderresources.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: GSSetShaderResources, GSSetShaderResources method [Direct3D 10], GSSetShaderResources method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GSSetShaderResources method, ID3D10Device.GSSetShaderResources, ID3D10Device::GSSetShaderResources, ae1befd7-901e-0bc8-c1d4-e5f83866bff2, d3d10/ID3D10Device::GSSetShaderResources, direct3d10.id3d10device_gssetshaderresources
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,14 +62,14 @@ Bind an array of shader resources to the <a href="https://msdn.microsoft.com/en-
 
 ### -param StartSlot [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Index into the device's zero-based array to begin setting shader resources to.
 
 
 ### -param NumViews [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Number of shader resources to set. Up to a maximum of 128 slots are available for shader resources.
 

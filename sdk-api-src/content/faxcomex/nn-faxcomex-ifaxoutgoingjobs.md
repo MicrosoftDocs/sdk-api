@@ -100,7 +100,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms689514(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/904de452-446a-4dbf-9d32-b83f26a715bf">Count</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms689537(v=VS.85).aspx">Count</a>
 
 
 </td>

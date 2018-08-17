@@ -4,10 +4,10 @@ title: WTHelperCertIsSelfSigned function
 author: windows-sdk-content
 description: Checks whether a certificate is self-signed.
 old-location: security\wthelpercertisselfsigned.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 456b8c8c-6ca3-469a-a415-e72109696bf5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: WTHelperCertIsSelfSigned, WTHelperCertIsSelfSigned function [Security], security.wthelpercertisselfsigned, wintrust/WTHelperCertIsSelfSigned
 ms.prod: windows
 ms.technology: windows-sdk

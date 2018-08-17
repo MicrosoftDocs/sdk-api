@@ -156,7 +156,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms692784(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/45ba0af1-25cc-4020-ae5c-355e318a63bf">DisplayName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692370(v=VS.85).aspx">DisplayName</a>
 
 
 </td>
@@ -189,7 +189,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms691808(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/81e6f533-1d92-4bb6-b69e-033e2ac0a0b4">JobId</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690870(v=VS.85).aspx">JobId</a>
 
 
 </td>
@@ -286,7 +286,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms692305(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/31a02244-4ea4-4231-aec3-3d699defcfc4">SenderName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691367(v=VS.85).aspx">SenderName</a>
 
 
 </td>
@@ -302,7 +302,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms691367(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/109b9be7-d00a-4a59-bab7-eec8060de14d">Tsid</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691869(v=VS.85).aspx">Tsid</a>
 
 
 </td>
@@ -319,7 +319,7 @@ TSID) associated with the fax job.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/9c27ffde-ce52-4ef2-8f41-1a92884926bc">Type</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691914(v=VS.85).aspx">Type</a>
 
 
 </td>
@@ -335,7 +335,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms691914(v=VS.85).aspx">IF
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/811ad121-1602-4829-bf6c-aef680eebe3f">UserName</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691960(v=VS.85).aspx">UserName</a>
 
 
 </td>

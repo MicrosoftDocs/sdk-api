@@ -4,10 +4,10 @@ title: IHeaderCtrl
 author: windows-sdk-content
 description: Enables the manipulation of columns and indicates the kind of information that is to be presented in the result view pane of the console.
 old-location: mmc\iheaderctrl.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: 8F7ACE7E-4B44-448A-A3BB-4563DDC9C34E
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/14/2018
 ms.keywords: IHeaderCtrl, IHeaderCtrl interface [MMC], IHeaderCtrl interface [MMC],described, mmc.iheaderctrl, mmc/IHeaderCtrl
 ms.prod: windows
 ms.technology: windows-sdk

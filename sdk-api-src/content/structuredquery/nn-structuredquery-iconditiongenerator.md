@@ -92,7 +92,7 @@ Generates a special query expression for what would otherwise become a leaf quer
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f2cb2129-47ef-4fe5-bc40-19cffce4388d">Initialize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231381(v=VS.85).aspx">Initialize</a>
 </td>
 <td align="left" width="63%">
 Resets all states of the interface to default values and retrieves any necessary information from the schema.

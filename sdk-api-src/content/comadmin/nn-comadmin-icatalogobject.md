@@ -53,15 +53,15 @@ req.irql:
 
 Represents items in collections on the COM+ catalog. <b>ICatalogObject</b> enables you to get and put properties exposed by objects in the catalog.
 
-The <a href="https://msdn.microsoft.com/47c9dcfd-81fc-495c-848a-8c2b655e8fce">ICatalogCollection::Item</a> method returns a pointer to <b>ICatalogObject</b> when it retrieves an item in the collection.
+The <a href="https://msdn.microsoft.com/en-us/library/ms681193(v=VS.85).aspx">ICatalogCollection::Item</a> method returns a pointer to <b>ICatalogObject</b> when it retrieves an item in the collection.
 
 
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICatalogObject</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICatalogObject</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Properties</a></li>
 </ul>
 
 ## -members
@@ -74,19 +74,19 @@ The <b>ICatalogObject</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bd088794-1245-4cb8-a1f7-385354640675">IsPropertyReadOnly</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686090(v=VS.85).aspx">IsPropertyReadOnly</a>
 </td>
 <td align="left" width="63%">
-Indicates whether the specified property can be modified using <a href="https://msdn.microsoft.com/eb4203c5-b51c-411c-9c2d-405b3d70bc80">put_Value</a>.
+Indicates whether the specified property can be modified using <a href="https://msdn.microsoft.com/en-us/library/ms687686(v=VS.85).aspx">put_Value</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/463ca1eb-5386-4265-882b-fa29c4cbe877">IsPropertyWriteOnly</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms681176(v=VS.85).aspx">IsPropertyWriteOnly</a>
 </td>
 <td align="left" width="63%">
-Indicates whether the specified property can be read using <a href="https://msdn.microsoft.com/eb4203c5-b51c-411c-9c2d-405b3d70bc80">get_Value</a>.
+Indicates whether the specified property can be read using <a href="https://msdn.microsoft.com/en-us/library/ms687686(v=VS.85).aspx">get_Value</a>.
 
 </td>
 </tr>
@@ -101,7 +101,7 @@ Indicates whether the specified property can be read using <a href="https://msdn
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/1937cd5a-742f-4248-a4c2-0b39a03eed20">Key</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms679201(v=VS.85).aspx">Key</a>
 
 
 </td>
@@ -117,7 +117,7 @@ The key property of the object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/604b2d11-b204-4f78-8cf2-e13f594299b7">Name</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms681772(v=VS.85).aspx">Name</a>
 
 
 </td>
@@ -133,7 +133,7 @@ The name property of the object.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c2fdeae4-e8f0-45c1-b42a-0bd088c26d6f">Valid</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686422(v=VS.85).aspx">Valid</a>
 
 
 </td>
@@ -149,7 +149,7 @@ Indicates whether all properties were successfully read from the catalog data st
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/eb4203c5-b51c-411c-9c2d-405b3d70bc80">Value</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687686(v=VS.85).aspx">Value</a>
 
 
 </td>

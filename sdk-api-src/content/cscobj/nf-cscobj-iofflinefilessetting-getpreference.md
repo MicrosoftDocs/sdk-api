@@ -62,9 +62,9 @@ Retrieves a per-machine or per-user preference associated with a particular Offl
 
 ### -param pvarValue [out]
 
-If the preference supports one or more values, the returned <a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> object contains those values.  If the preference does not support values, the type of the returned <b>VARIANT</b> is <b>VT_EMPTY</b>.
+If the preference supports one or more values, the returned <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> object contains those values.  If the preference does not support values, the type of the returned <b>VARIANT</b> is <b>VT_EMPTY</b>.
 
-The method initializes the <a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> prior to storing the preference value in it.
+The method initializes the <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> prior to storing the preference value in it.
 
 
 ### -param dwScope [in]
@@ -100,7 +100,7 @@ Returns <code>HRESULT_FROM_WIN32(ERROR_FILE_NOT_FOUND)</code> if the preference 
 
 
 
-<a href="https://msdn.microsoft.com/6f47c67b-9438-4229-89b2-6b3f9da8fb68">IOfflineFilesSetting</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530601(v=VS.85).aspx">IOfflineFilesSetting</a>
  
 
  

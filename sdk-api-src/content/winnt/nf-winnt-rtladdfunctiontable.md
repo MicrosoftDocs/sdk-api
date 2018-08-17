@@ -7,7 +7,7 @@ old-location: base\rtladdfunctiontable.htm
 old-project: debug
 ms.assetid: 4717f29e-c5f8-4b02-a7c8-edd065f1c793
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: RtlAddFunctionTable, RtlAddFunctionTable function, base.rtladdfunctiontable, winnt/RtlAddFunctionTable
 ms.prod: windows
 ms.technology: windows-sdk

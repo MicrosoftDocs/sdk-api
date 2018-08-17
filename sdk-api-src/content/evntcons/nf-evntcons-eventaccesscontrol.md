@@ -4,10 +4,10 @@ title: EventAccessControl function
 author: windows-sdk-content
 description: Adds or modifies the permissions of the specified provider or session.
 old-location: etw\eventaccesscontrol_func.htm
-old-project: ETW
+old-project: etw
 ms.assetid: 699bb165-680f-4d3b-8859-959f319ca4be
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/08/2018
 ms.keywords: EventAccessControl, EventAccessControl function [ETW], TRACELOG_ACCESS_KERNEL_LOGGER, TRACELOG_ACCESS_REALTIME, TRACELOG_CREATE_ONDISK, TRACELOG_CREATE_REALTIME, TRACELOG_GUID_ENABLE, TRACELOG_LOG_EVENT, TRACELOG_REGISTER_GUIDS, WMIGUID_QUERY, base.eventaccesscontrol_func, etw.eventaccesscontrol_func, evntcons/EventAccessControl
 ms.prod: windows
 ms.technology: windows-sdk

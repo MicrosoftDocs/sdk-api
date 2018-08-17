@@ -82,7 +82,7 @@ This method returns a value that indicates which string format flags are set for
 
 
 
-<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a>
 
 
 

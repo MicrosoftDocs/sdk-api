@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-A fax number is only available for faxes that have a <a href="https://msdn.microsoft.com/04d3f8e2-cf49-4497-bf89-7b9f777923b2">Type</a> property equal to <b>JT_SEND</b>. If the fax number is not available, the <b>FaxNumber</b> property contains an empty string.
+A fax number is only available for faxes that have a <a href="https://msdn.microsoft.com/en-us/library/ms691914(v=VS.85).aspx">Type</a> property equal to <b>JT_SEND</b>. If the fax number is not available, the <b>FaxNumber</b> property contains an empty string.
 
 <b>FaxNumber</b> allocates the memory required for the buffer pointed to by the <i>pVal</i> parameter. The client application must call the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function to deallocate the resources associated with this parameter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms690878(v=VS.85).aspx">Freeing Fax Resources</a>.
 
@@ -96,7 +96,7 @@ A fax number is only available for faxes that have a <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/04d3f8e2-cf49-4497-bf89-7b9f777923b2">Type</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691914(v=VS.85).aspx">Type</a>
  
 
  

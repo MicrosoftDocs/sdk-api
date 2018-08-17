@@ -7,7 +7,7 @@ old-location: iphlp\convertinterfaceindextoluid.htm
 old-project: iphlp
 ms.assetid: c757228c-93f1-4545-8921-9d048bca580c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: ConvertInterfaceIndexToLuid, ConvertInterfaceIndexToLuid function [IP Helper], iphlp.convertinterfaceindextoluid, netioapi/ConvertInterfaceIndexToLuid
 ms.prod: windows
 ms.technology: windows-sdk

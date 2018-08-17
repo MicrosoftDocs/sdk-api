@@ -73,7 +73,7 @@ The <b>IDXGISwapChain</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e2ed19fe-73a2-490c-ad1c-1440d3990a54">GetBuffer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174570(v=VS.85).aspx">GetBuffer</a>
 </td>
 <td align="left" width="63%">
 Accesses one of the swap-chain's back buffers.

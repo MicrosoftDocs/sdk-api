@@ -141,7 +141,7 @@ Returns a nonzero value if successful, or 0 otherwise. To get extended error inf
 
 
 
-For an overview of the use of the string functions, see <a href="_win32_strings_cpp">Strings</a>.
+For an overview of the use of the string functions, see <a href="https://msdn.microsoft.com/en-us/library/ms646979(v=VS.85).aspx">Strings</a>.
 
 The values of the <i>lpSrcStr</i> and <i>lpCharType</i> parameters must not be the same. If they are the same, the function fails with ERROR_INVALID_PARAMETER.
 

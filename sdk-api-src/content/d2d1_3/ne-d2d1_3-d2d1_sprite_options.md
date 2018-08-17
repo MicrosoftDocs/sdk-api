@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Specifies additional aspects of how a sprite batch is to be drawn, as part of a call to <a href="https://msdn.microsoft.com/66d049ca-5d4b-1570-3fa3-8991f9fc97a0">ID2D1DeviceContext3::DrawSpriteBatch</a>.
+Specifies additional aspects of how a sprite batch is to be drawn, as part of a call to <a href="https://msdn.microsoft.com/en-us/library/Mt619830(v=VS.85).aspx">ID2D1DeviceContext3::DrawSpriteBatch</a>.
 
 
 ## -enum-fields

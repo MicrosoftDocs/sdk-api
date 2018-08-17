@@ -69,21 +69,21 @@ Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).asp
 
 ### -field uBand
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Index of the band sending the notification. 
 
 
 ### -field wID
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Application-defined identifier for the band. 
 
 
 ### -field lParam
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPARAM</a></b>
 
 Application-defined value associated with the band. 
 
@@ -98,7 +98,7 @@ Type: <b><a href="https://msdn.microsoft.com/9439cb6c-f2f7-4c27-b1d7-8ddf16d81fe
 
 ### -field lParamNM
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPARAM</a></b>
 
 An application-defined value. If the <a href="https://msdn.microsoft.com/en-us/library/Bb774409(v=VS.85).aspx">RBN_CHEVRONPUSHED</a> notification was sent as a result of an <a href="https://msdn.microsoft.com/en-us/library/Bb774506(v=VS.85).aspx">RB_PUSHCHEVRON</a> message, this member contains the message's 
 					<i>lAppValue</i> value. Otherwise, it is set to zero. 

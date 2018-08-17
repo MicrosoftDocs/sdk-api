@@ -84,7 +84,7 @@ Type: <b>BOOL</b>
 
 Type: <b>REFIID</b>
 
-Reference to the IID of the interface the handler object should return. This should be <a href="shell.IPropertyStore">IPropertyStore</a> or an interface derived from <b>IPropertyStore</b>.
+Reference to the IID of the interface the handler object should return. This should be <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a> or an interface derived from <b>IPropertyStore</b>.
 
 
 ### -param ppv [out]

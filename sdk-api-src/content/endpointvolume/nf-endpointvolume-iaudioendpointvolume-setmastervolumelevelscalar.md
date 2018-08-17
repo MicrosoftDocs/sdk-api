@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioendpointvolume_setmastervolumelevelscalar.htm
 old-project: CoreAudio
 ms.assetid: d592c197-32fc-4a48-8f37-1cd140895c5e
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/14/2018
 ms.keywords: IAudioEndpointVolume interface [Core Audio],SetMasterVolumeLevelScalar method, IAudioEndpointVolume.SetMasterVolumeLevelScalar, IAudioEndpointVolume::SetMasterVolumeLevelScalar, IAudioEndpointVolumeSetMasterVolumeLevelScalar, SetMasterVolumeLevelScalar, SetMasterVolumeLevelScalar method [Core Audio], SetMasterVolumeLevelScalar method [Core Audio],IAudioEndpointVolume interface, coreaudio.iaudioendpointvolume_setmastervolumelevelscalar, endpointvolume/IAudioEndpointVolume::SetMasterVolumeLevelScalar
 ms.prod: windows
 ms.technology: windows-sdk

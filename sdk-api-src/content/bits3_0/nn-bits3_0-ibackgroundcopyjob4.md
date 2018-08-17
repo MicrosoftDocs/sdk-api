@@ -58,9 +58,9 @@ To get this interface, call the <b>IBackgroundCopyJob::QueryInterface</b> method
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyJob4</b> interface inherits from <a href="https://msdn.microsoft.com/91dd1ae1-1740-4d95-a476-fc18aead1dc2">IBackgroundCopyJob</a>, <a href="https://msdn.microsoft.com/9fd422ba-a68c-40e3-8b21-3077b271e58e">IBackgroundCopyJob2</a>, and <a href="https://msdn.microsoft.com/46e115bb-2634-4b79-b307-45720d8cb2be">IBackgroundCopyJob3</a>. <b>IBackgroundCopyJob4</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyJob4</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Aa362973(v=VS.85).aspx">IBackgroundCopyJob</a>, <a href="https://msdn.microsoft.com/en-us/library/Aa362981(v=VS.85).aspx">IBackgroundCopyJob2</a>, and <a href="https://msdn.microsoft.com/en-us/library/Aa362990(v=VS.85).aspx">IBackgroundCopyJob3</a>. <b>IBackgroundCopyJob4</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -73,7 +73,7 @@ The <b>IBackgroundCopyJob4</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2d258dc4-a6fd-46d7-ac90-2703c8ddc666">GetMaximumDownloadTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa964244(v=VS.85).aspx">GetMaximumDownloadTime</a>
 </td>
 <td align="left" width="63%">
 Retrieves the maximum time that BITS will spend transferring the files in the job.
@@ -82,7 +82,7 @@ Retrieves the maximum time that BITS will spend transferring the files in the jo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2ab62c27-5ba1-46f3-a5e9-020fde17a1ef">GetOwnerElevationState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa964245(v=VS.85).aspx">GetOwnerElevationState</a>
 </td>
 <td align="left" width="63%">
 Get a value that determines if the token of the owner was elevated at the time they created or took ownership of the job.
@@ -91,7 +91,7 @@ Get a value that determines if the token of the owner was elevated at the time t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1f5d9576-0948-429b-b136-1b02d7197fcc">GetOwnerIntegrityLevel</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa964246(v=VS.85).aspx">GetOwnerIntegrityLevel</a>
 </td>
 <td align="left" width="63%">
 Get the integrity level of the token of the owner that created or took ownership of the job.
@@ -100,7 +100,7 @@ Get the integrity level of the token of the owner that created or took ownership
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1b9cdd81-91e8-4d24-a451-61bed51289d4">GetPeerCachingFlags</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa964247(v=VS.85).aspx">GetPeerCachingFlags</a>
 </td>
 <td align="left" width="63%">
 Retrieves flags that determine if the files of the job can be cached and served to peers and if BITS can download content for the job from peers.
@@ -109,7 +109,7 @@ Retrieves flags that determine if the files of the job can be cached and served 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9e29c082-5bd1-465a-8853-aea81a593db6">SetMaximumDownloadTime</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa964248(v=VS.85).aspx">SetMaximumDownloadTime</a>
 </td>
 <td align="left" width="63%">
 Sets the maximum time that BITS will spend transferring the files in the job.
@@ -118,7 +118,7 @@ Sets the maximum time that BITS will spend transferring the files in the job.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/53daa02c-1dd2-4b9a-a52f-3a77d6cb0b2c">SetPeerCachingFlags</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa964249(v=VS.85).aspx">SetPeerCachingFlags</a>
 </td>
 <td align="left" width="63%">
 Sets flags that determine if the files of the job can be cached and served to peers and if BITS can download content for the job from peers.
@@ -133,15 +133,15 @@ Sets flags that determine if the files of the job can be cached and served to pe
 
 
 
-<a href="https://msdn.microsoft.com/91dd1ae1-1740-4d95-a476-fc18aead1dc2">IBackgroundCopyJob</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362973(v=VS.85).aspx">IBackgroundCopyJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/9fd422ba-a68c-40e3-8b21-3077b271e58e">IBackgroundCopyJob2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362981(v=VS.85).aspx">IBackgroundCopyJob2</a>
 
 
 
-<a href="https://msdn.microsoft.com/46e115bb-2634-4b79-b307-45720d8cb2be">IBackgroundCopyJob3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362990(v=VS.85).aspx">IBackgroundCopyJob3</a>
  
 
  

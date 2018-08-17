@@ -4,10 +4,10 @@ title: PerfStartProviderEx function
 author: windows-sdk-content
 description: Registers the provider.
 old-location: perf\perfstartproviderex.htm
-old-project: PerfCtrs
+old-project: perfctrs
 ms.assetid: 9f3aefbf-0836-46fc-8a53-858c3c94cef9
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/08/2018
 ms.keywords: PerfStartProviderEx, PerfStartProviderEx function [Perf], perf.perfstartproviderex, perflib/PerfStartProviderEx
 ms.prod: windows
 ms.technology: windows-sdk

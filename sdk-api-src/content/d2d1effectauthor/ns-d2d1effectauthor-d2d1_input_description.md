@@ -75,7 +75,7 @@ The mip level to retrieve from the upstream transform, if specified.
 
 
 
-<a href="https://msdn.microsoft.com/cd978d3c-ae41-4321-95dd-46b186acf002">D2D1_FILTER</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404306(v=VS.85).aspx">D2D1_FILTER</a>
  
 
  

@@ -100,17 +100,17 @@ Retrieves the properties of the resource heap, for placed and committed resource
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/71E43B63-9C84-4E4B-A43D-92B958C8AAF5">Map</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn788712(v=VS.85).aspx">Map</a>
 </td>
 <td align="left" width="63%">
-Gets a CPU pointer to the specified subresource in the resource, but may not disclose the pointer value to applications. <a href="https://msdn.microsoft.com/71E43B63-9C84-4E4B-A43D-92B958C8AAF5">Map</a> also invalidates the CPU cache, when necessary, so that CPU reads to this address reflect any modifications made by the GPU.
+Gets a CPU pointer to the specified subresource in the resource, but may not disclose the pointer value to applications. <a href="https://msdn.microsoft.com/en-us/library/Dn788712(v=VS.85).aspx">Map</a> also invalidates the CPU cache, when necessary, so that CPU reads to this address reflect any modifications made by the GPU.
 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A1F61217-A383-49BF-B675-FBC7F6D015DB">ReadFromSubresource</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn914415(v=VS.85).aspx">ReadFromSubresource</a>
 </td>
 <td align="left" width="63%">
 Uses the CPU to copy data from a subresource, enabling the CPU to read the contents of most textures with undefined layouts.
@@ -120,17 +120,17 @@ Uses the CPU to copy data from a subresource, enabling the CPU to read the conte
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/EB0E3936-47CC-4FDC-BF17-A506AC8E4C15">Unmap</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn788713(v=VS.85).aspx">Unmap</a>
 </td>
 <td align="left" width="63%">
-Invalidates the CPU pointer to the specified subresource in the resource. <a href="https://msdn.microsoft.com/EB0E3936-47CC-4FDC-BF17-A506AC8E4C15">Unmap</a> also flushes the CPU cache, when necessary, so that GPU reads to this address reflect any modifications made by the CPU.
+Invalidates the CPU pointer to the specified subresource in the resource. <a href="https://msdn.microsoft.com/en-us/library/Dn788713(v=VS.85).aspx">Unmap</a> also flushes the CPU cache, when necessary, so that GPU reads to this address reflect any modifications made by the CPU.
 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8781E2FE-8D82-41F5-B541-A96DA11CA290">WriteToSubresource</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn914416(v=VS.85).aspx">WriteToSubresource</a>
 </td>
 <td align="left" width="63%">
 Uses the CPU to copy data into a subresource, enabling the CPU to modify the contents of most textures with undefined layouts.
@@ -145,7 +145,7 @@ Uses the CPU to copy data into a subresource, enabling the CPU to modify the con
 
 
 
-<a href="https://msdn.microsoft.com/A9BD5910-8FF2-4540-BB8E-E8EA5C10528C">Core Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn770457(v=VS.85).aspx">Core Interfaces</a>
 
 
 

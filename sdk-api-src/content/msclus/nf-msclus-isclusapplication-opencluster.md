@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
     unavailable in subsequent versions.]
 
 Opens a 
-    connection to a <a href="c_gly.htm">cluster</a>.
+    connection to a <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
 
 
 ## -parameters

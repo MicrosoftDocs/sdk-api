@@ -4,10 +4,10 @@ title: CertSrvRestoreGetDatabaseLocationsW function
 author: windows-sdk-content
 description: Used both in backup and restore scenarios and retrieves the list of Certificate Services database location names for all the files being backed up or restored.
 old-location: security\certsrvrestoregetdatabaselocations.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 02355bd7-6788-4c32-940e-b89e47619aa0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: CSBFT_CERTSERVER_DATABASE, CSBFT_CHECKPOINT_DIR, CSBFT_LOG_DIR, CertSrvRestoreGetDatabaseLocations, CertSrvRestoreGetDatabaseLocations function [Security], CertSrvRestoreGetDatabaseLocationsW, _certsrv_certsrvrestoregetdatabaselocations, certbcli/CertSrvRestoreGetDatabaseLocations, certbcli/CertSrvRestoreGetDatabaseLocationsW, security.certsrvrestoregetdatabaselocations
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,7 +67,7 @@ A handle to a Certificate Services backup or restore context.
 
 ### -param ppwszzDatabaseLocationList [out]
 
-A pointer to a <b>WCHAR</b> pointer to receive the list of null-terminated database location names, log directory name, and system (or checkpoint) directory name. There is a null character after every name and an extra null character at the end of the list. The location name will be in the UNC form "## \\<i>Server</i>\<i>SharePoint</i>\…<i>Path</i>…\<i>FileName</i>.ext". The directory names will have the same form but without the trailing "\<i>FileName</i>.ext". The text "##" denotes a Certificate Services Backup file type (CSBFT_*) and is stored as a single non-null <a href="https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb">Unicode</a> character prefixed onto each UNC path. The type tag is defined in Certbcli.h and can be one of the following values for this function.
+A pointer to a <b>WCHAR</b> pointer to receive the list of null-terminated database location names, log directory name, and system (or checkpoint) directory name. There is a null character after every name and an extra null character at the end of the list. The location name will be in the UNC form "## \\<i>Server</i>\<i>SharePoint</i>\…<i>Path</i>…\<i>FileName</i>.ext". The directory names will have the same form but without the trailing "\<i>FileName</i>.ext". The text "##" denotes a Certificate Services Backup file type (CSBFT_*) and is stored as a single non-null <a href="https://msdn.microsoft.com/en-us/library/ms721629(v=VS.85).aspx">Unicode</a> character prefixed onto each UNC path. The type tag is defined in Certbcli.h and can be one of the following values for this function.
 
 <table>
 <tr>
@@ -107,7 +107,7 @@ Certificate Services database log directory.
 </table>
  
 
-You must free this allocated memory when done by calling <a href="https://msdn.microsoft.com/dbfac3fc-3156-4253-812a-8b0647719096">CertSrvBackupFree</a>.
+You must free this allocated memory when done by calling <a href="https://msdn.microsoft.com/en-us/library/Aa376580(v=VS.85).aspx">CertSrvBackupFree</a>.
 
 Setting *<i>ppwszzDatabaseLocationList</i> to <b>NULL</b> before calling this function is optional.
 
@@ -200,11 +200,11 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/dbfac3fc-3156-4253-812a-8b0647719096">CertSrvBackupFree</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa376580(v=VS.85).aspx">CertSrvBackupFree</a>
 
 
 
-<a href="https://msdn.microsoft.com/47e8f490-ecb2-4c41-8bf0-b673e173ddc6">Using the Certificate Services Backup and Restore Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa388174(v=VS.85).aspx">Using the Certificate Services Backup and Restore Functions</a>
  
 
  

@@ -146,7 +146,7 @@ For more information, see<a href="https://msdn.microsoft.com/en-us/library/Bb787
 
 
 
-<a href="https://msdn.microsoft.com/4e998d86-e101-4bea-8389-3760e9289151">Copy</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787742(v=VS.85).aspx">Copy</a>
 
 
 

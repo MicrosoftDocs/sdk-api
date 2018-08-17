@@ -4,10 +4,10 @@ title: Document::Save
 author: windows-sdk-content
 description: The Save method saves the persistent data for the document.
 old-location: mmc\document_save.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: 571941f1-bfd0-4b26-83e7-f9ab897280e7
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/14/2018
 ms.keywords: Document interface [MMC],Save method, Document object [MMC],Save method, Document.Save, Document::Save, Save, Save method [MMC], Save method [MMC],Document interface, Save method [MMC],Document object, _slate_document.save_method, mmc.document_save
 ms.prod: windows
 ms.technology: windows-sdk

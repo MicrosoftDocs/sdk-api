@@ -75,7 +75,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms536202(v=VS.85).aspx">Fo
 <a href="https://msdn.microsoft.com/en-us/library/ms536201(v=VS.85).aspx">GetHeight(Graphics*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536201(v=VS.85).aspx">Font::GetHeight</a> method gets the line spacing of this font in the current unit of a specified <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object. The line spacing is the vertical distance between the base lines of two consecutive lines of text. Thus, the line spacing includes the blank space between lines along with the height of the character itself.
+The <a href="https://msdn.microsoft.com/en-us/library/ms536201(v=VS.85).aspx">Font::GetHeight</a> method gets the line spacing of this font in the current unit of a specified <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object. The line spacing is the vertical distance between the base lines of two consecutive lines of text. Thus, the line spacing includes the blank space between lines along with the height of the character itself.
 
 </td>
 </tr>

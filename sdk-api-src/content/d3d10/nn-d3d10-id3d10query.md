@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10query.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10query.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 44824060-7dfe-0b44-7549-6ab5b12a7e8f, ID3D10Query, ID3D10Query interface [Direct3D 10], ID3D10Query interface [Direct3D 10],described, d3d10/ID3D10Query, direct3d10.id3d10query
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ A query interface queries information from the GPU.
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Query</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb173500(v=VS.85).aspx">ID3D10Asynchronous</a>. <b>ID3D10Query</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members

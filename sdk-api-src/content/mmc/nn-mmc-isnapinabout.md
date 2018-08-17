@@ -4,10 +4,10 @@ title: ISnapinAbout
 author: windows-sdk-content
 description: The ISnapinAbout interface enables the console to get copyright and version information from a snap-in. The console also uses this interface to obtain images for the static folder from the snap-in.
 old-location: mmc\isnapinabout.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: 39732334-f849-433b-a313-0c4a675bf408
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/14/2018
 ms.keywords: ISnapinAbout, ISnapinAbout interface [MMC], ISnapinAbout interface [MMC],described, _slate_isnapinabout, mmc.isnapinabout, mmc/ISnapinAbout
 ms.prod: windows
 ms.technology: windows-sdk

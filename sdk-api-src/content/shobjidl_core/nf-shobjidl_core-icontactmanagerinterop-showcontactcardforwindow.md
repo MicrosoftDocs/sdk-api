@@ -78,7 +78,7 @@ A pointer to the contact object. Use a <a href="https://msdn.microsoft.com/07883
 
 Type: <b>RECT const*</b>
 
-The <a href="https://msdn.microsoft.com/87f52802-3e26-4c64-a8c9-7323fec26336">Rect</a> is the rectangular area of user selection (for example, pressing a button), around which the operating system displays the contact card, not within that rectangular area. For example, if an app uses a button to show the contact card, pass the <b>Rect</b> of the button so the contact card displays around the button, not overlapping it.
+The <a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a> is the rectangular area of user selection (for example, pressing a button), around which the operating system displays the contact card, not within that rectangular area. For example, if an app uses a button to show the contact card, pass the <b>Rect</b> of the button so the contact card displays around the button, not overlapping it.
 
 
 ### -param preferredPlacement [in]

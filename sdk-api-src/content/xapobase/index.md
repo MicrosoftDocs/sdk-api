@@ -2,7 +2,7 @@
 UID: NA:xapobase
 ms.assetid: d2d0bda1-c776-3d5f-aeae-75ca05aec439
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

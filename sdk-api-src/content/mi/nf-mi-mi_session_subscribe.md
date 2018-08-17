@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_session_subscribe.htm
 old-project: wmi_v2
 ms.assetid: fed64a7a-ef16-4e9b-91b4-7ecede099585
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/13/2018
 ms.keywords: MI_Session_Subscribe, MI_Session_Subscribe function [Windows Management Infrastructure (MI)], mi/MI_Session_Subscribe, wmi_v2.mi_session_subscribe
 ms.prod: windows
 ms.technology: windows-sdk

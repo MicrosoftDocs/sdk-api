@@ -7,7 +7,7 @@ old-location: base\openthread.htm
 old-project: procthread
 ms.assetid: d020ecc5-89d1-4a0d-a197-15a66e269e86
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: OpenThread, OpenThread function, _win32_openthread, base.openthread, processthreadsapi/OpenThread, winbase/OpenThread
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: PSS_VA_SPACE_INFORMATION
+req.typenames: PROCESS_MEMORY_EXHAUSTION_TYPE, *PPROCESS_MEMORY_EXHAUSTION_TYPE
 topic_type:
  - APIRef
  - kbSyntax

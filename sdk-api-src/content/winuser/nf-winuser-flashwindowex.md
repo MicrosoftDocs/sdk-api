@@ -7,7 +7,7 @@ old-location: base\flashwindowex.htm
 old-project: debug
 ms.assetid: 474ec2d9-3ee9-4622-843e-d6ae36fedd7f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: FlashWindowEx, FlashWindowEx function, _win32_flashwindowex, base.flashwindowex, winuser/FlashWindowEx
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: base\closethreadwaitchainsession.htm
 old-project: debug
 ms.assetid: dc288418-01e4-4737-9c63-e6e6b73b5d13
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: CloseThreadWaitChainSession, CloseThreadWaitChainSession function, base.closethreadwaitchainsession, wct/CloseThreadWaitChainSession
 ms.prod: windows
 ms.technology: windows-sdk

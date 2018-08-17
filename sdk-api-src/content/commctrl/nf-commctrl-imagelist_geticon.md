@@ -75,7 +75,7 @@ An index of the image.
 
 ### -param flags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 A combination of flags that specify the drawing style. For a list of values, see the description of the <i>fStyle</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/Bb761533(v=VS.85).aspx">ImageList_Draw</a> function. 
 
@@ -84,7 +84,7 @@ A combination of flags that specify the drawing style. For a list of values, see
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HICON</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HICON</a></b>
 
 Returns the handle to the icon if successful, or <b>NULL</b> otherwise. 
 

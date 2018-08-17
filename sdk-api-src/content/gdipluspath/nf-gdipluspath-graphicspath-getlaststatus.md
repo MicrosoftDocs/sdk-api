@@ -66,10 +66,10 @@ The <b>GraphicsPath::GetLastStatus</b> method returns a value that indicates the
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
 </strong>
 
-The <b>GraphicsPath::GetLastStatus</b> method returns an element of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+The <b>GraphicsPath::GetLastStatus</b> method returns an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
 
 If no methods invoked on this <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object have failed since the previous call to <b>GraphicsPath::GetLastStatus</b>, then <b>GraphicsPath::GetLastStatus</b> returns Ok.
 
@@ -114,7 +114,7 @@ The first time you call the <b>GraphicsPath::GetLastStatus</b> method of a <a hr
 
 
 
-<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a>
  
 
  

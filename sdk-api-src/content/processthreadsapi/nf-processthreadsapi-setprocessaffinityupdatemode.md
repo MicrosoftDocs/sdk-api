@@ -7,7 +7,7 @@ old-location: base\setprocessaffinityupdatemode.htm
 old-project: procthread
 ms.assetid: 46e8f7d2-89b9-42cb-9171-d5ae2ec870da
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: PROCESS_AFFINITY_ENABLE_AUTO_UPDATE, SetProcessAffinityUpdateMode, SetProcessAffinityUpdateMode function, base.setprocessaffinityupdatemode, processthreadsapi/SetProcessAffinityUpdateMode, winbase/SetProcessAffinityUpdateMode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: PSS_VA_SPACE_INFORMATION
+req.typenames: PROCESS_MEMORY_EXHAUSTION_TYPE, *PPROCESS_MEMORY_EXHAUSTION_TYPE
 topic_type:
  - APIRef
  - kbSyntax

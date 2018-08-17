@@ -67,7 +67,7 @@ The user name with which to associate the new identity.
 
 ### -param ppPropertyStore [out]
 
-A pointer to the <a href="shell_ipropertystore_cpp">IPropertyStore</a> interface that represents the property store associated with the new identity.
+A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a> interface that represents the property store associated with the new identity.
 
 
 ### -param pKeywordsToAdd [in, optional]

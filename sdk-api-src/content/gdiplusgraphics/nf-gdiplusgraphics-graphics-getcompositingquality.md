@@ -53,7 +53,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Graphics::GetCompositingQuality</b> method gets the compositing quality currently set for this 
-			<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object.
+			<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object.
 
 
 ## -parameters
@@ -72,7 +72,7 @@ Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms53409
 
 This method returns an element of the 
 						<a href="https://msdn.microsoft.com/en-us/library/ms534094(v=VS.85).aspx">CompositingQuality</a> enumeration that indicates the compositing quality currently set for this 
-						<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object.
 
 
 
@@ -86,7 +86,7 @@ This method returns an element of the
 
 
 
-<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
 
 
 

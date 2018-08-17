@@ -107,7 +107,7 @@ Array of function pointers to bind and unbind function pairs for the implicit ge
 
 ### -field apfnExprEval
 
-Array of function pointers to expression evaluator functions used to evaluate MIDL complex conformance and varying descriptions. For example, <a href="https://msdn.microsoft.com/1f3f3629-f668-460d-86fd-16ef22449973">size_is</a>(param1 + param2). 
+Array of function pointers to expression evaluator functions used to evaluate MIDL complex conformance and varying descriptions. For example, <a href="https://msdn.microsoft.com/">size_is</a>(param1 + param2). 
 
 
 ### -field aXmitQuintuple
@@ -142,7 +142,7 @@ Version of the MIDL compiler used to compile the .idl file.
 
 ### -field CommFaultOffsets
 
-Array of stack offsets for parameters with <a href="https://msdn.microsoft.com/3ea9ce62-8bd4-40fe-b838-bfebd52b5a15">comm_status</a> or <a href="https://msdn.microsoft.com/9da7bd3d-cef0-4ad4-b2a4-3f8aa156e8e0">fault_status</a> attributes. 
+Array of stack offsets for parameters with <a href="https://msdn.microsoft.com/">comm_status</a> or <a href="https://msdn.microsoft.com/9da7bd3d-cef0-4ad4-b2a4-3f8aa156e8e0">fault_status</a> attributes. 
 
 
 ### -field aUserMarshalQuadruple

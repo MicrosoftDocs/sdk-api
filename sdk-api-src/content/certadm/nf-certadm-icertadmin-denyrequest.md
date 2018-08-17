@@ -4,10 +4,10 @@ title: ICertAdmin::DenyRequest
 author: windows-sdk-content
 description: Denies a specified certificate request that is pending.
 old-location: security\icertadmin2_denyrequest.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: a432fd66-0f80-4fb8-9778-38b240dd6369
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: CCertAdmin interface [Security],DenyRequest method, DenyRequest, DenyRequest method [Security], DenyRequest method [Security],CCertAdmin interface, DenyRequest method [Security],ICertAdmin interface, DenyRequest method [Security],ICertAdmin2 interface, ICertAdmin interface [Security],DenyRequest method, ICertAdmin.DenyRequest, ICertAdmin2 interface [Security],DenyRequest method, ICertAdmin2::DenyRequest, ICertAdmin::DenyRequest, certadm/ICertAdmin2::DenyRequest, certadm/ICertAdmin::DenyRequest, security.icertadmin2_denyrequest
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.irql:
 ## -description
 
 
-The <b>DenyRequest</b> method denies a specified <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate request</a> that is pending. This method was first defined in the <a href="https://msdn.microsoft.com/e906b69b-5574-4dd5-aa30-9c2a67972202">ICertAdmin</a> interface.
+The <b>DenyRequest</b> method denies a specified <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate request</a> that is pending. This method was first defined in the <a href="https://msdn.microsoft.com/en-us/library/Aa383233(v=VS.85).aspx">ICertAdmin</a> interface.
 
 For this method to succeed, the certificate request must be pending.
 
@@ -65,9 +65,9 @@ For this method to succeed, the certificate request must be pending.
 
 ### -param strConfig [in]
 
-Represents a valid configuration string for the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) in the form COMPUTERNAME\CANAME where COMPUTERNAME is the network name of the Certificate Services server and CANAME is the common name of the certification authority as entered during Certificate Services setup. For information about the configuration string, see <a href="https://msdn.microsoft.com/92bece6a-73f0-47cf-8142-77e986448824">ICertConfig</a>.
+Represents a valid configuration string for the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> (CA) in the form COMPUTERNAME\CANAME where COMPUTERNAME is the network name of the Certificate Services server and CANAME is the common name of the certification authority as entered during Certificate Services setup. For information about the configuration string, see <a href="https://msdn.microsoft.com/en-us/library/Aa383268(v=VS.85).aspx">ICertConfig</a>.
 
-<div class="alert"><b>Important</b>  <b>DenyRequest</b> does not clear the internal cache when the configuration string is changed. When you change the configuration string for the CA, you must instantiate a new <a href="https://msdn.microsoft.com/df40b6ac-825d-4e8d-a80b-6e57a4e740a2">ICertAdmin</a> object and call this method again with the new configuration string.</div>
+<div class="alert"><b>Important</b>  <b>DenyRequest</b> does not clear the internal cache when the configuration string is changed. When you change the configuration string for the CA, you must instantiate a new <a href="https://msdn.microsoft.com/en-us/library/Aa383234(v=VS.85).aspx">ICertAdmin</a> object and call this method again with the new configuration string.</div>
 <div> </div>
 
 ### -param RequestId [in]
@@ -171,11 +171,11 @@ error:
 
 
 
-<a href="https://msdn.microsoft.com/df40b6ac-825d-4e8d-a80b-6e57a4e740a2">CCertAdmin</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383234(v=VS.85).aspx">CCertAdmin</a>
 
 
 
-<a href="https://msdn.microsoft.com/e906b69b-5574-4dd5-aa30-9c2a67972202">ICertAdmin</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383233(v=VS.85).aspx">ICertAdmin</a>
 
 
 
@@ -183,7 +183,7 @@ error:
 
 
 
-<a href="https://msdn.microsoft.com/92bece6a-73f0-47cf-8142-77e986448824">ICertConfig</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383268(v=VS.85).aspx">ICertConfig</a>
  
 
  

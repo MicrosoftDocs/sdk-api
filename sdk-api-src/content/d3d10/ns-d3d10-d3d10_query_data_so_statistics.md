@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_query_data_so_statistics.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_query_data_so_statistics.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: D3D10_QUERY_DATA_SO_STATISTICS, D3D10_QUERY_DATA_SO_STATISTICS structure [Direct3D 10], cf410b92-83dc-df50-69b8-4970b24d4f1c, d3d10/D3D10_QUERY_DATA_SO_STATISTICS, direct3d10.d3d10_query_data_so_statistics
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,14 +61,14 @@ Query information about the amount of data streamed out to the stream-output buf
 
 ### -field NumPrimitivesWritten
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT64</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT64</a></b>
 
 Number of primitives (that is, points, lines, and triangles) written to the stream-output buffers.
 
 
 ### -field PrimitivesStorageNeeded
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT64</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT64</a></b>
 
 Number of primitives that would have been written to the stream-output buffers if there had been enough space for them all.
 

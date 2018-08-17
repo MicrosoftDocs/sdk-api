@@ -72,12 +72,12 @@ Receives the result of the operation for the item.  Contains S_OK if the operati
 
 ### -param pErrorInfo [in]
 
-Receives a pointer to an instance of the <a href="https://msdn.microsoft.com/df1dd351-eb18-46e6-b778-852f551adfd1">IOfflineFilesSyncErrorInfo</a> interface that provides detailed information about the result of the sync operation.
+Receives a pointer to an instance of the <a href="https://msdn.microsoft.com/en-us/library/Bb530625(v=VS.85).aspx">IOfflineFilesSyncErrorInfo</a> interface that provides detailed information about the result of the sync operation.
 
 
 ### -param pResponse [out]
 
-Set this parameter to a value from the <a href="https://msdn.microsoft.com/a4b16256-7f6a-4e26-8cf2-3ef7c59ac3af">OFFLINEFILES_OP_RESPONSE</a> enumeration that indicates how the operation is to proceed.
+Set this parameter to a value from the <a href="https://msdn.microsoft.com/en-us/library/Bb530650(v=VS.85).aspx">OFFLINEFILES_OP_RESPONSE</a> enumeration that indicates how the operation is to proceed.
 
 
 ## -returns
@@ -94,7 +94,7 @@ The return value is ignored.
 
 
 
-<a href="https://msdn.microsoft.com/7fc5ff29-be9d-4fad-96a8-94058bb708fa">IOfflineFilesSyncProgress</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530637(v=VS.85).aspx">IOfflineFilesSyncProgress</a>
  
 
  

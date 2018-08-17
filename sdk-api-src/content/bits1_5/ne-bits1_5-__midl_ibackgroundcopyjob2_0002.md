@@ -130,15 +130,15 @@ The following table shows the   authentication requests that BITS does not suppo
 
 
 
-<a href="https://msdn.microsoft.com/cfd4aec3-79d0-4971-93f8-df797e5c0f75">Authentication</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362781(v=VS.85).aspx">Authentication</a>
 
 
 
-<a href="https://msdn.microsoft.com/f89ebf46-da83-495c-bafe-b2e0f72f5d8e">BG_AUTH_CREDENTIALS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362785(v=VS.85).aspx">BG_AUTH_CREDENTIALS</a>
 
 
 
-<a href="https://msdn.microsoft.com/adaffc21-7df1-48ca-8e05-bdb09663a49b">IBackgroundCopyJob2::SetCredentials</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362987(v=VS.85).aspx">IBackgroundCopyJob2::SetCredentials</a>
  
 
  

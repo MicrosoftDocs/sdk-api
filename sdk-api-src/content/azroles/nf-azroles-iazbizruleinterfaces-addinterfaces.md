@@ -7,7 +7,7 @@ old-location: security\iazbizruleinterfaces_addinterfaces_method.htm
 old-project: secauthz
 ms.assetid: 91822c84-4daa-4d3c-bbe2-9ceb7fc642b2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: AddInterfaces, AddInterfaces method [Security], AddInterfaces method [Security],IAzBizRuleInterfaces interface, IAzBizRuleInterfaces interface [Security],AddInterfaces method, IAzBizRuleInterfaces.AddInterfaces, IAzBizRuleInterfaces::AddInterfaces, azroles/IAzBizRuleInterfaces::AddInterfaces, security.iazbizruleinterfaces_addinterfaces_method
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,7 +80,7 @@ A <a href="https://msdn.microsoft.com/en-us/library/ms221482(v=VS.85).aspx">SAFE
 
  If the method succeeds, it returns <b>S_OK</b>.
 
-If the method fails, it returns an error code. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an error code. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
 
 
 

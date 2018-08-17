@@ -108,7 +108,7 @@ Gets a set value from an enumeration information structure.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="shell.IPropertyEnumType_GetValue">GetValue</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536253(v=VS.85).aspx">GetValue</a>
 </td>
 <td align="left" width="63%">
 Gets a value from an enumeration information structure.

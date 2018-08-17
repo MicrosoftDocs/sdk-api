@@ -52,7 +52,7 @@ req.product: Use Windows Update or a Windows Update Services Server to retrieve 
 ## -description
 
 
-Called by XAudio2 to lock the input and output configurations of an XAPO allowing it to do any final initialization before <a href="https://msdn.microsoft.com/2510590D-578A-4A39-847A-34DFE620A7CC">Process</a> is called on the realtime thread.
+Called by XAudio2 to lock the input and output configurations of an XAPO allowing it to do any final initialization before <a href="https://msdn.microsoft.com/en-us/library/Ee418456(v=VS.85).aspx">Process</a> is called on the realtime thread.
 
 
 ## -parameters
@@ -98,16 +98,16 @@ Once locked, the input and output configuration and any other locked parameters 
 
 
 
-An XAPO indicates what specific formats it supports through its implementation of the <a href="https://msdn.microsoft.com/en-us/library/Ee418453(v=VS.85).aspx">IsInputFormatSupported</a> and <a href="https://msdn.microsoft.com/en-us/library/Ee418454(v=VS.85).aspx">IsOutputFormatSupported</a> methods. An XAPO should assert the input and output configurations are supported and that any required effect-specific initialization is complete. The <b>IsInputFormatSupported</b>, <b>IsOutputFormatSupported</b>, and <a href="https://msdn.microsoft.com/4C975ED7-5656-4C48-A402-99011B7D37AF">Initialize</a> methods should be used as necessary before calling this method.
+An XAPO indicates what specific formats it supports through its implementation of the <a href="https://msdn.microsoft.com/en-us/library/Ee418453(v=VS.85).aspx">IsInputFormatSupported</a> and <a href="https://msdn.microsoft.com/en-us/library/Ee418454(v=VS.85).aspx">IsOutputFormatSupported</a> methods. An XAPO should assert the input and output configurations are supported and that any required effect-specific initialization is complete. The <b>IsInputFormatSupported</b>, <b>IsOutputFormatSupported</b>, and <a href="https://msdn.microsoft.com/en-us/library/Ee418452(v=VS.85).aspx">Initialize</a> methods should be used as necessary before calling this method.
 
 
 
-Because <a href="https://msdn.microsoft.com/2510590D-578A-4A39-847A-34DFE620A7CC">Process</a> is a nonblocking method, all internal memory buffers required for <b>Process</b> should be allocated in <b>LockForProcess</b>.
+Because <a href="https://msdn.microsoft.com/en-us/library/Ee418456(v=VS.85).aspx">Process</a> is a nonblocking method, all internal memory buffers required for <b>Process</b> should be allocated in <b>LockForProcess</b>.
 
 
 
 
-<a href="https://msdn.microsoft.com/2510590D-578A-4A39-847A-34DFE620A7CC">Process</a> is never called before <b>LockForProcess</b> returns successfully.
+<a href="https://msdn.microsoft.com/en-us/library/Ee418456(v=VS.85).aspx">Process</a> is never called before <b>LockForProcess</b> returns successfully.
 
 
 

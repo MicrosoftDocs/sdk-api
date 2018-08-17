@@ -7,7 +7,7 @@ old-location: base\process_leap_second_info.htm
 old-project: procthread
 ms.assetid: 63AA6F71-506C-47EA-A7EF-8A8309B84257
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: "*PPROCESS_LEAP_SECOND_INFO, PPROCESS_LEAP_SECOND_INFO, PPROCESS_LEAP_SECOND_INFO structure pointer, PROCESS_LEAP_SECOND_INFO, PROCESS_LEAP_SECOND_INFO structure, PROCESS_LEAP_SECOND_INFO_FLAG_ENABLE_SIXTY_SECOND, _PROCESS_LEAP_SECOND_INFO, base.process_leap_second_info, processthreadsapi/PPROCESS_LEAP_SECOND_INFO, processthreadsapi/PROCESS_LEAP_SECOND_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

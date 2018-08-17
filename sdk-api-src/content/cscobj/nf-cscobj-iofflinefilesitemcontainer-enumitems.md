@@ -97,7 +97,7 @@ Allows administrators to find items cached by any user. If this flag is set and 
 
 ### -param ppenum [out]
 
-Enumerator of <a href="https://msdn.microsoft.com/870cf4c4-e757-429d-b6cc-c136ed5aa10e">IOfflineFilesItem</a> interface pointers.
+Enumerator of <a href="https://msdn.microsoft.com/en-us/library/Bb530572(v=VS.85).aspx">IOfflineFilesItem</a> interface pointers.
 
 
 ## -returns
@@ -116,10 +116,10 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 To begin a top-down enumeration of the entire cache, perform the following steps:
 
 <ol>
-<li>Create an instance of <b>CLSID_OfflineFilesCache</b> and obtain its <a href="https://msdn.microsoft.com/328ad076-cafd-461e-8085-7fca65063fa0">IOfflineFilesItemContainer</a> interface.</li>
+<li>Create an instance of <b>CLSID_OfflineFilesCache</b> and obtain its <a href="https://msdn.microsoft.com/en-us/library/Bb530573(v=VS.85).aspx">IOfflineFilesItemContainer</a> interface.</li>
 <li>Call the <b>EnumItems</b> method to obtain an enumerator for the server entries.</li>
-<li>For each entry returned, call <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> for  <a href="https://msdn.microsoft.com/328ad076-cafd-461e-8085-7fca65063fa0">IOfflineFilesItemContainer</a>.</li>
-<li>If <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> succeeds, the item supports children.  If so, enumerate each child, calling <b>QueryInterface</b> for <a href="https://msdn.microsoft.com/328ad076-cafd-461e-8085-7fca65063fa0">IOfflineFilesItemContainer</a> on each.  This pattern may be recursively applied to enumerate the entire cache.</li>
+<li>For each entry returned, call <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> for  <a href="https://msdn.microsoft.com/en-us/library/Bb530573(v=VS.85).aspx">IOfflineFilesItemContainer</a>.</li>
+<li>If <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> succeeds, the item supports children.  If so, enumerate each child, calling <b>QueryInterface</b> for <a href="https://msdn.microsoft.com/en-us/library/Bb530573(v=VS.85).aspx">IOfflineFilesItemContainer</a> on each.  This pattern may be recursively applied to enumerate the entire cache.</li>
 </ol>
 
 #### Examples
@@ -273,11 +273,11 @@ int wmain(int argc, __in_ecount(argc) WCHAR* argv[])
 
 
 
-<a href="https://msdn.microsoft.com/870cf4c4-e757-429d-b6cc-c136ed5aa10e">IOfflineFilesItem</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530572(v=VS.85).aspx">IOfflineFilesItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/328ad076-cafd-461e-8085-7fca65063fa0">IOfflineFilesItemContainer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530573(v=VS.85).aspx">IOfflineFilesItemContainer</a>
  
 
  

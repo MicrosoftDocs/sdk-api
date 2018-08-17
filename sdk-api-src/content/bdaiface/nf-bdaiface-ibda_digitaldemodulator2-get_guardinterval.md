@@ -61,7 +61,7 @@ Gets the demodulator's guard interval.
 
 ### -param pGuardInterval [in, out]
 
-Receives the guard interval, specified as a member of the <a href="https://msdn.microsoft.com/a3ff1c61-f80d-40f2-a22f-069f0690fb1b">GuardInterval</a> enumeration.
+Receives the guard interval, specified as a member of the <a href="https://msdn.microsoft.com/en-us/library/Dd693090(v=VS.85).aspx">GuardInterval</a> enumeration.
 
 
 ## -returns
@@ -78,7 +78,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/337fba05-80d5-4638-9936-2e02767a5b1b">IBDA_DigitalDemodulator2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693285(v=VS.85).aspx">IBDA_DigitalDemodulator2</a>
  
 
  

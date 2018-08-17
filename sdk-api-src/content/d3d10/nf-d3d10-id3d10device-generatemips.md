@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_generatemips.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_generatemips.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 46ad9ad3-37a7-33c9-7829-0dbf6d4b348a, GenerateMips, GenerateMips method [Direct3D 10], GenerateMips method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GenerateMips method, ID3D10Device.GenerateMips, ID3D10Device::GenerateMips, d3d10/ID3D10Device::GenerateMips, direct3d10.id3d10device_generatemips
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,7 +82,7 @@ Returns nothing.
 
 GenerateMips may be called on any ID3D10ShaderResourceView in order to generate the lower mipmap levels. GenerateMips uses the largest mipmap level of the view to recursively generate the lower levels of the mip, stopping with the smallest level specified by the view. If the base resource was not created with <a href="https://msdn.microsoft.com/en-us/library/Bb204891(v=VS.85).aspx">D3D10_BIND_RENDER_TARGET</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb172412(v=VS.85).aspx">D3D10_RESOURCE_MISC_GENERATE_MIPS</a>, this call has no effect.
 
-Video adapters that support <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature level</a> 9.1 and higher support generating mipmaps if you use any of these formats:
+Video adapters that support <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> 9.1 and higher support generating mipmaps if you use any of these formats:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -102,7 +102,7 @@ DXGI_FORMAT_B8G8R8X8_UNORM_SRGB
 </td>
 </tr>
 </table></span></div>
-Video adapters that support <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature level</a> 9.2 and higher support generating mipmaps if you use any of these formats in addition to any of the formats for feature level 9.1:
+Video adapters that support <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> 9.2 and higher support generating mipmaps if you use any of these formats in addition to any of the formats for feature level 9.1:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -120,7 +120,7 @@ DXGI_FORMAT_R32_FLOAT
 </td>
 </tr>
 </table></span></div>
-Video adapters that support <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature level</a> 9.3 and higher support generating mipmaps if you use any of these formats in addition to any of the formats for feature levels 9.1 and 9.2:
+Video adapters that support <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> 9.3 and higher support generating mipmaps if you use any of these formats in addition to any of the formats for feature levels 9.1 and 9.2:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -135,7 +135,7 @@ DXGI_FORMAT_B4G4R4A4 (optional)
 </td>
 </tr>
 </table></span></div>
-Video adapters that support <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature level</a> 10 and higher support generating mipmaps if you use any of these formats in addition to any of the formats for feature levels 9.1, 9.2, and 9.3:
+Video adapters that support <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> 10 and higher support generating mipmaps if you use any of these formats in addition to any of the formats for feature levels 9.1, 9.2, and 9.3:
 
 <div class="code"><span codelanguage=""><table>
 <tr>

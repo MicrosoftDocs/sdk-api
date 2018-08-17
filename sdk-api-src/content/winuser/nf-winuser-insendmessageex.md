@@ -132,7 +132,7 @@ The window procedure has processed the message. The thread that sent the message
 </dl>
 </td>
 <td width="60%">
-The message was sent using the <a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a> or <a href="https://msdn.microsoft.com/en-us/library/ms644952(v=VS.85).aspx">SendMessageTimeout</a> function. If <b>ISMEX_REPLIED</b> is not set, the thread that sent the message is blocked.
+The message was sent using the <a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a> or <a href="https://msdn.microsoft.com/en-us/library/ms644952(v=VS.85).aspx">SendMessageTimeout</a> function. If <b>ISMEX_REPLIED</b> is not set, the thread that sent the message is blocked.
 
 </td>
 </tr>
@@ -170,7 +170,7 @@ To determine if the sender is blocked, use the following test:
 
 
 
-<a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a>
 
 
 

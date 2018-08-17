@@ -7,7 +7,7 @@ old-location: iphlp\createproxyarpentry.htm
 old-project: iphlp
 ms.assetid: a0e90c0a-9403-40cb-906e-6e1e2f8e73c4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: CreateProxyArpEntry, CreateProxyArpEntry function [IP Helper], _iphlp_createproxyarpentry, iphlp.createproxyarpentry, iphlpapi/CreateProxyArpEntry
 ms.prod: windows
 ms.technology: windows-sdk

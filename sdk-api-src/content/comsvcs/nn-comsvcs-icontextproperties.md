@@ -56,9 +56,9 @@ Provides access to context object properties. Each object context can have a use
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContextProperties</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IContextProperties</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IContextProperties</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IContextProperties</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>IContextProperties</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/96259fe8-138d-498e-8be0-1fe1cc3f0d83">Count</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684282(v=VS.85).aspx">Count</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of context object properties.
@@ -80,7 +80,7 @@ Retrieves the number of context object properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cae9eaf7-a422-4daa-9f0a-e7863f167112">EnumNames</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686468(v=VS.85).aspx">EnumNames</a>
 </td>
 <td align="left" width="63%">
 Retrieves a reference to an enumerator for the context object properties.
@@ -89,7 +89,7 @@ Retrieves a reference to an enumerator for the context object properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dc7748b4-5cf4-41c6-af7d-82b2478b084c">GetProperty</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686992(v=VS.85).aspx">GetProperty</a>
 </td>
 <td align="left" width="63%">
 Retrieves a context object property.
@@ -98,7 +98,7 @@ Retrieves a context object property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/112c9e08-de15-4e46-934a-5e57a1a52adc">RemoveProperty</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms678952(v=VS.85).aspx">RemoveProperty</a>
 </td>
 <td align="left" width="63%">
 Removes a context object property.
@@ -107,7 +107,7 @@ Removes a context object property.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4f6a27a2-37e9-4d4b-9d7e-916d791f03a5">SetProperty</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms681272(v=VS.85).aspx">SetProperty</a>
 </td>
 <td align="left" width="63%">
 Sets a context object property.
@@ -122,7 +122,7 @@ Sets a context object property.
 
 
 
-<a href="https://msdn.microsoft.com/9f70b554-3cdd-4a4b-b180-c6de6182a46a">IEnumNames</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms685055(v=VS.85).aspx">IEnumNames</a>
  
 
  

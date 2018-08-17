@@ -62,9 +62,9 @@ Gets a property value from a property store.
 
 ### -param pps [in]
 
-Type: <b><a href="shell.IPropertyStore">IPropertyStore</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a>*</b>
 
-Pointer to an instance of the <a href="shell.IPropertyStore">IPropertyStore</a> interface, which represents the property store from which to get the value.
+Pointer to an instance of the <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a> interface, which represents the property store from which to get the value.
 
 
 ### -param ppd [in]
@@ -96,7 +96,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-This helper function is used to read a property value from a store. If the calling code already has a <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> structure, it might be simpler to call <a href="shell.IPropertyStore_GetValue">IPropertyStore::GetValue</a> directly.
+This helper function is used to read a property value from a store. If the calling code already has a <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> structure, it might be simpler to call <a href="https://msdn.microsoft.com/en-us/library/Ff536962(v=VS.85).aspx">IPropertyStore::GetValue</a> directly.
 
 
 #### Examples

@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/25B34A31-8533-4339-BBF7-2D7E5488E301">Opacity metadata effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/JJ155493(v=VS.85).aspx">Opacity metadata effect</a>.
         
 
 

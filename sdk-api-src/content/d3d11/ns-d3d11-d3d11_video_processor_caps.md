@@ -61,12 +61,12 @@ Describes the capabilities of a Microsoft Direct3D 11 video processor.
 
 ### -field DeviceCaps
 
-A bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft.com/35335C16-D8BD-4C52-9C9A-4B28DCB53A7F">D3D11_VIDEO_PROCESSOR_DEVICE_CAPS</a>  enumeration.
+A bitwise <b>OR</b> of zero or more flags from the <a href="https://msdn.microsoft.com/en-us/library/Hh447654(v=VS.85).aspx">D3D11_VIDEO_PROCESSOR_DEVICE_CAPS</a>  enumeration.
 
 
 ### -field FeatureCaps
 
-A bitwise <b>OR</b> of zero or more flags from the   <a href="https://msdn.microsoft.com/A40E33D4-E8F3-4348-9135-DD56BABBFA85">D3D11_VIDEO_PROCESSOR_FEATURE_CAPS</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the   <a href="https://msdn.microsoft.com/en-us/library/Hh447655(v=VS.85).aspx">D3D11_VIDEO_PROCESSOR_FEATURE_CAPS</a> enumeration.
 
 
 ### -field FilterCaps
@@ -76,22 +76,22 @@ A bitwise <b>OR</b> of zero or more flags from the  <a href="https://msdn.micros
 
 ### -field InputFormatCaps
 
-A bitwise <b>OR</b> of zero or more flags from the  <a href="https://msdn.microsoft.com/E14D25B7-9F97-465A-ADA5-820BB2952E00">D3D11_VIDEO_PROCESSOR_FORMAT_CAPS</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the  <a href="https://msdn.microsoft.com/en-us/library/Hh447658(v=VS.85).aspx">D3D11_VIDEO_PROCESSOR_FORMAT_CAPS</a> enumeration.
 
 
 ### -field AutoStreamCaps
 
-A bitwise <b>OR</b> of zero or more flags from the  <a href="https://msdn.microsoft.com/73836F8D-0A0C-4719-A27F-AC13617380D2">D3D11_VIDEO_PROCESSOR_AUTO_STREAM_CAPS</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the  <a href="https://msdn.microsoft.com/en-us/library/Hh447649(v=VS.85).aspx">D3D11_VIDEO_PROCESSOR_AUTO_STREAM_CAPS</a> enumeration.
 
 
 ### -field StereoCaps
 
-A bitwise <b>OR</b> of zero or more flags from the   <a href="https://msdn.microsoft.com/352B982A-E950-4593-973E-ECDAFCF2A5F4">D3D11_VIDEO_PROCESSOR_STEREO_CAPS</a> enumeration.
+A bitwise <b>OR</b> of zero or more flags from the   <a href="https://msdn.microsoft.com/en-us/library/Hh447667(v=VS.85).aspx">D3D11_VIDEO_PROCESSOR_STEREO_CAPS</a> enumeration.
 
 
 ### -field RateConversionCapsCount
 
-The number of frame-rate conversion capabilities. To enumerate the frame-rate conversion capabilities, call the <a href="https://msdn.microsoft.com/2DB74CB9-C6B3-477A-9EF9-6E2EC1DE37D6">ID3D11VideoProcessorEnumerator::GetVideoProcessorRateConversionCaps</a> method.
+The number of frame-rate conversion capabilities. To enumerate the frame-rate conversion capabilities, call the <a href="https://msdn.microsoft.com/en-us/library/Hh447806(v=VS.85).aspx">ID3D11VideoProcessorEnumerator::GetVideoProcessorRateConversionCaps</a> method.
 
 
 ### -field MaxInputStreams
@@ -124,11 +124,11 @@ The <b>MaxStreamStates</b> member gives the maximum number of stream states that
 
 
 
-<a href="https://msdn.microsoft.com/416159A4-F50E-4027-9367-727BA81D2A21">Direct3D 11 Video Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh447680(v=VS.85).aspx">Direct3D 11 Video Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/BE213FFE-FB1D-4BDC-A1AA-2EA487DF8D4A">ID3D11VideoProcessorEnumerator::GetVideoProcessorCaps</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh447802(v=VS.85).aspx">ID3D11VideoProcessorEnumerator::GetVideoProcessorCaps</a>
  
 
  

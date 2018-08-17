@@ -97,7 +97,7 @@ The operation was completed successfully.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/91d53ef4-06bb-4756-acc2-723cf041959b">GetValue</a> method has already been called on this chunk; this value should be returned until the <a href="https://msdn.microsoft.com/en-us/library/ms691080(v=VS.85).aspx">IFilter::GetChunk</a> method has been called successfully and has advanced to the next chunk.
+The <a href="https://msdn.microsoft.com/en-us/library/ms690927(v=VS.85).aspx">GetValue</a> method has already been called on this chunk; this value should be returned until the <a href="https://msdn.microsoft.com/en-us/library/ms691080(v=VS.85).aspx">IFilter::GetChunk</a> method has been called successfully and has advanced to the next chunk.
 
 </td>
 </tr>

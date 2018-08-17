@@ -7,7 +7,7 @@ old-location: base\symgetsymbolfile.htm
 old-project: debug
 ms.assetid: 8e78e0ef-e68c-4270-8c63-9513f3069ed0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: SymGetSymbolFile, SymGetSymbolFile function, SymGetSymbolFileW, base.symgetsymbolfile, dbghelp/SymGetSymbolFile, dbghelp/SymGetSymbolFileW, sfDbg, sfImage, sfMpd, sfPdb
 ms.prod: windows
 ms.technology: windows-sdk

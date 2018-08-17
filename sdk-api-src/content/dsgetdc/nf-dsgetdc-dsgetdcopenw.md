@@ -83,9 +83,21 @@ Only site-specific domain controllers are enumerated.
 The <a href="https://msdn.microsoft.com/2906772f-4391-411b-b0a9-5a20ebb6c0ee">DsGetDcNext</a> function will return the <b>ERROR_FILEMARK_DETECTED</b> value after all of the site-specific domain controllers are retrieved. <b>DsGetDcNext</b> will then enumerate the second group, which contains all domain controllers in the domain, including the site-specific domain controllers contained in the first group.
 
 
-### -param OPTIONAL
+### -param SiteName [in, optional]
 
-TBD
+Pointer to a null-terminated string that contains the name of site the client is in. This parameter is optional and may be <b>NULL</b>.
+
+
+### -param DomainGuid [in, optional]
+
+Pointer to a <b>GUID</b> value that contains the identifier of the domain specified by <i>DnsName</i>.
+        This identifier is used to handle the case of a renamed domain.  If this
+        value is specified and the domain specified in <i>DnsName</i> is renamed, this function attempts to enumerate domain controllers in the domain that contains the specified identifier. This parameter is optional and may be <b>NULL</b>.
+
+
+### -param DnsForestName [in, optional]
+
+Pointer to a null-terminated string that contains the name of the forest that contains the <i>DnsName</i> domain.  This value is used in conjunction with <i>DomainGuid</i>to enumerate the domain controllers if the  domain has been renamed. This parameter is optional and may be <b>NULL</b>.
 
 
 ### -param DcFlags [in]
@@ -153,18 +165,6 @@ Specifies that the enumerated servers are LDAP servers. The servers are not nece
 Requires that the enumerated domain controllers be the primary domain controllers for the domain. This flag cannot be combined with the <b>DS_GC_SERVER_REQUIRED</b> flag.
 
 
-#### - DnsForestName [in, optional]
-
-Pointer to a null-terminated string that contains the name of the forest that contains the <i>DnsName</i> domain.  This value is used in conjunction with <i>DomainGuid</i>to enumerate the domain controllers if the  domain has been renamed. This parameter is optional and may be <b>NULL</b>.
-
-
-#### - DomainGuid [in, optional]
-
-Pointer to a <b>GUID</b> value that contains the identifier of the domain specified by <i>DnsName</i>.
-        This identifier is used to handle the case of a renamed domain.  If this
-        value is specified and the domain specified in <i>DnsName</i> is renamed, this function attempts to enumerate domain controllers in the domain that contains the specified identifier. This parameter is optional and may be <b>NULL</b>.
-
-
 ##### - OptionFlags.DS_NOTIFY_AFTER_SITE_RECORDS
 
 The <a href="https://msdn.microsoft.com/2906772f-4391-411b-b0a9-5a20ebb6c0ee">DsGetDcNext</a> function will return the <b>ERROR_FILEMARK_DETECTED</b> value after all of the site-specific domain controllers are retrieved. <b>DsGetDcNext</b> will then enumerate the second group, which contains all domain controllers in the domain, including the site-specific domain controllers contained in the first group.
@@ -173,11 +173,6 @@ The <a href="https://msdn.microsoft.com/2906772f-4391-411b-b0a9-5a20ebb6c0ee">Ds
 ##### - OptionFlags.DS_ONLY_DO_SITE_NAME
 
 Only site-specific domain controllers are enumerated.
-
-
-#### - SiteName [in, optional]
-
-Pointer to a null-terminated string that contains the name of site the client is in. This parameter is optional and may be <b>NULL</b>.
 
 
 ## -returns

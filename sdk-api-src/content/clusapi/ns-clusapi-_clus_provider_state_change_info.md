@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Contains data about the state of a <a href="p_gly.htm">provider</a> resource.
+Contains data about the state of a <a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">provider</a> resource.
 
 
 ## -struct-fields
@@ -66,7 +66,7 @@ The size of this structure including the provider name and the terminating null 
 
 ### -field resourceState
 
-An enumerator from the <a href="https://msdn.microsoft.com/bd5dee18-a06f-4e46-a27e-c907b1c25a68">CLUSTER_RESOURCE_STATE</a> enumeration as its value.  The following are the possible values for this member.
+An enumerator from the <a href="https://msdn.microsoft.com/en-us/library/Bb309168(v=VS.85).aspx">CLUSTER_RESOURCE_STATE</a> enumeration as its value.  The following are the possible values for this member.
 
 
 
@@ -115,11 +115,11 @@ The globally unique ID of the provider resource. This value can also be passed t
 
 
 
-<a href="https://msdn.microsoft.com/bd5dee18-a06f-4e46-a27e-c907b1c25a68">CLUSTER_RESOURCE_STATE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb309168(v=VS.85).aspx">CLUSTER_RESOURCE_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3ad7c34-0c8a-4f03-8e5c-b57802c493f0">Data Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa369339(v=VS.85).aspx">Data Structures</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: base\getservicekeyname.htm
 old-project: services
 ms.assetid: d2421566-de4a-49e5-bb41-ea98c6f6d19d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: GetServiceKeyName, GetServiceKeyName function, GetServiceKeyNameA, GetServiceKeyNameW, _win32_getservicekeyname, base.getservicekeyname, winsvc/GetServiceKeyName, winsvc/GetServiceKeyNameA, winsvc/GetServiceKeyNameW
 ms.prod: windows
 ms.technology: windows-sdk

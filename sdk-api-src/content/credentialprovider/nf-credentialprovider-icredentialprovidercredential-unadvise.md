@@ -78,7 +78,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 This method is optional. If you do not implement this method, you should just return <b>E_NOTIMPL</b>.
 
-If this method is called, it indicates that the <a href="https://msdn.microsoft.com/258449a4-78e2-475e-ab16-6481207e7354">ICredentialProviderCredentialEvents</a> pointer provided in <a href="https://msdn.microsoft.com/26db5ec5-78bf-4d88-90af-c822c8d3ce45">Advise</a> is no longer valid. It is the responsibility of the credential provider to call <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">Release</a> on the provided <b>ICredentialProviderCredentialEvents</b> pointer during this method.
+If this method is called, it indicates that the <a href="https://msdn.microsoft.com/en-us/library/Bb776010(v=VS.85).aspx">ICredentialProviderCredentialEvents</a> pointer provided in <a href="https://msdn.microsoft.com/en-us/library/Bb776019(v=VS.85).aspx">Advise</a> is no longer valid. It is the responsibility of the credential provider to call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on the provided <b>ICredentialProviderCredentialEvents</b> pointer during this method.
 
 
 
@@ -88,11 +88,11 @@ If this method is called, it indicates that the <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/ef9bb148-0b4e-4c13-b69d-3e63a5592e4a">ICredentialProviderCredential</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776029(v=VS.85).aspx">ICredentialProviderCredential</a>
 
 
 
-<a href="https://msdn.microsoft.com/26db5ec5-78bf-4d88-90af-c822c8d3ce45">ICredentialProviderCredential::Advise</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776019(v=VS.85).aspx">ICredentialProviderCredential::Advise</a>
  
 
  

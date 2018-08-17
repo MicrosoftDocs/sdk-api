@@ -7,7 +7,7 @@ old-location: coreaudio\idevicetopology_getsignalpath.htm
 old-project: CoreAudio
 ms.assetid: 3f32ba6a-a82c-4c2c-8433-ebedd8799615
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/14/2018
 ms.keywords: GetSignalPath, GetSignalPath method [Core Audio], GetSignalPath method [Core Audio],IDeviceTopology interface, IDeviceTopology interface [Core Audio],GetSignalPath method, IDeviceTopology.GetSignalPath, IDeviceTopology::GetSignalPath, IDeviceTopologyGetSignalPath, coreaudio.idevicetopology_getsignalpath, devicetopology/IDeviceTopology::GetSignalPath
 ms.prod: windows
 ms.technology: windows-sdk

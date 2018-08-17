@@ -7,7 +7,7 @@ old-location: security\convertsidtostringsid.htm
 old-project: secauthz
 ms.assetid: e673e727-edb1-450c-9e1a-a3dc90acc929
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: ConvertSidToStringSid, ConvertSidToStringSid function [Security], ConvertSidToStringSidA, ConvertSidToStringSidW, _win32_convertsidtostringsid, sddl/ConvertSidToStringSid, sddl/ConvertSidToStringSidA, sddl/ConvertSidToStringSidW, security.convertsidtostringsid
 ms.prod: windows
 ms.technology: windows-sdk

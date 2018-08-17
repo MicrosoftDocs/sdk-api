@@ -55,7 +55,7 @@ req.irql:
 ## -description
 
 
-Returns a pointer to an implementation of <a href="https://msdn.microsoft.com/983615a1-cfa2-4137-8c7e-42e2ef6923a8">IObjContext</a> for the current context.
+Returns a pointer to an implementation of <a href="https://msdn.microsoft.com/en-us/library/ms690097(v=VS.85).aspx">IObjContext</a> for the current context.
 
 
 
@@ -67,7 +67,7 @@ Returns a pointer to an implementation of <a href="https://msdn.microsoft.com/98
 
 ### -param pToken [out]
 
-A pointer to an implementation of <a href="https://msdn.microsoft.com/983615a1-cfa2-4137-8c7e-42e2ef6923a8">IObjContext</a> for the current context.
+A pointer to an implementation of <a href="https://msdn.microsoft.com/en-us/library/ms690097(v=VS.85).aspx">IObjContext</a> for the current context.
 
 
 ## -returns
@@ -126,11 +126,11 @@ The caller is not in an initialized apartment.
 
 
 
-<a href="https://msdn.microsoft.com/89c41d9c-186c-4927-990d-92aa501f7d35">IContext</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms688368(v=VS.85).aspx">IContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/983615a1-cfa2-4137-8c7e-42e2ef6923a8">IObjContext</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690097(v=VS.85).aspx">IObjContext</a>
  
 
  

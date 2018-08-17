@@ -4,10 +4,10 @@ title: TimeProvSysCallbacks
 author: windows-sdk-content
 description: Contains pointers to functions for use by the time provider.
 old-location: base\timeprovsyscallbacks_str.htm
-old-project: SysInfo
+old-project: sysinfo
 ms.assetid: a38f8b26-9450-4033-bdd7-e73726c2d609
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/10/2018
 ms.keywords: TimeProvSysCallbacks, TimeProvSysCallbacks structure, _win32_timeprovsyscallbacks_str, base.timeprovsyscallbacks_str, timeprov/TimeProvSysCallbacks
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IOCSPCAConfigurationCollection::get_Item
 author: windows-sdk-content
 description: Gets a certification authority (CA) configuration identified by index in the configuration set.
 old-location: security\iocspcaconfigurationcollection_item_method.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 6cf02663-dd08-43be-a5b1-c7b04c5d1e9b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: IOCSPCAConfigurationCollection interface [Security],Item property, IOCSPCAConfigurationCollection.Item, IOCSPCAConfigurationCollection.get_Item, IOCSPCAConfigurationCollection::Item, IOCSPCAConfigurationCollection::get_Item, Item property [Security], Item property [Security],IOCSPCAConfigurationCollection interface, certadm/IOCSPCAConfigurationCollection::Item, certadm/IOCSPCAConfigurationCollection::get_Item, get_Item, security.iocspcaconfigurationcollection_item_method
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-The <b>Item</b> property gets a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) configuration identified by index  in the configuration set.
+The <b>Item</b> property gets a <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> (CA) configuration identified by index  in the configuration set.
 
 This property is read-only.
 
@@ -65,7 +65,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/4e232c34-b5ab-4269-903b-189aac5a8ddc">IOCSPCAConfigurationCollection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa386330(v=VS.85).aspx">IOCSPCAConfigurationCollection</a>
  
 
  

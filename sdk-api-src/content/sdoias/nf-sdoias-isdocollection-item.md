@@ -64,7 +64,7 @@ The
 ### -param Name [in]
 
 Pointer to a 
-<a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a>. Store the name of the object in a 
+<a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a>. Store the name of the object in a 
 <a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a> in this <b>VARIANT</b>.
 
 
@@ -117,7 +117,7 @@ Neither of the parameters can be <b>NULL</b>.
 
 
 
-<a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a>
  
 
  

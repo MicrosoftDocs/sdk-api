@@ -64,7 +64,7 @@ Creates a context state object that holds all Microsoft Direct3D state and some 
 ### -param Flags
 
 A combination of 
-              <a href="https://msdn.microsoft.com/45F1C268-AA8A-44D5-BE9E-0C185738EB69">D3D11_1_CREATE_DEVICE_CONTEXT_STATE_FLAG</a> 
+              <a href="https://msdn.microsoft.com/en-us/library/Hh404432(v=VS.85).aspx">D3D11_1_CREATE_DEVICE_CONTEXT_STATE_FLAG</a> 
               values that are combined by using a bitwise <b>OR</b> operation. 
               The resulting value specifies how to create the context state object. 
               The 
@@ -83,8 +83,8 @@ If you set the single-threaded flag for both the context state object and the de
 
 ### -param pFeatureLevels [in]
 
-A pointer to an array of <a href="https://msdn.microsoft.com/afbc1a02-1730-4502-af15-b668412d664c">D3D_FEATURE_LEVEL</a> values. The array can contain elements from the following list and determines the order of feature levels for which creation is attempted.
-              Unlike <a href="https://msdn.microsoft.com/d1c85ec0-84a8-41ff-9cbe-f47bbaa5863b">D3D11CreateDevice</a>, you can't set <i>pFeatureLevels</i> to <b>NULL</b> because  there is no default feature level array.
+A pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Ff476329(v=VS.85).aspx">D3D_FEATURE_LEVEL</a> values. The array can contain elements from the following list and determines the order of feature levels for which creation is attempted.
+              Unlike <a href="https://msdn.microsoft.com/en-us/library/Ff476082(v=VS.85).aspx">D3D11CreateDevice</a>, you can't set <i>pFeatureLevels</i> to <b>NULL</b> because  there is no default feature level array.
             
 
 <div class="code"><span codelanguage=""><table>
@@ -109,7 +109,7 @@ A pointer to an array of <a href="https://msdn.microsoft.com/afbc1a02-1730-4502-
 
 ### -param FeatureLevels
 
-The number of elements in <i>pFeatureLevels</i>. Unlike <a href="https://msdn.microsoft.com/d1c85ec0-84a8-41ff-9cbe-f47bbaa5863b">D3D11CreateDevice</a>, you must set <i>FeatureLevels</i> to greater than 0 because you can't set <i>pFeatureLevels</i> to <b>NULL</b>.
+The number of elements in <i>pFeatureLevels</i>. Unlike <a href="https://msdn.microsoft.com/en-us/library/Ff476082(v=VS.85).aspx">D3D11CreateDevice</a>, you must set <i>FeatureLevels</i> to greater than 0 because you can't set <i>pFeatureLevels</i> to <b>NULL</b>.
           
 
 
@@ -121,13 +121,13 @@ The SDK version. You must set this parameter to <b>D3D11_SDK_VERSION</b>.
 
 ### -param EmulatedInterface
 
-The globally unique identifier (GUID) for the emulated interface. This value specifies the behavior of the device when the context state object is active. Valid values are  obtained by using the <b>__uuidof</b> operator on the <a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb694546(v=VS.85).aspx">ID3D10Device1</a>, <a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a>, and <a href="https://msdn.microsoft.com/DB4DAD13-3CD7-4362-950B-6403328CB071">ID3D11Device1</a> interfaces. See Remarks.
+The globally unique identifier (GUID) for the emulated interface. This value specifies the behavior of the device when the context state object is active. Valid values are  obtained by using the <b>__uuidof</b> operator on the <a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb694546(v=VS.85).aspx">ID3D10Device1</a>, <a href="https://msdn.microsoft.com/en-us/library/Ff476379(v=VS.85).aspx">ID3D11Device</a>, and <a href="https://msdn.microsoft.com/en-us/library/Hh404575(v=VS.85).aspx">ID3D11Device1</a> interfaces. See Remarks.
           
 
 
 ### -param pChosenFeatureLevel [out, optional]
 
-A pointer to a variable that receives a <a href="https://msdn.microsoft.com/afbc1a02-1730-4502-af15-b668412d664c">D3D_FEATURE_LEVEL</a> value from the <i>pFeatureLevels</i> array. This is the first array value with which <b>CreateDeviceContextState</b> succeeded in creating the context state object. If the call to <b>CreateDeviceContextState</b> fails, the variable pointed to by <i>pChosenFeatureLevel</i> is set to zero.
+A pointer to a variable that receives a <a href="https://msdn.microsoft.com/en-us/library/Ff476329(v=VS.85).aspx">D3D_FEATURE_LEVEL</a> value from the <i>pFeatureLevels</i> array. This is the first array value with which <b>CreateDeviceContextState</b> succeeded in creating the context state object. If the call to <b>CreateDeviceContextState</b> fails, the variable pointed to by <i>pChosenFeatureLevel</i> is set to zero.
           
 
 
@@ -141,7 +141,7 @@ The address of a pointer to an <a href="https://msdn.microsoft.com/A8B9CADC-A9C7
 
 
 
-This method returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
+This method returns one of the <a href="https://msdn.microsoft.com/en-us/library/Ff476174(v=VS.85).aspx">Direct3D 11 Return Codes</a>.
           
 
 
@@ -154,15 +154,15 @@ This method returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760
 The  <b>REFIID</b> value of the emulated interface is a GUID obtained by use of the <b>__uuidof</b> operator. For example, <code>__uuidof(ID3D11Device)</code> gets the GUID of the interface to a Microsoft Direct3D 11 device.
         
 
-Call the <a href="https://msdn.microsoft.com/4E267E86-602F-459C-A6F9-4660EC8FA752">ID3D11DeviceContext1::SwapDeviceContextState</a> method to activate the context state object. When the context state object is active, the device behaviors that are associated with both the context state object's feature level and its compatible interface are activated on the Direct3D device until the next call to <b>SwapDeviceContextState</b>.
+Call the <a href="https://msdn.microsoft.com/en-us/library/Hh446787(v=VS.85).aspx">ID3D11DeviceContext1::SwapDeviceContextState</a> method to activate the context state object. When the context state object is active, the device behaviors that are associated with both the context state object's feature level and its compatible interface are activated on the Direct3D device until the next call to <b>SwapDeviceContextState</b>.
         
 
-When a context state object is active, the runtime disables certain methods on the device and context interfaces. For example, a context state object that is created with <code>__uuidof(ID3D11Device)</code> will cause the runtime to turn off most of the Microsoft Direct3D 10 device interfaces, and a context state object that is created with <code>__uuidof(ID3D10Device1)</code> or <code>__uuidof(ID3D10Device)</code> will cause the runtime to turn off most of the <a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a> methods.
+When a context state object is active, the runtime disables certain methods on the device and context interfaces. For example, a context state object that is created with <code>__uuidof(ID3D11Device)</code> will cause the runtime to turn off most of the Microsoft Direct3D 10 device interfaces, and a context state object that is created with <code>__uuidof(ID3D10Device1)</code> or <code>__uuidof(ID3D10Device)</code> will cause the runtime to turn off most of the <a href="https://msdn.microsoft.com/en-us/library/Ff476385(v=VS.85).aspx">ID3D11DeviceContext</a> methods.
           This behavior ensures that a user of either emulated interface cannot set device state that the other emulated interface is unable to express. This restriction helps guarantee that the <a href="https://msdn.microsoft.com/en-us/library/Bb694546(v=VS.85).aspx">ID3D10Device1</a> emulated interface accurately reflects the full state of the pipeline and that the emulated interface will not operate contrary to its original interface definition.
         
 
-For example, suppose the tessellation stage is made active through the <a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a> interface
-          when you create the device through <a href="https://msdn.microsoft.com/d1c85ec0-84a8-41ff-9cbe-f47bbaa5863b">D3D11CreateDevice</a> or <a href="https://msdn.microsoft.com/84d73e8c-f13c-4343-91de-57f9f8a0ad96">D3D11CreateDeviceAndSwapChain</a>,  instead of through the Direct3D 10 equivalents. Because  the Direct3D 11 context is active, a Direct3D 10 interface is inactive when you first retrieve it via <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a>. This means that you cannot  immediately pass a Direct3D 10 interface that you retrieved from a Direct3D 11 device to a function. You must first call <a href="https://msdn.microsoft.com/4E267E86-602F-459C-A6F9-4660EC8FA752">SwapDeviceContextState</a> to activate a Direct3D 10-compatible context state object.
+For example, suppose the tessellation stage is made active through the <a href="https://msdn.microsoft.com/en-us/library/Ff476385(v=VS.85).aspx">ID3D11DeviceContext</a> interface
+          when you create the device through <a href="https://msdn.microsoft.com/en-us/library/Ff476082(v=VS.85).aspx">D3D11CreateDevice</a> or <a href="https://msdn.microsoft.com/en-us/library/Ff476083(v=VS.85).aspx">D3D11CreateDeviceAndSwapChain</a>,  instead of through the Direct3D 10 equivalents. Because  the Direct3D 11 context is active, a Direct3D 10 interface is inactive when you first retrieve it via <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a>. This means that you cannot  immediately pass a Direct3D 10 interface that you retrieved from a Direct3D 11 device to a function. You must first call <a href="https://msdn.microsoft.com/en-us/library/Hh446787(v=VS.85).aspx">SwapDeviceContextState</a> to activate a Direct3D 10-compatible context state object.
         
 
 The following table shows the methods that are active and inactive for each emulated interface.<table>
@@ -174,17 +174,17 @@ The following table shows the methods that are active and inactive for each emul
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a> or
+<a href="https://msdn.microsoft.com/en-us/library/Ff476379(v=VS.85).aspx">ID3D11Device</a> or
                 
 
 
-<a href="https://msdn.microsoft.com/DB4DAD13-3CD7-4362-950B-6403328CB071">ID3D11Device1</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404575(v=VS.85).aspx">ID3D11Device1</a>
 
 
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476379(v=VS.85).aspx">ID3D11Device</a>
 
 
 
@@ -192,11 +192,11 @@ The following table shows the methods that are active and inactive for each emul
                 
 
 
-<a href="https://msdn.microsoft.com/a0ba0fa3-489a-4eff-9e49-b231ab472ee4">IDXGIDevice1</a> +
+<a href="https://msdn.microsoft.com/en-us/library/Ff471331(v=VS.85).aspx">IDXGIDevice1</a> +
                 
 
 
-<a href="https://msdn.microsoft.com/0AD1E52F-EB9F-473F-AF16-E2E1A7E8946A">IDXGIDevice2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404543(v=VS.85).aspx">IDXGIDevice2</a>
 
 
 
@@ -233,7 +233,7 @@ The following table shows the methods that are active and inactive for each emul
                 
 
 
-<a href="https://msdn.microsoft.com/a0ba0fa3-489a-4eff-9e49-b231ab472ee4">IDXGIDevice1</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff471331(v=VS.85).aspx">IDXGIDevice1</a>
 
 
 
@@ -243,11 +243,11 @@ The following table shows the methods that are active and inactive for each emul
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476379(v=VS.85).aspx">ID3D11Device</a>
 
 
 
-<a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a> (As published by the immediate context. The Direct3D 10 or Microsoft Direct3D 10.1 emulated interface has no effect on deferred contexts.)
+<a href="https://msdn.microsoft.com/en-us/library/Ff476385(v=VS.85).aspx">ID3D11DeviceContext</a> (As published by the immediate context. The Direct3D 10 or Microsoft Direct3D 10.1 emulated interface has no effect on deferred contexts.)
                 
 
 </td>
@@ -259,7 +259,7 @@ The following table shows the methods that are active and inactive for each emul
 
 The following table shows the immediate context methods that the runtime disables when the indicated context state objects are active.<table>
 <tr>
-<th>Methods of <a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a> when <code>__uuidof(ID3D10Device1)</code> or <code>__uuidof(ID3D10Device)</code> is active
+<th>Methods of <a href="https://msdn.microsoft.com/en-us/library/Ff476385(v=VS.85).aspx">ID3D11DeviceContext</a> when <code>__uuidof(ID3D10Device1)</code> or <code>__uuidof(ID3D10Device)</code> is active
               </th>
 <th>Methods of <a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device</a> when <code>__uuidof(ID3D11Device)</code> is active
               </th>
@@ -267,7 +267,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/1e2269cf-edef-466e-be59-95dc644c7a0c">ClearDepthStencilView</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476387(v=VS.85).aspx">ClearDepthStencilView</a>
 
 
 </td>
@@ -281,7 +281,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/bbc6d3fb-b64f-47b0-9feb-a248dce0bf4b">ClearRenderTargetView</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476388(v=VS.85).aspx">ClearRenderTargetView</a>
 
 
 </td>
@@ -295,7 +295,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/dabf52f5-0f69-4017-863c-9e3ecef4d5dc">ClearState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476389(v=VS.85).aspx">ClearState</a>
 
 
 </td>
@@ -309,7 +309,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/73e70330-63cb-4ba6-b6e5-fc9707fb9f31">ClearUnorderedAccessViewUint</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476391(v=VS.85).aspx">ClearUnorderedAccessViewUint</a>
 
 
 </td>
@@ -318,7 +318,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/c93d8638-c624-402a-8e14-c85aa7b69930">ClearUnorderedAccessViewFloat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476390(v=VS.85).aspx">ClearUnorderedAccessViewFloat</a>
 
 
 </td>
@@ -327,7 +327,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/54c1c08a-792c-463d-8237-9f7947d15396">CopyResource</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476392(v=VS.85).aspx">CopyResource</a>
 
 
 </td>
@@ -341,7 +341,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/d4f8576f-8d23-4b45-a5ea-099c71e8567e">CopyStructureCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476393(v=VS.85).aspx">CopyStructureCount</a>
 
 
 </td>
@@ -350,7 +350,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/aed89483-9870-445d-96e3-a9cee764f0ad">CopySubresourceRegion</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476394(v=VS.85).aspx">CopySubresourceRegion</a>
 
 
 </td>
@@ -364,7 +364,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/9ffd4fb5-9e7f-4a1b-b7ad-3c7384406385">CSGetConstantBuffers</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476395(v=VS.85).aspx">CSGetConstantBuffers</a>
 
 
 </td>
@@ -373,7 +373,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/97f5be84-3562-4b5a-9c7a-2ac3f18a184b">CSGetSamplers</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476396(v=VS.85).aspx">CSGetSamplers</a>
 
 
 </td>
@@ -382,7 +382,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/ddd09ca8-ab1f-4d1d-a182-44e48bac93c5">CSGetShader</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476397(v=VS.85).aspx">CSGetShader</a>
 
 
 </td>
@@ -391,7 +391,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/872dac3b-8461-4150-b51f-ce02f7356754">CSGetShaderResources</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476398(v=VS.85).aspx">CSGetShaderResources</a>
 
 
 </td>
@@ -400,7 +400,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/ae572062-0034-48c2-a3ce-abe40b50248b">CSGetUnorderedAccessViews</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476399(v=VS.85).aspx">CSGetUnorderedAccessViews</a>
 
 
 </td>
@@ -409,7 +409,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/40970d1d-bad3-48e0-8f0e-6d45fe602594">CSSetConstantBuffers</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476400(v=VS.85).aspx">CSSetConstantBuffers</a>
 
 
 </td>
@@ -418,7 +418,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/8b7f5c6d-0d9d-4b8b-a812-1e2b3b7386e9">CSSetSamplers</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476401(v=VS.85).aspx">CSSetSamplers</a>
 
 
 </td>
@@ -427,7 +427,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/97be7622-609f-4576-911a-93aa7f1b6b8c">CSSetShader</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476402(v=VS.85).aspx">CSSetShader</a>
 
 
 </td>
@@ -436,7 +436,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/04babe17-b053-49f4-90bc-8080f521079e">CSSetShaderResources</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476403(v=VS.85).aspx">CSSetShaderResources</a>
 
 
 </td>
@@ -445,7 +445,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/384a15c0-a035-4f83-a927-e2f763e5fb44">CSSetUnorderedAccessViews</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476404(v=VS.85).aspx">CSSetUnorderedAccessViews</a>
 
 
 </td>
@@ -454,7 +454,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/7d3401bb-521f-4ab0-8833-e5caf712d0c9">Dispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476405(v=VS.85).aspx">Dispatch</a>
 
 
 </td>
@@ -463,7 +463,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/bb8840f5-ae4b-42d6-b51d-6844d0b18074">DispatchIndirect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476406(v=VS.85).aspx">DispatchIndirect</a>
 
 
 </td>
@@ -481,7 +481,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/9c63067b-c7ac-412c-ad49-c35d4fba1d68">Draw</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476407(v=VS.85).aspx">Draw</a>
 
 
 </td>
@@ -495,7 +495,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/34688e87-514f-4f85-b56b-e0245400a5ac">DrawAuto</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476408(v=VS.85).aspx">DrawAuto</a>
 
 
 </td>
@@ -509,7 +509,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/461a64ec-f3e6-4f6a-8bc4-a349d19501a8">DrawIndexed</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476409(v=VS.85).aspx">DrawIndexed</a>
 
 
 </td>
@@ -523,7 +523,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/c7a4821a-324c-47e4-b89f-603d2afcfb51">DrawIndexedInstanced</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476410(v=VS.85).aspx">DrawIndexedInstanced</a>
 
 
 </td>
@@ -537,7 +537,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/c6969210-b452-4a49-a3d7-d849b1d2ebb5">DrawIndexedInstancedIndirect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476411(v=VS.85).aspx">DrawIndexedInstancedIndirect</a>
 
 
 </td>
@@ -546,7 +546,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/3cb608e7-d64d-42cc-9b34-5f6c30af2ada">DrawInstanced</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476412(v=VS.85).aspx">DrawInstanced</a>
 
 
 </td>
@@ -560,7 +560,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/f40c662d-7cdc-4592-b8d5-72aad0b4dd53">DrawInstancedIndirect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476413(v=VS.85).aspx">DrawInstancedIndirect</a>
 
 
 </td>
@@ -569,7 +569,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/070b3c40-ddb2-4c13-b0a0-1451e00e0ae1">DSGetConstantBuffers</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476414(v=VS.85).aspx">DSGetConstantBuffers</a>
 
 
 </td>
@@ -578,7 +578,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/9cb6fee7-0dda-472c-b2e0-36d52e7f12b7">DSGetSamplers</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476415(v=VS.85).aspx">DSGetSamplers</a>
 
 
 </td>
@@ -587,7 +587,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/b04a9640-e28e-419e-9a8c-02685e7a0883">DSGetShader</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476416(v=VS.85).aspx">DSGetShader</a>
 
 
 </td>
@@ -596,7 +596,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/6308e37c-a30f-4927-946b-33d882f9cce8">DSGetShaderResources</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476417(v=VS.85).aspx">DSGetShaderResources</a>
 
 
 </td>
@@ -605,7 +605,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/ae2b8269-59b0-44e9-8173-89baf20436f1">DSSetConstantBuffers</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476418(v=VS.85).aspx">DSSetConstantBuffers</a>
 
 
 </td>
@@ -614,7 +614,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/15cc8f81-2d57-4148-821c-0136c0ce3f82">DSSetSamplers</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476419(v=VS.85).aspx">DSSetSamplers</a>
 
 
 </td>
@@ -623,7 +623,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/5ee4a072-3b4a-44e6-ae70-19e0888905a2">DSSetShader</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476420(v=VS.85).aspx">DSSetShader</a>
 
 
 </td>
@@ -632,7 +632,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/633aedf7-f5cc-4873-940a-1b6e15927ec6">DSSetShaderResources</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476421(v=VS.85).aspx">DSSetShaderResources</a>
 
 
 </td>
@@ -641,7 +641,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/54e74f7d-b8a4-458d-bb39-3d8a824f06ef">ExecuteCommandList</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476423(v=VS.85).aspx">ExecuteCommandList</a>
 
 
 </td>
@@ -650,7 +650,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/31e9d8b6-4173-4999-8772-75134d60d269">FinishCommandList</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476424(v=VS.85).aspx">FinishCommandList</a>
 
 
 </td>
@@ -659,13 +659,13 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/e204c585-4996-4274-a654-b9912e957fe6">Flush</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476425(v=VS.85).aspx">Flush</a>
 
 
 </td>
 <td>
 
-<a href="https://msdn.microsoft.com/3f907d7d-4316-453f-a7ea-6b228a0df569">Flush</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173568(v=VS.85).aspx">Flush</a>
 
 
 </td>
@@ -673,7 +673,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/43012c58-3b1a-4956-993f-4ff3f5ec7fce">GenerateMips</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476426(v=VS.85).aspx">GenerateMips</a>
 
 
 </td>
@@ -687,7 +687,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/9a283895-51c4-4de5-bdeb-994f3085bd79">GetPredication</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476429(v=VS.85).aspx">GetPredication</a>
 
 
 </td>
@@ -701,7 +701,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/335f9394-064a-4a2c-b581-323a4a4fde70">GetResourceMinLOD</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476430(v=VS.85).aspx">GetResourceMinLOD</a>
 
 
 </td>
@@ -710,7 +710,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/fefe2cd7-26c1-4165-9c94-8843571f8824">GetType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476431(v=VS.85).aspx">GetType</a>
 
 
 </td>
@@ -728,7 +728,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/1a28c673-1e37-4801-bb9c-ba0cf28335d1">GSGetConstantBuffers</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476432(v=VS.85).aspx">GSGetConstantBuffers</a>
 
 
 </td>
@@ -742,7 +742,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/7f3d4eb4-30e6-42bf-98e2-08a9abcb3e94">GSGetSamplers</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476433(v=VS.85).aspx">GSGetSamplers</a>
 
 
 </td>
@@ -756,7 +756,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/5d5b935f-7eef-48ee-a2ed-82dd6c59aa19">GSGetShader</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476434(v=VS.85).aspx">GSGetShader</a>
 
 
 </td>
@@ -770,7 +770,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/2b81a09d-678d-42f8-8935-6d167509fcbb">GSGetShaderResources</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476435(v=VS.85).aspx">GSGetShaderResources</a>
 
 
 </td>
@@ -784,7 +784,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/2af7ab0c-4a21-474c-9a17-ed90f89285fd">GSSetConstantBuffers</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476436(v=VS.85).aspx">GSSetConstantBuffers</a>
 
 
 </td>
@@ -798,7 +798,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/8e624e36-692e-4710-a267-05b73a089cd9">GSSetSamplers</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476437(v=VS.85).aspx">GSSetSamplers</a>
 
 
 </td>
@@ -812,7 +812,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/6c42d028-b832-470c-ab15-1cf46a3f8414">GSSetShader</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476438(v=VS.85).aspx">GSSetShader</a>
 
 
 </td>
@@ -826,7 +826,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/f08af865-ec0a-4fc7-af59-004b6956be00">GSSetShaderResources</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476439(v=VS.85).aspx">GSSetShaderResources</a>
 
 
 </td>
@@ -840,7 +840,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/82987afa-fcb4-4d87-ab53-916a9dac3609">HSGetConstantBuffers</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476440(v=VS.85).aspx">HSGetConstantBuffers</a>
 
 
 </td>
@@ -849,7 +849,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/68200f28-85af-4275-8e9e-7f093fd94a0c">HSGetSamplers</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476441(v=VS.85).aspx">HSGetSamplers</a>
 
 
 </td>
@@ -858,7 +858,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/2ac2d88f-8c66-490e-add8-95ecaadf0147">HSGetShader</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476442(v=VS.85).aspx">HSGetShader</a>
 
 
 </td>
@@ -867,7 +867,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/21956575-5f4b-48ca-944b-5cab57d02c7f">HSGetShaderResources</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476443(v=VS.85).aspx">HSGetShaderResources</a>
 
 
 </td>
@@ -876,7 +876,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/8e3007ac-de5e-45ee-bb58-644dc857c279">HSSetConstantBuffers</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476445(v=VS.85).aspx">HSSetConstantBuffers</a>
 
 
 </td>
@@ -885,7 +885,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/f573f65b-abd4-4ddd-9471-032c2c5552d7">HSSetSamplers</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476446(v=VS.85).aspx">HSSetSamplers</a>
 
 
 </td>
@@ -894,7 +894,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/e540f88f-fbf8-4135-b1ee-873ec18bc2c8">HSSetShader</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476447(v=VS.85).aspx">HSSetShader</a>
 
 
 </td>
@@ -903,7 +903,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/cb99cb22-a7e4-4472-b519-12bced9a45b8">HSSetShaderResources</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476448(v=VS.85).aspx">HSSetShaderResources</a>
 
 
 </td>
@@ -912,7 +912,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/948a5cbd-8413-4aaa-b666-7b9adc4705da">IAGetIndexBuffer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476449(v=VS.85).aspx">IAGetIndexBuffer</a>
 
 
 </td>
@@ -926,7 +926,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/b3d07e01-405e-4973-956f-85a08b720aaa">IAGetInputLayout</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476450(v=VS.85).aspx">IAGetInputLayout</a>
 
 
 </td>
@@ -940,7 +940,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/99f82993-72c2-47b5-a2fe-16bb1e7bd2e3">IAGetPrimitiveTopology</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476451(v=VS.85).aspx">IAGetPrimitiveTopology</a>
 
 
 </td>
@@ -953,7 +953,7 @@ The following table shows the immediate context methods that the runtime disable
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/13b1eb06-effa-4483-993a-da47ee0b916f">IAGetVertexBuffers</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476452(v=VS.85).aspx">IAGetVertexBuffers</a>
 </td>
 <td>
 
@@ -964,7 +964,7 @@ The following table shows the immediate context methods that the runtime disable
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/c556dda2-0808-4701-90cb-16c67a24add1">IASetIndexBuffer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476453(v=VS.85).aspx">IASetIndexBuffer</a>
 </td>
 <td>
 
@@ -975,7 +975,7 @@ The following table shows the immediate context methods that the runtime disable
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/54562ece-db8d-4e31-bde2-36391792e259">IASetInputLayout</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476454(v=VS.85).aspx">IASetInputLayout</a>
 </td>
 <td>
 
@@ -986,7 +986,7 @@ The following table shows the immediate context methods that the runtime disable
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/a9896b34-b273-4be2-bea4-0fcecdf5bcad">IASetPrimitiveTopology</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476455(v=VS.85).aspx">IASetPrimitiveTopology</a>
 </td>
 <td>
 
@@ -997,7 +997,7 @@ The following table shows the immediate context methods that the runtime disable
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/e9a9a69c-7df7-4784-98f5-9ad63f6cd407">IASetVertexBuffers</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476456(v=VS.85).aspx">IASetVertexBuffers</a>
 </td>
 <td>
 
@@ -1009,7 +1009,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/871429b4-8f4a-43bb-ae55-3b07f8d00f68">OMGetBlendState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476458(v=VS.85).aspx">OMGetBlendState</a>
 
 
 </td>
@@ -1023,7 +1023,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/d5ea53a8-62c9-46c9-96ed-8c9977d916b2">OMGetDepthStencilState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476459(v=VS.85).aspx">OMGetDepthStencilState</a>
 
 
 </td>
@@ -1037,7 +1037,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/27ac656a-0906-43ad-8089-b41639b55ecf">OMGetRenderTargets</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476460(v=VS.85).aspx">OMGetRenderTargets</a>
 
 
 </td>
@@ -1051,7 +1051,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/5baaedea-5db4-4a25-adfc-2ac9cf48ad6d">OMGetRenderTargetsAndUnorderedAccessViews</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476461(v=VS.85).aspx">OMGetRenderTargetsAndUnorderedAccessViews</a>
 
 
 </td>
@@ -1060,7 +1060,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/fabcae1d-2ad8-4f4d-8eef-18945e369225">OMSetBlendState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476462(v=VS.85).aspx">OMSetBlendState</a>
 
 
 </td>
@@ -1074,7 +1074,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/cd5642c4-8bbe-4b5d-9f04-87de82ee9601">OMSetDepthStencilState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476463(v=VS.85).aspx">OMSetDepthStencilState</a>
 
 
 </td>
@@ -1088,7 +1088,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/65514812-7433-4c13-a6cb-53980dacdf65">OMSetRenderTargets</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476464(v=VS.85).aspx">OMSetRenderTargets</a>
 
 
 </td>
@@ -1102,7 +1102,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/1973d40f-f0d0-497e-be7b-6cf55f8a7da2">OMSetRenderTargetsAndUnorderedAccessViews</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476465(v=VS.85).aspx">OMSetRenderTargetsAndUnorderedAccessViews</a>
 
 
 </td>
@@ -1111,7 +1111,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/798c1d22-cfe2-45f4-b220-40a7a7ab4bf5">PSGetConstantBuffers</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476466(v=VS.85).aspx">PSGetConstantBuffers</a>
 
 
 </td>
@@ -1125,7 +1125,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/8a86f6c8-4095-48d5-a3aa-a3eef9f4b3e8">PSGetSamplers</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476467(v=VS.85).aspx">PSGetSamplers</a>
 
 
 </td>
@@ -1139,7 +1139,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/6ebeb763-b517-468c-bd46-022a426e0b6e">PSGetShader</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476468(v=VS.85).aspx">PSGetShader</a>
 
 
 </td>
@@ -1153,7 +1153,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/5b8af19e-a675-42f5-85ef-232b0bb7dd6d">PSGetShaderResources</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476469(v=VS.85).aspx">PSGetShaderResources</a>
 
 
 </td>
@@ -1167,7 +1167,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/03e5f255-3a5d-4c77-ad3b-5a188c9eb35b">PSSetConstantBuffers</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476470(v=VS.85).aspx">PSSetConstantBuffers</a>
 
 
 </td>
@@ -1181,7 +1181,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/b344c0fb-056d-452d-9d30-a8f97e7d226a">PSSetSamplers</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476471(v=VS.85).aspx">PSSetSamplers</a>
 
 
 </td>
@@ -1195,7 +1195,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/2ee5c946-10bd-40b0-90b2-015aff2377aa">PSSetShader</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476472(v=VS.85).aspx">PSSetShader</a>
 
 
 </td>
@@ -1209,7 +1209,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/acccbde4-68d0-4c76-bf77-643884af1bbe">PSSetShaderResources</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476473(v=VS.85).aspx">PSSetShaderResources</a>
 
 
 </td>
@@ -1223,7 +1223,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/7b4d6180-e3bf-475a-9865-592cda6e9f4a">ResolveSubresource</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476474(v=VS.85).aspx">ResolveSubresource</a>
 
 
 </td>
@@ -1237,7 +1237,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/83676c65-e5d8-44c9-bc0d-ebe9850cb382">RSGetScissorRects</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476475(v=VS.85).aspx">RSGetScissorRects</a>
 
 
 </td>
@@ -1251,7 +1251,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/bd1ade36-e57c-4776-ab59-ba8b59276369">RSGetState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476476(v=VS.85).aspx">RSGetState</a>
 
 
 </td>
@@ -1265,7 +1265,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/9932182f-8e62-41fe-9004-7fb0b591630f">RSGetViewports</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476477(v=VS.85).aspx">RSGetViewports</a>
 
 
 </td>
@@ -1279,7 +1279,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/80bee89d-1743-475c-a284-8137cfacdac2">RSSetScissorRects</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476478(v=VS.85).aspx">RSSetScissorRects</a>
 
 
 </td>
@@ -1293,7 +1293,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/aa76cd3f-5d08-48e7-bd38-ff4d7119eae3">RSSetState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476479(v=VS.85).aspx">RSSetState</a>
 
 
 </td>
@@ -1307,7 +1307,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/7326e9a8-edfa-4e5a-a29e-fe7c54a055f5">RSSetViewports</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476480(v=VS.85).aspx">RSSetViewports</a>
 
 
 </td>
@@ -1321,7 +1321,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/ceac248a-31c9-4e14-892f-f047e288daae">SetPredication</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476481(v=VS.85).aspx">SetPredication</a>
 
 
 </td>
@@ -1335,7 +1335,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/c718bc0b-fb3b-49fd-91f1-098edc0c115d">SetResourceMinLOD</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476482(v=VS.85).aspx">SetResourceMinLOD</a>
 
 
 </td>
@@ -1353,7 +1353,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/878402ed-0c89-42db-8210-d9a90b347226">SOGetTargets</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476483(v=VS.85).aspx">SOGetTargets</a>
 
 
 </td>
@@ -1367,7 +1367,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/fba6e33e-7d35-4f26-b841-38610164d276">SOSetTargets</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476484(v=VS.85).aspx">SOSetTargets</a>
 
 
 </td>
@@ -1381,7 +1381,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/2d8ef5a2-204a-434d-918a-104419050233">UpdateSubresource</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476486(v=VS.85).aspx">UpdateSubresource</a>
 
 
 </td>
@@ -1395,7 +1395,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/d31bff37-4109-40af-bc75-7e73582d6fa1">VSGetConstantBuffers</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476487(v=VS.85).aspx">VSGetConstantBuffers</a>
 
 
 </td>
@@ -1409,7 +1409,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/0b8cbdfe-58e1-46f0-86c1-22da8178d296">VSGetSamplers</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476488(v=VS.85).aspx">VSGetSamplers</a>
 
 
 </td>
@@ -1423,7 +1423,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/03347303-bab2-46aa-81e8-7df75911ff21">VSGetShader</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476489(v=VS.85).aspx">VSGetShader</a>
 
 
 </td>
@@ -1437,7 +1437,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/9b7974ea-3194-412d-8040-2d93280f77ac">VSGetShaderResources</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476490(v=VS.85).aspx">VSGetShaderResources</a>
 
 
 </td>
@@ -1451,7 +1451,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/c6f9674b-89fe-4e1e-b814-6ddd98a9cb98">VSSetConstantBuffers</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476491(v=VS.85).aspx">VSSetConstantBuffers</a>
 
 
 </td>
@@ -1465,7 +1465,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/bfbf557c-f355-4d4d-beb0-f36e1c6f32ed">VSSetSamplers</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476492(v=VS.85).aspx">VSSetSamplers</a>
 
 
 </td>
@@ -1479,7 +1479,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/d6207779-7477-4e74-beb8-065949abce06">VSSetShader</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476493(v=VS.85).aspx">VSSetShader</a>
 
 
 </td>
@@ -1493,7 +1493,7 @@ The following table shows the immediate context methods that the runtime disable
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/f5dbd212-6896-41b1-b61b-f1c1a690a195">VSSetShaderResources</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476494(v=VS.85).aspx">VSSetShaderResources</a>
 
 
 </td>
@@ -1511,7 +1511,7 @@ The following table shows the immediate context methods that the runtime disable
 
 The following table shows the immediate context methods that the runtime does not disable when the indicated context state objects are active.<table>
 <tr>
-<th>Methods of <a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a> when <code>__uuidof(ID3D10Device1)</code> or <code>__uuidof(ID3D10Device)</code> is active
+<th>Methods of <a href="https://msdn.microsoft.com/en-us/library/Ff476385(v=VS.85).aspx">ID3D11DeviceContext</a> when <code>__uuidof(ID3D10Device1)</code> or <code>__uuidof(ID3D10Device)</code> is active
               </th>
 <th>Methods of <a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device</a> when <code>__uuidof(ID3D11Device)</code> is active
               </th>
@@ -1519,7 +1519,7 @@ The following table shows the immediate context methods that the runtime does no
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/5a9cdc60-2226-4d18-bfbd-5db10de35e53">Begin</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476386(v=VS.85).aspx">Begin</a>
 
 
 </td>
@@ -1528,7 +1528,7 @@ The following table shows the immediate context methods that the runtime does no
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/9b941abc-04a3-4dd7-b72d-62cd5bd06b47">End</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476422(v=VS.85).aspx">End</a>
 
 
 </td>
@@ -1555,7 +1555,7 @@ The following table shows the immediate context methods that the runtime does no
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/063fbcaf-2216-4090-a4cb-79091ed9b87a">GetContextFlags</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476427(v=VS.85).aspx">GetContextFlags</a>
 
 
 </td>
@@ -1564,7 +1564,7 @@ The following table shows the immediate context methods that the runtime does no
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/338d02ad-2227-49e5-9b4f-fb86a3898f73">GetData</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476428(v=VS.85).aspx">GetData</a>
 
 
 </td>
@@ -1573,7 +1573,7 @@ The following table shows the immediate context methods that the runtime does no
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/c9d57873-1faa-42fa-855c-26f565e3b27c">Map</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476457(v=VS.85).aspx">Map</a>
 
 
 </td>
@@ -1582,7 +1582,7 @@ The following table shows the immediate context methods that the runtime does no
 <tr>
 <td>
 
-<a href="https://msdn.microsoft.com/67797b77-c0a5-47b4-ba54-4282b6aa5b13">Unmap</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476485(v=VS.85).aspx">Unmap</a>
 
 
 </td>
@@ -1686,7 +1686,7 @@ Create*, like <a href="https://msdn.microsoft.com/en-us/library/Bb173553(v=VS.85
 
 
 
-<a href="https://msdn.microsoft.com/DB4DAD13-3CD7-4362-950B-6403328CB071">ID3D11Device1</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404575(v=VS.85).aspx">ID3D11Device1</a>
  
 
  

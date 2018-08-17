@@ -7,7 +7,7 @@ old-location: display\dd_destroymocompdata.htm
 old-project: display
 ms.assetid: 0db32ded-2e32-471d-a752-1f5beffec684
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/13/2018
 ms.keywords: "*PDD_DESTROYMOCOMPDATA, DD_DESTROYMOCOMPDATA, DD_DESTROYMOCOMPDATA structure [Display Devices], _DD_DESTROYMOCOMPDATA, ddrawint/DD_DESTROYMOCOMPDATA, ddstrcts_1a3d548c-c0f7-4334-b0c6-b63c155d854c.xml, display.dd_destroymocompdata"
 ms.prod: windows
 ms.technology: windows-sdk

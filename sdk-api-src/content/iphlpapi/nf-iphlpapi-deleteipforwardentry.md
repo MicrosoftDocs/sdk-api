@@ -7,7 +7,7 @@ old-location: iphlp\deleteipforwardentry.htm
 old-project: iphlp
 ms.assetid: 70bcfd71-34dd-465d-890b-1dd829632fb0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: DeleteIpForwardEntry, DeleteIpForwardEntry function [IP Helper], _iphlp_deleteipforwardentry, iphlp.deleteipforwardentry, iphlpapi/DeleteIpForwardEntry
 ms.prod: windows
 ms.technology: windows-sdk

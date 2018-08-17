@@ -7,7 +7,7 @@ old-location: security\iazapplications.htm
 old-project: secauthz
 ms.assetid: 04cee21c-253a-463a-9231-592ddad88188
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: IAzApplications, IAzApplications interface [Security], IAzApplications interface [Security],described, azroles/IAzApplications, security.iazapplications
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,15 +52,15 @@ req.irql:
 
 
 The <b>IAzApplications</b> interface represents a collection of  
-<a href="https://msdn.microsoft.com/ea4a8a84-5003-44da-b75e-34da6bd898dd">IAzApplication</a> objects.
+<a href="https://msdn.microsoft.com/en-us/library/Aa446684(v=VS.85).aspx">IAzApplication</a> objects.
 
 
 ## -inheritance
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzApplications</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IAzApplications</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Properties</a></li>
 </ul>
 
 ## -members
@@ -73,28 +73,28 @@ The <b>IAzApplications</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8c01c1b4-d3e0-40c2-b0b7-524423c38c45">get__NewEnum</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377328(v=VS.85).aspx">get__NewEnum</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/8c01c1b4-d3e0-40c2-b0b7-524423c38c45">_NewEnum</a> property.
+Retrieves the value of the <a href="https://msdn.microsoft.com/en-us/library/Aa377328(v=VS.85).aspx">_NewEnum</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2f12fd9f-4632-4eef-8ac4-80e73a731539">get_Count</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377326(v=VS.85).aspx">get_Count</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/2f12fd9f-4632-4eef-8ac4-80e73a731539">Count</a> property.
+Retrieves the value of the <a href="https://msdn.microsoft.com/en-us/library/Aa377326(v=VS.85).aspx">Count</a> property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a5d6edd2-d93d-4168-89b8-6dbe60e3d4b9">get_Item</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377327(v=VS.85).aspx">get_Item</a>
 </td>
 <td align="left" width="63%">
-Retrieves the value of the <a href="https://msdn.microsoft.com/a5d6edd2-d93d-4168-89b8-6dbe60e3d4b9">Item</a> property.
+Retrieves the value of the <a href="https://msdn.microsoft.com/en-us/library/Aa377327(v=VS.85).aspx">Item</a> property.
 
 </td>
 </tr>
@@ -109,7 +109,7 @@ Retrieves the value of the <a href="https://msdn.microsoft.com/a5d6edd2-d93d-416
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/8c01c1b4-d3e0-40c2-b0b7-524423c38c45">_NewEnum</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377328(v=VS.85).aspx">_NewEnum</a>
 
 
 </td>
@@ -125,7 +125,7 @@ Retrieves an <a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85)
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/2f12fd9f-4632-4eef-8ac4-80e73a731539">Count</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377326(v=VS.85).aspx">Count</a>
 
 
 </td>
@@ -134,14 +134,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves the number of <a href="https://msdn.microsoft.com/ea4a8a84-5003-44da-b75e-34da6bd898dd">IAzApplication</a> objects in the collection.
+Retrieves the number of <a href="https://msdn.microsoft.com/en-us/library/Aa446684(v=VS.85).aspx">IAzApplication</a> objects in the collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/a5d6edd2-d93d-4168-89b8-6dbe60e3d4b9">Item</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377327(v=VS.85).aspx">Item</a>
 
 
 </td>
@@ -150,7 +150,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves the <a href="https://msdn.microsoft.com/ea4a8a84-5003-44da-b75e-34da6bd898dd">IAzApplication</a> object at the specified index into the <b>IAzApplications</b> collection.
+Retrieves the <a href="https://msdn.microsoft.com/en-us/library/Aa446684(v=VS.85).aspx">IAzApplication</a> object at the specified index into the <b>IAzApplications</b> collection.
 
 </td>
 </tr>

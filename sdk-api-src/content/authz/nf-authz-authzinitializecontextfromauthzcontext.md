@@ -7,7 +7,7 @@ old-location: security\authzinitializecontextfromauthzcontext.htm
 old-project: secauthz
 ms.assetid: dac5e354-ee31-45e3-9eb8-8f3263161ad2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: AuthzInitializeContextFromAuthzContext, AuthzInitializeContextFromAuthzContext function [Security], _win32_authzinitializecontextfromauthzcontext, authz/AuthzInitializeContextFromAuthzContext, security.authzinitializecontextfromauthzcontext
 ms.prod: windows
 ms.technology: windows-sdk

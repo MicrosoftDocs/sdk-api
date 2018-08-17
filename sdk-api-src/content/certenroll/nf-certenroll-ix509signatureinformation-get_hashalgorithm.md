@@ -53,7 +53,7 @@ req.irql:
 ## -description
 
 
-The <b>HashAlgorithm</b> property specifies and retrieves an <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) for the hashing algorithm used in the <a href="https://msdn.microsoft.com/e5b43e74-d802-43ff-bdf2-96ab475c31e7">GetSignatureAlgorithm</a> method.
+The <b>HashAlgorithm</b> property specifies and retrieves an <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> (OID) for the hashing algorithm used in the <a href="https://msdn.microsoft.com/en-us/library/Aa379053(v=VS.85).aspx">GetSignatureAlgorithm</a> method.
 
 This property is read/write.
 
@@ -65,7 +65,7 @@ This property is read/write.
 
 
 
-You must set this property before calling the <a href="https://msdn.microsoft.com/e5b43e74-d802-43ff-bdf2-96ab475c31e7">GetSignatureAlgorithm</a> method. You must also set the <a href="https://msdn.microsoft.com/f964328f-15a6-4d8e-a2cf-73c8d74995e8">PublicKeyAlgorithm</a> property unless you are retrieving a signature algorithm for a null-signed certificate request.  You can also set the <a href="https://msdn.microsoft.com/a693343e-7c9a-4967-b46c-53936497662a">NullSigned</a>, <a href="https://msdn.microsoft.com/e62ecdf1-56d8-4707-8e5d-deef4d79a34c">AlternateSignatureAlgorithm</a>,  and <a href="https://msdn.microsoft.com/cb5675d5-cf06-4407-a7fd-b703a56cacba">Parameters</a> properties.
+You must set this property before calling the <a href="https://msdn.microsoft.com/en-us/library/Aa379053(v=VS.85).aspx">GetSignatureAlgorithm</a> method. You must also set the <a href="https://msdn.microsoft.com/en-us/library/Aa379059(v=VS.85).aspx">PublicKeyAlgorithm</a> property unless you are retrieving a signature algorithm for a null-signed certificate request.  You can also set the <a href="https://msdn.microsoft.com/en-us/library/Aa379056(v=VS.85).aspx">NullSigned</a>, <a href="https://msdn.microsoft.com/en-us/library/Aa965846(v=VS.85).aspx">AlternateSignatureAlgorithm</a>,  and <a href="https://msdn.microsoft.com/en-us/library/Aa379057(v=VS.85).aspx">Parameters</a> properties.
 
 The <b>HashAlgorithm</b> property validates whether the OID you specify represents a hashing algorithm. If the OID is valid, the property also clears the signature property cache.
 
@@ -77,7 +77,7 @@ The <b>HashAlgorithm</b> property validates whether the OID you specify represen
 
 
 
-<a href="https://msdn.microsoft.com/25774ccb-8e76-443d-89da-177d6e77c019">IX509SignatureInformation</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa379050(v=VS.85).aspx">IX509SignatureInformation</a>
  
 
  

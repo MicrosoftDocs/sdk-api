@@ -209,7 +209,7 @@ Extended YCbCr (xvYCC)
 
 ### -field Nominal_Range
 
-Specifies the <a href="https://msdn.microsoft.com/9A4E7FE2-9A41-477B-977B-A1D00D7A5E3C">D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE</a>.
+Specifies the <a href="https://msdn.microsoft.com/en-us/library/Dn280649(v=VS.85).aspx">D3D11_VIDEO_PROCESSOR_NOMINAL_RANGE</a>.
 
 
 
@@ -229,7 +229,7 @@ The <b>RGB_Range</b> member applies to RGB output, while the <b>YCbCr_Matrix</b>
 
 
 
-If the driver supports extended YCbCr (xvYCC), it returns the <b>D3D11_VIDEO_PROCESSOR_DEVICE_CAPS_xvYCC</b> capabilities flag in the <a href="https://msdn.microsoft.com/BE213FFE-FB1D-4BDC-A1AA-2EA487DF8D4A">ID3D11VideoProcessorEnumerator::GetVideoProcessorCaps</a> method. Otherwise, the driver ignores the value of <b>YCbCr_xvYCC</b> and treats all YCbCr output as conventional YCbCr. 
+If the driver supports extended YCbCr (xvYCC), it returns the <b>D3D11_VIDEO_PROCESSOR_DEVICE_CAPS_xvYCC</b> capabilities flag in the <a href="https://msdn.microsoft.com/en-us/library/Hh447802(v=VS.85).aspx">ID3D11VideoProcessorEnumerator::GetVideoProcessorCaps</a> method. Otherwise, the driver ignores the value of <b>YCbCr_xvYCC</b> and treats all YCbCr output as conventional YCbCr. 
 
 If extended YCbCr is supported, it can be used with either transfer matrix. Extended YCbCr does not change the black point or white point—the black point is still 16 and the white point is still 235. However, extended YCbCr explicitly allows blacker-than-black values in the range 1–15, and whiter-than-white values in the range 236–254. When extended YCbCr is used, the driver should not clip the luma values to the nominal 16–235 range.
 
@@ -241,7 +241,7 @@ If extended YCbCr is supported, it can be used with either transfer matrix. Exte
 
 
 
-<a href="https://msdn.microsoft.com/416159A4-F50E-4027-9367-727BA81D2A21">Direct3D 11 Video Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh447680(v=VS.85).aspx">Direct3D 11 Video Structures</a>
  
 
  

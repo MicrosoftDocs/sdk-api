@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10texture3d.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10texture3d.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: ID3D10Texture3D, ID3D10Texture3D interface [Direct3D 10], ID3D10Texture3D interface [Direct3D 10],described, a0af960d-1977-383c-0ee3-09972ece4699, d3d10/ID3D10Texture3D, direct3d10.id3d10texture3d
 ms.prod: windows
 ms.technology: windows-sdk
@@ -106,7 +106,7 @@ Invalidate the pointer to the resource retrieved by <a href="https://msdn.micros
 
 To create an empty Texture3D resource, call <a href="https://msdn.microsoft.com/en-us/library/Bb173561(v=VS.85).aspx">ID3D10Device::CreateTexture3D</a>. For more details on creating and loading textures, see <a href="https://msdn.microsoft.com/en-us/library/Bb205131(v=VS.85).aspx">Creating Texture Resources</a>.
 
-Textures cannot be bound directly to the <a href="https://msdn.microsoft.com/en-us/library/Bb205123(v=VS.85).aspx">pipeline</a>; instead, a <a href="https://msdn.microsoft.com/ccfe6273-0dcf-4b42-9d74-665a0b4cd14a">view</a> must be created and bound. Using a view, texture data can be interpreted at run time within certain restrictions. To use the texture as a render target or depth-stencil resource, call <a href="https://msdn.microsoft.com/en-us/library/Bb173556(v=VS.85).aspx">ID3D10Device::CreateRenderTargetView</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb173547(v=VS.85).aspx">ID3D10Device::CreateDepthStencilView</a>, respectively. To use the texture as an input to a shader, create a  by calling <a href="https://msdn.microsoft.com/en-us/library/Bb173558(v=VS.85).aspx">ID3D10Device::CreateShaderResourceView</a>.
+Textures cannot be bound directly to the <a href="https://msdn.microsoft.com/en-us/library/Bb205123(v=VS.85).aspx">pipeline</a>; instead, a <a href="https://msdn.microsoft.com/en-us/library/Bb205128(v=VS.85).aspx">view</a> must be created and bound. Using a view, texture data can be interpreted at run time within certain restrictions. To use the texture as a render target or depth-stencil resource, call <a href="https://msdn.microsoft.com/en-us/library/Bb173556(v=VS.85).aspx">ID3D10Device::CreateRenderTargetView</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb173547(v=VS.85).aspx">ID3D10Device::CreateDepthStencilView</a>, respectively. To use the texture as an input to a shader, create a  by calling <a href="https://msdn.microsoft.com/en-us/library/Bb173558(v=VS.85).aspx">ID3D10Device::CreateShaderResourceView</a>.
 
 
 

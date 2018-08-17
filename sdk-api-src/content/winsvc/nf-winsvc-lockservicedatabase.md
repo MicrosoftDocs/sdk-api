@@ -7,7 +7,7 @@ old-location: base\lockservicedatabase.htm
 old-project: services
 ms.assetid: 87861465-c966-479a-b906-27ae36cc83c8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: LockServiceDatabase, LockServiceDatabase function, _win32_lockservicedatabase, base.lockservicedatabase, winsvc/LockServiceDatabase
 ms.prod: windows
 ms.technology: windows-sdk

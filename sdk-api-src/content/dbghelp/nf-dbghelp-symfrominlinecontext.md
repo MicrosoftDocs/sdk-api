@@ -7,7 +7,7 @@ old-location: base\symfrominlinecontext.htm
 old-project: debug
 ms.assetid: a60a345e-d723-4275-bc2d-01e13ea57d67
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: SymFromInlineContext, SymFromInlineContext function, SymFromInlineContextW, base.symfrominlinecontext, dbghelp/SymFromInlineContext, dbghelp/SymFromInlineContextW
 ms.prod: windows
 ms.technology: windows-sdk

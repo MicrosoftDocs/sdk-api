@@ -72,7 +72,7 @@ The <b>ITextStoryRanges</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/90440058-f3e0-49f8-bdaf-ff7b664d538c">_NewEnum</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787839(v=VS.85).aspx">_NewEnum</a>
 </td>
 <td align="left" width="63%">
 Retrieves an 
@@ -82,7 +82,7 @@ Retrieves an
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ef7f5b30-c3d1-4b8f-ad2d-925e09cab462">GetCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773939(v=VS.85).aspx">GetCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of stories in the specified stories collection.
@@ -91,7 +91,7 @@ Retrieves the number of stories in the specified stories collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c5822b0c-16d5-4339-85bf-90ecb606b7ef">Item</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774050(v=VS.85).aspx">Item</a>
 </td>
 <td align="left" width="63%">
 Retrieves an <a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a> object for the 

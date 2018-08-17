@@ -7,7 +7,7 @@ old-location: display\drvdisablepdev.htm
 old-project: display
 ms.assetid: dff04000-e307-4a1c-80fe-d6666929df76
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/13/2018
 ms.keywords: DrvDisablePDEV, DrvDisablePDEV function [Display Devices], ddifncs_ff781393-2fad-482c-a91e-1cf0b722441d.xml, display.drvdisablepdev, winddi/DrvDisablePDEV
 ms.prod: windows
 ms.technology: windows-sdk

@@ -53,7 +53,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Point::Equals</b> method determines whether two 
-			<a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a> objects are equal. Two points are considered equal if they have the same 
+			<a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a> objects are equal. Two points are considered equal if they have the same 
 			<b>X</b> and 
 			<b>Y</b>  data members.
 
@@ -68,7 +68,7 @@ The <b>Point::Equals</b> method determines whether two
 Type: <b>const Point&amp;</b>
 
 Reference to a 
-					<a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a> object that is compared to this 
+					<a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a> object that is compared to this 
 					<b>Point</b> object. 
 
 
@@ -80,7 +80,7 @@ Type: <strong>Type: <b>BOOL</b>
 </strong>
 
 If the 
-						<a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a> objects are equal, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a> objects are equal, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 
 
 
@@ -90,7 +90,7 @@ If the
 
 
 
-<a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a>
 
 
 

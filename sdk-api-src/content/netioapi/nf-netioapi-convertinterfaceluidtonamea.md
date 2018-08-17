@@ -7,7 +7,7 @@ old-location: iphlp\convertinterfaceluidtonamea.htm
 old-project: iphlp
 ms.assetid: c65f7b3c-55f4-40f8-9a7a-19d1066deca4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: ConvertInterfaceLuidToNameA, ConvertInterfaceLuidToNameA function [IP Helper], iphlp.convertinterfaceluidtonamea, netioapi/ConvertInterfaceLuidToNameA
 ms.prod: windows
 ms.technology: windows-sdk

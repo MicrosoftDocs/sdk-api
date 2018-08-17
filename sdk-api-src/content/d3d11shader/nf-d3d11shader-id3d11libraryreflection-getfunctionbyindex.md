@@ -70,9 +70,9 @@ The zero-based index of the function reflector to retrieve.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/91A3B6E3-E1A7-43F9-AD18-93A25F13CFB4">ID3D11FunctionReflection</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn280546(v=VS.85).aspx">ID3D11FunctionReflection</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/91A3B6E3-E1A7-43F9-AD18-93A25F13CFB4">ID3D11FunctionReflection</a> interface that represents the function reflector.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn280546(v=VS.85).aspx">ID3D11FunctionReflection</a> interface that represents the function reflector.
 
 
 
@@ -82,7 +82,7 @@ A pointer to a <a href="https://msdn.microsoft.com/91A3B6E3-E1A7-43F9-AD18-93A25
 
 
 
-<a href="https://msdn.microsoft.com/59792EC6-B739-4D86-84F6-DC03AD3016F1">ID3D11LibraryReflection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280554(v=VS.85).aspx">ID3D11LibraryReflection</a>
  
 
  

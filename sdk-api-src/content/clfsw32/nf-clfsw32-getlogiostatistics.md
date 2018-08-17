@@ -83,14 +83,7 @@ If the buffer is not large enough for the statistics packet, the function fails 
 This parameter is not implemented at this time; it is reserved for future use.
 
 
-### -param OPTIONAL
-
-TBD
-
-
-
-
-#### - pcbStatsWritten [out, optional]
+### -param pcbStatsWritten [out, optional]
 
 A pointer to a variable to receive the size of the I/O statistics packet that is written to  <i>pvStatsBuffer</i>.   
 

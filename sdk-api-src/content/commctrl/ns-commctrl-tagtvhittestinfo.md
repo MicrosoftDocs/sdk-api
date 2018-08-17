@@ -69,7 +69,7 @@ Client coordinates of the point to test.
 
 ### -field flags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Variable that receives information about the results of a hit test. This member can be one or more of the following values: 
 

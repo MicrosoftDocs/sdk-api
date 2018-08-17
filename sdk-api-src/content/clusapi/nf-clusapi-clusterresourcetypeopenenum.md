@@ -54,8 +54,8 @@ req.irql:
 ## -description
 
 
-Opens an enumerator for iterating through a <a href="https://msdn.microsoft.com/d02e4f51-7b86-451a-a51c-ea850ae464d1">resource type's</a> 
-    possible owner <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">nodes</a> or resources. The <b>PCLUSAPI_CLUSTER_RESOURCE_TYPE_OPEN_ENUM</b> type defines a pointer to this function.
+Opens an enumerator for iterating through a <a href="https://msdn.microsoft.com/en-us/library/Aa372279(v=VS.85).aspx">resource type's</a> 
+    possible owner <a href="https://msdn.microsoft.com/en-us/library/Aa371745(v=VS.85).aspx">nodes</a> or resources. The <b>PCLUSAPI_CLUSTER_RESOURCE_TYPE_OPEN_ENUM</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Opens an enumerator for iterating through a <a href="https://msdn.microsoft.com/
 
 ### -param hCluster [in]
 
-<a href="c_gly.htm">Cluster</a> handle.
+<a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">Cluster</a> handle.
 
 
 ### -param lpszResourceTypeName [in]
@@ -75,8 +75,8 @@ A null-terminated Unicode string containing the name of the resource type.
 
 ### -param dwType [in]
 
-Bitmask describing the type of <a href="https://msdn.microsoft.com/609cc002-2db9-4ec6-a802-8f7bdbb11b90">cluster objects</a> to be 
-       enumerated. The following values of the <a href="https://msdn.microsoft.com/f8356cb3-303c-4294-a634-d91d5141004a">CLUSTER_RESOURCE_TYPE_ENUM</a> enumeration are valid.
+Bitmask describing the type of <a href="https://msdn.microsoft.com/en-us/library/Aa369115(v=VS.85).aspx">cluster objects</a> to be 
+       enumerated. The following values of the <a href="https://msdn.microsoft.com/en-us/library/Bb309170(v=VS.85).aspx">CLUSTER_RESOURCE_TYPE_ENUM</a> enumeration are valid.
 
 
 
@@ -115,7 +115,7 @@ If the operation fails, the function returns <b>NULL</b>. For more information a
 
 
 
-<a href="https://msdn.microsoft.com/f8356cb3-303c-4294-a634-d91d5141004a">CLUSTER_RESOURCE_TYPE_ENUM</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb309170(v=VS.85).aspx">CLUSTER_RESOURCE_TYPE_ENUM</a>
 
 
 
@@ -127,7 +127,7 @@ If the operation fails, the function returns <b>NULL</b>. For more information a
 
 
 
-<a href="https://msdn.microsoft.com/5bcb0411-d9c1-47e7-b799-5b1fcf2a9274">Resource Type Management Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa372314(v=VS.85).aspx">Resource Type Management Functions</a>
  
 
  

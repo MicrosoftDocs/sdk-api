@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_deserializer_close.htm
 old-project: wmi_v2
 ms.assetid: 34ddbd4f-723f-4580-aad6-c5c236a1f5d9
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/13/2018
 ms.keywords: MI_Deserializer_Close, MI_Deserializer_Close function [Windows Management Infrastructure (MI)], mi/MI_Deserializer_Close, wmi_v2.mi_deserializer_close
 ms.prod: windows
 ms.technology: windows-sdk

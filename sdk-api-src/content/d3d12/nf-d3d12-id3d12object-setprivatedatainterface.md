@@ -82,7 +82,7 @@ A pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08
 
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
+This method returns one of the <a href="https://msdn.microsoft.com/en-us/library/Dn706075(v=VS.85).aspx">Direct3D 12 Return Codes</a>.
           
 
 
@@ -93,7 +93,7 @@ This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7
 
 
 
-<a href="https://msdn.microsoft.com/D2B2BC74-E89D-4D3A-8808-6E4A94992769">ID3D12Object</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn788699(v=VS.85).aspx">ID3D12Object</a>
  
 
  

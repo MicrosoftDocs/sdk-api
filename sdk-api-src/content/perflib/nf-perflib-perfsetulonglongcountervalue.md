@@ -4,10 +4,10 @@ title: PerfSetULongLongCounterValue function
 author: windows-sdk-content
 description: Updates the value of a counter whose value is an 8-byte unsigned integer. Providers use this function.
 old-location: perf\perfsetulonglongcountervalue.htm
-old-project: PerfCtrs
+old-project: perfctrs
 ms.assetid: c38f9efc-7ea8-4841-9a31-a88d4f87369c
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/08/2018
 ms.keywords: PerfSetULongLongCounterValue, PerfSetULongLongCounterValue function [Perf], base.perfsetulonglongcountervalue, perf.perfsetulonglongcountervalue, perflib/PerfSetULongLongCounterValue
 ms.prod: windows
 ms.technology: windows-sdk

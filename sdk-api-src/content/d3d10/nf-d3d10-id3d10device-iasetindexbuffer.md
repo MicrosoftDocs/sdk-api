@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_iasetindexbuffer.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_iasetindexbuffer.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 608d16ec-f6d6-ea93-bc37-fe7d34d07215, IASetIndexBuffer, IASetIndexBuffer method [Direct3D 10], IASetIndexBuffer method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],IASetIndexBuffer method, ID3D10Device.IASetIndexBuffer, ID3D10Device::IASetIndexBuffer, d3d10/ID3D10Device::IASetIndexBuffer, direct3d10.id3d10device_iasetindexbuffer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-Bind an <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">index buffer</a> to the <a href="https://msdn.microsoft.com/en-us/library/Bb205116(v=VS.85).aspx">input-assembler</a> stage.
+Bind an <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">index buffer</a> to the <a href="https://msdn.microsoft.com/en-us/library/Bb205116(v=VS.85).aspx">input-assembler</a> stage.
 
 
 ## -parameters

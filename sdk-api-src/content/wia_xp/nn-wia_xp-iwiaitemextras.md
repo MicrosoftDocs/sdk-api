@@ -81,7 +81,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms629970(v=VS.85).aspx">IW
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/805921e8-a460-4087-93ad-8dfce5ea9dbd">Escape</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms629973(v=VS.85).aspx">Escape</a>
 </td>
 <td align="left" width="63%">
 The <a href="https://msdn.microsoft.com/en-us/library/ms629973(v=VS.85).aspx">IWiaItemExtras::Escape</a> method sends a request for a vendor-specific I/O operation to a still image device.

@@ -90,7 +90,7 @@ Replaces the first occurrence of a change that affects the same property key as 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="shell.IPropertyChangeArray_GetAt">GetAt</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372028(v=VS.85).aspx">GetAt</a>
 </td>
 <td align="left" width="63%">
 Gets the change operation at a specified array index.
@@ -99,7 +99,7 @@ Gets the change operation at a specified array index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="shell.IPropertyChangeArray_GetCount">GetCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535454(v=VS.85).aspx">GetCount</a>
 </td>
 <td align="left" width="63%">
 Gets the number of change operations in the array.
@@ -126,7 +126,7 @@ Specifies whether a particular property key exists in the change array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="shell.IPropertyChangeArray_RemoveAt">RemoveAt</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372035(v=VS.85).aspx">RemoveAt</a>
 </td>
 <td align="left" width="63%">
 Removes a specified change.

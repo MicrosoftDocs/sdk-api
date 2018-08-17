@@ -7,7 +7,7 @@ old-location: security\iazprincipallocator_nameresolver_method.htm
 old-project: secauthz
 ms.assetid: 98826583-b31d-47f1-957b-38a0ab962f73
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: IAzPrincipalLocator interface [Security],NameResolver property, IAzPrincipalLocator.NameResolver, IAzPrincipalLocator.get_NameResolver, IAzPrincipalLocator::NameResolver, IAzPrincipalLocator::get_NameResolver, NameResolver property [Security], NameResolver property [Security],IAzPrincipalLocator interface, azroles/IAzPrincipalLocator::NameResolver, azroles/IAzPrincipalLocator::get_NameResolver, get_NameResolver, security.iazprincipallocator_nameresolver_method
 ms.prod: windows
 ms.technology: windows-sdk

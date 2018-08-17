@@ -4,10 +4,10 @@ title: IResultData::FindItemByLParam
 author: windows-sdk-content
 description: The IResultData::FindItemByLParam method enables the snap-in to find an item or subitem based on its user-inserted lParam value.
 old-location: mmc\iresultdata_finditembylparam.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: f26be5d5-9b7d-4cbd-b70c-431799c68e5e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/14/2018
 ms.keywords: FindItemByLParam, FindItemByLParam method [MMC], FindItemByLParam method [MMC],IResultData interface, FindItemByLParam method [MMC],IResultData2 interface, IResultData interface [MMC],FindItemByLParam method, IResultData.FindItemByLParam, IResultData2 interface [MMC],FindItemByLParam method, IResultData2::FindItemByLParam, IResultData::FindItemByLParam, _slate_iresultdata_finditembylparam, mmc.iresultdata_finditembylparam, mmc/IResultData2::FindItemByLParam, mmc/IResultData::FindItemByLParam
 ms.prod: windows
 ms.technology: windows-sdk

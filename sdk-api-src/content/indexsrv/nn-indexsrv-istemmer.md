@@ -90,7 +90,7 @@ Gets the license information for this <b>IStemmer</b> implementation.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/56440abe-c2d3-4224-af17-b220321a46ad">Init</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266436(v=VS.85).aspx">Init</a>
 </td>
 <td align="left" width="63%">
 Initializes the stemmer.

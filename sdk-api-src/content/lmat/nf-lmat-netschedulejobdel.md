@@ -65,9 +65,12 @@ The
 
 
 
-### -param OPTIONAL
+### -param Servername [in, optional]
 
-TBD
+A pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used. 
+
+
+
 
 
 ### -param MinJobId [in]
@@ -78,14 +81,6 @@ The minimum job identifier. Jobs with a job identifier smaller than <i>MinJobId<
 ### -param MaxJobId [in]
 
 The  maximum job identifier. Jobs with a job identifier larger than <i>MaxJobId</i> will not be deleted.
-
-
-#### - Servername [in, optional]
-
-A pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used. 
-
-
-
 
 
 ## -returns

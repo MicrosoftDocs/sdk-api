@@ -85,7 +85,7 @@ The <b>ClusResDependencies</b> collection has these methods.
 <a href="https://msdn.microsoft.com/f8462df8-dece-423f-a585-5774411401c8">AddItem</a>
 </td>
 <td align="left" width="63%">
-Adds an existing <a href="c_gly.htm">cluster</a> resource to the dependency 
+Adds an existing <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> resource to the dependency 
      collection.
 
 </td>

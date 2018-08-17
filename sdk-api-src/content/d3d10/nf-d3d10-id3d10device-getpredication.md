@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_getpredication.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_getpredication.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 7e48b41e-557d-8a50-cf4b-b3309c77e0af, GetPredication, GetPredication method [Direct3D 10], GetPredication method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GetPredication method, ID3D10Device.GetPredication, ID3D10Device::GetPredication, d3d10/ID3D10Device::GetPredication, direct3d10.id3d10device_getpredication
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,7 +69,7 @@ Address of a pointer to a predicate (see <a href="https://msdn.microsoft.com/en-
 
 ### -param pPredicateValue [out]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a>*</b>
 
 Address of a boolean to fill with the predicate comparison value. <b>FALSE</b> upon device creation.
 
@@ -87,7 +87,7 @@ Returns nothing.
 
 
 
-Any returned interfaces will have their reference count incremented by one. Applications should call <a href="http://msdn.microsoft.com/en-us/library/ms682317(VS.85).aspx">IUnknown::Release</a> on the returned interfaces when they are no longer needed to avoid memory leaks.
+Any returned interfaces will have their reference count incremented by one. Applications should call <a href="https://msdn.microsoft.com/en-us/library/Dd757102(v=VS.85).aspx">IUnknown::Release</a> on the returned interfaces when they are no longer needed to avoid memory leaks.
 
 
 

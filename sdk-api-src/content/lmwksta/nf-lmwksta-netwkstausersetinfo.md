@@ -109,14 +109,7 @@ Pointer to the buffer that specifies the data. The format of this data depends o
 <a href="https://msdn.microsoft.com/f27e6cf5-f26a-4e6c-8d77-873bff6cc8e4">Network Management Function Buffers</a>.
 
 
-### -param OPTIONAL
-
-TBD
-
-
-
-
-#### - parm_err [out]
+### -param parm_err [out]
 
 Pointer to a value that receives the index of the first parameter that causes the ERROR_INVALID_PARAMETER error. If this parameter is <b>NULL</b>, the index is not returned on error.
 

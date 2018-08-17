@@ -53,7 +53,7 @@ req.irql:
 ## -description
 
 
-Identifies the bit length for the <a href="https://msdn.microsoft.com/b1fb0e94-3207-4007-94bd-4b2e97b99ff2">EncryptionAlgorithm</a> to use for encryption. If the <b>EncryptionAlgorithm</b> only supports one bit length, then you do not need to specify a value for the <b>EncryptionStrength</b> property.
+Identifies the bit length for the <a href="https://msdn.microsoft.com/en-us/library/Dn379349(v=VS.85).aspx">EncryptionAlgorithm</a> to use for encryption. If the <b>EncryptionAlgorithm</b> only supports one bit length, then you do not need to specify a value for the <b>EncryptionStrength</b> property.
 
 This property is read/write.
 
@@ -66,7 +66,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/e833d1dc-da0f-4f5e-9027-ebf7413ef8c3">IX509CertificateRequestPkcs10V3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn379345(v=VS.85).aspx">IX509CertificateRequestPkcs10V3</a>
  
 
  

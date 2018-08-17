@@ -4,10 +4,10 @@ title: View::ExportList
 author: windows-sdk-content
 description: The ExportList method exports the selected list to the specified file.
 old-location: mmc\view_exportlist.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: ff552b80-2f5f-4425-9157-71f7c7fb5a44
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/14/2018
 ms.keywords: ExportList, ExportList method [MMC], ExportList method [MMC],View interface, ExportList method [MMC],View object, ExportListOptions_Default, ExportListOptions_SelectedItemsOnly, ExportListOptions_TabDelimited, ExportListOptions_Unicode, View interface [MMC],ExportList method, View object [MMC],ExportList method, View.ExportList, View::ExportList, _slate_view.exportlist_method, mmc.view_exportlist
 ms.prod: windows
 ms.technology: windows-sdk

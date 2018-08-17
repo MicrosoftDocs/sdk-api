@@ -7,7 +7,7 @@ old-location: iphlp\deleteunicastipaddressentry.htm
 old-project: iphlp
 ms.assetid: a630397a-ef4a-40c2-b2e7-3e85cd9e8029
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: DeleteUnicastIpAddressEntry, DeleteUnicastIpAddressEntry function [IP Helper], iphlp.deleteunicastipaddressentry, netioapi/DeleteUnicastIpAddressEntry
 ms.prod: windows
 ms.technology: windows-sdk

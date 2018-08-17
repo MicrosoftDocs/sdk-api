@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_bind_flag.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_bind_flag.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 7e986ece-3bd3-f96c-c7c8-27d21e16623f, D3D10_BIND_CONSTANT_BUFFER, D3D10_BIND_DEPTH_STENCIL, D3D10_BIND_FLAG, D3D10_BIND_FLAG enumeration [Direct3D 10], D3D10_BIND_INDEX_BUFFER, D3D10_BIND_RENDER_TARGET, D3D10_BIND_SHADER_RESOURCE, D3D10_BIND_STREAM_OUTPUT, D3D10_BIND_VERTEX_BUFFER, d3d10/D3D10_BIND_CONSTANT_BUFFER, d3d10/D3D10_BIND_DEPTH_STENCIL, d3d10/D3D10_BIND_FLAG, d3d10/D3D10_BIND_INDEX_BUFFER, d3d10/D3D10_BIND_RENDER_TARGET, d3d10/D3D10_BIND_SHADER_RESOURCE, d3d10/D3D10_BIND_STREAM_OUTPUT, d3d10/D3D10_BIND_VERTEX_BUFFER, direct3d10.d3d10_bind_flag
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ Bind a buffer as a <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=
 
 ### -field D3D10_BIND_INDEX_BUFFER
 
-Bind a buffer as an <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">index buffer</a> to the <a href="https://msdn.microsoft.com/en-us/library/Bb205116(v=VS.85).aspx">input-assembler stage</a>.
+Bind a buffer as an <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">index buffer</a> to the <a href="https://msdn.microsoft.com/en-us/library/Bb205116(v=VS.85).aspx">input-assembler stage</a>.
 
 
 ### -field D3D10_BIND_CONSTANT_BUFFER

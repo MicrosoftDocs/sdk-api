@@ -105,7 +105,7 @@ If <i>hProvider</i> was opened in a different thread, the <b>HRESULT</b> is E_IN
 
 If <i>pPrintTicket</i> is invalid, the <b>HRESULT</b> is E_PRINTTICKET_FORMAT.
 
-Otherwise, some other error code is returned in the <b>HRESULT</b>. For more information about COM error codes, see <a href="_com_error_handling">Error Handling</a>.
+Otherwise, some other error code is returned in the <b>HRESULT</b>. For more information about COM error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa376932(v=VS.85).aspx">Error Handling</a>.
 
 
 

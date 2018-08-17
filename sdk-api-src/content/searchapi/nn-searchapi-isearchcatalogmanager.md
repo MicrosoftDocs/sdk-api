@@ -267,7 +267,7 @@ Re-indexes all URLs from a specified root.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/95af7d31-b88e-47d5-bf8c-b5428ab860cc">Reset</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266424(v=VS.85).aspx">Reset</a>
 </td>
 <td align="left" width="63%">
 Resets the underlying catalog by rebuilding the databases and performing a full indexing.

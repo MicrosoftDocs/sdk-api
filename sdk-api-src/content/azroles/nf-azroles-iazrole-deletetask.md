@@ -7,7 +7,7 @@ old-location: security\iazrole_deletetask.htm
 old-project: secauthz
 ms.assetid: 62623d45-33a6-4e3f-b0a8-d3e3e7c9e33e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: AzRole object [Security],DeleteTask method, DeleteTask, DeleteTask method [Security], DeleteTask method [Security],AzRole object, DeleteTask method [Security],IAzRole interface, IAzRole interface [Security],DeleteTask method, IAzRole.DeleteTask, IAzRole::DeleteTask, azroles/IAzRole::DeleteTask, security.iazrole_deletetask
 ms.prod: windows
 ms.technology: windows-sdk

@@ -96,7 +96,7 @@ Positions filter at beginning of first or next chunk and returns a descriptor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d63639a6-6729-44cd-8105-198a268ff2d6">GetText</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690992(v=VS.85).aspx">GetText</a>
 </td>
 <td align="left" width="63%">
 Retrieves text from the current chunk.
@@ -105,7 +105,7 @@ Retrieves text from the current chunk.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/91d53ef4-06bb-4756-acc2-723cf041959b">GetValue</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690927(v=VS.85).aspx">GetValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves values from the current chunk.
@@ -114,7 +114,7 @@ Retrieves values from the current chunk.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5cb9b675-258e-46b0-905f-15a086f84f74">Init</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690965(v=VS.85).aspx">Init</a>
 </td>
 <td align="left" width="63%">
 Initializes a filtering session.

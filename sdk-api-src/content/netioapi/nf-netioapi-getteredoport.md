@@ -7,7 +7,7 @@ old-location: iphlp\getteredoport.htm
 old-project: iphlp
 ms.assetid: 59d3764d-e560-4474-a73e-ab50bbddbf07
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: GetTeredoPort, GetTeredoPort function [IP Helper], iphlp.getteredoport, netioapi/GetTeredoPort
 ms.prod: windows
 ms.technology: windows-sdk

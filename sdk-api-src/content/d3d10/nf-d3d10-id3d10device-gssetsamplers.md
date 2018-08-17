@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_gssetsamplers.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_gssetsamplers.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 1c08811a-830c-451d-31b2-e679c42bcf69, GSSetSamplers, GSSetSamplers method [Direct3D 10], GSSetSamplers method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GSSetSamplers method, ID3D10Device.GSSetSamplers, ID3D10Device::GSSetSamplers, d3d10/ID3D10Device::GSSetSamplers, direct3d10.id3d10device_gssetsamplers
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,14 +62,14 @@ Set an array of sampler states to the <a href="https://msdn.microsoft.com/librar
 
 ### -param StartSlot [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Index into the device's zero-based array to begin setting samplers to.
 
 
 ### -param NumSamplers [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Number of samplers in the array. Each pipeline stage has a total of 16 sampler slots available.
 

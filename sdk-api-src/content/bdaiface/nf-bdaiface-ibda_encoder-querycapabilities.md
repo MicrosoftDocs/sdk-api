@@ -83,7 +83,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/43ed9d91-c769-4fb3-bcd9-e5239ec5d9c7">IBDA_Encoder</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693323(v=VS.85).aspx">IBDA_Encoder</a>
  
 
  

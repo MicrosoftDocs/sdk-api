@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: ID3D10Device, ID3D10Device interface [Direct3D 10], ID3D10Device interface [Direct3D 10],described, ac9e57ea-6b44-febb-6528-dfb8cc6740db, d3d10/ID3D10Device, direct3d10.id3d10device
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ The device interface represents a virtual adapter for Direct3D 10.0; it is used 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Device</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID3D10Device</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Device</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ID3D10Device</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -192,7 +192,7 @@ Create a depth-stencil state object that encapsulates <a href="https://msdn.micr
 <a href="https://msdn.microsoft.com/en-us/library/Bb173547(v=VS.85).aspx">CreateDepthStencilView</a>
 </td>
 <td align="left" width="63%">
-Create a depth-stencil <a href="https://msdn.microsoft.com/ccfe6273-0dcf-4b42-9d74-665a0b4cd14a">view</a> for accessing resource data.
+Create a depth-stencil <a href="https://msdn.microsoft.com/en-us/library/Bb205128(v=VS.85).aspx">view</a> for accessing resource data.
 
 </td>
 </tr>
@@ -264,7 +264,7 @@ Create a rasterizer state object that tells the <a href="https://msdn.microsoft.
 <a href="https://msdn.microsoft.com/en-us/library/Bb173556(v=VS.85).aspx">CreateRenderTargetView</a>
 </td>
 <td align="left" width="63%">
-Create a render-target <a href="https://msdn.microsoft.com/ccfe6273-0dcf-4b42-9d74-665a0b4cd14a">view</a> for accessing resource data.
+Create a render-target <a href="https://msdn.microsoft.com/en-us/library/Bb205128(v=VS.85).aspx">view</a> for accessing resource data.
 
 </td>
 </tr>
@@ -282,7 +282,7 @@ Create a sampler-state object that encapsulates sampling information for a <a hr
 <a href="https://msdn.microsoft.com/en-us/library/Bb173558(v=VS.85).aspx">CreateShaderResourceView</a>
 </td>
 <td align="left" width="63%">
-Create a shader-resource <a href="https://msdn.microsoft.com/ccfe6273-0dcf-4b42-9d74-665a0b4cd14a">view</a> for accessing data in a resource.
+Create a shader-resource <a href="https://msdn.microsoft.com/en-us/library/Bb205128(v=VS.85).aspx">view</a> for accessing data in a resource.
 
 </td>
 </tr>
@@ -369,7 +369,7 @@ Draw non-indexed, instanced primitives.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3f907d7d-4316-453f-a7ea-6b228a0df569">Flush</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173568(v=VS.85).aspx">Flush</a>
 </td>
 <td align="left" width="63%">
 Send queued-up commands in the command buffer to the GPU.
@@ -516,7 +516,7 @@ Bind an array of shader resources to the <a href="https://msdn.microsoft.com/en-
 <a href="https://msdn.microsoft.com/en-us/library/Bb173584(v=VS.85).aspx">IAGetIndexBuffer</a>
 </td>
 <td align="left" width="63%">
-Get a pointer to the <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">index buffer</a> that is bound to the <a href="https://msdn.microsoft.com/en-us/library/Bb205116(v=VS.85).aspx">input-assembler</a> stage.
+Get a pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">index buffer</a> that is bound to the <a href="https://msdn.microsoft.com/en-us/library/Bb205116(v=VS.85).aspx">input-assembler</a> stage.
 
 </td>
 </tr>
@@ -552,7 +552,7 @@ Get the <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx
 <a href="https://msdn.microsoft.com/en-us/library/Bb173588(v=VS.85).aspx">IASetIndexBuffer</a>
 </td>
 <td align="left" width="63%">
-Bind an <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">index buffer</a> to the <a href="https://msdn.microsoft.com/en-us/library/Bb205116(v=VS.85).aspx">input-assembler</a> stage.
+Bind an <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">index buffer</a> to the <a href="https://msdn.microsoft.com/en-us/library/Bb205116(v=VS.85).aspx">input-assembler</a> stage.
 
 </td>
 </tr>
@@ -834,7 +834,7 @@ This method is not implemented.
 <a href="https://msdn.microsoft.com/en-us/library/Bb173619(v=VS.85).aspx">SOGetTargets</a>
 </td>
 <td align="left" width="63%">
-Get the target output <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">buffers</a> for the <a href="https://msdn.microsoft.com/en-us/library/Bb205121(v=VS.85).aspx">StreamOutput</a> stage of the pipeline.
+Get the target output <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">buffers</a> for the <a href="https://msdn.microsoft.com/en-us/library/Bb205121(v=VS.85).aspx">StreamOutput</a> stage of the pipeline.
 
 </td>
 </tr>
@@ -843,7 +843,7 @@ Get the target output <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5a
 <a href="https://msdn.microsoft.com/en-us/library/Bb173620(v=VS.85).aspx">SOSetTargets</a>
 </td>
 <td align="left" width="63%">
-Set the target output <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">buffers</a> for the <a href="https://msdn.microsoft.com/en-us/library/Bb205121(v=VS.85).aspx">StreamOutput</a> stage, which enables/disables the pipeline to stream-out data.
+Set the target output <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">buffers</a> for the <a href="https://msdn.microsoft.com/en-us/library/Bb205121(v=VS.85).aspx">StreamOutput</a> stage, which enables/disables the pipeline to stream-out data.
 
 </td>
 </tr>

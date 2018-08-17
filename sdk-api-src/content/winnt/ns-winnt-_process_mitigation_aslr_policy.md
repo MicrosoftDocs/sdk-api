@@ -7,7 +7,7 @@ old-location: base\process_mitigation_aslr_policy.htm
 old-project: procthread
 ms.assetid: 1324d2e7-64a4-45de-856a-30c5c5bf8e7e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: "*PPROCESS_MITIGATION_ASLR_POLICY, PPROCESS_MITIGATION_ASLR_POLICY, PPROCESS_MITIGATION_ASLR_POLICY structure pointer, PROCESS_MITIGATION_ASLR_POLICY, PROCESS_MITIGATION_ASLR_POLICY structure, _PROCESS_MITIGATION_ASLR_POLICY, base.process_mitigation_aslr_policy, winnt/PPROCESS_MITIGATION_ASLR_POLICY, winnt/PROCESS_MITIGATION_ASLR_POLICY"
 ms.prod: windows
 ms.technology: windows-sdk

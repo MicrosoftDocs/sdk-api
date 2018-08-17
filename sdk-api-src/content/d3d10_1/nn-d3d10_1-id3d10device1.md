@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device1.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device1.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: ID3D10Device1, ID3D10Device1 interface [Direct3D 10], ID3D10Device1 interface [Direct3D 10],described, a168edcd-989a-13da-7972-09b5d5e9210a, d3d10_1/ID3D10Device1, direct3d10.id3d10device1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,7 @@ Create a blend-state object that encapsules blend state for the output-merger st
 <a href="https://msdn.microsoft.com/en-us/library/Bb694548(v=VS.85).aspx">CreateShaderResourceView1</a>
 </td>
 <td align="left" width="63%">
-Create a shader-resource <a href="https://msdn.microsoft.com/ccfe6273-0dcf-4b42-9d74-665a0b4cd14a">view</a> for accessing data in a resource.
+Create a shader-resource <a href="https://msdn.microsoft.com/en-us/library/Bb205128(v=VS.85).aspx">view</a> for accessing data in a resource.
 
 </td>
 </tr>

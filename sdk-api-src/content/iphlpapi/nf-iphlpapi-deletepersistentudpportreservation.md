@@ -7,7 +7,7 @@ old-location: iphlp\deletepersistentudpportreservation.htm
 old-project: iphlp
 ms.assetid: E6539B3F-48DA-41AA-8AD4-2EBBAF98069F
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: DeletePersistentUdpPortReservation, DeletePersistentUdpPortReservation function [IP Helper], iphlp.deletepersistentudpportreservation, iphlpapi/DeletePersistentUdpPortReservation
 ms.prod: windows
 ms.technology: windows-sdk

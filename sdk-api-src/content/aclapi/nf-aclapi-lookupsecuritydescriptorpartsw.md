@@ -7,7 +7,7 @@ old-location: security\lookupsecuritydescriptorparts.htm
 old-project: secauthz
 ms.assetid: 68c3f56b-6c48-4f4b-bd38-9f4e346c663b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: LookupSecurityDescriptorParts, LookupSecurityDescriptorParts function [Security], LookupSecurityDescriptorPartsA, LookupSecurityDescriptorPartsW, _win32_lookupsecuritydescriptorparts, aclapi/LookupSecurityDescriptorParts, aclapi/LookupSecurityDescriptorPartsA, aclapi/LookupSecurityDescriptorPartsW, security.lookupsecuritydescriptorparts
 ms.prod: windows
 ms.technology: windows-sdk

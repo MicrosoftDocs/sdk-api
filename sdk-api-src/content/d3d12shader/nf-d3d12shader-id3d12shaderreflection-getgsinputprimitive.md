@@ -66,7 +66,7 @@ Gets the geometry-shader input-primitive description.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/d7a83edb-48ab-4e9f-bf2b-790ebb4a14c4">D3D_PRIMITIVE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff728725(v=VS.85).aspx">D3D_PRIMITIVE</a></b>
 
 The input-primitive description.  See
             <a href="https://msdn.microsoft.com/b4becdcc-cc19-4d5a-940b-b232ebedce68">D3D_PRIMITIVE_TOPOLOGY</a>.

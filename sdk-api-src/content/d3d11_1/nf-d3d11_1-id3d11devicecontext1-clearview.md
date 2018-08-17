@@ -62,7 +62,7 @@ Sets all the elements in a resource view to one value.
 
 ### -param pView [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/060973b4-bf7d-4be2-b087-85a5b1bca905">ID3D11View</a> interface that represents the resource view to clear.
+A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Ff476642(v=VS.85).aspx">ID3D11View</a> interface that represents the resource view to clear.
 
 
 ### -param Color [in]
@@ -93,7 +93,7 @@ Returns nothing.
 
 
 
-<b>ClearView</b> works only on render-target views (RTVs), depth/stencil views (DSVs) on depth-only resources (resources with no stencil component), unordered-access views (UAVs), or any video view of a <a href="https://msdn.microsoft.com/e4f9cfd8-65e6-4375-8f87-736bca32cad4">Texture2D</a> surface. The runtime drops invalid calls. Empty rectangles in the <i>pRect</i> array are a no-op. A rectangle is empty if the top value equals the bottom value or the left value equals the right value.
+<b>ClearView</b> works only on render-target views (RTVs), depth/stencil views (DSVs) on depth-only resources (resources with no stencil component), unordered-access views (UAVs), or any video view of a <a href="https://msdn.microsoft.com/en-us/library/Ff471525(v=VS.85).aspx">Texture2D</a> surface. The runtime drops invalid calls. Empty rectangles in the <i>pRect</i> array are a no-op. A rectangle is empty if the top value equals the bottom value or the left value equals the right value.
 
 <b>ClearView</b> doesn’t support 3D textures.
 
@@ -123,7 +123,7 @@ For video views with YUV or YCbBr formats, <b>ClearView</b> doesn't convert colo
 
 
 
-<a href="https://msdn.microsoft.com/DD2A556D-AEF0-407E-A497-CF17ACDEB1A7">ID3D11DeviceContext1</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404598(v=VS.85).aspx">ID3D11DeviceContext1</a>
  
 
  

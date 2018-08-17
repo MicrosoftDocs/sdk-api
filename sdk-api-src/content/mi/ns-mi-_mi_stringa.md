@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_stringa.htm
 old-project: wmi_v2
 ms.assetid: e33c151a-dbf6-4400-a323-8d3731241340
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/13/2018
 ms.keywords: MI_StringA, MI_StringA structure [Windows Management Infrastructure (MI)], _MI_StringA, mi/MI_StringA, wmi._mi_stringa, wmi_v2.mi_stringa
 ms.prod: windows
 ms.technology: windows-sdk

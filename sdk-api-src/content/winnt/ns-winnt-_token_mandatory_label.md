@@ -7,7 +7,7 @@ old-location: security\token_mandatory_label.htm
 old-project: secauthz
 ms.assetid: cf37eb34-ee90-43c6-97a9-c5edfcba2bc5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: "*PTOKEN_MANDATORY_LABEL, PTOKEN_MANDATORY_LABEL, PTOKEN_MANDATORY_LABEL structure pointer [Security], TOKEN_MANDATORY_LABEL, TOKEN_MANDATORY_LABEL structure [Security], _TOKEN_MANDATORY_LABEL, security.token_mandatory_label, winnt/PTOKEN_MANDATORY_LABEL, winnt/TOKEN_MANDATORY_LABEL"
 ms.prod: windows
 ms.technology: windows-sdk

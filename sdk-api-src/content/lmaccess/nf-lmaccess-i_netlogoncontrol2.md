@@ -60,9 +60,9 @@ The <b>I_NetLogonControl2</b> function controls various aspects of the Netlogon 
 
 
 
-### -param OPTIONAL
+### -param ServerName [in, optional]
 
-TBD
+The name of the remote server.
 
 
 ### -param FunctionCode [in]
@@ -219,11 +219,6 @@ Carries input data that depends on the value specified in the <i>FunctionCode</i
 Returns a pointer to a buffer that contains the requested information in the structure passed in the <i>QueryLevel</i> parameter.
 
  The buffer must be freed using <a href="https://msdn.microsoft.com/0e99483c-8cd7-402a-8bf6-1e0118764dd3">NetApiBufferFree</a>.
-
-
-#### - ServerName [in, optional]
-
-The name of the remote server.
 
 
 ## -returns

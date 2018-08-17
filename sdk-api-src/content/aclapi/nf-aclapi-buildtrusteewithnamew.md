@@ -7,7 +7,7 @@ old-location: security\buildtrusteewithname.htm
 old-project: secauthz
 ms.assetid: a66c23ac-8211-40fd-bfe8-ef9089bf3745
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: BuildTrusteeWithName, BuildTrusteeWithName function [Security], BuildTrusteeWithNameA, BuildTrusteeWithNameW, MultipleTrusteeOperation, TrusteeForm, TrusteeType, _win32_buildtrusteewithname, aclapi/BuildTrusteeWithName, aclapi/BuildTrusteeWithNameA, aclapi/BuildTrusteeWithNameW, pMultipleTrustee, security.buildtrusteewithname
 ms.prod: windows
 ms.technology: windows-sdk

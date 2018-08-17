@@ -92,7 +92,7 @@ The <b>IFaxIncomingMessage2</b> interface has these methods.
 <a href="https://msdn.microsoft.com/en-us/library/Aa359002(v=VS.85).aspx">Refresh</a>
 </td>
 <td align="left" width="63%">
-Refreshes <a href="https://msdn.microsoft.com/en-us/library/ms686126(v=VS.85).aspx">FaxIncomingMessage</a> object information from the fax server. When the <a href="https://msdn.microsoft.com/en-us/library/Aa359002(v=VS.85).aspx">Refresh</a> method is called, any configuration changes made after the last <a href="https://msdn.microsoft.com/6778fa8e-6abb-40c3-92bc-cc98dd20fba4">Save</a> method call are lost, except for the properties that are committed with the <a href="https://msdn.microsoft.com/en-us/library/Aa358998(v=VS.85).aspx">IFaxIncomingMessage2::Reassign</a> method: <a href="https://msdn.microsoft.com/en-us/library/Aa359006(v=VS.85).aspx">IFaxIncomingMessage2::Subject</a>, <a href="https://msdn.microsoft.com/en-us/library/Aa359005(v=VS.85).aspx">IFaxIncomingMessage2::SenderName</a>, <a href="https://msdn.microsoft.com/en-us/library/Aa359004(v=VS.85).aspx">IFaxIncomingMessage2::SenderFaxNumber</a>, and <a href="https://msdn.microsoft.com/en-us/library/Aa358996(v=VS.85).aspx">IFaxIncomingMessage2::HasCoverPage</a>.
+Refreshes <a href="https://msdn.microsoft.com/en-us/library/ms686126(v=VS.85).aspx">FaxIncomingMessage</a> object information from the fax server. When the <a href="https://msdn.microsoft.com/en-us/library/Aa359002(v=VS.85).aspx">Refresh</a> method is called, any configuration changes made after the last <a href="https://msdn.microsoft.com/en-us/library/Aa359003(v=VS.85).aspx">Save</a> method call are lost, except for the properties that are committed with the <a href="https://msdn.microsoft.com/en-us/library/Aa358998(v=VS.85).aspx">IFaxIncomingMessage2::Reassign</a> method: <a href="https://msdn.microsoft.com/en-us/library/Aa359006(v=VS.85).aspx">IFaxIncomingMessage2::Subject</a>, <a href="https://msdn.microsoft.com/en-us/library/Aa359005(v=VS.85).aspx">IFaxIncomingMessage2::SenderName</a>, <a href="https://msdn.microsoft.com/en-us/library/Aa359004(v=VS.85).aspx">IFaxIncomingMessage2::SenderFaxNumber</a>, and <a href="https://msdn.microsoft.com/en-us/library/Aa358996(v=VS.85).aspx">IFaxIncomingMessage2::HasCoverPage</a>.
 
 
 
@@ -102,7 +102,7 @@ Refreshes <a href="https://msdn.microsoft.com/en-us/library/ms686126(v=VS.85).as
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6778fa8e-6abb-40c3-92bc-cc98dd20fba4">Save</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359003(v=VS.85).aspx">Save</a>
 </td>
 <td align="left" width="63%">
 Saves the <a href="https://msdn.microsoft.com/en-us/library/ms686126(v=VS.85).aspx">FaxIncomingMessage</a> object's data.
@@ -144,7 +144,7 @@ A flag that indicates whether the fax has a cover page.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/16c01419-7877-4ab7-ad21-6506e826be83">Read</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358997(v=VS.85).aspx">Read</a>
 
 
 </td>
@@ -204,7 +204,7 @@ Contains the sender's fax number associated with the inbound fax message. This p
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/dba0099d-bf47-47e0-8a83-39a2fe9f4793">SenderName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359005(v=VS.85).aspx">SenderName</a>
 
 
 </td>

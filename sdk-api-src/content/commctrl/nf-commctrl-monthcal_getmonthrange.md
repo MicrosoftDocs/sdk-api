@@ -61,14 +61,14 @@ Retrieves date information (using <a href="https://msdn.microsoft.com/f77cdf86-0
 
 ### -param hmc
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 Handle to a month calendar control. 
 
 
 ### -param gmr
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
 
 Value specifying the scope of the range limits to be retrieved. This value must be one of the following: 
 

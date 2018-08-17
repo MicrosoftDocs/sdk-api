@@ -7,7 +7,7 @@ old-location: security\iazapplication3_createscope2.htm
 old-project: secauthz
 ms.assetid: f1e8bfe6-e074-4e9e-80f8-bcb8bd90f824
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: CreateScope2, CreateScope2 method [Security], CreateScope2 method [Security],IAzApplication3 interface, IAzApplication3 interface [Security],CreateScope2 method, IAzApplication3.CreateScope2, IAzApplication3::CreateScope2, azroles/IAzApplication3::CreateScope2, security.iazapplication3_createscope2
 ms.prod: windows
 ms.technology: windows-sdk

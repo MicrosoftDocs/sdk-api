@@ -4,10 +4,10 @@ title: GetProfileSectionW function
 author: windows-sdk-content
 description: Retrieves all the keys and values for the specified section of the Win.ini file.
 old-location: base\getprofilesection.htm
-old-project: SysInfo
+old-project: sysinfo
 ms.assetid: cc90811b-5e7b-4c75-987b-57f36a9408c5
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/10/2018
 ms.keywords: GetProfileSection, GetProfileSection function, GetProfileSectionA, GetProfileSectionW, _win32_getprofilesection, base.getprofilesection, winbase/GetProfileSection, winbase/GetProfileSectionA, winbase/GetProfileSectionW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_sosettargets.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_sosettargets.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: ID3D10Device interface [Direct3D 10],SOSetTargets method, ID3D10Device.SOSetTargets, ID3D10Device::SOSetTargets, SOSetTargets, SOSetTargets method [Direct3D 10], SOSetTargets method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::SOSetTargets, direct3d10.id3d10device_sosettargets, ff1f3d28-095a-2fa4-65ed-d7fd2370cc17
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-Set the target output <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">buffers</a> for the <a href="https://msdn.microsoft.com/en-us/library/Bb205121(v=VS.85).aspx">StreamOutput</a> stage, which enables/disables the pipeline to stream-out data.
+Set the target output <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">buffers</a> for the <a href="https://msdn.microsoft.com/en-us/library/Bb205121(v=VS.85).aspx">StreamOutput</a> stage, which enables/disables the pipeline to stream-out data.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Set the target output <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5a
 
 ### -param NumBuffers [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 The number of buffer to bind to the device. A maximum of four output buffers can be set. If less than four are defined by the call, the remaining buffer slots are set to <b>NULL</b>. See Remarks.
 
@@ -76,7 +76,7 @@ The array of output buffers (see <a href="https://msdn.microsoft.com/en-us/libra
 
 ### -param pOffsets [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a>*</b>
 
 Array of offsets to the output buffers from <i>ppSOTargets</i>, one offset for each buffer. The offset values must be in bytes.
 

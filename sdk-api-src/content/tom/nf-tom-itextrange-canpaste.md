@@ -148,7 +148,7 @@ The clipboard contents or <a href="https://msdn.microsoft.com/8a002deb-2727-456c
 
 
 
-<a href="https://msdn.microsoft.com/4e998d86-e101-4bea-8389-3760e9289151">Copy</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787742(v=VS.85).aspx">Copy</a>
 
 
 

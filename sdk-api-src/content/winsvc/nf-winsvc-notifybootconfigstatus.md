@@ -7,7 +7,7 @@ old-location: base\notifybootconfigstatus.htm
 old-project: services
 ms.assetid: 0b2b9cd0-f897-4681-9e99-5d0bed986112
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: NotifyBootConfigStatus, NotifyBootConfigStatus function, _win32_notifybootconfigstatus, base.notifybootconfigstatus, winsvc/NotifyBootConfigStatus
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\duplicatetokenex.htm
 old-project: secauthz
 ms.assetid: 96b13826-0ac7-4d70-9c21-eeb343f6b823
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: DuplicateTokenEx, DuplicateTokenEx function [Security], TokenImpersonation, TokenPrimary, _win32_duplicatetokenex, security.duplicatetokenex, securitybaseapi/DuplicateTokenEx
 ms.prod: windows
 ms.technology: windows-sdk

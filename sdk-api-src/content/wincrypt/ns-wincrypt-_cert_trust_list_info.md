@@ -4,10 +4,10 @@ title: "_CERT_TRUST_LIST_INFO"
 author: windows-sdk-content
 description: The CERT_TRUST_LIST_INFO structure that indicates valid usage of a CTL.
 old-location: security\cert_trust_list_info.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 774f5626-9b48-4585-b713-adbf191861cc
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: "*PCERT_TRUST_LIST_INFO, CERT_TRUST_LIST_INFO, CERT_TRUST_LIST_INFO structure [Security], PCERT_TRUST_LIST_INFO, PCERT_TRUST_LIST_INFO structure pointer [Security], _CERT_TRUST_LIST_INFO, _crypto2_cert_trust_list_info, security.cert_trust_list_info, wincrypt/CERT_TRUST_LIST_INFO, wincrypt/PCERT_TRUST_LIST_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Event identifier codes describing events to be received or excluded by an event sink. Used with the <a href="https://msdn.microsoft.com/ecb10da3-7566-43f7-8349-f94e59e12907">IOfflineFilesEventsFilter::GetIncludedEvents</a> and <a href="https://msdn.microsoft.com/40e388b2-b051-4b0a-b96e-7a73b521758e">IOfflineFilesEventsFilter::GetExcludedEvents</a> methods.
+Event identifier codes describing events to be received or excluded by an event sink. Used with the <a href="https://msdn.microsoft.com/en-us/library/Bb530535(v=VS.85).aspx">IOfflineFilesEventsFilter::GetIncludedEvents</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb530533(v=VS.85).aspx">IOfflineFilesEventsFilter::GetExcludedEvents</a> methods.
 
 
 ## -enum-fields
@@ -86,122 +86,122 @@ This value is reserved for future use.
 
 ### -field OFFLINEFILES_EVENT_SYNCBEGIN
 
-Represents the <a href="https://msdn.microsoft.com/ba09be0a-52bc-4715-9756-383954277a31">IOfflineFilesEvents::SyncBegin</a> event method.
+Represents the <a href="https://msdn.microsoft.com/en-us/library/Bb530559(v=VS.85).aspx">IOfflineFilesEvents::SyncBegin</a> event method.
 
 
 ### -field OFFLINEFILES_EVENT_SYNCFILERESULT
 
-Represents the <a href="https://msdn.microsoft.com/3770e966-7481-449e-9b57-44a7329d26db">IOfflineFilesEvents::SyncFileResult</a> event method.
+Represents the <a href="https://msdn.microsoft.com/en-us/library/Bb530564(v=VS.85).aspx">IOfflineFilesEvents::SyncFileResult</a> event method.
 
 
 ### -field OFFLINEFILES_EVENT_SYNCCONFLICTRECADDED
 
-Represents the <a href="https://msdn.microsoft.com/693306de-d968-4857-8221-965b2f271aae">IOfflineFilesEvents::SyncConflictRecAdded</a> event method.
+Represents the <a href="https://msdn.microsoft.com/en-us/library/Bb530560(v=VS.85).aspx">IOfflineFilesEvents::SyncConflictRecAdded</a> event method.
 
 
 ### -field OFFLINEFILES_EVENT_SYNCCONFLICTRECUPDATED
 
-Represents the <a href="https://msdn.microsoft.com/adf13e95-bcb0-4f84-bbb9-9648f90f3be8">IOfflineFilesEvents::SyncConflictRecUpdated</a> event method.
+Represents the <a href="https://msdn.microsoft.com/en-us/library/Bb530562(v=VS.85).aspx">IOfflineFilesEvents::SyncConflictRecUpdated</a> event method.
 
 
 ### -field OFFLINEFILES_EVENT_SYNCCONFLICTRECREMOVED
 
-Represents the <a href="https://msdn.microsoft.com/ccdd7b74-3e00-4a3d-9632-eac48d790f23">IOfflineFilesEvents::SyncConflictRecRemoved</a> event method.
+Represents the <a href="https://msdn.microsoft.com/en-us/library/Bb530561(v=VS.85).aspx">IOfflineFilesEvents::SyncConflictRecRemoved</a> event method.
 
 
 ### -field OFFLINEFILES_EVENT_SYNCEND
 
-Represents the <a href="https://msdn.microsoft.com/2b4b32b9-7268-4f79-8eac-640a6c62b0c1">IOfflineFilesEvents::SyncEnd</a> event method.
+Represents the <a href="https://msdn.microsoft.com/en-us/library/Bb530563(v=VS.85).aspx">IOfflineFilesEvents::SyncEnd</a> event method.
 
 
 ### -field OFFLINEFILES_EVENT_BACKGROUNDSYNCBEGIN
 
-Represents the <a href="https://msdn.microsoft.com/84b71228-904a-4042-8d13-422ae77f7ba5">IOfflineFilesEvents2::BackgroundSyncBegin</a> event method.
+Represents the <a href="https://msdn.microsoft.com/en-us/library/Bb530522(v=VS.85).aspx">IOfflineFilesEvents2::BackgroundSyncBegin</a> event method.
 
 
 ### -field OFFLINEFILES_EVENT_BACKGROUNDSYNCEND
 
-Represents the <a href="https://msdn.microsoft.com/d41a2152-8100-47a7-a994-a0fe9fae4dc4">IOfflineFilesEvents2::BackgroundSyncEnd</a> event method.
+Represents the <a href="https://msdn.microsoft.com/en-us/library/Bb530524(v=VS.85).aspx">IOfflineFilesEvents2::BackgroundSyncEnd</a> event method.
 
 
 ### -field OFFLINEFILES_EVENT_NETTRANSPORTARRIVED
 
-Represents the <a href="https://msdn.microsoft.com/ac44010b-b14f-41d7-89f7-6f7822ed2a5d">IOfflineFilesEvents::NetTransportArrived</a> event method.
+Represents the <a href="https://msdn.microsoft.com/en-us/library/Bb530556(v=VS.85).aspx">IOfflineFilesEvents::NetTransportArrived</a> event method.
 
 
 ### -field OFFLINEFILES_EVENT_NONETTRANSPORTS
 
-Represents the <a href="https://msdn.microsoft.com/4970acd4-b99d-4d7a-a0bc-04c10a4423b8">IOfflineFilesEvents::NoNetTransports</a> event method.
+Represents the <a href="https://msdn.microsoft.com/en-us/library/Bb530557(v=VS.85).aspx">IOfflineFilesEvents::NoNetTransports</a> event method.
 
 
 ### -field OFFLINEFILES_EVENT_ITEMDISCONNECTED
 
-Represents the <a href="https://msdn.microsoft.com/b0f9d873-cda5-4805-bb5e-d23d47b53f1d">IOfflineFilesEvents::ItemDisconnected</a> event method.
+Represents the <a href="https://msdn.microsoft.com/en-us/library/Bb530548(v=VS.85).aspx">IOfflineFilesEvents::ItemDisconnected</a> event method.
 
 
 ### -field OFFLINEFILES_EVENT_ITEMRECONNECTED
 
-Represents the <a href="https://msdn.microsoft.com/beafae9d-3ef8-401f-8ab6-79d2ae3366a4">IOfflineFilesEvents::ItemReconnected</a> event method.
+Represents the <a href="https://msdn.microsoft.com/en-us/library/Bb530553(v=VS.85).aspx">IOfflineFilesEvents::ItemReconnected</a> event method.
 
 
 ### -field OFFLINEFILES_EVENT_ITEMAVAILABLEOFFLINE
 
-Represents the <a href="https://msdn.microsoft.com/6c629ede-00ee-4f5e-9f75-022e3c5b3957">IOfflineFilesEvents::ItemAvailableOffline</a> event method.
+Represents the <a href="https://msdn.microsoft.com/en-us/library/Bb530546(v=VS.85).aspx">IOfflineFilesEvents::ItemAvailableOffline</a> event method.
 
 
 ### -field OFFLINEFILES_EVENT_ITEMNOTAVAILABLEOFFLINE
 
-Represents the <a href="https://msdn.microsoft.com/868938fd-9da2-45fd-a00e-5dda85b4fd61">IOfflineFilesEvents::ItemNotAvailableOffline</a> event method.
+Represents the <a href="https://msdn.microsoft.com/en-us/library/Bb530550(v=VS.85).aspx">IOfflineFilesEvents::ItemNotAvailableOffline</a> event method.
 
 
 ### -field OFFLINEFILES_EVENT_ITEMPINNED
 
-Represents the <a href="https://msdn.microsoft.com/cf298e4e-97c8-4f6f-b6f5-0bd0d9435599">IOfflineFilesEvents::ItemPinned</a> event method.
+Represents the <a href="https://msdn.microsoft.com/en-us/library/Bb530552(v=VS.85).aspx">IOfflineFilesEvents::ItemPinned</a> event method.
 
 
 ### -field OFFLINEFILES_EVENT_ITEMNOTPINNED
 
-Represents the <a href="https://msdn.microsoft.com/cefd7408-9e98-48a4-ad43-0bdef9da1c95">IOfflineFilesEvents::ItemNotPinned</a> event method.
+Represents the <a href="https://msdn.microsoft.com/en-us/library/Bb530551(v=VS.85).aspx">IOfflineFilesEvents::ItemNotPinned</a> event method.
 
 
 ### -field OFFLINEFILES_EVENT_ITEMMODIFIED
 
-Represents the <a href="https://msdn.microsoft.com/e689b111-d6d1-436e-b468-570e575a5170">IOfflineFilesEvents::ItemModified</a> event method.
+Represents the <a href="https://msdn.microsoft.com/en-us/library/Bb530549(v=VS.85).aspx">IOfflineFilesEvents::ItemModified</a> event method.
 
 
 ### -field OFFLINEFILES_EVENT_ITEMADDEDTOCACHE
 
-Represents the <a href="https://msdn.microsoft.com/7ab04b07-f72a-4a04-a470-4b85c21005c0">IOfflineFilesEvents::ItemAddedToCache</a> event method.
+Represents the <a href="https://msdn.microsoft.com/en-us/library/Bb530545(v=VS.85).aspx">IOfflineFilesEvents::ItemAddedToCache</a> event method.
 
 
 ### -field OFFLINEFILES_EVENT_ITEMDELETEDFROMCACHE
 
-Represents the <a href="https://msdn.microsoft.com/358b358a-65cc-4f37-8beb-be492b83c222">IOfflineFilesEvents::ItemDeletedFromCache</a> event method.
+Represents the <a href="https://msdn.microsoft.com/en-us/library/Bb530547(v=VS.85).aspx">IOfflineFilesEvents::ItemDeletedFromCache</a> event method.
 
 
 ### -field OFFLINEFILES_EVENT_ITEMRENAMED
 
-Represents the <a href="https://msdn.microsoft.com/f1a678dd-9a02-41da-90d4-930c0d366a36">IOfflineFilesEvents::ItemRenamed</a> event method.
+Represents the <a href="https://msdn.microsoft.com/en-us/library/Bb530554(v=VS.85).aspx">IOfflineFilesEvents::ItemRenamed</a> event method.
 
 
 ### -field OFFLINEFILES_EVENT_DATALOST
 
-Represents the <a href="https://msdn.microsoft.com/da0414dd-2acb-48d9-ac84-66bb1f7ccbef">IOfflineFilesEvents::DataLost</a> event method.
+Represents the <a href="https://msdn.microsoft.com/en-us/library/Bb530541(v=VS.85).aspx">IOfflineFilesEvents::DataLost</a> event method.
 
 
 ### -field OFFLINEFILES_EVENT_PING
 
-Represents the <a href="https://msdn.microsoft.com/edde2f37-f082-4382-8908-181bc42d30ef">IOfflineFilesEvents::Ping</a> event method.
+Represents the <a href="https://msdn.microsoft.com/en-us/library/Bb530558(v=VS.85).aspx">IOfflineFilesEvents::Ping</a> event method.
 
 
 ### -field OFFLINEFILES_EVENT_ITEMRECONNECTBEGIN
 
-Represents the <a href="https://msdn.microsoft.com/7b0d112d-17be-481a-8793-2b57506ec7b2">IOfflineFilesEvents2::ItemReconnectBegin</a> event method.
+Represents the <a href="https://msdn.microsoft.com/en-us/library/Bb530527(v=VS.85).aspx">IOfflineFilesEvents2::ItemReconnectBegin</a> event method.
 
 
 ### -field OFFLINEFILES_EVENT_ITEMRECONNECTEND
 
-Represents the <a href="https://msdn.microsoft.com/929d6556-69cb-4863-a665-236603fcd88b">IOfflineFilesEvents2::ItemReconnectEnd</a> event method.
+Represents the <a href="https://msdn.microsoft.com/en-us/library/Bb530528(v=VS.85).aspx">IOfflineFilesEvents2::ItemReconnectEnd</a> event method.
 
 
 ### -field OFFLINEFILES_EVENT_CACHEEVICTBEGIN
@@ -216,36 +216,36 @@ This value is reserved for future use.
 
 ### -field OFFLINEFILES_EVENT_POLICYCHANGEDETECTED
 
-Represents the <a href="https://msdn.microsoft.com/1009c67a-09f4-40ea-8aa9-fb42f1ab54ff">IOfflineFilesEvents2::PolicyChangeDetected</a> event method.
+Represents the <a href="https://msdn.microsoft.com/en-us/library/Bb530529(v=VS.85).aspx">IOfflineFilesEvents2::PolicyChangeDetected</a> event method.
 
 
 ### -field OFFLINEFILES_EVENT_PREFERENCECHANGEDETECTED
 
-Represents the <a href="https://msdn.microsoft.com/c947d9e5-2712-4dbd-8806-79a8bf0f4cc9">IOfflineFilesEvents2::PreferenceChangeDetected</a> event method.
+Represents the <a href="https://msdn.microsoft.com/en-us/library/Bb530530(v=VS.85).aspx">IOfflineFilesEvents2::PreferenceChangeDetected</a> event method.
 
 
 ### -field OFFLINEFILES_EVENT_SETTINGSCHANGESAPPLIED
 
-Represents the <a href="https://msdn.microsoft.com/af59c8ac-ecd4-48e7-9ebb-8802e7d6ffef">IOfflineFilesEvents2::SettingsChangesApplied</a> event method.
+Represents the <a href="https://msdn.microsoft.com/en-us/library/Bb530531(v=VS.85).aspx">IOfflineFilesEvents2::SettingsChangesApplied</a> event method.
 
 
 ### -field OFFLINEFILES_EVENT_TRANSPARENTCACHEITEMNOTIFY
 
-Represents the <a href="https://msdn.microsoft.com/59bd7a71-0189-4c4d-a737-e6a3f09a533d">IOfflineFilesEvents3::TransparentCacheItemNotify</a> event method.
+Represents the <a href="https://msdn.microsoft.com/en-us/library/Dd442648(v=VS.85).aspx">IOfflineFilesEvents3::TransparentCacheItemNotify</a> event method.
 
 <b>Windows Server 2008 and Windows Vista:  </b>This value is not supported before Windows Server 2008 R2 and Windows 7.
 
 
 ### -field OFFLINEFILES_EVENT_PREFETCHFILEBEGIN
 
-Represents the <a href="https://msdn.microsoft.com/b65354ed-dc4b-491c-9672-2f5fa91093bd">IOfflineFilesEvents3::PrefetchFileBegin</a> event method.
+Represents the <a href="https://msdn.microsoft.com/en-us/library/Dd442646(v=VS.85).aspx">IOfflineFilesEvents3::PrefetchFileBegin</a> event method.
 
 <b>Windows Server 2008 and Windows Vista:  </b>This value is not supported before Windows Server 2008 R2 and Windows 7.
 
 
 ### -field OFFLINEFILES_EVENT_PREFETCHFILEEND
 
-Represents the <a href="https://msdn.microsoft.com/d5370d39-dd66-49c1-8774-cf335aa88e96">IOfflineFilesEvents3::PrefetchFileEnd</a> event method.
+Represents the <a href="https://msdn.microsoft.com/en-us/library/Dd442647(v=VS.85).aspx">IOfflineFilesEvents3::PrefetchFileEnd</a> event method.
 
 <b>Windows Server 2008 and Windows Vista:  </b>This value is not supported before Windows Server 2008 R2 and Windows 7.
 
@@ -266,11 +266,11 @@ Represents the <a href="https://msdn.microsoft.com/d5370d39-dd66-49c1-8774-cf335
 
 
 
-<a href="https://msdn.microsoft.com/40e388b2-b051-4b0a-b96e-7a73b521758e">IOfflineFilesEventsFilter::GetExcludedEvents</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530533(v=VS.85).aspx">IOfflineFilesEventsFilter::GetExcludedEvents</a>
 
 
 
-<a href="https://msdn.microsoft.com/ecb10da3-7566-43f7-8349-f94e59e12907">IOfflineFilesEventsFilter::GetIncludedEvents</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530535(v=VS.85).aspx">IOfflineFilesEventsFilter::GetIncludedEvents</a>
  
 
  

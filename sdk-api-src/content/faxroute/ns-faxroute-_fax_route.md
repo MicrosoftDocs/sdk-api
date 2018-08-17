@@ -126,7 +126,7 @@ Pointer to a constant null-terminated Unicode character string that specifies th
 
 <code>Canonical-Phone-Number[|Additional-Routing-Info]</code>
 
-where <code>Canonical-Phone-Number</code> is defined in the <a href="_tapi3_address_ovr">Address</a> topic of the TAPI documentation (see the Canonical Address subheading); and <code>Additional-Routing-Info</code> is the <i>subaddress</i> of a Canonical Address, and uses the subaddress format.
+where <code>Canonical-Phone-Number</code> is defined in the <a href="https://msdn.microsoft.com/en-us/library/ms726017(v=VS.85).aspx">Address</a> topic of the TAPI documentation (see the Canonical Address subheading); and <code>Additional-Routing-Info</code> is the <i>subaddress</i> of a Canonical Address, and uses the subaddress format.
 
 
 ### -field ReceiverName

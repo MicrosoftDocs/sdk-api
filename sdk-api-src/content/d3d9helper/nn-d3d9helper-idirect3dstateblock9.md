@@ -90,7 +90,7 @@ Capture the current value of states that are included in a stateblock.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a720c9c6-c974-4bd7-a5f9-25457503e9da">GetDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205891(v=VS.85).aspx">GetDevice</a>
 </td>
 <td align="left" width="63%">
 Gets the device.

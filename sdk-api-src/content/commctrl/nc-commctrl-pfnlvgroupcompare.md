@@ -77,21 +77,21 @@ The <b>LVGroupCompare</b> function is an application-defined callback function u
 
 #### - Group1_ID [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">INT</a></b>
 
 The ID of the first group.
 
 
 #### - Group2_ID [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">INT</a></b>
 
 The ID of the second group.
 
 
 #### - pvData [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">VOID</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">VOID</a>*</b>
 
 A pointer to the application-defined information. This comes from the message that was called; for <a href="https://msdn.microsoft.com/en-us/library/Bb761105(v=VS.85).aspx">LVM_INSERTGROUPSORTED</a> it is <a href="https://msdn.microsoft.com/en-us/library/Bb774756(v=VS.85).aspx">LVINSERTGROUPSORTED.pvData</a>, and for <a href="https://msdn.microsoft.com/en-us/library/Bb761225(v=VS.85).aspx">LVM_SORTGROUPS</a> it is the <i>plv</i> parameter.
 
@@ -100,7 +100,7 @@ A pointer to the application-defined information. This comes from the message th
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">INT</a></b>
 
 Returns a negative value if the data for <i>Group1_ID</i> is less than the data for <i>Group2_ID</i>, a positive value if it is greater, or zero if it is the same.
 

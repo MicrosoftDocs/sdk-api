@@ -54,7 +54,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Replies to a message sent from another thread by the <a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a> function.
+Replies to a message sent from another thread by the <a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a> function.
 
 
 ## -parameters
@@ -87,9 +87,9 @@ If the calling thread was not processing a message sent from another thread or p
 
 
 
-By calling this function, the window procedure that receives the message allows the thread that called <a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a> to continue to run as though the thread receiving the message had returned control. The thread that calls the <b>ReplyMessage</b> function also continues to run. 
+By calling this function, the window procedure that receives the message allows the thread that called <a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a> to continue to run as though the thread receiving the message had returned control. The thread that calls the <b>ReplyMessage</b> function also continues to run. 
 
-If the message was not sent through <a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a> or if the message was sent by the same thread, <b>ReplyMessage</b> has no effect. 
+If the message was not sent through <a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a> or if the message was sent by the same thread, <b>ReplyMessage</b> has no effect. 
 
 
 #### Examples
@@ -121,7 +121,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644928(v
 
 
 
-<a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a>
  
 
  

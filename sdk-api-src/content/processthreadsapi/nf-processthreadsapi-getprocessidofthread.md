@@ -7,7 +7,7 @@ old-location: base\getprocessidofthread.htm
 old-project: procthread
 ms.assetid: 1878088b-e0fd-4009-b608-f491805948b5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: GetProcessIdOfThread, GetProcessIdOfThread function, base.getprocessidofthread, processthreadsapi/GetProcessIdOfThread, winbase/GetProcessIdOfThread
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: PSS_VA_SPACE_INFORMATION
+req.typenames: PROCESS_MEMORY_EXHAUSTION_TYPE, *PPROCESS_MEMORY_EXHAUSTION_TYPE
 topic_type:
  - APIRef
  - kbSyntax

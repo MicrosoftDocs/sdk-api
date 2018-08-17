@@ -4,10 +4,10 @@ title: TdhGetWppProperty function
 author: windows-sdk-content
 description: Retrieves a specific property associated with a WPP message.
 old-location: etw\tdhgetwppproperty.htm
-old-project: ETW
+old-project: etw
 ms.assetid: a9c5ed0f-af6f-4500-9ef7-bc60b8911ea0
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/08/2018
 ms.keywords: TdhGetWppProperty, TdhGetWppProperty function [ETW], etw.tdhgetwppproperty, tdh/TdhGetWppProperty
 ms.prod: windows
 ms.technology: windows-sdk

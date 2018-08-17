@@ -7,7 +7,7 @@ old-location: base\userhandlegrantaccess.htm
 old-project: procthread
 ms.assetid: 6e7a6cfc-f881-43cc-a5af-b97e0bf14bf4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: UserHandleGrantAccess, UserHandleGrantAccess function, _win32_userhandlegrantaccess, base.userhandlegrantaccess, winuser/UserHandleGrantAccess
 ms.prod: windows
 ms.technology: windows-sdk

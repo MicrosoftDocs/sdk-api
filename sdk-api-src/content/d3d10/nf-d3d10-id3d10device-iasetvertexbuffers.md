@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_iasetvertexbuffers.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_iasetvertexbuffers.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: IASetVertexBuffers, IASetVertexBuffers method [Direct3D 10], IASetVertexBuffers method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],IASetVertexBuffers method, ID3D10Device.IASetVertexBuffers, ID3D10Device::IASetVertexBuffers, d3d10/ID3D10Device::IASetVertexBuffers, db68f354-a2bd-412e-0600-c324eb254808, direct3d10.id3d10device_iasetvertexbuffers
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,14 +62,14 @@ Bind an array of <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS
 
 ### -param StartSlot [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
-The first <a href="https://msdn.microsoft.com/en-us/library/Bb205117(v=VS.85).aspx">input slot</a> for binding. The first vertex buffer is explicitly bound to the start slot; this causes each additional vertex buffer in the array to be implicitly bound to each subsequent input slot. A maximum of 16 or 32 input slots (ranges from 0 to either D3D10_IA_VERTEX_INPUT_RESOURCE_SLOT_COUNT - 1 or D3D10_1_IA_VERTEX_INPUT_RESOURCE_SLOT_COUNT - 1) are available; the <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">maximum number of input slots depends on the feature level</a>.
+The first <a href="https://msdn.microsoft.com/en-us/library/Bb205117(v=VS.85).aspx">input slot</a> for binding. The first vertex buffer is explicitly bound to the start slot; this causes each additional vertex buffer in the array to be implicitly bound to each subsequent input slot. A maximum of 16 or 32 input slots (ranges from 0 to either D3D10_IA_VERTEX_INPUT_RESOURCE_SLOT_COUNT - 1 or D3D10_1_IA_VERTEX_INPUT_RESOURCE_SLOT_COUNT - 1) are available; the <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">maximum number of input slots depends on the feature level</a>.
 
 
 ### -param NumBuffers [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 The number of vertex buffers in the array. The number of buffers (plus the starting slot) cannot exceed the total number of IA-stage input slots.
 
@@ -83,14 +83,14 @@ A pointer to an array of vertex buffers (see <a href="https://msdn.microsoft.com
 
 ### -param pStrides [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a>*</b>
 
 Pointer to an array of stride values; one stride value for each buffer in the vertex-buffer array. Each stride is the size (in bytes) of the elements that are to be used from that vertex buffer.
 
 
 ### -param pOffsets [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a>*</b>
 
 Pointer to an array of offset values; one offset value for each buffer in the vertex-buffer array. Each offset is the number of bytes between the first element of a vertex buffer and the first element that will be used.
 

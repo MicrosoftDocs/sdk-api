@@ -192,7 +192,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">li
 
 ### -field WMT_INDIVIDUALIZE
 
-<a href="wmformat_glossary.htm">Individualization</a> status message.
+<a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">Individualization</a> status message.
 
 
 ### -field WMT_NEEDS_INDIVIDUALIZATION

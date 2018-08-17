@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Specifies the data type of the memory pointed to by the <i>pData</i> parameter of <a href="https://msdn.microsoft.com/D97086C6-CED8-4C4E-ADA1-7A172B3202F3">ID3D12DebugDevice1::SetDebugParameter</a> and <a href="https://msdn.microsoft.com/13A7E7D6-FF00-4E17-A7C5-C383F93F6A06">ID3D12DebugDevice1::GetDebugParameter</a>.
+Specifies the data type of the memory pointed to by the <i>pData</i> parameter of <a href="https://msdn.microsoft.com/en-us/library/Mt762994(v=VS.85).aspx">ID3D12DebugDevice1::SetDebugParameter</a> and <a href="https://msdn.microsoft.com/en-us/library/Mt762992(v=VS.85).aspx">ID3D12DebugDevice1::GetDebugParameter</a>.
 
 
 ## -enum-fields
@@ -61,17 +61,17 @@ Specifies the data type of the memory pointed to by the <i>pData</i> parameter o
 
 ### -field D3D12_DEBUG_DEVICE_PARAMETER_FEATURE_FLAGS
 
-Indicates <i>pData</i> points to a <a href="https://msdn.microsoft.com/36E0A5DC-8313-4D9D-988C-21E6FFCC8730">D3D12_DEBUG_FEATURE</a> value.
+Indicates <i>pData</i> points to a <a href="https://msdn.microsoft.com/en-us/library/Dn950141(v=VS.85).aspx">D3D12_DEBUG_FEATURE</a> value.
 
 
 ### -field D3D12_DEBUG_DEVICE_PARAMETER_GPU_BASED_VALIDATION_SETTINGS
 
-Indicates <i>pData</i> points to a <a href="https://msdn.microsoft.com/2C4E7A8D-CC42-4C2E-848E-7DA3ECA24391">D3D12_DEBUG_DEVICE_GPU_BASED_VALIDATION_SETTINGS</a> structure.
+Indicates <i>pData</i> points to a <a href="https://msdn.microsoft.com/en-us/library/Mt762981(v=VS.85).aspx">D3D12_DEBUG_DEVICE_GPU_BASED_VALIDATION_SETTINGS</a> structure.
 
 
 ### -field D3D12_DEBUG_DEVICE_PARAMETER_GPU_SLOWDOWN_PERFORMANCE_FACTOR
 
-Indicates <i>pData</i> points to a <a href="https://msdn.microsoft.com/C137DFAA-7AB9-49A6-882D-61ADE6E9E046">D3D12_DEBUG_DEVICE_GPU_SLOWDOWN_PERFORMANCE_FACTOR</a> structure.
+Indicates <i>pData</i> points to a <a href="https://msdn.microsoft.com/en-us/library/Mt492554(v=VS.85).aspx">D3D12_DEBUG_DEVICE_GPU_SLOWDOWN_PERFORMANCE_FACTOR</a> structure.
 
 
 ## -see-also
@@ -79,11 +79,11 @@ Indicates <i>pData</i> points to a <a href="https://msdn.microsoft.com/C137DFAA-
 
 
 
-<a href="https://msdn.microsoft.com/6E76C857-128E-4F0E-9711-72C4CF6C835C">Debug Layer Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn950149(v=VS.85).aspx">Debug Layer Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/01D1F94F-4DD4-4781-86EF-6C639E8B1069">Using D3D12 Debug Layer GPU-Based Validation</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt490477(v=VS.85).aspx">Using D3D12 Debug Layer GPU-Based Validation</a>
  
 
  

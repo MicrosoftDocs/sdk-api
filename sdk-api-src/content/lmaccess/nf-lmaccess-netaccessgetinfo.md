@@ -64,7 +64,7 @@ The <b>NetAccessGetInfo</b> function retrieves the access control list (ACL) for
 
 
 
-### -param OPTIONAL
+### -param servername
 
 TBD
 

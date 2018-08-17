@@ -68,7 +68,7 @@ A handle of an <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.8
 
 ### -field iItem
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">INT</a></b>
 
 The zero-based index of the control to which this structure refers. 
 

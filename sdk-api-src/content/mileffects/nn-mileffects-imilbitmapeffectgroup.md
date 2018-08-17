@@ -72,7 +72,7 @@ The <b>IMILBitmapEffectGroup</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/87bd24bc-95d9-4a24-9b09-accf769ae4df">Add</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735288(v=VS.85).aspx">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an effect to the <b>IMILBitmapEffectGroup</b>.

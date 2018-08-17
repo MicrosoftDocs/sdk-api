@@ -4,10 +4,10 @@ title: PerfDecrementULongLongCounterValue function
 author: windows-sdk-content
 description: Decrements the value of a counter whose value is an 8-byte unsigned integer. Providers use this function.
 old-location: perf\perfdecrementulonglongcountervalue.htm
-old-project: PerfCtrs
+old-project: perfctrs
 ms.assetid: 38fd52a7-c2af-4c69-a104-aba6a602fbf4
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/08/2018
 ms.keywords: PerfDecrementULongLongCounterValue, PerfDecrementULongLongCounterValue function [Perf], perf.perfdecrementulonglongcountervalue, perflib/PerfDecrementULongLongCounterValue
 ms.prod: windows
 ms.technology: windows-sdk

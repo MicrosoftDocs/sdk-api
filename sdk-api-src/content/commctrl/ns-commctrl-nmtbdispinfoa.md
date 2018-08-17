@@ -71,7 +71,7 @@ Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).asp
 
 ### -field dwMask
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
 
 Set of flags that indicate which members of this structure are being requested. This can be one or more of the following values. 
 
@@ -124,7 +124,7 @@ Command identifier of the item for which display information is being requested.
 
 ### -field lParam
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD_PTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD_PTR</a></b>
 
 Application-defined value associated with the item for which display information is being requested. This member is filled in by the control before sending the notification code. 
 
@@ -138,7 +138,7 @@ Image index for the item.
 
 ### -field pszText
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPTSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPTSTR</a></b>
 
 Pointer to a character buffer that receives the item's text. 
 

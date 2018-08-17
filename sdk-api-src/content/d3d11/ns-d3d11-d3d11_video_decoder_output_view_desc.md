@@ -61,17 +61,17 @@ Describes a video decoder output view.
 
 ### -field DecodeProfile
 
-The decoding profile. To get the list of profiles supported by the device, call the <a href="https://msdn.microsoft.com/8D958469-7FC3-4B4F-82BF-271662CF0088">ID3D11VideoDevice::GetVideoDecoderProfile</a> method.
+The decoding profile. To get the list of profiles supported by the device, call the <a href="https://msdn.microsoft.com/en-us/library/Hh447795(v=VS.85).aspx">ID3D11VideoDevice::GetVideoDecoderProfile</a> method.
 
 
 ### -field ViewDimension
 
-The resource type of the view, specified as a member of the <a href="https://msdn.microsoft.com/079460EB-A7D4-4C8C-B7CA-9A6FFB3B0FA8">D3D11_VDOV_DIMENSION</a> enumeration.
+The resource type of the view, specified as a member of the <a href="https://msdn.microsoft.com/en-us/library/Hh447636(v=VS.85).aspx">D3D11_VDOV_DIMENSION</a> enumeration.
 
 
 ### -field Texture2D
 
-A <a href="https://msdn.microsoft.com/A25BB0AA-8CC9-4DA0-B4BE-8C107E9203F0">D3D11_TEX2D_VDOV</a> structure that identifies the texture resource for the output view.
+A <a href="https://msdn.microsoft.com/en-us/library/Hh447633(v=VS.85).aspx">D3D11_TEX2D_VDOV</a> structure that identifies the texture resource for the output view.
 
 
 ## -see-also
@@ -79,11 +79,11 @@ A <a href="https://msdn.microsoft.com/A25BB0AA-8CC9-4DA0-B4BE-8C107E9203F0">D3D1
 
 
 
-<a href="https://msdn.microsoft.com/416159A4-F50E-4027-9367-727BA81D2A21">Direct3D 11 Video Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh447680(v=VS.85).aspx">Direct3D 11 Video Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/8A3D72CF-B641-4219-8C88-FCE5231CF2F6">ID3D11VideoDevice::CreateVideoDecoderOutputView</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh447787(v=VS.85).aspx">ID3D11VideoDevice::CreateVideoDecoderOutputView</a>
  
 
  
