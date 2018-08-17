@@ -150,7 +150,7 @@ The table here shows the primitive blend modes for both aliased and antialiased 
 </table>
  
 
-<img alt="An illustration of Direct2D primitive blend modes with varying opacity and backgrounds." src="images/PrimBlendDemo.png"/>
+<img alt="An illustration of Direct2D primitive blend modes with varying opacity and backgrounds." src="./images/PrimBlendDemo.png"/>
 An illustration of the primitive blend modes with varying opacity and backgrounds.
 
 

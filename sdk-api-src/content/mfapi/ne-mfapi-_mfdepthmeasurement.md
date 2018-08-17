@@ -80,9 +80,9 @@ Use a value from this enumeration with the <a href="mf.mf_mt_depth_measurement">
 
 The distance to focal plane is typically easier to consume in a 3D Euclidian coordinate system.
 
-<img alt="Illustration of DistanceToFocalPlane" src="images/distance_to_focal_plane.png"/>
+<img alt="Illustration of DistanceToFocalPlane" src="./images/distance_to_focal_plane.png"/>
 The distance to focal center format is typically raw data from sensor such as time of flight cameras.
 
-<img alt="Illustration of DistanceToOpticalCenter" src="images/distance_to_optical_center.png"/>
+<img alt="Illustration of DistanceToOpticalCenter" src="./images/distance_to_optical_center.png"/>
 
 
