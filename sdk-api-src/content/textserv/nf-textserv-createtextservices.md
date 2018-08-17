@@ -52,7 +52,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-The <b>CreateTextServices</b> function creates an instance of a text services object. The text services object supports a variety of interfaces, including <a href="https://msdn.microsoft.com/b0bc844f-2d20-4e67-84c5-0a5313bf6dee">ITextServices</a> and the 
+The <b>CreateTextServices</b> function creates an instance of a text services object. The text services object supports a variety of interfaces, including <a href="https://msdn.microsoft.com/en-us/library/Bb787617(v=VS.85).aspx">ITextServices</a> and the 
 			Text Object Model (TOM).
 
 
@@ -70,16 +70,16 @@ Pointer to the controlling <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce
 
 ### -param pITextHost [in]
 
-Type: <b><a href="https://msdn.microsoft.com/28d86b94-2d36-4749-8954-3857bf6dbdac">ITextHost</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb787615(v=VS.85).aspx">ITextHost</a>*</b>
 
-Pointer to your implementation of the <a href="https://msdn.microsoft.com/28d86b94-2d36-4749-8954-3857bf6dbdac">ITextHost</a> interface. This pointer must not be <b>NULL</b>. 
+Pointer to your implementation of the <a href="https://msdn.microsoft.com/en-us/library/Bb787615(v=VS.85).aspx">ITextHost</a> interface. This pointer must not be <b>NULL</b>. 
 
 
 ### -param ppUnk [out]
 
 Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>**</b>
 
-Pointer to a variable that receives a pointer to the private <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> of the text services object. You can call <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> on this pointer to retrieve <a href="https://msdn.microsoft.com/b0bc844f-2d20-4e67-84c5-0a5313bf6dee">ITextServices</a> or <a href="https://msdn.microsoft.com/0c3f161f-f6d3-44b9-b041-1b682d1915af">ITextDocument</a> interface pointers. 
+Pointer to a variable that receives a pointer to the private <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> of the text services object. You can call <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> on this pointer to retrieve <a href="https://msdn.microsoft.com/en-us/library/Bb787617(v=VS.85).aspx">ITextServices</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb774052(v=VS.85).aspx">ITextDocument</a> interface pointers. 
 
 
 ## -returns
@@ -154,15 +154,15 @@ A text services object can be created as part of a standard COM-aggregated objec
 
 
 
-<a href="https://msdn.microsoft.com/0c3f161f-f6d3-44b9-b041-1b682d1915af">ITextDocument</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774052(v=VS.85).aspx">ITextDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/28d86b94-2d36-4749-8954-3857bf6dbdac">ITextHost</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787615(v=VS.85).aspx">ITextHost</a>
 
 
 
-<a href="https://msdn.microsoft.com/b0bc844f-2d20-4e67-84c5-0a5313bf6dee">ITextServices</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787617(v=VS.85).aspx">ITextServices</a>
 
 
 
@@ -170,7 +170,7 @@ A text services object can be created as part of a standard COM-aggregated objec
 
 
 
-<a href="https://msdn.microsoft.com/71ecd220-ab1a-4caa-b1b9-0951e943692e">Windowless Rich Edit Controls</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
  
 
  

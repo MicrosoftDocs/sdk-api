@@ -142,8 +142,8 @@ Insufficient memory exists to perform the operation.
 
 
 
-TAPI calls the <a href="_com_iunknown_addref">AddRef</a> method on the 
-<a href="https://msdn.microsoft.com/09787cd2-56b5-4ed2-8783-f3c53ce2cc66">ITCallingCard</a> interface returned by <b>IEnumCallingCard::Next</b>. The application must call <a href="_com_iunknown_release">Release</a> on the 
+TAPI calls the <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method on the 
+<a href="https://msdn.microsoft.com/09787cd2-56b5-4ed2-8783-f3c53ce2cc66">ITCallingCard</a> interface returned by <b>IEnumCallingCard::Next</b>. The application must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on the 
 <b>ITCallingCard</b> interface to free resources associated with it.
 
 

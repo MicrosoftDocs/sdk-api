@@ -62,7 +62,7 @@ Represents a resource in which all UAV accesses must complete before any future 
 
 ### -field pResource
 
-The resource used in the transition, as a pointer to <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>.
+The resource used in the transition, as a pointer to <a href="https://msdn.microsoft.com/en-us/library/Dn788709(v=VS.85).aspx">ID3D12Resource</a>.
           
 
 
@@ -73,7 +73,7 @@ The resource used in the transition, as a pointer to <a href="https://msdn.micro
 This struct represents a resource in which all unordered access view (UAV) accesses (reads or writes) must complete before any future UAV accesses (read or write) can begin.
       
 
-This structure is a member of the <a href="https://msdn.microsoft.com/49F02D65-767E-4BA4-A90D-68AA2D709E09">D3D12_RESOURCE_BARRIER</a> structure.
+This structure is a member of the <a href="https://msdn.microsoft.com/en-us/library/Dn986740(v=VS.85).aspx">D3D12_RESOURCE_BARRIER</a> structure.
       
 
 You don't need to insert a UAV barrier between 2 draw or dispatch calls that only read a UAV.
@@ -89,11 +89,11 @@ You don't need to insert a UAV barrier between 2 draw or dispatch calls that onl
 
 
 
-<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn770459(v=VS.85).aspx">Core Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/3AB3BF34-433C-400B-921A-55B23CCDA44F">Using Resource Barriers to Synchronize Resource States in Direct3D 12</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn899226(v=VS.85).aspx">Using Resource Barriers to Synchronize Resource States in Direct3D 12</a>
  
 
  

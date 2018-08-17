@@ -69,12 +69,12 @@ Resource class is unknown.
 ### -field CLUS_RESCLASS_STORAGE
 
 Resource is a storage device, such as a 
-           <a href="p_gly.htm">Physical Disk resource</a>.
+           <a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">Physical Disk resource</a>.
 
 
 ### -field CLUS_RESCLASS_NETWORK
 
-Resource is a <a href="n_gly.htm">network</a> device.
+Resource is a <a href="https://msdn.microsoft.com/en-us/library/Aa371763(v=VS.85).aspx">network</a> device.
 
 
 ### -field CLUS_RESCLASS_USER

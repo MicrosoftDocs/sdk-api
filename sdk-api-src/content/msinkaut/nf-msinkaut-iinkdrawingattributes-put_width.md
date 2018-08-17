@@ -88,7 +88,7 @@ Precision is limited to one one-thousandth of a HIMETRIC unit (three digits to t
 
 
 
-<a href="tablet.iinkdrawingattributes">IInkDrawingAttributes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846798(v=VS.85).aspx">IInkDrawingAttributes</a>
 
 
 

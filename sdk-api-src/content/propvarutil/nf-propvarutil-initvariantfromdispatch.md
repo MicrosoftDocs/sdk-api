@@ -52,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Initializes a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure based on an instance of an <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> object.
+Initializes a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure based on an instance of an <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> object.
 
 
 ## -parameters
@@ -62,16 +62,16 @@ Initializes a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structu
 
 ### -param pdisp [in]
 
-Type: <b><a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>*</b>
 
-Pointer to the source <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>.
+Pointer to the source <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>.
 
 
 ### -param pvar [out]
 
 Type: <b>VARIANT*</b>
 
-When this function returns, contains the initialized <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
+When this function returns, contains the initialized <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure.
 
 
 ## -returns
@@ -96,7 +96,7 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromDispatch">InitVariantFromDispatch</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762319(v=VS.85).aspx">InitVariantFromDispatch</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

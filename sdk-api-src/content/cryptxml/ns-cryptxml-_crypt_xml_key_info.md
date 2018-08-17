@@ -76,7 +76,7 @@ The number of items in the array pointed to by the <b>rgKeyInfo</b> member.
 
 ### -field rgKeyInfo
 
-A pointer to an array of <a href="https://msdn.microsoft.com/3fbb1623-d493-49f1-a004-74ec8d22520e">CRYPT_XML_KEY_INFO_ITEM</a> structures that contain key information.
+A pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Dd433856(v=VS.85).aspx">CRYPT_XML_KEY_INFO_ITEM</a> structures that contain key information.
 
 
 ### -field hVerifyKey

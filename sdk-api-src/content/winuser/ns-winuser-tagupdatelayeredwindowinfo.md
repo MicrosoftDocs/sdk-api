@@ -52,7 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Used by <a href="https://msdn.microsoft.com/151fe26d-e5cd-43fd-9b33-5f08e06ca443">UpdateLayeredWindowIndirect</a> to provide position, size, shape, content, and translucency information for a layered window.
+Used by <a href="https://msdn.microsoft.com/en-us/library/ms633557(v=VS.85).aspx">UpdateLayeredWindowIndirect</a> to provide position, size, shape, content, and translucency information for a layered window.
 
 
 ## -struct-fields
@@ -71,7 +71,7 @@ The size, in bytes, of this structure.
 
 Type: <b>HDC</b>
 
-A handle to a DC for the screen. This handle is obtained by specifying <b>NULL</b> in this member when calling <a href="https://msdn.microsoft.com/151fe26d-e5cd-43fd-9b33-5f08e06ca443">UpdateLayeredWindowIndirect</a>. The handle is used for palette color matching when the window contents are updated. If <b>hdcDst</b> is <b>NULL</b>, the default palette is used.
+A handle to a DC for the screen. This handle is obtained by specifying <b>NULL</b> in this member when calling <a href="https://msdn.microsoft.com/en-us/library/ms633557(v=VS.85).aspx">UpdateLayeredWindowIndirect</a>. The handle is used for palette color matching when the window contents are updated. If <b>hdcDst</b> is <b>NULL</b>, the default palette is used.
 
                     
 
@@ -171,7 +171,7 @@ Draw an opaque layered window.
 </dl>
 </td>
 <td width="60%">
-Force the <a href="https://msdn.microsoft.com/151fe26d-e5cd-43fd-9b33-5f08e06ca443">UpdateLayeredWindowIndirect</a> function to fail if the current window size does not match the size specified in the <i>psize</i>. 
+Force the <a href="https://msdn.microsoft.com/en-us/library/ms633557(v=VS.85).aspx">UpdateLayeredWindowIndirect</a> function to fail if the current window size does not match the size specified in the <i>psize</i>. 
 
 </td>
 </tr>
@@ -201,11 +201,11 @@ The area to be updated. This parameter can be <b>NULL</b>. If it is non-NULL, on
 
 
 
-<a href="https://msdn.microsoft.com/3f4a3608-2383-46d5-b1b2-53a939bf736a">UpdateLayeredWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633556(v=VS.85).aspx">UpdateLayeredWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/8318c22f-85a2-490e-8233-ee1e234890d9">Window Features</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632599(v=VS.85).aspx">Window Features</a>
  
 
  

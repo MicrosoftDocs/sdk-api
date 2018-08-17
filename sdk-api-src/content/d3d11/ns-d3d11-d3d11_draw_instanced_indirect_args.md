@@ -89,7 +89,7 @@ A value added to each index before reading per-instance data from a vertex buffe
 
 
 The members of this structure serve the same purpose as the parameters of
-          <a href="https://msdn.microsoft.com/3cb608e7-d64d-42cc-9b34-5f6c30af2ada">ID3D11DeviceContext::DrawInstanced</a>.
+          <a href="https://msdn.microsoft.com/en-us/library/Ff476412(v=VS.85).aspx">ID3D11DeviceContext::DrawInstanced</a>.
         
 
 
@@ -100,7 +100,7 @@ The members of this structure serve the same purpose as the parameters of
 
 
 
-<a href="https://msdn.microsoft.com/2a45182a-7114-4075-b8b8-147f52fe7aa9">Core Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476155(v=VS.85).aspx">Core Structures</a>
  
 
  

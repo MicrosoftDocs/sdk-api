@@ -57,9 +57,9 @@ Used to report progress back to callers of lengthy Offline Files operations.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesSimpleProgress</b> interface inherits from <a href="https://msdn.microsoft.com/b568a8c6-119b-486e-94e3-fe4e54a395bb">IOfflineFilesProgress</a>. <b>IOfflineFilesSimpleProgress</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesSimpleProgress</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb530596(v=VS.85).aspx">IOfflineFilesProgress</a>. <b>IOfflineFilesSimpleProgress</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -72,7 +72,7 @@ The <b>IOfflineFilesSimpleProgress</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0e3496ee-e987-4c37-93ff-bc8409acabde">ItemBegin</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530617(v=VS.85).aspx">ItemBegin</a>
 </td>
 <td align="left" width="63%">
 Reports that an operation on an item is beginning.
@@ -81,7 +81,7 @@ Reports that an operation on an item is beginning.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/60ed3b12-b56e-4a58-8e37-a4a745ddb783">ItemResult</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530618(v=VS.85).aspx">ItemResult</a>
 </td>
 <td align="left" width="63%">
 Reports that an item has been processed during the operation.
@@ -96,11 +96,11 @@ Reports that an item has been processed during the operation.
 
 
 
-<a href="https://msdn.microsoft.com/b568a8c6-119b-486e-94e3-fe4e54a395bb">IOfflineFilesProgress</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530596(v=VS.85).aspx">IOfflineFilesProgress</a>
 
 
 
-<a href="https://msdn.microsoft.com/9dea396f-ab71-4b2e-b5d3-776c16614f26">Offline Files API Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530659(v=VS.85).aspx">Offline Files API Interfaces</a>
  
 
  

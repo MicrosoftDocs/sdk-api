@@ -67,7 +67,7 @@ A bitmask of <a href="https://msdn.microsoft.com/5e58284b-9bbc-47f7-9a44-26d7153
 
 ### -param ppAsync [out]
 
-A pointer to a variable that receives an <a href="https://msdn.microsoft.com/d2cff547-b4ff-454d-8e0e-cd29b91cbb07">IVssAsync</a> interface pointer that can be used to retrieve the status of the LUN resynchronization operation. When the operation is complete, the caller must release the interface pointer by calling the <a href="_com_iunknown_release">IUnknown::Release</a> method. 
+A pointer to a variable that receives an <a href="https://msdn.microsoft.com/d2cff547-b4ff-454d-8e0e-cd29b91cbb07">IVssAsync</a> interface pointer that can be used to retrieve the status of the LUN resynchronization operation. When the operation is complete, the caller must release the interface pointer by calling the <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> method. 
 
 
 ## -returns

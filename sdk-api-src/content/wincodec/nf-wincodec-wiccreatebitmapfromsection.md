@@ -77,7 +77,7 @@ The height of the bitmap pixels.
 
 ### -param pixelFormat
 
-Type: <b><a href="_wic_codec_native_pixel_formats.htm">REFWICPixelFormatGUID</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ee719797(v=VS.85).aspx">REFWICPixelFormatGUID</a></b>
 
 The pixel format of the bitmap.
 

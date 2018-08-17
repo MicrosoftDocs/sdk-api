@@ -53,7 +53,7 @@ req.irql:
 
 <p class="CCE_Message">[The  <b>CERT_VIEWPROPERTIES_STRUCT</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CERT_VIEWPROPERTIES_STRUCT</b> structure defines information used when  the <a href="https://msdn.microsoft.com/5df840ab-fff6-4c7e-b799-51e4de4c644a">CertViewProperties</a> function  is called to display a certificate's properties.
+The <b>CERT_VIEWPROPERTIES_STRUCT</b> structure defines information used when  the <a href="https://msdn.microsoft.com/en-us/library/Aa377171(v=VS.85).aspx">CertViewProperties</a> function  is called to display a certificate's properties.
 
 
 ## -struct-fields
@@ -254,7 +254,7 @@ Array of trust certificate store handles.
 
 ### -field hprov
 
-A handle to the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service provider</a> (CSP) to use for verification.
+A handle to the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">cryptographic service provider</a> (CSP) to use for verification.
 
 
 ### -field lCustData
@@ -297,7 +297,7 @@ A pointer to an array of <b>PROPSHEETPAGE</b> structures that specify the proper
 
 
 
-<a href="https://msdn.microsoft.com/5df840ab-fff6-4c7e-b799-51e4de4c644a">CertViewProperties</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377171(v=VS.85).aspx">CertViewProperties</a>
  
 
  

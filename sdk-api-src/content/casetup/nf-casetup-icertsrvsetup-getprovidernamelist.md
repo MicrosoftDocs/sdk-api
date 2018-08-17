@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>GetProviderNameList</b> method gets the list of <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic service providers</a> (CSPs) that provide asymmetric key signature algorithms on the computer. This method does not change the state of the <b>CCertSrvSetup</b> object.
+The <b>GetProviderNameList</b> method gets the list of <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">cryptographic service providers</a> (CSPs) that provide asymmetric key signature algorithms on the computer. This method does not change the state of the <b>CCertSrvSetup</b> object.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ A pointer to a <b>VARIANT</b> array of <b>VT_BSTR</b> types, where each string r
 
 
 
-<a href="https://msdn.microsoft.com/6792a0d6-d304-481d-a97b-5fb7033c7eae">ICertSrvSetup</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb736371(v=VS.85).aspx">ICertSrvSetup</a>
  
 
  

@@ -69,7 +69,7 @@ The <b>Reset</b> method moves to the beginning of the attribute-enumeration sequ
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
 
 
 
@@ -79,15 +79,15 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 Upon successful completion of this method, call the 
-<a href="https://msdn.microsoft.com/2903ccda-e06d-4690-accf-79bc73d8569f">IEnumCERTVIEWATTRIBUTE::Next</a> method to reference the first attribute in the attribute-enumeration sequence.  The attribute name and value can be accessed by using the 
+<a href="https://msdn.microsoft.com/en-us/library/Aa386168(v=VS.85).aspx">IEnumCERTVIEWATTRIBUTE::Next</a> method to reference the first attribute in the attribute-enumeration sequence.  The attribute name and value can be accessed by using the 
 following methods:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/c2409bf1-0571-479e-8499-010d52cfb776">IEnumCERTVIEWATTRIBUTE::GetName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa386164(v=VS.85).aspx">IEnumCERTVIEWATTRIBUTE::GetName</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/a03a6da4-d286-487e-a292-8a02626325a8">IEnumCERTVIEWATTRIBUTE::GetValue</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa386166(v=VS.85).aspx">IEnumCERTVIEWATTRIBUTE::GetValue</a>
 </li>
 </ul>
 
@@ -131,23 +131,23 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/fc1eb29d-27d9-4331-b588-dc0632b3db6a">IEnumCERTVIEWATTRIBUTE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa386157(v=VS.85).aspx">IEnumCERTVIEWATTRIBUTE</a>
 
 
 
-<a href="https://msdn.microsoft.com/c2409bf1-0571-479e-8499-010d52cfb776">IEnumCERTVIEWATTRIBUTE::GetName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa386164(v=VS.85).aspx">IEnumCERTVIEWATTRIBUTE::GetName</a>
 
 
 
-<a href="https://msdn.microsoft.com/a03a6da4-d286-487e-a292-8a02626325a8">IEnumCERTVIEWATTRIBUTE::GetValue</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa386166(v=VS.85).aspx">IEnumCERTVIEWATTRIBUTE::GetValue</a>
 
 
 
-<a href="https://msdn.microsoft.com/2903ccda-e06d-4690-accf-79bc73d8569f">IEnumCERTVIEWATTRIBUTE::Next</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa386168(v=VS.85).aspx">IEnumCERTVIEWATTRIBUTE::Next</a>
 
 
 
-<a href="https://msdn.microsoft.com/546e7ad7-73f2-4f6e-8d02-a9ca5401ecce">IEnumCERTVIEWATTRIBUTE::Skip</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa386172(v=VS.85).aspx">IEnumCERTVIEWATTRIBUTE::Skip</a>
  
 
  

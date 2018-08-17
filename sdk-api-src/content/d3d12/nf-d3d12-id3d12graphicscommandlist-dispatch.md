@@ -61,7 +61,7 @@ Executes a command list from a thread group.
 
 ### -param ThreadGroupCountX [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 The number of groups dispatched in the x direction. <i>ThreadGroupCountX</i> must be less than or equal to D3D11_CS_DISPATCH_MAX_THREAD_GROUPS_PER_DIMENSION (65535).
           
@@ -69,7 +69,7 @@ The number of groups dispatched in the x direction. <i>ThreadGroupCountX</i> mus
 
 ### -param ThreadGroupCountY [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 The number of groups dispatched in the y direction. <i>ThreadGroupCountY</i> must be less than or equal to D3D11_CS_DISPATCH_MAX_THREAD_GROUPS_PER_DIMENSION (65535).
           
@@ -77,7 +77,7 @@ The number of groups dispatched in the y direction. <i>ThreadGroupCountY</i> mus
 
 ### -param ThreadGroupCountZ [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 The number of groups dispatched in the z direction.  <i>ThreadGroupCountZ</i> must be less than or equal to D3D11_CS_DISPATCH_MAX_THREAD_GROUPS_PER_DIMENSION (65535).
             In feature level 10 the value for <i>ThreadGroupCountZ</i> must be 1.
@@ -104,7 +104,7 @@ You call the <b>Dispatch</b> method to execute commands in a compute shader. A c
 
 #### Examples
 
-The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12nBodyGravity</a> sample uses <b>ID3D12GraphicsCommandList::Dispatch</b> as follows:
+The <a href="https://msdn.microsoft.com/en-us/library/Mt186624(v=VS.85).aspx">D3D12nBodyGravity</a> sample uses <b>ID3D12GraphicsCommandList::Dispatch</b> as follows:
         
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -157,7 +157,7 @@ void D3D12nBodyGravity::Simulate(UINT threadIndex)
 </td>
 </tr>
 </table></span></div>
-See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
+See <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85).aspx">Example Code in the D3D12 Reference</a>.
         
 
 <div class="code"></div>
@@ -169,7 +169,7 @@ See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Ex
 
 
 
-<a href="https://msdn.microsoft.com/1BF282A7-F6D4-43A9-BDAD-D877564A1C6B">ID3D12GraphicsCommandList</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903537(v=VS.85).aspx">ID3D12GraphicsCommandList</a>
  
 
  

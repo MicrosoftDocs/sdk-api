@@ -69,9 +69,9 @@ A pointer to a null-terminated, Unicode string that specifies the extension.
 
 ### -param pPropStore [in]
 
-Type: <b><a href="shell.IPropertyStore">IPropertyStore</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a>*</b>
 
-A pointer to the <a href="shell.IPropertyStore">IPropertyStore</a> interface that defines the default properties to add.
+A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a> interface that defines the default properties to add.
 
 
 ## -returns

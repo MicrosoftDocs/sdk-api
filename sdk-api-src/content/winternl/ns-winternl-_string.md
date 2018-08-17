@@ -52,7 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Used with the <a href="https://msdn.microsoft.com/3f42aef1-6c32-4f54-a19e-1161ebede29b">RtlUnicodeStringToOemString</a> function. 
+Used with the <a href="https://msdn.microsoft.com/en-us/library/ms648422(v=VS.85).aspx">RtlUnicodeStringToOemString</a> function. 
 
 
 ## -struct-fields
@@ -79,7 +79,7 @@ The address of the buffer.
 
 
 
-The data type used in the <b>DestinationString</b> parameter of the <a href="https://msdn.microsoft.com/3f42aef1-6c32-4f54-a19e-1161ebede29b">RtlUnicodeStringToOemString</a> function, <code> POEM_STRING</code>, is defined as:
+The data type used in the <b>DestinationString</b> parameter of the <a href="https://msdn.microsoft.com/en-us/library/ms648422(v=VS.85).aspx">RtlUnicodeStringToOemString</a> function, <code> POEM_STRING</code>, is defined as:
 		
                 
 

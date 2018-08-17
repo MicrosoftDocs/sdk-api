@@ -95,7 +95,7 @@ The frame buffer header information provided by this callback is read-only. You 
 
 
 
-<a href="stream.imfdevicetransformcallback">IMFDeviceTransformCallback</a>
+<a href="https://msdn.microsoft.com/library/Mt846762(v=VS.85).aspx">IMFDeviceTransformCallback</a>
  
 
  

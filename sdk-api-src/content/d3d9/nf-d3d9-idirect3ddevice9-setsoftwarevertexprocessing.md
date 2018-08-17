@@ -71,7 +71,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be D3DERR_INVALIDCALL.
 
@@ -82,7 +82,7 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-The restrictions for changing modes are as follows (also refer to the notes on the <a href="https://msdn.microsoft.com/91387a2d-3927-4285-a09b-9ce247e6bfdd">D3DCREATE</a> constants):
+The restrictions for changing modes are as follows (also refer to the notes on the <a href="https://msdn.microsoft.com/en-us/library/Bb172527(v=VS.85).aspx">D3DCREATE</a> constants):
 
 <ul>
 <li>If a device is created with D3DCREATE_SOFTWARE_VERTEXPROCESSING, the vertex processing will be done in software and cannot be changed.</li>
@@ -101,11 +101,11 @@ In Direct3D 9, use <b>SetSoftwareVertexProcessing</b> instead. This new API is n
 
 
 
-<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/eb2392f7-044e-4a6c-bbbb-3ab26c3c0d9c">IDirect3DDevice9::GetSoftwareVertexProcessing</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174408(v=VS.85).aspx">IDirect3DDevice9::GetSoftwareVertexProcessing</a>
  
 
  

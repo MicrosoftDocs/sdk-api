@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Sets the maximum number of days that can be selected in a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/190453ab-e53b-4db7-82c1-f9d50188ad39">MCM_SETMAXSELCOUNT</a> message explicitly. 
+Sets the maximum number of days that can be selected in a month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761008(v=VS.85).aspx">MCM_SETMAXSELCOUNT</a> message explicitly. 
 
 
 ## -parameters
@@ -61,14 +61,14 @@ Sets the maximum number of days that can be selected in a month calendar control
 
 ### -param hmc
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 Handle to a month calendar control. 
 
 
 ### -param n
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Value of type <b>int</b> that will be set to represent the maximum number of days that can be selected. 
 

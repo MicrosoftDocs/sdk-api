@@ -53,8 +53,8 @@ req.irql:
 
 The 
 <b>STGOPTIONS</b> structure specifies features of the storage object, such as sector size, in the 
-<a href="https://msdn.microsoft.com/6442977d-e980-419e-abe9-9d15dbb045c1">StgCreateStorageEx</a> and 
-<a href="https://msdn.microsoft.com/4f2138fb-1f80-4345-a3cb-9c11023457b1">StgOpenStorageEx</a> functions.
+<a href="https://msdn.microsoft.com/en-us/library/Aa380328(v=VS.85).aspx">StgCreateStorageEx</a> and 
+<a href="https://msdn.microsoft.com/en-us/library/Aa380342(v=VS.85).aspx">StgOpenStorageEx</a> functions.
 
 
 ## -struct-fields
@@ -89,7 +89,7 @@ Specifies the sector size of the storage object. The default is 512 bytes.
 
 ### -field pwcsTemplateFile
 
-Specifies the name of a file whose Encrypted File System (EFS) metadata will be transferred to a newly created Structured Storage file. This member is valid only when <b>STGFMT_DOCFILE</b> is used with <a href="https://msdn.microsoft.com/6442977d-e980-419e-abe9-9d15dbb045c1">StgCreateStorageEx</a>.
+Specifies the name of a file whose Encrypted File System (EFS) metadata will be transferred to a newly created Structured Storage file. This member is valid only when <b>STGFMT_DOCFILE</b> is used with <a href="https://msdn.microsoft.com/en-us/library/Aa380328(v=VS.85).aspx">StgCreateStorageEx</a>.
 
 <b>In Windows XP and later:  </b>The <b>pwcsTemplateFile</b> member is only valid if version 2 or later is specified in the <b>usVersion</b> member.
 
@@ -108,15 +108,15 @@ Specifies the name of a file whose Encrypted File System (EFS) metadata will be 
 
 
 
-<a href="structured_storage_interfaces.htm">Compound File Implementation Limits</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380364(v=VS.85).aspx">Compound File Implementation Limits</a>
 
 
 
-<a href="https://msdn.microsoft.com/6442977d-e980-419e-abe9-9d15dbb045c1">StgCreateStorageEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380328(v=VS.85).aspx">StgCreateStorageEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/4f2138fb-1f80-4345-a3cb-9c11023457b1">StgOpenStorageEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380342(v=VS.85).aspx">StgOpenStorageEx</a>
  
 
  

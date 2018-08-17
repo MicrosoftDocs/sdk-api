@@ -82,7 +82,7 @@ This function does not return a value.
 
 
 
-<a href="_win32_formatmessage">FormatMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a>
 
 
 

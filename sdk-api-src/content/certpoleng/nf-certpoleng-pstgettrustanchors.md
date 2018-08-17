@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Retrieves a list of <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authorities</a> (CAs) trusted by the specified server.
+Retrieves a list of <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authorities</a> (CAs) trusted by the specified server.
 
 
 ## -parameters
@@ -71,12 +71,12 @@ The number of elements in the <i>rgpCriteria</i> array.
 
 ### -param rgpCriteria [in, optional]
 
-A constant pointer to an array of <a href="https://msdn.microsoft.com/246722a9-5db6-4a82-8f29-f60f0a2263e3">CERT_SELECT_CRITERIA</a> structures that specify the criteria used to select certificate chains.
+A constant pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Dd433801(v=VS.85).aspx">CERT_SELECT_CRITERIA</a> structures that specify the criteria used to select certificate chains.
 
 
 ### -param ppTrustedIssuers [out]
 
-A pointer to an array of <a href="https://msdn.microsoft.com/cf1ccd40-36bf-4597-b34f-d26cef63d800">SecPkgContext_IssuerListInfoEx</a> structures that receive the CAs trusted by the server specified by the <i>pTargetName</i> parameter.
+A pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Aa380078(v=VS.85).aspx">SecPkgContext_IssuerListInfoEx</a> structures that receive the CAs trusted by the server specified by the <i>pTargetName</i> parameter.
 
 
 ## -returns

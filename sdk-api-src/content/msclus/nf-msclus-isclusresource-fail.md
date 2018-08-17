@@ -83,7 +83,7 @@ This method does not return a value.
 
 
 The <b>Fail</b> method causes the 
-    <a href="c_gly.htm">cluster</a> to initiate the same procedures that would result 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> to initiate the same procedures that would result 
     if the resource had actually failed. Use the <b>Fail</b> 
     method to test <a href="https://msdn.microsoft.com/6722d075-02e0-4817-abc3-dce8951c17da">failover</a> policies for resources and 
     <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">groups</a>. For more information about resource failure policies, see 

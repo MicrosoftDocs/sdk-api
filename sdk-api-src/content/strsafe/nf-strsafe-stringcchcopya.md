@@ -60,7 +60,7 @@ Copies one string to another. The size of the destination buffer is provided to 
 <ul>
 <li><a href="http://go.microsoft.com/fwlink/p/?linkid=192494">strcpy, wcscpy, _tcscpy</a></li>
 <li>
-<a href="https://msdn.microsoft.com/3960fe0e-954d-4463-bc81-e1682e468278">lstrcpy</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647490(v=VS.85).aspx">lstrcpy</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/83d1a8dc-fc43-4b06-b36c-c9c91d779d25">StrCpy</a>
@@ -155,7 +155,7 @@ Compared to  the functions it replaces, <b>StringCchCopy</b> provides additional
 
 Behavior is undefined if the strings pointed to by <i>pszSrc</i> and <i>pszDest</i> overlap.
 
-Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="https://msdn.microsoft.com/0965b0f6-9588-4944-98d8-3aca3a3029fc">StringCchCopyEx</a> if you require the handling of null string pointer values.
+Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="https://msdn.microsoft.com/en-us/library/ms647529(v=VS.85).aspx">StringCchCopyEx</a> if you require the handling of null string pointer values.
 
 <b>StringCchCopy</b> can be used in its generic form, or in its more specific forms. The data type of the string determines the form of this function that you should use.
 
@@ -195,11 +195,11 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/00c99f3e-106b-46a2-afae-517b32b7a960">StringCbCopy</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647499(v=VS.85).aspx">StringCbCopy</a>
 
 
 
-<a href="https://msdn.microsoft.com/0965b0f6-9588-4944-98d8-3aca3a3029fc">StringCchCopyEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647529(v=VS.85).aspx">StringCchCopyEx</a>
  
 
  

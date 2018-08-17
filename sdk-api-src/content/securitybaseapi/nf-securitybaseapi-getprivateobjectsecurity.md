@@ -128,7 +128,7 @@ If the preceding conditions are not met, a call to this function does not fail, 
 
 
 
-<a href="authorization_functions.htm">Client/Server Access Control Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Client/Server Access Control Functions</a>
 
 
 

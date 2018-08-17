@@ -54,7 +54,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Creates an icon or cursor from an <a href="https://msdn.microsoft.com/55559fac-b561-4fd0-98e6-bbb6fc610033">ICONINFO</a> structure.
+Creates an icon or cursor from an <a href="https://msdn.microsoft.com/en-us/library/ms648052(v=VS.85).aspx">ICONINFO</a> structure.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ Creates an icon or cursor from an <a href="https://msdn.microsoft.com/55559fac-b
 
 Type: <b>PICONINFO</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/55559fac-b561-4fd0-98e6-bbb6fc610033">ICONINFO</a> structure the function uses to create the icon or cursor. 
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms648052(v=VS.85).aspx">ICONINFO</a> structure the function uses to create the icon or cursor. 
 
 
 ## -returns
@@ -86,9 +86,9 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-The system copies the bitmaps in the <a href="https://msdn.microsoft.com/55559fac-b561-4fd0-98e6-bbb6fc610033">ICONINFO</a> structure before creating the icon or cursor. Because the system may temporarily select the bitmaps in a device context, the <b>hbmMask</b> and <b>hbmColor</b> members of the <b>ICONINFO</b> structure should not already be selected into a device context. The application must continue to manage the original bitmaps and delete them when they are no longer necessary. 
+The system copies the bitmaps in the <a href="https://msdn.microsoft.com/en-us/library/ms648052(v=VS.85).aspx">ICONINFO</a> structure before creating the icon or cursor. Because the system may temporarily select the bitmaps in a device context, the <b>hbmMask</b> and <b>hbmColor</b> members of the <b>ICONINFO</b> structure should not already be selected into a device context. The application must continue to manage the original bitmaps and delete them when they are no longer necessary. 
 
-When you are finished using the icon, destroy it using the <a href="https://msdn.microsoft.com/ffe21e34-ebe0-4ec8-830f-64c733ef9097">DestroyIcon</a> function.
+When you are finished using the icon, destroy it using the <a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a> function.
 
 
 
@@ -102,15 +102,15 @@ When you are finished using the icon, destroy it using the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/ffe21e34-ebe0-4ec8-830f-64c733ef9097">DestroyIcon</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a>
 
 
 
-<a href="https://msdn.microsoft.com/55559fac-b561-4fd0-98e6-bbb6fc610033">ICONINFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648052(v=VS.85).aspx">ICONINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/1dc588f4-b032-40a8-82ef-5b9fc04abb0b">Icons</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646973(v=VS.85).aspx">Icons</a>
 
 
 

@@ -174,7 +174,7 @@ You must use a try/catch block when calling <b>Recognize</b> because an exceptio
 
 
 
-<a href="tablet.iinkrecognizercontext">IInkRecognizerContext</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846801(v=VS.85).aspx">IInkRecognizerContext</a>
 
 
 

@@ -53,7 +53,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-The <b>IDXGIFactory2</b> interface includes methods to create a newer version swap chain with more features than <a href="https://msdn.microsoft.com/344ada45-35a0-4e99-b3b7-0f316df029ab">IDXGISwapChain</a> and to monitor stereoscopic 3D capabilities.
+The <b>IDXGIFactory2</b> interface includes methods to create a newer version swap chain with more features than <a href="https://msdn.microsoft.com/en-us/library/Bb174569(v=VS.85).aspx">IDXGISwapChain</a> and to monitor stereoscopic 3D capabilities.
 
 
 ## -inheritance
@@ -177,11 +177,11 @@ Unregisters a window or an event to stop it from receiving notification when ste
 
 
 
-To create a Microsoft DirectX Graphics Infrastructure (DXGI) 1.2 factory interface, pass <b>IDXGIFactory2</b> into either the <a href="https://msdn.microsoft.com/5d8fb726-b2dc-4326-a7ad-8324af3924de">CreateDXGIFactory</a> or <a href="https://msdn.microsoft.com/6fb9d7a3-0b59-4b7a-8871-b99d59811d46">CreateDXGIFactory1</a> function or call <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> from a factory object that either <b>CreateDXGIFactory</b> or <b>CreateDXGIFactory1</b> returns.
+To create a Microsoft DirectX Graphics Infrastructure (DXGI) 1.2 factory interface, pass <b>IDXGIFactory2</b> into either the <a href="https://msdn.microsoft.com/en-us/library/Bb204862(v=VS.85).aspx">CreateDXGIFactory</a> or <a href="https://msdn.microsoft.com/6fb9d7a3-0b59-4b7a-8871-b99d59811d46">CreateDXGIFactory1</a> function or call <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> from a factory object that either <b>CreateDXGIFactory</b> or <b>CreateDXGIFactory1</b> returns.
 
 
 Because you can create a Direct3D device without creating a swap chain, you might need to retrieve the factory that is used to create the device in order to create a swap chain.
-You can request the <a href="https://msdn.microsoft.com/83b24b82-9044-4c99-8d50-63f1e8aef8db">IDXGIDevice</a>, <a href="https://msdn.microsoft.com/a0ba0fa3-489a-4eff-9e49-b231ab472ee4">IDXGIDevice1</a>, or  <a href="https://msdn.microsoft.com/0AD1E52F-EB9F-473F-AF16-E2E1A7E8946A">IDXGIDevice2</a> interface from the Direct3D device and then use the <a href="https://msdn.microsoft.com/7e7f7494-445e-4bf1-8b94-fc40b7d9b887">IDXGIObject::GetParent</a> method to locate 
+You can request the <a href="https://msdn.microsoft.com/en-us/library/Bb174527(v=VS.85).aspx">IDXGIDevice</a>, <a href="https://msdn.microsoft.com/a0ba0fa3-489a-4eff-9e49-b231ab472ee4">IDXGIDevice1</a>, or  <a href="https://msdn.microsoft.com/0AD1E52F-EB9F-473F-AF16-E2E1A7E8946A">IDXGIDevice2</a> interface from the Direct3D device and then use the <a href="https://msdn.microsoft.com/en-us/library/Bb174542(v=VS.85).aspx">IDXGIObject::GetParent</a> method to locate 
 the factory.  The following code shows how.
 
 <div class="code"><span codelanguage=""><table>

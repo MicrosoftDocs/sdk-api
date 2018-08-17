@@ -108,7 +108,7 @@ The pointers retrieved with <a href="https://msdn.microsoft.com/CD777E2D-4CA0-4C
 
 
 
-<a href="coreaudio.ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a>
+<a href="https://msdn.microsoft.com/library/Mt829728(v=VS.85).aspx">ISpatialAudioObjectRenderStreamBase</a>
  
 
  

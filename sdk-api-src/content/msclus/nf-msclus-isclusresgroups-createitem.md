@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
     unavailable in subsequent versions.]
 
 Creates a <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a> in the 
-    <a href="c_gly.htm">cluster</a> and adds it to the 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> and adds it to the 
     <a href="https://msdn.microsoft.com/7411d5f9-15c0-4c03-9128-c6b636979a50">ClusResGroups</a> collection.
 
 

@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>X509SCEPFailInfo</b> enumeration   describes the nature of an SCEP certificate enrollment failure. This enumeration is used by the <a href="https://msdn.microsoft.com/fcbac911-9e37-4994-bbb6-544b19a92749">IX509SCEPEnrollment</a> interface.
+The <b>X509SCEPFailInfo</b> enumeration   describes the nature of an SCEP certificate enrollment failure. This enumeration is used by the <a href="https://msdn.microsoft.com/en-us/library/Dn424973(v=VS.85).aspx">IX509SCEPEnrollment</a> interface.
 
 
 ## -enum-fields
@@ -92,7 +92,7 @@ No certificate could be identified.
 
 
 
-<a href="https://msdn.microsoft.com/4fd76b7e-8b19-46da-b352-7668917a6585">FailInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn424980(v=VS.85).aspx">FailInfo</a>
  
 
  

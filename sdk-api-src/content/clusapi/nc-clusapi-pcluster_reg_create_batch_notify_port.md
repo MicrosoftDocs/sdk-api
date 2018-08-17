@@ -70,7 +70,7 @@ A cluster registry key. Any updates performed at this key or keys below it will 
 ### -param *phBatchNotifyPort [out]
 
 A handle to a batch notification port that allows subsequent reading batch notifications via the 
-       <a href="https://msdn.microsoft.com/4cc6925f-cf91-449b-8f9d-fcf48b4df896">ClusterRegGetBatchNotification</a> 
+       <a href="https://msdn.microsoft.com/en-us/library/Cc512176(v=VS.85).aspx">ClusterRegGetBatchNotification</a> 
        function.
 
 
@@ -81,7 +81,7 @@ A handle to a batch notification port that allows subsequent reading batch notif
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b> (0).
 
 If the operation fails, the function returns a 
-       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>.
+       <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>.
 
 
 
@@ -101,7 +101,7 @@ The <b>PCLUSTER_REG_CREATE_BATCH_NOTIFY_PORT</b> type defines a pointer to this
 
 
 
-<a href="https://msdn.microsoft.com/2bb0650f-ef9c-40bb-ae90-229bfa23838e">Cluster Registry Access Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa369128(v=VS.85).aspx">Cluster Registry Access Functions</a>
 
 
 
@@ -109,7 +109,7 @@ The <b>PCLUSTER_REG_CREATE_BATCH_NOTIFY_PORT</b> type defines a pointer to this
 
 
 
-<a href="https://msdn.microsoft.com/4cc6925f-cf91-449b-8f9d-fcf48b4df896">ClusterRegGetBatchNotification</a>
+<a href="https://msdn.microsoft.com/en-us/library/Cc512176(v=VS.85).aspx">ClusterRegGetBatchNotification</a>
  
 
  

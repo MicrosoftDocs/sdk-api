@@ -62,21 +62,21 @@ The <b>GraphicsPath::SetFillMode</b> method sets the fill mode of this path.
 
 ### -param fillmode [in]
 
-Type: <b><a href="https://msdn.microsoft.com/fd54e07b-74a2-4bce-9fa3-e36afec4be92">FillMode</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534120(v=VS.85).aspx">FillMode</a></b>
 
-Element of the <a href="https://msdn.microsoft.com/fd54e07b-74a2-4bce-9fa3-e36afec4be92">FillMode</a> enumeration that specifies how to fill areas when the path intersects itself. 
+Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534120(v=VS.85).aspx">FillMode</a> enumeration that specifies how to fill areas when the path intersects itself. 
 
 
 ## -returns
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
 </strong>
 
-If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
 
-If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
 
 
 
@@ -86,27 +86,27 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/816a5845-ca03-46c6-bdda-e6a7d02ff614">Clipping with a Region</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533825(v=VS.85).aspx">Clipping with a Region</a>
 
 
 
-<a href="https://msdn.microsoft.com/dbfe8cea-bd9e-43ad-85c8-37cce3ef97a4">Constructing and Drawing Paths</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533805(v=VS.85).aspx">Constructing and Drawing Paths</a>
 
 
 
-<a href="https://msdn.microsoft.com/f6a8085c-3d6a-494f-a1ee-5fa96efb1aae">Creating a Path Gradient</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533917(v=VS.85).aspx">Creating a Path Gradient</a>
 
 
 
-<a href="https://msdn.microsoft.com/fd54e07b-74a2-4bce-9fa3-e36afec4be92">FillMode</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534120(v=VS.85).aspx">FillMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>
 
 
 
-<a href="https://msdn.microsoft.com/88fea2ec-7b53-44bb-841d-486c5c879c68">Paths</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536370(v=VS.85).aspx">Paths</a>
  
 
  

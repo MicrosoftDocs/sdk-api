@@ -62,14 +62,14 @@ Resizes a tile pool.
 
 ### -param pTilePool [in]
 
-Type: <b><a href="https://msdn.microsoft.com/7224de57-75cb-4d68-9d70-f5dd2f92b1fd">ID3D11Buffer</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476351(v=VS.85).aspx">ID3D11Buffer</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/7224de57-75cb-4d68-9d70-f5dd2f92b1fd">ID3D11Buffer</a> for the tile pool to resize.
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ff476351(v=VS.85).aspx">ID3D11Buffer</a> for the tile pool to resize.
 
 
 ### -param NewSizeInBytes [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT64</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT64</a></b>
 
 The new size in bytes of the tile pool. The size must be a multiple of 64 KB or 0.
 
@@ -78,7 +78,7 @@ The new size in bytes of the tile pool. The size must be a multiple of 64 KB or 
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 Returns S_OK if successful; otherwise, returns one of the following:
 
@@ -116,7 +116,7 @@ For more info about tiled resources, see <a href="https://msdn.microsoft.com/030
 
 
 
-<a href="https://msdn.microsoft.com/8B6B6F6E-9236-4DEE-A1BA-5FE45736DFAA">ID3D11DeviceContext2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280498(v=VS.85).aspx">ID3D11DeviceContext2</a>
  
 
  

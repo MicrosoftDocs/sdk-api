@@ -97,7 +97,7 @@ Specifies 270 degrees of rotation.
 
 
 
-<a href="https://msdn.microsoft.com/7293abb3-81e5-46b2-9987-f60e3ac9eed8">DXGI_OUTPUT_DESC</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173068(v=VS.85).aspx">DXGI_OUTPUT_DESC</a>
 
 
 

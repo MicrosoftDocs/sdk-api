@@ -70,7 +70,7 @@ Handle to the group to be taken offline.
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. The following is one of the possible error codes.
+the function returns a <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>. The following is one of the possible error codes.
 
 
 
@@ -79,7 +79,7 @@ the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f
 
 
 
-Do not call  <i>OfflineClusterGroup</i> from a resource DLL. For more information, see  <a href="https://msdn.microsoft.com/0eaa4aea-8d9a-4552-b43a-fafa23a3e736">Function Calls to Avoid in Resource DLLs</a>.
+Do not call  <i>OfflineClusterGroup</i> from a resource DLL. For more information, see  <a href="https://msdn.microsoft.com/en-us/library/Aa369588(v=VS.85).aspx">Function Calls to Avoid in Resource DLLs</a>.
 
 
 

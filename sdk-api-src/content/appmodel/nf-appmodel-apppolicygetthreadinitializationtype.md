@@ -69,7 +69,7 @@ A handle that identifies the access token for a process.
 
 ### -param policy [out]
 
-A pointer to a variable of the <a href="appxpkg.apppolicythreadinitializationtype_enumeration">AppPolicyThreadInitializationType</a> enumerated type. When the function returns successfully, the variable contains a value indicating the kind of initialization that should be automatically performed for the process when beginthread[ex] creates a thread.
+A pointer to a variable of the <a href="https://msdn.microsoft.com/en-us/library/Mt829661(v=VS.85).aspx">AppPolicyThreadInitializationType</a> enumerated type. When the function returns successfully, the variable contains a value indicating the kind of initialization that should be automatically performed for the process when beginthread[ex] creates a thread.
 
 
 ## -returns

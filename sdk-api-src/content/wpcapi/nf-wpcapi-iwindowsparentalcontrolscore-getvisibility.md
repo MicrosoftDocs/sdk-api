@@ -165,7 +165,7 @@ The method failed.
 
 
 
-<a href="parcon.iwindowsparentalcontrolscore">IWindowsParentalControlsCore</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt847165(v=VS.85).aspx">IWindowsParentalControlsCore</a>
  
 
  

@@ -84,23 +84,23 @@ If the intersection of the two rectangles is not empty, this method returns <b>T
 
 
 
-<a href="https://msdn.microsoft.com/4b57bc29-cec2-4a66-9227-6a31d8f1d4de">Intersect Methods</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534945(v=VS.85).aspx">Intersect Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/d91562ab-41e6-4bca-a320-74f490a4f88f">Pens, Lines, and Rectangles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
 
 
 
-<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a>
 
 
 
-<a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a>
 
 
 
-<a href="https://msdn.microsoft.com/f2e4144f-f2f1-49db-bfdf-ffce3023b4cb">Using a Pen to Draw Lines and Rectangles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533855(v=VS.85).aspx">Using a Pen to Draw Lines and Rectangles</a>
  
 
  

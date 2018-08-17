@@ -66,7 +66,7 @@ Get the eviction priority of a resource.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 One of the following values, which specifies the eviction priority for the resource:
 
@@ -84,7 +84,7 @@ One of the following values, which specifies the eviction priority for the resou
 
 
 
-This method is a wrapper for <a href="https://msdn.microsoft.com/5e2ac0ca-12f2-4d93-b0cc-21f8923727ed">GetEvictionPriority</a> and is provided in the <a href="https://msdn.microsoft.com/709c6f33-e1dc-4609-8ddd-9dc502628ec5">ID3D10Resource Interface</a> interface for convenience.
+This method is a wrapper for <a href="https://msdn.microsoft.com/en-us/library/Bb174561(v=VS.85).aspx">GetEvictionPriority</a> and is provided in the <a href="https://msdn.microsoft.com/en-us/library/Bb173829(v=VS.85).aspx">ID3D10Resource Interface</a> interface for convenience.
 
 
 
@@ -94,7 +94,7 @@ This method is a wrapper for <a href="https://msdn.microsoft.com/5e2ac0ca-12f2-4
 
 
 
-<a href="https://msdn.microsoft.com/709c6f33-e1dc-4609-8ddd-9dc502628ec5">ID3D10Resource Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173829(v=VS.85).aspx">ID3D10Resource Interface</a>
  
 
  

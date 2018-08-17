@@ -82,7 +82,7 @@ This property is read/write.
 
 
 
-<a href="tablet.iinkpicture">IInkPicture</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
 
 
 

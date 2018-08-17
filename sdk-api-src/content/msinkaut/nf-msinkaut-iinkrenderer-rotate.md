@@ -132,7 +132,7 @@ If no point is specified, the rotation is centered around the origin.
 
 
 
-<a href="tablet.iinkrenderer">IInkRenderer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846805(v=VS.85).aspx">IInkRenderer</a>
 
 
 

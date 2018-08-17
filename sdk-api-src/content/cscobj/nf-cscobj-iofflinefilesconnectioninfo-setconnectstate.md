@@ -86,19 +86,19 @@ This flag is ignored if the OFFLINEFILES_TRANSITION_FLAG_INTERACTIVE flag is not
 
 ### -param ConnectState [in]
 
-Specify one of the following <a href="https://msdn.microsoft.com/48c19b16-6ccb-4580-916d-0d23b69aafcf">OFFLINEFILES_CONNECT_STATE</a> enumeration values.
+Specify one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb530644(v=VS.85).aspx">OFFLINEFILES_CONNECT_STATE</a> enumeration values.
 
 
 
 #### OFFLINEFILES_CONNECT_STATE_OFFLINE
 
-Transition the item to offline.  Note that this operation will fail if there are currently open handles to affected files that are not cached by Offline Files.  The <a href="https://msdn.microsoft.com/cb32238d-c8f2-4228-8472-4a699b24c621">IOfflineFilesConnectionInfo::TransitionOffline</a> method allows you to control the closing of such handles.
+Transition the item to offline.  Note that this operation will fail if there are currently open handles to affected files that are not cached by Offline Files.  The <a href="https://msdn.microsoft.com/en-us/library/Bb530514(v=VS.85).aspx">IOfflineFilesConnectionInfo::TransitionOffline</a> method allows you to control the closing of such handles.
 
 
 
 #### OFFLINEFILES_CONNECT_STATE_ONLINE
 
-Transitions the item online if possible.  This is equivalent to the <a href="https://msdn.microsoft.com/b8cac664-598d-43fd-a77e-e8406c197afc">IOfflineFilesConnectionInfo::TransitionOnline</a> method.
+Transitions the item online if possible.  This is equivalent to the <a href="https://msdn.microsoft.com/en-us/library/Bb530515(v=VS.85).aspx">IOfflineFilesConnectionInfo::TransitionOnline</a> method.
 
 
 ## -returns
@@ -114,7 +114,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-The <a href="https://msdn.microsoft.com/b8cac664-598d-43fd-a77e-e8406c197afc">IOfflineFilesConnectionInfo::TransitionOnline</a> and <a href="https://msdn.microsoft.com/cb32238d-c8f2-4228-8472-4a699b24c621">IOfflineFilesConnectionInfo::TransitionOffline</a> methods are preferred over this method as they provide greater control over the handling and detecting of open handles in the online-to-offline transition.
+The <a href="https://msdn.microsoft.com/en-us/library/Bb530515(v=VS.85).aspx">IOfflineFilesConnectionInfo::TransitionOnline</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb530514(v=VS.85).aspx">IOfflineFilesConnectionInfo::TransitionOffline</a> methods are preferred over this method as they provide greater control over the handling and detecting of open handles in the online-to-offline transition.
 
 
 
@@ -124,19 +124,19 @@ The <a href="https://msdn.microsoft.com/b8cac664-598d-43fd-a77e-e8406c197afc">IO
 
 
 
-<a href="https://msdn.microsoft.com/923c5657-67e7-498a-a46b-97d44368cf3b">IOfflineFilesConnectionInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530511(v=VS.85).aspx">IOfflineFilesConnectionInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb32238d-c8f2-4228-8472-4a699b24c621">IOfflineFilesConnectionInfo::TransitionOffline</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530514(v=VS.85).aspx">IOfflineFilesConnectionInfo::TransitionOffline</a>
 
 
 
-<a href="https://msdn.microsoft.com/b8cac664-598d-43fd-a77e-e8406c197afc">IOfflineFilesConnectionInfo::TransitionOnline</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530515(v=VS.85).aspx">IOfflineFilesConnectionInfo::TransitionOnline</a>
 
 
 
-<a href="https://msdn.microsoft.com/48c19b16-6ccb-4580-916d-0d23b69aafcf">OFFLINEFILES_CONNECT_STATE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530644(v=VS.85).aspx">OFFLINEFILES_CONNECT_STATE</a>
  
 
  

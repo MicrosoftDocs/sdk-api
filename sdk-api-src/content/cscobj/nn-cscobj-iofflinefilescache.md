@@ -57,9 +57,9 @@ Used to manage the Offline Files cache.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesCache</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IOfflineFilesCache</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesCache</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IOfflineFilesCache</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -72,7 +72,7 @@ The <b>IOfflineFilesCache</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e6326364-fbd0-4446-97c3-6a3940856efb">DeleteItems</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530487(v=VS.85).aspx">DeleteItems</a>
 </td>
 <td align="left" width="63%">
 Deletes files and directories from the local cache.
@@ -81,7 +81,7 @@ Deletes files and directories from the local cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a187fd6b-0717-4663-b460-df96876cd9c3">DeleteItemsForUser</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530488(v=VS.85).aspx">DeleteItemsForUser</a>
 </td>
 <td align="left" width="63%">
 Deletes a user's files and directories from the local cache.
@@ -90,7 +90,7 @@ Deletes a user's files and directories from the local cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b7531018-4837-4fde-8947-0f099f6de9e5">Encrypt</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530489(v=VS.85).aspx">Encrypt</a>
 </td>
 <td align="left" width="63%">
 Encrypts or unencrypts the contents of the Offline Files cache cached for the calling user.
@@ -99,7 +99,7 @@ Encrypts or unencrypts the contents of the Offline Files cache cached for the ca
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1f2bb562-810a-4cc1-a072-eb870149954a">EnumSettingObjects</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530490(v=VS.85).aspx">EnumSettingObjects</a>
 </td>
 <td align="left" width="63%">
 Creates an enumerator of instances of IOfflineFilesSetting.
@@ -108,7 +108,7 @@ Creates an enumerator of instances of IOfflineFilesSetting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/15696dbf-09a9-42e3-8400-20f7b9b171b7">FindItem</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530491(v=VS.85).aspx">FindItem</a>
 </td>
 <td align="left" width="63%">
 Locates a particular file or directory item in the cache.
@@ -117,7 +117,7 @@ Locates a particular file or directory item in the cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f7a247c0-1bb2-40d5-8914-758c8f6c4c51">FindItemEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530492(v=VS.85).aspx">FindItemEx</a>
 </td>
 <td align="left" width="63%">
 Locates a particular file or directory item in the cache.
@@ -126,7 +126,7 @@ Locates a particular file or directory item in the cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/94ea826a-bfc4-4010-a57f-c3a1af985d03">GetDiskSpaceInformation</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530493(v=VS.85).aspx">GetDiskSpaceInformation</a>
 </td>
 <td align="left" width="63%">
 Retrieves the amount of disk space used by the Offline Files cache as well as the space limits applied to cache usage.
@@ -135,7 +135,7 @@ Retrieves the amount of disk space used by the Offline Files cache as well as th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/87c2aced-84c9-40cb-bdf2-6974925e89d5">GetEncryptionStatus</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530494(v=VS.85).aspx">GetEncryptionStatus</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current encryption state (encrypted or unencrypted) of the Offline Files cache.
@@ -144,7 +144,7 @@ Retrieves the current encryption state (encrypted or unencrypted) of the Offline
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e608c662-23d2-4dcc-95fc-e949ba9f848f">GetLocation</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530495(v=VS.85).aspx">GetLocation</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current fully qualified directory path of the Offline Files cache.
@@ -153,7 +153,7 @@ Retrieves the current fully qualified directory path of the Offline Files cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/17b6572d-f05e-4f0e-a247-89acd2963d6b">GetSettingObject</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530496(v=VS.85).aspx">GetSettingObject</a>
 </td>
 <td align="left" width="63%">
 Creates an object that represents a particular Offline Files setting.
@@ -162,7 +162,7 @@ Creates an object that represents a particular Offline Files setting.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4d9a2fda-baad-4ada-8a07-f39c9cfafdfa">IsPathCacheable</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530497(v=VS.85).aspx">IsPathCacheable</a>
 </td>
 <td align="left" width="63%">
 Determines whether a specified UNC path is in the Offline Files cache.
@@ -171,7 +171,7 @@ Determines whether a specified UNC path is in the Offline Files cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6005d755-5e1b-4eba-95a2-b6c9c00b1a64">Pin</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530498(v=VS.85).aspx">Pin</a>
 </td>
 <td align="left" width="63%">
 Pins files, directories, and network shared folders.
@@ -180,7 +180,7 @@ Pins files, directories, and network shared folders.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/25ee4586-3031-4815-9a35-ce57cf9366d7">ProcessAdminPinPolicy</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530499(v=VS.85).aspx">ProcessAdminPinPolicy</a>
 </td>
 <td align="left" width="63%">
 Causes Offline Files to process the "administratively assigned offline files" group policy.
@@ -189,7 +189,7 @@ Causes Offline Files to process the "administratively assigned offline files" gr
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/883f29cb-d551-4358-8e74-f901956d8829">RenameItem</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530500(v=VS.85).aspx">RenameItem</a>
 </td>
 <td align="left" width="63%">
 Renames a specified path in the cache.
@@ -198,7 +198,7 @@ Renames a specified path in the cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cdbfd5af-000a-4724-8a44-5641b2f75896">SetDiskSpaceLimits</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530501(v=VS.85).aspx">SetDiskSpaceLimits</a>
 </td>
 <td align="left" width="63%">
 Sets disk space usage limits on the Offline Files cache.
@@ -207,7 +207,7 @@ Sets disk space usage limits on the Offline Files cache.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4a9dd105-ea68-40ce-b1cb-6126ca932095">Synchronize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530502(v=VS.85).aspx">Synchronize</a>
 </td>
 <td align="left" width="63%">
 Synchronizes files and directories in the Offline Files cache with their corresponding copies in the applicable network shared folders.
@@ -216,7 +216,7 @@ Synchronizes files and directories in the Offline Files cache with their corresp
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/32d81a75-8845-4bd5-a0ff-e056a06ac11c">Unpin</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530503(v=VS.85).aspx">Unpin</a>
 </td>
 <td align="left" width="63%">
 Unpins files, directories, and network shared folders from the Offline Files cache.
@@ -231,7 +231,7 @@ Unpins files, directories, and network shared folders from the Offline Files cac
 
 
 
-<a href="https://msdn.microsoft.com/9dea396f-ab71-4b2e-b5d3-776c16614f26">Offline Files API Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530659(v=VS.85).aspx">Offline Files API Interfaces</a>
  
 
  

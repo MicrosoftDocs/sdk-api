@@ -51,14 +51,14 @@ req.irql:
 ## -description
 
 
-The <b>IBinaryConverter</b> interface contains general methods that enable you to create a Unicode-encoded string from a byte array, create a byte array from a Unicode-encoded string, and modify the type of Unicode encoding applied to  a string. You can use this interface to represent a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate BLOB</a> as a printable string or to decode the string back into a certificate BLOB.
+The <b>IBinaryConverter</b> interface contains general methods that enable you to create a Unicode-encoded string from a byte array, create a byte array from a Unicode-encoded string, and modify the type of Unicode encoding applied to  a string. You can use this interface to represent a <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate BLOB</a> as a printable string or to decode the string back into a certificate BLOB.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBinaryConverter</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IBinaryConverter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBinaryConverter</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IBinaryConverter</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>IBinaryConverter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c584a9bd-4ea3-4df7-8a9a-1f70cf07a213">StringToString</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375201(v=VS.85).aspx">StringToString</a>
 </td>
 <td align="left" width="63%">
 Modifies the type of Unicode encoding applied to a string.
@@ -80,7 +80,7 @@ Modifies the type of Unicode encoding applied to a string.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b0d649f7-79a1-452c-a790-b6c05ccb84b0">StringToVariantByteArray</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375206(v=VS.85).aspx">StringToVariantByteArray</a>
 </td>
 <td align="left" width="63%">
 Creates a byte array from a Unicode encoded string.
@@ -89,7 +89,7 @@ Creates a byte array from a Unicode encoded string.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c10c93c1-10b1-4724-9df5-3c17c593c2b9">VariantByteArrayToString</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375209(v=VS.85).aspx">VariantByteArrayToString</a>
 </td>
 <td align="left" width="63%">
 Creates a Unicode encoded string from a byte array.
@@ -104,11 +104,11 @@ Creates a Unicode encoded string from a byte array.
 
 
 
-<a href="https://msdn.microsoft.com/d49511ed-8651-457e-a102-0bea4edde24c">CertEnroll Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa374850(v=VS.85).aspx">CertEnroll Interfaces</a>
 
 
 
-<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
  
 
  

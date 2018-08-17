@@ -74,7 +74,7 @@ The retrieved array of replicated disks.
 
 
 
-<a href="https://msdn.microsoft.com/e3ad7c34-0c8a-4f03-8e5c-b57802c493f0">Data Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa369339(v=VS.85).aspx">Data Structures</a>
  
 
  

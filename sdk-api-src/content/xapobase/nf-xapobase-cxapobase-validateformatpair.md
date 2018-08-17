@@ -100,7 +100,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/C55C4597-F379-462E-94FE-D7CF2004D8F4">CXAPOBase</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415236(v=VS.85).aspx">CXAPOBase</a>
  
 
  

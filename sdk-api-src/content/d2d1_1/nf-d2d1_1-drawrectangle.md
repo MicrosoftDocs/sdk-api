@@ -181,7 +181,7 @@ HRESULT DemoApp::OnRender()
 </td>
 </tr>
 </table></span></div>
-For a related tutorial, see <a href="https://msdn.microsoft.com/a627523e-417a-40cd-82c0-4f0380a3a0b1">Creating a Simple Direct2D Application</a>. 
+For a related tutorial, see <a href="https://msdn.microsoft.com/en-us/library/Dd370994(v=VS.85).aspx">Creating a Simple Direct2D Application</a>. 
 
 <div class="code"></div>
 
@@ -192,11 +192,11 @@ For a related tutorial, see <a href="https://msdn.microsoft.com/a627523e-417a-40
 
 
 
-<a href="https://msdn.microsoft.com/a627523e-417a-40cd-82c0-4f0380a3a0b1">Creating a Simple Direct2D Application</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd370994(v=VS.85).aspx">Creating a Simple Direct2D Application</a>
 
 
 
-<a href="https://msdn.microsoft.com/8a68fc3f-118c-447b-856c-05417ae4ef29">How to Draw and Fill a Basic Shape</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd756683(v=VS.85).aspx">How to Draw and Fill a Basic Shape</a>
 
 
 

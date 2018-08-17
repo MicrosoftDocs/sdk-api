@@ -113,7 +113,7 @@ Supports Direct3D 9 feature options.
 ### -field D3D11_FEATURE_SHADER_MIN_PRECISION_SUPPORT
 
 Supports minimum precision of shaders.
-              For more info about HLSL minimum precision, see <a href="direct3d_11_1_features.htm">using HLSL minimum precision</a>.
+              For more info about HLSL minimum precision, see <a href="https://msdn.microsoft.com/en-us/library/Hh404562(v=VS.85).aspx">using HLSL minimum precision</a>.
             Refer to <a href="https://msdn.microsoft.com/4494A896-E73E-4A41-BC73-F9BD49510276">D3D11_FEATURE_DATA_SHADER_MIN_PRECISION_SUPPORT</a>.
 
 <b>Direct3D 11:  </b>This value is not supported until Direct3D 11.1.
@@ -150,7 +150,7 @@ Supports Direct3D 11.2 marker options. Refer to <a href="https://msdn.microsoft.
 ### -field D3D11_FEATURE_D3D9_OPTIONS1
 
 Supports Direct3D 9 feature options, which includes the Direct3D 9 shadowing feature and instancing support. Refer to 
-            <a href="https://msdn.microsoft.com/4894B4FC-1E95-42B1-B92D-E3B484ABDC74">D3D11_FEATURE_DATA_D3D9_OPTIONS1</a>.
+            <a href="https://msdn.microsoft.com/en-us/library/Dn629642(v=VS.85).aspx">D3D11_FEATURE_DATA_D3D9_OPTIONS1</a>.
 
 <b>Direct3D 11:  </b>This value is not supported until Direct3D 11.2.
 
@@ -158,7 +158,7 @@ Supports Direct3D 9 feature options, which includes the Direct3D 9 shadowing f
 ### -field D3D11_FEATURE_D3D11_OPTIONS2
 
 Supports Direct3D 11.3 conservative rasterization feature options.
-            Refer to <a href="https://msdn.microsoft.com/D0CD9245-D8BC-48E5-A69B-0DB9B87E56A4">D3D11_FEATURE_DATA_D3D11_OPTIONS2</a>.
+            Refer to <a href="https://msdn.microsoft.com/en-us/library/Dn879499(v=VS.85).aspx">D3D11_FEATURE_DATA_D3D11_OPTIONS2</a>.
 
 <b>Direct3D 11:  </b>This value is not supported until Direct3D 11.3.
 
@@ -166,26 +166,26 @@ Supports Direct3D 11.3 conservative rasterization feature options.
 ### -field D3D11_FEATURE_D3D11_OPTIONS3
 
 Supports Direct3D 11.4 conservative rasterization feature options.
-            Refer to <a href="https://msdn.microsoft.com/A8F9AAF5-F1C6-476D-AF14-5BCDEEDAF810">D3D11_FEATURE_DATA_D3D11_OPTIONS3</a>.
+            Refer to <a href="https://msdn.microsoft.com/en-us/library/Dn933226(v=VS.85).aspx">D3D11_FEATURE_DATA_D3D11_OPTIONS3</a>.
 
 <b>Direct3D 11:  </b>This value is not supported until Direct3D 11.4.
 
 
 ### -field D3D11_FEATURE_GPU_VIRTUAL_ADDRESS_SUPPORT
 
-Supports GPU virtual addresses. Refer to <a href="https://msdn.microsoft.com/662D9B07-755C-430D-84C6-B1E8876E26B5">D3D11_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT</a>.
+Supports GPU virtual addresses. Refer to <a href="https://msdn.microsoft.com/en-us/library/Mt158212(v=VS.85).aspx">D3D11_FEATURE_DATA_GPU_VIRTUAL_ADDRESS_SUPPORT</a>.
 
 
 ### -field D3D11_FEATURE_D3D11_OPTIONS4
 
-Supports a single boolean for NV12 shared textures. Refer to <a href="https://msdn.microsoft.com/BC0DD66C-3452-440D-87EA-1504EFF89E3F">D3D11_FEATURE_DATA_D3D11_OPTIONS4</a>.
+Supports a single boolean for NV12 shared textures. Refer to <a href="https://msdn.microsoft.com/en-us/library/Mt732994(v=VS.85).aspx">D3D11_FEATURE_DATA_D3D11_OPTIONS4</a>.
 
 <b>Direct3D 11:  </b>This value is not supported until Direct3D 11.4.
 
 
 ### -field D3D11_FEATURE_SHADER_CACHE
 
-Supports shader cache, described in <a href="https://msdn.microsoft.com/45F1184E-0E82-4AF4-86F7-ED0E4C860026">D3D11_FEATURE_DATA_SHADER_CACHE</a>.
+Supports shader cache, described in <a href="https://msdn.microsoft.com/en-us/library/Mt492474(v=VS.85).aspx">D3D11_FEATURE_DATA_SHADER_CACHE</a>.
 
 
 ### -field D3D11_FEATURE_D3D11_OPTIONS5
@@ -197,7 +197,7 @@ Supports shader cache, described in <a href="https://msdn.microsoft.com/45F1184E
 
 
 
-This enumeration is used when querying a driver about support for these features by calling <a href="https://msdn.microsoft.com/7edf2ffd-908a-4cf8-9ac6-8fd14d7a0ea1">ID3D11Device::CheckFeatureSupport</a>.
+This enumeration is used when querying a driver about support for these features by calling <a href="https://msdn.microsoft.com/en-us/library/Ff476497(v=VS.85).aspx">ID3D11Device::CheckFeatureSupport</a>.
           Each value in this enumeration has a corresponding data structure that is required to be passed to the <i>pFeatureSupportData</i> parameter
           of <b>ID3D11Device::CheckFeatureSupport</b>.
         
@@ -210,7 +210,7 @@ This enumeration is used when querying a driver about support for these features
 
 
 
-<a href="https://msdn.microsoft.com/1641713a-5ac8-4597-900b-1bba54f9f522">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476152(v=VS.85).aspx">Core Enumerations</a>
  
 
  

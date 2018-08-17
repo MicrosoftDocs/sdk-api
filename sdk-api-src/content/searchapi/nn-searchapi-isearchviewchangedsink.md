@@ -72,7 +72,7 @@ The <b>ISearchViewChangedSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d5582b55-5cf5-4d55-b7ec-3624f4a75249">OnChange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231453(v=VS.85).aspx">OnChange</a>
 </td>
 <td align="left" width="63%">
 Not implemented.

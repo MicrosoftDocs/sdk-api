@@ -68,7 +68,7 @@ A value that indicates the relative position of the gradient stop in the brush. 
 
 ### -field color
 
-Type: <b><a href="https://msdn.microsoft.com/564d4f41-2da7-49ed-b85a-d1070d662b40">D2D1_COLOR_F</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368081(v=VS.85).aspx">D2D1_COLOR_F</a></b>
 
 The color of the gradient stop.
 
@@ -153,19 +153,19 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/7a31d9e7-0521-40ee-b2c1-592dfaf5301e">Brushes Overview</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd756651(v=VS.85).aspx">Brushes Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/674ffba5-18c5-46bf-8813-d8d13e5ba903">CreateGradientStopCollection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742781(v=VS.85).aspx">CreateGradientStopCollection</a>
 
 
 
-<a href="https://msdn.microsoft.com/3cf5acc6-2f17-49d4-aca5-a84a846d1749">How to Create a Linear Gradient Brush</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd756678(v=VS.85).aspx">How to Create a Linear Gradient Brush</a>
 
 
 
-<a href="https://msdn.microsoft.com/663743c9-16e9-4e3a-90b2-883ef0b8d5cf">How to Create a Radial Gradient Brush</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd756679(v=VS.85).aspx">How to Create a Radial Gradient Brush</a>
 
 
 

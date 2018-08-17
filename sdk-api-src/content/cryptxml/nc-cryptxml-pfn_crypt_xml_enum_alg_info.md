@@ -52,7 +52,7 @@ req.irql:
 
 
 The <i>PFN_CRYPT_XML_ENUM_ALG_INFO</i> callback function enumerates predefined and registered 
- <a href="https://msdn.microsoft.com/ab6ec092-d25d-4ca0-8206-b7e5ad36d69b">CRYPT_XML_ALGORITHM_INFO</a> entries.
+ <a href="https://msdn.microsoft.com/en-us/library/Dd433843(v=VS.85).aspx">CRYPT_XML_ALGORITHM_INFO</a> entries.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The <i>PFN_CRYPT_XML_ENUM_ALG_INFO</i> callback function enumerates predefined a
 
 ### -param *pInfo [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/ab6ec092-d25d-4ca0-8206-b7e5ad36d69b">CRYPT_XML_ALGORITHM_INFO</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd433843(v=VS.85).aspx">CRYPT_XML_ALGORITHM_INFO</a> structure.
 
 
 ### -param *pvArg [in, out, optional]

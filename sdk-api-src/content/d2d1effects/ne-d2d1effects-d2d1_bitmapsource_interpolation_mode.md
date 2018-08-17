@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The interpolation mode used to scale the image in the <a href="https://msdn.microsoft.com/86646111-208A-4E6D-A28C-7B23A1742D24">Bitmap source effect</a>.If the mode disables the mipmap, then BitmapSouce will cache the image at the resolution determined by the Scale and EnableDPICorrection properties.
+The interpolation mode used to scale the image in the <a href="https://msdn.microsoft.com/en-us/library/Hh706312(v=VS.85).aspx">Bitmap source effect</a>.If the mode disables the mipmap, then BitmapSouce will cache the image at the resolution determined by the Scale and EnableDPICorrection properties.
       
 
 

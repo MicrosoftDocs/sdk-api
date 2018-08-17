@@ -85,9 +85,9 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-An application that maintains its own minimized child windows can use the <b>ArrangeIconicWindows</b> function to arrange icons in a parent window. This function can also arrange icons on the desktop. To retrieve the window handle to the desktop window, use the <a href="https://msdn.microsoft.com/0a87f941-a1aa-4e97-b509-912373f6d629">GetDesktopWindow</a> function. 
+An application that maintains its own minimized child windows can use the <b>ArrangeIconicWindows</b> function to arrange icons in a parent window. This function can also arrange icons on the desktop. To retrieve the window handle to the desktop window, use the <a href="https://msdn.microsoft.com/en-us/library/ms633504(v=VS.85).aspx">GetDesktopWindow</a> function. 
 
-An application sends the <a href="https://msdn.microsoft.com/935b9e29-224d-449e-b89f-b6062bed7702">WM_MDIICONARRANGE</a> message to the multiple-document interface (MDI) client window to prompt the client window to arrange its minimized MDI child windows. 
+An application sends the <a href="https://msdn.microsoft.com/en-us/library/ms644916(v=VS.85).aspx">WM_MDIICONARRANGE</a> message to the multiple-document interface (MDI) client window to prompt the client window to arrange its minimized MDI child windows. 
 
 
 
@@ -97,7 +97,7 @@ An application sends the <a href="https://msdn.microsoft.com/935b9e29-224d-449e-
 
 
 
-<a href="https://msdn.microsoft.com/6bb41c24-458a-42ee-9e60-592e20881e06">CloseWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632678(v=VS.85).aspx">CloseWindow</a>
 
 
 
@@ -105,7 +105,7 @@ An application sends the <a href="https://msdn.microsoft.com/935b9e29-224d-449e-
 
 
 
-<a href="https://msdn.microsoft.com/0a87f941-a1aa-4e97-b509-912373f6d629">GetDesktopWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633504(v=VS.85).aspx">GetDesktopWindow</a>
 
 
 
@@ -113,7 +113,7 @@ An application sends the <a href="https://msdn.microsoft.com/935b9e29-224d-449e-
 
 
 
-<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
  
 
  

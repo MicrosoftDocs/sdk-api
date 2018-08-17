@@ -81,7 +81,7 @@ Pointer to a null-terminated Unicode character string that contains a remark ass
 
 Pointer to a 
 <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f">SID</a> structure that contains the 
-<a href="security.security_identifiers_sids_">security identifier (SID)</a> that uniquely identifies the global group. The 
+<a href="https://msdn.microsoft.com/library/Aa379571(v=VS.85).aspx">security identifier (SID)</a> that uniquely identifies the global group. The 
 <a href="https://msdn.microsoft.com/b5ca5f76-d40b-4abf-925a-0de54fc476e4">NetUserAdd</a> and 
 <a href="https://msdn.microsoft.com/ffe49d4b-e7e8-4982-8087-59bb7534b257">NetUserSetInfo</a> functions ignore this member.
 

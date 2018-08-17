@@ -54,9 +54,9 @@ req.product: GDI+ 1.0
 
 <span>This topic lists the 
 AddBeziers methods of the 
-<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a> class. For a complete list of methods for the 
+<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> class. For a complete list of methods for the 
 <b>GraphicsPath</b> class, see 
-<a href="https://msdn.microsoft.com/1072a5cc-4e82-41f4-aaad-5f90eb2cfa22">GraphicsPath</a>. 
+<a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a>. 
 
 
 </span><h3>Overload list</h3><table>
@@ -66,19 +66,19 @@ AddBeziers methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/62a632ff-1282-46e4-a130-809e4bb51c97">AddBeziers(Point*,INT)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535619(v=VS.85).aspx">AddBeziers(Point*,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/62a632ff-1282-46e4-a130-809e4bb51c97">GraphicsPath::AddBeziers</a> method adds a sequence of connected Bézier splines to the current figure of this path.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535619(v=VS.85).aspx">GraphicsPath::AddBeziers</a> method adds a sequence of connected Bézier splines to the current figure of this path.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8fb7657b-ff94-47e3-a0f2-930653851290">AddBeziers(PointF*,INT)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535620(v=VS.85).aspx">AddBeziers(PointF*,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/8fb7657b-ff94-47e3-a0f2-930653851290">GraphicsPath::AddBeziers</a> method adds a sequence of connected Bézier splines to the current figure of this path.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535620(v=VS.85).aspx">GraphicsPath::AddBeziers</a> method adds a sequence of connected Bézier splines to the current figure of this path.
 
 </td>
 </tr>

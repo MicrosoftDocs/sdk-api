@@ -114,10 +114,10 @@ The method succeeded.
 The <b>SendMessageComplete</b> method is part of a chain of methods that are called to pass messages from the discovery page to the content partner plug-in. The following list describes the chain of calls:
 
 <ol>
-<li>The discovery page calls <a href="https://msdn.microsoft.com/72d34dcc-3284-4446-804f-0fc93a7d8dab">External.sendMessage</a>, which has two string parameters: <i>Msg</i> and <i>Param</i>. Those two strings are meaningful only to the online store; they are not interpreted by Windows Media Player.</li>
-<li>Windows Media Player passes the two strings (<i>Msg</i> and <i>Param</i>) along to the plug-in by calling <a href="https://msdn.microsoft.com/9e3c3293-db5d-4963-a9ca-db955c80a959">IWMPContentPartner::SendMessage</a>.</li>
+<li>The discovery page calls <a href="https://msdn.microsoft.com/en-us/library/Dd562981(v=VS.85).aspx">External.sendMessage</a>, which has two string parameters: <i>Msg</i> and <i>Param</i>. Those two strings are meaningful only to the online store; they are not interpreted by Windows Media Player.</li>
+<li>Windows Media Player passes the two strings (<i>Msg</i> and <i>Param</i>) along to the plug-in by calling <a href="https://msdn.microsoft.com/en-us/library/Dd563174(v=VS.85).aspx">IWMPContentPartner::SendMessage</a>.</li>
 <li>When the online store has finished processing the message, it passes the same two strings back to Windows Media Player by calling <b>IWMPContentPartnerCallback::SendMessageComplete</b>. It also passes a third string to <b>SendMessageComplete</b> that indicates the result of the message-processing attempt.</li>
-<li>Windows Media Player passes all three strings back to the discovery page by raising the <a href="https://msdn.microsoft.com/9ae60aa5-4ecd-41dd-aeb0-afb1a3686982">External.OnSendMessageComplete</a> event.</li>
+<li>Windows Media Player passes all three strings back to the discovery page by raising the <a href="https://msdn.microsoft.com/en-us/library/Dd562972(v=VS.85).aspx">External.OnSendMessageComplete</a> event.</li>
 </ol>
 
 
@@ -127,7 +127,7 @@ The <b>SendMessageComplete</b> method is part of a chain of methods that are cal
 
 
 
-<a href="https://msdn.microsoft.com/3c66052b-2b82-44aa-868d-5d5a4501c457">IWMPContentPartnerCallback Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563142(v=VS.85).aspx">IWMPContentPartnerCallback Interface</a>
  
 
  

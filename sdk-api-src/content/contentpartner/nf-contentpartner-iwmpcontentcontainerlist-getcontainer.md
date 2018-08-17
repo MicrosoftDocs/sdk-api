@@ -107,15 +107,15 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/32a68af3-9270-4ac1-b133-a2770220dfcb">IWMPContentContainer Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563130(v=VS.85).aspx">IWMPContentContainer Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/a8fd239b-2a53-4db4-8a82-a7c510d215bc">IWMPContentContainerList Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563131(v=VS.85).aspx">IWMPContentContainerList Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/e1ed4873-5d07-4a96-bd99-31ceeb423f98">IWMPContentContainerList::GetContainerCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd563133(v=VS.85).aspx">IWMPContentContainerList::GetContainerCount</a>
  
 
  

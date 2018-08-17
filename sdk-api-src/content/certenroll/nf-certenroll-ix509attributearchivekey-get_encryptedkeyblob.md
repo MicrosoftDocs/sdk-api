@@ -64,14 +64,14 @@ This property is read-only.
 
 
 
-Call the <a href="https://msdn.microsoft.com/44865c22-0eca-4781-962c-a10698a435f4">InitializeEncode</a> method or the  <a href="https://msdn.microsoft.com/d6c39eaa-53d1-4cc4-bed3-34c9ef62e9d0">InitializeDecode</a> method to initialize the <b>EncryptedKeyBlob</b> property. You can call the following properties to retrieve the raw data:
+Call the <a href="https://msdn.microsoft.com/en-us/library/Aa377070(v=VS.85).aspx">InitializeEncode</a> method or the  <a href="https://msdn.microsoft.com/en-us/library/Aa377069(v=VS.85).aspx">InitializeDecode</a> method to initialize the <b>EncryptedKeyBlob</b> property. You can call the following properties to retrieve the raw data:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/7aef6c1e-c3f1-4124-b397-bf13ca610135">EncryptionAlgorithm</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377067(v=VS.85).aspx">EncryptionAlgorithm</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/c365a2e0-caff-4c92-aa22-33c165ea672e">EncryptionStrength</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377068(v=VS.85).aspx">EncryptionStrength</a>
 </li>
 </ul>
 
@@ -82,7 +82,7 @@ Call the <a href="https://msdn.microsoft.com/44865c22-0eca-4781-962c-a10698a435f
 
 
 
-<a href="https://msdn.microsoft.com/b42111e9-e39e-4192-9aba-47403fb627dc">IX509AttributeArchiveKey</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377059(v=VS.85).aspx">IX509AttributeArchiveKey</a>
  
 
  

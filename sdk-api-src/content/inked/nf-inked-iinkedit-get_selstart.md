@@ -79,7 +79,7 @@ Setting <b>SelStart</b> greater than the text length sets the property to the ex
 
 
 
-<a href="tablet.iinkedit_">IInkEdit</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
 
 
 

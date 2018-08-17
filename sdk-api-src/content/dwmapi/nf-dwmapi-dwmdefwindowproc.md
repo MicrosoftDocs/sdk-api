@@ -55,7 +55,7 @@ req.product: Windows Media Format 9 Series or later
 
 Default window procedure for Desktop Window Manager (DWM) hit testing within the non-client area.
 
-You also need to ensure that <b>DwmDefWindowProc</b> is called for the <a href="https://msdn.microsoft.com/b3ada6db-93ce-45d7-b408-d08692328aeb">WM_NCMOUSELEAVE</a> message. If <b>DwmDefWindowProc</b> is not called for the <b>WM_NCMOUSELEAVE</b> message, DWM does not remove the highlighting from the <b>Maximize</b>, <b>Minimize</b>, and <b>Close</b> buttons when the cursor leaves the window.
+You also need to ensure that <b>DwmDefWindowProc</b> is called for the <a href="https://msdn.microsoft.com/en-us/library/ms645626(v=VS.85).aspx">WM_NCMOUSELEAVE</a> message. If <b>DwmDefWindowProc</b> is not called for the <b>WM_NCMOUSELEAVE</b> message, DWM does not remove the highlighting from the <b>Maximize</b>, <b>Minimize</b>, and <b>Close</b> buttons when the cursor leaves the window.
 
 
 ## -parameters
@@ -101,7 +101,7 @@ A pointer to an <b>LRESULT</b> value that, when this method returns successfully
 
 
 
-When creating custom frames that include the standard caption buttons, <a href="https://msdn.microsoft.com/4c860466-a9f8-4af8-96b9-cee005481875">WM_NCHITTEST</a> and other non-client hit test messages should first be passed to the <b>DwmDefWindowProc</b> function. This enables the DWM to provide hit testing for the captions buttons. If <b>DwmDefWindowProc</b> does not handle the non-client hit test messages, further processing of these messages might be neccessary.
+When creating custom frames that include the standard caption buttons, <a href="https://msdn.microsoft.com/en-us/library/ms645618(v=VS.85).aspx">WM_NCHITTEST</a> and other non-client hit test messages should first be passed to the <b>DwmDefWindowProc</b> function. This enables the DWM to provide hit testing for the captions buttons. If <b>DwmDefWindowProc</b> does not handle the non-client hit test messages, further processing of these messages might be neccessary.
 
 
 

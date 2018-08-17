@@ -88,7 +88,7 @@ For a list of modes that you can use, see the <a href="https://msdn.microsoft.co
 
 
 
-<a href="tablet.iinkrecognizercontext">IInkRecognizerContext</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846801(v=VS.85).aspx">IInkRecognizerContext</a>
 
 
 

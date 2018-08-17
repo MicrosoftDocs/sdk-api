@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Specifies the type of comparison to perform in the <a href="https://msdn.microsoft.com/397611e7-60e5-46d6-b90b-5aed7fff6a43">IOfflineFilesItemFilter::GetTimeFilter</a> method.
+Specifies the type of comparison to perform in the <a href="https://msdn.microsoft.com/en-us/library/Bb530579(v=VS.85).aspx">IOfflineFilesItemFilter::GetTimeFilter</a> method.
 
 
 ## -enum-fields
@@ -94,7 +94,7 @@ Check whether the item value is greater than or equal to the filter value.
 
 
 
-<a href="https://msdn.microsoft.com/397611e7-60e5-46d6-b90b-5aed7fff6a43">IOfflineFilesItemFilter::GetTimeFilter</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530579(v=VS.85).aspx">IOfflineFilesItemFilter::GetTimeFilter</a>
  
 
  

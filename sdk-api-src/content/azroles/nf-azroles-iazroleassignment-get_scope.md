@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-The <b>Scope</b> property retrieves the <a href="https://msdn.microsoft.com/f7abe7cb-8827-46f6-85fe-99282582a3d4">IAzScope</a> object that represents the scope in which this <a href="https://msdn.microsoft.com/3f0b926f-77f4-4477-b155-5f866822baba">IAzRoleAssignment</a> object is defined.
+The <b>Scope</b> property retrieves the <a href="https://msdn.microsoft.com/en-us/library/Aa378237(v=VS.85).aspx">IAzScope</a> object that represents the scope in which this <a href="https://msdn.microsoft.com/en-us/library/Aa377918(v=VS.85).aspx">IAzRoleAssignment</a> object is defined.
 
 This property is read-only.
 

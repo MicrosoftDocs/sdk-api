@@ -57,15 +57,15 @@ req.irql:
 <p class="CCE_Message">[The <b>CHStringArray</b> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
+    <a href="https://msdn.microsoft.com/en-us/library/JJ152383(v=VS.85).aspx">MI APIs</a> should be used for all new 
     development.]
 
 The following table lists the <b>CHStringArray</b> methods and operators.
 
 <b xmlns:loc="http://microsoft.com/wdcml/l10n">CHStringArray</b> has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Constructors</a></li>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/Hh437811(v=VS.85).aspx">Constructors</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/Hh437811(v=VS.85).aspx">Methods</a></li>
 </ul><h3><a id="constructors"></a>Constructors</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">CHStringArray</b> class has these constructors.
 <table class="members" id="memberListConstructors">
 <tr>
@@ -74,10 +74,10 @@ The following table lists the <b>CHStringArray</b> methods and operators.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b20e3476-7caa-4fcf-98cc-44ffafafe94a">CHStringArray</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385343(v=VS.85).aspx">CHStringArray</a>
 </td>
 <td align="left" width="63%">
-Constructs an empty array for <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> objects.
+Constructs an empty array for <a href="https://msdn.microsoft.com/en-us/library/Aa384937(v=VS.85).aspx">CHString</a> objects.
 
 </td>
 </tr>
@@ -90,7 +90,7 @@ Constructs an empty array for <a href="https://msdn.microsoft.com/e2e4378f-d842-
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f5a0b8e6-b40a-4dc7-bf36-ec629e2899db">Add</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385329(v=VS.85).aspx">Add</a>
 </td>
 <td align="left" width="63%">
 Adds an element to the end of the array; the array grows if necessary.

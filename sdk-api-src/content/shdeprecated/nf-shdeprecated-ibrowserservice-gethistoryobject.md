@@ -96,10 +96,10 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-If <i>pstm</i> is not <b>NULL</b>, you can call <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> on <a href="https://msdn.microsoft.com/58b32c87-39b6-4d64-9174-cf798ed302c2">IOleObject</a> to get a pointer to <a href="_inet_IPersistHistory_Interface">IPersistHistory</a>.
+If <i>pstm</i> is not <b>NULL</b>, you can call <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> on <a href="https://msdn.microsoft.com/58b32c87-39b6-4d64-9174-cf798ed302c2">IOleObject</a> to get a pointer to <a href="https://msdn.microsoft.com/library/Aa768215(v=VS.85).aspx">IPersistHistory</a>.
 
 
-<a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> and <a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfcc999b46">IBindCtx</a> can be passed to <a href="_inet_IPersistHistory_Interface_inet_IPersistHistory_LoadHistory_Method_cpp">IPersistHistory::LoadHistory</a>.
+<a href="https://msdn.microsoft.com/c6f60e37-eadc-46a1-94f6-cacc23613531">IStream</a> and <a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfcc999b46">IBindCtx</a> can be passed to <a href="https://msdn.microsoft.com/library/Aa768216(v=VS.85).aspx">IPersistHistory::LoadHistory</a>.
 
 The calling application must release all three pointers if non-<b>NULL</b>.
 

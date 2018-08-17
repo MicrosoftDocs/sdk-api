@@ -129,7 +129,7 @@ Queries the console-provided result pane's image list.</p> (Inherited from <a hr
 <a href="https://msdn.microsoft.com/26d4859c-e79f-4c63-92ad-b66de7d0fa13">QueryResultView</a>
 </td>
 <td align="left" width="63%">
-Queries IConsole for the result view object's <a href="_com_iunknown">IUnknown</a> interface pointer.</p> (Inherited from <a href="https://msdn.microsoft.com/9a20d09d-219c-4bcb-95b3-67a44e41629e">IConsole2</a>)</td>
+Queries IConsole for the result view object's <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface pointer.</p> (Inherited from <a href="https://msdn.microsoft.com/9a20d09d-219c-4bcb-95b3-67a44e41629e">IConsole2</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">

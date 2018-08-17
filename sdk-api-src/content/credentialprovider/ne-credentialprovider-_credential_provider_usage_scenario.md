@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Declares the scenarios in which a credential provider is supported. A credential provider usage scenario (CPUS) enables the credential provider to provide distinct enumeration behavior and UI field setup across scenarios. When an <a href="https://msdn.microsoft.com/7ce6cd61-16d1-414e-b9b3-4929a65c0cc6">ICredentialProvider</a> is initialized, it calls <a href="https://msdn.microsoft.com/62577b41-e115-45df-9f9b-c5c282365a3e">ICredentialProvider::SetUsageScenario</a> to set what usage scenario is supported. That scenario is maintained for the entire lifetime of the credential provider.
+Declares the scenarios in which a credential provider is supported. A credential provider usage scenario (CPUS) enables the credential provider to provide distinct enumeration behavior and UI field setup across scenarios. When an <a href="https://msdn.microsoft.com/en-us/library/Bb776042(v=VS.85).aspx">ICredentialProvider</a> is initialized, it calls <a href="https://msdn.microsoft.com/en-us/library/Bb776044(v=VS.85).aspx">ICredentialProvider::SetUsageScenario</a> to set what usage scenario is supported. That scenario is maintained for the entire lifetime of the credential provider.
 
 
 ## -enum-fields
@@ -61,7 +61,7 @@ Declares the scenarios in which a credential provider is supported. A credential
 
 ### -field CPUS_INVALID
 
-No usage scenario has been set for the credential provider. The scenario is not passed to <a href="https://msdn.microsoft.com/62577b41-e115-45df-9f9b-c5c282365a3e">ICredentialProvider::SetUsageScenario</a>. If a credential provider stores its current usage scenario as a class member, this provides an initialization value before the first call to <b>ICredentialProvider::SetUsageScenario</b>.
+No usage scenario has been set for the credential provider. The scenario is not passed to <a href="https://msdn.microsoft.com/en-us/library/Bb776044(v=VS.85).aspx">ICredentialProvider::SetUsageScenario</a>. If a credential provider stores its current usage scenario as a class member, this provides an initialization value before the first call to <b>ICredentialProvider::SetUsageScenario</b>.
 
 
 ### -field CPUS_LOGON
@@ -104,7 +104,7 @@ Starting in Windows 10, the <b>CPUS_LOGON</b> and <b>CPUS_UNLOCK_WORKSTATION</b
 <li>Whether this is a console or remote session.</li>
 <li>Group policies such as hiding entry points for fast user switching, or interactive logon that does not display the user's last name.</li>
 </ul>
-Credential providers that need to enumerate the currently user logged into the system as the default tile can keep track of the current user or leverage APIs such as <a href="https://msdn.microsoft.com/d52345a4-0408-4ea9-ba71-349910143752">WTSQuerySessionInformation</a> to obtain that information.
+Credential providers that need to enumerate the currently user logged into the system as the default tile can keep track of the current user or leverage APIs such as <a href="https://msdn.microsoft.com/en-us/library/Aa383838(v=VS.85).aspx">WTSQuerySessionInformation</a> to obtain that information.
 
 
 
@@ -114,7 +114,7 @@ Credential providers that need to enumerate the currently user logged into the s
 
 
 
-<a href="https://msdn.microsoft.com/BCF69196-D4E4-41D0-B372-5000FD50164B">Credential Providers in Windows 10</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt158211(v=VS.85).aspx">Credential Providers in Windows 10</a>
  
 
  

@@ -51,8 +51,8 @@ req.irql:
 ## -description
 
 
-Values for the <a href="https://msdn.microsoft.com/2E4BACCB-EF29-44FB-8427-C10211BC4899">D2D1_HIGHLIGHTSANDSHADOWS_PROP_INPUT_GAMMA</a> property 
-        of the <a href="https://msdn.microsoft.com/ebbb7d99-9144-ffff-af73-d89e7d269924">Highlights and Shadows effect</a>.
+Values for the <a href="https://msdn.microsoft.com/en-us/library/Dn890728(v=VS.85).aspx">D2D1_HIGHLIGHTSANDSHADOWS_PROP_INPUT_GAMMA</a> property 
+        of the <a href="https://msdn.microsoft.com/en-us/library/Dn890773(v=VS.85).aspx">Highlights and Shadows effect</a>.
 
 
 ## -enum-fields

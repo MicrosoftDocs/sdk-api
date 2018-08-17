@@ -54,7 +54,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>ReceiveMode</b> property is a value from the <a href="https://msdn.microsoft.com/0fb87bfd-61b0-4130-86fd-0e6579bc55ea">FAX_DEVICE_RECEIVE_MODE_ENUM</a> enumeration that defines the way a device answers an incoming call. The value assigned to this property indicates whether the device does not answer the call, the device can answer the call manually, or the device answers the call automatically.
+The <b>ReceiveMode</b> property is a value from the <a href="https://msdn.microsoft.com/en-us/library/ms689547(v=VS.85).aspx">FAX_DEVICE_RECEIVE_MODE_ENUM</a> enumeration that defines the way a device answers an incoming call. The value assigned to this property indicates whether the device does not answer the call, the device can answer the call manually, or the device answers the call automatically.
 
 This property is read/write.
 
@@ -66,9 +66,9 @@ This property is read/write.
 
 
 
-You can set only one device to receive faxes manually at any given time. If you set a device to answer manually and another device is already set to the manual mode, the device that had been previously set will automatically change to the no-answer mode. You should call the <a href="https://msdn.microsoft.com/2723073a-f396-4ae2-9eb8-9b717cce55e5">Refresh</a> method on that device to see the change.
+You can set only one device to receive faxes manually at any given time. If you set a device to answer manually and another device is already set to the manual mode, the device that had been previously set will automatically change to the no-answer mode. You should call the <a href="https://msdn.microsoft.com/en-us/library/ms686727(v=VS.85).aspx">Refresh</a> method on that device to see the change.
 
-Some devices, such as virtual devices, do not support the manual-answer receive mode. For those devices, the <b>ReceiveMode</b> will fail if you set the receive mode to <a href="https://msdn.microsoft.com/0fb87bfd-61b0-4130-86fd-0e6579bc55ea">fdrmMANUAL_ANSWER</a>. In C++, the method will return an ERROR_NOT_SUPPORTED error code in an <b>Long</b> format.
+Some devices, such as virtual devices, do not support the manual-answer receive mode. For those devices, the <b>ReceiveMode</b> will fail if you set the receive mode to <a href="https://msdn.microsoft.com/en-us/library/ms689547(v=VS.85).aspx">fdrmMANUAL_ANSWER</a>. In C++, the method will return an ERROR_NOT_SUPPORTED error code in an <b>Long</b> format.
 
 
 
@@ -78,15 +78,15 @@ Some devices, such as virtual devices, do not support the manual-answer receive 
 
 
 
-<a href="https://msdn.microsoft.com/bb54b793-98e1-4862-b887-48c25099ac6d">FaxDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686192(v=VS.85).aspx">FaxDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/3f4f4e83-df62-43af-903c-0b816bade3b9">IFaxDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686193(v=VS.85).aspx">IFaxDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/64bdc08c-1902-448a-9eda-b557ab4bb095">Visual Basic Example</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms693400(v=VS.85).aspx">Visual Basic Example</a>
  
 
  

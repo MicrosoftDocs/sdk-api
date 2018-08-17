@@ -251,7 +251,7 @@ Data format of the object to be converted or activated.
 
 ### -field hMetaPict
 
-The <a href="_win32_METAFILEPICT_str">METAFILEPICT</a> containing the iconic aspect. This member is set on input and output.
+The <a href="https://msdn.microsoft.com/en-us/library/ms649017(v=VS.85).aspx">METAFILEPICT</a> containing the iconic aspect. This member is set on input and output.
 
 
 

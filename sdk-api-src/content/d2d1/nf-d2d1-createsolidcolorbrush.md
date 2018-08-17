@@ -94,11 +94,11 @@ Creates a new <a href="https://msdn.microsoft.com/a15c2696-3122-461e-806e-2195a5
 
 
 
-<a href="https://msdn.microsoft.com/7a31d9e7-0521-40ee-b2c1-592dfaf5301e">Brushes Overview</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd756651(v=VS.85).aspx">Brushes Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/19d9ad76-b1e3-449f-8582-e00287b05874">Direct2D QuickStart</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd535473(v=VS.85).aspx">Direct2D QuickStart</a>
 
 
 

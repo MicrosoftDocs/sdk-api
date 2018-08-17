@@ -78,7 +78,7 @@ Pointer to an address of a four-element array of values that represent the clipp
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value is D3DERR_INVALIDCALL. This error indicates that the value in Index exceeds the maximum clipping plane index supported by the device or that the array at pPlane is not large enough to contain four floating-point values.
 
@@ -103,11 +103,11 @@ This method does not enable the clipping plane equation being set. To enable a c
 
 
 
-<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/0e8ec541-606d-4f90-a396-40eb72e9422d">IDirect3DDevice9::GetClipPlane</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174380(v=VS.85).aspx">IDirect3DDevice9::GetClipPlane</a>
  
 
  

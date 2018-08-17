@@ -113,7 +113,7 @@ The stream must have been previously stopped with a call to <a href="https://msd
 
 
 
-<a href="coreaudio.ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a>
+<a href="https://msdn.microsoft.com/library/Mt829728(v=VS.85).aspx">ISpatialAudioObjectRenderStreamBase</a>
  
 
  

@@ -66,7 +66,7 @@ The index of the required CRM clerk as a numeric <b>Variant</b>, or the instance
 
 ### -param pItem [out]
 
-The description string originally provided by <a href="https://msdn.microsoft.com/f7907dff-a4a1-4526-8dab-547e819199ec">ICrmLogControl::RegisterCompensator</a>.
+The description string originally provided by <a href="https://msdn.microsoft.com/en-us/library/ms688384(v=VS.85).aspx">ICrmLogControl::RegisterCompensator</a>.
 
 
 ## -returns
@@ -124,7 +124,7 @@ One of the arguments is incorrect.
 
 
 
-<a href="https://msdn.microsoft.com/90403516-f677-4396-8991-ae621c159567">ICrmMonitorClerks</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684207(v=VS.85).aspx">ICrmMonitorClerks</a>
  
 
  

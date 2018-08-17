@@ -52,7 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/6eb81857-758d-4302-a5e7-4f8b40025b03">RedEyeCorrection</a> object. 
+Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534499(v=VS.85).aspx">RedEyeCorrection</a> object. 
 
 
 ## -parameters
@@ -67,15 +67,15 @@ Creates a <a href="https://msdn.microsoft.com/6eb81857-758d-4302-a5e7-4f8b40025b
 
 
 
-<a href="https://msdn.microsoft.com/6eb81857-758d-4302-a5e7-4f8b40025b03">RedEyeCorrection</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534499(v=VS.85).aspx">RedEyeCorrection</a>
 
 
 
-<a href="https://msdn.microsoft.com/ed889acb-37c1-4fa6-9c46-1f41428b9b36">RedEyeCorrection::SetParameters</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534928(v=VS.85).aspx">RedEyeCorrection::SetParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/5c4832f7-de89-4596-915f-2cd23b8c1c2f">RedEyeCorrectionParams</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534072(v=VS.85).aspx">RedEyeCorrectionParams</a>
  
 
  

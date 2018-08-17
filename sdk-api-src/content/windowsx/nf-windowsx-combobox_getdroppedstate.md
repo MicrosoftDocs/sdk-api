@@ -52,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Ascertains whether the drop list in a combo box control is visible. You can use this macro or send the <a href="https://msdn.microsoft.com/a3f4e352-298d-45ea-a5a7-007f1fc1a387">CB_GETDROPPEDSTATE</a> message explicitly.
+Ascertains whether the drop list in a combo box control is visible. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775849(v=VS.85).aspx">CB_GETDROPPEDSTATE</a> message explicitly.
 
 
 ## -parameters

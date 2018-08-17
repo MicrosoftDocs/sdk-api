@@ -53,14 +53,14 @@ req.irql:
 
 The <b>ITfLangBarItemBitmap</b> interface is implemented by an application or text service and used by the language bar manager to obtain information specific to a bitmap item on the language bar.
 
-The language bar manager obtains an instance of this interface by calling QueryInterface on the <a href="https://msdn.microsoft.com/16612641-2bff-4e6f-a955-85793021a20b">ITfLangBarItem</a> passed to <a href="https://msdn.microsoft.com/c9a36b2c-e7ea-4932-928e-05dd05ca02ca">ITfLangBarItemMgr::AddItem</a> with IID_ITfLangBarItemBitmap.
+The language bar manager obtains an instance of this interface by calling QueryInterface on the <a href="https://msdn.microsoft.com/en-us/library/ms628701(v=VS.85).aspx">ITfLangBarItem</a> passed to <a href="https://msdn.microsoft.com/en-us/library/ms628724(v=VS.85).aspx">ITfLangBarItemMgr::AddItem</a> with IID_ITfLangBarItemBitmap.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfLangBarItemBitmap</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfLangBarItemBitmap</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfLangBarItemBitmap</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ITfLangBarItemBitmap</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -73,7 +73,7 @@ The <b>ITfLangBarItemBitmap</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ac8c384e-1d92-4092-940d-17a88a316a4d">DrawBitmap</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms628714(v=VS.85).aspx">DrawBitmap</a>
 </td>
 <td align="left" width="63%">
 Obtains the bitmap and mask for the bitmap item.
@@ -82,7 +82,7 @@ Obtains the bitmap and mask for the bitmap item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4dd173de-6b54-4d03-b458-0dd5186d1d83">GetPreferredSize</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms628715(v=VS.85).aspx">GetPreferredSize</a>
 </td>
 <td align="left" width="63%">
 Obtains the preferred size, in pixels, of the bitmap.
@@ -91,7 +91,7 @@ Obtains the preferred size, in pixels, of the bitmap.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b4e5857e-7e0b-462d-90cd-cb0e7b1143d5">OnClick</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms628716(v=VS.85).aspx">OnClick</a>
 </td>
 <td align="left" width="63%">
 Not currently used.
@@ -125,7 +125,7 @@ A language bar bitmap functions as a static item on the language bar that displa
 
 
 
-<a href="_COM_IUnknown">IUnknown</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
  
 
  

@@ -89,7 +89,7 @@ The <b>DrawEllipse</b> method doesn't return an error code if it fails. To deter
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/8a68fc3f-118c-447b-856c-05417ae4ef29">How to Draw and Fill a Basic Shape</a>.
+For an example, see <a href="https://msdn.microsoft.com/en-us/library/Dd756683(v=VS.85).aspx">How to Draw and Fill a Basic Shape</a>.
 
 <div class="code"></div>
 
@@ -100,7 +100,7 @@ For an example, see <a href="https://msdn.microsoft.com/8a68fc3f-118c-447b-856c-
 
 
 
-<a href="https://msdn.microsoft.com/149fb303-d2e8-416c-b28f-8bc5f1482ba6">FillEllipse</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742849(v=VS.85).aspx">FillEllipse</a>
 
 
 

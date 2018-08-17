@@ -233,7 +233,7 @@ An error occurs if the index doesn't match any existing member of the collection
 
 
 
-<a href="tablet.iinkstrokes">IInkStrokes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846806(v=VS.85).aspx">IInkStrokes</a>
 
 
 

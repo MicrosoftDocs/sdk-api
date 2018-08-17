@@ -63,18 +63,18 @@ Get the expected resource usage.
 
 ### -param pUsage
 
-Type: <b><a href="https://msdn.microsoft.com/b5026566-89b5-458e-b36d-a55e5f8c10c1">DXGI_USAGE</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173078(v=VS.85).aspx">DXGI_USAGE</a>*</b>
 
-A pointer to a usage flag (see <a href="https://msdn.microsoft.com/b5026566-89b5-458e-b36d-a55e5f8c10c1">DXGI_USAGE</a>). For Direct3D 10, a surface can be used as a shader input or a render-target output.
+A pointer to a usage flag (see <a href="https://msdn.microsoft.com/en-us/library/Bb173078(v=VS.85).aspx">DXGI_USAGE</a>). For Direct3D 10, a surface can be used as a shader input or a render-target output.
 
 
 ## -returns
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a>.
 
 
 
@@ -84,7 +84,7 @@ Returns one of the following <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4
 
 
 
-<a href="https://msdn.microsoft.com/de1f11a5-194b-438e-975b-3945179d0ed7">IDXGIResource</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174560(v=VS.85).aspx">IDXGIResource</a>
  
 
  

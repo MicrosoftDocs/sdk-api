@@ -66,7 +66,7 @@ Unlocks a rectangle on a surface.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be D3DERR_INVALIDCALL.
 
@@ -78,11 +78,11 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-<a href="https://msdn.microsoft.com/312eee39-6a5c-46b6-b145-78d5f0f9eecd">IDirect3DSurface9</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a>
 
 
 
-<a href="https://msdn.microsoft.com/01f5a1a1-e18f-42c9-9654-34e482f48df8">IDirect3DSurface9::LockRect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205896(v=VS.85).aspx">IDirect3DSurface9::LockRect</a>
  
 
  

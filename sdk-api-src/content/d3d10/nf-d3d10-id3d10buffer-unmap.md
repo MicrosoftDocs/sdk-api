@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-Invalidate the pointer to the resource retrieved by <a href="https://msdn.microsoft.com/c863ef55-757d-4c0b-ba59-28d30499cf79">ID3D10Buffer::Map</a> and reenable GPU access to the resource.
+Invalidate the pointer to the resource retrieved by <a href="https://msdn.microsoft.com/en-us/library/Bb173512(v=VS.85).aspx">ID3D10Buffer::Map</a> and reenable GPU access to the resource.
 
 
 ## -parameters
@@ -95,7 +95,7 @@ Unmap() in Direct3D 10 is analogous to resource Unlock() in Direct3D 9.
 
 
 
-<a href="https://msdn.microsoft.com/a81e0dfc-9be4-4ba6-a388-9c9bb97a0fa9">ID3D10Buffer Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173510(v=VS.85).aspx">ID3D10Buffer Interface</a>
  
 
  

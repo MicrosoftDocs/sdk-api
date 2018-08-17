@@ -133,7 +133,7 @@ The data source is the blend factor. The preblend operation inverts the blend fa
 
 
 
-This enumeration has the same numeric values as <a href="https://msdn.microsoft.com/0d3a337d-3d16-4a0a-9611-b511c8fb39b4">D3D10_BLEND</a>.
+This enumeration has the same numeric values as <a href="https://msdn.microsoft.com/en-us/library/Bb204892(v=VS.85).aspx">D3D10_BLEND</a>.
 
 
 
@@ -143,7 +143,7 @@ This enumeration has the same numeric values as <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/5f4c7248-9303-4451-92f1-4b230efd627a">D2D1_BLEND_DESCRIPTION</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404277(v=VS.85).aspx">D2D1_BLEND_DESCRIPTION</a>
 
 
 

@@ -138,7 +138,7 @@ If the supplied <a href="https://msdn.microsoft.com/8a002deb-2727-456c-8078-a9b0
 
 
 
-<a href="tablet.iinkdisp">IInkDisp</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846797(v=VS.85).aspx">IInkDisp</a>
 
 
 

@@ -62,7 +62,7 @@ Reports that the Offline Files cache has ended a synchronize operation.
 
 ### -param rSyncId [in]
 
-Unique identifier for the synchronization operation that generated this event.  Provided by the caller of the <a href="https://msdn.microsoft.com/4a9dd105-ea68-40ce-b1cb-6126ca932095">IOfflineFilesCache::Synchronize</a>, <a href="https://msdn.microsoft.com/6005d755-5e1b-4eba-95a2-b6c9c00b1a64">IOfflineFilesCache::Pin</a>, or <a href="https://msdn.microsoft.com/32d81a75-8845-4bd5-a0ff-e056a06ac11c">IOfflineFilesCache::Unpin</a> method.  This is GUID_NULL if no ID was provided.
+Unique identifier for the synchronization operation that generated this event.  Provided by the caller of the <a href="https://msdn.microsoft.com/en-us/library/Bb530502(v=VS.85).aspx">IOfflineFilesCache::Synchronize</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb530498(v=VS.85).aspx">IOfflineFilesCache::Pin</a>, or <a href="https://msdn.microsoft.com/en-us/library/Bb530503(v=VS.85).aspx">IOfflineFilesCache::Unpin</a> method.  This is GUID_NULL if no ID was provided.
 
 
 ### -param hrResult [in]
@@ -93,7 +93,7 @@ The sync engine is also used to encrypted the Offline Files cache.  Therefore, a
 
 
 
-<a href="https://msdn.microsoft.com/c0bd0033-e5e1-4d21-8d98-eb937acdd6cf">IOfflineFilesEvents</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530520(v=VS.85).aspx">IOfflineFilesEvents</a>
  
 
  

@@ -53,7 +53,7 @@ req.irql:
 ## -description
 
 
-The <b>OpenView</b> method opens a view to a Certificate Services database and instantiates an instance of an <a href="https://msdn.microsoft.com/c9529f7a-9d97-4315-af96-f7b687af3c2e">IEnumCERTVIEWROW</a> object.
+The <b>OpenView</b> method opens a view to a Certificate Services database and instantiates an instance of an <a href="https://msdn.microsoft.com/en-us/library/Aa386231(v=VS.85).aspx">IEnumCERTVIEWROW</a> object.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ The <b>OpenView</b> method opens a view to a Certificate Services database and i
 
 ### -param ppenum [out]
 
-A pointer to a pointer of <a href="https://msdn.microsoft.com/c9529f7a-9d97-4315-af96-f7b687af3c2e">IEnumCERTVIEWROW</a> type.
+A pointer to a pointer of <a href="https://msdn.microsoft.com/en-us/library/Aa386231(v=VS.85).aspx">IEnumCERTVIEWROW</a> type.
 
 
 ## -returns
@@ -73,10 +73,10 @@ A pointer to a pointer of <a href="https://msdn.microsoft.com/c9529f7a-9d97-4315
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
 
 <h3>VB</h3>
- The return value is an <a href="https://msdn.microsoft.com/c9529f7a-9d97-4315-af96-f7b687af3c2e">IEnumCERTVIEWROW</a> object.
+ The return value is an <a href="https://msdn.microsoft.com/en-us/library/Aa386231(v=VS.85).aspx">IEnumCERTVIEWROW</a> object.
 
 
 
@@ -86,16 +86,16 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 Before calling the <b>OpenView</b> method, it is necessary to establish a connection with a Certificate Services server by calling the 
-<a href="https://msdn.microsoft.com/576af4d1-88c9-40e3-9438-9fefd483be7a">OpenConnection</a> method first.
+<a href="https://msdn.microsoft.com/en-us/library/Aa385432(v=VS.85).aspx">OpenConnection</a> method first.
 
 The 
-<a href="https://msdn.microsoft.com/c9529f7a-9d97-4315-af96-f7b687af3c2e">IEnumCERTVIEWROW</a> object returned by this call represents a row-enumeration sequence whose internal index is pointing to the beginning of the sequence. To look at the first row in the sequence, call the  
-<a href="https://msdn.microsoft.com/6e471ee9-4b69-468c-a724-e43bd93419d9">IEnumCERTVIEWROW::Next</a> method, which moves the internal index to the first row.
+<a href="https://msdn.microsoft.com/en-us/library/Aa386231(v=VS.85).aspx">IEnumCERTVIEWROW</a> object returned by this call represents a row-enumeration sequence whose internal index is pointing to the beginning of the sequence. To look at the first row in the sequence, call the  
+<a href="https://msdn.microsoft.com/en-us/library/Aa386249(v=VS.85).aspx">IEnumCERTVIEWROW::Next</a> method, which moves the internal index to the first row.
 
 To view a nondefault column set or a subset of the rows, call 
-<a href="https://msdn.microsoft.com/f98b2f45-be9f-47ba-9c6b-63a2912288ac">SetResultColumnCount</a>, 
-<a href="https://msdn.microsoft.com/c13bdc3a-e623-49df-bba0-34c4c178dc3b">SetResultColumn</a>, and 
-<a href="https://msdn.microsoft.com/a2dc8675-1d75-4c15-a9f7-971274ab044c">SetRestriction</a> after calling <a href="https://msdn.microsoft.com/576af4d1-88c9-40e3-9438-9fefd483be7a">OpenConnection</a> and before calling <b>OpenView</b>.
+<a href="https://msdn.microsoft.com/en-us/library/Aa385450(v=VS.85).aspx">SetResultColumnCount</a>, 
+<a href="https://msdn.microsoft.com/en-us/library/Aa385442(v=VS.85).aspx">SetResultColumn</a>, and 
+<a href="https://msdn.microsoft.com/en-us/library/Aa385439(v=VS.85).aspx">SetRestriction</a> after calling <a href="https://msdn.microsoft.com/en-us/library/Aa385432(v=VS.85).aspx">OpenConnection</a> and before calling <b>OpenView</b>.
 
 
 #### Examples
@@ -130,23 +130,23 @@ if (NULL != pEnumRow)
 
 
 
-<a href="https://msdn.microsoft.com/0b6660ee-458f-457f-8a38-0d950aee2710">ICertView</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385414(v=VS.85).aspx">ICertView</a>
 
 
 
-<a href="https://msdn.microsoft.com/c29f1db3-0cdf-463e-a202-47fbba8e1c81">ICertView2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385417(v=VS.85).aspx">ICertView2</a>
 
 
 
-<a href="https://msdn.microsoft.com/576af4d1-88c9-40e3-9438-9fefd483be7a">ICertView::OpenConnection</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385432(v=VS.85).aspx">ICertView::OpenConnection</a>
 
 
 
-<a href="https://msdn.microsoft.com/c9529f7a-9d97-4315-af96-f7b687af3c2e">IEnumCERTVIEWROW</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa386231(v=VS.85).aspx">IEnumCERTVIEWROW</a>
 
 
 
-<a href="https://msdn.microsoft.com/6e471ee9-4b69-468c-a724-e43bd93419d9">IEnumCERTVIEWROW::Next</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa386249(v=VS.85).aspx">IEnumCERTVIEWROW::Next</a>
  
 
  

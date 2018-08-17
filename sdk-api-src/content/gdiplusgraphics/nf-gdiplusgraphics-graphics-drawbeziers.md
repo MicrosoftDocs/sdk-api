@@ -54,9 +54,9 @@ req.product: GDI+ 1.0
 
 <span>This topic lists the 
 DrawBeziers methods of the 
-<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> class. For a complete list of methods for the 
+<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> class. For a complete list of methods for the 
 <b>Graphics</b> class, see 
-<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>. 
+<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>. 
 
 
 </span><h3>Overload list</h3><table>
@@ -66,19 +66,19 @@ DrawBeziers methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0c17b9b9-48da-44ac-b4de-38c08c24a740">DrawBeziers(Pen*,Point*,INT)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536146(v=VS.85).aspx">DrawBeziers(Pen*,Point*,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/0c17b9b9-48da-44ac-b4de-38c08c24a740">Graphics::DrawBeziers</a> method draws a sequence of connected Bézier splines.
+The <a href="https://msdn.microsoft.com/en-us/library/ms536146(v=VS.85).aspx">Graphics::DrawBeziers</a> method draws a sequence of connected Bézier splines.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3a0f5b23-24bb-4255-a6fe-30cfb701350a">DrawBeziers(Pen*,PointF*,INT)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms536147(v=VS.85).aspx">DrawBeziers(Pen*,PointF*,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/3a0f5b23-24bb-4255-a6fe-30cfb701350a">Graphics::DrawBeziers</a> method draws a sequence of connected Bézier splines.
+The <a href="https://msdn.microsoft.com/en-us/library/ms536147(v=VS.85).aspx">Graphics::DrawBeziers</a> method draws a sequence of connected Bézier splines.
 
 </td>
 </tr>

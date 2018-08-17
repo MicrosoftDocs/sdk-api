@@ -64,7 +64,7 @@ The <b>IPropertySheetCallback::AddPage</b> method enables a snap-in to add a pag
 
 A value that specifies the handle to the page to be added. The hPage parameter is a handle to a 
 <a href="https://msdn.microsoft.com/28cbf3df-f345-4b4f-ac34-e32e63c9b6ec">PROPSHEETPAGE</a> structure created by the Windows API 
-<a href="_win32_createpropertysheetpage_cpp">CreatePropertySheetPage</a>.
+<a href="https://msdn.microsoft.com/en-us/library/Bb760807(v=VS.85).aspx">CreatePropertySheetPage</a>.
 
 
 ## -returns

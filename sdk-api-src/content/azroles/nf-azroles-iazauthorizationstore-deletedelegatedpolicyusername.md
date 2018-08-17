@@ -62,7 +62,7 @@ The <b>DeleteDelegatedPolicyUserName</b> method removes the specified account na
 
 ### -param bstrDelegatedPolicyUser [in]
 
-Account name to remove from the list of delegated policy users. The account name must be in <a href="https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb">user principal name</a> (UPN) format (for example, "someone@example.com"). The <a href="https://msdn.microsoft.com/72855539-469a-4289-99cc-eae2ed89901f">LookupAccountName</a> function is called to retrieve the domain.
+Account name to remove from the list of delegated policy users. The account name must be in <a href="https://msdn.microsoft.com/en-us/library/ms721629(v=VS.85).aspx">user principal name</a> (UPN) format (for example, "someone@example.com"). The <a href="https://msdn.microsoft.com/en-us/library/Aa379159(v=VS.85).aspx">LookupAccountName</a> function is called to retrieve the domain.
 
 
 ### -param varReserved [in, optional]
@@ -78,7 +78,7 @@ Reserved for future use.
 
 An attempt to call this method on an XML store will return E_INVALIDARG.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
 
 
 
@@ -87,11 +87,11 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-Delegated policy users are principals that are allowed to read the subset of the policy data that the policy administrator of an <a href="https://msdn.microsoft.com/ea4a8a84-5003-44da-b75e-34da6bd898dd">IAzApplication</a>  or <a href="https://msdn.microsoft.com/f7abe7cb-8827-46f6-85fe-99282582a3d4">IAzScope</a> object uses to administer the delegated object.
+Delegated policy users are principals that are allowed to read the subset of the policy data that the policy administrator of an <a href="https://msdn.microsoft.com/en-us/library/Aa446684(v=VS.85).aspx">IAzApplication</a>  or <a href="https://msdn.microsoft.com/en-us/library/Aa378237(v=VS.85).aspx">IAzScope</a> object uses to administer the delegated object.
 
 <div class="alert"><b>Note</b>  Delegated policy users are not supported for XML stores.</div>
 <div> </div>
-To view the list of delegated policy users in account name format, use the <a href="https://msdn.microsoft.com/495cdba4-7127-48aa-9542-7ccbedbad589">DelegatedPolicyUsersName</a> property.
+To view the list of delegated policy users in account name format, use the <a href="https://msdn.microsoft.com/en-us/library/Aa376344(v=VS.85).aspx">DelegatedPolicyUsersName</a> property.
 
 
 

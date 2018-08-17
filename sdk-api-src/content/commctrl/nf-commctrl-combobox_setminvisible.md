@@ -61,14 +61,14 @@ Sets the minimum number of visible items in the drop-down list of a combo box.
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 The combo box. 
 
 
 ### -param iMinVisible
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">INT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">INT</a></b>
 
 The minimum number of visible items. 
 
@@ -85,7 +85,7 @@ is equivalent to the following call.
 
 <code>SendMessage((hwnd), CB_SETMINVISIBLE, (WPARAM) iMinVisible, 0);</code>
 
-To use <b>ComboBox_SetMinVisible</b>, the application must specify comctl32.dll version 6 in the manifest. For more information, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
+To use <b>ComboBox_SetMinVisible</b>, the application must specify comctl32.dll version 6 in the manifest. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
 
 
 
@@ -95,7 +95,7 @@ To use <b>ComboBox_SetMinVisible</b>, the application must specify comctl32.dll 
 
 
 
-<a href="https://msdn.microsoft.com/3cf9e488-50ce-4825-acf0-4e665d074f9e">CB_SETMINVISIBLE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775915(v=VS.85).aspx">CB_SETMINVISIBLE</a>
  
 
  

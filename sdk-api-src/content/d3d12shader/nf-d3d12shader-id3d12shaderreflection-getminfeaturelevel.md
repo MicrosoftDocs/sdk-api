@@ -62,9 +62,9 @@ Gets the minimum feature level.
 
 ### -param pLevel [out]
 
-Type: <b><a href="https://msdn.microsoft.com/afbc1a02-1730-4502-af15-b668412d664c">D3D_FEATURE_LEVEL</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476329(v=VS.85).aspx">D3D_FEATURE_LEVEL</a>*</b>
 
-A pointer to one of the enumerated values in <a href="https://msdn.microsoft.com/afbc1a02-1730-4502-af15-b668412d664c">D3D_FEATURE_LEVEL</a>, which represents the minimum feature level.
+A pointer to one of the enumerated values in <a href="https://msdn.microsoft.com/en-us/library/Ff476329(v=VS.85).aspx">D3D_FEATURE_LEVEL</a>, which represents the minimum feature level.
           
 
 
@@ -72,7 +72,7 @@ A pointer to one of the enumerated values in <a href="https://msdn.microsoft.com
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 Returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
           

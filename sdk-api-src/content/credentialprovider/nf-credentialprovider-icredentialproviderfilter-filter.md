@@ -61,9 +61,9 @@ Evaluates whether a list of credential providers should be allowed to provide cr
 
 ### -param cpus [in]
 
-Type: <b><a href="https://msdn.microsoft.com/86025d1d-b13d-4f61-824a-fd471e449567">CREDENTIAL_PROVIDER_USAGE_SCENARIO</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762493(v=VS.85).aspx">CREDENTIAL_PROVIDER_USAGE_SCENARIO</a></b>
 
-A pointer to a <a href="https://msdn.microsoft.com/86025d1d-b13d-4f61-824a-fd471e449567">CREDENTIAL_PROVIDER_USAGE_SCENARIO</a> value that declares the scenarios in which a credential provider is supported.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb762493(v=VS.85).aspx">CREDENTIAL_PROVIDER_USAGE_SCENARIO</a> value that declares the scenarios in which a credential provider is supported.
 
 
 ### -param dwFlags [in]

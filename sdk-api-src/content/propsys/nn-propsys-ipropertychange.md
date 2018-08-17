@@ -72,7 +72,7 @@ The <b>IPropertyChange</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="shell.IPropertyChange_ApplyToPropVariant">ApplyToPropVariant</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775242(v=VS.85).aspx">ApplyToPropVariant</a>
 </td>
 <td align="left" width="63%">
 Applies a change to a property value.
@@ -91,7 +91,7 @@ Applies a change to a property value.
 
 
 
-<a href="shell.PSCreateSimplePropertyChange">PSCreateSimplePropertyChange</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776494(v=VS.85).aspx">PSCreateSimplePropertyChange</a>
  
 
  

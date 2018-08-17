@@ -133,7 +133,7 @@ Closing the Removable Storage Manager session also ends all device change detect
 
 
 
-<a href="removable_storage_manager_functions.htm">Change Detection Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Change Detection Functions</a>
 
 
 

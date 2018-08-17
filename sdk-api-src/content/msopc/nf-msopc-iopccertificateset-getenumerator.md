@@ -109,7 +109,7 @@ The <i>certificateEnumerator</i> parameter is <b>NULL</b>.
 
 
 
-<a href="f15bc83f-43b0-4b09-9bb5-c668e901b864">Certificates</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa376489(v=VS.85).aspx">Certificates</a>
 
 
 

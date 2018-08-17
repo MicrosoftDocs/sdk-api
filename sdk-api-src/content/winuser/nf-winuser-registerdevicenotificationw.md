@@ -165,7 +165,7 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 Applications send event notifications using the 
-    <a href="_win32_BroadcastSystemMessage">BroadcastSystemMessage</a> function. Any 
+    <a href="https://msdn.microsoft.com/en-us/library/ms644932(v=VS.85).aspx">BroadcastSystemMessage</a> function. Any 
     application with a top-level window can receive basic notifications by processing the 
     <a href="https://msdn.microsoft.com/b64a3983-ee75-4199-9778-1e5b7cec59e4">WM_DEVICECHANGE</a> message. Applications can use the 
     <b>RegisterDeviceNotification</b> function to 
@@ -215,7 +215,7 @@ For an example, see
 
 
 
-<a href="_win32_BroadcastSystemMessage">BroadcastSystemMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644932(v=VS.85).aspx">BroadcastSystemMessage</a>
 
 
 

@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Searches for a list-view item that has the specified properties and bears the specified relationship to a specified item. You can use this macro or send the <a href="https://msdn.microsoft.com/2d458f12-b9d3-4b9e-bcb4-927c14c16537">LVM_GETNEXTITEM</a> message explicitly. 
+Searches for a list-view item that has the specified properties and bears the specified relationship to a specified item. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761057(v=VS.85).aspx">LVM_GETNEXTITEM</a> message explicitly. 
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Searches for a list-view item that has the specified properties and bears the sp
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 A handle to the list-view control. 
 
@@ -75,8 +75,8 @@ The index of the item with which to begin the search, or -1 to find the first it
 
 ### -param flags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 The geometric relation of the requested item to the specified item and, if specified, the state of the requested item. For a list of possible values, see the description of the 
-					<i>lParam</i> parameter in the <a href="https://msdn.microsoft.com/2d458f12-b9d3-4b9e-bcb4-927c14c16537">LVM_GETNEXTITEM</a> message. If an item does not have all of the specified state flags set, the search continues with the next item. 
+					<i>lParam</i> parameter in the <a href="https://msdn.microsoft.com/en-us/library/Bb761057(v=VS.85).aspx">LVM_GETNEXTITEM</a> message. If an item does not have all of the specified state flags set, the search continues with the next item. 
 

@@ -324,7 +324,7 @@ The data is organized in a triangle list with adjacency data.
 
 
 
-This enumeration is used by <a href="https://msdn.microsoft.com/eba25ade-e3a3-40fe-8555-2fcb07dc0ed3">ID3D10ShaderReflection1::GetGSInputPrimitive</a>.
+This enumeration is used by <a href="https://msdn.microsoft.com/en-us/library/Bb694552(v=VS.85).aspx">ID3D10ShaderReflection1::GetGSInputPrimitive</a>.
 
 This method requires Windows Vista Service Pack 1.
 
@@ -349,7 +349,7 @@ typedef D3D_PRIMITIVE D3D10_PRIMITIVE;</pre>
 
 
 
-<a href="https://msdn.microsoft.com/8d2b758b-cc2a-43ad-bf26-51674d4b5129">Shader Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205156(v=VS.85).aspx">Shader Enumerations</a>
  
 
  

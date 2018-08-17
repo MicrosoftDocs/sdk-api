@@ -70,7 +70,7 @@ The number of elements to retrieve.
 
 ### -param pPIDMap [in, out]
 
-Address of an array allocated by the caller, containing <i>cRequest</i> elements. The array is filled with <a href="https://msdn.microsoft.com/c247ec75-483d-4587-a82f-07bbf6d277b4">PID_MAP</a> structures that describe the PID mapping.
+Address of an array allocated by the caller, containing <i>cRequest</i> elements. The array is filled with <a href="https://msdn.microsoft.com/en-us/library/Dd377424(v=VS.85).aspx">PID_MAP</a> structures that describe the PID mapping.
 
 
 ### -param pcReceived [out]
@@ -133,11 +133,11 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/d46010c4-0f16-4c97-ad10-16f7ac250390">IEnumPIDMap Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd376605(v=VS.85).aspx">IEnumPIDMap Interface</a>
  
 
  

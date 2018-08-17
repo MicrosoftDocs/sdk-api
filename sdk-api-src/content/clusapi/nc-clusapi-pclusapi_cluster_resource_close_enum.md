@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Closes a  <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> enumeration handle. The <b>PCLUSAPI_CLUSTER_RESOURCE_CLOSE_ENUM</b> type defines a pointer to this function.
+Closes a  <a href="https://msdn.microsoft.com/en-us/library/Aa372152(v=VS.85).aspx">resource</a> enumeration handle. The <b>PCLUSAPI_CLUSTER_RESOURCE_CLOSE_ENUM</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ A resource enumeration handle to be closed.
 
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
      If the operation fails, 
-the function returns a different <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>.
+the function returns a different <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>.
 
 
 
@@ -79,7 +79,7 @@ the function returns a different <a href="https://msdn.microsoft.com/4a3a8feb-a0
 
 
 
-<a href="https://msdn.microsoft.com/d1f7360d-f592-49fb-b3b4-60d93afd7c6f">Cluster Resource Management Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa372262(v=VS.85).aspx">Cluster Resource Management Functions</a>
 
 
 

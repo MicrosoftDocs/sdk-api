@@ -79,7 +79,7 @@ This function does not return a value.
 
 You must unregister your provider before it is unloaded or deleted. Otherwise, the ETW callback routines will fail and have unpredictable results.
 
-In regards to thread safety, do not overlap calls to <a href="https://msdn.microsoft.com/621A7DA3-8E75-431C-B747-FFCE72EB2110">TraceLoggingRegister</a>
+In regards to thread safety, do not overlap calls to <a href="https://msdn.microsoft.com/en-us/library/Dn904610(v=VS.85).aspx">TraceLoggingRegister</a>
 and <b>TraceLoggingUnregister</b> with calls to other TraceLogging APIs using the
 same provider handle. In particular, the call to <b>TraceLoggingRegister</b> must
 return before you call <a href="https://msdn.microsoft.com/BFBC6802-64DC-478E-B09D-F550135994AB">TraceLoggingWrite</a> or <b>TraceLoggingUnregister</b>. Calls

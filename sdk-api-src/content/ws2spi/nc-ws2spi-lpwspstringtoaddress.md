@@ -85,7 +85,7 @@ Buffer that is filled with a single
 
 ### -param lpAddressLength [in, out]
 
-Length of the Address buffer, in bytes. Returns the size of the resultant <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure. If the supplied buffer is not large enough, the function fails with a specific error of <a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a> and this parameter is updated with the required size in bytes.
+Length of the Address buffer, in bytes. Returns the size of the resultant <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure. If the supplied buffer is not large enough, the function fails with a specific error of <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a> and this parameter is updated with the required size in bytes.
 
 
 ### -param lpErrno [out]
@@ -108,7 +108,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -119,7 +119,7 @@ The specified address buffer is too small, pass in a larger buffer.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
+<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">

@@ -59,9 +59,9 @@ A module-instance interface is used for resource rebinding. <div class="alert"><
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11ModuleInstance</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID3D11ModuleInstance</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11ModuleInstance</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ID3D11ModuleInstance</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -74,7 +74,7 @@ The <b>ID3D11ModuleInstance</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F12B8580-6D47-4C73-8281-287A0B183D7F">BindConstantBuffer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280565(v=VS.85).aspx">BindConstantBuffer</a>
 </td>
 <td align="left" width="63%">
 Rebinds a constant buffer from a source slot to a destination slot.
@@ -83,7 +83,7 @@ Rebinds a constant buffer from a source slot to a destination slot.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ACC4A9C6-8B6A-4923-A51E-66AB423F12D5">BindConstantBufferByName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280566(v=VS.85).aspx">BindConstantBufferByName</a>
 </td>
 <td align="left" width="63%">
 Rebinds a constant buffer by name to a destination slot.
@@ -92,7 +92,7 @@ Rebinds a constant buffer by name to a destination slot.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7EBF623B-1C04-43C5-A262-62EA125D6631">BindResource</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280567(v=VS.85).aspx">BindResource</a>
 </td>
 <td align="left" width="63%">
 Rebinds a texture or buffer from source slot to destination slot.
@@ -101,7 +101,7 @@ Rebinds a texture or buffer from source slot to destination slot.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/A9E61E17-F1FE-4BF1-8A4A-F73B23FEDD08">BindResourceAsUnorderedAccessView</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280568(v=VS.85).aspx">BindResourceAsUnorderedAccessView</a>
 </td>
 <td align="left" width="63%">
 Rebinds a resource as an unordered access view (UAV) from source slot to destination slot.
@@ -110,7 +110,7 @@ Rebinds a resource as an unordered access view (UAV) from source slot to destina
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/B9A9BA35-7CAB-411D-8168-B126CB8C3139">BindResourceAsUnorderedAccessViewByName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280569(v=VS.85).aspx">BindResourceAsUnorderedAccessViewByName</a>
 </td>
 <td align="left" width="63%">
 Rebinds a resource by name as an unordered access view (UAV) to destination slots.
@@ -119,7 +119,7 @@ Rebinds a resource by name as an unordered access view (UAV) to destination slot
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/313A4AE8-8B3A-40B9-85C4-86A43F4F37D5">BindResourceByName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280570(v=VS.85).aspx">BindResourceByName</a>
 </td>
 <td align="left" width="63%">
 Rebinds a texture or buffer by name to destination slots.
@@ -128,7 +128,7 @@ Rebinds a texture or buffer by name to destination slots.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/FB7A63DE-C8EC-456D-84D6-D0AF682A46E8">BindSampler</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280571(v=VS.85).aspx">BindSampler</a>
 </td>
 <td align="left" width="63%">
 Rebinds a sampler from source slot to destination slot.
@@ -137,7 +137,7 @@ Rebinds a sampler from source slot to destination slot.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3AB143F9-6AF7-4C1A-8330-AAA4A7723327">BindSamplerByName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280605(v=VS.85).aspx">BindSamplerByName</a>
 </td>
 <td align="left" width="63%">
 Rebinds a sampler by name to destination slots.
@@ -146,7 +146,7 @@ Rebinds a sampler by name to destination slots.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2948964B-73B1-4656-8547-F5238C3DC928">BindUnorderedAccessView</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280606(v=VS.85).aspx">BindUnorderedAccessView</a>
 </td>
 <td align="left" width="63%">
 Rebinds an unordered access view (UAV) from source slot to destination slot.
@@ -155,7 +155,7 @@ Rebinds an unordered access view (UAV) from source slot to destination slot.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/439C12FD-4BAE-4609-88D3-D7B006816716">BindUnorderedAccessViewByName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280607(v=VS.85).aspx">BindUnorderedAccessViewByName</a>
 </td>
 <td align="left" width="63%">
 Rebinds an unordered access view (UAV) by name to destination slots.
@@ -169,7 +169,7 @@ Rebinds an unordered access view (UAV) by name to destination slots.
 
 
 
-To get a module-instance interface, call <a href="https://msdn.microsoft.com/737A69EF-F74E-4480-98EA-31D6CCAC0F8A">ID3D11Module::CreateInstance</a> or <a href="https://msdn.microsoft.com/7E854D31-3E34-43A7-ABEB-7FBAC94217F3">ID3D11FunctionLinkingGraph::CreateModuleInstance</a>.
+To get a module-instance interface, call <a href="https://msdn.microsoft.com/en-us/library/Dn280608(v=VS.85).aspx">ID3D11Module::CreateInstance</a> or <a href="https://msdn.microsoft.com/en-us/library/Dn280537(v=VS.85).aspx">ID3D11FunctionLinkingGraph::CreateModuleInstance</a>.
       
 
 <div class="alert"><b>Note</b>  <b>ID3D11ModuleInstance</b> requires the D3dcompiler_47.dll or a later version of the DLL.
@@ -183,11 +183,11 @@ To get a module-instance interface, call <a href="https://msdn.microsoft.com/737
 
 
 
-<a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
 
 
 
-<a href="https://msdn.microsoft.com/1791d2c9-3791-47fe-b887-a8117ecc798b">Shader Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476161(v=VS.85).aspx">Shader Interfaces</a>
  
 
  

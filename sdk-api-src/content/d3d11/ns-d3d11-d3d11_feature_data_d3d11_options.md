@@ -61,12 +61,12 @@ req.irql:
 
 ### -field OutputMergerLogicOp
 
-Specifies whether logic operations are available in blend state. The runtime sets this member to <b>TRUE</b> if logic operations are available in blend state and <b>FALSE</b> otherwise. This member is <b>FALSE</b> for <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature level</a> 9.1, 9.2, and 9.3.  This member is optional for feature level 10, 10.1, and 11.  This member is <b>TRUE</b> for feature level 11.1.
+Specifies whether logic operations are available in blend state. The runtime sets this member to <b>TRUE</b> if logic operations are available in blend state and <b>FALSE</b> otherwise. This member is <b>FALSE</b> for <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> 9.1, 9.2, and 9.3.  This member is optional for feature level 10, 10.1, and 11.  This member is <b>TRUE</b> for feature level 11.1.
 
 
 ### -field UAVOnlyRenderingForcedSampleCount
 
-Specifies whether the driver can render with no render target views (RTVs) or depth stencil views (DSVs), and only unordered access views (UAVs) bound. The runtime sets this member to <b>TRUE</b> if  the driver can render with no RTVs or DSVs and only UAVs bound and <b>FALSE</b> otherwise. If <b>TRUE</b>, you can set the <b>ForcedSampleCount</b> member of <a href="https://msdn.microsoft.com/7A0E526E-9352-408F-8B11-1B7A9FBC2BE1">D3D11_RASTERIZER_DESC1</a> to 1, 4, or 8 when you render with no RTVs or DSV and only UAVs bound.  For <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature level</a> 11.1, this member is always <b>TRUE</b> and you can also set <b>ForcedSampleCount</b> to 16 in addition to 1, 4, or 8.  The default value of <b>ForcedSampleCount</b> is 0, which means the same as if the value is set to 1. You can always set <b>ForcedSampleCount</b> to 0 or 1 for UAV-only rendering independently of how this member is set.
+Specifies whether the driver can render with no render target views (RTVs) or depth stencil views (DSVs), and only unordered access views (UAVs) bound. The runtime sets this member to <b>TRUE</b> if  the driver can render with no RTVs or DSVs and only UAVs bound and <b>FALSE</b> otherwise. If <b>TRUE</b>, you can set the <b>ForcedSampleCount</b> member of <a href="https://msdn.microsoft.com/en-us/library/Hh404489(v=VS.85).aspx">D3D11_RASTERIZER_DESC1</a> to 1, 4, or 8 when you render with no RTVs or DSV and only UAVs bound.  For <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> 11.1, this member is always <b>TRUE</b> and you can also set <b>ForcedSampleCount</b> to 16 in addition to 1, 4, or 8.  The default value of <b>ForcedSampleCount</b> is 0, which means the same as if the value is set to 1. You can always set <b>ForcedSampleCount</b> to 0 or 1 for UAV-only rendering independently of how this member is set.
 
 
 ### -field DiscardAPIsSeenByDriver
@@ -76,81 +76,81 @@ Specifies whether the driver supports the <a href="https://msdn.microsoft.com/7B
 
 ### -field FlagsForUpdateAndCopySeenByDriver
 
-Specifies whether the driver supports new semantics for copy and update that are exposed by the <a href="https://msdn.microsoft.com/1963011F-C3E2-428D-B667-195A4976510B">ID3D11DeviceContext1::CopySubresourceRegion1</a> and <a href="https://msdn.microsoft.com/7D89591C-F3F7-4A4F-A91A-AC67D9A573AF">ID3D11DeviceContext1::UpdateSubresource1</a> methods.  The runtime sets this member to <b>TRUE</b> if the driver supports new semantics for copy and update. The runtime sets this member to <b>FALSE</b> only for legacy drivers. The runtime handles this member similarly to the <b>DiscardAPIsSeenByDriver</b> member.
+Specifies whether the driver supports new semantics for copy and update that are exposed by the <a href="https://msdn.microsoft.com/en-us/library/Hh404604(v=VS.85).aspx">ID3D11DeviceContext1::CopySubresourceRegion1</a> and <a href="https://msdn.microsoft.com/7D89591C-F3F7-4A4F-A91A-AC67D9A573AF">ID3D11DeviceContext1::UpdateSubresource1</a> methods.  The runtime sets this member to <b>TRUE</b> if the driver supports new semantics for copy and update. The runtime sets this member to <b>FALSE</b> only for legacy drivers. The runtime handles this member similarly to the <b>DiscardAPIsSeenByDriver</b> member.
 
 
 ### -field ClearView
 
 Specifies whether the driver supports the <a href="https://msdn.microsoft.com/7CC8DEB6-075C-40EB-822D-8A627E285FA2">ID3D11DeviceContext1::ClearView</a> method. The runtime sets this member to <b>TRUE</b> if the driver supports this method and <b>FALSE</b> otherwise. If <b>FALSE</b>, the runtime does not expose this method to the driver because the driver does not support it.  
 
-<div class="alert"><b>Note</b>  For <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature level</a> 9.1, 9.2, and 9.3, this member is always <b>TRUE</b> because the option is emulated by the runtime.</div>
+<div class="alert"><b>Note</b>  For <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> 9.1, 9.2, and 9.3, this member is always <b>TRUE</b> because the option is emulated by the runtime.</div>
 <div> </div>
 
 ### -field CopyWithOverlap
 
-Specifies whether you can call <a href="https://msdn.microsoft.com/1963011F-C3E2-428D-B667-195A4976510B">ID3D11DeviceContext1::CopySubresourceRegion1</a> with overlapping source and destination rectangles. The runtime sets this member to <b>TRUE</b> if  you can call <b>CopySubresourceRegion1</b> with overlapping source and destination rectangles and <b>FALSE</b> otherwise. If <b>FALSE</b>, the runtime does not expose this method to the driver because the driver does not support it.  
+Specifies whether you can call <a href="https://msdn.microsoft.com/en-us/library/Hh404604(v=VS.85).aspx">ID3D11DeviceContext1::CopySubresourceRegion1</a> with overlapping source and destination rectangles. The runtime sets this member to <b>TRUE</b> if  you can call <b>CopySubresourceRegion1</b> with overlapping source and destination rectangles and <b>FALSE</b> otherwise. If <b>FALSE</b>, the runtime does not expose this method to the driver because the driver does not support it.  
 
-<div class="alert"><b>Note</b>  For <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature level</a> 9.1, 9.2, and 9.3, this member is always <b>TRUE</b> because drivers already support the option for these feature levels.</div>
+<div class="alert"><b>Note</b>  For <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> 9.1, 9.2, and 9.3, this member is always <b>TRUE</b> because drivers already support the option for these feature levels.</div>
 <div> </div>
 
 ### -field ConstantBufferPartialUpdate
 
 Specifies whether the driver supports partial updates of constant buffers. The runtime sets this member to <b>TRUE</b> if  the driver supports partial updates of constant buffers and <b>FALSE</b> otherwise. If <b>FALSE</b>, the runtime does not expose this operation to the driver because the driver does not support it.  
 
-<div class="alert"><b>Note</b>  For <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature level</a> 9.1, 9.2, and 9.3, this member is always <b>TRUE</b> because the option is emulated by the runtime.</div>
+<div class="alert"><b>Note</b>  For <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> 9.1, 9.2, and 9.3, this member is always <b>TRUE</b> because the option is emulated by the runtime.</div>
 <div> </div>
 
 ### -field ConstantBufferOffsetting
 
-Specifies whether the driver supports new semantics for setting offsets in constant buffers for a shader. The runtime sets this member to <b>TRUE</b> if  the driver supports allowing you to specify offsets when you call new methods like the <a href="https://msdn.microsoft.com/4D896539-216F-4823-B36E-2FE3E8A40C64">ID3D11DeviceContext1::VSSetConstantBuffers1</a>  method and <b>FALSE</b> otherwise. If <b>FALSE</b>, the runtime does not expose this operation to the driver because the driver does not support it.    
+Specifies whether the driver supports new semantics for setting offsets in constant buffers for a shader. The runtime sets this member to <b>TRUE</b> if  the driver supports allowing you to specify offsets when you call new methods like the <a href="https://msdn.microsoft.com/en-us/library/Hh446795(v=VS.85).aspx">ID3D11DeviceContext1::VSSetConstantBuffers1</a>  method and <b>FALSE</b> otherwise. If <b>FALSE</b>, the runtime does not expose this operation to the driver because the driver does not support it.    
 
-<div class="alert"><b>Note</b>  For <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature level</a> 9.1, 9.2, and 9.3, this member is always <b>TRUE</b> because the option is emulated by the runtime.</div>
+<div class="alert"><b>Note</b>  For <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> 9.1, 9.2, and 9.3, this member is always <b>TRUE</b> because the option is emulated by the runtime.</div>
 <div> </div>
 
 ### -field MapNoOverwriteOnDynamicConstantBuffer
 
-Specifies whether you can call <a href="https://msdn.microsoft.com/c9d57873-1faa-42fa-855c-26f565e3b27c">ID3D11DeviceContext::Map</a> with <a href="d3d11_map.htm">D3D11_MAP_WRITE_NO_OVERWRITE</a> on a dynamic constant buffer (that is, whether the driver supports this operation). The runtime sets this member to <b>TRUE</b> if  the driver supports this operation and <b>FALSE</b> otherwise. If <b>FALSE</b>, the runtime fails this method because the driver does not support the operation.  
+Specifies whether you can call <a href="https://msdn.microsoft.com/en-us/library/Ff476457(v=VS.85).aspx">ID3D11DeviceContext::Map</a> with <a href="https://msdn.microsoft.com/en-us/library/Ff476181(v=VS.85).aspx">D3D11_MAP_WRITE_NO_OVERWRITE</a> on a dynamic constant buffer (that is, whether the driver supports this operation). The runtime sets this member to <b>TRUE</b> if  the driver supports this operation and <b>FALSE</b> otherwise. If <b>FALSE</b>, the runtime fails this method because the driver does not support the operation.  
 
-<div class="alert"><b>Note</b>  For <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature level</a> 9.1, 9.2, and 9.3, this member is always <b>TRUE</b> because the option is emulated by the runtime.</div>
+<div class="alert"><b>Note</b>  For <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> 9.1, 9.2, and 9.3, this member is always <b>TRUE</b> because the option is emulated by the runtime.</div>
 <div> </div>
 
 ### -field MapNoOverwriteOnDynamicBufferSRV
 
-Specifies whether you can call <a href="https://msdn.microsoft.com/c9d57873-1faa-42fa-855c-26f565e3b27c">ID3D11DeviceContext::Map</a> with <a href="d3d11_map.htm">D3D11_MAP_WRITE_NO_OVERWRITE</a> on a dynamic buffer SRV (that is, whether the driver supports this operation). The runtime sets this member to <b>TRUE</b> if  the driver supports this operation and <b>FALSE</b> otherwise. If <b>FALSE</b>, the runtime fails this method because the driver does not support the operation.
+Specifies whether you can call <a href="https://msdn.microsoft.com/en-us/library/Ff476457(v=VS.85).aspx">ID3D11DeviceContext::Map</a> with <a href="https://msdn.microsoft.com/en-us/library/Ff476181(v=VS.85).aspx">D3D11_MAP_WRITE_NO_OVERWRITE</a> on a dynamic buffer SRV (that is, whether the driver supports this operation). The runtime sets this member to <b>TRUE</b> if  the driver supports this operation and <b>FALSE</b> otherwise. If <b>FALSE</b>, the runtime fails this method because the driver does not support the operation.
 
 
 ### -field MultisampleRTVWithForcedSampleCountOne
 
-Specifies whether the driver supports multisample rendering when you render with RTVs bound. If <b>TRUE</b>, you can set the <b>ForcedSampleCount</b> member of <a href="https://msdn.microsoft.com/7A0E526E-9352-408F-8B11-1B7A9FBC2BE1">D3D11_RASTERIZER_DESC1</a> to 1 with a multisample RTV bound. The driver can support this option on <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature level</a> 10 and higher.  If <b>FALSE</b>, the rasterizer-state creation will fail because the driver is legacy or the feature level is too low.
+Specifies whether the driver supports multisample rendering when you render with RTVs bound. If <b>TRUE</b>, you can set the <b>ForcedSampleCount</b> member of <a href="https://msdn.microsoft.com/en-us/library/Hh404489(v=VS.85).aspx">D3D11_RASTERIZER_DESC1</a> to 1 with a multisample RTV bound. The driver can support this option on <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> 10 and higher.  If <b>FALSE</b>, the rasterizer-state creation will fail because the driver is legacy or the feature level is too low.
 
 
 ### -field SAD4ShaderInstructions
 
-Specifies whether the hardware and driver support the <a href="https://msdn.microsoft.com/6497F9AE-4524-44C2-A1C6-2A4ACB30FA9C">msad4</a> intrinsic function in shaders. The runtime sets this member to <b>TRUE</b> if  the hardware and driver support calls to <b>msad4</b> intrinsic functions in shaders. If <b>FALSE</b>, the driver is legacy or the hardware does not support the option; the runtime will fail shader creation for shaders that use <b>msad4</b>.
+Specifies whether the hardware and driver support the <a href="https://msdn.microsoft.com/en-us/library/Hh768927(v=VS.85).aspx">msad4</a> intrinsic function in shaders. The runtime sets this member to <b>TRUE</b> if  the hardware and driver support calls to <b>msad4</b> intrinsic functions in shaders. If <b>FALSE</b>, the driver is legacy or the hardware does not support the option; the runtime will fail shader creation for shaders that use <b>msad4</b>.
 
 
 ### -field ExtendedDoublesShaderInstructions
 
-Specifies whether the hardware and driver support the <a href="https://msdn.microsoft.com/C4EF2552-7388-4CA8-B78F-6B2D4C8FC5F6">fma</a> intrinsic function and other extended doubles instructions (<b>DDIV</b> and <b>DRCP</b>) in shaders. The <b>fma</b> intrinsic function emits an extended doubles <b>DFMA</b> instruction. The runtime sets this member to <b>TRUE</b> if  the hardware and driver support extended doubles instructions in shaders (<a href="https://msdn.microsoft.com/ec646940-8901-45c5-a44c-434c8acae2aa">shader model 5</a> and higher).  Support of this option implies support of basic double-precision shader instructions as well. You can use the <a href="d3d11_feature.htm">D3D11_FEATURE_DOUBLES</a> value to query for support of double-precision shaders.  If <b>FALSE</b>, the hardware and driver do not support the option; the runtime will fail shader creation for shaders that use extended doubles instructions.
+Specifies whether the hardware and driver support the <a href="https://msdn.microsoft.com/en-us/library/Hh768893(v=VS.85).aspx">fma</a> intrinsic function and other extended doubles instructions (<b>DDIV</b> and <b>DRCP</b>) in shaders. The <b>fma</b> intrinsic function emits an extended doubles <b>DFMA</b> instruction. The runtime sets this member to <b>TRUE</b> if  the hardware and driver support extended doubles instructions in shaders (<a href="https://msdn.microsoft.com/en-us/library/Ff471356(v=VS.85).aspx">shader model 5</a> and higher).  Support of this option implies support of basic double-precision shader instructions as well. You can use the <a href="https://msdn.microsoft.com/en-us/library/Ff476124(v=VS.85).aspx">D3D11_FEATURE_DOUBLES</a> value to query for support of double-precision shaders.  If <b>FALSE</b>, the hardware and driver do not support the option; the runtime will fail shader creation for shaders that use extended doubles instructions.
 
 
 ### -field ExtendedResourceSharing
 
-Specifies whether the hardware and driver support <a href="direct3d_11_1_features.htm">sharing a greater variety of Texture2D resource types and formats</a>. The runtime sets this member to <b>TRUE</b> if  the hardware and driver support extended Texture2D resource sharing.
+Specifies whether the hardware and driver support <a href="https://msdn.microsoft.com/en-us/library/Hh404562(v=VS.85).aspx">sharing a greater variety of Texture2D resource types and formats</a>. The runtime sets this member to <b>TRUE</b> if  the hardware and driver support extended Texture2D resource sharing.
 
 
 ## -remarks
 
 
 
-If a Microsoft Direct3D device supports <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature level</a> 11.1 (<a href="d3d_feature_level.htm">D3D_FEATURE_LEVEL_11_1</a>), when you call <a href="https://msdn.microsoft.com/7edf2ffd-908a-4cf8-9ac6-8fd14d7a0ea1">ID3D11Device::CheckFeatureSupport</a> with <a href="d3d11_feature.htm">D3D11_FEATURE_D3D11_OPTIONS</a>, <b>CheckFeatureSupport</b> returns a pointer to <b>D3D11_FEATURE_DATA_D3D11_OPTIONS</b> with all member set to <b>TRUE</b> except the <b>SAD4ShaderInstructions</b> and <b>ExtendedDoublesShaderInstructions</b> members, which are optionally supported by the hardware and driver and therefore can be <b>TRUE</b> or <b>FALSE</b>.
+If a Microsoft Direct3D device supports <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> 11.1 (<a href="https://msdn.microsoft.com/en-us/library/Ff476329(v=VS.85).aspx">D3D_FEATURE_LEVEL_11_1</a>), when you call <a href="https://msdn.microsoft.com/en-us/library/Ff476497(v=VS.85).aspx">ID3D11Device::CheckFeatureSupport</a> with <a href="https://msdn.microsoft.com/en-us/library/Ff476124(v=VS.85).aspx">D3D11_FEATURE_D3D11_OPTIONS</a>, <b>CheckFeatureSupport</b> returns a pointer to <b>D3D11_FEATURE_DATA_D3D11_OPTIONS</b> with all member set to <b>TRUE</b> except the <b>SAD4ShaderInstructions</b> and <b>ExtendedDoublesShaderInstructions</b> members, which are optionally supported by the hardware and driver and therefore can be <b>TRUE</b> or <b>FALSE</b>.
 
-<a href="overviews_direct3d_11_devices_downlevel_intro.htm">Feature level</a> 11.1  provides the following additional features:
+<a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">Feature level</a> 11.1  provides the following additional features:
 
 <ul>
 <li>UAVs at every shader stage with 64 UAV bind slots instead of 8.</li>
-<li>Target-independent rasterization, which enables you  to set the <b>ForcedSampleCount</b> member of <a href="https://msdn.microsoft.com/7A0E526E-9352-408F-8B11-1B7A9FBC2BE1">D3D11_RASTERIZER_DESC1</a> to 1, 4, 8, or 16 and to render to RTVs with a single sample.</li>
-<li>UAV-only rendering with the <b>ForcedSampleCount</b> member of <a href="https://msdn.microsoft.com/7A0E526E-9352-408F-8B11-1B7A9FBC2BE1">D3D11_RASTERIZER_DESC1</a> set to up to 16 (only up to 8 for <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature level</a> 11).</li>
+<li>Target-independent rasterization, which enables you  to set the <b>ForcedSampleCount</b> member of <a href="https://msdn.microsoft.com/en-us/library/Hh404489(v=VS.85).aspx">D3D11_RASTERIZER_DESC1</a> to 1, 4, 8, or 16 and to render to RTVs with a single sample.</li>
+<li>UAV-only rendering with the <b>ForcedSampleCount</b> member of <a href="https://msdn.microsoft.com/en-us/library/Hh404489(v=VS.85).aspx">D3D11_RASTERIZER_DESC1</a> set to up to 16 (only up to 8 for <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> 11).</li>
 </ul>
 The runtime always sets the following groupings of members identically. That is, all the values in a grouping are <b>TRUE</b> or <b>FALSE</b> together:
 
@@ -167,11 +167,11 @@ The runtime always sets the following groupings of members identically. That is,
 
 
 
-<a href="https://msdn.microsoft.com/2a45182a-7114-4075-b8b8-147f52fe7aa9">Core Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476155(v=VS.85).aspx">Core Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/48c3bf65-f077-45e6-a306-03d5760eeccb">D3D11_FEATURE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476124(v=VS.85).aspx">D3D11_FEATURE</a>
  
 
  

@@ -97,11 +97,11 @@ Creates an <a href="https://msdn.microsoft.com/21ed2286-e4df-4b77-ba31-e5d5927e1
 
 
 
-<a href="https://msdn.microsoft.com/7a31d9e7-0521-40ee-b2c1-592dfaf5301e">Brushes Overview</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd756651(v=VS.85).aspx">Brushes Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/663743c9-16e9-4e3a-90b2-883ef0b8d5cf">How to Create a Radial Gradient Brush</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd756679(v=VS.85).aspx">How to Create a Radial Gradient Brush</a>
 
 
 

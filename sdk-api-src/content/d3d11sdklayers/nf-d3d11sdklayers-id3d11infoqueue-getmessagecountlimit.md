@@ -66,7 +66,7 @@ Get the maximum number of messages that can be added to the message queue.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT64</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT64</a></b>
 
 Maximum number of messages that can be added to the queue. -1 means no limit.
 
@@ -87,7 +87,7 @@ When the number of messages in the message queue has reached the maximum limit, 
 
 
 
-<a href="https://msdn.microsoft.com/240820c7-1c1f-4e2d-8b3e-497fd931d7d2">ID3D11InfoQueue Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476538(v=VS.85).aspx">ID3D11InfoQueue Interface</a>
  
 
  

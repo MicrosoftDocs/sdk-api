@@ -112,7 +112,7 @@ If the function fails, the return value is <b>NULL</b>.
 
 
 
-When it is no longer needed, the caller is responsible for freeing the icon handle returned by <b>ExtractAssociatedIcon</b> by calling the <a href="https://msdn.microsoft.com/ffe21e34-ebe0-4ec8-830f-64c733ef9097">DestroyIcon</a> function.
+When it is no longer needed, the caller is responsible for freeing the icon handle returned by <b>ExtractAssociatedIcon</b> by calling the <a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a> function.
 
 The <b>ExtractAssociatedIcon</b> function first looks for the indexed icon in the file specified by <i>lpIconPath</i>. If the function cannot obtain the icon handle from that file, and the file has an associated executable file, it looks in that executable file for an icon. Associations with executable files are based on file name extensions and are stored in the per-user part of the registry.
 

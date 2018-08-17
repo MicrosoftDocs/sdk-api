@@ -92,7 +92,7 @@ Set the type of the audio object with the <i>type</i> parameter to the  <a href=
 
 
 
-<a href="coreaudio.ispatialaudioobjectbase">ISpatialAudioObjectBase</a>
+<a href="https://msdn.microsoft.com/library/Mt829727(v=VS.85).aspx">ISpatialAudioObjectBase</a>
  
 
  

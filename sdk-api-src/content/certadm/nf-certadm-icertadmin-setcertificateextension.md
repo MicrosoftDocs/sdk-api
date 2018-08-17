@@ -53,7 +53,7 @@ req.irql:
 ## -description
 
 
-The <b>SetCertificateExtension</b> method adds a new extension to the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate</a> issued in response to a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate request</a>. This method was first defined by the <a href="https://msdn.microsoft.com/e906b69b-5574-4dd5-aa30-9c2a67972202">ICertAdmin</a> interface.
+The <b>SetCertificateExtension</b> method adds a new extension to the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate</a> issued in response to a <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate request</a>. This method was first defined by the <a href="https://msdn.microsoft.com/en-us/library/Aa383233(v=VS.85).aspx">ICertAdmin</a> interface.
 
 For this method to succeed, the certificate request must be pending.
 
@@ -65,10 +65,10 @@ For this method to succeed, the certificate request must be pending.
 
 ### -param strConfig [in]
 
-Represents a valid configuration string for the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) server in the form COMPUTERNAME\CANAME, where COMPUTERNAME is the network name of the Certificate Services server and CANAME is the common name of the certification authority, as entered during Certificate Services setup. For information about the configuration string name, see 
-<a href="https://msdn.microsoft.com/92bece6a-73f0-47cf-8142-77e986448824">ICertConfig</a>.
+Represents a valid configuration string for the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> (CA) server in the form COMPUTERNAME\CANAME, where COMPUTERNAME is the network name of the Certificate Services server and CANAME is the common name of the certification authority, as entered during Certificate Services setup. For information about the configuration string name, see 
+<a href="https://msdn.microsoft.com/en-us/library/Aa383268(v=VS.85).aspx">ICertConfig</a>.
 
-<div class="alert"><b>Important</b>  <b>SetCertificateExtension</b> does not clear the internal cache when the configuration string is changed. When you change the configuration string for the CA, you must instantiate a new <a href="https://msdn.microsoft.com/df40b6ac-825d-4e8d-a80b-6e57a4e740a2">ICertAdmin</a> object and call this method again with the new configuration string.</div>
+<div class="alert"><b>Important</b>  <b>SetCertificateExtension</b> does not clear the internal cache when the configuration string is changed. When you change the configuration string for the CA, you must instantiate a new <a href="https://msdn.microsoft.com/en-us/library/Aa383234(v=VS.85).aspx">ICertAdmin</a> object and call this method again with the new configuration string.</div>
 <div> </div>
 
 ### -param RequestId [in]
@@ -78,7 +78,7 @@ Specifies the ID of the certificate request.
 
 ### -param strExtensionName [in]
 
-Specifies the <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) for the extension to set. The string must be 31 or fewer non-NULL characters in length.
+Specifies the <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> (OID) for the extension to set. The string must be 31 or fewer non-NULL characters in length.
 
 
 ### -param Type [in]
@@ -190,7 +190,7 @@ Specifies the value associated with the extension.
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
 
 
 
@@ -209,19 +209,19 @@ Administration tasks use DCOM. Code that calls this interface method as defined 
 
 
 
-<a href="https://msdn.microsoft.com/df40b6ac-825d-4e8d-a80b-6e57a4e740a2">CCertAdmin</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383234(v=VS.85).aspx">CCertAdmin</a>
 
 
 
-<a href="https://msdn.microsoft.com/e906b69b-5574-4dd5-aa30-9c2a67972202">ICertAdmin</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383233(v=VS.85).aspx">ICertAdmin</a>
 
 
 
-<a href="https://msdn.microsoft.com/df40b6ac-825d-4e8d-a80b-6e57a4e740a2">ICertAdmin2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383234(v=VS.85).aspx">ICertAdmin2</a>
 
 
 
-<a href="https://msdn.microsoft.com/92bece6a-73f0-47cf-8142-77e986448824">ICertConfig</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383268(v=VS.85).aspx">ICertConfig</a>
  
 
  

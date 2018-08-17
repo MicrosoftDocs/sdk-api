@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Loads an <a href="https://msdn.microsoft.com/05f62462-2b6a-4d1b-bf83-9109a254839e">XMUSHORTN2</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
+Loads an <a href="https://msdn.microsoft.com/en-us/library/Ee420713(v=VS.85).aspx">XMUSHORTN2</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Loads an <a href="https://msdn.microsoft.com/05f62462-2b6a-4d1b-bf83-9109a254839
 
 ### -param pSource [in]
 
-Address of the <a href="https://msdn.microsoft.com/05f62462-2b6a-4d1b-bf83-9109a254839e">XMUSHORTN2</a> structure to load. This parameter must point to cached
+Address of the <a href="https://msdn.microsoft.com/en-us/library/Ee420713(v=VS.85).aspx">XMUSHORTN2</a> structure to load. This parameter must point to cached
         memory.
 
 

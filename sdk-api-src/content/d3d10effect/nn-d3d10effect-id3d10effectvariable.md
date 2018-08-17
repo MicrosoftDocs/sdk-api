@@ -54,7 +54,7 @@ req.irql:
 
 The <b>ID3D10EffectVariable</b> interface is the base class for all effect variables.
 
-The lifetime of an <b>ID3D10EffectVariable</b> object is equal to the lifetime of its parent <a href="https://msdn.microsoft.com/3525d559-11e4-4c38-acfe-5dc560264c31">ID3D10Effect</a> object.
+The lifetime of an <b>ID3D10EffectVariable</b> object is equal to the lifetime of its parent <a href="https://msdn.microsoft.com/en-us/library/Bb173630(v=VS.85).aspx">ID3D10Effect</a> object.
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul><h3><a id="methods"></a>Methods</h3>The <b>ID3D10EffectVariable</b> interface has these methods.
@@ -65,7 +65,7 @@ The lifetime of an <b>ID3D10EffectVariable</b> object is equal to the lifetime o
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/67400cd7-2253-4598-bc6c-8b45947ed2cb">AsBlend</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173725(v=VS.85).aspx">AsBlend</a>
 </td>
 <td align="left" width="63%">
 Get a effect-blend variable.
@@ -74,7 +74,7 @@ Get a effect-blend variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ad172890-e6d1-4012-997f-5be45afedfad">AsConstantBuffer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173726(v=VS.85).aspx">AsConstantBuffer</a>
 </td>
 <td align="left" width="63%">
 Get a constant buffer.
@@ -83,7 +83,7 @@ Get a constant buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/39c23179-2fcf-44af-9091-6e3585c9fb79">AsDepthStencil</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173727(v=VS.85).aspx">AsDepthStencil</a>
 </td>
 <td align="left" width="63%">
 Get a depth-stencil variable.
@@ -92,7 +92,7 @@ Get a depth-stencil variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c5ada392-1288-46e2-9b76-05d6d1938116">AsDepthStencilView</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb944007(v=VS.85).aspx">AsDepthStencilView</a>
 </td>
 <td align="left" width="63%">
 Get a depth-stencil-view variable.
@@ -101,7 +101,7 @@ Get a depth-stencil-view variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/234198b2-a42c-4a3e-a4f3-c79f268a4466">AsMatrix</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173728(v=VS.85).aspx">AsMatrix</a>
 </td>
 <td align="left" width="63%">
 Get a matrix variable.
@@ -110,7 +110,7 @@ Get a matrix variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/927ebdfc-6029-4c23-806a-185ffd9f303b">AsRasterizer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173729(v=VS.85).aspx">AsRasterizer</a>
 </td>
 <td align="left" width="63%">
 Get a rasterizer variable.
@@ -119,7 +119,7 @@ Get a rasterizer variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2b91110f-7430-4300-af58-da2af08209f7">AsRenderTargetView</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb944008(v=VS.85).aspx">AsRenderTargetView</a>
 </td>
 <td align="left" width="63%">
 Get a render-target-view variable.
@@ -128,7 +128,7 @@ Get a render-target-view variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bbe0d693-f6df-4163-b22f-b06495cc2c8e">AsSampler</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173730(v=VS.85).aspx">AsSampler</a>
 </td>
 <td align="left" width="63%">
 Get a sampler variable.
@@ -137,7 +137,7 @@ Get a sampler variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3af1cdd1-4f04-4568-8494-d1be83d34267">AsScalar</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173731(v=VS.85).aspx">AsScalar</a>
 </td>
 <td align="left" width="63%">
 Get a scalar variable.
@@ -146,7 +146,7 @@ Get a scalar variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/13e2b5c5-b959-4a9c-8a19-809b8a3bcd48">AsShader</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173732(v=VS.85).aspx">AsShader</a>
 </td>
 <td align="left" width="63%">
 Get a shader variable.
@@ -155,7 +155,7 @@ Get a shader variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6d861dcb-2350-49f1-bb0f-28a28ebfd131">AsShaderResource</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173733(v=VS.85).aspx">AsShaderResource</a>
 </td>
 <td align="left" width="63%">
 Get a shader-resource variable.
@@ -164,7 +164,7 @@ Get a shader-resource variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f3ef95f7-7a12-4786-9010-d8d8aef5a33c">AsString</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173734(v=VS.85).aspx">AsString</a>
 </td>
 <td align="left" width="63%">
 Get a string variable.
@@ -173,7 +173,7 @@ Get a string variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a10128fd-143a-4d69-a32d-a7756eb62c89">AsVector</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173735(v=VS.85).aspx">AsVector</a>
 </td>
 <td align="left" width="63%">
 Get a vector variable.
@@ -182,7 +182,7 @@ Get a vector variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/793e3524-0d16-467c-ae0a-bd6cba11e4e3">GetAnnotationByIndex</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173736(v=VS.85).aspx">GetAnnotationByIndex</a>
 </td>
 <td align="left" width="63%">
 Get an annotation by index.
@@ -191,7 +191,7 @@ Get an annotation by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/39776686-ef51-48dc-a408-45ca934b7119">GetAnnotationByName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173737(v=VS.85).aspx">GetAnnotationByName</a>
 </td>
 <td align="left" width="63%">
 Get an annotation by name.
@@ -200,7 +200,7 @@ Get an annotation by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/64ab5d84-834b-49cf-a873-6c249d808662">GetDesc</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173738(v=VS.85).aspx">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Get a description.
@@ -209,7 +209,7 @@ Get a description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8be279d0-834d-4eca-9c34-eadcd9c32ace">GetElement</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173739(v=VS.85).aspx">GetElement</a>
 </td>
 <td align="left" width="63%">
 Get an array element.
@@ -218,7 +218,7 @@ Get an array element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/48aee944-7ae9-4d2e-acf8-1f33a3ce05e1">GetMemberByIndex</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173740(v=VS.85).aspx">GetMemberByIndex</a>
 </td>
 <td align="left" width="63%">
 Get a structure member by index.
@@ -227,7 +227,7 @@ Get a structure member by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/42a57e27-0a6c-4612-ae1f-04754c5320c2">GetMemberByName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173741(v=VS.85).aspx">GetMemberByName</a>
 </td>
 <td align="left" width="63%">
 Get a structure member by name.
@@ -236,7 +236,7 @@ Get a structure member by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4000c9e9-4648-4a23-8964-658479db83fc">GetMemberBySemantic</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173742(v=VS.85).aspx">GetMemberBySemantic</a>
 </td>
 <td align="left" width="63%">
 Get a structure member by semantic.
@@ -245,7 +245,7 @@ Get a structure member by semantic.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bf23c3fc-e42e-451b-b53a-1e5888fef6b3">GetParentConstantBuffer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173743(v=VS.85).aspx">GetParentConstantBuffer</a>
 </td>
 <td align="left" width="63%">
 Get a constant buffer.
@@ -254,7 +254,7 @@ Get a constant buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e748d6d7-fb39-44bd-b532-9e631370e8dd">GetRawValue</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173744(v=VS.85).aspx">GetRawValue</a>
 </td>
 <td align="left" width="63%">
 Get data.
@@ -263,7 +263,7 @@ Get data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c1b081df-5cc6-45a2-860b-a214ef06f06a">GetType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173745(v=VS.85).aspx">GetType</a>
 </td>
 <td align="left" width="63%">
 Get type information.
@@ -272,7 +272,7 @@ Get type information.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b27f1669-94a1-4971-bd8f-e5a56f43560f">IsValid</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173746(v=VS.85).aspx">IsValid</a>
 </td>
 <td align="left" width="63%">
 Compare the data type with the data stored.
@@ -281,7 +281,7 @@ Compare the data type with the data stored.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/14fb6d74-39a4-4f79-8fdc-c25d96be1531">SetRawValue</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173747(v=VS.85).aspx">SetRawValue</a>
 </td>
 <td align="left" width="63%">
 Set data.
@@ -301,7 +301,7 @@ The <b>ID3D10EffectVariable</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/67400cd7-2253-4598-bc6c-8b45947ed2cb">AsBlend</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173725(v=VS.85).aspx">AsBlend</a>
 </td>
 <td align="left" width="63%">
 Get a effect-blend variable.
@@ -310,7 +310,7 @@ Get a effect-blend variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ad172890-e6d1-4012-997f-5be45afedfad">AsConstantBuffer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173726(v=VS.85).aspx">AsConstantBuffer</a>
 </td>
 <td align="left" width="63%">
 Get a constant buffer.
@@ -319,7 +319,7 @@ Get a constant buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/39c23179-2fcf-44af-9091-6e3585c9fb79">AsDepthStencil</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173727(v=VS.85).aspx">AsDepthStencil</a>
 </td>
 <td align="left" width="63%">
 Get a depth-stencil variable.
@@ -328,7 +328,7 @@ Get a depth-stencil variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c5ada392-1288-46e2-9b76-05d6d1938116">AsDepthStencilView</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb944007(v=VS.85).aspx">AsDepthStencilView</a>
 </td>
 <td align="left" width="63%">
 Get a depth-stencil-view variable.
@@ -337,7 +337,7 @@ Get a depth-stencil-view variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/234198b2-a42c-4a3e-a4f3-c79f268a4466">AsMatrix</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173728(v=VS.85).aspx">AsMatrix</a>
 </td>
 <td align="left" width="63%">
 Get a matrix variable.
@@ -346,7 +346,7 @@ Get a matrix variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/927ebdfc-6029-4c23-806a-185ffd9f303b">AsRasterizer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173729(v=VS.85).aspx">AsRasterizer</a>
 </td>
 <td align="left" width="63%">
 Get a rasterizer variable.
@@ -355,7 +355,7 @@ Get a rasterizer variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2b91110f-7430-4300-af58-da2af08209f7">AsRenderTargetView</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb944008(v=VS.85).aspx">AsRenderTargetView</a>
 </td>
 <td align="left" width="63%">
 Get a render-target-view variable.
@@ -364,7 +364,7 @@ Get a render-target-view variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bbe0d693-f6df-4163-b22f-b06495cc2c8e">AsSampler</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173730(v=VS.85).aspx">AsSampler</a>
 </td>
 <td align="left" width="63%">
 Get a sampler variable.
@@ -373,7 +373,7 @@ Get a sampler variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3af1cdd1-4f04-4568-8494-d1be83d34267">AsScalar</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173731(v=VS.85).aspx">AsScalar</a>
 </td>
 <td align="left" width="63%">
 Get a scalar variable.
@@ -382,7 +382,7 @@ Get a scalar variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/13e2b5c5-b959-4a9c-8a19-809b8a3bcd48">AsShader</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173732(v=VS.85).aspx">AsShader</a>
 </td>
 <td align="left" width="63%">
 Get a shader variable.
@@ -391,7 +391,7 @@ Get a shader variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6d861dcb-2350-49f1-bb0f-28a28ebfd131">AsShaderResource</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173733(v=VS.85).aspx">AsShaderResource</a>
 </td>
 <td align="left" width="63%">
 Get a shader-resource variable.
@@ -400,7 +400,7 @@ Get a shader-resource variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f3ef95f7-7a12-4786-9010-d8d8aef5a33c">AsString</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173734(v=VS.85).aspx">AsString</a>
 </td>
 <td align="left" width="63%">
 Get a string variable.
@@ -409,7 +409,7 @@ Get a string variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a10128fd-143a-4d69-a32d-a7756eb62c89">AsVector</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173735(v=VS.85).aspx">AsVector</a>
 </td>
 <td align="left" width="63%">
 Get a vector variable.
@@ -418,7 +418,7 @@ Get a vector variable.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/793e3524-0d16-467c-ae0a-bd6cba11e4e3">GetAnnotationByIndex</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173736(v=VS.85).aspx">GetAnnotationByIndex</a>
 </td>
 <td align="left" width="63%">
 Get an annotation by index.
@@ -427,7 +427,7 @@ Get an annotation by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/39776686-ef51-48dc-a408-45ca934b7119">GetAnnotationByName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173737(v=VS.85).aspx">GetAnnotationByName</a>
 </td>
 <td align="left" width="63%">
 Get an annotation by name.
@@ -436,7 +436,7 @@ Get an annotation by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/64ab5d84-834b-49cf-a873-6c249d808662">GetDesc</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173738(v=VS.85).aspx">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Get a description.
@@ -445,7 +445,7 @@ Get a description.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8be279d0-834d-4eca-9c34-eadcd9c32ace">GetElement</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173739(v=VS.85).aspx">GetElement</a>
 </td>
 <td align="left" width="63%">
 Get an array element.
@@ -454,7 +454,7 @@ Get an array element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/48aee944-7ae9-4d2e-acf8-1f33a3ce05e1">GetMemberByIndex</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173740(v=VS.85).aspx">GetMemberByIndex</a>
 </td>
 <td align="left" width="63%">
 Get a structure member by index.
@@ -463,7 +463,7 @@ Get a structure member by index.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/42a57e27-0a6c-4612-ae1f-04754c5320c2">GetMemberByName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173741(v=VS.85).aspx">GetMemberByName</a>
 </td>
 <td align="left" width="63%">
 Get a structure member by name.
@@ -472,7 +472,7 @@ Get a structure member by name.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4000c9e9-4648-4a23-8964-658479db83fc">GetMemberBySemantic</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173742(v=VS.85).aspx">GetMemberBySemantic</a>
 </td>
 <td align="left" width="63%">
 Get a structure member by semantic.
@@ -481,7 +481,7 @@ Get a structure member by semantic.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bf23c3fc-e42e-451b-b53a-1e5888fef6b3">GetParentConstantBuffer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173743(v=VS.85).aspx">GetParentConstantBuffer</a>
 </td>
 <td align="left" width="63%">
 Get a constant buffer.
@@ -490,7 +490,7 @@ Get a constant buffer.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e748d6d7-fb39-44bd-b532-9e631370e8dd">GetRawValue</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173744(v=VS.85).aspx">GetRawValue</a>
 </td>
 <td align="left" width="63%">
 Get data.
@@ -499,7 +499,7 @@ Get data.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c1b081df-5cc6-45a2-860b-a214ef06f06a">GetType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173745(v=VS.85).aspx">GetType</a>
 </td>
 <td align="left" width="63%">
 Get type information.
@@ -508,7 +508,7 @@ Get type information.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b27f1669-94a1-4971-bd8f-e5a56f43560f">IsValid</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173746(v=VS.85).aspx">IsValid</a>
 </td>
 <td align="left" width="63%">
 Compare the data type with the data stored.
@@ -517,7 +517,7 @@ Compare the data type with the data stored.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/14fb6d74-39a4-4f79-8fdc-c25d96be1531">SetRawValue</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173747(v=VS.85).aspx">SetRawValue</a>
 </td>
 <td align="left" width="63%">
 Set data.
@@ -582,7 +582,7 @@ Set data.
 
 
 
-<a href="https://msdn.microsoft.com/ebe0afc7-6261-4c96-a54e-9b491e240c03">Effect Interfaces (Direct3D 10)</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205178(v=VS.85).aspx">Effect Interfaces (Direct3D 10)</a>
  
 
  

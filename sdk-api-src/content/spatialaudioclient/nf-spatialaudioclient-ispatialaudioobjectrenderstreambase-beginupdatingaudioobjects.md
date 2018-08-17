@@ -121,7 +121,7 @@ For each <b>BeginUpdatingAudioObjects</b> call, there should be a corresponding 
 
 
 
-<a href="coreaudio.ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a>
+<a href="https://msdn.microsoft.com/library/Mt829728(v=VS.85).aspx">ISpatialAudioObjectRenderStreamBase</a>
  
 
  

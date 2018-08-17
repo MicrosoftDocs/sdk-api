@@ -85,7 +85,7 @@ If the operation fails, the function returns a system error code.
 
 
 
-<a href="https://msdn.microsoft.com/1b3a3b23-39db-47b7-b4a8-17fc1ee45df6">Failover Cluster Management Function</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa369107(v=VS.85).aspx">Failover Cluster Management Function</a>
  
 
  

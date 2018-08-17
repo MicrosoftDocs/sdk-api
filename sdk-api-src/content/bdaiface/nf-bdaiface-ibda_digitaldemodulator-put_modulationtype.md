@@ -81,15 +81,15 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/13ecd348-dc2b-4e80-9875-927f4ed55c95">IBDA_DigitalDemodulator Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693284(v=VS.85).aspx">IBDA_DigitalDemodulator Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/0f00553f-c0b1-4ff5-9c92-fe3a1990ef20">IBDA_DigitalDemodulator::get_ModulationType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693296(v=VS.85).aspx">IBDA_DigitalDemodulator::get_ModulationType</a>
  
 
  

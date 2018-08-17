@@ -110,7 +110,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-An <b>HRESULT</b> error code from the <a href="inet_CreateUri_Function">CreateUri</a> function. 
+An <b>HRESULT</b> error code from the <a href="https://msdn.microsoft.com/library/ms775098(v=VS.85).aspx">CreateUri</a> function. 
 
 </td>
 </tr>

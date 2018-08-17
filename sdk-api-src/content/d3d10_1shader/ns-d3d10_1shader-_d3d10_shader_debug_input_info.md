@@ -68,7 +68,7 @@ Index into array of variables to initialize.
 
 ### -field InitialRegisterSet
 
-Type: <b><a href="https://msdn.microsoft.com/62fbed9b-ca8f-4eb0-8c5d-d18ea7c76c24">D3D10_SHADER_DEBUG_REGTYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172425(v=VS.85).aspx">D3D10_SHADER_DEBUG_REGTYPE</a></b>
 
 Must be D3D10_SHADER_DEBUG_REG_INPUT, D3D10_SHADER_DEBUG_REG_CBUFFER or D3D10_SHADER_DEBUG_REG_TBUFFER.
 
@@ -105,7 +105,7 @@ Initial value if the variable is a literal.
 
 
 
-The <b>D3D10_SHADER_DEBUG_INPUT_INFO</b> structure is used with the <a href="https://msdn.microsoft.com/b1b4201a-5bfb-4fce-ba51-64f7da9531bc">D3D10_SHADER_DEBUG_INFO</a> structure.
+The <b>D3D10_SHADER_DEBUG_INPUT_INFO</b> structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb172420(v=VS.85).aspx">D3D10_SHADER_DEBUG_INFO</a> structure.
 
 
 
@@ -115,7 +115,7 @@ The <b>D3D10_SHADER_DEBUG_INPUT_INFO</b> structure is used with the <a href="htt
 
 
 
-<a href="https://msdn.microsoft.com/b36309e0-1c44-42d9-adcf-33acd753438c">Shader Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205159(v=VS.85).aspx">Shader Structures</a>
  
 
  

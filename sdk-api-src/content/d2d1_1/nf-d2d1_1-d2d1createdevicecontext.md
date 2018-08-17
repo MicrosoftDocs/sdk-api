@@ -123,15 +123,15 @@ If <i>creationProperties</i> are not specified, the Direct2D device will inherit
 
 
 
-<a href="https://msdn.microsoft.com/5ed3ec21-b609-41b6-9568-6ede460bc395">D2D1CreateDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404272(v=VS.85).aspx">D2D1CreateDevice</a>
 
 
 
-<a href="https://msdn.microsoft.com/0e56d057-20a5-47b7-aec9-63c8e31f349b">D2D1CreateDeviceContext</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404273(v=VS.85).aspx">D2D1CreateDeviceContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/657439fe-dc17-42af-9e2c-2f3cb769a5a3">D2D1_CREATION_PROPERTIES</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404298(v=VS.85).aspx">D2D1_CREATION_PROPERTIES</a>
 
 
 

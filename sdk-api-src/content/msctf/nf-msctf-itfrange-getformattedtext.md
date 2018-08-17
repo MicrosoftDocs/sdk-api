@@ -52,7 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>ITfRange::GetFormattedText</b> method obtains formatted content contained within a range of text. The content is packaged in an object that supports the <a href="_ole_idataobject">IDataObject</a> interface.
+The <b>ITfRange::GetFormattedText</b> method obtains formatted content contained within a range of text. The content is packaged in an object that supports the <a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> interface.
 
 
 ## -parameters
@@ -145,7 +145,7 @@ The format and storage type of the <b>IDataObject</b> are determined by the appl
 
 
 
-<a href="_ole_idataobject">IDataObject</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a>
 
 
 

@@ -92,7 +92,7 @@ This method checks only for application groups at the store level.
 
 A pointer to an array of the names of application groups associated with this client context.
 
-This is a variant that contains either a <a href="9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a> or the  JScript <a href="08e5f552-0797-4b48-8164-609582fc18c9">Array</a> object. Each element of the array holds a <b>VT_BSTR</b> that contains the name of an application group.
+This is a variant that contains either a <a href="https://msdn.microsoft.com/en-us/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> or the  JScript <a href="https://msdn.microsoft.com/library/k4h76zbx(v=VS.85).aspx">Array</a> object. Each element of the array holds a <b>VT_BSTR</b> that contains the name of an application group.
 
 
 ## -returns

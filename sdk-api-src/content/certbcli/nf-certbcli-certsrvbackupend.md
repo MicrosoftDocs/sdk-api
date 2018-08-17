@@ -77,7 +77,7 @@ The return value is an <b>HRESULT</b>. A value of S_OK indicates success.
 
 
 
-Upon completion of a backup session, the session needs to be terminated by means of <b>CertSrvBackupEnd</b>. For every successful call to <a href="https://msdn.microsoft.com/21af96f8-168d-4c6c-8966-357236c0e4e6">CertSrvBackupPrepare</a>, there should be a call to <b>CertSrvBackupEnd</b>.
+Upon completion of a backup session, the session needs to be terminated by means of <b>CertSrvBackupEnd</b>. For every successful call to <a href="https://msdn.microsoft.com/en-us/library/Aa376585(v=VS.85).aspx">CertSrvBackupPrepare</a>, there should be a call to <b>CertSrvBackupEnd</b>.
 
 
 #### Examples
@@ -124,11 +124,11 @@ if (FAILED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/21af96f8-168d-4c6c-8966-357236c0e4e6">CertSrvBackupPrepare</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa376585(v=VS.85).aspx">CertSrvBackupPrepare</a>
 
 
 
-<a href="https://msdn.microsoft.com/47e8f490-ecb2-4c41-8bf0-b673e173ddc6">Using the Certificate Services Backup and Restore Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa388174(v=VS.85).aspx">Using the Certificate Services Backup and Restore Functions</a>
  
 
  

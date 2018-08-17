@@ -53,7 +53,7 @@ req.irql:
 ## -description
 
 
-Contains information about the conclusion of an edit operation within a ComboBoxEx control. This structure is used with the <a href="https://msdn.microsoft.com/b6b50951-7304-4499-b57b-a5b592de2190">CBEN_ENDEDIT</a> notification code. 
+Contains information about the conclusion of an edit operation within a ComboBoxEx control. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb775760(v=VS.85).aspx">CBEN_ENDEDIT</a> notification code. 
 
 
 ## -struct-fields
@@ -63,14 +63,14 @@ Contains information about the conclusion of an edit operation within a ComboBox
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
-An <a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains information about the notification code. 
+An <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about the notification code. 
 
 
 ### -field fChanged
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
 
 A value indicating whether the contents of the control's edit box have changed. This value is nonzero if the contents have been modified, or zero otherwise. 
 
@@ -84,7 +84,7 @@ The zero-based index of the item that will be selected after completing the edit
 
 ### -field szText
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">TCHAR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">TCHAR</a></b>
 
 A zero-terminated string that contains the text from within the control's edit box. 
 
@@ -93,7 +93,7 @@ A zero-terminated string that contains the text from within the control's edit b
 
 Type: <b>int</b>
 
-A value that specifies the action that generated the <a href="https://msdn.microsoft.com/b6b50951-7304-4499-b57b-a5b592de2190">CBEN_ENDEDIT</a> notification code. This value can be one of the following: 
+A value that specifies the action that generated the <a href="https://msdn.microsoft.com/en-us/library/Bb775760(v=VS.85).aspx">CBEN_ENDEDIT</a> notification code. This value can be one of the following: 
 
 <table>
 <tr>

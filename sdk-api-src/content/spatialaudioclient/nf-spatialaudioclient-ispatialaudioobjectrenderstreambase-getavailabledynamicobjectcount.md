@@ -92,7 +92,7 @@ A dynamic <a href="https://msdn.microsoft.com/EE83AF5F-4342-4CF2-81A7-1123F8DAFA
 
 
 
-<a href="coreaudio.ispatialaudioobjectrenderstreambase">ISpatialAudioObjectRenderStreamBase</a>
+<a href="https://msdn.microsoft.com/library/Mt829728(v=VS.85).aspx">ISpatialAudioObjectRenderStreamBase</a>
  
 
  

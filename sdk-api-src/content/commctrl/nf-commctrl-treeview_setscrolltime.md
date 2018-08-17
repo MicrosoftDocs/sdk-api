@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Sets the maximum scroll time for the tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/b0ad81ba-0621-42b7-8fe1-f3bd5bc16d6a">TVM_SETSCROLLTIME</a> message explicitly. 
+Sets the maximum scroll time for the tree-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb773767(v=VS.85).aspx">TVM_SETSCROLLTIME</a> message explicitly. 
 
 
 ## -parameters
@@ -61,14 +61,14 @@ Sets the maximum scroll time for the tree-view control. You can use this macro o
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 Handle to a tree-view control. 
 
 
 ### -param uTime
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 New maximum scroll time, in milliseconds. If this value is less than 100, it will be rounded up to 100. 
 
@@ -87,7 +87,7 @@ The maximum scroll time is the longest amount of time that a scroll operation ca
 
 
 
-<a href="https://msdn.microsoft.com/992d1906-cda3-4ac7-ba90-c681c551ac2e">TVM_GETSCROLLTIME</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773625(v=VS.85).aspx">TVM_GETSCROLLTIME</a>
  
 
  

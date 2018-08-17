@@ -93,7 +93,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 An application should call the <a href="https://msdn.microsoft.com/e3de77b9-dd27-4f20-b63d-ad2c57ac4283">RevertToSelf</a> function to undo the impersonation set by the <b>ImpersonateDdeClientWindow</b> function. 
 
-A DDEML application should use the <a href="https://msdn.microsoft.com/cc2f9f14-7c9c-4e60-9570-c457085e095f">DdeImpersonateClient</a> function. 
+A DDEML application should use the <a href="https://msdn.microsoft.com/en-us/library/ms648756(v=VS.85).aspx">DdeImpersonateClient</a> function. 
 
 <h3><a id="Security_Considerations"></a><a id="security_considerations"></a><a id="SECURITY_CONSIDERATIONS"></a>Security Considerations</h3>
 Using this function incorrectly might compromise the security of your program. It is very important to check the return value of the call. If the function fails for any reason, the client is not impersonated and any subsequent client request is made in the security context of the calling process. If the calling process is running as a highly privileged account, such as LocalSystem or as a member of an administrative group, the user may be able to perform actions that would otherwise be disallowed. Therefore, if the call fails or raises an error do not continue execution of the client request. 
@@ -106,7 +106,7 @@ Using this function incorrectly might compromise the security of your program. I
 
 
 
-<a href="https://msdn.microsoft.com/0bcd8de4-a6f0-4f2a-8b9d-0b1b638925fb">About Dynamic Data Exchange</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648774(v=VS.85).aspx">About Dynamic Data Exchange</a>
 
 
 
@@ -114,7 +114,7 @@ Using this function incorrectly might compromise the security of your program. I
 
 
 
-<a href="https://msdn.microsoft.com/cc2f9f14-7c9c-4e60-9570-c457085e095f">DdeImpersonateClient</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648756(v=VS.85).aspx">DdeImpersonateClient</a>
 
 
 

@@ -123,7 +123,7 @@ Returns <b>S_OK</b> if successful; otherwise, returns one of the <a href="https:
 
 
 
-<a href="direct3d11.id3d11device5_unregisterdeviceremoved">UnregisterDeviceRemoved</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt589892(v=VS.85).aspx">UnregisterDeviceRemoved</a>
  
 
  

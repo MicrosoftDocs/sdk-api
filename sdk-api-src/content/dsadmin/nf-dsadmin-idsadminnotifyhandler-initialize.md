@@ -113,7 +113,7 @@ If the method succeeds, <b>S_OK</b> is returned. If the method fails,  a standar
 
 
 
-<a href="_ole_idataobject">IDataObject</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a>
 
 
 

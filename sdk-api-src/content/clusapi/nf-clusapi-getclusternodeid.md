@@ -54,7 +54,7 @@ req.irql:
 
 
 Returns the unique identifier of a cluster 
-    <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a>. The <b>PCLUSAPI_GET_CLUSTER_NODE_ID</b> type defines a pointer to this function.
+    <a href="https://msdn.microsoft.com/en-us/library/Aa371745(v=VS.85).aspx">node</a>. The <b>PCLUSAPI_GET_CLUSTER_NODE_ID</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -88,7 +88,7 @@ On input, pointer to the count of characters in the buffer pointed to by the
 
 
 This function returns a 
-       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>. The following are the 
+       <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>. The following are the 
        possible values:
 
 
@@ -104,8 +104,8 @@ If <i>hNode</i> is set to <b>NULL</b> and the caller is running on an
      active cluster node, the <b>GetClusterNodeId</b> function 
      returns the identifier of the node on which the application is running. Setting <i>hNode</i> 
      to <b>NULL</b> is a convenient way for 
-     <a href="https://msdn.microsoft.com/e1434102-afaf-4a35-887e-a434c628bd90">resource DLLs</a> to determine the node identifier of the node 
-     they are running on. The <a href="https://msdn.microsoft.com/289abaaa-d063-4e99-91e7-441c58f7f75c">GetCurrentClusterNodeId</a> 
+     <a href="https://msdn.microsoft.com/en-us/library/Aa372239(v=VS.85).aspx">resource DLLs</a> to determine the node identifier of the node 
+     they are running on. The <a href="https://msdn.microsoft.com/en-us/library/Bb394631(v=VS.85).aspx">GetCurrentClusterNodeId</a> 
      macro can be used instead of passing <b>NULL</b> for the <i>hNode</i> 
      parameter.
 
@@ -113,7 +113,7 @@ A cluster node identifier is a unique identifier that does not change even if th
 
 Note that <i>lpcchName</i> refers to a count of characters and not a count of bytes, and 
      that the returned size does not include the terminating <b>NULL</b> in the count. For more information on sizing 
-     buffers, see <a href="https://msdn.microsoft.com/283dc560-d547-4b42-b45c-435045080639">Data Size Conventions</a>.
+     buffers, see <a href="https://msdn.microsoft.com/en-us/library/Aa369338(v=VS.85).aspx">Data Size Conventions</a>.
 
 
 
@@ -123,11 +123,11 @@ Note that <i>lpcchName</i> refers to a count of characters and not a count of by
 
 
 
-<a href="https://msdn.microsoft.com/289abaaa-d063-4e99-91e7-441c58f7f75c">GetCurrentClusterNodeId</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb394631(v=VS.85).aspx">GetCurrentClusterNodeId</a>
 
 
 
-<a href="https://msdn.microsoft.com/18981eec-42c0-4e31-8e5c-b79d8ff89fc8">Node Management Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa371760(v=VS.85).aspx">Node Management Functions</a>
 
 
 

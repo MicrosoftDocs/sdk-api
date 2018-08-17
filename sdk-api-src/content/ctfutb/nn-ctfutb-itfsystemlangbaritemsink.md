@@ -51,14 +51,14 @@ req.irql:
 ## -description
 
 
-The <b>ITfSystemLangBarItemSink</b> interface is implemented by a system language bar menu extension and used by a system language bar menu (host) to allow menu items to be added to an existing system language bar menu. The extension obtains an instance of this interface by calling QueryInterface on the <a href="https://msdn.microsoft.com/16612641-2bff-4e6f-a955-85793021a20b">ITfLangBarItem</a> object with IID_ITfSystemLangBarItemSink. It can then pass the object to the host by calling <a href="https://msdn.microsoft.com/90928e6e-e11e-42ad-9b3e-d974642aca36">ITfSource::AdviseSink</a>.
+The <b>ITfSystemLangBarItemSink</b> interface is implemented by a system language bar menu extension and used by a system language bar menu (host) to allow menu items to be added to an existing system language bar menu. The extension obtains an instance of this interface by calling QueryInterface on the <a href="https://msdn.microsoft.com/en-us/library/ms628701(v=VS.85).aspx">ITfLangBarItem</a> object with IID_ITfSystemLangBarItemSink. It can then pass the object to the host by calling <a href="https://msdn.microsoft.com/en-us/library/ms628945(v=VS.85).aspx">ITfSource::AdviseSink</a>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfSystemLangBarItemSink</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfSystemLangBarItemSink</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfSystemLangBarItemSink</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ITfSystemLangBarItemSink</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>ITfSystemLangBarItemSink</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6e8ba0ef-2f0a-4d67-95c1-06fee763bc14">InitMenu</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms628958(v=VS.85).aspx">InitMenu</a>
 </td>
 <td align="left" width="63%">
 Called to allow a system language bar item extension to add items to a system language bar menu.
@@ -80,7 +80,7 @@ Called to allow a system language bar item extension to add items to a system la
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/43c20f95-64b5-458a-8469-0d8b284b66dd">OnMenuSelect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms628959(v=VS.85).aspx">OnMenuSelect</a>
 </td>
 <td align="left" width="63%">
 Called when the user selects an item in the system menu added by the system language bar menu extension.
@@ -94,7 +94,7 @@ Called when the user selects an item in the system menu added by the system lang
 
 
 
-A system language bar menu is an object on the language bar that supports menu items added to it by third-partyextensions. The system item must support the <a href="https://msdn.microsoft.com/2ff77f09-1b4c-4115-9bb4-4040097d1f90">ITfSource</a> interface and support the IID_ITfSystemLangBarItemSink identifier in its <b>ITfSource::AdviseSink</b> implementation. The system item should also implement the <a href="https://msdn.microsoft.com/9b41e787-eb90-4858-8838-8c36c7dce0c1">ITfSystemLangBarItem</a> interface. The system item uses the <b>ITfSystemLangBarItemSink</b> interface to allow the extension to add its items.
+A system language bar menu is an object on the language bar that supports menu items added to it by third-partyextensions. The system item must support the <a href="https://msdn.microsoft.com/en-us/library/ms628941(v=VS.85).aspx">ITfSource</a> interface and support the IID_ITfSystemLangBarItemSink identifier in its <b>ITfSource::AdviseSink</b> implementation. The system item should also implement the <a href="https://msdn.microsoft.com/en-us/library/ms628956(v=VS.85).aspx">ITfSystemLangBarItem</a> interface. The system item uses the <b>ITfSystemLangBarItemSink</b> interface to allow the extension to add its items.
 
 
 
@@ -109,11 +109,11 @@ A system language bar menu is an object on the language bar that supports menu i
 
 
 
-<a href="https://msdn.microsoft.com/2ff77f09-1b4c-4115-9bb4-4040097d1f90">ITfSource</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms628941(v=VS.85).aspx">ITfSource</a>
 
 
 
-<a href="https://msdn.microsoft.com/90928e6e-e11e-42ad-9b3e-d974642aca36">ITfSource::AdviseSink</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms628945(v=VS.85).aspx">ITfSource::AdviseSink</a>
 
 
 
@@ -122,7 +122,7 @@ A system language bar menu is an object on the language bar that supports menu i
 
 
 
-<a href="_COM_IUnknown">IUnknown</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
  
 
  

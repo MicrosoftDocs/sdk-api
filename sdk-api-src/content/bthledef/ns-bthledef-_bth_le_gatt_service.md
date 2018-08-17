@@ -74,19 +74,19 @@ The handle to the Bluetooth LE GATT profile attributes.
 
 
 
-<a href="https://msdn.microsoft.com/FA82A099-7924-44A1-A14C-7633B8656FB7">BTH_LE_UUID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh450852(v=VS.85).aspx">BTH_LE_UUID</a>
 
 
 
-<a href="https://msdn.microsoft.com/974270EE-6319-45E3-BAB8-3A57665591EA">BluetoothGATTGetCharacteristics</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh450795(v=VS.85).aspx">BluetoothGATTGetCharacteristics</a>
 
 
 
-<a href="https://msdn.microsoft.com/72F0E995-88B6-42E0-9B69-429566B5605C">BluetoothGATTGetIncludedServices</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh450800(v=VS.85).aspx">BluetoothGATTGetIncludedServices</a>
 
 
 
-<a href="https://msdn.microsoft.com/8EF8B582-FFAE-4C87-8E94-7EFDD2CD2706">BluetoothGATTGetServices</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh450802(v=VS.85).aspx">BluetoothGATTGetServices</a>
  
 
  

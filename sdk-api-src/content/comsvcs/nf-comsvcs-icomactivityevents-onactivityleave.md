@@ -61,7 +61,7 @@ Generated when an activity thread is left.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/f4aa0892-4c93-42ea-adc6-1b304b917389">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms688276(v=VS.85).aspx">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param guidCurrent [in]
@@ -88,7 +88,7 @@ The user verifies the return values from this method.
 
 
 
-<a href="https://msdn.microsoft.com/9b702bcd-d5a6-41fa-98ce-00a245dfe770">IComActivityEvents</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684373(v=VS.85).aspx">IComActivityEvents</a>
  
 
  

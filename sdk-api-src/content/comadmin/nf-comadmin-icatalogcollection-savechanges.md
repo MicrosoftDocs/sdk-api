@@ -117,7 +117,7 @@ For a given item, <b>SaveChanges</b> writes all properties to the catalog at the
 
 
 
-<a href="https://msdn.microsoft.com/7c24ead4-d69f-467d-b3d8-a81adbc49a7b">ICatalogCollection</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms683140(v=VS.85).aspx">ICatalogCollection</a>
  
 
  

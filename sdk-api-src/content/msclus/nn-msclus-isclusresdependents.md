@@ -85,7 +85,7 @@ The <b>ClusResDependents</b> collection has these methods.
 <a href="https://msdn.microsoft.com/f640b526-163d-4975-b135-6734569bf29a">AddItem</a>
 </td>
 <td align="left" width="63%">
-Adds an existing <a href="c_gly.htm">cluster</a> resource to the 
+Adds an existing <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> resource to the 
      collection.
 
 </td>

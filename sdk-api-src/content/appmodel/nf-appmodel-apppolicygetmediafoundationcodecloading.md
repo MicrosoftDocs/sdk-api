@@ -66,7 +66,7 @@ A handle that identifies the access token for a process.
 
 ### -param policy [out]
 
-A pointer to a variable of the <a href="appxpkg.apppolicymediafoundationcodecloading">AppPolicyMediaFoundationCodecLoading</a> enumerated type. When the function returns successfully, the variable contains an enumerated constant value indicating the codec-loading policy of the identified process.
+A pointer to a variable of the <a href="https://msdn.microsoft.com/library/Mt829724(v=VS.85).aspx">AppPolicyMediaFoundationCodecLoading</a> enumerated type. When the function returns successfully, the variable contains an enumerated constant value indicating the codec-loading policy of the identified process.
 
 
 ## -returns

@@ -63,14 +63,14 @@ Gets the rotation of the back buffers for the swap chain.
 
 ### -param pRotation [out]
 
-A pointer to a variable that receives a <a href="https://msdn.microsoft.com/fcf5bce5-dde1-4d3b-9786-2abf1e18d942">DXGI_MODE_ROTATION</a>-typed value that specifies the rotation of the back buffers for the swap chain.
+A pointer to a variable that receives a <a href="https://msdn.microsoft.com/en-us/library/Bb173065(v=VS.85).aspx">DXGI_MODE_ROTATION</a>-typed value that specifies the rotation of the back buffers for the swap chain.
 
 
 ## -returns
 
 
 
-Returns S_OK if successful; an error code otherwise.  For a list of error codes, see <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a>.
+Returns S_OK if successful; an error code otherwise.  For a list of error codes, see <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a>.
 
 <b>Platform Update for Windows 7:  </b>On Windows 7 or Windows Server 2008 R2 with the <a href="http://support.microsoft.com/kb/2670838">Platform Update for Windows 7</a> installed, <b>GetRotation</b> fails with DXGI_ERROR_INVALID_CALL. For more info about the Platform Update for Windows 7, see <a href="https://msdn.microsoft.com/C6DC0D38-E17C-4924-AF7C-6AE74C6C50D1">Platform Update for Windows 7</a>. 
 

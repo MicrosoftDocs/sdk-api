@@ -82,10 +82,10 @@ A value that determines whether the current user or machine is being queried for
 #### DRM_ACTIVATE_MACHINE
 
 The machine is being queried for activation status. The machine is considered activated if there is a valid lockbox for the logged-on user 
-and a valid <a href="m_gly.htm">machine certificates</a> in the per-user certificate store.
+and a valid <a href="https://msdn.microsoft.com/en-us/library/Aa362706(v=VS.85).aspx">machine certificates</a> in the per-user certificate store.
 
 In Rights Management Services client 1.0, the machine is considered activated if there is a valid lockbox 
-and a valid <a href="m_gly.htm">machine certificate</a>.
+and a valid <a href="https://msdn.microsoft.com/en-us/library/Aa362706(v=VS.85).aspx">machine certificate</a>.
 
 
 
@@ -93,7 +93,7 @@ and a valid <a href="m_gly.htm">machine certificate</a>.
 
 The current user is being queried for activation status.
 
-The current user is considered activated if the certificate store of the current user has a <a href="r_gly.htm">rights account certificate</a> issued to the specified group ID.
+The current user is considered activated if the certificate store of the current user has a <a href="https://msdn.microsoft.com/en-us/library/Aa362726(v=VS.85).aspx">rights account certificate</a> issued to the specified group ID.
 
 
 ### -param pActServInfo [in]

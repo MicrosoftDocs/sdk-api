@@ -66,7 +66,7 @@ Creates a multiple-document interface (MDI) child window.
 
 Type: <b>LPCTSTR</b>
 
-The window class of the MDI child window. The class name must have been registered by a call to the <a href="https://msdn.microsoft.com/f48ba5a5-08c7-4d16-bc25-e028ea9a73f4">RegisterClassEx</a> function.
+The window class of the MDI child window. The class name must have been registered by a call to the <a href="https://msdn.microsoft.com/en-us/library/ms633587(v=VS.85).aspx">RegisterClassEx</a> function.
 
 
 ### -param lpWindowName [in]
@@ -80,7 +80,7 @@ The window name. The system displays the name in the title bar of the child wind
 
 Type: <b>DWORD</b>
 
-The style of the MDI child window. If the MDI client window is created with the <b>MDIS_ALLCHILDSTYLES</b> window style, this parameter can be any combination of the window styles listed in the <a href="https://msdn.microsoft.com/bfc146f1-bebd-4e68-a29e-a73ff3e8f35b">Window Styles</a> page. Otherwise, this parameter is limited to one or more of the following values.
+The style of the MDI child window. If the MDI client window is created with the <b>MDIS_ALLCHILDSTYLES</b> window style, this parameter can be any combination of the window styles listed in the <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">Window Styles</a> page. Otherwise, this parameter is limited to one or more of the following values.
 
 <table>
 <tr>
@@ -207,11 +207,11 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-<a href="https://msdn.microsoft.com/5424b87c-22ea-414e-840e-214d9f0dc9ad">CreateWindow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632679(v=VS.85).aspx">CreateWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/beb41067-91ed-4f63-af8f-1000ba82a3b1">Multiple Document Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632591(v=VS.85).aspx">Multiple Document Interface</a>
 
 
 
@@ -219,11 +219,11 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-<a href="https://msdn.microsoft.com/f48ba5a5-08c7-4d16-bc25-e028ea9a73f4">RegisterClassEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms633587(v=VS.85).aspx">RegisterClassEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/f2313ffd-867f-4870-a667-3e5f5402776f">WM_MDICREATE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644913(v=VS.85).aspx">WM_MDICREATE</a>
  
 
  

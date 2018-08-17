@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Carries information specific to hit-testing points for a month calendar control. This structure is used with the <a href="https://msdn.microsoft.com/51e74b07-4ed7-488d-ad5d-116f046577fc">MCM_HITTEST</a> message and the corresponding <a href="https://msdn.microsoft.com/b328f8e7-4f9d-477f-bbb8-97f0acd5af0d">MonthCal_HitTest</a> macro. 
+Carries information specific to hit-testing points for a month calendar control. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb760991(v=VS.85).aspx">MCM_HITTEST</a> message and the corresponding <a href="https://msdn.microsoft.com/en-us/library/Bb774710(v=VS.85).aspx">MonthCal_HitTest</a> macro. 
 
 
 ## -struct-fields
@@ -171,7 +171,7 @@ The given point was over a day abbreviation ("Fri", for example). The <a href="h
 </dl>
 </td>
 <td width="60%">
-The given point was over a week number (<a href="Month_calendar_control_styles.htm">MCS_WEEKNUMBERS</a> style only). The <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure at 
+The given point was over a week number (<a href="https://msdn.microsoft.com/en-us/library/Bb760919(v=VS.85).aspx">MCS_WEEKNUMBERS</a> style only). The <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure at 
 						<i>lpMCHitTest</i>&gt;st is set to the corresponding date in the leftmost column.
 
 </td>

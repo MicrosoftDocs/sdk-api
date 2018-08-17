@@ -52,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Gets the dimensions of the rectangle that bounds a list box item as it is currently displayed in the list box. You can use this macro or send the <a href="https://msdn.microsoft.com/84f94bc9-f7a4-4c2d-8c35-1bd291082af9">LB_GETITEMRECT</a> message explicitly.
+Gets the dimensions of the rectangle that bounds a list box item as it is currently displayed in the list box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775206(v=VS.85).aspx">LB_GETITEMRECT</a> message explicitly.
 
 
 ## -parameters

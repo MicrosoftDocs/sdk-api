@@ -147,7 +147,7 @@ Typically <b>NULL</b>. Otherwise, this is a pointer to an
 
 ### -param ppEnum [out]
 
-If no error occurs, this receives the enumerator that allows the caller to retrieve the instances in the result set of the query. It is not an error for the query to have a result set with 0 instances. This is determined only by attempting to iterate through the instances. This object returns with a positive reference count. The caller must call <a href="_com_iunknown_release">Release</a> when the object is no longer required.
+If no error occurs, this receives the enumerator that allows the caller to retrieve the instances in the result set of the query. It is not an error for the query to have a result set with 0 instances. This is determined only by attempting to iterate through the instances. This object returns with a positive reference count. The caller must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> when the object is no longer required.
 
 
 ## -returns

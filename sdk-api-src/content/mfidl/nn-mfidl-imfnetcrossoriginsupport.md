@@ -74,7 +74,7 @@ The <b>IMFNetCrossOriginSupport</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="mf.imfnetcrossoriginsupport_getcrossoriginpolicy">GetCrossOriginPolicy</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846741(v=VS.85).aspx">GetCrossOriginPolicy</a>
 </td>
 <td align="left" width="63%">
 Returns the client's current cross-origin policy to apply to the download session.
@@ -83,7 +83,7 @@ Returns the client's current cross-origin policy to apply to the download sessio
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="mf.imfnetcrossoriginsupport_getsourceorigin">GetSourceOrigin</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846742(v=VS.85).aspx">GetSourceOrigin</a>
 </td>
 <td align="left" width="63%">
 Returns the W3C origin of the HTML5 media element.  
@@ -92,7 +92,7 @@ Returns the W3C origin of the HTML5 media element.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="mf.imfnetcrossoriginsupport_issameorigin">IsSameOrigin</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846743(v=VS.85).aspx">IsSameOrigin</a>
 </td>
 <td align="left" width="63%">
 Returns true when the specified URL has the same origin as the HTML5 media element.

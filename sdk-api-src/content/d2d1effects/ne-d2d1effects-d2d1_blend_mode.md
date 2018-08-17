@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The blend mode used for the <a href="https://msdn.microsoft.com/39D8BAA3-8FF3-4F10-99A0-B26FCA3018AE">Blend effect</a>.
+The blend mode used for the <a href="https://msdn.microsoft.com/en-us/library/Hh706313(v=VS.85).aspx">Blend effect</a>.
 
 
 ## -enum-fields

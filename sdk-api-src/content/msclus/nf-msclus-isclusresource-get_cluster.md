@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
     in subsequent versions.]
 
 Provides access to the 
-    <a href="c_gly.htm">cluster</a> associated with the 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> associated with the 
     <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a>.
 
 This property is read-only.

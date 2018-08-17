@@ -73,7 +73,7 @@ A pointer to the item that is to be inserted.
 
 
 
-<div class="alert"><b>Note</b>  This macro wraps the <a href="https://msdn.microsoft.com/e7bc2301-ff7b-4ca7-bad8-a323d44ad5ae">DSA_InsertItem</a> function.</div>
+<div class="alert"><b>Note</b>  This macro wraps the <a href="https://msdn.microsoft.com/en-us/library/Bb775665(v=VS.85).aspx">DSA_InsertItem</a> function.</div>
 <div> </div>
 The actual data pointed to by <i>pItem</i> is copied into the DSA. Subsequent actions performed on that item do not affect the original copy.
 

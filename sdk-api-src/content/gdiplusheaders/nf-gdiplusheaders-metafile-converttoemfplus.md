@@ -52,7 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>Metafile::ConvertToEmfPlus</b> method converts this <a href="https://msdn.microsoft.com/63b057de-9c4d-488e-ad07-ede52f9175a6">Metafile</a> object to the EMF+ format.
+The <b>Metafile::ConvertToEmfPlus</b> method converts this <a href="https://msdn.microsoft.com/en-us/library/ms534477(v=VS.85).aspx">Metafile</a> object to the EMF+ format.
 
 
 ## -parameters
@@ -62,9 +62,9 @@ The <b>Metafile::ConvertToEmfPlus</b> method converts this <a href="https://msdn
 
 ### -param refGraphics [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object whose state (settings for antialiasing, interpolation, and the like) is applied to the records stored in the converted metafile.
+Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object whose state (settings for antialiasing, interpolation, and the like) is applied to the records stored in the converted metafile.
 
 
 ### -param conversionFailureFlag
@@ -74,9 +74,9 @@ Pointer to a <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b1
 
 ### -param emfType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/985c412f-10ba-4ce9-b0e1-89f5b643c22a">EmfType</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534115(v=VS.85).aspx">EmfType</a></b>
 
-Optional. Element of the <a href="https://msdn.microsoft.com/985c412f-10ba-4ce9-b0e1-89f5b643c22a">EmfType</a> enumeration that specifies whether the converted file has the <b>EmfTypeEmfPlusOnly</b> format or the <b>EmfTypeEmfPlusDual</b> format. Do not pass <b>EmfTypeEmfOnly</b>. The default value is <b>EmfTypeEmfPlusOnly</b>.
+Optional. Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534115(v=VS.85).aspx">EmfType</a> enumeration that specifies whether the converted file has the <b>EmfTypeEmfPlusOnly</b> format or the <b>EmfTypeEmfPlusDual</b> format. Do not pass <b>EmfTypeEmfOnly</b>. The default value is <b>EmfTypeEmfPlusOnly</b>.
 
 
 ### -param description [in]
@@ -97,16 +97,16 @@ Optional. Pointer to a <b>BOOL</b> that receives <b>TRUE</b> if all the metafile
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
 </strong>
 
 If the method succeeds, it returns OK, which is an element of the 
 
-						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
 
-						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
 
 
 
@@ -115,7 +115,7 @@ If the method fails, it returns one of the other elements of the
 
 
 
-This method replaces the records originally in the <a href="https://msdn.microsoft.com/63b057de-9c4d-488e-ad07-ede52f9175a6">Metafile</a> object with the converted records. To retain a copy of the original <b>Metafile</b> object, call the <a href="https://msdn.microsoft.com/a22163d0-36fc-4bf3-be21-f39145138a87">Clone</a> method.
+This method replaces the records originally in the <a href="https://msdn.microsoft.com/en-us/library/ms534477(v=VS.85).aspx">Metafile</a> object with the converted records. To retain a copy of the original <b>Metafile</b> object, call the <a href="https://msdn.microsoft.com/en-us/library/ms535367(v=VS.85).aspx">Clone</a> method.
 
 If you set the <i>emfType</i> parameter to <b>EmfTypeEmfPlusDual</b>, the converted metafile contains an Enhanced Metafile (EMF) representation and an EMF+ representation. The EMF representation is the original set of EMF records rather than EMF records converted back from the newly created EMF+ records.
 

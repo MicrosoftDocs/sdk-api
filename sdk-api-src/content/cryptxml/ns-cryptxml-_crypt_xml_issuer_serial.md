@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>CRYPT_XML_ISSUER_SERIAL</b> structure contains an <a href="https://msdn.microsoft.com/28dba6ef-939f-4789-9789-ee6e0fef0177">X.509</a> issued distinguished name–serial number pair.
+The <b>CRYPT_XML_ISSUER_SERIAL</b> structure contains an <a href="https://msdn.microsoft.com/en-us/library/ms721636(v=VS.85).aspx">X.509</a> issued distinguished name–serial number pair.
 
 
 ## -struct-fields

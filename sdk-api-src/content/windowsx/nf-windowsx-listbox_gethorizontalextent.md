@@ -52,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Gets the width that a list box can be scrolled horizontally (the scrollable width) if the list box has a horizontal scroll bar. You can use this macro or send the <a href="https://msdn.microsoft.com/52461724-c06a-436a-ac95-94c5189ba37e">LB_GETHORIZONTALEXTENT</a> message explicitly.
+Gets the width that a list box can be scrolled horizontally (the scrollable width) if the list box has a horizontal scroll bar. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775200(v=VS.85).aspx">LB_GETHORIZONTALEXTENT</a> message explicitly.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ A handle to the control.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/52461724-c06a-436a-ac95-94c5189ba37e">LB_GETHORIZONTALEXTENT</a>.
+For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775200(v=VS.85).aspx">LB_GETHORIZONTALEXTENT</a>.
 	
 
 

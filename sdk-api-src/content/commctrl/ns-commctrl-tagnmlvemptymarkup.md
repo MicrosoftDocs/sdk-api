@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Contains information used with the <a href="https://msdn.microsoft.com/5ea74120-f347-493a-af14-6bda5b8f6082">LVN_GETEMPTYMARKUP</a> notification code. 
+Contains information used with the <a href="https://msdn.microsoft.com/en-us/library/Bb774833(v=VS.85).aspx">LVN_GETEMPTYMARKUP</a> notification code. 
 
 
 
@@ -62,14 +62,14 @@ Contains information used with the <a href="https://msdn.microsoft.com/5ea74120-
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
 Info on the notification message.
 
 
 ### -field dwFlags
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
 
 One of the following values. If <b>NULL</b>, markup is rendered left-justified in the listview area.
 
@@ -94,7 +94,7 @@ Render markup centered in the listview area.
 
 ### -field szMarkup
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WCHAR</a>[L_MAX_URL_LENGTH]</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">WCHAR</a>[L_MAX_URL_LENGTH]</b>
 
 Markup to display.
 

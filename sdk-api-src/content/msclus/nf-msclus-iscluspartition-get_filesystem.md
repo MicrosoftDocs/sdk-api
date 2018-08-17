@@ -59,7 +59,7 @@ req.product: GDI+ 1.1
 
 Returns the 
     name of the file system residing on a 
-    <a href="s_gly.htm">storage class resource</a> partition 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa372937(v=VS.85).aspx">storage class resource</a> partition 
     ("FAT", "NTFS", and so on).
 
 This property is read-only.

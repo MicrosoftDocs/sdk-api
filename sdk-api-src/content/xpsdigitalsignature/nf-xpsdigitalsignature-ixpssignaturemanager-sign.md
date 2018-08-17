@@ -71,7 +71,7 @@ A pointer to the <a href="https://msdn.microsoft.com/71b9b348-1078-4f55-a071-e5e
 
 ### -param x509Certificate [in]
 
-A pointer to the <a href="_crypto2_cert_context">CERT_CONTEXT</a> structure that contains the X.509 certificate to be used for signing.
+A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Aa377189(v=VS.85).aspx">CERT_CONTEXT</a> structure that contains the X.509 certificate to be used for signing.
 
 
 ### -param signature [out, retval]
@@ -164,7 +164,7 @@ This method will succeed  even if the new signature breaks existing signatures.
 
 
 
-<a href="_crypto2_cert_context">CERT_CONTEXT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377189(v=VS.85).aspx">CERT_CONTEXT</a>
 
 
 

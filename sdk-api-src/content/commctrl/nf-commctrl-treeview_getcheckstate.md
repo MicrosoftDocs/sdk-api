@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Gets the check state of the specified item. You can also use the <a href="https://msdn.microsoft.com/89aaaa82-2809-4e4e-a325-5666a57c5cbb">TVM_GETITEMSTATE</a> message directly. 
+Gets the check state of the specified item. You can also use the <a href="https://msdn.microsoft.com/en-us/library/Bb773614(v=VS.85).aspx">TVM_GETITEMSTATE</a> message directly. 
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Gets the check state of the specified item. You can also use the <a href="https:
 
 ### -param hwndTV
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 Handle to the tree-view control. 
 
@@ -77,7 +77,7 @@ Handle to the item.
 
 
 
-A tree-view control can have two image lists. The normal image list stores the selected, nonselected, and overlay images. Check boxes are stored in the state image list and displayed to the left of the corresponding normal image. State images are specified by a one-based index. An index of zero indicates that there is no state image. See <a href="Tree_View_Controls.htm">Tree-View Image Lists</a> for a discussion of how to handle tree-view images. 
+A tree-view control can have two image lists. The normal image list stores the selected, nonselected, and overlay images. Check boxes are stored in the state image list and displayed to the left of the corresponding normal image. State images are specified by a one-based index. An index of zero indicates that there is no state image. See <a href="https://msdn.microsoft.com/en-us/library/Bb760017(v=VS.85).aspx">Tree-View Image Lists</a> for a discussion of how to handle tree-view images. 
 
 If you want to define your own state images, this macro assumes that the checked and unchecked images have the same indexes as the standard image list: 1 for unchecked and 2 for checked. 
 

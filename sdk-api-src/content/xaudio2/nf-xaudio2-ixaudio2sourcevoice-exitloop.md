@@ -100,7 +100,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/116DD0E0-8F0B-4934-A48D-FDBE0D0DF049">IXAudio2SourceVoice</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee415914(v=VS.85).aspx">IXAudio2SourceVoice</a>
  
 
  

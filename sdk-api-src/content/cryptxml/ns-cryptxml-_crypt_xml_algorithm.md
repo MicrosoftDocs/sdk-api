@@ -85,7 +85,7 @@ Optional.  The XML encoded element.
 
 
 
-<a href="https://msdn.microsoft.com/012bad01-228a-4bb0-b883-0c2c7abd9271">Digital Signature Cryptographic Algorithms</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd979768(v=VS.85).aspx">Digital Signature Cryptographic Algorithms</a>
  
 
  

@@ -53,7 +53,7 @@ req.product: Windows Media Format 9 Series or later
 ## -description
 
 
-Outputs the <a href="https://msdn.microsoft.com/02fc6b37-bd8f-4889-96cc-91064d23c9d0">IDXGIAdapter</a> for the specified LUID.
+Outputs the <a href="https://msdn.microsoft.com/en-us/library/Bb174523(v=VS.85).aspx">IDXGIAdapter</a> for the specified LUID.
         
 
 
@@ -76,7 +76,7 @@ A unique value that identifies the adapter.
 
 Type: <b>REFIID</b>
 
-The globally unique identifier (GUID) of the <a href="https://msdn.microsoft.com/02fc6b37-bd8f-4889-96cc-91064d23c9d0">IDXGIAdapter</a> object referenced by the <i>ppvAdapter</i> parameter.
+The globally unique identifier (GUID) of the <a href="https://msdn.microsoft.com/en-us/library/Bb174523(v=VS.85).aspx">IDXGIAdapter</a> object referenced by the <i>ppvAdapter</i> parameter.
           
 
 
@@ -84,7 +84,7 @@ The globally unique identifier (GUID) of the <a href="https://msdn.microsoft.com
 
 Type: <b>void**</b>
 
-The address of an <a href="https://msdn.microsoft.com/02fc6b37-bd8f-4889-96cc-91064d23c9d0">IDXGIAdapter</a> interface pointer to the adapter.
+The address of an <a href="https://msdn.microsoft.com/en-us/library/Bb174523(v=VS.85).aspx">IDXGIAdapter</a> interface pointer to the adapter.
             This parameter must not be NULL.
           
 
@@ -93,10 +93,10 @@ The address of an <a href="https://msdn.microsoft.com/02fc6b37-bd8f-4889-96cc-91
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 Returns S_OK if successful; an error code otherwise.
-            For a list of error codes, see <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a>.
+            For a list of error codes, see <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a>.
             See also Direct3D 12 Return Codes.
           
 
@@ -107,7 +107,7 @@ Returns S_OK if successful; an error code otherwise.
 
 
 
-For Direct3D 12, it's no longer possible to backtrack from a device to the <a href="https://msdn.microsoft.com/02fc6b37-bd8f-4889-96cc-91064d23c9d0">IDXGIAdapter</a> that was used to create it.
+For Direct3D 12, it's no longer possible to backtrack from a device to the <a href="https://msdn.microsoft.com/en-us/library/Bb174523(v=VS.85).aspx">IDXGIAdapter</a> that was used to create it.
           <b>IDXGIFactory4::EnumAdapterByLuid</b>enables an app to retrieve information about the adapter where a D3D12 device was created.
           <b>IDXGIFactory4::EnumAdapterByLuid</b> is designed to be paired with <a href="https://msdn.microsoft.com/006E72E0-AE09-4834-9ACB-D48698050BF2">ID3D12Device::GetAdapterLuid</a>.
           For more information, see <a href="https://msdn.microsoft.com/DEA901EA-B0F9-41D9-802C-ED1D6A7888E0">DXGI 1.4 Improvements</a>.

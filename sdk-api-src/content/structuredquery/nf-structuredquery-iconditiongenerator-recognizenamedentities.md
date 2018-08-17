@@ -52,7 +52,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-Identifies named entities in an input string, and creates a collection containing them. The value of each named entity is expressed as a string, which is then used by <a href="https://msdn.microsoft.com/940107e4-4f80-4eb8-8199-cfdfe989b8eb">IConditionGenerator::GenerateForLeaf</a>. The string can contain any data and be in any format, because it is not examined by any other components.
+Identifies named entities in an input string, and creates a collection containing them. The value of each named entity is expressed as a string, which is then used by <a href="https://msdn.microsoft.com/en-us/library/Bb231379(v=VS.85).aspx">IConditionGenerator::GenerateForLeaf</a>. The string can contain any data and be in any format, because it is not examined by any other components.
 	    
 
 
@@ -79,17 +79,17 @@ The LCID against which named entities should be recognized.
 
 ### -param pTokenCollection [in]
 
-Type: <b><a href="https://msdn.microsoft.com/e7f5b3ce-dae2-41ec-90ff-9ab49e0301bd">ITokenCollection</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb231300(v=VS.85).aspx">ITokenCollection</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/e7f5b3ce-dae2-41ec-90ff-9ab49e0301bd">ITokenCollection</a> object that indicates how the input string was tokenized.
+A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb231300(v=VS.85).aspx">ITokenCollection</a> object that indicates how the input string was tokenized.
             
 
 
 ### -param pNamedEntities [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/0ed17267-38e0-4a01-ab72-fbf1cb860300">INamedEntityCollector</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb231361(v=VS.85).aspx">INamedEntityCollector</a>*</b>
 
-On input, contains an <a href="https://msdn.microsoft.com/0ed17267-38e0-4a01-ab72-fbf1cb860300">INamedEntityCollector</a> or <b>NULL</b>. On return, contains an <b>INamedEntityCollector</b> collection of the named entities.
+On input, contains an <a href="https://msdn.microsoft.com/en-us/library/Bb231361(v=VS.85).aspx">INamedEntityCollector</a> or <b>NULL</b>. On return, contains an <b>INamedEntityCollector</b> collection of the named entities.
             
 
 
@@ -119,31 +119,31 @@ Given an input string, a user locale (typically the user's default locale) and a
 
 
 
-<a href="https://msdn.microsoft.com/5fa88dc1-8ca3-4247-8bad-bba8be2ad734">CONDITION_CREATION_OPTIONS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd797838(v=VS.85).aspx">CONDITION_CREATION_OPTIONS</a>
 
 
 
-<a href="https://msdn.microsoft.com/d1ec553d-f9fb-4039-9121-0f57bac15345">CONDITION_OPERATION</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa965691(v=VS.85).aspx">CONDITION_OPERATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/921cdcb0-2915-4bbe-af4b-3f62c3867ea4">CONDITION_TYPE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa965692(v=VS.85).aspx">CONDITION_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/7b880393-699d-438d-8d45-08fffc9d482f">ICondition</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231395(v=VS.85).aspx">ICondition</a>
 
 
 
-<a href="https://msdn.microsoft.com/32c68ff7-f0f3-40eb-801a-c5c21ec496fa">ICondition2</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd742811(v=VS.85).aspx">ICondition2</a>
 
 
 
-<a href="https://msdn.microsoft.com/c678fa37-8673-4da7-9c23-9a7f478dc1b0">IConditionFactory</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231383(v=VS.85).aspx">IConditionFactory</a>
 
 
 
-<a href="https://msdn.microsoft.com/30fa2fb6-7dfd-41e1-ab4f-5fd80c8a81ec">IConditionGenerator</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231380(v=VS.85).aspx">IConditionGenerator</a>
 
 
 

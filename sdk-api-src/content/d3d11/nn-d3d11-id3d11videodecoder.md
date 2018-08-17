@@ -56,9 +56,9 @@ Represents a hardware-accelerated video decoder for Microsoft Direct3D 11.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11VideoDecoder</b> interface inherits from <a href="https://msdn.microsoft.com/bed17239-0358-4768-8655-9a1d92f25a2e">ID3D11DeviceChild</a>. <b>ID3D11VideoDecoder</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11VideoDecoder</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Ff476380(v=VS.85).aspx">ID3D11DeviceChild</a>. <b>ID3D11VideoDecoder</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>ID3D11VideoDecoder</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6F104317-19C2-4FCB-8CA7-34FD0C237822">GetCreationParameters</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh447769(v=VS.85).aspx">GetCreationParameters</a>
 </td>
 <td align="left" width="63%">
 Gets the parameters that were used to create the decoder.
@@ -80,7 +80,7 @@ Gets the parameters that were used to create the decoder.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/CD9A46DB-C16D-4DF4-972B-2CE8398CEE98">GetDriverHandle</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh447780(v=VS.85).aspx">GetDriverHandle</a>
 </td>
 <td align="left" width="63%">
 Gets a handle to the driver.
@@ -94,7 +94,7 @@ Gets a handle to the driver.
 
 
 
-To get a pointer to this interface, call <a href="https://msdn.microsoft.com/7EC2C7C3-F2EB-4357-BD53-308ABFFC9BE8">ID3D11VideoDevice::CreateVideoDecoder</a>.
+To get a pointer to this interface, call <a href="https://msdn.microsoft.com/en-us/library/Hh447786(v=VS.85).aspx">ID3D11VideoDevice::CreateVideoDecoder</a>.
 
 
 
@@ -104,11 +104,11 @@ To get a pointer to this interface, call <a href="https://msdn.microsoft.com/7EC
 
 
 
-<a href="https://msdn.microsoft.com/2AE97FFE-0FA4-4CC0-8433-7BA46BCACE30">Direct3D 11 Video Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh447679(v=VS.85).aspx">Direct3D 11 Video Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/bed17239-0358-4768-8655-9a1d92f25a2e">ID3D11DeviceChild</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476380(v=VS.85).aspx">ID3D11DeviceChild</a>
  
 
  

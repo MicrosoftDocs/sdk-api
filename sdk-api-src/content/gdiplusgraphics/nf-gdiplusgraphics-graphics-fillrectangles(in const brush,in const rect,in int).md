@@ -54,9 +54,9 @@ req.product: GDI+ 1.0
 
 <span>This topic lists the 
 FillRectangles methods of the 
-<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> class. For a complete list of methods for the 
+<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> class. For a complete list of methods for the 
 <b>Graphics</b> class, see 
-<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>. 
+<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>. 
 
 
 </span><h3>Overload list</h3><table>
@@ -66,19 +66,19 @@ FillRectangles methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/d0ef891e-7454-4c75-a817-62e5700576ef">FillRectangles(Brush*,Rect*,INT)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535952(v=VS.85).aspx">FillRectangles(Brush*,Rect*,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/d0ef891e-7454-4c75-a817-62e5700576ef">Graphics::FillRectangles</a> method uses a brush to fill the interior of a sequence of rectangles.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535952(v=VS.85).aspx">Graphics::FillRectangles</a> method uses a brush to fill the interior of a sequence of rectangles.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6624bdf9-20c4-42f3-a52e-62455ee1e573">FillRectangles(Brush*,RectF*,INT)</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms535953(v=VS.85).aspx">FillRectangles(Brush*,RectF*,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/6624bdf9-20c4-42f3-a52e-62455ee1e573">Graphics::FillRectangles</a> method uses a brush to fill the interior of a sequence of rectangles.
+The <a href="https://msdn.microsoft.com/en-us/library/ms535953(v=VS.85).aspx">Graphics::FillRectangles</a> method uses a brush to fill the interior of a sequence of rectangles.
 
 </td>
 </tr>

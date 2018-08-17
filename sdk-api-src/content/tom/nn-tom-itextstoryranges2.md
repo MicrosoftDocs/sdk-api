@@ -52,11 +52,11 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-The <b>ITextStoryRanges2</b> interface enumerates the stories in an <a href="https://msdn.microsoft.com/0c3f161f-f6d3-44b9-b041-1b682d1915af">ITextDocument</a>.
+The <b>ITextStoryRanges2</b> interface enumerates the stories in an <a href="https://msdn.microsoft.com/en-us/library/Bb774052(v=VS.85).aspx">ITextDocument</a>.
 
-You get a pointer to an <b>ITextStoryRanges2</b> collection by using the <a href="https://msdn.microsoft.com/e542bd10-228a-4d9a-bd62-c721e56c6369">ITextDocument::GetStoryRanges</a> method. Each story obtained from this collection is represented by an <a href="https://msdn.microsoft.com/905f0967-8b99-45ed-a1cc-19d49e919a65">ITextRange2</a> object that covers the whole story. 
+You get a pointer to an <b>ITextStoryRanges2</b> collection by using the <a href="https://msdn.microsoft.com/en-us/library/Bb774029(v=VS.85).aspx">ITextDocument::GetStoryRanges</a> method. Each story obtained from this collection is represented by an <a href="https://msdn.microsoft.com/905f0967-8b99-45ed-a1cc-19d49e919a65">ITextRange2</a> object that covers the whole story. 
 
-A Text Object Model (TOM) implementation that has only a single story doesn't need to implement the <b>ITextStoryRanges2</b> interface. An implementation of this interface should only retrieve a stories collection if <a href="https://msdn.microsoft.com/6a9d865c-8710-4e67-bf1a-10d09f81488c">ITextDocument::GetStoryCount</a> returns a story count greater than one. 
+A Text Object Model (TOM) implementation that has only a single story doesn't need to implement the <b>ITextStoryRanges2</b> interface. An implementation of this interface should only retrieve a stories collection if <a href="https://msdn.microsoft.com/en-us/library/Bb774027(v=VS.85).aspx">ITextDocument::GetStoryCount</a> returns a story count greater than one. 
 
 
 ## -inheritance

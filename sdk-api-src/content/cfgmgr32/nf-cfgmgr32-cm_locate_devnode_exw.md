@@ -53,9 +53,9 @@ req.irql:
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://msdn.microsoft.com/b0bb2510-44be-4598-96ea-9b8fdcc7f7c6">CM_Locate_DevNode</a> instead.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://msdn.microsoft.com/en-us/library/Ff538742(v=VS.85).aspx">CM_Locate_DevNode</a> instead.]
 
-The <b>CM_Locate_DevNode_Ex</b> function obtains a device instance handle to the device node that is associated with a specified <a href="devinst.device_instance_ids">device instance ID</a>, on a local machine or a remote machine.
+The <b>CM_Locate_DevNode_Ex</b> function obtains a device instance handle to the device node that is associated with a specified <a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">device instance ID</a>, on a local machine or a remote machine.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ A pointer to the device instance handle that this function retrieves. The retrie
 
 ### -param pDeviceID [in, optional]
 
-A pointer to a NULL-terminated string representing a <a href="devinst.device_instance_ids">device instance ID</a>. If this value is <b>NULL</b>, or if it points to a zero-length string, the function supplies a device instance handle to the device at the root of the <a href="https://msdn.microsoft.com/3220389a-06cc-4a43-8164-b785d1a16365">device tree</a>.
+A pointer to a NULL-terminated string representing a <a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">device instance ID</a>. If this value is <b>NULL</b>, or if it points to a zero-length string, the function supplies a device instance handle to the device at the root of the <a href="https://msdn.microsoft.com/3220389a-06cc-4a43-8164-b785d1a16365">device tree</a>.
 
 
 ### -param ulFlags [in]
@@ -106,7 +106,7 @@ Not used.
 
 ### -param hMachine [in, optional]
 
-A machine handle obtained from a call to <a href="https://msdn.microsoft.com/4108a35f-0861-4142-a798-731287515910">CM_Connect_Machine</a>, or a machine handle to which a device information set is bound. The machine handle for a device information set is obtained from the <b>RemoteMachineHandle</b> member of the <a href="https://msdn.microsoft.com/03e6c137-5a7f-443d-878f-5e5c6642dde9">SP_DEVINFO_LIST_DETAIL_DATA</a> structure for the device information set. Call <a href="https://msdn.microsoft.com/3f624882-9ccc-4be1-92aa-8bba9f0022ea">SetupDiGetDeviceInfoListDetail</a> to obtain an SP_DEVINFO_LIST_DETAIL_DATA structure.
+A machine handle obtained from a call to <a href="https://msdn.microsoft.com/en-us/library/Ff537948(v=VS.85).aspx">CM_Connect_Machine</a>, or a machine handle to which a device information set is bound. The machine handle for a device information set is obtained from the <b>RemoteMachineHandle</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Ff552345(v=VS.85).aspx">SP_DEVINFO_LIST_DETAIL_DATA</a> structure for the device information set. Call <a href="https://msdn.microsoft.com/en-us/library/Ff551103(v=VS.85).aspx">SetupDiGetDeviceInfoListDetail</a> to obtain an SP_DEVINFO_LIST_DETAIL_DATA structure.
 
 <div class="alert"><b>Note</b>  Using this function to access remote machines is not supported beginning with Windows 8 and Windows Server 2012, as this functionality has been removed.</div>
 <div> </div>
@@ -124,7 +124,7 @@ If the operation succeeds, <b>CM_Locate_DevNode</b> returns CR_SUCCESS. Otherwis
 
 
 
-For information about using device instance handles that are bound to a local or a remote machine, see <a href="https://msdn.microsoft.com/bcd46252-6f87-4d49-a24c-81789b0148d9">CM_Get_Child_Ex</a>.
+For information about using device instance handles that are bound to a local or a remote machine, see <a href="https://msdn.microsoft.com/en-us/library/Ff538076(v=VS.85).aspx">CM_Get_Child_Ex</a>.
 
  Functionality to access remote machines has been removed in Windows 8 and Windows Server 2012 and later operating systems thus you cannot access remote machines when running on these versions of Windows.
 
@@ -136,11 +136,11 @@ For information about using device instance handles that are bound to a local or
 
 
 
-<a href="https://msdn.microsoft.com/bcd46252-6f87-4d49-a24c-81789b0148d9">CM_Get_Child_Ex</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff538076(v=VS.85).aspx">CM_Get_Child_Ex</a>
 
 
 
-<a href="https://msdn.microsoft.com/b0bb2510-44be-4598-96ea-9b8fdcc7f7c6">CM_Locate_DevNode</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff538742(v=VS.85).aspx">CM_Locate_DevNode</a>
  
 
  

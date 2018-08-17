@@ -50,48 +50,48 @@ req.irql:
 ## -description
 
 
-The <b>IObjectId</b> interface represents an <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID). OIDs are returned from numerous Certificate Enrollment API properties, and they  can be used to initialize the following objects:<ul>
+The <b>IObjectId</b> interface represents an <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> (OID). OIDs are returned from numerous Certificate Enrollment API properties, and they  can be used to initialize the following objects:<ul>
 <li>
-<a href="https://msdn.microsoft.com/2a6cfda8-b3cb-4a0f-bb65-b182c16207be">IAlternativeName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa374981(v=VS.85).aspx">IAlternativeName</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/2162de70-edcc-4f01-807d-79ff200d0016">ICertificatePolicy</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375225(v=VS.85).aspx">ICertificatePolicy</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/2aefde1b-0f77-4a88-8851-5bacd363900b">ICryptAttribute</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375929(v=VS.85).aspx">ICryptAttribute</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/3cfbb16f-88fa-41f1-b719-cd5e8ad636cc">ISmimeCapability</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377045(v=VS.85).aspx">ISmimeCapability</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/20965768-2c6b-488a-ab7c-5e0f6f28ac9b">IX509Attribute</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377058(v=VS.85).aspx">IX509Attribute</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/b42111e9-e39e-4192-9aba-47403fb627dc">IX509AttributeArchiveKey</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377059(v=VS.85).aspx">IX509AttributeArchiveKey</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/f04e3f63-c826-4401-a1c8-b2614e0dc374">IX509Extension</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa378077(v=VS.85).aspx">IX509Extension</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/0b9606d0-351c-4d2d-b876-545a9c2cf916">IX509ExtensionEnhancedKeyUsage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa378132(v=VS.85).aspx">IX509ExtensionEnhancedKeyUsage</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/2ac24ee9-f31f-4501-a4f0-321580ec2fa9">IX509ExtensionTemplate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa378274(v=VS.85).aspx">IX509ExtensionTemplate</a>
 </li>
 </ul>
 
 
-All of the methods used to initialize an <b>IObjectId</b> object call the CryptoAPI <a href="https://msdn.microsoft.com/87acf207-d109-4173-9530-8cbbebb473b2">CryptFindOIDInfo</a> function which retrieves the first registered <a href="https://msdn.microsoft.com/06ba0f60-778d-450b-8f71-23471b8c4e2c">CRYPT_OID_INFO</a> structure that matches the specified parameters. The function searches the registry and static memory on the local computer and Active Directory on the domain server. The  <b>CRYPT_OID_INFO</b> structure is declared in Wincrypt.h and has the following signature.<div class="alert"><b>Note</b>  You cannot use the <a href="https://msdn.microsoft.com/06ba0f60-778d-450b-8f71-23471b8c4e2c">CRYPT_OID_INFO</a> structure directly in the Certificate Enrollment API.</div>
+All of the methods used to initialize an <b>IObjectId</b> object call the CryptoAPI <a href="https://msdn.microsoft.com/en-us/library/Aa379938(v=VS.85).aspx">CryptFindOIDInfo</a> function which retrieves the first registered <a href="https://msdn.microsoft.com/en-us/library/Aa381435(v=VS.85).aspx">CRYPT_OID_INFO</a> structure that matches the specified parameters. The function searches the registry and static memory on the local computer and Active Directory on the domain server. The  <b>CRYPT_OID_INFO</b> structure is declared in Wincrypt.h and has the following signature.<div class="alert"><b>Note</b>  You cannot use the <a href="https://msdn.microsoft.com/en-us/library/Aa381435(v=VS.85).aspx">CRYPT_OID_INFO</a> structure directly in the Certificate Enrollment API.</div>
 <div> </div>
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectId</b> interface inherits from the <a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IObjectId</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IObjectId</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IObjectId</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Properties</a></li>
 </ul>
 
 ## -members
@@ -104,7 +104,7 @@ The <b>IObjectId</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/3d24d658-1016-4e63-8d93-5db0a3144121">GetAlgorithmName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa965697(v=VS.85).aspx">GetAlgorithmName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the display name associated with an algorithm object identifier.
@@ -113,7 +113,7 @@ Retrieves the display name associated with an algorithm object identifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/ba8c1f11-9380-43a9-b444-b0fff114a176">InitializeFromAlgorithmName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa376796(v=VS.85).aspx">InitializeFromAlgorithmName</a>
 </td>
 <td align="left" width="63%">
 Initializes the object from an algorithm name or an object identifier.
@@ -124,10 +124,10 @@ Initializes the object from an algorithm name or an object identifier.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dce84308-aecc-4841-88da-e948313b90b3">InitializeFromName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa376797(v=VS.85).aspx">InitializeFromName</a>
 </td>
 <td align="left" width="63%">
-Initializes the object from a  <a href="https://msdn.microsoft.com/30e8c740-854b-409f-a138-3871df305708">CERTENROLL_OBJECTID</a> enumeration value.
+Initializes the object from a  <a href="https://msdn.microsoft.com/en-us/library/Aa374855(v=VS.85).aspx">CERTENROLL_OBJECTID</a> enumeration value.
 
 [WebEnabled]
 
@@ -135,7 +135,7 @@ Initializes the object from a  <a href="https://msdn.microsoft.com/30e8c740-854b
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2bb2ee69-02c3-41b9-a67b-036c7154a44e">InitializeFromValue</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa376798(v=VS.85).aspx">InitializeFromValue</a>
 </td>
 <td align="left" width="63%">
 Initializes the object from a string that contains a dotted decimal object identifier.
@@ -155,7 +155,7 @@ Initializes the object from a string that contains a dotted decimal object ident
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/9360f652-afeb-4f30-a423-402f397b9255">FriendlyName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa376795(v=VS.85).aspx">FriendlyName</a>
 
 
 </td>
@@ -182,14 +182,14 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Retrieves a <a href="https://msdn.microsoft.com/30e8c740-854b-409f-a138-3871df305708">CERTENROLL_OBECTID</a> value that contains an object identifier.
+Retrieves a <a href="https://msdn.microsoft.com/en-us/library/Aa374855(v=VS.85).aspx">CERTENROLL_OBECTID</a> value that contains an object identifier.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn923306">Value</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh449625(v=VS.85).aspx">Value</a>
 
 
 </td>
@@ -212,15 +212,15 @@ Retrieves a string that contains the dotted decimal object identifier.
 
 
 
-<a href="https://msdn.microsoft.com/d49511ed-8651-457e-a102-0bea4edde24c">CertEnroll Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa374850(v=VS.85).aspx">CertEnroll Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/f376a33e-005b-4810-9a26-b642236ff7af">IObjectIds</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa376785(v=VS.85).aspx">IObjectIds</a>
  
 
  

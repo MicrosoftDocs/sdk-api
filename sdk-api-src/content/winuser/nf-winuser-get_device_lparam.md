@@ -88,7 +88,7 @@ This macro is identical to the <a href="https://msdn.microsoft.com/e21789b8-bc85
 
 
 
-<a href="https://msdn.microsoft.com/35f5e1ad-74d5-41bb-9016-b1c5de449550">Mouse Input</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645533(v=VS.85).aspx">Mouse Input</a>
 
 
 

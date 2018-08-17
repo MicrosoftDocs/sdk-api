@@ -59,7 +59,7 @@ req.product: GDI+ 1.1
     unavailable in subsequent versions.]
 
 Returns the number of objects in the collection (the number of 
-    <a href="p_gly.htm">possible owner</a>
+    <a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">possible owner</a>
 <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">nodes</a> listed for a 
     <a href="https://msdn.microsoft.com/d02e4f51-7b86-451a-a51c-ea850ae464d1">resource type</a>).
 

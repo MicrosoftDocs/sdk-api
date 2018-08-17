@@ -51,5 +51,5 @@ req.irql:
 ## -description
 
 
-The <b>IAzOperation2</b> interface extends the <a href="https://msdn.microsoft.com/054fa4aa-70be-4618-a635-3941c830ea4e">IAzOperation</a> with a method that returns the role assignments associated with the operation.
+The <b>IAzOperation2</b> interface extends the <a href="https://msdn.microsoft.com/en-us/library/Aa377899(v=VS.85).aspx">IAzOperation</a> with a method that returns the role assignments associated with the operation.
 

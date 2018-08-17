@@ -135,7 +135,7 @@ The pointers retrieved by <b>GetBuffer</b> should not be used after
 
 
 
-<a href="coreaudio.ispatialaudioobjectbase">ISpatialAudioObjectBase</a>
+<a href="https://msdn.microsoft.com/library/Mt829727(v=VS.85).aspx">ISpatialAudioObjectBase</a>
  
 
  

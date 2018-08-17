@@ -142,8 +142,8 @@ The <i>ppElements</i> parameter is not a valid pointer.
 
 
 
-TAPI calls the <a href="_com_iunknown_addref">AddRef</a> method on the 
-<a href="https://msdn.microsoft.com/f9226af1-90e7-4317-af73-e1563883e2b6">ITPluggableTerminalSuperclassInfo</a> interface returned by <b>IEnumPluggableSuperclassInfo::Next</b>. The application must call <a href="_com_iunknown_release">Release</a> on the <a href="https://msdn.microsoft.com/80b84976-4256-47d2-a965-3ebe89a3821a">IEnumPluggableSuperclassInfo</a> interface to free resources associated with it.
+TAPI calls the <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method on the 
+<a href="https://msdn.microsoft.com/f9226af1-90e7-4317-af73-e1563883e2b6">ITPluggableTerminalSuperclassInfo</a> interface returned by <b>IEnumPluggableSuperclassInfo::Next</b>. The application must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on the <a href="https://msdn.microsoft.com/80b84976-4256-47d2-a965-3ebe89a3821a">IEnumPluggableSuperclassInfo</a> interface to free resources associated with it.
 
 
 

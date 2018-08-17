@@ -63,7 +63,7 @@ Starts the decoding operation.
 
 ### -param pRenderTarget [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/312eee39-6a5c-46b6-b145-78d5f0f9eecd">IDirect3DSurface9</a> interface of the render target where the decoded frame will be written.
+Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a> interface of the render target where the decoded frame will be written.
 
 
 ### -param pvPVPData [in]

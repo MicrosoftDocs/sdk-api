@@ -61,7 +61,7 @@ Tries to invert the specified matrix.
 
 ### -param matrix [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368132(v=VS.85).aspx">D2D1_MATRIX_3X2_F</a>*</b>
 
 The matrix to invert.
 

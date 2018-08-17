@@ -53,14 +53,14 @@ req.irql:
 
 The <b>ITfFnBalloon</b> interface is implemented by a text service and is used by an application or other text service to update the balloon item that the text service adds to the language bar.
 
-An application or text service obtains an instance of this interface by calling <a href="https://msdn.microsoft.com/b320790a-4b54-4475-97e6-e59f083cfc09">ITfThreadMgr::GetFunctionProvider</a> with the class identifier of the text service and then calling <a href="https://msdn.microsoft.com/a8ec629a-9ac6-4f25-82f2-42af6ce52ddc">ITfFunctionProvider::GetFunction</a> with GUID_NULL and IID_ITfFnBalloon.
+An application or text service obtains an instance of this interface by calling <a href="https://msdn.microsoft.com/en-us/library/ms628986(v=VS.85).aspx">ITfThreadMgr::GetFunctionProvider</a> with the class identifier of the text service and then calling <a href="https://msdn.microsoft.com/en-us/library/ms538981(v=VS.85).aspx">ITfFunctionProvider::GetFunction</a> with GUID_NULL and IID_ITfFnBalloon.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnBalloon</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfFnBalloon</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnBalloon</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ITfFnBalloon</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -73,7 +73,7 @@ The <b>ITfFnBalloon</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b395d587-02a7-496e-8bfd-8fcaba2a3edc">UpdateBalloon</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms538923(v=VS.85).aspx">UpdateBalloon</a>
 </td>
 <td align="left" width="63%">
 Changes the style and text of a language bar balloon item.
@@ -88,15 +88,15 @@ Changes the style and text of a language bar balloon item.
 
 
 
-<a href="https://msdn.microsoft.com/a8ec629a-9ac6-4f25-82f2-42af6ce52ddc">ITfFunctionProvider::GetFunction</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms538981(v=VS.85).aspx">ITfFunctionProvider::GetFunction</a>
 
 
 
-<a href="https://msdn.microsoft.com/b320790a-4b54-4475-97e6-e59f083cfc09">ITfThreadMgr::GetFunctionProvider</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms628986(v=VS.85).aspx">ITfThreadMgr::GetFunctionProvider</a>
 
 
 
-<a href="_COM_IUnknown">IUnknown</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
  
 
  

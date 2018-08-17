@@ -88,7 +88,7 @@ Starting with Microsoft Windows XP Tablet PC Edition 2005, the Tablet PC Input P
 
 
 
-<a href="tablet.ipeninputpanel">IPenInputPanel</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846809(v=VS.85).aspx">IPenInputPanel</a>
 
 
 

@@ -61,7 +61,7 @@ Contains the center point, x-radius, and y-radius of an ellipse.
 
 ### -field point
 
-Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368140(v=VS.85).aspx">D2D1_POINT_2F</a></b>
 
 The center point of the ellipse.
 
@@ -85,7 +85,7 @@ The Y-radius of the ellipse.
 
 
 
-<a href="https://msdn.microsoft.com/8a68fc3f-118c-447b-856c-05417ae4ef29">How to Draw and Fill a Basic Shape</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd756683(v=VS.85).aspx">How to Draw and Fill a Basic Shape</a>
  
 
  

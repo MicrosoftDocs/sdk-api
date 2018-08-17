@@ -61,14 +61,14 @@ Contains the gradient origin offset and the size and position of the gradient el
 
 ### -field center
 
-Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368140(v=VS.85).aspx">D2D1_POINT_2F</a></b>
 
 In the brush's coordinate space, the center of the gradient ellipse.
 
 
 ### -field gradientOriginOffset
 
-Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368140(v=VS.85).aspx">D2D1_POINT_2F</a></b>
 
 In the brush's coordinate space, the offset of the gradient origin relative to the gradient ellipse's center.
 
@@ -95,12 +95,12 @@ Different values for <i>center</i>,  <i>gradientOriginOffset</i>,  <i>radiusX</i
 
 <img alt="Illustration of four circles with radial gradients that have different origin offsets" src="./images/RadialGradient.png"/>
 
-For convenience, Direct2D provides the <a href="https://msdn.microsoft.com/d65ee26c-28d4-4b58-9089-1aab959246cc">D2D1::RadialGradientBrushProperties</a> function for creating new <b>D2D1_RADIAL_GRADIENT_BRUSH</b> structures.
+For convenience, Direct2D provides the <a href="https://msdn.microsoft.com/en-us/library/Dd372341(v=VS.85).aspx">D2D1::RadialGradientBrushProperties</a> function for creating new <b>D2D1_RADIAL_GRADIENT_BRUSH</b> structures.
 
 
 #### Examples
 
-The following example calls <a href="https://msdn.microsoft.com/985a4c1b-d29b-46ed-bc55-6dcd313718a8">CreateRadialGradientBrush</a> to create an <a href="https://msdn.microsoft.com/21ed2286-e4df-4b77-ba31-e5d5927e16f5">ID2D1RadialGradientBrush</a>. It uses the <a href="https://msdn.microsoft.com/d65ee26c-28d4-4b58-9089-1aab959246cc">D2D1::RadialGradientBrushProperties</a> helper function to create a <b>D2D1_RADIAL_GRADIENT_BRUSH</b> structure that has a <i>center</i> value of (75, 5), a <i>gradientOriginOffset</i> of (0, 0), and a <i>radiusX</i> and <i>radiusY</i> of to 75 and passes the structure to the <b>CreateRadialGradientBrush</b> method.   When the gradient brush is used to fill a rectangle, it produces output as shown in the following illustration.
+The following example calls <a href="https://msdn.microsoft.com/en-us/library/Dd742842(v=VS.85).aspx">CreateRadialGradientBrush</a> to create an <a href="https://msdn.microsoft.com/21ed2286-e4df-4b77-ba31-e5d5927e16f5">ID2D1RadialGradientBrush</a>. It uses the <a href="https://msdn.microsoft.com/en-us/library/Dd372341(v=VS.85).aspx">D2D1::RadialGradientBrushProperties</a> helper function to create a <b>D2D1_RADIAL_GRADIENT_BRUSH</b> structure that has a <i>center</i> value of (75, 5), a <i>gradientOriginOffset</i> of (0, 0), and a <i>radiusX</i> and <i>radiusY</i> of to 75 and passes the structure to the <b>CreateRadialGradientBrush</b> method.   When the gradient brush is used to fill a rectangle, it produces output as shown in the following illustration.
 
 <img alt="Illustration of a circle with a radial gradient brush" src="./images/brushes_ovw_radials.png"/>
 
@@ -128,7 +128,7 @@ if (SUCCEEDED(hr))
 </td>
 </tr>
 </table></span></div>
-For more information about radial gradient brushes, see the <a href="https://msdn.microsoft.com/663743c9-16e9-4e3a-90b2-883ef0b8d5cf">How to Create a Radial Gradient Brush</a> topic and the <a href="https://msdn.microsoft.com/7a31d9e7-0521-40ee-b2c1-592dfaf5301e">Brushes Overview</a>.
+For more information about radial gradient brushes, see the <a href="https://msdn.microsoft.com/en-us/library/Dd756679(v=VS.85).aspx">How to Create a Radial Gradient Brush</a> topic and the <a href="https://msdn.microsoft.com/en-us/library/Dd756651(v=VS.85).aspx">Brushes Overview</a>.
 
 <div class="code"></div>
 
@@ -139,15 +139,15 @@ For more information about radial gradient brushes, see the <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/7a31d9e7-0521-40ee-b2c1-592dfaf5301e">Brushes Overview</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd756651(v=VS.85).aspx">Brushes Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/d65ee26c-28d4-4b58-9089-1aab959246cc">D2D1::RadialGradientBrushProperties</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd372341(v=VS.85).aspx">D2D1::RadialGradientBrushProperties</a>
 
 
 
-<a href="https://msdn.microsoft.com/663743c9-16e9-4e3a-90b2-883ef0b8d5cf">How to Create a Radial Gradient Brush</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd756679(v=VS.85).aspx">How to Create a Radial Gradient Brush</a>
 
 
 

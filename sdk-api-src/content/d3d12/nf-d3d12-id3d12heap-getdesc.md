@@ -65,9 +65,9 @@ Gets the heap description.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/3A473476-F37E-4F01-B121-87E998EE9411">D3D12_HEAP_DESC</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn770371(v=VS.85).aspx">D3D12_HEAP_DESC</a></b>
 
-Returns the <a href="https://msdn.microsoft.com/3A473476-F37E-4F01-B121-87E998EE9411">D3D12_HEAP_DESC</a> structure that describes the heap.
+Returns the <a href="https://msdn.microsoft.com/en-us/library/Dn770371(v=VS.85).aspx">D3D12_HEAP_DESC</a> structure that describes the heap.
 
 
 
@@ -77,7 +77,7 @@ Returns the <a href="https://msdn.microsoft.com/3A473476-F37E-4F01-B121-87E998EE
 
 
 
-<a href="https://msdn.microsoft.com/3791C64F-76D7-4580-A444-F2CEA3EB10CE">ID3D12Heap</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn788687(v=VS.85).aspx">ID3D12Heap</a>
  
 
  

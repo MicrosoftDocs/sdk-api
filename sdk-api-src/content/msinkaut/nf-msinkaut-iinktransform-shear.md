@@ -129,7 +129,7 @@ The transformation applied in this method is a pure shear only if one of the par
 
 
 
-<a href="tablet.iinktransform">IInkTransform</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt846808(v=VS.85).aspx">IInkTransform</a>
 
 
 

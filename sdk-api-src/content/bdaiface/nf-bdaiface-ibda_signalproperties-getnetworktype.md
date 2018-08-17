@@ -84,11 +84,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/fe88b628-7959-4d2f-981f-7de9126146f6">IBDA_SignalProperties Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693425(v=VS.85).aspx">IBDA_SignalProperties Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/e92fa253-7e00-457f-805e-ed13bca84254">PutNetworkType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693429(v=VS.85).aspx">PutNetworkType</a>
  
 
  

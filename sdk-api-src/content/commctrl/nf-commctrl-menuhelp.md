@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Processes <a href="https://msdn.microsoft.com/57684a19-dfaa-4e0c-a8ff-010533322cb0">WM_MENUSELECT</a> and <a href="https://msdn.microsoft.com/5516098e-fd90-49c8-afb0-78164b028376">WM_COMMAND</a> messages and displays Help text about the current menu in the specified status window.
+Processes <a href="https://msdn.microsoft.com/en-us/library/ms646352(v=VS.85).aspx">WM_MENUSELECT</a> and <a href="https://msdn.microsoft.com/en-us/library/ms647591(v=VS.85).aspx">WM_COMMAND</a> messages and displays Help text about the current menu in the specified status window.
 
 
 ## -parameters
@@ -61,14 +61,14 @@ Processes <a href="https://msdn.microsoft.com/57684a19-dfaa-4e0c-a8ff-010533322c
 
 ### -param uMsg
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
-Message being processed. This can be either <a href="https://msdn.microsoft.com/57684a19-dfaa-4e0c-a8ff-010533322cb0">WM_MENUSELECT</a> or <a href="https://msdn.microsoft.com/5516098e-fd90-49c8-afb0-78164b028376">WM_COMMAND</a>. 
+Message being processed. This can be either <a href="https://msdn.microsoft.com/en-us/library/ms646352(v=VS.85).aspx">WM_MENUSELECT</a> or <a href="https://msdn.microsoft.com/en-us/library/ms647591(v=VS.85).aspx">WM_COMMAND</a>. 
 
 
 ### -param wParam
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">WPARAM</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">WPARAM</a></b>
 
 wParam of the message specified in 
 					<i>uMsg</i>. 
@@ -76,7 +76,7 @@ wParam of the message specified in
 
 ### -param lParam
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPARAM</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPARAM</a></b>
 
 lParam of the message specified in 
 					<i>uMsg</i>. 
@@ -123,7 +123,7 @@ No return value.
 
 
 
-The <b>MenuHelp</b> function is a helper function. Helper functions are available as a convenience to programming. They combine into one call a sequence of frequently used calls. You use <b>MenuHelp</b> to send <a href="https://msdn.microsoft.com/57684a19-dfaa-4e0c-a8ff-010533322cb0">WM_MENUSELECT</a> and <a href="https://msdn.microsoft.com/5516098e-fd90-49c8-afb0-78164b028376">WM_COMMAND</a> messages.
+The <b>MenuHelp</b> function is a helper function. Helper functions are available as a convenience to programming. They combine into one call a sequence of frequently used calls. You use <b>MenuHelp</b> to send <a href="https://msdn.microsoft.com/en-us/library/ms646352(v=VS.85).aspx">WM_MENUSELECT</a> and <a href="https://msdn.microsoft.com/en-us/library/ms647591(v=VS.85).aspx">WM_COMMAND</a> messages.
 		
 
 

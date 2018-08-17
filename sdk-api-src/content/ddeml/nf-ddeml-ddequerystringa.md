@@ -65,14 +65,14 @@ Copies text associated with a string handle into a buffer.
 
 Type: <b>DWORD</b>
 
-The application instance identifier obtained by a previous call to the <a href="https://msdn.microsoft.com/ea679d2b-8c03-4706-b6a8-37a99c6d61d1">DdeInitialize</a> function. 
+The application instance identifier obtained by a previous call to the <a href="https://msdn.microsoft.com/en-us/library/ms648757(v=VS.85).aspx">DdeInitialize</a> function. 
 
 
 ### -param hsz [in]
 
 Type: <b>HSZ</b>
 
-A handle to the string to copy. This handle must have been created by a previous call to the <a href="https://msdn.microsoft.com/561bbf80-cc73-4fe1-ba95-837d515834eb">DdeCreateStringHandle</a> function. 
+A handle to the string to copy. This handle must have been created by a previous call to the <a href="https://msdn.microsoft.com/en-us/library/ms648748(v=VS.85).aspx">DdeCreateStringHandle</a> function. 
 
 
 ### -param psz [out, optional]
@@ -138,23 +138,23 @@ If the
 
 
 
-<a href="https://msdn.microsoft.com/87586deb-7862-4a52-8787-cb14edc4e053">DdeCmpStringHandles</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648744(v=VS.85).aspx">DdeCmpStringHandles</a>
 
 
 
-<a href="https://msdn.microsoft.com/561bbf80-cc73-4fe1-ba95-837d515834eb">DdeCreateStringHandle</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648748(v=VS.85).aspx">DdeCreateStringHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/93228467-345b-4ff1-942e-2d75a53bce65">DdeFreeStringHandle</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648753(v=VS.85).aspx">DdeFreeStringHandle</a>
 
 
 
-<a href="https://msdn.microsoft.com/ea679d2b-8c03-4706-b6a8-37a99c6d61d1">DdeInitialize</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648757(v=VS.85).aspx">DdeInitialize</a>
 
 
 
-<a href="https://msdn.microsoft.com/f22d4a10-58b9-4f62-bbc3-3cbeb3246923">Dynamic Data Exchange Management Library</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648712(v=VS.85).aspx">Dynamic Data Exchange Management Library</a>
 
 
 

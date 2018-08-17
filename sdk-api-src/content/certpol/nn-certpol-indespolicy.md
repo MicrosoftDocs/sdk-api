@@ -56,9 +56,9 @@ The NDES Policy Module Interface.  When installed against an enterprise CA, NDES
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INDESPolicy</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>INDESPolicy</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">INDESPolicy</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>INDESPolicy</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>INDESPolicy</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e09ef64c-5b4c-41ef-942a-1080cd566a5b">GenerateChallenge</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn383667(v=VS.85).aspx">GenerateChallenge</a>
 </td>
 <td align="left" width="63%">
 Performs the policy decision whether to issue a challenge password to the SCEP client.
@@ -80,7 +80,7 @@ Performs the policy decision whether to issue a challenge password to the SCEP c
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/654b4e1d-f717-459a-bbf5-dcc733756608">Initialize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn383668(v=VS.85).aspx">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the NDES policy module.
@@ -89,7 +89,7 @@ Initializes the NDES policy module.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/dcb1c006-c709-4879-a9bf-8d441d26db8d">Notify</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn383670(v=VS.85).aspx">Notify</a>
 </td>
 <td align="left" width="63%">
 Notifies the plug-in of the transaction status of the SCEP certificate request.
@@ -98,7 +98,7 @@ Notifies the plug-in of the transaction status of the SCEP certificate request.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/47e9f422-a46a-486f-bbed-94dcd04b7f65">Uninitialize</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn383671(v=VS.85).aspx">Uninitialize</a>
 </td>
 <td align="left" width="63%">
 Uninitializes the NDES policy module.
@@ -107,7 +107,7 @@ Uninitializes the NDES policy module.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/420ef521-07ff-466c-a3c2-cbffd896ca16">VerifyRequest</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn383672(v=VS.85).aspx">VerifyRequest</a>
 </td>
 <td align="left" width="63%">
 Verifies the NDES certificate request for submission to the CA.

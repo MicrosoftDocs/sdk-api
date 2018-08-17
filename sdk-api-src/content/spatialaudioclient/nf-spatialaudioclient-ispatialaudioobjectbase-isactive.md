@@ -96,7 +96,7 @@ The rendering engine will also deactivate the audio object, setting <b>IsActive<
 
 
 
-<a href="coreaudio.ispatialaudioobjectbase">ISpatialAudioObjectBase</a>
+<a href="https://msdn.microsoft.com/library/Mt829727(v=VS.85).aspx">ISpatialAudioObjectBase</a>
  
 
  

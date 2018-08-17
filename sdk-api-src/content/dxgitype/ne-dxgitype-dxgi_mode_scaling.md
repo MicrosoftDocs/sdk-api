@@ -78,7 +78,7 @@ Specifies stretched scaling.
 
 
 
-Selecting the CENTERED or STRETCHED modes can result in a mode change even if you specify the native resolution of the display in the DXGI_MODE_DESC. If you know the native resolution of the display and want to make sure that you do not initiate a mode change when transitioning a swap chain to full screen (either via ALT+ENTER or <a href="https://msdn.microsoft.com/4762082c-5a61-43a0-b158-a70bbec804d4">IDXGISwapChain::SetFullscreenState</a>), you should use UNSPECIFIED.
+Selecting the CENTERED or STRETCHED modes can result in a mode change even if you specify the native resolution of the display in the DXGI_MODE_DESC. If you know the native resolution of the display and want to make sure that you do not initiate a mode change when transitioning a swap chain to full screen (either via ALT+ENTER or <a href="https://msdn.microsoft.com/en-us/library/Bb174579(v=VS.85).aspx">IDXGISwapChain::SetFullscreenState</a>), you should use UNSPECIFIED.
 
 This enum is used by the <a href="https://msdn.microsoft.com/8F44CF77-D3A1-44F7-AB7F-69E5727A4378">DXGI_MODE_DESC1</a> and <a href="https://msdn.microsoft.com/0EE5683E-0623-4FD7-A77F-B64F90A25C6A">DXGI_SWAP_CHAIN_FULLSCREEN_DESC</a> structures.
 

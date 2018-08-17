@@ -116,7 +116,7 @@ If <i>lpApplicationName</i> is NULL, the first white space–delimited token of 
 <li> The 16-bit Windows system directory. There is no function that obtains the path of this directory, but it is searched. The name of this directory is System.</li>
 <li>The Windows directory. Use the 
 <a href="https://msdn.microsoft.com/8c9b55e1-121a-4405-9f83-043752dd48ed">GetWindowsDirectory</a> function to get the path of this directory.</li>
-<li>The directories that are listed in the PATH environment variable. Note that this function does not search the per-application path specified by the <b>App Paths</b> registry key. To include this per-application path in the search sequence, use the <a href="_win32_ShellExecute_cpp">ShellExecute</a> function.</li>
+<li>The directories that are listed in the PATH environment variable. Note that this function does not search the per-application path specified by the <b>App Paths</b> registry key. To include this per-application path in the search sequence, use the <a href="https://msdn.microsoft.com/en-us/library/Hh449546(v=VS.85).aspx">ShellExecute</a> function.</li>
 </ol>
 The system adds a terminating null character to the command-line string to separate the file name from the arguments. This divides the original string into two strings for internal processing.
 
@@ -264,7 +264,7 @@ One way to obtain the current directory information for a drive X is to make the
 <code>GetFullPathName("X:", ...)</code>. That avoids an application having to scan the environment block. If the full path returned is X:\, there is no need to pass that value on as environment data, since the root directory is the default current directory for drive X of a new process.
 
 When a process is created with <b>CREATE_NEW_PROCESS_GROUP</b> specified, an implicit call to 
-<a href="base.setconsolectrlhandler">SetConsoleCtrlHandler</a>(<b>NULL</b>,<b>TRUE</b>) is made on behalf of the new process; this means that the new process has CTRL+C disabled. This lets shells handle CTRL+C themselves, and selectively pass that signal on to sub-processes. CTRL+BREAK is not disabled, and may be used to interrupt the process/process group.
+<a href="https://msdn.microsoft.com/library/ms686016(v=VS.85).aspx">SetConsoleCtrlHandler</a>(<b>NULL</b>,<b>TRUE</b>) is made on behalf of the new process; this means that the new process has CTRL+C disabled. This lets shells handle CTRL+C themselves, and selectively pass that signal on to sub-processes. CTRL+BREAK is not disabled, and may be used to interrupt the process/process group.
 
 <h3><a id="Security_Remarks"></a><a id="security_remarks"></a><a id="SECURITY_REMARKS"></a>Security Remarks</h3>
 The first parameter, <i>lpApplicationName</i>, can be <b>NULL</b>, in which case the executable name must be in the  white space–delimited string pointed to by <i>lpCommandLine</i>. If the executable or path name has a space in it, there is a risk that a different executable could be run because of the way the function parses spaces. The following example is dangerous because the function will attempt to run "Program.exe", if it exists, instead of "MyApp.exe".

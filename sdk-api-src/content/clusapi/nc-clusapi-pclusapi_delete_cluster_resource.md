@@ -50,7 +50,7 @@ req.irql:
 ## -description
 
 
-Removes an offline  <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> from a <a href="https://msdn.microsoft.com/library/windows/hardware/dn922625">cluster</a>. The <b>PCLUSAPI_DELETE_CLUSTER_RESOURCE</b> type defines a pointer to this function.
+Removes an offline  <a href="https://msdn.microsoft.com/en-us/library/Aa372152(v=VS.85).aspx">resource</a> from a <a href="https://msdn.microsoft.com/en-us/library/Aa369114(v=VS.85).aspx">cluster</a>. The <b>PCLUSAPI_DELETE_CLUSTER_RESOURCE</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ Handle to an offline resource. You must close this handle separately.
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, 
-the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>, such as one of these values.
+the function returns a <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>, such as one of these values.
 
 
 
@@ -81,7 +81,7 @@ the function returns a <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f
 
 <i>DeleteClusterResource</i> does not close the resource handle specified by <i>hResource</i>. To avoid memory leaks, be sure to close this handle with  <a href="https://msdn.microsoft.com/dbefd7f9-3499-45b3-a5c8-d0000632f61c">CloseClusterResource</a>.
 
-Do not call  <i>DeleteClusterResource</i> from a resource DLL. For more information, see  <a href="https://msdn.microsoft.com/0eaa4aea-8d9a-4552-b43a-fafa23a3e736">Function Calls to Avoid in Resource DLLs</a>.
+Do not call  <i>DeleteClusterResource</i> from a resource DLL. For more information, see  <a href="https://msdn.microsoft.com/en-us/library/Aa369588(v=VS.85).aspx">Function Calls to Avoid in Resource DLLs</a>.
 
 
 

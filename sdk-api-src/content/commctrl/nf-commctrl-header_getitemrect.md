@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Gets the bounding rectangle for a given item in a header control. You can use this macro or send the <a href="https://msdn.microsoft.com/b483ef97-3700-425b-8160-81c673850f68">HDM_GETITEMRECT</a> message explicitly. 
+Gets the bounding rectangle for a given item in a header control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775341(v=VS.85).aspx">HDM_GETITEMRECT</a> message explicitly. 
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Gets the bounding rectangle for a given item in a header control. You can use th
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 A handle to a header control. 
 

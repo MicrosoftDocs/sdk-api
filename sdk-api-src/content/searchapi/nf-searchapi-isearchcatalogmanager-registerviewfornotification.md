@@ -69,9 +69,9 @@ A pointer to the name of the view.
 
 ### -param pViewChangedSink [in]
 
-Type: <b><a href="https://msdn.microsoft.com/7dabc572-50ef-4a21-be77-2eb780610844">ISearchViewChangedSink</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb231452(v=VS.85).aspx">ISearchViewChangedSink</a>*</b>
 
-Pointer to the <a href="https://msdn.microsoft.com/7dabc572-50ef-4a21-be77-2eb780610844">ISearchViewChangedSink</a> object to receive notifications.
+Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb231452(v=VS.85).aspx">ISearchViewChangedSink</a> object to receive notifications.
 
 
 ### -param pdwCookie [out]

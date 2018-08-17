@@ -91,13 +91,13 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 This helper function is used in applications that wish to convert a string value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure into a <a href="https://msdn.microsoft.com/7868ef9b-07db-455b-b0be-ef0db7891447">STRRET</a> structure. For instance, an application implementing <a href="https://msdn.microsoft.com/2164bbe6-e030-4a64-85db-9ee1cd3c136d">IShellFolder::GetDisplayNameOf</a> may find this function useful.
 
-If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> has type VT_LPWSTR or VT_BSTR, this function extracts the string and places it into the <a href="https://msdn.microsoft.com/7868ef9b-07db-455b-b0be-ef0db7891447">STRRET</a> structure. Otherwise, it attempts to convert the value in the <b>PROPVARIANT</b> structure into a string. If a conversion is not possible, <a href="shell.PropVariantToString">PropVariantToString</a> will return a failure code. See <a href="shell.PropVariantChangeType">PropVariantChangeType</a> for a list of possible conversions. Of note, VT_EMPTY is successfully converted to "".
+If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> has type VT_LPWSTR or VT_BSTR, this function extracts the string and places it into the <a href="https://msdn.microsoft.com/7868ef9b-07db-455b-b0be-ef0db7891447">STRRET</a> structure. Otherwise, it attempts to convert the value in the <b>PROPVARIANT</b> structure into a string. If a conversion is not possible, <a href="https://msdn.microsoft.com/en-us/library/Bb776559(v=VS.85).aspx">PropVariantToString</a> will return a failure code. See <a href="https://msdn.microsoft.com/en-us/library/Bb776514(v=VS.85).aspx">PropVariantChangeType</a> for a list of possible conversions. Of note, VT_EMPTY is successfully converted to "".
 
-In addition to the conversions provided by <a href="shell.PropVariantChangeType">PropVariantChangeType</a>, the following special cases apply to <a href="shell.PropVariantToString">PropVariantToString</a>. 
+In addition to the conversions provided by <a href="https://msdn.microsoft.com/en-us/library/Bb776514(v=VS.85).aspx">PropVariantChangeType</a>, the following special cases apply to <a href="https://msdn.microsoft.com/en-us/library/Bb776559(v=VS.85).aspx">PropVariantToString</a>. 
         
 
 <ul>
-<li>Vector-valued <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>s are converted to strings by separating each element with using "; ". For example, <a href="shell.PropVariantToString">PropVariantToString</a> converts a vector of 3 integers, {3, 1, 4}, to the string "3; 1; 4". The semicolon is independent of the current locale.</li>
+<li>Vector-valued <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>s are converted to strings by separating each element with using "; ". For example, <a href="https://msdn.microsoft.com/en-us/library/Bb776559(v=VS.85).aspx">PropVariantToString</a> converts a vector of 3 integers, {3, 1, 4}, to the string "3; 1; 4". The semicolon is independent of the current locale.</li>
 <li>VT_BLOB, VT_STREAM, VT_STREAMED_OBJECT, and VT_UNKNOWN values are converted to strings using an unsupported encoding. It is not possible to decode strings created in this way and the format may change in the future.</li>
 </ul>
 If the extraction is successful, the function will initialize uType member of the <a href="https://msdn.microsoft.com/7868ef9b-07db-455b-b0be-ef0db7891447">STRRET</a> structure with STRRET_WSTR and set the pOleStr member of that structure to point to an allocated copy of the string. The calling application is responsible for using <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> or <a href="https://msdn.microsoft.com/03b0dffb-8ef7-41da-9773-81ed55275802">StrRetToStr</a> to free this string when it is no longer needed. 
@@ -105,7 +105,7 @@ If the extraction is successful, the function will initialize uType member of th
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PropVariantToString">PropVariantToString</a> to access a string value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776559(v=VS.85).aspx">PropVariantToString</a> to access a string value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -175,27 +175,27 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.InitPropVariantFromString">InitPropVariantFromString</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb762305(v=VS.85).aspx">InitPropVariantFromString</a>
 
 
 
-<a href="shell.PropVariantChangeType">PropVariantChangeType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776514(v=VS.85).aspx">PropVariantChangeType</a>
 
 
 
-<a href="shell.PropVariantGetStringElem">PropVariantGetStringElem</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776527(v=VS.85).aspx">PropVariantGetStringElem</a>
 
 
 
-<a href="shell.PropVariantToString">PropVariantToString</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776559(v=VS.85).aspx">PropVariantToString</a>
 
 
 
-<a href="shell.PropVariantToStringAlloc">PropVariantToStringAlloc</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776560(v=VS.85).aspx">PropVariantToStringAlloc</a>
 
 
 
-<a href="shell.PropVariantToStringVector">PropVariantToStringVector</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776561(v=VS.85).aspx">PropVariantToStringVector</a>
 
 
 
@@ -203,7 +203,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="shell.VariantToStrRet">VariantToStrRet</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb776622(v=VS.85).aspx">VariantToStrRet</a>
  
 
  

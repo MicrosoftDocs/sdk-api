@@ -67,7 +67,7 @@ The <b>VARIANT</b> that contains the index or name of the property to be retriev
 
 ### -param pVariant [in, out]
 
-Address of a caller-allocated <b>VARIANT</b> variable. On return, the <b>VARIANT</b> contains the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> pointer to the object which implements the  <a href="https://msdn.microsoft.com/6c398d05-ac12-4c9a-b61a-70cd795c991f">IADsPropertyEntry</a> interface for the attribute retrieved.
+Address of a caller-allocated <b>VARIANT</b> variable. On return, the <b>VARIANT</b> contains the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> pointer to the object which implements the  <a href="https://msdn.microsoft.com/6c398d05-ac12-4c9a-b61a-70cd795c991f">IADsPropertyEntry</a> interface for the attribute retrieved.
 
 
 ## -returns
@@ -235,7 +235,7 @@ if(pEntry)
 
 
 
-<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
  
 
  

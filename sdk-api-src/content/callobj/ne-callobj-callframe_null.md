@@ -84,7 +84,7 @@ All [out] and [in, out] parameters are freed.
 
 
 
-<a href="https://msdn.microsoft.com/97261d93-40cf-4a27-9bee-677600c04699">ICallFrame::Free</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690081(v=VS.85).aspx">ICallFrame::Free</a>
  
 
  

@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>IAzRoleDefinition</b> interface represents one or more <b>IAzRoleDefinition</b>, <a href="https://msdn.microsoft.com/90eb19c9-1490-43f4-ab4b-393e825aeb2f">IAzTask</a>, and <a href="https://msdn.microsoft.com/054fa4aa-70be-4618-a635-3941c830ea4e">IAzOperation</a> objects that specify a set of operations. If an <a href="https://msdn.microsoft.com/3f0b926f-77f4-4477-b155-5f866822baba">IAzRoleAssignment</a> object is associated with an <b>IAzRoleDefinition</b> object, users and groups assigned to that <b>IAzRoleAssignment</b> object are allowed to access the operations specified by that <b>IAzRoleDefinition</b> object.
+The <b>IAzRoleDefinition</b> interface represents one or more <b>IAzRoleDefinition</b>, <a href="https://msdn.microsoft.com/90eb19c9-1490-43f4-ab4b-393e825aeb2f">IAzTask</a>, and <a href="https://msdn.microsoft.com/054fa4aa-70be-4618-a635-3941c830ea4e">IAzOperation</a> objects that specify a set of operations. If an <a href="https://msdn.microsoft.com/en-us/library/Aa377918(v=VS.85).aspx">IAzRoleAssignment</a> object is associated with an <b>IAzRoleDefinition</b> object, users and groups assigned to that <b>IAzRoleAssignment</b> object are allowed to access the operations specified by that <b>IAzRoleDefinition</b> object.
 
 
 ## -inheritance
@@ -59,7 +59,7 @@ The <b>IAzRoleDefinition</b> interface represents one or more <b>IAzRoleDefiniti
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAzRoleDefinition</b> interface inherits from <a href="https://msdn.microsoft.com/90eb19c9-1490-43f4-ab4b-393e825aeb2f">IAzTask</a>. <b>IAzRoleDefinition</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
-<li><a href="https://docs.microsoft.com/">Properties</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms692124(v=VS.85).aspx">Properties</a></li>
 </ul>
 
 ## -members
@@ -72,7 +72,7 @@ The <b>IAzRoleDefinition</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/38d65f5f-452b-4641-a683-2740fb529064">AddRoleDefinition</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377932(v=VS.85).aspx">AddRoleDefinition</a>
 </td>
 <td align="left" width="63%">
 Adds the specified <b>IAzRoleDefinition</b> object to this <b>IAzRoleDefinition</b> object.
@@ -81,7 +81,7 @@ Adds the specified <b>IAzRoleDefinition</b> object to this <b>IAzRoleDefinition<
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/aba2f195-ebd8-40a2-8af4-455144822588">DeleteRoleDefinition</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377933(v=VS.85).aspx">DeleteRoleDefinition</a>
 </td>
 <td align="left" width="63%">
 Removes the <b>IAzRoleDefinition</b> object with the specified name from this <b>IAzRoleDefinition</b> object.
@@ -98,19 +98,19 @@ Removes the <b>IAzRoleDefinition</b> object with the specified name from this <b
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/1b8c3aaf-ed33-4253-b15f-06e5d3415d58">RoleAssignments</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377934(v=VS.85).aspx">RoleAssignments</a>
 
 
 </td>
 <td align="left" width="63%">
-Retrieves a collection of <a href="https://msdn.microsoft.com/3f0b926f-77f4-4477-b155-5f866822baba">IAzRoleAssignment</a> objects that represent the role assignments associated with this <b>IAzRoleDefinition</b> object.
+Retrieves a collection of <a href="https://msdn.microsoft.com/en-us/library/Aa377918(v=VS.85).aspx">IAzRoleAssignment</a> objects that represent the role assignments associated with this <b>IAzRoleDefinition</b> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/362df9e2-af74-48b7-a6f4-aaa6ad1d8df5">RoleDefinitions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377935(v=VS.85).aspx">RoleDefinitions</a>
 
 
 </td>

@@ -65,7 +65,7 @@ The <b>IsAlphaPixelFormat</b> method determines whether a specified pixel format
 
 Type: <b>PixelFormat</b>
 
-A <a href="https://msdn.microsoft.com/362204c5-5dd7-461a-b90b-15826c025689">PixelFormat</a> constant that specifies the pixel format to be tested.
+A <a href="https://msdn.microsoft.com/en-us/library/ms534412(v=VS.85).aspx">PixelFormat</a> constant that specifies the pixel format to be tested.
 
 
 ## -returns

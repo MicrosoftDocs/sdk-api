@@ -85,7 +85,7 @@ Reserved.
 
 <b>CREDENTIAL_PROVIDER_STATUS_ICON</b> is not used starting in Windows 10.
 
-As part of <a href="https://msdn.microsoft.com/13d6dda7-4a4f-45bf-af91-72f80497b9f7">ReportResult</a>, a credential provider may specify a status icon to display. It is important to not that only Logon UI calls <b>ReportResult</b>, Credential UI does not.
+As part of <a href="https://msdn.microsoft.com/en-us/library/Bb776030(v=VS.85).aspx">ReportResult</a>, a credential provider may specify a status icon to display. It is important to not that only Logon UI calls <b>ReportResult</b>, Credential UI does not.
 
 
 
