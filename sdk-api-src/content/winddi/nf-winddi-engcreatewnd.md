@@ -7,7 +7,7 @@ old-location: display\engcreatewnd.htm
 old-project: display
 ms.assetid: 14b1cced-32d0-4ba8-be7c-e626bef37e3f
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/13/2018
 ms.keywords: EngCreateWnd, EngCreateWnd function [Display Devices], display.engcreatewnd, gdifncs_71294a09-97a4-41c5-9ddb-2295febc73a2.xml, winddi/EngCreateWnd
 ms.prod: windows
 ms.technology: windows-sdk

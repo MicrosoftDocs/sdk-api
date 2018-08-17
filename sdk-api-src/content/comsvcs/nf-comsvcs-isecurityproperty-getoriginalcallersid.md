@@ -127,7 +127,7 @@ You use the
      The following scenario illustrates the functionality of the 
      <b>GetOriginalCallerSID</b> method.
 
-<img alt="" src="./images/ff4d2c22-6e80-48e0-a6ca-4622b703e9e9.png"/>
+<img alt="" src="images/ff4d2c22-6e80-48e0-a6ca-4622b703e9e9.png"/>
 
 <ol>
 <li>Base Process 1, running on Server A as user A, creates Object X, on Server B, running as user B.</li>

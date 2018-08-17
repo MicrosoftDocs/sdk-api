@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Packs two byte-values into a single LPARAM suitable for use with the <a href="https://msdn.microsoft.com/en-us/library/Bb761382(v=VS.85).aspx">IPM_SETRANGE</a> message. 
+Packs two byte-values into a single LPARAM suitable for use with the <a href="https://msdn.microsoft.com/03068c5d-822f-459d-8f79-e7f0430a27bf">IPM_SETRANGE</a> message. 
 
 
 ## -parameters

@@ -86,7 +86,7 @@ A 4x4 transform matrix applied to the projection plane. The following matrix cal
               to the transformed 2D coordinate system.
             
 
-<img alt="3D Depth Matrix" src="./images/3d_transform_matrix1.png"/>
+<img alt="3D Depth Matrix" src="images/3d_transform_matrix1.png"/>
 Where:<dl>
 <dd>X, Y, Z = Input projection plane coordinates</dd>
 <dd>M<sub>x,y</sub> = Transform Matrix elements

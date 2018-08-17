@@ -62,23 +62,23 @@ Creates a new state block that contains the values for all device states, vertex
 
 ### -param Type [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172608(v=VS.85).aspx">D3DSTATEBLOCKTYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/60b94d45-aab6-4dbe-ab48-65dfe9861d82">D3DSTATEBLOCKTYPE</a></b>
 
-Type of state data that the method should capture. This parameter can be set to a value defined in the <a href="https://msdn.microsoft.com/en-us/library/Bb172608(v=VS.85).aspx">D3DSTATEBLOCKTYPE</a> enumerated type. 
+Type of state data that the method should capture. This parameter can be set to a value defined in the <a href="https://msdn.microsoft.com/60b94d45-aab6-4dbe-ab48-65dfe9861d82">D3DSTATEBLOCKTYPE</a> enumerated type. 
 
 
 ### -param ppSB [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205887(v=VS.85).aspx">IDirect3DStateBlock9</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/bb0dfea8-14ba-4d9d-acb7-9748258e0f35">IDirect3DStateBlock9</a>**</b>
 
-Pointer to a state block interface. See <a href="https://msdn.microsoft.com/en-us/library/Bb205887(v=VS.85).aspx">IDirect3DStateBlock9</a>.
+Pointer to a state block interface. See <a href="https://msdn.microsoft.com/bb0dfea8-14ba-4d9d-acb7-9748258e0f35">IDirect3DStateBlock9</a>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be one of the following: D3DERR_INVALIDCALL, D3DERR_OUTOFVIDEOMEMORY, E_OUTOFMEMORY.
 
@@ -96,7 +96,7 @@ Vertex-related device states typically refer to those states that affect how the
 <td>
 Differences between Direct3D 9 and Direct3D 10:
 
-In Direct3D 9, a state block contains state data, for the states it was requested to capture, when the object is created. To change the value of the state block, call <a href="https://msdn.microsoft.com/en-us/library/Bb205890(v=VS.85).aspx">IDirect3DStateBlock9::Capture</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb174351(v=VS.85).aspx">IDirect3DDevice9::BeginStateBlock</a>/<a href="https://msdn.microsoft.com/en-us/library/Bb174376(v=VS.85).aspx">IDirect3DDevice9::EndStateBlock</a>. There is no state saved when a state block object is created in Direct3D 10.
+In Direct3D 9, a state block contains state data, for the states it was requested to capture, when the object is created. To change the value of the state block, call <a href="https://msdn.microsoft.com/da31beba-89b4-48a9-909c-cf505ac758a4">IDirect3DStateBlock9::Capture</a> or <a href="https://msdn.microsoft.com/ee197fbc-d13b-42c2-a293-72306a0d05ce">IDirect3DDevice9::BeginStateBlock</a>/<a href="https://msdn.microsoft.com/170fab09-671f-4faf-99e4-849ba4a53688">IDirect3DDevice9::EndStateBlock</a>. There is no state saved when a state block object is created in Direct3D 10.
 
 </td>
 </tr>
@@ -111,15 +111,15 @@ In Direct3D 9, a state block contains state data, for the states it was requeste
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174351(v=VS.85).aspx">IDirect3DDevice9::BeginStateBlock</a>
+<a href="https://msdn.microsoft.com/ee197fbc-d13b-42c2-a293-72306a0d05ce">IDirect3DDevice9::BeginStateBlock</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174376(v=VS.85).aspx">IDirect3DDevice9::EndStateBlock</a>
+<a href="https://msdn.microsoft.com/170fab09-671f-4faf-99e4-849ba4a53688">IDirect3DDevice9::EndStateBlock</a>
  
 
  

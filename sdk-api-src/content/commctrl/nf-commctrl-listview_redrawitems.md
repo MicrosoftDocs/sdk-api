@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Forces a list-view control to redraw a range of items. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761145(v=VS.85).aspx">LVM_REDRAWITEMS</a> message explicitly. 
+Forces a list-view control to redraw a range of items. You can use this macro or send the <a href="https://msdn.microsoft.com/a717b17f-6e0a-4804-96f9-da93392a19ec">LVM_REDRAWITEMS</a> message explicitly. 
 
 
 ## -parameters

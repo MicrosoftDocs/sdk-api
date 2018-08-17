@@ -61,9 +61,13 @@ The
 
 
 
-### -param OPTIONAL
+### -param servername [in]
 
-TBD
+Pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used. 
+
+
+
+					
 
 
 ### -param groupname [in]
@@ -89,7 +93,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
 Specifies the 
-<a href="https://msdn.microsoft.com/library/Aa379571(v=VS.85).aspx">security identifier</a> (SID) of a local group member to remove. The <i>buf</i> parameter points to an array of 
+<a href="security.security_identifiers_sids_">security identifier</a> (SID) of a local group member to remove. The <i>buf</i> parameter points to an array of 
 <a href="https://msdn.microsoft.com/e559cd90-942c-442a-b57f-7d2024523455">LOCALGROUP_MEMBERS_INFO_0</a> structures.
 
 </td>
@@ -118,15 +122,6 @@ Pointer to a buffer that specifies the members to be removed. The format of this
 ### -param totalentries [in]
 
 Specifies the number of entries in the array pointed to by the <i>buf</i> parameter.
-
-
-#### - servername [in]
-
-Pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used. 
-
-
-
-					
 
 
 ## -returns

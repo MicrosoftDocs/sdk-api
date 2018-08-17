@@ -64,14 +64,14 @@ Returns the number of times the swapchain has been processed.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
 
-Pointer to a UINT to be filled with the number of times the <a href="https://msdn.microsoft.com/en-us/library/Bb174343(v=VS.85).aspx">IDirect3DDevice9Ex::PresentEx</a> method has been called. The count will also be incremented by calling some other APIs such as <a href="https://msdn.microsoft.com/en-us/library/Bb174432(v=VS.85).aspx">IDirect3DDevice9::SetDialogBoxMode</a>.
+Pointer to a UINT to be filled with the number of times the <a href="https://msdn.microsoft.com/845c72ff-669d-44bf-8065-cff456418e8c">IDirect3DDevice9Ex::PresentEx</a> method has been called. The count will also be incremented by calling some other APIs such as <a href="https://msdn.microsoft.com/4cca59f4-07ae-42d2-9dc8-3ec90ad75f3b">IDirect3DDevice9::SetDialogBoxMode</a>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 S_OK the method was successful.
 
@@ -83,7 +83,7 @@ S_OK the method was successful.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb172503(v=VS.85).aspx">IDirect3DSwapChain9Ex</a>
+<a href="https://msdn.microsoft.com/b5af736b-f1d6-4db2-bd57-d88fca65b0a6">IDirect3DSwapChain9Ex</a>
  
 
  

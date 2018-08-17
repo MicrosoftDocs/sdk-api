@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-Creates a blend-state object that encapsulates blend state for the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">output-merger stage</a> and allows the configuration of logic operations.
+Creates a blend-state object that encapsulates blend state for the <a href="https://msdn.microsoft.com/8be68c15-2deb-4804-b683-30080a876189">output-merger stage</a> and allows the configuration of logic operations.
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: base\dispatcherqueueoptions.htm
 old-project: procthread
 ms.assetid: F9AF7DDE-13EB-43DB-BAD5-61A6ABD9307D
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: DispatcherQueueOptions, DispatcherQueueOptions structure, base.dispatcherqueueoptions, dispatcherqueue/DispatcherQueueOptions
 ms.prod: windows
 ms.technology: windows-sdk

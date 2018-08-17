@@ -53,7 +53,7 @@ req.irql:
 
 <p class="CCE_Message">[Intended for internal use; not recommended for use in applications. This macro may not be supported in future versions of Windows.]
 
-Prevents a single-line edit control from receiving keyboard focus. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Ee663616(v=VS.85).aspx">EM_NOSETFOCUS</a> message explicitly.
+Prevents a single-line edit control from receiving keyboard focus. You can use this macro or send the <a href="https://msdn.microsoft.com/aeb5ed6b-7d4f-4c0d-a172-6cee7cab959c">EM_NOSETFOCUS</a> message explicitly.
 
 
 ## -parameters
@@ -72,7 +72,7 @@ A handle to the edit control.
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Ee663616(v=VS.85).aspx">EM_NOSETFOCUS</a> message is ignored if the edit control is not a single-line edit control. 
+The <a href="https://msdn.microsoft.com/aeb5ed6b-7d4f-4c0d-a172-6cee7cab959c">EM_NOSETFOCUS</a> message is ignored if the edit control is not a single-line edit control. 
 
 After this message is sent, the effect is permanent.
 
@@ -84,7 +84,7 @@ After this message is sent, the effect is permanent.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee663616(v=VS.85).aspx">EM_NOSETFOCUS</a>
+<a href="https://msdn.microsoft.com/aeb5ed6b-7d4f-4c0d-a172-6cee7cab959c">EM_NOSETFOCUS</a>
  
 
  

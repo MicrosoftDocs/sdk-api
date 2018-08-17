@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Gets the handle to the header control used by a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774937(v=VS.85).aspx">LVM_GETHEADER</a> message explicitly. 
+Gets the handle to the header control used by a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/4708b493-4449-4844-bf0d-e6969bcf0246">LVM_GETHEADER</a> message explicitly. 
 
 
 ## -parameters

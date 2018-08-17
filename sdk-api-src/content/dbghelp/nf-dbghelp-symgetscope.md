@@ -7,7 +7,7 @@ old-location: base\symgetscope.htm
 old-project: debug
 ms.assetid: 048a4d07-bf87-4dbc-9169-d8782040b205
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: SymGetScope, SymGetScope function, SymGetScopeW, base.symgetscope, dbghelp/SymGetScope, dbghelp/SymGetScopeW
 ms.prod: windows
 ms.technology: windows-sdk

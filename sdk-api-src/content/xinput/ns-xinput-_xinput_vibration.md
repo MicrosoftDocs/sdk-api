@@ -84,7 +84,7 @@ The left motor is the low-frequency rumble motor. The right motor is the high-fr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419270(v=VS.85).aspx">XINPUT_GAMEPAD</a>
+<a href="https://msdn.microsoft.com/9F3BA764-82E0-4C46-AAA3-F417D2344ECB">XINPUT_GAMEPAD</a>
 
 
 
@@ -92,11 +92,11 @@ The left motor is the low-frequency rumble motor. The right motor is the high-fr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419264(v=VS.85).aspx">XInputGetCapabilities</a>
+<a href="https://msdn.microsoft.com/5F02EFF5-57ED-4FF1-88E2-DB1CB6F33151">XInputGetCapabilities</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419268(v=VS.85).aspx">XInputSetState</a>
+<a href="https://msdn.microsoft.com/FA494AEB-9FB9-4AF4-95AB-01048A60D924">XInputSetState</a>
  
 
  

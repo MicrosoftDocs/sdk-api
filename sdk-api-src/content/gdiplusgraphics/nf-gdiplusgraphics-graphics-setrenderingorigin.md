@@ -97,7 +97,7 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535722(v=VS.85).aspx">Graphics::GetRenderingOrigin</a>
+<a href="https://msdn.microsoft.com/373beeb6-bc92-41fc-8bb2-83ac11ca24ab">Graphics::GetRenderingOrigin</a>
  
 
  

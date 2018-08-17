@@ -60,9 +60,9 @@ Creates a new resource manager (RM) object, and associates the RM with a transac
 
 
 
-### -param OPTIONAL
+### -param lpResourceManagerAttributes [in, optional]
 
-TBD
+A pointer to a <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> structure that contains the security attributes for the resource manager.  Specify <b>NULL</b> to obtain the default attributes.
 
 
 ### -param ResourceManagerId [in]
@@ -70,17 +70,7 @@ TBD
 A pointer the resource manager GUID. This parameter is required and must not be <b>NULL</b>.
 
 
-### -param TmHandle [in]
-
-A handle to the TM that will manage the transactions for this RM.
-
-
-### -param Description [in, optional]
-
-A description for this RM.
-
-
-#### - CreateOptions [in, optional]
+### -param CreateOptions [in, optional]
 
 Any optional attributes for the new RM.  
 
@@ -103,9 +93,14 @@ Indicates that the RM is volatile, and does not perform recovery.
  
 
 
-#### - lpResourceManagerAttributes [in, optional]
+### -param TmHandle [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> structure that contains the security attributes for the resource manager.  Specify <b>NULL</b> to obtain the default attributes.
+A handle to the TM that will manage the transactions for this RM.
+
+
+### -param Description [in, optional]
+
+A description for this RM.
 
 
 ## -returns

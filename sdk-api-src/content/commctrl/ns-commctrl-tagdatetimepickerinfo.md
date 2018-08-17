@@ -64,7 +64,7 @@ Contains information about a date and time picker (DTP) control.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-Set to <code>sizeof(DATETIMEPICKERINFO)</code>. This member must be set before sending a pointer to this structure with the <a href="https://msdn.microsoft.com/en-us/library/Bb761755(v=VS.85).aspx">DTM_GETDATETIMEPICKERINFO</a> message, or the <a href="https://msdn.microsoft.com/en-us/library/Bb761786(v=VS.85).aspx">DateTime_GetDateTimePickerInfo</a> macro.
+Set to <code>sizeof(DATETIMEPICKERINFO)</code>. This member must be set before sending a pointer to this structure with the <a href="https://msdn.microsoft.com/04847b68-ac45-4b28-8f62-2cd68ffe48d4">DTM_GETDATETIMEPICKERINFO</a> message, or the <a href="https://msdn.microsoft.com/93eec698-6252-4b2d-9f04-576c0c033a57">DateTime_GetDateTimePickerInfo</a> macro.
 
 
 ### -field rcCheck
@@ -99,14 +99,14 @@ The state of  <b>rcButton</b>— one or a bitwise combination of the <a href="ht
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
-A handle to the edit control. For information see, <a href="https://msdn.microsoft.com/en-us/library/Bb775458(v=VS.85).aspx">Edit Controls</a>.
+A handle to the edit control. For information see, <a href="https://msdn.microsoft.com/2a71b92c-f57a-4c27-80b7-e1d9092f3701">Edit Controls</a>.
 
 
 ### -field hwndUD
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
-A handle to the up/down control—an alternative to using the drop-down grid (looks like month calendar control). For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb759889(v=VS.85).aspx">Up-Down Controls</a>.
+A handle to the up/down control—an alternative to using the drop-down grid (looks like month calendar control). For more information, see <a href="https://msdn.microsoft.com/ae2c0283-9cad-40d1-b8a6-a90484a95f56">Up-Down Controls</a>.
 
 
 ### -field hwndDropDown

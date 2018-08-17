@@ -97,7 +97,7 @@ This method does not return a value.
 Adding a node to a group's 
     <a href="https://msdn.microsoft.com/3425825e-890c-4d3d-919e-a66963e1fc55">ClusResGroupPreferredOwnerNodes</a> 
     collection means that the node is listed as a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">preferred owner</a> node for the group.
+    <a href="p_gly.htm">preferred owner</a> node for the group.
 
 The <b>AddItem</b> method always 
     adds a node at the end of the list, giving it the lowest priority. To add a node and specify its priority in the 

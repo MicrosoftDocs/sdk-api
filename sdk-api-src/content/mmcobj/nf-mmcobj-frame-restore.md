@@ -4,10 +4,10 @@ title: Frame::Restore
 author: windows-sdk-content
 description: The Restore method restores the frame to its normal size.
 old-location: mmc\frame_restore.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: e5fb1f84-1b76-46c9-8c69-681382ce6109
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/14/2018
 ms.keywords: Frame interface [MMC],Restore method, Frame object [MMC],Restore method, Frame.Restore, Frame::Restore, Restore, Restore method [MMC], Restore method [MMC],Frame interface, Restore method [MMC],Frame object, _slate_frame.restore_method, mmc.frame_restore
 ms.prod: windows
 ms.technology: windows-sdk

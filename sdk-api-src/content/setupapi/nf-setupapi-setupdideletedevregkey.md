@@ -62,7 +62,7 @@ The <b>SetupDiDeleteDevRegKey</b> function deletes specified user-accessible reg
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains a device information element that represents the device for which to delete registry keys. The device information set must not contain remote elements.
+A handle to the <a href="devinst.device_information_sets">device information set</a> that contains a device information element that represents the device for which to delete registry keys. The device information set must not contain remote elements.
 
 
 ### -param DeviceInfoData [in]

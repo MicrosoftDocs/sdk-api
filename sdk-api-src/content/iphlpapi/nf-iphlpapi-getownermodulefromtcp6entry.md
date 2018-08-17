@@ -7,7 +7,7 @@ old-location: iphlp\getownermodulefromtcp6entry.htm
 old-project: iphlp
 ms.assetid: 021679fc-91de-4e3b-956d-bb00b1856f20
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: GetOwnerModuleFromTcp6Entry, GetOwnerModuleFromTcp6Entry function [IP Helper], iphlp.getownermodulefromtcp6entry, iphlpapi/GetOwnerModuleFromTcp6Entry
 ms.prod: windows
 ms.technology: windows-sdk

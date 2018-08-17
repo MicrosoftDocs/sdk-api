@@ -7,7 +7,7 @@ old-location: appxpkg\iappxpackagereader_getmanifest.htm
 old-project: appxpkg
 ms.assetid: 5EE69CCD-C941-4346-B539-C415CE9EA1FB
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/15/2018
 ms.keywords: GetManifest, GetManifest method [App packaging and management], GetManifest method [App packaging and management],IAppxPackageReader interface, IAppxPackageReader interface [App packaging and management],GetManifest method, IAppxPackageReader.GetManifest, IAppxPackageReader::GetManifest, appxpackaging/IAppxPackageReader::GetManifest, appxpkg.iappxpackagereader_getmanifest
 ms.prod: windows
 ms.technology: windows-sdk

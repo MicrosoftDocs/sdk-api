@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Retrieves the current background color for the pager control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760868(v=VS.85).aspx">PGM_GETBKCOLOR</a> message explicitly. 
+Retrieves the current background color for the pager control. You can use this macro or send the <a href="https://msdn.microsoft.com/c39ad721-fe39-44e9-8305-67444acc5d65">PGM_GETBKCOLOR</a> message explicitly. 
 
 
 ## -parameters

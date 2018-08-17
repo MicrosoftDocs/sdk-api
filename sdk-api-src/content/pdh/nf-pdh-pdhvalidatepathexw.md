@@ -4,10 +4,10 @@ title: PdhValidatePathExW function
 author: windows-sdk-content
 description: Validates that the specified counter is present on the computer or in the log file.
 old-location: perf\pdhvalidatepathex.htm
-old-project: PerfCtrs
+old-project: perfctrs
 ms.assetid: e6b52af7-7276-4565-aa61-73899796a13c
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/08/2018
 ms.keywords: PdhValidatePathEx, PdhValidatePathEx function [Perf], PdhValidatePathExA, PdhValidatePathExW, pdh/PdhValidatePathEx, pdh/PdhValidatePathExA, pdh/PdhValidatePathExW, perf.pdhvalidatepathex
 ms.prod: windows
 ms.technology: windows-sdk

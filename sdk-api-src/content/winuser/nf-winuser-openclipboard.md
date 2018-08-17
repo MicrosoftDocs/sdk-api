@@ -96,17 +96,17 @@ If the function fails, the return value is zero. To get extended error informati
 
 <b>OpenClipboard</b> fails if another window has the clipboard open. 
 
-An application should call the <a href="https://msdn.microsoft.com/en-us/library/ms649035(v=VS.85).aspx">CloseClipboard</a> function after every successful call to <b>OpenClipboard</b>. 
+An application should call the <a href="https://msdn.microsoft.com/34658e02-cbac-4e5a-afb3-a1450274b5b1">CloseClipboard</a> function after every successful call to <b>OpenClipboard</b>. 
 
 The window identified by the 
-				<i>hWndNewOwner</i> parameter does not become the clipboard owner unless the <a href="https://msdn.microsoft.com/en-us/library/ms649037(v=VS.85).aspx">EmptyClipboard</a> function is called. 
+				<i>hWndNewOwner</i> parameter does not become the clipboard owner unless the <a href="https://msdn.microsoft.com/3b0c1f36-eebe-4f69-887e-c9ceb947a94e">EmptyClipboard</a> function is called. 
 
-If an application calls <b>OpenClipboard</b> with hwnd set to <b>NULL</b>, <a href="https://msdn.microsoft.com/en-us/library/ms649037(v=VS.85).aspx">EmptyClipboard</a> sets the clipboard owner to <b>NULL</b>; this causes <a href="https://msdn.microsoft.com/en-us/library/ms649051(v=VS.85).aspx">SetClipboardData</a> to fail.
+If an application calls <b>OpenClipboard</b> with hwnd set to <b>NULL</b>, <a href="https://msdn.microsoft.com/3b0c1f36-eebe-4f69-887e-c9ceb947a94e">EmptyClipboard</a> sets the clipboard owner to <b>NULL</b>; this causes <a href="https://msdn.microsoft.com/45ca0c04-cf1a-4206-a05f-9957e50be89c">SetClipboardData</a> to fail.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms649016(v=VS.85).aspx">Copying Information to the Clipboard</a>.
+For an example, see <a href="using_the_clipboard.htm">Copying Information to the Clipboard</a>.
 
 <div class="code"></div>
 
@@ -117,11 +117,11 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms649016(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648709(v=VS.85).aspx">Clipboard</a>
+<a href="https://msdn.microsoft.com/61a9bff7-3c46-4e42-81f7-e020ff0b667f">Clipboard</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649035(v=VS.85).aspx">CloseClipboard</a>
+<a href="https://msdn.microsoft.com/34658e02-cbac-4e5a-afb3-a1450274b5b1">CloseClipboard</a>
 
 
 
@@ -129,7 +129,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms649016(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649037(v=VS.85).aspx">EmptyClipboard</a>
+<a href="https://msdn.microsoft.com/3b0c1f36-eebe-4f69-887e-c9ceb947a94e">EmptyClipboard</a>
 
 
 

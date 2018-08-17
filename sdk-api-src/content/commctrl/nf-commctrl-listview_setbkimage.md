@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Sets the background image in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761155(v=VS.85).aspx">LVM_SETBKIMAGE</a> message explicitly.
+Sets the background image in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/8fdd363c-ac12-498b-80b7-aaa5741cfd76">LVM_SETBKIMAGE</a> message explicitly.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ A handle to the list-view control.
 
 Type: <b>LPLVBKIMAGE</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb774742(v=VS.85).aspx">LVBKIMAGE</a> structure that contains the new background image information. 
+A pointer to an <a href="https://msdn.microsoft.com/d8b35356-d112-43e5-b1ad-7fb945c84e33">LVBKIMAGE</a> structure that contains the new background image information. 
 
 
 ## -remarks
@@ -87,7 +87,7 @@ Because the list-view control uses OLE COM to manipulate the background images, 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761246(v=VS.85).aspx">ListView_GetBkImage</a>
+<a href="https://msdn.microsoft.com/292750e5-add2-44e7-8fa9-8cc13eb2dbc8">ListView_GetBkImage</a>
  
 
  

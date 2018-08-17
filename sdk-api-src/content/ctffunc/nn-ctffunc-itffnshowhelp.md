@@ -112,7 +112,7 @@ The TSF manager obtains the help menu text by calling the text service's <a href
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

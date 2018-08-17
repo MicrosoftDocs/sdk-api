@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Gets the coordinates of the drop-down overflow area for a specified header control. The header control must be of type <b>HDF_SPLITBUTTON</b>. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775345(v=VS.85).aspx">HDM_GETOVERFLOWRECT</a> message explicitly.
+Gets the coordinates of the drop-down overflow area for a specified header control. The header control must be of type <b>HDF_SPLITBUTTON</b>. Use this macro or send the <a href="https://msdn.microsoft.com/52fb3dc3-ce22-40da-8222-20fd75c005ae">HDM_GETOVERFLOWRECT</a> message explicitly.
 
 
 ## -parameters

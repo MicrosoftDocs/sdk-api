@@ -7,7 +7,7 @@ old-location: security\iazoperation_setproperty.htm
 old-project: secauthz
 ms.assetid: f510fdb4-922d-488c-ad3d-3468da6a2fb6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_DESCRIPTION, AZ_PROP_NAME, AZ_PROP_OPERATION_ID, AzOperation object [Security],SetProperty method, IAzOperation interface [Security],SetProperty method, IAzOperation.SetProperty, IAzOperation::SetProperty, SetProperty, SetProperty method [Security], SetProperty method [Security],AzOperation object, SetProperty method [Security],IAzOperation interface, azroles/IAzOperation::SetProperty, security.iazoperation_setproperty
 ms.prod: windows
 ms.technology: windows-sdk

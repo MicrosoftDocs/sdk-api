@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_shader_debug_info.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_debug_info.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 18092958-2031-f4f8-2da4-c36244bd2989, D3D10_SHADER_DEBUG_INFO, D3D10_SHADER_DEBUG_INFO structure [Direct3D 10], _D3D10_SHADER_DEBUG_INFO, d3d10_1shader/D3D10_SHADER_DEBUG_INFO, direct3d10.d3d10_shader_debug_info
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Describes the format of the <a href="https://msdn.microsoft.com/d180fee0-1a69-4250-a0c4-d6e3754f063a">ID3D10Blob Interface</a> returned by <a href="https://msdn.microsoft.com/en-us/library/Bb205098(v=VS.85).aspx">D3D10GetShaderDebugInfo</a>.
+Describes the format of the <a href="https://msdn.microsoft.com/d180fee0-1a69-4250-a0c4-d6e3754f063a">ID3D10Blob Interface</a> returned by <a href="https://msdn.microsoft.com/f42def2b-5011-471c-9667-d62a155cc759">D3D10GetShaderDebugInfo</a>.
 
 
 ## -struct-fields
@@ -105,7 +105,7 @@ Number of included files.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Offset to array of <a href="https://msdn.microsoft.com/en-us/library/Bb172419(v=VS.85).aspx">D3D10_SHADER_DEBUG_FILE_INFO</a> structures that has <b>Files</b> elements.
+Offset to array of <a href="https://msdn.microsoft.com/17927edc-fe1b-4e9b-8963-f310d65ac2d8">D3D10_SHADER_DEBUG_FILE_INFO</a> structures that has <b>Files</b> elements.
 
 
 ### -field Instructions
@@ -119,7 +119,7 @@ Number of instructions.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Offset to array of <a href="https://msdn.microsoft.com/en-us/library/Bb172422(v=VS.85).aspx">D3D10_SHADER_DEBUG_INST_INFO</a> structures that has <b>Instructions</b> elements.
+Offset to array of <a href="https://msdn.microsoft.com/6bf3ffa3-fdba-428f-87e6-9156cb1604c8">D3D10_SHADER_DEBUG_INST_INFO</a> structures that has <b>Instructions</b> elements.
 
 
 ### -field Variables
@@ -133,7 +133,7 @@ Number of variables.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Offset to array of <a href="https://msdn.microsoft.com/en-us/library/Bb172431(v=VS.85).aspx">D3D10_SHADER_DEBUG_VAR_INFO</a> structures that has <b>Variables</b> elements.
+Offset to array of <a href="https://msdn.microsoft.com/126c1efd-8f41-4b03-8587-21e7d607362b">D3D10_SHADER_DEBUG_VAR_INFO</a> structures that has <b>Variables</b> elements.
 
 
 ### -field InputVariables
@@ -147,7 +147,7 @@ Number of variables to initialize before running.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Offset to array of <a href="https://msdn.microsoft.com/en-us/library/Bb172421(v=VS.85).aspx">D3D10_SHADER_DEBUG_INPUT_INFO</a> structures that has <b>InputVariables</b> elements.
+Offset to array of <a href="https://msdn.microsoft.com/143b770a-9ae0-4e2e-9d71-e0d4838070cb">D3D10_SHADER_DEBUG_INPUT_INFO</a> structures that has <b>InputVariables</b> elements.
 
 
 ### -field Tokens
@@ -161,7 +161,7 @@ Number of tokens to initialize.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Offset to array of <a href="https://msdn.microsoft.com/en-us/library/Bb172429(v=VS.85).aspx">D3D10_SHADER_DEBUG_TOKEN_INFO</a> structures that has <b>Tokens</b> elements.
+Offset to array of <a href="https://msdn.microsoft.com/caf2f905-e183-48d6-af3c-2dbb0079fee5">D3D10_SHADER_DEBUG_TOKEN_INFO</a> structures that has <b>Tokens</b> elements.
 
 
 ### -field Scopes
@@ -175,7 +175,7 @@ Number of scopes.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Offset to array of <a href="https://msdn.microsoft.com/en-us/library/Bb172428(v=VS.85).aspx">D3D10_SHADER_DEBUG_SCOPE_INFO</a> structures that has <b>Scopes</b> elements.
+Offset to array of <a href="https://msdn.microsoft.com/ccee4d4b-86e2-441c-abc1-2aba1163f149">D3D10_SHADER_DEBUG_SCOPE_INFO</a> structures that has <b>Scopes</b> elements.
 
 
 ### -field ScopeVariables
@@ -189,7 +189,7 @@ Number of variables declared.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Offset to array of <a href="https://msdn.microsoft.com/en-us/library/Bb172427(v=VS.85).aspx">D3D10_SHADER_DEBUG_SCOPEVAR_INFO</a> structures that has <b>Scopes</b> elements.
+Offset to array of <a href="https://msdn.microsoft.com/4ea300b1-fbd6-4cb0-8485-42f55806e19d">D3D10_SHADER_DEBUG_SCOPEVAR_INFO</a> structures that has <b>Scopes</b> elements.
 
 
 ### -field UintOffset
@@ -211,7 +211,7 @@ Offset to the string datastore, all string offsets are from this offset.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205159(v=VS.85).aspx">Shader Structures</a>
+<a href="https://msdn.microsoft.com/b36309e0-1c44-42d9-adcf-33acd753438c">Shader Structures</a>
  
 
  

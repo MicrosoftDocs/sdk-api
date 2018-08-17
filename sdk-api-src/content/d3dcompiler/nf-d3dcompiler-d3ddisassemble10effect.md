@@ -61,7 +61,7 @@ Disassembles compiled HLSL code from a Direct3D10 effect.
 
 ### -param pEffect [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173630(v=VS.85).aspx">ID3D10Effect</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/3525d559-11e4-4c38-acfe-5dc560264c31">ID3D10Effect</a>*</b>
 
 A pointer to source data as compiled HLSL code.
 

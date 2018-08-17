@@ -7,7 +7,7 @@ old-location: base\mapviewoffileexnuma.htm
 old-project: memory
 ms.assetid: 1e28c8db-112d-481d-b470-8ca618e125ce
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: FILE_MAP_ALL_ACCESS, FILE_MAP_COPY, FILE_MAP_EXECUTE, FILE_MAP_READ, FILE_MAP_WRITE, MapViewOfFileExNuma, MapViewOfFileExNuma function, NUMA_NO_PREFERRED_NODE, base.mapviewoffileexnuma, winbase/MapViewOfFileExNuma
 ms.prod: windows
 ms.technology: windows-sdk
@@ -301,8 +301,8 @@ The exception is related to remote files. Although
     merged.
 
 A mapped view of a file is not guaranteed to be coherent with a file being accessed by the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa365467(v=VS.85).aspx">ReadFile</a> or 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa365747(v=VS.85).aspx">WriteFile</a> function.
+    <a href="base.readfile">ReadFile</a> or 
+    <a href="base.writefile">WriteFile</a> function.
 
 To guard against <b>EXCEPTION_IN_PAGE_ERROR</b> exceptions, use structured exception 
     handling to protect any code that writes to or reads from a memory mapped view of a file other than the page file. 
@@ -416,7 +416,7 @@ Yes
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365467(v=VS.85).aspx">ReadFile</a>
+<a href="base.readfile">ReadFile</a>
 
 
 
@@ -432,7 +432,7 @@ Yes
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365747(v=VS.85).aspx">WriteFile</a>
+<a href="base.writefile">WriteFile</a>
  
 
  

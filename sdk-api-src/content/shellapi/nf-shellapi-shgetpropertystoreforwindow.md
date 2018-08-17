@@ -99,7 +99,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-An application can use this function to obtain access to a window's property store so that it can set an explicit Application User Model ID (AppUserModelID) in the <a href="https://msdn.microsoft.com/en-us/library/Dd391569(v=VS.85).aspx">System.AppUserModel.ID</a> property.
+An application can use this function to obtain access to a window's property store so that it can set an explicit Application User Model ID (AppUserModelID) in the <a href="shell.props_System_AppUserModel_Id">System.AppUserModel.ID</a> property.
 
 A window's properties must be removed before the window is closed. If this is not done, the resources used by those properties are not returned to the system. A property is removed by setting it to the <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> type VT_EMPTY.
 
@@ -113,13 +113,13 @@ Applications should also use this property store to set these relaunch propertie
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd391571(v=VS.85).aspx">System.AppUserModel.RelaunchCommand</a>
+<a href="shell.props_System_AppUserModel_RelaunchCommand">System.AppUserModel.RelaunchCommand</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd391572(v=VS.85).aspx">System.AppUserModel.RelaunchDisplayNameResource</a>
+<a href="shell.props_System_AppUserModel_RelaunchDisplayNameResource">System.AppUserModel.RelaunchDisplayNameResource</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dd391573(v=VS.85).aspx">System.AppUserModel.RelaunchIconResource</a>
+<a href="shell.props_System_AppUserModel_RelaunchIconResource">System.AppUserModel.RelaunchIconResource</a>
 </li>
 </ul>
 

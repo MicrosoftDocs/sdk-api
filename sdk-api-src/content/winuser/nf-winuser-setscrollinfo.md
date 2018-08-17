@@ -124,7 +124,7 @@ Sets the parameters of the window's standard vertical scroll bar.
 
 Type: <b>LPCSCROLLINFO</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb787537(v=VS.85).aspx">SCROLLINFO</a> structure. Before calling <b>SetScrollInfo</b>, set the 
+Pointer to a <a href="https://msdn.microsoft.com/abb0d18e-81b5-422c-b6e6-318a2d1d11a4">SCROLLINFO</a> structure. Before calling <b>SetScrollInfo</b>, set the 
 					<b>cbSize</b> member of the structure to 
 					<b>sizeof</b>(<b>SCROLLINFO</b>), set the 
 					<b>fMask</b> member to indicate the parameters to set, and specify the new parameter values in the appropriate members.
@@ -154,7 +154,7 @@ Disables the scroll bar instead of removing it, if the scroll bar's new paramete
 </td>
 <td width="60%">
 Sets the scroll page to the value specified in the 
-						<b>nPage</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb787537(v=VS.85).aspx">SCROLLINFO</a> structure pointed to by 
+						<b>nPage</b> member of the <a href="https://msdn.microsoft.com/abb0d18e-81b5-422c-b6e6-318a2d1d11a4">SCROLLINFO</a> structure pointed to by 
 						<i>lpsi</i>.
 
 </td>
@@ -166,7 +166,7 @@ Sets the scroll page to the value specified in the
 </td>
 <td width="60%">
 Sets the scroll position to the value specified in the 
-						<b>nPos</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb787537(v=VS.85).aspx">SCROLLINFO</a> structure pointed to by <i>lpsi</i>.
+						<b>nPos</b> member of the <a href="https://msdn.microsoft.com/abb0d18e-81b5-422c-b6e6-318a2d1d11a4">SCROLLINFO</a> structure pointed to by <i>lpsi</i>.
 
 </td>
 </tr>
@@ -178,7 +178,7 @@ Sets the scroll position to the value specified in the
 <td width="60%">
 Sets the scroll range to the value specified in the 
 						<b>nMin</b> and 
-						<b>nMax</b> members of the <a href="https://msdn.microsoft.com/en-us/library/Bb787537(v=VS.85).aspx">SCROLLINFO</a> structure pointed to by 
+						<b>nMax</b> members of the <a href="https://msdn.microsoft.com/abb0d18e-81b5-422c-b6e6-318a2d1d11a4">SCROLLINFO</a> structure pointed to by 
 						<i>lpsi</i>.
 
 </td>
@@ -211,7 +211,7 @@ The return value is the current position of the scroll box.
 
 The <b>SetScrollInfo</b> function performs range checking on the values specified by the 
 				<b>nPage</b> and 
-				<b>nPos</b> members of the <a href="https://msdn.microsoft.com/en-us/library/Bb787537(v=VS.85).aspx">SCROLLINFO</a> structure. The 
+				<b>nPos</b> members of the <a href="https://msdn.microsoft.com/abb0d18e-81b5-422c-b6e6-318a2d1d11a4">SCROLLINFO</a> structure. The 
 				<b>nPage</b> member must specify a value from 0 to 
 				<b>nMax</b> - 
 				<b>nMin</b> +1. The 
@@ -221,9 +221,9 @@ The <b>SetScrollInfo</b> function performs range checking on the values specifie
 				<b>max</b>(
 				<b>nPage</b>– 1, 0). If either value is beyond its range, the function sets it to a value that is just within the range. 
 
-If the <i>fnBar</i> parameter is SB_CTL and the window specified by the <i>hwnd</i> parameter is not a system scroll bar control, the system sends the <a href="https://msdn.microsoft.com/en-us/library/Bb787571(v=VS.85).aspx">SBM_SETSCROLLINFO</a> message to the window to set scroll bar information (The system can optimize the message to <a href="https://msdn.microsoft.com/en-us/library/Bb787565(v=VS.85).aspx">SBM_SETPOS</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb787567(v=VS.85).aspx">SBM_SETRANGE</a> if the request is solely for the position or range).  This allows <b>SetScrollInfo</b> to operate on a custom control that mimics a scroll bar.  If the window does not handle <b>SBM_SETSCROLLINFO</b> (or the optimized <b>SBM_SETPOS</b> message or <b>SBM_SETRANGE</b> message), then the <b>SetScrollInfo</b> function fails.
+If the <i>fnBar</i> parameter is SB_CTL and the window specified by the <i>hwnd</i> parameter is not a system scroll bar control, the system sends the <a href="https://msdn.microsoft.com/e0e42a81-67be-4d40-88c8-77398b068617">SBM_SETSCROLLINFO</a> message to the window to set scroll bar information (The system can optimize the message to <a href="https://msdn.microsoft.com/6b3c16ba-1cdf-41ff-8546-ba98477af334">SBM_SETPOS</a> or <a href="https://msdn.microsoft.com/9cf84354-3944-4c10-9b59-39427b840868">SBM_SETRANGE</a> if the request is solely for the position or range).  This allows <b>SetScrollInfo</b> to operate on a custom control that mimics a scroll bar.  If the window does not handle <b>SBM_SETSCROLLINFO</b> (or the optimized <b>SBM_SETPOS</b> message or <b>SBM_SETRANGE</b> message), then the <b>SetScrollInfo</b> function fails.
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/Bb787531(v=VS.85).aspx">Scrolling Text with the WM_PAINT Message</a>.
+For an example, see <a href="Using_Scroll_Bars.htm">Scrolling Text with the WM_PAINT Message</a>.
 
 
 
@@ -233,7 +233,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/Bb787531(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787583(v=VS.85).aspx">GetScrollInfo</a>
+<a href="https://msdn.microsoft.com/c4bd075b-b4fd-44cf-ba51-b9d8a95a5152">GetScrollInfo</a>
 
 
 
@@ -241,7 +241,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/Bb787531(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787537(v=VS.85).aspx">SCROLLINFO</a>
+<a href="https://msdn.microsoft.com/abb0d18e-81b5-422c-b6e6-318a2d1d11a4">SCROLLINFO</a>
  
 
  

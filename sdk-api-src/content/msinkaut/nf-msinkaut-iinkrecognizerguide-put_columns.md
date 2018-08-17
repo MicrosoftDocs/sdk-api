@@ -209,7 +209,7 @@ z
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846802(v=VS.85).aspx">IInkRecognizerGuide</a>
+<a href="tablet.iinkrecognizerguide">IInkRecognizerGuide</a>
 
 
 

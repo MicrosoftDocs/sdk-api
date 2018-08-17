@@ -118,7 +118,7 @@ Skips a specified number of <a href="https://msdn.microsoft.com/54e1df08-de8f-43
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693395(v=VS.85).aspx">CoGetMalloc</a>
+<a href="_com_cogetmalloc">CoGetMalloc</a>
 
 
 

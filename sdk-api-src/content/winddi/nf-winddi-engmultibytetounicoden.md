@@ -7,7 +7,7 @@ old-location: display\engmultibytetounicoden.htm
 old-project: display
 ms.assetid: fa7a4e64-46be-49c8-9862-04348b9dc79e
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/13/2018
 ms.keywords: EngMultiByteToUnicodeN, EngMultiByteToUnicodeN function [Display Devices], display.engmultibytetounicoden, gdifncs_ad2cf58d-ac6c-438f-b9be-74e2617a857c.xml, winddi/EngMultiByteToUnicodeN
 ms.prod: windows
 ms.technology: windows-sdk

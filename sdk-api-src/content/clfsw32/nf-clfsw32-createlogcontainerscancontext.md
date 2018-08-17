@@ -136,14 +136,7 @@ This mode initializes the container context and returns the first set of contain
 A pointer to a client-allocated <a href="https://msdn.microsoft.com/716fa005-c801-4a5d-99f1-0babe64dc4a8">CLFS_SCAN_CONTEXT</a> structure that receives a scan context that can be passed to the <a href="https://msdn.microsoft.com/a3a374ab-e5e9-47c0-9a62-d880823035b5">ScanLogContainers</a> function when a client scans the log containers of a dedicated log.
 
 
-### -param OPTIONAL
-
-TBD
-
-
-
-
-#### - pOverlapped [in, out, optional]
+### -param pOverlapped [in, out, optional]
 
 A pointer to an <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure that is required for asynchronous operation. 
 

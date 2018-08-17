@@ -4,10 +4,10 @@ title: LocalFileTimeToFileTime function
 author: windows-sdk-content
 description: Converts a local file time to a file time based on the Coordinated Universal Time (UTC).
 old-location: base\localfiletimetofiletime.htm
-old-project: SysInfo
+old-project: sysinfo
 ms.assetid: 491e4724-8e6f-4155-b427-15cd7968e2da
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/10/2018
 ms.keywords: LocalFileTimeToFileTime, LocalFileTimeToFileTime function, _win32_localfiletimetofiletime, base.localfiletimetofiletime, fileapi/LocalFileTimeToFileTime, winbase/LocalFileTimeToFileTime
 ms.prod: windows
 ms.technology: windows-sdk

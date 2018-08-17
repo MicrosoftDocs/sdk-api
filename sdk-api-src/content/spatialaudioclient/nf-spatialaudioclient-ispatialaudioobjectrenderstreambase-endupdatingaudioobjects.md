@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioobjectrenderstream_endupdatingaudioobjects.
 old-project: CoreAudio
 ms.assetid: 111DB695-66F6-45DD-B3B6-1DFB0D5D29FC
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/14/2018
 ms.keywords: EndUpdatingAudioObjects, EndUpdatingAudioObjects method [Core Audio], EndUpdatingAudioObjects method [Core Audio],ISpatialAudioObjectRenderStreamBase interface, ISpatialAudioObjectRenderStreamBase interface [Core Audio],EndUpdatingAudioObjects method, ISpatialAudioObjectRenderStreamBase.EndUpdatingAudioObjects, ISpatialAudioObjectRenderStreamBase::EndUpdatingAudioObjects, coreaudio.ispatialaudioobjectrenderstream_endupdatingaudioobjects, spatialaudioclient/ISpatialAudioObjectRenderStreamBase::EndUpdatingAudioObjects
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,7 +94,7 @@ If the method succeeds, it returns S_OK. If it fails, possible return codes incl
 
 
 
-The pointers retrieved with <a href="https://msdn.microsoft.com/CD777E2D-4CA0-4C2D-A475-22BF770DD59D">ISpatialAudioObject::GetBuffer</a> can no longer be used after this method is called.
+The pointers retrieved with <a href="https://msdn.microsoft.com/CD777E2D-4CA0-4C2D-A475-22BF770DD59D">ISpatialAudioObjectBase::GetBuffer</a> can no longer be used after this method is called.
 
 
 

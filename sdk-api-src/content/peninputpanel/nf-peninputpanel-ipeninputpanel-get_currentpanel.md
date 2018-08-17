@@ -94,7 +94,7 @@ If you change the panel by setting the <b>CurrentPanel</b> property before the <
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846809(v=VS.85).aspx">IPenInputPanel</a>
+<a href="tablet.ipeninputpanel">IPenInputPanel</a>
 
 
 

@@ -235,7 +235,7 @@ An error occurs if the index doesn't match any existing member of the collection
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846807(v=VS.85).aspx">IInkTablets</a>
+<a href="tablet.iinktablets">IInkTablets</a>
 
 
 

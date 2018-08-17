@@ -7,7 +7,7 @@ old-location: base\rtwqputworkitem.htm
 old-project: procthread
 ms.assetid: d2ae1cec-b279-4f5e-a803-fe0b8f453029
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: RtwqPutWorkItem, RtwqPutWorkItem function, base.rtwqputworkitem, rtworkq/RtwqPutWorkItem
 ms.prod: windows
 ms.technology: windows-sdk

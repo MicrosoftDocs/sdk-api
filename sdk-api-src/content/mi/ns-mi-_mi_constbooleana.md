@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_constbooleana.htm
 old-project: wmi_v2
 ms.assetid: 9814a4b9-3297-4aed-bb5f-d2b0a71b2699
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/13/2018
 ms.keywords: MI_ConstBooleanA, MI_ConstBooleanA structure [Windows Management Infrastructure (MI)], _MI_ConstBooleanA, mi/MI_ConstBooleanA, wmi._mi_constbooleana, wmi_v2.mi_constbooleana
 ms.prod: windows
 ms.technology: windows-sdk

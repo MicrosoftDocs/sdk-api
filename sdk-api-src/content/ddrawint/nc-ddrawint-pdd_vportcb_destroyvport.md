@@ -7,7 +7,7 @@ old-location: display\ddvideoportdestroy.htm
 old-project: display
 ms.assetid: 0426eeaa-4d9a-4e5e-8550-2f7adbb26685
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/13/2018
 ms.keywords: DdVideoPortDestroy, DdVideoPortDestroy callback function [Display Devices], PDD_VPORTCB_DESTROYVPORT, PDD_VPORTCB_DESTROYVPORT callback, ddfncs_865d04b1-c817-4000-9fdc-9e498dee679c.xml, ddrawint/DdVideoPortDestroy, display.ddvideoportdestroy
 ms.prod: windows
 ms.technology: windows-sdk

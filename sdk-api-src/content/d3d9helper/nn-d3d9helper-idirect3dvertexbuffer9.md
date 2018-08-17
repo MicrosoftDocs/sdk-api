@@ -57,7 +57,7 @@ Applications use the methods of the IDirect3DVertexBuffer9 interface to manipula
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DVertexBuffer9</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb205878(v=VS.85).aspx">IDirect3DResource9</a>. <b>IDirect3DVertexBuffer9</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDirect3DVertexBuffer9</b> interface inherits from <a href="https://msdn.microsoft.com/1fdb0bfe-6e36-49ca-b119-a2b3266037d2">IDirect3DResource9</a>. <b>IDirect3DVertexBuffer9</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IDirect3DVertexBuffer9</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205916(v=VS.85).aspx">GetDesc</a>
+<a href="https://msdn.microsoft.com/1f5842e9-b0ea-460c-998a-24ec024bc561">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Retrieves a description of the vertex buffer resource.
@@ -81,7 +81,7 @@ Retrieves a description of the vertex buffer resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205917(v=VS.85).aspx">Lock</a>
+<a href="https://msdn.microsoft.com/d967ea07-a59f-401a-a63a-a1a764f91485">Lock</a>
 </td>
 <td align="left" width="63%">
 Locks a range of vertex data and obtains a pointer to the vertex buffer memory.
@@ -90,7 +90,7 @@ Locks a range of vertex data and obtains a pointer to the vertex buffer memory.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb205918(v=VS.85).aspx">Unlock</a>
+<a href="https://msdn.microsoft.com/72932c97-d515-4f50-94ec-274274248cd4">Unlock</a>
 </td>
 <td align="left" width="63%">
 Unlocks vertex data.
@@ -104,9 +104,9 @@ Unlocks vertex data.
 
 
 
-The <b>IDirect3DVertexBuffer9</b> interface is obtained by calling the <a href="https://msdn.microsoft.com/en-us/library/Bb174364(v=VS.85).aspx">IDirect3DDevice9::CreateVertexBuffer</a> method.
+The <b>IDirect3DVertexBuffer9</b> interface is obtained by calling the <a href="https://msdn.microsoft.com/7b914bbd-d4bb-4d59-9820-f494a4cf0757">IDirect3DDevice9::CreateVertexBuffer</a> method.
 
-This interface inherits additional functionality from the <a href="https://msdn.microsoft.com/en-us/library/Bb205878(v=VS.85).aspx">IDirect3DResource9</a> interface.
+This interface inherits additional functionality from the <a href="https://msdn.microsoft.com/1fdb0bfe-6e36-49ca-b119-a2b3266037d2">IDirect3DResource9</a> interface.
 
 This interface, like all COM interfaces, inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface.
 
@@ -139,15 +139,15 @@ typedef struct IDirect3DVertexBuffer9 *LPDIRECT3DVERTEXBUFFER9, *PDIRECT3DVERTEX
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174364(v=VS.85).aspx">IDirect3DDevice9::CreateVertexBuffer</a>
+<a href="https://msdn.microsoft.com/7b914bbd-d4bb-4d59-9820-f494a4cf0757">IDirect3DDevice9::CreateVertexBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205878(v=VS.85).aspx">IDirect3DResource9</a>
+<a href="https://msdn.microsoft.com/1fdb0bfe-6e36-49ca-b119-a2b3266037d2">IDirect3DResource9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb206332(v=VS.85).aspx">Vertex Buffers (Direct3D 9)</a>
+<a href="https://msdn.microsoft.com/f9274562-413c-4f0d-bdb4-dc8fa83b6063">Vertex Buffers (Direct3D 9)</a>
  
 
  

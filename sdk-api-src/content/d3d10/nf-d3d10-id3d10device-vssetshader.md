@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_vssetshader.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_vssetshader.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 8aebab54-e44a-a11b-1d07-449a345b9922, ID3D10Device interface [Direct3D 10],VSSetShader method, ID3D10Device.VSSetShader, ID3D10Device::VSSetShader, VSSetShader, VSSetShader method [Direct3D 10], VSSetShader method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::VSSetShader, direct3d10.id3d10device_vssetshader
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,9 +62,9 @@ Set a vertex shader to the device.
 
 ### -param pVertexShader [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173875(v=VS.85).aspx">ID3D10VertexShader</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/ca2ff145-c8de-4ce9-89e3-fc2fd842028e">ID3D10VertexShader</a>*</b>
 
-Pointer to a vertex shader (see <a href="https://msdn.microsoft.com/en-us/library/Bb173875(v=VS.85).aspx">ID3D10VertexShader</a>). Passing in <b>NULL</b> disables the shader for this pipeline stage.
+Pointer to a vertex shader (see <a href="https://msdn.microsoft.com/ca2ff145-c8de-4ce9-89e3-fc2fd842028e">ID3D10VertexShader</a>). Passing in <b>NULL</b> disables the shader for this pipeline stage.
 
 
 ## -returns
@@ -90,7 +90,7 @@ The method will not hold a reference to the interfaces passed in. For that reaso
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
  
 
  

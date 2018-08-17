@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_parametersetft.htm
 old-project: wmi_v2
 ms.assetid: 48e10e9c-8e50-4811-bd2a-1934d27373f0
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/13/2018
 ms.keywords: MI_ParameterSetFT, MI_ParameterSetFT structure [Windows Management Infrastructure (MI)], _MI_ParameterSetFT, mi/MI_ParameterSetFT, wmi_v2.mi_parametersetft
 ms.prod: windows
 ms.technology: windows-sdk

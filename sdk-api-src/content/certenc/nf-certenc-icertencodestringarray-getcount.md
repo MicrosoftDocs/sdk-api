@@ -4,10 +4,10 @@ title: ICertEncodeStringArray::GetCount
 author: windows-sdk-content
 description: Returns the number of string values in the string array.
 old-location: security\icertencodestringarray_getcount.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: c02a23ea-87c2-4458-8b1a-b010e8103a90
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: CCertEncodeStringArray object [Security],GetCount method, GetCount, GetCount method [Security], GetCount method [Security],CCertEncodeStringArray object, GetCount method [Security],ICertEncodeStringArray interface, ICertEncodeStringArray interface [Security],GetCount method, ICertEncodeStringArray.GetCount, ICertEncodeStringArray::GetCount, _certsrv_icertencodestringarray_getcount, certenc/ICertEncodeStringArray::GetCount, security.icertencodestringarray_getcount
 ms.prod: windows
 ms.technology: windows-sdk

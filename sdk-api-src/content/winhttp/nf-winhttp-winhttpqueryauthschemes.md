@@ -7,7 +7,7 @@ old-location: http\winhttpqueryauthschemes.htm
 old-project: winhttp
 ms.assetid: 37fb9342-c5c2-46a3-a8b0-83060aa997e2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/09/2018
 ms.keywords: WINHTTP_AUTH_SCHEME_BASIC, WINHTTP_AUTH_SCHEME_DIGEST, WINHTTP_AUTH_SCHEME_NEGOTIATE, WINHTTP_AUTH_SCHEME_NTLM, WINHTTP_AUTH_SCHEME_PASSPORT, WINHTTP_AUTH_TARGET_PROXY, WINHTTP_AUTH_TARGET_SERVER, WinHttpQueryAuthSchemes, WinHttpQueryAuthSchemes function [WinHTTP], http.winhttpqueryauthschemes, winhttp.winhttpqueryauthschemes_function, winhttp/WinHttpQueryAuthSchemes
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: CryptUIWizDigitalSign function
 author: windows-sdk-content
 description: Digitally signs a document or BLOB.
 old-location: security\cryptuiwizdigitalsign.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 1d01523e-d47b-49be-82c8-5e98f97be800
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: CRYPTUI_WIZ_NO_UI, CryptUIWizDigitalSign, CryptUIWizDigitalSign function [Security], cryptuiapi/CryptUIWizDigitalSign, security.cryptuiwizdigitalsign
 ms.prod: windows
 ms.technology: windows-sdk

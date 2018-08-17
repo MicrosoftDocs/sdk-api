@@ -76,14 +76,7 @@ This LSN must be in the range between the current base LSN and the last LSN of t
 This parameter is not implemented at this time, and must be zero.
 
 
-### -param OPTIONAL
-
-TBD
-
-
-
-
-#### - pOverlapped [in, out, optional]
+### -param pOverlapped [in, out, optional]
 
 A pointer to an <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure that is required for asynchronous operation. 
 

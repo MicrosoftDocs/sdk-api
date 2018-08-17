@@ -7,7 +7,7 @@ old-location: security\iazscope_applicationdata.htm
 old-project: secauthz
 ms.assetid: c54aaadb-0c4a-43f9-ac50-413ed190b365
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: ApplicationData property [Security], ApplicationData property [Security],AzScope object, ApplicationData property [Security],IAzScope interface, AzScope object [Security],ApplicationData property, IAzScope interface [Security],ApplicationData property, IAzScope.ApplicationData, IAzScope.get_ApplicationData, IAzScope::ApplicationData, IAzScope::get_ApplicationData, IAzScope::put_ApplicationData, azroles/IAzScope::ApplicationData, azroles/IAzScope::get_ApplicationData, azroles/IAzScope::put_ApplicationData, get_ApplicationData, security.iazscope_applicationdata
 ms.prod: windows
 ms.technology: windows-sdk

@@ -76,7 +76,7 @@ Creates a <b>Color::Color</b> object and initializes it to opaque black. This is
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536243(v=VS.85).aspx">Color Constructors</a>
+<a href="https://msdn.microsoft.com/ebd68c22-9b00-4a8e-9954-e8b0eda764f8">Color Constructors</a>
  
 
  

@@ -82,7 +82,7 @@ Setting this property equal to zero prevents the ink from being replaced by the 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
+<a href="tablet.iinkedit_">IInkEdit</a>
 
 
 

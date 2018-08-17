@@ -62,16 +62,16 @@ Retrieves a description of the surface.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172611(v=VS.85).aspx">D3DSURFACE_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/fad8ffdb-36e5-4695-b343-e1315357c31a">D3DSURFACE_DESC</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb172611(v=VS.85).aspx">D3DSURFACE_DESC</a> structure, describing the surface. 
+Pointer to a <a href="https://msdn.microsoft.com/fad8ffdb-36e5-4695-b343-e1315357c31a">D3DSURFACE_DESC</a> structure, describing the surface. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK.
 
@@ -85,7 +85,7 @@ D3DERR_INVALIDCALL is returned if the argument is invalid.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a>
+<a href="https://msdn.microsoft.com/312eee39-6a5c-46b6-b145-78d5f0f9eecd">IDirect3DSurface9</a>
  
 
  

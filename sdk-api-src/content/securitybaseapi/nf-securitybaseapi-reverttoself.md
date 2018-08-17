@@ -7,7 +7,7 @@ old-location: security\reverttoself.htm
 old-project: secauthz
 ms.assetid: e3de77b9-dd27-4f20-b63d-ad2c57ac4283
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: RevertToSelf, RevertToSelf function [Security], _win32_reverttoself, security.reverttoself, securitybaseapi/RevertToSelf
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,7 +86,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-A <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">process</a> should call the <b>RevertToSelf</b> function after finishing any impersonation begun by using the <a href="https://msdn.microsoft.com/en-us/library/ms648756(v=VS.85).aspx">DdeImpersonateClient</a>, <a href="https://msdn.microsoft.com/en-us/library/ms649005(v=VS.85).aspx">ImpersonateDdeClientWindow</a>, <a href="https://msdn.microsoft.com/cf5c31ae-6749-45c2-888f-697060cc8c75">ImpersonateLoggedOnUser</a>, <a href="https://msdn.microsoft.com/63fc90ac-536a-4d9b-ba0d-19dc0cc09e6b">ImpersonateNamedPipeClient</a>, <a href="https://msdn.microsoft.com/f909e3a7-6c7f-4c05-aa2e-e637113804c9">ImpersonateSelf</a>, <a href="https://msdn.microsoft.com/98d1072e-f569-4c8c-9254-fa558054c7ec">ImpersonateAnonymousToken</a> or <a href="https://msdn.microsoft.com/ba1a4fce-b3cc-423d-b213-5dfca3dea708">SetThreadToken</a> function.
+A <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">process</a> should call the <b>RevertToSelf</b> function after finishing any impersonation begun by using the <a href="_win32_ddeimpersonateclient_cpp">DdeImpersonateClient</a>, <a href="_win32_impersonateddeclientwindow_cpp">ImpersonateDdeClientWindow</a>, <a href="https://msdn.microsoft.com/cf5c31ae-6749-45c2-888f-697060cc8c75">ImpersonateLoggedOnUser</a>, <a href="https://msdn.microsoft.com/63fc90ac-536a-4d9b-ba0d-19dc0cc09e6b">ImpersonateNamedPipeClient</a>, <a href="https://msdn.microsoft.com/f909e3a7-6c7f-4c05-aa2e-e637113804c9">ImpersonateSelf</a>, <a href="https://msdn.microsoft.com/98d1072e-f569-4c8c-9254-fa558054c7ec">ImpersonateAnonymousToken</a> or <a href="https://msdn.microsoft.com/ba1a4fce-b3cc-423d-b213-5dfca3dea708">SetThreadToken</a> function.
 
 An RPC server that used the 
 <a href="https://msdn.microsoft.com/1b91c4dc-ac49-4002-b293-a25ca2ffcb21">RpcImpersonateClient</a> function to impersonate a client must call the 
@@ -110,7 +110,7 @@ For an example that uses this function, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Client/Server Access Control Functions</a>
+<a href="authorization_functions.htm">Client/Server Access Control Functions</a>
 
 
 
@@ -118,7 +118,7 @@ For an example that uses this function, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648756(v=VS.85).aspx">DdeImpersonateClient</a>
+<a href="_win32_ddeimpersonateclient_cpp">DdeImpersonateClient</a>
 
 
 
@@ -126,7 +126,7 @@ For an example that uses this function, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649005(v=VS.85).aspx">ImpersonateDdeClientWindow</a>
+<a href="_win32_impersonateddeclientwindow_cpp">ImpersonateDdeClientWindow</a>
 
 
 

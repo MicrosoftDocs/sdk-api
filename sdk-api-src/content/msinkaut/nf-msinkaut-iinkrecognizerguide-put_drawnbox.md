@@ -86,7 +86,7 @@ The writing box specifies the boundaries of the ink to the recognizer.The drawn 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846802(v=VS.85).aspx">IInkRecognizerGuide</a>
+<a href="tablet.iinkrecognizerguide">IInkRecognizerGuide</a>
 
 
 

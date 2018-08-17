@@ -93,7 +93,7 @@ For further details about this method, refer to the <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
+<a href="tablet.iinkpicture">IInkPicture</a>
 
 
 

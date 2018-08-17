@@ -60,9 +60,9 @@ The <b>DsRoleGetPrimaryDomainInformation</b> function retrieves state data for t
 
 
 
-### -param OPTIONAL
+### -param lpServer [in]
 
-TBD
+Pointer to null-terminated Unicode string that contains the name of the computer on which to call the function. If this parameter is <b>NULL</b>, the local computer is used.
 
 
 ### -param InfoLevel [in]
@@ -75,11 +75,6 @@ Contains one of the <a href="https://msdn.microsoft.com/c8b141b1-d5fa-4ec9-8899-
 Pointer to the address of a buffer that receives the requested data. The format of this data depends on the value of the <i>InfoLevel</i> parameter.
 
 The caller must free this memory when it is no longer required by calling <a href="https://msdn.microsoft.com/5560dfec-2134-4e02-9c87-26d246cd5841">DsRoleFreeMemory</a>.
-
-
-#### - lpServer [in]
-
-Pointer to null-terminated Unicode string that contains the name of the computer on which to call the function. If this parameter is <b>NULL</b>, the local computer is used.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_so_declaration_entry.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_so_declaration_entry.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 367a5fa7-5907-24fc-2124-92ee48f50140, D3D10_SO_DECLARATION_ENTRY, D3D10_SO_DECLARATION_ENTRY structure [Direct3D 10], d3d10/D3D10_SO_DECLARATION_ENTRY, direct3d10.d3d10_so_declaration_entry
 ms.prod: windows
 ms.technology: windows-sdk
@@ -99,7 +99,7 @@ The output slot that contains the vertex buffer that contains this output entry.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205153(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/84769515-3f3b-4464-9620-7b806bf905b3">Core Structures</a>
  
 
  

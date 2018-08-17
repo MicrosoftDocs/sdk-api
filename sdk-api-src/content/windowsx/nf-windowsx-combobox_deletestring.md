@@ -52,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Deletes the item at the specified location in a list in a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775830(v=VS.85).aspx">CB_DELETESTRING</a> message explicitly.
+Deletes the item at the specified location in a list in a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/8d526796-04ef-4c01-94d6-fb50e6fef27b">CB_DELETESTRING</a> message explicitly.
 
 
 ## -parameters
@@ -78,7 +78,7 @@ The zero-based index of the item to delete.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775830(v=VS.85).aspx">CB_DELETESTRING</a>
+For more information, see <a href="https://msdn.microsoft.com/8d526796-04ef-4c01-94d6-fb50e6fef27b">CB_DELETESTRING</a>
 
 
 

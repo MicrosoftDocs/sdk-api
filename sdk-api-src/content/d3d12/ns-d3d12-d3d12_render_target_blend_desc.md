@@ -113,9 +113,9 @@ A combination of <a href="https://msdn.microsoft.com/BC07C5E7-CFEC-4902-9FB1-74A
 
 
 
-You specify an array of <b>D3D12_RENDER_TARGET_BLEND_DESC</b> structures in the <b>RenderTarget</b> member of the <a href="https://msdn.microsoft.com/FFCA10AF-1081-4D4B-900D-C3692D0B5A91">D3D12_BLEND_DESC</a> structure to describe the blend states for render targets; you can bind up to eight render targets to the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">output-merger stage</a> at one time.
+You specify an array of <b>D3D12_RENDER_TARGET_BLEND_DESC</b> structures in the <b>RenderTarget</b> member of the <a href="https://msdn.microsoft.com/FFCA10AF-1081-4D4B-900D-C3692D0B5A91">D3D12_BLEND_DESC</a> structure to describe the blend states for render targets; you can bind up to eight render targets to the <a href="https://msdn.microsoft.com/8be68c15-2deb-4804-b683-30080a876189">output-merger stage</a> at one time.
 
-For info about how blending is done, see the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">output-merger stage</a>.
+For info about how blending is done, see the <a href="https://msdn.microsoft.com/8be68c15-2deb-4804-b683-30080a876189">output-merger stage</a>.
 
 Here are the default values for blend state.
 

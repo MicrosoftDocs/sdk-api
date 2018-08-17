@@ -177,7 +177,7 @@ The <i>distanceFromPacket</i> parameter describes the distance from the point to
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846797(v=VS.85).aspx">IInkDisp</a>
+<a href="tablet.iinkdisp">IInkDisp</a>
 
 
 

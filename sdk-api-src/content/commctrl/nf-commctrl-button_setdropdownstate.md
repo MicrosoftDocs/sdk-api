@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Sets the drop down state for a specified button with style of <a href="https://msdn.microsoft.com/en-us/library/Bb775951(v=VS.85).aspx">BS_SPLITBUTTON</a>. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775973(v=VS.85).aspx">BCM_SETDROPDOWNSTATE</a> message explicitly. 
+Sets the drop down state for a specified button with style of <a href="Button_Styles.htm">BS_SPLITBUTTON</a>. Use this macro or send the <a href="https://msdn.microsoft.com/725deff4-0bcb-497d-a6cf-e9c98b05f16e">BCM_SETDROPDOWNSTATE</a> message explicitly. 
 
 
 ## -parameters

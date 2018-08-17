@@ -88,7 +88,7 @@ An <a href="https://msdn.microsoft.com/189f430e-9d00-4e29-bb8c-8ac195896793">Ink
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
+<a href="tablet.iinkoverlay">IInkOverlay</a>
 
 
 

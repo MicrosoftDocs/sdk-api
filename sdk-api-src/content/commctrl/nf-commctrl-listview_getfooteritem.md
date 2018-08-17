@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Gets information on a footer item for a specified list-view control. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774928(v=VS.85).aspx">LVM_GETFOOTERITEM</a> message explicitly.
+Gets information on a footer item for a specified list-view control. Use this macro or send the <a href="https://msdn.microsoft.com/92f55719-c265-433f-84fc-a673680c7ad9">LVM_GETFOOTERITEM</a> message explicitly.
 
 
 ## -parameters
@@ -75,7 +75,7 @@ An index of the item.
 
 ### -param pfi [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb774750(v=VS.85).aspx">LVFOOTERITEM</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/b993616d-1eb2-4c9b-ac05-de1abd3e1ff7">LVFOOTERITEM</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb774750(v=VS.85).aspx">LVFOOTERITEM</a> structure to receive a value for the <i>state</i> and/or <i>pszText</i> members according to the value of the <i>mask</i> member. The caller is responsible for allocating this structure and setting its members to indicate to the receiver what information to return. For more information, see <b>LVFOOTERITEM</b>.
+A pointer to a <a href="https://msdn.microsoft.com/b993616d-1eb2-4c9b-ac05-de1abd3e1ff7">LVFOOTERITEM</a> structure to receive a value for the <i>state</i> and/or <i>pszText</i> members according to the value of the <i>mask</i> member. The caller is responsible for allocating this structure and setting its members to indicate to the receiver what information to return. For more information, see <b>LVFOOTERITEM</b>.
 

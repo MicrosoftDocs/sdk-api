@@ -7,7 +7,7 @@ old-location: http\winhttpgetieproxyconfigforcurrentuser.htm
 old-project: winhttp
 ms.assetid: 3de4dfb9-881f-47db-9fdf-af0ce162e380
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/09/2018
 ms.keywords: WinHttpGetIEProxyConfigForCurrentUser, WinHttpGetIEProxyConfigForCurrentUser function [WinHTTP], http.winhttpgetieproxyconfigforcurrentuser, winhttp/WinHttpGetIEProxyConfigForCurrentUser
 ms.prod: windows
 ms.technology: windows-sdk

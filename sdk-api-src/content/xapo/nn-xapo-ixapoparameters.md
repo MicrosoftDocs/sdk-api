@@ -81,7 +81,7 @@ Gets the current values for any effect-specific parameters.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee418447(v=VS.85).aspx">SetParameters</a>
+<a href="https://msdn.microsoft.com/1E6FD9FB-9E99-422E-B2E1-3679FC3EEF32">SetParameters</a>
 </td>
 <td align="left" width="63%">
 Sets effect-specific parameters.

@@ -61,37 +61,37 @@ req.product: GDI+ 1.0
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536160(v=VS.85).aspx">Graphics(HDC)</a>
+<a href="https://msdn.microsoft.com/f048c2f7-27b4-48dc-b6d8-871f010603f5">Graphics(HDC)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms536160(v=VS.85).aspx">Graphics::Graphics</a> object that is associated with a specified device context.
+Creates a <a href="https://msdn.microsoft.com/f048c2f7-27b4-48dc-b6d8-871f010603f5">Graphics::Graphics</a> object that is associated with a specified device context.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536159(v=VS.85).aspx">Graphics(Image*)</a>
+<a href="https://msdn.microsoft.com/3e63938f-f16d-4d83-bffa-e015da9d35cf">Graphics(Image*)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms536159(v=VS.85).aspx">Graphics::Graphics</a> object that is associated with an <a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object.
+Creates a <a href="https://msdn.microsoft.com/3e63938f-f16d-4d83-bffa-e015da9d35cf">Graphics::Graphics</a> object that is associated with an <a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> object.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536162(v=VS.85).aspx">Graphics(HWND,BOOL)</a>
+<a href="https://msdn.microsoft.com/71b60ab8-d694-4e81-b3a8-903064074243">Graphics(HWND,BOOL)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms536162(v=VS.85).aspx">Graphics::Graphics</a> object that is associated with a specified window.
+Creates a <a href="https://msdn.microsoft.com/71b60ab8-d694-4e81-b3a8-903064074243">Graphics::Graphics</a> object that is associated with a specified window.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536161(v=VS.85).aspx">Graphics(HDC,HANDLE)</a>
+<a href="https://msdn.microsoft.com/d2f70e4f-9d1c-40ad-a67e-0708d5c6ffd5">Graphics(HDC,HANDLE)</a>
 </td>
 <td align="left" width="63%">
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms536161(v=VS.85).aspx">Graphics::Graphics</a> object that is associated with a specified device context and a specified device.
+Creates a <a href="https://msdn.microsoft.com/d2f70e4f-9d1c-40ad-a67e-0708d5c6ffd5">Graphics::Graphics</a> object that is associated with a specified device context and a specified device.
 
 </td>
 </tr>

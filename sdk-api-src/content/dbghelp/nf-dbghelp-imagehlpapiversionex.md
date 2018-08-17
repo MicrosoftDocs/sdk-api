@@ -7,7 +7,7 @@ old-location: base\imagehlpapiversionex.htm
 old-project: debug
 ms.assetid: 86a26160-ebad-4d6e-b559-3d59f2beb5ca
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: ImagehlpApiVersionEx, ImagehlpApiVersionEx function, _win32_imagehlpapiversionex, base.imagehlpapiversionex, dbghelp/ImagehlpApiVersionEx
 ms.prod: windows
 ms.technology: windows-sdk

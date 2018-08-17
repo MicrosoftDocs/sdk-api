@@ -7,7 +7,7 @@ old-location: security\getsecuritydescriptorcontrol.htm
 old-project: secauthz
 ms.assetid: d66682f2-8017-4245-9d93-5f8332a5b483
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: GetSecurityDescriptorControl, GetSecurityDescriptorControl function [Security], _win32_getsecuritydescriptorcontrol, security.getsecuritydescriptorcontrol, securitybaseapi/GetSecurityDescriptorControl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -105,7 +105,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

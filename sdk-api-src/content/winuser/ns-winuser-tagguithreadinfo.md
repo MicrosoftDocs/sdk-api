@@ -190,7 +190,7 @@ The caret's bounding rectangle, in client coordinates, relative to the window sp
 
 
 
-This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/ms633506(v=VS.85).aspx">GetGUIThreadInfo</a> function to retrieve information about the active window or a specified GUI thread. 
+This structure is used with the <a href="https://msdn.microsoft.com/863e0735-a2d4-4962-99d8-bb6037770c50">GetGUIThreadInfo</a> function to retrieve information about the active window or a specified GUI thread. 
 
 
 
@@ -204,7 +204,7 @@ This structure is used with the <a href="https://msdn.microsoft.com/en-us/librar
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633506(v=VS.85).aspx">GetGUIThreadInfo</a>
+<a href="https://msdn.microsoft.com/863e0735-a2d4-4962-99d8-bb6037770c50">GetGUIThreadInfo</a>
 
 
 

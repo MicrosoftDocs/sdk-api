@@ -53,7 +53,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>IEnumWIA_DEV_INFO::Clone</b> method creates an additional instance of the <a href="https://msdn.microsoft.com/en-us/library/ms630162(v=VS.85).aspx">IEnumWIA_DEV_INFO</a> interface and sends back a pointer to it.
+The <b>IEnumWIA_DEV_INFO::Clone</b> method creates an additional instance of the <a href="https://msdn.microsoft.com/2133b9a4-9340-4984-a81e-66587f2e5163">IEnumWIA_DEV_INFO</a> interface and sends back a pointer to it.
 
 
 
@@ -64,9 +64,9 @@ The <b>IEnumWIA_DEV_INFO::Clone</b> method creates an additional instance of the
 
 ### -param ppIEnum [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms630162(v=VS.85).aspx">IEnumWIA_DEV_INFO</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/2133b9a4-9340-4984-a81e-66587f2e5163">IEnumWIA_DEV_INFO</a>**</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms630162(v=VS.85).aspx">IEnumWIA_DEV_INFO</a> interface. This parameter contains a pointer to the <b>IEnumWIA_DEV_INFO</b> interface instance that <b>IEnumWIA_DEV_INFO::Clone</b> creates.
+Pointer to an <a href="https://msdn.microsoft.com/2133b9a4-9340-4984-a81e-66587f2e5163">IEnumWIA_DEV_INFO</a> interface. This parameter contains a pointer to the <b>IEnumWIA_DEV_INFO</b> interface instance that <b>IEnumWIA_DEV_INFO::Clone</b> creates.
 
 
 ## -returns

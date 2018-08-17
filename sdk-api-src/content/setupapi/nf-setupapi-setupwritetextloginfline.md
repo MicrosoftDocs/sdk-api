@@ -52,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-The <b>SetupWriteTextLogInfLine</b> function writes a log entry in a <a href="https://msdn.microsoft.com/library/Ff550900(v=VS.85).aspx">SetupAPI text log</a> that contains the text of a specified INF file line.
+The <b>SetupWriteTextLogInfLine</b> function writes a log entry in a <a href="devinst.setupapi_text_logs">SetupAPI text log</a> that contains the text of a specified INF file line.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The <b>SetupWriteTextLogInfLine</b> function writes a log entry in a <a href="ht
 
 ### -param LogToken [in]
 
-A <a href="https://msdn.microsoft.com/library/Ff548678(v=VS.85).aspx">log token</a> that is either a system-defined log token or was returned by <a href="https://msdn.microsoft.com/a4d870d0-2a1a-4319-9e52-e5bf469c4cdf">SetupGetThreadLogToken</a>.
+A <a href="devinst.log_tokens">log token</a> that is either a system-defined log token or was returned by <a href="https://msdn.microsoft.com/a4d870d0-2a1a-4319-9e52-e5bf469c4cdf">SetupGetThreadLogToken</a>.
 
 
 ### -param Flags [in]
@@ -71,7 +71,7 @@ A value of type DWORD that is a bitwise OR of flag values, which specify the fol
 
 <ul>
 <li>
-The event level for the log entry. The event levels that can be specified for a log entry are the same as those that can be enabled for a text log. For a list of event level flags, see <a href="https://msdn.microsoft.com/library/Ff550845(v=VS.85).aspx">Setting the Event Level for a SetupAPI Text Log</a>. 
+The event level for the log entry. The event levels that can be specified for a log entry are the same as those that can be enabled for a text log. For a list of event level flags, see <a href="devinst.setting_the_event_level_for_a_text_log">Setting the Event Level for a SetupAPI Text Log</a>. 
 
 </li>
 <li>
@@ -79,7 +79,7 @@ Whether to include a time stamp in the log entry. The time stamp flag value is T
 
 </li>
 <li>
-The change, if any, to the indentation depth of the section and the current log entry. For information about how to use the indentation flags, see <a href="https://msdn.microsoft.com/library/Ff554018(v=VS.85).aspx">Writing Indented Log Entries</a>.
+The change, if any, to the indentation depth of the section and the current log entry. For information about how to use the indentation flags, see <a href="devinst.writing_indented_log_entries">Writing Indented Log Entries</a>.
 
 </li>
 </ul>
@@ -115,7 +115,7 @@ Where:
 
 <ul>
 <li>
-The <i>entry-prefix</i> and <i>time-stamp</i> fields are the same as those described in <a href="https://msdn.microsoft.com/library/Ff544958(v=VS.85).aspx">Format of a Text Log Section Body</a>.
+The <i>entry-prefix</i> and <i>time-stamp</i> fields are the same as those described in <a href="devinst.format_of_a_text_log_section_body">Format of a Text Log Section Body</a>.
 
 </li>
 <li>
@@ -131,15 +131,15 @@ The <i>line-number</i> field contains the line number of the specified line in t
 
 </li>
 </ul>
-The log token and flags that a caller supplies affect the operation of <b>SetupWriteTextLogInfLine</b> in the same manner as that described for <a href="https://msdn.microsoft.com/8a59c796-1386-495c-9790-8916d677ebd3">SetupWriteTextLog</a> and <a href="https://msdn.microsoft.com/9b52d5a7-4a7f-49eb-86c4-cc0434b54232">SetupWriteTextLogError</a>. In addition, <b>SetupWriteTextLogInfLine</b> uses the <a href="https://msdn.microsoft.com/library/Ff544882(v=VS.85).aspx">event category</a> TXTLOG_INF. 
+The log token and flags that a caller supplies affect the operation of <b>SetupWriteTextLogInfLine</b> in the same manner as that described for <a href="https://msdn.microsoft.com/8a59c796-1386-495c-9790-8916d677ebd3">SetupWriteTextLog</a> and <a href="https://msdn.microsoft.com/9b52d5a7-4a7f-49eb-86c4-cc0434b54232">SetupWriteTextLogError</a>. In addition, <b>SetupWriteTextLogInfLine</b> uses the <a href="devinst.enabling_event_categories_for_a_text_log">event category</a> TXTLOG_INF. 
 
-For general information about writing log entries in the SetupAPI text logs, see <a href="https://msdn.microsoft.com/library/Ff550887(v=VS.85).aspx">SetupAPI Logging (Windows Vista)</a>. 
+For general information about writing log entries in the SetupAPI text logs, see <a href="devinst.setupapi_logging__windows_vista_and_later_">SetupAPI Logging (Windows Vista)</a>. 
 
-For more information about the operation of <b>SetupWriteTextLogInfLine</b>, see <a href="https://msdn.microsoft.com/library/Ff537862(v=VS.85).aspx">Calling SetupWriteTextLogInfLine</a>. 
+For more information about the operation of <b>SetupWriteTextLogInfLine</b>, see <a href="devinst.calling_setupwritetextloginfline">Calling SetupWriteTextLogInfLine</a>. 
 
-For more information about the various types of log tokens, see <a href="https://msdn.microsoft.com/library/Ff548678(v=VS.85).aspx">Log Tokens</a>.
+For more information about the various types of log tokens, see <a href="devinst.log_tokens">Log Tokens</a>.
 
-For more information about using log tokens, see <a href="https://msdn.microsoft.com/library/Ff550779(v=VS.85).aspx">Setting and Getting a Log Token for a Thread</a>.
+For more information about using log tokens, see <a href="devinst.setting_and_getting_a_log_token_for_a_thread">Setting and Getting a Log Token for a Thread</a>.
 
 
 

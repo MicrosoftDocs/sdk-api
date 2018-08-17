@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_primitive.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_primitive.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: D3D10_PRIMITIVE, D3D10_PRIMITIVE enumeration [Direct3D 10], D3D10_PRIMITIVE_LINE, D3D10_PRIMITIVE_LINE_ADJ, D3D10_PRIMITIVE_POINT, D3D10_PRIMITIVE_TRIANGLE, D3D10_PRIMITIVE_TRIANGLE_ADJ, D3D10_PRIMITIVE_UNDEFINED, D3D_PRIMITIVE, cd542e45-8d6c-d997-4ce6-cf369ea001b0, d3d10/D3D10_PRIMITIVE, d3d10/D3D10_PRIMITIVE_LINE, d3d10/D3D10_PRIMITIVE_LINE_ADJ, d3d10/D3D10_PRIMITIVE_POINT, d3d10/D3D10_PRIMITIVE_TRIANGLE, d3d10/D3D10_PRIMITIVE_TRIANGLE_ADJ, d3d10/D3D10_PRIMITIVE_UNDEFINED, d3dcommon/D3D10_PRIMITIVE, d3dcommon/D3D10_PRIMITIVE_LINE, d3dcommon/D3D10_PRIMITIVE_LINE_ADJ, d3dcommon/D3D10_PRIMITIVE_POINT, d3dcommon/D3D10_PRIMITIVE_TRIANGLE, d3dcommon/D3D10_PRIMITIVE_TRIANGLE_ADJ, d3dcommon/D3D10_PRIMITIVE_UNDEFINED, direct3d10.d3d10_primitive
 ms.prod: windows
 ms.technology: windows-sdk
@@ -324,7 +324,7 @@ The data is organized in a triangle list with adjacency data.
 
 
 
-This enumeration is used by <a href="https://msdn.microsoft.com/en-us/library/Bb694552(v=VS.85).aspx">ID3D10ShaderReflection1::GetGSInputPrimitive</a>.
+This enumeration is used by <a href="https://msdn.microsoft.com/eba25ade-e3a3-40fe-8555-2fcb07dc0ed3">ID3D10ShaderReflection1::GetGSInputPrimitive</a>.
 
 This method requires Windows Vista Service Pack 1.
 
@@ -349,7 +349,7 @@ typedef D3D_PRIMITIVE D3D10_PRIMITIVE;</pre>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205156(v=VS.85).aspx">Shader Enumerations</a>
+<a href="https://msdn.microsoft.com/8d2b758b-cc2a-43ad-bf26-51674d4b5129">Shader Enumerations</a>
  
 
  

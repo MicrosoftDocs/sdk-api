@@ -4,10 +4,10 @@ title: Properties::Item
 author: windows-sdk-content
 description: The Item method returns the Property object specified by the name of the property.
 old-location: mmc\properties_item.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: eec98db9-5774-4749-9121-8c7a2ef4341a
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/14/2018
 ms.keywords: Item, Item method [MMC], Item method [MMC],Properties interface, Item method [MMC],Properties object, Properties interface [MMC],Item method, Properties object [MMC],Item method, Properties.Item, Properties::Item, _slate_properties.item_method, mmc.properties_item
 ms.prod: windows
 ms.technology: windows-sdk

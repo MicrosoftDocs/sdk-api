@@ -7,7 +7,7 @@ old-location: security\azauthorizationstore_delete.htm
 old-project: secauthz
 ms.assetid: 8493af39-c5db-4aeb-839f-bc07e2616443
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: AzAuthorizationStore object [Security],Delete method, Delete, Delete method [Security], Delete method [Security],AzAuthorizationStore object, Delete method [Security],IAzAuthorizationStore interface, IAzAuthorizationStore interface [Security],Delete method, IAzAuthorizationStore.Delete, IAzAuthorizationStore::Delete, azroles/IAzAuthorizationStore::Delete, security.azauthorizationstore_delete
 ms.prod: windows
 ms.technology: windows-sdk

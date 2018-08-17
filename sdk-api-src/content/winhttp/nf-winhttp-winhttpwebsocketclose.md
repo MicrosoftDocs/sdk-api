@@ -7,7 +7,7 @@ old-location: http\winhttpwebsocketclose.htm
 old-project: winhttp
 ms.assetid: bbfde3db-d9a7-4fce-9d8b-6b57f9e432e1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/09/2018
 ms.keywords: WinHttpWebSocketClose, WinHttpWebSocketClose function [WinHTTP], http.winhttpwebsocketclose, winhttp/WinHttpWebSocketClose
 ms.prod: windows
 ms.technology: windows-sdk

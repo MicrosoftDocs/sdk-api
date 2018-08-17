@@ -52,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Instantiates a WPD Automation <a href="https://msdn.microsoft.com/en-us/library/ms630493(v=VS.85).aspx">Device</a> object asynchronously for a given WPD device identifier.
+Instantiates a WPD Automation <a href="wpdauto.device_object_script">Device</a> object asynchronously for a given WPD device identifier.
 
 
 ## -parameters

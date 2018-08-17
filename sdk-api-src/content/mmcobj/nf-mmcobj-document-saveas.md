@@ -4,10 +4,10 @@ title: Document::SaveAs
 author: windows-sdk-content
 description: The SaveAs method is identical to the Save method, except a filename is specified.
 old-location: mmc\document_saveas.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: 783b619f-eb9d-47aa-85d8-76b375f73c01
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/14/2018
 ms.keywords: Document interface [MMC],SaveAs method, Document object [MMC],SaveAs method, Document.SaveAs, Document::SaveAs, SaveAs, SaveAs method [MMC], SaveAs method [MMC],Document interface, SaveAs method [MMC],Document object, _slate_document.saveas_method, mmc.document_saveas
 ms.prod: windows
 ms.technology: windows-sdk

@@ -178,7 +178,7 @@ The provider is using a WMI DLL that does not match the .lib fileused when the p
 The provider's DLL or any of the DLLs on which it depends is corrupt.
 
 The provider failed to export 
-      <a href="https://msdn.microsoft.com/en-us/library/ms682162(v=VS.85).aspx">DllRegisterServer</a>.
+      <a href="_com_dllregisterserver">DllRegisterServer</a>.
 
 An in-process provider was not registered using /regsvr32.
 

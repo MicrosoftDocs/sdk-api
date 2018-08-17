@@ -7,7 +7,7 @@ old-location: http\winhttpdetectautoproxyconfigurl.htm
 old-project: winhttp
 ms.assetid: a433ed3c-3f31-4c37-9c09-3f8344e9550d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/09/2018
 ms.keywords: WINHTTP_AUTO_DETECT_TYPE_DHCP, WINHTTP_AUTO_DETECT_TYPE_DNS_A, WinHttpDetectAutoProxyConfigUrl, WinHttpDetectAutoProxyConfigUrl function [WinHTTP], http.winhttpdetectautoproxyconfigurl, winhttp/WinHttpDetectAutoProxyConfigUrl
 ms.prod: windows
 ms.technology: windows-sdk

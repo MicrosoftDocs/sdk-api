@@ -90,14 +90,7 @@ A pointer to a user-allocated buffer to receive the full path and name of the lo
 The size of the buffer pointed to by <i>pwstrContainerName</i>, in characters.
 
 
-### -param OPTIONAL
-
-TBD
-
-
-
-
-#### - pcActualLenContainerName [in, out, optional]
+### -param pcActualLenContainerName [in, out, optional]
 
 A pointer to a variable to receive the actual character count of the full container path name that is retrieved. 
       

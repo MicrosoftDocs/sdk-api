@@ -64,7 +64,7 @@ Sets the view for the index buffer.
 
 Type: <b>const <a href="https://msdn.microsoft.com/CADD98BF-EDA9-43D6-9ADA-392051541B61">D3D12_INDEX_BUFFER_VIEW</a>*</b>
 
-The view specifies the index buffer's address, size, and <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>, as a pointer to a <a href="https://msdn.microsoft.com/CADD98BF-EDA9-43D6-9ADA-392051541B61">D3D12_INDEX_BUFFER_VIEW</a> structure.
+The view specifies the index buffer's address, size, and <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>, as a pointer to a <a href="https://msdn.microsoft.com/CADD98BF-EDA9-43D6-9ADA-392051541B61">D3D12_INDEX_BUFFER_VIEW</a> structure.
           
 
 

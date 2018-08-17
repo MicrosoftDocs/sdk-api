@@ -86,15 +86,15 @@ Specifies that less memory should be used for cache of antialiased glyphs. This 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533818(v=VS.85).aspx">Antialiasing with Text</a>
+<a href="https://msdn.microsoft.com/780d97ec-f446-4d19-837f-517a7d6dd27d">Antialiasing with Text</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535683(v=VS.85).aspx">Graphics::DrawDriverString</a>
+<a href="https://msdn.microsoft.com/daed7b4e-5284-4a38-bd33-274618f01027">Graphics::DrawDriverString</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535798(v=VS.85).aspx">Graphics::MeasureDriverString</a>
+<a href="https://msdn.microsoft.com/f68ee34e-84e9-4af1-b5f7-018b875d80ad">Graphics::MeasureDriverString</a>
  
 
  

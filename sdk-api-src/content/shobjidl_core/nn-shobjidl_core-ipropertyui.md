@@ -52,7 +52,7 @@ req.product: Outlook Express 6.0
 ## -description
 
 
-Developers should use <a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a> instead.
+Developers should use <a href="shell.IPropertyDescription">IPropertyDescription</a> instead.
 
 
 ## -inheritance
@@ -72,37 +72,37 @@ The <b>IPropertyUI</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb761521(v=VS.85).aspx">FormatForDisplay</a>
+<a href="shell.IPropertyUI_FormatForDisplay">FormatForDisplay</a>
 </td>
 <td align="left" width="63%">
-Developers should use <a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a> instead. Gets a formatted, Unicode string representation of a property value.
+Developers should use <a href="shell.IPropertyDescription">IPropertyDescription</a> instead. Gets a formatted, Unicode string representation of a property value.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb761525(v=VS.85).aspx">GetCanonicalName</a>
+<a href="shell.IPropertyUI_GetCanonicalName">GetCanonicalName</a>
 </td>
 <td align="left" width="63%">
-Developers should use <a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a> instead. Gets the canonical name of the property.
+Developers should use <a href="shell.IPropertyDescription">IPropertyDescription</a> instead. Gets the canonical name of the property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd758077(v=VS.85).aspx">GetDefaultWidth</a>
+<a href="shell.IPropertyUI_GetDefaultWidth">GetDefaultWidth</a>
 </td>
 <td align="left" width="63%">
-Developers should use <a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a> instead. Gets the width of the property description.
+Developers should use <a href="shell.IPropertyDescription">IPropertyDescription</a> instead. Gets the width of the property description.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms712505(v=VS.85).aspx">GetDisplayName</a>
+<a href="shell.IPropertyUI_GetDisaplayName">GetDisplayName</a>
 </td>
 <td align="left" width="63%">
-Developers should use <a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a> instead. Gets a string specifying the name of the property suitable for display to users.
+Developers should use <a href="shell.IPropertyDescription">IPropertyDescription</a> instead. Gets a string specifying the name of the property suitable for display to users.
 
 </td>
 </tr>
@@ -111,34 +111,34 @@ Developers should use <a href="https://msdn.microsoft.com/en-us/library/Bb761561
 <a href="shell.IPropertyUI_GetFlags">GetFlags</a>
 </td>
 <td align="left" width="63%">
-Developers should use <a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a> instead. Gets property feature flags for a specified property.
+Developers should use <a href="shell.IPropertyDescription">IPropertyDescription</a> instead. Gets property feature flags for a specified property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd758080(v=VS.85).aspx">GetHelpInfo</a>
+<a href="shell.IPropertyUI_GetHelpInfo">GetHelpInfo</a>
 </td>
 <td align="left" width="63%">
-Developers should use <a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a> instead. Gets
+Developers should use <a href="shell.IPropertyDescription">IPropertyDescription</a> instead. Gets
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb761432(v=VS.85).aspx">GetPropertyDescription</a>
+<a href="shell.IPropertyUI_GetPropertyDescription">GetPropertyDescription</a>
 </td>
 <td align="left" width="63%">
-Developers should use <a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a> instead. Gets the property description of a specified property.
+Developers should use <a href="shell.IPropertyDescription">IPropertyDescription</a> instead. Gets the property description of a specified property.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd758083(v=VS.85).aspx">ParsePropertyName</a>
+<a href="shell.IPropertyUI_ParsePropertyName">ParsePropertyName</a>
 </td>
 <td align="left" width="63%">
-Developers should use <a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a> instead. Reads the characters of the specified property name and identifies the FMTID and PROPID of the property.
+Developers should use <a href="shell.IPropertyDescription">IPropertyDescription</a> instead. Reads the characters of the specified property name and identifies the FMTID and PROPID of the property.
 
 </td>
 </tr>

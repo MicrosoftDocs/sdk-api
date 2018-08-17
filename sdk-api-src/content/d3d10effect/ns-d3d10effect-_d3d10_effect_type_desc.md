@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_effect_type_desc.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_effect_type_desc.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 18816cca-f97e-a1fe-114c-9342ac218237, D3D10_EFFECT_TYPE_DESC, D3D10_EFFECT_TYPE_DESC structure [Direct3D 10], _D3D10_EFFECT_TYPE_DESC, d3d10effect/D3D10_EFFECT_TYPE_DESC, direct3d10.d3d10_effect_type_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,16 +68,16 @@ A string that contains the variable name.
 
 ### -field Class
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172440(v=VS.85).aspx">D3D10_SHADER_VARIABLE_CLASS</a></b>
+Type: <b><a href="https://msdn.microsoft.com/e638c059-9c92-43fe-9fae-8a0cf535af8f">D3D10_SHADER_VARIABLE_CLASS</a></b>
 
-The variable class (see <a href="https://msdn.microsoft.com/en-us/library/Bb172440(v=VS.85).aspx">D3D10_SHADER_VARIABLE_CLASS</a>).
+The variable class (see <a href="https://msdn.microsoft.com/e638c059-9c92-43fe-9fae-8a0cf535af8f">D3D10_SHADER_VARIABLE_CLASS</a>).
 
 
 ### -field Type
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172443(v=VS.85).aspx">D3D10_SHADER_VARIABLE_TYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/fac84252-ec19-4fc9-9171-143b63347888">D3D10_SHADER_VARIABLE_TYPE</a></b>
 
-The variable type (see <a href="https://msdn.microsoft.com/en-us/library/Bb172443(v=VS.85).aspx">D3D10_SHADER_VARIABLE_TYPE</a>).
+The variable type (see <a href="https://msdn.microsoft.com/fac84252-ec19-4fc9-9171-143b63347888">D3D10_SHADER_VARIABLE_TYPE</a>).
 
 
 ### -field Elements
@@ -133,7 +133,7 @@ The number of bytes between elements.
 
 
 
-To get an effect-variable type, call <a href="https://msdn.microsoft.com/en-us/library/Bb173717(v=VS.85).aspx">ID3D10EffectType::GetDesc</a>.
+To get an effect-variable type, call <a href="https://msdn.microsoft.com/cd046d58-8c7b-47b4-a75b-374edb06b33a">ID3D10EffectType::GetDesc</a>.
 
 
 
@@ -143,7 +143,7 @@ To get an effect-variable type, call <a href="https://msdn.microsoft.com/en-us/l
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205180(v=VS.85).aspx">Effect Structures (Direct3D 10)</a>
+<a href="https://msdn.microsoft.com/bbd69b4b-d2f4-471f-a607-328f5fc603b5">Effect Structures (Direct3D 10)</a>
  
 
  

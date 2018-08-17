@@ -52,7 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms538181(v=VS.85).aspx">InputScope</a> enumeration contains values that specify which input scopes are applied to a given field.
+The <a href="tsf.inputscope">InputScope</a> enumeration contains values that specify which input scopes are applied to a given field.
 
 
 ## -enum-fields

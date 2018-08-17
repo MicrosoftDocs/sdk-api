@@ -7,7 +7,7 @@ old-location: appxpkg\iappxencryptionfactory3_createencryptedbundlewriter.htm
 old-project: appxpkg
 ms.assetid: 6E12E38B-23F3-437A-B3DF-1614663CFD3F
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/15/2018
 ms.keywords: CreateEncryptedBundleWriter, CreateEncryptedBundleWriter method [App packaging and management], CreateEncryptedBundleWriter method [App packaging and management],IAppxEncryptionFactory3 interface, IAppxEncryptionFactory3 interface [App packaging and management],CreateEncryptedBundleWriter method, IAppxEncryptionFactory3.CreateEncryptedBundleWriter, IAppxEncryptionFactory3::CreateEncryptedBundleWriter, appxpackaging/IAppxEncryptionFactory3::CreateEncryptedBundleWriter, appxpkg.iappxencryptionfactory3_createencryptedbundlewriter
 ms.prod: windows
 ms.technology: windows-sdk

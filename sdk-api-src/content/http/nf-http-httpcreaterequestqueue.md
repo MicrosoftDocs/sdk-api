@@ -69,19 +69,17 @@ An HTTPAPI_VERSION structure indicating the request queue version. For  version 
 The version must be 2.0; <b>HttpCreateRequestQueue</b> does not support  version 1.0 request queues.
 
 
-### -param OPTIONAL
+### -param Name
 
 TBD
 
 
-### -param RequestQueueHandle [in, optional]
+### -param SecurityAttributes
 
-A pointer to the <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> structure that contains the  access permissions for the request queue.
-
-This parameter must be <b>NULL</b> when opening an existing request queue.
+TBD
 
 
-#### - Flags [in, optional]
+### -param Flags [in, optional]
 
 The flags parameter defines the scope of the request queue. This parameter can be one or more of the followng:
 
@@ -112,6 +110,13 @@ The handle to the request queue created using this flag cannot be used to perfor
 </tr>
 </table>
  
+
+
+### -param RequestQueueHandle [in, optional]
+
+A pointer to the <a href="https://msdn.microsoft.com/56b5b350-f4b7-47af-b5f8-6a35f32c1009">SECURITY_ATTRIBUTES</a> structure that contains the  access permissions for the request queue.
+
+This parameter must be <b>NULL</b> when opening an existing request queue.
 
 
 #### - pName [in, optional]

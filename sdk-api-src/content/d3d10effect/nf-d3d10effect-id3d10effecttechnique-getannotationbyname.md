@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effecttechnique_getannotationbyname.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effecttechnique_getannotationbyname.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: GetAnnotationByName, GetAnnotationByName method [Direct3D 10], GetAnnotationByName method [Direct3D 10],ID3D10EffectTechnique interface, ID3D10EffectTechnique interface [Direct3D 10],GetAnnotationByName method, ID3D10EffectTechnique.GetAnnotationByName, ID3D10EffectTechnique::GetAnnotationByName, bab9e1c3-3845-0dbe-c407-02592ee3101c, d3d10effect/ID3D10EffectTechnique::GetAnnotationByName, direct3d10.id3d10effecttechnique_getannotationbyname
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,9 +70,9 @@ Name of the annotation.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/55bfed47-6f5a-4eed-8389-b291e00c6f69">ID3D10EffectVariable</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable Interface</a>.
+A pointer to an <a href="https://msdn.microsoft.com/55bfed47-6f5a-4eed-8389-b291e00c6f69">ID3D10EffectVariable Interface</a>.
 
 
 
@@ -91,7 +91,7 @@ Use an annotation to attach a piece of metadata to a technique.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173708(v=VS.85).aspx">ID3D10EffectTechnique Interface</a>
+<a href="https://msdn.microsoft.com/3965c6d5-e529-4225-861a-7846e35840d0">ID3D10EffectTechnique Interface</a>
  
 
  

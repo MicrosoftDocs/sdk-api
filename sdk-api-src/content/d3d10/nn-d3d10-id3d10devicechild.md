@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10devicechild.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10devicechild.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: ID3D10DeviceChild, ID3D10DeviceChild interface [Direct3D 10], ID3D10DeviceChild interface [Direct3D 10],described, d3d10/ID3D10DeviceChild, direct3d10.id3d10devicechild, e38df520-7753-67fb-6fb9-7bd65b783c01
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,7 +81,7 @@ Get a pointer to the device that created this interface.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173531(v=VS.85).aspx">GetPrivateData</a>
+<a href="https://msdn.microsoft.com/bd300d75-3b3e-4ac4-8316-24413e87aa99">GetPrivateData</a>
 </td>
 <td align="left" width="63%">
 Get application-defined data from a device child.
@@ -90,7 +90,7 @@ Get application-defined data from a device child.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173532(v=VS.85).aspx">SetPrivateData</a>
+<a href="https://msdn.microsoft.com/9eea3492-1f4f-49ea-88c8-064583ec6910">SetPrivateData</a>
 </td>
 <td align="left" width="63%">
 Set application-defined data to a device child and associate that data with an application-defined guid.
@@ -99,7 +99,7 @@ Set application-defined data to a device child and associate that data with an a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173533(v=VS.85).aspx">SetPrivateDataInterface</a>
+<a href="https://msdn.microsoft.com/774cc86e-5162-418e-9c04-63a4c6f21b63">SetPrivateDataInterface</a>
 </td>
 <td align="left" width="63%">
 Associate an <a href="http://msdn.microsoft.com/en-us/library/ms680509(VS.85).aspx">IUnknown</a>-derived interface with this device child and associate that interface with an application-defined guid.
@@ -123,7 +123,7 @@ There are several types of device child interfaces, all of which inherit this in
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205152(v=VS.85).aspx">Core Interfaces</a>
+<a href="https://msdn.microsoft.com/f5ad2db8-da90-4bcd-83a7-7466723a9c3c">Core Interfaces</a>
  
 
  

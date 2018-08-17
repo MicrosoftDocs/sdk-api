@@ -65,9 +65,13 @@ The
 
 
 
-### -param OPTIONAL
+### -param servername [in]
 
-TBD
+Pointer to a string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used. 
+
+
+This string must begin with \\.
+					
 
 
 ### -param transportname [in]
@@ -118,15 +122,6 @@ Close any open files and delete the connection.
 </tr>
 </table>
  
-
-
-#### - servername [in]
-
-Pointer to a string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used. 
-
-
-This string must begin with \\.
-					
 
 
 ## -returns

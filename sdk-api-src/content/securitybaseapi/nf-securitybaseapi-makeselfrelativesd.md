@@ -7,7 +7,7 @@ old-location: security\makeselfrelativesd.htm
 old-project: secauthz
 ms.assetid: 497c7e2f-75b7-41b9-9693-37e041b7af58
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: MakeSelfRelativeSD, MakeSelfRelativeSD function [Security], _win32_makeselfrelativesd, security.makeselfrelativesd, securitybaseapi/MakeSelfRelativeSD
 ms.prod: windows
 ms.technology: windows-sdk
@@ -139,7 +139,7 @@ A server that copies secured objects to various media can use the <b>MakeSelfRel
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Low-level Access Control Functions</a>
+<a href="authorization_functions.htm">Low-level Access Control Functions</a>
 
 
 

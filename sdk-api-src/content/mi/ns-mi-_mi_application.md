@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_application.htm
 old-project: wmi_v2
 ms.assetid: da486ade-88ef-40c4-8151-356e718da7db
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/13/2018
 ms.keywords: MI_Application, MI_Application structure [Windows Management Infrastructure (MI)], _MI_Application, mi/MI_Application, wmi_v2.mi_application
 ms.prod: windows
 ms.technology: windows-sdk

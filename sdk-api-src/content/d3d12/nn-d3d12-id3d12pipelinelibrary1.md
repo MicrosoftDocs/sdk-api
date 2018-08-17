@@ -90,7 +90,7 @@ Retrieves the requested PSO from the library. The pipeline stream description is
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt709145(v=VS.85).aspx">ID3D12PipelineLibrary</a>
+<a href="id3d12pipelinelibrary">ID3D12PipelineLibrary</a>
  
 
  

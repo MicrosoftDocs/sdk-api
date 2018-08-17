@@ -81,14 +81,7 @@ A pointer to a variable that receives the size of the restart data at <i>*ppvRes
 A pointer to a <a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a> structure that receives the log sequence number (LSN) of the restart area  that   this function returns.
 
 
-### -param OPTIONAL
-
-TBD
-
-
-
-
-#### - pOverlapped [in, out, optional]
+### -param pOverlapped [in, out, optional]
 
 A pointer to an <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure that  is required for asynchronous operation. 
 

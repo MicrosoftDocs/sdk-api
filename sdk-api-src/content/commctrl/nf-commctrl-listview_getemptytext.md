@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Gets the text meant for display when the list-view control appears empty. Use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774921(v=VS.85).aspx">LVM_GETEMPTYTEXT</a> message explicitly.
+Gets the text meant for display when the list-view control appears empty. Use this macro or send the <a href="https://msdn.microsoft.com/aa6cb0ae-0c6c-42b7-80c5-c086c9579c81">LVM_GETEMPTYTEXT</a> message explicitly.
 
 
 ## -parameters

@@ -68,7 +68,7 @@ The time stamp of the last batch of commands to be processed by the composition 
 
 ### -field currentCompositionRate
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173069(v=VS.85).aspx">DXGI_RATIONAL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0a878d11-dc90-4cad-bde5-54a135e53a86">DXGI_RATIONAL</a></b>
 
 The rate at which the composition engine is producing frames, in frames per second.
 
@@ -77,7 +77,7 @@ The rate at which the composition engine is producing frames, in frames per seco
 
 Type: <b><a href="https://msdn.microsoft.com/6a2985b6-5baf-49ab-af28-67c1374557ea">LARGE_INTEGER</a></b>
 
-The current time as computed by the <a href="https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx">QueryPerformanceCounter</a> function.
+The current time as computed by the <a href="winmsg.queryperformancecounter">QueryPerformanceCounter</a> function.
 
 
 ### -field timeFrequency

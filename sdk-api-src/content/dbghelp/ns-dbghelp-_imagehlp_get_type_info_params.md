@@ -7,7 +7,7 @@ old-location: base\imagehlp_get_type_info_params_str.htm
 old-project: debug
 ms.assetid: f3885945-9a96-49d9-a535-7b37220e1da4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: "*PIMAGEHLP_GET_TYPE_INFO_PARAMS, IMAGEHLP_GET_TYPE_INFO_CHILDREN, IMAGEHLP_GET_TYPE_INFO_PARAMS, IMAGEHLP_GET_TYPE_INFO_PARAMS structure, IMAGEHLP_GET_TYPE_INFO_UNCACHED, PIMAGEHLP_GET_TYPE_INFO_PARAMS, PIMAGEHLP_GET_TYPE_INFO_PARAMS structure pointer, _IMAGEHLP_GET_TYPE_INFO_PARAMS, base.imagehlp_get_type_info_params_str, dbghelp/IMAGEHLP_GET_TYPE_INFO_PARAMS, dbghelp/PIMAGEHLP_GET_TYPE_INFO_PARAMS"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -174,14 +174,7 @@ A bitmask indicate the bit-wise AND of all <b>ReqsValid</b> fields.
 The size of <b>ReqsValid</b>, in elements.
 
 
-### -field OPTIONAL
-
- 
-
-
-
-
-#### - ReqsValid
+### -field ReqsValid
 
 A bitmask indexed by <b>Buffer</b> element index that indicates which request data is valid. This member can be <b>NULL</b>.
 

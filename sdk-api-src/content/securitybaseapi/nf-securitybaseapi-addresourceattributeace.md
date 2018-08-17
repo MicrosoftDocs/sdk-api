@@ -7,7 +7,7 @@ old-location: security\addresourceattributeace.htm
 old-project: secauthz
 ms.assetid: AA2064E4-6F76-4D7B-8540-D55A91168825
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: AddResourceAttributeAce, AddResourceAttributeAce function [Security], CONTAINER_INHERIT_ACE, INHERITED_ACE, INHERIT_ONLY_ACE, NO_PROPAGATE_INHERIT_ACE, OBJECT_INHERIT_ACE, security.addresourceattributeace, securitybaseapi/AddResourceAttributeAce
 ms.prod: windows
 ms.technology: windows-sdk

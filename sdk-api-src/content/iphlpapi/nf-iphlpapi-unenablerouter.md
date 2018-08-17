@@ -7,7 +7,7 @@ old-location: iphlp\unenablerouter.htm
 old-project: iphlp
 ms.assetid: 95f0387f-24e8-4382-b78e-e59bcec0f2ed
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: UnenableRouter, UnenableRouter function [IP Helper], _iphlp_unenablerouter, iphlp.unenablerouter, iphlpapi/UnenableRouter
 ms.prod: windows
 ms.technology: windows-sdk

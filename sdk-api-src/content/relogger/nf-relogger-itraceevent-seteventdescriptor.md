@@ -4,10 +4,10 @@ title: ITraceEvent::SetEventDescriptor
 author: windows-sdk-content
 description: Sets the event descriptor for an event.
 old-location: etw\ievent_seteventdescriptor.htm
-old-project: ETW
+old-project: etw
 ms.assetid: 729a887e-1759-44d5-a7d5-8385d648eebf
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/08/2018
 ms.keywords: ITraceEvent interface [ETW],SetEventDescriptor method, ITraceEvent.SetEventDescriptor, ITraceEvent::SetEventDescriptor, SetEventDescriptor, SetEventDescriptor method [ETW], SetEventDescriptor method [ETW],ITraceEvent interface, etw.ievent_seteventdescriptor, relogger/ITraceEvent::SetEventDescriptor
 ms.prod: windows
 ms.technology: windows-sdk

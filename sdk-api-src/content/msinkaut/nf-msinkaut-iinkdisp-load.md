@@ -163,7 +163,7 @@ The <a href="https://msdn.microsoft.com/31da19a7-207f-4f11-9b0f-7402e9727f59">Sa
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846797(v=VS.85).aspx">IInkDisp</a>
+<a href="tablet.iinkdisp">IInkDisp</a>
 
 
 

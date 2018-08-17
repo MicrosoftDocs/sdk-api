@@ -7,7 +7,7 @@ old-location: appxpkg\iappxcontentgroupfilesenumerator_.htm
 old-project: appxpkg
 ms.assetid: 42F1E3DE-B2A3-42DE-8FBE-BEE02D546ABA
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/15/2018
 ms.keywords: IAppxContentGroupFilesEnumerator, IAppxContentGroupFilesEnumerator interface [App packaging and management], IAppxContentGroupFilesEnumerator interface [App packaging and management],described, appxpackaging/IAppxContentGroupFilesEnumerator, appxpkg.iappxcontentgroupfilesenumerator_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The <b>IAppxContentGroupFilesEnumerator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ff800917(v=VS.85).aspx">GetCurrent</a>
+<a href="https://msdn.microsoft.com/72D19A3A-4EAB-4876-AF80-CE065B2ECE04">GetCurrent</a>
 </td>
 <td align="left" width="63%">
 Gets the file from the content group at the current position of the enumerator.

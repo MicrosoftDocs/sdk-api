@@ -92,14 +92,7 @@ After obtaining all requested log records, the client must pass  the read contex
 <div class="alert"><b>Note</b>  Common Log File System (CLFS) read contexts are not thread-safe. They should not be used by more than one thread at a time, or passed into more than one asynchronous read at a time.</div>
 <div> </div>
 
-### -param OPTIONAL
-
-TBD
-
-
-
-
-#### - pOverlapped [in, out, optional]
+### -param pOverlapped [in, out, optional]
 
 A pointer to an <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure that is required for asynchronous operation. 
 

@@ -7,7 +7,7 @@ old-location: base\setservicestatus.htm
 old-project: services
 ms.assetid: bb5943ff-2814-40f2-bee0-ae7132befde9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: SetServiceStatus, SetServiceStatus function, _win32_setservicestatus, base.setservicestatus, winsvc/SetServiceStatus
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10stateblock_apply.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10stateblock_apply.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 8047c555-4a3e-a6b4-9733-42350b374f15, Apply, Apply method [Direct3D 10], Apply method [Direct3D 10],ID3D10StateBlock interface, ID3D10StateBlock interface [Direct3D 10],Apply method, ID3D10StateBlock.Apply, ID3D10StateBlock::Apply, d3d10effect/ID3D10StateBlock::Apply, direct3d10.id3d10stateblock_apply
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,9 +66,9 @@ Apply the state block to the current device state.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -78,7 +78,7 @@ Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/B
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173856(v=VS.85).aspx">ID3D10StateBlock Interface</a>
+<a href="https://msdn.microsoft.com/3705e8e6-f25f-4943-8c41-09fa6de02932">ID3D10StateBlock Interface</a>
  
 
  

@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Changes the color of a divider between header items to indicate the destination of an external drag-and-drop operation. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775363(v=VS.85).aspx">HDM_SETHOTDIVIDER</a> message explicitly. 
+Changes the color of a divider between header items to indicate the destination of an external drag-and-drop operation. You can use this macro or send the <a href="https://msdn.microsoft.com/56f6e5c6-1df3-4b4d-9ad8-97fb168c5462">HDM_SETHOTDIVIDER</a> message explicitly. 
 
 
 ## -parameters
@@ -125,7 +125,7 @@ If
 
 
 
-A header control set to the <a href="https://msdn.microsoft.com/en-us/library/Bb775241(v=VS.85).aspx">HDS_DRAGDROP</a> style produces this effect automatically. This message is intended to be used when the owner of the control handles drag-and-drop operations manually. 
+A header control set to the <a href="Header_Control_Styles.htm">HDS_DRAGDROP</a> style produces this effect automatically. This message is intended to be used when the owner of the control handles drag-and-drop operations manually. 
 
 
 

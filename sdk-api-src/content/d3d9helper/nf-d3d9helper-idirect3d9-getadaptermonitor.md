@@ -82,7 +82,7 @@ Handle of the monitor associated with the Direct3D object.
 
 
 
-As shown in the following code fragment, which illustrates how to obtain a handle to the monitor associated with a given device, use <a href="https://msdn.microsoft.com/en-us/library/Bb174386(v=VS.85).aspx">GetDirect3D</a> to return the Direct3D enumerator from the device and use <a href="https://msdn.microsoft.com/en-us/library/Bb174382(v=VS.85).aspx">GetCreationParameters</a> to retrieve the value for Adapter.
+As shown in the following code fragment, which illustrates how to obtain a handle to the monitor associated with a given device, use <a href="https://msdn.microsoft.com/42666561-fb2b-47b4-b2c4-49926ea67964">GetDirect3D</a> to return the Direct3D enumerator from the device and use <a href="https://msdn.microsoft.com/18889d40-a64f-41da-92dd-7b197749e685">GetCreationParameters</a> to retrieve the value for Adapter.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -112,15 +112,15 @@ As shown in the following code fragment, which illustrates how to obtain a handl
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174382(v=VS.85).aspx">GetCreationParameters</a>
+<a href="https://msdn.microsoft.com/18889d40-a64f-41da-92dd-7b197749e685">GetCreationParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174386(v=VS.85).aspx">GetDirect3D</a>
+<a href="https://msdn.microsoft.com/42666561-fb2b-47b4-b2c4-49926ea67964">GetDirect3D</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174300(v=VS.85).aspx">IDirect3D9</a>
+<a href="https://msdn.microsoft.com/af321e4f-aaff-4285-bdac-9aab5c1dc5d8">IDirect3D9</a>
  
 
  

@@ -163,7 +163,7 @@ Use the <a href="https://msdn.microsoft.com/7d120198-c016-4452-b8a8-22c4ad87d526
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
+<a href="tablet.iinkpicture">IInkPicture</a>
 
 
 

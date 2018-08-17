@@ -7,7 +7,7 @@ old-location: display\drvquerydriverinfo.htm
 old-project: display
 ms.assetid: 94691c91-f6e9-4f48-8da2-bde5354ed94c
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/13/2018
 ms.keywords: DrvQueryDriverInfo, DrvQueryDriverInfo function [Display Devices], ddifncs_be744729-bfb4-4c25-9f6b-e8896e6ecac5.xml, display.drvquerydriverinfo, winddi/DrvQueryDriverInfo
 ms.prod: windows
 ms.technology: windows-sdk

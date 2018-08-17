@@ -4,10 +4,10 @@ title: IExtendTaskPad::GetDescriptiveText
 author: windows-sdk-content
 description: The IExtendTaskPad::GetDescriptiveText method enables MMC to get the taskpad's descriptive text to display in taskpads that use MMC taskpad templates.
 old-location: mmc\iextendtaskpad_getdescriptivetext.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: e8d02b4e-703f-42fe-a55c-cc5cf84e8f74
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/14/2018
 ms.keywords: GetDescriptiveText, GetDescriptiveText method [MMC], GetDescriptiveText method [MMC],IExtendTaskPad interface, IExtendTaskPad interface [MMC],GetDescriptiveText method, IExtendTaskPad.GetDescriptiveText, IExtendTaskPad::GetDescriptiveText, _slate_iextendtaskpad_getdescriptivetext, mmc.iextendtaskpad_getdescriptivetext, mmc/IExtendTaskPad::GetDescriptiveText
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,7 +87,7 @@ This method can return one of these values.
 
 
 Allocate the pszDescriptiveText string with the COM API function 
-<a href="https://msdn.microsoft.com/en-us/library/ms692727(v=VS.85).aspx">CoTaskMemAlloc</a> (or the equivalent) and MMC will release it.
+<a href="_com_cotaskmemalloc">CoTaskMemAlloc</a> (or the equivalent) and MMC will release it.
 
 
 

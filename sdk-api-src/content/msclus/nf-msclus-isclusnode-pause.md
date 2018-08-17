@@ -87,7 +87,7 @@ Use the <a href="https://msdn.microsoft.com/74e465e2-1328-4e05-b287-3ce27359c67a
 
 While a node is paused, <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">groups</a> cannot be moved to the node 
     either through the <a href="https://msdn.microsoft.com/6722d075-02e0-4817-abc3-dce8951c17da">failover</a> process or administrator action. A 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">paused</a> node returns 
+    <a href="p_gly.htm">paused</a> node returns 
     <b>ClusterNodePaused</b> as the value for its 
     <a href="https://msdn.microsoft.com/c1887055-518a-4177-a618-418c75883d69">ClusNode.State</a> property.
 

@@ -59,7 +59,7 @@ req.product: GDI+ 1.1
 
 Creates a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> in the 
     <a href="c_gly.htm">cluster</a> and adds it to the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369367(v=VS.85).aspx">dependency</a> collection.
+    <a href="d_gly.htm">dependency</a> collection.
 
 
 ## -parameters

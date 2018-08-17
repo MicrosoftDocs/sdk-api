@@ -98,7 +98,7 @@ The
 <b>IStorage</b> by itself, although subsequent calls to the 
 <b>IPropertySetStorage</b> interface might.
 
-<b>StgCreatePropSetStg</b> calls <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">IUnknown::AddRef</a> on the storage object specified by <i>pStorage</i>. The caller must release the object when it is no longer required by calling <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a>.
+<b>StgCreatePropSetStg</b> calls <a href="_com_iunknown_addref">IUnknown::AddRef</a> on the storage object specified by <i>pStorage</i>. The caller must release the object when it is no longer required by calling <a href="_com_iunknown_release">Release</a>.
 
 
 #### Examples

@@ -7,7 +7,7 @@ old-location: security\getlengthsid.htm
 old-project: secauthz
 ms.assetid: 0acaa804-494c-4d69-b1f7-8d167b494761
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: GetLengthSid, GetLengthSid function [Security], _win32_getlengthsid, security.getlengthsid, securitybaseapi/GetLengthSid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,7 +94,7 @@ If the <a href="https://msdn.microsoft.com/328fba4e-e590-4174-9274-52dad58cb91f"
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

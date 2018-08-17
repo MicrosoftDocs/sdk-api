@@ -62,10 +62,10 @@ The <b>Image::GetPhysicalDimension</b> method gets the width and height of this 
 
 ### -param size [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534506(v=VS.85).aspx">SizeF</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/b40ade07-f89e-44ba-9185-9aec01f1051f">SizeF</a>*</b>
 
 Pointer to a 
-					<a href="https://msdn.microsoft.com/en-us/library/ms534506(v=VS.85).aspx">SizeF</a> object that receives the width and height of this image. 
+					<a href="https://msdn.microsoft.com/b40ade07-f89e-44ba-9185-9aec01f1051f">SizeF</a> object that receives the width and height of this image. 
 
 
 ## -returns
@@ -89,35 +89,35 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536386(v=VS.85).aspx">Cropping and Scaling Images</a>
+<a href="https://msdn.microsoft.com/81d20adc-0481-4b1b-80aa-ae218fdecd84">Cropping and Scaling Images</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535373(v=VS.85).aspx">Image::GetBounds</a>
+<a href="https://msdn.microsoft.com/b94cee76-2e3d-4f78-96b3-ec898054bd6e">Image::GetBounds</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535380(v=VS.85).aspx">Image::GetHeight</a>
+<a href="https://msdn.microsoft.com/a39deeae-e610-4468-ba93-1da5abaa00b8">Image::GetHeight</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535381(v=VS.85).aspx">Image::GetHorizontalResolution</a>
+<a href="https://msdn.microsoft.com/09e0d6d9-10b5-4319-8547-f13ca06cf0cd">Image::GetHorizontalResolution</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535396(v=VS.85).aspx">Image::GetVerticalResolution</a>
+<a href="https://msdn.microsoft.com/8aa90120-479e-4fa7-b9d8-609fdf1912e7">Image::GetVerticalResolution</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535397(v=VS.85).aspx">Image::GetWidth</a>
+<a href="https://msdn.microsoft.com/e55bc22d-e5c6-43c8-87f8-345d348e5707">Image::GetWidth</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533829(v=VS.85).aspx">Improving Performance by Avoiding Automatic Scaling</a>
+<a href="https://msdn.microsoft.com/da571970-a4fc-4d4a-9264-0085d9807d66">Improving Performance by Avoiding Automatic Scaling</a>
  
 
  

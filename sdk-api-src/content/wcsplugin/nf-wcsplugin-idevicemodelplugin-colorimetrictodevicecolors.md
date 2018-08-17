@@ -7,7 +7,7 @@ old-location: wcs\IDeviceModelPlugIn_ColorimetricToDeviceColors.htm
 old-project: WCS
 ms.assetid: f950b734-f44f-412e-9944-754f88c8620f
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/15/2018
 ms.keywords: ColorimetricToDeviceColors, ColorimetricToDeviceColors method [Windows Color System], ColorimetricToDeviceColors method [Windows Color System],IDeviceModelPlugIn interface, IDeviceModelPlugIn interface [Windows Color System],ColorimetricToDeviceColors method, IDeviceModelPlugIn.ColorimetricToDeviceColors, IDeviceModelPlugIn::ColorimetricToDeviceColors, _color_IDeviceModelPlugIn::ColorimetricToDeviceColors, wcs.IDeviceModelPlugIn_ColorimetricToDeviceColors, wcsplugin/IDeviceModelPlugIn::ColorimetricToDeviceColors
 ms.prod: windows
 ms.technology: windows-sdk

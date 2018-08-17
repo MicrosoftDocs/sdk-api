@@ -63,7 +63,7 @@ The <b>SetupDiGetDeviceInfoListDetail</b> function retrieves information associa
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> for which to retrieve information.
+A handle to the <a href="devinst.device_information_sets">device information set</a> for which to retrieve information.
 
 
 ### -param DeviceInfoSetDetailData [out]

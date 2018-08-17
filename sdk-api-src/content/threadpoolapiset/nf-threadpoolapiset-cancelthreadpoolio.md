@@ -7,7 +7,7 @@ old-location: base\cancelthreadpoolio.htm
 old-project: procthread
 ms.assetid: e3af8313-2e09-4c88-8cef-671efd4228c7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: CancelThreadpoolIo, CancelThreadpoolIo function, base.cancelthreadpoolio, threadpoolapiset/CancelThreadpoolIo, winbase/CancelThreadpoolIo
 ms.prod: windows
 ms.technology: windows-sdk

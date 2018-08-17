@@ -7,7 +7,7 @@ old-location: security\auditsetsystempolicy_func.htm
 old-project: secauthz
 ms.assetid: 9692ebe3-a676-45bb-a58d-b3fdbb1bbc2a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: AuditSetSystemPolicy, AuditSetSystemPolicy function [Security], ntsecapi/AuditSetSystemPolicy, security.auditsetsystempolicy_func
 ms.prod: windows
 ms.technology: windows-sdk

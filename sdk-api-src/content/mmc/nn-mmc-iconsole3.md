@@ -4,10 +4,10 @@ title: IConsole3
 author: windows-sdk-content
 description: The IConsole3 interface supersedes the IConsole2 interface. The IConsole3 interface contains the IConsole3::RenameScopeItem method, which allows a scope node to programmatically be placed in rename mode.
 old-location: mmc\iconsole3.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: be3d42a4-a18a-40a5-99fc-2cf2a848c564
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/14/2018
 ms.keywords: IConsole3, IConsole3 interface [MMC], IConsole3 interface [MMC],described, _slate_iconsole3, mmc.iconsole3, mmc/IConsole3
 ms.prod: windows
 ms.technology: windows-sdk
@@ -129,7 +129,7 @@ Queries the console-provided result pane's image list.</p> (Inherited from <a hr
 <a href="https://msdn.microsoft.com/26d4859c-e79f-4c63-92ad-b66de7d0fa13">QueryResultView</a>
 </td>
 <td align="left" width="63%">
-Queries IConsole for the result view object's <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface pointer.</p> (Inherited from <a href="https://msdn.microsoft.com/9a20d09d-219c-4bcb-95b3-67a44e41629e">IConsole2</a>)</td>
+Queries IConsole for the result view object's <a href="_com_iunknown">IUnknown</a> interface pointer.</p> (Inherited from <a href="https://msdn.microsoft.com/9a20d09d-219c-4bcb-95b3-67a44e41629e">IConsole2</a>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">

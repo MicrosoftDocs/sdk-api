@@ -7,7 +7,7 @@ old-location: appxpkg\getapplicationusermodelidfromtoken.htm
 old-project: appxpkg
 ms.assetid: 80036518-927E-4CD0-B499-8EA472AB7E5A
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/15/2018
 ms.keywords: GetApplicationUserModelIdFromToken, GetApplicationUserModelIdFromToken function [App packaging and management], appmodel/GetApplicationUserModelIdFromToken, appxpkg.getapplicationusermodelidfromtoken
 ms.prod: windows
 ms.technology: windows-sdk

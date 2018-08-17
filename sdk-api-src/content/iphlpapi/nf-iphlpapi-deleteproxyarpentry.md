@@ -7,7 +7,7 @@ old-location: iphlp\deleteproxyarpentry.htm
 old-project: iphlp
 ms.assetid: 26e08e4d-ac69-49f8-8a1a-1ba1a04d085c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: DeleteProxyArpEntry, DeleteProxyArpEntry function [IP Helper], _iphlp_deleteproxyarpentry, iphlp.deleteproxyarpentry, iphlpapi/DeleteProxyArpEntry
 ms.prod: windows
 ms.technology: windows-sdk
@@ -176,7 +176,7 @@ On Windows Vista and later, the <b>DeleteProxyArpEntry</b> function can only be
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa366886(v=VS.85).aspx">MIB_PROXYARP</a>
+<a href="_mpr_mib_proxyarp">MIB_PROXYARP</a>
  
 
  

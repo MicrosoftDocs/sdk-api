@@ -7,7 +7,7 @@ old-location: appxpkg\apppolicygetlifecyclemanagement_function.htm
 old-project: appxpkg
 ms.assetid: FED6C183-7AA9-428F-8815-F6BC9844B360
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/15/2018
 ms.keywords: AppPolicyGetLifecycleManagement, AppPolicyGetLifecycleManagement function [App packaging and management], appmodel/AppPolicyGetLifecycleManagement, appxpkg.apppolicygetlifecyclemanagement_function
 ms.prod: windows
 ms.technology: windows-sdk

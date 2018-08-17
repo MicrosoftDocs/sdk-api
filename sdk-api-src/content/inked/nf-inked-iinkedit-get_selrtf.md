@@ -79,7 +79,7 @@ Setting the SelRTF property replaces any selected text in the <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
+<a href="tablet.iinkedit_">IInkEdit</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_include_type.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_include_type.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 4574facf-f245-365e-364b-b7710c758cdb, D3D10_INCLUDE_FORCE_DWORD, D3D10_INCLUDE_LOCAL, D3D10_INCLUDE_SYSTEM, D3D10_INCLUDE_TYPE, D3D10_INCLUDE_TYPE enumeration [Direct3D 10], D3D_INCLUDE_TYPE, LPD3D10_INCLUDE_TYPE, LPD3D10_INCLUDE_TYPE enumeration pointer [Direct3D 10], _D3D_INCLUDE_TYPE, d3d10shader/D3D10_INCLUDE_FORCE_DWORD, d3d10shader/D3D10_INCLUDE_LOCAL, d3d10shader/D3D10_INCLUDE_SYSTEM, d3d10shader/D3D10_INCLUDE_TYPE, d3d10shader/LPD3D10_INCLUDE_TYPE, d3dcommon/D3D10_INCLUDE_FORCE_DWORD, d3dcommon/D3D10_INCLUDE_LOCAL, d3dcommon/D3D10_INCLUDE_SYSTEM, d3dcommon/D3D10_INCLUDE_TYPE, d3dcommon/LPD3D10_INCLUDE_TYPE, direct3d10.d3d10_include_type
 ms.prod: windows
 ms.technology: windows-sdk
@@ -111,11 +111,11 @@ typedef D3D_INCLUDE_TYPE D3D10_INCLUDE_TYPE;</pre>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/3d1541bf-75d8-459d-a912-4068e9a0a9e4">Core Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205156(v=VS.85).aspx">Shader Enumerations</a>
+<a href="https://msdn.microsoft.com/8d2b758b-cc2a-43ad-bf26-51674d4b5129">Shader Enumerations</a>
  
 
  

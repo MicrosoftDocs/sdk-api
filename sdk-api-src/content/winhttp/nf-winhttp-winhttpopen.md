@@ -7,7 +7,7 @@ old-location: http\winhttpopen.htm
 old-project: winhttp
 ms.assetid: 34ce8f7d-7cc3-4b38-ba6a-1247f50ebd33
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/09/2018
 ms.keywords: WINHTTP_ACCESS_TYPE_AUTOMATIC_PROXY, WINHTTP_ACCESS_TYPE_DEFAULT_PROXY, WINHTTP_ACCESS_TYPE_NAMED_PROXY, WINHTTP_ACCESS_TYPE_NO_PROXY, WINHTTP_FLAG_ASYNC, WinHttpOpen, WinHttpOpen function [WinHTTP], http.winhttpopen, winhttp.winhttpopen_function, winhttp/WinHttpOpen
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ The <b>WinHttpOpen</b> function initializes, for an application, the use of WinH
 
 ### -param pszAgentW [in, optional]
 
-A pointer to a string variable that contains the name of the application or entity calling the WinHTTP functions. This name is used as the <a href="https://msdn.microsoft.com/en-us/library/Aa383870(v=VS.85).aspx">user agent</a> in the HTTP protocol.
+A pointer to a string variable that contains the name of the application or entity calling the WinHTTP functions. This name is used as the <a href="glossary.htm">user agent</a> in the HTTP protocol.
 
 
 ### -param dwAccessType [in]
@@ -96,7 +96,7 @@ Retrieves the static proxy or direct configuration from the registry. <b>WINHTTP
 
 The WinHTTP proxy configuration is set by one of these mechanisms.<ul>
 <li>The <a href="https://msdn.microsoft.com/f96adf59-59be-414e-ad6f-9eac05f4b975">proxycfg.exe</a> utility on Windows XP and Windows Server 2003 or earlier.</li>
-<li>The <a href="http://go.microsoft.com/fwlink/p/?linkid=186359">netsh.exe</a> utility  on Windows Vista and Windows Server 2008 or later.</li>
+<li>The <a href="http://go.microsoft.com/fwlink/p/?linkid=186359">netsh.exe</a> utility on Windows Vista and Windows Server 2008 or later.</li>
 <li>
 <a href="https://msdn.microsoft.com/df95703b-8fa0-4ea4-b9e6-7f19aa8c1941">WinHttpSetDefaultProxyConfiguration</a> on all platforms.</li>
 </ul>
@@ -133,7 +133,7 @@ Uses system and per-user proxy settings (including the Internet Explorer proxy c
 
 A pointer to a string variable that contains the name of the proxy server to use when proxy access is specified by setting 
 <i>dwAccessType</i> to 
-<b>WINHTTP_ACCESS_TYPE_NAMED_PROXY</b>.  The WinHTTP functions recognize only CERN type proxies for HTTP. If 
+<b>WINHTTP_ACCESS_TYPE_NAMED_PROXY</b>. The WinHTTP functions recognize only CERN type proxies for HTTP. If 
 <i>dwAccessType</i> is not set to 
 <b>WINHTTP_ACCESS_TYPE_NAMED_PROXY</b>, this parameter must be set to <b>WINHTTP_NO_PROXY_NAME</b>.
 
@@ -143,7 +143,7 @@ A pointer to a string variable that contains the name of the proxy server to use
 A pointer to a string variable that contains an optional semicolon delimited list of host names or IP addresses, or both, that should not be routed through the proxy when 
 <i>dwAccessType</i> is set to 
 <b>WINHTTP_ACCESS_TYPE_NAMED_PROXY</b>. The list can contain wildcard characters. Do not use an empty string, because the 
-<b>WinHttpOpen</b> function  uses it as the proxy bypass list. If this parameter specifies the "&lt;local&gt;" macro in the list as the only entry, this function bypasses any host name that does not contain a period. If 
+<b>WinHttpOpen</b> function uses it as the proxy bypass list. If this parameter specifies the "&lt;local&gt;" macro in the list as the only entry, this function bypasses any host name that does not contain a period. If 
 <i>dwAccessType</i> is not set to 
 <b>WINHTTP_ACCESS_TYPE_NAMED_PROXY</b>, this parameter must be set to <b>WINHTTP_NO_PROXY_BYPASS</b>.
 
@@ -163,8 +163,8 @@ Unsigned long integer value that contains the flags that indicate various option
 </dl>
 </td>
 <td width="60%">
-Use the WinHTTP functions asynchronously.  By default, all WinHTTP functions that use the returned 
-<a href="https://msdn.microsoft.com/0bd82860-1347-40c8-ae77-c4d865c109be">HINTERNET</a> handle are performed synchronously.  When this flag is set, the caller needs to specify a callback function through <a href="https://msdn.microsoft.com/b093daf0-7abe-49cb-8c09-9519e3c130b6">WinHttpSetStatusCallback</a>.
+Use the WinHTTP functions asynchronously. By default, all WinHTTP functions that use the returned 
+<a href="https://msdn.microsoft.com/0bd82860-1347-40c8-ae77-c4d865c109be">HINTERNET</a> handle are performed synchronously. When this flag is set, the caller needs to specify a callback function through <a href="https://msdn.microsoft.com/b093daf0-7abe-49cb-8c09-9519e3c130b6">WinHttpSetStatusCallback</a>.
 
 </td>
 </tr>
@@ -216,7 +216,7 @@ Not enough memory was available to complete the requested operation. (Windows er
 
 
 
-Even when  WinHTTP is  used in asynchronous mode (that is, when <b>WINHTTP_FLAG_ASYNC</b> has been set in <b>WinHttpOpen</b>), this function operates synchronously. The return value indicates success or failure.  To retrieve extended error information, call 
+We strongly recommend that you use WinHTTP in asynchronous mode (that is, when <b>WINHTTP_FLAG_ASYNC</b> has been set in <b>WinHttpOpen</b>, so that usage of the returned <a href="https://msdn.microsoft.com/0bd82860-1347-40c8-ae77-c4d865c109be">HINTERNET</a> become asynchronous). The return value indicates success or failure. To retrieve extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
 
 The 
@@ -224,8 +224,8 @@ The
 <a href="https://msdn.microsoft.com/78215141-dfe8-4f0a-ba1a-a63fa257db6f">WinHttpCloseHandle</a> to free the session handle and any associated resources.
 
 The application can make any number of calls to 
-<b>WinHttpOpen</b>, though a single call is normally sufficient.  Each call to 
-<b>WinHttpOpen</b> opens a new session context.  Because user data is not shared between multiple session contexts, an application that makes requests on behalf of multiple users should create a separate session for each user, so as not to share user-specific cookies and authentication state. The application should define separate behaviors for each 
+<b>WinHttpOpen</b>, though a single call is normally sufficient. Each call to 
+<b>WinHttpOpen</b> opens a new session context. Because user data is not shared between multiple session contexts, an application that makes requests on behalf of multiple users should create a separate session for each user, so as not to share user-specific cookies and authentication state. The application should define separate behaviors for each 
 <b>WinHttpOpen</b> instance, such as different proxy servers configured for each.
 
 After the calling application has finished using the 
@@ -238,8 +238,7 @@ After the calling application has finished using the
 
 #### Examples
 
-The following example code shows how to retrieve the default connection 
-                time-out value.
+The following example code shows how to retrieve the default connection time-out value.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

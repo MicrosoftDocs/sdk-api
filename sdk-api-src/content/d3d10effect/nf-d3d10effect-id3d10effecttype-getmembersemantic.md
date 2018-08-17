@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effecttype_getmembersemantic.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effecttype_getmembersemantic.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 8384b4a1-a5bd-59ab-0b4d-d909f359d489, GetMemberSemantic, GetMemberSemantic method [Direct3D 10], GetMemberSemantic method [Direct3D 10],ID3D10EffectType interface, ID3D10EffectType interface [Direct3D 10],GetMemberSemantic method, ID3D10EffectType.GetMemberSemantic, ID3D10EffectType::GetMemberSemantic, d3d10effect/ID3D10EffectType::GetMemberSemantic, direct3d10.id3d10effecttype_getmembersemantic
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,7 +82,7 @@ A string that contains the semantic.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173716(v=VS.85).aspx">ID3D10EffectType Interface</a>
+<a href="https://msdn.microsoft.com/8b396c86-82de-4a0e-8b86-228e3716c09b">ID3D10EffectType Interface</a>
  
 
  

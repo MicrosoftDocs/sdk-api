@@ -75,14 +75,7 @@ The size of the <i>Buffer</i> parameter, in bytes.
 A pointer to a buffer that receives the enlistment recovery information.
 
 
-### -param OPTIONAL
-
-TBD
-
-
-
-
-#### - BufferUsed [out, optional]
+### -param BufferUsed [out, optional]
 
 A pointer to a variable that receives the actual number of bytes returned in the <i>Buffer</i> parameter.
 

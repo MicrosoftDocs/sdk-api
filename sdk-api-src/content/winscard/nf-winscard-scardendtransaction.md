@@ -128,7 +128,7 @@ Power down the card.
 
 If the function succeeds, the function returns <b>SCARD_S_SUCCESS</b>. 
 
-If the function fails, it returns an error code. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.   Possible error codes follow.
+If the function fails, it returns an error code. For more information, see <a href="authentication_return_values.htm">Smart Card Return Values</a>.   Possible error codes follow.
 
 <table>
 <tr>

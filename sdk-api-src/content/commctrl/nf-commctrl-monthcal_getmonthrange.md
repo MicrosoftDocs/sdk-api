@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Retrieves date information (using <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structures) that represents the high and low limits of a month calendar control's display. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760981(v=VS.85).aspx">MCM_GETMONTHRANGE</a> message explicitly. 
+Retrieves date information (using <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structures) that represents the high and low limits of a month calendar control's display. You can use this macro or send the <a href="https://msdn.microsoft.com/f50ac4b7-1f58-4639-8c78-341bb33db3c3">MCM_GETMONTHRANGE</a> message explicitly. 
 
 
 ## -parameters

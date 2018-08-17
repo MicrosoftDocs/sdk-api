@@ -61,9 +61,21 @@ The
 
 
 
-### -param OPTIONAL
+### -param domainname [in]
 
-TBD
+A pointer to a constant string that specifies the DNS or NetBIOS name of a remote server or domain on which the function is to execute. If this parameter is <b>NULL</b>, the logon domain of the caller is used. 
+
+
+
+					
+
+
+### -param username [in]
+
+A pointer to a constant string that specifies a user name. The 
+<b>NetUserChangePassword</b> function changes the password for the specified user.
+
+If this parameter is <b>NULL</b>, the logon name of the caller is used. For more information, see the following Remarks section.
 
 
 ### -param oldpassword [in]
@@ -74,23 +86,6 @@ A pointer to a constant string that specifies the user's old password.
 ### -param newpassword [in]
 
 A pointer to a constant string that specifies the user's new password.
-
-
-#### - domainname [in]
-
-A pointer to a constant string that specifies the DNS or NetBIOS name of a remote server or domain on which the function is to execute. If this parameter is <b>NULL</b>, the logon domain of the caller is used. 
-
-
-
-					
-
-
-#### - username [in]
-
-A pointer to a constant string that specifies a user name. The 
-<b>NetUserChangePassword</b> function changes the password for the specified user.
-
-If this parameter is <b>NULL</b>, the logon name of the caller is used. For more information, see the following Remarks section.
 
 
 ## -returns

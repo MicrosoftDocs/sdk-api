@@ -52,7 +52,7 @@ req.product: Use Windows Update or a Windows Update Services Server to retrieve 
 ## -description
 
 
-Specifies keystroke data returned by <a href="https://msdn.microsoft.com/en-us/library/Ee419266(v=VS.85).aspx">XInputGetKeystroke</a>.
+Specifies keystroke data returned by <a href="https://msdn.microsoft.com/689FE4E9-5726-43B2-B516-049DF2CD28DE">XInputGetKeystroke</a>.
 
 
 ## -struct-fields
@@ -273,7 +273,7 @@ The valid virtual-key (VK_xxx) codes are defined in XInput.h. In addition to cod
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419266(v=VS.85).aspx">XInputGetKeystroke</a>
+<a href="https://msdn.microsoft.com/689FE4E9-5726-43B2-B516-049DF2CD28DE">XInputGetKeystroke</a>
  
 
  

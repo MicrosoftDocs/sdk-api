@@ -64,11 +64,9 @@ The <b>NetAccessAdd</b> function creates a new access control list (ACL) for a r
 
 
 
-### -param OPTIONAL
+### -param servername
 
 TBD
-
-
 
 
 ### -param level
@@ -98,6 +96,13 @@ The <i>pbBuffer</i> parameter points to an
 ### -param buf
 
 Pointer to the buffer that contains the access information structure.
+
+
+### -param parm_err
+
+TBD
+
+
 
 
 #### - cbBuffer

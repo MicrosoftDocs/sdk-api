@@ -7,7 +7,7 @@ old-location: base\createumscompletionlist.htm
 old-project: procthread
 ms.assetid: 6e77b793-a82e-4e23-8c8b-7aff79d69346
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: CreateUmsCompletionList, CreateUmsCompletionList function, base.createumscompletionlist, winbase/CreateUmsCompletionList
 ms.prod: windows
 ms.technology: windows-sdk

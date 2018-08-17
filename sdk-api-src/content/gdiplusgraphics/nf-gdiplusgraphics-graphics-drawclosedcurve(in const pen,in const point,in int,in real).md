@@ -66,37 +66,37 @@ DrawClosedCurve methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536142(v=VS.85).aspx">DrawClosedCurve(Pen*,Point*,INT)</a>
+<a href="https://msdn.microsoft.com/b3d1c54d-e823-466b-b23e-20923d35688d">DrawClosedCurve(Pen*,Point*,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536142(v=VS.85).aspx">Graphics::DrawClosedCurve</a> method draws a closed cardinal spline.
+The <a href="https://msdn.microsoft.com/b3d1c54d-e823-466b-b23e-20923d35688d">Graphics::DrawClosedCurve</a> method draws a closed cardinal spline.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536143(v=VS.85).aspx">DrawClosedCurve(Pen*,PointF*,INT)</a>
+<a href="https://msdn.microsoft.com/49d14771-2cfb-4b42-b0cd-e8f9ef209b32">DrawClosedCurve(Pen*,PointF*,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536143(v=VS.85).aspx">Graphics::DrawClosedCurve</a> method draws a closed cardinal spline.
+The <a href="https://msdn.microsoft.com/49d14771-2cfb-4b42-b0cd-e8f9ef209b32">Graphics::DrawClosedCurve</a> method draws a closed cardinal spline.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536145(v=VS.85).aspx">DrawClosedCurve(Pen*,Point*,INT,REAL)</a>
+<a href="https://msdn.microsoft.com/9cf7011a-3330-431f-9fce-260238d9cc8f">DrawClosedCurve(Pen*,Point*,INT,REAL)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536145(v=VS.85).aspx">Graphics::DrawClosedCurve</a> method draws a closed cardinal spline.
+The <a href="https://msdn.microsoft.com/9cf7011a-3330-431f-9fce-260238d9cc8f">Graphics::DrawClosedCurve</a> method draws a closed cardinal spline.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms536144(v=VS.85).aspx">DrawClosedCurve(Pen*,PointF*,INT,REAL)</a>
+<a href="https://msdn.microsoft.com/2f220b34-b4d6-49ff-a7fe-ec9c484ab1a3">DrawClosedCurve(Pen*,PointF*,INT,REAL)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms536144(v=VS.85).aspx">Graphics::DrawClosedCurve</a> method draws a closed cardinal spline.
+The <a href="https://msdn.microsoft.com/2f220b34-b4d6-49ff-a7fe-ec9c484ab1a3">Graphics::DrawClosedCurve</a> method draws a closed cardinal spline.
 
 </td>
 </tr>

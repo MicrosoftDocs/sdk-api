@@ -55,7 +55,7 @@ req.product: Windows Media Format 9 Series or later
 
 Creates a YUV swap chain for an existing <a href="https://msdn.microsoft.com/A220189D-8546-4352-8F6F-AC5D2192940D">DirectComposition</a> surface handle.
          The swap chain is created with pre-existing buffers and very few descriptive elements are required. Instead, this method requires 
-        a <a href="https://msdn.microsoft.com/A220189D-8546-4352-8F6F-AC5D2192940D">DirectComposition</a> surface handle and an <a href="https://msdn.microsoft.com/en-us/library/Bb174560(v=VS.85).aspx">IDXGIResource</a> 
+        a <a href="https://msdn.microsoft.com/A220189D-8546-4352-8F6F-AC5D2192940D">DirectComposition</a> surface handle and an <a href="https://msdn.microsoft.com/de1f11a5-194b-438e-975b-3945179d0ed7">IDXGIResource</a> 
         buffer to hold decoded frame data. The swap chain format is determined by the format of the subresources of the <b>IDXGIResource</b>.
       
 
@@ -87,20 +87,20 @@ A pointer to a  <a href="https://msdn.microsoft.com/9AAF8E99-E5BC-49B3-8CA6-1F4F
 
 ### -param pYuvDecodeBuffers [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb174560(v=VS.85).aspx">IDXGIResource</a> interface that represents the resource that contains the info 
+A pointer to a <a href="https://msdn.microsoft.com/de1f11a5-194b-438e-975b-3945179d0ed7">IDXGIResource</a> interface that represents the resource that contains the info 
             that <b>CreateDecodeSwapChainForCompositionSurfaceHandle</b> decodes.
           
 
 
 ### -param pRestrictToOutput [in, optional]
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb174546(v=VS.85).aspx">IDXGIOutput</a> interface for the swap chain to restrict content to. If the swap chain 
+A pointer to the <a href="https://msdn.microsoft.com/c641995e-a4d9-4bfb-bdc0-7ffbe77c3599">IDXGIOutput</a> interface for the swap chain to restrict content to. If the swap chain 
               is moved to a different output, the content is black. You can optionally set this parameter to an output target that 
-              uses <a href="https://msdn.microsoft.com/en-us/library/Bb509554(v=VS.85).aspx">DXGI_PRESENT_RESTRICT_TO_OUTPUT</a> to restrict 
+              uses <a href="dxgi_present.htm">DXGI_PRESENT_RESTRICT_TO_OUTPUT</a> to restrict 
               the content on this output. If the swap chain is moved to a different output, the content is black.
             
 
-You must also pass the <a href="https://msdn.microsoft.com/en-us/library/Bb509554(v=VS.85).aspx">DXGI_PRESENT_RESTRICT_TO_OUTPUT</a> flag in a 
+You must also pass the <a href="dxgi_present.htm">DXGI_PRESENT_RESTRICT_TO_OUTPUT</a> flag in a 
               present call to force the content to appear blacked out on any other output. If you want to restrict the content to a different output, you must create a new swap chain. 
               However, you can conditionally restrict content 
               based on the <b>DXGI_PRESENT_RESTRICT_TO_OUTPUT</b> flag.
@@ -126,10 +126,10 @@ A pointer to a variable that receives a pointer to the <a href="https://msdn.mic
 <li>S_OK if it successfully created a swap chain.</li>
 <li>E_OUTOFMEMORY if memory is unavailable to complete the operation.</li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_INVALID_CALL</a>  if the calling application provided invalid data, for example, 
+<a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR_INVALID_CALL</a>  if the calling application provided invalid data, for example, 
                   if <i>pDesc</i>, <i>pYuvDecodeBuffers</i>, or <i>ppSwapChain</i> is <b>NULL</b>.
                 </li>
-<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic that are defined by the type of
+<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> topic that are defined by the type of
                   device that you pass to <i>pDevice</i>.
                 </li>
 </ul>
@@ -142,7 +142,7 @@ A pointer to a variable that receives a pointer to the <a href="https://msdn.mic
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Bb174560(v=VS.85).aspx">IDXGIResource</a> provided via the <i>pYuvDecodeBuffers</i> 
+The <a href="https://msdn.microsoft.com/de1f11a5-194b-438e-975b-3945179d0ed7">IDXGIResource</a> provided via the <i>pYuvDecodeBuffers</i> 
       parameter must point to at least one subresource, and all subresources must be created with the <a href="https://msdn.microsoft.com/4ffa1714-bd85-4d5a-930d-20526f46e4b9">D3D11_BIND_DECODER</a> flag.
 
 

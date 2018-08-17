@@ -72,9 +72,35 @@ A handle to the log that is obtained from <a href="https://msdn.microsoft.com/ac
 The log handle  can  refer to a dedicated or multiplexed log.
 
 
-### -param OPTIONAL
+### -param pfnAllocBuffer [in, optional]
 
-TBD
+The callback function that allocates memory for log blocks.  
+
+If this parameter is <b>NULL</b>, the Common Log File System (CLFS) provides a default block allocation function.  This parameter cannot be <b>NULL</b> if a block-freeing callback is specified by using the <i>pfnFreeBuffer</i>  parameter.
+
+The following example identifies the  syntax of the block allocation callback function:
+
+<code>typedef PVOID (* CLFS_BLOCK_ALLOCATION) (ULONG cbBufferSize, PVOID pvUserContext);</code>
+
+
+### -param pfnFreeBuffer [in, optional]
+
+The callback function that   frees log blocks allocated by <i>pfnAllocBuffer</i>.  
+
+If this parameter is <b>NULL</b>, CLFS provides a default block deallocation function.  This parameter cannot be <b>NULL</b> if a block allocation callback is specified by using the <i>pfnAllocBuffer</i> parameter.
+
+The following example identifies the syntax of the  block-freeing callback function:
+
+<code>typedef void (* CLFS_BLOCK_DEALLOCATION) (PVOID pvBuffer, PVOID pvUserContext);</code>
+
+The <i>buffer</i> parameter of "ClfsBlockDeallocProc" must point to a block that is allocated by using the callback pointed to by <i>pfnAllocBuffer</i>.
+
+
+### -param pvBlockAllocContext [in, optional]
+
+A pointer to a  buffer that is passed back as a user context to the block allocation and deallocation routines, if a buffer is specified.  
+
+If <i>pfnAllocBuffer</i> is <b>NULL</b>, this parameter is ignored.
 
 
 ### -param cbMarshallingBuffer [in]
@@ -103,37 +129,6 @@ Read contexts use at least one read block.
 A pointer to the  marshaling context  that CLFS  allocates when <b>CreateLogMarshallingArea</b> completes successfully.  
 
 This context must be used with all read, append, write, and flush operations to log marshaling areas.  All operations that access marshaling areas by using a marshaling context are thread-safe. This parameter is <b>NULL</b> if the operation is not successful.
-
-
-#### - pfnAllocBuffer [in, optional]
-
-The callback function that allocates memory for log blocks.  
-
-If this parameter is <b>NULL</b>, the Common Log File System (CLFS) provides a default block allocation function.  This parameter cannot be <b>NULL</b> if a block-freeing callback is specified by using the <i>pfnFreeBuffer</i>  parameter.
-
-The following example identifies the  syntax of the block allocation callback function:
-
-<code>typedef PVOID (* CLFS_BLOCK_ALLOCATION) (ULONG cbBufferSize, PVOID pvUserContext);</code>
-
-
-#### - pfnFreeBuffer [in, optional]
-
-The callback function that   frees log blocks allocated by <i>pfnAllocBuffer</i>.  
-
-If this parameter is <b>NULL</b>, CLFS provides a default block deallocation function.  This parameter cannot be <b>NULL</b> if a block allocation callback is specified by using the <i>pfnAllocBuffer</i> parameter.
-
-The following example identifies the syntax of the  block-freeing callback function:
-
-<code>typedef void (* CLFS_BLOCK_DEALLOCATION) (PVOID pvBuffer, PVOID pvUserContext);</code>
-
-The <i>buffer</i> parameter of "ClfsBlockDeallocProc" must point to a block that is allocated by using the callback pointed to by <i>pfnAllocBuffer</i>.
-
-
-#### - pvBlockAllocContext [in, optional]
-
-A pointer to a  buffer that is passed back as a user context to the block allocation and deallocation routines, if a buffer is specified.  
-
-If <i>pfnAllocBuffer</i> is <b>NULL</b>, this parameter is ignored.
 
 
 ## -returns

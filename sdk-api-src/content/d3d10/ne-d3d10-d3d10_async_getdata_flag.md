@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_async_getdata_flag.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_async_getdata_flag.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: D3D10_ASYNC_GETDATA_DONOTFLUSH, D3D10_ASYNC_GETDATA_FLAG, D3D10_ASYNC_GETDATA_FLAG enumeration [Direct3D 10], d0797ad1-e1be-88a9-fb81-7dba0cb6c9ea, d3d10/D3D10_ASYNC_GETDATA_DONOTFLUSH, d3d10/D3D10_ASYNC_GETDATA_FLAG, direct3d10.d3d10_async_getdata_flag
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Optional flags that control the behavior of <a href="https://msdn.microsoft.com/en-us/library/Bb173503(v=VS.85).aspx">ID3D10Asynchronous::GetData</a>.
+Optional flags that control the behavior of <a href="https://msdn.microsoft.com/f8993ac8-3632-48d0-a583-08f117e8f587">ID3D10Asynchronous::GetData</a>.
 
 
 ## -enum-fields
@@ -69,7 +69,7 @@ Do not flush the command buffer. This can potentially cause an infinite loop if 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/3d1541bf-75d8-459d-a912-4068e9a0a9e4">Core Enumerations</a>
  
 
  

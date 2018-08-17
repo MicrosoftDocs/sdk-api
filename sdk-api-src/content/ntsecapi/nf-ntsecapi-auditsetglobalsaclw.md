@@ -7,7 +7,7 @@ old-location: security\auditsetglobalsacl.htm
 old-project: secauthz
 ms.assetid: 48A41E3F-DDB0-431F-BCF0-E2452FEA57FA
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: AuditSetGlobalSacl, AuditSetGlobalSacl function [Security], AuditSetGlobalSaclA, AuditSetGlobalSaclW, ntsecapi/AuditSetGlobalSacl, ntsecapi/AuditSetGlobalSaclA, ntsecapi/AuditSetGlobalSaclW, security.auditsetglobalsacl
 ms.prod: windows
 ms.technology: windows-sdk

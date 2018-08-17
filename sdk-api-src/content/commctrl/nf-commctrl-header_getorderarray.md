@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Gets the current left-to-right order of items in a header control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775343(v=VS.85).aspx">HDM_GETORDERARRAY</a> message explicitly. 
+Gets the current left-to-right order of items in a header control. You can use this macro or send the <a href="https://msdn.microsoft.com/b287d3c1-ae61-41a4-a884-dc008eb24ad8">HDM_GETORDERARRAY</a> message explicitly. 
 
 
 ## -parameters
@@ -71,7 +71,7 @@ A handle to a header control.
 Type: <b>int</b>
 
 The number of integer elements that 
-					<i>lpiArray</i> can hold. This value must be equal to the number of items in the control (see <a href="https://msdn.microsoft.com/en-us/library/Bb775337(v=VS.85).aspx">HDM_GETITEMCOUNT</a>).
+					<i>lpiArray</i> can hold. This value must be equal to the number of items in the control (see <a href="https://msdn.microsoft.com/0e6d2131-53b4-4927-bd0f-577b8eaf237a">HDM_GETITEMCOUNT</a>).
 
 
 ### -param lpi

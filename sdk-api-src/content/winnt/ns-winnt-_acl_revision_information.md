@@ -7,7 +7,7 @@ old-location: security\acl_revision_information.htm
 old-project: secauthz
 ms.assetid: cdc7f6b1-aaa1-4893-a192-5a42233b3ec1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: "*PACL_REVISION_INFORMATION, ACL_REVISION_INFORMATION, ACL_REVISION_INFORMATION structure [Security], PACL_REVISION_INFORMATION, PACL_REVISION_INFORMATION structure pointer [Security], _ACL_REVISION_INFORMATION, _win32_acl_revision_information_str, security.acl_revision_information, winnt/ACL_REVISION_INFORMATION, winnt/PACL_REVISION_INFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk

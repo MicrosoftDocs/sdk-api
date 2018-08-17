@@ -696,14 +696,14 @@ Identifies a record that marks the last EMF+ record of a metafile.
 ### -field EmfPlusRecordTypeComment
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535678(v=VS.85).aspx">Graphics::AddMetafileComment</a>
+<a href="https://msdn.microsoft.com/839b6918-1656-46ae-9bfd-85305306715c">Graphics::AddMetafileComment</a>
 
 
 
 ### -field EmfPlusRecordTypeGetDC
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535709(v=VS.85).aspx">Graphics::GetHDC</a>
+<a href="https://msdn.microsoft.com/b1a81c8b-7968-4ad8-a7b6-ebe6c266fd0b">Graphics::GetHDC</a>
 
 
 
@@ -728,320 +728,320 @@ Identifies the end of a multiple-format block.
 ### -field EmfPlusRecordTypeClear
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535679(v=VS.85).aspx">Graphics::Clear</a>
+<a href="https://msdn.microsoft.com/b59b72ff-8c7a-43f2-98ec-067f95325e1e">Graphics::Clear</a>
 
 
 
 ### -field EmfPlusRecordTypeFillRects
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535775(v=VS.85).aspx">FillRectangles Methods</a>
+<a href="https://msdn.microsoft.com/705d1728-5742-4ed0-bea3-651b3ba40b40">FillRectangles Methods</a>
 
 
 
 ### -field EmfPlusRecordTypeDrawRects
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535757(v=VS.85).aspx">DrawRectangles Methods</a>
+<a href="https://msdn.microsoft.com/1c0c0e09-2304-4d68-9dd0-22b0861a2492">DrawRectangles Methods</a>
 
 
 
 ### -field EmfPlusRecordTypeFillPolygon
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535770(v=VS.85).aspx">FillPolygon Methods</a>
+<a href="https://msdn.microsoft.com/e7cc93ab-c1e6-40e7-8888-f6bbffa42a00">FillPolygon Methods</a>
 
 
 
 ### -field EmfPlusRecordTypeDrawLines
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535749(v=VS.85).aspx">DrawLines Methods</a>
+<a href="https://msdn.microsoft.com/dc82feef-7d03-45dd-a949-42589511b177">DrawLines Methods</a>
 
 
 
 ### -field EmfPlusRecordTypeFillEllipse
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535767(v=VS.85).aspx">FillEllipse Methods</a>
+<a href="https://msdn.microsoft.com/92f6f3ca-337b-4f57-9472-2dc677550b39">FillEllipse Methods</a>
 
 
 
 ### -field EmfPlusRecordTypeDrawEllipse
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535744(v=VS.85).aspx">DrawEllipse Methods</a>
+<a href="https://msdn.microsoft.com/1abaee7d-63a5-4786-b08c-f3b59e50f180">DrawEllipse Methods</a>
 
 
 
 ### -field EmfPlusRecordTypeFillPie
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535769(v=VS.85).aspx">FillPie Methods</a>
+<a href="https://msdn.microsoft.com/e6de6634-b87f-4fe9-a0d4-ffeea0e0ae8b">FillPie Methods</a>
 
 
 
 ### -field EmfPlusRecordTypeDrawPie
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535751(v=VS.85).aspx">DrawPie Methods</a>
+<a href="https://msdn.microsoft.com/4c6b363f-ffe4-4572-98c0-55f84f789b1e">DrawPie Methods</a>
 
 
 
 ### -field EmfPlusRecordTypeDrawArc
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535733(v=VS.85).aspx">DrawArc Methods</a>
+<a href="https://msdn.microsoft.com/b30757ea-b8b8-45bd-a716-a4c8c9c5f1ec">DrawArc Methods</a>
 
 
 
 ### -field EmfPlusRecordTypeFillRegion
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535690(v=VS.85).aspx">Graphics::FillRegion</a>
+<a href="https://msdn.microsoft.com/000ac0f9-0963-46b6-a64d-f3cfb06e3eb9">Graphics::FillRegion</a>
 
 
 
 ### -field EmfPlusRecordTypeFillPath
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535688(v=VS.85).aspx">Graphics::FillPath</a>
+<a href="https://msdn.microsoft.com/29d09e61-2e44-4f2e-9356-a697b4178c71">Graphics::FillPath</a>
 
 
 
 ### -field EmfPlusRecordTypeDrawPath
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535685(v=VS.85).aspx">Graphics::DrawPath</a>
+<a href="https://msdn.microsoft.com/fffed788-ee5c-4c15-9480-dbedb7caa614">Graphics::DrawPath</a>
 
 
 
 ### -field EmfPlusRecordTypeFillClosedCurve
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535765(v=VS.85).aspx">FillClosedCurve Methods</a>
+<a href="https://msdn.microsoft.com/378f0d34-7328-45e5-9f55-826bdaed3aab">FillClosedCurve Methods</a>
 
 
 
 ### -field EmfPlusRecordTypeDrawClosedCurve
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535740(v=VS.85).aspx">DrawClosedCurve Methods</a>
+<a href="https://msdn.microsoft.com/366c883b-0acf-4c2d-8ecd-18baa1c75b76">DrawClosedCurve Methods</a>
 
 
 
 ### -field EmfPlusRecordTypeDrawCurve
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535742(v=VS.85).aspx">DrawCurve Methods</a>
+<a href="https://msdn.microsoft.com/3b29e150-26ac-46c6-8aa5-984aeb03392a">DrawCurve Methods</a>
 
 
 
 ### -field EmfPlusRecordTypeDrawBeziers
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535738(v=VS.85).aspx">DrawBeziers Methods</a>
+<a href="https://msdn.microsoft.com/af91f612-7e65-4a36-8449-32410d275b00">DrawBeziers Methods</a>
 
 
 
 ### -field EmfPlusRecordTypeDrawImage
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535746(v=VS.85).aspx">DrawImage Methods</a> (all methods that do not receive an array of destination points)
+<a href="https://msdn.microsoft.com/c9577988-e52f-4f71-ab1b-51bb5368812e">DrawImage Methods</a> (all methods that do not receive an array of destination points)
 
 
 ### -field EmfPlusRecordTypeDrawImagePoints
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535746(v=VS.85).aspx">DrawImage Methods</a> (all methods that receive an array of destination points)
+<a href="https://msdn.microsoft.com/c9577988-e52f-4f71-ab1b-51bb5368812e">DrawImage Methods</a> (all methods that receive an array of destination points)
 
 
 ### -field EmfPlusRecordTypeDrawString
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535759(v=VS.85).aspx">DrawString Methods</a>
+<a href="https://msdn.microsoft.com/b3568ed9-e359-4916-a83d-7553c021d197">DrawString Methods</a>
 
 
 
 ### -field EmfPlusRecordTypeSetRenderingOrigin
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535814(v=VS.85).aspx">Graphics::SetRenderingOrigin</a>
+<a href="https://msdn.microsoft.com/2e568966-8f37-460a-8715-76e67593001b">Graphics::SetRenderingOrigin</a>
 
 
 
 ### -field EmfPlusRecordTypeSetAntiAliasMode
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535815(v=VS.85).aspx">Graphics::SetSmoothingMode</a>
+<a href="https://msdn.microsoft.com/d42ae7c7-9381-4613-bb65-76683873a63a">Graphics::SetSmoothingMode</a>
 
 
 
 ### -field EmfPlusRecordTypeSetTextRenderingHint
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535817(v=VS.85).aspx">Graphics::SetTextRenderingHint</a>
+<a href="https://msdn.microsoft.com/6ea9da15-a894-4b88-8615-bdfec19f4c1c">Graphics::SetTextRenderingHint</a>
 
 
 
 ### -field EmfPlusRecordTypeSetTextContrast
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535816(v=VS.85).aspx">Graphics::SetTextContrast</a>
+<a href="https://msdn.microsoft.com/5bd9b12f-8438-412d-a7df-5fd5d35d6187">Graphics::SetTextContrast</a>
 
 
 
 ### -field EmfPlusRecordTypeSetInterpolationMode
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535810(v=VS.85).aspx">Graphics::SetInterpolationMode</a>
+<a href="https://msdn.microsoft.com/1624691c-fbf0-4d14-8d48-e7c69e0100aa">Graphics::SetInterpolationMode</a>
 
 
 
 ### -field EmfPlusRecordTypeSetPixelOffsetMode
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535813(v=VS.85).aspx">Graphics::SetPixelOffsetMode</a>
+<a href="https://msdn.microsoft.com/2e93a8b1-e44d-4bd9-86bc-4291719afe9c">Graphics::SetPixelOffsetMode</a>
 
 
 
 ### -field EmfPlusRecordTypeSetCompositingMode
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535808(v=VS.85).aspx">Graphics::SetCompositingMode</a>
+<a href="https://msdn.microsoft.com/93367fac-4f61-4082-9f67-13028f1b8a94">Graphics::SetCompositingMode</a>
 
 
 
 ### -field EmfPlusRecordTypeSetCompositingQuality
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535809(v=VS.85).aspx">Graphics::SetCompositingQuality</a>
+<a href="https://msdn.microsoft.com/e3544a81-d039-4bd6-89ea-d3883c95f7a9">Graphics::SetCompositingQuality</a>
 
 
 
 ### -field EmfPlusRecordTypeSave
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535806(v=VS.85).aspx">Graphics::Save</a>
+<a href="https://msdn.microsoft.com/fb281046-e995-44a4-a45f-72a85f1d5c5f">Graphics::Save</a>
 
 
 
 ### -field EmfPlusRecordTypeRestore
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535804(v=VS.85).aspx">Graphics::Restore</a>
+<a href="https://msdn.microsoft.com/34058862-9b3f-4ad4-bf57-904bbea50c4d">Graphics::Restore</a>
 
 
 
 ### -field EmfPlusRecordTypeBeginContainer
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536158(v=VS.85).aspx">Graphics::BeginContainer</a>
+<a href="https://msdn.microsoft.com/4e860c19-a4db-4ebf-9e00-52c3e3f39e14">Graphics::BeginContainer</a>
 
 
 
 ### -field EmfPlusRecordTypeBeginContainerNoParams
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536156(v=VS.85).aspx">Graphics::BeginContainer</a>
+<a href="https://msdn.microsoft.com/90d2c126-01ed-4ff3-af99-a79a88c48ce5">Graphics::BeginContainer</a>
 
 
 
 ### -field EmfPlusRecordTypeEndContainer
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535686(v=VS.85).aspx">Graphics::EndContainer</a>
+<a href="https://msdn.microsoft.com/431f2d85-ae7e-49e5-9240-00dd242b7390">Graphics::EndContainer</a>
 
 
 
 ### -field EmfPlusRecordTypeSetWorldTransform
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535818(v=VS.85).aspx">Graphics::SetTransform</a>
+<a href="https://msdn.microsoft.com/458b62ad-04f0-4202-92db-b1fcf43b3ffa">Graphics::SetTransform</a>
 
 
 
 ### -field EmfPlusRecordTypeResetWorldTransform
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535803(v=VS.85).aspx">Graphics::ResetTransform</a>
+<a href="https://msdn.microsoft.com/10357224-cfbd-4d02-af94-93cdff80d466">Graphics::ResetTransform</a>
 
 
 
 ### -field EmfPlusRecordTypeMultiplyWorldTransform
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535800(v=VS.85).aspx">Graphics::MultiplyTransform</a>
+<a href="https://msdn.microsoft.com/46f90c3e-ed70-40ba-a8e8-1b1d3276862d">Graphics::MultiplyTransform</a>
 
 
 
 ### -field EmfPlusRecordTypeTranslateWorldTransform
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535820(v=VS.85).aspx">Graphics::TranslateTransform</a>
+<a href="https://msdn.microsoft.com/99b51fb7-b1de-421f-9743-bf6a5ec758ef">Graphics::TranslateTransform</a>
 
 
 
 ### -field EmfPlusRecordTypeScaleWorldTransform
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535807(v=VS.85).aspx">Graphics::ScaleTransform</a>
+<a href="https://msdn.microsoft.com/040bfd10-1a2b-4277-9d27-0919d9efe371">Graphics::ScaleTransform</a>
 
 
 
 ### -field EmfPlusRecordTypeRotateWorldTransform
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535805(v=VS.85).aspx">Graphics::RotateTransform</a>
+<a href="https://msdn.microsoft.com/554cd11e-9b22-48c5-a823-bd29f879fba7">Graphics::RotateTransform</a>
 
 
 
 ### -field EmfPlusRecordTypeSetPageTransform
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535811(v=VS.85).aspx">Graphics::SetPageScale</a> and <a href="https://msdn.microsoft.com/en-us/library/ms535812(v=VS.85).aspx">Graphics::SetPageUnit</a>
+<a href="https://msdn.microsoft.com/1efcce43-18ed-4f81-933b-ea7fcaf0226b">Graphics::SetPageScale</a> and <a href="https://msdn.microsoft.com/f931ac83-df22-426b-9323-7c0857903410">Graphics::SetPageUnit</a>
 
 
 
 ### -field EmfPlusRecordTypeResetClip
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535802(v=VS.85).aspx">Graphics::ResetClip</a>
+<a href="https://msdn.microsoft.com/f3fcb50c-30c3-4a57-ab99-ebe7d05ede8f">Graphics::ResetClip</a>
 
 
 
 ### -field EmfPlusRecordTypeSetClipRect
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535826(v=VS.85).aspx">Graphics::SetClip</a> and <a href="https://msdn.microsoft.com/en-us/library/ms535828(v=VS.85).aspx">Graphics::SetClip</a>
+<a href="https://msdn.microsoft.com/d014787c-081c-4490-b364-dc6d5a9b6ee7">Graphics::SetClip</a> and <a href="https://msdn.microsoft.com/a39ef640-a286-4007-9cec-2b4f1f72e6db">Graphics::SetClip</a>
 
 
 
 ### -field EmfPlusRecordTypeSetClipPath
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535824(v=VS.85).aspx">Graphics::SetClip</a>
+<a href="https://msdn.microsoft.com/5c266648-77b7-486e-a2e0-b70e397bea01">Graphics::SetClip</a>
 
 
 
 ### -field EmfPlusRecordTypeSetClipRegion
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535827(v=VS.85).aspx">Graphics::SetClip</a>
+<a href="https://msdn.microsoft.com/0968120f-ab5d-4f04-bf55-3e6fefc52336">Graphics::SetClip</a>
 
 
 
 ### -field EmfPlusRecordTypeOffsetClip
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535791(v=VS.85).aspx">TranslateClip Methods</a>
+<a href="https://msdn.microsoft.com/2ae4af90-2612-4b00-b47d-0155e98bffa5">TranslateClip Methods</a>
 
 
 
 ### -field EmfPlusRecordTypeDrawDriverString
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535683(v=VS.85).aspx">Graphics::DrawDriverString</a>
+<a href="https://msdn.microsoft.com/daed7b4e-5284-4a38-bd33-274618f01027">Graphics::DrawDriverString</a>
 
 
 

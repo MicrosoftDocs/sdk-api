@@ -4,10 +4,10 @@ title: CryptEnumProviderTypesW function
 author: windows-sdk-content
 description: Retrieves the first or next types of cryptographic service provider (CSP) supported on the computer.
 old-location: security\cryptenumprovidertypes.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 7568c963-4d06-4af0-bd15-240402425046
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: CryptEnumProviderTypes, CryptEnumProviderTypes function [Security], CryptEnumProviderTypesA, CryptEnumProviderTypesW, _crypto2_cryptenumprovidertypes, security.cryptenumprovidertypes, wincrypt/CryptEnumProviderTypes, wincrypt/CryptEnumProviderTypesA, wincrypt/CryptEnumProviderTypesW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -275,7 +275,7 @@ For another example that uses the <b>CryptEnumProviderTypes</b> function, see <a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Service Provider Functions</a>
+<a href="cryptography_functions.htm">Service Provider Functions</a>
  
 
  

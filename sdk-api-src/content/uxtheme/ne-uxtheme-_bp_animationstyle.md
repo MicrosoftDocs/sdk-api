@@ -52,7 +52,7 @@ req.product: Windows UI
 ## -description
 
 
-Used in the <a href="https://msdn.microsoft.com/en-us/library/Bb773224(v=VS.85).aspx">BP_ANIMATIONPARAMS</a> structure to declare animation options.
+Used in the <a href="https://msdn.microsoft.com/9693b45e-c58c-404d-bcbf-6ea02092b0bb">BP_ANIMATIONPARAMS</a> structure to declare animation options.
 
 
 ## -enum-fields

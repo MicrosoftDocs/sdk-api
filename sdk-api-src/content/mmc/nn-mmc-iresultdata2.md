@@ -4,10 +4,10 @@ title: IResultData2
 author: windows-sdk-content
 description: The IResultData2 interface supersedes the IResultData interface. The IResultData2 interface contains the IResultData2::RenameResultItem method, which allows a result node to programmatically be put in rename mode.
 old-location: mmc\iresultdata2.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: cca0c2a4-7a41-48d1-bdaa-27b7aad7cc05
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/14/2018
 ms.keywords: IResultData2, IResultData2 interface [MMC], IResultData2 interface [MMC],described, _slate_iresultdata2, mmc.iresultdata2, mmc/IResultData2
 ms.prod: windows
 ms.technology: windows-sdk

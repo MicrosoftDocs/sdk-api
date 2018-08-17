@@ -86,7 +86,7 @@ To get the bounding rectangle of the <a href="https://msdn.microsoft.com/c7fb921
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
+<a href="tablet.iinkoverlay">IInkOverlay</a>
 
 
 

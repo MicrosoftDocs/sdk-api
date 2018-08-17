@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Creates property pages for a <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster object</a> and 
+Creates property pages for a <a href="c_gly.htm">cluster object</a> and 
     adds them to a <a href="https://msdn.microsoft.com/5d89c4b8-0554-4672-9e06-2ce7c5d15d5f">Failover Cluster Administrator</a> 
     property sheet.
 
@@ -64,8 +64,8 @@ Creates property pages for a <a href="https://msdn.microsoft.com/en-us/library/A
 ### -param piData [in]
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface pointer for retrieving information relating to the new 
-       property pages. By calling the <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">IUnknown::QueryInterface</a> method with the 
+<a href="_com_iunknown">IUnknown</a> interface pointer for retrieving information relating to the new 
+       property pages. By calling the <a href="_com_IUnknown_QueryInterface">IUnknown::QueryInterface</a> method with the 
        <i>piData</i> pointer, the following interfaces are available:
 
 <ul>
@@ -79,7 +79,7 @@ Creates property pages for a <a href="https://msdn.microsoft.com/en-us/library/A
 <a href="https://msdn.microsoft.com/a88ba05c-b64b-4d6d-b005-f2f867093355">IGetClusterObjectInfo</a>
 </li>
 </ul>
-Depending on the type of <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster object</a> for 
+Depending on the type of <a href="c_gly.htm">cluster object</a> for 
        which property sheet pages are being created, a pointer to one of the following interfaces is also 
        available:
 
@@ -132,7 +132,7 @@ Return one of the following values or any <b>HRESULT</b> that describes the resu
 <p class="proch"><img alt="" src="../common/wedge.gif"/><b>For each property page to be added</b>
 
 <ol>
-<li>Use <i>piData</i> to call <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> and retrieve an 
+<li>Use <i>piData</i> to call <a href="_com_IUnknown_QueryInterface">QueryInterface</a> and retrieve an 
        interface pointer for the cluster object associated with the page. For example, if you are adding a property 
        page for a resource, you want to retrieve a pointer to the 
        <a href="https://msdn.microsoft.com/8a3a9e9d-4666-4d9a-83e3-10d667b42d66">IGetClusterResourceInfo</a> interface. 
@@ -140,7 +140,7 @@ Return one of the following values or any <b>HRESULT</b> that describes the resu
        you should expect to receive errors when you attempt to call the methods.</li>
 <li>
 To create the page, call the function 
-       <a href="https://msdn.microsoft.com/en-us/library/Bb760807(v=VS.85).aspx">CreatePropertySheetPage</a>. To produce pages 
+       <a href="_win32_createpropertysheetpage_cpp">CreatePropertySheetPage</a>. To produce pages 
        that look like the pages provided by Cluster Administrator, each new property page should be no larger than 252 
        dialog units wide and 218 dialog units high, and should contain two standard controls:
 

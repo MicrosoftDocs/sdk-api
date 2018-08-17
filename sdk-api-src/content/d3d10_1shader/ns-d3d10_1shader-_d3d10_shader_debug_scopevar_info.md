@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_shader_debug_scopevar_info.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_shader_debug_scopevar_info.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 90b648c2-0ae3-a5f5-05de-ba4f5d6c85d1, D3D10_SHADER_DEBUG_SCOPEVAR_INFO, D3D10_SHADER_DEBUG_SCOPEVAR_INFO structure [Direct3D 10], _D3D10_SHADER_DEBUG_SCOPEVAR_INFO, d3d10_1shader/D3D10_SHADER_DEBUG_SCOPEVAR_INFO, direct3d10.d3d10_shader_debug_scopevar_info
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,14 +68,14 @@ Index into variable token.
 
 ### -field VarType
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172430(v=VS.85).aspx">D3D10_SHADER_DEBUG_VARTYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/856c29ea-c70b-4980-a631-f88f594a287c">D3D10_SHADER_DEBUG_VARTYPE</a></b>
 
 Indicates whether this is a variable or function.
 
 
 ### -field Class
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172440(v=VS.85).aspx">D3D10_SHADER_VARIABLE_CLASS</a></b>
+Type: <b><a href="https://msdn.microsoft.com/e638c059-9c92-43fe-9fae-8a0cf535af8f">D3D10_SHADER_VARIABLE_CLASS</a></b>
 
 Indicates the variable class.
 
@@ -140,7 +140,7 @@ Index of the first variable, later variables are offsets from this one.
 
 
 
-The <b>D3D10_SHADER_DEBUG_SCOPEVAR_INFO</b> structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb172420(v=VS.85).aspx">D3D10_SHADER_DEBUG_INFO</a> structure.
+The <b>D3D10_SHADER_DEBUG_SCOPEVAR_INFO</b> structure is used with the <a href="https://msdn.microsoft.com/b1b4201a-5bfb-4fce-ba51-64f7da9531bc">D3D10_SHADER_DEBUG_INFO</a> structure.
 
 
 
@@ -150,7 +150,7 @@ The <b>D3D10_SHADER_DEBUG_SCOPEVAR_INFO</b> structure is used with the <a href="
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205159(v=VS.85).aspx">Shader Structures</a>
+<a href="https://msdn.microsoft.com/b36309e0-1c44-42d9-adcf-33acd753438c">Shader Structures</a>
  
 
  

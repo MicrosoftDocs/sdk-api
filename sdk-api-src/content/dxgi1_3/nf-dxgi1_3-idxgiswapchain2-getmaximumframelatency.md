@@ -70,7 +70,7 @@ The maximum number of back buffer frames that will be queued for the swap chain.
 
 
 
-Returns S_OK if successful; otherwise, returns one of the following members of the <a href="https://msdn.microsoft.com/en-us/library/Bb172554(v=VS.85).aspx">D3DERR</a> enumerated type:
+Returns S_OK if successful; otherwise, returns one of the following members of the <a href="https://msdn.microsoft.com/4a9daa05-74f3-4173-b63d-53767feea7e2">D3DERR</a> enumerated type:
 
 <ul>
 <li><b>D3DERR_DEVICELOST</b></li>

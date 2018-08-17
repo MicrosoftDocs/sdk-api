@@ -4,10 +4,10 @@ title: RegDeleteKeyValueW function
 author: windows-sdk-content
 description: Removes the specified value from the specified registry key and subkey.
 old-location: base\regdeletekeyvalue.htm
-old-project: SysInfo
+old-project: sysinfo
 ms.assetid: a4a082c2-8cf3-41eb-87c0-a6c453821f8b
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/10/2018
 ms.keywords: RegDeleteKeyValue, RegDeleteKeyValue function, RegDeleteKeyValueA, RegDeleteKeyValueW, base.regdeletekeyvalue, winreg/RegDeleteKeyValue, winreg/RegDeleteKeyValueA, winreg/RegDeleteKeyValueW
 ms.prod: windows
 ms.technology: windows-sdk

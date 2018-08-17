@@ -72,7 +72,7 @@ Retrieves information about the global cursor.
 
 Type: <b>PCURSORINFO</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms648381(v=VS.85).aspx">CURSORINFO</a> structure that receives the information. Note that you must set the <b>cbSize</b> member to <code>sizeof(CURSORINFO)</code> before calling this function. 
+A pointer to a <a href="https://msdn.microsoft.com/acd66f67-c95d-49fa-8f61-fdae3c86b432">CURSORINFO</a> structure that receives the information. Note that you must set the <b>cbSize</b> member to <code>sizeof(CURSORINFO)</code> before calling this function. 
 
 
 ## -returns
@@ -93,7 +93,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648381(v=VS.85).aspx">CURSORINFO</a>
+<a href="https://msdn.microsoft.com/acd66f67-c95d-49fa-8f61-fdae3c86b432">CURSORINFO</a>
 
 
 
@@ -101,11 +101,11 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646970(v=VS.85).aspx">Cursors</a>
+<a href="https://msdn.microsoft.com/d24e21f2-224d-4f32-aa0b-70844e3628ad">Cursors</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633506(v=VS.85).aspx">GetGUIThreadInfo</a>
+<a href="https://msdn.microsoft.com/863e0735-a2d4-4962-99d8-bb6037770c50">GetGUIThreadInfo</a>
 
 
 

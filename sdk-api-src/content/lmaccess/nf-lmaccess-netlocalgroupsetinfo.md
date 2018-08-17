@@ -61,11 +61,10 @@ The
 
 
 
-### -param OPTIONAL
+### -param servername [in]
 
-TBD
-
-
+Pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
+					
 
 
 ### -param groupname [in]
@@ -127,15 +126,9 @@ Pointer to a buffer that contains the local group information. The format of thi
 <a href="https://msdn.microsoft.com/f27e6cf5-f26a-4e6c-8d77-873bff6cc8e4">Network Management Function Buffers</a>.
 
 
-#### - parm_err [out]
+### -param parm_err [out]
 
 Pointer to a value that receives the index of the first member of the local group information structure that caused the ERROR_INVALID_PARAMETER error. If this parameter is <b>NULL</b>, the index is not returned on error. For more information, see the following Remarks section.
-
-
-#### - servername [in]
-
-Pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
-					
 
 
 ## -returns

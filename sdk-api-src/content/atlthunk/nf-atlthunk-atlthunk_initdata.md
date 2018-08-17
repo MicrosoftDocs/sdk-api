@@ -7,7 +7,7 @@ old-location: base\atlthunk_initdata.htm
 old-project: memory
 ms.assetid: 550EF700-56DC-4516-A724-0F7ADECC17C9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: AtlThunk_InitData, AtlThunk_InitData function, atlthunk/AtlThunk_InitData, base.atlthunk_initdata
 ms.prod: windows
 ms.technology: windows-sdk

@@ -90,7 +90,7 @@ Changes to this property do not affect incoming packet data until the <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
+<a href="tablet.iinkpicture">IInkPicture</a>
 
 
 

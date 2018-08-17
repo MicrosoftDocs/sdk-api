@@ -148,7 +148,7 @@ The length, in bytes, of the buffer pointed to by the <i>pPropertyInformation</i
 Reserved. Must be zero.
 
 
-### -param OPTIONAL
+### -param ReturnLength
 
 TBD
 

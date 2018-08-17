@@ -98,7 +98,7 @@ If you re-attach the <a href="https://msdn.microsoft.com/ad63302e-b386-4b32-95bf
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846809(v=VS.85).aspx">IPenInputPanel</a>
+<a href="tablet.ipeninputpanel">IPenInputPanel</a>
 
 
 

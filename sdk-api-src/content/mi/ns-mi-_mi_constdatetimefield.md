@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_constdatetimefield.htm
 old-project: wmi_v2
 ms.assetid: 60174a65-b4e7-41fe-b27b-94a3fd857cea
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/13/2018
 ms.keywords: MI_ConstDatetimeField, MI_ConstDatetimeField structure [Windows Management Infrastructure (MI)], MI_FLAG_ADOPT, MI_FLAG_BORROW, MI_FLAG_NOT_MODIFIED, MI_FLAG_NULL, _MI_ConstDatetimeField, mi/MI_ConstDatetimeField, wmi._mi_constdatetimefield, wmi_v2.mi_constdatetimefield
 ms.prod: windows
 ms.technology: windows-sdk

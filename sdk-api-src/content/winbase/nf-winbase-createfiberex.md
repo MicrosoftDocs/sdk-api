@@ -7,7 +7,7 @@ old-location: base\createfiberex.htm
 old-project: procthread
 ms.assetid: eb27cfcf-6086-47df-a5b4-93c51a5e1577
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: CreateFiberEx, CreateFiberEx function, _win32_createfiberex, base.createfiberex, winbase/CreateFiberEx
 ms.prod: windows
 ms.technology: windows-sdk

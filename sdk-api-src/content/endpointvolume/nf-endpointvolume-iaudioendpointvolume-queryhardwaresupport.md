@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioendpointvolume_queryhardwaresupport.htm
 old-project: CoreAudio
 ms.assetid: 20d04cff-f101-417e-912f-c87af16184db
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/14/2018
 ms.keywords: IAudioEndpointVolume interface [Core Audio],QueryHardwareSupport method, IAudioEndpointVolume.QueryHardwareSupport, IAudioEndpointVolume::QueryHardwareSupport, IAudioEndpointVolumeQueryHardwareSupport, QueryHardwareSupport, QueryHardwareSupport method [Core Audio], QueryHardwareSupport method [Core Audio],IAudioEndpointVolume interface, coreaudio.iaudioendpointvolume_queryhardwaresupport, endpointvolume/IAudioEndpointVolume::QueryHardwareSupport
 ms.prod: windows
 ms.technology: windows-sdk

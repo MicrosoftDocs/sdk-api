@@ -61,9 +61,13 @@ The
 
 
 
-### -param OPTIONAL
+### -param UncServerName [in]
 
-TBD
+Pointer to a constant string that specifies the name of the remote server to query. If this parameter is <b>NULL</b>, the local computer is used. 
+
+
+
+					
 
 
 ### -param OptionsWanted [in]
@@ -140,15 +144,6 @@ Pointer to a value that receives a set of bit flags. The flags indicate which fe
 
 The value of this parameter is valid only when the 
 <b>NetRemoteComputerSupports</b> function returns NERR_Success.
-
-
-#### - UncServerName [in]
-
-Pointer to a constant string that specifies the name of the remote server to query. If this parameter is <b>NULL</b>, the local computer is used. 
-
-
-
-					
 
 
 ## -returns

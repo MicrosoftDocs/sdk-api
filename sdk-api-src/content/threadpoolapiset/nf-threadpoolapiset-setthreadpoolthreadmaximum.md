@@ -7,7 +7,7 @@ old-location: base\setthreadpoolthreadmaximum.htm
 old-project: procthread
 ms.assetid: 381849cf-6835-40f2-be68-0522b16e4822
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: SetThreadpoolThreadMaximum, SetThreadpoolThreadMaximum function, base.setthreadpoolthreadmaximum, threadpoolapiset/SetThreadpoolThreadMaximum
 ms.prod: windows
 ms.technology: windows-sdk

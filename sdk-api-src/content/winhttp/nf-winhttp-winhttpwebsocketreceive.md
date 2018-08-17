@@ -7,7 +7,7 @@ old-location: http\winhttpwebsocketreceive.htm
 old-project: winhttp
 ms.assetid: 9992150d-632b-45fe-8f11-84d698b4ffb3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/09/2018
 ms.keywords: WinHttpWebSocketReceive, WinHttpWebSocketReceive function [WinHTTP], http.winhttpwebsocketreceive, winhttp/WinHttpWebSocketReceive
 ms.prod: windows
 ms.technology: windows-sdk

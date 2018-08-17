@@ -52,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Indicates wildcard options on search terms. Used by <a href="https://msdn.microsoft.com/en-us/library/Bb231311(v=VS.85).aspx">ISearchQueryHelper::get_QueryTermExpansion</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb231321(v=VS.85).aspx">ISearchQueryHelper::put_QueryTermExpansion</a> methods.
+Indicates wildcard options on search terms. Used by <a href="https://msdn.microsoft.com/3af83c74-e2af-40f1-afdd-fec286b42be2">ISearchQueryHelper::get_QueryTermExpansion</a> and <a href="https://msdn.microsoft.com/edcc8a86-b677-4f84-aa6f-90ada895dbcc">ISearchQueryHelper::put_QueryTermExpansion</a> methods.
 
 
 ## -enum-fields
@@ -79,7 +79,7 @@ Stem expansion is applied to all terms.
 
 
 
-While the <b>SEARCH_TERM_EXPANSION</b> enumerated type lets you specify stem expansion, Windows Search does not currently support its use with the <a href="https://msdn.microsoft.com/en-us/library/Bb231313(v=VS.85).aspx">ISearchQueryHelper</a> interface.
+While the <b>SEARCH_TERM_EXPANSION</b> enumerated type lets you specify stem expansion, Windows Search does not currently support its use with the <a href="https://msdn.microsoft.com/1e075961-63b7-4d91-b6ea-5d06d5b81140">ISearchQueryHelper</a> interface.
 
 
 

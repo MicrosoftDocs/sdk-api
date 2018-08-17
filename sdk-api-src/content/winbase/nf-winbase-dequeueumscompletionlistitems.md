@@ -7,7 +7,7 @@ old-location: base\dequeueumscompletionlistitems.htm
 old-project: procthread
 ms.assetid: 91499eb9-9fc5-4135-95f6-1bced78f1e07
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: DequeueUmsCompletionListItems, DequeueUmsCompletionListItems function, base.dequeueumscompletionlistitems, winbase/DequeueUmsCompletionListItems
 ms.prod: windows
 ms.technology: windows-sdk

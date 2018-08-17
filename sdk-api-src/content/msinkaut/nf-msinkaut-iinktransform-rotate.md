@@ -132,7 +132,7 @@ The center point defaults to the origin.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846808(v=VS.85).aspx">IInkTransform</a>
+<a href="tablet.iinktransform">IInkTransform</a>
 
 
 

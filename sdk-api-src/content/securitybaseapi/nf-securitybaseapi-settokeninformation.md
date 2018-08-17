@@ -7,7 +7,7 @@ old-location: security\settokeninformation.htm
 old-project: secauthz
 ms.assetid: cdb8af74-540d-4059-ac64-6243f6aabaa6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: SetTokenInformation, SetTokenInformation function [Security], _win32_settokeninformation, security.settokeninformation, securitybaseapi/SetTokenInformation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -128,7 +128,7 @@ Token-type information can be set only when an access token is created.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

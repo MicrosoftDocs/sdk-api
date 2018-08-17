@@ -63,7 +63,7 @@ The <b>SetupDiGetDriverInfoDetail</b> function retrieves driver information deta
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains a driver information element for which to retrieve driver information.
+A handle to a <a href="devinst.device_information_sets">device information set</a> that contains a driver information element for which to retrieve driver information.
 
 
 ### -param DeviceInfoData [in, optional]

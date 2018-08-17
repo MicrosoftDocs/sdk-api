@@ -7,7 +7,7 @@ old-location: security\lookupprivilegename.htm
 old-project: secauthz
 ms.assetid: 580fb58f-1470-4389-9f07-8f37403e2bdf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: LookupPrivilegeName, LookupPrivilegeName function [Security], LookupPrivilegeNameA, LookupPrivilegeNameW, _win32_lookupprivilegename, security.lookupprivilegename, winbase/LookupPrivilegeName, winbase/LookupPrivilegeNameA, winbase/LookupPrivilegeNameW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -119,7 +119,7 @@ The <b>LookupPrivilegeName</b> function supports only the privileges specified i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

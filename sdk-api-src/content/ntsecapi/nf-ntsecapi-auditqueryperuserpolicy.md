@@ -7,7 +7,7 @@ old-location: security\auditqueryperuserpolicy_func.htm
 old-project: secauthz
 ms.assetid: 7d4790de-ebd6-4840-b532-7158b8d80db2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: AuditQueryPerUserPolicy, AuditQueryPerUserPolicy function [Security], ntsecapi/AuditQueryPerUserPolicy, security.auditqueryperuserpolicy_func
 ms.prod: windows
 ms.technology: windows-sdk

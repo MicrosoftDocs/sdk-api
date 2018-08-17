@@ -93,7 +93,7 @@ Address of a pointer to an <a href="https://msdn.microsoft.com/33a43253-ada2-408
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns E_OUTOFMEMORY if there is insufficient memory to create the compute shader.  
         See <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a> for other possible return values.
@@ -105,7 +105,7 @@ This method returns E_OUTOFMEMORY if there is insufficient memory to create the 
 
 
 
-For an example, see <a href="https://msdn.microsoft.com/6114dd90-626b-4c9e-9da5-7d2d33153e79">How To: Create a Compute Shader</a> and <a href="https://msdn.microsoft.com/library/Ee416569(v=VS.85).aspx">HDRToneMappingCS11 Sample</a>.
+For an example, see <a href="https://msdn.microsoft.com/6114dd90-626b-4c9e-9da5-7d2d33153e79">How To: Create a Compute Shader</a> and <a href="d325cd30-56e1-d608-6ab6-2755caf2b1b1">HDRToneMappingCS11 Sample</a>.
 
 
 

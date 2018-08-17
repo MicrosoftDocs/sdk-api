@@ -76,7 +76,7 @@ Use the <b>MaxLength</b> property to limit the number of characters a user can e
 
 
 
-If text that exceeds the <b>MaxLength</b> property setting is assigned to an <a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit</a> control from code, no error occurs; however, only the maximum number of characters is assigned to the <a href="https://msdn.microsoft.com/en-us/library/Dd374074(v=VS.85).aspx">Text</a> property, and extra characters are truncated. Changing this property doesn't affect the current contents of an InkEdit control, but will affect any subsequent changes to the contents.
+If text that exceeds the <b>MaxLength</b> property setting is assigned to an <a href="https://msdn.microsoft.com/52761cb2-4433-4824-ba19-fe597de2faf0">InkEdit</a> control from code, no error occurs; however, only the maximum number of characters is assigned to the <a href="vbprosortednodec">Text</a> property, and extra characters are truncated. Changing this property doesn't affect the current contents of an InkEdit control, but will affect any subsequent changes to the contents.
 
 
 
@@ -88,7 +88,7 @@ If text that exceeds the <b>MaxLength</b> property setting is assigned to an <a 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
+<a href="tablet.iinkedit_">IInkEdit</a>
 
 
 

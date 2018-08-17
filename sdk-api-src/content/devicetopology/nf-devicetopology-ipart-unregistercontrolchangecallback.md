@@ -7,7 +7,7 @@ old-location: coreaudio\ipart_unregistercontrolchangecallback.htm
 old-project: CoreAudio
 ms.assetid: d3341421-6dab-43f3-87a8-83ee8a986a04
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/14/2018
 ms.keywords: IPart interface [Core Audio],UnregisterControlChangeCallback method, IPart.UnregisterControlChangeCallback, IPart::UnregisterControlChangeCallback, IPartUnregisterControlChangeCallback, UnregisterControlChangeCallback, UnregisterControlChangeCallback method [Core Audio], UnregisterControlChangeCallback method [Core Audio],IPart interface, coreaudio.ipart_unregistercontrolchangecallback, devicetopology/IPart::UnregisterControlChangeCallback
 ms.prod: windows
 ms.technology: windows-sdk

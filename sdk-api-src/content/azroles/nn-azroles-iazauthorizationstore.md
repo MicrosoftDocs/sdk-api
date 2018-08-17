@@ -7,7 +7,7 @@ old-location: security\azauthorizationstore.htm
 old-project: secauthz
 ms.assetid: f848cca6-3838-46bc-b1f4-d6eab5096046
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: IAzAuthorizationStore, IAzAuthorizationStore interface [Security], IAzAuthorizationStore interface [Security],described, azroles/IAzAuthorizationStore, security.azauthorizationstore
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: CryptGenRandom function
 author: windows-sdk-content
 description: Fills a buffer with cryptographically random bytes.
 old-location: security\cryptgenrandom.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 3e5a437f-7439-43c9-a191-2908d2df0eb6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: CryptGenRandom, CryptGenRandom function [Security], _crypto2_cryptgenrandom, security.cryptgenrandom, wincrypt/CryptGenRandom
 ms.prod: windows
 ms.technology: windows-sdk
@@ -221,7 +221,7 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Key Generation and Exchange Functions</a>
+<a href="cryptography_functions.htm">Key Generation and Exchange Functions</a>
  
 
  

@@ -52,7 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Gets the license information for this <a href="https://msdn.microsoft.com/en-us/library/Bb266437(v=VS.85).aspx">IStemmer</a> implementation.
+Gets the license information for this <a href="https://msdn.microsoft.com/1a6e77ec-60f8-4e43-9420-7a6b50152e26">IStemmer</a> implementation.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ Gets the license information for this <a href="https://msdn.microsoft.com/en-us/
 
 Type: <b>const WCHAR**</b>
 
-Pointer to a variable that receives a pointer to the license information for this <a href="https://msdn.microsoft.com/en-us/library/Bb266437(v=VS.85).aspx">IStemmer</a> implementation.
+Pointer to a variable that receives a pointer to the license information for this <a href="https://msdn.microsoft.com/1a6e77ec-60f8-4e43-9420-7a6b50152e26">IStemmer</a> implementation.
 
 
 ## -returns

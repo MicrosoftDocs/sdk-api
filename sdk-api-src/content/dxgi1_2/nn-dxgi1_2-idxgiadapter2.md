@@ -94,10 +94,10 @@ A display subsystem is often referred to as a video card; however, on some compu
 To enumerate the display subsystems, use <a href="https://msdn.microsoft.com/351b7b2d-abb7-449e-bee2-eea96fef3b9d">IDXGIFactory1::EnumAdapters1</a>.
         
 
-To get an interface to the adapter for a particular device, use <a href="https://msdn.microsoft.com/en-us/library/Bb174531(v=VS.85).aspx">IDXGIDevice::GetAdapter</a>.
+To get an interface to the adapter for a particular device, use <a href="https://msdn.microsoft.com/ae113b36-47fd-4db1-b10c-ced22ec52435">IDXGIDevice::GetAdapter</a>.
         
 
-To create a software adapter, use <a href="https://msdn.microsoft.com/en-us/library/Bb174536(v=VS.85).aspx">IDXGIFactory::CreateSoftwareAdapter</a>.
+To create a software adapter, use <a href="https://msdn.microsoft.com/46c10086-aa57-42f6-a619-8c537e4ae406">IDXGIFactory::CreateSoftwareAdapter</a>.
         
 
 

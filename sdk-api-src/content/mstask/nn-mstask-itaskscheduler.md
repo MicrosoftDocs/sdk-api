@@ -56,7 +56,7 @@ req.product: Rights Management Services client 1.0 or later
 
 Provides the methods for scheduling tasks.
 
-It is the primary interface of the <a href="https://msdn.microsoft.com/en-us/library/Aa382533(v=VS.85).aspx">task scheduler object</a>. To create a task scheduler object, call <b>CoCreateInstance</b>.
+It is the primary interface of the <a href="t.htm">task scheduler object</a>. To create a task scheduler object, call <b>CoCreateInstance</b>.
 
 
 ## -inheritance

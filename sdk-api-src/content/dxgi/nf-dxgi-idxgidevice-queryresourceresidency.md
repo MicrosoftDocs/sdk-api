@@ -65,14 +65,14 @@ Gets the residency status of an array of resources.
 
 Type: <b><a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a>*</b>
 
-An array of <a href="https://msdn.microsoft.com/en-us/library/Bb174560(v=VS.85).aspx">IDXGIResource</a> interfaces.
+An array of <a href="https://msdn.microsoft.com/de1f11a5-194b-438e-975b-3945179d0ed7">IDXGIResource</a> interfaces.
 
 
 ### -param pResidencyStatus [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173070(v=VS.85).aspx">DXGI_RESIDENCY</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/14fef904-2fa0-4196-b5f5-9666911de08a">DXGI_RESIDENCY</a>*</b>
 
-An array of <a href="https://msdn.microsoft.com/en-us/library/Bb173070(v=VS.85).aspx">DXGI_RESIDENCY</a> flags. Each element describes the residency status for corresponding element in 
+An array of <a href="https://msdn.microsoft.com/14fef904-2fa0-4196-b5f5-9666911de08a">DXGI_RESIDENCY</a> flags. Each element describes the residency status for corresponding element in 
         the <i>ppResources</i> argument array.
 
 
@@ -87,9 +87,9 @@ The number of resources in the <i>ppResources</i> argument array and <i>pResiden
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns S_OK if successful; otherwise, returns <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR_DEVICE_REMOVED</a>, E_INVALIDARG, or 
+Returns S_OK if successful; otherwise, returns <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR_DEVICE_REMOVED</a>, E_INVALIDARG, or 
       E_POINTER (see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a> and WinError.h for more information).
 
 
@@ -104,7 +104,7 @@ The information returned by the <i>pResidencyStatus</i> argument array describes
 
 <div class="alert"><b>Note</b>  The residency status will constantly change.</div>
 <div> </div>
-If you call the <b>QueryResourceResidency</b> method during a device removed state, the <i>pResidencyStatus</i> argument will return the <a href="https://msdn.microsoft.com/en-us/library/Bb173070(v=VS.85).aspx">DXGI_RESIDENCY_RESIDENT_IN_SHARED_MEMORY</a> flag.
+If you call the <b>QueryResourceResidency</b> method during a device removed state, the <i>pResidencyStatus</i> argument will return the <a href="https://msdn.microsoft.com/14fef904-2fa0-4196-b5f5-9666911de08a">DXGI_RESIDENCY_RESIDENT_IN_SHARED_MEMORY</a> flag.
 
 <div class="alert"><b>Note</b>  This method should not be called every frame as it incurs a non-trivial amount of overhead.</div>
 <div> </div>
@@ -120,7 +120,7 @@ If you call the <b>QueryResourceResidency</b> method during a device removed sta
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174527(v=VS.85).aspx">IDXGIDevice</a>
+<a href="https://msdn.microsoft.com/83b24b82-9044-4c99-8d50-63f1e8aef8db">IDXGIDevice</a>
  
 
  

@@ -62,23 +62,18 @@ The
 
 
 
-### -param OPTIONAL
-
-TBD
-
-
-### -param groupname [in]
-
-Pointer to a constant string that specifies the name of the local group account to delete. For more information, see the following Remarks section.
-
-
-#### - servername [in]
+### -param servername [in]
 
 Pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used. 
 
 
 
 					
+
+
+### -param groupname [in]
+
+Pointer to a constant string that specifies the name of the local group account to delete. For more information, see the following Remarks section.
 
 
 ## -returns

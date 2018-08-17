@@ -4,10 +4,10 @@ title: ICertEncodeStringArray::SetValue
 author: windows-sdk-content
 description: Sets a string value at the specified index of the string array.
 old-location: security\icertencodestringarray_setvalue.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 41e5c2b8-a0da-426a-b411-0bdc3fd7ecfe
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: CCertEncodeStringArray object [Security],SetValue method, ICertEncodeStringArray interface [Security],SetValue method, ICertEncodeStringArray.SetValue, ICertEncodeStringArray::SetValue, SetValue, SetValue method [Security], SetValue method [Security],CCertEncodeStringArray object, SetValue method [Security],ICertEncodeStringArray interface, _certsrv_icertencodestringarray_setvalue, certenc/ICertEncodeStringArray::SetValue, security.icertencodestringarray_setvalue
 ms.prod: windows
 ms.technology: windows-sdk

@@ -53,7 +53,7 @@ req.product: ADAM
 ## -description
 
 
-The <b>SetupGetInfPublishedName</b> function retrieves the fully qualified file name (directory path and file name) of an <a href="https://msdn.microsoft.com/library/Ff549520(v=VS.85).aspx">INF file</a> in the system INF file directory that corresponds to a specified INF file in the driver store or a specified INF file in the system INF file directory.
+The <b>SetupGetInfPublishedName</b> function retrieves the fully qualified file name (directory path and file name) of an <a href="devinst.overview_of_inf_files">INF file</a> in the system INF file directory that corresponds to a specified INF file in the driver store or a specified INF file in the system INF file directory.
 
 
 ## -parameters

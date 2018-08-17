@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectshaderresourcevariable.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectshaderresourcevariable.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 1d387c67-6113-ceab-9996-b2859123af67, ID3D10EffectShaderResourceVariable, ID3D10EffectShaderResourceVariable interface [Direct3D 10], ID3D10EffectShaderResourceVariable interface [Direct3D 10],described, d3d10effect/ID3D10EffectShaderResourceVariable, direct3d10.id3d10effectshaderresourcevariable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ A shader-resource interface accesses a shader resource.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10EffectShaderResourceVariable</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable</a>. <b>ID3D10EffectShaderResourceVariable</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10EffectShaderResourceVariable</b> interface inherits from <a href="https://msdn.microsoft.com/55bfed47-6f5a-4eed-8389-b291e00c6f69">ID3D10EffectVariable</a>. <b>ID3D10EffectShaderResourceVariable</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>ID3D10EffectShaderResourceVariable</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173694(v=VS.85).aspx">GetResource</a>
+<a href="https://msdn.microsoft.com/bb4032cf-74c6-47c5-9706-72c870e1c820">GetResource</a>
 </td>
 <td align="left" width="63%">
 Get a shader resource.
@@ -81,7 +81,7 @@ Get a shader resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173695(v=VS.85).aspx">GetResourceArray</a>
+<a href="https://msdn.microsoft.com/d206d7d7-2449-4efc-a262-6f78cf85738b">GetResourceArray</a>
 </td>
 <td align="left" width="63%">
 Get an array of shader resources.
@@ -90,7 +90,7 @@ Get an array of shader resources.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173696(v=VS.85).aspx">SetResource</a>
+<a href="https://msdn.microsoft.com/6c5dffba-e618-4bde-8ac0-679831ab6527">SetResource</a>
 </td>
 <td align="left" width="63%">
 Set a shader resource.
@@ -99,7 +99,7 @@ Set a shader resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173697(v=VS.85).aspx">SetResourceArray</a>
+<a href="https://msdn.microsoft.com/c42d0706-42b0-49ae-8c90-993c12924702">SetResourceArray</a>
 </td>
 <td align="left" width="63%">
 Set an array of shader resources.
@@ -114,11 +114,11 @@ Set an array of shader resources.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205178(v=VS.85).aspx">Effect Interfaces (Direct3D 10)</a>
+<a href="https://msdn.microsoft.com/ebe0afc7-6261-4c96-a54e-9b491e240c03">Effect Interfaces (Direct3D 10)</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable</a>
+<a href="https://msdn.microsoft.com/55bfed47-6f5a-4eed-8389-b291e00c6f69">ID3D10EffectVariable</a>
  
 
  

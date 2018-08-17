@@ -4,10 +4,10 @@ title: CryptXmlVerifySignature function
 author: windows-sdk-content
 description: Performs a cryptographic signature validation of a SignedInfo element.
 old-location: security\cryptxmlverifysignature.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 1f8776dc-d91a-4be9-90bf-7d36d587ffb2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: CRYPT_XML_FLAG_DISABLE_EXTENSIONS, CryptXmlVerifySignature, CryptXmlVerifySignature function [Security], cryptxml/CryptXmlVerifySignature, security.cryptxmlverifysignature
 ms.prod: windows
 ms.technology: windows-sdk

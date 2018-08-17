@@ -113,7 +113,7 @@ This attribute is supported only by the Schannel security package.
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Mt829323(v=VS.85).aspx">SecPkgContext_EarlyStart</a> structure.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="security.secpkgcontext_earlystart">SecPkgContext_EarlyStart</a> structure.
 
 Sets the False Start feature. See  the <a href="https://blogs.windows.com/msedgedev/2016/06/15/building-a-faster-and-more-secure-web-with-tcp-fast-open-tls-false-start-and-tls-1-3/">Building a faster and more secure web</a> blog post for information on this feature.
 
@@ -142,7 +142,7 @@ Valid values are between 200 bytes and 64 kilobytes. The default DTLS MTU value 
 </dl>
 </td>
 <td width="60%">
-The <i>pBuffer</i> parameter contains a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Mt803267(v=VS.85).aspx">SecPkgContext_KeyingMaterialInfo</a> structure. The keying material export feature follows the <a href="https://tools.ietf.org/html/rfc5705">RFC 5705 standard</a>.
+The <i>pBuffer</i> parameter contains a pointer to a <a href="security.secpkgcontext_keyingmaterialinfo">SecPkgContext_KeyingMaterialInfo</a> structure. The keying material export feature follows the <a href="https://tools.ietf.org/html/rfc5705">RFC 5705 standard</a>.
 
 This attribute is supported only by the Schannel security package in Windows 10 and Windows Server 2016 or later versions.
 

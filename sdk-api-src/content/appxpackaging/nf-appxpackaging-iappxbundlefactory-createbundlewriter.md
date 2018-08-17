@@ -7,7 +7,7 @@ old-location: appxpkg\iappxbundlefactory_createbundlewriter.htm
 old-project: appxpkg
 ms.assetid: E77392FB-69A1-41B0-8B44-F05F126214E0
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/15/2018
 ms.keywords: CreateBundleWriter, CreateBundleWriter method [App packaging and management], CreateBundleWriter method [App packaging and management],IAppxBundleFactory interface, IAppxBundleFactory interface [App packaging and management],CreateBundleWriter method, IAppxBundleFactory.CreateBundleWriter, IAppxBundleFactory::CreateBundleWriter, appxpackaging/IAppxBundleFactory::CreateBundleWriter, appxpkg.iappxbundlefactory_createbundlewriter
 ms.prod: windows
 ms.technology: windows-sdk

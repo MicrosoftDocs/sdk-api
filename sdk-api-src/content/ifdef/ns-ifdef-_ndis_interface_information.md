@@ -317,7 +317,7 @@ To register as an interface provider, an NDIS driver calls the
 
 
 
-<a href="https://msdn.microsoft.com/library/Ff556937(v=VS.85).aspx">Introduction to Network Drivers</a>
+<a href="netvista.introduction_to_network_drivers">Introduction to Network Drivers</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_destinationoptions_addproxycredentials.htm
 old-project: wmi_v2
 ms.assetid: 9cf3432d-145a-4252-95e3-f4c1866caf13
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/13/2018
 ms.keywords: MI_DestinationOptions_AddProxyCredentials, MI_DestinationOptions_AddProxyCredentials function [Windows Management Infrastructure (MI)], mi/MI_DestinationOptions_AddProxyCredentials, wmi_v2.mi_destinationoptions_addproxycredentials
 ms.prod: windows
 ms.technology: windows-sdk

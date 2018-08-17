@@ -58,7 +58,7 @@ The <b>ADS_RIGHTS_ENUM</b> enumeration specifies
     property contains a combination of these values for an Active Directory object.
 
 For more information and a list of possible access right values for file or file share objects, see 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa364399(v=VS.85).aspx">File Security and Access Rights</a>.
+    <a href="base.file_security_and_access_rights">File Security and Access Rights</a>.
 
 For more information and a list of possible access right values for registry objects, see 
     <a href="https://msdn.microsoft.com/266d5c8e-1bcd-48e5-bc06-2fbc956d8658">Registry Key Security and Access Rights</a>.
@@ -156,7 +156,7 @@ The right to delete all child objects of this object, regardless of the permissi
 
 ### -field ADS_RIGHT_DS_LIST_OBJECT
 
-The right to list a particular object. If the user is not granted such a right, and the user does not have <b>ADS_RIGHT_ACTRL_DS_LIST</b> set on the object parent, the object is hidden from the user. This right is ignored if the third character of the <a href="https://msdn.microsoft.com/library/ms675656(v=VS.85).aspx">dSHeuristics</a> property is '0' or not set. For more information, see <a href="https://msdn.microsoft.com/3a65ec79-7de0-4d14-b980-1ca6a972ac70">Controlling Object Visibility</a>.
+The right to list a particular object. If the user is not granted such a right, and the user does not have <b>ADS_RIGHT_ACTRL_DS_LIST</b> set on the object parent, the object is hidden from the user. This right is ignored if the third character of the <a href="ad.win2k3_a_dsheuristics">dSHeuristics</a> property is '0' or not set. For more information, see <a href="https://msdn.microsoft.com/3a65ec79-7de0-4d14-b980-1ca6a972ac70">Controlling Object Visibility</a>.
 
 
 ### -field ADS_RIGHT_DS_CONTROL_ACCESS

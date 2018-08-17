@@ -66,37 +66,37 @@ FillClosedCurve methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535970(v=VS.85).aspx">FillClosedCurve(Brush*,Point*,INT)</a>
+<a href="https://msdn.microsoft.com/d62af2ea-ca86-4b5e-9129-1cf64661bc49">FillClosedCurve(Brush*,Point*,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535970(v=VS.85).aspx">Graphics::FillClosedCurve</a> method creates a closed cardinal spline from an array of points and uses a brush to fill the interior of the spline. 
+The <a href="https://msdn.microsoft.com/d62af2ea-ca86-4b5e-9129-1cf64661bc49">Graphics::FillClosedCurve</a> method creates a closed cardinal spline from an array of points and uses a brush to fill the interior of the spline. 
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535972(v=VS.85).aspx">FillClosedCurve(Brush*,PointF*,INT)</a>
+<a href="https://msdn.microsoft.com/2aea6910-6fd0-4611-9de6-65ee0b65421e">FillClosedCurve(Brush*,PointF*,INT)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535972(v=VS.85).aspx">Graphics::FillClosedCurve</a> method creates a closed cardinal spline from an array of points and uses a brush to fill the interior of the spline.
+The <a href="https://msdn.microsoft.com/2aea6910-6fd0-4611-9de6-65ee0b65421e">Graphics::FillClosedCurve</a> method creates a closed cardinal spline from an array of points and uses a brush to fill the interior of the spline.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535971(v=VS.85).aspx">FillClosedCurve(Brush*,Point*,INT,FillMode,REAL)</a>
+<a href="https://msdn.microsoft.com/a2295d45-36b6-4236-837c-9c7498932408">FillClosedCurve(Brush*,Point*,INT,FillMode,REAL)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535971(v=VS.85).aspx">Graphics::FillClosedCurve</a> method creates a closed cardinal spline from an array of points and uses a brush to fill, according to a specified mode, the interior of the spline.
+The <a href="https://msdn.microsoft.com/a2295d45-36b6-4236-837c-9c7498932408">Graphics::FillClosedCurve</a> method creates a closed cardinal spline from an array of points and uses a brush to fill, according to a specified mode, the interior of the spline.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535973(v=VS.85).aspx">FillClosedCurve(Brush*,PointF*,INT,FillMode,REAL)</a>
+<a href="https://msdn.microsoft.com/d498872d-66ec-4e97-996f-78d07f0ea99a">FillClosedCurve(Brush*,PointF*,INT,FillMode,REAL)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535973(v=VS.85).aspx">Graphics::FillClosedCurve</a> method creates a closed cardinal spline from an array of points and uses a brush to fill, according to a specified mode, the interior of the spline.
+The <a href="https://msdn.microsoft.com/d498872d-66ec-4e97-996f-78d07f0ea99a">Graphics::FillClosedCurve</a> method creates a closed cardinal spline from an array of points and uses a brush to fill, according to a specified mode, the interior of the spline.
 
 </td>
 </tr>

@@ -62,7 +62,7 @@ The <b>GetIdentityEnum</b> method retrieves an <a href="https://msdn.microsoft.c
 
 ### -param eIdentityType [in]
 
-A value of the <a href="https://msdn.microsoft.com/en-us/library/Dd401667(v=VS.85).aspx">IDENTITY_TYPE</a> enumeration that indicates the type of identities to enumerate.
+A value of the <a href="security.identity_type">IDENTITY_TYPE</a> enumeration that indicates the type of identities to enumerate.
 
 
 ### -param pFilterkey [in, optional]

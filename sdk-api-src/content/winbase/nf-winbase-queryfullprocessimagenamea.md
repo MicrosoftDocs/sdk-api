@@ -7,7 +7,7 @@ old-location: base\queryfullprocessimagename.htm
 old-project: procthread
 ms.assetid: 49a9d1aa-30f3-45ea-a4ec-9f55df692b8b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: PROCESS_NAME_NATIVE, QueryFullProcessImageName, QueryFullProcessImageName function, QueryFullProcessImageNameA, QueryFullProcessImageNameW, base.queryfullprocessimagename, winbase/QueryFullProcessImageName, winbase/QueryFullProcessImageNameA, winbase/QueryFullProcessImageNameW
 ms.prod: windows
 ms.technology: windows-sdk

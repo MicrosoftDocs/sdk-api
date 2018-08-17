@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Closes an AVI clip. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761897(v=VS.85).aspx">ACM_OPEN</a> message explicitly, passing in <b>NULL</b> parameters. 
+Closes an AVI clip. You can use this macro or send the <a href="https://msdn.microsoft.com/87f476ce-bb27-4b5f-bfdf-dff84bd7e4f4">ACM_OPEN</a> message explicitly, passing in <b>NULL</b> parameters. 
 
 
 ## -parameters
@@ -80,7 +80,7 @@ You can use <b>Animate_Close</b> to close an AVI file or AVI resource that was p
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761908(v=VS.85).aspx">Animate_Open</a>
+<a href="https://msdn.microsoft.com/aebfae03-401c-48de-ad3b-14574f5b4e73">Animate_Open</a>
  
 
  

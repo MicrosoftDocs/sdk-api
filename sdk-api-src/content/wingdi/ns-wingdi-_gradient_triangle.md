@@ -86,7 +86,7 @@ The <b>GRADIENT_TRIANGLE</b> structure specifies the values in the <i>pVertex</i
 
 The following image shows an example of a triangle with a gradient fill.
 
-<img alt="Illustration of a triangle that fills from orange at the top point to magenta on the bottom line " border="0" src="./images/GradientFillTriangle.png"/>
+<img alt="Illustration of a triangle that fills from orange at the top point to magenta on the bottom line " border="0" src="images/GradientFillTriangle.png"/>
 
 #### Examples
 

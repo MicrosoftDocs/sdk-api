@@ -71,7 +71,7 @@ A pointer to a Shell item.
 
 Type: <b>UINT</b>
 
-The current item state. See <a href="https://msdn.microsoft.com/en-us/library/Bb775483(v=VS.85).aspx">NMCUSTOMDRAW</a> for more detail.
+The current item state. See <a href="https://msdn.microsoft.com/c8a990a9-fb39-46e7-a5d2-fc817ff46e1b">NMCUSTOMDRAW</a> for more detail.
 
 
 ### -field nstcis

@@ -104,7 +104,7 @@ The insertion mark is to the right of the specified button.
 </dl>
 </td>
 <td width="60%">
-The insertion mark is on the background of the toolbar. This flag is only used with the <a href="https://msdn.microsoft.com/en-us/library/Bb787367(v=VS.85).aspx">TB_INSERTMARKHITTEST</a> message. 
+The insertion mark is on the background of the toolbar. This flag is only used with the <a href="https://msdn.microsoft.com/65c64fd0-f089-4b1a-84e5-1a3e10aa7f5e">TB_INSERTMARKHITTEST</a> message. 
 
 </td>
 </tr>

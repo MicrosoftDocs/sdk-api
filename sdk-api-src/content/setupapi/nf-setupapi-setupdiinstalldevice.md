@@ -62,7 +62,7 @@ The <b>SetupDiInstallDevice</b> function is the default handler for the <a href=
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> for the local system that contains a device information element that represents the device to install. 
+A handle to the <a href="devinst.device_information_sets">device information set</a> for the local system that contains a device information element that represents the device to install. 
 
 
 ### -param DeviceInfoData [in, out]
@@ -117,7 +117,7 @@ Create a <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d
 
 </li>
 <li>
-Locate and process the <a href="https://msdn.microsoft.com/library/Ff547344(v=VS.85).aspx">INF DDInstall section</a> for the device. The section might be OS/architecture-specific. The <i>DDInstall</i> section's <b>AddReg</b> and <b>DelReg</b> entries are directed at the device's <a href="https://msdn.microsoft.com/5f6fec1a-1134-4765-81be-9b50939e5e66">software key</a>. Locate and process the <i>DDInstall</i><b>.HW</b> section whose <b>AddReg</b> and <b>DelReg</b> entries are directed at the device's <a href="https://msdn.microsoft.com/3be5c842-d1b6-4c34-8990-e23e2d08dd23">hardware key</a>. Locate and process the <a href="https://msdn.microsoft.com/library/Ff547339(v=VS.85).aspx">INF DDInstall.LogConfigOverride section</a>, if present, to supply an <a href="https://msdn.microsoft.com/c7a6997b-34f9-4dd9-b384-2321a8b5ce54">override configuration</a> for the device. Locate and process the <a href="https://msdn.microsoft.com/library/Ff547349(v=VS.85).aspx">INF DDInstall.Services section</a> to add services for the device (and potentially remove any old services that are no longer necessary).
+Locate and process the <a href="devinst.inf_ddinstall_section">INF DDInstall section</a> for the device. The section might be OS/architecture-specific. The <i>DDInstall</i> section's <b>AddReg</b> and <b>DelReg</b> entries are directed at the device's <a href="https://msdn.microsoft.com/5f6fec1a-1134-4765-81be-9b50939e5e66">software key</a>. Locate and process the <i>DDInstall</i><b>.HW</b> section whose <b>AddReg</b> and <b>DelReg</b> entries are directed at the device's <a href="https://msdn.microsoft.com/3be5c842-d1b6-4c34-8990-e23e2d08dd23">hardware key</a>. Locate and process the <a href="devinst.inf_ddinstall_logconfigoverride_section">INF DDInstall.LogConfigOverride section</a>, if present, to supply an <a href="https://msdn.microsoft.com/c7a6997b-34f9-4dd9-b384-2321a8b5ce54">override configuration</a> for the device. Locate and process the <a href="devinst.inf_ddinstall_services_section">INF DDInstall.Services section</a> to add services for the device (and potentially remove any old services that are no longer necessary).
 
 </li>
 <li>
@@ -153,7 +153,7 @@ If Windows cannot locate an INF file for the device, it will send DIF_INSTALLDEV
 
 If the DI_FLAGSEX_SETFAILEDINSTALL flag is set in the <a href="https://msdn.microsoft.com/1bd21150-f8f4-480d-a4b2-99fa4b4233b9">SP_DEVINSTALL_PARAMS</a> structure, <b>SetupDiInstallDevice</b> just sets the FAILEDINSTALL flag in the device's <b>ConfigFlags</b> registry value.
 
-<div class="alert"><b>Note</b>  Only a <a href="https://msdn.microsoft.com/ac439eb8-b491-4215-877d-5ee177fbdb39">class installer</a> should call <b>SetupDiInstallDevice</b> and only in those situations where the class installer must perform device installation operations after <b>SetupDiInstallDevice</b> completes the default device installation operation. In such situations, the class installer must directly call <b>SetupDiInstallDevice</b> when the installer processes a DIF_INSTALLDEVICE request. For more information about calling the default handler, see <a href="https://msdn.microsoft.com/library/Ff537868(v=VS.85).aspx">Calling Default DIF Code Handlers</a>.</div>
+<div class="alert"><b>Note</b>  Only a <a href="https://msdn.microsoft.com/ac439eb8-b491-4215-877d-5ee177fbdb39">class installer</a> should call <b>SetupDiInstallDevice</b> and only in those situations where the class installer must perform device installation operations after <b>SetupDiInstallDevice</b> completes the default device installation operation. In such situations, the class installer must directly call <b>SetupDiInstallDevice</b> when the installer processes a DIF_INSTALLDEVICE request. For more information about calling the default handler, see <a href="devinst.calling_the_default_dif_code_handlers">Calling Default DIF Code Handlers</a>.</div>
 <div> </div>
 The caller of <b>SetupDiInstallDevice</b> must be a member of the Administrators group.
 

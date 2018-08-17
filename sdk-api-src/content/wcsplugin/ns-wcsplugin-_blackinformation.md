@@ -7,7 +7,7 @@ old-location: wcs\blackinformation.htm
 old-project: WCS
 ms.assetid: b90699f6-b42e-4848-947b-76633dc35802
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/15/2018
 ms.keywords: BlackInformation, BlackInformation structure [Windows Color System], _BlackInformation, _color_BlackInformation_str, wcs.blackinformation, wcsplugin/BlackInformation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,7 +79,7 @@ An indicator whether the source color contains only black. This value can only b
 
 <ul>
 <li>the source device has a black channel</li>
-<li>the <a href="https://msdn.microsoft.com/library/ms536577(v=VS.85).aspx">PRESERVEBLACK</a> flag is set to <b>true</b>. This flag is in the <i>dwFlags</i> parameter of a Color Management Module (CMM) transform function.</li>
+<li>the <a href="_color_cmm_transform_creation_flags">PRESERVEBLACK</a> flag is set to <b>true</b>. This flag is in the <i>dwFlags</i> parameter of a Color Management Module (CMM) transform function.</li>
 </ul>
 
 ## -remarks

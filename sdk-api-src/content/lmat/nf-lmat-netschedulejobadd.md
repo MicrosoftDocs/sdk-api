@@ -66,9 +66,9 @@ The
 
 
 
-### -param OPTIONAL
+### -param Servername [in, optional]
 
-TBD
+A pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
 
 
 ### -param Buffer [in]
@@ -81,11 +81,6 @@ A pointer to an
 ### -param JobId [out]
 
 A pointer that receives a job identifier for the newly submitted job. This entry is valid only if the function returns successfully.
-
-
-#### - Servername [in, optional]
-
-A pointer to a constant string that specifies the DNS or NetBIOS name of the remote server on which the function is to execute. If this parameter is <b>NULL</b>, the local computer is used.
 
 
 ## -returns

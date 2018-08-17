@@ -7,7 +7,7 @@ old-location: base\symundname64.htm
 old-project: debug
 ms.assetid: f7bea3a4-5e17-4743-894f-8eb8f9992cac
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: SymUnDName, SymUnDName function, SymUnDName64, SymUnDName64 function, base.symundname64, dbghelp/SymUnDName, dbghelp/SymUnDName64
 ms.prod: windows
 ms.technology: windows-sdk

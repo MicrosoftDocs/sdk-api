@@ -65,7 +65,7 @@ Not supported.
 
 
 
-### -param OPTIONAL
+### -param servername
 
 TBD
 

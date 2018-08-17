@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Gets the handle to a date and time picker's (DTP) child month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761765(v=VS.85).aspx">DTM_GETMONTHCAL</a> message explicitly. 
+Gets the handle to a date and time picker's (DTP) child month calendar control. You can use this macro or send the <a href="https://msdn.microsoft.com/78bbdcc9-2b2b-420b-be9b-6f2f573d60b6">DTM_GETMONTHCAL</a> message explicitly. 
 
 
 ## -parameters
@@ -70,7 +70,7 @@ A handle to a DTP control.
 
 
 
-DTP controls create a child month calendar control when the user clicks the drop-down arrow (<a href="https://msdn.microsoft.com/en-us/library/Bb761739(v=VS.85).aspx">DTN_DROPDOWN</a> notification). When the month calendar is no longer needed, it is destroyed (a <a href="https://msdn.microsoft.com/en-us/library/Bb761735(v=VS.85).aspx">DTN_CLOSEUP</a> notification is sent on destruction). So your application must not rely on a static handle to the DTP's child month calendar. 
+DTP controls create a child month calendar control when the user clicks the drop-down arrow (<a href="https://msdn.microsoft.com/6f20fa87-2223-4876-b77d-2c684685bf10">DTN_DROPDOWN</a> notification). When the month calendar is no longer needed, it is destroyed (a <a href="https://msdn.microsoft.com/94ace714-55cc-4c59-8b87-8d0348b15f34">DTN_CLOSEUP</a> notification is sent on destruction). So your application must not rely on a static handle to the DTP's child month calendar. 
 
 
 
@@ -80,11 +80,11 @@ DTP controls create a child month calendar control when the user clicks the drop
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761735(v=VS.85).aspx">DTN_CLOSEUP</a>
+<a href="https://msdn.microsoft.com/94ace714-55cc-4c59-8b87-8d0348b15f34">DTN_CLOSEUP</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761739(v=VS.85).aspx">DTN_DROPDOWN</a>
+<a href="https://msdn.microsoft.com/6f20fa87-2223-4876-b77d-2c684685bf10">DTN_DROPDOWN</a>
 
 
 

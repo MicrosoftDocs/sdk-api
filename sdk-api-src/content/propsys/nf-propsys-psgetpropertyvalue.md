@@ -69,9 +69,9 @@ Pointer to an instance of the <a href="shell.IPropertyStore">IPropertyStore</a> 
 
 ### -param ppd [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>*</b>
+Type: <b><a href="shell.IPropertyDescription">IPropertyDescription</a>*</b>
 
-Pointer to an instance of the <a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a> interface, which represents the property in the property store.
+Pointer to an instance of the <a href="shell.IPropertyDescription">IPropertyDescription</a> interface, which represents the property in the property store.
 
 
 ### -param ppropvar [out]
@@ -96,12 +96,12 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-This helper function is used to read a property value from a store. If the calling code already has a <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> structure, it might be simpler to call <a href="shell.IPropertyStore_GetValue">IPropertyStore::GetValue</a> directly.
+This helper function is used to read a property value from a store. If the calling code already has a <a href="shell.PROPERTYKEY">PROPERTYKEY</a> structure, it might be simpler to call <a href="shell.IPropertyStore_GetValue">IPropertyStore::GetValue</a> directly.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762083(v=VS.85).aspx">PSGetPropertyValue</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PSGetPropertyValue">PSGetPropertyValue</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -133,7 +133,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762088(v=VS.85).aspx">PSSetPropertyValue</a>
+<a href="shell.PSSetPropertyValue">PSSetPropertyValue</a>
  
 
  

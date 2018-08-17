@@ -7,7 +7,7 @@ old-location: display\pathobj_venumstartcliplines.htm
 old-project: display
 ms.assetid: 3db437aa-40d1-4703-ab1e-b3e154923d2d
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/13/2018
 ms.keywords: PATHOBJ_vEnumStartClipLines, PATHOBJ_vEnumStartClipLines function [Display Devices], display.pathobj_venumstartcliplines, gdifncs_f5446bec-830c-4946-b899-1d9a957b44ef.xml, winddi/PATHOBJ_vEnumStartClipLines
 ms.prod: windows
 ms.technology: windows-sdk

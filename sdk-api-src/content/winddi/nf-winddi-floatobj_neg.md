@@ -7,7 +7,7 @@ old-location: display\floatobj_neg.htm
 old-project: display
 ms.assetid: 08a4c47f-8bf5-4849-8ce9-e5999c02f263
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/13/2018
 ms.keywords: FLOATOBJ_Neg, FLOATOBJ_Neg function [Display Devices], display.floatobj_neg, gdifncs_7fe9b86a-abdd-44d6-b815-1ac5f37203db.xml, winddi/FLOATOBJ_Neg
 ms.prod: windows
 ms.technology: windows-sdk

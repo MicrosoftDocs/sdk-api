@@ -7,7 +7,7 @@ old-location: display\dd_fliptogdisurfacedata.htm
 old-project: display
 ms.assetid: ac0fdaf7-0cb2-4474-b3dd-a039161513a4
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/13/2018
 ms.keywords: "*PDD_FLIPTOGDISURFACEDATA, DD_FLIPTOGDISURFACEDATA, DD_FLIPTOGDISURFACEDATA structure [Display Devices], _DD_FLIPTOGDISURFACEDATA, ddrawint/DD_FLIPTOGDISURFACEDATA, ddstrcts_7e93a017-4f74-43c9-9aaa-6e64da35870d.xml, display.dd_fliptogdisurfacedata"
 ms.prod: windows
 ms.technology: windows-sdk

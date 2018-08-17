@@ -7,7 +7,7 @@ old-location: security\iazscope2_roledefinitions.htm
 old-project: secauthz
 ms.assetid: cff40ce8-fa5f-4673-9338-58cff2c941aa
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: IAzScope2 interface [Security],RoleDefinitions property, IAzScope2.RoleDefinitions, IAzScope2.get_RoleDefinitions, IAzScope2::RoleDefinitions, IAzScope2::get_RoleDefinitions, RoleDefinitions property [Security], RoleDefinitions property [Security],IAzScope2 interface, azroles/IAzScope2::RoleDefinitions, azroles/IAzScope2::get_RoleDefinitions, get_RoleDefinitions, security.iazscope2_roledefinitions
 ms.prod: windows
 ms.technology: windows-sdk

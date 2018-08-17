@@ -114,7 +114,7 @@ This helper function works for <a href="e305240e-9e11-4006-98cc-26f4932d2118">VA
 </ul>
 Additional types may be supported in the future.
 
-This function extracts a single value from the source <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure and uses that value to initialize the output <b>VARIANT</b> structure. The calling application must use <a href="https://msdn.microsoft.com/en-us/library/ms221165(v=VS.85).aspx">VariantClear</a> to free the <b>VARIANT</b> referred to by <i>pvar</i> when it is no longer needed.
+This function extracts a single value from the source <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure and uses that value to initialize the output <b>VARIANT</b> structure. The calling application must use <a href="28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a> to free the <b>VARIANT</b> referred to by <i>pvar</i> when it is no longer needed.
 
 If the source <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> is an array, <i>iElem</i> must be less than the number of elements in the array.
 
@@ -122,12 +122,12 @@ If the source <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> has a s
 
 If the source <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> is empty, this function always returns an error code.
 
-You can use <a href="https://msdn.microsoft.com/en-us/library/Bb776584(v=VS.85).aspx">VariantGetElementCount</a> to obtain the number of elements in the array or array.
+You can use <a href="shell.VariantGetElementCount">VariantGetElementCount</a> to obtain the number of elements in the array or array.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762344(v=VS.85).aspx">InitVariantFromVariantArrayElem</a> in an iteration statement to access the values in a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromVariantArrayElem">InitVariantFromVariantArrayElem</a> in an iteration statement to access the values in a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -163,11 +163,11 @@ for (UINT iElem = 0; SUCCEEDED(hr) &amp;&amp; iElem &lt; cElem; iElem ++)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762303(v=VS.85).aspx">InitPropVariantFromPropVariantVectorElem</a>
+<a href="shell.InitPropVariantFromPropVariantVectorElem">InitPropVariantFromPropVariantVectorElem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776583(v=VS.85).aspx">VariantGetElem</a>
+<a href="shell.VariantGetElem">VariantGetElem</a>
  
 
  

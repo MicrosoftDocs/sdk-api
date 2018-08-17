@@ -66,8 +66,8 @@ Type: <b>void*</b>
 Pointer to the data. When <a href="https://msdn.microsoft.com/c9d57873-1faa-42fa-855c-26f565e3b27c">ID3D11DeviceContext::Map</a> provides the pointer, the runtime ensures that the pointer has a specific alignment, depending on the following feature levels:
 
 <ul>
-<li>For <a href="https://msdn.microsoft.com/en-us/library/Ff476329(v=VS.85).aspx">D3D_FEATURE_LEVEL_10_0</a> and higher, the pointer is aligned to 16 bytes.</li>
-<li>For lower than <a href="https://msdn.microsoft.com/en-us/library/Ff476329(v=VS.85).aspx">D3D_FEATURE_LEVEL_10_0</a>, the pointer is aligned to 4 bytes.</li>
+<li>For <a href="d3d_feature_level.htm">D3D_FEATURE_LEVEL_10_0</a> and higher, the pointer is aligned to 16 bytes.</li>
+<li>For lower than <a href="d3d_feature_level.htm">D3D_FEATURE_LEVEL_10_0</a>, the pointer is aligned to 4 bytes.</li>
 </ul>
 
 ### -field RowPitch

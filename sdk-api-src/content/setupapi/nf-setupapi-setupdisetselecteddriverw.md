@@ -63,7 +63,7 @@ The <b>SetupDiSetSelectedDriver</b> function sets, or resets, the selected drive
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains the driver list from which to select a driver for a device information element or for the device information set.
+A handle to the <a href="devinst.device_information_sets">device information set</a> that contains the driver list from which to select a driver for a device information element or for the device information set.
 
 
 ### -param DeviceInfoData [in, out]

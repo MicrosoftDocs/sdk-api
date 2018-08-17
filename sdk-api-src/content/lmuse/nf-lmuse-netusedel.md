@@ -64,9 +64,13 @@ You can also use the
 
 
 
-### -param OPTIONAL
+### -param UncServerName [in]
 
-TBD
+The UNC name of the computer on which to execute this function. If this is parameter is <b>NULL</b>, then the local computer is used. 
+
+If the <i>UncServerName</i> parameter specified is a remote computer, then the remote computer must support remote RPC calls using the legacy Remote Access Protocol mechanism. 
+
+This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defined.
 
 
 ### -param UseName [in]
@@ -121,15 +125,6 @@ Close any open files and delete the connection.
 </tr>
 </table>
  
-
-
-#### - UncServerName [in]
-
-The UNC name of the computer on which to execute this function. If this is parameter is <b>NULL</b>, then the local computer is used. 
-
-If the <i>UncServerName</i> parameter specified is a remote computer, then the remote computer must support remote RPC calls using the legacy Remote Access Protocol mechanism. 
-
-This string is Unicode if  <b>_WIN32_WINNT</b> or <b>FORCE_UNICODE</b> are defined.
 
 
 ## -returns

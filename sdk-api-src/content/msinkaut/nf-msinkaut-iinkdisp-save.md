@@ -285,7 +285,7 @@ Attempting to save an empty <a href="https://msdn.microsoft.com/f942d6a3-f303-49
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846797(v=VS.85).aspx">IInkDisp</a>
+<a href="tablet.iinkdisp">IInkDisp</a>
 
 
 

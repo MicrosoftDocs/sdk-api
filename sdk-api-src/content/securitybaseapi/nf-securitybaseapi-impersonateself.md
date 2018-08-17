@@ -7,7 +7,7 @@ old-location: security\impersonateself.htm
 old-project: secauthz
 ms.assetid: f909e3a7-6c7f-4c05-aa2e-e637113804c9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: ImpersonateSelf, ImpersonateSelf function [Security], _win32_impersonateself, security.impersonateself, securitybaseapi/ImpersonateSelf
 ms.prod: windows
 ms.technology: windows-sdk
@@ -103,7 +103,7 @@ For this function to succeed, the DACL protecting the process token must grant t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Client/Server Access Control Functions</a>
+<a href="authorization_functions.htm">Client/Server Access Control Functions</a>
 
 
 

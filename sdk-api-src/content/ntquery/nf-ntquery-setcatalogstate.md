@@ -52,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/6da601c6-3742-40ad-99f2-8817f7f642b3">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
 Sets the catalog state for backup or other purposes.
 
@@ -74,7 +74,7 @@ A pointer to the name of the computer where the catalog exists; for example, L".
 
 ### -param dwNewState
 
-The state of the catalog. See <a href="https://msdn.microsoft.com/en-us/library/ms691008(v=VS.85).aspx">CICAT_* Constants</a>.
+The state of the catalog. See <a href="https://msdn.microsoft.com/0316d876-4d0d-4b1e-a944-e5621b625922">CICAT_* Constants</a>.
 
 
 ### -param pdwOldState
@@ -194,7 +194,7 @@ For examples of changes in a catalog's state, see the ChgState sample in the Pla
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690986(v=VS.85).aspx">LocateCatalogs</a>
+<a href="https://msdn.microsoft.com/f7f4d177-d86c-42bd-a47e-cf278b70aba2">LocateCatalogs</a>
  
 
  

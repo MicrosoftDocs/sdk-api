@@ -69,9 +69,9 @@ A <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> of type VT_UI4, VT_
 
 ### -param Folder [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>**</b>
+Type: <b><a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>**</b>
 
-A reference to the window's <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface, or <b>NULL</b> if the specified window was not found.
+A reference to the window's <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface, or <b>NULL</b> if the specified window was not found.
 
 
 ## -returns

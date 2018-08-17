@@ -113,7 +113,7 @@ Supports Direct3D 9 feature options.
 ### -field D3D11_FEATURE_SHADER_MIN_PRECISION_SUPPORT
 
 Supports minimum precision of shaders.
-              For more info about HLSL minimum precision, see <a href="https://msdn.microsoft.com/en-us/library/Hh404562(v=VS.85).aspx">using HLSL minimum precision</a>.
+              For more info about HLSL minimum precision, see <a href="direct3d_11_1_features.htm">using HLSL minimum precision</a>.
             Refer to <a href="https://msdn.microsoft.com/4494A896-E73E-4A41-BC73-F9BD49510276">D3D11_FEATURE_DATA_SHADER_MIN_PRECISION_SUPPORT</a>.
 
 <b>Direct3D 11:  </b>This value is not supported until Direct3D 11.1.

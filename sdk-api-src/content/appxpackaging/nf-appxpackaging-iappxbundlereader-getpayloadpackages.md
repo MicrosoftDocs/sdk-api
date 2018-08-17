@@ -7,7 +7,7 @@ old-location: appxpkg\iappxbundlereader_getpayloadpackages.htm
 old-project: appxpkg
 ms.assetid: 90C1CF98-D33F-4643-8978-7C74A4E5BD52
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/15/2018
 ms.keywords: GetPayloadPackages, GetPayloadPackages method [App packaging and management], GetPayloadPackages method [App packaging and management],IAppxBundleReader interface, IAppxBundleReader interface [App packaging and management],GetPayloadPackages method, IAppxBundleReader.GetPayloadPackages, IAppxBundleReader::GetPayloadPackages, appxpackaging/IAppxBundleReader::GetPayloadPackages, appxpkg.iappxbundlereader_getpayloadpackages
 ms.prod: windows
 ms.technology: windows-sdk

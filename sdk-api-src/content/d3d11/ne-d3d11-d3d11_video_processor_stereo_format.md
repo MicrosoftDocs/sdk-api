@@ -68,7 +68,7 @@ The sample does not contain stereo data.  If the stereo format is not specified,
 
 Frame 0 and frame 1 are packed side-by-side, as shown in the following diagram.
 
-<img alt="Side-by-side packing" src="./images/dxgistereo3d02.png"/>
+<img alt="Side-by-side packing" src="images/dxgistereo3d02.png"/>
 
 All drivers that support stereo video must support this format.
 
@@ -77,7 +77,7 @@ All drivers that support stereo video must support this format.
 
 Frame 0 and frame 1 are packed top-to-bottom, as shown in the following diagram.
 
-<img alt="Top-to-bottom packing" src="./images/dxgistereo3d01.png"/>
+<img alt="Top-to-bottom packing" src="images/dxgistereo3d01.png"/>
 
 All drivers that support stereo video must support this format.
 
@@ -102,7 +102,7 @@ Support for this stereo format is optional.
 
 Frame 0 and frame 1 are packed into interleaved rows, as shown in the following diagram.
 
-<img alt="Interleaved rows" src="./images/dxgistereo3d03.png"/>
+<img alt="Interleaved rows" src="images/dxgistereo3d03.png"/>
 
 Support for this stereo format is optional.
 
@@ -111,7 +111,7 @@ Support for this stereo format is optional.
 
 Frame 0 and frame 1 are packed into interleaved columns, as shown in the following diagram.
 
-<img alt="Interleaved columns" src="./images/dxgistereo3d04.png"/>
+<img alt="Interleaved columns" src="images/dxgistereo3d04.png"/>
 
 Support for this stereo format is optional.
 
@@ -120,7 +120,7 @@ Support for this stereo format is optional.
 
 Frame 0 and frame 1 are packed in a checkerboard format, as shown in the following diagram.
 
-<img alt="Checkerboard packing" src="./images/dxgistereo3d05.png"/>
+<img alt="Checkerboard packing" src="images/dxgistereo3d05.png"/>
 
 Support for this stereo format is optional.
 

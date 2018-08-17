@@ -121,11 +121,11 @@ Clients can specify any of the following record types.
  
 
 
-### -param OPTIONAL
+### -param plsnUser [in, optional]
 
-TBD
+A pointer to a <a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a> structure that specifies   the log client  to read this log sequence number (LSN) as the next LSN instead of  reading forward to the next record, reading the previous LSN, or reading the next undo LSN.  
 
-
+This parameter gives log clients the ability to cursor through user-defined LSN chains in client buffers.  The relationship of this parameter to the current LSN held by the read context must be consistent with the context mode, <i>ecxMode</i>,  that is specified in the <a href="https://msdn.microsoft.com/1c56c47b-d898-4c70-ba70-8978057c66b9">ReadLogRecord</a>  entry points; otherwise, an error code of <b>ERROR_INVALID_PARAMETER</b> is returned.
 
 
 ### -param plsnUndoNext [out]
@@ -143,18 +143,11 @@ A pointer to a <a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fd
 A pointer to a <a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a> structure that receives the LSN of the current record read into the read context.
 
 
-#### - pOverlapped [in, out, optional]
+### -param pOverlapped [in, out, optional]
 
 A pointer to an <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure that is required for asynchronous operation. 
 
 This parameter can be <b>NULL</b> if asynchronous operation is not used.
-
-
-#### - plsnUser [in, optional]
-
-A pointer to a <a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a> structure that specifies   the log client  to read this log sequence number (LSN) as the next LSN instead of  reading forward to the next record, reading the previous LSN, or reading the next undo LSN.  
-
-This parameter gives log clients the ability to cursor through user-defined LSN chains in client buffers.  The relationship of this parameter to the current LSN held by the read context must be consistent with the context mode, <i>ecxMode</i>,  that is specified in the <a href="https://msdn.microsoft.com/1c56c47b-d898-4c70-ba70-8978057c66b9">ReadLogRecord</a>  entry points; otherwise, an error code of <b>ERROR_INVALID_PARAMETER</b> is returned.
 
 
 ## -returns

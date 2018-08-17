@@ -7,7 +7,7 @@ old-location: base\symfindexecutableimage.htm
 old-project: debug
 ms.assetid: e81ff4bd-b9a0-4c90-86cb-67e721e2fd1b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: SymFindExecutableImage, SymFindExecutableImage function, SymFindExecutableImageW, base.symfindexecutableimage, dbghelp/SymFindExecutableImage, dbghelp/SymFindExecutableImageW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\regsetkeysecurity.htm
 old-project: secauthz
 ms.assetid: 08bf8fc1-6a08-490e-b589-730211774257
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: RegSetKeySecurity, RegSetKeySecurity function [Security], _win32_regsetkeysecurity, security.regsetkeysecurity, winreg/RegSetKeySecurity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -120,7 +120,7 @@ If <i>hKey</i> is one of the predefined keys, use  the <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Low-level Access Control Functions</a>
+<a href="authorization_functions.htm">Low-level Access Control Functions</a>
 
 
 

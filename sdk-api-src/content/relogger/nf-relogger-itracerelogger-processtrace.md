@@ -4,10 +4,10 @@ title: ITraceRelogger::ProcessTrace
 author: windows-sdk-content
 description: Delivers events from the associated trace streams to the consumer.
 old-location: etw\itracerelogger_processtrace.htm
-old-project: ETW
+old-project: etw
 ms.assetid: ab844b34-0e06-447f-a0b7-dd56ca0b50ed
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/08/2018
 ms.keywords: ITraceRelogger interface [ETW],ProcessTrace method, ITraceRelogger.ProcessTrace, ITraceRelogger::ProcessTrace, ProcessTrace, ProcessTrace method [ETW], ProcessTrace method [ETW],ITraceRelogger interface, etw.itracerelogger_processtrace, relogger/ITraceRelogger::ProcessTrace
 ms.prod: windows
 ms.technology: windows-sdk

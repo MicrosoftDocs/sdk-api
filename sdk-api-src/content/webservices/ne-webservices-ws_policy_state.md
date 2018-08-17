@@ -81,7 +81,7 @@ The following diagram illustrates the functions that
                 cause state transitions in the policy object.
             
 
-<img alt="" src="./images/PolicyStates.png"/>
+<img alt="" src="images/PolicyStates.png"/>
 
 
 

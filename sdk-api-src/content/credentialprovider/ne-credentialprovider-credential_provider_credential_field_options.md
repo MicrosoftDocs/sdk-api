@@ -89,7 +89,7 @@ Display the "password reveal" glyph in a password entry box. When this glyph is 
 
                         
 
-<img alt="Password reveal glyph" src="./images/PasswordReveal.png"/>
+<img alt="Password reveal glyph" src="images/PasswordReveal.png"/>
 
 
 #### - CPCFPO_IS_EMAIL_ADDRESS

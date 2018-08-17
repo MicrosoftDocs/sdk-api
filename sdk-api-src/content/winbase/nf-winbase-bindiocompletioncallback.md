@@ -7,7 +7,7 @@ old-location: base\bindiocompletioncallback.htm
 old-project: procthread
 ms.assetid: 2eb18e84-6d6b-4b11-8e8f-6110fa44b7f9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: BindIoCompletionCallback, BindIoCompletionCallback function, _win32_bindiocompletioncallback, base.bindiocompletioncallback, winbase/BindIoCompletionCallback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ Associates the I/O completion port owned by the <a href="https://msdn.microsoft.
 ### -param FileHandle [in]
 
 A handle to the file opened for overlapped I/O completion. This handle is returned by the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function, with the <b>FILE_FLAG_OVERLAPPED</b> flag.
+<a href="base.createfile">CreateFile</a> function, with the <b>FILE_FLAG_OVERLAPPED</b> flag.
 
 
 ### -param Function [in]
@@ -80,7 +80,7 @@ A pointer to the callback function to be executed in a non-I/O worker thread whe
 <a href="https://msdn.microsoft.com/ae1ad0f3-67df-4573-af22-7086f0470361">TerminateThread</a> function.
 
 For more information about the completion routine, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa364052(v=VS.85).aspx">FileIOCompletionRoutine</a>.
+<a href="base.fileiocompletionroutine">FileIOCompletionRoutine</a>.
 
 
 ### -param Flags [in]
@@ -121,7 +121,7 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0500
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa364052(v=VS.85).aspx">FileIOCompletionRoutine</a>
+<a href="base.fileiocompletionroutine">FileIOCompletionRoutine</a>
 
 
 

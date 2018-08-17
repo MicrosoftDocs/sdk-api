@@ -131,7 +131,7 @@ When a text service must interpret text before it is inserted into a context, th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

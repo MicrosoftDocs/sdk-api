@@ -7,7 +7,7 @@ old-location: security\token_user_claims.htm
 old-project: secauthz
 ms.assetid: 730541ED-0E33-4F19-BB99-145131161355
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: "*PTOKEN_USER_CLAIMS, PTOKEN_USER_CLAIMS, PTOKEN_USER_CLAIMS structure pointer [Security], TOKEN_USER_CLAIMS, TOKEN_USER_CLAIMS structure [Security], _TOKEN_USER_CLAIMS, security.token_user_claims, winnt/PTOKEN_USER_CLAIMS, winnt/TOKEN_USER_CLAIMS"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -92,7 +92,7 @@ A resource has a dependency on a storage device, such as a
 
 #### CLUS_RESCLASS_NETWORK (2)
 
-A resource has a dependency on a <a href="https://msdn.microsoft.com/en-us/library/Aa371763(v=VS.85).aspx">network</a> device.
+A resource has a dependency on a <a href="n_gly.htm">network</a> device.
 
 
 

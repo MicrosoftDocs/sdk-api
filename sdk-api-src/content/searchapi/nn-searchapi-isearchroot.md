@@ -72,7 +72,7 @@ The <b>ISearchRoot</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266458(v=VS.85).aspx">get_AuthenticationType</a>
+<a href="https://msdn.microsoft.com/6f9e12b0-af88-4338-a323-ba6b6b4a5cef">get_AuthenticationType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the type of authentication needed to access the URLs under this this search root.
@@ -81,7 +81,7 @@ Retrieves the type of authentication needed to access the URLs under this this s
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266459(v=VS.85).aspx">get_EnumerationDepth</a>
+<a href="https://msdn.microsoft.com/f935d5ce-981c-430c-88eb-09dd7a364751">get_EnumerationDepth</a>
 </td>
 <td align="left" width="63%">
 Gets the enumeration depth for this search root.
@@ -90,7 +90,7 @@ Gets the enumeration depth for this search root.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266460(v=VS.85).aspx">get_FollowDirectories</a>
+<a href="https://msdn.microsoft.com/bade7d3a-5286-4647-8e55-ff2d70033a4d">get_FollowDirectories</a>
 </td>
 <td align="left" width="63%">
 Gets a <b>BOOL</b> value that indicates whether the search engine follows subdirectories and hierarchical scopes.
@@ -99,7 +99,7 @@ Gets a <b>BOOL</b> value that indicates whether the search engine follows subdir
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266461(v=VS.85).aspx">get_HostDepth</a>
+<a href="https://msdn.microsoft.com/0c76073e-ae7b-4b25-b5c1-3f89280adf59">get_HostDepth</a>
 </td>
 <td align="left" width="63%">
 Gets a value that indicates how far into a host tree to crawl when indexing.
@@ -108,7 +108,7 @@ Gets a value that indicates how far into a host tree to crawl when indexing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266462(v=VS.85).aspx">get_IsHierarchical</a>
+<a href="https://msdn.microsoft.com/e6318234-e9e5-4341-873d-bd4b13977ecc">get_IsHierarchical</a>
 </td>
 <td align="left" width="63%">
 Gets a value that indicates whether the search is rooted on a hierarchical tree structure.
@@ -118,7 +118,7 @@ Gets a value that indicates whether the search is rooted on a hierarchical tree 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266463(v=VS.85).aspx">get_Password</a>
+<a href="https://msdn.microsoft.com/dbe90835-0619-45f1-a7d4-f11b4bd644cc">get_Password</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -127,7 +127,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266464(v=VS.85).aspx">get_ProvidesNotifications</a>
+<a href="https://msdn.microsoft.com/050c20f9-759b-4bb2-8dce-801006440a40">get_ProvidesNotifications</a>
 </td>
 <td align="left" width="63%">
 Gets a value that indicates whether the search engine is notified (by protocol handlers or other applications) about changes to the URLs under the search root.
@@ -136,7 +136,7 @@ Gets a value that indicates whether the search engine is notified (by protocol h
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266465(v=VS.85).aspx">get_RootURL</a>
+<a href="https://msdn.microsoft.com/efc7637b-f679-45d2-b189-12db29374181">get_RootURL</a>
 </td>
 <td align="left" width="63%">
 Gets the URL of the starting point for this search root.
@@ -146,7 +146,7 @@ Gets the URL of the starting point for this search root.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266466(v=VS.85).aspx">get_Schedule</a>
+<a href="https://msdn.microsoft.com/8897f437-5b66-46df-820f-e9d014e6fb02">get_Schedule</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -155,7 +155,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266467(v=VS.85).aspx">get_UseNotificationsOnly</a>
+<a href="https://msdn.microsoft.com/1f2e1dd4-d722-4690-92c1-8305a199b312">get_UseNotificationsOnly</a>
 </td>
 <td align="left" width="63%">
 Gets a value that indicates whether this search root should be indexed only by notification and not crawled.
@@ -164,7 +164,7 @@ Gets a value that indicates whether this search root should be indexed only by n
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266468(v=VS.85).aspx">get_User</a>
+<a href="https://msdn.microsoft.com/25679e72-b65c-4219-90e3-d4b9a35c3597">get_User</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -173,7 +173,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266470(v=VS.85).aspx">put_AuthenticationType</a>
+<a href="https://msdn.microsoft.com/1c443c8a-6ad9-46c5-987b-9e8e705f705f">put_AuthenticationType</a>
 </td>
 <td align="left" width="63%">
 Sets the type of authentication required to access the URLs under this search root.
@@ -182,7 +182,7 @@ Sets the type of authentication required to access the URLs under this search ro
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266471(v=VS.85).aspx">put_EnumerationDepth</a>
+<a href="https://msdn.microsoft.com/1b589ec6-224a-48f1-98f0-e3a7cf7651be">put_EnumerationDepth</a>
 </td>
 <td align="left" width="63%">
 Sets the enumeration depth for this search root.
@@ -191,7 +191,7 @@ Sets the enumeration depth for this search root.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266472(v=VS.85).aspx">put_FollowDirectories</a>
+<a href="https://msdn.microsoft.com/46363caa-5571-4d22-873d-6dabbc1753df">put_FollowDirectories</a>
 </td>
 <td align="left" width="63%">
 Sets a <b>BOOL</b> value that indicates whether the search engine should follow subdirectories and hierarchical scopes for this search root.
@@ -200,7 +200,7 @@ Sets a <b>BOOL</b> value that indicates whether the search engine should follow 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266473(v=VS.85).aspx">put_HostDepth</a>
+<a href="https://msdn.microsoft.com/7efb7a75-1864-4fb7-81bc-fbff744d0f1c">put_HostDepth</a>
 </td>
 <td align="left" width="63%">
 Sets a value that indicates how far into a host tree to crawl when indexing.
@@ -209,7 +209,7 @@ Sets a value that indicates how far into a host tree to crawl when indexing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266474(v=VS.85).aspx">put_IsHierarchical</a>
+<a href="https://msdn.microsoft.com/c31dffa4-e6d9-4250-af50-5b9c49e2b15c">put_IsHierarchical</a>
 </td>
 <td align="left" width="63%">
 Sets a value that indicates whether the search is rooted on a hierarchical tree structure.
@@ -218,7 +218,7 @@ Sets a value that indicates whether the search is rooted on a hierarchical tree 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266475(v=VS.85).aspx">put_Password</a>
+<a href="https://msdn.microsoft.com/68a8e162-4889-4404-ba1e-98fb780afab4">put_Password</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -227,7 +227,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266476(v=VS.85).aspx">put_ProvidesNotifications</a>
+<a href="https://msdn.microsoft.com/45a87b46-7c87-451d-a3f7-b9ead74f24b6">put_ProvidesNotifications</a>
 </td>
 <td align="left" width="63%">
 Sets a value that indicates whether the search engine is notified (by protocol handlers or other applications) about changes to the URLs under the search root.
@@ -236,7 +236,7 @@ Sets a value that indicates whether the search engine is notified (by protocol h
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266477(v=VS.85).aspx">put_RootURL</a>
+<a href="https://msdn.microsoft.com/704b9866-dafe-4dcf-bc3e-af3d47695f99">put_RootURL</a>
 </td>
 <td align="left" width="63%">
 Sets the URL of the current search root.
@@ -245,7 +245,7 @@ Sets the URL of the current search root.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266478(v=VS.85).aspx">put_Schedule</a>
+<a href="https://msdn.microsoft.com/7a226481-a676-484d-99c6-e9c9bec8d461">put_Schedule</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -254,7 +254,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266479(v=VS.85).aspx">put_User</a>
+<a href="https://msdn.microsoft.com/706eb3a6-271f-4154-b547-10cb2bdf5c13">put_User</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -263,7 +263,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb266480(v=VS.85).aspx">set_UseNotificationsOnly</a>
+<a href="https://msdn.microsoft.com/cf1869f1-fd60-4b81-957e-cae6f7dd5865">set_UseNotificationsOnly</a>
 </td>
 <td align="left" width="63%">
 Sets a value that indicates whether this search root should be indexed only by notification and not crawled.
@@ -288,7 +288,7 @@ options for Crawl Scope Manager (CSM) indexing operations.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb266541(v=VS.85).aspx">Using the Crawl Scope Manager</a>
+<a href="https://msdn.microsoft.com/7d65d00a-7294-4718-b593-89394b2e416f">Using the Crawl Scope Manager</a>
  
 
  

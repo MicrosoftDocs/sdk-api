@@ -4,10 +4,10 @@ title: ICertEncodeStringArray::GetStringType
 author: windows-sdk-content
 description: Returns the type of string values that the string array contains.
 old-location: security\icertencodestringarray_getstringtype.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 7020f364-4f92-46b8-a8e8-360d8e0fa051
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: CCertEncodeStringArray object [Security],GetStringType method, GetStringType, GetStringType method [Security], GetStringType method [Security],CCertEncodeStringArray object, GetStringType method [Security],ICertEncodeStringArray interface, ICertEncodeStringArray interface [Security],GetStringType method, ICertEncodeStringArray.GetStringType, ICertEncodeStringArray::GetStringType, _certsrv_icertencodestringarray_getstringtype, certenc/ICertEncodeStringArray::GetStringType, security.icertencodestringarray_getstringtype
 ms.prod: windows
 ms.technology: windows-sdk

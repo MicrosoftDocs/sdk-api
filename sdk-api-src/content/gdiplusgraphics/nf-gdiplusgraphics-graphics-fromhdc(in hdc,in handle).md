@@ -66,20 +66,20 @@ FromHDC methods of the
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535950(v=VS.85).aspx">FromHDC(HDC)</a>
+<a href="https://msdn.microsoft.com/fb1ce44e-3e46-40e7-a2d2-23aca0c8fd81">FromHDC(HDC)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535950(v=VS.85).aspx">Graphics::FromHDC</a>
+The <a href="https://msdn.microsoft.com/fb1ce44e-3e46-40e7-a2d2-23aca0c8fd81">Graphics::FromHDC</a>
 <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object that is associated with a specified device context.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535951(v=VS.85).aspx">FromHDC(HDD,HANDLE)</a>
+<a href="https://msdn.microsoft.com/2f4c619f-46a0-4301-87af-07a1c3669322">FromHDC(HDD,HANDLE)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535951(v=VS.85).aspx">Graphics::FromHDC</a>
+The <a href="https://msdn.microsoft.com/2f4c619f-46a0-4301-87af-07a1c3669322">Graphics::FromHDC</a>
 <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object that is associated with a specified device context and a specified device.
 
 </td>

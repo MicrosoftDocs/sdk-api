@@ -52,7 +52,7 @@ req.product: Internet Explorer 4.0
 ## -description
 
 
-Do not use. Structure passed to <a href="https://msdn.microsoft.com/en-us/library/ms629466(v=VS.85).aspx">Import</a> that gives information about importing .wab files.
+Do not use. Structure passed to <a href="https://msdn.microsoft.com/88676a07-8b03-4ed3-a5bb-a54a11b093c8">Import</a> that gives information about importing .wab files.
 
 
 ## -struct-fields
@@ -69,9 +69,9 @@ Value of type <b>ULONG</b> that specifies the size of the structure in bytes.
 
 ### -field lpAdrBook
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms629649(v=VS.85).aspx">IAddrBook</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/df614598-b9ac-462a-89e7-cda0a602c6cd">IAddrBook</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms629649(v=VS.85).aspx">IAddrBook</a> interface that specifies the address book object to import to.
+Pointer to an <a href="https://msdn.microsoft.com/df614598-b9ac-462a-89e7-cda0a602c6cd">IAddrBook</a> interface that specifies the address book object to import to.
 
 
 ### -field hWnd
@@ -89,7 +89,7 @@ Value of type <b>ULONG</b> that specifies flags affecting behavior.
 
 #### MAPI_DIALOG
 
-Causes <a href="https://msdn.microsoft.com/en-us/library/ms629466(v=VS.85).aspx">Import</a> to show a dialog box with a progress bar indicating the progress of the import process.
+Causes <a href="https://msdn.microsoft.com/88676a07-8b03-4ed3-a5bb-a54a11b093c8">Import</a> to show a dialog box with a progress bar indicating the progress of the import process.
 
 
 ### -field lpszFileName

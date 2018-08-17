@@ -173,7 +173,7 @@ This method can be used to copy strokes within a single <a href="https://msdn.mi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846797(v=VS.85).aspx">IInkDisp</a>
+<a href="tablet.iinkdisp">IInkDisp</a>
 
 
 

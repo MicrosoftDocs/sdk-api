@@ -53,7 +53,7 @@ req.irql:
 ## -description
 
 
-The <b>CM_Add_ID</b> function appends a specified <a href="https://msdn.microsoft.com/library/Ff541237(v=VS.85).aspx">device ID</a> (if not already present) to a <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device instance's</a> <a href="https://msdn.microsoft.com/library/Ff546152(v=VS.85).aspx">hardware ID</a> list or <a href="https://msdn.microsoft.com/library/Ff539950(v=VS.85).aspx">compatible ID</a> list.
+The <b>CM_Add_ID</b> function appends a specified <a href="devinst.device_ids">device ID</a> (if not already present) to a <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device instance's</a> <a href="devinst.hardware_ids">hardware ID</a> list or <a href="devinst.compatible_ids">compatible ID</a> list.
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: security\iazscope_opentask.htm
 old-project: secauthz
 ms.assetid: 8719ab1f-8004-4d5c-b64c-ae17c8d1ab30
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: AzScope object [Security],OpenTask method, IAzScope interface [Security],OpenTask method, IAzScope.OpenTask, IAzScope::OpenTask, OpenTask, OpenTask method [Security], OpenTask method [Security],AzScope object, OpenTask method [Security],IAzScope interface, azroles/IAzScope::OpenTask, security.iazscope_opentask
 ms.prod: windows
 ms.technology: windows-sdk

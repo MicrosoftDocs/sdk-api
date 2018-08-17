@@ -118,9 +118,9 @@ Returns S_OK if successful, otherwise an error value from the following list.
 
 
 
-A limited number of property keys can be set using <b>IUIFramework::SetUICommandProperty</b>. For those properties where <b>IUIFramework::SetUICommandProperty</b> returns <b>HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED)</b>, <a href="https://msdn.microsoft.com/en-us/library/Dd371375(v=VS.85).aspx">IUIFramework::InvalidateUICommand</a> should be used instead.
+A limited number of property keys can be set using <b>IUIFramework::SetUICommandProperty</b>. For those properties where <b>IUIFramework::SetUICommandProperty</b> returns <b>HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED)</b>, <a href="https://msdn.microsoft.com/6f6f6815-5523-42d9-a6b2-a21dd26756c0">IUIFramework::InvalidateUICommand</a> should be used instead.
 
-For more information on how to set a property key for a specific control, see the <a href="https://msdn.microsoft.com/en-us/library/Dd940497(v=VS.85).aspx">Windows Ribbon Framework Control Library</a> page for that control.
+For more information on how to set a property key for a specific control, see the <a href="https://msdn.microsoft.com/bda13e51-7e5f-4600-a6bd-9388bffd6ce2">Windows Ribbon Framework Control Library</a> page for that control.
 
 
 
@@ -130,11 +130,11 @@ For more information on how to set a property key for a specific control, see th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371467(v=VS.85).aspx">IUIFramework</a>
+<a href="https://msdn.microsoft.com/a9b8a30d-dd00-4088-a588-304fde97b84e">IUIFramework</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://msdn.microsoft.com/79d092c9-347b-4b8f-8ba4-a8f696ce6a85">Windows Ribbon Framework Samples</a>
  
 
  

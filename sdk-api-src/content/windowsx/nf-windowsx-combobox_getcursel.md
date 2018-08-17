@@ -52,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Gets the index of the currently selected item in a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775845(v=VS.85).aspx">CB_GETCURSEL</a> message explicitly.
+Gets the index of the currently selected item in a combo box. You can use this macro or send the <a href="https://msdn.microsoft.com/47bf87f6-637f-48e9-849e-b2acbe5a6a7b">CB_GETCURSEL</a> message explicitly.
 
 
 

@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
     unavailable in subsequent versions.]
 
 Creates 
-    a <a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">property value</a> and adds it to the 
+    a <a href="p_gly.htm">property value</a> and adds it to the 
     <a href="https://msdn.microsoft.com/18ae71ee-5582-4ac9-bb0f-f1c077c0352a">ClusPropertyValues</a> 
     collection.
 

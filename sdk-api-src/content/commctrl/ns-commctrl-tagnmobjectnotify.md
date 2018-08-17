@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Contains information used with the <a href="https://msdn.microsoft.com/en-us/library/Bb787272(v=VS.85).aspx">TBN_GETOBJECT</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb760565(v=VS.85).aspx">TCN_GETOBJECT</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb774554(v=VS.85).aspx">PSN_GETOBJECT</a> notification codes. 
+Contains information used with the <a href="https://msdn.microsoft.com/9fd8516d-fe2e-4f84-9035-e2246aba369a">TBN_GETOBJECT</a>, <a href="https://msdn.microsoft.com/0beddabe-0e97-4fe7-bcf7-adaba0d72dfe">TCN_GETOBJECT</a>, and <a href="https://msdn.microsoft.com/179ac47c-9b32-4682-866d-1a1fad85080c">PSN_GETOBJECT</a> notification codes. 
 
 
 ## -struct-fields
@@ -61,16 +61,16 @@ Contains information used with the <a href="https://msdn.microsoft.com/en-us/lib
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
-An <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about this notification. 
+An <a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains additional information about this notification. 
 
 
 ### -field iItem
 
 Type: <b>int</b>
 
-A control-specific item identifier. This value will comply to item identification standards for the control sending the notification. However, this member is not used with the <a href="https://msdn.microsoft.com/en-us/library/Bb774554(v=VS.85).aspx">PSN_GETOBJECT</a> notification code. 
+A control-specific item identifier. This value will comply to item identification standards for the control sending the notification. However, this member is not used with the <a href="https://msdn.microsoft.com/179ac47c-9b32-4682-866d-1a1fad85080c">PSN_GETOBJECT</a> notification code. 
 
 
 ### -field piid

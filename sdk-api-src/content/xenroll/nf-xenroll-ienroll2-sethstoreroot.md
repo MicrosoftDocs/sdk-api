@@ -4,10 +4,10 @@ title: IEnroll2::SetHStoreROOT
 author: windows-sdk-content
 description: The SetHStoreROOT method specifies the handle to use for the Root store. This method was first defined in the IEnroll2 interface.
 old-location: security\ienroll4_sethstoreroot.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: d41fabce-e0f8-4e82-b177-59a10af376ab
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: IEnroll2 interface [Security],SetHStoreROOT method, IEnroll2.SetHStoreROOT, IEnroll2::SetHStoreROOT, SetHStoreROOT, SetHStoreROOT method [Security], SetHStoreROOT method [Security],IEnroll2 interface, security.ienroll4_sethstoreroot, xenroll/IEnroll2::SetHStoreROOT
 ms.prod: windows
 ms.technology: windows-sdk

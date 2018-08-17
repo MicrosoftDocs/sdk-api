@@ -52,7 +52,7 @@ req.product: Windows UI
 ## -description
 
 
-Contains information about a <a href="https://msdn.microsoft.com/en-us/library/Dd371615(v=VS.85).aspx">Command</a> associated with a event.
+Contains information about a <a href="https://msdn.microsoft.com/f332423d-d258-488d-9233-71687288b462">Command</a> associated with a event.
 
 
 ## -struct-fields
@@ -62,29 +62,29 @@ Contains information about a <a href="https://msdn.microsoft.com/en-us/library/D
 
 ### -field CommandID
 
-The ID of the <a href="https://msdn.microsoft.com/en-us/library/Dd371615(v=VS.85).aspx">Command</a> directly related to the event, which is specified in the markup resource file.
+The ID of the <a href="https://msdn.microsoft.com/f332423d-d258-488d-9233-71687288b462">Command</a> directly related to the event, which is specified in the markup resource file.
 				
 
 
 ### -field CommandName
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd371615(v=VS.85).aspx">Command</a> name that is associated with <b>CommandId</b>.
+The <a href="https://msdn.microsoft.com/f332423d-d258-488d-9233-71687288b462">Command</a> name that is associated with <b>CommandId</b>.
 
 
 ### -field ParentCommandID
 
-The ID for the parent of the <a href="https://msdn.microsoft.com/en-us/library/Dd371615(v=VS.85).aspx">Command</a>, which is specified in the markup resource file.
+The ID for the parent of the <a href="https://msdn.microsoft.com/f332423d-d258-488d-9233-71687288b462">Command</a>, which is specified in the markup resource file.
 				
 
 
 ### -field ParentCommandName
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd371615(v=VS.85).aspx">Command</a> name  of the parent that is associated with <b>CommandId</b>.
+The <a href="https://msdn.microsoft.com/f332423d-d258-488d-9233-71687288b462">Command</a> name  of the parent that is associated with <b>CommandId</b>.
 
 
 ### -field SelectionIndex
 
-<b>SelectionIndex</b> is used only when a <a href="https://msdn.microsoft.com/424C833C-E6D6-4532-8CF1-A294B429CC21">UI_EVENTTYPE_CommandExecuted</a> has been fired in response to the user selecting an item within a <a href="https://msdn.microsoft.com/en-us/library/Dd371612(v=VS.85).aspx">ComboBox</a> or item gallery.  In those cases, <b>SelectionIndex</b> contains the index of the selected item.  In all other cases, it is set to 0.
+<b>SelectionIndex</b> is used only when a <a href="https://msdn.microsoft.com/424C833C-E6D6-4532-8CF1-A294B429CC21">UI_EVENTTYPE_CommandExecuted</a> has been fired in response to the user selecting an item within a <a href="https://msdn.microsoft.com/d796e26b-44c2-4e11-b1a5-2ede5bcff676">ComboBox</a> or item gallery.  In those cases, <b>SelectionIndex</b> contains the index of the selected item.  In all other cases, it is set to 0.
 
 
 
@@ -97,7 +97,7 @@ One of the values from <a href="https://msdn.microsoft.com/EA278262-8CA7-42A3-9F
 
 
 
- The Command identified by <b>CommandID</b> and <b>CommandName</b> depend upon which event has occurred:  for a <a href="https://msdn.microsoft.com/424C833C-E6D6-4532-8CF1-A294B429CC21">UI_EVENTTYPE_TabActivated</a> event, they identify the tab; for a <b>UI_EVENTTYPE_MenuOpened</b> event, they identify the menu; for <b>UI_EVENTTYPE_CommandExecuted</b> events, they identify the command being executed; and for <b>UI_EVENTTYPE_TooltipShown</b> events, they identify the <a href="https://msdn.microsoft.com/en-us/library/Dd371615(v=VS.85).aspx">Command</a> that owns that tooltip.
+ The Command identified by <b>CommandID</b> and <b>CommandName</b> depend upon which event has occurred:  for a <a href="https://msdn.microsoft.com/424C833C-E6D6-4532-8CF1-A294B429CC21">UI_EVENTTYPE_TabActivated</a> event, they identify the tab; for a <b>UI_EVENTTYPE_MenuOpened</b> event, they identify the menu; for <b>UI_EVENTTYPE_CommandExecuted</b> events, they identify the command being executed; and for <b>UI_EVENTTYPE_TooltipShown</b> events, they identify the <a href="https://msdn.microsoft.com/f332423d-d258-488d-9233-71687288b462">Command</a> that owns that tooltip.
 
 
 

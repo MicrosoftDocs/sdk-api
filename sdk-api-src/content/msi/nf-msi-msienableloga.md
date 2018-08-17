@@ -251,7 +251,7 @@ If this value is set, the installer appends the existing log specified by <i>szL
 </td>
 <td width="60%">
 Forces the log buffer to be flushed after each line. If this value is not set, the installer flushes the log buffer after 20 lines by calling 
-<a href="https://msdn.microsoft.com/en-us/library/Aa364439(v=VS.85).aspx">FlushFileBuffers</a>.
+<a href="base.flushfilebuffers">FlushFileBuffers</a>.
 
 </td>
 </tr>
@@ -313,7 +313,7 @@ The path to the log file location must already exist when using this function. T
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369426(v=VS.85).aspx">Interface and Logging Functions</a>
+<a href="installer_function_reference.htm">Interface and Logging Functions</a>
 
 
 

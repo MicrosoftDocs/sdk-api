@@ -189,7 +189,7 @@ The element is in the pressed state.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633513(v=VS.85).aspx">GetTitleBarInfo</a>
+<a href="https://msdn.microsoft.com/ddba40bf-cbe7-4b57-8e4b-98776a92c87a">GetTitleBarInfo</a>
 
 
 

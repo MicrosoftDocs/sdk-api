@@ -4,10 +4,10 @@ title: IColumnData
 author: windows-sdk-content
 description: The IColumnData interface is introduced in MMC 1.2.
 old-location: mmc\icolumndata.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: fb2b8863-c476-4997-915d-329cf66fd945
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/14/2018
 ms.keywords: IColumnData, IColumnData interface [MMC], IColumnData interface [MMC],described, _slate_icolumndata, mmc.icolumndata, mmc/IColumnData
 ms.prod: windows
 ms.technology: windows-sdk

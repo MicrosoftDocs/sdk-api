@@ -52,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Finds the first string in a combo box list that exactly matches the specified string, except that the search is not case sensitive. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775837(v=VS.85).aspx">CB_FINDSTRINGEXACT</a> message explicitly.
+Finds the first string in a combo box list that exactly matches the specified string, except that the search is not case sensitive. You can use this macro or send the <a href="https://msdn.microsoft.com/9065af9f-b18e-4fd5-a8cc-f780f8d0fb05">CB_FINDSTRINGEXACT</a> message explicitly.
 
 
 ## -parameters
@@ -85,7 +85,7 @@ The string to find.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775837(v=VS.85).aspx">CB_FINDSTRINGEXACT</a>.
+For more information, see <a href="https://msdn.microsoft.com/9065af9f-b18e-4fd5-a8cc-f780f8d0fb05">CB_FINDSTRINGEXACT</a>.
 	
 
 

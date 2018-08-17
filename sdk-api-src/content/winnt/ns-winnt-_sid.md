@@ -7,7 +7,7 @@ old-location: security\sid.htm
 old-project: secauthz
 ms.assetid: 328fba4e-e590-4174-9274-52dad58cb91f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: "*PISID, PSID, PSID structure pointer [Security], SID, SID structure [Security], _SID, _win32_sid_str, security.sid, winnt/PSID, winnt/SID"
 ms.prod: windows
 ms.technology: windows-sdk

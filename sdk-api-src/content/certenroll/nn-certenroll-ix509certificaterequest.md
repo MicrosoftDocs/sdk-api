@@ -55,13 +55,13 @@ The <b>IX509CertificateRequest</b> interface   represents an abstract base certi
 <li>
 A PKCS #10 certificate request implements the <b>IX509CertificateRequest</b> and <a href="https://msdn.microsoft.com/5b3764dc-fc63-45cc-8c35-65539c461e81">IX509CertificateRequestPkcs10</a> interfaces. 
 
-<img alt="Inheritance diagram for a PKCS #10 request object" src="./images/X509Inherit_RequestPkcs10.png"/>
+<img alt="Inheritance diagram for a PKCS #10 request object" src="images/X509Inherit_RequestPkcs10.png"/>
 
 </li>
 <li>
  PKCS #7 certificate request implements the <b>IX509CertificateRequest</b> and <a href="https://msdn.microsoft.com/ae869557-6523-4387-835e-c9631898d864">IX509CertificateRequestPkcs7</a> interfaces.
 
-<img alt="Inheritance diagram for a PKCS #7 request object" src="./images/X509Inherit_RequestPkcs7.png"/>
+<img alt="Inheritance diagram for a PKCS #7 request object" src="images/X509Inherit_RequestPkcs7.png"/>
 
 Although the PKCS #7 specification defines a secure message syntax rather than a type of certificate request, the implementation of the <a href="https://msdn.microsoft.com/ae869557-6523-4387-835e-c9631898d864">IX509CertificateRequestPkcs7</a> interface in this SDK requires that it contain a PKCS #10 request. Therefore, this documentation refers to a PKCS #7 object as a certificate request.
 
@@ -69,13 +69,13 @@ Although the PKCS #7 specification defines a secure message syntax rather than a
 <li>
 A CMC (Certificate Management Message over CMS) certificate request implements the <b>IX509CertificateRequest</b>, <a href="https://msdn.microsoft.com/ae869557-6523-4387-835e-c9631898d864">IX509CertificateRequestPkcs7</a>, and <a href="https://msdn.microsoft.com/77059388-c442-4db5-ab27-1db25e2f63b9">IX509CertificateRequestCmc</a> interfaces.
 
-<img alt="Inheritance diagram for a CMC request object" src="./images/X509Inherit_RequestCMC.png"/>
+<img alt="Inheritance diagram for a CMC request object" src="images/X509Inherit_RequestCMC.png"/>
 
 </li>
 <li>
 An object that can be used to represent a self-generated certificate (a certificate not issued by a certification authority) implements the <b>IX509CertificateRequest</b>, <a href="https://msdn.microsoft.com/5b3764dc-fc63-45cc-8c35-65539c461e81">IX509CertificateRequestPkcs10</a>, and <a href="https://msdn.microsoft.com/7197a225-b2dc-47bb-8843-d3fb4bf95811">IX509CertificateRequestCertificate</a> interfaces.
 
-<img alt="Inheritance diagram for a self-generated certificate" src="./images/X509Inherit_Requestcertificate.png"/>
+<img alt="Inheritance diagram for a self-generated certificate" src="images/X509Inherit_Requestcertificate.png"/>
 
 </li>
 </ul>
@@ -84,7 +84,7 @@ An object that can be used to represent a self-generated certificate (a certific
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509CertificateRequest</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IX509CertificateRequest</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509CertificateRequest</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IX509CertificateRequest</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -301,7 +301,7 @@ Specifies or retrieves a context string to display in the user interface.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

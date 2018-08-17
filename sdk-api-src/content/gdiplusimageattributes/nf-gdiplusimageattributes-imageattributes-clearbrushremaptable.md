@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>ImageAttributes::ClearBrushRemapTable</b> method clears the brush color-remap table of this <a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a> object.
+The <b>ImageAttributes::ClearBrushRemapTable</b> method clears the brush color-remap table of this <a href="https://msdn.microsoft.com/fbb107d2-b079-4916-89bb-d61fcd860894">ImageAttributes</a> object.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ The <b>ImageAttributes::ClearBrushRemapTable</b> method clears the brush color-r
 Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
 </strong>
 
-If the method succeeds, it returns <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Ok</a>, which is an element of the <b>Status</b> enumeration.
+If the method succeeds, it returns <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Ok</a>, which is an element of the <b>Status</b> enumeration.
 
 If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
@@ -80,20 +80,20 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-An <a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a> object maintains color and grayscale settings for five adjustment categories: default, bitmap, brush, pen, and text. For example, you can specify one color-remap table for the default category, a different color-remap table for the bitmap category, and still a different color-remap table for the brush category.
+An <a href="https://msdn.microsoft.com/fbb107d2-b079-4916-89bb-d61fcd860894">ImageAttributes</a> object maintains color and grayscale settings for five adjustment categories: default, bitmap, brush, pen, and text. For example, you can specify one color-remap table for the default category, a different color-remap table for the bitmap category, and still a different color-remap table for the brush category.
 
 The default color- and grayscale-adjustment settings apply to all categories that don't have adjustment settings of their own. For example, if you never specify any adjustment settings for the brush category, then the default settings apply to the brush category.
 
-As soon as you specify a color- or grayscale-adjustment setting for a certain category, the default adjustment settings no longer apply to that category. For example, suppose you specify a default remap table that converts red to green and you specify a default gamma value of 1.8. If you call <a href="https://msdn.microsoft.com/en-us/library/ms535428(v=VS.85).aspx">ImageAttributes::SetBrushRemapTable</a>, then the default remap table (red to green) and the default gamma value (1.8) will not apply to brushes. If you later call <b>ImageAttributes::ClearBrushRemapTable</b>, the brush category will not revert to the default remap table; rather, the brush category will have no remap table. Similarly, the brush category will not revert to the default gamma value; rather, the brush category will have no gamma value.
+As soon as you specify a color- or grayscale-adjustment setting for a certain category, the default adjustment settings no longer apply to that category. For example, suppose you specify a default remap table that converts red to green and you specify a default gamma value of 1.8. If you call <a href="https://msdn.microsoft.com/61418c05-1276-450a-bcef-702eb724c8fa">ImageAttributes::SetBrushRemapTable</a>, then the default remap table (red to green) and the default gamma value (1.8) will not apply to brushes. If you later call <b>ImageAttributes::ClearBrushRemapTable</b>, the brush category will not revert to the default remap table; rather, the brush category will have no remap table. Similarly, the brush category will not revert to the default gamma value; rather, the brush category will have no gamma value.
 
 
 #### Examples
 
 
 
-The following example creates an <a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object from a .emf file. The code also creates an <a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a> object. The call to <a href="https://msdn.microsoft.com/en-us/library/ms535436(v=VS.85).aspx">ImageAttributes::SetRemapTable</a> sets the default color-remap table of the <b>ImageAttributes</b> object to a table that converts red to blue. The call to <a href="https://msdn.microsoft.com/en-us/library/ms535428(v=VS.85).aspx">ImageAttributes::SetBrushRemapTable</a> sets the brush remap table of the <b>ImageAttributes</b> object to a table that converts red to green.
+The following example creates an <a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> object from a .emf file. The code also creates an <a href="https://msdn.microsoft.com/fbb107d2-b079-4916-89bb-d61fcd860894">ImageAttributes</a> object. The call to <a href="https://msdn.microsoft.com/87b63b0d-9071-4c7f-9ff6-14083092246a">ImageAttributes::SetRemapTable</a> sets the default color-remap table of the <b>ImageAttributes</b> object to a table that converts red to blue. The call to <a href="https://msdn.microsoft.com/61418c05-1276-450a-bcef-702eb724c8fa">ImageAttributes::SetBrushRemapTable</a> sets the brush remap table of the <b>ImageAttributes</b> object to a table that converts red to green.
 
-The code calls <a href="https://msdn.microsoft.com/en-us/library/ms536045(v=VS.85).aspx">DrawImage</a> once to draw the image with no color adjustment. Then the code calls <b>DrawImage</b> three more times, each time passing the address of the <a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object and the address of the <a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a> object. The second time the image is drawn (after the call to <a href="https://msdn.microsoft.com/en-us/library/ms535436(v=VS.85).aspx">ImageAttributes::SetRemapTable</a>), all of the red is converted to blue. The third time the image is drawn (after the call to <a href="https://msdn.microsoft.com/en-us/library/ms535428(v=VS.85).aspx">ImageAttributes::SetBrushRemapTable</a>), all of the red painted with a brush is converted to green, and the rest of the red is converted to blue. The fourth time the image is drawn (after the call to <b>ImageAttributes::ClearBrushRemapTable</b>), all the red painted with a brush remains unchanged, and the rest of the red is converted to blue.
+The code calls <a href="https://msdn.microsoft.com/d604d511-c8d7-4e3b-8d54-be06823dbd1f">DrawImage</a> once to draw the image with no color adjustment. Then the code calls <b>DrawImage</b> three more times, each time passing the address of the <a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a> object and the address of the <a href="https://msdn.microsoft.com/fbb107d2-b079-4916-89bb-d61fcd860894">ImageAttributes</a> object. The second time the image is drawn (after the call to <a href="https://msdn.microsoft.com/87b63b0d-9071-4c7f-9ff6-14083092246a">ImageAttributes::SetRemapTable</a>), all of the red is converted to blue. The third time the image is drawn (after the call to <a href="https://msdn.microsoft.com/61418c05-1276-450a-bcef-702eb724c8fa">ImageAttributes::SetBrushRemapTable</a>), all of the red painted with a brush is converted to green, and the rest of the red is converted to blue. The fourth time the image is drawn (after the call to <b>ImageAttributes::ClearBrushRemapTable</b>), all the red painted with a brush remains unchanged, and the rest of the red is converted to blue.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -166,9 +166,9 @@ VOID Example_SetClearBrushRemap(HDC hdc)
 </td>
 </tr>
 </table></span></div>
-The preceding code, along with a particular file, Testmetafile4.emf, produced the following output. The ellipses in the left column were drawn with a pen, and the ellipses in the right column were filled with a brush. Note that the default remap table applies to the ellipses drawn with a pen. The remap table that applies to the ellipses filled with a brush varies according to the <a href="https://msdn.microsoft.com/en-us/library/ms535428(v=VS.85).aspx">ImageAttributes::SetBrushRemapTable</a> and <b>ImageAttributes::ClearBrushRemapTable</b> calls.
+The preceding code, along with a particular file, Testmetafile4.emf, produced the following output. The ellipses in the left column were drawn with a pen, and the ellipses in the right column were filled with a brush. Note that the default remap table applies to the ellipses drawn with a pen. The remap table that applies to the ellipses filled with a brush varies according to the <a href="https://msdn.microsoft.com/61418c05-1276-450a-bcef-702eb724c8fa">ImageAttributes::SetBrushRemapTable</a> and <b>ImageAttributes::ClearBrushRemapTable</b> calls.
 
-<img alt="Illustration showing four empty ellipses; the first is red and the rest blue, then four filled ellipses: red, blue, green, and red" src="./images/imageattributesclearbrushremap.png"/>
+<img alt="Illustration showing four empty ellipses; the first is red and the rest blue, then four filled ellipses: red, blue, green, and red" src="images/imageattributesclearbrushremap.png"/>
 
 <div class="code"></div>
 
@@ -187,39 +187,39 @@ The preceding code, along with a particular file, Testmetafile4.emf, produced th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534089(v=VS.85).aspx">ColorAdjustType</a>
+<a href="https://msdn.microsoft.com/1bae1b30-2268-46e2-9cfa-2ee606180af6">ColorAdjustType</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534062(v=VS.85).aspx">ColorMap</a>
+<a href="https://msdn.microsoft.com/7ecc81c9-f0b6-4352-8dbc-fdb416c0ddc8">ColorMap</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a>
+<a href="https://msdn.microsoft.com/fbb107d2-b079-4916-89bb-d61fcd860894">ImageAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535422(v=VS.85).aspx">ImageAttributes::ClearRemapTable</a>
+<a href="https://msdn.microsoft.com/98bda1d3-f3c3-45e1-953b-8cd8733e7ba9">ImageAttributes::ClearRemapTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535428(v=VS.85).aspx">ImageAttributes::SetBrushRemapTable</a>
+<a href="https://msdn.microsoft.com/61418c05-1276-450a-bcef-702eb724c8fa">ImageAttributes::SetBrushRemapTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535436(v=VS.85).aspx">ImageAttributes::SetRemapTable</a>
+<a href="https://msdn.microsoft.com/87b63b0d-9071-4c7f-9ff6-14083092246a">ImageAttributes::SetRemapTable</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534477(v=VS.85).aspx">Metafile</a>
+<a href="https://msdn.microsoft.com/63b057de-9c4d-488e-ad07-ede52f9175a6">Metafile</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533809(v=VS.85).aspx">Recoloring</a>
+<a href="https://msdn.microsoft.com/7e018c5a-7933-43b6-b7b3-ee9daea16eb9">Recoloring</a>
  
 
  

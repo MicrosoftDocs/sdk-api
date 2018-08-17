@@ -4,10 +4,10 @@ title: "_CRYPT_XML_OBJECT"
 author: windows-sdk-content
 description: Describes an Object element in the signature.
 old-location: security\crypt_xml_object.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: b151efb2-8801-451a-83ec-e9045c2e0b81
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: "*PCRYPT_XML_OBJECT, CRYPT_XML_OBJECT, CRYPT_XML_OBJECT structure [Security], PCRYPT_XML_OBJECT, PCRYPT_XML_OBJECT structure pointer [Security], _CRYPT_XML_OBJECT, cryptxml/CRYPT_XML_OBJECT, cryptxml/PCRYPT_XML_OBJECT, security.crypt_xml_object"
 ms.prod: windows
 ms.technology: windows-sdk

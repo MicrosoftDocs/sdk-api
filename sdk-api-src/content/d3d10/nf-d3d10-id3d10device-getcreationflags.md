@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_getcreationflags.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_getcreationflags.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 4822c55e-f89a-b10d-ccba-aa989735a00f, GetCreationFlags, GetCreationFlags method [Direct3D 10], GetCreationFlags method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GetCreationFlags method, ID3D10Device.GetCreationFlags, ID3D10Device::GetCreationFlags, d3d10/ID3D10Device::GetCreationFlags, direct3d10.id3d10device_getcreationflags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-Get the flags used during the call to create the device with <a href="https://msdn.microsoft.com/en-us/library/Bb205086(v=VS.85).aspx">D3D10CreateDevice</a>.
+Get the flags used during the call to create the device with <a href="https://msdn.microsoft.com/da48d6d4-f35b-4cd1-a358-8eec63dfa674">D3D10CreateDevice</a>.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ Get the flags used during the call to create the device with <a href="https://ms
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-A bitfield containing the flags used to create the device. See <a href="https://msdn.microsoft.com/en-us/library/Bb204909(v=VS.85).aspx">D3D10_CREATE_DEVICE_FLAG</a>.
+A bitfield containing the flags used to create the device. See <a href="https://msdn.microsoft.com/4926d630-9748-4416-9af0-287cb06b86f0">D3D10_CREATE_DEVICE_FLAG</a>.
 
 
 
@@ -78,7 +78,7 @@ A bitfield containing the flags used to create the device. See <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
  
 
  

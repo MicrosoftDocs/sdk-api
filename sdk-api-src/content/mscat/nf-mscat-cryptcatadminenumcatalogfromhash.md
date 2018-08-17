@@ -4,10 +4,10 @@ title: CryptCATAdminEnumCatalogFromHash function
 author: windows-sdk-content
 description: Enumerates the catalogs that contain a specified hash.
 old-location: security\cryptcatadminenumcatalogfromhash.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 33ab2d01-94ab-4d23-a054-9da0731485d6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: CryptCATAdminEnumCatalogFromHash, CryptCATAdminEnumCatalogFromHash function [Security], mscat/CryptCATAdminEnumCatalogFromHash, security.cryptcatadminenumcatalogfromhash
 ms.prod: windows
 ms.technology: windows-sdk

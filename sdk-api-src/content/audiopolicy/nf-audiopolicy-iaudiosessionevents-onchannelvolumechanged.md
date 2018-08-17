@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessionevents_onchannelvolumechanged.htm
 old-project: CoreAudio
 ms.assetid: cdd3ec9b-cf72-4c2e-b874-60370d41447d
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/14/2018
 ms.keywords: IAudioSessionEvents interface [Core Audio],OnChannelVolumeChanged method, IAudioSessionEvents.OnChannelVolumeChanged, IAudioSessionEvents::OnChannelVolumeChanged, IAudioSessionEventsOnChannelVolumeChanged, OnChannelVolumeChanged, OnChannelVolumeChanged method [Core Audio], OnChannelVolumeChanged method [Core Audio],IAudioSessionEvents interface, audiopolicy/IAudioSessionEvents::OnChannelVolumeChanged, coreaudio.iaudiosessionevents_onchannelvolumechanged
 ms.prod: windows
 ms.technology: windows-sdk

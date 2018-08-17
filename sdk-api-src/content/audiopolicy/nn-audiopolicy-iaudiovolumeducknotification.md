@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiovolumeducknotification.htm
 old-project: CoreAudio
 ms.assetid: 08e90a50-a6ac-4405-ba90-a862b78efaf8
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/14/2018
 ms.keywords: IAudioVolumeDuckNotification, IAudioVolumeDuckNotification interface [Core Audio], IAudioVolumeDuckNotification interface [Core Audio],described, audiopolicy/ IAudioVolumeDuckNotification, coreaudio.iaudiovolumeducknotification
 ms.prod: windows
 ms.technology: windows-sdk

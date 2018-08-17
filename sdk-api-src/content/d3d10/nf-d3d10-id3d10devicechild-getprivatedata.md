@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10devicechild_getprivatedata.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10devicechild_getprivatedata.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 1156e7b1-1ba9-fab9-ab1a-7695c94278e9, GetPrivateData, GetPrivateData method [Direct3D 10], GetPrivateData method [Direct3D 10],ID3D10DeviceChild interface, ID3D10DeviceChild interface [Direct3D 10],GetPrivateData method, ID3D10DeviceChild.GetPrivateData, ID3D10DeviceChild::GetPrivateData, d3d10/ID3D10DeviceChild::GetPrivateData, direct3d10.id3d10devicechild_getprivatedata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,9 +85,9 @@ Pointer to the data stored with the device child. If pData is <b>NULL</b>, DataS
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+This method returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -96,7 +96,7 @@ This method returns one of the following <a href="https://msdn.microsoft.com/en-
 
 
 
-The data stored in the device child is set with <a href="https://msdn.microsoft.com/en-us/library/Bb173532(v=VS.85).aspx">ID3D10DeviceChild::SetPrivateData</a>.
+The data stored in the device child is set with <a href="https://msdn.microsoft.com/9eea3492-1f4f-49ea-88c8-064583ec6910">ID3D10DeviceChild::SetPrivateData</a>.
 
 
 
@@ -106,7 +106,7 @@ The data stored in the device child is set with <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173529(v=VS.85).aspx">ID3D10DeviceChild Interface</a>
+<a href="https://msdn.microsoft.com/64eff938-e130-48be-a45f-43f6c885b588">ID3D10DeviceChild Interface</a>
  
 
  

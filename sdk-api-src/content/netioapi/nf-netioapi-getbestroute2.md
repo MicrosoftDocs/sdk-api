@@ -7,7 +7,7 @@ old-location: iphlp\getbestroute2.htm
 old-project: iphlp
 ms.assetid: 7bc16824-c98f-4cd5-a589-e198b48b637c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: GetBestRoute2, GetBestRoute2 function [IP Helper], iphlp.getbestroute2, netioapi/GetBestRoute2
 ms.prod: windows
 ms.technology: windows-sdk

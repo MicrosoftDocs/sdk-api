@@ -4,10 +4,10 @@ title: Document::CreateProperties
 author: windows-sdk-content
 description: The CreateProperties method makes a new Properties collection for the document.
 old-location: mmc\document_createproperties.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: b1f742b9-aae4-4d63-880c-7c3c310442f5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/14/2018
 ms.keywords: CreateProperties, CreateProperties method [MMC], CreateProperties method [MMC],Document interface, CreateProperties method [MMC],Document object, Document interface [MMC],CreateProperties method, Document object [MMC],CreateProperties method, Document.CreateProperties, Document::CreateProperties, _slate_document.createproperties_method, mmc.document_createproperties
 ms.prod: windows
 ms.technology: windows-sdk

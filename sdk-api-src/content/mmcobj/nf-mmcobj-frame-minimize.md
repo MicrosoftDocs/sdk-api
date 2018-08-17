@@ -4,10 +4,10 @@ title: Frame::Minimize
 author: windows-sdk-content
 description: The Minimize method causes the frame to be minimized (reduced to an icon).
 old-location: mmc\frame_minimize.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: f5b0bae8-79ea-463a-9a9c-9a4ace53aab3
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/14/2018
 ms.keywords: Frame interface [MMC],Minimize method, Frame object [MMC],Minimize method, Frame.Minimize, Frame::Minimize, Minimize, Minimize method [MMC], Minimize method [MMC],Frame interface, Minimize method [MMC],Frame object, _slate_frame.minimize_method, mmc.frame_minimize
 ms.prod: windows
 ms.technology: windows-sdk

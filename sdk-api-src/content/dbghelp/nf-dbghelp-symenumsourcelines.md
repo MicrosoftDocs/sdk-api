@@ -7,7 +7,7 @@ old-location: base\symenumsourcelines.htm
 old-project: debug
 ms.assetid: 395dd97b-4d0b-4f55-80af-38fc748c924a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: SymEnumSourceLines, SymEnumSourceLines function, SymEnumSourceLinesW, base.symenumsourcelines, dbghelp/SymEnumSourceLines, dbghelp/SymEnumSourceLinesW
 ms.prod: windows
 ms.technology: windows-sdk

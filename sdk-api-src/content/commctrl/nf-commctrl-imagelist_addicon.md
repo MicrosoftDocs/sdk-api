@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Adds an icon or cursor to an image list. <b>ImageList_AddIcon</b> calls the <a href="https://msdn.microsoft.com/en-us/library/Bb775215(v=VS.85).aspx">ImageList_ReplaceIcon</a> function. 
+Adds an icon or cursor to an image list. <b>ImageList_AddIcon</b> calls the <a href="https://msdn.microsoft.com/7fa467f3-73fb-4d01-bfce-bc0a8bc90883">ImageList_ReplaceIcon</a> function. 
 
 
 ## -parameters
@@ -78,7 +78,7 @@ A handle to the icon or cursor that contains the bitmap and mask for the new ima
 
 
 Because the system does not save 
-				<i>hicon</i>, you can destroy it after the macro returns if the icon or cursor was created by the <a href="https://msdn.microsoft.com/en-us/library/ms648059(v=VS.85).aspx">CreateIcon</a> function. You do not need to destroy <i>hicon</i> if it was loaded by the <a href="https://msdn.microsoft.com/en-us/library/ms648072(v=VS.85).aspx">LoadIcon</a> function; the system automatically frees an icon resource when it is no longer needed. 
+				<i>hicon</i>, you can destroy it after the macro returns if the icon or cursor was created by the <a href="https://msdn.microsoft.com/73497232-fb99-4b9c-9ccb-575a9a6ece56">CreateIcon</a> function. You do not need to destroy <i>hicon</i> if it was loaded by the <a href="https://msdn.microsoft.com/3a8099f8-9db7-4ef8-838f-ca8f272df531">LoadIcon</a> function; the system automatically frees an icon resource when it is no longer needed. 
 
 The <b>ImageList_AddIcon</b> macro is defined as follows: 
 

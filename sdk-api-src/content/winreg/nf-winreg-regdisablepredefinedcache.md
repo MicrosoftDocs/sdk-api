@@ -4,10 +4,10 @@ title: RegDisablePredefinedCache function
 author: windows-sdk-content
 description: Disables handle caching of the predefined registry handle for HKEY_CURRENT_USER for the current process.
 old-location: base\regdisablepredefinedcache.htm
-old-project: SysInfo
+old-project: sysinfo
 ms.assetid: 837584b3-5f61-4535-9e66-56f50ab3fa46
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/10/2018
 ms.keywords: RegDisablePredefinedCache, RegDisablePredefinedCache function, _win32_regdisablepredefinedcache, base.regdisablepredefinedcache, winreg/RegDisablePredefinedCache
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,7 @@ If the function fails, the return value is a
 
 
 Any access of <b>HKEY_CURRENT_USER</b> after this function is called will result in operations being performed on <b>HKEY_USERS</b>\<b>SID_of_current_user</b>,  or on <b>HKEY_USERS\.DEFAULT</b> if the current user's hive is not loaded. For more information on SIDs, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379571(v=VS.85).aspx">Security Identifiers</a>.
+<a href="security.security_identifiers_sids_">Security Identifiers</a>.
 
 
 

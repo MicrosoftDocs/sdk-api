@@ -53,7 +53,7 @@ req.product: Windows UI
 ## -description
 
 
-Returns the <a href="https://msdn.microsoft.com/en-us/library/Aa384664(v=VS.85).aspx">PrepareForBackup</a> failure message string that a writer has set for a given component.
+Returns the <a href="vssgloss_p.htm">PrepareForBackup</a> failure message string that a writer has set for a given component.
 
 Both writers and requesters can call this method.
 
@@ -66,7 +66,7 @@ Both writers and requesters can call this method.
 ### -param pbstrFailureMsg [out]
 
 A pointer to a null-terminated wide character string containing the failure message that describes an error that occurred 
-      while processing a <a href="https://msdn.microsoft.com/en-us/library/Aa384664(v=VS.85).aspx">PrepareForBackup</a> 
+      while processing a <a href="vssgloss_p.htm">PrepareForBackup</a> 
       event.
 
 
@@ -99,7 +99,7 @@ The failure message was successfully obtained.
 </dl>
 </td>
 <td width="60%">
-No <a href="https://msdn.microsoft.com/en-us/library/Aa384664(v=VS.85).aspx">PrepareForBackup</a> failure message was set for the component.
+No <a href="vssgloss_p.htm">PrepareForBackup</a> failure message was set for the component.
 
 </td>
 </tr>
@@ -135,7 +135,7 @@ The caller is out of memory or other system resources.
 
 
 
-The caller is responsible for freeing the string that  the <i>pbstrFailureMsg</i> parameter points to by calling the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
+The caller is responsible for freeing the string that  the <i>pbstrFailureMsg</i> parameter points to by calling the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function.
 
 
 #### Examples

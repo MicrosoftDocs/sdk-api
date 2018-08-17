@@ -4,10 +4,10 @@ title: CryptCATAdminCalcHashFromFileHandle2 function
 author: windows-sdk-content
 description: Calculates the hash for a file by using the specified algorithm.
 old-location: security\cryptcatadmincalchashfromfilehandle2.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: CBFA60A8-5E5A-4FAD-8AD3-26539802CD53
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: CryptCATAdminCalcHashFromFileHandle2, CryptCATAdminCalcHashFromFileHandle2 function [Security], mscat/CryptCATAdminCalcHashFromFileHandle2, security.cryptcatadmincalchashfromfilehandle2
 ms.prod: windows
 ms.technology: windows-sdk

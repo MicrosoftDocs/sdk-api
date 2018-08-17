@@ -67,7 +67,7 @@ An install request header that contains the size of the header and the DIF code 
 
 ### -field DetectProgressNotify
 
-A callback routine that displays a progress bar for the device detection operation. The callback routine is supplied by the <a href="https://msdn.microsoft.com/library/Ff728855(v=VS.85).aspx">device installation component</a> that sends the <a href="https://msdn.microsoft.com/866a99fc-f48e-447d-b5eb-6339dc98d3f2">DIF_DETECT</a> request. The callback has the following prototype:
+A callback routine that displays a progress bar for the device detection operation. The callback routine is supplied by the <a href="devinst.device_installation_components">device installation component</a> that sends the <a href="https://msdn.microsoft.com/866a99fc-f48e-447d-b5eb-6339dc98d3f2">DIF_DETECT</a> request. The callback has the following prototype:
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -82,7 +82,7 @@ A callback routine that displays a progress bar for the device detection operati
 </td>
 </tr>
 </table></span></div>
-<i>ProgressNotifyParam</i> is an opaque "handle" that identifies the detection operation. This value is supplied by the <a href="https://msdn.microsoft.com/library/Ff728855(v=VS.85).aspx">device installation component</a> that sent the DIF_DETECT request. 
+<i>ProgressNotifyParam</i> is an opaque "handle" that identifies the detection operation. This value is supplied by the <a href="devinst.device_installation_components">device installation component</a> that sent the DIF_DETECT request. 
 
 <i>DetectComplete</i> is a value between 0 and 100 that indicates the percent completion. The class installer increments this value at various stages of its detection activities, to notify the user of its progress.
 

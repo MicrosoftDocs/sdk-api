@@ -71,7 +71,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846807(v=VS.85).aspx">IInkTablets</a>
+<a href="tablet.iinktablets">IInkTablets</a>
 
 
 

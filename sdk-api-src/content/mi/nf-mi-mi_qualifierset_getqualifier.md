@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_qualifierset_getqualifier.htm
 old-project: wmi_v2
 ms.assetid: 16dde421-3746-4722-9f08-56835b7603fb
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/13/2018
 ms.keywords: MI_QualifierSet_GetQualifier, MI_QualifierSet_GetQualifier function [Windows Management Infrastructure (MI)], mi/MI_QualifierSet_GetQualifier, wmi_v2.mi_qualifierset_getqualifier
 ms.prod: windows
 ms.technology: windows-sdk

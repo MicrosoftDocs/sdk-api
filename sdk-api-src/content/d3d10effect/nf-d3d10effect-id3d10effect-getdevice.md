@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effect_getdevice.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effect_getdevice.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 92eb984e-62b3-6a6f-ab2b-93b561a93fc3, GetDevice, GetDevice method [Direct3D 10], GetDevice method [Direct3D 10],ID3D10Effect interface, ID3D10Effect interface [Direct3D 10],GetDevice method, ID3D10Effect.GetDevice, ID3D10Effect::GetDevice, d3d10effect/ID3D10Effect::GetDevice, direct3d10.id3d10effect_getdevice
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,18 +61,18 @@ Get the device that created the effect.
 
 ### -param ppDevice [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device</a>**</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>.
+A pointer to an <a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -81,7 +81,7 @@ Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/B
 
 
 
-An effect is created for a specific device, by calling a function such as <a href="https://msdn.microsoft.com/en-us/library/Bb172658(v=VS.85).aspx">D3DX10CreateEffectFromFile</a>.
+An effect is created for a specific device, by calling a function such as <a href="https://msdn.microsoft.com/1418857e-bda1-4ffb-bbb9-dfa3709313b1">D3DX10CreateEffectFromFile</a>.
 
 
 
@@ -91,7 +91,7 @@ An effect is created for a specific device, by calling a function such as <a hre
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173630(v=VS.85).aspx">ID3D10Effect Interface</a>
+<a href="https://msdn.microsoft.com/3525d559-11e4-4c38-acfe-5dc560264c31">ID3D10Effect Interface</a>
  
 
  

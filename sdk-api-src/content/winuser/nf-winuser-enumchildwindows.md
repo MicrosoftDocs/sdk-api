@@ -74,7 +74,7 @@ Enumerates the child windows that belong to the specified parent window by passi
 
 Type: <b>HWND</b>
 
-A handle to the parent window whose child windows are to be enumerated. If this parameter is <b>NULL</b>, this function is equivalent to <a href="https://msdn.microsoft.com/en-us/library/ms633497(v=VS.85).aspx">EnumWindows</a>.
+A handle to the parent window whose child windows are to be enumerated. If this parameter is <b>NULL</b>, this function is equivalent to <a href="https://msdn.microsoft.com/c4a063ea-a12f-49fe-8654-987e175452a8">EnumWindows</a>.
 
 					
 				
@@ -84,7 +84,7 @@ A handle to the parent window whose child windows are to be enumerated. If this 
 
 Type: <b>WNDENUMPROC</b>
 
-A pointer to an application-defined callback function. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms633493(v=VS.85).aspx">EnumChildProc</a>. 
+A pointer to an application-defined callback function. For more information, see <a href="https://msdn.microsoft.com/295e8d52-4790-498b-a9f3-cbb7fe31df38">EnumChildProc</a>. 
 
 
 ### -param lParam [in]
@@ -126,19 +126,19 @@ A child window that is moved or repositioned in the Z order during the enumerati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633493(v=VS.85).aspx">EnumChildProc</a>
+<a href="https://msdn.microsoft.com/295e8d52-4790-498b-a9f3-cbb7fe31df38">EnumChildProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633495(v=VS.85).aspx">EnumThreadWindows</a>
+<a href="https://msdn.microsoft.com/483058b8-8b15-4102-b192-bf2183fc8b79">EnumThreadWindows</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633497(v=VS.85).aspx">EnumWindows</a>
+<a href="https://msdn.microsoft.com/c4a063ea-a12f-49fe-8654-987e175452a8">EnumWindows</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633515(v=VS.85).aspx">GetWindow</a>
+<a href="https://msdn.microsoft.com/837f8d99-abc5-4c7c-a363-3d178e71aea2">GetWindow</a>
 
 
 

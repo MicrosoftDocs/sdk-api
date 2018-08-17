@@ -85,7 +85,7 @@ The coordinates of the client area.
 
 Type: <b>DWORD</b>
 
-The window styles. For a table of window styles, see <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">Window Styles</a>. 
+The window styles. For a table of window styles, see <a href="https://msdn.microsoft.com/bfc146f1-bebd-4e68-a29e-a73ff3e8f35b">Window Styles</a>. 
 
 
 ### -field dwExStyle
@@ -120,7 +120,7 @@ The height of the window border, in pixels.
 
 Type: <b>ATOM</b>
 
-The window class atom (see <a href="https://msdn.microsoft.com/en-us/library/ms633586(v=VS.85).aspx">RegisterClass</a>). 
+The window class atom (see <a href="https://msdn.microsoft.com/485115e5-b4ec-4e93-89ce-eee229ccabb7">RegisterClass</a>). 
 
 
 ### -field wCreatorVersion
@@ -139,11 +139,11 @@ The Windows version of the application that created the window.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632680(v=VS.85).aspx">CreateWindowEx</a>
+<a href="https://msdn.microsoft.com/33deeb92-6285-4c67-9338-ca2e194b9915">CreateWindowEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633516(v=VS.85).aspx">GetWindowInfo</a>
+<a href="https://msdn.microsoft.com/d810757c-4bee-42b9-9a83-1ca73c77c6cf">GetWindowInfo</a>
 
 
 
@@ -151,7 +151,7 @@ The Windows version of the application that created the window.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633586(v=VS.85).aspx">RegisterClass</a>
+<a href="https://msdn.microsoft.com/485115e5-b4ec-4e93-89ce-eee229ccabb7">RegisterClass</a>
 
 
 

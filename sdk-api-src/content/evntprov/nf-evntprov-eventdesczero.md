@@ -4,10 +4,10 @@ title: EventDescZero function
 author: windows-sdk-content
 description: Initializes an event descriptor to zero.
 old-location: etw\eventdesczero.htm
-old-project: ETW
+old-project: etw
 ms.assetid: c52c5f6b-c7ab-47c2-8bce-55323bae7917
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/08/2018
 ms.keywords: EventDescZero, EventDescZero function [ETW], base.eventdesczero, etw.eventdesczero, evntprov/EventDescZero
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: base\setthreadpoolcallbacklibrary.htm
 old-project: procthread
 ms.assetid: 41d5d8c5-4938-4274-bcfa-b122bbc70530
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: SetThreadpoolCallbackLibrary, SetThreadpoolCallbackLibrary function, base.setthreadpoolcallbacklibrary, winbase/SetThreadpoolCallbackLibrary
 ms.prod: windows
 ms.technology: windows-sdk

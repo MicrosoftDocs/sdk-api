@@ -4,10 +4,10 @@ title: CryptUIWizImport function
 author: windows-sdk-content
 description: Imports a certificate, a certificate trust list (CTL), a certificate revocation list (CRL), or a certificate store to a certificate store.
 old-location: security\cryptuiwizimport.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 6b2b9c89-229a-4626-a8b4-fe2b7cc0af86
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: CRYPTUI_WIZ_IGNORE_NO_UI_FLAG_FOR_CSPS, CRYPTUI_WIZ_IMPORT_ALLOW_CERT, CRYPTUI_WIZ_IMPORT_ALLOW_CRL, CRYPTUI_WIZ_IMPORT_ALLOW_CTL, CRYPTUI_WIZ_IMPORT_NO_CHANGE_DEST_STORE, CRYPTUI_WIZ_IMPORT_REMOTE_DEST_STORE, CRYPTUI_WIZ_IMPORT_TO_CURRENTUSER, CRYPTUI_WIZ_IMPORT_TO_LOCALMACHINE, CRYPTUI_WIZ_NO_UI, CRYPTUI_WIZ_NO_UI_EXCEPT_CSP, CryptUIWizImport, CryptUIWizImport function [Security], cryptuiapi/CryptUIWizImport, security.cryptuiwizimport
 ms.prod: windows
 ms.technology: windows-sdk

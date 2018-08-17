@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
     unavailable in subsequent versions.]
 
 Adds a node to a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource's</a>
-<a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">possible owners</a> list.
+<a href="p_gly.htm">possible owners</a> list.
 
 
 ## -parameters

@@ -120,7 +120,7 @@ The user can manage all fax messages in the outgoing archive.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689131(v=VS.85).aspx">IFaxSecurity::get_GrantedRights</a>
+<a href="https://msdn.microsoft.com/329c4bd1-6b92-4dbf-aaf9-2e8c89192fd6">IFaxSecurity::get_GrantedRights</a>
  
 
  

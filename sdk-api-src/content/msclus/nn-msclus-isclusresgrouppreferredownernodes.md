@@ -59,7 +59,7 @@ req.product: GDI+ 1.1
     unavailable in subsequent versions.]
 
 Provides access to the <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">nodes</a> that belong to the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">preferred owner</a> list for a 
+    <a href="p_gly.htm">preferred owner</a> list for a 
     <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a>.
 
 

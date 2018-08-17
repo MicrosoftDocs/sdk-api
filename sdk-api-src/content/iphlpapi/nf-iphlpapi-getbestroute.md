@@ -7,7 +7,7 @@ old-location: iphlp\getbestroute.htm
 old-project: iphlp
 ms.assetid: 5e507d14-f603-467d-9c37-bb048658d0b1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: GetBestRoute, GetBestRoute function [IP Helper], _iphlp_getbestroute, iphlp.getbestroute, iphlpapi/GetBestRoute
 ms.prod: windows
 ms.technology: windows-sdk

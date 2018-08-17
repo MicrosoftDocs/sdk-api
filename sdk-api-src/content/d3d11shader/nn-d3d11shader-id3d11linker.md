@@ -77,7 +77,7 @@ The <b>ID3D11Linker</b> interface has these methods.
 <a href="https://msdn.microsoft.com/0E7820F1-8F4E-43B2-A8DD-560BC2B5BC3D">AddClipPlaneFromCBuffer</a>
 </td>
 <td align="left" width="63%">
-Adds a <a href="https://msdn.microsoft.com/C51FB0E5-94C3-4E7F-AC33-E5F0F26EDC11">clip plane</a> with the plane coefficients taken from a <a href="https://msdn.microsoft.com/en-us/library/Bb509581(v=VS.85).aspx">cbuffer</a> entry for 10Level9 shaders.
+Adds a <a href="https://msdn.microsoft.com/C51FB0E5-94C3-4E7F-AC33-E5F0F26EDC11">clip plane</a> with the plane coefficients taken from a <a href="https://msdn.microsoft.com/89fe874a-8009-4901-bebe-2d9e45f894bb">cbuffer</a> entry for 10Level9 shaders.
 
 </td>
 </tr>

@@ -63,9 +63,9 @@ Adds a new search root to the search engine.
 
 ### -param pSearchRoot [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb266469(v=VS.85).aspx">ISearchRoot</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/1df814f4-2403-4a78-bb7d-0e1d98da7265">ISearchRoot</a>*</b>
 
-An <a href="https://msdn.microsoft.com/en-us/library/Bb266469(v=VS.85).aspx">ISearchRoot</a> describing the new search root to add.
+An <a href="https://msdn.microsoft.com/1df814f4-2403-4a78-bb7d-0e1d98da7265">ISearchRoot</a> describing the new search root to add.
                 
 
 

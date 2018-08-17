@@ -7,7 +7,7 @@ old-location: security\deleteace.htm
 old-project: secauthz
 ms.assetid: 02ce45ad-3d51-4548-848e-a62bf4bf72a8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: DeleteAce, DeleteAce function [Security], _win32_deleteace, security.deleteace, securitybaseapi/DeleteAce
 ms.prod: windows
 ms.technology: windows-sdk
@@ -139,7 +139,7 @@ An application can use the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Low-level Access Control Functions</a>
+<a href="authorization_functions.htm">Low-level Access Control Functions</a>
  
 
  

@@ -63,7 +63,7 @@ The <b>SetupDiGetDriverInstallParams</b> function retrieves driver installation 
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains a driver information element that represents the driver for which to retrieve installation parameters.
+A handle to a <a href="devinst.device_information_sets">device information set</a> that contains a driver information element that represents the driver for which to retrieve installation parameters.
 
 
 ### -param DeviceInfoData [in, optional]

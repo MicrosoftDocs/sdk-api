@@ -101,7 +101,7 @@ If the method fails, it returns one of the other elements of the
 
 
 
-Depending on the format of the bitmap, <b>Bitmap::GetPixel</b> might not return the same value as was set by <a href="https://msdn.microsoft.com/en-us/library/ms536299(v=VS.85).aspx">Bitmap::SetPixel</a>. For example, if you call <b>Bitmap::SetPixel</b> on a 
+Depending on the format of the bitmap, <b>Bitmap::GetPixel</b> might not return the same value as was set by <a href="https://msdn.microsoft.com/2f5baa4b-f16b-4802-a07a-bd94b7b35c89">Bitmap::SetPixel</a>. For example, if you call <b>Bitmap::SetPixel</b> on a 
 				<a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a> object whose pixel format is 32bppPARGB, the pixel's RGB components are premultiplied. A subsequent call to <b>Bitmap::GetPixel</b> might return a different value because of rounding. Also, if you call <b>Bitmap::SetPixel</b> on a 
 				<b>Bitmap</b> object whose color depth is 16 bits per pixel, information could be lost during the conversion from 32 to 16 bits, and a subsequent call to <b>Bitmap::GetPixel</b> might return a different value.
 
@@ -151,11 +151,11 @@ The following example creates a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536298(v=VS.85).aspx">Bitmap::LockBits</a>
+<a href="https://msdn.microsoft.com/f67a53d1-62bb-4e68-aef2-c3282de1ef40">Bitmap::LockBits</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536299(v=VS.85).aspx">Bitmap::SetPixel</a>
+<a href="https://msdn.microsoft.com/2f5baa4b-f16b-4802-a07a-bd94b7b35c89">Bitmap::SetPixel</a>
 
 
 
@@ -163,15 +163,15 @@ The following example creates a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a>
+<a href="https://msdn.microsoft.com/3732095d-c812-4ce5-80f1-9b191b4ff01c">Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536335(v=VS.85).aspx">Images, Bitmaps, and Metafiles</a>
+<a href="https://msdn.microsoft.com/ddde257c-41a6-4f6e-8d81-10d66c60085c">Images, Bitmaps, and Metafiles</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533815(v=VS.85).aspx">Using Images, Bitmaps, and Metafiles</a>
+<a href="https://msdn.microsoft.com/57e3bf33-5490-4f4a-addf-356ef8f1aeed">Using Images, Bitmaps, and Metafiles</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_operationoptions_settimeout.htm
 old-project: wmi_v2
 ms.assetid: 73b640a4-db78-4cd2-af77-12317899d398
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/13/2018
 ms.keywords: MI_OperationOptions_SetTimeout, MI_OperationOptions_SetTimeout function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_SetTimeout, wmi_v2.mi_operationoptions_settimeout
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,7 +87,7 @@ This timeout can be set in the destination options by calling the <a href="https
 
 If the client is asking for progress, and the provider is reporting progress, the timeout interval will be restarted after each progress report.  For enumerations/subscribe/association, the interval is the maximum length before objects are delivered before it times out (subject to the progress comment).
 
-If a client performs an operation (such as an invoke) on a <a href="https://msdn.microsoft.com/en-us/library/JJ819811(v=VS.85).aspx">CIM</a> session over Windows Remote Management, the operation can take longer than the operation timeout value if the target server is unreachable (for example, because of server outage, network outage, or an unexpected firewall exception). This excessive wait time occurs because the operation may be divided into suboperations for fetching schema information from the server, and the client continues continues the operation even if one or more of the schema fetch suboperations has been blocked by an unreachable server.
+If a client performs an operation (such as an invoke) on a <a href="gloss_c.htm">CIM</a> session over Windows Remote Management, the operation can take longer than the operation timeout value if the target server is unreachable (for example, because of server outage, network outage, or an unexpected firewall exception). This excessive wait time occurs because the operation may be divided into suboperations for fetching schema information from the server, and the client continues continues the operation even if one or more of the schema fetch suboperations has been blocked by an unreachable server.
 
 To mitigate this issue and get the client to report the results without an excessive wait time, try one or both of these steps:
 

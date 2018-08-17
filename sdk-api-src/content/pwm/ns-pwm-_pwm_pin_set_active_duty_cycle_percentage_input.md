@@ -72,7 +72,7 @@ The desired PWM signal duty cycle, as a PWM_PERCENTAGE, which is a ULONGLONG val
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt843918(v=VS.85).aspx">IOCTL_PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE</a>
+<a href="base.ioctl_ioctl_pwm_pin_set_active_duty_cycle_percentage">IOCTL_PWM_PIN_SET_ACTIVE_DUTY_CYCLE_PERCENTAGE</a>
  
 
  

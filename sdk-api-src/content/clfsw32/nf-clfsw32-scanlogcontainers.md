@@ -125,14 +125,7 @@ Cannot be used if <b>CLFS_SCAN_FORWARD</b> is specified.
  
 
 
-### -param OPTIONAL
-
-TBD
-
-
-
-
-#### - pReserved [in, out, optional]
+### -param pReserved [in, out, optional]
 
 Reserved.  Set <i>pReserved</i> to <b>NULL</b>. 
 

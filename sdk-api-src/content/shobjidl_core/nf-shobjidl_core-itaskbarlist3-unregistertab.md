@@ -82,7 +82,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise. If <i>hwndTab</i
 
 
 
-It is the responsibility of the calling application to free <i>hwndTab</i> through <a href="https://msdn.microsoft.com/en-us/library/ms632682(v=VS.85).aspx">DestroyWindow</a>. <b>UnregisterTab</b> must be called before the handle is freed.
+It is the responsibility of the calling application to free <i>hwndTab</i> through <a href="https://msdn.microsoft.com/054fa847-7d6e-4c73-bf8c-b75203713b3e">DestroyWindow</a>. <b>UnregisterTab</b> must be called before the handle is freed.
 
 
 

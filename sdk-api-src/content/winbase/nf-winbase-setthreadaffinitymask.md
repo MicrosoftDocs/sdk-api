@@ -7,7 +7,7 @@ old-location: base\setthreadaffinitymask.htm
 old-project: procthread
 ms.assetid: 3390930d-026f-4f86-97bc-1da34bb384ba
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: SetThreadAffinityMask, SetThreadAffinityMask function, _win32_setthreadaffinitymask, base.setthreadaffinitymask, winbase/SetThreadAffinityMask
 ms.prod: windows
 ms.technology: windows-sdk

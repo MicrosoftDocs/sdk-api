@@ -83,7 +83,7 @@ A handle to the window whose property list receives the new entry.
 
 Type: <b>LPCTSTR</b>
 
-A null-terminated string or an atom that identifies a string. If this parameter is an atom, it must be a global atom created by a previous call to the <a href="https://msdn.microsoft.com/en-us/library/ms649060(v=VS.85).aspx">GlobalAddAtom</a> function. The atom must be placed in the low-order word of <i>lpString</i>; the high-order word must be zero. 
+A null-terminated string or an atom that identifies a string. If this parameter is an atom, it must be a global atom created by a previous call to the <a href="https://msdn.microsoft.com/890c8c69-5a8e-42be-9eaf-84f9ccaa7e3d">GlobalAddAtom</a> function. The atom must be placed in the low-order word of <i>lpString</i>; the high-order word must be zero. 
 
 
 ### -param hData [in, optional]
@@ -111,14 +111,14 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-Before a window is destroyed (that is, before it returns from processing the <a href="https://msdn.microsoft.com/en-us/library/ms632636(v=VS.85).aspx">WM_NCDESTROY</a> message), an application must remove all entries it has added to the property list. The application must use the <a href="https://msdn.microsoft.com/en-us/library/ms633567(v=VS.85).aspx">RemoveProp</a> function to remove the entries. 
+Before a window is destroyed (that is, before it returns from processing the <a href="https://msdn.microsoft.com/64ab268d-0e90-4401-81d3-a4da64196001">WM_NCDESTROY</a> message), an application must remove all entries it has added to the property list. The application must use the <a href="https://msdn.microsoft.com/02852980-a2fd-47c6-82f3-fccc135e8fb2">RemoveProp</a> function to remove the entries. 
 
 <b>SetProp</b> is subject to the restrictions of User Interface Privilege Isolation (UIPI). A process can only call this function on a window belonging to a process of lesser or equal integrity level. When UIPI blocks property changes, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a> will return 5.
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms633561(v=VS.85).aspx">Adding a Window Property</a>.
+For an example, see <a href="using_window_properties.htm">Adding a Window Property</a>.
 
 <div class="code"></div>
 
@@ -133,7 +133,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms633561(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649060(v=VS.85).aspx">GlobalAddAtom</a>
+<a href="https://msdn.microsoft.com/890c8c69-5a8e-42be-9eaf-84f9ccaa7e3d">GlobalAddAtom</a>
 
 
 
@@ -141,15 +141,15 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms633561(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633567(v=VS.85).aspx">RemoveProp</a>
+<a href="https://msdn.microsoft.com/02852980-a2fd-47c6-82f3-fccc135e8fb2">RemoveProp</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632636(v=VS.85).aspx">WM_NCDESTROY</a>
+<a href="https://msdn.microsoft.com/64ab268d-0e90-4401-81d3-a4da64196001">WM_NCDESTROY</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632594(v=VS.85).aspx">Window Properties</a>
+<a href="https://msdn.microsoft.com/c39902d3-5907-4aa9-b839-d2d67d273990">Window Properties</a>
  
 
  

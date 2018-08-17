@@ -52,7 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534471(v=VS.85).aspx">Levels</a> object. 
+Creates a <a href="https://msdn.microsoft.com/0256fa03-f029-472e-988a-9eb7ed117673">Levels</a> object. 
 
 
 ## -parameters
@@ -67,15 +67,15 @@ Creates a <a href="https://msdn.microsoft.com/en-us/library/ms534471(v=VS.85).as
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534471(v=VS.85).aspx">Levels</a>
+<a href="https://msdn.microsoft.com/0256fa03-f029-472e-988a-9eb7ed117673">Levels</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535361(v=VS.85).aspx">Levels::SetParameters</a>
+<a href="https://msdn.microsoft.com/928f88d3-1fc0-49a5-b286-794c157d10aa">Levels::SetParameters</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534070(v=VS.85).aspx">LevelsParams</a>
+<a href="https://msdn.microsoft.com/84f6009b-ac6c-42e5-b151-9189e09c053d">LevelsParams</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioobjectrenderstream_stop.htm
 old-project: CoreAudio
 ms.assetid: 6ECD17AB-C37D-4F4E-9D7F-EC48FC3B838C
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/14/2018
 ms.keywords: ISpatialAudioObjectRenderStreamBase interface [Core Audio],Stop method, ISpatialAudioObjectRenderStreamBase.Stop, ISpatialAudioObjectRenderStreamBase::Stop, Stop, Stop method [Core Audio], Stop method [Core Audio],ISpatialAudioObjectRenderStreamBase interface, coreaudio.ispatialaudioobjectrenderstream_stop, spatialaudioclient/ISpatialAudioObjectRenderStreamBase::Stop
 ms.prod: windows
 ms.technology: windows-sdk

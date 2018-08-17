@@ -4,10 +4,10 @@ title: RegConnectRegistryA function
 author: windows-sdk-content
 description: Establishes a connection to a predefined registry key on another computer.
 old-location: base\regconnectregistry.htm
-old-project: SysInfo
+old-project: sysinfo
 ms.assetid: d7fb41cc-4855-4ad7-879c-b1ac85ac5803
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/10/2018
 ms.keywords: RegConnectRegistry, RegConnectRegistry function, RegConnectRegistryA, RegConnectRegistryW, _win32_regconnectregistry, base.regconnectregistry, winreg/RegConnectRegistry, winreg/RegConnectRegistryA, winreg/RegConnectRegistryW
 ms.prod: windows
 ms.technology: windows-sdk

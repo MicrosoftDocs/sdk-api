@@ -65,29 +65,24 @@ Sets the transaction information for the specified transaction.
 A handle to the transaction. The handle must have the TRANSACTION_SET_INFORMATION permission to set the transaction information.
 
 
-### -param OPTIONAL
+### -param IsolationLevel [in, optional]
 
-TBD
+Reserved; specify zero.
+
+
+### -param IsolationFlags [in, optional]
+
+Reserved.
+
+
+### -param Timeout [in, optional]
+
+The timeout value, in milliseconds, for this transaction.
 
 
 ### -param Description [in, optional]
 
 The user-defined description of this transaction.
-
-
-#### - IsolationFlags [in, optional]
-
-Reserved.
-
-
-#### - IsolationLevel [in, optional]
-
-Reserved; specify zero.
-
-
-#### - Timeout [in, optional]
-
-The timeout value, in milliseconds, for this transaction.
 
 
 ## -returns

@@ -4,10 +4,10 @@ title: IConsole::QueryResultImageList
 author: windows-sdk-content
 description: Retrieves the console-provided result-view image list. This image list should be used only if the snap-in is using the default list view.
 old-location: mmc\iconsole_queryresultimagelist.htm
-old-project: MMC
+old-project: mmc
 ms.assetid: 86F2A9ED-4023-4425-8C0A-7593660C623C
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/14/2018
 ms.keywords: IConsole interface [MMC],QueryResultImageList method, IConsole.QueryResultImageList, IConsole::QueryResultImageList, QueryResultImageList, QueryResultImageList method [MMC], QueryResultImageList method [MMC],IConsole interface, mmc.iconsole_queryresultimagelist, mmc/IConsole::QueryResultImageList
 ms.prod: windows
 ms.technology: windows-sdk

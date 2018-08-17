@@ -4,10 +4,10 @@ title: "_CERT_X942_DH_VALIDATION_PARAMS"
 author: windows-sdk-content
 description: Optionally pointed to by a member of the CERT_X942_DH_PARAMETERS structure and contains additional seed information.
 old-location: security\cert_x942_dh_validation_params.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 26c367d5-c338-4db3-9973-ce21dcddf7ca
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: "*PCERT_X942_DH_VALIDATION_PARAMS, CERT_942_DH_VALIDATION_PARAMS, CERT_942_DH_VALIDATION_PARAMS structure [Security], CERT_X942_DH_VALIDATION_PARAMS, CERT_X942_DH_VALIDATION_PARAMS structure [Security], PCERT942_DH_VALIDATION_PARAMS, PCERT942_DH_VALIDATION_PARAMS structure pointer [Security], _CERT_X942_DH_VALIDATION_PARAMS, _crypto2_cert_x942_dh_validation_params, security.cert_x942_dh_validation_params, wincrypt/CERT_X942_DH_VALIDATION_PARAMS, wincrypt/PCERT942_DH_VALIDATION_PARAMS"
 ms.prod: windows
 ms.technology: windows-sdk

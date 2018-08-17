@@ -52,12 +52,12 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-Text Object Model (TOM) rich text-range attributes are accessed through a pair of dual interfaces, <a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a> and <b>ITextPara</b>.
+Text Object Model (TOM) rich text-range attributes are accessed through a pair of dual interfaces, <a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a> and <b>ITextPara</b>.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextPara</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITextPara</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextPara</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITextPara</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>ITextPara</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787728(v=VS.85).aspx">AddTab</a>
+<a href="https://msdn.microsoft.com/e53d8988-6c0f-405f-b9da-04c83ff0ff64">AddTab</a>
 </td>
 <td align="left" width="63%">
 Adds a tab at the displacement 
@@ -84,7 +84,7 @@ Adds a tab at the displacement
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787842(v=VS.85).aspx">CanChange</a>
+<a href="https://msdn.microsoft.com/80f4a5f7-819b-435c-942b-155c1e4c1477">CanChange</a>
 </td>
 <td align="left" width="63%">
 Determines whether the paragraph formatting can be changed. 
@@ -93,7 +93,7 @@ Determines whether the paragraph formatting can be changed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787738(v=VS.85).aspx">ClearAllTabs</a>
+<a href="https://msdn.microsoft.com/61899b21-a883-440d-bb2c-0c65b6ae48c0">ClearAllTabs</a>
 </td>
 <td align="left" width="63%">
 Clears all tabs, reverting to equally spaced tabs with the default tab spacing. 
@@ -102,7 +102,7 @@ Clears all tabs, reverting to equally spaced tabs with the default tab spacing.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787748(v=VS.85).aspx">DeleteTab</a>
+<a href="https://msdn.microsoft.com/82950caa-4fbc-4f80-aae4-91feecccef65">DeleteTab</a>
 </td>
 <td align="left" width="63%">
 Deletes a tab at a specified displacement. 
@@ -111,7 +111,7 @@ Deletes a tab at a specified displacement.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb773927(v=VS.85).aspx">GetAlignment</a>
+<a href="https://msdn.microsoft.com/d97c5efb-3007-40f5-b4f5-30a3505e01aa">GetAlignment</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current paragraph alignment value.
@@ -120,7 +120,7 @@ Retrieves the current paragraph alignment value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787843(v=VS.85).aspx">GetDuplicate</a>
+<a href="https://msdn.microsoft.com/683bfbe3-9f8f-4b33-a2de-f9cba437e3ff">GetDuplicate</a>
 </td>
 <td align="left" width="63%">
 Creates a duplicate of the specified paragraph format object. The duplicate property is the default property of an <b>ITextPara</b> object.
@@ -129,7 +129,7 @@ Creates a duplicate of the specified paragraph format object. The duplicate prop
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb773951(v=VS.85).aspx">GetFirstLineIndent</a>
+<a href="https://msdn.microsoft.com/82831ef0-7ece-4d85-96f5-aa3c4591e458">GetFirstLineIndent</a>
 </td>
 <td align="left" width="63%">
 Retrieves the amount used to indent the first line of a paragraph relative to the left indent. The left indent is the indent for all lines of the paragraph except the first line.
@@ -138,7 +138,7 @@ Retrieves the amount used to indent the first line of a paragraph relative to th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb773962(v=VS.85).aspx">GetHyphenation</a>
+<a href="https://msdn.microsoft.com/e7064f54-5c3a-46b2-8d9c-f9dbe037f04c">GetHyphenation</a>
 </td>
 <td align="left" width="63%">
 Determines whether automatic hyphenation is enabled for the range.
@@ -147,7 +147,7 @@ Determines whether automatic hyphenation is enabled for the range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb773968(v=VS.85).aspx">GetKeepTogether</a>
+<a href="https://msdn.microsoft.com/bcbf89da-e853-4c1d-a13c-812d5905ad77">GetKeepTogether</a>
 </td>
 <td align="left" width="63%">
 Determines whether page breaks are allowed within paragraphs.
@@ -156,7 +156,7 @@ Determines whether page breaks are allowed within paragraphs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb773971(v=VS.85).aspx">GetKeepWithNext</a>
+<a href="https://msdn.microsoft.com/e6c90681-2691-4bfb-8a6b-c1d92f276a61">GetKeepWithNext</a>
 </td>
 <td align="left" width="63%">
 Determines whether page breaks are allowed between paragraphs in the range.
@@ -165,7 +165,7 @@ Determines whether page breaks are allowed between paragraphs in the range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb773977(v=VS.85).aspx">GetLeftIndent</a>
+<a href="https://msdn.microsoft.com/032f4068-ae5d-4b4e-ae7e-8a093d348d7f">GetLeftIndent</a>
 </td>
 <td align="left" width="63%">
 Retrieves the distance used to indent all lines except the first line of a paragraph. The distance is relative to the left margin.
@@ -174,7 +174,7 @@ Retrieves the distance used to indent all lines except the first line of a parag
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb773979(v=VS.85).aspx">GetLineSpacing</a>
+<a href="https://msdn.microsoft.com/b9d3ad53-3d64-4260-b4cf-41038e652ba8">GetLineSpacing</a>
 </td>
 <td align="left" width="63%">
 Retrieves the line-spacing value for the text range.
@@ -183,7 +183,7 @@ Retrieves the line-spacing value for the text range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb773981(v=VS.85).aspx">GetLineSpacingRule</a>
+<a href="https://msdn.microsoft.com/65a1b836-4f90-4b9b-8adc-68ace163df6a">GetLineSpacingRule</a>
 </td>
 <td align="left" width="63%">
 Retrieves the line-spacing rule for the text range.
@@ -192,7 +192,7 @@ Retrieves the line-spacing rule for the text range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb773983(v=VS.85).aspx">GetListAlignment</a>
+<a href="https://msdn.microsoft.com/bc6785be-4e05-48fb-97ae-6f3e3518db9f">GetListAlignment</a>
 </td>
 <td align="left" width="63%">
 Retrieves the kind of alignment to use for bulleted and numbered lists. 
@@ -201,7 +201,7 @@ Retrieves the kind of alignment to use for bulleted and numbered lists.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb773985(v=VS.85).aspx">GetListLevelIndex</a>
+<a href="https://msdn.microsoft.com/37ea25ee-a41b-42d4-99c4-d316f596c040">GetListLevelIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves the list level index used with paragraphs.
@@ -210,7 +210,7 @@ Retrieves the list level index used with paragraphs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb773987(v=VS.85).aspx">GetListStart</a>
+<a href="https://msdn.microsoft.com/e797f494-bc34-4529-a773-22d1ebfe1250">GetListStart</a>
 </td>
 <td align="left" width="63%">
 Retrieves the starting value or code of a list numbering sequence. 
@@ -219,7 +219,7 @@ Retrieves the starting value or code of a list numbering sequence.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb773989(v=VS.85).aspx">GetListTab</a>
+<a href="https://msdn.microsoft.com/1fb072d7-6311-4a44-b1e1-ec6ee9ba654d">GetListTab</a>
 </td>
 <td align="left" width="63%">
 Retrieves the list tab setting, which is the distance between the first-line indent and the text on the first line. The numbered or bulleted text is left-justified, centered, or right-justified at the first-line indent value. 
@@ -228,7 +228,7 @@ Retrieves the list tab setting, which is the distance between the first-line ind
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb773991(v=VS.85).aspx">GetListType</a>
+<a href="https://msdn.microsoft.com/df2b0821-9216-465a-b066-60807a0b3e0f">GetListType</a>
 </td>
 <td align="left" width="63%">
 Retrieves the kind of numbering to use with paragraphs. 
@@ -237,7 +237,7 @@ Retrieves the kind of numbering to use with paragraphs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb773993(v=VS.85).aspx">GetNoLineNumber</a>
+<a href="https://msdn.microsoft.com/81a22c2f-a83e-4f0e-a4aa-4df7ed860ee9">GetNoLineNumber</a>
 </td>
 <td align="left" width="63%">
 Determines whether paragraph numbering is enabled.
@@ -246,7 +246,7 @@ Determines whether paragraph numbering is enabled.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb773997(v=VS.85).aspx">GetPageBreakBefore</a>
+<a href="https://msdn.microsoft.com/f61e6f65-4709-439a-8e2a-5acc49ca7ab4">GetPageBreakBefore</a>
 </td>
 <td align="left" width="63%">
 Determines whether each paragraph in the range must begin on a new page.
@@ -255,7 +255,7 @@ Determines whether each paragraph in the range must begin on a new page.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774009(v=VS.85).aspx">GetRightIndent</a>
+<a href="https://msdn.microsoft.com/62db02a9-8fa1-48c8-91ee-71ad0e8e1e8c">GetRightIndent</a>
 </td>
 <td align="left" width="63%">
 Retrieves the size of the right margin indent of a paragraph. 
@@ -264,7 +264,7 @@ Retrieves the size of the right margin indent of a paragraph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774021(v=VS.85).aspx">GetSpaceAfter</a>
+<a href="https://msdn.microsoft.com/affdb197-f8c5-46b1-a2b4-f21776e362b3">GetSpaceAfter</a>
 </td>
 <td align="left" width="63%">
 Retrieves the amount of vertical space below a paragraph. 
@@ -273,7 +273,7 @@ Retrieves the amount of vertical space below a paragraph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774023(v=VS.85).aspx">GetSpaceBefore</a>
+<a href="https://msdn.microsoft.com/86c453b5-e839-42d6-9ef8-d2c1c0f54af3">GetSpaceBefore</a>
 </td>
 <td align="left" width="63%">
 Retrieves the amount of vertical space above a paragraph. 
@@ -282,7 +282,7 @@ Retrieves the amount of vertical space above a paragraph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787845(v=VS.85).aspx">GetStyle</a>
+<a href="https://msdn.microsoft.com/fe85a591-6254-46a2-8f06-8079f0a602c1">GetStyle</a>
 </td>
 <td align="left" width="63%">
 Retrieves the style handle to the paragraphs in the specified range.
@@ -291,7 +291,7 @@ Retrieves the style handle to the paragraphs in the specified range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774034(v=VS.85).aspx">GetTab</a>
+<a href="https://msdn.microsoft.com/78e1c637-c2ae-4919-8e2f-8e8b89743ac4">GetTab</a>
 </td>
 <td align="left" width="63%">
 Retrieves tab parameters (displacement, alignment, and leader style) for a specified tab. 
@@ -300,7 +300,7 @@ Retrieves tab parameters (displacement, alignment, and leader style) for a speci
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774035(v=VS.85).aspx">GetTabCount</a>
+<a href="https://msdn.microsoft.com/4440ce51-f504-4489-851f-08895b23a22b">GetTabCount</a>
 </td>
 <td align="left" width="63%">
 Retrieves the tab count. 
@@ -309,7 +309,7 @@ Retrieves the tab count.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774042(v=VS.85).aspx">GetWidowControl</a>
+<a href="https://msdn.microsoft.com/195530bb-2e51-4a1f-9e85-21b9db1b7fe6">GetWidowControl</a>
 </td>
 <td align="left" width="63%">
 Retrieves the widow and orphan control state for the paragraphs in a range.
@@ -336,7 +336,7 @@ Resets the paragraph formatting to a choice of default values.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774123(v=VS.85).aspx">SetAlignment</a>
+<a href="https://msdn.microsoft.com/7d4dbd7e-8164-4005-bcd2-36ddf5fbf9a9">SetAlignment</a>
 </td>
 <td align="left" width="63%">
 Sets the paragraph alignment. 
@@ -345,7 +345,7 @@ Sets the paragraph alignment.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787851(v=VS.85).aspx">SetDuplicate</a>
+<a href="https://msdn.microsoft.com/054e3a0b-6a73-4830-b382-ea4f520bab03">SetDuplicate</a>
 </td>
 <td align="left" width="63%">
 Sets the formatting for an existing paragraph by copying a given format. 
@@ -354,7 +354,7 @@ Sets the formatting for an existing paragraph by copying a given format.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774153(v=VS.85).aspx">SetHyphenation</a>
+<a href="https://msdn.microsoft.com/b0d8c426-bc6d-4175-ba56-68a9bb31bd46">SetHyphenation</a>
 </td>
 <td align="left" width="63%">
 Controls hyphenation for the paragraphs in the range.
@@ -363,7 +363,7 @@ Controls hyphenation for the paragraphs in the range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774155(v=VS.85).aspx">SetIndents</a>
+<a href="https://msdn.microsoft.com/84584a22-7e0f-431a-9c7b-f7f574459948">SetIndents</a>
 </td>
 <td align="left" width="63%">
 Sets the first-line indent, the left indent, and the right indent for a paragraph. 
@@ -372,7 +372,7 @@ Sets the first-line indent, the left indent, and the right indent for a paragrap
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774161(v=VS.85).aspx">SetKeepTogether</a>
+<a href="https://msdn.microsoft.com/c4a5f0cc-b87a-4209-8614-20adc3f3002a">SetKeepTogether</a>
 </td>
 <td align="left" width="63%">
 Controls whether page breaks are allowed within a paragraph in a range. 
@@ -381,7 +381,7 @@ Controls whether page breaks are allowed within a paragraph in a range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774163(v=VS.85).aspx">SetKeepWithNext</a>
+<a href="https://msdn.microsoft.com/cc90c377-bae6-4aa8-8bb8-26dc9c915bae">SetKeepWithNext</a>
 </td>
 <td align="left" width="63%">
 Controls whether page breaks are allowed between the paragraphs in a range.
@@ -390,7 +390,7 @@ Controls whether page breaks are allowed between the paragraphs in a range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774169(v=VS.85).aspx">SetLineSpacing</a>
+<a href="https://msdn.microsoft.com/36ef5af4-90dd-4185-92c9-5c4e88bf5ec2">SetLineSpacing</a>
 </td>
 <td align="left" width="63%">
 Sets the paragraph line-spacing rule and the line spacing for a paragraph.
@@ -399,7 +399,7 @@ Sets the paragraph line-spacing rule and the line spacing for a paragraph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774171(v=VS.85).aspx">SetListAlignment</a>
+<a href="https://msdn.microsoft.com/5fabc8f6-da0f-470c-96a2-9cd0638d3269">SetListAlignment</a>
 </td>
 <td align="left" width="63%">
 Sets the alignment of bulleted or numbered text used for paragraphs. 
@@ -408,7 +408,7 @@ Sets the alignment of bulleted or numbered text used for paragraphs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774173(v=VS.85).aspx">SetListLevelIndex</a>
+<a href="https://msdn.microsoft.com/60f88971-e671-4f65-aeba-1774f732d4a9">SetListLevelIndex</a>
 </td>
 <td align="left" width="63%">
 Sets the list level index used for paragraphs. 
@@ -417,7 +417,7 @@ Sets the list level index used for paragraphs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774175(v=VS.85).aspx">SetListStart</a>
+<a href="https://msdn.microsoft.com/1ba2346a-b56a-4eda-a6f9-0563e71c9cbd">SetListStart</a>
 </td>
 <td align="left" width="63%">
 Sets the starting number or Unicode value for a numbered list.
@@ -426,7 +426,7 @@ Sets the starting number or Unicode value for a numbered list.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774177(v=VS.85).aspx">SetListTab</a>
+<a href="https://msdn.microsoft.com/21966279-d84f-4f1a-9e90-5e0e79b14c7e">SetListTab</a>
 </td>
 <td align="left" width="63%">
 Sets the list tab setting, which is the distance between the first indent and the start of the text on the first line. 
@@ -435,7 +435,7 @@ Sets the list tab setting, which is the distance between the first indent and th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787786(v=VS.85).aspx">SetListType</a>
+<a href="https://msdn.microsoft.com/5f9adb67-e4d6-41c9-b360-efbcead7befc">SetListType</a>
 </td>
 <td align="left" width="63%">
 Sets the type of list to be used for paragraphs. 
@@ -444,7 +444,7 @@ Sets the type of list to be used for paragraphs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787790(v=VS.85).aspx">SetNoLineNumber</a>
+<a href="https://msdn.microsoft.com/d4c8d079-f832-4030-98eb-4a07cb7a8f05">SetNoLineNumber</a>
 </td>
 <td align="left" width="63%">
 Determines whether to suppress line numbering of paragraphs in a range.
@@ -453,7 +453,7 @@ Determines whether to suppress line numbering of paragraphs in a range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787795(v=VS.85).aspx">SetPageBreakBefore</a>
+<a href="https://msdn.microsoft.com/6f94aba1-62df-4714-ab50-a86fc679f407">SetPageBreakBefore</a>
 </td>
 <td align="left" width="63%">
 Controls whether there is a page break before each paragraph in a range.
@@ -462,7 +462,7 @@ Controls whether there is a page break before each paragraph in a range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787807(v=VS.85).aspx">SetRightIndent</a>
+<a href="https://msdn.microsoft.com/46537c8b-1500-4416-b0a6-3c54dd3ea236">SetRightIndent</a>
 </td>
 <td align="left" width="63%">
 Sets the right margin of paragraph.
@@ -471,7 +471,7 @@ Sets the right margin of paragraph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787817(v=VS.85).aspx">SetSpaceAfter</a>
+<a href="https://msdn.microsoft.com/3e4fb12e-a7ac-4776-be66-ad5e4fdf9370">SetSpaceAfter</a>
 </td>
 <td align="left" width="63%">
 Sets the amount of space that follows a paragraph.
@@ -480,7 +480,7 @@ Sets the amount of space that follows a paragraph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787820(v=VS.85).aspx">SetSpaceBefore</a>
+<a href="https://msdn.microsoft.com/003aa8d2-f80e-4925-8e25-dcb3ea6d95cf">SetSpaceBefore</a>
 </td>
 <td align="left" width="63%">
 Sets the amount of space preceding a paragraph.
@@ -489,7 +489,7 @@ Sets the amount of space preceding a paragraph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787853(v=VS.85).aspx">SetStyle</a>
+<a href="https://msdn.microsoft.com/939e58d5-4bd8-4139-9e10-71b4850705f0">SetStyle</a>
 </td>
 <td align="left" width="63%">
 Sets the paragraph style for the paragraphs in a range. 
@@ -498,7 +498,7 @@ Sets the paragraph style for the paragraphs in a range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787834(v=VS.85).aspx">SetWidowControl</a>
+<a href="https://msdn.microsoft.com/87bc1ef8-2422-4a4a-af15-f28aace74f34">SetWidowControl</a>
 </td>
 <td align="left" width="63%">
 Controls the suppression of widows and orphans.
@@ -512,7 +512,7 @@ Controls the suppression of widows and orphans.
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a> and <b>ITextPara</b> interfaces encapsulate the functionality of the Microsoft Word Format <b>Font</b> and <b>Paragraph</b> dialog boxes, respectively. Both interfaces include a duplicate (<b>Value</b>) property that can return a duplicate of the attributes in a range object or transfer a set of attributes to a range. As such, they act like programmable format painters. For example, you could transfer all attributes from range r1 to range r2 except for making r2 bold and the font size 12 points by using the following subroutine.
+The <a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a> and <b>ITextPara</b> interfaces encapsulate the functionality of the Microsoft Word Format <b>Font</b> and <b>Paragraph</b> dialog boxes, respectively. Both interfaces include a duplicate (<b>Value</b>) property that can return a duplicate of the attributes in a range object or transfer a set of attributes to a range. As such, they act like programmable format painters. For example, you could transfer all attributes from range r1 to range r2 except for making r2 bold and the font size 12 points by using the following subroutine.
 
 <div class="code"><span codelanguage=""><table>
 <tr>
@@ -531,7 +531,7 @@ End Sub</pre>
 </td>
 </tr>
 </table></span></div>
-See <a href="https://msdn.microsoft.com/en-us/library/Bb774145(v=VS.85).aspx">SetFont</a> for a similar example written in C++.
+See <a href="https://msdn.microsoft.com/15630fec-83b2-4169-b141-8ce253dd25fe">SetFont</a> for a similar example written in C++.
 
 The <b>ITextPara</b> interface encapsulates the Word Paragraph dialog box. All measurements are given in floating-point points. The rich edit control is able to accept and return all <b>ITextPara</b> properties intact (that is, without modification), both through TOM and through its Rich Text Format (RTF) converters. However, the following properties have no effect on what the control displays:
 
@@ -559,15 +559,15 @@ The <b>ITextPara</b> interface encapsulates the Word Paragraph dialog box. All m
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787726(v=VS.85).aspx">Using The Text Object Model</a>
+<a href="https://msdn.microsoft.com/5d9ab4fa-e9a0-4031-bbaa-311aff912eba">Using The Text Object Model</a>
  
 
  

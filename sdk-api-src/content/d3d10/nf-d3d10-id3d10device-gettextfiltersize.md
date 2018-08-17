@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_gettextfiltersize.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_gettextfiltersize.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: 17c84de7-9714-f15b-6e79-288beb4a3193, GetTextFilterSize, GetTextFilterSize method [Direct3D 10], GetTextFilterSize method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GetTextFilterSize method, ID3D10Device.GetTextFilterSize, ID3D10Device::GetTextFilterSize, d3d10/ID3D10Device::GetTextFilterSize, direct3d10.id3d10device_gettextfiltersize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,7 +109,7 @@ This method is not implemented, and should not be used.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
  
 
  

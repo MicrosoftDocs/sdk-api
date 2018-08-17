@@ -7,7 +7,7 @@ old-location: security\accesscheckbytyperesultlistandauditalarm.htm
 old-project: secauthz
 ms.assetid: 4b53a15a-5a6b-40c7-acf8-26b1f4bca4ae
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: AccessCheckByTypeResultListAndAuditAlarm, AccessCheckByTypeResultListAndAuditAlarm function [Security], AccessCheckByTypeResultListAndAuditAlarmA, AccessCheckByTypeResultListAndAuditAlarmW, _win32_accesscheckbytyperesultlistandauditalarm, security.accesscheckbytyperesultlistandauditalarm, securitybaseapi/AccessCheckByTypeResultListAndAuditAlarm, securitybaseapi/AccessCheckByTypeResultListAndAuditAlarmA, securitybaseapi/AccessCheckByTypeResultListAndAuditAlarmW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -229,7 +229,7 @@ If the security descriptor does not contain owner and group SIDs, <b>AccessCheck
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Client/Server Access Control Functions</a>
+<a href="authorization_functions.htm">Client/Server Access Control Functions</a>
 
 
 

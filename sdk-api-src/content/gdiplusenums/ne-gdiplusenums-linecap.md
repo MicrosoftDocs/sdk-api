@@ -108,7 +108,7 @@ Specifies that the line ends are anchored with arrowheads. The arrowhead point i
 ### -field LineCapCustom
 
 Specifies that the line ends are made from a 
-				<a href="https://msdn.microsoft.com/en-us/library/ms534432(v=VS.85).aspx">CustomLineCap</a>. 
+				<a href="https://msdn.microsoft.com/bab33c8b-3203-4560-9e71-c112d528e20c">CustomLineCap</a>. 
 
 
 ### -field LineCapAnchorMask

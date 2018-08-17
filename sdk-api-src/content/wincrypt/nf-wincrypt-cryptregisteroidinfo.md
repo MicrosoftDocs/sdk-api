@@ -4,10 +4,10 @@ title: CryptRegisterOIDInfo function
 author: windows-sdk-content
 description: The CryptRegisterOIDInfo function registers the OID information specified in the CRYPT_OID_INFO structure, persisting it to the registry.
 old-location: security\cryptregisteroidinfo.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 7a5b4800-3182-4cd4-b17a-c6d4e11f7047
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: CryptRegisterOIDInfo, CryptRegisterOIDInfo function [Security], _crypto2_cryptregisteroidinfo, security.cryptregisteroidinfo, wincrypt/CryptRegisterOIDInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -130,7 +130,7 @@ When you have finished using the OID information, unregister it by calling the <
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">OID Support Functions</a>
+<a href="cryptography_functions.htm">OID Support Functions</a>
  
 
  

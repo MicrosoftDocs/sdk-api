@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Contains and receives information that the pager control uses to calculate the scrollable area of the contained window. It is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb760864(v=VS.85).aspx">PGN_CALCSIZE</a> notification. 
+Contains and receives information that the pager control uses to calculate the scrollable area of the contained window. It is used with the <a href="https://msdn.microsoft.com/a15f4191-2f26-4139-bdaf-bab219449b78">PGN_CALCSIZE</a> notification. 
 
 
 ## -struct-fields
@@ -61,10 +61,10 @@ Contains and receives information that the pager control uses to calculate the s
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about the notification. 
+<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains information about the notification. 
 
 
 ### -field dwFlag

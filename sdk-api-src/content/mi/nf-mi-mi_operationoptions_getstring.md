@@ -7,7 +7,7 @@ old-location: wmi_v2\mi_operationoptions_getstring.htm
 old-project: wmi_v2
 ms.assetid: 1d1b9650-10c3-4e06-a841-6706ecc5f32c
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/13/2018
 ms.keywords: MI_OperationOptions_GetString, MI_OperationOptions_GetString function [Windows Management Infrastructure (MI)], mi/MI_OperationOptions_GetString, wmi_v2.mi_operationoptions_getstring
 ms.prod: windows
 ms.technology: windows-sdk

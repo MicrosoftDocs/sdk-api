@@ -72,19 +72,14 @@ The group ID for the URL group to which requests for the specified URL are route
 A pointer to a Unicode string that contains a properly formed <a href="https://msdn.microsoft.com/4f317bf6-ee6a-47a8-a531-78534217109d">UrlPrefix String</a> that identifies the URL to be registered.
 
 
-### -param OPTIONAL
+### -param UrlContext [in, optional]
 
-TBD
+The context that is associated with the URL registered in this call. The URL context is returned in the <a href="https://msdn.microsoft.com/e592cf54-df6d-472b-a736-c44a5ccdd3d2">HTTP_REQUEST</a> structure with every request received on the URL specified in the <i>pFullyQualifiedUrl</i> parameter.
 
 
 ### -param Reserved [in]
 
 Reserved. Must be zero.
-
-
-#### - UrlContext [in, optional]
-
-The context that is associated with the URL registered in this call. The URL context is returned in the <a href="https://msdn.microsoft.com/e592cf54-df6d-472b-a736-c44a5ccdd3d2">HTTP_REQUEST</a> structure with every request received on the URL specified in the <i>pFullyQualifiedUrl</i> parameter.
 
 
 ## -returns

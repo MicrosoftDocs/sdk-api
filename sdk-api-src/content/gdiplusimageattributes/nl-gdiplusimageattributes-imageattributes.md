@@ -52,16 +52,16 @@ req.product: GDI+ 1.0
 ## -description
 
 
-An <a href="https://msdn.microsoft.com/en-us/library/ms535413(v=VS.85).aspx">ImageAttributes</a> object contains information about how bitmap and metafile colors are manipulated during rendering. An <b>ImageAttributes</b> object maintains several color-adjustment settings, including color-adjustment matrices, grayscale-adjustment matrices, gamma-correction values, color-map tables, and color-threshold values.
+An <a href="https://msdn.microsoft.com/5f3a75ad-6b86-4362-85a5-5745aec80d2b">ImageAttributes</a> object contains information about how bitmap and metafile colors are manipulated during rendering. An <b>ImageAttributes</b> object maintains several color-adjustment settings, including color-adjustment matrices, grayscale-adjustment matrices, gamma-correction values, color-map tables, and color-threshold values.
 
 
 ## -remarks
 
 
 
-The colors in an image can be manipulated during rendering. They can be corrected, darkened, lightened, removed, and so on. To apply such manipulations, initialize an <a href="https://msdn.microsoft.com/en-us/library/ms535413(v=VS.85).aspx">ImageAttributes</a> object and pass the address of that <b>ImageAttributes</b> object (along with the address of an 
-				<a href="https://msdn.microsoft.com/en-us/library/ms535365(v=VS.85).aspx">Image</a> object) to the 
-				<a href="https://msdn.microsoft.com/en-us/library/ms536028(v=VS.85).aspx">Graphics::DrawImage</a> method. 
+The colors in an image can be manipulated during rendering. They can be corrected, darkened, lightened, removed, and so on. To apply such manipulations, initialize an <a href="https://msdn.microsoft.com/5f3a75ad-6b86-4362-85a5-5745aec80d2b">ImageAttributes</a> object and pass the address of that <b>ImageAttributes</b> object (along with the address of an 
+				<a href="https://msdn.microsoft.com/4962e901-cc4f-4225-8d24-731225e149e6">Image</a> object) to the 
+				<a href="https://msdn.microsoft.com/8eaa8e63-a46c-4453-88a6-838785a55b9f">Graphics::DrawImage</a> method. 
 
 
 

@@ -59,7 +59,7 @@ The <b>IDXGIAdapter</b> interface represents a display subsystem (including one 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIAdapter</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb174541(v=VS.85).aspx">IDXGIObject</a>. <b>IDXGIAdapter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIAdapter</b> interface inherits from <a href="https://msdn.microsoft.com/baf1dc5a-ae7e-4bc5-affa-11ed16091625">IDXGIObject</a>. <b>IDXGIAdapter</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -74,7 +74,7 @@ The <b>IDXGIAdapter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174524(v=VS.85).aspx">CheckInterfaceSupport</a>
+<a href="https://msdn.microsoft.com/1ed2f928-8442-4699-80e9-80393db5dd34">CheckInterfaceSupport</a>
 </td>
 <td align="left" width="63%">
 Checks whether the system supports a device interface for a graphics component.
@@ -83,7 +83,7 @@ Checks whether the system supports a device interface for a graphics component.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174525(v=VS.85).aspx">EnumOutputs</a>
+<a href="https://msdn.microsoft.com/29a826bb-6282-41d1-abf9-642ccb127774">EnumOutputs</a>
 </td>
 <td align="left" width="63%">
 Enumerate adapter (video card) outputs.
@@ -92,7 +92,7 @@ Enumerate adapter (video card) outputs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb174526(v=VS.85).aspx">GetDesc</a>
+<a href="https://msdn.microsoft.com/81d0cdaa-073e-4af8-b037-e61f1d5aa6fa">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Gets a DXGI 1.0 description of an adapter (or video card).
@@ -109,13 +109,13 @@ Gets a DXGI 1.0 description of an adapter (or video card).
 A display subsystem is often referred to as a video card, however, on some machines the display subsystem is part of the motherboard.
           
 
-To enumerate the display subsystems, use <a href="https://msdn.microsoft.com/en-us/library/Bb174538(v=VS.85).aspx">IDXGIFactory::EnumAdapters</a>.
+To enumerate the display subsystems, use <a href="https://msdn.microsoft.com/23e876c7-b32a-4bc9-84c1-9e8949680e14">IDXGIFactory::EnumAdapters</a>.
           
 
-To get an interface to the adapter for a particular device, use <a href="https://msdn.microsoft.com/en-us/library/Bb174531(v=VS.85).aspx">IDXGIDevice::GetAdapter</a>.
+To get an interface to the adapter for a particular device, use <a href="https://msdn.microsoft.com/ae113b36-47fd-4db1-b10c-ced22ec52435">IDXGIDevice::GetAdapter</a>.
           
 
-To create a software adapter, use <a href="https://msdn.microsoft.com/en-us/library/Bb174536(v=VS.85).aspx">IDXGIFactory::CreateSoftwareAdapter</a>.
+To create a software adapter, use <a href="https://msdn.microsoft.com/46c10086-aa57-42f6-a619-8c537e4ae406">IDXGIFactory::CreateSoftwareAdapter</a>.
           
 
 <b>Windows Phone 8:
@@ -134,7 +134,7 @@ To create a software adapter, use <a href="https://msdn.microsoft.com/en-us/libr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174541(v=VS.85).aspx">IDXGIObject</a>
+<a href="https://msdn.microsoft.com/baf1dc5a-ae7e-4bc5-affa-11ed16091625">IDXGIObject</a>
  
 
  

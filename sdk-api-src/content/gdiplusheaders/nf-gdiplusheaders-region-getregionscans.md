@@ -54,7 +54,7 @@ req.product: GDI+ 1.0
 
 <span>This topic lists the 
 			GetRegionScans methods of the 
-			<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a> class. For a complete list of methods for the <b>Region</b> class, see <a href="https://msdn.microsoft.com/en-us/library/ms534761(v=VS.85).aspx">Region Methods</a>.
+			<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a> class. For a complete list of methods for the <b>Region</b> class, see <a href="https://msdn.microsoft.com/bbaa4027-94aa-497f-8efb-a82d251847af">Region Methods</a>.
 
 </span><h3>Overload list</h3><table>
 <tr>
@@ -63,19 +63,19 @@ req.product: GDI+ 1.0
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534812(v=VS.85).aspx">GetRegionScans(Matrix*,Rect*,INT*)</a>
+<a href="https://msdn.microsoft.com/a34bdc9d-e769-4579-a167-296f6fa77462">GetRegionScans(Matrix*,Rect*,INT*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534812(v=VS.85).aspx">Region::GetRegionScans</a> method gets an array of rectangles that approximate this region. The region is transformed by a specified matrix before the rectangles are calculated.
+The <a href="https://msdn.microsoft.com/a34bdc9d-e769-4579-a167-296f6fa77462">Region::GetRegionScans</a> method gets an array of rectangles that approximate this region. The region is transformed by a specified matrix before the rectangles are calculated.
 
 </td>
 </tr>
 <tr>
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms534814(v=VS.85).aspx">GetRegionScans(Matrix*,RectF*,INT*)</a>
+<a href="https://msdn.microsoft.com/0bfb4eed-80f8-4a98-a264-1f47c60f58b8">GetRegionScans(Matrix*,RectF*,INT*)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms534814(v=VS.85).aspx">Region::GetRegionScans</a> method gets an array of rectangles that approximate this region. The region is transformed by a specified matrix before the rectangles are calculated.
+The <a href="https://msdn.microsoft.com/0bfb4eed-80f8-4a98-a264-1f47c60f58b8">Region::GetRegionScans</a> method gets an array of rectangles that approximate this region. The region is transformed by a specified matrix before the rectangles are calculated.
 
 </td>
 </tr>

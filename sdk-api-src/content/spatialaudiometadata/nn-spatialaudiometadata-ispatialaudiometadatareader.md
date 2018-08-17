@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudiometadatareader.htm
 old-project: CoreAudio
 ms.assetid: BD1AD4CE-6E88-4292-AA79-E71FE00C2078
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/14/2018
 ms.keywords: ISpatialAudioMetadataReader, ISpatialAudioMetadataReader interface [Core Audio], ISpatialAudioMetadataReader interface [Core Audio],described, coreaudio.ispatialaudiometadatareader, spatialaudiometadata/ISpatialAudioMetadataReader
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,7 +97,7 @@ Opens an <a href="https://msdn.microsoft.com/54A6B7DE-A41E-4214-AF02-CC19250B903
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/E9958586-0B1E-4864-AE0F-A9805114A797">ReadItemCountInFrames</a>
+<a href="https://msdn.microsoft.com/E9958586-0B1E-4864-AE0F-A9805114A797">ReadItemCountinFrames</a>
 </td>
 <td align="left" width="63%">
 Specifies the range, in frames, from which the caller wishes to extract metadata items from the <a href="https://msdn.microsoft.com/54A6B7DE-A41E-4214-AF02-CC19250B9037">ISpatialAudioMetadataItems</a> object.  This method returns the number of metadata items present in the specified range of frames. Each call advances the internal copy position by the number of frames in the <i>readFrameCount</i> parameter.

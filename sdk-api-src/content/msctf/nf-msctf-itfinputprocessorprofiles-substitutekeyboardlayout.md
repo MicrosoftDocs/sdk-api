@@ -76,7 +76,7 @@ Contains a GUID value that identifies the profile in question.
 
 ### -param hKL [in]
 
-Contains an <b>HKL</b> value that specifies the input locale identifier for the substitute keyboard. Obtain this value by calling <a href="https://msdn.microsoft.com/en-us/library/ms646305(v=VS.85).aspx">LoadKeyboardLayout</a>.
+Contains an <b>HKL</b> value that specifies the input locale identifier for the substitute keyboard. Obtain this value by calling <a href="_win32_loadkeyboardlayout">LoadKeyboardLayout</a>.
 
 
 ## -returns
@@ -127,7 +127,7 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646305(v=VS.85).aspx">LoadKeyboardLayout</a>
+<a href="_win32_loadkeyboardlayout">LoadKeyboardLayout</a>
  
 
  

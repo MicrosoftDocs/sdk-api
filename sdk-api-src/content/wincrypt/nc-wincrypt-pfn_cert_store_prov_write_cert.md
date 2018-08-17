@@ -4,10 +4,10 @@ title: PFN_CERT_STORE_PROV_WRITE_CERT
 author: windows-sdk-content
 description: An application-defined callback function that is called by CertAddEncodedCertificateToStore, CertAddCertificateContextToStore and CertAddSerializedElementToStore before adding to the store.
 old-location: security\certstoreprovwritecertcallback.htm
-old-project: seccrypto
+old-project: SecCrypto
 ms.assetid: 97cc488a-7993-4b48-a4b4-cb13c6168226
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: CertStoreProvWriteCertCallback, CertStoreProvWriteCertCallback callback, CertStoreProvWriteCertCallback callback function [Security], PFN_CERT_STORE_PROV_WRITE_CERT, PFN_CERT_STORE_PROV_WRITE_CERT callback function [Security], _crypto2_certstoreprovwritecertcallback, security.certstoreprovwritecertcallback, wincrypt/CertStoreProvWriteCertCallback, wincrypt/PFN_CERT_STORE_PROV_WRITE_CERT
 ms.prod: windows
 ms.technology: windows-sdk
@@ -114,7 +114,7 @@ Returns <b>TRUE</b> if it is okay to update the store.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Callback Functions</a>
+<a href="cryptography_functions.htm">Callback Functions</a>
 
 
 

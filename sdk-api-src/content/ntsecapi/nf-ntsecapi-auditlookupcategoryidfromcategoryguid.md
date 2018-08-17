@@ -7,7 +7,7 @@ old-location: security\auditlookupcategoryidfromcategoryguid_func.htm
 old-project: secauthz
 ms.assetid: c50e39f0-d45f-4deb-abe5-6261775b507c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: AuditLookupCategoryIdFromCategoryGuid, AuditLookupCategoryIdFromCategoryGuid function [Security], ntsecapi/AuditLookupCategoryIdFromCategoryGuid, security.auditlookupcategoryidfromcategoryguid_func
 ms.prod: windows
 ms.technology: windows-sdk

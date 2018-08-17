@@ -137,7 +137,7 @@ Receives the desired resolution code.  Specify a value from the <a href="https:/
 
 If the value of the  <i>pConflictResolution</i> parameter is <b>OFFLINEFILES_SYNC_CONFLICT_RESOLVE_KEEPALLCHANGES</b>, the conflict handler must provide a new name for the item.  This new name is used for the new copies created remotely and locally.  Note that this is a file name, not a fully qualified path.
 
-The name string must be allocated using <a href="https://msdn.microsoft.com/en-us/library/ms692727(v=VS.85).aspx">CoTaskMemAlloc</a>.
+The name string must be allocated using <a href="_com_cotaskmemalloc">CoTaskMemAlloc</a>.
 
 This parameter may be <b>NULL</b> if a new name is not required by the resolution.
 

@@ -83,7 +83,7 @@ The return value specifies the extra information. The meaning of the extra infor
 
 
 
-To set a thread's extra message information, use the <a href="https://msdn.microsoft.com/en-us/library/ms644954(v=VS.85).aspx">SetMessageExtraInfo</a> function. 
+To set a thread's extra message information, use the <a href="https://msdn.microsoft.com/851f6124-4782-4d22-a7ae-029b83777dfe">SetMessageExtraInfo</a> function. 
 
 
 
@@ -97,15 +97,15 @@ To set a thread's extra message information, use the <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644936(v=VS.85).aspx">GetMessage</a>
+<a href="https://msdn.microsoft.com/e92266a7-86ac-43f4-b0eb-762e145a1017">GetMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632590(v=VS.85).aspx">Messages and Message Queues</a>
+<a href="https://msdn.microsoft.com/885bb607-3ec0-4e24-9f55-fbdfb1c538a1">Messages and Message Queues</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644943(v=VS.85).aspx">PeekMessage</a>
+<a href="https://msdn.microsoft.com/b9f5baa4-8166-4d6e-b416-df023aed9bad">PeekMessage</a>
 
 
 
@@ -113,7 +113,7 @@ To set a thread's extra message information, use the <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644954(v=VS.85).aspx">SetMessageExtraInfo</a>
+<a href="https://msdn.microsoft.com/851f6124-4782-4d22-a7ae-029b83777dfe">SetMessageExtraInfo</a>
  
 
  

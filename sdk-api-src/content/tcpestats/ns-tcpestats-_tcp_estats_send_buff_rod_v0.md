@@ -7,7 +7,7 @@ old-location: iphlp\tcp_estats_send_buff_rod_v0.htm
 old-project: iphlp
 ms.assetid: 7cda7378-95e4-4f1d-88b3-27974fedec83
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/15/2018
 ms.keywords: "*PTCP_ESTATS_SEND_BUFF_ROD_v0, PTCP_ESTATS_SEND_BUFF_ROD_v0, PTCP_ESTATS_SEND_BUFF_ROD_v0 structure pointer [IP Helper], TCP_ESTATS_SEND_BUFF_ROD_v0, TCP_ESTATS_SEND_BUFF_ROD_v0 structure [IP Helper], _TCP_ESTATS_SEND_BUFF_ROD_v0, iphlp.tcp_estats_send_buff_rod_v0, tcpestats/PTCP_ESTATS_SEND_BUFF_ROD_v0, tcpestats/TCP_ESTATS_SEND_BUFF_ROD_v0"
 ms.prod: windows
 ms.technology: windows-sdk

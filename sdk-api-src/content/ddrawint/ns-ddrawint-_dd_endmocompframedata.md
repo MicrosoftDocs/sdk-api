@@ -7,7 +7,7 @@ old-location: display\dd_endmocompframedata.htm
 old-project: display
 ms.assetid: 4e604940-1c0f-43be-bac7-9936df0c4044
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/13/2018
 ms.keywords: "*PDD_ENDMOCOMPFRAMEDATA, DD_ENDMOCOMPFRAMEDATA, DD_ENDMOCOMPFRAMEDATA structure [Display Devices], _DD_ENDMOCOMPFRAMEDATA, ddrawint/DD_ENDMOCOMPFRAMEDATA, ddstrcts_4c526986-eaf4-40ea-890c-e90295ac9ee6.xml, display.dd_endmocompframedata"
 ms.prod: windows
 ms.technology: windows-sdk

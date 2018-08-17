@@ -7,7 +7,7 @@ old-location: security\duplicatetokenex.htm
 old-project: secauthz
 ms.assetid: 96b13826-0ac7-4d70-9c21-eeb343f6b823
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: DuplicateTokenEx, DuplicateTokenEx function [Security], TokenImpersonation, TokenPrimary, _win32_duplicatetokenex, security.duplicatetokenex, securitybaseapi/DuplicateTokenEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -173,7 +173,7 @@ The following is a typical scenario for using <b>DuplicateTokenEx</b> to create 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 
@@ -185,7 +185,7 @@ The following is a typical scenario for using <b>DuplicateTokenEx</b> to create 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648756(v=VS.85).aspx">DdeImpersonateClient</a>
+<a href="_win32_ddeimpersonateclient_cpp">DdeImpersonateClient</a>
 
 
 

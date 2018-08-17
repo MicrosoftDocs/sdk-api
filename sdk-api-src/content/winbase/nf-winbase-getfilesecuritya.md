@@ -7,7 +7,7 @@ old-location: security\getfilesecurity.htm
 old-project: secauthz
 ms.assetid: 4043b76b-76b9-4111-8a29-a808b2412be0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/10/2018
 ms.keywords: GetFileSecurity, GetFileSecurity function [Security], GetFileSecurityA, GetFileSecurityW, _win32_getfilesecurity, security.getfilesecurity, winbase/GetFileSecurity, winbase/GetFileSecurityA, winbase/GetFileSecurityW
 ms.prod: windows
 ms.technology: windows-sdk

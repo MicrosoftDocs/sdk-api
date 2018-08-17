@@ -125,7 +125,7 @@ If the object pointed to by <i>punk</i> already supports <a href="shell.IPropert
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776493(v=VS.85).aspx">PSCreatePropertyStoreFromPropertySetStorage</a>
+<a href="shell.PSCreatePropertyStoreFromPropertySetStorage">PSCreatePropertyStoreFromPropertySetStorage</a>
  
 
  

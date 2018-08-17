@@ -67,7 +67,7 @@ Specifies the number of elements to obtain.
 
 Pointer to an array of <a href="https://msdn.microsoft.com/55cc631f-c9ab-4ca8-ab5b-43e8a2e88fc9">TF_LMLATTELEMENT</a> structures that receives the requested data. This array must be at least <i>ulCount</i> elements in size.
 
-The caller must free the <b>bstrText</b> member of every structure obtained using <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> when it is no longer required.
+The caller must free the <b>bstrText</b> member of every structure obtained using <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> when it is no longer required.
 
 
 ### -param pcFetched [out]

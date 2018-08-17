@@ -4,10 +4,10 @@ title: QueryAuxiliaryCounterFrequency function
 author: windows-sdk-content
 description: Queries the auxiliary counter frequency.
 old-location: base\queryauxiliarycounterfrequency.htm
-old-project: SysInfo
+old-project: sysinfo
 ms.assetid: 71E00DF2-7F67-43D2-9D6D-BFE9FEA4B30A
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/10/2018
 ms.keywords: QueryAuxiliaryCounterFrequency, QueryAuxiliaryCounterFrequency function, base.queryauxiliarycounterfrequency, realtimeapiset/QueryAuxiliaryCounterFrequency
 ms.prod: windows
 ms.technology: windows-sdk

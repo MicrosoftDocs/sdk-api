@@ -121,7 +121,7 @@ For systems with multiple monitors, the <b>ptMaxSize</b> and <b>ptMaxPosition</b
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632626(v=VS.85).aspx">WM_GETMINMAXINFO</a>
+<a href="https://msdn.microsoft.com/af2295e0-2d0b-4ac0-b689-16138022f4b7">WM_GETMINMAXINFO</a>
 
 
 

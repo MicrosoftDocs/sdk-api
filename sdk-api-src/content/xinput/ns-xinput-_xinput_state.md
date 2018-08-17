@@ -68,7 +68,7 @@ State packet number. The packet number indicates whether there have been any cha
 ### -field Gamepad
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419270(v=VS.85).aspx">XINPUT_GAMEPAD</a> structure containing the current state of an Xbox 360 Controller.
+<a href="https://msdn.microsoft.com/9F3BA764-82E0-4C46-AAA3-F417D2344ECB">XINPUT_GAMEPAD</a> structure containing the current state of an Xbox 360 Controller.
 
 
 ## -remarks
@@ -87,7 +87,7 @@ The <i>dwPacketNumber</i> member is incremented only if the status of the contro
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419270(v=VS.85).aspx">XINPUT_GAMEPAD</a>
+<a href="https://msdn.microsoft.com/9F3BA764-82E0-4C46-AAA3-F417D2344ECB">XINPUT_GAMEPAD</a>
 
 
 
@@ -95,7 +95,7 @@ The <i>dwPacketNumber</i> member is incremented only if the status of the contro
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee419267(v=VS.85).aspx">XInputGetState</a>
+<a href="https://msdn.microsoft.com/D261219D-0175-4690-8F1F-BDAACE2E7424">XInputGetState</a>
  
 
  
