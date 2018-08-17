@@ -2,7 +2,7 @@
 UID: NA:mspaddr
 ms.assetid: e17d95e0-882e-3ede-a60d-00d956598401
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

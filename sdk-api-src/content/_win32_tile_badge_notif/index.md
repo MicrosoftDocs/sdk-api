@@ -2,7 +2,7 @@
 UID: TP:win32_tile_badge_notif
 ms.assetid: bf033213-8224-36c1-8e23-ab8119b3f34e
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/17/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
