@@ -134,7 +134,7 @@ Ensure the provider is ready to quickly commit the prepared LUNs.
 </td>
 <td align="left" width="63%">
 Called after the applications are unfrozen to allow the writers to 
-     <a href="vssgloss_a.htm">auto-recover</a> any components so 
+     <a href="https://msdn.microsoft.com/en-us/library/Aa384651(v=VS.85).aspx">auto-recover</a> any components so 
      that they can be used when they are read-only.
 
 </td>

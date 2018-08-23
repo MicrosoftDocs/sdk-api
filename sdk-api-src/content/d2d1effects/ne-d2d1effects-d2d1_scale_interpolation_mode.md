@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The interpolation mode the <a href="https://msdn.microsoft.com/99DFA8DB-384B-4F64-90A2-0D3D7E1ACF27">Scale effect</a> uses to scale the image. There are 6 scale modes that range in quality and speed. 
+The interpolation mode the <a href="https://msdn.microsoft.com/en-us/library/Hh706339(v=VS.85).aspx">Scale effect</a> uses to scale the image. There are 6 scale modes that range in quality and speed. 
 
 
 ## -enum-fields

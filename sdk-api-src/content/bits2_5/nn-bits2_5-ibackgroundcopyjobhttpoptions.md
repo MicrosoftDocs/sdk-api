@@ -58,9 +58,9 @@ To get this interface, call the <b>IBackgroundCopyJob::QueryInterface</b> method
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyJobHttpOptions</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBackgroundCopyJobHttpOptions</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBackgroundCopyJobHttpOptions</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IBackgroundCopyJobHttpOptions</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -73,7 +73,7 @@ The <b>IBackgroundCopyJobHttpOptions</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/cd317bf9-1d4b-438e-beec-15ea7da90fc9">GetClientCertificate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa964251(v=VS.85).aspx">GetClientCertificate</a>
 </td>
 <td align="left" width="63%">
 Retrieves the client certificate from the job.
@@ -82,7 +82,7 @@ Retrieves the client certificate from the job.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8be6e9ec-7c74-44ff-94d7-a1a1d7fb18e9">GetCustomHeaders</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa964252(v=VS.85).aspx">GetCustomHeaders</a>
 </td>
 <td align="left" width="63%">
 Retrieves the custom HTTP headers from the job.
@@ -91,7 +91,7 @@ Retrieves the custom HTTP headers from the job.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/75104dca-086e-45f6-ad9e-a96730b37433">GetSecurityFlags</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa964253(v=VS.85).aspx">GetSecurityFlags</a>
 </td>
 <td align="left" width="63%">
 Retrieves the flags for HTTP that determine whether the certificate revocation list is checked and certain certificate errors are ignored, and the policy to use when a server redirects the HTTP request.
@@ -100,7 +100,7 @@ Retrieves the flags for HTTP that determine whether the certificate revocation l
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b4fb7213-5f6b-407f-bc44-6d11886ed5ad">RemoveClientCertificate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa964255(v=VS.85).aspx">RemoveClientCertificate</a>
 </td>
 <td align="left" width="63%">
 Removes the client certificate from the job.
@@ -109,7 +109,7 @@ Removes the client certificate from the job.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/60839bac-7f5f-4c43-84d4-26f1b21f974d">SetClientCertificateByID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa964256(v=VS.85).aspx">SetClientCertificateByID</a>
 </td>
 <td align="left" width="63%">
 Specifies the identifier of the client certificate to use for client authentication in an HTTPS (SSL) request. 
@@ -118,7 +118,7 @@ Specifies the identifier of the client certificate to use for client authenticat
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8262b360-ab05-42a3-b5e7-178dc9f23fc6">SetClientCertificateByName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa964257(v=VS.85).aspx">SetClientCertificateByName</a>
 </td>
 <td align="left" width="63%">
 Specifies the subject name of the client certificate to use for client authentication in an HTTPS (SSL) request. 
@@ -127,7 +127,7 @@ Specifies the subject name of the client certificate to use for client authentic
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/422a331d-5b6b-48ec-b040-43a88be43ac3">SetCustomHeaders</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa964258(v=VS.85).aspx">SetCustomHeaders</a>
 </td>
 <td align="left" width="63%">
 Specifies one or more custom HTTP headers to include in HTTP requests.
@@ -136,7 +136,7 @@ Specifies one or more custom HTTP headers to include in HTTP requests.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/afac84cb-28ab-4c80-ab39-eefe450ae3e5">SetSecurityFlags</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa964260(v=VS.85).aspx">SetSecurityFlags</a>
 </td>
 <td align="left" width="63%">
 Sets flags for HTTP that determine whether the certificate revocation list is checked and certain certificate errors are ignored, and the policy to use when a server redirects the HTTP request.
@@ -151,7 +151,7 @@ Sets flags for HTTP that determine whether the certificate revocation list is ch
 
 
 
-<a href="https://msdn.microsoft.com/91dd1ae1-1740-4d95-a476-fc18aead1dc2">IBackgroundCopyJob</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362973(v=VS.85).aspx">IBackgroundCopyJob</a>
  
 
  

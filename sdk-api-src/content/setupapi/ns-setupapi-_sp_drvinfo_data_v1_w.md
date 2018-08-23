@@ -106,7 +106,7 @@ A NULL-terminated string giving the provider of this driver. This is typically t
 
 #### - DriverDate
 
-Date of the driver. From the <b>DriverVer</b> entry in the INF file. See the <a href="devinst.inf_ddinstall_section">INF DDInstall Section</a> for more information about the <b>DriverVer</b> entry.
+Date of the driver. From the <b>DriverVer</b> entry in the INF file. See the <a href="https://msdn.microsoft.com/library/Ff547344(v=VS.85).aspx">INF DDInstall Section</a> for more information about the <b>DriverVer</b> entry.
 
 
 ##### - DriverType.SPDIT_CLASSDRIVER

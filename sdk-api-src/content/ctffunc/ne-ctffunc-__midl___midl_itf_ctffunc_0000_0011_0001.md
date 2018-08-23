@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Elements of the <b>TfSapiObject</b> enumeration are used with the <a href="https://msdn.microsoft.com/4dfa2bd2-e25c-4481-ab07-2f764434504d">ITfFnGetSAPIObject::Get</a> method to specify a specific type of Speech API (SAPI) object.
+Elements of the <b>TfSapiObject</b> enumeration are used with the <a href="https://msdn.microsoft.com/en-us/library/ms538933(v=VS.85).aspx">ITfFnGetSAPIObject::Get</a> method to specify a specific type of Speech API (SAPI) object.
 
 
 ## -enum-fields

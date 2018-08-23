@@ -77,7 +77,7 @@ An array of
 
 
 
-The <a href="_iphlp_getiftable">GetIfTable</a> function enumerates the interface entries on a local system and returns this information in a <b>MIB_IFTABLE</b> structure. 
+The <a href="https://msdn.microsoft.com/en-us/library/Aa365943(v=VS.85).aspx">GetIfTable</a> function enumerates the interface entries on a local system and returns this information in a <b>MIB_IFTABLE</b> structure. 
 
 
 
@@ -95,7 +95,7 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="_iphlp_getiftable">GetIfTable</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365943(v=VS.85).aspx">GetIfTable</a>
 
 
 

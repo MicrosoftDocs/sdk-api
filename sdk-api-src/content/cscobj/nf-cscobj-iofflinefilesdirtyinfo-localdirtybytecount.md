@@ -78,7 +78,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-This method can be called only for file items, which are represented by <a href="https://msdn.microsoft.com/53b9af4b-7526-4b54-bae2-61c97aa67ebf">IOfflineFilesFileItem</a> objects.
+This method can be called only for file items, which are represented by <a href="https://msdn.microsoft.com/en-us/library/Bb530565(v=VS.85).aspx">IOfflineFilesFileItem</a> objects.
 
 
 
@@ -88,7 +88,7 @@ This method can be called only for file items, which are represented by <a href=
 
 
 
-<a href="https://msdn.microsoft.com/10414443-9e7f-4520-80dd-d2ad098c1d44">IOfflineFilesDirtyInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb736327(v=VS.85).aspx">IOfflineFilesDirtyInfo</a>
  
 
  

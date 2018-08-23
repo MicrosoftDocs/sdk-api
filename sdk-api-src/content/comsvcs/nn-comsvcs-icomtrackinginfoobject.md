@@ -56,9 +56,9 @@ Retrieves the properties of a tracking information object.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComTrackingInfoObject</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IComTrackingInfoObject</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComTrackingInfoObject</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IComTrackingInfoObject</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>IComTrackingInfoObject</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/38f5fc3d-eecd-42e5-92ea-df2b096aa1cc">GetValue</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms679904(v=VS.85).aspx">GetValue</a>
 </td>
 <td align="left" width="63%">
 Retrieves the value of the specified property.
@@ -86,11 +86,11 @@ Retrieves the value of the specified property.
 
 
 
-<a href="https://msdn.microsoft.com/07f68734-a382-4fe5-86af-90805f61c68d">COM+ Instrumentation</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms678896(v=VS.85).aspx">COM+ Instrumentation</a>
 
 
 
-<a href="https://msdn.microsoft.com/ad3bdeb5-f303-411a-abfb-ccde3f9a86b9">COM+ Tracking</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd179218(v=VS.85).aspx">COM+ Tracking</a>
  
 
  

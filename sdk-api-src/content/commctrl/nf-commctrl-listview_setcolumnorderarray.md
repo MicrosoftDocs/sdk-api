@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Sets the left-to-right order of columns in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/9b491832-42cc-4262-8f6c-23cbc2c889bf">LVM_SETCOLUMNORDERARRAY</a> message explicitly. 
+Sets the left-to-right order of columns in a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761161(v=VS.85).aspx">LVM_SETCOLUMNORDERARRAY</a> message explicitly. 
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Sets the left-to-right order of columns in a list-view control. You can use this
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 A handle to a list-view control. 
 

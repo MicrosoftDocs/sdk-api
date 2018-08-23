@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Describes flags that are used to create a device context state object (<a href="https://msdn.microsoft.com/A8B9CADC-A9C7-4691-BB5C-3C12FF638C98">ID3DDeviceContextState</a>) with the <a href="https://msdn.microsoft.com/8887C3F1-3EA3-4948-A019-E3CB3F3D46C6">ID3D11Device1::CreateDeviceContextState</a> method.
+Describes flags that are used to create a device context state object (<a href="https://msdn.microsoft.com/A8B9CADC-A9C7-4691-BB5C-3C12FF638C98">ID3DDeviceContextState</a>) with the <a href="https://msdn.microsoft.com/en-us/library/Hh404583(v=VS.85).aspx">ID3D11Device1::CreateDeviceContextState</a> method.
 
 
 ## -enum-fields
@@ -61,7 +61,7 @@ Describes flags that are used to create a device context state object (<a href="
 
 ### -field D3D11_1_CREATE_DEVICE_CONTEXT_STATE_SINGLETHREADED
 
-You use this flag if your application will only call methods of Direct3D 11 and Direct3D 10 interfaces from a single thread. By default, Direct3D 11 and Direct3D 10 are  <a href="https://msdn.microsoft.com/0c4f984e-4dd0-4714-b911-592ca86d5dc0">thread-safe</a>. 
+You use this flag if your application will only call methods of Direct3D 11 and Direct3D 10 interfaces from a single thread. By default, Direct3D 11 and Direct3D 10 are  <a href="https://msdn.microsoft.com/en-us/library/Ff476890(v=VS.85).aspx">thread-safe</a>. 
         By using this flag, you can increase performance. However, if you use this flag and your application calls methods from multiple threads, undefined behavior might result.
 
 
@@ -70,11 +70,11 @@ You use this flag if your application will only call methods of Direct3D 11 and
 
 
 
-<a href="https://msdn.microsoft.com/1641713a-5ac8-4597-900b-1bba54f9f522">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476152(v=VS.85).aspx">Core Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/8887C3F1-3EA3-4948-A019-E3CB3F3D46C6">ID3D11Device1::CreateDeviceContextState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404583(v=VS.85).aspx">ID3D11Device1::CreateDeviceContextState</a>
  
 
  

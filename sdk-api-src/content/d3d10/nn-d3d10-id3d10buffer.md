@@ -52,14 +52,14 @@ req.irql:
 ## -description
 
 
-A buffer interface accesses a <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">buffer resource</a>, which is unstructured memory. Buffers typically store vertex or index data.
+A buffer interface accesses a <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">buffer resource</a>, which is unstructured memory. Buffers typically store vertex or index data.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Buffer</b> interface inherits from <a href="https://msdn.microsoft.com/709c6f33-e1dc-4609-8ddd-9dc502628ec5">ID3D10Resource</a>. <b>ID3D10Buffer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10Buffer</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb173829(v=VS.85).aspx">ID3D10Resource</a>. <b>ID3D10Buffer</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -72,7 +72,7 @@ The <b>ID3D10Buffer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/27420c67-0d3a-46f6-b8ca-2a513a08e21a">GetDesc</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173511(v=VS.85).aspx">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Get the properties of a buffer resource.
@@ -81,7 +81,7 @@ Get the properties of a buffer resource.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/c863ef55-757d-4c0b-ba59-28d30499cf79">Map</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173512(v=VS.85).aspx">Map</a>
 </td>
 <td align="left" width="63%">
 Get a pointer to the data contained in the resource and deny GPU access to the resource.
@@ -90,10 +90,10 @@ Get a pointer to the data contained in the resource and deny GPU access to the r
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b6636c07-0e09-4c95-bab3-357ed4ebe0b8">Unmap</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173513(v=VS.85).aspx">Unmap</a>
 </td>
 <td align="left" width="63%">
-Invalidate the pointer to the resource retrieved by <a href="https://msdn.microsoft.com/c863ef55-757d-4c0b-ba59-28d30499cf79">ID3D10Buffer::Map</a> and reenable GPU access to the resource.
+Invalidate the pointer to the resource retrieved by <a href="https://msdn.microsoft.com/en-us/library/Bb173512(v=VS.85).aspx">ID3D10Buffer::Map</a> and reenable GPU access to the resource.
 
 </td>
 </tr>
@@ -104,11 +104,11 @@ Invalidate the pointer to the resource retrieved by <a href="https://msdn.micros
 
 
 
-Three types of buffers can be created; <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">vertex</a>, index, and shader-constant buffers. To create a buffer resource, call <a href="https://msdn.microsoft.com/77e943f7-f347-4d04-8e2e-a678d5a2c81c">ID3D10Device::CreateBuffer</a>.
+Three types of buffers can be created; <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">vertex</a>, index, and shader-constant buffers. To create a buffer resource, call <a href="https://msdn.microsoft.com/en-us/library/Bb173544(v=VS.85).aspx">ID3D10Device::CreateBuffer</a>.
 
-A buffer must be bound to the pipeline before it can be accessed. Buffers can be bound to the <a href="https://msdn.microsoft.com/71141a5e-2d79-4b02-8370-c0cbc8618908">input-assembler</a> stage by calls to <a href="https://msdn.microsoft.com/00fcf32c-982f-4636-bf02-b3f95803684a">ID3D10Device::IASetVertexBuffers</a> and <a href="https://msdn.microsoft.com/2b276345-502e-47fa-9caa-52a82916b577">ID3D10Device::IASetIndexBuffer</a>, and to the <a href="https://msdn.microsoft.com/f902dc93-9612-481b-a6bd-073e924a4c79">stream-output</a> stage by a call to <a href="https://msdn.microsoft.com/fd4a71a1-2180-421f-8c9b-735c33f6de75">ID3D10Device::SOSetTargets</a>.
+A buffer must be bound to the pipeline before it can be accessed. Buffers can be bound to the <a href="https://msdn.microsoft.com/en-us/library/Bb205116(v=VS.85).aspx">input-assembler</a> stage by calls to <a href="https://msdn.microsoft.com/en-us/library/Bb173591(v=VS.85).aspx">ID3D10Device::IASetVertexBuffers</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb173588(v=VS.85).aspx">ID3D10Device::IASetIndexBuffer</a>, and to the <a href="https://msdn.microsoft.com/en-us/library/Bb205121(v=VS.85).aspx">stream-output</a> stage by a call to <a href="https://msdn.microsoft.com/en-us/library/Bb173620(v=VS.85).aspx">ID3D10Device::SOSetTargets</a>.
 
-Buffers can be bound to multiple pipeline stages simultaneously for reading. A buffer can also be bound to a single pipeline stage for writing; however, the same buffer cannot be bound for reading and writing simultaneously. For more information, see <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">binding resources</a>.
+Buffers can be bound to multiple pipeline stages simultaneously for reading. A buffer can also be bound to a single pipeline stage for writing; however, the same buffer cannot be bound for reading and writing simultaneously. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">binding resources</a>.
 
 
 
@@ -118,11 +118,11 @@ Buffers can be bound to multiple pipeline stages simultaneously for reading. A b
 
 
 
-<a href="https://msdn.microsoft.com/709c6f33-e1dc-4609-8ddd-9dc502628ec5">ID3D10Resource</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173829(v=VS.85).aspx">ID3D10Resource</a>
 
 
 
-<a href="https://msdn.microsoft.com/e53ca7ab-6ca5-4774-8a52-825b10c1a2ce">Resource Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205276(v=VS.85).aspx">Resource Interfaces</a>
  
 
  

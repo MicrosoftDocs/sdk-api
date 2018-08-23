@@ -95,7 +95,7 @@ Enables or disables the "Next" command button in the wizard for a specific page.
 
 
 
-<a href="ad.admin_interfaes_in_active_directory_domain_services">Admin Interfaces in Active Directory Domain Services</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa772147(v=VS.85).aspx">Admin Interfaces in Active Directory Domain Services</a>
 
 
 

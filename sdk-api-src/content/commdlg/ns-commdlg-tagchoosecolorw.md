@@ -53,7 +53,7 @@ req.irql:
 ## -description
 
 
-Contains information the <a href="https://msdn.microsoft.com/cb4f59e8-bbf0-406e-9103-1a08c3731da6">ChooseColor</a> function uses to initialize the <b>Color</b> dialog box. After the user closes the dialog box, the system returns information about the user's selection in this structure. 
+Contains information the <a href="https://msdn.microsoft.com/en-us/library/ms646912(v=VS.85).aspx">ChooseColor</a> function uses to initialize the <b>Color</b> dialog box. After the user closes the dialog box, the system returns information about the user's selection in this structure. 
 
 
 ## -struct-fields
@@ -93,7 +93,7 @@ If the <b>CC_RGBINIT</b> flag is set, <b>rgbResult</b> specifies the color initi
 
 Type: <b><a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a>*</b>
 
-A pointer to an array of 16  values that contain red, green, blue (RGB) values for the custom color boxes in the dialog box. If the user modifies these colors, the system updates the array with the new RGB values. To preserve new custom colors between calls to the <a href="https://msdn.microsoft.com/cb4f59e8-bbf0-406e-9103-1a08c3731da6">ChooseColor</a> function, you should allocate static memory for the array. To create a <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a> color value, use the <a href="https://msdn.microsoft.com/e1dcb5f8-c026-4a4e-8541-928a057bf0ae">RGB</a> macro. 
+A pointer to an array of 16  values that contain red, green, blue (RGB) values for the custom color boxes in the dialog box. If the user modifies these colors, the system updates the array with the new RGB values. To preserve new custom colors between calls to the <a href="https://msdn.microsoft.com/en-us/library/ms646912(v=VS.85).aspx">ChooseColor</a> function, you should allocate static memory for the array. To create a <a href="https://msdn.microsoft.com/b87d3de2-7a13-44ef-8253-c6851a75fa54">COLORREF</a> color value, use the <a href="https://msdn.microsoft.com/e1dcb5f8-c026-4a4e-8541-928a057bf0ae">RGB</a> macro. 
 
 
 ### -field Flags
@@ -191,7 +191,7 @@ Causes the dialog box to use the color specified in the <b>rgbResult</b> member 
 </dl>
 </td>
 <td width="60%">
-Causes the dialog box to display the Help button. The <b>hwndOwner</b> member must specify the window to receive the <a href="https://msdn.microsoft.com/21c0fcf5-785b-4005-8133-e48347f991a8">HELPMSGSTRING</a> registered messages that the dialog box sends when the user clicks the <b>Help</b> button.
+Causes the dialog box to display the Help button. The <b>hwndOwner</b> member must specify the window to receive the <a href="https://msdn.microsoft.com/en-us/library/ms646874(v=VS.85).aspx">HELPMSGSTRING</a> registered messages that the dialog box sends when the user clicks the <b>Help</b> button.
 
 </td>
 </tr>
@@ -214,21 +214,21 @@ Causes the dialog box to display only solid colors in the set of basic colors.
 
 Type: <b>LPARAM</b>
 
-Application-defined data that the system passes to the hook procedure identified by the <b>lpfnHook</b> member. When the system sends the <a href="https://msdn.microsoft.com/bc4f4718-1dab-48db-ae3b-5a81a7be2644">WM_INITDIALOG</a> message to the hook procedure, the message's <i>lParam</i> parameter is a pointer to the <b>CHOOSECOLOR</b> structure specified when the dialog was created. The hook procedure can use this pointer to get the <b>lCustData</b> value. 
+Application-defined data that the system passes to the hook procedure identified by the <b>lpfnHook</b> member. When the system sends the <a href="https://msdn.microsoft.com/en-us/library/ms645428(v=VS.85).aspx">WM_INITDIALOG</a> message to the hook procedure, the message's <i>lParam</i> parameter is a pointer to the <b>CHOOSECOLOR</b> structure specified when the dialog was created. The hook procedure can use this pointer to get the <b>lCustData</b> value. 
 
 
 ### -field lpfnHook
 
 Type: <b>LPCCHOOKPROC</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/4486ad29-fe1e-4e7f-951f-d137c6497591">CCHookProc</a> hook procedure that can process messages intended for the dialog box. This member is ignored unless the <b>CC_ENABLEHOOK</b> flag is set in the <b>Flags</b> member. 
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms646908(v=VS.85).aspx">CCHookProc</a> hook procedure that can process messages intended for the dialog box. This member is ignored unless the <b>CC_ENABLEHOOK</b> flag is set in the <b>Flags</b> member. 
 
 
 ### -field lpTemplateName
 
 Type: <b>LPCTSTR</b>
 
-The name of the dialog box template resource in the module identified by the <b>hInstance</b> member. This template is substituted for the standard dialog box template. For numbered dialog box resources, <b>lpTemplateName</b> can be a value returned by the <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a> macro. This member is ignored unless the <b>CC_ENABLETEMPLATE</b> flag is set in the <b>Flags</b> member. 
+The name of the dialog box template resource in the module identified by the <b>hInstance</b> member. This template is substituted for the standard dialog box template. For numbered dialog box resources, <b>lpTemplateName</b> can be a value returned by the <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro. This member is ignored unless the <b>CC_ENABLETEMPLATE</b> flag is set in the <b>Flags</b> member. 
 
 
 ## -see-also
@@ -236,15 +236,15 @@ The name of the dialog box template resource in the module identified by the <b>
 
 
 
-<a href="https://msdn.microsoft.com/4486ad29-fe1e-4e7f-951f-d137c6497591">CCHookProc</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646908(v=VS.85).aspx">CCHookProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/cb4f59e8-bbf0-406e-9103-1a08c3731da6">ChooseColor</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646912(v=VS.85).aspx">ChooseColor</a>
 
 
 
-<a href="https://msdn.microsoft.com/28573019-f0bd-4a8e-a1a1-48559f658a81">Common Dialog Box Library</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms645524(v=VS.85).aspx">Common Dialog Box Library</a>
 
 
 
@@ -252,7 +252,7 @@ The name of the dialog box template resource in the module identified by the <b>
 
 
 
-<a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a>
 
 
 

@@ -90,7 +90,7 @@ This method does not return a value.
 
 A <a href="https://msdn.microsoft.com/b117b0eb-e188-4514-8e11-9acca1303e8f">ClusProperties</a> collection contains a 
     local copy of property data. Changes to the data do not take effect in the 
-    <a href="c_gly.htm">cluster</a> until 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> until 
     <b>ClusProperties.SaveChanges</b> is called.
 
 If the properties are successfully saved, 

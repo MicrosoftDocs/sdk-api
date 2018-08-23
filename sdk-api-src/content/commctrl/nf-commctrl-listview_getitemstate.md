@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Gets the state of a list-view item. You can use this macro or send the <a href="https://msdn.microsoft.com/862960ed-a64a-4d66-b384-9228932eae6f">LVM_GETITEMSTATE</a> message explicitly. 
+Gets the state of a list-view item. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761053(v=VS.85).aspx">LVM_GETITEMSTATE</a> message explicitly. 
 
 
 ## -parameters
@@ -162,7 +162,7 @@ An item's state information includes a set of bit flags as well as image list in
 
 
 
-<a href="https://msdn.microsoft.com/b90900f1-833b-418c-8ddc-76c0743b77f9">ListView_SetItemState</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb775102(v=VS.85).aspx">ListView_SetItemState</a>
  
 
  

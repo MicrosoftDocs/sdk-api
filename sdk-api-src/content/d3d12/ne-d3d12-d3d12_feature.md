@@ -149,7 +149,7 @@ Check for support options described in <a href="https://msdn.microsoft.com/E45DA
 ### -field D3D12_FEATURE_EXISTING_HEAPS
 
 Supports existing heaps, described in 
-          <a href="https://msdn.microsoft.com/7F0D0FAD-BF29-43AD-95FA-85B9719C4782">D3D12_FEATURE_DATA_EXISTING_HEAPS</a>.
+          <a href="https://msdn.microsoft.com/en-us/library/Mt844808(v=VS.85).aspx">D3D12_FEATURE_DATA_EXISTING_HEAPS</a>.
           
 
 
@@ -171,7 +171,7 @@ Supports existing heaps, described in
 
 
 
-Use this enumeration in a call to <a href="https://msdn.microsoft.com/2E986E37-30C7-45FE-BC8B-A6DD5670938F">ID3D12Device::CheckFeatureSupport</a> to query a driver about support for the Direct3D 12 features.
+Use this enumeration in a call to <a href="https://msdn.microsoft.com/en-us/library/Dn788653(v=VS.85).aspx">ID3D12Device::CheckFeatureSupport</a> to query a driver about support for the Direct3D 12 features.
         Each value in this enumeration has a corresponding data structure that you must pass to the <i>pFeatureSupportData</i> parameter
         of <b>ID3D12Device::CheckFeatureSupport</b>.
       
@@ -184,7 +184,7 @@ Use this enumeration in a call to <a href="https://msdn.microsoft.com/2E986E37-3
 
 
 
-<a href="https://msdn.microsoft.com/76E76C85-128E-4F0E-9711-C72C4CF6C835">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn770455(v=VS.85).aspx">Core Enumerations</a>
  
 
  

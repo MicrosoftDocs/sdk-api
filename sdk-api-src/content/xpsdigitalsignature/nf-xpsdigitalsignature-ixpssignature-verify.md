@@ -62,7 +62,7 @@ Verifies the signature against a specified X.509 certificate.
 
 ### -param x509Certificate [in]
 
-The <a href="_crypto2_cert_context">CERT_CONTEXT</a> structure that contains the X.509 certificate that will be used for verification.
+The <a href="https://msdn.microsoft.com/en-us/library/Aa377189(v=VS.85).aspx">CERT_CONTEXT</a> structure that contains the X.509 certificate that will be used for verification.
 
 If the signature is not incomplete or incompliant, this  certificate will be used  only to  validate that the signed data in the XPS package is intact. The certificate will not be used to perform any other checks.
     Before using the certificate the application is expected to verify the trust chain and any other requirements.
@@ -141,7 +141,7 @@ For more information on the different types of signature statuses that can be de
 
 
 
-<a href="_crypto2_cert_context">CERT_CONTEXT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377189(v=VS.85).aspx">CERT_CONTEXT</a>
 
 
 

@@ -108,10 +108,10 @@ Data is a null-terminated Unicode string with expanded references to environment
 
 ### -field CLUSPROP_FORMAT_SECURITY_DESCRIPTOR
 
-Data is a <a href="https://msdn.microsoft.com/653992aa-4e32-4187-b3ac-727e82bfe0b6">SECURITY_DESCRIPTOR</a> in 
-          <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">self-relative</a> 
+Data is a <a href="https://msdn.microsoft.com/en-us/library/Aa379561(v=VS.85).aspx">SECURITY_DESCRIPTOR</a> in 
+          <a href="https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx">self-relative</a> 
           format. For more information about self-relative security descriptors, see 
-          <a href="https://msdn.microsoft.com/dab2844b-7df9-446c-aacf-380a0a805cbc">Absolute and Self-Relative Security Descriptors</a>.
+          <a href="https://msdn.microsoft.com/en-us/library/Aa374807(v=VS.85).aspx">Absolute and Self-Relative Security Descriptors</a>.
 
 
 ### -field CLUSPROP_FORMAT_LARGE_INTEGER
@@ -145,19 +145,19 @@ Reserved for future use.
 
 
 
-<a href="https://msdn.microsoft.com/23353e11-63bb-4d3b-90fb-e2a5544e0d09">CLUSPROP_SYNTAX</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa368389(v=VS.85).aspx">CLUSPROP_SYNTAX</a>
 
 
 
-<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb309147(v=VS.85).aspx">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/259aba6f-b1a6-422d-859b-8e6c95895ab5">Format Property of the ClusProperty Object</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa368350(v=VS.85).aspx">Format Property of the ClusProperty Object</a>
 
 
 
-<a href="https://msdn.microsoft.com/a53a969b-9269-43c7-81a0-178e61a23058">Format Property of the ClusPropertyValue Object</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa368341(v=VS.85).aspx">Format Property of the ClusPropertyValue Object</a>
  
 
  

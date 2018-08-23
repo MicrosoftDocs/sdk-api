@@ -52,11 +52,11 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/3748a252-db65-4471-8345-ab0c136c5a21">GdiplusStartup</a> function uses the <b>GdiplusStartupOutput</b> structure to return (in its <i>output</i> parameter) a pointer to a hook function and a pointer to an unhook function. If you set the <b>SuppressBackgroundThread</b> member of the <i>input</i> parameter to <b>TRUE</b>, then you are responsible for calling those functions to replace the Windows GDI+ background thread.
+The <a href="https://msdn.microsoft.com/en-us/library/ms534077(v=VS.85).aspx">GdiplusStartup</a> function uses the <b>GdiplusStartupOutput</b> structure to return (in its <i>output</i> parameter) a pointer to a hook function and a pointer to an unhook function. If you set the <b>SuppressBackgroundThread</b> member of the <i>input</i> parameter to <b>TRUE</b>, then you are responsible for calling those functions to replace the Windows GDI+ background thread.
 
 Call the hook and unhook functions before and after the application's main message loop; that is, a message loop that is active for the lifetime of GDI+. Call the hook function before the loop starts, and call the unhook function after the loop ends. The token parameter of the hook function receives an identifier that you should later pass to the unhook function. If you do not pass the proper identifier (the one returned by the hook function) to the unhook function, there will be resource leaks that won't be cleaned up until the process exits.
 
-If you do not want to be responsible for calling the hook and unhook functions, set the <b>SuppressBackgroundThread</b> member of the <i>input</i> parameter (passed to <a href="https://msdn.microsoft.com/3748a252-db65-4471-8345-ab0c136c5a21">GdiplusStartup</a>) to <b>FALSE</b>.
+If you do not want to be responsible for calling the hook and unhook functions, set the <b>SuppressBackgroundThread</b> member of the <i>input</i> parameter (passed to <a href="https://msdn.microsoft.com/en-us/library/ms534077(v=VS.85).aspx">GdiplusStartup</a>) to <b>FALSE</b>.
 
 
 ## -struct-fields
@@ -83,19 +83,19 @@ Receives a pointer to an unhook function.
 
 
 
-<a href="https://msdn.microsoft.com/88700669-cdfa-43dc-a5f1-a45db649b999">GdiplusShutdown</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534076(v=VS.85).aspx">GdiplusShutdown</a>
 
 
 
-<a href="https://msdn.microsoft.com/3748a252-db65-4471-8345-ab0c136c5a21">GdiplusStartup</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534077(v=VS.85).aspx">GdiplusStartup</a>
 
 
 
-<a href="https://msdn.microsoft.com/dd0ffdd3-f05c-4ad4-a7c8-727d1d3ec83c">GdiplusStartupInput</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534067(v=VS.85).aspx">GdiplusStartupInput</a>
 
 
 
-<a href="https://msdn.microsoft.com/c03c5ef1-13f6-4cf5-9395-be90b46aa6bb">Getting Started</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms533807(v=VS.85).aspx">Getting Started</a>
  
 
  

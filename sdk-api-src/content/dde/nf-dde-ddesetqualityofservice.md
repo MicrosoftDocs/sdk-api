@@ -63,7 +63,7 @@ Specifies the quality of service (QOS) a raw Dynamic Data Exchange (DDE) applica
 
 Type: <b>HWND</b>
 
-A handle to the DDE client window that specifies the source of <a href="https://msdn.microsoft.com/d486f584-75a3-4ffd-ba5d-f95f2692cd6c">WM_DDE_INITIATE</a> messages a client will send to start DDE conversations. 
+A handle to the DDE client window that specifies the source of <a href="https://msdn.microsoft.com/en-us/library/ms648996(v=VS.85).aspx">WM_DDE_INITIATE</a> messages a client will send to start DDE conversations. 
 
 
 ### -param pqosNew [in]
@@ -104,7 +104,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 If a quality of service has not been specified for a client window, 
-				<i>hwndClient</i>, prior to sending a <a href="https://msdn.microsoft.com/d486f584-75a3-4ffd-ba5d-f95f2692cd6c">WM_DDE_INITIATE</a> with the 
+				<i>hwndClient</i>, prior to sending a <a href="https://msdn.microsoft.com/en-us/library/ms648996(v=VS.85).aspx">WM_DDE_INITIATE</a> with the 
 				<i>wParam</i> set to 
 				<i>hwndClient</i>, the system uses the following default quality of service values for the client window: 
 
@@ -133,7 +133,7 @@ Use the <b>DdeSetQualityOfService</b> function to associate a different quality 
 
 
 
-<a href="https://msdn.microsoft.com/0bcd8de4-a6f0-4f2a-8b9d-0b1b638925fb">About Dynamic Data Exchange</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648774(v=VS.85).aspx">About Dynamic Data Exchange</a>
 
 
 
@@ -153,7 +153,7 @@ Use the <b>DdeSetQualityOfService</b> function to associate a different quality 
 
 
 
-<a href="https://msdn.microsoft.com/d486f584-75a3-4ffd-ba5d-f95f2692cd6c">WM_DDE_INITIATE</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648996(v=VS.85).aspx">WM_DDE_INITIATE</a>
  
 
  

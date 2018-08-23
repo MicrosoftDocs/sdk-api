@@ -102,21 +102,21 @@ Cube texture resources supported.
 
 ### -field D3D11_FORMAT_SUPPORT_SHADER_LOAD
 
-The HLSL <a href="https://msdn.microsoft.com/a2fbda88-29c7-4d28-bd3e-df1d9aa36ee8">Load</a> function for texture objects is supported.
+The HLSL <a href="https://msdn.microsoft.com/en-us/library/Bb509694(v=VS.85).aspx">Load</a> function for texture objects is supported.
 
 
 ### -field D3D11_FORMAT_SUPPORT_SHADER_SAMPLE
 
-The HLSL <a href="https://msdn.microsoft.com/788ba4b4-8013-411f-9a19-fb9983386fa0">Sample</a> function for texture objects is supported.
+The HLSL <a href="https://msdn.microsoft.com/en-us/library/Bb509695(v=VS.85).aspx">Sample</a> function for texture objects is supported.
 
-<div class="alert"><b>Note</b>  If the device supports the format as a resource (1D, 2D, 3D, or cube map) but doesn't support this option, the resource can still use the <a href="https://msdn.microsoft.com/788ba4b4-8013-411f-9a19-fb9983386fa0">Sample</a> method but must use only the point filtering sampler state to perform the sample.</div>
+<div class="alert"><b>Note</b>  If the device supports the format as a resource (1D, 2D, 3D, or cube map) but doesn't support this option, the resource can still use the <a href="https://msdn.microsoft.com/en-us/library/Bb509695(v=VS.85).aspx">Sample</a> method but must use only the point filtering sampler state to perform the sample.</div>
 <div> </div>
 
 ### -field D3D11_FORMAT_SUPPORT_SHADER_SAMPLE_COMPARISON
 
-The HLSL <a href="https://msdn.microsoft.com/e21894c4-e8c5-4c3d-92c1-727964f8fd94">SampleCmp</a> and <a href="https://msdn.microsoft.com/cecfc5e8-d293-4e0e-a3f4-b23f84843b7d">SampleCmpLevelZero</a> functions for texture objects are supported.
+The HLSL <a href="https://msdn.microsoft.com/en-us/library/Bb509696(v=VS.85).aspx">SampleCmp</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb509697(v=VS.85).aspx">SampleCmpLevelZero</a> functions for texture objects are supported.
 
-<div class="alert"><b>Note</b>  Windows 8 and later might provide limited support for these functions on Direct3D <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature levels</a> 9_1, 9_2, and 9_3. For more info, see <a href="https://msdn.microsoft.com/BB8B4119-E79B-468C-A5E0-E250BF204A98">Implementing shadow buffers for Direct3D feature level 9</a>.
+<div class="alert"><b>Note</b>  Windows 8 and later might provide limited support for these functions on Direct3D <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature levels</a> 9_1, 9_2, and 9_3. For more info, see <a href="https://msdn.microsoft.com/BB8B4119-E79B-468C-A5E0-E250BF204A98">Implementing shadow buffers for Direct3D feature level 9</a>.
 </div>
 <div> </div>
 

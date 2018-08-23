@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/BC2F2837-40F0-4293-A190-8B5F81BB01B6">3D transform effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Dn441538(v=VS.85).aspx">3D transform effect</a>.
         
 
 

@@ -62,7 +62,7 @@ Notification for data being read from a device service data session.
 
 ### -param deviceService [in]
 
-The <a href="IMbnDeviceService">IMbnDeviceService</a> session object on which the data was read.
+The <a href="https://msdn.microsoft.com/en-us/library/Hh780509(v=VS.85).aspx">IMbnDeviceService</a> session object on which the data was read.
 
 
 ### -param deviceServiceData [in]

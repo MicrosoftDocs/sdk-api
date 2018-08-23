@@ -52,7 +52,7 @@ req.irql:
 
 
 
-Specifies whether the quantizer scale is linear or non-linear. This enumeration is used with the <a href="https://msdn.microsoft.com/0d1a62a2-7595-4c10-a1cf-d32dda337ecd">AVEncMPVQScaleType</a> property.
+Specifies whether the quantizer scale is linear or non-linear. This enumeration is used with the <a href="https://msdn.microsoft.com/en-us/library/Dd317894(v=VS.85).aspx">AVEncMPVQScaleType</a> property.
 
 
 
@@ -87,11 +87,11 @@ The quantization scale is non-linear.
 
 
 
-<a href="https://msdn.microsoft.com/5d6e48cb-d181-448e-a96e-e5ab500427d7">Codec API Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd387884(v=VS.85).aspx">Codec API Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/cc3f1bd9-1d36-45e6-94e2-07f2800fd073">ICodecAPI Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx">ICodecAPI Interface</a>
  
 
  

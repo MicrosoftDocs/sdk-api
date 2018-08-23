@@ -72,28 +72,28 @@ The <b>IMILBitmapEffectFactory</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/e03dd4df-bd84-4657-baa8-ff21eff90dcf">CreateContext</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735292(v=VS.85).aspx">CreateContext</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://msdn.microsoft.com/0c8fbbba-32e6-459c-90ab-2453b57c27ee">IMILBitmapEffectRenderContext</a> object.
+Creates an <a href="https://msdn.microsoft.com/en-us/library/ms735245(v=VS.85).aspx">IMILBitmapEffectRenderContext</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4a46ef47-062d-4ceb-b41f-c7c7b91e2cd8">CreateEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735293(v=VS.85).aspx">CreateEffect</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://msdn.microsoft.com/74078eaa-ae95-4b9b-993b-efbfb18a164d">IMILBitmapEffect</a> object.
+Creates an <a href="https://msdn.microsoft.com/en-us/library/ms735317(v=VS.85).aspx">IMILBitmapEffect</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/8ed9149a-7f00-4adf-9e6a-031540d83e4f">CreateEffectOuter</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735294(v=VS.85).aspx">CreateEffectOuter</a>
 </td>
 <td align="left" width="63%">
-Creates an outer <a href="https://msdn.microsoft.com/74078eaa-ae95-4b9b-993b-efbfb18a164d">IMILBitmapEffect</a> object.
+Creates an outer <a href="https://msdn.microsoft.com/en-us/library/ms735317(v=VS.85).aspx">IMILBitmapEffect</a> object.
 
 </td>
 </tr>

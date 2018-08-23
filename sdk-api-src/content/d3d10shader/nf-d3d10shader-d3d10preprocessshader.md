@@ -82,41 +82,41 @@ The name of the file that contains the shader code.
 
 ### -param pDefines [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/35953846-a07e-4ca3-91d9-3ddb3944614d">D3D10_SHADER_MACRO</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb172436(v=VS.85).aspx">D3D10_SHADER_MACRO</a>*</b>
 
-Optional. Pointer to an array of macro definitions (see <a href="https://msdn.microsoft.com/35953846-a07e-4ca3-91d9-3ddb3944614d">D3D10_SHADER_MACRO</a>). 
+Optional. Pointer to an array of macro definitions (see <a href="https://msdn.microsoft.com/en-us/library/Bb172436(v=VS.85).aspx">D3D10_SHADER_MACRO</a>). 
           The last structure in the array serves as a terminator and must have all members set to 0.  
           If not used, set <i>pDefines</i> to <b>NULL</b>.
 
 
 ### -param pInclude [in]
 
-Type: <b><a href="https://msdn.microsoft.com/9e8a6b37-0b0c-46d1-aa4a-35efc07f1a6b">LPD3D10INCLUDE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173775(v=VS.85).aspx">LPD3D10INCLUDE</a></b>
 
-Optional. Pointer to an <a href="https://msdn.microsoft.com/9e8a6b37-0b0c-46d1-aa4a-35efc07f1a6b">ID3D10Include Interface</a> interface for handling include files. Setting this to <b>NULL</b> will cause a compile error if a shader contains a #include.
+Optional. Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb173775(v=VS.85).aspx">ID3D10Include Interface</a> interface for handling include files. Setting this to <b>NULL</b> will cause a compile error if a shader contains a #include.
 
 
 ### -param ppShaderText [out]
 
-Type: <b><a href="https://msdn.microsoft.com/d180fee0-1a69-4250-a0c4-d6e3754f063a">ID3D10Blob</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn933260(v=VS.85).aspx">ID3D10Blob</a>**</b>
 
-A pointer to a buffer that receives a pointer to an <a href="https://msdn.microsoft.com/d180fee0-1a69-4250-a0c4-d6e3754f063a">ID3D10Blob Interface</a> that contains a single string containing shader-tokens.
+A pointer to a buffer that receives a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dn933260(v=VS.85).aspx">ID3D10Blob Interface</a> that contains a single string containing shader-tokens.
 
 
 ### -param ppErrorMsgs [out]
 
-Type: <b><a href="https://msdn.microsoft.com/d180fee0-1a69-4250-a0c4-d6e3754f063a">ID3D10Blob</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn933260(v=VS.85).aspx">ID3D10Blob</a>**</b>
 
-A pointer to a buffer that receives a pointer to an <a href="https://msdn.microsoft.com/d180fee0-1a69-4250-a0c4-d6e3754f063a">ID3D10Blob Interface</a> that contains a listing of errors and warnings that occurred during compilation. These errors and warnings are identical to the debug output from a debugger.
+A pointer to a buffer that receives a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dn933260(v=VS.85).aspx">ID3D10Blob Interface</a> that contains a listing of errors and warnings that occurred during compilation. These errors and warnings are identical to the debug output from a debugger.
 
 
 ## -returns
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
 
 
 
@@ -135,7 +135,7 @@ Use this function to generate a shader-token stream, which is the compiled outpu
 
 
 
-<a href="https://msdn.microsoft.com/c8b33c08-7b3f-4b33-9b3c-4aa2b45b8f32">Shader Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205157(v=VS.85).aspx">Shader Functions</a>
  
 
  

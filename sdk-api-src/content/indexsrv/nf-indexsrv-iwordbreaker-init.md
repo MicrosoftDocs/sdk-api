@@ -52,7 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Initializes the <a href="https://msdn.microsoft.com/36c46931-5c5c-4ab9-9291-60ad93cebbf0">IWordBreaker</a> implementation and indicates the mode in which the component operates.
+Initializes the <a href="https://msdn.microsoft.com/en-us/library/Bb266433(v=VS.85).aspx">IWordBreaker</a> implementation and indicates the mode in which the component operates.
 
 
 ## -parameters
@@ -78,7 +78,7 @@ Maximum number of characters in words that are added to the <a href="https://msd
 
 Type: <b>BOOL*</b>
 
-Pointer to a variable that receives a flag indicating whether there are license restrictions for this <a href="https://msdn.microsoft.com/36c46931-5c5c-4ab9-9291-60ad93cebbf0">IWordBreaker</a> implementation. <b>TRUE</b> indicates that the stemmer is restricted to authorized use only. <b>FALSE</b> indicates that this <b>IWordBreaker</b> implementation can be used freely.
+Pointer to a variable that receives a flag indicating whether there are license restrictions for this <a href="https://msdn.microsoft.com/en-us/library/Bb266433(v=VS.85).aspx">IWordBreaker</a> implementation. <b>TRUE</b> indicates that the stemmer is restricted to authorized use only. <b>FALSE</b> indicates that this <b>IWordBreaker</b> implementation can be used freely.
 
 
 ## -returns
@@ -148,7 +148,7 @@ Other errors.
 
 
 
-The functionality of the word breaker is similar in both index creation and querying. Differences are language dependent. If <i>pfLicense</i> is <b>TRUE</b>, and if you want more information about possible license restrictions, call the <a href="https://msdn.microsoft.com/cd2798cf-8db2-474b-8a1c-abd8fdc9187e">IWordBreaker::GetLicenseToUse</a> method.
+The functionality of the word breaker is similar in both index creation and querying. Differences are language dependent. If <i>pfLicense</i> is <b>TRUE</b>, and if you want more information about possible license restrictions, call the <a href="https://msdn.microsoft.com/en-us/library/Bb266435(v=VS.85).aspx">IWordBreaker::GetLicenseToUse</a> method.
             
 
 
@@ -159,7 +159,7 @@ The functionality of the word breaker is similar in both index creation and quer
 
 
 
-<a href="https://msdn.microsoft.com/36c46931-5c5c-4ab9-9291-60ad93cebbf0">IWordBreaker</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266433(v=VS.85).aspx">IWordBreaker</a>
  
 
  

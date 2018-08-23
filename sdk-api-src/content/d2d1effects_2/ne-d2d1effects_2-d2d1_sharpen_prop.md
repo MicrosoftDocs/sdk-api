@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/1eb12d1e-83c1-ba13-33be-df2078f3ccb8">Sharpen effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Dn900461(v=VS.85).aspx">Sharpen effect</a>.
 
 
 ## -enum-fields

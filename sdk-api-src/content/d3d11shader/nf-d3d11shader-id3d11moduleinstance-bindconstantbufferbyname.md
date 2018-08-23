@@ -61,21 +61,21 @@ Rebinds a constant buffer by name to a destination slot.
 
 ### -param pName [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPCSTR</a></b>
 
 The name of the constant buffer for rebinding.
 
 
 ### -param uDstSlot [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 The destination slot number for rebinding.
 
 
 ### -param cbDstOffset [in]
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 The offset in bytes of the destination slot for rebinding. The offset must have 16-byte alignment.
 
@@ -84,7 +84,7 @@ The offset in bytes of the destination slot for rebinding. The offset must have 
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 Returns:
 
@@ -95,7 +95,7 @@ Returns:
               </li>
 <li><b>E_FAIL</b> for an invalid rebinding, for example, the rebinding is out-of-bounds
               </li>
-<li>Possibly one of the other <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>
+<li>Possibly one of the other <a href="https://msdn.microsoft.com/en-us/library/Ff476174(v=VS.85).aspx">Direct3D 11 Return Codes</a>
 </li>
 </ul>
 
@@ -106,7 +106,7 @@ Returns:
 
 
 
-<a href="https://msdn.microsoft.com/BBC64078-FCA8-4868-B9CD-3E6F3C86BFC5">ID3D11ModuleInstance</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn280564(v=VS.85).aspx">ID3D11ModuleInstance</a>
  
 
  

@@ -71,7 +71,7 @@ The number of elements in the <i>rgpCriteria</i> array.
 
 ### -param rgpCriteria [in, optional]
 
-A constant pointer to an array of <a href="https://msdn.microsoft.com/246722a9-5db6-4a82-8f29-f60f0a2263e3">CERT_SELECT_CRITERIA</a> structures that specify the criteria used to select certificate chains.
+A constant pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Dd433801(v=VS.85).aspx">CERT_SELECT_CRITERIA</a> structures that specify the criteria used to select certificate chains.
 
 
 ### -param bIsClient [in]
@@ -86,7 +86,7 @@ The number of elements in the <i>ppCertChainContexts</i> array.
 
 ### -param ppCertChainContexts [out]
 
-The address of a pointer to an array of <a href="https://msdn.microsoft.com/609311f4-9cd6-4945-9f93-7266b3fc4a74">CERT_CHAIN_CONTEXT</a> structures that specifies the certificate chains of certificates that can be used to authenticate a user on the server specified by the <i>pTargetName</i> parameter.
+The address of a pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Aa377182(v=VS.85).aspx">CERT_CHAIN_CONTEXT</a> structures that specifies the certificate chains of certificates that can be used to authenticate a user on the server specified by the <i>pTargetName</i> parameter.
 
 
 ## -returns

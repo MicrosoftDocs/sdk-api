@@ -74,7 +74,7 @@ The <b>BSTR</b> value that specifies the item name.  <a href="https://msdn.micro
 
 #### - varItem [in]
 
-Item value. When the item is an object, this parameter holds the  <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface pointer on the object.
+Item value. When the item is an object, this parameter holds the  <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface pointer on the object.
 
 
 ## -returns
@@ -126,7 +126,7 @@ This method is not supported in any of the  <a href="https://msdn.microsoft.com/
 
 
 
-<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
  
 
  

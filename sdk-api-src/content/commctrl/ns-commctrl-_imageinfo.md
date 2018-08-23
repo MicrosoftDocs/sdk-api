@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Contains information about an image in an image list. This structure is used with the <a href="https://msdn.microsoft.com/a08fbc4d-96f0-403d-8062-0592ab32dc5c">IImageList::GetImageInfo</a> function. 
+Contains information about an image in an image list. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb761482(v=VS.85).aspx">IImageList::GetImageInfo</a> function. 
 
 
 ## -struct-fields

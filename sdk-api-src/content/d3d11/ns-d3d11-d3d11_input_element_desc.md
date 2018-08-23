@@ -68,7 +68,7 @@ The HLSL semantic associated with this element in a shader input-signature.
 
 ### -field SemanticIndex
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 The semantic index for the element. A semantic index modifies a semantic, with an integer index number. A semantic index is only needed in a 
         case where there is more than one element with the same semantic. For example, a 4x4 matrix would have four components each with the semantic 
@@ -89,21 +89,21 @@ The semantic index for the element. A semantic index modifies a semantic, with a
 
 ### -field Format
 
-Type: <b><a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a></b>
 
-The data type of the element data. See <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>.
+The data type of the element data. See <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>.
 
 
 ### -field InputSlot
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 An integer value that identifies the input-assembler (see input slot). Valid values are between 0 and 15, defined in D3D11.h.
 
 
 ### -field AlignedByteOffset
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 Optional. Offset (in bytes) between each element. Use D3D11_APPEND_ALIGNED_ELEMENT for convenience to define the current element directly 
         after the previous one, including any packing if necessary.
@@ -111,14 +111,14 @@ Optional. Offset (in bytes) between each element. Use D3D11_APPEND_ALIGNED_ELEME
 
 ### -field InputSlotClass
 
-Type: <b><a href="https://msdn.microsoft.com/785c534d-0931-4705-9ca9-f52fe0573d85">D3D11_INPUT_CLASSIFICATION</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476179(v=VS.85).aspx">D3D11_INPUT_CLASSIFICATION</a></b>
 
-Identifies the input data class for a single input slot (see <a href="https://msdn.microsoft.com/785c534d-0931-4705-9ca9-f52fe0573d85">D3D11_INPUT_CLASSIFICATION</a>).
+Identifies the input data class for a single input slot (see <a href="https://msdn.microsoft.com/en-us/library/Ff476179(v=VS.85).aspx">D3D11_INPUT_CLASSIFICATION</a>).
 
 
 ### -field InstanceDataStepRate
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 The number of instances to draw using the same per-instance data before advancing in the buffer by one element. This value must be 0 for an 
         element that contains per-vertex data (the slot class is set to D3D11_INPUT_PER_VERTEX_DATA).
@@ -129,7 +129,7 @@ The number of instances to draw using the same per-instance data before advancin
 
 
 An input-layout object contains an array of structures, each structure defines one element being read from an input slot. Create an input-layout 
-      object by calling <a href="https://msdn.microsoft.com/fe233b7b-3729-428a-8611-e98ea4c5af35">ID3D11Device::CreateInputLayout</a>. For an example, see the "Create the Input-Layout Object" subtopic under the  <a href="https://msdn.microsoft.com/84c0ca29-2356-4b7f-98ee-ff1758edc540">Getting Started with the Input-Assembler Stage</a> topic.
+      object by calling <a href="https://msdn.microsoft.com/en-us/library/Ff476512(v=VS.85).aspx">ID3D11Device::CreateInputLayout</a>. For an example, see the "Create the Input-Layout Object" subtopic under the  <a href="https://msdn.microsoft.com/en-us/library/Bb205117(v=VS.85).aspx">Getting Started with the Input-Assembler Stage</a> topic.
 
 
 
@@ -139,7 +139,7 @@ An input-layout object contains an array of structures, each structure defines o
 
 
 
-<a href="https://msdn.microsoft.com/2a45182a-7114-4075-b8b8-147f52fe7aa9">Core Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476155(v=VS.85).aspx">Core Structures</a>
  
 
  

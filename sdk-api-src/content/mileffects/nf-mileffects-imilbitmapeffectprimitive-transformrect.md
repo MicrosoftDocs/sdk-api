@@ -69,7 +69,7 @@ A zero based index value indicating the output pin through which to transform th
 
 ### -param p [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/da11ec7a-3d36-49b2-be4d-cbc05517d364">MIL_RECTD</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735228(v=VS.85).aspx">MIL_RECTD</a>*</b>
 
 A pointer to the rectangle to transform.
 
@@ -83,7 +83,7 @@ A value indicating whether the rectangle is being transformed from front to back
 
 ### -param pContext [in]
 
-Type: <b><a href="https://msdn.microsoft.com/0c8fbbba-32e6-459c-90ab-2453b57c27ee">IMILBitmapEffectRenderContext</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735245(v=VS.85).aspx">IMILBitmapEffectRenderContext</a>*</b>
 
 The render context to use for the transformation.
 

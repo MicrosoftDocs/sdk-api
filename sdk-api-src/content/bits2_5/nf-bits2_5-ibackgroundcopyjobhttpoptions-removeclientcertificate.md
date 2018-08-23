@@ -116,7 +116,7 @@ The state of the job cannot be BG_JOB_STATE_CANCELLED or BG_JOB_STATE_ACKNOWLEDG
 
 
 
-You use the <a href="https://msdn.microsoft.com/60839bac-7f5f-4c43-84d4-26f1b21f974d">IBackgroundCopyJobHttpOptions::SetClientCertificateByID</a> or <a href="https://msdn.microsoft.com/8262b360-ab05-42a3-b5e7-178dc9f23fc6">IBackgroundCopyJobHttpOptions::SetClientCertificateByName</a> method to specify the certificate.
+You use the <a href="https://msdn.microsoft.com/en-us/library/Aa964256(v=VS.85).aspx">IBackgroundCopyJobHttpOptions::SetClientCertificateByID</a> or <a href="https://msdn.microsoft.com/en-us/library/Aa964257(v=VS.85).aspx">IBackgroundCopyJobHttpOptions::SetClientCertificateByName</a> method to specify the certificate.
 
 
 
@@ -126,19 +126,19 @@ You use the <a href="https://msdn.microsoft.com/60839bac-7f5f-4c43-84d4-26f1b21f
 
 
 
-<a href="https://msdn.microsoft.com/d8ccf65d-a4f1-44d9-9903-43e5529f1f29">IBackgroundCopyJobHttpOptions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa964250(v=VS.85).aspx">IBackgroundCopyJobHttpOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/cd317bf9-1d4b-438e-beec-15ea7da90fc9">IBackgroundCopyJobHttpOptions::GetClientCertificate</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa964251(v=VS.85).aspx">IBackgroundCopyJobHttpOptions::GetClientCertificate</a>
 
 
 
-<a href="https://msdn.microsoft.com/60839bac-7f5f-4c43-84d4-26f1b21f974d">IBackgroundCopyJobHttpOptions::SetClientCertificateByID</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa964256(v=VS.85).aspx">IBackgroundCopyJobHttpOptions::SetClientCertificateByID</a>
 
 
 
-<a href="https://msdn.microsoft.com/8262b360-ab05-42a3-b5e7-178dc9f23fc6">IBackgroundCopyJobHttpOptions::SetClientCertificateByName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa964257(v=VS.85).aspx">IBackgroundCopyJobHttpOptions::SetClientCertificateByName</a>
  
 
  

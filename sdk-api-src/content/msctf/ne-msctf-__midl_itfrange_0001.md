@@ -74,7 +74,7 @@ The anchor has forward gravity.
 
 
 
-For more information about anchor gravity, see <a href="ranges.htm">Anchor Gravity</a>.
+For more information about anchor gravity, see <a href="https://msdn.microsoft.com/en-us/library/ms629023(v=VS.85).aspx">Anchor Gravity</a>.
 
 
 
@@ -84,7 +84,7 @@ For more information about anchor gravity, see <a href="ranges.htm">Anchor Gravi
 
 
 
-<a href="ranges.htm">Anchor Gravity</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms629023(v=VS.85).aspx">Anchor Gravity</a>
 
 
 

@@ -68,7 +68,7 @@ The CLSID that will associate the correct data and code.
 
 ### -param riid [in]
 
-A reference to the identifier of the interface that the caller is to use to communicate with the class object. Usually, this is IID_IClassFactory (defined in the OLE headers as the interface identifier for <a href="https://msdn.microsoft.com/f624f833-2b69-43bc-92cd-c4ecbe6051c5">IClassFactory</a>).
+A reference to the identifier of the interface that the caller is to use to communicate with the class object. Usually, this is IID_IClassFactory (defined in the OLE headers as the interface identifier for <a href="https://msdn.microsoft.com/en-us/library/ms694364(v=VS.85).aspx">IClassFactory</a>).
 
 
 ### -param ppv [out]
@@ -120,12 +120,12 @@ The DLL does not support the class (object definition).
 
 
 
-If a call to the <a href="https://msdn.microsoft.com/65e758ce-50a4-49e8-b3b2-0cd148d2781a">CoGetClassObject</a> function finds the class object that is to be loaded in a DLL, <b>CoGetClassObject</b> uses the DLL's exported <b>DllGetClassObject</b> function. 
+If a call to the <a href="https://msdn.microsoft.com/en-us/library/ms684007(v=VS.85).aspx">CoGetClassObject</a> function finds the class object that is to be loaded in a DLL, <b>CoGetClassObject</b> uses the DLL's exported <b>DllGetClassObject</b> function. 
 
 
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
-You should not call <b>DllGetClassObject</b> directly. When an object is defined in a DLL, <a href="https://msdn.microsoft.com/65e758ce-50a4-49e8-b3b2-0cd148d2781a">CoGetClassObject</a> calls the <a href="https://msdn.microsoft.com/be0d9e82-2438-488e-88c3-68dc7ac3e16f">CoLoadLibrary</a> function to load the DLL, which, in turn, calls <b>DllGetClassObject</b>. 
+You should not call <b>DllGetClassObject</b> directly. When an object is defined in a DLL, <a href="https://msdn.microsoft.com/en-us/library/ms684007(v=VS.85).aspx">CoGetClassObject</a> calls the <a href="https://msdn.microsoft.com/en-us/library/ms692578(v=VS.85).aspx">CoLoadLibrary</a> function to load the DLL, which, in turn, calls <b>DllGetClassObject</b>. 
 
 
 
@@ -136,7 +136,7 @@ You need to implement <b>DllGetClassObject</b> in (and export it from) DLLs that
 
 #### Examples
 
-The following is an example (in C++) of an implementation of <b>DllGetClassObject</b>. In this example, <b>DllGetClassObject</b> creates a class object and calls its <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> method to retrieve a pointer to the interface requested in riid. The implementation releases the reference it holds to the <a href="https://msdn.microsoft.com/f624f833-2b69-43bc-92cd-c4ecbe6051c5">IClassFactory</a> interface because it returns a reference-counted pointer to <b>IClassFactory</b> to the caller.
+The following is an example (in C++) of an implementation of <b>DllGetClassObject</b>. In this example, <b>DllGetClassObject</b> creates a class object and calls its <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> method to retrieve a pointer to the interface requested in riid. The implementation releases the reference it holds to the <a href="https://msdn.microsoft.com/en-us/library/ms694364(v=VS.85).aspx">IClassFactory</a> interface because it returns a reference-counted pointer to <b>IClassFactory</b> to the caller.
 
 
 
@@ -171,11 +171,11 @@ The following is an example (in C++) of an implementation of <b>DllGetClassObjec
 
 
 
-<a href="https://msdn.microsoft.com/65e758ce-50a4-49e8-b3b2-0cd148d2781a">CoGetClassObject</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684007(v=VS.85).aspx">CoGetClassObject</a>
 
 
 
-<a href="https://msdn.microsoft.com/a47df9eb-97cb-4875-a121-1dabe7bc9db6">DllCanUnloadNow</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms690368(v=VS.85).aspx">DllCanUnloadNow</a>
  
 
  

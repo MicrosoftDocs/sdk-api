@@ -64,7 +64,7 @@ The <b>SCROLLBARINFO</b> structure contains scroll bar information.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-Specifies the size, in bytes, of the structure. Before calling the <a href="https://msdn.microsoft.com/949e9d33-35d6-4f27-a1c7-7b034ac52e6d">GetScrollBarInfo</a> function, set <b>cbSize</b> to <b>sizeof</b>(<b>SCROLLBARINFO</b>). 
+Specifies the size, in bytes, of the structure. Before calling the <a href="https://msdn.microsoft.com/en-us/library/Bb787581(v=VS.85).aspx">GetScrollBarInfo</a> function, set <b>cbSize</b> to <b>sizeof</b>(<b>SCROLLBARINFO</b>). 
 
 
 ### -field rcScrollBar
@@ -201,7 +201,7 @@ The component is disabled.
 
 
 
-<a href="https://msdn.microsoft.com/949e9d33-35d6-4f27-a1c7-7b034ac52e6d">GetScrollBarInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787581(v=VS.85).aspx">GetScrollBarInfo</a>
 
 
 
@@ -217,7 +217,7 @@ The component is disabled.
 
 
 
-<a href="https://msdn.microsoft.com/23a21f01-b22c-4f4c-a6c0-43c9b2d80ebb">Scroll Bars</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787529(v=VS.85).aspx">Scroll Bars</a>
  
 
  

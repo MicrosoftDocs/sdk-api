@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Defines the prototype for the compare function used by <a href="https://msdn.microsoft.com/cf9c56fd-eeca-414a-8c3f-a962d41b1161">DSA_Sort</a> when the items being compared are constant objects.
+Defines the prototype for the compare function used by <a href="https://msdn.microsoft.com/en-us/library/Bb775670(v=VS.85).aspx">DSA_Sort</a> when the items being compared are constant objects.
 
 
 ## -parameters
@@ -86,7 +86,7 @@ Additional data passed to <i>pfnCmp</i>.
 
 Type: <b>int</b>
 
-The meaning of the return values depends on the function that uses this callback prototype. The return values for <a href="https://msdn.microsoft.com/cf9c56fd-eeca-414a-8c3f-a962d41b1161">DSA_Sort</a> are as follows:                
+The meaning of the return values depends on the function that uses this callback prototype. The return values for <a href="https://msdn.microsoft.com/en-us/library/Bb775670(v=VS.85).aspx">DSA_Sort</a> are as follows:                
                     
 
 

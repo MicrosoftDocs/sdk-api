@@ -69,9 +69,9 @@ An unsigned integer specifying the swap chain.
 
 ### -param pDestSurface [in]
 
-Type: <b><a href="https://msdn.microsoft.com/312eee39-6a5c-46b6-b145-78d5f0f9eecd">IDirect3DSurface9</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/312eee39-6a5c-46b6-b145-78d5f0f9eecd">IDirect3DSurface9</a> interface that will receive a copy of the contents of the front buffer. The data is returned in successive rows with no intervening space, starting from the vertically highest row on the device's output to the lowest.
+Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a> interface that will receive a copy of the contents of the front buffer. The data is returned in successive rows with no intervening space, starting from the vertically highest row on the device's output to the lowest.
 
 
 
@@ -82,7 +82,7 @@ For windowed mode, the size of the destination surface should be the size of the
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be one of the following: D3DERR_DRIVERINTERNALERROR, D3DERR_DEVICELOST, D3DERR_INVALIDCALL
 
@@ -99,7 +99,7 @@ This method is the only way to capture an antialiased screen shot.
 
 This function is very slow, by design, and should not be used in any performance-critical path.
 
-For more information, see <a href="https://msdn.microsoft.com/dc4326ba-2ebc-4bca-8fba-02d8db739b8f">Lost Devices and Retrieved Data</a>.
+For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb174714(v=VS.85).aspx">Lost Devices and Retrieved Data</a>.
 
 
 
@@ -109,7 +109,7 @@ For more information, see <a href="https://msdn.microsoft.com/dc4326ba-2ebc-4bca
 
 
 
-<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
  
 
  

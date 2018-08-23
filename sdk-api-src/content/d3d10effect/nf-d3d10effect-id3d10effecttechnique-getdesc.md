@@ -61,18 +61,18 @@ Get a technique description.
 
 ### -param pDesc [in]
 
-Type: <b><a href="https://msdn.microsoft.com/f4974764-e103-4a7f-b615-6acb9ae7aa37">D3D10_TECHNIQUE_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172457(v=VS.85).aspx">D3D10_TECHNIQUE_DESC</a>*</b>
 
-A pointer to a technique description (see <a href="https://msdn.microsoft.com/f4974764-e103-4a7f-b615-6acb9ae7aa37">D3D10_TECHNIQUE_DESC</a>).
+A pointer to a technique description (see <a href="https://msdn.microsoft.com/en-us/library/Bb172457(v=VS.85).aspx">D3D10_TECHNIQUE_DESC</a>).
 
 
 ## -returns
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
 
 
 
@@ -82,7 +82,7 @@ Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4
 
 
 
-<a href="https://msdn.microsoft.com/3965c6d5-e529-4225-861a-7846e35840d0">ID3D10EffectTechnique Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173708(v=VS.85).aspx">ID3D10EffectTechnique Interface</a>
  
 
  

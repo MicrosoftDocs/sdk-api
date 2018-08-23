@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Values for the <a href="https://msdn.microsoft.com/F3B94BDC-120E-4B44-9AA8-595AAEFD1F61">D2D1_EDGEDETECTION_PROP_MODE</a> property of the <a href="https://msdn.microsoft.com/d22868cf-95fe-690e-66ac-268d7e116aee">Edge Detection effect</a>.
+Values for the <a href="https://msdn.microsoft.com/en-us/library/Dn890723(v=VS.85).aspx">D2D1_EDGEDETECTION_PROP_MODE</a> property of the <a href="https://msdn.microsoft.com/en-us/library/Dn890763(v=VS.85).aspx">Edge Detection effect</a>.
 
 
 ## -enum-fields

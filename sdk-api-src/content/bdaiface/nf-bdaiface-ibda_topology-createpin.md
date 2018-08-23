@@ -64,7 +64,7 @@ The <b>CreatePin</b> method creates an instance of a specified pin type.
 
 ### -param ulPinType [in]
 
-Specifies the type of pin to create. To obtain the available values, call <a href="https://msdn.microsoft.com/e94c5ae3-1d5f-4ca6-a09b-7190cbe2035b">IBDA_Topology::GetPinTypes</a>.
+Specifies the type of pin to create. To obtain the available values, call <a href="https://msdn.microsoft.com/en-us/library/Dd693455(v=VS.85).aspx">IBDA_Topology::GetPinTypes</a>.
 
 
 ### -param pulPinId [out]
@@ -86,11 +86,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/35dfe39e-05b4-4c7b-9358-081429b064f2">IBDA_Topology Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd693447(v=VS.85).aspx">IBDA_Topology Interface</a>
  
 
  

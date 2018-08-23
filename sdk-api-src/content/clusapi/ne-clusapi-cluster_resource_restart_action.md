@@ -52,9 +52,9 @@ req.irql:
 ## -description
 
 
-Used by the <a href="https://msdn.microsoft.com/88be809b-a338-490a-82f3-886bfc2e3f37">RestartAction</a> <a href="https://msdn.microsoft.com/b84fe8fe-a49e-4c3c-acbd-f9cfe5ac0782">resource common property</a> to specify the action 
-    to be taken by the <a href="https://msdn.microsoft.com/90717d6e-f2a4-49a0-86b6-17de1c4bcfe4">cluster service</a> if the 
-    <a href="https://msdn.microsoft.com/f18644d1-63ec-4920-b703-a3f149684508">resource fails</a>.
+Used by the <a href="https://msdn.microsoft.com/en-us/library/Aa372202(v=VS.85).aspx">RestartAction</a> <a href="https://msdn.microsoft.com/en-us/library/Aa372230(v=VS.85).aspx">resource common property</a> to specify the action 
+    to be taken by the <a href="https://msdn.microsoft.com/en-us/library/Aa369163(v=VS.85).aspx">cluster service</a> if the 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa372255(v=VS.85).aspx">resource fails</a>.
 
 
 ## -enum-fields
@@ -70,10 +70,10 @@ Do not restart the resource after a failure.
 ### -field ClusterResourceRestartNoNotify
 
 Restart the resource after a failure. If the resource exceeds its restart threshold within its restart 
-       period, do not attempt to <a href="https://msdn.microsoft.com/6722d075-02e0-4817-abc3-dce8951c17da">failover</a> the 
-       <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a> to another 
-       <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a> in the 
-       <a href="c_gly.htm">cluster</a>.
+       period, do not attempt to <a href="https://msdn.microsoft.com/en-us/library/Aa369573(v=VS.85).aspx">failover</a> the 
+       <a href="https://msdn.microsoft.com/en-us/library/Aa369645(v=VS.85).aspx">group</a> to another 
+       <a href="https://msdn.microsoft.com/en-us/library/Aa371745(v=VS.85).aspx">node</a> in the 
+       <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
 
 
 ### -field ClusterResourceRestartNotify
@@ -85,8 +85,8 @@ Restart the resource after a failure. If the resource exceeds its restart thresh
 ### -field ClusterResourceRestartActionCount
 
 Defines the maximum value of the 
-       <a href="https://msdn.microsoft.com/6300bdb7-2349-44f8-913a-dd84813bd3bd">CLUSTER_RESOURCE_RESTART_ACTION</a> enumeration.  It is not a valid value for the 
-       <a href="https://msdn.microsoft.com/88be809b-a338-490a-82f3-886bfc2e3f37">RestartAction</a> property.
+       <a href="https://msdn.microsoft.com/en-us/library/Bb309167(v=VS.85).aspx">CLUSTER_RESOURCE_RESTART_ACTION</a> enumeration.  It is not a valid value for the 
+       <a href="https://msdn.microsoft.com/en-us/library/Aa372202(v=VS.85).aspx">RestartAction</a> property.
 
 
 ## -see-also
@@ -94,15 +94,15 @@ Defines the maximum value of the
 
 
 
-<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb309147(v=VS.85).aspx">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/88be809b-a338-490a-82f3-886bfc2e3f37">RestartAction</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa372202(v=VS.85).aspx">RestartAction</a>
 
 
 
-<a href="https://msdn.microsoft.com/b84fe8fe-a49e-4c3c-acbd-f9cfe5ac0782">resource common property</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa372230(v=VS.85).aspx">resource common property</a>
  
 
  

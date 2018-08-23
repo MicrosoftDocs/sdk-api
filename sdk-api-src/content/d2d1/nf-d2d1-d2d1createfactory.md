@@ -62,7 +62,7 @@ Creates a factory object
 
 ### -param factoryType [in]
 
-Type: <b><a href="https://msdn.microsoft.com/428053d3-7ea0-4b01-9924-4a31d8e018fb">D2D1_FACTORY_TYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368104(v=VS.85).aspx">D2D1_FACTORY_TYPE</a></b>
 
 The threading model of the factory and the resources it creates.
 
@@ -76,7 +76,7 @@ A reference to the IID of <a href="https://msdn.microsoft.com/cef6115c-98e8-49e6
 
 ### -param pFactoryOptions [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/2765d34e-978c-4121-82c9-2780d54e2850">D2D1_FACTORY_OPTIONS</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dd368102(v=VS.85).aspx">D2D1_FACTORY_OPTIONS</a>*</b>
 
 The level of detail provided to the debugging layer.
 
@@ -92,7 +92,7 @@ When this method returns, contains the address to a pointer to the new factory.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
@@ -114,7 +114,7 @@ The <a href="https://msdn.microsoft.com/cef6115c-98e8-49e6-b419-271b43ce2938">ID
 
 
 
-<a href="https://msdn.microsoft.com/b1362ef6-40fc-4fa5-ba5b-22c622c39f04">Direct2D API Overview</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd317121(v=VS.85).aspx">Direct2D API Overview</a>
  
 
  

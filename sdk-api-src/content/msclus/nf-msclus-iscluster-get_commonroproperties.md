@@ -60,7 +60,7 @@ req.product: GDI+ 1.1
 
 Returns 
     the read-only <a href="https://msdn.microsoft.com/5341d390-69dd-4e84-a443-f35a4b6c0bab">common properties</a> of a 
-    <a href="c_gly.htm">cluster</a>.
+    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
 
 This property is read-only.
 

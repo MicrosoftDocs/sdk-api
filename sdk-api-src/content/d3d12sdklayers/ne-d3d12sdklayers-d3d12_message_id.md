@@ -52,11 +52,11 @@ req.irql:
 
 
 Specifies debug message IDs for setting up an info-queue filter 
-          (see <a href="https://msdn.microsoft.com/5CD64E71-8530-43FB-B441-25C61ED6F317">D3D12_INFO_QUEUE_FILTER</a>); 
+          (see <a href="https://msdn.microsoft.com/en-us/library/Dn950142(v=VS.85).aspx">D3D12_INFO_QUEUE_FILTER</a>); 
           use these messages to allow or deny message categories to pass through the storage and retrieval filters. 
           These IDs are used by methods such as 
-          <a href="https://msdn.microsoft.com/B7B6D1C4-18FD-492A-8346-CA02FCD3EC4B">ID3D12InfoQueue::GetMessage</a> or 
-          <a href="https://msdn.microsoft.com/34AAF9BB-5340-4DB3-87B9-6C26AB6C881C">ID3D12InfoQueue::AddMessage</a>.
+          <a href="https://msdn.microsoft.com/en-us/library/Dn950174(v=VS.85).aspx">ID3D12InfoQueue::GetMessage</a> or 
+          <a href="https://msdn.microsoft.com/en-us/library/Dn950165(v=VS.85).aspx">ID3D12InfoQueue::AddMessage</a>.
         
 
 
@@ -3708,7 +3708,7 @@ Specifies debug message IDs for setting up an info-queue filter
 
 
 
-This enum is used by <a href="https://msdn.microsoft.com/34AAF9BB-5340-4DB3-87B9-6C26AB6C881C">AddMessage</a>.
+This enum is used by <a href="https://msdn.microsoft.com/en-us/library/Dn950165(v=VS.85).aspx">AddMessage</a>.
         
 
 
@@ -3719,7 +3719,7 @@ This enum is used by <a href="https://msdn.microsoft.com/34AAF9BB-5340-4DB3-87B9
 
 
 
-<a href="https://msdn.microsoft.com/6E76C857-128E-4F0E-9711-72C4CF6C835C">Debug Layer Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn950149(v=VS.85).aspx">Debug Layer Enumerations</a>
  
 
  

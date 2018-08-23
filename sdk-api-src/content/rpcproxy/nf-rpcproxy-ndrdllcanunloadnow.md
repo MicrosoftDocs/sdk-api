@@ -62,7 +62,7 @@ The <b>NdrDllCanUnloadNow</b> function determines whether the DLL that implement
 
 ### -param pPSFactoryBuffer [in]
 
-Pointer to the <a href="_com_ipsfactorybuffer">CStdPSFactoryBuffer</a> object. The pointer is contained in the global variable, gPFactory, defined in RpcProxy.h. 
+Pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms695281(v=VS.85).aspx">CStdPSFactoryBuffer</a> object. The pointer is contained in the global variable, gPFactory, defined in RpcProxy.h. 
 
 
 ## -returns

@@ -61,7 +61,7 @@ The <b>BTH_L2CAP_EVENT_INFO</b> structure contains data about events associated 
 
 ### -field bthAddress
 
-Remote radio address with which the L2CAP event is associated, in the form of a <a href="https://msdn.microsoft.com/81dd4925-7f0a-468f-b706-244ce99e91df">BTH_ADDR</a> structure.
+Remote radio address with which the L2CAP event is associated, in the form of a <a href="https://msdn.microsoft.com/en-us/library/Aa362772(v=VS.85).aspx">BTH_ADDR</a> structure.
 
 
 ### -field psm
@@ -93,7 +93,7 @@ Notifications for a destroyed channel are only to be sent for channels that have
 
 
 
-<a href="https://msdn.microsoft.com/81dd4925-7f0a-468f-b706-244ce99e91df">BTH_ADDR</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362772(v=VS.85).aspx">BTH_ADDR</a>
 
 
 

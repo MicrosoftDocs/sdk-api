@@ -76,7 +76,7 @@ Specifies a <b>DWORD</b> value that indicates the device for which data is to be
 
 
 
-If this parameter is zero, it indicates that the data to set is global configuration data (configuration data that is not associated with a specific device). For example, a fax routing extension may export several different fax routing methods that use OCR technology and rely on the same OCR parameters. The routing extension can specify that the OCR configuration data is global, rather than device-specific, by specifying zero in this parameter. For more information, see <a href="https://msdn.microsoft.com/fd5063d5-b9ff-4899-b275-e0ed037c11d3">Storing Global Configuration Data</a>.
+If this parameter is zero, it indicates that the data to set is global configuration data (configuration data that is not associated with a specific device). For example, a fax routing extension may export several different fax routing methods that use OCR technology and rely on the same OCR parameters. The routing extension can specify that the OCR configuration data is global, rather than device-specific, by specifying zero in this parameter. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms693473(v=VS.85).aspx">Storing Global Configuration Data</a>.
 
 
 ### -param DevIdSrc [in]
@@ -221,13 +221,13 @@ The server is shutting down.
 
 
 
-When the fax extension calls this fax service callback function, it must use the function pointer exposed by the fax service when the service calls the <a href="https://msdn.microsoft.com/1dce2986-d56c-45c5-a482-81c012904fef">FaxExtInitializeConfig</a> function.
+When the fax extension calls this fax service callback function, it must use the function pointer exposed by the fax service when the service calls the <a href="https://msdn.microsoft.com/en-us/library/ms684525(v=VS.85).aspx">FaxExtInitializeConfig</a> function.
 
 <b>Security requirements:</b> The caller must have access rights to manage server configuration data in order to call this function.
 
-You can call the <a href="https://msdn.microsoft.com/164c3919-49ad-4d29-a44d-27985c877268">FaxExtGetData</a> function to retrieve global configuration data or configuration data for a specific device and GUID.
+You can call the <a href="https://msdn.microsoft.com/en-us/library/ms684528(v=VS.85).aspx">FaxExtGetData</a> function to retrieve global configuration data or configuration data for a specific device and GUID.
 
-The fax service passes a pointer to the <b>FaxExtSetData</b> callback function when the fax service calls the <a href="https://msdn.microsoft.com/1dce2986-d56c-45c5-a482-81c012904fef">FaxExtInitializeConfig</a> function. The PFAX_EXT_SET_DATA data type is a pointer to a <b>FaxExtSetData</b> function.
+The fax service passes a pointer to the <b>FaxExtSetData</b> callback function when the fax service calls the <a href="https://msdn.microsoft.com/en-us/library/ms684525(v=VS.85).aspx">FaxExtInitializeConfig</a> function. The PFAX_EXT_SET_DATA data type is a pointer to a <b>FaxExtSetData</b> function.
 
 
 
@@ -238,11 +238,11 @@ The fax service passes a pointer to the <b>FaxExtSetData</b> callback function w
 
 
 
-<a href="https://msdn.microsoft.com/164c3919-49ad-4d29-a44d-27985c877268">FaxExtGetData</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684528(v=VS.85).aspx">FaxExtGetData</a>
 
 
 
-<a href="https://msdn.microsoft.com/1dce2986-d56c-45c5-a482-81c012904fef">FaxExtInitializeConfig</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms684525(v=VS.85).aspx">FaxExtInitializeConfig</a>
  
 
  

@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-This property can be set when the <a href="https://msdn.microsoft.com/04cb00af-f786-4548-bee3-2cc5083278c3">InitializeFromRequest</a> method is called.
+This property can be set when the <a href="https://msdn.microsoft.com/en-us/library/Aa377872(v=VS.85).aspx">InitializeFromRequest</a> method is called.
 
 
 
@@ -74,7 +74,7 @@ This property can be set when the <a href="https://msdn.microsoft.com/04cb00af-f
 
 
 
-<a href="https://msdn.microsoft.com/37f1dd3b-bbe9-40ab-87c9-2405d97f5541">IX509Enrollment</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377809(v=VS.85).aspx">IX509Enrollment</a>
  
 
  

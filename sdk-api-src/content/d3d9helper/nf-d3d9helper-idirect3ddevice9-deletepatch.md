@@ -71,7 +71,7 @@ Handle of the cached high-order patch to delete.
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be 
      D3DERR_INVALIDCALL.
@@ -84,19 +84,19 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/478b4a3d-3366-47ec-8a66-92aa2aa06477">IDirect3DDevice9::DrawRectPatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174373(v=VS.85).aspx">IDirect3DDevice9::DrawRectPatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/9076fbe6-0f14-4b28-8f34-145e4eac6f22">IDirect3DDevice9::DrawTriPatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174374(v=VS.85).aspx">IDirect3DDevice9::DrawTriPatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/7aa4f3ab-cfce-4f8f-a538-384f038fd324">Using Higher-Order Primitives (Direct3D 9)</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb206314(v=VS.85).aspx">Using Higher-Order Primitives (Direct3D 9)</a>
  
 
  

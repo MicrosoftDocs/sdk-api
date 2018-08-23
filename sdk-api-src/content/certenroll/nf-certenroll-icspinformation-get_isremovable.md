@@ -70,7 +70,7 @@ Operator cards and  smart cards are examples of removable tokens that can contai
 </ul>
 
 
-The Certificate Enrollment service assumes that a provider is a smart card provider if both the <a href="https://msdn.microsoft.com/d69ade8c-3b74-4391-9048-6511f3d7e9fa">IsHardwareDevice</a> and <a href="https://msdn.microsoft.com/50f78dcc-4d32-40c9-8153-f0b6ac72c03b">IsSoftwareDevice</a> properties are set, or if the <b>IsRemovable</b> property is set.
+The Certificate Enrollment service assumes that a provider is a smart card provider if both the <a href="https://msdn.microsoft.com/en-us/library/Aa376747(v=VS.85).aspx">IsHardwareDevice</a> and <a href="https://msdn.microsoft.com/en-us/library/Aa376750(v=VS.85).aspx">IsSoftwareDevice</a> properties are set, or if the <b>IsRemovable</b> property is set.
 
 
 
@@ -80,7 +80,7 @@ The Certificate Enrollment service assumes that a provider is a smart card provi
 
 
 
-<a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa375967(v=VS.85).aspx">ICspInformation</a>
  
 
  

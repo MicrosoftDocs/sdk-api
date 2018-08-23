@@ -64,7 +64,7 @@ The <b>SetupDiGetCustomDeviceProperty</b> function retrieves a specified custom 
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="devinst.device_information_sets">device information set</a> that contains a device information element that represents the device for which to retrieve a custom device property. 
+A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains a device information element that represents the device for which to retrieve a custom device property. 
 
 
 ### -param DeviceInfoData [in]
@@ -130,7 +130,7 @@ If the operation succeeds, <b>SetupDiGetCustomDeviceProperty</b> returns <b>TRUE
 
 <b>SetupDiGetCustomDeviceProperty</b> retrieves device properties that are associated with a single device instance or with all devices matching a certain hardware ID. (For information about hardware IDs, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/device-identification-strings">Device Identification Strings</a>).
 
-Vendors can set properties for a device instance by using <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/inf-addreg-directive">INF AddReg directives</a> in <a href="devinst.inf_ddinstall_hw_section">INF DDInstall.HW sections</a> and specifying the <b>HKR</b> registry root.
+Vendors can set properties for a device instance by using <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/install/inf-addreg-directive">INF AddReg directives</a> in <a href="https://msdn.microsoft.com/library/Ff547330(v=VS.85).aspx">INF DDInstall.HW sections</a> and specifying the <b>HKR</b> registry root.
 
 Only the system can set properties for hardware IDs. The system supplies an "Icon" property for some hardware IDs.
 

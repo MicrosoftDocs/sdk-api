@@ -52,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Gets the password character for an edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/874336f6-701b-466a-afa6-0cb3e787ba4c">EM_GETPASSWORDCHAR</a> message explicitly.
+Gets the password character for an edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761594(v=VS.85).aspx">EM_GETPASSWORDCHAR</a> message explicitly.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ A handle to the control.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/874336f6-701b-466a-afa6-0cb3e787ba4c">EM_GETPASSWORDCHAR</a>.
+For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761594(v=VS.85).aspx">EM_GETPASSWORDCHAR</a>.
 
 
 

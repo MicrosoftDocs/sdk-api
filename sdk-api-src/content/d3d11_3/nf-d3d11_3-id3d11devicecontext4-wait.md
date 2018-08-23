@@ -54,7 +54,7 @@ req.irql:
 
 Waits until the specified fence reaches or exceeds the specified value before future work can begin.
 
-This member function is equivalent to the Direct3D 12 <a href="https://msdn.microsoft.com/75D494D0-BCEC-453E-AB4F-E57CE2C9B318">ID3D12CommandQueue::Wait</a> member function, and applies between Direct3D 11 and Direct3D 12 in interop scenarios.
+This member function is equivalent to the Direct3D 12 <a href="https://msdn.microsoft.com/en-us/library/Dn899173(v=VS.85).aspx">ID3D12CommandQueue::Wait</a> member function, and applies between Direct3D 11 and Direct3D 12 in interop scenarios.
 <div class="alert"><b>Note</b>  This method only applies to immediate-mode contexts.</div><div> </div>
 
 ## -parameters
@@ -81,7 +81,7 @@ The value that the device context is waiting for the fence to reach or exceed.  
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 This method returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
           

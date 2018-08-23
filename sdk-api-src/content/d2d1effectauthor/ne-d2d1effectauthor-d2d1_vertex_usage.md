@@ -89,7 +89,7 @@ If a dynamic vertex buffer is created, Direct2D will not necessarily map the buf
 
 
 
-<a href="https://msdn.microsoft.com/5f4c7248-9303-4451-92f1-4b230efd627a">D2D1_BLEND_DESCRIPTION</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404277(v=VS.85).aspx">D2D1_BLEND_DESCRIPTION</a>
 
 
 

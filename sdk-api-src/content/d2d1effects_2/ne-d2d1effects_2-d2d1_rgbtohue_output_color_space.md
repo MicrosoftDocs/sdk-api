@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Values for the <a href="https://msdn.microsoft.com/C5CB2C7A-C7C0-4FC9-BAB0-0360ABE984E6">D2D1_RGBTOHUE_PROP_OUTPUT_COLOR_SPACE</a> property of the <a href="https://msdn.microsoft.com/1def972d-8172-9217-8ce7-abce4a93f6e1">RGB to Hue effect</a>.
+Values for the <a href="https://msdn.microsoft.com/en-us/library/Dn890744(v=VS.85).aspx">D2D1_RGBTOHUE_PROP_OUTPUT_COLOR_SPACE</a> property of the <a href="https://msdn.microsoft.com/en-us/library/Dn900459(v=VS.85).aspx">RGB to Hue effect</a>.
 
 
 ## -enum-fields
@@ -79,7 +79,7 @@ The effect converts from RGB to Hue Saturation Lightness (HSL).
 
 
 
-<a href="https://msdn.microsoft.com/A76F6AB8-16E9-45C9-A768-5E4AA072D534">Built-in Effects</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh706316(v=VS.85).aspx">Built-in Effects</a>
 
 
 
@@ -87,7 +87,7 @@ The effect converts from RGB to Hue Saturation Lightness (HSL).
 
 
 
-<a href="https://msdn.microsoft.com/1def972d-8172-9217-8ce7-abce4a93f6e1">RGB to Hue effect</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn900459(v=VS.85).aspx">RGB to Hue effect</a>
  
 
  

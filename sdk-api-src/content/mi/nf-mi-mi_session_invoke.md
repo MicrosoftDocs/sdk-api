@@ -69,7 +69,7 @@ Session handle returned from
 ### -param flags
 
 Runtime type information (RTTI) 
-      <a href="mi_flags.htm">flags</a>.
+      <a href="https://msdn.microsoft.com/en-us/library/JJ653875(v=VS.85).aspx">flags</a>.
 
 
 ### -param options [in, optional]

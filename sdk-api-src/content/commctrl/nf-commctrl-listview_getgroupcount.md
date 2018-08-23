@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Gets the number of groups. You can use this macro or send the <a href="https://msdn.microsoft.com/6d7f2572-41d4-4fff-92a7-3b59cfbecd61">LVM_GETGROUPCOUNT</a> message explicitly. 
+Gets the number of groups. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774931(v=VS.85).aspx">LVM_GETGROUPCOUNT</a> message explicitly. 
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Gets the number of groups. You can use this macro or send the <a href="https://m
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 A handle to the list-view control. 
 
@@ -70,7 +70,7 @@ A handle to the list-view control.
 
 
 
-To use <b>ListView_GetGroupCount</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
+To use <b>ListView_GetGroupCount</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
 
 
 

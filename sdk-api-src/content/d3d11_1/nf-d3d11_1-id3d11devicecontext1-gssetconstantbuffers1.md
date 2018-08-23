@@ -72,7 +72,7 @@ Number of buffers to set (ranges from 0 to D3D11_COMMONSHADER_CONSTANT_BUFFER_AP
 
 ### -param ppConstantBuffers [in, optional]
 
-Array of constant buffers (see <a href="https://msdn.microsoft.com/7224de57-75cb-4d68-9d70-f5dd2f92b1fd">ID3D11Buffer</a>) being given to the device.
+Array of constant buffers (see <a href="https://msdn.microsoft.com/en-us/library/Ff476351(v=VS.85).aspx">ID3D11Buffer</a>) being given to the device.
 
 
 ### -param pFirstConstant [in, optional]
@@ -100,18 +100,18 @@ Returns nothing.
 
 The runtime drops the call to <b>GSSetConstantBuffers1</b> if the number of constants to which <i>pNumConstants</i> points is larger than the maximum constant buffer size that is supported by shaders (4096 constants).  The values in the elements of the <i>pFirstConstant</i> and <i>pFirstConstant</i> + <i>pNumConstants</i> arrays can exceed the length of each buffer; from the shader's point of view, the constant buffer is the intersection of the actual memory allocation for the buffer and the window [value in an element of <i>pFirstConstant</i>, value in an element of <i>pFirstConstant</i> + value in an element of <i>pNumConstants</i>]. The runtime also drops the call to <b>GSSetConstantBuffers1</b> on existing drivers that don't support this offsetting.
 
-The runtime will emulate this feature for <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature level</a> 9.1, 9.2, and 9.3; therefore, this feature is supported for feature level 9.1, 9.2, and 9.3.  This feature is always available on new drivers for feature level 10 and higher.
+The runtime will emulate this feature for <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> 9.1, 9.2, and 9.3; therefore, this feature is supported for feature level 9.1, 9.2, and 9.3.  This feature is always available on new drivers for feature level 10 and higher.
 
 From the shader’s point of view, element [0] in the constant buffers array is the constant at <i>pFirstConstant</i>.
 
 Out of bounds access to the constant buffers from the shader to the range that is defined by <i>pFirstConstant</i> and <i>pNumConstants</i> returns 0. 
 
-If <i>pFirstConstant</i> and <i>pNumConstants</i> arrays are <b>NULL</b>, you get the same result as if you were binding the entire buffer into view.  You get this same result if you call the <a href="https://msdn.microsoft.com/2af7ab0c-4a21-474c-9a17-ed90f89285fd">GSSetConstantBuffers</a> method. If the buffer is larger than the maximum constant buffer size that is supported by shaders (4096 elements), the shader can access only the first 4096 constants.
+If <i>pFirstConstant</i> and <i>pNumConstants</i> arrays are <b>NULL</b>, you get the same result as if you were binding the entire buffer into view.  You get this same result if you call the <a href="https://msdn.microsoft.com/en-us/library/Ff476436(v=VS.85).aspx">GSSetConstantBuffers</a> method. If the buffer is larger than the maximum constant buffer size that is supported by shaders (4096 elements), the shader can access only the first 4096 constants.
 
 If either <i>pFirstConstant</i> or <i>pNumConstants</i> is <b>NULL</b>, the other parameter must also be <b>NULL</b>.
 
 <h3><a id="Calling_GSSetConstantBuffers1_with_command_list_emulation"></a><a id="calling_gssetconstantbuffers1_with_command_list_emulation"></a><a id="CALLING_GSSETCONSTANTBUFFERS1_WITH_COMMAND_LIST_EMULATION"></a>Calling GSSetConstantBuffers1 with command list emulation</h3>
-The runtime's <a href="https://msdn.microsoft.com/4f581bc7-6c5e-4e56-b768-7f3cc5dbcb3e">command list</a> emulation of <b>GSSetConstantBuffers1</b> sometimes doesn't actually change the offsets or sizes for the arrays of constant buffers. This behavior occurs when 
+The runtime's <a href="https://msdn.microsoft.com/en-us/library/Ff476885(v=VS.85).aspx">command list</a> emulation of <b>GSSetConstantBuffers1</b> sometimes doesn't actually change the offsets or sizes for the arrays of constant buffers. This behavior occurs when 
 
 <b>GSSetConstantBuffers1</b> doesn't effectively change the constant buffers at the beginning and end of the range of slots that you set to update. This section shows how to work around this 
 
@@ -199,7 +199,7 @@ If you change multiple constant buffers, set the first and last constant buffers
 
 
 
-<a href="https://msdn.microsoft.com/DD2A556D-AEF0-407E-A497-CF17ACDEB1A7">ID3D11DeviceContext1</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404598(v=VS.85).aspx">ID3D11DeviceContext1</a>
  
 
  

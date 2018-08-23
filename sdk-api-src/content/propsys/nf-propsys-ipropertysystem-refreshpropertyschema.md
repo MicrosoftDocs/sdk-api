@@ -108,7 +108,7 @@ Indicates calling context does not have proper privileges.
 
 
 
-<a href="shell.IPropertySystem">IPropertySystem</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761437(v=VS.85).aspx">IPropertySystem</a>
  
 
  

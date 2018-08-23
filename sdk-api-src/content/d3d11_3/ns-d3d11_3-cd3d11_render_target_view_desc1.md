@@ -68,61 +68,61 @@ Describes the subresources from a resource that are accessible using a render-ta
 
 #### - Buffer
 
-A <a href="https://msdn.microsoft.com/979c69cf-f9b5-4b10-92ff-ad5245880802">D3D11_BUFFER_RTV</a> structure that specifies which buffer elements can be accessed.
+A <a href="https://msdn.microsoft.com/en-us/library/Ff476093(v=VS.85).aspx">D3D11_BUFFER_RTV</a> structure that specifies which buffer elements can be accessed.
 
 
 #### - Format
 
-A <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>-typed value that specifies the data format.
+A <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>-typed value that specifies the data format.
 
 
 
 
 #### - Texture1D
 
-A <a href="https://msdn.microsoft.com/48b32ca3-39c4-437a-a4e5-468c9b52b425">D3D11_TEX1D_RTV</a> structure that specifies the subresources in a 1D texture that can be accessed.
+A <a href="https://msdn.microsoft.com/en-us/library/Ff476230(v=VS.85).aspx">D3D11_TEX1D_RTV</a> structure that specifies the subresources in a 1D texture that can be accessed.
 
 
 #### - Texture1DArray
 
-A <a href="https://msdn.microsoft.com/cdb1c9e0-39a4-415e-a91f-05042b1f1b2d">D3D11_TEX1D_ARRAY_RTV</a> structure that specifies the subresources in a 1D texture array that can be accessed.
+A <a href="https://msdn.microsoft.com/en-us/library/Ff476226(v=VS.85).aspx">D3D11_TEX1D_ARRAY_RTV</a> structure that specifies the subresources in a 1D texture array that can be accessed.
 
 
 #### - Texture2D
 
-A <a href="https://msdn.microsoft.com/CA815C7D-BA10-4C1B-A6E6-8B42229179B1">D3D11_TEX2D_RTV1</a> structure that specifies the subresources in a 2D texture that can be accessed.
+A <a href="https://msdn.microsoft.com/en-us/library/Dn899163(v=VS.85).aspx">D3D11_TEX2D_RTV1</a> structure that specifies the subresources in a 2D texture that can be accessed.
 
 
 #### - Texture2DArray
 
-A <a href="https://msdn.microsoft.com/AD1C80E6-B2C7-4110-B3C0-6A2B2063198B">D3D11_TEX2D_ARRAY_RTV1</a> structure that specifies the subresources in a 2D texture array that can be accessed.
+A <a href="https://msdn.microsoft.com/en-us/library/Dn899160(v=VS.85).aspx">D3D11_TEX2D_ARRAY_RTV1</a> structure that specifies the subresources in a 2D texture array that can be accessed.
 
 
 #### - Texture2DMS
 
-A <a href="https://msdn.microsoft.com/5414183c-4abf-4030-a148-ade5c9213635">D3D11_TEX2DMS_RTV</a> structure that specifies a single subresource because a multisampled 2D texture only contains one subresource.
+A <a href="https://msdn.microsoft.com/en-us/library/Ff476237(v=VS.85).aspx">D3D11_TEX2DMS_RTV</a> structure that specifies a single subresource because a multisampled 2D texture only contains one subresource.
 
 
 #### - Texture2DMSArray
 
-A <a href="https://msdn.microsoft.com/ec08341c-980f-4d5f-8eb9-f41835105b46">D3D11_TEX2DMS_ARRAY_RTV</a> structure that specifies the subresources in a multisampled 2D texture array that can be accessed.
+A <a href="https://msdn.microsoft.com/en-us/library/Ff476234(v=VS.85).aspx">D3D11_TEX2DMS_ARRAY_RTV</a> structure that specifies the subresources in a multisampled 2D texture array that can be accessed.
 
 
 #### - Texture3D
 
-A <a href="https://msdn.microsoft.com/58a4b383-ad5d-4eb0-bff5-8825c3ae8dd1">D3D11_TEX3D_RTV</a> structure that specifies subresources in a 3D texture that can be accessed.
+A <a href="https://msdn.microsoft.com/en-us/library/Ff476247(v=VS.85).aspx">D3D11_TEX3D_RTV</a> structure that specifies subresources in a 3D texture that can be accessed.
 
 
 #### - ViewDimension
 
-A <a href="https://msdn.microsoft.com/42cbd3ec-fa8a-48ea-be88-bbe46db13566">D3D11_RTV_DIMENSION</a>-typed value that specifies the resource type and how the render-target resource will be accessed.
+A <a href="https://msdn.microsoft.com/en-us/library/Ff476206(v=VS.85).aspx">D3D11_RTV_DIMENSION</a>-typed value that specifies the resource type and how the render-target resource will be accessed.
 
 
 ## -remarks
 
 
 
-A render-target-view description is passed into <a href="https://msdn.microsoft.com/9B85B007-F8B0-43C1-999E-75E5243B7B5A">ID3D11Device3::CreateRenderTargetView1</a> to create a render target.
+A render-target-view description is passed into <a href="https://msdn.microsoft.com/en-us/library/Dn899224(v=VS.85).aspx">ID3D11Device3::CreateRenderTargetView1</a> to create a render target.
 
 A render-target-view can't use the following formats:
 
@@ -140,7 +140,7 @@ If the format is set to DXGI_FORMAT_UNKNOWN, then the format of the resource tha
 
 
 
-<a href="https://msdn.microsoft.com/a29e01ac-8aa1-4a40-ad4d-3b738e129436">Resource Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476173(v=VS.85).aspx">Resource Structures</a>
  
 
  

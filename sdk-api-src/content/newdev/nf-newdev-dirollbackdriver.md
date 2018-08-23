@@ -62,7 +62,7 @@ The <b>DiRollbackDriver</b> function rolls back the driver that is installed on 
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="devinst.device_information_sets">device information set</a> that contains a device information element that represents the device for which driver rollback is performed.
+A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains a device information element that represents the device for which driver rollback is performed.
 
 
 ### -param DeviceInfoData [in]
@@ -122,7 +122,7 @@ The caller does not have Administrator privileges. By default, Windows requires 
 </dl>
 </td>
 <td width="60%">
-The calling application is a 32-bit application that is attempting to execute in a 64-bit environment, which is not allowed. For more information, see <a href="devinst.device_installations_on_64_bit_systems">Installing Devices on 64-Bit Systems</a>.
+The calling application is a 32-bit application that is attempting to execute in a 64-bit environment, which is not allowed. For more information, see <a href="https://msdn.microsoft.com/library/Ff541255(v=VS.85).aspx">Installing Devices on 64-Bit Systems</a>.
 
 </td>
 </tr>

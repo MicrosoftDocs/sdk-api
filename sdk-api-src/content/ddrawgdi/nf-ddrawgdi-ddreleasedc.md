@@ -57,7 +57,7 @@ req.irql:
 
 <p class="CCE_Message">[This function is subject to change with each operating system revision. Instead, use the Microsoft DirectDraw and Microsoft Direct3DAPIs; these APIs insulate applications from such operating system changes, and hide many other difficulties involved in interacting directly with display drivers.]
 
-Wrapper for the <a href="https://msdn.microsoft.com/98def2a1-878d-4776-a519-32cb70107338">NtGdiDdReleaseDC</a> function and releases a device context (DC) previously obtained through <a href="https://msdn.microsoft.com/0f8872d2-adfa-4bbc-af27-884def677f0b">DdGetDC</a> or <b>GdiEntry7</b>.
+Wrapper for the <a href="https://msdn.microsoft.com/en-us/library/ms648696(v=VS.85).aspx">NtGdiDdReleaseDC</a> function and releases a device context (DC) previously obtained through <a href="https://msdn.microsoft.com/en-us/library/ms648439(v=VS.85).aspx">DdGetDC</a> or <b>GdiEntry7</b>.
 
 
 <b>GdiEntry8</b> is defined as an alias for this function.
@@ -97,7 +97,7 @@ Applications that need to obtain a DC for a DirectDraw surface can  use <a href=
 
 
 
-<a href="https://msdn.microsoft.com/96d11d10-dd21-4e2b-a30d-fe29d24eeba6">Graphics Low Level Client Support</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648408(v=VS.85).aspx">Graphics Low Level Client Support</a>
  
 
  

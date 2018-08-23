@@ -118,7 +118,7 @@ struct CD3D11_BLEND_DESC : public D3D11_BLEND_DESC
 
 
 
-<a href="https://msdn.microsoft.com/E44951D9-7830-4825-B7FA-CF98CC0D024C">CD3D11 Helper Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/JJ151647(v=VS.85).aspx">CD3D11 Helper Structures</a>
  
 
  

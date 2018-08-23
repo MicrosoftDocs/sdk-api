@@ -62,7 +62,7 @@ Retrieves an enumeration of <a href="https://msdn.microsoft.com/0495ecf1-128a-45
 
 ### -param ppIEnumMetadata [out]
 
-Type: <b><a href="_com_IEnumUnknown">IEnumUnknown</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms683764(v=VS.85).aspx">IEnumUnknown</a>**</b>
 
 When this method returns, contains a pointer to an enumeration of <a href="https://msdn.microsoft.com/0495ecf1-128a-4576-8420-0e79f1454015">IWICMetadataReader</a> objects.
 

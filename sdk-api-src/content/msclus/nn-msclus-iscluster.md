@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Enables operations on the 
-    <a href="c_gly.htm">cluster</a> and provides access to all of the objects in the 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> and provides access to all of the objects in the 
     cluster.
 
 
@@ -282,7 +282,7 @@ Returns a <a href="https://msdn.microsoft.com/614d3ed6-255f-46ed-9354-7a73a21cac
 </td>
 <td align="left" width="63%">
 Returns a <a href="https://msdn.microsoft.com/2215335a-1858-437f-8654-2e9d601fe061">ClusVersion</a> object describing the 
-     <a href="c_gly.htm">cluster version</a>.
+     <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster version</a>.
 
 </td>
 </tr>

@@ -62,16 +62,16 @@ Returns an interface to the instance of the Direct3D object that created the dev
 
 ### -param ppD3D9 [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/af321e4f-aaff-4285-bdac-9aab5c1dc5d8">IDirect3D9</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb174300(v=VS.85).aspx">IDirect3D9</a>**</b>
 
-Address of a pointer to an <a href="https://msdn.microsoft.com/af321e4f-aaff-4285-bdac-9aab5c1dc5d8">IDirect3D9</a> interface, representing the interface of the Direct3D object that created the device. 
+Address of a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb174300(v=VS.85).aspx">IDirect3D9</a> interface, representing the interface of the Direct3D object that created the device. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be D3DERR_INVALIDCALL.
 
@@ -82,7 +82,7 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-Calling <b>IDirect3DDevice9::GetDirect3D</b> will increase the internal reference count on the <a href="https://msdn.microsoft.com/af321e4f-aaff-4285-bdac-9aab5c1dc5d8">IDirect3D9</a> interface. Failure to call <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IUnknown::Release</a> when finished using this <b>IDirect3D9</b> interface results in a memory leak.
+Calling <b>IDirect3DDevice9::GetDirect3D</b> will increase the internal reference count on the <a href="https://msdn.microsoft.com/en-us/library/Bb174300(v=VS.85).aspx">IDirect3D9</a> interface. Failure to call <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IUnknown::Release</a> when finished using this <b>IDirect3D9</b> interface results in a memory leak.
 
 
 
@@ -92,7 +92,7 @@ Calling <b>IDirect3DDevice9::GetDirect3D</b> will increase the internal referenc
 
 
 
-<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
  
 
  

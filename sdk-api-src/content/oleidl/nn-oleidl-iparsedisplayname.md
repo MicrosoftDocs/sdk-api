@@ -64,7 +64,7 @@ Display name parsing is necessary when the end user inputs a string to identify 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IParseDisplayName</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IParseDisplayName</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IParseDisplayName</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IParseDisplayName</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -106,7 +106,7 @@ Parses the specified display name and creates a corresponding moniker.
 
 
 
-<a href="_inet_MkParseDisplayNameEx_Function_cpp">MkParseDisplayNameEx</a>
+<a href="https://msdn.microsoft.com/library/ms775113(v=VS.85).aspx">MkParseDisplayNameEx</a>
  
 
  

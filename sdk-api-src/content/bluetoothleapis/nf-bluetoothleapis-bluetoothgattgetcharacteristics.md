@@ -67,7 +67,7 @@ Handle to the Bluetooth device or service.
 
 ### -param Service [in, optional]
 
-Address of a <a href="https://msdn.microsoft.com/B4433D0F-7938-4C6D-994F-D99393EC013A">BTH_LE_GATT_SERVICE</a> structure containing the parent service of the included services to be retrieved. This parameter is required if a device handle is passed to <i>hDevice</i>. This parameter is optional if a service handle was passed to <i>hDevice</i>, in which case the service specified by the service handle will be treated as the parent.
+Address of a <a href="https://msdn.microsoft.com/en-us/library/Hh450850(v=VS.85).aspx">BTH_LE_GATT_SERVICE</a> structure containing the parent service of the included services to be retrieved. This parameter is required if a device handle is passed to <i>hDevice</i>. This parameter is optional if a service handle was passed to <i>hDevice</i>, in which case the service specified by the service handle will be treated as the parent.
 
 
 ### -param CharacteristicsBufferCount [in]
@@ -77,7 +77,7 @@ The number of elements allocated for the <i>CharacteristicsBuffer</i> parameter.
 
 ### -param CharacteristicsBuffer [out, optional]
 
-Pointer to buffer into which to return characteristics in a <a href="https://msdn.microsoft.com/B4433D0F-7938-4C6D-994F-D99393EC013A">BTH_LE_GATT_SERVICE</a> structure.
+Pointer to buffer into which to return characteristics in a <a href="https://msdn.microsoft.com/en-us/library/Hh450850(v=VS.85).aspx">BTH_LE_GATT_SERVICE</a> structure.
 
 
 ### -param CharacteristicsBufferActual [out]
@@ -223,8 +223,8 @@ Do not modify the returned characteristic structure,
     if the caller does this.
 
 The parent service must be present in the
-    cache, otherwise the function will fail.  The parent service must be a service returned by either <a href="https://msdn.microsoft.com/8EF8B582-FFAE-4C87-8E94-7EFDD2CD2706">BluetoothGATTGetServices</a> or
-    <a href="https://msdn.microsoft.com/72F0E995-88B6-42E0-9B69-429566B5605C">BluetoothGATTGetIncludedServices</a>.
+    cache, otherwise the function will fail.  The parent service must be a service returned by either <a href="https://msdn.microsoft.com/en-us/library/Hh450802(v=VS.85).aspx">BluetoothGATTGetServices</a> or
+    <a href="https://msdn.microsoft.com/en-us/library/Hh450800(v=VS.85).aspx">BluetoothGATTGetIncludedServices</a>.
 
 <b>Example</b>
 
@@ -296,11 +296,11 @@ The parent service must be present in the
 
 
 
-<a href="https://msdn.microsoft.com/BE96F588-28C5-46C8-AFC9-852D940051F2">BTH_LE_GATT_CHARACTERISTIC</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh450840(v=VS.85).aspx">BTH_LE_GATT_CHARACTERISTIC</a>
 
 
 
-<a href="https://msdn.microsoft.com/B4433D0F-7938-4C6D-994F-D99393EC013A">BTH_LE_GATT_SERVICE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh450850(v=VS.85).aspx">BTH_LE_GATT_SERVICE</a>
  
 
  

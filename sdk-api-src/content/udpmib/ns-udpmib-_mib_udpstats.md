@@ -92,7 +92,7 @@ The number of entries in the UDP listener table.
 
 
 The 
-			<a href="_iphlp_getudpstatistics">GetUdpStatistics</a> function returns a pointer to a <b>MIB_UDPSTATS</b> structure. 
+			<a href="https://msdn.microsoft.com/en-us/library/Aa366029(v=VS.85).aspx">GetUdpStatistics</a> function returns a pointer to a <b>MIB_UDPSTATS</b> structure. 
 
 On the Microsoft Windows Software Development Kit (SDK) released for Windows Vistaand later, the organization of header files has changed. This  structure is defined in the <i>Udpmib.h</i> header file, not in the <i>Iprtrmib.h</i> header file. Note that the <i>Udpmib.h</i> header file is automatically included in <i>Iprtrmib.h</i>, which is automatically included in the <i>Iphlpapi.h</i> header file. The  <i>Udpmib.h</i> and <i>Iprtrmib.h</i> header files should never be used directly.
 
@@ -104,11 +104,11 @@ On the Microsoft Windows Software Development Kit (SDK) released for Windows Vi
 
 
 
-<a href="_iphlp_gettcpstatistics">GetTcpStatistics</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa366020(v=VS.85).aspx">GetTcpStatistics</a>
 
 
 
-<a href="_iphlp_getudpstatistics">GetUdpStatistics</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa366029(v=VS.85).aspx">GetUdpStatistics</a>
 
 
 

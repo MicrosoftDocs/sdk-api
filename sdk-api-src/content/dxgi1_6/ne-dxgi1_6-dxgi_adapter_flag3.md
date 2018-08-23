@@ -72,7 +72,7 @@ Value always set to 0. This flag is reserved.
 
 ### -field DXGI_ADAPTER_FLAG3_SOFTWARE
 
-Specifies a software adapter. For more info about this flag, see <a href="d3d10_graphics_programming_guide_dxgi.htm">new info in Windows 8 about enumerating adapters</a>.
+Specifies a software adapter. For more info about this flag, see <a href="https://msdn.microsoft.com/en-us/library/Bb205075(v=VS.85).aspx">new info in Windows 8 about enumerating adapters</a>.
 
 <b>Direct3D 11:  </b>This enumeration value is supported starting with Windows 8.
 

@@ -53,8 +53,8 @@ req.irql:
 
 When used with the <a href="https://msdn.microsoft.com/96d81777-be45-4dbb-8426-f68cb51e2a42">CLUSPROP_DWORD</a> structure, 
     enables or disables the functionality of the 
-    <a href="https://msdn.microsoft.com/7b767335-edc1-47d7-8dea-13f6df902e5e">EnableNetBIOS</a> property of 
-    <a href="https://msdn.microsoft.com/3ed966f1-0177-4376-a36d-4a2fda327470">IP Address</a> <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resources</a>.
+    <a href="https://msdn.microsoft.com/en-us/library/Aa370486(v=VS.85).aspx">EnableNetBIOS</a> property of 
+    <a href="https://msdn.microsoft.com/en-us/library/Aa370484(v=VS.85).aspx">IP Address</a> <a href="https://msdn.microsoft.com/en-us/library/Aa372152(v=VS.85).aspx">resources</a>.
 
 
 ## -enum-fields
@@ -65,19 +65,19 @@ When used with the <a href="https://msdn.microsoft.com/96d81777-be45-4dbb-8426-f
 ### -field CLUSPROP_IPADDR_ENABLENETBIOS_DISABLED
 
 Disable the functionality of the 
-       <a href="https://msdn.microsoft.com/7b767335-edc1-47d7-8dea-13f6df902e5e">EnableNetBIOS</a> property.
+       <a href="https://msdn.microsoft.com/en-us/library/Aa370486(v=VS.85).aspx">EnableNetBIOS</a> property.
 
 
 ### -field CLUSPROP_IPADDR_ENABLENETBIOS_ENABLED
 
 Enable the functionality of the 
-       <a href="https://msdn.microsoft.com/7b767335-edc1-47d7-8dea-13f6df902e5e">EnableNetBIOS</a> property.
+       <a href="https://msdn.microsoft.com/en-us/library/Aa370486(v=VS.85).aspx">EnableNetBIOS</a> property.
 
 
 ### -field CLUSPROP_IPADDR_ENABLENETBIOS_TRACK_NIC
 
 Enable the functionality of the 
-       <a href="https://msdn.microsoft.com/7b767335-edc1-47d7-8dea-13f6df902e5e">EnableNetBIOS</a> property if the NIC to 
+       <a href="https://msdn.microsoft.com/en-us/library/Aa370486(v=VS.85).aspx">EnableNetBIOS</a> property if the NIC to 
        which the IP Address resource is bound has enabled NetBIOS.
 
 
@@ -86,7 +86,7 @@ Enable the functionality of the
 
 
 
-<a href="https://msdn.microsoft.com/7b767335-edc1-47d7-8dea-13f6df902e5e">EnableNetBIOS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa370486(v=VS.85).aspx">EnableNetBIOS</a>
 
 
 

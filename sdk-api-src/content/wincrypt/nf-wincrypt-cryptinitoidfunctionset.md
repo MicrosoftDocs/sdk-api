@@ -84,7 +84,7 @@ Returns the handle of the OID function set identified by <i>pszFuncName</i>, or 
 
 
 
-<a href="cryptography_functions.htm">OID Support Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">OID Support Functions</a>
  
 
  

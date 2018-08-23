@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Contains information about an FT (fault tolerant) set. This structure is used by the <a href="https://msdn.microsoft.com/0BD016A6-B635-4514-886A-8CD136D3F715">CLUSPROP_FTSET_INFO</a> structure to create an entry in a value list.
+Contains information about an FT (fault tolerant) set. This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/Dn605980(v=VS.85).aspx">CLUSPROP_FTSET_INFO</a> structure to create an entry in a value list.
 
 
 ## -struct-fields
@@ -74,11 +74,11 @@ The type of fault tolerance that is supported by the FT set.
 
 
 
-<a href="https://msdn.microsoft.com/0BD016A6-B635-4514-886A-8CD136D3F715">CLUSPROP_FTSET_INFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn605980(v=VS.85).aspx">CLUSPROP_FTSET_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/e3ad7c34-0c8a-4f03-8e5c-b57802c493f0">Data structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa369339(v=VS.85).aspx">Data structures</a>
  
 
  

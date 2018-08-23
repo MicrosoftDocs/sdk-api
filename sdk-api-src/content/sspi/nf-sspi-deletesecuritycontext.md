@@ -119,7 +119,7 @@ The caller must call this function for a security context when that security con
 
 
 
-<a href="authentication_functions.htm">SSPI Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
  
 
  

@@ -54,7 +54,7 @@ req.product: Windows Address Book 5.0
 
 There are two WinINet functions named <b>InternetInitializeAutoProxyDll</b>. The first, which merely refreshes the internal state of proxy configuration information from the registry, has a single parameter as documented directly below. 
 
-The second function, prototyped as <b>pfnInternetInitializeAutoProxyDll</b>, is part of WinINet's limited autoproxy support, and must be called by dynamically linking to "JSProxy.dll". For autoproxy support, use Windows HTTP Services (WinHTTP) version 5.1. For more information, see <a href="http.using_the_winhttp_autoproxy_feature">WinHTTP AutoProxy Support</a>.
+The second function, prototyped as <b>pfnInternetInitializeAutoProxyDll</b>, is part of WinINet's limited autoproxy support, and must be called by dynamically linking to "JSProxy.dll". For autoproxy support, use Windows HTTP Services (WinHTTP) version 5.1. For more information, see <a href="https://msdn.microsoft.com/en-us/library/Aa384240(v=VS.85).aspx">WinHTTP AutoProxy Support</a>.
 
 
 ## -parameters
@@ -107,7 +107,7 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 
 
 
-<a href="http.using_the_winhttp_autoproxy_feature">WinHTTP AutoProxy Support</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa384240(v=VS.85).aspx">WinHTTP AutoProxy Support</a>
  
 
  

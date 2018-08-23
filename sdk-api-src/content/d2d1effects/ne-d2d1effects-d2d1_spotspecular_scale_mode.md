@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The interpolation mode the <a href="https://msdn.microsoft.com/B6E24036-1548-4B9E-A8FE-8B87D4DBF97A">Spot-specular lighting effect</a> uses to scale the image 
+The interpolation mode the <a href="https://msdn.microsoft.com/en-us/library/Hh706371(v=VS.85).aspx">Spot-specular lighting effect</a> uses to scale the image 
         to the corresponding kernel unit length. There are six scale modes that range in quality and speed.
 
 

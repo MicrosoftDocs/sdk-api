@@ -52,7 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-An application-defined callback function that processes <a href="https://msdn.microsoft.com/419e3f05-35ec-4e48-b24d-ab98df687b20">WM_TIMER</a> messages. The 
+An application-defined callback function that processes <a href="https://msdn.microsoft.com/en-us/library/ms644902(v=VS.85).aspx">WM_TIMER</a> messages. The 
 			<b>TIMERPROC</b> type defines a pointer to this callback function. <i>TimerProc</i> is a placeholder for the application-defined function name. 
 
 
@@ -104,7 +104,7 @@ The timer's identifier.
 
 Type: <b>UINT</b>
 
-The <a href="https://msdn.microsoft.com/419e3f05-35ec-4e48-b24d-ab98df687b20">WM_TIMER</a> message. 
+The <a href="https://msdn.microsoft.com/en-us/library/ms644902(v=VS.85).aspx">WM_TIMER</a> message. 
 
 
 ## -returns
@@ -125,7 +125,7 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/d842abb3-e02d-41a2-b500-311fe04122e2">KillTimer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644903(v=VS.85).aspx">KillTimer</a>
 
 
 
@@ -133,15 +133,15 @@ This function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/393038fa-972f-4151-b90a-cebf84c50867">SetTimer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644906(v=VS.85).aspx">SetTimer</a>
 
 
 
-<a href="https://msdn.microsoft.com/be335927-a78d-4023-bedb-94aaf3a561ae">Timers</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632592(v=VS.85).aspx">Timers</a>
 
 
 
-<a href="https://msdn.microsoft.com/419e3f05-35ec-4e48-b24d-ab98df687b20">WM_TIMER</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644902(v=VS.85).aspx">WM_TIMER</a>
  
 
  

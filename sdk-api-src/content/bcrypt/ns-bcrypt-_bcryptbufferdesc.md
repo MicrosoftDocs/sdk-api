@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>NCryptBufferDesc</b> structure is used to receieve a collection of <a href="https://msdn.microsoft.com/474d3c0d-ae14-448a-a56d-25abc7e5de88">NCryptBuffer</a> structures.
+The <b>NCryptBufferDesc</b> structure is used to receieve a collection of <a href="https://msdn.microsoft.com/en-us/library/Aa376245(v=VS.85).aspx">NCryptBuffer</a> structures.
 
 
 ## -struct-fields
@@ -75,7 +75,7 @@ The number of elements in the <b>pBuffers</b> array. You can test the value rece
 
 ### -field pBuffers
 
-An array of <a href="https://msdn.microsoft.com/474d3c0d-ae14-448a-a56d-25abc7e5de88">NCryptBuffer</a> structures that contain the buffer information. The <b>cBuffers</b> member contains the number of elements in this array.
+An array of <a href="https://msdn.microsoft.com/en-us/library/Aa376245(v=VS.85).aspx">NCryptBuffer</a> structures that contain the buffer information. The <b>cBuffers</b> member contains the number of elements in this array.
 
 
 ## -remarks

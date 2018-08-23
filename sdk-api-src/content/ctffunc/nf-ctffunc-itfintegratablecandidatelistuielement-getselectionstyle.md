@@ -97,7 +97,7 @@ The method was successful.
 
 
 The active selection style usually indicates that the selection can be changed with the arrow keys. The implied selection style indicates the default selection key chooses it.
-         If the app supports changing selection styles, this method should be called when the <a href="https://msdn.microsoft.com/c7df9abf-53a0-41a4-aac5-d90b9abfbeec">UpdateUIElement</a> method is called.
+         If the app supports changing selection styles, this method should be called when the <a href="https://msdn.microsoft.com/en-us/library/Aa383199(v=VS.85).aspx">UpdateUIElement</a> method is called.
 
 
 
@@ -107,7 +107,7 @@ The active selection style usually indicates that the selection can be changed w
 
 
 
-<a href="https://msdn.microsoft.com/F9AB2037-6806-42FC-BD41-F6B6BA047908">ITfIntegratableCandidateListUIElement</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh920954(v=VS.85).aspx">ITfIntegratableCandidateListUIElement</a>
  
 
  

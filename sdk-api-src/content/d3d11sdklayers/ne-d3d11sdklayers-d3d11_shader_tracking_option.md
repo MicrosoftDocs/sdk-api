@@ -144,16 +144,16 @@ This enumeration is used by the following methods:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/A54AAC4C-CD38-4326-AF99-9FB74CC0A1A0">ID3D11RefDefaultTrackingOptions::SetTrackingOptions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh446834(v=VS.85).aspx">ID3D11RefDefaultTrackingOptions::SetTrackingOptions</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/2C782DBE-BA76-4D2E-82D6-1A03941B2FB1">ID3D11RefTrackingOptions::SetTrackingOptions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh446838(v=VS.85).aspx">ID3D11RefTrackingOptions::SetTrackingOptions</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/F62FCA38-AE44-427B-95B4-252AE800845C">ID3D11TracingDevice::SetShaderTrackingOptions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh446871(v=VS.85).aspx">ID3D11TracingDevice::SetShaderTrackingOptions</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/ABB83CE4-D612-4797-A9AD-F3C2954E669D">ID3D11TracingDevice::SetShaderTrackingOptionsByType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh446874(v=VS.85).aspx">ID3D11TracingDevice::SetShaderTrackingOptionsByType</a>
 </li>
 </ul>
 <div class="alert"><b>Note</b>  This API requires the Windows Software Development Kit (SDK) for Windows 8.
@@ -167,7 +167,7 @@ This enumeration is used by the following methods:
 
 
 
-<a href="https://msdn.microsoft.com/0fd0456b-2638-4b4c-8a34-a3e104a1a034">Layer Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476157(v=VS.85).aspx">Layer Enumerations</a>
  
 
  

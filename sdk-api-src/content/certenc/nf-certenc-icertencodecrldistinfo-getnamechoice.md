@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-The <b>GetNameChoice</b> method returns the name choice at a specified index of a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL) distribution information point.
+The <b>GetNameChoice</b> method returns the name choice at a specified index of a <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate revocation list</a> (CRL) distribution information point.
 
 
 ## -parameters
@@ -82,7 +82,7 @@ A pointer to a <b>Long</b> that represents the name choice.
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the name choice at the specified index. The name choice indicates the type of the name so that it can be used correctly. The name choice must be one of the following values.
@@ -132,7 +132,7 @@ The name is an IA5 string that contains a URL in the format <i>Service</i><b>://
 </dl>
 </td>
 <td width="60%">
-The name is a registered <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID).
+The name is a registered <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> (OID).
 
 </td>
 </tr>
@@ -147,11 +147,11 @@ The name is a registered <a href="https://msdn.microsoft.com/e6be8932-015e-4058-
 
 
 
-<a href="https://msdn.microsoft.com/e9c0053f-263f-4d7b-9356-bc33af989dbe">ICertEncodeCRLDistInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383911(v=VS.85).aspx">ICertEncodeCRLDistInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/fe33265a-8c75-4e16-8178-3569cf30d8e4">ICertEncodeCRLDistInfo::SetNameEntry</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383985(v=VS.85).aspx">ICertEncodeCRLDistInfo::SetNameEntry</a>
  
 
  

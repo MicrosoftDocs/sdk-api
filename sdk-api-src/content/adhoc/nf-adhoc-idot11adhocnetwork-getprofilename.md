@@ -63,7 +63,7 @@ Gets the profile name associated with the network.
 
 The name of the profile associated with the network. If the network has no profile, this parameter is <b>NULL</b>.
 
-You must free this string using <a href="_com_CoTaskMemFree">CoTaskMemFree</a>.
+You must free this string using <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a>.
 
 
 

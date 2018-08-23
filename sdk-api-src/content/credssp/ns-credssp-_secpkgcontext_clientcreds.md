@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>SecPkgContext_ClientCreds</b> structure specifies client credentials when calling the <a href="https://msdn.microsoft.com/4956c4ab-b71e-4960-b750-f3a79b87baac">QueryContextAttributes (CredSSP)</a> function.
+The <b>SecPkgContext_ClientCreds</b> structure specifies client credentials when calling the <a href="https://msdn.microsoft.com/en-us/library/Aa965818(v=VS.85).aspx">QueryContextAttributes (CredSSP)</a> function.
 
 This structure is supported only on the server.
 
@@ -76,7 +76,7 @@ A pointer to a buffer that represents the client credentials.
 
 
 
-<a href="https://msdn.microsoft.com/4956c4ab-b71e-4960-b750-f3a79b87baac">QueryContextAttributes (CredSSP)</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa965818(v=VS.85).aspx">QueryContextAttributes (CredSSP)</a>
  
 
  

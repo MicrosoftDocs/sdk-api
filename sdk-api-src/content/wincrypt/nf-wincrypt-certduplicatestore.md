@@ -79,7 +79,7 @@ Currently, a copy is not made of the handle, and the returned handle is the same
 
 
 
-<a href="cryptography_functions.htm">Certificate Store Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Store Functions</a>
  
 
  

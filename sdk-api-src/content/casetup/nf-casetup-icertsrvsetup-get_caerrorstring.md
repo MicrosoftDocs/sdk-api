@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-The <b>CAErrorString</b> property gets the string data for additional error information related to a failed <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) specification. Any method call on the parent object resets this property.
+The <b>CAErrorString</b> property gets the string data for additional error information related to a failed <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> (CA) specification. Any method call on the parent object resets this property.
 
 This property is read-only.
 
@@ -65,7 +65,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/6792a0d6-d304-481d-a97b-5fb7033c7eae">ICertSrvSetup</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb736371(v=VS.85).aspx">ICertSrvSetup</a>
  
 
  

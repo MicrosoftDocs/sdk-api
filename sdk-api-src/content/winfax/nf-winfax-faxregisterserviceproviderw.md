@@ -111,7 +111,7 @@ If the function fails, the return value is zero. To get extended error informati
 </dl>
 </td>
 <td width="60%">
-At least one parameter to the <a href="https://msdn.microsoft.com/1128f91b-2ebf-4c51-acd7-7c724560b870">FaxRegisterServiceProvider</a> function is <b>NULL</b>.
+At least one parameter to the <a href="https://msdn.microsoft.com/en-us/library/ms692806(v=VS.85).aspx">FaxRegisterServiceProvider</a> function is <b>NULL</b>.
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ Because the <b>FaxRegisterServiceProvider</b> function modifies the registry, th
 
 All parameters to the <b>FaxRegisterServiceProvider</b> function are required.
 
-Local installation of a fax service provider is recommended. The local installation routine for a fax service provider DLL can call <b>FaxRegisterServiceProvider</b> instead of directly accessing the registry. For more information about the steps required to register locally with the fax service, see <a href="https://msdn.microsoft.com/13bfb897-11f5-4fce-ac6e-8fbec7413e13">Registration of a Fax Service Provider</a>.
+Local installation of a fax service provider is recommended. The local installation routine for a fax service provider DLL can call <b>FaxRegisterServiceProvider</b> instead of directly accessing the registry. For more information about the steps required to register locally with the fax service, see <a href="https://msdn.microsoft.com/en-us/library/ms691506(v=VS.85).aspx">Registration of a Fax Service Provider</a>.
 
 
 
@@ -139,15 +139,15 @@ Local installation of a fax service provider is recommended. The local installat
 
 
 
-<a href="https://msdn.microsoft.com/b076b5ba-09af-4312-90c1-27abd0b859df">Fax Service Client API Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691947(v=VS.85).aspx">Fax Service Client API Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/8705fb04-1047-4f83-ada9-898024ce719c">FaxConnectFaxServer</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms691482(v=VS.85).aspx">FaxConnectFaxServer</a>
  
 
  

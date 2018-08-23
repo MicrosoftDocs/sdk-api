@@ -52,7 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-An application-defined or library-defined callback function used with the <a href="https://msdn.microsoft.com/66c96282-528c-4f57-acab-ae03178e4fe9">SetWindowsHookEx</a> function. 
+An application-defined or library-defined callback function used with the <a href="https://msdn.microsoft.com/en-us/library/ms644990(v=VS.85).aspx">SetWindowsHookEx</a> function. 
 
 			The system calls this function before calling the window procedure to process a message sent to the thread.
 
@@ -85,7 +85,7 @@ A pointer to a <a href="https://msdn.microsoft.com/5c115d25-91a5-41e8-bce0-cf03b
 
 Type: <b>int</b>
 
-Specifies whether the hook procedure must process the message. If <i>nCode</i> is <b>HC_ACTION</b>, the hook procedure must process the message. If 	<i>nCode</i> is less than zero, the hook procedure must pass the message to the <a href="https://msdn.microsoft.com/2f734ea7-7724-46be-99a0-2bfa27b2ed99">CallNextHookEx</a> function without further processing and must return the value returned by <b>CallNextHookEx</b>. 
+Specifies whether the hook procedure must process the message. If <i>nCode</i> is <b>HC_ACTION</b>, the hook procedure must process the message. If 	<i>nCode</i> is less than zero, the hook procedure must pass the message to the <a href="https://msdn.microsoft.com/en-us/library/ms644974(v=VS.85).aspx">CallNextHookEx</a> function without further processing and must return the value returned by <b>CallNextHookEx</b>. 
 
 
 ## -returns
@@ -95,9 +95,9 @@ Specifies whether the hook procedure must process the message. If <i>nCode</i> i
 Type: <strong>Type: <b>LRESULT</b>
 </strong>
 
-If <i>nCode</i> is less than zero, the hook procedure must return the value returned by <a href="https://msdn.microsoft.com/2f734ea7-7724-46be-99a0-2bfa27b2ed99">CallNextHookEx</a>. 
+If <i>nCode</i> is less than zero, the hook procedure must return the value returned by <a href="https://msdn.microsoft.com/en-us/library/ms644974(v=VS.85).aspx">CallNextHookEx</a>. 
 
-If <i>nCode</i> is greater than or equal to zero, it is highly recommended that you call <a href="https://msdn.microsoft.com/2f734ea7-7724-46be-99a0-2bfa27b2ed99">CallNextHookEx</a> and return the value it returns; otherwise, other applications that have installed <a href="about_hooks.htm">WH_CALLWNDPROC</a> hooks will not receive hook notifications and may behave incorrectly as a result. If the hook procedure does not call <b>CallNextHookEx</b>, the return value should be zero. 
+If <i>nCode</i> is greater than or equal to zero, it is highly recommended that you call <a href="https://msdn.microsoft.com/en-us/library/ms644974(v=VS.85).aspx">CallNextHookEx</a> and return the value it returns; otherwise, other applications that have installed <a href="about_hooks.htm">WH_CALLWNDPROC</a> hooks will not receive hook notifications and may behave incorrectly as a result. If the hook procedure does not call <b>CallNextHookEx</b>, the return value should be zero. 
 
 
 
@@ -108,7 +108,7 @@ If <i>nCode</i> is greater than or equal to zero, it is highly recommended that 
 
 The <i>CallWndProc</i> hook procedure can examine the message, but it cannot modify it. After the hook procedure returns control to the system, the message is passed to the window procedure. 
 
-An application installs the hook procedure by specifying the <a href="about_hooks.htm">WH_CALLWNDPROC</a> hook type and a pointer to the hook procedure in a call to the <a href="https://msdn.microsoft.com/66c96282-528c-4f57-acab-ae03178e4fe9">SetWindowsHookEx</a> function. 
+An application installs the hook procedure by specifying the <a href="about_hooks.htm">WH_CALLWNDPROC</a> hook type and a pointer to the hook procedure in a call to the <a href="https://msdn.microsoft.com/en-us/library/ms644990(v=VS.85).aspx">SetWindowsHookEx</a> function. 
 
 
 
@@ -122,7 +122,7 @@ An application installs the hook procedure by specifying the <a href="about_hook
 
 
 
-<a href="https://msdn.microsoft.com/2f734ea7-7724-46be-99a0-2bfa27b2ed99">CallNextHookEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644974(v=VS.85).aspx">CallNextHookEx</a>
 
 
 
@@ -130,7 +130,7 @@ An application installs the hook procedure by specifying the <a href="about_hook
 
 
 
-<a href="https://msdn.microsoft.com/987095d7-059f-4eae-925d-6723ab6d524c">Hooks</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632589(v=VS.85).aspx">Hooks</a>
 
 
 
@@ -138,11 +138,11 @@ An application installs the hook procedure by specifying the <a href="about_hook
 
 
 
-<a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/66c96282-528c-4f57-acab-ae03178e4fe9">SetWindowsHookEx</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms644990(v=VS.85).aspx">SetWindowsHookEx</a>
  
 
  

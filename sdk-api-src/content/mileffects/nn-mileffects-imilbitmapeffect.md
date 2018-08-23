@@ -72,7 +72,7 @@ The <b>IMILBitmapEffect</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/71285e15-85c5-4d0f-81d4-fd61cf621a36">GetOutput</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735315(v=VS.85).aspx">GetOutput</a>
 </td>
 <td align="left" width="63%">
 Gets the output of the effect.
@@ -81,7 +81,7 @@ Gets the output of the effect.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7196b610-729a-4213-850e-b956497f695a">GetParentEffect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735316(v=VS.85).aspx">GetParentEffect</a>
 </td>
 <td align="left" width="63%">
 Gets a parent of the effect.
@@ -90,7 +90,7 @@ Gets a parent of the effect.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/092c392f-e9b5-4ee5-bdfe-f378ceee2378">SetInputSource</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735318(v=VS.85).aspx">SetInputSource</a>
 </td>
 <td align="left" width="63%">
 Sets the effect input source.
@@ -104,8 +104,8 @@ Sets the effect input source.
 
 
 
-<b>IMILBitmapEffect</b> is a wrapper for a <a href="https://msdn.microsoft.com/23eea785-8545-44d3-bfcb-1ffbc82ecc6a">IMILBitmapEffectPrimitive</a>. A <b>IMILBitmapEffectPrimitive</b> is wrapped by a <b>IMILBitmapEffect</b> through Component Object Model (COM) aggregation.
-            Therefore, independent software vendor (ISV) effect writers do not need to implement the <b>IMILBitmapEffect</b>, <a href="https://msdn.microsoft.com/22b71222-e572-42e2-af0d-dc7061eec5df">IMILBitmapEffectImpl</a>, and <a href="https://msdn.microsoft.com/befa56bb-149e-4a90-a1cb-9e61e7f5366c">IMILBitmapEffectConnections</a> interfaces.
+<b>IMILBitmapEffect</b> is a wrapper for a <a href="https://msdn.microsoft.com/en-us/library/ms735258(v=VS.85).aspx">IMILBitmapEffectPrimitive</a>. A <b>IMILBitmapEffectPrimitive</b> is wrapped by a <b>IMILBitmapEffect</b> through Component Object Model (COM) aggregation.
+            Therefore, independent software vendor (ISV) effect writers do not need to implement the <b>IMILBitmapEffect</b>, <a href="https://msdn.microsoft.com/en-us/library/ms735279(v=VS.85).aspx">IMILBitmapEffectImpl</a>, and <a href="https://msdn.microsoft.com/en-us/library/ms735314(v=VS.85).aspx">IMILBitmapEffectConnections</a> interfaces.
          
 
 

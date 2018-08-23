@@ -86,7 +86,7 @@ Do not close a cluster handle if there are any object handles still in use that 
 
 #### Examples
 
-See <a href="https://msdn.microsoft.com/709effda-5ff1-439e-805a-9169ca63c182">Using Object Handles</a>.
+See <a href="https://msdn.microsoft.com/en-us/library/Aa372959(v=VS.85).aspx">Using Object Handles</a>.
 
 <div class="code"></div>
 

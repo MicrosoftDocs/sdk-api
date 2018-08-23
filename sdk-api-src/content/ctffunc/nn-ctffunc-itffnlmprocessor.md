@@ -53,14 +53,14 @@ req.irql:
 
 The <b>ITfFnLMProcessor</b> interface is implemented by the language model text service and is used by an application or text service to enable alternate language model processing.
 
-The application or text service obtains this interface from a thread manager object by calling <a href="https://msdn.microsoft.com/b320790a-4b54-4475-97e6-e59f083cfc09">ITfThreadMgr::GetFunctionProvider</a> with GUID_MASTERLM_FUNCTIONPROVIDER and then calling <a href="https://msdn.microsoft.com/a8ec629a-9ac6-4f25-82f2-42af6ce52ddc">ITfFunctionProvider::GetFunction</a> interface with IID_ITfFnLMProcessor. If <b>ITfThreadMgr::GetFunctionProvider</b> fails, then no language model processor is installed.
+The application or text service obtains this interface from a thread manager object by calling <a href="https://msdn.microsoft.com/en-us/library/ms628986(v=VS.85).aspx">ITfThreadMgr::GetFunctionProvider</a> with GUID_MASTERLM_FUNCTIONPROVIDER and then calling <a href="https://msdn.microsoft.com/en-us/library/ms538981(v=VS.85).aspx">ITfFunctionProvider::GetFunction</a> interface with IID_ITfFnLMProcessor. If <b>ITfThreadMgr::GetFunctionProvider</b> fails, then no language model processor is installed.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnLMProcessor</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfFnLMProcessor</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnLMProcessor</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ITfFnLMProcessor</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -73,7 +73,7 @@ The <b>ITfFnLMProcessor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/21fcef3f-252c-4f67-a789-4527b8ee1b94">GetReconversion</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms538946(v=VS.85).aspx">GetReconversion</a>
 </td>
 <td align="left" width="63%">
 Obtains an ITfCandidateList object for a range from the language model text service.
@@ -82,7 +82,7 @@ Obtains an ITfCandidateList object for a range from the language model text serv
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9545c715-ec31-4360-b8f9-bb0746164878">InvokeFunc</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms538947(v=VS.85).aspx">InvokeFunc</a>
 </td>
 <td align="left" width="63%">
 Invokes a function of the language model text service.
@@ -91,7 +91,7 @@ Invokes a function of the language model text service.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/0611dd1e-6f79-4397-b523-e4fb278725f7">InvokeKey</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms538949(v=VS.85).aspx">InvokeKey</a>
 </td>
 <td align="left" width="63%">
 Called to enable the language model text service to process a key event.
@@ -100,7 +100,7 @@ Called to enable the language model text service to process a key event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9d28c2c2-ed0e-4987-ace9-25ed9d7a40a0">QueryKey</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms538951(v=VS.85).aspx">QueryKey</a>
 </td>
 <td align="left" width="63%">
 Called to determine if the language model text service handles a key event.
@@ -109,7 +109,7 @@ Called to determine if the language model text service handles a key event.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2d645c1b-9ee6-47c4-8bbd-173e416f5688">QueryLangID</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms538953(v=VS.85).aspx">QueryLangID</a>
 </td>
 <td align="left" width="63%">
 Determines if the language model text service supports a particular language.
@@ -118,7 +118,7 @@ Determines if the language model text service supports a particular language.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/84a9bf73-7215-429a-9573-66acf4d3ff18">QueryRange</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms538955(v=VS.85).aspx">QueryRange</a>
 </td>
 <td align="left" width="63%">
 Obtains the range of text that a reconversion applies to.
@@ -127,7 +127,7 @@ Obtains the range of text that a reconversion applies to.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/1580be2c-d16e-445b-83ba-c033eeb679b7">Reconvert</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms538956(v=VS.85).aspx">Reconvert</a>
 </td>
 <td align="left" width="63%">
 Invokes the reconversion process in the language model text service for a range.
@@ -152,11 +152,11 @@ Invokes the reconversion process in the language model text service for a range.
 
 
 
-<a href="https://msdn.microsoft.com/b320790a-4b54-4475-97e6-e59f083cfc09">ITfThreadMgr::GetFunctionProvider</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms628986(v=VS.85).aspx">ITfThreadMgr::GetFunctionProvider</a>
 
 
 
-<a href="_COM_IUnknown">IUnknown</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
  
 
  

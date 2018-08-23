@@ -78,7 +78,7 @@ A pointer to a null-terminated string to be used as the static control text.
 
 
 
-The macro expands to a call to <a href="https://msdn.microsoft.com/6f3e3ef8-b342-43f0-9d8b-3a72c610a940">SetWindowText</a>.	
+The macro expands to a call to <a href="https://msdn.microsoft.com/en-us/library/ms633546(v=VS.85).aspx">SetWindowText</a>.	
 
 
 

@@ -57,7 +57,7 @@ req.product: Windows Media Format 9 Series or later
 The <b>DsMakeSpn</b> function constructs a service principal name (SPN) that identifies a service instance.
 
 A client application uses this function to compose an SPN, which it uses to authenticate the service instance. For example, the client can pass an SPN in the <i>pszTargetName</i> parameter of the 
-<a href="security.initializesecuritycontext">InitializeSecurityContext</a> function.
+<a href="https://msdn.microsoft.com/library/Aa375506(v=VS.85).aspx">InitializeSecurityContext</a> function.
 
 
 ## -parameters
@@ -196,7 +196,7 @@ String parameters cannot include the forward slash (/) character, as it is used 
 
 
 
-<a href="security.initializesecuritycontext">InitializeSecurityContext</a>
+<a href="https://msdn.microsoft.com/library/Aa375506(v=VS.85).aspx">InitializeSecurityContext</a>
  
 
  

@@ -64,7 +64,7 @@ The
 ### -param pVal [out]
 
 Pointer to a 
-<a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a> variable that, receives the protocol for this port mapping. The protocol is either "UDP" or "TCP".
+<a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a> variable that, receives the protocol for this port mapping. The protocol is either "UDP" or "TCP".
 
 
 ## -returns

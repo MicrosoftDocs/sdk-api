@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-Polls a queried resource to get the query state or a query result. For more information about queries, see <a href="https://msdn.microsoft.com/2c65d199-141d-43a7-b513-4cb4459d7c27">Queries (Direct3D 9)</a>.
+Polls a queried resource to get the query state or a query result. For more information about queries, see <a href="https://msdn.microsoft.com/en-us/library/Bb147308(v=VS.85).aspx">Queries (Direct3D 9)</a>.
 
 
 ## -parameters
@@ -78,16 +78,16 @@ Number of bytes of data in <i>pData</i>. If you set dwSize to zero, you can use 
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-Data flags specifying the query type. Valid values are either 0 or <a href="https://msdn.microsoft.com/874fe2d7-d7d8-49eb-8057-e606982527fa">D3DGETDATA_FLUSH</a>. Use 0 to avoid flushing batched queries to the driver and use D3DGETDATA_FLUSH to go ahead and flush them. For applications writing their own version of waiting, a query result is not realized until the driver receives a flush.
+Data flags specifying the query type. Valid values are either 0 or <a href="https://msdn.microsoft.com/en-us/library/Bb172562(v=VS.85).aspx">D3DGETDATA_FLUSH</a>. Use 0 to avoid flushing batched queries to the driver and use D3DGETDATA_FLUSH to go ahead and flush them. For applications writing their own version of waiting, a query result is not realized until the driver receives a flush.
 
 
 ## -returns
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-The return type identifies the query state (see <a href="https://msdn.microsoft.com/2c65d199-141d-43a7-b513-4cb4459d7c27">Queries (Direct3D 9)</a>). The method returns S_OK if the query data is available and S_FALSE if it is not.  These are considered successful return values. If the method fails when <a href="https://msdn.microsoft.com/874fe2d7-d7d8-49eb-8057-e606982527fa">D3DGETDATA_FLUSH</a> is used, the return value can be D3DERR_DEVICELOST.
+The return type identifies the query state (see <a href="https://msdn.microsoft.com/en-us/library/Bb147308(v=VS.85).aspx">Queries (Direct3D 9)</a>). The method returns S_OK if the query data is available and S_FALSE if it is not.  These are considered successful return values. If the method fails when <a href="https://msdn.microsoft.com/en-us/library/Bb172562(v=VS.85).aspx">D3DGETDATA_FLUSH</a> is used, the return value can be D3DERR_DEVICELOST.
 
 
 
@@ -96,7 +96,7 @@ The return type identifies the query state (see <a href="https://msdn.microsoft.
 
 
 
-It is possible to lose the device while polling for query status. When <a href="https://msdn.microsoft.com/874fe2d7-d7d8-49eb-8057-e606982527fa">D3DGETDATA_FLUSH</a> is specified, this method will return D3DERR_DEVICELOST in response to a lost device. This allows an application to prevent threads from endlessly polling due to a lost device (which cannot respond to the query).
+It is possible to lose the device while polling for query status. When <a href="https://msdn.microsoft.com/en-us/library/Bb172562(v=VS.85).aspx">D3DGETDATA_FLUSH</a> is specified, this method will return D3DERR_DEVICELOST in response to a lost device. This allows an application to prevent threads from endlessly polling due to a lost device (which cannot respond to the query).
 
 An application must never write code that only invokes GetData ( ... , 0 ), expecting that GetData will eventually return S_OK by itself over time. This is true, even if the application has used the FLUSH flag with GetData in the past. For example:
 
@@ -131,7 +131,7 @@ while( pQuery-&gt;GetData( ..., 0 ) == S_FALSE ) {
 
 
 
-<a href="https://msdn.microsoft.com/7f25d64e-ece6-4544-ada0-5cc3d34b88e6">IDirect3DQuery9</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb205872(v=VS.85).aspx">IDirect3DQuery9</a>
  
 
  

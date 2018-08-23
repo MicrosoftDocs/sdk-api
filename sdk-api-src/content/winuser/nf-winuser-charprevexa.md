@@ -151,7 +151,7 @@ The return value is a pointer to the preceding character in the string, or to th
 
 
 
-<b>CharPrevExA</b> specifies a code-page to use, whereas <a href="https://msdn.microsoft.com/f1599f24-2a6f-4887-8712-302631fee313">CharPrev</a> (if called as an ANSI function) uses the system default code-page.
+<b>CharPrevExA</b> specifies a code-page to use, whereas <a href="https://msdn.microsoft.com/en-us/library/ms647471(v=VS.85).aspx">CharPrev</a> (if called as an ANSI function) uses the system default code-page.
 
 
 
@@ -161,11 +161,11 @@ The return value is a pointer to the preceding character in the string, or to th
 
 
 
-<a href="https://msdn.microsoft.com/0501744a-83a5-4ac4-b934-3e794fe940c0">CharNextExA</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647470(v=VS.85).aspx">CharNextExA</a>
 
 
 
-<a href="https://msdn.microsoft.com/f1599f24-2a6f-4887-8712-302631fee313">CharPrev</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms647471(v=VS.85).aspx">CharPrev</a>
 
 
 
@@ -177,7 +177,7 @@ The return value is a pointer to the preceding character in the string, or to th
 
 
 
-<a href="https://msdn.microsoft.com/f2cb0888-b245-448c-9910-a634312aff67">Strings</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms646979(v=VS.85).aspx">Strings</a>
  
 
  

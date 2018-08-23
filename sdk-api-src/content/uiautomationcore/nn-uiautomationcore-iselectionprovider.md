@@ -135,7 +135,7 @@ Indicates whether the UI Automation provider requires at least one child element
 
 This interface is implemented by a UI Automation provider.
 
-Providers should raise an event of type <a href="uiauto_event_ids.htm">UIA_Selection_InvalidatedEventId</a> when a selection in a container has changed significantly.
+Providers should raise an event of type <a href="https://msdn.microsoft.com/en-us/library/Ee671223(v=VS.85).aspx">UIA_Selection_InvalidatedEventId</a> when a selection in a container has changed significantly.
 
 
 

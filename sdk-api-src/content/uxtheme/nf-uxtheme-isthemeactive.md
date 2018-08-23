@@ -85,7 +85,7 @@ Returns one of the following values.
 </dl>
 </td>
 <td width="60%">
-A visual style is enabled, and windows with visual styles applied should call <a href="https://msdn.microsoft.com/3c496a3f-e4d0-4938-af66-85df93829cd8">OpenThemeData</a> to start using theme drawing services.
+A visual style is enabled, and windows with visual styles applied should call <a href="https://msdn.microsoft.com/en-us/library/Bb759821(v=VS.85).aspx">OpenThemeData</a> to start using theme drawing services.
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ A visual style is enabled, and windows with visual styles applied should call <a
 </dl>
 </td>
 <td width="60%">
-A visual style is not enabled, and the window message handler does not need to make another call to <a href="https://msdn.microsoft.com/b7e64e23-398e-47c0-81c3-9973f158c3ec">IsThemeActive</a> until it receives a WM_THEMECHANGED message.
+A visual style is not enabled, and the window message handler does not need to make another call to <a href="https://msdn.microsoft.com/en-us/library/Bb759813(v=VS.85).aspx">IsThemeActive</a> until it receives a WM_THEMECHANGED message.
 
 </td>
 </tr>

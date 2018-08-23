@@ -53,7 +53,7 @@ req.irql:
 
 The <b>CRYPT_XML_STATUS</b> structure returns information about the signature validation status, 
   summary status information about a <b>SignedInfo</b> element, or summary status information 
-  about an array of <b>Reference</b> elements. The <b>CRYPT_XML_STATUS</b> structure is used by the <a href="https://msdn.microsoft.com/685a87dc-36e9-464a-988e-de907d2dae41">CryptXmlGetStatus</a> function.
+  about an array of <b>Reference</b> elements. The <b>CRYPT_XML_STATUS</b> structure is used by the <a href="https://msdn.microsoft.com/en-us/library/Dd433826(v=VS.85).aspx">CryptXmlGetStatus</a> function.
 
 
 ## -struct-fields

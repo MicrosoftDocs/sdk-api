@@ -111,7 +111,7 @@ Do not use this value.
 
 
 
-<a href="https://msdn.microsoft.com/e563cbb0-2ee0-43d8-978c-0bde1950a926">D2D1_RENDERING_CONTROLS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh404322(v=VS.85).aspx">D2D1_RENDERING_CONTROLS</a>
 
 
 

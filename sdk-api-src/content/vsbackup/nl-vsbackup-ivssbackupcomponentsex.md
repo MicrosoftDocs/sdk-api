@@ -56,7 +56,7 @@ req.product: Windows UI
 The <b>IVssBackupComponentsEx</b> interface provides methods for requesters to run backup and restore operations using multiple writer instances.
 
 To obtain an instance of the <b>IVssBackupComponentsEx</b> 
-   interface, call the <a href="_com_iunknown_queryinterface">QueryInterface</a> method of the 
+   interface, call the <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> method of the 
    <a href="https://msdn.microsoft.com/fe1220c7-11e5-4872-b7a9-61558f7c75c0">IVssBackupComponents</a> interface, passing 
    <b>IID_IVssBackupComponentsEx</b> as the interface identifier (IID) parameter.
 

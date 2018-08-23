@@ -52,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Gets the selection state of an item. You can use this macro or send the <a href="https://msdn.microsoft.com/f92c02e7-3c6d-4649-8798-42eb4a0c51b6">LB_GETSEL</a> message explicitly.
+Gets the selection state of an item. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775212(v=VS.85).aspx">LB_GETSEL</a> message explicitly.
 
 
 ## -parameters
@@ -78,7 +78,7 @@ The zero-based index of the item.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/f92c02e7-3c6d-4649-8798-42eb4a0c51b6">LB_GETSEL</a>
+For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb775212(v=VS.85).aspx">LB_GETSEL</a>
 
 
 

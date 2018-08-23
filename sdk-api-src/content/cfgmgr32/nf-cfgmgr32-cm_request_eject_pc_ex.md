@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://msdn.microsoft.com/45d8151a-67d0-4cb1-8593-4cfb271a3411">CM_Request_Eject_PC</a> instead.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://msdn.microsoft.com/en-us/library/Ff539811(v=VS.85).aspx">CM_Request_Eject_PC</a> instead.]
 
 The <b>CM_Request_Eject_PC_Ex</b> function requests that a portable PC, which is inserted in a local or a remote <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">docking station</a>, be ejected.
 
@@ -96,7 +96,7 @@ Use this function to request that a portable PC, which is inserted in a local or
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/45d8151a-67d0-4cb1-8593-4cfb271a3411">CM_Request_Eject_PC</a> requests that a portable PC, which is inserted in a local docking station, be ejected.
+<a href="https://msdn.microsoft.com/en-us/library/Ff539811(v=VS.85).aspx">CM_Request_Eject_PC</a> requests that a portable PC, which is inserted in a local docking station, be ejected.
 
 </li>
 </ul>
@@ -118,7 +118,7 @@ Use this function to request that a portable PC, which is inserted in a local or
 
 
 
-<a href="https://msdn.microsoft.com/45d8151a-67d0-4cb1-8593-4cfb271a3411">CM_Request_Eject_PC</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff539811(v=VS.85).aspx">CM_Request_Eject_PC</a>
  
 
  

@@ -64,7 +64,7 @@ Apps perform indirect draws/dispatches using the <b>ExecuteIndirect</b> method.
 
 Type: <b><a href="https://msdn.microsoft.com/57EC15D0-9056-4AFC-86EF-3658DEA8AF40">ID3D12CommandSignature</a>*</b>
 
-Specifies a <a href="https://msdn.microsoft.com/57EC15D0-9056-4AFC-86EF-3658DEA8AF40">ID3D12CommandSignature</a>. The data referenced by <i>pArgumentBuffer</i> will be interpreted depending on the contents of the command signature. Refer to <a href="https://msdn.microsoft.com/F8D6C88A-101E-4F66-999F-43206F6527B6">Indirect Drawing</a> for the APIs that are used to create a command signature.
+Specifies a <a href="https://msdn.microsoft.com/57EC15D0-9056-4AFC-86EF-3658DEA8AF40">ID3D12CommandSignature</a>. The data referenced by <i>pArgumentBuffer</i> will be interpreted depending on the contents of the command signature. Refer to <a href="https://msdn.microsoft.com/en-us/library/Dn903925(v=VS.85).aspx">Indirect Drawing</a> for the APIs that are used to create a command signature.
           
 
 
@@ -83,9 +83,9 @@ There are two ways that command counts can be specified:
 
 ### -param pArgumentBuffer [in]
 
-Type: <b><a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn788709(v=VS.85).aspx">ID3D12Resource</a>*</b>
 
-Specifies one or more <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a> objects, containing the command arguments.
+Specifies one or more <a href="https://msdn.microsoft.com/en-us/library/Dn788709(v=VS.85).aspx">ID3D12Resource</a> objects, containing the command arguments.
           
 
 
@@ -99,9 +99,9 @@ Specifies an offset into <i>pArgumentBuffer</i> to identify the first command ar
 
 ### -param pCountBuffer [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn788709(v=VS.85).aspx">ID3D12Resource</a>*</b>
 
-Specifies a pointer to a <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a>.
+Specifies a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn788709(v=VS.85).aspx">ID3D12Resource</a>.
           
 
 
@@ -186,7 +186,7 @@ The functionality of two APIs from earlier versions of Direct3D, <code>DrawInsta
 <li>The command signature contains exactly one operation.  This implies that the command signature does not contain root arguments changes, nor contain VB/IB binding changes.</li>
 </ul>
 <h3><a id="Obtaining_buffer_virtual_addresses"></a><a id="obtaining_buffer_virtual_addresses"></a><a id="OBTAINING_BUFFER_VIRTUAL_ADDRESSES"></a>Obtaining buffer virtual addresses</h3>
-The <a href="https://msdn.microsoft.com/1B1A345D-D6BD-4DF1-8F10-A209135283AD">ID3D12Resource::GetGPUVirtualAddress</a> method enables an app to retrieve the GPU virtual address of a buffer.
+The <a href="https://msdn.microsoft.com/en-us/library/Dn903923(v=VS.85).aspx">ID3D12Resource::GetGPUVirtualAddress</a> method enables an app to retrieve the GPU virtual address of a buffer.
               
 
 Apps are free to apply byte offsets to virtual addresses before placing them in an indirect argument buffer.  Note that all of the D3D12 alignment requirements for VB/IB/CB still apply to the resulting GPU virtual address. 
@@ -194,7 +194,7 @@ Apps are free to apply byte offsets to virtual addresses before placing them in 
 
 #### Examples
 
-The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12ExecuteIndirect</a> sample uses <b>ID3D12GraphicsCommandList::ExecuteIndirect</b> as follows:
+The <a href="https://msdn.microsoft.com/en-us/library/Mt186624(v=VS.85).aspx">D3D12ExecuteIndirect</a> sample uses <b>ID3D12GraphicsCommandList::ExecuteIndirect</b> as follows:
          
         
 
@@ -343,7 +343,7 @@ void D3D12ExecuteIndirect::PopulateCommandLists()
 </td>
 </tr>
 </table></span></div>
-See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
+See <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85).aspx">Example Code in the D3D12 Reference</a>.
         
 
 <div class="code"></div>
@@ -355,11 +355,11 @@ See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Ex
 
 
 
-<a href="https://msdn.microsoft.com/1BF282A7-F6D4-43A9-BDAD-D877564A1C6B">ID3D12GraphicsCommandList</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903537(v=VS.85).aspx">ID3D12GraphicsCommandList</a>
 
 
 
-<a href="https://msdn.microsoft.com/F8D6C88A-101E-4F66-999F-43206F6527B6">Indirect Drawing</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903925(v=VS.85).aspx">Indirect Drawing</a>
  
 
  

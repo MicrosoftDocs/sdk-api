@@ -81,7 +81,7 @@ To specify a DHCP address, use the network identifier (all bits in the subnet se
 
 A pointer to an array of <b>CLUSTER_IP_ENTRY</b> 
     structures is passed in the <b>pIpEntries</b> member of the 
-    <a href="https://msdn.microsoft.com/5fc90422-47e4-44da-a49f-66d4b7712f53">CREATE_CLUSTER_CONFIG</a> structure, which is in turn 
+    <a href="https://msdn.microsoft.com/en-us/library/Bb309213(v=VS.85).aspx">CREATE_CLUSTER_CONFIG</a> structure, which is in turn 
     passed as the <i>pConfig</i> parameter of the 
     <a href="https://msdn.microsoft.com/672a1573-63e5-4321-a049-25bdafc1b5e0">CreateCluster</a> function.
 
@@ -93,7 +93,7 @@ A pointer to an array of <b>CLUSTER_IP_ENTRY</b>
 
 
 
-<a href="https://msdn.microsoft.com/5fc90422-47e4-44da-a49f-66d4b7712f53">CREATE_CLUSTER_CONFIG</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb309213(v=VS.85).aspx">CREATE_CLUSTER_CONFIG</a>
 
 
 
@@ -101,7 +101,7 @@ A pointer to an array of <b>CLUSTER_IP_ENTRY</b>
 
 
 
-<a href="https://msdn.microsoft.com/45da8dbc-dd70-4f95-b933-66d8e4340448">Utility structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa373109(v=VS.85).aspx">Utility structures</a>
  
 
  

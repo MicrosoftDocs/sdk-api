@@ -62,9 +62,9 @@ Gets the variant type of the property.
 
 ### -param pvartype [out]
 
-Type: <b><a href="317b911b-1805-402d-a9cb-159546bc88b4">VARTYPE</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221127(v=VS.85).aspx">VARTYPE</a>*</b>
 
-When this method returns, contains a pointer to a <a href="317b911b-1805-402d-a9cb-159546bc88b4">VARTYPE</a> that indicates the property type. If the property is multi-valued, the value pointed to is a <b>VT_VECTOR</b> mask (<b>VT_VECTOR</b> ORed to the <b>VARTYPE</b>. The following are the possible variant types.
+When this method returns, contains a pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms221127(v=VS.85).aspx">VARTYPE</a> that indicates the property type. If the property is multi-valued, the value pointed to is a <b>VT_VECTOR</b> mask (<b>VT_VECTOR</b> ORed to the <b>VARTYPE</b>. The following are the possible variant types.
 
 
 
@@ -181,7 +181,7 @@ This method always returns <b>S_OK</b>.
 
 
 
-The information retrieved by this method comes from the <i>type</i> attribute of the <a href="shell.propdesc_schema_typeInfo">typeInfo</a> element in the property's .propdesc file.
+The information retrieved by this method comes from the <i>type</i> attribute of the <a href="https://msdn.microsoft.com/en-us/library/Bb773889(v=VS.85).aspx">typeInfo</a> element in the property's .propdesc file.
 
 
 
@@ -191,7 +191,7 @@ The information retrieved by this method comes from the <i>type</i> attribute of
 
 
 
-<a href="shell.IPropertyDescription">IPropertyDescription</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb761561(v=VS.85).aspx">IPropertyDescription</a>
 
 
 

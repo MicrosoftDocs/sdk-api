@@ -54,7 +54,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Retrieves a handle that can be used by the <a href="https://msdn.microsoft.com/2984d87c-1cc4-4d4b-8542-c8aeb3b9d40e">UpdateResource</a> function to add, delete, or replace resources in a binary module.
+Retrieves a handle that can be used by the <a href="https://msdn.microsoft.com/en-us/library/ms648049(v=VS.85).aspx">UpdateResource</a> function to add, delete, or replace resources in a binary module.
 
 
 ## -parameters
@@ -73,7 +73,7 @@ The binary file in which to update resources. An application must be able to obt
 
 Type: <b>BOOL</b>
 
-Indicates whether to delete the <i>pFileName</i> parameter's existing resources. If this parameter is <b>TRUE</b>, existing resources are deleted and the updated file includes only resources added with the <a href="https://msdn.microsoft.com/2984d87c-1cc4-4d4b-8542-c8aeb3b9d40e">UpdateResource</a> function. If this parameter is <b>FALSE</b>, the updated file includes existing resources unless they are explicitly deleted or replaced by using <b>UpdateResource</b>. 
+Indicates whether to delete the <i>pFileName</i> parameter's existing resources. If this parameter is <b>TRUE</b>, existing resources are deleted and the updated file includes only resources added with the <a href="https://msdn.microsoft.com/en-us/library/ms648049(v=VS.85).aspx">UpdateResource</a> function. If this parameter is <b>FALSE</b>, the updated file includes existing resources unless they are explicitly deleted or replaced by using <b>UpdateResource</b>. 
 
 
 ## -returns
@@ -82,7 +82,7 @@ Indicates whether to delete the <i>pFileName</i> parameter's existing resources.
 
 Type: <b>HANDLE</b>
 
-If the function succeeds, the return value is a handle that can be used by the <a href="https://msdn.microsoft.com/2984d87c-1cc4-4d4b-8542-c8aeb3b9d40e">UpdateResource</a> and <a href="https://msdn.microsoft.com/19d251ec-ee98-4455-a091-e2e4a3b80092">EndUpdateResource</a> functions. The return value is <b>NULL</b> if the specified file is not a PE, the file does not exist, or the file cannot be opened for writing. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
+If the function succeeds, the return value is a handle that can be used by the <a href="https://msdn.microsoft.com/en-us/library/ms648049(v=VS.85).aspx">UpdateResource</a> and <a href="https://msdn.microsoft.com/en-us/library/ms648032(v=VS.85).aspx">EndUpdateResource</a> functions. The return value is <b>NULL</b> if the specified file is not a PE, the file does not exist, or the file cannot be opened for writing. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
 
 
 
@@ -93,15 +93,15 @@ If the function succeeds, the return value is a handle that can be used by the <
 
 It is recommended that the resource file is not loaded before this function is called. However, if that file is already loaded, it will not cause an error to be returned.
 
-There are some restrictions on resource updates in files that contain  Resource Configuration(RC Config) data: LN files and the associated .mui files. Details on which types of resources are allowed to be updated in these files are in the Remarks section for the <a href="https://msdn.microsoft.com/2984d87c-1cc4-4d4b-8542-c8aeb3b9d40e">UpdateResource</a> function.
+There are some restrictions on resource updates in files that contain  Resource Configuration(RC Config) data: LN files and the associated .mui files. Details on which types of resources are allowed to be updated in these files are in the Remarks section for the <a href="https://msdn.microsoft.com/en-us/library/ms648049(v=VS.85).aspx">UpdateResource</a> function.
 
-This function can update resources within modules that contain both code and resources. As noted above, there are restrictions on resource updates in LN files and .mui files, both of which contain RC Config data; details of the restrictions are in the reference for the <a href="https://msdn.microsoft.com/2984d87c-1cc4-4d4b-8542-c8aeb3b9d40e">UpdateResource</a> function.
+This function can update resources within modules that contain both code and resources. As noted above, there are restrictions on resource updates in LN files and .mui files, both of which contain RC Config data; details of the restrictions are in the reference for the <a href="https://msdn.microsoft.com/en-us/library/ms648049(v=VS.85).aspx">UpdateResource</a> function.
 			
 
 
 #### Examples
 
-For an example see, <a href="using_resources.htm">Updating Resources</a>.
+For an example see, <a href="https://msdn.microsoft.com/en-us/library/ms648008(v=VS.85).aspx">Updating Resources</a>.
 
 <div class="code"></div>
 
@@ -116,7 +116,7 @@ For an example see, <a href="using_resources.htm">Updating Resources</a>.
 
 
 
-<a href="https://msdn.microsoft.com/19d251ec-ee98-4455-a091-e2e4a3b80092">EndUpdateResource</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648032(v=VS.85).aspx">EndUpdateResource</a>
 
 
 
@@ -124,11 +124,11 @@ For an example see, <a href="using_resources.htm">Updating Resources</a>.
 
 
 
-<a href="https://msdn.microsoft.com/ff321356-c999-4021-a537-fbe863996e24">Resources</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632583(v=VS.85).aspx">Resources</a>
 
 
 
-<a href="https://msdn.microsoft.com/2984d87c-1cc4-4d4b-8542-c8aeb3b9d40e">UpdateResource</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648049(v=VS.85).aspx">UpdateResource</a>
  
 
  

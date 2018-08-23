@@ -213,7 +213,7 @@ The value must be 0 if <b>ConfigResidDiffAccelerator</b> is 0, indicating purely
 
 ### -field Config4GroupedCoefs
 
-If the value is 1, transform coefficients for off-host IDCT will be sent using the <a href="https://msdn.microsoft.com/f7ffe847-58ae-42a9-86fd-50a757134b45">DXVA_TCoef4Group</a> structure. If the value is 0, the <a href="https://msdn.microsoft.com/665a9819-d319-414d-9a31-ee565b293197">DXVA_TCoefSingle</a> structure is used. The value must be 0 if <b>ConfigResidDiffAccelerator</b> is 0 or if <b>ConfigHostInverseScan</b> is 1.
+If the value is 1, transform coefficients for off-host IDCT will be sent using the <a href="https://msdn.microsoft.com/en-us/library/Ff564053(v=VS.85).aspx">DXVA_TCoef4Group</a> structure. If the value is 0, the <a href="https://msdn.microsoft.com/en-us/library/Ff564060(v=VS.85).aspx">DXVA_TCoefSingle</a> structure is used. The value must be 0 if <b>ConfigResidDiffAccelerator</b> is 0 or if <b>ConfigHostInverseScan</b> is 1.
           
 
 
@@ -234,7 +234,7 @@ Contains decoder-specific configuration information.
 
 
 
-<a href="https://msdn.microsoft.com/416159A4-F50E-4027-9367-727BA81D2A21">Direct3D 11 Video Structures</a>
+<a href="https://msdn.microsoft.com/en-us/library/Hh447680(v=VS.85).aspx">Direct3D 11 Video Structures</a>
  
 
  

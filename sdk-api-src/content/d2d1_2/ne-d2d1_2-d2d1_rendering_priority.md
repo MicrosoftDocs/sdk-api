@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The rendering priority affects the extent to which <a href="https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b">Direct2D</a> will throttle its rendering workload.
+The rendering priority affects the extent to which <a href="https://msdn.microsoft.com/en-us/library/Dd370990(v=VS.85).aspx">Direct2D</a> will throttle its rendering workload.
 
 
 ## -enum-fields

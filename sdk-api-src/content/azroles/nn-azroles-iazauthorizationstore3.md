@@ -98,16 +98,16 @@ Gets a Boolean  value that indicates whether the version of this authorization s
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2b5bed8f-f38a-46dd-b889-65d43b13ce7c">IsUpdateNeeded</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377605(v=VS.85).aspx">IsUpdateNeeded</a>
 </td>
 <td align="left" width="63%">
-Checks whether the persisted version of this authorization store is newer than the cached version. If the cached version of the store is newer, the calling application can update the cached version by calling the <a href="https://msdn.microsoft.com/1fd17040-f736-44a6-8a01-720f4c8fe9ac">UpdateCache</a> method of the <a href="https://msdn.microsoft.com/f848cca6-3838-46bc-b1f4-d6eab5096046">AzAuthorizationStore</a> object.
+Checks whether the persisted version of this authorization store is newer than the cached version. If the cached version of the store is newer, the calling application can update the cached version by calling the <a href="https://msdn.microsoft.com/en-us/library/Aa376371(v=VS.85).aspx">UpdateCache</a> method of the <a href="https://msdn.microsoft.com/en-us/library/Aa376327(v=VS.85).aspx">AzAuthorizationStore</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/7719e3fd-5b06-468c-9034-f1f0bb41a5be">UpgradeStoresFunctionalLevel</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa377609(v=VS.85).aspx">UpgradeStoresFunctionalLevel</a>
 </td>
 <td align="left" width="63%">
 Upgrades this authorization store from version 1 to version 2.

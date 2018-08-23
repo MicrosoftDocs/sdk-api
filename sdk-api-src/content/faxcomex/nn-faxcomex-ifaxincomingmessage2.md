@@ -54,12 +54,12 @@ req.product: Internet Explorer 5
 
 Used by a fax client application to retrieve information about a received fax message in the archive of inbound faxes. The archive contains faxes received successfully by the fax service. The interface also includes methods to delete a message from the archive and to copy the Tagged Image File Format Class F (TIFF Class F) file associated with the fax message to a file on the local computer.
 
-The <b>IFaxIncomingMessage2</b> interface is accessed through the <a href="https://msdn.microsoft.com/8a10e18a-fed1-47b0-bb5b-b9f21f234c5b">IFaxAccountIncomingArchive</a> interface or <a href="https://msdn.microsoft.com/f0b3071b-6936-4b19-873b-0ab28cfaea93">IFaxIncomingMessageIterator</a> interface.
+The <b>IFaxIncomingMessage2</b> interface is accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa359046(v=VS.85).aspx">IFaxAccountIncomingArchive</a> interface or <a href="https://msdn.microsoft.com/en-us/library/ms687519(v=VS.85).aspx">IFaxIncomingMessageIterator</a> interface.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxIncomingMessage2</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IFaxIncomingMessage2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFaxIncomingMessage2</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFaxIncomingMessage2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -75,11 +75,11 @@ The <b>IFaxIncomingMessage2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/befff3bc-4489-4a63-b231-ff2974c760d1">Reassign</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358998(v=VS.85).aspx">Reassign</a>
 </td>
 <td align="left" width="63%">
 
-<a href="https://msdn.microsoft.com/ede1c31f-e53a-4ddc-ba25-6fcadadd513a">Reassign</a> the fax to one or more recipients. It also commits changes to the <a href="https://msdn.microsoft.com/b6722c85-3750-4a5d-baf0-05c7f79c45af">IFaxIncomingMessage2::Subject</a>, <a href="https://msdn.microsoft.com/dba0099d-bf47-47e0-8a83-39a2fe9f4793">IFaxIncomingMessage2::SenderName</a>, <a href="https://msdn.microsoft.com/304f722e-4ea6-472c-99c3-1b129d143dae">IFaxIncomingMessage2::SenderFaxNumber</a>, and <a href="https://msdn.microsoft.com/71bd6223-e5d3-453c-b747-9b0be9b074c6">IFaxIncomingMessage2::HasCoverPage</a> properties.
+<a href="https://msdn.microsoft.com/en-us/library/Aa358860(v=VS.85).aspx">Reassign</a> the fax to one or more recipients. It also commits changes to the <a href="https://msdn.microsoft.com/en-us/library/Aa359006(v=VS.85).aspx">IFaxIncomingMessage2::Subject</a>, <a href="https://msdn.microsoft.com/en-us/library/Aa359005(v=VS.85).aspx">IFaxIncomingMessage2::SenderName</a>, <a href="https://msdn.microsoft.com/en-us/library/Aa359004(v=VS.85).aspx">IFaxIncomingMessage2::SenderFaxNumber</a>, and <a href="https://msdn.microsoft.com/en-us/library/Aa358996(v=VS.85).aspx">IFaxIncomingMessage2::HasCoverPage</a> properties.
 
 
 
@@ -89,10 +89,10 @@ The <b>IFaxIncomingMessage2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/a6f15a7d-7018-427a-9069-182764165cfd">Refresh</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359002(v=VS.85).aspx">Refresh</a>
 </td>
 <td align="left" width="63%">
-Refreshes <a href="https://msdn.microsoft.com/ee546d4c-e580-4738-a5d2-0b10c5d8a1ab">FaxIncomingMessage</a> object information from the fax server. When the <a href="https://msdn.microsoft.com/a6f15a7d-7018-427a-9069-182764165cfd">Refresh</a> method is called, any configuration changes made after the last <a href="https://msdn.microsoft.com/6778fa8e-6abb-40c3-92bc-cc98dd20fba4">Save</a> method call are lost, except for the properties that are committed with the <a href="https://msdn.microsoft.com/befff3bc-4489-4a63-b231-ff2974c760d1">IFaxIncomingMessage2::Reassign</a> method: <a href="https://msdn.microsoft.com/b6722c85-3750-4a5d-baf0-05c7f79c45af">IFaxIncomingMessage2::Subject</a>, <a href="https://msdn.microsoft.com/dba0099d-bf47-47e0-8a83-39a2fe9f4793">IFaxIncomingMessage2::SenderName</a>, <a href="https://msdn.microsoft.com/304f722e-4ea6-472c-99c3-1b129d143dae">IFaxIncomingMessage2::SenderFaxNumber</a>, and <a href="https://msdn.microsoft.com/71bd6223-e5d3-453c-b747-9b0be9b074c6">IFaxIncomingMessage2::HasCoverPage</a>.
+Refreshes <a href="https://msdn.microsoft.com/en-us/library/ms686126(v=VS.85).aspx">FaxIncomingMessage</a> object information from the fax server. When the <a href="https://msdn.microsoft.com/en-us/library/Aa359002(v=VS.85).aspx">Refresh</a> method is called, any configuration changes made after the last <a href="https://msdn.microsoft.com/en-us/library/Aa359003(v=VS.85).aspx">Save</a> method call are lost, except for the properties that are committed with the <a href="https://msdn.microsoft.com/en-us/library/Aa358998(v=VS.85).aspx">IFaxIncomingMessage2::Reassign</a> method: <a href="https://msdn.microsoft.com/en-us/library/Aa359006(v=VS.85).aspx">IFaxIncomingMessage2::Subject</a>, <a href="https://msdn.microsoft.com/en-us/library/Aa359005(v=VS.85).aspx">IFaxIncomingMessage2::SenderName</a>, <a href="https://msdn.microsoft.com/en-us/library/Aa359004(v=VS.85).aspx">IFaxIncomingMessage2::SenderFaxNumber</a>, and <a href="https://msdn.microsoft.com/en-us/library/Aa358996(v=VS.85).aspx">IFaxIncomingMessage2::HasCoverPage</a>.
 
 
 
@@ -102,10 +102,10 @@ Refreshes <a href="https://msdn.microsoft.com/ee546d4c-e580-4738-a5d2-0b10c5d8a1
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6778fa8e-6abb-40c3-92bc-cc98dd20fba4">Save</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359003(v=VS.85).aspx">Save</a>
 </td>
 <td align="left" width="63%">
-Saves the <a href="https://msdn.microsoft.com/ee546d4c-e580-4738-a5d2-0b10c5d8a1ab">FaxIncomingMessage</a> object's data.
+Saves the <a href="https://msdn.microsoft.com/en-us/library/ms686126(v=VS.85).aspx">FaxIncomingMessage</a> object's data.
 
 
 
@@ -124,7 +124,7 @@ Saves the <a href="https://msdn.microsoft.com/ee546d4c-e580-4738-a5d2-0b10c5d8a1
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/71bd6223-e5d3-453c-b747-9b0be9b074c6">HasCoverPage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358996(v=VS.85).aspx">HasCoverPage</a>
 
 
 </td>
@@ -144,7 +144,7 @@ A flag that indicates whether the fax has a cover page.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/16c01419-7877-4ab7-ad21-6506e826be83">Read</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa358997(v=VS.85).aspx">Read</a>
 
 
 </td>
@@ -164,7 +164,7 @@ A flag that indicates if the fax has been read.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/72dac889-f119-4da7-835b-c0725921cf57">Recipients</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359001(v=VS.85).aspx">Recipients</a>
 
 
 </td>
@@ -184,7 +184,7 @@ Contains the recipients associated with the inbound fax message. This property i
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/304f722e-4ea6-472c-99c3-1b129d143dae">SenderFaxNumber</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359004(v=VS.85).aspx">SenderFaxNumber</a>
 
 
 </td>
@@ -204,7 +204,7 @@ Contains the sender's fax number associated with the inbound fax message. This p
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/dba0099d-bf47-47e0-8a83-39a2fe9f4793">SenderName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359005(v=VS.85).aspx">SenderName</a>
 
 
 </td>
@@ -224,7 +224,7 @@ Contains the name of the sender that is associated with the inbound fax message.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/b6722c85-3750-4a5d-baf0-05c7f79c45af">Subject</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359006(v=VS.85).aspx">Subject</a>
 
 
 </td>
@@ -233,7 +233,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/b6722c85-3750-4a5d-baf0-05c7f79c45af">Subject</a> property contains the subject associated with the inbound fax message. This property is a null-terminated string.
+The <a href="https://msdn.microsoft.com/en-us/library/Aa359006(v=VS.85).aspx">Subject</a> property contains the subject associated with the inbound fax message. This property is a null-terminated string.
 
 
 
@@ -244,7 +244,7 @@ The <a href="https://msdn.microsoft.com/b6722c85-3750-4a5d-baf0-05c7f79c45af">Su
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/c7318bec-320f-484e-a3d0-61f5d4422784">WasReAssigned</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359007(v=VS.85).aspx">WasReAssigned</a>
 
 
 </td>
@@ -266,9 +266,9 @@ Indicates if the fax has been reassigned.
 
 
 
-To create a <b>FaxIncomingMessage2</b> object in C++, call the <a href="https://msdn.microsoft.com/f9e253ef-1f61-48d5-9f71-7e14ebf538fa">IFaxAccountIncomingArchive::GetMessage</a> method or the <a href="https://msdn.microsoft.com/52846cf4-4e6b-43cc-a9ba-3e4820fc2aa8">IFaxIncomingMessageIterator::get_Message</a> method.
+To create a <b>FaxIncomingMessage2</b> object in C++, call the <a href="https://msdn.microsoft.com/en-us/library/Aa359047(v=VS.85).aspx">IFaxAccountIncomingArchive::GetMessage</a> method or the <a href="https://msdn.microsoft.com/en-us/library/ms687461(v=VS.85).aspx">IFaxIncomingMessageIterator::get_Message</a> method.
 
-A default implementation of this interface is provided by the <a href="https://msdn.microsoft.com/ee546d4c-e580-4738-a5d2-0b10c5d8a1ab">FaxIncomingMessage</a> object.
+A default implementation of this interface is provided by the <a href="https://msdn.microsoft.com/en-us/library/ms686126(v=VS.85).aspx">FaxIncomingMessage</a> object.
 
 
 
@@ -278,19 +278,19 @@ A default implementation of this interface is provided by the <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/ee546d4c-e580-4738-a5d2-0b10c5d8a1ab">FaxIncomingMessage</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms686126(v=VS.85).aspx">FaxIncomingMessage</a>
 
 
 
-<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/8a10e18a-fed1-47b0-bb5b-b9f21f234c5b">IFaxAccountIncomingArchive</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa359046(v=VS.85).aspx">IFaxAccountIncomingArchive</a>
 
 
 
-<a href="https://msdn.microsoft.com/f0b3071b-6936-4b19-873b-0ab28cfaea93">IFaxIncomingMessageIterator</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms687519(v=VS.85).aspx">IFaxIncomingMessageIterator</a>
  
 
  

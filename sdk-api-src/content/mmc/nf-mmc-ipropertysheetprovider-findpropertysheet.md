@@ -75,7 +75,7 @@ A pointer to the
 ### -param lpDataObject [in]
 
 A pointer to the 
-<a href="_ole_idataobject">IDataObject</a> interface on the data object.
+<a href="https://msdn.microsoft.com/en-us/library/ms688421(v=VS.85).aspx">IDataObject</a> interface on the data object.
 
 
 #### - HSCOPEITEM

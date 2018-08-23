@@ -110,13 +110,13 @@ Additionally, textures must be in the COMMON state for CPU access to be legal, a
 
 ### -field D3D12_RESOURCE_STATE_DEPTH_WRITE
 
-DEPTH_WRITE is a state which is mutually exclusive with other states. It should be used for <a href="https://msdn.microsoft.com/EF56EA6C-00DB-4231-B67D-B99811F51246">ID3D12GraphicsCommandList::ClearDepthStencilView</a> when the flags (see <a href="https://msdn.microsoft.com/F66672BC-1610-43F2-BF39-5F498183E3A5">D3D12_CLEAR_FLAGS</a>) indicate a given subresource should be cleared (otherwise the subresource state doesn't matter), or when using it in a writable depth stencil view (see <a href="https://msdn.microsoft.com/A968BFFF-8C26-4C8C-9AA4-7E9BB5B0DF1F">D3D12_DSV_FLAGS</a>) when the PSO has depth write enabled (see <a href="https://msdn.microsoft.com/C324F6EF-668A-4056-B538-A05329751554">D3D12_DEPTH_STENCIL_DESC</a>).
+DEPTH_WRITE is a state which is mutually exclusive with other states. It should be used for <a href="https://msdn.microsoft.com/EF56EA6C-00DB-4231-B67D-B99811F51246">ID3D12GraphicsCommandList::ClearDepthStencilView</a> when the flags (see <a href="https://msdn.microsoft.com/en-us/library/Dn986721(v=VS.85).aspx">D3D12_CLEAR_FLAGS</a>) indicate a given subresource should be cleared (otherwise the subresource state doesn't matter), or when using it in a writable depth stencil view (see <a href="https://msdn.microsoft.com/en-us/library/Dn986727(v=VS.85).aspx">D3D12_DSV_FLAGS</a>) when the PSO has depth write enabled (see <a href="https://msdn.microsoft.com/en-us/library/Dn770356(v=VS.85).aspx">D3D12_DEPTH_STENCIL_DESC</a>).
 
 
 
 ### -field D3D12_RESOURCE_STATE_DEPTH_READ
 
-DEPTH_READ is a state which can be combined with other states. It should be used when the subresource is in a read-only depth stencil view, or when the <i>DepthEnable</i> parameter of <a href="https://msdn.microsoft.com/C324F6EF-668A-4056-B538-A05329751554">D3D12_DEPTH_STENCIL_DESC</a> is false. It can be combined with other read states (for example, D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE), such that the resource can be used for the depth or stencil test, and accessed by a shader within the same draw call. Using it when depth will be written by a draw call or clear command is invalid.
+DEPTH_READ is a state which can be combined with other states. It should be used when the subresource is in a read-only depth stencil view, or when the <i>DepthEnable</i> parameter of <a href="https://msdn.microsoft.com/en-us/library/Dn770356(v=VS.85).aspx">D3D12_DEPTH_STENCIL_DESC</a> is false. It can be combined with other read states (for example, D3D12_RESOURCE_STATE_PIXEL_SHADER_RESOURCE), such that the resource can be used for the depth or stencil test, and accessed by a shader within the same draw call. Using it when depth will be written by a draw call or clear command is invalid.
 
 
 ### -field D3D12_RESOURCE_STATE_NON_PIXEL_SHADER_RESOURCE
@@ -150,7 +150,7 @@ DEPTH_READ is a state which can be combined with other states. It should be used
 
 
             The resource is used as an indirect argument.
-            Subresources must be in this state when they are used as the argument buffer passed to the indirect drawing method <a href="https://msdn.microsoft.com/99FB088D-F3EB-4BAD-A945-51A1ED6F9288">ID3D12GraphicsCommandList::ExecuteIndirect</a>.
+            Subresources must be in this state when they are used as the argument buffer passed to the indirect drawing method <a href="https://msdn.microsoft.com/en-us/library/Dn903884(v=VS.85).aspx">ID3D12GraphicsCommandList::ExecuteIndirect</a>.
             This is a read-only state.
           
 
@@ -255,13 +255,13 @@ This is the required starting state for upload heaps. Applications should genera
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/FF9E8F11-F2C5-4A96-8E25-140870D15DA9">CreateCommittedResource</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn899178(v=VS.85).aspx">CreateCommittedResource</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/4581A82D-D2B6-4CAE-A336-07B8CF90A0BA">CreatePlacedResource</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn899180(v=VS.85).aspx">CreatePlacedResource</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/37E74129-1B5C-4997-A584-D7E9F92342EA">CreateReservedResource</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn899181(v=VS.85).aspx">CreateReservedResource</a>
 </li>
 </ul>
 
@@ -272,11 +272,11 @@ This is the required starting state for upload heaps. Applications should genera
 
 
 
-<a href="https://msdn.microsoft.com/76E76C85-128E-4F0E-9711-C72C4CF6C835">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn770455(v=VS.85).aspx">Core Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/3AB3BF34-433C-400B-921A-55B23CCDA44F">Using Resource Barriers to Synchronize Resource States in Direct3D 12</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn899226(v=VS.85).aspx">Using Resource Barriers to Synchronize Resource States in Direct3D 12</a>
  
 
  

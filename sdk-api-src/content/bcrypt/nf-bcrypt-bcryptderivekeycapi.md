@@ -53,7 +53,7 @@ req.irql:
 
 The <b>BCryptDeriveKeyCapi</b> function derives a key from a hash value.
 
-This function is  provided as a helper function to assist in migrating legacy Cryptography API (CAPI)–based applications to use Cryptography API: Next Generation (CNG).  The <b>BCryptDeriveKeyCapi</b> function performs the key derivation in a manner that is compatible with the CAPI <a href="https://msdn.microsoft.com/b031e3b4-0102-400e-96db-019d31402adc">CryptDeriveKey</a> function.
+This function is  provided as a helper function to assist in migrating legacy Cryptography API (CAPI)–based applications to use Cryptography API: Next Generation (CNG).  The <b>BCryptDeriveKeyCapi</b> function performs the key derivation in a manner that is compatible with the CAPI <a href="https://msdn.microsoft.com/en-us/library/Aa379916(v=VS.85).aspx">CryptDeriveKey</a> function.
 
 
 ## -parameters
@@ -63,12 +63,12 @@ This function is  provided as a helper function to assist in migrating legacy Cr
 
 ### -param hHash [in]
 
-The handle of the hash object. The handle is obtained by calling the <a href="https://msdn.microsoft.com/deb02f67-f3d3-4542-8245-fd4982c3190b">BCryptCreateHash</a> function. When you have finished using the handle, you must free it by calling the <a href="https://msdn.microsoft.com/067dac61-98b9-478c-ac4d-e141961865e9">BCryptDestroyHash</a> function.
+The handle of the hash object. The handle is obtained by calling the <a href="https://msdn.microsoft.com/en-us/library/Aa375383(v=VS.85).aspx">BCryptCreateHash</a> function. When you have finished using the handle, you must free it by calling the <a href="https://msdn.microsoft.com/067dac61-98b9-478c-ac4d-e141961865e9">BCryptDestroyHash</a> function.
 
 
 ### -param hTargetAlg [in, optional]
 
-The handle of the algorithm object.  This can be an <a href="https://msdn.microsoft.com/557436b4-f7f1-4708-acc7-c6b47e6322ad">ALG_ID</a> value that is compatible with the <a href="https://msdn.microsoft.com/b031e3b4-0102-400e-96db-019d31402adc">CryptDeriveKey</a> function.
+The handle of the algorithm object.  This can be an <a href="https://msdn.microsoft.com/557436b4-f7f1-4708-acc7-c6b47e6322ad">ALG_ID</a> value that is compatible with the <a href="https://msdn.microsoft.com/en-us/library/Aa379916(v=VS.85).aspx">CryptDeriveKey</a> function.
 
 <div class="alert"><b>Note</b>  Limitations in CAPI and key expansion prevent the use of any hash algorithm that generates an output that is larger than 512 bits.</div>
 <div> </div>
@@ -159,7 +159,7 @@ A memory allocation failure occurred.
 
 
 
-This function does not support the PK salt functionality of the CAPI <a href="https://msdn.microsoft.com/b031e3b4-0102-400e-96db-019d31402adc">CryptDeriveKey</a> function. 
+This function does not support the PK salt functionality of the CAPI <a href="https://msdn.microsoft.com/en-us/library/Aa379916(v=VS.85).aspx">CryptDeriveKey</a> function. 
 
 
 

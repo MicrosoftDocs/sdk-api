@@ -73,7 +73,7 @@ Pointer to a function that the object creation wizard extension calls to add a p
 </td>
 </tr>
 </table></span></div>
-<i>hPage</i> contains the handle of the wizard page created by calling <a href="_win32_createpropertysheetpage_cpp">CreatePropertySheetPage</a>.
+<i>hPage</i> contains the handle of the wizard page created by calling <a href="https://msdn.microsoft.com/en-us/library/Bb760807(v=VS.85).aspx">CreatePropertySheetPage</a>.
 
 <i>lParam</i> is the <i>lParam</i> value passed to <b>AddPages</b>.
 
@@ -97,9 +97,9 @@ If the method is successful,
 
 
 
-For each page, the wizard extension adds to the wizard, the extension fills in a <a href="_win32_propsheetpage_str_cpp">PROPSHEETPAGE</a> structure, calls the <a href="_win32_createpropertysheetpage_cpp">CreatePropertySheetPage</a> function to create the page handle and then calls the <i>lpfnAddPage</i> function with the page handle and <i>lParam</i>.
+For each page, the wizard extension adds to the wizard, the extension fills in a <a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> structure, calls the <a href="https://msdn.microsoft.com/en-us/library/Bb760807(v=VS.85).aspx">CreatePropertySheetPage</a> function to create the page handle and then calls the <i>lpfnAddPage</i> function with the page handle and <i>lParam</i>.
 
-This method is identical in format and operation to the <a href="_win32_ishellpropsheetext_win32_ishellpropsheetext_addpages_cpp">IShellPropSheetExt::AddPages</a> method.
+This method is identical in format and operation to the <a href="https://msdn.microsoft.com/library/Bb774878(v=VS.85).aspx">IShellPropSheetExt::AddPages</a> method.
 
 
 
@@ -109,7 +109,7 @@ This method is identical in format and operation to the <a href="_win32_ishellpr
 
 
 
-<a href="_win32_createpropertysheetpage_cpp">CreatePropertySheetPage</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb760807(v=VS.85).aspx">CreatePropertySheetPage</a>
 
 
 
@@ -117,11 +117,11 @@ This method is identical in format and operation to the <a href="_win32_ishellpr
 
 
 
-<a href="_win32_ishellpropsheetext_win32_ishellpropsheetext_addpages_cpp">IShellPropSheetExt::AddPages</a>
+<a href="https://msdn.microsoft.com/library/Bb774878(v=VS.85).aspx">IShellPropSheetExt::AddPages</a>
 
 
 
-<a href="_win32_propsheetpage_str_cpp">PROPSHEETPAGE</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a>
  
 
  

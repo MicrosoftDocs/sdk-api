@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Plays an AVI clip in an animation control. The control plays the clip in the background while the thread continues executing. You can use this macro or send the <a href="https://msdn.microsoft.com/738b7305-bb77-441d-a198-17daf3b76039">ACM_PLAY</a> message explicitly. 
+Plays an AVI clip in an animation control. The control plays the clip in the background while the thread continues executing. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761899(v=VS.85).aspx">ACM_PLAY</a> message explicitly. 
 
 
 ## -parameters
@@ -61,28 +61,28 @@ Plays an AVI clip in an animation control. The control plays the clip in the bac
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
 
 A handle to the animation control in which to play the AVI clip. 
 
 
 ### -param from
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 The zero-based index of the frame where playing begins. The value must be less than 65,536. A value of zero means begin with the first frame in the AVI clip. 
 
 
 ### -param to
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 The zero-based index of the frame where playing ends. The value must be less than 65,536. A value of -1 means end with the last frame in the AVI clip. 
 
 
 ### -param rep
 
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
 
 The number of times to replay the AVI clip. A value of -1 means replay the clip indefinitely.
 
@@ -91,7 +91,7 @@ The number of times to replay the AVI clip. A value of -1 means replay the clip 
 
 
 
-You can use <a href="https://msdn.microsoft.com/6778fe2e-5338-4111-973a-1fc26a3b5f82">Animate_Seek</a> to direct the animation control to display a particular frame of the AVI clip. 
+You can use <a href="https://msdn.microsoft.com/en-us/library/Bb761916(v=VS.85).aspx">Animate_Seek</a> to direct the animation control to display a particular frame of the AVI clip. 
 
 
 

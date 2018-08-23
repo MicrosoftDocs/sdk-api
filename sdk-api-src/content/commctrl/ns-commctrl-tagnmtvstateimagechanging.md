@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Contains information about an <a href="https://msdn.microsoft.com/8e42d8b3-5e76-4d03-94b0-3e4583669095">NM_TVSTATEIMAGECHANGING</a> notification code.
+Contains information about an <a href="https://msdn.microsoft.com/en-us/library/Bb775572(v=VS.85).aspx">NM_TVSTATEIMAGECHANGING</a> notification code.
 
 
 ## -struct-fields
@@ -61,10 +61,10 @@ Contains information about an <a href="https://msdn.microsoft.com/8e42d8b3-5e76-
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains information about this notification code.
+<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about this notification code.
 
 
 ### -field hti

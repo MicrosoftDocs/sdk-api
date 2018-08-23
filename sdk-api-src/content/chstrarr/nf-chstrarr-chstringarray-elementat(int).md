@@ -52,10 +52,10 @@ req.irql:
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/62959345-4fed-4107-b155-1746ad35c658">CHStringArray</a> class 
+<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/en-us/library/Aa385304(v=VS.85).aspx">CHStringArray</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
+    <a href="https://msdn.microsoft.com/en-us/library/JJ152383(v=VS.85).aspx">MI APIs</a> should be used for all new 
     development.]
 
 The <b>ElementAt</b> method returns a temporary reference to the element pointer within the array.
@@ -68,14 +68,14 @@ The <b>ElementAt</b> method returns a temporary reference to the element pointer
 
 ### -param nIndex
 
-An integer index that is greater than or equal to zero and less than or equal to the value returned by <a href="https://msdn.microsoft.com/77c200f9-c63b-4842-881f-5c077e4618b8">GetUpperBound</a>.
+An integer index that is greater than or equal to zero and less than or equal to the value returned by <a href="https://msdn.microsoft.com/en-us/library/Aa385377(v=VS.85).aspx">GetUpperBound</a>.
 
 
 ## -returns
 
 
 
-If the <b>ElementAt</b> method is successful, it returns a reference to the <a href="https://msdn.microsoft.com/e2e4378f-d842-4bca-bffc-a60e718caed3">CHString</a> string at the <i>nIndex</i> position in the <a href="https://msdn.microsoft.com/62959345-4fed-4107-b155-1746ad35c658">CHStringArray</a> array.
+If the <b>ElementAt</b> method is successful, it returns a reference to the <a href="https://msdn.microsoft.com/en-us/library/Aa384937(v=VS.85).aspx">CHString</a> string at the <i>nIndex</i> position in the <a href="https://msdn.microsoft.com/en-us/library/Aa385304(v=VS.85).aspx">CHStringArray</a> array.
 
 
 
@@ -100,7 +100,7 @@ See the example for <a href="https://msdn.microsoft.com/5db50c38-a9c7-4711-925e-
 
 
 
-<a href="https://msdn.microsoft.com/62959345-4fed-4107-b155-1746ad35c658">CHStringArray</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385304(v=VS.85).aspx">CHStringArray</a>
 
 
 

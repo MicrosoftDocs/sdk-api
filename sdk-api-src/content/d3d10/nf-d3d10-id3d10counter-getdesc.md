@@ -62,9 +62,9 @@ Get a counter description.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/0ce53cf0-8b09-4b6a-b065-ff08b830b616">D3D10_COUNTER_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb204905(v=VS.85).aspx">D3D10_COUNTER_DESC</a>*</b>
 
-Pointer to a counter description (see <a href="https://msdn.microsoft.com/0ce53cf0-8b09-4b6a-b065-ff08b830b616">D3D10_COUNTER_DESC</a>).
+Pointer to a counter description (see <a href="https://msdn.microsoft.com/en-us/library/Bb204905(v=VS.85).aspx">D3D10_COUNTER_DESC</a>).
 
 
 ## -returns
@@ -81,7 +81,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/1844b30a-27fb-415a-9ac8-93d159e9774e">ID3D10Counter Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb173514(v=VS.85).aspx">ID3D10Counter Interface</a>
  
 
  

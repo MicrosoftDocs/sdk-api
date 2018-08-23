@@ -143,15 +143,15 @@ The video renderer filter is not connected.
 
 
 
-<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/8e931c15-bd1d-409e-ada1-97fe49125fe7">IVideoWindow Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377276(v=VS.85).aspx">IVideoWindow Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/0b1d34b6-0043-4929-a496-cf84b5d47b55">IVideoWindow::put_BackgroundPalette</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dd377317(v=VS.85).aspx">IVideoWindow::put_BackgroundPalette</a>
  
 
  

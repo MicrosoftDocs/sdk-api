@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Defines information about number of charge cycles of a battery for use with the <a href="https://msdn.microsoft.com/2a5c4c14-fc80-4a0a-b447-6fe33ff1d42f">BatteryClassQueryWmiDataBlock</a> function.
+Defines information about number of charge cycles of a battery for use with the <a href="https://msdn.microsoft.com/en-us/library/Ff536268(v=VS.85).aspx">BatteryClassQueryWmiDataBlock</a> function.
 
 
 ## -struct-fields
@@ -74,7 +74,7 @@ The number of charge/discharge cycles the battery has experienced, or zero if th
 
 
 
-<a href="https://msdn.microsoft.com/2a5c4c14-fc80-4a0a-b447-6fe33ff1d42f">BatteryClassQueryWmiDataBlock</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff536268(v=VS.85).aspx">BatteryClassQueryWmiDataBlock</a>
  
 
  

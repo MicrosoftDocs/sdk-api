@@ -72,7 +72,7 @@ The pin current signal generation state. A value of true means that the pin is s
 
 
 
-<a href="base.ioctl_ioctl_pwm_pin_is_started">IOCTL_PWM_PIN_IS_STARTED</a>
+<a href="https://msdn.microsoft.com/en-us/library/Mt843917(v=VS.85).aspx">IOCTL_PWM_PIN_IS_STARTED</a>
  
 
  

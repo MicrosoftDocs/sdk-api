@@ -92,7 +92,7 @@ Position of the first character in <b>awcBuffer</b>.
 
 
 
-Windows Search populates the members of this structure when the word breaker is invoked and initialized. <a href="https://msdn.microsoft.com/32e495c0-e173-4b35-be58-51f31cb38e3e">IWordBreaker::BreakText</a> gets a pointer to a <b>TEXT_SOURCE</b> structure and calls PFNFILLTEXTBUFFER, the function pointed to by the <b>pfnFillTextBuffer</b> member, to refill <b>awcBuffer</b> until all text from the source is processed. The <b>PFNFILLTEXTBUFFER</b> function returns an <b>HRESULT</b> that includes both filtering and word-breaking return values.
+Windows Search populates the members of this structure when the word breaker is invoked and initialized. <a href="https://msdn.microsoft.com/en-us/library/Bb266429(v=VS.85).aspx">IWordBreaker::BreakText</a> gets a pointer to a <b>TEXT_SOURCE</b> structure and calls PFNFILLTEXTBUFFER, the function pointed to by the <b>pfnFillTextBuffer</b> member, to refill <b>awcBuffer</b> until all text from the source is processed. The <b>PFNFILLTEXTBUFFER</b> function returns an <b>HRESULT</b> that includes both filtering and word-breaking return values.
 
  
                 The filtering return values are the following:
@@ -104,9 +104,9 @@ Windows Search populates the members of this structure when the word breaker is 
 <li>FILTER_E_NO_MORE_TEXT</li>
 <li>FILTER_E_END_OF_CHUNKS</li>
 </ul>
-For more information about these return values, see <a href="_idxs_filter_interface_values">Filter-Interface Values</a>.
+For more information about these return values, see <a href="https://msdn.microsoft.com/en-us/library/ms690627(v=VS.85).aspx">Filter-Interface Values</a>.
 
-The word-breaking return value is WBREAK_E_END_OF_TEXT. For more information about word-breaking return values, see <a href="_idxs_word_breaking_values">Word-Breaking Values</a>.
+The word-breaking return value is WBREAK_E_END_OF_TEXT. For more information about word-breaking return values, see <a href="https://msdn.microsoft.com/en-us/library/ms690624(v=VS.85).aspx">Word-Breaking Values</a>.
 
 
 
@@ -116,7 +116,7 @@ The word-breaking return value is WBREAK_E_END_OF_TEXT. For more information abo
 
 
 
-<a href="https://msdn.microsoft.com/32e495c0-e173-4b35-be58-51f31cb38e3e">IWordBreaker::BreakText</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb266429(v=VS.85).aspx">IWordBreaker::BreakText</a>
  
 
  

@@ -61,14 +61,14 @@ Describes an elliptical arc between two points.
 
 ### -field point
 
-Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368140(v=VS.85).aspx">D2D1_POINT_2F</a></b>
 
 The end point of the arc.
 
 
 ### -field size
 
-Type: <b><a href="https://msdn.microsoft.com/c2fd41fb-72b3-418b-ad87-65549b04657d">D2D1_SIZE_F</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368160(v=VS.85).aspx">D2D1_SIZE_F</a></b>
 
 The x-radius and y-radius of the arc.
 
@@ -82,14 +82,14 @@ A value that specifies how many degrees in the clockwise direction the ellipse i
 
 ### -field sweepDirection
 
-Type: <b><a href="https://msdn.microsoft.com/97e6f384-7a42-4852-b948-66010bffed22">D2D1_SWEEP_DIRECTION</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368166(v=VS.85).aspx">D2D1_SWEEP_DIRECTION</a></b>
 
 A value that specifies whether the arc sweep is clockwise or counterclockwise.
 
 
 ### -field arcSize
 
-Type: <b><a href="https://msdn.microsoft.com/c471716d-c2cc-4f79-8011-46690812b848">D2D1_ARC_SIZE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368068(v=VS.85).aspx">D2D1_ARC_SIZE</a></b>
 
 A value that specifies whether the given arc is larger than 180 degrees.
 

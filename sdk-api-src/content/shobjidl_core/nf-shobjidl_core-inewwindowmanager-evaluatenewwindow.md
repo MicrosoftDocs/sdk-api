@@ -151,7 +151,7 @@ Block display of the window.
 </dl>
 </td>
 <td width="60%">
-When you implement <a href="https://msdn.microsoft.com/63fbdd29-fe5e-4216-afb3-041320a8c496">INewWindowManager</a> for a hosted <a href="_inet_MLang_1">WebBrowser</a> control, this value instructs the WebBrowser control to use the default implementation.
+When you implement <a href="https://msdn.microsoft.com/63fbdd29-fe5e-4216-afb3-041320a8c496">INewWindowManager</a> for a hosted <a href="https://msdn.microsoft.com/library/Aa752040(v=VS.85).aspx">WebBrowser</a> control, this value instructs the WebBrowser control to use the default implementation.
 
 </td>
 </tr>

@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-The <b>GetNameCount</b> method returns the number of names in a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL) distribution point.
+The <b>GetNameCount</b> method returns the number of names in a <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate revocation list</a> (CRL) distribution point.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ A pointer to a <b>Long</b> that will represent the number of name values contain
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the number of names in the CRL distribution point.
@@ -90,19 +90,19 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-<a href="https://msdn.microsoft.com/e9c0053f-263f-4d7b-9356-bc33af989dbe">ICertEncodeCRLDistInfo</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383911(v=VS.85).aspx">ICertEncodeCRLDistInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/8c7d0d14-e755-4223-8cd5-0ebc784960cf">ICertEncodeCRLDistInfo::GetDistPointCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383936(v=VS.85).aspx">ICertEncodeCRLDistInfo::GetDistPointCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/a564af61-fb5e-46b7-a818-333b4d5e2f25">ICertEncodeCRLDistInfo::GetName</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383945(v=VS.85).aspx">ICertEncodeCRLDistInfo::GetName</a>
 
 
 
-<a href="https://msdn.microsoft.com/ce27adfd-e21a-4e8d-882e-72041f97958a">ICertEncodeCRLDistInfo::SetNameCount</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa383982(v=VS.85).aspx">ICertEncodeCRLDistInfo::SetNameCount</a>
  
 
  

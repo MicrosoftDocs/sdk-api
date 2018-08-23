@@ -66,5 +66,5 @@ The size, in bytes, of the buffer pointed to by the <b>rgX509Data</b> member.
 
 ### -field rgX509Data
 
-A pointer to a <a href="https://msdn.microsoft.com/118371c7-9b75-4330-9897-bd352b072fa4">CRYPT_XML_X509DATA_ITEM</a> structure that contains data to encode.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd433870(v=VS.85).aspx">CRYPT_XML_X509DATA_ITEM</a> structure that contains data to encode.
 

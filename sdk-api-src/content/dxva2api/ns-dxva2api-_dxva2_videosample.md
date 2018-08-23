@@ -84,7 +84,7 @@ End time of the sample, in 100-nanosecond units. For video substream samples, th
 
 ### -field SrcSurface
 
-Pointer to the <a href="https://msdn.microsoft.com/312eee39-6a5c-46b6-b145-78d5f0f9eecd">IDirect3DSurface9</a> interface of the Direct3D surface that contains the sample.
+Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a> interface of the Direct3D surface that contains the sample.
           
 
 

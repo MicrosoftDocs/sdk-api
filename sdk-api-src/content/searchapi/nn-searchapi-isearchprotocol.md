@@ -52,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Provides methods for invoking, initializing, and managing <a href="https://msdn.microsoft.com/1e6272e7-d9bc-4372-8feb-f96626b88903">IUrlAccessor</a> objects. Methods in this interface are called by the protocol host when processing URLs from the gatherer. 
+Provides methods for invoking, initializing, and managing <a href="https://msdn.microsoft.com/en-us/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a> objects. Methods in this interface are called by the protocol host when processing URLs from the gatherer. 
         
 
 The protocol handler implements the protocol for accessing a content source in its native format. Use this interface to implement a custom protocol handler to expand the data sources that can be indexed. 
@@ -76,27 +76,27 @@ The <b>ISearchProtocol</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/2334914c-baab-4c4b-963b-b3c48d9a96c6">CloseAccessor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231437(v=VS.85).aspx">CloseAccessor</a>
 </td>
 <td align="left" width="63%">
-Closes a previously created <a href="https://msdn.microsoft.com/1e6272e7-d9bc-4372-8feb-f96626b88903">IUrlAccessor</a> object. 
+Closes a previously created <a href="https://msdn.microsoft.com/en-us/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a> object. 
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6fa8bf02-155d-48e9-8f94-c54680ae33e2">CreateAccessor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231438(v=VS.85).aspx">CreateAccessor</a>
 </td>
 <td align="left" width="63%">
-Creates and initializes an <a href="https://msdn.microsoft.com/1e6272e7-d9bc-4372-8feb-f96626b88903">IUrlAccessor</a> object.  
+Creates and initializes an <a href="https://msdn.microsoft.com/en-us/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a> object.  
         
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/f055f283-4b2f-4dcb-aed6-1e2ae24f2518">Init</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231439(v=VS.85).aspx">Init</a>
 </td>
 <td align="left" width="63%">
 Initializes a protocol handler. 
@@ -106,7 +106,7 @@ Initializes a protocol handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/47f644a0-bd70-4af5-bf0b-5a6fe77cbefa">ShutDown</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231441(v=VS.85).aspx">ShutDown</a>
 </td>
 <td align="left" width="63%">
 Shuts down the protocol handler.
@@ -122,7 +122,7 @@ Shuts down the protocol handler.
 
 
 
-<a href="https://msdn.microsoft.com/cfba12eb-4123-4b57-8311-d4fc8f9f514e">The Indexing Process</a>
+<a href="https://msdn.microsoft.com/en-us/library/Cc678933(v=VS.85).aspx">The Indexing Process</a>
  
 
  

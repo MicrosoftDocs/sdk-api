@@ -55,7 +55,7 @@ req.irql:
 The <b>IEnumCERTVIEWROW</b> interface represents a row-enumeration sequence that contains the data in the rows of the Certificate Services view, allowing further access to the columns, attributes, and extensions associated with each row.
 
 The row-enumeration sequence is obtained through a call to the 
-<a href="https://msdn.microsoft.com/d68a5463-f711-4737-b0ad-889f7e4855d5">ICertView::OpenView</a> method. After this enumeration sequence is obtained, the <b>IEnumCERTVIEWROW</b> methods can be used to perform the following tasks:<ul>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385435(v=VS.85).aspx">ICertView::OpenView</a> method. After this enumeration sequence is obtained, the <b>IEnumCERTVIEWROW</b> methods can be used to perform the following tasks:<ul>
 <li>Navigate through the enumeration sequence.</li>
 <li>Obtain other objects for enumerating the columns, certificate extensions, or attributes associated with a specific row.</li>
 <li>Retrieve the maximum number of rows for the view.</li>
@@ -69,9 +69,9 @@ Certificate Services interfaces support both apartment-threading and free-thread
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumCERTVIEWROW</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IEnumCERTVIEWROW</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEnumCERTVIEWROW</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IEnumCERTVIEWROW</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -91,21 +91,21 @@ Reserved for future use.
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/53a70f66-3805-429e-8ef6-01b00b666b72">EnumCertViewAttribute</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa386234(v=VS.85).aspx">EnumCertViewAttribute</a>
 </td>
 <td align="left" width="63%">
 Obtains an instance of an attribute-enumeration sequence for the current row of the row-enumeration sequence.</p> (Inherited from <b>IEnumCERTVIEWROW</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/78fd2431-c4c7-4df9-856a-69665fa8c063">EnumCertViewColumn</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa386239(v=VS.85).aspx">EnumCertViewColumn</a>
 </td>
 <td align="left" width="63%">
 Obtains an instance of a column-enumeration sequence for the current row of the row-enumeration sequence.</p> (Inherited from <b>IEnumCERTVIEWROW</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/41028000-fa87-4ad0-93fc-314c5d3870f9">EnumCertViewExtension</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa386242(v=VS.85).aspx">EnumCertViewExtension</a>
 </td>
 <td align="left" width="63%">
 Obtains an instance of an extension-enumeration sequence for the current row of the row-enumeration sequence.</p> (Inherited from <b>IEnumCERTVIEWROW</b>)</td>
@@ -119,21 +119,21 @@ Retrieves the maximum valid index value after all the rows in the row-enumeratio
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/6e471ee9-4b69-468c-a724-e43bd93419d9">Next</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa386249(v=VS.85).aspx">Next</a>
 </td>
 <td align="left" width="63%">
 Moves to the next row in the row-enumeration sequence.</p> (Inherited from <b>IEnumCERTVIEWROW</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/76bee5db-0443-4673-a59c-0198587736dc">Reset</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa386255(v=VS.85).aspx">Reset</a>
 </td>
 <td align="left" width="63%">
 Moves to the beginning of the row-enumeration sequence.</p> (Inherited from <b>IEnumCERTVIEWROW</b>)</td>
 </tr>
 <tr data="inherited;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/9115262e-00bb-4446-906d-7a57fd5781d1">Skip</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa386260(v=VS.85).aspx">Skip</a>
 </td>
 <td align="left" width="63%">
 Skips a specified number of rows in the row-enumeration sequence.</p> (Inherited from <b>IEnumCERTVIEWROW</b>)</td>
@@ -146,11 +146,11 @@ Skips a specified number of rows in the row-enumeration sequence.</p> (Inherited
 
 
 
-<a href="https://msdn.microsoft.com/d68a5463-f711-4737-b0ad-889f7e4855d5">ICertView</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa385435(v=VS.85).aspx">ICertView</a>
 
 
 
-<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
  
 
  

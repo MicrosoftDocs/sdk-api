@@ -54,7 +54,7 @@ req.product: ADAM
 ## -description
 
 
-Contains information about character formatting in a rich edit control.<b>CHARFORMAT2</b> is a Microsoft Rich Edit 2.0 extension of the <a href="https://msdn.microsoft.com/7b31e42a-5e9b-46bf-9c4e-fd223c34a076">CHARFORMAT</a> structure. Microsoft Rich Edit 2.0 allows you to use either structure with the <a href="https://msdn.microsoft.com/210b8719-5ed7-49f2-bd93-8a4e1efab1e8">EM_GETCHARFORMAT</a> and <a href="https://msdn.microsoft.com/5e7a545d-4ca4-4dc6-badb-584c11194982">EM_SETCHARFORMAT</a> messages. 
+Contains information about character formatting in a rich edit control.<b>CHARFORMAT2</b> is a Microsoft Rich Edit 2.0 extension of the <a href="https://msdn.microsoft.com/en-us/library/Bb787881(v=VS.85).aspx">CHARFORMAT</a> structure. Microsoft Rich Edit 2.0 allows you to use either structure with the <a href="https://msdn.microsoft.com/en-us/library/Bb788026(v=VS.85).aspx">EM_GETCHARFORMAT</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb774230(v=VS.85).aspx">EM_SETCHARFORMAT</a> messages. 
 
 
 ## -struct-fields
@@ -139,7 +139,7 @@ Specifies the underline type. To use this member, set the <b>CFM_UNDERLINETYPE</
 </dl>
 </td>
 <td width="60%">
-The structure maps <a href="https://msdn.microsoft.com/7b31e42a-5e9b-46bf-9c4e-fd223c34a076">CHARFORMAT</a>'s bit underline to <b>CHARFORMAT2</b>, (that is, it performs a <b>CHARFORMAT</b> type of underline on this text). 
+The structure maps <a href="https://msdn.microsoft.com/en-us/library/Bb787881(v=VS.85).aspx">CHARFORMAT</a>'s bit underline to <b>CHARFORMAT2</b>, (that is, it performs a <b>CHARFORMAT</b> type of underline on this text). 
 
 </td>
 </tr>
@@ -404,7 +404,7 @@ Specifies the font family and pitch. This member is the same as the <b>lfPitchAn
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Specifies the size, in bytes, of the structure. Before passing this structure to a rich edit control, set <b>cbSize</b> to the size of the <a href="https://msdn.microsoft.com/7b31e42a-5e9b-46bf-9c4e-fd223c34a076">CHARFORMAT</a> or <b>CHARFORMAT2</b> structure. If <b>cbSize</b> equals the size of a <b>CHARFORMAT</b> structure, the control uses only the <b>CHARFORMAT</b> members. 
+Specifies the size, in bytes, of the structure. Before passing this structure to a rich edit control, set <b>cbSize</b> to the size of the <a href="https://msdn.microsoft.com/en-us/library/Bb787881(v=VS.85).aspx">CHARFORMAT</a> or <b>CHARFORMAT2</b> structure. If <b>cbSize</b> equals the size of a <b>CHARFORMAT</b> structure, the control uses only the <b>CHARFORMAT</b> members. 
 
 
 #### - crTextColor
@@ -418,7 +418,7 @@ Text color. To use this member, set the <b>CFM_COLOR</b> flag in the <b>dwMask</
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-A set of bit flags that specify character effects. Some of the flags are included only for compatibility with Microsoft <a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a> (TOM) interfaces; the rich edit control stores the value but does not use it to display text.
+A set of bit flags that specify character effects. Some of the flags are included only for compatibility with Microsoft <a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a> (TOM) interfaces; the rich edit control stores the value but does not use it to display text.
                 
 
 This member can be a combination of the following values.
@@ -545,7 +545,7 @@ Characters are italic.
 </dl>
 </td>
 <td width="60%">
-A rich edit control can send <a href="https://msdn.microsoft.com/67f02908-957e-4d91-8a70-70399ce9cf2e">EN_LINK</a> notification codes when it receives mouse messages while the mouse pointer is over text with the <b>CFE_LINK</b> effect.
+A rich edit control can send <a href="https://msdn.microsoft.com/en-us/library/Bb787970(v=VS.85).aspx">EN_LINK</a> notification codes when it receives mouse messages while the mouse pointer is over text with the <b>CFE_LINK</b> effect.
 
 </td>
 </tr>
@@ -607,7 +607,7 @@ Characters are displayed as outlined characters. The value does not affect how t
 </dl>
 </td>
 <td width="60%">
-Characters are protected; an attempt to modify them will cause an <a href="https://msdn.microsoft.com/29c0cb51-675c-44b1-ad45-5f7140ca5675">EN_PROTECTED</a> notification code.
+Characters are protected; an attempt to modify them will cause an <a href="https://msdn.microsoft.com/en-us/library/Bb787981(v=VS.85).aspx">EN_PROTECTED</a> notification code.
 
 </td>
 </tr>
@@ -1202,7 +1202,7 @@ To turn off a formatting attribute, set the appropriate value in <b>dwMask</b> b
 
 
 
-<a href="https://msdn.microsoft.com/7b31e42a-5e9b-46bf-9c4e-fd223c34a076">CHARFORMAT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787881(v=VS.85).aspx">CHARFORMAT</a>
 
 
 
@@ -1210,15 +1210,15 @@ To turn off a formatting attribute, set the appropriate value in <b>dwMask</b> b
 
 
 
-<a href="https://msdn.microsoft.com/210b8719-5ed7-49f2-bd93-8a4e1efab1e8">EM_GETCHARFORMAT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb788026(v=VS.85).aspx">EM_GETCHARFORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/5e7a545d-4ca4-4dc6-badb-584c11194982">EM_SETCHARFORMAT</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774230(v=VS.85).aspx">EM_SETCHARFORMAT</a>
 
 
 
-<a href="https://msdn.microsoft.com/29c0cb51-675c-44b1-ad45-5f7140ca5675">EN_PROTECTED</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787981(v=VS.85).aspx">EN_PROTECTED</a>
 
 
 
