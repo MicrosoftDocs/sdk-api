@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactory2_createswapchainforimmersivewindow.htm
 old-project: direct3ddxgi
 ms.assetid: B3AC3AEB-3449-4444-9FD3-866A3795C41F
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/20/2018
 ms.keywords: CreateSwapChainForCoreWindow, CreateSwapChainForCoreWindow method [DXGI], CreateSwapChainForCoreWindow method [DXGI],IDXGIFactory2 interface, IDXGIFactory2 interface [DXGI],CreateSwapChainForCoreWindow method, IDXGIFactory2.CreateSwapChainForCoreWindow, IDXGIFactory2::CreateSwapChainForCoreWindow, direct3ddxgi.idxgifactory2_createswapchainforimmersivewindow, dxgi1_2/IDXGIFactory2::CreateSwapChainForCoreWindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -193,7 +193,7 @@ if (SUCCEEDED(hr) &amp;&amp; m_foregroundSwapChain)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846759(v=VS.85).aspx">For best performance, use DXGI flip model</a>
+<a href="https://msdn.microsoft.com/B6B92F4F-B1D0-40B9-987D-F0C0F2CC7AD1">For best performance, use DXGI flip model</a>
 
 
 

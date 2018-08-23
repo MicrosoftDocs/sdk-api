@@ -7,7 +7,7 @@ old-location: security\scardlistcards.htm
 old-project: secauthn
 ms.assetid: b8ecbb8c-e1fb-485b-9a2c-20e6edf25cf1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: SCardListCards, SCardListCards function [Security], SCardListCardsA, SCardListCardsW, _smart_scardlistcards, security.scardlistcards, winscard/SCardListCards, winscard/SCardListCardsA, winscard/SCardListCardsW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winmsg\adjustwindowrectex.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\adjustwindowrectex.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: AdjustWindowRectEx, AdjustWindowRectEx function [Windows and Messages], _win32_AdjustWindowRectEx, _win32_adjustwindowrectex_cpp, winmsg.adjustwindowrectex, winui._win32_adjustwindowrectex, winuser/AdjustWindowRectEx
 ms.prod: windows
 ms.technology: windows-sdk

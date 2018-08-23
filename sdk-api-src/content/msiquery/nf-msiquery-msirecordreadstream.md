@@ -85,7 +85,7 @@ Specifies the in and out buffer count. On input, this is the full size of the bu
 
 
 
-This function returns UINT.
+This function returns UINT __stdcall.
 
 
 

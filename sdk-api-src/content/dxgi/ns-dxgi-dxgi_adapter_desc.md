@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgi_adapter_desc.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_adapter_desc.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/20/2018
 ms.keywords: DXGI_ADAPTER_DESC, DXGI_ADAPTER_DESC structure [DXGI], aa379230-8fa1-e846-2745-b4f13f26ee19, direct3ddxgi.dxgi_adapter_desc, dxgi/DXGI_ADAPTER_DESC
 ms.prod: windows
 ms.technology: windows-sdk

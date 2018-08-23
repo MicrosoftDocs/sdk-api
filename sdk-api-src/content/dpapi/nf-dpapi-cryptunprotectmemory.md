@@ -7,7 +7,7 @@ old-location: security\cryptunprotectmemory.htm
 old-project: SecCrypto
 ms.assetid: 1c7980ac-4e9e-43fd-b6d7-c0d0a69c8040
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CRYPTPROTECTMEMORY_CROSS_PROCESS, CRYPTPROTECTMEMORY_SAME_LOGON, CRYPTPROTECTMEMORY_SAME_PROCESS, CryptUnprotectMemory, CryptUnprotectMemory function [Security], dpapi/CryptUnprotectMemory, security.cryptunprotectmemory, wincrypt/CryptUnprotectMemory
 ms.prod: windows
 ms.technology: windows-sdk

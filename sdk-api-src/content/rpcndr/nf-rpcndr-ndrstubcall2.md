@@ -52,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-The <b>NdrStubCall2</b> function is the server-side entry point for <a href="https://msdn.microsoft.com/">/Oicf</a> mode stubs.  
+The <b>NdrStubCall2</b> function is the server-side entry point for <a href="https://msdn.microsoft.com/cf597a45-410f-4098-850b-240c6ebce23b">/Oicf</a> mode stubs.  
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: winmsg\bsminfo.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messageandmessagequeuestructures\bsminfo.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: "*PBSMINFO, BSMINFO, BSMINFO structure [Windows and Messages], PBSMINFO, PBSMINFO structure pointer [Windows and Messages], _win32_BSMINFO_str, _win32_bsminfo_str_cpp, winmsg.bsminfo, winui._win32_bsminfo_str, winuser/BSMINFO, winuser/PBSMINFO"
 ms.prod: windows
 ms.technology: windows-sdk

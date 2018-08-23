@@ -89,7 +89,7 @@ The value of the property.
 
 
 
-This function returns BOOL.
+This function returns BOOL __stdcall.
 
 
 

@@ -7,7 +7,7 @@ old-location: security\cryptregisteroidfunction.htm
 old-project: SecCrypto
 ms.assetid: b625597d-28fd-4a40-afbe-a09201d36512
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CryptRegisterOIDFunction, CryptRegisterOIDFunction function [Security], _crypto2_cryptregisteroidfunction, security.cryptregisteroidfunction, wincrypt/CryptRegisterOIDFunction
 ms.prod: windows
 ms.technology: windows-sdk

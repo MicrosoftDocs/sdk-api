@@ -7,7 +7,7 @@ old-location: dshow\iamchannelinfo_get_contactaddress.htm
 old-project: DirectShow
 ms.assetid: b94ccc71-92d1-4c1a-b34a-c34e6ea7bd91
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/20/2018
 ms.keywords: IAMChannelInfo interface [DirectShow],get_ContactAddress method, IAMChannelInfo.get_ContactAddress, IAMChannelInfo::get_ContactAddress, IAMChannelInfoget_ContactAddress, dshow.iamchannelinfo_get_contactaddress, get_ContactAddress, get_ContactAddress method [DirectShow], get_ContactAddress method [DirectShow],IAMChannelInfo interface, qnetwork/IAMChannelInfo::get_ContactAddress
 ms.prod: windows
 ms.technology: windows-sdk

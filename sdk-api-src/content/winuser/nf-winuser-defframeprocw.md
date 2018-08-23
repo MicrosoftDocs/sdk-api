@@ -7,7 +7,7 @@ old-location: winmsg\defframeproc.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\multipledocumentinterface\multipledocumentinterfacereference\multipledocumentinterfacefunctions\defframeproc.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: DefFrameProc, DefFrameProc function [Windows and Messages], DefFrameProcA, DefFrameProcW, _win32_DefFrameProc, _win32_defframeproc_cpp, winmsg.defframeproc, winui._win32_defframeproc, winuser/DefFrameProc, winuser/DefFrameProcA, winuser/DefFrameProcW
 ms.prod: windows
 ms.technology: windows-sdk

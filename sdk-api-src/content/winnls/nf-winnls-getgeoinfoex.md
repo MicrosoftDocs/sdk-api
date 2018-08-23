@@ -7,7 +7,7 @@ old-location: intl\getgeoinfoex.htm
 old-project: Intl
 ms.assetid: 05BF6434-A80F-4BF5-9A43-C4D65E72F43B
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: GetGeoInfoEx, GetGeoInfoEx function [Internationalization for Windows Applications], intl.getgeoinfoex, winnls/GetGeoInfoEx
 ms.prod: windows
 ms.technology: windows-sdk

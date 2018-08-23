@@ -7,7 +7,7 @@ old-location: security\cryptregisterdefaultoidfunction.htm
 old-project: SecCrypto
 ms.assetid: 9633cce4-538e-490e-8a5a-6b28f161a09d
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CryptRegisterDefaultOIDFunction, CryptRegisterDefaultOIDFunction function [Security], _crypto2_cryptregisterdefaultoidfunction, security.cryptregisterdefaultoidfunction, wincrypt/CryptRegisterDefaultOIDFunction
 ms.prod: windows
 ms.technology: windows-sdk

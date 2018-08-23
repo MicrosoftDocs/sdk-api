@@ -7,7 +7,7 @@ old-location: security\applycontroltoken.htm
 old-project: secauthn
 ms.assetid: 5ce13a05-874c-4e1a-9be8-aed98609791e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: ApplyControlToken, ApplyControlToken function [Security], _ssp_applycontroltoken, security.applycontroltoken, sspi/ApplyControlToken
 ms.prod: windows
 ms.technology: windows-sdk

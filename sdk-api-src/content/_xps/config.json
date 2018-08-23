@@ -4,7 +4,6 @@
     "xpsobjectmodel_1.h",
     "xpsobjectmodel_2.h",
     "xpsobjectmodel.h",
-    "xpsprint.h",
     "xpsdigitalsignature.h",
     "documenttarget.h",
     "prntvpt.h"

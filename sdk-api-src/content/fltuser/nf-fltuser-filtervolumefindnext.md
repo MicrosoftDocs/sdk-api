@@ -7,7 +7,7 @@ old-location: ifsk\filtervolumefindnext.htm
 old-project: ifsk
 ms.assetid: c18085e9-9781-420e-8070-c71982a2bb46
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: FilterVolumeFindNext, FilterVolumeFindNext function [Installable File System Drivers], FltWin32ApiRef_1a90a670-ab51-4fb7-80ba-72a8b66b3b9a.xml, fltuser/FilterVolumeFindNext, ifsk.filtervolumefindnext
 ms.prod: windows
 ms.technology: windows-sdk

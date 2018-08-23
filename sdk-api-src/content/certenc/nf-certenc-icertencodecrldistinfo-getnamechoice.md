@@ -7,7 +7,7 @@ old-location: security\icertencodecrldistinfo_getnamechoice.htm
 old-project: SecCrypto
 ms.assetid: cab5d4a0-e6dc-4229-a3b7-2dc90e2256bf
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CCertEncodeCRLDistInfo object [Security],GetNameChoice method, GetNameChoice, GetNameChoice method [Security], GetNameChoice method [Security],CCertEncodeCRLDistInfo object, GetNameChoice method [Security],ICertEncodeCRLDistInfo interface, ICertEncodeCRLDistInfo interface [Security],GetNameChoice method, ICertEncodeCRLDistInfo.GetNameChoice, ICertEncodeCRLDistInfo::GetNameChoice, _certsrv_icertencodecrldistinfo_getnamechoice, certenc/ICertEncodeCRLDistInfo::GetNameChoice, security.icertencodecrldistinfo_getnamechoice
 ms.prod: windows
 ms.technology: windows-sdk

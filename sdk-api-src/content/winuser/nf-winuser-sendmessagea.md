@@ -7,7 +7,7 @@ old-location: winmsg\sendmessage.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\sendmessage.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: SendMessage, SendMessage function [Windows and Messages], SendMessageA, SendMessageW, _win32_SendMessage, _win32_sendmessage_cpp, winmsg.sendmessage, winui._win32_sendmessage, winuser/SendMessage, winuser/SendMessageA, winuser/SendMessageW
 ms.prod: windows
 ms.technology: windows-sdk

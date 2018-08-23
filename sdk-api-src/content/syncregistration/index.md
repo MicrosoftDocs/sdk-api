@@ -2,7 +2,7 @@
 UID: NA:syncregistration
 ms.assetid: 05194385-47f4-366f-94d1-ba46ad648cba
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/23/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

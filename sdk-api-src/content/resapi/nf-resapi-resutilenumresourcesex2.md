@@ -139,32 +139,6 @@ A generic buffer that allows you to pass any kind of data to the callback functi
 The requested access privileges. This may be any combination of <b>GENERIC_READ</b> (0x80000000), <b>GENERIC_ALL</b> (0x10000000), or M<b>AXIMUM_ALLOWED</b> (0x02000000). If this value is zero (0), an undefined error may be returned. Using <b>GENERIC_ALL</b> is the same as calling <a href="https://msdn.microsoft.com/e9f2e203-bbfb-4b27-b9ca-ab6b6ea1e60f">ResUtilEnumResourcesEx</a>.
 
 
-##### - pResCallBack.hCluster
-
-[in] The hCluster parameter passed to 
-          <a href="https://msdn.microsoft.com/e9f2e203-bbfb-4b27-b9ca-ab6b6ea1e60f">ResUtilEnumResourcesEx</a>.
-
-
-##### - pResCallBack.hEnum
-
-[in] A handle to the resource currently being enumerated. 
-          <a href="https://msdn.microsoft.com/e9f2e203-bbfb-4b27-b9ca-ab6b6ea1e60f">ResUtilEnumResourcesEx</a> opens and closes 
-          this handle automatically.
-
-
-##### - pResCallBack.hSelf
-
-[in] The hSelf parameter passed to 
-          <a href="https://msdn.microsoft.com/e9f2e203-bbfb-4b27-b9ca-ab6b6ea1e60f">ResUtilEnumResourcesEx</a>. Note that the 
-          callback function is never called when <i>hSelf</i> and <i>hEnum</i> 
-          refer to the same resource.
-
-
-##### - pResCallBack.pParameter
-
-[in] A generic buffer that allows you to pass any kind of data to the callback function.
-
-
 ## -returns
 
 

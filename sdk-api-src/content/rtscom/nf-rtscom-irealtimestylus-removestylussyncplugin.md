@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylus_removestylussyncplugin.htm
 old-project: tablet
 ms.assetid: 5f04dc8a-c0f5-47fd-a814-490e1dfe2cf8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: 5f04dc8a-c0f5-47fd-a814-490e1dfe2cf8, IRealTimeStylus interface [Tablet PC],RemoveStylusSyncPlugin method, IRealTimeStylus.RemoveStylusSyncPlugin, IRealTimeStylus::RemoveStylusSyncPlugin, RemoveStylusSyncPlugin, RemoveStylusSyncPlugin method [Tablet PC], RemoveStylusSyncPlugin method [Tablet PC],IRealTimeStylus interface, rtscom/IRealTimeStylus::RemoveStylusSyncPlugin, tablet.irealtimestylus_removestylussyncplugin
 ms.prod: windows
 ms.technology: windows-sdk

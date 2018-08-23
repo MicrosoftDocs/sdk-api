@@ -7,7 +7,7 @@ old-location: security\crypt_provui_data.htm
 old-project: SecCrypto
 ms.assetid: 86f819f0-c243-45ba-8b7b-97ed906e6e8a
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: "*PCRYPT_PROVUI_DATA, CRYPT_PROVUI_DATA, CRYPT_PROVUI_DATA structure [Security], PCRYPT_PROVUI_DATA, PCRYPT_PROVUI_DATA structure pointer [Security], _CRYPT_PROVUI_DATA, security.crypt_provui_data, wintrust/CRYPT_PROVUI_DATA, wintrust/PCRYPT_PROVUI_DATA"
 ms.prod: windows
 ms.technology: windows-sdk

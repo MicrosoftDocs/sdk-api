@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidecodeswapchain_getdestsize.htm
 old-project: direct3ddxgi
 ms.assetid: FA01A6C1-7731-4B30-845F-4C2514B6AD77
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/20/2018
 ms.keywords: GetDestSize, GetDestSize method [DXGI], GetDestSize method [DXGI],IDXGIDecodeSwapChain interface, IDXGIDecodeSwapChain interface [DXGI],GetDestSize method, IDXGIDecodeSwapChain.GetDestSize, IDXGIDecodeSwapChain::GetDestSize, direct3ddxgi.idxgidecodeswapchain_getdestsize, dxgi1_3/IDXGIDecodeSwapChain::GetDestSize
 ms.prod: windows
 ms.technology: windows-sdk

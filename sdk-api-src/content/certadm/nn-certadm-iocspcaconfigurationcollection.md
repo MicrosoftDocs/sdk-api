@@ -7,7 +7,7 @@ old-location: security\iocspcaconfigurationcollection.htm
 old-project: SecCrypto
 ms.assetid: 4e232c34-b5ab-4269-903b-189aac5a8ddc
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: IOCSPCAConfigurationCollection, IOCSPCAConfigurationCollection interface [Security], IOCSPCAConfigurationCollection interface [Security],described, certadm/IOCSPCAConfigurationCollection, security.iocspcaconfigurationcollection
 ms.prod: windows
 ms.technology: windows-sdk

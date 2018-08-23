@@ -7,7 +7,7 @@ old-location: tablet\inkpicture_sizemode.htm
 old-project: tablet
 ms.assetid: 3ce10b92-80d4-4517-92cb-eff10fc8c0ba
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: IInkPicture interface [Tablet PC],SizeMode property, IInkPicture.SizeMode, IInkPicture.get_SizeMode, IInkPicture::SizeMode, IInkPicture::get_SizeMode, IInkPicture::put_SizeMode, InkPicture.get_SizeMode, InkPicture.put_SizeMode, SizeMode property [Tablet PC], SizeMode property [Tablet PC],IInkPicture interface, get_SizeMode, msinkaut/IInkPicture::SizeMode, msinkaut/IInkPicture::get_SizeMode, msinkaut/IInkPicture::put_SizeMode, put_SizeMode, tablet.inkpicture_sizemode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,7 +86,7 @@ Using the <b>IPSM_AutoSize</b> value causes the control to resize to always fit 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
+<a href="https://msdn.microsoft.com/EA6AC3DD-5F13-442A-B93D-FF0A5333609A">IInkPicture</a>
 
 
 

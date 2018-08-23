@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dvertexdeclaration9.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvertexdeclaration9.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: IDirect3DVertexDeclaration9, IDirect3DVertexDeclaration9 interface [Direct3D 9], IDirect3DVertexDeclaration9 interface [Direct3D 9],described, d3d9helper/IDirect3DVertexDeclaration9, direct3d9.idirect3dvertexdeclaration9, f42aaa68-f7f3-0eec-ac4e-7d8617f131ae
 ms.prod: windows
 ms.technology: windows-sdk

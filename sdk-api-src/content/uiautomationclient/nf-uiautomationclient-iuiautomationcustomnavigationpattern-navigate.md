@@ -60,14 +60,19 @@ Gets the next element in the specified direction within the logical UI tree.
 
 
 
-### -param direction [in]
+### -param param
 
-The specified direction.
+
 
 
 ### -param pRetVal [out, retval]
 
 The next element as specified by the <i>direction</i> parameter.
+
+
+#### - direction [in]
+
+The specified direction.
 
 
 ## -returns

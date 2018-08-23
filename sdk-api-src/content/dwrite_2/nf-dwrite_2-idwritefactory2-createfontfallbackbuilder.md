@@ -1,0 +1,92 @@
+---
+UID: NF:dwrite_2.IDWriteFactory2.CreateFontFallbackBuilder
+title: IDWriteFactory2::CreateFontFallbackBuilder
+author: windows-sdk-content
+description: Creates a font fallback builder object.
+old-location: directwrite\idwritefactory2_createfontfallbackbuilder.htm
+old-project: DirectWrite
+ms.assetid: 98A6DE80-0084-4D28-B456-8E572D565915
+ms.author: windowssdkdev
+ms.date: 07/24/2018
+ms.keywords: CreateFontFallbackBuilder, CreateFontFallbackBuilder method [Direct Write], CreateFontFallbackBuilder method [Direct Write],IDWriteFactory2 interface, IDWriteFactory2 interface [Direct Write],CreateFontFallbackBuilder method, IDWriteFactory2.CreateFontFallbackBuilder, IDWriteFactory2::CreateFontFallbackBuilder, directwrite.idwritefactory2_createfontfallbackbuilder, dwrite_2/IDWriteFactory2::CreateFontFallbackBuilder
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dwrite_2.h
+req.include-header: 
+req.redist: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteFactory2.CreateFontFallbackBuilder
+product: Windows
+targetos: Windows
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IDWriteFactory2::CreateFontFallbackBuilder
+
+
+## -description
+
+
+Creates a font fallback builder object.
+
+A font fall back builder allows you to create Unicode font fallback mappings and create a font fall back object from those mappings.
+
+
+## -parameters
+
+
+
+
+### -param fontFallbackBuilder [out]
+
+Type: <b><a href="https://msdn.microsoft.com/462AC12E-C856-4D8F-83AF-FAC3221425C2">IDWriteFontFallbackBuilder</a>**</b>
+
+Contains an address of a pointer to the newly created font fallback builder object.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/1D3EEC28-EAB3-4FA2-98E9-7A8FDAF6E6FE">IDWriteFactory2</a>
+ 
+
+ 
+

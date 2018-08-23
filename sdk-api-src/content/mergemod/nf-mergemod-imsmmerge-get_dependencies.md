@@ -1,0 +1,165 @@
+---
+UID: NF:mergemod.IMsmMerge.get_Dependencies
+title: IMsmMerge::get_Dependencies
+author: windows-sdk-content
+description: The get_Dependencies method retrieves the Dependencies property of the Merge object.
+old-location: setup\imsmmerge_get_dependencies.htm
+old-project: msi
+ms.assetid: 0e59ac31-647e-4dd2-8f56-993eb4c59ab2
+ms.author: windowssdkdev
+ms.date: 08/06/2018
+ms.keywords: IMsmMerge interface,get_Dependencies method, IMsmMerge.get_Dependencies, IMsmMerge::get_Dependencies, _msi_get_dependencies_function, get_Dependencies, get_Dependencies method, get_Dependencies method,IMsmMerge interface, mergemod/IMsmMerge::get_Dependencies, setup.imsmmerge_get_dependencies
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: mergemod.h
+req.include-header: 
+req.redist: 
+req.target-type: Windows
+req.target-min-winverclnt: Mergemod.dll 1.0 or later
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: WIN32_MEMORY_REGION_INFORMATION
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Mergemod.dll
+api_name:
+ - IMsmMerge.get_Dependencies
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Mergemod.dll
+req.irql: 
+req.product: GDI+ 1.1
+---
+
+# IMsmMerge::get_Dependencies
+
+
+## -description
+
+
+The 
+<b>get_Dependencies</b> method retrieves the 
+<a href="https://msdn.microsoft.com/d7081ffe-3d9e-486e-84b6-b45e92fff5f0">Dependencies</a> property of the 
+<a href="https://msdn.microsoft.com/3f76ee8a-d195-4a69-99a3-31ef2c1c72d5">Merge</a> object.
+
+<b>IMsmMerge2::get_Dependencies</b>    Mergemod.dll version 2.0 or later.<div> </div><b>IMsmMerge::get_Dependencies</b>      All Mergemod.dll versions.
+			
+
+
+## -parameters
+
+
+
+
+### -param Dependencies
+
+Pointer to a memory location to be filled with a pointer to a collection of unsatisfied dependencies for the current database. If there is an error, the memory location pointed to by <i>Dependencies</i> is set to null.
+
+
+## -returns
+
+
+
+The 
+					<b>get_Dependencies</b> function returns the following values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_FAIL</b></dt>
+</dl>
+</td>
+<td width="60%">
+There was no database open.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>Dependencies</i> pointer is null.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+The system ran out of memory.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_UNEXPECTED</b></dt>
+</dl>
+</td>
+<td width="60%">
+Unable to verify dependencies due to internal error.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The function succeeded.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -remarks
+
+
+
+A module does not need to be open to retrieve dependency information. The client is responsible for releasing the interface returned by this function.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/877d3691-948f-4aea-89d8-0ff008126ccc">Merge Module Automation</a>
+ 
+
+ 
+

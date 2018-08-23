@@ -7,7 +7,7 @@ old-location: tablet\inkpicture_geteventinterest.htm
 old-project: tablet
 ms.assetid: e025a118-acf1-4b52-ace9-85a3a5a558fa
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: 532a798e-b434-4730-8c20-7ec60255f170, GetEventInterest, GetEventInterest method [Tablet PC], GetEventInterest method [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],GetEventInterest method, IInkPicture.GetEventInterest, IInkPicture::GetEventInterest, msinkaut/IInkPicture::GetEventInterest, tablet.inkpicture_geteventinterest
 ms.prod: windows
 ms.technology: windows-sdk
@@ -140,7 +140,7 @@ An exception occurred during processing.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
+<a href="https://msdn.microsoft.com/EA6AC3DD-5F13-442A-B93D-FF0A5333609A">IInkPicture</a>
 
 
 

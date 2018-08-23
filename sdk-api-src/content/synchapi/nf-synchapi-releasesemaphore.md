@@ -7,7 +7,7 @@ old-location: base\releasesemaphore.htm
 old-project: sync
 ms.assetid: 9d444318-4d66-4ec3-a65d-bd3b75db9d9b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: ReleaseSemaphore, ReleaseSemaphore function, _win32_releasesemaphore, base.releasesemaphore, synchapi/ReleaseSemaphore, winbase/ReleaseSemaphore
 ms.prod: windows
 ms.technology: windows-sdk

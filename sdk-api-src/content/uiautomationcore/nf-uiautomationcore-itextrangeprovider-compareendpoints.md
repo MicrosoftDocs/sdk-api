@@ -61,11 +61,9 @@ Returns a value that specifies whether two text ranges have identical endpoints.
 
 
 
-### -param endpoint [in]
+### -param param
 
-Type: <b><a href="https://msdn.microsoft.com/4a294376-a401-4380-ba5a-b899548290b7">TextPatternRangeEndpoint</a></b>
 
-The endpoint (starting or ending) of the caller's text range.
 
 
 ### -param targetRange [in]
@@ -75,19 +73,26 @@ Type: <b><a href="https://msdn.microsoft.com/dd14e608-1d21-4527-8b82-dba64ed04fd
 The text range to be compared.
 
 
-### -param targetEndpoint [in]
-
-Type: <b><a href="https://msdn.microsoft.com/4a294376-a401-4380-ba5a-b899548290b7">TextPatternRangeEndpoint</a></b>
-
-The endpoint (starting or ending) of the target text range.
-
-
 ### -param pRetVal [out, retval]
 
 Type: <b>int*</b>
 
 Receives a value that indicates whether the two text ranges have identical endpoints.
 				 This parameter is passed uninitialized.
+
+
+#### - endpoint [in]
+
+Type: <b><a href="https://msdn.microsoft.com/4a294376-a401-4380-ba5a-b899548290b7">TextPatternRangeEndpoint</a></b>
+
+The endpoint (starting or ending) of the caller's text range.
+
+
+#### - targetEndpoint [in]
+
+Type: <b><a href="https://msdn.microsoft.com/4a294376-a401-4380-ba5a-b899548290b7">TextPatternRangeEndpoint</a></b>
+
+The endpoint (starting or ending) of the target text range.
 
 
 ## -returns

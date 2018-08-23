@@ -4,10 +4,10 @@ title: InternetReadFile function
 author: windows-sdk-content
 description: Reads data from a handle opened by the InternetOpenUrl, FtpOpenFile, or HttpOpenRequest function.
 old-location: wininet\internetreadfile.htm
-old-project: wininet
+old-project: WinInet
 ms.assetid: 1ec0fe70-4749-4251-9c58-44efdab74688
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: InternetReadFile, InternetReadFile function [WinINet], _inet_internetreadfile_function, wininet.internetreadfile, wininet/InternetReadFile
 ms.prod: windows
 ms.technology: windows-sdk

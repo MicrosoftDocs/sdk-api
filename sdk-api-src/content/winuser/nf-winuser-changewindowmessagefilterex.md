@@ -7,7 +7,7 @@ old-location: winmsg\changewindowmessagefilterex.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\changewindowmessagefilterex.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: ChangeWindowMessageFilterEx, ChangeWindowMessageFilterEx function [Windows and Messages], MSGFLT_ALLOW, MSGFLT_DISALLOW, MSGFLT_RESET, _win32_ChangeWindowMessageFilterEx, _win32_changewindowmessagefilterex_cpp, winmsg.changewindowmessagefilterex, winui._win32_changewindowmessagefilterex, winuser/ChangeWindowMessageFilterEx
 ms.prod: windows
 ms.technology: windows-sdk

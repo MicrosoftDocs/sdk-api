@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiobject_setprivatedata.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiobject_setprivatedata.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/20/2018
 ms.keywords: 5949633e-2d65-5d04-b6ba-29414dfded94, IDXGIObject interface [DXGI],SetPrivateData method, IDXGIObject.SetPrivateData, IDXGIObject::SetPrivateData, SetPrivateData, SetPrivateData method [DXGI], SetPrivateData method [DXGI],IDXGIObject interface, direct3ddxgi.idxgiobject_setprivatedata, dxgi/IDXGIObject::SetPrivateData
 ms.prod: windows
 ms.technology: windows-sdk

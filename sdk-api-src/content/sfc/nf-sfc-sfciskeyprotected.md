@@ -73,7 +73,7 @@ A handle to the root registry key. This must be a handle to one of the following
 <p class="indent">HKEY_USERS
 
 
-### -param OPTIONAL
+### -param SubKeyName
 
 TBD
 

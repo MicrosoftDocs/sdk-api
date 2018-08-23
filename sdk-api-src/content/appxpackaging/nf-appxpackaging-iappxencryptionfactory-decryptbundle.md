@@ -7,7 +7,7 @@ old-location: appxpkg\iappxencryptionfactory_decryptbundle.htm
 old-project: appxpkg
 ms.assetid: ED10EBD7-F942-4F1D-B2DC-0895022771BE
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/16/2018
 ms.keywords: DecryptBundle, DecryptBundle method [App packaging and management], DecryptBundle method [App packaging and management],IAppxEncryptionFactory interface, IAppxEncryptionFactory interface [App packaging and management],DecryptBundle method, IAppxEncryptionFactory.DecryptBundle, IAppxEncryptionFactory::DecryptBundle, appxpackaging/IAppxEncryptionFactory::DecryptBundle, appxpkg.iappxencryptionfactory_decryptbundle
 ms.prod: windows
 ms.technology: windows-sdk

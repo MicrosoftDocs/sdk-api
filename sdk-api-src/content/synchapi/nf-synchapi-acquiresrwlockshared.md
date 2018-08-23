@@ -7,7 +7,7 @@ old-location: base\acquiresrwlockshared.htm
 old-project: sync
 ms.assetid: 86e6d915-c25d-4aee-9ec6-acb970da7069
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: AcquireSRWLockShared, AcquireSRWLockShared function, base.acquiresrwlockshared, synchapi/AcquireSRWLockShared, winbase/AcquireSRWLockShared
 ms.prod: windows
 ms.technology: windows-sdk

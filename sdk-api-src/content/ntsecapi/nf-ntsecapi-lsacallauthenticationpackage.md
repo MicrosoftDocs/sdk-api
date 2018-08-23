@@ -7,7 +7,7 @@ old-location: security\lsacallauthenticationpackage.htm
 old-project: secauthn
 ms.assetid: b891fa60-28b3-4819-9a92-e4524677fa4f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: LsaCallAuthenticationPackage, LsaCallAuthenticationPackage function [Security], _lsa_lsacallauthenticationpackage, ntsecapi/LsaCallAuthenticationPackage, security.lsacallauthenticationpackage
 ms.prod: windows
 ms.technology: windows-sdk

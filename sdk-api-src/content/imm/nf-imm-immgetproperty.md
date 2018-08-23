@@ -7,7 +7,7 @@ old-location: intl\immgetproperty.htm
 old-project: Intl
 ms.assetid: b8552c4e-1841-4202-a71e-4b4eae99c528
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: IGP_CONVERSION, IGP_GETIMEVERSION, IGP_PROPERTY, IGP_SELECT, IGP_SENTENCE, IGP_SETCOMPSTR, IGP_UI, ImmGetProperty, ImmGetProperty function [Internationalization for Windows Applications], _win32_ImmGetProperty, imm/ImmGetProperty, intl.immgetproperty
 ms.prod: windows
 ms.technology: windows-sdk

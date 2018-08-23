@@ -7,7 +7,7 @@ old-location: security\cryptverifymessagehash.htm
 old-project: SecCrypto
 ms.assetid: 3b5185b9-e24b-4302-a60c-74ccbd19077c
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CryptVerifyMessageHash, CryptVerifyMessageHash function [Security], _crypto2_cryptverifymessagehash, security.cryptverifymessagehash, wincrypt/CryptVerifyMessageHash
 ms.prod: windows
 ms.technology: windows-sdk

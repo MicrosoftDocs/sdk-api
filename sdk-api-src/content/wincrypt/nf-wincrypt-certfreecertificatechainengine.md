@@ -7,7 +7,7 @@ old-location: security\certfreecertificatechainengine.htm
 old-project: SecCrypto
 ms.assetid: 5aebc09d-342d-4938-8a1a-0cbfdc147bb5
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CertFreeCertificateChainEngine, CertFreeCertificateChainEngine function [Security], _crypto2_certfreecertificatechainengine, security.certfreecertificatechainengine, wincrypt/CertFreeCertificateChainEngine
 ms.prod: windows
 ms.technology: windows-sdk

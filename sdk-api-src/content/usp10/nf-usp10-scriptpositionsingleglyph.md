@@ -7,7 +7,7 @@ old-location: intl\scriptpositionsingleglyph.htm
 old-project: Intl
 ms.assetid: 8dc776a9-fdde-4982-a2ca-e4384615bc47
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: ScriptPositionSingleGlyph, ScriptPositionSingleGlyph function [Internationalization for Windows Applications], _win32_ScriptPositionSingleGlyph, intl.scriptpositionsingleglyph, usp10/ScriptPositionSingleGlyph
 ms.prod: windows
 ms.technology: windows-sdk

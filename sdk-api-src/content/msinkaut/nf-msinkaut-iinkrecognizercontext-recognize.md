@@ -7,7 +7,7 @@ old-location: tablet\inkrecognizercontext_recognize.htm
 old-project: tablet
 ms.assetid: 83695dfd-3634-47e7-8311-7216876a827a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: 83695dfd-3634-47e7-8311-7216876a827a, IInkRecognizerContext interface [Tablet PC],Recognize method, IInkRecognizerContext.Recognize, IInkRecognizerContext::Recognize, Recognize, Recognize method [Tablet PC], Recognize method [Tablet PC],IInkRecognizerContext interface, msinkaut/IInkRecognizerContext::Recognize, tablet.inkrecognizercontext_recognize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -174,7 +174,7 @@ You must use a try/catch block when calling <b>Recognize</b> because an exceptio
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846801(v=VS.85).aspx">IInkRecognizerContext</a>
+<a href="https://msdn.microsoft.com/D3DC08E9-19CC-4281-9C71-CB9B8CBDDB7F">IInkRecognizerContext</a>
 
 
 

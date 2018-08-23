@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgidevice_getadapter.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgidevice_getadapter.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/20/2018
 ms.keywords: 3bbfc03f-4bda-05eb-f6de-6f2c4564fa75, GetAdapter, GetAdapter method [DXGI], GetAdapter method [DXGI],IDXGIDevice interface, IDXGIDevice interface [DXGI],GetAdapter method, IDXGIDevice.GetAdapter, IDXGIDevice::GetAdapter, direct3ddxgi.idxgidevice_getadapter, dxgi/IDXGIDevice::GetAdapter
 ms.prod: windows
 ms.technology: windows-sdk

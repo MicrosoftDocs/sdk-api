@@ -7,7 +7,7 @@ old-location: security\icertificateenrollmentpolicyserversetup.htm
 old-project: SecCrypto
 ms.assetid: 8C9F33BA-5FCB-4B99-869C-FADDC37A326A
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: ICertificateEnrollmentPolicyServerSetup, ICertificateEnrollmentPolicyServerSetup interface [Security], ICertificateEnrollmentPolicyServerSetup interface [Security],described, casetup/ICertificateEnrollmentPolicyServerSetup, security.icertificateenrollmentpolicyserversetup
 ms.prod: windows
 ms.technology: windows-sdk

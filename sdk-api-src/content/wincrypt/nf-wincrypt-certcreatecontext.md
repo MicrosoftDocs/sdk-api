@@ -7,7 +7,7 @@ old-location: security\certcreatecontext.htm
 old-project: SecCrypto
 ms.assetid: 0911054b-a47a-4046-b121-a236fc4b018b
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CERT_CREATE_CONTEXT_NOCOPY_FLAG, CERT_CREATE_CONTEXT_NO_ENTRY_FLAG, CERT_CREATE_CONTEXT_NO_HCRYPTMSG_FLAG, CERT_CREATE_CONTEXT_SORTED_FLAG, CERT_STORE_CERTIFICATE_CONTEXT, CERT_STORE_CRL_CONTEXT, CERT_STORE_CTL_CONTEXT, CertCreateContext, CertCreateContext function [Security], _crypto2_certcreatecontext, security.certcreatecontext, wincrypt/CertCreateContext
 ms.prod: windows
 ms.technology: windows-sdk

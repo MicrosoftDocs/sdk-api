@@ -7,7 +7,7 @@ old-location: wnet\wnetgetnetworkinformation.htm
 old-project: wnet
 ms.assetid: df190133-b73b-4f3e-aaee-4095cd619065
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: WNetGetNetworkInformation, WNetGetNetworkInformation function [Windows Networking (WNet)], WNetGetNetworkInformationA, WNetGetNetworkInformationW, _win32_wnetgetnetworkinformation, winnetwk/WNetGetNetworkInformation, winnetwk/WNetGetNetworkInformationA, winnetwk/WNetGetNetworkInformationW, wnet.wnetgetnetworkinformation
 ms.prod: windows
 ms.technology: windows-sdk

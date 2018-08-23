@@ -88,11 +88,7 @@ On output, either the required size in bytes of the buffer if the buffer is too 
 
 
 
-
-
-Returns DWORD that ...
-
-
+This function returns DWORD __stdcall.
 
 
 

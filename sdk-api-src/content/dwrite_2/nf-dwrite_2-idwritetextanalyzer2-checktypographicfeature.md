@@ -1,0 +1,121 @@
+---
+UID: NF:dwrite_2.IDWriteTextAnalyzer2.CheckTypographicFeature
+title: IDWriteTextAnalyzer2::CheckTypographicFeature
+author: windows-sdk-content
+description: Checks if a typographic feature is available for a glyph or a set of glyphs.
+old-location: directwrite\idwritetextanalyzer2_checktypographicfeature.htm
+old-project: DirectWrite
+ms.assetid: D929E654-1DF1-49AB-A311-010DB2D79E06
+ms.author: windowssdkdev
+ms.date: 07/24/2018
+ms.keywords: CheckTypographicFeature, CheckTypographicFeature method [Direct Write], CheckTypographicFeature method [Direct Write],IDWriteTextAnalyzer2 interface, IDWriteTextAnalyzer2 interface [Direct Write],CheckTypographicFeature method, IDWriteTextAnalyzer2.CheckTypographicFeature, IDWriteTextAnalyzer2::CheckTypographicFeature, directwrite.idwritetextanalyzer2_checktypographicfeature, dwrite_2/IDWriteTextAnalyzer2::CheckTypographicFeature
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dwrite_2.h
+req.include-header: 
+req.redist: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps \| UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteTextAnalyzer2.CheckTypographicFeature
+product: Windows
+targetos: Windows
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IDWriteTextAnalyzer2::CheckTypographicFeature
+
+
+## -description
+
+
+Checks if a typographic feature is available for a glyph or a set of glyphs.
+
+
+## -parameters
+
+
+
+
+### -param fontFace
+
+The font face to read glyph information from.
+
+
+### -param scriptAnalysis
+
+The script analysis for the script or font to check.
+
+
+### -param localeName [in, optional]
+
+The locale name to check.
+
+
+### -param featureTag
+
+
+
+
+### -param glyphCount
+
+The number of glyphs to check.
+
+
+### -param glyphIndices [in]
+
+An array of glyph indices to check.
+
+
+### -param featureApplies [out]
+
+An array of integers that indicate whether or not the font feature applies to each glyph specified.
+
+
+#### - tag
+
+The font feature tag to check.
+
+
+## -returns
+
+
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/62DF6E71-F99D-47E9-A9BE-2A481A60AEDD">IDWriteTextAnalyzer2</a>
+ 
+
+ 
+

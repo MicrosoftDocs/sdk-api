@@ -228,7 +228,7 @@ Handle to a record containing message format and data.
 
 
 
-This function returns int.
+This function returns int __stdcall.
 
 
 

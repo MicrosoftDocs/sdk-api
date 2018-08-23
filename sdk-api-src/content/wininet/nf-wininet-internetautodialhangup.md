@@ -4,10 +4,10 @@ title: InternetAutodialHangup function
 author: windows-sdk-content
 description: Disconnects an automatic dial-up connection.
 old-location: wininet\internetautodialhangup.htm
-old-project: wininet
+old-project: WinInet
 ms.assetid: 8aa8ecb8-cacd-4cd9-a00b-5293b28dd6bf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: InternetAutodialHangup, InternetAutodialHangup function [WinINet], _inet_internetautodialhangup_function, wininet.internetautodialhangup, winineti/InternetAutodialHangup
 ms.prod: windows
 ms.technology: windows-sdk

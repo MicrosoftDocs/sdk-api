@@ -8,7 +8,7 @@ old-project: fileio
 ms.assetid: f98e53d5-45cb-4c3f-b04d-8eecd98655d2
 ms.author: windowssdkdev
 ms.date: 08/06/2018
-ms.keywords: PSTORAGE_DESCRIPTOR_HEADER, PSTORAGE_DESCRIPTOR_HEADER structure pointer [Files], STORAGE_DESCRIPTOR_HEADER, STORAGE_DESCRIPTOR_HEADER structure [Files], _STORAGE_DESCRIPTOR_HEADER, fs.storage_descriptor_header, winioctl/PSTORAGE_DESCRIPTOR_HEADER, winioctl/STORAGE_DESCRIPTOR_HEADER
+ms.keywords: "*PSTORAGE_DESCRIPTOR_HEADER, PSTORAGE_DESCRIPTOR_HEADER, PSTORAGE_DESCRIPTOR_HEADER structure pointer [Files], STORAGE_DESCRIPTOR_HEADER, STORAGE_DESCRIPTOR_HEADER structure [Files], _STORAGE_DESCRIPTOR_HEADER, fs.storage_descriptor_header, winioctl/PSTORAGE_DESCRIPTOR_HEADER, winioctl/STORAGE_DESCRIPTOR_HEADER"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: STORAGE_DESCRIPTOR_HEADER, PSTORAGE_DESCRIPTOR_HEADER
+req.typenames: STORAGE_DESCRIPTOR_HEADER, *PSTORAGE_DESCRIPTOR_HEADER
 topic_type:
  - APIRef
  - kbSyntax

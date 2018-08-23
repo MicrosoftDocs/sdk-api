@@ -7,7 +7,7 @@ old-location: security\deletesecuritycontext.htm
 old-project: secauthn
 ms.assetid: 2a4dd697-ef90-4c37-ab74-0e5ab92794cd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: DeleteSecurityContext, DeleteSecurityContext function [Security], _ssp_deletesecuritycontext, security.deletesecuritycontext, sspi/DeleteSecurityContext
 ms.prod: windows
 ms.technology: windows-sdk

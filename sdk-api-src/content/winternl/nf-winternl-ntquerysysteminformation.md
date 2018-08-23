@@ -775,14 +775,7 @@ function instead to generate cryptographically random data.
 The size of the buffer pointed to by the <i>SystemInformation</i>parameter, in bytes.
 
 
-### -param OPTIONAL
-
-TBD
-
-
-
-
-#### - ReturnLength [out, optional]
+### -param ReturnLength [out, optional]
 
 An optional pointer to a location where the function  writes the actual size
 of the information requested. If that size is less than or equal to the    

@@ -7,7 +7,7 @@ old-location: winmsg\cascadewindows.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\cascadewindows.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: CascadeWindows, CascadeWindows function [Windows and Messages], MDITILE_SKIPDISABLED, MDITILE_ZORDER, _win32_CascadeWindows, _win32_cascadewindows_cpp, winmsg.cascadewindows, winui._win32_cascadewindows, winuser/CascadeWindows
 ms.prod: windows
 ms.technology: windows-sdk

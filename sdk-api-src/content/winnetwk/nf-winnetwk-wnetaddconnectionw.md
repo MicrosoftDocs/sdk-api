@@ -7,7 +7,7 @@ old-location: wnet\wnetaddconnection.htm
 old-project: wnet
 ms.assetid: 9f2cf166-eb08-4498-8cda-79808776a452
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: WNetAddConnection, WNetAddConnection function [Windows Networking (WNet)], WNetAddConnectionA, WNetAddConnectionW, _win32_wnetaddconnection, winnetwk/WNetAddConnection, winnetwk/WNetAddConnectionA, winnetwk/WNetAddConnectionW, wnet.wnetaddconnection
 ms.prod: windows
 ms.technology: windows-sdk

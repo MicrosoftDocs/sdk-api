@@ -7,7 +7,7 @@ old-location: security\icertadmin.htm
 old-project: SecCrypto
 ms.assetid: e906b69b-5574-4dd5-aa30-9c2a67972202
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: ICertAdmin, ICertAdmin interface [Security], ICertAdmin interface [Security],described, _certsrv_icertadmin, certadm/ICertAdmin, security.icertadmin
 ms.prod: windows
 ms.technology: windows-sdk

@@ -1,0 +1,101 @@
+---
+UID: NF:shlobj_core.IACList.Expand
+title: IACList::Expand
+author: windows-sdk-content
+description: Requests that the autocompletion client generate candidate strings associated with a specified item in its namespace.
+old-location: shell\IACList_Expand.htm
+old-project: shell
+ms.assetid: 0d4ff090-dac7-4918-bea9-312be1d960e6
+ms.author: windowssdkdev
+ms.date: 08/06/2018
+ms.keywords: Expand, Expand method [Windows Shell], Expand method [Windows Shell],IACList interface, IACList interface [Windows Shell],Expand method, IACList.Expand, IACList::Expand, _win32_IACList_Expand, shell.IACList_Expand, shlobj_core/IACList::Expand
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shlobj_core.h
+req.include-header: 
+req.redist: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: AUTOCOMPLETELISTOPTIONS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IACList.Expand
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
+req.product: Internet Explorer 5.0
+---
+
+# IACList::Expand
+
+
+## -description
+
+
+Requests that the autocompletion client generate candidate strings associated with a specified item in its namespace.
+
+
+## -parameters
+
+
+
+
+### -param pszExpand [in]
+
+Type: <b>PCWSTR</b>
+
+A pointer to a null-terminated, Unicode string to be expanded by the autocomplete object.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+The autocomplete object calls this method when a delimiter is entered in the edit control. If the string pointed to by <i>pszExpand</i> matches an item in the autocompletion client's namespace, the client generates strings for those items that fall immediately under <i>pszExpand</i> in its namespace hierarchy. The client returns those strings next time the autocompletion object calls the client's <a href="https://msdn.microsoft.com/7f3e642a-17c7-4646-8c70-da6b0946a415">IEnumString</a> interface.
+
+For example, assuming that the client's namespace consists of all the files and folders on the C: drive, and <i>pszExpand</i> is set to "C:\Program Files\", the client should generate a list of strings corresponding to the fully qualified paths of the files and subfolders of "C:\Program Files\".
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/66513683-38ca-4b19-88d5-d14bf7ae73eb">IACList</a>
+ 
+
+ 
+

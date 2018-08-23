@@ -7,7 +7,7 @@ old-location: winmsg\getclassinfo.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\getclassinfo.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: GetClassInfo, GetClassInfo function [Windows and Messages], GetClassInfoA, GetClassInfoW, _win32_GetClassInfo, _win32_getclassinfo_cpp, winmsg.getclassinfo, winui._win32_getclassinfo, winuser/GetClassInfo, winuser/GetClassInfoA, winuser/GetClassInfoW
 ms.prod: windows
 ms.technology: windows-sdk

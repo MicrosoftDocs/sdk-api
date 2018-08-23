@@ -7,7 +7,7 @@ old-location: appxpkg\iappxblockmapblock_gethash.htm
 old-project: appxpkg
 ms.assetid: 9A8460C2-2BEE-4CEC-BAF4-779E6F58664D
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/16/2018
 ms.keywords: GetHash, GetHash method [App packaging and management], GetHash method [App packaging and management],IAppxBlockMapBlock interface, IAppxBlockMapBlock interface [App packaging and management],GetHash method, IAppxBlockMapBlock.GetHash, IAppxBlockMapBlock::GetHash, appxpackaging/IAppxBlockMapBlock::GetHash, appxpkg.iappxblockmapblock_gethash
 ms.prod: windows
 ms.technology: windows-sdk

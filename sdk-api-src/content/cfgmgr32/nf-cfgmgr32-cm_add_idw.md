@@ -7,7 +7,7 @@ old-location: devinst\cm_add_id.htm
 old-project: devinst
 ms.assetid: 0a2da246-7803-45cb-baee-351726dbcf15
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: CM_Add_ID, CM_Add_ID function [Device and Driver Installation], CM_Add_IDW, cfgmgr32/CM_Add_ID, cfgmgr32/CM_Add_IDW, cfgmgrfn_70bf6b8b-4ab4-47aa-b24e-873af6a3712c.xml, devinst.cm_add_id
 ms.prod: windows
 ms.technology: windows-sdk

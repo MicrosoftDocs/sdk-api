@@ -7,7 +7,7 @@ old-location: winsock\atm_blli_2.htm
 old-project: winsock
 ms.assetid: 15f600eb-8a73-4bb4-9405-8c6ea9b6ea8a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: ATM_BLLI, ATM_BLLI structure [Winsock], _win32_atm_blli_2, winsock.atm_blli_2, ws2atm/ATM_BLLI
 ms.prod: windows
 ms.technology: windows-sdk

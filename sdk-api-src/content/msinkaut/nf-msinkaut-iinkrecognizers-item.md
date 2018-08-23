@@ -7,7 +7,7 @@ old-location: tablet\inkrecognizers_item.htm
 old-project: tablet
 ms.assetid: 65c169f0-fe61-4609-809c-52c53cfcba7f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: 65c169f0-fe61-4609-809c-52c53cfcba7f, IInkRecognizers interface [Tablet PC],Item method, IInkRecognizers.Item, IInkRecognizers::Item, Item, Item method [Tablet PC], Item method [Tablet PC],IInkRecognizers interface, msinkaut/IInkRecognizers::Item, tablet.inkrecognizers_item
 ms.prod: windows
 ms.technology: windows-sdk
@@ -238,7 +238,7 @@ An error occurs if the index doesn't match any existing member of the collection
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846803(v=VS.85).aspx">IInkRecognizers</a>
+<a href="https://msdn.microsoft.com/9BCCCFB1-567A-4CE7-9122-299A5AF52B08">IInkRecognizers</a>
 
 
 

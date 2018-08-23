@@ -7,7 +7,7 @@ old-location: security\crypthashmessage.htm
 old-project: SecCrypto
 ms.assetid: 85a04c01-fd7c-4d87-b6e1-a0f2aea45d16
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CryptHashMessage, CryptHashMessage function [Security], _crypto2_crypthashmessage, security.crypthashmessage, wincrypt/CryptHashMessage
 ms.prod: windows
 ms.technology: windows-sdk

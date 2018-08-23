@@ -7,7 +7,7 @@ old-location: dshow\iamvideoaccelerator_displayframe.htm
 old-project: DirectShow
 ms.assetid: 7913401f-881a-4364-8504-b02e85a5e343
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/20/2018
 ms.keywords: DisplayFrame, DisplayFrame method [DirectShow], DisplayFrame method [DirectShow],IAMVideoAccelerator interface, IAMVideoAccelerator interface [DirectShow],DisplayFrame method, IAMVideoAccelerator.DisplayFrame, IAMVideoAccelerator::DisplayFrame, IAMVideoAcceleratorDisplayFrame, dshow.iamvideoaccelerator_displayframe, videoacc/IAMVideoAccelerator::DisplayFrame
 ms.prod: windows
 ms.technology: windows-sdk

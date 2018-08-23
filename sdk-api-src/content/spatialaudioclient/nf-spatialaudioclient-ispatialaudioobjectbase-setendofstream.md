@@ -124,7 +124,7 @@ Call <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">R
 
 
 
-<a href="coreaudio.ispatialaudioobjectbase">ISpatialAudioObjectBase</a>
+<a href="https://msdn.microsoft.com/54721875-D93A-4C7E-A07E-C286E1A409D3">ISpatialAudioObjectBase</a>
  
 
  

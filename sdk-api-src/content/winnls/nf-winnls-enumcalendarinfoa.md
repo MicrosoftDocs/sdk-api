@@ -7,7 +7,7 @@ old-location: intl\enumcalendarinfo.htm
 old-project: Intl
 ms.assetid: b38abdc9-6c03-4077-9d42-c7cb6d5c66ee
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: EnumCalendarInfo, EnumCalendarInfo function [Internationalization for Windows Applications], EnumCalendarInfoA, EnumCalendarInfoW, _win32_EnumCalendarInfo, intl.enumcalendarinfo, winnls/EnumCalendarInfo, winnls/EnumCalendarInfoA, winnls/EnumCalendarInfoW
 ms.prod: windows
 ms.technology: windows-sdk

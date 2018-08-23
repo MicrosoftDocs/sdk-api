@@ -82,7 +82,7 @@ This parameter is currently unimplemented. It is reserved for future use and mus
 
 
 
-This function returns UINT.
+This function returns UINT __stdcall.
 
 
 

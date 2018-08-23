@@ -352,7 +352,7 @@ UpgradeCode must match base database.
 
 
 
-This function returns UINT.
+This function returns UINT __stdcall.
 
 
 

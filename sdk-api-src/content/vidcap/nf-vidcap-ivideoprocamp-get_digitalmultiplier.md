@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_get_digitalmultiplier.htm
 old-project: DirectShow
 ms.assetid: 0b7ab1a3-193c-4682-af35-ae0cc5f28f45
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/20/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],get_DigitalMultiplier method, IVideoProcAmp.get_DigitalMultiplier, IVideoProcAmp::get_DigitalMultiplier, IVideoProcAmpget_DigitalMultiplier, dshow.ivideoprocamp_get_digitalmultiplier, get_DigitalMultiplier, get_DigitalMultiplier method [DirectShow], get_DigitalMultiplier method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::get_DigitalMultiplier
 ms.prod: windows
 ms.technology: windows-sdk
@@ -101,47 +101,11 @@ where
 
 <ul>
 <li>
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>Z'cur</pre>
-</td>
-</tr>
-</table></span></div> = Current digital zoom level.</li>
+            Z'cur = Current digital zoom level.</li>
 <li>
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>Z'min</pre>
-</td>
-</tr>
-</table></span></div>, <div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>Z'max</pre>
-</td>
-</tr>
-</table></span></div> = Minimum and maximum digital zoom. See <a href="https://msdn.microsoft.com/8a8a5f72-d51f-4f5a-95e4-ac8d1ac1b24f">IVideoProcAmp::getRange_DigitalMultiplier</a>.</li>
+            Z'min, Z'max = Minimum and maximum digital zoom. See <a href="https://msdn.microsoft.com/8a8a5f72-d51f-4f5a-95e4-ac8d1ac1b24f">IVideoProcAmp::getRange_DigitalMultiplier</a>.</li>
 <li>
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>m-max</pre>
-</td>
-</tr>
-</table></span></div> = Maximum digital magnification. See KSPROPERTY_VIDEOPROCAMP_DIGITAL_MULTIPLIER_LIMIT, documented in the Windows DDK.</li>
+            m-max = Maximum digital magnification. See KSPROPERTY_VIDEOPROCAMP_DIGITAL_MULTIPLIER_LIMIT, documented in the Windows DDK.</li>
 </ul>
 
 

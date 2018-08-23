@@ -7,7 +7,7 @@ old-location: appxpkg\getpackagefullname.htm
 old-project: appxpkg
 ms.assetid: D1BA8E91-A3D1-454A-A4F6-E3C786F0BD7E
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/16/2018
 ms.keywords: GetPackageFullName, GetPackageFullName function [App packaging and management], appmodel/GetPackageFullName, appxpkg.getpackagefullname
 ms.prod: windows
 ms.technology: windows-sdk

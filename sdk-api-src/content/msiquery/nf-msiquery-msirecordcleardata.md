@@ -70,7 +70,7 @@ Handle to the record.
 
 
 
-This function returns UINT.
+This function returns UINT __stdcall.
 
 
 

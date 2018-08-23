@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_put_digitalmultiplier.htm
 old-project: DirectShow
 ms.assetid: c1832aad-22fc-41f0-a99a-09b56c148384
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/20/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_DigitalMultiplier method, IVideoProcAmp.put_DigitalMultiplier, IVideoProcAmp::put_DigitalMultiplier, IVideoProcAmpput_DigitalMultiplier, dshow.ivideoprocamp_put_digitalmultiplier, put_DigitalMultiplier, put_DigitalMultiplier method [DirectShow], put_DigitalMultiplier method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_DigitalMultiplier
 ms.prod: windows
 ms.technology: windows-sdk

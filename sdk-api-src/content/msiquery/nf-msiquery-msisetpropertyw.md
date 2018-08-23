@@ -82,7 +82,7 @@ Specifies the value of the property.
 
 
 
-This function returns UINT.
+This function returns UINT __stdcall.
 
 
 

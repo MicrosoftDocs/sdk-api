@@ -7,7 +7,7 @@ old-location: tablet\inkedit_recotimeout.htm
 old-project: tablet
 ms.assetid: e1171aa3-841f-433e-88b8-e3fc63129aeb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: IInkEdit interface [Tablet PC],RecognitionTimeout property, IInkEdit.RecognitionTimeout, IInkEdit.put_RecognitionTimeout, IInkEdit::RecognitionTimeout, IInkEdit::get_RecognitionTimeout, IInkEdit::put_RecognitionTimeout, InkEdit.get_RecognitionTimeout, InkEdit.put_RecognitionTimeout, RecognitionTimeout property [Tablet PC], RecognitionTimeout property [Tablet PC],IInkEdit interface, e1171aa3-841f-433e-88b8-e3fc63129aeb, get_RecognitionTimeout, inked/IInkEdit::RecognitionTimeout, inked/IInkEdit::get_RecognitionTimeout, inked/IInkEdit::put_RecognitionTimeout, put_RecognitionTimeout, tablet.inkedit_recotimeout
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,7 +82,7 @@ Setting this property equal to zero prevents the ink from being replaced by the 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
+<a href="https://msdn.microsoft.com/8F47529B-52E9-4D67-81B3-DD2584B98101">IInkEdit</a>
 
 
 

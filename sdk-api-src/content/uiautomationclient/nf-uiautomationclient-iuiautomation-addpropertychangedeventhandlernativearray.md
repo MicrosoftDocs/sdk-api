@@ -67,11 +67,9 @@ Type: <b><a href="https://msdn.microsoft.com/9e1f87b1-a204-4ca9-acf2-a4027701220
 A pointer to the UI Automation element associated with the event handler.
 
 
-### -param scope [in]
+### -param param
 
-Type: <b><a href="https://msdn.microsoft.com/eb9e05b3-bcfa-4fed-9cc9-6ea8a778618e">TreeScope</a></b>
 
-The scope of events to be handled; that is, whether they are on the element itself, or on its ancestors and children.
 
 
 ### -param cacheRequest [in]
@@ -100,6 +98,13 @@ A pointer to the identifiers of the UI Automation properties of interest.  For a
 Type: <b>int</b>
 
 The number of property identifiers in <i>propertyArray</i>.
+
+
+#### - scope [in]
+
+Type: <b><a href="https://msdn.microsoft.com/eb9e05b3-bcfa-4fed-9cc9-6ea8a778618e">TreeScope</a></b>
+
+The scope of events to be handled; that is, whether they are on the element itself, or on its ancestors and children.
 
 
 ## -returns

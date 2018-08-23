@@ -7,7 +7,7 @@ old-location: security\sslgetserveridentity.htm
 old-project: secauthn
 ms.assetid: 5FA7A0F5-187F-4CE6-AD62-44B71A40568D
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: SslGetServerIdentity, SslGetServerIdentity function [Security], schannel/SslGetServerIdentity, security.sslgetserveridentity
 ms.prod: windows
 ms.technology: windows-sdk

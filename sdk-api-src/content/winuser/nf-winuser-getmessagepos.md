@@ -7,7 +7,7 @@ old-location: winmsg\getmessagepos.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\getmessagepos.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: GetMessagePos, GetMessagePos function [Windows and Messages], _win32_GetMessagePos, _win32_getmessagepos_cpp, winmsg.getmessagepos, winui._win32_getmessagepos, winuser/GetMessagePos
 ms.prod: windows
 ms.technology: windows-sdk

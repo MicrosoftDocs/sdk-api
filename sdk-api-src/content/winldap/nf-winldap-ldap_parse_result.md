@@ -73,40 +73,35 @@ The result of an LDAP operation as returned by one of the synchronous operation 
 <a href="https://msdn.microsoft.com/e047fccc-a875-4360-be1b-3ac3dea15dd6">ldap_result</a> for an asynchronous operation.
 
 
-### -param OPTIONAL
+### -param ReturnCode [out, optional]
 
-TBD
+Indicates the outcome of the server operation that generated the original result message. Pass <b>NULL</b> to ignore this field.
+
+
+### -param MatchedDNs [out, optional]
+
+A pointer to a wide, null-terminated string. In the case of a return of <b>LDAP_NO_SUCH_OBJECT</b>, this result parameter is filled in with a distinguished name indicating how much of the name in the request was recognized. Pass <b>NULL</b> to ignore this field.
+
+
+### -param ErrorMessage [out, optional]
+
+A pointer to a wide, null-terminated string that contains the contents of the error message field from the <i>ResultMessage</i> parameter. Pass <b>NULL</b> to ignore this field.
+
+
+### -param Referrals [out, optional]
+
+A pointer to a wide, null-terminated string that contains the contents of the referrals field from the <i>ResultMessage</i> parameter, indicating zero or more alternate LDAP servers where the request should be retried. Pass <b>NULL</b> to ignore this field.
+
+
+### -param ServerControls [out, optional]
+
+This result parameter is filled in with an allocated array of controls copied from the <i>ResultMessage</i> parameter.
 
 
 ### -param Freeit [in]
 
 Determines whether the <i>ResultMessage</i> parameter is freed. You can pass any nonzero value to the <i>Freeit</i> parameter to free the <i>ResultMessage</i> pointer when it is no longer needed, or you can call 
 <a href="https://msdn.microsoft.com/a4292638-0686-4c2d-8c51-1d5d079d5782">ldap_msgfree</a> to free the result later.
-
-
-#### - ErrorMessage [out, optional]
-
-A pointer to a wide, null-terminated string that contains the contents of the error message field from the <i>ResultMessage</i> parameter. Pass <b>NULL</b> to ignore this field.
-
-
-#### - MatchedDNs [out, optional]
-
-A pointer to a wide, null-terminated string. In the case of a return of <b>LDAP_NO_SUCH_OBJECT</b>, this result parameter is filled in with a distinguished name indicating how much of the name in the request was recognized. Pass <b>NULL</b> to ignore this field.
-
-
-#### - Referrals [out, optional]
-
-A pointer to a wide, null-terminated string that contains the contents of the referrals field from the <i>ResultMessage</i> parameter, indicating zero or more alternate LDAP servers where the request should be retried. Pass <b>NULL</b> to ignore this field.
-
-
-#### - ReturnCode [out, optional]
-
-Indicates the outcome of the server operation that generated the original result message. Pass <b>NULL</b> to ignore this field.
-
-
-#### - ServerControls [out, optional]
-
-This result parameter is filled in with an allocated array of controls copied from the <i>ResultMessage</i> parameter.
 
 
 ## -returns

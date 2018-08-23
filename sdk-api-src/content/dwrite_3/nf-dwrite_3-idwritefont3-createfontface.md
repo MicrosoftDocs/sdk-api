@@ -1,0 +1,94 @@
+---
+UID: NF:dwrite_3.IDWriteFont3.CreateFontFace
+title: IDWriteFont3::CreateFontFace
+author: windows-sdk-content
+description: Creates a font face object for the font.
+old-location: directwrite\idwritefont3_createfontface.htm
+old-project: DirectWrite
+ms.assetid: 451B8B33-4EA5-4BE3-A126-AAC01D35CE35
+ms.author: windowssdkdev
+ms.date: 07/24/2018
+ms.keywords: CreateFontFace, CreateFontFace method [Direct Write], CreateFontFace method [Direct Write],IDWriteFont3 interface, IDWriteFont3 interface [Direct Write],CreateFontFace method, IDWriteFont3.CreateFontFace, IDWriteFont3::CreateFontFace, directwrite.idwritefont3_createfontface, dwrite_3/IDWriteFont3::CreateFontFace
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dwrite_3.h
+req.include-header: 
+req.redist: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteFont3.CreateFontFace
+product: Windows
+targetos: Windows
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IDWriteFont3::CreateFontFace
+
+
+## -description
+
+
+Creates a font face object for the font.
+
+
+## -parameters
+
+
+
+
+### -param fontFace [out]
+
+Type: <b><a href="https://msdn.microsoft.com/1081A005-E4A8-4EE0-AFE0-10BD8D8471DF">IDWriteFontFace3</a>**</b>
+
+A pointer to a memory block that receives a pointer to a <a href="https://msdn.microsoft.com/1081A005-E4A8-4EE0-AFE0-10BD8D8471DF">IDWriteFontFace3</a> interface for the newly created font face object.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRESULT</b> error code.
+
+
+
+This method returns <b>DWRITE_E_REMOTEFONT</b> if it could not construct a remote font.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0BD21E3C-5F02-4A51-B64C-847B0DD5656B">IDWriteFont3</a>
+ 
+
+ 
+

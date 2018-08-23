@@ -60,9 +60,9 @@ The <b>AddToc</b> method adds a table of contents to the TOC Parser object and a
 
 
 
-### -param enumTocPosType [in]
+### -param param
 
-A member of the <a href="https://msdn.microsoft.com/799059b5-9949-48af-8c54-4cb4975f8249">TOC_POS_TYPE</a> enumeration that specifies the <a href="https://msdn.microsoft.com/cc2fbadc-43f7-470c-873b-de2dc9d84e5d">position type</a> of the table of contents to be added.
+
 
 
 ### -param pToc [in]
@@ -73,6 +73,11 @@ Pointer to an <a href="https://msdn.microsoft.com/b12d38c7-b80e-4ca8-9ac5-a11610
 ### -param pdwTocIndex [out]
 
 Pointer to a <b>DWORD</b> that receives the index of the added table of contents.
+
+
+#### - enumTocPosType [in]
+
+A member of the <a href="https://msdn.microsoft.com/799059b5-9949-48af-8c54-4cb4975f8249">TOC_POS_TYPE</a> enumeration that specifies the <a href="https://msdn.microsoft.com/cc2fbadc-43f7-470c-873b-de2dc9d84e5d">position type</a> of the table of contents to be added.
 
 
 ## -returns

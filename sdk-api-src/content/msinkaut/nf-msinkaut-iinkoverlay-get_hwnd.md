@@ -7,7 +7,7 @@ old-location: tablet\inkoverlay_hwnd.htm
 old-project: tablet
 ms.assetid: fb08bdb5-4d2e-4a2e-9e23-bbff4cedc6e2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: IInkOverlay interface [Tablet PC],hWnd property, IInkOverlay.get_hWnd, IInkOverlay.hWnd, IInkOverlay::get_hWnd, IInkOverlay::hWnd, IInkOverlay::put_hWnd, InkOverlay.get_hWnd, InkOverlay.put_hWnd, get_hWnd, hWnd property [Tablet PC], hWnd property [Tablet PC],IInkOverlay interface, msinkaut/IInkOverlay::get_hWnd, msinkaut/IInkOverlay::hWnd, msinkaut/IInkOverlay::put_hWnd, put_hWnd, tablet.inkoverlay_hwnd
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,7 +90,7 @@ In Automation, this property is called <a href="https://msdn.microsoft.com/1a8b9
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
+<a href="https://msdn.microsoft.com/ACE11946-113B-42EE-A3F1-0036B1DF8141">IInkOverlay</a>
 
 
 

@@ -70,7 +70,7 @@ Handle to the database obtained from <a href="https://msdn.microsoft.com/984996e
 
 
 
-This function returns MSIDBSTATE.
+This function returns MSIDBSTATE __stdcall.
 
 
 

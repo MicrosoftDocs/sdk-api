@@ -7,7 +7,7 @@ old-location: tablet\inkstrokes_count.htm
 old-project: tablet
 ms.assetid: e0148627-11fc-47ee-8b77-1aa5700343cb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: Count property [Tablet PC], Count property [Tablet PC],IInkStrokes interface, IInkStrokes interface [Tablet PC],Count property, IInkStrokes.Count, IInkStrokes.get_Count, IInkStrokes::Count, IInkStrokes::get_Count, InkStrokes.get_Count, get_Count, msinkaut/IInkStrokes::Count, msinkaut/IInkStrokes::get_Count, tablet.inkstrokes_count
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846806(v=VS.85).aspx">IInkStrokes</a>
+<a href="https://msdn.microsoft.com/496234C1-C20B-46FE-A9BB-4B90C14FEB46">IInkStrokes</a>
 
 
 

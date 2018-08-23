@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectrasterizervariable.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectrasterizervariable.htm
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/20/2018
 ms.keywords: ID3D10EffectRasterizerVariable, ID3D10EffectRasterizerVariable interface [Direct3D 10], ID3D10EffectRasterizerVariable interface [Direct3D 10],described, d3d10effect/ID3D10EffectRasterizerVariable, direct3d10.id3d10effectrasterizervariable, e64c6162-c4a1-3cb0-6a8f-633ecb9840a6
 ms.prod: windows
 ms.technology: windows-sdk

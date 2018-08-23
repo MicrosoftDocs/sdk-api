@@ -7,7 +7,7 @@ old-location: security\icertificateenrollmentserversetup_setproperty.htm
 old-project: SecCrypto
 ms.assetid: D2E20195-D81F-4717-83D2-BF8DC1D1779B
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: ICertificateEnrollmentServerSetup interface [Security],SetProperty method, ICertificateEnrollmentServerSetup.SetProperty, ICertificateEnrollmentServerSetup::SetProperty, SetProperty, SetProperty method [Security], SetProperty method [Security],ICertificateEnrollmentServerSetup interface, casetup/ICertificateEnrollmentServerSetup::SetProperty, security.icertificateenrollmentserversetup_setproperty
 ms.prod: windows
 ms.technology: windows-sdk

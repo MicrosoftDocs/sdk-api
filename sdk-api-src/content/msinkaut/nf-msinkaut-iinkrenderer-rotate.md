@@ -7,7 +7,7 @@ old-location: tablet\inkrenderer_rotate.htm
 old-project: tablet
 ms.assetid: 1928c81a-c618-4afd-b0eb-06e7b8b80431
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: 1928c81a-c618-4afd-b0eb-06e7b8b80431, IInkRenderer interface [Tablet PC],Rotate method, IInkRenderer.Rotate, IInkRenderer::Rotate, Rotate, Rotate method [Tablet PC], Rotate method [Tablet PC],IInkRenderer interface, msinkaut/IInkRenderer::Rotate, tablet.inkrenderer_rotate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -132,7 +132,7 @@ If no point is specified, the rotation is centered around the origin.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846805(v=VS.85).aspx">IInkRenderer</a>
+<a href="https://msdn.microsoft.com/2AB56616-3F67-4428-8A99-FCE733A5FDBF">IInkRenderer</a>
 
 
 

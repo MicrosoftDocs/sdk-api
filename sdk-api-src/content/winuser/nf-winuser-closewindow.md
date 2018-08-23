@@ -7,7 +7,7 @@ old-location: winmsg\closewindow.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\closewindow.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: CloseWindow, CloseWindow function [Windows and Messages], _win32_CloseWindow, _win32_closewindow_cpp, winmsg.closewindow, winui._win32_closewindow, winuser/CloseWindow
 ms.prod: windows
 ms.technology: windows-sdk

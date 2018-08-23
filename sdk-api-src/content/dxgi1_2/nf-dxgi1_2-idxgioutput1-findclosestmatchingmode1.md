@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutput1_findclosestmatchingmode1.htm
 old-project: direct3ddxgi
 ms.assetid: D71ED536-0D90-4E0D-8683-6260E31EAF20
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/20/2018
 ms.keywords: FindClosestMatchingMode1, FindClosestMatchingMode1 method [DXGI], FindClosestMatchingMode1 method [DXGI],IDXGIOutput1 interface, IDXGIOutput1 interface [DXGI],FindClosestMatchingMode1 method, IDXGIOutput1.FindClosestMatchingMode1, IDXGIOutput1::FindClosestMatchingMode1, direct3ddxgi.idxgioutput1_findclosestmatchingmode1, dxgi1_2/IDXGIOutput1::FindClosestMatchingMode1
 ms.prod: windows
 ms.technology: windows-sdk

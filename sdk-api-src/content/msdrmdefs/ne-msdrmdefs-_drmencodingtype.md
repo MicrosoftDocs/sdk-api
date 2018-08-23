@@ -40,8 +40,8 @@ api_name:
  - DRMENCODINGTYPE
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: Msdrm.lib
+req.dll: Msdrm.dll
 req.irql: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---

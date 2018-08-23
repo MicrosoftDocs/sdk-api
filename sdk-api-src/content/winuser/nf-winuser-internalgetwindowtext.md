@@ -7,7 +7,7 @@ old-location: winmsg\internalgetwindowtext.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\internalgetwindowtext.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: InternalGetWindowText, InternalGetWindowText function [Windows and Messages], _win32_InternalGetWindowText, _win32_internalgetwindowtext_cpp, winmsg.internalgetwindowtext, winui._win32_internalgetwindowtext, winuser/InternalGetWindowText
 ms.prod: windows
 ms.technology: windows-sdk

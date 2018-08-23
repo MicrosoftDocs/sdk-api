@@ -7,7 +7,7 @@ old-location: winsock\listen_2.htm
 old-project: winsock
 ms.assetid: 1233feeb-a8c1-49ac-ab34-82af224ecf00
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: "_win32_listen_2, listen, listen function [Winsock], winsock.listen_2, winsock2/listen"
 ms.prod: windows
 ms.technology: windows-sdk

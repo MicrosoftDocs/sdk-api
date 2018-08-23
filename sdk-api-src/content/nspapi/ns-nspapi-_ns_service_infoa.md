@@ -7,7 +7,7 @@ old-location: winsock\ns_service_info_2.htm
 old-project: winsock
 ms.assetid: 5bcdeddf-2971-491b-9cf4-70595d3a7ff1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: "*LPNS_SERVICE_INFOA, *PNS_SERVICE_INFOA, NS_DEFAULT, NS_DNS, NS_MS, NS_NDS, NS_NETBT, NS_NIS, NS_SAP, NS_SERVICE_INFO, NS_SERVICE_INFO structure [Winsock], NS_SERVICE_INFOA, NS_SERVICE_INFOW, NS_STDA, NS_TCPIP_HOSTS, NS_TCPIP_LOCAL, NS_WINS, NS_X500, _NS_SERVICE_INFOA, _win32_ns_service_info_2, nspapi/NS_SERVICE_INFO, nspapi/NS_SERVICE_INFOA, nspapi/NS_SERVICE_INFOW, winsock.ns_service_info_2"
 ms.prod: windows
 ms.technology: windows-sdk

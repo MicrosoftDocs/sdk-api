@@ -7,7 +7,7 @@ old-location: security\wlxgetstatusmessage.htm
 old-project: secauthn
 ms.assetid: 16208bbe-e697-4e75-8a28-a6d311ecb46c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: WlxGetStatusMessage, WlxGetStatusMessage function [Security], _gina_wlxgetstatusmessage, security.wlxgetstatusmessage, winwlx/WlxGetStatusMessage
 ms.prod: windows
 ms.technology: windows-sdk

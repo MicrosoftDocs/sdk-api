@@ -7,7 +7,7 @@ old-location: appxpkg\iappxbundlemanifestoptionalbundleinfoenumerator_gethascurr
 old-project: appxpkg
 ms.assetid: C7473291-89EA-4412-848E-07257C0AC0FB
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/16/2018
 ms.keywords: GetHasCurrent, GetHasCurrent method [App packaging and management], GetHasCurrent method [App packaging and management],IAppxBundleManifestOptionalBundleInfoEnumerator interface, IAppxBundleManifestOptionalBundleInfoEnumerator interface [App packaging and management],GetHasCurrent method, IAppxBundleManifestOptionalBundleInfoEnumerator.GetHasCurrent, IAppxBundleManifestOptionalBundleInfoEnumerator::GetHasCurrent, appxpackaging/IAppxBundleManifestOptionalBundleInfoEnumerator::GetHasCurrent, appxpkg.iappxbundlemanifestoptionalbundleinfoenumerator_gethascurrent
 ms.prod: windows
 ms.technology: windows-sdk

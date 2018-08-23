@@ -131,41 +131,6 @@ Adds a denied ACE.
 Deletes all the ACEs for for the SID.
 
 
-##### - dwAccess.CLUSAPI_ALL_ACCESS ((CLUSAPI_READ_ACCESS | CLUSAPI_CHANGE_ACCESS))
-
-The account can be used to read and change the cluster.
-
-
-##### - dwAccess.CLUSAPI_CHANGE_ACCESS (0x00000002L)
-
-The account can be used to make changes to the cluster.
-
-
-##### - dwAccess.CLUSAPI_NO_ACCESS (0x00000004L)
-
-No access.
-
-
-##### - dwAccess.CLUSAPI_READ_ACCESS (0x00000001L)
-
-Read access.
-
-
-##### - dwControlType.CLUSTER_DELETE_ACCESS_CONTROL_ENTRY (2)
-
-Deletes all the ACEs for for the SID.
-
-
-##### - dwControlType.CLUSTER_SET_ACCESS_TYPE_ALLOWED (0)
-
-Adds an allowed ACE.
-
-
-##### - dwControlType.CLUSTER_SET_ACCESS_TYPE_DENIED (1)
-
-Adds a denied ACE.
-
-
 ## -returns
 
 

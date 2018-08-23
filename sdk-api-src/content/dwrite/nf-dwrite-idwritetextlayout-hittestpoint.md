@@ -1,0 +1,127 @@
+---
+UID: NF:dwrite.IDWriteTextLayout.HitTestPoint
+title: IDWriteTextLayout::HitTestPoint
+author: windows-sdk-content
+description: The application calls this function passing in a specific pixel location relative to the top-left location of the layout box and obtains the information about the correspondent hit-test metrics of the text string where the hit-test has occurred.
+old-location: directwrite\IDWriteTextLayout_HitTestPoint.htm
+old-project: DirectWrite
+ms.assetid: 6eb10e03-beb6-4ad3-9b57-4b4be0e265de
+ms.author: windowssdkdev
+ms.date: 07/24/2018
+ms.keywords: HitTestPoint, HitTestPoint method [Direct Write], HitTestPoint method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],HitTestPoint method, IDWriteTextLayout.HitTestPoint, IDWriteTextLayout::HitTestPoint, directwrite.IDWriteTextLayout_HitTestPoint, dwrite/IDWriteTextLayout::HitTestPoint
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dwrite.h
+req.include-header: 
+req.redist: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteTextLayout.HitTestPoint
+product: Windows
+targetos: Windows
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IDWriteTextLayout::HitTestPoint
+
+
+## -description
+
+
+ The application calls this function passing in a specific pixel location
+     relative to the top-left location of the layout box and obtains the
+     information about the correspondent hit-test metrics of the text string
+     where the hit-test has occurred. When the specified pixel location is
+     outside the text string, the function sets the output value <i>*isInside</i> to
+     <b>FALSE</b>.
+
+
+## -parameters
+
+
+
+
+### -param pointX
+
+Type: <b>FLOAT</b>
+
+The pixel location X to hit-test, relative to the top-left location of the layout box.
+
+
+### -param pointY
+
+Type: <b>FLOAT</b>
+
+The pixel location Y to hit-test, relative to the top-left location of the layout box.
+
+
+### -param isTrailingHit [out]
+
+Type: <b>BOOL*</b>
+
+An output flag that indicates whether the hit-test location is at the leading or the trailing
+         side of the character. When the output <i>*isInside</i> value is set to <b>FALSE</b>, this value is set according to the output
+         <i>hitTestMetrics-&gt;textPosition</i> value to represent the edge closest to the hit-test location.
+
+
+### -param isInside [out]
+
+Type: <b>BOOL*</b>
+
+An output flag that indicates whether the hit-test location is inside the text string.
+         When <b>FALSE</b>, the position nearest the text's edge is returned.
+
+
+### -param hitTestMetrics [out]
+
+Type: <b><a href="https://msdn.microsoft.com/00aaed92-7078-4823-95c5-855c063c744a">DWRITE_HIT_TEST_METRICS</a>*</b>
+
+The output geometry fully enclosing the hit-test location. When the output <i>*isInside</i> value
+         is set to <b>FALSE</b>, this structure represents the geometry enclosing the edge closest to the hit-test location.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0d687337-8623-4014-967c-f533072e31cc">IDWriteTextLayout</a>
+ 
+
+ 
+

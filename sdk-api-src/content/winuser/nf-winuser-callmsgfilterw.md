@@ -7,7 +7,7 @@ old-location: winmsg\callmsgfilter.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookfunctions\callmsgfilter.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: CallMsgFilter, CallMsgFilter function [Windows and Messages], CallMsgFilterA, CallMsgFilterW, _win32_CallMsgFilter, _win32_callmsgfilter_cpp, winmsg.callmsgfilter, winui._win32_callmsgfilter, winuser/CallMsgFilter, winuser/CallMsgFilterA, winuser/CallMsgFilterW
 ms.prod: windows
 ms.technology: windows-sdk

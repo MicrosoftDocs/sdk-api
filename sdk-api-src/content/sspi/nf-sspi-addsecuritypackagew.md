@@ -7,7 +7,7 @@ old-location: security\addsecuritypackage.htm
 old-project: secauthn
 ms.assetid: 35b993d2-87a0-46d0-991f-88358b0cc5e6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: AddSecurityPackage, AddSecurityPackage function [Security], AddSecurityPackageA, AddSecurityPackageW, security.addsecuritypackage, sspi/AddSecurityPackage, sspi/AddSecurityPackageA, sspi/AddSecurityPackageW
 ms.prod: windows
 ms.technology: windows-sdk

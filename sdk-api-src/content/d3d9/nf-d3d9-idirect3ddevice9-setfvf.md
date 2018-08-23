@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__setfvf.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setfvf.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: 19b67e41-5ea9-7478-a24f-8698b2b106a5, IDirect3DDevice9 interface [Direct3D 9],SetFVF method, IDirect3DDevice9.SetFVF, IDirect3DDevice9::SetFVF, SetFVF, SetFVF method [Direct3D 9], SetFVF method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetFVF, direct3d9.idirect3ddevice9__setfvf
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,10 +86,9 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 Here are the steps necessary to initialize and use vertices that have a position, diffuse and specular color, and texture coordinates:
 
 <ol>
-<li>Define the custom vertex type and FVF code.	
-    
-    
-    
+<li>
+Define the custom vertex type and FVF code.
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -111,8 +110,11 @@ const DWORD VertexFVF = (D3DFVF_XYZ | D3DFVF_DIFFUSE |
 </tr>
 </table></span></div>
 </li>
-<li>Create a vertex buffer with enough room for four vertices using <a href="https://msdn.microsoft.com/en-us/library/Bb174364(v=VS.85).aspx">IDirect3DDevice9::CreateVertexBuffer</a>.
+<li>
+Create a vertex buffer with enough room for four vertices using <a href="https://msdn.microsoft.com/en-us/library/Bb174364(v=VS.85).aspx">IDirect3DDevice9::CreateVertexBuffer</a>.
     
+
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -127,10 +129,13 @@ g_d3dDevice-&gt;CreateVertexBuffer( 4*sizeof(LVertex),
 </tr>
 </table></span></div>
 </li>
-<li>Set the values for each vertex.
+<li>
+Set the values for each vertex.
     
     
     
+
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -167,10 +172,13 @@ pBigSquareVB-&gt;Unlock();
 </tr>
 </table></span></div>
 </li>
-<li>The vertex buffer has been initialized and is ready to render. The following code example shows how to use the legacy FVF to draw a square.
+<li>
+The vertex buffer has been initialized and is ready to render. The following code example shows how to use the legacy FVF to draw a square.
     
     
     
+
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -190,7 +198,10 @@ g_d3dDevice-&gt;DrawPrimitive(D3DPT_TRIANGLESTRIP, 0 ,2);
 Here are the steps necessary to initialize and use vertices that have a position, a normal, and texture coordinates:
 
 <ol>
-<li>Define the custom vertex type and FVF code.<div class="code"><span codelanguage=""><table>
+<li>
+Define the custom vertex type and FVF code.
+
+<div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
 </tr>
@@ -210,11 +221,17 @@ const DWORD VertexFVF = ( D3DFVF_XYZ | D3DFVF_NORMAL | D3DFVF_TEX1 );
 </tr>
 </table></span></div>
 </li>
-<li>Create a vertex buffer with enough room for four vertices using <a href="https://msdn.microsoft.com/en-us/library/Bb174364(v=VS.85).aspx">IDirect3DDevice9::CreateVertexBuffer</a> (similar to the example above).</li>
-<li>Set the values for each vertex.
+<li>
+Create a vertex buffer with enough room for four vertices using <a href="https://msdn.microsoft.com/en-us/library/Bb174364(v=VS.85).aspx">IDirect3DDevice9::CreateVertexBuffer</a> (similar to the example above).
+
+</li>
+<li>
+Set the values for each vertex.
     
     
     
+
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>

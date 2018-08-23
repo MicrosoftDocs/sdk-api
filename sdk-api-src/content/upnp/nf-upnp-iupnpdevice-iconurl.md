@@ -4,10 +4,10 @@ title: IUPnPDevice::IconURL
 author: windows-sdk-content
 description: The IconURL method returns a URL from which an icon of the specified format can be loaded.
 old-location: upnp\iupnpdevice_iconurl.htm
-old-project: UPnP
+old-project: upnp
 ms.assetid: 17b3d4f1-a51a-42f9-8fc0-4156d4975889
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/16/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],IconURL method, IUPnPDevice.IconURL, IUPnPDevice::IconURL, IconURL, IconURL method [UPnP APIs], IconURL method [UPnP APIs],IUPnPDevice interface, _upnp_iupnpdevice_iconurl, upnp.iupnpdevice_iconurl, upnp/IUPnPDevice::IconURL
 ms.prod: windows
 ms.technology: windows-sdk

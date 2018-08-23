@@ -1,0 +1,129 @@
+---
+UID: NF:d2d1effectauthor.ID2D1EffectContext.GetMaximumSupportedFeatureLevel
+title: ID2D1EffectContext::GetMaximumSupportedFeatureLevel
+author: windows-sdk-content
+description: This indicates the maximum feature level from the provided list which is supported by the device.
+old-location: direct2d\id2d1contextinternal_getfeaturelevel.htm
+old-project: direct2d
+ms.assetid: BDB553F8-C19D-46FC-A3CF-7E525DA81CE2
+ms.author: windowssdkdev
+ms.date: 08/06/2018
+ms.keywords: GetMaximumSupportedFeatureLevel, GetMaximumSupportedFeatureLevel method [Direct2D], GetMaximumSupportedFeatureLevel method [Direct2D],ID2D1EffectContext interface, ID2D1EffectContext interface [Direct2D],GetMaximumSupportedFeatureLevel method, ID2D1EffectContext.GetMaximumSupportedFeatureLevel, ID2D1EffectContext::GetMaximumSupportedFeatureLevel, d2d1effectauthor/ID2D1EffectContext::GetMaximumSupportedFeatureLevel, direct2d.id2d1contextinternal_getfeaturelevel
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d2d1effectauthor.h
+req.include-header: 
+req.redist: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: D2D1_VERTEX_USAGE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2D1.lib
+ - D2D1.dll
+api_name:
+ - ID2D1EffectContext.GetMaximumSupportedFeatureLevel
+product: Windows
+targetos: Windows
+req.lib: D2D1.lib
+req.dll: 
+req.irql: 
+---
+
+# ID2D1EffectContext::GetMaximumSupportedFeatureLevel
+
+
+## -description
+
+
+This indicates the maximum feature level from the provided list which is supported by the device. If none of the provided levels are supported, then this API fails with D2DERR_INSUFFICIENT_DEVICE_CAPABILITIES.
+
+
+## -parameters
+
+
+
+
+### -param featureLevels [in]
+
+Type: <b>const <a href="https://msdn.microsoft.com/afbc1a02-1730-4502-af15-b668412d664c">D3D_FEATURE_LEVEL</a>*</b>
+
+The feature levels provided by the application.
+
+
+### -param featureLevelsCount
+
+Type: <b>UINT32</b>
+
+The count of feature levels provided by the application
+
+
+### -param maximumSupportedFeatureLevel [out]
+
+Type: <b><a href="https://msdn.microsoft.com/afbc1a02-1730-4502-af15-b668412d664c">D3D_FEATURE_LEVEL</a>*</b>
+
+The maximum feature level from the <i>featureLevels</i> list which is supported by the D2D device.
+
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>HRESULT</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>S_OK</td>
+<td>No error occurred.</td>
+</tr>
+<tr>
+<td>E_OUTOFMEMORY</td>
+<td>Direct2D could not allocate sufficient memory to complete the call.</td>
+</tr>
+<tr>
+<td>E_INVALIDARG</td>
+<td>An invalid parameter was passed to the returning function.</td>
+</tr>
+<tr>
+<td>D2DERR_INSUFFICIENT_DEVICE_CAPABILITIES</td>
+<td>None of the provided levels are supported.</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/6BE6DF90-C5B7-4377-9DBF-804AB1C91FEE">ID2D1EffectContext</a>
+ 
+
+ 
+

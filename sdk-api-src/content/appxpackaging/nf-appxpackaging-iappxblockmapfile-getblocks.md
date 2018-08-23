@@ -7,7 +7,7 @@ old-location: appxpkg\iappxblockmapfile_getblocks.htm
 old-project: appxpkg
 ms.assetid: CE8FB813-B125-4FD6-A7C3-CA3ECA72ECE7
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/16/2018
 ms.keywords: GetBlocks, GetBlocks method [App packaging and management], GetBlocks method [App packaging and management],IAppxBlockMapFile interface, IAppxBlockMapFile interface [App packaging and management],GetBlocks method, IAppxBlockMapFile.GetBlocks, IAppxBlockMapFile::GetBlocks, appxpackaging/IAppxBlockMapFile::GetBlocks, appxpkg.iappxblockmapfile_getblocks
 ms.prod: windows
 ms.technology: windows-sdk

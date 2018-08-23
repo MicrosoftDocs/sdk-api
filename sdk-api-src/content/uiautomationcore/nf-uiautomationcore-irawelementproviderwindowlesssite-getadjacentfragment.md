@@ -60,11 +60,9 @@ Retrieves a fragment pointer for a fragment that is adjacent to the windowless M
 
 
 
-### -param direction [in]
+### -param param
 
-Type: <b><a href="https://msdn.microsoft.com/33385413-3500-4f80-b53a-fe960d1b53ee">NavigateDirection</a></b>
 
-A value that indicates the adjacent fragment to retrieve (parent, next sibling, previous sibling, and so on).  
 
 
 ### -param ppParent
@@ -72,6 +70,13 @@ A value that indicates the adjacent fragment to retrieve (parent, next sibling, 
 
 
 
+
+
+#### - direction [in]
+
+Type: <b><a href="https://msdn.microsoft.com/33385413-3500-4f80-b53a-fe960d1b53ee">NavigateDirection</a></b>
+
+A value that indicates the adjacent fragment to retrieve (parent, next sibling, previous sibling, and so on).  
 
 
 #### - ppRetVal [out, retval]

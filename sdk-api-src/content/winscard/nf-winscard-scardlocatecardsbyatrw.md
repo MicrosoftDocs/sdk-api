@@ -7,7 +7,7 @@ old-location: security\scardlocatecardsbyatr.htm
 old-project: secauthn
 ms.assetid: 6c4a644c-033f-4654-b96d-0379e9ac0bb4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: SCardLocateCardsByATR, SCardLocateCardsByATR function [Security], SCardLocateCardsByATRA, SCardLocateCardsByATRW, _smart_scardlocatecardsbyatr, security.scardlocatecardsbyatr, winscard/SCardLocateCardsByATR, winscard/SCardLocateCardsByATRA, winscard/SCardLocateCardsByATRW
 ms.prod: windows
 ms.technology: windows-sdk

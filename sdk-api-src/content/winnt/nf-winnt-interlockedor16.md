@@ -7,7 +7,7 @@ old-location: base\interlockedor16.htm
 old-project: sync
 ms.assetid: 9840313d-3c42-42ce-91b9-fde684834716
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: InterlockedOr16, InterlockedOr16 function, base.interlockedor16, winnt/InterlockedOr16
 ms.prod: windows
 ms.technology: windows-sdk

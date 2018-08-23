@@ -4,8 +4,8 @@
     "winreg.h",
     "mpconfig.h",
     "dbdao.h",
-    "mmc.h",
-    "vds.h"
+    "vds.h",
+    "mmc.h"
   ],
   "displayName": "Hyper-V WMI Provider"
 }

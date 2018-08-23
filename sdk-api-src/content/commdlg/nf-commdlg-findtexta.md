@@ -7,7 +7,7 @@ old-location: dlgbox\findtext.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\findtext.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/21/2018
 ms.keywords: FindText, FindText function [Dialog Boxes], FindTextA, FindTextW, _win32_FindText, _win32_findtext_cpp, commdlg/FindText, commdlg/FindTextA, commdlg/FindTextW, dlgbox.findtext, winui._win32_findtext
 ms.prod: windows
 ms.technology: windows-sdk

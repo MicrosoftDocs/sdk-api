@@ -74,7 +74,7 @@ The size of the array (the number of indexes).
 
 
 
-This function returns BOOL.
+This function returns BOOL __stdcall.
 
 
 

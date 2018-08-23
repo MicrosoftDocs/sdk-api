@@ -7,7 +7,7 @@ old-location: intl\scriptgetfontalternateglyphs.htm
 old-project: Intl
 ms.assetid: 2b64a14f-ad55-46df-a7a6-7f05fcb2c875
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: ScriptGetFontAlternateGlyphs, ScriptGetFontAlternateGlyphs function [Internationalization for Windows Applications], _win32_ScriptGetFontAlternateGlyphs, intl.scriptgetfontalternateglyphs, usp10/ScriptGetFontAlternateGlyphs
 ms.prod: windows
 ms.technology: windows-sdk

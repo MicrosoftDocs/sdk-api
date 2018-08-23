@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiswapchain1_getdesc1.htm
 old-project: direct3ddxgi
 ms.assetid: 86BB75A7-C289-4EBA-A9EE-ED4F5C590BA2
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/20/2018
 ms.keywords: GetDesc1, GetDesc1 method [DXGI], GetDesc1 method [DXGI],IDXGISwapChain1 interface, IDXGISwapChain1 interface [DXGI],GetDesc1 method, IDXGISwapChain1.GetDesc1, IDXGISwapChain1::GetDesc1, direct3ddxgi.idxgiswapchain1_getdesc1, dxgi1_2/IDXGISwapChain1::GetDesc1
 ms.prod: windows
 ms.technology: windows-sdk

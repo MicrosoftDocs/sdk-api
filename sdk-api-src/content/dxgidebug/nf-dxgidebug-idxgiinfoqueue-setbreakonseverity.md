@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiinfoqueue_setbreakonseverity.htm
 old-project: direct3ddxgi
 ms.assetid: 3316A9E5-F65B-4162-9A5E-CDB5CD65FBF8
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/20/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],SetBreakOnSeverity method, IDXGIInfoQueue.SetBreakOnSeverity, IDXGIInfoQueue::SetBreakOnSeverity, SetBreakOnSeverity, SetBreakOnSeverity method [DXGI], SetBreakOnSeverity method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_setbreakonseverity, dxgidebug/IDXGIInfoQueue::SetBreakOnSeverity
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\scardgettransmitcount.htm
 old-project: secauthn
 ms.assetid: 13857fc3-374d-4ba5-b4ca-e523b323974c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: SCardGetTransmitCount, SCardGetTransmitCount function [Security], security.scardgettransmitcount, winscard/SCardGetTransmitCount
 ms.prod: windows
 ms.technology: windows-sdk

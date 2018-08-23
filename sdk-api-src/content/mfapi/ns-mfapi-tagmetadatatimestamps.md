@@ -7,7 +7,7 @@ old-location: stream\metadatatimestamps.htm
 old-project: stream
 ms.assetid: F7E5349B-37F0-4B94-B42B-EAEB04DC1AB5
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/20/2018
 ms.keywords: MetadataTimeStamps, MetadataTimeStamps structure [Streaming Media Devices], mfapi/MetadataTimeStamps, stream.metadatatimestamps, tagMetadataTimeStamps
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,7 +81,9 @@ PTS for the sample  the face rectangle is derived from (in 100ns).
 
 The <b>MF_CAPTURE_METADATA_FACEROITIMESTAMPS</b> attribute contains the time stamp information for the face ROIs identified in <b>MF_CAPTURE_METADATA_FACEROIS</b>.  For a  device that cannot provide the time stamp for face ROIs, this attribute should be omitted.
 
-For the <b>Flags</b> field, the following bit flags  indicate which time stamp is valid:<div class="code"><span codelanguage=""><table>
+For the <b>Flags</b> field, the following bit flags  indicate which time stamp is valid:
+
+<div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
 </tr>
@@ -92,8 +94,6 @@ For the <b>Flags</b> field, the following bit flags  indicate which time stamp i
 </td>
 </tr>
 </table></span></div>
-
-
 MFT0 must set <b>Flags</b> to <b>MF_METADATATIEMSTAMPS_DEVICE</b> and the appropriate QPC time for <b>Device</b>, if the driver provides the timestamp metadata for the face ROIs.
 
 The <b>MetadataTimeStamps</b> structure only describes the blob format for the <b>MF_CAPTURE_METADATA_FACEROITIMESTAMPS</b> attribute.  The metadata item structure for timestamp (<a href="https://msdn.microsoft.com/B4AC04D7-9F98-41F1-A38D-927F3F3A7699">KSCAMERA_METADATA_ITEMHEADER</a> + timestamp metadata payload) is up to driver and must be 8-byte aligned.

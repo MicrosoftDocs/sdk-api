@@ -7,7 +7,7 @@ old-location: winsock\getaddrinfoexcancel.htm
 old-project: winsock
 ms.assetid: A4DE552D-DEA7-44F5-865F-5B02C9BB4AB6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: GetAddrInfoExCancel, GetAddrInfoExCancel function [Winsock], winsock.getaddrinfoexcancel, ws2tcpip/GetAddrInfoExCancel
 ms.prod: windows
 ms.technology: windows-sdk

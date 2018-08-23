@@ -142,7 +142,7 @@ Note that the handle of the thread calling
 
 
 
-<a href="https://msdn.microsoft.com/">midl_user_allocate</a>
+<a href="https://msdn.microsoft.com/0eaf6df5-791d-4f6d-8f49-cc1ce64e7ab4">midl_user_allocate</a>
  
 
  

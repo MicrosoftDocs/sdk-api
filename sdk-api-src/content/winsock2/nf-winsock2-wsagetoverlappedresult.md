@@ -7,7 +7,7 @@ old-location: winsock\wsagetoverlappedresult_2.htm
 old-project: winsock
 ms.assetid: 3c43ccfd-0fe7-4ecc-9517-e0a1c448f7e4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: WSAGetOverlappedResult, WSAGetOverlappedResult function [Winsock], _win32_wsagetoverlappedresult_2, winsock.wsagetoverlappedresult_2, winsock2/WSAGetOverlappedResult
 ms.prod: windows
 ms.technology: windows-sdk

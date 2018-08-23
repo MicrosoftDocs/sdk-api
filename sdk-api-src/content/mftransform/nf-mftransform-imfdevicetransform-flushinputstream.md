@@ -7,7 +7,7 @@ old-location: stream\imfdevicetransform_flushinputstream.htm
 old-project: stream
 ms.assetid: 646A9446-B87A-40B5-8A0F-9DE67286825B
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/20/2018
 ms.keywords: FlushInputStream, FlushInputStream method [Streaming Media Devices], FlushInputStream method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],FlushInputStream method, IMFDeviceTransform.FlushInputStream, IMFDeviceTransform::FlushInputStream, mftransform/IMFDeviceTransform::FlushInputStream, stream.imfdevicetransform_flushinputstream
 ms.prod: windows
 ms.technology: windows-sdk

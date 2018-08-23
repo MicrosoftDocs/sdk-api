@@ -2,7 +2,7 @@
 UID: TP:base
 ms.assetid: e0daa3a7-613f-39bd-87ba-ff1ef0bec914
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/23/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -45,6 +45,7 @@ To develop System Services, you need these headers:
  * [secext.h](../secext/index.md)
  * [storprop.h](../storprop/index.md)
  * [synchapi.h](../synchapi/index.md)
+ * [sysinfoapi.h](../sysinfoapi/index.md)
  * [threadpoolapiset.h](../threadpoolapiset/index.md)
  * [timeprov.h](../timeprov/index.md)
  * [vds.h](../vds/index.md)

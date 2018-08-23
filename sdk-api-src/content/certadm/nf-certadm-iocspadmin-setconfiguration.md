@@ -7,7 +7,7 @@ old-location: security\iocspadmin_setconfiguration_method.htm
 old-project: SecCrypto
 ms.assetid: 973c69c3-282b-4e17-bb44-119965a4b443
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: IOCSPAdmin interface [Security],SetConfiguration method, IOCSPAdmin.SetConfiguration, IOCSPAdmin::SetConfiguration, SetConfiguration, SetConfiguration method [Security], SetConfiguration method [Security],IOCSPAdmin interface, certadm/IOCSPAdmin::SetConfiguration, security.iocspadmin_setconfiguration_method
 ms.prod: windows
 ms.technology: windows-sdk

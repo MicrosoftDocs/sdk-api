@@ -7,7 +7,7 @@ old-location: winsock\getnameinfo_2.htm
 old-project: winsock
 ms.assetid: 7d1fb0ed-cc32-4b38-8ff5-88c2cca4f375
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: GetNameInfoA, _win32_getnameinfo_2, getnameinfo, getnameinfo function [Winsock], winsock.getnameinfo_2, ws2tcpip/getnameinfo
 ms.prod: windows
 ms.technology: windows-sdk

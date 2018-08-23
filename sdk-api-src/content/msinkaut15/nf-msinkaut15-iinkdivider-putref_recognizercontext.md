@@ -7,7 +7,7 @@ old-location: tablet\inkdivider_recognizercontext.htm
 old-project: tablet
 ms.assetid: ad3c4317-a777-4009-bc66-865a2fcb77c3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: IInkDivider interface [Tablet PC],RecognizerContext property, IInkDivider.RecognizerContext, IInkDivider.putref_RecognizerContext, IInkDivider::RecognizerContext, IInkDivider::get_RecognizerContext, IInkDivider::putref_RecognizerContext, InkDivider.get_RecognizerContext, RecognizerContext property [Tablet PC], RecognizerContext property [Tablet PC],IInkDivider interface, ad3c4317-a777-4009-bc66-865a2fcb77c3, get_RecognizerContext, msinkaut15/IInkDivider::RecognizerContext, msinkaut15/IInkDivider::get_RecognizerContext, msinkaut15/IInkDivider::putref_RecognizerContext, put_RecognizerContext, putref_RecognizerContext, tablet.inkdivider_recognizercontext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,7 +90,7 @@ If the value of this property is <b>NULL</b> when strokes are assigned to the <a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt847144(v=VS.85).aspx">IInkDivider</a>
+<a href="https://msdn.microsoft.com/6DF54C8E-1E0D-4F9D-A6E4-AFE0E8894BE9">IInkDivider</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: tablet\inkmode.htm
 old-project: tablet
 ms.assetid: 81aac302-c89a-42ca-9c90-170611a8995a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: 81aac302-c89a-42ca-9c90-170611a8995a, IM_Disabled, IM_Ink, IM_InkAndGesture, InkMode, InkMode enumeration [Tablet PC], inked/IM_Disabled, inked/IM_Ink, inked/IM_InkAndGesture, inked/InkMode, tablet.inkmode
 ms.prod: windows
 ms.technology: windows-sdk

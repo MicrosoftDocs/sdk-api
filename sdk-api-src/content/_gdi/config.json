@@ -9,11 +9,11 @@
     "tvout.h",
     "fontsub.h",
     "t2embapi.h",
-    "xpsprint.h",
     "winspool.h",
     "prnasnot.h",
     "prntvpt.h",
-    "mxdc.h"
+    "mxdc.h",
+    "xpsprint.h"
   ],
   "displayName": "Windows GDI"
 }

@@ -59,7 +59,9 @@ Gets the minimum feature level.
 
 
 
-### -param pLevel [out]
+
+
+#### - pLevel [out]
 
 Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476329(v=VS.85).aspx">D3D_FEATURE_LEVEL</a>*</b>
 

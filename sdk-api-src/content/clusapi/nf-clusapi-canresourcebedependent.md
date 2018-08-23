@@ -74,7 +74,7 @@ Handle to the resource upon which the resource identified by <i>hResource</i> ma
 
 
 
-This function returns BOOL.
+This function returns BOOL __stdcall.
 
 
 

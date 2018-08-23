@@ -7,7 +7,7 @@ old-location: multimedia\avistreamgetframe.htm
 old-project: Multimedia
 ms.assetid: 9677efee-4c40-4acd-8911-eedcbee67d6b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: AVIStreamGetFrame, AVIStreamGetFrame function [Windows Multimedia], _win32_AVIStreamGetFrame, multimedia.avistreamgetframe, vfw/AVIStreamGetFrame
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgi_frame_statistics_media.htm
 old-project: direct3ddxgi
 ms.assetid: BC23B5C1-8257-4556-B930-E09FE60D536C
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/20/2018
 ms.keywords: DXGI_FRAME_STATISTICS_MEDIA, DXGI_FRAME_STATISTICS_MEDIA structure [DXGI], direct3ddxgi.dxgi_frame_statistics_media, dxgi1_3/DXGI_FRAME_STATISTICS_MEDIA
 ms.prod: windows
 ms.technology: windows-sdk

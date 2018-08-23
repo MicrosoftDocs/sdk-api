@@ -7,7 +7,7 @@ old-location: dshow\iamnetshowconfig_get_enableautoproxy.htm
 old-project: DirectShow
 ms.assetid: 7037f326-3320-4e4a-8f6f-feda1a306c2d
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/20/2018
 ms.keywords: IAMNetShowConfig interface [DirectShow],get_EnableAutoProxy method, IAMNetShowConfig.get_EnableAutoProxy, IAMNetShowConfig::get_EnableAutoProxy, IAMNetShowConfigget_EnableAutoProxy, dshow.iamnetshowconfig_get_enableautoproxy, get_EnableAutoProxy, get_EnableAutoProxy method [DirectShow], get_EnableAutoProxy method [DirectShow],IAMNetShowConfig interface, qnetwork/IAMNetShowConfig::get_EnableAutoProxy
 ms.prod: windows
 ms.technology: windows-sdk

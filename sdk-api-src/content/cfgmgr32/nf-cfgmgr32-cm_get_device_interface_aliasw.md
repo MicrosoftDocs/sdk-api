@@ -7,7 +7,7 @@ old-location: devinst\cm_get_device_interface_alias.htm
 old-project: devinst
 ms.assetid: 855d1b3b-1c65-4a0d-a591-d9fbc235c4ca
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: CM_Get_Device_Interface_Alias, CM_Get_Device_Interface_Alias function [Device and Driver Installation], CM_Get_Device_Interface_AliasW, cfgmgr32/CM_Get_Device_Interface_Alias, cfgmgr32/CM_Get_Device_Interface_AliasW, cfgmgrfn_7650eacc-4b5e-4f88-81f2-a7f75462dfc1.xml, devinst.cm_get_device_interface_alias
 ms.prod: windows
 ms.technology: windows-sdk

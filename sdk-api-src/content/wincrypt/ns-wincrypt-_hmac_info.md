@@ -7,7 +7,7 @@ old-location: security\hmac_info.htm
 old-project: SecCrypto
 ms.assetid: 0c9a9b60-077d-48c0-a5a6-01640cfc0c4e
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: "*PHMAC_INFO, HMAC_INFO, HMAC_INFO structure [Security], PHMAC_INFO, PHMAC_INFO structure pointer [Security], _HMAC_Info, _crypto2_hmac_info, security.hmac_info, wincrypt/HMAC_INFO, wincrypt/PHMAC_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

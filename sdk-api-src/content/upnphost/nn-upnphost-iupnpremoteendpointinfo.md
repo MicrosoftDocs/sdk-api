@@ -4,10 +4,10 @@ title: IUPnPRemoteEndpointInfo
 author: windows-sdk-content
 description: The IUPnPRemoteEndpointInfo interface allows a hosted device to obtain information about a requester (that is, a control point) and the request.
 old-location: upnp\iupnpremoteendpointinfo.htm
-old-project: UPnP
+old-project: upnp
 ms.assetid: 32e246cd-50eb-4221-8166-a7cd8ed42d69
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/16/2018
 ms.keywords: IUPnPRemoteEndpointInfo, IUPnPRemoteEndpointInfo interface [UPnP APIs], IUPnPRemoteEndpointInfo interface [UPnP APIs],described, upnp.iupnpremoteendpointinfo, upnphost/IUPnPRemoteEndpointInfo
 ms.prod: windows
 ms.technology: windows-sdk

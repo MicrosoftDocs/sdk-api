@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol_karaokeaudiopresentationmodechange.htm
 old-project: DirectShow
 ms.assetid: a724af67-6aac-4307-97bc-a79e73621ce1
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/20/2018
 ms.keywords: IDvdControl interface [DirectShow],KaraokeAudioPresentationModeChange method, IDvdControl.KaraokeAudioPresentationModeChange, IDvdControl::KaraokeAudioPresentationModeChange, IDvdControlKaraokeAudioPresentationModeChange, KaraokeAudioPresentationModeChange, KaraokeAudioPresentationModeChange method [DirectShow], KaraokeAudioPresentationModeChange method [DirectShow],IDvdControl interface, dshow.idvdcontrol_karaokeaudiopresentationmodechange, strmif/IDvdControl::KaraokeAudioPresentationModeChange
 ms.prod: windows
 ms.technology: windows-sdk

@@ -2,7 +2,7 @@
 UID: NA:amstream
 ms.assetid: 1973f69c-90bf-398a-80a6-b6b22ddad994
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/23/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

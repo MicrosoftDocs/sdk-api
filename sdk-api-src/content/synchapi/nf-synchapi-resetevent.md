@@ -7,7 +7,7 @@ old-location: base\resetevent.htm
 old-project: sync
 ms.assetid: bba7caab-d1ed-4261-aeca-49f847458f4c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: ResetEvent, ResetEvent function, _win32_resetevent, base.resetevent, synchapi/ResetEvent, winbase/ResetEvent
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\credisprotected.htm
 old-project: secauthn
 ms.assetid: 3c38ecf5-1288-4a50-ad17-595e9ff4aaca
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: CredIsProtected, CredIsProtected function [Security], CredIsProtectedA, CredIsProtectedW, security.credisprotected, wincred/CredIsProtected, wincred/CredIsProtectedA, wincred/CredIsProtectedW
 ms.prod: windows
 ms.technology: windows-sdk

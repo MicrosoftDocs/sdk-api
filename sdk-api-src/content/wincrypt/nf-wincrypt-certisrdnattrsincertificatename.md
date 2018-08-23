@@ -7,7 +7,7 @@ old-location: security\certisrdnattrsincertificatename.htm
 old-project: SecCrypto
 ms.assetid: e45b80a3-9269-4f21-8407-1c8303cb5f32
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CertIsRDNAttrsInCertificateName, CertIsRDNAttrsInCertificateName function [Security], _crypto2_certisrdnattrsincertificatename, security.certisrdnattrsincertificatename, wincrypt/CertIsRDNAttrsInCertificateName
 ms.prod: windows
 ms.technology: windows-sdk

@@ -71,22 +71,7 @@ The identifier for the scheme personality for this power setting. A power settin
       values depending on the power scheme personality.
 
 
-### -param OPTIONAL
-
-TBD
-
-
-### -param PowerSettingGuid [in]
-
-The identifier for the single power setting.
-
-
-### -param AcDefaultIndex [out]
-
-A pointer to a variable that receives the default AC index.
-
-
-#### - SubGroupOfPowerSettingsGuid [in, optional]
+### -param SubGroupOfPowerSettingsGuid [in, optional]
 
 The subgroup of power settings. This parameter can be one of the following values defined in WinNT.h. Use 
       <b>NO_SUBGROUP_GUID</b> to retrieve the setting for the default power scheme.
@@ -186,6 +171,16 @@ Settings in this subgroup control PCI Express settings.
 </tr>
 </table>
  
+
+
+### -param PowerSettingGuid [in]
+
+The identifier for the single power setting.
+
+
+### -param AcDefaultIndex [out]
+
+A pointer to a variable that receives the default AC index.
 
 
 ## -returns

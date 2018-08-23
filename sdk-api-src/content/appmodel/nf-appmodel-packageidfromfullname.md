@@ -7,7 +7,7 @@ old-location: appxpkg\packageidfromfullname.htm
 old-project: appxpkg
 ms.assetid: EED832F8-E4F7-4A0F-93E2-451F78F67767
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/16/2018
 ms.keywords: PackageIdFromFullName, PackageIdFromFullName function [App packaging and management], appmodel/PackageIdFromFullName, appxpkg.packageidfromfullname
 ms.prod: windows
 ms.technology: windows-sdk

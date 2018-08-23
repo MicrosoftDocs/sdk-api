@@ -7,7 +7,7 @@ old-location: winmsg\createstruct.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\createstruct.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: "*LPCREATESTRUCTW, CREATESTRUCT, CREATESTRUCT structure [Windows and Messages], CREATESTRUCTA, CREATESTRUCTW, LPCREATESTRUCT, LPCREATESTRUCT structure pointer [Windows and Messages], _win32_CREATESTRUCT_str, _win32_createstruct_str_cpp, tagCREATESTRUCTW, winmsg.createstruct, winui._win32_createstruct_str, winuser/CREATESTRUCT, winuser/CREATESTRUCTA, winuser/CREATESTRUCTW, winuser/LPCREATESTRUCT"
 ms.prod: windows
 ms.technology: windows-sdk

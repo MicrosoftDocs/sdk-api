@@ -7,7 +7,7 @@ old-location: security\lsaquerycaps.htm
 old-project: secauthn
 ms.assetid: 55D6FD6F-0FD5-41F6-967B-F5600E19C3EF
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: LsaQueryCAPs, LsaQueryCAPs function [Security], ntlsa/LsaQueryCAPs, security.lsaquerycaps
 ms.prod: windows
 ms.technology: windows-sdk

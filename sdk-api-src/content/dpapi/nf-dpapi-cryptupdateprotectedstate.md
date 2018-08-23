@@ -7,7 +7,7 @@ old-location: security\cryptupdateprotectedstate.htm
 old-project: SecCrypto
 ms.assetid: f32e8fcd-6b5b-4a43-b3f9-77e17c84deca
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CryptUpdateProtectedState, CryptUpdateProtectedState function [Security], dpapi/CryptUpdateProtectedState, security.cryptupdateprotectedstate, wincrypt/CryptUpdateProtectedState
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winsock\wscgetapplicationcategory.htm
 old-project: winsock
 ms.assetid: c4e149ce-dff9-401a-8488-23676992c04d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: WSCGetApplicationCategory, WSCGetApplicationCategory function [Winsock], winsock.wscgetapplicationcategory, ws2spi/WSCGetApplicationCategory
 ms.prod: windows
 ms.technology: windows-sdk

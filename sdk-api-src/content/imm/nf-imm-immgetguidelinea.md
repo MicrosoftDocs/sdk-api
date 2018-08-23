@@ -7,7 +7,7 @@ old-location: intl\immgetguideline.htm
 old-project: Intl
 ms.assetid: f6639061-0ad9-4f42-b5d4-66ad3f6298aa
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: GGL_INDEX, GGL_LEVEL, GGL_PRIVATE, GGL_STRING, ImmGetGuideLine, ImmGetGuideLine function [Internationalization for Windows Applications], ImmGetGuideLineA, ImmGetGuideLineW, _win32_ImmGetGuideLine, imm/ImmGetGuideLine, imm/ImmGetGuideLineA, imm/ImmGetGuideLineW, intl.immgetguideline
 ms.prod: windows
 ms.technology: windows-sdk

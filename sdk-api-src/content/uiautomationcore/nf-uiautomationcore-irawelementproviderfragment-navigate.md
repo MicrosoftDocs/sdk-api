@@ -60,11 +60,9 @@ Retrieves the Microsoft UI Automation element in a specified direction within th
 
 
 
-### -param direction [in]
+### -param param
 
-Type: <b><a href="https://msdn.microsoft.com/33385413-3500-4f80-b53a-fe960d1b53ee">NavigateDirection</a></b>
 
-The direction in which to navigate.
 
 
 ### -param pRetVal [out, retval]
@@ -74,6 +72,13 @@ Type: <b><a href="https://msdn.microsoft.com/63539ba9-7f13-48cf-9c8a-74c03d31e2a
 Receives a pointer to the provider of the 
 				UI Automation element in the specified direction, or <b>NULL</b> if there is no element in that direction.
 				This parameter is passed uninitialized.
+
+
+#### - direction [in]
+
+Type: <b><a href="https://msdn.microsoft.com/33385413-3500-4f80-b53a-fe960d1b53ee">NavigateDirection</a></b>
+
+The direction in which to navigate.
 
 
 ## -returns

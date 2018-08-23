@@ -3698,6 +3698,9 @@ Specifies debug message IDs for setting up an info-queue filter
 ### -field D3D12_MESSAGE_ID_RENDER_PASS_MISMATCHING_NO_ACCESS
 
 
+### -field D3D12_MESSAGE_ID_RENDER_PASS_UNSUPPORTED_RESOLVE
+
+
 ### -field D3D12_MESSAGE_ID_D3D12_MESSAGES_END
 
 

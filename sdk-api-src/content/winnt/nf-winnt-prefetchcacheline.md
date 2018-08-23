@@ -7,7 +7,7 @@ old-location: base\prefetchcacheline.htm
 old-project: sync
 ms.assetid: 112f3acc-e9d4-44c0-8844-1dc8cc1de2c8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: PF_NON_TEMPORAL_LEVEL_ALL, PF_TEMPORAL_LEVEL_1, PreFetchCacheLine, PreFetchCacheLine macro, base.prefetchcacheline, winnt/PreFetchCacheLine
 ms.prod: windows
 ms.technology: windows-sdk

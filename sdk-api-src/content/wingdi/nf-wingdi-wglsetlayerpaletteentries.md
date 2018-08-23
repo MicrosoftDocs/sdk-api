@@ -60,14 +60,14 @@ Sets the palette entries in a given color-index layer plane for a specified devi
 
 
 
-### -param param
+### -param
 
 Type: <b>HDC</b>
 
 The device context of a window whose layer palette is to be set.
 
 
-### -param COLORREF
+#### - COLORREF
 
 Type: <b>int</b>
 

@@ -7,7 +7,7 @@ old-location: winmsg\getclientrect.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getclientrect.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: GetClientRect, GetClientRect function [Windows and Messages], _win32_GetClientRect, _win32_getclientrect_cpp, winmsg.getclientrect, winui._win32_getclientrect, winuser/GetClientRect
 ms.prod: windows
 ms.technology: windows-sdk

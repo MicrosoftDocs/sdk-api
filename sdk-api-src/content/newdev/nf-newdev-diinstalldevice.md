@@ -7,7 +7,7 @@ old-location: devinst\diinstalldevice.htm
 old-project: devinst
 ms.assetid: e107fc37-02cb-4d50-822c-1c6fd80d7532
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: DiInstallDevice, DiInstallDevice function [Device and Driver Installation], devinst.diinstalldevice, di-rtns_a2abff84-96e6-43c3-85ab-fe095d11b689.xml, newdev/DiInstallDevice
 ms.prod: windows
 ms.technology: windows-sdk

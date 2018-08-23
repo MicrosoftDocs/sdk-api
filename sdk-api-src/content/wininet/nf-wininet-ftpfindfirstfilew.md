@@ -4,10 +4,10 @@ title: FtpFindFirstFileW function
 author: windows-sdk-content
 description: Searches the specified directory of the given FTP session. File and directory entries are returned to the application in the WIN32_FIND_DATA structure.
 old-location: wininet\ftpfindfirstfile.htm
-old-project: wininet
+old-project: WinInet
 ms.assetid: 4f331f99-c52c-4744-a9a7-eeb09803862d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: FtpFindFirstFile, FtpFindFirstFile function [WinINet], FtpFindFirstFileA, FtpFindFirstFileW, _inet_ftpfindfirstfile_function, wininet.ftpfindfirstfile, wininet/FtpFindFirstFile, wininet/FtpFindFirstFileA, wininet/FtpFindFirstFileW
 ms.prod: windows
 ms.technology: windows-sdk

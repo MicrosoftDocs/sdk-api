@@ -7,7 +7,7 @@ old-location: dshow\amgeterrortext.htm
 old-project: DirectShow
 ms.assetid: 268fd554-99f4-4400-8e33-4d98c51b76cf
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/20/2018
 ms.keywords: AMGetErrorText, AMGetErrorText function [DirectShow], AMGetErrorTextA, AMGetErrorTextW, dshow.amgeterrortext, errors/AMGetErrorText
 ms.prod: windows
 ms.technology: windows-sdk

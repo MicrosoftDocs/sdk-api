@@ -7,7 +7,7 @@ old-location: devinst\setupdiloaddeviceicon.htm
 old-project: devinst
 ms.assetid: 65a47cea-1c70-46ed-9cf5-601387dbe323
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: SetupDiLoadDeviceIcon, SetupDiLoadDeviceIcon function [Device and Driver Installation], devinst.setupdiloaddeviceicon, di-rtns_bcd13849-30ed-4c7e-923d-1524552d78aa.xml, setupapi/SetupDiLoadDeviceIcon
 ms.prod: windows
 ms.technology: windows-sdk

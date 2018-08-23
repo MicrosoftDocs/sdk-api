@@ -7,7 +7,7 @@ old-location: winmsg\stylestruct.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\stylestruct.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: "*LPSTYLESTRUCT, LPSTYLESTRUCT, LPSTYLESTRUCT structure pointer [Windows and Messages], STYLESTRUCT, STYLESTRUCT structure [Windows and Messages], _win32_STYLESTRUCT_str, _win32_stylestruct_str_cpp, tagSTYLESTRUCT, winmsg.stylestruct, winui._win32_stylestruct_str, winuser/LPSTYLESTRUCT, winuser/STYLESTRUCT"
 ms.prod: windows
 ms.technology: windows-sdk

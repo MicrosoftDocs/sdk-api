@@ -7,7 +7,7 @@ old-location: winmsg\postquitmessage.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\postquitmessage.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: PostQuitMessage, PostQuitMessage function [Windows and Messages], _win32_PostQuitMessage, _win32_postquitmessage_cpp, winmsg.postquitmessage, winui._win32_postquitmessage, winuser/PostQuitMessage
 ms.prod: windows
 ms.technology: windows-sdk

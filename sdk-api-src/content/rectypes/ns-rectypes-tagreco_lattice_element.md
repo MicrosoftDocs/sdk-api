@@ -7,7 +7,7 @@ old-location: tablet\reco_lattice_element.htm
 old-project: tablet
 ms.assetid: c4100cb9-d666-4e74-ac12-7f242b3c60d4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: RECO_LATTICE_ELEMENT, RECO_LATTICE_ELEMENT structure [Tablet PC], c4100cb9-d666-4e74-ac12-7f242b3c60d4, rectypes/RECO_LATTICE_ELEMENT, tablet.reco_lattice_element, tagRECO_LATTICE_ELEMENT
 ms.prod: windows
 ms.technology: windows-sdk

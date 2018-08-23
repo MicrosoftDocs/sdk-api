@@ -2,13 +2,13 @@
 UID: NE:d3dcommon.D3D_REGISTER_COMPONENT_TYPE
 title: D3D_REGISTER_COMPONENT_TYPE
 author: windows-sdk-content
-description: The register component types, usually used in D3D10_SIGNATURE_PARAMETER_DESC.
-old-location: direct3d10\d3d10_register_component_type.htm
-old-project: direct3d10
-ms.assetid: VS|directx_sdk|~\d3d10_register_component_type.htm
+description: Values that identify the data types that can be stored in a register.
+old-location: direct3d11\d3d_register_component_type.htm
+old-project: direct3d11
+ms.assetid: 71e3c707-745b-40b4-ba3c-6c501196e3d3
 ms.author: windowssdkdev
-ms.date: 08/10/2018
-ms.keywords: 8367382c-870a-5a34-573e-10f182156f96, D3D10_REGISTER_COMPONENT_FLOAT32, D3D10_REGISTER_COMPONENT_SINT32, D3D10_REGISTER_COMPONENT_TYPE, D3D10_REGISTER_COMPONENT_TYPE enumeration [Direct3D 10], D3D10_REGISTER_COMPONENT_UINT32, D3D10_REGISTER_COMPONENT_UNKNOWN, D3D_REGISTER_COMPONENT_TYPE, d3d10shader/D3D10_REGISTER_COMPONENT_FLOAT32, d3d10shader/D3D10_REGISTER_COMPONENT_SINT32, d3d10shader/D3D10_REGISTER_COMPONENT_TYPE, d3d10shader/D3D10_REGISTER_COMPONENT_UINT32, d3d10shader/D3D10_REGISTER_COMPONENT_UNKNOWN, d3dcommon/D3D10_REGISTER_COMPONENT_FLOAT32, d3dcommon/D3D10_REGISTER_COMPONENT_SINT32, d3dcommon/D3D10_REGISTER_COMPONENT_TYPE, d3dcommon/D3D10_REGISTER_COMPONENT_UINT32, d3dcommon/D3D10_REGISTER_COMPONENT_UNKNOWN, direct3d10.d3d10_register_component_type
+ms.date: 08/06/2018
+ms.keywords: D3D10_REGISTER_COMPONENT_FLOAT32, D3D10_REGISTER_COMPONENT_SINT32, D3D10_REGISTER_COMPONENT_UINT32, D3D10_REGISTER_COMPONENT_UNKNOWN, D3D_REGISTER_COMPONENT_FLOAT32, D3D_REGISTER_COMPONENT_SINT32, D3D_REGISTER_COMPONENT_TYPE, D3D_REGISTER_COMPONENT_TYPE enumeration [Direct3D 11], D3D_REGISTER_COMPONENT_UINT32, D3D_REGISTER_COMPONENT_UNKNOWN, d3dcommon/D3D10_REGISTER_COMPONENT_FLOAT32, d3dcommon/D3D10_REGISTER_COMPONENT_SINT32, d3dcommon/D3D10_REGISTER_COMPONENT_UINT32, d3dcommon/D3D10_REGISTER_COMPONENT_UNKNOWN, d3dcommon/D3D_REGISTER_COMPONENT_FLOAT32, d3dcommon/D3D_REGISTER_COMPONENT_SINT32, d3dcommon/D3D_REGISTER_COMPONENT_TYPE, d3dcommon/D3D_REGISTER_COMPONENT_UINT32, d3dcommon/D3D_REGISTER_COMPONENT_UNKNOWN, direct3d11.d3d_register_component_type
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
@@ -35,10 +35,9 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - D3D10shader.h
- - d3dcommon.h
+ - D3DCommon.h
 api_name:
- - D3D10_REGISTER_COMPONENT_TYPE
+ - D3D_REGISTER_COMPONENT_TYPE
 product: Windows
 targetos: Windows
 req.lib: D3d9.lib
@@ -52,7 +51,7 @@ req.irql:
 ## -description
 
 
-The register component types, usually used in <a href="https://msdn.microsoft.com/en-us/library/Bb172446(v=VS.85).aspx">D3D10_SIGNATURE_PARAMETER_DESC</a>.
+Values that identify the data types that can be stored in a register.
 
 
 ## -enum-fields
@@ -62,19 +61,27 @@ The register component types, usually used in <a href="https://msdn.microsoft.co
 
 ### -field D3D_REGISTER_COMPONENT_UNKNOWN
 
+The data type is unknown.
+
 
 ### -field D3D_REGISTER_COMPONENT_UINT32
+
+32-bit unsigned integer.
 
 
 ### -field D3D_REGISTER_COMPONENT_SINT32
 
+32-bit signed integer.
+
 
 ### -field D3D_REGISTER_COMPONENT_FLOAT32
+
+32-bit floating-point number.
 
 
 ### -field D3D10_REGISTER_COMPONENT_UNKNOWN
 
-Reserved.
+The data type is unknown.
 
 
 ### -field D3D10_REGISTER_COMPONENT_UINT32
@@ -96,19 +103,8 @@ Reserved.
 
 
 
-The    <b>D3D10_REGISTER_COMPONENT_TYPE</b> enumeration is type defined in the  D3D10shader.h header file as a <a href="https://msdn.microsoft.com/71e3c707-745b-40b4-ba3c-6c501196e3d3">D3D_REGISTER_COMPONENT_TYPE</a> enumeration, which is fully defined in the  D3DCommon.h header file.
+A register component type is specified in the <b>ComponentType</b> member of the <a href="https://msdn.microsoft.com/3aed2f5f-1cfa-4224-bfcc-7d015e6a2cc0">D3D11_SIGNATURE_PARAMETER_DESC</a> structure.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
-typedef D3D_REGISTER_COMPONENT_TYPE D3D10_REGISTER_COMPONENT_TYPE;</pre>
-</td>
-</tr>
-</table></span></div>
 
 
 
@@ -117,7 +113,7 @@ typedef D3D_REGISTER_COMPONENT_TYPE D3D10_REGISTER_COMPONENT_TYPE;</pre>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/002154d5-74a6-48fb-b55f-8687e4505fc7">Common Version Enumerations</a>
  
 
  

@@ -78,7 +78,7 @@ Specifies the conditional expression. This parameter must not be <b>NULL</b>. Fo
 
 
 
-This function returns MSICONDITION.
+This function returns MSICONDITION __stdcall.
 
 
 

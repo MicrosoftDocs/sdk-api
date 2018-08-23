@@ -7,7 +7,7 @@ old-location: base\openevent.htm
 old-project: sync
 ms.assetid: 46741024-ace3-44d6-b8a6-5621ad121a1a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: OpenEvent, OpenEvent function, OpenEventA, OpenEventW, _win32_openevent, base.openevent, synchapi/OpenEvent, synchapi/OpenEventA, synchapi/OpenEventW, winbase/OpenEvent, winbase/OpenEventA, winbase/OpenEventW
 ms.prod: windows
 ms.technology: windows-sdk

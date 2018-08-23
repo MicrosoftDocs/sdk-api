@@ -7,7 +7,7 @@ old-location: appxpkg\iappxblockmapblock_getcompressedsize.htm
 old-project: appxpkg
 ms.assetid: 02B5F96E-EA8B-407F-98D8-BF6BFF72B346
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/16/2018
 ms.keywords: GetCompressedSize, GetCompressedSize method [App packaging and management], GetCompressedSize method [App packaging and management],IAppxBlockMapBlock interface, IAppxBlockMapBlock interface [App packaging and management],GetCompressedSize method, IAppxBlockMapBlock.GetCompressedSize, IAppxBlockMapBlock::GetCompressedSize, appxpackaging/IAppxBlockMapBlock::GetCompressedSize, appxpkg.iappxblockmapblock_getcompressedsize
 ms.prod: windows
 ms.technology: windows-sdk

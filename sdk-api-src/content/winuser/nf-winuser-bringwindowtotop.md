@@ -7,7 +7,7 @@ old-location: winmsg\bringwindowtotop.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\bringwindowtotop.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: BringWindowToTop, BringWindowToTop function [Windows and Messages], _win32_BringWindowToTop, _win32_bringwindowtotop_cpp, winmsg.bringwindowtotop, winui._win32_bringwindowtotop, winuser/BringWindowToTop
 ms.prod: windows
 ms.technology: windows-sdk

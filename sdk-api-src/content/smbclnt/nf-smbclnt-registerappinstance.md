@@ -82,11 +82,7 @@ The application instance ID, which is a <b>GUID</b>.
 
 
 
-
-
-Returns DWORD that ...
-
-
+This function returns DWORD __stdcall.
 
 
 

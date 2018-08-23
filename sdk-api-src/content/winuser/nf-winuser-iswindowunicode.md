@@ -7,7 +7,7 @@ old-location: winmsg\iswindowunicode.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\iswindowunicode.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: IsWindowUnicode, IsWindowUnicode function [Windows and Messages], _win32_IsWindowUnicode, _win32_iswindowunicode_cpp, winmsg.iswindowunicode, winui._win32_iswindowunicode, winuser/IsWindowUnicode
 ms.prod: windows
 ms.technology: windows-sdk

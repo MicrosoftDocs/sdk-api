@@ -60,14 +60,19 @@ The <b>GetTocCount</b> method retrieves the number of tables of contents, of a s
 
 
 
-### -param enumTocPosType [in]
+### -param param
 
-A member of the <a href="https://msdn.microsoft.com/799059b5-9949-48af-8c54-4cb4975f8249">TOC_POS_TYPE</a> enumeration that specifies the <a href="https://msdn.microsoft.com/cc2fbadc-43f7-470c-873b-de2dc9d84e5d">position type</a> of the tables of contents to be counted.
+
 
 
 ### -param pdwTocCount [out]
 
 Pointer to a <b>DWORD</b> that receives the number of tables of contents.
+
+
+#### - enumTocPosType [in]
+
+A member of the <a href="https://msdn.microsoft.com/799059b5-9949-48af-8c54-4cb4975f8249">TOC_POS_TYPE</a> enumeration that specifies the <a href="https://msdn.microsoft.com/cc2fbadc-43f7-470c-873b-de2dc9d84e5d">position type</a> of the tables of contents to be counted.
 
 
 ## -returns

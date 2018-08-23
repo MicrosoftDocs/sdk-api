@@ -2,7 +2,7 @@
 UID: TP:gdi
 ms.assetid: b0acbb78-a6c0-3233-bb9d-d551a85f207d
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/23/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -24,6 +24,7 @@ To develop Windows GDI, you need these headers:
  * [t2embapi.h](../t2embapi/index.md)
  * [tvout.h](../tvout/index.md)
  * [windef.h](../windef/index.md)
+ * [xpsprint.h](../xpsprint/index.md)
 
 For programming guidance for this technology, see:
 * [Windows GDI](/windows/desktop/gdi)

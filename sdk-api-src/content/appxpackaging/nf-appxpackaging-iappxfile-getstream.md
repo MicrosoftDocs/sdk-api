@@ -7,7 +7,7 @@ old-location: appxpkg\iappxfile_getstream.htm
 old-project: appxpkg
 ms.assetid: B002A9A9-0BF5-4FB1-8D7D-06F7D066432C
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/16/2018
 ms.keywords: GetStream, GetStream method [App packaging and management], GetStream method [App packaging and management],IAppxFile interface, IAppxFile interface [App packaging and management],GetStream method, IAppxFile.GetStream, IAppxFile::GetStream, appxpackaging/IAppxFile::GetStream, appxpkg.iappxfile_getstream
 ms.prod: windows
 ms.technology: windows-sdk

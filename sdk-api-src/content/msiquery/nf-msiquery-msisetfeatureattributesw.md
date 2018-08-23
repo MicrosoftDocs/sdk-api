@@ -165,7 +165,7 @@ Modifies default feature attributes to msidbFeatureAttributesNoUnsupportedAdvert
 
 
 
-This function returns UINT.
+This function returns UINT __stdcall.
 
 
 

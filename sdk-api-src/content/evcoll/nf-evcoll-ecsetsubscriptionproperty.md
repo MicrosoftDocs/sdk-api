@@ -84,7 +84,7 @@ The value of the property to set for the indicated subscription property.
 
 
 
-This function returns BOOL.
+This function returns BOOL __stdcall.
 
 
 

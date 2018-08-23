@@ -7,7 +7,7 @@ old-location: security\certoidtoalgid.htm
 old-project: SecCrypto
 ms.assetid: 920b2642-ce7c-4098-8720-5a6f24128787
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CertOIDToAlgId, CertOIDToAlgId function [Security], _crypto2_certoidtoalgid, security.certoidtoalgid, wincrypt/CertOIDToAlgId
 ms.prod: windows
 ms.technology: windows-sdk

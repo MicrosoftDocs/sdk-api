@@ -7,7 +7,7 @@ old-location: tablet\inkdrawingattributes_antialiased.htm
 old-project: tablet
 ms.assetid: 3536cd42-372d-4bd7-ac69-ef8d6c07f7fd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: 3536cd42-372d-4bd7-ac69-ef8d6c07f7fd, AntiAliased property [Tablet PC], AntiAliased property [Tablet PC],IInkDrawingAttributes interface, IInkDrawingAttributes interface [Tablet PC],AntiAliased property, IInkDrawingAttributes.AntiAliased, IInkDrawingAttributes.put_AntiAliased, IInkDrawingAttributes::AntiAliased, IInkDrawingAttributes::get_AntiAliased, IInkDrawingAttributes::put_AntiAliased, InkDrawingAttributes.get_AntiAliased, InkDrawingAttributes.put_AntiAliased, get_AntiAliased, msinkaut/IInkDrawingAttributes::AntiAliased, msinkaut/IInkDrawingAttributes::get_AntiAliased, msinkaut/IInkDrawingAttributes::put_AntiAliased, put_AntiAliased, tablet.inkdrawingattributes_antialiased
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,7 @@ Antialiasing improves the quality of rendering by making ink appear smoother and
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846798(v=VS.85).aspx">IInkDrawingAttributes</a>
+<a href="https://msdn.microsoft.com/47106C55-FA03-4996-BCFA-D00A51AF55EE">IInkDrawingAttributes</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: tablet\inkrectangle_getrectangle.htm
 old-project: tablet
 ms.assetid: 78efcd28-7095-49f7-b660-9744b1ccf93e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: 78efcd28-7095-49f7-b660-9744b1ccf93e, GetRectangle, GetRectangle method [Tablet PC], GetRectangle method [Tablet PC],IInkRectangle interface, IInkRectangle interface [Tablet PC],GetRectangle method, IInkRectangle.GetRectangle, IInkRectangle::GetRectangle, msinkaut/IInkRectangle::GetRectangle, tablet.inkrectangle_getrectangle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -143,7 +143,7 @@ An exception occurred inside the method.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846804(v=VS.85).aspx">IInkRectangle</a>
+<a href="https://msdn.microsoft.com/9E438012-0991-46AA-8D0F-2C561F523EC2">IInkRectangle</a>
 
 
 

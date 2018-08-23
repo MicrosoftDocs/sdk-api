@@ -7,7 +7,7 @@ old-location: base\interlockedincrement.htm
 old-project: sync
 ms.assetid: 87eda7fb-966d-4630-9da6-8933b53daadd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: InterlockedIncrement, InterlockedIncrement function, _win32_interlockedincrement, base.interlockedincrement, winnt/InterlockedIncrement
 ms.prod: windows
 ms.technology: windows-sdk

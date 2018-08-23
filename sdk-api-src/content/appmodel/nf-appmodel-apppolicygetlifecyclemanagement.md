@@ -7,7 +7,7 @@ old-location: appxpkg\apppolicygetlifecyclemanagement_function.htm
 old-project: appxpkg
 ms.assetid: FED6C183-7AA9-428F-8815-F6BC9844B360
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/16/2018
 ms.keywords: AppPolicyGetLifecycleManagement, AppPolicyGetLifecycleManagement function [App packaging and management], appmodel/AppPolicyGetLifecycleManagement, appxpkg.apppolicygetlifecyclemanagement_function
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ A handle that identifies the access token for a process.
 
 ### -param policy [out]
 
-A pointer to a variable of the <a href="https://msdn.microsoft.com/library/Mt829723(v=VS.85).aspx">AppPolicyLifecycleManagement</a> enumerated type. When the function returns successfully, the variable contains an enumerated constant value indicating whether the identified process is lifecycle-managed or not.
+A pointer to a variable of the <a href="https://msdn.microsoft.com/42BD1BA6-AD5B-4CD0-8860-20A85048D19A">AppPolicyLifecycleManagement</a> enumerated type. When the function returns successfully, the variable contains an enumerated constant value indicating whether the identified process is lifecycle-managed or not.
 
 
 ## -returns

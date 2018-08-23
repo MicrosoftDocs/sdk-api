@@ -7,7 +7,7 @@ old-location: wnet\wnetaddconnection3.htm
 old-project: wnet
 ms.assetid: 169c7bb4-cb08-424c-af79-2133684a99db
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: CONNECT_CMD_SAVECRED, CONNECT_COMMANDLINE, CONNECT_INTERACTIVE, CONNECT_PROMPT, CONNECT_REDIRECT, CONNECT_UPDATE_PROFILE, WNetAddConnection3, WNetAddConnection3 function [Windows Networking (WNet)], WNetAddConnection3A, WNetAddConnection3W, _win32_wnetaddconnection3, dwType, lpLocalName, lpProvider, lpRemoteName, winnetwk/WNetAddConnection3, winnetwk/WNetAddConnection3A, winnetwk/WNetAddConnection3W, wnet.wnetaddconnection3
 ms.prod: windows
 ms.technology: windows-sdk

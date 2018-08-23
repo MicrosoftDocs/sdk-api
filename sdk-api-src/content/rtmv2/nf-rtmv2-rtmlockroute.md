@@ -82,14 +82,7 @@ Specifies whether to lock or unlock the route in an exclusive (<b>TRUE</b>) or s
 Specifies whether to lock or unlock the route. Specify <b>TRUE</b> to lock the route; specify <b>FALSE</b> to unlock it.
 
 
-### -param OPTIONAL
-
-TBD
-
-
-
-
-#### - RoutePointer [out]
+### -param RoutePointer [out]
 
 If a pointer must be returned: On input, <i>RoutePointer</i> is a pointer to <b>NULL</b>. On output, if the client owns the route, <i>RoutePointer</i> receives a pointer to the next-hop; otherwise, <i>RoutePointer</i> remains unchanged. 
 

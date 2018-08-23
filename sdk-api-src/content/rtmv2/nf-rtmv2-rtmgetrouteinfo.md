@@ -72,14 +72,17 @@ Handle to the client obtained from a previous call to
 Handle to the route to find.
 
 
-### -param OPTIONAL
+### -param RouteInfo [out]
 
-TBD
-
-
+If a pointer must be returned: On input, <i>RouteInfo</i> is a pointer to <b>NULL</b>. On output, <i>RouteInfo</i> receives a pointer to the route; otherwise, <i>RouteInfo</i> remains unchanged. 
 
 
-#### - DestAddress [out]
+
+
+If a pointer does not need to be returned: On input, <i>RouteInfo</i> is <b>NULL</b>.
+
+
+### -param DestAddress [out]
 
 If a pointer must be returned: On input, <i>DestAddress</i> is a pointer to <b>NULL</b>. On output, <i>DestAddress</i> receives a pointer to the destination's 
 <a href="https://msdn.microsoft.com/92c4e797-9b73-438d-b4df-9739fae9d5c8">RTM_NET_ADDRESS</a> structure; otherwise, <i>DestAddress</i> remains unchanged. 
@@ -88,16 +91,6 @@ If a pointer must be returned: On input, <i>DestAddress</i> is a pointer to <b>N
 
 
 If a pointer does not need to be returned: On input, <i>DestAddress</i> is <b>NULL</b>.
-
-
-#### - RouteInfo [out]
-
-If a pointer must be returned: On input, <i>RouteInfo</i> is a pointer to <b>NULL</b>. On output, <i>RouteInfo</i> receives a pointer to the route; otherwise, <i>RouteInfo</i> remains unchanged. 
-
-
-
-
-If a pointer does not need to be returned: On input, <i>RouteInfo</i> is <b>NULL</b>.
 
 
 ## -returns

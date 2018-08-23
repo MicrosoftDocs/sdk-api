@@ -8,7 +8,7 @@ old-project: dns
 ms.assetid: ab7b96a5-346f-4e01-bb2a-885f44764590
 ms.author: windowssdkdev
 ms.date: 08/06/2018
-ms.keywords: DNS_RECORD, DNS_RECORD structure [DNS], PDNS_RECORD, PDNS_RECORD structure pointer [DNS], _DnsRecordA, _DnsRecordW, _dns_dns_record, dns.dns_record, windns/DNS_RECORD, windns/PDNS_RECORD
+ms.keywords: "*PDNS_RECORD, *PDNS_RECORDW, DNS_RECORD, DNS_RECORD structure [DNS], DNS_RECORDW, PDNS_RECORD, PDNS_RECORD structure pointer [DNS], _DnsRecordA, _DnsRecordW, _dns_dns_record, dns.dns_record, windns/DNS_RECORD, windns/PDNS_RECORD"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: DNS_RECORDW, *PDNS_RECORDW
 topic_type:
  - APIRef
  - kbSyntax

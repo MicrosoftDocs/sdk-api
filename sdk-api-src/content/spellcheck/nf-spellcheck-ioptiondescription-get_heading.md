@@ -7,7 +7,7 @@ old-location: intl\ioptiondescription_heading.htm
 old-project: Intl
 ms.assetid: 32dd23ea-d7d0-4ebe-af52-0a014b02a0c0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: Heading property [Internationalization for Windows Applications], Heading property [Internationalization for Windows Applications],IOptionDescription interface, IOptionDescription interface [Internationalization for Windows Applications],Heading property, IOptionDescription.Heading, IOptionDescription.get_Heading, IOptionDescription::Heading, IOptionDescription::get_Heading, get_Heading, intl.ioptiondescription_heading, spellcheck/IOptionDescription::Heading, spellcheck/IOptionDescription::get_Heading
 ms.prod: windows
 ms.technology: windows-sdk

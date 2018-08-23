@@ -83,14 +83,7 @@ The alert can be delivered.
 The alert cannot be delivered.
 
 
-### -param OPTIONAL
-
-TBD
-
-
-
-
-#### - Timeout [in]
+### -param Timeout [in]
 
 A pointer to an absolute or relative time over
         which the wait is to occur. Can be null. If a timeout is specified, and

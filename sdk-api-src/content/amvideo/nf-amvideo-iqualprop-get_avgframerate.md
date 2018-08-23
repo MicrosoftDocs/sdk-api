@@ -7,7 +7,7 @@ old-location: dshow\iqualprop_get_avgframerate.htm
 old-project: DirectShow
 ms.assetid: 31e326e2-56de-4c7c-b26a-836c9fc76342
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/20/2018
 ms.keywords: IQualProp interface [DirectShow],get_AvgFrameRate method, IQualProp.get_AvgFrameRate, IQualProp::get_AvgFrameRate, IQualPropget_AvgFrameRate, amvideo/IQualProp::get_AvgFrameRate, dshow.iqualprop_get_avgframerate, get_AvgFrameRate, get_AvgFrameRate method [DirectShow], get_AvgFrameRate method [DirectShow],IQualProp interface
 ms.prod: windows
 ms.technology: windows-sdk

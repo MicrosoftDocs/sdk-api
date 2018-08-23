@@ -7,7 +7,7 @@ old-location: security\ienumcertviewattribute_next.htm
 old-project: SecCrypto
 ms.assetid: 2903ccda-e06d-4690-accf-79bc73d8569f
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: IEnumCERTVIEWATTRIBUTE interface [Security],Next method, IEnumCERTVIEWATTRIBUTE.Next, IEnumCERTVIEWATTRIBUTE::Next, Next, Next method [Security], Next method [Security],IEnumCERTVIEWATTRIBUTE interface, _certsrv_ienumcertviewattribute_next, certview/IEnumCERTVIEWATTRIBUTE::Next, security.ienumcertviewattribute_next
 ms.prod: windows
 ms.technology: windows-sdk

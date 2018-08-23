@@ -7,7 +7,7 @@ old-location: tablet\inkpicture_autoredraw.htm
 old-project: tablet
 ms.assetid: 8dea3bee-c0d9-488e-834f-6a70d4deaf34
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: AutoRedraw property [Tablet PC], AutoRedraw property [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],AutoRedraw property, IInkPicture.AutoRedraw, IInkPicture.get_AutoRedraw, IInkPicture::AutoRedraw, IInkPicture::get_AutoRedraw, IInkPicture::put_AutoRedraw, InkPicture.get_AutoRedraw, InkPicture.put_AutoRedraw, get_AutoRedraw, msinkaut/IInkPicture::AutoRedraw, msinkaut/IInkPicture::get_AutoRedraw, msinkaut/IInkPicture::put_AutoRedraw, put_AutoRedraw, tablet.inkpicture_autoredraw
 ms.prod: windows
 ms.technology: windows-sdk
@@ -132,7 +132,7 @@ InkPicture controls inherited Invalidated and Paint events.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
+<a href="https://msdn.microsoft.com/EA6AC3DD-5F13-442A-B93D-FF0A5333609A">IInkPicture</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: ifsk\filtervolumeinstancefindfirst.htm
 old-project: ifsk
 ms.assetid: 8bcaa20e-90f8-4e18-88b0-85a6b6632ef7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: FilterVolumeInstanceFindFirst, FilterVolumeInstanceFindFirst function [Installable File System Drivers], FltWin32ApiRef_3a784a96-c717-4118-bf97-bba9ac4b7736.xml, fltuser/FilterVolumeInstanceFindFirst, ifsk.filtervolumeinstancefindfirst
 ms.prod: windows
 ms.technology: windows-sdk

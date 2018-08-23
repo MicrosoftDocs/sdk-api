@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: BIND_OPTS, *LPBIND_OPTS, LPBIND_OPTS
+req.typenames: BIND_OPTS, *LPBIND_OPTS
 topic_type:
  - APIRef
  - kbSyntax

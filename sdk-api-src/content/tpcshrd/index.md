@@ -2,7 +2,7 @@
 UID: NA:tpcshrd
 ms.assetid: 50acc3fa-e80a-3829-a25f-4838c6f60a34
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/23/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

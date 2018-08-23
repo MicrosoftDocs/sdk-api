@@ -7,7 +7,7 @@ old-location: security\cryptxmlgetreference.htm
 old-project: SecCrypto
 ms.assetid: aa482331-872d-4b51-a975-62d832a369fc
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CryptXmlGetReference, CryptXmlGetReference function [Security], cryptxml/CryptXmlGetReference, security.cryptxmlgetreference
 ms.prod: windows
 ms.technology: windows-sdk

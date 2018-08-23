@@ -2,13 +2,13 @@
 UID: NE:d3dcommon._D3D_SHADER_INPUT_FLAGS
 title: "_D3D_SHADER_INPUT_FLAGS"
 author: windows-sdk-content
-description: These flags identify shader-input options.
-old-location: direct3d10\d3d10_shader_input_flags.htm
-old-project: direct3d10
-ms.assetid: VS|directx_sdk|~\d3d10_shader_input_flags.htm
+description: Values that identify shader-input options.
+old-location: direct3d11\d3d_shader_input_flags.htm
+old-project: direct3d11
+ms.assetid: 3c79331e-73c0-42d7-9948-6ac2671a4ab5
 ms.author: windowssdkdev
-ms.date: 08/10/2018
-ms.keywords: D3D10_SHADER_INPUT_FLAGS, D3D10_SHADER_INPUT_FLAGS enumeration [Direct3D 10], D3D10_SIF_COMPARISON_SAMPLER, D3D10_SIF_FORCE_DWORD, D3D10_SIF_TEXTURE_COMPONENTS, D3D10_SIF_TEXTURE_COMPONENT_0, D3D10_SIF_TEXTURE_COMPONENT_1, D3D10_SIF_USERPACKED, D3D_SHADER_INPUT_FLAGS, LPD3D10_SHADER_INPUT_FLAGS, LPD3D10_SHADER_INPUT_FLAGS enumeration pointer [Direct3D 10], _D3D_SHADER_INPUT_FLAGS, d3d10shader/D3D10_SHADER_INPUT_FLAGS, d3d10shader/D3D10_SIF_COMPARISON_SAMPLER, d3d10shader/D3D10_SIF_FORCE_DWORD, d3d10shader/D3D10_SIF_TEXTURE_COMPONENTS, d3d10shader/D3D10_SIF_TEXTURE_COMPONENT_0, d3d10shader/D3D10_SIF_TEXTURE_COMPONENT_1, d3d10shader/D3D10_SIF_USERPACKED, d3d10shader/LPD3D10_SHADER_INPUT_FLAGS, d3dcommon/D3D10_SHADER_INPUT_FLAGS, d3dcommon/D3D10_SIF_COMPARISON_SAMPLER, d3dcommon/D3D10_SIF_FORCE_DWORD, d3dcommon/D3D10_SIF_TEXTURE_COMPONENTS, d3dcommon/D3D10_SIF_TEXTURE_COMPONENT_0, d3dcommon/D3D10_SIF_TEXTURE_COMPONENT_1, d3dcommon/D3D10_SIF_USERPACKED, d3dcommon/LPD3D10_SHADER_INPUT_FLAGS, direct3d10.d3d10_shader_input_flags, e5dc4758-0c9e-7c03-15ed-8af919236b2f
+ms.date: 08/06/2018
+ms.keywords: D3D10_SIF_COMPARISON_SAMPLER, D3D10_SIF_TEXTURE_COMPONENTS, D3D10_SIF_TEXTURE_COMPONENT_0, D3D10_SIF_TEXTURE_COMPONENT_1, D3D10_SIF_USERPACKED, D3D_SHADER_INPUT_FLAGS, D3D_SHADER_INPUT_FLAGS enumeration [Direct3D 11], D3D_SIF_COMPARISON_SAMPLER, D3D_SIF_FORCE_DWORD, D3D_SIF_TEXTURE_COMPONENTS, D3D_SIF_TEXTURE_COMPONENT_0, D3D_SIF_TEXTURE_COMPONENT_1, D3D_SIF_UNUSED, D3D_SIF_USERPACKED, _D3D_SHADER_INPUT_FLAGS, d3dcommon/D3D10_SIF_COMPARISON_SAMPLER, d3dcommon/D3D10_SIF_TEXTURE_COMPONENTS, d3dcommon/D3D10_SIF_TEXTURE_COMPONENT_0, d3dcommon/D3D10_SIF_TEXTURE_COMPONENT_1, d3dcommon/D3D10_SIF_USERPACKED, d3dcommon/D3D_SHADER_INPUT_FLAGS, d3dcommon/D3D_SIF_COMPARISON_SAMPLER, d3dcommon/D3D_SIF_FORCE_DWORD, d3dcommon/D3D_SIF_TEXTURE_COMPONENTS, d3dcommon/D3D_SIF_TEXTURE_COMPONENT_0, d3dcommon/D3D_SIF_TEXTURE_COMPONENT_1, d3dcommon/D3D_SIF_UNUSED, d3dcommon/D3D_SIF_USERPACKED, direct3d11.d3d_shader_input_flags
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
@@ -35,10 +35,9 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - D3D10Shader.h
- - d3dcommon.h
+ - D3DCommon.h
 api_name:
- - D3D10_SHADER_INPUT_FLAGS
+ - D3D_SHADER_INPUT_FLAGS
 product: Windows
 targetos: Windows
 req.lib: D3d9.lib
@@ -52,7 +51,7 @@ req.irql:
 ## -description
 
 
-These flags identify shader-input options.
+Values that identify shader-input options.
 
 
 ## -enum-fields
@@ -62,76 +61,85 @@ These flags identify shader-input options.
 
 ### -field D3D_SIF_USERPACKED
 
+Assign a shader input to a register based on the register assignment in the HLSL code (instead of letting the compiler choose the register).
+          
+
 
 ### -field D3D_SIF_COMPARISON_SAMPLER
+
+Use a comparison sampler, which uses the <a href="https://msdn.microsoft.com/en-us/library/Bb509696(v=VS.85).aspx">SampleCmp (DirectX HLSL Texture Object)</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb509697(v=VS.85).aspx">SampleCmpLevelZero (DirectX HLSL Texture Object)</a> sampling functions.
+          
 
 
 ### -field D3D_SIF_TEXTURE_COMPONENT_0
 
+A 2-bit value for encoding texture components.
+          
+
 
 ### -field D3D_SIF_TEXTURE_COMPONENT_1
+
+A 2-bit value for encoding texture components.
+          
 
 
 ### -field D3D_SIF_TEXTURE_COMPONENTS
 
+A 2-bit value for encoding texture components.
+          
+
 
 ### -field D3D_SIF_UNUSED
+
+This value is reserved.
+          
 
 
 ### -field D3D10_SIF_USERPACKED
 
 Assign a shader input to a register based on the register assignment in the HLSL code (instead of letting the compiler choose the register).
+          
 
 
 ### -field D3D10_SIF_COMPARISON_SAMPLER
 
 Use a comparison sampler, which uses the <a href="https://msdn.microsoft.com/en-us/library/Bb509696(v=VS.85).aspx">SampleCmp (DirectX HLSL Texture Object)</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb509697(v=VS.85).aspx">SampleCmpLevelZero (DirectX HLSL Texture Object)</a> sampling functions.
+          
 
 
 ### -field D3D10_SIF_TEXTURE_COMPONENT_0
 
 A 2-bit value for encoding texture components.
+          
 
 
 ### -field D3D10_SIF_TEXTURE_COMPONENT_1
 
 A 2-bit value for encoding texture components.
+          
 
 
 ### -field D3D10_SIF_TEXTURE_COMPONENTS
 
 A 2-bit value for encoding texture components.
+          
 
 
 ### -field D3D_SIF_FORCE_DWORD
 
-
-
-
-#### - D3D10_SIF_FORCE_DWORD
-
-This value is not used by a programmer; it exists to force the enumeration to compile to 32 bits.
+Forces the enumeration to compile to 32 bits.
+            This value is not used directly by titles.
+          
 
 
 ## -remarks
 
 
 
-These flags are used in a shader-input-signature description (see <a href="https://msdn.microsoft.com/en-us/library/Bb172433(v=VS.85).aspx">D3D10_SHADER_INPUT_BIND_DESC</a>).
+<b>D3D_SHADER_INPUT_FLAGS</b>-typed values are specified in
+          the <b>uFlags</b> member of the <a href="https://msdn.microsoft.com/384ad8f8-0991-4cd2-bb3d-76b8338686da">D3D11_SHADER_INPUT_BIND_DESC</a> structure.
+        
 
-The <b>D3D10_SHADER_INPUT_FLAGS</b>     enumeration is type defined in the  D3D10shader.h header file as a <a href="https://msdn.microsoft.com/3c79331e-73c0-42d7-9948-6ac2671a4ab5">D3D_SHADER_INPUT_FLAGS</a> enumeration, which is fully defined in the  D3DCommon.h header file.
-
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
-typedef D3D_SHADER_INPUT_FLAGS D3D10_SHADER_INPUT_FLAGS;</pre>
-</td>
-</tr>
-</table></span></div>
 
 
 
@@ -140,7 +148,7 @@ typedef D3D_SHADER_INPUT_FLAGS D3D10_SHADER_INPUT_FLAGS;</pre>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205156(v=VS.85).aspx">Shader Enumerations</a>
+<a href="https://msdn.microsoft.com/002154d5-74a6-48fb-b55f-8687e4505fc7">Common Version Enumerations</a>
  
 
  

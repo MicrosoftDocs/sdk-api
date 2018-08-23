@@ -1,0 +1,151 @@
+---
+UID: NF:dcomp.IDCompositionSurfaceFactory.CreateVirtualSurface
+title: IDCompositionSurfaceFactory::CreateVirtualSurface
+author: windows-sdk-content
+description: Creates a sparsely populated surface that can be associated with one or more visuals for composition.
+old-location: directcomp\idcompositionsurfacefactory_createvirtualsurface.htm
+old-project: directcomp
+ms.assetid: 0C74CDA5-4491-4D16-B972-C9C54007A2FB
+ms.author: windowssdkdev
+ms.date: 07/24/2018
+ms.keywords: CreateVirtualSurface, CreateVirtualSurface method [DirectComposition], CreateVirtualSurface method [DirectComposition],IDCompositionSurfaceFactory interface, IDCompositionSurfaceFactory interface [DirectComposition],CreateVirtualSurface method, IDCompositionSurfaceFactory.CreateVirtualSurface, IDCompositionSurfaceFactory::CreateVirtualSurface, dcomp/IDCompositionSurfaceFactory::CreateVirtualSurface, directcomp.idcompositionsurfacefactory_createvirtualsurface
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dcomp.h
+req.include-header: 
+req.redist: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: D2D_VECTOR_4F
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dcomp.dll
+api_name:
+ - IDCompositionSurfaceFactory.CreateVirtualSurface
+product: Windows
+targetos: Windows
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
+---
+
+# IDCompositionSurfaceFactory::CreateVirtualSurface
+
+
+## -description
+
+
+Creates a sparsely populated surface that can be associated with one or more visuals for composition.
+
+
+## -parameters
+
+
+
+
+### -param initialWidth [in]
+
+The width of the surface, in pixels. The maximum width is 16,777,216 pixels.
+
+
+### -param initialHeight [in]
+
+The height of the surface, in pixels.
+The maximum height is 16,777,216 pixels.
+
+
+### -param pixelFormat [in]
+
+The pixel format of the surface.
+
+
+
+### -param alphaMode [in]
+
+The format of the alpha channel, if an alpha channel is included in the pixel format. This can be one of DXGI_ALPHA_MODE_PREMULTIPLIED or DXGI_ALPHA_MODE_IGNORE. It can also be DXGI_ALPHA_MODE_UNSPECIFIED, which is interpreted as DXGI_ALPHA_MODE_IGNORE.
+
+
+
+### -param virtualSurface
+
+
+
+
+
+
+#### - surface [out]
+
+The newly created virtual surface object. This parameter must not be NULL.
+
+
+
+## -returns
+
+
+
+If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://msdn.microsoft.com/8DFBFC34-DBD0-4731-8305-B33E90C96C54">DirectComposition Error Codes</a>  for a list of error codes.
+
+
+
+
+## -remarks
+
+
+
+A newly created virtual surface object is in an uninitialized state. While it is uninitialized, the surface has no effect on the composition of the visual tree. It behaves exactly like a surface that is initialized with 100% transparent pixels. 
+
+
+
+To initialize the surface with pixel data, use the <a href="https://msdn.microsoft.com/0D7E90A1-90E4-44BE-A4DA-8DA300C81A35">IDCompositionSurface::BeginDraw</a> method. This method not only provides pixels for the surface, but it also allocates actual storage space for those pixels. The memory allocation persists until the application returns some of the memory to the system. The application can free part or all of the allocated memory by calling the <a href="https://msdn.microsoft.com/5A4F516F-B031-47E6-9A3D-068CF2C3D53A">IDCompositionVirtualSurface::Trim</a> or <a href="https://msdn.microsoft.com/BB86CDA8-1DF0-436D-9FA3-95293E2B8C0E">IDCompositionVirtualSurface::Resize</a> method.
+
+Microsoft DirectComposition surfaces support the following pixel formats:
+
+
+<ul>
+<li>DXGI_FORMAT_B8G8R8A8_UNORM
+</li>
+<li>DXGI_FORMAT_R8G8B8A8_UNORM
+	</li>
+<li>DXGI_FORMAT_R16G16B16A16_FLOAT</li>
+</ul>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/1CBE92B6-AC48-47F1-B50A-B78030D356D8">IDCompositionDevice2::CreateSurface</a>
+
+
+
+<a href="https://msdn.microsoft.com/659D79E3-2E7C-4431-B724-7AC2978BD9BC">IDCompositionDevice2::CreateVirtualSurface</a>
+
+
+
+<a href="https://msdn.microsoft.com/1BB028E0-376E-42BD-82FD-08331341C93B">IDCompositionSurfaceFactory</a>
+
+
+
+<a href="https://msdn.microsoft.com/0C74CDA5-4491-4D16-B972-C9C54007A2FB">IDCompositionSurfaceFactory::CreateVirtualSurface</a>
+ 
+
+ 
+

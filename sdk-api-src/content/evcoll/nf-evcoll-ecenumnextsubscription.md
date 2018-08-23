@@ -84,7 +84,7 @@ The size of the user-supplied buffer that is used by the function on successful 
 
 
 
-This function returns BOOL.
+This function returns BOOL __stdcall.
 
 
 

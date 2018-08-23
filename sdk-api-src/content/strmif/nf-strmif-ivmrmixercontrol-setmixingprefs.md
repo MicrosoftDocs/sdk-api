@@ -7,7 +7,7 @@ old-location: dshow\ivmrmixercontrol_setmixingprefs.htm
 old-project: DirectShow
 ms.assetid: b0bd2086-af22-4530-921d-b7c56471d142
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/20/2018
 ms.keywords: IVMRMixerControl interface [DirectShow],SetMixingPrefs method, IVMRMixerControl.SetMixingPrefs, IVMRMixerControl::SetMixingPrefs, IVMRMixerControlSetOutputRect, SetMixingPrefs, SetMixingPrefs method [DirectShow], SetMixingPrefs method [DirectShow],IVMRMixerControl interface, dshow.ivmrmixercontrol_setmixingprefs, strmif/IVMRMixerControl::SetMixingPrefs
 ms.prod: windows
 ms.technology: windows-sdk

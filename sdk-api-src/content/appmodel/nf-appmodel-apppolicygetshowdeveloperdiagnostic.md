@@ -7,7 +7,7 @@ old-location: appxpkg\apppolicygetshowdeveloperdiagnostic_function.htm
 old-project: appxpkg
 ms.assetid: A6F794BE-7F40-4216-9E26-63D06B57FDD1
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/16/2018
 ms.keywords: AppPolicyGetShowDeveloperDiagnostic, AppPolicyGetShowDeveloperDiagnostic function [App packaging and management], appmodel/AppPolicyGetShowDeveloperDiagnostic, appxpkg.apppolicygetshowdeveloperdiagnostic_function
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,7 +69,7 @@ A handle that identifies the access token for a process.
 
 ### -param policy [out]
 
-A pointer to a variable of the <a href="https://msdn.microsoft.com/en-us/library/Mt829660(v=VS.85).aspx">AppPolicyShowDeveloperDiagnostic</a> enumerated type. When the function returns successfully, the variable contains a value indicating the method used for the process to surface developer information, such as asserts, to the user.
+A pointer to a variable of the <a href="https://msdn.microsoft.com/4D8E137C-AD50-45E6-9284-98904021678A">AppPolicyShowDeveloperDiagnostic</a> enumerated type. When the function returns successfully, the variable contains a value indicating the method used for the process to surface developer information, such as asserts, to the user.
 
 
 ## -returns

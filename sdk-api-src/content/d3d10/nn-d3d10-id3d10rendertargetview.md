@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10rendertargetview.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10rendertargetview.htm
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/20/2018
 ms.keywords: 76c9084d-ce0f-116d-42dd-eae6aa607d0e, ID3D10RenderTargetView, ID3D10RenderTargetView interface [Direct3D 10], ID3D10RenderTargetView interface [Direct3D 10],described, d3d10/ID3D10RenderTargetView, direct3d10.id3d10rendertargetview
 ms.prod: windows
 ms.technology: windows-sdk

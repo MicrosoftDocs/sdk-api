@@ -60,7 +60,7 @@ Finds all matching elements in the specified order, but also caches their proper
 
 
 
-### -param scope
+### -param param
 
 
 
@@ -73,11 +73,6 @@ A pointer to a condition that represents the criteria to match.
 ### -param cacheRequest [in]
 
 A pointer to a cache request that specifies the control patterns and properties to include in the cache.
-
-
-### -param traversalOptions
-
-Enumeration value specifying the tree navigation order.
 
 
 ### -param root [in, optional]
@@ -95,6 +90,11 @@ A pointer to the element with which to begin the search.
 #### - foundElementsArray [out]
 
 Receives a pointer to an array of matching elements. Returns an empty array if no matching element is found. 
+
+
+#### - traversalOptions
+
+Enumeration value specifying the tree navigation order.
 
 
 ## -returns

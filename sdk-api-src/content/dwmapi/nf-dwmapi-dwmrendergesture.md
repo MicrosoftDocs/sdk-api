@@ -62,9 +62,9 @@ Notifies Desktop Window Manager (DWM) that a touch contact has been recognized a
 
 
 
-### -param gt [in]
+### -param param
 
-The type of gesture, specified as one of the <a href="https://msdn.microsoft.com/3FBDDFC9-A3E7-43DC-B7C6-A23976861C28">GESTURE_TYPE</a> values.
+TBD
 
 
 ### -param cContacts [in]
@@ -80,4 +80,9 @@ The pointer ID.
 ### -param pPoints [in]
 
 The points.
+
+
+#### - gt [in]
+
+The type of gesture, specified as one of the <a href="https://msdn.microsoft.com/3FBDDFC9-A3E7-43DC-B7C6-A23976861C28">GESTURE_TYPE</a> values.
 

@@ -7,7 +7,7 @@ old-location: security\ienumcertviewrow_skip.htm
 old-project: SecCrypto
 ms.assetid: 9115262e-00bb-4446-906d-7a57fd5781d1
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: IEnumCERTVIEWROW interface [Security],Skip method, IEnumCERTVIEWROW object [Security],Skip method, IEnumCERTVIEWROW.Skip, IEnumCERTVIEWROW::Skip, Skip, Skip method [Security], Skip method [Security],IEnumCERTVIEWROW interface, Skip method [Security],IEnumCERTVIEWROW object, _certsrv_ienumcertviewrow_skip, certview/IEnumCERTVIEWROW::Skip, security.ienumcertviewrow_skip
 ms.prod: windows
 ms.technology: windows-sdk

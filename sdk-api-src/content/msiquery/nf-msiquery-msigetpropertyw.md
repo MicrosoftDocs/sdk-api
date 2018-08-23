@@ -87,7 +87,7 @@ Pointer to the variable that specifies the size, in TCHARs, of the buffer pointe
 
 
 
-This function returns UINT.
+This function returns UINT __stdcall.
 
 
 

@@ -7,7 +7,7 @@ old-location: security\scardsetattrib.htm
 old-project: secauthn
 ms.assetid: 755b9295-5daf-4e85-9e09-cce3a0e39c0b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: SCARD_ATTR_SUPRESS_T1_IFS_REQUEST, SCardSetAttrib, SCardSetAttrib function [Security], _smart_scardsetattrib, security.scardsetattrib, winscard/SCardSetAttrib
 ms.prod: windows
 ms.technology: windows-sdk

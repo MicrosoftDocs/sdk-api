@@ -7,7 +7,7 @@ old-location: base\wakeconditionvariable.htm
 old-project: sync
 ms.assetid: e175062a-ef25-4341-8197-df7ca6b008e6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: WakeConditionVariable, WakeConditionVariable function, base.wakeconditionvariable, synchapi/WakeConditionVariable, winbase/WakeConditionVariable
 ms.prod: windows
 ms.technology: windows-sdk

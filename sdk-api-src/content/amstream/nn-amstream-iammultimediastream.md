@@ -7,7 +7,7 @@ old-location: dshow\iammultimediastream.htm
 old-project: DirectShow
 ms.assetid: 2f604156-68ef-4770-9929-6dbfd46c4d6d
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/20/2018
 ms.keywords: IAMMultiMediaStream, IAMMultiMediaStream interface [DirectShow], IAMMultiMediaStream interface [DirectShow],described, IAMMultiMediaStreamInterface, amstream/IAMMultiMediaStream, dshow.iammultimediastream
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winsock\wscinstallnamespaceex.htm
 old-project: winsock
 ms.assetid: 13dde602-c958-4312-a16f-a393dd6fb829
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: WSCInstallNameSpaceEx, WSCInstallNameSpaceEx function [Winsock], winsock.wscinstallnamespaceex, ws2spi/WSCInstallNameSpaceEx
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tablet\inkedit_hwnd.htm
 old-project: tablet
 ms.assetid: e2f01318-5073-43d2-9d26-91aeef5d7070
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: Hwnd property [Tablet PC], Hwnd property [Tablet PC],IInkEdit interface, IInkEdit interface [Tablet PC],Hwnd property, IInkEdit.Hwnd, IInkEdit.get_Hwnd, IInkEdit::Hwnd, IInkEdit::get_Hwnd, InkEdit.get_Hwnd, get_Hwnd, inked/IInkEdit::Hwnd, inked/IInkEdit::get_Hwnd, put_Hwnd, tablet.inkedit_hwnd
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,7 +78,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
+<a href="https://msdn.microsoft.com/8F47529B-52E9-4D67-81B3-DD2584B98101">IInkEdit</a>
 
 
 

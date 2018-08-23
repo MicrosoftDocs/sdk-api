@@ -7,7 +7,7 @@ old-location: winmsg\getguithreadinfo.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getguithreadinfo.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: GetGUIThreadInfo, GetGUIThreadInfo function [Windows and Messages], _win32_GetGUIThreadInfo, _win32_getguithreadinfo_cpp, winmsg.getguithreadinfo, winui._win32_getguithreadinfo, winuser/GetGUIThreadInfo
 ms.prod: windows
 ms.technology: windows-sdk

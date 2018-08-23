@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactory2_createswapchain1.htm
 old-project: direct3ddxgi
 ms.assetid: B78E9F87-C6B0-4078-8C59-AFB85B9C3CBD
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/20/2018
 ms.keywords: CreateSwapChainForHwnd, CreateSwapChainForHwnd method [DXGI], CreateSwapChainForHwnd method [DXGI],IDXGIFactory2 interface, IDXGIFactory2 interface [DXGI],CreateSwapChainForHwnd method, IDXGIFactory2.CreateSwapChainForHwnd, IDXGIFactory2::CreateSwapChainForHwnd, direct3ddxgi.idxgifactory2_createswapchain1, dxgi1_2/IDXGIFactory2::CreateSwapChainForHwnd
 ms.prod: windows
 ms.technology: windows-sdk
@@ -135,7 +135,7 @@ For info about how to choose a format for the swap chain's back buffer, see <a h
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846759(v=VS.85).aspx">For best performance, use DXGI flip model</a>
+<a href="https://msdn.microsoft.com/B6B92F4F-B1D0-40B9-987D-F0C0F2CC7AD1">For best performance, use DXGI flip model</a>
 
 
 

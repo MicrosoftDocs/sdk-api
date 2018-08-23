@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_psgetshaderresources.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_psgetshaderresources.htm
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/20/2018
 ms.keywords: 54b6aa73-f39a-9734-0be4-f47362f38b2f, ID3D10Device interface [Direct3D 10],PSGetShaderResources method, ID3D10Device.PSGetShaderResources, ID3D10Device::PSGetShaderResources, PSGetShaderResources, PSGetShaderResources method [Direct3D 10], PSGetShaderResources method [Direct3D 10],ID3D10Device interface, d3d10/ID3D10Device::PSGetShaderResources, direct3d10.id3d10device_psgetshaderresources
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\icertserverexit.htm
 old-project: SecCrypto
 ms.assetid: 1554c09c-a7c1-44ad-9821-93c0913212fc
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: ICertServerExit, ICertServerExit interface [Security], ICertServerExit interface [Security],described, _certsrv_icertserverexit, certif/ICertServerExit, security.icertserverexit
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\ienumcertviewattribute_skip.htm
 old-project: SecCrypto
 ms.assetid: 546e7ad7-73f2-4f6e-8d02-a9ca5401ecce
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: IEnumCERTVIEWATTRIBUTE interface [Security],Skip method, IEnumCERTVIEWATTRIBUTE object [Security],Skip method, IEnumCERTVIEWATTRIBUTE.Skip, IEnumCERTVIEWATTRIBUTE::Skip, Skip, Skip method [Security], Skip method [Security],IEnumCERTVIEWATTRIBUTE interface, Skip method [Security],IEnumCERTVIEWATTRIBUTE object, _certsrv_ienumcertviewattribute_skip, certview/IEnumCERTVIEWATTRIBUTE::Skip, security.ienumcertviewattribute_skip
 ms.prod: windows
 ms.technology: windows-sdk

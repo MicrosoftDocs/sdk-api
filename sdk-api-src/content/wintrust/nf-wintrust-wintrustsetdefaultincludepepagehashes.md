@@ -7,7 +7,7 @@ old-location: security\wintrustsetdefaultincludepepagehashes.htm
 old-project: SecCrypto
 ms.assetid: af48e570-e71d-488f-831c-35834242db3c
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: WintrustSetDefaultIncludePEPageHashes, WintrustSetDefaultIncludePEPageHashes function [Security], security.wintrustsetdefaultincludepepagehashes, wintrust/WintrustSetDefaultIncludePEPageHashes
 ms.prod: windows
 ms.technology: windows-sdk

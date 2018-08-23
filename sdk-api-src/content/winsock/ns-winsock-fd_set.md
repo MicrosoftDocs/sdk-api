@@ -7,7 +7,7 @@ old-location: winsock\fd_set_2.htm
 old-project: winsock
 ms.assetid: 2af5d69d-190e-4814-8d8b-438431808625
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: "*LPFD_SET, *PFD_SET, FD_SET, _win32_fd_set_2, fd_set, fd_set structure [Winsock], winsock.fd_set_2, winsock/fd_set"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: http\winhttpgetdefaultproxyconfiguration.htm
 old-project: winhttp
 ms.assetid: e8038b4b-b9d0-481a-a49c-26201d72bc7a
 ms.author: windowssdkdev
-ms.date: 08/09/2018
+ms.date: 08/17/2018
 ms.keywords: WinHttpGetDefaultProxyConfiguration, WinHttpGetDefaultProxyConfiguration function [WinHTTP], http.winhttpgetdefaultproxyconfiguration, winhttp.winhttpgetdefaultproxyconfiguration_function, winhttp/WinHttpGetDefaultProxyConfiguration
 ms.prod: windows
 ms.technology: windows-sdk

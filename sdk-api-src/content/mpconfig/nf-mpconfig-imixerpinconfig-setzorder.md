@@ -7,7 +7,7 @@ old-location: dshow\imixerpinconfig_setzorder.htm
 old-project: DirectShow
 ms.assetid: fe8e71b8-9aaf-438e-b370-5ba9f131bf7a
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/20/2018
 ms.keywords: IMixerPinConfig interface [DirectShow],SetZOrder method, IMixerPinConfig.SetZOrder, IMixerPinConfig::SetZOrder, IMixerPinConfigSetZOrder, SetZOrder, SetZOrder method [DirectShow], SetZOrder method [DirectShow],IMixerPinConfig interface, dshow.imixerpinconfig_setzorder, mpconfig/IMixerPinConfig::SetZOrder
 ms.prod: windows
 ms.technology: windows-sdk

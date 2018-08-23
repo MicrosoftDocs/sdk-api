@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiinfoqueue_pushemptystoragefilter.htm
 old-project: direct3ddxgi
 ms.assetid: C0DC43B8-4869-49B0-A4D9-6907BCF1CB9E
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/20/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],PushEmptyStorageFilter method, IDXGIInfoQueue.PushEmptyStorageFilter, IDXGIInfoQueue::PushEmptyStorageFilter, PushEmptyStorageFilter, PushEmptyStorageFilter method [DXGI], PushEmptyStorageFilter method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_pushemptystoragefilter, dxgidebug/IDXGIInfoQueue::PushEmptyStorageFilter
 ms.prod: windows
 ms.technology: windows-sdk

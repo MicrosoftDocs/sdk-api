@@ -7,7 +7,7 @@ old-location: security\imscepsetup.htm
 old-project: SecCrypto
 ms.assetid: 328c6c04-7ade-4b64-bd8a-4314b6e8dc78
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: IMSCEPSetup, IMSCEPSetup interface [Security], IMSCEPSetup interface [Security],described, casetup/IMSCEPSetup, security.imscepsetup
 ms.prod: windows
 ms.technology: windows-sdk

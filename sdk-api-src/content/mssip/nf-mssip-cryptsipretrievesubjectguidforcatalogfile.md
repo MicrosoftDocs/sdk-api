@@ -7,7 +7,7 @@ old-location: security\cryptsipretrievesubjectguidforcatalogfile.htm
 old-project: SecCrypto
 ms.assetid: 7f757dc8-948c-476e-aca3-a9051e962ed4
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CryptSIPRetrieveSubjectGuidForCatalogFile, CryptSIPRetrieveSubjectGuidForCatalogFile function [Security], mssip/CryptSIPRetrieveSubjectGuidForCatalogFile, security.cryptsipretrievesubjectguidforcatalogfile
 ms.prod: windows
 ms.technology: windows-sdk

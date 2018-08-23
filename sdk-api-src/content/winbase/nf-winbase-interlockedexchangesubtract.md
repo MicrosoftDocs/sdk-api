@@ -7,7 +7,7 @@ old-location: base\interlockedexchangesubtract.htm
 old-project: sync
 ms.assetid: 9917323D-38C4-446E-B59A-52493A6020ED
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: InterlockedExchangeSubtract, InterlockedExchangeSubtract function, base.interlockedexchangesubtract, winbase/InterlockedExchangeSubtract
 ms.prod: windows
 ms.technology: windows-sdk

@@ -111,7 +111,7 @@ Specifies the state to set to <b>TRUE</b> or <b>FALSE</b>.
 
 
 
-This function returns UINT.
+This function returns UINT __stdcall.
 
 
 

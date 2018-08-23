@@ -110,6 +110,14 @@ A 16-bit Boolean value. A value of 0xFFFF (all bits 1) indicates true; a value o
 
 
 
+
+###### __VARIANT_NAME_2.__VARIANT_NAME_3.pbool
+
+<b>Type: <b>_VARIANT_BOOL*</b>
+</b>
+A reference to a 16-bit Boolean value.
+
+
 ### -field __VARIANT_NAME_1.__VARIANT_NAME_2.__VARIANT_NAME_3.llVal
 
 <b>Type: <b>LONGLONG</b>
@@ -256,13 +264,6 @@ A reference to an 8-byte real value.
 ### -field __VARIANT_NAME_1.__VARIANT_NAME_2.__VARIANT_NAME_3.pboolVal
 
 <b>Type: <b>VARIANT_BOOL*</b>
-</b>
-A reference to a 16-bit Boolean value.
-
-
-### -field __VARIANT_NAME_1.__VARIANT_NAME_2.__VARIANT_NAME_3.pbool
-
-<b>Type: <b>_VARIANT_BOOL*</b>
 </b>
 A reference to a 16-bit Boolean value.
 

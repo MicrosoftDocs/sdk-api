@@ -1,0 +1,145 @@
+---
+UID: NF:d2d1effectauthor.ID2D1Transform.MapInputRectsToOutputRect
+title: ID2D1Transform::MapInputRectsToOutputRect
+author: windows-sdk-content
+description: Performs the inverse mapping to MapOutputRectToInputRects.
+old-location: direct2d\id2d1transform_mapinputrectstooutputrect.htm
+old-project: direct2d
+ms.assetid: 8FC15A61-767C-460A-A260-9F56A41DA87F
+ms.author: windowssdkdev
+ms.date: 08/06/2018
+ms.keywords: ID2D1Transform interface [Direct2D],MapInputRectsToOutputRect method, ID2D1Transform.MapInputRectsToOutputRect, ID2D1Transform::MapInputRectsToOutputRect, MapInputRectsToOutputRect, MapInputRectsToOutputRect method [Direct2D], MapInputRectsToOutputRect method [Direct2D],ID2D1Transform interface, d2d1effectauthor/ID2D1Transform::MapInputRectsToOutputRect, direct2d.id2d1transform_mapinputrectstooutputrect
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d2d1effectauthor.h
+req.include-header: 
+req.redist: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: D2D1_VERTEX_USAGE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d2d1.lib
+ - d2d1.dll
+api_name:
+ - ID2D1Transform.MapInputRectsToOutputRect
+product: Windows
+targetos: Windows
+req.lib: D2d1.lib
+req.dll: 
+req.irql: 
+---
+
+# ID2D1Transform::MapInputRectsToOutputRect
+
+
+## -description
+
+
+Performs the inverse mapping to <a href="https://msdn.microsoft.com/EE098F67-B5A7-41C1-886A-2C7779B5E05C">MapOutputRectToInputRects</a>.
+
+
+## -parameters
+
+
+
+
+### -param inputRects [in]
+
+Type: <b>const <a href="https://msdn.microsoft.com/655EBC1A-199E-40A2-A4C2-9622AFAEE0B5">D2D1_RECT_L</a>*</b>
+
+An array of input rectangles to be mapped to the output rectangle.  The <i>inputRects</i> parameter is always equal to the input bounds.
+
+
+### -param inputOpaqueSubRects
+
+
+
+
+### -param inputRectCount
+
+Type: <b>UINT32</b>
+
+The number of inputs specified. The implementation guarantees that this is equal to the number of inputs specified on the transform.
+
+
+### -param outputRect
+
+Type: <b><a href="https://msdn.microsoft.com/655EBC1A-199E-40A2-A4C2-9622AFAEE0B5">D2D1_RECT_L</a>*</b>
+
+The output rectangle that maps to the corresponding input rectangle.
+
+
+### -param outputOpaqueSubRect
+
+
+
+
+
+
+#### - inputOpaqueRects [in]
+
+Type: <b>const <a href="https://msdn.microsoft.com/655EBC1A-199E-40A2-A4C2-9622AFAEE0B5">D2D1_RECT_L</a>*</b>
+
+An array of input rectangles to be mapped to the opaque output rectangle.
+
+
+#### - outputOpaqueRect
+
+Type: <b><a href="https://msdn.microsoft.com/655EBC1A-199E-40A2-A4C2-9622AFAEE0B5">D2D1_RECT_L</a>*</b>
+
+The output rectangle that maps to the corresponding opaque input rectangle.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If the method succeeds, it returns <b>S_OK</b>. If it fails, it returns an <b>HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+The transform implementation must ensure that any pixel shader or software callback implementation it provides honors this calculation.
+
+Unlike the <a href="https://msdn.microsoft.com/EE098F67-B5A7-41C1-886A-2C7779B5E05C">MapOutputRectToInputRects</a> and <a href="https://msdn.microsoft.com/46E6EAF3-7EC7-4433-90E5-4C6E3A56AFA5">MapInvalidRect</a> functions, this method is explicitly called by the renderer at a determined place in its rendering algorithm. The transform implementation may change its state based on the input rectangles and use this information to control its rendering information. This method is always called before the <b>MapInvalidRect</b> and <b>MapOutputRectToInputRects</b> methods of the transform.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/3D87A908-FC57-4AA9-A508-C402D8413363">ID2D1EffectImpl</a>
+
+
+
+<a href="https://msdn.microsoft.com/8A0CD795-A6D8-4817-9676-58C11DDAAEBD">ID2D1Transform</a>
+ 
+
+ 
+

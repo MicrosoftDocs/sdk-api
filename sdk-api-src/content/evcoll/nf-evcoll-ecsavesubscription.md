@@ -74,7 +74,7 @@ Reserved. Must be <b>NULL</b>.
 
 
 
-This function returns BOOL.
+This function returns BOOL __stdcall.
 
 
 

@@ -7,7 +7,7 @@ old-location: dshow\imeminputpin_receive.htm
 old-project: DirectShow
 ms.assetid: 7cc1e57a-a18a-4ea4-9669-0be3fb140d40
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/20/2018
 ms.keywords: IMemInputPin interface [DirectShow],Receive method, IMemInputPin.Receive, IMemInputPin::Receive, IMemInputPinReceive, Receive, Receive method [DirectShow], Receive method [DirectShow],IMemInputPin interface, dshow.imeminputpin_receive, strmif/IMemInputPin::Receive
 ms.prod: windows
 ms.technology: windows-sdk

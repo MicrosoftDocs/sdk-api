@@ -102,9 +102,16 @@ This flag is reserved for future use.
  
 
 
-### -param OPTIONAL
+### -param NextHopHandle [in, out]
 
-TBD
+If the client has a handle (client is updating a next hop): On input, <i>NextHopHandle</i> is a pointer to the next-hop handle. On output, <i>NextHopHandle</i> is unchanged. 
+
+
+
+
+If the client does not have a handle and a handle must be returned (client is adding or updating a next hop): On input, <i>NextHopHandle</i> is a pointer to <b>NULL</b>. On output, <i>NextHopHandle</i> receives a pointer to the next-hop handle. The values in <i>NextHopInfo</i> are used to identify the next hop to update.
+
+If a handle does not need to be returned (client is adding or updating a next hop): On input, <i>NextHopHandle</i> is <b>NULL</b>. The values in <i>NextHopInfo</i> are used to identify the next hop to update.
 
 
 ### -param ChangeFlags [out]
@@ -115,18 +122,6 @@ On input, <i>ChangeFlags</i> is a pointer to an <b>RTM_NEXTHOP_CHANGE_FLAGS</b> 
 
 
 On output, <i>ChangeFlags</i> receives a flag indicating whether a next hop was added or updated. If <i>ChangeFlags</i> is zero, a next hop was updated; if <i>ChangeFlags</i> is <b>RTM_NEXTHOP_CHANGE_NEW</b>, a next hop was added.
-
-
-#### - NextHopHandle [in, out]
-
-If the client has a handle (client is updating a next hop): On input, <i>NextHopHandle</i> is a pointer to the next-hop handle. On output, <i>NextHopHandle</i> is unchanged. 
-
-
-
-
-If the client does not have a handle and a handle must be returned (client is adding or updating a next hop): On input, <i>NextHopHandle</i> is a pointer to <b>NULL</b>. On output, <i>NextHopHandle</i> receives a pointer to the next-hop handle. The values in <i>NextHopInfo</i> are used to identify the next hop to update.
-
-If a handle does not need to be returned (client is adding or updating a next hop): On input, <i>NextHopHandle</i> is <b>NULL</b>. The values in <i>NextHopInfo</i> are used to identify the next hop to update.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: security\secpkgcontext_lifespan.htm
 old-project: secauthn
 ms.assetid: 7ef45795-f6af-4dac-a498-c6f8c915a168
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: "*PSecPkgContext_Lifespan, PSecPkgContext_Lifespan, PSecPkgContext_Lifespan structure pointer [Security], SecPkgContext_Lifespan, SecPkgContext_Lifespan structure [Security], _SecPkgContext_Lifespan, _ssp_secpkgcontext_lifespan, security.secpkgcontext_lifespan, sspi/PSecPkgContext_Lifespan, sspi/SecPkgContext_Lifespan"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: http\winhttpcrackurl.htm
 old-project: winhttp
 ms.assetid: 656dfe11-2242-4587-aa53-87a280f5df81
 ms.author: windowssdkdev
-ms.date: 08/09/2018
+ms.date: 08/17/2018
 ms.keywords: ICU_DECODE, ICU_ESCAPE, ICU_REJECT_USERPWD, WinHttpCrackUrl, WinHttpCrackUrl function [WinHTTP], http.winhttpcrackurl, winhttp.winhttpcrackurl_function, winhttp/WinHttpCrackUrl
 ms.prod: windows
 ms.technology: windows-sdk

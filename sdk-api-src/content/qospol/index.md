@@ -2,7 +2,7 @@
 UID: NA:qospol
 ms.assetid: 32e0a3ad-8da3-3fe4-ad80-0d8074c78c47
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/23/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

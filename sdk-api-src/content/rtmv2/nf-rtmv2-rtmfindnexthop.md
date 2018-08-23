@@ -83,14 +83,7 @@ If a handle must be returned: On input, <i>NextHopPointer</i> is a pointer to <b
 If a handle does not need to be returned: On input, <i>NextHopPointer</i> is <b>NULL</b>.
 
 
-### -param OPTIONAL
-
-TBD
-
-
-
-
-#### - NextHopPointer [out]
+### -param NextHopPointer [out]
 
 If a pointer must be returned: On input, <i>NextHopPointer</i> is a pointer to <b>NULL</b>. On output, if the client owns the next hop, <i>NextHopPointer</i> receives a pointer to the next-hop; otherwise, <i>NextHopPointer</i> remains unchanged. 
 

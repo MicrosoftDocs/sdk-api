@@ -7,7 +7,7 @@ old-location: winsock\wscinstallprovider64_32.htm
 old-project: winsock
 ms.assetid: 50d3a5d1-18f2-439e-a16c-6f31becb1e65
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: WSCInstallProvider64_32, WSCInstallProvider64_32 function [Winsock], winsock.wscinstallprovider64_32, ws2spi/WSCInstallProvider64_32
 ms.prod: windows
 ms.technology: windows-sdk

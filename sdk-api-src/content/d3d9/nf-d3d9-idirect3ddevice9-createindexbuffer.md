@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__createindexbuffer.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__createindexbuffer.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: 532a9cb1-de3a-0873-68d0-511852df653f, CreateIndexBuffer, CreateIndexBuffer method [Direct3D 9], CreateIndexBuffer method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],CreateIndexBuffer method, IDirect3DDevice9.CreateIndexBuffer, IDirect3DDevice9::CreateIndexBuffer, d3d9helper/IDirect3DDevice9::CreateIndexBuffer, direct3d9.idirect3ddevice9__createindexbuffer
 ms.prod: windows
 ms.technology: windows-sdk

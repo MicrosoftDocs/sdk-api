@@ -71,7 +71,7 @@ Handle to the resource to be closed.
 
 
 
-This function returns BOOL.
+This function returns BOOL __stdcall.
 
 
 

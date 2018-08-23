@@ -7,7 +7,7 @@ old-location: tablet\inkrectangle_left.htm
 old-project: tablet
 ms.assetid: 88f0d919-43d0-408f-97f8-1410b2833269
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: 88f0d919-43d0-408f-97f8-1410b2833269, IInkRectangle interface [Tablet PC],Left property, IInkRectangle.Left, IInkRectangle.get_Left, IInkRectangle::Left, IInkRectangle::get_Left, IInkRectangle::put_Left, InkRectangle.get_Left, InkRectangle.put_Left, Left property [Tablet PC], Left property [Tablet PC],IInkRectangle interface, get_Left, msinkaut/IInkRectangle::Left, msinkaut/IInkRectangle::get_Left, msinkaut/IInkRectangle::put_Left, put_Left, tablet.inkrectangle_left
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,7 +86,7 @@ The default value of this property is 0.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846804(v=VS.85).aspx">IInkRectangle</a>
+<a href="https://msdn.microsoft.com/9E438012-0991-46AA-8D0F-2C561F523EC2">IInkRectangle</a>
 
 
 

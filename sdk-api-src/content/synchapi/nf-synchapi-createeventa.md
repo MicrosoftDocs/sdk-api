@@ -7,7 +7,7 @@ old-location: base\createevent.htm
 old-project: sync
 ms.assetid: 1f6d946e-c74c-4599-ac3d-b709216a0900
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: CreateEvent, CreateEvent function, CreateEventA, CreateEventW, _win32_createevent, base.createevent, synchapi/CreateEvent, synchapi/CreateEventA, synchapi/CreateEventW, winbase/CreateEvent, winbase/CreateEventA, winbase/CreateEventW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -1,0 +1,96 @@
+---
+UID: NF:d2d1effectauthor.ID2D1ComputeInfo.SetComputeShaderConstantBuffer
+title: ID2D1ComputeInfo::SetComputeShaderConstantBuffer
+author: windows-sdk-content
+description: Establishes or changes the constant buffer data for this transform.
+old-location: direct2d\id2d1computeinfo_setcomputeshaderconstantbuffer.htm
+old-project: direct2d
+ms.assetid: E7443E72-F8F6-48C4-A9BD-5EF132E8C090
+ms.author: windowssdkdev
+ms.date: 08/06/2018
+ms.keywords: ID2D1ComputeInfo interface [Direct2D],SetComputeShaderConstantBuffer method, ID2D1ComputeInfo.SetComputeShaderConstantBuffer, ID2D1ComputeInfo::SetComputeShaderConstantBuffer, SetComputeShaderConstantBuffer, SetComputeShaderConstantBuffer method [Direct2D], SetComputeShaderConstantBuffer method [Direct2D],ID2D1ComputeInfo interface, d2d1effectauthor/ID2D1ComputeInfo::SetComputeShaderConstantBuffer, direct2d.id2d1computeinfo_setcomputeshaderconstantbuffer
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d2d1effectauthor.h
+req.include-header: 
+req.redist: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: D2D1_VERTEX_USAGE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - d2d1effectauthor.h
+api_name:
+ - ID2D1ComputeInfo.SetComputeShaderConstantBuffer
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# ID2D1ComputeInfo::SetComputeShaderConstantBuffer
+
+
+## -description
+
+
+Establishes or changes the constant buffer data for this transform.
+
+
+## -parameters
+
+
+
+
+### -param buffer [in]
+
+Type: <b>const BYTE*</b>
+
+The data applied to the constant buffer.
+
+
+### -param bufferCount
+
+Type: <b>UINT32</b>
+
+The number of bytes of data in the constant buffer.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0560BB4B-B837-4DA8-AD68-545224152BA5">ID2D1ComputeInfo</a>
+ 
+
+ 
+

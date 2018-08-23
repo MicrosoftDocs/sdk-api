@@ -7,7 +7,7 @@ old-location: dshow\vmr9monitorinfo.htm
 old-project: DirectShow
 ms.assetid: cb7d5c27-8762-450e-ba47-2a46e3106472
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/20/2018
 ms.keywords: VMR9MonitorInfo, VMR9MonitorInfo structure [DirectShow], VMR9MonitorInfoStructure, _VMR9MonitorInfo, dshow.vmr9monitorinfo, vmr9/VMR9MonitorInfo
 ms.prod: windows
 ms.technology: windows-sdk

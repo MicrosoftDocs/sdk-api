@@ -8,7 +8,7 @@ old-project: fileio
 ms.assetid: f84f8a88-b6fc-4b22-b858-52955c8d537d
 ms.author: windowssdkdev
 ms.date: 08/06/2018
-ms.keywords: PSTORAGE_DEVICE_DESCRIPTOR, PSTORAGE_DEVICE_DESCRIPTOR structure pointer [Files], STORAGE_DEVICE_DESCRIPTOR, STORAGE_DEVICE_DESCRIPTOR structure [Files], _STORAGE_DEVICE_DESCRIPTOR, fs.storage_device_descriptor, winioctl/PSTORAGE_DEVICE_DESCRIPTOR, winioctl/STORAGE_DEVICE_DESCRIPTOR
+ms.keywords: "*PSTORAGE_DEVICE_DESCRIPTOR, PSTORAGE_DEVICE_DESCRIPTOR, PSTORAGE_DEVICE_DESCRIPTOR structure pointer [Files], STORAGE_DEVICE_DESCRIPTOR, STORAGE_DEVICE_DESCRIPTOR structure [Files], _STORAGE_DEVICE_DESCRIPTOR, fs.storage_device_descriptor, winioctl/PSTORAGE_DEVICE_DESCRIPTOR, winioctl/STORAGE_DEVICE_DESCRIPTOR"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: STORAGE_DEVICE_DESCRIPTOR, PSTORAGE_DEVICE_DESCRIPTOR
+req.typenames: STORAGE_DEVICE_DESCRIPTOR, *PSTORAGE_DEVICE_DESCRIPTOR
 topic_type:
  - APIRef
  - kbSyntax

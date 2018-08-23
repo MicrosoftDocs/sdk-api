@@ -7,7 +7,7 @@ old-location: security\sspilocalfree.htm
 old-project: secauthn
 ms.assetid: afb890a8-a2c3-4c35-ba76-758b047ababb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: SspiLocalFree, SspiLocalFree function [Security], security.sspilocalfree, sspi/SspiLocalFree
 ms.prod: windows
 ms.technology: windows-sdk

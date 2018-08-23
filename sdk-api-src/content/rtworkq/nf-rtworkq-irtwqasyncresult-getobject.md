@@ -1,0 +1,119 @@
+---
+UID: NF:rtworkq.IRtwqAsyncResult.GetObject
+title: IRtwqAsyncResult::GetObject
+author: windows-sdk-content
+description: Returns an object associated with the asynchronous operation. The type of object, if any, depends on the asynchronous method that was called.
+old-location: base\irtwqasyncresult_getobject.htm
+old-project: procthread
+ms.assetid: EF872EDD-4263-4835-81E4-0A61F18E9202
+ms.author: windowssdkdev
+ms.date: 08/10/2018
+ms.keywords: GetObject, GetObject method, GetObject method,IRtwqAsyncResult interface, IRtwqAsyncResult interface,GetObject method, IRtwqAsyncResult.GetObject, IRtwqAsyncResult::GetObject, base.irtwqasyncresult_getobject, rtworkq/IRtwqAsyncResult::GetObject
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: rtworkq.h
+req.include-header: 
+req.redist: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: RTWQ_WORKQUEUE_TYPE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - RTWorkQ.dll
+api_name:
+ - IRtwqAsyncResult.GetObject
+product: Windows
+targetos: Windows
+req.lib: Rtworkq.lib
+req.dll: RTWorkQ.dll
+req.irql: 
+req.product: ADAM
+---
+
+# IRtwqAsyncResult::GetObject
+
+
+## -description
+
+
+
+Returns an object associated with the asynchronous operation. The type of object, if any, depends on the asynchronous method that was called.
+
+
+
+
+## -parameters
+
+
+
+
+### -param ppObject [out]
+
+Receives a pointer to the object's <b>IUnknown</b> interface. If no object is associated with the operation, this parameter receives the value <b>NULL</b>. If the value is not <b>NULL</b>, the caller must release the interface.
+
+
+## -returns
+
+
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+The method succeeded.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_POINTER</b></dt>
+</dl>
+</td>
+<td width="60%">
+There is no object associated with this asynchronous result.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/AB23282D-D731-48EE-AF55-CC5A513EBA33">IRtwqAsyncResult</a>
+ 
+
+ 
+

@@ -7,7 +7,7 @@ old-location: dshow\ienumpidmap.htm
 old-project: DirectShow
 ms.assetid: d46010c4-0f16-4c97-ad10-16f7ac250390
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/20/2018
 ms.keywords: IEnumPIDMap, IEnumPIDMap interface [DirectShow], IEnumPIDMap interface [DirectShow],described, IEnumPIDMapInterface, bdaiface/IEnumPIDMap, dshow.ienumpidmap
 ms.prod: windows
 ms.technology: windows-sdk

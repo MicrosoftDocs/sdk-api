@@ -1,0 +1,119 @@
+---
+UID: NF:shlobj_core.IProgressDialog.SetAnimation
+title: IProgressDialog::SetAnimation
+author: windows-sdk-content
+description: Specifies an Audio-Video Interleaved (AVI) clip that runs in the dialog box.
+old-location: shell\IProgressDialog_SetAnimation.htm
+old-project: shell
+ms.assetid: cc974be9-e9a4-42f9-9995-0d6eb0b12422
+ms.author: windowssdkdev
+ms.date: 08/06/2018
+ms.keywords: IProgressDialog interface [Windows Shell],SetAnimation method, IProgressDialog.SetAnimation, IProgressDialog::SetAnimation, SetAnimation, SetAnimation method [Windows Shell], SetAnimation method [Windows Shell],IProgressDialog interface, _win32_IProgressDialog_SetAnimation, shell.IProgressDialog_SetAnimation, shlobj_core/IProgressDialog::SetAnimation
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shlobj_core.h
+req.include-header: 
+req.redist: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 2000 Professional, Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: AUTOCOMPLETELISTOPTIONS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IProgressDialog.SetAnimation
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll (version 5.0 or later)
+req.irql: 
+req.product: Internet Explorer 5.0
+---
+
+# IProgressDialog::SetAnimation
+
+
+## -description
+
+
+<p class="CCE_Message">[This method is not supported in Windows Vista or later versions.]
+
+Specifies an Audio-Video Interleaved (AVI) clip that runs in the dialog box.
+        
+            
+
+
+## -parameters
+
+
+
+
+### -param hInstAnimation [in, optional]
+
+Type: <b>HINSTANCE</b>
+
+An instance handle to the module from which the AVI resource should be loaded.
+
+
+### -param idAnimation
+
+Type: <b>UINT</b>
+
+An AVI resource identifier. To create this value, use the <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a> macro. The control loads the AVI resource from the module specified by <i>hInstAnimation</i>.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+Returns <b>S_OK</b> if successful, or an error value otherwise. In Windows Vista and later versions, always returns <b>S_OK</b>.
+
+
+
+
+## -remarks
+
+
+
+<b>IProgressDialog::SetAnimation</b> cannot be called before the progress dialog is visible. Until it is displayed, the progress dialog does not have a valid HWND. The existance of that HWND can be used to determine whether <b>IProgressDialog::SetAnimation</b> can be called.
+
+This method takes the instance handle specified by <i>hInstAnimation</i> and uses an <a href="https://msdn.microsoft.com/6be69d1a-5b2c-41d5-b6d7-e86ddac2cb0d">animation control</a> to open and run a silent AVI clip. There are several restrictions as to what types of AVI clips can be used, including the following:
+
+				
+
+<ul>
+<li>Clips cannot include sound.</li>
+<li>The size of the AVI clip cannot exceed 272 by 60 pixels. Smaller rectangles can be used, but they might not be properly centered.</li>
+<li>AVI clips must either be uncompressed or compressed with run-length (BI_RLE8) encoding. If you attempt to use an unsupported compression type, no animation is displayed.</li>
+</ul>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/ba0fb1f9-f67f-4cc7-96d8-4c4ccdd213eb">IProgressDialog</a>
+ 
+
+ 
+

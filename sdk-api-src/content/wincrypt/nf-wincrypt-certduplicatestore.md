@@ -7,7 +7,7 @@ old-location: security\certduplicatestore.htm
 old-project: SecCrypto
 ms.assetid: 628efd30-6e07-4748-82ac-5cdc723be451
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CertDuplicateStore, CertDuplicateStore function [Security], _crypto2_certduplicatestore, security.certduplicatestore, wincrypt/CertDuplicateStore
 ms.prod: windows
 ms.technology: windows-sdk
