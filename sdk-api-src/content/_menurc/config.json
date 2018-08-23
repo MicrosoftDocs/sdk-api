@@ -5,7 +5,6 @@
     "winnt.h",
     "winuser.h",
     "resourceindexer.h",
-    "shellapi.h",
     "strsafe.h",
     "winver.h",
     "verrsrc.h",

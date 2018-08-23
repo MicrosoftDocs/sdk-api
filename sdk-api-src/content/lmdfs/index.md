@@ -2,7 +2,7 @@
 UID: NA:lmdfs
 ms.assetid: 7aa42b48-14a8-3900-9365-8053f6637629
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/23/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

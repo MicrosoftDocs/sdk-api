@@ -3,7 +3,6 @@
   "headers": [
     "d3d10.h",
     "d3d10_1.h",
-    "d3dcommon.h",
     "d3d10sdklayers.h",
     "d3d10shader.h",
     "d3d10effect.h",

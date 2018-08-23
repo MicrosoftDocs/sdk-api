@@ -2,7 +2,7 @@
 UID: TP:helpapi
 ms.assetid: 1b5f5d17-33ea-3fb2-9ebe-2acc1f3521bc
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/23/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

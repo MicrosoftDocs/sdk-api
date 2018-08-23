@@ -2,7 +2,7 @@
 UID: TP:mdmreg
 ms.assetid: 4d87bfdb-f90b-391a-8117-d64350326fa4
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/23/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

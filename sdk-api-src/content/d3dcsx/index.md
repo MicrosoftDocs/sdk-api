@@ -2,7 +2,7 @@
 UID: NA:d3dcsx
 ms.assetid: 6a6139a0-1d5d-3d2b-ae59-29fa60b5d0a8
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/23/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
