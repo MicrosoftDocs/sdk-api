@@ -7,7 +7,7 @@ old-location: direct3ddxgi\DXGI_RESIDENCY.htm
 old-project: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_residency.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/20/2018
 ms.keywords: DXGI_RESIDENCY, DXGI_RESIDENCY enumeration [DXGI], DXGI_RESIDENCY_EVICTED_TO_DISK, DXGI_RESIDENCY_FULLY_RESIDENT, DXGI_RESIDENCY_RESIDENT_IN_SHARED_MEMORY, cfa66ca7-3d9d-67f6-1665-f4254ee73606, direct3ddxgi.DXGI_RESIDENCY, dxgi/DXGI_RESIDENCY, dxgi/DXGI_RESIDENCY_EVICTED_TO_DISK, dxgi/DXGI_RESIDENCY_FULLY_RESIDENT, dxgi/DXGI_RESIDENCY_RESIDENT_IN_SHARED_MEMORY
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,7 +79,7 @@ At least some of the resource has been paged out to the hard drive.
 
 
 
-This enum is used by <a href="https://msdn.microsoft.com/en-us/library/Bb174533(v=VS.85).aspx">QueryResourceResidency</a>.
+This enum is used by <a href="https://msdn.microsoft.com/a03af142-657b-459d-abba-fdee72e77db9">QueryResourceResidency</a>.
 
 
 

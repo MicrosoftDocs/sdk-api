@@ -7,7 +7,7 @@ old-location: devinst\cm_get_first_log_conf_ex.htm
 old-project: devinst
 ms.assetid: cb562b5c-eb40-4be4-89a3-0e69a78ae6ea
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: CM_Get_First_Log_Conf_Ex, CM_Get_First_Log_Conf_Ex function [Device and Driver Installation], cfgmgr32/CM_Get_First_Log_Conf_Ex, cfgmgrfn_bfb585c9-0dba-4c24-991e-2e866e3e6e9b.xml, devinst.cm_get_first_log_conf_ex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,7 +98,7 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 
-Calling <a href="https://msdn.microsoft.com/cb34e5ec-4257-4c30-890a-40f669f1dfeb">CM_Add_Empty_Log_Conf_Ex</a> or <a href="https://msdn.microsoft.com/en-us/library/Ff538043(v=VS.85).aspx">CM_Free_Log_Conf_Ex</a> can invalidate the handle obtained from a previous call to <b>CM_Get_First_Log_Conf_Ex</b>. Thus if you want to obtain logical configurations after calling <b>CM_Add_Empty_Log_Conf_Ex</b> or <b>CM_Free_Log_Conf_Ex</b>, your code must call <b>CM_Get_First_Log_Conf_Ex</b> again and start at the first configuration.
+Calling <a href="https://msdn.microsoft.com/cb34e5ec-4257-4c30-890a-40f669f1dfeb">CM_Add_Empty_Log_Conf_Ex</a> or <a href="https://msdn.microsoft.com/dd19400b-e83e-4feb-a968-b57656c9996c">CM_Free_Log_Conf_Ex</a> can invalidate the handle obtained from a previous call to <b>CM_Get_First_Log_Conf_Ex</b>. Thus if you want to obtain logical configurations after calling <b>CM_Add_Empty_Log_Conf_Ex</b> or <b>CM_Free_Log_Conf_Ex</b>, your code must call <b>CM_Get_First_Log_Conf_Ex</b> again and start at the first configuration.
 
 The handle received in <i>plcLogConf</i> must be explicitly freed by calling <a href="https://msdn.microsoft.com/dd8a4a2a-9f99-48c0-acb6-e5ceed63c88e">CM_Free_Log_Conf_Handle</a>.
 
@@ -120,7 +120,7 @@ For information about using device instance handles that are bound to a local or
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff538043(v=VS.85).aspx">CM_Free_Log_Conf_Ex</a>
+<a href="https://msdn.microsoft.com/dd19400b-e83e-4feb-a968-b57656c9996c">CM_Free_Log_Conf_Ex</a>
 
 
 

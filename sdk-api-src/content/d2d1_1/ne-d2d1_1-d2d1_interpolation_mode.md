@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-This is used to specify the quality of image scaling with  <a href="https://msdn.microsoft.com/c41d8a79-280a-451e-b07b-f904d07da5c7">ID2D1DeviceContext::DrawImage</a> and with the <a href="https://msdn.microsoft.com/en-us/library/Hh706309(v=VS.85).aspx">2D affine transform effect</a>. 
+This is used to specify the quality of image scaling with  <a href="https://msdn.microsoft.com/c41d8a79-280a-451e-b07b-f904d07da5c7">ID2D1DeviceContext::DrawImage</a> and with the <a href="https://msdn.microsoft.com/E8973EBE-764C-4220-BB1E-3BFD4853582D">2D affine transform effect</a>. 
 
 
 ## -enum-fields

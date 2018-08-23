@@ -60,11 +60,9 @@ Returns all UI Automation elements that satisfy the specified condition, prefetc
 
 
 
-### -param scope [in]
+### -param param
 
-Type: <b><a href="https://msdn.microsoft.com/eb9e05b3-bcfa-4fed-9cc9-6ea8a778618e">TreeScope</a></b>
 
-A combination of values specifying the scope of the search.
 
 
 ### -param condition [in]
@@ -88,6 +86,13 @@ Type: <b><a href="https://msdn.microsoft.com/7ecf585c-ff3b-4f89-8a7d-e2de66650ab
 Receives a pointer to an array of matching elements. If there are no matches, <b>NULL</b> is returned. 
 
 
+#### - scope [in]
+
+Type: <b><a href="https://msdn.microsoft.com/eb9e05b3-bcfa-4fed-9cc9-6ea8a778618e">TreeScope</a></b>
+
+A combination of values specifying the scope of the search.
+
+
 ## -returns
 
 
@@ -105,9 +110,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 The scope of the search is relative to the element on which the method is called. Elements are returned in the order in which they were encountered in the tree.
 
-This function cannot search for ancestor elements in the Microsoft UI Automation tree; that is, <a href="https://msdn.microsoft.com/en-us/library/Ee671699(v=VS.85).aspx">TreeScope_Ancestors</a>  is not a valid value for the <i>scope</i> parameter.
+This function cannot search for ancestor elements in the Microsoft UI Automation tree; that is, <a href="uiauto_TreeScopeEnum.htm">TreeScope_Ancestors</a>  is not a valid value for the <i>scope</i> parameter.
 
-When searching for top-level windows on the desktop, be sure to specify <a href="https://msdn.microsoft.com/en-us/library/Ee671699(v=VS.85).aspx">TreeScope_Children</a> in the <i>scope</i> parameter, not <a href="https://msdn.microsoft.com/en-us/library/Ee671699(v=VS.85).aspx">TreeScope_Descendants</a>. A search through the entire subtree of the desktop could iterate through thousands of items and lead to a stack overflow.
+When searching for top-level windows on the desktop, be sure to specify <a href="uiauto_TreeScopeEnum.htm">TreeScope_Children</a> in the <i>scope</i> parameter, not <a href="uiauto_TreeScopeEnum.htm">TreeScope_Descendants</a>. A search through the entire subtree of the desktop could iterate through thousands of items and lead to a stack overflow.
 
 If your client application might try to find elements in its own user interface, you must make all UI Automation calls on a separate thread.
 			

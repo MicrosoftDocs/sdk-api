@@ -69,7 +69,7 @@ Represents a
 A <b>ClusProperty</b> object contains a local copy of 
     real property data stored in the cluster database. Changes to the 
     <b>ClusProperty</b> object do not take effect in the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> until the parent 
+    <a href="c_gly.htm">cluster</a> until the parent 
     <a href="https://msdn.microsoft.com/2792025f-c434-47e0-a5e8-06a992e3a8d2">ClusProperties.SaveChanges</a> method 
     is invoked. Similarly, changes to the cluster database are not reflected in the object until the 
     <a href="https://msdn.microsoft.com/900c9401-e8f4-423a-80df-598f5edb2935">ClusProperties.Refresh</a> method is 

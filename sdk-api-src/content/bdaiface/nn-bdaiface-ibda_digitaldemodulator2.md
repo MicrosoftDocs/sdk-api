@@ -56,9 +56,9 @@ Controls a Broadcast Driver Architecture (BDA) demodulator filter. Demodulation 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_DigitalDemodulator2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd693284(v=VS.85).aspx">IBDA_DigitalDemodulator</a>. <b>IBDA_DigitalDemodulator2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_DigitalDemodulator2</b> interface inherits from <a href="https://msdn.microsoft.com/13ecd348-dc2b-4e80-9875-927f4ed55c95">IBDA_DigitalDemodulator</a>. <b>IBDA_DigitalDemodulator2</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>IBDA_DigitalDemodulator2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693286(v=VS.85).aspx">get_GuardInterval</a>
+<a href="https://msdn.microsoft.com/e122fac7-bad8-4fbf-bf7d-ffbfad75a5d8">get_GuardInterval</a>
 </td>
 <td align="left" width="63%">
 Gets the demodulator's guard interval.
@@ -81,7 +81,7 @@ Gets the demodulator's guard interval.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693287(v=VS.85).aspx">get_Pilot</a>
+<a href="https://msdn.microsoft.com/c24b7b56-b6f4-44d7-a2d3-be7d12eb2335">get_Pilot</a>
 </td>
 <td align="left" width="63%">
 Gets the current pilot mode for Digital Video Broadcasting-S2 (DVB-S2).
@@ -91,7 +91,7 @@ Gets the current pilot mode for Digital Video Broadcasting-S2 (DVB-S2).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693288(v=VS.85).aspx">get_RollOff</a>
+<a href="https://msdn.microsoft.com/4b1cd08a-50fd-48e9-9e97-8460e6c990c1">get_RollOff</a>
 </td>
 <td align="left" width="63%">
 Gets the demodulator's roll-off factor.
@@ -101,7 +101,7 @@ Gets the demodulator's roll-off factor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693289(v=VS.85).aspx">get_TransmissionMode</a>
+<a href="https://msdn.microsoft.com/b5722904-24a4-491f-8563-bfb2d5695d86">get_TransmissionMode</a>
 </td>
 <td align="left" width="63%">
 Gets the demodulator's transmission mode.
@@ -111,7 +111,7 @@ Gets the demodulator's transmission mode.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693290(v=VS.85).aspx">put_GuardInterval</a>
+<a href="https://msdn.microsoft.com/1183eacb-4846-4b5e-b879-7e557eb5f5dc">put_GuardInterval</a>
 </td>
 <td align="left" width="63%">
 Sets the demodulator's guard interval.
@@ -121,7 +121,7 @@ Sets the demodulator's guard interval.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693291(v=VS.85).aspx">put_Pilot</a>
+<a href="https://msdn.microsoft.com/05a29e8a-88f1-4e79-9f6c-ed3798b94c1f">put_Pilot</a>
 </td>
 <td align="left" width="63%">
 Sets the current pilot mode for DVB-S2.
@@ -131,7 +131,7 @@ Sets the current pilot mode for DVB-S2.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693292(v=VS.85).aspx">put_RollOff</a>
+<a href="https://msdn.microsoft.com/ade8c334-b7b3-464e-a3ab-f8816a44a9dd">put_RollOff</a>
 </td>
 <td align="left" width="63%">
 Sets the demodulator's roll-off factor.
@@ -141,7 +141,7 @@ Sets the demodulator's roll-off factor.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693293(v=VS.85).aspx">put_TransmissionMode</a>
+<a href="https://msdn.microsoft.com/e10c63a5-7025-49a7-9b2e-6043fabf2999">put_TransmissionMode</a>
 </td>
 <td align="left" width="63%">
 Sets the demodulator's transmission mode.

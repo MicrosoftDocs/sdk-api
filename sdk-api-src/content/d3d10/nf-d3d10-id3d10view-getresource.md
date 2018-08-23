@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10view_getresource.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10view_getresource.htm
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/20/2018
 ms.keywords: GetResource, GetResource method [Direct3D 10], GetResource method [Direct3D 10],ID3D10View interface, ID3D10View interface [Direct3D 10],GetResource method, ID3D10View.GetResource, ID3D10View::GetResource, affb4f45-35eb-1680-9945-930b6caf601f, d3d10/ID3D10View::GetResource, direct3d10.id3d10view_getresource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,9 +62,9 @@ Get the resource that is accessed through this view.
 
 ### -param ppResource [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173829(v=VS.85).aspx">ID3D10Resource</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/709c6f33-e1dc-4609-8ddd-9dc502628ec5">ID3D10Resource</a>**</b>
 
-Address of a pointer to the resource that is accessed through this view. (See <a href="https://msdn.microsoft.com/en-us/library/Bb173829(v=VS.85).aspx">ID3D10Resource</a>.)
+Address of a pointer to the resource that is accessed through this view. (See <a href="https://msdn.microsoft.com/709c6f33-e1dc-4609-8ddd-9dc502628ec5">ID3D10Resource</a>.)
 
 
 ## -returns
@@ -90,7 +90,7 @@ This function increments the reference count of the resource by one, so it is ne
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173876(v=VS.85).aspx">ID3D10View Interface</a>
+<a href="https://msdn.microsoft.com/a0b0945c-f907-4212-9bd5-a05033cdee45">ID3D10View Interface</a>
  
 
  

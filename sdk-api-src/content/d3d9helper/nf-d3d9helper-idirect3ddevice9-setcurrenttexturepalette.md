@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__setcurrenttexturepalette.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setcurrenttexturepalette.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: 94925c3c-1326-79c0-a0f6-53b8d6877539, IDirect3DDevice9 interface [Direct3D 9],SetCurrentTexturePalette method, IDirect3DDevice9.SetCurrentTexturePalette, IDirect3DDevice9::SetCurrentTexturePalette, SetCurrentTexturePalette, SetCurrentTexturePalette method [Direct3D 9], SetCurrentTexturePalette method [Direct3D 9],IDirect3DDevice9 interface, d3d9helper/IDirect3DDevice9::SetCurrentTexturePalette, direct3d9.idirect3ddevice9__setcurrenttexturepalette
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ Value that specifies the texture palette to set as the current texture palette.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be D3DERR_INVALIDCALL.
 
@@ -92,15 +92,15 @@ A single logical palette is associated with the device, and is shared by all tex
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174383(v=VS.85).aspx">IDirect3DDevice9::GetCurrentTexturePalette</a>
+<a href="https://msdn.microsoft.com/e72ec7a1-9904-4a07-a662-24c6532cfdc8">IDirect3DDevice9::GetCurrentTexturePalette</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb206252(v=VS.85).aspx">Texture Palettes (Direct3D 9)</a>
+<a href="https://msdn.microsoft.com/dea4b4bc-7eba-40fa-9c2c-0851fe7e231b">Texture Palettes (Direct3D 9)</a>
  
 
  

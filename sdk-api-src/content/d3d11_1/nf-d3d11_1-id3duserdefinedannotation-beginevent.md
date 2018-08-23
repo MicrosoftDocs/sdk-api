@@ -70,7 +70,7 @@ A <b>NULL</b> pointer produces undefined results.
 
 
 
-Returns the number of previous calls to <b>BeginEvent</b> that have not yet been finalized by calls to the <a href="https://msdn.microsoft.com/en-us/library/Hh446886(v=VS.85).aspx">ID3DUserDefinedAnnotation::EndEvent</a> method.
+Returns the number of previous calls to <b>BeginEvent</b> that have not yet been finalized by calls to the <a href="https://msdn.microsoft.com/5C478278-EC05-4214-80F9-808EADA76E41">ID3DUserDefinedAnnotation::EndEvent</a> method.
 
 The return value is –1 if the calling application is not running under a Direct3D profiling tool.
 
@@ -81,7 +81,7 @@ The return value is –1 if the calling application is not running under a Direc
 
 
 
-You call the <a href="https://msdn.microsoft.com/en-us/library/Hh446886(v=VS.85).aspx">EndEvent</a> method to mark the end of the section of event code.
+You call the <a href="https://msdn.microsoft.com/5C478278-EC05-4214-80F9-808EADA76E41">EndEvent</a> method to mark the end of the section of event code.
 
 A user can visualize the event when the calling application is running under an enabled Direct3D profiling tool such as Microsoft Visual Studio Ultimate 2012.
 
@@ -90,8 +90,8 @@ A user can visualize the event when the calling application is running under an 
 
 #### Examples
 
-The following code shows how to use a pair of calls to the <b>BeginEvent</b> and <a href="https://msdn.microsoft.com/en-us/library/Hh446886(v=VS.85).aspx">EndEvent</a> methods.
-          It also uses the <a href="https://msdn.microsoft.com/library/ezzw7k98(v=VS.100).aspx">CComPtr</a> smart pointer type.
+The following code shows how to use a pair of calls to the <b>BeginEvent</b> and <a href="https://msdn.microsoft.com/5C478278-EC05-4214-80F9-808EADA76E41">EndEvent</a> methods.
+          It also uses the <a href="22d9ea8d-ed66-4c34-940f-141db11e83bd">CComPtr</a> smart pointer type.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -134,7 +134,7 @@ pPerf-&gt;EndEvent( );
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh446881(v=VS.85).aspx">ID3DUserDefinedAnnotation</a>
+<a href="https://msdn.microsoft.com/255DE24B-3D6D-49D9-B6A8-D296AB99B4C9">ID3DUserDefinedAnnotation</a>
  
 
  

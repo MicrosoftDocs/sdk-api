@@ -7,7 +7,7 @@ old-location: appxpkg\getstagedpackageorigin.htm
 old-project: appxpkg
 ms.assetid: 7A1EE2CA-83CE-4E03-85A5-0061E29EB49B
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/16/2018
 ms.keywords: GetStagedPackageOrigin, GetStagedPackageOrigin function [App packaging and management], appmodel/GetStagedPackageOrigin, appxpkg.getstagedpackageorigin
 ms.prod: windows
 ms.technology: windows-sdk

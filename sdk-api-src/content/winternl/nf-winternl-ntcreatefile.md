@@ -417,9 +417,10 @@ A pointer to a variable that receives the final completion status and informatio
 <li><b>FILE_DOES_NOT_EXIST</b></li>
 </ul>
 
-### -param OPTIONAL
+### -param AllocationSize [in, optional]
 
-TBD
+The initial allocation size in bytes for the file. A nonzero value has no effect unless the file is being 
+      created, overwritten, or superseded.
 
 
 ### -param FileAttributes [in]
@@ -762,24 +763,18 @@ Complete this operation immediately with an alternate success code of <b>STATUS_
  
 
 
-### -param EaLength [in]
-
-Length of the EA buffer.
-
-
-#### - AllocationSize [in, optional]
-
-The initial allocation size in bytes for the file. A nonzero value has no effect unless the file is being 
-      created, overwritten, or superseded.
-
-
-#### - EaBuffer [in]
+### -param EaBuffer [in]
 
 Pointer to an EA buffer used to pass extended attributes.
       
 
 <div class="alert"><b>Note</b>  Some file systems may not support EA buffers.</div>
 <div> </div>
+
+### -param EaLength [in]
+
+Length of the EA buffer.
+
 
 ## -returns
 

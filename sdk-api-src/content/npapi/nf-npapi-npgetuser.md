@@ -7,7 +7,7 @@ old-location: security\npgetuser.htm
 old-project: secauthn
 ms.assetid: 15fdf8fa-417c-4c1e-803e-6345cb4216e0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: NPGetUser, NPGetUser function [Security], _mnp_npgetuser, npapi/NPGetUser, security.npgetuser
 ms.prod: windows
 ms.technology: windows-sdk

@@ -52,7 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>IADsOpenDSObject::OpenDSObject</b> method binds to an ADSI object, using the given credentials, and retrieves an  <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> pointer to the specified object.
+The <b>IADsOpenDSObject::OpenDSObject</b> method binds to an ADSI object, using the given credentials, and retrieves an  <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> pointer to the specified object.
 <div class="alert"><b>Important</b>  It is not recommended that you use this method with the WinNT Provider. For more information, please see KB article 218497, <a href="http://go.microsoft.com/fwlink/p/?linkid=83981">User Authentication Issues with the Active Directory Service Interfaces WinNT Provider</a>.</div><div> </div>
 
 ## -parameters
@@ -82,14 +82,14 @@ Authentication flags used to define the binding options. For more information, s
 
 ### -param ppOleDsObj [out]
 
-Pointer to a pointer to an  <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface on the requested object.
+Pointer to a pointer to an  <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface on the requested object.
 
 
 ## -returns
 
 
 
-This method supports the standard return values, including <b>S_OK</b> when the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface has been successfully retrieved using these credentials.
+This method supports the standard return values, including <b>S_OK</b> when the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface has been successfully retrieved using these credentials.
       
 
 For more information, see  <a href="https://msdn.microsoft.com/573889e4-37af-4aca-afd7-ef06bcf8aa0d">ADSI Error Codes</a>.
@@ -294,7 +294,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

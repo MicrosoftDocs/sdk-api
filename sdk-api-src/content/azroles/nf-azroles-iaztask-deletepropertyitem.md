@@ -75,7 +75,7 @@ Property ID of the  list from which to remove the entity specified by the <i>var
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://msdn.microsoft.com/en-us/library/Aa378381(v=VS.85).aspx">DeleteOperation</a> method
+Can also be removed using the <a href="https://msdn.microsoft.com/3f370d04-2115-4dcc-bf18-2d28a52bdead">DeleteOperation</a> method
 
 </td>
 </tr>
@@ -85,7 +85,7 @@ Can also be removed using the <a href="https://msdn.microsoft.com/en-us/library/
 </dl>
 </td>
 <td width="60%">
-Can also be removed using the <a href="https://msdn.microsoft.com/en-us/library/Aa378383(v=VS.85).aspx">DeleteTask</a> method
+Can also be removed using the <a href="https://msdn.microsoft.com/1e1288ff-d67b-4180-bfd0-63b81df8f99b">DeleteTask</a> method
 
 </td>
 </tr>

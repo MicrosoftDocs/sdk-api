@@ -67,19 +67,14 @@ Handle to the client obtained from a previous call to
 <a href="https://msdn.microsoft.com/2b952ea2-cf33-49e3-ae31-a14b0907a1b5">RtmRegisterEntity</a>.
 
 
-### -param OPTIONAL
+### -param NextHopHandle [in]
 
-TBD
+Handle to the next hop to delete. This parameter is optional and can be set to <b>NULL</b>; if it is <b>NULL</b>, the values in <i>NextHopInfo</i> are used to identify the next hop to delete.
 
 
 ### -param NextHopInfo [in]
 
 Pointer to a structure that contains information identifying the next hop to delete. This parameter is optional and can be set to <b>NULL</b>; if it is <b>NULL</b>, the handle in <i>NextHopHandle</i> is used to identify the next hop to delete.
-
-
-#### - NextHopHandle [in]
-
-Handle to the next hop to delete. This parameter is optional and can be set to <b>NULL</b>; if it is <b>NULL</b>, the values in <i>NextHopInfo</i> are used to identify the next hop to delete.
 
 
 ## -returns

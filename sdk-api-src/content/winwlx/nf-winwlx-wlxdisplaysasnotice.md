@@ -7,7 +7,7 @@ old-location: security\wlxdisplaysasnotice.htm
 old-project: secauthn
 ms.assetid: 2b56c037-aae6-4cb7-932f-15cf18c4444a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: WlxDisplaySASNotice, WlxDisplaySASNotice function [Security], _gina_wlxdisplaysasnotice, security.wlxdisplaysasnotice, winwlx/WlxDisplaySASNotice
 ms.prod: windows
 ms.technology: windows-sdk

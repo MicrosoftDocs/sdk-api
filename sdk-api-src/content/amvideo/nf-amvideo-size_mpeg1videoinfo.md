@@ -7,7 +7,7 @@ old-location: dshow\size_mpeg1videoinfo.htm
 old-project: DirectShow
 ms.assetid: 192c9179-baed-4fa5-a972-34964a6bdfd7
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/20/2018
 ms.keywords: SIZE_MPEG1VIDEOINFO, SIZE_MPEG1VIDEOINFO macro [DirectShow], amvideo/SIZE_MPEG1VIDEOINFO, dshow.size_mpeg1videoinfo
 ms.prod: windows
 ms.technology: windows-sdk

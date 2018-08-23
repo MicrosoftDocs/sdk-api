@@ -66,7 +66,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn379345(v=VS.85).aspx">IX509CertificateRequestPkcs10V3</a>
+<a href="https://msdn.microsoft.com/e833d1dc-da0f-4f5e-9027-ebf7413ef8c3">IX509CertificateRequestPkcs10V3</a>
  
 
  

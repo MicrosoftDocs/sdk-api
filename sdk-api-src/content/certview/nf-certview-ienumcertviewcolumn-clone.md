@@ -7,7 +7,7 @@ old-location: security\ienumcertviewcolumn_clone.htm
 old-project: SecCrypto
 ms.assetid: a0870155-3f16-4cfb-b180-7a8e617dfcd8
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: Clone, Clone method [Security], Clone method [Security],IEnumCERTVIEWCOLUMN interface, IEnumCERTVIEWCOLUMN interface [Security],Clone method, IEnumCERTVIEWCOLUMN.Clone, IEnumCERTVIEWCOLUMN::Clone, _certsrv_ienumcertviewcolumn_clone, certview/IEnumCERTVIEWCOLUMN::Clone, security.ienumcertviewcolumn_clone
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ The <b>Clone</b> method creates a copy of the column-enumeration sequence.
 
 ### -param ppenum [out]
 
-A pointer to a pointer of <a href="https://msdn.microsoft.com/en-us/library/Aa386176(v=VS.85).aspx">IEnumCERTVIEWCOLUMN</a> type. This method will fail if the <i>ppenum</i> is <b>NULL</b>.
+A pointer to a pointer of <a href="https://msdn.microsoft.com/6e6547f9-44b2-4050-be90-ac8ede892adc">IEnumCERTVIEWCOLUMN</a> type. This method will fail if the <i>ppenum</i> is <b>NULL</b>.
 
 
 ## -returns
@@ -72,7 +72,7 @@ A pointer to a pointer of <a href="https://msdn.microsoft.com/en-us/library/Aa38
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is a cloned column-enumeration sequence object.
@@ -84,7 +84,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-The column-enumeration sequence is obtained by a call to the <a href="https://msdn.microsoft.com/en-us/library/Aa386239(v=VS.85).aspx">IEnumCERTVIEWROW::EnumCertViewColumn</a> method.
+The column-enumeration sequence is obtained by a call to the <a href="https://msdn.microsoft.com/78fd2431-c4c7-4df9-856a-69665fa8c063">IEnumCERTVIEWROW::EnumCertViewColumn</a> method.
 
 
 #### Examples
@@ -120,11 +120,11 @@ if (NULL != pEnumCol2)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386176(v=VS.85).aspx">IEnumCERTVIEWCOLUMN</a>
+<a href="https://msdn.microsoft.com/6e6547f9-44b2-4050-be90-ac8ede892adc">IEnumCERTVIEWCOLUMN</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386239(v=VS.85).aspx">IEnumCERTVIEWROW::EnumCertViewColumn</a>
+<a href="https://msdn.microsoft.com/78fd2431-c4c7-4df9-856a-69665fa8c063">IEnumCERTVIEWROW::EnumCertViewColumn</a>
  
 
  

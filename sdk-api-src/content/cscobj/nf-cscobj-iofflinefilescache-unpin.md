@@ -180,7 +180,7 @@ Returns <code>HRESULT_FROM_WIN32(ERROR_CANCELLED)</code> if the operation is can
 
 If a unpin operation involving multiple files is canceled while in progress, changes to files processed to that point are not rolled back.
 
-If only one path is provided in the <i>rgpszPaths</i> parameter and that path is to a single file, the return value indicates the result of that single unpin operation.  Otherwise, the caller must implement the progress callback methods in the following list and monitor the <a href="https://msdn.microsoft.com/en-us/library/Bb530639(v=VS.85).aspx">IOfflineFilesSyncProgress::SyncItemResult</a> method to obtain the result for each processed file and directory.
+If only one path is provided in the <i>rgpszPaths</i> parameter and that path is to a single file, the return value indicates the result of that single unpin operation.  Otherwise, the caller must implement the progress callback methods in the following list and monitor the <a href="https://msdn.microsoft.com/2a93d52e-6b91-4d91-9372-5f0718621841">IOfflineFilesSyncProgress::SyncItemResult</a> method to obtain the result for each processed file and directory.
 
 <table>
 <tr>
@@ -190,46 +190,46 @@ If only one path is provided in the <i>rgpszPaths</i> parameter and that path is
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Bb530596(v=VS.85).aspx">IOfflineFilesProgress</a>
+<a href="https://msdn.microsoft.com/b568a8c6-119b-486e-94e3-fe4e54a395bb">IOfflineFilesProgress</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Bb530597(v=VS.85).aspx">Begin</a>
+<a href="https://msdn.microsoft.com/d3fe6abf-fc0c-4bba-9c9f-5d0e77c27b43">Begin</a>
 </td>
 <td>Called at the start of the operation.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Bb530637(v=VS.85).aspx">IOfflineFilesSyncProgress</a>
+<a href="https://msdn.microsoft.com/7fc5ff29-be9d-4fad-96a8-94058bb708fa">IOfflineFilesSyncProgress</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Bb530638(v=VS.85).aspx">SyncItemBegin</a>
+<a href="https://msdn.microsoft.com/c1cdbc30-bcc9-4023-a3a2-070fb9958609">SyncItemBegin</a>
 </td>
 <td>Called at the start of processing for each file.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Bb530637(v=VS.85).aspx">IOfflineFilesSyncProgress</a>
+<a href="https://msdn.microsoft.com/7fc5ff29-be9d-4fad-96a8-94058bb708fa">IOfflineFilesSyncProgress</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Bb530639(v=VS.85).aspx">SyncItemResult</a>
+<a href="https://msdn.microsoft.com/2a93d52e-6b91-4d91-9372-5f0718621841">SyncItemResult</a>
 </td>
 <td>Called after each file is unpinned.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Bb530596(v=VS.85).aspx">IOfflineFilesProgress</a>
+<a href="https://msdn.microsoft.com/b568a8c6-119b-486e-94e3-fe4e54a395bb">IOfflineFilesProgress</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Bb530599(v=VS.85).aspx">QueryAbort</a>
+<a href="https://msdn.microsoft.com/24b95898-0fe6-420b-83f2-ac77f493aeab">QueryAbort</a>
 </td>
 <td>Called periodically during the sync operation to detect a request for cancellation.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Bb530596(v=VS.85).aspx">IOfflineFilesProgress</a>
+<a href="https://msdn.microsoft.com/b568a8c6-119b-486e-94e3-fe4e54a395bb">IOfflineFilesProgress</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Bb530598(v=VS.85).aspx">End</a>
+<a href="https://msdn.microsoft.com/b3d09f2e-29d5-496f-a046-4ba067e642a6">End</a>
 </td>
 <td>Called at the end of the operation.</td>
 </tr>
@@ -244,7 +244,7 @@ If only one path is provided in the <i>rgpszPaths</i> parameter and that path is
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530486(v=VS.85).aspx">IOfflineFilesCache</a>
+<a href="https://msdn.microsoft.com/7b1b5ef6-355a-4760-9d54-ec73cc66fb8a">IOfflineFilesCache</a>
  
 
  

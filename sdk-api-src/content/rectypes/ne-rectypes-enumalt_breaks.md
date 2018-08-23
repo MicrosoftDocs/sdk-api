@@ -7,7 +7,7 @@ old-location: tablet\alt_breaks.htm
 old-project: tablet
 ms.assetid: bca0466c-4262-41b9-b3bc-cec25df6e654
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: ALT_BREAKS, ALT_BREAKS enumeration [Tablet PC], ALT_BREAKS_FULL, ALT_BREAKS_SAME, ALT_BREAKS_UNIQUE, bca0466c-4262-41b9-b3bc-cec25df6e654, enumALT_BREAKS, rectypes/ALT_BREAKS, rectypes/ALT_BREAKS_FULL, rectypes/ALT_BREAKS_SAME, rectypes/ALT_BREAKS_UNIQUE, tablet.alt_breaks
 ms.prod: windows
 ms.technology: windows-sdk
@@ -41,7 +41,7 @@ api_name:
 product: Windows
 targetos: Windows
 req.lib: 
-req.dll: 
+req.dll: Shell32.dll (version 4.0 or later)
 req.irql: 
 req.product: ADAM
 ---

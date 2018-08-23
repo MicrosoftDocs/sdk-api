@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Initiates a sequence of reads from a specified log sequence number (LSN) in one of three modes, and returns the first of the specified log records and a read context.  A client can read subsequent records in the designated mode by passing the read context to <a href="https://msdn.microsoft.com/en-us/library/Bb540412(v=VS.85).aspx">ReadNextLogRecord</a>.
+Initiates a sequence of reads from a specified log sequence number (LSN) in one of three modes, and returns the first of the specified log records and a read context.  A client can read subsequent records in the designated mode by passing the read context to <a href="https://msdn.microsoft.com/7736106b-6c43-496e-83b8-fa433c29e680">ReadNextLogRecord</a>.
 
 
 ## -parameters
@@ -61,12 +61,12 @@ Initiates a sequence of reads from a specified log sequence number (LSN) in one 
 
 ### -param pvMarshal [in]
 
-A pointer to a  marshaling context that is allocated by using the <a href="https://msdn.microsoft.com/en-us/library/Bb540367(v=VS.85).aspx">CreateLogMarshallingArea</a> function.
+A pointer to a  marshaling context that is allocated by using the <a href="https://msdn.microsoft.com/750c0615-bfac-402b-a590-6c9d800cf2d8">CreateLogMarshallingArea</a> function.
 
 
 ### -param plsnFirst [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb540343(v=VS.85).aspx">CLFS_LSN</a> structure that specifies the log sequence number (LSN) of the record  where  the read operation should start.  
+A pointer to a <a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a> structure that specifies the log sequence number (LSN) of the record  where  the read operation should start.  
 
 This value must be an LSN of a valid record in the active range of the log.
 
@@ -135,12 +135,12 @@ This parameter is one of the <a href="https://msdn.microsoft.com/63489b1b-75de-4
 
 ### -param plsnUndoNext [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb540343(v=VS.85).aspx">CLFS_LSN</a> structure that receives the LSN of the next record in the undo record chain.
+A pointer to a <a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a> structure that receives the LSN of the next record in the undo record chain.
 
 
 ### -param plsnPrevious [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb540343(v=VS.85).aspx">CLFS_LSN</a> structure that receives the LSN of the next record in the previous record chain.
+A pointer to a <a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a> structure that receives the LSN of the next record in the previous record chain.
 
 
 ### -param ppvReadContext [out]
@@ -180,17 +180,17 @@ The following  list identifies the possible error codes.
 
 
 
-The error message ERROR_LOG_BLOCK_INCOMPLETE is returned if the log block size specified by <a href="https://msdn.microsoft.com/en-us/library/Bb540367(v=VS.85).aspx">CreateLogMarshallingArea</a> is not large enough to hold a complete log block.
+The error message ERROR_LOG_BLOCK_INCOMPLETE is returned if the log block size specified by <a href="https://msdn.microsoft.com/750c0615-bfac-402b-a590-6c9d800cf2d8">CreateLogMarshallingArea</a> is not large enough to hold a complete log block.
 
 If <b>ReadLogRecord</b>  is called with a valid <i>pOverlapped</i> structure and the log handle is created with the overlapped option, then if a call to this function fails with an error code of <b>ERROR_IO_PENDING</b>, a pointer to a valid read context  is  placed in the variable that is pointed to by the <i>ppvReadContext</i> parameter.
 
-If you attempt to open more read contexts than the number buffers specified in a previous call to <a href="https://msdn.microsoft.com/en-us/library/Bb540367(v=VS.85).aspx">CreateLogMarshallingArea</a>,  ERROR_LOG_BLOCK_EXHAUSTED is returned.
+If you attempt to open more read contexts than the number buffers specified in a previous call to <a href="https://msdn.microsoft.com/750c0615-bfac-402b-a590-6c9d800cf2d8">CreateLogMarshallingArea</a>,  ERROR_LOG_BLOCK_EXHAUSTED is returned.
 
-To complete a log-record copy, the client should first synchronize its execution with deferred completion of the overlapped I/O operation by using  <a href="https://msdn.microsoft.com/en-us/library/ms683209(v=VS.85).aspx">GetOverlappedResult</a> or one of the synchronization <a href="https://msdn.microsoft.com/en-us/library/ms687069(v=VS.85).aspx">Wait Functions</a>. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms686358(v=VS.85).aspx">Synchronization and Overlapped Input and Output</a>.
+To complete a log-record copy, the client should first synchronize its execution with deferred completion of the overlapped I/O operation by using  <a href="https://msdn.microsoft.com/7f999959-9b22-4491-ae2b-a2674d821110">GetOverlappedResult</a> or one of the synchronization <a href="https://msdn.microsoft.com/9c66c71d-fdfd-42ae-895c-2fc842b5bc7a">Wait Functions</a>. For more information, see <a href="https://msdn.microsoft.com/db44990e-5a0f-4153-8ff6-79dd7cda48af">Synchronization and Overlapped Input and Output</a>.
 
 After <b>ReadLogRecord</b> completes asynchronously, the requested record  is read from the disk, but is not  resolved to a pointer in <i>*ppvReadBuffer</i>.
 
-To complete the requested read and obtain a valid pointer to the log record, the client must call <a href="https://msdn.microsoft.com/en-us/library/Bb540412(v=VS.85).aspx">ReadNextLogRecord</a>, which passes in the read-context pointer  that  <b>ReadLogRecord</b> returns.
+To complete the requested read and obtain a valid pointer to the log record, the client must call <a href="https://msdn.microsoft.com/7736106b-6c43-496e-83b8-fa433c29e680">ReadNextLogRecord</a>, which passes in the read-context pointer  that  <b>ReadLogRecord</b> returns.
 
 <div class="alert"><b>Note</b>  Common Log File System (CLFS) read contexts are not thread-safe. They should not be used by more than one thread at a time.<p class="note">CLFS read contexts should not be passed into more than one asynchronous read at a time, or the function fails with ERROR_BUSY.
 
@@ -204,23 +204,23 @@ To complete the requested read and obtain a valid pointer to the log record, the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540337(v=VS.85).aspx">CLFS_CONTEXT_MODE</a>
+<a href="https://msdn.microsoft.com/d71c18c3-42d5-4606-9915-8ea491e8b78f">CLFS_CONTEXT_MODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540343(v=VS.85).aspx">CLFS_LSN</a>
+<a href="https://msdn.microsoft.com/f388feec-e1dc-4ae9-aa33-8f2fdc4dbc9a">CLFS_LSN</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540353(v=VS.85).aspx">CLFS_RECORD_TYPE</a>
+<a href="https://msdn.microsoft.com/63489b1b-75de-469d-9ffc-f0353bb2fdd9">CLFS_RECORD_TYPE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540361(v=VS.85).aspx">Common Log File System Functions</a>
+<a href="https://msdn.microsoft.com/a3059828-d291-493d-a4fe-13d06e49ed12">Common Log File System Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540367(v=VS.85).aspx">CreateLogMarshallingArea</a>
+<a href="https://msdn.microsoft.com/750c0615-bfac-402b-a590-6c9d800cf2d8">CreateLogMarshallingArea</a>
 
 
 
@@ -228,7 +228,7 @@ To complete the requested read and obtain a valid pointer to the log record, the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540412(v=VS.85).aspx">ReadNextLogRecord</a>
+<a href="https://msdn.microsoft.com/7736106b-6c43-496e-83b8-fa433c29e680">ReadNextLogRecord</a>
 
 
 

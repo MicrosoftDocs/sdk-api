@@ -7,7 +7,7 @@ old-location: tablet\iinkrecognitionalternate_midline.htm
 old-project: tablet
 ms.assetid: ff12de3d-f760-4227-9406-634b19e66b4c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: IInkRecognitionAlternate interface [Tablet PC],Midline property, IInkRecognitionAlternate.Midline, IInkRecognitionAlternate.get_Midline, IInkRecognitionAlternate::Midline, IInkRecognitionAlternate::get_Midline, Midline property [Tablet PC], Midline property [Tablet PC],IInkRecognitionAlternate interface, ff12de3d-f760-4227-9406-634b19e66b4c, get_Midline, msinkaut/IInkRecognitionAlternate::Midline, msinkaut/IInkRecognitionAlternate::get_Midline, tablet.iinkrecognitionalternate_midline
 ms.prod: windows
 ms.technology: windows-sdk

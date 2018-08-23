@@ -4,10 +4,10 @@ title: IUPnPServices::get_Count
 author: windows-sdk-content
 description: The Count property specifies the number of services in the collection.
 old-location: upnp\iupnpservices_count.htm
-old-project: UPnP
+old-project: upnp
 ms.assetid: 33d90664-825a-4562-82ae-249b329743ac
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/16/2018
 ms.keywords: IUPnPServices interface [UPnP APIs],get_Count method, IUPnPServices.get_Count, IUPnPServices::get_Count, _upnp_iupnpservices_count, get_Count, get_Count method [UPnP APIs], get_Count method [UPnP APIs],IUPnPServices interface, upnp.iupnpservices_count, upnp/IUPnPServices::get_Count
 ms.prod: windows
 ms.technology: windows-sdk

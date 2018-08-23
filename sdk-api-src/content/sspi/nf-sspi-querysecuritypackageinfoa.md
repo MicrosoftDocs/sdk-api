@@ -7,7 +7,7 @@ old-location: security\querysecuritypackageinfo.htm
 old-project: secauthn
 ms.assetid: 130ef0fe-bb13-4a65-b476-cd25ed234da1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: QuerySecurityPackageInfo, QuerySecurityPackageInfo function [Security], QuerySecurityPackageInfoA, QuerySecurityPackageInfoW, _ssp_querysecuritypackageinfo, security.querysecuritypackageinfo, sspi/QuerySecurityPackageInfo, sspi/QuerySecurityPackageInfoA, sspi/QuerySecurityPackageInfoW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -108,7 +108,7 @@ The caller must call the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
 
 
 

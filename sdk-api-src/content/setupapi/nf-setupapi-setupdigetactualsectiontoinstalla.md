@@ -7,7 +7,7 @@ old-location: devinst\setupdigetactualsectiontoinstall.htm
 old-project: devinst
 ms.assetid: ccb5e1a4-e6c3-48e5-ac25-b9b5504a03d7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: SetupDiGetActualSectionToInstall, SetupDiGetActualSectionToInstall function [Device and Driver Installation], SetupDiGetActualSectionToInstallA, SetupDiGetActualSectionToInstallW, devinst.setupdigetactualsectiontoinstall, di-rtns_fce32f02-ef7f-4a51-a559-5f0da3738906.xml, setupapi/SetupDiGetActualSectionToInstall
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: ADAM
 ## -description
 
 
-The <b>SetupDiGetActualSectionToInstall</b> function retrieves the appropriate <a href="https://msdn.microsoft.com/library/Ff547344(v=VS.85).aspx">INF DDInstall section</a> to use when installing a device from a device INF file on a local computer.
+The <b>SetupDiGetActualSectionToInstall</b> function retrieves the appropriate <a href="devinst.inf_ddinstall_section">INF DDInstall section</a> to use when installing a device from a device INF file on a local computer.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ The handle to the INF file that contains the <i>DDInstall</i> section.
 
 ### -param InfSectionName [in]
 
-A pointer to the <i>DDInstall</i> section name (as specified in an <a href="https://msdn.microsoft.com/library/Ff547456(v=VS.85).aspx">INF Models section</a>). The maximum length of the section name, in characters, is 254.
+A pointer to the <i>DDInstall</i> section name (as specified in an <a href="devinst.inf_models_section">INF Models section</a>). The maximum length of the section name, in characters, is 254.
 
 
 ### -param InfSectionWithExt [out, optional]
@@ -104,7 +104,7 @@ If the function is successful, it returns <b>TRUE</b>. If the function fails, it
 
 
 
-This function supports the extensions to <i>DDInstall</i> section names that are used to specify OS-specific and architecture-specific installation behaviors for a device. For information about these extensions, see <a href="https://msdn.microsoft.com/library/Ff540206(v=VS.85).aspx">Creating INF Files for Multiple Platforms and Operating Systems</a>. <b>SetupDiGetActualSectionToInstall</b> searches for a <i>DDInstall</i> section name that matches the local computer in the manner described below.
+This function supports the extensions to <i>DDInstall</i> section names that are used to specify OS-specific and architecture-specific installation behaviors for a device. For information about these extensions, see <a href="devinst.creating_inf_files_for_multiple_platforms_and_operating_systems">Creating INF Files for Multiple Platforms and Operating Systems</a>. <b>SetupDiGetActualSectionToInstall</b> searches for a <i>DDInstall</i> section name that matches the local computer in the manner described below.
 
 The function first searches in the specified INF file for a decorated install section name that matches the specified name and has an extension that matches the operating system and processor architecture of the local computer. If, for example, you specify a section name of <b>InstallSec</b>, the function searches for one of the following decorated names, depending on the processor architecture of the local computer:
 
@@ -149,7 +149,7 @@ If a driver is not selected for the specified device information element, a null
 
 
 
-<a href="https://msdn.microsoft.com/library/Ff547344(v=VS.85).aspx">INF DDInstall Section</a>
+<a href="devinst.inf_ddinstall_section">INF DDInstall Section</a>
 
 
 

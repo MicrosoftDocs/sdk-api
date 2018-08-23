@@ -7,7 +7,7 @@ old-location: devinst\setupdienumdeviceinfo.htm
 old-project: devinst
 ms.assetid: 34df0557-eb86-4b00-bbd7-a4f0c1b82ff4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: SetupDiEnumDeviceInfo, SetupDiEnumDeviceInfo function [Device and Driver Installation], devinst.setupdienumdeviceinfo, di-rtns_db6730f9-381a-4da6-91b1-046fec51f270.xml, setupapi/SetupDiEnumDeviceInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ The <b>SetupDiEnumDeviceInfo</b> function returns a <a href="https://msdn.micros
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> for which to return an <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure that represents a device information element.
+A handle to the <a href="devinst.device_information_sets">device information set</a> for which to return an <a href="https://msdn.microsoft.com/9ad0ef4f-4a67-4f16-8bb1-2242dad0d041">SP_DEVINFO_DATA</a> structure that represents a device information element.
 
 
 ### -param MemberIndex [in]

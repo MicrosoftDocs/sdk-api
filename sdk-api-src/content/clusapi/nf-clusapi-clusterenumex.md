@@ -85,11 +85,7 @@ On output, either the required size in bytes of the buffer if the buffer is too 
 
 
 
-
-
-Returns DWORD that ...
-
-
+This function returns DWORD __stdcall.
 
 
 
@@ -99,11 +95,11 @@ Returns DWORD that ...
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn622910(v=VS.85).aspx">CLUSTER_ENUM_ITEM</a>
+<a href="https://msdn.microsoft.com/2E7FB4DA-88AD-4739-ACE0-D43670F914D4">CLUSTER_ENUM_ITEM</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369107(v=VS.85).aspx">Failover Cluster Management Function</a>
+<a href="https://msdn.microsoft.com/1b3a3b23-39db-47b7-b4a8-17fc1ee45df6">Failover Cluster Management Function</a>
  
 
  

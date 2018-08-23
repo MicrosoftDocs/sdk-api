@@ -60,7 +60,7 @@ req.product: GDI+ 1.1
 Reads the 
     <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a1a-7f1756f97804">cluster database</a> and updates the data in the 
     <a href="https://msdn.microsoft.com/b117b0eb-e188-4514-8e11-9acca1303e8f">ClusProperties</a> collection to reflect the 
-    current <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> data.
+    current <a href="c_gly.htm">cluster</a> data.
 
 
 ## -parameters

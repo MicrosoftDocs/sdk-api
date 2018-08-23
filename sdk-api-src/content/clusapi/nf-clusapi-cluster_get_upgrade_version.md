@@ -52,11 +52,11 @@ req.irql:
 
 
 
-Extracts the upgrade version portion of a  <a href="https://msdn.microsoft.com/en-us/library/Aa369163(v=VS.85).aspx">Cluster service</a> version number.
+Extracts the upgrade version portion of a  <a href="https://msdn.microsoft.com/90717d6e-f2a4-49a0-86b6-17de1c4bcfe4">Cluster service</a> version number.
 
 
 
-Minor version has been renamed to upgrade version, but the <a href="https://msdn.microsoft.com/en-us/library/Aa369103(v=VS.85).aspx">CLUSTER_GET_MINOR_VERSION</a> macro remains for compatibility.
+Minor version has been renamed to upgrade version, but the <a href="https://msdn.microsoft.com/90caa255-9b04-4b83-a846-78590bfce3a7">CLUSTER_GET_MINOR_VERSION</a> macro remains for compatibility.
 
 
 ## -parameters
@@ -73,7 +73,7 @@ Cluster service version number.
 
 
 
-Cluster service version numbers are obtained from the  <a href="https://msdn.microsoft.com/en-us/library/Aa371755(v=VS.85).aspx">NodeHighestVersion</a> and  <a href="https://msdn.microsoft.com/en-us/library/Aa371756(v=VS.85).aspx">NodeLowestVersion</a> properties as well as the function  <a href="https://msdn.microsoft.com/5b259eb9-c5d0-4f4f-8a6b-14eaed716612">GetClusterInformation</a>. For more information, see  <a href="https://msdn.microsoft.com/en-us/library/Aa373117(v=VS.85).aspx">Version Compatibility</a>.
+Cluster service version numbers are obtained from the  <a href="https://msdn.microsoft.com/915ad936-1bd1-4402-8acc-32a58b8d41d2">NodeHighestVersion</a> and  <a href="https://msdn.microsoft.com/153e0e14-e1b3-458b-bdc7-2ccdb67dabad">NodeLowestVersion</a> properties as well as the function  <a href="https://msdn.microsoft.com/5b259eb9-c5d0-4f4f-8a6b-14eaed716612">GetClusterInformation</a>. For more information, see  <a href="https://msdn.microsoft.com/919345fa-cbaa-4d01-bd3c-9ca69cab5094">Version Compatibility</a>.
 
 
 

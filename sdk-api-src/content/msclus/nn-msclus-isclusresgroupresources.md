@@ -94,7 +94,7 @@ Creates a new cluster resource and adds it to the group.
 </td>
 <td align="left" width="63%">
 Removes a resource from the group and deletes it from the 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+     <a href="c_gly.htm">cluster</a>.
 
 </td>
 </tr>

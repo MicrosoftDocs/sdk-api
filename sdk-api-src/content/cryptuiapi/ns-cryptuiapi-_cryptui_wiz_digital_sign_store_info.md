@@ -7,7 +7,7 @@ old-location: security\cryptui_wiz_digital_sign_store_info.htm
 old-project: SecCrypto
 ms.assetid: d3ffbf1c-e8c2-44ab-84d2-d32350d04407
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: "*PCRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO, CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO, CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO structure [Security], PCCRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO, PCCRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO structure pointer [Security], _CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO, cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO, cryptuiapi/PCCRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO, security.cryptui_wiz_digital_sign_store_info"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.irql:
 
 <p class="CCE_Message">[The  <b>CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO</b> structure contains information about the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate store</a> used by the digital signature wizard.
+The <b>CRYPTUI_WIZ_DIGITAL_SIGN_STORE_INFO</b> structure contains information about the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate store</a> used by the digital signature wizard.
 
 
 ## -struct-fields

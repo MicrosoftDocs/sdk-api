@@ -4,10 +4,10 @@ title: FtpSetCurrentDirectoryA function
 author: windows-sdk-content
 description: Changes to a different working directory on the FTP server.
 old-location: wininet\ftpsetcurrentdirectory.htm
-old-project: wininet
+old-project: WinInet
 ms.assetid: 1ee21e9e-d113-427e-ab47-86139e6ecad0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: FtpSetCurrentDirectory, FtpSetCurrentDirectory function [WinINet], FtpSetCurrentDirectoryA, FtpSetCurrentDirectoryW, _inet_ftpsetcurrentdirectory_function, wininet.ftpsetcurrentdirectory, wininet/FtpSetCurrentDirectory, wininet/FtpSetCurrentDirectoryA, wininet/FtpSetCurrentDirectoryW
 ms.prod: windows
 ms.technology: windows-sdk

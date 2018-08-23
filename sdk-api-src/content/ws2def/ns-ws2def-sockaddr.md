@@ -64,7 +64,7 @@ The SOCKADDR structure is a generic structure that specifies a transport address
 
 The address family for the transport address. For more information about supported address
      families, see 
-     <a href="https://msdn.microsoft.com/library/Ff571151(v=VS.85).aspx">WSK Address Families</a>.
+     <a href="netvista.wsk_address_families">WSK Address Families</a>.
 
 
 ### -field sa_data

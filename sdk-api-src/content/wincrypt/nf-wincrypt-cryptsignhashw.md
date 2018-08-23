@@ -7,7 +7,7 @@ old-location: security\cryptsignhash.htm
 old-project: SecCrypto
 ms.assetid: 9cf0de04-fdad-457d-8137-16d98f915cd5
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CRYPT_NOHASHOID, CRYPT_TYPE2_FORMAT, CRYPT_X931_FORMAT, CryptSignHash, CryptSignHash function [Security], CryptSignHashA, CryptSignHashW, _crypto2_cryptsignhash, security.cryptsignhash, wincrypt/CryptSignHash, wincrypt/CryptSignHashA, wincrypt/CryptSignHashW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -442,7 +442,7 @@ For a complete example including the  context for this code, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Hash and Digital Signature Functions</a>
+<a href="cryptography_functions.htm">Hash and Digital Signature Functions</a>
  
 
  

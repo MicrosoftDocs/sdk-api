@@ -1,0 +1,230 @@
+---
+UID: NF:dskquota.IDiskQuotaControl.CreateEnumUsers
+title: IDiskQuotaControl::CreateEnumUsers
+author: windows-sdk-content
+description: Creates an enumerator object for enumerating quota users on the volume.
+old-location: fs\idiskquotacontrol_createenumusers.htm
+old-project: fileio
+ms.assetid: a29e1955-80e2-442d-9565-c885006be565
+ms.author: windowssdkdev
+ms.date: 08/06/2018
+ms.keywords: CreateEnumUsers, CreateEnumUsers method [Files], CreateEnumUsers method [Files],IDiskQuotaControl interface, DISKQUOTA_USERNAME_RESOLVE_ASYNC, DISKQUOTA_USERNAME_RESOLVE_NONE, DISKQUOTA_USERNAME_RESOLVE_SYNC, IDiskQuotaControl interface [Files],CreateEnumUsers method, IDiskQuotaControl.CreateEnumUsers, IDiskQuotaControl::CreateEnumUsers, _win32_idiskquotacontrol_createenumusers, base.idiskquotacontrol_createenumusers, dskquota/IDiskQuotaControl::CreateEnumUsers, fs.idiskquotacontrol_createenumusers
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dskquota.h
+req.include-header: 
+req.redist: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dskquota.dll
+api_name:
+ - IDiskQuotaControl.CreateEnumUsers
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Dskquota.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IDiskQuotaControl::CreateEnumUsers
+
+
+## -description
+
+
+Creates an enumerator object for enumerating quota users on the volume. The newly created object implements the 
+<a href="https://msdn.microsoft.com/f5916b17-66ed-46d4-87f1-5ee2ef57c1a1">IEnumDiskQuotaUsers</a> interface.
+
+
+## -parameters
+
+
+
+
+### -param rgpUserSids [in]
+
+An array of security identifier (SID) pointers representing the user objects to be included in the enumeration. If this value is <b>NULL</b>, all user entries are enumerated.
+
+
+### -param cpSids [in]
+
+The number of items in the <i>rgpUserSids</i> array. Ignored if <i>rgpUserSids</i> is <b>NULL</b>.
+
+
+### -param fNameResolution [in]
+
+Indicates how the user account information is to be obtained. The volume's quota information identifies users by SID. The user account information (such as domain name, account name, and full name) must be obtained from the network domain controller, or the local computer if it is not on a network. This parameter can be one of the following values.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="DISKQUOTA_USERNAME_RESOLVE_ASYNC"></a><a id="diskquota_username_resolve_async"></a><dl>
+<dt><b>DISKQUOTA_USERNAME_RESOLVE_ASYNC</b></dt>
+<dt>2</dt>
+</dl>
+</td>
+<td width="60%">
+Resolve user account information asynchronously. The 
+<a href="https://msdn.microsoft.com/498e7c21-b18a-4d43-bbe6-9f20c2e26221">IEnumDiskQuotaUsers::Next</a> method returns immediately. The caller must implement the 
+<a href="https://msdn.microsoft.com/4b5dcb1f-8edb-4fcb-94ea-2a627667071e">IDiskQuotaEvents</a> interface to receive notification when the information is available. If the information was cached during a previous request, notification occurs as soon as the object is serviced. Otherwise, the method obtains the information from the network domain controller, then notifies 
+<b>IDiskQuotaEvents</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="DISKQUOTA_USERNAME_RESOLVE_NONE"></a><a id="diskquota_username_resolve_none"></a><dl>
+<dt><b>DISKQUOTA_USERNAME_RESOLVE_NONE</b></dt>
+<dt>0</dt>
+</dl>
+</td>
+<td width="60%">
+Do not resolve user account information.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="DISKQUOTA_USERNAME_RESOLVE_SYNC"></a><a id="diskquota_username_resolve_sync"></a><dl>
+<dt><b>DISKQUOTA_USERNAME_RESOLVE_SYNC</b></dt>
+<dt>1</dt>
+</dl>
+</td>
+<td width="60%">
+Resolve user account information synchronously. The 
+<a href="https://msdn.microsoft.com/498e7c21-b18a-4d43-bbe6-9f20c2e26221">IEnumDiskQuotaUsers::Next</a> method returns when the information is resolved. If the information exists in the disk quota SID cache, it is returned immediately. Otherwise, the method must locate the information. This can take several seconds.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -param ppEnum [out]
+
+A pointer to a pointer to the 
+<a href="https://msdn.microsoft.com/f5916b17-66ed-46d4-87f1-5ee2ef57c1a1">IEnumDiskQuotaUsers</a> enumerator.
+
+
+## -returns
+
+
+
+This method returns one of the following values.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>S_OK</b></dt>
+</dl>
+</td>
+<td width="60%">
+Success.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_ACCESS_DENIED</b></dt>
+</dl>
+</td>
+<td width="60%">
+The caller has insufficient access rights.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>ERROR_NOT_READY</b></dt>
+</dl>
+</td>
+<td width="60%">
+The DiskQuotaControl object is not initialized.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_INVALIDARG</b></dt>
+</dl>
+</td>
+<td width="60%">
+The <i>ppEnum</i> parameter is <b>NULL</b>.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_OUTOFMEMORY</b></dt>
+</dl>
+</td>
+<td width="60%">
+Insufficient memory.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_UNEXPECTED</b></dt>
+</dl>
+</td>
+<td width="60%">
+An unexpected exception occurred.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/c1f79e2e-834b-41dc-a15f-6dd1034d021b">Disk Management Interfaces</a>
+
+
+
+<a href="https://msdn.microsoft.com/42efbd5b-6455-4319-a76e-cdb666fc36b8">Disk Quotas</a>
+
+
+
+<a href="https://msdn.microsoft.com/fc9add5a-c9ef-462d-8125-128d48018717">IDiskQuotaControl</a>
+ 
+
+ 
+

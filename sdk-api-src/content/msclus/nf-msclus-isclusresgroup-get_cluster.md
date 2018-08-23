@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
     in subsequent versions.]
 
 Returns the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> associated with the 
+    <a href="c_gly.htm">cluster</a> associated with the 
     <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a>.
 
 This property is read-only.

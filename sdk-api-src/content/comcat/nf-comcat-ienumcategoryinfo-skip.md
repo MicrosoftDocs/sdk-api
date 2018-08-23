@@ -78,7 +78,7 @@ If the method skips the number of items requested, the return value is S_OK. Oth
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd542656(v=VS.85).aspx">IEnumCATEGORYINFO</a>
+<a href="https://msdn.microsoft.com/87469ace-ae34-40e5-aab6-f26a4bc50b54">IEnumCATEGORYINFO</a>
  
 
  

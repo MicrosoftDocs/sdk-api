@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Contains information specific to an <a href="https://msdn.microsoft.com/en-us/library/Bb773470(v=VS.85).aspx">NM_CUSTOMDRAW (tree view)</a> notification code sent by a tree-view control. 
+Contains information specific to an <a href="https://msdn.microsoft.com/eafe2427-20eb-4f3b-9407-bece897ffe16">NM_CUSTOMDRAW (tree view)</a> notification code sent by a tree-view control. 
 
 
 ## -struct-fields
@@ -61,10 +61,10 @@ Contains information specific to an <a href="https://msdn.microsoft.com/en-us/li
 
 ### -field nmcd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775483(v=VS.85).aspx">NMCUSTOMDRAW</a></b>
+Type: <b><a href="https://msdn.microsoft.com/c8a990a9-fb39-46e7-a5d2-fc817ff46e1b">NMCUSTOMDRAW</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775483(v=VS.85).aspx">NMCUSTOMDRAW</a> structure that contains general custom draw information. 
+<a href="https://msdn.microsoft.com/c8a990a9-fb39-46e7-a5d2-fc817ff46e1b">NMCUSTOMDRAW</a> structure that contains general custom draw information. 
 
 
 ### -field clrText

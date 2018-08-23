@@ -7,7 +7,7 @@ old-location: security\cryptsipgetcaps.htm
 old-project: SecCrypto
 ms.assetid: F939F6D5-DDFE-478F-8FDD-8FA9FAB26010
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CryptSIPGetCaps, CryptSIPGetCaps function [Security], mssip/CryptSIPGetCaps, security.cryptsipgetcaps
 ms.prod: windows
 ms.technology: windows-sdk

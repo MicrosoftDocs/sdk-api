@@ -65,28 +65,28 @@ The <b>Bitmap::ConvertFormat</b> method converts a bitmap to a specified pixel f
 Type: <b>PixelFormat</b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534412(v=VS.85).aspx">Pixel format constant</a> that specifies the new pixel format.
+<a href="https://msdn.microsoft.com/362204c5-5dd7-461a-b90b-15826c025689">Pixel format constant</a> that specifies the new pixel format.
 
 
 ### -param dithertype [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534106(v=VS.85).aspx">DitherType</a></b>
+Type: <b><a href="https://msdn.microsoft.com/12fd01ec-948f-4e44-9947-4e08b29e53f7">DitherType</a></b>
 
-Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534106(v=VS.85).aspx">DitherType</a> enumeration that specifies the dithering algorithm. In cases where the conversion does not reduce the bit depth of the pixel data, pass <b>DitherTypeNone</b>.
+Element of the <a href="https://msdn.microsoft.com/12fd01ec-948f-4e44-9947-4e08b29e53f7">DitherType</a> enumeration that specifies the dithering algorithm. In cases where the conversion does not reduce the bit depth of the pixel data, pass <b>DitherTypeNone</b>.
 
 
 ### -param palettetype [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534159(v=VS.85).aspx">PaletteType</a></b>
+Type: <b><a href="https://msdn.microsoft.com/8ab8678e-3a48-4747-8f1e-4c7fad370001">PaletteType</a></b>
 
-Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534159(v=VS.85).aspx">PaletteType</a> enumeration that specifies a standard palette to be used for dithering. If you are converting to a non-indexed format, this parameter is ignored. In that case, pass any element of the <b>PaletteType</b> enumeration, say <b>PaletteTypeCustom</b>.
+Element of the <a href="https://msdn.microsoft.com/8ab8678e-3a48-4747-8f1e-4c7fad370001">PaletteType</a> enumeration that specifies a standard palette to be used for dithering. If you are converting to a non-indexed format, this parameter is ignored. In that case, pass any element of the <b>PaletteType</b> enumeration, say <b>PaletteTypeCustom</b>.
 
 
 ### -param palette [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534064(v=VS.85).aspx">ColorPalette</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/10b81e2d-00a2-4f36-bd9d-3dddb68de781">ColorPalette</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534064(v=VS.85).aspx">ColorPalette</a> structure that specifies the palette whose indexes are stored in the pixel data of the converted bitmap. This palette (called the actual palette) does not have to have the type specified by the <i>palettetype</i> parameter. The <i>palettetype</i> parameter specifies a standard palette that can be used by any of the ordered or spiral dithering algorithms. If the actual palette has a type other than that specified by the <i>palettetype</i> parameter, then the <b>Bitmap::ConvertFormat</b> method performs a nearest-color conversion from the standard palette to the actual palette.
+Pointer to a <a href="https://msdn.microsoft.com/10b81e2d-00a2-4f36-bd9d-3dddb68de781">ColorPalette</a> structure that specifies the palette whose indexes are stored in the pixel data of the converted bitmap. This palette (called the actual palette) does not have to have the type specified by the <i>palettetype</i> parameter. The <i>palettetype</i> parameter specifies a standard palette that can be used by any of the ordered or spiral dithering algorithms. If the actual palette has a type other than that specified by the <i>palettetype</i> parameter, then the <b>Bitmap::ConvertFormat</b> method performs a nearest-color conversion from the standard palette to the actual palette.
 
 
 ### -param alphaThresholdPercent [in]
@@ -100,14 +100,14 @@ Real number in the range 0 through 100 that specifies which pixels in the source
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
 </strong>
 
 If the method succeeds, it returns <b>Ok</b>, which is an element of the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
 
 
@@ -117,11 +117,11 @@ If the method fails, it returns one of the other elements of the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a>
+<a href="https://msdn.microsoft.com/f9826772-bb8a-4339-9cea-f77637f971b2">Bitmap</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536309(v=VS.85).aspx">Bitmap::InitializePalette</a>
+<a href="https://msdn.microsoft.com/8a692b2b-e9b1-465e-9bfa-7306cd1d7ced">Bitmap::InitializePalette</a>
  
 
  

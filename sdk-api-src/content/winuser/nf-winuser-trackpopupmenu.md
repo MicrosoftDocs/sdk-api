@@ -68,7 +68,7 @@ Displays a shortcut menu at the specified location and tracks the selection of i
 
 Type: <b>HMENU</b>
 
-A handle to the shortcut menu to be displayed. The handle can be obtained by calling <a href="https://msdn.microsoft.com/en-us/library/ms647626(v=VS.85).aspx">CreatePopupMenu</a> to create a new shortcut menu, or by calling <a href="https://msdn.microsoft.com/en-us/library/ms647984(v=VS.85).aspx">GetSubMenu</a> to retrieve a handle to a submenu associated with an existing menu item. 
+A handle to the shortcut menu to be displayed. The handle can be obtained by calling <a href="https://msdn.microsoft.com/b1341fe7-1532-4e0b-82f3-540cc88c0aa7">CreatePopupMenu</a> to create a new shortcut menu, or by calling <a href="https://msdn.microsoft.com/009ede3f-da6e-4195-90e0-9f046146fd5c">GetSubMenu</a> to retrieve a handle to a submenu associated with an existing menu item. 
 
 
 ### -param uFlags [in]
@@ -339,7 +339,7 @@ Reserved; must be zero.
 
 Type: <b>HWND</b>
 
-A handle to the window that owns the shortcut menu. This window receives all messages from the menu. The window does not receive a <a href="https://msdn.microsoft.com/en-us/library/ms647591(v=VS.85).aspx">WM_COMMAND</a> message from the menu until the function returns. If you specify TPM_NONOTIFY in the <i>uFlags</i> parameter, the function does not send messages to the window identified by <i>hWnd</i>. However, you must still pass a window handle in <i>hWnd</i>. It can be any window handle from your application. 
+A handle to the window that owns the shortcut menu. This window receives all messages from the menu. The window does not receive a <a href="https://msdn.microsoft.com/5516098e-fd90-49c8-afb0-78164b028376">WM_COMMAND</a> message from the menu until the function returns. If you specify TPM_NONOTIFY in the <i>uFlags</i> parameter, the function does not send messages to the window identified by <i>hWnd</i>. However, you must still pass a window handle in <i>hWnd</i>. It can be any window handle from your application. 
 
 
 ### -param prcRect [in, optional]
@@ -366,11 +366,11 @@ If you do not specify <b>TPM_RETURNCMD</b> in the <i>uFlags</i> parameter, the r
 
 
 
-Call <a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a> with <b>SM_MENUDROPALIGNMENT</b> to determine the correct horizontal alignment flag (<b>TPM_LEFTALIGN</b> or <b>TPM_RIGHTALIGN</b>) and/or horizontal animation direction flag (<b>TPM_HORPOSANIMATION</b> or <b>TPM_HORNEGANIMATION</b>) to pass to <b>TrackPopupMenu</b> or <a href="https://msdn.microsoft.com/en-us/library/ms648003(v=VS.85).aspx">TrackPopupMenuEx</a>. This is essential for creating an optimal user experience, especially when developing Microsoft Tablet PC applications.
+Call <a href="https://msdn.microsoft.com/d063857b-6036-4e68-80af-9c70d12ae29e">GetSystemMetrics</a> with <b>SM_MENUDROPALIGNMENT</b> to determine the correct horizontal alignment flag (<b>TPM_LEFTALIGN</b> or <b>TPM_RIGHTALIGN</b>) and/or horizontal animation direction flag (<b>TPM_HORPOSANIMATION</b> or <b>TPM_HORNEGANIMATION</b>) to pass to <b>TrackPopupMenu</b> or <a href="https://msdn.microsoft.com/86b8f21b-0dfe-462e-a34a-c80ee5c1d185">TrackPopupMenuEx</a>. This is essential for creating an optimal user experience, especially when developing Microsoft Tablet PC applications.
 
-To specify an area of the screen that the menu should not overlap, use the <a href="https://msdn.microsoft.com/en-us/library/ms648003(v=VS.85).aspx">TrackPopupMenuEx</a> function
+To specify an area of the screen that the menu should not overlap, use the <a href="https://msdn.microsoft.com/86b8f21b-0dfe-462e-a34a-c80ee5c1d185">TrackPopupMenuEx</a> function
 
-To display a context menu for a notification icon, the current window must be the foreground window before the application calls <b>TrackPopupMenu</b> or <a href="https://msdn.microsoft.com/en-us/library/ms648003(v=VS.85).aspx">TrackPopupMenuEx</a>. Otherwise, the menu will not disappear when the user clicks outside of the menu or the window that created the menu (if it is visible). If the current window is a child window, you must set the (top-level) parent window as the foreground window.
+To display a context menu for a notification icon, the current window must be the foreground window before the application calls <b>TrackPopupMenu</b> or <a href="https://msdn.microsoft.com/86b8f21b-0dfe-462e-a34a-c80ee5c1d185">TrackPopupMenuEx</a>. Otherwise, the menu will not disappear when the user clicks outside of the menu or the window that created the menu (if it is visible). If the current window is a child window, you must set the (top-level) parent window as the foreground window.
 
 However, when the current window is the foreground window, the second time this menu is displayed, it appears and then immediately disappears. To correct this, you must force a task switch to the application that called <b>TrackPopupMenu</b>. This is done by posting a benign message to the window or thread, as shown in the following code sample:
 
@@ -402,7 +402,7 @@ However, when the current window is the foreground window, the second time this 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms647558(v=VS.85).aspx">Displaying a Shortcut Menu</a>. 
+For an example, see <a href="using_menus.htm">Displaying a Shortcut Menu</a>. 
 
 <div class="code"></div>
 
@@ -417,15 +417,15 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms647558(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647626(v=VS.85).aspx">CreatePopupMenu</a>
+<a href="https://msdn.microsoft.com/b1341fe7-1532-4e0b-82f3-540cc88c0aa7">CreatePopupMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647984(v=VS.85).aspx">GetSubMenu</a>
+<a href="https://msdn.microsoft.com/009ede3f-da6e-4195-90e0-9f046146fd5c">GetSubMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
 
 
 
@@ -433,11 +433,11 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms647558(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648003(v=VS.85).aspx">TrackPopupMenuEx</a>
+<a href="https://msdn.microsoft.com/86b8f21b-0dfe-462e-a34a-c80ee5c1d185">TrackPopupMenuEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647591(v=VS.85).aspx">WM_COMMAND</a>
+<a href="https://msdn.microsoft.com/5516098e-fd90-49c8-afb0-78164b028376">WM_COMMAND</a>
  
 
  

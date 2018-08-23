@@ -1,0 +1,207 @@
+---
+UID: NF:dwrite.IDWriteFactory.CreateGlyphRunAnalysis
+title: IDWriteFactory::CreateGlyphRunAnalysis
+author: windows-sdk-content
+description: Creates a glyph run analysis object, which encapsulates information used to render a glyph run.
+old-location: directwrite\IDWriteFactory_CreateGlyphRunAnalysis.htm
+old-project: DirectWrite
+ms.assetid: fcc6fe70-84ef-43ac-82ff-3f09d977220f
+ms.author: windowssdkdev
+ms.date: 07/24/2018
+ms.keywords: CreateGlyphRunAnalysis, CreateGlyphRunAnalysis method [Direct Write], CreateGlyphRunAnalysis method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],CreateGlyphRunAnalysis method, IDWriteFactory.CreateGlyphRunAnalysis, IDWriteFactory::CreateGlyphRunAnalysis, directwrite.IDWriteFactory_CreateGlyphRunAnalysis, dwrite/IDWriteFactory::CreateGlyphRunAnalysis
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dwrite.h
+req.include-header: 
+req.redist: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteFactory.CreateGlyphRunAnalysis
+product: Windows
+targetos: Windows
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IDWriteFactory::CreateGlyphRunAnalysis
+
+
+## -description
+
+
+ Creates a glyph run analysis object, which encapsulates information
+     used to render a glyph run.
+
+
+## -parameters
+
+
+
+
+### -param glyphRun [in]
+
+Type: <b>const <a href="https://msdn.microsoft.com/2997d63f-8d33-44c3-9617-cfffe5f61f7d">DWRITE_GLYPH_RUN</a>*</b>
+
+A structure that contains the properties of the glyph run (font face, advances, and so on).
+
+
+### -param pixelsPerDip
+
+Type: <b>FLOAT</b>
+
+Number of physical pixels per DIP (device independent pixel). For example, if rendering onto a 96 DPI bitmap then <i>pixelsPerDip</i>is 1. If rendering onto a 120 DPI bitmap then <i>pixelsPerDip</i> is 1.25.
+
+
+### -param transform [in, optional]
+
+Type: <b>const <a href="https://msdn.microsoft.com/fe4bd8ba-fc3b-4a04-8a72-9983d52f4404">DWRITE_MATRIX</a>*</b>
+
+Optional transform applied to the glyphs and their positions. This transform is applied after the scaling specified the <i>emSize</i> and <i>pixelsPerDip</i>.
+
+
+### -param renderingMode
+
+Type: <b><a href="https://msdn.microsoft.com/c6b2c15a-be22-49ce-affd-1369e23f4d6b">DWRITE_RENDERING_MODE</a></b>
+
+A value that specifies the rendering mode, which must be one of the raster rendering modes (that is, not default
+     and not outline).
+
+
+### -param measuringMode
+
+Type: <b><a href="https://msdn.microsoft.com/99e89754-8bc2-457d-bfdb-a3c9ccfe00c1">DWRITE_MEASURING_MODE</a></b>
+
+Specifies the measuring mode to use with glyphs.
+
+
+### -param baselineOriginX
+
+Type: <b>FLOAT</b>
+
+The horizontal position (X-coordinate) of the baseline origin, in DIPs.
+
+
+### -param baselineOriginY
+
+Type: <b>FLOAT</b>
+
+Vertical position (Y-coordinate) of the baseline origin, in DIPs.
+
+
+### -param glyphRunAnalysis [out]
+
+Type: <b><a href="https://msdn.microsoft.com/d4739b55-1a9b-4346-9b47-d8adb98df163">IDWriteGlyphRunAnalysis</a>**</b>
+
+When this method returns, contains an address of a pointer to the newly created glyph run analysis object.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+The glyph run analysis object contains the results of analyzing the glyph run, including the positions of all the glyphs and references to all of the rasterized glyphs in the font cache. 
+
+
+#### Examples
+
+The following code example shows how to create a glyph run analysis object.  In this example, an empty glyph run is being used. 
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CreateGlyphRunAnalysis(IDWriteFontFace *pFontFace, IDWriteGlyphRunAnalysis **ppGlyphRunAnalysis)
+{
+    HRESULT hr = S_OK;
+    IDWriteFactory* pDWriteFactory = NULL;
+
+    // Create the DirectWrite factory.
+    hr = DWriteCreateFactory(
+            DWRITE_FACTORY_TYPE_SHARED,
+            __uuidof(IDWriteFactory),
+            reinterpret_cast&lt;IUnknown**&gt;(&amp;pDWriteFactory)
+            );
+
+    DWRITE_GLYPH_RUN emptyGlyphRun = { 0 };
+    UINT16 glyphIndex = 0;
+    
+    emptyGlyphRun.fontFace = pFontFace;
+    emptyGlyphRun.glyphIndices = &amp;glyphIndex;
+    emptyGlyphRun.glyphCount = 0;
+   
+    emptyGlyphRun.fontEmSize = 12;
+
+    IDWriteGlyphRunAnalysis* pGlyphRunAnalysis = NULL;
+
+    if (SUCCEEDED(hr))
+    {
+        hr = pDWriteFactory-&gt;CreateGlyphRunAnalysis(
+            &amp;emptyGlyphRun,
+            1.0f, // pixelsPerDip,
+            NULL, // transform,
+            DWRITE_RENDERING_MODE_CLEARTYPE_GDI_CLASSIC,
+            DWRITE_MEASURING_MODE_GDI_CLASSIC,
+            0.0f, // baselineOriginX,
+            0.0f, // baselineOriginY,
+            &amp;pGlyphRunAnalysis);
+    }
+    
+    *ppGlyphRunAnalysis = pGlyphRunAnalysis;
+
+    SafeRelease(&amp;pDWriteFactory);
+
+    return S_OK;
+}
+</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/73a85977-5c24-4abc-ad8c-1d0d6474bd7e">IDWriteFactory</a>
+ 
+
+ 
+

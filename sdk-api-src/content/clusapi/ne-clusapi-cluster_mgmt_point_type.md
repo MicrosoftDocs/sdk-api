@@ -22,7 +22,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: CluAdmEx.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -89,7 +89,7 @@ The management point type is cluster name object (CNO) only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309151(v=VS.85).aspx">CLUSTER_IP_ENTRY</a>
+<a href="https://msdn.microsoft.com/9c2bc2ca-41e5-4e07-a3a2-d762ea5565e1">CLUSTER_IP_ENTRY</a>
 
 
 
@@ -97,7 +97,7 @@ The management point type is cluster name object (CNO) only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa373109(v=VS.85).aspx">Utility structures</a>
+<a href="https://msdn.microsoft.com/45da8dbc-dd70-4f95-b933-66d8e4340448">Utility structures</a>
  
 
  

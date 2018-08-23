@@ -149,7 +149,7 @@ You can call the <b>CoDecodeProxy</b> function from a 32-bit or 64-bit process. 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh995039(v=VS.85).aspx">ServerInformation</a>
+<a href="https://msdn.microsoft.com/568246B8-48F7-4A83-B7DE-24F36B2C3F49">ServerInformation</a>
  
 
  

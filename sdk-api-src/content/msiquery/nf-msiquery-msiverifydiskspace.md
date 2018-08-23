@@ -70,7 +70,7 @@ Handle to the installation provided to a DLL custom action or obtained through <
 
 
 
-This function returns UINT.
+This function returns UINT __stdcall.
 
 
 
@@ -90,7 +90,7 @@ See
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Installer Selection Functions</a>
+<a href="database_functions.htm">Installer Selection Functions</a>
  
 
  

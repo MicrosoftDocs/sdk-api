@@ -1,0 +1,90 @@
+---
+UID: NF:dwrite.IDWriteFontFileEnumerator.GetCurrentFontFile
+title: IDWriteFontFileEnumerator::GetCurrentFontFile
+author: windows-sdk-content
+description: Gets a reference to the current font file.
+old-location: directwrite\IDWriteFontFileEnumerator_GetCurrentFontFile.htm
+old-project: DirectWrite
+ms.assetid: e541ab2b-2dc8-45df-9d72-8d55141ef142
+ms.author: windowssdkdev
+ms.date: 07/24/2018
+ms.keywords: GetCurrentFontFile, GetCurrentFontFile method [Direct Write], GetCurrentFontFile method [Direct Write],IDWriteFontFileEnumerator interface, IDWriteFontFileEnumerator interface [Direct Write],GetCurrentFontFile method, IDWriteFontFileEnumerator.GetCurrentFontFile, IDWriteFontFileEnumerator::GetCurrentFontFile, directwrite.IDWriteFontFileEnumerator_GetCurrentFontFile, dwrite/IDWriteFontFileEnumerator::GetCurrentFontFile
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dwrite.h
+req.include-header: 
+req.redist: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteFontFileEnumerator.GetCurrentFontFile
+product: Windows
+targetos: Windows
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IDWriteFontFileEnumerator::GetCurrentFontFile
+
+
+## -description
+
+
+ Gets a reference to the current font file.
+
+
+## -parameters
+
+
+
+
+### -param fontFile [out]
+
+Type: <b><a href="https://msdn.microsoft.com/d4be5466-0b6c-4cc5-9f16-aa00c6037eb9">IDWriteFontFile</a>**</b>
+
+When this method returns, the address of a pointer to the newly created <a href="https://msdn.microsoft.com/d4be5466-0b6c-4cc5-9f16-aa00c6037eb9">IDWriteFontFile</a>  object.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/d89efffd-ccda-4d55-8419-de142b0f9652">IDWriteFontFileEnumerator</a>
+ 
+
+ 
+

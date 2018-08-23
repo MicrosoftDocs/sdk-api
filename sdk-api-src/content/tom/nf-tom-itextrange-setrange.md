@@ -94,7 +94,7 @@ This method sets the range's start position to <code>min(cpActive, cpAnchor)</co
 This method removes any other subranges this range may have. To preserve the current subranges, use <a href="https://msdn.microsoft.com/a635edd3-dcb9-4f1f-bf6e-774ce3f0c505">ITextRange2::SetActiveSubrange</a>. 
 
 
-If the text range is a selection, you can set the attributes of the selection by using the <a href="https://msdn.microsoft.com/en-us/library/Bb774143(v=VS.85).aspx">ITextSelection::SetFlags</a> method. 
+If the text range is a selection, you can set the attributes of the selection by using the <a href="https://msdn.microsoft.com/e4b96d2a-2e75-4459-9a6e-5e0483926ce1">ITextSelection::SetFlags</a> method. 
 
 
 
@@ -108,7 +108,7 @@ If the text range is a selection, you can set the attributes of the selection by
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>
 
 
 
@@ -116,7 +116,7 @@ If the text range is a selection, you can set the attributes of the selection by
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

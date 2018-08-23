@@ -7,7 +7,7 @@ old-location: appxpkg\getcurrentpackagefamilyname.htm
 old-project: appxpkg
 ms.assetid: 39DBFBDD-A1CC-45C3-A5DD-5ED9697F9AFE
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/16/2018
 ms.keywords: GetCurrentPackageFamilyName, GetCurrentPackageFamilyName function [App packaging and management], appmodel/GetCurrentPackageFamilyName, appxpkg.getcurrentpackagefamilyname
 ms.prod: windows
 ms.technology: windows-sdk

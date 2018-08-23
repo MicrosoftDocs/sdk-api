@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Loads an <a href="https://msdn.microsoft.com/en-us/library/Ee419431(v=VS.85).aspx">XMDEC4</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
+Loads an <a href="https://msdn.microsoft.com/a52fa5e4-ee45-4256-a06a-6984d63b5578">XMDEC4</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Loads an <a href="https://msdn.microsoft.com/en-us/library/Ee419431(v=VS.85).asp
 
 ### -param pSource [in]
 
-Address of the <a href="https://msdn.microsoft.com/en-us/library/Ee419431(v=VS.85).aspx">XMDEC4</a> structure to load. 
+Address of the <a href="https://msdn.microsoft.com/a52fa5e4-ee45-4256-a06a-6984d63b5578">XMDEC4</a> structure to load. 
 
 
 ## -returns

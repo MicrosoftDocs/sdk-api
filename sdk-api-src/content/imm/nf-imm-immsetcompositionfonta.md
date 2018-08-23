@@ -7,7 +7,7 @@ old-location: intl\immsetcompositionfont.htm
 old-project: Intl
 ms.assetid: 5a3a9230-0ccf-4a6e-a3e0-7a3c7dbe35cf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: ImmSetCompositionFont, ImmSetCompositionFont function [Internationalization for Windows Applications], ImmSetCompositionFontA, ImmSetCompositionFontW, _win32_ImmSetCompositionFont, imm/ImmSetCompositionFont, imm/ImmSetCompositionFontA, imm/ImmSetCompositionFontW, intl.immsetcompositionfont
 ms.prod: windows
 ms.technology: windows-sdk

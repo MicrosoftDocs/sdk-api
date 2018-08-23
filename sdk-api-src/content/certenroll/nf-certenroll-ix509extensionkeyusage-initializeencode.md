@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>InitializeEncode</b> method initializes the extension by using the <a href="https://msdn.microsoft.com/en-us/library/Aa379410(v=VS.85).aspx">X509KeyUsageFlags</a> enumeration. This method is web enabled.
+The <b>InitializeEncode</b> method initializes the extension by using the <a href="https://msdn.microsoft.com/3fcb91a3-ffcd-419f-a686-3fd2d1e795b3">X509KeyUsageFlags</a> enumeration. This method is web enabled.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>InitializeEncode</b> method initializes the extension by using the <a hre
 
 ### -param UsageFlags [in]
 
-An <a href="https://msdn.microsoft.com/en-us/library/Aa379410(v=VS.85).aspx">X509KeyUsageFlags</a> enumeration value. This can be a bitwise-<b>OR</b> combination of any of the following values.
+An <a href="https://msdn.microsoft.com/3fcb91a3-ffcd-419f-a686-3fd2d1e795b3">X509KeyUsageFlags</a> enumeration value. This can be a bitwise-<b>OR</b> combination of any of the following values.
 
 <table>
 <tr>
@@ -75,7 +75,7 @@ An <a href="https://msdn.microsoft.com/en-us/library/Aa379410(v=VS.85).aspx">X50
 </dl>
 </td>
 <td width="60%">
-The key is used with a <a href="https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx">Digital Signature Algorithm</a> (DSA) to support services other than nonrepudiation, certificate signing, or revocation list signing. DSAs are often used for authentication.
+The key is used with a <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">Digital Signature Algorithm</a> (DSA) to support services other than nonrepudiation, certificate signing, or revocation list signing. DSAs are often used for authentication.
 
 </td>
 </tr>
@@ -130,7 +130,7 @@ The key is used for key agreement. The key agreement or key exchange protocol en
 </dl>
 </td>
 <td width="60%">
-The key is used to verify a certificate signature. This value can only be used for certificates issued by <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authorities</a>.
+The key is used to verify a certificate signature. This value can only be used for certificates issued by <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authorities</a>.
 
 </td>
 </tr>
@@ -141,7 +141,7 @@ The key is used to verify a certificate signature. This value can only be used f
 </dl>
 </td>
 <td width="60%">
-The key is used to verify an offline <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate revocation list</a> (CRL) signature.
+The key is used to verify an offline <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL) signature.
 
 </td>
 </tr>
@@ -188,7 +188,7 @@ The key is used to decrypt data while performing key agreement. The <b>XCN_CERT_
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -216,12 +216,12 @@ The object is already initialized.
 
 
 
-You must call either <b>InitializeEncode</b> or <a href="https://msdn.microsoft.com/en-us/library/Aa378146(v=VS.85).aspx">InitializeDecode</a> before you can use an  <a href="https://msdn.microsoft.com/en-us/library/Aa378144(v=VS.85).aspx">IX509ExtensionKeyUsage</a> object. The two methods complement each other. The <b>InitializeEncode</b> method enables you to construct a <a href="https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx">Distinguished Encoding Rules</a> (DER) encoded <a href="https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx">Abstract Syntax Notation One</a> (ASN.1) extension object from raw data, and the <b>InitializeDecode</b> method enables you to initialize the raw data from an encoded object.
+You must call either <b>InitializeEncode</b> or <a href="https://msdn.microsoft.com/5e51a148-0a76-4f38-b92f-fd5209e0b497">InitializeDecode</a> before you can use an  <a href="https://msdn.microsoft.com/4325e6aa-99bb-4c9a-9b19-c5352ebf27b9">IX509ExtensionKeyUsage</a> object. The two methods complement each other. The <b>InitializeEncode</b> method enables you to construct a <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">Distinguished Encoding Rules</a> (DER) encoded <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1) extension object from raw data, and the <b>InitializeDecode</b> method enables you to initialize the raw data from an encoded object.
 
 You can retrieve the following properties for this extension:<ul>
-<li>The <a href="https://msdn.microsoft.com/en-us/library/Aa378409(v=VS.85).aspx">Critical</a> property identifies whether the extension is critical. You can also specify this property.</li>
-<li>The <a href="https://msdn.microsoft.com/en-us/library/Aa378518(v=VS.85).aspx">ObjectId</a> property retrieves the extension <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> (OID).</li>
-<li>The <a href="https://msdn.microsoft.com/en-us/library/Aa378150(v=VS.85).aspx">KeyUsage</a> property retrieves the restrictions that identify the intended uses of the <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">public key</a> (the raw extension data).</li>
+<li>The <a href="https://msdn.microsoft.com/b03ec7fe-78e9-4a8a-81b8-eaa91aa8d072">Critical</a> property identifies whether the extension is critical. You can also specify this property.</li>
+<li>The <a href="https://msdn.microsoft.com/d3508bfe-e323-4075-9c82-d9b53b8f54aa">ObjectId</a> property retrieves the extension <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID).</li>
+<li>The <a href="https://msdn.microsoft.com/ddb23d36-342f-4bd1-9936-72b025c4a03b">KeyUsage</a> property retrieves the restrictions that identify the intended uses of the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a> (the raw extension data).</li>
 </ul>
 
 
@@ -233,7 +233,7 @@ You can retrieve the following properties for this extension:<ul>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378144(v=VS.85).aspx">IX509ExtensionKeyUsage</a>
+<a href="https://msdn.microsoft.com/4325e6aa-99bb-4c9a-9b19-c5352ebf27b9">IX509ExtensionKeyUsage</a>
  
 
  

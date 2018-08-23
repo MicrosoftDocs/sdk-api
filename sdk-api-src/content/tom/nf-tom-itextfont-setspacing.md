@@ -148,11 +148,11 @@ Displayed text typically has an intercharacter spacing value of zero. Positive v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774025(v=VS.85).aspx">GetSpacing</a>
+<a href="https://msdn.microsoft.com/3392f160-4fe0-41f4-8069-c11576ddb83d">GetSpacing</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>
+<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
 
 
 
@@ -160,7 +160,7 @@ Displayed text typically has an intercharacter spacing value of zero. Positive v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

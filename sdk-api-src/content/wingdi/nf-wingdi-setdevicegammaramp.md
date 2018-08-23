@@ -55,7 +55,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>SetDeviceGammaRamp</b> function sets the <a href="https://msdn.microsoft.com/en-us/library/Dd316909(v=VS.85).aspx">gamma ramp</a> on direct color display boards having drivers that support downloadable gamma ramps in hardware.
+The <b>SetDeviceGammaRamp</b> function sets the <a href="g.htm">gamma ramp</a> on direct color display boards having drivers that support downloadable gamma ramps in hardware.
 
 
 ## -parameters

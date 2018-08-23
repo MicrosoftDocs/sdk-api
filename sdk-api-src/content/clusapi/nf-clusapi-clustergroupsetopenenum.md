@@ -68,7 +68,7 @@ A handle to the cluster containing the groupset.
 
 
 
-If successful, returns a handle suitable for use with <a href="https://msdn.microsoft.com/en-us/library/Mt705438(v=VS.85).aspx">ClusterGroupSetEnum</a>
+If successful, returns a handle suitable for use with <a href="https://msdn.microsoft.com/926f67bd-2933-4b95-8320-166fe5299d7a">ClusterGroupSetEnum</a>
 
 
 If the operation fails, 

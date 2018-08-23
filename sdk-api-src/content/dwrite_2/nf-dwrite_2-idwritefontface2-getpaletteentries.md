@@ -1,0 +1,133 @@
+---
+UID: NF:dwrite_2.IDWriteFontFace2.GetPaletteEntries
+title: IDWriteFontFace2::GetPaletteEntries
+author: windows-sdk-content
+description: Gets color values from the font's color palette.
+old-location: directwrite\idwritefontface2_getpaletteentries.htm
+old-project: DirectWrite
+ms.assetid: 4678E96C-A5E6-4294-8927-B71F55149342
+ms.author: windowssdkdev
+ms.date: 07/24/2018
+ms.keywords: GetPaletteEntries, GetPaletteEntries method [Direct Write], GetPaletteEntries method [Direct Write],IDWriteFontFace2 interface, IDWriteFontFace2 interface [Direct Write],GetPaletteEntries method, IDWriteFontFace2.GetPaletteEntries, IDWriteFontFace2::GetPaletteEntries, directwrite.idwritefontface2_getpaletteentries, dwrite_2/IDWriteFontFace2::GetPaletteEntries
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dwrite_2.h
+req.include-header: 
+req.redist: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteFontFace2.GetPaletteEntries
+product: Windows
+targetos: Windows
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IDWriteFontFace2::GetPaletteEntries
+
+
+## -description
+
+
+Gets color values from the font's color palette.
+
+
+## -parameters
+
+
+
+
+### -param colorPaletteIndex
+
+Zero-based index of the color palette. If the font does not have a palette with the specified index, the method returns <b>DWRITE_E_NOCOLOR</b>.
+
+
+### -param firstEntryIndex
+
+Zero-based index of the first palette entry to read.
+
+
+### -param entryCount
+
+Number of palette entries to read.
+
+
+### -param paletteEntries [out]
+
+Array that receives the color values.
+
+
+## -returns
+
+
+
+This method can return one of these values.
+
+<table>
+<tr>
+<th>Return value</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>E_INVALIDARG</dt>
+</dl>
+</td>
+<td width="60%">
+The sum of <i>firstEntryIndex</i> and <i>entryCount</i> is greater
+    than the actual number of palette entries that's returned by the <a href="https://msdn.microsoft.com/7DFB0D3F-18E8-44AA-A7DA-4B9D971D3C35">GetPaletteEntryCount</a> method.
+
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt>DWRITE_E_NOCOLOR</dt>
+</dl>
+</td>
+<td width="60%">
+The font doesn't have a palette with the specified palette index.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/D74F6472-CEEC-4DF5-83C8-0D65923C8028">IDWriteFontFace2</a>
+ 
+
+ 
+

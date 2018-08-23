@@ -62,7 +62,7 @@ The <b>DeleteNonMemberName</b> method removes the specified account name from th
 
 ### -param bstrProp [in]
 
-String that contains the account name to remove from the list of   accounts that are refused membership in the application group. The account name must be in user principal name (UPN) format (for example, "someone@example.com"). The <a href="https://msdn.microsoft.com/en-us/library/Aa379159(v=VS.85).aspx">LookupAccountName</a> function is called to retrieve the domain.
+String that contains the account name to remove from the list of   accounts that are refused membership in the application group. The account name must be in user principal name (UPN) format (for example, "someone@example.com"). The <a href="https://msdn.microsoft.com/72855539-469a-4289-99cc-eae2ed89901f">LookupAccountName</a> function is called to retrieve the domain.
 
 
 ### -param varReserved [in, optional]
@@ -74,7 +74,7 @@ Reserved for future use.
 
 
 
-To view the list of account names of accounts that are refused membership in this application group, use the <a href="https://msdn.microsoft.com/en-us/library/Aa377320(v=VS.85).aspx">NonMembersName</a> property.
+To view the list of account names of accounts that are refused membership in this application group, use the <a href="https://msdn.microsoft.com/d78556ae-0d22-4df0-b850-dd7077fa3f85">NonMembersName</a> property.
 
 
 

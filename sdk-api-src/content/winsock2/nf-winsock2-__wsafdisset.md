@@ -7,7 +7,7 @@ old-location: winsock\wsafdisset.htm
 old-project: winsock
 ms.assetid: ca420136-0b3b-45a1-85ce-83ab6ba1a70a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: "__WSAFDIsSet, __WSAFDIsSet function [Winsock], winsock.wsafdisset, winsock/__WSAFDIsSet"
 ms.prod: windows
 ms.technology: windows-sdk

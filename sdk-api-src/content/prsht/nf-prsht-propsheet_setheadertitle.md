@@ -52,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Sets the title text for the header of a wizard's interior page. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774623(v=VS.85).aspx">PSM_SETHEADERTITLE</a> message explicitly.
+Sets the title text for the header of a wizard's interior page. You can use this macro or send the <a href="https://msdn.microsoft.com/19d4badf-d99d-4a28-92d4-33bcf5d23944">PSM_SETHEADERTITLE</a> message explicitly.
 
 
 ## -parameters

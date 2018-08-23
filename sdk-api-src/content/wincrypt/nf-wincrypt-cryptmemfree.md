@@ -7,7 +7,7 @@ old-location: security\cryptmemfree.htm
 old-project: SecCrypto
 ms.assetid: fb5c10ba-da8e-4a34-9302-67586a0a9624
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CryptMemFree, CryptMemFree function [Security], _crypto2_cryptmemfree, security.cryptmemfree, wincrypt/CryptMemFree
 ms.prod: windows
 ms.technology: windows-sdk

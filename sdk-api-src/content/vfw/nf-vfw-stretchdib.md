@@ -7,7 +7,7 @@ old-location: multimedia\stretchdib.htm
 old-project: Multimedia
 ms.assetid: 9b542bcf-c32f-40ab-96d1-6f0d96b856c5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: StretchDIB, StretchDIB function [Windows Multimedia], _win32_StretchDIB, multimedia.stretchdib, vfw/StretchDIB
 ms.prod: windows
 ms.technology: windows-sdk

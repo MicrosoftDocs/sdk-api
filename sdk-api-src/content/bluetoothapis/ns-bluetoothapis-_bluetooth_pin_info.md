@@ -74,7 +74,7 @@ The length of <i>pin</i>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd469470(v=VS.85).aspx">BLUETOOTH_AUTHENTICATION_METHOD</a>
+<a href="https://msdn.microsoft.com/2374df2c-2f50-4a06-aaad-384d81b067c5">BLUETOOTH_AUTHENTICATION_METHOD</a>
  
 
  

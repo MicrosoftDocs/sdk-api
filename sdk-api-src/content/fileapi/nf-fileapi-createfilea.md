@@ -1214,7 +1214,7 @@ The <b>CreateFile</b> function can create a handle to console
       input (CONIN$). If the process has an open handle to it as a result of inheritance or 
       duplication, it can also create a handle to the active screen buffer (CONOUT$). The 
       calling process must be attached to an inherited console or one allocated by the 
-      <a href="https://msdn.microsoft.com/library/ms681944(v=VS.85).aspx">AllocConsole</a> function. For console handles, set the 
+      <a href="base.allocconsole">AllocConsole</a> function. For console handles, set the 
       <b>CreateFile</b> parameters as follows.
 
 <table>
@@ -1233,13 +1233,13 @@ Use the CONIN$ value to specify console input.
 Use the CONOUT$ value to specify console output.
 
 CONIN$ gets a handle to the console input buffer, even if the 
-         <a href="https://msdn.microsoft.com/library/ms686244(v=VS.85).aspx">SetStdHandle</a> function redirects the standard input 
+         <a href="base.setstdhandle">SetStdHandle</a> function redirects the standard input 
          handle. To get the standard input handle, use the 
-         <a href="https://msdn.microsoft.com/library/ms683231(v=VS.85).aspx">GetStdHandle</a>function.
+         <a href="base.getstdhandle">GetStdHandle</a>function.
 
 CONOUT$ gets a handle to the active screen buffer, even if 
-         <a href="https://msdn.microsoft.com/library/ms686244(v=VS.85).aspx">SetStdHandle</a>redirects the standard output handle. To 
-         get the standard output handle, use <a href="https://msdn.microsoft.com/library/ms683231(v=VS.85).aspx">GetStdHandle</a>.
+         <a href="base.setstdhandle">SetStdHandle</a>redirects the standard output handle. To 
+         get the standard output handle, use <a href="base.getstdhandle">GetStdHandle</a>.
 
 </td>
 </tr>

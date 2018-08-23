@@ -51,10 +51,10 @@ req.irql:
 ## -description
 
 
-Retrieves the <a href="https://msdn.microsoft.com/en-us/library/Aa371735(v=VS.85).aspx">Name</a> private property of the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa371733(v=VS.85).aspx">Network Name</a> resource on 
-    which a <a href="https://msdn.microsoft.com/en-us/library/Aa372152(v=VS.85).aspx">resource</a> is 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa372236(v=VS.85).aspx">dependent</a>. The <b>PCLUSAPI_GET_CLUSTER_RESOURCE_NETWORK_NAME</b> type defines a pointer to this function.
+Retrieves the <a href="https://msdn.microsoft.com/09903bd1-1049-462f-9a11-b680763e3c36">Name</a> private property of the 
+    <a href="https://msdn.microsoft.com/7b5b9d3f-98ab-419b-936e-26e9e5fc022d">Network Name</a> resource on 
+    which a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> is 
+    <a href="https://msdn.microsoft.com/2ad913d2-99cb-4885-a1de-822f77dc2030">dependent</a>. The <b>PCLUSAPI_GET_CLUSTER_RESOURCE_NETWORK_NAME</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ Handle to the dependent resource.
 ### -param lpBuffer [out]
 
 Buffer containing a null-terminated Unicode string that contains the 
-      <a href="https://msdn.microsoft.com/en-us/library/Aa371735(v=VS.85).aspx">Name</a> private property of the Network Name 
+      <a href="https://msdn.microsoft.com/09903bd1-1049-462f-9a11-b680763e3c36">Name</a> private property of the Network Name 
       resource on which the resource depends.
 
 
@@ -102,7 +102,7 @@ Do not call
     resource DLL entry point function. 
     <b>GetClusterResourceNetworkName</b> can safely 
     be called from a worker thread. For more information, see 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369588(v=VS.85).aspx">Function Calls to Avoid in Resource DLLs</a>.
+    <a href="https://msdn.microsoft.com/0eaa4aea-8d9a-4552-b43a-fafa23a3e736">Function Calls to Avoid in Resource DLLs</a>.
 
 
 
@@ -112,7 +112,7 @@ Do not call
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa372262(v=VS.85).aspx">Cluster Resource Management Functions</a>
+<a href="https://msdn.microsoft.com/d1f7360d-f592-49fb-b3b4-60d93afd7c6f">Cluster Resource Management Functions</a>
 
 
 

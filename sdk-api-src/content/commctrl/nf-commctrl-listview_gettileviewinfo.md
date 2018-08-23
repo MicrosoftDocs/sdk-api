@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Gets information about a list-view control in tile view. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761083(v=VS.85).aspx">LVM_GETTILEVIEWINFO</a> message explicitly. 
+Gets information about a list-view control in tile view. You can use this macro or send the <a href="https://msdn.microsoft.com/114990c0-a150-49d8-80e7-b084c648ac34">LVM_GETTILEVIEWINFO</a> message explicitly. 
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Gets information about a list-view control in tile view. You can use this macro 
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control. 
 
@@ -70,13 +70,13 @@ A handle to the list-view control.
 
 Type: <b>PLVTILEVIEWINFO</b>
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774768(v=VS.85).aspx">LVTILEVIEWINFO</a>
+<a href="https://msdn.microsoft.com/5169e3bd-1805-4a19-b5f1-098c100a7625">LVTILEVIEWINFO</a>
 
 ## -remarks
 
 
 
-To use <b>ListView_GetTileViewInfo</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ListView_GetTileViewInfo</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
 
 
 

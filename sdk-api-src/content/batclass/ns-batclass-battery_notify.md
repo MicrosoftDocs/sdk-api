@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-A battery miniclass driver receives a BATTERY_NOTIFY structure when its <a href="https://msdn.microsoft.com/en-us/library/Ff536277(v=VS.85).aspx">BatteryMiniSetStatusNotify</a> routine is called.
+A battery miniclass driver receives a BATTERY_NOTIFY structure when its <a href="https://msdn.microsoft.com/ec463202-4c08-475a-b612-73413f1376fc">BatteryMiniSetStatusNotify</a> routine is called.
 
 
 ## -struct-fields
@@ -79,7 +79,7 @@ Specifies a ULONG value indicating the battery capacity above which the class dr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff536277(v=VS.85).aspx">BatteryMiniSetStatusNotify</a>
+<a href="https://msdn.microsoft.com/ec463202-4c08-475a-b612-73413f1376fc">BatteryMiniSetStatusNotify</a>
  
 
  

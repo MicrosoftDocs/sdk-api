@@ -53,7 +53,7 @@ req.irql:
 
 Removes  one  container from a log that is associated with a dedicated or multiplexed log handle.
 
-A client must have  administrative privileges on the log handle to  remove   a  container.   To remove multiple containers,  use the   <a href="https://msdn.microsoft.com/en-us/library/Bb540417(v=VS.85).aspx">RemoveLogContainerSet</a>  function.
+A client must have  administrative privileges on the log handle to  remove   a  container.   To remove multiple containers,  use the   <a href="https://msdn.microsoft.com/adc35813-7368-4d8c-ad2b-1bb0824ad019">RemoveLogContainerSet</a>  function.
 
 
 ## -parameters
@@ -132,7 +132,7 @@ A log client can request a forced deletion on a container by setting the deletio
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540417(v=VS.85).aspx">RemoveLogContainerSet</a>
+<a href="https://msdn.microsoft.com/adc35813-7368-4d8c-ad2b-1bb0824ad019">RemoveLogContainerSet</a>
  
 
  

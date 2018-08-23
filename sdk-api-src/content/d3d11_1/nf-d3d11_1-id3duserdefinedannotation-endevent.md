@@ -66,7 +66,7 @@ Marks the end of a section of event code.
 
 
 
-Returns the number of previous calls to the <a href="https://msdn.microsoft.com/en-us/library/Hh446884(v=VS.85).aspx">ID3DUserDefinedAnnotation::BeginEvent</a> method that have not yet been finalized by calls to <b>EndEvent</b>.
+Returns the number of previous calls to the <a href="https://msdn.microsoft.com/38FC7BFA-A01E-4537-88F1-836AE03C9A07">ID3DUserDefinedAnnotation::BeginEvent</a> method that have not yet been finalized by calls to <b>EndEvent</b>.
 
 The return value is –1 if the calling application is not running under a Direct3D profiling tool.
 
@@ -77,7 +77,7 @@ The return value is –1 if the calling application is not running under a Direc
 
 
 
-You call the <a href="https://msdn.microsoft.com/en-us/library/Hh446884(v=VS.85).aspx">BeginEvent</a> method to mark the beginning of the section of event code.
+You call the <a href="https://msdn.microsoft.com/38FC7BFA-A01E-4537-88F1-836AE03C9A07">BeginEvent</a> method to mark the beginning of the section of event code.
 
 A user can visualize the event when the calling application is running under an enabled Direct3D profiling tool such as Microsoft Visual Studio Ultimate 2012.
 
@@ -91,7 +91,7 @@ A user can visualize the event when the calling application is running under an 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh446881(v=VS.85).aspx">ID3DUserDefinedAnnotation</a>
+<a href="https://msdn.microsoft.com/255DE24B-3D6D-49D9-B6A8-D296AB99B4C9">ID3DUserDefinedAnnotation</a>
  
 
  

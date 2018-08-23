@@ -51,15 +51,15 @@ req.irql:
 ## -description
 
 
-The <b>IX509Extensions</b> interface defines the following methods and properties to manage a collection of <a href="https://msdn.microsoft.com/en-us/library/Aa378077(v=VS.85).aspx">IX509Extension</a> objects.
+The <b>IX509Extensions</b> interface defines the following methods and properties to manage a collection of <a href="https://msdn.microsoft.com/f04e3f63-c826-4401-a1c8-b2614e0dc374">IX509Extension</a> objects.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509Extensions</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IX509Extensions</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509Extensions</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IX509Extensions</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Properties</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
 </ul>
 
 ## -members
@@ -72,10 +72,10 @@ The <b>IX509Extensions</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa378242(v=VS.85).aspx">Add</a>
+<a href="https://msdn.microsoft.com/08109828-44d9-4b8f-a57c-bbedfc82fbbb">Add</a>
 </td>
 <td align="left" width="63%">
-Adds an <a href="https://msdn.microsoft.com/en-us/library/Aa378077(v=VS.85).aspx">IX509Extension</a> object to the collection.
+Adds an <a href="https://msdn.microsoft.com/f04e3f63-c826-4401-a1c8-b2614e0dc374">IX509Extension</a> object to the collection.
 
 [WebEnabled]
 
@@ -83,28 +83,28 @@ Adds an <a href="https://msdn.microsoft.com/en-us/library/Aa378077(v=VS.85).aspx
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa378240(v=VS.85).aspx">AddRange</a>
+<a href="https://msdn.microsoft.com/e2e11b36-966b-497a-a199-41364314d287">AddRange</a>
 </td>
 <td align="left" width="63%">
-Adds a range of <a href="https://msdn.microsoft.com/en-us/library/Aa378077(v=VS.85).aspx">IX509Extension</a> objects to the collection.
+Adds a range of <a href="https://msdn.microsoft.com/f04e3f63-c826-4401-a1c8-b2614e0dc374">IX509Extension</a> objects to the collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa378247(v=VS.85).aspx">Clear</a>
+<a href="https://msdn.microsoft.com/a985521d-7fcc-49e6-b625-4038939da2ca">Clear</a>
 </td>
 <td align="left" width="63%">
-Removes all <a href="https://msdn.microsoft.com/en-us/library/Aa378077(v=VS.85).aspx">IX509Extension</a> objects from the collection.
+Removes all <a href="https://msdn.microsoft.com/f04e3f63-c826-4401-a1c8-b2614e0dc374">IX509Extension</a> objects from the collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa378267(v=VS.85).aspx">Remove</a>
+<a href="https://msdn.microsoft.com/da1fcad3-7351-4d26-b483-a6548c3bdbec">Remove</a>
 </td>
 <td align="left" width="63%">
-Removes an <a href="https://msdn.microsoft.com/en-us/library/Aa378077(v=VS.85).aspx">IX509Extension</a> object from the collection by index number.
+Removes an <a href="https://msdn.microsoft.com/f04e3f63-c826-4401-a1c8-b2614e0dc374">IX509Extension</a> object from the collection by index number.
 
 </td>
 </tr>
@@ -118,7 +118,7 @@ Removes an <a href="https://msdn.microsoft.com/en-us/library/Aa378077(v=VS.85).a
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378271(v=VS.85).aspx">_NewEnum</a>
+<a href="https://msdn.microsoft.com/73dbb02d-9d9e-4090-a879-8719cdd1dbdb">_NewEnum</a>
 
 
 </td>
@@ -130,12 +130,12 @@ Retrieves the enumerator for the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378249(v=VS.85).aspx">Count</a>
+<a href="https://msdn.microsoft.com/3afee7ca-c58c-4152-b696-19d31410de5a">Count</a>
 
 
 </td>
 <td align="left" width="63%">
-Retrieves the number of <a href="https://msdn.microsoft.com/en-us/library/Aa378077(v=VS.85).aspx">IX509Extension</a> objects in the collection.
+Retrieves the number of <a href="https://msdn.microsoft.com/f04e3f63-c826-4401-a1c8-b2614e0dc374">IX509Extension</a> objects in the collection.
 
 [WebEnabled]
 
@@ -144,12 +144,12 @@ Retrieves the number of <a href="https://msdn.microsoft.com/en-us/library/Aa3780
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa965822(v=VS.85).aspx">IndexByObjectId</a>
+<a href="https://msdn.microsoft.com/1048c1d8-11f9-4a44-a492-0518cb1782c6">IndexByObjectId</a>
 
 
 </td>
 <td align="left" width="63%">
-Retrieves the index of an extension in the collection by <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> (OID).
+Retrieves the index of an extension in the collection by <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID).
 
 </td>
 </tr>
@@ -161,7 +161,7 @@ Retrieves the index of an extension in the collection by <a href="https://msdn.m
 
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://msdn.microsoft.com/en-us/library/Aa378077(v=VS.85).aspx">IX509Extension</a> object from the collection by index number.
+Retrieves an <a href="https://msdn.microsoft.com/f04e3f63-c826-4401-a1c8-b2614e0dc374">IX509Extension</a> object from the collection by index number.
 
 [WebEnabled]
 
@@ -175,15 +175,15 @@ Retrieves an <a href="https://msdn.microsoft.com/en-us/library/Aa378077(v=VS.85)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374850(v=VS.85).aspx">CertEnroll Interfaces</a>
+<a href="https://msdn.microsoft.com/d49511ed-8651-457e-a102-0bea4edde24c">CertEnroll Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378077(v=VS.85).aspx">IX509Extension</a>
+<a href="https://msdn.microsoft.com/f04e3f63-c826-4401-a1c8-b2614e0dc374">IX509Extension</a>
  
 
  

@@ -100,19 +100,19 @@ A value that contains a combination of one or more shader requirements #define f
 <tr>
 <td><b>D3D_SHADER_REQUIRES_MINIMUM_PRECISION</b></td>
 <td>Shader requires the graphics driver and hardware to support minimum precision.
-                  For more info, see <a href="https://msdn.microsoft.com/en-us/library/Hh968108(v=VS.85).aspx">Using HLSL minimum precision</a>.
+                  For more info, see <a href="https://msdn.microsoft.com/422B0C45-5CEB-4235-AD05-62D36C36CFC6">Using HLSL minimum precision</a>.
                 </td>
 </tr>
 <tr>
 <td><b>D3D_SHADER_REQUIRES_11_1_DOUBLE_EXTENSIONS</b></td>
 <td>Shader requires that the graphics driver and hardware support extended doubles instructions.
-                  For more info, see the <b>ExtendedDoublesShaderInstructions</b> member of <a href="https://msdn.microsoft.com/en-us/library/Dn770364(v=VS.85).aspx">D3D12_FEATURE_DATA_D3D12_OPTIONS</a>.
+                  For more info, see the <b>ExtendedDoublesShaderInstructions</b> member of <a href="https://msdn.microsoft.com/3193E3CC-C6CA-43D4-8D8C-41B7FCEE2BDF">D3D12_FEATURE_DATA_D3D12_OPTIONS</a>.
                 </td>
 </tr>
 <tr>
 <td><b>D3D_SHADER_REQUIRES_11_1_SHADER_EXTENSIONS</b></td>
-<td>Shader requires that the graphics driver and hardware support the <a href="https://msdn.microsoft.com/en-us/library/Hh768927(v=VS.85).aspx">msad4</a> intrinsic function in shaders.
-                  For more info, see the <b>SAD4ShaderInstructions</b> member of <a href="https://msdn.microsoft.com/en-us/library/Dn770364(v=VS.85).aspx">D3D12_FEATURE_DATA_D3D12_OPTIONS</a>.
+<td>Shader requires that the graphics driver and hardware support the <a href="https://msdn.microsoft.com/6497F9AE-4524-44C2-A1C6-2A4ACB30FA9C">msad4</a> intrinsic function in shaders.
+                  For more info, see the <b>SAD4ShaderInstructions</b> member of <a href="https://msdn.microsoft.com/3193E3CC-C6CA-43D4-8D8C-41B7FCEE2BDF">D3D12_FEATURE_DATA_D3D12_OPTIONS</a>.
                 </td>
 </tr>
 <tr>
@@ -128,19 +128,19 @@ A value that contains a combination of one or more shader requirements #define f
 <tr>
 <td><b>D3D_SHADER_REQUIRES_STENCIL_REF</b></td>
 <td>Shader requires a reference value for depth stencil tests.
-                  For more info, see the <b>PSSpecifiedStencilRefSupported</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Dn770364(v=VS.85).aspx">D3D12_FEATURE_DATA_D3D12_OPTIONS</a> structure,
-                  and <a href="https://msdn.microsoft.com/en-us/library/Dn903887(v=VS.85).aspx">ID3D12GraphicsCommandList::OMSetStencilRef</a>.
+                  For more info, see the <b>PSSpecifiedStencilRefSupported</b> member of the <a href="https://msdn.microsoft.com/3193E3CC-C6CA-43D4-8D8C-41B7FCEE2BDF">D3D12_FEATURE_DATA_D3D12_OPTIONS</a> structure,
+                  and <a href="https://msdn.microsoft.com/96C5C209-71A2-4096-A86C-D376AC1AB46C">ID3D12GraphicsCommandList::OMSetStencilRef</a>.
                 </td>
 </tr>
 <tr>
 <td><b>D3D_SHADER_REQUIRES_INNER_COVERAGE</b></td>
-<td>Shader requires that the graphics driver and hardware support inner coverage.For more info, see the enumeration constants D3D_NAME_INNER_COVERAGE and D3D11_NAME_INNER_COVERAGE in <a href="https://msdn.microsoft.com/en-us/library/Ff728724(v=VS.85).aspx">D3D_NAME</a>.
+<td>Shader requires that the graphics driver and hardware support inner coverage.For more info, see the enumeration constants D3D_NAME_INNER_COVERAGE and D3D11_NAME_INNER_COVERAGE in <a href="https://msdn.microsoft.com/16675331-36cf-4086-a753-6d80ee934ace">D3D_NAME</a>.
                 </td>
 </tr>
 <tr>
 <td><b>D3D_SHADER_REQUIRES_TYPED_UAV_LOAD_ADDITIONAL_FORMATS</b></td>
 <td>Shader requires that the graphics driver and hardware support the loading of additional formats for typed unordered-access views (UAVs).
-                  See the <b>TypedUAVLoadAdditionalFormats</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Dn770364(v=VS.85).aspx">D3D12_FEATURE_DATA_D3D12_OPTIONS</a> structure.
+                  See the <b>TypedUAVLoadAdditionalFormats</b> member of the <a href="https://msdn.microsoft.com/3193E3CC-C6CA-43D4-8D8C-41B7FCEE2BDF">D3D12_FEATURE_DATA_D3D12_OPTIONS</a> structure.
                 </td>
 </tr>
 <tr>
@@ -151,7 +151,7 @@ A value that contains a combination of one or more shader requirements #define f
 </tr>
 <tr>
 <td><b>D3D_SHADER_REQUIRES_VIEWPORT_AND_RT_ARRAY_INDEX_FROM_ANY_SHADER_FEEDING_RASTERIZER</b></td>
-<td>Shader requires that the graphics driver and hardware support viewport and render target array index values from any shader-feeding rasterizer.For more info, see the member <b>VPAndRTArrayIndexFromAnyShaderFeedingRasterizerSupportedWithoutGSEmulation</b>of the <a href="https://msdn.microsoft.com/en-us/library/Dn770364(v=VS.85).aspx">D3D12_FEATURE_DATA_D3D12_OPTIONS</a> structure.
+<td>Shader requires that the graphics driver and hardware support viewport and render target array index values from any shader-feeding rasterizer.For more info, see the member <b>VPAndRTArrayIndexFromAnyShaderFeedingRasterizerSupportedWithoutGSEmulation</b>of the <a href="https://msdn.microsoft.com/3193E3CC-C6CA-43D4-8D8C-41B7FCEE2BDF">D3D12_FEATURE_DATA_D3D12_OPTIONS</a> structure.
                 </td>
 </tr>
 </table>

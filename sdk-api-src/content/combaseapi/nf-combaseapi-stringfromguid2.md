@@ -96,7 +96,7 @@ If the function succeeds, the return value is the number of characters in the re
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683917(v=VS.85).aspx">StringFromCLSID</a>
+<a href="https://msdn.microsoft.com/61210ebd-cbf3-4e78-b077-53d2779053eb">StringFromCLSID</a>
  
 
  

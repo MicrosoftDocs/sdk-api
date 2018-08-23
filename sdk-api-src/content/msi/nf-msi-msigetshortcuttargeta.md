@@ -89,7 +89,7 @@ A GUID of the component code. This string buffer must be 39 characters long. The
 
 
 
-This function returns UINT.
+This function returns UINT __stdcall.
 
 
 
@@ -99,10 +99,10 @@ This function returns UINT.
 
 
 If the function fails, and the shortcut exists, the regular contents of the shortcut may be accessed through the 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774950(v=VS.85).aspx">IShellLink</a> interface.
+<a href="_win32_ishelllink_cpp">IShellLink</a> interface.
 
 Otherwise, the state of the target may be determined by using the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Installer Selection Functions</a>.
+<a href="database_functions.htm">Installer Selection Functions</a>.
 
 
 

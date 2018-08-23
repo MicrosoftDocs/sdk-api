@@ -7,7 +7,7 @@ old-location: security\cryptdestroyhash.htm
 old-project: SecCrypto
 ms.assetid: 0a4d6086-5c4c-4e1e-9ab9-b35ee49ffcae
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CryptDestroyHash, CryptDestroyHash function [Security], _crypto2_cryptdestroyhash, security.cryptdestroyhash, wincrypt/CryptDestroyHash
 ms.prod: windows
 ms.technology: windows-sdk
@@ -194,7 +194,7 @@ For an example that uses the <b>CryptDestroyHash</b> function, see <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Hash and Digital Signature Functions</a>
+<a href="cryptography_functions.htm">Hash and Digital Signature Functions</a>
  
 
  

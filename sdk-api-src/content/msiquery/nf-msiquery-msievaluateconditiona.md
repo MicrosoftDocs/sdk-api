@@ -78,7 +78,7 @@ Specifies the conditional expression. This parameter must not be <b>NULL</b>. Fo
 
 
 
-This function returns MSICONDITION.
+This function returns MSICONDITION __stdcall.
 
 
 
@@ -128,7 +128,7 @@ The following table shows the feature and component state values used by the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Installer Action Functions</a>
+<a href="database_functions.htm">Installer Action Functions</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: ifsk\filterinstancefindfirst.htm
 old-project: ifsk
 ms.assetid: 4d397383-eb65-4646-80cd-203495513285
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: FilterInstanceFindFirst, FilterInstanceFindFirst function [Installable File System Drivers], FltWin32ApiRef_c49ec801-8b52-42c5-9495-7fd4eb999480.xml, fltuser/FilterInstanceFindFirst, ifsk.filterinstancefindfirst
 ms.prod: windows
 ms.technology: windows-sdk

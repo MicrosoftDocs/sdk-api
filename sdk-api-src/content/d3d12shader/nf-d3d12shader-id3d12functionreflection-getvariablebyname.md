@@ -62,7 +62,7 @@ Gets a variable by name.
 
 ### -param Name [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPCSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
 
 A pointer to a string containing the variable name.
           
@@ -72,9 +72,9 @@ A pointer to a string containing the variable name.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn933696(v=VS.85).aspx">ID3D12ShaderReflectionVariable</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/E4CF0C77-2792-46DC-B38F-22C0ACBFD615">ID3D12ShaderReflectionVariable</a>*</b>
 
-Returns a <a href="https://msdn.microsoft.com/en-us/library/Dn933696(v=VS.85).aspx">ID3D12ShaderReflectionVariable Interface</a> interface.
+Returns a <a href="https://msdn.microsoft.com/E4CF0C77-2792-46DC-B38F-22C0ACBFD615">ID3D12ShaderReflectionVariable Interface</a> interface.
           
 
 

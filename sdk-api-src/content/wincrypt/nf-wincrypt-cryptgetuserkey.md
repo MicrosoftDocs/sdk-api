@@ -7,7 +7,7 @@ old-location: security\cryptgetuserkey.htm
 old-project: SecCrypto
 ms.assetid: d9166b98-e5f1-4e5c-b6f1-2a086b102e0f
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CryptGetUserKey, CryptGetUserKey function [Security], _crypto2_cryptgetuserkey, security.cryptgetuserkey, wincrypt/CryptGetUserKey
 ms.prod: windows
 ms.technology: windows-sdk
@@ -179,7 +179,7 @@ The key requested by the <i>dwKeySpec</i> parameter does not exist.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Key Generation and Exchange Functions</a>
+<a href="cryptography_functions.htm">Key Generation and Exchange Functions</a>
  
 
  

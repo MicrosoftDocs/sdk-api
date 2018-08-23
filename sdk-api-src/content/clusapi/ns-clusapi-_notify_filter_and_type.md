@@ -62,12 +62,12 @@ Represents a filter for a notification port that was created by the <a href="htt
 
 ### -field dwObjectType
 
-A <a href="https://msdn.microsoft.com/en-us/library/Hh706766(v=VS.85).aspx">CLUSTER_OBJECT_TYPE</a> enumeration value that specifies the cluster object type for the  filter.
+A <a href="https://msdn.microsoft.com/714C0EF1-7397-4227-B4B1-AFC5E61E08C2">CLUSTER_OBJECT_TYPE</a> enumeration value that specifies the cluster object type for the  filter.
 
 
 ### -field FilterFlags
 
-A <a href="https://msdn.microsoft.com/en-us/library/Hh706746(v=VS.85).aspx">CLUSTER_CHANGE_CLUSTER_V2</a> enumeration value that specifies the type for the filter.
+A <a href="https://msdn.microsoft.com/EF414341-1EA4-4E69-AEA6-1CA3EAEAEDA5">CLUSTER_CHANGE_CLUSTER_V2</a> enumeration value that specifies the type for the filter.
 
 
 ## -see-also
@@ -75,7 +75,7 @@ A <a href="https://msdn.microsoft.com/en-us/library/Hh706746(v=VS.85).aspx">CLUS
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa373109(v=VS.85).aspx">Utility Structures</a>
+<a href="https://msdn.microsoft.com/45da8dbc-dd70-4f95-b933-66d8e4340448">Utility Structures</a>
  
 
  

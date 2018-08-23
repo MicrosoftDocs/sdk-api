@@ -69,14 +69,14 @@ Pointer to a geometry shader (see <a href="https://msdn.microsoft.com/c2b5863d-5
 
 ### -param ppClassInstances [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476353(v=VS.85).aspx">ID3D11ClassInstance</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/70d006d2-5c47-4e8a-9a14-b5475d88ac32">ID3D11ClassInstance</a>*</b>
 
-A pointer to an array of class-instance interfaces (see <a href="https://msdn.microsoft.com/en-us/library/Ff476353(v=VS.85).aspx">ID3D11ClassInstance</a>). Each interface used by a shader must have a corresponding class instance or the shader will get disabled. Set ppClassInstances to <b>NULL</b> if the shader does not use any interfaces.
+A pointer to an array of class-instance interfaces (see <a href="https://msdn.microsoft.com/70d006d2-5c47-4e8a-9a14-b5475d88ac32">ID3D11ClassInstance</a>). Each interface used by a shader must have a corresponding class instance or the shader will get disabled. Set ppClassInstances to <b>NULL</b> if the shader does not use any interfaces.
 
 
 ### -param NumClassInstances
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The number of class-instance interfaces in the array.
 
@@ -107,7 +107,7 @@ The maximum number of instances a shader can have is 256.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476385(v=VS.85).aspx">ID3D11DeviceContext</a>
+<a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a>
  
 
  

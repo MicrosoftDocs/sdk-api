@@ -7,7 +7,7 @@ old-location: security\cryptduplicatehash.htm
 old-project: SecCrypto
 ms.assetid: 527fce4d-8d42-437b-9692-42583092efbb
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CryptDuplicateHash, CryptDuplicateHash function [Security], _crypto2_cryptduplicatehash, security.cryptduplicatehash, wincrypt/CryptDuplicateHash
 ms.prod: windows
 ms.technology: windows-sdk
@@ -284,7 +284,7 @@ if(hCryptProv)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Hash and Digital Signature Functions</a>
+<a href="cryptography_functions.htm">Hash and Digital Signature Functions</a>
  
 
  

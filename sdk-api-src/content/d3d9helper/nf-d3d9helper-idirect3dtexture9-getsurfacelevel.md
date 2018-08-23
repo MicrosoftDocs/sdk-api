@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dtexture9__getsurfacelevel.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dtexture9__getsurfacelevel.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: GetSurfaceLevel, GetSurfaceLevel method [Direct3D 9], GetSurfaceLevel method [Direct3D 9],IDirect3DTexture9 interface, IDirect3DTexture9 interface [Direct3D 9],GetSurfaceLevel method, IDirect3DTexture9.GetSurfaceLevel, IDirect3DTexture9::GetSurfaceLevel, ba29c84a-8d60-aa0a-9eae-f64e0534c051, d3d9helper/IDirect3DTexture9::GetSurfaceLevel, direct3d9.idirect3dtexture9__getsurfacelevel
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,16 +69,16 @@ Identifies a level of the texture resource. This method returns a surface for th
 
 ### -param ppSurfaceLevel [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/312eee39-6a5c-46b6-b145-78d5f0f9eecd">IDirect3DSurface9</a>**</b>
 
-Address of a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a> interface, representing the returned surface. 
+Address of a pointer to an <a href="https://msdn.microsoft.com/312eee39-6a5c-46b6-b145-78d5f0f9eecd">IDirect3DSurface9</a> interface, representing the returned surface. 
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be one D3DERR_INVALIDCALL.
 
@@ -89,7 +89,7 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-Calling this method will increase the internal reference count on the <a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a> interface. Failure to call <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IUnknown::Release</a> when finished using this <b>IDirect3DSurface9</b> interface results in a memory leak.
+Calling this method will increase the internal reference count on the <a href="https://msdn.microsoft.com/312eee39-6a5c-46b6-b145-78d5f0f9eecd">IDirect3DSurface9</a> interface. Failure to call <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IUnknown::Release</a> when finished using this <b>IDirect3DSurface9</b> interface results in a memory leak.
 
 
 
@@ -99,7 +99,7 @@ Calling this method will increase the internal reference count on the <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205909(v=VS.85).aspx">IDirect3DTexture9</a>
+<a href="https://msdn.microsoft.com/fcea1048-1d9b-409f-9b5a-cdf85c30c76e">IDirect3DTexture9</a>
  
 
  

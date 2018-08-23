@@ -100,9 +100,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-The <i>wszDocFormat</i> is used to identify the correct <a href="https://msdn.microsoft.com/en-us/library/ms691105(v=VS.85).aspx">IFilter</a> for the stream returned by <a href="https://msdn.microsoft.com/en-us/library/Bb231415(v=VS.85).aspx">IUrlAccessor::BindToStream</a>. Implement this method when the URL item is supposed to have a different association than is indicated by the file name extension or content type. For example, if .doc items are not associated with Microsoft Word, this method should return the <a href="https://msdn.microsoft.com/en-us/library/ms691424(v=VS.85).aspx">CLSID Key</a> key of the appropriate document source.
+The <i>wszDocFormat</i> is used to identify the correct <a href="https://msdn.microsoft.com/80b86ea0-d9d1-4d1f-b80f-90851e5bdf11">IFilter</a> for the stream returned by <a href="https://msdn.microsoft.com/02dc13c0-01a4-416d-ba14-c0390b4c4aae">IUrlAccessor::BindToStream</a>. Implement this method when the URL item is supposed to have a different association than is indicated by the file name extension or content type. For example, if .doc items are not associated with Microsoft Word, this method should return the <a href="_com_CLSID_Key">CLSID Key</a> key of the appropriate document source.
 
-If you do not provide an implementation of this method or the <a href="https://msdn.microsoft.com/en-us/library/Bb231416(v=VS.85).aspx">IUrlAccessor::GetCLSID</a> method, the filter host uses the out parameters from <a href="https://msdn.microsoft.com/en-us/library/Bb231418(v=VS.85).aspx">IUrlAccessor::GetFileName</a> to determine the Multipurpose Internet Mail Extensions (MIME) content type. 
+If you do not provide an implementation of this method or the <a href="https://msdn.microsoft.com/dc56bacc-17a9-450f-a57c-22a90bde24b8">IUrlAccessor::GetCLSID</a> method, the filter host uses the out parameters from <a href="https://msdn.microsoft.com/410be931-d458-458a-b0cd-4e9f0c444423">IUrlAccessor::GetFileName</a> to determine the Multipurpose Internet Mail Extensions (MIME) content type. 
             
 
 

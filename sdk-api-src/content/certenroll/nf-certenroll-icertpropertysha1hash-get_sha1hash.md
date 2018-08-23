@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/Aa375797(v=VS.85).aspx">Initialize</a> method to specify a value for the <b>SHA1Hash</b> property.
+Call the <a href="https://msdn.microsoft.com/898da01b-94e6-4a07-9c53-f93378fbda8c">Initialize</a> method to specify a value for the <b>SHA1Hash</b> property.
 
 
 
@@ -74,7 +74,7 @@ Call the <a href="https://msdn.microsoft.com/en-us/library/Aa375797(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375792(v=VS.85).aspx">ICertPropertySHA1Hash</a>
+<a href="https://msdn.microsoft.com/0946827b-c933-472c-9466-aaa3495ab202">ICertPropertySHA1Hash</a>
  
 
  

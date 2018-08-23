@@ -84,7 +84,7 @@ The GUID of the provider group that this provider is a member of.
 
 
 
-Before using this macro, you need to declare your TraceLogging provider using <a href="https://msdn.microsoft.com/E9C0B622-77A5-498F-BB28-C6C181271276">TRACELOGGING_DECLARE_PROVIDER</a>. Once the provider is created, it is in the unregistered state. Before it can respond to any write calls, you need to register the provider using  <a href="https://msdn.microsoft.com/en-us/library/Dn904610(v=VS.85).aspx">TraceLoggingRegister</a>.
+Before using this macro, you need to declare your TraceLogging provider using <a href="https://msdn.microsoft.com/E9C0B622-77A5-498F-BB28-C6C181271276">TRACELOGGING_DECLARE_PROVIDER</a>. Once the provider is created, it is in the unregistered state. Before it can respond to any write calls, you need to register the provider using  <a href="https://msdn.microsoft.com/621A7DA3-8E75-431C-B747-FFCE72EB2110">TraceLoggingRegister</a>.
 
 Use the <a href="https://msdn.microsoft.com/5D794C46-95B2-4111-AFB8-CE488B4D1A42">TraceLoggingOptionGroup</a> macro to  specify the GUID of the provider group that the provider belongs to. A provider can be a member of no
 more than one group. The semantics of group membership are determined by

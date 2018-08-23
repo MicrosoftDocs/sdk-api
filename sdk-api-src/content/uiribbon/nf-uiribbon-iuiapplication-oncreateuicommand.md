@@ -52,7 +52,7 @@ req.product: Windows UI
 ## -description
 
 
-Called for each Command specified in the Windows Ribbon framework markup to bind the Command to an <a href="https://msdn.microsoft.com/en-us/library/Dd371491(v=VS.85).aspx">IUICommandHandler</a>.
+Called for each Command specified in the Windows Ribbon framework markup to bind the Command to an <a href="https://msdn.microsoft.com/cd739f99-b3f2-4ddb-a844-eb888d9c7f67">IUICommandHandler</a>.
 		
 
 
@@ -71,18 +71,18 @@ The ID for the Command, which is specified in the markup resource file.
 
 ### -param typeID [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd371556(v=VS.85).aspx">UI_COMMANDTYPE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/afc2cf3e-c04d-45e1-93b3-23e5966b980c">UI_COMMANDTYPE</a></b>
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd371556(v=VS.85).aspx">Command type</a> that is associated with a specific control.
+The <a href="https://msdn.microsoft.com/afc2cf3e-c04d-45e1-93b3-23e5966b980c">Command type</a> that is associated with a specific control.
 				
 
 
 ### -param commandHandler [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd371491(v=VS.85).aspx">IUICommandHandler</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/cd739f99-b3f2-4ddb-a844-eb888d9c7f67">IUICommandHandler</a>**</b>
 
 When this method returns, contains the address of a pointer to an 
-					<a href="https://msdn.microsoft.com/en-us/library/Dd371491(v=VS.85).aspx">IUICommandHandler</a> object. This object is a host application 
+					<a href="https://msdn.microsoft.com/cd739f99-b3f2-4ddb-a844-eb888d9c7f67">IUICommandHandler</a> object. This object is a host application 
 					Command handler that is bound to one or more Commands.
 				
 
@@ -175,11 +175,11 @@ STDMETHODIMP CApplication::OnCreateUICommand(
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371528(v=VS.85).aspx">IUIApplication</a>
+<a href="https://msdn.microsoft.com/0df1d890-cc78-4375-a17e-6fe7c0249107">IUIApplication</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://msdn.microsoft.com/79d092c9-347b-4b8f-8ba4-a8f696ce6a85">Windows Ribbon Framework Samples</a>
  
 
  

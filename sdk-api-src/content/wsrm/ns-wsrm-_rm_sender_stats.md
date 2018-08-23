@@ -7,7 +7,7 @@ old-location: winsock\rm_sender_stats.htm
 old-project: winsock
 ms.assetid: 9ab6019c-459a-443d-b8e4-f7ee362e3385
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: RM_SENDER_STATS, RM_SENDER_STATS structure [Winsock], _RM_SENDER_STATS, winsock.rm_sender_stats, wsrm/RM_SENDER_STATS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-The <b>RM_SENDER_STATS</b> structure provides statistical information for a Reliable Multicast sender session. This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/ms740525(v=VS.85).aspx">RM_SENDER_STATISTICS</a> socket option.
+The <b>RM_SENDER_STATS</b> structure provides statistical information for a Reliable Multicast sender session. This structure is used with the <a href="socket_options.htm">RM_SENDER_STATISTICS</a> socket option.
 
 
 ## -struct-fields

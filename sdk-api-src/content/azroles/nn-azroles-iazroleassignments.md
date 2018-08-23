@@ -51,5 +51,5 @@ req.irql:
 ## -description
 
 
-The <b>IAzRoleAssignments</b> interface represents a collection of <a href="https://msdn.microsoft.com/en-us/library/Aa377918(v=VS.85).aspx">IAzRoleAssignment</a> objects.
+The <b>IAzRoleAssignments</b> interface represents a collection of <a href="https://msdn.microsoft.com/3f0b926f-77f4-4477-b155-5f866822baba">IAzRoleAssignment</a> objects.
 

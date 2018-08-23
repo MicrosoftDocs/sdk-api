@@ -63,9 +63,9 @@ Contains information about an unsupported Rich Text Format (RTF) keyword in a Mi
 
 ### -field nmhdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
-Specifies an <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure. 
+Specifies an <a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure. 
 
 
 ### -field szControl
@@ -79,7 +79,7 @@ The unsupported RTF keyword.
 
 
 
-This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb787972(v=VS.85).aspx">EN_LOWFIRTF</a> message.
+This structure is used with the <a href="https://msdn.microsoft.com/3b18320b-ebc3-44f2-a93c-e967a028c522">EN_LOWFIRTF</a> message.
 
 
 
@@ -89,7 +89,7 @@ This structure is used with the <a href="https://msdn.microsoft.com/en-us/librar
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787972(v=VS.85).aspx">EN_LOWFIRTF</a>
+<a href="https://msdn.microsoft.com/3b18320b-ebc3-44f2-a93c-e967a028c522">EN_LOWFIRTF</a>
  
 
  

@@ -65,14 +65,9 @@ Handles a Microsoft UI Automation notification event.
 A pointer to the element that raised the event.
 
 
-### -param notificationKind
-
-The type of notification.
+### -param param
 
 
-### -param notificationProcessing
-
-Indicates how to process notifications.
 
 
 ### -param displayString
@@ -83,6 +78,16 @@ A string to display in the notification message.
 ### -param activityId
 
 A unique non-localized string to identify an action or group of actions. This is used to pass additional information to the event handler.
+
+
+#### - notificationKind
+
+The type of notification.
+
+
+#### - notificationProcessing
+
+Indicates how to process notifications.
 
 
 ## -returns

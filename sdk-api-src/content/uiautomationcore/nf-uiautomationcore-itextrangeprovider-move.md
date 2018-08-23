@@ -60,11 +60,9 @@ Moves the text range forward or backward by the specified number of text units.
 
 
 
-### -param unit [in]
+### -param param
 
-Type: <b><a href="https://msdn.microsoft.com/518318fc-d60f-41b7-a6da-1f2bf5c2e494">TextUnit</a></b>
 
-The type of text units, such as character, word, paragraph, and so on.
 
 
 ### -param count [in]
@@ -82,6 +80,13 @@ Type: <b>int*</b>
 
 The number of text units actually moved. This can be less than the number requested if 
 				either of the new text range endpoints is greater than or less than the endpoints retrieved by the <a href="https://msdn.microsoft.com/38892548-7c1f-4bac-8eac-29d7b4d190d3">ITextProvider::DocumentRange</a> method. This value can be negative if navigation is happening in the backward direction.
+
+
+#### - unit [in]
+
+Type: <b><a href="https://msdn.microsoft.com/518318fc-d60f-41b7-a6da-1f2bf5c2e494">TextUnit</a></b>
+
+The type of text units, such as character, word, paragraph, and so on.
 
 
 ## -returns

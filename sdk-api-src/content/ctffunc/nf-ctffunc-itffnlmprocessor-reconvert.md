@@ -60,7 +60,7 @@ req.irql:
 
 ### -param pRange [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms628908(v=VS.85).aspx">ITfRange</a> object that covers the text to reconvert.
+Pointer to an <a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange</a> object that covers the text to reconvert.
 
 
 ## -returns
@@ -117,7 +117,7 @@ An unspecified error occurred.
 
 
 
-This method is identical to <a href="https://msdn.microsoft.com/en-us/library/ms538975(v=VS.85).aspx">ITfFnReconversion::Reconvet</a>. When <b>ITfFnReconversion::Reconvet</b> is called in the text service, the text service should forward the call to this method if a language model processor is installed. If no language model processor is installed, the text service should perform its default processing.
+This method is identical to <a href="https://msdn.microsoft.com/81d0f376-c059-4fcf-b85b-645bc98f957d">ITfFnReconversion::Reconvet</a>. When <b>ITfFnReconversion::Reconvet</b> is called in the text service, the text service should forward the call to this method if a language model processor is installed. If no language model processor is installed, the text service should perform its default processing.
 
 
 
@@ -127,7 +127,7 @@ This method is identical to <a href="https://msdn.microsoft.com/en-us/library/ms
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms538944(v=VS.85).aspx">ITfFnLMProcessor</a>
+<a href="https://msdn.microsoft.com/89581a75-9263-45d7-99de-b3bd78a5169c">ITfFnLMProcessor</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: tablet\inkdrawingattributes_fittocurve.htm
 old-project: tablet
 ms.assetid: 93b11903-84dd-4f7a-a47c-555d19fede8d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: 93b11903-84dd-4f7a-a47c-555d19fede8d, FitToCurve property [Tablet PC], FitToCurve property [Tablet PC],IInkDrawingAttributes interface, IInkDrawingAttributes interface [Tablet PC],FitToCurve property, IInkDrawingAttributes.FitToCurve, IInkDrawingAttributes.put_FitToCurve, IInkDrawingAttributes::FitToCurve, IInkDrawingAttributes::get_FitToCurve, IInkDrawingAttributes::put_FitToCurve, InkDrawingAttributes.get_FitToCurve, InkDrawingAttributes.put_FitToCurve, msinkaut/IInkDrawingAttributes::FitToCurve, msinkaut/IInkDrawingAttributes::get_FitToCurve, msinkaut/IInkDrawingAttributes::put_FitToCurve, put_FitToCurve, tablet.inkdrawingattributes_fittocurve
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,7 +88,7 @@ If you set this property while collecting a stroke or strokes, the ink does not 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846798(v=VS.85).aspx">IInkDrawingAttributes</a>
+<a href="https://msdn.microsoft.com/47106C55-FA03-4996-BCFA-D00A51AF55EE">IInkDrawingAttributes</a>
 
 
 

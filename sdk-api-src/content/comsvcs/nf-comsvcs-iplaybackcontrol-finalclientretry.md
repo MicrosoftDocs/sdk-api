@@ -89,7 +89,7 @@ If this method is not successful, the message is left on the Xact dead letter qu
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680150(v=VS.85).aspx">IPlaybackControl</a>
+<a href="https://msdn.microsoft.com/3a528e92-37ac-4108-b52a-557a90da4a47">IPlaybackControl</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: intl\immsetconversionstatus.htm
 old-project: Intl
 ms.assetid: cdf6ea84-bab9-4ecc-b2d1-748e5e28615f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: ImmSetConversionStatus, ImmSetConversionStatus function [Internationalization for Windows Applications], _win32_ImmSetConversionStatus, imm/ImmSetConversionStatus, intl.immsetconversionstatus
 ms.prod: windows
 ms.technology: windows-sdk

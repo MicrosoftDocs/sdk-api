@@ -61,7 +61,9 @@ Normalizes the text range by the specified text unit. The range is expanded if i
 
 
 
-### -param textUnit [in]
+
+
+#### - textUnit [in]
 
 Type: <b><a href="https://msdn.microsoft.com/518318fc-d60f-41b7-a6da-1f2bf5c2e494">TextUnit</a></b>
 
@@ -88,7 +90,7 @@ Client applications such as screen readers use this method  to retrieve  the ful
 Despite its name, the <b>ExpandToEnclosingUnit</b> method does not necessarily expand a text range. Instead, it "normalizes" a text range by moving the endpoints so that the range encompasses the specified text unit. The range is expanded if it is smaller than the specified unit, or shortened if it is longer than the specified unit. If the range is already an exact quantity of the specified units, it remains unchanged. The following diagram shows how <b>ExpandToEnclosingUnit</b> normalizes a text range by moving the endpoints of the range. 
             
 
-<img alt="Diagram showing endpoint positions before and after a call to ExpandToEnclosingUnit" src="./images/ExpandToEnclosingUnit.jpg"/>
+<img alt="Diagram showing endpoint positions before and after a call to ExpandToEnclosingUnit" src="images/ExpandToEnclosingUnit.jpg"/>
 <b>ExpandToEnclosingUnit</b> defaults to the next largest text unit 
         supported if the specified text unit is not supported by the control. 
         

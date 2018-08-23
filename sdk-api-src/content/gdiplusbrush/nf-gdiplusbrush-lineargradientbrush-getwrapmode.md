@@ -66,10 +66,10 @@ The <b>LinearGradientBrush::GetWrapMode</b> method gets the wrap mode for this b
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534407(v=VS.85).aspx">WrapMode</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/24b035f9-c03e-4502-b603-d6a9e47d6df9">WrapMode</a></b>
 </strong>
 
-This method returns one of the following elements of the <a href="https://msdn.microsoft.com/en-us/library/ms534407(v=VS.85).aspx">WrapMode</a> enumeration:
+This method returns one of the following elements of the <a href="https://msdn.microsoft.com/24b035f9-c03e-4502-b603-d6a9e47d6df9">WrapMode</a> enumeration:
 
 <ul>
 <li>WrapModeTile</li>
@@ -138,31 +138,31 @@ The following example creates a linear gradient brush and sets its wrap mode. Ne
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536356(v=VS.85).aspx">Brushes and Filled Shapes</a>
+<a href="https://msdn.microsoft.com/889558d5-9181-43ff-b862-e92966324208">Brushes and Filled Shapes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533806(v=VS.85).aspx">Filling Shapes with a Gradient Brush</a>
+<a href="https://msdn.microsoft.com/e37b4c3a-b753-483a-990f-da3bcc70acf5">Filling Shapes with a Gradient Brush</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534473(v=VS.85).aspx">LinearGradientBrush</a>
+<a href="https://msdn.microsoft.com/43901cd3-b059-4830-9063-e8287899e18a">LinearGradientBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535349(v=VS.85).aspx">LinearGradientBrush::SetWrapMode</a>
+<a href="https://msdn.microsoft.com/10b9aeb8-1925-4e59-8054-923b086af06f">LinearGradientBrush::SetWrapMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a>
+<a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533861(v=VS.85).aspx">Tiling a Shape with an Image</a>
+<a href="https://msdn.microsoft.com/c92aa519-647a-4cd9-b88e-b79be0116d05">Tiling a Shape with an Image</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534407(v=VS.85).aspx">WrapMode</a>
+<a href="https://msdn.microsoft.com/24b035f9-c03e-4502-b603-d6a9e47d6df9">WrapMode</a>
  
 
  

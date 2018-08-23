@@ -7,7 +7,7 @@ old-location: tablet\inkrenderer_measure.htm
 old-project: tablet
 ms.assetid: 1ef9ef91-ae96-454f-9ef8-570e64852395
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: 1ef9ef91-ae96-454f-9ef8-570e64852395, IInkRenderer interface [Tablet PC],Measure method, IInkRenderer.Measure, IInkRenderer::Measure, Measure, Measure method [Tablet PC], Measure method [Tablet PC],IInkRenderer interface, msinkaut/IInkRenderer::Measure, tablet.inkrenderer_measure
 ms.prod: windows
 ms.technology: windows-sdk
@@ -190,7 +190,7 @@ For example, consider that the pen width is originally 53, the square root of th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846805(v=VS.85).aspx">IInkRenderer</a>
+<a href="https://msdn.microsoft.com/2AB56616-3F67-4428-8A99-FCE733A5FDBF">IInkRenderer</a>
 
 
 

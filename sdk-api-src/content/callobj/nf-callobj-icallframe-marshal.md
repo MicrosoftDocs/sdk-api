@@ -62,12 +62,12 @@ Marshals the call frame by turning its reachable data into a flat buffer without
 
 ### -param pmshlContext [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms682388(v=VS.85).aspx">CALLFRAME_MARSHALCONTEXT</a> structure containing context information about how marshalling is carried out.
+A pointer to the <a href="https://msdn.microsoft.com/4ecc4646-db3f-4d0e-9c45-b78a288156e1">CALLFRAME_MARSHALCONTEXT</a> structure containing context information about how marshalling is carried out.
 
 
 ### -param mshlflags [in]
 
-Flag indicating whether the data to be marshaled is to be transmitted back to the client process â€” the normal case â€” or written to a global table, where it can be retrieved by multiple clients. The possible values are from the <a href="https://msdn.microsoft.com/en-us/library/ms680759(v=VS.85).aspx">MSHLFLAGS</a> enumeration.
+Flag indicating whether the data to be marshaled is to be transmitted back to the client process â€” the normal case â€” or written to a global table, where it can be retrieved by multiple clients. The possible values are from the <a href="https://msdn.microsoft.com/42a482be-d4b8-4f2e-ae43-1d210cb44c7c">MSHLFLAGS</a> enumeration.
 
 
 ### -param pBuffer [in]
@@ -87,12 +87,12 @@ Receives the size of the buffer that was actually used. This parameter is option
 
 ### -param pdataRep [out]
 
-Receives the NDR data representation with which the data was marshaled. This parameter is optional. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms686644(v=VS.85).aspx">IRpcChannelBuffer::GetBuffer</a>.
+Receives the NDR data representation with which the data was marshaled. This parameter is optional. For more information, see <a href="https://msdn.microsoft.com/775a15df-8bcf-4c1b-a8b9-5c7c03106c09">IRpcChannelBuffer::GetBuffer</a>.
 
 
 ### -param prpcFlags [out]
 
-Receives an RPC flag associated with the call. This parameter is optional. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms686644(v=VS.85).aspx">IRpcChannelBuffer::GetBuffer</a>.
+Receives an RPC flag associated with the call. This parameter is optional. For more information, see <a href="https://msdn.microsoft.com/775a15df-8bcf-4c1b-a8b9-5c7c03106c09">IRpcChannelBuffer::GetBuffer</a>.
 
 
 ## -returns
@@ -150,7 +150,7 @@ If this method returns an error, the caller will not be able to clean it up. Res
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683709(v=VS.85).aspx">ICallFrame</a>
+<a href="https://msdn.microsoft.com/56a75123-f402-4187-af13-d31f72a5f094">ICallFrame</a>
  
 
  

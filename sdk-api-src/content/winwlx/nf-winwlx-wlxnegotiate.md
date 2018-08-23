@@ -7,7 +7,7 @@ old-location: security\wlxnegotiate.htm
 old-project: secauthn
 ms.assetid: 9e7bab30-5cc6-4c55-82e4-d888e1af59ed
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: WlxNegotiate, WlxNegotiate function [Security], _gina_wlxnegotiate, security.wlxnegotiate, winwlx/WlxNegotiate
 ms.prod: windows
 ms.technology: windows-sdk

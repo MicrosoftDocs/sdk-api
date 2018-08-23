@@ -90,7 +90,7 @@ Defines a message other than corruption, error, warning, or information.
 
 
 
-Use these values to allow or deny message categories to pass through the storage and retrieval filters for an information queue (see <a href="https://msdn.microsoft.com/en-us/library/Ff476177(v=VS.85).aspx">D3D11_INFO_QUEUE_FILTER</a>). This API is used by <a href="https://msdn.microsoft.com/en-us/library/Ff476539(v=VS.85).aspx">ID3D11InfoQueue::AddApplicationMessage</a>.
+Use these values to allow or deny message categories to pass through the storage and retrieval filters for an information queue (see <a href="https://msdn.microsoft.com/6ff12751-86dd-4ae0-b532-661a70dad21f">D3D11_INFO_QUEUE_FILTER</a>). This API is used by <a href="https://msdn.microsoft.com/ca5a5e33-f912-4283-8b23-b212ace6089c">ID3D11InfoQueue::AddApplicationMessage</a>.
 
 
 
@@ -100,7 +100,7 @@ Use these values to allow or deny message categories to pass through the storage
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476157(v=VS.85).aspx">Layer Enumerations</a>
+<a href="https://msdn.microsoft.com/0fd0456b-2638-4b4c-8a34-a3e104a1a034">Layer Enumerations</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: intl\ifelanguage.htm
 old-project: Intl
 ms.assetid: 9EE1BD9E-2D58-4720-841C-39865375BFE0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: IFELanguage, IFELanguage interface [Internationalization for Windows Applications], IFELanguage interface [Internationalization for Windows Applications],described, intl.ifelanguage, msime/IFELanguage
 ms.prod: windows
 ms.technology: windows-sdk

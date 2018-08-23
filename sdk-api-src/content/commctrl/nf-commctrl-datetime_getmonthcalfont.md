@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Gets the font that the date and time picker (DTP) control's child month calendar control is currently using. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761761(v=VS.85).aspx">DTM_GETMCFONT</a> message explicitly. 
+Gets the font that the date and time picker (DTP) control's child month calendar control is currently using. You can use this macro or send the <a href="https://msdn.microsoft.com/6687a1dc-6f6d-4684-80b2-f726b08d2f3a">DTM_GETMCFONT</a> message explicitly. 
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Gets the font that the date and time picker (DTP) control's child month calendar
 
 ### -param hdp
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to a DTP control. 
 

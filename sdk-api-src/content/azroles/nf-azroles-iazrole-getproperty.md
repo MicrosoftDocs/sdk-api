@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-The <b>GetProperty</b> method returns the <a href="https://msdn.microsoft.com/en-us/library/Aa377917(v=VS.85).aspx">IAzRole</a> object property  with the specified property ID.
+The <b>GetProperty</b> method returns the <a href="https://msdn.microsoft.com/2934d783-b379-486c-80e7-e7650b89dc1a">IAzRole</a> object property  with the specified property ID.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The <b>GetProperty</b> method returns the <a href="https://msdn.microsoft.com/en
 
 ### -param lPropId [in]
 
-Property ID of the <a href="https://msdn.microsoft.com/en-us/library/Aa377917(v=VS.85).aspx">IAzRole</a> object property  to return. The following table shows the possible values.
+Property ID of the <a href="https://msdn.microsoft.com/2934d783-b379-486c-80e7-e7650b89dc1a">IAzRole</a> object property  to return. The following table shows the possible values.
 
 <table>
 <tr>
@@ -180,7 +180,7 @@ Reserved for future use.
 
 ### -param pvarProp [out]
 
-A pointer to the returned <a href="https://msdn.microsoft.com/en-us/library/Aa377917(v=VS.85).aspx">IAzRole</a> object property.
+A pointer to the returned <a href="https://msdn.microsoft.com/2934d783-b379-486c-80e7-e7650b89dc1a">IAzRole</a> object property.
 
 
 ## -returns

@@ -74,7 +74,7 @@ Specifies the maximum number of node descriptors that the <i>rgNodeDescriptors</
 
 ### -param rgNodeDescriptors [in, out]
 
-Pointer to a buffer that receives an array of node descriptors. Each node descriptor is a structure of type <a href="https://msdn.microsoft.com/en-us/library/Dd693001(v=VS.85).aspx">BDANODE_DESCRIPTOR</a>.
+Pointer to a buffer that receives an array of node descriptors. Each node descriptor is a structure of type <a href="https://msdn.microsoft.com/6ab03494-6564-4d4d-83bf-a9a6e588aac3">BDANODE_DESCRIPTOR</a>.
 
 
 ## -returns
@@ -91,11 +91,11 @@ If the method succeeds, it returns S_OK. If it fails, it returns an error code.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693447(v=VS.85).aspx">IBDA_Topology Interface</a>
+<a href="https://msdn.microsoft.com/35dfe39e-05b4-4c7b-9358-081429b064f2">IBDA_Topology Interface</a>
  
 
  

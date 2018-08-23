@@ -106,19 +106,19 @@ The following example assumes that
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533850(v=VS.85).aspx">Drawing a Custom Dashed Line</a>
+<a href="https://msdn.microsoft.com/0e75de3b-1006-4c8f-875c-eeb0782f24b0">Drawing a Custom Dashed Line</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a>
+<a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535048(v=VS.85).aspx">Pen::SetDashOffset</a>
+<a href="https://msdn.microsoft.com/7d60736d-76e0-47d8-a138-7d9665741f10">Pen::SetDashOffset</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
+<a href="https://msdn.microsoft.com/d91562ab-41e6-4bca-a320-74f490a4f88f">Pens, Lines, and Rectangles</a>
  
 
  

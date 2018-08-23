@@ -58,7 +58,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 
-The <b>INSNetSourceCreator</b> interface creates an administrative network source <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">plug-in</a>. You can use an administrative network source plug-in to cache passwords and to locate the appropriate proxy server to use for Internet operations.
+The <b>INSNetSourceCreator</b> interface creates an administrative network source <a href="wmformat_glossary.htm">plug-in</a>. You can use an administrative network source plug-in to cache passwords and to locate the appropriate proxy server to use for Internet operations.
 
 To get a pointer to the <b>INSNetSourceCreator</b> interface, call <a href="https://msdn.microsoft.com/7295a55b-12c7-4ed0-a7a4-9ecee16afdec">CoCreateInstance</a> with <b>CLSID_ClientNetManager</b> as the <i>REFCLSID</i> parameter.
 

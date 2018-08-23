@@ -7,7 +7,7 @@ old-location: security\pfxverifypassword.htm
 old-project: SecCrypto
 ms.assetid: 47560192-547e-4440-9f10-43327355e1a0
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: PFXVerifyPassword, PFXVerifyPassword function [Security], _crypto2_pfxverifypassword, security.pfxverifypassword, wincrypt/PFXVerifyPassword
 ms.prod: windows
 ms.technology: windows-sdk

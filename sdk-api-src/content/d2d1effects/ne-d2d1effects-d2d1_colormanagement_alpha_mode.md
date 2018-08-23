@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Indicates how the <a href="https://msdn.microsoft.com/en-us/library/Hh706318(v=VS.85).aspx">Color management effect</a> should interpret alpha data that is contained in the input image.
+Indicates how the <a href="https://msdn.microsoft.com/7351C4B4-F289-4236-BB42-1B3BD8753248">Color management effect</a> should interpret alpha data that is contained in the input image.
         
 
 

@@ -7,7 +7,7 @@ old-location: security\dhpubkey.htm
 old-project: SecCrypto
 ms.assetid: 12fb2e81-796d-4501-91b5-ee572a3293bb
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: DHPUBKEY, DHPUBKEY structure [Security], DSSPUBKEY, KEAPUBKEY, TEKPUBKEY, _PUBKEY, _crypto2_dhpubkey, security.dhpubkey, wincrypt/DHPUBKEY
 ms.prod: windows
 ms.technology: windows-sdk

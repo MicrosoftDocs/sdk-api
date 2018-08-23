@@ -7,7 +7,7 @@ old-location: security\saslidentifypackage.htm
 old-project: secauthn
 ms.assetid: df6f4749-8f28-4ee5-8165-f7aeb3bea7ab
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: SaslIdentifyPackage, SaslIdentifyPackage function [Security], SaslIdentifyPackageA, SaslIdentifyPackageW, security.saslidentifypackage, sspi/SaslIdentifyPackage, sspi/SaslIdentifyPackageA, sspi/SaslIdentifyPackageW
 ms.prod: windows
 ms.technology: windows-sdk

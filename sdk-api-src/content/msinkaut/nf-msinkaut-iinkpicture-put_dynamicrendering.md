@@ -7,7 +7,7 @@ old-location: tablet\inkpicture_dynamicrendering.htm
 old-project: tablet
 ms.assetid: e1200e66-d2d7-4c82-b243-53618a3699ae
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: DynamicRendering property [Tablet PC], DynamicRendering property [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],DynamicRendering property, IInkPicture.DynamicRendering, IInkPicture.put_DynamicRendering, IInkPicture::DynamicRendering, IInkPicture::get_DynamicRendering, IInkPicture::put_DynamicRendering, InkPicture.get_DynamicRendering, InkPicture.put_DynamicRendering, get_DynamicRendering, msinkaut/IInkPicture::DynamicRendering, msinkaut/IInkPicture::get_DynamicRendering, msinkaut/IInkPicture::put_DynamicRendering, put_DynamicRendering, tablet.inkpicture_dynamicrendering
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,7 +73,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
+<a href="https://msdn.microsoft.com/EA6AC3DD-5F13-442A-B93D-FF0A5333609A">IInkPicture</a>
 
 
 

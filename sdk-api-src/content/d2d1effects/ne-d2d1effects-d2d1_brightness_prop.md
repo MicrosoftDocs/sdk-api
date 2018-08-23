@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Identifiers for the properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh706315(v=VS.85).aspx">Brightness effect</a>.
+Identifiers for the properties of the <a href="https://msdn.microsoft.com/5088D4D4-DFC8-45D3-B1C3-D576742D931C">Brightness effect</a>.
 
 
 ## -enum-fields

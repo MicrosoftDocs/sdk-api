@@ -83,14 +83,7 @@ The alert can be delivered.
 The alert cannot be delivered.
 
 
-### -param OPTIONAL
-
-TBD
-
-
-
-
-#### - Timeout [in]
+### -param Timeout [in]
 
 A pointer to an absolute or relative time over
         which the wait is to occur. Can be null. If a timeout is specified, and
@@ -154,7 +147,7 @@ The
 </dl>
 </td>
 <td width="60%">
-The wait was aborted to deliver a user <a href="https://msdn.microsoft.com/library/ms681951(v=VS.85).aspx">Asynchronous Procedure Call (APC)</a> to the current thread.
+The wait was aborted to deliver a user <a href="_win32_Asynchronous_Procedure_Calls">Asynchronous Procedure Call (APC)</a> to the current thread.
 
 </td>
 </tr>

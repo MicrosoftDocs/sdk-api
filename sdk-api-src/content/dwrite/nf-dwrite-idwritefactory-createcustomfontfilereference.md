@@ -1,0 +1,125 @@
+---
+UID: NF:dwrite.IDWriteFactory.CreateCustomFontFileReference
+title: IDWriteFactory::CreateCustomFontFileReference
+author: windows-sdk-content
+description: Creates a reference to an application-specific font file resource.
+old-location: directwrite\IDWriteFactory_CreateCustomFontFileReference.htm
+old-project: DirectWrite
+ms.assetid: 1c82ffcd-3e43-47cd-9a6c-ff8bd1d2625f
+ms.author: windowssdkdev
+ms.date: 07/24/2018
+ms.keywords: CreateCustomFontFileReference, CreateCustomFontFileReference method [Direct Write], CreateCustomFontFileReference method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],CreateCustomFontFileReference method, IDWriteFactory.CreateCustomFontFileReference, IDWriteFactory::CreateCustomFontFileReference, directwrite.IDWriteFactory_CreateCustomFontFileReference, dwrite/IDWriteFactory::CreateCustomFontFileReference
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dwrite.h
+req.include-header: 
+req.redist: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteFactory.CreateCustomFontFileReference
+product: Windows
+targetos: Windows
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IDWriteFactory::CreateCustomFontFileReference
+
+
+## -description
+
+
+ Creates a reference to an application-specific font file resource.
+     
+
+
+## -parameters
+
+
+
+
+### -param fontFileReferenceKey [in]
+
+Type: <b>const void*</b>
+
+A font file reference key that uniquely identifies the font file resource
+     during the lifetime of <i>fontFileLoader</i>.
+
+
+### -param fontFileReferenceKeySize
+
+Type: <b>UINT32</b>
+
+The size of the font file reference key in bytes.
+
+
+### -param fontFileLoader
+
+Type: <b><a href="https://msdn.microsoft.com/855e281e-3855-4c11-af87-68f8e0dadbf8">IDWriteFontFileLoader</a>*</b>
+
+The font file loader that will be used by the font system to load data from the file identified by
+     <i>fontFileReferenceKey</i>.
+
+
+### -param fontFile [out]
+
+Type: <b><a href="https://msdn.microsoft.com/d4be5466-0b6c-4cc5-9f16-aa00c6037eb9">IDWriteFontFile</a>**</b>
+
+Contains an address of a pointer to the newly created font file object when this method succeeds, or <b>NULL</b> in case of failure.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+ This function is provided for cases when an application or a document needs to use a private font
+     without having to install it on the system. <i>fontFileReferenceKey</i> has to be unique only in the scope
+     of the <i>fontFileLoader</i> used in this call.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/73a85977-5c24-4abc-ad8c-1d0d6474bd7e">IDWriteFactory</a>
+ 
+
+ 
+

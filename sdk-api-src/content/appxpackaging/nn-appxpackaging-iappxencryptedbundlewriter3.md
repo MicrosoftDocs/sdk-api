@@ -7,7 +7,7 @@ old-location: appxpkg\iappxencryptedbundlewriter3.htm
 old-project: appxpkg
 ms.assetid: 20394DB5-F8E3-43E0-B222-BC14E9D6C1CB
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/16/2018
 ms.keywords: IAppxEncryptedBundleWriter3, IAppxEncryptedBundleWriter3 interface [App packaging and management], IAppxEncryptedBundleWriter3 interface [App packaging and management],described, appxpackaging/IAppxEncryptedBundleWriter3, appxpkg.iappxencryptedbundlewriter3
 ms.prod: windows
 ms.technology: windows-sdk

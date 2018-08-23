@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10infoqueue_popretrievalfilter.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10infoqueue_popretrievalfilter.htm
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/20/2018
 ms.keywords: 2b0b3983-c948-10ba-02f6-5f94e829dae6, ID3D10InfoQueue interface [Direct3D 10],PopRetrievalFilter method, ID3D10InfoQueue.PopRetrievalFilter, ID3D10InfoQueue::PopRetrievalFilter, PopRetrievalFilter, PopRetrievalFilter method [Direct3D 10], PopRetrievalFilter method [Direct3D 10],ID3D10InfoQueue interface, d3d10sdklayers/ID3D10InfoQueue::PopRetrievalFilter, direct3d10.id3d10infoqueue_popretrievalfilter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,7 +75,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173779(v=VS.85).aspx">ID3D10InfoQueue Interface</a>
+<a href="https://msdn.microsoft.com/b1405273-53f4-49da-acf5-832e73a25ac2">ID3D10InfoQueue Interface</a>
  
 
  

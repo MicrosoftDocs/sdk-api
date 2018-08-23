@@ -69,7 +69,7 @@ Reserved for future use.
 
 
 
-When the <b>UpdateCache</b> method is called, all changes to the persistent store after the last call to the <a href="https://msdn.microsoft.com/en-us/library/Aa376359(v=VS.85).aspx">Initialize</a> method or to the <b>UpdateCache</b> method are incorporated into the cache. Any changes to the cache that have not been submitted using the <a href="https://msdn.microsoft.com/en-us/library/Aa376369(v=VS.85).aspx">Submit</a> method override the changes to the  store.
+When the <b>UpdateCache</b> method is called, all changes to the persistent store after the last call to the <a href="https://msdn.microsoft.com/c461d50a-c785-4b32-b331-fe3a1693f4de">Initialize</a> method or to the <b>UpdateCache</b> method are incorporated into the cache. Any changes to the cache that have not been submitted using the <a href="https://msdn.microsoft.com/bf2962af-0e8f-4c4c-a63a-dfd623308e4d">Submit</a> method override the changes to the  store.
 
 Most stores  should be  stable and have  few changes.  Providers are expected to implement this method to efficiently  determine whether   changes have been written  to the physical store since the last update.
 

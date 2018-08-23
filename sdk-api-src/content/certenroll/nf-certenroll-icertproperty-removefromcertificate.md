@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>RemoveFromCertificate</b> method disassociates a property from a certificate. Specify the property to remove by calling the <a href="https://msdn.microsoft.com/en-us/library/Aa375830(v=VS.85).aspx">PropertyId</a> property.
+The <b>RemoveFromCertificate</b> method disassociates a property from a certificate. Specify the property to remove by calling the <a href="https://msdn.microsoft.com/2829dab5-253d-4ade-bba5-d399afe87a28">PropertyId</a> property.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ A <b>VARIANT_BOOL</b> value that indicates  whether the certificate store is loc
 
 ### -param Encoding [in]
 
-An <a href="https://msdn.microsoft.com/en-us/library/Aa374936(v=VS.85).aspx">EncodingType</a> enumeration value that specifies the type of encoding applied to  the certificate string identified by the <i>strCertificate</i> parameter.
+An <a href="https://msdn.microsoft.com/b42628ae-deed-497b-a20f-d175843b79c2">EncodingType</a> enumeration value that specifies the type of encoding applied to  the certificate string identified by the <i>strCertificate</i> parameter.
 
 
 ### -param strCertificate [in]
@@ -90,7 +90,7 @@ Beginning with Windows 7 and Windows Server 2008 R2, you can specify a certif
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -132,11 +132,11 @@ The certificate was found but the private key could not be loaded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375231(v=VS.85).aspx">ICertProperties</a>
+<a href="https://msdn.microsoft.com/b830c0af-0a38-419d-8a33-8e3626c4e8f1">ICertProperties</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375239(v=VS.85).aspx">ICertProperty</a>
+<a href="https://msdn.microsoft.com/947c2f09-993d-4ced-8b76-66b79d96e3bc">ICertProperty</a>
  
 
  

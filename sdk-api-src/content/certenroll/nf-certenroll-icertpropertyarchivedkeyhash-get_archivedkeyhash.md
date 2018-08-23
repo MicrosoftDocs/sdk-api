@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/Aa375243(v=VS.85).aspx">Initialize</a> method to specify the hash.
+Call the <a href="https://msdn.microsoft.com/1f201b37-6f3a-4f1c-83b8-2f1dbb1d4d07">Initialize</a> method to specify the hash.
 
 
 
@@ -74,15 +74,15 @@ Call the <a href="https://msdn.microsoft.com/en-us/library/Aa375243(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377134(v=VS.85).aspx">ArchivePrivateKey</a>
+<a href="https://msdn.microsoft.com/6d17222e-3657-4911-a8e7-d90214284441">ArchivePrivateKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375241(v=VS.85).aspx">ICertPropertyArchivedKeyHash</a>
+<a href="https://msdn.microsoft.com/06696346-b9d1-4229-991e-539862cff3c9">ICertPropertyArchivedKeyHash</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377262(v=VS.85).aspx">KeyArchivalCertificate</a>
+<a href="https://msdn.microsoft.com/93f71fd7-33bb-4352-b184-7270bca1363f">KeyArchivalCertificate</a>
  
 
  

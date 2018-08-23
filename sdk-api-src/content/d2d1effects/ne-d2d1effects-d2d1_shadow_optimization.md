@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The level of performance optimization for the <a href="https://msdn.microsoft.com/en-us/library/Hh706334(v=VS.85).aspx">Shadow effect</a>.
+The level of performance optimization for the <a href="https://msdn.microsoft.com/53525584-10CF-46C2-9400-C4FB225D4693">Shadow effect</a>.
 
 
 ## -enum-fields

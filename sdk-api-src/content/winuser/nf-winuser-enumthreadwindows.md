@@ -7,7 +7,7 @@ old-location: winmsg\enumthreadwindows.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\enumthreadwindows.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: EnumThreadWindows, EnumThreadWindows function [Windows and Messages], _win32_EnumThreadWindows, _win32_enumthreadwindows_cpp, winmsg.enumthreadwindows, winui._win32_enumthreadwindows, winuser/EnumThreadWindows
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Enumerates all nonchild windows associated with a thread by passing the handle to each window, in turn, to an application-defined callback function. <b>EnumThreadWindows</b> continues until the last window is enumerated or the callback function returns <b>FALSE</b>. To enumerate child windows of a particular window, use the <a href="https://msdn.microsoft.com/en-us/library/ms633494(v=VS.85).aspx">EnumChildWindows</a> function. 
+Enumerates all nonchild windows associated with a thread by passing the handle to each window, in turn, to an application-defined callback function. <b>EnumThreadWindows</b> continues until the last window is enumerated or the callback function returns <b>FALSE</b>. To enumerate child windows of a particular window, use the <a href="https://msdn.microsoft.com/19c4ae31-991c-4b8f-9dfa-eb6cdf4328d8">EnumChildWindows</a> function. 
 
 
 ## -parameters
@@ -78,7 +78,7 @@ The identifier of the thread whose windows are to be enumerated.
 
 Type: <b>WNDENUMPROC</b>
 
-A pointer to an application-defined callback function. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms633496(v=VS.85).aspx">EnumThreadWndProc</a>. 
+A pointer to an application-defined callback function. For more information, see <a href="https://msdn.microsoft.com/50bb90ea-9922-4bbd-8a05-b4bc5b363e20">EnumThreadWndProc</a>. 
 
 
 ### -param lParam [in]
@@ -109,15 +109,15 @@ If the callback function returns <b>TRUE</b> for all windows in the thread speci
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633494(v=VS.85).aspx">EnumChildWindows</a>
+<a href="https://msdn.microsoft.com/19c4ae31-991c-4b8f-9dfa-eb6cdf4328d8">EnumChildWindows</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633496(v=VS.85).aspx">EnumThreadWndProc</a>
+<a href="https://msdn.microsoft.com/50bb90ea-9922-4bbd-8a05-b4bc5b363e20">EnumThreadWndProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633497(v=VS.85).aspx">EnumWindows</a>
+<a href="https://msdn.microsoft.com/c4a063ea-a12f-49fe-8654-987e175452a8">EnumWindows</a>
 
 
 
@@ -125,7 +125,7 @@ If the callback function returns <b>TRUE</b> for all windows in the thread speci
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

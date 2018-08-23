@@ -66,7 +66,7 @@ Implements the <a href="https://msdn.microsoft.com/0a2a629a-b935-47a2-a4c6-ba9f2
 
 ### -param pthis [in]
 
-Pointer to  the <a href="https://msdn.microsoft.com/en-us/library/ms678504(v=VS.85).aspx">IRpcStubBuffer</a> object. 
+Pointer to  the <a href="_com_irpcstubbuffer">IRpcStubBuffer</a> object. 
 
 
 ## -returns

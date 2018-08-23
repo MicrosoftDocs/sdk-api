@@ -7,7 +7,7 @@ old-location: ifsk\filterreplymessage.htm
 old-project: ifsk
 ms.assetid: e0a0033c-2ea8-4e5b-bcae-680247ea6157
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: FilterReplyMessage, FilterReplyMessage function [Installable File System Drivers], FltWin32ApiRef_f89f529e-8396-4f15-ae63-6497c92aab1a.xml, fltuser/FilterReplyMessage, ifsk.filterreplymessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,7 +96,9 @@ To send a message to a minifilter, call <a href="https://msdn.microsoft.com/e0a5
 
 A minifilter sends a message to a user-mode application by calling <a href="https://msdn.microsoft.com/83e8389f-1960-4fe0-9a33-526311ecba82">FltSendMessage</a>. 
 
-<div class="alert"><b>Important</b>    Due to (system-specific) structure <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">padding</a> requirements, accuracy is required when you set the size of buffers that are associated with <a href="https://msdn.microsoft.com/83e8389f-1960-4fe0-9a33-526311ecba82">FltSendMessage</a> and <b>FilterReplyMessage</b>. As an example, assume data must be sent (via <b>FilterReplyMessage</b>) to a minifilter.  The user-mode component might declare the following structure to do so:<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<div class="alert"><b>Important</b>  <p class="note">Due to (system-specific) structure <a href="https://msdn.microsoft.com/139a10e9-203b-499b-9291-8537eae9189c">padding</a> requirements, accuracy is required when you set the size of buffers that are associated with <a href="https://msdn.microsoft.com/83e8389f-1960-4fe0-9a33-526311ecba82">FltSendMessage</a> and <b>FilterReplyMessage</b>. As an example, assume data must be sent (via <b>FilterReplyMessage</b>) to a minifilter.  The user-mode component might declare the following structure to do so:
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
 </tr>

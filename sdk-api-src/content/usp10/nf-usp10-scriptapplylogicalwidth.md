@@ -7,7 +7,7 @@ old-location: intl\scriptapplylogicalwidth.htm
 old-project: Intl
 ms.assetid: 964634f4-700b-47a7-a86f-071f1c97bcbe
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: ScriptApplyLogicalWidth, ScriptApplyLogicalWidth function [Internationalization for Windows Applications], _win32_ScriptApplyLogicalWidth, intl.scriptapplylogicalwidth, usp10/ScriptApplyLogicalWidth
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ req.product: Windows UI
 ## -description
 
 
-Takes an array of advance widths for a <a href="https://msdn.microsoft.com/en-us/library/Dd374094(v=VS.85).aspx">run</a> and generates an array of adjusted advance glyph widths.
+Takes an array of advance widths for a <a href="uniscribe_glossary.htm">run</a> and generates an array of adjusted advance glyph widths.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ Takes an array of advance widths for a <a href="https://msdn.microsoft.com/en-us
 
 ### -param piDx [in]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Dd374094(v=VS.85).aspx">advance widths</a> in logical order, one per code point.
+Pointer to an array of <a href="uniscribe_glossary.htm">advance widths</a> in logical order, one per code point.
 
 
 ### -param cChars [in]
@@ -100,7 +100,7 @@ Pointer to a <a href="https://msdn.microsoft.com/c673d5cc-c4ca-4238-8090-55abe3d
 
 ### -param pABC [in, out, optional]
 
-Pointer to the overall <a href="https://msdn.microsoft.com/en-us/library/Dd374094(v=VS.85).aspx">ABC width</a> of a run. On input, the parameter should contain the run ABC widths retrieved by <a href="https://msdn.microsoft.com/7f88432f-052f-4781-8346-31c8a0771e51">ScriptPlace</a>. On output, the parameter indicates the ABC width updated to match the new widths.
+Pointer to the overall <a href="uniscribe_glossary.htm">ABC width</a> of a run. On input, the parameter should contain the run ABC widths retrieved by <a href="https://msdn.microsoft.com/7f88432f-052f-4781-8346-31c8a0771e51">ScriptPlace</a>. On output, the parameter indicates the ABC width updated to match the new widths.
 
 
 ### -param piJustify [out]

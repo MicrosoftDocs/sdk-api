@@ -7,7 +7,7 @@ old-location: base\interlockedincrement64.htm
 old-project: sync
 ms.assetid: f18b63fa-201f-436d-a152-41e458959a5c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: InterlockedIncrement64, InterlockedIncrement64 function, base.interlockedincrement64, winnt/InterlockedIncrement64
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,7 @@ The variable pointed to by the <i>Addend</i> parameter must be aligned on a 64-b
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
-This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="https://msdn.microsoft.com/library/2ddez55b(v=VS.85).aspx">_InterlockedIncrement64</a>.
+This function is implemented using a compiler intrinsic where possible. For more information, see the WinBase.h header file and <a href="37700615-f372-438b-bcef-d76e11839482">_InterlockedIncrement64</a>.
 
 This function  generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 

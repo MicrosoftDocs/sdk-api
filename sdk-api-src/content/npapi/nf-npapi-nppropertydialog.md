@@ -7,7 +7,7 @@ old-location: security\nppropertydialog.htm
 old-project: secauthn
 ms.assetid: 856057f3-2746-4c1e-89a6-6d4e06d0e353
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: NPPropertyDialog, NPPropertyDialog function [Security], WNPS_DIR, WNPS_FILE, WNPS_MULT, _mnp_nppropertydialog, npapi/NPPropertyDialog, security.nppropertydialog
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\ibasicvideo_setsourceposition.htm
 old-project: DirectShow
 ms.assetid: afe78775-f2b0-4d10-a702-f0329fe79c6d
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/20/2018
 ms.keywords: IBasicVideo interface [DirectShow],SetSourcePosition method, IBasicVideo.SetSourcePosition, IBasicVideo::SetSourcePosition, IBasicVideoSetSourcePosition, SetSourcePosition, SetSourcePosition method [DirectShow], SetSourcePosition method [DirectShow],IBasicVideo interface, control/IBasicVideo::SetSourcePosition, dshow.ibasicvideo_setsourceposition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,7 +96,7 @@ Returns an <b>HRESULT</b> value.
 
 
 
-This method has the same effect as individually calling the <a href="https://msdn.microsoft.com/en-us/library/Dd389595(v=VS.85).aspx">IBasicVideo::put_SourceLeft</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd389596(v=VS.85).aspx">IBasicVideo::put_SourceTop</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd389597(v=VS.85).aspx">IBasicVideo::put_SourceWidth</a>, and <a href="https://msdn.microsoft.com/en-us/library/Dd389594(v=VS.85).aspx">IBasicVideo::put_SourceHeight</a> methods.
+This method has the same effect as individually calling the <a href="https://msdn.microsoft.com/0388d5fe-5434-41b9-b005-c0e4bf36bb27">IBasicVideo::put_SourceLeft</a>, <a href="https://msdn.microsoft.com/0a76518d-f79d-45ef-8e19-a3e5ee1e4db0">IBasicVideo::put_SourceTop</a>, <a href="https://msdn.microsoft.com/0747a1fb-42b6-452f-8a92-eb87931c004c">IBasicVideo::put_SourceWidth</a>, and <a href="https://msdn.microsoft.com/d8cb4ae1-cbbf-44cb-9387-770ee95280a1">IBasicVideo::put_SourceHeight</a> methods.
 
 Setting this coordinate does not affect the destination rectangle height.
 
@@ -108,11 +108,11 @@ Setting this coordinate does not affect the destination rectangle height.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389540(v=VS.85).aspx">IBasicVideo Interface</a>
+<a href="https://msdn.microsoft.com/14f45bdc-2271-459d-b165-c860c8fc3e0b">IBasicVideo Interface</a>
  
 
  

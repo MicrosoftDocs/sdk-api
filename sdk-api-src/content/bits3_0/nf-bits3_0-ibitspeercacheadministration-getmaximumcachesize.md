@@ -98,11 +98,11 @@ Success
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964272(v=VS.85).aspx">IBitsPeerCacheAdministration</a>
+<a href="https://msdn.microsoft.com/5fa30b4e-f13c-4341-af65-a2e3d2703b96">IBitsPeerCacheAdministration</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964289(v=VS.85).aspx">IBitsPeerCacheAdministration::SetMaximumCacheSize</a>
+<a href="https://msdn.microsoft.com/064376cf-8865-45a1-a63a-1096bc0d58ce">IBitsPeerCacheAdministration::SetMaximumCacheSize</a>
  
 
  

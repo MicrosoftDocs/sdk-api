@@ -7,7 +7,7 @@ old-location: base\initializecriticalsectionandspincount.htm
 old-project: sync
 ms.assetid: 4b84b305-8bc0-4592-9378-b757bbc0de19
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: InitializeCriticalSectionAndSpinCount, InitializeCriticalSectionAndSpinCount function, _win32_initializecriticalsectionandspincount, base.initializecriticalsectionandspincount, synchapi/InitializeCriticalSectionAndSpinCount, winbase/InitializeCriticalSectionAndSpinCount
 ms.prod: windows
 ms.technology: windows-sdk

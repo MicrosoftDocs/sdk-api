@@ -59,7 +59,7 @@ req.product: GDI+ 1.1
 
 Deletes a 
     <a href="https://msdn.microsoft.com/d02e4f51-7b86-451a-a51c-ea850ae464d1">resource type</a> from the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> and removes it from the 
+    <a href="c_gly.htm">cluster</a> and removes it from the 
     <a href="https://msdn.microsoft.com/614d3ed6-255f-46ed-9354-7a73a21cac87">ClusResTypes</a> collection.
 
 

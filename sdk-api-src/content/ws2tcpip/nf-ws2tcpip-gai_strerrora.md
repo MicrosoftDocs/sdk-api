@@ -7,7 +7,7 @@ old-location: winsock\gai_strerror_2.htm
 old-project: winsock
 ms.assetid: 00b4c5de-89c9-419f-bff8-822ef0446697
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: "_win32_gai_strerror_2, gai_strerror, gai_strerror function [Winsock], gai_strerrorA, gai_strerrorW, winsock.gai_strerror_2, ws2tcpip/gai_strerror, ws2tcpip/gai_strerrorA, ws2tcpip/gai_strerrorW, wspiapi/gai_strerror, wspiapi/gai_strerrorA, wspiapi/gai_strerrorW"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -53,7 +53,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Graphics::GetCompositingQuality</b> method gets the compositing quality currently set for this 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object.
+			<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object.
 
 
 ## -parameters
@@ -67,12 +67,12 @@ The <b>Graphics::GetCompositingQuality</b> method gets the compositing quality c
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534094(v=VS.85).aspx">CompositingQuality</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/d5e0e6ff-9b82-45e2-bcf6-3d66a509eba7">CompositingQuality</a></b>
 </strong>
 
 This method returns an element of the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534094(v=VS.85).aspx">CompositingQuality</a> enumeration that indicates the compositing quality currently set for this 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object.
+						<a href="https://msdn.microsoft.com/d5e0e6ff-9b82-45e2-bcf6-3d66a509eba7">CompositingQuality</a> enumeration that indicates the compositing quality currently set for this 
+						<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object.
 
 
 
@@ -82,35 +82,35 @@ This method returns an element of the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533803(v=VS.85).aspx">Alpha Blending Lines and Fills</a>
+<a href="https://msdn.microsoft.com/f8c22d1a-b96b-4d16-928e-20adbae4c4a7">Alpha Blending Lines and Fills</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535701(v=VS.85).aspx">Graphics::GetCompositingQuality</a>
+<a href="https://msdn.microsoft.com/7d37da31-6ab0-4054-8a98-64cfbf9225ec">Graphics::GetCompositingQuality</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535808(v=VS.85).aspx">Graphics::SetCompositingMode</a>
+<a href="https://msdn.microsoft.com/93367fac-4f61-4082-9f67-13028f1b8a94">Graphics::SetCompositingMode</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535809(v=VS.85).aspx">Graphics::SetCompositingQuality</a>
+<a href="https://msdn.microsoft.com/e3544a81-d039-4bd6-89ea-d3883c95f7a9">Graphics::SetCompositingQuality</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534459(v=VS.85).aspx">HatchBrush</a>
+<a href="https://msdn.microsoft.com/6e633cb2-8b0f-4b6a-95d8-f494d5f972eb">HatchBrush</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536340(v=VS.85).aspx">New Features</a>
+<a href="https://msdn.microsoft.com/0257a23c-560e-472e-863a-6ab5881dc156">New Features</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534508(v=VS.85).aspx">SolidBrush</a>
+<a href="https://msdn.microsoft.com/8d5c8780-f03c-40b2-b237-e40121e3d6f6">SolidBrush</a>
  
 
  

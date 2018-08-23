@@ -7,7 +7,7 @@ old-location: devinst\cm_get_devnode_property_keys.htm
 old-project: devinst
 ms.assetid: 3476FAA7-32EA-43A9-B7CF-3938F08E0AD1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: CM_Get_DevNode_Property_Keys, CM_Get_DevNode_Property_Keys function [Device and Driver Installation], cfgmgr32/CM_Get_DevNode_Property_Keys, devinst.cm_get_devnode_property_keys
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,7 +94,7 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 
-<b>CM_Get_DevNode_Property_Keys</b> is part of the <a href="https://msdn.microsoft.com/library/Ff553515(v=VS.85).aspx">Unified Device Property Model</a>.
+<b>CM_Get_DevNode_Property_Keys</b> is part of the <a href="devinst.unified_device_property_model__windows_vista_and_later_">Unified Device Property Model</a>.
 
 
 

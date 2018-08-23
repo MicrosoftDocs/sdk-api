@@ -82,7 +82,7 @@ Specifies the value of the property.
 
 
 
-This function returns UINT.
+This function returns UINT __stdcall.
 
 
 
@@ -102,7 +102,7 @@ If the property is not defined, it is created by the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Installer State Access Functions</a>
+<a href="database_functions.htm">Installer State Access Functions</a>
  
 
  

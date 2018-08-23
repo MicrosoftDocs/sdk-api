@@ -149,7 +149,7 @@ bool ctrlsAreThemed = ((resultFlags &amp; STAP_ALLOW_CONTROLS) != 0);
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb759825(v=VS.85).aspx">SetThemeAppProperties</a>
+<a href="https://msdn.microsoft.com/7675c2c1-c152-41ad-b34b-5ca6cc7cd26b">SetThemeAppProperties</a>
  
 
  

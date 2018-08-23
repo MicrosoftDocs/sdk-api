@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Serializes a root signature version 1.0 that can be passed to <a href="https://msdn.microsoft.com/en-us/library/Dn899182(v=VS.85).aspx">ID3D12Device::CreateRootSignature</a>.
+Serializes a root signature version 1.0 that can be passed to <a href="https://msdn.microsoft.com/CD3389EC-4086-40F0-B1DB-BCBCF9DDE6BA">ID3D12Device::CreateRootSignature</a>.
         
 
 
@@ -62,17 +62,17 @@ Serializes a root signature version 1.0 that can be passed to <a href="https://m
 
 ### -param pRootSignature [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dn986747(v=VS.85).aspx">D3D12_ROOT_SIGNATURE_DESC</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/D74D9D3B-96AB-489A-A91C-4F68AC3D05EE">D3D12_ROOT_SIGNATURE_DESC</a>*</b>
 
-The description of the root signature, as a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn986747(v=VS.85).aspx">D3D12_ROOT_SIGNATURE_DESC</a> structure.
+The description of the root signature, as a pointer to a <a href="https://msdn.microsoft.com/D74D9D3B-96AB-489A-A91C-4F68AC3D05EE">D3D12_ROOT_SIGNATURE_DESC</a> structure.
           
 
 
 ### -param Version [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn899107(v=VS.85).aspx">D3D_ROOT_SIGNATURE_VERSION</a></b>
+Type: <b><a href="https://msdn.microsoft.com/44A22509-5CAE-4C4E-ADC6-E86B5BD8CE3B">D3D_ROOT_SIGNATURE_VERSION</a></b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dn899107(v=VS.85).aspx">D3D_ROOT_SIGNATURE_VERSION</a>-typed value that specifies the version of root signature.
+A <a href="https://msdn.microsoft.com/44A22509-5CAE-4C4E-ADC6-E86B5BD8CE3B">D3D_ROOT_SIGNATURE_VERSION</a>-typed value that specifies the version of root signature.
           
 
 
@@ -96,9 +96,9 @@ A pointer to a memory block that receives a pointer to the <a href="https://msdn
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns <b>S_OK</b> if successful; otherwise, returns one of the <a href="https://msdn.microsoft.com/en-us/library/Dn706075(v=VS.85).aspx">Direct3D 12 Return Codes</a>.
+Returns <b>S_OK</b> if successful; otherwise, returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
           
 
 
@@ -108,10 +108,10 @@ Returns <b>S_OK</b> if successful; otherwise, returns one of the <a href="https:
 
 
 
-This function has been superceded by <a href="https://msdn.microsoft.com/en-us/library/Mt709110(v=VS.85).aspx">D3D12SerializeVersionedRootSignature</a> as of the Windows 10 Anniversary Update (14393).
+This function has been superceded by <a href="https://msdn.microsoft.com/D8A15561-4911-4067-B25E-8BF2B079FD81">D3D12SerializeVersionedRootSignature</a> as of the Windows 10 Anniversary Update (14393).
 
-If an application procedurally generates a <a href="https://msdn.microsoft.com/en-us/library/Dn986747(v=VS.85).aspx">D3D12_ROOT_SIGNATURE_DESC</a> data structure, it must pass a pointer to this <b>D3D12_ROOT_SIGNATURE_DESC</b> in a call to <b>D3D12SerializeRootSignature</b> to make the serialized form.
-        The application then passes the serialized form to which <i>ppBlob</i> points into <a href="https://msdn.microsoft.com/en-us/library/Dn899182(v=VS.85).aspx">ID3D12Device::CreateRootSignature</a>.
+If an application procedurally generates a <a href="https://msdn.microsoft.com/D74D9D3B-96AB-489A-A91C-4F68AC3D05EE">D3D12_ROOT_SIGNATURE_DESC</a> data structure, it must pass a pointer to this <b>D3D12_ROOT_SIGNATURE_DESC</b> in a call to <b>D3D12SerializeRootSignature</b> to make the serialized form.
+        The application then passes the serialized form to which <i>ppBlob</i> points into <a href="https://msdn.microsoft.com/CD3389EC-4086-40F0-B1DB-BCBCF9DDE6BA">ID3D12Device::CreateRootSignature</a>.
       
 
 If a shader has been authored with a root signature in it (when that capability is added), the compiled shader will contain a serialized root signature in it already.
@@ -142,7 +142,7 @@ ThrowIfFailed(m_device-&gt;CreateRootSignature(0, signature-&gt;GetBufferPointer
 </td>
 </tr>
 </table></span></div>
-Refer to the <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85).aspx">Example Code in the D3D12 Reference</a>.
+Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>
 
@@ -153,11 +153,11 @@ Refer to the <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770456(v=VS.85).aspx">Core Functions</a>
+<a href="https://msdn.microsoft.com/C0F9A52C-483D-40B2-9E1F-CB92ADDC2856">Core Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn859357(v=VS.85).aspx">Creating a Root Signature</a>
+<a href="https://msdn.microsoft.com/565B28C1-DBD1-42B6-87F9-70743E4A2E4A">Creating a Root Signature</a>
  
 
  

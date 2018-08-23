@@ -74,7 +74,7 @@ A pointer to the notification key for the notification port.
 
 ### -param pFilterAndType [in, out, optional]
 
-A  pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn622942(v=VS.85).aspx">NOTIFY_FILTER_AND_TYPE</a> 
+A  pointer to a <a href="https://msdn.microsoft.com/E173F5D8-955B-44FF-980E-CEF536A87AF5">NOTIFY_FILTER_AND_TYPE</a> 
       structure that describes the next notification event for the notification port.
 
 
@@ -83,7 +83,7 @@ A  pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn622942(v=VS.
 A pointer to a buffer for the notification event.
 
 
-#### - lpbBufferSize [in, out, optional]
+### -param lpbBufferSize [in, out, optional]
 
 A pointer to  the size of the <i>buffer</i> parameter, in bytes.
 
@@ -156,7 +156,7 @@ A time-out value that specifies how long the caller is willing to wait for the n
 if the operation succeeds,  this function returns  <b>ERROR_SUCCESS</b>.
 
 If the operation fails, this function returns one of the following 
-       <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error codes</a>.
+       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>.
 
 
 
@@ -166,7 +166,7 @@ If the operation fails, this function returns one of the following
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369107(v=VS.85).aspx">Failover Cluster Management Function</a>
+<a href="https://msdn.microsoft.com/1b3a3b23-39db-47b7-b4a8-17fc1ee45df6">Failover Cluster Management Function</a>
  
 
  

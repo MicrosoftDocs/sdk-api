@@ -7,7 +7,7 @@ old-location: security\icertgetconfig.htm
 old-project: SecCrypto
 ms.assetid: 753d1527-1863-41af-9715-2c1fe138e67d
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: ICertGetConfig, ICertGetConfig interface [Security], ICertGetConfig interface [Security],described, certcli/ICertGetConfig, security.icertgetconfig
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,14 +51,14 @@ req.irql:
 ## -description
 
 
-The <b>ICertGetConfig</b> interface provides functionality for retrieving  the public  configuration data (specified during client setup) for a <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">Certificate Services</a> server.
+The <b>ICertGetConfig</b> interface provides functionality for retrieving  the public  configuration data (specified during client setup) for a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">Certificate Services</a> server.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertGetConfig</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICertGetConfig</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertGetConfig</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ICertGetConfig</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>ICertGetConfig</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa385028(v=VS.85).aspx">GetConfig</a>
+<a href="https://msdn.microsoft.com/5935bf37-4a4a-4c0f-ae3f-bd76f97d0d9a">GetConfig</a>
 </td>
 <td align="left" width="63%">
 Retrieves the configuration string for a Certificate Services server.
@@ -86,11 +86,11 @@ Retrieves the configuration string for a Certificate Services server.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383272(v=VS.85).aspx">ICertConfig2</a>
+<a href="https://msdn.microsoft.com/6bac5961-f9cc-4859-affa-aa7ed152ebfa">ICertConfig2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

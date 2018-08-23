@@ -7,7 +7,7 @@ old-location: tablet\iinkcursorbuttons_count.htm
 old-project: tablet
 ms.assetid: 4c22d9bf-51a9-4c30-9e5d-ea166fce8bc8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: 4c22d9bf-51a9-4c30-9e5d-ea166fce8bc8, Count property [Tablet PC], Count property [Tablet PC],IInkCursorButtons interface, IInkCursorButtons interface [Tablet PC],Count property, IInkCursorButtons.Count, IInkCursorButtons.get_Count, IInkCursorButtons::Count, IInkCursorButtons::get_Count, get_Count, msinkaut/IInkCursorButtons::Count, msinkaut/IInkCursorButtons::get_Count, tablet.iinkcursorbuttons_count
 ms.prod: windows
 ms.technology: windows-sdk

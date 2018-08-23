@@ -7,7 +7,7 @@ old-location: winsock\wsaunadvertiseprovider.htm
 old-project: winsock
 ms.assetid: 5975b496-53a7-4f8a-8efc-27ef447596c2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: WSAUnadvertiseProvider, WSAUnadvertiseProvider function [Winsock], winsock.wsaunadvertiseprovider, ws2spi/WSAUnadvertiseProvider
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,7 +81,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">

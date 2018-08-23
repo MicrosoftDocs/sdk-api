@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/Dd368140(v=VS.85).aspx">D2D1_POINT_2F</a> structure that contains the specified x-coordinates and y-coordinates.
+Creates a <a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a> structure that contains the specified x-coordinates and y-coordinates.
 
 
 ## -parameters
@@ -77,7 +77,7 @@ The y-coordinate of the point. The default value is 0.f.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368140(v=VS.85).aspx">D2D1_POINT_2F</a></b>
+Type: <b><a href="https://msdn.microsoft.com/b317ae75-d738-4e1a-bcd1-adf3e95b197e">D2D1_POINT_2F</a></b>
 
 The new point.
 

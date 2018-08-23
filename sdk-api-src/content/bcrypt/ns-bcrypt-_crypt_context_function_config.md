@@ -94,7 +94,7 @@ Restricts the set of usable providers for this function to only those that this 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375380(v=VS.85).aspx">BCryptConfigureContextFunction</a>
+<a href="https://msdn.microsoft.com/e93c5e3e-3c63-49a3-8c8c-6510e10611ea">BCryptConfigureContextFunction</a>
  
 
  

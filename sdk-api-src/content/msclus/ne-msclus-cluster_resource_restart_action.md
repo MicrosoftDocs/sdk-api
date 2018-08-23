@@ -74,7 +74,7 @@ Restart the resource after a failure. If the resource exceeds its restart thresh
        period, do not attempt to <a href="https://msdn.microsoft.com/6722d075-02e0-4817-abc3-dce8951c17da">failover</a> the 
        <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a> to another 
        <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a> in the 
-       <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+       <a href="c_gly.htm">cluster</a>.
 
 
 ### -field ClusterResourceRestartNotify

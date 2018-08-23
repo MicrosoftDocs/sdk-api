@@ -7,7 +7,7 @@ old-location: winmsg\getwindowlong.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\getwindowlong.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: DWL_DLGPROC, DWL_MSGRESULT, DWL_USER, GWL_EXSTYLE, GWL_HINSTANCE, GWL_HWNDPARENT, GWL_ID, GWL_STYLE, GWL_USERDATA, GWL_WNDPROC, GetWindowLong, GetWindowLong function [Windows and Messages], GetWindowLongA, GetWindowLongW, _win32_GetWindowLong, _win32_getwindowlong_cpp, winmsg.getwindowlong, winui._win32_getwindowlong, winuser/GetWindowLong, winuser/GetWindowLongA, winuser/GetWindowLongW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Retrieves information about the specified window. The function also retrieves the 32-bit (<b>DWORD</b>) value at the specified offset into the extra window memory. <div class="alert"><b>Note</b>  If you are retrieving a pointer or a handle, this function has been superseded by the <a href="https://msdn.microsoft.com/en-us/library/ms633585(v=VS.85).aspx">GetWindowLongPtr</a> function. (Pointers and handles are 32 bits on 32-bit Windows and 64 bits on 64-bit Windows.) To write code that is compatible with both 32-bit and 64-bit versions of Windows, use <b>GetWindowLongPtr</b>.</div>
+Retrieves information about the specified window. The function also retrieves the 32-bit (<b>DWORD</b>) value at the specified offset into the extra window memory. <div class="alert"><b>Note</b>  If you are retrieving a pointer or a handle, this function has been superseded by the <a href="https://msdn.microsoft.com/a48b63f7-b5b4-49fb-b201-78c3b27ac60a">GetWindowLongPtr</a> function. (Pointers and handles are 32 bits on 32-bit Windows and 64 bits on 64-bit Windows.) To write code that is compatible with both 32-bit and 64-bit versions of Windows, use <b>GetWindowLongPtr</b>.</div>
 <div> </div>
 
 
@@ -142,7 +142,7 @@ Retrieves the identifier of the window.
 </dl>
 </td>
 <td width="60%">
-Retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms632600(v=VS.85).aspx">window styles</a>.
+Retrieves the <a href="https://msdn.microsoft.com/bfc146f1-bebd-4e68-a29e-a73ff3e8f35b">window styles</a>.
 
 </td>
 </tr>
@@ -164,7 +164,7 @@ Retrieves the user data associated with the window. This data is intended for us
 </dl>
 </td>
 <td width="60%">
-Retrieves the address of the window procedure, or a handle representing the address of the window procedure. You must use the <a href="https://msdn.microsoft.com/en-us/library/ms633571(v=VS.85).aspx">CallWindowProc</a> function to call the window procedure.
+Retrieves the address of the window procedure, or a handle representing the address of the window procedure. You must use the <a href="https://msdn.microsoft.com/667449cd-1eea-43de-8268-3da73022d7ac">CallWindowProc</a> function to call the window procedure.
 
 </td>
 </tr>
@@ -188,7 +188,7 @@ The following values are also available when the <i>hWnd</i> parameter identifie
 </dl>
 </td>
 <td width="60%">
-Retrieves the address of the dialog box procedure, or a handle representing the address of the dialog box procedure. You must use the <a href="https://msdn.microsoft.com/en-us/library/ms633571(v=VS.85).aspx">CallWindowProc</a> function to call the dialog box procedure.
+Retrieves the address of the dialog box procedure, or a handle representing the address of the dialog box procedure. You must use the <a href="https://msdn.microsoft.com/667449cd-1eea-43de-8268-3da73022d7ac">CallWindowProc</a> function to call the dialog box procedure.
 
 </td>
 </tr>
@@ -229,7 +229,7 @@ If the function succeeds, the return value is the requested value.
 
 If the function fails, the return value is zero. To get extended error information, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
 
-If <a href="https://msdn.microsoft.com/en-us/library/ms633591(v=VS.85).aspx">SetWindowLong</a> has not been called previously, <b>GetWindowLong</b> returns zero for values in the extra window or class memory.
+If <a href="https://msdn.microsoft.com/75f6721f-188c-4daa-9410-6cb2d86869fc">SetWindowLong</a> has not been called previously, <b>GetWindowLong</b> returns zero for values in the extra window or class memory.
 
 
 
@@ -239,12 +239,12 @@ If <a href="https://msdn.microsoft.com/en-us/library/ms633591(v=VS.85).aspx">Set
 
 
 Reserve extra window memory by specifying a nonzero value in the 
-				<b>cbWndExtra</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms633577(v=VS.85).aspx">WNDCLASSEX</a> structure used with the <a href="https://msdn.microsoft.com/en-us/library/ms633587(v=VS.85).aspx">RegisterClassEx</a> function. 
+				<b>cbWndExtra</b> member of the <a href="https://msdn.microsoft.com/f7e60154-b52c-4dee-b6dd-b6a4882ad4a9">WNDCLASSEX</a> structure used with the <a href="https://msdn.microsoft.com/f48ba5a5-08c7-4d16-bc25-e028ea9a73f4">RegisterClassEx</a> function. 
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms632598(v=VS.85).aspx">Creating, Enumerating, and Sizing Child Windows</a>.
+For an example, see <a href="using_windows.htm">Creating, Enumerating, and Sizing Child Windows</a>.
 
 <div class="code"></div>
 
@@ -255,7 +255,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms632598(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633571(v=VS.85).aspx">CallWindowProc</a>
+<a href="https://msdn.microsoft.com/667449cd-1eea-43de-8268-3da73022d7ac">CallWindowProc</a>
 
 
 
@@ -263,7 +263,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms632598(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633585(v=VS.85).aspx">GetWindowLongPtr</a>
+<a href="https://msdn.microsoft.com/a48b63f7-b5b4-49fb-b201-78c3b27ac60a">GetWindowLongPtr</a>
 
 
 
@@ -271,23 +271,23 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms632598(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633587(v=VS.85).aspx">RegisterClassEx</a>
+<a href="https://msdn.microsoft.com/f48ba5a5-08c7-4d16-bc25-e028ea9a73f4">RegisterClassEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633541(v=VS.85).aspx">SetParent</a>
+<a href="https://msdn.microsoft.com/a13f1cfc-dedc-4190-826f-b29b731e76df">SetParent</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633591(v=VS.85).aspx">SetWindowLong</a>
+<a href="https://msdn.microsoft.com/75f6721f-188c-4daa-9410-6cb2d86869fc">SetWindowLong</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633576(v=VS.85).aspx">WNDCLASS</a>
+<a href="https://msdn.microsoft.com/7e2a4e89-19b6-4ef7-81dd-f44a3874e546">WNDCLASS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632596(v=VS.85).aspx">Window Classes</a>
+<a href="https://msdn.microsoft.com/6ef633db-af76-42d6-b211-96846578eaac">Window Classes</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectvariable_asblend.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_asblend.htm
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/20/2018
 ms.keywords: AsBlend, AsBlend method [Direct3D 10], AsBlend method [Direct3D 10],ID3D10EffectVariable interface, ID3D10EffectVariable interface [Direct3D 10],AsBlend method, ID3D10EffectVariable.AsBlend, ID3D10EffectVariable::AsBlend, bc3da4a0-2ef6-7ffd-8a6d-1bf74e1ef7da, d3d10effect/ID3D10EffectVariable::AsBlend, direct3d10.id3d10effectvariable_asblend
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,9 +65,9 @@ Get a effect-blend variable.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173631(v=VS.85).aspx">ID3D10EffectBlendVariable</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/0a41f4a6-e58f-4cdb-a043-eb2b4cfd2dab">ID3D10EffectBlendVariable</a>*</b>
 
-A pointer to an effect blend variable. See <a href="https://msdn.microsoft.com/en-us/library/Bb173631(v=VS.85).aspx">ID3D10EffectBlendVariable</a>.
+A pointer to an effect blend variable. See <a href="https://msdn.microsoft.com/0a41f4a6-e58f-4cdb-a043-eb2b4cfd2dab">ID3D10EffectBlendVariable</a>.
 
 
 
@@ -78,7 +78,7 @@ A pointer to an effect blend variable. See <a href="https://msdn.microsoft.com/e
 
 AsBlend returns a version of the effect variable that has been specialized to an effect-blend variable. Similar to a cast, this specialization will return an invalid object if the effect variable does not contain effect-blend data.
 
-Applications can test the returned object for validity by calling <a href="https://msdn.microsoft.com/en-us/library/Bb173746(v=VS.85).aspx">IsValid</a>.
+Applications can test the returned object for validity by calling <a href="https://msdn.microsoft.com/b27f1669-94a1-4971-bd8f-e5a56f43560f">IsValid</a>.
 
 
 
@@ -88,7 +88,7 @@ Applications can test the returned object for validity by calling <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable Interface</a>
+<a href="https://msdn.microsoft.com/55bfed47-6f5a-4eed-8389-b291e00c6f69">ID3D10EffectVariable Interface</a>
  
 
  

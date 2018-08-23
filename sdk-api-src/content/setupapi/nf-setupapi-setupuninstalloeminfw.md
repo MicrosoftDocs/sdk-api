@@ -112,7 +112,7 @@ Set to <b>null</b>.
 
 
 
-This function returns WINSETUPAPI BOOL.
+This function returns WINSETUPAPI BOOL __stdcall.
 
 
 

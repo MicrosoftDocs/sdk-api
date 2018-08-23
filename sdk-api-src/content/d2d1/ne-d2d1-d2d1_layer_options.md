@@ -52,7 +52,7 @@ req.irql:
 
 
 Specifies options that can be applied when a layer resource is applied to create a layer. 
-<div class="alert"><b>Note</b>  Starting in Windows 8, the <b>D2D1_LAYER_OPTIONS_INITIALIZE_FOR_CLEARTYPE</b> option is no longer supported.  See <a href="https://msdn.microsoft.com/en-us/library/Hh997712(v=VS.85).aspx">D2D1_LAYER_OPTIONS1</a> for Windows 8 layer options.</div><div> </div>
+<div class="alert"><b>Note</b>  Starting in Windows 8, the <b>D2D1_LAYER_OPTIONS_INITIALIZE_FOR_CLEARTYPE</b> option is no longer supported.  See <a href="https://msdn.microsoft.com/13C9EDE7-A1D0-4359-8EF3-77FF763B9244">D2D1_LAYER_OPTIONS1</a> for Windows 8 layer options.</div><div> </div>
 
 ## -enum-fields
 
@@ -85,7 +85,7 @@ A small performance hit from re-copying content occurs when <a href="https://msd
 
 #### Examples
 
-The following example shows how to use <a href="https://msdn.microsoft.com/en-us/library/Dd742782(v=VS.85).aspx">CreateLayer</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd742856(v=VS.85).aspx">PushLayer</a>, and <a href="https://msdn.microsoft.com/6ab05160-4f42-477f-a5bf-f16863b0635c">PopLayer</a>. All fields in the  <a href="https://msdn.microsoft.com/en-us/library/Dd368127(v=VS.85).aspx">D2D1_LAYER_PARAMETERS</a> structure set to  defaults, except <b>opacityBrush</b>, which is set to an <a href="https://msdn.microsoft.com/21ed2286-e4df-4b77-ba31-e5d5927e16f5">ID2D1RadialGradientBrush</a>.
+The following example shows how to use <a href="https://msdn.microsoft.com/074e9ffb-c5f2-4e7b-94c7-d457bf07c0b7">CreateLayer</a>, <a href="https://msdn.microsoft.com/9336662c-e94e-40ba-adbe-066d704958bc">PushLayer</a>, and <a href="https://msdn.microsoft.com/6ab05160-4f42-477f-a5bf-f16863b0635c">PopLayer</a>. All fields in the  <a href="https://msdn.microsoft.com/ce575df6-9464-4672-9a0e-ff7e016d9354">D2D1_LAYER_PARAMETERS</a> structure set to  defaults, except <b>opacityBrush</b>, which is set to an <a href="https://msdn.microsoft.com/21ed2286-e4df-4b77-ba31-e5d5927e16f5">ID2D1RadialGradientBrush</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -136,7 +136,7 @@ SafeRelease(&amp;pLayer);
 </td>
 </tr>
 </table></span></div>
-For additional examples, see the <a href="https://msdn.microsoft.com/en-us/library/Dd756654(v=VS.85).aspx">Layers Overview</a>.
+For additional examples, see the <a href="https://msdn.microsoft.com/22d161fb-8470-49cc-a523-309f90643ea9">Layers Overview</a>.
 
 <div class="code"></div>
 
@@ -147,7 +147,7 @@ For additional examples, see the <a href="https://msdn.microsoft.com/en-us/libra
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd756654(v=VS.85).aspx">Layers Overview</a>
+<a href="https://msdn.microsoft.com/22d161fb-8470-49cc-a523-309f90643ea9">Layers Overview</a>
  
 
  

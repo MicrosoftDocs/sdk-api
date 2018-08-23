@@ -54,7 +54,7 @@ req.irql:
 Provides basic methods for a generic transactional object that begins a transaction. By calling the methods of this interface, you can compose the work of multiple COM+ objects in a single transaction and explicitly commit or abort the transaction.
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683492(v=VS.85).aspx">ITransactionContext</a> and <b>ITransactionContextEx</b> provide the same functionality, but unlike <b>ITransactionContextEx</b>, <b>ITransactionContext</b> is compatible with Automation.
+<a href="https://msdn.microsoft.com/818fe18b-04ed-4f54-aeb7-b19aafc8a51a">ITransactionContext</a> and <b>ITransactionContextEx</b> provide the same functionality, but unlike <b>ITransactionContextEx</b>, <b>ITransactionContext</b> is compatible with Automation.
 
 
 ## -inheritance
@@ -92,7 +92,7 @@ Attempts to commit the work of all COM objects participating in the current tran
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms681216(v=VS.85).aspx">CreateInstance</a>
+<a href="https://msdn.microsoft.com/49684f80-847b-4613-9148-dd34dc22a476">CreateInstance</a>
 </td>
 <td align="left" width="63%">
 Creates a COM object that can execute within the scope of the transaction that was initiated by the transaction context object.
@@ -108,7 +108,7 @@ Creates a COM object that can execute within the scope of the transaction that w
 
 Using the transaction context object to control a transaction limits the reuse of the business logic driving the transaction and should be used sparingly.
 
-You obtain a reference to the <a href="https://msdn.microsoft.com/en-us/library/ms683492(v=VS.85).aspx">ITransactionContext</a> interface by creating a transaction context object with the appropriate call, as in the following example.
+You obtain a reference to the <a href="https://msdn.microsoft.com/818fe18b-04ed-4f54-aeb7-b19aafc8a51a">ITransactionContext</a> interface by creating a transaction context object with the appropriate call, as in the following example.
 
 <pre class="syntax" xml:space="preserve"><code>hr = CoCreateInstance(
        CLSID_TransactionContextEx, 
@@ -125,11 +125,11 @@ You obtain a reference to the <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms687663(v=VS.85).aspx">Configuring Transactions</a>
+<a href="https://msdn.microsoft.com/ea0e4d7e-2598-4a42-993c-58815f2fa138">Configuring Transactions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683492(v=VS.85).aspx">ITransactionContext</a>
+<a href="https://msdn.microsoft.com/818fe18b-04ed-4f54-aeb7-b19aafc8a51a">ITransactionContext</a>
 
 
 

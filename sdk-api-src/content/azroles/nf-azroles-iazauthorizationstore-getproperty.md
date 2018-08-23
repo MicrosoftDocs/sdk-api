@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-The <b>GetProperty</b> method returns the <a href="https://msdn.microsoft.com/en-us/library/Aa376327(v=VS.85).aspx">AzAuthorizationStore</a> object property  with the specified property ID.
+The <b>GetProperty</b> method returns the <a href="https://msdn.microsoft.com/f848cca6-3838-46bc-b1f4-d6eab5096046">AzAuthorizationStore</a> object property  with the specified property ID.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The <b>GetProperty</b> method returns the <a href="https://msdn.microsoft.com/en
 
 ### -param lPropId [in]
 
-Property ID of the <a href="https://msdn.microsoft.com/en-us/library/Aa376327(v=VS.85).aspx">AzAuthorizationStore</a> object property  to return. The following table shows the possible values.
+Property ID of the <a href="https://msdn.microsoft.com/f848cca6-3838-46bc-b1f4-d6eab5096046">AzAuthorizationStore</a> object property  to return. The following table shows the possible values.
 
 <table>
 <tr>
@@ -115,7 +115,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/7ac3db2d-11a6-4481
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa376360(v=VS.85).aspx">MaxScriptEngines</a> property
+Also accessed through the <a href="https://msdn.microsoft.com/d18fe030-5177-4516-b4bf-6fea78abea52">MaxScriptEngines</a> property
 
 </td>
 </tr>
@@ -125,7 +125,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa37
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa376370(v=VS.85).aspx">TargetMachine</a> property
+Also accessed through the <a href="https://msdn.microsoft.com/60c3c23a-4721-4f0d-8380-e95b6170c804">TargetMachine</a> property
 
 </td>
 </tr>
@@ -145,7 +145,7 @@ Determines whether the current user has permission to create child objects. This
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa376357(v=VS.85).aspx">GenerateAudits</a> property
+Also accessed through the <a href="https://msdn.microsoft.com/e9362ae0-488d-4b6b-9a7b-c70fd85042ca">GenerateAudits</a> property
 
 </td>
 </tr>
@@ -155,7 +155,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa37
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa376339(v=VS.85).aspx">ApplyStoreSacl</a> property
+Also accessed through the <a href="https://msdn.microsoft.com/fdace7a9-4b6b-4698-812d-c53fc3b8f0d8">ApplyStoreSacl</a> property
 
 </td>
 </tr>
@@ -165,7 +165,7 @@ Also accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa37
 </dl>
 </td>
 <td width="60%">
-Also accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa376372(v=VS.85).aspx">Writable</a> property
+Also accessed through the <a href="https://msdn.microsoft.com/0c896364-739a-456a-97f7-0448711462b3">Writable</a> property
 
 </td>
 </tr>
@@ -180,7 +180,7 @@ Reserved for future use.
 
 ### -param pvarProp [out]
 
-A pointer to the returned <a href="https://msdn.microsoft.com/en-us/library/Aa376327(v=VS.85).aspx">AzAuthorizationStore</a> object property.
+A pointer to the returned <a href="https://msdn.microsoft.com/f848cca6-3838-46bc-b1f4-d6eab5096046">AzAuthorizationStore</a> object property.
 
 
 ## -returns

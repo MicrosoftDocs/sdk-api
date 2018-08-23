@@ -104,31 +104,31 @@ Trimming affects only the last visible or partly visible (due to clipping) line 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535759(v=VS.85).aspx">DrawString Methods</a>
+<a href="https://msdn.microsoft.com/b3568ed9-e359-4916-a83d-7553c021d197">DrawString Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533823(v=VS.85).aspx">Formatting Text</a>
+<a href="https://msdn.microsoft.com/4014a602-88f6-4fac-b4b2-3dafdcff8f33">Formatting Text</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535787(v=VS.85).aspx">MeasureString Methods</a>
+<a href="https://msdn.microsoft.com/947c3080-1035-4dfe-aa7d-f73753a568cf">MeasureString Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534177(v=VS.85).aspx">StringAlignment</a>
+<a href="https://msdn.microsoft.com/d395f6b4-8d8a-41b1-9c49-6fc2f005ca5d">StringAlignment</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534179(v=VS.85).aspx">StringDigitSubstitute</a>
+<a href="https://msdn.microsoft.com/b61e9a88-2b00-43f5-bc8d-1d6b4d6ecb19">StringDigitSubstitute</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534731(v=VS.85).aspx">StringFormat::SetTrimming</a>
+<a href="https://msdn.microsoft.com/a5966441-e295-41e5-85eb-189ec3831c31">StringFormat::SetTrimming</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534181(v=VS.85).aspx">StringFormatFlags</a>
+<a href="https://msdn.microsoft.com/9bbddab0-46b1-49db-86c1-cf9086692958">StringFormatFlags</a>
  
 
  

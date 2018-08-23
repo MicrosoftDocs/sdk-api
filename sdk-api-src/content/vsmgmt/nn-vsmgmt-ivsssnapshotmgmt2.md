@@ -86,7 +86,7 @@ Returns the current minimum size of the shadow copy storage area.</p> (Inherited
 
 
 To obtain an instance of the <b>IVssSnapshotMgmt2</b> 
-   interface, call the <a href="https://msdn.microsoft.com/en-us/library/ms682521(v=VS.85).aspx">QueryInterface</a> method of the 
+   interface, call the <a href="_com_iunknown_queryinterface">QueryInterface</a> method of the 
    <a href="https://msdn.microsoft.com/5e5694a1-7c17-4d8a-b094-09dcf28a636f">IVssSnapshotMgmt</a> interface, passing 
    <b>IID_IVssSnapshotMgmt2</b> as the <i>riid</i> parameter.
 
@@ -98,7 +98,7 @@ To obtain an instance of the <b>IVssSnapshotMgmt2</b>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_com_iunknown">IUnknown</a>
 
 
 

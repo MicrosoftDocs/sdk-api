@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Sets the insertion point to the defined position. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761182(v=VS.85).aspx">LVM_SETINSERTMARK</a> message explicitly. 
+Sets the insertion point to the defined position. You can use this macro or send the <a href="https://msdn.microsoft.com/32cf5a11-918a-4dc4-bf10-88b3c26f26cc">LVM_SETINSERTMARK</a> message explicitly. 
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Sets the insertion point to the defined position. You can use this macro or send
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control. 
 
@@ -70,13 +70,13 @@ A handle to the list-view control.
 
 Type: <b>PLVINSERTMARK</b>
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774758(v=VS.85).aspx">LVINSERTMARK</a>
+<a href="https://msdn.microsoft.com/61af07a1-34b1-4780-b36e-765e80783116">LVINSERTMARK</a>
 
 ## -remarks
 
 
 
-To use <b>ListView_SetInsertMark</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+To use <b>ListView_SetInsertMark</b>, specify Comctl32.dll version 6 in the manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
 
 
 

@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_getprivatedata.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_getprivatedata.htm
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/20/2018
 ms.keywords: 21f7168b-1fad-e566-5ab6-9dcae79a06ca, GetPrivateData, GetPrivateData method [Direct3D 10], GetPrivateData method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],GetPrivateData method, ID3D10Device.GetPrivateData, ID3D10Device::GetPrivateData, d3d10/ID3D10Device::GetPrivateData, direct3d10.id3d10device_getprivatedata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,7 +69,7 @@ Guid associated with the data.
 
 ### -param pDataSize [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
 
 Size of the data.
 
@@ -85,9 +85,9 @@ Pointer to the data stored with the device. If pData is <b>NULL</b>, DataSize mu
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+This method returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -96,7 +96,7 @@ This method returns one of the following <a href="https://msdn.microsoft.com/en-
 
 
 
-The data stored in the device is set with <a href="https://msdn.microsoft.com/en-us/library/Bb173616(v=VS.85).aspx">ID3D10Device::SetPrivateData</a>. 
+The data stored in the device is set with <a href="https://msdn.microsoft.com/1fc318f0-feeb-4aac-91e8-ee9e4d785f40">ID3D10Device::SetPrivateData</a>. 
 
 The data retrieved and the guid will typically be application-defined.
 
@@ -108,7 +108,7 @@ The data retrieved and the guid will typically be application-defined.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
  
 
  

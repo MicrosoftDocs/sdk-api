@@ -82,14 +82,7 @@ Specifies whether to lock or unlock the next hop in an exclusive (<b>TRUE</b>) o
 Specifies whether to lock or unlock the next hop. Specify <b>TRUE</b> to lock the next hop; specify <b>FALSE</b> to unlock it.
 
 
-### -param OPTIONAL
-
-TBD
-
-
-
-
-#### - NextHopPointer [out]
+### -param NextHopPointer [out]
 
 On input, <i>NextHopPointer</i> is a pointer to <b>NULL</b>. 
 

@@ -7,7 +7,7 @@ old-location: security\opencardname_ex.htm
 old-project: secauthn
 ms.assetid: fb9e64a9-441a-4c7b-b404-79682778c694
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: "*LPOPENCARDNAME_EXA, *POPENCARDNAME_EXA, LPOPENCARDNAME_EX, LPOPENCARDNAME_EX structure pointer [Security], OPENCARDNAME_EX, OPENCARDNAME_EX structure [Security], OPENCARDNAME_EXA, OPENCARDNAME_EXW, POPENCARDNAME_EX, POPENCARDNAME_EX structure pointer [Security], SC_DLG_FORCE_UI, SC_DLG_MINIMAL_UI, SC_DLG_NO_UI, _smart_opencardname_ex, security.opencardname_ex, winscard/LPOPENCARDNAME_EX, winscard/OPENCARDNAME_EX, winscard/OPENCARDNAME_EXA, winscard/OPENCARDNAME_EXW, winscard/POPENCARDNAME_EX"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -240,7 +240,7 @@ A handle of the connected card (either through an internal dialog box connect or
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>
+<a href="authentication_return_values.htm">Smart Card Return Values</a>
  
 
  

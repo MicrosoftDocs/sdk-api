@@ -176,15 +176,15 @@ The menu item.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647991(v=VS.85).aspx">LoadMenuIndirect</a>
+<a href="https://msdn.microsoft.com/01736486-6dee-43fe-80a7-06c4cf13a23e">LoadMenuIndirect</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647583(v=VS.85).aspx">MENUITEMTEMPLATEHEADER</a>
+<a href="https://msdn.microsoft.com/7dd21370-9e26-4086-9ba1-98e79966c336">MENUITEMTEMPLATEHEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
 
 
 

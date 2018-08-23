@@ -61,7 +61,7 @@ Multiplies this matrix with the specified matrix and returns the result.
 
 ### -param matrix [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Hh848004(v=VS.85).aspx">Matrix4x4F</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/113861DF-2E6D-4930-82DC-AA592882E21C">Matrix4x4F</a></b>
 
 The matrix to multiply by.
 
@@ -70,7 +70,7 @@ The matrix to multiply by.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh848004(v=VS.85).aspx">Matrix4x4F</a></b>
+Type: <b><a href="https://msdn.microsoft.com/113861DF-2E6D-4930-82DC-AA592882E21C">Matrix4x4F</a></b>
 
 The result of the matrix multiplication.
 
@@ -82,7 +82,7 @@ The result of the matrix multiplication.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh848004(v=VS.85).aspx">Matrix4x4F</a>
+<a href="https://msdn.microsoft.com/113861DF-2E6D-4930-82DC-AA592882E21C">Matrix4x4F</a>
  
 
  

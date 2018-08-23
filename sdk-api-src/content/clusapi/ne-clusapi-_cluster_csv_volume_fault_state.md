@@ -22,7 +22,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: CluAdmEx.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -89,11 +89,11 @@ The CSV is dismounted.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn622922(v=VS.85).aspx">CLUS_CSV_VOLUME_INFO</a>
+<a href="https://msdn.microsoft.com/C672B42B-0DB9-4E70-8157-15C3189102EF">CLUS_CSV_VOLUME_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309147(v=VS.85).aspx">Failover Cluster Enumerations</a>
+<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
  
 
  

@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Dn890768(v=VS.85).aspx">Exposure effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/d384f539-5c19-53c7-e52b-bf833e221449">Exposure effect</a>.
 
 
 ## -enum-fields

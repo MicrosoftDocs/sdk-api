@@ -99,7 +99,7 @@ The user verifies the return values from this method.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms685160(v=VS.85).aspx">IComThreadEvents</a>
+<a href="https://msdn.microsoft.com/a6523088-cca4-41c1-a3fe-d8cb7320ff33">IComThreadEvents</a>
  
 
  

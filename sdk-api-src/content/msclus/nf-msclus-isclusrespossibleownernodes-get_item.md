@@ -61,7 +61,7 @@ req.product: GDI+ 1.1
 Returns a 
     <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a> from a 
     <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource's</a> list of 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">possible owner</a> nodes.
+    <a href="p_gly.htm">possible owner</a> nodes.
 
 This property is read-only.
 

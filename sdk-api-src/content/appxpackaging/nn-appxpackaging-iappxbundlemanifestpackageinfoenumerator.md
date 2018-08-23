@@ -7,7 +7,7 @@ old-location: appxpkg\iappxbundlemanifestpackageinfoenumerator.htm
 old-project: appxpkg
 ms.assetid: 4861D5CF-9FDC-4BAA-8462-D239DAEB5195
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/16/2018
 ms.keywords: IAppxBundleManifestPackageInfoEnumerator, IAppxBundleManifestPackageInfoEnumerator interface [App packaging and management], IAppxBundleManifestPackageInfoEnumerator interface [App packaging and management],described, appxpackaging/IAppxBundleManifestPackageInfoEnumerator, appxpkg.iappxbundlemanifestpackageinfoenumerator
 ms.prod: windows
 ms.technology: windows-sdk

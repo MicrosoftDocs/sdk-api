@@ -101,7 +101,7 @@ Successfully specified the name of the file to contain the reply data.
 </td>
 <td width="60%">
 You cannot change the reply file name after BITS begins transferring the reply to the client. BITS is transferring the reply to the client if the state is <b>BG_JOB_STATE_TRANSFERRING</b> and the <b>BytesTotal</b> member of the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362808(v=VS.85).aspx">BG_JOB_REPLY_PROGRESS</a> structure is not <b>BG_SIZE_UNKNOWN</b>.
+<a href="https://msdn.microsoft.com/ea78ee22-87b2-4859-bd49-dd309c8aa234">BG_JOB_REPLY_PROGRESS</a> structure is not <b>BG_SIZE_UNKNOWN</b>.
 
 </td>
 </tr>
@@ -139,7 +139,7 @@ The reply file name is invalid or exceeds <b>MAX_PATH</b>.
 
 BITS generates the file name if you do not call the 
 <b>SetReplyFileName</b> method before calling the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363039(v=VS.85).aspx">IBackgroundCopyJob::Resume</a> method for the first time.
+<a href="https://msdn.microsoft.com/a9e6f057-0a51-4f2d-810b-edbb3e019370">IBackgroundCopyJob::Resume</a> method for the first time.
 
 If BITS generates the file name, the reply file is written to the same directory as the local upload file.
 
@@ -147,9 +147,9 @@ You can call the
 <b>SetReplyFileName</b> method anytime before BITS begins downloading the reply from the server application; the method fails if the download has begun.
 
 The reply file is available to the client after calling the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363021(v=VS.85).aspx">IBackgroundCopyJob::Complete</a> method. To retrieve the reply data before calling the 
+<a href="https://msdn.microsoft.com/d57b0b2e-1181-45ed-b7fc-d002d14527cf">IBackgroundCopyJob::Complete</a> method. To retrieve the reply data before calling the 
 <b>Complete</b> method, call the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362983(v=VS.85).aspx">IBackgroundCopyJob2::GetReplyData</a> method.
+<a href="https://msdn.microsoft.com/f29df35f-48c2-4837-9809-46bd04f08bfb">IBackgroundCopyJob2::GetReplyData</a> method.
 
 The file is empty if the server application did not provide a reply.
 
@@ -161,11 +161,11 @@ The file is empty if the server application did not provide a reply.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362983(v=VS.85).aspx">IBackgroundCopyJob::GetReplyData</a>
+<a href="https://msdn.microsoft.com/f29df35f-48c2-4837-9809-46bd04f08bfb">IBackgroundCopyJob::GetReplyData</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362984(v=VS.85).aspx">IBackgroundCopyJob::GetReplyFileName</a>
+<a href="https://msdn.microsoft.com/57f9245c-c1ae-4027-8e84-4926fa4861c3">IBackgroundCopyJob::GetReplyFileName</a>
  
 
  

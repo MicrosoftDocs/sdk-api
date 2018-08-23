@@ -1,0 +1,97 @@
+---
+UID: NF:dwrite.IDWriteFontFile.GetReferenceKey
+title: IDWriteFontFile::GetReferenceKey
+author: windows-sdk-content
+description: Obtains the pointer to the reference key of a font file. The returned pointer is valid until the font file object is released.
+old-location: directwrite\IDWriteFontFile_GetReferenceKey.htm
+old-project: DirectWrite
+ms.assetid: 2f76f0a0-2b4a-4983-88b9-0f1f2b7a7027
+ms.author: windowssdkdev
+ms.date: 07/24/2018
+ms.keywords: GetReferenceKey, GetReferenceKey method [Direct Write], GetReferenceKey method [Direct Write],IDWriteFontFile interface, IDWriteFontFile interface [Direct Write],GetReferenceKey method, IDWriteFontFile.GetReferenceKey, IDWriteFontFile::GetReferenceKey, directwrite.IDWriteFontFile_GetReferenceKey, dwrite/IDWriteFontFile::GetReferenceKey
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dwrite.h
+req.include-header: 
+req.redist: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteFontFile.GetReferenceKey
+product: Windows
+targetos: Windows
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IDWriteFontFile::GetReferenceKey
+
+
+## -description
+
+
+ Obtains the pointer to the reference key of a font file. The returned pointer is valid until the font file object is released. 
+
+
+## -parameters
+
+
+
+
+### -param fontFileReferenceKey [out]
+
+Type: <b>const void**</b>
+
+When this method returns, contains an address of  a pointer to the font file reference key. Note that the pointer value is only valid until the font file object it is obtained from is released. This parameter is passed uninitialized.
+
+
+### -param fontFileReferenceKeySize [out]
+
+Type: <b>UINT32*</b>
+
+When this method returns, contains the size of the font file reference key in bytes. This parameter is passed uninitialized.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/d4be5466-0b6c-4cc5-9f16-aa00c6037eb9">IDWriteFontFile</a>
+ 
+
+ 
+

@@ -7,7 +7,7 @@ old-location: appxpkg\openpackageinfobyfullname.htm
 old-project: appxpkg
 ms.assetid: 9ECFC757-1CB3-43A1-BA45-9AF72CAB240E
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/16/2018
 ms.keywords: OpenPackageInfoByFullName, OpenPackageInfoByFullName function [App packaging and management], appmodel/OpenPackageInfoByFullName, appxpkg.openpackageinfobyfullname
 ms.prod: windows
 ms.technology: windows-sdk

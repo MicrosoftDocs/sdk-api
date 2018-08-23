@@ -1,0 +1,99 @@
+---
+UID: NF:dwrite_3.IDWriteFontFamily1.GetFontLocality
+title: IDWriteFontFamily1::GetFontLocality
+author: windows-sdk-content
+description: Gets the current location of a font given its zero-based index.
+old-location: directwrite\idwritefontfamily1_getfontlocality.htm
+old-project: DirectWrite
+ms.assetid: 9D262E5C-4407-4110-A315-F529B809EDE2
+ms.author: windowssdkdev
+ms.date: 07/24/2018
+ms.keywords: GetFontLocality, GetFontLocality method [Direct Write], GetFontLocality method [Direct Write],IDWriteFontFamily1 interface, IDWriteFontFamily1 interface [Direct Write],GetFontLocality method, IDWriteFontFamily1.GetFontLocality, IDWriteFontFamily1::GetFontLocality, directwrite.idwritefontfamily1_getfontlocality, dwrite_3/IDWriteFontFamily1::GetFontLocality
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dwrite_3.h
+req.include-header: 
+req.redist: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteFontFamily1.GetFontLocality
+product: Windows
+targetos: Windows
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IDWriteFontFamily1::GetFontLocality
+
+
+## -description
+
+
+Gets the current location of a font given its zero-based index.
+
+
+## -parameters
+
+
+
+
+### -param listIndex [in]
+
+Type: <b>UINT32</b>
+
+Zero-based index of the font in the font list.
+
+
+## -returns
+
+
+
+Type: <b><a href="https://msdn.microsoft.com/DEBFE4E0-C995-4468-9702-44EA37F1BCFF">DWRITE_LOCALITY</a></b>
+
+Returns a <a href="https://msdn.microsoft.com/DEBFE4E0-C995-4468-9702-44EA37F1BCFF">DWRITE_LOCALITY</a>-typed value that specifies the location of the specified font.
+
+
+
+
+## -remarks
+
+
+
+For fully local files, the result will always be <b>DWRITE_LOCALITY_LOCAL</b>. For streamed files, the result depends on how much of the file has been downloaded. <a href="https://msdn.microsoft.com/B5C03AC5-E642-4AC8-94D1-D935BA159113">GetFont</a> fails if the locality is <b>DWRITE_LOCALITY_REMOTE</b> and potentially fails if <b>DWRITE_LOCALITY_PARTIAL</b>. 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0642C2FA-03D0-4233-B8C4-27E4549B30BB">IDWriteFontFamily1</a>
+ 
+
+ 
+

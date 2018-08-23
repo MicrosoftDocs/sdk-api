@@ -62,9 +62,9 @@ Contains parameters used during a moniker-binding operation.
 
 ### -field dwTrackFlags
 
-A moniker can use this value during link tracking. If the original persisted data that the moniker is referencing has been moved, the moniker can attempt to reestablish the link by searching for the original data though some adequate mechanism. This member provides additional information on how the link should be resolved. See the documentation of the <i>fFlags</i> parameter in <a href="https://msdn.microsoft.com/library/Bb774952(v=VS.85).aspx">IShellLink::Resolve</a>.
+A moniker can use this value during link tracking. If the original persisted data that the moniker is referencing has been moved, the moniker can attempt to reestablish the link by searching for the original data though some adequate mechanism. This member provides additional information on how the link should be resolved. See the documentation of the <i>fFlags</i> parameter in <a href="_win32_IShellLink_Resolve">IShellLink::Resolve</a>.
 
-COM's file moniker implementation uses the shell link mechanism to reestablish links and passes these flags to <a href="https://msdn.microsoft.com/library/Bb774952(v=VS.85).aspx">IShellLink::Resolve</a>. 
+COM's file moniker implementation uses the shell link mechanism to reestablish links and passes these flags to <a href="_win32_IShellLink_Resolve">IShellLink::Resolve</a>. 
 
 
 ### -field dwClassContext

@@ -22,7 +22,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: CluAdmEx.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -52,7 +52,7 @@ req.irql:
 
 
 Describes the severity of the current phase of the cluster setup process. The 
-    <a href="https://msdn.microsoft.com/en-us/library/Bb394687(v=VS.85).aspx">ClusterSetupProgressCallback</a> function 
+    <a href="https://msdn.microsoft.com/fb7a6991-576c-4c03-aef0-89811fbc1a0d">ClusterSetupProgressCallback</a> function 
     uses this enumeration.
 
 
@@ -81,11 +81,11 @@ This phase of the cluster setup process cannot complete successfully.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309147(v=VS.85).aspx">Failover Cluster Enumerations</a>
+<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb394687(v=VS.85).aspx">PCLUSTER_SETUP_PROGRESS_CALLBACK</a>
+<a href="https://msdn.microsoft.com/fb7a6991-576c-4c03-aef0-89811fbc1a0d">PCLUSTER_SETUP_PROGRESS_CALLBACK</a>
  
 
  

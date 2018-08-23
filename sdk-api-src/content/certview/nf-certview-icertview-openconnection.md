@@ -7,7 +7,7 @@ old-location: security\icertview2_openconnection.htm
 old-project: SecCrypto
 ms.assetid: 576af4d1-88c9-40e3-9438-9fefd483be7a
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CCertView object [Security],OpenConnection method, ICertView interface [Security],OpenConnection method, ICertView.OpenConnection, ICertView2 interface [Security],OpenConnection method, ICertView2::OpenConnection, ICertView::OpenConnection, OpenConnection, OpenConnection method [Security], OpenConnection method [Security],CCertView object, OpenConnection method [Security],ICertView interface, OpenConnection method [Security],ICertView2 interface, certview/ICertView2::OpenConnection, certview/ICertView::OpenConnection, security.icertview2_openconnection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,8 +63,8 @@ The <b>OpenConnection</b> method establishes a connection with a Certificate Ser
 
 ### -param strConfig [in]
 
-Represents a valid configuration string for the Certificate Services server. The configuration string is in the form COMPUTERNAME\CANAME, where COMPUTERNAME is the server's network name, and CANAME is the common name of the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> entered during Certificate Services setup. For information about the configuration string name, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383268(v=VS.85).aspx">ICertConfig</a>.
+Represents a valid configuration string for the Certificate Services server. The configuration string is in the form COMPUTERNAME\CANAME, where COMPUTERNAME is the server's network name, and CANAME is the common name of the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> entered during Certificate Services setup. For information about the configuration string name, see 
+<a href="https://msdn.microsoft.com/92bece6a-73f0-47cf-8142-77e986448824">ICertConfig</a>.
 
 
 ## -returns
@@ -74,7 +74,7 @@ Represents a valid configuration string for the Certificate Services server. The
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 
@@ -84,7 +84,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 Upon successful completion of this method, the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385414(v=VS.85).aspx">ICertView</a> object will have a connection to the Certificate Services server specified in the  <i>strConfig</i> parameter.
+<a href="https://msdn.microsoft.com/0b6660ee-458f-457f-8a38-0d950aee2710">ICertView</a> object will have a connection to the Certificate Services server specified in the  <i>strConfig</i> parameter.
 
  To close the connection, call the <b>Release</b> function.
 
@@ -151,19 +151,19 @@ error:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383268(v=VS.85).aspx">ICertConfig</a>
+<a href="https://msdn.microsoft.com/92bece6a-73f0-47cf-8142-77e986448824">ICertConfig</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385414(v=VS.85).aspx">ICertView</a>
+<a href="https://msdn.microsoft.com/0b6660ee-458f-457f-8a38-0d950aee2710">ICertView</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385417(v=VS.85).aspx">ICertView2</a>
+<a href="https://msdn.microsoft.com/c29f1db3-0cdf-463e-a202-47fbba8e1c81">ICertView2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385435(v=VS.85).aspx">ICertView::OpenView</a>
+<a href="https://msdn.microsoft.com/d68a5463-f711-4737-b0ad-889f7e4855d5">ICertView::OpenView</a>
  
 
  

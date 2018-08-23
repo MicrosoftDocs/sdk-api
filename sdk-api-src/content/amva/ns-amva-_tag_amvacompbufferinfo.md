@@ -7,7 +7,7 @@ old-location: dshow\amvacompbufferinfo.htm
 old-project: DirectShow
 ms.assetid: 74ef5dfb-1062-40c6-a2dd-76f46ca8db92
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/20/2018
 ms.keywords: "*LPAMVACompBufferInfo, AMVACompBufferInfo, AMVACompBufferInfo structure [DirectShow], AMVACompBufferInfoStructure, LPAMVACompBufferInfo, LPAMVACompBufferInfo structure pointer [DirectShow], _tag_AMVACompBufferInfo, amva/AMVACompBufferInfo, amva/LPAMVACompBufferInfo, dshow.amvacompbufferinfo"
 ms.prod: windows
 ms.technology: windows-sdk

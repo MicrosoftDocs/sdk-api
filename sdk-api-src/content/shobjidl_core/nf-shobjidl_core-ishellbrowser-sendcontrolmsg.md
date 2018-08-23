@@ -93,7 +93,7 @@ The value depends on the message specified in the <i>uMsg</i> parameter.
 Type: <b>LRESULT*</b>
 
 The address of the return value of the 
-					<a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a> function.
+					<a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a> function.
 
 
 ## -returns
@@ -111,7 +111,7 @@ Returns <b>S_OK</b> if successful, or a COM-defined error value otherwise.
 
 
 
-Refer to the <a href="https://msdn.microsoft.com/en-us/library/Bb775493(v=VS.85).aspx">Common Controls</a> documentation for more information on the messages that can be sent to the toolbar or status bar control.
+Refer to the <a href="https://msdn.microsoft.com/c0d3eff4-c5b5-4b59-b980-96e0e4d6a595">Common Controls</a> documentation for more information on the messages that can be sent to the toolbar or status bar control.
 
 <h3><a id="Notes_to_Calling_Applications"></a><a id="notes_to_calling_applications"></a><a id="NOTES_TO_CALLING_APPLICATIONS"></a>Notes to Calling Applications</h3>
 Use of this call requires diligent attention, because leaving either the status bar or toolbar in an inappropriate state will affect the performance of Windows Explorer.

@@ -7,7 +7,7 @@ old-location: security\cryptsethashparam.htm
 old-project: SecCrypto
 ms.assetid: 0c8d3ef9-e7b5-4e49-a2f8-9c85b16549da
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CryptSetHashParam, CryptSetHashParam function [Security], HP_HASHVAL., HP_HMAC_INFO., _crypto2_cryptsethashparam, security.cryptsethashparam, wincrypt/CryptSetHashParam
 ms.prod: windows
 ms.technology: windows-sdk
@@ -273,7 +273,7 @@ Occasionally, a hash value that has been generated elsewhere must be signed. Thi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Hash and Digital Signature Functions</a>
+<a href="cryptography_functions.htm">Hash and Digital Signature Functions</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: dlgbox\getfiletitle.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\getfiletitle.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/21/2018
 ms.keywords: GetFileTitle, GetFileTitle function [Dialog Boxes], GetFileTitleA, GetFileTitleW, _win32_GetFileTitle, _win32_getfiletitle_cpp, commdlg/GetFileTitle, commdlg/GetFileTitleA, commdlg/GetFileTitleW, dlgbox.getfiletitle, winui._win32_getfiletitle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -118,7 +118,7 @@ If the  <i>lpszTitle</i> buffer is too small, <b>GetFileTitle</b> returns the si
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645524(v=VS.85).aspx">Common Dialog Box Library</a>
+<a href="https://msdn.microsoft.com/28573019-f0bd-4a8e-a1a1-48559f658a81">Common Dialog Box Library</a>
 
 
 
@@ -126,11 +126,11 @@ If the  <i>lpszTitle</i> buffer is too small, <b>GetFileTitle</b> returns the si
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646927(v=VS.85).aspx">GetOpenFileName</a>
+<a href="https://msdn.microsoft.com/22b8f3d0-455a-4eb8-9835-e90d41924ec7">GetOpenFileName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646928(v=VS.85).aspx">GetSaveFileName</a>
+<a href="https://msdn.microsoft.com/424e9d85-853b-4dc6-a29a-c532a8bb23f7">GetSaveFileName</a>
 
 
 

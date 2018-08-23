@@ -7,7 +7,7 @@ old-location: security\sspiencryptauthidentity.htm
 old-project: secauthn
 ms.assetid: 4460f7ec-35fd-4ad1-8c20-dda9f4d3477a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: SspiEncryptAuthIdentity, SspiEncryptAuthIdentity function [Security], security.sspiencryptauthidentity, sspi/SspiEncryptAuthIdentity
 ms.prod: windows
 ms.technology: windows-sdk

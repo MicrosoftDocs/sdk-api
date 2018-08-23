@@ -7,7 +7,7 @@ old-location: intl\getgeoinfo.htm
 old-project: Intl
 ms.assetid: 73827ed9-bdc5-4b34-b849-fb44b3c5bd6e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: GetGeoInfo, GetGeoInfo function [Internationalization for Windows Applications], GetGeoInfoA, GetGeoInfoW, _win32_GetGeoInfo, intl.getgeoinfo, winnls/GetGeoInfo, winnls/GetGeoInfoA, winnls/GetGeoInfoW
 ms.prod: windows
 ms.technology: windows-sdk

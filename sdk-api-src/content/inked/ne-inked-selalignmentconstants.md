@@ -7,7 +7,7 @@ old-location: tablet\selalignmentconstants.htm
 old-project: tablet
 ms.assetid: fdf5be40-e853-43a5-b1ac-b810c31fbeb3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: SelAlignmentConstants, SelAlignmentConstants enumeration [Tablet PC], fdf5be40-e853-43a5-b1ac-b810c31fbeb3, inked/SelAlignmentConstants, inked/rtfCenter, inked/rtfLeft, inked/rtfRight, rtfCenter, rtfLeft, rtfRight, tablet.selalignmentconstants
 ms.prod: windows
 ms.technology: windows-sdk

@@ -153,7 +153,7 @@ one for each processor installed in the system.
 
 #### SystemQueryPerformanceCounterInformation
 
-Returns a <b>SYSTEM_QUERY_PERFORMANCE_COUNTER_INFORMATION</b> structure that can be used to determine whether the system requires a kernel transition to retrieve the high-resolution performance counter information through a <a href="https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx">QueryPerformanceCounter</a> function call.  
+Returns a <b>SYSTEM_QUERY_PERFORMANCE_COUNTER_INFORMATION</b> structure that can be used to determine whether the system requires a kernel transition to retrieve the high-resolution performance counter information through a <a href="winui._win32_QueryPerformanceCounter">QueryPerformanceCounter</a> function call.  
 
 
 
@@ -775,14 +775,7 @@ function instead to generate cryptographically random data.
 The size of the buffer pointed to by the <i>SystemInformation</i>parameter, in bytes.
 
 
-### -param OPTIONAL
-
-TBD
-
-
-
-
-#### - ReturnLength [out, optional]
+### -param ReturnLength [out, optional]
 
 An optional pointer to a location where the function  writes the actual size
 of the information requested. If that size is less than or equal to the    

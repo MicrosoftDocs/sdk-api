@@ -7,7 +7,7 @@ old-location: intl\idntonameprepunicode.htm
 old-project: Intl
 ms.assetid: 25790685-9797-4cde-a530-94793b1245a0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: IdnToNameprepUnicode, IdnToNameprepUnicode function [Internationalization for Windows Applications], _win32_IdnToNameprepUnicode, intl.idntonameprepunicode, winnls/IdnToNameprepUnicode
 ms.prod: windows
 ms.technology: windows-sdk

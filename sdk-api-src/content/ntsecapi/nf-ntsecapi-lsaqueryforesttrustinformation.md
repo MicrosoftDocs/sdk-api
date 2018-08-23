@@ -7,7 +7,7 @@ old-location: security\lsaqueryforesttrustinformation.htm
 old-project: secauthn
 ms.assetid: 38857f1f-e2c7-4ce5-a928-335bc3bd2176
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: LsaQueryForestTrustInformation, LsaQueryForestTrustInformation function [Security], ntsecapi/LsaQueryForestTrustInformation, security.lsaqueryforesttrustinformation
 ms.prod: windows
 ms.technology: windows-sdk

@@ -110,7 +110,7 @@ The text service does not support the integration style.
 If an app needs a keyboard-integrated experience, it can set a <b>GUID</b> for the desired type of 
     integration experience.  If the text service supports the integration style, it should return <b>S_OK</b>.
           If it's not supported, it should return <b>E_NOTIMPL</b>.  When called, the text service may adjust its respond to
-    keyboard interaction for the lifetime of the <a href="https://msdn.microsoft.com/en-us/library/Aa380892(v=VS.85).aspx">ITfCandidateListUIElement</a> object, for example, until <a href="https://msdn.microsoft.com/en-us/library/Aa383204(v=VS.85).aspx">ITfUIElementSink::EndUIElement</a> is called.
+    keyboard interaction for the lifetime of the <a href="https://msdn.microsoft.com/1f39aa06-3c94-4959-b857-ca61498d5b5c">ITfCandidateListUIElement</a> object, for example, until <a href="https://msdn.microsoft.com/b29539fe-a240-498b-8267-be243d437005">ITfUIElementSink::EndUIElement</a> is called.
 
 
 
@@ -120,11 +120,11 @@ If an app needs a keyboard-integrated experience, it can set a <b>GUID</b> for t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh920954(v=VS.85).aspx">ITfIntegratableCandidateListUIElement</a>
+<a href="https://msdn.microsoft.com/F9AB2037-6806-42FC-BD41-F6B6BA047908">ITfIntegratableCandidateListUIElement</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383204(v=VS.85).aspx">ITfUIElementSink::EndUIElement</a>
+<a href="https://msdn.microsoft.com/b29539fe-a240-498b-8267-be243d437005">ITfUIElementSink::EndUIElement</a>
  
 
  

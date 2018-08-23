@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Converts the specified <a href="https://msdn.microsoft.com/en-us/library/Dd368132(v=VS.85).aspx">D2D1_MATRIX_4X4_F</a> matrix to a <a href="https://msdn.microsoft.com/en-us/library/Hh848004(v=VS.85).aspx">Matrix4x4F</a> without making a copy.
+Converts the specified <a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_4X4_F</a> matrix to a <a href="https://msdn.microsoft.com/113861DF-2E6D-4930-82DC-AA592882E21C">Matrix4x4F</a> without making a copy.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ The matrix to convert.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh848004(v=VS.85).aspx">Matrix4x4F</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/113861DF-2E6D-4930-82DC-AA592882E21C">Matrix4x4F</a>*</b>
 
 The converted matrix.
 
@@ -82,7 +82,7 @@ The converted matrix.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh848004(v=VS.85).aspx">Matrix4x4F</a>
+<a href="https://msdn.microsoft.com/113861DF-2E6D-4930-82DC-AA592882E21C">Matrix4x4F</a>
  
 
  

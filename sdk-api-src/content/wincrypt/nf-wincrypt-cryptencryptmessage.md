@@ -7,7 +7,7 @@ old-location: security\cryptencryptmessage.htm
 old-project: SecCrypto
 ms.assetid: 927f2e9a-96cf-4744-bd57-420b5034d28d
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CryptEncryptMessage, CryptEncryptMessage function [Security], _crypto2_cryptencryptmessage, security.cryptencryptmessage, wincrypt/CryptEncryptMessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -168,7 +168,7 @@ If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
+<a href="cryptography_functions.htm">Simplified Message Functions</a>
  
 
  

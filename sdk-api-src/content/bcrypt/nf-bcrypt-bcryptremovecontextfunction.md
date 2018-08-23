@@ -278,7 +278,7 @@ The specified context or function could not be found.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375360(v=VS.85).aspx">BCryptAddContextFunction</a>
+<a href="https://msdn.microsoft.com/4f5b6db0-775d-42de-b9d9-a99fb11c89f2">BCryptAddContextFunction</a>
  
 
  

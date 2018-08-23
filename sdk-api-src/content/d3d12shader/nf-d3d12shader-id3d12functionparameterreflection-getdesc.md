@@ -61,9 +61,9 @@ Fills the parameter descriptor structure for the function's parameter.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn960198(v=VS.85).aspx">D3D12_PARAMETER_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/CE32EC5C-2B12-44CA-A2B0-C9ED3E64849F">D3D12_PARAMETER_DESC</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn960198(v=VS.85).aspx">D3D12_PARAMETER_DESC</a> structure that receives a description of the function's parameter.
+A pointer to a <a href="https://msdn.microsoft.com/CE32EC5C-2B12-44CA-A2B0-C9ED3E64849F">D3D12_PARAMETER_DESC</a> structure that receives a description of the function's parameter.
           
 
 
@@ -71,9 +71,9 @@ A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn960198(v=VS.8
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns one of the <a href="https://msdn.microsoft.com/en-us/library/Dn706075(v=VS.85).aspx">Direct3D 12 Return Codes</a>.
+Returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
           
 
 
@@ -84,7 +84,7 @@ Returns one of the <a href="https://msdn.microsoft.com/en-us/library/Dn706075(v=
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn960214(v=VS.85).aspx">ID3D12FunctionParameterReflection</a>
+<a href="https://msdn.microsoft.com/9AB312BE-E174-46D2-BF24-32309BD88AC4">ID3D12FunctionParameterReflection</a>
  
 
  

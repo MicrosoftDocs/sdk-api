@@ -7,7 +7,7 @@ old-location: intl\scriptcptox.htm
 old-project: Intl
 ms.assetid: 65a11b21-3f4b-463a-b347-a00add32380c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: ScriptCPtoX, ScriptCPtoX function [Internationalization for Windows Applications], _win32_ScriptCPtoX, intl.scriptcptox, usp10/ScriptCPtoX
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ req.product: Windows UI
 ## -description
 
 
-Generates the x offset from the left end or leading edge of a run to either the leading or trailing edge of a logical character <a href="https://msdn.microsoft.com/en-us/library/Dd374094(v=VS.85).aspx">cluster</a>.
+Generates the x offset from the left end or leading edge of a run to either the leading or trailing edge of a logical character <a href="uniscribe_glossary.htm">cluster</a>.
 
 
 ## -parameters

@@ -1,0 +1,120 @@
+---
+UID: NF:reconcil.IReconcilableObject.GetProgressFeedbackMaxEstimate
+title: IReconcilableObject::GetProgressFeedbackMaxEstimate
+author: windows-sdk-content
+description: Retrieves an estimated measurement of the amount of work required to complete a reconciliation.
+old-location: lwef\ireconcilableobject_getprogressfeedbackmaxestimate.htm
+old-project: lwef
+ms.assetid: fdaa7f59-3aba-4a9e-b394-a76029ddab13
+ms.author: windowssdkdev
+ms.date: 07/29/2018
+ms.keywords: GetProgressFeedbackMaxEstimate, GetProgressFeedbackMaxEstimate method [Legacy Windows Environment Features], GetProgressFeedbackMaxEstimate method [Legacy Windows Environment Features],IReconcilableObject interface, IReconcilableObject interface [Legacy Windows Environment Features],GetProgressFeedbackMaxEstimate method, IReconcilableObject.GetProgressFeedbackMaxEstimate, IReconcilableObject::GetProgressFeedbackMaxEstimate, _win32_IReconcilableObject_GetProgressFeedbackMaxEstimate, lwef.ireconcilableobject_getprogressfeedbackmaxestimate, reconcil/IReconcilableObject::GetProgressFeedbackMaxEstimate, shell.ireconcilableobject_getprogressfeedbackmaxestimate
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: reconcil.h
+req.include-header: 
+req.redist: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows 2000 Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: RDPENCOMAPI_CONSTANTS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Shell32.dll
+api_name:
+ - IReconcilableObject.GetProgressFeedbackMaxEstimate
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Shell32.dll (version 4.0 or later)
+req.irql: 
+req.product: ADAM
+---
+
+# IReconcilableObject::GetProgressFeedbackMaxEstimate
+
+
+## -description
+
+
+Retrieves an estimated measurement of the amount of work required to complete a reconciliation. Reconcilers typically use this method to estimate the work needed to reconcile an embedded document. This value corresponds to a similar value that is passed with the <a href="https://msdn.microsoft.com/faa685f1-e203-4d8a-a1c3-d544b8e5271d">SetProgressFeedback</a> method during reconciliation. 
+
+
+## -parameters
+
+
+
+
+### -param pulProgressMax
+
+Type: <b>ULONG*</b>
+
+The address of the variable to receive the work estimate value. 
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+Returns S_OK if successful, or one of the following error values otherwise.
+
+<table>
+<tr>
+<th>Return code</th>
+<th>Description</th>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>OLE_E_NOTRUNNING</b></dt>
+</dl>
+</td>
+<td width="60%">
+The object is an OLE embedded document that must be run before this operation can be carried out. The object state is unchanged as a result of the call.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+<dl>
+<dt><b>E_UNEXPECTED</b></dt>
+</dl>
+</td>
+<td width="60%">
+Unspecified error.
+
+</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/2a0ec2c0-0bec-4aeb-bbd5-0db18f0d5f8c">IReconcilableObject</a>
+ 
+
+ 
+

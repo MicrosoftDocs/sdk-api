@@ -51,13 +51,13 @@ req.irql:
 ## -description
 
 
-The <b>AlgorithmType</b> enumeration type specifies the intended purpose of a <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">cryptographic algorithm</a> supported by a cryptographic provider. Algorithms are typically classified by use into the following general categories:<ul>
+The <b>AlgorithmType</b> enumeration type specifies the intended purpose of a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">cryptographic algorithm</a> supported by a cryptographic provider. Algorithms are typically classified by use into the following general categories:<ul>
 <li>Signing</li>
 <li>Hashing</li>
 <li>Asymmetric encryption</li>
 <li>Symmetric encryption</li>
 <li>Key exchange</li>
-</ul> This enumeration is used in the <a href="https://msdn.microsoft.com/en-us/library/Aa375947(v=VS.85).aspx">ICspAlgorithm</a> interface.
+</ul> This enumeration is used in the <a href="https://msdn.microsoft.com/08eba616-2e96-40cd-9fda-8549de98c138">ICspAlgorithm</a> interface.
 
 
 ## -enum-fields
@@ -72,27 +72,27 @@ The algorithm type is not defined.
 
 ### -field XCN_BCRYPT_CIPHER_INTERFACE
 
-The algorithm is used for symmetric encryption. This includes the <a href="https://msdn.microsoft.com/en-us/library/ms721604(v=VS.85).aspx">RC2</a>, <a href="https://msdn.microsoft.com/en-us/library/ms721604(v=VS.85).aspx">RC4</a>, <a href="https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx">Data Encryption Standard</a> (DES), 3DED, and <a href="https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx">AES</a> algorithms.
+The algorithm is used for symmetric encryption. This includes the <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">RC2</a>, <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">RC4</a>, <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">Data Encryption Standard</a> (DES), 3DED, and <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">AES</a> algorithms.
 
 
 ### -field XCN_BCRYPT_HASH_INTERFACE
 
-The algorithm is used for hashing. This includes the <a href="https://msdn.microsoft.com/en-us/library/ms721594(v=VS.85).aspx">MD2</a>, <a href="https://msdn.microsoft.com/en-us/library/ms721594(v=VS.85).aspx">MD4</a>, SHA1, SHA256, SHA384, SHA512 MAC, and <a href="https://msdn.microsoft.com/en-us/library/ms721586(v=VS.85).aspx">Hash-Based Message Authentication Code</a> (HMAC) hash algorithms.
+The algorithm is used for hashing. This includes the <a href="https://msdn.microsoft.com/4c4402e9-7455-4868-978f-3899a8fd86c1">MD2</a>, <a href="https://msdn.microsoft.com/4c4402e9-7455-4868-978f-3899a8fd86c1">MD4</a>, SHA1, SHA256, SHA384, SHA512 MAC, and <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">Hash-Based Message Authentication Code</a> (HMAC) hash algorithms.
 
 
 ### -field XCN_BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE
 
-The algorithm is used for <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">public key</a> encryption. This includes RSA.
+The algorithm is used for <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a> encryption. This includes RSA.
 
 
 ### -field XCN_BCRYPT_SIGNATURE_INTERFACE
 
-The algorithm is used for signing. This includes the <a href="https://msdn.microsoft.com/en-us/library/ms721604(v=VS.85).aspx">RSA</a> algorithm, <a href="https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx">Digital Signature Algorithm</a> (DSA), and ECDSA algorithm.
+The algorithm is used for signing. This includes the <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">RSA</a> algorithm, <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">Digital Signature Algorithm</a> (DSA), and ECDSA algorithm.
 
 
 ### -field XCN_BCRYPT_SECRET_AGREEMENT_INTERFACE
 
-The algorithm is used for key exchange. This includes the <a href="https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx">Diffie-Hellman algorithm</a> and ECDH algorithm.
+The algorithm is used for key exchange. This includes the <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">Diffie-Hellman algorithm</a> and ECDH algorithm.
 
 
 ### -field XCN_BCRYPT_RNG_INTERFACE
@@ -110,15 +110,15 @@ The algorithm is used to generate a random number.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374821(v=VS.85).aspx">AlgorithmOperationFlags</a>
+<a href="https://msdn.microsoft.com/5fa7ee1e-f5ab-44c9-8ae4-a2940f0c6289">AlgorithmOperationFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374846(v=VS.85).aspx">CertEnroll Enumerations</a>
+<a href="https://msdn.microsoft.com/8514fb89-1cf5-4e09-997c-17984efc4e03">CertEnroll Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374850(v=VS.85).aspx">CertEnroll Interfaces</a>
+<a href="https://msdn.microsoft.com/d49511ed-8651-457e-a102-0bea4edde24c">CertEnroll Interfaces</a>
  
 
  

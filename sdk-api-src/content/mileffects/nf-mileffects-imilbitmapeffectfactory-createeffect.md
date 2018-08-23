@@ -52,7 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Creates an <a href="https://msdn.microsoft.com/en-us/library/ms735317(v=VS.85).aspx">IMILBitmapEffect</a> object.
+Creates an <a href="https://msdn.microsoft.com/74078eaa-ae95-4b9b-993b-efbfb18a164d">IMILBitmapEffect</a> object.
 
 
 ## -parameters
@@ -69,9 +69,9 @@ A pointer to the GUID of the effect to create.
 
 ### -param ppEffect [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735317(v=VS.85).aspx">IMILBitmapEffect</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/74078eaa-ae95-4b9b-993b-efbfb18a164d">IMILBitmapEffect</a>**</b>
 
-A pointer that receives a pointer to a new <a href="https://msdn.microsoft.com/en-us/library/ms735258(v=VS.85).aspx">IMILBitmapEffectPrimitive</a> object.
+A pointer that receives a pointer to a new <a href="https://msdn.microsoft.com/23eea785-8545-44d3-bfcb-1ffbc82ecc6a">IMILBitmapEffectPrimitive</a> object.
 
 
 ## -returns

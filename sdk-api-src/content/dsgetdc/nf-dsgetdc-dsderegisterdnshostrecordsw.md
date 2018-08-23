@@ -90,7 +90,7 @@ Pointer to the null-terminated string that specifies the DNS host name of the do
 
 
 
-This function returns DSGETDCAPI DWORD.
+This function returns DSGETDCAPI DWORD __stdcall.
 
 
 

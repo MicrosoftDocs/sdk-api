@@ -7,7 +7,7 @@ old-location: security\certcreatectlcontext.htm
 old-project: SecCrypto
 ms.assetid: 172c59ee-9e06-4169-aaa7-2624e3fcf015
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CertCreateCTLContext, CertCreateCTLContext function [Security], _crypto2_certcreatectlcontext, security.certcreatectlcontext, wincrypt/CertCreateCTLContext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -165,7 +165,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Trust List Functions</a>
+<a href="cryptography_functions.htm">Certificate Trust List Functions</a>
  
 
  

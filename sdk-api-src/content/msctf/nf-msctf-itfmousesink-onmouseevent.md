@@ -71,7 +71,7 @@ Contains the zero-based quadrant index, relative to the edge, that the mouse pos
 
 ### -param dwBtnStatus [in]
 
-Indicates the mouse button state at the time of the event. See the <i>wParam</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/ms645616(v=VS.85).aspx">WM_MOUSEMOVE</a> message for possible values.
+Indicates the mouse button state at the time of the event. See the <i>wParam</i> parameter of the <a href="_win32_wm_mousemove">WM_MOUSEMOVE</a> message for possible values.
 
 
 ### -param pfEaten [out]
@@ -115,7 +115,7 @@ The caller should translate double-click events into multiple mouse button down 
 
 <i>uEdge</i> contains the offset, in characters, of the mouse position from the start of the text range. The mouse position is always rounded to the closest edge. Each edge is divided into four equal quadrants with two quadrants preceding the edge and two quadrants following the edge. <i>uQuadrant</i> contains the zero-based quadrant index of the mouse position. In the figure below, point "X" is in quadrant 2 of edge 1 and point "Y" is in quadrant 1 of edge 3.
 
-<img alt="Quadrant relationship to edge of a range of text" border="border" src="./images/mousedge.gif"/>
+<img alt="Quadrant relationship to edge of a range of text" border="border" src="images/mousedge.gif"/>
 
 
 
@@ -138,7 +138,7 @@ The caller should translate double-click events into multiple mouse button down 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645616(v=VS.85).aspx">WM_MOUSEMOVE</a>
+<a href="_win32_wm_mousemove">WM_MOUSEMOVE</a>
  
 
  

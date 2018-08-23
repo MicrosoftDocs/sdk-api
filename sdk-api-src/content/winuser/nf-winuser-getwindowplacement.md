@@ -7,7 +7,7 @@ old-location: winmsg\getwindowplacement.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getwindowplacement.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: GetWindowPlacement, GetWindowPlacement function [Windows and Messages], _win32_GetWindowPlacement, _win32_getwindowplacement_cpp, winmsg.getwindowplacement, winui._win32_getwindowplacement, winuser/GetWindowPlacement
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,9 +74,9 @@ A handle to the window.
 
 ### -param lpwndpl [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms632611(v=VS.85).aspx">WINDOWPLACEMENT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/897612d9-505c-442b-8389-636214d347c2">WINDOWPLACEMENT</a>*</b>
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms632611(v=VS.85).aspx">WINDOWPLACEMENT</a> structure that receives the show state and position information. Before calling <b>GetWindowPlacement</b>, set the <b>length</b> member to <code>sizeof(WINDOWPLACEMENT)</code>. <b>GetWindowPlacement</b> fails if <i>lpwndpl</i>-&gt; <i>length</i> is not set correctly. 
+A pointer to the <a href="https://msdn.microsoft.com/897612d9-505c-442b-8389-636214d347c2">WINDOWPLACEMENT</a> structure that receives the show state and position information. Before calling <b>GetWindowPlacement</b>, set the <b>length</b> member to <code>sizeof(WINDOWPLACEMENT)</code>. <b>GetWindowPlacement</b> fails if <i>lpwndpl</i>-&gt; <i>length</i> is not set correctly. 
 
 
 ## -returns
@@ -97,9 +97,9 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-The <b>flags</b> member of <a href="https://msdn.microsoft.com/en-us/library/ms632611(v=VS.85).aspx">WINDOWPLACEMENT</a> retrieved by this function is always zero. If the window identified by the <i>hWnd</i> parameter is maximized, the <b>showCmd</b> member is SW_SHOWMAXIMIZED. If the window is minimized, <b>showCmd</b> is SW_SHOWMINIMIZED. Otherwise, it is SW_SHOWNORMAL. 
+The <b>flags</b> member of <a href="https://msdn.microsoft.com/897612d9-505c-442b-8389-636214d347c2">WINDOWPLACEMENT</a> retrieved by this function is always zero. If the window identified by the <i>hWnd</i> parameter is maximized, the <b>showCmd</b> member is SW_SHOWMAXIMIZED. If the window is minimized, <b>showCmd</b> is SW_SHOWMINIMIZED. Otherwise, it is SW_SHOWNORMAL. 
 
-The <b>length</b> member of <a href="https://msdn.microsoft.com/en-us/library/ms632611(v=VS.85).aspx">WINDOWPLACEMENT</a> must be set to sizeof(<b>WINDOWPLACEMENT</b>). If this member is not set correctly, the function returns <b>FALSE</b>. For additional remarks on the proper use of window placement coordinates, see <b>WINDOWPLACEMENT</b>. 
+The <b>length</b> member of <a href="https://msdn.microsoft.com/897612d9-505c-442b-8389-636214d347c2">WINDOWPLACEMENT</a> must be set to sizeof(<b>WINDOWPLACEMENT</b>). If this member is not set correctly, the function returns <b>FALSE</b>. For additional remarks on the proper use of window placement coordinates, see <b>WINDOWPLACEMENT</b>. 
 
 
 
@@ -117,15 +117,15 @@ The <b>length</b> member of <a href="https://msdn.microsoft.com/en-us/library/ms
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633544(v=VS.85).aspx">SetWindowPlacement</a>
+<a href="https://msdn.microsoft.com/1dac92d8-dab2-4df2-a9bc-a40da9511e0a">SetWindowPlacement</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632611(v=VS.85).aspx">WINDOWPLACEMENT</a>
+<a href="https://msdn.microsoft.com/897612d9-505c-442b-8389-636214d347c2">WINDOWPLACEMENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

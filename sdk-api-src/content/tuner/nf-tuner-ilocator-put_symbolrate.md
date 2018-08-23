@@ -86,7 +86,7 @@ Returns S_OK if successful. If the method fails, error information can be retrie
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd693584(v=VS.85).aspx">get_SymbolRate</a>
+<a href="mstv.idigitallocator_get_symbolrate">get_SymbolRate</a>
  
 
  

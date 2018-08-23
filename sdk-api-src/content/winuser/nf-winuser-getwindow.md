@@ -7,7 +7,7 @@ old-location: winmsg\getwindow.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getwindow.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: GW_CHILD, GW_ENABLEDPOPUP, GW_HWNDFIRST, GW_HWNDLAST, GW_HWNDNEXT, GW_HWNDPREV, GW_OWNER, GetWindow, GetWindow function [Windows and Messages], _win32_GetWindow, _win32_getwindow_cpp, winmsg.getwindow, winui._win32_getwindow, winuser/GetWindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Retrieves a handle to a window that has the specified relationship (<a href="https://msdn.microsoft.com/en-us/library/ms632599(v=VS.85).aspx">Z-Order</a> or owner) to the specified window. 
+Retrieves a handle to a window that has the specified relationship (<a href="window_features.htm">Z-Order</a> or owner) to the specified window. 
 
 
 ## -parameters
@@ -169,7 +169,7 @@ If the specified window is a topmost window, the handle identifies a topmost win
 </dl>
 </td>
 <td width="60%">
-The retrieved handle identifies the specified window's owner window, if any. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms632599(v=VS.85).aspx">Owned Windows</a>. 
+The retrieved handle identifies the specified window's owner window, if any. For more information, see <a href="window_features.htm">Owned Windows</a>. 
 
 </td>
 </tr>
@@ -193,7 +193,7 @@ If the function succeeds, the return value is a window handle. If no window exis
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms633494(v=VS.85).aspx">EnumChildWindows</a> function is more reliable than calling <b>GetWindow</b> in a loop. An application that calls <b>GetWindow</b> to perform this task risks being caught in an infinite loop or referencing a handle to a window that has been destroyed. 
+The <a href="https://msdn.microsoft.com/19c4ae31-991c-4b8f-9dfa-eb6cdf4328d8">EnumChildWindows</a> function is more reliable than calling <b>GetWindow</b> in a loop. An application that calls <b>GetWindow</b> to perform this task risks being caught in an infinite loop or referencing a handle to a window that has been destroyed. 
 
 
 
@@ -207,7 +207,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms633494(v=VS.85).aspx">En
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633494(v=VS.85).aspx">EnumChildWindows</a>
+<a href="https://msdn.microsoft.com/19c4ae31-991c-4b8f-9dfa-eb6cdf4328d8">EnumChildWindows</a>
 
 
 
@@ -215,7 +215,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms633494(v=VS.85).aspx">En
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

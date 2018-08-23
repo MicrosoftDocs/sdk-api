@@ -82,14 +82,7 @@ If handles must be returned: On input, <i>EntityHandles</i> is a pointer to <b>N
 If handles do not need to be returned: On input, <i>EntityHandles</i> is <b>NULL</b>.
 
 
-### -param OPTIONAL
-
-TBD
-
-
-
-
-#### - EntityInfos [out]
+### -param EntityInfos [out]
 
 If a pointer must be returned: On input, <i>EntityInfos</i> is a pointer to <b>NULL</b>. On output, <i>EntityInfos</i> receives a pointer to an array of 
 <a href="https://msdn.microsoft.com/b2a1e6b9-0cac-4316-98a0-ff1d44c5a15a">RTM_ENTITY_INFO</a> structures; otherwise, <i>EntityInfos</i> remains unchanged. 

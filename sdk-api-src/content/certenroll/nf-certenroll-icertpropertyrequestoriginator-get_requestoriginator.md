@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/Aa375781(v=VS.85).aspx">Initialize</a> method or the <a href="https://msdn.microsoft.com/en-us/library/Aa375775(v=VS.85).aspx">InitializeFromLocalRequestOriginator</a> method to specify a value for the <b>RequestOriginator</b> property.
+Call the <a href="https://msdn.microsoft.com/3308dde9-ab97-40a1-9251-c207a3a66061">Initialize</a> method or the <a href="https://msdn.microsoft.com/466e0767-d13a-4f5d-9715-47bb7b9d4142">InitializeFromLocalRequestOriginator</a> method to specify a value for the <b>RequestOriginator</b> property.
 
 
 
@@ -74,7 +74,7 @@ Call the <a href="https://msdn.microsoft.com/en-us/library/Aa375781(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375772(v=VS.85).aspx">ICertPropertyRequestOriginator</a>
+<a href="https://msdn.microsoft.com/ce33605e-c3ae-4b96-a13e-6f06e8d5ffee">ICertPropertyRequestOriginator</a>
  
 
  

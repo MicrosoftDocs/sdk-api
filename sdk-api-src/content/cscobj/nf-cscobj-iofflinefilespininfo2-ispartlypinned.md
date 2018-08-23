@@ -88,19 +88,19 @@ Only container items, such as directories and shares, can be partly pinned. An i
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530498(v=VS.85).aspx">IOfflineFilesCache::Pin</a>
+<a href="https://msdn.microsoft.com/6005d755-5e1b-4eba-95a2-b6c9c00b1a64">IOfflineFilesCache::Pin</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd941690(v=VS.85).aspx">IOfflineFilesGhostInfo::IsGhosted</a>
+<a href="https://msdn.microsoft.com/b2e8ca73-4186-4971-b5be-41ecfc6b5e4a">IOfflineFilesGhostInfo::IsGhosted</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd941691(v=VS.85).aspx">IOfflineFilesPinInfo2</a>
+<a href="https://msdn.microsoft.com/80aa7e38-dbd7-42c6-b4b8-df4f104dfdc8">IOfflineFilesPinInfo2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd442651(v=VS.85).aspx">IOfflineFilesTransparentCacheInfo::IsTransparentlyCached</a>
+<a href="https://msdn.microsoft.com/7f8656e0-0f24-46a0-81b7-62067b0d4c21">IOfflineFilesTransparentCacheInfo::IsTransparentlyCached</a>
  
 
  

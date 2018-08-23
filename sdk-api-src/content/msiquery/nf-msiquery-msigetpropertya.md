@@ -87,7 +87,7 @@ Pointer to the variable that specifies the size, in TCHARs, of the buffer pointe
 
 
 
-This function returns UINT.
+This function returns UINT __stdcall.
 
 
 
@@ -150,7 +150,7 @@ The following example shows how a DLL custom action could access the value of a 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Installer State Access Functions</a>
+<a href="database_functions.htm">Installer State Access Functions</a>
 
 
 

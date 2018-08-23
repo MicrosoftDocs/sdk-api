@@ -229,7 +229,7 @@ It is not an error for the query to return an empty result set. The
     <b>ExecQuery</b> method returns key properties whether 
     or not the key property is requested in the <i>strQuery</i> argument. If an error occurs when 
     executing this method and you do not use the <b>wbemFlagReturnImmediately</b> flag, the 
-    <a href="https://msdn.microsoft.com/library/Cc392399(v=MSDN.10).aspx">Err</a> object 
+    <a href="vsobjerr">Err</a> object 
     is not set until you attempt to access the returned object set. However, if you use the 
     <b>wbemFlagReturnWhenComplete</b> flag, the 
     Err object 

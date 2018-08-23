@@ -7,7 +7,7 @@ old-location: dshow\eavddsurroundmode.htm
 old-project: DirectShow
 ms.assetid: daebcbdf-3a4d-494a-a403-8b075a6d393b
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/20/2018
 ms.keywords: codecapi/eAVDDSurroundMode, codecapi/eAVDDSurroundMode_No, codecapi/eAVDDSurroundMode_NotIndicated, codecapi/eAVDDSurroundMode_Yes, dshow.eavddsurroundmode, eAVDDSurroundMode, eAVDDSurroundMode enumeration [DirectShow], eAVDDSurroundModeEnumeration, eAVDDSurroundMode_No, eAVDDSurroundMode_NotIndicated, eAVDDSurroundMode_Yes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -119,7 +119,7 @@ If the audio stream is any other format, the value is eAVDDSurroundMode_No.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd311953(v=VS.85).aspx">ICodecAPI Interface</a>
+<a href="https://msdn.microsoft.com/cc3f1bd9-1d36-45e6-94e2-07f2800fd073">ICodecAPI Interface</a>
  
 
  

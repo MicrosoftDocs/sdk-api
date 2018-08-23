@@ -7,7 +7,7 @@ old-location: winsock\addrinfoex4.htm
 old-project: winsock
 ms.assetid: 96B19008-9F20-4F47-A0F1-AA695227725B
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: "*LPADDRINFOEX4, *PADDRINFOEX4, ADDRINFOEX4, AF_BTH, AF_INET, AF_INET6, AF_IRDA, AF_NETBIOS, AF_UNSPEC, AI_ADDRCONFIG, AI_ALL, AI_CANONNAME, AI_DISABLE_IDN_ENCODING, AI_EXTENDED, AI_FILESERVER, AI_FQDN, AI_NON_AUTHORITATIVE, AI_NUMERICHOST, AI_PASSIVE, AI_RESOLUTION_HANDLE, AI_RETURN_PREFERRED_NAMES, AI_SECURE, AI_V4MAPPED, IPPROTO_RM, IPPROTO_TCP, IPPROTO_UDP, LPaddrinfoex4, LPaddrinfoex4 structure pointer [Winsock], Paddrinfoex4, Paddrinfoex4 structure pointer [Winsock], SOCK_DGRAM, SOCK_RAW, SOCK_RDM, SOCK_SEQPACKET, SOCK_STREAM, addrinfoex4, addrinfoex4 structure [Winsock], addrinfoex4A, addrinfoex4W, winsock.addrinfoex4, ws2def/LPaddrinfoex4, ws2def/Paddrinfoex4, ws2def/addrinfoex4, ws2def/addrinfoex4A, ws2def/addrinfoex4W"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -134,7 +134,7 @@ Returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-1
 
 
 
-<b>D3DPreprocess</b> outputs <a href="https://msdn.microsoft.com/en-us/library/Dd607350(v=VS.85).aspx">#line</a> directives and preserves line numbering of source input so that output line numbering can be properly related to the input source.
+<b>D3DPreprocess</b> outputs <a href="https://msdn.microsoft.com/307410af-bd78-4b3d-b515-adf58298f35f">#line</a> directives and preserves line numbering of source input so that output line numbering can be properly related to the input source.
 
 
 
@@ -144,7 +144,7 @@ Returns one of the <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-1
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd607342(v=VS.85).aspx">Functions</a>
+<a href="https://msdn.microsoft.com/aacc5207-3ec8-4031-b5c9-f7c0fb7b7095">Functions</a>
  
 
  

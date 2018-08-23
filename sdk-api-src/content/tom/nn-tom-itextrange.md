@@ -57,7 +57,7 @@ The <b>ITextRange</b> objects are powerful editing and data-binding tools that a
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextRange</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITextRange</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITextRange</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITextRange</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>ITextRange</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787732(v=VS.85).aspx">CanEdit</a>
+<a href="https://msdn.microsoft.com/da05f3f0-35b5-42b8-a3bd-2acda4c44d8c">CanEdit</a>
 </td>
 <td align="left" width="63%">
 Determines whether the specified range can be edited.
@@ -81,7 +81,7 @@ Determines whether the specified range can be edited.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787734(v=VS.85).aspx">CanPaste</a>
+<a href="https://msdn.microsoft.com/2289eb73-39b1-4792-8834-f5e0b741fe30">CanPaste</a>
 </td>
 <td align="left" width="63%">
 Determines if a data object can be pasted, using a specified format, into the current range. 
@@ -90,7 +90,7 @@ Determines if a data object can be pasted, using a specified format, into the cu
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787736(v=VS.85).aspx">ChangeCase</a>
+<a href="https://msdn.microsoft.com/05897a55-50f9-4f45-a5b0-ac18ef08b439">ChangeCase</a>
 </td>
 <td align="left" width="63%">
 Changes the case of letters in this range according to the 
@@ -100,7 +100,7 @@ Changes the case of letters in this range according to the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787740(v=VS.85).aspx">Collapse</a>
+<a href="https://msdn.microsoft.com/1bef5be7-9f33-4de5-9c65-c17bf5819511">Collapse</a>
 </td>
 <td align="left" width="63%">
 Collapses the specified text range into a degenerate point at either the beginning or end of the range. 
@@ -109,7 +109,7 @@ Collapses the specified text range into a degenerate point at either the beginni
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787742(v=VS.85).aspx">Copy</a>
+<a href="https://msdn.microsoft.com/4e998d86-e101-4bea-8389-3760e9289151">Copy</a>
 </td>
 <td align="left" width="63%">
 Copies the text to a data object. 
@@ -118,7 +118,7 @@ Copies the text to a data object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787744(v=VS.85).aspx">Cut</a>
+<a href="https://msdn.microsoft.com/78e00053-8746-4f66-a276-97457e5f2e8e">Cut</a>
 </td>
 <td align="left" width="63%">
 Cuts the plain or rich text to a data object or to the Clipboard, depending on the 
@@ -128,7 +128,7 @@ Cuts the plain or rich text to a data object or to the Clipboard, depending on t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787746(v=VS.85).aspx">Delete</a>
+<a href="https://msdn.microsoft.com/ae81420c-e35d-4c81-b103-cb8674c55576">Delete</a>
 </td>
 <td align="left" width="63%">
 Mimics the DELETE and BACKSPACE keys, with and without the CTRL key depressed. 
@@ -137,7 +137,7 @@ Mimics the DELETE and BACKSPACE keys, with and without the CTRL key depressed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787769(v=VS.85).aspx">EndOf</a>
+<a href="https://msdn.microsoft.com/8bee17fc-bbc1-4443-a135-87e76b06467c">EndOf</a>
 </td>
 <td align="left" width="63%">
 Moves this range's ends to the end of the last overlapping <i>Unit</i> in the range. 
@@ -146,7 +146,7 @@ Moves this range's ends to the end of the last overlapping <i>Unit</i> in the ra
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787781(v=VS.85).aspx">Expand</a>
+<a href="https://msdn.microsoft.com/67319d45-4ed3-4413-a725-8acb8666b7f3">Expand</a>
 </td>
 <td align="left" width="63%">
 Expands this range so that any partial units it contains are completely contained. 
@@ -155,7 +155,7 @@ Expands this range so that any partial units it contains are completely containe
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787783(v=VS.85).aspx">FindText</a>
+<a href="https://msdn.microsoft.com/e0c95f5b-e147-4c1f-ae1a-def36b0be5c1">FindText</a>
 </td>
 <td align="left" width="63%">
 Searches up to <i>Count</i> characters for the text given by <i>bstr</i>. The starting position and direction are also specified by <i>Count</i>, and the matching criteria are given by <i>Flags</i>. 
@@ -164,7 +164,7 @@ Searches up to <i>Count</i> characters for the text given by <i>bstr</i>. The st
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb773921(v=VS.85).aspx">FindTextEnd</a>
+<a href="https://msdn.microsoft.com/2d4ebabf-973d-467f-a80e-80c8abf5194e">FindTextEnd</a>
 </td>
 <td align="left" width="63%">
 Searches up to <i>Count</i> characters for the string, <i>bstr</i>, starting from the range's End <i>cp</i>. The search is subject to the comparison parameter, <i>Flags</i>. If the string is found, the End <i>cp</i> is changed to be the end of the matched string, and <i>pLength</i> is set equal to the length of the string. If the string is not found, the range is unchanged and <i>pLength</i> is set equal to zero.
@@ -173,7 +173,7 @@ Searches up to <i>Count</i> characters for the string, <i>bstr</i>, starting fro
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb773923(v=VS.85).aspx">FindTextStart</a>
+<a href="https://msdn.microsoft.com/babf0228-1315-4f76-9e4e-590df3034d9c">FindTextStart</a>
 </td>
 <td align="left" width="63%">
 Searches up to <i>Count</i> characters for the string, <i>bstr</i>, starting at the range's Start 
@@ -185,7 +185,7 @@ Searches up to <i>Count</i> characters for the string, <i>bstr</i>, starting at 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb773937(v=VS.85).aspx">GetChar</a>
+<a href="https://msdn.microsoft.com/e6de647e-c3db-4038-8d7e-4b36fdbf3577">GetChar</a>
 </td>
 <td align="left" width="63%">
 Gets the character at the start position of the range.
@@ -194,7 +194,7 @@ Gets the character at the start position of the range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787840(v=VS.85).aspx">GetDuplicate</a>
+<a href="https://msdn.microsoft.com/437c1571-7593-4996-8b6a-d213d7896b12">GetDuplicate</a>
 </td>
 <td align="left" width="63%">
 Gets a duplicate of this range object. 
@@ -203,7 +203,7 @@ Gets a duplicate of this range object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb773943(v=VS.85).aspx">GetEmbeddedObject</a>
+<a href="https://msdn.microsoft.com/b9352528-7c89-45a5-82f1-eadd6bf31388">GetEmbeddedObject</a>
 </td>
 <td align="left" width="63%">
 Retrieves a pointer to the embedded object at the start of the specified range, that is, at <i>cpFirst</i>. The range must either be an insertion point or it must select only the embedded object. 
@@ -212,7 +212,7 @@ Retrieves a pointer to the embedded object at the start of the specified range, 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb773947(v=VS.85).aspx">GetEnd</a>
+<a href="https://msdn.microsoft.com/eed9c5f1-416d-4604-8a69-50b284454bb0">GetEnd</a>
 </td>
 <td align="left" width="63%">
 Gets the end character position of the range.
@@ -221,16 +221,16 @@ Gets the end character position of the range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb773955(v=VS.85).aspx">GetFont</a>
+<a href="https://msdn.microsoft.com/1c8b7cbc-26bf-496d-81c3-73e7ff538143">GetFont</a>
 </td>
 <td align="left" width="63%">
-Gets an <a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a> object with the character attributes of the specified range.
+Gets an <a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a> object with the character attributes of the specified range.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb773958(v=VS.85).aspx">GetFormattedText</a>
+<a href="https://msdn.microsoft.com/d5985e53-8f17-4a01-b12a-b08c734975fb">GetFormattedText</a>
 </td>
 <td align="left" width="63%">
 Gets an <b>ITextRange</b> object with the specified range's formatted text.
@@ -239,7 +239,7 @@ Gets an <b>ITextRange</b> object with the specified range's formatted text.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb773964(v=VS.85).aspx">GetIndex</a>
+<a href="https://msdn.microsoft.com/7363d1d8-4727-4c1f-a999-dcd8aa6261d0">GetIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves the story index of the <i>Unit</i> parameter at the specified range Start character position. The first <i>Unit</i> in a story has an index value of 1. The index of a <i>Unit</i> is the same for all character positions from that immediately preceding the <i>Unit</i> up to the last character in the <i>Unit</i>.
@@ -248,16 +248,16 @@ Retrieves the story index of the <i>Unit</i> parameter at the specified range St
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774001(v=VS.85).aspx">GetPara</a>
+<a href="https://msdn.microsoft.com/dcc601e9-dc93-47ba-8be9-667e52da916c">GetPara</a>
 </td>
 <td align="left" width="63%">
-Gets an <a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a> object with the paragraph attributes of the specified range.
+Gets an <a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a> object with the paragraph attributes of the specified range.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774003(v=VS.85).aspx">GetPoint</a>
+<a href="https://msdn.microsoft.com/67bb38d8-d96d-4d17-876d-4cadc39adece">GetPoint</a>
 </td>
 <td align="left" width="63%">
 Retrieves screen coordinates for the start or end character position in the text range, along with the intra-line position.
@@ -266,7 +266,7 @@ Retrieves screen coordinates for the start or end character position in the text
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774026(v=VS.85).aspx">GetStart</a>
+<a href="https://msdn.microsoft.com/55c6785f-1e56-4e9d-86bb-d6f963c693b5">GetStart</a>
 </td>
 <td align="left" width="63%">
 Gets the start character position of the range.
@@ -275,7 +275,7 @@ Gets the start character position of the range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774028(v=VS.85).aspx">GetStoryLength</a>
+<a href="https://msdn.microsoft.com/6f1e4a94-e7ab-48bc-a5ed-99a75b031c75">GetStoryLength</a>
 </td>
 <td align="left" width="63%">
 Gets the count of characters in the range's story.
@@ -284,7 +284,7 @@ Gets the count of characters in the range's story.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774030(v=VS.85).aspx">GetStoryType</a>
+<a href="https://msdn.microsoft.com/6db20877-1d43-4f38-98a3-47a9124ff820">GetStoryType</a>
 </td>
 <td align="left" width="63%">
 Get the type of the range's story.
@@ -293,7 +293,7 @@ Get the type of the range's story.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774036(v=VS.85).aspx">GetText</a>
+<a href="https://msdn.microsoft.com/8cef8a1c-7b21-43cd-a4dd-b5a579bbfdaf">GetText</a>
 </td>
 <td align="left" width="63%">
 Gets the plain text in this range. The Text property is the default property of the <b>ITextRange</b> interface.
@@ -302,7 +302,7 @@ Gets the plain text in this range. The Text property is the default property of 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774046(v=VS.85).aspx">InRange</a>
+<a href="https://msdn.microsoft.com/fc9414d3-be0e-4f8e-9a1e-af8875d55d63">InRange</a>
 </td>
 <td align="left" width="63%">
 Determines whether this range is within or at the same text as a specified range. 
@@ -311,7 +311,7 @@ Determines whether this range is within or at the same text as a specified range
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774048(v=VS.85).aspx">InStory</a>
+<a href="https://msdn.microsoft.com/a4adabd3-18b4-4909-9587-19aa2ebc4886">InStory</a>
 </td>
 <td align="left" width="63%">
 Determines whether this range's story is the same as a specified range's story. 
@@ -320,7 +320,7 @@ Determines whether this range's story is the same as a specified range's story.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787841(v=VS.85).aspx">IsEqual</a>
+<a href="https://msdn.microsoft.com/beb9eeec-7edd-4569-91f5-3ec0407240fe">IsEqual</a>
 </td>
 <td align="left" width="63%">
 Determines whether this range has the same character positions and story as those of a specified range. 
@@ -329,7 +329,7 @@ Determines whether this range has the same character positions and story as thos
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774064(v=VS.85).aspx">Move</a>
+<a href="https://msdn.microsoft.com/e1f22fc3-f8b8-465e-9684-94ddd2875be2">Move</a>
 </td>
 <td align="left" width="63%">
 Moves the insertion point forward or backward a specified number of units. If the range is nondegenerate, the range is collapsed to an insertion point at either end, depending on <i>Count</i>, and then is moved. 
@@ -338,7 +338,7 @@ Moves the insertion point forward or backward a specified number of units. If th
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774068(v=VS.85).aspx">MoveEnd</a>
+<a href="https://msdn.microsoft.com/681140a4-a5c1-4992-8b81-c7d6bf2f75ea">MoveEnd</a>
 </td>
 <td align="left" width="63%">
 Moves the end position of the range. 
@@ -347,7 +347,7 @@ Moves the end position of the range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774070(v=VS.85).aspx">MoveEndUntil</a>
+<a href="https://msdn.microsoft.com/03373d1b-c4d9-45f5-b47c-f02990604ba7">MoveEndUntil</a>
 </td>
 <td align="left" width="63%">
 Moves the range's end to the character position of the first character found that is in the set of characters specified by <i>Cset</i>, provided that the character is found within <i>Count</i> characters of the range's end.
@@ -356,7 +356,7 @@ Moves the range's end to the character position of the first character found tha
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774072(v=VS.85).aspx">MoveEndWhile</a>
+<a href="https://msdn.microsoft.com/b4559270-5676-40da-be21-31367607c7b7">MoveEndWhile</a>
 </td>
 <td align="left" width="63%">
 Moves the end of the range either <i>Count</i> characters or just past all contiguous characters that are found in the set of characters specified by <i>Cset</i>, whichever is less. 
@@ -365,7 +365,7 @@ Moves the end of the range either <i>Count</i> characters or just past all conti
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774078(v=VS.85).aspx">MoveStart</a>
+<a href="https://msdn.microsoft.com/beaad339-6aba-493e-92d2-d1213b1d07ea">MoveStart</a>
 </td>
 <td align="left" width="63%">
 Moves the start postion of the range the specified number of units in the specified direction. 
@@ -374,7 +374,7 @@ Moves the start postion of the range the specified number of units in the specif
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774080(v=VS.85).aspx">MoveStartUntil</a>
+<a href="https://msdn.microsoft.com/cf80b598-e3ae-4e45-aef5-974a999d6507">MoveStartUntil</a>
 </td>
 <td align="left" width="63%">
 Moves the start position of the range the position of the first character found that is in the set of characters specified by <i>Cset</i>, provided that the character is found within <i>Count</i> characters of the start position.
@@ -383,7 +383,7 @@ Moves the start position of the range the position of the first character found 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774082(v=VS.85).aspx">MoveStartWhile</a>
+<a href="https://msdn.microsoft.com/5b55abd6-7f1e-499e-8794-6ccb7141ddbb">MoveStartWhile</a>
 </td>
 <td align="left" width="63%">
 Moves the start position of the range either <i>Count</i> characters, or just past all contiguous characters that are found in the set of characters specified by <i>Cset</i>, whichever is less. 
@@ -392,7 +392,7 @@ Moves the start position of the range either <i>Count</i> characters, or just pa
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774084(v=VS.85).aspx">MoveUntil</a>
+<a href="https://msdn.microsoft.com/a35bdd47-fa5c-4260-8d99-14b0bd4694dd">MoveUntil</a>
 </td>
 <td align="left" width="63%">
 Searches up to <i>Count</i> characters for the first character in the set of characters specified by <i>Cset</i>. If a character is found, the range is collapsed to that point. The start of the search and the direction are also specified by <i>Count</i>. 
@@ -401,7 +401,7 @@ Searches up to <i>Count</i> characters for the first character in the set of cha
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774088(v=VS.85).aspx">MoveWhile</a>
+<a href="https://msdn.microsoft.com/6cc1c3f9-d5b0-41b3-808e-0df78dc79f67">MoveWhile</a>
 </td>
 <td align="left" width="63%">
 Starts at a specified end of a range and searches while the characters belong to the set specified by <i>Cset</i> and while the number of characters is less than or equal to <i>Count</i>. The range is collapsed to an insertion point when a non-matching character is found.
@@ -410,7 +410,7 @@ Starts at a specified end of a range and searches while the characters belong to
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774095(v=VS.85).aspx">Paste</a>
+<a href="https://msdn.microsoft.com/62842b6f-381c-41ac-974e-9e03eae148f7">Paste</a>
 </td>
 <td align="left" width="63%">
 Pastes text from a specified data object. 
@@ -419,7 +419,7 @@ Pastes text from a specified data object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774119(v=VS.85).aspx">ScrollIntoView</a>
+<a href="https://msdn.microsoft.com/d6fc4dea-746e-4105-8f03-abbab01b6c1c">ScrollIntoView</a>
 </td>
 <td align="left" width="63%">
 Scrolls the specified range into view. 
@@ -428,7 +428,7 @@ Scrolls the specified range into view.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774121(v=VS.85).aspx">Select</a>
+<a href="https://msdn.microsoft.com/54bbcf74-de45-4b03-a4ef-cb6fd34b605b">Select</a>
 </td>
 <td align="left" width="63%">
 Sets the start and end positions, and story values of the active selection, to those of this range. 
@@ -437,7 +437,7 @@ Sets the start and end positions, and story values of the active selection, to t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774133(v=VS.85).aspx">SetChar</a>
+<a href="https://msdn.microsoft.com/b9b68294-906a-4a0e-a770-ac54f7f74961">SetChar</a>
 </td>
 <td align="left" width="63%">
 Sets the character at the starting position of the range.
@@ -446,7 +446,7 @@ Sets the character at the starting position of the range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774139(v=VS.85).aspx">SetEnd</a>
+<a href="https://msdn.microsoft.com/d84f9fd8-ac3c-4b26-a745-7528c7ba0bb3">SetEnd</a>
 </td>
 <td align="left" width="63%">
 Sets the end position of the range.
@@ -455,16 +455,16 @@ Sets the end position of the range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774145(v=VS.85).aspx">SetFont</a>
+<a href="https://msdn.microsoft.com/15630fec-83b2-4169-b141-8ce253dd25fe">SetFont</a>
 </td>
 <td align="left" width="63%">
-Sets this range's character attributes to those of the specified <a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a> object.
+Sets this range's character attributes to those of the specified <a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774149(v=VS.85).aspx">SetFormattedText</a>
+<a href="https://msdn.microsoft.com/19a974ba-e6ab-4a32-81ee-74172965ddb6">SetFormattedText</a>
 </td>
 <td align="left" width="63%">
 Sets the formatted text of this range text to the formatted text of the specified range.
@@ -473,7 +473,7 @@ Sets the formatted text of this range text to the formatted text of the specifie
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb774157(v=VS.85).aspx">SetIndex</a>
+<a href="https://msdn.microsoft.com/739f4eb6-6091-4709-a97e-0156ec4e7ef3">SetIndex</a>
 </td>
 <td align="left" width="63%">
 Changes this range to the specified unit of the story. 
@@ -482,16 +482,16 @@ Changes this range to the specified unit of the story.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787797(v=VS.85).aspx">SetPara</a>
+<a href="https://msdn.microsoft.com/b07c9c1b-a899-40f8-87a2-b857d34c90c0">SetPara</a>
 </td>
 <td align="left" width="63%">
-Sets the paragraph attributes of this range to those of the specified <a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a> object.
+Sets the paragraph attributes of this range to those of the specified <a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787799(v=VS.85).aspx">SetPoint</a>
+<a href="https://msdn.microsoft.com/93725489-37a3-4a69-b239-52ee10f5d344">SetPoint</a>
 </td>
 <td align="left" width="63%">
 Changes the range based on a specified point at or up through (depending on <i>Extend</i>) the point (<i>x</i>, <i>y</i>) aligned according to <i>Type</i>. 
@@ -500,7 +500,7 @@ Changes the range based on a specified point at or up through (depending on <i>E
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787805(v=VS.85).aspx">SetRange</a>
+<a href="https://msdn.microsoft.com/aad455a2-bcc1-45f8-b376-c9785400c248">SetRange</a>
 </td>
 <td align="left" width="63%">
 Adjusts the range endpoints to the specified values. 
@@ -509,7 +509,7 @@ Adjusts the range endpoints to the specified values.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787823(v=VS.85).aspx">SetStart</a>
+<a href="https://msdn.microsoft.com/146c335e-de5a-4418-a0af-51febde720eb">SetStart</a>
 </td>
 <td align="left" width="63%">
 Sets the character  position for the start of this range.
@@ -518,7 +518,7 @@ Sets the character  position for the start of this range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787831(v=VS.85).aspx">SetText</a>
+<a href="https://msdn.microsoft.com/26dd5c84-953c-4234-a0b4-53711990bce9">SetText</a>
 </td>
 <td align="left" width="63%">
 Sets the text in this range.
@@ -527,7 +527,7 @@ Sets the text in this range.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb787835(v=VS.85).aspx">StartOf</a>
+<a href="https://msdn.microsoft.com/29e72fbb-525a-478c-a671-74f5940bb973">StartOf</a>
 </td>
 <td align="left" width="63%">
 Moves the range ends to the start of the first overlapping <i>Unit</i> in the range. 
@@ -541,7 +541,7 @@ Moves the range ends to the start of the first overlapping <i>Unit</i> in the ra
 
 
 
-Multiple text ranges can be active and work cooperatively on the same story and evolve with the story. For example, if one text range deletes specified text before another text range, the latter tracks the change. In this sense, text ranges are similar to Microsoft Word bookmarks, which also track editing changes. However, bookmarks cannot edit text, while text ranges can. In addition, ranges let you manipulate text without changing the selection or Clipboard, both of which are valuable to end users. The <a href="https://msdn.microsoft.com/en-us/library/Bb774060(v=VS.85).aspx">ITextSelection</a> interface inherits from <b>ITextRange</b> and adds some UI-oriented methods and properties as described in the section on <b>ITextSelection</b>.
+Multiple text ranges can be active and work cooperatively on the same story and evolve with the story. For example, if one text range deletes specified text before another text range, the latter tracks the change. In this sense, text ranges are similar to Microsoft Word bookmarks, which also track editing changes. However, bookmarks cannot edit text, while text ranges can. In addition, ranges let you manipulate text without changing the selection or Clipboard, both of which are valuable to end users. The <a href="https://msdn.microsoft.com/e6afce18-4f02-4f1c-a2ee-735465d2e168">ITextSelection</a> interface inherits from <b>ITextRange</b> and adds some UI-oriented methods and properties as described in the section on <b>ITextSelection</b>.
 
 You can look at a text range using methods based on character positions. Specifically, a text range is characterized by:
 
@@ -553,12 +553,12 @@ The first character in a story has <i>cpFirst</i> = zero. If a <i>cp</i> argumen
 
 In the following figure, character positions are represented by the lines separating the letters. The corresponding character position values are given beneath the lines. The range starting at <i>cpFirst</i> = 5 and ending at <i>cpLim</i> = 7 contains the two-letter word is. If this figure depicts the complete text in a story, the story length is 30.
 
-<img alt="Diagram of a 30-character text string, with two of the five words shaded" src="./images/textpos1.png"/>
+<img alt="Diagram of a 30-character text string, with two of the five words shaded" src="images/textpos1.png"/>
 The <i>length</i> of a range is given by <i>cpLim</i> - <i>cpFirst</i> or equivalently by End - Start. A range with zero length is called a <i>degenerate</i> or <i>empty</i> range and has equal <i>cp</i>* values, that is, <i>cpFirst</i> = <i>cpLim</i>. An example of a degenerate range is the current insertion point. A non-null selection is an example of a nondegenerate range.
 
-Suppose that the range from 5 to 7 indicated by shaded cells in the preceding figure is told to delete its text (see <a href="https://msdn.microsoft.com/en-us/library/Bb787746(v=VS.85).aspx">Delete</a>), thereby turning itself into an insertion point. The range from 25 to 29 would automatically track its contents, namely the word text. The following figure shows the result.
+Suppose that the range from 5 to 7 indicated by shaded cells in the preceding figure is told to delete its text (see <a href="https://msdn.microsoft.com/ae81420c-e35d-4c81-b103-cb8674c55576">Delete</a>), thereby turning itself into an insertion point. The range from 25 to 29 would automatically track its contents, namely the word text. The following figure shows the result.
 
-<img alt="Diagram of a 28-character text string, with one of the four words shaded" src="./images/textpos2.png"/>
+<img alt="Diagram of a 28-character text string, with one of the four words shaded" src="images/textpos2.png"/>
 In this figure, the range for text now has been <i>automatically</i> adjusted to have <i>cpFirst</i> = 23 and <i>cpLim</i> = 27. The owner of the range does not have to worry about updating the range character position values in the face of editing.
 
 The names of the move methods indicate which end to move, but note that if any method attempts to move one range end past the other, both ends get moved to the target position. As a result, the insertion point is at the target position. The concept is that <i>cpFirst</i> and <i>cpLim</i> always have to obey the fundamental condition
@@ -567,7 +567,7 @@ The names of the move methods indicate which end to move, but note that if any m
 
 or equivalently for a range <i>r</i>, 0 &lt;= <i>r</i>.Start &lt;= <i>r</i>.End &lt;= <i>r</i>.StoryLength, which is what you would expect from the names of these quantities.
 
-Another important feature is that all stories contain an undeletable final CR (0xD) character at the end. So even an empty story has a single character, namely the final CR. A range can select this character, but cannot become an insertion point beyond it. To see how this works, try selecting the final CR in a Word document and then press the RIGHT ARROW key to collapse it. The directory tree will collapse before the final CR, but the CR cannot be deleted. The Text Object Model (TOM) functions the same way. So, if <i>r</i>.Start &lt;= <i>r</i>.End, then <i>r</i>.End &lt;= (<i>r</i>.StoryLength – 1). For a discussion about deleting a CR, see <a href="https://msdn.microsoft.com/en-us/library/Bb787746(v=VS.85).aspx">Delete</a>.
+Another important feature is that all stories contain an undeletable final CR (0xD) character at the end. So even an empty story has a single character, namely the final CR. A range can select this character, but cannot become an insertion point beyond it. To see how this works, try selecting the final CR in a Word document and then press the RIGHT ARROW key to collapse it. The directory tree will collapse before the final CR, but the CR cannot be deleted. The Text Object Model (TOM) functions the same way. So, if <i>r</i>.Start &lt;= <i>r</i>.End, then <i>r</i>.End &lt;= (<i>r</i>.StoryLength – 1). For a discussion about deleting a CR, see <a href="https://msdn.microsoft.com/ae81420c-e35d-4c81-b103-cb8674c55576">Delete</a>.
 
 Some methods depend on a <i>Unit</i> argument, which can take on the predefined values listed in the following table.
 
@@ -672,21 +672,21 @@ The tomSentence constant describes a string of text that ends with a period, que
 The tomParagraph constant is a string of text terminated by an end-of-paragraph mark (CRLF, CR, VT (for SHIFT+ENTER), LF, FF, or 0x2029). TOM engines always have an undeletable end-of-paragraph mark at the end of a story. Thus, all TOM stories automatically have at least one tomWord, one tomSentence, and one tomParagraph.
 
 <h3><a id="tomLine"></a><a id="tomline"></a><a id="TOMLINE"></a>tomLine</h3>
-The tomLine constant corresponds to one line of text on a display, provided that a display is associated with the range. If no display is associated with a range, tomLine is treated as tomParagraph. A selection automatically has a display and a range that is a duplicate (see <a href="https://msdn.microsoft.com/en-us/library/Bb787840(v=VS.85).aspx">GetDuplicate</a>). Other ranges may not have a display, depending on the TOM engine and context.
+The tomLine constant corresponds to one line of text on a display, provided that a display is associated with the range. If no display is associated with a range, tomLine is treated as tomParagraph. A selection automatically has a display and a range that is a duplicate (see <a href="https://msdn.microsoft.com/437c1571-7593-4996-8b6a-d213d7896b12">GetDuplicate</a>). Other ranges may not have a display, depending on the TOM engine and context.
 
-Methods that move one or both ends in terms of <i>Unit</i>, such as <a href="https://msdn.microsoft.com/en-us/library/Bb774064(v=VS.85).aspx">Move</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb774068(v=VS.85).aspx">MoveEnd</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb774078(v=VS.85).aspx">MoveStart</a>, depend on the signed <i>Count</i> argument. Except for the <a href="https://msdn.microsoft.com/en-us/library/Bb774060(v=VS.85).aspx">ITextSelection</a> geometrical movement commands, if <i>Count</i> is greater than zero, the ends to be moved are moved forward (toward the end of the story), and if <i>Count</i> is less than zero, the ends are moved backward (toward the beginning). The default value of <i>Count</i> for these <b>Move</b> methods is 1. These methods attempt to move <i>Count Units</i>, but movement is never beyond the ends of the story.
+Methods that move one or both ends in terms of <i>Unit</i>, such as <a href="https://msdn.microsoft.com/e1f22fc3-f8b8-465e-9684-94ddd2875be2">Move</a>, <a href="https://msdn.microsoft.com/681140a4-a5c1-4992-8b81-c7d6bf2f75ea">MoveEnd</a>, and <a href="https://msdn.microsoft.com/beaad339-6aba-493e-92d2-d1213b1d07ea">MoveStart</a>, depend on the signed <i>Count</i> argument. Except for the <a href="https://msdn.microsoft.com/e6afce18-4f02-4f1c-a2ee-735465d2e168">ITextSelection</a> geometrical movement commands, if <i>Count</i> is greater than zero, the ends to be moved are moved forward (toward the end of the story), and if <i>Count</i> is less than zero, the ends are moved backward (toward the beginning). The default value of <i>Count</i> for these <b>Move</b> methods is 1. These methods attempt to move <i>Count Units</i>, but movement is never beyond the ends of the story.
 
-Methods that move one or both ends by matching character strings or string patterns, such as <a href="https://msdn.microsoft.com/en-us/library/Bb774088(v=VS.85).aspx">MoveWhile</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb774072(v=VS.85).aspx">MoveEndWhile</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb774082(v=VS.85).aspx">MoveStartWhile</a>, can move up to a maximum number of characters given by the signed <i>Count</i> argument. If <i>Count</i> is greater than zero, the ends to be moved are moved forward, and if <i>Count</i> is less than zero, the ends are moved backward. Two special <i>Count</i> values, tomForward and tomBackward, are defined. These values are guaranteed to reach the end and the start of the story, respectively. The default value of <i>Count</i> is tomForward.
+Methods that move one or both ends by matching character strings or string patterns, such as <a href="https://msdn.microsoft.com/6cc1c3f9-d5b0-41b3-808e-0df78dc79f67">MoveWhile</a>, <a href="https://msdn.microsoft.com/b4559270-5676-40da-be21-31367607c7b7">MoveEndWhile</a>, and <a href="https://msdn.microsoft.com/5b55abd6-7f1e-499e-8794-6ccb7141ddbb">MoveStartWhile</a>, can move up to a maximum number of characters given by the signed <i>Count</i> argument. If <i>Count</i> is greater than zero, the ends to be moved are moved forward, and if <i>Count</i> is less than zero, the ends are moved backward. Two special <i>Count</i> values, tomForward and tomBackward, are defined. These values are guaranteed to reach the end and the start of the story, respectively. The default value of <i>Count</i> is tomForward.
 
-In <b>Move</b>* methods that turn a nondegenerate range into a degenerate one, such as <a href="https://msdn.microsoft.com/en-us/library/Bb774064(v=VS.85).aspx">Move</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb774088(v=VS.85).aspx">MoveWhile</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb774084(v=VS.85).aspx">MoveUntil</a>, <i>cpFirst</i> is changed if <i>Count</i> is negative and <i>cpLim</i> is changed if <i>Count</i> is positive. After this movement, the other end of the range is also moved to the new location. See the individual methods for more specific <i>Count</i> information. For nondegenerate ranges, the methods <a href="https://msdn.microsoft.com/en-us/library/Bb774078(v=VS.85).aspx">MoveStart</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb774068(v=VS.85).aspx">MoveEnd</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb774082(v=VS.85).aspx">MoveStartWhile</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb774072(v=VS.85).aspx">MoveEndWhile</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb774080(v=VS.85).aspx">MoveStartUntil</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb774070(v=VS.85).aspx">MoveEndUntil</a> move either the starting position (Start) or the ending position (End).
+In <b>Move</b>* methods that turn a nondegenerate range into a degenerate one, such as <a href="https://msdn.microsoft.com/e1f22fc3-f8b8-465e-9684-94ddd2875be2">Move</a>, <a href="https://msdn.microsoft.com/6cc1c3f9-d5b0-41b3-808e-0df78dc79f67">MoveWhile</a>, and <a href="https://msdn.microsoft.com/a35bdd47-fa5c-4260-8d99-14b0bd4694dd">MoveUntil</a>, <i>cpFirst</i> is changed if <i>Count</i> is negative and <i>cpLim</i> is changed if <i>Count</i> is positive. After this movement, the other end of the range is also moved to the new location. See the individual methods for more specific <i>Count</i> information. For nondegenerate ranges, the methods <a href="https://msdn.microsoft.com/beaad339-6aba-493e-92d2-d1213b1d07ea">MoveStart</a>, <a href="https://msdn.microsoft.com/681140a4-a5c1-4992-8b81-c7d6bf2f75ea">MoveEnd</a>, <a href="https://msdn.microsoft.com/5b55abd6-7f1e-499e-8794-6ccb7141ddbb">MoveStartWhile</a>, <a href="https://msdn.microsoft.com/b4559270-5676-40da-be21-31367607c7b7">MoveEndWhile</a>, <a href="https://msdn.microsoft.com/cf80b598-e3ae-4e45-aef5-974a999d6507">MoveStartUntil</a> and <a href="https://msdn.microsoft.com/03373d1b-c4d9-45f5-b47c-f02990604ba7">MoveEndUntil</a> move either the starting position (Start) or the ending position (End).
 
-To select a unit that corresponds to a contiguous range, such as a tomWord, tomSentence, and tomParagraph, use the <a href="https://msdn.microsoft.com/en-us/library/Bb774068(v=VS.85).aspx">MoveEnd</a> method. To select a unit that corresponds to a noncontiguous range, such as tomObject, use the <a href="https://msdn.microsoft.com/en-us/library/Bb787769(v=VS.85).aspx">EndOf</a> method, since the next object may occur after substantial intermediate text, if at all. To select a tomCell unit, the range must be inside a table.
+To select a unit that corresponds to a contiguous range, such as a tomWord, tomSentence, and tomParagraph, use the <a href="https://msdn.microsoft.com/681140a4-a5c1-4992-8b81-c7d6bf2f75ea">MoveEnd</a> method. To select a unit that corresponds to a noncontiguous range, such as tomObject, use the <a href="https://msdn.microsoft.com/8bee17fc-bbc1-4443-a135-87e76b06467c">EndOf</a> method, since the next object may occur after substantial intermediate text, if at all. To select a tomCell unit, the range must be inside a table.
 
 Examples and further explanation of the <i>Count</i> and <i>Unit</i> arguments follow. Note that TOM engines may not support all of the units in the table above. For example, rich edit controls do not offer the concepts of sections, but rather return E_NOTIMPL when given tomSection. However if a TOM engine does support a unit, it has the index value given in the table.
 
 Applications typically do not implement the <b>ITextRange</b> interface. Microsoft text solutions, such as rich edit controls, implement <b>ITextRange</b> as part of their TOM implementation.
 
-Applications can retrieve an <b>ITextRange</b> pointer by calling the <a href="https://msdn.microsoft.com/en-us/library/Bb774097(v=VS.85).aspx">Range</a> method.
+Applications can retrieve an <b>ITextRange</b> pointer by calling the <a href="https://msdn.microsoft.com/a0a14c38-4c07-47d6-b854-f56a0c7ef2e7">Range</a> method.
 
 
 
@@ -700,15 +700,15 @@ Applications can retrieve an <b>ITextRange</b> pointer by calling the <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787726(v=VS.85).aspx">Using The Text Object Model</a>
+<a href="https://msdn.microsoft.com/5d9ab4fa-e9a0-4031-bbaa-311aff912eba">Using The Text Object Model</a>
  
 
  

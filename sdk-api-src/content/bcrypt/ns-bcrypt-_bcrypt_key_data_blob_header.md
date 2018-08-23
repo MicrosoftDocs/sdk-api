@@ -107,7 +107,7 @@ The size, in bytes, of the key data.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375434(v=VS.85).aspx">BCryptExportKey</a>
+<a href="https://msdn.microsoft.com/a5d73143-c1d6-43b3-a724-7e27c68a5ade">BCryptExportKey</a>
 
 
 

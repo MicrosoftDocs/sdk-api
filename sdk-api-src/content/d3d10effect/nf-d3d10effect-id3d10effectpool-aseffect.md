@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectpool_aseffect.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectpool_aseffect.htm
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/20/2018
 ms.keywords: 77fbf257-12dc-9f58-d996-7dcb8ec3efff, AsEffect, AsEffect method [Direct3D 10], AsEffect method [Direct3D 10],ID3D10EffectPool interface, ID3D10EffectPool interface [Direct3D 10],AsEffect method, ID3D10EffectPool.AsEffect, ID3D10EffectPool::AsEffect, d3d10effect/ID3D10EffectPool::AsEffect, direct3d10.id3d10effectpool_aseffect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,9 +65,9 @@ Get the effect that created the effect pool.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173630(v=VS.85).aspx">ID3D10Effect</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/3525d559-11e4-4c38-acfe-5dc560264c31">ID3D10Effect</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb173630(v=VS.85).aspx">ID3D10Effect Interface</a> interface.
+A pointer to an <a href="https://msdn.microsoft.com/3525d559-11e4-4c38-acfe-5dc560264c31">ID3D10Effect Interface</a> interface.
 
 
 
@@ -77,7 +77,7 @@ A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb173630(v=VS.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173667(v=VS.85).aspx">ID3D10EffectPool Interface</a>
+<a href="https://msdn.microsoft.com/e64c9285-f4ee-4bed-a57d-8ccc3e6b3ba3">ID3D10EffectPool Interface</a>
  
 
  

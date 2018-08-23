@@ -7,7 +7,7 @@ old-location: devinst\setupdicreatedeviceinterfaceregkey.htm
 old-project: devinst
 ms.assetid: 1be942a1-428d-4cc4-bc9f-9f21243c3d21
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: SetupDiCreateDeviceInterfaceRegKey, SetupDiCreateDeviceInterfaceRegKey function [Device and Driver Installation], SetupDiCreateDeviceInterfaceRegKeyA, SetupDiCreateDeviceInterfaceRegKeyW, devinst.setupdicreatedeviceinterfaceregkey, di-rtns_4b18b81a-e8ae-4d04-ae67-26cb21472e23.xml, setupapi/SetupDiCreateDeviceInterfaceRegKey
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ The <b>SetupDiCreateDeviceInterfaceRegKey</b> function creates a registry key fo
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains the interface for which to create a registry key. The device information set must not contain remote elements.
+A handle to a <a href="devinst.device_information_sets">device information set</a> that contains the interface for which to create a registry key. The device information set must not contain remote elements.
 
 
 ### -param DeviceInterfaceData [in]

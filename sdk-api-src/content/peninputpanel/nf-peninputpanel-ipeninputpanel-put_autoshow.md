@@ -7,7 +7,7 @@ old-location: tablet\peninputpanel_autoshow.htm
 old-project: tablet
 ms.assetid: c76533af-9b1d-413b-afa8-972ccfdce329
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: AutoShow property [Tablet PC], AutoShow property [Tablet PC],IPenInputPanel interface, IPenInputPanel interface [Tablet PC],AutoShow property, IPenInputPanel.AutoShow, IPenInputPanel.put_AutoShow, IPenInputPanel::AutoShow, IPenInputPanel::get_AutoShow, IPenInputPanel::put_AutoShow, PenInputPanel.get_AutoShow, PenInputPanel.put_AutoShow, c76533af-9b1d-413b-afa8-972ccfdce329, get_AutoShow, peninputpanel/IPenInputPanel::AutoShow, peninputpanel/IPenInputPanel::get_AutoShow, peninputpanel/IPenInputPanel::put_AutoShow, put_AutoShow, tablet.peninputpanel_autoshow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,7 @@ When the <b>AutoShow</b> property is set to <b>VARIANT_FALSE</b>, Tablet PC Inpu
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846809(v=VS.85).aspx">IPenInputPanel</a>
+<a href="https://msdn.microsoft.com/AA973F9D-264F-4D08-9D86-C5DAEF1C09D5">IPenInputPanel</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: winsock\wscenumprotocols_2.htm
 old-project: winsock
 ms.assetid: c2e5332f-3327-4624-96b4-8e321795961d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: WSCEnumProtocols, WSCEnumProtocols function [Winsock], _win32_wscenumprotocols_2, winsock.wscenumprotocols_2, ws2spi/WSCEnumProtocols
 ms.prod: windows
 ms.technology: windows-sdk
@@ -99,7 +99,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -110,7 +110,7 @@ One of more of the arguments is not in a valid part of the user address space.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -121,7 +121,7 @@ Indicates that one of the specified parameters was invalid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOBUFS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOBUFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">

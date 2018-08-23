@@ -66,7 +66,7 @@ A pointer to a null-terminated Unicode string that contains the identifier of th
 
 ### -param dwInterface [in, optional]
 
-The identifier of an interface that the provider must support. This must be one of the <a href="https://msdn.microsoft.com/en-us/library/Aa376201(v=VS.85).aspx">CNG Interface Identifiers</a>. If the <i>pszFunction</i> parameter is not <b>NULL</b> or an empty string, you can set <i>dwInterface</i> to zero to force the function to infer the interface.
+The identifier of an interface that the provider must support. This must be one of the <a href="https://msdn.microsoft.com/509c89ff-0c73-4e57-9c39-400522f2086e">CNG Interface Identifiers</a>. If the <i>pszFunction</i> parameter is not <b>NULL</b> or an empty string, you can set <i>dwInterface</i> to zero to force the function to infer the interface.
 
 
 ### -param pszFunction [in, optional]

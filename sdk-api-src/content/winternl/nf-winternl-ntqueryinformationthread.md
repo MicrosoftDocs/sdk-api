@@ -92,14 +92,7 @@ If <b>ThreadQuerySetWin32StartAddress</b> is specified for the <i>ThreadInformat
 The size of the buffer pointed to by the <i>ThreadInformation</i> parameter, in bytes.
 
 
-### -param OPTIONAL
-
-TBD
-
-
-
-
-#### - ReturnLength [out, optional]
+### -param ReturnLength [out, optional]
 
 A pointer to a variable in which the function returns the size of the requested information. If the function was successful, this is the size of the information written to the buffer pointed to by the <i>ThreadInformation</i> parameter, but if the buffer was too small, this is the minimum size of buffer required to receive the information successfully.
 

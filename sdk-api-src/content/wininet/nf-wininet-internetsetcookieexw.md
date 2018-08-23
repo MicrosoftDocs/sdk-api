@@ -4,10 +4,10 @@ title: InternetSetCookieExW function
 author: windows-sdk-content
 description: The InternetSetCookieEx function creates a cookie with a specified name that is associated with a specified URL. This function differs from the InternetSetCookie function by being able to create third-party cookies.
 old-location: wininet\internetsetcookieex.htm
-old-project: wininet
+old-project: WinInet
 ms.assetid: 5044761f-152d-4606-87d2-c56a11db18c4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: INTERNET_COOKIE_EVALUATE_P3P, INTERNET_COOKIE_HTTPONLY, INTERNET_COOKIE_THIRD_PARTY, INTERNET_FLAG_RESTRICTED_ZONE, InternetSetCookieEx, InternetSetCookieEx function [WinINet], InternetSetCookieExA, InternetSetCookieExW, wininet.internetsetcookieex, wininet/InternetSetCookieEx, wininet/InternetSetCookieExA, wininet/InternetSetCookieExW
 ms.prod: windows
 ms.technology: windows-sdk

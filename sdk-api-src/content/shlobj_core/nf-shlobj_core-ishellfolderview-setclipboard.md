@@ -1,0 +1,81 @@
+---
+UID: NF:shlobj_core.IShellFolderView.SetClipboard
+title: IShellFolderView::SetClipboard
+author: windows-sdk-content
+description: SetClipboard may be altered or unavailable.
+old-location: shell\IShellFolderView_SetClipboard.htm
+old-project: shell
+ms.assetid: 372cc6db-f9c1-4110-98aa-a7ad90312048
+ms.author: windowssdkdev
+ms.date: 08/06/2018
+ms.keywords: IShellFolderView interface [Windows Shell],SetClipboard method, IShellFolderView.SetClipboard, IShellFolderView::SetClipboard, SetClipboard, SetClipboard method [Windows Shell], SetClipboard method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_SetClipboard, shell.IShellFolderView_SetClipboard, shlobj_core/IShellFolderView::SetClipboard
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shlobj_core.h
+req.include-header: 
+req.redist: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: AUTOCOMPLETELISTOPTIONS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shlobj_core.h
+api_name:
+ - IShellFolderView.SetClipboard
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
+---
+
+# IShellFolderView::SetClipboard
+
+
+## -description
+
+
+<p class="CCE_Message">[<b>SetClipboard</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
+
+Performs a cut operation on the current selection.
+
+
+## -parameters
+
+
+
+
+### -param bMove
+
+Type: <b>BOOL</b>
+
+Must be <b>TRUE</b>.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+

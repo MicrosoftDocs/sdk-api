@@ -179,13 +179,13 @@ Color primaries define how to convert RGB colors into the CIE XYZ color space, a
 
 The z coordinates can be derived from x and y as follows: z = 1 - x - y. To convert between RGB colors to CIE XYZ tristimulus values, compute a matrix <i>T</i> as follows:
 
-<img alt="Illustration of a matrix computation" border="" src="./images/6b28e3fc-d85b-4cd2-a535-522ac9f11501.gif"/>
+<img alt="Illustration of a matrix computation" border="" src="images/6b28e3fc-d85b-4cd2-a535-522ac9f11501.gif"/>
 Given <i>T</i>, you can use the following formulas to convert between an RGB color value and a CIE XYZ tristimulus value. These formulas assume that the RGB components are linear (not gamma corrected) and are normalized to the range [0...1].
 
-<img alt="Illustration of a matrix computation" border="" src="./images/5e0b7470-4123-49f4-93ed-be9955ccf825.gif"/>
+<img alt="Illustration of a matrix computation" border="" src="images/5e0b7470-4123-49f4-93ed-be9955ccf825.gif"/>
 To convert colors directly from one RGB color space to another, use the following formula, where <i>T1</i> is the matrix for color space RGB1, and <i>T2</i> is the matrix for color space RGB2.
 
-<img alt="Illustration of a matrix computation" border="" src="./images/3c2f9626-ef5e-4165-a24e-8720e215ef13.gif"/>
+<img alt="Illustration of a matrix computation" border="" src="images/3c2f9626-ef5e-4165-a24e-8720e215ef13.gif"/>
 For a derivation of these formulas, refer to Charles Poynton, Digital Video and HDTV Algorithms and Interfaces (Morgan Kaufmann, 2003).
 
 This enumeration is equivalent to the <b>DXVA_VideoPrimaries</b> enumeration used in DXVA 1.0.

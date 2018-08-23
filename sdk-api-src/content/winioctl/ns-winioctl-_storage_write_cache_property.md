@@ -8,7 +8,7 @@ old-project: fileio
 ms.assetid: 5248be70-229d-42e6-923a-5a6ffd5268b1
 ms.author: windowssdkdev
 ms.date: 08/06/2018
-ms.keywords: PSTORAGE_WRITE_CACHE_PROPERTY, PSTORAGE_WRITE_CACHE_PROPERTY structure pointer [Files], STORAGE_WRITE_CACHE_PROPERTY, STORAGE_WRITE_CACHE_PROPERTY structure [Files], WriteCacheChangeUnknown, WriteCacheChangeable, WriteCacheDisabled, WriteCacheEnableUnknown, WriteCacheEnabled, WriteCacheNotChangeable, WriteCacheTypeNone, WriteCacheTypeUnknown, WriteCacheTypeWriteBack, WriteCacheTypeWriteThrough, WriteThroughNotSupported, WriteThroughSupported, WriteThroughUnknown, _STORAGE_WRITE_CACHE_PROPERTY, fs.storage_write_cache_property, winioctl/PSTORAGE_WRITE_CACHE_PROPERTY, winioctl/STORAGE_WRITE_CACHE_PROPERTY
+ms.keywords: "*PSTORAGE_WRITE_CACHE_PROPERTY, PSTORAGE_WRITE_CACHE_PROPERTY, PSTORAGE_WRITE_CACHE_PROPERTY structure pointer [Files], STORAGE_WRITE_CACHE_PROPERTY, STORAGE_WRITE_CACHE_PROPERTY structure [Files], WriteCacheChangeUnknown, WriteCacheChangeable, WriteCacheDisabled, WriteCacheEnableUnknown, WriteCacheEnabled, WriteCacheNotChangeable, WriteCacheTypeNone, WriteCacheTypeUnknown, WriteCacheTypeWriteBack, WriteCacheTypeWriteThrough, WriteThroughNotSupported, WriteThroughSupported, WriteThroughUnknown, _STORAGE_WRITE_CACHE_PROPERTY, fs.storage_write_cache_property, winioctl/PSTORAGE_WRITE_CACHE_PROPERTY, winioctl/STORAGE_WRITE_CACHE_PROPERTY"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: STORAGE_WRITE_CACHE_PROPERTY, PSTORAGE_WRITE_CACHE_PROPERTY
+req.typenames: STORAGE_WRITE_CACHE_PROPERTY, *PSTORAGE_WRITE_CACHE_PROPERTY
 topic_type:
  - APIRef
  - kbSyntax

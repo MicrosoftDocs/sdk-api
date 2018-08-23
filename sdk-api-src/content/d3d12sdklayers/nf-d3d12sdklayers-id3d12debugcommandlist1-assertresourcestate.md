@@ -65,7 +65,7 @@ Validates that the given state matches the state of the subresource, assuming th
 
 Type: <b>ID3D12Resource*</b>
 
-Specifies the <a href="https://msdn.microsoft.com/en-us/library/Dn788709(v=VS.85).aspx">ID3D12Resource</a> to check.
+Specifies the <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a> to check.
 
 
 ### -param Subresource
@@ -79,7 +79,7 @@ The index of the subresource to check. This can be set to an index, or D3D12_RES
 
 Type: <b>UINT</b>
 
-Specifies the state to check for. This can be one or more <a href="https://msdn.microsoft.com/en-us/library/Dn986744(v=VS.85).aspx">D3D12_RESOURCE_STATES</a> flags Or'ed together.
+Specifies the state to check for. This can be one or more <a href="https://msdn.microsoft.com/AB14DE3E-97EA-47BE-8917-805B9651ED3A">D3D12_RESOURCE_STATES</a> flags Or'ed together.
 
 
 ## -returns
@@ -99,7 +99,7 @@ This method returns <b>true</b> if the tracked state of the resource or subresou
 
 Since execution of command lists occurs sometime after recording, the state of a resource often cannot be known during command list recording.  <b>AssertResourceState</b> gives an application developer the ability to impose an assumed state on a resource or subresource at a fixed recording point in a command list.
 
-Often the state of a resource or subresource can either be known due to a previous barrier or inferred-by-use (for example, was used in an earlier call to <a href="https://msdn.microsoft.com/en-us/library/Dn903856(v=VS.85).aspx">CopyBufferRegion</a>) during command list recording.  In such cases <b>AssertResourceState</b> can produce a debug message if the given state does not match the known or assumed state.
+Often the state of a resource or subresource can either be known due to a previous barrier or inferred-by-use (for example, was used in an earlier call to <a href="https://msdn.microsoft.com/46F89B85-EDAA-4095-B6C6-4CC47F972F09">CopyBufferRegion</a>) during command list recording.  In such cases <b>AssertResourceState</b> can produce a debug message if the given state does not match the known or assumed state.
 
 This API is for debug validation only and does not affect the actual runtime or GPU state of the resource.
 
@@ -111,7 +111,7 @@ This API is for debug validation only and does not affect the actual runtime or 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt762986(v=VS.85).aspx">ID3D12DebugCommandList1</a>
+<a href="https://msdn.microsoft.com/2DF22383-768C-4D23-9ED8-F0CFD6BA6EE7">ID3D12DebugCommandList1</a>
  
 
  

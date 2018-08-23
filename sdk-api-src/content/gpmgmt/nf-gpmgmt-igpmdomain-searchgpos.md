@@ -78,20 +78,20 @@ Pointer to a  friendly Group Policy object (GPO) display name search. The search
 
 #### gpoPermissions
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> or <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface to query the <a href="https://msdn.microsoft.com/7ac19065-571e-45f5-934f-35ddbf225262">IGPMPermission</a> interface. For script programmers, this is a reference to a <b>GPMPermission</b> object. Valid criteria include the <b>opContains</b> and <b>opNotContains</b> search operators.
+Pointer to an <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> or <a href="_com_iunknown">IUnknown</a> interface to query the <a href="https://msdn.microsoft.com/7ac19065-571e-45f5-934f-35ddbf225262">IGPMPermission</a> interface. For script programmers, this is a reference to a <b>GPMPermission</b> object. Valid criteria include the <b>opContains</b> and <b>opNotContains</b> search operators.
 
 
 
 #### gpoEffectivePermissions
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> or an <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface to query the 
+Pointer to an <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> or an <a href="_com_iunknown">IUnknown</a> interface to query the 
 <a href="https://msdn.microsoft.com/7ac19065-571e-45f5-934f-35ddbf225262">IGPMPermission</a> interface. Valid criteria includes opContains or opNotContains search operator.
 
 
 
 #### gpoWMIFilter
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> or an <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface to query the 
+Pointer to an <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> or an <a href="_com_iunknown">IUnknown</a> interface to query the 
 <a href="https://msdn.microsoft.com/801428f1-9ce5-4348-acab-23cc9ea8cac3">IGPMWMIFilter</a> interface. Valid criteria includes opEquals or opNotEquals search operator.
 
 

@@ -60,7 +60,9 @@ Minimizes, maximizes, or restores the window.
 
 
 
-### -param state [in]
+
+
+#### - state [in]
 
 Type: <b><a href="https://msdn.microsoft.com/5912551c-2745-434b-98de-bf24212f7eef">WindowVisualState</a></b>
 

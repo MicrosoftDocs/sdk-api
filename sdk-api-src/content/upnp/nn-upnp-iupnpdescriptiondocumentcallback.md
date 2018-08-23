@@ -4,10 +4,10 @@ title: IUPnPDescriptionDocumentCallback
 author: windows-sdk-content
 description: The IUPnPDescriptionDocumentCallback interface allows the UPnP framework to communicate the results of an asynchronous load operation to an application.
 old-location: upnp\iupnpdescriptiondocumentcallback.htm
-old-project: UPnP
+old-project: upnp
 ms.assetid: 0c9071d8-2ec1-49fe-976d-0c63f9de8b61
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/16/2018
 ms.keywords: IUPnPDescriptionDocumentCallback, IUPnPDescriptionDocumentCallback interface [UPnP APIs], IUPnPDescriptionDocumentCallback interface [UPnP APIs],described, _upnp_iupnpdescriptiondocumentcallback, upnp.iupnpdescriptiondocumentcallback, upnp/IUPnPDescriptionDocumentCallback
 ms.prod: windows
 ms.technology: windows-sdk

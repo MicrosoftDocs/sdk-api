@@ -112,7 +112,7 @@ The role specified in the <i>bstrRole</i> parameter does not exist.
 
 
 
-Use this method to limit access to sections of code that should not be executed unless the caller is a member of the specified role. Windows groups and users are assigned to an application's roles using the Component Services administration tool. For more information about roles, see <a href="https://msdn.microsoft.com/en-us/library/ms682776(v=VS.85).aspx">Role-Based Security</a>.
+Use this method to limit access to sections of code that should not be executed unless the caller is a member of the specified role. Windows groups and users are assigned to an application's roles using the Component Services administration tool. For more information about roles, see <a href="https://msdn.microsoft.com/7247758e-f486-4ce2-afca-f0d10fffe626">Role-Based Security</a>.
 
 <b>IsCallerInRole</b> only applies to the direct caller of the currently executing method. <b>IsCallerInRole</b> does not apply to any other caller in the call sequence from which the current method was called. However, you can obtain information about other callers in the sequence by using the <a href="https://msdn.microsoft.com/e6561b89-8af6-46cc-aeab-2b007d48fe26">get_Item</a> property method to get the Callers property of the security call context object.
 
@@ -135,7 +135,7 @@ Because <b>IsCallerInRole</b> is <b>TRUE</b> when role-based security is not ena
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms682776(v=VS.85).aspx">Role-Based Security</a>
+<a href="https://msdn.microsoft.com/7247758e-f486-4ce2-afca-f0d10fffe626">Role-Based Security</a>
  
 
  

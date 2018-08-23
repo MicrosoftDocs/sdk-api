@@ -7,7 +7,7 @@ old-location: security\certnametostr.htm
 old-project: SecCrypto
 ms.assetid: b3d96de8-5cbc-4ccb-b759-6757520bbda3
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CERT_NAME_STR_CRLF_FLAG, CERT_NAME_STR_DISABLE_IE4_UTF8_FLAG, CERT_NAME_STR_ENABLE_PUNYCODE_FLAG, CERT_NAME_STR_NO_PLUS_FLAG, CERT_NAME_STR_NO_QUOTING_FLAG, CERT_NAME_STR_REVERSE_FLAG, CERT_NAME_STR_SEMICOLON_FLAG, CERT_OID_NAME_STR, CERT_SIMPLE_NAME_STR, CERT_X500_NAME_STR, CertNameToStr, CertNameToStr function [Security], CertNameToStrA, CertNameToStrW, X509_ASN_ENCODING, _crypto2_certnametostr, security.certnametostr, wincrypt/CertNameToStr, wincrypt/CertNameToStrA, wincrypt/CertNameToStrW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -398,7 +398,7 @@ For an example that uses this function, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Conversion Functions</a>
+<a href="cryptography_functions.htm">Data Conversion Functions</a>
  
 
  

@@ -52,8 +52,8 @@ req.irql:
 
 
 Describes the disk partition information of a  
-    <a href="https://msdn.microsoft.com/en-us/library/Aa372937(v=VS.85).aspx">storage class resource</a>. This structure is used as the data member of a 
-    <a href="https://msdn.microsoft.com/en-us/library/Mt432205(v=VS.85).aspx">CLUSPROP_PARTITION_INFO_EX2</a> structure.
+    <a href="s_gly.htm">storage class resource</a>. This structure is used as the data member of a 
+    <a href="https://msdn.microsoft.com/D6D26335-80D0-4949-99B4-FE18DD2FFF3C">CLUSPROP_PARTITION_INFO_EX2</a> structure.
 
 
 ## -struct-fields
@@ -113,11 +113,11 @@ A flag that indicates whether BitLocker encryption is enabled on the partion.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt446028(v=VS.85).aspx">CLUSCTL_RESOURCE_STORAGE_GET_DISK_INFO_EX2</a>
+<a href="https://msdn.microsoft.com/FA742D78-D89D-472D-B5C9-6C8D95883CD1">CLUSCTL_RESOURCE_STORAGE_GET_DISK_INFO_EX2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369339(v=VS.85).aspx">Data Structures</a>
+<a href="https://msdn.microsoft.com/e3ad7c34-0c8a-4f03-8e5c-b57802c493f0">Data Structures</a>
  
 
  

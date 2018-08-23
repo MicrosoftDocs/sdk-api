@@ -116,7 +116,7 @@ This method allocates an array of <b>ULONGs</b>, fills the array with content ID
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563142(v=VS.85).aspx">IWMPContentPartnerCallback Interface</a>
+<a href="https://msdn.microsoft.com/3c66052b-2b82-44aa-868d-5d5a4501c457">IWMPContentPartnerCallback Interface</a>
  
 
  

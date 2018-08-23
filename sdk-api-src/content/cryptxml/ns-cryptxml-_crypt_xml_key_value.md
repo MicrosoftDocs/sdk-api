@@ -7,7 +7,7 @@ old-location: security\crypt_xml_key_value.htm
 old-project: SecCrypto
 ms.assetid: 7aadd268-41bc-4ba3-babb-2ca7b13f378b
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CRYPT_XML_KEY_VALUE, CRYPT_XML_KEY_VALUE structure [Security], CRYPT_XML_KEY_VALUE_TYPE_CUSTOM, CRYPT_XML_KEY_VALUE_TYPE_DSA, CRYPT_XML_KEY_VALUE_TYPE_ECDSA, CRYPT_XML_KEY_VALUE_TYPE_RSA, _CRYPT_XML_KEY_VALUE, cryptxml/CRYPT_XML_KEY_VALUE, security.crypt_xml_key_value
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>CRYPT_XML_KEY_VALUE</b> structure contains a single <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">public key</a> that may be useful in validating the signature.
+The <b>CRYPT_XML_KEY_VALUE</b> structure contains a single <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a> that may be useful in validating the signature.
 
 
 ## -struct-fields
@@ -91,7 +91,7 @@ The key is a DSA key.
 </dl>
 </td>
 <td width="60%">
-The key is an <a href="https://msdn.microsoft.com/en-us/library/ms721604(v=VS.85).aspx">RSA</a> key.
+The key is an <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">RSA</a> key.
 
 </td>
 </tr>
@@ -123,20 +123,20 @@ The key is a custom key type.
 
 ### -field DSAKeyValue
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd433853(v=VS.85).aspx">CRYPT_XML_KEY_DSA_KEY_VALUE</a> structure that contains <a href="https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx">Digital Signature Algorithm</a> (DSA) key data.
+A <a href="https://msdn.microsoft.com/634c47c2-28ba-40ea-975d-95f5663eb0b0">CRYPT_XML_KEY_DSA_KEY_VALUE</a> structure that contains <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">Digital Signature Algorithm</a> (DSA) key data.
 
 
 ### -field RSAKeyValue
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd433857(v=VS.85).aspx">CRYPT_XML_KEY_RSA_KEY_VALUE</a> structure that contains RSA key data.
+A <a href="https://msdn.microsoft.com/e2b1344d-c108-4255-bd50-06d742ed67a8">CRYPT_XML_KEY_RSA_KEY_VALUE</a> structure that contains RSA key data.
 
 
 ### -field ECDSAKeyValue
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd433854(v=VS.85).aspx">CRYPT_XML_KEY_ECDSA_KEY_VALUE</a> structure that contains ECDSA key data.
+A <a href="https://msdn.microsoft.com/db7e8ee0-25b4-4e2e-83da-f970906c9da9">CRYPT_XML_KEY_ECDSA_KEY_VALUE</a> structure that contains ECDSA key data.
 
 
 ### -field Custom
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd433844(v=VS.85).aspx">CRYPT_XML_BLOB</a> structure that contains custom key data.
+A <a href="https://msdn.microsoft.com/b70aae53-919b-4d4a-b284-ea6bc223842f">CRYPT_XML_BLOB</a> structure that contains custom key data.
 

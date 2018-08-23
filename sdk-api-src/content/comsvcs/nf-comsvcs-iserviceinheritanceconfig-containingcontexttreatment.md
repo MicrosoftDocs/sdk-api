@@ -61,7 +61,7 @@ Determines whether the containing context is based on the current context.
 
 ### -param inheritanceConfig [in]
 
-A value from the <a href="https://msdn.microsoft.com/en-us/library/ms684375(v=VS.85).aspx">CSC_InheritanceConfig</a> enumeration.
+A value from the <a href="https://msdn.microsoft.com/9bc8c4f3-d13e-46b6-9187-904b05f66f66">CSC_InheritanceConfig</a> enumeration.
 
 
 
@@ -79,7 +79,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684137(v=VS.85).aspx">IServiceInheritanceConfig</a>
+<a href="https://msdn.microsoft.com/8bb95aef-7470-43cc-941d-2105cdf48f37">IServiceInheritanceConfig</a>
  
 
  

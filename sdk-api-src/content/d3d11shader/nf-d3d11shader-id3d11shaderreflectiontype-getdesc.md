@@ -61,18 +61,18 @@ Get the description of a shader-reflection-variable type.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476212(v=VS.85).aspx">D3D11_SHADER_TYPE_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/8d2067a3-17f8-4496-a613-581f5e35fe93">D3D11_SHADER_TYPE_DESC</a>*</b>
 
-A pointer to a shader-type description (see <a href="https://msdn.microsoft.com/en-us/library/Ff476212(v=VS.85).aspx">D3D11_SHADER_TYPE_DESC</a>).
+A pointer to a shader-type description (see <a href="https://msdn.microsoft.com/8d2067a3-17f8-4496-a613-581f5e35fe93">D3D11_SHADER_TYPE_DESC</a>).
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Ff476174(v=VS.85).aspx">Direct3D 11 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a>.
 
 
 
@@ -91,7 +91,7 @@ This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476595(v=VS.85).aspx">ID3D11ShaderReflectionType Interface</a>
+<a href="https://msdn.microsoft.com/04520be2-2491-4f10-988a-e203659efddf">ID3D11ShaderReflectionType Interface</a>
  
 
  

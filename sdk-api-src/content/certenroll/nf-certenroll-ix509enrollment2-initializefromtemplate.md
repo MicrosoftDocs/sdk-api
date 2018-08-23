@@ -66,17 +66,17 @@ The <b>InitializeFromTemplate</b> method initializes the enrollment object by us
 
 ### -param pPolicyServer [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee351692(v=VS.85).aspx">IX509EnrollmentPolicyServer</a> object that represents the certificate enrollment policy (CEP) server that contains the template specified by the <i>pTemplate</i> parameter.
+Pointer to an <a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a> object that represents the certificate enrollment policy (CEP) server that contains the template specified by the <i>pTemplate</i> parameter.
 
 
 ### -param pTemplate [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee351664(v=VS.85).aspx">IX509CertificateTemplate</a> object that represents the template to use during initialization.
+Pointer to an <a href="https://msdn.microsoft.com/56122d92-7e38-4eaa-b2f5-713adc81e68e">IX509CertificateTemplate</a> object that represents the template to use during initialization.
 
 
 #### - Context [in]
 
-An <a href="https://msdn.microsoft.com/en-us/library/Aa379399(v=VS.85).aspx">X509CertificateEnrollmentContext</a> enumeration value that indicates whether the requested enrollment is for a user, a computer, or an administrator acting on behalf of a computer. This can be one of the following values.
+An <a href="https://msdn.microsoft.com/2db0e129-a566-47ba-ab57-53c7db09e8e3">X509CertificateEnrollmentContext</a> enumeration value that indicates whether the requested enrollment is for a user, a computer, or an administrator acting on behalf of a computer. This can be one of the following values.
 
 <table>
 <tr>
@@ -126,7 +126,7 @@ The certificate is being requested by an administrator acting on the behalf of a
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -173,13 +173,13 @@ The <b>InitializeFromTemplate</b> method:
 <li>Creates the appropriate type of request object (PKCS #10, PKCS #7, or CMC).</li>
 <li>Sets the following properties on the request if values currently exist:<ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa377643(v=VS.85).aspx">CspInformations</a>
+<a href="https://msdn.microsoft.com/7be532ab-0ab0-4c22-b274-c925fd5827d5">CspInformations</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa377677(v=VS.85).aspx">ParentWindow</a>
+<a href="https://msdn.microsoft.com/86e82a6c-7689-4bf3-8f64-e512040abd6a">ParentWindow</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa377696(v=VS.85).aspx">Silent</a>
+<a href="https://msdn.microsoft.com/339c8d47-4406-4f2e-b927-b2dd5f58d1ec">Silent</a>
 </li>
 </ul>
 </li>
@@ -194,7 +194,7 @@ The <b>InitializeFromTemplate</b> method:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351681(v=VS.85).aspx">IX509Enrollment2</a>
+<a href="https://msdn.microsoft.com/8e262b4b-de6a-417e-9ade-0b451bd4c09a">IX509Enrollment2</a>
  
 
  

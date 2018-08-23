@@ -197,7 +197,7 @@ Pointer to a string that is set upon successful return (or ERROR_FILE_EXISTS) to
 
 
 
-This function returns WINSETUPAPI BOOL.
+This function returns WINSETUPAPI BOOL __stdcall.
 
 
 

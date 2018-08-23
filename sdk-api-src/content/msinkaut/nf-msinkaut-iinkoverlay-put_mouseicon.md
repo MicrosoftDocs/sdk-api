@@ -7,7 +7,7 @@ old-location: tablet\inkoverlay_mouseicon.htm
 old-project: tablet
 ms.assetid: 4bfc82db-9086-4ad5-9db0-84d7fedadec0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: IInkOverlay interface [Tablet PC],MouseIcon property, IInkOverlay.MouseIcon, IInkOverlay.put_MouseIcon, IInkOverlay::MouseIcon, IInkOverlay::get_MouseIcon, IInkOverlay::put_MouseIcon, InkOverlay.get_MouseIcon, InkOverlay.put_MouseIcon, MouseIcon property [Tablet PC], MouseIcon property [Tablet PC],IInkOverlay interface, get_MouseIcon, msinkaut/IInkOverlay::MouseIcon, msinkaut/IInkOverlay::get_MouseIcon, msinkaut/IInkOverlay::put_MouseIcon, put_MouseIcon, putref_MouseIcon, tablet.inkoverlay_mouseicon
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,7 +86,7 @@ You can use the <a href="https://msdn.microsoft.com/9c7f879a-1b6c-4bd0-8dc1-82f2
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
+<a href="https://msdn.microsoft.com/ACE11946-113B-42EE-A3F1-0036B1DF8141">IInkOverlay</a>
 
 
 

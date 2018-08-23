@@ -7,7 +7,7 @@ old-location: security\cryptui_wiz_digital_sign_extended_info.htm
 old-project: SecCrypto
 ms.assetid: e061aac4-8c9f-4282-a8f8-bc0c5a10e566
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: "*PCRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO, CRYPTUI_WIZ_DIGITAL_SIGN_COMMERCIAL, CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO, CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO structure [Security], CRYPTUI_WIZ_DIGITAL_SIGN_INDIVIDUAL, PCRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO, PCRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO structure pointer [Security], _CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO, cryptuiapi/CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO, cryptuiapi/PCRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO, security.cryptui_wiz_digital_sign_extended_info"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.irql:
 
 <p class="CCE_Message">[The  <b>CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
 
-The <b>CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO</b> structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Aa380676(v=VS.85).aspx">CRYPTUI_WIZ_DIGITAL_SIGN_INFO</a> structure to contain extended information about a signature.
+The <b>CRYPTUI_WIZ_DIGITAL_SIGN_EXTENDED_INFO</b> structure is used with the <a href="https://msdn.microsoft.com/22d0bc45-0f66-4f5f-87d3-0849c4327eed">CRYPTUI_WIZ_DIGITAL_SIGN_INFO</a> structure to contain extended information about a signature.
 
 
 ## -struct-fields
@@ -111,7 +111,7 @@ A pointer to a null-terminated Unicode string that contains the location from wh
 
 ### -field pszHashAlg
 
-A pointer to a null-terminated ANSI string that contains the <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> (OID) of the hash algorithm used for the signature. The default value is <b>NULL</b>, which indicates that the SHA-1 hash algorithm is used.
+A pointer to a null-terminated ANSI string that contains the <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) of the hash algorithm used for the signature. The default value is <b>NULL</b>, which indicates that the SHA-1 hash algorithm is used.
 
 
 ### -field pwszSigningCertDisplayString
@@ -126,12 +126,12 @@ A handle to an additional certificate store that will be added to the signature.
 
 ### -field psAuthenticated
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa381146(v=VS.85).aspx">CRYPT_ATTRIBUTES</a> structure that contains authenticated attributes supplied by the user.
+A pointer to a <a href="https://msdn.microsoft.com/782f3022-d852-4ad7-8e0f-afbccc25928a">CRYPT_ATTRIBUTES</a> structure that contains authenticated attributes supplied by the user.
 
 
 ### -field psUnauthenticated
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa381146(v=VS.85).aspx">CRYPT_ATTRIBUTES</a> structure that contains unauthenticated attributes supplied by the user.
+A pointer to a <a href="https://msdn.microsoft.com/782f3022-d852-4ad7-8e0f-afbccc25928a">CRYPT_ATTRIBUTES</a> structure that contains unauthenticated attributes supplied by the user.
 
 
 ## -see-also
@@ -139,7 +139,7 @@ A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa381146(v=VS.8
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380676(v=VS.85).aspx">CRYPTUI_WIZ_DIGITAL_SIGN_INFO</a>
+<a href="https://msdn.microsoft.com/22d0bc45-0f66-4f5f-87d3-0849c4327eed">CRYPTUI_WIZ_DIGITAL_SIGN_INFO</a>
  
 
  

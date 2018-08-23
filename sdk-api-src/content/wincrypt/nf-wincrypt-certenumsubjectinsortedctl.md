@@ -7,7 +7,7 @@ old-location: security\certenumsubjectinsortedctl.htm
 old-project: SecCrypto
 ms.assetid: b37cff03-5e9c-4e6c-b46e-d3f02dbf8783
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CertEnumSubjectInSortedCTL, CertEnumSubjectInSortedCTL function [Security], _crypto2_certenumsubjectinsortedctl, security.certenumsubjectinsortedctl, wincrypt/CertEnumSubjectInSortedCTL
 ms.prod: windows
 ms.technology: windows-sdk
@@ -117,7 +117,7 @@ If the CTL is not sorted with the CERT_CREATE_CONTEXT_SORTED_FLAG flag set, an e
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate and Certificate Store Maintenance Functions</a>
+<a href="cryptography_functions.htm">Certificate and Certificate Store Maintenance Functions</a>
  
 
  

@@ -69,7 +69,7 @@ The handle of the read batch. After the <b>ClusterRegCloseReadBatch</b> function
 
 ### -param phRegReadBatchReply [out]
 
-A pointer to the handle of the created read batch result. You must close this handle later by calling the  <a href="https://msdn.microsoft.com/en-us/library/Hh706742(v=VS.85).aspx">ClusterRegCloseReadBatchReply</a> function.
+A pointer to the handle of the created read batch result. You must close this handle later by calling the  <a href="https://msdn.microsoft.com/C8CC4292-A7CC-4613-B5A8-B504E804E00E">ClusterRegCloseReadBatchReply</a> function.
 
 
 ## -returns

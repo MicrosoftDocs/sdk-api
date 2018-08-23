@@ -62,21 +62,21 @@ The <b>ImageAttributes::ClearOutputChannel</b> method clears the cyan-magenta-ye
 
 ### -param type [in, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534089(v=VS.85).aspx">ColorAdjustType</a></b>
+Type: <b><a href="https://msdn.microsoft.com/1bae1b30-2268-46e2-9cfa-2ee606180af6">ColorAdjustType</a></b>
 
-Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534089(v=VS.85).aspx">ColorAdjustType</a> enumeration that specifies the category for which the output channel setting is cleared. The default value is <a href="https://msdn.microsoft.com/en-us/library/ms534089(v=VS.85).aspx">ColorAdjustTypeDefault</a>. 
+Element of the <a href="https://msdn.microsoft.com/1bae1b30-2268-46e2-9cfa-2ee606180af6">ColorAdjustType</a> enumeration that specifies the category for which the output channel setting is cleared. The default value is <a href="https://msdn.microsoft.com/1bae1b30-2268-46e2-9cfa-2ee606180af6">ColorAdjustTypeDefault</a>. 
 
 
 ## -returns
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
 </strong>
 
-If the method succeeds, it returns <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Ok</a>, which is an element of the <b>Status</b> enumeration.
+If the method succeeds, it returns <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Ok</a>, which is an element of the <b>Status</b> enumeration.
 
-If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
 
 
@@ -85,11 +85,11 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-An <a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a> object maintains color and grayscale settings for five adjustment categories: default, bitmap, brush, pen, and text. For example, you can specify an output channel for the default category and a different output channel for the bitmap category.
+An <a href="https://msdn.microsoft.com/fbb107d2-b079-4916-89bb-d61fcd860894">ImageAttributes</a> object maintains color and grayscale settings for five adjustment categories: default, bitmap, brush, pen, and text. For example, you can specify an output channel for the default category and a different output channel for the bitmap category.
 
 The default color- and grayscale-adjustment settings apply to all categories that don't have adjustment settings of their own. For example, if you never specify any adjustment settings for the bitmap category, then the default settings apply to the bitmap category.
 
-As soon as you specify a color- or grayscale-adjustment setting for a certain category, the default adjustment settings no longer apply to that category. For example, suppose you specify an output channel and an adjustment matrix for the default category. If you set the output channel for the bitmap category by calling <a href="https://msdn.microsoft.com/en-us/library/ms535434(v=VS.85).aspx">ImageAttributes::SetOutputChannel</a>, then the default output channel will not apply to bitmaps. If you later clear the bitmap output channel by calling <b>ImageAttributes::ClearOutputChannel</b>, the bitmap category will not revert to the default output channel; rather, the bitmap category will have no output channel setting. Similarly, the bitmap category will not revert to the default color-adjustment matrix; rather, the bitmap category will have no color-adjustment matrix.
+As soon as you specify a color- or grayscale-adjustment setting for a certain category, the default adjustment settings no longer apply to that category. For example, suppose you specify an output channel and an adjustment matrix for the default category. If you set the output channel for the bitmap category by calling <a href="https://msdn.microsoft.com/c84b0e5f-ab24-4693-811b-cfd2bbd8f85a">ImageAttributes::SetOutputChannel</a>, then the default output channel will not apply to bitmaps. If you later clear the bitmap output channel by calling <b>ImageAttributes::ClearOutputChannel</b>, the bitmap category will not revert to the default output channel; rather, the bitmap category will have no output channel setting. Similarly, the bitmap category will not revert to the default color-adjustment matrix; rather, the bitmap category will have no color-adjustment matrix.
 
 
 
@@ -99,27 +99,27 @@ As soon as you specify a color- or grayscale-adjustment setting for a certain ca
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534089(v=VS.85).aspx">ColorAdjustType</a>
+<a href="https://msdn.microsoft.com/1bae1b30-2268-46e2-9cfa-2ee606180af6">ColorAdjustType</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534090(v=VS.85).aspx">ColorChannelFlags</a>
+<a href="https://msdn.microsoft.com/bb71bdc3-8ebe-4acd-959e-482037806598">ColorChannelFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a>
+<a href="https://msdn.microsoft.com/fbb107d2-b079-4916-89bb-d61fcd860894">ImageAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535421(v=VS.85).aspx">ImageAttributes::ClearOutputChannelColorProfile</a>
+<a href="https://msdn.microsoft.com/100aee97-6567-4458-9c2e-9906ab0c4ece">ImageAttributes::ClearOutputChannelColorProfile</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535434(v=VS.85).aspx">ImageAttributes::SetOutputChannel</a>
+<a href="https://msdn.microsoft.com/c84b0e5f-ab24-4693-811b-cfd2bbd8f85a">ImageAttributes::SetOutputChannel</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535435(v=VS.85).aspx">ImageAttributes::SetOutputChannelColorProfile</a>
+<a href="https://msdn.microsoft.com/b5e466d7-e2e1-471c-be05-a587b65556af">ImageAttributes::SetOutputChannelColorProfile</a>
  
 
  

@@ -54,7 +54,7 @@ req.product: Windows XP with SP1 and later
 
 The 
 <b>get_Channels</b> method returns the value for the <b>nChannels</b> member in the 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757713(v=VS.85).aspx">WAVEFORMATEX</a> structure.
+<a href="_win32_waveformatex_str">WAVEFORMATEX</a> structure.
 
 
 ## -parameters
@@ -65,7 +65,7 @@ The
 ### -param pVal [out]
 
 Pointer to the value of the <b>nChannels</b> member in the 
-<a href="https://msdn.microsoft.com/en-us/library/Dd757713(v=VS.85).aspx">WAVEFORMATEX</a> structure.
+<a href="_win32_waveformatex_str">WAVEFORMATEX</a> structure.
 
 
 ## -returns

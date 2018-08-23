@@ -68,7 +68,7 @@ The handle to close
 
 
 
-This function returns BOOL.
+This function returns BOOL __stdcall.
 
 
 

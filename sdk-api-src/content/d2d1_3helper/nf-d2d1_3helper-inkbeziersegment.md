@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/Dn890751(v=VS.85).aspx">D2D1_INK_BEZIER_SEGMENT</a> structure.
+Creates a <a href="https://msdn.microsoft.com/27F1F78B-2478-4F5D-BF56-9931E767C358">D2D1_INK_BEZIER_SEGMENT</a> structure.
         
 
 
@@ -62,21 +62,21 @@ Creates a <a href="https://msdn.microsoft.com/en-us/library/Dn890751(v=VS.85).as
 
 ### -param point1 [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dn890752(v=VS.85).aspx">D2D1_INK_POINT</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/C18E7B04-12B8-4EB9-BAFB-24FBA99210E9">D2D1_INK_POINT</a></b>
 
 The first control point for the Bezier segment.
 
 
 ### -param point2 [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dn890752(v=VS.85).aspx">D2D1_INK_POINT</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/C18E7B04-12B8-4EB9-BAFB-24FBA99210E9">D2D1_INK_POINT</a></b>
 
 The second control point for the Bezier segment.
 
 
 ### -param point3 [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dn890752(v=VS.85).aspx">D2D1_INK_POINT</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/C18E7B04-12B8-4EB9-BAFB-24FBA99210E9">D2D1_INK_POINT</a></b>
 
 The end point for the Bezier segment.
 
@@ -85,9 +85,9 @@ The end point for the Bezier segment.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn890751(v=VS.85).aspx">D2D1_INK_BEZIER_SEGMENT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/27F1F78B-2478-4F5D-BF56-9931E767C358">D2D1_INK_BEZIER_SEGMENT</a></b>
 
-Returns the created <a href="https://msdn.microsoft.com/en-us/library/Dn890751(v=VS.85).aspx">D2D1_INK_BEZIER_SEGMENT</a> structure.
+Returns the created <a href="https://msdn.microsoft.com/27F1F78B-2478-4F5D-BF56-9931E767C358">D2D1_INK_BEZIER_SEGMENT</a> structure.
           
 
 
@@ -98,7 +98,7 @@ Returns the created <a href="https://msdn.microsoft.com/en-us/library/Dn890751(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn890751(v=VS.85).aspx">D2D1_INK_BEZIER_SEGMENT</a>
+<a href="https://msdn.microsoft.com/27F1F78B-2478-4F5D-BF56-9931E767C358">D2D1_INK_BEZIER_SEGMENT</a>
  
 
  

@@ -52,13 +52,13 @@ req.irql:
 
 
 Describes 
-    a signed large integer. It is used as an entry in a <a href="https://msdn.microsoft.com/en-us/library/Aa373112(v=VS.85).aspx">value list</a> 
+    a signed large integer. It is used as an entry in a <a href="https://msdn.microsoft.com/f2b20fe5-0d7e-4ccd-b288-aa8104a24fef">value list</a> 
     and consists of:
 <ul>
-<li>A <a href="https://msdn.microsoft.com/en-us/library/Aa368393(v=VS.85).aspx">CLUSPROP_VALUE</a> structure indicating the format 
+<li>A <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure indicating the format 
      and type of the integer value.</li>
 <li>Assigned large integer value.</li>
-</ul>For convenience, the <a href="https://msdn.microsoft.com/en-us/library/Aa368393(v=VS.85).aspx">CLUSPROP_VALUE</a> members are listed 
+</ul>For convenience, the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> members are listed 
     explicitly.
 
 
@@ -81,13 +81,13 @@ Signed large integer value.
 
 #### - Syntax
 
-Member of the <a href="https://msdn.microsoft.com/en-us/library/Aa368393(v=VS.85).aspx">CLUSPROP_VALUE</a> structure describing 
+Member of the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure describing 
        the format and type of the unsigned large integer.
 
 
 #### - cbLength
 
-Member of the <a href="https://msdn.microsoft.com/en-us/library/Aa368393(v=VS.85).aspx">CLUSPROP_VALUE</a> structure indicating 
+Member of the <a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a> structure indicating 
        the count of bytes in the <b>li</b> member.
 
 
@@ -96,8 +96,8 @@ Member of the <a href="https://msdn.microsoft.com/en-us/library/Aa368393(v=VS.85
 
 
 Use caution when referencing large integer values in <b>DWORD</b>-aligned structures such 
-     as value lists, <a href="https://msdn.microsoft.com/en-us/library/Aa371809(v=VS.85).aspx">property lists</a>, and 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa371782(v=VS.85).aspx">parameter blocks</a>. For Windows Server for Itanium-based 
+     as value lists, <a href="https://msdn.microsoft.com/57312b32-01cf-48e8-b61f-6095e23bb580">property lists</a>, and 
+     <a href="https://msdn.microsoft.com/fd77397b-36dd-4a20-b3f4-7dbbee1fd787">parameter blocks</a>. For Windows Server for Itanium-based 
      systems, a naturally-aligned large integer value always begins on an address ending in 0h or 8h. 
      <b>DWORD</b>-alignment can cause large values to begin on unaligned boundaries (addresses 
      ending in 4h or Ch), which will cause an alignment fault when the data is read or written. You can avoid 
@@ -112,19 +112,19 @@ Use caution when referencing large integer values in <b>DWORD</b>-aligned struct
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368389(v=VS.85).aspx">CLUSPROP_SYNTAX</a>
+<a href="https://msdn.microsoft.com/23353e11-63bb-4d3b-90fb-e2a5544e0d09">CLUSPROP_SYNTAX</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368393(v=VS.85).aspx">CLUSPROP_VALUE</a>
+<a href="https://msdn.microsoft.com/a77a51aa-2d2a-4b21-9f87-87dcf95fa0cd">CLUSPROP_VALUE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369339(v=VS.85).aspx">Data structures</a>
+<a href="https://msdn.microsoft.com/e3ad7c34-0c8a-4f03-8e5c-b57802c493f0">Data structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383713(v=VS.85).aspx">LARGE_INTEGER</a>
+<a href="https://msdn.microsoft.com/6a2985b6-5baf-49ab-af28-67c1374557ea">LARGE_INTEGER</a>
  
 
  

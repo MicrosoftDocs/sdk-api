@@ -103,7 +103,7 @@ This parameter can be <b>NULL</b>.
 #### - lpbDeviceConfig [in]
 
 Pointer to a TAPI device configuration block. This parameter is currently unused. The caller should pass <b>NULL</b> for this parameter. For more information about TAPI device configuration blocks, see the function 
-<a href="https://msdn.microsoft.com/en-us/library/ms735739(v=VS.85).aspx">lineGetDevConfig</a>.
+<a href="_tapi2_linegetdevconfig">lineGetDevConfig</a>.
 
 
 #### - lpcbDeviceConfig [in]

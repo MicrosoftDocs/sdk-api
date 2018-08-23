@@ -7,7 +7,7 @@ old-location: security\cmc_response_info.htm
 old-project: SecCrypto
 ms.assetid: 82d9314f-2f0f-4a98-a0da-a89cd8905886
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: "*PCMC_RESPONSE_INFO, CMC_RESPONSE_INFO, CMC_RESPONSE_INFO structure [Security], PCMC_RESPONSE_INFO, PCMC_RESPONSE_INFO structure pointer [Security], _CMC_RESPONSE_INFO, _crypto2_cmc_response_info, security.cmc_response_info, wincrypt/CMC_RESPONSE_INFO, wincrypt/PCMC_RESPONSE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

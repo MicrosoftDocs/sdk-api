@@ -7,7 +7,7 @@ old-location: dshow\iamstats_getvaluebyname.htm
 old-project: DirectShow
 ms.assetid: c380deb0-bd49-4191-8218-d05aef39cb15
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/20/2018
 ms.keywords: GetValueByName, GetValueByName method [DirectShow], GetValueByName method [DirectShow],IAMStats interface, IAMStats interface [DirectShow],GetValueByName method, IAMStats.GetValueByName, IAMStats::GetValueByName, IAMStatsGetValueByName, control/IAMStats::GetValueByName, dshow.iamstats_getvaluebyname
 ms.prod: windows
 ms.technology: windows-sdk
@@ -158,11 +158,11 @@ No match for this name.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319776(v=VS.85).aspx">IAMStats Interface</a>
+<a href="https://msdn.microsoft.com/01dbaba2-fdca-4f42-8816-fd99c4364dbd">IAMStats Interface</a>
  
 
  

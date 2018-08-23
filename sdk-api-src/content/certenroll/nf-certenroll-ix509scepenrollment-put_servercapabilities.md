@@ -66,7 +66,7 @@ This property is write-only.
 
 If you do not set this property, then the default hash and encryption algorithms will be used.
 
-This property must be set before calling the <a href="https://msdn.microsoft.com/en-us/library/Dn424976(v=VS.85).aspx">CreateRequestMessage</a>, <a href="https://msdn.microsoft.com/en-us/library/Dn424978(v=VS.85).aspx">CreateRetrievePendingMessage</a>, or <a href="https://msdn.microsoft.com/en-us/library/Dn424977(v=VS.85).aspx">CreateRetrieveCertificateMessage</a> methods.
+This property must be set before calling the <a href="https://msdn.microsoft.com/b86d6dc3-aa96-45f3-9551-f24c39ea6cbf">CreateRequestMessage</a>, <a href="https://msdn.microsoft.com/86d031b0-2009-460b-8bed-fe7a0489f22b">CreateRetrievePendingMessage</a>, or <a href="https://msdn.microsoft.com/238a837f-4464-49ce-b87a-03abcfc0abea">CreateRetrieveCertificateMessage</a> methods.
 
 
 
@@ -76,7 +76,7 @@ This property must be set before calling the <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn424973(v=VS.85).aspx">IX509SCEPEnrollment</a>
+<a href="https://msdn.microsoft.com/fcbac911-9e37-4994-bbb6-544b19a92749">IX509SCEPEnrollment</a>
  
 
  

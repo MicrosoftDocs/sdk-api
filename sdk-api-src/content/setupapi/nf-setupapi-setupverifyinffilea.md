@@ -85,7 +85,7 @@ A pointer to an <a href="https://msdn.microsoft.com/50ceee47-3a89-4bd7-8508-5a4d
 
 
 
-This function returns WINSETUPAPI BOOL.
+This function returns WINSETUPAPI BOOL __stdcall.
 
 
 

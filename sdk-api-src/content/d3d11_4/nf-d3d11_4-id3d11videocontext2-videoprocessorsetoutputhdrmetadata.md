@@ -114,7 +114,7 @@ When processing an HDR stream, the driver may use this metadata optimize the vid
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt808594(v=VS.85).aspx">ID3DVideoContext2</a>
+<a href="mf.id3dvideocontext2">ID3DVideoContext2</a>
  
 
  

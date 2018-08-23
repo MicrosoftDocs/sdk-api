@@ -51,5 +51,5 @@ req.irql:
 ## -description
 
 
-The <b>IAzApplicationGroup2</b> interface extends the <a href="https://msdn.microsoft.com/en-us/library/Aa377253(v=VS.85).aspx">IAzApplicationGroup</a> interface by adding support for the <b>BizRule</b> group type. This interface also adds a method that gets the role assignments associated with the application group.
+The <b>IAzApplicationGroup2</b> interface extends the <a href="https://msdn.microsoft.com/6a15acde-e582-4c49-b7e4-82d4e54012b1">IAzApplicationGroup</a> interface by adding support for the <b>BizRule</b> group type. This interface also adds a method that gets the role assignments associated with the application group.
 

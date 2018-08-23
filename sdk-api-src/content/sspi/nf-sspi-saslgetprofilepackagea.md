@@ -7,7 +7,7 @@ old-location: security\saslgetprofilepackage.htm
 old-project: secauthn
 ms.assetid: b7cecc5f-775f-40ba-abfc-27d51b3f5395
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: SaslGetProfilePackage, SaslGetProfilePackage function [Security], SaslGetProfilePackageA, SaslGetProfilePackageW, security.saslgetprofilepackage, sspi/SaslGetProfilePackage, sspi/SaslGetProfilePackageA, sspi/SaslGetProfilePackageW
 ms.prod: windows
 ms.technology: windows-sdk

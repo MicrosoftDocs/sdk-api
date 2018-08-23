@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Takes a <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a>
-<a href="https://msdn.microsoft.com/en-us/library/Aa371781(v=VS.85).aspx">offline</a>.
+<a href="o_gly.htm">offline</a>.
 
 
 ## -parameters

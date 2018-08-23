@@ -7,7 +7,7 @@ old-location: appxpkg\iappxblockmapfilesenumerator_movenext.htm
 old-project: appxpkg
 ms.assetid: C50F7801-4C33-46EA-989C-259BA407C96B
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/16/2018
 ms.keywords: IAppxBlockMapFilesEnumerator interface [App packaging and management],MoveNext method, IAppxBlockMapFilesEnumerator.MoveNext, IAppxBlockMapFilesEnumerator::MoveNext, MoveNext, MoveNext method [App packaging and management], MoveNext method [App packaging and management],IAppxBlockMapFilesEnumerator interface, appxpackaging/IAppxBlockMapFilesEnumerator::MoveNext, appxpkg.iappxblockmapfilesenumerator_movenext
 ms.prod: windows
 ms.technology: windows-sdk

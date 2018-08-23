@@ -7,7 +7,7 @@ old-location: dshow\iamtimecodegenerator.htm
 old-project: DirectShow
 ms.assetid: 7fe74fc2-03bd-43dd-917f-ee0149f1e17f
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/20/2018
 ms.keywords: IAMTimecodeGenerator, IAMTimecodeGenerator interface [DirectShow], IAMTimecodeGenerator interface [DirectShow],described, IAMTimecodeGeneratorInterface, dshow.iamtimecodegenerator, strmif/IAMTimecodeGenerator
 ms.prod: windows
 ms.technology: windows-sdk

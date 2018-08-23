@@ -7,7 +7,7 @@ old-location: security\secpkgcontext_clientcreds.htm
 old-project: secauthn
 ms.assetid: 85ab1bf7-a4d9-4b0e-b1e3-cb938c3183d3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: "*PSecPkgContext_ClientCreds, PSecPkgContext_ClientCreds, PSecPkgContext_ClientCreds structure pointer [Security], SecPkgContext_ClientCreds, SecPkgContext_ClientCreds structure [Security], _SecPkgContext_ClientCreds, credssp/PSecPkgContext_ClientCreds, credssp/SecPkgContext_ClientCreds, security.secpkgcontext_clientcreds"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>SecPkgContext_ClientCreds</b> structure specifies client credentials when calling the <a href="https://msdn.microsoft.com/en-us/library/Aa965818(v=VS.85).aspx">QueryContextAttributes (CredSSP)</a> function.
+The <b>SecPkgContext_ClientCreds</b> structure specifies client credentials when calling the <a href="https://msdn.microsoft.com/4956c4ab-b71e-4960-b750-f3a79b87baac">QueryContextAttributes (CredSSP)</a> function.
 
 This structure is supported only on the server.
 
@@ -76,7 +76,7 @@ A pointer to a buffer that represents the client credentials.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa965818(v=VS.85).aspx">QueryContextAttributes (CredSSP)</a>
+<a href="https://msdn.microsoft.com/4956c4ab-b71e-4960-b750-f3a79b87baac">QueryContextAttributes (CredSSP)</a>
  
 
  

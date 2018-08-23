@@ -7,7 +7,7 @@ old-location: security\cryptfindlocalizedname.htm
 old-project: SecCrypto
 ms.assetid: 8f0006a9-0930-4b71-87ce-e72371095e4c
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CryptFindLocalizedName, CryptFindLocalizedName function [Security], _crypto2_cryptfindlocalizedname, security.cryptfindlocalizedname, wincrypt/CryptFindLocalizedName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -156,7 +156,7 @@ For an example that uses this function, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
+<a href="cryptography_functions.htm">Data Management Functions</a>
  
 
  

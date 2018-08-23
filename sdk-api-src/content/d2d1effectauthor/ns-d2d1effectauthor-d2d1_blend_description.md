@@ -99,7 +99,7 @@ Parameters to the blend operations. The blend must use <b>D2D1_BLEND_BLEND_FACTO
 
 
 
-This description closely matches the <a href="https://msdn.microsoft.com/en-us/library/Ff476087(v=VS.85).aspx">D3D11_BLEND_DESC</a> struct with some omissions and the addition of the blend factor in the description.
+This description closely matches the <a href="https://msdn.microsoft.com/388f862c-58b0-48a8-a865-ba7568484ef5">D3D11_BLEND_DESC</a> struct with some omissions and the addition of the blend factor in the description.
 
 
 
@@ -109,11 +109,11 @@ This description closely matches the <a href="https://msdn.microsoft.com/en-us/l
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404276(v=VS.85).aspx">D2D1_BLEND</a>
+<a href="https://msdn.microsoft.com/9bc91efd-f695-4bc6-a63e-a3862cca91dd">D2D1_BLEND</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404278(v=VS.85).aspx">D2D1_BLEND_OPERATION</a>
+<a href="https://msdn.microsoft.com/54977cf3-cca3-4a1e-a039-1ee4a8d44686">D2D1_BLEND_OPERATION</a>
  
 
  

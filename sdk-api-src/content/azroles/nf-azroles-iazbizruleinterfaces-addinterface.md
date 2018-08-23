@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>AddInterface</b> method adds the specified interface to the list of <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interfaces that can be called by business rule (BizRule) scripts. To add the specified interface, AzMan calls the  <a href="https://msdn.microsoft.com/library/s8eyc3sh(v=VS.85).aspx">AddNamedItem</a> method of the <a href="https://msdn.microsoft.com/library/ky29ffxd(v=VS.85).aspx">IActiveScript</a> interface.
+The <b>AddInterface</b> method adds the specified interface to the list of <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interfaces that can be called by business rule (BizRule) scripts. To add the specified interface, AzMan calls the  <a href="a7c6317d-948f-4bb3-b169-1bbe5b7c7cc5">AddNamedItem</a> method of the <a href="d8acee11-7f0d-4999-b97a-66774af16f71">IActiveScript</a> interface.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ A string that contains the name used by scripts to call the interface specified 
 
 ### -param lInterfaceFlag [in]
 
-Flags sent to the <a href="https://msdn.microsoft.com/library/s8eyc3sh(v=VS.85).aspx">AddNamedItem</a> method of the <a href="https://msdn.microsoft.com/library/ky29ffxd(v=VS.85).aspx">IActiveScript</a> interface. The <b>AddNamedItem</b> always behaves as if the <b>SCRIPTITEM_ISVISIBLE</b> flag is set, and the <b>SCRIPTITEM_ISPERSISTENT</b> flag is not set.
+Flags sent to the <a href="a7c6317d-948f-4bb3-b169-1bbe5b7c7cc5">AddNamedItem</a> method of the <a href="d8acee11-7f0d-4999-b97a-66774af16f71">IActiveScript</a> interface. The <b>AddNamedItem</b> always behaves as if the <b>SCRIPTITEM_ISVISIBLE</b> flag is set, and the <b>SCRIPTITEM_ISPERSISTENT</b> flag is not set.
 
 
 ### -param varInterface [in]

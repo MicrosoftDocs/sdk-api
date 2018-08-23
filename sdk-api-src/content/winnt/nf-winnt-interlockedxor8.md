@@ -7,7 +7,7 @@ old-location: base\interlockedxor8.htm
 old-project: sync
 ms.assetid: 9b96417e-dc2e-4b67-8084-0c0219444299
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: InterlockedXor8, InterlockedXor8 function, base.interlockedxor8, winnt/InterlockedXor8
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,7 +85,7 @@ The function returns the original value of the <i>Destination</i> parameter.
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
-For the Intel Itanium-based systems and x64 architectures, this function is implemented using the compiler intrinsic. For the x86 architecture, use the <a href="https://msdn.microsoft.com/library/a8swb4hb(v=VS.85).aspx">_InterlockedXor8</a> compiler intrinsic directly.
+For the Intel Itanium-based systems and x64 architectures, this function is implemented using the compiler intrinsic. For the x86 architecture, use the <a href="faef1796-cb5a-4430-b1e2-9d5eaf9b4a91">_InterlockedXor8</a> compiler intrinsic directly.
 
 This function  generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 

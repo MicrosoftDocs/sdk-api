@@ -7,7 +7,7 @@ old-location: security\certenumctlcontextproperties.htm
 old-project: SecCrypto
 ms.assetid: f5c9c4cd-bf99-41bf-b13e-f1921b011039
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CertEnumCTLContextProperties, CertEnumCTLContextProperties function [Security], _crypto2_certenumctlcontextproperties, security.certenumctlcontextproperties, wincrypt/CertEnumCTLContextProperties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,7 +95,7 @@ The return value is a <b>DWORD</b> value that identifies a CTL context's propert
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Extended Property Functions</a>
+<a href="cryptography_functions.htm">Extended Property Functions</a>
  
 
  

@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/Aa375247(v=VS.85).aspx">Initialize</a> method to specify the Boolean value.
+Call the <a href="https://msdn.microsoft.com/66efee4f-61af-447a-b668-81fbe2107b7f">Initialize</a> method to specify the Boolean value.
 
 
 
@@ -74,11 +74,11 @@ Call the <a href="https://msdn.microsoft.com/en-us/library/Aa375247(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375239(v=VS.85).aspx">ICertProperty</a>
+<a href="https://msdn.microsoft.com/947c2f09-993d-4ced-8b76-66b79d96e3bc">ICertProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375240(v=VS.85).aspx">ICertPropertyArchived</a>
+<a href="https://msdn.microsoft.com/81219ad9-4717-40e5-9ecd-d3df980e23c6">ICertPropertyArchived</a>
  
 
  

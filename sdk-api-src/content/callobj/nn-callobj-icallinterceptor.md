@@ -58,7 +58,7 @@ Supports the registration and un-registering of event sinks wishing to be notifi
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICallInterceptor</b> interface inherits from <b>ICallIndirect</b>. <b>ICallInterceptor</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>ICallInterceptor</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms684011(v=VS.85).aspx">GetRegisteredSink</a>
+<a href="https://msdn.microsoft.com/65f33bc3-9fcb-4ad5-908d-3ac06b9f8c6c">GetRegisteredSink</a>
 </td>
 <td align="left" width="63%">
 Retrieves the registered event sink.
@@ -80,7 +80,7 @@ Retrieves the registered event sink.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms678470(v=VS.85).aspx">RegisterSink</a>
+<a href="https://msdn.microsoft.com/07de2e42-0490-4801-8951-6e71ffb8ed93">RegisterSink</a>
 </td>
 <td align="left" width="63%">
 Registers an event sink for receiving notifications of method calls.

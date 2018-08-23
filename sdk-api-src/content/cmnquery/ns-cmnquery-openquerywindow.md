@@ -151,7 +151,7 @@ Causes the query dialog box, when closed, to save the query to the
 
 Causes the query dialog box to display optional forms in the form drop-down list. Optional forms are 
         forms that specify the <b>CQFF_ISOPTIONAL</b> flag in the 
-        <b>dwFlags</b> member of the <a href="https://msdn.microsoft.com/en-us/library/ms675751(v=VS.85).aspx">CQFORM</a> 
+        <b>dwFlags</b> member of the <a href="https://msdn.microsoft.com/65cf2e9c-8f88-4e84-8bf2-2b0fd246a835">CQFORM</a> 
         structure.
 
 
@@ -184,7 +184,7 @@ Pointer to a structure that contains data for the query handler. The type of str
 
 #### CLSID_DsQuery
 
-Contains a pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms676018(v=VS.85).aspx">DSQUERYINITPARAMS</a> 
+Contains a pointer to a <a href="https://msdn.microsoft.com/ff1cb792-efb0-46f5-bc9b-95c9fb2959db">DSQUERYINITPARAMS</a> 
         structure.
 
 
@@ -394,11 +394,11 @@ Read-only Domain Controllers
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms675751(v=VS.85).aspx">CQFORM</a>
+<a href="https://msdn.microsoft.com/65cf2e9c-8f88-4e84-8bf2-2b0fd246a835">CQFORM</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms676018(v=VS.85).aspx">DSQUERYINITPARAMS</a>
+<a href="https://msdn.microsoft.com/ff1cb792-efb0-46f5-bc9b-95c9fb2959db">DSQUERYINITPARAMS</a>
 
 
 

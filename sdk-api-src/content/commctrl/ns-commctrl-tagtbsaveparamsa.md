@@ -53,7 +53,7 @@ req.irql:
 ## -description
 
 
-Specifies the location in the registry where the <a href="https://msdn.microsoft.com/en-us/library/Bb787394(v=VS.85).aspx">TB_SAVERESTORE</a> message stores and retrieves information about the state of a toolbar. 
+Specifies the location in the registry where the <a href="https://msdn.microsoft.com/59f51d07-cd08-4d6f-9d19-614064ba6f20">TB_SAVERESTORE</a> message stores and retrieves information about the state of a toolbar. 
 
 
 ## -struct-fields
@@ -63,7 +63,7 @@ Specifies the location in the registry where the <a href="https://msdn.microsoft
 
 ### -field hkr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HKEY</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HKEY</a></b>
 
 Handle to the registry key. 
 

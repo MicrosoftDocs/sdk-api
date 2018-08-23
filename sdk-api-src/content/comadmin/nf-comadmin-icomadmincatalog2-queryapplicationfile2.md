@@ -66,7 +66,7 @@ The full path to the application file.
 
 ### -param ppFilesForImport [out, retval]
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms683140(v=VS.85).aspx">ICatalogCollection</a> interface pointer that specifies the <a href="https://msdn.microsoft.com/en-us/library/ms685046(v=VS.85).aspx">FilesForImport</a> collection for the application.
+A pointer to an <a href="https://msdn.microsoft.com/7c24ead4-d69f-467d-b3d8-a81adbc49a7b">ICatalogCollection</a> interface pointer that specifies the <a href="https://msdn.microsoft.com/9ed4bc3f-3490-4c36-ba94-bc803886a4d2">FilesForImport</a> collection for the application.
 
 
 ## -returns
@@ -83,7 +83,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee309562(v=VS.85).aspx">ICOMAdminCatalog2</a>
+<a href="https://msdn.microsoft.com/ffca611d-dacc-47be-9101-9de76ecc8393">ICOMAdminCatalog2</a>
  
 
  

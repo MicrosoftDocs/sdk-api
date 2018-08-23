@@ -40,8 +40,8 @@ api_name:
  - WSManAuthenticationFlags
 product: Windows
 targetos: Windows
-req.lib: 
-req.dll: 
+req.lib: Wslapi.lib
+req.dll: Api-ms-win-wsl-api-l1-1-0.dll
 req.irql: 
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---

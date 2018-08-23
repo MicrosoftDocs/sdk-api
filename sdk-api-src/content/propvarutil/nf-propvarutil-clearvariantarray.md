@@ -52,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Frees the memory and references used by an array of <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structures stored in an array.
+Frees the memory and references used by an array of <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structures stored in an array.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ Frees the memory and references used by an array of <a href="https://msdn.micros
 
 Type: <b>VARIANT*</b>
 
-Array of <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structures to free.
+Array of <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structures to free.
 
 
 ### -param cvars [in]
@@ -92,7 +92,7 @@ This function releases the memory and references held by each structure in the a
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762284(v=VS.85).aspx">ClearVariantArray</a>
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.ClearVariantArray">ClearVariantArray</a>
 
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -116,11 +116,11 @@ ClearVariantArray(rgpropvar, ARRAYSIZE(rgpropvar));</pre>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762283(v=VS.85).aspx">ClearPropVariantArray</a>
+<a href="shell.ClearPropVariantArray">ClearPropVariantArray</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762285(v=VS.85).aspx">FreePropVariantArray</a>
+<a href="shell.FreePropVariantArray">FreePropVariantArray</a>
  
 
  

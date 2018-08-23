@@ -7,7 +7,7 @@ old-location: tablet\peninputpanel_moveto.htm
 old-project: tablet
 ms.assetid: d99e5ef8-fa91-4507-bfe5-f30a039ca72d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: IPenInputPanel interface [Tablet PC],MoveTo method, IPenInputPanel.MoveTo, IPenInputPanel::MoveTo, MoveTo, MoveTo method [Tablet PC], MoveTo method [Tablet PC],IPenInputPanel interface, d99e5ef8-fa91-4507-bfe5-f30a039ca72d, peninputpanel/IPenInputPanel::MoveTo, tablet.peninputpanel_moveto
 ms.prod: windows
 ms.technology: windows-sdk
@@ -146,7 +146,7 @@ You can also override the automatic positioning behavior of the <a href="https:/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846809(v=VS.85).aspx">IPenInputPanel</a>
+<a href="https://msdn.microsoft.com/AA973F9D-264F-4D08-9D86-C5DAEF1C09D5">IPenInputPanel</a>
 
 
 

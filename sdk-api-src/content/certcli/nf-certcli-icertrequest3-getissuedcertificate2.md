@@ -7,7 +7,7 @@ old-location: security\icertrequest3_getissuedcertificate2.htm
 old-project: SecCrypto
 ms.assetid: c311acaf-983b-4d61-a674-0fc6b475d212
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CCertRequest object [Security],GetIssuedCertificate2 method, CR_DISP_DENIED, CR_DISP_ERROR, CR_DISP_INCOMPLETE, CR_DISP_ISSUED, CR_DISP_ISSUED_OUT_OF_BAND, CR_DISP_UNDER_SUBMISSION, GetIssuedCertificate2, GetIssuedCertificate2 method [Security], GetIssuedCertificate2 method [Security],CCertRequest object, GetIssuedCertificate2 method [Security],ICertRequest3 class, ICertRequest3 class [Security],GetIssuedCertificate2 method, ICertRequest3.GetIssuedCertificate2, ICertRequest3::GetIssuedCertificate2, certcli/ICertRequest3::GetIssuedCertificate2, security.icertrequest3_getissuedcertificate2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,8 +62,8 @@ The <b>GetIssuedCertificate2</b> method retrieves a certificate's disposition by
 
 ### -param strConfig [in]
 
-Represents a valid configuration string for the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">Certificate Services</a> server. The string can be either an HTTPS URL for an enrollment server or in the form <i>ComputerName</i><b>\</b><i>CAName</i>, where <i>ComputerName</i> is the network name of the server, and <i>CAName</i> is the common name of the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a>, as entered during Certificate Services setup. For information about the configuration string name, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383268(v=VS.85).aspx">ICertConfig</a>.
+Represents a valid configuration string for the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">Certificate Services</a> server. The string can be either an HTTPS URL for an enrollment server or in the form <i>ComputerName</i><b>\</b><i>CAName</i>, where <i>ComputerName</i> is the network name of the server, and <i>CAName</i> is the common name of the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a>, as entered during Certificate Services setup. For information about the configuration string name, see 
+<a href="https://msdn.microsoft.com/92bece6a-73f0-47cf-8142-77e986448824">ICertConfig</a>.
 
 
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>An HTTPS URL is not supported as an input.
@@ -71,9 +71,9 @@ Represents a valid configuration string for the <a href="https://msdn.microsoft.
 
 ### -param strRequestId [in]
 
-A <b>BSTR</b> value that represents the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate request</a> ID in the Certificates Services database. Set this parameter to <b>NULL</b> if the serial number (passed in as <i>strSerialNumber</i>) is to be used instead of the request ID.
+A <b>BSTR</b> value that represents the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate request</a> ID in the Certificates Services database. Set this parameter to <b>NULL</b> if the serial number (passed in as <i>strSerialNumber</i>) is to be used instead of the request ID.
 
-Use the  <a href="https://msdn.microsoft.com/en-us/library/Ee373780(v=VS.85).aspx">ICertRequest3::GetRequestIdString</a> method to obtain the request ID string.
+Use the  <a href="https://msdn.microsoft.com/09afc06f-95e8-4519-b0c7-36da5986e077">ICertRequest3::GetRequestIdString</a> method to obtain the request ID string.
 
 
 ### -param strSerialNumber [in]
@@ -168,7 +168,7 @@ Request taken under submission.
 <h3>C++</h3>
  If the method succeeds, the method returns <b>S_OK</b>.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
 The return value is a <b>Long</b> that represents the certificate's disposition.
@@ -181,11 +181,11 @@ The return value is a <b>Long</b> that represents the certificate's disposition.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385040(v=VS.85).aspx">CCertRequest</a>
+<a href="https://msdn.microsoft.com/2f371aa6-492e-41ba-8455-66e9d5f5da44">CCertRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee373776(v=VS.85).aspx">ICertRequest3</a>
+<a href="https://msdn.microsoft.com/01de2ac0-4844-41a6-acef-e3e83b350393">ICertRequest3</a>
  
 
  

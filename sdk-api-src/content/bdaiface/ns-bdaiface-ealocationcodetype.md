@@ -87,7 +87,7 @@ Contains the county_code field.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693017(v=VS.85).aspx">BDA Structures</a>
+<a href="https://msdn.microsoft.com/5ae43ac6-519d-486b-aaa5-c766f3194ef2">BDA Structures</a>
  
 
  

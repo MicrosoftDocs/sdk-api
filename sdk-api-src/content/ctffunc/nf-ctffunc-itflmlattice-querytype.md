@@ -60,7 +60,7 @@ req.irql:
 
 ### -param rguidType [in]
 
-Specifies the lattice type identifier. This can be one of the <a href="https://msdn.microsoft.com/en-us/library/ms628996(v=VS.85).aspx">Lattice Type</a> values.
+Specifies the lattice type identifier. This can be one of the <a href="https://msdn.microsoft.com/ce4bf11b-e7e7-4f06-b572-8ed6f0ed8d36">Lattice Type</a> values.
 
 
 ### -param pfSupported [out]
@@ -112,7 +112,7 @@ Either <i>pfSupported</i> is invalid or the specified lattice type is not suppor
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628774(v=VS.85).aspx">ITfLMLattice</a>
+<a href="https://msdn.microsoft.com/25ad6ef2-1d42-498a-852f-163a0efbc26a">ITfLMLattice</a>
 
 
 

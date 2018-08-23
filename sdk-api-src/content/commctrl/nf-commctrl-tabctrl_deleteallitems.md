@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Removes all items from a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760575(v=VS.85).aspx">TCM_DELETEALLITEMS</a> message explicitly. 
+Removes all items from a tab control. You can use this macro or send the <a href="https://msdn.microsoft.com/733494c4-38f4-44ba-98d2-c33a8d63c3b7">TCM_DELETEALLITEMS</a> message explicitly. 
 
 
 ## -parameters

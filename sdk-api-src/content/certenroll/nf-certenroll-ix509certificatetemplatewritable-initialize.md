@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>Initialize</b> method initializes an <a href="https://msdn.microsoft.com/en-us/library/Ee351675(v=VS.85).aspx">IX509CertificateTemplateWritable</a> object from a template.
+The <b>Initialize</b> method initializes an <a href="https://msdn.microsoft.com/87660b16-06a8-4a71-8669-24521f1399e4">IX509CertificateTemplateWritable</a> object from a template.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>Initialize</b> method initializes an <a href="https://msdn.microsoft.com/
 
 ### -param pValue [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee351664(v=VS.85).aspx">IX509CertificateTemplate</a> interface that represents a certificate request template.
+Pointer to an <a href="https://msdn.microsoft.com/56122d92-7e38-4eaa-b2f5-713adc81e68e">IX509CertificateTemplate</a> interface that represents a certificate request template.
 
 
 ## -returns
@@ -70,7 +70,7 @@ Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Ee351664(v=VS.85
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -96,7 +96,7 @@ The <i>pValue</i> parameter cannot be <b>NULL</b>.
 </dl>
 </td>
 <td width="60%">
-The <i>pValue</i> parameter does not point to an <a href="https://msdn.microsoft.com/en-us/library/Ee351664(v=VS.85).aspx">IX509CertificateTemplate</a> interface.
+The <i>pValue</i> parameter does not point to an <a href="https://msdn.microsoft.com/56122d92-7e38-4eaa-b2f5-713adc81e68e">IX509CertificateTemplate</a> interface.
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ The <i>pValue</i> parameter does not point to an <a href="https://msdn.microsoft
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/en-us/library/Ee351675(v=VS.85).aspx">IX509CertificateTemplateWritable</a> has already been initialized.
+The <a href="https://msdn.microsoft.com/87660b16-06a8-4a71-8669-24521f1399e4">IX509CertificateTemplateWritable</a> has already been initialized.
 
 </td>
 </tr>
@@ -122,7 +122,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/Ee351675(v=VS.85).aspx">IX
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351675(v=VS.85).aspx">IX509CertificateTemplateWritable</a>
+<a href="https://msdn.microsoft.com/87660b16-06a8-4a71-8669-24521f1399e4">IX509CertificateTemplateWritable</a>
  
 
  

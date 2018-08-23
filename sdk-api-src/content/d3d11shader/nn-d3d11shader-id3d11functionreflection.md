@@ -59,9 +59,9 @@ A function-reflection interface accesses function info. <div class="alert"><b>No
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11FunctionReflection</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ID3D11FunctionReflection</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11FunctionReflection</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ID3D11FunctionReflection</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -83,7 +83,7 @@ Gets a constant buffer by index for a function.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn280548(v=VS.85).aspx">GetConstantBufferByName</a>
+<a href="https://msdn.microsoft.com/6629A13D-4D0A-4394-9D72-F786235BEA8E">GetConstantBufferByName</a>
 </td>
 <td align="left" width="63%">
 Gets a constant buffer by name for a function.
@@ -92,7 +92,7 @@ Gets a constant buffer by name for a function.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn280549(v=VS.85).aspx">GetDesc</a>
+<a href="https://msdn.microsoft.com/CD4A0602-BF89-4B17-99E3-35293FB0B66C">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Fills the function descriptor structure for the function.
@@ -101,7 +101,7 @@ Fills the function descriptor structure for the function.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn280550(v=VS.85).aspx">GetFunctionParameter</a>
+<a href="https://msdn.microsoft.com/DA2A3226-7204-4722-BCA0-74B38793A319">GetFunctionParameter</a>
 </td>
 <td align="left" width="63%">
 Gets the function parameter reflector.
@@ -110,7 +110,7 @@ Gets the function parameter reflector.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn280551(v=VS.85).aspx">GetResourceBindingDesc</a>
+<a href="https://msdn.microsoft.com/A54B2CD4-BE4C-470C-BBE0-2678F659BEAF">GetResourceBindingDesc</a>
 </td>
 <td align="left" width="63%">
 Gets a description of how a resource is bound to a function. 
@@ -119,7 +119,7 @@ Gets a description of how a resource is bound to a function.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn280552(v=VS.85).aspx">GetResourceBindingDescByName</a>
+<a href="https://msdn.microsoft.com/4ACE2BDA-DDBE-4E22-A14F-14208693C34E">GetResourceBindingDescByName</a>
 </td>
 <td align="left" width="63%">
 Gets a description of how a resource is bound to a function. 
@@ -128,7 +128,7 @@ Gets a description of how a resource is bound to a function.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn280553(v=VS.85).aspx">GetVariableByName</a>
+<a href="https://msdn.microsoft.com/5DE3FEB3-5A5E-44E0-BBC2-52EE7FB41B2A">GetVariableByName</a>
 </td>
 <td align="left" width="63%">
 Gets a variable by name.
@@ -154,7 +154,7 @@ To get a function-reflection interface, call <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476161(v=VS.85).aspx">Shader Interfaces</a>
+<a href="https://msdn.microsoft.com/1791d2c9-3791-47fe-b887-a8117ecc798b">Shader Interfaces</a>
  
 
  

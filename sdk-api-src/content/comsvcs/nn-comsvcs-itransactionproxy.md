@@ -90,7 +90,7 @@ Commits the transaction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms687046(v=VS.85).aspx">CreateVoter</a>
+<a href="https://msdn.microsoft.com/dd837082-881e-4f7e-b71e-c0f6068e3cdb">CreateVoter</a>
 </td>
 <td align="left" width="63%">
 Provides a ballot so that a COM+ transaction context can vote on the transaction.
@@ -99,7 +99,7 @@ Provides a ballot so that a COM+ transaction context can vote on the transaction
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms683448(v=VS.85).aspx">GetIdentifier</a>
+<a href="https://msdn.microsoft.com/8045989b-7b66-4340-a06e-4b4102d09784">GetIdentifier</a>
 </td>
 <td align="left" width="63%">
 Retrieves the identifier of the non-DTC transaction.
@@ -108,7 +108,7 @@ Retrieves the identifier of the non-DTC transaction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms685089(v=VS.85).aspx">GetIsolationLevel</a>
+<a href="https://msdn.microsoft.com/a2b0e99a-0d35-4103-b7a0-407d09a2746e">GetIsolationLevel</a>
 </td>
 <td align="left" width="63%">
 Retrieves the isolation level of the non-DTC transaction.
@@ -117,7 +117,7 @@ Retrieves the isolation level of the non-DTC transaction.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms686437(v=VS.85).aspx">IsReusable</a>
+<a href="https://msdn.microsoft.com/c642d329-c996-4207-bdcf-7c79d955b2c4">IsReusable</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the non-DTC transaction context can be reused for multiple transactions.
@@ -126,7 +126,7 @@ Indicates whether the non-DTC transaction context can be reused for multiple tra
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms683587(v=VS.85).aspx">Promote</a>
+<a href="https://msdn.microsoft.com/861103b4-b5fa-4543-b26b-ad0c89d4473d">Promote</a>
 </td>
 <td align="left" width="63%">
 Promotes a non-DTC transaction to a DTC transaction.

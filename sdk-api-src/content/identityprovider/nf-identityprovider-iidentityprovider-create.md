@@ -7,7 +7,7 @@ old-location: security\iidentityprovider_create.htm
 old-project: secauthn
 ms.assetid: 6ea1a87d-c8c1-43e4-b746-c1bfe98f370b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: Create, Create method [Security], Create method [Security],IIdentityProvider interface, IIdentityProvider interface [Security],Create method, IIdentityProvider.Create, IIdentityProvider::Create, identityprovider/IIdentityProvider::Create, security.iidentityprovider_create
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,7 +67,7 @@ The user name with which to associate the new identity.
 
 ### -param ppPropertyStore [out]
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a> interface that represents the property store associated with the new identity.
+A pointer to the <a href="shell_ipropertystore_cpp">IPropertyStore</a> interface that represents the property store associated with the new identity.
 
 
 ### -param pKeywordsToAdd [in, optional]

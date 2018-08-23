@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_texture_address_mode.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_texture_address_mode.htm
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/20/2018
 ms.keywords: D3D10_TEXTURE_ADDRESS_BORDER, D3D10_TEXTURE_ADDRESS_CLAMP, D3D10_TEXTURE_ADDRESS_MIRROR, D3D10_TEXTURE_ADDRESS_MIRROR_ONCE, D3D10_TEXTURE_ADDRESS_MODE, D3D10_TEXTURE_ADDRESS_MODE enumeration [Direct3D 10], D3D10_TEXTURE_ADDRESS_WRAP, d3d10/D3D10_TEXTURE_ADDRESS_BORDER, d3d10/D3D10_TEXTURE_ADDRESS_CLAMP, d3d10/D3D10_TEXTURE_ADDRESS_MIRROR, d3d10/D3D10_TEXTURE_ADDRESS_MIRROR_ONCE, d3d10/D3D10_TEXTURE_ADDRESS_MODE, d3d10/D3D10_TEXTURE_ADDRESS_WRAP, d54f3184-32a0-80ea-d0db-214c902889c1, direct3d10.d3d10_texture_address_mode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,7 +76,7 @@ Texture coordinates outside the range [0.0, 1.0] are set to the texture color at
 
 ### -field D3D10_TEXTURE_ADDRESS_BORDER
 
-Texture coordinates outside the range [0.0, 1.0] are set to the border color specified in <a href="https://msdn.microsoft.com/en-us/library/Bb172415(v=VS.85).aspx">D3D10_SAMPLER_DESC</a> or HLSL code.
+Texture coordinates outside the range [0.0, 1.0] are set to the border color specified in <a href="https://msdn.microsoft.com/b97db311-de57-45f3-a6dd-8af768b2680d">D3D10_SAMPLER_DESC</a> or HLSL code.
 
 
 ### -field D3D10_TEXTURE_ADDRESS_MIRROR_ONCE
@@ -89,7 +89,7 @@ Similar to D3D10_TEXTURE_ADDRESS_MIRROR and D3D10_TEXTURE_ADDRESS_CLAMP. Takes t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/3d1541bf-75d8-459d-a912-4068e9a0a9e4">Core Enumerations</a>
  
 
  

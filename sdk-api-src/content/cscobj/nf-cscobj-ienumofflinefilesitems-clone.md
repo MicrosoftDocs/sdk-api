@@ -62,7 +62,7 @@ Creates a new instance of the enumerator with the same enumeration state as the 
 
 ### -param ppenum [out]
 
-Address of an <a href="https://msdn.microsoft.com/en-us/library/Bb530476(v=VS.85).aspx">IEnumOfflineFilesItems</a> pointer variable that receives the interface pointer of the new enumeration object.
+Address of an <a href="https://msdn.microsoft.com/9bb1fa14-74d2-4c6f-b8ba-47c6e78d7a4f">IEnumOfflineFilesItems</a> pointer variable that receives the interface pointer of the new enumeration object.
 
 
 ## -returns
@@ -79,7 +79,7 @@ Returns <b>S_OK</b> if the enumerator is created successfully, or an error value
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530476(v=VS.85).aspx">IEnumOfflineFilesItems</a>
+<a href="https://msdn.microsoft.com/9bb1fa14-74d2-4c6f-b8ba-47c6e78d7a4f">IEnumOfflineFilesItems</a>
  
 
  

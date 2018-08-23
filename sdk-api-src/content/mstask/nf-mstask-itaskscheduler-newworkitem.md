@@ -55,7 +55,7 @@ req.product: Rights Management Services client 1.0 or later
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
 The 
-<b>NewWorkItem</b> method creates a new <a href="https://msdn.microsoft.com/en-us/library/Aa384011(v=VS.85).aspx">work item</a>, allocating space for the work item and retrieving its address.
+<b>NewWorkItem</b> method creates a new <a href="w.htm">work item</a>, allocating space for the work item and retrieving its address.
 
 
 ## -parameters
@@ -171,20 +171,20 @@ The caller does not have permission to perform the operation. For more informati
 This method handles memory allocation automatically when creating the new work item.
 
 To save the work item to disk, call 
-<a href="https://msdn.microsoft.com/en-us/library/ms693701(v=VS.85).aspx">IPersistFile::Save</a> . This COM interface is supported by all work item interfaces (currently 
+<a href="_com_ipersistfile_save">IPersistFile::Save</a> . This COM interface is supported by all work item interfaces (currently 
 <a href="https://msdn.microsoft.com/84a70dd0-43cb-42be-8360-35263bf1afb8">ITask</a> is the only supported work item interface).
 
 Task scheduler provides two methods for adding work items: 
 <b>NewWorkItem</b> and 
 <a href="https://msdn.microsoft.com/5d776e19-c40e-4e0a-8ae1-a14c4f23b442">AddWorkItem</a>. Of these methods, each has its specific advantage. 
 <b>AddWorkItem</b> prevents naming collisions, but also requires two disk write operations per call. One write operation is performed when the call to 
-<b>AddWorkItem</b> creates an empty work item object on the disk, followed by another write operation when <a href="https://msdn.microsoft.com/en-us/library/ms693701(v=VS.85).aspx">IPersistFile::Save</a> is called.
+<b>AddWorkItem</b> creates an empty work item object on the disk, followed by another write operation when <a href="_com_ipersistfile_save">IPersistFile::Save</a> is called.
 
 You can create a task by calling <a href="https://msdn.microsoft.com/5d776e19-c40e-4e0a-8ae1-a14c4f23b442">AddWorkItem</a> or <b>NewWorkItem</b>. When use <b>AddWorkItem</b>, it is your responsibility to create an instance of the Task object (which supports the <a href="https://msdn.microsoft.com/84a70dd0-43cb-42be-8360-35263bf1afb8">ITask</a> interface) and then add the task with the name you supply.
 
 
 
-<b>NewWorkItem</b> does not prevent naming collisions, but requires only one disk write operation when <a href="https://msdn.microsoft.com/en-us/library/ms693701(v=VS.85).aspx">IPersistFile::Save</a> is called. Although 
+<b>NewWorkItem</b> does not prevent naming collisions, but requires only one disk write operation when <a href="_com_ipersistfile_save">IPersistFile::Save</a> is called. Although 
 <b>NewWorkItem</b> is more efficient with respect to disk write operations, the application runs the risk of having another application create a work item with the same name before the call to <b>IPersistFile::Save</b> is made.
 
 
@@ -212,7 +212,7 @@ You can create a task by calling <a href="https://msdn.microsoft.com/5d776e19-c4
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms693701(v=VS.85).aspx">IPersistFile::Save</a>
+<a href="_com_ipersistfile_save">IPersistFile::Save</a>
 
 
 

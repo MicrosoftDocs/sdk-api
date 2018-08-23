@@ -106,7 +106,7 @@ The method succeeded.
 
 
 
-The plug-in must call <a href="https://msdn.microsoft.com/en-us/library/Dd563152(v=VS.85).aspx">IWMPContentPartnerCallback::SendMessageComplete</a> to notify Windows Media Player that the message has been processed. This causes the <a href="https://msdn.microsoft.com/en-us/library/Dd562972(v=VS.85).aspx">OnSendMessageComplete</a> event to occur in the discovery page.
+The plug-in must call <a href="https://msdn.microsoft.com/fa5c6b8f-5797-4703-9be8-e3c3a1f1f5f3">IWMPContentPartnerCallback::SendMessageComplete</a> to notify Windows Media Player that the message has been processed. This causes the <a href="https://msdn.microsoft.com/9ae60aa5-4ecd-41dd-aeb0-afb1a3686982">OnSendMessageComplete</a> event to occur in the discovery page.
 
 
 
@@ -116,7 +116,7 @@ The plug-in must call <a href="https://msdn.microsoft.com/en-us/library/Dd563152
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563141(v=VS.85).aspx">IWMPContentPartner Interface</a>
+<a href="https://msdn.microsoft.com/2078ebd4-3570-4c39-9081-1b55d9e8286f">IWMPContentPartner Interface</a>
  
 
  

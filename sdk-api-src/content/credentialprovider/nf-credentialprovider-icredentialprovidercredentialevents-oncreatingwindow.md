@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Called when the window is created. Enables credentials to retrieve the HWND of the parent window after <a href="https://msdn.microsoft.com/en-us/library/Bb776037(v=VS.85).aspx">Advise</a> is called.
+Called when the window is created. Enables credentials to retrieve the HWND of the parent window after <a href="https://msdn.microsoft.com/5ca35c90-24a3-4ffe-abf7-ba3ce0ec83b9">Advise</a> is called.
 
 
 ## -parameters
@@ -86,7 +86,7 @@ The HWND that is returned in <i>phwndOwner</i> can be used as a parent to dialog
 
 Credential UI and Logon UI can cancel the dialog box if they receive no input for two minutes. n the event of a timeout only if the pointer to the parent window is correctly assigned.
 
-The Logon UI and Credential UI will automatically cancel dialogs that receive no input for two minutes. This is only possible if the pointer to the parent window is correctly assigned. Dialogs presented as calls to <a href="https://msdn.microsoft.com/en-us/library/Bb776100(v=VS.85).aspx">IConnectableCredentialProviderCredential::Connect</a> on the Pre-Logon-Access Provider (PLAP) screen will never be cancelled due to inactivity.
+The Logon UI and Credential UI will automatically cancel dialogs that receive no input for two minutes. This is only possible if the pointer to the parent window is correctly assigned. Dialogs presented as calls to <a href="https://msdn.microsoft.com/0fe91d1a-811a-4956-bb2f-47712ae2a155">IConnectableCredentialProviderCredential::Connect</a> on the Pre-Logon-Access Provider (PLAP) screen will never be cancelled due to inactivity.
 
 
 

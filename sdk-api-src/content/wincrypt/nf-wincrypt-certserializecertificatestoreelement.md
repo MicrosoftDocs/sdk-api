@@ -7,7 +7,7 @@ old-location: security\certserializecertificatestoreelement.htm
 old-project: SecCrypto
 ms.assetid: 104fc986-6344-41b7-8843-23c3c72405a2
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CertSerializeCertificateStoreElement, CertSerializeCertificateStoreElement function [Security], _crypto2_certserializecertificatestoreelement, security.certserializecertificatestoreelement, wincrypt/CertSerializeCertificateStoreElement
 ms.prod: windows
 ms.technology: windows-sdk
@@ -113,7 +113,7 @@ If the function fails, the return value is <b>FALSE</b>. For extended error info
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Functions</a>
+<a href="cryptography_functions.htm">Certificate Functions</a>
  
 
  

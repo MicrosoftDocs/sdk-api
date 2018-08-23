@@ -7,7 +7,7 @@ old-location: tablet\inktransform_em11.htm
 old-project: tablet
 ms.assetid: 8827b2b2-f2fb-4732-912c-226db8ac9aef
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: 8827b2b2-f2fb-4732-912c-226db8ac9aef, IInkTransform interface [Tablet PC],eM11 property, IInkTransform.eM11, IInkTransform.get_eM11, IInkTransform::eM11, IInkTransform::get_eM11, IInkTransform::put_eM11, InkTransform.get_eM11, InkTransform.put_eM11, eM11 property [Tablet PC], eM11 property [Tablet PC],IInkTransform interface, get_eM11, msinkaut/IInkTransform::eM11, msinkaut/IInkTransform::get_eM11, msinkaut/IInkTransform::put_eM11, put_eM11, tablet.inktransform_em11
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,7 +73,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846808(v=VS.85).aspx">IInkTransform</a>
+<a href="https://msdn.microsoft.com/1C9562EF-8CF4-4F0C-94FC-3ED54F6493E5">IInkTransform</a>
 
 
 

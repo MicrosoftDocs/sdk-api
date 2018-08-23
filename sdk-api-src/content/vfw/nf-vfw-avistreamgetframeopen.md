@@ -7,7 +7,7 @@ old-location: multimedia\avistreamgetframeopen.htm
 old-project: Multimedia
 ms.assetid: 467560b2-f79f-49ab-b019-d6315f0c2030
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: AVIStreamGetFrameOpen, AVIStreamGetFrameOpen function [Windows Multimedia], _win32_AVIStreamGetFrameOpen, multimedia.avistreamgetframeopen, vfw/AVIStreamGetFrameOpen
 ms.prod: windows
 ms.technology: windows-sdk

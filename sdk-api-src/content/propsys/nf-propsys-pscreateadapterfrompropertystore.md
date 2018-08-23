@@ -53,7 +53,7 @@ req.product: ADAM
 ## -description
 
 
-Creates an adapter from an <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a>.
+Creates an adapter from an <a href="shell.IPropertyStore">IPropertyStore</a>.
 
 
 ## -parameters
@@ -63,9 +63,9 @@ Creates an adapter from an <a href="https://msdn.microsoft.com/en-us/library/Bb7
 
 ### -param pps [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a>*</b>
+Type: <b><a href="shell.IPropertyStore">IPropertyStore</a>*</b>
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a> object that represents the property store.
+Pointer to an <a href="shell.IPropertyStore">IPropertyStore</a> object that represents the property store.
 
 
 ### -param riid [in]
@@ -97,18 +97,18 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-The adapter object implements <a href="https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128">IPropertySetStorage</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb761452(v=VS.85).aspx">IPropertyStoreCapabilities</a>, and <a href="https://msdn.microsoft.com/477991e5-0882-475c-9178-c3add695dc2c">IObjectProvider</a>.
+The adapter object implements <a href="https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128">IPropertySetStorage</a>, <a href="shell.IPropertyStore">IPropertyStore</a>, <a href="shell.IPropertyStoreCapabilities">IPropertyStoreCapabilities</a>, and <a href="https://msdn.microsoft.com/477991e5-0882-475c-9178-c3add695dc2c">IObjectProvider</a>.
 
-Use this function if you need an object that implements <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a> with an API that requires an <a href="https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128">IPropertySetStorage</a> interface. The object created can also be useful to a namespace extension that wants to provide support for binding to namespace items using <b>IPropertySetStorage</b>. Applications must call this object from only one thread at a time.
+Use this function if you need an object that implements <a href="shell.IPropertyStore">IPropertyStore</a> with an API that requires an <a href="https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128">IPropertySetStorage</a> interface. The object created can also be useful to a namespace extension that wants to provide support for binding to namespace items using <b>IPropertySetStorage</b>. Applications must call this object from only one thread at a time.
 
-The adapter property store created by this function retains a reference to the source <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a> interface. Therefore, the calling application is free to release its reference to the source <b>IPropertyStore</b> whenever convenient after calling this function.
+The adapter property store created by this function retains a reference to the source <a href="shell.IPropertyStore">IPropertyStore</a> interface. Therefore, the calling application is free to release its reference to the source <b>IPropertyStore</b> whenever convenient after calling this function.
 
-The adapter property store makes calls to methods on the <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a> interface as appropriate. Therefore, if the calling application is writing values to the store, it should call the <a href="https://msdn.microsoft.com/en-us/library/Ff536957(v=VS.85).aspx">IPropertyStore::Commit</a> method on only one of the interfaces.
+The adapter property store makes calls to methods on the <a href="shell.IPropertyStore">IPropertyStore</a> interface as appropriate. Therefore, if the calling application is writing values to the store, it should call the <a href="shell.IPropertyStore_Commit">IPropertyStore::Commit</a> method on only one of the interfaces.
 
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776487(v=VS.85).aspx">PSCreateAdapterFromPropertyStore</a> to use an adapter property store to convert an <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a> interface into an <a href="https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128">IPropertySetStorage</a> interface.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PSCreateAdapterFromPropertyStore">PSCreateAdapterFromPropertyStore</a> to use an adapter property store to convert an <a href="shell.IPropertyStore">IPropertyStore</a> interface into an <a href="https://msdn.microsoft.com/0ea3e1e0-c135-4138-81e4-f72412fc3128">IPropertySetStorage</a> interface.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -142,11 +142,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a>
+<a href="shell.IPropertyStore">IPropertyStore</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776493(v=VS.85).aspx">PSCreatePropertyStoreFromPropertySetStorage</a>
+<a href="shell.PSCreatePropertyStoreFromPropertySetStorage">PSCreatePropertyStoreFromPropertySetStorage</a>
  
 
  

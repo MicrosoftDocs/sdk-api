@@ -7,7 +7,7 @@ old-location: security\scardgetcardtypeprovidername.htm
 old-project: secauthn
 ms.assetid: 5006d1d6-b0f4-431f-8868-d1f4fc0c8124
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: SCARD_PROVIDER_CARD_MODULE, SCARD_PROVIDER_CSP, SCARD_PROVIDER_KSP, SCARD_PROVIDER_PRIMARY, SCardGetCardTypeProviderName, SCardGetCardTypeProviderName function [Security], SCardGetCardTypeProviderNameA, SCardGetCardTypeProviderNameW, _smart_scardgetcardtypeprovidername, security.scardgetcardtypeprovidername, winscard/SCardGetCardTypeProviderName, winscard/SCardGetCardTypeProviderNameA, winscard/SCardGetCardTypeProviderNameW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -179,7 +179,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>

@@ -7,7 +7,7 @@ old-location: devinst\cm_get_device_interface_list.htm
 old-project: devinst
 ms.assetid: 3f2dfc0f-1bde-40a8-b48c-25b75759e0d8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: CM_Get_Device_Interface_List, CM_Get_Device_Interface_List function [Device and Driver Installation], CM_Get_Device_Interface_ListA, CM_Get_Device_Interface_ListW, cfgmgr32/CM_Get_Device_Interface_List, cfgmgr32/CM_Get_Device_Interface_ListA, cfgmgr32/CM_Get_Device_Interface_ListW, cfgmgrfn_8729dc17-f9a0-4ebe-ad56-35c63f9299f0.xml, devinst.cm_get_device_interface_list
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ Supplies a GUID that identifies a device interface class.
 
 ### -param pDeviceID [in, optional]
 
-Caller-supplied pointer to a NULL-terminated string that represents a <a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">device instance ID</a>. If specified, the function retrieves device interfaces that are supported by the device for the specified class. If this value is <b>NULL</b>, or if it points to a zero-length string, the function retrieves all interfaces that belong to the specified class.
+Caller-supplied pointer to a NULL-terminated string that represents a <a href="devinst.device_instance_ids">device instance ID</a>. If specified, the function retrieves device interfaces that are supported by the device for the specified class. If this value is <b>NULL</b>, or if it points to a zero-length string, the function retrieves all interfaces that belong to the specified class.
 
 
 ### -param Buffer [out]
@@ -80,7 +80,7 @@ Caller-supplied pointer to a buffer that receives multiple, NULL-terminated Unic
 
 ### -param BufferLen [in]
 
-Caller-supplied value that specifies the length, in characters, of the buffer pointed to by <i>Buffer</i>. Call <a href="https://msdn.microsoft.com/en-us/library/Ff538471(v=VS.85).aspx">CM_Get_Device_Interface_List_Size</a> to determine the required buffer size.
+Caller-supplied value that specifies the length, in characters, of the buffer pointed to by <i>Buffer</i>. Call <a href="https://msdn.microsoft.com/f3e1ceb7-9812-4339-889f-dade2efb3998">CM_Get_Device_Interface_List_Size</a> to determine the required buffer size.
 
 
 ### -param ulFlags [in]
@@ -146,7 +146,7 @@ The <i>Buffer</i> buffer is too small to hold the requested list of device inter
 
 
 
-Between calling <a href="https://msdn.microsoft.com/en-us/library/Ff538471(v=VS.85).aspx">CM_Get_Device_Interface_List_Size</a> to get the size of the list and calling <b>CM_Get_Device_Interface_List</b> to get the list, a new device interface can be added to the system causing the size returned to no longer be valid.  Callers should be robust to that condition and retry getting the size and the list if <b>CM_Get_Device_Interface_List</b> returns <b>CR_BUFFER_SMALL</b>.
+Between calling <a href="https://msdn.microsoft.com/f3e1ceb7-9812-4339-889f-dade2efb3998">CM_Get_Device_Interface_List_Size</a> to get the size of the list and calling <b>CM_Get_Device_Interface_List</b> to get the list, a new device interface can be added to the system causing the size returned to no longer be valid.  Callers should be robust to that condition and retry getting the size and the list if <b>CM_Get_Device_Interface_List</b> returns <b>CR_BUFFER_SMALL</b>.
 
 
 #### Examples
@@ -213,7 +213,7 @@ This snippet illustrates retrying getting the size and the list as described in 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff538471(v=VS.85).aspx">CM_Get_Device_Interface_List_Size</a>
+<a href="https://msdn.microsoft.com/f3e1ceb7-9812-4339-889f-dade2efb3998">CM_Get_Device_Interface_List_Size</a>
  
 
  

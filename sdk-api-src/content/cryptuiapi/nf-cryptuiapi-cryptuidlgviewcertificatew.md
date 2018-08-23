@@ -7,7 +7,7 @@ old-location: security\cryptuidlgviewcertificate.htm
 old-project: SecCrypto
 ms.assetid: 5107ff22-78c4-4005-80af-ff45781da6c7
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CryptUIDlgViewCertificate, CryptUIDlgViewCertificate function [Security], CryptUIDlgViewCertificateA, CryptUIDlgViewCertificateW, cryptuiapi/CryptUIDlgViewCertificate, cryptuiapi/CryptUIDlgViewCertificateA, cryptuiapi/CryptUIDlgViewCertificateW, security.cryptuidlgviewcertificate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ The <b>CryptUIDlgViewCertificate</b> function presents a dialog box that display
 
 ### -param pCertViewInfo [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa380645(v=VS.85).aspx">CRYPTUI_VIEWCERTIFICATE_STRUCT</a> structure that contains information about the certificate to view.
+A pointer to a <a href="https://msdn.microsoft.com/7bbd58df-3a1b-4d82-9a90-7c94260a7165">CRYPTUI_VIEWCERTIFICATE_STRUCT</a> structure that contains information about the certificate to view.
 
 
 ### -param pfPropertiesChanged [out]
@@ -91,7 +91,7 @@ If the function fails, the return value is zero (<b>FALSE</b>). For extended err
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380645(v=VS.85).aspx">CRYPTUI_VIEWCERTIFICATE_STRUCT</a>
+<a href="https://msdn.microsoft.com/7bbd58df-3a1b-4d82-9a90-7c94260a7165">CRYPTUI_VIEWCERTIFICATE_STRUCT</a>
  
 
  

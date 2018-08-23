@@ -66,9 +66,9 @@ Gets the layout of the root signature.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn986747(v=VS.85).aspx">D3D12_ROOT_SIGNATURE_DESC</a></b>
+Type: <b><a href="https://msdn.microsoft.com/D74D9D3B-96AB-489A-A91C-4F68AC3D05EE">D3D12_ROOT_SIGNATURE_DESC</a></b>
 
-This method returns a deserialized root signature in a <a href="https://msdn.microsoft.com/en-us/library/Dn986747(v=VS.85).aspx">D3D12_ROOT_SIGNATURE_DESC</a> structure that describes the layout of the root signature.
+This method returns a deserialized root signature in a <a href="https://msdn.microsoft.com/D74D9D3B-96AB-489A-A91C-4F68AC3D05EE">D3D12_ROOT_SIGNATURE_DESC</a> structure that describes the layout of the root signature.
           
 
 
@@ -79,7 +79,7 @@ This method returns a deserialized root signature in a <a href="https://msdn.mic
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn899192(v=VS.85).aspx">ID3D12RootSignatureDeserializer</a>
+<a href="https://msdn.microsoft.com/FEDA0802-45A6-4ED5-9683-5278BD60B7A4">ID3D12RootSignatureDeserializer</a>
  
 
  

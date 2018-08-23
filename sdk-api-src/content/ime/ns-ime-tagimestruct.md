@@ -52,7 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Used by <a href="https://msdn.microsoft.com/en-us/library/Aa969468(v=VS.85).aspx">SendIMEMessageEx</a> to specify the subfunction to be executed in the Input Method Editor (IME) message and its parameters. This structure is also used to receive return values from those subfunctions.
+Used by <a href="https://msdn.microsoft.com/f1e6e73b-53f7-456e-b6a9-61841b83c909">SendIMEMessageEx</a> to specify the subfunction to be executed in the Input Method Editor (IME) message and its parameters. This structure is also used to receive return values from those subfunctions.
 
 
 ## -struct-fields
@@ -472,7 +472,7 @@ Usage depends on the subfunction specified in <b>fnc</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648709(v=VS.85).aspx">Clipboard</a>
+<a href="winui._win32_Clipboard">Clipboard</a>
 
 
 
@@ -484,7 +484,7 @@ Usage depends on the subfunction specified in <b>fnc</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649051(v=VS.85).aspx">SetClipboardData</a>
+<a href="winui._win32_SetClipboardData">SetClipboardData</a>
  
 
  

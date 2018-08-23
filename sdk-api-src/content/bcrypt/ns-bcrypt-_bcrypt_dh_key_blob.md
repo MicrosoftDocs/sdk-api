@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>BCRYPT_DH_KEY_BLOB</b> structure is used as a header for a Diffie-Hellman <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">public key</a> or <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a> in memory.
+The <b>BCRYPT_DH_KEY_BLOB</b> structure is used as a header for a Diffie-Hellman <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a> or <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> <a href="https://msdn.microsoft.com/2e570727-7da0-4e17-bf5d-6fe0e6aef65b">BLOB</a> in memory.
 
 
 ## -struct-fields

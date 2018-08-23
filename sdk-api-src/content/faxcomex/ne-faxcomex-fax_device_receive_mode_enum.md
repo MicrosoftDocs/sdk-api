@@ -80,7 +80,7 @@ The device will answer the call only if made to do so manually.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684558(v=VS.85).aspx">ReceiveMode</a>
+<a href="https://msdn.microsoft.com/d65397eb-2ede-4320-82ea-8fc48aa3f2b0">ReceiveMode</a>
  
 
  

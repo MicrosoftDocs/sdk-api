@@ -52,7 +52,7 @@ req.product: Internet Explorer 5.0
 ## -description
 
 
-Deprecated. Calls the derived class from the base class on receipt of a <a href="https://msdn.microsoft.com/en-us/library/ms632619(v=VS.85).aspx">WM_CREATE</a> message. The derived class handles the message.
+Deprecated. Calls the derived class from the base class on receipt of a <a href="https://msdn.microsoft.com/d484d0fc-bad0-4fcb-bf4b-37cbc50846ee">WM_CREATE</a> message. The derived class handles the message.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ Deprecated. Calls the derived class from the base class on receipt of a <a href=
 
 Type: <b>tagCREATESTRUCTW*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms632603(v=VS.85).aspx">CREATESTRUCT</a> structure that receives the initialization parameters passed to the window procedure (WinProc) of the class.
+A pointer to a <a href="https://msdn.microsoft.com/2d67fed4-43de-4151-b124-b710ea64e8a6">CREATESTRUCT</a> structure that receives the initialization parameters passed to the window procedure (WinProc) of the class.
         
 
 

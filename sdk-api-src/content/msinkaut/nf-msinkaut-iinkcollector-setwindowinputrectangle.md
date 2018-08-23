@@ -7,7 +7,7 @@ old-location: tablet\inkcollector_setwindowinputrectangle.htm
 old-project: tablet
 ms.assetid: b46139db-0473-4cd3-8f1b-d303f3430470
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: IInkCollector interface [Tablet PC],SetWindowInputRectangle method, IInkCollector.SetWindowInputRectangle, IInkCollector::SetWindowInputRectangle, SetWindowInputRectangle, SetWindowInputRectangle method [Tablet PC], SetWindowInputRectangle method [Tablet PC],IInkCollector interface, b46139db-0473-4cd3-8f1b-d303f3430470, msinkaut/IInkCollector::SetWindowInputRectangle, tablet.inkcollector_setwindowinputrectangle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -186,7 +186,7 @@ You cannot pass in a rectangle where the value of the <a href="https://msdn.micr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846796(v=VS.85).aspx">IInkCollector</a>
+<a href="https://msdn.microsoft.com/4E539E4F-2E7F-44ED-A8D0-650BCAFDFAFB">IInkCollector</a>
 
 
 

@@ -53,7 +53,7 @@ req.product: ADAM
 
 
 Enumerates all of the <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resources</a> in a specified 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> and initiates a user-defined operation for each 
+    <a href="c_gly.htm">cluster</a> and initiates a user-defined operation for each 
     resource. The <b>PRESUTIL_ENUM_RESOURCES_EX2</b> type defines a pointer to this function.
 
 
@@ -137,32 +137,6 @@ A generic buffer that allows you to pass any kind of data to the callback functi
 ### -param dwDesiredAccess [in]
 
 The requested access privileges. This may be any combination of <b>GENERIC_READ</b> (0x80000000), <b>GENERIC_ALL</b> (0x10000000), or M<b>AXIMUM_ALLOWED</b> (0x02000000). If this value is zero (0), an undefined error may be returned. Using <b>GENERIC_ALL</b> is the same as calling <a href="https://msdn.microsoft.com/e9f2e203-bbfb-4b27-b9ca-ab6b6ea1e60f">ResUtilEnumResourcesEx</a>.
-
-
-##### - pResCallBack.hCluster
-
-[in] The hCluster parameter passed to 
-          <a href="https://msdn.microsoft.com/e9f2e203-bbfb-4b27-b9ca-ab6b6ea1e60f">ResUtilEnumResourcesEx</a>.
-
-
-##### - pResCallBack.hEnum
-
-[in] A handle to the resource currently being enumerated. 
-          <a href="https://msdn.microsoft.com/e9f2e203-bbfb-4b27-b9ca-ab6b6ea1e60f">ResUtilEnumResourcesEx</a> opens and closes 
-          this handle automatically.
-
-
-##### - pResCallBack.hSelf
-
-[in] The hSelf parameter passed to 
-          <a href="https://msdn.microsoft.com/e9f2e203-bbfb-4b27-b9ca-ab6b6ea1e60f">ResUtilEnumResourcesEx</a>. Note that the 
-          callback function is never called when <i>hSelf</i> and <i>hEnum</i> 
-          refer to the same resource.
-
-
-##### - pResCallBack.pParameter
-
-[in] A generic buffer that allows you to pass any kind of data to the callback function.
 
 
 ## -returns

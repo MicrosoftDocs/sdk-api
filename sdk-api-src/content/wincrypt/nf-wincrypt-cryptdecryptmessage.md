@@ -7,7 +7,7 @@ old-location: security\cryptdecryptmessage.htm
 old-project: SecCrypto
 ms.assetid: e540b816-64e1-4c78-9020-2b221e813acc
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CryptDecryptMessage, CryptDecryptMessage function [Security], _crypto2_cryptdecryptmessage, security.cryptdecryptmessage, wincrypt/CryptDecryptMessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -212,7 +212,7 @@ For an example that uses this function, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
+<a href="cryptography_functions.htm">Simplified Message Functions</a>
  
 
  

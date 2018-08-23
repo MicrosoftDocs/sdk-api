@@ -52,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Initializes a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure with a string stored in a <a href="https://msdn.microsoft.com/7868ef9b-07db-455b-b0be-ef0db7891447">STRRET</a> structure.
+Initializes a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure with a string stored in a <a href="https://msdn.microsoft.com/7868ef9b-07db-455b-b0be-ef0db7891447">STRRET</a> structure.
 
 
 ## -parameters
@@ -78,7 +78,7 @@ PIDL of the item whose details are being retrieved.
 
 Type: <b>VARIANT*</b>
 
-When this function returns, contains the initialized <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure.
+When this function returns, contains the initialized <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
 
 
 ## -returns
@@ -103,7 +103,7 @@ Creates a VT_BSTR variant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762337(v=VS.85).aspx">InitVariantFromStrRet</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromStrRet">InitVariantFromStrRet</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -134,15 +134,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762335(v=VS.85).aspx">InitVariantFromString</a>
+<a href="shell.InitVariantFromString">InitVariantFromString</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776617(v=VS.85).aspx">VariantToString</a>
+<a href="shell.VariantToString">VariantToString</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776621(v=VS.85).aspx">VariantToStringWithDefault</a>
+<a href="shell.VariantToStringWithDefault">VariantToStringWithDefault</a>
  
 
  

@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Posts messages when the mouse pointer leaves a window or hovers over a window for a specified amount of time. This function calls <a href="https://msdn.microsoft.com/en-us/library/ms646265(v=VS.85).aspx">TrackMouseEvent</a> if it exists, otherwise it emulates it.
+Posts messages when the mouse pointer leaves a window or hovers over a window for a specified amount of time. This function calls <a href="https://msdn.microsoft.com/f8f53179-9ffc-489e-b17d-12198b9c17f7">TrackMouseEvent</a> if it exists, otherwise it emulates it.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ Posts messages when the mouse pointer leaves a window or hovers over a window fo
 
 Type: <b>LPTRACKMOUSEEVENT</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms645604(v=VS.85).aspx">TRACKMOUSEEVENT</a> structure that contains tracking information. 
+A pointer to a <a href="https://msdn.microsoft.com/6c367eeb-5dd4-4a3a-b7d6-9504d2089112">TRACKMOUSEEVENT</a> structure that contains tracking information. 
 
 
 ## -returns
@@ -88,7 +88,7 @@ If the function fails, return value is zero.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645533(v=VS.85).aspx">Mouse Input</a>
+<a href="https://msdn.microsoft.com/35f5e1ad-74d5-41bb-9016-b1c5de449550">Mouse Input</a>
 
 
 
@@ -104,11 +104,11 @@ If the function fails, return value is zero.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645604(v=VS.85).aspx">TRACKMOUSEEVENT</a>
+<a href="https://msdn.microsoft.com/6c367eeb-5dd4-4a3a-b7d6-9504d2089112">TRACKMOUSEEVENT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646265(v=VS.85).aspx">TrackMouseEvent</a>
+<a href="https://msdn.microsoft.com/f8f53179-9ffc-489e-b17d-12198b9c17f7">TrackMouseEvent</a>
  
 
  

@@ -53,7 +53,7 @@ req.irql:
 
 Imports the specified components that are already registered into an application.
 
-To import unconfigured components, you can use the <a href="https://msdn.microsoft.com/en-us/library/ms681295(v=VS.85).aspx">ImportUnconfiguredComponents</a> and <a href="https://msdn.microsoft.com/en-us/library/ms687606(v=VS.85).aspx">PromoteUnconfiguredComponents</a> methods.
+To import unconfigured components, you can use the <a href="https://msdn.microsoft.com/51bab6c7-5ec2-4651-a0c4-c54683a65d75">ImportUnconfiguredComponents</a> and <a href="https://msdn.microsoft.com/e6ed7fa7-3736-4e82-a153-116f4aa141a1">PromoteUnconfiguredComponents</a> methods.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ The application ID or name of the application into which the components are to b
 
 ### -param pVarCLSIDOrProgID [in]
 
-The components to be imported. Each element of the <b>Variant</b> may be a <b>String</b> containing a class ID or program ID, a single catalog object, or a catalog collection (for example, as returned by the <a href="https://msdn.microsoft.com/en-us/library/ms685970(v=VS.85).aspx">GetCollectionByQuery2</a> method).
+The components to be imported. Each element of the <b>Variant</b> may be a <b>String</b> containing a class ID or program ID, a single catalog object, or a catalog collection (for example, as returned by the <a href="https://msdn.microsoft.com/b1861e8f-bb42-42b5-9435-6fa366f8284a">GetCollectionByQuery2</a> method).
 
 
 ### -param pVarComponentType [in, optional]
@@ -120,7 +120,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee309562(v=VS.85).aspx">ICOMAdminCatalog2</a>
+<a href="https://msdn.microsoft.com/ffca611d-dacc-47be-9101-9de76ecc8393">ICOMAdminCatalog2</a>
  
 
  

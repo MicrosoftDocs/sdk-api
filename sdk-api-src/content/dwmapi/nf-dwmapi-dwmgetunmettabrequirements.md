@@ -66,7 +66,14 @@ req.product: Windows Media Format 9 Series or later
 The handle of the window to check.
 
 
-### -param value [out]
+### -param param
+
+TBD
+
+
+
+
+#### - value [out]
 
 On success, returns a pointer to a   <a href="https://msdn.microsoft.com/8366ABE4-263D-448D-9FC9-3F4DAF9B700D">DWM_TAB_WINDOW_REQUIREMENTS</a> value describing the requirements for placing a tab.
 

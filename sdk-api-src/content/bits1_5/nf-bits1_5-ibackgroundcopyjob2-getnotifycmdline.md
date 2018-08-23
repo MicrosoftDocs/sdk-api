@@ -62,13 +62,13 @@ Retrieves the program to execute when the job enters the error or transferred st
 ### -param pProgram [out]
 
 Null-terminated string that contains the program to execute when the job enters the error or transferred state. Call the 
-<a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function to free <i>pProgram</i> when done.
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a> function to free <i>pProgram</i> when done.
 
 
 ### -param pParameters [out]
 
 Null-terminated string that contains the arguments of the program in <i>pProgram</i>. Call the 
-<a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function to free <i>pParameters</i> when done.
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a> function to free <i>pParameters</i> when done.
 
 
 ## -returns
@@ -86,7 +86,7 @@ This method returns <b>S_OK</b> on success or one of the standard COM <b>HRESULT
 
 The 
 <b>GetNotifyCmdLine</b> method sets <i>pProgram</i> and <i>pParameters</i> to an empty string (L"") if the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362988(v=VS.85).aspx">IBackgroundCopyJob2::SetNotifyCmdLine</a> method has not been called.
+<a href="https://msdn.microsoft.com/61b99d01-ca0f-4a89-b7ca-77d23c21a9ad">IBackgroundCopyJob2::SetNotifyCmdLine</a> method has not been called.
 
 
 
@@ -96,7 +96,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362988(v=VS.85).aspx">IBackgroundCopyJob2::SetNotifyCmdLine</a>
+<a href="https://msdn.microsoft.com/61b99d01-ca0f-4a89-b7ca-77d23c21a9ad">IBackgroundCopyJob2::SetNotifyCmdLine</a>
  
 
  

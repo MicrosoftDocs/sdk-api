@@ -52,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Enumerates the  <a href="https://msdn.microsoft.com/2ad913d2-99cb-4885-a1de-822f77dc2030">dependencies</a> of a specified  <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> in a specified <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> and returns a handle to a dependency that matches a specified resource class. The <b>PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS</b> type defines a pointer to this function.
+Enumerates the  <a href="https://msdn.microsoft.com/2ad913d2-99cb-4885-a1de-822f77dc2030">dependencies</a> of a specified  <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> in a specified <a href="c_gly.htm">cluster</a> and returns a handle to a dependency that matches a specified resource class. The <b>PRESUTIL_GET_RESOURCE_DEPENDENCY_BY_CLASS</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -101,7 +101,7 @@ Do not call  <b>ResUtilGetResourceDependencyByClass</b> from any resource DLL en
 
 #### Examples
 
-As the following example illustrates, if you know that resource A depends on a <a href="https://msdn.microsoft.com/en-us/library/Aa372937(v=VS.85).aspx">storage class resource</a>, you can use  <b>ResUtilGetResourceDependencyByClass</b> to obtain a handle to the storage class resource without knowing anything else about it.
+As the following example illustrates, if you know that resource A depends on a <a href="s_gly.htm">storage class resource</a>, you can use  <b>ResUtilGetResourceDependencyByClass</b> to obtain a handle to the storage class resource without knowing anything else about it.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>

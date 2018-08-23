@@ -73,7 +73,7 @@ This property is read-only.
 
 The <a href="https://msdn.microsoft.com/f4d81e0a-4f65-470b-9215-f1b91e582646">ClusVersion.MajorVersion</a> and 
     <b>MinorVersion</b> properties together form a 
-    complete Windows <a href="https://msdn.microsoft.com/en-us/library/Aa373122(v=VS.85).aspx">version number</a>.
+    complete Windows <a href="v_gly.htm">version number</a>.
 
 <div class="code"><span codelanguage="VisualBasic"><table>
 <tr>
@@ -89,7 +89,7 @@ MinorVersion = Y
 </tr>
 </table></span></div>
 All <a href="https://msdn.microsoft.com/2215335a-1858-437f-8654-2e9d601fe061">ClusVersion</a> properties are static values 
-    corresponding the state of the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> when the 
+    corresponding the state of the <a href="c_gly.htm">cluster</a> when the 
     <b>ClusVersion</b> object was first created. To obtain the 
     latest version information from the cluster, create a new 
     <b>ClusVersion</b> object.

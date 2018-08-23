@@ -7,7 +7,7 @@ old-location: security\icertserverexit_enumerateattributessetup.htm
 old-project: SecCrypto
 ms.assetid: c81b9c4d-483e-48b8-a270-f570e148d371
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CCertServerExit object [Security],EnumerateAttributesSetup method, EnumerateAttributesSetup, EnumerateAttributesSetup method [Security], EnumerateAttributesSetup method [Security],CCertServerExit object, EnumerateAttributesSetup method [Security],ICertServerExit interface, ICertServerExit interface [Security],EnumerateAttributesSetup method, ICertServerExit.EnumerateAttributesSetup, ICertServerExit::EnumerateAttributesSetup, _certsrv_icertserverexit_enumerateattributessetup, certif/ICertServerExit::EnumerateAttributesSetup, security.icertserverexit_enumerateattributessetup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,7 +72,7 @@ This parameter is reserved and must be set to zero.
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 
@@ -82,7 +82,7 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 You must call 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385079(v=VS.85).aspx">ICertServerExit::SetContext</a> prior to using this method.
+<a href="https://msdn.microsoft.com/8d317114-17bd-4b22-8e37-99db72740538">ICertServerExit::SetContext</a> prior to using this method.
 
 
 #### Examples
@@ -111,11 +111,11 @@ if (FAILED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385055(v=VS.85).aspx">ICertServerExit</a>
+<a href="https://msdn.microsoft.com/1554c09c-a7c1-44ad-9821-93c0913212fc">ICertServerExit</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385056(v=VS.85).aspx">ICertServerExit::EnumerateAttributes</a>
+<a href="https://msdn.microsoft.com/df778207-3b20-45a5-a705-8dba566eb658">ICertServerExit::EnumerateAttributes</a>
  
 
  

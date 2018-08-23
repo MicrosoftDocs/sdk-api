@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-The <b>Submit</b> method persists changes made to the <a href="https://msdn.microsoft.com/en-us/library/Aa376327(v=VS.85).aspx">AzAuthorizationStore</a> object.
+The <b>Submit</b> method persists changes made to the <a href="https://msdn.microsoft.com/f848cca6-3838-46bc-b1f4-d6eab5096046">AzAuthorizationStore</a> object.
 
 
 ## -parameters
@@ -74,9 +74,9 @@ Reserved for future use.
 
 
 
-Any additions or modifications to an <a href="https://msdn.microsoft.com/en-us/library/Aa376327(v=VS.85).aspx">AzAuthorizationStore</a> object are not persisted until the <b>Submit</b> method is called. The <a href="https://msdn.microsoft.com/en-us/library/Aa376345(v=VS.85).aspx">Delete</a>  method automatically submits changes.
+Any additions or modifications to an <a href="https://msdn.microsoft.com/f848cca6-3838-46bc-b1f4-d6eab5096046">AzAuthorizationStore</a> object are not persisted until the <b>Submit</b> method is called. The <a href="https://msdn.microsoft.com/8493af39-c5db-4aeb-839f-bc07e2616443">Delete</a>  method automatically submits changes.
 
-The <b>Submit</b> method does not extend to child objects; child objects  must be individually persisted to the policy store. A created <a href="https://msdn.microsoft.com/en-us/library/Aa376327(v=VS.85).aspx">AzAuthorizationStore</a> object must be submitted before it can be referenced or become a parent object. The destructor for an object silently discards unsubmitted changes.
+The <b>Submit</b> method does not extend to child objects; child objects  must be individually persisted to the policy store. A created <a href="https://msdn.microsoft.com/f848cca6-3838-46bc-b1f4-d6eab5096046">AzAuthorizationStore</a> object must be submitted before it can be referenced or become a parent object. The destructor for an object silently discards unsubmitted changes.
 
 
 

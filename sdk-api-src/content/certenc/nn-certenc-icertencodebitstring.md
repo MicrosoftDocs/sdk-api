@@ -7,7 +7,7 @@ old-location: security\icertencodebitstring.htm
 old-project: SecCrypto
 ms.assetid: 51178b67-46da-49f8-9bd7-a500e846e0a8
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: ICertEncodeBitString, ICertEncodeBitString interface [Security], ICertEncodeBitString interface [Security],described, _certsrv_icertencodebitstring, certenc/ICertEncodeBitString, security.icertencodebitstring
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,8 +52,8 @@ req.irql:
 
 
 The <b>ICertEncodeBitString</b> interface provides methods for handling bit strings used in certificate extensions. A certificate extension can be created by using a bit string stored in an 
-<a href="https://msdn.microsoft.com/en-us/library/Aa388215(v=VS.85).aspx">extension handler</a> COM object instantiated by the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa387348(v=VS.85).aspx">policy module</a>. The bit string can contain an arbitrary string of binary values. This interface is useful for encoding and decoding szOID_KEY_USAGE "2.5.29.15" extensions; the SDK sample policy module uses this interface.
+<a href="https://msdn.microsoft.com/a33ac417-b5f9-4ad7-a26e-13cdb1e4ac1b">extension handler</a> COM object instantiated by the 
+<a href="https://msdn.microsoft.com/23d920ea-af62-42ce-ad48-c7a03ab55fc9">policy module</a>. The bit string can contain an arbitrary string of binary values. This interface is useful for encoding and decoding szOID_KEY_USAGE "2.5.29.15" extensions; the SDK sample policy module uses this interface.
 
 <b>ICertEncodeBitString</b> is defined in Certenc.h. When you create your program, however, use Certsrv.h as the include file. Certenc.dll provides the <b>ICertEncodeBitString</b> interface. The type information for this interface is also in Certencl.dll, which is shipped with the Platform Software Development Kit (SDK).
 
@@ -62,9 +62,9 @@ Certificate Services interfaces support both apartment-threading and free-thread
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertEncodeBitString</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICertEncodeBitString</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertEncodeBitString</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ICertEncodeBitString</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -77,16 +77,16 @@ The <b>ICertEncodeBitString</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa383873(v=VS.85).aspx">Decode</a>
+<a href="https://msdn.microsoft.com/65856db4-97db-4c9b-ac12-1a9262c7b4e9">Decode</a>
 </td>
 <td align="left" width="63%">
-Decodes an <a href="https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx">Abstract Syntax Notation One</a> (ASN.1)-encoded bit string and stores the resulting bit string in the COM object.
+Decodes an <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1)-encoded bit string and stores the resulting bit string in the COM object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa383878(v=VS.85).aspx">Encode</a>
+<a href="https://msdn.microsoft.com/2dc74ab4-8f40-4e0d-a18e-ba9c99d5bf94">Encode</a>
 </td>
 <td align="left" width="63%">
 Performs ASN.1 encoding on a bit string and returns the ASN.1-encoded bit string.
@@ -95,7 +95,7 @@ Performs ASN.1 encoding on a bit string and returns the ASN.1-encoded bit string
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa383893(v=VS.85).aspx">GetBitCount</a>
+<a href="https://msdn.microsoft.com/9fbaaf03-02b8-4c6f-8cc2-3fd897fdc81d">GetBitCount</a>
 </td>
 <td align="left" width="63%">
 Returns the number of bits in a bit string.
@@ -104,7 +104,7 @@ Returns the number of bits in a bit string.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa383899(v=VS.85).aspx">GetBitString</a>
+<a href="https://msdn.microsoft.com/d0c6c501-3aaa-42ab-a077-69f6d24f1eff">GetBitString</a>
 </td>
 <td align="left" width="63%">
 Returns the bit string.

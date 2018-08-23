@@ -62,15 +62,15 @@ Invalidate the pointer to a resource and reenable the GPU's access to that resou
 
 ### -param pResource [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476584(v=VS.85).aspx">ID3D11Resource</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/3823ec00-cb3c-43ce-9f1a-be4e1e99d587">ID3D11Resource</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Ff476584(v=VS.85).aspx">ID3D11Resource</a> interface.
+A pointer to a <a href="https://msdn.microsoft.com/3823ec00-cb3c-43ce-9f1a-be4e1e99d587">ID3D11Resource</a> interface.
           
 
 
 ### -param Subresource [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 A subresource to be unmapped.
 
@@ -88,7 +88,7 @@ Returns nothing.
 
 
 
-For info about how to use <b>Unmap</b>, see <a href="https://msdn.microsoft.com/en-us/library/Dn508285(v=VS.85).aspx">How to: Use dynamic resources</a>.
+For info about how to use <b>Unmap</b>, see <a href="https://msdn.microsoft.com/E73EA4B0-BD14-430C-89CA-4CFCF92C7548">How to: Use dynamic resources</a>.
       
 
 <b>Windows Phone 8:
@@ -103,7 +103,7 @@ For info about how to use <b>Unmap</b>, see <a href="https://msdn.microsoft.com/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476385(v=VS.85).aspx">ID3D11DeviceContext</a>
+<a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a>
  
 
  

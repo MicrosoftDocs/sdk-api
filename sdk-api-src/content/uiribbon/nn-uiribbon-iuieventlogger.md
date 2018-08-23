@@ -96,7 +96,7 @@ Receives notifications that a ribbon event has occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371356(v=VS.85).aspx">Interfaces</a>
+<a href="https://msdn.microsoft.com/d5fd6e4f-ca10-4010-aab4-d2728b0ac53c">Interfaces</a>
  
 
  

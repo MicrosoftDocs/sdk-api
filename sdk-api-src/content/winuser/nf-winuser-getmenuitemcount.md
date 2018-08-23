@@ -93,11 +93,11 @@ If the function fails, the return value is -1. To get extended error information
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647979(v=VS.85).aspx">GetMenuItemID</a>
+<a href="https://msdn.microsoft.com/69ecdcba-177c-4465-95ae-897ed4e96c2d">GetMenuItemID</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: rras
 ms.assetid: a1524c6e-3a94-4fc1-be28-bcaca8bcc62e
 ms.author: windowssdkdev
 ms.date: 08/06/2018
-ms.keywords: MPR_CREDENTIALSEX_0, MPR_CREDENTIALSEX_0 structure [RAS], PMPR_CREDENTIALSEX_0, PMPR_CREDENTIALSEX_0 structure pointer [RAS], _MPR_CREDENTIALSEX_0, _mpr_mpr_credentialsex_0, mprapi/MPR_CREDENTIALSEX_0, mprapi/PMPR_CREDENTIALSEX_0, rras.mpr_credentialsex_0
+ms.keywords: "*PMPR_CREDENTIALSEX_0, MPR_CREDENTIALSEX_0, MPR_CREDENTIALSEX_0 structure [RAS], PMPR_CREDENTIALSEX_0, PMPR_CREDENTIALSEX_0 structure pointer [RAS], _MPR_CREDENTIALSEX_0, _mpr_mpr_credentialsex_0, mprapi/MPR_CREDENTIALSEX_0, mprapi/PMPR_CREDENTIALSEX_0, rras.mpr_credentialsex_0"
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: struct
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: MPR_CREDENTIALSEX_0, *PMPR_CREDENTIALSEX_0
 topic_type:
  - APIRef
  - kbSyntax

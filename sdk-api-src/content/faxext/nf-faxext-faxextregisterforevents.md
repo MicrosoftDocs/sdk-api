@@ -76,7 +76,7 @@ Specifies a <b>DWORD</b> value that indicates the device for which notifications
 
 
 
-This parameter can be zero, indicating that the fax service should send notifications about changes to global configuration data, which is configuration data that is not associated with a specific device. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms693473(v=VS.85).aspx">Storing Global Configuration Data</a>.
+This parameter can be zero, indicating that the fax service should send notifications about changes to global configuration data, which is configuration data that is not associated with a specific device. For more information, see <a href="https://msdn.microsoft.com/fd5063d5-b9ff-4899-b275-e0ed037c11d3">Storing Global Configuration Data</a>.
 
 
 ### -param DevIdSrc [in]
@@ -109,7 +109,7 @@ Pointer to a constant null-terminated Unicode character string that specifies th
 
 Type: <b>LPBYTE</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms684527(v=VS.85).aspx">FaxExtConfigChange</a> callback function defined in the fax extension DLL. The fax service calls this function to notify the fax extension about configuration data changes.
+Pointer to a <a href="https://msdn.microsoft.com/ea622252-8a6e-4bb9-af8b-447c416ecca8">FaxExtConfigChange</a> callback function defined in the fax extension DLL. The fax service calls this function to notify the fax extension about configuration data changes.
 
 
 ## -returns
@@ -212,19 +212,19 @@ The server is shutting down.
 
 
 
-When the fax extension calls this fax service callback function, it must use the function pointer exposed by the fax service when the service calls the <a href="https://msdn.microsoft.com/en-us/library/ms684525(v=VS.85).aspx">FaxExtInitializeConfig</a> function. 
+When the fax extension calls this fax service callback function, it must use the function pointer exposed by the fax service when the service calls the <a href="https://msdn.microsoft.com/1dce2986-d56c-45c5-a482-81c012904fef">FaxExtInitializeConfig</a> function. 
 
 <b>Security requirements:</b> The caller must have access rights to query a server's configuration in order to call this function.
 
 If an extension registers to receive notifications about configuration data changes, the extension does not receive notifications about new configuration values that it sets itself.
 
-A fax extension can register to receive notifications about data changes that occur for device IDs and GUIDs that will exist at a later time. Once the device ID and GUID receive data, the fax service issues the change notification. It is also possible to store configuration data (that is, call the <a href="https://msdn.microsoft.com/en-us/library/ms684530(v=VS.85).aspx">FaxExtSetData</a> function) for devices that do not yet exist.
+A fax extension can register to receive notifications about data changes that occur for device IDs and GUIDs that will exist at a later time. Once the device ID and GUID receive data, the fax service issues the change notification. It is also possible to store configuration data (that is, call the <a href="https://msdn.microsoft.com/e744ea8f-2b68-4a0a-b9ee-d83f10f078b2">FaxExtSetData</a> function) for devices that do not yet exist.
 
-The fax service passes a pointer to the <b>FaxExtRegisterForEvents</b> callback function when the fax service calls the <a href="https://msdn.microsoft.com/en-us/library/ms684525(v=VS.85).aspx">FaxExtInitializeConfig</a> function. The PFAX_EXT_REGISTER_FOR_EVENTS data type is a pointer to a <b>FaxExtRegisterForEvents</b> function.
+The fax service passes a pointer to the <b>FaxExtRegisterForEvents</b> callback function when the fax service calls the <a href="https://msdn.microsoft.com/1dce2986-d56c-45c5-a482-81c012904fef">FaxExtInitializeConfig</a> function. The PFAX_EXT_REGISTER_FOR_EVENTS data type is a pointer to a <b>FaxExtRegisterForEvents</b> function.
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms684531(v=VS.85).aspx">FaxExtUnregisterForEvents</a> callback function unregisters the fax extension DLL for notifications about global configuration data changes or configuration data changes related to a specific device and GUID.
+The <a href="https://msdn.microsoft.com/7cab1f4c-7e2f-4510-af8a-f0aee81a044e">FaxExtUnregisterForEvents</a> callback function unregisters the fax extension DLL for notifications about global configuration data changes or configuration data changes related to a specific device and GUID.
 
-Applications can change global configuration data or the data associated with a specific fax device by calling the <a href="https://msdn.microsoft.com/en-us/library/ms684530(v=VS.85).aspx">FaxExtSetData</a> function.
+Applications can change global configuration data or the data associated with a specific fax device by calling the <a href="https://msdn.microsoft.com/e744ea8f-2b68-4a0a-b9ee-d83f10f078b2">FaxExtSetData</a> function.
 
 
 
@@ -234,19 +234,19 @@ Applications can change global configuration data or the data associated with a 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684527(v=VS.85).aspx">FaxExtConfigChange</a>
+<a href="https://msdn.microsoft.com/ea622252-8a6e-4bb9-af8b-447c416ecca8">FaxExtConfigChange</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684525(v=VS.85).aspx">FaxExtInitializeConfig</a>
+<a href="https://msdn.microsoft.com/1dce2986-d56c-45c5-a482-81c012904fef">FaxExtInitializeConfig</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684530(v=VS.85).aspx">FaxExtSetData</a>
+<a href="https://msdn.microsoft.com/e744ea8f-2b68-4a0a-b9ee-d83f10f078b2">FaxExtSetData</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684531(v=VS.85).aspx">FaxExtUnregisterForEvents</a>
+<a href="https://msdn.microsoft.com/7cab1f4c-7e2f-4510-af8a-f0aee81a044e">FaxExtUnregisterForEvents</a>
  
 
  

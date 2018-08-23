@@ -78,7 +78,7 @@ Specifies the name of the relevant table.
 
 
 
-This function returns MSICONDITION.
+This function returns MSICONDITION __stdcall.
 
 
 
@@ -88,7 +88,7 @@ This function returns MSICONDITION.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">General Database Access Functions</a>
+<a href="database_functions.htm">General Database Access Functions</a>
  
 
  

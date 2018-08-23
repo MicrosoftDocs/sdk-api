@@ -72,11 +72,9 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 <b>TRUE</b> if the property should be retrieved from the cache, otherwise <b>FALSE</b>.
 
 
-### -param type [in]
+### -param param
 
-Type: <b><a href="https://msdn.microsoft.com/6090d5b5-2376-43ce-bef2-49bb3515107a">UIAutomationType</a></b>
 
-A value indicating the data type of the property.
 
 
 ### -param pPtr [out, retval]
@@ -91,6 +89,13 @@ Receives the value of the property.
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The index of the property. 
+
+
+#### - type [in]
+
+Type: <b><a href="https://msdn.microsoft.com/6090d5b5-2376-43ce-bef2-49bb3515107a">UIAutomationType</a></b>
+
+A value indicating the data type of the property.
 
 
 ## -returns

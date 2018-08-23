@@ -77,7 +77,7 @@ A pointer to a window procedure. This pointer and the subclass ID uniquely ident
 
 Type: <b>UINT_PTR</b>
 
-The subclass ID. This ID together with the subclass procedure uniquely identify a subclass. To remove a subclass, pass the subclass procedure and this value to the <a href="https://msdn.microsoft.com/en-us/library/Bb762094(v=VS.85).aspx">RemoveWindowSubclass</a> function. This value is passed to the subclass procedure in the uIdSubclass parameter.
+The subclass ID. This ID together with the subclass procedure uniquely identify a subclass. To remove a subclass, pass the subclass procedure and this value to the <a href="https://msdn.microsoft.com/09f27240-f3af-4791-afcb-a82bda79712a">RemoveWindowSubclass</a> function. This value is passed to the subclass procedure in the uIdSubclass parameter.
 
 
 ### -param dwRefData [in]
@@ -116,15 +116,15 @@ Each callback can store a single <b>DWORD</b> of reference data, which is passed
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776403(v=VS.85).aspx">DefSubclassProc</a>
+<a href="https://msdn.microsoft.com/43b1efa5-11da-4a95-8d81-b0d8ae64733a">DefSubclassProc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776430(v=VS.85).aspx">GetWindowSubclass</a>
+<a href="https://msdn.microsoft.com/3969f18e-3e12-4770-8596-2c2c6519c2a7">GetWindowSubclass</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762094(v=VS.85).aspx">RemoveWindowSubclass</a>
+<a href="https://msdn.microsoft.com/09f27240-f3af-4791-afcb-a82bda79712a">RemoveWindowSubclass</a>
  
 
  

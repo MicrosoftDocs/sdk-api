@@ -7,7 +7,7 @@ old-location: base\createsemaphoreex.htm
 old-project: sync
 ms.assetid: 741461e2-b672-4318-b39b-c6301ef9ab80
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: CreateSemaphoreEx, CreateSemaphoreEx function, CreateSemaphoreExA, CreateSemaphoreExW, base.createsemaphoreex, synchapi/CreateSemaphoreEx, synchapi/CreateSemaphoreExA, synchapi/CreateSemaphoreExW
 ms.prod: windows
 ms.technology: windows-sdk

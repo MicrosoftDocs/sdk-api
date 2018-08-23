@@ -7,7 +7,7 @@ old-location: tablet\inkrectangle_data.htm
 old-project: tablet
 ms.assetid: fd0d265e-c5d1-463a-bb4f-4dfa23cf6251
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: Data property [Tablet PC], Data property [Tablet PC],IInkRectangle interface, IInkRectangle interface [Tablet PC],Data property, IInkRectangle.Data, IInkRectangle.get_Data, IInkRectangle::Data, IInkRectangle::get_Data, IInkRectangle::put_Data, InkRectangle.get_Data, InkRectangle.put_Data, fd0d265e-c5d1-463a-bb4f-4dfa23cf6251, get_Data, msinkaut/IInkRectangle::Data, msinkaut/IInkRectangle::get_Data, msinkaut/IInkRectangle::put_Data, tablet.inkrectangle_data
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,7 +73,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846804(v=VS.85).aspx">IInkRectangle</a>
+<a href="https://msdn.microsoft.com/9E438012-0991-46AA-8D0F-2C561F523EC2">IInkRectangle</a>
 
 
 

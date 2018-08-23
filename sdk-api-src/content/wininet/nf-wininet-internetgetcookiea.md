@@ -4,10 +4,10 @@ title: InternetGetCookieA function
 author: windows-sdk-content
 description: Retrieves the cookie for the specified URL.
 old-location: wininet\internetgetcookie.htm
-old-project: wininet
+old-project: WinInet
 ms.assetid: 12c1ebab-3954-4995-9e1f-bf29699af396
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: InternetGetCookie, InternetGetCookie function [WinINet], InternetGetCookieA, InternetGetCookieW, _win32_internetgetcookie, wininet.internetgetcookie, wininet/InternetGetCookie, wininet/InternetGetCookieA, wininet/InternetGetCookieW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winmsg\changewindowmessagefilter.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\changewindowmessagefilter.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: ChangeWindowMessageFilter, ChangeWindowMessageFilter function [Windows and Messages], MSGFLT_ADD, MSGFLT_REMOVE, _win32_ChangeWindowMessageFilter, _win32_changewindowmessagefilter_cpp, winmsg.changewindowmessagefilter, winui._win32_changewindowmessagefilter, winuser/ChangeWindowMessageFilter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 <p class="CCE_Message">[Using the 
 		<b>ChangeWindowMessageFilter</b> function is not recommended, as it has process-wide scope. 
-		Instead, use the <a href="https://msdn.microsoft.com/en-us/library/Dd388202(v=VS.85).aspx">ChangeWindowMessageFilterEx</a> function to 
+		Instead, use the <a href="https://msdn.microsoft.com/0167c716-8c54-4ec6-b4aa-bec4e8efd515">ChangeWindowMessageFilterEx</a> function to 
 		control access to specific windows as needed.
 		<b>ChangeWindowMessageFilter</b> may not be supported in future versions of Windows.]
 

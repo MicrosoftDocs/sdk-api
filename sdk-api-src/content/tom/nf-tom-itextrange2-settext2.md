@@ -174,7 +174,7 @@ Insufficient memory.
 
 If the <i>bstr</i> parameter is <b>NULL</b>, the text in the range is deleted. 
 
-This method is similar to <a href="https://msdn.microsoft.com/en-us/library/Bb787831(v=VS.85).aspx">ITextRange:: SetText</a>, but lets the client specify flags that control various insertion options, including the special flag <b>tomLanguageTag</b> to get the BCP-47 language tag for the range. This is an industry standard language tag that may be preferable to <a href="https://msdn.microsoft.com/en-us/library/Bb774167(v=VS.85).aspx">ITextFont::SetLanguageID</a>, which uses a language code identifier (LCID).
+This method is similar to <a href="https://msdn.microsoft.com/26dd5c84-953c-4234-a0b4-53711990bce9">ITextRange:: SetText</a>, but lets the client specify flags that control various insertion options, including the special flag <b>tomLanguageTag</b> to get the BCP-47 language tag for the range. This is an industry standard language tag that may be preferable to <a href="https://msdn.microsoft.com/5c45a2f7-d2c3-4a7a-b5bb-b06ba59d5adf">ITextFont::SetLanguageID</a>, which uses a language code identifier (LCID).
 
 
 

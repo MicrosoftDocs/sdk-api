@@ -76,7 +76,7 @@ Specifies the clipboard format that describes the structure of the native area o
 ### -param lpszUserType [in]
 
 Pointer to a null-terminated Unicode string that specifies the object's current user type. The user type value, itself, cannot be <b>NULL</b>. This is the type returned by the 
-<a href="https://msdn.microsoft.com/library/ms688643(v=VS.85).aspx">IOleObject::GetUserType</a> method. If this function is transported to a remote machine where the object class does not exist, this persistently stored user type can be shown to the user in dialog boxes.
+<a href="_ole_ioleobject_getusertype">IOleObject::GetUserType</a> method. If this function is transported to a remote machine where the object class does not exist, this persistently stored user type can be shown to the user in dialog boxes.
 
 
 ## -returns
@@ -94,7 +94,7 @@ This function returns HRESULT.
 
 The 
 <b>WriteFmtUserTypeStg</b> function must be called in an object's implementation of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms680680(v=VS.85).aspx">IPersistStorage::Save</a> method. It must also be called by document-level objects that use structured storage for their persistent representation in their save sequence.
+<a href="_com_ipersiststorage_save">IPersistStorage::Save</a> method. It must also be called by document-level objects that use structured storage for their persistent representation in their save sequence.
 
 To read the information saved, applications call the 
 <a href="https://msdn.microsoft.com/6f26550d-c094-4150-b8ef-2da1d052c1ff">ReadFmtUserTypeStg</a> function.
@@ -107,7 +107,7 @@ To read the information saved, applications call the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680680(v=VS.85).aspx">IPersistStorage::Save</a>
+<a href="_com_ipersiststorage_save">IPersistStorage::Save</a>
 
 
 

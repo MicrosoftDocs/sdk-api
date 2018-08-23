@@ -61,17 +61,17 @@ Describes a 3D texture.
 
 #### - Width
 
-Texture width (in texels). The  range is from 1 to D3D11_REQ_TEXTURE3D_U_V_OR_W_DIMENSION (2048). However, the range is actually constrained by the <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> at which you create the rendering device. For more information about restrictions, see Remarks.
+Texture width (in texels). The  range is from 1 to D3D11_REQ_TEXTURE3D_U_V_OR_W_DIMENSION (2048). However, the range is actually constrained by the <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature level</a> at which you create the rendering device. For more information about restrictions, see Remarks.
 
 
 #### - Height
 
-Texture height (in texels). The  range is from 1 to D3D11_REQ_TEXTURE3D_U_V_OR_W_DIMENSION (2048). However, the range is actually constrained by the <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> at which you create the rendering device. For more information about restrictions, see Remarks.
+Texture height (in texels). The  range is from 1 to D3D11_REQ_TEXTURE3D_U_V_OR_W_DIMENSION (2048). However, the range is actually constrained by the <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature level</a> at which you create the rendering device. For more information about restrictions, see Remarks.
 
 
 #### - Depth
 
-Texture depth (in texels). The  range is from 1 to D3D11_REQ_TEXTURE3D_U_V_OR_W_DIMENSION (2048). However, the range is actually constrained by the <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> at which you create the rendering device. For more information about restrictions, see Remarks.
+Texture depth (in texels). The  range is from 1 to D3D11_REQ_TEXTURE3D_U_V_OR_W_DIMENSION (2048). However, the range is actually constrained by the <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature level</a> at which you create the rendering device. For more information about restrictions, see Remarks.
 
 
 #### - MipLevels
@@ -81,7 +81,7 @@ The maximum number of mipmap levels in the texture. See the remarks in <a href="
 
 #### - Format
 
-Texture format (see <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>).
+Texture format (see <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>).
 
 
 #### - Usage
@@ -125,7 +125,7 @@ In addition to this structure, you can also use the <b>CD3D11_TEXTURE3D_DESC1</b
 
 The device restricts the size of subsampled, block compressed, and bit format resources to be multiples of sizes specific to each format.
 
-The texture size range is determined by the <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature level</a> at which you create the device and not the Microsoft Direct3D interface version. For example, if you use Microsoft Direct3D 10 hardware at feature level 10 (<a href="https://msdn.microsoft.com/en-us/library/Ff476329(v=VS.85).aspx">D3D_FEATURE_LEVEL_10_0</a>) and call <a href="https://msdn.microsoft.com/d1c85ec0-84a8-41ff-9cbe-f47bbaa5863b">D3D11CreateDevice</a> to create an <a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a>, you must constrain the maximum texture size to D3D10_REQ_TEXTURE3D_U_V_OR_W_DIMENSION (2048) when you create your 3D texture.
+The texture size range is determined by the <a href="overviews_direct3d_11_devices_downlevel_intro.htm">feature level</a> at which you create the device and not the Microsoft Direct3D interface version. For example, if you use Microsoft Direct3D 10 hardware at feature level 10 (<a href="d3d_feature_level.htm">D3D_FEATURE_LEVEL_10_0</a>) and call <a href="https://msdn.microsoft.com/d1c85ec0-84a8-41ff-9cbe-f47bbaa5863b">D3D11CreateDevice</a> to create an <a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a>, you must constrain the maximum texture size to D3D10_REQ_TEXTURE3D_U_V_OR_W_DIMENSION (2048) when you create your 3D texture.
 
 
 

@@ -66,7 +66,7 @@ The name of the collection to be retrieved.
 
 ### -param ppCatalogCollection [out, retval]
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms683140(v=VS.85).aspx">ICatalogCollection</a> interface for the collection.
+The <a href="https://msdn.microsoft.com/7c24ead4-d69f-467d-b3d8-a81adbc49a7b">ICatalogCollection</a> interface for the collection.
 
 
 ## -returns
@@ -82,11 +82,11 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-This method retrieves a top-level collection, such as the <a href="https://msdn.microsoft.com/en-us/library/ms686107(v=VS.85).aspx">Applications</a> collection, from the COM+ catalog. For related collections that are not top-level collections, such as <a href="https://msdn.microsoft.com/en-us/library/ms688285(v=VS.85).aspx">Components</a>, use the <a href="https://msdn.microsoft.com/en-us/library/ms680613(v=VS.85).aspx">GetCollection</a> method available from the parent collection.
+This method retrieves a top-level collection, such as the <a href="https://msdn.microsoft.com/c0c46592-5282-412d-8f54-67637be8218a">Applications</a> collection, from the COM+ catalog. For related collections that are not top-level collections, such as <a href="https://msdn.microsoft.com/f502ba60-b2b1-4556-8f91-22a474e60e0d">Components</a>, use the <a href="https://msdn.microsoft.com/4198f456-97fa-45b2-aa79-29ac506a8618">GetCollection</a> method available from the parent collection.
 
-The catalog collection retrieved by <b>GetCollection</b> does not contain data from the catalog for items contained within the collection. Use the <a href="https://msdn.microsoft.com/en-us/library/ms683485(v=VS.85).aspx">Populate</a> method to read in data for items in the collection.
+The catalog collection retrieved by <b>GetCollection</b> does not contain data from the catalog for items contained within the collection. Use the <a href="https://msdn.microsoft.com/817f203c-ddc6-47bd-a946-2393067eca44">Populate</a> method to read in data for items in the collection.
 
-For a complete list of collections in the COM+ catalog, see <a href="https://msdn.microsoft.com/en-us/library/ms687763(v=VS.85).aspx">COM+ Administration Collections</a>.
+For a complete list of collections in the COM+ catalog, see <a href="https://msdn.microsoft.com/eed8ca97-39ad-4188-afc6-8670b5073fad">COM+ Administration Collections</a>.
 
 
 
@@ -96,7 +96,7 @@ For a complete list of collections in the COM+ catalog, see <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee309561(v=VS.85).aspx">ICOMAdminCatalog</a>
+<a href="https://msdn.microsoft.com/2c3c49df-9ca5-40ea-b45c-f4eca1004602">ICOMAdminCatalog</a>
  
 
  

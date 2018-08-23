@@ -88,7 +88,7 @@ The name of the replication group..
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt164370(v=VS.85).aspx">SR_REPLICATED_DISK_TYPE</a>
+<a href="https://msdn.microsoft.com/913367E0-B3C2-40D0-B516-6C2F834152BB">SR_REPLICATED_DISK_TYPE</a>
  
 
  

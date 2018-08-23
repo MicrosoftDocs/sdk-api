@@ -1,0 +1,100 @@
+---
+UID: NF:dwrite.IDWriteGlyphRunAnalysis.GetAlphaTextureBounds
+title: IDWriteGlyphRunAnalysis::GetAlphaTextureBounds
+author: windows-sdk-content
+description: Gets the bounding rectangle of the physical pixels affected by the glyph run.
+old-location: directwrite\IDWriteGlyphRunAnalysis_GetAlphaTextureBounds.htm
+old-project: DirectWrite
+ms.assetid: 9058edb7-23b2-418a-abcc-3ee827a79144
+ms.author: windowssdkdev
+ms.date: 07/24/2018
+ms.keywords: GetAlphaTextureBounds, GetAlphaTextureBounds method [Direct Write], GetAlphaTextureBounds method [Direct Write],IDWriteGlyphRunAnalysis interface, IDWriteGlyphRunAnalysis interface [Direct Write],GetAlphaTextureBounds method, IDWriteGlyphRunAnalysis.GetAlphaTextureBounds, IDWriteGlyphRunAnalysis::GetAlphaTextureBounds, directwrite.IDWriteGlyphRunAnalysis_GetAlphaTextureBounds, dwrite/IDWriteGlyphRunAnalysis::GetAlphaTextureBounds
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dwrite.h
+req.include-header: 
+req.redist: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteGlyphRunAnalysis.GetAlphaTextureBounds
+product: Windows
+targetos: Windows
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IDWriteGlyphRunAnalysis::GetAlphaTextureBounds
+
+
+## -description
+
+
+ Gets the bounding rectangle of the physical pixels affected by the glyph run.
+
+
+## -parameters
+
+
+
+
+### -param textureType
+
+Type: <b><a href="https://msdn.microsoft.com/c97ee0fd-2743-4f72-aa69-bf5e3780aa33">DWRITE_TEXTURE_TYPE</a></b>
+
+Specifies the type of texture requested. If a bi-level texture is requested, the
+     bounding rectangle includes only bi-level glyphs. Otherwise, the bounding rectangle includes only antialiased
+     glyphs.
+
+
+### -param textureBounds [out]
+
+Type: <b>RECT*</b>
+
+When this method returns, contains the bounding rectangle of the physical pixels affected by the glyph run, or an empty rectangle if there are no glyphs
+     of the specified texture type.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/d4739b55-1a9b-4346-9b47-d8adb98df163">IDWriteGlyphRunAnalysis</a>
+ 
+
+ 
+

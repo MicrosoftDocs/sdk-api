@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
     unavailable in subsequent versions.]
 
 Provides access 
-    to the names of the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">clusters</a> in a domain.
+    to the names of the <a href="c_gly.htm">clusters</a> in a domain.
 
 
 ## -inheritance

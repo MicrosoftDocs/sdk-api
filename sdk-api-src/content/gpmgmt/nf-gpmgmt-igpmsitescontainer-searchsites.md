@@ -69,7 +69,7 @@ Pointer to criteria to supply to the search. Valid criteria for the search inclu
 
 #### somLinks
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> or an <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface to query the 
+Pointer to an <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> or an <a href="_com_iunknown">IUnknown</a> interface to query the 
 <a href="https://msdn.microsoft.com/2857c8b7-019d-4ec2-9a00-574fc8541cae">IGPMGPO</a> interface. For script programmers, this is a reference to a <b>GPMGPO</b> object.  Valid criteria includes the opContains search operator.
 
 

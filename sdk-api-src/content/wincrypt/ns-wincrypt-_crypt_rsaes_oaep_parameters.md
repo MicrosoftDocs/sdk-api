@@ -7,7 +7,7 @@ old-location: security\crypt_rsaes_oaep_parameters.htm
 old-project: SecCrypto
 ms.assetid: ebcd25a2-2547-4949-85fd-be5f6c5bfcd2
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: "*PCRYPT_RSAES_OAEP_PARAMETERS, CRYPT_RSAES_OAEP_PARAMETERS, CRYPT_RSAES_OAEP_PARAMETERS structure [Security], PCRYPT_RSAES_OAEP_PARAMETERS, PCRYPT_RSAES_OAEP_PARAMETERS structure pointer [Security], _CRYPT_RSAES_OAEP_PARAMETERS, security.crypt_rsaes_oaep_parameters, wincrypt/CRYPT_RSAES_OAEP_PARAMETERS, wincrypt/PCRYPT_RSAES_OAEP_PARAMETERS"
 ms.prod: windows
 ms.technology: windows-sdk

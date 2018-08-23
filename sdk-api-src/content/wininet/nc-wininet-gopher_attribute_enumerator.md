@@ -4,10 +4,10 @@ title: GOPHER_ATTRIBUTE_ENUMERATOR
 author: windows-sdk-content
 description: Prototype for a callback function that processes attribute information from a Gopher server.
 old-location: wininet\gopherattributeenumerator.htm
-old-project: wininet
+old-project: WinInet
 ms.assetid: 1a319d79-7866-4121-a80f-22e3bf983a0a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: GOPHER_ATTRIBUTE_ENUMERATOR, GOPHER_ATTRIBUTE_ENUMERATOR callback, GOPHER_ATTRIBUTE_ENUMERATOR callback function [WinINet], GopherAttributeEnumerator, _inet_gopher_attribute_enumerator_prototype, wininet.gopherattributeenumerator, wininet/GOPHER_ATTRIBUTE_ENUMERATOR
 ms.prod: windows
 ms.technology: windows-sdk

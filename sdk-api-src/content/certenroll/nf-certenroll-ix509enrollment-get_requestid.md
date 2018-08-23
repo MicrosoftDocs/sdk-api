@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-The <b>RequestId</b> property retrieves a unique identifier for the certificate request sent to the certification authority by the <a href="https://msdn.microsoft.com/en-us/library/Aa377871(v=VS.85).aspx">Enroll</a> method.
+The <b>RequestId</b> property retrieves a unique identifier for the certificate request sent to the certification authority by the <a href="https://msdn.microsoft.com/63abecac-39f4-497a-8851-7a2260abc3dd">Enroll</a> method.
 
 This property is read-only.
 
@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-The value of the <b>RequestId</b> property is set during the enrollment process. It can be used during subsequent communication between the client and the CA. For example, if a CA marks a request as pending when initially submitted, the client can use the request ID and the configuration string when it again contacts the CA and attempts to retrieve the certificate response. To retrieve the configuration string, call the  <a href="https://msdn.microsoft.com/en-us/library/Aa377864(v=VS.85).aspx">CAConfigString</a> property.
+The value of the <b>RequestId</b> property is set during the enrollment process. It can be used during subsequent communication between the client and the CA. For example, if a CA marks a request as pending when initially submitted, the client can use the request ID and the configuration string when it again contacts the CA and attempts to retrieve the certificate response. To retrieve the configuration string, call the  <a href="https://msdn.microsoft.com/4a4478c8-a665-4ee1-9f3a-cad259e1c9ce">CAConfigString</a> property.
 
 
 
@@ -74,7 +74,7 @@ The value of the <b>RequestId</b> property is set during the enrollment process.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377809(v=VS.85).aspx">IX509Enrollment</a>
+<a href="https://msdn.microsoft.com/37f1dd3b-bbe9-40ab-87c9-2405d97f5541">IX509Enrollment</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: security\secpkg_function_table.htm
 old-project: secauthn
 ms.assetid: 43ca0f9b-1393-48aa-9d9c-4dd19963a66d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: "*PSECPKG_FUNCTION_TABLE, PSECPKG_FUNCTION_TABLE, PSECPKG_FUNCTION_TABLE structure pointer [Security], SECPKG_FUNCTION_TABLE, SECPKG_FUNCTION_TABLE structure [Security], _SECPKG_FUNCTION_TABLE, _ssp_secpkg_function_table, ntsecpkg/PSECPKG_FUNCTION_TABLE, ntsecpkg/SECPKG_FUNCTION_TABLE, security.secpkg_function_table"
 ms.prod: windows
 ms.technology: windows-sdk

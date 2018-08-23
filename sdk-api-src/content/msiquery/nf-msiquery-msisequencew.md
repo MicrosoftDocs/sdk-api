@@ -82,7 +82,7 @@ This parameter is currently unimplemented. It is reserved for future use and mus
 
 
 
-This function returns UINT.
+This function returns UINT __stdcall.
 
 
 
@@ -113,7 +113,7 @@ An action sequence containing any actions that update the system, such as the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Installer Action Functions</a>
+<a href="database_functions.htm">Installer Action Functions</a>
  
 
  

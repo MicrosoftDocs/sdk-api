@@ -103,7 +103,7 @@ Returns S_OK if successful, an error code otherwise. See <a href="https://msdn.m
 
 
 
-All source buffers that are queued on the voice and the current cursor position are preserved. This allows the voice to continue from where it left off, when it is restarted. The <a href="https://msdn.microsoft.com/en-us/library/Ee418466(v=VS.85).aspx">IXAudio2SourceVoice::FlushSourceBuffers</a> method can be used to flush queued source buffers.
+All source buffers that are queued on the voice and the current cursor position are preserved. This allows the voice to continue from where it left off, when it is restarted. The <a href="https://msdn.microsoft.com/623DADA3-2E61-4997-8DFC-EFEC2716FCDE">IXAudio2SourceVoice::FlushSourceBuffers</a> method can be used to flush queued source buffers.
 
 
 
@@ -132,7 +132,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415914(v=VS.85).aspx">IXAudio2SourceVoice</a>
+<a href="https://msdn.microsoft.com/116DD0E0-8F0B-4934-A48D-FDBE0D0DF049">IXAudio2SourceVoice</a>
 
 
 

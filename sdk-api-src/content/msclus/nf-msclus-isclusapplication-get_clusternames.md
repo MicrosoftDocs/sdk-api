@@ -59,7 +59,7 @@ req.product: GDI+ 1.1
     versions.]
 
 Returns  the 
-    names of all the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">clusters</a> in a 
+    names of all the <a href="c_gly.htm">clusters</a> in a 
     domain.
 
 This property is read-only.

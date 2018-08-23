@@ -71,7 +71,7 @@ A <b>VT_BSTR</b> value that contains the template display name.
 
 ### -field TemplatePropEKUs
 
-A <b>VT_DISPATCH</b> pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa376785(v=VS.85).aspx">IObjectIds</a> interface that contains a collection of extended key usage object identifiers. This value applies to version 2 and later templates.
+A <b>VT_DISPATCH</b> pointer to an <a href="https://msdn.microsoft.com/f376a33e-005b-4810-9a26-b642236ff7af">IObjectIds</a> interface that contains a collection of extended key usage object identifiers. This value applies to version 2 and later templates.
 
 
 ### -field TemplatePropCryptoProviders
@@ -116,7 +116,7 @@ A <b>VT_UI4</b> (<b>VT_I4</b> beginning with Windows 8.1) value that specifies 
 
 ### -field TemplatePropOID
 
-A <b>VT_DISPATCH</b> pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa376784(v=VS.85).aspx">IObjectId</a> interface that contains an object identifier for this template. This value applies to version 2 and later templates.
+A <b>VT_DISPATCH</b> pointer to an <a href="https://msdn.microsoft.com/bc6608e3-cae7-4992-b599-06bc04cc8ad7">IObjectId</a> interface that contains an object identifier for this template. This value applies to version 2 and later templates.
 
 
 ### -field TemplatePropSupersede
@@ -126,22 +126,22 @@ A <b>VT_ARRAY|VT_BSTR</b> collection that contains the common names of all versi
 
 ### -field TemplatePropRACertificatePolicies
 
-A <b>VT_DISPATCH</b> pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa376785(v=VS.85).aspx">IObjectIds</a> interface that contains a collection of certificate policy object identifiers for the registration authority certificates. This value applies to version 2 and later templates.
+A <b>VT_DISPATCH</b> pointer to an <a href="https://msdn.microsoft.com/f376a33e-005b-4810-9a26-b642236ff7af">IObjectIds</a> interface that contains a collection of certificate policy object identifiers for the registration authority certificates. This value applies to version 2 and later templates.
 
 
 ### -field TemplatePropRAEKUs
 
-A <b>VT_DISPATCH</b> pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa376785(v=VS.85).aspx">IObjectIds</a> interface that contains a collection of application policy object identifiers for the registration authority certificates. This value applies to version 2 and later templates.
+A <b>VT_DISPATCH</b> pointer to an <a href="https://msdn.microsoft.com/f376a33e-005b-4810-9a26-b642236ff7af">IObjectIds</a> interface that contains a collection of application policy object identifiers for the registration authority certificates. This value applies to version 2 and later templates.
 
 
 ### -field TemplatePropCertificatePolicies
 
-A <b>VT_DISPATCH</b> pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa376785(v=VS.85).aspx">IObjectIds</a> interface that contains a collection of policy object identifiers to be added to the certificate policy extension.
+A <b>VT_DISPATCH</b> pointer to an <a href="https://msdn.microsoft.com/f376a33e-005b-4810-9a26-b642236ff7af">IObjectIds</a> interface that contains a collection of policy object identifiers to be added to the certificate policy extension.
 
 
 ### -field TemplatePropV1ApplicationPolicy
 
-A <b>VT_DISPATCH</b> pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa376785(v=VS.85).aspx">IObjectIds</a> interface that contains a collection of policy object identifiers to be added to the certificate application policy extension.
+A <b>VT_DISPATCH</b> pointer to an <a href="https://msdn.microsoft.com/f376a33e-005b-4810-9a26-b642236ff7af">IObjectIds</a> interface that contains a collection of policy object identifiers to be added to the certificate application policy extension.
 
 
 ### -field TemplatePropAsymmetricAlgorithm
@@ -174,22 +174,22 @@ A <b>VT_BSTR</b> value that specifies the name of the hashing algorithm that an 
 
 ### -field TemplatePropEnrollmentFlags
 
-A <b>VT_I4</b> value that contains a bitwise <b>OR</b> of <a href="https://msdn.microsoft.com/en-us/library/Ee351755(v=VS.85).aspx">X509CertificateTemplateEnrollmentFlag</a> values.
+A <b>VT_I4</b> value that contains a bitwise <b>OR</b> of <a href="https://msdn.microsoft.com/eefb2120-637d-45ae-91be-e18a9d9cb14f">X509CertificateTemplateEnrollmentFlag</a> values.
 
 
 ### -field TemplatePropSubjectNameFlags
 
-A <b>VT_UI4</b> (<b>VT_I4</b> beginning with Windows 8.1) value that contains a bitwise <b>OR</b> of <a href="https://msdn.microsoft.com/en-us/library/Ee351758(v=VS.85).aspx">X509CertificateTemplateSubjectNameFlag</a> values.
+A <b>VT_UI4</b> (<b>VT_I4</b> beginning with Windows 8.1) value that contains a bitwise <b>OR</b> of <a href="https://msdn.microsoft.com/0880bb94-d26f-49a7-9749-f8be272fa4f6">X509CertificateTemplateSubjectNameFlag</a> values.
 
 
 ### -field TemplatePropPrivateKeyFlags
 
-A <b>VT_UI4</b> (<b>VT_I4</b> beginning with Windows 8.1) value that contains a bitwise <b>OR</b> of <a href="https://msdn.microsoft.com/en-us/library/Ee351757(v=VS.85).aspx">X509CertificateTemplatePrivateKeyFlag</a> values.
+A <b>VT_UI4</b> (<b>VT_I4</b> beginning with Windows 8.1) value that contains a bitwise <b>OR</b> of <a href="https://msdn.microsoft.com/b908b5fb-9089-493d-9ef4-1fe429ec43d4">X509CertificateTemplatePrivateKeyFlag</a> values.
 
 
 ### -field TemplatePropGeneralFlags
 
-A <b>VT_UI4</b> (<b>VT_I4</b> beginning with Windows 8.1) value that contains a bitwise <b>OR</b> of <a href="https://msdn.microsoft.com/en-us/library/Ee351756(v=VS.85).aspx">X509CertificateTemplateGeneralFlag</a> values.
+A <b>VT_UI4</b> (<b>VT_I4</b> beginning with Windows 8.1) value that contains a bitwise <b>OR</b> of <a href="https://msdn.microsoft.com/0211dd53-39b7-49fb-8acd-e4d02a226904">X509CertificateTemplateGeneralFlag</a> values.
 
 
 ### -field TemplatePropSecurityDescriptor
@@ -199,7 +199,7 @@ A <b>VT_BSTR</b> value that specifies the security descriptor.
 
 ### -field TemplatePropExtensions
 
-A <b>VT_DISPATCH</b> pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa378174(v=VS.85).aspx">IX509Extensions</a> interface that contains the certificate extensions to be added to the certificate request when generating requests based on this template.
+A <b>VT_DISPATCH</b> pointer to an <a href="https://msdn.microsoft.com/d6bdbcff-1d6b-4813-8269-b75061a42de8">IX509Extensions</a> interface that contains the certificate extensions to be added to the certificate request when generating requests based on this template.
 
 
 ### -field TemplatePropValidityPeriod

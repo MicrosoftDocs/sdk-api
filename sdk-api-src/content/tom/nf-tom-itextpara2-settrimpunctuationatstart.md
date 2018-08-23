@@ -64,7 +64,7 @@ Sets whether to trim the leading space of a punctuation symbol at the start of a
 
 Type: <b>long</b>
 
-A <a href="https://msdn.microsoft.com/en-us/library/Bb787724(v=VS.85).aspx">tomBool</a> that indicates whether to trim the leading space of a punctuation symbol. It can be one of the following values.
+A <a href="About_Text_Object_Model.htm">tomBool</a> that indicates whether to trim the leading space of a punctuation symbol. It can be one of the following values.
 
 <table class="clsStd">
 <tr>

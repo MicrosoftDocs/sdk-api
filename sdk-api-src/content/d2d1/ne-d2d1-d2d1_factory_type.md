@@ -134,7 +134,7 @@ The following code fragments declare a factory pointer, create a singlethreaded 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd368034(v=VS.85).aspx">CreateFactory</a>
+<a href="https://msdn.microsoft.com/8c0a685a-8f33-4072-a715-bb423cb44f03">CreateFactory</a>
 
 
 
@@ -142,7 +142,7 @@ The following code fragments declare a factory pointer, create a singlethreaded 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/JJ569217(v=VS.85).aspx">Multithreaded Direct2D Apps</a>
+<a href="https://msdn.microsoft.com/FDD770D4-817F-44D9-86C4-15DD04D214AE">Multithreaded Direct2D Apps</a>
  
 
  

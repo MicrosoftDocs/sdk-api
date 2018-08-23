@@ -1,0 +1,148 @@
+---
+UID: NF:d2d1_1.ID2D1CommandList.Stream
+title: ID2D1CommandList::Stream
+author: windows-sdk-content
+description: Streams the contents of the command list to the specified command sink.
+old-location: direct2d\id2d1commandlist_stream.htm
+old-project: direct2d
+ms.assetid: 52e6da86-c7c6-48e7-b0ff-a54770663f14
+ms.author: windowssdkdev
+ms.date: 08/06/2018
+ms.keywords: ID2D1CommandList interface [Direct2D],Stream method, ID2D1CommandList.Stream, ID2D1CommandList::Stream, Stream, Stream method [Direct2D], Stream method [Direct2D],ID2D1CommandList interface, d2d1_1/ID2D1CommandList::Stream, direct2d.id2d1commandlist_stream
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d2d1_1.h
+req.include-header: 
+req.redist: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: D2D1_UNIT_MODE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1CommandList.Stream
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: D2d1.dll
+req.irql: 
+---
+
+# ID2D1CommandList::Stream
+
+
+## -description
+
+
+Streams the contents of the command list  to the specified command sink. 
+
+
+## -parameters
+
+
+
+
+### -param sink
+
+
+
+
+
+
+#### - Sink [in]
+
+Type: <b><a href="https://msdn.microsoft.com/4e0ce837-7f4e-4b93-8dd7-68f60cfb1105">ID2D1CommandSink</a>*</b>
+
+The sink into which the command list will be streamed.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If the method succeeds, it returns <b>S_OK</b>. If it fails, it returns an <b>HRESULT</b> error code. 
+
+
+The return value indicates any failures the command sink implementation  returns through its <a href="https://msdn.microsoft.com/7324d66b-b415-4e07-9fe3-d79a1c0a49b0">EndDraw</a> method.
+
+
+
+
+## -remarks
+
+
+
+The command sink can be implemented by any caller of the API.
+
+If the caller makes any design-time failure calls while a command list is selected as a target, the command list is placed in an error state. The stream call fails without making any calls to the passed in sink.
+
+Sample use:
+
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>Class MyCommandSink : public ID2D1CommandSink
+{
+public:
+    // All of the ID2D1CommandSink methods implemented here.
+};
+
+HRESULT
+StreamToMyCommandSink(
+    __in ID2D1CommandList *pCommandList 
+    )
+{
+    HRESULT hr = S_OK;
+    
+    MyCommandSink *pCommandSink = new MyCommandSink();
+    hr = pCommandSink ? S_OK : E_OUTOFMEMORY;
+
+    if (SUCCEEDED(hr))
+    {
+        // Receive the contents of the command sink streamed to the sink.
+        hr = pCommandList-&gt;Stream(pCommandSink);
+    }
+
+    SafeRelease(&amp;pCommandSink);
+   
+    return hr;
+
+}</pre>
+</td>
+</tr>
+</table></span></div>
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/30b89f53-d20b-4070-abcd-ef95813130d1">ID2D1CommandList</a>
+ 
+
+ 
+

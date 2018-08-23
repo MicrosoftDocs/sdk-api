@@ -4,10 +4,10 @@ title: InternetTimeToSystemTimeW function
 author: windows-sdk-content
 description: Converts an HTTP time/date string to a SYSTEMTIME structure.
 old-location: wininet\internettimetosystemtime.htm
-old-project: wininet
+old-project: WinInet
 ms.assetid: fcfe99de-13b2-4e93-a978-f013ddae89f0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: InternetTimeToSystemTime, InternetTimeToSystemTime function [WinINet], InternetTimeToSystemTimeA, InternetTimeToSystemTimeW, _inet_internettimetosystemtime_function, wininet.internettimetosystemtime, wininet/InternetTimeToSystemTime, wininet/InternetTimeToSystemTimeA, wininet/InternetTimeToSystemTimeW
 ms.prod: windows
 ms.technology: windows-sdk

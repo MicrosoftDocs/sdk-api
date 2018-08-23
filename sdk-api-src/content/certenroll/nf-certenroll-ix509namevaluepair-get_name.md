@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-You must call the <a href="https://msdn.microsoft.com/en-us/library/Aa378879(v=VS.85).aspx">Initialize</a> method before calling this property.
+You must call the <a href="https://msdn.microsoft.com/3e935718-a59a-443e-bff2-a010a41e7756">Initialize</a> method before calling this property.
 
 
 
@@ -74,7 +74,7 @@ You must call the <a href="https://msdn.microsoft.com/en-us/library/Aa378879(v=V
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378525(v=VS.85).aspx">IX509NameValuePair</a>
+<a href="https://msdn.microsoft.com/e3b87c45-44c2-4fc6-ac75-0bf125f3c4b3">IX509NameValuePair</a>
  
 
  

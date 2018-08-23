@@ -7,7 +7,7 @@ old-location: security\cryptinitoidfunctionset.htm
 old-project: SecCrypto
 ms.assetid: 576a2989-ed7f-417d-b60e-24baf90a6554
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CryptInitOIDFunctionSet, CryptInitOIDFunctionSet function [Security], _crypto2_cryptinitoidfunctionset, security.cryptinitoidfunctionset, wincrypt/CryptInitOIDFunctionSet
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,7 @@ Returns the handle of the OID function set identified by <i>pszFuncName</i>, or 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">OID Support Functions</a>
+<a href="cryptography_functions.htm">OID Support Functions</a>
  
 
  

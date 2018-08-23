@@ -85,7 +85,7 @@ Specifies the in and out buffer count. On input, this is the full size of the bu
 
 
 
-This function returns UINT.
+This function returns UINT __stdcall.
 
 
 
@@ -135,7 +135,7 @@ See also
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Record Processing Functions</a>
+<a href="database_functions.htm">Record Processing Functions</a>
  
 
  

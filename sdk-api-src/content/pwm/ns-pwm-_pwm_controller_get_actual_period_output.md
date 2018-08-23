@@ -72,7 +72,7 @@ The effective output signal period as it would be measured on the  output channe
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt826475(v=VS.85).aspx">IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD</a>
+<a href="base.ioctl_ioctl_pwm_controller_get_actual_period">IOCTL_PWM_CONTROLLER_GET_ACTUAL_PERIOD</a>
  
 
  

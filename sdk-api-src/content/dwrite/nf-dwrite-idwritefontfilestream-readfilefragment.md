@@ -1,0 +1,124 @@
+---
+UID: NF:dwrite.IDWriteFontFileStream.ReadFileFragment
+title: IDWriteFontFileStream::ReadFileFragment
+author: windows-sdk-content
+description: Reads a fragment from a font file.
+old-location: directwrite\IDWriteFontFileStream_ReadFileFragment.htm
+old-project: DirectWrite
+ms.assetid: b5bf3300-cfa0-43db-b513-6c0d695c564e
+ms.author: windowssdkdev
+ms.date: 07/24/2018
+ms.keywords: IDWriteFontFileStream interface [Direct Write],ReadFileFragment method, IDWriteFontFileStream.ReadFileFragment, IDWriteFontFileStream::ReadFileFragment, ReadFileFragment, ReadFileFragment method [Direct Write], ReadFileFragment method [Direct Write],IDWriteFontFileStream interface, directwrite.IDWriteFontFileStream_ReadFileFragment, dwrite/IDWriteFontFileStream::ReadFileFragment
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dwrite.h
+req.include-header: 
+req.redist: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteFontFileStream.ReadFileFragment
+product: Windows
+targetos: Windows
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IDWriteFontFileStream::ReadFileFragment
+
+
+## -description
+
+
+ Reads a fragment from a font file.
+
+
+## -parameters
+
+
+
+
+### -param fragmentStart [out]
+
+Type: <b>const void**</b>
+
+When this method returns, contains an address of a  pointer to the start of the font file fragment.  This parameter is passed uninitialized.
+
+
+### -param fileOffset
+
+Type: <b>UINT64</b>
+
+The offset of the fragment, in bytes, from the beginning of the font file.
+
+
+### -param fragmentSize
+
+Type: <b>UINT64</b>
+
+The size of the file fragment, in bytes.
+
+
+### -param fragmentContext [out]
+
+Type: <b>void**</b>
+
+When this method returns, contains the address of a pointer to a pointer to the client-defined context to be passed to <a href="https://msdn.microsoft.com/8a12c28e-5595-4255-8fdd-5d546ceed90b">ReleaseFileFragment</a>.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+ Note that <b>ReadFileFragment</b> implementations must check whether the requested font file fragment
+     is within the file bounds. Otherwise, an error should be returned from <b>ReadFileFragment</b>.
+
+
+<a href="https://msdn.microsoft.com/62a8d723-ae1c-4cbc-a9da-3177e80d4a3a">DirectWrite</a> may invoke <a href="https://msdn.microsoft.com/792ab9be-853f-427d-a762-2da8e81423f8">IDWriteFontFileStream</a> methods on the same object from multiple threads simultaneously. Therefore, <b>ReadFileFragment</b> implementations that rely on internal mutable state must serialize access to such state across multiple threads. For example, an implementation that uses separate Seek and Read operations to read a file fragment must place the code block containing Seek and Read calls under a lock or a critical section.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/792ab9be-853f-427d-a762-2da8e81423f8">IDWriteFontFileStream</a>
+ 
+
+ 
+

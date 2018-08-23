@@ -7,7 +7,7 @@ old-location: tablet\inkrecognitionalternatesselection.htm
 old-project: tablet
 ms.assetid: abc9fecf-7754-4f32-974f-5febfc68a6a7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: IRAS_All, IRAS_DefaultCount, IRAS_Start, InkRecognitionAlternatesSelection, InkRecognitionAlternatesSelection enumeration [Tablet PC], abc9fecf-7754-4f32-974f-5febfc68a6a7, msinkaut/IRAS_All, msinkaut/IRAS_DefaultCount, msinkaut/IRAS_Start, msinkaut/InkRecognitionAlternatesSelection, tablet.inkrecognitionalternatesselection
 ms.prod: windows
 ms.technology: windows-sdk

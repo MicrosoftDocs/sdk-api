@@ -60,11 +60,9 @@ Retrieves a fragment pointer for a fragment that is adjacent to the windowless M
 
 
 
-### -param direction [in]
+### -param param
 
-Type: <b><a href="https://msdn.microsoft.com/33385413-3500-4f80-b53a-fe960d1b53ee">NavigateDirection</a></b>
 
-A value that indicates the adjacent fragment to retrieve (parent, next sibling, previous sibling, and so on).  
 
 
 ### -param ppParent
@@ -72,6 +70,13 @@ A value that indicates the adjacent fragment to retrieve (parent, next sibling, 
 
 
 
+
+
+#### - direction [in]
+
+Type: <b><a href="https://msdn.microsoft.com/33385413-3500-4f80-b53a-fe960d1b53ee">NavigateDirection</a></b>
+
+A value that indicates the adjacent fragment to retrieve (parent, next sibling, previous sibling, and so on).  
 
 
 #### - ppRetVal [out, retval]
@@ -87,7 +92,7 @@ Receives the adjacent fragment.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
 
-If this method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code.  The return value is E_INVALIDARG if the direction is <a href="https://msdn.microsoft.com/en-us/library/Ee671588(v=VS.85).aspx">NavigateDirection_FirstChild</a> or <a href="https://msdn.microsoft.com/en-us/library/Ee671588(v=VS.85).aspx">NavigateDirection_LastChild</a>, which are not valid for this method.  If there is no adjacent fragment in the requested direction, the  method returns S_OK and sets <i>ppRetVal</i> to <b>NULL</b>.
+If this method succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code.  The return value is E_INVALIDARG if the direction is <a href="uiauto_NavDirEnum.htm">NavigateDirection_FirstChild</a> or <a href="uiauto_NavDirEnum.htm">NavigateDirection_LastChild</a>, which are not valid for this method.  If there is no adjacent fragment in the requested direction, the  method returns S_OK and sets <i>ppRetVal</i> to <b>NULL</b>.
 
 
 

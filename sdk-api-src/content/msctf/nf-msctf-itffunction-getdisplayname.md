@@ -61,7 +61,7 @@ req.product: GDI+ 1.1
 
 ### -param pbstrName [out]
 
-Pointer to a BSTR value that receives the display name. This value must be allocated using <a href="https://msdn.microsoft.com/en-us/library/ms221458(v=VS.85).aspx">SysAllocString</a>. The caller must free this memory using <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> when it is no longer required.
+Pointer to a BSTR value that receives the display name. This value must be allocated using <a href="9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a>. The caller must free this memory using <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> when it is no longer required.
 
 
 ## -returns
@@ -123,11 +123,11 @@ A memory allocation failure occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221458(v=VS.85).aspx">SysAllocString</a>
+<a href="9e0437a2-9b4a-4576-88b0-5cb9d08ca29b">SysAllocString</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>
+<a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>
  
 
  

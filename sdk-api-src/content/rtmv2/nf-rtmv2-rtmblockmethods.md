@@ -67,52 +67,12 @@ Handle to the client obtained from a previous call to
 <a href="https://msdn.microsoft.com/2b952ea2-cf33-49e3-ae31-a14b0907a1b5">RtmRegisterEntity</a>.
 
 
-### -param OPTIONAL
-
-TBD
-
-
-### -param BlockingFlag [in]
-
-Specifies whether to block or unblock methods. The following flags are used. 
-
-
-
-<table>
-<tr>
-<th>Constant</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="RTM_BLOCK_METHODS"></a><a id="rtm_block_methods"></a><dl>
-<dt><b>RTM_BLOCK_METHODS</b></dt>
-</dl>
-</td>
-<td width="60%">
-Block methods for the specified target.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="RTM_RESUME_METHODS"></a><a id="rtm_resume_methods"></a><dl>
-<dt><b>RTM_RESUME_METHODS</b></dt>
-</dl>
-</td>
-<td width="60%">
-Unblock methods for the specified target.
-
-</td>
-</tr>
-</table>
- 
-
-
-#### - TargetHandle [in]
+### -param TargetHandle [in]
 
 Handle to a destination, route, or next hop for which to block methods. This parameter is optional and can be set to <b>NULL</b> to block methods for all targets.
 
 
-#### - TargetType [in]
+### -param TargetType [in]
 
 Specifies the type of the handle in <i>TargetHandle</i>. This parameter is optional and can be set to <b>NULL</b> to block methods for all targets. The following flags are used. 
 
@@ -150,6 +110,41 @@ Specifies the type of the handle in <i>TargetHandle</i>. This parameter is optio
 </td>
 <td width="60%">
 <i>TargetHandle</i> is a route.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -param BlockingFlag [in]
+
+Specifies whether to block or unblock methods. The following flags are used. 
+
+
+
+<table>
+<tr>
+<th>Constant</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%"><a id="RTM_BLOCK_METHODS"></a><a id="rtm_block_methods"></a><dl>
+<dt><b>RTM_BLOCK_METHODS</b></dt>
+</dl>
+</td>
+<td width="60%">
+Block methods for the specified target.
+
+</td>
+</tr>
+<tr>
+<td width="40%"><a id="RTM_RESUME_METHODS"></a><a id="rtm_resume_methods"></a><dl>
+<dt><b>RTM_RESUME_METHODS</b></dt>
+</dl>
+</td>
+<td width="60%">
+Unblock methods for the specified target.
 
 </td>
 </tr>

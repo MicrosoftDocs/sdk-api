@@ -1,0 +1,106 @@
+---
+UID: NF:shlobj_core.IShellFolderView.UpdateObject
+title: IShellFolderView::UpdateObject
+author: windows-sdk-content
+description: UpdateObject may be altered or unavailable.
+old-location: shell\IShellFolderView_UpdateObject.htm
+old-project: shell
+ms.assetid: aacc326f-30e3-4794-b158-77ccf24f8d01
+ms.author: windowssdkdev
+ms.date: 08/06/2018
+ms.keywords: IShellFolderView interface [Windows Shell],UpdateObject method, IShellFolderView.UpdateObject, IShellFolderView::UpdateObject, UpdateObject, UpdateObject method [Windows Shell], UpdateObject method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_UpdateObject, shell.IShellFolderView_UpdateObject, shlobj_core/IShellFolderView::UpdateObject
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: shlobj_core.h
+req.include-header: 
+req.redist: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows XP [desktop apps only]
+req.target-min-winversvr: Windows Server 2003 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: AUTOCOMPLETELISTOPTIONS
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - shlobj_core.h
+api_name:
+ - IShellFolderView.UpdateObject
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+req.product: Internet Explorer 5.0
+---
+
+# IShellFolderView::UpdateObject
+
+
+## -description
+
+
+<p class="CCE_Message">[<b>UpdateObject</b> is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.]
+
+Replaces an item in a view with another item.
+
+
+## -parameters
+
+
+
+
+### -param pidlOld [in]
+
+Type: <b>PUITEMID_CHILD</b>
+
+The original item.
+
+
+### -param pidlNew [in]
+
+Type: <b>PUITEMID_CHILD</b>
+
+The new item.
+
+
+### -param puItem [out]
+
+Type: <b>UINT*</b>
+
+When this method returns, contains a pointer to the index of the item that was replaced. You can use this value to call <a href="https://msdn.microsoft.com/a231e92f-b467-4fd7-929d-92259272a734">IShellFolderView::GetObject</a> on later to get back the PITEMID_CHILD that you just added.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+If you immediately call <a href="https://msdn.microsoft.com/a231e92f-b467-4fd7-929d-92259272a734">IShellFolderView::GetObject</a> with the index returned by <i>puItem</i>, you will get a copy of the ITEMID_CHILD that you added.  However, the index position of an item may change over time, so code cannot trust that any specific index always returns the same ITEMID_CHILD.
+
+Changes made through this method can be discarded in the view by the data source at any time.
+
+
+

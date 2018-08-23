@@ -67,9 +67,9 @@ Handle to the client obtained from a previous call to
 <a href="https://msdn.microsoft.com/2b952ea2-cf33-49e3-ae31-a14b0907a1b5">RtmRegisterEntity</a>.
 
 
-### -param OPTIONAL
+### -param DestHandle [in]
 
-TBD
+Handle to the destination for which to enumerate routes. This parameter is optional, and can be set to <b>NULL</b>; specifying <b>NULL</b> enumerates all routes for all destinations. Specify <b>NULL</b> if <i>EnumFlags</i> contains RTM_ENUM_START.
 
 
 ### -param TargetViews [in]
@@ -190,6 +190,12 @@ Enumerate routes starting at 0/0. Specify <b>NULL</b> for <i>NetAddress</i>.
  
 
 
+### -param StartDest [in]
+
+Pointer to an 
+<a href="https://msdn.microsoft.com/92c4e797-9b73-438d-b4df-9739fae9d5c8">RTM_NET_ADDRESS</a> structure that contains the starting address of the enumeration. This parameter is ignored if <i>EnumFlags</i> contains RTM_ENUM_START.
+
+
 ### -param MatchingFlags [in]
 
 Specifies the elements of the route to match. Only routes that match the criteria specified in <i>CriteriaRoute</i> and <i>CriteriaInterface</i> are returned, unless otherwise noted. The following flags are used. 
@@ -277,6 +283,16 @@ Match routes that have the same preference.
  
 
 
+### -param CriteriaRoute [in]
+
+Specifies which routes to enumerate. This parameter is optional and can be set to <b>NULL</b> if <i>MatchingFlags</i> contains RTM_MATCH_INTERFACE or RTM_MATCH_NONE.
+
+
+### -param CriteriaInterface [in]
+
+Pointer to a <b>ULONG</b> that specifies on which interfaces routes should be located. This parameter is ignored unless <i>MatchingFlags</i> contains RTM_MATCH_INTERFACE.
+
+
 ### -param RtmEnumHandle [out]
 
 On input, <i>RtmEnumHandle</i> is a pointer to <b>NULL</b>. 
@@ -288,27 +304,6 @@ On output, <i>RtmEnumHandle</i> receives a pointer to a handle to the enumeratio
 <a href="https://msdn.microsoft.com/fb3977ef-9edd-4653-b65c-b6d0fb66a785">RtmGetEnumRoutes</a>, 
 <a href="https://msdn.microsoft.com/4c893144-a2c5-4dc8-83c1-cae0d3024505">RtmReleaseRoutes</a>, and 
 <a href="https://msdn.microsoft.com/87477e25-d4bc-44d2-932b-f266b0bdaafa">RtmDeleteEnumHandle</a>.
-
-
-#### - CriteriaInterface [in]
-
-Pointer to a <b>ULONG</b> that specifies on which interfaces routes should be located. This parameter is ignored unless <i>MatchingFlags</i> contains RTM_MATCH_INTERFACE.
-
-
-#### - CriteriaRoute [in]
-
-Specifies which routes to enumerate. This parameter is optional and can be set to <b>NULL</b> if <i>MatchingFlags</i> contains RTM_MATCH_INTERFACE or RTM_MATCH_NONE.
-
-
-#### - DestHandle [in]
-
-Handle to the destination for which to enumerate routes. This parameter is optional, and can be set to <b>NULL</b>; specifying <b>NULL</b> enumerates all routes for all destinations. Specify <b>NULL</b> if <i>EnumFlags</i> contains RTM_ENUM_START.
-
-
-#### - StartDest [in]
-
-Pointer to an 
-<a href="https://msdn.microsoft.com/92c4e797-9b73-438d-b4df-9739fae9d5c8">RTM_NET_ADDRESS</a> structure that contains the starting address of the enumeration. This parameter is ignored if <i>EnumFlags</i> contains RTM_ENUM_START.
 
 
 ## -returns

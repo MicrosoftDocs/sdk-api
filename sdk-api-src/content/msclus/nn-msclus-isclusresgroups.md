@@ -59,7 +59,7 @@ req.product: GDI+ 1.1
     versions.]
 
 Provides access to all cluster <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">groups</a> belonging either to 
-    a <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> or to a particular 
+    a <a href="c_gly.htm">cluster</a> or to a particular 
     <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a> in a cluster.
 
 

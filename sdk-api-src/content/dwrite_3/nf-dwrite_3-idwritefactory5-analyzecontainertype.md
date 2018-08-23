@@ -1,0 +1,98 @@
+---
+UID: NF:dwrite_3.IDWriteFactory5.AnalyzeContainerType
+title: IDWriteFactory5::AnalyzeContainerType
+author: windows-sdk-content
+description: The AnalyzeContainerType method analyzes the specified file data to determine whether it is a known font container format (e.g., WOFF or WOFF2).
+old-location: directwrite\idwritefactory5_analyzecontainertype.htm
+old-project: DirectWrite
+ms.assetid: A13656C9-E793-40E2-81BD-0F9C0F437F1E
+ms.author: windowssdkdev
+ms.date: 07/24/2018
+ms.keywords: AnalyzeContainerType, AnalyzeContainerType method [Direct Write], AnalyzeContainerType method [Direct Write],IDWriteFactory5 interface, IDWriteFactory5 interface [Direct Write],AnalyzeContainerType method, IDWriteFactory5.AnalyzeContainerType, IDWriteFactory5::AnalyzeContainerType, directwrite.idwritefactory5_analyzecontainertype, dwrite_3/IDWriteFactory5::AnalyzeContainerType
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dwrite_3.h
+req.include-header: 
+req.redist: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFactory5.AnalyzeContainerType
+product: Windows
+targetos: Windows
+req.lib: Dwrite.lib
+req.dll: 
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IDWriteFactory5::AnalyzeContainerType
+
+
+## -description
+
+
+The AnalyzeContainerType method analyzes the specified file data to determine whether it is a known font container format (e.g., WOFF or WOFF2).
+
+
+## -parameters
+
+
+
+
+### -param fileData [in]
+
+Type: <b>void</b>
+
+Pointer to the file data to analyze.
+
+
+### -param fileDataSize
+
+Type: <b>UINT32</b>
+
+Size of the buffer passed in fileData.
+
+
+## -returns
+
+
+
+Type: <b><a href="https://msdn.microsoft.com/93275F1D-A25C-4BDD-B278-DA56ADB3436D">DWRITE_CONTAINER_TYPE</a></b>
+
+Returns the container type if recognized. DWRITE_CONTAINER_TYPE_UNKOWNN is returned for all other files, including uncompressed font files.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/2F3E30DC-A965-4C68-A337-73F338CF2563">IDWriteFactory5</a>
+ 
+
+ 
+

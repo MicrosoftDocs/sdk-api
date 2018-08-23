@@ -56,7 +56,7 @@ req.product: ADAM
 
 <p class="CCE_Message">[CStdAsyncStubBuffer2_Connect is not supported and may be altered or unavailable in the future.]
 
-Implements the  <a href="https://msdn.microsoft.com/en-us/library/ms678495(v=VS.85).aspx">IRpcStubBuffer::Connect</a> method and connects the server object to the stub.
+Implements the  <a href="_com_irpcstubbuffer_connect">IRpcStubBuffer::Connect</a> method and connects the server object to the stub.
 
 
 ## -parameters
@@ -66,12 +66,12 @@ Implements the  <a href="https://msdn.microsoft.com/en-us/library/ms678495(v=VS.
 
 ### -param pthis [in]
 
-Pointer to  the <a href="https://msdn.microsoft.com/en-us/library/ms678504(v=VS.85).aspx">IRpcStubBuffer</a> object. 
+Pointer to  the <a href="_com_irpcstubbuffer">IRpcStubBuffer</a> object. 
 
 
 ### -param pUnkServer [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface of the server object. 
+Pointer to the <a href="_com_iunknown">IUnknown</a> interface of the server object. 
 
 
 ## -returns

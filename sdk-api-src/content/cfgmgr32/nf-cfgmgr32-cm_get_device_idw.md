@@ -7,7 +7,7 @@ old-location: devinst\cm_get_device_id.htm
 old-project: devinst
 ms.assetid: 924906ca-1119-428f-a42d-cb9a784af011
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: CM_Get_Device_ID, CM_Get_Device_ID function [Device and Driver Installation], CM_Get_Device_IDW, cfgmgr32/CM_Get_Device_ID, cfgmgr32/CM_Get_Device_IDW, cfgmgrfn_9b900d97-f812-412b-b12c-d64b9aba3be7.xml, devinst.cm_get_device_id
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ req.irql:
 ## -description
 
 
-The <b>CM_Get_Device_ID</b> function retrieves the <a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">device instance ID</a> for a specified <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device instance</a> on the local machine.
+The <b>CM_Get_Device_ID</b> function retrieves the <a href="devinst.device_instance_ids">device instance ID</a> for a specified <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device instance</a> on the local machine.
 
 
 ## -parameters

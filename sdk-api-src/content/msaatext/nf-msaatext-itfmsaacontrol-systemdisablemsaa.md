@@ -109,7 +109,7 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms971350(v=MSDN.10).aspx">Microsoft Active Accessibility</a>
+<a href="_msaa_microsoft_active_accessibility_start_page">Microsoft Active Accessibility</a>
  
 
  

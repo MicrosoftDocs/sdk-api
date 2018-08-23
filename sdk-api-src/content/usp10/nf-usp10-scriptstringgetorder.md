@@ -7,7 +7,7 @@ old-location: intl\scriptstringgetorder.htm
 old-project: Intl
 ms.assetid: c9986143-af15-439b-8c99-e07b48344645
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: ScriptStringGetOrder, ScriptStringGetOrder function [Internationalization for Windows Applications], _win32_ScriptStringGetOrder, intl.scriptstringgetorder, usp10/ScriptStringGetOrder
 ms.prod: windows
 ms.technology: windows-sdk

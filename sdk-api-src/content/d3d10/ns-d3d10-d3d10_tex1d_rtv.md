@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_tex1d_rtv.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_tex1d_rtv.htm
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/20/2018
 ms.keywords: 591d1483-fde1-2aee-60bb-56aa133a09e4, D3D10_TEX1D_RTV, D3D10_TEX1D_RTV structure [Direct3D 10], d3d10/D3D10_TEX1D_RTV, direct3d10.d3d10_tex1d_rtv
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Specifies the <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">subresource</a> from a <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">1D texture</a> to use in a render-target view.
+Specifies the <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">subresource</a> from a <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">1D texture</a> to use in a render-target view.
 
 
 ## -struct-fields
@@ -63,14 +63,14 @@ Specifies the <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-The index of the mipmap level to use (see <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">mip slice</a>).
+The index of the mipmap level to use (see <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">mip slice</a>).
 
 
 ## -remarks
 
 
 
-This structure is one member of a render-target-view description (see <a href="https://msdn.microsoft.com/en-us/library/Bb172410(v=VS.85).aspx">D3D10_RENDER_TARGET_VIEW_DESC</a>).
+This structure is one member of a render-target-view description (see <a href="https://msdn.microsoft.com/05a8dcf3-c815-47f1-b51f-e382804b030b">D3D10_RENDER_TARGET_VIEW_DESC</a>).
 
 
 
@@ -80,7 +80,7 @@ This structure is one member of a render-target-view description (see <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205277(v=VS.85).aspx">Resource Structures</a>
+<a href="https://msdn.microsoft.com/d8fe2ebe-349a-456e-9a5a-16f2d3419800">Resource Structures</a>
  
 
  

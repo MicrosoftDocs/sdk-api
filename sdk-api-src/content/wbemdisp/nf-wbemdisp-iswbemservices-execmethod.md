@@ -123,7 +123,7 @@ If the method is successful, an
 
 
 
-Use <b>SWbemServices.ExecMethod</b> as an alternative to direct access for executing a <a href="https://msdn.microsoft.com/en-us/library/Aa390825(v=VS.85).aspx">provider method</a> in cases where it is not possible to execute a method directly. The 
+Use <b>SWbemServices.ExecMethod</b> as an alternative to direct access for executing a <a href="gloss_p.htm">provider method</a> in cases where it is not possible to execute a method directly. The 
 <b>ExecMethod</b> method allows you to obtain output parameters, if the provider supplies them, with a scripting language that does not support output parameters. Otherwise, the recommended means of invoking a method is to use direct access. For more information, see 
 <a href="https://msdn.microsoft.com/682cbe12-1487-4681-8d2f-4caf21cb068a">Manipulating Class and Instance Information</a>.
 

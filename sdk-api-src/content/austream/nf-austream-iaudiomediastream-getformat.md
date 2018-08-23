@@ -7,7 +7,7 @@ old-location: dshow\iaudiomediastream_getformat.htm
 old-project: DirectShow
 ms.assetid: df582b90-f537-42cf-a83e-109a20446d8a
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/20/2018
 ms.keywords: GetFormat, GetFormat method [DirectShow], GetFormat method [DirectShow],IAudioMediaStream interface, IAudioMediaStream interface [DirectShow],GetFormat method, IAudioMediaStream.GetFormat, IAudioMediaStream::GetFormat, IAudioMediaStreamGetFormat, austream/IAudioMediaStream::GetFormat, dshow.iaudiomediastream_getformat
 ms.prod: windows
 ms.technology: windows-sdk

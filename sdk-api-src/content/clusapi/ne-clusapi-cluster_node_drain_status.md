@@ -22,7 +22,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: CluAdmEx.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -53,7 +53,7 @@ req.irql:
 
 
 Enumerates the possible values of the status of a node drain. This enumeration is used in the 
-    <a href="https://msdn.microsoft.com/en-us/library/JJ151964(v=VS.85).aspx">NodeDrainStatus</a> property.
+    <a href="https://msdn.microsoft.com/B68E19D2-2B81-496A-B090-06B6B3495268">NodeDrainStatus</a> property.
 
 
 ## -enum-fields
@@ -91,11 +91,11 @@ Defines the maximum number of drain statuses.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309147(v=VS.85).aspx">Failover Cluster Enumerations</a>
+<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/JJ151964(v=VS.85).aspx">NodeDrainStatus</a>
+<a href="https://msdn.microsoft.com/B68E19D2-2B81-496A-B090-06B6B3495268">NodeDrainStatus</a>
  
 
  

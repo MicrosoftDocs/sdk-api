@@ -60,7 +60,7 @@ req.irql:
 
 ### -param click [in]
 
-Contains one of the <a href="https://msdn.microsoft.com/en-us/library/ms629055(v=VS.85).aspx">TfLBIClick</a> values that indicate which mouse button was used to click the balloon.
+Contains one of the <a href="https://msdn.microsoft.com/7fd151dd-e4be-4ec8-b373-2115717d5ef4">TfLBIClick</a> values that indicate which mouse button was used to click the balloon.
 
 
 ### -param pt [in]
@@ -117,7 +117,7 @@ One or more parameters are invalid.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628702(v=VS.85).aspx">ITfLangBarItemBalloon</a>
+<a href="https://msdn.microsoft.com/619a6f21-fbac-455c-a702-0302ce13112b">ITfLangBarItemBalloon</a>
 
 
 

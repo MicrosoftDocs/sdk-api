@@ -54,7 +54,7 @@ req.irql:
 ## -description
 
 
-Opens a <a href="https://msdn.microsoft.com/en-us/library/Aa371745(v=VS.85).aspx">node</a> and returns a handle to it. The <b>PCLUSAPI_OPEN_CLUSTER_NODE</b> type defines a pointer to this function.
+Opens a <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a> and returns a handle to it. The <b>PCLUSAPI_OPEN_CLUSTER_NODE</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ Opens a <a href="https://msdn.microsoft.com/en-us/library/Aa371745(v=VS.85).aspx
 
 ### -param hCluster [in]
 
-Handle to a <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> returned from the 
+Handle to a <a href="c_gly.htm">cluster</a> returned from the 
       <a href="https://msdn.microsoft.com/b2ee2575-cc1e-4696-8e95-9798fb556c58">OpenCluster</a> or 
       <a href="https://msdn.microsoft.com/688702b7-7525-48d6-9e44-d7c4969565f8">OpenClusterEx</a> functions.
 
@@ -96,7 +96,7 @@ If the operation was successful, <b>OpenClusterNode</b>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa371760(v=VS.85).aspx">Node Management Functions</a>
+<a href="https://msdn.microsoft.com/18981eec-42c0-4e31-8e5c-b79d8ff89fc8">Node Management Functions</a>
 
 
 

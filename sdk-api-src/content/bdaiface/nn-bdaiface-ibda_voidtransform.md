@@ -59,9 +59,9 @@ The <b>IBDA_VoidTransform</b> interface is implemented on a BDA device filter. I
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_VoidTransform</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IBDA_VoidTransform</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_VoidTransform</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBDA_VoidTransform</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -74,7 +74,7 @@ The <b>IBDA_VoidTransform</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693462(v=VS.85).aspx">Start</a>
+<a href="https://msdn.microsoft.com/bc89fd31-56c2-4de0-b2aa-239173e1997d">Start</a>
 </td>
 <td align="left" width="63%">
 Restarts data flow through a control node.
@@ -83,7 +83,7 @@ Restarts data flow through a control node.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693463(v=VS.85).aspx">Stop</a>
+<a href="https://msdn.microsoft.com/ff061aef-1058-4d1d-802e-89e7f4ebfe3c">Stop</a>
 </td>
 <td align="left" width="63%">
 Stops data flow through a control node.
@@ -107,7 +107,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693008(v=VS.85).aspx">BDA Interfaces</a>
+<a href="https://msdn.microsoft.com/07d18f73-e852-4c88-a2e2-e8f4198ca799">BDA Interfaces</a>
  
 
  

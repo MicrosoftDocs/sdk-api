@@ -59,9 +59,9 @@ The <b>IBDA_NetworkProvider</b> interface is implemented on a Network Provider f
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_NetworkProvider</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IBDA_NetworkProvider</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBDA_NetworkProvider</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IBDA_NetworkProvider</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -74,7 +74,7 @@ The <b>IBDA_NetworkProvider</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693411(v=VS.85).aspx">GetNetworkType</a>
+<a href="https://msdn.microsoft.com/38d9f099-b639-41fe-b0fd-82f056622de0">GetNetworkType</a>
 </td>
 <td align="left" width="63%">
 Called by a BDA device filter to retrieve the network type.
@@ -83,7 +83,7 @@ Called by a BDA device filter to retrieve the network type.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693412(v=VS.85).aspx">GetSignalSource</a>
+<a href="https://msdn.microsoft.com/943b3c1f-4aea-4c16-b730-74b63397ad9f">GetSignalSource</a>
 </td>
 <td align="left" width="63%">
 Called by a BDA device filter to retrieve the signal source.
@@ -92,7 +92,7 @@ Called by a BDA device filter to retrieve the signal source.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693413(v=VS.85).aspx">GetTuningSpace</a>
+<a href="https://msdn.microsoft.com/3c7305a1-4a63-42a9-abc2-ae5394c3be9a">GetTuningSpace</a>
 </td>
 <td align="left" width="63%">
 Called by a BDA device filter to retrieve the network provider.
@@ -101,7 +101,7 @@ Called by a BDA device filter to retrieve the network provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693414(v=VS.85).aspx">PutSignalSource</a>
+<a href="https://msdn.microsoft.com/e461ff83-c3fc-43f2-934b-3f4c3afd0061">PutSignalSource</a>
 </td>
 <td align="left" width="63%">
 Called by a BDA device filter to specify the network provider.
@@ -110,7 +110,7 @@ Called by a BDA device filter to specify the network provider.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693415(v=VS.85).aspx">PutTuningSpace</a>
+<a href="https://msdn.microsoft.com/4541a675-875b-4a6c-8251-e13abdd46b38">PutTuningSpace</a>
 </td>
 <td align="left" width="63%">
 Called by a BDA device filter to specify the tuning space.
@@ -119,7 +119,7 @@ Called by a BDA device filter to specify the tuning space.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693416(v=VS.85).aspx">RegisterDeviceFilter</a>
+<a href="https://msdn.microsoft.com/88050024-5960-4ce5-8645-82db3e17b12c">RegisterDeviceFilter</a>
 </td>
 <td align="left" width="63%">
 Called by a BDA device filter to register itself in the filter graph.
@@ -128,7 +128,7 @@ Called by a BDA device filter to register itself in the filter graph.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd693417(v=VS.85).aspx">UnRegisterDeviceFilter</a>
+<a href="https://msdn.microsoft.com/7d54830f-93cc-44c0-9bb7-43c439f4aa8e">UnRegisterDeviceFilter</a>
 </td>
 <td align="left" width="63%">
 Called by BDA device filters when they are removed from the filter graph.
@@ -152,7 +152,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693008(v=VS.85).aspx">BDA Interfaces</a>
+<a href="https://msdn.microsoft.com/07d18f73-e852-4c88-a2e2-e8f4198ca799">BDA Interfaces</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: dshow\ibasicvideo2.htm
 old-project: DirectShow
 ms.assetid: a21fe7b9-75db-4c5b-bb29-42d305f048a1
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/20/2018
 ms.keywords: IBasicVideo2, IBasicVideo2 interface [DirectShow], IBasicVideo2 interface [DirectShow],described, IBasicVideo2Interface, control/IBasicVideo2, dshow.ibasicvideo2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,16 +53,16 @@ req.irql:
 
 
 
-The <code>IBasicVideo2</code> interface extends the <a href="https://msdn.microsoft.com/en-us/library/Dd389540(v=VS.85).aspx">IBasicVideo</a> interface. The <a href="https://msdn.microsoft.com/7719ed9d-e3b9-4c84-b587-4e120b5cabf8">Video Renderer</a> filter and Video Mixing Renderer filters implement this interface, but the interface is exposed to applications through the Filter Graph Manager. Applications should always retrieve this interface from the Filter Graph Manager.
+The <code>IBasicVideo2</code> interface extends the <a href="https://msdn.microsoft.com/14f45bdc-2271-459d-b165-c860c8fc3e0b">IBasicVideo</a> interface. The <a href="https://msdn.microsoft.com/7719ed9d-e3b9-4c84-b587-4e120b5cabf8">Video Renderer</a> filter and Video Mixing Renderer filters implement this interface, but the interface is exposed to applications through the Filter Graph Manager. Applications should always retrieve this interface from the Filter Graph Manager.
 
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBasicVideo2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dd389540(v=VS.85).aspx">IBasicVideo</a>. <b>IBasicVideo2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IBasicVideo2</b> interface inherits from <a href="https://msdn.microsoft.com/14f45bdc-2271-459d-b165-c860c8fc3e0b">IBasicVideo</a>. <b>IBasicVideo2</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -75,7 +75,7 @@ The <b>IBasicVideo2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd389551(v=VS.85).aspx">GetPreferredAspectRatio</a>
+<a href="https://msdn.microsoft.com/eabfb5a3-201c-483c-81d6-efd19a4b5cef">GetPreferredAspectRatio</a>
 </td>
 <td align="left" width="63%">
 Retrieves the preferred video aspect ratio.
@@ -90,7 +90,7 @@ Retrieves the preferred video aspect ratio.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389540(v=VS.85).aspx">IBasicVideo</a>
+<a href="https://msdn.microsoft.com/14f45bdc-2271-459d-b165-c860c8fc3e0b">IBasicVideo</a>
  
 
  

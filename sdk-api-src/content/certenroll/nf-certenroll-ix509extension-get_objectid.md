@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-The <b>ObjectId</b> property retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> (OID)  for the extension.
+The <b>ObjectId</b> property retrieves the <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID)  for the extension.
 
 This property is read-only.
 
@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-You can specify the OID when you call the <a href="https://msdn.microsoft.com/en-us/library/Aa378511(v=VS.85).aspx">Initialize</a> method to create an extension value.
+You can specify the OID when you call the <a href="https://msdn.microsoft.com/a01a371b-7dc2-4204-8029-269ac4a9c0d5">Initialize</a> method to create an extension value.
 
 
 
@@ -74,7 +74,7 @@ You can specify the OID when you call the <a href="https://msdn.microsoft.com/en
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378077(v=VS.85).aspx">IX509Extension</a>
+<a href="https://msdn.microsoft.com/f04e3f63-c826-4401-a1c8-b2614e0dc374">IX509Extension</a>
  
 
  

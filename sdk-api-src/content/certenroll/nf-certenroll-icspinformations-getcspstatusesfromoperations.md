@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>GetCspStatusesFromOperations</b> method retrieves an <a href="https://msdn.microsoft.com/en-us/library/Aa376761(v=VS.85).aspx">ICspStatuses</a> collection by supported key operations and optional provider information. This method is web enabled.
+The <b>GetCspStatusesFromOperations</b> method retrieves an <a href="https://msdn.microsoft.com/73d0f3a7-7afd-42c9-88db-911531c50137">ICspStatuses</a> collection by supported key operations and optional provider information. This method is web enabled.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>GetCspStatusesFromOperations</b> method retrieves an <a href="https://msd
 
 ### -param Operations [in]
 
-An <a href="https://msdn.microsoft.com/en-us/library/Aa374821(v=VS.85).aspx">AlgorithmOperationFlags</a> enumeration value that  specifies the supported operations. This can be a bitwise combination of the following flags:
+An <a href="https://msdn.microsoft.com/5fa7ee1e-f5ab-44c9-8ae4-a2940f0c6289">AlgorithmOperationFlags</a> enumeration value that  specifies the supported operations. This can be a bitwise combination of the following flags:
 
 <ul>
 <li>XCN_NCRYPT_NO_OPERATION</li>
@@ -80,12 +80,12 @@ An <a href="https://msdn.microsoft.com/en-us/library/Aa374821(v=VS.85).aspx">Alg
 
 ### -param pCspInformation [in, optional]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa375967(v=VS.85).aspx">ICspInformation</a> interface that represents information for a specific provider.
+Pointer to an <a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a> interface that represents information for a specific provider.
 
 
 ### -param ppValue [out]
 
-Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa376761(v=VS.85).aspx">ICspStatuses</a> interface that contains the collection.
+Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/73d0f3a7-7afd-42c9-88db-911531c50137">ICspStatuses</a> interface that contains the collection.
 
 
 ## -returns
@@ -94,7 +94,7 @@ Address of a variable that receives a pointer to an <a href="https://msdn.micros
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 
@@ -104,11 +104,11 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375967(v=VS.85).aspx">ICspInformation</a>
+<a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375968(v=VS.85).aspx">ICspInformations</a>
+<a href="https://msdn.microsoft.com/8141023c-c162-46d6-9c37-e227ce1c8761">ICspInformations</a>
  
 
  

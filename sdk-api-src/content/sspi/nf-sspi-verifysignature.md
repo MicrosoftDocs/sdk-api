@@ -7,7 +7,7 @@ old-location: security\verifysignature.htm
 old-project: secauthn
 ms.assetid: bebeef92-1d6e-4879-846f-12d706db0653
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: VerifySignature, VerifySignature function [Security], _ssp_verifysignature, security.verifysignature, sspi/VerifySignature
 ms.prod: windows
 ms.technology: windows-sdk
@@ -179,7 +179,7 @@ The quality of protection negotiated between the client and server did not inclu
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
 
 
 

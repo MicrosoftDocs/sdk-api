@@ -7,7 +7,7 @@ old-location: tablet\inkdrawingattributes_extendedproperties.htm
 old-project: tablet
 ms.assetid: da5eb2c9-e325-44f4-bc94-e5b5a5480bcc
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: ExtendedProperties property [Tablet PC], ExtendedProperties property [Tablet PC],IInkDrawingAttributes interface, IInkDrawingAttributes interface [Tablet PC],ExtendedProperties property, IInkDrawingAttributes.ExtendedProperties, IInkDrawingAttributes.get_ExtendedProperties, IInkDrawingAttributes::ExtendedProperties, IInkDrawingAttributes::get_ExtendedProperties, InkDrawingAttributes.get_ExtendedProperties, get_ExtendedProperties, msinkaut/IInkDrawingAttributes::ExtendedProperties, msinkaut/IInkDrawingAttributes::get_ExtendedProperties, tablet.inkdrawingattributes_extendedproperties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,7 +78,7 @@ Applications can use the ExtendedProperties property to access the custom data t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846798(v=VS.85).aspx">IInkDrawingAttributes</a>
+<a href="https://msdn.microsoft.com/47106C55-FA03-4996-BCFA-D00A51AF55EE">IInkDrawingAttributes</a>
 
 
 

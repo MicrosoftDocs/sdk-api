@@ -7,7 +7,7 @@ old-location: multimedia\mciwnduseframes.htm
 old-project: Multimedia
 ms.assetid: 14c2ac12-6034-43f0-ac3e-ea3c6a01e39a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: MCIWndUseFrames, MCIWndUseFrames macro [Windows Multimedia], _win32_MCIWndUseFrames, multimedia.mciwnduseframes, vfw/MCIWndUseFrames
 ms.prod: windows
 ms.technology: windows-sdk

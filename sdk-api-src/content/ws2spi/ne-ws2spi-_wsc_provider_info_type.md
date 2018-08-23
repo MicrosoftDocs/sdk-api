@@ -7,7 +7,7 @@ old-location: winsock\wsc_provider_info_type.htm
 old-project: winsock
 ms.assetid: 7f93a660-6f53-4e3c-a938-54a13b34258d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: ProviderInfoAudit, ProviderInfoLspCategories, WSC_PROVIDER_INFO_TYPE, WSC_PROVIDER_INFO_TYPE enumeration [Winsock], _WSC_PROVIDER_INFO_TYPE, winsock.wsc_provider_info_type, ws2spi/ProviderInfoAudit, ws2spi/ProviderInfoLspCategories, ws2spi/WSC_PROVIDER_INFO_TYPE
 ms.prod: windows
 ms.technology: windows-sdk

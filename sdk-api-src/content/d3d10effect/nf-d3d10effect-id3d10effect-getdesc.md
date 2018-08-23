@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effect_getdesc.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effect_getdesc.htm
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/20/2018
 ms.keywords: 35c1c99a-3f41-0efe-adae-ce9709830b32, GetDesc, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10],ID3D10Effect interface, ID3D10Effect interface [Direct3D 10],GetDesc method, ID3D10Effect.GetDesc, ID3D10Effect::GetDesc, d3d10effect/ID3D10Effect::GetDesc, direct3d10.id3d10effect_getdesc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,18 +61,18 @@ Get an effect description.
 
 ### -param pDesc [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205047(v=VS.85).aspx">D3D10_EFFECT_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/4e25e0d5-b614-4dba-ade2-e60b468c46a4">D3D10_EFFECT_DESC</a>*</b>
 
-A pointer to an effect description (see <a href="https://msdn.microsoft.com/en-us/library/Bb205047(v=VS.85).aspx">D3D10_EFFECT_DESC</a>).
+A pointer to an effect description (see <a href="https://msdn.microsoft.com/4e25e0d5-b614-4dba-ade2-e60b468c46a4">D3D10_EFFECT_DESC</a>).
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -91,7 +91,7 @@ An effect description contains basic information about an effect such as the tec
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173630(v=VS.85).aspx">ID3D10Effect Interface</a>
+<a href="https://msdn.microsoft.com/3525d559-11e4-4c38-acfe-5dc560264c31">ID3D10Effect Interface</a>
  
 
  

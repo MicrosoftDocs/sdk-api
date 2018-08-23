@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgifactory4_enumwarpadapter.htm
 old-project: direct3ddxgi
 ms.assetid: 18991B1A-5FA7-4298-A5FD-C8D7C485E4F7
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/20/2018
 ms.keywords: EnumWarpAdapter, EnumWarpAdapter method [DXGI], EnumWarpAdapter method [DXGI],IDXGIFactory4 interface, IDXGIFactory4 interface [DXGI],EnumWarpAdapter method, IDXGIFactory4.EnumWarpAdapter, IDXGIFactory4::EnumWarpAdapter, direct3ddxgi.idxgifactory4_enumwarpadapter, dxgi1_4/IDXGIFactory4::EnumWarpAdapter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ Provides an adapter which can be provided to D3D12CreateDevice to use the WARP r
 
 Type: <b>REFIID</b>
 
-The globally unique identifier (GUID) of the <a href="https://msdn.microsoft.com/en-us/library/Bb174523(v=VS.85).aspx">IDXGIAdapter</a> object referenced by the <i>ppvAdapter</i> parameter.
+The globally unique identifier (GUID) of the <a href="https://msdn.microsoft.com/02fc6b37-bd8f-4889-96cc-91064d23c9d0">IDXGIAdapter</a> object referenced by the <i>ppvAdapter</i> parameter.
           
 
 
@@ -74,7 +74,7 @@ The globally unique identifier (GUID) of the <a href="https://msdn.microsoft.com
 
 Type: <b>void**</b>
 
-The address of an <a href="https://msdn.microsoft.com/en-us/library/Bb174523(v=VS.85).aspx">IDXGIAdapter</a> interface pointer to the adapter.
+The address of an <a href="https://msdn.microsoft.com/02fc6b37-bd8f-4889-96cc-91064d23c9d0">IDXGIAdapter</a> interface pointer to the adapter.
             This parameter must not be NULL.
           
 
@@ -83,10 +83,10 @@ The address of an <a href="https://msdn.microsoft.com/en-us/library/Bb174523(v=V
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns S_OK if successful; an error code otherwise.
-            For a list of error codes, see <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a>.
+            For a list of error codes, see <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a>.
             See also Direct3D 12 Return Codes.
           
 

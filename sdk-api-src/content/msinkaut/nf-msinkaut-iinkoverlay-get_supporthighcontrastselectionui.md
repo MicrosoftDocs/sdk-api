@@ -7,7 +7,7 @@ old-location: tablet\inkoverlay_supporthighcontrastselectionui.htm
 old-project: tablet
 ms.assetid: a8837657-6eb0-44d3-8c39-11a5524fe9db
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: IInkOverlay, IInkOverlay interface [Tablet PC],SupportHighContrastSelectionUI property, IInkOverlay.SupportHighContrastSelectionUI, IInkOverlay.get_SupportHighContrastSelectionUI, IInkOverlay::SupportHighContrastSelectionUI, IInkOverlay::get_SupportHighContrastSelectionUI, IInkOverlay::put_SupportHighContrastSelectionUI, InkOverlay.get_SupportHighContrastSelectionUI, InkOverlay.put_SupportHighContrastSelectionUI, SupportHighContrastSelectionUI property [Tablet PC], SupportHighContrastSelectionUI property [Tablet PC],IInkOverlay interface, a8837657-6eb0-44d3-8c39-11a5524fe9db, get_SupportHighContrastSelectionUI, msinkaut/IInkOverlay::SupportHighContrastSelectionUI, msinkaut/IInkOverlay::get_SupportHighContrastSelectionUI, msinkaut/IInkOverlay::put_SupportHighContrastSelectionUI, tablet.inkoverlay_supporthighcontrastselectionui
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,7 +88,7 @@ Ink selection uses the COLOR_WINDOWTEXT, COLOR_WINDOW, and COLOR_HIGHLIGHT syste
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
+<a href="https://msdn.microsoft.com/ACE11946-113B-42EE-A3F1-0036B1DF8141">IInkOverlay</a>
 
 
 

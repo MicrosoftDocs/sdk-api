@@ -67,9 +67,9 @@ Handle to the client obtained from a previous call to
 <a href="https://msdn.microsoft.com/2b952ea2-cf33-49e3-ae31-a14b0907a1b5">RtmRegisterEntity</a>.
 
 
-### -param OPTIONAL
+### -param RouteListHandle [in]
 
-TBD
+Handle to the route list to which to add routes. Specify <b>NULL</b> to remove the specified routes from their old lists.
 
 
 ### -param NumRoutes [in]
@@ -80,11 +80,6 @@ Specifies the number of routes in <i>RouteHandles</i>.
 ### -param RouteHandles [in]
 
 Pointer to an array of route handles to move from the old list to the new list.
-
-
-#### - RouteListHandle [in]
-
-Handle to the route list to which to add routes. Specify <b>NULL</b> to remove the specified routes from their old lists.
 
 
 ## -returns

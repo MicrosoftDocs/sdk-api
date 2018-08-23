@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutput5_duplicateoutput1.htm
 old-project: direct3ddxgi
 ms.assetid: B6723F05-E0D9-4814-8AB8-796ECF9C5C0C
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/20/2018
 ms.keywords: DuplicateOutput1, DuplicateOutput1 method [DXGI], DuplicateOutput1 method [DXGI],IDXGIOutput5 interface, IDXGIOutput5 interface [DXGI],DuplicateOutput1 method, IDXGIOutput5.DuplicateOutput1, IDXGIOutput5::DuplicateOutput1, direct3ddxgi.idxgioutput5_duplicateoutput1, dxgi1_5/IDXGIOutput5::DuplicateOutput1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,9 +85,9 @@ Specifies the number of supported formats.
 
 ### -param pSupportedFormats [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a>*</b>
 
-Specifies an array, of length  <i>SupportedFormatsCount</i> of  <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> entries.
+Specifies an array, of length  <i>SupportedFormatsCount</i> of  <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> entries.
 
 
 ### -param ppOutputDuplication [out]
@@ -101,7 +101,7 @@ A pointer to a variable that receives the new <a href="https://msdn.microsoft.co
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 
 <ul>
@@ -120,7 +120,7 @@ If <b>DuplicateOutput1</b> fails with DXGI_ERROR_UNSUPPORTED, the application ca
 </li>
 <li>DXGI_ERROR_NOT_CURRENTLY_AVAILABLE if DXGI reached the limit on the maximum number of concurrent duplication applications (default of four). Therefore, the calling application cannot create any desktop duplication interfaces until the other applications close.</li>
 <li>DXGI_ERROR_SESSION_DISCONNECTED if <b>DuplicateOutput1</b> failed because the session is currently disconnected.</li>
-<li>Other error codes are described in the <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.</li>
+<li>Other error codes are described in the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> topic.</li>
 </ul>
 
 

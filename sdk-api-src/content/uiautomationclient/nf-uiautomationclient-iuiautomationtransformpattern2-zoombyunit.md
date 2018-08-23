@@ -60,7 +60,9 @@ Zooms the viewport of the control by the specified unit.
 
 
 
-### -param zoomUnit
+
+
+#### - zoomUnit
 
 Type: <b><a href="https://msdn.microsoft.com/3ECDFCD7-2FBD-42C4-8863-4B5A557F56AE">ZoomUnit</a></b>
 

@@ -131,41 +131,6 @@ Adds a denied ACE.
 Deletes all the ACEs for for the SID.
 
 
-##### - dwAccess.CLUSAPI_ALL_ACCESS ((CLUSAPI_READ_ACCESS | CLUSAPI_CHANGE_ACCESS))
-
-The account can be used to read and change the cluster.
-
-
-##### - dwAccess.CLUSAPI_CHANGE_ACCESS (0x00000002L)
-
-The account can be used to make changes to the cluster.
-
-
-##### - dwAccess.CLUSAPI_NO_ACCESS (0x00000004L)
-
-No access.
-
-
-##### - dwAccess.CLUSAPI_READ_ACCESS (0x00000001L)
-
-Read access.
-
-
-##### - dwControlType.CLUSTER_DELETE_ACCESS_CONTROL_ENTRY (2)
-
-Deletes all the ACEs for for the SID.
-
-
-##### - dwControlType.CLUSTER_SET_ACCESS_TYPE_ALLOWED (0)
-
-Adds an allowed ACE.
-
-
-##### - dwControlType.CLUSTER_SET_ACCESS_TYPE_DENIED (1)
-
-Adds a denied ACE.
-
-
 ## -returns
 
 
@@ -173,7 +138,7 @@ Adds a denied ACE.
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, the function returns a 
-      <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>.
+      <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>.
 
 
 
@@ -183,7 +148,7 @@ If the operation fails, the function returns a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369128(v=VS.85).aspx">Cluster Registry Access Functions</a>
+<a href="https://msdn.microsoft.com/2bb0650f-ef9c-40bb-ae90-229bfa23838e">Cluster Registry Access Functions</a>
  
 
  

@@ -60,7 +60,7 @@ req.product: GDI+ 1.1
 
 Returns the 
     current <a href="https://msdn.microsoft.com/4c2ee30e-4de2-44ba-93ba-d2d89196545e">quorum resource</a> for a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> or allows a new quorum resource to be 
+    <a href="c_gly.htm">cluster</a> or allows a new quorum resource to be 
     designated.
 
 This property is read/write.

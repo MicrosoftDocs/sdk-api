@@ -61,18 +61,9 @@ Moves one endpoint of the text range the specified number of <a href="https://ms
 
 
 
-### -param endpoint [in]
-
-Type: <b>TextPatternRangeEndpoint</b>
-
-The endpoint to move.
+### -param param
 
 
-### -param unit [in]
-
-Type: <b><a href="https://msdn.microsoft.com/518318fc-d60f-41b7-a6da-1f2bf5c2e494">TextUnit</a></b>
-
-The type of text units, such as character, word, paragraph, and so on.
 
 
 ### -param count [in]
@@ -89,6 +80,20 @@ The number of units to move. A positive value moves the endpoint forward.
 Type: <b>int*</b>
 
 Receives the number of units actually moved, which can be less than the number requested if moving the endpoint runs into the beginning or end of the document.
+
+
+#### - endpoint [in]
+
+Type: <b>TextPatternRangeEndpoint</b>
+
+The endpoint to move.
+
+
+#### - unit [in]
+
+Type: <b><a href="https://msdn.microsoft.com/518318fc-d60f-41b7-a6da-1f2bf5c2e494">TextUnit</a></b>
+
+The type of text units, such as character, word, paragraph, and so on.
 
 
 ## -returns
@@ -108,7 +113,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 The <a href="https://msdn.microsoft.com/4a294376-a401-4380-ba5a-b899548290b7">endpoint</a> is moved forward or backward, as specified, to the next available unit boundary. If the original <b>endpoint</b> was at the boundary of the specified text unit, the <b>endpoint</b> is moved to the next available text unit boundary, as shown in the following illustration.
 
-<img alt="Illustration showing endpoints of a text range moving" src="./images/MoveEndpointByUnit.gif"/>
+<img alt="Illustration showing endpoints of a text range moving" src="images/MoveEndpointByUnit.gif"/>
 If the <a href="https://msdn.microsoft.com/4a294376-a401-4380-ba5a-b899548290b7">endpoint</a> being moved crosses the other <b>endpoint</b> of the same text range, the other <b>endpoint</b> is also moved, resulting in a degenerate range and ensuring the correct ordering of the <b>endpoint</b> (that is, that the start is always less than or equal to the end).
 
 <b>ITextRangeProvider::MoveEndpointByUnit</b> deprecates up to the next supported text unit if the given text unit is not supported by the control. 

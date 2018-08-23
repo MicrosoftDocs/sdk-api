@@ -72,10 +72,10 @@ The <b>IMILBitmapEffectInteriorOutputConnector</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735268(v=VS.85).aspx">GetOutputConnector</a>
+<a href="https://msdn.microsoft.com/f3bfe984-3807-4e5f-b4e2-277dab54b5d8">GetOutputConnector</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://msdn.microsoft.com/en-us/library/ms735267(v=VS.85).aspx">IMILBitmapEffectOutputConnector</a> associated with the interior output connector.
+Gets the <a href="https://msdn.microsoft.com/36a2d9da-7a25-4316-acdf-8add4016f18f">IMILBitmapEffectOutputConnector</a> associated with the interior output connector.
 
 </td>
 </tr>

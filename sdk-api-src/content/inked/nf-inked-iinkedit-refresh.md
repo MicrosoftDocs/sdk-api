@@ -7,7 +7,7 @@ old-location: tablet\inkedit_refresh.htm
 old-project: tablet
 ms.assetid: 74b8e3dc-7bea-4188-bd0d-681e4661828c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: 74b8e3dc-7bea-4188-bd0d-681e4661828c, IInkEdit interface [Tablet PC],Refresh method, IInkEdit.Refresh, IInkEdit::Refresh, Refresh, Refresh method [Tablet PC], Refresh method [Tablet PC],IInkEdit interface, inked/IInkEdit::Refresh, tablet.inkedit_refresh
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
+<a href="https://msdn.microsoft.com/8F47529B-52E9-4D67-81B3-DD2584B98101">IInkEdit</a>
 
 
 

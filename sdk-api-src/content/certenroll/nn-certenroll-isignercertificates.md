@@ -51,15 +51,15 @@ req.irql:
 ## -description
 
 
-The <b>ISignerCertificates</b> interface defines the following methods and properties to manage a collection of <a href="https://msdn.microsoft.com/en-us/library/Aa376820(v=VS.85).aspx">ISignerCertificate</a> objects.
+The <b>ISignerCertificates</b> interface defines the following methods and properties to manage a collection of <a href="https://msdn.microsoft.com/146a1925-4de6-492c-8014-612c65bd7270">ISignerCertificate</a> objects.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISignerCertificates</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ISignerCertificates</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ISignerCertificates</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ISignerCertificates</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Properties</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
 </ul>
 
 ## -members
@@ -72,37 +72,37 @@ The <b>ISignerCertificates</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa376822(v=VS.85).aspx">Add</a>
+<a href="https://msdn.microsoft.com/985bda2c-caad-4910-9e9c-d673975953aa">Add</a>
 </td>
 <td align="left" width="63%">
-Adds an <a href="https://msdn.microsoft.com/en-us/library/Aa376820(v=VS.85).aspx">ISignerCertificate</a> object to the collection.
+Adds an <a href="https://msdn.microsoft.com/146a1925-4de6-492c-8014-612c65bd7270">ISignerCertificate</a> object to the collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa376823(v=VS.85).aspx">Clear</a>
+<a href="https://msdn.microsoft.com/8be3f0d4-db41-408d-bd4b-37c41b1b1c54">Clear</a>
 </td>
 <td align="left" width="63%">
-Removes all <a href="https://msdn.microsoft.com/en-us/library/Aa376820(v=VS.85).aspx">ISignerCertificate</a> objects from the collection.
+Removes all <a href="https://msdn.microsoft.com/146a1925-4de6-492c-8014-612c65bd7270">ISignerCertificate</a> objects from the collection.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa376825(v=VS.85).aspx">Find</a>
+<a href="https://msdn.microsoft.com/ee741eda-e125-4938-bc49-d8089f7d5df2">Find</a>
 </td>
 <td align="left" width="63%">
-Retrieves the index number of an <a href="https://msdn.microsoft.com/en-us/library/Aa376820(v=VS.85).aspx">ISignerCertificate</a> object.
+Retrieves the index number of an <a href="https://msdn.microsoft.com/146a1925-4de6-492c-8014-612c65bd7270">ISignerCertificate</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa376829(v=VS.85).aspx">Remove</a>
+<a href="https://msdn.microsoft.com/3f0a3d9b-590f-4fa2-904c-26593bf977c8">Remove</a>
 </td>
 <td align="left" width="63%">
-Removes an <a href="https://msdn.microsoft.com/en-us/library/Aa376820(v=VS.85).aspx">ISignerCertificate</a> object from the collection by index number.
+Removes an <a href="https://msdn.microsoft.com/146a1925-4de6-492c-8014-612c65bd7270">ISignerCertificate</a> object from the collection by index number.
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ Removes an <a href="https://msdn.microsoft.com/en-us/library/Aa376820(v=VS.85).a
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376830(v=VS.85).aspx">_NewEnum</a>
+<a href="https://msdn.microsoft.com/9f5325b5-aa8d-443d-ac82-793cd9bfd28b">_NewEnum</a>
 
 
 </td>
@@ -128,12 +128,12 @@ Retrieves the enumerator for the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376824(v=VS.85).aspx">Count</a>
+<a href="https://msdn.microsoft.com/4cd4c71a-2fb3-4a47-bd86-e69a08890a09">Count</a>
 
 
 </td>
 <td align="left" width="63%">
-Retrieves the number of <a href="https://msdn.microsoft.com/en-us/library/Aa376820(v=VS.85).aspx">ISignerCertificate</a> objects in the collection.
+Retrieves the number of <a href="https://msdn.microsoft.com/146a1925-4de6-492c-8014-612c65bd7270">ISignerCertificate</a> objects in the collection.
 
 </td>
 </tr>
@@ -145,7 +145,7 @@ Retrieves the number of <a href="https://msdn.microsoft.com/en-us/library/Aa3768
 
 </td>
 <td align="left" width="63%">
-Retrieves an <a href="https://msdn.microsoft.com/en-us/library/Aa376820(v=VS.85).aspx">ISignerCertificate</a> object from the collection by index number.
+Retrieves an <a href="https://msdn.microsoft.com/146a1925-4de6-492c-8014-612c65bd7270">ISignerCertificate</a> object from the collection by index number.
 
 </td>
 </tr>
@@ -157,15 +157,15 @@ Retrieves an <a href="https://msdn.microsoft.com/en-us/library/Aa376820(v=VS.85)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374874(v=VS.85).aspx">Certificate Enrollment API</a>
+<a href="https://msdn.microsoft.com/ae6ab5fc-598e-43b8-a260-2cd94dc2648f">Certificate Enrollment API</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376820(v=VS.85).aspx">ISignerCertificate</a>
+<a href="https://msdn.microsoft.com/146a1925-4de6-492c-8014-612c65bd7270">ISignerCertificate</a>
  
 
  

@@ -82,16 +82,16 @@ If <b>AddWizard97Page</b> is not
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369060(v=VS.85).aspx">Failover Cluster Administrator</a> extensions call the 
+<a href="https://msdn.microsoft.com/5d89c4b8-0554-4672-9e06-2ce7c5d15d5f">Failover Cluster Administrator</a> extensions call the 
      <b>AddWizard97Page</b> method from their 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa370733(v=VS.85).aspx">IWEExtendWizard97::CreateWizard97Pages</a> 
+     <a href="https://msdn.microsoft.com/1ab81008-42d8-4863-8836-0508e49ceca9">IWEExtendWizard97::CreateWizard97Pages</a> 
      methods. Before calling 
      <b>AddWizard97Page</b>, extensions must 
-     call the function <a href="https://msdn.microsoft.com/en-us/library/Bb760807(v=VS.85).aspx">CreatePropertySheetPage</a> 
+     call the function <a href="_win32_createpropertysheetpage_cpp">CreatePropertySheetPage</a> 
      to retrieve a handle to pass in the <i>hpage</i> parameter.
 
 To add non-Wizard97 pages, use 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa370521(v=VS.85).aspx">IWCWizardCallback::AddWizardPage</a>.
+     <a href="https://msdn.microsoft.com/e5ce7798-c1e6-47b6-a1bf-1262b3511b22">IWCWizardCallback::AddWizardPage</a>.
 
 
 
@@ -101,15 +101,15 @@ To add non-Wizard97 pages, use
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa370511(v=VS.85).aspx">IWCWizard97Callback</a>
+<a href="https://msdn.microsoft.com/cbde3bcf-8242-49dc-9ac0-a4b078ea526e">IWCWizard97Callback</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa370521(v=VS.85).aspx">IWCWizardCallback::AddWizardPage</a>
+<a href="https://msdn.microsoft.com/e5ce7798-c1e6-47b6-a1bf-1262b3511b22">IWCWizardCallback::AddWizardPage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa370733(v=VS.85).aspx">IWEExtendWizard97::CreateWizard97Pages</a>
+<a href="https://msdn.microsoft.com/1ab81008-42d8-4863-8836-0508e49ceca9">IWEExtendWizard97::CreateWizard97Pages</a>
  
 
  

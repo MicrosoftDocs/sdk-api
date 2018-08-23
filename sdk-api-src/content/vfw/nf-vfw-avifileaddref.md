@@ -7,7 +7,7 @@ old-location: multimedia\avifileaddref.htm
 old-project: Multimedia
 ms.assetid: f3dd4fa0-69e3-4249-8c74-7502d09ff341
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: AVIFileAddRef, AVIFileAddRef function [Windows Multimedia], _win32_AVIFileAddRef, multimedia.avifileaddref, vfw/AVIFileAddRef
 ms.prod: windows
 ms.technology: windows-sdk

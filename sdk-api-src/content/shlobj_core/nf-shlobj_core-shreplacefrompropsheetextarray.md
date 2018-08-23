@@ -80,7 +80,7 @@ The ID of the page to replace.
 
 Type: <b>LPFNADDPROPSHEETPAGE</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb760805(v=VS.85).aspx">AddPropSheetPageProc</a> function used by the property sheet extension to add a page to a property sheet.
+A pointer to an <a href="https://msdn.microsoft.com/37673813-89dc-4624-a58b-fe5f44df46c6">AddPropSheetPageProc</a> function used by the property sheet extension to add a page to a property sheet.
 
 
 ### -param lParam

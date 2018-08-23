@@ -7,7 +7,7 @@ old-location: security\cryptgetdefaultprovider.htm
 old-project: SecCrypto
 ms.assetid: 5d15641e-1ad7-441d-9423-65fd51de9812
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CRYPT_MACHINE_DEFAULT, CRYPT_USER_DEFAULT, CryptGetDefaultProvider, CryptGetDefaultProvider function [Security], CryptGetDefaultProviderA, CryptGetDefaultProviderW, _crypto2_cryptgetdefaultprovider, security.cryptgetdefaultprovider, wincrypt/CryptGetDefaultProvider, wincrypt/CryptGetDefaultProviderA, wincrypt/CryptGetDefaultProviderW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -312,7 +312,7 @@ void main()
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Service Provider Functions</a>
+<a href="cryptography_functions.htm">Service Provider Functions</a>
  
 
  

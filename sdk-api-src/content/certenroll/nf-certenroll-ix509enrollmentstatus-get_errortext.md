@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-The <b>ErrorText</b> property retrieves a string that contains the message associated with the error result code returned by the <a href="https://msdn.microsoft.com/en-us/library/Aa377832(v=VS.85).aspx">Error</a> property.
+The <b>ErrorText</b> property retrieves a string that contains the message associated with the error result code returned by the <a href="https://msdn.microsoft.com/397ed934-5ec8-4653-ada4-e966f68cbbf2">Error</a> property.
 
 This property is read-only.
 
@@ -65,7 +65,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377818(v=VS.85).aspx">IX509EnrollmentStatus</a>
+<a href="https://msdn.microsoft.com/fa5e3a10-7f00-46b6-b740-b72d78745bf7">IX509EnrollmentStatus</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: wnet\wnetenumresource.htm
 old-project: wnet
 ms.assetid: 2c58c6d0-d5fe-447e-be39-df34072c160e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: WNetEnumResource, WNetEnumResource function [Windows Networking (WNet)], WNetEnumResourceA, WNetEnumResourceW, _win32_wnetenumresource, winnetwk/WNetEnumResource, winnetwk/WNetEnumResourceA, winnetwk/WNetEnumResourceW, wnet.wnetenumresource
 ms.prod: windows
 ms.technology: windows-sdk

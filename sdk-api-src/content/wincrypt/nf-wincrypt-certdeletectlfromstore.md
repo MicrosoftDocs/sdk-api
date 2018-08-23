@@ -7,7 +7,7 @@ old-location: security\certdeletectlfromstore.htm
 old-project: SecCrypto
 ms.assetid: e24d3445-8929-463a-b771-1f25f4e999b5
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CertDeleteCTLFromStore, CertDeleteCTLFromStore function [Security], _crypto2_certdeletectlfromstore, security.certdeletectlfromstore, wincrypt/CertDeleteCTLFromStore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -118,7 +118,7 @@ The <i>pCtlContext</i> parameter is always freed by this function by using
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Trust List Functions</a>
+<a href="cryptography_functions.htm">Certificate Trust List Functions</a>
  
 
  

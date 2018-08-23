@@ -7,7 +7,7 @@ old-location: dshow\icameracontrol_get_focallengths.htm
 old-project: DirectShow
 ms.assetid: de566705-1f4b-4ffa-932d-a52521e6963b
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/20/2018
 ms.keywords: ICameraControl interface [DirectShow],get_FocalLengths method, ICameraControl.get_FocalLengths, ICameraControl::get_FocalLengths, ICameraControlget_FocalLengths, dshow.icameracontrol_get_focallengths, get_FocalLengths, get_FocalLengths method [DirectShow], get_FocalLengths method [DirectShow],ICameraControl interface, vidcap/ICameraControl::get_FocalLengths
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,67 +109,13 @@ where:
 
 <ul>
 <li>
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>Lcur</pre>
-</td>
-</tr>
-</table></span></div> = Current objective focal length.</li>
+            Lcur = Current objective focal length.</li>
 <li>
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>Lmin</pre>
-</td>
-</tr>
-</table></span></div>, <div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>Lmax</pre>
-</td>
-</tr>
-</table></span></div> = Minimum and maximum objective focal length.</li>
+            Lmin, Lmax = Minimum and maximum objective focal length.</li>
 <li>
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>Zcur</pre>
-</td>
-</tr>
-</table></span></div> = Current zoom setting. See <a href="https://msdn.microsoft.com/7c1fe500-bccf-46ed-bcd9-f65b25e8ccb7">ICameraControl::get_Zoom</a>.</li>
+            Zcur = Current zoom setting. See <a href="https://msdn.microsoft.com/7c1fe500-bccf-46ed-bcd9-f65b25e8ccb7">ICameraControl::get_Zoom</a>.</li>
 <li>
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>Zmin</pre>
-</td>
-</tr>
-</table></span></div>, <div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>Zmax</pre>
-</td>
-</tr>
-</table></span></div> = Minimum and maximum zoom setting. See <a href="https://msdn.microsoft.com/93a81b65-4b63-45c9-b065-f4aa5cf2e4ae">ICameraControl::getRange_Zoom</a>.</li>
+            Zmin, Zmax = Minimum and maximum zoom setting. See <a href="https://msdn.microsoft.com/93a81b65-4b63-45c9-b065-f4aa5cf2e4ae">ICameraControl::getRange_Zoom</a>.</li>
 </ul>
 From <div class="code"><span codelanguage=""><table>
 <tr>

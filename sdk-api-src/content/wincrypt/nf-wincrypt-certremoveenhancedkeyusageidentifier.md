@@ -7,7 +7,7 @@ old-location: security\certremoveenhancedkeyusageidentifier.htm
 old-project: SecCrypto
 ms.assetid: 4fb27073-674c-4bac-9a62-6e33e1a5785e
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CertRemoveEnhancedKeyUsageIdentifier, CertRemoveEnhancedKeyUsageIdentifier function [Security], _crypto2_certremoveenhancedkeyusageidentifier, security.certremoveenhancedkeyusageidentifier, wincrypt/CertRemoveEnhancedKeyUsageIdentifier
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,7 +88,7 @@ If the function fails, it returns zero (<b>FALSE</b>). For extended error inform
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Enhanced Key Usage Functions</a>
+<a href="cryptography_functions.htm">Enhanced Key Usage Functions</a>
  
 
  

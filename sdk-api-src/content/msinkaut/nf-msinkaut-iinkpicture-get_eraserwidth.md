@@ -7,7 +7,7 @@ old-location: tablet\inkpicture_eraserwidth.htm
 old-project: tablet
 ms.assetid: 8a880a9a-acd4-4cb1-aea7-4d834ecd9490
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: 8a880a9a-acd4-4cb1-aea7-4d834ecd9490, EraserWidth property [Tablet PC], EraserWidth property [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],EraserWidth property, IInkPicture.EraserWidth, IInkPicture.get_EraserWidth, IInkPicture::EraserWidth, IInkPicture::get_EraserWidth, IInkPicture::put_EraserWidth, InkPicture.get_EraserWidth, InkPicture.put_EraserWidth, get_EraserWidth, msinkaut/IInkPicture::EraserWidth, msinkaut/IInkPicture::get_EraserWidth, msinkaut/IInkPicture::put_EraserWidth, put_EraserWidth, tablet.inkpicture_eraserwidth
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,7 +98,7 @@ This property applies only when the <a href="https://msdn.microsoft.com/5767f768
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
+<a href="https://msdn.microsoft.com/EA6AC3DD-5F13-442A-B93D-FF0A5333609A">IInkPicture</a>
 
 
 

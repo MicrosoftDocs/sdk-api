@@ -1,0 +1,133 @@
+---
+UID: NF:d2d1effectauthor.ID2D1EffectContext.CreateVertexBuffer
+title: ID2D1EffectContext::CreateVertexBuffer
+author: windows-sdk-content
+description: Creates a vertex buffer or finds a standard vertex buffer and optionally initializes it with vertices.
+old-location: direct2d\id2d1contextinternal_createvertexbuffer.htm
+old-project: direct2d
+ms.assetid: 8E59527F-B6CE-4E25-B7F7-2D03BC1ACAFD
+ms.author: windowssdkdev
+ms.date: 08/06/2018
+ms.keywords: CreateVertexBuffer, CreateVertexBuffer method [Direct2D], CreateVertexBuffer method [Direct2D],ID2D1EffectContext interface, ID2D1EffectContext interface [Direct2D],CreateVertexBuffer method, ID2D1EffectContext.CreateVertexBuffer, ID2D1EffectContext::CreateVertexBuffer, d2d1effectauthor/ID2D1EffectContext::CreateVertexBuffer, direct2d.id2d1contextinternal_createvertexbuffer
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d2d1effectauthor.h
+req.include-header: 
+req.redist: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 and Platform Update for Windows 7 [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2012 and Platform Update for Windows Server 2008 R2 [desktop apps \| UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: D2D1_VERTEX_USAGE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2D1.lib
+ - D2D1.dll
+api_name:
+ - ID2D1EffectContext.CreateVertexBuffer
+product: Windows
+targetos: Windows
+req.lib: D2D1.lib
+req.dll: 
+req.irql: 
+---
+
+# ID2D1EffectContext::CreateVertexBuffer
+
+
+## -description
+
+
+Creates a vertex buffer or finds a standard vertex buffer and optionally initializes it with vertices. The returned buffer can be specified in the render info to specify both a vertex shader and or to pass custom vertices to the standard vertex shader used by <a href="https://msdn.microsoft.com/03b3b91c-9751-4f8d-af24-85067f06930b">Direct2D</a>.
+
+
+
+
+## -parameters
+
+
+
+
+### -param vertexBufferProperties [in]
+
+Type: <b>const <a href="https://msdn.microsoft.com/d2f46c31-10f3-4318-8185-40a6bbd8ef8a">D2D1_VERTEX_BUFFER_PROPERTIES</a>*</b>
+
+The properties used to describe the vertex buffer and vertex shader.
+
+
+### -param resourceId [in, optional]
+
+Type: <b>const GUID*</b>
+
+The unique id that identifies the vertex buffer.
+
+
+### -param customVertexBufferProperties [in, optional]
+
+Type: <b>const <a href="https://msdn.microsoft.com/e3cebb2b-48fb-42b2-8eb4-b9676b581bac">D2D1_CUSTOM_VERTEX_BUFFER_PROPERTIES</a>*</b>
+
+The properties used to define a custom vertex buffer. If you use a built-in vertex shader, you don't have to specify this property.
+
+
+### -param buffer [out]
+
+Type: <b><a href="https://msdn.microsoft.com/1DBCDF93-83C6-4B02-9E94-8024D7849DF7">ID2D1VertexBuffer</a>**</b>
+
+The returned vertex buffer.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+The method returns an <b>HRESULT</b>. Possible values include, but are not limited to, those in the following table.
+
+<table>
+<tr>
+<th>HRESULT</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>S_OK</td>
+<td>No error occurred.</td>
+</tr>
+<tr>
+<td>E_OUTOFMEMORY</td>
+<td>Direct2D could not allocate sufficient memory to complete the call.</td>
+</tr>
+<tr>
+<td>E_INVALIDARG</td>
+<td>An invalid parameter was passed to the returning function.</td>
+</tr>
+</table>
+ 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/6BE6DF90-C5B7-4377-9DBF-804AB1C91FEE">ID2D1EffectContext</a>
+ 
+
+ 
+

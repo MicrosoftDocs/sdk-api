@@ -55,16 +55,16 @@ The <b>ITfFnReconversion</b> interface is implemented by a text service and is u
 
 The TSF manager implements this interface to provide access to this interface to other clients. This allows the TSF manager to function as a mediator between the client and the text service.
 
-The TSF manager obtains this interface by calling the text service <a href="https://msdn.microsoft.com/en-us/library/ms538981(v=VS.85).aspx">ITfFunctionProvider::GetFunction</a> method with IID_ITfFnReconversion.
+The TSF manager obtains this interface by calling the text service <a href="https://msdn.microsoft.com/a8ec629a-9ac6-4f25-82f2-42af6ce52ddc">ITfFunctionProvider::GetFunction</a> method with IID_ITfFnReconversion.
 
 An application obtains this interface by calling the TSF manager <b>ITfFunctionProvider::GetFunction</b> method with IID_ITfFnReconversion.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnReconversion</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ITfFnReconversion</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfFnReconversion</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfFnReconversion</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -77,7 +77,7 @@ The <b>ITfFnReconversion</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms538972(v=VS.85).aspx">GetReconversion</a>
+<a href="https://msdn.microsoft.com/ed696088-c599-4c83-968e-d09d9ae81c10">GetReconversion</a>
 </td>
 <td align="left" width="63%">
 Obtains an ITfCandidateList object for a range of text.
@@ -86,7 +86,7 @@ Obtains an ITfCandidateList object for a range of text.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms538973(v=VS.85).aspx">QueryRange</a>
+<a href="https://msdn.microsoft.com/022d0ad7-5359-48df-b83b-2319eb1a84bf">QueryRange</a>
 </td>
 <td align="left" width="63%">
 Obtains the range of text that the reconversion applies to.
@@ -95,7 +95,7 @@ Obtains the range of text that the reconversion applies to.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms538975(v=VS.85).aspx">Reconvert</a>
+<a href="https://msdn.microsoft.com/81d0f376-c059-4fcf-b85b-645bc98f957d">Reconvert</a>
 </td>
 <td align="left" width="63%">
 Invokes the reconversion process for a range of text.

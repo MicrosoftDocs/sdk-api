@@ -101,7 +101,7 @@ Creates a VT_VECTOR | VT_I8 propvariant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762302(v=VS.85).aspx">InitPropVariantFromInt64Vector</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromInt64Vector">InitPropVariantFromInt64Vector</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -131,15 +131,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762301(v=VS.85).aspx">InitPropVariantFromInt64</a>
+<a href="shell.InitPropVariantFromInt64">InitPropVariantFromInt64</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762331(v=VS.85).aspx">InitVariantFromInt64</a>
+<a href="shell.InitVariantFromInt64">InitVariantFromInt64</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776556(v=VS.85).aspx">PropVariantToInt64Vector</a>
+<a href="shell.PropVariantToInt64Vector">PropVariantToInt64Vector</a>
  
 
  

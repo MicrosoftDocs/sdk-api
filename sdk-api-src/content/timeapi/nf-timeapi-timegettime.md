@@ -7,7 +7,7 @@ old-location: multimedia\timegettime.htm
 old-project: Multimedia
 ms.assetid: f9d3a7a9-1457-4993-92f1-f888780a565e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: "_win32_timeGetTime, mmsystem/timeGetTime, multimedia.timegettime, timeGetTime, timeGetTime function [Windows Multimedia], timeapi/timeGetTime"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,7 +85,7 @@ The only difference between this function and the <a href="https://msdn.microsof
 
 Note that the value returned by the <b>timeGetTime</b> function is a <b>DWORD</b> value. The return value wraps around to 0 every 2^32 milliseconds, which is about 49.71 days. This can cause problems in code that directly uses the <b>timeGetTime</b> return value in computations, particularly where the value is used to control code execution. You should always use the difference between two <b>timeGetTime</b> return values in computations.
 
-The default precision of the <b>timeGetTime</b> function can be five milliseconds or more, depending on the machine. You can use the <a href="https://msdn.microsoft.com/7168981c-9af8-4665-88a2-7d96a8f2b273">timeBeginPeriod</a> and <a href="https://msdn.microsoft.com/b06531f9-4fd7-4051-80d4-5a175fdd37e7">timeEndPeriod</a> functions to increase the precision of <b>timeGetTime</b>. If you do so, the minimum difference between successive values returned by <b>timeGetTime</b> can be as large as the minimum period value set using <b>timeBeginPeriod</b> and <b>timeEndPeriod</b>. Use the <a href="https://msdn.microsoft.com/en-us/library/ms644904(v=VS.85).aspx">QueryPerformanceCounter</a> and <a href="https://msdn.microsoft.com/en-us/library/ms644905(v=VS.85).aspx">QueryPerformanceFrequency</a> functions to measure short time intervals at a high resolution.
+The default precision of the <b>timeGetTime</b> function can be five milliseconds or more, depending on the machine. You can use the <a href="https://msdn.microsoft.com/7168981c-9af8-4665-88a2-7d96a8f2b273">timeBeginPeriod</a> and <a href="https://msdn.microsoft.com/b06531f9-4fd7-4051-80d4-5a175fdd37e7">timeEndPeriod</a> functions to increase the precision of <b>timeGetTime</b>. If you do so, the minimum difference between successive values returned by <b>timeGetTime</b> can be as large as the minimum period value set using <b>timeBeginPeriod</b> and <b>timeEndPeriod</b>. Use the <a href="winmsg.queryperformancecounter">QueryPerformanceCounter</a> and <a href="winmsg.queryperformancefrequency">QueryPerformanceFrequency</a> functions to measure short time intervals at a high resolution.
 
 
 

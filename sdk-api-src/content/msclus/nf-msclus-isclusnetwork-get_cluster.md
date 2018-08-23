@@ -59,7 +59,7 @@ req.product: GDI+ 1.1
 
 Returns a 
     <a href="https://msdn.microsoft.com/4a765dce-c823-4a79-8608-ff41feec8a39">Cluster</a> object providing access to the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> that owns the 
+    <a href="c_gly.htm">cluster</a> that owns the 
     <a href="https://msdn.microsoft.com/57d16e1f-e774-4ffb-b26b-7e72d6d589aa">network</a>.
 
 This property is read-only.

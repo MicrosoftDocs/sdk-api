@@ -66,9 +66,9 @@ Get the exception-mode flags.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-A value that contains one or more exception flags; each flag specifies a condition which will cause an exception to be raised. The flags are listed in <a href="https://msdn.microsoft.com/en-us/library/Ff476197(v=VS.85).aspx">D3D11_RAISE_FLAG</a>. A default value of 0 means there are no flags.
+A value that contains one or more exception flags; each flag specifies a condition which will cause an exception to be raised. The flags are listed in <a href="https://msdn.microsoft.com/cdb88a12-153d-4f92-89c8-d3dab1b6bed5">D3D11_RAISE_FLAG</a>. A default value of 0 means there are no flags.
 
 
 
@@ -87,7 +87,7 @@ An exception-mode flag is used to elevate an error condition to a non-continuabl
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476379(v=VS.85).aspx">ID3D11Device</a>
+<a href="https://msdn.microsoft.com/2f2559d9-1cd6-44f6-90e2-ee0f86e39f78">ID3D11Device</a>
  
 
  

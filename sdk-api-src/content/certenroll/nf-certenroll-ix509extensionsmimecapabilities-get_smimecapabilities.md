@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-The <b>SmimeCapabilities</b> property retrieves a collection of <a href="https://msdn.microsoft.com/en-us/library/Aa377045(v=VS.85).aspx">ISmimeCapability</a> objects.
+The <b>SmimeCapabilities</b> property retrieves a collection of <a href="https://msdn.microsoft.com/3cfbb16f-88fa-41f1-b719-cd5e8ad636cc">ISmimeCapability</a> objects.
 
 This property is read-only.
 
@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/Aa378185(v=VS.85).aspx">InitializeEncode</a> method or the <a href="https://msdn.microsoft.com/en-us/library/Aa378181(v=VS.85).aspx">InitializeDecode</a> method to initialize the <b>SMIMECapabilities</b> extension.  You can also call the <a href="https://msdn.microsoft.com/en-us/library/Aa378409(v=VS.85).aspx">Critical</a> property to specify and retrieve a Boolean value that identifies whether the extension is critical, and you can call the <a href="https://msdn.microsoft.com/en-us/library/Aa378518(v=VS.85).aspx">ObjectId</a> property to retrieve the OID associated with the extension.
+Call the <a href="https://msdn.microsoft.com/731e3c93-699b-4a99-8520-294f3134aa66">InitializeEncode</a> method or the <a href="https://msdn.microsoft.com/9b89b9aa-3e71-4511-8e5a-1fe2165fa672">InitializeDecode</a> method to initialize the <b>SMIMECapabilities</b> extension.  You can also call the <a href="https://msdn.microsoft.com/b03ec7fe-78e9-4a8a-81b8-eaa91aa8d072">Critical</a> property to specify and retrieve a Boolean value that identifies whether the extension is critical, and you can call the <a href="https://msdn.microsoft.com/d3508bfe-e323-4075-9c82-d9b53b8f54aa">ObjectId</a> property to retrieve the OID associated with the extension.
 
 
 
@@ -74,7 +74,7 @@ Call the <a href="https://msdn.microsoft.com/en-us/library/Aa378185(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378177(v=VS.85).aspx">IX509ExtensionSmimeCapabilities</a>
+<a href="https://msdn.microsoft.com/06dca62d-282b-4bdd-bc8d-4d2e6eb226b5">IX509ExtensionSmimeCapabilities</a>
  
 
  

@@ -80,7 +80,7 @@ Pointer to an array of pointers to null-terminated strings that receives the sit
 
 
 
-This function returns DSGETDCAPI DWORD.
+This function returns DSGETDCAPI DWORD __stdcall.
 
 
 

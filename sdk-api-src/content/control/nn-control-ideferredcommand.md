@@ -7,7 +7,7 @@ old-location: dshow\ideferredcommand.htm
 old-project: DirectShow
 ms.assetid: 8161932a-16aa-4700-b91d-b4d8948ad59f
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/20/2018
 ms.keywords: IDeferredCommand, IDeferredCommand interface [DirectShow], IDeferredCommand interface [DirectShow],described, IDeferredCommandInterface, control/IDeferredCommand, dshow.ideferredcommand
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.irql:
 
 
 
-The <code>IDeferredCommand</code> interface cancels or modify graph-control commands that were queued using the <a href="https://msdn.microsoft.com/en-us/library/Dd376922(v=VS.85).aspx">IQueueCommand</a> interface.
+The <code>IDeferredCommand</code> interface cancels or modify graph-control commands that were queued using the <a href="https://msdn.microsoft.com/08efcbec-ce17-44e8-a3c1-4b5b95dcaaa4">IQueueCommand</a> interface.
 
 When an application calls an <b>IQueueCommand</b> method on the Filter Graph Manager, it receives a pointer to the <code>IDeferredCommand</code> interface. The application can use the interface to cancel or postpone the command, or retrieve the return value from the command.
 
@@ -62,9 +62,9 @@ When an application calls an <b>IQueueCommand</b> method on the Filter Graph Man
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDeferredCommand</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IDeferredCommand</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDeferredCommand</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDeferredCommand</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -77,7 +77,7 @@ The <b>IDeferredCommand</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406763(v=VS.85).aspx">Cancel</a>
+<a href="https://msdn.microsoft.com/56618860-3655-42a2-ad74-ef43da08d001">Cancel</a>
 </td>
 <td align="left" width="63%">
 Cancels a command that the application previously queued.
@@ -86,7 +86,7 @@ Cancels a command that the application previously queued.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406764(v=VS.85).aspx">Confidence</a>
+<a href="https://msdn.microsoft.com/fb3e97a5-b9bc-4a72-9ee7-0a6292fad99d">Confidence</a>
 </td>
 <td align="left" width="63%">
 Not implemented.
@@ -95,7 +95,7 @@ Not implemented.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406765(v=VS.85).aspx">GetHResult</a>
+<a href="https://msdn.microsoft.com/ce047464-d283-4ff4-a5eb-9e394d4ac3fd">GetHResult</a>
 </td>
 <td align="left" width="63%">
 Retrieves the return value from the invoked command.
@@ -104,7 +104,7 @@ Retrieves the return value from the invoked command.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd406766(v=VS.85).aspx">Postpone</a>
+<a href="https://msdn.microsoft.com/184370db-95df-45a8-b1a0-e399923f866e">Postpone</a>
 </td>
 <td align="left" width="63%">
 Specifies a new invocation time for the command.

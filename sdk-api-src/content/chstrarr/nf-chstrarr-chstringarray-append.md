@@ -52,10 +52,10 @@ req.irql:
 ## -description
 
 
-<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/en-us/library/Aa385304(v=VS.85).aspx">CHStringArray</a> class 
+<p class="CCE_Message">[The <a href="https://msdn.microsoft.com/62959345-4fed-4107-b155-1746ad35c658">CHStringArray</a> class 
     is part of the WMI Provider Framework which is now considered in final state, and no further development, 
     enhancements, or updates will be available for non-security related issues affecting these libraries. The 
-    <a href="https://msdn.microsoft.com/en-us/library/JJ152383(v=VS.85).aspx">MI APIs</a> should be used for all new 
+    <a href="https://msdn.microsoft.com/7F311E1B-5CE6-488D-9411-DE1822D95C3B">MI APIs</a> should be used for all new 
     development.]
 
 The <b>Append</b> method adds the contents of another array to the end of the given array.
@@ -122,15 +122,15 @@ for (idx=0; idx&lt;size; idx++)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385304(v=VS.85).aspx">CHStringArray</a>
+<a href="https://msdn.microsoft.com/62959345-4fed-4107-b155-1746ad35c658">CHStringArray</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385329(v=VS.85).aspx">CHStringArray::Add</a>
+<a href="https://msdn.microsoft.com/f5a0b8e6-b40a-4dc7-bf36-ec629e2899db">CHStringArray::Add</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385350(v=VS.85).aspx">CHStringArray::Copy</a>
+<a href="https://msdn.microsoft.com/9598340f-c315-4c93-bc8a-2b7c1eaf5a35">CHStringArray::Copy</a>
  
 
  

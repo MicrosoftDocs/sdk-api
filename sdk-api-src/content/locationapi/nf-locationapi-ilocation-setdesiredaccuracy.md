@@ -68,7 +68,14 @@ Specifies the accuracy to be used.
 <b>REFIID</b> that specifies the report type for which to set the accuracy to be used.
 
 
-### -param desiredAccuracy [in]
+### -param param
+
+
+
+
+
+
+#### - desiredAccuracy [in]
 
 
 <a href="https://msdn.microsoft.com/5d3fc14b-fbf1-4140-8277-44e72a50e028">LOCATION_DESIRED_ACCURACY</a> value that specifies the accuracy to be used.

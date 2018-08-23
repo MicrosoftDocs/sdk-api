@@ -52,7 +52,7 @@ req.irql:
 
 
 Opens a handle to a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa371519(v=VS.85).aspx">network interface</a>. The <b>PCLUSAPI_OPEN_CLUSTER_NET_INTERFACE</b> type defines a pointer to this function.
+    <a href="https://msdn.microsoft.com/cc0cbbc3-e342-483e-9c94-4ee43f4d588d">network interface</a>. The <b>PCLUSAPI_OPEN_CLUSTER_NET_INTERFACE</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ Opens a handle to a
 
 ### -param hCluster [in]
 
-Handle to a <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+Handle to a <a href="c_gly.htm">cluster</a>.
 
 
 ### -param lpszInterfaceName [in]
@@ -90,7 +90,7 @@ If the operation was successful,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa371724(v=VS.85).aspx">Network Interface Management Functions</a>
+<a href="https://msdn.microsoft.com/63602522-6425-4c3f-b80f-32ee2c3d6469">Network Interface Management Functions</a>
 
 
 

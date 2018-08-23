@@ -72,7 +72,7 @@ The <b>IUICommandHandler</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd371489(v=VS.85).aspx">Execute</a>
+<a href="https://msdn.microsoft.com/d4f3e260-2839-4f0b-892b-7e61f20238f3">Execute</a>
 </td>
 <td align="left" width="63%">
 Responds to execute events on Commands bound to the Command handler.  
@@ -81,7 +81,7 @@ Responds to execute events on Commands bound to the Command handler.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd371494(v=VS.85).aspx">UpdateProperty</a>
+<a href="https://msdn.microsoft.com/47acd4d3-6841-4a19-99ff-d36fe78c2e93">UpdateProperty</a>
 </td>
 <td align="left" width="63%">
 Responds to property update requests from the Ribbon framework.
@@ -98,7 +98,7 @@ Responds to property update requests from the Ribbon framework.
 
 For each Command in a View, the Ribbon framework requires a corresponding Command handler in 
 				the host application. A new handler or an existing handler must be bound to the Command through 
-				the <a href="https://msdn.microsoft.com/en-us/library/Dd371531(v=VS.85).aspx">IUIApplication::OnCreateUICommand</a> notification method.
+				the <a href="https://msdn.microsoft.com/13e03acd-1a1e-48f9-b413-5a24d8b784d0">IUIApplication::OnCreateUICommand</a> notification method.
 			
 
 Any number of Commands can be bound to a Command handler.
@@ -115,7 +115,7 @@ The Command handler serves two purposes: respond to property update requests and
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://msdn.microsoft.com/79d092c9-347b-4b8f-8ba4-a8f696ce6a85">Windows Ribbon Framework Samples</a>
  
 
  

@@ -22,7 +22,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: CluAdmEx.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -53,7 +53,7 @@ req.irql:
 
 
 Identifies the resource or group as a 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa369314(v=VS.85).aspx">core resource</a>.
+     <a href="https://msdn.microsoft.com/46b71882-be37-4c3f-a328-a394c1310958">core resource</a>.
 
 
 ## -enum-fields
@@ -63,10 +63,10 @@ Identifies the resource or group as a
 
 ### -field CLUS_FLAG_CORE
 
-Identifies <a href="https://msdn.microsoft.com/en-us/library/Aa369314(v=VS.85).aspx">core resources</a> or the cluster group that 
+Identifies <a href="https://msdn.microsoft.com/46b71882-be37-4c3f-a328-a394c1310958">core resources</a> or the cluster group that 
        contains core resources. The 
-       <a href="https://msdn.microsoft.com/en-us/library/Aa369016(v=VS.85).aspx">ClusterResourceControl</a> function with the 
-       <a href="https://msdn.microsoft.com/en-us/library/Aa367471(v=VS.85).aspx">CLUSCTL_RESOURCE_GET_FLAGS</a> control 
+       <a href="https://msdn.microsoft.com/a98ca55a-6535-48cf-a925-5005baa01b94">ClusterResourceControl</a> function with the 
+       <a href="https://msdn.microsoft.com/bee0f0c4-4d8a-4903-a9d0-6b5bc1fdfce4">CLUSCTL_RESOURCE_GET_FLAGS</a> control 
        code can retrieve the flags that are set for a resource.
 
 
@@ -75,11 +75,11 @@ Identifies <a href="https://msdn.microsoft.com/en-us/library/Aa369314(v=VS.85).a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa367471(v=VS.85).aspx">CLUSCTL_RESOURCE_GET_FLAGS</a>
+<a href="https://msdn.microsoft.com/bee0f0c4-4d8a-4903-a9d0-6b5bc1fdfce4">CLUSCTL_RESOURCE_GET_FLAGS</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369016(v=VS.85).aspx">ClusterResourceControl</a>
+<a href="https://msdn.microsoft.com/a98ca55a-6535-48cf-a925-5005baa01b94">ClusterResourceControl</a>
  
 
  

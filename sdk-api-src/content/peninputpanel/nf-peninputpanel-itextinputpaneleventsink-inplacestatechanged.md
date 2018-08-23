@@ -7,7 +7,7 @@ old-location: tablet\itextinputpaneleventsink_inplacestatechanged.htm
 old-project: tablet
 ms.assetid: bc01ecda-bb9f-40c6-8ac7-ffc4cc89b6a2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: ITextInputPanelEventSink interface [Tablet PC],InPlaceStateChanged method, ITextInputPanelEventSink.InPlaceStateChanged, ITextInputPanelEventSink::InPlaceStateChanged, InPlaceStateChanged, InPlaceStateChanged method [Tablet PC], InPlaceStateChanged method [Tablet PC],ITextInputPanelEventSink interface, bc01ecda-bb9f-40c6-8ac7-ffc4cc89b6a2, peninputpanel/ITextInputPanelEventSink::InPlaceStateChanged, tablet.itextinputpaneleventsink_inplacestatechanged
 ms.prod: windows
 ms.technology: windows-sdk

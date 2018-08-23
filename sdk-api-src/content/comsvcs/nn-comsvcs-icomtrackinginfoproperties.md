@@ -99,7 +99,7 @@ Retrieves the number of properties defined for a tracking information object.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd179218(v=VS.85).aspx">COM+ Tracking</a>
+<a href="https://msdn.microsoft.com/ad3bdeb5-f303-411a-abfb-ccde3f9a86b9">COM+ Tracking</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: intl\immgetvirtualkey.htm
 old-project: Intl
 ms.assetid: 56c40e55-19e3-4c06-bac7-c4d0098e932a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: ImmGetVirtualKey, ImmGetVirtualKey function [Internationalization for Windows Applications], _win32_ImmGetVirtualKey, imm/ImmGetVirtualKey, intl.immgetvirtualkey
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ Handle to the window that receives the key message.
 
 
 
-If <a href="https://msdn.microsoft.com/en-us/library/ms644955(v=VS.85).aspx">TranslateMessage</a> has been called by the application, <b>ImmGetVirtualKey</b> returns VK_PROCESSKEY; otherwise, it returns the virtual key.
+If <a href="_win32_TranslateMessage">TranslateMessage</a> has been called by the application, <b>ImmGetVirtualKey</b> returns VK_PROCESSKEY; otherwise, it returns the virtual key.
 
 
 
@@ -82,7 +82,7 @@ If <a href="https://msdn.microsoft.com/en-us/library/ms644955(v=VS.85).aspx">Tra
 
 Although the IME sets the virtual key value to VK_PROCESSKEY after processing a key input message, an application can recover the original virtual key value with the <b>ImmGetVirtualKey</b> function. This function is used only for key input messages containing the VK_PROCESSKEY value. Applications can only get the original virtual key by using this function after receiving 
 
-the <a href="https://msdn.microsoft.com/en-us/library/ms646280(v=VS.85).aspx">WM_KEYDOWN</a> (VK_PROCESSKEY) message, and before <a href="https://msdn.microsoft.com/en-us/library/ms644955(v=VS.85).aspx">TranslateMessage</a> is called in its own 
+the <a href="_win32_WM_KEYDOWN">WM_KEYDOWN</a> (VK_PROCESSKEY) message, and before <a href="_win32_TranslateMessage">TranslateMessage</a> is called in its own 
 
 message loop.
 

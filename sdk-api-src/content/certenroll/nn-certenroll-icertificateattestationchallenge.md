@@ -56,10 +56,10 @@ Allows applications to decrypt a key attestation challenge received from a serve
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertificateAttestationChallenge</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICertificateAttestationChallenge</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertificateAttestationChallenge</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ICertificateAttestationChallenge</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Properties</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
 </ul>
 
 ## -members
@@ -72,19 +72,19 @@ The <b>ICertificateAttestationChallenge</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn379340(v=VS.85).aspx">DecryptChallenge</a>
+<a href="https://msdn.microsoft.com/ae0fb86f-c567-4b85-abfe-7a035491e4fc">DecryptChallenge</a>
 </td>
 <td align="left" width="63%">
-Decrypts the challenge from the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">Certificate Management over CMS</a> (CMC) response and creates a re-encrypted response to send to the CA.
+Decrypts the challenge from the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">Certificate Management over CMS</a> (CMC) response and creates a re-encrypted response to send to the CA.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn379341(v=VS.85).aspx">Initialize</a>
+<a href="https://msdn.microsoft.com/d4dbda92-4523-4adb-9b88-b2bc763570fd">Initialize</a>
 </td>
 <td align="left" width="63%">
-Initialize using the full <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">Certificate Management over CMS</a> (CMC) response returned from the CA.
+Initialize using the full <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">Certificate Management over CMS</a> (CMC) response returned from the CA.
 
 </td>
 </tr>
@@ -99,7 +99,7 @@ Initialize using the full <a href="https://msdn.microsoft.com/en-us/library/ms72
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn379344(v=VS.85).aspx">RequestID</a>
+<a href="https://msdn.microsoft.com/c3ca69cf-12e0-4341-b3a6-f668155ea3ff">RequestID</a>
 
 
 </td>
@@ -108,7 +108,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Gets the request ID from the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">Certificate Management over CMS</a> (CMC) response.
+Gets the request ID from the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">Certificate Management over CMS</a> (CMC) response.
 
 </td>
 </tr>

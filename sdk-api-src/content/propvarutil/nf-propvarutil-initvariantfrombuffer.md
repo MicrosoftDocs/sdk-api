@@ -52,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Initializes a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure with the contents of a buffer.
+Initializes a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure with the contents of a buffer.
 
 
 ## -parameters
@@ -78,7 +78,7 @@ The length of the buffer, in bytes.
 
 Type: <b>VARIANT*</b>
 
-When this function returns, contains the initialized <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure.
+When this function returns, contains the initialized <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
 
 
 ## -returns
@@ -101,7 +101,7 @@ Creates a VT_ARRAY | VT_UI1 variant..
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762318(v=VS.85).aspx">InitVariantFromBuffer</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromBuffer">InitVariantFromBuffer</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -133,11 +133,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762289(v=VS.85).aspx">InitPropVariantFromBuffer</a>
+<a href="shell.InitPropVariantFromBuffer">InitPropVariantFromBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776596(v=VS.85).aspx">VariantToBuffer</a>
+<a href="shell.VariantToBuffer">VariantToBuffer</a>
  
 
  

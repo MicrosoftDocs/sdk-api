@@ -7,7 +7,7 @@ old-location: base\interlockedexchange16.htm
 old-project: sync
 ms.assetid: 06756ec6-9c1c-4aac-99de-c45186c89af1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: InterlockedExchange16, InterlockedExchange16 function, base.interlockedexchange16, winnt/InterlockedExchange16
 ms.prod: windows
 ms.technology: windows-sdk

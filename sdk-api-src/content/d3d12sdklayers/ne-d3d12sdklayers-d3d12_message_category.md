@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Specifies categories of debug messages. This will identify the category of a message when retrieving a message with <a href="https://msdn.microsoft.com/en-us/library/Dn950174(v=VS.85).aspx">ID3D12InfoQueue::GetMessage</a> and when adding a message with <a href="https://msdn.microsoft.com/en-us/library/Dn950165(v=VS.85).aspx">ID3D12InfoQueue::AddMessage</a>. When creating an info queue filter, these values can be used to allow or deny any categories of messages to pass through the storage and retrieval filters.
+Specifies categories of debug messages. This will identify the category of a message when retrieving a message with <a href="https://msdn.microsoft.com/B7B6D1C4-18FD-492A-8346-CA02FCD3EC4B">ID3D12InfoQueue::GetMessage</a> and when adding a message with <a href="https://msdn.microsoft.com/34AAF9BB-5340-4DB3-87B9-6C26AB6C881C">ID3D12InfoQueue::AddMessage</a>. When creating an info queue filter, these values can be used to allow or deny any categories of messages to pass through the storage and retrieval filters.
 
 
         
@@ -64,7 +64,7 @@ Specifies categories of debug messages. This will identify the category of a mes
 
 ### -field D3D12_MESSAGE_CATEGORY_APPLICATION_DEFINED
 
-Indicates a user defined message, see <a href="https://msdn.microsoft.com/en-us/library/Dn950165(v=VS.85).aspx">ID3D12InfoQueue::AddMessage</a>.
+Indicates a user defined message, see <a href="https://msdn.microsoft.com/34AAF9BB-5340-4DB3-87B9-6C26AB6C881C">ID3D12InfoQueue::AddMessage</a>.
           
 
 
@@ -102,7 +102,7 @@ Indicates a user defined message, see <a href="https://msdn.microsoft.com/en-us/
 
 
 
-This is part of the Information Queue feature, refer to the <a href="https://msdn.microsoft.com/en-us/library/Dn950163(v=VS.85).aspx">ID3D12InfoQueue</a> Interface.
+This is part of the Information Queue feature, refer to the <a href="https://msdn.microsoft.com/61667AAC-05AC-4745-8992-E9377641D411">ID3D12InfoQueue</a> Interface.
 
 
 
@@ -112,7 +112,7 @@ This is part of the Information Queue feature, refer to the <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn950149(v=VS.85).aspx">Debug Layer Enumerations</a>
+<a href="https://msdn.microsoft.com/6E76C857-128E-4F0E-9711-72C4CF6C835C">Debug Layer Enumerations</a>
  
 
  

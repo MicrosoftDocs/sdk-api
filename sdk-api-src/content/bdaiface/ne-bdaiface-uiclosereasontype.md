@@ -92,7 +92,7 @@ Error.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693018(v=VS.85).aspx">BDA Enumeration Types</a>
+<a href="https://msdn.microsoft.com/13183e2a-6fbb-422c-b93c-53c12cb27423">BDA Enumeration Types</a>
  
 
  

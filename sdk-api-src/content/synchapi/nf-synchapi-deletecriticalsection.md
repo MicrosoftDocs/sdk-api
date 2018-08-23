@@ -7,7 +7,7 @@ old-location: base\deletecriticalsection.htm
 old-project: sync
 ms.assetid: 97e29fc3-b155-448e-aaa9-19f0fc2d841e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: DeleteCriticalSection, DeleteCriticalSection function, _win32_deletecriticalsection, base.deletecriticalsection, synchapi/DeleteCriticalSection, winbase/DeleteCriticalSection
 ms.prod: windows
 ms.technology: windows-sdk

@@ -135,11 +135,11 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/">context_handle</a>
+<a href="https://msdn.microsoft.com/ab1aee44-4add-4816-a7ef-38bbf7b38918">context_handle</a>
 
 
 
-<a href="https://msdn.microsoft.com/">context_handle_noserialize</a>
+<a href="https://msdn.microsoft.com/aff2484e-639b-41d2-94a9-f34ca4f2343c">context_handle_noserialize</a>
 
 
 

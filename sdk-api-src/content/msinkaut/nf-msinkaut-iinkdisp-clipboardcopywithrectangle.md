@@ -7,7 +7,7 @@ old-location: tablet\inkdisp_clipboardcopywithrectangle.htm
 old-project: tablet
 ms.assetid: a4e6a183-242a-40af-871b-43a0b177a27a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: ClipboardCopyWithRectangle, ClipboardCopyWithRectangle method [Tablet PC], ClipboardCopyWithRectangle method [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],ClipboardCopyWithRectangle method, IInkDisp.ClipboardCopyWithRectangle, IInkDisp::ClipboardCopyWithRectangle, a4e6a183-242a-40af-871b-43a0b177a27a, msinkaut/IInkDisp::ClipboardCopyWithRectangle, tablet.inkdisp_clipboardcopywithrectangle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -164,7 +164,7 @@ If the strokes count is queried within the event handler, the result is the tota
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846797(v=VS.85).aspx">IInkDisp</a>
+<a href="https://msdn.microsoft.com/85B683AA-D859-4717-8C61-C0EB4BBA5F61">IInkDisp</a>
 
 
 

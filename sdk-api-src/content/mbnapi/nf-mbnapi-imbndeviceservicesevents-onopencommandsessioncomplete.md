@@ -62,7 +62,7 @@ Notification method indicating that a device service <b>CommandSessionOpen</b> r
 
 ### -param deviceService [in]
 
-The <a href="https://msdn.microsoft.com/en-us/library/Hh780509(v=VS.85).aspx">IMbnDeviceService</a> object on which the <b>CommandSessionOpen</b> was requested.
+The <a href="IMbnDeviceService">IMbnDeviceService</a> object on which the <b>CommandSessionOpen</b> was requested.
 
 
 ### -param status [in]

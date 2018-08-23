@@ -72,26 +72,19 @@ Determines whether or not a specified name can be used to create a file on the F
 The file name, in 8.3 format.
 
 
-### -param OPTIONAL
+### -param OemName [in, out, optional]
 
-TBD
+A pointer to a buffer that receives the OEM string that corresponds to <i>Name</i>.
+
+This parameter can be <b>NULL</b>.
 
 
-
-
-#### - NameContainsSpaces [out, optional]
+### -param NameContainsSpaces [out, optional]
 
 If the function returns <b>TRUE</b>, this parameter indicates whether or not the name 
        contains spaces.
 
 If the function returns <b>FALSE</b>, this parameter is undefined.
-
-
-#### - OemName [in, out, optional]
-
-A pointer to a buffer that receives the OEM string that corresponds to <i>Name</i>.
-
-This parameter can be <b>NULL</b>.
 
 
 ## -returns

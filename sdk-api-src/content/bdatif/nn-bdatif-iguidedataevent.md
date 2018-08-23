@@ -52,7 +52,7 @@ req.irql:
 
 
 
-The <b>IGuideDataEvent</b> interface is used to receive events from the <a href="https://msdn.microsoft.com/en-us/library/Dd693011(v=VS.85).aspx">BDA MPEG-2 Transport Information Filter</a> (TIF).
+The <b>IGuideDataEvent</b> interface is used to receive events from the <a href="https://msdn.microsoft.com/22044a4c-480f-4c98-a78e-52c66a5eac99">BDA MPEG-2 Transport Information Filter</a> (TIF).
 
 This interface is an outgoing connection-point interface. To receive events from a playback device, implement this interface and then call the <b>IConnectionPoint::Advise</b> method to establish a connection. The event sink must not block the calling thread. If the client requires additional information about the event, it should make calls on a separate thread.
 
@@ -61,9 +61,9 @@ This interface is an outgoing connection-point interface. To receive events from
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGuideDataEvent</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IGuideDataEvent</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IGuideDataEvent</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IGuideDataEvent</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -76,7 +76,7 @@ The <b>IGuideDataEvent</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694100(v=VS.85).aspx">GuideDataAcquired</a>
+<a href="https://msdn.microsoft.com/00f1aec7-4d26-4323-9d7e-c75d9a0c374c">GuideDataAcquired</a>
 </td>
 <td align="left" width="63%">
 Called when a complete set of guide data has been acquired from the current transport stream. (Currently not supported.)
@@ -85,7 +85,7 @@ Called when a complete set of guide data has been acquired from the current tran
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694101(v=VS.85).aspx">ProgramChanged</a>
+<a href="https://msdn.microsoft.com/06fcf24b-5d35-4689-9c88-240fe18a46de">ProgramChanged</a>
 </td>
 <td align="left" width="63%">
 Called when information about one or more programs has changed.
@@ -94,7 +94,7 @@ Called when information about one or more programs has changed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694102(v=VS.85).aspx">ProgramDeleted</a>
+<a href="https://msdn.microsoft.com/4a71e139-1c09-473c-8195-0a55601d2f17">ProgramDeleted</a>
 </td>
 <td align="left" width="63%">
 Called when a program has been deleted. (Currently not supported.)
@@ -103,7 +103,7 @@ Called when a program has been deleted. (Currently not supported.)
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694103(v=VS.85).aspx">ScheduleDeleted</a>
+<a href="https://msdn.microsoft.com/302c068e-4fab-4045-be9b-664902afd44c">ScheduleDeleted</a>
 </td>
 <td align="left" width="63%">
 Called when a schedule entry has been deleted. (Currently not supported.)
@@ -112,7 +112,7 @@ Called when a schedule entry has been deleted. (Currently not supported.)
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694104(v=VS.85).aspx">ScheduleEntryChanged</a>
+<a href="https://msdn.microsoft.com/04c278a0-8a92-4801-9463-696beb22819e">ScheduleEntryChanged</a>
 </td>
 <td align="left" width="63%">
 Called when information about one or more schedule entries has changed.
@@ -121,7 +121,7 @@ Called when information about one or more schedule entries has changed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694105(v=VS.85).aspx">ServiceChanged</a>
+<a href="https://msdn.microsoft.com/75387dd8-e0e2-4fae-8c4a-a0b7b06f61b1">ServiceChanged</a>
 </td>
 <td align="left" width="63%">
 Called when a service has been changed.
@@ -130,7 +130,7 @@ Called when a service has been changed.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd694106(v=VS.85).aspx">ServiceDeleted</a>
+<a href="https://msdn.microsoft.com/bba15ebe-d1c5-4c71-b052-6b75a7825613">ServiceDeleted</a>
 </td>
 <td align="left" width="63%">
 Called when a service has been deleted. (Currently not supported.)
@@ -154,7 +154,7 @@ To declare the interface identifier (IID) for this interface, use the <b>__uuido
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693008(v=VS.85).aspx">BDA Interfaces</a>
+<a href="https://msdn.microsoft.com/07d18f73-e852-4c88-a2e2-e8f4198ca799">BDA Interfaces</a>
  
 
  

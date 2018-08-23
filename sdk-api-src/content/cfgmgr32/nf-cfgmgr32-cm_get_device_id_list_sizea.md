@@ -7,7 +7,7 @@ old-location: devinst\cm_get_device_id_list_size.htm
 old-project: devinst
 ms.assetid: 3c650b21-56dc-4ef5-b986-417a247b3eb0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: CM_Get_Device_ID_List_Size, CM_Get_Device_ID_List_Size function [Device and Driver Installation], CM_Get_Device_ID_List_SizeA, CM_Get_Device_ID_List_SizeW, cfgmgr32/CM_Get_Device_ID_List_Size, cfgmgr32/CM_Get_Device_ID_List_SizeA, cfgmgr32/CM_Get_Device_ID_List_SizeW, cfgmgrfn_b3d09a40-04c8-4b59-9e33-cd8b7a41972d.xml, devinst.cm_get_device_id_list_size
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ req.irql:
 ## -description
 
 
-The <b>CM_Get_Device_ID_List_Size</b> function retrieves the buffer size required to hold a list of <a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">device instance IDs</a> for the local machine's <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device instances</a>.
+The <b>CM_Get_Device_ID_List_Size</b> function retrieves the buffer size required to hold a list of <a href="devinst.device_instance_ids">device instance IDs</a> for the local machine's <a href="https://msdn.microsoft.com/86688b5d-575d-42e1-9158-7ffba1aaf1d3">device instances</a>.
 
 
 ## -parameters

@@ -7,7 +7,7 @@ old-location: intl\ispellcheckprovider_suggest.htm
 old-project: Intl
 ms.assetid: 4A66619C-8A12-4465-889C-B880C43031AB
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: ISpellCheckProvider interface [Internationalization for Windows Applications],Suggest method, ISpellCheckProvider.Suggest, ISpellCheckProvider::Suggest, Suggest, Suggest method [Internationalization for Windows Applications], Suggest method [Internationalization for Windows Applications],ISpellCheckProvider interface, intl.ispellcheckprovider_suggest, spellcheckprovider/ISpellCheckProvider::Suggest
 ms.prod: windows
 ms.technology: windows-sdk

@@ -1,0 +1,101 @@
+---
+UID: NF:dwrite.IDWriteFont.HasCharacter
+title: IDWriteFont::HasCharacter
+author: windows-sdk-content
+description: Determines whether the font supports a specified character.
+old-location: directwrite\IDWriteFont_HasCharacter.htm
+old-project: DirectWrite
+ms.assetid: 5392119a-dfc3-4947-9a0f-fa66ee6359d6
+ms.author: windowssdkdev
+ms.date: 07/24/2018
+ms.keywords: HasCharacter, HasCharacter method [Direct Write], HasCharacter method [Direct Write],IDWriteFont interface, IDWriteFont interface [Direct Write],HasCharacter method, IDWriteFont.HasCharacter, IDWriteFont::HasCharacter, directwrite.IDWriteFont_HasCharacter, dwrite/IDWriteFont::HasCharacter
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dwrite.h
+req.include-header: 
+req.redist: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteFont.HasCharacter
+product: Windows
+targetos: Windows
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IDWriteFont::HasCharacter
+
+
+## -description
+
+
+ Determines whether the font supports a specified character.
+
+
+## -parameters
+
+
+
+
+### -param unicodeValue
+
+Type: <b>UINT32</b>
+
+A Unicode (UCS-4) character value for the method to inspect.
+
+
+### -param exists [out]
+
+Type: <b>BOOL*</b>
+
+When this method returns, <b>TRUE</b> if the font supports the specified character; otherwise, <b>FALSE</b>.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/e29e626f-3e63-4c27-934b-64be51dcf3db">IDWriteFont</a>
+
+
+
+<a href="https://msdn.microsoft.com/0464BA91-B098-463D-A4A9-8D3C05E45F0E">IDWriteFontFace1::GetUnicodeRanges</a>
+ 
+
+ 
+

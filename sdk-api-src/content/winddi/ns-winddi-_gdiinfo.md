@@ -64,7 +64,7 @@ The GDIINFO structure describes the graphics capabilities of a given device.
 
 Specifies the driver version number. The byte ordering of <b>ulVersion</b> has the following form.
 
-<img alt="Figure showing the ulVersion member specifying the driver version number" src="./images/ver_nmbr.png"/>
+<img alt="Figure showing the ulVersion member specifying the driver version number" src="images/ver_nmbr.png"/>
 
 The high-order 16 bits must be set to zero. Bits 8 through 15 specify the version number of the Microsoft operating system for which the driver is designed. The high-order 4 bits of this range specify the major number of the version, the low-order 4 bits contain the minor number of the version. The low-order 8 bits of <b>ulVersion</b> specify the version number of the display driver; this value should be incremented for each release of the display driver binary file.
 

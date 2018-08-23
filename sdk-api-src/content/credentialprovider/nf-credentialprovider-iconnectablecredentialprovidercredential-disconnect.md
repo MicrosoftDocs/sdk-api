@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Disconnects an <a href="https://msdn.microsoft.com/en-us/library/Bb776110(v=VS.85).aspx">IConnectableCredentialProviderCredential</a> object.
+Disconnects an <a href="https://msdn.microsoft.com/fe5f3145-b428-42c9-ab1d-1c0e63c4454b">IConnectableCredentialProviderCredential</a> object.
 
 
 ## -parameters
@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-After a successful call to <a href="https://msdn.microsoft.com/en-us/library/Bb776100(v=VS.85).aspx">Connect</a>, the Logon UI displays a <b>Disconnect</b> button to the user. If the user clicks <b>Disconnect</b>, the Logon UI calls <b>Disconnect</b> on every credential provider that implements <a href="https://msdn.microsoft.com/en-us/library/Bb776110(v=VS.85).aspx">IConnectableCredentialProviderCredential</a>.
+After a successful call to <a href="https://msdn.microsoft.com/0fe91d1a-811a-4956-bb2f-47712ae2a155">Connect</a>, the Logon UI displays a <b>Disconnect</b> button to the user. If the user clicks <b>Disconnect</b>, the Logon UI calls <b>Disconnect</b> on every credential provider that implements <a href="https://msdn.microsoft.com/fe5f3145-b428-42c9-ab1d-1c0e63c4454b">IConnectableCredentialProviderCredential</a>.
 
 
 

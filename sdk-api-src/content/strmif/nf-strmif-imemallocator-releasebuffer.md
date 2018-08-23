@@ -7,7 +7,7 @@ old-location: dshow\imemallocator_releasebuffer.htm
 old-project: DirectShow
 ms.assetid: 96e02a28-af92-41a7-8251-c4ab15190651
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/20/2018
 ms.keywords: IMemAllocator interface [DirectShow],ReleaseBuffer method, IMemAllocator.ReleaseBuffer, IMemAllocator::ReleaseBuffer, IMemAllocatorReleaseBuffer, ReleaseBuffer, ReleaseBuffer method [DirectShow], ReleaseBuffer method [DirectShow],IMemAllocator interface, dshow.imemallocator_releasebuffer, strmif/IMemAllocator::ReleaseBuffer
 ms.prod: windows
 ms.technology: windows-sdk

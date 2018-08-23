@@ -7,7 +7,7 @@ old-location: devinst\sp_propsheetpage_request.htm
 old-project: devinst
 ms.assetid: f9a4e685-e396-4b2f-a452-14389eb44620
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: "*PSP_PROPSHEETPAGE_REQUEST, PSP_PROPSHEETPAGE_REQUEST, PSP_PROPSHEETPAGE_REQUEST structure pointer [Device and Driver Installation], SP_PROPSHEETPAGE_REQUEST, SP_PROPSHEETPAGE_REQUEST structure [Device and Driver Installation], _SP_PROPSHEETPAGE_REQUEST, devinst.sp_propsheetpage_request, di-struct_03c50681-4081-4ae3-88ba-32a10e937207.xml, setupapi/PSP_PROPSHEETPAGE_REQUEST, setupapi/SP_PROPSHEETPAGE_REQUEST"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-An SP_PROPSHEETPAGE_REQUEST structure can be passed as the first parameter (<i>lpv</i>) to the <b>ExtensionPropSheetPageProc</b> entry point in the <a href="https://msdn.microsoft.com/library/Ff550855(v=VS.85).aspx">SetupAPI</a> DLL. <b>ExtensionPropSheetPageProc</b> is used to retrieve a handle to a specified property sheet page.
+An SP_PROPSHEETPAGE_REQUEST structure can be passed as the first parameter (<i>lpv</i>) to the <b>ExtensionPropSheetPageProc</b> entry point in the <a href="devinst.setupapi">SetupAPI</a> DLL. <b>ExtensionPropSheetPageProc</b> is used to retrieve a handle to a specified property sheet page.
 
 For information about <b>ExtensionPropSheetPageProc</b> and related functions, see the Microsoft Windows SDK documentation.
 

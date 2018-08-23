@@ -7,7 +7,7 @@ old-location: dshow\ibasicaudio_put_balance.htm
 old-project: DirectShow
 ms.assetid: 88cf4639-8f32-424f-a097-272c44592f6f
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/20/2018
 ms.keywords: IBasicAudio interface [DirectShow],put_Balance method, IBasicAudio.put_Balance, IBasicAudio::put_Balance, IBasicAudioput_Balance, control/IBasicAudio::put_Balance, dshow.ibasicaudio_put_balance, put_Balance, put_Balance method [DirectShow], put_Balance method [DirectShow],IBasicAudio interface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -134,11 +134,11 @@ Success.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd389532(v=VS.85).aspx">IBasicAudio Interface</a>
+<a href="https://msdn.microsoft.com/0335b263-8d32-4690-a606-ba2b3e382680">IBasicAudio Interface</a>
  
 
  

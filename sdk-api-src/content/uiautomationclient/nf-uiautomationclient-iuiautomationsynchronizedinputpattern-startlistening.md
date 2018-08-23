@@ -60,7 +60,9 @@ Causes the Microsoft UI Automation provider to start listening for mouse or keyb
 
 
 
-### -param inputType [in]
+
+
+#### - inputType [in]
 
 Type: <b><a href="https://msdn.microsoft.com/28c66392-89f0-40eb-be19-ac84c64dacb7">SynchronizedInputType</a></b>
 
@@ -82,7 +84,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-When matching input is found, the provider checks whether the target element matches the current element. If they match, the provider raises the <a href="https://msdn.microsoft.com/en-us/library/Ee671223(v=VS.85).aspx">UIA_InputReachedTargetEventId</a> event; otherwise it raises the <a href="https://msdn.microsoft.com/en-us/library/Ee671223(v=VS.85).aspx">UIA_InputReachedOtherElementEventId</a> or <a href="https://msdn.microsoft.com/en-us/library/Ee671223(v=VS.85).aspx">UIA_InputDiscardedEventId</a> event.
+When matching input is found, the provider checks whether the target element matches the current element. If they match, the provider raises the <a href="uiauto_event_ids.htm">UIA_InputReachedTargetEventId</a> event; otherwise it raises the <a href="uiauto_event_ids.htm">UIA_InputReachedOtherElementEventId</a> or <a href="uiauto_event_ids.htm">UIA_InputDiscardedEventId</a> event.
 
 After receiving input of the specified type, the provider stops checking for input and continues as normal.
 

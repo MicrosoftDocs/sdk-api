@@ -7,7 +7,7 @@ old-location: tablet\inktransform_data.htm
 old-project: tablet
 ms.assetid: f22c0ef8-8604-4719-bc93-a265a19defd0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: Data property [Tablet PC], Data property [Tablet PC],IInkTransform interface, IInkTransform interface [Tablet PC],Data property, IInkTransform.Data, IInkTransform.put_Data, IInkTransform::Data, IInkTransform::get_Data, IInkTransform::put_Data, InkTransform.get_Data, InkTransform.put_Data, f22c0ef8-8604-4719-bc93-a265a19defd0, get_Data, msinkaut/IInkTransform::Data, msinkaut/IInkTransform::get_Data, msinkaut/IInkTransform::put_Data, put_Data, tablet.inktransform_data
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,7 +73,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846808(v=VS.85).aspx">IInkTransform</a>
+<a href="https://msdn.microsoft.com/1C9562EF-8CF4-4F0C-94FC-3ED54F6493E5">IInkTransform</a>
 
 
 

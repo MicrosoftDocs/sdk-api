@@ -203,14 +203,7 @@ If the buffer is too small, the function fails with the STATUS_INFO_LENGTH_MISMA
 The size of the buffer pointed to by the <i>ProcessInformation</i> parameter, in bytes.
 
 
-### -param OPTIONAL
-
-TBD
-
-
-
-
-#### - ReturnLength [out, optional]
+### -param ReturnLength [out, optional]
 
 A pointer to a variable in which the function returns the size of the requested information. If the function was successful, this is the size of the information written to the buffer pointed to by the <i>ProcessInformation</i> parameter, but if the buffer was too small, this is the minimum size of buffer needed to receive the information successfully.
 

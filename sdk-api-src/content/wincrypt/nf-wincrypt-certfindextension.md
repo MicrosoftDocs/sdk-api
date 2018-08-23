@@ -7,7 +7,7 @@ old-location: security\certfindextension.htm
 old-project: SecCrypto
 ms.assetid: 489c58b6-a704-4f54-bc64-34eacafc347c
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CertFindExtension, CertFindExtension function [Security], _crypto2_certfindextension, security.certfindextension, wincrypt/CertFindExtension
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,7 +100,7 @@ Returns a pointer to the extension, if one is found. Otherwise, <b>NULL</b> is r
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
+<a href="cryptography_functions.htm">Data Management Functions</a>
  
 
  

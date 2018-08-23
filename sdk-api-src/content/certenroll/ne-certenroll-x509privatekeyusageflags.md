@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>X509PrivateKeyUsageFlags</b> enumeration specifies the permitted uses of a <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">private key</a>. It is the responsibility of the cryptographic provider. The enumeration value can be set and retrieved by using the <a href="https://msdn.microsoft.com/en-us/library/Aa379021(v=VS.85).aspx">KeyUsage</a> property on the <a href="https://msdn.microsoft.com/en-us/library/Aa378921(v=VS.85).aspx">IX509PrivateKey</a> interface.
+The <b>X509PrivateKeyUsageFlags</b> enumeration specifies the permitted uses of a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a>. It is the responsibility of the cryptographic provider. The enumeration value can be set and retrieved by using the <a href="https://msdn.microsoft.com/e983c95b-6b3a-4e27-8a23-ef9051b11a16">KeyUsage</a> property on the <a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a> interface.
 
 
 ## -enum-fields
@@ -66,7 +66,7 @@ The permitted uses are not defined.
 
 ### -field XCN_NCRYPT_ALLOW_DECRYPT_FLAG
 
-The key can be used to decrypt content. This maps to the following <a href="https://msdn.microsoft.com/en-us/library/Aa379410(v=VS.85).aspx">X509KeyUsageFlags</a> values:
+The key can be used to decrypt content. This maps to the following <a href="https://msdn.microsoft.com/3fcb91a3-ffcd-419f-a686-3fd2d1e795b3">X509KeyUsageFlags</a> values:
 
 <ul>
 <li>XCN_CERT_DATA_ENCIPHERMENT_KEY_USAGE</li>
@@ -77,7 +77,7 @@ The key can be used to decrypt content. This maps to the following <a href="http
 
 ### -field XCN_NCRYPT_ALLOW_SIGNING_FLAG
 
-The key can be used for signing. This maps to the following <a href="https://msdn.microsoft.com/en-us/library/Aa379410(v=VS.85).aspx">X509KeyUsageFlags</a> values:
+The key can be used for signing. This maps to the following <a href="https://msdn.microsoft.com/3fcb91a3-ffcd-419f-a686-3fd2d1e795b3">X509KeyUsageFlags</a> values:
 
 <ul>
 <li>XCN_CERT_CRL_SIGN_KEY_USAGE</li>
@@ -103,15 +103,15 @@ All of the uses defined for this enumeration are permitted.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374846(v=VS.85).aspx">CertEnroll Enumerations</a>
+<a href="https://msdn.microsoft.com/8514fb89-1cf5-4e09-997c-17984efc4e03">CertEnroll Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374850(v=VS.85).aspx">CertEnroll Interfaces</a>
+<a href="https://msdn.microsoft.com/d49511ed-8651-457e-a102-0bea4edde24c">CertEnroll Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378921(v=VS.85).aspx">IX509PrivateKey</a>
+<a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: security\certenumsystemstorelocation.htm
 old-project: SecCrypto
 ms.assetid: 86408e6f-0732-4cb4-85cd-840b9d98b973
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CertEnumSystemStoreLocation, CertEnumSystemStoreLocation function [Security], _crypto2_certenumsystemstorelocation, security.certenumsystemstorelocation, wincrypt/CertEnumSystemStoreLocation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -133,7 +133,7 @@ For an example that uses this function, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Store Functions</a>
+<a href="cryptography_functions.htm">Certificate Store Functions</a>
  
 
  

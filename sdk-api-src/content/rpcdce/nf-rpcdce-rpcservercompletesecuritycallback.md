@@ -77,7 +77,7 @@ Specifies an RPC status. If this value is not <b>RPC_S_OK</b>, the Server Call i
 
 
 
-This function returns RPCRTAPI RPC_STATUS.
+This function returns RPC_STATUS.
 
 
 

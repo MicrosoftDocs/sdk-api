@@ -62,9 +62,9 @@ Gets the description for rasterizer state that you used to create the rasterizer
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476198(v=VS.85).aspx">D3D11_RASTERIZER_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/53252fef-f557-46d1-b6a7-ccc8a059752a">D3D11_RASTERIZER_DESC</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Ff476198(v=VS.85).aspx">D3D11_RASTERIZER_DESC</a> structure that receives a description of the rasterizer state.
+A pointer to a <a href="https://msdn.microsoft.com/53252fef-f557-46d1-b6a7-ccc8a059752a">D3D11_RASTERIZER_DESC</a> structure that receives a description of the rasterizer state.
 
 
 ## -returns
@@ -80,7 +80,7 @@ Returns nothing.
 
 
 
-You use the description for rasterizer state in a call to the <a href="https://msdn.microsoft.com/en-us/library/Ff476516(v=VS.85).aspx">ID3D11Device::CreateRasterizerState</a> method to create the rasterizer-state object.
+You use the description for rasterizer state in a call to the <a href="https://msdn.microsoft.com/b49a8dbb-2280-4d5d-ae65-58cde2e9ed10">ID3D11Device::CreateRasterizerState</a> method to create the rasterizer-state object.
 
 
 
@@ -90,7 +90,7 @@ You use the description for rasterizer state in a call to the <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476580(v=VS.85).aspx">ID3D11RasterizerState</a>
+<a href="https://msdn.microsoft.com/fbe6d2b9-375e-4390-9d34-36acef0a5aa2">ID3D11RasterizerState</a>
  
 
  

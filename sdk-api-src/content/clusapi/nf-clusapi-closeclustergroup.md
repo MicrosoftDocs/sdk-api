@@ -54,7 +54,7 @@ req.irql:
 ## -description
 
 
-Closes a  <a href="https://msdn.microsoft.com/en-us/library/Aa369645(v=VS.85).aspx">group</a> handle. The <b>PCLUSAPI_CLOSE_CLUSTER_GROUP</b> type defines a pointer to this function.
+Closes a  <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a> handle. The <b>PCLUSAPI_CLOSE_CLUSTER_GROUP</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ Handle to the group to close.
 
 
 
-This function returns BOOL.
+This function returns BOOL __stdcall.
 
 
 

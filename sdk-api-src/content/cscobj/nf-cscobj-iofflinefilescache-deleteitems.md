@@ -116,7 +116,7 @@ Interface to an event sink that will receive progress events during the operatio
 Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 Returns <code>HRESULT_FROM_WIN32(ERROR_CANCELLED)</code>  if the operation is canceled.
-Returns HRESULT_FROM_WIN32(ERROR_MORE_DATA)  if errors occurred during the operation.  Use the <a href="https://msdn.microsoft.com/en-us/library/Bb530618(v=VS.85).aspx">IOfflineFilesSimpleProgress::ItemResult</a> callback method to detect errors as they occur.
+Returns HRESULT_FROM_WIN32(ERROR_MORE_DATA)  if errors occurred during the operation.  Use the <a href="https://msdn.microsoft.com/60ed3b12-b56e-4a58-8e37-a4a745ddb783">IOfflineFilesSimpleProgress::ItemResult</a> callback method to detect errors as they occur.
 
 
 
@@ -135,7 +135,7 @@ Files are deleted only from the local cache.  Associated files on the network se
 
 Files deleted are not recoverable through the Recycle Bin.  Files deleted must be re-cached to be available offline.
 
-If only one path is provided in the <i>rgpszPaths</i> parameter and that path is to a single file, the return value indicates the result of that single delete operation.  Otherwise, the caller must implement the progress callback methods in the following list and monitor the <a href="https://msdn.microsoft.com/en-us/library/Bb530618(v=VS.85).aspx">IOfflineFilesSimpleProgress::ItemResult</a> method to obtain the result for each processed file and directory.
+If only one path is provided in the <i>rgpszPaths</i> parameter and that path is to a single file, the return value indicates the result of that single delete operation.  Otherwise, the caller must implement the progress callback methods in the following list and monitor the <a href="https://msdn.microsoft.com/60ed3b12-b56e-4a58-8e37-a4a745ddb783">IOfflineFilesSimpleProgress::ItemResult</a> method to obtain the result for each processed file and directory.
 
 <table>
 <tr>
@@ -145,46 +145,46 @@ If only one path is provided in the <i>rgpszPaths</i> parameter and that path is
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Bb530596(v=VS.85).aspx">IOfflineFilesProgress</a>
+<a href="https://msdn.microsoft.com/b568a8c6-119b-486e-94e3-fe4e54a395bb">IOfflineFilesProgress</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Bb530597(v=VS.85).aspx">Begin</a>
+<a href="https://msdn.microsoft.com/d3fe6abf-fc0c-4bba-9c9f-5d0e77c27b43">Begin</a>
 </td>
 <td>Called at the start of the operation.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Bb530616(v=VS.85).aspx">IOfflineFilesSimpleProgress</a>
+<a href="https://msdn.microsoft.com/490f0958-125b-4c09-8ca4-07532ed8d4d4">IOfflineFilesSimpleProgress</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Bb530617(v=VS.85).aspx">ItemBegin</a>
+<a href="https://msdn.microsoft.com/0e3496ee-e987-4c37-93ff-bc8409acabde">ItemBegin</a>
 </td>
 <td>Called at the start of processing for each file.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Bb530616(v=VS.85).aspx">IOfflineFilesSimpleProgress</a>
+<a href="https://msdn.microsoft.com/490f0958-125b-4c09-8ca4-07532ed8d4d4">IOfflineFilesSimpleProgress</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Bb530618(v=VS.85).aspx">ItemResult</a>
+<a href="https://msdn.microsoft.com/60ed3b12-b56e-4a58-8e37-a4a745ddb783">ItemResult</a>
 </td>
 <td>Called after each file is deleted.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Bb530596(v=VS.85).aspx">IOfflineFilesProgress</a>
+<a href="https://msdn.microsoft.com/b568a8c6-119b-486e-94e3-fe4e54a395bb">IOfflineFilesProgress</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Bb530599(v=VS.85).aspx">QueryAbort</a>
+<a href="https://msdn.microsoft.com/24b95898-0fe6-420b-83f2-ac77f493aeab">QueryAbort</a>
 </td>
 <td>Called periodically during the sync operation to detect a request for cancellation.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Bb530596(v=VS.85).aspx">IOfflineFilesProgress</a>
+<a href="https://msdn.microsoft.com/b568a8c6-119b-486e-94e3-fe4e54a395bb">IOfflineFilesProgress</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/en-us/library/Bb530598(v=VS.85).aspx">End</a>
+<a href="https://msdn.microsoft.com/b3d09f2e-29d5-496f-a046-4ba067e642a6">End</a>
 </td>
 <td>Called at the end of the operation.</td>
 </tr>
@@ -199,7 +199,7 @@ If only one path is provided in the <i>rgpszPaths</i> parameter and that path is
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530486(v=VS.85).aspx">IOfflineFilesCache</a>
+<a href="https://msdn.microsoft.com/7b1b5ef6-355a-4760-9d54-ec73cc66fb8a">IOfflineFilesCache</a>
  
 
  

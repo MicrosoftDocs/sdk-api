@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_get_top.htm
 old-project: DirectShow
 ms.assetid: 00baab45-d740-4f74-bd53-eb2ff21c5dcc
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/20/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_Top method, IVideoWindow.get_Top, IVideoWindow::get_Top, IVideoWindowget_Top, control/IVideoWindow::get_Top, dshow.ivideowindow_get_top, get_Top, get_Top method [DirectShow], get_Top method [DirectShow],IVideoWindow interface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -124,15 +124,15 @@ The video renderer filter is not connected.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377276(v=VS.85).aspx">IVideoWindow Interface</a>
+<a href="https://msdn.microsoft.com/8e931c15-bd1d-409e-ada1-97fe49125fe7">IVideoWindow Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd377325(v=VS.85).aspx">IVideoWindow::put_Top</a>
+<a href="https://msdn.microsoft.com/1a5df1f1-3867-4956-8e1b-090aa8d8ff3a">IVideoWindow::put_Top</a>
  
 
  

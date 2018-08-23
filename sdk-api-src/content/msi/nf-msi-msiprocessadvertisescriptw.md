@@ -83,7 +83,7 @@ A registry key under which registry data is to be written. If this parameter is 
 ### -param fShortcuts [in]
 
 <b>TRUE</b> if shortcuts should be created. If a special folder is returned by 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762203(v=VS.85).aspx">SHGetSpecialFolderLocation</a> it will hold the shortcuts.
+<a href="_win32_shgetspecialfolderlocation_cpp">SHGetSpecialFolderLocation</a> it will hold the shortcuts.
 
 
 ### -param fRemoveItems [in]

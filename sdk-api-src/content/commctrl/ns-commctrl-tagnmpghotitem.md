@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Contains information used with the <a href="https://msdn.microsoft.com/en-us/library/Bb760865(v=VS.85).aspx">PGN_HOTITEMCHANGE</a> notification code. 
+Contains information used with the <a href="https://msdn.microsoft.com/0f59677c-0251-49f4-b909-6fac6d93f354">PGN_HOTITEMCHANGE</a> notification code. 
 
 
 
@@ -62,10 +62,10 @@ Contains information used with the <a href="https://msdn.microsoft.com/en-us/lib
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains additional information about the notification. 
+<a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains additional information about the notification. 
 
 
 ### -field idOld
@@ -84,7 +84,7 @@ Value of type <b>int</b> that specifies the command identifier of the highlighte
 
 ### -field dwFlags
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
 <b>DWORD</b> that contains flags that indicate why the hot item has changed. This can be one or more of the following values.
 

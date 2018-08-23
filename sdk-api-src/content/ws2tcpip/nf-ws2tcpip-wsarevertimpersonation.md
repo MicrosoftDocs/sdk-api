@@ -7,7 +7,7 @@ old-location: winsock\wsarevertimpersonation.htm
 old-project: winsock
 ms.assetid: 7de25015-97ec-4338-846f-57df54142d65
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: WSARevertImpersonation, WSARevertImpersonation function [Winsock], winsock.wsarevertimpersonation, ws2tcpip/WSARevertImpersonation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,7 +79,7 @@ Some possible error codes are listed below.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSASYSCALLFAILURE</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSASYSCALLFAILURE</a></b></dt>
 </dl>
 </td>
 <td width="60%">

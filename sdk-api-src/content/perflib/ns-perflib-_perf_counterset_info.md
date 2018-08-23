@@ -62,7 +62,7 @@ Defines information about a counter set that a provider uses.  The <a href="http
 
 ### -field CounterSetGuid
 
-GUID that uniquely identifies the counter set. The <b>guid</b> attribute of the <a href="https://msdn.microsoft.com/library/Ee781342(v=VS.85).aspx">counterSet</a> element contains the GUID.
+GUID that uniquely identifies the counter set. The <b>guid</b> attribute of the <a href="perf.counterset_element">counterSet</a> element contains the GUID.
 
 
 ### -field ProviderGuid

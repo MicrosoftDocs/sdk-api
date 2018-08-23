@@ -7,7 +7,7 @@ old-location: security\openpersonaltrustdbdialogex.htm
 old-project: SecCrypto
 ms.assetid: 5e4dbccd-4cd0-4525-85dc-3327a5b713a1
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: OpenPersonalTrustDBDialogEx, OpenPersonalTrustDBDialogEx function [Security], WT_TRUSTDBDIALOG_ONLY_PUB_TAB_FLAG, security.openpersonaltrustdbdialogex, wintrust/OpenPersonalTrustDBDialogEx
 ms.prod: windows
 ms.technology: windows-sdk

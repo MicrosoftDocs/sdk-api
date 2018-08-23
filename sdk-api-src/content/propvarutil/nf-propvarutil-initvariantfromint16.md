@@ -52,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Initializes a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure with a 16-bit integer value.
+Initializes a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure with a 16-bit integer value.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ Source <b>SHORT</b> value.
 
 Type: <b>VARIANT*</b>
 
-When this function returns, contains the initialized <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure.
+When this function returns, contains the initialized <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
 
 
 ## -returns
@@ -96,7 +96,7 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762327(v=VS.85).aspx">InitVariantFromInt16</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitVariantFromInt16">InitVariantFromInt16</a>.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -124,15 +124,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762297(v=VS.85).aspx">InitPropVariantFromInt16</a>
+<a href="shell.InitPropVariantFromInt16">InitPropVariantFromInt16</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776604(v=VS.85).aspx">VariantToInt16</a>
+<a href="shell.VariantToInt16">VariantToInt16</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776607(v=VS.85).aspx">VariantToInt16WithDefault</a>
+<a href="shell.VariantToInt16WithDefault">VariantToInt16WithDefault</a>
  
 
  

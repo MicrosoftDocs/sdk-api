@@ -68,7 +68,7 @@ A handle to the  node.
 ### -param dwType [in]
 
 A bitmask that describes the type of objects to enumerate. This parameter  is retrieved from a 
-       <a href="https://msdn.microsoft.com/en-us/library/Bb309156(v=VS.85).aspx">CLUSTER_NODE_ENUM</a> enumeration value.
+       <a href="https://msdn.microsoft.com/e8660f86-f4e5-4aa3-851a-94f0a230e12d">CLUSTER_NODE_ENUM</a> enumeration value.
 
 
 ### -param pOptions [in, optional] [in, optional]
@@ -95,7 +95,7 @@ If the operation fails, the function returns <b>NULL</b>. For more information a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa371760(v=VS.85).aspx">Node Management Functions</a>
+<a href="https://msdn.microsoft.com/18981eec-42c0-4e31-8e5c-b79d8ff89fc8">Node Management Functions</a>
  
 
  

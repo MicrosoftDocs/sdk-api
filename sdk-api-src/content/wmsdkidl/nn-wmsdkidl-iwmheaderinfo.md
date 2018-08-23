@@ -53,7 +53,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 
-The <b>IWMHeaderInfo</b> interface sets and retrieves information in the header section of an ASF file. You can manipulate three types of header information by using the methods of this interface: metadata attributes, <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">markers</a>, and script commands.
+The <b>IWMHeaderInfo</b> interface sets and retrieves information in the header section of an ASF file. You can manipulate three types of header information by using the methods of this interface: metadata attributes, <a href="wmformat_glossary.htm">markers</a>, and script commands.
 
 Metadata attributes are name/value pairs that describe or relate to the contents of the file. Typical metadata attributes contain information about the artist, title, and performance details of the content. The Windows Media Format SDK includes a large selection of predefined metadata attributes that you can use in your files. See <a href="https://msdn.microsoft.com/1e9392b4-4fff-41ad-9d80-23c1c7f9e9a4">Attributes</a> for a complete listing of predefined attributes. Additionally, you can create your own attributes.
 

@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectpool.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectpool.htm
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/20/2018
 ms.keywords: 3c4865e5-4958-111b-ced6-75e2e367d986, ID3D10EffectPool, ID3D10EffectPool interface [Direct3D 10], ID3D10EffectPool interface [Direct3D 10],described, d3d10effect/ID3D10EffectPool, direct3d10.id3d10effectpool
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,7 +72,7 @@ The <b>ID3D10EffectPool</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173668(v=VS.85).aspx">AsEffect</a>
+<a href="https://msdn.microsoft.com/58622696-943f-4355-b6d4-f243216c8649">AsEffect</a>
 </td>
 <td align="left" width="63%">
 Get the effect that created the effect pool.
@@ -86,7 +86,7 @@ Get the effect that created the effect pool.
 
 
 
-To create an effect pool, call a function like <a href="https://msdn.microsoft.com/en-us/library/Bb172661(v=VS.85).aspx">D3DX10CreateEffectPoolFromFile</a>. Effect pools can improve performance by reducing the number of API calls required to make state changes (see <a href="https://msdn.microsoft.com/en-us/library/Bb205113(v=VS.85).aspx">Using Effect Pools</a>).
+To create an effect pool, call a function like <a href="https://msdn.microsoft.com/be738374-a91e-43d3-9cec-14882e6317ee">D3DX10CreateEffectPoolFromFile</a>. Effect pools can improve performance by reducing the number of API calls required to make state changes (see <a href="https://msdn.microsoft.com/9f029be5-4ce0-46ca-909b-adaa980398e7">Using Effect Pools</a>).
 
 
 
@@ -96,7 +96,7 @@ To create an effect pool, call a function like <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205178(v=VS.85).aspx">Effect Interfaces (Direct3D 10)</a>
+<a href="https://msdn.microsoft.com/ebe0afc7-6261-4c96-a54e-9b491e240c03">Effect Interfaces (Direct3D 10)</a>
  
 
  

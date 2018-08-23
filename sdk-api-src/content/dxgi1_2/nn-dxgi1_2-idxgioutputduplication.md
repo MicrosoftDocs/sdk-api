@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutputduplication.htm
 old-project: direct3ddxgi
 ms.assetid: 02C4EC3D-D97F-4CFC-ABF5-03B44CE6A658
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/20/2018
 ms.keywords: IDXGIOutputDuplication, IDXGIOutputDuplication interface [DXGI], IDXGIOutputDuplication interface [DXGI],described, direct3ddxgi.idxgioutputduplication, dxgi1_2/IDXGIOutputDuplication
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ The <b>IDXGIOutputDuplication</b> interface accesses and manipulates the duplica
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIOutputDuplication</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb174541(v=VS.85).aspx">IDXGIObject</a>. <b>IDXGIOutputDuplication</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDXGIOutputDuplication</b> interface inherits from <a href="https://msdn.microsoft.com/baf1dc5a-ae7e-4bc5-affa-11ed16091625">IDXGIObject</a>. <b>IDXGIOutputDuplication</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -160,7 +160,7 @@ An application can use <b>IDXGIOutputDuplication</b> on a separate thread to rec
 <ol>
 <li>Acquire the next desktop image.</li>
 <li>Retrieve the information that describes the image.</li>
-<li>Perform an operation on the image. This operation can be as simple as copying the image to a staging buffer so that the application can read the pixel data on the image. The application reads the pixel data  after the application calls <a href="https://msdn.microsoft.com/en-us/library/Bb174567(v=VS.85).aspx">IDXGISurface::Map</a>. Alternatively, this operation can be more complex. For example, the application can run some pixel shaders on the updated regions of the image to encode those regions for transmission to a client.
+<li>Perform an operation on the image. This operation can be as simple as copying the image to a staging buffer so that the application can read the pixel data on the image. The application reads the pixel data  after the application calls <a href="https://msdn.microsoft.com/027da15c-1670-41ec-a633-addd1c5ff150">IDXGISurface::Map</a>. Alternatively, this operation can be more complex. For example, the application can run some pixel shaders on the updated regions of the image to encode those regions for transmission to a client.
           </li>
 <li>After the application finishes  processing each desktop image, it releases the image, loops to step 1, and repeats the steps. The application repeats these steps until it is finished processing desktop images.</li>
 </ol>
@@ -187,10 +187,10 @@ Examples of situations in which <b>IDXGIOutputDuplication</b> becomes invalid ar
 In these situations, the application must release the <b>IDXGIOutputDuplication</b> interface and must create a new <b>IDXGIOutputDuplication</b> interface for the new content.  If the application does not have the appropriate privilege to the new desktop image, its call to the <a href="https://msdn.microsoft.com/32B13906-0920-4891-B1E7-BCB291E78E73">IDXGIOutput1::DuplicateOutput</a> method fails.
         
 
-While the application processes each desktop image, the operating system accumulates all the desktop image updates into a single update. For more information about desktop updates, see <a href="https://msdn.microsoft.com/en-us/library/Hh404487(v=VS.85).aspx">Updating the desktop image data</a>.
+While the application processes each desktop image, the operating system accumulates all the desktop image updates into a single update. For more information about desktop updates, see <a href="desktop_dup_api.htm">Updating the desktop image data</a>.
         
 
-The desktop image is always in the <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT_B8G8R8A8_UNORM</a> format.
+The desktop image is always in the <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT_B8G8R8A8_UNORM</a> format.
         
 
 The <b>IDXGIOutputDuplication</b> interface does not exist for Windows Store apps.
@@ -208,7 +208,7 @@ The <b>IDXGIOutputDuplication</b> interface does not exist for Windows Store app
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174541(v=VS.85).aspx">IDXGIObject</a>
+<a href="https://msdn.microsoft.com/baf1dc5a-ae7e-4bc5-affa-11ed16091625">IDXGIObject</a>
  
 
  

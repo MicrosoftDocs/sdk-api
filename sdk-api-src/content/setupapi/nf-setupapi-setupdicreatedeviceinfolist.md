@@ -7,7 +7,7 @@ old-location: devinst\setupdicreatedeviceinfolist.htm
 old-project: devinst
 ms.assetid: 0596f422-39ff-41ea-8bbd-63381d418ec8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: SetupDiCreateDeviceInfoList, SetupDiCreateDeviceInfoList function [Device and Driver Installation], devinst.setupdicreatedeviceinfolist, di-rtns_8b7e7f05-0c72-4ae0-aee7-b88e8a59cc63.xml, setupapi/SetupDiCreateDeviceInfoList
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.product: ADAM
 ## -description
 
 
-The <b>SetupDiCreateDeviceInfoList</b> function creates an empty <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> and optionally associates the set with a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552344">device setup class</a> and a top-level window.
+The <b>SetupDiCreateDeviceInfoList</b> function creates an empty <a href="devinst.device_information_sets">device information set</a> and optionally associates the set with a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552344">device setup class</a> and a top-level window.
 
 
 ## -parameters

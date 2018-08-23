@@ -7,7 +7,7 @@ old-location: devinst\cm_get_sibling_ex.htm
 old-project: devinst
 ms.assetid: 6be82983-7ac7-4956-a409-77a371e4d6b4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: CM_Get_Sibling_Ex, CM_Get_Sibling_Ex function [Device and Driver Installation], cfgmgr32/CM_Get_Sibling_Ex, cfgmgrfn_f3586db6-4f64-4552-bf60-6e3d440b9138.xml, devinst.cm_get_sibling_ex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://msdn.microsoft.com/en-us/library/Ff538674(v=VS.85).aspx">CM_Get_Sibling</a> instead.]
+<p class="CCE_Message">[Beginning with Windows 8 and Windows Server 2012, this function has been deprecated.  Please use <a href="https://msdn.microsoft.com/ac3b7bca-1504-465a-8dcf-dcde9da686a9">CM_Get_Sibling</a> instead.]
 
 The <b>CM_Get_Sibling_Ex</b> function obtains a device instance handle to the next sibling node of a specified device node, in a local or a remote machine's <a href="https://msdn.microsoft.com/3220389a-06cc-4a43-8164-b785d1a16365">device tree</a>.
 
@@ -114,7 +114,7 @@ For information about using device instance handles that are bound to a local or
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff538674(v=VS.85).aspx">CM_Get_Sibling</a>
+<a href="https://msdn.microsoft.com/ac3b7bca-1504-465a-8dcf-dcde9da686a9">CM_Get_Sibling</a>
  
 
  

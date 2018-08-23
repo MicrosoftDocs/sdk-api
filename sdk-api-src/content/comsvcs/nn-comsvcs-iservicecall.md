@@ -51,15 +51,15 @@ req.irql:
 ## -description
 
 
-Used to implement the batch work that is submitted through the activity created by <a href="https://msdn.microsoft.com/en-us/library/ms679553(v=VS.85).aspx">CoCreateActivity</a>.
+Used to implement the batch work that is submitted through the activity created by <a href="https://msdn.microsoft.com/3009eb4f-e3f3-497b-ba05-5b750d8a40d0">CoCreateActivity</a>.
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceCall</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IServiceCall</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceCall</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IServiceCall</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -72,7 +72,7 @@ The <b>IServiceCall</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms678912(v=VS.85).aspx">OnCall</a>
+<a href="https://msdn.microsoft.com/0a2bb7ed-018f-4cb1-a1b2-27f6949dae39">OnCall</a>
 </td>
 <td align="left" width="63%">
 Triggers the execution of the batch work implemented in this method.
@@ -88,15 +88,15 @@ Triggers the execution of the batch work implemented in this method.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679553(v=VS.85).aspx">CoCreateActivity</a>
+<a href="https://msdn.microsoft.com/3009eb4f-e3f3-497b-ba05-5b750d8a40d0">CoCreateActivity</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683598(v=VS.85).aspx">IAsyncErrorNotify</a>
+<a href="https://msdn.microsoft.com/870ab43a-c675-499b-a1e3-1f48176768c0">IAsyncErrorNotify</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms678822(v=VS.85).aspx">IServiceActivity</a>
+<a href="https://msdn.microsoft.com/005bf0ec-f5a7-41a3-85b3-07f79f26af27">IServiceActivity</a>
  
 
  

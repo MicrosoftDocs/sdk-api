@@ -123,7 +123,7 @@ A pointer to a null-terminated <a href="https://msdn.microsoft.com/264f6cb6-36c6
 
 
 Alternatively, <b>pszName</b> can be a string resource identifier returned by the 
-<a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro. Use the 
+<a href="_win32_makeintresource_cpp">MAKEINTRESOURCE</a> macro. Use the 
 <a href="https://msdn.microsoft.com/2bc63aa0-dada-4962-a381-6b0f8332e564">ISecurityInformation::GetObjectInformation</a> method to identify the module that contains the string resource.
 
 

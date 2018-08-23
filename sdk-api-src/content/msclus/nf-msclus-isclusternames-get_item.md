@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Returns a name of a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> from the 
+    <a href="c_gly.htm">cluster</a> from the 
     <a href="https://msdn.microsoft.com/c4e29498-c4e2-4351-8eed-05bc73437485">ClusterNames</a> collection.
 
 This property is read-only.

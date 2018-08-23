@@ -101,7 +101,7 @@ Do not create a thread while impersonating a security context. The call will suc
 #### Examples
 
 For an example, see 
-<a href="https://msdn.microsoft.com/library/Aa379648(v=VS.85).aspx">Checking Client Access</a>.
+<a href="security.checking_client_access">Checking Client Access</a>.
 
 <div class="code"></div>
 

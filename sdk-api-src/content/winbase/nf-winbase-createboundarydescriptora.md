@@ -7,7 +7,7 @@ old-location: base\createboundarydescriptor.htm
 old-project: sync
 ms.assetid: c7789e90-8dfb-47ee-a0b2-906520982d84
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: CreateBoundaryDescriptor, CreateBoundaryDescriptor function, CreateBoundaryDescriptorA, CreateBoundaryDescriptorW, base.createboundarydescriptor, winbase/CreateBoundaryDescriptor, winbase/CreateBoundaryDescriptorA, winbase/CreateBoundaryDescriptorW
 ms.prod: windows
 ms.technology: windows-sdk

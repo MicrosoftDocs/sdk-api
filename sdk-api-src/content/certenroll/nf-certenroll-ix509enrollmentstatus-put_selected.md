@@ -65,7 +65,7 @@ This property is read/write.
 
 
 
-This property is currently used only to identify which cryptographic provider/algorithm pairs can be used to create a key. For more information, see the <a href="https://msdn.microsoft.com/en-us/library/Aa965815(v=VS.85).aspx">GetCspStatuses</a> method on the <a href="https://msdn.microsoft.com/en-us/library/Aa377505(v=VS.85).aspx">IX509CertificateRequestPkcs10</a> interface.
+This property is currently used only to identify which cryptographic provider/algorithm pairs can be used to create a key. For more information, see the <a href="https://msdn.microsoft.com/50dc8cc5-21ee-4347-a12a-0d6e62901fbb">GetCspStatuses</a> method on the <a href="https://msdn.microsoft.com/5b3764dc-fc63-45cc-8c35-65539c461e81">IX509CertificateRequestPkcs10</a> interface.
 
 
 
@@ -75,7 +75,7 @@ This property is currently used only to identify which cryptographic provider/al
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377818(v=VS.85).aspx">IX509EnrollmentStatus</a>
+<a href="https://msdn.microsoft.com/fa5e3a10-7f00-46b6-b740-b72d78745bf7">IX509EnrollmentStatus</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: http\winhttpcreateurl.htm
 old-project: winhttp
 ms.assetid: 3f0403ea-479a-4764-ae65-d9bbd9233a50
 ms.author: windowssdkdev
-ms.date: 08/09/2018
+ms.date: 08/17/2018
 ms.keywords: ICU_ESCAPE, ICU_REJECT_USERPWD, WinHttpCreateUrl, WinHttpCreateUrl function [WinHTTP], http.winhttpcreateurl, winhttp.winhttpcreateurl_function, winhttp/WinHttpCreateUrl
 ms.prod: windows
 ms.technology: windows-sdk

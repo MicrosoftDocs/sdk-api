@@ -7,7 +7,7 @@ old-location: base\initonceexecuteonce.htm
 old-project: sync
 ms.assetid: 04c161ed-d1b0-4995-b246-cb64cb67ae47
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: InitOnceExecuteOnce, InitOnceExecuteOnce function, base.initonceexecuteonce, synchapi/InitOnceExecuteOnce, winbase/InitOnceExecuteOnce
 ms.prod: windows
 ms.technology: windows-sdk

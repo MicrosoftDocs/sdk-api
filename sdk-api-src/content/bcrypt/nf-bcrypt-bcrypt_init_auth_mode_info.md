@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>BCRYPT_INIT_AUTH_MODE_INFO</b> macro  initializes a <a href="https://msdn.microsoft.com/en-us/library/Cc562981(v=VS.85).aspx">BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO</a> structure for use in calls to <a href="https://msdn.microsoft.com/en-us/library/Aa375421(v=VS.85).aspx">BCryptEncrypt</a> and <a href="https://msdn.microsoft.com/en-us/library/Aa375391(v=VS.85).aspx">BCryptDecrypt</a> functions.
+The <b>BCRYPT_INIT_AUTH_MODE_INFO</b> macro  initializes a <a href="https://msdn.microsoft.com/6c00f458-7198-44fe-bdb6-2c2eb9995bd9">BCRYPT_AUTHENTICATED_CIPHER_MODE_INFO</a> structure for use in calls to <a href="https://msdn.microsoft.com/69fe4530-4b7c-40db-a85c-f9dc458735e7">BCryptEncrypt</a> and <a href="https://msdn.microsoft.com/62286f6b-0d57-4691-83fc-2b9a9740af71">BCryptDecrypt</a> functions.
 
 
 ## -parameters

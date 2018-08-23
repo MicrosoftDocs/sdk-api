@@ -65,7 +65,7 @@ This property is read/write.
 
 
 
-If you set the <a href="https://msdn.microsoft.com/en-us/library/Aa379020(v=VS.85).aspx">KeySpec</a> property for a  legacy CSP to XCN_NCRYPT_ALLOW_SIGNING_FLAG, the <b>KeyUsage</b> property to XCN_NCRYPT_ALLOW_SIGNING_FLAG. If you specify XCN_AT_KEYEXCHANGE, the <b>KeyUsage</b> property is automatically set to XCN_NCRYPT_ALLOW_DECRYPT_FLAG |
+If you set the <a href="https://msdn.microsoft.com/163e0fb5-e5b1-48db-a90f-66984530f92f">KeySpec</a> property for a  legacy CSP to XCN_NCRYPT_ALLOW_SIGNING_FLAG, the <b>KeyUsage</b> property to XCN_NCRYPT_ALLOW_SIGNING_FLAG. If you specify XCN_AT_KEYEXCHANGE, the <b>KeyUsage</b> property is automatically set to XCN_NCRYPT_ALLOW_DECRYPT_FLAG |
              XCN_NCRYPT_ALLOW_KEY_AGREEMENT_FLAG.
 
 
@@ -76,7 +76,7 @@ If you set the <a href="https://msdn.microsoft.com/en-us/library/Aa379020(v=VS.8
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378921(v=VS.85).aspx">IX509PrivateKey</a>
+<a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a>
  
 
  

@@ -69,7 +69,7 @@ A valid open handle returned from an event collector management API call.
 
 
 
-This function returns BOOL.
+This function returns BOOL __stdcall.
 
 
 

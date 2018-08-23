@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Closes a  <a href="https://msdn.microsoft.com/en-us/library/Aa371519(v=VS.85).aspx">network interface</a> handle. The <b>PCLUSAPI_CLOSE_CLUSTER_NET_INTERFACE</b> type defines a pointer to this function.
+Closes a  <a href="https://msdn.microsoft.com/cc0cbbc3-e342-483e-9c94-4ee43f4d588d">network interface</a> handle. The <b>PCLUSAPI_CLOSE_CLUSTER_NET_INTERFACE</b> type defines a pointer to this function.
 
 
 ## -parameters
@@ -68,7 +68,7 @@ Handle of the network interface to close.
 
 
 
-This function returns BOOL.
+This function returns BOOL __stdcall.
 
 
 

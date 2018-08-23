@@ -64,7 +64,7 @@ Sets the alignment of bulleted or numbered text used for paragraphs.
 
 Type: <b>long</b>
 
-New list alignment value. For possible values, see <a href="https://msdn.microsoft.com/en-us/library/Bb773983(v=VS.85).aspx">ITextPara::GetListAlignment</a>. 
+New list alignment value. For possible values, see <a href="https://msdn.microsoft.com/bc6785be-4e05-48fb-97ae-6f3e3518db9f">ITextPara::GetListAlignment</a>. 
 
 
 ## -returns
@@ -150,11 +150,11 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773983(v=VS.85).aspx">GetListAlignment</a>
+<a href="https://msdn.microsoft.com/bc6785be-4e05-48fb-97ae-6f3e3518db9f">GetListAlignment</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774056(v=VS.85).aspx">ITextPara</a>
+<a href="https://msdn.microsoft.com/151d66eb-1bfd-4800-be45-5942ef11d0b8">ITextPara</a>
 
 
 
@@ -162,7 +162,7 @@ The paragraph formatting object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

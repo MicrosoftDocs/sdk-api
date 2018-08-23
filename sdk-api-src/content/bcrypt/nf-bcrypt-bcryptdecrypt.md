@@ -62,7 +62,7 @@ The <b>BCryptDecrypt</b> function decrypts a block of data.
 
 ### -param hKey [in, out]
 
-The handle of the key to use to decrypt the data. This handle is obtained from one of the key creation functions, such as <a href="https://msdn.microsoft.com/en-us/library/Aa375453(v=VS.85).aspx">BCryptGenerateSymmetricKey</a>, <a href="https://msdn.microsoft.com/en-us/library/Aa375451(v=VS.85).aspx">BCryptGenerateKeyPair</a>, or <a href="https://msdn.microsoft.com/6b9683f4-10f2-40e4-9757-a1f01991bef7">BCryptImportKey</a>.
+The handle of the key to use to decrypt the data. This handle is obtained from one of the key creation functions, such as <a href="https://msdn.microsoft.com/c55d714f-f47e-4ddf-97b9-985c0441bb2d">BCryptGenerateSymmetricKey</a>, <a href="https://msdn.microsoft.com/cdf0de2e-2445-45e3-91ba-89791a0c0642">BCryptGenerateKeyPair</a>, or <a href="https://msdn.microsoft.com/6b9683f4-10f2-40e4-9757-a1f01991bef7">BCryptImportKey</a>.
 
 
 ### -param pbInput [in]
