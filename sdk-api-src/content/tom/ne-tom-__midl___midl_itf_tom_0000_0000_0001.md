@@ -556,19 +556,19 @@ The value returned by <a href="https://msdn.microsoft.com/en-us/library/Bb773987
 
 List is ordered with Unicode circled numbers 
 
-<img alt="Unicode numbers in a circle." src="images/unicodecirclednumbers.png"/>
+<img alt="Unicode numbers in a circle." src="./images/unicodecirclednumbers.png"/>
 
 ### -field tomListNumberedBlackCircleWingding
 
 List is ordered with Wingdings black circled digits 
 
-<img alt="Circled black digits." src="images/wingdingblackcircleddigits.png"/>
+<img alt="Circled black digits." src="./images/wingdingblackcircleddigits.png"/>
 
 ### -field tomListNumberedWhiteCircleWingding
 
 List is ordered with Wingdings white circled digits:
 
-<img alt="White digits in a black circle." src="images/wingdingwhitecircleddigits.png"/>
+<img alt="White digits in a black circle." src="./images/wingdingwhitecircleddigits.png"/>
 
 ### -field tomListNumberedArabicWide
 

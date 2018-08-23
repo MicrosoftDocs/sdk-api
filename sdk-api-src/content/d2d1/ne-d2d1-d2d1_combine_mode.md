@@ -91,7 +91,7 @@ The second region is excluded from the first. Given two geometries, <i>A</i> and
 The following illustration shows the different geometry combine modes.
 
 
-<img alt="Illustration of two geometries and the resulting shapes after various geometry combine modes" src="images/geometry_combine_modes.png"/>
+<img alt="Illustration of two geometries and the resulting shapes after various geometry combine modes" src="./images/geometry_combine_modes.png"/>
 
 #### Examples
 

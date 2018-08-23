@@ -53,7 +53,7 @@ req.irql:
 
 The <b>IX509CertificateRequestCertificate</b> interface represents a request object for a self-generated certificate, enabling you to create a certificate directly without going through a registration or certification authority. The following illustration shows the inheritance structure for this object.
 
-<img alt="Inheritance diagram for a self-generated certificate" src="images/X509Inherit_Requestcertificate.png"/>
+<img alt="Inheritance diagram for a self-generated certificate" src="./images/X509Inherit_Requestcertificate.png"/>
 
 
 ## -inheritance

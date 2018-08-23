@@ -137,7 +137,7 @@ wcscpy_s(  FaxReceive-&gt;ReceiverName, ReceiverName );
 </td>
 </tr>
 </table></span></div>
-<img alt="Filling in the memory that the fax service allocates" src="images/faxover.png"/>
+<img alt="Filling in the memory that the fax service allocates" src="./images/faxover.png"/>
 The FSP can reformat the <b>ReceiverName</b> and <b>ReceiverNumber</b> members and transmit the reformatted data to the remote sending device as the called subscriber identifier (CSI) to comply with the recommendation of the standards body of the International Telecommunication Union (ITU) from Study Group 8 (SG8). For more information, see the <b>RoutingInfo</b> and <b>CSI</b> members of the <a href="https://msdn.microsoft.com/en-us/library/ms684534(v=VS.85).aspx">FAX_DEV_STATUS</a> structure.
 
 

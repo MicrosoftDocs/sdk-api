@@ -81,7 +81,7 @@ After data has been streamed out to <a href="https://msdn.microsoft.com/en-us/li
 
 The following diagram shows the DrawAuto process.
 
-<img alt="Diagram of DrawAuto as data moves through several stages to a buffer and then back to the Input Assembler stage" src="images/d3d10_pipeline_stages_drawauto.png"/>
+<img alt="Diagram of DrawAuto as data moves through several stages to a buffer and then back to the Input Assembler stage" src="./images/d3d10_pipeline_stages_drawauto.png"/>
 
 Calling DrawAuto does not change the state of the streaming-output buffers that were bound again as inputs.
 

@@ -102,7 +102,7 @@ The following illustration shows the size of the square increased
 	 to 130% in each dimension.
 	 The center point for the scaling is the upper-left corner of the square.
 
-<img alt="Illustration of a square scaled by 130% in the x-direction and y-direction" src="images/scale_ovw.png"/>
+<img alt="Illustration of a square scaled by 130% in the x-direction and y-direction" src="./images/scale_ovw.png"/>
 
  For an example, see <a href="https://msdn.microsoft.com/en-us/library/Dd756688(v=VS.85).aspx">How to Scale an Object</a>.
 

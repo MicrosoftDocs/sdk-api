@@ -98,7 +98,7 @@ If an installer sets fields in this structure to be used during driver selection
 
 The following screen shot shows a sample Select Device dialog box and identifies the strings an installer can supply.
 
-<img alt="Screen shot of a Select a Device Driver dialog box" src="images/select-dialog.png"/>
+<img alt="Screen shot of a Select a Device Driver dialog box" src="./images/select-dialog.png"/>
 
 
 
