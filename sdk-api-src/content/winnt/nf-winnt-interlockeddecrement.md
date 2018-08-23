@@ -7,7 +7,7 @@ old-location: base\interlockeddecrement.htm
 old-project: sync
 ms.assetid: d6ed6cb1-aa10-48f4-9b62-73708ff4d1e3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: InterlockedDecrement, InterlockedDecrement function, _win32_interlockeddecrement, base.interlockeddecrement, winnt/InterlockedDecrement
 ms.prod: windows
 ms.technology: windows-sdk

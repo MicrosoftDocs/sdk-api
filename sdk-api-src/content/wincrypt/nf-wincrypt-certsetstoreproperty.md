@@ -7,7 +7,7 @@ old-location: security\certsetstoreproperty.htm
 old-project: SecCrypto
 ms.assetid: e043486d-9a6e-46c0-b258-6f8d463bf6fe
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CertSetStoreProperty, CertSetStoreProperty function [Security], _crypto2_certsetstoreproperty, security.certsetstoreproperty, wincrypt/CertSetStoreProperty
 ms.prod: windows
 ms.technology: windows-sdk

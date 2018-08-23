@@ -2,12 +2,12 @@
 UID: NA:vdssys
 ms.assetid: 1856cb95-112b-35da-9547-af9aa90dd7b1
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/23/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: portal
-tech.root: vhd
+tech.root: stormgmt
 ---
 
 # Vdssys.h header
@@ -16,6 +16,6 @@ tech.root: vhd
 ## -description
 
 
-This header is used by Virtual Hard Disk. For more information, see:
+This header is used by Windows Storage Management API. For more information, see:
 
-- [Virtual Hard Disk](../_vhd)
+- [Windows Storage Management API](../_stormgmt)

@@ -60,9 +60,9 @@ The <b>GetTocByType</b> retrieves all tables of contents of a specified type fro
 
 
 
-### -param enumTocPosType [in]
+### -param param
 
-A member of the <a href="https://msdn.microsoft.com/799059b5-9949-48af-8c54-4cb4975f8249">TOC_POS_TYPE</a> enumeration that specifies the <a href="https://msdn.microsoft.com/cc2fbadc-43f7-470c-873b-de2dc9d84e5d">position type</a> of the table of contents to be retrieved.
+
 
 
 ### -param guidTocType [in]
@@ -73,6 +73,11 @@ A globally unique identifier (<b>GUID</b>) that specifies the type of table of c
 ### -param ppTocs [out]
 
 Pointer to an <a href="https://msdn.microsoft.com/10d6fc04-4444-4a47-911f-3d5bec548e28">ITocCollection</a> interface that represents the colleciton of retrieved tables of contents.
+
+
+#### - enumTocPosType [in]
+
+A member of the <a href="https://msdn.microsoft.com/799059b5-9949-48af-8c54-4cb4975f8249">TOC_POS_TYPE</a> enumeration that specifies the <a href="https://msdn.microsoft.com/cc2fbadc-43f7-470c-873b-de2dc9d84e5d">position type</a> of the table of contents to be retrieved.
 
 
 ## -returns

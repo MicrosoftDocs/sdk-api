@@ -22,7 +22,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: 
+req.idl: RadialControllerInterop.idl
 req.max-support: 
 req.namespace: 
 req.assembly: 

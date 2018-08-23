@@ -122,12 +122,27 @@ The stack limit.
  
 
 
-### -field Reserved0
+### -field RetpolineStubFunctionTableSize
 
  
 
 
-### -field Reserved1
+### -field RetpolineStubFunctionTable
+
+ 
+
+
+### -field RetpolineStubOffset
+
+ 
+
+
+### -field RetpolineStubSize
+
+ 
+
+
+### -field Reserved0
 
  
 

@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: SyncProviderConfiguration
+req.typenames: SYSTEM_INFO, *LPSYSTEM_INFO
 topic_type:
  - APIRef
  - kbSyntax

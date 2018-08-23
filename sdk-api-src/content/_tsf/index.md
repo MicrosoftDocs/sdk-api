@@ -2,7 +2,7 @@
 UID: TP:tsf
 ms.assetid: 7bfc05f4-38f9-394b-8f17-66bae94f970d
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/23/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

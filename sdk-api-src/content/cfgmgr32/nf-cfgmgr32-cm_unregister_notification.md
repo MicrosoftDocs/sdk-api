@@ -7,7 +7,7 @@ old-location: devinst\cm_unregister_notification.htm
 old-project: devinst
 ms.assetid: 1634ECC5-96A2-4B1C-8DCA-64682C8C1444
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: CM_Unregister_Notification, CM_Unregister_Notification function [Device and Driver Installation], cfgmgr32/CM_Unregister_Notification, devinst.cm_unregister_notification
 ms.prod: windows
 ms.technology: windows-sdk

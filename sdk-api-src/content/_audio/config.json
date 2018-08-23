@@ -4,7 +4,6 @@
     "ksmedia.h",
     "audioenginebaseapo.h",
     "mmreg.h",
-    "mmsystem.h",
     "mmddk.h",
     "propsys.h",
     "dmusics.h",

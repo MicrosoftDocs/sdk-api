@@ -4,10 +4,10 @@ title: IUPnPDevice::get_RootDevice
 author: windows-sdk-content
 description: The RootDevice property specifies the topmost device in the device tree. The root device represents a physical object.
 old-location: upnp\iupnpdevice_rootdevice.htm
-old-project: UPnP
+old-project: upnp
 ms.assetid: 6c6d1782-693a-4b23-b9e0-7e379ba7f96c
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/16/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_RootDevice method, IUPnPDevice.get_RootDevice, IUPnPDevice::get_RootDevice, _upnp_iupnpdevice_rootdevice, get_RootDevice, get_RootDevice method [UPnP APIs], get_RootDevice method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_rootdevice, upnp/IUPnPDevice::get_RootDevice
 ms.prod: windows
 ms.technology: windows-sdk

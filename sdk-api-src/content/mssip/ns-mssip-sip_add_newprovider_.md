@@ -7,7 +7,7 @@ old-location: security\sip_add_newprovider.htm
 old-project: SecCrypto
 ms.assetid: 5ca88c0c-a7c9-4517-a874-49d38c1bc7c3
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: "*PSIP_ADD_NEWPROVIDER, PSIP_ADD_NEWPROVIDER, PSIP_ADD_NEWPROVIDER structure pointer [Security], SIP_ADD_NEWPROVIDER, SIP_ADD_NEWPROVIDER structure [Security], SIP_ADD_NEWPROVIDER_, mssip/PSIP_ADD_NEWPROVIDER, mssip/SIP_ADD_NEWPROVIDER, security.sip_add_newprovider"
 ms.prod: windows
 ms.technology: windows-sdk

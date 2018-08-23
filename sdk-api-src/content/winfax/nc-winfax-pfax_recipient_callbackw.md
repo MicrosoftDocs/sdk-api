@@ -90,16 +90,7 @@ Type: <b>PFAX_JOB_PARAM</b>
 Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms691278(v=VS.85).aspx">FAX_JOB_PARAM</a> structure that contains the information necessary for the fax server to send the fax transmission to the designated recipient. The structure includes, among other items, the recipient's fax number, sender and recipient data, an optional billing code, and job scheduling information. The fax server queues the fax transmission according to the details specified by the <b>FAX_JOB_PARAM</b> structure.
 
 
-### -param OPTIONAL
-
-
-
-
-
-
-
-
-#### - CoverpageInfo [in, out, optional]
+### -param CoverpageInfo [in, out, optional]
 
 Type: <b>PFAX_COVERPAGE_INFO</b>
 

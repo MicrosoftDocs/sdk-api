@@ -4,10 +4,10 @@ title: IUPnPAddressFamilyControl
 author: windows-sdk-content
 description: The IUPnPAddressFamilyControl interface accesses the address family flag of the Device Finder object.
 old-location: upnp\iupnpaddressfamilycontrol.htm
-old-project: UPnP
+old-project: upnp
 ms.assetid: fad61b7f-b9da-4a1b-bb5e-ad20bc87fb5c
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/16/2018
 ms.keywords: IUPnPAddressFamilyControl, IUPnPAddressFamilyControl interface [UPnP APIs], IUPnPAddressFamilyControl interface [UPnP APIs],described, upnp.iupnpaddressfamilycontrol, upnp/IUPnPAddressFamilyControl
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: security\certfindsubjectinctl.htm
 old-project: SecCrypto
 ms.assetid: e0c81531-e649-45bb-bafe-bced00c7b16a
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CTL_ANY_SUBJECT_TYPE, CTL_CERT_SUBJECT_TYPE, CertFindSubjectInCTL, CertFindSubjectInCTL function [Security], _crypto2_certfindsubjectinctl, security.certfindsubjectinctl, wincrypt/CertFindSubjectInCTL
 ms.prod: windows
 ms.technology: windows-sdk

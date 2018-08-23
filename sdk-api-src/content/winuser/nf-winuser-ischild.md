@@ -7,7 +7,7 @@ old-location: winmsg\ischild.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\ischild.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: IsChild, IsChild function [Windows and Messages], _win32_IsChild, _win32_ischild_cpp, winmsg.ischild, winui._win32_ischild, winuser/IsChild
 ms.prod: windows
 ms.technology: windows-sdk

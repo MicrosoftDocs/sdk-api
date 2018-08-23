@@ -4,10 +4,10 @@ title: GopherGetLocatorTypeW function
 author: windows-sdk-content
 description: Parses a Gopher locator and determines its attributes.
 old-location: wininet\gophergetlocatortype.htm
-old-project: wininet
+old-project: WinInet
 ms.assetid: e6f0ef67-c411-43ff-a477-5a8635057f2c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: GopherGetLocatorType, GopherGetLocatorType function [WinINet], GopherGetLocatorTypeA, GopherGetLocatorTypeW, _inet_gophergetlocatortype_function, wininet.gophergetlocatortype, wininet/GopherGetLocatorType, wininet/GopherGetLocatorTypeA, wininet/GopherGetLocatorTypeW
 ms.prod: windows
 ms.technology: windows-sdk

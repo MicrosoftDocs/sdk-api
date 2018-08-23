@@ -1,0 +1,90 @@
+---
+UID: NF:dwrite_3.IDWriteFontDownloadQueue.RemoveListener
+title: IDWriteFontDownloadQueue::RemoveListener
+author: windows-sdk-content
+description: Unregisters a notification handler that was previously registered using AddListener.
+old-location: directwrite\idwritefontdownloadqueue_removelistener.htm
+old-project: DirectWrite
+ms.assetid: e3470f17-9630-de53-d1ae-ab2a2508a069
+ms.author: windowssdkdev
+ms.date: 07/24/2018
+ms.keywords: IDWriteFontDownloadQueue interface [Direct Write],RemoveListener method, IDWriteFontDownloadQueue.RemoveListener, IDWriteFontDownloadQueue::RemoveListener, RemoveListener, RemoveListener method [Direct Write], RemoveListener method [Direct Write],IDWriteFontDownloadQueue interface, directwrite.idwritefontdownloadqueue_removelistener, dwrite_3/IDWriteFontDownloadQueue::RemoveListener
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dwrite_3.h
+req.include-header: 
+req.redist: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteFontDownloadQueue.RemoveListener
+product: Windows
+targetos: Windows
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IDWriteFontDownloadQueue::RemoveListener
+
+
+## -description
+
+
+Unregisters a notification handler that was previously registered using <a href="https://msdn.microsoft.com/c539be2d-bc77-cc8a-c78c-226a67b8dd26">AddListener</a>.
+
+
+## -parameters
+
+
+
+
+### -param token
+
+Type: <b>UINT32</b>
+
+Token value previously returned by <a href="https://msdn.microsoft.com/c539be2d-bc77-cc8a-c78c-226a67b8dd26">AddListener</a>.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/d1b1dfab-a22a-40bb-ffc4-eb094ac14217">IDWriteFontDownloadQueue</a>
+ 
+
+ 
+

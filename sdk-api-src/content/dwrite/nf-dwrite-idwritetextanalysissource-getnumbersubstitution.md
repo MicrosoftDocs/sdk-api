@@ -1,0 +1,115 @@
+---
+UID: NF:dwrite.IDWriteTextAnalysisSource.GetNumberSubstitution
+title: IDWriteTextAnalysisSource::GetNumberSubstitution
+author: windows-sdk-content
+description: Gets the number substitution from the text range affected by the text analysis.
+old-location: directwrite\idwritetextanalysissource_getnumbersubstitution.htm
+old-project: DirectWrite
+ms.assetid: 23e1539c-a58e-4123-82da-2f9d94309b05
+ms.author: windowssdkdev
+ms.date: 07/24/2018
+ms.keywords: GetNumberSubstitution, GetNumberSubstitution method [Direct Write], GetNumberSubstitution method [Direct Write],IDWriteTextAnalysisSource interface, IDWriteTextAnalysisSource interface [Direct Write],GetNumberSubstitution method, IDWriteTextAnalysisSource.GetNumberSubstitution, IDWriteTextAnalysisSource::GetNumberSubstitution, directwrite.idwritetextanalysissource_getnumbersubstitution, dwrite/IDWriteTextAnalysisSource::GetNumberSubstitution
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dwrite.h
+req.include-header: 
+req.redist: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteTextAnalysisSource.GetNumberSubstitution
+product: Windows
+targetos: Windows
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IDWriteTextAnalysisSource::GetNumberSubstitution
+
+
+## -description
+
+
+Gets the number substitution from the text range affected by the text analysis.
+
+
+## -parameters
+
+
+
+
+### -param textPosition
+
+Type: <b>UINT32</b>
+
+The starting position from which to report.
+
+
+### -param textLength [out]
+
+Type: <b>UINT32*</b>
+
+Contains  the length of the text, in characters, remaining in the text range up to the next differing number substitution.
+
+
+### -param numberSubstitution [out]
+
+Type: <b><a href="https://msdn.microsoft.com/bf8caeea-6ede-4cd3-84f7-2e8314af50db">IDWriteNumberSubstitution</a>**</b>
+
+Contains an address of a pointer to an object, which was created with <a href="https://msdn.microsoft.com/a2778bfd-c721-44e8-ac0a-79aaa2b323a8">IDWriteFactory::CreateNumberSubstitution</a>, that holds the appropriate digits and numeric punctuation for a given locale.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+Any implementation should return the number substitution with an incremented reference count, and the analysis will release when finished
+     with it (either before the next call or before it returns). However,
+     the sink callback may hold onto it after that.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/7e2a523d-9191-4f99-9e73-a7955c432126">IDWriteTextAnalysisSource</a>
+ 
+
+ 
+

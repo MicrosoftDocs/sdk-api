@@ -7,7 +7,7 @@ old-location: base\interlockedcompareexchangepointer.htm
 old-project: sync
 ms.assetid: 15c1fadd-9e0d-4254-ae14-82b0ce46909e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: InterlockedCompareExchangePointer, InterlockedCompareExchangePointer function, _win32_interlockedcompareexchangepointer, base.interlockedcompareexchangepointer, winnt/InterlockedCompareExchangePointer
 ms.prod: windows
 ms.technology: windows-sdk

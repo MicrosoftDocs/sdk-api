@@ -7,7 +7,7 @@ old-location: dshow\idvdcontrol_audiostreamchange.htm
 old-project: DirectShow
 ms.assetid: 08fca00b-e187-40db-99c0-8b978dd0f10e
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/20/2018
 ms.keywords: AudioStreamChange, AudioStreamChange method [DirectShow], AudioStreamChange method [DirectShow],IDvdControl interface, IDvdControl interface [DirectShow],AudioStreamChange method, IDvdControl.AudioStreamChange, IDvdControl::AudioStreamChange, IDvdControlAudioStreamChange, dshow.idvdcontrol_audiostreamchange, strmif/IDvdControl::AudioStreamChange
 ms.prod: windows
 ms.technology: windows-sdk

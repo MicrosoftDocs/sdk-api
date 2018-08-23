@@ -7,7 +7,7 @@ old-location: intl\scriptshapeopentype.htm
 old-project: Intl
 ms.assetid: d2e062a6-2ec8-4057-b525-d1cd719dc736
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: ScriptShapeOpenType, ScriptShapeOpenType function [Internationalization for Windows Applications], _win32_ScriptShapeOpenType, intl.scriptshapeopentype, usp10/ScriptShapeOpenType
 ms.prod: windows
 ms.technology: windows-sdk

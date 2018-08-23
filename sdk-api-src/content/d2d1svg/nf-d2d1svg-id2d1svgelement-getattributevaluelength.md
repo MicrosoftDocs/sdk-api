@@ -1,0 +1,107 @@
+---
+UID: NF:d2d1svg.ID2D1SvgElement.GetAttributeValueLength
+title: ID2D1SvgElement::GetAttributeValueLength
+author: windows-sdk-content
+description: Gets the string length of an attribute of this element.
+old-location: direct2d\id2d1svgelement_getattributevaluelength.htm
+old-project: direct2d
+ms.assetid: 2B466C04-7768-4F15-AC68-55A3074499C1
+ms.author: windowssdkdev
+ms.date: 08/06/2018
+ms.keywords: GetAttributeValueLength, GetAttributeValueLength method [Direct2D], GetAttributeValueLength method [Direct2D],ID2D1SvgElement interface, ID2D1SvgElement interface [Direct2D],GetAttributeValueLength method, ID2D1SvgElement.GetAttributeValueLength, ID2D1SvgElement::GetAttributeValueLength, d2d1svg/ID2D1SvgElement::GetAttributeValueLength, direct2d.id2d1svgelement_getattributevaluelength
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d2d1svg.h
+req.include-header: 
+req.redist: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: D2D1_SVG_VISIBILITY
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - direct2d.dll
+api_name:
+ - ID2D1SvgElement.GetAttributeValueLength
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: Direct2d.dll
+req.irql: 
+---
+
+# ID2D1SvgElement::GetAttributeValueLength
+
+
+## -description
+
+
+Gets the string length of an attribute of this element. 
+
+
+## -parameters
+
+
+
+
+### -param name [in]
+
+Type: <b>PCWSTR</b>
+
+The name of the attribute.
+
+
+### -param type
+
+Type: <b><a href="https://msdn.microsoft.com/71991A28-FEA0-42A1-B5D0-DA13BBA77500">D2D1_SVG_ATTRIBUTE_STRING_TYPE</a></b>
+
+The string type of the attribute.
+
+
+### -param valueLength [out]
+
+Type: <b>UINT32*</b>
+
+The lengthe of the attribute. The returned string length does not include room for the null terminator. 
+
+
+## -returns
+
+
+
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+
+This method returns an HRESULT success or error code.
+        Returns an error if the attribute is not specified. 
+        Returns an error if the attribute name is not valid on this element. 
+        Returns an error if the attribute cannot be expressed as the specified string type.          
+          
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/19099DC9-EA14-41C5-A9DF-5EBB12696C79">ID2D1SvgElement</a>
+ 
+
+ 
+

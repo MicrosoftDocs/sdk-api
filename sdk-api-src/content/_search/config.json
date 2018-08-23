@@ -10,8 +10,7 @@
     "structuredquery.h",
     "filtereg.h",
     "search.h",
-    "subsmgr.h",
-    "query.h"
+    "subsmgr.h"
   ],
   "displayName": "Windows Search"
 }

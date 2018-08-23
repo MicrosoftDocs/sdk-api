@@ -122,7 +122,7 @@ Allocates the endpoint from one of the ports defined in the registry as "Intrane
 </td>
 <td width="60%">
 The server process–receive queue will be deleted automatically when the RPC server exits. Any outstanding calls still in the queue will be lost. This is the default. Valid only with the 
-<a href="https://msdn.microsoft.com/">ncadg_mq</a> protocol sequence.
+<a href="https://msdn.microsoft.com/7472fc47-c1f0-4578-8aef-b655505e0563">ncadg_mq</a> protocol sequence.
 
 </td>
 </tr>
@@ -183,7 +183,7 @@ Calls to server are encrypted. The default is that both encrypted and unencrypte
 </td>
 <td width="60%">
 The server's receive queue accepts all calls from clients. This is the default authentication level. Valid only with the 
-<a href="https://msdn.microsoft.com/">ncadg_mq</a> protocol.
+<a href="https://msdn.microsoft.com/7472fc47-c1f0-4578-8aef-b655505e0563">ncadg_mq</a> protocol.
 
 </td>
 </tr>
@@ -217,7 +217,7 @@ Sets the server's receive queue to only accept client calls that have authentica
 <div class="alert"><b>Note</b>  If the registry does not contain any of the keys that specify the default policies, then the <b>EndpointFlags</b> member will have no effect at run time. If a key is missing or contains an invalid value, then the entire configuration for that protocol (
 <a href="https://msdn.microsoft.com/8142c667-9a5f-4066-a36d-1bb5ce551d21">ncacn_ip_tcp</a>, 
 <a href="https://msdn.microsoft.com/c9133fcc-6dc2-49da-9c6f-5ce3c51090d5">ncadg_ip_udp</a> or 
-<a href="https://msdn.microsoft.com/">ncadg_mq</a>) is marked as invalid and all calls to <b>RpcServerUseProtseq*</b> functions over that protocol will fail.</div>
+<a href="https://msdn.microsoft.com/7472fc47-c1f0-4578-8aef-b655505e0563">ncadg_mq</a>) is marked as invalid and all calls to <b>RpcServerUseProtseq*</b> functions over that protocol will fail.</div>
 <div> </div>
 
 ### -field NICFlags

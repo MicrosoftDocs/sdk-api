@@ -2,7 +2,7 @@
 UID: NA:mbnapi
 ms.assetid: a9df3d02-5d8b-3f51-936d-f40bc611f763
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/23/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

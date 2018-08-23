@@ -7,7 +7,7 @@ old-location: security\certenumsystemstore.htm
 old-project: SecCrypto
 ms.assetid: fd9cb23b-e4a3-41cb-8f0a-30f4e813c6ac
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CertEnumSystemStore, CertEnumSystemStore function [Security], _crypto2_certenumsystemstore, security.certenumsystemstore, wincrypt/CertEnumSystemStore
 ms.prod: windows
 ms.technology: windows-sdk

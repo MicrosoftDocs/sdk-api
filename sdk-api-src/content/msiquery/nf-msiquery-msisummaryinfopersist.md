@@ -70,7 +70,7 @@ Handle to summary information.
 
 
 
-This function returns UINT.
+This function returns UINT __stdcall.
 
 
 

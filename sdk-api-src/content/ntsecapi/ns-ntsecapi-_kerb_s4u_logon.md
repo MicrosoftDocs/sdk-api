@@ -7,7 +7,7 @@ old-location: security\kerb_s4u_logon.htm
 old-project: secauthn
 ms.assetid: ab94c36b-7aba-452d-abc0-220c91ffacca
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: "*PKERB_S4U_LOGON, KERB_S4U_LOGON, KERB_S4U_LOGON structure [Security], KERB_S4U_LOGON_FLAG_CHECK_LOGONHOURS, KERB_S4U_LOGON_FLAG_IDENTITY, PKERB_S4U_LOGON, PKERB_S4U_LOGON structure pointer [Security], _KERB_S4U_LOGON, ntsecapi/KERB_S4U_LOGON, ntsecapi/PKERB_S4U_LOGON, security.kerb_s4u_logon"
 ms.prod: windows
 ms.technology: windows-sdk

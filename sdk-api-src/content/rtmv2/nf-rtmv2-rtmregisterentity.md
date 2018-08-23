@@ -69,9 +69,9 @@ Pointer to an
 <a href="https://msdn.microsoft.com/b2a1e6b9-0cac-4316-98a0-ff1d44c5a15a">RTM_ENTITY_INFO</a> structure. This structure contains information that identifies the client to the routing table manager, such as the routing table manager instance and address family with which to register.
 
 
-### -param OPTIONAL
+### -param ExportMethods [in]
 
-TBD
+Pointer to a <a href="https://msdn.microsoft.com/8198cfad-9188-4f49-92ab-1750ec16aec4">RTM_ENTITY_EXPORT_METHODS</a> structure that contains a list of methods exported by the client. This parameter is optional and can be set to <b>NULL</b> if the calling client has no methods to export.
 
 
 ### -param EventCallback [in]
@@ -99,11 +99,6 @@ On output, <i>RtmRegProfile</i> is filled with the requested registration profil
 ### -param RtmRegHandle [out]
 
 Receives a registration handle for the client. This handle must be used in all subsequent calls to the routing table manager.
-
-
-#### - ExportMethods [in]
-
-Pointer to a <a href="https://msdn.microsoft.com/8198cfad-9188-4f49-92ab-1750ec16aec4">RTM_ENTITY_EXPORT_METHODS</a> structure that contains a list of methods exported by the client. This parameter is optional and can be set to <b>NULL</b> if the calling client has no methods to export.
 
 
 ## -returns

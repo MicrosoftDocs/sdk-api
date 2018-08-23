@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__setpaletteentries.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setpaletteentries.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],SetPaletteEntries method, IDirect3DDevice9.SetPaletteEntries, IDirect3DDevice9::SetPaletteEntries, SetPaletteEntries, SetPaletteEntries method [Direct3D 9], SetPaletteEntries method [Direct3D 9],IDirect3DDevice9 interface, bc7747ff-8f30-7495-fd87-8a6cb44c173c, d3d9helper/IDirect3DDevice9::SetPaletteEntries, direct3d9.idirect3ddevice9__setpaletteentries
 ms.prod: windows
 ms.technology: windows-sdk

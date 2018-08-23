@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dcubetexture9__adddirtyrect.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dcubetexture9__adddirtyrect.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: AddDirtyRect, AddDirtyRect method [Direct3D 9], AddDirtyRect method [Direct3D 9],IDirect3DCubeTexture9 interface, IDirect3DCubeTexture9 interface [Direct3D 9],AddDirtyRect method, IDirect3DCubeTexture9.AddDirtyRect, IDirect3DCubeTexture9::AddDirtyRect, b0dc98c8-8a1a-85fb-09ae-35df9bd8edc0, d3d9helper/IDirect3DCubeTexture9::AddDirtyRect, direct3d9.idirect3dcubetexture9__adddirtyrect
 ms.prod: windows
 ms.technology: windows-sdk

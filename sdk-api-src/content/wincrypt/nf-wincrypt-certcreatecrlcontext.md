@@ -7,7 +7,7 @@ old-location: security\certcreatecrlcontext.htm
 old-project: SecCrypto
 ms.assetid: 23d9dfb0-926d-443e-b960-a03338f1cc1b
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CertCreateCRLContext, CertCreateCRLContext function [Security], _crypto2_certcreatecrlcontext, security.certcreatecrlcontext, wincrypt/CertCreateCRLContext
 ms.prod: windows
 ms.technology: windows-sdk

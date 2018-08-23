@@ -7,7 +7,7 @@ old-location: devinst\setupwritetextloginfline.htm
 old-project: devinst
 ms.assetid: 79386854-8b6b-4836-b8f3-d70657f6162c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: SetupWriteTextLogInfLine, SetupWriteTextLogInfLine function [Device and Driver Installation], devinst.setupwritetextloginfline, setupapi/SetupWriteTextLogInfLine, setupapilog-ref_f6f9d000-dcfd-4dda-8a2c-bac81274a836.xml
 ms.prod: windows
 ms.technology: windows-sdk

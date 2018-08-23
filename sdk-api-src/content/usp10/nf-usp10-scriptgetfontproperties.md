@@ -7,7 +7,7 @@ old-location: intl\scriptgetfontproperties.htm
 old-project: Intl
 ms.assetid: eaad115c-4c1a-43e8-8dff-9d9640ef6ad7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: ScriptGetFontProperties, ScriptGetFontProperties function [Internationalization for Windows Applications], _win32_ScriptGetFontProperties, intl.scriptgetfontproperties, usp10/ScriptGetFontProperties
 ms.prod: windows
 ms.technology: windows-sdk

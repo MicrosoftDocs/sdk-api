@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dvolume9__getcontainer.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvolume9__getcontainer.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: 0941591e-d47b-5e74-736a-768203a929fd, GetContainer, GetContainer method [Direct3D 9], GetContainer method [Direct3D 9],IDirect3DVolume9 interface, IDirect3DVolume9 interface [Direct3D 9],GetContainer method, IDirect3DVolume9.GetContainer, IDirect3DVolume9::GetContainer, d3d9helper/IDirect3DVolume9::GetContainer, direct3d9.idirect3dvolume9__getcontainer
 ms.prod: windows
 ms.technology: windows-sdk

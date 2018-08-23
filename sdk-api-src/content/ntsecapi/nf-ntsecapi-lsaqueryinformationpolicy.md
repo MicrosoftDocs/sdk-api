@@ -7,7 +7,7 @@ old-location: security\lsaqueryinformationpolicy.htm
 old-project: secauthn
 ms.assetid: 2d543500-f639-4ef7-91f4-cdc5060dd567
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: LsaQueryInformationPolicy, LsaQueryInformationPolicy function [Security], PolicyAccountDomainInformation, PolicyAuditEventsInformation, PolicyDnsDomainInformation, PolicyLsaServerRoleInformation, PolicyModificationInformation, PolicyPrimaryDomainInformation, _lsa_lsaqueryinformationpolicy, ntsecapi/LsaQueryInformationPolicy, security.lsaqueryinformationpolicy
 ms.prod: windows
 ms.technology: windows-sdk

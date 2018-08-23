@@ -7,7 +7,7 @@ old-location: base\acquiresrwlockexclusive.htm
 old-project: sync
 ms.assetid: 02e987a2-4c2f-4ccb-8816-c04320b568c1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: AcquireSRWLockExclusive, AcquireSRWLockExclusive function, base.acquiresrwlockexclusive, synchapi/AcquireSRWLockExclusive, winbase/AcquireSRWLockExclusive
 ms.prod: windows
 ms.technology: windows-sdk

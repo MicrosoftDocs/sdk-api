@@ -69,7 +69,26 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 Handle to a window to apply changes to.
 
 
-### -param eAttribute [in]
+### -param param
+
+TBD
+
+
+### -param pvAttribute [in]
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">PVOID</a></b>
+
+A pointer that specifies attributes to set. Type is determined by the value of the <i>eAttribute</i> value.
+
+
+### -param cbAttribute [in]
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
+
+Specifies the size, in bytes, of the data pointed to by <i>pvAttribute</i>.
+
+
+#### - eAttribute [in]
 
 Type: <b>enum WINDOWTHEMEATTRIBUTETYPE</b>
 
@@ -92,20 +111,6 @@ Specifies non-client related attributes. <i>pvAttribute</i> must be a pointer of
 </tr>
 </table>
  
-
-
-### -param pvAttribute [in]
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">PVOID</a></b>
-
-A pointer that specifies attributes to set. Type is determined by the value of the <i>eAttribute</i> value.
-
-
-### -param cbAttribute [in]
-
-Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
-
-Specifies the size, in bytes, of the data pointed to by <i>pvAttribute</i>.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: wnet\wnetconnectiondialog1.htm
 old-project: wnet
 ms.assetid: 11390693-0ab3-4f8b-9209-bc0bceb98032
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: WNetConnectionDialog1, WNetConnectionDialog1 function [Windows Networking (WNet)], WNetConnectionDialog1A, WNetConnectionDialog1W, _win32_wnetconnectiondialog1, winnetwk/WNetConnectionDialog1, winnetwk/WNetConnectionDialog1A, winnetwk/WNetConnectionDialog1W, wnet.wnetconnectiondialog1
 ms.prod: windows
 ms.technology: windows-sdk

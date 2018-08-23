@@ -2,7 +2,7 @@
 UID: TP:wmi
 ms.assetid: f7736949-4243-340f-890f-1ae3a5bda3e9
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/23/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -21,6 +21,7 @@ To develop Windows Management Instrumentation, you need these headers:
  * [chstrarr.h](../chstrarr/index.md)
  * [chstring.h](../chstring/index.md)
  * [frquery.h](../frquery/index.md)
+ * [instance.h](../instance/index.md)
  * [methodco.h](../methodco/index.md)
  * [objpath.h](../objpath/index.md)
  * [refptrco.h](../refptrco/index.md)

@@ -7,7 +7,7 @@ old-location: appxpkg\iappxfactory_createblockmapreader.htm
 old-project: appxpkg
 ms.assetid: B4A310F0-4276-49AA-9ABF-A98F41E8F87F
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/16/2018
 ms.keywords: CreateBlockMapReader, CreateBlockMapReader method [App packaging and management], CreateBlockMapReader method [App packaging and management],IAppxFactory interface, IAppxFactory interface [App packaging and management],CreateBlockMapReader method, IAppxFactory.CreateBlockMapReader, IAppxFactory::CreateBlockMapReader, appxpackaging/IAppxFactory::CreateBlockMapReader, appxpkg.iappxfactory_createblockmapreader
 ms.prod: windows
 ms.technology: windows-sdk

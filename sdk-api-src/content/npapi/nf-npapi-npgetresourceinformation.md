@@ -7,7 +7,7 @@ old-location: security\npgetresourceinformation.htm
 old-project: secauthn
 ms.assetid: c256dec0-6e5c-4a67-bc99-c322086a8fc7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: NPGetResourceInformation, NPGetResourceInformation function [Security], _mnp_npgetresourceinformation, npapi/NPGetResourceInformation, security.npgetresourceinformation
 ms.prod: windows
 ms.technology: windows-sdk

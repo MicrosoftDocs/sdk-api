@@ -7,7 +7,7 @@ old-location: dshow\iqualitycontrol_setsink.htm
 old-project: DirectShow
 ms.assetid: f82922dc-ec33-499d-b052-a1ba38632c52
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/20/2018
 ms.keywords: IQualityControl interface [DirectShow],SetSink method, IQualityControl.SetSink, IQualityControl::SetSink, IQualityControlSetSink, SetSink, SetSink method [DirectShow], SetSink method [DirectShow],IQualityControl interface, dshow.iqualitycontrol_setsink, strmif/IQualityControl::SetSink
 ms.prod: windows
 ms.technology: windows-sdk

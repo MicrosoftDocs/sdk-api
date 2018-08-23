@@ -4,10 +4,10 @@ title: SetUrlCacheGroupAttributeW function
 author: windows-sdk-content
 description: Sets the attribute information of the specified cache group.
 old-location: wininet\seturlcachegroupattribute.htm
-old-project: wininet
+old-project: WinInet
 ms.assetid: dd4e94cd-0fe5-414a-8a43-8777403e8a45
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: SetUrlCacheGroupAttribute, SetUrlCacheGroupAttribute function [WinINet], SetUrlCacheGroupAttributeA, SetUrlCacheGroupAttributeW, _inet_seturlcachegroupattribute_function, wininet.seturlcachegroupattribute, wininet/SetUrlCacheGroupAttribute, wininet/SetUrlCacheGroupAttributeA, wininet/SetUrlCacheGroupAttributeW
 ms.prod: windows
 ms.technology: windows-sdk

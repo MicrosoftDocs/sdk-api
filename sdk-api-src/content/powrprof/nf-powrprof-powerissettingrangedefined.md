@@ -60,21 +60,14 @@ Queries whether the specified power setting represents a range of possible value
 
 
 
-### -param OPTIONAL
-
-TBD
-
-
-
-
-#### - SettingGuid [in, optional]
-
-The identifier of the power setting to query.
-
-
-#### - SubKeyGuid [in, optional]
+### -param SubKeyGuid [in, optional]
 
 The identifier of the subkey to search.
+
+
+### -param SettingGuid [in, optional]
+
+The identifier of the power setting to query.
 
 
 ## -returns

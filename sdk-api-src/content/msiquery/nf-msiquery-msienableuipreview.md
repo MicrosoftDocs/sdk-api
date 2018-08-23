@@ -76,7 +76,7 @@ Pointer to a returned handle for user-interface preview capability.
 
 
 
-This function returns UINT.
+This function returns UINT __stdcall.
 
 
 

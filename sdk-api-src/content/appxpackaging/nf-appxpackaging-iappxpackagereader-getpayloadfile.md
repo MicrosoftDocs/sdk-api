@@ -7,7 +7,7 @@ old-location: appxpkg\iappxpackagereader_getpayloadfile.htm
 old-project: appxpkg
 ms.assetid: 83E6931D-405C-4A93-BE70-F505D484CB7F
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/16/2018
 ms.keywords: GetPayloadFile, GetPayloadFile method [App packaging and management], GetPayloadFile method [App packaging and management],IAppxPackageReader interface, IAppxPackageReader interface [App packaging and management],GetPayloadFile method, IAppxPackageReader.GetPayloadFile, IAppxPackageReader::GetPayloadFile, appxpackaging/IAppxPackageReader::GetPayloadFile, appxpkg.iappxpackagereader_getpayloadfile
 ms.prod: windows
 ms.technology: windows-sdk

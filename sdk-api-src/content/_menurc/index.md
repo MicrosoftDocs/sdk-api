@@ -2,7 +2,7 @@
 UID: TP:menurc
 ms.assetid: b31c1492-ece3-3752-be79-c315513f21a3
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/23/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -18,7 +18,6 @@ Overview of the Menus and Other Resources technology.
 To develop Menus and Other Resources, you need these headers:
 
  * [resourceindexer.h](../resourceindexer/index.md)
- * [shellapi.h](../shellapi/index.md)
  * [strsafe.h](../strsafe/index.md)
  * [verrsrc.h](../verrsrc/index.md)
  * [winver.h](../winver/index.md)

@@ -92,7 +92,7 @@ If the method succeeds, it returns S_OK. If the stream is not running when this 
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt829728(v=VS.85).aspx">ISpatialAudioObjectRenderStreamBase</a>
+<a href="https://msdn.microsoft.com/2C2BE871-EFD1-40E1-B466-6BBD09C56852">ISpatialAudioObjectRenderStreamBase</a>
  
 
  

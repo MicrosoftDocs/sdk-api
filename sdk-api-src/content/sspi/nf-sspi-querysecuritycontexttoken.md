@@ -7,7 +7,7 @@ old-location: security\querysecuritycontexttoken.htm
 old-project: secauthn
 ms.assetid: 5dc23608-9ce3-4fee-8161-2e409cef4063
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: QuerySecurityContextToken, QuerySecurityContextToken function [Security], _ssp_querysecuritycontexttoken, security.querysecuritycontexttoken, sspi/QuerySecurityContextToken
 ms.prod: windows
 ms.technology: windows-sdk

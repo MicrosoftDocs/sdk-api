@@ -7,7 +7,7 @@ old-location: security\cryptnet_url_cache_response_info.htm
 old-project: SecCrypto
 ms.assetid: 26cd6065-8be9-4b3b-8207-5ad620e9b537
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: "*PCRYPTNET_URL_CACHE_RESPONSE_INFO, CRYPTNET_URL_CACHE_RESPONSE_HTTP, CRYPTNET_URL_CACHE_RESPONSE_INFO, CRYPTNET_URL_CACHE_RESPONSE_INFO structure [Security], CRYPTNET_URL_CACHE_RESPONSE_NONE, PCRYPTNET_URL_CACHE_RESPONSE_INFO, PCRYPTNET_URL_CACHE_RESPONSE_INFO structure pointer [Security], _CRYPTNET_URL_CACHE_RESPONSE_INFO, security.cryptnet_url_cache_response_info, wincrypt/CRYPTNET_URL_CACHE_RESPONSE_INFO, wincrypt/PCRYPTNET_URL_CACHE_RESPONSE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

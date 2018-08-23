@@ -7,7 +7,7 @@ old-location: tablet\inkpicture_desiredpacketdescription.htm
 old-project: tablet
 ms.assetid: 5b4a667a-b927-4278-9be2-2d7163568582
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: DesiredPacketDescription property [Tablet PC], DesiredPacketDescription property [Tablet PC],IInkPicture interface, IInkPicture interface [Tablet PC],DesiredPacketDescription property, IInkPicture.DesiredPacketDescription, IInkPicture.put_DesiredPacketDescription, IInkPicture::DesiredPacketDescription, IInkPicture::get_DesiredPacketDescription, IInkPicture::put_DesiredPacketDescription, InkPicture.get_DesiredPacketDescription, InkPicture.put_DesiredPacketDescription, get_DesiredPacketDescription, msinkaut/IInkPicture::DesiredPacketDescription, msinkaut/IInkPicture::get_DesiredPacketDescription, msinkaut/IInkPicture::put_DesiredPacketDescription, putDesiredPacketDescription, put_DesiredPacketDescription, tablet.inkpicture_desiredpacketdescription
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,7 +90,7 @@ Changes to this property do not affect incoming packet data until the <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
+<a href="https://msdn.microsoft.com/EA6AC3DD-5F13-442A-B93D-FF0A5333609A">IInkPicture</a>
 
 
 

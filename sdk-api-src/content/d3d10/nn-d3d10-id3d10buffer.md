@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10buffer.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10buffer.htm
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/20/2018
 ms.keywords: 8a6172fe-deac-4b70-fb31-07255d702e32, ID3D10Buffer, ID3D10Buffer interface [Direct3D 10], ID3D10Buffer interface [Direct3D 10],described, d3d10/ID3D10Buffer, direct3d10.id3d10buffer
 ms.prod: windows
 ms.technology: windows-sdk

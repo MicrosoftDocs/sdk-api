@@ -7,7 +7,7 @@ old-location: dshow\iaudiostreamsample.htm
 old-project: DirectShow
 ms.assetid: 53deec43-30ca-472e-9a82-750049686d2a
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/20/2018
 ms.keywords: IAudioStreamSample, IAudioStreamSample interface [DirectShow], IAudioStreamSample interface [DirectShow],described, IAudioStreamSampleInterface, austream/IAudioStreamSample, dshow.iaudiostreamsample
 ms.prod: windows
 ms.technology: windows-sdk

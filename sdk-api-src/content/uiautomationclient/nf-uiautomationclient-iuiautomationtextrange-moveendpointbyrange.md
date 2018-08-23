@@ -60,11 +60,11 @@ Moves one endpoint of the current text range to the specified endpoint of a seco
 
 
 
-### -param srcEndPoint [in]
+### -param param
 
-Type: <b><a href="https://msdn.microsoft.com/4a294376-a401-4380-ba5a-b899548290b7">TextPatternRangeEndpoint</a></b>
 
-An endpoint (either start or end) of the current text range. This is the endpoint to be moved.
+
+
 
 
 ### -param range [in]
@@ -74,7 +74,14 @@ Type: <b><a href="https://msdn.microsoft.com/1037919d-c8df-4d46-b3ce-62ee23c9214
 A second text range from the same text provider as the current text range.
 
 
-### -param targetEndPoint [in]
+#### - srcEndPoint [in]
+
+Type: <b><a href="https://msdn.microsoft.com/4a294376-a401-4380-ba5a-b899548290b7">TextPatternRangeEndpoint</a></b>
+
+An endpoint (either start or end) of the current text range. This is the endpoint to be moved.
+
+
+#### - targetEndPoint [in]
 
 Type: <b><a href="https://msdn.microsoft.com/4a294376-a401-4380-ba5a-b899548290b7">TextPatternRangeEndpoint</a></b>
 

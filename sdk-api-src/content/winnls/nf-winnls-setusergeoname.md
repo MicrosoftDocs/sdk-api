@@ -7,7 +7,7 @@ old-location: intl\setusergeoname.htm
 old-project: Intl
 ms.assetid: 0E5934DE-F526-45B4-9DAF-C8941F00C162
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: SetUserGeoName, SetUserGeoName function [Internationalization for Windows Applications], intl.setusergeoname, winnls/SetUserGeoName
 ms.prod: windows
 ms.technology: windows-sdk

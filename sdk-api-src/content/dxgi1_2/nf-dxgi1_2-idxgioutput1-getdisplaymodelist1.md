@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutput1_getdisplaymodelist1.htm
 old-project: direct3ddxgi
 ms.assetid: 49522ED9-30AD-4F39-96D2-BB6677D72349
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/20/2018
 ms.keywords: GetDisplayModeList1, GetDisplayModeList1 method [DXGI], GetDisplayModeList1 method [DXGI],IDXGIOutput1 interface, IDXGIOutput1 interface [DXGI],GetDisplayModeList1 method, IDXGIOutput1.GetDisplayModeList1, IDXGIOutput1::GetDisplayModeList1, direct3ddxgi.idxgioutput1_getdisplaymodelist1, dxgi1_2/IDXGIOutput1::GetDisplayModeList1
 ms.prod: windows
 ms.technology: windows-sdk

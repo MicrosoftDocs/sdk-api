@@ -7,7 +7,7 @@ old-location: ifsk\filtergetmessage.htm
 old-project: ifsk
 ms.assetid: 2738e237-835c-471f-9129-26c4da5fe839
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: FilterGetMessage, FilterGetMessage function [Installable File System Drivers], FltWin32ApiRef_2a4730dd-cee5-4a3e-b904-c19683fc314a.xml, fltuser/FilterGetMessage, ifsk.filtergetmessage
 ms.prod: windows
 ms.technology: windows-sdk

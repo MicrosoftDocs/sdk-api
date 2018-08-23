@@ -1,7 +1,6 @@
 {
   "tech": "hyperv",
   "headers": [
-    "winreg.h",
     "vmgenerationcounter.h",
     "dbdao.h",
     "dbdaoint.h"

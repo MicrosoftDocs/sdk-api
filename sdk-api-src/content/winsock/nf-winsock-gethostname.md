@@ -7,7 +7,7 @@ old-location: winsock\gethostname_2.htm
 old-project: winsock
 ms.assetid: 8fa40b60-0e93-493b-aee1-cea6cf595707
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: "_win32_gethostname_2, gethostname, gethostname function [Winsock], winsock.gethostname_2, winsock/gethostname"
 ms.prod: windows
 ms.technology: windows-sdk

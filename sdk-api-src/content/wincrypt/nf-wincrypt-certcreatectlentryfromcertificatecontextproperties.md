@@ -7,7 +7,7 @@ old-location: security\certcreatectlentryfromcertificatecontextproperties.htm
 old-project: SecCrypto
 ms.assetid: 90ac512f-3cbe-4543-9b34-8e384f730cfe
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CertCreateCTLEntryFromCertificateContextProperties, CertCreateCTLEntryFromCertificateContextProperties function [Security], _crypto2_certcreatectlentryfromcertificatecontextproperties, security.certcreatectlentryfromcertificatecontextproperties, wincrypt/CertCreateCTLEntryFromCertificateContextProperties
 ms.prod: windows
 ms.technology: windows-sdk

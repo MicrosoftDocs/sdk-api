@@ -7,7 +7,7 @@ old-location: security\cryptmsggetandverifysigner.htm
 old-project: SecCrypto
 ms.assetid: 380c9cf3-27a2-4354-b1c8-97cec33f4e44
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CMSG_SIGNER_ONLY_FLAG, CMSG_TRUSTED_SIGNER_FLAG, CMSG_USE_SIGNER_INDEX_FLAG, CryptMsgGetAndVerifySigner, CryptMsgGetAndVerifySigner function [Security], _crypto2_cryptmsggetandverifysigner, security.cryptmsggetandverifysigner, wincrypt/CryptMsgGetAndVerifySigner
 ms.prod: windows
 ms.technology: windows-sdk

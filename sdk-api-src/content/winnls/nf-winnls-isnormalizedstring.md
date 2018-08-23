@@ -7,7 +7,7 @@ old-location: intl\isnormalizedstring.htm
 old-project: Intl
 ms.assetid: 5a1d3977-9fe9-457f-b0a2-46b32bcc27db
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: IsNormalizedString, IsNormalizedString function [Internationalization for Windows Applications], _win32_IsNormalizedString, intl.isnormalizedstring, winnls/IsNormalizedString
 ms.prod: windows
 ms.technology: windows-sdk

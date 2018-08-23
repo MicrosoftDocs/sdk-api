@@ -7,7 +7,7 @@ old-location: multimedia\mmiofourcc.htm
 old-project: Multimedia
 ms.assetid: 616c3b43-9305-49c1-bc46-2e1256647c7d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: "_win32_mmioFOURCC, mmioFOURCC, mmioFOURCC macro [Windows Multimedia], multimedia.mmiofourcc, vfw/mmioFOURCC"
 ms.prod: windows
 ms.technology: windows-sdk

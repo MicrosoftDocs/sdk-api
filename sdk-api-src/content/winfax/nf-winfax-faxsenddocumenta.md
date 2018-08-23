@@ -95,14 +95,7 @@ Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms691508(v=VS.8
 Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms691508(v=VS.85).aspx">FAX_COVERPAGE_INFO</a> structure that contains personal data to display on the cover page of the fax document. This parameter must be <b>NULL</b> if a cover page is not required.
 
 
-### -param OPTIONAL
-
-TBD
-
-
-
-
-#### - FaxJobId [out]
+### -param FaxJobId [out]
 
 Type: <b>LPDWORD</b>
 

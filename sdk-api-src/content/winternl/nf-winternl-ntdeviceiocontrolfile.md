@@ -67,9 +67,19 @@ Deprecated. Builds descriptors for the supplied buffer(s) and
 Open file handle to the file or device to which the control information should be given.
 
 
-### -param OPTIONAL
+### -param Event [in]
 
-TBD
+A handle to an event to be set to the <code>signaled</code> state when the operation completes. This parameter can be <b>NULL</b>.
+
+
+### -param ApcRoutine [in]
+
+Procedure to be invoked once the operation completes. This parameter can be <b>NULL</b>. For more information on Asynchronous Procedure Calls (APCs), see <a href="https://msdn.microsoft.com/en-us/library/ms681951(v=VS.85).aspx">Asynchronous Procedure Calls</a>. 
+
+
+### -param ApcContext [in]
+
+A pointer to pass to <i>ApcRoutine</i> when the operation completes. This parameter is required if an <i>ApcRoutine</i> is specified.
 
 
 ### -param IoStatusBlock [out]
@@ -82,39 +92,24 @@ Variable to receive the final completion status and information about the operat
 Code that indicates which device I/O control function is to be executed.
 
 
+### -param InputBuffer [in]
+
+A pointer to a buffer that contains the information to be given to the target device. This parameter can be <b>NULL</b>. This information is device-dependent.
+
+
 ### -param InputBufferLength [in]
 
 Length of the <i>InputBuffer</i> in bytes. If the buffer is not supplied, then this value is ignored.
 
 
+### -param OutputBuffer [out]
+
+A pointer to a buffer that is to receive the device-dependent return information from the target device. This parameter can be <b>NULL</b>.
+
+
 ### -param OutputBufferLength [in]
 
 Length of the <i>OutputBuffer</i> in bytes. If the buffer is not supplied, then this value is ignored.
-
-
-#### - ApcContext [in]
-
-A pointer to pass to <i>ApcRoutine</i> when the operation completes. This parameter is required if an <i>ApcRoutine</i> is specified.
-
-
-#### - ApcRoutine [in]
-
-Procedure to be invoked once the operation completes. This parameter can be <b>NULL</b>. For more information on Asynchronous Procedure Calls (APCs), see <a href="https://msdn.microsoft.com/en-us/library/ms681951(v=VS.85).aspx">Asynchronous Procedure Calls</a>. 
-
-
-#### - Event [in]
-
-A handle to an event to be set to the <code>signaled</code> state when the operation completes. This parameter can be <b>NULL</b>.
-
-
-#### - InputBuffer [in]
-
-A pointer to a buffer that contains the information to be given to the target device. This parameter can be <b>NULL</b>. This information is device-dependent.
-
-
-#### - OutputBuffer [out]
-
-A pointer to a buffer that is to receive the device-dependent return information from the target device. This parameter can be <b>NULL</b>.
 
 
 ## -returns

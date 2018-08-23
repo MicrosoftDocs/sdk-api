@@ -2,7 +2,7 @@
 UID: TP:direct3d10
 ms.assetid: a9b90496-403a-3103-9c22-78cf6593fb96
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/23/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -24,7 +24,6 @@ To develop Direct3D 10 Graphics, you need these headers:
  * [d3d10misc.h](../d3d10misc/index.md)
  * [d3d10sdklayers.h](../d3d10sdklayers/index.md)
  * [d3d10shader.h](../d3d10shader/index.md)
- * [d3dcommon.h](../d3dcommon/index.md)
 
 For programming guidance for this technology, see:
 * [Direct3D 10 Graphics](/windows/desktop/direct3d10)

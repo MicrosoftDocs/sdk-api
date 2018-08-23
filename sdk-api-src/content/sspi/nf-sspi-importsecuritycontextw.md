@@ -7,7 +7,7 @@ old-location: security\importsecuritycontext.htm
 old-project: secauthn
 ms.assetid: 0f8e65d0-69cf-42ba-a903-1922d731e5ec
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: ImportSecurityContext, ImportSecurityContext function [Security], ImportSecurityContextA, ImportSecurityContextW, _ssp_importsecuritycontext, security.importsecuritycontext, sspi/ImportSecurityContext, sspi/ImportSecurityContextA, sspi/ImportSecurityContextW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -83,7 +83,7 @@ A  pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn622942(v=VS.
 A pointer to a buffer for the notification event.
 
 
-#### - lpbBufferSize [in, out, optional]
+### -param lpbBufferSize [in, out, optional]
 
 A pointer to  the size of the <i>buffer</i> parameter, in bytes.
 

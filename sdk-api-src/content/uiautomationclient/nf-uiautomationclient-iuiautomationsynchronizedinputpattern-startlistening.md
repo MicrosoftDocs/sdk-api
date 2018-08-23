@@ -60,7 +60,9 @@ Causes the Microsoft UI Automation provider to start listening for mouse or keyb
 
 
 
-### -param inputType [in]
+
+
+#### - inputType [in]
 
 Type: <b><a href="https://msdn.microsoft.com/28c66392-89f0-40eb-be19-ac84c64dacb7">SynchronizedInputType</a></b>
 

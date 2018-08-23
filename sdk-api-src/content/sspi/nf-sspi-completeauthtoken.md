@@ -7,7 +7,7 @@ old-location: security\completeauthtoken.htm
 old-project: secauthn
 ms.assetid: a404d0a3-d1ea-4708-87d7-2d216e9a5f5f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: CompleteAuthToken, CompleteAuthToken function [Security], _ssp_completeauthtoken, security.completeauthtoken, sspi/CompleteAuthToken
 ms.prod: windows
 ms.technology: windows-sdk

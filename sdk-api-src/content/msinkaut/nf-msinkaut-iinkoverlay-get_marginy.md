@@ -7,7 +7,7 @@ old-location: tablet\inkoverlay_marginy.htm
 old-project: tablet
 ms.assetid: 4b2e4ad4-55ab-4b12-8c42-7aa0186289d9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: IInkOverlay interface [Tablet PC],MarginY property, IInkOverlay.MarginY, IInkOverlay.get_MarginY, IInkOverlay::MarginY, IInkOverlay::get_MarginY, IInkOverlay::put_MarginY, InkOverlay.get_MarginY, InkOverlay.put_MarginY, MarginY property [Tablet PC], MarginY property [Tablet PC],IInkOverlay interface, get_MarginY, msinkaut/IInkOverlay::MarginY, msinkaut/IInkOverlay::get_MarginY, msinkaut/IInkOverlay::put_MarginY, put_MarginY, tablet.inkoverlay_marginy
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,7 +94,7 @@ The margin is effective only within the application's window. If the pen is appl
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846799(v=VS.85).aspx">IInkOverlay</a>
+<a href="https://msdn.microsoft.com/ACE11946-113B-42EE-A3F1-0036B1DF8141">IInkOverlay</a>
 
 
 

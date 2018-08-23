@@ -7,7 +7,7 @@ old-location: intl\is_low_surrogate.htm
 old-project: Intl
 ms.assetid: 5f60b88b-4e3d-4e0a-803d-ab407425d92a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: IS_LOW_SURROGATE, IS_LOW_SURROGATE macro [Internationalization for Windows Applications], _win32_IS_LOW_SURROGATE, intl.is_low_surrogate, winnls/IS_LOW_SURROGATE
 ms.prod: windows
 ms.technology: windows-sdk

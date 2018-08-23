@@ -60,14 +60,19 @@ The <b>RemoveTocByType</b> method removes all tables of contents of a specified 
 
 
 
-### -param enumTocPosType [in]
+### -param param
 
-A member of the <a href="https://msdn.microsoft.com/799059b5-9949-48af-8c54-4cb4975f8249">TOC_POS_TYPE</a> enumeration that specifies the <a href="https://msdn.microsoft.com/cc2fbadc-43f7-470c-873b-de2dc9d84e5d">position type</a> of the tables of contents to be removed.
+
 
 
 ### -param guidTocType [in]
 
 A globally unique identifier (<b>GUID</b>) that specifies the type of table of contents to removed. See Remarks.
+
+
+#### - enumTocPosType [in]
+
+A member of the <a href="https://msdn.microsoft.com/799059b5-9949-48af-8c54-4cb4975f8249">TOC_POS_TYPE</a> enumeration that specifies the <a href="https://msdn.microsoft.com/cc2fbadc-43f7-470c-873b-de2dc9d84e5d">position type</a> of the tables of contents to be removed.
 
 
 ## -returns

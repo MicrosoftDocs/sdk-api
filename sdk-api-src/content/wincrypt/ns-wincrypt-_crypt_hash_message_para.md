@@ -7,7 +7,7 @@ old-location: security\crypt_hash_message_para.htm
 old-project: SecCrypto
 ms.assetid: 60415136-3ac0-4fab-bdbf-faa16e8e43e1
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: "*PCRYPT_HASH_MESSAGE_PARA, CRYPT_HASH_MESSAGE_PARA, CRYPT_HASH_MESSAGE_PARA structure [Security], PCRYPT_HASH_MESSAGE_PARA, PCRYPT_HASH_MESSAGE_PARA structure pointer [Security], _CRYPT_HASH_MESSAGE_PARA, _crypto2_crypt_hash_message_para, security.crypt_hash_message_para, wincrypt/CRYPT_HASH_MESSAGE_PARA, wincrypt/PCRYPT_HASH_MESSAGE_PARA"
 ms.prod: windows
 ms.technology: windows-sdk

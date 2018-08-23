@@ -7,7 +7,7 @@ old-location: intl\isdbcsleadbyte.htm
 old-project: Intl
 ms.assetid: 13767af5-9313-4c11-8386-fe41c7720d49
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: IsDBCSLeadByte, IsDBCSLeadByte function [Internationalization for Windows Applications], _win32_IsDBCSLeadByte, intl.isdbcsleadbyte, winnls/IsDBCSLeadByte
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\ivideoprocamp_put_powerlinefrequency.htm
 old-project: DirectShow
 ms.assetid: ef490cec-4f25-432a-b6a5-3e16044314e4
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/20/2018
 ms.keywords: IVideoProcAmp interface [DirectShow],put_PowerlineFrequency method, IVideoProcAmp.put_PowerlineFrequency, IVideoProcAmp::put_PowerlineFrequency, IVideoProcAmpput_PowerlineFrequency, dshow.ivideoprocamp_put_powerlinefrequency, put_PowerlineFrequency, put_PowerlineFrequency method [DirectShow], put_PowerlineFrequency method [DirectShow],IVideoProcAmp interface, vidcap/IVideoProcAmp::put_PowerlineFrequency
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: devinst\cm_get_first_log_conf.htm
 old-project: devinst
 ms.assetid: 7ef14797-ea67-40cb-ad8d-e8c846ae1fd4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: CM_Get_First_Log_Conf, CM_Get_First_Log_Conf function [Device and Driver Installation], cfgmgr32/CM_Get_First_Log_Conf, cfgmgrfn_5310503c-65cc-4185-9d26-bf29c1af74c4.xml, devinst.cm_get_first_log_conf
 ms.prod: windows
 ms.technology: windows-sdk

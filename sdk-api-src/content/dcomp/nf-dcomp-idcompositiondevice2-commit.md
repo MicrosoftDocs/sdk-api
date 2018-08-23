@@ -1,0 +1,104 @@
+---
+UID: NF:dcomp.IDCompositionDevice2.Commit
+title: IDCompositionDevice2::Commit
+author: windows-sdk-content
+description: Commits all DirectComposition commands that are pending on this device.
+old-location: directcomp\idcompositiondevice2_commit.htm
+old-project: directcomp
+ms.assetid: 8C24DE03-CF1E-4DC4-8C27-913DAD278579
+ms.author: windowssdkdev
+ms.date: 07/24/2018
+ms.keywords: Commit, Commit method [DirectComposition], Commit method [DirectComposition],IDCompositionDevice2 interface, IDCompositionDevice2 interface [DirectComposition],Commit method, IDCompositionDevice2.Commit, IDCompositionDevice2::Commit, dcomp/IDCompositionDevice2::Commit, directcomp.idcompositiondevice2_commit
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dcomp.h
+req.include-header: 
+req.redist: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8.1 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: D2D_VECTOR_4F
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dcomp.dll
+api_name:
+ - IDCompositionDevice2.Commit
+product: Windows
+targetos: Windows
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
+---
+
+# IDCompositionDevice2::Commit
+
+
+## -description
+
+
+Commits all DirectComposition commands that are pending on this device.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+
+If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> 
+       error code. See 
+       <a href="https://msdn.microsoft.com/8DFBFC34-DBD0-4731-8305-B33E90C96C54">DirectComposition Error Codes</a> for a 
+       list of error codes.
+
+
+
+
+## -remarks
+
+
+
+Calls to DirectComposition methods are always batched and executed atomically as 
+    a single transaction. Calls take effect only when 
+    <b>IDCompositionDevice2::Commit</b> is 
+    called, at which time all pending method calls for a device are executed at once.
+
+An application that uses multiple devices must call 
+    <b>Commit</b> for each device separately. 
+    However, because the composition engine processes the calls individually, the batch of commands might not take 
+    effect at the same time.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/0E5D0AEC-63A3-4A44-9A0B-D1E26789CAB0">IDCompositionDevice2</a>
+ 
+
+ 
+

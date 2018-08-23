@@ -1,19 +1,15 @@
 {
   "tech": "sidebar",
   "headers": [
-    "olectl.h",
-    "d2d1helper.h",
     "shldisp.h",
+    "sysinfoapi.h",
     "corecrt_io.h",
-    "naptypes.h",
     "shobjidl_core.h",
     "windowssideshowapi.h",
     "windows.system.h",
     "windows.system.power.h",
     "utilapiset.h",
-    "sysinfoapi.h",
-    "wbemcli.h",
-    "safeint.h"
+    "wbemcli.h"
   ],
   "displayName": "Windows Sidebar"
 }

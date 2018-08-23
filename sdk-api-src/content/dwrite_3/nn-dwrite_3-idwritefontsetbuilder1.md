@@ -1,0 +1,84 @@
+---
+UID: NN:dwrite_3.IDWriteFontSetBuilder1
+title: IDWriteFontSetBuilder1
+author: windows-sdk-content
+description: Contains methods for building a font set.
+old-location: directwrite\idwritefontsetbuilder1.htm
+old-project: DirectWrite
+ms.assetid: 32023D5C-5000-44A7-8C7A-995A821951BB
+ms.author: windowssdkdev
+ms.date: 07/24/2018
+ms.keywords: IDWriteFontSetBuilder1, IDWriteFontSetBuilder1 interface [Direct Write], IDWriteFontSetBuilder1 interface [Direct Write],described, directwrite.idwritefontsetbuilder1, dwrite_3/IDWriteFontSetBuilder1
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: interface
+req.header: dwrite_3.h
+req.include-header: 
+req.redist: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dwrite.lib
+ - Dwrite.dll
+api_name:
+ - IDWriteFontSetBuilder1
+product: Windows
+targetos: Windows
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IDWriteFontSetBuilder1 interface
+
+
+## -description
+
+
+Contains methods for building a font set.
+
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDWriteFontSetBuilder1</b> interface inherits from <a href="https://msdn.microsoft.com/CC6C95CA-BA8B-47C4-A241-650EC8477192">IDWriteFontSetBuilder</a>. <b>IDWriteFontSetBuilder1</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
+## -members
+
+The <b>IDWriteFontSetBuilder1</b> interface has these methods.
+<table class="members" id="memberListMethods">
+<tr>
+<th align="left" width="37%">Method</th>
+<th align="left" width="63%">Description</th>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
+<a href="https://msdn.microsoft.com/3858EF37-F545-4C2E-BC3D-E4732B49911C">AddFontFile</a>
+</td>
+<td align="left" width="63%">
+Adds references to all the fonts in the specified font file. 
+
+</td>
+</tr>
+</table> 
+

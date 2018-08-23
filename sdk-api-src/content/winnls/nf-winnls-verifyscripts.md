@@ -7,7 +7,7 @@ old-location: intl\verifyscripts.htm
 old-project: Intl
 ms.assetid: 4780aa9f-6df0-4901-8de4-3f9118320e1b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: VS_ALLOW_LATIN, VerifyScripts, VerifyScripts function [Internationalization for Windows Applications], _win32_VerifyScripts, intl.verifyscripts, winnls/VerifyScripts
 ms.prod: windows
 ms.technology: windows-sdk

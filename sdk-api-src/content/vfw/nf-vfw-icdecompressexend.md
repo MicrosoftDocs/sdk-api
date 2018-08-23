@@ -7,7 +7,7 @@ old-location: multimedia\icdecompressexend.htm
 old-project: Multimedia
 ms.assetid: db0ab881-2e26-4f60-a22c-cb4bd2016028
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: ICDecompressExEnd, ICDecompressExEnd macro [Windows Multimedia], _win32_ICDecompressExEnd, multimedia.icdecompressexend, vfw/ICDecompressExEnd
 ms.prod: windows
 ms.technology: windows-sdk

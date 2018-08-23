@@ -7,7 +7,7 @@ old-location: security\cryptxmlopentodecode.htm
 old-project: SecCrypto
 ms.assetid: b6a77d62-b92d-4b83-949f-14a0ce3ce025
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CRYPT_XML_FLAG_DISABLE_EXTENSIONS, CRYPT_XML_FLAG_NO_SERIALIZE, CryptXmlOpenToDecode, CryptXmlOpenToDecode function [Security], cryptxml/CryptXmlOpenToDecode, security.cryptxmlopentodecode
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: intl\enumuilanguagesproc.htm
 old-project: Intl
 ms.assetid: 5890bde9-7089-4440-a9cf-04b502183770
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: EnumUILanguagesA, EnumUILanguagesProc, EnumUILanguagesW, UILANGUAGE_ENUMPROC, UILANGUAGE_ENUMPROC callback, UILANGUAGE_ENUMPROC callback function [Internationalization for Windows Applications], UILANGUAGE_ENUMPROCA, UILANGUAGE_ENUMPROCW, _win32_EnumUILanguagesProc, intl.enumuilanguagesproc, winnls/EnumUILanguagesA, winnls/EnumUILanguagesW, winnls/UILANGUAGE_ENUMPROC
 ms.prod: windows
 ms.technology: windows-sdk

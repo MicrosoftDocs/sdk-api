@@ -4,10 +4,10 @@ title: PrivacyGetZonePreferenceW function
 author: windows-sdk-content
 description: Retrieves the privacy settings for a given URLZONE and PrivacyType.
 old-location: wininet\privacygetzonepreferencew.htm
-old-project: wininet
+old-project: WinInet
 ms.assetid: 530a86a0-bb67-406a-be83-5f2b463a1aa1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: PrivacyGetZonePreferenceW, PrivacyGetZonePreferenceW function [WinINet], wininet.privacygetzonepreferencew, winineti/PrivacyGetZonePreferenceW
 ms.prod: windows
 ms.technology: windows-sdk

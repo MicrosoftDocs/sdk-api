@@ -7,7 +7,7 @@ old-location: http\winhttpwebsocketcompleteupgrade.htm
 old-project: winhttp
 ms.assetid: a5d5971b-ac76-4be5-b884-a0e5ef9a495a
 ms.author: windowssdkdev
-ms.date: 08/09/2018
+ms.date: 08/17/2018
 ms.keywords: WinHttpWebSocketCompleteUpgrade, WinHttpWebSocketCompleteUpgrade function [WinHTTP], http.winhttpwebsocketcompleteupgrade, winhttp/WinHttpWebSocketCompleteUpgrade
 ms.prod: windows
 ms.technology: windows-sdk

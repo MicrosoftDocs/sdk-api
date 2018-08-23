@@ -60,7 +60,9 @@ Sets the docking position of this element.
 
 
 
-### -param dockPosition [in]
+
+
+#### - dockPosition [in]
 
 Type: <b><a href="https://msdn.microsoft.com/36ed98c2-f111-4192-8ce2-b8dd7da47de5">DockPosition</a></b>
 

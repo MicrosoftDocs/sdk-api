@@ -7,7 +7,7 @@ old-location: tablet\inkrenderer_setviewtransform.htm
 old-project: tablet
 ms.assetid: b1850d41-4523-4a2b-a7ae-6b85d1ae9a97
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: IInkRenderer interface [Tablet PC],SetViewTransform method, IInkRenderer.SetViewTransform, IInkRenderer::SetViewTransform, SetViewTransform, SetViewTransform method [Tablet PC], SetViewTransform method [Tablet PC],IInkRenderer interface, b1850d41-4523-4a2b-a7ae-6b85d1ae9a97, msinkaut/IInkRenderer::SetViewTransform, tablet.inkrenderer_setviewtransform
 ms.prod: windows
 ms.technology: windows-sdk
@@ -168,7 +168,7 @@ It is problematic to call this method in response to SENT message.  Test whether
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846805(v=VS.85).aspx">IInkRenderer</a>
+<a href="https://msdn.microsoft.com/2AB56616-3F67-4428-8A99-FCE733A5FDBF">IInkRenderer</a>
 
 
 

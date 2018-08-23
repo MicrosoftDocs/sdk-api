@@ -7,7 +7,7 @@ old-location: http\winhttptimefromsystemtime.htm
 old-project: winhttp
 ms.assetid: 8d55e3bb-0b86-41d9-ba39-62feb2acc707
 ms.author: windowssdkdev
-ms.date: 08/09/2018
+ms.date: 08/17/2018
 ms.keywords: WinHttpTimeFromSystemTime, WinHttpTimeFromSystemTime function [WinHTTP], http.winhttptimefromsystemtime, winhttp.winhttptimefromsystemtime_function, winhttp/WinHttpTimeFromSystemTime
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winsock\wsahtons_2.htm
 old-project: winsock
 ms.assetid: 95fb103b-f7dd-4fa4-bf68-ed8e87cdd96b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: WSAHtons, WSAHtons function [Winsock], _win32_wsahtons_2, winsock.wsahtons_2, winsock2/WSAHtons
 ms.prod: windows
 ms.technology: windows-sdk

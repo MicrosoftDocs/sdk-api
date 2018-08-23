@@ -7,7 +7,7 @@ old-location: security\ienroll4_removependingrequestwstr.htm
 old-project: SecCrypto
 ms.assetid: 0e00fad2-dc06-421d-9a8c-27c5a951466c
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: IEnroll4 interface [Security],removePendingRequestWStr method, IEnroll4.removePendingRequestWStr, IEnroll4::removePendingRequestWStr, removePendingRequestWStr, removePendingRequestWStr method [Security], removePendingRequestWStr method [Security],IEnroll4 interface, security.ienroll4_removependingrequestwstr, xenroll/IEnroll4::removePendingRequestWStr
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: dshow\iamexttransport.htm
 old-project: DirectShow
 ms.assetid: 4ce48038-bfcf-4b1f-8053-3446929a5f06
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/20/2018
 ms.keywords: IAMExtTransport, IAMExtTransport interface [DirectShow], IAMExtTransport interface [DirectShow],described, IAMExtTransportInterface, dshow.iamexttransport, strmif/IAMExtTransport
 ms.prod: windows
 ms.technology: windows-sdk

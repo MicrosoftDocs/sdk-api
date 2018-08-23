@@ -7,7 +7,7 @@ old-location: http\winhttpquerydataavailable.htm
 old-project: winhttp
 ms.assetid: 041ec571-10ed-48d0-9a99-e0b5d9e08f70
 ms.author: windowssdkdev
-ms.date: 08/09/2018
+ms.date: 08/17/2018
 ms.keywords: WinHttpQueryDataAvailable, WinHttpQueryDataAvailable function [WinHTTP], http.winhttpquerydataavailable, winhttp.winhttpquerydataavailable_function, winhttp/WinHttpQueryDataAvailable
 ms.prod: windows
 ms.technology: windows-sdk

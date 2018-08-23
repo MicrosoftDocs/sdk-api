@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_get_bordercolor.htm
 old-project: DirectShow
 ms.assetid: 2f2df219-6b82-41fa-b0a9-251cc54fe019
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/20/2018
 ms.keywords: IVideoWindow interface [DirectShow],get_BorderColor method, IVideoWindow.get_BorderColor, IVideoWindow::get_BorderColor, IVideoWindowget_BorderColor, control/IVideoWindow::get_BorderColor, dshow.ivideowindow_get_bordercolor, get_BorderColor, get_BorderColor method [DirectShow], get_BorderColor method [DirectShow],IVideoWindow interface
 ms.prod: windows
 ms.technology: windows-sdk

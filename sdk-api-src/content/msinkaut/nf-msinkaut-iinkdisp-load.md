@@ -7,7 +7,7 @@ old-location: tablet\inkdisp_load.htm
 old-project: tablet
 ms.assetid: 2e71e434-b055-4e45-b8fd-f9c1ac84d308
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: 2e71e434-b055-4e45-b8fd-f9c1ac84d308, IInkDisp interface [Tablet PC],Load method, IInkDisp.Load, IInkDisp::Load, Load, Load method [Tablet PC], Load method [Tablet PC],IInkDisp interface, msinkaut/IInkDisp::Load, tablet.inkdisp_load
 ms.prod: windows
 ms.technology: windows-sdk
@@ -163,7 +163,7 @@ The <a href="https://msdn.microsoft.com/31da19a7-207f-4f11-9b0f-7402e9727f59">Sa
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846797(v=VS.85).aspx">IInkDisp</a>
+<a href="https://msdn.microsoft.com/85B683AA-D859-4717-8C61-C0EB4BBA5F61">IInkDisp</a>
 
 
 

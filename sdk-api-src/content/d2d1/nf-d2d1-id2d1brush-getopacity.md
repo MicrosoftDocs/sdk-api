@@ -1,0 +1,84 @@
+---
+UID: NF:d2d1.ID2D1Brush.GetOpacity
+title: ID2D1Brush::GetOpacity
+author: windows-sdk-content
+description: Gets the degree of opacity of this brush.
+old-location: direct2d\ID2D1Brush_GetOpacity.htm
+old-project: direct2d
+ms.assetid: 1a11b36f-96c3-46fb-9fae-721edb097ad7
+ms.author: windowssdkdev
+ms.date: 08/06/2018
+ms.keywords: GetOpacity, GetOpacity method [Direct2D], GetOpacity method [Direct2D],ID2D1Brush interface, ID2D1Brush interface [Direct2D],GetOpacity method, ID2D1Brush.GetOpacity, ID2D1Brush::GetOpacity, d2d1/ID2D1Brush::GetOpacity, direct2d.ID2D1Brush_GetOpacity
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: d2d1.h
+req.include-header: 
+req.redist: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: D2D1_WINDOW_STATE
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - D2d1.dll
+api_name:
+ - ID2D1Brush.GetOpacity
+product: Windows
+targetos: Windows
+req.lib: D2d1.lib
+req.dll: D2d1.dll
+req.irql: 
+---
+
+# ID2D1Brush::GetOpacity
+
+
+## -description
+
+
+Gets the degree of opacity of this brush.  
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+Type: <b>FLOAT</b>
+
+A value between zero and 1 that indicates the opacity of the brush. This value is a constant multiplier that linearly scales the alpha value of all pixels filled by the brush. The opacity values are clamped in the range 0–1 before they are multipled together. 
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/5b8f6ff8-ba52-4d30-9bea-3de89793c868">ID2D1Brush</a>
+ 
+
+ 
+

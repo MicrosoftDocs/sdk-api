@@ -7,7 +7,7 @@ old-location: winsock\nsplookupserviceend_2.htm
 old-project: winsock
 ms.assetid: ec72c89a-a74b-449c-996a-02057dff9137
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: LPNSPLOOKUPSERVICEEND, NSPLookupServiceEnd, NSPLookupServiceEnd function [Winsock], _win32_nsplookupserviceend_2, winsock.nsplookupserviceend_2, ws2spi/NSPLookupServiceEnd
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10texture3d.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10texture3d.htm
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/20/2018
 ms.keywords: ID3D10Texture3D, ID3D10Texture3D interface [Direct3D 10], ID3D10Texture3D interface [Direct3D 10],described, a0af960d-1977-383c-0ee3-09972ece4699, d3d10/ID3D10Texture3D, direct3d10.id3d10texture3d
 ms.prod: windows
 ms.technology: windows-sdk

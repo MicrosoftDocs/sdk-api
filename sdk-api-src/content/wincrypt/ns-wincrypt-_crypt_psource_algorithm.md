@@ -7,7 +7,7 @@ old-location: security\crypt_psource_algorithm.htm
 old-project: SecCrypto
 ms.assetid: cd390487-2bba-4d57-a779-579ffbd16acb
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: "*PCRYPT_PSOURCE_ALGORITHM, CRYPT_PSOURCE_ALGORITHM, CRYPT_PSOURCE_ALGORITHM structure [Security], PCRYPT_PSOURCE_ALGORITHM, PCRYPT_PSOURCE_ALGORITHM structure pointer [Security], _CRYPT_PSOURCE_ALGORITHM, security.crypt_psource_algorithm, szOID_RSA_PSPECIFIED, wincrypt/CRYPT_PSOURCE_ALGORITHM, wincrypt/PCRYPT_PSOURCE_ALGORITHM"
 ms.prod: windows
 ms.technology: windows-sdk

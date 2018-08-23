@@ -7,7 +7,7 @@ old-location: security\crypthashtobesigned.htm
 old-project: SecCrypto
 ms.assetid: 84477054-dd76-4dde-b465-9edeaf192714
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CryptHashToBeSigned, CryptHashToBeSigned function [Security], _crypto2_crypthashtobesigned, security.crypthashtobesigned, wincrypt/CryptHashToBeSigned
 ms.prod: windows
 ms.technology: windows-sdk

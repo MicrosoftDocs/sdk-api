@@ -7,7 +7,7 @@ old-location: winmsg\registershellhookwindow.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookfunctions\registershellhookwindow.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: RegisterShellHookWindow, RegisterShellHookWindow function [Windows and Messages], _win32_RegisterShellHookWindow, _win32_registershellhookwindow_cpp, winmsg.registershellhookwindow, winui._win32_registershellhookwindow, winuser/RegisterShellHookWindow
 ms.prod: windows
 ms.technology: windows-sdk

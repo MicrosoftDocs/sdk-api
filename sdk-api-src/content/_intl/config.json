@@ -1,7 +1,6 @@
 {
   "tech": "intl",
   "headers": [
-    "spellcheck.h",
     "winbase.h",
     "winnt.h",
     "winuser.h",
@@ -12,10 +11,10 @@
     "stringapiset.h",
     "idndl.h",
     "nlsdl.h",
-    "formatcontext.h",
     "datetimeapi.h",
     "ntrtl.h",
     "spellcheckprovider.h",
+    "spellcheck.h",
     "msime.h",
     "imm.h",
     "immdev.h",

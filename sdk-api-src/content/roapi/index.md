@@ -2,7 +2,7 @@
 UID: NA:roapi
 ms.assetid: 78043285-299a-3f62-a9bc-545bcd8ee6f4
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/23/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

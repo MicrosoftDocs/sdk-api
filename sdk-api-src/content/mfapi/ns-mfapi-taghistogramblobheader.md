@@ -7,7 +7,7 @@ old-location: stream\histogramblobheader.htm
 old-project: stream
 ms.assetid: E72DEFAB-1176-47AA-B6FC-35346D63CBD9
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/20/2018
 ms.keywords: HistogramBlobHeader, HistogramBlobHeader structure [Streaming Media Devices], mfapi/HistogramBlobHeader, stream.histogramblobheader, tagHistogramBlobHeader
 ms.prod: windows
 ms.technology: windows-sdk

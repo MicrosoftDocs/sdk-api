@@ -60,11 +60,9 @@ Retrieves a value that specifies whether the start or end endpoint of this text 
 
 
 
-### -param srcEndPoint [in]
+### -param param
 
-Type: <b><a href="https://msdn.microsoft.com/4a294376-a401-4380-ba5a-b899548290b7">TextPatternRangeEndpoint</a></b>
 
-A value indicating whether the start or end endpoint of this text range is to be compared.
 
 
 ### -param range [in]
@@ -74,18 +72,25 @@ Type: <b><a href="https://msdn.microsoft.com/1037919d-c8df-4d46-b3ce-62ee23c9214
 A pointer to the text range to compare.
 
 
-### -param targetEndPoint [in]
-
-Type: <b><a href="https://msdn.microsoft.com/4a294376-a401-4380-ba5a-b899548290b7">TextPatternRangeEndpoint</a></b>
-
-A value indicating whether the start or end endpoint of <i>range</i> is to be compared.
-
-
 ### -param compValue [out, retval]
 
 Type: <b>int*</b>
 
 Receives a negative value if the caller's endpoint occurs earlier in the text than the target endpoint; 0 if the caller's endpoint is at the same location as the target endpoint; or a positive value if the caller's endpoint occurs later in the text than the target endpoint.
+
+
+#### - srcEndPoint [in]
+
+Type: <b><a href="https://msdn.microsoft.com/4a294376-a401-4380-ba5a-b899548290b7">TextPatternRangeEndpoint</a></b>
+
+A value indicating whether the start or end endpoint of this text range is to be compared.
+
+
+#### - targetEndPoint [in]
+
+Type: <b><a href="https://msdn.microsoft.com/4a294376-a401-4380-ba5a-b899548290b7">TextPatternRangeEndpoint</a></b>
+
+A value indicating whether the start or end endpoint of <i>range</i> is to be compared.
 
 
 ## -returns

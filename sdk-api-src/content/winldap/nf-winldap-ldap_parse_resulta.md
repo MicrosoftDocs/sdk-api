@@ -73,27 +73,27 @@ The result of an LDAP operation as returned by one of the synchronous operation 
 <a href="https://msdn.microsoft.com/e047fccc-a875-4360-be1b-3ac3dea15dd6">ldap_result</a> for an asynchronous operation.
 
 
-#### - ReturnCode [out, optional]
+### -param ReturnCode [out, optional]
 
 Indicates the outcome of the server operation that generated the original result message. Pass <b>NULL</b> to ignore this field.
 
 
-#### - MatchedDNs [out, optional]
+### -param MatchedDNs [out, optional]
 
 A pointer to a wide, null-terminated string. In the case of a return of <b>LDAP_NO_SUCH_OBJECT</b>, this result parameter is filled in with a distinguished name indicating how much of the name in the request was recognized. Pass <b>NULL</b> to ignore this field.
 
 
-#### - ErrorMessage [out, optional]
+### -param ErrorMessage [out, optional]
 
 A pointer to a wide, null-terminated string that contains the contents of the error message field from the <i>ResultMessage</i> parameter. Pass <b>NULL</b> to ignore this field.
 
 
-#### - Referrals [out, optional]
+### -param Referrals [out, optional]
 
 A pointer to a wide, null-terminated string that contains the contents of the referrals field from the <i>ResultMessage</i> parameter, indicating zero or more alternate LDAP servers where the request should be retried. Pass <b>NULL</b> to ignore this field.
 
 
-#### - ServerControls [out, optional]
+### -param ServerControls [out, optional]
 
 This result parameter is filled in with an allocated array of controls copied from the <i>ResultMessage</i> parameter.
 

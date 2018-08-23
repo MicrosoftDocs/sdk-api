@@ -60,11 +60,9 @@ Retrieves the first child or descendant element that matches the specified condi
 
 
 
-### -param scope [in]
+### -param param
 
-Type: <b><a href="https://msdn.microsoft.com/eb9e05b3-bcfa-4fed-9cc9-6ea8a778618e">TreeScope</a></b>
 
-A combination of values specifying the scope of the search.
 
 
 ### -param condition [in]
@@ -79,6 +77,13 @@ A pointer to a condition that represents the criteria to match.
 Type: <b><a href="https://msdn.microsoft.com/9e1f87b1-a204-4ca9-acf2-a40277012207">IUIAutomationElement</a>**</b>
 
 Receives a pointer to the element. <b>NULL</b> is returned if no matching element is found.
+
+
+#### - scope [in]
+
+Type: <b><a href="https://msdn.microsoft.com/eb9e05b3-bcfa-4fed-9cc9-6ea8a778618e">TreeScope</a></b>
+
+A combination of values specifying the scope of the search.
 
 
 ## -returns

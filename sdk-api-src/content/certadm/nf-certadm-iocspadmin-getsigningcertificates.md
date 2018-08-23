@@ -7,7 +7,7 @@ old-location: security\iocspadmin_getsigningcertificates.htm
 old-project: SecCrypto
 ms.assetid: 762dc32f-90d4-4e88-a3cc-e77e729f0a98
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: GetSigningCertificates, GetSigningCertificates method [Security], GetSigningCertificates method [Security],IOCSPAdmin interface, IOCSPAdmin interface [Security],GetSigningCertificates method, IOCSPAdmin.GetSigningCertificates, IOCSPAdmin::GetSigningCertificates, certadm/IOCSPAdmin::GetSigningCertificates, security.iocspadmin_getsigningcertificates
 ms.prod: windows
 ms.technology: windows-sdk

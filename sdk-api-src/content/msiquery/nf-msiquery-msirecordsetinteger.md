@@ -81,7 +81,7 @@ Specifies the value to which to set the field.
 
 
 
-This function returns UINT.
+This function returns UINT __stdcall.
 
 
 

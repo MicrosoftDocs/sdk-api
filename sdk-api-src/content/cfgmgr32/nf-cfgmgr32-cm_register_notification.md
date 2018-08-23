@@ -7,7 +7,7 @@ old-location: devinst\cm_register_notification.htm
 old-project: devinst
 ms.assetid: 15847F9C-9F2A-453F-9EF8-0AF63CFF93C9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: CM_Register_Notification, CM_Register_Notification function [Device and Driver Installation], cfgmgr32/CM_Register_Notification, devinst.cm_register_notification
 ms.prod: windows
 ms.technology: windows-sdk
@@ -126,7 +126,10 @@ The <b>CM_Register_Notification</b> function does not provide notification of ex
 
 HCMNOTIFICATION handles returned by <b>CM_Register_Notification</b> must be closed by calling the <a href="https://msdn.microsoft.com/1634ECC5-96A2-4B1C-8DCA-64682C8C1444">CM_Unregister_Notification</a> function when they are no longer needed.
 
-A callback routine uses the following function prototype:<div class="code"><span codelanguage=""><table>
+A callback routine uses the following function prototype:
+		  
+
+<div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
 </tr>
@@ -142,8 +145,6 @@ A callback routine uses the following function prototype:<div class="code"><span
 </td>
 </tr>
 </table></span></div>
-
-
 If responding to a <b>CM_NOTIFY_ACTION_DEVICEQUERYREMOVE</b> notification, the PCM_NOTIFY_CALLBACK callback should return either ERROR_SUCCESS or ERROR_CANCELLED, as appropriate.  Otherwise, the callback should return ERROR_SUCCESS. The callback should not return any other values. For a description of other actions, please refer to the <a href="https://msdn.microsoft.com/en-us/library/Mt299054(v=VS.85).aspx">CM_NOTIFY_ACTION</a> documentation.  Also see <a href="https://msdn.microsoft.com/61bd4ea3-9910-4feb-a330-3e0bcdac1ce2">CM_NOTIFY_EVENT_DATA</a> for information about the structure that this callback receives in the <i>EventData</i> parameter.
 
 

@@ -7,7 +7,7 @@ old-location: http\winhttpresetautoproxy.htm
 old-project: winhttp
 ms.assetid: 08b4ea41-4349-4746-a98e-93ba1db20d0e
 ms.author: windowssdkdev
-ms.date: 08/09/2018
+ms.date: 08/17/2018
 ms.keywords: WINHTTP_RESET_ALL, WINHTTP_RESET_NOTIFY_NETWORK_CHANGED, WINHTTP_RESET_OUT_OF_PROC, WINHTTP_RESET_SCRIPT_CACHE, WINHTTP_RESET_STATE, WINHTTP_RESET_SWPAD_ALL, WINHTTP_RESET_SWPAD_CURRENT_NETWORK, WinHttpResetAutoProxy, WinHttpResetAutoProxy function [WinHTTP], http.winhttpresetautoproxy, winhttp/WinHttpResetAutoProxy
 ms.prod: windows
 ms.technology: windows-sdk

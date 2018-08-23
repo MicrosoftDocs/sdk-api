@@ -7,7 +7,7 @@ old-location: winsock\wsacancelblockingcall_2.htm
 old-project: winsock
 ms.assetid: b3597d29-51a5-410f-9925-4d678dd641c1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: WSACancelBlockingCall, WSACancelBlockingCall function [Winsock], _win32_wsacancelblockingcall_2, winsock.wsacancelblockingcall_2, winsock2/WSACancelBlockingCall
 ms.prod: windows
 ms.technology: windows-sdk

@@ -77,7 +77,7 @@ Specifies the name of the dialog box to preview.
 
 
 
-This function returns UINT.
+This function returns UINT __stdcall.
 
 
 

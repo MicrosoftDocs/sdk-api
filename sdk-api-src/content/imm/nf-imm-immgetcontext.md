@@ -7,7 +7,7 @@ old-location: intl\immgetcontext.htm
 old-project: Intl
 ms.assetid: 2b7502ac-fa1e-4104-a7ad-051303131a73
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: ImmGetContext, ImmGetContext function [Internationalization for Windows Applications], _win32_ImmGetContext, imm/ImmGetContext, intl.immgetcontext
 ms.prod: windows
 ms.technology: windows-sdk

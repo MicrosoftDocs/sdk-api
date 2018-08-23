@@ -7,7 +7,7 @@ old-location: security\pstgettrustanchors.htm
 old-project: secauthn
 ms.assetid: bbd69763-6801-4321-be18-802d48850d8c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: PstGetTrustAnchors, PstGetTrustAnchors function [Security], certpoleng/PstGetTrustAnchors, security.pstgettrustanchors
 ms.prod: windows
 ms.technology: windows-sdk

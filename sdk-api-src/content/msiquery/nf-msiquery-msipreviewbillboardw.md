@@ -82,7 +82,7 @@ Specifies the name of the billboard to display.
 
 
 
-This function returns UINT.
+This function returns UINT __stdcall.
 
 
 

@@ -7,7 +7,7 @@ old-location: security\iocspadmin_gethashalgorithms.htm
 old-project: SecCrypto
 ms.assetid: aa131478-0456-4ae8-82a6-5dc8eaa293e0
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: GetHashAlgorithms, GetHashAlgorithms method [Security], GetHashAlgorithms method [Security],IOCSPAdmin interface, IOCSPAdmin interface [Security],GetHashAlgorithms method, IOCSPAdmin.GetHashAlgorithms, IOCSPAdmin::GetHashAlgorithms, certadm/IOCSPAdmin::GetHashAlgorithms, security.iocspadmin_gethashalgorithms
 ms.prod: windows
 ms.technology: windows-sdk

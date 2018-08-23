@@ -7,7 +7,7 @@ old-location: dshow\ifilesinkfilter2.htm
 old-project: DirectShow
 ms.assetid: 1339c441-2b10-461f-87f3-4835c1692740
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/20/2018
 ms.keywords: IFileSinkFilter2, IFileSinkFilter2 interface [DirectShow], IFileSinkFilter2 interface [DirectShow],described, IFileSinkFilter2Interface, dshow.ifilesinkfilter2, strmif/IFileSinkFilter2
 ms.prod: windows
 ms.technology: windows-sdk

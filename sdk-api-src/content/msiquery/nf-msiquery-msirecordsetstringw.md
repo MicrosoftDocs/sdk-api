@@ -83,7 +83,7 @@ Specifies the string value of the field.
 
 
 
-This function returns UINT.
+This function returns UINT __stdcall.
 
 
 

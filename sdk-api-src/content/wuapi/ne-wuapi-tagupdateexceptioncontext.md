@@ -75,6 +75,11 @@ The <a href="https://msdn.microsoft.com/9e7458be-b411-4395-98f2-c92308f78371">IU
 The <a href="https://msdn.microsoft.com/9e7458be-b411-4395-98f2-c92308f78371">IUpdateException</a> is related to Windows Installer.
 
 
+### -field uecSearchIncomplete
+
+
+
+
 ## -see-also
 
 

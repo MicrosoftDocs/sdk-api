@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_sampler_desc.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_sampler_desc.htm
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/20/2018
 ms.keywords: 3a645765-f6d2-d3f9-5cfb-b48ca43f620b, D3D10_SAMPLER_DESC, D3D10_SAMPLER_DESC structure [Direct3D 10], d3d10/D3D10_SAMPLER_DESC, direct3d10.d3d10_sampler_desc
 ms.prod: windows
 ms.technology: windows-sdk

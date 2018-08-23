@@ -61,7 +61,9 @@ Normalizes the text range by the specified text unit. The range is expanded if i
 
 
 
-### -param textUnit [in]
+
+
+#### - textUnit [in]
 
 Type: <b><a href="https://msdn.microsoft.com/518318fc-d60f-41b7-a6da-1f2bf5c2e494">TextUnit</a></b>
 

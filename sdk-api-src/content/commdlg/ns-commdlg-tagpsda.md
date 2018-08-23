@@ -7,7 +7,7 @@ old-location: dlgbox\pagesetupdlg_str.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\pagesetupdlg.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/21/2018
 ms.keywords: "*LPPAGESETUPDLGA, LPPAGESETUPDLG, LPPAGESETUPDLG structure pointer [Dialog Boxes], PAGESETUPDLG, PAGESETUPDLG structure [Dialog Boxes], PAGESETUPDLGA, PAGESETUPDLGW, PSD_DEFAULTMINMARGINS, PSD_DISABLEMARGINS, PSD_DISABLEORIENTATION, PSD_DISABLEPAGEPAINTING, PSD_DISABLEPAPER, PSD_DISABLEPRINTER, PSD_ENABLEPAGEPAINTHOOK, PSD_ENABLEPAGESETUPHOOK, PSD_ENABLEPAGESETUPTEMPLATE, PSD_ENABLEPAGESETUPTEMPLATEHANDLE, PSD_INHUNDREDTHSOFMILLIMETERS, PSD_INTHOUSANDTHSOFINCHES, PSD_INWININIINTLMEASURE, PSD_MARGINS, PSD_MINMARGINS, PSD_NONETWORKBUTTON, PSD_NOWARNING, PSD_RETURNDEFAULT, PSD_SHOWHELP, _win32_PAGESETUPDLG_str, _win32_pagesetupdlg_str_cpp, commdlg/LPPAGESETUPDLG, commdlg/PAGESETUPDLG, commdlg/PAGESETUPDLGA, commdlg/PAGESETUPDLGW, dlgbox.pagesetupdlg_str, tagPSDA, tagPSDW, winui._win32_pagesetupdlg_str"
 ms.prod: windows
 ms.technology: windows-sdk

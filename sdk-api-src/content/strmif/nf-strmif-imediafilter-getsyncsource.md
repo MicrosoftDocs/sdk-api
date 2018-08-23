@@ -7,7 +7,7 @@ old-location: dshow\imediafilter_getsyncsource.htm
 old-project: DirectShow
 ms.assetid: 5f5eb31c-3a12-45f4-9c95-caafc0267481
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/20/2018
 ms.keywords: GetSyncSource, GetSyncSource method [DirectShow], GetSyncSource method [DirectShow],IMediaFilter interface, IMediaFilter interface [DirectShow],GetSyncSource method, IMediaFilter.GetSyncSource, IMediaFilter::GetSyncSource, IMediaFilterGetSyncSource, dshow.imediafilter_getsyncsource, strmif/IMediaFilter::GetSyncSource
 ms.prod: windows
 ms.technology: windows-sdk

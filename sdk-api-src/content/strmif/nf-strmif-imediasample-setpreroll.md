@@ -7,7 +7,7 @@ old-location: dshow\imediasample_setpreroll.htm
 old-project: DirectShow
 ms.assetid: a92f2774-19ac-4630-ad66-2299336d1338
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/20/2018
 ms.keywords: IMediaSample interface [DirectShow],SetPreroll method, IMediaSample.SetPreroll, IMediaSample::SetPreroll, IMediaSampleSetPreroll, SetPreroll, SetPreroll method [DirectShow], SetPreroll method [DirectShow],IMediaSample interface, dshow.imediasample_setpreroll, strmif/IMediaSample::SetPreroll
 ms.prod: windows
 ms.technology: windows-sdk

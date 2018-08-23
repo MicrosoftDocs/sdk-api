@@ -61,9 +61,9 @@ Creates an agile reference for an object specified by the given interface.
 
 
 
-### -param options [in]
+### -param param
 
-The registration options.
+TBD
 
 
 ### -param riid [in]
@@ -79,6 +79,11 @@ Pointer to the interface to be encapsulated in an agile reference. It must be th
 ### -param ppAgileReference [out]
 
 The agile reference for the object. Call the <a href="https://msdn.microsoft.com/en-us/library/Dn269838(v=VS.85).aspx">Resolve</a> method to localize the object into the apartment in which <b>Resolve</b> is called.
+
+
+#### - options [in]
+
+The registration options.
 
 
 ## -returns

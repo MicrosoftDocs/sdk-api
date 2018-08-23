@@ -1,0 +1,121 @@
+---
+UID: NF:dcomp.IDCompositionMatrixTransform.SetMatrixElement(int,int,IDCompositionAnimation)
+title: IDCompositionMatrixTransform::SetMatrixElement(int,int,IDCompositionAnimation)
+author: windows-sdk-content
+description: Changes the value of one element of the matrix of this transform.
+old-location: directcomp\idcompositionmatrixtransform_setmatrixelement.htm
+old-project: directcomp
+ms.assetid: E95F44EC-532C-472C-8C1A-6B008CA97DC0
+ms.author: windowssdkdev
+ms.date: 07/24/2018
+ms.keywords: IDCompositionMatrixTransform interface [DirectComposition],SetMatrixElement method, IDCompositionMatrixTransform.SetMatrixElement, IDCompositionMatrixTransform.SetMatrixElement(int,int,IDCompositionAnimation), IDCompositionMatrixTransform::SetMatrixElement, IDCompositionMatrixTransform::SetMatrixElement(int,int,IDCompositionAnimation), IDCompositionMatrixTransform::SetMatrixElement(int,int,float), SetMatrixElement, SetMatrixElement method [DirectComposition], SetMatrixElement method [DirectComposition],IDCompositionMatrixTransform interface, dcomp/IDCompositionMatrixTransform::SetMatrixElement, directcomp.idcompositionmatrixtransform_setmatrixelement
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dcomp.h
+req.include-header: 
+req.redist: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 8 [desktop apps only]
+req.target-min-winversvr: Windows Server 2012 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: D2D_VECTOR_4F
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - Dcomp.dll
+api_name:
+ - IDCompositionMatrixTransform.SetMatrixElement
+product: Windows
+targetos: Windows
+req.lib: Dcomp.lib
+req.dll: Dcomp.dll
+req.irql: 
+---
+
+# IDCompositionMatrixTransform::SetMatrixElement(int,int,IDCompositionAnimation)
+
+
+## -description
+
+
+Changes the value of one element of the matrix of this transform.
+
+
+## -parameters
+
+
+
+
+### -param row [in]
+
+Type: <b>int</b>
+
+The row index of the element to change. This value must be between 0 and 2, inclusive.
+
+
+### -param column [in]
+
+Type: <b>int</b>
+
+The column index of the element to change. This value must be between 0 and 1, inclusive.
+
+
+### -param animation
+
+
+
+
+
+
+#### - value [in]
+
+Type: <b>float</b>
+
+The new value of the specified element.
+
+
+## -returns
+
+
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HRESULT</a></b>
+
+If the function succeeds, it returns S_OK. Otherwise, it returns an <b>HRESULT</b> error code. See <a href="https://msdn.microsoft.com/8DFBFC34-DBD0-4731-8305-B33E90C96C54">DirectComposition Error Codes</a>  for a list of error codes.
+
+
+
+
+## -remarks
+
+
+
+This method fails if the <i>value</i> parameter is NaN, positive infinity, or negative infinity.
+
+If the specified element was previously animated, this method removes the animation and sets the element to the specified static value.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/150e33f2-3d76-44a8-b2fe-5a2b4a532c3c">IDCompositionMatrixTransform</a>
+ 
+
+ 
+

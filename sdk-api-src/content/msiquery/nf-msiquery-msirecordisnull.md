@@ -76,7 +76,7 @@ Specifies the field to check.
 
 
 
-This function returns BOOL.
+This function returns BOOL __stdcall.
 
 
 

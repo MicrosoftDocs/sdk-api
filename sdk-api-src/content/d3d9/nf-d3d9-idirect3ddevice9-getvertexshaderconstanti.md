@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__getvertexshaderconstanti.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getvertexshaderconstanti.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: 8454f8b9-4e73-7aec-d345-456fe7633eb5, GetVertexShaderConstantI, GetVertexShaderConstantI method [Direct3D 9], GetVertexShaderConstantI method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetVertexShaderConstantI method, IDirect3DDevice9.GetVertexShaderConstantI, IDirect3DDevice9::GetVertexShaderConstantI, d3d9helper/IDirect3DDevice9::GetVertexShaderConstantI, direct3d9.idirect3ddevice9__getvertexshaderconstanti
 ms.prod: windows
 ms.technology: windows-sdk

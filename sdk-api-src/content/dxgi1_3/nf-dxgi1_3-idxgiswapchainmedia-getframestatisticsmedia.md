@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiswapchainmedia_getframestatisticsmedia.htm
 old-project: direct3ddxgi
 ms.assetid: AC29C389-832A-4A73-A5D8-7687B1D02256
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/20/2018
 ms.keywords: GetFrameStatisticsMedia, GetFrameStatisticsMedia method [DXGI], GetFrameStatisticsMedia method [DXGI],IDXGISwapChainMedia interface, IDXGISwapChainMedia interface [DXGI],GetFrameStatisticsMedia method, IDXGISwapChainMedia.GetFrameStatisticsMedia, IDXGISwapChainMedia::GetFrameStatisticsMedia, direct3ddxgi.idxgiswapchainmedia_getframestatisticsmedia, dxgi1_3/IDXGISwapChainMedia::GetFrameStatisticsMedia
 ms.prod: windows
 ms.technology: windows-sdk

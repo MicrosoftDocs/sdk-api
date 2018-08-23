@@ -60,18 +60,9 @@ Moves one endpoint of the text range the specified number of text units within t
 
 
 
-### -param endpoint [in]
-
-Type: <b><a href="https://msdn.microsoft.com/4a294376-a401-4380-ba5a-b899548290b7">TextPatternRangeEndpoint</a></b>
-
-A value specifying the endpoint (start or end) to move.
+### -param param
 
 
-### -param unit [in]
-
-Type: <b><a href="https://msdn.microsoft.com/518318fc-d60f-41b7-a6da-1f2bf5c2e494">TextUnit</a></b>
-
-A value specifying the textual unit for moving, such as line or paragraph.
 
 
 ### -param count [in]
@@ -86,6 +77,20 @@ The number of units to move. A positive count moves the endpoint forward. A nega
 Type: <b>int*</b>
 
 Receives the count of units actually moved. This value can be less than the number requested if moving the endpoint runs into the beginning or end of the document.
+
+
+#### - endpoint [in]
+
+Type: <b><a href="https://msdn.microsoft.com/4a294376-a401-4380-ba5a-b899548290b7">TextPatternRangeEndpoint</a></b>
+
+A value specifying the endpoint (start or end) to move.
+
+
+#### - unit [in]
+
+Type: <b><a href="https://msdn.microsoft.com/518318fc-d60f-41b7-a6da-1f2bf5c2e494">TextUnit</a></b>
+
+A value specifying the textual unit for moving, such as line or paragraph.
 
 
 ## -returns

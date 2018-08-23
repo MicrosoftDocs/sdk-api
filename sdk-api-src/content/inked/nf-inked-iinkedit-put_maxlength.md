@@ -7,7 +7,7 @@ old-location: tablet\inkedit_maxlength.htm
 old-project: tablet
 ms.assetid: 603074d4-3222-4593-a5e8-b5f8a8dced6a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: IInkEdit interface [Tablet PC],MaxLength property, IInkEdit.MaxLength, IInkEdit.put_MaxLength, IInkEdit::MaxLength, IInkEdit::get_MaxLength, IInkEdit::put_MaxLength, InkEdit.get_MaxLength, InkEdit.put_MaxLength, MaxLength property [Tablet PC], MaxLength property [Tablet PC],IInkEdit interface, get_MaxLength, inked/IInkEdit::MaxLength, inked/IInkEdit::get_MaxLength, inked/IInkEdit::put_MaxLength, put_MaxLength, tablet.inkedit_maxlength
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,7 +88,7 @@ If text that exceeds the <b>MaxLength</b> property setting is assigned to an <a 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
+<a href="https://msdn.microsoft.com/8F47529B-52E9-4D67-81B3-DD2584B98101">IInkEdit</a>
 
 
 

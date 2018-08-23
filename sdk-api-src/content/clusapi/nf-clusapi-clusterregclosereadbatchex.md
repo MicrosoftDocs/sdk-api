@@ -82,12 +82,6 @@ The flags for the operation.
 A pointer to the handle of the created read batch result. You must close this handle later by calling the  <a href="https://msdn.microsoft.com/en-us/library/Hh706742(v=VS.85).aspx">ClusterRegCloseReadBatchReply</a> function.
 
 
-##### - flags.IsolatedRead (2)
-
-
-##### - flags.None (0)
-
-
 ## -returns
 
 

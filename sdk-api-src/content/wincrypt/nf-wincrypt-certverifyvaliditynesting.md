@@ -7,7 +7,7 @@ old-location: security\certverifyvaliditynesting.htm
 old-project: SecCrypto
 ms.assetid: dc73a21d-5b55-45c4-80d2-220508d9f762
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CertVerifyValidityNesting, CertVerifyValidityNesting function [Security], _crypto2_certverifyvaliditynesting, security.certverifyvaliditynesting, wincrypt/CertVerifyValidityNesting
 ms.prod: windows
 ms.technology: windows-sdk

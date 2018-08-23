@@ -7,7 +7,7 @@ old-location: base\interlockedxor8.htm
 old-project: sync
 ms.assetid: 9b96417e-dc2e-4b67-8084-0c0219444299
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: InterlockedXor8, InterlockedXor8 function, base.interlockedxor8, winnt/InterlockedXor8
 ms.prod: windows
 ms.technology: windows-sdk

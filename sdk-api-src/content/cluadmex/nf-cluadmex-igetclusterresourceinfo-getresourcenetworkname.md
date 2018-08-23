@@ -91,7 +91,7 @@ Pointer to the maximum count in characters of the buffer pointed to by <i>lpszNe
 
 
 
-This method returns BOOL.
+This method returns BOOL __stdcall.
 
 
 

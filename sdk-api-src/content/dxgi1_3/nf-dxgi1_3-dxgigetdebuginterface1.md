@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgigetdebuginterface1.htm
 old-project: direct3ddxgi
 ms.assetid: 0FE0EAF5-3ADC-426F-9DA9-FEDEC519EEF0
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/20/2018
 ms.keywords: DXGIGetDebugInterface1, DXGIGetDebugInterface1 function [DXGI], direct3ddxgi.dxgigetdebuginterface1, dxgi1_3/DXGIGetDebugInterface1
 ms.prod: windows
 ms.technology: windows-sdk

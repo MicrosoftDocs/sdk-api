@@ -7,7 +7,7 @@ old-location: base\rtlquerydepthslist.htm
 old-project: sync
 ms.assetid: 5a73b181-e1ea-459a-b3b0-6cf16980930c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: RtlQueryDepthSList, RtlQueryDepthSList function, base.rtlquerydepthslist, winnt/RtlQueryDepthSList
 ms.prod: windows
 ms.technology: windows-sdk

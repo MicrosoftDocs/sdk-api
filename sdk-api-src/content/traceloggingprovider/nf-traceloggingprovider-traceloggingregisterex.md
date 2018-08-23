@@ -7,13 +7,14 @@ old-location: tracelogging\traceloggingregisterex.htm
 old-project: tracelogging
 ms.assetid: E64B3855-A43B-489B-8A73-930D65FA5F79
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/06/2018
 ms.keywords: TraceLoggingRegisterEx, TraceLoggingRegisterEx function, tracelogging.traceloggingregisterex, traceloggingprovider/TraceLoggingRegisterEx
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: function
 req.header: traceloggingprovider.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: Windows Server 2012 R2
@@ -66,7 +67,7 @@ TBD
 
 
 
-#### - hProvider [in, out]
+#### - [in, out]
 
 The handle of the provider to register.
 

@@ -7,7 +7,7 @@ old-location: multimedia\mciwndgetspeed.htm
 old-project: Multimedia
 ms.assetid: d327b649-8c1e-4219-a1ec-8f89e3a9a33e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: MCIWndGetSpeed, MCIWndGetSpeed macro [Windows Multimedia], _win32_MCIWndGetSpeed, multimedia.mciwndgetspeed, vfw/MCIWndGetSpeed
 ms.prod: windows
 ms.technology: windows-sdk

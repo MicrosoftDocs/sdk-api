@@ -7,7 +7,7 @@ old-location: security\pstgetusernameforcertificate.htm
 old-project: secauthn
 ms.assetid: abef13bc-0d63-4c71-a1cb-9ade26b41da3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: PstGetUserNameForCertificate, PstGetUserNameForCertificate function [Security], certpoleng/PstGetUserNameForCertificate, security.pstgetusernameforcertificate
 ms.prod: windows
 ms.technology: windows-sdk

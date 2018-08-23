@@ -2,7 +2,7 @@
 UID: NA:mssip
 ms.assetid: 6048e3fd-fd19-3077-a19b-e4d421c7af4c
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/23/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

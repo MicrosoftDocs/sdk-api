@@ -7,7 +7,7 @@ old-location: multimedia\mciwndsetzoom.htm
 old-project: Multimedia
 ms.assetid: a9912c5c-2336-48a3-aca0-d0d434b9db08
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: MCIWndSetZoom, MCIWndSetZoom macro [Windows Multimedia], _win32_MCIWndSetZoom, multimedia.mciwndsetzoom, vfw/MCIWndSetZoom
 ms.prod: windows
 ms.technology: windows-sdk

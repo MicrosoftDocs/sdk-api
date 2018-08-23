@@ -78,7 +78,7 @@ Reserved, must be 0.
 
 
 
-This function returns BOOL.
+This function returns BOOL __stdcall.
 
 
 

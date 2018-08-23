@@ -77,7 +77,7 @@ Specifies the action to execute.
 
 
 
-This function returns UINT.
+This function returns UINT __stdcall.
 
 
 

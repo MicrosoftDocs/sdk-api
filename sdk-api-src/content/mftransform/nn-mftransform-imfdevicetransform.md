@@ -7,7 +7,7 @@ old-location: stream\imfdevicetransform.htm
 old-project: stream
 ms.assetid: 375293FA-8017-4F74-A93C-C15FED8F19AF
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/20/2018
 ms.keywords: IMFDeviceTransform, IMFDeviceTransform interface [Streaming Media Devices], IMFDeviceTransform interface [Streaming Media Devices],described, mftransform/IMFDeviceTransform, stream.imfdevicetransform
 ms.prod: windows
 ms.technology: windows-sdk

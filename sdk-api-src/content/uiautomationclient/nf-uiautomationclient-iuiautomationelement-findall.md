@@ -60,11 +60,9 @@ Returns all UI Automation elements that satisfy the specified condition.
 
 
 
-### -param scope [in]
+### -param param
 
-Type: <b><a href="https://msdn.microsoft.com/eb9e05b3-bcfa-4fed-9cc9-6ea8a778618e">TreeScope</a></b>
 
-A combination of values specifying the scope of the search.
 
 
 ### -param condition [in]
@@ -79,6 +77,13 @@ A pointer to a condition that represents the criteria to match.
 Type: <b><a href="https://msdn.microsoft.com/7ecf585c-ff3b-4f89-8a7d-e2de66650ab4">IUIAutomationElementArray</a>**</b>
 
 Receives a pointer to an array of matching elements. Returns an empty array if no matching element is found. 
+
+
+#### - scope [in]
+
+Type: <b><a href="https://msdn.microsoft.com/eb9e05b3-bcfa-4fed-9cc9-6ea8a778618e">TreeScope</a></b>
+
+A combination of values specifying the scope of the search.
 
 
 ## -returns

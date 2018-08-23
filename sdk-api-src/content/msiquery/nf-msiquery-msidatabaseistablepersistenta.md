@@ -78,7 +78,7 @@ Specifies the name of the relevant table.
 
 
 
-This function returns MSICONDITION.
+This function returns MSICONDITION __stdcall.
 
 
 

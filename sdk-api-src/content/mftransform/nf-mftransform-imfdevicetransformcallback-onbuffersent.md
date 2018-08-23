@@ -7,7 +7,7 @@ old-location: stream\imfdevicetransformcallback_onbuffersent.htm
 old-project: stream
 ms.assetid: 8736BF02-636A-4894-AA74-92A805152D52
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/20/2018
 ms.keywords: IMFDeviceTransformCallback interface [Streaming Media Devices],OnBufferSent method, IMFDeviceTransformCallback.OnBufferSent, IMFDeviceTransformCallback::OnBufferSent, OnBufferSent, OnBufferSent method [Streaming Media Devices], OnBufferSent method [Streaming Media Devices],IMFDeviceTransformCallback interface, mftransform/IMFDeviceTransformCallback::OnBufferSent, stream.imfdevicetransformcallback_onbuffersent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,7 +95,7 @@ The frame buffer header information provided by this callback is read-only. You 
 
 
 
-<a href="https://msdn.microsoft.com/library/Mt846762(v=VS.85).aspx">IMFDeviceTransformCallback</a>
+<a href="https://msdn.microsoft.com/F603F92A-9233-4786-9DE8-AE10BA981DE3">IMFDeviceTransformCallback</a>
  
 
  

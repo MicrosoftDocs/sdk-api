@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiinfoqueue_pushdenyallstoragefilter.htm
 old-project: direct3ddxgi
 ms.assetid: 7985F43F-B0D3-4FF1-83D9-EEB568B29664
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/20/2018
 ms.keywords: IDXGIInfoQueue interface [DXGI],PushDenyAllStorageFilter method, IDXGIInfoQueue.PushDenyAllStorageFilter, IDXGIInfoQueue::PushDenyAllStorageFilter, PushDenyAllStorageFilter, PushDenyAllStorageFilter method [DXGI], PushDenyAllStorageFilter method [DXGI],IDXGIInfoQueue interface, direct3ddxgi.idxgiinfoqueue_pushdenyallstoragefilter, dxgidebug/IDXGIInfoQueue::PushDenyAllStorageFilter
 ms.prod: windows
 ms.technology: windows-sdk

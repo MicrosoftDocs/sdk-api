@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_tex2d_array_srv.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_tex2d_array_srv.htm
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/20/2018
 ms.keywords: 2463e963-bfda-506f-51fc-2523bea8dd70, D3D10_TEX2D_ARRAY_SRV, D3D10_TEX2D_ARRAY_SRV structure [Direct3D 10], d3d10/D3D10_TEX2D_ARRAY_SRV, direct3d10.d3d10_tex2d_array_srv
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: stream\imfdevicetransformcallback.htm
 old-project: stream
 ms.assetid: F603F92A-9233-4786-9DE8-AE10BA981DE3
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/20/2018
 ms.keywords: IMFDeviceTransformCallback, IMFDeviceTransformCallback interface [Streaming Media Devices], IMFDeviceTransformCallback interface [Streaming Media Devices],described, mftransform/IMFDeviceTransformCallback, stream.imfdevicetransformcallback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,7 +74,7 @@ The <b>IMFDeviceTransformCallback</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Mt846763(v=VS.85).aspx">OnBufferSent</a>
+<a href="https://msdn.microsoft.com/8736BF02-636A-4894-AA74-92A805152D52">OnBufferSent</a>
 </td>
 <td align="left" width="63%">
 Called when system-allocated frame buffers are sent to the device driver. 

@@ -63,9 +63,11 @@ The <b>FaxConnectFaxServer</b> function connects a fax client application to the
 
 
 
-### -param OPTIONAL
+### -param MachineName [in, optional]
 
-TBD
+Type: <b>LPCTSTR</b>
+
+This pointer must be <b>NULL</b> (an empty string), so that the application connects to the fax server on the local computer.
 
 
 ### -param FaxHandle [out]
@@ -73,13 +75,6 @@ TBD
 Type: <b>LPHANDLE</b>
 
 Pointer to a variable that receives a fax server handle that is required on subsequent calls to other fax client functions. If the fax server returns a null handle, it indicates an error.
-
-
-#### - MachineName [in, optional]
-
-Type: <b>LPCTSTR</b>
-
-This pointer must be <b>NULL</b> (an empty string), so that the application connects to the fax server on the local computer.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: http\winhttpqueryheaders.htm
 old-project: winhttp
 ms.assetid: 9656ebad-78df-4d1c-94e9-6127d6bc4799
 ms.author: windowssdkdev
-ms.date: 08/09/2018
+ms.date: 08/17/2018
 ms.keywords: WinHttpQueryHeaders, WinHttpQueryHeaders function [WinHTTP], http.winhttpqueryheaders, winhttp.winhttpqueryheaders_function, winhttp/WinHttpQueryHeaders
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,11 +74,11 @@ Value of type <b>DWORD</b> that specifies a combination of attribute and modifie
 <a href="https://msdn.microsoft.com/c26dac1d-9a75-440a-a0ef-a2029f138f3b">Query Info Flags</a> page. These attribute and modifier flags indicate that the information is being requested and how it is to be formatted.
 
 
-### -param OPTIONAL
+### -param pwszName [in, optional]
 
-TBD
-
-
+Pointer to a string that contains the header name. If the flag in 
+<i>dwInfoLevel</i> is not 
+<b>WINHTTP_QUERY_CUSTOM</b>, set this parameter to WINHTTP_HEADER_NAME_BY_INDEX.
 
 
 ### -param lpBuffer [out]
@@ -102,17 +102,10 @@ Pointer to a value of type <b>DWORD</b> that specifies the length of the data bu
 <i>lpdwBufferLength</i> specifies the number of bytes that the application must allocate to receive the string. </li>
 </ul>
 
-#### - lpdwIndex [in, out]
+### -param lpdwIndex [in, out]
 
 Pointer to a zero-based header index used to enumerate multiple headers with the same name. When calling the function, this parameter is the index of the specified header to return. When the function returns, this parameter is the index of the next header. If the next index cannot be found, 
 <b>ERROR_WINHTTP_HEADER_NOT_FOUND</b> is returned. Set this parameter to WINHTTP_NO_HEADER_INDEX to specify that only the first occurrence of a header should be returned.
-
-
-#### - pwszName [in, optional]
-
-Pointer to a string that contains the header name. If the flag in 
-<i>dwInfoLevel</i> is not 
-<b>WINHTTP_QUERY_CUSTOM</b>, set this parameter to WINHTTP_HEADER_NAME_BY_INDEX.
 
 
 ## -returns

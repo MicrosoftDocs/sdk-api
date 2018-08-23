@@ -7,7 +7,7 @@ old-location: intl\imecompositionstringinfo.htm
 old-project: Intl
 ms.assetid: 27124683-C4F9-4FF9-9004-9FF5B2B8B421
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: "*LPIMECOMPOSITIONSTRINGINFO, IMECOMPOSITIONSTRINGINFO, IMECOMPOSITIONSTRINGINFO structure [Internationalization for Windows Applications], PIMECOMPOSITIONSTRINGINFO, PIMECOMPOSITIONSTRINGINFO structure pointer [Internationalization for Windows Applications], imepad/IMECOMPOSITIONSTRINGINFO, imepad/PIMECOMPOSITIONSTRINGINFO, intl.imecompositionstringinfo, tagIMECOMPOSITIONSTRINGINFO"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -67,9 +67,16 @@ Handle to the client obtained from a previous call to
 <a href="https://msdn.microsoft.com/2b952ea2-cf33-49e3-ae31-a14b0907a1b5">RtmRegisterEntity</a>.
 
 
-### -param OPTIONAL
+### -param RouteHandle [in, out]
 
-TBD
+If the client has a handle (updating a route): On input, <i>RouteHandle</i> is a pointer to the route handle. On output, <i>RouteHandle</i> is unchanged. 
+
+
+
+
+If the client does not have a handle and a handle must be returned (client is adding or updating a route): On input, <i>RouteHandle</i> is a pointer to <b>NULL</b>. On output, <i>RouteHandle</i> receives a pointer to the route handle. The values in <i>RouteInfo</i> are used to identify the route to update.
+
+If a handle does not need to be returned (client is adding or updating a route): On input, <i>RouteHandle</i> is <b>NULL</b>. The values in <i>RouteInfo</i> are used to identify the route to update.
 
 
 ### -param DestAddress [in]
@@ -87,7 +94,17 @@ Pointer to the route information to add or update.
 Specifies the time, in milliseconds, after which the route is expired. Specify INFINITE to prevent routes from expiring.
 
 
+### -param RouteListHandle [in]
+
+Handle to a route list to which to move the route. This parameter is optional and can be set to <b>NULL</b>.
+
+
 ### -param NotifyType [in]
+
+Set this parameter to <b>NULL</b>. This parameter is reserved for future use.
+
+
+### -param NotifyHandle [in]
 
 Set this parameter to <b>NULL</b>. This parameter is reserved for future use.
 
@@ -138,28 +155,6 @@ Returned by the routing table manager to indicate that the route that was added 
 </tr>
 </table>
  
-
-
-#### - NotifyHandle [in]
-
-Set this parameter to <b>NULL</b>. This parameter is reserved for future use.
-
-
-#### - RouteHandle [in, out]
-
-If the client has a handle (updating a route): On input, <i>RouteHandle</i> is a pointer to the route handle. On output, <i>RouteHandle</i> is unchanged. 
-
-
-
-
-If the client does not have a handle and a handle must be returned (client is adding or updating a route): On input, <i>RouteHandle</i> is a pointer to <b>NULL</b>. On output, <i>RouteHandle</i> receives a pointer to the route handle. The values in <i>RouteInfo</i> are used to identify the route to update.
-
-If a handle does not need to be returned (client is adding or updating a route): On input, <i>RouteHandle</i> is <b>NULL</b>. The values in <i>RouteInfo</i> are used to identify the route to update.
-
-
-#### - RouteListHandle [in]
-
-Handle to a route list to which to move the route. This parameter is optional and can be set to <b>NULL</b>.
 
 
 ## -returns

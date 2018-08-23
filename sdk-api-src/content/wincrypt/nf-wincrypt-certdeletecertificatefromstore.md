@@ -7,7 +7,7 @@ old-location: security\certdeletecertificatefromstore.htm
 old-project: SecCrypto
 ms.assetid: 4390c8da-9c4d-47a4-9af4-d179829f77f3
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CertDeleteCertificateFromStore, CertDeleteCertificateFromStore function [Security], _crypto2_certdeletecertificatefromstore, security.certdeletecertificatefromstore, wincrypt/CertDeleteCertificateFromStore
 ms.prod: windows
 ms.technology: windows-sdk

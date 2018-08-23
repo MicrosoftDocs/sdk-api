@@ -2,7 +2,7 @@
 UID: TP:nettcpip
 ms.assetid: 2348df63-9db2-3337-8eeb-cca3926e009e
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/23/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tablet\inkedit_text.htm
 old-project: tablet
 ms.assetid: 1b0b2354-7aa5-4e3f-8f7f-9e613c923f9f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: IInkEdit interface [Tablet PC],Text property, IInkEdit.Text, IInkEdit.get_Text, IInkEdit::Text, IInkEdit::get_Text, IInkEdit::put_Text, InkEdit.get_Text, InkEdit.put_Text, Text property [Tablet PC], Text property [Tablet PC],IInkEdit interface, get_Text, inked/IInkEdit::Text, inked/IInkEdit::get_Text, inked/IInkEdit::put_Text, put_Text, tablet.inkedit_text
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,7 +79,7 @@ Setting the Text property replaces the entire contents of a control with the new
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846764(v=VS.85).aspx">IInkEdit</a>
+<a href="https://msdn.microsoft.com/8F47529B-52E9-4D67-81B3-DD2584B98101">IInkEdit</a>
 
 
 

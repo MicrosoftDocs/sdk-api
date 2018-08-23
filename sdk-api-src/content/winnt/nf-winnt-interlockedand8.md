@@ -7,7 +7,7 @@ old-location: base\interlockedand8.htm
 old-project: sync
 ms.assetid: 1b900308-f1dd-465b-b67d-ec2655819425
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: InterlockedAnd8, InterlockedAnd8 function, base.interlockedand8, winnt/InterlockedAnd8
 ms.prod: windows
 ms.technology: windows-sdk

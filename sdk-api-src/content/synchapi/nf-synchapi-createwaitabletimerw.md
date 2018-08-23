@@ -7,7 +7,7 @@ old-location: base\createwaitabletimer.htm
 old-project: sync
 ms.assetid: 41c915c4-424d-43dd-89d9-a6b4fbee701c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: CreateWaitableTimer, CreateWaitableTimer function, CreateWaitableTimerA, CreateWaitableTimerW, _win32_createwaitabletimer, base.createwaitabletimer, synchapi/CreateWaitableTimer, synchapi/CreateWaitableTimerA, synchapi/CreateWaitableTimerW
 ms.prod: windows
 ms.technology: windows-sdk

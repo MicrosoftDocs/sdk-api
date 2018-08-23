@@ -1,0 +1,108 @@
+---
+UID: NF:dwrite.IDWriteGdiInterop.CreateFontFaceFromHdc
+title: IDWriteGdiInterop::CreateFontFaceFromHdc
+author: windows-sdk-content
+description: Creates an IDWriteFontFace object that corresponds to the currently selected HFONT of the specified HDC.
+old-location: directwrite\IDWriteGdiInterop_CreateFontFaceFromHdc.htm
+old-project: DirectWrite
+ms.assetid: 583acf9a-2982-4491-bc57-8cf6bfc98598
+ms.author: windowssdkdev
+ms.date: 07/24/2018
+ms.keywords: CreateFontFaceFromHdc, CreateFontFaceFromHdc method [Direct Write], CreateFontFaceFromHdc method [Direct Write],IDWriteGdiInterop interface, IDWriteGdiInterop interface [Direct Write],CreateFontFaceFromHdc method, IDWriteGdiInterop.CreateFontFaceFromHdc, IDWriteGdiInterop::CreateFontFaceFromHdc, directwrite.IDWriteGdiInterop_CreateFontFaceFromHdc, dwrite/IDWriteGdiInterop::CreateFontFaceFromHdc
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dwrite.h
+req.include-header: 
+req.redist: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteGdiInterop.CreateFontFaceFromHdc
+product: Windows
+targetos: Windows
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IDWriteGdiInterop::CreateFontFaceFromHdc
+
+
+## -description
+
+
+ Creates an <b>IDWriteFontFace</b> object that corresponds to the currently selected <b>HFONT</b> of the specified <b>HDC</b>.
+
+
+## -parameters
+
+
+
+
+### -param hdc
+
+Type: <b>HDC</b>
+
+A handle to a device context into which a font has been selected. It is assumed that the client
+     has already performed font mapping and that the font selected into the device context is the actual font to be used 
+     for rendering glyphs.
+
+
+### -param fontFace [out]
+
+Type: <b><a href="https://msdn.microsoft.com/1b6bb9e2-cf01-413c-9ee8-42bb0f703ce8">IDWriteFontFace</a>**</b>
+
+Contains an address of a pointer to  the newly created font face object, or <b>NULL</b> in case of failure. The font face returned is guaranteed to reference the same physical typeface that would be used for drawing glyphs (but not necessarily characters) using ExtTextOut.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -remarks
+
+
+
+This function is intended for scenarios in which an application wants to use GDI and Uniscribe 1.x for text layout and shaping, but  DirectWrite for final rendering. This function assumes the client is performing text output using glyph indexes.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/79472021-ee12-45dd-a943-3908c9e06cde">IDWriteGdiInterop</a>
+ 
+
+ 
+

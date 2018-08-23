@@ -7,7 +7,7 @@ old-location: appxpkg\apppolicygetprocessterminationmethod_function.htm
 old-project: appxpkg
 ms.assetid: 7278DF60-A656-4FEE-A5D1-8C159A0B076D
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/16/2018
 ms.keywords: AppPolicyGetProcessTerminationMethod, AppPolicyGetProcessTerminationMethod function [App packaging and management], appmodel/AppPolicyGetProcessTerminationMethod, appxpkg.apppolicygetprocessterminationmethod_function
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,7 +69,7 @@ A handle that identifies the access token for a process.
 
 ### -param policy [out]
 
-A pointer to a variable of the <a href="https://msdn.microsoft.com/en-us/library/Mt829659(v=VS.85).aspx">AppPolicyProcessTerminationMethod</a> enumerated type. When the function returns successfully, the variable contains a value indicating the method used to end the process.
+A pointer to a variable of the <a href="https://msdn.microsoft.com/874B576A-1AB5-4712-BF04-0406E5FE4923">AppPolicyProcessTerminationMethod</a> enumerated type. When the function returns successfully, the variable contains a value indicating the method used to end the process.
 
 
 ## -returns

@@ -3,7 +3,6 @@
   "headers": [
     "tbd",
     "wdm.h",
-    "oemupgex.h",
     "ntddndis.h",
     "winsock2.h",
     "ws2spi.h",

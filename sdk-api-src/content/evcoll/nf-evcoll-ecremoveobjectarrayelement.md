@@ -74,7 +74,7 @@ The index of the element to remove from the array.
 
 
 
-This function returns BOOL.
+This function returns BOOL __stdcall.
 
 
 

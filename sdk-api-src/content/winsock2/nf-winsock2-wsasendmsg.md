@@ -7,7 +7,7 @@ old-location: winsock\wsasendmsg.htm
 old-project: winsock
 ms.assetid: 3b2ba645-6a70-4ba2-b4a2-5bde0c7f8d08
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: WSASendMsg, WSASendMsg function [Winsock], winsock.wsasendmsg, winsock2/WSASendMsg
 ms.prod: windows
 ms.technology: windows-sdk

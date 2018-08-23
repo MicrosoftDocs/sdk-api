@@ -4,11 +4,11 @@
     "wtypes.h",
     "shobjidl.h",
     "shlobj_core.h",
-    "shellapi.h",
     "propsys.h",
     "shobjidl_core.h",
     "propvarutil.h",
-    "propidl.h"
+    "propidl.h",
+    "shellapi.h"
   ],
   "displayName": "Windows Property System"
 }

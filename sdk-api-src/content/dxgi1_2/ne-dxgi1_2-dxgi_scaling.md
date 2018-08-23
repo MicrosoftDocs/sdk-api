@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgi_scaling.htm
 old-project: direct3ddxgi
 ms.assetid: 7EEA4B02-3C81-4A07-BE3B-80A5E35A16BE
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/20/2018
 ms.keywords: DXGI_SCALING, DXGI_SCALING enumeration [DXGI], DXGI_SCALING_ASPECT_RATIO_STRETCH, DXGI_SCALING_NONE, DXGI_SCALING_STRETCH, direct3ddxgi.dxgi_scaling, dxgi1_2/DXGI_SCALING, dxgi1_2/DXGI_SCALING_ASPECT_RATIO_STRETCH, dxgi1_2/DXGI_SCALING_NONE, dxgi1_2/DXGI_SCALING_STRETCH
 ms.prod: windows
 ms.technology: windows-sdk

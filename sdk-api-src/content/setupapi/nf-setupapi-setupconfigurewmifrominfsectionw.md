@@ -105,7 +105,7 @@ If and only if this flag is set does the security information passed to this fun
 
 
 
-This function returns WINSETUPAPI BOOL.
+This function returns WINSETUPAPI BOOL __stdcall.
 
 
 

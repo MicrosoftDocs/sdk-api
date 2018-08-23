@@ -7,7 +7,7 @@ old-location: intl\ifedictionary_open.htm
 old-project: Intl
 ms.assetid: 7170EED5-0D96-4314-8B9F-A019052B0F32
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: IFEDictionary interface [Internationalization for Windows Applications],Open method, IFEDictionary.Open, IFEDictionary::Open, Open, Open method [Internationalization for Windows Applications], Open method [Internationalization for Windows Applications],IFEDictionary interface, intl.ifedictionary_open, msime/IFEDictionary::Open
 ms.prod: windows
 ms.technology: windows-sdk

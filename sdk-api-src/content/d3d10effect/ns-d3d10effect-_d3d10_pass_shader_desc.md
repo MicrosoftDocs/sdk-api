@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_pass_shader_desc.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_pass_shader_desc.htm
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/20/2018
 ms.keywords: D3D10_PASS_SHADER_DESC, D3D10_PASS_SHADER_DESC structure [Direct3D 10], _D3D10_PASS_SHADER_DESC, d3d10effect/D3D10_PASS_SHADER_DESC, d6701cbf-a851-873f-5e5e-7ef5dd77bdb1, direct3d10.d3d10_pass_shader_desc
 ms.prod: windows
 ms.technology: windows-sdk

@@ -70,7 +70,7 @@ Handle to the installation provided to a DLL custom action or obtained through <
 
 
 
-This function returns UINT.
+This function returns UINT __stdcall.
 
 
 

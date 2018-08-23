@@ -2,7 +2,7 @@
 UID: TP:direct2d
 ms.assetid: 43d8949c-ea1e-342c-bf43-cea67f63ae14
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/23/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -24,6 +24,7 @@ To develop Direct2D, you need these headers:
  * [d2d1_3.h](../d2d1_3/index.md)
  * [d2d1_3helper.h](../d2d1_3helper/index.md)
  * [d2d1effectauthor.h](../d2d1effectauthor/index.md)
+ * [d2d1effectauthor_1.h](../d2d1effectauthor_1/index.md)
  * [d2d1effecthelpers.h](../d2d1effecthelpers/index.md)
  * [d2d1effecthelpers.hlsli](../d2d1effecthelpers/index.md)
  * [d2d1effects.h](../d2d1effects/index.md)

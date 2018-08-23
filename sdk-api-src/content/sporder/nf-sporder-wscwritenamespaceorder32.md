@@ -7,7 +7,7 @@ old-location: winsock\wscwritenamespaceorder32.htm
 old-project: winsock
 ms.assetid: a5b15d28-8137-42bf-8f2a-7c6b5a8a63c2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: WSCWriteNameSpaceOrder32, WSCWriteNameSpaceOrder32 function [Winsock], sporder/WSCWriteNameSpaceOrder32, winsock.wscwritenamespaceorder32
 ms.prod: windows
 ms.technology: windows-sdk

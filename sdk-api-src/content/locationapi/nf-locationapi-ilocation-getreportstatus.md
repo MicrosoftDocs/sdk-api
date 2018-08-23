@@ -68,7 +68,14 @@ Retrieves the status for the specified report type.
 <b>REFIID</b> that specifies the report type for which to get the interval.
 
 
-### -param pStatus [out]
+### -param param
+
+
+
+
+
+
+#### - pStatus [out]
 
 Address of a <a href="https://msdn.microsoft.com/440e64cb-d09c-47cd-9434-8d4479fa52e2">LOCATION_REPORT_STATUS</a> that receives the current status for the specified report.
 

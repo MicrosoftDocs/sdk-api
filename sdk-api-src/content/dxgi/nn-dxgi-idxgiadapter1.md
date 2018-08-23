@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiadapter1.htm
 old-project: direct3ddxgi
 ms.assetid: 003d5a10-e978-481f-8ca6-9e5ab69bfec0
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/20/2018
 ms.keywords: 2ac7b82f-b5a5-ec94-1506-33b758455dd2, IDXGIAdapter1, IDXGIAdapter1 interface [DXGI], IDXGIAdapter1 interface [DXGI],described, direct3ddxgi.idxgiadapter1, dxgi/IDXGIAdapter1
 ms.prod: windows
 ms.technology: windows-sdk

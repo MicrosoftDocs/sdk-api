@@ -7,7 +7,7 @@ old-location: multimedia\acmformatdetails_struct.htm
 old-project: Multimedia
 ms.assetid: a0760541-c083-447d-a812-dd7f05afb622
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: "*LPACMFORMATDETAILS, *PACMFORMATDETAILS, ACMDRIVERDETAILS_SUPPORTF_ASYNC, ACMDRIVERDETAILS_SUPPORTF_CODEC, ACMDRIVERDETAILS_SUPPORTF_CONVERTER, ACMDRIVERDETAILS_SUPPORTF_FILTER, ACMDRIVERDETAILS_SUPPORTF_HARDWARE, ACMFORMATDETAILS, ACMFORMATDETAILS structure [Windows Multimedia], msacm/ACMFORMATDETAILS, multimedia.acmformatdetails_COLLISION956, multimedia.acmformatdetails_struct, tACMFORMATDETAILS"
 ms.prod: windows
 ms.technology: windows-sdk

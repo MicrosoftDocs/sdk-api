@@ -84,7 +84,7 @@ Pointer to the handle of the record that holds the primary key names.
 
 
 
-This function returns UINT.
+This function returns UINT __stdcall.
 
 
 

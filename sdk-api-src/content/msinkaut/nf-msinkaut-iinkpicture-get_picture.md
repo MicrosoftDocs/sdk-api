@@ -7,7 +7,7 @@ old-location: tablet\inkpicture_picture.htm
 old-project: tablet
 ms.assetid: c07433f2-d32c-4b6f-ad15-6b49dc6f4efa
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: IInkPicture interface [Tablet PC],Picture property, IInkPicture.Picture, IInkPicture.get_Picture, IInkPicture::Picture, IInkPicture::get_Picture, IInkPicture::put_Picture, InkPicture.get_Picture, InkPicture.put_Picture, Picture property [Tablet PC], Picture property [Tablet PC],IInkPicture interface, get_Picture, msinkaut/IInkPicture::Picture, msinkaut/IInkPicture::get_Picture, msinkaut/IInkPicture::put_Picture, tablet.inkpicture_picture
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt846800(v=VS.85).aspx">IInkPicture</a>
+<a href="https://msdn.microsoft.com/EA6AC3DD-5F13-442A-B93D-FF0A5333609A">IInkPicture</a>
 
 
 

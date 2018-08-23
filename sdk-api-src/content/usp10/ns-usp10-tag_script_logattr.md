@@ -7,7 +7,7 @@ old-location: intl\script_logattr.htm
 old-project: Intl
 ms.assetid: 24131b04-870a-4841-b9cd-7a09497bd2e6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: FALSE, SCRIPT_LOGATTR, SCRIPT_LOGATTR structure [Internationalization for Windows Applications], TRUE, _win32_SCRIPT_LOGATTR_str, intl.script_logattr, tag_SCRIPT_LOGATTR, usp10/SCRIPT_LOGATTR
 ms.prod: windows
 ms.technology: windows-sdk

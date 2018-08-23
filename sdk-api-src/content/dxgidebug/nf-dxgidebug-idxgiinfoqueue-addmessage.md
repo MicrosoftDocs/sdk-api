@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiinfoqueue_addmessage.htm
 old-project: direct3ddxgi
 ms.assetid: 965DA310-D082-4970-BCD1-F15F44C074D0
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/20/2018
 ms.keywords: AddMessage, AddMessage method [DXGI], AddMessage method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],AddMessage method, IDXGIInfoQueue.AddMessage, IDXGIInfoQueue::AddMessage, direct3ddxgi.idxgiinfoqueue_addmessage, dxgidebug/IDXGIInfoQueue::AddMessage
 ms.prod: windows
 ms.technology: windows-sdk

@@ -74,7 +74,7 @@ An array index indicating where to insert the object.
 
 
 
-This function returns BOOL.
+This function returns BOOL __stdcall.
 
 
 

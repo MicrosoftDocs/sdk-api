@@ -7,7 +7,7 @@ old-location: base\interlockedor8.htm
 old-project: sync
 ms.assetid: fa5cfecf-dde7-4d54-8dfd-68387aa86083
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: InterlockedOr8, InterlockedOr8 function, base.interlockedor8, winnt/InterlockedOr8
 ms.prod: windows
 ms.technology: windows-sdk

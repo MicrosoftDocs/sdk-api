@@ -7,7 +7,7 @@ old-location: wnet\wnetgetuniversalname.htm
 old-project: wnet
 ms.assetid: 12c02092-f2d5-4477-92a7-ae075b8a243a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: REMOTE_NAME_INFO_LEVEL, UNIVERSAL_NAME_INFO_LEVEL, WNetGetUniversalName, WNetGetUniversalName function [Windows Networking (WNet)], WNetGetUniversalNameA, WNetGetUniversalNameW, _win32_wnetgetuniversalname, winnetwk/WNetGetUniversalName, winnetwk/WNetGetUniversalNameA, winnetwk/WNetGetUniversalNameW, wnet.wnetgetuniversalname
 ms.prod: windows
 ms.technology: windows-sdk

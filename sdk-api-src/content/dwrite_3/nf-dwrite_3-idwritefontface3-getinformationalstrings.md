@@ -1,0 +1,104 @@
+---
+UID: NF:dwrite_3.IDWriteFontFace3.GetInformationalStrings
+title: IDWriteFontFace3::GetInformationalStrings
+author: windows-sdk-content
+description: Gets a localized strings collection that contains the specified informational strings, indexed by locale name.
+old-location: directwrite\idwritefontface3_getinformationalstrings.htm
+old-project: DirectWrite
+ms.assetid: F3CF5E9E-C0EA-4A29-8D42-11873DF5A9F2
+ms.author: windowssdkdev
+ms.date: 07/24/2018
+ms.keywords: GetInformationalStrings, GetInformationalStrings method [Direct Write], GetInformationalStrings method [Direct Write],IDWriteFontFace3 interface, IDWriteFontFace3 interface [Direct Write],GetInformationalStrings method, IDWriteFontFace3.GetInformationalStrings, IDWriteFontFace3::GetInformationalStrings, directwrite.idwritefontface3_getinformationalstrings, dwrite_3/IDWriteFontFace3::GetInformationalStrings
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dwrite_3.h
+req.include-header: 
+req.redist: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server 2016 [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteFontFace3.GetInformationalStrings
+product: Windows
+targetos: Windows
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IDWriteFontFace3::GetInformationalStrings
+
+
+## -description
+
+
+Gets a localized strings collection that contains the specified informational strings, indexed by locale name.
+
+
+## -parameters
+
+
+
+
+### -param informationalStringID [in]
+
+Type: <b><a href="https://msdn.microsoft.com/bbd5ea62-0837-49e4-a1e8-1d55d5d39ee3">DWRITE_INFORMATIONAL_STRING_ID</a></b>
+
+A <a href="https://msdn.microsoft.com/bbd5ea62-0837-49e4-a1e8-1d55d5d39ee3">DWRITE_INFORMATIONAL_STRING_ID</a>-typed value that identifies the strings to get.
+
+
+### -param informationalStrings [out]
+
+Type: <b><a href="https://msdn.microsoft.com/37bfc613-4128-45aa-b6b2-6163d44378e4">IDWriteLocalizedStrings</a>**</b>
+
+A pointer to a memory block that receives a pointer to a <a href="https://msdn.microsoft.com/37bfc613-4128-45aa-b6b2-6163d44378e4">IDWriteLocalizedStrings</a> interface for the newly created localized strings object.
+
+
+### -param exists [out]
+
+Type: <b>BOOL*</b>
+
+A pointer to a variable that receives whether the font contains the specified string ID. <b>TRUE</b> if the font contains the specified string ID; otherwise, <b>FALSE</b>.
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If the font doesn't contain the specified string, the return value is S_OK, but <i>informationalStrings</i> receives a <b>NULL</b> pointer and <i>exists</i> receives the value <b>FALSE</b>.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/1081A005-E4A8-4EE0-AFE0-10BD8D8471DF">IDWriteFontFace3</a>
+ 
+
+ 
+

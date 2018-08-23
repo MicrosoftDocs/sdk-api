@@ -2,7 +2,7 @@
 UID: NA:wpcapi
 ms.assetid: aa101964-29d6-3a16-a9ba-b679c3b2f453
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/23/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk

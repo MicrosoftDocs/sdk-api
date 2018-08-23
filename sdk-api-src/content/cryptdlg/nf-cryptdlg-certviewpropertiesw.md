@@ -7,7 +7,7 @@ old-location: security\certviewproperties.htm
 old-project: SecCrypto
 ms.assetid: 5df840ab-fff6-4c7e-b799-51e4de4c644a
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CertViewProperties, CertViewProperties function [Security], CertViewPropertiesA, CertViewPropertiesW, cryptdlg/CertViewProperties, cryptdlg/CertViewPropertiesA, cryptdlg/CertViewPropertiesW, security.certviewproperties
 ms.prod: windows
 ms.technology: windows-sdk

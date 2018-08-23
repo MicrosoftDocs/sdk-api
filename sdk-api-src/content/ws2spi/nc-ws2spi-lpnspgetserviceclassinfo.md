@@ -7,7 +7,7 @@ old-location: winsock\nspgetserviceclassinfo_2.htm
 old-project: winsock
 ms.assetid: babe1c96-9077-4d91-a52a-839c89d7a83b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: LPNSPGETSERVICECLASSINFO, NSPGetServiceClassInfo, NSPGetServiceClassInfo function [Winsock], _win32_nspgetserviceclassinfo_2, winsock.nspgetserviceclassinfo_2, ws2spi/NSPGetServiceClassInfo
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winsock\freeaddrinfoex.htm
 old-project: winsock
 ms.assetid: bc3d7ba7-ec00-4ee0-ad7d-d46641043a7b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: FreeAddrInfoEx, FreeAddrInfoEx function [Winsock], FreeAddrInfoExW, winsock.freeaddrinfoex, ws2tcpip/FreeAddrInfoEx, ws2tcpip/FreeAddrInfoExW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: stream\imfdevicetransform_getoutputcurrenttype.htm
 old-project: stream
 ms.assetid: ABDDED13-5C35-4030-838B-92BECA23F6A2
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/20/2018
 ms.keywords: GetOutputCurrentType, GetOutputCurrentType method [Streaming Media Devices], GetOutputCurrentType method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],GetOutputCurrentType method, IMFDeviceTransform.GetOutputCurrentType, IMFDeviceTransform::GetOutputCurrentType, mftransform/IMFDeviceTransform::GetOutputCurrentType, stream.imfdevicetransform_getoutputcurrenttype
 ms.prod: windows
 ms.technology: windows-sdk

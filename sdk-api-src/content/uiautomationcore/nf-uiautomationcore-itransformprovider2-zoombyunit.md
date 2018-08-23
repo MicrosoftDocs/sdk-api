@@ -60,7 +60,9 @@ Zooms the viewport of the control by the specified logical unit.
 
 
 
-### -param zoomUnit
+
+
+#### - zoomUnit
 
 The logical unit by which to increase or decrease the zoom of the viewport.
 

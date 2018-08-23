@@ -7,7 +7,7 @@ old-location: http\winhttpconnect.htm
 old-project: winhttp
 ms.assetid: afcdad8d-687e-4a1f-99d8-5d8be13825fa
 ms.author: windowssdkdev
-ms.date: 08/09/2018
+ms.date: 08/17/2018
 ms.keywords: INTERNET_DEFAULT_HTTPS_PORT, INTERNET_DEFAULT_HTTP_PORT, INTERNET_DEFAULT_PORT, WinHttpConnect, WinHttpConnect function [WinHTTP], http.winhttpconnect, winhttp.winhttpconnect, winhttp/WinHttpConnect
 ms.prod: windows
 ms.technology: windows-sdk

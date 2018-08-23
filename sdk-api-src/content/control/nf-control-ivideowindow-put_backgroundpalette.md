@@ -7,7 +7,7 @@ old-location: dshow\ivideowindow_put_backgroundpalette.htm
 old-project: DirectShow
 ms.assetid: 0b1d34b6-0043-4929-a496-cf84b5d47b55
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/20/2018
 ms.keywords: IVideoWindow interface [DirectShow],put_BackgroundPalette method, IVideoWindow.put_BackgroundPalette, IVideoWindow::put_BackgroundPalette, IVideoWindowput_BackgroundPalette, control/IVideoWindow::put_BackgroundPalette, dshow.ivideowindow_put_backgroundpalette, put_BackgroundPalette, put_BackgroundPalette method [DirectShow], put_BackgroundPalette method [DirectShow],IVideoWindow interface
 ms.prod: windows
 ms.technology: windows-sdk

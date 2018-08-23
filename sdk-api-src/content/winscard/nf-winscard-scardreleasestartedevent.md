@@ -7,7 +7,7 @@ old-location: security\scardreleasestartedevent.htm
 old-project: secauthn
 ms.assetid: 2c08500f-3ebf-4267-8436-b67543e1c13c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: SCardReleaseStartedEvent, SCardReleaseStartedEvent function [Security], _smart_scardreleasestartedevent, security.scardreleasestartedevent, winscard/SCardReleaseStartedEvent
 ms.prod: windows
 ms.technology: windows-sdk

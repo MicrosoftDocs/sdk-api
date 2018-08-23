@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__createtexture.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__createtexture.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: 0ab6054e-eb96-2ef2-67bb-a8b5918e7fee, CreateTexture, CreateTexture method [Direct3D 9], CreateTexture method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],CreateTexture method, IDirect3DDevice9.CreateTexture, IDirect3DDevice9::CreateTexture, d3d9helper/IDirect3DDevice9::CreateTexture, direct3d9.idirect3ddevice9__createtexture
 ms.prod: windows
 ms.technology: windows-sdk

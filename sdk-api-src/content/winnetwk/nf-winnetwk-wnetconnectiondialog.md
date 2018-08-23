@@ -7,7 +7,7 @@ old-location: wnet\wnetconnectiondialog.htm
 old-project: wnet
 ms.assetid: 2dc383bb-0a1a-4612-88f9-f92c8e2a398d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: RESOURCETYPE_DISK, WNetConnectionDialog, WNetConnectionDialog function [Windows Networking (WNet)], _win32_wnetconnectiondialog, winnetwk/WNetConnectionDialog, wnet.wnetconnectiondialog
 ms.prod: windows
 ms.technology: windows-sdk

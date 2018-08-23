@@ -7,7 +7,7 @@ old-location: security\icertsrvsetupkeyinformation_length.htm
 old-project: SecCrypto
 ms.assetid: 4d641bc4-7b27-48b0-bff1-bb49359ec5f1
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: ICertSrvSetupKeyInformation interface [Security],Length property, ICertSrvSetupKeyInformation.Length, ICertSrvSetupKeyInformation.get_Length, ICertSrvSetupKeyInformation::Length, ICertSrvSetupKeyInformation::get_Length, ICertSrvSetupKeyInformation::put_Length, Length property [Security], Length property [Security],ICertSrvSetupKeyInformation interface, casetup/ICertSrvSetupKeyInformation::Length, casetup/ICertSrvSetupKeyInformation::get_Length, casetup/ICertSrvSetupKeyInformation::put_Length, get_Length, security.icertsrvsetupkeyinformation_length
 ms.prod: windows
 ms.technology: windows-sdk

@@ -60,19 +60,14 @@ Find all matching elements in the specified order.
 
 
 
-### -param scope
+### -param param
 
-A combination of values specifying the scope of the search.
+
 
 
 ### -param condition [in]
 
 A pointer to a condition that represents the criteria to match.
-
-
-### -param traversalOptions
-
-Enumeration value specifying the tree navigation order.
 
 
 ### -param root [in, optional]
@@ -90,6 +85,16 @@ A pointer to the element with which to begin the search.
 #### - foundElementsArray [out]
 
 Receives a pointer to an array of matching elements. Returns an empty array if no matching element is found. 
+
+
+#### - scope
+
+A combination of values specifying the scope of the search.
+
+
+#### - traversalOptions
+
+Enumeration value specifying the tree navigation order.
 
 
 ## -returns

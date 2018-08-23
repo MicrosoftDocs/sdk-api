@@ -7,7 +7,7 @@ old-location: security\cryptmsgverifycountersignatureencoded.htm
 old-project: SecCrypto
 ms.assetid: b0332360-a737-4b48-b592-0c55d493a02d
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CryptMsgVerifyCountersignatureEncoded, CryptMsgVerifyCountersignatureEncoded function [Security], _crypto2_cryptmsgverifycountersignatureencoded, security.cryptmsgverifycountersignatureencoded, wincrypt/CryptMsgVerifyCountersignatureEncoded
 ms.prod: windows
 ms.technology: windows-sdk

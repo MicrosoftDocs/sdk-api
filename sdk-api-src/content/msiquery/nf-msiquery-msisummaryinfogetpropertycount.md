@@ -75,7 +75,7 @@ Location to receive the total property count.
 
 
 
-This function returns UINT.
+This function returns UINT __stdcall.
 
 
 

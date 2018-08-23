@@ -71,7 +71,7 @@ Handle to an existing node.
 
 
 
-This function returns BOOL.
+This function returns BOOL __stdcall.
 
 
 

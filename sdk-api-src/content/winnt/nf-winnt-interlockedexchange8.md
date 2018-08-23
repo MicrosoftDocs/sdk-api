@@ -7,7 +7,7 @@ old-location: base\interlockedexchange8.htm
 old-project: sync
 ms.assetid: fe07fac0-b9f2-419e-a086-09bc73125c4e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: InterlockedExchange8, InterlockedExchange8 function, base.interlockedexchange8, winnt/InterlockedExchange8
 ms.prod: windows
 ms.technology: windows-sdk

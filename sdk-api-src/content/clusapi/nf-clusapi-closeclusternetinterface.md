@@ -68,7 +68,7 @@ Handle of the network interface to close.
 
 
 
-This function returns BOOL.
+This function returns BOOL __stdcall.
 
 
 

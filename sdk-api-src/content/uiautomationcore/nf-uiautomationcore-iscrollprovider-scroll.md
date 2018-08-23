@@ -61,14 +61,21 @@ Scrolls the visible region of the content area horizontally and vertically.
 
 
 
-### -param horizontalAmount [in]
+### -param
+
+
+
+
+
+
+#### - horizontalAmount [in]
 
 Type: <b><a href="https://msdn.microsoft.com/94d84a66-5222-48e4-9675-444eb04558a4">ScrollAmount</a></b>
 
 The horizontal scrolling increment that is specific to the control.
 
 
-### -param verticalAmount [in]
+#### - verticalAmount [in]
 
 Type: <b><a href="https://msdn.microsoft.com/94d84a66-5222-48e4-9675-444eb04558a4">ScrollAmount</a></b>
 

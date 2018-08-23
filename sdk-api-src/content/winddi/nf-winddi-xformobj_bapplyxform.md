@@ -65,7 +65,27 @@ The <b>XFORMOBJ_bApplyXform</b> function applies the given transform or its inve
 Pointer to a <a href="https://msdn.microsoft.com/a18af8fc-880a-4ac3-905a-1d9384c2b8d7">XFORMOBJ</a> structure that defines the transform to be applied to the <i>pvIn</i> array.
 
 
-### -param __out_validated [in]
+### -param iMode
+
+TBD
+
+
+### -param cPoints
+
+Specifies the count of points in <i>pvIn</i> to be transformed.
+
+
+### -param pvIn
+
+Pointer to an array of input points. The format of the points is specified by the <i>iMode</i> parameter.
+
+
+### -param pvOut
+
+Pointer to the buffer that is to receive the transformed points. The <i>iMode</i> parameter specifies the format of the points.
+
+
+#### - __out_validated [in]
 
 Identifies the transform and the input and output data types. This parameter can be one of the following:
 
@@ -116,21 +136,6 @@ Applies the transform to POINTL structures to get POINTL structures.
 </tr>
 </table>
  
-
-
-### -param cPoints
-
-Specifies the count of points in <i>pvIn</i> to be transformed.
-
-
-### -param pvIn
-
-Pointer to an array of input points. The format of the points is specified by the <i>iMode</i> parameter.
-
-
-### -param pvOut
-
-Pointer to the buffer that is to receive the transformed points. The <i>iMode</i> parameter specifies the format of the points.
 
 
 ## -returns

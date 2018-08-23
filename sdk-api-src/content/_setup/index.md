@@ -2,7 +2,7 @@
 UID: TP:setup
 ms.assetid: 333c3bdd-1089-3313-b2f3-8fa8322fcfb4
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/23/2018
 ms.keywords: 
 ms.prod: windows
 ms.technology: windows-sdk
@@ -17,9 +17,7 @@ Overview of the Application Installation and Servicing technology.
 
 To develop Application Installation and Servicing, you need these headers:
 
- * [advpub.h](../advpub/index.md)
  * [evalcom2.h](../evalcom2/index.md)
- * [instance.h](../instance/index.md)
  * [mergemod.h](../mergemod/index.md)
  * [msi.h](../msi/index.md)
  * [msiquery.h](../msiquery/index.md)

@@ -1,0 +1,72 @@
+---
+UID: NS:advpub._StrTableW
+title: "_StrTableW"
+author: windows-sdk-content
+description: Represents a table of registry string replacements.
+old-location: winprog\_strtablew.htm
+old-project: devnotes
+ms.assetid: 60CE245D-1572-46FC-B3E3-7CE421599E0E
+ms.author: windowssdkdev
+ms.date: 08/06/2018
+ms.keywords: "*LPSTRTABLEW, LPSTRTABLEW, LPSTRTABLEW structure pointer [Windows API], STRTABLE, STRTABLEW, STRTABLEW structure [Windows API], _StrTableW, _StrTableW structure [Windows API], advpub/LPSTRTABLEW, advpub/_StrTableW, winprog._strtablew"
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: struct
+req.header: advpub.h
+req.include-header: 
+req.redist: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 10 [desktop apps only]
+req.target-min-winversvr: Windows Server [desktop apps only]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: Advpack.lib
+tech.root: 
+req.typenames: STRTABLEW, *LPSTRTABLEW
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - LibDef
+api_location:
+ - advpack.lib
+api_name:
+ - STRTABLEW
+product: Windows
+targetos: Windows
+req.lib: 
+req.dll: 
+req.irql: 
+---
+
+# _StrTableW structure
+
+
+## -description
+
+
+<p class="CCE_Message">[Some information relates to pre-released product which may be substantially modified before it's commercially released. Microsoft makes no warranties, express or implied, with respect to the information provided here.]
+
+Represents a table of registry string replacements.
+
+
+## -struct-fields
+
+
+
+
+### -field cEntries
+
+The number of entries in the table.
+
+
+### -field pse
+
+And array of entries.
+

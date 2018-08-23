@@ -7,7 +7,7 @@ old-location: base\interlockedcompareexchange128.htm
 old-project: sync
 ms.assetid: 55a5ec1d-9c81-479e-a630-81756bf620d1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/17/2018
 ms.keywords: InterlockedCompareExchange128, InterlockedCompareExchange128 function, base.interlockedcompareexchange128, winnt/InterlockedCompareExchange128
 ms.prod: windows
 ms.technology: windows-sdk

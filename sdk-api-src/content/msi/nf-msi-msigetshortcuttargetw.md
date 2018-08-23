@@ -89,7 +89,7 @@ A GUID of the component code. This string buffer must be 39 characters long. The
 
 
 
-This function returns UINT.
+This function returns UINT __stdcall.
 
 
 

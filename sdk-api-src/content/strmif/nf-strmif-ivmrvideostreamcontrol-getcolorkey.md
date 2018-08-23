@@ -7,7 +7,7 @@ old-location: dshow\ivmrvideostreamcontrol_getcolorkey.htm
 old-project: DirectShow
 ms.assetid: 2075ac12-c799-4716-994f-46ff6928e670
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/20/2018
 ms.keywords: GetColorKey, GetColorKey method [DirectShow], GetColorKey method [DirectShow],IVMRVideoStreamControl interface, IVMRVideoStreamControl interface [DirectShow],GetColorKey method, IVMRVideoStreamControl.GetColorKey, IVMRVideoStreamControl::GetColorKey, IVMRVideoStreamControlGetColorKey, dshow.ivmrvideostreamcontrol_getcolorkey, strmif/IVMRVideoStreamControl::GetColorKey
 ms.prod: windows
 ms.technology: windows-sdk

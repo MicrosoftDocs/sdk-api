@@ -4,10 +4,10 @@ title: IUPnPDevice::get_SerialNumber
 author: windows-sdk-content
 description: The SerialNumber property specifies a human-readable form of the serial number of the device.
 old-location: upnp\iupnpdevice_serialnumber.htm
-old-project: UPnP
+old-project: upnp
 ms.assetid: de2f8594-a183-440a-aeb1-240cf0709e36
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/16/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_SerialNumber method, IUPnPDevice.get_SerialNumber, IUPnPDevice::get_SerialNumber, _upnp_iupnpdevice_serialnumber, get_SerialNumber, get_SerialNumber method [UPnP APIs], get_SerialNumber method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_serialnumber, upnp/IUPnPDevice::get_SerialNumber
 ms.prod: windows
 ms.technology: windows-sdk

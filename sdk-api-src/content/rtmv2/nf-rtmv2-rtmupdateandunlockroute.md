@@ -79,9 +79,9 @@ Handle to the route to change.
 Specifies the time, in milliseconds, after which the route is expired. Specify INFINITE to prevent routes from expiring.
 
 
-### -param OPTIONAL
+### -param RouteListHandle [in]
 
-TBD
+Handle to an optional route list to which to move the route. This parameter is optional and can be set to <b>NULL</b>.
 
 
 ### -param NotifyType [in]
@@ -89,19 +89,14 @@ TBD
 Set this parameter to <b>NULL</b>. <i>NotifyType</i> is reserved for future use.
 
 
-### -param ChangeFlags [out]
-
-Receives RTM_ROUTE_CHANGE_BEST if the best route was changed.
-
-
-#### - NotifyHandle [in]
+### -param NotifyHandle [in]
 
 Set this parameter to <b>NULL</b>. <i>NotifyHandle</i> is reserved for future use.
 
 
-#### - RouteListHandle [in]
+### -param ChangeFlags [out]
 
-Handle to an optional route list to which to move the route. This parameter is optional and can be set to <b>NULL</b>.
+Receives RTM_ROUTE_CHANGE_BEST if the best route was changed.
 
 
 ## -returns

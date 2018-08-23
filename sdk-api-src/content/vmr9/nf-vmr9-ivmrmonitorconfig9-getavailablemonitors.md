@@ -7,7 +7,7 @@ old-location: dshow\ivmrmonitorconfig9_getavailablemonitors.htm
 old-project: DirectShow
 ms.assetid: cebd40c2-ea41-4ed1-87d1-37f9d427c539
 ms.author: windowssdkdev
-ms.date: 08/02/2018
+ms.date: 08/20/2018
 ms.keywords: GetAvailableMonitors, GetAvailableMonitors method [DirectShow], GetAvailableMonitors method [DirectShow],IVMRMonitorConfig9 interface, IVMRMonitorConfig9 interface [DirectShow],GetAvailableMonitors method, IVMRMonitorConfig9.GetAvailableMonitors, IVMRMonitorConfig9::GetAvailableMonitors, IVMRMonitorConfig9GetAvailableMonitors, dshow.ivmrmonitorconfig9_getavailablemonitors, vmr9/IVMRMonitorConfig9::GetAvailableMonitors
 ms.prod: windows
 ms.technology: windows-sdk

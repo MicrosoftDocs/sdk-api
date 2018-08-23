@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dvertexbuffer9__lock.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dvertexbuffer9__lock.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: 50b9d9ea-bb70-b92b-dbd4-0e355b29ab40, IDirect3DVertexBuffer9 interface [Direct3D 9],Lock method, IDirect3DVertexBuffer9.Lock, IDirect3DVertexBuffer9::Lock, Lock, Lock method [Direct3D 9], Lock method [Direct3D 9],IDirect3DVertexBuffer9 interface, d3d9helper/IDirect3DVertexBuffer9::Lock, direct3d9.idirect3dvertexbuffer9__lock
 ms.prod: windows
 ms.technology: windows-sdk

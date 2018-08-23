@@ -7,7 +7,7 @@ old-location: security\cryptenumoidfunction.htm
 old-project: SecCrypto
 ms.assetid: aa2fba03-183b-4b74-b306-8f4592995897
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/20/2018
 ms.keywords: CryptEnumOIDFunction, CryptEnumOIDFunction function [Security], _crypto2_cryptenumoidfunction, security.cryptenumoidfunction, wincrypt/CryptEnumOIDFunction
 ms.prod: windows
 ms.technology: windows-sdk

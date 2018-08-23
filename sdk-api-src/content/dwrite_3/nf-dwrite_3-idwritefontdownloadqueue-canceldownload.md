@@ -1,0 +1,86 @@
+---
+UID: NF:dwrite_3.IDWriteFontDownloadQueue.CancelDownload
+title: IDWriteFontDownloadQueue::CancelDownload
+author: windows-sdk-content
+description: Removes all download requests from the queue and cancels any active download operations.
+old-location: directwrite\idwritefontdownloadqueue_canceldownload.htm
+old-project: DirectWrite
+ms.assetid: f2ecabcf-3301-d446-8eda-4536b3f9b5e3
+ms.author: windowssdkdev
+ms.date: 07/24/2018
+ms.keywords: CancelDownload, CancelDownload method [Direct Write], CancelDownload method [Direct Write],IDWriteFontDownloadQueue interface, IDWriteFontDownloadQueue interface [Direct Write],CancelDownload method, IDWriteFontDownloadQueue.CancelDownload, IDWriteFontDownloadQueue::CancelDownload, directwrite.idwritefontdownloadqueue_canceldownload, dwrite_3/IDWriteFontDownloadQueue::CancelDownload
+ms.prod: windows
+ms.technology: windows-sdk
+ms.topic: method
+req.header: dwrite_3.h
+req.include-header: 
+req.redist: 
+req.target-type: Windows
+req.target-min-winverclnt: Windows 7, Windows Vista with SP2 and Platform Update for Windows Vista [desktop apps \| UWP apps]
+req.target-min-winversvr: Windows Server 2008 R2, Windows Server 2008 with SP2 and Platform Update for Windows Server 2008 [desktop apps \| UWP apps]
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+tech.root: 
+req.typenames: 
+topic_type:
+ - APIRef
+ - kbSyntax
+api_type:
+ - COM
+api_location:
+ - dwrite.dll
+api_name:
+ - IDWriteFontDownloadQueue.CancelDownload
+product: Windows
+targetos: Windows
+req.lib: Dwrite.lib
+req.dll: Dwrite.dll
+req.irql: 
+req.product: Windows Media Format 9 Series or later
+---
+
+# IDWriteFontDownloadQueue::CancelDownload
+
+
+## -description
+
+
+ Removes all download requests from the queue and cancels any active download    
+    operations.
+
+
+## -parameters
+
+
+
+
+
+
+## -returns
+
+
+
+Type: <b>HRESULT</b>
+
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
+
+
+
+## -see-also
+
+
+
+
+<a href="https://msdn.microsoft.com/d1b1dfab-a22a-40bb-ffc4-eb094ac14217">IDWriteFontDownloadQueue</a>
+ 
+
+ 
+

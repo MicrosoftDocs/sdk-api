@@ -7,7 +7,7 @@ old-location: devinst\setupgetinfpublishedname.htm
 old-project: devinst
 ms.assetid: 0379f8f4-9761-4216-b4d5-5752b6dc33a5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/20/2018
 ms.keywords: SetupGetInfPublishedName, SetupGetInfPublishedName function [Device and Driver Installation], SetupGetInfPublishedNameA, SetupGetInfPublishedNameW, devinst.setupgetinfpublishedname, setup-ref_c380d9fc-bc1c-4302-ba2b-b0bb7fde8d87.xml, setupapi/SetupGetInfPublishedName
 ms.prod: windows
 ms.technology: windows-sdk
