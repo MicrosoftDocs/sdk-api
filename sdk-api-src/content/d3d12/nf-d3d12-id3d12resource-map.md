@@ -132,29 +132,21 @@ Even the following C++ code can read from memory and trigger the performance pen
 C++ code:
               
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>*((int*)MappedResource.pData) = 0;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+*((int*)MappedResource.pData) = 0;
+```
+
+
 x86 assembly code:
               
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>AND DWORD PTR [EAX],0</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+AND DWORD PTR [EAX],0
+```
+
+
 </li>
 <li>
 Use the appropriate optimization settings and language constructs to help avoid this performance penalty. For example, you can avoid the xor optimization by using a <b>volatile</b> pointer or by optimizing for code speed instead of code size.
@@ -180,49 +172,41 @@ The <a href="https://msdn.microsoft.com/en-us/library/Mt186624(v=VS.85).aspx">D3
 
 Copy triangle data to the vertex buffer.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Copy the triangle data to the vertex buffer.
+
+```cpp
+// Copy the triangle data to the vertex buffer.
 UINT8* pVertexDataBegin;
 CD3DX12_RANGE readRange(0, 0);        // We do not intend to read from this resource on the CPU.
-ThrowIfFailed(m_vertexBuffer-&gt;Map(0, &amp;readRange, reinterpret_cast&lt;void**&gt;(&amp;pVertexDataBegin)));
+ThrowIfFailed(m_vertexBuffer->Map(0, &readRange, reinterpret_cast<void**>(&pVertexDataBegin)));
 memcpy(pVertexDataBegin, triangleVertices, sizeof(triangleVertices));
-m_vertexBuffer-&gt;Unmap(0, nullptr);
-</pre>
-</td>
-</tr>
-</table></span></div>
+m_vertexBuffer->Unmap(0, nullptr);
+
+```
+
+
  Create an upload heap for the constant buffers.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Create an upload heap for the constant buffers.
-ThrowIfFailed(pDevice-&gt;CreateCommittedResource(
-    &amp;CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_UPLOAD),
+
+```cpp
+// Create an upload heap for the constant buffers.
+ThrowIfFailed(pDevice->CreateCommittedResource(
+    &CD3DX12_HEAP_PROPERTIES(D3D12_HEAP_TYPE_UPLOAD),
     D3D12_HEAP_FLAG_NONE,
-    &amp;CD3DX12_RESOURCE_DESC::Buffer(sizeof(ConstantBuffer) * m_cityRowCount * m_cityColumnCount),
+    &CD3DX12_RESOURCE_DESC::Buffer(sizeof(ConstantBuffer) * m_cityRowCount * m_cityColumnCount),
     D3D12_RESOURCE_STATE_GENERIC_READ,
     nullptr,
-    IID_PPV_ARGS(&amp;m_cbvUploadHeap)));
+    IID_PPV_ARGS(&m_cbvUploadHeap)));
 
 // Map the constant buffers. Note that unlike D3D11, the resource 
 // does not need to be unmapped for use by the GPU. In this sample, 
 // the resource stays 'permenantly' mapped to avoid overhead with 
 // mapping/unmapping each frame.
 CD3DX12_RANGE readRange(0, 0);        // We do not intend to read from this resource on the CPU.
-ThrowIfFailed(m_cbvUploadHeap-&gt;Map(0, &amp;readRange, reinterpret_cast&lt;void**&gt;(&amp;m_pConstantBuffers)));
-</pre>
-</td>
-</tr>
-</table></span></div>
+ThrowIfFailed(m_cbvUploadHeap->Map(0, &readRange, reinterpret_cast<void**>(&m_pConstantBuffers)));
+
+```
+
+
 Refer to the <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85).aspx">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>

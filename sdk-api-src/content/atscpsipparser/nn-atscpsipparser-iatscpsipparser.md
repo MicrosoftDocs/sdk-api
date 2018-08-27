@@ -183,16 +183,12 @@ Initializes the ATSC PSIP parser.
 
 To get a pointer to this interface, call <b>CoCreateInstance</b>. Use the following CLSID:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>3508C064-B94E-420b-A821-20C8096FAADC</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+3508C064-B94E-420b-A821-20C8096FAADC
+```
+
+
 This CLSID is not is not published in an SDK header; define a new GUID constant in your application.
 
 You must call <a href="https://msdn.microsoft.com/7a4d4d17-4fc5-481c-bcf8-0f68b2f0a8e2">Initialize</a> before calling any other methods on the object.

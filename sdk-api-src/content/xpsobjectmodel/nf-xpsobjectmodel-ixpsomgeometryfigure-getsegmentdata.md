@@ -280,13 +280,9 @@ Four data values:
 
 The following code example accesses the different data points of each segment type  in a geometry figure.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    // currentFigure is the pointer to an IXpsOMGeometryFigure
+
+```cpp
+    // currentFigure is the pointer to an IXpsOMGeometryFigure
     // that contains the segment data to examine
 
     HRESULT             hr = S_OK;
@@ -297,7 +293,7 @@ The following code example accesses the different data points of each segment ty
     BOOL                *segmentStrokes = NULL;
 
     // get number of segments in this figure
-    hr = currentFigure-&gt;GetSegmentCount (&amp;numSegments);
+    hr = currentFigure->GetSegmentCount (&numSegments);
 
     if (SUCCEEDED(hr))
     {
@@ -316,13 +312,13 @@ The following code example accesses the different data points of each segment ty
     if (SUCCEEDED(hr))
     {
         // get array of segment data types
-        hr = currentFigure-&gt;GetSegmentTypes (&amp;numSegments, segmentTypes);
+        hr = currentFigure->GetSegmentTypes (&numSegments, segmentTypes);
     }
 
     if (SUCCEEDED(hr))
     {
         // get size of segment data array
-        hr = currentFigure-&gt;GetSegmentDataCount (&amp;numSegmentDataPoints);
+        hr = currentFigure->GetSegmentDataCount (&numSegmentDataPoints);
     }
 
     if (SUCCEEDED(hr))
@@ -335,8 +331,8 @@ The following code example accesses the different data points of each segment ty
     if (SUCCEEDED(hr))
     {
         // get segment data points
-        hr = currentFigure-&gt;GetSegmentData (
-            &amp;numSegmentDataPoints, segmentDataPoints);
+        hr = currentFigure->GetSegmentData (
+            &numSegmentDataPoints, segmentDataPoints);
     }
 
     if (SUCCEEDED(hr))
@@ -349,17 +345,17 @@ The following code example accesses the different data points of each segment ty
         FLOAT            *lastSegmentsDataPoint = NULL;
 
         // points to element just after valid array
-        // valid pointers are &lt; this value and  &gt;= &amp;segmentTypes[0]
-        lastSegmentType = &amp;segmentTypes[numSegments]; 
+        // valid pointers are < this value and  >= &segmentTypes[0]
+        lastSegmentType = &segmentTypes[numSegments]; 
         // points to element just after valid array
-        // valid pointers are &lt; this value and &gt;= &amp;segmentDataPoints[0]
-        lastSegmentsDataPoint = &amp;segmentDataPoints[numSegmentDataPoints];
+        // valid pointers are < this value and >= &segmentDataPoints[0]
+        lastSegmentsDataPoint = &segmentDataPoints[numSegmentDataPoints];
 
         // look at each segment that was returned
-        while (thisSegment &lt; numSegments)
+        while (thisSegment < numSegments)
         {
-            if ((thisSegmentType &gt;= lastSegmentType) || 
-                (thisSegmentDataPoint &gt;= lastSegmentsDataPoint))
+            if ((thisSegmentType >= lastSegmentType) || 
+                (thisSegmentDataPoint >= lastSegmentsDataPoint))
             {
                 // the array data is not correct.
                 hr = E_UNEXPECTED;
@@ -428,10 +424,10 @@ The following code example accesses the different data points of each segment ty
     delete[] segmentTypes; segmentTypes = NULL;
     delete[] segmentStrokes; segmentStrokes = NULL;
     delete[] segmentDataPoints; segmentDataPoints = NULL;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

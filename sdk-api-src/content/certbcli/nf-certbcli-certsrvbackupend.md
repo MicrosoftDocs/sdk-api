@@ -82,13 +82,9 @@ Upon completion of a backup session, the session needs to be terminated by means
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>FNCERTSRVBACKUPEND* pfnBackupEnd;
+
+```cpp
+FNCERTSRVBACKUPEND* pfnBackupEnd;
 char * szBackEndFunc = "CertSrvBackupEnd";
 HRESULT    hr=0;
 
@@ -112,10 +108,10 @@ if (FAILED(hr))
 {
     printf("Failed pfnBackupEnd call [%x]\n", hr);
     exit(1);  // Or other appropriate error action.
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

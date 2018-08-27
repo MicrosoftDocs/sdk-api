@@ -102,13 +102,9 @@ The following example creates an
 						<i>myArrow</i> as the ending line cap for this 
 						<b>Pen</b> object. Next, the code draws a capped line.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_SetMiddleInset(HDC hdc)
+
+```cpp
+VOID Example_SetMiddleInset(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -118,13 +114,13 @@ The following example creates an
 
    // Create a Pen, and assign myArrow as the end cap.
    Pen arrowPen(Color(255, 0, 0, 0));
-   arrowPen.SetCustomEndCap(&amp;myArrow);
+   arrowPen.SetCustomEndCap(&myArrow);
 
    // Draw a line using arrowPen.
-   graphics.DrawLine(&amp;arrowPen, Point(0, 0), Point(100, 100));
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.DrawLine(&arrowPen, Point(0, 0), Point(100, 100));
+}
+```
+
+
 
 

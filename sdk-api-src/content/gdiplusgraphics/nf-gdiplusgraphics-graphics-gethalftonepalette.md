@@ -100,31 +100,27 @@ Be sure to delete the palette when you have finished using it. If you do not fol
 
 The following example draws the same image twice. Before the image is drawn the second time, the code gets a halftone palette, selects the palette into a device context, and realizes the palette.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_GetHalftonePalette(HDC hdc)
+
+```cpp
+VOID Example_GetHalftonePalette(HDC hdc)
 {
    Image image(L"Mosaic.png");
    
    Graphics* graphics1 = new Graphics(hdc);
-   graphics1-&gt;DrawImage(&amp;image, 10, 10);
+   graphics1->DrawImage(&image, 10, 10);
    delete graphics1;
    
    HPALETTE hPalette = Graphics::GetHalftonePalette();
    SelectPalette(hdc, hPalette, FALSE);
    RealizePalette(hdc);
    Graphics* graphics2 = new Graphics(hdc);
-   graphics2-&gt;DrawImage(&amp;image, 300, 10);
+   graphics2->DrawImage(&image, 300, 10);
    delete graphics2;
    DeleteObject(hPalette);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

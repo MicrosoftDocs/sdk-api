@@ -128,13 +128,9 @@ The <b>Enumerator</b> object corresponds to the  <a href="https://msdn.microsoft
 
 The following VBScript code example enumerates all the disks on a remote computer specified by the fully qualified domain name (servername.domain.com). The DisplayOutput subroutine formats the data output in the same way as the WinRM.cmd tool.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Option Explicit
+
+```vb
+Option Explicit
 
 Const RemoteComputer = "MIG50-64D.mig.net"
 
@@ -143,9 +139,9 @@ Dim objResultSet
 
 Set objWsman = CreateObject( "WSMan.Automation" )
 Set objSession = objWsman.CreateSession( "http://" _
-    &amp; RemoteComputer )
+    & RemoteComputer )
 strResource = "http://schemas.microsoft.com/wbem/wsman/1/" _
-     &amp; "wmi/root/cimv2/Win32_OperatingSystem"
+     & "wmi/root/cimv2/Win32_OperatingSystem"
 Dim iFlag
 iFlag = objWsman.EnumerationFlagReturnObjectAndEPR or _
     objWsman.EnumerationFlagHierarchyDeep
@@ -166,10 +162,10 @@ Sub DisplayOutput( strWinRMXml )
     xmlFile.LoadXml( strWinRMXml )
     xslFile.Load( "WsmTxt.xsl" )
     Wscript.Echo xmlFile.TransformNode( xslFile ) 
-End Sub</pre>
-</td>
-</tr>
-</table></span></div>
+End Sub
+```
+
+
 
 
 

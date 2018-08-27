@@ -128,23 +128,19 @@ Unlike the <a href="https://msdn.microsoft.com/94d5c8ee-2d61-42af-9a22-cc0df423b
     WMI-managed resource. To obtain a specific instance of a WMI-managed resource using the Get method, you must tell 
     Get the instance to retrieve by passing the method the object path, as shown in the following script.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>strComputer = "."
-Set objSWbemServices = GetObject("winmgmts:\\" &amp; strComputer &amp; "\root\cimv2")
+
+```vb
+strComputer = "."
+Set objSWbemServices = GetObject("winmgmts:\\" & strComputer & "\root\cimv2")
 Set objSWbemObject = objSWbemServices.Get("Win32_Service.Name='Messenger'")
-Wscript.Echo "Name:         " &amp; objSWbemObject.Name        &amp; vbCrLf &amp; _
-             "Display Name: " &amp; objSWbemObject.DisplayName &amp; vbCrLf &amp; _
-             "Start Mode:   " &amp; objSWbemObject.StartMode   &amp; vbCrLf &amp; _
-             "State:        " &amp; objSWbemObject.State
-</pre>
-</td>
-</tr>
-</table></span></div>
+Wscript.Echo "Name:         " & objSWbemObject.Name        & vbCrLf & _
+             "Display Name: " & objSWbemObject.DisplayName & vbCrLf & _
+             "Start Mode:   " & objSWbemObject.StartMode   & vbCrLf & _
+             "State:        " & objSWbemObject.State
+
+```
+
+
 You can  use this method to obtain <a href="https://msdn.microsoft.com/en-us/library/Aa390836(v=VS.85).aspx">singleton</a> objects, such as <a href="https://msdn.microsoft.com/907b65b2-a853-40f4-8b36-5a05a2b1cf85">__CIMOMIdentification</a>, which contains version information about the WMI installation that is running.
 
 You can examine the repository with a viewing tool such as <a href="https://msdn.microsoft.com/en-us/library/Aa390436(v=VS.85).aspx">CIM Studio</a> to verify that the new class and instance appear. For an example of removing a class and instance from the repository, see <a href="https://msdn.microsoft.com/7dabab12-e8ee-4d44-932f-f3239b6f066e">SWbemServices.Delete</a> or <a href="https://msdn.microsoft.com/bf1db667-4bd5-4717-bc0b-5bffe9d0f4fb">SWbemObject.Delete_</a>.

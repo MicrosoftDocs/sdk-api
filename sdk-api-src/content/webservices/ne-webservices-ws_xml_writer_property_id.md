@@ -365,16 +365,12 @@ If set to <b>FALSE</b>, an element that is created by only calls to <a href="htt
 <pre class="syntax" xml:space="preserve"><code>&lt;emptyElement /&gt;</code></pre>
 If set to <b>TRUE</b>, that element will be emitted as follows:
 
-<div class="code"><span codelanguage="XML"><table>
-<tr>
-<th>XML</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;emptyElement&gt;&lt;/emptyElement&gt;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```xml
+<emptyElement></emptyElement>
+
+```
+
+
 The default is <b>FALSE</b>
 

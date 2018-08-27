@@ -164,17 +164,13 @@ The <b>NdrConformantArrayUnmarshall</b> function is used by both the client- and
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>void  ConfArray([in] long size,
+
+```cpp
+void  ConfArray([in] long size,
         [in,size_is(size)] long *pArray);         // conformant array
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

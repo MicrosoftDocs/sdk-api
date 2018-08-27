@@ -69,18 +69,14 @@ Pointer to a string that identifies the type of structure pointed to by <i>lpAut
 
 When Microsoft is the primary authenticator, the following string is specified for interactive and service controller logons.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>MSV1_0:Interactive 
+
+```cpp
+MSV1_0:Interactive 
 Kerberos:Interactive
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 ### -param lpAuthentInfo [in]
 
@@ -103,17 +99,13 @@ Pointer to a string that identifies the type of structure pointed to by <i>lpPre
 
 When Microsoft is the primary authenticator, the following string is specified for interactive and service controller logons.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>MSV1_0:Interactive
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+MSV1_0:Interactive
+
+```
+
+
 
 ### -param lpPreviousAuthentInfo [in]
 

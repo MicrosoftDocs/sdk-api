@@ -228,13 +228,9 @@ The parent service must be present in the
 
 <b>Example</b>
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>////////////////////////////////////////////////////////////////////////////
+
+```cpp
+////////////////////////////////////////////////////////////////////////////
 // Determine Characteristic Buffer Size
 ////////////////////////////////////////////////////////////////////////////
 
@@ -243,7 +239,7 @@ The parent service must be present in the
                 currGattService,
                 0,
                 NULL,
-                &amp;charBufferSize,
+                &charBufferSize,
                 BLUETOOTH_GATT_FLAG_NONE);
         
         if (HRESULT_FROM_WIN32(ERROR_MORE_DATA) != hr) {
@@ -251,7 +247,7 @@ The parent service must be present in the
             goto Done;
         }
         
-        if (charBufferSize &gt; 0) {
+        if (charBufferSize > 0) {
             pCharBuffer = (PBTH_LE_GATT_CHARACTERISTIC)
                     malloc(charBufferSize * sizeof(BTH_LE_GATT_CHARACTERISTIC));
         
@@ -272,7 +268,7 @@ The parent service must be present in the
                     currGattService,
                     charBufferSize,
                     pCharBuffer,
-                    &amp;numChars,
+                    &numChars,
                     BLUETOOTH_GATT_FLAG_NONE);
 
             if (S_OK != hr) {
@@ -284,10 +280,10 @@ The parent service must be present in the
                 printf("buffer size and buffer size actual size mismatch\r\n");
                 goto Done;
             }
-        }</pre>
-</td>
-</tr>
-</table></span></div>
+        }
+```
+
+
 
 
 

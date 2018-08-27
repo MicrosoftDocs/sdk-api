@@ -94,33 +94,29 @@ The value returned for <i>cy</i> is based on a number of dependencies that
 
 The following example demonstrates how to use the <b>IUIRibbon::GetHeight</b> method to retrieve the height  of the ribbon to calculate a display location for a <a href="https://msdn.microsoft.com/en-us/library/Dd940493(v=VS.85).aspx">Context Popup</a> control.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>void GetDisplayLocation(POINT &amp;pt, HWND hWnd)
+
+```cpp
+void GetDisplayLocation(POINT &pt, HWND hWnd)
 {
-  if (pt.x == -1 &amp;&amp; pt.y == -1)
+  if (pt.x == -1 && pt.y == -1)
   {
     HRESULT hr = E_FAIL;
 
     // Display the menu in the upper-left corner of the client area, below the ribbon.
     IUIRibbon* pRibbon;
-    hr = g_pFramework-&gt;GetView(0, IID_PPV_ARGS(&amp;pRibbon));
+    hr = g_pFramework->GetView(0, IID_PPV_ARGS(&pRibbon));
     if (SUCCEEDED(hr))
     {
       UINT32 uRibbonHeight = 0;
-      hr = pRibbon-&gt;GetHeight(&amp;uRibbonHeight);
+      hr = pRibbon->GetHeight(&uRibbonHeight);
       if (SUCCEEDED(hr))
       {
         pt.x = 0;
         pt.y = uRibbonHeight;
         // Convert client coordinates of a specified point to screen coordinates.
-        ClientToScreen(hWnd, &amp;pt);
+        ClientToScreen(hWnd, &pt);
       }
-      pRibbon-&gt;Release();
+      pRibbon->Release();
     }
     if (FAILED(hr))
     {
@@ -129,10 +125,10 @@ The following example demonstrates how to use the <b>IUIRibbon::GetHeight</b> me
       pt.y = 0;
     }
   }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

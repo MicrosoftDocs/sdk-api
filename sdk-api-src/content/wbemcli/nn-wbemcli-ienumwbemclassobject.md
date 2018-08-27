@@ -152,13 +152,9 @@ Causes the enumeration to skip ahead so that future calls to the
 
 The following C++ code sample describes how to retrieve an <b>IEnumWbemClassObject</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>void ExecQuerySync(IWbemServices *pSvc)
+
+```cpp
+void ExecQuerySync(IWbemServices *pSvc)
 {
     // Query for all users and groups.
 
@@ -169,12 +165,12 @@ The following C++ code sample describes how to retrieve an <b>IEnumWbemClassObje
     IEnumWbemClassObject *pEnum = 0;
 
     // Issue the query.
-    HRESULT hRes = pSvc-&gt;ExecQuery(
+    HRESULT hRes = pSvc->ExecQuery(
         Language,
         Query,
         WBEM_FLAG_FORWARD_ONLY,         // Flags
         0,                              // Context
-        &amp;pEnum
+        &pEnum
         );
 
     SysFreeString(Query);
@@ -194,11 +190,11 @@ The following C++ code sample describes how to retrieve an <b>IEnumWbemClassObje
         IWbemClassObject *pObj = 0;
         ULONG uReturned = 0;
 
-        hRes = pEnum-&gt;Next(
+        hRes = pEnum->Next(
             0,                  // Time out
             1,                  // One object
-            &amp;pObj,
-            &amp;uReturned
+            &pObj,
+            &uReturned
             );
 
         uTotal += uReturned;
@@ -213,16 +209,16 @@ The following C++ code sample describes how to retrieve an <b>IEnumWbemClassObje
         // Release it.
         // ===========
         
-        pObj-&gt;Release();    // Release objects not owned.            
+        pObj->Release();    // Release objects not owned.            
     }
 
     // All done.
-    pEnum-&gt;Release();
+    pEnum->Release();
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -88,13 +88,9 @@ Use the <b>LDAP_REFERRAL_CALLBACK</b> structure to implement a mechanism for cac
 
 <b>QUERYFORCONNECTION</b>: If a connection is available, this function should return a pointer to the connection to use in <i>ConnectionToUse</i>. If no connection is available, the function should set <i>ConnectionToUse</i> to <b>NULL</b>. The signature for this callback function is as follows.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>typedef ULONG (_cdecl QUERYFORCONNECTION)(
+
+```cpp
+typedef ULONG (_cdecl QUERYFORCONNECTION)(
     PLDAP       PrimaryConnection,
     PLDAP       ReferralFromConnection,
     PWCHAR      NewDN,
@@ -103,19 +99,15 @@ Use the <b>LDAP_REFERRAL_CALLBACK</b> structure to implement a mechanism for cac
     PVOID       SecAuthIdentity,    // If NULL, use CurrentUser below
     PVOID       CurrentUserToken,   // pointer to current user LUID.
     PLDAP       *ConnectionToUse
-);</pre>
-</td>
-</tr>
-</table></span></div>
+);
+```
+
+
 <b>NOTIFYOFNEWCONNECTION</b>: The run time calls this function if a new connection was created in the course of chasing a referral. This function should return <b>FALSE</b> if not required to cache the connection. When <b>FALSE</b> is returned, the connection is destroyed when the operation completes. The function should return <b>TRUE</b> if it has taken ownership of the connection and the connection will be cached. Be aware that any new connections so created inherit the current callbacks from the primary connection on which the request was initiated. The signature for this function is.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>typedef BOOLEAN (_cdecl NOTIFYOFNEWCONNECTION) 
+
+```cpp
+typedef BOOLEAN (_cdecl NOTIFYOFNEWCONNECTION) 
     (
     PLDAP       PrimaryConnection,
     PLDAP       ReferralFromConnection,
@@ -126,26 +118,22 @@ Use the <b>LDAP_REFERRAL_CALLBACK</b> structure to implement a mechanism for cac
     PVOID       SecAuthIdentity,    // If null, use CurrentUser below.
     PVOID       CurrentUser,        // Pointer to current user LUID.
     ULONG       ErrorCodeFromBind   // If nonzero, bind to server failed.
-    );</pre>
-</td>
-</tr>
-</table></span></div>
+    );
+```
+
+
 <b>DEREFERENCECONNECTION</b>: The LDAP run time calls this function to dereference a connection that is no longer required. The connection may have come from a successful call to <b>QueryForConnection</b> or from <b>NotifyOfNewConnection</b>. The function should return LDAP_SUCCESS if the call succeeds; currently, however, the run time ignores the return value. The signature for this function is as follows.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>typedef ULONG (_cdecl DEREFERENCECONNECTION)
+
+```cpp
+typedef ULONG (_cdecl DEREFERENCECONNECTION)
     (
     PLDAP       PrimaryConnection,
     PLDAP       ConnectionToDereference
-    );</pre>
-</td>
-</tr>
-</table></span></div>
+    );
+```
+
+
 To configure a session to use callbacks to obtain a cached connection, call 
 <a href="https://msdn.microsoft.com/b6d6b285-7302-4812-bbcb-0aeb5b53cf23">ldap_set_option</a> (conn, LDAP_OPT_REFERRAL_CALLBACK, &amp;referralRoutines), where <i>referralRoutines</i> is the address of the <b>LDAP_REFERRAL_CALLBACK</b> structure that contains your routines. The addresses may be <b>NULL</b>, in which case the LDAP run time will not make the calls.
 

@@ -96,16 +96,12 @@ The directory provider may limit the maximum number of rows available in a searc
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>hr = m_pSearch-&gt;ExecuteSearch(L"(objectCategory=contact)", pszAttr, dwCount, &amp;hSearch);
+
+```cpp
+hr = m_pSearch->ExecuteSearch(L"(objectCategory=contact)", pszAttr, dwCount, &hSearch);
 if(SUCCEEDED(hr))
 {
-    while(SUCCEEDED(hr = m_pSearch-&gt;GetNextRow(hSearch)))
+    while(SUCCEEDED(hr = m_pSearch->GetNextRow(hSearch)))
     {
         if(S_OK == hr)
         {
@@ -118,7 +114,7 @@ if(SUCCEEDED(hr))
             WCHAR szError[512];
             WCHAR szProvider[512];
 
-            ADsGetLastError(&amp;dwError, szError, 512, szProvider, 512);
+            ADsGetLastError(&dwError, szError, 512, szProvider, 512);
             if(ERROR_MORE_DATA != dwError)
             {
                 break;
@@ -130,12 +126,12 @@ if(SUCCEEDED(hr))
         }
     }
     
-    m_pSearch-&gt;CloseSearchHandle(hSearch);
+    m_pSearch->CloseSearchHandle(hSearch);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

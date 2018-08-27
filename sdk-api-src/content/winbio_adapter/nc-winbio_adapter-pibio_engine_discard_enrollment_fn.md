@@ -104,13 +104,9 @@ Your implementation of this function should not save information in the biometri
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//////////////////////////////////////////////////////////////////////////////////////////
+
+```cpp
+//////////////////////////////////////////////////////////////////////////////////////////
 //
 // EngineAdapterDiscardEnrollment
 //
@@ -138,11 +134,11 @@ EngineAdapterDiscardEnrollment(
 
     // Retrieve the context from the pipeline.
     PWINBIO_ENGINE_CONTEXT context = 
-           (PWINBIO_ENGINE_CONTEXT)Pipeline-&gt;EngineContext;
+           (PWINBIO_ENGINE_CONTEXT)Pipeline->EngineContext;
 
     // Return if an enrollment is not in progress. This example assumes that 
     // an enrollment object is part of your engine context structure.
-    if (context-&gt;Enrollment.InProgress != TRUE)
+    if (context->Enrollment.InProgress != TRUE)
     {
         hr = WINBIO_E_INVALID_DEVICE_STATE;
         goto cleanup;
@@ -153,21 +149,21 @@ EngineAdapterDiscardEnrollment(
     // any objects attached to the enrollment object.
     _AdapterDestroyEnrollmentTemplate(
         context,
-        &amp;context-&gt;Enrollment
+        &context->Enrollment
         );
 
     // If the _AdapterDestroyEnrollmentTemplate function does not reset the
     // InProgress data member, reset it here.
-    context-&gt;Enrollment.InProgress = FALSE;
+    context->Enrollment.InProgress = FALSE;
 
 cleanup:
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -107,13 +107,9 @@ Threads that run the user interface of an application should be initialized apar
 
 The following code example shows a sample implementation of the <b>IAudioSessionNotification</b> interface.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>class CSessionNotifications: public IAudioSessionNotification
+
+```cpp
+class CSessionNotifications: public IAudioSessionNotification
 {
 private:
 
@@ -154,12 +150,12 @@ public:
     
     ULONG STDMETHODCALLTYPE AddRef()
     {
-        return InterlockedIncrement(&amp;m_cRefAll);
+        return InterlockedIncrement(&m_cRefAll);
     }
      
     ULONG STDMETHODCALLTYPE Release)()
     {
-        ULONG ulRef = InterlockedDecrement(&amp;m_cRefAll);
+        ULONG ulRef = InterlockedDecrement(&m_cRefAll);
         if (0 == ulRef)
         {
             delete this;
@@ -174,10 +170,10 @@ public:
             PostMessage(m_hwndMain, WM_SESSION_CREATED, 0, 0);
         }
     }
-};</pre>
-</td>
-</tr>
-</table></span></div>
+};
+```
+
+
 
 
 

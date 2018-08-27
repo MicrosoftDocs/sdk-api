@@ -449,22 +449,18 @@ The order of calls made to <b>WSASend</b> is also the order in which the buffers
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following code example shows how to use the <b>WSASend</b> function in overlapped I/O mode.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef WIN32_LEAN_AND_MEAN
+
+```cpp
+#ifndef WIN32_LEAN_AND_MEAN
 #define WIN32_LEAN_AND_MEAN
 #endif
 
-#include &lt;Windows.h&gt;
+#include <Windows.h>
 
-#include &lt;winsock2.h&gt;
-#include &lt;ws2tcpip.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;stdlib.h&gt;
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 // Need to link with Ws2_32.lib
 #pragma comment(lib, "ws2_32.lib")
@@ -493,14 +489,14 @@ int __cdecl main()
     int rc, i;
 
     // Load Winsock
-    rc = WSAStartup(MAKEWORD(2, 2), &amp;wsd);
+    rc = WSAStartup(MAKEWORD(2, 2), &wsd);
     if (rc != 0) {
         printf("Unable to load Winsock: %d\n", rc);
         return 1;
     }
 
     // Make sure the hints struct is zeroed out
-    SecureZeroMemory((PVOID) &amp; hints, sizeof(struct addrinfo));
+    SecureZeroMemory((PVOID) & hints, sizeof(struct addrinfo));
 
     // Initialize the hints to obtain the 
     // wildcard bind address for IPv4
@@ -509,21 +505,21 @@ int __cdecl main()
     hints.ai_protocol = IPPROTO_TCP;
     hints.ai_flags = AI_PASSIVE;
 
-    rc = getaddrinfo(NULL, "27015", &amp;hints, &amp;result);
+    rc = getaddrinfo(NULL, "27015", &hints, &result);
     if (rc != 0) {
         printf("getaddrinfo failed with error: %d\n", rc);
         return 1;
     }
 
-    ListenSocket = socket(result-&gt;ai_family,
-                          result-&gt;ai_socktype, result-&gt;ai_protocol);
+    ListenSocket = socket(result->ai_family,
+                          result->ai_socktype, result->ai_protocol);
     if (ListenSocket == INVALID_SOCKET) {
         printf("socket failed with error: %d\n", WSAGetLastError());
         freeaddrinfo(result);
         return 1;
     }
 
-    rc = bind(ListenSocket, result-&gt;ai_addr, (int) result-&gt;ai_addrlen);
+    rc = bind(ListenSocket, result->ai_addr, (int) result->ai_addrlen);
     if (rc == SOCKET_ERROR) {
         printf("bind failed with error: %d\n", WSAGetLastError());
         freeaddrinfo(result);
@@ -550,7 +546,7 @@ int __cdecl main()
     printf("Client Accepted...\n");
 
     // Make sure the SendOverlapped struct is zeroed out
-    SecureZeroMemory((PVOID) &amp; SendOverlapped, sizeof (WSAOVERLAPPED));
+    SecureZeroMemory((PVOID) & SendOverlapped, sizeof (WSAOVERLAPPED));
 
     // Create an event handle and setup the overlapped structure.
     SendOverlapped.hEvent = WSACreateEvent();
@@ -565,17 +561,17 @@ int __cdecl main()
     DataBuf.len = DATA_BUFSIZE;
     DataBuf.buf = buffer;
 
-    for (i = 0; i &lt; SEND_COUNT; i++) {
+    for (i = 0; i < SEND_COUNT; i++) {
 
-        rc = WSASend(AcceptSocket, &amp;DataBuf, 1,
-                     &amp;SendBytes, 0, &amp;SendOverlapped, NULL);
-        if ((rc == SOCKET_ERROR) &amp;&amp;
+        rc = WSASend(AcceptSocket, &DataBuf, 1,
+                     &SendBytes, 0, &SendOverlapped, NULL);
+        if ((rc == SOCKET_ERROR) &&
             (WSA_IO_PENDING != (err = WSAGetLastError()))) {
             printf("WSASend failed with error: %d\n", err);
             break;
         }
 
-        rc = WSAWaitForMultipleEvents(1, &amp;SendOverlapped.hEvent, TRUE, INFINITE,
+        rc = WSAWaitForMultipleEvents(1, &SendOverlapped.hEvent, TRUE, INFINITE,
                                       TRUE);
         if (rc == WSA_WAIT_FAILED) {
             printf("WSAWaitForMultipleEvents failed with error: %d\n",
@@ -583,8 +579,8 @@ int __cdecl main()
             break;
         }
 
-        rc = WSAGetOverlappedResult(AcceptSocket, &amp;SendOverlapped, &amp;SendBytes,
-                                    FALSE, &amp;Flags);
+        rc = WSAGetOverlappedResult(AcceptSocket, &SendOverlapped, &SendBytes,
+                                    FALSE, &Flags);
         if (rc == FALSE) {
             printf("WSASend failed with error: %d\n", WSAGetLastError());
             break;
@@ -606,10 +602,10 @@ int __cdecl main()
     return 0;
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 <b>Windows Phone 8:</b> This function is supported for Windows Phone Store apps on Windows Phone 8 and later.
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.

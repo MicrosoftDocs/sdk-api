@@ -880,13 +880,9 @@ The following example shows finding the name of the CSP associated with a crypto
 
 For another example that  uses this function, see <a href="https://msdn.microsoft.com/10a5210d-7992-4832-9435-67ac2b851a97">Example C Program: Enumerating CSP Providers and Provider Types</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//-----------------------------------------------------------------
+
+```cpp
+//-----------------------------------------------------------------
 //  Declare and initialize variables.
 
 HCRYPTPROV hCryptProv;
@@ -906,7 +902,7 @@ if(CryptGetProvParam(
     hCryptProv, 
     PP_NAME, 
     pbData, 
-    &amp;cbData, 
+    &cbData, 
     0))
 {
     printf("CryptGetProvParam succeeded.\n");
@@ -925,7 +921,7 @@ if(CryptGetProvParam(
     hCryptProv, 
     PP_CONTAINER, 
     pbData, 
-    &amp;cbData, 
+    &cbData, 
     0))
 {
     printf("CryptGetProvParam succeeded. \n");
@@ -935,10 +931,10 @@ else
 {
     printf("Error reading key container name. \n");
     exit(1);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

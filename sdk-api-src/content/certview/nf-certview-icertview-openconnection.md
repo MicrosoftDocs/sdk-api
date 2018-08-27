@@ -91,13 +91,9 @@ Upon successful completion of this method, the
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>ICertView *   pCertView = NULL;
+
+```cpp
+ICertView *   pCertView = NULL;
 BSTR          strCertServ = NULL;
 HRESULT       hr;
 
@@ -114,7 +110,7 @@ hr = CoCreateInstance(CLSID_CCertView,
                       NULL,
                       CLSCTX_INPROC_SERVER,
                       IID_ICertView,
-                      (void **)&amp;pCertView);
+                      (void **)&pCertView);
 if (FAILED(hr))
 {
     printf("Failed CoCreateInstance\n");
@@ -123,7 +119,7 @@ if (FAILED(hr))
 // The use of '\\' is necessary to represent a single backslash.
 strCertServ = SysAllocString(TEXT("Server01\\ABCCertServ"));
 // Open the connection to the Certificate Services server.
-hr = pCertView-&gt;OpenConnection(strCertServ);
+hr = pCertView->OpenConnection(strCertServ);
 if (FAILED(hr))
 {
     printf("Failed OpenConnection!\n");
@@ -135,14 +131,14 @@ else
     // Done using objects; free resources.
 error: 
     if (NULL != pCertView)
-        pCertView-&gt;Release();
+        pCertView->Release();
     if (NULL != strCertServ)
         SysFreeString(strCertServ);
     // Free COM resources.
-    CoUninitialize();</pre>
-</td>
-</tr>
-</table></span></div>
+    CoUninitialize();
+```
+
+
 
 
 

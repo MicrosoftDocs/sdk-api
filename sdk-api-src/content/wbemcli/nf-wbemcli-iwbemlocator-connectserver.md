@@ -188,30 +188,26 @@ For an example of using smi2smir.xml in a C++ code sample to connect to a WMI na
 
 The following C++ code sample describes how to use smi2smir.xml to connect to a specified namespace. For the complete code sample, including necessary #include files, see the <a href="https://Code.MSDN.Microsoft.Com/CppEnableNetBiosOverTCPIP-ed32d818">Enable NetBIOS over TCP/IP</a> sample in the MSDN Code gallery.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>int _tmain(int argc, _TCHAR* argv[]) 
+
+```cpp
+int _tmain(int argc, _TCHAR* argv[]) 
 { 
     // Initialize COM. ------------------------------------------ 
     HRESULT hres = CoInitializeEx(NULL, COINIT_APARTMENTTHREADED); 
     if (FAILED(hres)) 
     { 
-        wcout &lt;&lt; "CoInitializeEx() failure:" &lt;&lt; hex &lt;&lt; (unsigned long)hres; 
+        wcout << "CoInitializeEx() failure:" << hex << (unsigned long)hres; 
         return 0; 
     } 
  
     // Obtain the initial locator to Windows Management 
     // on a particular host computer. 
     IWbemLocator *pLoc = NULL; 
-    hres = CoCreateInstance(CLSID_WbemLocator, 0, CLSCTX_INPROC_SERVER,IID_IWbemLocator, (LPVOID *)&amp;pLoc); 
+    hres = CoCreateInstance(CLSID_WbemLocator, 0, CLSCTX_INPROC_SERVER,IID_IWbemLocator, (LPVOID *)&pLoc); 
     if (FAILED(hres)) 
     { 
         CoUninitialize(); 
-        wcout &lt;&lt; "CreateInstance failure:" &lt;&lt; hex &lt;&lt; (unsigned long)hres; 
+        wcout << "CreateInstance failure:" << hex << (unsigned long)hres; 
         return 0; 
     } 
  
@@ -219,20 +215,20 @@ The following C++ code sample describes how to use smi2smir.xml to connect to a 
     // Connect to the local ROOT\CIMV2 namespace 
     // and obtain pointer pSvc to make IWbemServices calls. 
     IWbemServices *pSvc = NULL; 
-    hres = pLoc-&gt;ConnectServer(L"ROOT\\CimV2", NULL,NULL, 0, NULL, 0,  0,  &amp;pSvc); 
+    hres = pLoc->ConnectServer(L"ROOT\\CimV2", NULL,NULL, 0, NULL, 0,  0,  &pSvc); 
  
     if (FAILED(hres)) 
     { 
-        pLoc-&gt;Release(); 
+        pLoc->Release(); 
         CoUninitialize(); 
-        wcout &lt;&lt; "ConnectServer() failure:" &lt;&lt; hex &lt;&lt; (unsigned long)hres; 
+        wcout << "ConnectServer() failure:" << hex << (unsigned long)hres; 
         return 0; 
     } 
     ...
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

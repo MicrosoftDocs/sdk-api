@@ -99,14 +99,10 @@ If the user selects the <b>Connect</b> button and the function establishes a con
 
 The following sample code brings up the <b>Dial-Up Networking</b> dialog. The dialog  displays dialing information for the first entry from the default phonebook file.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
+
+```cpp
+#include <windows.h>
+#include <stdio.h>
 #include "ras.h"
 #include "rasdlg.h"
 #pragma comment(lib, "rasapi32.lib")
@@ -121,7 +117,7 @@ int main (){
     
     // The dwsize member of lpInfo must contain the structure size, or the 
     // call to RasPhonebookDlg will fail
-    lpInfo-&gt;dwSize = sizeof(RASPBDLG);
+    lpInfo->dwSize = sizeof(RASPBDLG);
      
     // Open a user dialog box  
     nRet = RasPhonebookDlg(NULL,NULL,lpInfo);
@@ -130,8 +126,8 @@ int main (){
         // The user dialed a connection successfully
         printf("User pressed Connect\n");
     }else{
-        if(lpInfo-&gt;dwError != 0){
-            printf("RasPhonebookDlg failed: Error = %d\n", lpInfo-&gt;dwError);
+        if(lpInfo->dwError != 0){
+            printf("RasPhonebookDlg failed: Error = %d\n", lpInfo->dwError);
         }else{
             // The user closed the dialog box manually
             printf("User pressed Close\n");
@@ -142,10 +138,10 @@ int main (){
     HeapFree(GetProcessHeap(), 0, lpInfo);
     return 0;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

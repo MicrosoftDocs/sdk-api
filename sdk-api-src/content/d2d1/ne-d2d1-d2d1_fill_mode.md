@@ -110,13 +110,9 @@ The following illustration explains this process. The red arrows represent the d
 
 The following code example creates the geometry groups used the preceding illustrations. The code first declares an array of geometry objects. These objects are four concentric circles that have the following radii: 25, 50, 75, and 100. Then call the <a href="https://msdn.microsoft.com/e69c54b9-eb10-4a7f-8a5b-c42ad4572fa0">CreateGeometryGroup</a> on the <a href="https://msdn.microsoft.com/cef6115c-98e8-49e6-b419-271b43ce2938">ID2D1Factory</a> object,  passing in <b>D2D1_FILL_MODE_ALTERNATE</b>, an array of geometry objects to add to the geometry group, and the number of elements in this array.  
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT DemoApp::CreateGeometryResources()
+
+```cpp
+HRESULT DemoApp::CreateGeometryResources()
 {
     HRESULT hr;
 
@@ -126,9 +122,9 @@ The following code example creates the geometry groups used the preceding illust
         25.0f
         );
 
-    hr = m_pD2DFactory-&gt;CreateEllipseGeometry(
+    hr = m_pD2DFactory->CreateEllipseGeometry(
         ellipse1,
-        &amp;m_pEllipseGeometry1
+        &m_pEllipseGeometry1
         );
 
     if (SUCCEEDED(hr))
@@ -139,9 +135,9 @@ The following code example creates the geometry groups used the preceding illust
             50.0f
             );
 
-        hr = m_pD2DFactory-&gt;CreateEllipseGeometry(
+        hr = m_pD2DFactory->CreateEllipseGeometry(
             ellipse2,
-            &amp;m_pEllipseGeometry2
+            &m_pEllipseGeometry2
             );
     }
 
@@ -154,9 +150,9 @@ The following code example creates the geometry groups used the preceding illust
             75.0f
             );
 
-        hr = m_pD2DFactory-&gt;CreateEllipseGeometry(
+        hr = m_pD2DFactory->CreateEllipseGeometry(
             ellipse3,
-            &amp;m_pEllipseGeometry3
+            &m_pEllipseGeometry3
             );
     }
 
@@ -168,9 +164,9 @@ The following code example creates the geometry groups used the preceding illust
             100.0f
             );
 
-        hr = m_pD2DFactory-&gt;CreateEllipseGeometry(
+        hr = m_pD2DFactory->CreateEllipseGeometry(
             ellipse4,
-            &amp;m_pEllipseGeometry4
+            &m_pEllipseGeometry4
             );
     }
 
@@ -184,30 +180,30 @@ The following code example creates the geometry groups used the preceding illust
             m_pEllipseGeometry4
         };
 
-        hr = m_pD2DFactory-&gt;CreateGeometryGroup(
+        hr = m_pD2DFactory->CreateGeometryGroup(
             D2D1_FILL_MODE_ALTERNATE,
             ppGeometries,
             ARRAYSIZE(ppGeometries),
-            &amp;m_pGeoGroup_AlternateFill
+            &m_pGeoGroup_AlternateFill
             );
 
         if (SUCCEEDED(hr))
         {
-            hr = m_pD2DFactory-&gt;CreateGeometryGroup(
+            hr = m_pD2DFactory->CreateGeometryGroup(
                 D2D1_FILL_MODE_WINDING,
                 ppGeometries,
                 ARRAYSIZE(ppGeometries),
-                &amp;m_pGeoGroup_WindingFill
+                &m_pGeoGroup_WindingFill
                 );
         }
 
     }
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

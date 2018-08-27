@@ -78,18 +78,14 @@ DIF codes have the format DIF_<i>XXX</i> and are defined in <i>Setupapi.h</i>. S
 
 When a component allocates a class install parameters structure, it typically initializes the header fields of the structure. Such a component sets the <b>InstallFunction</b> member to the DIF code for the installation request and sets <b>cbSize</b> to the size of the SP_CLASSINSTALL_HEADER structure. For example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>SP_REMOVEDEVICE_PARAMS RemoveDeviceParams;
+
+```
+SP_REMOVEDEVICE_PARAMS RemoveDeviceParams;
 RemoveDeviceParams.ClassInstallHeader.cbSize = sizeof(SP_CLASSINSTALL_HEADER);
-RemoveDeviceParams.ClassInstallHeader.InstallFunction = DIF_REMOVE;</pre>
-</td>
-</tr>
-</table></span></div>
+RemoveDeviceParams.ClassInstallHeader.InstallFunction = DIF_REMOVE;
+```
+
+
 A component must set the <b>InstallFunction</b> member before passing a class install parameters structure to <a href="https://msdn.microsoft.com/a7f35e32-eaad-440b-8109-7320048ec7ba">SetupDiSetClassInstallParams</a>. 
 
 However, a component does not have to set this field when passing class install parameters to <a href="https://msdn.microsoft.com/4ac1eb44-c7d6-48f3-bc7f-fb547e5a985e">SetupDiGetClassInstallParams</a>. This function sets the <b>InstallFunction</b> member in the structure it passes back to the caller. It sets <b>InstallFunction</b> to the DIF_<i>XXX</i> code for the currently active device installation request.

@@ -287,18 +287,14 @@ When you specify "Flags" in the <i>strFieldName</i> parameter, the retrieved dat
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    BSTR  bstrFieldName = NULL;
+
+```cpp
+    BSTR  bstrFieldName = NULL;
     BSTR  bstrFieldValue = NULL;
     HRESULT    hr;
 
     // Specify the field to retrieve, for example, "CommonName".
-    bstrFieldName = SysAllocString(L"&lt;FIELDNAMEHERE&gt;");
+    bstrFieldName = SysAllocString(L"<FIELDNAMEHERE>");
     if (NULL == bstrFieldName)
     {
         printf("Memory allocation failed for bstrFieldName.\n");
@@ -306,7 +302,7 @@ When you specify "Flags" in the <i>strFieldName</i> parameter, the retrieved dat
     }
 
     // pConfig is a previously instantiated ICertConfig object.
-    hr = pConfig-&gt;GetField(bstrFieldName, &amp;bstrFieldValue);
+    hr = pConfig->GetField(bstrFieldName, &bstrFieldValue);
     if (FAILED(hr))
     {
         printf("Failed GetField - [%x]\n", hr);
@@ -322,10 +318,10 @@ error:
         SysFreeString(bstrFieldName);
 
     if (bstrFieldValue)
-        SysFreeString(bstrFieldValue);</pre>
-</td>
-</tr>
-</table></span></div>
+        SysFreeString(bstrFieldValue);
+```
+
+
 
 
 

@@ -155,18 +155,14 @@ The following VBScript code example shows a script  that is waiting for a WMI  e
 
 The following script runs indefinitely until the computer is rebooted, WMI is stopped, or the script is stopped. To stop the script manually, use Task Manager to stop the process. To stop it programmatically, use the <a href="https://msdn.microsoft.com/6c6b27d4-cf9b-42d7-9136-42641ea56ee8">Terminate</a>  method in the Win32_Process class.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>strComputer = "." 
-Set objWMIService = GetObject("winmgmts:\\" &amp; _strComputer &amp; "\root\CIMV2") 
+
+```vb
+strComputer = "." 
+Set objWMIService = GetObject("winmgmts:\\" & _strComputer & "\root\CIMV2") 
 Set MySink = WScript.CreateObject("WbemScripting.SWbemSink","SINK_")
 
 objWMIservice.ExecNotificationQueryAsync MySink, "SELECT * FROM __InstanceCreationEvent WITHIN 1 " _
-                                               &amp; "WHERE TargetInstance ISA 'Win32_Process'"
+                                               & "WHERE TargetInstance ISA 'Win32_Process'"
 
 WScript.Echo "Waiting for events..."
 
@@ -180,10 +176,10 @@ End Sub
 
 Sub SINK_OnCompleted(objObject, objAsyncContext)
     WScript.Echo "Event call complete."
-End Sub</pre>
-</td>
-</tr>
-</table></span></div>
+End Sub
+```
+
+
 
 
 

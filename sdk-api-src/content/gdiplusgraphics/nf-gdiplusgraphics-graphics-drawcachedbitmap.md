@@ -121,13 +121,9 @@ When you construct a
 The following example calls <b>Graphics::DrawCachedBitmap</b> to draw the image stored in a 
 						<a href="https://msdn.microsoft.com/en-us/library/ms534425(v=VS.85).aspx">CachedBitmap</a> object.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_DrawCachedBitmap(HDC hdc)
+
+```cpp
+VOID Example_DrawCachedBitmap(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -135,14 +131,14 @@ The following example calls <b>Graphics::DrawCachedBitmap</b> to draw the image 
    Bitmap bitmap(L"Climber.jpg");
 
    // Use the Bitmap object to create a CachedBitmap object.
-   CachedBitmap cachedBitmap(&amp;bitmap, &amp;graphics);
+   CachedBitmap cachedBitmap(&bitmap, &graphics);
 
    // Draw the cached bitmap.
-   graphics.DrawCachedBitmap(&amp;cachedBitmap, 20, 10);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.DrawCachedBitmap(&cachedBitmap, 20, 10);
+}
+```
+
+
 
 
 

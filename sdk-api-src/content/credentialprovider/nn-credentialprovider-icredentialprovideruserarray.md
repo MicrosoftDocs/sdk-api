@@ -122,41 +122,37 @@ Third-parties do not implement this interface. An implementation is included wit
 
 The following example demonstrates a scenario that uses some of the methods of this interface. The <code>pcpua</code> variable represents a previously declared <b>ICredentialProviderUserArray</b> object.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 DWORD dwCount = 0;
 
-HRESULT hr = pcpua-&gt;GetCount(&amp;dwCount);
+HRESULT hr = pcpua->GetCount(&dwCount);
 
 if (SUCCEEDED(hr))
 {
-    for (DWORD i = 0; i &lt; dwCount; i++)
+    for (DWORD i = 0; i < dwCount; i++)
     {
         ICredentialProviderUser *pcpu = NULL;
-        hr = pcpua-&gt;GetAt(i, &amp;pcpu);
+        hr = pcpua->GetAt(i, &pcpu);
 
         if (SUCCEEDED(hr))
         {
             PWSTR pszName = NULL;
-            hr = pcpu-&gt;GetStringValue(PKEY_Identity_UserName, &amp;pszName);
+            hr = pcpu->GetStringValue(PKEY_Identity_UserName, &pszName);
 
             if (SUCCEEDED(hr))
             {
                 // Do something with the string
                 CoTaskMemFree(pszName);
             }
-            pcpu-&gt;Release();
+            pcpu->Release();
         }
     }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

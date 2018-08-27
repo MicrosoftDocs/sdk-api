@@ -86,31 +86,23 @@ And then suppose you want to display the property values for every event in the 
 
 For the most part, the only thing you will ever do with an SWbemObjectSet is enumerate all the objects contained within the collection itself. However, the Count Count that can be useful in system administration scripting. As the name implies, Count tells you the number of items in the collection. For example, this script retrieves a collection of all the services installed on a computer and then echoes the total number of services found:
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>strComputer = "."
-Set objSWbemServices = GetObject("winmgmts:\\" &amp; strComputer &amp; "\root\cimv2")
-Set colSWbemObjectSet = objSWbemServices.InstancesOf("Win32_Service")
-Wscript.Echo "Services installed on target computer: " &amp; colSWbemObjectSet.Count
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+```vb
+strComputer = "."
+Set objSWbemServices = GetObject("winmgmts:\\" & strComputer & "\root\cimv2")
+Set colSWbemObjectSet = objSWbemServices.InstancesOf("Win32_Service")
+Wscript.Echo "Services installed on target computer: " & colSWbemObjectSet.Count
+
+
+```
+
+
 What makes Count useful is that it can tell you whether a specific instance is available on a computer. For example, this script retrieves a collection of all the services on a computer that have the Name W3SVC. If the Count is 0 (and it is valid for collections to have no instances), that means the W3SVC service is not installed on the computer.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>strComputer = "."
-Set objSWbemServices = GetObject("winmgmts:\\" &amp; strComputer &amp; "\root\cimv2")
+
+```vb
+strComputer = "."
+Set objSWbemServices = GetObject("winmgmts:\\" & strComputer & "\root\cimv2")
 Set colSWbemObjectSet = objSWbemServices.ExecQuery _
     ("SELECT * FROM Win32_Service WHERE Name='w3svc'")
 If colSWbemObjectSet.Count = 0 Then
@@ -119,9 +111,9 @@ Else
     For Each objSWbemObject In colSWbemObjectSet
         ' Perform task on World Wide Web Publishing service.
     Next
-End If</pre>
-</td>
-</tr>
-</table></span></div>
+End If
+```
+
+
 
 

@@ -164,22 +164,18 @@ The second method offers the best performance in most cases, since the caller do
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>RPC_CALL_ATTRIBUTES CallAttributes;  // this maps to RPC_CALL_ATTRIBUTES_V1
 
-memset(&amp;CallAttributes, 0, sizeof(CallAttributes));
+```cpp
+RPC_CALL_ATTRIBUTES CallAttributes;  // this maps to RPC_CALL_ATTRIBUTES_V1
+
+memset(&CallAttributes, 0, sizeof(CallAttributes));
 CallAttributes.Version = RPC_CALL_ATTRIBUTES_VERSION;    // maps to 1
 CallAttributes.Flags = ;//....
-Status = RpcServerInqCallAttributes(0, &amp;CallAttributes);
-</pre>
-</td>
-</tr>
-</table></span></div>
+Status = RpcServerInqCallAttributes(0, &CallAttributes);
+
+```
+
+
 
 
 

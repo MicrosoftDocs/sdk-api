@@ -105,13 +105,9 @@ This method should be called when data packets are sent as a result of the stylu
 
 The following C++ example shows the implementation of a <a href="https://msdn.microsoft.com/c6a3d563-4776-4ac6-bdc3-798192ba4546">IStylusPlugin::Packets Method</a> method on an <a href="https://msdn.microsoft.com/bbef5cdb-4112-4733-80bb-692b7a198605">IStylusPlugin Interface</a> object. The plug-in uses a <a href="https://msdn.microsoft.com/0d699089-b913-4020-9284-a955f61fd861">StrokeBuilder</a> object to create a new ink stroke. The <b>IStrokeBuilder::AppendPackets Method</b> method is called from <b>IStylusPlugin::Packets Method</b> to add new packet data to a stroke in progress as the user drags the stylus across the digitizer.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>STDMETHODIMP CStrokeBuilderPlugin::Packets( 
+
+```cpp
+STDMETHODIMP CStrokeBuilderPlugin::Packets( 
             /* [in] */ IRealTimeStylus *piRtsSrc,
             /* [in] */ const StylusInfo *pStylusInfo,
             /* [in] */ ULONG cPktCount,
@@ -121,12 +117,12 @@ The following C++ example shows the implementation of a <a href="https://msdn.mi
             /* [out][in] */ LONG **ppInOutPkts)
 {
 	// Add packet to the stroke
-	return m_pStrokeBuilder-&gt;AppendPackets(pStylusInfo-&gt;tcid, pStylusInfo-&gt;cid, cPktBuffLength, pPackets);
+	return m_pStrokeBuilder->AppendPackets(pStylusInfo->tcid, pStylusInfo->cid, cPktBuffLength, pPackets);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

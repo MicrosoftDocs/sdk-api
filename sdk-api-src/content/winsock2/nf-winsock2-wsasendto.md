@@ -495,23 +495,19 @@ Transport providers allow an application to invoke send and receive operations f
 
 The prototype of the completion routine is as follows.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 void CALLBACK CompletionROUTINE(
   IN DWORD dwError,
   IN DWORD cbTransferred,
   IN LPWSAOVERLAPPED lpOverlapped,
   IN DWORD dwFlags
 );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The  CompletionRoutine function is a placeholder for an application-defined or library-defined function name. The <i>dwError</i> parameter specifies the completion status for the overlapped operation as indicated by <i>lpOverlapped</i>. The <i>cbTransferred</i> parameter specifies the number of bytes sent. Currently there are no flag values defined and <i>dwFlags</i> will be zero. This function does not return a value.
 
 Returning from this function allows invocation of another pending completion routine for this socket. All waiting completion routines are called before the alertable thread's wait is satisfied with a return code of WSA_IO_COMPLETION. The completion routines can be called in any order, not necessarily in the same order in which the overlapped operations are completed. However, the posted buffers are guaranteed to be sent in the same order they are specified.
@@ -519,18 +515,14 @@ Returning from this function allows invocation of another pending completion rou
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following example demonstrates the use of the <b>WSASendTo</b> function using an event object.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#define WIN32_LEAN_AND_MEAN
 
-#include &lt;winsock2.h&gt;
-#include &lt;Ws2tcpip.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;stdlib.h&gt;
+```cpp
+#define WIN32_LEAN_AND_MEAN
+
+#include <winsock2.h>
+#include <Ws2tcpip.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 // Link with ws2_32.lib
 #pragma comment(lib, "Ws2_32.lib")
@@ -580,14 +572,14 @@ int __cdecl main(int argc, char **argv)
     //---------------------------------------------
     // Initialize Winsock
     // Load Winsock
-    rc = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
+    rc = WSAStartup(MAKEWORD(2, 2), &wsaData);
     if (rc != 0) {
         printf("Unable to load Winsock: %d\n", rc);
         return 1;
     }
 
     // Make sure the Overlapped struct is zeroed out
-    SecureZeroMemory((PVOID) &amp;Overlapped, sizeof(WSAOVERLAPPED));
+    SecureZeroMemory((PVOID) &Overlapped, sizeof(WSAOVERLAPPED));
 
     // Create an event handle and setup the overlapped structure.
     Overlapped.hEvent = WSACreateEvent();
@@ -632,7 +624,7 @@ int __cdecl main(int argc, char **argv)
     // Set up the LocalAddr structure with the local IP address
     // and the specified port number.
     localHost = gethostbyname("");
-    ip = inet_ntoa(*(struct in_addr *) *localHost-&gt;h_addr_list);
+    ip = inet_ntoa(*(struct in_addr *) *localHost->h_addr_list);
 
     LocalAddr.sin_family = AF_INET;
     LocalAddr.sin_addr.s_addr = inet_addr(ip);
@@ -642,7 +634,7 @@ int __cdecl main(int argc, char **argv)
     // Bind the sending socket to the LocalAddr structure
     // that has the internet address family, local IP address
     // and specified port number.  
-    rc = bind(SendToSocket, (struct sockaddr *) &amp;LocalAddr, LocalAddrSize);
+    rc = bind(SendToSocket, (struct sockaddr *) &LocalAddr, LocalAddrSize);
     if (rc == SOCKET_ERROR) {
         printf("bind failed with error: %d\n", WSAGetLastError());
         WSACloseEvent(Overlapped.hEvent);
@@ -660,11 +652,11 @@ int __cdecl main(int argc, char **argv)
 //    printf("Sending a datagram...\n");
     DataBuf.len = BufLen;
     DataBuf.buf = SendBuf;
-    rc = WSASendTo(SendToSocket, &amp;DataBuf, 1,
-                   &amp;BytesSent, Flags, (SOCKADDR *) &amp; RecvAddr,
-                   RecvAddrSize, &amp;Overlapped, NULL);
+    rc = WSASendTo(SendToSocket, &DataBuf, 1,
+                   &BytesSent, Flags, (SOCKADDR *) & RecvAddr,
+                   RecvAddrSize, &Overlapped, NULL);
 
-    if ((rc == SOCKET_ERROR) &amp;&amp; (WSA_IO_PENDING != (err = WSAGetLastError()))) {
+    if ((rc == SOCKET_ERROR) && (WSA_IO_PENDING != (err = WSAGetLastError()))) {
         printf("WSASendTo failed with error: %d\n", err);
         WSACloseEvent(Overlapped.hEvent);
         closesocket(SendToSocket);
@@ -672,15 +664,15 @@ int __cdecl main(int argc, char **argv)
         return 1;
     }
 
-    rc = WSAWaitForMultipleEvents(1, &amp;Overlapped.hEvent, TRUE, INFINITE, TRUE);
+    rc = WSAWaitForMultipleEvents(1, &Overlapped.hEvent, TRUE, INFINITE, TRUE);
     if (rc == WSA_WAIT_FAILED) {
         printf("WSAWaitForMultipleEvents failed with error: %d\n",
                 WSAGetLastError());
         retval = 1;
     }
 
-    rc = WSAGetOverlappedResult(SendToSocket, &amp;Overlapped, &amp;BytesSent,
-                                FALSE, &amp;Flags);
+    rc = WSAGetOverlappedResult(SendToSocket, &Overlapped, &BytesSent,
+                                FALSE, &Flags);
     if (rc == FALSE) {
         printf("WSASendTo failed with error: %d\n", WSAGetLastError());
         retval = 1;
@@ -700,10 +692,10 @@ int __cdecl main(int argc, char **argv)
     WSACleanup();
     return (retval);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 <b>Windows Phone 8:</b> This function is supported for Windows Phone Store apps on Windows Phone 8 and later.
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.

@@ -104,13 +104,9 @@ Resources added to a
 The following script uses the <b>AddItem</b> 
      method to add a dependency to a resource.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+```vb
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 ' adddependency.vbs
 ' Adds a dependency to a resource. Both resources must already exist
 ' and be able to form a dependency relationship. Run the script on 
@@ -122,7 +118,7 @@ The following script uses the <b>AddItem</b>
 Option Explicit
 Dim objArgs, objCluster, objResource, objDependency
 Set objArgs = WScript.Arguments
-If objArgs.Count &lt;&gt; 2 Then
+If objArgs.Count <> 2 Then
     WScript.Echo "Syntax:   AddDependency Resourcename Dependencyname"
     WScript.Quit
 End If
@@ -133,15 +129,15 @@ Set objDependency = objCluster.Resources.Item(objArgs(1))
 If objResource.CanResourceBeDependent(objDependency) Then
     objResource.Dependencies.AddItem(objDependency)
 Else
-    WScript.Echo objResource.Name &amp; " cannot depend on " &amp; objDependency.Name
+    WScript.Echo objResource.Name & " cannot depend on " & objDependency.Name
 End If
 Set objResource = Nothing
 Set objDependency = Nothing
 Set objCluster = Nothing
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

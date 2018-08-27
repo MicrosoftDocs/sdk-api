@@ -179,13 +179,9 @@ The following examples show the use of <b>GetSystemInformation</b> for JScript a
 JScript:
                 
 
-<div class="code"><span codelanguage="JScript"><table>
-<tr>
-<th>JScript</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;script language="JavaScript"&gt;
+
+```javascript
+<script language="JavaScript">
     function fnGetSystemInformationJ()
     {
         var objShell = new ActiveXObject("shell.application");
@@ -194,20 +190,16 @@ JScript:
         vReturn = objShell.GetSystemInformation("ProcessorLevel");
         document.write(vReturn);
     }
-&lt;/script&gt;
-</pre>
-</td>
-</tr>
-</table></span></div>
+</script>
+
+```
+
+
 VBScript:
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;script language="VBScript"&gt;
+
+```vb
+<script language="VBScript">
     function fnGetSystemInformationVB()
         dim objShell
         dim vReturn
@@ -219,10 +211,10 @@ VBScript:
 
         set objShell = nothing
     end function
-&lt;/script&gt;
-</pre>
-</td>
-</tr>
-</table></span></div>
+</script>
+
+```
+
+
 
 

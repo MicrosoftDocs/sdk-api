@@ -177,13 +177,9 @@ The <i>PayloadBlob</i> and <i>HashValue</i> buffers are owned and managed by the
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//////////////////////////////////////////////////////////////////////////////////////////
+
+```cpp
+//////////////////////////////////////////////////////////////////////////////////////////
 //
 // EngineAdapterIdentifyFeatureSet
 //
@@ -244,11 +240,11 @@ EngineAdapterIdentifyFeatureSet(
 
     // Retrieve the context from the pipeline.
     PWINBIO_ENGINE_CONTEXT context = 
-           (PWINBIO_ENGINE_CONTEXT)Pipeline-&gt;EngineContext;
+           (PWINBIO_ENGINE_CONTEXT)Pipeline->EngineContext;
 
     // Initialize the return values.
     ZeroMemory( Identity, sizeof(WINBIO_IDENTITY));
-    Identity-&gt;Type = WINBIO_ID_TYPE_NULL;
+    Identity->Type = WINBIO_ID_TYPE_NULL;
     *SubFactor          = WINBIO_SUBTYPE_NO_INFORMATION;
     *PayloadBlob        = NULL;
     *PayloadBlobSize    = 0;
@@ -258,7 +254,7 @@ EngineAdapterIdentifyFeatureSet(
 
     // The biometric unit cannot perform verification or identification
     // operations while it is performing an enrollment sequence.
-    if (context-&gt;Enrollment.InProgress == TRUE)
+    if (context->Enrollment.InProgress == TRUE)
     {
         hr = WINBIO_E_ENROLLMENT_IN_PROGRESS;
         goto cleanup;
@@ -271,8 +267,8 @@ EngineAdapterIdentifyFeatureSet(
     // member.
     hr = _AdapterCreateIndexVector(
                 context, 
-                context-&gt;FeatureSet,
-                context-&gt;FeatureSetSize,
+                context->FeatureSet,
+                context->FeatureSetSize,
                 indexVector, 
                 NUMBER_OF_TEMPLATE_BINS, 
                 RejectDetail
@@ -300,7 +296,7 @@ EngineAdapterIdentifyFeatureSet(
 
     // Determine the size of the result set. WbioStorageGetRecordCount is a wrapper
     // function in the Winbio_adapter.h header file.
-    hr = WbioStorageGetRecordCount( Pipeline, &amp;recordCount);
+    hr = WbioStorageGetRecordCount( Pipeline, &recordCount);
     if (FAILED(hr))
     {
         goto cleanup;
@@ -317,9 +313,9 @@ EngineAdapterIdentifyFeatureSet(
     // Iterate through all records in the result set and determine which record
     // matches the current feature set. WbioStorageGetCurrentRecord is a wrapper
     // function in the Winbio_adapter.h header file.
-    for (index = 0; index &lt; recordCount; ++index)
+    for (index = 0; index < recordCount; ++index)
     {
-        hr = WbioStorageGetCurrentRecord( Pipeline, &amp;thisRecord );
+        hr = WbioStorageGetCurrentRecord( Pipeline, &thisRecord );
         if (FAILED(hr))
         {
             goto cleanup;
@@ -335,14 +331,14 @@ EngineAdapterIdentifyFeatureSet(
         // RejectDetail parameter.
         hr = _AdapterCompareTemplateToCurrentFeatureSet( 
                     context, 
-                    context-&gt;FeatureSet,
-                    context-&gt;FeatureSetSize,
+                    context->FeatureSet,
+                    context->FeatureSetSize,
                     thisRecord.TemplateBlob, 
                     thisRecord.TemplateBlobSize,
-                    &amp;match,
+                    &match,
                     RejectDetail 
                     );
-        if (FAILED(hr) &amp;&amp; hr != WINBIO_E_NO_MATCH)
+        if (FAILED(hr) && hr != WINBIO_E_NO_MATCH)
         {
             goto cleanup;
         }
@@ -377,8 +373,8 @@ EngineAdapterIdentifyFeatureSet(
                     context,
                     thisRecord.TemplateBlob, 
                     thisRecord.TemplateBlobSize,
-                    context-&gt;HashBuffer,
-                    &amp;context-&gt;HashSize
+                    context->HashBuffer,
+                    &context->HashSize
                     );
         if (FAILED(hr))
         {
@@ -391,8 +387,8 @@ EngineAdapterIdentifyFeatureSet(
         *SubFactor          = thisRecord.SubFactor;
         *PayloadBlob        = thisRecord.PayloadBlob;
         *PayloadBlobSize    = thisRecord.PayloadBlobSize;
-        *HashValue          = &amp;context-&gt;HashBuffer;
-        *HashSize           = context-&gt;HashSize;
+        *HashValue          = &context->HashBuffer;
+        *HashSize           = context->HashSize;
     }
     else
     {
@@ -407,10 +403,10 @@ cleanup:
     }
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

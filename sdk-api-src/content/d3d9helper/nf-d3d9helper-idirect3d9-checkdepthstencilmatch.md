@@ -116,20 +116,16 @@ The behavior of this method has been changed for DirectX 8.1.  This method now p
 
 The following code fragment shows how you could use <a href="https://msdn.microsoft.com/en-us/library/Bb174309(v=VS.85).aspx">CheckDeviceFormat</a> to validate a depth stencil format.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 BOOL IsDepthFormatOk(D3DFORMAT DepthFormat, 
                           D3DFORMAT AdapterFormat, 
                           D3DFORMAT BackBufferFormat)
 {
     
     // Verify that the depth format exists
-    HRESULT hr = pD3D-&gt;CheckDeviceFormat(D3DADAPTER_DEFAULT,
+    HRESULT hr = pD3D->CheckDeviceFormat(D3DADAPTER_DEFAULT,
                                          D3DDEVTYPE_HAL,
                                          AdapterFormat,
                                          D3DUSAGE_DEPTHSTENCIL,
@@ -139,7 +135,7 @@ BOOL IsDepthFormatOk(D3DFORMAT DepthFormat,
     if(FAILED(hr)) return FALSE;
     
     // Verify that the depth format is compatible
-    hr = pD3D-&gt;CheckDepthStencilMatch(D3DADAPTER_DEFAULT,
+    hr = pD3D->CheckDepthStencilMatch(D3DADAPTER_DEFAULT,
                                       D3DDEVTYPE_HAL,
                                       AdapterFormat,
                                       BackBufferFormat,
@@ -148,10 +144,10 @@ BOOL IsDepthFormatOk(D3DFORMAT DepthFormat,
     return SUCCEEDED(hr);
     
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The preceding call will return <b>FALSE</b> if DepthFormat cannot be used in conjunction with AdapterFormat and BackBufferFormat.
 
 

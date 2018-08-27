@@ -100,13 +100,9 @@ The following example demonstrates a custom implementation of  <a href="https://
 
 The CItemProperties class in this example is derived from <a href="https://msdn.microsoft.com/en-us/library/Dd371358(v=VS.85).aspx">IUISimplePropertySet</a> and, in addition to the required method <b>IUISimplePropertySet::GetValue</b>, implements a set of helper functions for initialization and index tracking.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//
+
+```cpp
+//
 //  PURPOSE:    Implementation of IUISimplePropertySet.
 //
 //  COMMENTS:
@@ -114,7 +110,7 @@ The CItemProperties class in this example is derived from <a href="https://msdn.
 //
 
 class CItemProperties
-  : public CComObjectRootEx&lt;CComMultiThreadModel&gt;
+  : public CComObjectRootEx<CComMultiThreadModel>
   , public IUISimplePropertySet
 {
   public:
@@ -134,7 +130,7 @@ class CItemProperties
 		  // _isCommandGallery set on item initialization.
     if (_isCommandGallery)
     {			
-      if(key == UI_PKEY_CommandId &amp;&amp; _isCommandGallery)
+      if(key == UI_PKEY_CommandId && _isCommandGallery)
       {
 			     // Return a pointer to the CommandId of the item.
         return InitPropVariantFromUInt32(_cmdID, ppropvar);
@@ -154,7 +150,7 @@ class CItemProperties
         if (NULL == _spimgItem)
         {
           hr = CreateUIImageFromBitmapResource(
-                 MAKEINTRESOURCE(IDB_GALLERYITEM), &amp;_spimgItem);
+                 MAKEINTRESOURCE(IDB_GALLERYITEM), &_spimgItem);
           if (FAILED(hr))
           {
             return hr;
@@ -194,11 +190,11 @@ private:
   int _index;
   int _cmdID;
   bool _isCommandGallery;
-  CComPtr&lt;IUIImage&gt; _spimgItem;	
-};</pre>
-</td>
-</tr>
-</table></span></div>
+  CComPtr<IUIImage> _spimgItem;	
+};
+```
+
+
 
 
 

@@ -108,24 +108,20 @@ If a positive value of the <i>celt</i> parameter causes the index to exceed the 
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// pEnumRow is previously instantiated pointer to IEnumCERTVIEWROW.
+
+```cpp
+// pEnumRow is previously instantiated pointer to IEnumCERTVIEWROW.
 HRESULT  hr;
 LONG     Index;
 // Reposition the row enumerator to the beginning of the rows.
-hr = pEnumRow-&gt;Reset();
+hr = pEnumRow->Reset();
 if (FAILED(hr))
 {
     printf("Unable to reset pEnumRow\n");
     goto error;
 }
 // Skip some rows.
-hr = pEnumRow-&gt;Skip(5);
+hr = pEnumRow->Skip(5);
 if (FAILED(hr))
 {
     printf("Unable to skip rows\n");
@@ -133,7 +129,7 @@ if (FAILED(hr))
 }
 
 // Get the next row.
-hr = pEnumRow-&gt;Next(&amp;Index);
+hr = pEnumRow->Next(&Index);
 if (S_OK == hr)
 {
     // Use this row as needed.
@@ -142,10 +138,10 @@ if (S_OK == hr)
 error:
 
 if (NULL != pEnumRow)
-    pEnumRow-&gt;Release();</pre>
-</td>
-</tr>
-</table></span></div>
+    pEnumRow->Release();
+```
+
+
 
 
 

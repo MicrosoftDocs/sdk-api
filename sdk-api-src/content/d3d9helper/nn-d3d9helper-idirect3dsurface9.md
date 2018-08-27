@@ -136,18 +136,14 @@ The LPDIRECT3DSURFACE9 and PDIRECT3DSURFACE9 types are defined as pointers to th
 
     
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 typedef struct IDirect3DSurface9 *LPDIRECT3DSURFACE9, *PDIRECT3DSURFACE9;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

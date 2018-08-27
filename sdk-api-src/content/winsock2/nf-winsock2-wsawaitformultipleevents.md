@@ -207,21 +207,17 @@ The current implementation of <b>WSAWaitForMultipleEvents</b> calls the <a href=
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following code example shows how to use the <b>WSAWaitForMultipleEvents</b> function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef UNICODE
+
+```cpp
+#ifndef UNICODE
 #define UNICODE
 #endif
 
 #define WIN32_LEAN_AND_MEAN
 
-#include &lt;winsock2.h&gt;
-#include &lt;Ws2tcpip.h&gt;
-#include &lt;stdio.h&gt;
+#include <winsock2.h>
+#include <Ws2tcpip.h>
+#include <stdio.h>
 
 // Link with ws2_32.lib
 #pragma comment(lib, "Ws2_32.lib")
@@ -254,7 +250,7 @@ int main()
     //-----------------------------------------
     // Initialize Winsock
     // Initialize Winsock
-    iResult = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
+    iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
     if (iResult != 0) {
         wprintf(L"WSAStartup failed: %d\n", iResult);
         return 1;
@@ -284,14 +280,14 @@ int main()
         return 1;
     }
 
-    ip = inet_ntoa(*(struct in_addr *) *thisHost-&gt;h_addr_list);
+    ip = inet_ntoa(*(struct in_addr *) *thisHost->h_addr_list);
 
     service.sin_addr.s_addr = inet_addr(ip);
 
     //-----------------------------------------
     // Bind the listening socket to the local IP address
     // and port number
-    iResult = bind(ListenSocket, (SOCKADDR *) &amp; service, sizeof (SOCKADDR));
+    iResult = bind(ListenSocket, (SOCKADDR *) & service, sizeof (SOCKADDR));
     if (iResult != 0) {
         wprintf(L"bind failed with error = %d\n", WSAGetLastError());
         closesocket(ListenSocket);
@@ -332,7 +328,7 @@ int main()
         return 1;
     }
 
-    ZeroMemory(&amp;AcceptOverlapped, sizeof (WSAOVERLAPPED));
+    ZeroMemory(&AcceptOverlapped, sizeof (WSAOVERLAPPED));
     AcceptOverlapped.hEvent = EventArray[EventTotal];
 
     DataBuf.len = DATA_BUFSIZE;
@@ -343,7 +339,7 @@ int main()
     //-----------------------------------------
     // Call WSARecv to receive data into DataBuf on 
     // the accepted socket in overlapped I/O mode
-    if (WSARecv(AcceptSocket, &amp;DataBuf, 1, &amp;RecvBytes, &amp;Flags, &amp;AcceptOverlapped, NULL) ==
+    if (WSARecv(AcceptSocket, &DataBuf, 1, &RecvBytes, &Flags, &AcceptOverlapped, NULL) ==
         SOCKET_ERROR) {
         iResult = WSAGetLastError();
         if (iResult != WSA_IO_PENDING)
@@ -366,8 +362,8 @@ int main()
         //-----------------------------------------
         // Determine the status of the overlapped event
         bResult =
-            WSAGetOverlappedResult(AcceptSocket, &amp;AcceptOverlapped, &amp;BytesTransferred, FALSE,
-                                   &amp;Flags);
+            WSAGetOverlappedResult(AcceptSocket, &AcceptOverlapped, &BytesTransferred, FALSE,
+                                   &Flags);
         if (bResult == FALSE) {
             wprintf(L"WSAGetOverlappedResult failed with error = %d\n", WSAGetLastError());
         }
@@ -385,14 +381,14 @@ int main()
         // If data has been received, echo the received data
         // from DataBuf back to the client
         iResult =
-            WSASend(AcceptSocket, &amp;DataBuf, 1, &amp;RecvBytes, Flags, &amp;AcceptOverlapped, NULL);
+            WSASend(AcceptSocket, &DataBuf, 1, &RecvBytes, Flags, &AcceptOverlapped, NULL);
         if (iResult != 0) {
             wprintf(L"WSASend failed with error = %d\n", WSAGetLastError());
         }
         //-----------------------------------------         
         // Reset the changed flags and overlapped structure
         Flags = 0;
-        ZeroMemory(&amp;AcceptOverlapped, sizeof (WSAOVERLAPPED));
+        ZeroMemory(&AcceptOverlapped, sizeof (WSAOVERLAPPED));
 
         AcceptOverlapped.hEvent = EventArray[Index - WSA_WAIT_EVENT_0];
 
@@ -409,10 +405,10 @@ int main()
     return 0;
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 <b>Windows Phone 8:</b> This  function is supported for Windows Phone Store apps on Windows Phone 8 and later.
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This   function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.

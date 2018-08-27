@@ -109,13 +109,9 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 The Unicode version of this function, <b>SymEnumerateSymbolsW64</b> is defined as follows in Dbghelp.h. 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 BOOL
 IMAGEAPI
 SymEnumerateSymbolsW64(
@@ -123,20 +119,16 @@ SymEnumerateSymbolsW64(
     __in ULONG64 BaseOfDll,
     __in PSYM_ENUMSYMBOLS_CALLBACK64W EnumSymbolsCallback,
     __in_opt PVOID UserContext
-    );</pre>
-</td>
-</tr>
-</table></span></div>
+    );
+```
+
+
 This function supersedes the <b>SymEnumerateSymbols</b> function. For more information, see 
 <a href="https://msdn.microsoft.com/34ec8cd3-3260-441d-b55f-4ea21c736eb1">Updated Platform Support</a>. <b>SymEnumerateSymbols</b> is defined as follows in Dbghelp.h. 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
+
+```cpp
+#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
 #define SymEnumerateSymbols SymEnumerateSymbols64
 #define SymEnumerateSymbolsW SymEnumerateSymbolsW64
 #else
@@ -157,10 +149,10 @@ SymEnumerateSymbolsW(
     __in PSYM_ENUMSYMBOLS_CALLBACKW EnumSymbolsCallback,
     __in_opt PVOID UserContext
     );
-#endif</pre>
-</td>
-</tr>
-</table></span></div>
+#endif
+```
+
+
 
 
 

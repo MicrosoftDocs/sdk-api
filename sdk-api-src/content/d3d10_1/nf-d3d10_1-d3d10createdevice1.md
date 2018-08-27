@@ -134,19 +134,15 @@ The object returned by D3D10CreateDevice1 implements the <a href="http://msdn.mi
       and can be queried for other 
       interfaces the object supports. To retrieve the <a href="https://msdn.microsoft.com/en-us/library/Bb174527(v=VS.85).aspx">IDXGIDevice</a>  interface of the object the following code could be used.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 IDXGIDevice * pDXGIDevice;
-hr = g_pd3dDevice-&gt;QueryInterface(__uuidof(IDXGIDevice), (void **)&amp;pDXGIDevice);
-      </pre>
-</td>
-</tr>
-</table></span></div>
+hr = g_pd3dDevice->QueryInterface(__uuidof(IDXGIDevice), (void **)&pDXGIDevice);
+      
+```
+
+
 
 
 

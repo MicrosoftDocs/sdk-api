@@ -107,26 +107,22 @@ This is an inline function, with its source code provided in the header. It is n
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762320(v=VS.85).aspx">InitVariantFromDosDateTime</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// WORD wDate, wTime;
+
+```cpp
+// WORD wDate, wTime;
 // Assume variables wDate and wTime are initialized and valid.
 VARIANT var;
 
-HRESULT hr = InitVariantFromDosDateTime(wDate, wTime, &amp;var);
+HRESULT hr = InitVariantFromDosDateTime(wDate, wTime, &var);
 
 if (SUCCEEDED(hr))
 {
     // var now is valid and has type VT_DATE.
-    VariantClear(&amp;propvar);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+    VariantClear(&propvar);
+}
+```
+
+
 
 
 

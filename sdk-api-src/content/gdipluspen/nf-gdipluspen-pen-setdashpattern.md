@@ -114,13 +114,9 @@ The length of each dash and space in the dash pattern is the product of the elem
 The following example creates an array of real numbers. The code then creates a 
 						<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object, sets the dash pattern based on the array, and then draws the custom dashed line.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_SetDashPattern(HDC hdc)
+
+```cpp
+VOID Example_SetDashPattern(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -138,11 +134,11 @@ The following example creates an array of real numbers. The code then creates a
    pen.SetDashPattern(dashVals, 4);
 
    // Draw the custom dashed line.
-   graphics.DrawLine(&amp;pen, 5, 20, 405, 200); 
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.DrawLine(&pen, 5, 20, 405, 200); 
+}
+```
+
+
 
 
 

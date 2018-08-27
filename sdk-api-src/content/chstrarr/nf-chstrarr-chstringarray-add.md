@@ -97,20 +97,16 @@ If <a href="https://msdn.microsoft.com/en-us/library/Aa385416(v=VS.85).aspx">Set
 The following code example shows the use of 
      <b>Add</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    CHStringArray array;
+
+```cpp
+    CHStringArray array;
     CHString s( L"String 2");
     
     array.Add( L"String 1" ); // Element 0
-    array.Add( s );           // Element 1</pre>
-</td>
-</tr>
-</table></span></div>
+    array.Add( s );           // Element 1
+```
+
+
 
 
 

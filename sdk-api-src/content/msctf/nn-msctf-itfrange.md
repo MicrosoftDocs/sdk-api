@@ -283,20 +283,16 @@ The TSF manager implements this interface. For more information about ranges, an
 Once an <a href="https://msdn.microsoft.com/b1eb5782-13e3-4cbb-8c37-ce7219d1e838">ITfComposition</a> composition object is instantiated, a pointer to an <b>ITfRange</b> interface pointer can be obtained by calling the <a href="https://msdn.microsoft.com/14a726c3-6531-4d49-9f22-20460be02b81">ITfComposition::GetRange</a> method, as shown in the following code example.
 
 <div class="code"></div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT         hr;
 ITfComposition  *pComposition;
 ITfRange        *pRange;
 WCHAR           *achBuffer[64];  // Buffer to receive text. 
 ULONG           cch;
 
-hr = pComposition-&gt;GetRange(&amp;pRange);
+hr = pComposition->GetRange(&pRange);
 if(SUCCEEDED(hr))
 {
     // Loop to scan text: 
@@ -304,22 +300,22 @@ if(SUCCEEDED(hr))
     do
     {
         cch = ARRAYSIZE(achBuffer);
-        hr = pRange-&gt;GetText(ec, TF_TF_MOVESTART | TF_TF_IGNOREEND, achBuffer, cch, &amp;cch);
+        hr = pRange->GetText(ec, TF_TF_MOVESTART | TF_TF_IGNOREEND, achBuffer, cch, &cch);
         if(SUCCEEDED(hr))
         {
             // Do something with the text. 
 
-            pRange-&gt;Release();
+            pRange->Release();
         }
     }
     while (cch == ARRAYSIZE(achBuffer));
 
-    pComposition-&gt;Release();
+    pComposition->Release();
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 A pointer to a current <b>ITfRange</b> object can be obtained from the &lt;range&gt; element of the <a href="https://msdn.microsoft.com/c844a6d1-b3b9-49cf-83a6-1ee8b3bd2d54">TF_SELECTION</a> structure.
 
 <div class="code"></div>

@@ -144,13 +144,9 @@ The following function enrolls a biometric template in the system pool. You can 
 <li>Conio.h</li>
 <li>Winbio.h</li>
 </ul>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT EnrollSysPool(
+
+```cpp
+HRESULT EnrollSysPool(
                       BOOL discardEnrollment, 
                       WINBIO_BIOMETRIC_SUBTYPE subFactor)
 {
@@ -169,7 +165,7 @@ The following function enrolls a biometric template in the system pool. You can 
             NULL,                       // Array of biometric unit IDs
             0,                          // Count of biometric unit IDs
             NULL,                       // Database ID
-            &amp;sessionHandle              // [out] Session handle
+            &sessionHandle              // [out] Session handle
             );
     if (FAILED(hr))
     {
@@ -180,7 +176,7 @@ The following function enrolls a biometric template in the system pool. You can 
 
     // Locate a sensor.
     wprintf_s(L"\n Swipe your finger on the sensor...\n");
-    hr = WinBioLocateSensor( sessionHandle, &amp;unitId);
+    hr = WinBioLocateSensor( sessionHandle, &unitId);
     if (FAILED(hr))
     {
         wprintf_s(L"\n WinBioLocateSensor failed. hr = 0x%x\n", hr);
@@ -210,7 +206,7 @@ The following function enrolls a biometric template in the system pool. You can 
 
         hr = WinBioEnrollCapture(
                 sessionHandle,  // Handle to open biometric session
-                &amp;rejectDetail   // [out] Failure information
+                &rejectDetail   // [out] Failure information
                 );
 
         wprintf_s(L"\n Sample %d captured from unit number %d.", 
@@ -260,8 +256,8 @@ The following function enrolls a biometric template in the system pool. You can 
         wprintf_s(L"\n Committing enrollment...\n");
         hr = WinBioEnrollCommit( 
                 sessionHandle,      // Handle to open biometric session
-                &amp;identity,          // WINBIO_IDENTITY object for the user
-                &amp;isNewTemplate);    // Is this a new template
+                &identity,          // WINBIO_IDENTITY object for the user
+                &isNewTemplate);    // Is this a new template
 
         if (FAILED(hr))
         {
@@ -284,10 +280,10 @@ e_Exit:
     return hr;
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

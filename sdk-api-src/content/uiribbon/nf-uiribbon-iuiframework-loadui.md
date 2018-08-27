@@ -110,13 +110,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 The following example demonstrates a basic framework initialization function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//
+
+```cpp
+//
 //  FUNCTION:    InitializeFramework(HWND)
 //
 //  PURPOSE:    Initialize the Ribbon framework and bind a Ribbon to the application.
@@ -140,7 +136,7 @@ bool InitializeFramework(HWND hWnd)
         CLSID_UIRibbonFramework, 
         NULL, 
         CLSCTX_INPROC_SERVER, 
-        IID_PPV_ARGS(&amp;g_pFramework));
+        IID_PPV_ARGS(&g_pFramework));
     if (!SUCCEEDED(hr))
     {
         return false;
@@ -149,15 +145,15 @@ bool InitializeFramework(HWND hWnd)
     // Create the application object (IUIApplication) and call the 
     // framework Initialize method, passing the application object and the 
     // host HWND that the Ribbon will attach itself to.
-    CComObject&lt;CApplication&gt; *pApplication = NULL;
-    CComObject&lt;CApplication&gt;::CreateInstance(&amp;pApplication);
-    hr = pApplication-&gt;QueryInterface(&amp;g_pApplication);
+    CComObject<CApplication> *pApplication = NULL;
+    CComObject<CApplication>::CreateInstance(&pApplication);
+    hr = pApplication->QueryInterface(&g_pApplication);
     if (!SUCCEEDED(hr))
     {
         return false;
     } 
 
-    hr = g_pFramework-&gt;Initialize(hWnd, g_pApplication);
+    hr = g_pFramework->Initialize(hWnd, g_pApplication);
     if (!SUCCEEDED(hr))
     {
         return false;
@@ -167,17 +163,17 @@ bool InitializeFramework(HWND hWnd)
     // Initiate callbacks to the IUIApplication object that was 
     // provided to the framework earlier and bind command handler(s) 
     // to individual commands.
-    hr = g_pFramework-&gt;LoadUI(GetModuleHandle(NULL), L"APPLICATION_RIBBON");
+    hr = g_pFramework->LoadUI(GetModuleHandle(NULL), L"APPLICATION_RIBBON");
     if (!SUCCEEDED(hr))
     {
         return false;
     }
     return true;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 <div class="code"></div>
 
 

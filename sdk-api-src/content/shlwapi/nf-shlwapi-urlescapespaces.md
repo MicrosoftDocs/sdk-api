@@ -89,21 +89,17 @@ The number of characters in <i>pszEscaped</i>.
 
 				
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 UrlCanonicalize(pszUrl, 
                 pszEscaped, 
                 pcchEscaped, 
                 URL_ESCAPE_SPACES_ONLY | URL_DONT_ESCAPE_EXTRA_INFO )
-				</pre>
-</td>
-</tr>
-</table></span></div>
+				
+```
+
+
 
 
 

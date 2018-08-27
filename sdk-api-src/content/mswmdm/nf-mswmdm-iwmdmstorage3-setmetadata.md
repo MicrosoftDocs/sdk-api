@@ -98,27 +98,23 @@ To set properties for a Windows Portable Devices (WPD) device, an application wo
 
 The following C++ code adds a subtitle as metadata to a storage (pStorage3) using the <b>IWMDMMetaData</b> interface retrieved from the storage previously (not shown).
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 // Set metadata values on a storage.
 WCHAR* station = L"Mysubtitle";
 UINT numBytes = (wcslen(station) + 1) * sizeof(WCHAR); // WCHAR string is 2 * length of characters long
                                                        // plus the terminating null character.
-hr = pMetadata-&gt;AddItem(WMDM_TYPE_STRING, g_wszWMDMMediaStationName, (BYTE*)station, numBytes) ;
+hr = pMetadata->AddItem(WMDM_TYPE_STRING, g_wszWMDMMediaStationName, (BYTE*)station, numBytes) ;
 BREAK_HR(hr, "Added a metadata value to the interface in TestUpdateMetadata.", "Couldn't add a metadata value to the interface in TestUpdateMetadata.");
 
 // Add the metadata to the storage.
-hr = pStorage3-&gt;SetMetadata(pMetadata);
-BREAK_HR(hr, "Set metadata on the storage in TestUpdateMetadata.", "Couldn't set metadata on the storage in TestUpdateMetadata: " &lt;&lt; hex &lt;&lt; hr &lt;&lt; dec);
-</pre>
-</td>
-</tr>
-</table></span></div>
+hr = pStorage3->SetMetadata(pMetadata);
+BREAK_HR(hr, "Set metadata on the storage in TestUpdateMetadata.", "Couldn't set metadata on the storage in TestUpdateMetadata: " << hex << hr << dec);
+
+```
+
+
 
 
 

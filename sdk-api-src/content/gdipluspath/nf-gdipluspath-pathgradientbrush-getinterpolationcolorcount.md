@@ -98,13 +98,9 @@ The following example creates a
 						<b>PathGradientBrush</b>object to obtain the number of preset colors currently set for the brush. Next, the code allocates two buffers: one to hold the array of preset colors, and one to hold the array of blend positions. The call to the <a href="https://msdn.microsoft.com/en-us/library/ms535069(v=VS.85).aspx">PathGradientBrush::GetInterpolationColors</a> method of the 
 						<b>PathGradientBrush</b>object fills the buffers with the preset colors and the blend positions. Finally the code fills a small square with each of the preset colors.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_GetInterpColors(HDC hdc)
+
+```cpp
+VOID Example_GetInterpColors(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -135,18 +131,18 @@ The following example creates a
    // Fill a small square with each of the interpolation colors.
    SolidBrush solidBrush(Color(255, 255, 255, 255));
 
-   for(INT j = 0; j &lt; colorCount; ++j)
+   for(INT j = 0; j < colorCount; ++j)
    {
       solidBrush.SetColor(colors[j]);
-      graphics.FillRectangle(&amp;solidBrush, 15*j, 0, 10, 10);
+      graphics.FillRectangle(&solidBrush, 15*j, 0, 10, 10);
    }
 
    delete [] colors;
    delete [] positions; 
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

@@ -107,13 +107,9 @@ The
 
 The following example creates a new class;  adds a key property; writes the new class to the repository; and displays the path of the new class object. The script then spawns an instance of the new class; writes it; and displays the path. Note that the script deletes both the class and its instances from the repository by simply deleting the class.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>On Error Resume Next
+
+```vb
+On Error Resume Next
 wbemCimtypeString = 8             ' String datatype
 Set objSWbemService = GetObject("Winmgmts:root\default")
 Set objClass = objSWbemService.Get()
@@ -141,16 +137,16 @@ wscript.echo objInstancePath.Path
 
 ' Remove the new class and instance from the repository
 objClass.Delete_()
-If Err &lt;&gt; 0 Then
-    WScript.Echo Err.Number &amp; "    " &amp; Err.Description 
+If Err <> 0 Then
+    WScript.Echo Err.Number & "    " & Err.Description 
 Else
     WScript.Echo "Delete succeeded"
 End If
 
 ' Release SwbemServices object
-Set objSWbemService = Nothing</pre>
-</td>
-</tr>
-</table></span></div>
+Set objSWbemService = Nothing
+```
+
+
 
 

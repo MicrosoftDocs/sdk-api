@@ -99,22 +99,18 @@ You can use <b>IADsNameTranslate::SetEx</b> to set names for multiple objects. A
 
 The following C/C++ code example uses the <b>IADsNameTranslate::SetEx</b> method to set up an array of objects whose names are to be translated from the RFC 1779 format to the Windows user name format.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IADsNameTranslate *pNto;
+
+```cpp
+IADsNameTranslate *pNto;
 HRESULT hr;
 hr = CoCreateInstance(CLSID_NameTranslate,
                       NULL,
                       CLSCTX_INPROC_SERVER,
                       IID_IADsNameTranslate,
-                      (void**)&amp;pNto);
+                      (void**)&pNto);
 if(FAILED(hr)) { exit 1;}
  
-hr = pNto-&gt;Init(ADS_NAME_INITTYPE_SERVER,
+hr = pNto->Init(ADS_NAME_INITTYPE_SERVER,
                   CComBSTR("myServer"));
 if (FAILED(hr)) { exit 1;}
  
@@ -123,63 +119,55 @@ LPWSTR str[1] = { L"CN=jim,CN=Users,DC=myDomain,DC=Fabrikam,DC=COM",
 DWORD dwNum = sizeof(str)/sizeof(LPWSTR);
  
 VARIANT varStr;
-VariantInit(&amp;varStr);
+VariantInit(&varStr);
  
-hr = ADsBuildVarArrayStr(str,dwNum,&amp;varStr);
+hr = ADsBuildVarArrayStr(str,dwNum,&varStr);
  
-hr =pNto-&gt;SetEx(ADS_NAME_TYPE_1779, varStr);
+hr =pNto->SetEx(ADS_NAME_TYPE_1779, varStr);
 if(FAILED(hr)) {exit 1;}
-VariantClear(&amp;varStr);
+VariantClear(&varStr);
  
-hr = pNto-&gt;GetEx(ADS_NAME_TYPE_GUID, &amp;varStr);
+hr = pNto->GetEx(ADS_NAME_TYPE_GUID, &varStr);
 if(FAILED(hr)) {exit 1;}
  
 LONG lstart, lend;
-SAFEARRAY *sa = V_ARRAY(&amp;varStr);
+SAFEARRAY *sa = V_ARRAY(&varStr);
 VARIANT varItem;
-VariantInit(&amp;varItem);
+VariantInit(&varItem);
 printf("Names in the translated format:\n");
-for (long idx = lstart; idx &lt;= lend; idx++) 
+for (long idx = lstart; idx <= lend; idx++) 
 {
-    hr = SafeArrayGetElement(sa, &amp;idx, &amp;varItem);
-    printf("   %S\n", V_BSTR(&amp;varItem));
-    VariantClear(&amp;varItem);
+    hr = SafeArrayGetElement(sa, &idx, &varItem);
+    printf("   %S\n", V_BSTR(&varItem));
+    VariantClear(&varItem);
 }
-VariantClear(&amp;varStr);
-pNto-&gt;Release();</pre>
-</td>
-</tr>
-</table></span></div>
+VariantClear(&varStr);
+pNto->Release();
+```
+
+
 The following Visual Basic code example uses the <b>IADsNameTranslate::SetEx</b> method to set up an array of objects whose names are to be translated from the RFC 1779 format to the s user name format.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim nto As New NameTranslate
+
+```vb
+Dim nto As New NameTranslate
 dso(0)="CN=jeffSmith, CN=users, DC=Fabrikam dc=COM"
 dso(1)="CN=brendaDiaz, CN=users, DC=Fabrikam dc=COM"
 nto.Init  ADS_NAME_INITTYPE_SERVER, "myServer"
 nto.SetEx ADS_NAME_TYPE_1779, dso
 trans = nto.GetEx(ADS_NAME_TYPE_NT4)   
-Msgbox "Translations: " &amp; trans(0) &amp; "," &amp; trans(1)</pre>
-</td>
-</tr>
-</table></span></div>
+Msgbox "Translations: " & trans(0) & "," & trans(1)
+```
+
+
 The following VBScript/ASP code example uses the <b>IADsNameTranslate::SetEx</b> method to set up an array of objects whose names are to be translated from the RFC 1779 format to the s user name format.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;%@ Language=VBScript %&gt;
-&lt;html&gt;
-&lt;body&gt;
-&lt;%
+
+```vb
+<%@ Language=VBScript %>
+<html>
+<body>
+<%
   Dim nto
   const ADS_NAME_INITTYPE_SERVER = 2  ' VBScript cannot read 
   const ADS_NAME_TYPE_1779 = 1        ' enumeration definition
@@ -193,15 +181,15 @@ The following VBScript/ASP code example uses the <b>IADsNameTranslate::SetEx</b>
   nto.SetEx ADS_NAME_TYPE_1779, dn
   result = nto.GetEx(ADS_NAME_TYPE_NT4)
  
-  Response.Write "&lt;p&gt;Name in the translated format: " &amp; result(0) &amp; _
-       ", &amp; result(1)
+  Response.Write "<p>Name in the translated format: " & result(0) & _
+       ", & result(1)
  
-%&gt;
-&lt;/body&gt;
-&lt;/html&gt;</pre>
-</td>
-</tr>
-</table></span></div>
+%>
+</body>
+</html>
+```
+
+
 
 
 

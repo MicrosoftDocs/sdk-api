@@ -144,25 +144,21 @@ We recommend that you use the <b>IID_PPV_ARGS</b> macro, defined in Objbase.h, t
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776503(v=VS.85).aspx">PSGetPropertyDescription</a> to get the property description for the ratings property.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IPropertyDescription *pPropDesc;
 
-HRESULT hr = PSGetPropertyDescription(PKEY_Ratings, IID_PPV_ARGS(&amp;pPropDesc));
+```cpp
+IPropertyDescription *pPropDesc;
+
+HRESULT hr = PSGetPropertyDescription(PKEY_Ratings, IID_PPV_ARGS(&pPropDesc));
 
 if (SUCCEEDED(hr))
 {
     // pPropDesc is now valid.
  
-    pPropDesc-&gt;Release();
-}</pre>
-</td>
-</tr>
-</table></span></div>
+    pPropDesc->Release();
+}
+```
+
+
 
 
 

@@ -145,15 +145,11 @@ A duplicate of the currently enumerated certificate can be made by calling
 
 The following  example lists the certificate contexts in the certificate store. For another example that uses this function, see <a href="https://msdn.microsoft.com/52a0287b-7d2a-483e-8bbc-43621c4b7103">Example C Program: Deleting Certificates from a Certificate Store</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;Wincrypt.h&gt;
+
+```cpp
+#include <windows.h>
+#include <stdio.h>
+#include <Wincrypt.h>
 #pragma comment(lib, "crypt32.lib")
 
 
@@ -201,10 +197,10 @@ if (!CertCloseStore(
     printf("Failed CertCloseStore\n");
     exit(1);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

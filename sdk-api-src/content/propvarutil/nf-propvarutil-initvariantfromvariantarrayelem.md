@@ -129,32 +129,28 @@ You can use <a href="https://msdn.microsoft.com/en-us/library/Bb776584(v=VS.85).
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762344(v=VS.85).aspx">InitVariantFromVariantArrayElem</a> in an iteration statement to access the values in a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// VARIANT var;
+
+```cpp
+// VARIANT var;
 // Assume var is initialized and valid.
 UINT cElem = VariantGetElementCount(var);
-HRESULT hr = &lt;mark type="const"&gt;S_OK&lt;/mark&gt;;
+HRESULT hr = <mark type="const">S_OK</mark>;
 
-for (UINT iElem = 0; SUCCEEDED(hr) &amp;&amp; iElem &lt; cElem; iElem ++)
+for (UINT iElem = 0; SUCCEEDED(hr) && iElem < cElem; iElem ++)
 {
     VARIANT varElem = {0};
 
-    hr = InitVariantFromVariantArrayElem(var, iElem, &amp;varElem);
+    hr = InitVariantFromVariantArrayElem(var, iElem, &varElem);
 
     if (SUCCEEDED(hr))
     {
         // varElem is now valid.
-        VariantClear(&amp;varElem);
+        VariantClear(&varElem);
     }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

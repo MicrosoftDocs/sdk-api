@@ -99,22 +99,18 @@ This interface is available on the following platforms if the Windows Media Form
 
 To copy a single attribute rather than all of the attributes, you can use the following code:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT CopyAttribute(IMFAttributes *pFrom, IMFAttributes *pTo, REFGUID guidKey)
+
+```cpp
+HRESULT CopyAttribute(IMFAttributes *pFrom, IMFAttributes *pTo, REFGUID guidKey)
 {
     PROPVARIANT val;
 
-    HRESULT hr = pFrom-&gt;GetItem(guidKey, &amp;val);
+    HRESULT hr = pFrom->GetItem(guidKey, &val);
 
     if (SUCCEEDED(hr))
     {
-        hr = pTo-&gt;SetItem(guidKey, val);
-        PropVariantClear(&amp;val);
+        hr = pTo->SetItem(guidKey, val);
+        PropVariantClear(&val);
     }
     else if (hr == MF_E_ATTRIBUTENOTFOUND)
     {
@@ -122,10 +118,10 @@ To copy a single attribute rather than all of the attributes, you can use the fo
     }
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

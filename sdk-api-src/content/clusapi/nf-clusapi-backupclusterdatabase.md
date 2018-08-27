@@ -185,13 +185,9 @@ The following example illustrates a static backup routine. For a more complete e
      This example uses the <a href="https://msdn.microsoft.com/en-us/library/Aa367743(v=VS.85).aspx">ClusDocEx.h</a> header file defined in the 
      Failover Cluster documentation.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 int main( void )
  {
   HCLUSTER hCluster     = NULL;
@@ -220,10 +216,10 @@ int main( void )
     return 1;
    }
  }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

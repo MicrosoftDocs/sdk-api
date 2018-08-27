@@ -94,13 +94,9 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 The following example creates a media type object for a standard video format. 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Creates a media type for a standard video format.
+
+```cpp
+// Creates a media type for a standard video format.
 HRESULT CreateStandardVideoMediaType(MFStandardVideoFormat type, IMFMediaType **ppMediaType)
 {
     IMFMediaType *pMediaType = NULL;
@@ -108,21 +104,21 @@ HRESULT CreateStandardVideoMediaType(MFStandardVideoFormat type, IMFMediaType **
     MFVIDEOFORMAT format;
 
     // Fill in the MFVIDEOFORMAT structure for the video format.
-    HRESULT hr = MFInitVideoFormat(&amp;format, type);
+    HRESULT hr = MFInitVideoFormat(&format, type);
     if (FAILED(hr))
     {
         goto done;
     }
 
     // Create a new (empty) media type.
-    hr = MFCreateMediaType(&amp;pMediaType);
+    hr = MFCreateMediaType(&pMediaType);
     if (FAILED(hr))
     {
         goto done;
     }
 
     // Initialize the media type from the MFVIDEOFORMAT structure.
-    hr = MFInitMediaTypeFromMFVideoFormat(pMediaType, &amp;format, sizeof(format));
+    hr = MFInitMediaTypeFromMFVideoFormat(pMediaType, &format, sizeof(format));
     if (FAILED(hr))
     {
         goto done;
@@ -130,16 +126,16 @@ HRESULT CreateStandardVideoMediaType(MFStandardVideoFormat type, IMFMediaType **
 
     // Return the pointer to the caller.
     *ppMediaType = pMediaType;
-    (*ppMediaType)-&gt;AddRef();
+    (*ppMediaType)->AddRef();
 
 done:
-    SafeRelease(&amp;pMediaType);
+    SafeRelease(&pMediaType);
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -98,26 +98,22 @@ Tuning spaces are identified by ID number. The ID number is unique within the co
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-CComPtr &lt;ITuningSpaceContainer&gt;  pTuningSpaceContainer;
+
+```cpp
+
+CComPtr <ITuningSpaceContainer>  pTuningSpaceContainer;
 // Create the SystemTuningSpaces object (not shown).
 
 long cCount = 0;
 long ID = 1; // zero is not a valid ID.
-hr = pTuningSpaceContainer-&gt;get_Count(&amp;cCount);
+hr = pTuningSpaceContainer->get_Count(&cCount);
 if (SUCCEEDED(hr))
 {
     while (cCount)
     {
-        CComPtr&lt;ITuningSpace&gt; pTuningSpace;
+        CComPtr<ITuningSpace> pTuningSpace;
         CComVariant varIndex(ID);
-        hr = pITuningSpaceContainer-&gt;get_Item(varIndex, &amp;pTuningSpace);
+        hr = pITuningSpaceContainer->get_Item(varIndex, &pTuningSpace);
         if (SUCCEEDED(hr))
         {
              // pTuningSpace now points to the tuning space with this ID.
@@ -127,10 +123,10 @@ if (SUCCEEDED(hr))
     }
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

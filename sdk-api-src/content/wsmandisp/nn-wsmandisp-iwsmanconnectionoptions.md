@@ -71,13 +71,9 @@ The <b>WSManFlagCredUserNamePassword</b> flag should be set on the <a href="http
 
 The following VBScript code example shows how to create a <b>ConnectionOptions</b> object, set the properties for the account on the remote computer, and use it in creating a <a href="https://msdn.microsoft.com/b98ca759-71cb-492e-8645-8766b202eb36">Session</a> object.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Set objWsman = CreateObject( "Wsman.Automation" )
+
+```vb
+Set objWsman = CreateObject( "Wsman.Automation" )
 'Create ConnectionOptions object.
 Set objConnectionOptions = objWsman.CreateConnectionOptions
 objConnectionOptions.UserName = "johns "
@@ -86,10 +82,10 @@ iFlags = objWsman.SessionFlagUseBasic Or _
   objWsman.SessionFlagCredUserNamePassword
 Set objSession = objWsman.CreateSession _
   ("https://172.30.168.2", iFlags, objConnectionOptions)
-strResource = objSession.Get("winrm/config")</pre>
-</td>
-</tr>
-</table></span></div>
+strResource = objSession.Get("winrm/config")
+```
+
+
 
 
 

@@ -217,13 +217,9 @@ The <b>SCardListReaders</b> function is a database query function. For more info
 
 The following example  shows listing the readers.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>LPTSTR          pmszReaders = NULL;
+
+```cpp
+LPTSTR          pmszReaders = NULL;
 LPTSTR          pReader;
 LONG            lReturn, lReturn2;
 DWORD           cch = SCARD_AUTOALLOCATE;
@@ -232,8 +228,8 @@ DWORD           cch = SCARD_AUTOALLOCATE;
 // hSC was set by a previous call to SCardEstablishContext.
 lReturn = SCardListReaders(hSC,
                            NULL,
-                           (LPTSTR)&amp;pmszReaders,
-                           &amp;cch );
+                           (LPTSTR)&pmszReaders,
+                           &cch );
 switch( lReturn )
 {
     case SCARD_E_NO_READERS_AVAILABLE:
@@ -267,10 +263,10 @@ default:
         // ...
         break;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

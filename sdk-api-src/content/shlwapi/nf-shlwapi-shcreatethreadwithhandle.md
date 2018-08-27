@@ -119,19 +119,15 @@ The function pointed to by <i>pfnThreadProc</i> and <i>pfnCallback</i> must take
 
                 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DWORD WINAPI ThreadProc(LPVOID pData)
+
+```
+DWORD WINAPI ThreadProc(LPVOID pData)
 {
     ...
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 The function name is arbitrary. The <i>pData</i> parameter points to an application-defined data structure with initialization information.
 
 
@@ -139,13 +135,9 @@ The function name is arbitrary. The <i>pData</i> parameter points to an applicat
 
 The following code example provides a function pointer prototype typedef for calling <b>SHCreateThreadWithHandle</b> by ordinal and shows how to accomplish such a call.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Define SHCREATETHREADWITHHANDLE as a function pointer to SHCreateThreadWithHandle.
+
+```cpp
+// Define SHCREATETHREADWITHHANDLE as a function pointer to SHCreateThreadWithHandle.
 typedef BOOL (STDMETHODCALLTYPE *SHCREATETHREADWITHHANDLE)(LPTHREAD_START_ROUTINE, 
                                                            void *, 
                                                            DWORD, 
@@ -197,10 +189,10 @@ BOOL CallSHCreateThreadWithHandle(LPTHREAD_START_ROUTINE pfnThreadProc,
                        ? S_OK : HRESULT_FROM_WIN32(GetLastError());
     }
     return SUCCEEDED(hr);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

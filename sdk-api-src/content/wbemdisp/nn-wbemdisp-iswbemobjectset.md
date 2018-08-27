@@ -173,21 +173,17 @@ An <b>SWbemObjectSet</b> is a collection of zero or more <a href="https://msdn.m
 </ul>
 The most common use of this class in WMI is as the return value for an <a href="https://msdn.microsoft.com/94d5c8ee-2d61-42af-9a22-cc0df423b245">ExecQuery</a> or <a href="https://msdn.microsoft.com/6465a981-f98e-4ece-a9b6-9da8ae618bc6">InstancesOf</a> call, as described in the following code sample:
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>strComputer = "."
-Set objSWbemServices = GetObject("winmgmts:\\" &amp; strComputer &amp; "\root\cimv2")
+
+```vb
+strComputer = "."
+Set objSWbemServices = GetObject("winmgmts:\\" & strComputer & "\root\cimv2")
 Set colServices = objSWbemServices.ExecQuery("SELECT State FROM Win32_Service")
 For Each objService In colServices
     Wscript.Echo objService.Name, objService.State
-Next</pre>
-</td>
-</tr>
-</table></span></div>
+Next
+```
+
+
 For the most part, the only thing you will ever do with an <b>SWbemObjectSet</b> is enumerate all the objects contained within the collection itself. However, <b>SWbemObjectSet</b> does include a property Count that can be useful in system administration scripting. As the name implies, Count tells you the number of items in the collection. For example, this script retrieves a collection of all the services installed on a computer and then echoes the total number of services found:
 
 For more information on how to use this class, see <a href="https://msdn.microsoft.com/fe7e3259-9a7c-4f73-af30-192bbbace1b3">Enumerating WMI</a>.
@@ -197,13 +193,9 @@ For more information on how to use this class, see <a href="https://msdn.microso
 
 The following VBScript code sample illustrates how <b>SWbemObjectSet</b> collections are manipulated.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>On Error Resume Next
+
+```vb
+On Error Resume Next
 
 Set Disks = GetObject("winmgmts:").InstancesOf ("CIM_LogicalDisk")
 
@@ -212,49 +204,45 @@ WScript.Echo "There are", Disks.Count, " Disks"
 Set Disk = Disks("Win32_LogicalDisk.DeviceID=""C:""")
 WScript.Echo Disk.Path_.Path
 
-if Err &lt;&gt; 0 Then
+if Err <> 0 Then
  WScript.Echo Err.Description
  Err.Clear
-End if</pre>
-</td>
-</tr>
-</table></span></div>
+End if
+```
+
+
 The following Perl code sample illustrates how <b>SWbemObjectSet</b> collections are manipulated.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>use strict;
+
+```
+use strict;
 use Win32::OLE;
 
 my ($disks,$disk);
 
-eval { $disks = Win32::OLE-&gt;GetObject("winmgmts:{impersonationLevel=impersonate}!\\\\.\\root\\cimv2")-&gt;
+eval { $disks = Win32::OLE->GetObject("winmgmts:{impersonationLevel=impersonate}!\\\\.\\root\\cimv2")->
    InstancesOf("CIM_LogicalDisk"); };
 unless($@)
 {
- print "\nThere are ", $disks-&gt;{Count}, " Disks \n";
+ print "\nThere are ", $disks->{Count}, " Disks \n";
 
- eval { $disk = $disks-&gt;Item("Win32_LogicalDisk.DeviceID=\"C:\""); };
+ eval { $disk = $disks->Item("Win32_LogicalDisk.DeviceID=\"C:\""); };
  unless($@)
  {
-  print $disk-&gt;{Path_}-&gt;{Path}, "\n";
+  print $disk->{Path_}->{Path}, "\n";
  }
  else
  {
-  print STDERR Win32::OLE-&gt;LastError, "\n";
+  print STDERR Win32::OLE->LastError, "\n";
  }
 }
 else
 {
- print STDERR Win32::OLE-&gt;LastError, "\n";
-}</pre>
-</td>
-</tr>
-</table></span></div>
+ print STDERR Win32::OLE->LastError, "\n";
+}
+```
+
+
 
 
 

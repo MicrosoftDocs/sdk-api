@@ -108,18 +108,14 @@ For a more complex example, suppose that a compound array contains the values 0.
 The following example gets the compound array for a 
 						<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object. Assuming that a compound array has been set for this <b>Pen</b>object, the code then gets the entries that have been set for this pen.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>INT count = pen.GetCompoundCount();
+
+```cpp
+INT count = pen.GetCompoundCount();
 REAL * distances = new REAL[count];
-Status stat = pen.GetCompoundArray(distances, count);</pre>
-</td>
-</tr>
-</table></span></div>
+Status stat = pen.GetCompoundArray(distances, count);
+```
+
+
 
 
 

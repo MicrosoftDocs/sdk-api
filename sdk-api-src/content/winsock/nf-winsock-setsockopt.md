@@ -449,13 +449,9 @@ BSD options not supported for
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following example demonstrates the <b>setsockopt</b> function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef UNICODE
+
+```cpp
+#ifndef UNICODE
 #define UNICODE
 #endif
 
@@ -463,9 +459,9 @@ The following example demonstrates the <b>setsockopt</b> function.
 #define WIN32_LEAN_AND_MEAN
 #endif
 
-#include &lt;winsock2.h&gt;
-#include &lt;Ws2tcpip.h&gt;
-#include &lt;stdio.h&gt;
+#include <winsock2.h>
+#include <Ws2tcpip.h>
+#include <stdio.h>
 
 // Link with ws2_32.lib
 #pragma comment(lib, "Ws2_32.lib")
@@ -490,7 +486,7 @@ int main()
 
     //---------------------------------------
     // Initialize Winsock
-    iResult = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
+    iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
     if (iResult != NO_ERROR) {
         wprintf(L"Error at WSAStartup()\n");
         return 1;
@@ -511,13 +507,13 @@ int main()
     u_short port;
     port = 27015;
     thisHost = gethostbyname("");
-    ip = inet_ntoa(*(struct in_addr *) *thisHost-&gt;h_addr_list);
+    ip = inet_ntoa(*(struct in_addr *) *thisHost->h_addr_list);
 
     service.sin_family = AF_INET;
     service.sin_addr.s_addr = inet_addr(ip);
     service.sin_port = htons(port);
 
-    iResult = bind(ListenSocket, (SOCKADDR *) &amp; service, sizeof (service));
+    iResult = bind(ListenSocket, (SOCKADDR *) & service, sizeof (service));
     if (iResult == SOCKET_ERROR) {
         wprintf(L"bind failed with error %u\n", WSAGetLastError());
         closesocket(ListenSocket);
@@ -539,19 +535,19 @@ int main()
 
     bOptVal = TRUE;
 
-    iResult = getsockopt(ListenSocket, SOL_SOCKET, SO_KEEPALIVE, (char *) &amp;iOptVal, &amp;iOptLen);
+    iResult = getsockopt(ListenSocket, SOL_SOCKET, SO_KEEPALIVE, (char *) &iOptVal, &iOptLen);
     if (iResult == SOCKET_ERROR) {
         wprintf(L"getsockopt for SO_KEEPALIVE failed with error: %u\n", WSAGetLastError());
     } else
         wprintf(L"SO_KEEPALIVE Value: %ld\n", iOptVal);
 
-    iResult = setsockopt(ListenSocket, SOL_SOCKET, SO_KEEPALIVE, (char *) &amp;bOptVal, bOptLen);
+    iResult = setsockopt(ListenSocket, SOL_SOCKET, SO_KEEPALIVE, (char *) &bOptVal, bOptLen);
     if (iResult == SOCKET_ERROR) {
         wprintf(L"setsockopt for SO_KEEPALIVE failed with error: %u\n", WSAGetLastError());
     } else
         wprintf(L"Set SO_KEEPALIVE: ON\n");
 
-    iResult = getsockopt(ListenSocket, SOL_SOCKET, SO_KEEPALIVE, (char *) &amp;iOptVal, &amp;iOptLen);
+    iResult = getsockopt(ListenSocket, SOL_SOCKET, SO_KEEPALIVE, (char *) &iOptVal, &iOptLen);
     if (iResult == SOCKET_ERROR) {
         wprintf(L"getsockopt for SO_KEEPALIVE failed with error: %u\n", WSAGetLastError());
     } else
@@ -562,10 +558,10 @@ int main()
     return 0;
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 <h3><a id="Notes_for_IrDA_Sockets"></a><a id="notes_for_irda_sockets"></a><a id="NOTES_FOR_IRDA_SOCKETS"></a>Notes for IrDA Sockets</h3>
 
 When developing applications using Windows sockets for IrDA, note the following:
@@ -596,14 +592,10 @@ IrDA provides an IAS database that stores IrDA-based information. Limited access
 
 The following structure, <b>IAS_SET</b>, is used with the IRLMP_IAS_SET setsockopt option to manage the local IAS database:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-// #include &lt;Af_irda.h&gt; for this struct
+
+```cpp
+
+// #include <Af_irda.h> for this struct
 
 typedef struct _IAS_SET {
     u_char      irdaClassName[IAS_MAX_CLASSNAME];
@@ -625,20 +617,16 @@ typedef struct _IAS_SET {
               } irdaAttribUsrStr;
     } irdaAttribute;
 } IAS_SET, *PIAS_SET, FAR *LPIASSET;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The following structure, <b>IAS_QUERY</b>, is used with the IRLMP_IAS_QUERY setsockopt option to query a peer's IAS database:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-// #include &lt;Af_irda.h&gt; for this struct
+
+```cpp
+
+// #include <Af_irda.h> for this struct
 
 typedef struct _WINDOWS_IAS_QUERY {
         u_char   irdaDeviceID[4];
@@ -661,10 +649,10 @@ typedef struct _WINDOWS_IAS_QUERY {
                   } irdaAttribUsrStr;
         } irdaAttribute;
 } IAS_QUERY, *PIAS_QUERY, FAR *LPIASQUERY;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Many SO_ level socket options are not meaningful to IrDA. Only SO_LINGER is specifically supported.
 
 <b>Windows Phone 8:</b> This function is supported for Windows Phone Store apps on Windows Phone 8 and later.

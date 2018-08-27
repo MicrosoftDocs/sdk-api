@@ -118,34 +118,26 @@ This interface also provides the methods of the <a href="https://msdn.microsoft.
 To pass the information expressed in this interface to a data source <a href="https://msdn.microsoft.com/099e71b0-04f2-4f82-aa00-7581bd357900">IShellFolder::ParseDisplayName</a>, an <a href="https://msdn.microsoft.com/e4c8abb5-0c89-44dd-8d95-efbfcc999b46">IBindCtx</a> object is created (use <a href="https://msdn.microsoft.com/0f0ded09-7a7c-40bb-8198-b9f5058827d4">CreateBindCtx</a>) and populated with an object that implements <a href="https://msdn.microsoft.com/f5099bb3-21a7-4708-ac48-d32a14646614">IFileSystemBindData</a> by calling the following:
   
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IBindCtx::RegisterObjectParam(STR_FILE_SYS_BIND_DATA, pfsbd)
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+IBindCtx::RegisterObjectParam(STR_FILE_SYS_BIND_DATA, pfsbd)
+
+```
+
+
  Where <i>pfsbd</i> is the object that implements <b>IFileSystemBindData</b>.
 
 Implementers of <a href="https://msdn.microsoft.com/099e71b0-04f2-4f82-aa00-7581bd357900">IShellFolder::ParseDisplayName</a> first make the following call.
               
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IUnknown *punk;
-pbc-&gt;GetObjectParam(STR_FILE_SYS_BIND_DATA, &amp;punk);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+IUnknown *punk;
+pbc->GetObjectParam(STR_FILE_SYS_BIND_DATA, &punk);
+
+```
+
+
  Next the implementer calls one of the <b>Get</b> methods listed above to retrieve the parameters.
             
 

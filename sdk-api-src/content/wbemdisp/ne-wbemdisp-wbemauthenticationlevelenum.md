@@ -63,47 +63,39 @@ Script languages must use one of the following:
 <li>
 The short name. For example, for <b>WbemAuthenticationLevelPktPrivacy</b> use "PktPrivacy".
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```vb
+
 strComputer = "RemoteComputer"
 Set objWMIServices = GetObject("WINMGMTS:" _
-    &amp; "{authenticationLevel=pktPrivacy}!\\" _
-    &amp; strComputer &amp; "\ROOT\CIMV2")</pre>
-</td>
-</tr>
-</table></span></div>
+    & "{authenticationLevel=pktPrivacy}!\\" _
+    & strComputer & "\ROOT\CIMV2")
+```
+
+
 </li>
 <li>
 Windows Script Host (WSH) XML file format in the script. For example, this means that the script can use the  <b>WbemAuthenticationLevelPkt</b> constant directly.
 
 The following WSH script sets the authentication level. To run the script, save the text in a file with a .wsf extension.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;?xml version="1.0" encoding="US-ASCII"?&gt;
-&lt;job&gt;
-&lt;reference object="WbemScripting.SWbemLocator"/&gt;
-&lt;script language="VBScript"&gt;
+
+```vb
+<?xml version="1.0" encoding="US-ASCII"?>
+<job>
+<reference object="WbemScripting.SWbemLocator"/>
+<script language="VBScript">
     set service = GetObject("winmgmts:")
     ' Following line uses a symbolic 
     ' constant from the WMI type library
     service.Security_.authenticationLevel = _
         WbemAuthenticationLevelPktPrivacy
-&lt;/script&gt;
-&lt;/job&gt;
-</pre>
-</td>
-</tr>
-</table></span></div>For more information, see 
+</script>
+</job>
+
+```
+
+For more information, see 
 <a href="https://msdn.microsoft.com/6ef4e210-0733-4f2a-89c1-1a7aca5a19d9">Using the WMI Scripting Type Library</a>.</li>
 </ul>
 

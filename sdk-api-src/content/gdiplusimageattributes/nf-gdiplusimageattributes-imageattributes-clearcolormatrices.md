@@ -107,13 +107,9 @@ The following example creates an <a href="https://msdn.microsoft.com/en-us/libra
 
 The code calls <a href="https://msdn.microsoft.com/en-us/library/ms536037(v=VS.85).aspx">DrawImage</a> once to draw the image with no color adjustment. Then the code calls <b>DrawImage</b> three more times, each time passing the address of the <a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object and the address of the <a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a> object. The second time the image is drawn (after the call that sets the default matrices), all the colors have their red components increased by 50 percent, and all the grays have their green components increased by 50 percent. The third time the image is drawn (after the call that sets the pen matrices), all the colors drawn by a pen have their blue components increased by 50 percent, and all the grays drawn by a pen have their red, green, and blue components increased by 50 percent. The fourth time the image is drawn (after the call to <b>ImageAttributes::ClearColorMatrices</b>), no adjustments are applied to colors and grays drawn by a pen.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 VOID Example_SetClearColorMatrices(HDC hdc)
 {
    Graphics graphics(hdc);
@@ -123,7 +119,7 @@ VOID Example_SetClearColorMatrices(HDC hdc)
    RectF            rect;
    Unit             unit;
 
-   image.GetBounds(&amp;rect, &amp;unit);
+   image.GetBounds(&rect, &unit);
 
    ColorMatrix defaultColorMatrix = {  // Multiply red component by 1.5.
       1.5f,  0.0f,  0.0f,  0.0f,  0.0f,
@@ -155,53 +151,53 @@ VOID Example_SetClearColorMatrices(HDC hdc)
 
    // Set the default color- and grayscale-adjustment matrices.
    imAtt.SetColorMatrices(
-      &amp;defaultColorMatrix,
-      &amp;defaultGrayMatrix, 
+      &defaultColorMatrix,
+      &defaultGrayMatrix, 
       ColorMatrixFlagsAltGray,
       ColorAdjustTypeDefault); 
 
-   graphics.DrawImage(&amp;image, 10.0f, 10.0f, rect.Width, rect.Height);
+   graphics.DrawImage(&image, 10.0f, 10.0f, rect.Width, rect.Height);
 
    graphics.DrawImage(
-      &amp;image, 
+      &image, 
       RectF(10.0f, 50.0f, rect.Width, rect.Height),  // destination rectangle 
       rect.X, rect.Y,                // upper-left corner of source rectangle 
       rect.Width,                    // width of source rectangle
       rect.Height,                   // height of source rectangle
       UnitPixel,
-      &amp;imAtt);
+      &imAtt);
 
    // Set the pen color- and grayscale-adjustment matrices.
    imAtt.SetColorMatrices(
-      &amp;penColorMatrix,
-      &amp;penGrayMatrix, 
+      &penColorMatrix,
+      &penGrayMatrix, 
       ColorMatrixFlagsAltGray,
       ColorAdjustTypePen); 
 
    graphics.DrawImage(
-      &amp;image, 
+      &image, 
       RectF(10.0f, 90.0f, rect.Width, rect.Height),  // destination rectangle 
       rect.X, rect.Y,                // upper-left corner of source rectangle 
       rect.Width,                    // width of source rectangle
       rect.Height,                   // height of source rectangle
       UnitPixel,
-      &amp;imAtt);
+      &imAtt);
 
    imAtt.ClearColorMatrices(ColorAdjustTypePen);
 
    graphics.DrawImage(
-      &amp;image, 
+      &image, 
       RectF(10.0f, 130.0f, rect.Width, rect.Height),  // destination rectangle 
       rect.X, rect.Y,                // upper-left corner of source rectangle 
       rect.Width,                    // width of source rectangle
       rect.Height,                   // height of source rectangle
       UnitPixel,
-      &amp;imAtt); 
+      &imAtt); 
 }
-				</pre>
-</td>
-</tr>
-</table></span></div>
+				
+```
+
+
 The following illustration shows the output of the preceding code.
 
 <img alt="Illustration showing four rows of four ellipses each; the ones drawn with a pen vary in color more than the filled ones" src="./images/imageattributesclearcolormatrices.png"/>

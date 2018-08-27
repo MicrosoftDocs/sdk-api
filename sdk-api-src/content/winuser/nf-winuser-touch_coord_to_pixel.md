@@ -77,27 +77,23 @@ The <b>TOUCH_COORD_TO_PIXEL</b> macro is used to convert from touch coordinates 
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>case WM_TOUCH:        
+
+```cpp
+case WM_TOUCH:        
   cInputs = LOWORD(wParam);
   pInputs = new TOUCHINPUT[cInputs];
   if (pInputs){
     if (GetTouchInputInfo((HTOUCHINPUT)lParam, cInputs, pInputs, sizeof(TOUCHINPUT))){
-      for (int i=0; i &lt; static_cast&lt;INT&gt;(cInputs); i++){
+      for (int i=0; i < static_cast<INT>(cInputs); i++){
         TOUCHINPUT ti = pInputs[i];
         index = GetContactIndex(ti.dwID);
-        if (ti.dwID != 0 &amp;&amp; index &lt; MAXPOINTS){                            
+        if (ti.dwID != 0 && index < MAXPOINTS){                            
           // Do something with your touch input handle
           ptInput.x = TOUCH_COORD_TO_PIXEL(ti.x);
           ptInput.y = TOUCH_COORD_TO_PIXEL(ti.y);
-          ScreenToClient(hWnd, &amp;ptInput);
+          ScreenToClient(hWnd, &ptInput);
           
-          if (ti.dwFlags &amp; TOUCHEVENTF_UP){                      
+          if (ti.dwFlags & TOUCHEVENTF_UP){                      
             points[index][0] = -1;
             points[index][1] = -1;                
           }else{
@@ -113,10 +109,10 @@ The <b>TOUCH_COORD_TO_PIXEL</b> macro is used to convert from touch coordinates 
   }else{
     // Handle the error here 
   }  
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -517,40 +517,32 @@ Many Uniscribe scripts do not correspond directly to 8-bit character sets. When 
 
 The application uses the following code during initialization to get a pointer to the <b>SCRIPT_PROPERTIES</b>  array.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>const SCRIPT_PROPERTIES **ppScriptProperties; // Array of pointers  
+
+```cpp
+const SCRIPT_PROPERTIES **ppScriptProperties; // Array of pointers  
                                               // to properties 
 int iMaxScript;
 HRESULT hr;
 
-hr = ScriptGetProperties(&amp;ppScriptProperties, &amp;iMaxScript);
-</pre>
-</td>
-</tr>
-</table></span></div>
+hr = ScriptGetProperties(&ppScriptProperties, &iMaxScript);
+
+```
+
+
 Then the application can inspect the properties of the script of an item as shown in the next example.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>hr = ScriptItemize(pwcInChars, cInChars, cMaxItems, psControl, psState, pItems, pcItems);
+
+```cpp
+hr = ScriptItemize(pwcInChars, cInChars, cMaxItems, psControl, psState, pItems, pcItems);
 //...
-if (ppScriptProperties[pItems[iItem].a.eScript]-&gt;fNeedsCaretInfo) 
+if (ppScriptProperties[pItems[iItem].a.eScript]->fNeedsCaretInfo) 
     {
         // Use ScriptBreak to restrict the caret from entering clusters (for example). 
     }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

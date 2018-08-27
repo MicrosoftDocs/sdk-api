@@ -89,18 +89,14 @@ The
 
 #### Examples
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>objExt.EnableAllExtensions (0)
+
+```vb
+objExt.EnableAllExtensions (0)
 ' This extension's extensions can now be enabled or disabled.
-' ...</pre>
-</td>
-</tr>
-</table></span></div>
+' ...
+```
+
+
 
 
 

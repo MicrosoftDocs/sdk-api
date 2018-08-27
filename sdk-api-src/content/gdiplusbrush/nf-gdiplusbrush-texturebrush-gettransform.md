@@ -98,36 +98,32 @@ A
 
 The following example creates a texture brush and sets the transformation of the brush. The code then gets the brush's transformation matrix and proceeds to inspect or use the elements.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_GetTransform(HDC hdc)
+
+```cpp
+VOID Example_GetTransform(HDC hdc)
 {
    Graphics graphics(hdc);
   
    // Create a texture brush, and set its transform.
    Image image(L"marble.jpg");
-   TextureBrush textureBrush(&amp;image);
+   TextureBrush textureBrush(&image);
    textureBrush.ScaleTransform(3, 2);
 
    // Obtain information about the texture brush.
    Matrix matrix;
    REAL elements[6];
 
-   textureBrush.GetTransform(&amp;matrix);
+   textureBrush.GetTransform(&matrix);
    matrix.GetElements(elements);
 
-   for(INT j = 0; j &lt;=5; ++j)
+   for(INT j = 0; j <=5; ++j)
    {
       // Inspect or use the value in elements[j].
    }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

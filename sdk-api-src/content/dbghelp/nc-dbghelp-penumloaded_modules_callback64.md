@@ -101,13 +101,9 @@ To stop enumeration, the callback function must return <b>FALSE</b>.
 
 This callback function supersedes the <i>PENUMLOADED_MODULES_CALLBACK</i> callback function. <i>PENUMLOADED_MODULES_CALLBACK</i> is defined as follows in DbgHelp.h. 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
+
+```cpp
+#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
 #define PENUMLOADED_MODULES_CALLBACK PENUMLOADED_MODULES_CALLBACK64
 #else
 typedef BOOL (CALLBACK *PENUMLOADED_MODULES_CALLBACK)(
@@ -116,10 +112,10 @@ typedef BOOL (CALLBACK *PENUMLOADED_MODULES_CALLBACK)(
     __in ULONG ModuleSize,
     __in_opt PVOID UserContext
     );
-#endif</pre>
-</td>
-</tr>
-</table></span></div>
+#endif
+```
+
+
 
 
 

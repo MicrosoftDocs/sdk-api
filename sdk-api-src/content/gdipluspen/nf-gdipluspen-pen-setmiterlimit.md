@@ -101,17 +101,13 @@ If the miter length of the join of the intersection exceeds the limit of the joi
 The following example creates a 
 						<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object and sets the miter limit for the pen.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>Pen pen(Color(255,255,0,0), 4.0f);
-Status stat = pen.SetMiterLimit(10.0f);</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+Pen pen(Color(255,255,0,0), 4.0f);
+Status stat = pen.SetMiterLimit(10.0f);
+```
+
+
 
 
 

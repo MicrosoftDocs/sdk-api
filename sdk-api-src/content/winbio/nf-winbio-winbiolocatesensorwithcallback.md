@@ -140,21 +140,17 @@ If the  <i>SessionHandle</i> parameter refers to the system sensor pool, the cal
 
 The callback routine must have the following signature:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 VOID CALLBACK LocateCallback(
 __in_opt PVOID LocateCallbackContext,
 __in HRESULT OperationStatus,
 __in WINBIO_UNIT_ID UnitId
-);</pre>
-</td>
-</tr>
-</table></span></div>
+);
+```
+
+
 
 #### Examples
 
@@ -170,13 +166,9 @@ subsystem is sent to a custom callback function named LocateSensorCallback. Link
 <li>Conio.h</li>
 <li>Winbio.h</li>
 </ul>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT LocateSensorWithCallback(BOOL bCancel)
+
+```cpp
+HRESULT LocateSensorWithCallback(BOOL bCancel)
 {
     HRESULT hr = S_OK;
     WINBIO_SESSION_HANDLE sessionHandle = NULL;
@@ -190,7 +182,7 @@ subsystem is sent to a custom callback function named LocateSensorCallback. Link
             NULL,                       // Array of biometric unit IDs
             0,                          // Count of biometric unit IDs
             NULL,                       // Database ID
-            &amp;sessionHandle              // [out] Session handle
+            &sessionHandle              // [out] Session handle
             );
     if (FAILED(hr))
     {
@@ -283,10 +275,10 @@ VOID CALLBACK LocateSensorCallback(
     }
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

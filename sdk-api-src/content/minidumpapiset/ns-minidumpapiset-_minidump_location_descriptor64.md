@@ -78,20 +78,16 @@ In this context, a data stream refers to a block of data within a minidump file.
 
 This structure uses 32-bit locations for RVAs in the first 4GB and 64-bit locations are used for larger RVAs. The <b>MINIDUMP_LOCATION_DESCRIPTOR64</b> structure is defined as follows.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 typedef struct _MINIDUMP_LOCATION_DESCRIPTOR64 {
   ULONG64 DataSize;
   RVA64 Rva;
-} MINIDUMP_LOCATION_DESCRIPTOR64;</pre>
-</td>
-</tr>
-</table></span></div>
+} MINIDUMP_LOCATION_DESCRIPTOR64;
+```
+
+
 
 
 

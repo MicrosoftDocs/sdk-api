@@ -96,16 +96,12 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// PROPVARIANT propvar;
+
+```cpp
+// PROPVARIANT propvar;
 // Assume the variable propvar is initialized and valid
 LONGLONG llValue; // The application is expecting propvar to hold a VT_I8 value
-HRESULT hr = PropVariantToInt64(propvar, &amp;llValue);
+HRESULT hr = PropVariantToInt64(propvar, &llValue);
 if (SUCCEEDED(hr))
 {
      // llValue is valid
@@ -113,10 +109,10 @@ if (SUCCEEDED(hr))
 else
 {
          // the extraction failed
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

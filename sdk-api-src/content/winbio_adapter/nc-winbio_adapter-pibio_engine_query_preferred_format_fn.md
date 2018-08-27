@@ -114,13 +114,9 @@ The sensor adapter calls this function to determine the biometric capture format
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//////////////////////////////////////////////////////////////////////////////////////////
+
+```cpp
+//////////////////////////////////////////////////////////////////////////////////////////
 //
 // EngineAdapterQueryPreferredFormat
 //
@@ -159,17 +155,17 @@ EngineAdapterQueryPreferredFormat(
    }
 
    // Specify the preferred data formats.
-   StandardFormat-&gt;Owner = WINBIO_ANSI_381_FORMAT_OWNER;
-   StandardFormat-&gt;Type = WINBIO_ANSI_381_FORMAT_TYPE;
+   StandardFormat->Owner = WINBIO_ANSI_381_FORMAT_OWNER;
+   StandardFormat->Type = WINBIO_ANSI_381_FORMAT_TYPE;
    *VendorFormat = VENDOR_UUID_VALUE;
 
 cleanup:
 
     return hr;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

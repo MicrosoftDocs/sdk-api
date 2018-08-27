@@ -160,13 +160,9 @@ Because the <b>lpszClass</b> member can contain a pointer to a local (and thus i
 
                 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct tagMyData 
+
+```
+typedef struct tagMyData 
 {
     // Define creation data here. 
 } MYDATA; 
@@ -177,10 +173,10 @@ typedef struct tagMyDlgData
     MYDATA  myData; 
 } MYDLGDATA, UNALIGNED *PMYDLGDATA; 
  
-PMYDLGDATA pMyDlgdata = (PMYDLGDATA) (((LPCREATESTRUCT) lParam)-&gt;lpCreateParams);</pre>
-</td>
-</tr>
-</table></span></div>
+PMYDLGDATA pMyDlgdata = (PMYDLGDATA) (((LPCREATESTRUCT) lParam)->lpCreateParams);
+```
+
+
 
 
 

@@ -373,15 +373,11 @@ In all cases, the Punycode encoding of the host name is performed on a label-by-
 
 The following example shows initializing and encoding an X509_NAME structure using <b>CryptEncodeObjectEx</b>. For an example that includes the complete context for this example, see <a href="https://msdn.microsoft.com/78108cd5-531e-4d0c-96cf-6f6264b7716c">Example C Program: ASN.1 Encoding and Decoding</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;Wincrypt.h&gt;
+
+```cpp
+#include <windows.h>
+#include <stdio.h>
+#include <Wincrypt.h>
 #pragma comment(lib, "crypt32.lib")
 
 
@@ -415,7 +411,7 @@ CERT_RDN_ATTR rgNameAttr =
 CERT_RDN rgRDN[] = 
 {
    1,               // The number of elements in the array
-   &amp;rgNameAttr      // Pointer to the array
+   &rgNameAttr      // Pointer to the array
 };
 
 //--------------------------------------------------------------------
@@ -442,11 +438,11 @@ BYTE *pbEncoded;              // Variable to hold a pointer to the
 if( CryptEncodeObjectEx(
      MY_TYPE,        // The encoding/decoding type
      X509_NAME,    
-     &amp;CertName,
+     &CertName,
      0,                 
      NULL, 
      NULL,
-     &amp;cbEncoded))    // Fill in the length needed for
+     &cbEncoded))    // Fill in the length needed for
                      // the encoded buffer.
 {
      printf("The number of bytes needed is %d \n",cbEncoded);
@@ -470,11 +466,11 @@ else
 if(CryptEncodeObjectEx(
      MY_TYPE,
      X509_NAME,
-     &amp;CertName,
+     &CertName,
      0,
      NULL, 
      pbEncoded,
-     &amp;cbEncoded))
+     &cbEncoded))
 {
      printf("The structure has been encoded.\n");
 }
@@ -490,10 +486,10 @@ if(pbEncoded)
     free(pbEncoded);
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

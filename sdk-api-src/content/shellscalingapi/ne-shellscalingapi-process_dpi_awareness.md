@@ -128,28 +128,20 @@ Because of DPI virtualization, if one application queries another with a differe
 
 This snippet demonstrates how to set a value of <b>PROCESS_SYSTEM_DPI_AWARE</b> in your application manifest.
 
-<div class="code"><span codelanguage="XML"><table>
-<tr>
-<th>XML</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;dpiAware&gt;true&lt;/dpiAware&gt;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```xml
+<dpiAware>true</dpiAware>
+```
+
+
 This snippet demonstrates how to set a value of <b>PROCESS_PER_MONITOR_DPI_AWARE</b> in your application manifest.
 
-<div class="code"><span codelanguage="XML"><table>
-<tr>
-<th>XML</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;dpiAware&gt;true/PM&lt;/dpiAware&gt;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```xml
+<dpiAware>true/PM</dpiAware>
+```
+
+
 
 
 

@@ -170,19 +170,15 @@ In Windows Vista, the MMDevice API supports <a href="https://msdn.microsoft.com/
 
 This method retrieves the default endpoint device for the specified data-flow direction (rendering or capture) and role. For example, a client can get the default console playback device by making the following call:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-  hr = pDevEnum-&gt;GetDefaultAudioEndpoint(
-                   eRender, eConsole, &amp;pDeviceOut);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+
+  hr = pDevEnum->GetDefaultAudioEndpoint(
+                   eRender, eConsole, &pDeviceOut);
+
+```
+
+
 In the preceding code fragment, variable <i>hr</i> is of type <b>HRESULT</b>, <i>pDevEnum</i> is a pointer to an <b>IMMDeviceEnumerator</b> interface, and <i>pDeviceOut</i> is a pointer to an <b>IMMDevice</b> interface.
 
 A Windows system might contain some combination of audio endpoint devices such as desktop speakers, high-fidelity headphones, desktop microphones, headsets with speaker and microphones, and high-fidelity multichannel speakers. The user can assign appropriate roles to the devices. For example, an application that manages voice communications streams can call <b>GetDefaultAudioEndpoint</b> to identify the designated rendering and capture devices for that role.

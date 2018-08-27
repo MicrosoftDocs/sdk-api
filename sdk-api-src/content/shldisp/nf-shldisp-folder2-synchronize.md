@@ -78,13 +78,9 @@ The following example shows the proper use of <b>Synchronize</b> for JScript, VB
 
 JScript:
 
-<div class="code"><span codelanguage="JScript"><table>
-<tr>
-<th>JScript</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;script language="JScript"&gt;
+
+```javascript
+<script language="JScript">
     function fnSynchronizeJ()
     {
         var objShell   = new ActiveXObject("shell.application");
@@ -96,20 +92,16 @@ JScript:
             objFolder2.Synchronize();
         }
     }
-&lt;/script&gt;
-</pre>
-</td>
-</tr>
-</table></span></div>
+</script>
+
+```
+
+
 VBScript:
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;script language="VBScript"&gt;
+
+```vb
+<script language="VBScript">
     function fnSynchronizeVB()
         dim objShell
         dim objFolder2
@@ -124,20 +116,16 @@ VBScript:
         set objFolder = nothing
         set objShell = nothing
     end function
-&lt;/script&gt;
-</pre>
-</td>
-</tr>
-</table></span></div>
+</script>
+
+```
+
+
 Visual Basic:
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Private Sub fnSynchronizeVB()
+
+```vb
+Private Sub fnSynchronizeVB()
     Dim objShell   As Shell
     Dim objFolder2 As Folder2
     
@@ -151,10 +139,10 @@ Visual Basic:
     Set objFolder2 = Nothing
     Set objShell = Nothing
 End Sub
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -190,15 +190,11 @@ This function  enumerates the providers available on a computer. The provider ty
 
 The following example shows a loop listing all available cryptographic service providers. For another example that uses the  <b>CryptEnumProviders</b> function, see <a href="https://msdn.microsoft.com/10a5210d-7992-4832-9435-67ac2b851a97">Example C Program: Enumerating CSP Providers and Provider Types</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;stdio.h&gt;
-#include &lt;windows.h&gt;
-#include &lt;Wincrypt.h&gt;
+
+```cpp
+#include <stdio.h>
+#include <windows.h>
+#include <Wincrypt.h>
 #pragma comment(lib, "advapi32.lib")
 
 void main()
@@ -226,9 +222,9 @@ void main()
            dwIndex,
            NULL,
            0,
-           &amp;dwType,
+           &dwType,
            NULL,
-           &amp;cbName
+           &cbName
            ))
     {
 
@@ -248,9 +244,9 @@ void main()
                dwIndex++,
                NULL,
                0,
-               &amp;dwType,
+               &dwType,
                pszName,
-               &amp;cbName
+               &cbName
                ))
         {
             printf ("     %4.0d\t%s\n",dwType, pszName);
@@ -266,10 +262,10 @@ void main()
 
     printf("\nProvider types and provider names "
         "have been listed.\n");
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

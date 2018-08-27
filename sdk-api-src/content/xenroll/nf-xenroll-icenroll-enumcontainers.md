@@ -109,18 +109,14 @@ This method is disabled when  the Certificate Enrollment Control is executed as 
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BSTR       bstrCon = NULL;
+
+```cpp
+BSTR       bstrCon = NULL;
 DWORD      nCon = 0;
 HRESULT    hr;
 
 // pEnroll is previously instantiated ICEnroll interface pointer
-while ( S_OK == pEnroll-&gt;enumContainers(nCon, &amp;bstrCon) )
+while ( S_OK == pEnroll->enumContainers(nCon, &bstrCon) )
 {
     printf("\t%d) %ws\n", nCon++, bstrCon );
     if ( bstrCon )
@@ -128,10 +124,10 @@ while ( S_OK == pEnroll-&gt;enumContainers(nCon, &amp;bstrCon) )
         SysFreeString( bstrCon );
         bstrCon = NULL;
     }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

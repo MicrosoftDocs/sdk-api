@@ -238,13 +238,9 @@ The <b>SCardStatus</b> function is a <a href="https://msdn.microsoft.com/3e9d767
 
 The following example  shows how to determine the state of the smart card.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>WCHAR           szReader[200];
+
+```cpp
+WCHAR           szReader[200];
 DWORD           cch = 200;
 BYTE            bAttr[32];
 DWORD           cByte = 32;
@@ -255,11 +251,11 @@ LONG            lReturn;
 // hCardHandle was set by an earlier call to SCardConnect.
 lReturn = SCardStatus(hCardHandle,
                       szReader,
-                      &amp;cch,
-                      &amp;dwState,
-                      &amp;dwProtocol,
-                      (LPBYTE)&amp;bAttr,
-                      &amp;cByte); 
+                      &cch,
+                      &dwState,
+                      &dwProtocol,
+                      (LPBYTE)&bAttr,
+                      &cByte); 
 
 if ( SCARD_S_SUCCESS != lReturn )
 {
@@ -294,10 +290,10 @@ switch ( dwState )
         printf("Unknown or unexpected card state.\n");
         break;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

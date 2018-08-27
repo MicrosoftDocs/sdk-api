@@ -122,13 +122,9 @@ A value that contains a combination of one or more shader requirements flags; ea
 
 Here is how the D3D11Shader.h header defines the shader requirements flags:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 #define D3D_SHADER_REQUIRES_DOUBLES                         0x00000001
 #define D3D_SHADER_REQUIRES_EARLY_DEPTH_STENCIL             0x00000002
 #define D3D_SHADER_REQUIRES_UAVS_AT_EVERY_STAGE             0x00000004
@@ -137,10 +133,10 @@ Here is how the D3D11Shader.h header defines the shader requirements flags:
 #define D3D_SHADER_REQUIRES_11_1_DOUBLE_EXTENSIONS          0x00000020
 #define D3D_SHADER_REQUIRES_11_1_SHADER_EXTENSIONS          0x00000040
 #define D3D_SHADER_REQUIRES_LEVEL_9_COMPARISON_FILTERING    0x00000080
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

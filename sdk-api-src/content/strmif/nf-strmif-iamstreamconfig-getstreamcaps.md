@@ -194,18 +194,14 @@ On some compression filters, this method fails if the filter's input pin is not 
 
 The following example retrieves the first supported format (index zero) on a video output pin and then sets this format on the pin.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 int iCount, iSize;
 BYTE *pSCC = NULL;
 AM_MEDIA_TYPE *pmt;
 
-hr = pConfig-&gt;GetNumberOfCapabilities(&amp;iCount, &amp;iSize);
+hr = pConfig->GetNumberOfCapabilities(&iCount, &iSize);
 
 pSCC = new BYTE[iSize];
 if (pSCC == NULL)
@@ -214,13 +210,13 @@ if (pSCC == NULL)
 }
 
 // Get the first format.
-hr = pConfig-&gt;GetStreamCaps(0, &amp;pmt, pSCC));
+hr = pConfig->GetStreamCaps(0, &pmt, pSCC));
 if (hr == S_OK)
 {
     // TODO: Examine the format. If it's not suitable for some
     // reason, call GetStreamCaps with the next index value (up
     // to iCount). Otherwise, set the format:
-    hr = pConfig-&gt;SetFormat(pmt);
+    hr = pConfig->SetFormat(pmt);
     if (FAILED(hr))
     {
         // TODO: Error handling.
@@ -228,10 +224,10 @@ if (hr == S_OK)
     DeleteMediaType(pmt);
 }
 delete [] pSCC;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

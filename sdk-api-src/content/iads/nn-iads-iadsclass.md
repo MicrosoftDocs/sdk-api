@@ -501,13 +501,9 @@ Schema objects are organized in the schema container of a given directory. To ac
 
 The following code example shows how to implement the <b>IADsClass</b> interface.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim obj As IADs
+
+```vb
+Dim obj As IADs
 Dim cls As IADsClass
 
 On Error GoTo Cleanup
@@ -517,30 +513,26 @@ Set cls = GetObject(obj.Schema)
  
 ' Inspecting mandatory and optional properties.
 For Each p In cls.MandatoryProperties
-    MsgBox "Must-have: " &amp; p
+    MsgBox "Must-have: " & p
 Next
 For Each p In cls.OptionalProperties
-    MsgBox "May-have: " &amp; p
+    MsgBox "May-have: " & p
 Next
 
 Cleanup:
-    If (Err.Number&lt;&gt;0) Then
-        MsgBox("An error has occurred. " &amp; Err.Number)
+    If (Err.Number<>0) Then
+        MsgBox("An error has occurred. " & Err.Number)
     End If
     Set obj = Nothing
-    Set cls = Nothing</pre>
-</td>
-</tr>
-</table></span></div>
+    Set cls = Nothing
+```
+
+
 The following code example shows how to implement the <b>IADsClass</b> interface.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT hr = S_OK;
+
+```cpp
+HRESULT hr = S_OK;
 IADsClass *pCls = NULL;
 IADs *pADs;
 BSTR bstrSchema;
@@ -549,66 +541,62 @@ VARIANT var;
 hr = CoInitialize(NULL);
 hr = ADsGetObject(L"WinNT://myComputer,computer",
                   IID_IADs,
-                  (void**)&amp;pADs);
+                  (void**)&pADs);
 if (FAILED(hr)) { goto Cleanup;}
  
-hr = pADs-&gt;get_Schema(&amp;bstrSchema);
-pADs-&gt;Release();
+hr = pADs->get_Schema(&bstrSchema);
+pADs->Release();
 if(FAILED(hr)) { goto Cleanup; }
  
-hr = ADsGetObject(bstrSchema, IID_IADsClass, (void**)&amp;pCls);
+hr = ADsGetObject(bstrSchema, IID_IADsClass, (void**)&pCls);
 if(FAILED(hr)) { goto Cleanup; }
  
-VariantInit(&amp;var);
-pCls-&gt;get_MandatoryProperties(&amp;var);
+VariantInit(&var);
+pCls->get_MandatoryProperties(&var);
 hr = printVarArray(var);
  
-VariantClear(&amp;var);
-pCls-&gt;get_OptionalProperties(&amp;var);
+VariantClear(&var);
+pCls->get_OptionalProperties(&var);
 hr = printVarArray(var);
 
 Cleanup:
     if(pCls)
-        pCls-&gt;Release();
+        pCls->Release();
 
     if(pADs)
-        pADs-&gt;Release();
+        pADs->Release();
 
     SysFreeString(bstrSchema);
-    VariantClear(&amp;var);
+    VariantClear(&var);
     CoUninitialize();
-    return hr;</pre>
-</td>
-</tr>
-</table></span></div>
+    return hr;
+```
+
+
 The following code example shows how to implement the <b>printVarArray</b> function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT printVarArray(VARIANT var)
+
+```cpp
+HRESULT printVarArray(VARIANT var)
 {
     LONG lstart, lend;
     VARIANT varItem;
     HRESULT hr;
-    SAFEARRAY *sa = V_ARRAY( &amp;var );
-    hr = SafeArrayGetLBound( sa, 1, &amp;lstart );
-    hr = SafeArrayGetUBound( sa, 1, &amp;lend );
-    VariantInit(&amp;varItem);
-    for ( long idx=lstart; idx &lt;= lend; idx++ ) {
-        hr = SafeArrayGetElement( sa, &amp;idx, &amp;varItem );
-        printf("   %S \n", V_BSTR(&amp;varItem));
-        VariantClear(&amp;varItem);
+    SAFEARRAY *sa = V_ARRAY( &var );
+    hr = SafeArrayGetLBound( sa, 1, &lstart );
+    hr = SafeArrayGetUBound( sa, 1, &lend );
+    VariantInit(&varItem);
+    for ( long idx=lstart; idx <= lend; idx++ ) {
+        hr = SafeArrayGetElement( sa, &idx, &varItem );
+        printf("   %S \n", V_BSTR(&varItem));
+        VariantClear(&varItem);
     }
     printf("\n");
     return S_OK;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

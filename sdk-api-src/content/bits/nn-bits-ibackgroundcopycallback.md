@@ -131,18 +131,14 @@ If an administrator takes ownership of the job, the notification callbacks are m
 
 If your application uses the <a href="https://msdn.microsoft.com/library/ms680112(v=VS.85).aspx">single-threaded apartment</a> model, your callback methods can become reentrant if you call COM objects from inside your callback method. For example, if you call <a href="https://msdn.microsoft.com/en-us/library/Aa363034(v=VS.85).aspx">IBackgroundCopyJob::GetProgress</a> from inside your <a href="https://msdn.microsoft.com/en-us/library/Aa362873(v=VS.85).aspx">JobModification</a> callback, BITS can send your job modification callback another notification while you are still processing the current notification. If it is not important to your application to respond to every <a href="https://msdn.microsoft.com/en-us/library/Aa362873(v=VS.85).aspx">JobModification</a> callback, you could ignore reentrant callbacks as shown in the following example. 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//A member variable is used to determine if the callback
+
+```cpp
+//A member variable is used to determine if the callback
 //is already processing another job modification callback.
 LONG m_PendingJobModificationCount = 0;
 
 //If you are already processing a callback, ignore this notification.
-if (InterlockedCompareExchange(&amp;m_PendingJobModificationCount, 1, 0) == 1)
+if (InterlockedCompareExchange(&m_PendingJobModificationCount, 1, 0) == 1)
 {
   return S_OK;
 }
@@ -151,10 +147,10 @@ if (InterlockedCompareExchange(&amp;m_PendingJobModificationCount, 1, 0) == 1)
 
 m_PendingJobModificationCount = 0;
 return hr;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 #### Examples
 
@@ -162,13 +158,9 @@ The following example shows an
 <b>IBackgroundCopyCallback</b> implementation. For an example that calls this implementation, see the 
 <a href="https://msdn.microsoft.com/en-us/library/Aa363045(v=VS.85).aspx">IBackgroundCopyJob::SetNotifyInterface</a> method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#define TWO_GB 2147483648    // 2GB
+
+```cpp
+#define TWO_GB 2147483648    // 2GB
 
 
 class CNotifyInterface : public IBackgroundCopyCallback
@@ -209,12 +201,12 @@ HRESULT CNotifyInterface::QueryInterface(REFIID riid, LPVOID* ppvObj)
 
 ULONG CNotifyInterface::AddRef() 
 {
-  return InterlockedIncrement(&amp;m_lRefCount);
+  return InterlockedIncrement(&m_lRefCount);
 }
 
 ULONG CNotifyInterface::Release() 
 {
-  ULONG  ulCount = InterlockedDecrement(&amp;m_lRefCount);
+  ULONG  ulCount = InterlockedDecrement(&m_lRefCount);
 
   if(0 == ulCount) 
   {
@@ -232,7 +224,7 @@ HRESULT CNotifyInterface::JobTransferred(IBackgroundCopyJob* pJob)
   //extensive logic at this time, consider creating a separate thread to perform
   //the work.
 
-  hr = pJob-&gt;Complete();
+  hr = pJob->Complete();
   if (FAILED(hr))
   {
     //Handle error. BITS probably was unable to rename one or more of the 
@@ -260,7 +252,7 @@ HRESULT CNotifyInterface::JobError(IBackgroundCopyJob* pJob, IBackgroundCopyErro
   //BG_JOB_CONTEXT_REMOTE_APPLICATION, the server application that received the 
   //upload file failed.
 
-  hr = pError-&gt;GetError(&amp;Context, &amp;ErrorCode);
+  hr = pError->GetError(&Context, &ErrorCode);
 
   //If the proxy or server does not support the Content-Range header or if
   //antivirus software removes the range requests, BITS returns BG_E_INSUFFICIENT_RANGE_SUPPORT.
@@ -268,13 +260,13 @@ HRESULT CNotifyInterface::JobError(IBackgroundCopyJob* pJob, IBackgroundCopyErro
   //the content has a better chance of being successfully downloaded.
   if (BG_E_INSUFFICIENT_RANGE_SUPPORT == ErrorCode)
   {
-    hr = pError-&gt;GetFile(&amp;pFile);
-    hr = pFile-&gt;GetProgress(&amp;Progress);
+    hr = pError->GetFile(&pFile);
+    hr = pFile->GetProgress(&Progress);
     if (BG_SIZE_UNKNOWN == Progress.BytesTotal)
     {
       //The content is dynamic, do not change priority. Handle as an error.
     }
-    else if (Progress.BytesTotal &gt; TWO_GB)
+    else if (Progress.BytesTotal > TWO_GB)
     {
       // BITS requires range requests support if the content is larger than 2 GB.
       // For these scenarios, BITS uses 2 GB ranges to download the file,
@@ -283,20 +275,20 @@ HRESULT CNotifyInterface::JobError(IBackgroundCopyJob* pJob, IBackgroundCopyErro
     }
     else
     {
-      hr = pJob-&gt;SetPriority(BG_JOB_PRIORITY_FOREGROUND);
-      hr = pJob-&gt;Resume();
+      hr = pJob->SetPriority(BG_JOB_PRIORITY_FOREGROUND);
+      hr = pJob->Resume();
       IsError = FALSE;
     }
 
-    pFile-&gt;Release();
+    pFile->Release();
   }
 
   if (TRUE == IsError)
   {
-    hr = pJob-&gt;GetDisplayName(&amp;pszJobName);
-    hr = pError-&gt;GetErrorDescription(LANGIDFROMLCID(GetThreadLocale()), &amp;pszErrorDescription);
+    hr = pJob->GetDisplayName(&pszJobName);
+    hr = pError->GetErrorDescription(LANGIDFROMLCID(GetThreadLocale()), &pszErrorDescription);
 
-    if (pszJobName &amp;&amp; pszErrorDescription)
+    if (pszJobName && pszErrorDescription)
     {
       //Do something with the job name and description. 
     }
@@ -316,13 +308,13 @@ HRESULT CNotifyInterface::JobModification(IBackgroundCopyJob* pJob, DWORD dwRese
   BG_JOB_PROGRESS Progress;
   BG_JOB_STATE State;
 
-  hr = pJob-&gt;GetDisplayName(&amp;pszJobName);
+  hr = pJob->GetDisplayName(&pszJobName);
   if (SUCCEEDED(hr))
   {
-    hr = pJob-&gt;GetProgress(&amp;Progress);
+    hr = pJob->GetProgress(&Progress);
     if (SUCCEEDED(hr))
     {
-      hr = pJob-&gt;GetState(&amp;State);
+      hr = pJob->GetState(&State);
       if (SUCCEEDED(hr))
       {
         //Do something with the progress and state information.
@@ -335,10 +327,10 @@ HRESULT CNotifyInterface::JobModification(IBackgroundCopyJob* pJob, DWORD dwRese
   }
 
   return S_OK;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

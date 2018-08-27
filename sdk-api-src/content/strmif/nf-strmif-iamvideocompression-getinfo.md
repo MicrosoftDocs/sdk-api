@@ -121,16 +121,12 @@ Any of the listed parameters can be <b>NULL</b>, in which case the method ignore
 
 The application must allocate the buffers for the version and description strings. To determine the required size of the buffers, call this method with <b>NULL</b> for the <i>pszVersion</i> and <i>pszDescription</i> parameters. Use the values returned in <i>pcbVersion</i> and <i>pcbDescription</i> to allocate the buffers and then call the method again, as shown in the following code:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 // Get the size of the version and description strings, in bytes.
 int cbVersion, cbDesc; 
-hr = pCompress-&gt;GetInfo(NULL, &amp;cbVersion, NULL, &amp;cbDesc, 
+hr = pCompress->GetInfo(NULL, &cbVersion, NULL, &cbDesc, 
     NULL, NULL, NULL, NULL);
 if (SUCCEEDED(hr))
 {
@@ -139,16 +135,16 @@ if (SUCCEEDED(hr))
     WCHAR *pszDesc = new WCHAR[cbDesc / sizeof(WCHAR)];
 
     // Now query for the strings.
-    hr = pCompress-&gt;GetInfo(pszVersion, &amp;cbVersion, pszDesc, &amp;cbDesc, 
+    hr = pCompress->GetInfo(pszVersion, &cbVersion, pszDesc, &cbDesc, 
         NULL, NULL, NULL, NULL);
     }
     delete [] pszVersion;
     delete [] pszDesc;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Note that the strings are wide-character strings, and the returned sizes are in bytes, not number of characters. Also, one or both strings might be zero-length.
 
 The <i>pCapabilities</i> parameter receives a set of flags indicating which compression properties are supported, and thus which <b>IAMVideoCompression</b> methods are supported. For example, if the <b>CompressionCaps_CanKeyFrame</b> flag is returned, it the filter supports the <a href="https://msdn.microsoft.com/af73cfaa-3297-44a7-96a7-8805aad057e2">IAMVideoCompression::get_KeyFrameRate</a> and <a href="https://msdn.microsoft.com/dc229333-3524-4228-ab13-a6e9619643fd">IAMVideoCompression::put_KeyFrameRate</a> methods.

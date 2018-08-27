@@ -120,29 +120,25 @@ Additional types may be supported in the future.
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762315(v=VS.85).aspx">InitPropVariantVectorFromPropVariant</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// PROPVARIANT propvarSource;
+
+```cpp
+// PROPVARIANT propvarSource;
 // Assume propvarSource is initialized and valid.
 
 if (PropVariantGetElementCount(propvarSource) == 1)
 {
     PROPVARIANT propvar;
 
-    HRESULT hr = InitPropVariantVectorFromPropVariant(propvarSource, &amp;propvar);
+    HRESULT hr = InitPropVariantVectorFromPropVariant(propvarSource, &propvar);
 
     if (SUCCEEDED(hr))
     {
        // propvar now is valid and is either VT_EMPTY or contains a vector.
-       PropVariantClear(&amp;propvar);
-    }</pre>
-</td>
-</tr>
-</table></span></div>
+       PropVariantClear(&propvar);
+    }
+```
+
+
 
 
 

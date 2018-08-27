@@ -112,13 +112,9 @@ The following examples show the usage of <b>CanStartStopService</b> for JScript 
 JScript:
                 
 
-<div class="code"><span codelanguage="JScript"><table>
-<tr>
-<th>JScript</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;script language="JScript"&gt;
+
+```javascript
+<script language="JScript">
     function fnCanStartStopServiceJ()
     {
         var objShell = new ActiveXObject("shell.application");
@@ -126,20 +122,16 @@ JScript:
 
         bReturn = objShell.CanStartStopService("service name");
     }
-&lt;/script&gt;
-</pre>
-</td>
-</tr>
-</table></span></div>
+</script>
+
+```
+
+
 VBScript:
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;script language="VBScript"&gt;
+
+```vb
+<script language="VBScript">
     function fnCanStartStopServiceVB()
         dim objShell
         dim bReturn
@@ -150,10 +142,10 @@ VBScript:
 
         set objShell = nothing
     end function
-&lt;/script&gt;
-</pre>
-</td>
-</tr>
-</table></span></div>
+</script>
+
+```
+
+
 
 

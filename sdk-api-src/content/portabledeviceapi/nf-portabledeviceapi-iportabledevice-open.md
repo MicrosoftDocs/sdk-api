@@ -146,13 +146,9 @@ Applications that live in Single Threaded Apartments should use <b>CLSID_Portabl
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 #define CLIENT_NAME         L"My WPD Application"
 #define CLIENT_MAJOR_VER    1
 #define CLIENT_MINOR_VER    0
@@ -175,7 +171,7 @@ HRESULT OpenDevice(LPCWSTR wszPnPDeviceID, IPortableDevice** ppDevice)
                           NULL,
                           CLSCTX_INPROC_SERVER,
                           IID_IPortableDeviceValues,
-                          (VOID**) &amp;pClientInformation);
+                          (VOID**) &pClientInformation);
     if (SUCCEEDED(hr))
     {
         HRESULT ClientInfoHR = S_OK;
@@ -183,25 +179,25 @@ HRESULT OpenDevice(LPCWSTR wszPnPDeviceID, IPortableDevice** ppDevice)
         // Attempt to set all properties for client information. If we fail to set
         // any of the properties below it is OK. Failing to set a property in the
         // client information isn't a fatal error.
-        ClientInfoHR = pClientInformation-&gt;SetStringValue(WPD_CLIENT_NAME, CLIENT_NAME);
+        ClientInfoHR = pClientInformation->SetStringValue(WPD_CLIENT_NAME, CLIENT_NAME);
         if (FAILED(ClientInfoHR))
         {
            // Failed to set WPD_CLIENT_NAME
         }
 
-        ClientInfoHR = pClientInformation-&gt;SetUnsignedIntegerValue(WPD_CLIENT_MAJOR_VERSION, CLIENT_MAJOR_VER);
+        ClientInfoHR = pClientInformation->SetUnsignedIntegerValue(WPD_CLIENT_MAJOR_VERSION, CLIENT_MAJOR_VER);
         if (FAILED(ClientInfoHR))
         {
             // Failed to set WPD_CLIENT_MAJOR_VERSION
         }
 
-        ClientInfoHR = pClientInformation-&gt;SetUnsignedIntegerValue(WPD_CLIENT_MINOR_VERSION, CLIENT_MINOR_VER);
+        ClientInfoHR = pClientInformation->SetUnsignedIntegerValue(WPD_CLIENT_MINOR_VERSION, CLIENT_MINOR_VER);
         if (FAILED(ClientInfoHR))
         {
             // Failed to set WPD_CLIENT_MINOR_VERSION
         }
 
-        ClientInfoHR = pClientInformation-&gt;SetUnsignedIntegerValue(WPD_CLIENT_REVISION, CLIENT_REVISION);
+        ClientInfoHR = pClientInformation->SetUnsignedIntegerValue(WPD_CLIENT_REVISION, CLIENT_REVISION);
         if (FAILED(ClientInfoHR))
         {
             // Failed to set WPD_CLIENT_REVISION
@@ -212,7 +208,7 @@ HRESULT OpenDevice(LPCWSTR wszPnPDeviceID, IPortableDevice** ppDevice)
         // Failed to CoCreateInstance CLSID_PortableDeviceValues for client information
     }
 
-        ClientInfoHR = pClientInformation-&gt;SetUnsignedIntegerValue(WPD_CLIENT_SECURITY_QUALITY_OF_SERVICE, SECURITY_IMPERSONATION);
+        ClientInfoHR = pClientInformation->SetUnsignedIntegerValue(WPD_CLIENT_SECURITY_QUALITY_OF_SERVICE, SECURITY_IMPERSONATION);
         if (FAILED(ClientInfoHR))
         {
             // Failed to set WPD_CLIENT_SECURITY_QUALITY_OF_SERVICE
@@ -225,7 +221,7 @@ HRESULT OpenDevice(LPCWSTR wszPnPDeviceID, IPortableDevice** ppDevice)
                               NULL,
                               CLSCTX_INPROC_SERVER,
                               IID_IPortableDevice,
-                              (VOID**) &amp;pDevice);
+                              (VOID**) &pDevice);
 
         if (SUCCEEDED(hr))
         {
@@ -235,20 +231,20 @@ HRESULT OpenDevice(LPCWSTR wszPnPDeviceID, IPortableDevice** ppDevice)
             // time using the default (read/write) access. If this fails
             // with E_ACCESSDENIED, we'll attempt to open a second time
             // with read-only access.
-            hr = pDevice-&gt;Open(wszPnPDeviceID, pClientInformation);
+            hr = pDevice->Open(wszPnPDeviceID, pClientInformation);
             if (hr == E_ACCESSDENIED)
             {
                  // Attempt to open for read-only access
-                 pClientInformation-&gt;SetUnsignedIntegerValue(
+                 pClientInformation->SetUnsignedIntegerValue(
                        WPD_CLIENT_DESIRED_ACCESS,
                        GENERIC_READ);
-                 hr = pDevice-&gt;Open(wszPnPDeviceID, pClientInformation);
+                 hr = pDevice->Open(wszPnPDeviceID, pClientInformation);
             }
             if (SUCCEEDED(hr))
             {
                 // The device successfully opened, obtain an instance of the Device into
                 // ppDevice so the caller can be returned an opened IPortableDevice.
-                hr = pDevice-&gt;QueryInterface(IID_IPortableDevice, (VOID**)ppDevice);
+                hr = pDevice->QueryInterface(IID_IPortableDevice, (VOID**)ppDevice);
                 if (FAILED(hr))
                 {
                     // Failed to QueryInterface the opened IPortableDevice
@@ -264,23 +260,23 @@ HRESULT OpenDevice(LPCWSTR wszPnPDeviceID, IPortableDevice** ppDevice)
     // Release the IPortableDevice when finished
     if (pDevice != NULL)
     {
-        pDevice-&gt;Release();
+        pDevice->Release();
         pDevice = NULL;
     }
 
     // Release the IPortableDeviceValues that contains the client information when finished
     if (pClientInformation != NULL)
     {
-        pClientInformation-&gt;Release();
+        pClientInformation->Release();
         pClientInformation = NULL;
     }
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

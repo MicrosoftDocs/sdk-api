@@ -79,25 +79,21 @@ Returns an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531a
 
 The following pseudocode demonstrates the operation of the function.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 XMVECTOR vectorOut;
 
-vectorOut.x = (float)pSource-&gt;x;
-vectorOut.y = (float)pSource-&gt;y;
-vectorOut.z = (float)pSource-&gt;z;
-vectorOut.w = (float)pSource-&gt;w;
+vectorOut.x = (float)pSource->x;
+vectorOut.y = (float)pSource->y;
+vectorOut.z = (float)pSource->z;
+vectorOut.w = (float)pSource->w;
 
 return vectorOut;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Note these are not normalized values. To convert to the RGBA 4/4/4/4 format, 
    you must scale the resulting vector by <code>(1.f/15.f, 1.f/15.f, 1.f/15.f, 1.f/15.f)</code>. 
    Also, you will probably need to swizzle the standard .x = RED,

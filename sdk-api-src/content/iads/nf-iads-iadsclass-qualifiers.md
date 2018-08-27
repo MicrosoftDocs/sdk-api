@@ -89,13 +89,9 @@ This method is not currently supported by any of Microsoft providers.
 
 The following code example shows how to use this method.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim ads As IADs
+
+```vb
+Dim ads As IADs
 Dim cls As IADsClass
 On Error GoTo Cleanup
 
@@ -109,15 +105,15 @@ For Each q In cls.Qualifiers
 Next
 
 Cleanup:
-    If (Err.Number&lt;&gt;0) Then
-        MsgBox("An error has occurred. " &amp; Err.Number)
+    If (Err.Number<>0) Then
+        MsgBox("An error has occurred. " & Err.Number)
     End If
     Set ads = Nothing
     Set cls = Nothing
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

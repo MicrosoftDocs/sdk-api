@@ -73,13 +73,9 @@ To set an initial application to start when the user logs on, you must first set
 
 The following example shows a script that binds to the Active Directory database without credentials.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Set DSO = GetObject("LDAP:")
+
+```vb
+Set DSO = GetObject("LDAP:")
 Set usr = DSO.OpenDSObject(
     "LDAP://DOMAIN/CN=Test,CN=Users,DC=Server1,DC=Domain,DC=com")
 Wscript.echo usr.TerminalServicesWorkDirectory
@@ -89,10 +85,10 @@ usr.TerminalServicesWorkDirectory= "D:\path"
 usr.SetInfo
 WScript.echo usr.TerminalServicesInitialProgram
 Wscript.echo usr.TerminalServicesWorkDirectory
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -84,19 +84,15 @@ This method returns one of the following <a href="https://msdn.microsoft.com/en-
 
 The following code example shows how to use <b>ID3D11InfoQueue::AddRetrievalFilterEntries</b>:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 D3D11_MESSAGE_CATEGORY cats[] = { ..., ..., ... };
 D3D11_MESSAGE_SEVERITY sevs[] = { ..., ..., ... };
 UINT ids[] = { ..., ..., ... };
 
 D3D11_INFO_QUEUE_FILTER filter;
-memset( &amp;filter, 0, sizeof(filter) );
+memset( &filter, 0, sizeof(filter) );
 
 // To set the type of messages to allow, 
 // set filter.AllowList as follows:
@@ -111,11 +107,11 @@ filter.AllowList.pIDList = ids;
 // similarly to the preceding filter.AllowList.
 
 // The following single call sets all of the preceding information.
-hr = infoQueue-&gt;AddRetrievalFilterEntries( &amp;filter );
-</pre>
-</td>
-</tr>
-</table></span></div>
+hr = infoQueue->AddRetrievalFilterEntries( &filter );
+
+```
+
+
 
 
 

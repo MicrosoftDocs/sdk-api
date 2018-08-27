@@ -112,14 +112,10 @@ To check whether a function in a delay-loaded DLL is available on the system, th
 
 The following example shows how to use <b>QueryOptionalDelayLoadedAPI</b> to determine whether the <a href="https://msdn.microsoft.com/ff0b6b79-40f5-499c-b797-b66797654164">VirtualAllocEx</a> function is available on the system.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;libloaderapi2.h&gt;
+
+```cpp
+#include <windows.h>
+#include <libloaderapi2.h>
 
 // For this example, you need to pass
 // /delayload: ext-ms-win-com-ole32-l1-1-1.dll to link.exe.
@@ -136,17 +132,17 @@ AreMonikersSupported ()
     // available on desktop computers, and not on mobile devices or Xbox.
 
     isApiAvailable = 
-        QueryOptionalDelayLoadedAPI(static_cast&lt;HMODULE&gt;(&amp;__ImageBase),
+        QueryOptionalDelayLoadedAPI(static_cast<HMODULE>(&__ImageBase),
                                     "ext-ms-win-com-ole32-l1-1-1.dll",
                                     "MkParseDisplayName",
                                     0);
 
     return isApiAvailable;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

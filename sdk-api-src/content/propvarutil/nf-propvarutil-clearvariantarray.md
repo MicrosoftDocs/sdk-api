@@ -95,19 +95,15 @@ This function releases the memory and references held by each structure in the a
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762284(v=VS.85).aspx">ClearVariantArray</a>
 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// VARIANT rgpropvar[5];
+
+```cpp
+// VARIANT rgpropvar[5];
 // Assume all 5 variants are initialized and valid.
 
-ClearVariantArray(rgpropvar, ARRAYSIZE(rgpropvar));</pre>
-</td>
-</tr>
-</table></span></div>
+ClearVariantArray(rgpropvar, ARRAYSIZE(rgpropvar));
+```
+
+
 
 
 

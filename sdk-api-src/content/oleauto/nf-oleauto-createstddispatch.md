@@ -163,13 +163,9 @@ Supports only dispatch-defined exception codes returned from <a href="https://ms
 
 The following code implements the <b>IDispatch</b> interface for the <b>CCalc</b> class using <b>CreateStdDispatch</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>CCalc FAR*
+
+```cpp
+CCalc FAR*
 CCalc::Create()
 {
    HRESULT hresult;
@@ -181,14 +177,14 @@ extern INTERFACEDATA NEARDATA g_idataCCalc;
 
    if((pcalc = new FAR CCalc()) == NULL)
       return NULL;
-   pcalc-&gt;AddRef();
+   pcalc->AddRef();
 
-   parith = &amp;(pcalc-&gt;m_arith);
+   parith = &(pcalc->m_arith);
 
    // Build type information for the functionality on this object that
    // is being exposed for external programmability.
    hresult = CreateDispTypeInfo(
-      &amp;g_idataCCalc, LOCALE_SYSTEM_DEFAULT, &amp;ptinfo);
+      &g_idataCCalc, LOCALE_SYSTEM_DEFAULT, &ptinfo);
    if(hresult != NOERROR)
       goto LError0;
 
@@ -199,24 +195,24 @@ extern INTERFACEDATA NEARDATA g_idataCCalc;
       pcalc,            // Controlling unknown.
       parith,            // Instance to dispatch on.
       ptinfo,            // Type information describing the instance.
-      &amp;punkStdDisp);
+      &punkStdDisp);
 
-   ptinfo-&amp;&gt;Release();
+   ptinfo-&>Release();
 
    if(hresult != NOERROR)
       goto LError0;
 
-   pcalc-&gt;m_punkStdDisp = punkStdDisp;
+   pcalc->m_punkStdDisp = punkStdDisp;
 
    return pcalc;
 
 LError0:;
-   pcalc-&gt;Release();
+   pcalc->Release();
    return NULL;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

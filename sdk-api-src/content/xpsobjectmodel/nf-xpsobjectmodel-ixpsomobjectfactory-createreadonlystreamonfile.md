@@ -117,22 +117,18 @@ This method calls the <a href="https://msdn.microsoft.com/77df9cb2-757e-4b07-9c1
 
 <b>CreateReadOnlyStreamOnFile</b> is a wrapper method for <a href="https://msdn.microsoft.com/d41bb51d-127c-4b24-8c93-4224404e0b2d">IOpcFactory::CreateStreamOnFile</a>. It has the same effect as calling the following:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    hr = opcFactory-&gt;CreateStreamOnFile (
+
+```cpp
+    hr = opcFactory->CreateStreamOnFile (
         fileName,
         OPC_STREAM_IO_READ,
         NULL,
         FILE_ATTRIBUTE_NORMAL,
-        &amp;stream);
-</pre>
-</td>
-</tr>
-</table></span></div>
+        &stream);
+
+```
+
+
 
 
 

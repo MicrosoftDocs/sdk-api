@@ -245,13 +245,9 @@ The following example shows initiating the hashing of a stream of data. It creat
 <a href="https://msdn.microsoft.com/15d4a05d-5888-4532-91fd-6cd94afe0b99">Example C Program: Creating and Hashing a Session Key</a>.
 For another example that uses this function, see <a href="https://msdn.microsoft.com/72f5d30a-efd5-4bf5-8057-cb73e5aa0514">Example C Program: Signing a Hash and Verifying the Hash Signature</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//--------------------------------------------------------------------
+
+```cpp
+//--------------------------------------------------------------------
 //  Declare variables.
 
 HCRYPTPROV hCryptProv;
@@ -262,7 +258,7 @@ HCRYPTHASH hHash;
 
 
 if(CryptAcquireContext(
-   &amp;hCryptProv, 
+   &hCryptProv, 
    NULL, 
    NULL, 
    PROV_RSA_FULL, 
@@ -283,7 +279,7 @@ if(CryptCreateHash(
    CALG_MD5, 
    0, 
    0, 
-   &amp;hHash)) 
+   &hHash)) 
 {
     printf("An empty hash object has been created. \n");
 }
@@ -302,10 +298,10 @@ if(hHash)
    CryptDestroyHash(hHash);
 if(hCryptProv) 
    CryptReleaseContext(hCryptProv,0);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

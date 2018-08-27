@@ -110,13 +110,9 @@ The component that is retrieving the property pages calls SetupAPI's <b>Extensio
 
 The following code excerpt shows how to retrieve one page, the SetupAPI's Resource Selection page:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>{
+
+```
+{
     DWORD Err;
     HINSTANCE hLib;
     FARPROC PropSheetExtProc;
@@ -141,8 +137,8 @@ The following code excerpt shows how to retrieve one page, the SetupAPI's Resour
         PropPageRequest.DeviceInfoSet  = DeviceInfoSet;
         PropPageRequest.DeviceInfoData = DeviceInfoData;
 
-        if(!PropSheetExtProc(&amp;PropPageRequest, 
-                AddPropSheetPageProc, &amp;hPages[1])) {
+        if(!PropSheetExtProc(&PropPageRequest, 
+                AddPropSheetPageProc, &hPages[1])) {
             Err = ERROR_INVALID_PARAMETER;
             FreeLibrary(hLib);
             return Err;
@@ -150,19 +146,15 @@ The following code excerpt shows how to retrieve one page, the SetupAPI's Resour
         .
         .
         .
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 The <b>AddPropSheetPageProc</b> for the previous excerpt would be something like the following:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>BOOL
+
+```
+BOOL
 CALLBACK
 AddPropSheetPageProc(
     IN HPROPSHEETPAGE hpage,
@@ -171,10 +163,10 @@ AddPropSheetPageProc(
 {
     *((HPROPSHEETPAGE *)lParam) = hpage;
     return TRUE;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

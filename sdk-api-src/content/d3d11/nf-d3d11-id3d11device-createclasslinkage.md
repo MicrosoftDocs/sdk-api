@@ -90,19 +90,15 @@ The <a href="https://msdn.microsoft.com/en-us/library/Ff476358(v=VS.85).aspx">ID
 Using CreateClassLinkage
           
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 ID3D11ClassLinkage * g_pPSClassLinkage = NULL;            
-pd3dDevice-&gt;CreateClassLinkage( &amp;g_pPSClassLinkage ); 
-          </pre>
-</td>
-</tr>
-</table></span></div>
+pd3dDevice->CreateClassLinkage( &g_pPSClassLinkage ); 
+          
+```
+
+
 <div class="code"></div>
 
 

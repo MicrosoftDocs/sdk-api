@@ -79,20 +79,16 @@ Starting time, in milliseconds, to search in the stream.
 
 The <b>AVIStreamNearestKeyFrameTime</b> macro is defined as follows:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 #define AVIStreamNearestKeyFrameTime(pavi, lTime) \ 
     AVIStreamSampleToTime(pavi, AVIStreamNearestKeyFrame(pavi, 
     AVIStreamTimeToSample(pavi, lTime))) 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

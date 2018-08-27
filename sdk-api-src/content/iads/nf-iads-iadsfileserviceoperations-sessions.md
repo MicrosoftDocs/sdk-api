@@ -85,13 +85,9 @@ Traditional directory services supply data only about directory service elements
 
 The following code example shows how to enumerate active sessions managed by a file service.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim fso As IADsFileServiceOperations
+
+```vb
+Dim fso As IADsFileServiceOperations
 On Error GoTo Cleanup
 
 ' Bind to a file service operation on "myComputer" 
@@ -100,18 +96,18 @@ Set fso = GetObject("WinNT://myComputer/LanmanServer")
 
 ' Enumerate sessions.
 For Each session In fso.sessions
-    MsgBox "Session name: " &amp; session.Name
+    MsgBox "Session name: " & session.Name
 Next session
 
 Cleanup:
-    If (Err.Number&lt;&gt;0) Then
-        MsgBox("An error has occurred. " &amp; Err.Number)
+    If (Err.Number<>0) Then
+        MsgBox("An error has occurred. " & Err.Number)
     End If
     Set fso = Nothing
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 For a code example using the <b>IADsFileServiceOperations::Sessions</b> interface, see the code example given in  <a href="https://msdn.microsoft.com/54621f0d-7478-4a6f-a96f-f3f93e64b281">IADsSession</a>.
 
 <div class="code"></div>

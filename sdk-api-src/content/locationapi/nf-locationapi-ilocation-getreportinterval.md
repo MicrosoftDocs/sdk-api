@@ -145,18 +145,14 @@ You must call <a href="https://msdn.microsoft.com/1aca3e5b-20cb-4fa9-b28d-7d9926
 
 The following example demonstrates how to call <b>GetReportInterval</b>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 DWORD reportInterval = 0;
-HRESULT hr = spLocation-&gt;GetReportInterval(IID_ILatLongReport, &amp;reportInterval);</pre>
-</td>
-</tr>
-</table></span></div>
+HRESULT hr = spLocation->GetReportInterval(IID_ILatLongReport, &reportInterval);
+```
+
+
 
 
 

@@ -209,16 +209,12 @@ The LPDIRECT3D9 and PDIRECT3D9 types are defined as pointers to the <b>IDirect3D
     
             
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct IDirect3D9 *LPDIRECT3D9, *PDIRECT3D9;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+typedef struct IDirect3D9 *LPDIRECT3D9, *PDIRECT3D9;
+```
+
+
 
 
 

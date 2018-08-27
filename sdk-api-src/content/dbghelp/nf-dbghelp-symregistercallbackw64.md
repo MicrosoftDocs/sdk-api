@@ -101,13 +101,9 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR. <b>SymRegisterCallbackW64</b> is defined as follows in Dbghelp.h. 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BOOL
+
+```cpp
+BOOL
 IMAGEAPI
 SymRegisterCallbackW64(
     __in HANDLE hProcess,
@@ -117,20 +113,16 @@ SymRegisterCallbackW64(
 
 #ifdef DBGHELP_TRANSLATE_TCHAR
 #define SymRegisterCallback64   SymRegisterCallbackW64
-#endif</pre>
-</td>
-</tr>
-</table></span></div>
+#endif
+```
+
+
 This function supersedes the <b>SymRegisterCallback</b> function. For more information, see 
 <a href="https://msdn.microsoft.com/34ec8cd3-3260-441d-b55f-4ea21c736eb1">Updated Platform Support</a>. <b>SymRegisterCallback</b> is defined as follows in Dbghelp.h. 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
+
+```cpp
+#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
 #define SymRegisterCallback SymRegisterCallback64
 #else
 BOOL
@@ -140,10 +132,10 @@ SymRegisterCallback(
     __in PSYMBOL_REGISTERED_CALLBACK CallbackFunction,
     __in_opt PVOID UserContext
     );
-#endif</pre>
-</td>
-</tr>
-</table></span></div>
+#endif
+```
+
+
 For a more extensive example, read <a href="https://msdn.microsoft.com/1dd8af0e-280b-4fc4-bf75-45c5c7517365">Getting Notifications</a>.
 
 

@@ -94,15 +94,11 @@ Returns ERROR_SUCCESS if successful, or an error value otherwise.
 
 Note that it is the calling program's responsibility to free the memory associated with the PSID_AND_ATTRIBUTES structure. The following code sample shows how to call this function. The FreeAppContainerConfig function shows how to free all of the associated memory.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 #include "stdafx.h"
-#include &lt;netfw.h&gt;
+#include <netfw.h>
 
 typedef DWORD
 (WINAPI *FN_NETWORKISOLATIONGETAPPCONTAINERCONFIG)(
@@ -118,7 +114,7 @@ FreeAppContainerConfig(
 {
     DWORD dwIndex = 0;
 
-    for (dwIndex = 0; dwIndex &lt; sidCount; dwIndex++)
+    for (dwIndex = 0; dwIndex < sidCount; dwIndex++)
     {
         HeapFree(GetProcessHeap(), 0, srcSidAttrib[dwIndex].Sid);
     }
@@ -152,8 +148,8 @@ int _tmain(int argc, _TCHAR* argv[])
     }
 
     dwErr = pfnNetworkIsolationGetAppContainerConfig(
-        &amp;dwCount, 
-        &amp;appContainerSids
+        &dwCount, 
+        &appContainerSids
         );
     if (dwErr != ERROR_SUCCESS)
     {
@@ -176,9 +172,9 @@ Cleanup:
 
 	return 0;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

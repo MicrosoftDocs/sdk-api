@@ -421,13 +421,9 @@ The following code example shows how to obtain an
 <a href="https://msdn.microsoft.com/0bd82860-1347-40c8-ae77-c4d865c109be">HINTERNET</a> handle, open an HTTP
                 session, create a request header, and send that header to the server.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    BOOL  bResults = FALSE;
+
+```cpp
+    BOOL  bResults = FALSE;
     HINTERNET hSession = NULL,
               hConnect = NULL,
               hRequest = NULL;
@@ -469,10 +465,10 @@ The following code example shows how to obtain an
     if (hRequest) WinHttpCloseHandle(hRequest);
     if (hConnect) WinHttpCloseHandle(hConnect);
     if (hSession) WinHttpCloseHandle(hSession);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

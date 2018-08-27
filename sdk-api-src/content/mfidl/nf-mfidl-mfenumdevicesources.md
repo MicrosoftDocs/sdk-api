@@ -185,13 +185,9 @@ To create a media source from an <a href="https://msdn.microsoft.com/c0936e3c-3c
 
 The following example enumerates the video capture devices on the system and creates a media source for the first device on the list.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT CreateVideoDeviceSource(IMFMediaSource **ppSource)
+
+```cpp
+HRESULT CreateVideoDeviceSource(IMFMediaSource **ppSource)
 {
     *ppSource = NULL;
 
@@ -200,14 +196,14 @@ The following example enumerates the video capture devices on the system and cre
     IMFActivate **ppDevices = NULL;
 
     // Create an attribute store to specify the enumeration parameters.
-    HRESULT hr = MFCreateAttributes(&amp;pAttributes, 1);
+    HRESULT hr = MFCreateAttributes(&pAttributes, 1);
     if (FAILED(hr))
     {
         goto done;
     }
 
     // Source type: video capture devices
-    hr = pAttributes-&gt;SetGUID(
+    hr = pAttributes->SetGUID(
         MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE, 
         MF_DEVSOURCE_ATTRIBUTE_SOURCE_TYPE_VIDCAP_GUID
         );
@@ -218,7 +214,7 @@ The following example enumerates the video capture devices on the system and cre
 
     // Enumerate devices.
     UINT32 count;
-    hr = MFEnumDeviceSources(pAttributes, &amp;ppDevices, &amp;count);
+    hr = MFEnumDeviceSources(pAttributes, &ppDevices, &count);
     if (FAILED(hr))
     {
         goto done;
@@ -231,30 +227,30 @@ The following example enumerates the video capture devices on the system and cre
     }
 
     // Create the media source object.
-    hr = ppDevices[0]-&gt;ActivateObject(IID_PPV_ARGS(&amp;pSource));
+    hr = ppDevices[0]->ActivateObject(IID_PPV_ARGS(&pSource));
     if (FAILED(hr))
     {
         goto done;
     }
 
     *ppSource = pSource;
-    (*ppSource)-&gt;AddRef();
+    (*ppSource)->AddRef();
 
 done:
-    SafeRelease(&amp;pAttributes);
+    SafeRelease(&pAttributes);
 
-    for (DWORD i = 0; i &lt; count; i++)
+    for (DWORD i = 0; i < count; i++)
     {
-        SafeRelease(&amp;ppDevices[i]);
+        SafeRelease(&ppDevices[i]);
     }
     CoTaskMemFree(ppDevices);
-    SafeRelease(&amp;pSource);
+    SafeRelease(&pSource);
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

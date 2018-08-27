@@ -77,20 +77,16 @@ UI Automation handles the various types of providers differently.
 The following example implements this method for a server-side UI Automation provider.
 			
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT STDMETHODCALLTYPE Provider::get_ProviderOptions( ProviderOptions* pRetVal )
+
+```cpp
+HRESULT STDMETHODCALLTYPE Provider::get_ProviderOptions( ProviderOptions* pRetVal )
 {
     *pRetVal = ProviderOptions_ServerSideProvider;
     return S_OK;
-}    </pre>
-</td>
-</tr>
-</table></span></div>
+}    
+```
+
+
 
 
 

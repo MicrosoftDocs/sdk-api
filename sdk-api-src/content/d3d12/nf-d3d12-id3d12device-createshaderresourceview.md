@@ -112,13 +112,9 @@ The <a href="https://msdn.microsoft.com/en-us/library/Mt186624(v=VS.85).aspx">D3
 
 Describe and create two shader resource views based on one description.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>D3D12_SHADER_RESOURCE_VIEW_DESC srvDesc = {};
+
+```cpp
+D3D12_SHADER_RESOURCE_VIEW_DESC srvDesc = {};
 srvDesc.Shader4ComponentMapping = D3D12_DEFAULT_SHADER_4_COMPONENT_MAPPING;
 srvDesc.Format = DXGI_FORMAT_UNKNOWN;
 srvDesc.ViewDimension = D3D12_SRV_DIMENSION_BUFFER;
@@ -127,14 +123,14 @@ srvDesc.Buffer.NumElements = ParticleCount;
 srvDesc.Buffer.StructureByteStride = sizeof(Particle);
 srvDesc.Buffer.Flags = D3D12_BUFFER_SRV_FLAG_NONE;
 
-CD3DX12_CPU_DESCRIPTOR_HANDLE srvHandle0(m_srvUavHeap-&gt;GetCPUDescriptorHandleForHeapStart(), SrvParticlePosVelo0 + index, m_srvUavDescriptorSize);
-CD3DX12_CPU_DESCRIPTOR_HANDLE srvHandle1(m_srvUavHeap-&gt;GetCPUDescriptorHandleForHeapStart(), SrvParticlePosVelo1 + index, m_srvUavDescriptorSize);
-m_device-&gt;CreateShaderResourceView(m_particleBuffer0[index].Get(), &amp;srvDesc, srvHandle0);
-m_device-&gt;CreateShaderResourceView(m_particleBuffer1[index].Get(), &amp;srvDesc, srvHandle1);
-</pre>
-</td>
-</tr>
-</table></span></div>
+CD3DX12_CPU_DESCRIPTOR_HANDLE srvHandle0(m_srvUavHeap->GetCPUDescriptorHandleForHeapStart(), SrvParticlePosVelo0 + index, m_srvUavDescriptorSize);
+CD3DX12_CPU_DESCRIPTOR_HANDLE srvHandle1(m_srvUavHeap->GetCPUDescriptorHandleForHeapStart(), SrvParticlePosVelo1 + index, m_srvUavDescriptorSize);
+m_device->CreateShaderResourceView(m_particleBuffer0[index].Get(), &srvDesc, srvHandle0);
+m_device->CreateShaderResourceView(m_particleBuffer1[index].Get(), &srvDesc, srvHandle1);
+
+```
+
+
 Refer to the <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85).aspx">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>

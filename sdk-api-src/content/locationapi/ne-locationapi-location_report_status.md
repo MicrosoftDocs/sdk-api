@@ -99,14 +99,10 @@ These values represent status for new reports. The most recent reports remain av
 
 The following code example demonstrates how to retrieve the <b>LOCATION_REPORT_STATUS</b> values from <a href="https://msdn.microsoft.com/9b7c72cc-fa09-44b2-97be-f200fab7b31d">ILocation::GetReportStatus</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    // Get the status of this report type
-    if (SUCCEEDED(spLocation-&gt;GetReportStatus(IID_ILatLongReport, &amp;status))) 
+
+```cpp
+    // Get the status of this report type
+    if (SUCCEEDED(spLocation->GetReportStatus(IID_ILatLongReport, &status))) 
     {
         bool fIsNotRunning = true;
         switch (status) 
@@ -136,19 +132,15 @@ The following code example demonstrates how to retrieve the <b>LOCATION_REPORT_S
             wprintf(L"Location reports returned from GetReport contain cached data.\n");
         }
     }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The following code is a sample implementation of the callback function <a href="https://msdn.microsoft.com/d13d8b72-3188-479f-a70c-52b1a9435b80">ILocationEvents::OnStatusChanged</a>.  This implementation prints out messages when there is a  change in the status of latitude/longitude reports.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// This is called when the status of a report type changes.
+
+```cpp
+// This is called when the status of a report type changes.
 // The LOCATION_REPORT_STATUS enumeration is defined in LocApi.h in the SDK
 STDMETHODIMP CLocationEvents::OnStatusChanged(REFIID reportType, LOCATION_REPORT_STATUS status)
 {
@@ -179,9 +171,9 @@ STDMETHODIMP CLocationEvents::OnStatusChanged(REFIID reportType, LOCATION_REPORT
 
     return S_OK;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

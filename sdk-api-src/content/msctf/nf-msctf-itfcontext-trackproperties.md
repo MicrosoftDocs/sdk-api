@@ -156,15 +156,11 @@ The property obtained by this method is a VT_UNKNOWN type. This property can be 
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-const GUID *rgGuids[2] = {  &amp;GUID_PROP_COMPOSING,
-                            &amp;GUID_PROP_ATTRIBUTE };
+
+```cpp
+
+const GUID *rgGuids[2] = {  &GUID_PROP_COMPOSING,
+                            &GUID_PROP_ATTRIBUTE };
 HRESULT hr;
 ITfReadOnlyProperty *pTrackProperty;
 TF_SELECTION sel;
@@ -172,31 +168,31 @@ IEnumTfRanges *pEnumRanges;
 ITfRange *pRangeValue;
 
 // Get the tracking property. 
-hr = pContext-&gt;TrackProperties(NULL, 0, rgGuids, 2, &amp;pTrackProperty);
+hr = pContext->TrackProperties(NULL, 0, rgGuids, 2, &pTrackProperty);
 
 // Get the selection range. 
-hr = pContext-&gt;GetSelection(ec, TF_DEFAULT_SELECTION, 1, &amp;sel, &amp;cFetched);
+hr = pContext->GetSelection(ec, TF_DEFAULT_SELECTION, 1, &sel, &cFetched);
 
 // Use the property from TrackProperties to get an enumeration of the ranges  
 // within the selection range that have the same property values. 
-hr = pTrackProperty-&gt;EnumRanges(ec, &amp;pEnumRanges, sel.range);
+hr = pTrackProperty->EnumRanges(ec, &pEnumRanges, sel.range);
 
 // Enumerate the ranges of text. 
-while(pEnumRanges-&gt;Next(1, &amp;pRangeValue, NULL) == S_OK)
+while(pEnumRanges->Next(1, &pRangeValue, NULL) == S_OK)
 {
     VARIANT varTrackerValue;
     TF_PROPERTYVAL tfPropertyVal;
     IEnumTfPropertyValue *pEnumPropVal;
 
     // Get the values for this range of text. 
-    hr = pTrackProperty-&gt;GetValue(ec, pRangeValue, &amp;varTrackerValue);
+    hr = pTrackProperty->GetValue(ec, pRangeValue, &varTrackerValue);
 
     // Because pTrackProperties originates from TrackProperties, 
     // varTrackerValue can be identified as a VT_UNKNOWN/IEnumTfPropertyValue. 
-    varTrackerValue.punkVal-&gt;QueryInterface(    IID_IEnumTfPropertyValue,
-                                                (void **)&amp;pEnumPropVal);
+    varTrackerValue.punkVal->QueryInterface(    IID_IEnumTfPropertyValue,
+                                                (void **)&pEnumPropVal);
 
-    while(pEnumPropVal-&gt;Next(1, &amp;tfPropertyVal, NULL) == S_OK)
+    while(pEnumPropVal->Next(1, &tfPropertyVal, NULL) == S_OK)
     {
         BOOL fComposingValue;
         TfGuidAtom gaDispAttrValue;
@@ -213,25 +209,25 @@ while(pEnumRanges-&gt;Next(1, &amp;pRangeValue, NULL) == S_OK)
         }
         
         // Clear the property. 
-        VariantClear(&amp;tfPropertyVal.varValue);
+        VariantClear(&tfPropertyVal.varValue);
     }
 
     // Clear the tracker property. 
-    VariantClear(&amp;varTrackerValue);
+    VariantClear(&varTrackerValue);
 
     // Release the property enumerator. 
-    pEnumPropVal-&gt;Release();
+    pEnumPropVal->Release();
 
     // Release the range. 
-    pRangeValue-&gt;Release();
+    pRangeValue->Release();
 }
 
 // Release the selection range. 
-sel.range-&gt;Release();
-</pre>
-</td>
-</tr>
-</table></span></div>
+sel.range->Release();
+
+```
+
+
 
 
 

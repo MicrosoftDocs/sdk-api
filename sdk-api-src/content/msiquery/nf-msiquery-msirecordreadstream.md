@@ -102,28 +102,24 @@ If you pass 0 for <i>szDataBuf</i> then <i>pcbDataBuf</i> is reset to the number
 
 The following code sample reads from a stream that is in field 1 of a record specified by hRecord and reads the entire stream 8 bytes at a time.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>char szBuffer[8];
+
+```cpp
+char szBuffer[8];
 PMSIHANDLE hRecord;
 DWORD cbBuf = sizeof(szBuffer);
 do 
 {
     if (MsiRecordReadStream(hRecord, 1, szBuffer, 
-        &amp;cbBuf) != ERROR_SUCCESS)
+        &cbBuf) != ERROR_SUCCESS)
         break; /* error */
 }
 while (cbBuf == 8);  //continue reading the stream while you receive a full buffer
 //cbBuf will be less once you reach the end of the stream and cannot fill your 
 //buffer with stream data
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 See also 
 <a href="https://msdn.microsoft.com/ebd5fcac-0238-4f30-9fd5-a0c5cf9028ef">OLE Limitations on Streams</a>.
 

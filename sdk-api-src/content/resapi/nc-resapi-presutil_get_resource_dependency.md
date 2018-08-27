@@ -122,13 +122,9 @@ Do not call  <i>ResUtilGetResourceDependency</i> from any resource DLL entry poi
 
 As the following example illustrates, if you know that resource A depends on a Physical Disk resource, you can use  <i>ResUtilGetResourceDependency</i> to obtain a handle to the dependency.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// String initialization and error checking omitted.
+
+```cpp
+// String initialization and error checking omitted.
 
 HCLUSTER hCluster = OpenCluster( lpszClusterName );
 
@@ -143,10 +139,10 @@ HRESOURCE hResD = ResUtilGetResourceDependency(
                         L"Physical Disk" );
 
 // Close handles and free memory.
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

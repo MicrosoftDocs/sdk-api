@@ -331,15 +331,11 @@ If the property key does not correspond to a property description in any of the 
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776496(v=VS.85).aspx">PSFormatForDisplay</a> to format a rating value.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>PROPVARIANT propvar;
 
-HRESULT hr = InitPropVariantFromUInt32(RATING_THREE_STARS_SET, &amp;propvar);
+```cpp
+PROPVARIANT propvar;
+
+HRESULT hr = InitPropVariantFromUInt32(RATING_THREE_STARS_SET, &propvar);
 
 if (SUCCEEDED(hr))
 {
@@ -351,11 +347,11 @@ if (SUCCEEDED(hr))
     {
         // szValue contains a formatted string similar to "3 stars".
     }
-    PropVariantClear(&amp;propvar);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+    PropVariantClear(&propvar);
+}
+```
+
+
 
 
 

@@ -88,13 +88,9 @@ If a registered restore operation is not completed, Certificate Services will no
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>FNCERTSRVRESTOREREGISTERCOMPLETE* pfnRestRegComplete;
+
+```cpp
+FNCERTSRVRESTOREREGISTERCOMPLETE* pfnRestRegComplete;
 char * szResRegCompleteFunc = "CertSrvRestoreRegisterComplete";
 HRESULT    hr=0;
 
@@ -118,10 +114,10 @@ if (FAILED(hr))
 {
     printf("Failed pfnRestRegComplete call [%x]\n", hr);
     exit(1); // Or other appropriate error action.
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

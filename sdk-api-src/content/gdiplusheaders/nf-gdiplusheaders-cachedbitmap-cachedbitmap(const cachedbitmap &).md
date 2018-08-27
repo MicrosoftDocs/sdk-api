@@ -91,23 +91,19 @@ You can display a cached bitmap by passing the address of a <b>CachedBitmap::Cac
 The following example creates a <b>CachedBitmap::CachedBitmap</b> object based on a <a href="https://msdn.microsoft.com/en-us/library/ms534420(v=VS.85).aspx">Bitmap</a> object and a <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object. The code calls the 
 						<a href="https://msdn.microsoft.com/en-us/library/ms535681(v=VS.85).aspx">DrawCachedBitmap</a> method of that <b>Graphics</b> object to display the cached bitmap.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_CachedBitmap(HDC hdc)
+
+```cpp
+VOID Example_CachedBitmap(HDC hdc)
 {
    Graphics graphics(hdc);
    Bitmap bitmap(L"Grapes.jpg");
-   CachedBitmap cachedBitmap(&amp;bitmap, &amp;graphics);
+   CachedBitmap cachedBitmap(&bitmap, &graphics);
 
-   graphics.DrawCachedBitmap(&amp;cachedBitmap, 10, 10);  
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.DrawCachedBitmap(&cachedBitmap, 10, 10);  
+}
+```
+
+
 
 
 

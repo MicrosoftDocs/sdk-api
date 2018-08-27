@@ -82,13 +82,9 @@ None
 
 The following code example shows how to use <b>IADsPropertyValue::Clear</b> to clear the value of the "description" property from a property list.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim propList As IADsPropertyList
+
+```vb
+Dim propList As IADsPropertyList
 Dim propEntry As IADsPropertyEntry
 Dim propVal As IADsPropertyValue
 
@@ -111,26 +107,22 @@ Next
 propList.SetInfo
 
 Cleanup:
-    If (Err.Number&lt;&gt;0) Then
-        MsgBox("An error has occurred. " &amp; Err.Number)
+    If (Err.Number<>0) Then
+        MsgBox("An error has occurred. " & Err.Number)
     End If
 
     Set propList = Nothing
     Set propEntry = Nothing
-    Set propVal = Nothing</pre>
-</td>
-</tr>
-</table></span></div>
+    Set propVal = Nothing
+```
+
+
 The following code example shows how to use <b>IADsPropertyValue::Clear</b> to clear the value of the "description" property from a property list.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;activeds.h&gt;
-#include &lt;stdio.h&gt;
+
+```cpp
+#include <activeds.h>
+#include <stdio.h>
  
 IADsPropertyList *pList = NULL;
 IADsPropertyEntry *pEntry = NULL;
@@ -141,78 +133,78 @@ BSTR valStr;
 IEnumVARIANT *pEnum = NULL;
 LONG lstart, lend;
  
-VariantInit(&amp;var);
-VariantInit(&amp;varItem);
+VariantInit(&var);
+VariantInit(&varItem);
  
 // Bind to the directory object.
 HRESULT hr = ADsGetObject(L"LDAP://dc01/DC=Fabrikam,DC=com",
                           IID_IADsPropertyList,
-                          (void**)&amp;pList);
+                          (void**)&pList);
 if(FAILED(hr)){goto Cleanup;}
 
  
 // Initialize the property cache.
-hr = pList-&gt;QueryInterface(IID_IADs,(void**)&amp;pObj);
+hr = pList->QueryInterface(IID_IADs,(void**)&pObj);
 if(FAILED(hr)){goto Cleanup;}
 
-pObj-&gt;GetInfo();
-pObj-&gt;Release();
+pObj->GetInfo();
+pObj->Release();
  
 // Get a property entry.
-hr = pList-&gt;GetPropertyItem(CComBSTR("description"), ADSTYPE_UNKNOWN, &amp;var);
+hr = pList->GetPropertyItem(CComBSTR("description"), ADSTYPE_UNKNOWN, &var);
 if(FAILED(hr)){goto Cleanup;}
 
-pList-&gt;Release();
-hr = V_DISPATCH(&amp;var)-&gt;QueryInterface(IID_IADsPropertyEntry,
-                                      (void**)&amp;pEntry);
+pList->Release();
+hr = V_DISPATCH(&var)->QueryInterface(IID_IADsPropertyEntry,
+                                      (void**)&pEntry);
 if(FAILED(hr)){goto Cleanup;}
-VariantClear(&amp;var);
+VariantClear(&var);
  
 // Get the value array of the property entry.
-hr = pEntry-&gt;get_Values(&amp;var);
+hr = pEntry->get_Values(&var);
 if(FAILED(hr)){goto Cleanup;}
-SAFEARRAY *sa = V_ARRAY( &amp;var );
+SAFEARRAY *sa = V_ARRAY( &var );
  
 // Get the lower and upper bound, iterate, and print the values.
-hr = SafeArrayGetLBound( sa, 1, &amp;lstart );
-hr = SafeArrayGetUBound( sa, 1, &amp;lend );
+hr = SafeArrayGetLBound( sa, 1, &lstart );
+hr = SafeArrayGetUBound( sa, 1, &lend );
 printf(" Property value(s) = ");
-for ( long idx=lstart; idx &lt; lend+1; idx++ )    {
-    hr = SafeArrayGetElement( sa, &amp;idx, &amp;varItem );
-    hr = V_DISPATCH(&amp;varItem)-&gt;QueryInterface(IID_IADsPropertyValue,
-                                              (void**)&amp;pVal);
-    VariantClear(&amp;varItem);
-    hr = pVal-&gt;Clear();
+for ( long idx=lstart; idx < lend+1; idx++ )    {
+    hr = SafeArrayGetElement( sa, &idx, &varItem );
+    hr = V_DISPATCH(&varItem)->QueryInterface(IID_IADsPropertyValue,
+                                              (void**)&pVal);
+    VariantClear(&varItem);
+    hr = pVal->Clear();
     if(FAILED(hr)){goto Cleanup;}
 }
 
-pList-&gt;SetInfo();
+pList->SetInfo();
 
 Cleanup:
     if(pList)
-        pList-&gt;Release();
+        pList->Release();
 
     if(pEntry)
-        pEntry-&gt;Release();
+        pEntry->Release();
 
     if(pVal)
-        pVal-&gt;Release();
+        pVal->Release();
 
     if(pObj)
-        pObj-&gt;Release();
+        pObj->Release();
 
     if(pEnum)
-        pEnum-&gt;Release();
+        pEnum->Release();
 
     if(valStr)
         SysFreeString(valStr);
 
-    VariantClear(&amp;var);
-    VariantClear(&amp;varItem);
-</pre>
-</td>
-</tr>
-</table></span></div>
+    VariantClear(&var);
+    VariantClear(&varItem);
+
+```
+
+
 
 
 

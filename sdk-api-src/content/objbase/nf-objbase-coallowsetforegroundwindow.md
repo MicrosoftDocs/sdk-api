@@ -158,16 +158,12 @@ Behind the scenes, the <a href="https://msdn.microsoft.com/21857592-0f98-4eb4-a1
 
 The following example demonstrates how a client process can create a local COM server, call <b>CoAllowSetForegroundWindow</b> to transfer the foreground privilege, and then call a function on  the COM server that in turn directly or indirectly calls <a href="https://msdn.microsoft.com/en-us/library/ms633539(v=VS.85).aspx">SetForegroundWindow</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>Microsoft::WRL::ComPtr&lt;IExampleInterface&gt; exampleLocalServer;
+
+```cpp
+Microsoft::WRL::ComPtr<IExampleInterface> exampleLocalServer;
 
 ThrowIfFailed(::CoCreateInstance(CLSID_ExampleLocalServer,
-	nullptr, CLSCTX_LOCAL_SERVER, IID_PPV_ARGS(&amp;exampleLocalServer)));
+	nullptr, CLSCTX_LOCAL_SERVER, IID_PPV_ARGS(&exampleLocalServer)));
 
 // You can adapt to success or failure, but don't automatically throw. Don’t make the
 // opening of a window dependent on successfully passing privilege (and taking foreground),
@@ -175,10 +171,10 @@ ThrowIfFailed(::CoCreateInstance(CLSID_ExampleLocalServer,
 HRESULT hr = ::CoAllowSetForegroundWindow(exampleLocalServer.Get(), nullptr);
 
 // Call an example method that itself calls ::SetForegroundWindow(HWND).
-hr = exampleLocalServer-&gt;FunctionThatSetsForegroundWindow();</pre>
-</td>
-</tr>
-</table></span></div>
+hr = exampleLocalServer->FunctionThatSetsForegroundWindow();
+```
+
+
 
 
 

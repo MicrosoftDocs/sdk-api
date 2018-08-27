@@ -98,26 +98,22 @@ A
 
 The following example creates a texture brush and sets the transformation of the brush. The code then uses the transformed brush to fill an ellipse.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_SetTransform(HDC hdc)
+
+```cpp
+VOID Example_SetTransform(HDC hdc)
 {
    Graphics graphics(hdc);
 
    Matrix matrix(2, 0, 0, 1, 0, 0);  // Horizontal stretch
 
    Image image(L"HouseAndTree.gif");
-   TextureBrush textureBrush(&amp;image);
-   textureBrush.SetTransform(&amp;matrix);
-   graphics.FillEllipse(&amp;textureBrush, 0, 0, 400, 200); 
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   TextureBrush textureBrush(&image);
+   textureBrush.SetTransform(&matrix);
+   graphics.FillEllipse(&textureBrush, 0, 0, 400, 200); 
+}
+```
+
+
 
 
 

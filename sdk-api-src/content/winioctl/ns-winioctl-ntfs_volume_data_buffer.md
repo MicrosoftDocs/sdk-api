@@ -140,20 +140,16 @@ Reserved clusters are the free clusters reserved for later use by Windows.
 The <b>NTFS_VOLUME_DATA_BUFFER</b> structure represents the basic information returned by <a href="https://msdn.microsoft.com/b5690b4f-3967-41d8-bf11-70f8b1da79ad">FSCTL_GET_NTFS_VOLUME_DATA</a>. For extended volume information,  pass a buffer that is the combined size of the <b>NTFS_VOLUME_DATA_BUFFER</b>  and <b>NTFS_EXTENDED_VOLUME_DATA</b> structures. Upon success, the  buffer returned by <b>FSCTL_GET_NTFS_VOLUME_DATA</b> will contain the information associated with both structures. The <b>NTFS_VOLUME_DATA_BUFFER</b> structure will always be filled starting at the beginning of the buffer, with the <b>NTFS_EXTENDED_VOLUME_DATA</b> structure immediately following. The <b>NTFS_EXTENDED_VOLUME_DATA</b> structure is defined as follows: 
 				
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct {
+
+```cpp
+typedef struct {
     ULONG ByteCount;
     USHORT MajorVersion;
     USHORT MinorVersion;
-} NTFS_EXTENDED_VOLUME_DATA, *PNTFS_EXTENDED_VOLUME_DATA;</pre>
-</td>
-</tr>
-</table></span></div>
+} NTFS_EXTENDED_VOLUME_DATA, *PNTFS_EXTENDED_VOLUME_DATA;
+```
+
+
 This structure contains the major and minor version information for an NTFS volume. The <b>ByteCount</b> member will return the total bytes  of the output buffer used for this structure by the call to <a href="https://msdn.microsoft.com/b5690b4f-3967-41d8-bf11-70f8b1da79ad">FSCTL_GET_NTFS_VOLUME_DATA</a>. This value should be <code>sizeof(NTFS_EXTENDED_VOLUME_DATA)</code> if the buffer passed was large enough to hold it, otherwise the value will be less than <code>sizeof(NTFS_EXTENDED_VOLUME_DATA)</code>.
 
 

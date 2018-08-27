@@ -89,33 +89,25 @@ The following examples show the use of <b>TileVertically</b> in JScript, VBScrip
 JScript:
                 
 
-<div class="code"><span codelanguage="JScript"><table>
-<tr>
-<th>JScript</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;script language="JScript"&gt;
+
+```javascript
+<script language="JScript">
     function fnShellTileVerticallyJ()
     {
         var objShell = new ActiveXObject("shell.application");
         
         objshell.TileVertically();
     }
-&lt;/script&gt;
-</pre>
-</td>
-</tr>
-</table></span></div>
+</script>
+
+```
+
+
 VBScript:
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;script language="VBScript"&gt;
+
+```vb
+<script language="VBScript">
     function fnShellTileVerticallyVB()
         dim objShell
         
@@ -124,20 +116,16 @@ VBScript:
 
         set objShell = nothing
     end function
- &lt;/script&gt;
-</pre>
-</td>
-</tr>
-</table></span></div>
+ </script>
+
+```
+
+
 Visual Basic:
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Private Sub fnShellTileVerticallyVB()
+
+```vb
+Private Sub fnShellTileVerticallyVB()
     Dim objShell As Shell
     
     Set objShell = New Shell
@@ -145,9 +133,9 @@ Visual Basic:
 
     Set objShell = Nothing
 End Sub
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

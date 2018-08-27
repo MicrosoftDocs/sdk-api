@@ -108,13 +108,9 @@ For a listing of the available languages and sublanguages, see Winnt.h.
 The following example creates a 
 						<b>FontFamily</b> object, gets the family name, and outputs the name as text.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_GetFamilyName(HDC hdc)
+
+```cpp
+VOID Example_GetFamilyName(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -127,12 +123,12 @@ The following example creates a
 
    // Copy the cell ascent into a string and draw the string.
    SolidBrush solidbrush(Color(255, 0, 0, 0));
-   Font       font(&amp;nameFontFamily, 16);
-   graphics.DrawString(familyName, -1, &amp;font, PointF(0, 0), &amp;solidbrush);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   Font       font(&nameFontFamily, 16);
+   graphics.DrawString(familyName, -1, &font, PointF(0, 0), &solidbrush);
+}
+```
+
+
 
 
 

@@ -140,13 +140,9 @@ The following is an example (in C++) of an implementation of <b>DllGetClassObjec
 
 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT_export CALLBACK DllGetClassObject 
+
+```cpp
+HRESULT_export CALLBACK DllGetClassObject 
     (REFCLSID rclsid, REFIID riid, LPVOID * ppvObj) 
 { 
     HRESULT hr = E_OUTOFMEMORY; 
@@ -154,15 +150,15 @@ The following is an example (in C++) of an implementation of <b>DllGetClassObjec
  
     CClassFactory *pClassFactory = new CClassFactory(rclsid); 
     if (pClassFactory != NULL)   { 
-        hr = pClassFactory-&gt;QueryInterface(riid, ppvObj); 
-        pClassFactory-&gt;Release(); 
+        hr = pClassFactory->QueryInterface(riid, ppvObj); 
+        pClassFactory->Release(); 
     } 
     return hr;
 } 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -100,29 +100,25 @@ It is possible to lose the device while polling for query status. When <a href="
 
 An application must never write code that only invokes GetData ( ... , 0 ), expecting that GetData will eventually return S_OK by itself over time. This is true, even if the application has used the FLUSH flag with GetData in the past. For example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>// Enables an infinite loop:
-while( pQuery-&gt;GetData( ... , 0 ) == S_FALSE ) ;
+
+```
+// Enables an infinite loop:
+while( pQuery->GetData( ... , 0 ) == S_FALSE ) ;
 
 // Still enables an infinite loop:
-pQuery-&gt;GetData( ... , D3DGETDATA_FLUSH );
-while( pQuery-&gt;GetData( ... , 0 ) == S_FALSE ) ;
+pQuery->GetData( ... , D3DGETDATA_FLUSH );
+while( pQuery->GetData( ... , 0 ) == S_FALSE ) ;
 
 // Does not enable an infinite loop because eventually the command
 // buffer will fill up and that will cause a flush to occur.
-while( pQuery-&gt;GetData( ..., 0 ) == S_FALSE ) {
-	pDevice-&gt;SetTexture(...);
-	pDevice-&gt;Draw(...);
+while( pQuery->GetData( ..., 0 ) == S_FALSE ) {
+	pDevice->SetTexture(...);
+	pDevice->Draw(...);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

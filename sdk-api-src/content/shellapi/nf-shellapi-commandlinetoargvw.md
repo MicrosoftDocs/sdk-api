@@ -129,15 +129,11 @@ This special interpretation controls the "in quotes" mode tracked by the parser.
 
 The following example demonstrates how to parse a Unicode command-line string. The code frees the memory for the argument list at exit.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;shellapi.h&gt;
+
+```cpp
+#include <windows.h>
+#include <stdio.h>
+#include <shellapi.h>
 
 int __cdecl main()
 {
@@ -145,22 +141,22 @@ int __cdecl main()
    int nArgs;
    int i;
 
-   szArglist = CommandLineToArgvW(GetCommandLineW(), &amp;nArgs);
+   szArglist = CommandLineToArgvW(GetCommandLineW(), &nArgs);
    if( NULL == szArglist )
    {
       wprintf(L"CommandLineToArgvW failed\n");
       return 0;
    }
-   else for( i=0; i&lt;nArgs; i++) printf("%d: %ws\n", i, szArglist[i]);
+   else for( i=0; i<nArgs; i++) printf("%d: %ws\n", i, szArglist[i]);
 
 // Free memory allocated for CommandLineToArgvW arguments.
 
    LocalFree(szArglist);
 
    return(1);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 

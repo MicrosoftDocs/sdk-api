@@ -135,13 +135,9 @@ In order to get correct behavior from a color transform, the input and output pi
 
 The following example performs a color transform from one <a href="https://msdn.microsoft.com/b6817676-affb-4bb3-adba-e24e0b75ad10">IWICColorContext</a> to another.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
     IWICImagingFactory *pFactory = NULL;
     IWICBitmapDecoder *pDecoder = NULL;
     IWICBitmapFrameDecode *pBitmapFrame = NULL;
@@ -155,47 +151,47 @@ The following example performs a color transform from one <a href="https://msdn.
                     CLSID_WICImagingFactory,
                     NULL, CLSCTX_INPROC_SERVER,
                     IID_IWICImagingFactory,
-                    (LPVOID*) &amp;pFactory);
+                    (LPVOID*) &pFactory);
 
     if (SUCCEEDED(hr))
     {
-        hr = pFactory-&gt;CreateDecoderFromFilename(
+        hr = pFactory->CreateDecoderFromFilename(
                            L"test.jpg",
                            NULL,
                            GENERIC_READ,
                            WICDecodeMetadataCacheOnDemand,
-                           &amp;pDecoder);
+                           &pDecoder);
     }
 
     if (SUCCEEDED(hr))
     {
-        hr = pDecoder-&gt;GetFrameCount(&amp;uiFrameCount);
+        hr = pDecoder->GetFrameCount(&uiFrameCount);
     }
 
-    if (SUCCEEDED(hr) &amp;&amp; (uiFrameCount &gt; 0))
+    if (SUCCEEDED(hr) && (uiFrameCount > 0))
     {
-        hr = pDecoder-&gt;GetFrame(0, &amp;piBitmapFrame);
-    }
-
-    if (SUCCEEDED(hr))
-    {
-        hr = pFactory-&gt;CreateColorContext(&amp;pContextSrc);
+        hr = pDecoder->GetFrame(0, &piBitmapFrame);
     }
 
     if (SUCCEEDED(hr))
     {
-        hr = pContextSrc-&gt;InitializeFromFilename(
+        hr = pFactory->CreateColorContext(&pContextSrc);
+    }
+
+    if (SUCCEEDED(hr))
+    {
+        hr = pContextSrc->InitializeFromFilename(
                               L"c:\\windows\\system32\\spool\\drivers\\color\\kodak_dc.icm");
     }
 
     if (SUCCEEDED(hr))
     {
-        hr = pFactory-&gt;CreateColorContext(&amp;pContextDst);
+        hr = pFactory->CreateColorContext(&pContextDst);
     }
 
     if (SUCCEEDED(hr))
     {
-        hr = pContextDst-&gt;InitializeFromFilename(
+        hr = pContextDst->InitializeFromFilename(
                               L"c:\\windows\\system32\\spool\\drivers\\color\\sRGB Color Space Profile.icm");
     }
 
@@ -204,7 +200,7 @@ The following example performs a color transform from one <a href="https://msdn.
     if (SUCCEEDED(hr))
     {
         // Transform from src icm to the destination icm. 
-        hr = pColorTransform-&gt;Initialize( pBitmapFrame,
+        hr = pColorTransform->Initialize( pBitmapFrame,
                                           pContextSrc,
                                           pContextDst,
                                           GUID_WICPixelFormat32bppBGRA);
@@ -217,7 +213,7 @@ The following example performs a color transform from one <a href="https://msdn.
         UINT cbBufferSize = 0;
         BYTE *pbBuffer = NULL; 
 
-        hr = pColorTransform-&gt;GetSize(&amp;uiWidth, &amp;uiHeight);
+        hr = pColorTransform->GetSize(&uiWidth, &uiHeight);
 
         if (SUCCEEDED(hr))
         {
@@ -227,9 +223,9 @@ The following example performs a color transform from one <a href="https://msdn.
             rc.Width = uiWidth;
             rc.Height = 1; // scanline
 
-            for (UINT i = 0; SUCCEEDED(hr) &amp;&amp; (i &lt; uiHeight); i++)
+            for (UINT i = 0; SUCCEEDED(hr) && (i < uiHeight); i++)
             {
-                hr = pColorTransform-&gt;CopyPixels(&amp;rc, cbStride, cbBufferSize - (rc.Y * cbStride), pbBuffer);
+                hr = pColorTransform->CopyPixels(&rc, cbStride, cbBufferSize - (rc.Y * cbStride), pbBuffer);
                 pbBuffer += cbStride;
                 rc.Y += 1;
             }
@@ -238,38 +234,38 @@ The following example performs a color transform from one <a href="https://msdn.
 
     if (pFactory)
     {
-        pFactory-&gt;Release();
+        pFactory->Release();
     }
 
     if (pDecoder)
     {
-        pDecoder-&gt;Release();
+        pDecoder->Release();
     }
 
     if (pBitmapFrame)
     {
-        pBitmapFrame-&gt;Release();
+        pBitmapFrame->Release();
     }
 
     if (pContextSrc)
     {
-        pContextSrc-&gt;Release();
+        pContextSrc->Release();
     }
 
     if (pContextDst)
     {
-        pContextDst-&gt;Release();
+        pContextDst->Release();
     }
 
     if (pColorTransform)
     {
-        pColorTransform-&gt;Release();
+        pColorTransform->Release();
     }
 
     return hr;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

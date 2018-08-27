@@ -169,16 +169,12 @@ The <b>CoDisconnectContext</b> function has the following limitations:
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IContextCallback *icc;
-hr = CoCreateInstance(CLSID_ContextSwitcher, NULL, CLSCTX_INPROC_SERVER, IID_IContextCallback, (void**)&amp;icc);
 
-icc-&gt;ContextCallback(EnterCallback, NULL, IID_IContextCallback, 5, NULL);
+```cpp
+IContextCallback *icc;
+hr = CoCreateInstance(CLSID_ContextSwitcher, NULL, CLSCTX_INPROC_SERVER, IID_IContextCallback, (void**)&icc);
+
+icc->ContextCallback(EnterCallback, NULL, IID_IContextCallback, 5, NULL);
 
 HRESULT __stdcall EnterCallback(ComCallData *pv)
 { 
@@ -188,7 +184,7 @@ HRESULT __stdcall EnterCallback(ComCallData *pv)
 /* All objects created by the class factories registered in the callback will be put into the newly created context.
 To disconnect, re-enter the context, revoke the class factories, and call CoDisconnectContext. */
 
-icc-&gt;ContextCallback(DisconnectCallback, NULL, IID_IContextCallback, 5, NULL);
+icc->ContextCallback(DisconnectCallback, NULL, IID_IContextCallback, 5, NULL);
 
 HRESULT __stdcall DisconnectCallback(ComCallData *pv)
 {
@@ -196,10 +192,10 @@ HRESULT __stdcall DisconnectCallback(ComCallData *pv)
     return CoDisconnectContext(timeout);
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

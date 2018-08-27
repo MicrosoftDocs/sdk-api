@@ -143,13 +143,9 @@ Each call to the <b>WindowsPromoteStringBuffer</b> function must be matched with
 
 The following code example demonstrates how to use the <b>WindowsPromoteStringBuffer</b> function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;WinrtString.h&gt;
+
+```cpp
+#include <WinrtString.h>
 
 int main()
 {
@@ -157,13 +153,13 @@ int main()
     LPVOID* hStringBuffer = NULL;
     PWSTR strBuffer = NULL;
 
-    HRESULT hr = WindowsPreallocateStringBuffer(10, &amp;strBuffer, &amp;hStringBuffer);
+    HRESULT hr = WindowsPreallocateStringBuffer(10, &strBuffer, &hStringBuffer);
 
     if (SUCCEEDED(hr))
     {
         // Fill in the buffer
 
-        hr = WindowsPromoteStringBuffer(hStringBuffer, &amp;hString);
+        hr = WindowsPromoteStringBuffer(hStringBuffer, &hString);
 
         If (SUCCEEDED(hr)
         {
@@ -175,10 +171,10 @@ int main()
 	       }
     }
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

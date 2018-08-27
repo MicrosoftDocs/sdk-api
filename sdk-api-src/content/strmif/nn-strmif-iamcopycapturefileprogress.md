@@ -96,13 +96,9 @@ To use this interface, implement a class that inherits the interface and impleme
 
 The following example shows a class that implements the interface:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 class CProgress : public IAMCopyCaptureFileProgress 
 {
 public:
@@ -116,11 +112,11 @@ public:
         }
         else if (iid == __uuidof(IUnknown))
         {
-            *ppv = static_cast&lt;IUnknown*&gt;(this);
+            *ppv = static_cast<IUnknown*>(this);
         }
         else if (iid == IID_IAMCopyCaptureFileProgress) 
         {
-            *ppv = static_cast&lt;IAMCopyCaptureFileProgress*&gt;(this);
+            *ppv = static_cast<IAMCopyCaptureFileProgress*>(this);
         }
         else
         {
@@ -130,7 +126,7 @@ public:
     }
     STDMETHODIMP Progress(int iPercent) 
     {
-        if (iPercent &lt; 0 || iPercent &gt; 100) 
+        if (iPercent < 0 || iPercent > 100) 
         {
             return E_INVALIDARG;
         }
@@ -143,30 +139,26 @@ public:
         return S_OK;
     };
 };
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The following example uses this class in the <b>CopyCaptureFile</b> method:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 // Scope for CProgress object
 {
     CProgress Prog;
     // Assume pBuilder is an initialized ICaptureGraphBuilder2 pointer.
-    hr = pBuilder-&gt;CopyCaptureFile(szCaptureFile, szDestFile, TRUE,
-        static_cast&lt;IAMCopyCaptureFileProgress*&gt;(&amp;Prog));
+    hr = pBuilder->CopyCaptureFile(szCaptureFile, szDestFile, TRUE,
+        static_cast<IAMCopyCaptureFileProgress*>(&Prog));
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -100,13 +100,9 @@ The multiplication order is pMatrix times State.
 
 An application might use the <b>IDirect3DDevice9::MultiplyTransform</b> method to work with hierarchies of transformations. For example, the geometry and transformations describing an arm might be arranged in the following hierarchy.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
     
     shoulder_transformation
     
@@ -119,21 +115,17 @@ An application might use the <b>IDirect3DDevice9::MultiplyTransform</b> method t
     wrist transformation
     
     hand geometry
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 An application might use the following series of calls to render this hierarchy. Not all the parameters are shown in this pseudocode.
     
             
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 IDirect3DDevice9::SetTransform(D3DTS_WORLDMATRIX(0), 
                                shoulder_transform)
 IDirect3DDevice9::DrawPrimitive(upper_arm)
@@ -142,10 +134,10 @@ IDirect3DDevice9::MultiplyTransform(D3DTS_WORLDMATRIX(0),
 IDirect3DDevice9::DrawPrimitive(lower_arm)
 IDirect3DDevice9::MultiplyTransform(D3DTS_WORLDMATRIX(0), 
                                     wrist_transform)
-IDirect3DDevice9::DrawPrimitive(hand)</pre>
-</td>
-</tr>
-</table></span></div>
+IDirect3DDevice9::DrawPrimitive(hand)
+```
+
+
 
 
 

@@ -96,13 +96,9 @@ This method could be used along with <a href="https://msdn.microsoft.com/5d27e1e
 
 The following code retrieves the count of properties in an <b>IWMDMMetaData</b> interface (pMetadata) and tries to retrieve them all by index and print them. It uses a custom error handling macro BREAK_HR.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
         //
         // Loop through all metadata properties, and print out the value of each.
         //
@@ -112,14 +108,14 @@ The following code retrieves the count of properties in an <b>IWMDMMetaData</b> 
         UINT count = 0;
         WCHAR* name;
         // Get the number of metadata items.
-        hr = pMetadata-&gt;GetItemCount(&amp;count);
+        hr = pMetadata->GetItemCount(&count);
 
         BREAK_HR(hr, "Got a metadata count in GetMetadata.", "Couldn't get a metadata count in GetMetadata.");
-        for(;count &gt; 0; count--)
+        for(;count > 0; count--)
         {
             // Get the metadata property by index.
             WCHAR* name;
-            hr = pMetadata-&gt;QueryByIndex(count-1, &amp;name, &amp;type, &amp;value, &amp;len);
+            hr = pMetadata->QueryByIndex(count-1, &name, &type, &value, &len);
             if (SUCCEEDED(hr))
             {
                 // TODO: Display the property name.
@@ -154,7 +150,7 @@ The following code retrieves the count of properties in an <b>IWMDMMetaData</b> 
                 case WMDM_TYPE_GUID:
                     {
                         WCHAR strGuid[64];
-                        StringFromGUID2(reinterpret_cast&lt;GUID&amp;&gt;(value),(LPOLESTR)strGuid, 64);
+                        StringFromGUID2(reinterpret_cast<GUID&>(value),(LPOLESTR)strGuid, 64);
                         / /TODO: Display the GUID.
                     }
                     break;
@@ -170,10 +166,10 @@ The following code retrieves the count of properties in an <b>IWMDMMetaData</b> 
         if (value)
             CoTaskMemFree(value);
         }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

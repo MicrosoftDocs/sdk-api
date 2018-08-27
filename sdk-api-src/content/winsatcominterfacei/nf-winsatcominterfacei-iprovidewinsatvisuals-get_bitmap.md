@@ -140,17 +140,13 @@ The bitmap is returned only for the WINSAT_ASSESSMENT_STATE_VALID and WINSAT_ASS
 
 The following example shows how to retrieve a bitmap that represents the base score of the assessment. The example uses the <a href="https://msdn.microsoft.com/adf4de42-9dfd-46a7-ae75-3bbcfd15dd68">Win32_WinSAT</a> WMI MOF class to get the state and base score that you pass to this method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;comutil.h&gt;
-#include &lt;commctrl.h&gt;
-#include &lt;wbemidl.h&gt;
-#include &lt;winsatcominterfacei.h&gt;
+
+```cpp
+#include <windows.h>
+#include <comutil.h>
+#include <commctrl.h>
+#include <wbemidl.h>
+#include <winsatcominterfacei.h>
 
 #pragma comment(lib, "comsupp.lib") // For _bstr_t
 #pragma comment(lib, "comctl32.lib") // For common controls
@@ -184,7 +180,7 @@ int WINAPI WinMain(HINSTANCE hinst,
 
     g_hinst = hinst;
 
-    ZeroMemory(&amp;wc, sizeof(wc));
+    ZeroMemory(&wc, sizeof(wc));
     wc.cbSize = sizeof(wc);
     wc.lpfnWndProc = MonitorWndProc;
     wc.hInstance = hinst;
@@ -192,7 +188,7 @@ int WINAPI WinMain(HINSTANCE hinst,
     wc.hbrBackground = (HBRUSH)(COLOR_WINDOW+1);
     wc.hCursor = LoadCursor(NULL, IDC_ARROW);
 
-    atom = RegisterClassEx(&amp;wc);
+    atom = RegisterClassEx(&wc);
     hwnd = CreateWindowEx(0,
         TEXT("MainWClass"),
         TEXT("Experience Index Base Score"),
@@ -211,10 +207,10 @@ int WINAPI WinMain(HINSTANCE hinst,
 
     ShowWindow(hwnd, nCmdShow);
 
-    while (GetMessage(&amp;msg, NULL, 0, 0))
+    while (GetMessage(&msg, NULL, 0, 0))
     {
-        TranslateMessage(&amp;msg);
-        DispatchMessage(&amp;msg);
+        TranslateMessage(&msg);
+        DispatchMessage(&msg);
     }
 
     return (int)msg.wParam;
@@ -238,9 +234,9 @@ LRESULT CALLBACK MonitorWndProc(HWND hwnd, UINT msg, WPARAM wparam, LPARAM lpara
 
             initctrls.dwSize = sizeof(initctrls);
             initctrls.dwICC = ICC_BAR_CLASSES;
-            InitCommonControlsEx(&amp;initctrls);
+            InitCommonControlsEx(&initctrls);
 
-            GetClientRect(hwnd, &amp;rc);
+            GetClientRect(hwnd, &rc);
 
             g_hwndStatus = CreateWindowEx(0, STATUSCLASSNAME, NULL,
                 WS_CHILD | WS_BORDER | WS_VISIBLE,
@@ -253,13 +249,13 @@ LRESULT CALLBACK MonitorWndProc(HWND hwnd, UINT msg, WPARAM wparam, LPARAM lpara
             hr = CoInitializeEx(NULL, COINIT_APARTMENTTHREADED);
 
             // Get the base score and the state of the assessment.
-            if (FAILED(hr = GetBaseScore(&amp;BaseScore, &amp;AssessmentState)))
+            if (FAILED(hr = GetBaseScore(&BaseScore, &AssessmentState)))
             {
                 SetWindowText(g_hwndStatus, TEXT("Failed to get base score and state"));
             }
 
             // Get the bitmap for the specified score and state values.
-            if (FAILED(hr = GetScoreBitmap(BaseScore, AssessmentState, &amp;g_hScoreBitmap)) || NULL == g_hScoreBitmap)
+            if (FAILED(hr = GetScoreBitmap(BaseScore, AssessmentState, &g_hScoreBitmap)) || NULL == g_hScoreBitmap)
             {
                 SetWindowText(g_hwndStatus, TEXT("Failed to get base score bitmap"));
             }
@@ -277,14 +273,14 @@ LRESULT CALLBACK MonitorWndProc(HWND hwnd, UINT msg, WPARAM wparam, LPARAM lpara
             // Write the bitmap to the window.
             if (g_hScoreBitmap)
             {
-                hdcWin = BeginPaint(hwnd, &amp;ps);
+                hdcWin = BeginPaint(hwnd, &ps);
                 hdcCompatible = CreateCompatibleDC(hdcWin);
                 bmpOld = SelectObject(hdcCompatible, g_hScoreBitmap);
-                GetObject(g_hScoreBitmap, sizeof(BITMAP), &amp;bitmap);
+                GetObject(g_hScoreBitmap, sizeof(BITMAP), &bitmap);
                 BitBlt(hdcWin, 0, 0, bitmap.bmWidth, bitmap.bmHeight, hdcCompatible, 0, 0, SRCCOPY);
                 SelectObject(hdcCompatible, bmpOld);
                 DeleteDC(hdcCompatible);
-                EndPaint(hwnd, &amp;ps);
+                EndPaint(hwnd, &ps);
             }
 
             break;
@@ -324,7 +320,7 @@ HRESULT GetBaseScore(float* pBaseScore, WINSAT_ASSESSMENT_STATE* pState)
         NULL,
         CLSCTX_INPROC_SERVER,
         __uuidof(IWbemLocator),
-        (void**)&amp;pLocator);
+        (void**)&pLocator);
 
     if (FAILED(hr))
     {
@@ -332,9 +328,9 @@ HRESULT GetBaseScore(float* pBaseScore, WINSAT_ASSESSMENT_STATE* pState)
         goto cleanup;
     }
 
-    hr = pLocator-&gt;ConnectServer(_bstr_t(L"root\\cimv2"), 
+    hr = pLocator->ConnectServer(_bstr_t(L"root\\cimv2"), 
         NULL, NULL, NULL, 0L, NULL, NULL,
-        &amp;pServices);
+        &pServices);
 
     if (FAILED(hr))
     {
@@ -342,11 +338,11 @@ HRESULT GetBaseScore(float* pBaseScore, WINSAT_ASSESSMENT_STATE* pState)
         goto cleanup;
     }
     
-    hr = pServices-&gt;ExecQuery(_bstr_t(L"WQL"),
+    hr = pServices->ExecQuery(_bstr_t(L"WQL"),
         _bstr_t(WINSAT_QUERY_STRING),
         WBEM_FLAG_USE_AMENDED_QUALIFIERS | WBEM_FLAG_FORWARD_ONLY,
         NULL,
-        &amp;pEnum);
+        &pEnum);
 
     if (FAILED(hr))
     {
@@ -355,14 +351,14 @@ HRESULT GetBaseScore(float* pBaseScore, WINSAT_ASSESSMENT_STATE* pState)
     }
     
     // The query will return only one instance. 
-    hr = pEnum-&gt;Next(WBEM_INFINITE, 1, &amp;pWinSAT, &amp;returned);
+    hr = pEnum->Next(WBEM_INFINITE, 1, &pWinSAT, &returned);
     if (FAILED(hr))
     {
         // Handle error
         goto cleanup;
     }
     
-    hr = pWinSAT-&gt;Get(L"WinSPRLevel", 0, &amp;vBaseScore, NULL, NULL);
+    hr = pWinSAT->Get(L"WinSPRLevel", 0, &vBaseScore, NULL, NULL);
     if (FAILED(hr))
     {
         // Handle error
@@ -371,7 +367,7 @@ HRESULT GetBaseScore(float* pBaseScore, WINSAT_ASSESSMENT_STATE* pState)
 
     *pBaseScore = vBaseScore.fltVal;
 
-    hr = pWinSAT-&gt;Get(L"WinSATAssessmentState", 0, &amp;vState, NULL, NULL);
+    hr = pWinSAT->Get(L"WinSATAssessmentState", 0, &vState, NULL, NULL);
     if (FAILED(hr))
     {
         // Handle error
@@ -383,16 +379,16 @@ HRESULT GetBaseScore(float* pBaseScore, WINSAT_ASSESSMENT_STATE* pState)
 cleanup:
 
     if (pLocator)
-        pLocator-&gt;Release();
+        pLocator->Release();
 
     if (pServices)
-        pServices-&gt;Release();
+        pServices->Release();
 
     if (pEnum)
-        pEnum-&gt;Release();
+        pEnum->Release();
 
     if (pWinSAT)
-        pWinSAT-&gt;Release();
+        pWinSAT->Release();
 
     return hr;
 }
@@ -412,7 +408,7 @@ HRESULT GetScoreBitmap(const float BaseScore, const WINSAT_ASSESSMENT_STATE Stat
             NULL,
             CLSCTX_INPROC_SERVER,
             __uuidof(IProvideWinSATVisuals),
-            (void**)&amp;pVisuals);
+            (void**)&pVisuals);
 
         if (FAILED(hr))
         {
@@ -420,7 +416,7 @@ HRESULT GetScoreBitmap(const float BaseScore, const WINSAT_ASSESSMENT_STATE Stat
             goto cleanup;
         }
 
-        hr = pVisuals-&gt;get_Bitmap(WINSAT_BITMAP_SIZE_NORMAL, 
+        hr = pVisuals->get_Bitmap(WINSAT_BITMAP_SIZE_NORMAL, 
             State, 
             BaseScore, 
             phbitmap);
@@ -435,14 +431,14 @@ HRESULT GetScoreBitmap(const float BaseScore, const WINSAT_ASSESSMENT_STATE Stat
 cleanup:
 
     if (pVisuals)
-        pVisuals-&gt;Release();
+        pVisuals->Release();
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

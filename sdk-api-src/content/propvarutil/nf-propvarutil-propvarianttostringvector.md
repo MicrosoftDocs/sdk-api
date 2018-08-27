@@ -163,17 +163,13 @@ If a <b>BSTR</b> in the source <a href="https://msdn.microsoft.com/e86cc279-826d
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// PROPVARIANT propvar;
+
+```cpp
+// PROPVARIANT propvar;
 // Assume the variable propvar is initialized and valid
 LPWSTR rgszStrings; // The application is expecting propvar to hold 4 strings in a vector
 ULONG cElems;
-HRESULT hr = PropVariantToStringVector(propvar, rgszStrings, ARRAYSIZE(rgszStrings), &amp;cElems);
+HRESULT hr = PropVariantToStringVector(propvar, rgszStrings, ARRAYSIZE(rgszStrings), &cElems);
 if (SUCCEEDED(hr))
 {
      if (cElems == ARRAYSIZE(rgszStrings))
@@ -186,14 +182,14 @@ if (SUCCEEDED(hr))
      }
  
     // Free the cElems strings that PropVariantToStringVector allocated
-    for (ULONG i = 0; i &lt; cElems; i++)
+    for (ULONG i = 0; i < cElems; i++)
     {
         CoTaskMemFree(rgszStrings[i]);
     }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

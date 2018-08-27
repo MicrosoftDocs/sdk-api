@@ -138,13 +138,9 @@ A character range is a range of character positions within a string of text. The
 
 The following example defines three ranges of character positions within a string and sets those ranges in a <i>StringFormat</i> object. Next, the <b>MeasureCharacterRanges</b> method is used to get the three regions of the display that are occupied by the characters that are specified by the ranges. This is done for three different layout rectangles to show how the regions change according to the layout of the string. Also, on the third repetition of this, the string format flags are changed so that the regions measured will include trailing spaces.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID MeasureCharRanges(HDC hdc)
+
+```cpp
+VOID MeasureCharRanges(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -185,25 +181,25 @@ The following example defines three ranges of character positions within a strin
    // Get the regions that correspond to the ranges within the string when
    // layout rectangle A is used. Then draw the string, and show the regions.
    graphics.MeasureCharacterRanges(string, -1,
-      &amp;myFont, layoutRect_A, &amp;strFormat, count, pCharRangeRegions);
+      &myFont, layoutRect_A, &strFormat, count, pCharRangeRegions);
    graphics.DrawString(string, -1,
-      &amp;myFont, layoutRect_A, &amp;strFormat, &amp;blueBrush);
-   graphics.DrawRectangle(&amp;blackPen, layoutRect_A);
-   for ( i = 0; i &lt; count; i++)
+      &myFont, layoutRect_A, &strFormat, &blueBrush);
+   graphics.DrawRectangle(&blackPen, layoutRect_A);
+   for ( i = 0; i < count; i++)
    {
-      graphics.FillRegion(&amp;redBrush, pCharRangeRegions + i);
+      graphics.FillRegion(&redBrush, pCharRangeRegions + i);
    }
 
    // Get the regions that correspond to the ranges within the string when
    // layout rectangle B is used. Then draw the string, and show the regions.
    graphics.MeasureCharacterRanges(string, -1,
-      &amp;myFont, layoutRect_B, &amp;strFormat, count, pCharRangeRegions);
+      &myFont, layoutRect_B, &strFormat, count, pCharRangeRegions);
    graphics.DrawString(string, -1,
-      &amp;myFont, layoutRect_B, &amp;strFormat, &amp;blueBrush);
-   graphics.DrawRectangle(&amp;blackPen, layoutRect_B);
-   for ( i = 0; i &lt; count; i++)
+      &myFont, layoutRect_B, &strFormat, &blueBrush);
+   graphics.DrawRectangle(&blackPen, layoutRect_B);
+   for ( i = 0; i < count; i++)
    {
-      graphics.FillRegion(&amp;redBrush, pCharRangeRegions + i);
+      graphics.FillRegion(&redBrush, pCharRangeRegions + i);
    }
 
    // Get the regions that correspond to the ranges within the string when
@@ -211,20 +207,20 @@ The following example defines three ranges of character positions within a strin
    // regions. Then draw the string, and show the regions.
    strFormat.SetFormatFlags(StringFormatFlagsMeasureTrailingSpaces);
    graphics.MeasureCharacterRanges(string, -1,
-      &amp;myFont, layoutRect_C, &amp;strFormat, count, pCharRangeRegions);
+      &myFont, layoutRect_C, &strFormat, count, pCharRangeRegions);
    graphics.DrawString(string, -1,
-      &amp;myFont, layoutRect_C, &amp;strFormat, &amp;blueBrush);
-   graphics.DrawRectangle(&amp;blackPen, layoutRect_C);
-   for ( i = 0; i &lt; count; i++)
+      &myFont, layoutRect_C, &strFormat, &blueBrush);
+   graphics.DrawRectangle(&blackPen, layoutRect_C);
+   for ( i = 0; i < count; i++)
    {
-      graphics.FillRegion(&amp;redBrush, pCharRangeRegions + i);
+      graphics.FillRegion(&redBrush, pCharRangeRegions + i);
    }
    // Delete memory for the range regions.
    delete [] pCharRangeRegions;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

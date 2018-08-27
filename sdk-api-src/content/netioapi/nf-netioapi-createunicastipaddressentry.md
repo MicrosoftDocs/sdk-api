@@ -203,23 +203,19 @@ The <b>CreateUnicastIpAddressEntry</b> function can only be called by a user log
 
 The following example demonstrates how to use the <b>CreateUnicastIpAddressEntry</b> function to add a new unicast IP address entry on the local computer. 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 #ifndef WIN32_LEAN_AND_MEAN
 #define WIN32_LEAN_AND_MEAN
 #endif
 
-#include &lt;windows.h&gt;
-#include &lt;winsock2.h&gt;
-#include &lt;ws2ipdef.h&gt; 
-#include &lt;iphlpapi.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;stdlib.h&gt;
+#include <windows.h>
+#include <winsock2.h>
+#include <ws2ipdef.h> 
+#include <iphlpapi.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 // Need to link with Iphlpapi.lib and Ws2_32.lib
 #pragma comment(lib, "iphlpapi.lib")
@@ -270,7 +266,7 @@ int main(int argc, char **argv)  {
     }
 
 
-    status = GetIpInterfaceTable( AF_INET, &amp;pipTable );
+    status = GetIpInterfaceTable( AF_INET, &pipTable );
     if( status != NO_ERROR )
     {
         printf("GetIpInterfaceTable returned error: %ld\n", 
@@ -279,7 +275,7 @@ int main(int argc, char **argv)  {
     }
 
     // Use loopback interface
-    interfaceLuid = pipTable-&gt;Table[0].InterfaceLuid;
+    interfaceLuid = pipTable->Table[0].InterfaceLuid;
 
     localAddress.sin_family            = AF_INET;
     localAddress.sin_addr.S_un.S_addr  = ipAddress;
@@ -288,7 +284,7 @@ int main(int argc, char **argv)  {
     pipTable = NULL;    
 
     // Initialize the row
-    InitializeUnicastIpAddressEntry( &amp;ipRow );
+    InitializeUnicastIpAddressEntry( &ipRow );
 
     ipRow.InterfaceLuid = interfaceLuid;
     ipRow.Address.Ipv4 = localAddress;
@@ -301,9 +297,9 @@ int main(int argc, char **argv)  {
     }    
     
     // Use NotifyUnicastIpAddressChange to determine when the address is ready
-    NotifyUnicastIpAddressChange(AF_INET, &amp;CallCompleted, NULL, FALSE, &amp;gNotifyEvent);
+    NotifyUnicastIpAddressChange(AF_INET, &CallCompleted, NULL, FALSE, &gNotifyEvent);
 
-    status = CreateUnicastIpAddressEntry(&amp;ipRow);
+    status = CreateUnicastIpAddressEntry(&ipRow);
     if(status != NO_ERROR)
     {
         CancelMibChangeNotify2(gNotifyEvent);
@@ -371,7 +367,7 @@ void CALLBACK CallCompleted(PVOID callerContext, PMIB_UNICASTIPADDRESS_ROW row, 
     // NOTE: Is there a stronger way to do this?
     if(notificationType == MibAddInstance) {
         printf("NotifyUnicastIpAddressChange received an Add instance\n");
-        addressFamily = (ADDRESS_FAMILY) row-&gt;Address.si_family;
+        addressFamily = (ADDRESS_FAMILY) row->Address.si_family;
         switch (addressFamily) {
             case AF_INET:
                 printf("\tAddressFamily: AF_INET\n");
@@ -384,7 +380,7 @@ void CALLBACK CallCompleted(PVOID callerContext, PMIB_UNICASTIPADDRESS_ROW row, 
                 break;
        }
        if (addressFamily == AF_INET) {
-            sockv4addr = row-&gt;Address.Ipv4;
+            sockv4addr = row->Address.Ipv4;
             ipv4addr = sockv4addr.sin_addr;
             printf("IPv4 address:  %s\n", inet_ntoa(ipv4addr) );
        }     
@@ -395,10 +391,10 @@ void CALLBACK CallCompleted(PVOID callerContext, PMIB_UNICASTIPADDRESS_ROW row, 
     }    
     return;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

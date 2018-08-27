@@ -109,13 +109,9 @@ When a collection store and its sibling stores are closed with
 The following example shows adding a sibling certificate store to a collection certificate store. For a full example including the complete context for this example, see 
 <a href="https://msdn.microsoft.com/5349222f-ad68-477c-8712-fde16e68f600">Example C Program: Collection and Sibling Certificate Store Operations</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//-------------------------------------------------------------------
+
+```cpp
+//-------------------------------------------------------------------
 // Declare and initialize variables.
 
 HCERTSTORE  hCollectionStore = NULL;     // The collection store 
@@ -218,10 +214,10 @@ else
 {
     printf("There was an error while closing the memory store! \n");
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -307,16 +307,12 @@ For use on Windows XP and later, the <a href="https://msdn.microsoft.com/a2df37
 
 This example retrieves the adapter information and prints various properties of each adapter.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;winsock2.h&gt;
-#include &lt;iphlpapi.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;stdlib.h&gt;
+
+```cpp
+#include <winsock2.h>
+#include <iphlpapi.h>
+#include <stdio.h>
+#include <stdlib.h>
 #pragma comment(lib, "IPHLPAPI.lib")
 
 #define MALLOC(x) HeapAlloc(GetProcessHeap(), 0, (x))
@@ -355,7 +351,7 @@ int __cdecl main()
     }
 // Make an initial call to GetAdaptersInfo to get
 // the necessary size into the ulOutBufLen variable
-    if (GetAdaptersInfo(pAdapterInfo, &amp;ulOutBufLen) == ERROR_BUFFER_OVERFLOW) {
+    if (GetAdaptersInfo(pAdapterInfo, &ulOutBufLen) == ERROR_BUFFER_OVERFLOW) {
         FREE(pAdapterInfo);
         pAdapterInfo = (IP_ADAPTER_INFO *) MALLOC(ulOutBufLen);
         if (pAdapterInfo == NULL) {
@@ -364,22 +360,22 @@ int __cdecl main()
         }
     }
 
-    if ((dwRetVal = GetAdaptersInfo(pAdapterInfo, &amp;ulOutBufLen)) == NO_ERROR) {
+    if ((dwRetVal = GetAdaptersInfo(pAdapterInfo, &ulOutBufLen)) == NO_ERROR) {
         pAdapter = pAdapterInfo;
         while (pAdapter) {
-            printf("\tComboIndex: \t5d\n", pAdapter-&gt;ComboIndex);
-            printf("\tAdapter Name: \t%s\n", pAdapter-&gt;AdapterName);
-            printf("\tAdapter Desc: \t%s\n", pAdapter-&gt;Description);
+            printf("\tComboIndex: \t5d\n", pAdapter->ComboIndex);
+            printf("\tAdapter Name: \t%s\n", pAdapter->AdapterName);
+            printf("\tAdapter Desc: \t%s\n", pAdapter->Description);
             printf("\tAdapter Addr: \t");
-            for (i = 0; i &lt; pAdapter-&gt;AddressLength; i++) {
-                if (i == (pAdapter-&gt;AddressLength - 1))
-                    printf("%.2X\n", (int) pAdapter-&gt;Address[i]);
+            for (i = 0; i < pAdapter->AddressLength; i++) {
+                if (i == (pAdapter->AddressLength - 1))
+                    printf("%.2X\n", (int) pAdapter->Address[i]);
                 else
-                    printf("%.2X-", (int) pAdapter-&gt;Address[i]);
+                    printf("%.2X-", (int) pAdapter->Address[i]);
             }
-            printf("\tIndex: \t%d\n", pAdapter-&gt;Index);
+            printf("\tIndex: \t%d\n", pAdapter->Index);
             printf("\tType: \t");
-            switch (pAdapter-&gt;Type) {
+            switch (pAdapter->Type) {
             case MIB_IF_TYPE_OTHER:
                 printf("Other\n");
                 break;
@@ -402,30 +398,30 @@ int __cdecl main()
                 printf("Slip\n");
                 break;
             default:
-                printf("Unknown type %ld\n", pAdapter-&gt;Type);
+                printf("Unknown type %ld\n", pAdapter->Type);
                 break;
             }
 
             printf("\tIP Address: \t%s\n",
-                   pAdapter-&gt;IpAddressList.IpAddress.String);
-            printf("\tIP Mask: \t%s\n", pAdapter-&gt;IpAddressList.IpMask.String);
+                   pAdapter->IpAddressList.IpAddress.String);
+            printf("\tIP Mask: \t%s\n", pAdapter->IpAddressList.IpMask.String);
 
-            printf("\tGateway: \t%s\n", pAdapter-&gt;GatewayList.IpAddress.String);
+            printf("\tGateway: \t%s\n", pAdapter->GatewayList.IpAddress.String);
             printf("\t***\n");
 
-            if (pAdapter-&gt;DhcpEnabled) {
+            if (pAdapter->DhcpEnabled) {
                 printf("\tDHCP Enabled: Yes\n");
                 printf("\t  DHCP Server: \t%s\n",
-                       pAdapter-&gt;DhcpServer.IpAddress.String);
+                       pAdapter->DhcpServer.IpAddress.String);
 
                 printf("\t  Lease Obtained: ");
                 /* Display local time */
-                error = _localtime32_s(&amp;newtime, (__time32_t*) &amp;pAdapter-&gt;LeaseObtained);
+                error = _localtime32_s(&newtime, (__time32_t*) &pAdapter->LeaseObtained);
                 if (error)
                     printf("Invalid Argument to _localtime32_s\n");
                 else {
                     // Convert to an ASCII representation 
-                    error = asctime_s(buffer, 32, &amp;newtime);
+                    error = asctime_s(buffer, 32, &newtime);
                     if (error)
                         printf("Invalid Argument to asctime_s\n");
                     else
@@ -434,12 +430,12 @@ int __cdecl main()
                 }
 
                 printf("\t  Lease Expires:  ");
-                error = _localtime32_s(&amp;newtime, (__time32_t*) &amp;pAdapter-&gt;LeaseExpires);
+                error = _localtime32_s(&newtime, (__time32_t*) &pAdapter->LeaseExpires);
                 if (error)
                     printf("Invalid Argument to _localtime32_s\n");
                 else {
                     // Convert to an ASCII representation 
-                    error = asctime_s(buffer, 32, &amp;newtime);
+                    error = asctime_s(buffer, 32, &newtime);
                     if (error)
                         printf("Invalid Argument to asctime_s\n");
                     else
@@ -449,15 +445,15 @@ int __cdecl main()
             } else
                 printf("\tDHCP Enabled: No\n");
 
-            if (pAdapter-&gt;HaveWins) {
+            if (pAdapter->HaveWins) {
                 printf("\tHave Wins: Yes\n");
                 printf("\t  Primary Wins Server:    %s\n",
-                       pAdapter-&gt;PrimaryWinsServer.IpAddress.String);
+                       pAdapter->PrimaryWinsServer.IpAddress.String);
                 printf("\t  Secondary Wins Server:  %s\n",
-                       pAdapter-&gt;SecondaryWinsServer.IpAddress.String);
+                       pAdapter->SecondaryWinsServer.IpAddress.String);
             } else
                 printf("\tHave Wins: No\n");
-            pAdapter = pAdapter-&gt;Next;
+            pAdapter = pAdapter->Next;
             printf("\n");
         }
     } else {
@@ -469,10 +465,10 @@ int __cdecl main()
 
     return 0;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

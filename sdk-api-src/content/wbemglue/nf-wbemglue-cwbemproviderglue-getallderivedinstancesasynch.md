@@ -81,20 +81,16 @@ Pointer for the callback function pointed to by <i>pCallback</i>.
 
 Pointer to a <b>static</b> function with this prototype.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>  static HRESULT WINAPI Classname::FunctionName(
+
+```cpp
+  static HRESULT WINAPI Classname::FunctionName(
      Provider *pProvider,
      CInstance *pInstance,
      MethodContext *pMethodContext,
-     void *pUserData );</pre>
-</td>
-</tr>
-</table></span></div>
+     void *pUserData );
+```
+
+
 where Classname is the name of a class derived from class <a href="https://msdn.microsoft.com/d8a7c433-7e6a-45cc-914f-a15a3688c7aa">Provider</a>. It is an instance of this class that is the "this" pointer defined by <i>pRequester</i>. This function is called to return each instance supported by the provider specified by <i>pszClassName</i>.
 
 

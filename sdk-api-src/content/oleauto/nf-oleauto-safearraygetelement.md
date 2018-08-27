@@ -149,13 +149,9 @@ This function calls <a href="https://msdn.microsoft.com/cb29d862-c7c5-4852-b017-
 
 The following example is taken from the COM Fundamentals SPoly sample (Cenumpt.cpp).
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>STDMETHODIMP CEnumPoint::Next(
+
+```cpp
+STDMETHODIMP CEnumPoint::Next(
    ULONG celt,
    VARIANT  rgvar[],
    ULONG * pceltFetched)
@@ -164,10 +160,10 @@ The following example is taken from the COM Fundamentals SPoly sample (Cenumpt.c
    long ix;
    HRESULT hresult;
 
-   for(i = 0; i &lt; celt; ++i)
-      VariantInit(&amp;rgvar[i]);
+   for(i = 0; i < celt; ++i)
+      VariantInit(&rgvar[i]);
 
-   for(i = 0; i &lt; celt; ++i){
+   for(i = 0; i < celt; ++i){
       // Are we at the last element?
       if(m_iCurrent == m_celts){
       hresult = S_FALSE;
@@ -176,7 +172,7 @@ The following example is taken from the COM Fundamentals SPoly sample (Cenumpt.c
 
       ix = m_iCurrent++;
       // m_psa is a global variable that holds the safe array.
-      hresult = SafeArrayGetElement(m_psa, &amp;ix, &amp;rgvar[i]);
+      hresult = SafeArrayGetElement(m_psa, &ix, &rgvar[i]);
       if(FAILED(hresult))
          goto LError0;
    }
@@ -189,12 +185,12 @@ LDone:;
    return hresult;
 
 LError0:;
-   for(i = 0; i &lt; celt; ++i)
-      VariantClear(&amp;rgvar[i]);
+   for(i = 0; i < celt; ++i)
+      VariantClear(&rgvar[i]);
    return hresult;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 

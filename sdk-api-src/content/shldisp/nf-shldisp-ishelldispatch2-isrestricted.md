@@ -136,13 +136,9 @@ The following examples show the use of <b>IsRestricted</b> to retrieve the data 
 JScript:
                 
 
-<div class="code"><span codelanguage="JScript"><table>
-<tr>
-<th>JScript</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;script language="JScript"&gt;
+
+```javascript
+<script language="JScript">
     function fnIsRestricedJ()
     {
         var objShell = new ActiveXObject("shell.application");
@@ -151,20 +147,16 @@ JScript:
         lReturn = objShell.IsRestricted("system", "undockwithoutlogon");
         document.write(lReturn);
     }
-&lt;/script&gt;
-</pre>
-</td>
-</tr>
-</table></span></div>
+</script>
+
+```
+
+
 VBScript:
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;script language="VBScript"&gt;
+
+```vb
+<script language="VBScript">
     function fnIsRestricedVB()
         dim objShell
         dim lReturn
@@ -176,10 +168,10 @@ VBScript:
 
         set objShell = nothing
     end function
-&lt;/script&gt;
-</pre>
-</td>
-</tr>
-</table></span></div>
+</script>
+
+```
+
+
 
 

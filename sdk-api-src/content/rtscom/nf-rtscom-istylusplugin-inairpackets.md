@@ -128,13 +128,9 @@ Packets can be bundled for more efficient data transfer. Therefore a plug-in is 
 
 The following C++ code example implements a <a href="https://msdn.microsoft.com/c6a3d563-4776-4ac6-bdc3-798192ba4546">IStylusPlugin::Packets Method</a> method that modifies the X,Y data to restrain the packets to a rectangle. The same code could be applied to an implementation of <b>IStylusPlugin::InAirPackets Method</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>STDMETHODIMP CPacketModifier::Packets( 
+
+```cpp
+STDMETHODIMP CPacketModifier::Packets( 
             /* [in] */ IRealTimeStylus *piRtsSrc,
             /* [in] */ const StylusInfo *pStylusInfo,
             /* [in] */ ULONG cPktCount,
@@ -154,7 +150,7 @@ The following C++ code example implements a <a href="https://msdn.microsoft.com/
 	// its X,Y values fall outside of the specified rectangle.  
 	// If so, replace them with the nearest point that still
 	// falls within the rectangle.
-	for (ULONG i = 0; i &lt; cPktCount; i += cPropertyCount)
+	for (ULONG i = 0; i < cPktCount; i += cPropertyCount)
 	{
 		// Packet data always has X followed by Y 
 		// followed by the rest
@@ -162,10 +158,10 @@ The following C++ code example implements a <a href="https://msdn.microsoft.com/
 		LONG y = pPackets[i+1];
 
 		// Constrain points to the input rectangle
-		x = (x &lt; m_filterRect.left ? m_filterRect.left : x);
-		x = (x &gt; m_filterRect.right ? m_filterRect.right : x);
-		y = (y &lt; m_filterRect.top ? m_filterRect.top : y);
-		y = (y &gt; m_filterRect.bottom ? m_filterRect.bottom : y);
+		x = (x < m_filterRect.left ? m_filterRect.left : x);
+		x = (x > m_filterRect.right ? m_filterRect.right : x);
+		y = (y < m_filterRect.top ? m_filterRect.top : y);
+		y = (y > m_filterRect.bottom ? m_filterRect.bottom : y);
 
 		// If necessary, modify the X,Y packet data
 		if ((x != pPackets[i]) || (y != pPackets[i+1]))
@@ -175,7 +171,7 @@ The following C++ code example implements a <a href="https://msdn.microsoft.com/
 			iOtherProps = i+2;
 		
 			// Copy the properties that we haven't modified
-			while (iOtherProps &lt; (i + cPropertyCount))
+			while (iOtherProps < (i + cPropertyCount))
 			{
 				pTempOutPkts[iOtherProps] = pPackets[iOtherProps++];
 			}
@@ -199,10 +195,10 @@ The following C++ code example implements a <a href="https://msdn.microsoft.com/
 
 	return S_OK;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

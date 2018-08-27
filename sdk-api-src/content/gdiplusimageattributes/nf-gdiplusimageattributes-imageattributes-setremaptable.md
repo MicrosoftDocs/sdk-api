@@ -114,13 +114,9 @@ As soon as you specify a color- or grayscale-adjustment setting for a certain ca
 
 The following example creates an <a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object based on a .bmp file and then draws the image. The code creates an <a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a> object and sets its default remap table so that red is converted to blue. Then the code draws the image again using the color adjustment specified by the remap table.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 VOID Example_SetRemapTable(HDC hdc)
 {
    Graphics graphics(hdc);
@@ -134,23 +130,23 @@ VOID Example_SetRemapTable(HDC hdc)
    ColorMap cMap;
    cMap.oldColor = Color(255, 255, 0, 0);  // red 
    cMap.newColor = Color(255, 0, 0, 255);  // blue
-   imageAtt.SetRemapTable(12, &amp;cMap,
+   imageAtt.SetRemapTable(12, &cMap,
       ColorAdjustTypeDefault);
 
    // Draw the image with no color adjustment.
-   graphics.DrawImage(&amp;image, 10, 10, image.GetWidth(), image.GetHeight());
+   graphics.DrawImage(&image, 10, 10, image.GetWidth(), image.GetHeight());
  
    // Draw the image with red converted to blue.
-   graphics.DrawImage(&amp;image,
+   graphics.DrawImage(&image,
       Rect(100, 10, image.GetWidth(), image.GetHeight()),  // dest rect
       0, 0, image.GetWidth(), image.GetHeight(),           // source rect
       UnitPixel,
-      &amp;imageAtt);
+      &imageAtt);
 }
-				</pre>
-</td>
-</tr>
-</table></span></div>
+				
+```
+
+
 The following illustration shows the output of the preceding code.
 
 <img alt="Illustration showing a rectangle with red and green regions, then the same rectangle with the red region replaced with blue" src="./images/imageattributessetremaptable.png"/>

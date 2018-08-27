@@ -99,34 +99,26 @@ The following examples use <a href="https://msdn.microsoft.com/54979bbd-b36b-4b5
 JScript:
                 
 
-<div class="code"><span codelanguage="JScript"><table>
-<tr>
-<th>JScript</th>
-</tr>
-<tr>
-<td>
-<pre>
-&lt;script language="JScript"&gt;
+
+```javascript
+
+<script language="JScript">
     function fnShellControlPanelItemJ()
     {
         var objShell = new ActiveXObject("shell.application");
         
         objshell.Shell_ControlPanelItem("desk.cpl");
     }
-&lt;/script&gt;</pre>
-</td>
-</tr>
-</table></span></div>
+</script>
+```
+
+
 VBScript:
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>
-&lt;script language="VBScript"&gt;
+
+```vb
+
+<script language="VBScript">
     function fnShellControlPanelItemVB()
         dim objShell
         
@@ -135,19 +127,15 @@ VBScript:
        
         set objShell = nothing
     end function
- &lt;/script&gt;</pre>
-</td>
-</tr>
-</table></span></div>
+ </script>
+```
+
+
 Visual Basic:
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```vb
+
 Private Sub fnShellControlPanelItemVB()
     Dim objShell As Shell
     
@@ -155,9 +143,9 @@ Private Sub fnShellControlPanelItemVB()
     objshell.Shell_ControlPanelItem ("desk.cpl")
     
     Set objShell = Nothing
-End Sub</pre>
-</td>
-</tr>
-</table></span></div>
+End Sub
+```
+
+
 
 

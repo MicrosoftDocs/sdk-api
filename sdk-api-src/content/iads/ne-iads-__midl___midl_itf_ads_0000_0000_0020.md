@@ -93,22 +93,18 @@ The  <a href="https://msdn.microsoft.com/e8989795-8f72-476a-a69e-c0e8800289ab">I
 
 The following code example shows how to set the search preference for alias dereferencing. m_pSearch refers to a pointer to an object implementing the <a href="https://msdn.microsoft.com/e8989795-8f72-476a-a69e-c0e8800289ab">IDirectorySearch</a> interface.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>ADS_SEARCHPREF_INFO prefInfo[1];
+
+```cpp
+ADS_SEARCHPREF_INFO prefInfo[1];
 HRESULT hr;
  
 prefInfo[0].dwSearchPref   = ADS_SEARCHPREF_DEREF_ALIASES;
 prefInfo[0].vValue.dwType  = ADSTYPE_INTEGER;
 prefInfo[0].vValue.Integer = ADS_DEREF_ALWAYS;
-hr = m_pSearch-&gt;SetSearchPreference(prefInfo, 1);</pre>
-</td>
-</tr>
-</table></span></div>
+hr = m_pSearch->SetSearchPreference(prefInfo, 1);
+```
+
+
 
 
 

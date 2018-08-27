@@ -78,14 +78,10 @@ The address of a callback function used to read from and write data to a disk wh
 
 The callback function must have the following signature and parameters:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;Wincrypt.h&gt;
+
+```cpp
+#include <windows.h>
+#include <Wincrypt.h>
 
 BOOL WINAPI CmsgStreamOutputCallback(
   IN const void *pvArg,  //in
@@ -93,10 +89,10 @@ BOOL WINAPI CmsgStreamOutputCallback(
   IN DWORD cbData,       //in
   IN BOOL fFinal         //in
 );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 <table>
 <tr>
 <th>Value</th>

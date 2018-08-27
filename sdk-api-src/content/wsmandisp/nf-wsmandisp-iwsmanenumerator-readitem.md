@@ -90,18 +90,14 @@ The <a href="https://msdn.microsoft.com/ed8ad3ad-d033-45cb-b681-995c5f73b12e">Se
 
 The following VBScript example calls the <a href="https://msdn.microsoft.com/ed8ad3ad-d033-45cb-b681-995c5f73b12e">Session.Enumerate</a> method to obtain a list of scheduled jobs.  The DisplayOutput subroutine uses the Winrm command line tool XML transform file (WsmTxt.xsl) to output the data in a tabular form.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Const RemoteComputer = "servername.domain.com"
+
+```vb
+Const RemoteComputer = "servername.domain.com"
 
 Set objWsman = CreateObject( "WSMan.Automation" )
-Set objSession = objWsman.CreateSession( "http://" &amp; RemoteComputer )
+Set objSession = objWsman.CreateSession( "http://" & RemoteComputer )
 
-strResource = "http://schemas.microsoft.com/wbem/wsman/1/" &amp;_
+strResource = "http://schemas.microsoft.com/wbem/wsman/1/" &_
               "wmi/root/cimv2/Win32_ScheduledJob"
 
 Set objResultSet = objSession.Enumerate( strResource )
@@ -112,7 +108,7 @@ While Not objResultSet.AtEndOfStream
     DisplayOutput( objResultSet.ReadItem ) 
 Wend
 
-Wscript.Echo "There are " &amp; NumOfJobs &amp; " jobs scheduled."
+Wscript.Echo "There are " & NumOfJobs & " jobs scheduled."
 
 '****************************************************
 ' Displays WinRM XML message using built-in XSL
@@ -124,10 +120,10 @@ Sub DisplayOutput( strWinRMXml )
     xmlFile.LoadXml( strWinRMXml )
     xslFile.Load( "WsmTxt.xsl" )
     Wscript.Echo xmlFile.TransformNode( xslFile ) 
-End Sub</pre>
-</td>
-</tr>
-</table></span></div>
+End Sub
+```
+
+
 
 
 

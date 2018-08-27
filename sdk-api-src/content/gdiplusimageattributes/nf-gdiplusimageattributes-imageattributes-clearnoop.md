@@ -102,13 +102,9 @@ The following example creates an <a href="https://msdn.microsoft.com/en-us/libra
 
 The code calls <a href="https://msdn.microsoft.com/en-us/library/ms536037(v=VS.85).aspx">DrawImage</a> three times, each time passing the address of the <a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object and the address of the <a href="https://msdn.microsoft.com/en-us/library/ms534464(v=VS.85).aspx">ImageAttributes</a> object. When the image is drawn the first time, all the red painted by brushes is converted to green. (The red drawn by pens is not changed.) Before the image is drawn the second time, the code calls the <a href="https://msdn.microsoft.com/en-us/library/ms535433(v=VS.85).aspx">ImageAttributes::SetNoOp</a> method of the <b>ImageAttributes</b> object. So when the image is drawn the second time, no color adjustment is applied to brushes. Before the image is drawn the third time, the code calls the <b>ImageAttributes::ClearNoOp</b> method, which reinstates the brush color-adjustment settings. So when the image is drawn the third time, all the red painted by brushes is converted to green.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 VOID Example_SetClearNoOp(HDC hdc)
 {
    Graphics graphics(hdc);
@@ -124,18 +120,18 @@ VOID Example_SetClearNoOp(HDC hdc)
       0.0f, 0.0f, 0.0f, 0.0f, 1.0f};
 
    imAtt.SetColorMatrix(
-      &amp;brushMatrix, 
+      &brushMatrix, 
       ColorMatrixFlagsDefault, 
       ColorAdjustTypeBrush);
 
    // Draw the image (metafile) using brush color adjustment.
    // Items filled with a brush change from red to green.
    graphics.DrawImage(
-      &amp;image,
+      &image,
       Rect(0, 0, image.GetWidth(), image.GetHeight()),  // dest rect
       0, 0, image.GetWidth(), image.GetHeight(),        // source rect
       UnitPixel,
-      &amp;imAtt);
+      &imAtt);
 
    // Temporarily disable brush color adjustment.
    imAtt.SetNoOp(ColorAdjustTypeBrush);
@@ -143,11 +139,11 @@ VOID Example_SetClearNoOp(HDC hdc)
    // Draw the image (metafile) without brush color adjustment.
    // There is no change from red to green.
    graphics.DrawImage(
-      &amp;image,
+      &image,
       Rect(0, 80, image.GetWidth(), image.GetHeight()),  // dest rect
       0, 0, image.GetWidth(), image.GetHeight(),          // source rect
       UnitPixel,
-      &amp;imAtt);
+      &imAtt);
 
    // Reinstate brush color adjustment.
    imAtt.ClearNoOp(ColorAdjustTypeBrush);
@@ -155,16 +151,16 @@ VOID Example_SetClearNoOp(HDC hdc)
    // Draw the image (metafile) using brush color adjustment.
    // Items filled with a brush change from red to green.
    graphics.DrawImage(
-      &amp;image,
+      &image,
       Rect(0, 160, image.GetWidth(), image.GetHeight()),  // dest rect
       0, 0, image.GetWidth(), image.GetHeight(),          // source rect
       UnitPixel,
-      &amp;imAtt);
+      &imAtt);
 }
-				</pre>
-</td>
-</tr>
-</table></span></div>
+				
+```
+
+
 
 
 

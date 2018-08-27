@@ -89,33 +89,25 @@ The following examples show the use of <b>FindComputer</b> in JScript, VBScript,
 JScript:
                 
 
-<div class="code"><span codelanguage="JScript"><table>
-<tr>
-<th>JScript</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;script language="JScript"&gt;
+
+```javascript
+<script language="JScript">
     function fnShellFindComputerJ()
     {
         var objShell = new ActiveXObject("shell.application");
         
         objshell.FindComputer();
     }
-&lt;/script&gt;
-</pre>
-</td>
-</tr>
-</table></span></div>
+</script>
+
+```
+
+
 VBScript:
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre> &lt;script language="VBScript"&gt;
+
+```vb
+ <script language="VBScript">
     function fnShellFindComputerVB()
         dim objShell
         dim ssfWINDOWS
@@ -126,20 +118,16 @@ VBScript:
 
         set objShell = nothing
     end function
- &lt;/script&gt;
-</pre>
-</td>
-</tr>
-</table></span></div>
+ </script>
+
+```
+
+
 Visual Basic:
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Private Sub fnShellFindComputerVB()
+
+```vb
+Private Sub fnShellFindComputerVB()
     Dim objShell As Shell
 
     Set objShell = New Shell
@@ -147,9 +135,9 @@ Visual Basic:
 
     Set objShell = Nothing
 End Sub
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

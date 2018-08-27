@@ -198,13 +198,9 @@ The following example illustrates the procedure described above. For a more comp
      This example uses the  <a href="https://msdn.microsoft.com/en-us/library/Aa367743(v=VS.85).aspx">ClusDocEx.h</a> header file defined in the 
      Failover Cluster documentation.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 int main( void )
 {
     WCHAR szPath[] = L"c:\\ClusBack\\19991215";
@@ -257,10 +253,10 @@ int main( void )
     }
 
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

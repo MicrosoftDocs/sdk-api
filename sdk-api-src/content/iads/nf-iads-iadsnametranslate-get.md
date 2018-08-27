@@ -92,69 +92,57 @@ When referral chasing is on, this method will attempt to chase and resolve the p
 
 The following C/C++ code example shows how to translate a distinguished name that is compliant with RFC 1779 to a GUID format. The computer name of the directory server is "myServer".
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IADsNameTranslate *pNto;
+
+```cpp
+IADsNameTranslate *pNto;
 HRESULT hr;
 hr = CoCreateInstance(CLSID_NameTranslate,
                       NULL,
                       CLSCTX_INPROC_SERVER,
                       IID_IADsNameTranslate,
-                      (void**)&amp;pNto);
+                      (void**)&pNto);
 if(FAILED(hr)) { exit 1;}
  
-hr = pNto-&gt;Init(ADS_NAME_INITTYPE_SERVER,
+hr = pNto->Init(ADS_NAME_INITTYPE_SERVER,
                   CComBSTR("myServer"));
 if (FAILED(hr)) { exit 1;}
  
-hr =pNto-&gt;Set(ADS_NAME_TYPE_1779, CComBSTR
+hr =pNto->Set(ADS_NAME_TYPE_1779, CComBSTR
   ("CN=jeff,CN=Users,DC=myDomain,DC=Fabrikam,DC=COM,O=Internet"));
 if(FAILED(hr)) {exit 1;}
  
 BSTR bstr;
-hr = pNto-&gt;Get(ADS_NAME_TYPE_GUID, &amp;bstr);
+hr = pNto->Get(ADS_NAME_TYPE_GUID, &bstr);
 printf("Translation: %S\n", bstr);
  
 SysFreeString(bstr);
-pNto-&gt;Release();</pre>
-</td>
-</tr>
-</table></span></div>
+pNto->Release();
+```
+
+
 The following Visual Basic code example shows how to translate a distinguished name that is compliant RFC 1779 to a GUID format. The computer name of the directory server is "myServer".
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim nto As New NameTranslate
+
+```vb
+Dim nto As New NameTranslate
 Dim result As String
  
 dn = "CN=rob,CN=Users,DC=myDomain,DC=Fabrikam,DC=COM,O=Internet" 
 nto.Init ADS_NAME_INITTYPE_SERVER, "myServer"
 nto.Set ADS_NAME_TYPE_1779, dn
 result = nto.Get ADS_NAME_TYPE_GUID
-MsgBox result</pre>
-</td>
-</tr>
-</table></span></div>
+MsgBox result
+```
+
+
 The following VBScript/ASP code example shows how to translate a distinguished name that is compliant with RFC 1779 to a GUID format. The machine name of the directory server is "myServer".
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;%@ Language=VBScript %&gt;
-&lt;html&gt;
-&lt;body&gt;
-&lt;%
+
+```vb
+<%@ Language=VBScript %>
+<html>
+<body>
+<%
   Dim nto
   const ADS_NAME_INITTYPE_SERVER = 2
   const ADS_NAME_TYPE_1779 = 1
@@ -170,14 +158,14 @@ The following VBScript/ASP code example shows how to translate a distinguished n
   nto.Set ADS_NAME_TYPE_1779, dn
   result = nto.Get(ADS_NAME_TYPE_GUID)
  
-  Response.Write "&lt;p&gt;Translated name: " &amp; result
+  Response.Write "<p>Translated name: " & result
  
-%&gt;
-&lt;/body&gt;
-&lt;/html&gt;</pre>
-</td>
-</tr>
-</table></span></div>
+%>
+</body>
+</html>
+```
+
+
 
 
 

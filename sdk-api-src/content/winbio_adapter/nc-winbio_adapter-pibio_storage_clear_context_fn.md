@@ -119,13 +119,9 @@ The following storage adapter context items should be cleared:
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>/////////////////////////////////////////////////////////////////////////////////////////
+
+```cpp
+/////////////////////////////////////////////////////////////////////////////////////////
 //
 // StorageAdapterClearContext
 //
@@ -154,7 +150,7 @@ StorageAdapterClearContext(
 
     // Retrieve the context from the pipeline.
     PWINBIO_STORAGE_CONTEXT storageContext = 
-           (PWINBIO_STORAGE_CONTEXT)Pipeline-&gt;StorageContext;
+           (PWINBIO_STORAGE_CONTEXT)Pipeline->StorageContext;
 
     // Verify the pipeline state.
     if (storageContext == NULL)
@@ -166,22 +162,22 @@ StorageAdapterClearContext(
     // Release data structures attached to the context. The following
     // example code shows how to release structures that will likely 
     // be associated with your adapter context.
-    _ResultSetClearContents(&amp;storageContext-&gt;ResultSet);
-    if (storageContext-&gt;RawRecordData != NULL)
+    _ResultSetClearContents(&storageContext->ResultSet);
+    if (storageContext->RawRecordData != NULL)
     {
-        _AdapterRelease(storageContext-&gt;RawRecordData);
-        storageContext-&gt;RawRecordData = NULL;
-        storageContext-&gt;PayloadBlob = NULL;
+        _AdapterRelease(storageContext->RawRecordData);
+        storageContext->RawRecordData = NULL;
+        storageContext->PayloadBlob = NULL;
     }
-    if (storageContext-&gt;DecryptedTemplate != NULL)
+    if (storageContext->DecryptedTemplate != NULL)
     {
         SecureZeroMemory(
-            storageContext-&gt;DecryptedTemplate, 
-            storageContext-&gt;DecryptedTemplateSize
+            storageContext->DecryptedTemplate, 
+            storageContext->DecryptedTemplateSize
             );
-        _AdapterRelease(storageContext-&gt;DecryptedTemplate);
-        storageContext-&gt;DecryptedTemplate = NULL;
-        storageContext-&gt;DecryptedTemplateSize = 0;
+        _AdapterRelease(storageContext->DecryptedTemplate);
+        storageContext->DecryptedTemplate = NULL;
+        storageContext->DecryptedTemplateSize = 0;
     }
 
     // TODO: Release any other allocated data structures attached
@@ -191,10 +187,10 @@ cleanup:
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

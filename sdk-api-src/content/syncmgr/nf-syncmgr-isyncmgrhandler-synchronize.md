@@ -143,13 +143,9 @@ Another difference between <b>ISyncMgrHandler::Synchronize</b> and <a href="http
 
 The following example shows an implementation of this method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>STDMETHODIMP CMyDeviceHandler::Synchronize(__in_ecount(cItems) LPCWSTR *ppszItemIDs,
+
+```cpp
+STDMETHODIMP CMyDeviceHandler::Synchronize(__in_ecount(cItems) LPCWSTR *ppszItemIDs,
                               __in ULONG                   cItems,
                               __in HWND                    hwndOwner,
                               __in ISyncMgrSessionCreator *pCreator,
@@ -161,10 +157,10 @@ The following example shows an implementation of this method.
     // this method.
     ISyncMgrSyncCallback *pCallback = NULL;
     
-    hr = pCreator-&gt;CreateSession(_szHandlerID, ppszItemIDs, cItems,&amp;pCallback);
+    hr = pCreator->CreateSession(_szHandlerID, ppszItemIDs, cItems,&pCallback);
     if (SUCCEEDED(hr))
     {
-        for (ULONG iItem = 0; iItem &lt; cItems; iItem++)
+        for (ULONG iItem = 0; iItem < cItems; iItem++)
         {
             SYNCMGR_CANCEL_REQUEST nCancelRequest = SYNCMGR_CR_NONE;
             ULONG   uCurrentStep = 1;
@@ -179,7 +175,7 @@ The following example shows an implementation of this method.
             // specifics of how the handler has implemented its storage of 
             // its items. Its internal details can remain transparent as 
             // they have no bearing on this example.
-            hr = _FindItem(pszItemID, &amp;pItem);
+            hr = _FindItem(pszItemID, &pItem);
             if (FAILED(hr))
             {
                 // _ReportProgress is another private class function that loads
@@ -192,7 +188,7 @@ The following example shows an implementation of this method.
                                 SYNCMGR_PS_FAILED, 
                                 0, 
                                 0, 
-                                &amp;nCancelRequest);
+                                &nCancelRequest);
 
                 if (nCancelRequest != SYNCMGR_CR_NONE)
                 {
@@ -208,9 +204,9 @@ The following example shows an implementation of this method.
                             SYNCMGR_PS_UPDATING, 
                             uCurrentStep, 
                             cMaxSteps,
-                            &amp;nCancelRequest);
+                            &nCancelRequest);
 
-            for (; uCurrentStep &lt; cMaxSteps; uCurrentStep++)
+            for (; uCurrentStep < cMaxSteps; uCurrentStep++)
             {
                 if (nCancelRequest != SYNCMGR_CR_NONE)
                 {
@@ -224,12 +220,12 @@ The following example shows an implementation of this method.
                                  uCurrentStep + 1, 
                                  cMaxSteps);
 
-                pCallback-&gt;ReportProgress(pszItemID, 
+                pCallback->ReportProgress(pszItemID, 
                                           szProgressText,
                                           SYNCMGR_PS_UPDATING,
                                           uCurrentStep, 
                                           cMaxSteps,
-                                          &amp;nCancelRequest);
+                                          &nCancelRequest);
 
                 // The code that accomplishes the synchronization goes here.
                 // This code depends entirely on the nature of the items
@@ -250,7 +246,7 @@ The following example shows an implementation of this method.
                                 nStatus, 
                                 uCurrentStep - 1, 
                                 cMaxSteps, 
-                                &amp;nCancelRequest);
+                                &nCancelRequest);
             }
 
             hr = S_OK;
@@ -261,14 +257,14 @@ The following example shows an implementation of this method.
             }
         }
 
-        pCallback-&gt;Release();
+        pCallback->Release();
     }
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

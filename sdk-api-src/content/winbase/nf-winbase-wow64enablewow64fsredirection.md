@@ -178,13 +178,9 @@ No
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifdef _WIN32_WINNT
+
+```cpp
+#ifdef _WIN32_WINNT
 #undef _WIN32_WINNT
 #endif
 #define _WIN32_WINNT 0x0501
@@ -194,7 +190,7 @@ No
 #endif
 #define NTDDI_VERSION 0x05010000
 
-#include &lt;Windows.h&gt;
+#include <Windows.h>
 
 void main()
  {
@@ -232,10 +228,10 @@ void main()
     // Use the file handle
    }
  }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

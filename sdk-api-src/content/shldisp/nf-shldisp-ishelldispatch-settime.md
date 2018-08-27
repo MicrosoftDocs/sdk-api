@@ -89,33 +89,25 @@ The following examples show the use of <b>SetTime</b> in JScript, VBScript, and 
 JScript:
                 
 
-<div class="code"><span codelanguage="JScript"><table>
-<tr>
-<th>JScript</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;script language="JScript"&gt;
+
+```javascript
+<script language="JScript">
     function fnShellSetTimeJ()
     {
         var objShell = new ActiveXObject("shell.application");
         
         objshell.SetTime();
     }
-&lt;/script&gt;
-</pre>
-</td>
-</tr>
-</table></span></div>
+</script>
+
+```
+
+
 VBScript:
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;script language="VBScript"&gt;
+
+```vb
+<script language="VBScript">
     function fnShellSetTimeVB()
         dim objShell
         
@@ -124,28 +116,24 @@ VBScript:
  
         set objShell = nothing
     end function
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Visual Basic:
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Private Sub fnShellSetTimeVB()
+
+```vb
+Private Sub fnShellSetTimeVB()
     Dim objShell As Shell
     
     Set objShell = New Shell
     objshell.SetTime
  
     Set objShell = Nothing
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

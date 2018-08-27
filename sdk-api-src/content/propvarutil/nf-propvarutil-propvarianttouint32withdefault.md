@@ -98,27 +98,23 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776572(v=VS.85).aspx">PropVariantToUInt32WithDefault</a> to access a <b>ULONG</b> value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// IPropertyStore *ppropstore;
+
+```cpp
+// IPropertyStore *ppropstore;
 // Assume variable ppropstore is initialized and valid
 PROPVARIANT propvar = {0};
-HRESULT hr = ppropstore-&gt;GetValue(PKEY_Rating, &amp;propvar);
+HRESULT hr = ppropstore->GetValue(PKEY_Rating, &propvar);
 if (SUCCEEDED(hr))
 {
      // PKEY_Rating is expected to produce a VT_UI4 or VT_EMPTY value.
      // The application developer decided to treat VT_EMPTY or invalid values as 0
      ULONG uRating = PropVariantToUInt32WithDefault(propvar, 0);
      // uRating is now valid.
-     PropVariantClear(&amp;propvar);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+     PropVariantClear(&propvar);
+}
+```
+
+
 
 
 
