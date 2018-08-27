@@ -296,18 +296,14 @@ Returns a <a href="https://msdn.microsoft.com/2215335a-1858-437f-8654-2e9d601fe0
 <b>Cluster</b> is a top-level object, allowing new object 
     instances to be created. For example:
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim objCluster as Cluster
+
+```vb
+Dim objCluster as Cluster
 Set objCluster = New Cluster
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

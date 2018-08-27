@@ -89,21 +89,17 @@ The full-screen magnifier uses the color transformation matrix to apply a color 
 
 The following example retrieves the color transformation matrix associated with the full-screen magnifier.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>        // Get the current color effect.
+
+```cpp
+        // Get the current color effect.
         MAGCOLOREFFECT magEffect;
 
-        if (!MagGetFullscreenColorEffect(&amp;magEffect))
+        if (!MagGetFullscreenColorEffect(&magEffect))
             return E_FAIL;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

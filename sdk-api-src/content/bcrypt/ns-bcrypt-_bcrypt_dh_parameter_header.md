@@ -91,13 +91,9 @@ This structure is used as a header for a larger buffer. The single memory block 
 
 The following example shows how to calculate the sizes needed for this buffer and how to fill in the members of this structure.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// In this example, the rgbModulus variable is a byte array that contains the modulus in big-endian byte order. 
+
+```cpp
+// In this example, the rgbModulus variable is a byte array that contains the modulus in big-endian byte order. 
 // The rgbGenerator variable is a byte array that contains the generator in big-endian byte order.
 
 ULONG cbDHParams = sizeof(BCRYPT_DH_PARAMETER_HEADER) +     (cbKeySize * 2);
@@ -110,24 +106,24 @@ if(!pbDHParams)
 
 BCRYPT_DH_PARAMETER_HEADER *pDHParamHeader;
 pDHParamHeader = (BCRYPT_DH_PARAMETER_HEADER*)pbDHParams;
-pDHParamHeader-&gt;cbLength = cbDHParams;
-pDHParamHeader-&gt;cbKeyLength = cbKeySize;
-pDHParamHeader-&gt;dwMagic = BCRYPT_DH_PARAMETERS_MAGIC;
+pDHParamHeader->cbLength = cbDHParams;
+pDHParamHeader->cbKeyLength = cbKeySize;
+pDHParamHeader->dwMagic = BCRYPT_DH_PARAMETERS_MAGIC;
 
 // Add the modulus to the parameters.
 // The rgbModulus argument is a byte array that contains the modulus.
 PBYTE pbTemp = (PBYTE)pbDHParams + sizeof(BCRYPT_DH_PARAMETER_HEADER);
-CopyMemory(pbTemp, rgbModulus, pDHParamHeader-&gt;cbKeyLength);
+CopyMemory(pbTemp, rgbModulus, pDHParamHeader->cbKeyLength);
 
 // Add the generator to the parameters.
 // The rgbGenerator argument is a byte array that contains the generator.
-pbTemp += pDHParamHeader-&gt;cbKeyLength;
-CopyMemory(pbTemp, rgbGenerator, pDHParamHeader-&gt;cbKeyLength);
+pbTemp += pDHParamHeader->cbKeyLength;
+CopyMemory(pbTemp, rgbGenerator, pDHParamHeader->cbKeyLength);
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

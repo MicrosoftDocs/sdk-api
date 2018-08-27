@@ -83,17 +83,13 @@ The <b>MF_CAPTURE_METADATA_FACEROITIMESTAMPS</b> attribute contains the time sta
 
 For the <b>Flags</b> field, the following bit flags  indicate which time stamp is valid:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#define MF_METADATATIMESTAMPS_DEVICE        0x00000001
-#define MF_METADATATIMESTAMPS_PRESENTATION  0x00000002</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+#define MF_METADATATIMESTAMPS_DEVICE        0x00000001
+#define MF_METADATATIMESTAMPS_PRESENTATION  0x00000002
+```
+
+
 MFT0 must set <b>Flags</b> to <b>MF_METADATATIEMSTAMPS_DEVICE</b> and the appropriate QPC time for <b>Device</b>, if the driver provides the timestamp metadata for the face ROIs.
 
 The <b>MetadataTimeStamps</b> structure only describes the blob format for the <b>MF_CAPTURE_METADATA_FACEROITIMESTAMPS</b> attribute.  The metadata item structure for timestamp (<a href="https://msdn.microsoft.com/B4AC04D7-9F98-41F1-A38D-927F3F3A7699">KSCAMERA_METADATA_ITEMHEADER</a> + timestamp metadata payload) is up to driver and must be 8-byte aligned.

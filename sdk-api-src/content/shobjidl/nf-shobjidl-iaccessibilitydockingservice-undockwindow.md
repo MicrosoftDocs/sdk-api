@@ -131,13 +131,9 @@ This method can only be used to undock windows that belong to the calling proces
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>class CAccessibilityApplicationWindow : public IAccessibilityDockingServiceCallback
+
+```
+class CAccessibilityApplicationWindow : public IAccessibilityDockingServiceCallback
 {
 
     ....
@@ -145,15 +141,15 @@ This method can only be used to undock windows that belong to the calling proces
 
     HRESULT _Undock()
     {
-        return _pDockingService-&gt;UndockWindow(_hwndMyApplication);
+        return _pDockingService->UndockWindow(_hwndMyApplication);
     }
 
     IAccessibilityDockingService *_pDockingService;
     HWND _hwndMyApplication;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

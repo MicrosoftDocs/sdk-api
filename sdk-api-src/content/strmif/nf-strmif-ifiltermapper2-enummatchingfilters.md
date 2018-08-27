@@ -206,22 +206,18 @@ Insufficient memory
 
 To find filters whose input pins match a given set of media types, declare an array with major-type GUIDs and subtype GUIDs ordered in pairs. Pass the array address in the <i>pInputTypes</i> parameter, and set the <i>cInputTypes</i> parameter equal to the number of pairs (that is, half the array size):
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 GUID arrayInTypes[2];
 arrayInTypes[0] = MEDIATYPE_Video;
 arrayInTypes[1] = GUID_NULL;
 
 DWORD cInTypes = 1;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 For output pins, pass a similar array in the <i>pOutputTypes</i> parameter, and specify the number of GUID pairs in the <i>cOutputTypes</i> parameter.
 
 If the value of the <i>bExactMatch</i> parameter is <b>TRUE</b>, this method looks for filters that exactly match the values you specify for media type, pin category, and pin medium. If the value is <b>FALSE</b>, filters that register a value of <b>NULL</b> for any of these items are considered a match. (In effect, a <b>NULL</b> value in the registry acts as a wildcard.)

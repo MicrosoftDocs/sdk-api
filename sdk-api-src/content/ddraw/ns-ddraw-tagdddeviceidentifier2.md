@@ -75,21 +75,17 @@ Version of the driver. It is valid to do less than and greater than comparisons 
 
 The data takes the following form:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 wProduct = HIWORD(liDriverVersion.HighPart)
 wVersion = LOWORD(liDriverVersion.HighPart)
 wSubVersion = HIWORD(liDriverVersion.LowPart)
 wBuild = LOWORD(liDriverVersion.LowPart)
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 ### -field dwDriverVersionLowPart
 

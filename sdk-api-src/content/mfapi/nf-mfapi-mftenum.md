@@ -135,14 +135,10 @@ If no MFTs match the criteria, the method succeeds but returns the value zero in
 
 To find a decoder, set <i>guidCategory</i> to <b>MFT_CATEGORY_AUDIO_DECODER</b>or <b>MFT_CATEGORY_VIDEO_DECODER</b>and specify the encoding format in <i>pInputType</i>.  You would typically set <i>pOutputType</i> to <b>NULL</b> in this case.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT FindDecoder(
-    const GUID&amp; subtype,        // Subtype
+
+```cpp
+HRESULT FindDecoder(
+    const GUID& subtype,        // Subtype
     BOOL bAudio,                // TRUE for audio, FALSE for video
     IMFTransform **ppDecoder    // Receives a pointer to the decoder.
     )
@@ -160,14 +156,14 @@ To find a decoder, set <i>guidCategory</i> to <b>MFT_CATEGORY_AUDIO_DECODER</b>o
     hr = MFTEnum(   
         bAudio ? MFT_CATEGORY_AUDIO_DECODER : MFT_CATEGORY_VIDEO_DECODER,
         0,      // Reserved
-        &amp;info,  // Input type
+        &info,  // Input type
         NULL,   // Output type
         NULL,   // Reserved
-        &amp;ppCLSIDs,
-        &amp;count
+        &ppCLSIDs,
+        &count
         );
 
-    if (SUCCEEDED(hr) &amp;&amp; count == 0)
+    if (SUCCEEDED(hr) && count == 0)
     {
         hr = MF_E_TOPO_CODEC_NOT_FOUND;
     }
@@ -183,20 +179,16 @@ To find a decoder, set <i>guidCategory</i> to <b>MFT_CATEGORY_AUDIO_DECODER</b>o
     CoTaskMemFree(ppCLSIDs);
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 To find an encoder, set <i>guidCategory</i> to <b>MFT_CATEGORY_AUDIO_ENCODER</b>or <b>MFT_CATEGORY_VIDEO_ENCODER</b>and specify the encoding format in <i>pOutputType</i>.  You would typically set <i>pInputType</i> to <b>NULL</b> in this case.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT FindEncoder(
-    const GUID&amp; subtype, 
+
+```cpp
+HRESULT FindEncoder(
+    const GUID& subtype, 
     BOOL bAudio, 
     IMFTransform **ppEncoder
     )
@@ -215,13 +207,13 @@ To find an encoder, set <i>guidCategory</i> to <b>MFT_CATEGORY_AUDIO_ENCODER</b>
         bAudio ? MFT_CATEGORY_AUDIO_ENCODER : MFT_CATEGORY_VIDEO_ENCODER,
         0,          // Reserved
         NULL,       // Input type
-        &amp;info,      // Output type
+        &info,      // Output type
         NULL,       // Reserved
-        &amp;ppCLSIDs,
-        &amp;count
+        &ppCLSIDs,
+        &count
         );
 
-    if (SUCCEEDED(hr) &amp;&amp; count == 0)
+    if (SUCCEEDED(hr) && count == 0)
     {
         hr = MF_E_TOPO_CODEC_NOT_FOUND;
     }
@@ -237,10 +229,10 @@ To find an encoder, set <i>guidCategory</i> to <b>MFT_CATEGORY_AUDIO_ENCODER</b>
     CoTaskMemFree(ppCLSIDs);
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

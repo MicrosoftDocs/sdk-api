@@ -180,22 +180,18 @@ Administration tasks use DCOM. Code that calls this interface method as defined 
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;Certadm.h&gt;
+
+```cpp
+#include <windows.h>
+#include <stdio.h>
+#include <Certadm.h>
 
 
     long nDisp;  // disposition value
-    long nReqID = &lt;REQUESTIDHERE&gt;;
+    long nReqID = <REQUESTIDHERE>;
     BSTR bstrCA = NULL;
 
-    bstrCA = SysAllocString(L"&lt;COMPUTERNAMEHERE&gt;\\&lt;CANAMEHERE&gt;");
+    bstrCA = SysAllocString(L"<COMPUTERNAMEHERE>\\<CANAMEHERE>");
     if (NULL == bstrCA)
     {
         printf("Memory allocation failed\n");
@@ -203,7 +199,7 @@ Administration tasks use DCOM. Code that calls this interface method as defined 
     }
 
     //  pCertAdmin is a previously instantiated ICertAdmin object.
-    hr = pCertAdmin-&gt;ResubmitRequest(bstrCA, nReqID, &amp;nDisp);
+    hr = pCertAdmin->ResubmitRequest(bstrCA, nReqID, &nDisp);
     if (FAILED(hr))
     {
         printf("Failed ResubmitRequest [%x]\n", hr);
@@ -216,10 +212,10 @@ error:
     //  Free resources.
     if (bstrCA)
         SysFreeString(bstrCA);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

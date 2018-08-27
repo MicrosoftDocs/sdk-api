@@ -118,13 +118,9 @@ The following example uses
      <b>UseDefaultValue</b> to set all of an 
      object's properties to their default values.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Option Explicit
+
+```vb
+Option Explicit
 
 Public Function RestoreDefaults(obj)
   Dim objProp
@@ -141,12 +137,12 @@ Public Function RestoreDefaults(obj)
   objProp.PrivateProperties.SaveChanges
 
   For Each objProp in objProp.CommonProperties
-    strOut = strOut &amp; objProp.Name &amp; " = " &amp; CStr(objProp.Value) &amp; _
+    strOut = strOut & objProp.Name & " = " & CStr(objProp.Value) & _
              vbCrLf
   Next
 
   For Each objProp in objProp.CommonProperties
-    strOut = strOut &amp; objProp.Name &amp; " = " &amp; CStr(objProp.Value) &amp; _
+    strOut = strOut & objProp.Name & " = " & CStr(objProp.Value) & _
               vbCrLf
   Next
 
@@ -155,10 +151,10 @@ Public Function RestoreDefaults(obj)
   Set objProp = Nothing
 
 End Function
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

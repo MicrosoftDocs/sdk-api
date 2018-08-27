@@ -187,13 +187,9 @@ The Filter Graph Manager holds a reference count on the filter until the filter 
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 IBaseFilter *pSource = NULL;
 IMoniker *pMoniker = NULL;
 
@@ -201,26 +197,26 @@ IMoniker *pMoniker = NULL;
 
 // Create a bind context for working with the moniker.
 IBindCtx *pContext=0;
-hr = CreateBindCtx(0, &amp;pContext);
+hr = CreateBindCtx(0, &pContext);
 if (SUCCEEDED(hr))
 {
     // Query the Filter Graph Manager for IFilterGraph2.
     IFilterGraph2 *pFG2 = NULL;
-    hr = pGraph-&gt;QueryInterface(IID_IFilterGraph2, (void**)&amp;pFG2);
+    hr = pGraph->QueryInterface(IID_IFilterGraph2, (void**)&pFG2);
     if (SUCCEEDED(hr))
     {
         // Create the source filter.
-        hr = pFG2-&gt;AddSourceFilterForMoniker(pMoniker, pContext,
-                 L"Source", &amp;pSource);
-        pFG2-&gt;Release();
+        hr = pFG2->AddSourceFilterForMoniker(pMoniker, pContext,
+                 L"Source", &pSource);
+        pFG2->Release();
     }
-    pContext-&gt;Release();
+    pContext->Release();
 }
-pMoniker-&gt;Release();
-</pre>
-</td>
-</tr>
-</table></span></div>
+pMoniker->Release();
+
+```
+
+
 
 
 

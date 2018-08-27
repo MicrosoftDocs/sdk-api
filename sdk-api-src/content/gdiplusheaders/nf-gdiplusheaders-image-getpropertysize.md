@@ -110,22 +110,18 @@ The following example creates an
 						<a href="https://msdn.microsoft.com/en-us/library/ms534462(v=VS.85).aspx">Image</a> object based on a JPEG file. The code calls the <a href="https://msdn.microsoft.com/en-us/library/ms535372(v=VS.85).aspx">Image::GetAllPropertyItems</a> method of that 
 						<b>Image</b> object to obtain its property items (metadata).
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;gdiplus.h&gt;
-#include &lt;stdio.h&gt;
+
+```cpp
+#include <windows.h>
+#include <gdiplus.h>
+#include <stdio.h>
 using namespace Gdiplus;
 
 INT main()
 {
    GdiplusStartupInput gdiplusStartupInput;
    ULONG_PTR gdiplusToken;
-   GdiplusStartup(&amp;gdiplusToken, &amp;gdiplusStartupInput, NULL);
+   GdiplusStartup(&gdiplusToken, &gdiplusStartupInput, NULL);
 
    // Create an Image object based on a JPEG file.
    Image* image = new Image(L"FakePhoto.jpg"); 
@@ -134,16 +130,16 @@ INT main()
    // required size of the buffer that will receive those property items.
    UINT totalBufferSize;
    UINT numProperties;
-   image-&gt;GetPropertySize(&amp;totalBufferSize, &amp;numProperties);
+   image->GetPropertySize(&totalBufferSize, &numProperties);
 
    // Allocate the buffer that will receive the property items.
    PropertyItem* pAllItems = (PropertyItem*)malloc(totalBufferSize);
 
    // Fill the buffer.
-   image-&gt;GetAllPropertyItems(totalBufferSize, numProperties, pAllItems);
+   image->GetAllPropertyItems(totalBufferSize, numProperties, pAllItems);
 
    // Print the ID of each property item.
-   for(UINT j = 0; j &lt; numProperties; ++j)
+   for(UINT j = 0; j < numProperties; ++j)
    {
       printf("%x\n", pAllItems[j].id);
    }
@@ -152,28 +148,24 @@ INT main()
    delete image;
    GdiplusShutdown(gdiplusToken);
    return 0;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 The preceding code, along with a particular file, FakePhoto.jpg, produced the following output:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>320
+
+```cpp
+320
 10f
 110
 9003
 829a
 5090
-5091</pre>
-</td>
-</tr>
-</table></span></div>
+5091
+```
+
+
 The preceding output shows the hexadecimal value of each property identifier. You can look up those numbers in Gdiplusimaging.h and find out that they represent the following property tags.
 
 

@@ -83,19 +83,15 @@ The start value for RADIUS Protocol properties, defined for convenience.
 The following code snippet demonstrates obtaining the component ID of an SDO object. The variable pSdo points to an 
 <a href="https://msdn.microsoft.com/f8f49bf2-d8cc-40ad-ac52-05d74bcd931c">ISdo</a> interface.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT    hr;
+
+```cpp
+HRESULT    hr;
 _variant_t    vtProperty;
-hr = pSdo-&gt;GetProperty(PROPERTY_COMPONENT_ID, &amp;vtProperty);
-</pre>
-</td>
-</tr>
-</table></span></div>
+hr = pSdo->GetProperty(PROPERTY_COMPONENT_ID, &vtProperty);
+
+```
+
+
 
 
 

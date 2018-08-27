@@ -446,57 +446,49 @@ The <a href="https://msdn.microsoft.com/en-us/library/Mt186624(v=VS.85).aspx">D3
 
 Header file declarations.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Pipeline objects.
+
+```cpp
+// Pipeline objects.
 D3D12_VIEWPORT m_viewport;
-ComPtr&lt;IDXGISwapChain3&gt; m_swapChain;
-ComPtr&lt;ID3D12Device&gt; m_device;
-ComPtr&lt;ID3D12Resource&gt; m_renderTargets[FrameCount];
-ComPtr&lt;ID3D12Resource&gt; m_depthStencil;
-ComPtr&lt;ID3D12CommandAllocator&gt; m_commandAllocator;
-ComPtr&lt;ID3D12GraphicsCommandList&gt; m_commandList;
-ComPtr&lt;ID3D12CommandQueue&gt; m_commandQueue;
-ComPtr&lt;ID3D12RootSignature &gt;m_rootSignature;
-ComPtr&lt;ID3D12DescriptorHeap&gt; m_rtvHeap;
-ComPtr&lt;ID3D12DescriptorHeap&gt; m_cbvSrvHeap;
-ComPtr&lt;ID3D12DescriptorHeap&gt; m_dsvHeap;
-ComPtr&lt;ID3D12DescriptorHeap&gt; m_samplerHeap;
-ComPtr&lt;ID3D12PipelineState&gt; m_pipelineState1;
-ComPtr&lt;ID3D12PipelineState&gt; m_pipelineState2;
+ComPtr<IDXGISwapChain3> m_swapChain;
+ComPtr<ID3D12Device> m_device;
+ComPtr<ID3D12Resource> m_renderTargets[FrameCount];
+ComPtr<ID3D12Resource> m_depthStencil;
+ComPtr<ID3D12CommandAllocator> m_commandAllocator;
+ComPtr<ID3D12GraphicsCommandList> m_commandList;
+ComPtr<ID3D12CommandQueue> m_commandQueue;
+ComPtr<ID3D12RootSignature >m_rootSignature;
+ComPtr<ID3D12DescriptorHeap> m_rtvHeap;
+ComPtr<ID3D12DescriptorHeap> m_cbvSrvHeap;
+ComPtr<ID3D12DescriptorHeap> m_dsvHeap;
+ComPtr<ID3D12DescriptorHeap> m_samplerHeap;
+ComPtr<ID3D12PipelineState> m_pipelineState1;
+ComPtr<ID3D12PipelineState> m_pipelineState2;
 D3D12_RECT m_scissorRect;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Checking supported features.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>inline UINT8 D3D12GetFormatPlaneCount(
+
+```cpp
+inline UINT8 D3D12GetFormatPlaneCount(
     _In_ ID3D12Device* pDevice,
     DXGI_FORMAT Format
     )
 {
     D3D12_FEATURE_DATA_FORMAT_INFO formatInfo = {Format};
-    if (FAILED(pDevice-&gt;CheckFeatureSupport(D3D12_FEATURE_FORMAT_INFO, &amp;formatInfo, sizeof(formatInfo))))
+    if (FAILED(pDevice->CheckFeatureSupport(D3D12_FEATURE_FORMAT_INFO, &formatInfo, sizeof(formatInfo))))
     {
         return 0;
     }
     return formatInfo.PlaneCount;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Refer to the <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85).aspx">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>

@@ -102,13 +102,9 @@ Use the <b>AddItem</b> method to add a registry
      key to a resource's list of checkpointed registry keys.
 
 <div class="code"></div>
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Public Function AddKey(ByRef objRes as ClusResource, _
+
+```vb
+Public Function AddKey(ByRef objRes as ClusResource, _
                        ByVal strKey as String)
 
   Dim colRegKeys as ClusRegistryKeys
@@ -117,10 +113,10 @@ Use the <b>AddItem</b> method to add a registry
   Set colRegKeys = Nothing
 
 End Function
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -130,13 +130,9 @@ Normally, a bind will fail if the <a href="https://msdn.microsoft.com/en-us/libr
 
 In a C++ application, this structure has a default constructor that initializes the members to the following values.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>uVersion = DRMBOUNDLICENSEPARAMSVERSION
+
+```cpp
+uVersion = DRMBOUNDLICENSEPARAMSVERSION
 hEnablingPrincipal = NULL
 hSecureStore = NULL
 wszRightsRequested = NULL
@@ -147,10 +143,10 @@ wszDefaultEnablingPrincipalCredentials = NULL
 idResource.uVersion = DRMIDVERSION
 idResource.wszIDType = NULL
 idResource.wszID = NULL
-dwFlags = 0</pre>
-</td>
-</tr>
-</table></span></div>
+dwFlags = 0
+```
+
+
 If there is more than one rights group in the <a href="https://msdn.microsoft.com/en-us/library/Aa362618(v=VS.85).aspx">end-user license</a>, the <i>wszRightsGroup</i> parameter specifies the name of the rights group to use. By default, the first rights group found in the end-user license is chosen. If any one of the requested rights is not granted, the bind request (<a href="https://msdn.microsoft.com/102fa347-47be-4dc7-ba17-3f1ad3735b00">DRMCreateBoundLicense</a>) will fail.
 
 

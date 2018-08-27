@@ -128,25 +128,21 @@ It is the responsibility of the calling application to use <a href="https://msdn
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776502(v=VS.85).aspx">PSGetNameFromPropertyKey</a> to read a value from serialized property storage.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>PWSTR pszName;
 
-HRESULT hr = PSGetNameFromPropertyKey(PKEY_Keywords, &amp;pszName);
+```cpp
+PWSTR pszName;
+
+HRESULT hr = PSGetNameFromPropertyKey(PKEY_Keywords, &pszName);
 
 if (SUCCEEDED(hr))
 {
     // pszName now contains L"System.Keywords"
  
     CoTaskMemFree(pszName);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

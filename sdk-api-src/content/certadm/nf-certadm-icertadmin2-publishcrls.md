@@ -129,33 +129,29 @@ To determine whether a CA has successfully published base and delta CRLs, call <
 
 The following example shows publishing CRLs.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    DATE ExpDate;  // CRL expiration date.
+
+```cpp
+    DATE ExpDate;  // CRL expiration date.
     SYSTEMTIME st;
     BSTR bstrCA = NULL;
 
     //  Set the CRL expiration date to noon, July 1, 2001.
     //  Zero out values first (avoids setting minutes,
     //  seconds, and so on).
-    memset(&amp;st, 0, sizeof(SYSTEMTIME));
+    memset(&st, 0, sizeof(SYSTEMTIME));
     st.wYear = 2001;
     st.wMonth = 7;     // July
     st.wDay = 1;       // first day of month
     st.wHour = 12;     // noon
 
     //  Place the date in required format.
-    if (!SystemTimeToVariantTime(&amp;st, &amp;ExpDate))
+    if (!SystemTimeToVariantTime(&st, &ExpDate))
     {
         printf("Unable to convert time\n");
         goto error;
     }
 
-    bstrCA = SysAllocString(L"&lt;COMPUTERNAMEHERE&gt;\\&lt;CANAMEHERE&gt;");
+    bstrCA = SysAllocString(L"<COMPUTERNAMEHERE>\\<CANAMEHERE>");
     if (NULL == bstrCA)
     {
         printf("Memory allocation failed\n");
@@ -164,7 +160,7 @@ The following example shows publishing CRLs.
 
     //  Publish the CRL.
     //  pCertAdmin is a previously instantiated ICertAdmin object.
-    hr = pCertAdmin2-&gt;PublishCRLs(bstrCA,
+    hr = pCertAdmin2->PublishCRLs(bstrCA,
                               ExpDate,
                               CA_CRL_BASE);
     if (FAILED(hr))
@@ -180,9 +176,9 @@ error:
 
     //  Free resources.
     if (bstrCA)
-        SysFreeString(bstrCA);</pre>
-</td>
-</tr>
-</table></span></div>
+        SysFreeString(bstrCA);
+```
+
+
 
 

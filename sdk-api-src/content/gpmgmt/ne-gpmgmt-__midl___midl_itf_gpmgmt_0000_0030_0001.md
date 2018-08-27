@@ -55,19 +55,15 @@ req.product: GDI+ 1.1
 <b>GPMBackupType</b> defines the type of backup created.
 
 <b>GPMBackupType</b> determines whether the backup is for a Group Policy object or a Starter Group Policy object.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>typedef enum {
+
+```cpp
+typedef enum {
     typeGPO = 0,
     typeStarterGPO
-} GPMBackupType;</pre>
-</td>
-</tr>
-</table></span></div>
+} GPMBackupType;
+```
+
+
 
 ## -enum-fields
 

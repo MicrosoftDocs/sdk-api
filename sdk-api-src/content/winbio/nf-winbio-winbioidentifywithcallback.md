@@ -136,13 +136,9 @@ The <i>SessionHandle</i> and <i>IdentifyCallback</i> parameters cannot be <b>NUL
 
 The callback routine must have the following signature:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID CALLBACK IdentifyCallback(
+
+```cpp
+VOID CALLBACK IdentifyCallback(
 __in_opt PVOID IdentifyCallbackContext,
 __in HRESULT OperationStatus,
 __in WINBIO_UNIT_ID UnitId,
@@ -151,10 +147,10 @@ __in WINBIO_BIOMETRIC_SUBTYPE SubFactor,
 __in WINBIO_REJECT_DETAIL RejectDetail
 );
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 #### Examples
 
@@ -170,13 +166,9 @@ subsystem is then sent to a custom callback function named IdentifyCallback. Lin
 <li>Conio.h</li>
 <li>Winbio.h</li>
 </ul>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT IdentifyWithCallback(BOOL bCancel)
+
+```cpp
+HRESULT IdentifyWithCallback(BOOL bCancel)
 {
     // Declare variables.
     HRESULT hr = S_OK;
@@ -190,7 +182,7 @@ subsystem is then sent to a custom callback function named IdentifyCallback. Lin
             NULL,                       // Array of biometric unit IDs 
             0,                          // Count of biometric unit IDs 
             WINBIO_DB_DEFAULT,          // Database ID 
-            &amp;sessionHandle              // [out] Session handle
+            &sessionHandle              // [out] Session handle
             );
     if (FAILED(hr))
     {
@@ -342,10 +334,10 @@ VOID CALLBACK IdentifyCallback(
     }
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

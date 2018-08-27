@@ -320,17 +320,13 @@ The mobile Microsoft Office version of the rich edit control uses <a href="https
 The following Microsoft Visual Basic for Applications (VBA) example numbers the paragraphs in a range, starting with the number 2 and following the numbers with a period.
             
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>    range.Para.ListStart = 2
-    range.Para.ListType = tomListNumberAsArabic + tomListPeriod</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+    range.Para.ListStart = 2
+    range.Para.ListType = tomListNumberAsArabic + tomListPeriod
+```
+
+
 For an example of <a href="https://msdn.microsoft.com/en-us/library/Hh768766(v=VS.85).aspx">tomListNumberAsSequence</a>, set <code>ListStart</code> to 0x2780, which gives you circled numbers. The <a href="http://go.microsoft.com/fwlink/p/?linkid=161649">Unicode Standard</a> has examples of many more numbering sequences.
 
 

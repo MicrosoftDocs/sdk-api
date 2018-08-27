@@ -193,16 +193,12 @@ The output parameter <i>pvarResult</i> must be a valid variant. Any existing con
 
 If you have used <b>DispGetParam</b> to get the right side of a property put operation, the second parameter should be DISPID_PROPERTYPUT. For example:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>DispGetParam(&amp;dispparams, DISPID_PROPERTYPUT, VT_BOOL, &amp;varResult, &amp;uiArg)</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+DispGetParam(&dispparams, DISPID_PROPERTYPUT, VT_BOOL, &varResult, &uiArg)
+```
+
+
 Named parameters cannot be accessed positionally, and vice versa.
 
 
@@ -210,13 +206,9 @@ Named parameters cannot be accessed positionally, and vice versa.
 
 The following example uses <b>DispGetParam</b> to set X and Y properties.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>STDMETHODIMP
+
+```cpp
+STDMETHODIMP
 CPoint::Invoke(
    DISPID dispidMember,
    REFIID riid,
@@ -233,7 +225,7 @@ CPoint::Invoke(
    VARIANT varResultDummy;
 
    // Make sure the wFlags are valid.
-   if(wFlags &amp; ~(DISPATCH_METHOD | DISPATCH_PROPERTYGET |
+   if(wFlags & ~(DISPATCH_METHOD | DISPATCH_PROPERTYGET |
       DISPATCH_PROPERTYPUT | DISPATCH_PROPERTYPUTREF))
       return E_INVALIDARG;
 
@@ -244,11 +236,11 @@ CPoint::Invoke(
    // It simplifies the following code if the caller
    // ignores the return value.
    if(puArgErr == NULL)
-      puArgErr = &amp;uArgErr;
+      puArgErr = &uArgErr;
    if(pvarResult == NULL)
-      pvarResult = &amp;varResultDummy;
+      pvarResult = &varResultDummy;
 
-   VariantInit(&amp;varg0);
+   VariantInit(&varg0);
 
    // Assume the return type is void, unless otherwise is found.
    VariantInit(pvarResult);
@@ -260,10 +252,10 @@ CPoint::Invoke(
       break;
 
    case IDMEMBER_CPOINT_SETX:
-      hresult = DispGetParam(pdispparams, 0, VT_I2, &amp;varg0, puArgErr);
+      hresult = DispGetParam(pdispparams, 0, VT_I2, &varg0, puArgErr);
       if(hresult != NOERROR)
          return hresult;
-      SetX(V_I2(&amp;varg0));
+      SetX(V_I2(&varg0));
       break;
 
    case IDMEMBER_CPOINT_GETY:
@@ -272,20 +264,20 @@ CPoint::Invoke(
       break;
 
    case IDMEMBER_CPOINT_SETY:
-      hresult = DispGetParam(pdispparams, 0, VT_I2, &amp;varg0, puArgErr);
+      hresult = DispGetParam(pdispparams, 0, VT_I2, &varg0, puArgErr);
       if(hresult != NOERROR)
          return hresult;
-      SetY(V_I2(&amp;varg0));
+      SetY(V_I2(&varg0));
       break;
 
    default:
       return DISP_E_MEMBERNOTFOUND;
    }
    return NOERROR;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

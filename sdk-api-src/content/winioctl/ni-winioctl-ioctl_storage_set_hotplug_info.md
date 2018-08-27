@@ -56,22 +56,18 @@ Sets the hotplug configuration of the specified device.
 
 To perform this operation, call the 
 <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> function with the following parameters.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BOOL DeviceIoControl(
+
+```cpp
+BOOL DeviceIoControl(
   (HANDLE) hDevice,                // handle to device
   IOCTL_STORAGE_SET_HOTPLUG_INFO,  // dwIoControlCode(LPVOID) lpInBuffer,             // input buffer
   (DWORD) nInBufferSize,           // size of input buffer
   NULL,                            // lpOutBuffer0,                               // nOutBufferSize(LPDWORD) lpBytesReturned,       // number of bytes returned
   (LPOVERLAPPED) lpOverlapped      // OVERLAPPED structure
-);</pre>
-</td>
-</tr>
-</table></span></div>
+);
+```
+
+
 
 ## -ioctlparameters
 

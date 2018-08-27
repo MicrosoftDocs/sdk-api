@@ -137,23 +137,19 @@ The <a href="https://msdn.microsoft.com/en-us/library/Mt186624(v=VS.85).aspx">D3
 
 Create an empty root signature.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>CD3DX12_ROOT_SIGNATURE_DESC rootSignatureDesc;
+
+```cpp
+CD3DX12_ROOT_SIGNATURE_DESC rootSignatureDesc;
 rootSignatureDesc.Init(0, nullptr, 0, nullptr, D3D12_ROOT_SIGNATURE_FLAG_ALLOW_INPUT_ASSEMBLER_INPUT_LAYOUT);
 
-ComPtr&lt;ID3DBlob&gt; signature;
-ComPtr&lt;ID3DBlob&gt; error;
-ThrowIfFailed(D3D12SerializeRootSignature(&amp;rootSignatureDesc, D3D_ROOT_SIGNATURE_VERSION_1, &amp;signature, &amp;error));
-ThrowIfFailed(m_device-&gt;CreateRootSignature(0, signature-&gt;GetBufferPointer(), signature-&gt;GetBufferSize(), IID_PPV_ARGS(&amp;m_rootSignature)));
-</pre>
-</td>
-</tr>
-</table></span></div>
+ComPtr<ID3DBlob> signature;
+ComPtr<ID3DBlob> error;
+ThrowIfFailed(D3D12SerializeRootSignature(&rootSignatureDesc, D3D_ROOT_SIGNATURE_VERSION_1, &signature, &error));
+ThrowIfFailed(m_device->CreateRootSignature(0, signature->GetBufferPointer(), signature->GetBufferSize(), IID_PPV_ARGS(&m_rootSignature)));
+
+```
+
+
 
 
 

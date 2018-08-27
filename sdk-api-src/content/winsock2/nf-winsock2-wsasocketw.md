@@ -847,23 +847,19 @@ The Winsock provider included with Windows allows the creation of socket groups 
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following example demonstrates the use of the <b>WSASocket</b> function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef UNICODE
+
+```cpp
+#ifndef UNICODE
 #define UNICODE 1
 #endif
 
 // link with Ws2_32.lib
 #pragma comment(lib,"Ws2_32.lib")
 
-#include &lt;winsock2.h&gt;
-#include &lt;ws2tcpip.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;stdlib.h&gt;   // Needed for _wtoi
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <stdio.h>
+#include <stdlib.h>   // Needed for _wtoi
 
 
 int __cdecl wmain(int argc, wchar_t **argv)
@@ -884,7 +880,7 @@ int __cdecl wmain(int argc, wchar_t **argv)
 
     // Validate the parameters
     if (argc != 5) {
-        wprintf(L"usage: %s &lt;addressfamily&gt; &lt;type&gt; &lt;protocol&gt; &lt;flags&gt;\n", argv[0]);
+        wprintf(L"usage: %s <addressfamily> <type> <protocol> <flags>\n", argv[0]);
         wprintf(L"       opens a socket for the specified family, type, protocol, and flags\n");
         wprintf(L"       flags value must be in decimal, not hex\n");
         wprintf(L"%ws example usage\n", argv[0]);
@@ -899,7 +895,7 @@ int __cdecl wmain(int argc, wchar_t **argv)
     dwFlags = _wtoi(argv[4]);
     
     // Initialize Winsock
-    iResult = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
+    iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
     if (iResult != 0) {
         wprintf(L"WSAStartup failed: %d\n", iResult);
         return 1;
@@ -982,20 +978,20 @@ int __cdecl wmain(int argc, wchar_t **argv)
     wprintf(L" (%d)\n", iProtocol);
 
     wprintf(L"  Flags = ");
-    if (dwFlags &amp; WSA_FLAG_OVERLAPPED)
+    if (dwFlags & WSA_FLAG_OVERLAPPED)
         wprintf(L"  WSA_FLAG_OVERLAPPED");
-    if (dwFlags &amp; WSA_FLAG_MULTIPOINT_C_ROOT)
+    if (dwFlags & WSA_FLAG_MULTIPOINT_C_ROOT)
         wprintf(L"  WSA_FLAG_MULTIPOINT_C_ROOT");
-    if (dwFlags &amp; WSA_FLAG_MULTIPOINT_C_LEAF)
+    if (dwFlags & WSA_FLAG_MULTIPOINT_C_LEAF)
         wprintf(L"  WSA_FLAG_MULTIPOINT_C_LEAF");
-    if (dwFlags &amp; WSA_FLAG_MULTIPOINT_D_ROOT)
+    if (dwFlags & WSA_FLAG_MULTIPOINT_D_ROOT)
         wprintf(L"  WSA_FLAG_MULTIPOINT_D_ROOT");
-    if (dwFlags &amp; WSA_FLAG_MULTIPOINT_D_LEAF)
+    if (dwFlags & WSA_FLAG_MULTIPOINT_D_LEAF)
         wprintf(L"  WSA_FLAG_MULTIPOINT_D_LEAF");
-    if (dwFlags &amp; WSA_FLAG_ACCESS_SYSTEM_SECURITY)
+    if (dwFlags & WSA_FLAG_ACCESS_SYSTEM_SECURITY)
         wprintf(L"  WSA_FLAG_ACCESS_SYSTEM_SECURITY");
 #ifdef WSA_FLAG_NO_HANDLE_INHERIT 
-    if (dwFlags &amp; WSA_FLAG_NO_HANDLE_INHERIT)
+    if (dwFlags & WSA_FLAG_NO_HANDLE_INHERIT)
         wprintf(L"  WSA_FLAG_NO_HANDLE_INHERIT");
 #endif
     wprintf(L" (0x%x)\n" , dwFlags);
@@ -1022,10 +1018,10 @@ int __cdecl wmain(int argc, wchar_t **argv)
     return 0;
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 <b>Windows Phone 8:</b> The <b>WSASocketW</b> function is supported for Windows Phone Store apps on Windows Phone 8 and later.

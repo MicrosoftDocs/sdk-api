@@ -113,17 +113,13 @@ scope change.
 The following code illustrates how to set an input scope for a window.
 
 <div class="code"></div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 SetInputScope(hwnd, IS_EMAIL_USERNAME);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

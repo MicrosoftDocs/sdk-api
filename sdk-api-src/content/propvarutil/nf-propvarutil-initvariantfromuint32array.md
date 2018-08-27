@@ -103,25 +103,21 @@ Creates a VT_ARRAY | VT_UI4 variant.
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762341(v=VS.85).aspx">InitVariantFromUInt32Array</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>ULONG rgLongs[] = {4, 2};
+
+```cpp
+ULONG rgLongs[] = {4, 2};
 VARIANT var;
 
-HRESULT hr = InitVariantFromUInt32Array(rgLongs, ARRAYSIZE(rgLongs), &amp;var);
+HRESULT hr = InitVariantFromUInt32Array(rgLongs, ARRAYSIZE(rgLongs), &var);
 
 if (SUCCEEDED(hr))                            
 {
     // var now is valid and has type VT_ARRAY | VT_UI4.
-    VariantClear(&amp;propvar);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+    VariantClear(&propvar);
+}
+```
+
+
 
 
 

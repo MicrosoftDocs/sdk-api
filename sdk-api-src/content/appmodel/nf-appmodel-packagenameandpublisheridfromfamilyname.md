@@ -138,35 +138,31 @@ For info about string size limits, see <a href="https://msdn.microsoft.com/C4F81
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#define _UNICODE 1
+
+```cpp
+#define _UNICODE 1
 #define UNICODE 1
 
-#include &lt;Windows.h&gt;
-#include &lt;appmodel.h&gt;
-#include &lt;malloc.h&gt;
-#include &lt;stdio.h&gt;
+#include <Windows.h>
+#include <appmodel.h>
+#include <malloc.h>
+#include <stdio.h>
 
 int ShowUsage();
 void FamilyNameToNameAndPublisherId(__in PCWSTR familyName);
 
 int ShowUsage()
 {
-    wprintf(L"Usage: PackageNameAndPublisherIdFromFamilyName &lt;familyname&gt; [&lt;familyname&gt;...]\n");
+    wprintf(L"Usage: PackageNameAndPublisherIdFromFamilyName <familyname> [<familyname>...]\n");
     return 1;
 }
 
 int __cdecl wmain(__in int argc, __in_ecount(argc) WCHAR * argv[])
 {
-    if (argc &lt;= 1)
+    if (argc <= 1)
         return ShowUsage();
 
-    for (int i=1; i&lt;argc; ++i)
+    for (int i=1; i<argc; ++i)
         FamilyNameToNameAndPublisherId(argv[i]);
 
     return 0;
@@ -177,7 +173,7 @@ void FamilyNameToNameAndPublisherId(__in PCWSTR familyName)
     wprintf(L"FamilyName: %s\n", familyName);
     UINT32 nameLength = 0;
     UINT32 publisherIdLength = 0;
-    LONG rc = PackageNameAndPublisherIdFromFamilyName(familyName, &amp;nameLength, NULL, &amp;publisherIdLength, NULL);
+    LONG rc = PackageNameAndPublisherIdFromFamilyName(familyName, &nameLength, NULL, &publisherIdLength, NULL);
     if (rc == ERROR_SUCCESS)
     {
         wprintf(L"PackageNameAndPublisherIdFromFamilyName unexpectedly succeeded\n");
@@ -204,7 +200,7 @@ void FamilyNameToNameAndPublisherId(__in PCWSTR familyName)
         return;
     }
 
-    rc = PackageNameAndPublisherIdFromFamilyName(familyName, &amp;nameLength, name, &amp;publisherIdLength, publisherId);
+    rc = PackageNameAndPublisherIdFromFamilyName(familyName, &nameLength, name, &publisherIdLength, publisherId);
     if (rc != ERROR_SUCCESS)
         wprintf(L"Error %d converting PackageFamilyName to Name and PublisherId\n", rc);
     else
@@ -216,10 +212,10 @@ void FamilyNameToNameAndPublisherId(__in PCWSTR familyName)
     free(name);
     free(publisherId);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

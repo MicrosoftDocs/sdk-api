@@ -110,13 +110,9 @@ After calling this method, an application can calculate the message authenticati
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 CSecureChannelClient  *pSCClient;
 IWMDMStorage  *pStorgae;
 
@@ -124,28 +120,28 @@ HMAC  hMAC;
 BYTE  abMAC[WMDM_MAC_LENGTH];
 BYTE  abMACVerify[WMDM_MAC_LENGTH];
 
-hr = pStorage-&gt;GetRights(&amp;pRights, &amp;nRightsCount, abMAC);
+hr = pStorage->GetRights(&pRights, &nRightsCount, abMAC);
 if (SUCCEEDED(hr))
 {
     //
     // First verify the integrity of the retrieved rights.
     //
-    pSCClient-&gt;MACInit(&amp;hMAC);
-    pSCClient-&gt;MACUpdate(hMAC, (BYTE*)(pRights), 
+    pSCClient->MACInit(&hMAC);
+    pSCClient->MACUpdate(hMAC, (BYTE*)(pRights), 
                     sizeof(WMDMRIGHTS) * nRightsCount);
-    pSCClient-&gt;MACUpdate(hMAC, (BYTE*)(&amp;nRightsCount), 
+    pSCClient->MACUpdate(hMAC, (BYTE*)(&nRightsCount), 
                                  sizeof(nRightsCount));
-    pSCClient-&gt;MACFinal(hMAC, (BYTE*)abMACVerify);
+    pSCClient->MACFinal(hMAC, (BYTE*)abMACVerify);
     if (memcmp(abMACVerify, abMAC, sizeof(abMAC)) != 0)
     {
         hr = WMDM_E_MAC_CHECK_FAILED;
     }
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

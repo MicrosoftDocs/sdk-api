@@ -139,21 +139,17 @@ The <b>SCardListInterfaces</b> function is a database query function. For more i
 
 The following example  shows listing the interfaces for a smart card.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>LPGUID          pGuids = NULL;
+
+```cpp
+LPGUID          pGuids = NULL;
 LONG            lReturn;
 DWORD           cGuid = SCARD_AUTOALLOCATE;
 
 // Retrieve the list of interfaces.
 lReturn = SCardListInterfaces(NULL,
                               (LPCSTR) "MyCard",
-                              (LPGUID)&amp;pGuids,
-                              &amp;cGuid );
+                              (LPGUID)&pGuids,
+                              &cGuid );
 if ( SCARD_S_SUCCESS != lReturn )
 {
     printf("Failed SCardListInterfaces\n");
@@ -166,10 +162,10 @@ if ( 0 != cGuid )
     // Remember to free pGuids when done (by SCardFreeMemory).
     // ...
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

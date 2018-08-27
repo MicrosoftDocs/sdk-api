@@ -167,21 +167,17 @@ The <b>SCardEndTransaction</b> function is a <a href="https://msdn.microsoft.com
 
 The following example ends a smart card transaction. The example assumes that lReturn is a valid variable of type <b>LONG</b>, that hCard is a valid handle received from a previous call to the <a href="https://msdn.microsoft.com/389ada98-383f-4b37-bf5d-c40577ef25fd">SCardConnect</a> function, and that hCard was passed to a previous call to the <a href="https://msdn.microsoft.com/91f61060-4b0b-4890-9372-25ba0aacb642">SCardBeginTransaction</a> function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 lReturn = SCardEndTransaction(hCard, 
                               SCARD_LEAVE_CARD);
 if ( SCARD_S_SUCCESS != lReturn )
     printf("Failed SCardEndTransaction\n");
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

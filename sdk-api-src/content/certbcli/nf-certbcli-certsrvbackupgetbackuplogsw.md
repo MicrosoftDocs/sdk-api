@@ -130,13 +130,9 @@ This function's name in the Certadm.dll is <b>CertSrvBackupGetBackupLogsW</b>. Y
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>FNCERTSRVBACKUPGETBACKUPLOGSW* pfnGetBackupLogs;
+
+```cpp
+FNCERTSRVBACKUPGETBACKUPLOGSW* pfnGetBackupLogs;
 char * szGetBackupLogsFunc = "CertSrvBackupGetBackupLogsW";
 
 WCHAR *    pwszzLogFiles;
@@ -159,7 +155,7 @@ if ( NULL == pfnGetBackupLogs )
 
 // Determine the names of the log files.
 // hCSBC was set by an earlier call to CertSrvbackupPrepare.
-hr = pfnGetBackupLogs(hCSBC, &amp;pwszzLogFiles, &amp;nListBytes);
+hr = pfnGetBackupLogs(hCSBC, &pwszzLogFiles, &nListBytes);
 if (FAILED(hr))
 {
     printf("Failed pfnGetBackupLogs call [%x]\n", hr);
@@ -174,7 +170,7 @@ else
     {
         // Use the file name referenced by pwszLog.
         // Here it is merely displayed.
-        printf("%02x: %ws\n", *pwszLog, &amp;pwszLog[1]);
+        printf("%02x: %ws\n", *pwszLog, &pwszLog[1]);
         // Move to the next logfile name.
         // + 1 moves past the null terminator.
         pwszLog+=(wcslen(pwszLog)) + 1; 
@@ -184,10 +180,10 @@ else
     // pfnBackupFree is the address of the CertSrvBackupFree
 	   // function.
     pfnBackupFree(pwszzLogFiles);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

@@ -123,13 +123,9 @@ The structure of the data in <i>pbDataIn</i> and <i>ppbDataOut</i> is determined
 
 The following C++ code demonstrates a service provider's implementation of <b>SACAuth</b>. It calls <a href="https://msdn.microsoft.com/e32aac59-4b7f-4c0e-a200-0dec50d89cb0">CSecureChannelServer::SACAuth</a> on a previously created private <a href="https://msdn.microsoft.com/e6e1463a-5a26-4b83-85e0-a639d384a199">CSecureChannelServer</a> member.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT CMyServiceProvider::SACAuth(
     DWORD   dwProtocolID,
     DWORD   dwPass,
@@ -144,7 +140,7 @@ HRESULT CMyServiceProvider::SACAuth(
     if(g_pAppSCServer == NULL)
         return E_FAIL;
 
-    hr = g_pAppSCServer-&gt;SACAuth(
+    hr = g_pAppSCServer->SACAuth(
         dwProtocolID,
         dwPass,
         pbDataIn, dwDataInLen,
@@ -152,10 +148,10 @@ HRESULT CMyServiceProvider::SACAuth(
     );
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

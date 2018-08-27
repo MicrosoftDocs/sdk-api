@@ -107,13 +107,9 @@ The ending color in a bell-shaped blend is a percentage of the gamut between the
 
 The following example creates a linear gradient brush, sets a bell-shaped blend, and uses the brush to fill a rectangle. Twice more, the code sets a bell-shaped blend with different values and, each time, uses the brush to fill a rectangle.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_SetBlendBell(HDC hdc)
+
+```cpp
+VOID Example_SetBlendBell(HDC hdc)
 {
    Graphics myGraphics(hdc);
 
@@ -124,17 +120,17 @@ The following example creates a linear gradient brush, sets a bell-shaped blend,
       Color(255, 0, 0, 255));  // blue
 
    linGrBrush.SetBlendBellShape(0.5f, 0.6f);
-   myGraphics.FillRectangle(&amp;linGrBrush, 0, 0, 500, 50);
+   myGraphics.FillRectangle(&linGrBrush, 0, 0, 500, 50);
 
    linGrBrush.SetBlendBellShape(0.5f, 0.8f); 
-   myGraphics.FillRectangle(&amp;linGrBrush, 0, 75, 500, 50);
+   myGraphics.FillRectangle(&linGrBrush, 0, 75, 500, 50);
 
    linGrBrush.SetBlendBellShape(0.5f, 1.0f); 
-   myGraphics.FillRectangle(&amp;linGrBrush, 0, 150, 500, 50);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   myGraphics.FillRectangle(&linGrBrush, 0, 150, 500, 50);
+}
+```
+
+
 
 
 

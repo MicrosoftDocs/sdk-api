@@ -132,13 +132,9 @@ Thumbnail toolbars are displayed only when thumbnails are being displayed. For i
 
 The following example shows how to use <b>ThumbBarAddButtons</b> to add a toolbar that contains two buttons to a thumbnail on the extended taskbar.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT AddThumbarButtons(HWND hwnd, HIMAGELIST himl, HIMAGELIST himlHot)
+
+```cpp
+HRESULT AddThumbarButtons(HWND hwnd, HIMAGELIST himl, HIMAGELIST himlHot)
 {
     // Define an array of two buttons. These buttons provide images through an 
     // image list and also provide tooltips.
@@ -162,25 +158,25 @@ The following example shows how to use <b>ThumbBarAddButtons</b> to add a toolba
     HRESULT hr = CoCreateInstance(CLSID_TaskbarList, 
                                   NULL, 
                                   CLSCTX_INPROC_SERVER, 
-                                  IID_PPV_ARGS(&amp;ptbl);
+                                  IID_PPV_ARGS(&ptbl);
 
     if (SUCCEEDED(hr))
     {
         // Declare the image list that contains the button images.
-        hr = ptbl-&gt;ThumbBarSetImageList(hwnd, himl);
+        hr = ptbl->ThumbBarSetImageList(hwnd, himl);
 
         if (SUCCEEDED(hr))
         {
             // Attach the toolbar to the thumbnail.
-            hr = ptbl-&gt;ThumbBarAddButtons(hwnd, ARRAYSIZE(thbButtons), &amp;thbButtons);
+            hr = ptbl->ThumbBarAddButtons(hwnd, ARRAYSIZE(thbButtons), &thbButtons);
         }
-        ptbl-&gt;Release();
+        ptbl->Release();
     }
     return hr;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

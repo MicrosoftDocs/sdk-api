@@ -88,22 +88,18 @@ The <b>RemoveAll</b> method works on empty arrays.
 
 The following code example shows the use of <b>CHStringArray::RemoveAll</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>CHStringArray array;
+
+```cpp
+CHStringArray array;
 
 array.Add( L"String 1" ); // Element 0
 array.Add( L"String 2" ); // Element 1 
 assert( array.GetSize() == 2 ); 
 array.RemoveAll(); 
-assert( array.GetSize() == 0 );</pre>
-</td>
-</tr>
-</table></span></div>
+assert( array.GetSize() == 0 );
+```
+
+
 
 
 

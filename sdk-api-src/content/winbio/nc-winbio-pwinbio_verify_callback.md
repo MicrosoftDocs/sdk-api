@@ -136,13 +136,9 @@ the current user. The callback routine, VerifyCallback, and a helper function, G
 <li>Conio.h</li>
 <li>Winbio.h</li>
 </ul>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT VerifyWithCallback(BOOL bCancel, WINBIO_BIOMETRIC_SUBTYPE subFactor)
+
+```cpp
+HRESULT VerifyWithCallback(BOOL bCancel, WINBIO_BIOMETRIC_SUBTYPE subFactor)
 {
     // Declare variables.
     HRESULT hr = S_OK;
@@ -152,7 +148,7 @@ the current user. The callback routine, VerifyCallback, and a helper function, G
     WINBIO_IDENTITY identity = {0};
 
     // Find the identity of the user.
-    hr = GetCurrentUserIdentity( &amp;identity );
+    hr = GetCurrentUserIdentity( &identity );
     if (FAILED(hr))
     {
         wprintf_s(L"\n User identity not found. hr = 0x%x\n", hr);
@@ -167,7 +163,7 @@ the current user. The callback routine, VerifyCallback, and a helper function, G
             NULL,                       // Array of biometric unit IDs
             0,                          // Count of biometric unit IDs
             NULL,                       // Database ID
-            &amp;sessionHandle              // [out] Session handle
+            &sessionHandle              // [out] Session handle
             );
     if (FAILED(hr))
     {
@@ -179,7 +175,7 @@ the current user. The callback routine, VerifyCallback, and a helper function, G
     wprintf_s(L"\n Calling WinBioVerifyWithCallback.\n");
     hr = WinBioVerifyWithCallback(
             sessionHandle,              // Open session handle
-            &amp;identity,                  // User SID or GUID
+            &identity,                  // User SID or GUID
             subFactor,                  // Sample sub-factor
             VerifyCallback,             // Callback function
             NULL                        // Optional context
@@ -292,14 +288,14 @@ HRESULT GetCurrentUserIdentity(__inout PWINBIO_IDENTITY Identity)
 
     // Zero the input identity and specify the type.
     ZeroMemory( Identity, sizeof(WINBIO_IDENTITY));
-    Identity-&gt;Type = WINBIO_ID_TYPE_NULL;
+    Identity->Type = WINBIO_ID_TYPE_NULL;
 
     // Open the access token associated with the
     // current process
     if (!OpenProcessToken(
             GetCurrentProcess(),            // Process handle
             TOKEN_READ,                     // Read access only
-            &amp;tokenHandle))                  // Access token handle
+            &tokenHandle))                  // Access token handle
     {
         DWORD win32Status = GetLastError();
         wprintf_s(L"Cannot open token handle: %d\n", win32Status);
@@ -308,16 +304,16 @@ HRESULT GetCurrentUserIdentity(__inout PWINBIO_IDENTITY Identity)
     }
 
     // Zero the tokenInfoBuffer structure.
-    ZeroMemory(&amp;tokenInfoBuffer, sizeof(tokenInfoBuffer));
+    ZeroMemory(&tokenInfoBuffer, sizeof(tokenInfoBuffer));
 
     // Retrieve information about the access token. In this case,
     // retrieve a SID.
     if (!GetTokenInformation(
             tokenHandle,                    // Access token handle
             TokenUser,                      // User for the token
-            &amp;tokenInfoBuffer.tokenUser,     // Buffer to fill
+            &tokenInfoBuffer.tokenUser,     // Buffer to fill
             sizeof(tokenInfoBuffer),        // Size of the buffer
-            &amp;bytesReturned))                // Size needed
+            &bytesReturned))                // Size needed
     {
         DWORD win32Status = GetLastError();
         wprintf_s(L"Cannot query token information: %d\n", win32Status);
@@ -329,14 +325,14 @@ HRESULT GetCurrentUserIdentity(__inout PWINBIO_IDENTITY Identity)
     // WINBIO_IDENTITY structure. 
     CopySid(
         SECURITY_MAX_SID_SIZE,
-        Identity-&gt;Value.AccountSid.Data,
+        Identity->Value.AccountSid.Data,
         tokenInfoBuffer.tokenUser.User.Sid
         );
 
     // Specify the size of the SID and assign WINBIO_ID_TYPE_SID
     // to the type member of the WINBIO_IDENTITY structure.
-    Identity-&gt;Value.AccountSid.Size = GetLengthSid(tokenInfoBuffer.tokenUser.User.Sid);
-    Identity-&gt;Type = WINBIO_ID_TYPE_SID;
+    Identity->Value.AccountSid.Size = GetLengthSid(tokenInfoBuffer.tokenUser.User.Sid);
+    Identity->Type = WINBIO_ID_TYPE_SID;
 
 e_Exit:
 
@@ -348,9 +344,9 @@ e_Exit:
     return hr;
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

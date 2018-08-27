@@ -84,21 +84,17 @@ For example, if a client supplies the <i>NetAddress</i> 10.10.10/24, the <i>Addr
 
 The macro is defined as follows:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
+
+```cpp
+#include <windows.h>
 
 #define RTM_IPV4_GET_ADDR_AND_LEN(Addr, Len, NetAddress)    \
-        (Len) = (NetAddress)-&gt;NumBits;                      \
-        (Addr) = (* (ULONG *) ((NetAddress)-&gt;AddrBits));    \
-</pre>
-</td>
-</tr>
-</table></span></div>
+        (Len) = (NetAddress)->NumBits;                      \
+        (Addr) = (* (ULONG *) ((NetAddress)->AddrBits));    \
+
+```
+
+
 
 
 

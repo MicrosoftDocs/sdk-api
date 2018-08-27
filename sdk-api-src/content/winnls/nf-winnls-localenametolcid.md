@@ -118,13 +118,9 @@ The function returns 0 if it does not succeed. To get extended error information
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 #include "stdafx.h"
 #include "windows.h"
 #include "stdio.h"
@@ -170,10 +166,10 @@ LCID for de-DE_phoneb is 0x10407
 
 */
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

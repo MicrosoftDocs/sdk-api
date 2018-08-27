@@ -116,13 +116,9 @@ The <a href="https://msdn.microsoft.com/f8eb3dd9-b993-4b45-b7f4-e1925c233a80">En
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//////////////////////////////////////////////////////////////////////////////////////////
+
+```cpp
+//////////////////////////////////////////////////////////////////////////////////////////
 //
 // EngineAdapterCreateEnrollment
 //
@@ -150,11 +146,11 @@ EngineAdapterCreateEnrollment(
 
     // Retrieve the context from the pipeline.
     PWINBIO_ENGINE_CONTEXT context = 
-           (PWINBIO_ENGINE_CONTEXT)Pipeline-&gt;EngineContext;
+           (PWINBIO_ENGINE_CONTEXT)Pipeline->EngineContext;
 
     // Return if an enrollment is already in progress. This example assumes that 
     // your engine adapter context contains an enrollment object.
-    if (context-&gt;Enrollment.InProgress == TRUE)
+    if (context->Enrollment.InProgress == TRUE)
     {
         hr = WINBIO_E_INVALID_DEVICE_STATE;
         goto cleanup;
@@ -164,7 +160,7 @@ EngineAdapterCreateEnrollment(
     // new enrollment template and attach it to the engine adapter context.
     hr = _AdapterCreateEnrollmentTemplate( 
             context, 
-            &amp;context-&gt;Enrollment
+            &context->Enrollment
             );
     if (FAILED(hr))
     {
@@ -176,17 +172,17 @@ EngineAdapterCreateEnrollment(
     // your enrollment object contains at a minimum a field that specifies 
     // the number of biometric samples and another that specifies whether a
     // new enrollment is in progress.
-    context-&gt;Enrollment.SampleCount = 0;
-    context-&gt;Enrollment.InProgress = TRUE;
+    context->Enrollment.SampleCount = 0;
+    context->Enrollment.InProgress = TRUE;
 
 cleanup:
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

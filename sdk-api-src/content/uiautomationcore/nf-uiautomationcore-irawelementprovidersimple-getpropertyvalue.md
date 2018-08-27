@@ -96,44 +96,32 @@ If the provider does not support the <i>propertyId</i> property, the provider sh
 If a provider is explicitly hiding the property value (that is, the provider does not supply the property, and the request is not to be passed through to other providers), it should return a pointer obtained by using the             <a href="https://msdn.microsoft.com/ba789ed0-fa34-492c-90b4-acee0adb634c">UiaGetReservedNotSupportedValue</a> function. For example: 
             
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>pRetVal-&gt;vt = VT_UNKNOWN;
-UiaGetReservedNotSupportedValue(&amp;pRetVal-&gt;punkVal);</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+pRetVal->vt = VT_UNKNOWN;
+UiaGetReservedNotSupportedValue(&pRetVal->punkVal);
+```
+
+
 UI Automation properties of the <b>double</b> type support Not a Number (NaN) values. When returning a NaN value, the provider should return a quiet (non-signaling) NaN to avoid raising an exception if floating-point exceptions are turned on. The following example shows how to create a quiet NaN:
 
             
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>ULONGLONG ulNaN = 0xFFFFFFFFFFFFFFFF;
-    *pRetVal = *reinterpret_cast&lt;double*&gt;(&amp;ulNaN);</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+ULONGLONG ulNaN = 0xFFFFFFFFFFFFFFFF;
+    *pRetVal = *reinterpret_cast<double*>(&ulNaN);
+```
+
+
 Alternatively, you can use the following function from the standard C++ libraries:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>numeric_limits&lt;double&gt;::quiet_NaN( )</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+numeric_limits<double>::quiet_NaN( )
+```
+
+
 
 #### Examples
 
@@ -141,20 +129,16 @@ The following example returns various property values. The <b>UiaIds</b> structu
             property identifiers; to see how it is initialized, see <a href="https://msdn.microsoft.com/9906acea-5246-4f01-8d76-03b89ff2f789">UiaLookupId</a>.
 			
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT STDMETHODCALLTYPE Provider::GetPropertyValue(PROPERTYID propertyId, 
         VARIANT* pRetVal)
 {
     if (propertyId == UiaIds.ControlTypeProperty)
     {
-        pRetVal-&gt;vt = VT_I4;
-        pRetVal-&gt;lVal = UiaIds.ButtonControlType;
+        pRetVal->vt = VT_I4;
+        pRetVal->lVal = UiaIds.ButtonControlType;
     }
 
     // The Name property normally comes from the Caption property of the 
@@ -162,21 +146,21 @@ HRESULT STDMETHODCALLTYPE Provider::GetPropertyValue(PROPERTYID propertyId,
     // sake of illustration. 
     else if (propertyId == UiaIds.NameProperty)
     {
-        pRetVal-&gt;vt = VT_BSTR;
-        pRetVal-&gt;bstrVal = SysAllocString(L"ColorButton");
+        pRetVal->vt = VT_BSTR;
+        pRetVal->bstrVal = SysAllocString(L"ColorButton");
     }
     else
     {
-        pRetVal-&gt;vt = VT_EMPTY;
+        pRetVal->vt = VT_EMPTY;
         // UI Automation will attempt to get the property from the host 
         //window provider.
     }
     return S_OK;
 }
-            </pre>
-</td>
-</tr>
-</table></span></div>
+            
+```
+
+
 
 
 

@@ -100,18 +100,14 @@ ResetIdleTimer to prolong the time before the system or display power-management
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT hr;
+
+```cpp
+HRESULT hr;
 
 // Reset both the display and system idle timers.
 // pConsolePower was created previously by
 // the CoCreateInstance method.
-hr = pConsolePower-&gt;ResetIdleTimer(
+hr = pConsolePower->ResetIdleTimer(
              ES_DISPLAY_REQUIRED | ES_SYSTEM_REQUIRED);
 switch (hr)
 {
@@ -128,10 +124,10 @@ switch (hr)
         // Unexpected error occurred.
         OutputDebugString(_T("ResetIdleTimer: Failure\n"));
         break;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

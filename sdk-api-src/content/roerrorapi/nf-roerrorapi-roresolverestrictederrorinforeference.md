@@ -143,20 +143,16 @@ The <b>RoResolveRestrictedErrorInfoReference</b> function is useful primarily fo
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT DebuggerIntegration(PCWST   referenceName)
+
+```cpp
+HRESULT DebuggerIntegration(PCWST   referenceName)
 {
     HRESULT hr = S_OK;
     IRestrictedErrorInfo *pRORestrictedErrorInfo = nullptr;
 
     // Resove the IRestrictedErrorInfo
     hr = RoResolveRestrictedErrorInfoReference(referenceName,  
-                      reinterpret_cast&lt;void**&gt;(&amp;pRORestrictedErrorInfo));
+                      reinterpret_cast<void**>(&pRORestrictedErrorInfo));
     if (FAILED(hr))
     {
         hr = E_FAIL;    
@@ -170,8 +166,8 @@ The <b>RoResolveRestrictedErrorInfoReference</b> function is useful primarily fo
     // Get the error details out of the interface
     if (SUCCEEDED(hr))
     {
-        hr = spRestrictedErrorInfo-&gt;GetErrorDetails(&amp;bstrDescription, 
-                                      &amp;hrError, &amp;bstrRestrictedDescription);
+        hr = spRestrictedErrorInfo->GetErrorDetails(&bstrDescription, 
+                                      &hrError, &bstrRestrictedDescription);
         if (FAILED(hr))
         {
             hr = E_FAIL;    
@@ -181,9 +177,9 @@ The <b>RoResolveRestrictedErrorInfoReference</b> function is useful primarily fo
    return hr;
 
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

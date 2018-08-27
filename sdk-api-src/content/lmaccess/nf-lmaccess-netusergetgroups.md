@@ -269,21 +269,17 @@ The following code sample demonstrates how to retrieve a list of global groups t
 <b>NetUserGetGroups</b>, specifying information level 0 (
 <a href="https://msdn.microsoft.com/cc0e5d27-91f1-4640-bb80-e73899fabba9">GROUP_USERS_INFO_0</a>). The code loops through the entries and prints the name of the global groups in which the user has membership. The sample also prints the total number of entries that are available and the number of entries actually enumerated if they do not match. Finally, the code sample frees the memory allocated for the buffer.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef UNICODE
+
+```cpp
+#ifndef UNICODE
 #define UNICODE
 #endif
 #pragma comment(lib, "netapi32.lib")
 
-#include &lt;stdio.h&gt;
-#include &lt;assert.h&gt;
-#include &lt;windows.h&gt; 
-#include &lt;lm.h&gt;
+#include <stdio.h>
+#include <assert.h>
+#include <windows.h> 
+#include <lm.h>
 
 int wmain(int argc, wchar_t *argv[])
 {
@@ -305,10 +301,10 @@ int wmain(int argc, wchar_t *argv[])
    nStatus = NetUserGetGroups(argv[1],
                               argv[2],
                               dwLevel,
-                              (LPBYTE*)&amp;pBuf,
+                              (LPBYTE*)&pBuf,
                               dwPrefMaxLen,
-                              &amp;dwEntriesRead,
-                              &amp;dwTotalEntries);
+                              &dwEntriesRead,
+                              &dwTotalEntries);
    //
    // If the call succeeds,
    //
@@ -326,7 +322,7 @@ int wmain(int argc, wchar_t *argv[])
          //  print the name of the global groups 
          //  to which the user belongs.
          //
-         for (i = 0; i &lt; dwEntriesRead; i++)
+         for (i = 0; i < dwEntriesRead; i++)
          {
             assert(pTmpBuf != NULL);
 
@@ -336,7 +332,7 @@ int wmain(int argc, wchar_t *argv[])
                break;
             }
 
-            wprintf(L"\t-- %s\n", pTmpBuf-&gt;grui0_name);
+            wprintf(L"\t-- %s\n", pTmpBuf->grui0_name);
 
             pTmpBuf++;
             dwTotalCount++;
@@ -347,7 +343,7 @@ int wmain(int argc, wchar_t *argv[])
       //  not enumerated, print the number actually 
       //  enumerated and the total number available.
       //
-      if (dwEntriesRead &lt; dwTotalEntries)
+      if (dwEntriesRead < dwTotalEntries)
          fprintf(stderr, "\nTotal entries: %d", dwTotalEntries);
       //
       // Otherwise, just print the total.
@@ -364,10 +360,10 @@ int wmain(int argc, wchar_t *argv[])
 
    return 0;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

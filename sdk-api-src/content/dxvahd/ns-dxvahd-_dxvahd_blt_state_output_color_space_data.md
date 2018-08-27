@@ -227,13 +227,9 @@ If the output format is a wide-gamut RGB format, output might fall outside the n
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT DXVAHD_SetOutputColorSpace(
+
+```cpp
+HRESULT DXVAHD_SetOutputColorSpace(
     IDXVAHD_VideoProcessor *pVP,
     BOOL bPlayback,     // TRUE = playback, FALSE = video processing
     UINT RGB_Range,     // 0 = 0-255, 1 = 16-235
@@ -249,18 +245,18 @@ If the output format is a wide-gamut RGB format, output might fall outside the n
         YCbCr_xvYCC ? 1 : 0
     };
 
-    HRESULT hr = pVP-&gt;SetVideoProcessBltState(
+    HRESULT hr = pVP->SetVideoProcessBltState(
         DXVAHD_BLT_STATE_OUTPUT_COLOR_SPACE,
         sizeof(data),
-        &amp;data
+        &data
         );
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

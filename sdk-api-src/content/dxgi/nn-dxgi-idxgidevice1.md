@@ -113,18 +113,14 @@ The Direct3D create device functions return a Direct3D device object. This Direc
           corresponding <b>IDXGIDevice1</b> interface. To retrieve the <b>IDXGIDevice1</b>  interface of a Direct3D device, use the following code:
         
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>IDXGIDevice1 * pDXGIDevice;
-hr = g_pd3dDevice-&gt;QueryInterface(__uuidof(IDXGIDevice1), (void **)&amp;pDXGIDevice);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+IDXGIDevice1 * pDXGIDevice;
+hr = g_pd3dDevice->QueryInterface(__uuidof(IDXGIDevice1), (void **)&pDXGIDevice);
+
+```
+
+
 <b>Windows Phone 8:
         </b> This API is supported.
       

@@ -390,16 +390,12 @@ The <a href="https://msdn.microsoft.com/37fbcb96-a859-4eca-8928-8051f95407b9">SO
 
 This example retrieves the <a href="https://msdn.microsoft.com/a2df3749-6c75-40c0-8952-1656bbe639a6">IP_ADAPTER_ADDRESSES</a> structure for the adapters associated with the system and prints some members  for each adapter interface.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;winsock2.h&gt;
-#include &lt;iphlpapi.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;stdlib.h&gt;
+
+```cpp
+#include <winsock2.h>
+#include <iphlpapi.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 // Link with Iphlpapi.lib
 #pragma comment(lib, "IPHLPAPI.lib")
@@ -475,7 +471,7 @@ int __cdecl main(int argc, char **argv)
         }
 
         dwRetVal =
-            GetAdaptersAddresses(family, flags, NULL, pAddresses, &amp;outBufLen);
+            GetAdaptersAddresses(family, flags, NULL, pAddresses, &outBufLen);
 
         if (dwRetVal == ERROR_BUFFER_OVERFLOW) {
             FREE(pAddresses);
@@ -486,90 +482,90 @@ int __cdecl main(int argc, char **argv)
 
         Iterations++;
 
-    } while ((dwRetVal == ERROR_BUFFER_OVERFLOW) &amp;&amp; (Iterations &lt; MAX_TRIES));
+    } while ((dwRetVal == ERROR_BUFFER_OVERFLOW) && (Iterations < MAX_TRIES));
 
     if (dwRetVal == NO_ERROR) {
         // If successful, output some information from the data we received
         pCurrAddresses = pAddresses;
         while (pCurrAddresses) {
             printf("\tLength of the IP_ADAPTER_ADDRESS struct: %ld\n",
-                   pCurrAddresses-&gt;Length);
-            printf("\tIfIndex (IPv4 interface): %u\n", pCurrAddresses-&gt;IfIndex);
-            printf("\tAdapter name: %s\n", pCurrAddresses-&gt;AdapterName);
+                   pCurrAddresses->Length);
+            printf("\tIfIndex (IPv4 interface): %u\n", pCurrAddresses->IfIndex);
+            printf("\tAdapter name: %s\n", pCurrAddresses->AdapterName);
 
-            pUnicast = pCurrAddresses-&gt;FirstUnicastAddress;
+            pUnicast = pCurrAddresses->FirstUnicastAddress;
             if (pUnicast != NULL) {
                 for (i = 0; pUnicast != NULL; i++)
-                    pUnicast = pUnicast-&gt;Next;
+                    pUnicast = pUnicast->Next;
                 printf("\tNumber of Unicast Addresses: %d\n", i);
             } else
                 printf("\tNo Unicast Addresses\n");
 
-            pAnycast = pCurrAddresses-&gt;FirstAnycastAddress;
+            pAnycast = pCurrAddresses->FirstAnycastAddress;
             if (pAnycast) {
                 for (i = 0; pAnycast != NULL; i++)
-                    pAnycast = pAnycast-&gt;Next;
+                    pAnycast = pAnycast->Next;
                 printf("\tNumber of Anycast Addresses: %d\n", i);
             } else
                 printf("\tNo Anycast Addresses\n");
 
-            pMulticast = pCurrAddresses-&gt;FirstMulticastAddress;
+            pMulticast = pCurrAddresses->FirstMulticastAddress;
             if (pMulticast) {
                 for (i = 0; pMulticast != NULL; i++)
-                    pMulticast = pMulticast-&gt;Next;
+                    pMulticast = pMulticast->Next;
                 printf("\tNumber of Multicast Addresses: %d\n", i);
             } else
                 printf("\tNo Multicast Addresses\n");
 
-            pDnServer = pCurrAddresses-&gt;FirstDnsServerAddress;
+            pDnServer = pCurrAddresses->FirstDnsServerAddress;
             if (pDnServer) {
                 for (i = 0; pDnServer != NULL; i++)
-                    pDnServer = pDnServer-&gt;Next;
+                    pDnServer = pDnServer->Next;
                 printf("\tNumber of DNS Server Addresses: %d\n", i);
             } else
                 printf("\tNo DNS Server Addresses\n");
 
-            printf("\tDNS Suffix: %wS\n", pCurrAddresses-&gt;DnsSuffix);
-            printf("\tDescription: %wS\n", pCurrAddresses-&gt;Description);
-            printf("\tFriendly name: %wS\n", pCurrAddresses-&gt;FriendlyName);
+            printf("\tDNS Suffix: %wS\n", pCurrAddresses->DnsSuffix);
+            printf("\tDescription: %wS\n", pCurrAddresses->Description);
+            printf("\tFriendly name: %wS\n", pCurrAddresses->FriendlyName);
 
-            if (pCurrAddresses-&gt;PhysicalAddressLength != 0) {
+            if (pCurrAddresses->PhysicalAddressLength != 0) {
                 printf("\tPhysical address: ");
-                for (i = 0; i &lt; (int) pCurrAddresses-&gt;PhysicalAddressLength;
+                for (i = 0; i < (int) pCurrAddresses->PhysicalAddressLength;
                      i++) {
-                    if (i == (pCurrAddresses-&gt;PhysicalAddressLength - 1))
+                    if (i == (pCurrAddresses->PhysicalAddressLength - 1))
                         printf("%.2X\n",
-                               (int) pCurrAddresses-&gt;PhysicalAddress[i]);
+                               (int) pCurrAddresses->PhysicalAddress[i]);
                     else
                         printf("%.2X-",
-                               (int) pCurrAddresses-&gt;PhysicalAddress[i]);
+                               (int) pCurrAddresses->PhysicalAddress[i]);
                 }
             }
-            printf("\tFlags: %ld\n", pCurrAddresses-&gt;Flags);
-            printf("\tMtu: %lu\n", pCurrAddresses-&gt;Mtu);
-            printf("\tIfType: %ld\n", pCurrAddresses-&gt;IfType);
-            printf("\tOperStatus: %ld\n", pCurrAddresses-&gt;OperStatus);
+            printf("\tFlags: %ld\n", pCurrAddresses->Flags);
+            printf("\tMtu: %lu\n", pCurrAddresses->Mtu);
+            printf("\tIfType: %ld\n", pCurrAddresses->IfType);
+            printf("\tOperStatus: %ld\n", pCurrAddresses->OperStatus);
             printf("\tIpv6IfIndex (IPv6 interface): %u\n",
-                   pCurrAddresses-&gt;Ipv6IfIndex);
+                   pCurrAddresses->Ipv6IfIndex);
             printf("\tZoneIndices (hex): ");
-            for (i = 0; i &lt; 16; i++)
-                printf("%lx ", pCurrAddresses-&gt;ZoneIndices[i]);
+            for (i = 0; i < 16; i++)
+                printf("%lx ", pCurrAddresses->ZoneIndices[i]);
             printf("\n");
 
-            printf("\tTransmit link speed: %I64u\n", pCurrAddresses-&gt;TransmitLinkSpeed);
-            printf("\tReceive link speed: %I64u\n", pCurrAddresses-&gt;ReceiveLinkSpeed);
+            printf("\tTransmit link speed: %I64u\n", pCurrAddresses->TransmitLinkSpeed);
+            printf("\tReceive link speed: %I64u\n", pCurrAddresses->ReceiveLinkSpeed);
 
-            pPrefix = pCurrAddresses-&gt;FirstPrefix;
+            pPrefix = pCurrAddresses->FirstPrefix;
             if (pPrefix) {
                 for (i = 0; pPrefix != NULL; i++)
-                    pPrefix = pPrefix-&gt;Next;
+                    pPrefix = pPrefix->Next;
                 printf("\tNumber of IP Adapter Prefix entries: %d\n", i);
             } else
                 printf("\tNumber of IP Adapter Prefix entries: 0\n");
 
             printf("\n");
 
-            pCurrAddresses = pCurrAddresses-&gt;Next;
+            pCurrAddresses = pCurrAddresses->Next;
         }
     } else {
         printf("Call to GetAdaptersAddresses failed with error: %d\n",
@@ -582,7 +578,7 @@ int __cdecl main(int argc, char **argv)
                     FORMAT_MESSAGE_FROM_SYSTEM | FORMAT_MESSAGE_IGNORE_INSERTS, 
                     NULL, dwRetVal, MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT),   
                     // Default language
-                    (LPTSTR) &amp; lpMsgBuf, 0, NULL)) {
+                    (LPTSTR) & lpMsgBuf, 0, NULL)) {
                 printf("\tError: %s", lpMsgBuf);
                 LocalFree(lpMsgBuf);
                 if (pAddresses)
@@ -598,10 +594,10 @@ int __cdecl main(int argc, char **argv)
 
     return 0;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

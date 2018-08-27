@@ -98,21 +98,17 @@ An application would call this method to obtain the message retrieved from the s
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;Certcli.h&gt;
+
+```cpp
+#include <windows.h>
+#include <stdio.h>
+#include <Certcli.h>
 
     BSTR    bstrDispMsg = NULL;
     // pCertRequest is previously instantiated ICertRequest object 
     // pointer. Retrieve the disposition message for the 
     // previous request.
-    hr = pCertRequest-&gt;GetDispositionMessage(&amp;bstrDispMsg);
+    hr = pCertRequest->GetDispositionMessage(&bstrDispMsg);
     if (FAILED(hr))
     {
         printf("Failed GetDispositionMessage [%x]\n", hr);
@@ -133,10 +129,10 @@ error:
 
     if (NULL != bstrDispMsg)
         SysFreeString(bstrDispMsg);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

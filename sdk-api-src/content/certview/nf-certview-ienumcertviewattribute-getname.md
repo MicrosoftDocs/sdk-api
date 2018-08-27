@@ -102,16 +102,12 @@ If the attribute-enumeration sequence is not referencing a valid attribute, <b>G
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BSTR    bstrAttribName = NULL;
+
+```cpp
+BSTR    bstrAttribName = NULL;
 
 // pEnumAttr is previously instantiated IEnumCERTVIEWATTRIBUTE object
-hr = pEnumAttr-&gt;GetName(&amp;bstrAttribName);
+hr = pEnumAttr->GetName(&bstrAttribName);
 if (S_OK != hr)
     printf("Failed call to GetName - %x\n", hr);
 else
@@ -119,10 +115,10 @@ else
 
 // free memory when done
 if (NULL != bstrAttribName)
-    SysFreeString(bstrAttribName);</pre>
-</td>
-</tr>
-</table></span></div>
+    SysFreeString(bstrAttribName);
+```
+
+
 
 
 

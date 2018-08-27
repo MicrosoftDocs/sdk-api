@@ -97,13 +97,9 @@ In some cases, however, it may be desirable or necessary for an in-process handl
 
 A DLL would typically call <b>CoRegisterPSClsid</b> as shown in the following code fragment.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT RegisterMyCustomInterface(DWORD *pdwRegistrationKey)
+
+```cpp
+HRESULT RegisterMyCustomInterface(DWORD *pdwRegistrationKey)
 {
     HRESULT hr = CoRegisterClassObject(CLSID_MyProxyStubClsid,
         pIPSFactoryBuffer,
@@ -117,10 +113,10 @@ A DLL would typically call <b>CoRegisterPSClsid</b> as shown in the following co
  
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

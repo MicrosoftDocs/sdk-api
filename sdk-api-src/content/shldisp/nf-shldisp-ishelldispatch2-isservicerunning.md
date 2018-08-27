@@ -112,13 +112,9 @@ The following examples show the use of <b>IsServiceRunning</b> to determine whet
 JScript:
                 
 
-<div class="code"><span codelanguage="JScript"><table>
-<tr>
-<th>JScript</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;script language="JScript"&gt;
+
+```javascript
+<script language="JScript">
     function fnIsServiceRunningJ()
     {
         var objShell = new ActiveXObject("shell.application");
@@ -126,20 +122,16 @@ JScript:
     
         bReturn = objShell.IsServiceRunning("Themes");
     }
-&lt;/script&gt;
-</pre>
-</td>
-</tr>
-</table></span></div>
+</script>
+
+```
+
+
 VBScript:
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;script language="VBScript"&gt;
+
+```vb
+<script language="VBScript">
     function fnIsServiceRunningVB()
         dim objShell
         dim bReturn
@@ -150,10 +142,10 @@ VBScript:
     
         set objShell = nothing
     end function
-&lt;/script&gt;
-</pre>
-</td>
-</tr>
-</table></span></div>
+</script>
+
+```
+
+
 
 

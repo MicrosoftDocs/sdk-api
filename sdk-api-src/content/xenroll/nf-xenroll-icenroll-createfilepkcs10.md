@@ -110,13 +110,9 @@ When this method is called from script, the method displays a user interface tha
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BSTR bstrDN = NULL;
+
+```cpp
+BSTR bstrDN = NULL;
 BSTR bstrOID = NULL;
 BSTR bstrFileName = NULL;
 ICEnroll4 * pEnroll = NULL;
@@ -133,7 +129,7 @@ hr = CoCreateInstance( __uuidof(CEnroll),
                        NULL,
                        CLSCTX_INPROC_SERVER,
                        __uuidof(ICEnroll4),
-                       (void **)&amp;pEnroll);
+                       (void **)&pEnroll);
 if (FAILED(hr))
 {
     printf("Failed CoCreateInstance - pEnroll [%x]\n", hr);
@@ -154,7 +150,7 @@ if (NULL == bstrDN)
 }
 
 // Generate the OID. For example, "1.3.6.1.4.1.311.2.1.21"
-bstrOID = SysAllocString(TEXT("&lt;OIDHERE&gt;"));
+bstrOID = SysAllocString(TEXT("<OIDHERE>"));
 if (NULL == bstrOID)
 {
     printf("Memory allocation failed for bstrOID.\n");
@@ -162,7 +158,7 @@ if (NULL == bstrOID)
 }
 
 // Specify the file name, for example, "myPKCS10.req"
-bstrFileName = SysAllocString(TEXT("&lt;FILENAMEHERE&gt;"));
+bstrFileName = SysAllocString(TEXT("<FILENAMEHERE>"));
 if (NULL == bstrFileName)
 {
     printf("Memory allocation failed for bstrFileName.\n");
@@ -170,7 +166,7 @@ if (NULL == bstrFileName)
 }
 
 // Create the PKCS10 (stored in a file).
-hr = pEnroll-&gt;createFilePKCS10( bstrDN, bstrOID, bstrFileName );
+hr = pEnroll->createFilePKCS10( bstrDN, bstrOID, bstrFileName );
 if (FAILED(hr))
 {
    printf("Failed createFilePKCS10 - %x\n", hr);
@@ -192,12 +188,12 @@ if ( bstrOID )
     SysFreeString( bstrOID );
 
 if ( pEnroll )
-       pEnroll-&gt;Release();
+       pEnroll->Release();
 
 CoUninitialize();
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

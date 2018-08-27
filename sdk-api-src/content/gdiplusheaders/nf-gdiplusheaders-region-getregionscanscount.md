@@ -92,13 +92,9 @@ The <b>Region::GetRegionScansCount</b> method can be used before the <a href="ht
 
 The following example creates a region from a path and gets a set of rectangles that approximate the region. The code then draws each of the rectangles.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_GetRegionScansCount(HDC hdc)
+
+```cpp
+VOID Example_GetRegionScansCount(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -111,24 +107,24 @@ The following example creates a region from a path and gets a set of rectangles 
 
    // Create a region from a path.
    path.AddEllipse(10, 10, 50, 300);
-   Region pathRegion(&amp;path);    
-   graphics.FillRegion(&amp;solidBrush, &amp;pathRegion);
+   Region pathRegion(&path);    
+   graphics.FillRegion(&solidBrush, &pathRegion);
 
    // Get the rectangles.
-   graphics.GetTransform(&amp;matrix);
-   count = pathRegion.GetRegionScansCount(&amp;matrix);
+   graphics.GetTransform(&matrix);
+   count = pathRegion.GetRegionScansCount(&matrix);
    rects = (RectF*)malloc(count*sizeof(RectF));
-   pathRegion.GetRegionScans(&amp;matrix, rects, &amp;count);
+   pathRegion.GetRegionScans(&matrix, rects, &count);
     
    // Draw the rectangles.
-   for(INT j = 0; j &lt; count; ++j)
-      graphics.DrawRectangle(&amp;pen, rects[j]);
+   for(INT j = 0; j < count; ++j)
+      graphics.DrawRectangle(&pen, rects[j]);
 
    free(rects);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

@@ -98,13 +98,9 @@ The pointer provided by this method should not be used outside of the lifetime o
 
 In the following example, the data pointed to by the <a href="https://msdn.microsoft.com/c0ddbc25-6abe-484b-a545-3b9376c514df">IWICBitmapLock</a> is zero'd.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
     IWICImagingFactory *pFactory = NULL;
     IWICBitmap *pBitmap = NULL;
 
@@ -120,17 +116,17 @@ In the following example, the data pointed to by the <a href="https://msdn.micro
         NULL,
         CLSCTX_INPROC_SERVER,
         IID_IWICImagingFactory,
-        (LPVOID*)&amp;pFactory
+        (LPVOID*)&pFactory
         );
 
     if (SUCCEEDED(hr))
     {
-        hr = pFactory-&gt;CreateBitmap(uiWidth, uiHeight, formatGUID, WICBitmapCacheOnDemand, &amp;pBitmap);
+        hr = pFactory->CreateBitmap(uiWidth, uiHeight, formatGUID, WICBitmapCacheOnDemand, &pBitmap);
     }
 
     if (SUCCEEDED(hr))
     {
-        hr = pBitmap-&gt;Lock(&amp;rcLock, WICBitmapLockWrite, &amp;pLock);
+        hr = pBitmap->Lock(&rcLock, WICBitmapLockWrite, &pLock);
 
         if (SUCCEEDED(hr))
         {
@@ -139,11 +135,11 @@ In the following example, the data pointed to by the <a href="https://msdn.micro
             BYTE *pv = NULL;
 
             // Retrieve the stride.
-            hr = pLock-&gt;GetStride(&amp;cbStride);
+            hr = pLock->GetStride(&cbStride);
 
             if (SUCCEEDED(hr))
             {
-                hr = pLock-&gt;GetDataPointer(&amp;cbBufferSize, &amp;pv);
+                hr = pLock->GetDataPointer(&cbBufferSize, &pv);
             }
             if (SUCCEEDED(hr))
             {
@@ -153,24 +149,24 @@ In the following example, the data pointed to by the <a href="https://msdn.micro
             }
 
             // Release the bitmap lock.
-            pLock-&gt;Release();
+            pLock->Release();
         }
     }
 
     if (pBitmap)
     {
-        pBitmap-&gt;Release();
+        pBitmap->Release();
     }
 
     if (pFactory)
     {
-        pFactory-&gt;Release();
+        pFactory->Release();
     }
 
     return hr;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

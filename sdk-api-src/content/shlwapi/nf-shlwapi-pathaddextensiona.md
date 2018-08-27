@@ -100,14 +100,10 @@ If there is already a file name extension present, no extension will be added. I
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;iostream.h&gt;
+
+```cpp
+#include <windows.h>
+#include <iostream.h>
 #include "Shlwapi.h"
 
 void main( void )
@@ -133,20 +129,20 @@ void main( void )
      lpStr4 = N_String;
 
      // Path 1 without the file name extension.
-     cout &lt;&lt; "The original path string 1 is  " &lt;&lt; lpStr1 &lt;&lt; endl;
+     cout << "The original path string 1 is  " << lpStr1 << endl;
 
      int ret_1 = PathAddExtension(lpStr1,lpStr3);
-     cout &lt;&lt; "The modified path string 1 is  " &lt;&lt; lpStr1 &lt;&lt; endl;
+     cout << "The modified path string 1 is  " << lpStr1 << endl;
 
     // Path 2 with the file name extension already there.
-    cout &lt;&lt; "The original path string 2 is  " &lt;&lt; lpStr2 &lt;&lt; endl;
+    cout << "The original path string 2 is  " << lpStr2 << endl;
     int ret_2 = PathAddExtension(lpStr2,lpStr3);
-    cout &lt;&lt; "The modified path string 2 is  " &lt;&lt; lpStr2&lt;&lt; endl;
+    cout << "The modified path string 2 is  " << lpStr2<< endl;
 
     // Path 3 null string as a path.
     int ret_3 = PathAddExtension(lpStr4,lpStr3);
-    cout &lt;&lt; "The return value is " &lt;&lt; ret_3&lt;&lt; endl;
-    cout &lt;&lt; "The modified path on a null string is " &lt;&lt; lpStr4&lt;&lt; endl;
+    cout << "The return value is " << ret_3<< endl;
+    cout << "The modified path on a null string is " << lpStr4<< endl;
 
 }
 
@@ -158,9 +154,9 @@ The original path string 2 is  file.doc
 The modified path string 2 is  file.doc
 The return value is 1
 The modified path on a null string is .txt
-The return value is 1</pre>
-</td>
-</tr>
-</table></span></div>
+The return value is 1
+```
+
+
 
 

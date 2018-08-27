@@ -93,33 +93,25 @@ The following examples show the use of <b>WindowsSecurity</b> for JScript, VBScr
 JScript:
                 
 
-<div class="code"><span codelanguage="JScript"><table>
-<tr>
-<th>JScript</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;script language="JScript"&gt;
+
+```javascript
+<script language="JScript">
      function fnIShellDispatch4WindowsSecurityJ()
     {
         var objShell = new ActiveXObject("shell.application");
         
         objshell.WindowsSecurity();
     }
-&lt;/script&gt;
-</pre>
-</td>
-</tr>
-</table></span></div>
+</script>
+
+```
+
+
 VBScript:
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;script language="VBScript"&gt;
+
+```vb
+<script language="VBScript">
      function fnIShellDispatch4WindowsSecurityVB()
         dim objShell
         
@@ -127,29 +119,25 @@ VBScript:
             objshell.WindowsSecurity
         set objShell = nothing
     end function
- &lt;/script&gt;
-</pre>
-</td>
-</tr>
-</table></span></div>
+ </script>
+
+```
+
+
 Visual Basic:
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Private Sub fnIShellDispatch4WindowsSecurityVB()
+
+```vb
+Private Sub fnIShellDispatch4WindowsSecurityVB()
     Dim objShell As Shell
     
     Set objShell = New Shell
         objshell.WindowsSecurity
     Set objShell = Nothing
 End Sub
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

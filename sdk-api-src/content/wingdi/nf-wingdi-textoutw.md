@@ -213,15 +213,11 @@ By default, the current position is not used or updated by this function. Howeve
 
 When the <b>TextOut</b> function is placed inside a path bracket, the system generates a path for the TrueType text that includes each character plus its character box. The region generated is the character box minus the text, rather than the text itself. You can obtain the region enclosed by the outline of the TrueType text by setting the background mode to transparent before placing the <b>TextOut</b> function in the path bracket. Following is sample code that demonstrates this procedure.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 // Obtain the window's client rectangle 
-GetClientRect(hwnd, &amp;r);
+GetClientRect(hwnd, &r);
 
 // THE FIX: by setting the background mode 
 // to transparent, the region is the text itself 
@@ -244,11 +240,11 @@ SelectClipPath(hdc, RGN_AND);
 // SelectClipRgn(hdc, PathToRegion(hdc)); 
 
 // Fill the region with grayness 
-FillRect(hdc, &amp;r, GetStockObject(GRAY_BRUSH));
-</pre>
-</td>
-</tr>
-</table></span></div>
+FillRect(hdc, &r, GetStockObject(GRAY_BRUSH));
+
+```
+
+
 
 #### Examples
 

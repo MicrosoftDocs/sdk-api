@@ -130,16 +130,12 @@ This structure represents a compatible driver.
 
 In <i>SetupAPI.h</i>, this structure equates to either SP_DRVINFO_DATA_V1 or SP_DRVINFO_DATA_V2, based on whether you include the following line in your source code:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#define  USE_SP_DRVINFO_DATA_V1 1</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+#define  USE_SP_DRVINFO_DATA_V1 1
+```
+
+
 Define this identifier only if your component must run on Windows 98 or Millennium Edition, or on Windows NT. If your component is run only in Windows 2000 and later versions of Windows, do not define the identifier. If the identifier is not defined, SP_DRVINFO_DATA_V2 is used.
 
 SP_DRVINFO_DATA_V1 does not contain <b>DriverDate</b> and <b>DriverVersion</b> members.

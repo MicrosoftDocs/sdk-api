@@ -170,13 +170,9 @@ The following code example shows the
 <a href="https://msdn.microsoft.com/be80abec-fab4-4403-bc29-d0d4a38e3c87">Create Method in Class Win32_Process</a>. For an example of the same operation using <a href="https://msdn.microsoft.com/d303ec1a-5e0c-4a5e-8ed3-ed353a138755">SWbemObject</a>, see 
 <a href="https://msdn.microsoft.com/b848b38b-c0c3-49cd-b1e2-b0a440b82d61">SWbemObject.ExecMethodAsync</a>.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>' Connect to WMI.
+
+```vb
+' Connect to WMI.
 set Services = getobject("winmgmts:root\cimv2")
 
 ' Obtain the class definition object
@@ -222,19 +218,19 @@ wend
 ' Sink subroutines
 sub Sink_OnObjectReady(oOutParams, oContext)
     wscript.echo "Sink_OnObjectReady subroutine " _ 
-        &amp;VBCR &amp; "ReturnValue = " _
-        &amp; oOutParams.ReturnValue &amp;VBCR &amp; _
-        "ProcessId = " &amp; oOutParams.ProcessId
+        &VBCR & "ReturnValue = " _
+        & oOutParams.ReturnValue &VBCR & _
+        "ProcessId = " & oOutParams.ProcessId
 end sub
 
 sub Sink_OnCompleted(HResult, LastErrorObj, oContext)
     wscript.echo "Sink_OnCompleted subroutine, hresult = " _
-        &amp; hex(HResult)
+        & hex(HResult)
     bdone = true
-end sub</pre>
-</td>
-</tr>
-</table></span></div>
+end sub
+```
+
+
 
 
 

@@ -211,17 +211,13 @@ Do not override the policy settings in this GPO with policy settings in a subseq
 
 Each GPO could contain data that must be processed by multiple snap-in extensions. Therefore, the data in the <b>lpExtensions</b> member is organized as a series of <b>GUID</b>s that identify the extensions and snap-in extensions. The data format is as follows:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>[ext_guid1, snap_in_guid1, snap_in_guid2, ...] 
-[ext_guid2, snap_in_guid3, snap_in_guid4, ...] </pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+[ext_guid1, snap_in_guid1, snap_in_guid2, ...] 
+[ext_guid2, snap_in_guid3, snap_in_guid4, ...] 
+```
+
+
 First, there is an opening bracket, "[", followed by the <b>GUID</b> of the extension. Next, you'll find one or more <b>GUID</b>s identifying the snap-in extensions that have stored data in the GPO. After the last snap-in <b>GUID</b> for an extension, there is a closing bracket, "]". This pattern is repeated for the next extension.
 
 

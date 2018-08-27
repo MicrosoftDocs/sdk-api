@@ -407,30 +407,26 @@ Coercion between types is performed without respect to property-specific informa
 
 The following code example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776514(v=VS.85).aspx">PropVariantChangeType</a> to initialize a <b>VT_FILETIME</b> value from a string.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>PROPVARIANT propvarString = {0};
+
+```cpp
+PROPVARIANT propvarString = {0};
                     
-HRESULT hr = InitPropVariantFromString(L"2007/01/30:12:00:00.000", &amp;propvarString);
+HRESULT hr = InitPropVariantFromString(L"2007/01/30:12:00:00.000", &propvarString);
 if (SUCCEEDED(hr))
 {
     PROPVARIANT propvarFiletime = {0};
 
-    hr = PropVariantChangeType(&amp;propvarFiletime, propvarString, 0, VT_FILETIME);
+    hr = PropVariantChangeType(&propvarFiletime, propvarString, 0, VT_FILETIME);
     if (SUCCEEDED(hr))
     {
         // propvarFiletime now contains the FILETIME representation 
         // of 1/30/2007 12:00 PM
-        PropVariantClear(&amp;propvarFiletime);
+        PropVariantClear(&propvarFiletime);
     }
-    PropVariantClear(&amp;propvarString);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+    PropVariantClear(&propvarString);
+}
+```
+
+
 
 

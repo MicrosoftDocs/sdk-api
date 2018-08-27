@@ -174,22 +174,18 @@ The feature set created by calling this function is retained in the biometric un
 
 The sensor adapter implementation of the <a href="https://msdn.microsoft.com/dea49f4b-668d-4b30-a16f-b74f260785c2">SensorAdapterPushDataToEngine</a> function should use the following wrapper function (defined in Winbio_adapter.h) to call <i>EngineAdapterAcceptSampleData</i>:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT WbioEngineAcceptSampleData(
+
+```cpp
+HRESULT WbioEngineAcceptSampleData(
 __inout PWINBIO_PIPELINE Pipeline,
 __in PWINBIO_BIR SampleBuffer,
 __in SIZE_T SampleSize,
 __in WINBIO_BIR_PURPOSE Purpose,
 __out PWINBIO_REJECT_DETAIL RejectDetail
-);</pre>
-</td>
-</tr>
-</table></span></div>
+);
+```
+
+
 The <a href="https://msdn.microsoft.com/39cfab34-0416-4897-bf95-a1b3c3a6a7a1">WINBIO_BIR</a> structure that is passed in  the <i>SampleBuffer</i> parameter  is the property of the sensor adapter. Because the sensor adapter controls the lifetime of the <b>WINBIO_BIR</b> object, the <i>EngineAdapterAcceptSampleData</i> function must not attempt to deallocate the structure or save a pointer to it.  By not saving the pointer, you prevent other parts of the engine adapter from attempting to use the <b>WINBIO_BIR</b> structure after the <i>EngineAdapterAcceptSampleData</i> function returns.
 
 If the <b>Offset</b> field of the <b>StandardDataBlock</b> member of the <a href="https://msdn.microsoft.com/39cfab34-0416-4897-bf95-a1b3c3a6a7a1">WINBIO_BIR</a> structure is greater than zero (indicating that the BIR contains a biometric sample in the standard data format), the <b>BiometricDataFormat</b> field of the <b>HeaderBlock</b> member must be set as follows:
@@ -209,13 +205,9 @@ Fingerprint sensors processing fingerprint samples and rejecting bad swipes in t
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//////////////////////////////////////////////////////////////////////////////////////////
+
+```cpp
+//////////////////////////////////////////////////////////////////////////////////////////
 //
 // EngineAdapterAcceptSampleData
 //
@@ -257,7 +249,7 @@ EngineAdapterAcceptSampleData(
 
     // Retrieve the context from the pipeline.
     PWINBIO_ENGINE_CONTEXT context = 
-           (PWINBIO_ENGINE_CONTEXT)Pipeline-&gt;EngineContext;
+           (PWINBIO_ENGINE_CONTEXT)Pipeline->EngineContext;
 
     // Verify that input arguments are valid.
     if (SampleSize == 0 ||
@@ -269,11 +261,11 @@ EngineAdapterAcceptSampleData(
 
     // Release any feature set currently attached to the pipeline before
     // creating a new feature set.
-    if (context-&gt;FeatureSet != NULL)
+    if (context->FeatureSet != NULL)
     {
-        _AdapterRelease(context-&gt;FeatureSet);
-        context-&gt;FeatureSet = NULL;
-        context-&gt;FeatureSetSize = 0;
+        _AdapterRelease(context->FeatureSet);
+        context->FeatureSet = NULL;
+        context->FeatureSetSize = 0;
     }
 
     // An actual engine adapter would here process the contents of the sample 
@@ -291,9 +283,9 @@ EngineAdapterAcceptSampleData(
         goto cleanup;
     }
     RtlCopyMemory(featureSet, SampleBuffer, SampleSize);
-    context-&gt;FeatureSet = featureSet;
+    context->FeatureSet = featureSet;
     featureSet = NULL;
-    context-&gt;FeatureSetSize = SampleSize;
+    context->FeatureSetSize = SampleSize;
 
 cleanup:
 
@@ -307,10 +299,10 @@ cleanup:
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

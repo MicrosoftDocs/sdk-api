@@ -174,15 +174,11 @@ If a <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">c
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;Certexit.h&gt;
+
+```cpp
+#include <windows.h>
+#include <stdio.h>
+#include <Certexit.h>
 
 STDMETHODIMP CCertExit::Notify(
     /* [in] */ LONG ExitEvent,
@@ -241,10 +237,10 @@ STDMETHODIMP CCertExit::Notify(
     }
 
     return(hr);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

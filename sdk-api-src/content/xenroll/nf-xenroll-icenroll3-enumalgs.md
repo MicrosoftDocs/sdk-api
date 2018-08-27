@@ -108,15 +108,11 @@ For algorithm ID and class constants used by this method, see Wincrypt.h.
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;Xenroll.h&gt;
+
+```cpp
+#include <windows.h>
+#include <stdio.h>
+#include <Xenroll.h>
 
 DWORD     dwAlgID;
 DWORD     dwIndex;
@@ -130,7 +126,7 @@ dwIndex = 0;
 while ( TRUE )
 {
     // Enumerate the alg IDs for a specific class.
-    hr = pEnroll-&gt;EnumAlgs(dwIndex, ALG_CLASS_SIGNATURE, &amp;dwAlgID);
+    hr = pEnroll->EnumAlgs(dwIndex, ALG_CLASS_SIGNATURE, &dwAlgID);
     if ( S_OK != hr )
     {
        break;
@@ -138,7 +134,7 @@ while ( TRUE )
 
     // Do something with the AlgID.
     // For example, retrieve the corresponding name.
-    hr2 = pEnroll-&gt;GetAlgName( dwAlgID, &amp;bstrAlgName);
+    hr2 = pEnroll->GetAlgName( dwAlgID, &bstrAlgName);
     if ( FAILED( hr2 ) )    
         printf("Failed GetAlgName [%x]\n", hr);
     else
@@ -155,10 +151,10 @@ while ( TRUE )
     dwIndex++;
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

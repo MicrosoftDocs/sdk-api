@@ -430,22 +430,18 @@ Some name service providers may have other means of finding containers. For exam
 
 The preferred method of obtaining the containers within another container, is the call:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>dwStatus = NSPv2LookupServiceBegin(
+
+```cpp
+dwStatus = NSPv2LookupServiceBegin(
     lpProviderId,
     lpqsRestrictions,
     LUP_CONTAINERS,
     lpClientSession,
     lphLookup);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 followed by the requisite number of 
 <a href="https://msdn.microsoft.com/957fe544-9a3f-47f4-a98c-0624747650f4">NSPv2LookupServiceNextEx</a> calls. This will return all containers contained immediately within the starting context; that is, it is not a deep query. With this, one can map the address space structure by walking the hierarchy, perhaps enumerating the content of selected containers. Subsequent uses of 
 <a href="https://msdn.microsoft.com/a0b71821-4434-470f-b729-370d7e1722ec">NSPv2LookupServiceBegin</a> use the containers returned from a previous call.

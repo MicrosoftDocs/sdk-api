@@ -153,17 +153,13 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776566(v=VS.85).aspx">PropVariantToUInt16Vector</a> to access an <b>unsigned short</b> vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// PROPVARIANT propvar;
+
+```cpp
+// PROPVARIANT propvar;
 // Assume the variable propvar is initialized and valid
 USHORT rgShorts[4]; // The application is expecting propvar to hold 4 USHORTs in a vector
 ULONG cElems;
-HRESULT hr = PropVariantToUInt16Vector(propvar, rgShorts, ARRAYSIZE(rgShorts), &amp;cElems);
+HRESULT hr = PropVariantToUInt16Vector(propvar, rgShorts, ARRAYSIZE(rgShorts), &cElems);
 if (SUCCEEDED(hr))
 {
      if (cElems == ARRAYSIZE(rgShorts))
@@ -174,10 +170,10 @@ if (SUCCEEDED(hr))
      {
          // The application got cElems which are stored in the first cElems elements of rgShorts
      }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

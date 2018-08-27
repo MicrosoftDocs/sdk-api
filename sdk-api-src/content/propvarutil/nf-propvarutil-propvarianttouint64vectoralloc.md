@@ -135,25 +135,21 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776575(v=VS.85).aspx">PropVariantToUInt64VectorAlloc</a> to access a <b>ULONGLONG</b> vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// PROPVARIANT propvar;
+
+```cpp
+// PROPVARIANT propvar;
 // Assume the variable propvar is initialized and valid. The application is expecting propvar to contain a vector of ULONGLONG values.
 ULONGLONG *prgLongs;
 ULONG cElems;
-HRESULT hr = PropVariantToUInt64VectorAlloc(propvar, &amp;prgLongs, &amp;cElems);
+HRESULT hr = PropVariantToUInt64VectorAlloc(propvar, &prgLongs, &cElems);
 if (SUCCEEDED(hr))
 {
      // prgLongs now points to a vector of cElems ULONGLONGs.
      CoTaskMemFree(prgLongs);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

@@ -86,33 +86,25 @@ There are fundamental differences in how different versions of Windows handle ch
 
 The following example sets the <b>SeDebugPrivilege</b> on the initial moniker connection to obtain an <a href="https://msdn.microsoft.com/7fcfa404-2fe6-42e5-85ac-64536f6d2a44">SWbemServices</a> object.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Set Service = GetObject( _
-    "winmgmts:{impersonationLevel=impersonate, (Debug)}")</pre>
-</td>
-</tr>
-</table></span></div>
+
+```vb
+Set Service = GetObject( _
+    "winmgmts:{impersonationLevel=impersonate, (Debug)}")
+```
+
+
 For more information about how to format the security string for a moniker connection, see <a href="https://msdn.microsoft.com/f9400597-81bb-44a8-80dc-aba0160aea26">Privilege Constants</a>.
 
 The following example performs the same task, but it sets the privilege after the initial log on to WMI.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Set Service = GetObject( _
+
+```vb
+Set Service = GetObject( _
     "winmgmts:{impersonationLevel=impersonate}")
-Service.Security_.Privileges.AddAsString "SeDebugPrivilege", True</pre>
-</td>
-</tr>
-</table></span></div>
+Service.Security_.Privileges.AddAsString "SeDebugPrivilege", True
+```
+
+
 Note that for calls to <a href="https://msdn.microsoft.com/729ed4e3-2c5c-4bb4-acc6-cf9ad0d5eaf1">SwbemPrivilegeSet.AddAsString</a>, you must use the full name of the security privilege, for example, "SeDebugPrivilege" instead of "Debug".
 
 

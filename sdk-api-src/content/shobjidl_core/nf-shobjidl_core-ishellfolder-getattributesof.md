@@ -101,45 +101,33 @@ To optimize this operation, do not return unspecified flags.
 
 For a folder object, the <a href="https://msdn.microsoft.com/4cb85995-cdc8-4474-8c4d-c783ac91c759">SFGAO_BROWSABLE</a> attribute implies that the client can bind to this object as shown in a general form here.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IShellFolder::BindToObject(..., pidl, IID_IShellFolder, &amp;psfItem);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+IShellFolder::BindToObject(..., pidl, IID_IShellFolder, &psfItem);
+
+```
+
+
 The client can then create an <a href="https://msdn.microsoft.com/91438583-e4f1-456f-a130-2a45846fd725">IShellView</a> on that item through this statement.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>psfItem-&gt;CreateViewObject(..., IID_IShellView,...);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+psfItem->CreateViewObject(..., IID_IShellView,...);
+
+```
+
+
 The <a href="https://msdn.microsoft.com/4cb85995-cdc8-4474-8c4d-c783ac91c759">SFGAO_DROPTARGET</a> attribute implies that the client can bind to an instance of <a href="https://msdn.microsoft.com/13fbe834-1ef8-4944-b2e4-9f5c413c65c8">IDropTarget</a> for this folder by calling <a href="https://msdn.microsoft.com/ec863dbf-8ec9-4952-8912-575125e6dd09">IShellFolder::GetUIObjectOf</a> as shown here.
 
                 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IShellFolder::GetUIObjectOf(hwnd, 1, &amp;pidl, IID_IDropTarget, NULL, &amp;pv)
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+IShellFolder::GetUIObjectOf(hwnd, 1, &pidl, IID_IDropTarget, NULL, &pv)
+
+```
+
+
 The SFGAO_NONENUMERATED attribute indicates an item that is not returned by the enumerator created by the <a href="https://msdn.microsoft.com/248bec8b-0bf4-47d5-adb3-31a685a2c359">IShellFolder::EnumObjects</a> method.
 
 

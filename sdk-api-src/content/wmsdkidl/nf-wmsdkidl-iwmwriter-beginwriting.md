@@ -279,13 +279,9 @@ The following operations can be performed at any time:
 
 The following example code outlines how to set up a writer and send output both to a network sink and an archive file.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 IWMWriter *             pWriter = NULL;
 IWMWriterAdvanced *     pWriterAdvanced = NULL;
 IWMWriterFileSink2 *    pWriterFileSink = NULL;
@@ -299,19 +295,19 @@ do
 {
     // Create the basic objects.
 
-    hr = WMCreateWriter( &amp;pWriter );
+    hr = WMCreateWriter( &pWriter );
     if( FAILED( hr ) )
     {
         break;
     }
 
-    hr = WMCreateWriterFileSink( &amp;pWriterFileSink );
+    hr = WMCreateWriterFileSink( &pWriterFileSink );
     if( FAILED( hr ) )
     {
         break;
     }
 
-    hr = WMCreateWriterNetworkSink( &amp;pWriterNetworkSink );
+    hr = WMCreateWriterNetworkSink( &pWriterNetworkSink );
     if( FAILED( hr ) )
     {
         break;
@@ -319,25 +315,25 @@ do
 
     // Retrieve a pointer to an IWMWriterAdvanced interface and add the sinks.
 
-    hr = pWriter-&gt;QueryInterface( IID_IWMWriterAdvanced, (void **)&amp;pWriterAdvanced );
+    hr = pWriter->QueryInterface( IID_IWMWriterAdvanced, (void **)&pWriterAdvanced );
     if( FAILED( hr ) )
     {
         break;
     }
 
-    hr = pWriterAdvanced-&gt;AddSink( pWriterFileSink );
+    hr = pWriterAdvanced->AddSink( pWriterFileSink );
     if( FAILED( hr ) )
     {
         break;
     }
 
-    hr = pWriterAdvanced-&gt;AddSink( pWriterNetworkSink );
+    hr = pWriterAdvanced->AddSink( pWriterNetworkSink );
     if( FAILED( hr ) )
     {
         break;
     }
 
-    hr = pWriterFileSink-&gt;Open( L"Archive file name" );
+    hr = pWriterFileSink->Open( L"Archive file name" );
     if( FAILED( hr ) )
     {
         break;
@@ -346,13 +342,13 @@ do
     // Setting the port number to zero enables the SDK to select an
     // appropriate port number.
     dwPort = 0;
-    hr = pWriterNetworkSink-&gt;Open( &amp;dwPort );
+    hr = pWriterNetworkSink->Open( &dwPort );
     if( FAILED( hr ) )
     {
         break;
     }
 
-    hr = pWriter-&gt;BeginWriting();
+    hr = pWriter->BeginWriting();
     if( FAILED( hr ) )
     {
         break;
@@ -361,19 +357,19 @@ do
     // Code to send data to the writer goes here (not shown).
 
     // Close both sinks.
-    hr = pWriterFileSink-&gt;Close();
+    hr = pWriterFileSink->Close();
     if( FAILED( hr ) )
     {
         break;
     }
 
-    hr = pWriterNetworkSink-&gt;Close();
+    hr = pWriterNetworkSink->Close();
     if( FAILED( hr ) )
     {
         break;
     }
 
-    hr = pWriter-&gt; EndWriting();
+    hr = pWriter-> EndWriting();
     if( FAILED( hr ) )
     {
         break;
@@ -385,24 +381,24 @@ while( FALSE );
 
 if ( pWriter )
 {
-    pWriter-&gt;Release();
+    pWriter->Release();
 }
 if ( pWriterAdvanced )
 {
-    pWriterAdvanced-&gt;Release();
+    pWriterAdvanced->Release();
 }
 if ( pWriterFileSink )
 {
-    pWriterFileSink-&gt;Release();
+    pWriterFileSink->Release();
 }
 if ( pWriterNetworkSink )
 {
-    pWriterNetworkSink-&gt;Release();
+    pWriterNetworkSink->Release();
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

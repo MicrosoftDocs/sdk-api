@@ -96,16 +96,12 @@ You can set the members of this structure to values outside the range of 0 throu
 The DXGItype.h header type-defines <a href="https://msdn.microsoft.com/5F9DDDC1-644E-4DA2-8E3D-F157789809E7">DXGI_RGBA</a> as an alias of <b>D3DCOLORVALUE</b>, as follows:
         
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef D3DCOLORVALUE DXGI_RGBA;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+typedef D3DCOLORVALUE DXGI_RGBA;
+```
+
+
 You can use D3DCOLORVALUE or <a href="https://msdn.microsoft.com/5F9DDDC1-644E-4DA2-8E3D-F157789809E7">DXGI_RGBA</a> with <a href="https://msdn.microsoft.com/E46CA219-303F-40D4-8C62-6241C9199BA0">IDXGISwapChain1::SetBackgroundColor</a>, <a href="https://msdn.microsoft.com/AF10BAF1-5C49-45E7-B776-3EB606C02E10">IDXGISwapChain1::GetBackgroundColor</a>, and <a href="https://msdn.microsoft.com/DD3D1E49-06D2-4FB9-A41B-86453D8E566F">DXGI_ALPHA_MODE</a>.
         
 

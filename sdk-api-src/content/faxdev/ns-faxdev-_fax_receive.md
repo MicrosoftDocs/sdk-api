@@ -110,13 +110,9 @@ The FSP must set the <b>ReceiverName</b> and <b>ReceiverNumber</b> members in th
 
 The following code sample and diagram illustrate how to fill in the memory that the fax service allocates.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PWSTR ReceiverName;
+
+```
+PWSTR ReceiverName;
 PWSTR ReceiverNumber;
 
 //
@@ -128,15 +124,15 @@ PWSTR ReceiverNumber;
 //  in the FAX_RECEIVE structure; then
 //  copy the data to the appropriate offset.
 //
-FaxReceive-&gt;ReceiverNumber = (LPWSTR) ( (LPBYTE)FaxReceive-&gt;FileName + sizeof(WCHAR)*(wcslen(FaxReceive-&gt;FileName) + 1));
-wcscpy_s(  FaxReceive-&gt;ReceiverNumber, ReceiverNumber );
+FaxReceive->ReceiverNumber = (LPWSTR) ( (LPBYTE)FaxReceive->FileName + sizeof(WCHAR)*(wcslen(FaxReceive->FileName) + 1));
+wcscpy_s(  FaxReceive->ReceiverNumber, ReceiverNumber );
 
-FaxReceive-&gt;ReceiverName = (LPWSTR) ( (LPBYTE)FaxReceive-&gt;ReceiverNumber+ sizeof(WCHAR)*(wcslen(FaxReceive-&gt;ReceiverNumber) + 1));
-wcscpy_s(  FaxReceive-&gt;ReceiverName, ReceiverName );
-</pre>
-</td>
-</tr>
-</table></span></div>
+FaxReceive->ReceiverName = (LPWSTR) ( (LPBYTE)FaxReceive->ReceiverNumber+ sizeof(WCHAR)*(wcslen(FaxReceive->ReceiverNumber) + 1));
+wcscpy_s(  FaxReceive->ReceiverName, ReceiverName );
+
+```
+
+
 <img alt="Filling in the memory that the fax service allocates" src="./images/faxover.png"/>
 The FSP can reformat the <b>ReceiverName</b> and <b>ReceiverNumber</b> members and transmit the reformatted data to the remote sending device as the called subscriber identifier (CSI) to comply with the recommendation of the standards body of the International Telecommunication Union (ITU) from Study Group 8 (SG8). For more information, see the <b>RoutingInfo</b> and <b>CSI</b> members of the <a href="https://msdn.microsoft.com/en-us/library/ms684534(v=VS.85).aspx">FAX_DEV_STATUS</a> structure.
 

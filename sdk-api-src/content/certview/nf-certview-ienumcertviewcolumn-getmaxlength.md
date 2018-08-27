@@ -104,23 +104,19 @@ To determine whether the column data is indexed, call the <a href="https://msdn.
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// pEnumCol is previously instantiated IEnumCERTVIEWCOLUMN object
+
+```cpp
+// pEnumCol is previously instantiated IEnumCERTVIEWCOLUMN object
 HRESULT  hr;
 LONG     nLength;
 
 // determine database length
-hr = pEnumCol-&gt;GetMaxLength(&amp;nLength);
+hr = pEnumCol->GetMaxLength(&nLength);
 if (S_OK == hr)
-    printf("max length is %d\n", nLength);</pre>
-</td>
-</tr>
-</table></span></div>
+    printf("max length is %d\n", nLength);
+```
+
+
 
 
 

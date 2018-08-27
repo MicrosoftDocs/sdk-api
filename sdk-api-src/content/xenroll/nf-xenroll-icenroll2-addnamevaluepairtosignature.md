@@ -96,13 +96,9 @@ The <b>addNameValuePairToSignature</b> method is used  to add attributes to the 
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BSTR bstrName = NULL;
+
+```cpp
+BSTR bstrName = NULL;
 BSTR bstrValue = NULL;
 HRESULT hr;
 
@@ -118,7 +114,7 @@ if (NULL == bstrName || NULL == bstrValue)
 
 // add the name-value pair to the signature
 // pEnroll is previously instantiated ICEnroll4 interface pointer
-hr = pEnroll-&gt;addNameValuePairToSignature( bstrName, bstrValue );
+hr = pEnroll->addNameValuePairToSignature( bstrName, bstrValue );
 if ( FAILED( hr ) )
     printf("Failed addNameValuePairToSignature - %x\n", hr );
 else
@@ -130,9 +126,9 @@ else
 if (bstrName )
     SysFreeString( bstrName );
 if (bstrValue )
-    SysFreeString( bstrValue );</pre>
-</td>
-</tr>
-</table></span></div>
+    SysFreeString( bstrValue );
+```
+
+
 
 

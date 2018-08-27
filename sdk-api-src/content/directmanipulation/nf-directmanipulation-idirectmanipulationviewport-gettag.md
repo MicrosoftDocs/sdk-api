@@ -97,21 +97,17 @@ The out parameters are optional, so the method can return an ID, the viewport ob
 
 The following example show how to use this method.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>IUnknown* pUnk;
+
+```
+IUnknown* pUnk;
 UINT32 id;
 
-HRESULT hr = pRegion-&gt;GetTag(IID_PPV_ARGS(&amp;pUnk), &amp;id); 
+HRESULT hr = pRegion->GetTag(IID_PPV_ARGS(&pUnk), &id); 
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -188,14 +188,10 @@ Implementing <b>ICertManageModule</b> allows the Certificate Services Manager to
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;Certmod.h&gt;
+
+```cpp
+#include <windows.h>
+#include <Certmod.h>
 
 HRESULT CCertManagePolicyModule::GetProperty(
             /* [in] */ const BSTR strConfig,
@@ -239,7 +235,7 @@ HRESULT CCertManagePolicyModule::GetProperty(
     if (NULL == pvarProperty)
         return E_POINTER;
     // Determine whether the requested property is in the Name array.
-    for (i=0; i&lt;sizeof(awszPropName)/sizeof(wchar_t *); i++)
+    for (i=0; i<sizeof(awszPropName)/sizeof(wchar_t *); i++)
         if (!wcscmp( strPropertyName, awszPropName[i]))        
         {
             bFound = TRUE;  // Found the index for the property.
@@ -249,17 +245,17 @@ HRESULT CCertManagePolicyModule::GetProperty(
         return S_FALSE;     // Requested property not found.
 
     // Allocate storage for the property value.
-    pvarProperty-&gt;bstrVal = SysAllocString(awszPropValue[i]);
-    if (NULL == pvarProperty-&gt;bstrVal)
+    pvarProperty->bstrVal = SysAllocString(awszPropValue[i]);
+    if (NULL == pvarProperty->bstrVal)
         return E_OUTOFMEMORY;   
 
-    pvarProperty-&gt;vt = VT_BSTR;
+    pvarProperty->vt = VT_BSTR;
 
     return S_OK;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

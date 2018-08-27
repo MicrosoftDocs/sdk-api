@@ -77,20 +77,16 @@ For more information about setting passwords, see the Remarks section in <a href
 
 The following code example creates a <a href="https://msdn.microsoft.com/7a87a5f7-78ed-452c-9b9f-ad48811a3339">ConnectionOptions</a> object and sets the <b>Password</b>.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>' Create a WSMan object. 
+
+```vb
+' Create a WSMan object. 
 Set objWsman = CreateObject( "WSMAN.Automation" )
 ' Create a ConnectionOptions object
 Set objOptions = objWSMan.CreateConnectionOptions
-objOptions.Password = "&lt;password&gt;"</pre>
-</td>
-</tr>
-</table></span></div>
+objOptions.Password = "<password>"
+```
+
+
 
 
 

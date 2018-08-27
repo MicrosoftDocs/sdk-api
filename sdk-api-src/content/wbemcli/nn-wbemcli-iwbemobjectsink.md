@@ -116,14 +116,10 @@ The following code example is a simple implementation of an object sink. This sa
 <a href="https://msdn.microsoft.com/d8b55500-d84c-431b-93c6-99d1f1b845c3">IWbemServices::ExecQueryAsync</a> or 
 <a href="https://msdn.microsoft.com/5ba2ff28-034f-4949-9bde-8c98345ec7c6">IWbemServices::CreateInstanceEnumAsync</a> to receive the returned instances:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;iostream&gt;
-#include &lt;wbemidl.h&gt;
+
+```cpp
+#include <iostream>
+#include <wbemidl.h>
 #pragma comment(lib, "wbemuuid.lib")
 
 class QuerySink : public IWbemObjectSink
@@ -158,12 +154,12 @@ public:
 
 ULONG QuerySink::AddRef()
 {
-    return InterlockedIncrement(&amp;m_lRef);
+    return InterlockedIncrement(&m_lRef);
 }
 
 ULONG QuerySink::Release()
 {
-    LONG lRef = InterlockedDecrement(&amp;m_lRef);
+    LONG lRef = InterlockedDecrement(&m_lRef);
     if(lRef == 0)
         delete this;
     return lRef;
@@ -183,7 +179,7 @@ HRESULT QuerySink::QueryInterface(REFIID riid, void** ppv)
 
 HRESULT QuerySink::Indicate(long lObjCount, IWbemClassObject **pArray)
 {
-    for (long i = 0; i &lt; lObjCount; i++)
+    for (long i = 0; i < lObjCount; i++)
     {
         IWbemClassObject *pObj = pArray[i];
 
@@ -205,10 +201,10 @@ HRESULT QuerySink::SetStatus(
 {
     printf("QuerySink::SetStatus hResult = 0x%X\n", hResult);
     return WBEM_S_NO_ERROR;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

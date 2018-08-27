@@ -98,31 +98,27 @@ the following methods:
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT  hr;
+
+```cpp
+HRESULT  hr;
 LONG     Index;
 
 // pEnumExt is previously instantiated IEnumCERTVIEWEXTENSION object
-hr = pEnumExt-&gt;Reset();
+hr = pEnumExt->Reset();
 if (S_OK != hr)
     printf("Unable to reset pEnumExt - %x\n", hr);
     // call appropriate error handler / exit routine
 else
 {
     // reset to beginning of extensions again
-    while (S_OK == pEnumExt-&gt;Next(&amp;Index))
+    while (S_OK == pEnumExt->Next(&Index))
     {
         // Use each extension as needed.
     }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

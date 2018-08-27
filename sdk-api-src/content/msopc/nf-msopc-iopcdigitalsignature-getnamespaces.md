@@ -149,24 +149,20 @@ This method allocates memory used by the buffers returned in <i>prefixes</i> and
 
 The following code shows how to use <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> to free the memory of the buffers and the strings they contain.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Prepare to call GetNamespaces
+
+```cpp
+// Prepare to call GetNamespaces
 LPWSTR* prefixes = NULL;
 LPWSTR* namespaces = NULL;
 UINT32 count = 0;
 
 // Call to GetNamespaces succeeds
-if ( SUCCEEDED( signature-&gt;GetNamespaces(&amp;prefixes, &amp;namespaces, &amp;count) ) )
+if ( SUCCEEDED( signature->GetNamespaces(&prefixes, &namespaces, &count) ) )
 {
     // Process strings in prefixes and namespaces as needed for the application
 
     // Free memory for each string
-    for (UINT32 i = 0; i &lt; count; i++)
+    for (UINT32 i = 0; i < count; i++)
     {
         CoTaskMemFree(prefixes[i]);
         CoTaskMemFree(namespaces[i]);
@@ -174,10 +170,10 @@ if ( SUCCEEDED( signature-&gt;GetNamespaces(&amp;prefixes, &amp;namespaces, &amp
     // Free memory for the buffers
     CoTaskMemFree(prefixes);
     CoTaskMemFree(namespaces);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

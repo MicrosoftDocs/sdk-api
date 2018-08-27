@@ -102,34 +102,30 @@ Add/Remove Programs in the Control Panel will set the dwMask member of the <a hr
 
 Here is a sample of how to use the dwMask bits::
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT CPubApp::GetAppInfo(APPINFODATA *pData)
+
+```cpp
+HRESULT CPubApp::GetAppInfo(APPINFODATA *pData)
 {
-    if (sizeof(APPINFODATA) != pData-&gt;cbSize)
+    if (sizeof(APPINFODATA) != pData->cbSize)
         return E_FAIL;
 
     // First save off the mask of requested data items.
 
-    const DWORD dwMask = pData-&gt;dwMask;
+    const DWORD dwMask = pData->dwMask;
 
     // Zero-out the mask.  Bits will be set as items are obtained. 
 
-    pData-&gt;dwMask = 0;
+    pData->dwMask = 0;
 
     // Call an internal function that obtains data and sets
-    // bits in pData-&gt;dwMask for each item obtained.
+    // bits in pData->dwMask for each item obtained.
 
     return get_app_info_data(pData, dwMask);
 
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

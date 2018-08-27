@@ -184,23 +184,19 @@ If the MUI_MACHINE_LANGUAGE_SETTINGS flag is not set, the retrieved language lis
 <li>The list contains one entry for each language, with no duplicate entries.</li>
 </ul>
 <h3><a id="C__Signature"></a><a id="c__signature"></a><a id="C__SIGNATURE"></a>C# Signature</h3>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>[DllImport("Kernel32.dll", CharSet = CharSet.Auto)]
+
+```cpp
+[DllImport("Kernel32.dll", CharSet = CharSet.Auto)]
         static extern System.Boolean GetSystemPreferredUILanguages(
             System.UInt32 dwFlags,
             ref System.UInt32 pulNumLanguages,
             System.IntPtr pwszLanguagesBuffer,
             ref System.UInt32 pcchLanguagesBuffer
             );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

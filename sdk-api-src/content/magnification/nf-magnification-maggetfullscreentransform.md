@@ -104,17 +104,13 @@ The offsets are not affected by the current dots per inch (dpi) setting.
 
 The following code snippet retrieves the magnification value and offsets for the full-screen magnifier.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    // Get the current magnification level and offset.
+
+```cpp
+    // Get the current magnification level and offset.
     float  magLevel;
     int    xOffset, yOffset;
 
-    if (!MagGetFullscreenTransform(&amp;magLevel, &amp;xOffset, &amp;yOffset))
+    if (!MagGetFullscreenTransform(&magLevel, &xOffset, &yOffset))
     {
         return E_FAIL;
     }
@@ -122,10 +118,10 @@ The following code snippet retrieves the magnification value and offsets for the
     // 
     // Do something with the magnification settings.
     //    
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

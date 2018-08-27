@@ -89,16 +89,12 @@ The column-enumeration sequence is obtained by a call to the <a href="https://ms
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// pEnumCol is previously instantiated IEnumCERTVIEWCOLUMN object
+
+```cpp
+// pEnumCol is previously instantiated IEnumCERTVIEWCOLUMN object
 IEnumCERTVIEWCOLUMN * pEnumCol2 = NULL;
 HRESULT    hr;
-hr = pEnumCol-&gt;Clone(&amp;pEnumCol2);
+hr = pEnumCol->Clone(&pEnumCol2);
 if (S_OK != hr)
     printf("Unable to clone IEnumCERTVIEWCOLUMN\n");
 else
@@ -108,10 +104,10 @@ else
     // done using cloned object, free memory
 }
 if (NULL != pEnumCol2)
-    pEnumCol2-&gt;Release();</pre>
-</td>
-</tr>
-</table></span></div>
+    pEnumCol2->Release();
+```
+
+
 
 
 

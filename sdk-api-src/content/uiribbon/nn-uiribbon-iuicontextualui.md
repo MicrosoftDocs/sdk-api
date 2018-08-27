@@ -108,7 +108,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/Dd371705(v=VS.85).aspx">Mi
 
 The following screen shot shows the <a href="https://msdn.microsoft.com/en-us/library/Dd940493(v=VS.85).aspx">Context Popup</a> with a <a href="https://msdn.microsoft.com/en-us/library/Dd371651(v=VS.85).aspx">ContextMenu</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd371705(v=VS.85).aspx">MiniToolbar</a>.
 
-<img alt="Screen shot with callouts showing the ContentPopup, ContextMenu, and MiniToolbar." src="./images/Interfaces/IUIContextualUI_Concepts.png"/>
+<img alt="Screen shot with callouts showing the ContentPopup, ContextMenu, and MiniToolbar." src="./images/IUIContextualUI_Concepts.png"/>
 
 
 

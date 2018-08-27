@@ -127,13 +127,9 @@ To see how to make the background of a  hatch brush transparent or opaque, refer
 The next example draws a string 36 times, rotating it 10 degrees 
 counterclockwise each time. It also sets the background mode to transparent to make the text visible.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include "strsafe.h"
+
+```cpp
+#include "strsafe.h"
 LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 {
     int wmId, wmEvent;
@@ -145,7 +141,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
     
     case WM_PAINT:
         {
-        hdc = BeginPaint(hWnd, &amp;ps);
+        hdc = BeginPaint(hWnd, &ps);
         RECT rc; 
         int angle; 
         HGDIOBJ hfnt, hfntPrev; 
@@ -160,17 +156,17 @@ PLOGFONT plf = (PLOGFONT) LocalAlloc(LPTR, sizeof(LOGFONT));
  
 // Specify a font typeface name and weight. 
  
-hr = StringCchCopy(plf-&gt;lfFaceName, 6, TEXT("Arial"));
+hr = StringCchCopy(plf->lfFaceName, 6, TEXT("Arial"));
 if (FAILED(hr))
 {
 // TODO: write error handler
 }
 
-plf-&gt;lfWeight = FW_NORMAL; 
+plf->lfWeight = FW_NORMAL; 
  
 // Retrieve the client-rectangle dimensions. 
  
-GetClientRect(hWnd, &amp;rc); 
+GetClientRect(hWnd, &rc); 
  
 // Set the background mode to transparent for the 
 // text-output operation. 
@@ -180,16 +176,16 @@ SetBkMode(hdc, TRANSPARENT);
 // Draw the string 36 times, rotating 10 degrees 
 // counter-clockwise each time. 
  
-for (angle = 0; angle &lt; 3600; angle += 100) 
+for (angle = 0; angle < 3600; angle += 100) 
 { 
-    plf-&gt;lfEscapement = angle; 
+    plf->lfEscapement = angle; 
     hfnt = CreateFontIndirect(plf); 
     hfntPrev = SelectObject(hdc, hfnt);
     
     //
     // The StringCchLength call is fitted to the lpszRotate string
     //
-    hr = StringCchLength(lpszRotate, 22, &amp;pcch);
+    hr = StringCchLength(lpszRotate, 22, &pcch);
     if (FAILED(hr))
     {
     // TODO: write error handler
@@ -207,7 +203,7 @@ SetBkMode(hdc, OPAQUE);
 // Free the memory allocated for the LOGFONT structure. 
  
 LocalFree((LOCALHANDLE) plf); 
-        EndPaint(hWnd, &amp;ps);
+        EndPaint(hWnd, &ps);
         break;
         }
     case WM_DESTROY:
@@ -218,10 +214,10 @@ LocalFree((LOCALHANDLE) plf);
     }
     return 0;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 <div class="code"></div>
 
 

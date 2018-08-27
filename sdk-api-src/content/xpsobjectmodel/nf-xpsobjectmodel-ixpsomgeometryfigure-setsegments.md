@@ -326,13 +326,9 @@ The following code examples demonstrate one way to create and populate the buffe
 
 In the first code example, the <b>AddSegmentDataToArrays</b> method takes the data points that describe a single segment and stores them in the three different data buffers required by the <b>SetSegments</b> method. The data buffers that are passed as arguments to  <b>AddSegmentDataToArrays</b> are managed by the calling method as shown in the code example that follows <b>AddSegmentDataToArrays</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT
+
+```cpp
+HRESULT
 AddSegmentDataToArrays(
     XPS_SEGMENT_TYPE        segmentType,
     BOOL                    segmentStroke,
@@ -367,7 +363,7 @@ segmentStroke
 *segmentsAvailable
     IN: the number of values that remain unused in the
         segmentTypeBuffer and the segmentStrokeBuffer.
-        This value must be &gt;= 1 when calling the method.
+        This value must be >= 1 when calling the method.
     OUT:  the number of values that remain unused in the
         segmentTypeBuffer and the segmentStrokeBuffer after
         segmentType and segmentStroke have been added. If the 
@@ -436,14 +432,14 @@ Remarks.
             case    XPS_SEGMENT_TYPE_ARC_LARGE_COUNTERCLOCKWISE:
             case    XPS_SEGMENT_TYPE_ARC_SMALL_CLOCKWISE:
             case    XPS_SEGMENT_TYPE_ARC_SMALL_COUNTERCLOCKWISE:
-                if (*segmentPointsAvailable &gt;= 5) 
+                if (*segmentPointsAvailable >= 5) 
                 {
                     // 5 data points
-                    *(*segmentPointBuffer)++ = *segmentPoints++; //&lt;arc end point (x)
-                    *(*segmentPointBuffer)++ = *segmentPoints++; //&lt;arc end point (y)
-                    *(*segmentPointBuffer)++ = *segmentPoints++; //&lt;arc radius (x)
-                    *(*segmentPointBuffer)++ = *segmentPoints++; //&lt;arc radius (y)
-                    *(*segmentPointBuffer)++ = *segmentPoints++; //&lt;arc angle
+                    *(*segmentPointBuffer)++ = *segmentPoints++; //<arc end point (x)
+                    *(*segmentPointBuffer)++ = *segmentPoints++; //<arc end point (y)
+                    *(*segmentPointBuffer)++ = *segmentPoints++; //<arc radius (x)
+                    *(*segmentPointBuffer)++ = *segmentPoints++; //<arc radius (y)
+                    *(*segmentPointBuffer)++ = *segmentPoints++; //<arc angle
                     *segmentPointsAvailable -= 5;
                 }
                 else
@@ -452,15 +448,15 @@ Remarks.
                 }
                 break;
             case    XPS_SEGMENT_TYPE_BEZIER:
-                if (*segmentPointsAvailable &gt;= 6) 
+                if (*segmentPointsAvailable >= 6) 
                 {
                     // 6 data points
-                    *(*segmentPointBuffer)++ = *segmentPoints++; //&lt;control point 1 (x)
-                    *(*segmentPointBuffer)++ = *segmentPoints++; //&lt;control point 1 (y)
-                    *(*segmentPointBuffer)++ = *segmentPoints++; //&lt;control point 2 (x)
-                    *(*segmentPointBuffer)++ = *segmentPoints++; //&lt;control point 2 (y)
-                    *(*segmentPointBuffer)++ = *segmentPoints++; //&lt;end point (x)
-                    *(*segmentPointBuffer)++ = *segmentPoints++; //&lt;end point (y)
+                    *(*segmentPointBuffer)++ = *segmentPoints++; //<control point 1 (x)
+                    *(*segmentPointBuffer)++ = *segmentPoints++; //<control point 1 (y)
+                    *(*segmentPointBuffer)++ = *segmentPoints++; //<control point 2 (x)
+                    *(*segmentPointBuffer)++ = *segmentPoints++; //<control point 2 (y)
+                    *(*segmentPointBuffer)++ = *segmentPoints++; //<end point (x)
+                    *(*segmentPointBuffer)++ = *segmentPoints++; //<end point (y)
                     *segmentPointsAvailable -= 6;
                 }
                 else
@@ -469,11 +465,11 @@ Remarks.
                 }
                 break;
             case    XPS_SEGMENT_TYPE_LINE:
-                if (*segmentPointsAvailable &gt;= 2) 
+                if (*segmentPointsAvailable >= 2) 
                 {
                     // 2 data points
-                    *(*segmentPointBuffer)++ = *segmentPoints++; //&lt;end point (x)
-                    *(*segmentPointBuffer)++ = *segmentPoints++; //&lt;end point (y)
+                    *(*segmentPointBuffer)++ = *segmentPoints++; //<end point (x)
+                    *(*segmentPointBuffer)++ = *segmentPoints++; //<end point (y)
                     *segmentPointsAvailable -= 2;
                 }
                 else
@@ -482,13 +478,13 @@ Remarks.
                 }
                 break;
             case    XPS_SEGMENT_TYPE_QUADRATIC_BEZIER:
-                if (*segmentPointsAvailable &gt;= 4) 
+                if (*segmentPointsAvailable >= 4) 
                 {
                     // 4 data points
-                    *(*segmentPointBuffer)++ = *segmentPoints++; //&lt;control point 2 (x)
-                    *(*segmentPointBuffer)++ = *segmentPoints++; //&lt;control point 2 (y)
-                    *(*segmentPointBuffer)++ = *segmentPoints++; //&lt;end point (x)
-                    *(*segmentPointBuffer)++ = *segmentPoints++; //&lt;end point (y)
+                    *(*segmentPointBuffer)++ = *segmentPoints++; //<control point 2 (x)
+                    *(*segmentPointBuffer)++ = *segmentPoints++; //<control point 2 (y)
+                    *(*segmentPointBuffer)++ = *segmentPoints++; //<end point (x)
+                    *(*segmentPointBuffer)++ = *segmentPoints++; //<end point (y)
                     *segmentPointsAvailable -= 4;
                 }
                 else
@@ -519,21 +515,17 @@ Remarks.
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 In this code example, <b>UpdateSegmentData</b> creates the data buffers required by the <b>SetSegments</b> method and calls the <b>AddSegmentDataToArrays</b> method from the preceding code example to populate them with the segment data. After the buffers have been populated, <b>SetSegments</b> is called to add this data to the geometry figure. <div class="alert"><b>Note</b>  The actual segment data is not shown in these code examples.</div>
 <div> </div>
 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT
+
+```cpp
+HRESULT
 UpdateSegmentData (
     IXpsOMGeometryFigure    *geometryFigure,
     UINT32                  segmentCount,
@@ -584,17 +576,17 @@ UpdateSegmentData (
         hr = AddSegmentDataToArrays(
                 segmentType,
                 segmentStroke,
-                &amp;segmentPoints,
-                &amp;segmentsAvailable,
-                &amp;segmentPointsAvailable,
-                &amp;nextSegmentTypeValue,
-                &amp;nextSegmentStrokeValue,
-                &amp;nextSegmentPointValue);
+                &segmentPoints,
+                &segmentsAvailable,
+                &segmentPointsAvailable,
+                &nextSegmentTypeValue,
+                &nextSegmentStrokeValue,
+                &nextSegmentPointValue);
         
     if (SUCCEEDED(hr))
     {
         // set segment data
-        hr = geometryFigure-&gt;SetSegments (
+        hr = geometryFigure->SetSegments (
             segmentCount,
             segmentDataCount,
             segmentTypeBuffer,
@@ -605,10 +597,10 @@ UpdateSegmentData (
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

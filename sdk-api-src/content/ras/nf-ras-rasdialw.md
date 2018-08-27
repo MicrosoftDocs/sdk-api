@@ -240,19 +240,15 @@ The <i>lpvNotifier</i> parameter is a handle to a window to receive progress not
 
 The progress notification message uses a system registered message code. You can obtain the value of this message code as follows:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>UINT unMsg = RegisterWindowMessageA( RASDIALEVENT );
+
+```cpp
+UINT unMsg = RegisterWindowMessageA( RASDIALEVENT );
 if (unMsg == 0)
     unMsg = WM_RASDIALEVENT;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 RAS supports referenced connections. If the entry being dialed is already connected, 
 <b>RasDial</b>  returns <b>SUCCESS</b> and the connection is referenced. To disconnect the connection, each 
 <b>RasDial</b> on the connection should be matched by a 

@@ -85,27 +85,23 @@ To delete a container object and its children, use the  <a href="https://msdn.mi
 
 The following C/C++ code example shows how to delete a user object.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT hr;
+
+```cpp
+HRESULT hr;
 IDirectoryObject *pDirObject=NULL;
 hr = ADsGetObject(L"LDAP://OU=Sales,DC=Fabrikam,DC=com",
-    IID_IDirectoryObject, (void**) &amp;pDirObject );
+    IID_IDirectoryObject, (void**) &pDirObject );
  
 if ( SUCCEEDED(hr) )
 {
-    hr = pDirObject-&gt;DeleteDSObject( L"CN=Jeff Smith" );
+    hr = pDirObject->DeleteDSObject( L"CN=Jeff Smith" );
 
-    pDirObject-&gt;Release();
+    pDirObject->Release();
 } 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

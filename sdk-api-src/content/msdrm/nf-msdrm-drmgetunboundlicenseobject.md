@@ -109,20 +109,16 @@ This query will search only at the level immediately below the passed in object.
 
 The <i>wszSubObjectType</i> parameter identifies an XrML node value as shown in the following example. Using g_wszQUERY_OBJECTTYPE in a query would return "Group Identity Licensor." The only object you can query for in an issuance license is g_wszQUERY_DISTRIBUTIONPOINT.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;PRINCIPAL internal-id="1"&gt;
-  &lt;OBJECT type="Group Identity Licensor"&gt;
-  &lt;ID type="Group Identity"&gt;someone@example.com&lt;/ID&gt;
-  &lt;NAME&gt;Pavel's Group Identity&lt;/NAME&gt;
-  &lt;/OBJECT&gt;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+<PRINCIPAL internal-id="1">
+  <OBJECT type="Group Identity Licensor">
+  <ID type="Group Identity">someone@example.com</ID>
+  <NAME>Pavel's Group Identity</NAME>
+  </OBJECT>
+```
+
+
 Call <a href="https://msdn.microsoft.com/4902a6e2-e3b2-4f05-970c-aa4f80895762">DRMCloseQueryHandle</a>  to close the object handle created by calling this function.
 
 

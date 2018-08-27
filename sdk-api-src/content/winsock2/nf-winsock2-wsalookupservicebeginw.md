@@ -372,20 +372,16 @@ Some name service providers can have other means of finding containers. For exam
 
 The preferred method of obtaining the containers within another container, is the call:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>dwStatus = WSALookupServiceBegin(
+
+```cpp
+dwStatus = WSALookupServiceBegin(
       lpqsRestrictions,
       LUP_CONTAINERS,
       lphLookup);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 This call is followed by the requisite number of 
 <a href="https://msdn.microsoft.com/ab4f1830-b38d-4224-a6a9-6d4512245ad6">WSALookupServiceNext</a> calls. This will return all containers contained immediately within the starting context; that is, it is not a deep query. With this, one can map the address space structure by walking the hierarchy, perhaps enumerating the content of selected containers. Subsequent uses of 
 <b>WSALookupServiceBegin</b> use the containers returned from a previous call.

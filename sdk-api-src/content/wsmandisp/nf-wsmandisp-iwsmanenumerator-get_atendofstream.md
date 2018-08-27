@@ -72,19 +72,15 @@ If you free the <a href="https://msdn.microsoft.com/8d8b461d-06a7-4600-8b68-2faf
 
 The following VBScript example enumerates  operating system instances. Note that the freeing of the enumeration object cleans up any pending enumeration requests. The DisplayOutput subroutine formats the data output in the same way as the WinRM.cmd tool.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Const RemoteComputer = "servername.domain.com"
+
+```vb
+Const RemoteComputer = "servername.domain.com"
 
 Set objWsman = CreateObject( "WSMan.Automation" )
-Set objSession = objWsman.CreateSession( "http://" &amp; _
+Set objSession = objWsman.CreateSession( "http://" & _
     RemoteComputer )
 
-strResource = "http://schemas.microsoft.com/wbem/wsman/1/" &amp;_
+strResource = "http://schemas.microsoft.com/wbem/wsman/1/" &_
     "wmi/root/cimv2/Win32_OperatingSystem"
 
 Set objResultSet = objSession.Enumerate( strResource )
@@ -105,10 +101,10 @@ Sub DisplayOutput( strWinRMXml )
  xmlFile.LoadXml( strWinRMXml )
  xslFile.Load( "WsmTxt.xsl" )
  Wscript.Echo xmlFile.TransformNode( xslFile ) 
-End Sub</pre>
-</td>
-</tr>
-</table></span></div>
+End Sub
+```
+
+
 
 
 

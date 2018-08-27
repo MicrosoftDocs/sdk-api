@@ -92,17 +92,13 @@ For more information, see <a href="https://msdn.microsoft.com/7a1eda93-014e-4067
 <div> </div>
 The following example shows you how to cancel an asynchronous call.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>objwbemsink.Cancel()
-set objwbemsink= Nothing</pre>
-</td>
-</tr>
-</table></span></div>
+
+```vb
+objwbemsink.Cancel()
+set objwbemsink= Nothing
+```
+
+
 
 
 

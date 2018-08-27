@@ -315,19 +315,15 @@ The size of the image, in bytes.
 
 The <b>LIST_ENTRY</b> structure is defined as follows:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct _LIST_ENTRY {
+
+```cpp
+typedef struct _LIST_ENTRY {
    struct _LIST_ENTRY *Flink;
    struct _LIST_ENTRY *Blink;
-} LIST_ENTRY, *PLIST_ENTRY, *RESTRICTED_POINTER PRLIST_ENTRY;</pre>
-</td>
-</tr>
-</table></span></div>
+} LIST_ENTRY, *PLIST_ENTRY, *RESTRICTED_POINTER PRLIST_ENTRY;
+```
+
+
 
 
 

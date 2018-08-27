@@ -73,13 +73,9 @@ The value of this property is a bitmask, which can be set to one or more of the 
 
 This example shows the default setting for <b>INTERACTION_CONTEXT_CONFIGURATION</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#define INTERACTION_CONTEXT_CONFIGURATION_DEFAULT                         \
+
+```cpp
+#define INTERACTION_CONTEXT_CONFIGURATION_DEFAULT                         \
 {                                                                         \
     {INTERACTION_ID_MANIPULATION,                                         \
         INTERACTION_CONFIGURATION_FLAG_MANIPULATION |                     \
@@ -100,10 +96,10 @@ This example shows the default setting for <b>INTERACTION_CONTEXT_CONFIGURATION<
         INTERACTION_CONFIGURATION_FLAG_NONE},                             \
     {INTERACTION_ID_CROSS_SLIDE,                                          \
         INTERACTION_CONFIGURATION_FLAG_NONE}                              \
-}                                                                         \</pre>
-</td>
-</tr>
-</table></span></div>
+}                                                                         \
+```
+
+
 
 ## -see-also
 

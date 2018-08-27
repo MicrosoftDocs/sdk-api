@@ -139,51 +139,39 @@ The <b>ITextRange::MoveUntil</b> method is similar to <a href="https://msdn.micr
 For example, suppose the range, r, is an insertion point. To see if the character at r (that is, given by r.<a href="https://msdn.microsoft.com/en-us/library/Bb773937(v=VS.85).aspx">GetChar</a>()) is in <i>Cset</i>, call 
 				
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>r.MoveUntil(Cset, 1)</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+r.MoveUntil(Cset, 1)
+```
+
+
 If the character is in <i>Cset</i>, the return value is 1 and the insertion point does not move. Similarly, to see if the character preceding r is in <i>Cset</i>, call 
 
 				
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>r.MoveUntil(Cset, -1)</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+r.MoveUntil(Cset, -1)
+```
+
+
 If the character is in <i>Cset</i>, the return value is –1.
 
 The following Microsoft Visual Basic for Applications (VBA) subroutine prints all numbers in the story identified by the range, r.
 				
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>Sub PrintNumbers (r As ITextRange)
+
+```
+Sub PrintNumbers (r As ITextRange)
    r.SetRange 0, 0    // r = insertion point at start of story
    While r.MoveUntil(C1_DIGIT)  // Move r to 1st digit in next number
       r.MoveEndWhile C1_DIGIT  // Select number (span of digits)
       Print r    // Print it
    Wend
-End Sub</pre>
-</td>
-</tr>
-</table></span></div>
+End Sub
+```
+
+
 
 
 

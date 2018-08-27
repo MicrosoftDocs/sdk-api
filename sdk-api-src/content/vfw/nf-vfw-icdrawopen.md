@@ -84,19 +84,15 @@ Pointer to the structure defining the input format. A driver handle will not be 
 
 The <b>ICDrawOpen</b> macro is defined as follows:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 #define ICDrawOpen(fccType, fccHandler, lpbiIn) \
     ICLocate(fccType, fccHandler, lpbiIn, NULL, ICMODE_DRAW); 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

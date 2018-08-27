@@ -201,55 +201,43 @@ To determine if an object is a container, use the <a href="https://msdn.microsof
 
 When you bind to a container object using its GUID (or SID), you can only perform specific operations on the container object. These operations include examination of the object attributes and enumeration of the object's immediate children. These operations are shown in the following code example.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim con As IADsContainer
+
+```vb
+Dim con As IADsContainer
 Dim obj As IADs
-Set con = GetObject("LDAP://svr01/&lt;GUID=xxxx&gt;")
+Set con = GetObject("LDAP://svr01/<GUID=xxxx>")
 con.Filter = Array("user")
 For Each item In con
-    debug.print item.Name " &amp;  " of " &amp; item.Class
-Next</pre>
-</td>
-</tr>
-</table></span></div>
+    debug.print item.Name " &  " of " & item.Class
+Next
+```
+
+
 All other operations, that is, <b>GetObject</b>, <b>Create</b>, <b>Delete</b>, <b>CopyHere</b>, and <b>MoveHere</b> are not supported in the container's GUID representation. For example, the last line of the following code example will result in an error.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim con As IADsContainer
+
+```vb
+Dim con As IADsContainer
 Dim obj As IADs
-Set con = GetObject("LDAP://svr01/&lt;GUID=xxxx&gt;")
-Set obj = con.GetObject("user", "CN=Jeff Smith")</pre>
-</td>
-</tr>
-</table></span></div>
+Set con = GetObject("LDAP://svr01/<GUID=xxxx>")
+Set obj = con.GetObject("user", "CN=Jeff Smith")
+```
+
+
 Binding, using GUID (or SID), is intended for low overhead and, thus, fast binds, which are often used for object introspection.
 
 To call these methods of the container bound with its GUID (or SID), rebind to the object using its distinguished name.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim conGUID, conDN As IADsContainer
+
+```vb
+Dim conGUID, conDN As IADsContainer
 Dim obj As IADs
-Set conGUID = GetObject("LDAP://svr/&lt;GUID=xxxx&gt;")
-Set conDN=GetObject("LDAP://svr/" &amp; conGUID.Get("distinguishedName"))
-Set obj = conDN.GetObject("user", "CN=Jeff Smith")</pre>
-</td>
-</tr>
-</table></span></div>
+Set conGUID = GetObject("LDAP://svr/<GUID=xxxx>")
+Set conDN=GetObject("LDAP://svr/" & conGUID.Get("distinguishedName"))
+Set obj = conDN.GetObject("user", "CN=Jeff Smith")
+```
+
+
 For more information about object GUID representation, see <a href="https://msdn.microsoft.com/d2f6f686-a35a-4a9a-9b57-2ceb2f26ef12">IADs.GUID</a>.
 
 
@@ -257,13 +245,9 @@ For more information about object GUID representation, see <a href="https://msdn
 
 The following code example determines if an ADSI object is a container.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim obj As IADs
+
+```vb
+Dim obj As IADs
 Dim cls As IADsClass
 On Error GoTo Cleanup
 
@@ -276,50 +260,46 @@ Else
 End If
 
 Cleanup:
-    If (Err.Number&lt;&gt;0) Then
-        MsgBox("An error has occurred. " &amp; Err.Number)
+    If (Err.Number<>0) Then
+        MsgBox("An error has occurred. " & Err.Number)
     End If
     Set obj = Nothing
-    Set cls = Nothing</pre>
-</td>
-</tr>
-</table></span></div>
+    Set cls = Nothing
+```
+
+
 The following code example determines if an ADSI object is a container.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IADs *pADs = NULL;
+
+```cpp
+IADs *pADs = NULL;
 IADsClass *pCls = NULL;
 HRESULT hr = S_OK;
 BSTR bstr;
 
-hr = ADsGetObject(L"WinNT://myComputer,computer", IID_IADs, (void**)&amp;pADs);
+hr = ADsGetObject(L"WinNT://myComputer,computer", IID_IADs, (void**)&pADs);
 if(FAILED(hr)){return;}
 
-pADs-&gt;get_Schema(&amp;bstr);
-hr = ADsGetObject(bstr, IID_IADsClass, (void**)&amp;pCls);
-pADs-&gt;Release();
+pADs->get_Schema(&bstr);
+hr = ADsGetObject(bstr, IID_IADsClass, (void**)&pCls);
+pADs->Release();
 SysFreeString(bstr);
 
 if(FAILED(hr)){return;}
 
 VARIANT_BOOL isContainer;
-pCls-&gt;get_Container(&amp;isContainer);
+pCls->get_Container(&isContainer);
 
 if(isContainer) 
     printf("Object is a container.\n");
 else
     printf("Object is not a container.\n");
 
-pCls-&gt;Release();
-</pre>
-</td>
-</tr>
-</table></span></div>
+pCls->Release();
+
+```
+
+
 
 
 

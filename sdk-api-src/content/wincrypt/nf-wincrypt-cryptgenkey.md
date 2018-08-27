@@ -656,13 +656,9 @@ To choose an appropriate <a href="https://msdn.microsoft.com/f17042c3-ba1a-408f-
 
 The following example shows the creation of a random session key. For an example that includes the complete context for this example, see <a href="https://msdn.microsoft.com/a21dd25a-ac3c-483b-b270-6d86f10ae0a0">Example C Program: Encrypting a File</a>. For another example that uses this function, see <a href="https://msdn.microsoft.com/be355b08-95c1-4ad3-bb05-6f646d5db5cd">Example C Program: Decrypting a File</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//-------------------------------------------------------------------
+
+```cpp
+//-------------------------------------------------------------------
 //  Declare the handle to the key.
 HCRYPTKEY hKey; 
 //-------------------------------------------------------------------
@@ -675,7 +671,7 @@ HCRYPTKEY hKey;
           hCryptProv, 
           ENCRYPT_ALGORITHM, 
           KEYLENGTH | CRYPT_EXPORTABLE, 
-          &amp;hKey))
+          &hKey))
  {
          printf("A session key has been created.\n");
  } 
@@ -693,10 +689,10 @@ if (!CryptDestroyKey(hKey))
 {
           printf("Error during CryptDestroyKey.\n"); 
           exit(1);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

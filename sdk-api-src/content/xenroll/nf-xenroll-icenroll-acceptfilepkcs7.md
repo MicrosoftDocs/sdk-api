@@ -110,25 +110,21 @@ The <b>acceptFilePKCS7</b> method differs from
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT  hr;
+
+```cpp
+HRESULT  hr;
 BSTR     bstrFileName;
 
 // Allocate a BSTR referencing an existing file, 
 // for example, "myPKCS7.fil".
-bstrFileName = SysAllocString(TEXT("&lt;FILENAMEHERE&gt;"));
+bstrFileName = SysAllocString(TEXT("<FILENAMEHERE>"));
 if (NULL == bstrFileName)
 {
     //handle error
 }
 
 // pEnroll is a previously instantiated ICEnroll interface pointer.
-hr = pEnroll-&gt;acceptFilePKCS7( bstrFileName );
+hr = pEnroll->acceptFilePKCS7( bstrFileName );
 if (FAILED(hr))
     printf("Failed acceptFilePKCS7 - %x\n", hr );
 else
@@ -137,10 +133,10 @@ else
 
 // Free BSTR when done.
 if (bstrFileName)
-    SysFreeString(bstrFileName);</pre>
-</td>
-</tr>
-</table></span></div>
+    SysFreeString(bstrFileName);
+```
+
+
 
 
 

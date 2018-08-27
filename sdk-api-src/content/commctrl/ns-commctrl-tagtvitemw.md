@@ -294,16 +294,12 @@ If the tree-view control has the <a href="https://msdn.microsoft.com/en-us/libra
 
 
 <div class="alert"><b>Note</b>  This flag may not be supported in future versions of Comctl32.dll. Also, this flag is not defined in commctrl.h. Add the following definition to the source files of your application to use the flag: 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#define I_CHILDRENAUTO (-2)</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+#define I_CHILDRENAUTO (-2)
+```
+
+
 </div>
 <div> </div>
 </td>

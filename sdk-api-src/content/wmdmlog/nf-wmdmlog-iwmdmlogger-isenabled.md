@@ -94,27 +94,23 @@ The file WmdmLog.idl is the IDL source code for WmdmLog.dll. This file is proces
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 // Create logging object.
-CoCreateInstance(CLSID_WMDMLogger, NULL, CLSCTX_ALL, __uuidof(IWMDMLogger), (void**)&amp;m_pLogger);
+CoCreateInstance(CLSID_WMDMLogger, NULL, CLSCTX_ALL, __uuidof(IWMDMLogger), (void**)&m_pLogger);
 BOOL enabled = FALSE;
-hr = m_pLogger-&gt;IsEnabled(&amp;enabled);
+hr = m_pLogger->IsEnabled(&enabled);
 // TODO: Display a message that logging is either enabled or disabled.
 if(!enabled)
 {
-    if(m_pLogger-&gt;Enable(TRUE) != S_OK)
+    if(m_pLogger->Enable(TRUE) != S_OK)
         m_pLogger = NULL;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

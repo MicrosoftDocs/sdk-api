@@ -118,13 +118,9 @@ The
 
 The following example creates a region from a path and then gets the data that describes the region.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_GetData(HDC)
+
+```cpp
+VOID Example_GetData(HDC)
 
 {
    Point points[] = {
@@ -138,7 +134,7 @@ The following example creates a region from a path and then gets the data that d
    path.AddClosedCurve(points, 6);
    
    // Create a region from a path.
-   Region pathRegion(&amp;path); 
+   Region pathRegion(&path); 
       
    // Get the region data.
    UINT bufferSize = 0;
@@ -148,14 +144,14 @@ The following example creates a region from a path and then gets the data that d
    bufferSize = pathRegion.GetDataSize();
    
    pData = new BYTE[bufferSize];
-   pathRegion.GetData(pData, bufferSize, &amp;sizeFilled);
+   pathRegion.GetData(pData, bufferSize, &sizeFilled);
    
    // Inspect or use the region data.
    ...
    delete pData;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 

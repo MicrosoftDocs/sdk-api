@@ -124,41 +124,33 @@ In addition, you might want to use SWbemLocator to connect to WMI if you find th
 
 You use CreateObject rather than GetObject to create a reference to SWbemLocator. To create the reference, you must pass the CreateObject function the SWbemLocator programmatic identifier (ProgID) "WbemScripting.SWbemLocator", as shown on line 2 in the following script sample. After you obtain a reference to an SWbemLocator object, you call the ConnectServer method to connect to WMI and obtain a reference to an SWbemServices object. This is demonstrated on line 3 of the following script.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>strComputer = "."
+
+```vb
+strComputer = "."
 Set objSWbemLocator = CreateObject("WbemScripting.SWbemLocator")
 Set objSWbemServices = objSWbemLocator.ConnectServer(strComputer, "root\cimv2")
 Set colSWbemObjectSet = objSWbemServices.InstancesOf("Win32_Service")
 For Each objSWbemObject In colSWbemObjectSet
-    Wscript.Echo "Name: " &amp; objSWbemObject.Name
-Next</pre>
-</td>
-</tr>
-</table></span></div>
+    Wscript.Echo "Name: " & objSWbemObject.Name
+Next
+```
+
+
 To run a script under alternate credentials, include the user name and password as additional parameters passed to ConnectServer. For example, this script runs under the credentials of a user named kenmyer, with the password homerj.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>strComputer = "atl-dc-01"
+
+```vb
+strComputer = "atl-dc-01"
 Set objSWbemLocator = CreateObject("WbemScripting.SWbemLocator")
 Set objSWbemServices = objSWbemLocator.ConnectServer _
     (strComputer, "root\cimv2", "kenmyer", "homerj")
 Set colSWbemObjectSet = objSWbemServices.InstancesOf("Win32_Service")
 For Each objSWbemObject In colSWbemObjectSet
-    Wscript.Echo "Name: " &amp; objSWbemObject.Name
-Next</pre>
-</td>
-</tr>
-</table></span></div>
+    Wscript.Echo "Name: " & objSWbemObject.Name
+Next
+```
+
+
 You can also use the Domain\User Name format to specify a user name. For example:
 
 <code>" fabrikam\kenmyer"</code>
@@ -170,21 +162,17 @@ You can also use the Domain\User Name format to specify a user name. For example
 
 The following PowerShell example uses <b>SWbemLocator</b> to connect to a server.
 
-<div class="code"><span codelanguage="PowerShell"><table>
-<tr>
-<th>PowerShell</th>
-</tr>
-<tr>
-<td>
-<pre>$NameSpace = 'root\ccm'
+
+```powershell
+$NameSpace = 'root\ccm'
 $ComputerName = 'sccm.company.com'
 $WbemLocator = New-Object -ComObject "WbemScripting.SWbemLocator"
 $WbemServices = $WbemLocator.ConnectServer($ComputerName, $Namespace)
 $WbemClasses = $WbemServices.SubclassesOf()
-$WbemClasses</pre>
-</td>
-</tr>
-</table></span></div>
+$WbemClasses
+```
+
+
 
 
 

@@ -134,13 +134,9 @@ Call this method when your application's video playback window receives either a
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>IMFPMediaPlayer *g_pPlayer;
+
+```
+IMFPMediaPlayer *g_pPlayer;
 
 LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 {
@@ -150,21 +146,21 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
     switch (uMsg)
     {
     case WM_PAINT:
-        hdc = BeginPaint(hwnd, &amp;ps);
+        hdc = BeginPaint(hwnd, &ps);
         if (g_pPlayer)
         {
-            g_pPlayer-&gt;UpdateVideo();
+            g_pPlayer->UpdateVideo();
         }
-       	EndPaint(hwnd, &amp;ps);
+       	EndPaint(hwnd, &ps);
         break;
 
     case WM_SIZE:        
-        hdc = BeginPaint(hwnd, &amp;ps);
+        hdc = BeginPaint(hwnd, &ps);
         if (g_pPlayer)
         {
-            g_pPlayer-&gt;UpdateVideo();
+            g_pPlayer->UpdateVideo();
         }
-       	EndPaint(hwnd, &amp;ps);
+       	EndPaint(hwnd, &ps);
         break;
 
     // other messages
@@ -173,10 +169,10 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
         return DefWindowProc(hwnd, uMsg, wParam, lParam); 
     }
     return 0;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

@@ -123,49 +123,41 @@ Clients call <a href="https://msdn.microsoft.com/58436001-92d7-4afa-af07-169c8bb
 <h3><a id="Server_Example"></a><a id="server_example"></a><a id="SERVER_EXAMPLE"></a>Server Example</h3>
 The following example code is a possible implementation of this method for a custom list box that maintains its own list items.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT STDMETHODCALLTYPE AccServer::get_accRole( 
     VARIANT varChild,
     VARIANT *pvarRole)
 {
     if (varChild.vt != VT_I4)
     {
-        pvarRole-&gt;vt = VT_EMPTY;
+        pvarRole->vt = VT_EMPTY;
         return E_INVALIDARG;
     }
 
-    pvarRole-&gt;vt = VT_I4;
+    pvarRole->vt = VT_I4;
 
     if (varChild.lVal == CHILDID_SELF)
     {
-        pvarRole-&gt;lVal = ROLE_SYSTEM_LIST;
+        pvarRole->lVal = ROLE_SYSTEM_LIST;
     }
     else
     {
-        pvarRole-&gt;lVal = ROLE_SYSTEM_LISTITEM;
+        pvarRole->lVal = ROLE_SYSTEM_LISTITEM;
     }
     return S_OK;
 };
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 <h3><a id="Client_Example"></a><a id="client_example"></a><a id="CLIENT_EXAMPLE"></a>Client Example</h3>
 The following example function displays the role of an accessible object or child element.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT PrintRole(IAccessible* pAcc, long childId)
 {
     DWORD roleId;
@@ -177,8 +169,8 @@ HRESULT PrintRole(IAccessible* pAcc, long childId)
     varChild.vt = VT_I4;
     varChild.lVal = childId;
     VARIANT varResult;
-    HRESULT hr = pAcc-&gt;get_accRole(varChild, &amp;varResult);
-    if ((hr == S_OK) &amp;&amp; (varResult.vt == VT_I4))
+    HRESULT hr = pAcc->get_accRole(varChild, &varResult);
+    if ((hr == S_OK) && (varResult.vt == VT_I4))
     {
         roleId = varResult.lVal;
         UINT   roleLength;
@@ -210,10 +202,10 @@ HRESULT PrintRole(IAccessible* pAcc, long childId)
     }
     return S_OK;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

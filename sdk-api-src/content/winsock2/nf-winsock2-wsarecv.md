@@ -539,23 +539,19 @@ The completion routine follows the same rules as stipulated for Windows file I/O
 
 The prototype of the completion routine is as follows:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 void CALLBACK CompletionROUTINE(
   IN DWORD dwError, 
   IN DWORD cbTransferred, 
   IN LPWSAOVERLAPPED lpOverlapped, 
   IN DWORD dwFlags
 );
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 CompletionRoutine is a placeholder for an application-defined or library-defined function name. The <i>dwError</i> specifies the completion status for the overlapped operation as indicated by <i>lpOverlapped</i>. The <i>cbTransferred</i> parameter specifies the number of bytes received. The <i>dwFlags</i> parameter contains information that would have appeared in <i>lpFlags</i> if the receive operation had completed immediately. This function does not return a value.
 
 Returning from this function allows invocation of another pending completion routine for this socket. When using 
@@ -566,13 +562,9 @@ If you are using I/O completion ports, be aware that the order of calls made to 
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following example shows how to use  the <b>WSARecv</b> function in overlapped I/O mode.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef UNICODE
+
+```cpp
+#ifndef UNICODE
 #define UNICODE
 #endif
 
@@ -580,12 +572,12 @@ The following example shows how to use  the <b>WSARecv</b> function in overlappe
 #define WIN32_LEAN_AND_MEAN
 #endif
 
-#include &lt;Windows.h&gt;
+#include <Windows.h>
 
-#include &lt;winsock2.h&gt;
-#include &lt;ws2tcpip.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;stdlib.h&gt;
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 // Need to link with Ws2_32.lib
 #pragma comment(lib, "ws2_32.lib")
@@ -612,35 +604,35 @@ int __cdecl main(int argc, char **argv)
         return 1;
     }
     // Load Winsock
-    rc = WSAStartup(MAKEWORD(2, 2), &amp;wsd);
+    rc = WSAStartup(MAKEWORD(2, 2), &wsd);
     if (rc != 0) {
         wprintf(L"Unable to load Winsock: %d\n", rc);
         return 1;
     }
     // Make sure the hints struct is zeroed out
-    SecureZeroMemory((PVOID) &amp; hints, sizeof (struct addrinfo));
+    SecureZeroMemory((PVOID) & hints, sizeof (struct addrinfo));
 
     // Initialize the hints to retrieve the server address for IPv4
     hints.ai_family = AF_INET;
     hints.ai_socktype = SOCK_STREAM;
     hints.ai_protocol = IPPROTO_TCP;
 
-    rc = getaddrinfo(argv[1], "27015", &amp;hints, &amp;result);
+    rc = getaddrinfo(argv[1], "27015", &hints, &result);
     if (rc != 0) {
         wprintf(L"getaddrinfo failed with error: %d\n", rc);
         return 1;
     }
 
-    for (ptr = result; ptr != NULL; ptr = ptr-&gt;ai_next) {
+    for (ptr = result; ptr != NULL; ptr = ptr->ai_next) {
 
-        ConnSocket = socket(ptr-&gt;ai_family, ptr-&gt;ai_socktype, ptr-&gt;ai_protocol);
+        ConnSocket = socket(ptr->ai_family, ptr->ai_socktype, ptr->ai_protocol);
         if (ConnSocket == INVALID_SOCKET) {
             wprintf(L"socket failed with error: %d\n", WSAGetLastError());
             freeaddrinfo(result);
             return 1;
         }
 
-        rc = connect(ConnSocket, ptr-&gt;ai_addr, (int) ptr-&gt;ai_addrlen);
+        rc = connect(ConnSocket, ptr->ai_addr, (int) ptr->ai_addrlen);
         if (rc == SOCKET_ERROR) {
 
             if (WSAECONNREFUSED == (err = WSAGetLastError())) {
@@ -664,7 +656,7 @@ int __cdecl main(int argc, char **argv)
     wprintf(L"Client connected...\n");
 
     // Make sure the RecvOverlapped struct is zeroed out
-    SecureZeroMemory((PVOID) &amp; RecvOverlapped, sizeof (WSAOVERLAPPED));
+    SecureZeroMemory((PVOID) & RecvOverlapped, sizeof (WSAOVERLAPPED));
 
     // Create an event handle and setup an overlapped structure.
     RecvOverlapped.hEvent = WSACreateEvent();
@@ -683,19 +675,19 @@ int __cdecl main(int argc, char **argv)
     while (1) {
 
         Flags = 0;
-        rc = WSARecv(ConnSocket, &amp;DataBuf, 1, &amp;RecvBytes, &amp;Flags, &amp;RecvOverlapped, NULL);
-        if ((rc == SOCKET_ERROR) &amp;&amp; (WSA_IO_PENDING != (err = WSAGetLastError()))) {
+        rc = WSARecv(ConnSocket, &DataBuf, 1, &RecvBytes, &Flags, &RecvOverlapped, NULL);
+        if ((rc == SOCKET_ERROR) && (WSA_IO_PENDING != (err = WSAGetLastError()))) {
             wprintf(L"WSARecv failed with error: %d\n", err);
             break;
         }
 
-        rc = WSAWaitForMultipleEvents(1, &amp;RecvOverlapped.hEvent, TRUE, INFINITE, TRUE);
+        rc = WSAWaitForMultipleEvents(1, &RecvOverlapped.hEvent, TRUE, INFINITE, TRUE);
         if (rc == WSA_WAIT_FAILED) {
             wprintf(L"WSAWaitForMultipleEvents failed with error: %d\n", WSAGetLastError());
             break;
         }
 
-        rc = WSAGetOverlappedResult(ConnSocket, &amp;RecvOverlapped, &amp;RecvBytes, FALSE, &amp;Flags);
+        rc = WSAGetOverlappedResult(ConnSocket, &RecvOverlapped, &RecvBytes, FALSE, &Flags);
         if (rc == FALSE) {
             wprintf(L"WSARecv operation failed with error: %d\n", WSAGetLastError());
             break;
@@ -719,10 +711,10 @@ int __cdecl main(int argc, char **argv)
     return 0;
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 <b>Windows Phone 8:</b> This function is supported for Windows Phone Store apps on Windows Phone 8 and later.
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.

@@ -134,13 +134,9 @@ To execute this call, you must have the backup <a href="https://msdn.microsoft.c
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>WCHAR *    wszServer = L"MyCertServerMachine";
+
+```cpp
+WCHAR *    wszServer = L"MyCertServerMachine";
 FNCERTSRVBACKUPPREPAREW* pfnBackupPrepare;
 char * szBackPrepFunc = "CertSrvBackupPrepareW";
 HINSTANCE  hInst=0;
@@ -170,7 +166,7 @@ if ( NULL == pfnBackupPrepare )
 hr = pfnBackupPrepare(wszServer,
                       0,
                       CSBACKUP_TYPE_FULL,
-                      &amp;hCSBC);
+                      &hCSBC);
 if (FAILED(hr))
 {
     printf("Failed pfnBackupPrepare call [%x]\n", hr);
@@ -188,10 +184,10 @@ if (FAILED(hr))
 // Done processing, free the DLL.
 if (hInst)
     FreeLibrary(hInst);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

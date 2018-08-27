@@ -103,27 +103,23 @@ Creates a VT_BSTR variant. If the resource does not exist, this function initial
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762334(v=VS.85).aspx">InitVariantFromResource</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// HINSTANCE hinst;
+
+```cpp
+// HINSTANCE hinst;
 // UINT id;
 // Assume variables hinst and id are initialized and valid.
 VARIANT var;
 
-HRESULT hr = InitVariantFromResource(hinst, id, &amp;var);
+HRESULT hr = InitVariantFromResource(hinst, id, &var);
 
 if (SUCCEEDED(hr))
 {
     // var now is valid and has type VT_BSTR.
-    VariantClear(&amp;var);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+    VariantClear(&var);
+}
+```
+
+
 
 
 

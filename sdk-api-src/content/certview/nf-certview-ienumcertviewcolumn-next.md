@@ -101,13 +101,9 @@ Upon successful completion of this method, the information in the column can be 
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>LONG       nLength;
+
+```cpp
+LONG       nLength;
 LONG       nType;
 LONG       bIsindexed;
 LONG       Index;
@@ -118,10 +114,10 @@ BSTR       bstrColName = NULL;
 
 // pEnumCol is previously instantiated IEnumCERTVIEWCOLUMN object
 // examine each column
-while (S_OK == pEnumCol-&gt;Next(&amp;Index))
+while (S_OK == pEnumCol->Next(&Index))
 {
     // determine database length
-    hr = pEnumCol-&gt;GetMaxLength(&amp;nLength);
+    hr = pEnumCol->GetMaxLength(&nLength);
     if (FAILED(hr))
     {
         printf("Failed GetMaxLength %x\n", hr);
@@ -129,7 +125,7 @@ while (S_OK == pEnumCol-&gt;Next(&amp;Index))
     }
 
     // determine data type
-    hr = pEnumCol-&gt;GetType(&amp;nType);
+    hr = pEnumCol->GetType(&nType);
     if (FAILED(hr))
     {
         printf("Failed GetType %x\n", hr);
@@ -137,7 +133,7 @@ while (S_OK == pEnumCol-&gt;Next(&amp;Index))
     }
 
     // determine whether column is indexed
-    hr = pEnumCol-&gt;IsIndexed(&amp;bIsindexed);
+    hr = pEnumCol->IsIndexed(&bIsindexed);
     if (FAILED(hr))
     {
         printf("Failed IsIndexed %x\n", hr);
@@ -145,7 +141,7 @@ while (S_OK == pEnumCol-&gt;Next(&amp;Index))
     }
 
     // retrieve column name
-    hr = pEnumCol-&gt;GetName(&amp;bstrColName);
+    hr = pEnumCol->GetName(&bstrColName);
     if (FAILED(hr))
     {
         printf("Failed GetName %x\n", hr);
@@ -189,10 +185,10 @@ error:
 
 // done processing, clear resources
 if (NULL != bstrColName)
-    SysFreeString(bstrColName);</pre>
-</td>
-</tr>
-</table></span></div>
+    SysFreeString(bstrColName);
+```
+
+
 
 
 

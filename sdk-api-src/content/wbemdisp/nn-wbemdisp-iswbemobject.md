@@ -81,13 +81,9 @@ Note that
 The following code example shows how to obtain a new class and add a property to it. The 
 <b>SWbemObject</b> object that represents the class must be written back to the WMI repository by a call to 
 <a href="https://msdn.microsoft.com/c636ff95-9f3e-4ba9-adf3-30b981be02a4">Put_</a>.
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```vb
+
 wbemCimtypeString = 8
 Set objSWbemService = GetObject("Winmgmts:root\default")
 Set objClass = objSWbemService.Get()
@@ -113,10 +109,10 @@ objNewInst.PropertyName = "My Instance"
 Set objInstancePath = objNewInst.Put_
 WScript.Echo objInstancePath.Path
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
   You can examine the repository with a viewing tool such as <a href="https://www.bing.com/search?q=CIM+Studio">CIM Studio</a> to verify that the new class and instance appear. For an example of removing a class and instance from the repository, see <a href="https://msdn.microsoft.com/7dabab12-e8ee-4d44-932f-f3239b6f066e">SWbemServices.Delete</a> or <a href="https://msdn.microsoft.com/bf1db667-4bd5-4717-bc0b-5bffe9d0f4fb">SWbemObject.Delete_</a>.
 
 

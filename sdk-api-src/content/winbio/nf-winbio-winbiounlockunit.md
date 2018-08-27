@@ -152,13 +152,9 @@ unit before calling <a href="https://msdn.microsoft.com/aaa9b4cd-81d4-4fee-a40a-
 <li>Conio.h</li>
 <li>Winbio.h</li>
 </ul>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT LockUnlock( )
+
+```cpp
+HRESULT LockUnlock( )
 {
     // Declare variables.
     HRESULT hr = S_OK;
@@ -177,7 +173,7 @@ unit before calling <a href="https://msdn.microsoft.com/aaa9b4cd-81d4-4fee-a40a-
             NULL,                       // Array of biometric unit IDs
             0,                          // Count of biometric unit IDs
             NULL,                       // Database ID
-            &amp;sessionHandle              // [out] Session handle
+            &sessionHandle              // [out] Session handle
             );
     if (FAILED(hr))
     {
@@ -202,10 +198,10 @@ unit before calling <a href="https://msdn.microsoft.com/aaa9b4cd-81d4-4fee-a40a-
     wprintf_s(L"\n Calling WinBioIdentify - Swipe finger on sensor...\n");
     hr = WinBioIdentify( 
             sessionHandle, 
-            &amp;unitId, 
-            &amp;identity, 
-            &amp;subFactor, 
-            &amp;rejectDetail
+            &unitId, 
+            &identity, 
+            &subFactor, 
+            &rejectDetail
             );
     wprintf_s(L"\n Swipe processed - Unit ID: %d\n", unitId);
     if (FAILED(hr))
@@ -241,10 +237,10 @@ e_Exit:
     return hr;
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -99,21 +99,17 @@ Returns an operation-specific value if successful, or 0 otherwise.
 
 When <i>uEscape</i> is set to IME_ESC_QUERY_SUPPORT, <i>lpData</i> indicates the buffer containing the IME escape value. For example, to see if the current IME supports IME_ESC_GETHELPFILENAME, your application uses the following call:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>DWORD dwEsc = IME_ESC_GETHELPFILENAME;
+
+```cpp
+DWORD dwEsc = IME_ESC_GETHELPFILENAME;
 LRESULT lRet = ImmEscape(hKL,
                          hIMC,
                          IME_ESC_QUERY_SUPPORT,
-                         (LPVOID)&amp;dwEsc);
-</pre>
-</td>
-</tr>
-</table></span></div>
+                         (LPVOID)&dwEsc);
+
+```
+
+
 
 
 

@@ -98,13 +98,9 @@ The provider should only access the objects and enumerators in a refresher in re
 The following code example describes how to implement 
 <b>Refresh</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT CMyHiPerfProviderRefresher::Refresh(
+
+```cpp
+HRESULT CMyHiPerfProviderRefresher::Refresh(
 /* [in] */long lFlags
 )
 {
@@ -116,10 +112,10 @@ The following code example describes how to implement
    
 
   return WBEM_S_NO_ERROR;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

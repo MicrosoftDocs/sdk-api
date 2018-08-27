@@ -131,26 +131,22 @@ A typical calling pattern on Windows would be as follows:
 
 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef _XBOX
+
+```
+#ifndef _XBOX
 CoInitializeEx(NULL, COINIT_MULTITHREADED);
 #endif
 IXAudio2* pXAudio2 = NULL;
 HRESULT hr;
-if ( FAILED(hr = XAudio2Create( &amp;pXAudio2, 0, XAUDIO2_DEFAULT_PROCESSOR ) ) )
+if ( FAILED(hr = XAudio2Create( &pXAudio2, 0, XAUDIO2_DEFAULT_PROCESSOR ) ) )
     return hr;
 ...
 IUnknown * pReverbAPO;
-XAudio2CreateReverb(&amp;pReverbAPO);
-</pre>
-</td>
-</tr>
-</table></span></div>
+XAudio2CreateReverb(&pReverbAPO);
+
+```
+
+
 </td>
 </tr>
 </table>

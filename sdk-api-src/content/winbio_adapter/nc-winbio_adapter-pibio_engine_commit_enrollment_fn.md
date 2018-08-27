@@ -166,13 +166,9 @@ Engine adapters that support pre-boot authentication must commit the enrollment 
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//////////////////////////////////////////////////////////////////////////////////////////
+
+```cpp
+//////////////////////////////////////////////////////////////////////////////////////////
 //
 // EngineAdapterCommitEnrollment
 //
@@ -217,13 +213,13 @@ EngineAdapterCommitEnrollment(
         goto cleanup;
     }
 
-    if (ARGUMENT_PRESENT(PayloadBlob) &amp;&amp; PayloadBlobSize == 0)
+    if (ARGUMENT_PRESENT(PayloadBlob) && PayloadBlobSize == 0)
     {
         hr = E_INVALIDARG;
         goto cleanup;
     }
     
-    if (!ARGUMENT_PRESENT(PayloadBlob) &amp;&amp; PayloadBlobSize &gt; 0)
+    if (!ARGUMENT_PRESENT(PayloadBlob) && PayloadBlobSize > 0)
     {
         hr = E_INVALIDARG;
         goto cleanup;
@@ -233,11 +229,11 @@ EngineAdapterCommitEnrollment(
 
     // Retrieve the context from the pipeline.
     PWINIBIO_ENGINE_CONTEXT context = 
-        (PWINIBIO_ENGINE_CONTEXT)Pipeline-&gt;EngineContext;
+        (PWINIBIO_ENGINE_CONTEXT)Pipeline->EngineContext;
 
     // Return if an enrollment is not in progress. This example assumes that 
     // an enrollment object is part of your engine context structure.
-    if (context-&gt;Enrollment.InProgress != TRUE)
+    if (context->Enrollment.InProgress != TRUE)
     {
         hr = WINBIO_E_INVALID_DEVICE_STATE;
         goto cleanup;
@@ -248,11 +244,11 @@ EngineAdapterCommitEnrollment(
     // vector from the template data in the enrollment object.
     hr = _AdapterCreateIndexVector(
                 context, 
-                context-&gt;Enrollment.Template, 
-                context-&gt;Enrollment.TemplateSize,
+                context->Enrollment.Template, 
+                context->Enrollment.TemplateSize,
                 indexVector, 
                 NUMBER_OF_TEMPLATE_BINS, 
-                &amp;rejectDetail
+                &rejectDetail
                 );
     if (FAILED(hr))
     {
@@ -263,14 +259,14 @@ EngineAdapterCommitEnrollment(
     newTemplate.SubFactor = SubFactor;
     newTemplate.IndexVector = indexVector;
     newTemplate.IndexElementCount = NUMBER_OF_TEMPLATE_BINS;
-    newTemplate.TemplateBlob = context-&gt;Enrollment.Template;
-    newTemplate.TemplateBlobSize = context-&gt;Enrollment.TemplateSize;
+    newTemplate.TemplateBlob = context->Enrollment.Template;
+    newTemplate.TemplateBlobSize = context->Enrollment.TemplateSize;
     newTemplate.PayloadBlob = PayloadBlob;
     newTemplate.PayloadBlobSize = PayloadBlobSize;
 
     hr = WbioStorageAddRecord(
                 Pipeline,
-                &amp;newTemplate
+                &newTemplate
                 );
 
     if (FAILED(hr))
@@ -282,20 +278,20 @@ EngineAdapterCommitEnrollment(
     // any resources held by the enrollment object.
     _AdapterDestroyEnrollmentTemplate(
         context,
-        &amp;context-&gt;Enrollment
+        &context->Enrollment
         );
 
     // Specify that the enrollment process has been completed.
-    context-&gt;Enrollment.InProgress = FALSE;
+    context->Enrollment.InProgress = FALSE;
 
 cleanup:
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

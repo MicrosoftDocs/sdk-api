@@ -78,23 +78,19 @@ The type of password validation to perform. This parameter must be one of the fo
 
 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>typedef enum _NET_VALIDATE_PASSWORD_TYPE {
+
+```cpp
+typedef enum _NET_VALIDATE_PASSWORD_TYPE {
 
     NetValidateAuthentication = 1,
     NetValidatePasswordChange,
     NetValidatePasswordReset,
 
 } NET_VALIDATE_PASSWORD_TYPE, *PNET_VALIDATE_PASSWORD_TYPE;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 These values have the following meanings.
 
 <table>

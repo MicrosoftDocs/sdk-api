@@ -161,13 +161,9 @@ The following function calls <b>WinBioEnumBiometricUnits</b> to enumerate the in
 <li>Conio.h</li>
 <li>Winbio.h</li>
 </ul>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT EnumerateSensors( )
+
+```cpp
+HRESULT EnumerateSensors( )
 {
     // Declare variables.
     HRESULT hr = S_OK;
@@ -178,8 +174,8 @@ The following function calls <b>WinBioEnumBiometricUnits</b> to enumerate the in
     // Enumerate the installed biometric units.
     hr = WinBioEnumBiometricUnits( 
             WINBIO_TYPE_FINGERPRINT,        // Type of biometric unit
-            &amp;unitSchema,                    // Array of unit schemas
-            &amp;unitCount );                   // Count of unit schemas
+            &unitSchema,                    // Array of unit schemas
+            &unitCount );                   // Count of unit schemas
 
     if (FAILED(hr))
     {
@@ -189,7 +185,7 @@ The following function calls <b>WinBioEnumBiometricUnits</b> to enumerate the in
 
     // Display information for each installed biometric unit.
     wprintf_s(L"\nSensors: \n");
-    for (index = 0; index &lt; unitCount; ++index)
+    for (index = 0; index < unitCount; ++index)
     {
         wprintf_s(L"\n[%d]: \tUnit ID: %d\n", 
                  index, 
@@ -231,10 +227,10 @@ e_Exit:
     return hr;
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

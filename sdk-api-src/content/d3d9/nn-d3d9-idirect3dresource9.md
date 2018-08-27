@@ -179,18 +179,14 @@ The LPDIRECT3DRESOURCE9 and PDIRECT3DRESOURCE9 types are defined as pointers to 
 
     
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
     typedef struct IDirect3DResource9 *LPDIRECT3DRESOURCE9, *PDIRECT3DRESOURCE9;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

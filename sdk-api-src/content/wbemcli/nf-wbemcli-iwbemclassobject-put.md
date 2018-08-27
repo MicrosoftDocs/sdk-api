@@ -174,52 +174,44 @@ The
 
 The following code example shows how to set the class name for a new CIM class.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// pObj is an empty object from IWbemServices::GetObject
+
+```cpp
+// pObj is an empty object from IWbemServices::GetObject
 // Set up the property value.
 VARIANT v; 
-VariantInit(&amp;v);
-V_VT(&amp;v) = VT_BSTR;
-V_BSTR(&amp;v) = SysAllocString(L"MyClass");
+VariantInit(&v);
+V_VT(&v) = VT_BSTR;
+V_BSTR(&v) = SysAllocString(L"MyClass");
 
 // Write it.
 LPCWSTR strClassProp = L"__CLASS";
-pObj-&gt;Put(strClassProp, 0, &amp;v, 0);
+pObj->Put(strClassProp, 0, &v, 0);
 
 // Clean up.
-VariantClear(&amp;v);</pre>
-</td>
-</tr>
-</table></span></div>
+VariantClear(&v);
+```
+
+
 The following code example shows  how to set the value of the  SomeUint64 property.  Be aware that the <b>BSTR</b> value must be in decimal format and not hexadecimal.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// pObj is an instance containing a uint64 property
+
+```cpp
+// pObj is an instance containing a uint64 property
 // Set up the property value.
 VARIANT v; 
-VariantInit(&amp;v);
-V_VT(&amp;v) = VT_BSTR;
-V_BSTR(&amp;v) = SysAllocString(L"1033"); // - decimal format, not hex
+VariantInit(&v);
+V_VT(&v) = VT_BSTR;
+V_BSTR(&v) = SysAllocString(L"1033"); // - decimal format, not hex
 
 // Write it.
 LPCWSTR strClassProp = L"SomeUint64";
-pObj-&gt;Put(strClassProp, 0, &amp;v, CIM_UINT64);
+pObj->Put(strClassProp, 0, &v, CIM_UINT64);
 
 // Clean up.
-VariantClear(&amp;v);</pre>
-</td>
-</tr>
-</table></span></div>
+VariantClear(&v);
+```
+
+
 
 
 

@@ -96,13 +96,9 @@ When the notification object is no longer required, a <a href="https://msdn.micr
 
 The following C++ example shows how to use the <b>ADsPropCreateNotifyObj</b> function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HWND CreateADsNotificationObject(IDataObject *pDataObject)
+
+```cpp
+HWND CreateADsNotificationObject(IDataObject *pDataObject)
 {
     STGMEDIUM   stm;
     FORMATETC   fe;
@@ -123,7 +119,7 @@ The following C++ example shows how to use the <b>ADsPropCreateNotifyObj</b> fun
     fe.dwAspect = DVASPECT_CONTENT;
     fe.lindex = -1;
     fe.tymed = TYMED_HGLOBAL;
-    hr = pDataObject-&gt;GetData(&amp;fe, &amp;stm);
+    hr = pDataObject->GetData(&fe, &stm);
     if(SUCCEEDED(hr))
     {
         LPDSOBJECTNAMES pdson = 
@@ -132,24 +128,24 @@ The following C++ example shows how to use the <b>ADsPropCreateNotifyObj</b> fun
         if(pdson)
         {
             LPWSTR  pwszName = (LPWSTR)((LPBYTE)pdson + 
-                pdson-&gt;aObjects[0].offsetName);
+                pdson->aObjects[0].offsetName);
             
             hr = ADsPropCreateNotifyObj(pDataObject, 
                 pwszName, 
-                &amp;hwndNotifyObject);
+                &hwndNotifyObject);
     
             GlobalUnlock(stm.hGlobal);    
         }
         
-        ReleaseStgMedium(&amp;stm);
+        ReleaseStgMedium(&stm);
     }
 
     return hwndNotifyObject;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

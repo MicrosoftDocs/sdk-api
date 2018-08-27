@@ -217,35 +217,31 @@ An edit context object is created by calling <a href="https://msdn.microsoft.com
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT         hr;
 ITfDocumentMgr  *pFocusDoc;
 
-hr = pThreadMgr-&gt;GetFocus(&amp;pFocusDoc);
+hr = pThreadMgr->GetFocus(&pFocusDoc);
 if(SUCCEEDED(hr))
 {
     ITfContext *pContext;
 
-    hr = pFocusDoc-&gt;GetTop(&amp;pContext);
+    hr = pFocusDoc->GetTop(&pContext);
     if(SUCCEEDED(hr))
     {
         //Use the context. 
         
-        pContext-&gt;Release();
+        pContext->Release();
     }
 
-    pFocusDoc-&gt;Release();
+    pFocusDoc->Release();
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

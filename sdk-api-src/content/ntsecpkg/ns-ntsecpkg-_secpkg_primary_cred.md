@@ -187,16 +187,12 @@ A <a href="https://msdn.microsoft.com/4687d63a-4e58-4181-a48f-2724e5015e77">UNIC
 
 For cached logons, the RPC identifier of the package that performs the logon is identified by shifting the <b>Flags</b> member to the right by using the PRIMARY_CRED_LOGON_PACKAGE_SHIFT constant defined below.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#define PRIMARY_CRED_LOGON_PACKAGE_SHIFT 24
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+#define PRIMARY_CRED_LOGON_PACKAGE_SHIFT 24
+
+```
+
+
 
 

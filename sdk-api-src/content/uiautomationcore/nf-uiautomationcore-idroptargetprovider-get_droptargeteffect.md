@@ -73,13 +73,9 @@ If this property changes, the provider must notify clients by firing a <a href="
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IFACEMETHODIMP CRegionProvider::get_DropTargetEffect(BSTR * pDefaultDropAction)
+
+```cpp
+IFACEMETHODIMP CRegionProvider::get_DropTargetEffect(BSTR * pDefaultDropAction)
 {
     WCHAR wszDropAction[100];
     LoadString(g_hInstance, IDS_REGION_DEFAULTDROPACTION1, wszDropAction, 
@@ -87,10 +83,10 @@ If this property changes, the provider must notify clients by firing a <a href="
     *pDefaultDropAction = ::SysAllocString(wszDropAction);
     return (*pDefaultDropAction == nullptr) ? E_OUTOFMEMORY : S_OK;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -101,19 +101,15 @@ Standard video stream handlers provide format information in a <b>BITMAPINFOHEAD
 
 For handlers written in C++, <b>SetFormat</b> has the following syntax:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT SetFormat(LONG lPos, LPVOID lpFormat, LONG cbFormat) 
  
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

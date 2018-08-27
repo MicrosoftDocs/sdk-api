@@ -115,17 +115,13 @@ The following sample code dials the entry in the default phone-book specified by
 
 <div class="alert"><b>Note</b>  This simple sample is intended to run on Windows Vista and later versions of Windows. Please be aware the call to sizeof(RASENTRY) will return a different value depending on what version of the operating system the code is being run. Please take steps to ensure this is handled appropriately.</div>
 <div> </div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
+
+```cpp
+#include <windows.h>
+#include <stdio.h>
 #include "ras.h"
 #include "rasdlg.h"
-#include &lt;tchar.h&gt;
+#include <tchar.h>
 #include "strsafe.h"
 
 #define PHONE_NUMBER_LENGTH 7
@@ -155,14 +151,14 @@ DWORD __cdecl wmain(){
 
     // The RASDIALDLG and RASENTRY dwSize members have to be initialized or the RasDialDlg()
     // RasSetEntryProperties() APIs will fail below.
-    lpInfo-&gt;dwSize = sizeof(RASDIALDLG);
-    lpentry-&gt;dwSize = sizeof(RASENTRY);
-    lpentry-&gt;dwFramingProtocol = RASFP_Ppp;
-    lpentry-&gt;dwfOptions = 0;
-    lpentry-&gt;dwType = RASFP_Ppp;
-    dwError |= StringCchCopyN(lpentry-&gt;szLocalPhoneNumber, RAS_MaxPhoneNumber, lpszphonenumber, PHONE_NUMBER_LENGTH);
-    dwError |= StringCchCopyN(lpentry-&gt;szDeviceName, RAS_MaxDeviceName, lpszdevicename, DEVICE_NAME_LENGTH);
-    dwError |= StringCchCopyN(lpentry-&gt;szDeviceType, RAS_MaxDeviceType, lpszdevicetype, DEVICE_TYPE_LENGTH);
+    lpInfo->dwSize = sizeof(RASDIALDLG);
+    lpentry->dwSize = sizeof(RASENTRY);
+    lpentry->dwFramingProtocol = RASFP_Ppp;
+    lpentry->dwfOptions = 0;
+    lpentry->dwType = RASFP_Ppp;
+    dwError |= StringCchCopyN(lpentry->szLocalPhoneNumber, RAS_MaxPhoneNumber, lpszphonenumber, PHONE_NUMBER_LENGTH);
+    dwError |= StringCchCopyN(lpentry->szDeviceName, RAS_MaxDeviceName, lpszdevicename, DEVICE_NAME_LENGTH);
+    dwError |= StringCchCopyN(lpentry->szDeviceType, RAS_MaxDeviceType, lpszdevicetype, DEVICE_TYPE_LENGTH);
     
     if (dwError != S_OK){
         wprintf(L"Structure initilization failed: Error = %d\n", dwError);
@@ -181,7 +177,7 @@ DWORD __cdecl wmain(){
     }
 
     // Create and set the new entry's properties
-    dwError = RasSetEntryProperties(NULL, lpszEntry, lpentry, lpentry-&gt;dwSize, NULL, 0);
+    dwError = RasSetEntryProperties(NULL, lpszEntry, lpentry, lpentry->dwSize, NULL, 0);
     if (dwError != ERROR_SUCCESS){
         wprintf(L"RasSetEntryProperties failed: Error = %d\n", dwError);
         HeapFree(GetProcessHeap(), 0, lpentry);
@@ -192,7 +188,7 @@ DWORD __cdecl wmain(){
     // Connect using the new entry
     nRet = RasDialDlg(NULL, lpszEntry, NULL, lpInfo);
     if (nRet != TRUE){
-        wprintf(L"RasDialDlg failed: Error = %d\n", lpInfo-&gt;dwError);
+        wprintf(L"RasDialDlg failed: Error = %d\n", lpInfo->dwError);
     }
     
     // Clean up: delete the new entry
@@ -206,10 +202,10 @@ DWORD __cdecl wmain(){
 
     return 0;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

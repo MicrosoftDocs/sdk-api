@@ -88,16 +88,12 @@ The <b>MF_CAPTURE_METADATA_FACEROICHARACTERIZATIONS</b> attribute contains the b
 
 The facial expressions that can be detected are defined as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#define MF_METADATAFACIALEXPRESSION_SMILE             0x00000001</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+#define MF_METADATAFACIALEXPRESSION_SMILE             0x00000001
+```
+
+
 The <a href="https://msdn.microsoft.com/F3BDB935-A8CB-41BA-B912-0B9264FE0B09">FaceCharacterizationBlobHeader</a> and <b>FaceCharacterization</b> structures only describe the blob format for the <b>MF_CAPTURE_METADATA_FACEROICHARACTERIZATIONS</b> attribute.  The metadata item structure for the face characterizations (<a href="https://msdn.microsoft.com/B4AC04D7-9F98-41F1-A38D-927F3F3A7699">KSCAMERA_METADATA_ITEMHEADER</a> + face characterizations metadata payload) is up to driver and must be 8-byte aligned. 
 
 

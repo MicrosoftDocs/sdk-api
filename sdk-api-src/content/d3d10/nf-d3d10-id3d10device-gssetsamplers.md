@@ -96,13 +96,9 @@ Returns nothing.
 
 Any sampler may be set to <b>NULL</b>; this invokes the default state, which is defined to be the following.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 //Default sampler state:
 D3D10_SAMPLER_DESC SamplerDesc;
 SamplerDesc.Filter = D3D10_FILTER_MIN_MAG_MIP_LINEAR;
@@ -118,10 +114,10 @@ SamplerDesc.BorderColor[2] = 1.0f;
 SamplerDesc.BorderColor[3] = 1.0f;
 SamplerDesc.MinLOD = -FLT_MAX;
 SamplerDesc.MaxLOD = FLT_MAX;
-		</pre>
-</td>
-</tr>
-</table></span></div>
+		
+```
+
+
 The method will not hold a reference to the interfaces passed in. For that reason, applications should be careful not to release an interface currently in use by the device.
 
 

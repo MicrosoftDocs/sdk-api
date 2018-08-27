@@ -154,18 +154,14 @@ A handle to the drop-down list.
 
 The following example code retrieves information about the combo box specified by the window handle.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>COMBOBOXINFO info = { sizeof(COMBOBOXINFO) };
-GetComboBoxInfo(hwnd, &amp;info);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+COMBOBOXINFO info = { sizeof(COMBOBOXINFO) };
+GetComboBoxInfo(hwnd, &info);
+
+```
+
+
 
 
 

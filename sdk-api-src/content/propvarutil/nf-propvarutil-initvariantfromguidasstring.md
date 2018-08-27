@@ -96,24 +96,20 @@ Creates a VT_BSTR variant, formatting the GUID in a form similar to <code>{c200e
 
 The following example, to be included as part of a larger program, demonstrates how to use <b>InitVariantFromGUIDAsString</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VARIANT var;
 
-HRESULT hr = InitVariantFromGUIDAsString(FMTID_DocSummaryInformation, &amp;var);
+```cpp
+VARIANT var;
+
+HRESULT hr = InitVariantFromGUIDAsString(FMTID_DocSummaryInformation, &var);
 
 if (SUCCEEDED(hr))
 {
     // var now is valid and has type VT_BSTR.
-    VariantClear(&amp;var);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+    VariantClear(&var);
+}
+```
+
+
 
 
 

@@ -155,41 +155,37 @@ The <b>REFIID</b>, or <b>GUID</b>, of the interface to a device can be obtained 
 Create a hardware based device, unless instructed to create a WARP software device.
         
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>ComPtr&lt;IDXGIFactory4&gt; factory;
-ThrowIfFailed(CreateDXGIFactory1(IID_PPV_ARGS(&amp;factory)));
+
+```cpp
+ComPtr<IDXGIFactory4> factory;
+ThrowIfFailed(CreateDXGIFactory1(IID_PPV_ARGS(&factory)));
 
 if (m_useWarpDevice)
 {
-    ComPtr&lt;IDXGIAdapter&gt; warpAdapter;
-    ThrowIfFailed(factory-&gt;EnumWarpAdapter(IID_PPV_ARGS(&amp;warpAdapter)));
+    ComPtr<IDXGIAdapter> warpAdapter;
+    ThrowIfFailed(factory->EnumWarpAdapter(IID_PPV_ARGS(&warpAdapter)));
 
     ThrowIfFailed(D3D12CreateDevice(
         warpAdapter.Get(),
         D3D_FEATURE_LEVEL_11_0,
-        IID_PPV_ARGS(&amp;m_device)
+        IID_PPV_ARGS(&m_device)
         ));
 }
 else
 {
-    ComPtr&lt;IDXGIAdapter1&gt; hardwareAdapter;
-    GetHardwareAdapter(factory.Get(), &amp;hardwareAdapter);
+    ComPtr<IDXGIAdapter1> hardwareAdapter;
+    GetHardwareAdapter(factory.Get(), &hardwareAdapter);
 
     ThrowIfFailed(D3D12CreateDevice(
         hardwareAdapter.Get(),
         D3D_FEATURE_LEVEL_11_0,
-        IID_PPV_ARGS(&amp;m_device)
+        IID_PPV_ARGS(&m_device)
         ));
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Refer to the <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85).aspx">Example Code in the D3D12 Reference</a>. 
 
 <div class="code"></div>

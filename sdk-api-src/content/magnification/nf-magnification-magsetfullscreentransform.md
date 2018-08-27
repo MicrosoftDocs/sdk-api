@@ -109,16 +109,12 @@ In a multiple monitor environment, to position the upper-left corner of the magn
 
 The following example sets the magnification factor for the full-screen magnifier and places the center of  the magnified screen content at the center of the screen.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BOOL SetZoom(float magnificationFactor)
+
+```cpp
+BOOL SetZoom(float magnificationFactor)
 {
     // A magnification factor less than 1.0 is not valid.
-    if (magnificationFactor &lt; 1.0)
+    if (magnificationFactor < 1.0)
     {
         return FALSE;
     }
@@ -133,20 +129,16 @@ The following example sets the magnification factor for the full-screen magnifie
 
     return MagSetFullscreenTransform(magnificationFactor, xDlg, yDlg);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The following example magnifies the screen so that the upper-left corner of a particular window 
 appears at the upper-left corner of the magnified view. If the <code>fPositionRelativeToVirtualScreen</code> parameter is FALSE, the window is positioned in the upper-left corner of the primary monitor. If <code>fPositionRelativeToVirtualScreen</code> is TRUE and the system has multiple monitors,  the example adjusts the offsets to position the window relative to the virtual screen; that is, the window is placed in the upper-left corner of the left-most monitor. 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Note: This example does not check whether the offset is large enough to 
+
+```cpp
+// Note: This example does not check whether the offset is large enough to 
 // ensure that the magnified content fills the entire screen. Depending on the 
 // location of the target window, some unmagnified content might be visible to 
 // the right of the magnified content.
@@ -170,7 +162,7 @@ BOOL SetFullscreenMagnification(BOOL fPositionRelativeToVirtualScreen)
     if (hWndTarget != NULL)
     {
         RECT rcTarget;
-        GetWindowRect(hWndTarget, &amp;rcTarget);
+        GetWindowRect(hWndTarget, &rcTarget);
 
         // Set the magnification to be 200%.
         float magVal = 2.0;
@@ -199,10 +191,10 @@ BOOL SetFullscreenMagnification(BOOL fPositionRelativeToVirtualScreen)
 
     return fResult;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

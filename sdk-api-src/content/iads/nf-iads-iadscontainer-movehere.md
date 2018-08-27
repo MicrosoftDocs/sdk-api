@@ -152,17 +152,13 @@ The following code example moves the user, "jeffsmith" from the
     container, then the <b>MoveHere</b> call specifies
     the path of the object to move.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Set ou = GetObject("LDAP://server1/OU=Support,DC=North,DC=Fabrikam,DC=COM")
-ou.MoveHere("LDAP://server2/CN=jeffsmith,OU=Sales,DC=South,DC=Fabrikam,DC=Com", vbNullString)</pre>
-</td>
-</tr>
-</table></span></div>
+
+```vb
+Set ou = GetObject("LDAP://server1/OU=Support,DC=North,DC=Fabrikam,DC=COM")
+ou.MoveHere("LDAP://server2/CN=jeffsmith,OU=Sales,DC=South,DC=Fabrikam,DC=Com", vbNullString)
+```
+
+
 A serverless ADsPath can be used for either the source or the
     destination or both.
 
@@ -172,44 +168,32 @@ The <b>IADsContainer::MoveHere</b>method can be used either to rename an object 
 
 For example, the following code example performs the rename action.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>set cont = GetObject("LDAP://dc=dom,dc=com")
-set newobj = cont.MoveHere("LDAP://cn=Jeff Smith,dc=dom,dc=com", "cn=Denise Smith")</pre>
-</td>
-</tr>
-</table></span></div>
+
+```vb
+set cont = GetObject("LDAP://dc=dom,dc=com")
+set newobj = cont.MoveHere("LDAP://cn=Jeff Smith,dc=dom,dc=com", "cn=Denise Smith")
+```
+
+
 The following code example performs the move.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>set cont = GetObject("LDAP://dc=dom,dc=com")
-set newobj = cont.MoveHere("LDAP://cn=jeffsmith,ou=sales,dc=dom,dc=com", "cn=jeffsmith")</pre>
-</td>
-</tr>
-</table></span></div>
+
+```vb
+set cont = GetObject("LDAP://dc=dom,dc=com")
+set newobj = cont.MoveHere("LDAP://cn=jeffsmith,ou=sales,dc=dom,dc=com", "cn=jeffsmith")
+```
+
+
 In Visual Basic applications, you can pass
     <b>vbNullString</b> as the second parameter when
     moving an object from one container to another.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Set newobj =  cont.MoveHere("LDAP://cn=jeffsmith,ou=sale,dc=dom,dc=com", vbNullString)</pre>
-</td>
-</tr>
-</table></span></div>
+
+```vb
+Set newobj =  cont.MoveHere("LDAP://cn=jeffsmith,ou=sale,dc=dom,dc=com", vbNullString)
+```
+
+
 However, you cannot do the same with VBScript. This is because
     VBScript maps <b>vbNullString</b> to an empty string instead of to a null string, as
     does Visual Basic. You must use the RDN explicitly, as shown in the previous
@@ -224,13 +208,9 @@ However, you cannot do the same with VBScript. This is because
 The following code example shows how to use this method to rename
     an object.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim cont As IADsContainer
+
+```vb
+Dim cont As IADsContainer
 Dim usr As IADsUser
 
 On Error GoTo Cleanup
@@ -242,25 +222,21 @@ Set usr = cont.MoveHere("LDAP://CN=jeffsmith,OU=Sales, DC=Fabrikam,DC=com", "CN=
 cont.MoveHere("LDAP://CN=denisesmith,OU=Engineer,DC=Fabrikam,DC=com", vbNullString)
 
 Cleanup:
-    If (Err.Number&lt;&gt;0) Then
-        MsgBox("An error has occurred. " &amp; Err.Number)
+    If (Err.Number<>0) Then
+        MsgBox("An error has occurred. " & Err.Number)
     End If
     Set cont = Nothing
     Set usr = Nothing
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The following code example moves a user object using the
     <b>IADsContainer::MoveHere</b> method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>/////////////////////////////////////////////
+
+```cpp
+/////////////////////////////////////////////
 // First, bind to the destination container.
 ////////////////////////////////////////////
 HRESULT hr;
@@ -269,7 +245,7 @@ CoInitialize(NULL);
 hr = ADsGetObject(
         L"LDAP://OU=MCS,DC=windows2000,DC=mytest,DC=fabrikam,DC=com",
         IID_IADsContainer,
-        (void**) &amp;pCont );
+        (void**) &pCont );
  
 if ( !SUCCEEDED(hr) )
 {
@@ -281,26 +257,26 @@ if ( !SUCCEEDED(hr) )
 //////////////////////////////////////////////////
 IDispatch *pDisp=NULL;
  
-hr = pCont-&gt;MoveHere(CComBSTR("LDAP://CN=Jeff Smith,OU=DSys,DC=windows2000,DC=mytest,DC=fabrikam,DC=com"), NULL, &amp;pDisp );
-pCont-&gt;Release();
+hr = pCont->MoveHere(CComBSTR("LDAP://CN=Jeff Smith,OU=DSys,DC=windows2000,DC=mytest,DC=fabrikam,DC=com"), NULL, &pDisp );
+pCont->Release();
  
 if (SUCCEEDED(hr) )
 { 
 // You can perform another operation here, such as updating attributes.
-pDisp-&gt;Release();
+pDisp->Release();
 }
 
 Cleanup:
     if(pCont)
-        pCont-&gt;Release(); 
+        pCont->Release(); 
 
     if(pDisp)
-        pDisp-&gt;Release();
+        pDisp->Release();
 
-    CoUninitialize();</pre>
-</td>
-</tr>
-</table></span></div>
+    CoUninitialize();
+```
+
+
 
 
 

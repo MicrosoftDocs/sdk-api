@@ -88,20 +88,16 @@ Generally speaking, the method creates a linked list of <a href="https://msdn.mi
 
 The following example demonstrates the projection receiving an error at its language boundary from another projection or  WRL. This is an existing scenario, but allows the system to capture additional context if the previous projection was unable to do so.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT CreateFooExceptionFromLanguageBoundaryError(HRESULT errorReceived, IFooException** createdException)
+
+```cpp
+HRESULT CreateFooExceptionFromLanguageBoundaryError(HRESULT errorReceived, IFooException** createdException)
 {
     HRESULT hr = S_OK;
-    ComPtr&lt;IFooException&gt; exception;
+    ComPtr<IFooException> exception;
     // Get the current error
-    ComPtr&lt;IRestrictedErrorInfo&gt; restrictedErrorInfo;
+    ComPtr<IRestrictedErrorInfo> restrictedErrorInfo;
     *createdException = nullptr;
-    if (SUCCEEDED(GetRestrictedErrorInfo(&amp;restrictedErrorInfo)))
+    if (SUCCEEDED(GetRestrictedErrorInfo(&restrictedErrorInfo)))
     {
         // Retrieve details regarding the error to determine if it is a stale error
         // or if it is the error we received at the boundary.
@@ -109,24 +105,24 @@ The following example demonstrates the projection receiving an error at its lang
         HRESULT errorOriginated;
         BSTR restrictedDescription;
         BSTR capabilitySid;
-        hr = restrictedErrorInfo-&gt;GetErrorDetails(
-            &amp;description,
-            &amp;errorOriginated,
-            &amp;restrictedDescription,
-            &amp;capabilitySid);
-        if (SUCCEEDED(hr) &amp;&amp; errorReceived == errorOriginated)
+        hr = restrictedErrorInfo->GetErrorDetails(
+            &description,
+            &errorOriginated,
+            &restrictedDescription,
+            &capabilitySid);
+        if (SUCCEEDED(hr) && errorReceived == errorOriginated)
         {
             hr = CreateFooException(
                 errorOriginated,
                 restrictedDescription,
                 restrictedErrorInfo.Get(),
-                &amp;exception);
+                &exception);
             // Query for new interface to see if the new logic is there to
             // capture the current propagation context.
-            ComPtr&lt;ILanguageExceptionErrorInfo2&gt; languageExceptionErrorInfo;
-            if (SUCCEEDED(restrictedErrorInfo.As(&amp;languageExceptionErrorInfo)))
+            ComPtr<ILanguageExceptionErrorInfo2> languageExceptionErrorInfo;
+            if (SUCCEEDED(restrictedErrorInfo.As(&languageExceptionErrorInfo)))
             {
-                languageExceptionErrorInfo-&gt;CapturePropagationContext(nullptr);
+                languageExceptionErrorInfo->CapturePropagationContext(nullptr);
             }		
             *createdException = exception.Detach();
             SetRestrictedErrorInfo(restrictedErrorInfo.Get());
@@ -144,19 +140,19 @@ The following example demonstrates the projection receiving an error at its lang
     // So originate a new error.
     // OriginateErrorInfoForThrow will call RoOriginateLanguageException, which will      
     // capture the context
-    hr = CreateFooException(errorReceived, nullptr, nullptr, &amp;exception);
+    hr = CreateFooException(errorReceived, nullptr, nullptr, &exception);
     if(SUCCEEDED(hr))
     {
-        exception-&gt;OriginateErrorInfoForThrow();
+        exception->OriginateErrorInfoForThrow();
         *createdException = exception.Detach();
     }
     return hr;
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -175,13 +175,9 @@ Winsock.h must be included to use the <a href="https://msdn.microsoft.com/39e41b
 
 See the Windows SDK for a complete sample code listing. SDK folder: Samples\NetDs\GQos\Qos2
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>QOS_VERSION Version;
+
+```cpp
+QOS_VERSION Version;
 HANDLE      QoSHandle = NULL;
 BOOL        QoSResult = FALSE;
 
@@ -191,20 +187,20 @@ Version.MinorVersion = 0;
 
 // Get a handle to the QoS subsystem.
 QoSResult = QOSCreateHandle(
-    &amp;Version, 
-    &amp;QoSHandle );
+    &Version, 
+    &QoSHandle );
 
 if (QoSResult != TRUE)
 {
-    std::cerr &lt;&lt; "QOSCreateHandle failed. Error: "; 
-    std::cerr &lt;&lt; WSAGetLastError() &lt;&lt; std::endl;
+    std::cerr << "QOSCreateHandle failed. Error: "; 
+    std::cerr << WSAGetLastError() << std::endl;
 }
 
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

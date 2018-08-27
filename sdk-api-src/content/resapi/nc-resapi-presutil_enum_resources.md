@@ -125,13 +125,9 @@ The following example uses
       <i>ResUtilEnumResources</i> to list the names and 
       states of all resources in the cluster.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//////////////////////////////////////////////////////////////////////
+
+```cpp
+//////////////////////////////////////////////////////////////////////
 //  ClusDocEx_EnumDemo.cpp
 //
 //  Uses the ResUtilEnumResources function to list the names and 
@@ -152,7 +148,7 @@ MyCallbackFunction(
     HRESOURCE hCurrentEnum,
     PVOID pData );
 
-LPRESOURCE_CALLBACK g_pMyCallbackFunction = &amp;MyCallbackFunction;
+LPRESOURCE_CALLBACK g_pMyCallbackFunction = &MyCallbackFunction;
 
 int main( void )
 {
@@ -186,7 +182,7 @@ MyCallbackFunction(
                             hCurrentEnum,
                             NULL,
                             CLUSCTL_RESOURCE_GET_NAME,
-                            &amp;cbNameSize );
+                            &cbNameSize );
     if( pszEnumName == NULL )
     {
         dwResult = GetLastError();
@@ -232,10 +228,10 @@ EndFunc:
     LocalFree( pszEnumName );
     return dwResult;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

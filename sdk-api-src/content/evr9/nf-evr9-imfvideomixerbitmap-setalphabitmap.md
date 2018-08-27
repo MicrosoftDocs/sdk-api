@@ -123,20 +123,16 @@ There is no defined limit to how frequently you can pass images to the video ren
 
 The following example sets a GDI bitmap for alpha blending. For purposes of the example, it uses predefined settings for the destination rectangle and alpha value.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT EVRPlayer::SetBitmapImage(BOOL bEnable, HBITMAP hBitmap)
+
+```
+HRESULT EVRPlayer::SetBitmapImage(BOOL bEnable, HBITMAP hBitmap)
 {
     const float fBitmapAlpha = 0.5f; 
 
     HRESULT hr = S_OK;
 
     // To enable the bitmap, you must supply a valid bitmap handle.
-    if (bEnable &amp;&amp; (hBitmap == NULL))
+    if (bEnable && (hBitmap == NULL))
     {
         return E_INVALIDARG;
     }
@@ -155,13 +151,13 @@ The following example sets a GDI bitmap for alpha blending. For purposes of the 
         // Get the device context for the video window.
         HDC hdc = GetDC(m_hwndVideo);
 
-        // Create a compatible DC and select the bitmap into the DC&gt;
+        // Create a compatible DC and select the bitmap into the DC>
         HDC hdcBmp = CreateCompatibleDC(hdc);
         HBITMAP hOld = (HBITMAP)SelectObject(hdcBmp, hBitmap);
 
         // Fill in the blending parameters.
         MFVideoAlphaBitmap bmpInfo;
-        ZeroMemory(&amp;bmpInfo, sizeof(bmpInfo));
+        ZeroMemory(&bmpInfo, sizeof(bmpInfo));
         bmpInfo.GetBitmapFromDC = TRUE; // Use a bitmap DC (not a Direct3D surface).
         bmpInfo.bitmap.hdc = hdcBmp;
         bmpInfo.params.dwFlags = 
@@ -171,13 +167,13 @@ The following example sets a GDI bitmap for alpha blending. For purposes of the 
 
         // Get the bitmap dimensions.
         BITMAP bm;
-        GetObject(hBitmap, sizeof(BITMAP), &amp;bm);
+        GetObject(hBitmap, sizeof(BITMAP), &bm);
 
         // Set the source rectangle equal to the entire bitmap.
-        SetRect(&amp;bmpInfo.params.rcSrc, 0, 0, bm.bmWidth, bm.bmHeight);
+        SetRect(&bmpInfo.params.rcSrc, 0, 0, bm.bmWidth, bm.bmHeight);
 
         // Set the bitmap.
-        hr = m_pMixerBitmap-&gt;SetAlphaBitmap(&amp;bmpInfo);
+        hr = m_pMixerBitmap->SetAlphaBitmap(&bmpInfo);
 
         SelectObject(hdcBmp, hOld);
         DeleteDC(hdcBmp);
@@ -185,13 +181,13 @@ The following example sets a GDI bitmap for alpha blending. For purposes of the 
     }
     else
     {
-        hr = m_pMixerBitmap-&gt;ClearAlphaBitmap();
+        hr = m_pMixerBitmap->ClearAlphaBitmap();
     }
     return hr;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

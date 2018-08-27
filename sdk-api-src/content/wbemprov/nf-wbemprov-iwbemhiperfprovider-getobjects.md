@@ -123,13 +123,9 @@ The requested objects will have their key properties filled out.
 The following code example describes how to implement 
 <b>GetObjects</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT CMyHiPerfProvider::GetObjects(
+
+```cpp
+HRESULT CMyHiPerfProvider::GetObjects(
   /* [in] */IWbemServices *pNamespace,
   /* [in] */  long lNumObjects,
   /* [in,out] */IWbemObjectAccess **apObj,
@@ -138,7 +134,7 @@ The following code example describes how to implement
 )
 {
 
-  for ( long i = 0; i &lt; lNumObjects; i++ )
+  for ( long i = 0; i < lNumObjects; i++ )
   {
       // Validate the instance (that is, ensure
       // the path is good); if it fails, return
@@ -157,10 +153,10 @@ The following code example describes how to implement
   }
 
   return WBEM_S_NO_ERROR;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

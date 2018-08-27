@@ -100,17 +100,13 @@ To view a nondefault column set or a subset of the rows, call
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// pCertView is previously instantiated pointer to ICertView.
+
+```cpp
+// pCertView is previously instantiated pointer to ICertView.
 IEnumCERTVIEWROW * pEnumRow = NULL;
 HRESULT    hr;
 
-hr = pCertView-&gt;OpenView(&amp;pEnumRow);
+hr = pCertView->OpenView(&pEnumRow);
 if (S_OK != hr)
     printf("Failed ICertView::OpenView - %x\n", hr);
 else
@@ -118,10 +114,10 @@ else
     // ...
 // Done processing, free resources.
 if (NULL != pEnumRow)
-    pEnumRow-&gt;Release();</pre>
-</td>
-</tr>
-</table></span></div>
+    pEnumRow->Release();
+```
+
+
 
 
 

@@ -97,44 +97,30 @@ Use this method to set a fence value from the GPU side. Use <a href="https://msd
 
 Adds a signal to the command queue, then waits for the compute shader to complete the simulation, finally signal and increment the fence value.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Wait for the compute shader to complete the simulation.
-UINT64 threadFenceValue = InterlockedIncrement(&amp;m_threadFenceValues[threadIndex]);
-ThrowIfFailed(pCommandQueue-&gt;Signal(pFence, threadFenceValue));
-ThrowIfFailed(pFence-&gt;SetEventOnCompletion(threadFenceValue, m_threadFenceEvents[threadIndex]));
+
+```cpp
+// Wait for the compute shader to complete the simulation.
+UINT64 threadFenceValue = InterlockedIncrement(&m_threadFenceValues[threadIndex]);
+ThrowIfFailed(pCommandQueue->Signal(pFence, threadFenceValue));
+ThrowIfFailed(pFence->SetEventOnCompletion(threadFenceValue, m_threadFenceEvents[threadIndex]));
 WaitForSingleObject(m_threadFenceEvents[threadIndex], INFINITE);
-</pre>
-</td>
-</tr>
-</table></span><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Add a signal command to the queue.
-ThrowIfFailed(m_commandQueue-&gt;Signal(m_renderContextFence.Get(), m_renderContextFenceValue));
-</pre>
-</td>
-</tr>
-</table></span><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Signal and increment the fence value.
-ThrowIfFailed(m_commandQueue-&gt;Signal(m_renderContextFence.Get(), m_renderContextFenceValue));
+
+```
+
+```cpp
+// Add a signal command to the queue.
+ThrowIfFailed(m_commandQueue->Signal(m_renderContextFence.Get(), m_renderContextFenceValue));
+
+```
+
+```cpp
+// Signal and increment the fence value.
+ThrowIfFailed(m_commandQueue->Signal(m_renderContextFence.Get(), m_renderContextFenceValue));
 m_renderContextFenceValue++;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>

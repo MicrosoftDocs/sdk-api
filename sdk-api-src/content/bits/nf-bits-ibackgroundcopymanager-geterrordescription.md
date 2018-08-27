@@ -147,30 +147,26 @@ The following example shows how to retrieve the description associated with an e
 <b>IBackgroundCopyManager</b> interface pointer, see 
 <a href="https://msdn.microsoft.com/en-us/library/Aa362832(v=VS.85).aspx">Connecting to the BITS Service</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT hr = 0;
+
+```cpp
+HRESULT hr = 0;
 IBackgroundCopyJob* pJob = NULL;
 WCHAR* pszDescription = NULL;
 
 //Call fails because the third parameter is NULL.
-hr = g_XferManager-&gt;CreateJob(L"DummyJob", BG_JOB_TYPE_DOWNLOAD, NULL, &amp;pJob);
+hr = g_XferManager->CreateJob(L"DummyJob", BG_JOB_TYPE_DOWNLOAD, NULL, &pJob);
 if (FAILED(hr))
 {
-  hr = g_XferManager-&gt;GetErrorDescription(hr, LANGIDFROMLCID(GetThreadLocale()), &amp;pszDescription);
+  hr = g_XferManager->GetErrorDescription(hr, LANGIDFROMLCID(GetThreadLocale()), &pszDescription);
   if (SUCCEEDED(hr))
   {
     //Do something with pszDescription.
     CoTaskMemFree(pszDescription);
   }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

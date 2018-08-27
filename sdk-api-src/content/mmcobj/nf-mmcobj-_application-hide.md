@@ -84,17 +84,13 @@ This method will fail if the MMC application is under user control. If the
 
 #### Examples
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>' Hide the MMC application.
-objMMC.Hide</pre>
-</td>
-</tr>
-</table></span></div>
+
+```vb
+' Hide the MMC application.
+objMMC.Hide
+```
+
+
 
 
 

@@ -175,20 +175,16 @@ If a call to the <a href="https://msdn.microsoft.com/031B9F9B-FF77-4524-87B7-D78
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-#include &lt;stdlib.h&gt;
-#include &lt;windows.h&gt;
-#include &lt;winrt/paraminstanceapi.h&gt;
+
+```cpp
+
+#include <stdlib.h>
+#include <windows.h>
+#include <winrt/paraminstanceapi.h>
 
 HRESULT ExampleMetadataLocator(
     PCWSTR name, 
-    IRoSimpleMetaDataBuilder&amp; builder)
+    IRoSimpleMetaDataBuilder& builder)
 {
     if (wcscmp(L"Example.IParam`1", name) == 0)
     {
@@ -225,13 +221,13 @@ int main()
     HRESULT hr = RoGetParameterizedTypeInstanceIID(
         2,
         names,
-        Ro::Locator(&amp;ExampleMetadataLocator),
-        &amp;iidResult);
+        Ro::Locator(&ExampleMetadataLocator),
+        &iidResult);
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

@@ -170,17 +170,13 @@ This function uses the XML manifest or WMI MOF class to retrieve the information
 
 The following example shows how to query information contained in the manifest or MOF class for the requested field.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;wmistr.h&gt;
-#include &lt;evntrace.h&gt;
-#include &lt;tdh.h&gt;
+
+```cpp
+#include <windows.h>
+#include <stdio.h>
+#include <wmistr.h>
+#include <evntrace.h>
+#include <tdh.h>
 
 #pragma comment(lib, "tdh.lib")
 
@@ -199,7 +195,7 @@ void wmain(void)
 
     wprintf(L"Retrieve EventChannelInformation for channel value 17.\n");
 
-    status = QueryFieldInfo((LPGUID)&amp;ProviderGuid, EventChannelInformation, 17);
+    status = QueryFieldInfo((LPGUID)&ProviderGuid, EventChannelInformation, 17);
     if (ERROR_SUCCESS != status)
     {
         wprintf(L"Failed to retrieve EventChannelInformation (%lu).\n\n", status);
@@ -209,7 +205,7 @@ void wmain(void)
 
     wprintf(L"Retrieve EventKeywordInformation for keywords 2 and 8.\n");
 
-    status = QueryFieldInfo((LPGUID)&amp;ProviderGuid, EventKeywordInformation, 0xA);
+    status = QueryFieldInfo((LPGUID)&ProviderGuid, EventKeywordInformation, 0xA);
     if (ERROR_SUCCESS != status)
     {
         wprintf(L"Failed to retrieve EventKeywordInformation (%lu).\n\n", status);
@@ -226,7 +222,7 @@ DWORD QueryFieldInfo(LPGUID pProvider, EVENT_FIELD_TYPE fieldType, ULONGLONG fie
     // Retrieve the required buffer size. If the status is ERROR_INSUFFICIENT_BUFFER,
     // use bufferSize to allocate the buffer.
 
-    status = TdhQueryProviderFieldInformation(pProvider, fieldValue, fieldType, penum, &amp;bufferSize);
+    status = TdhQueryProviderFieldInformation(pProvider, fieldValue, fieldType, penum, &bufferSize);
     if (ERROR_INSUFFICIENT_BUFFER == status)
     {
         penum = (PROVIDER_FIELD_INFOARRAY*) malloc(bufferSize);
@@ -239,7 +235,7 @@ DWORD QueryFieldInfo(LPGUID pProvider, EVENT_FIELD_TYPE fieldType, ULONGLONG fie
 
         // Retrieve the information for the field type and value.
 
-        status = TdhQueryProviderFieldInformation(pProvider, fieldValue, fieldType, penum, &amp;bufferSize);
+        status = TdhQueryProviderFieldInformation(pProvider, fieldValue, fieldType, penum, &bufferSize);
     }
 
     // The first call can fail with ERROR_NOT_FOUND if none of the provider's event
@@ -250,13 +246,13 @@ DWORD QueryFieldInfo(LPGUID pProvider, EVENT_FIELD_TYPE fieldType, ULONGLONG fie
         // Loop through the list of field information and print the field's name,
         // description (if it exists), and value. 
 
-        for (DWORD i = 0; i &lt; penum-&gt;NumberOfElements; i++)
+        for (DWORD i = 0; i < penum->NumberOfElements; i++)
         {
             wprintf(L"Field name: %s\nDescription: %s\nValue: %I64u\n\n",
-                (PWCHAR)((PBYTE)(penum) + penum-&gt;FieldInfoArray[i].NameOffset),
-                (penum-&gt;FieldInfoArray[i].DescriptionOffset) ? 
-                    (PWCHAR)((PBYTE)(penum) + penum-&gt;FieldInfoArray[i].DescriptionOffset): L"",
-                penum-&gt;FieldInfoArray[i].Value);
+                (PWCHAR)((PBYTE)(penum) + penum->FieldInfoArray[i].NameOffset),
+                (penum->FieldInfoArray[i].DescriptionOffset) ? 
+                    (PWCHAR)((PBYTE)(penum) + penum->FieldInfoArray[i].DescriptionOffset): L"",
+                penum->FieldInfoArray[i].Value);
         }
     }
     else
@@ -283,10 +279,10 @@ cleanup:
 
     return status;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

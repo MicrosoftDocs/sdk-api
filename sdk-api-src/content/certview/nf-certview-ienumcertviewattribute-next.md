@@ -98,21 +98,17 @@ following methods:
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>LONG       Index;
+
+```cpp
+LONG       Index;
 HRESULT    hr;
 BSTR       bstrAttribName = NULL;
 
 // pEnumAttr is previously instantiated IEnumCERTVIEWATTRIBUTE object
-while (S_OK == pEnumAttr-&gt;Next(&amp;Index))
+while (S_OK == pEnumAttr->Next(&Index))
 {
     // retrieve the attribute name
-    hr = pEnumAttr-&gt;GetName(&amp;bstrAttribName);
+    hr = pEnumAttr->GetName(&bstrAttribName);
     if (FAILED(hr))
         printf("Failed GetName -  %x\n", hr );
     else
@@ -121,10 +117,10 @@ while (S_OK == pEnumAttr-&gt;Next(&amp;Index))
 
 // Free resources.
 if (NULL != bstrAttribName)
-    SysFreeString(bstrAttribName);</pre>
-</td>
-</tr>
-</table></span></div>
+    SysFreeString(bstrAttribName);
+```
+
+
 
 
 

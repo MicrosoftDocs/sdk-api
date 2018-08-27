@@ -311,15 +311,11 @@ The caller needs <a href="https://msdn.microsoft.com/77f0a1ac-3e99-4cba-a7c6-b87
 
 The following C++ example illustrates the use of <b>FwpmEngineGetOption0</b> to determine if network events are being collected.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;fwpmu.h&gt;
-#include &lt;stdio.h&gt;
+
+```cpp
+#include <windows.h>
+#include <fwpmu.h>
+#include <stdio.h>
 
 #pragma comment(lib, "Fwpuclnt.lib")
 
@@ -331,23 +327,23 @@ void main()
     FWPM_ENGINE_OPTION option = FWPM_ENGINE_COLLECT_NET_EVENTS;
     FWP_VALUE0* fwpValue = NULL;
 
-    result = FwpmEngineOpen0( NULL, RPC_C_AUTHN_WINNT, NULL, NULL, &amp;engineHandle );
+    result = FwpmEngineOpen0( NULL, RPC_C_AUTHN_WINNT, NULL, NULL, &engineHandle );
     if (result != ERROR_SUCCESS)
     {
         printf("FwpmEngineOpen0 failed.\n");
         return;
     }
 
-    result = FwpmEngineGetOption0( engineHandle, option, &amp;fwpValue);
+    result = FwpmEngineGetOption0( engineHandle, option, &fwpValue);
 
     if (result != ERROR_SUCCESS)
     {
         printf("FwpmEngineGetOption0 failed.\n");
         return;
     }
-    else if(fwpValue-&gt;type == FWP_UINT32)
+    else if(fwpValue->type == FWP_UINT32)
     {
-        if(fwpValue-&gt;uint32 == 1 ) 
+        if(fwpValue->uint32 == 1 ) 
             printf("Network events are being collected.\n");
         else
             printf("Network events are NOT being collected.\n");
@@ -355,14 +351,14 @@ void main()
     else
         printf("Unexpected data type received.\n");
 
-    FwpmFreeMemory0((void**)&amp;fwpValue); 
+    FwpmFreeMemory0((void**)&fwpValue); 
 
     return;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

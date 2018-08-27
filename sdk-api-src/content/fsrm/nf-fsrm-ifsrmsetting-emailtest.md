@@ -91,21 +91,17 @@ The subject and message body are predefined, localized text.
 
 The following example shows how to call this method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef UNICODE
+
+```cpp
+#ifndef UNICODE
 #define UNICODE
 #endif
 
-#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;comutil.h&gt;
-#include &lt;fsrm.h&gt;       // FSRM base objects and collections
-#include &lt;fsrmtlb_i.c&gt;  // contains CLSIDs
+#include <windows.h>
+#include <stdio.h>
+#include <comutil.h>
+#include <fsrm.h>       // FSRM base objects and collections
+#include <fsrmtlb_i.c>  // contains CLSIDs
 
 //
 // Call the IFsrmSetting::EmailTest method to test the SMTP email server.
@@ -126,7 +122,7 @@ void wmain(void)
                         NULL,
                         CLSCTX_LOCAL_SERVER,
                         __uuidof(IFsrmSetting),
-                        reinterpret_cast&lt;void**&gt; (&amp;pSettings));
+                        reinterpret_cast<void**> (&pSettings));
 
   if (FAILED(hr))
   {
@@ -140,10 +136,10 @@ void wmain(void)
   wprintf(L"Successfully created Setting object.\n");
 
   // Specify the SMTP server to use for sending email.
-  hr = pSettings-&gt;put_SmtpServer(_bstr_t(L"&lt;FQDNOFSMTPSERVER&gt;")); 
+  hr = pSettings->put_SmtpServer(_bstr_t(L"<FQDNOFSMTPSERVER>")); 
   if (FAILED(hr))
   {
-    wprintf(L"pSettings-&gt;put_SmtpServer failed, 0x%x.\n", hr);
+    wprintf(L"pSettings->put_SmtpServer failed, 0x%x.\n", hr);
     goto cleanup;
   }
 
@@ -151,10 +147,10 @@ void wmain(void)
   // predefined email message in C:\Inetpub\mailroot\Drop. You can use 
   // Outlook Express to read the message.
 
-  hr = pSettings-&gt;EmailTest(_bstr_t(L"admin@&lt;FQDNOFSMTPSERVER&gt;"));
+  hr = pSettings->EmailTest(_bstr_t(L"admin@<FQDNOFSMTPSERVER>"));
   if (FAILED(hr))
   {
-    wprintf(L"pSettings-&gt;EmailTest failed, 0x%x.\n", hr);
+    wprintf(L"pSettings->EmailTest failed, 0x%x.\n", hr);
     goto cleanup;
   }
 
@@ -163,14 +159,14 @@ void wmain(void)
 cleanup:
 
   if (pSettings)
-    pSettings-&gt;Release();
+    pSettings->Release();
 
   CoUninitialize();
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

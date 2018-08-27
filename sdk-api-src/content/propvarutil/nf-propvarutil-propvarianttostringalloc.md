@@ -105,19 +105,15 @@ In addition to the conversions provided by <a href="https://msdn.microsoft.com/e
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// IPropertyStore *ppropstore;
+
+```cpp
+// IPropertyStore *ppropstore;
 
 // Assume variable ppropstore is initialized and valid
 
 PROPVARIANT propvar = {0};
 
-HRESULT hr = ppropstore-&gt;GetValue(PKEY_Title, &amp;propvar);
+HRESULT hr = ppropstore->GetValue(PKEY_Title, &propvar);
 
 if (SUCCEEDED(hr))
 
@@ -129,7 +125,7 @@ if (SUCCEEDED(hr))
 
     LPWSTR pszTitle;
 
-    hr = PropVariantToString(propvar, &amp;pszTitle);
+    hr = PropVariantToString(propvar, &pszTitle);
 
     if (SUCCEEDED(hr))
 
@@ -147,12 +143,12 @@ if (SUCCEEDED(hr))
 
     }
 
-    PropVariantClear(&amp;propvar);
+    PropVariantClear(&propvar);
 
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 
