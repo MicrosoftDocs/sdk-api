@@ -120,13 +120,9 @@ The following function shows how to enumerate the biometric sub-factors enrolled
 <li>Conio.h</li>
 <li>Winbio.h</li>
 </ul>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT EnumEnrollments( )
+
+```cpp
+HRESULT EnumEnrollments( )
 {
     // Declare variables.
     HRESULT hr = S_OK;
@@ -147,7 +143,7 @@ The following function shows how to enumerate the biometric sub-factors enrolled
             NULL,                       // Array of biometric unit IDs
             0,                          // Count of biometric unit IDs
             NULL,                       // Database ID
-            &amp;sessionHandle              // [out] Session handle
+            &sessionHandle              // [out] Session handle
             );
     if (FAILED(hr))
     {
@@ -159,10 +155,10 @@ The following function shows how to enumerate the biometric sub-factors enrolled
     wprintf_s(L"\n Calling WinBioIdentify - Swipe finger on sensor...\n");
     hr = WinBioIdentify( 
             sessionHandle,              // Session handle
-            &amp;unitId,                    // Biometric unit ID
-            &amp;identity,                  // User SID
-            &amp;subFactor,                 // Finger sub factor
-            &amp;rejectDetail               // Rejection information
+            &unitId,                    // Biometric unit ID
+            &identity,                  // User SID
+            &subFactor,                 // Finger sub factor
+            &rejectDetail               // Rejection information
             );
     wprintf_s(L"\n Swipe processed - Unit ID: %d\n", unitId);
     if (FAILED(hr))
@@ -186,9 +182,9 @@ The following function shows how to enumerate the biometric sub-factors enrolled
     hr = WinBioEnumEnrollments( 
             sessionHandle,              // Session handle
             unitId,                     // Biometric unit ID
-            &amp;identity,                  // Template ID
-            &amp;subFactorArray,            // Subfactors
-            &amp;subFactorCount             // Count of subfactors
+            &identity,                  // Template ID
+            &subFactorArray,            // Subfactors
+            &subFactorCount             // Count of subfactors
             );
     if (FAILED(hr))
     {
@@ -198,7 +194,7 @@ The following function shows how to enumerate the biometric sub-factors enrolled
 
     // Print the sub-factor(s) to the console.
     wprintf_s(L"\n Enrollments for this user on Unit ID %d:", unitId);
-    for (SIZE_T index = 0; index &lt; subFactorCount; ++index)
+    for (SIZE_T index = 0; index < subFactorCount; ++index)
     {
         SubFactor = subFactorArray[index];
         switch (SubFactor)
@@ -259,10 +255,10 @@ e_Exit:
     return hr;
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

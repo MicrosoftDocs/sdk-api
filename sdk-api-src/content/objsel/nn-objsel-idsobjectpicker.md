@@ -53,23 +53,19 @@ req.product: ADAM
 
 
 The <b>IDsObjectPicker</b> interface is used by an application to initialize and display an object picker dialog box. To create an  instance of this interface, call <a href="https://msdn.microsoft.com/en-us/library/ms686615(v=VS.85).aspx">CoCreateInstance</a> with the <b>CLSID_DsObjectPicker</b> class identifier as shown below.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT hr = S_OK;
+
+```cpp
+HRESULT hr = S_OK;
 IDsObjectPicker *pDsObjectPicker = NULL;
  
 hr = CoCreateInstance(CLSID_DsObjectPicker,
              NULL,
              CLSCTX_INPROC_SERVER,
              IID_IDsObjectPicker,
-             (void **) &amp;pDsObjectPicker);</pre>
-</td>
-</tr>
-</table></span></div>The  <b>IDsObjectPicker</b> implemented by the system  supports both apartment and free-threading models and is thread safe. In practice, this means that a call to the methods of this interface will block until no other thread of your application is calling any other method on that instance of the interface.
+             (void **) &pDsObjectPicker);
+```
+
+The  <b>IDsObjectPicker</b> implemented by the system  supports both apartment and free-threading models and is thread safe. In practice, this means that a call to the methods of this interface will block until no other thread of your application is calling any other method on that instance of the interface.
 
 
 ## -inheritance

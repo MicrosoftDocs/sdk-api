@@ -101,19 +101,15 @@ The object retrieved by this function is useful only for responding to calls to 
 The following example returns the host provider for the window that hosts the control served by 
             this provider.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT STDMETHODCALLTYPE Provider::get_HostRawElementProvider(IRawElementProviderSimple** pRetVal)
+
+```cpp
+HRESULT STDMETHODCALLTYPE Provider::get_HostRawElementProvider(IRawElementProviderSimple** pRetVal)
 {
     return UiaHostProviderFromHwnd(controlHWnd, pRetVal); 
-} </pre>
-</td>
-</tr>
-</table></span></div>
+} 
+```
+
+
 
 
 

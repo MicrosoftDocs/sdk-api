@@ -104,13 +104,9 @@ If the server supports paged searches and the client has specified a page size t
 
 The following code example shows how the <b>ADsBuildEnumerator</b>, <a href="https://msdn.microsoft.com/9bfc98a5-f4f0-4127-89c9-b8ed01bfde4e">ADsEnumerateNext</a>, and <a href="https://msdn.microsoft.com/0ac13320-c0c2-45e3-b1c0-b4bf6c7e5315">ADSFreeEnumerator</a> functions can be used to enumerate the contents of a container.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT PrintAllObjects(IADsContainer* pContainer)
+
+```cpp
+HRESULT PrintAllObjects(IADsContainer* pContainer)
 {
     HRESULT hr;
      
@@ -122,43 +118,43 @@ The following code example shows how the <b>ADsBuildEnumerator</b>, <a href="htt
     IEnumVARIANT *pEnum = NULL;
 
     // Create an enumerator object in the container.
-    hr = ADsBuildEnumerator(pContainer, &amp;pEnum);
+    hr = ADsBuildEnumerator(pContainer, &pEnum);
     if(SUCCEEDED(hr))
     {
         VARIANT var;
         ULONG ulFetched = 0L;
 
         // Get the next contained object.
-        while(S_OK == (hr = ADsEnumerateNext(pEnum, 1, &amp;var, &amp;ulFetched)) &amp;&amp; (ulFetched &gt; 0))
+        while(S_OK == (hr = ADsEnumerateNext(pEnum, 1, &var, &ulFetched)) && (ulFetched > 0))
         {
             IADs *pADs;
 
             // Print the object
-            hr = V_DISPATCH(&amp;var)-&gt;QueryInterface(IID_IADs, (void**)&amp;pADs);
+            hr = V_DISPATCH(&var)->QueryInterface(IID_IADs, (void**)&pADs);
             if(SUCCEEDED(hr))
             {
                 CComBSTR sbstr;
                 IADsContainer *pChildContainer;
 
-                hr = pADs-&gt;get_Name(&amp;sbstr);
+                hr = pADs->get_Name(&sbstr);
                 if(SUCCEEDED(hr))
                 {
                     wprintf(sbstr);
                     wprintf(L"\n");
                 }
 
-                hr = pADs-&gt;QueryInterface(IID_IADsContainer, (void**)&amp;pChildContainer);
+                hr = pADs->QueryInterface(IID_IADsContainer, (void**)&pChildContainer);
                 if(SUCCEEDED(hr))
                 {
                     // If the retrieved object is a container, recursively print its contents as well.
                     PrintAllObjects(pChildContainer);
                 }
                 
-                pADs-&gt;Release();
+                pADs->Release();
             }
             
             // Release the VARIANT.
-            VariantClear(&amp;var);
+            VariantClear(&var);
         }
         
         ADsFreeEnumerator(pEnum);
@@ -166,10 +162,10 @@ The following code example shows how the <b>ADsBuildEnumerator</b>, <a href="htt
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

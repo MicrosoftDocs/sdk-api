@@ -175,19 +175,15 @@ This function is not supported for 32-bit applications by WOW64 on the Itanium-b
 
 The <a href="https://msdn.microsoft.com/dde79dcb-95ec-4a9e-87a4-9ad99ac6266e">FILE_SEGMENT_ELEMENT</a> union is defined as follows:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>typedef union _FILE_SEGMENT_ELEMENT {
+
+```cpp
+typedef union _FILE_SEGMENT_ELEMENT {
     PVOID64   Buffer;
     ULONGLONG Alignment;
-}FILE_SEGMENT_ELEMENT, *PFILE_SEGMENT_ELEMENT;</pre>
-</td>
-</tr>
-</table></span></div>
+}FILE_SEGMENT_ELEMENT, *PFILE_SEGMENT_ELEMENT;
+```
+
+
 Assigning a pointer to the <b>Buffer</b> member will sign-extend the value if the code is 
      compiled as 32-bits; this can break large-address aware applications running on systems configured with 
      <a href="https://msdn.microsoft.com/991eb86f-9e6f-4084-8b6f-f979e42104b5">4-Gigabyte Tuning</a> or running under WOW64 on 64-bit 

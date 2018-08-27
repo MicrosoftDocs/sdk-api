@@ -246,13 +246,9 @@ Before the <b>SetRestriction</b> method is called, it is necessary to establish 
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    // This example restricts the data
+
+```cpp
+    // This example restricts the data
     // to rows that have RequestIDs greater than five.
     // pCertView is a pointer to ICertView.
     HRESULT    hr;
@@ -261,7 +257,7 @@ Before the <b>SetRestriction</b> method is called, it is necessary to establish 
     BSTR       bstrCol = NULL;
 
     // Use one column in the result set.
-    hr = pCertView-&gt;SetResultColumnCount(1);
+    hr = pCertView->SetResultColumnCount(1);
     if (FAILED(hr))
     {
         printf("Failed SetResultColumnCount - %x\n", hr);
@@ -269,23 +265,23 @@ Before the <b>SetRestriction</b> method is called, it is necessary to establish 
     }
     // Determine the column index for RequestID column.
     bstrCol = SysAllocString(TEXT("RequestID"));
-    hr = pCertView-&gt;GetColumnIndex(FALSE, bstrCol, &amp;nIndex);
+    hr = pCertView->GetColumnIndex(FALSE, bstrCol, &nIndex);
     if (FAILED(hr))
     {
         printf("Failed GetColumnIndex - %x\n", hr);
         goto error;
     }
     // Place this column into the result set.
-    pCertView-&gt;SetResultColumn(nIndex);
+    pCertView->SetResultColumn(nIndex);
     // Set a restriction on this column.
-    VariantInit(&amp;varRest);
+    VariantInit(&varRest);
     varRest.vt = VT_I4;
     varRest.lVal = 5;
     // Restrict view to requests with ID greater than 5.
-    hr = pCertView-&gt;SetRestriction(nIndex,
+    hr = pCertView->SetRestriction(nIndex,
                                    CVR_SEEK_GT,
                                    CVR_SORT_NONE,
-                                   &amp;varRest);
+                                   &varRest);
     if (S_OK != hr)
         printf("Failed ICertView::SetRestriction - %x\n", hr);
     else
@@ -295,12 +291,12 @@ Before the <b>SetRestriction</b> method is called, it is necessary to establish 
 	}
 error:
     // Done processing, clear resources.
-    VariantClear(&amp;varRest);
+    VariantClear(&varRest);
     if (NULL != bstrCol)
-        SysFreeString(bstrCol);</pre>
-</td>
-</tr>
-</table></span></div>
+        SysFreeString(bstrCol);
+```
+
+
 
 
 

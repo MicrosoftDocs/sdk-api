@@ -178,13 +178,9 @@ This example enumerates all computers and catalogs capable of resolving queries 
 
 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT hr = S_OK;
+
+```cpp
+HRESULT hr = S_OK;
  
 for ( ULONG iBmk = 0; S_OK == hr; iBmk++ )
 {
@@ -198,20 +194,20 @@ for ( ULONG iBmk = 0; S_OK == hr; iBmk++ )
     hr = LocateCatalogs( L"c:\\directory",
                          iBmk,
                          awcMachine,
-                         &amp;cwcMachine,
+                         &cwcMachine,
                          awcCatalog,
-                         &amp;cwcCatalog );
-    if ( ( hr == S_OK ) &amp;&amp;
-         ( cwcMachine &lt;= cwcMachineBuffer ) &amp;&amp;
-         ( cwcCatalog &lt;= cwcCatalogBuffer ) )
+                         &cwcCatalog );
+    if ( ( hr == S_OK ) &&
+         ( cwcMachine <= cwcMachineBuffer ) &&
+         ( cwcCatalog <= cwcCatalogBuffer ) )
     {
         wprintf( L"matching machine and catalog: '%s', '%s'\n", 
                 awcMachine, awcCatalog );
     }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

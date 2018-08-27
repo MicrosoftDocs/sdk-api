@@ -169,28 +169,24 @@ If no error occurs, this method returns an
      to retrieve WMI information. A standard call to 
      <b>ExecQuery</b> looks like the following:
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>strComputer = "."
-Set objWMIService = GetObject("winmgmts:" &amp; "{impersonationLevel=impersonate}!\\" &amp; strComputer &amp; "\root\cimv2")
+
+```vb
+strComputer = "."
+Set objWMIService = GetObject("winmgmts:" & "{impersonationLevel=impersonate}!\\" & strComputer & "\root\cimv2")
 
 Set colServices = objWMIService.ExecQuery ("Select * from Win32_Service where Name='Alerter'")
 For Each objService in colServices
     Return = objService.StopService()
-    If Return &lt;&gt; 0 Then
-        Wscript.Echo "Failed " &amp;VBNewLine &amp; "Error code = " &amp; Return 
+    If Return <> 0 Then
+        Wscript.Echo "Failed " &VBNewLine & "Error code = " & Return 
     Else
        WScript.Echo "Succeeded"
     End If
 Next
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Note that you create the <a href="https://msdn.microsoft.com/7fcfa404-2fe6-42e5-85ac-64536f6d2a44">SWbemServices</a> object with a 
     moniker that represents the appropriate namespace and security, then make the 
     <b>ExecQuery</b>  call through the service. For a more 
@@ -203,22 +199,18 @@ Like the <a href="https://msdn.microsoft.com/6465a981-f98e-4ece-a9b6-9da8ae618bc
      enumerate the collection ExecQuery returns in order to access each managed resource instance in the collection, 
      as shown here:
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>strComputer = "."
-Set objSWbemServices = GetObject("winmgmts:\\" &amp; strComputer &amp; "\root\cimv2")
+
+```vb
+strComputer = "."
+Set objSWbemServices = GetObject("winmgmts:\\" & strComputer & "\root\cimv2")
 Set colSWbemObjectSet = objSWbemServices.ExecQuery _
    ("SELECT * FROM Win32_Service")
 For Each objSWbemObject In colSWbemObjectSet
-    Wscript.Echo "Name: " &amp; objSWbemObject.Name
-Next</pre>
-</td>
-</tr>
-</table></span></div>
+    Wscript.Echo "Name: " & objSWbemObject.Name
+Next
+```
+
+
 Other <a href="https://msdn.microsoft.com/7fcfa404-2fe6-42e5-85ac-64536f6d2a44">SWbemServices</a> methods that return an 
      <a href="https://msdn.microsoft.com/00f5317e-eb8e-42f9-bada-963e11aadda4">SWbemObjectSet</a> include 
      <a href="https://msdn.microsoft.com/a78e6701-6779-4a02-b811-23b2da4f4167">AssociatorsOf</a>, 
@@ -246,13 +238,9 @@ There are limits to the number of <b>AND</b> and <b>OR</b> keywords
 The following VBScript code example locates all the disk drives on the local computer and displays the 
      device ID and the type of the disk drive.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Set colDisks = GetObject( _
+
+```vb
+Set colDisks = GetObject( _
     "Winmgmts:").ExecQuery("Select * from Win32_LogicalDisk")
 For Each objDisk in colDisks
  
@@ -260,22 +248,22 @@ For Each objDisk in colDisks
         Case 1
             Wscript.Echo "No root directory. Drive type could not be determined."
         Case 2
-            Wscript.Echo "DeviceID= "&amp; objDisk.DeviceID &amp; "  DriveType = Removable drive" 
+            Wscript.Echo "DeviceID= "& objDisk.DeviceID & "  DriveType = Removable drive" 
         Case 3
-            Wscript.Echo "DeviceID= "&amp; objDisk.DeviceID &amp; "  DriveType = Local hard disk" 
+            Wscript.Echo "DeviceID= "& objDisk.DeviceID & "  DriveType = Local hard disk" 
         Case 4
-            Wscript.Echo "DeviceID= "&amp; objDisk.DeviceID &amp; "  DriveType = Network disk" 
+            Wscript.Echo "DeviceID= "& objDisk.DeviceID & "  DriveType = Network disk" 
         Case 5
-            Wscript.Echo "DeviceID= "&amp; objDisk.DeviceID &amp; "  DriveType = Compact disk" 
+            Wscript.Echo "DeviceID= "& objDisk.DeviceID & "  DriveType = Compact disk" 
         Case 6
-            Wscript.Echo "DeviceID= "&amp; objDisk.DeviceID &amp; "  DriveType = RAM disk" 
+            Wscript.Echo "DeviceID= "& objDisk.DeviceID & "  DriveType = RAM disk" 
         Case Else
             Wscript.Echo "Drive type could not be determined."
     End Select
-Next</pre>
-</td>
-</tr>
-</table></span></div>
+Next
+```
+
+
 
 
 

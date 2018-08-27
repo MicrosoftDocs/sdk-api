@@ -124,17 +124,13 @@ If the column-enumeration sequence is not referencing a valid column, <b>GetType
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>LONG     nType;
+
+```cpp
+LONG     nType;
 HRESULT  hr;
 
 // pEnumCol is a previously instantiated IEnumCERTVIEWCOLUMN object.
-hr = pEnumCol-&gt;GetType(&amp;nType);
+hr = pEnumCol->GetType(&nType);
 if (S_OK == hr)
 {
     switch (nType)
@@ -155,10 +151,10 @@ if (S_OK == hr)
             printf("Type is unknown\n");
             break;
     }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

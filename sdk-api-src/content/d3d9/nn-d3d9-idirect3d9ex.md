@@ -127,18 +127,14 @@ The <b>IDirect3D9Ex</b> interface is obtained by calling the <a href="https://ms
 The <b>LPDIRECT3D9EX</b> and <b>PDIRECT3D9EX</b> types are defined as pointers to the <b>IDirect3D9Ex</b> interface:
 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 typedef struct IDirect3D9Ex *LPDIRECT3D9EX, *PDIRECT3D9EX;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

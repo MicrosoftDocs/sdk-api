@@ -83,19 +83,15 @@ The Video Control uses the background color when the filter graph is stopped or 
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 COLORREF orange = RGB(0xFF, 0x80, 0x00);
-hr = pVideoControl-&gt;put_BackColor(static_cast&lt;OLE_COLOR&gt;(orange));
-</pre>
-</td>
-</tr>
-</table></span></div>
+hr = pVideoControl->put_BackColor(static_cast<OLE_COLOR>(orange));
+
+```
+
+
 
 
 

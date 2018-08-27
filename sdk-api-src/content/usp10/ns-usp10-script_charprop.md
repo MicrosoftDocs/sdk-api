@@ -112,18 +112,14 @@ An array of <b>SCRIPT_CHARPROP</b> structures contains one structure for each ch
 </ul>
 For the provided input string, the array of structures has the following values in the <b>fCanGlyphAlone</b> members:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>I like flying fish
+
+```cpp
+I like flying fish
 111111100111110011
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

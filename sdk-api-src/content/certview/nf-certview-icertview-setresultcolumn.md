@@ -103,34 +103,30 @@ The <b>SetResultColumn</b> method must be called for each column that is needed 
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    HRESULT    hr;
+
+```cpp
+    HRESULT    hr;
     LONG       nCount;
     LONG       i;
 
     // Determine the number of columns in the entire database.
     // pCertView is a pointer to ICertView.
-    hr = pCertView-&gt;GetColumnCount(FALSE, &amp;nCount);
+    hr = pCertView->GetColumnCount(FALSE, &nCount);
     if (FAILED(hr))
     {
         printf("Failed GetColumnCount - %x\n", hr);
         goto error;
     }
-    hr = pCertView-&gt;SetResultColumnCount( nCount );
+    hr = pCertView->SetResultColumnCount( nCount );
     if (FAILED(hr))
     {
         printf("Failed SetResultColumnCount - %x\n", hr);
         goto error;
     }
     // Place each column in the view.
-    for (i = 0; i &lt; nCount; i++)
+    for (i = 0; i < nCount; i++)
     {
-        hr = pCertView-&gt;SetResultColumn(i);
+        hr = pCertView->SetResultColumn(i);
         if (FAILED(hr))
         {
             printf("Failed SetResultColumn (%d) - %x\n", i, hr );
@@ -143,10 +139,10 @@ The <b>SetResultColumn</b> method must be called for each column that is needed 
 error:
 	{
 		 // Clean up resources, and so on.
-	}</pre>
-</td>
-</tr>
-</table></span></div>
+	}
+```
+
+
 
 
 

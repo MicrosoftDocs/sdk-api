@@ -171,13 +171,9 @@ For a script that shows the same operations performed synchronously, see
  <a href="https://msdn.microsoft.com/be80abec-fab4-4403-bc29-d0d4a38e3c87">Create Method in Class Win32_Process</a>. For an example of the same operation using an <a href="https://msdn.microsoft.com/7fcfa404-2fe6-42e5-85ac-64536f6d2a44">SWbemServices</a> object, see 
 <a href="https://msdn.microsoft.com/933a4c64-7538-474e-9f6f-f94da6066b46">SWbemServices.ExecMethodAsync</a>.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>On Error Resume Next
+
+```vb
+On Error Resume Next
 
 'Get a Win32_Process class description
 Set oProcess = GetObject("winmgmts:Win32_Process")
@@ -218,19 +214,19 @@ wend
 ' Sink subroutines
 sub Sink_OnObjectReady(oOutParams, oContext)
     wscript.echo "Sink_OnObjectReady subroutine " _
-    &amp; VBNewLine &amp; "ReturnValue = " _
-    &amp; oOutParams.ReturnValue &amp; VBNewLine &amp; _
-    "ProcessId = " &amp; oOutParams.ProcessId
+    & VBNewLine & "ReturnValue = " _
+    & oOutParams.ReturnValue & VBNewLine & _
+    "ProcessId = " & oOutParams.ProcessId
 end sub
 
 sub Sink_OnCompleted(HResult, LastErrorObj, oContext)
     wscript.echo "Sink_OnCompleted subroutine, hresult = " _
-    &amp; hex(HResult)
+    & hex(HResult)
     bdone = true
-end sub</pre>
-</td>
-</tr>
-</table></span></div>
+end sub
+```
+
+
 
 
 

@@ -87,14 +87,10 @@ Call this method after the <a href="https://msdn.microsoft.com/42b5de27-aaa6-4bd
 
 The value of <i>pPropVarTimecode</i> is a 64-bit unsigned value typed as a <b>LONGLONG</b>. The upper <b>DWORD</b> contains the range. (A <i>range</i> is a continuous series of time codes.) The lower <b>DWORD</b> contains the time code in the form of a hexadecimal number <i>0xhhmmssff</i>,  where each 2-byte sequence is read as a decimal value.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT ParseTimeCode(
-    const PROPVARIANT&amp; var,
+
+```cpp
+HRESULT ParseTimeCode(
+    const PROPVARIANT& var,
     DWORD *pdwRange,
     DWORD *pdwFrames,
     DWORD *pdwSeconds,
@@ -108,24 +104,24 @@ The value of <i>pPropVarTimecode</i> is a 64-bit unsigned value typed as a <b>LO
     }
 
     ULONGLONG ullTimeCode = (ULONGLONG)var.hVal.QuadPart;
-    DWORD dwTimecode = (DWORD)(ullTimeCode &amp; 0xFFFFFFFF);
+    DWORD dwTimecode = (DWORD)(ullTimeCode & 0xFFFFFFFF);
 
-    *pdwRange   = (DWORD)(ullTimeCode &gt;&gt; 32);
-    *pdwFrames  =     dwTimecode &amp; 0x0000000F;
-    *pdwFrames  += (( dwTimecode &amp; 0x000000F0) &gt;&gt; 4 )  * 10;
-    *pdwSeconds =   ( dwTimecode &amp; 0x00000F00) &gt;&gt; 8;
-    *pdwSeconds += (( dwTimecode &amp; 0x0000F000) &gt;&gt; 12 ) * 10;
-    *pdwMinutes =   ( dwTimecode &amp; 0x000F0000) &gt;&gt; 16;
-    *pdwMinutes += (( dwTimecode &amp; 0x00F00000) &gt;&gt; 20 ) * 10;
-    *pdwHours   =   ( dwTimecode &amp; 0x0F000000) &gt;&gt; 24;
-    *pdwHours   += (( dwTimecode &amp; 0xF0000000) &gt;&gt; 28 ) * 10;
+    *pdwRange   = (DWORD)(ullTimeCode >> 32);
+    *pdwFrames  =     dwTimecode & 0x0000000F;
+    *pdwFrames  += (( dwTimecode & 0x000000F0) >> 4 )  * 10;
+    *pdwSeconds =   ( dwTimecode & 0x00000F00) >> 8;
+    *pdwSeconds += (( dwTimecode & 0x0000F000) >> 12 ) * 10;
+    *pdwMinutes =   ( dwTimecode & 0x000F0000) >> 16;
+    *pdwMinutes += (( dwTimecode & 0x00F00000) >> 20 ) * 10;
+    *pdwHours   =   ( dwTimecode & 0x0F000000) >> 24;
+    *pdwHours   += (( dwTimecode & 0xF0000000) >> 28 ) * 10;
 
     return S_OK;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

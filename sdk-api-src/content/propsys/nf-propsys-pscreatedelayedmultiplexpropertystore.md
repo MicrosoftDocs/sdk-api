@@ -140,13 +140,9 @@ In some cases, it might be beneficial to use <a href="https://msdn.microsoft.com
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776488(v=VS.85).aspx">PSCreateDelayedMultiplexPropertyStore</a> in an implementation of <a href="https://msdn.microsoft.com/library/Bb761447(v=VS.85).aspx">IPropertyStoreFactory::GetPropertyStore</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// CMyFactory is a reference-counted COM object that implements both IPropertyStoreFactory and IDelayedPropertyStoreFactory.
+
+```cpp
+// CMyFactory is a reference-counted COM object that implements both IPropertyStoreFactory and IDelayedPropertyStoreFactory.
 
 // CMyFactory is assumed to be fully implemented, but for the sake of brevity, 
 // many functions are not shown here. 
@@ -166,7 +162,7 @@ HRESULT CMyFactory::GetPropertyStore( __in GETPROPERTYSTOREFLAGS flags,
     HRESULT hr;
  
     // This application creates only read-only stores.
-    if (flags &amp; GPS_READWRITE)
+    if (flags & GPS_READWRITE)
     {
         hr = STG_E_ACCESSDENIED;
     }
@@ -220,10 +216,10 @@ HRESULT CMyFactory::GetDelayedPropertyStore(GETPROPERTYSTOREFLAGS flags,
     }
     
     return hr;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

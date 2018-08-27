@@ -104,21 +104,17 @@ The REFIID, or GUID, of the interface to the resource can be obtained by using t
 
 When sharing a resource between two Direct3D 10 devices the unique handle of the resource can be obtained by querying the resource for the <a href="https://msdn.microsoft.com/en-us/library/Bb174560(v=VS.85).aspx">IDXGIResource</a> interface and then calling <a href="https://msdn.microsoft.com/en-us/library/Bb174562(v=VS.85).aspx">GetSharedHandle</a>.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 IDXGIResource* pOtherResource(NULL);
-hr = pOtherDeviceResource-&gt;QueryInterface( __uuidof(IDXGIResource), (void**)&amp;pOtherResource );
+hr = pOtherDeviceResource->QueryInterface( __uuidof(IDXGIResource), (void**)&pOtherResource );
 HANDLE sharedHandle;
-pOtherResource-&gt;GetSharedHandle(&amp;sharedHandle);
-      </pre>
-</td>
-</tr>
-</table></span></div>
+pOtherResource->GetSharedHandle(&sharedHandle);
+      
+```
+
+
 The only resources that can be shared are 2D non-mipmapped textures.
 
 To share a resource between a Direct3D 9 device and a Direct3D 10 device the texture must have been created using 
@@ -127,24 +123,20 @@ To share a resource between a Direct3D 9 device and a Direct3D 10 device the tex
 
 The following code illustrates the method calls involved.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 sharedHandle = NULL; // must be set to NULL to create, can use a valid handle here to open in D3D9 
-pDevice9-&gt;CreateTexture(..., pTex2D_9, &amp;sharedHandle); 
+pDevice9->CreateTexture(..., pTex2D_9, &sharedHandle); 
 ... 
-pDevice10-&gt;OpenSharedResource(sharedHandle, __uuidof(ID3D10Resource), (void**)(&amp;tempResource10)); 
-tempResource10-&gt;QueryInterface(__uuidof(ID3D10Texture2D), (void**)(&amp;pTex2D_10)); 
-tempResource10-&gt;Release(); 
+pDevice10->OpenSharedResource(sharedHandle, __uuidof(ID3D10Resource), (void**)(&tempResource10)); 
+tempResource10->QueryInterface(__uuidof(ID3D10Texture2D), (void**)(&pTex2D_10)); 
+tempResource10->Release(); 
 // now use pTex2D_10 with pDevice10   
-      </pre>
-</td>
-</tr>
-</table></span></div>
+      
+```
+
+
 Textures being shared from D3D9 to D3D10 have the following restrictions.
 
 <ul>

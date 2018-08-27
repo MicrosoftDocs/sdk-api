@@ -250,21 +250,17 @@ Indicates whether a shader is a sample frequency shader.
 An <b>ID3D11ShaderReflection</b> interface can be retrieved for a shader by using  <a href="https://msdn.microsoft.com/en-us/library/Dd607334(v=VS.85).aspx">D3DReflect</a>.  The following code illustrates retrieving a <b>ID3D11ShaderReflection</b>  from a shader.
           
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>pd3dDevice-&gt;CreatePixelShader( pPixelShaderBuffer-&gt;GetBufferPointer(),
-                               pPixelShaderBuffer-&gt;GetBufferSize(), g_pPSClassLinkage, &amp;g_pPixelShader );
+
+```
+pd3dDevice->CreatePixelShader( pPixelShaderBuffer->GetBufferPointer(),
+                               pPixelShaderBuffer->GetBufferSize(), g_pPSClassLinkage, &g_pPixelShader );
 
 ID3D11ShaderReflection* pReflector = NULL; 
-D3DReflect( pPixelShaderBuffer-&gt;GetBufferPointer(), pPixelShaderBuffer-&gt;GetBufferSize(), 
-            IID_ID3D11ShaderReflection, (void**) &amp;pReflector);</pre>
-</td>
-</tr>
-</table></span></div>
+D3DReflect( pPixelShaderBuffer->GetBufferPointer(), pPixelShaderBuffer->GetBufferSize(), 
+            IID_ID3D11ShaderReflection, (void**) &pReflector);
+```
+
+
 
 
 

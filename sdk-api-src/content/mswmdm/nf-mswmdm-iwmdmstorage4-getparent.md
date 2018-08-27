@@ -96,25 +96,21 @@ The application can navigate up the storage hierarchy by calling <b>GetParent</b
 
 The following C++ function traverses up to the root parent of a storage.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT BubbleUp(IWMDMStorage *pIStorage)
 {
     HRESULT hr = S_OK;
-    CComPtr&lt;IWMDMStorage4&gt; pStorage4;
+    CComPtr<IWMDMStorage4> pStorage4;
 
-    hr = pIStorage-&gt;QueryInterface (__uuidof(IWMDMStorage4), reinterpret_cast&lt;void**&gt;(&amp;pStorage4));
+    hr = pIStorage->QueryInterface (__uuidof(IWMDMStorage4), reinterpret_cast<void**>(&pStorage4));
     if (SUCCEEDED(hr))
     {
         while ((pStorage4 != NULL))
         {
-            CComPtr&lt;IWMDMStorage&gt; pParent;
-            hr = pStorage4-&gt;GetParent(&amp;pParent);
+            CComPtr<IWMDMStorage> pParent;
+            hr = pStorage4->GetParent(&pParent);
             if (FAILED(hr))
             {
                 break;
@@ -126,7 +122,7 @@ HRESULT BubbleUp(IWMDMStorage *pIStorage)
             
             if (S_FALSE != hr)
             {
-                hr = pParent-&gt;QueryInterface (__uuidof(IMDSPStorage4), reinterpret_cast&lt;void**&gt;(&amp;pStorage4));
+                hr = pParent->QueryInterface (__uuidof(IMDSPStorage4), reinterpret_cast<void**>(&pStorage4));
                 if (FAILED(hr))
                 {
                     break;
@@ -137,10 +133,10 @@ HRESULT BubbleUp(IWMDMStorage *pIStorage)
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

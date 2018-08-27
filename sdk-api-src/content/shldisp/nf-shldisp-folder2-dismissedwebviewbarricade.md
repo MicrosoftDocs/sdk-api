@@ -84,13 +84,9 @@ The following example uses <b>DismissedWebViewBarricade</b> to specify that the 
 
 JScript:
 
-<div class="code"><span codelanguage="JScript"><table>
-<tr>
-<th>JScript</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;script language="JScript"&gt;
+
+```javascript
+<script language="JScript">
     function fnFolder2ObjectDismissedWebViewBarricadeJ()
     {
         var objShell  = new ActiveXObject("shell.application");
@@ -102,20 +98,16 @@ JScript:
             objFolder2.DismissedWebViewBarricade();
         }
     }
-&lt;/script&gt;
-</pre>
-</td>
-</tr>
-</table></span></div>
+</script>
+
+```
+
+
 VBScript:
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;script language="VBScript"&gt;
+
+```vb
+<script language="VBScript">
     function fnFolder2ObjectDismissedWebViewBarricadeVB()
         dim objShell
         dim objFolder2
@@ -130,20 +122,16 @@ VBScript:
         set objFolder2 = nothing
         set objShell = nothing
     end function
-&lt;/script&gt;
-</pre>
-</td>
-</tr>
-</table></span></div>
+</script>
+
+```
+
+
 Visual Basic:
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Private Sub btnDismissedWebViewBarricade_Click()
+
+```vb
+Private Sub btnDismissedWebViewBarricade_Click()
     Dim objShell   As Shell
     Dim objFolder2 As Folder2
 
@@ -157,10 +145,10 @@ Visual Basic:
     Set objFolder2 = Nothing
     Set objShell = Nothing
 End Sub
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

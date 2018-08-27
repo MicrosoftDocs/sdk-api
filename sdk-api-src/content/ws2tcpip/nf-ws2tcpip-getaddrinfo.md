@@ -363,17 +363,13 @@ All information returned by the
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following code example shows how to use the <b>getaddrinfo</b> function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#undef UNICODE
 
-#include &lt;winsock2.h&gt;
-#include &lt;ws2tcpip.h&gt;
-#include &lt;stdio.h&gt;
+```cpp
+#undef UNICODE
+
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <stdio.h>
 
 // link with Ws2_32.lib
 #pragma comment (lib, "Ws2_32.lib")
@@ -404,7 +400,7 @@ int __cdecl main(int argc, char **argv)
 
     // Validate the parameters
     if (argc != 3) {
-        printf("usage: %s &lt;hostname&gt; &lt;servicename&gt;\n", argv[0]);
+        printf("usage: %s <hostname> <servicename>\n", argv[0]);
         printf("getaddrinfo provides protocol-independent translation\n");
         printf("   from an ANSI host name to an IP address\n");
         printf("%s example usage\n", argv[0]);
@@ -413,7 +409,7 @@ int __cdecl main(int argc, char **argv)
     }
 
     // Initialize Winsock
-    iResult = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
+    iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
     if (iResult != 0) {
         printf("WSAStartup failed: %d\n", iResult);
         return 1;
@@ -422,7 +418,7 @@ int __cdecl main(int argc, char **argv)
     //--------------------------------
     // Setup the hints address info structure
     // which is passed to the getaddrinfo() function
-    ZeroMemory( &amp;hints, sizeof(hints) );
+    ZeroMemory( &hints, sizeof(hints) );
     hints.ai_family = AF_UNSPEC;
     hints.ai_socktype = SOCK_STREAM;
     hints.ai_protocol = IPPROTO_TCP;
@@ -436,7 +432,7 @@ int __cdecl main(int argc, char **argv)
 // the result variable will hold a linked list
 // of addrinfo structures containing response
 // information
-    dwRetval = getaddrinfo(argv[1], argv[2], &amp;hints, &amp;result);
+    dwRetval = getaddrinfo(argv[1], argv[2], &hints, &result);
     if ( dwRetval != 0 ) {
         printf("getaddrinfo failed with error: %d\n", dwRetval);
         WSACleanup();
@@ -446,35 +442,35 @@ int __cdecl main(int argc, char **argv)
     printf("getaddrinfo returned success\n");
     
     // Retrieve each address and print out the hex bytes
-    for(ptr=result; ptr != NULL ;ptr=ptr-&gt;ai_next) {
+    for(ptr=result; ptr != NULL ;ptr=ptr->ai_next) {
 
         printf("getaddrinfo response %d\n", i++);
-        printf("\tFlags: 0x%x\n", ptr-&gt;ai_flags);
+        printf("\tFlags: 0x%x\n", ptr->ai_flags);
         printf("\tFamily: ");
-        switch (ptr-&gt;ai_family) {
+        switch (ptr->ai_family) {
             case AF_UNSPEC:
                 printf("Unspecified\n");
                 break;
             case AF_INET:
                 printf("AF_INET (IPv4)\n");
-                sockaddr_ipv4 = (struct sockaddr_in *) ptr-&gt;ai_addr;
+                sockaddr_ipv4 = (struct sockaddr_in *) ptr->ai_addr;
                 printf("\tIPv4 address %s\n",
-                    inet_ntoa(sockaddr_ipv4-&gt;sin_addr) );
+                    inet_ntoa(sockaddr_ipv4->sin_addr) );
                 break;
             case AF_INET6:
                 printf("AF_INET6 (IPv6)\n");
                 // the InetNtop function is available on Windows Vista and later
-                // sockaddr_ipv6 = (struct sockaddr_in6 *) ptr-&gt;ai_addr;
+                // sockaddr_ipv6 = (struct sockaddr_in6 *) ptr->ai_addr;
                 // printf("\tIPv6 address %s\n",
-                //    InetNtop(AF_INET6, &amp;sockaddr_ipv6-&gt;sin6_addr, ipstringbuffer, 46) );
+                //    InetNtop(AF_INET6, &sockaddr_ipv6->sin6_addr, ipstringbuffer, 46) );
                 
                 // We use WSAAddressToString since it is supported on Windows XP and later
-                sockaddr_ip = (LPSOCKADDR) ptr-&gt;ai_addr;
+                sockaddr_ip = (LPSOCKADDR) ptr->ai_addr;
                 // The buffer length is changed by each call to WSAAddresstoString
                 // So we need to set it for each iteration through the loop for safety
                 ipbufferlength = 46;
-                iRetval = WSAAddressToString(sockaddr_ip, (DWORD) ptr-&gt;ai_addrlen, NULL, 
-                    ipstringbuffer, &amp;ipbufferlength );
+                iRetval = WSAAddressToString(sockaddr_ip, (DWORD) ptr->ai_addrlen, NULL, 
+                    ipstringbuffer, &ipbufferlength );
                 if (iRetval)
                     printf("WSAAddressToString failed with %u\n", WSAGetLastError() );
                 else    
@@ -484,11 +480,11 @@ int __cdecl main(int argc, char **argv)
                 printf("AF_NETBIOS (NetBIOS)\n");
                 break;
             default:
-                printf("Other %ld\n", ptr-&gt;ai_family);
+                printf("Other %ld\n", ptr->ai_family);
                 break;
         }
         printf("\tSocket type: ");
-        switch (ptr-&gt;ai_socktype) {
+        switch (ptr->ai_socktype) {
             case 0:
                 printf("Unspecified\n");
                 break;
@@ -508,11 +504,11 @@ int __cdecl main(int argc, char **argv)
                 printf("SOCK_SEQPACKET (pseudo-stream packet)\n");
                 break;
             default:
-                printf("Other %ld\n", ptr-&gt;ai_socktype);
+                printf("Other %ld\n", ptr->ai_socktype);
                 break;
         }
         printf("\tProtocol: ");
-        switch (ptr-&gt;ai_protocol) {
+        switch (ptr->ai_protocol) {
             case 0:
                 printf("Unspecified\n");
                 break;
@@ -523,11 +519,11 @@ int __cdecl main(int argc, char **argv)
                 printf("IPPROTO_UDP (UDP) \n");
                 break;
             default:
-                printf("Other %ld\n", ptr-&gt;ai_protocol);
+                printf("Other %ld\n", ptr->ai_protocol);
                 break;
         }
-        printf("\tLength of this sockaddr: %d\n", ptr-&gt;ai_addrlen);
-        printf("\tCanonical name: %s\n", ptr-&gt;ai_canonname);
+        printf("\tLength of this sockaddr: %d\n", ptr->ai_addrlen);
+        printf("\tCanonical name: %s\n", ptr->ai_canonname);
     }
 
     freeaddrinfo(result);
@@ -535,10 +531,10 @@ int __cdecl main(int argc, char **argv)
 
     return 0;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 <div class="alert"><b>Note</b>  Ensure that the development environment targets the newest version of <i>Ws2tcpip.h</i> which includes structure and function definitions for <a href="https://msdn.microsoft.com/4df914ab-59b0-4110-bc81-59e5f6722b8d">addrinfo</a> and <b>getaddrinfo</b>, respectively.</div>
 <div> </div>
@@ -774,17 +770,13 @@ If the  <b>AI_FILESERVER</b> is set, this is a  hint to the namespace provider t
 <h3><a id="Example_code_using_AI_NUMERICHOST"></a><a id="example_code_using_ai_numerichost"></a><a id="EXAMPLE_CODE_USING_AI_NUMERICHOST"></a>Example code using AI_NUMERICHOST</h3>
 The following code example shows how to use the <b>getaddrinfo</b> function to convert a text string representation of an IP address to an <a href="https://msdn.microsoft.com/4df914ab-59b0-4110-bc81-59e5f6722b8d">addrinfo</a>structure that contains a <a href="https://msdn.microsoft.com/d1392e1c-2b20-425a-8adf-38e665fb6275">sockaddr</a> structure for the IP address and other information. 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#undef UNICODE
 
-#include &lt;winsock2.h&gt;
-#include &lt;ws2tcpip.h&gt;
-#include &lt;stdio.h&gt;
+```cpp
+#undef UNICODE
+
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <stdio.h>
 
 // link with Ws2_32.lib
 #pragma comment (lib, "Ws2_32.lib")
@@ -808,13 +800,13 @@ int __cdecl main(int argc, char **argv)
 
     // Validate the parameters
     if (argc != 2) {
-        printf("usage: %s &lt;IP Address String&gt;\n", argv[0]);
+        printf("usage: %s <IP Address String>\n", argv[0]);
         printf("  getaddrinfo determines the IP binary network address\n");
         printf("       %s 207.46.197.32\n", argv[0]);  /* www.contoso.com */
         return 1;
     }
     // Initialize Winsock
-    iResult = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
+    iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
     if (iResult != 0) {
         printf("WSAStartup failed: %d\n", iResult);
         return 1;
@@ -823,7 +815,7 @@ int __cdecl main(int argc, char **argv)
     //--------------------------------
     // Setup the hints address info structure
     // which is passed to the getaddrinfo() function
-    ZeroMemory( &amp;hints, sizeof(hints) );
+    ZeroMemory( &hints, sizeof(hints) );
     hints.ai_flags = AI_NUMERICHOST;
     hints.ai_family = AF_UNSPEC;
 //    hints.ai_socktype = SOCK_STREAM;
@@ -835,7 +827,7 @@ int __cdecl main(int argc, char **argv)
 // the result variable will hold a linked list
 // of addrinfo structures containing response
 // information
-    dwRetval = getaddrinfo(argv[1], NULL, &amp;hints, &amp;result);
+    dwRetval = getaddrinfo(argv[1], NULL, &hints, &result);
     if ( dwRetval != 0 ) {
         printf("getaddrinfo failed with error: %d\n", dwRetval);
         WSACleanup();
@@ -845,12 +837,12 @@ int __cdecl main(int argc, char **argv)
     printf("getaddrinfo returned success\n");
     
     // Retrieve each address and print out the hex bytes
-    for(ptr=result; ptr != NULL ;ptr=ptr-&gt;ai_next) {
+    for(ptr=result; ptr != NULL ;ptr=ptr->ai_next) {
 
         printf("getaddrinfo response %d\n", i++);
-        printf("\tFlags: 0x%x\n", ptr-&gt;ai_flags);
+        printf("\tFlags: 0x%x\n", ptr->ai_flags);
         printf("\tFamily: ");
-        switch (ptr-&gt;ai_family) {
+        switch (ptr->ai_family) {
             case AF_UNSPEC:
                 printf("Unspecified\n");
                 break;
@@ -864,11 +856,11 @@ int __cdecl main(int argc, char **argv)
                 printf("AF_NETBIOS (NetBIOS)\n");
                 break;
             default:
-                printf("Other %ld\n", ptr-&gt;ai_family);
+                printf("Other %ld\n", ptr->ai_family);
                 break;
         }
         printf("\tSocket type: ");
-        switch (ptr-&gt;ai_socktype) {
+        switch (ptr->ai_socktype) {
             case 0:
                 printf("Unspecified\n");
                 break;
@@ -888,11 +880,11 @@ int __cdecl main(int argc, char **argv)
                 printf("SOCK_SEQPACKET (pseudo-stream packet)\n");
                 break;
             default:
-                printf("Other %ld\n", ptr-&gt;ai_socktype);
+                printf("Other %ld\n", ptr->ai_socktype);
                 break;
         }
         printf("\tProtocol: ");
-        switch (ptr-&gt;ai_protocol) {
+        switch (ptr->ai_protocol) {
             case 0:
                 printf("Unspecified\n");
                 break;
@@ -903,11 +895,11 @@ int __cdecl main(int argc, char **argv)
                 printf("IPPROTO_UDP (UDP) \n");
                 break;
             default:
-                printf("Other %ld\n", ptr-&gt;ai_protocol);
+                printf("Other %ld\n", ptr->ai_protocol);
                 break;
         }
-        printf("\tLength of this sockaddr: %d\n", ptr-&gt;ai_addrlen);
-        printf("\tCanonical name: %s\n", ptr-&gt;ai_canonname);
+        printf("\tLength of this sockaddr: %d\n", ptr->ai_addrlen);
+        printf("\tCanonical name: %s\n", ptr->ai_canonname);
     }
 
     freeaddrinfo(result);
@@ -915,10 +907,10 @@ int __cdecl main(int argc, char **argv)
 
     return 0;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 <h3><a id="Support_for_getaddrinfo_on_Windows_2000_and_older_versions_"></a><a id="support_for_getaddrinfo_on_windows_2000_and_older_versions_"></a><a id="SUPPORT_FOR_GETADDRINFO_ON_WINDOWS_2000_AND_OLDER_VERSIONS_"></a>Support for getaddrinfo on Windows 2000 and older versions
 </h3>
 The <b>getaddrinfo</b> function was added to the Ws2_32.dll on Windows XP and later. To execute an application that uses this function on earlier versions of Windows, then you need to include the <i>Ws2tcpip.h</i> and <i>Wspiapi.h</i> files. When the <i>Wspiapi.h</i> include file is added, the <b>getaddrinfo</b> function is defined to the <b>WspiapiGetAddrInfo</b> inline function in the <i>Wspiapi.h</i> file. At runtime, the <b>WspiapiGetAddrInfo</b> function is implemented in such a way that if the Ws2_32.dll or the Wship6.dll (the file containing <b>getaddrinfo</b> in the IPv6 Technology Preview for Windows 2000) does not include <b>getaddrinfo</b>, then a version of  <b>getaddrinfo</b> is implemented inline based on code in the Wspiapi.h header file. This inline code will be used on older Windows platforms that do not natively support the <b>getaddrinfo</b> function.

@@ -159,13 +159,9 @@ Furthermore, you cannot import a certificate if it already exists in the databas
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// This code imports a binary certificate file.
+
+```cpp
+// This code imports a binary certificate file.
 BSTR   bstrCert = NULL;  // Variable for certificate.
 HANDLE hFile;  
 DWORD  cchFile, cbRead;
@@ -204,7 +200,7 @@ if (NULL == bstrCert)
 if (!ReadFile(hFile,
              (char *)bstrCert,
              cchFile,
-             &amp;cbRead,
+             &cbRead,
              NULL) || (cbRead != cchFile))
 {
     printf("Failed to successfully read file\n");
@@ -216,7 +212,7 @@ if (!ReadFile(hFile,
 CloseHandle(hFile);
 
 // Import the certificate.
-bstrCA = SysAllocString(L"&lt;COMPUTERNAMEHERE&gt;\\&lt;CANAMEHERE&gt;");
+bstrCA = SysAllocString(L"<COMPUTERNAMEHERE>\\<CANAMEHERE>");
 if (FAILED(hr))
 {
     printf("Failed to allocate memory for bstrCA\n");
@@ -224,20 +220,20 @@ if (FAILED(hr))
     // Take error action as needed.
 }
 
-hr = pCertAdmin-&gt;ImportCertificate(bstrCA,
+hr = pCertAdmin->ImportCertificate(bstrCA,
                                    bstrCert,
                                    CR_IN_BINARY,
-                                   &amp;nID);
+                                   &nID);
 if (FAILED(hr))
     printf("Failed ImportCertificate [%x]\n", hr);
 else
     printf("Imported certificated has Request ID: %d\n", nID);
 
 SysFreeString(bstrCert);
-SysFreeString(bstrCA);</pre>
-</td>
-</tr>
-</table></span></div>
+SysFreeString(bstrCA);
+```
+
+
 
 
 

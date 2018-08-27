@@ -186,13 +186,9 @@ The <b>SCardListReaderGroups</b> function is a database query function. For more
 
 The following example  shows listing the reader groups.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>LPTSTR          pmszReaderGroups = NULL;
+
+```cpp
+LPTSTR          pmszReaderGroups = NULL;
 LPTSTR          pReaderGroup;
 LONG            lReturn;
 DWORD           cch = SCARD_AUTOALLOCATE;
@@ -200,8 +196,8 @@ DWORD           cch = SCARD_AUTOALLOCATE;
 // Retrieve the list the reader groups.
 // hSC was set by a previous call to SCardEstablishContext.
 lReturn = SCardListReaderGroups(hSC,
-                                (LPTSTR)&amp;pmszReaderGroups,
-                                &amp;cch );
+                                (LPTSTR)&pmszReaderGroups,
+                                &cch );
 if ( SCARD_S_SUCCESS != lReturn )
     printf("Failed SCardListReaderGroups\n");
 else
@@ -221,10 +217,10 @@ else
     // Remember to free pmszReaderGroups by a call to SCardFreeMemory.
     // ...
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -105,28 +105,24 @@ If the source <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776600(v=VS.85).aspx">VariantToDoubleArrayAlloc</a> to access a <b>DOUBLE</b> array value in a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// VARIANT var;
+
+```cpp
+// VARIANT var;
 // Assume variable var is initialized and valid.
 // The application expects var to contain an array of DOUBLE values.
 DOUBLE *prgDoubles;
 ULONG cElems;
 
-HRESULT hr = VariantToDoubleArrayAlloc(var, &amp;prgDoubles, &amp;cElems);
+HRESULT hr = VariantToDoubleArrayAlloc(var, &prgDoubles, &cElems);
 
 if (SUCCEEDED(hr))
 {
      // prgDoubles now points to a vector of cElems DOUBLEs.
      CoTaskMemFree(prgDoubles);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

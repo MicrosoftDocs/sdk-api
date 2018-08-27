@@ -101,26 +101,22 @@ the following methods:
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>LONG  Index;
+
+```cpp
+LONG  Index;
 LONG  nCount;
 
 // determine the number of extensions
 nCount = 0;
 // pEnumExt is previously instantiated IEnumCERTVIEWEXTENSION object
-while (S_OK == pEnumExt-&gt;Next(&amp;Index))
+while (S_OK == pEnumExt->Next(&Index))
 {
     nCount++;
 }
-printf("Number of extensions is %d\n", nCount);</pre>
-</td>
-</tr>
-</table></span></div>
+printf("Number of extensions is %d\n", nCount);
+```
+
+
 
 
 

@@ -162,13 +162,9 @@ If your app needs to copy an entire resource, we recommend to use <a href="https
 The following code snippet copies a box (located at (120,100),(200,220)) from a source texture into a reqion (10,20),(90,140) in a destination texture.
           
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>D3D11_BOX sourceRegion;
+
+```
+D3D11_BOX sourceRegion;
 sourceRegion.left = 120;
 sourceRegion.right = 200;
 sourceRegion.top = 100;
@@ -176,11 +172,11 @@ sourceRegion.bottom = 220;
 sourceRegion.front = 0;
 sourceRegion.back = 1;
 
-pd3dDeviceContext-&gt;CopySubresourceRegion( pDestTexture, 0, 10, 20, 0, pSourceTexture, 0, &amp;sourceRegion );
-</pre>
-</td>
-</tr>
-</table></span></div>
+pd3dDeviceContext->CopySubresourceRegion( pDestTexture, 0, 10, 20, 0, pSourceTexture, 0, &sourceRegion );
+
+```
+
+
 Notice, that for a 2D texture, front and back are set to 0 and 1 respectively.
           
 

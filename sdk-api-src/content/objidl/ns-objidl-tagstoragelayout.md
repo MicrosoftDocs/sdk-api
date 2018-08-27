@@ -109,13 +109,9 @@ A beginning block value of <b>STG_TOEND</b> specifies that elements in a followi
 An array of 
 <b>StorageLayout</b> structures might appear as follows.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>StorageLayout arrScript[]=
+
+```cpp
+StorageLayout arrScript[]=
     // Read first 2k of "WordDocument" stream
     {STGTY_STREAM,L"WordDocument",{0,0},{0,2048}},
  
@@ -131,10 +127,10 @@ An array of
         {STGTY_STREAM,L"Video", {0,0},{0,65536}},   // 64k of Video
         {STGTY_STREAM,L"Caption", {0,0},{0,128}},   // 128b of text
     {STGTY_REPEAT,NULL, {0,0},{0,0}}
-};</pre>
-</td>
-</tr>
-</table></span></div>
+};
+```
+
+
 <div class="alert"><b>Note</b>  The parameters <i>cOffset</i> and <i>cBytes</i> are <b>LARGE_INTEGER</b> structures, used to represent a 64-bit signed integer value as a union of two 32-bit members. The two 32-bit members must be represented as a <b>LARGE_INTEGER</b> structure with <b>DWORD</b> LowPart and <b>LONG</b> HighPart as the structure members. (LowPart specifies the low-order 32 bits and HighPart specifies the high-order 32 bits.) If your compiler has built-in support for 64-bit integers, use the <b>QuadPart</b> member of the <b>LARGE_INTEGER</b> structure to store the 64-bit integer.</div>
 <div> </div>
 

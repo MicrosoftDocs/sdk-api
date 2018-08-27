@@ -88,16 +88,12 @@ A positive return value shifts the first dash forward along the path, and a nega
 The following example assumes that 
 						<i>dashPen</i> has been defined with a certain dash style and gets the dash offset value.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>REAL dashOffset = dashPen.GetDashOffset();</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+REAL dashOffset = dashPen.GetDashOffset();
+```
+
+
 
 
 

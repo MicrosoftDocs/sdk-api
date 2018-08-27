@@ -190,75 +190,67 @@ The <a href="https://msdn.microsoft.com/en-us/library/Mt186624(v=VS.85).aspx">D3
 
 Header file declarations.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Compute objects.
-ComPtr&lt;ID3D12CommandAllocator&gt; m_computeAllocator[ThreadCount];
-ComPtr&lt;ID3D12CommandQueue&gt; m_computeCommandQueue[ThreadCount];
-ComPtr&lt;ID3D12GraphicsCommandList&gt; m_computeCommandList[ThreadCount];
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+// Compute objects.
+ComPtr<ID3D12CommandAllocator> m_computeAllocator[ThreadCount];
+ComPtr<ID3D12CommandQueue> m_computeCommandQueue[ThreadCount];
+ComPtr<ID3D12GraphicsCommandList> m_computeCommandList[ThreadCount];
+
+```
+
+
 Asynchronous compute thread.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>DWORD D3D12nBodyGravity::AsyncComputeThreadProc(int threadIndex)
+
+```cpp
+DWORD D3D12nBodyGravity::AsyncComputeThreadProc(int threadIndex)
 {
     ID3D12CommandQueue* pCommandQueue = m_computeCommandQueue[threadIndex].Get();
     ID3D12CommandAllocator* pCommandAllocator = m_computeAllocator[threadIndex].Get();
     ID3D12GraphicsCommandList* pCommandList = m_computeCommandList[threadIndex].Get();
     ID3D12Fence* pFence = m_threadFences[threadIndex].Get();
 
-    while (0 == InterlockedGetValue(&amp;m_terminating))
+    while (0 == InterlockedGetValue(&m_terminating))
     {
         // Run the particle simulation.
         Simulate(threadIndex);
 
         // Close and execute the command list.
-        ThrowIfFailed(pCommandList-&gt;Close());
+        ThrowIfFailed(pCommandList->Close());
         ID3D12CommandList* ppCommandLists[] = { pCommandList };
 
-        pCommandQueue-&gt;ExecuteCommandLists(1, ppCommandLists);
+        pCommandQueue->ExecuteCommandLists(1, ppCommandLists);
 
         // Wait for the compute shader to complete the simulation.
-        UINT64 threadFenceValue = InterlockedIncrement(&amp;m_threadFenceValues[threadIndex]);
-        ThrowIfFailed(pCommandQueue-&gt;Signal(pFence, threadFenceValue));
-        ThrowIfFailed(pFence-&gt;SetEventOnCompletion(threadFenceValue, m_threadFenceEvents[threadIndex]));
+        UINT64 threadFenceValue = InterlockedIncrement(&m_threadFenceValues[threadIndex]);
+        ThrowIfFailed(pCommandQueue->Signal(pFence, threadFenceValue));
+        ThrowIfFailed(pFence->SetEventOnCompletion(threadFenceValue, m_threadFenceEvents[threadIndex]));
         WaitForSingleObject(m_threadFenceEvents[threadIndex], INFINITE);
 
         // Wait for the render thread to be done with the SRV so that
         // the next frame in the simulation can run.
-        UINT64 renderContextFenceValue = InterlockedGetValue(&amp;m_renderContextFenceValues[threadIndex]);
-        if (m_renderContextFence-&gt;GetCompletedValue() &lt; renderContextFenceValue)
+        UINT64 renderContextFenceValue = InterlockedGetValue(&m_renderContextFenceValues[threadIndex]);
+        if (m_renderContextFence->GetCompletedValue() < renderContextFenceValue)
         {
-            ThrowIfFailed(pCommandQueue-&gt;Wait(m_renderContextFence.Get(), renderContextFenceValue));
-            InterlockedExchange(&amp;m_renderContextFenceValues[threadIndex], 0);
+            ThrowIfFailed(pCommandQueue->Wait(m_renderContextFence.Get(), renderContextFenceValue));
+            InterlockedExchange(&m_renderContextFenceValues[threadIndex], 0);
         }
 
         // Swap the indices to the SRV and UAV.
         m_srvIndex[threadIndex] = 1 - m_srvIndex[threadIndex];
 
         // Prepare for the next frame.
-        ThrowIfFailed(pCommandAllocator-&gt;Reset());
-        ThrowIfFailed(pCommandList-&gt;Reset(pCommandAllocator, m_computeState.Get()));
+        ThrowIfFailed(pCommandAllocator->Reset());
+        ThrowIfFailed(pCommandList->Reset(pCommandAllocator, m_computeState.Get()));
     }
 
     return 0;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Refer to the <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85).aspx">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>

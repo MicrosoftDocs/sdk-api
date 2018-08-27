@@ -111,18 +111,14 @@ The <b>IDirectoryObject::GetObjectAttributes</b> method attempts to read the sch
 
 The following code example shows how the <b>IDirectoryObject::GetObjectAttributes</b> method can be used.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT hr;
+
+```cpp
+HRESULT hr;
 IDirectoryObject *pDirObject = NULL;
  
 hr = ADsGetObject(L"LDAP://CN=Jeff Smith,OU=Sales,DC=Fabrikam,DC=com",
                      IID_IDirectoryObject, 
-                     (void**) &amp;pDirObject );
+                     (void**) &pDirObject );
  
 if ( SUCCEEDED(hr) )
 {
@@ -136,25 +132,25 @@ if ( SUCCEEDED(hr) )
     // Be aware that the order is not necessarily the 
     // same as requested using pAttrNames.
     //////////////////////////////////////////////////////
-    hr = pDirObject-&gt;GetObjectAttributes( pAttrNames, 
+    hr = pDirObject->GetObjectAttributes( pAttrNames, 
                                         dwNumAttr, 
-                                        &amp;pAttrInfo, 
-                                        &amp;dwReturn );
+                                        &pAttrInfo, 
+                                        &dwReturn );
      
     if ( SUCCEEDED(hr) )
     {
-        for(DWORD idx = 0; idx &lt; dwReturn; idx++ )
+        for(DWORD idx = 0; idx < dwReturn; idx++ )
         {
             if ( _wcsicmp(pAttrInfo[idx].pszAttrName,L"givenName") == 0 )
             {
                 switch (pAttrInfo[idx].dwADsType)
                 {
                     case ADSTYPE_CASE_IGNORE_STRING:
-                        printf("First Name: %S\n", pAttrInfo[idx].pADsValues-&gt;CaseIgnoreString);
+                        printf("First Name: %S\n", pAttrInfo[idx].pADsValues->CaseIgnoreString);
                         break;
          
                     case ADSTYPE_PROV_SPECIFIC:
-                        printf("First Name: %S\n", pAttrInfo[idx].pADsValues-&gt;ProviderSpecific.lpValue);
+                        printf("First Name: %S\n", pAttrInfo[idx].pADsValues->ProviderSpecific.lpValue);
                         break;
          
                     default:
@@ -167,11 +163,11 @@ if ( SUCCEEDED(hr) )
                 switch (pAttrInfo[idx].dwADsType)
                 {
                     case ADSTYPE_CASE_IGNORE_STRING:
-                        printf("Last Name: %S\n", pAttrInfo[idx].pADsValues-&gt;CaseIgnoreString);
+                        printf("Last Name: %S\n", pAttrInfo[idx].pADsValues->CaseIgnoreString);
                         break;
          
                     case ADSTYPE_PROV_SPECIFIC:
-                        printf("Last Name: %S\n", pAttrInfo[idx].pADsValues-&gt;ProviderSpecific.lpValue);
+                        printf("Last Name: %S\n", pAttrInfo[idx].pADsValues->ProviderSpecific.lpValue);
                         break;
          
                     default:
@@ -185,19 +181,19 @@ if ( SUCCEEDED(hr) )
                 {
                     case ADSTYPE_CASE_IGNORE_STRING:
                         printf("Other Telephones:");
-                        for (DWORD val=0; val &lt; pAttrInfo[idx].dwNumValues; val++) 
+                        for (DWORD val=0; val < pAttrInfo[idx].dwNumValues; val++) 
                         printf("  %S\n", pAttrInfo[idx].pADsValues[val].CaseIgnoreString);
                         break;
          
                     case ADSTYPE_PROV_SPECIFIC:
                         printf("Other Telephones:");
-                        for (DWORD val=0; val &lt; pAttrInfo[idx].dwNumValues; val++) 
+                        for (DWORD val=0; val < pAttrInfo[idx].dwNumValues; val++) 
                         printf("  %S\n", pAttrInfo[idx].pADsValues[val].CaseIgnoreString);
                         break;
          
                     default:
                         printf("Other Telephones:");
-                        for (DWORD val=0; val &lt; pAttrInfo[idx].dwNumValues; val++) 
+                        for (DWORD val=0; val < pAttrInfo[idx].dwNumValues; val++) 
                         printf("  %S\n", pAttrInfo[idx].pADsValues[val].CaseIgnoreString);
                         break;
                 }
@@ -211,11 +207,11 @@ if ( SUCCEEDED(hr) )
     
     }
  
-    pDirObject-&gt;Release();
-}</pre>
-</td>
-</tr>
-</table></span></div>
+    pDirObject->Release();
+}
+```
+
+
 
 
 

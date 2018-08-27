@@ -115,17 +115,13 @@ Even when  WinHTTP is used in asynchronous mode (that is, when <b>WINHTTP_FLAG_A
 The following  code example code shows how to convert a 
 <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure to a string that contains the time in HTTP format.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    SYSTEMTIME  sTime;
+
+```cpp
+    SYSTEMTIME  sTime;
     LPWSTR      pwszTimeStr;
 
     // Get the current time.
-    GetSystemTime(&amp;sTime);
+    GetSystemTime(&sTime);
 
     // Allocate memory for the string.
     // Note: WINHTTP_TIME_FORMAT_BUFSIZE is a byte count.
@@ -134,7 +130,7 @@ The following  code example code shows how to convert a
     pwszTimeStr = new WCHAR[WINHTTP_TIME_FORMAT_BUFSIZE/sizeof(WCHAR)];
 
     // Convert the current time to HTTP format.
-    if(!WinHttpTimeFromSystemTime( &amp;sTime, pwszTimeStr))
+    if(!WinHttpTimeFromSystemTime( &sTime, pwszTimeStr))
     {
         printf( "Error %u in WinHttpTimeFromSystemTime.\n", GetLastError());
     }
@@ -146,10 +142,10 @@ The following  code example code shows how to convert a
 
     // Free the memory.
     delete [] pwszTimeStr;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

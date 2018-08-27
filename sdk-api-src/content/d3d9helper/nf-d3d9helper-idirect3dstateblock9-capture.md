@@ -79,29 +79,25 @@ If the method succeeds, the return value is D3D_OK. If the method fails because 
 
 The Capture method captures current values for states within an existing state block. It does not capture the entire state of the device. For example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 IDirect3DStateBlock9* pStateBlock = NULL;
 
-pd3dDevice-&gt;BeginStateBlock();
+pd3dDevice->BeginStateBlock();
 // Add the ZENABLE state to the stateblock 
-pd3dDevice-&gt;SetRenderState ( D3DRS_ZENABLE, D3DZB_TRUE );
-pd3dDevice-&gt;EndStateBlock ( &amp;pStateBlock );
+pd3dDevice->SetRenderState ( D3DRS_ZENABLE, D3DZB_TRUE );
+pd3dDevice->EndStateBlock ( &pStateBlock );
     
 // Change the current value that is stored in the state block
-pd3dDevice-&gt;SetRenderState ( D3DRS_ZENABLE, D3DZB_FALSE );
-pStateBlock-&gt;Capture();			
+pd3dDevice->SetRenderState ( D3DRS_ZENABLE, D3DZB_FALSE );
+pStateBlock->Capture();			
 
-pStateBlock-&gt;Release();
-</pre>
-</td>
-</tr>
-</table></span></div>
+pStateBlock->Release();
+
+```
+
+
 Creating an empty stateblock and calling the Capture method does nothing if no states have been set.
 
 The Capture method  will not capture information for lights that are explicitly or implicitly created after the stateblock is created.

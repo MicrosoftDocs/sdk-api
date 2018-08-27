@@ -133,29 +133,25 @@ This function allows the creation of safe arrays that contain elements with data
 
 The following example creates a safe array using the <b>SafeArrayAllocDescriptor</b> and <a href="https://msdn.microsoft.com/a1f984cd-9638-415d-8582-25b1bdfbd694">SafeArrayAllocData</a> functions.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>SAFEARRAY *psa;
+
+```cpp
+SAFEARRAY *psa;
 unsigned int ndim =  2;
-HRESULT hresult = SafeArrayAllocDescriptor( ndim, &amp;psa );
+HRESULT hresult = SafeArrayAllocDescriptor( ndim, &psa );
 if( FAILED( hresult ) )
    return ERR_OutOfMemory;
-(psa)-&gt;rgsabound[ 0 ].lLbound = 0;
-(psa)-&gt;rgsabound[ 0 ].cElements = 5;
-(psa)-&gt;rgsabound[ 1 ].lLbound = 1;
-(psa)-&gt;rgsabound[ 1 ].cElements = 4;
+(psa)->rgsabound[ 0 ].lLbound = 0;
+(psa)->rgsabound[ 0 ].cElements = 5;
+(psa)->rgsabound[ 1 ].lLbound = 1;
+(psa)->rgsabound[ 1 ].cElements = 4;
 hresult = SafeArrayAllocData( psa );
 if( FAILED( hresult ) ) {
    SafeArrayDestroyDescriptor( psa )
    return ERR_OutOfMemory;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

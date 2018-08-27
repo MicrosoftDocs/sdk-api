@@ -88,13 +88,9 @@ The following example declares the necessary variables, initializes COM, and cre
 
 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//  Pointer to an interface object.
+
+```cpp
+//  Pointer to an interface object.
 ICertAdmin * pCertAdmin = NULL;
 
     BSTR       bstrCA = NULL;  // variable for machine\CAName
@@ -115,7 +111,7 @@ ICertAdmin * pCertAdmin = NULL;
                            NULL,
                            CLSCTX_INPROC_SERVER,
                            IID_ICertAdmin,
-                           (void **)&amp;pCertAdmin);
+                           (void **)&pCertAdmin);
     if (FAILED(hr))
     {
         printf("Failed CoCreateInstance pCertAdmin [%x]\n", hr);
@@ -123,7 +119,7 @@ ICertAdmin * pCertAdmin = NULL;
     }
 
     //  Note the use of two '\' in C++ to produce one '\'.
-    bstrCA = SysAllocString(L"&lt;COMPUTERNAMEHERE&gt;\\&lt;CANAMEHERE&gt;");
+    bstrCA = SysAllocString(L"<COMPUTERNAMEHERE>\\<CANAMEHERE>");
     if (NULL == bstrCA)
     {
         printf("Failed to allocate memory for bstrCA\n");
@@ -131,10 +127,10 @@ ICertAdmin * pCertAdmin = NULL;
     }
 
     //  nReqID is RequestID to be denied.
-    nReqID = &lt;REQUESTIDHERE&gt;;
+    nReqID = <REQUESTIDHERE>;
 
     //  Deny the request.
-    hr = pCertAdmin-&gt;DenyRequest( bstrCA, nReqID );
+    hr = pCertAdmin->DenyRequest( bstrCA, nReqID );
     if (FAILED(hr))
     {
         printf("Failed DenyRequest %ws %d [%x]\n",
@@ -156,13 +152,13 @@ error:
 
     //  Clean up object resources.
     if (NULL != pCertAdmin)
-        pCertAdmin-&gt;Release();
+        pCertAdmin->Release();
 
     //  Free COM resources.
-    CoUninitialize(); </pre>
-</td>
-</tr>
-</table></span></div>
+    CoUninitialize(); 
+```
+
+
 
 
 

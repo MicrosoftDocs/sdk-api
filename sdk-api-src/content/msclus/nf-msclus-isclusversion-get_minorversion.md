@@ -75,19 +75,15 @@ The <a href="https://msdn.microsoft.com/f4d81e0a-4f65-470b-9215-f1b91e582646">Cl
     <b>MinorVersion</b> properties together form a 
     complete Windows <a href="https://msdn.microsoft.com/en-us/library/Aa373122(v=VS.85).aspx">version number</a>.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Version = X.Y
+
+```vb
+Version = X.Y
 MajorVersion = X
 MinorVersion = Y
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 All <a href="https://msdn.microsoft.com/2215335a-1858-437f-8654-2e9d601fe061">ClusVersion</a> properties are static values 
     corresponding the state of the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> when the 
     <b>ClusVersion</b> object was first created. To obtain the 

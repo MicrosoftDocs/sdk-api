@@ -105,23 +105,19 @@ All the parameters have the same meaning as the corresponding ones in the standa
 
 The following C/C++ code example shows a generic implementation of this method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>STDMETHOD(PrivateGetIDsOfNames)(REFIID riid, OLECHAR ** rgszNames, unsigned int cNames, LCID lcid, DISPID  * rgdispid)
+
+```cpp
+STDMETHOD(PrivateGetIDsOfNames)(REFIID riid, OLECHAR ** rgszNames, unsigned int cNames, LCID lcid, DISPID  * rgdispid)
 {
   if (rgdispid == NULL)
   {
      return E_POINTER;
   }
   return  DispGetIDsOfNames(m_pTypeInfo, rgszNames, cNames, rgdispid);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

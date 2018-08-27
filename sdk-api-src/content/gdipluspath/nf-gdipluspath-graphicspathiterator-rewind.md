@@ -85,13 +85,9 @@ The first time you call the
 
 The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">GraphicsPath</a> object and adds five figures to the path. The code passes the address of that <b>GraphicsPath</b> object to a <a href="https://msdn.microsoft.com/en-us/library/ms534458(v=VS.85).aspx">GraphicsPathIterator</a> constructor to create an iterator that is associated with the path. The code calls the iterator's <a href="https://msdn.microsoft.com/en-us/library/ms535462(v=VS.85).aspx">GraphicsPathIterator::NextSubpath</a> method twice to retrieve the second figure in the path. The <a href="https://msdn.microsoft.com/en-us/library/ms535685(v=VS.85).aspx">DrawPath</a> method draws that path in blue. Next, the code calls the <b>GraphicsPathIterator::Rewind</b> method and then calls <b>GraphicsPathIterator::NextSubpath</b> once to obtain the first figure in the path. The <b>DrawPath</b> method draws that figure in red.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 VOID RewindExample(HDC hdc)
 {
    Graphics graphics(hdc);
@@ -113,31 +109,31 @@ VOID RewindExample(HDC hdc)
    path.AddRectangle(Rect(420, 20, 60, 30));  // Subpath count is 5.
  
    // Create an iterator, and associate it with the path.
-   GraphicsPathIterator iterator(&amp;amp;path);
+   GraphicsPathIterator iterator(&path);
 
    // Get the second subpath by calling NextSubpath twice.
    GraphicsPath subpath;
    BOOL isClosed;
    INT count;
-   count = iterator.NextSubpath(&amp;amp;subpath, &amp;amp;isClosed);
-   count = iterator.NextSubpath(&amp;amp;subpath, &amp;amp;isClosed);
+   count = iterator.NextSubpath(&subpath, &isClosed);
+   count = iterator.NextSubpath(&subpath, &isClosed);
 
    // Draw the second figure in blue.
    Pen bluePen(Color(255, 0, 0, 255));
-   graphics.DrawPath(&amp;amp;bluePen, &amp;amp;subpath);
+   graphics.DrawPath(&bluePen, &subpath);
 
    // Rewind the iterator, and get the first figure in the path.
    iterator.Rewind();
-   count = iterator.NextSubpath(&amp;amp;subpath, &amp;amp;isClosed);
+   count = iterator.NextSubpath(&subpath, &isClosed);
 
    // Draw the first figure in red.
    Pen redPen(Color(255, 255, 0, 0));
-   graphics.DrawPath(&amp;amp;redPen, &amp;amp;subpath);
+   graphics.DrawPath(&redPen, &subpath);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

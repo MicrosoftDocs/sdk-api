@@ -102,33 +102,29 @@ The following console application creates an
 						<i>pDimensionIDs</i> array. The call to the <a href="https://msdn.microsoft.com/en-us/library/ms535377(v=VS.85).aspx">Image::GetFrameCount</a> method determines the number of frames in the dimension identified by the first 
 						GUID.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;gdiplus.h&gt;
-#include &lt;stdio.h&gt;
+
+```cpp
+#include <windows.h>
+#include <gdiplus.h>
+#include <stdio.h>
 using namespace Gdiplus;
 
 INT main()
 {
    GdiplusStartupInput gdiplusStartupInput;
    ULONG_PTR gdiplusToken;
-   GdiplusStartup(&amp;gdiplusToken, &amp;gdiplusStartupInput, NULL);
+   GdiplusStartup(&gdiplusToken, &gdiplusStartupInput, NULL);
 
    Image* image = new Image(L"Multiframe.tif");
 
    // How many frame dimensions does the Image object have?
    UINT count = 0;
-   count = image-&gt;GetFrameDimensionsCount();
+   count = image->GetFrameDimensionsCount();
    printf("The number of dimensions is %d.\n", count);
    GUID* pDimensionIDs = (GUID*)malloc(sizeof(GUID)*count);
 
    // Get the list of frame dimensions from the Image object.
-   image-&gt;GetFrameDimensionsList(pDimensionIDs, count);
+   image->GetFrameDimensionsList(pDimensionIDs, count);
 
    // Display the GUID of the first (and only) frame dimension.
    WCHAR strGuid[39];
@@ -136,31 +132,27 @@ INT main()
    wprintf(L"The first (and only) dimension ID is %s.\n", strGuid);
 
    // Get the number of frames in the first dimension.
-   UINT frameCount = image-&gt;GetFrameCount(&amp;pDimensionIDs[0]);
+   UINT frameCount = image->GetFrameCount(&pDimensionIDs[0]);
    printf("The number of frames in that dimension is %d.\n", frameCount);
     
    free(pDimensionIDs);
    delete(image);
    GdiplusShutdown(gdiplusToken);
    return 0;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 The preceding code, along with a particular file, Multiframe.tif, produced the following output:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>The number of dimensions is 1.
+
+```cpp
+The number of dimensions is 1.
 The first (and only) dimension ID is {7462DC86-6180-4C7E-8E3F-EE7333A7A483}.
-The number of frames in that dimension is 4.</pre>
-</td>
-</tr>
-</table></span></div>
+The number of frames in that dimension is 4.
+```
+
+
 You can look up the displayed GUID in Gdiplusimaging.h and see that it is the identifier for the page dimension. So the program output tells us that the file Multiframe.tif has four pages; that is, four frames in the page dimension.
 
 <div class="code"></div>

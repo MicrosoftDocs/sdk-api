@@ -89,33 +89,25 @@ The following examples show the use of <b>Help</b> in JScript, VBScript, and Vis
 JScript:
                 
 
-<div class="code"><span codelanguage="JScript"><table>
-<tr>
-<th>JScript</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;script language="JScript"&gt;
+
+```javascript
+<script language="JScript">
     function fnShellHelpJ()
     {
         var objShell = new ActiveXObject("shell.application");
         
         objshell.Help();
     }
-&lt;/script&gt;
-</pre>
-</td>
-</tr>
-</table></span></div>
+</script>
+
+```
+
+
 VBScript:
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre> &lt;script language="VBScript"&gt;
+
+```vb
+ <script language="VBScript">
     function fnShellHelpVB()
         dim objShell
         
@@ -124,20 +116,16 @@ VBScript:
 
         set objShell = nothing
     end function
- &lt;/script&gt;
-</pre>
-</td>
-</tr>
-</table></span></div>
+ </script>
+
+```
+
+
 Visual Basic:
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Private Sub fnShellHelpVB()
+
+```vb
+Private Sub fnShellHelpVB()
     Dim objShell As Shell
 
     Set objShell = New Shell
@@ -145,9 +133,9 @@ Visual Basic:
 
     Set objShell = Nothing
 End Sub
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

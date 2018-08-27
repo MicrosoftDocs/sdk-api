@@ -69,16 +69,12 @@ Is the function index that identifies a graphics DDI function implemented by the
 
 Specifies the address of the driver-defined graphics DDI function associated with the index supplied for <b>iFunc</b>. This function has the following prototype:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>LONG_PTR  (APIENTRY * PFN) ();</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+LONG_PTR  (APIENTRY * PFN) ();
+```
+
+
 
 ## -remarks
 

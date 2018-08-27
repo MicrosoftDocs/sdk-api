@@ -107,13 +107,9 @@ It is the responsibility of the calling application to free this array. Call <a 
 
 The following example creates the <a href="https://msdn.microsoft.com/164732ae-1c72-465c-a16b-a8eeaa9cc185">INamespaceWalk</a> instance, begins the walk at the desktop, walks only the desktop folder and its immediate children, retrieves the PIDLs retrived in the walk, and frees their array.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>void NamespaceWalk_Example()
+
+```cpp
+void NamespaceWalk_Example()
 {
     // Note that error checking has been omitted for clarity.
     
@@ -121,23 +117,23 @@ The following example creates the <a href="https://msdn.microsoft.com/164732ae-1
     IShellFolder *psfDesktop = NULL;
 
     // Get a pointer to the desktop to use as our root node
-    hr = SHGetDesktopFolder(&amp;psfDesktop);
+    hr = SHGetDesktopFolder(&psfDesktop);
 
     // Create the INamespaceWalk instance
     hr = CoCreateInstance(CLSID_NamespaceWalker, 
                           NULL, 
                           CLSCTX_INPROC,
                           IID_INamespaceWalk,
-                          (void **)&amp;pnsw);
+                          (void **)&pnsw);
 
     // Walk the desktop folder and one level of subfolders    
-    hr = pnsw-&gt;Walk(psfDesktop, NSWF_NONE_IMPLIES_ALL, 1, NULL);
+    hr = pnsw->Walk(psfDesktop, NSWF_NONE_IMPLIES_ALL, 1, NULL);
 
     UINT cItems;
     PIDLIST_ABSOLUTE *ppidls;
     
     // Retrieve the array of PIDLs gathered in the walk
-    hr = pnsw-&gt;GetIDArrayResult(&amp;cItems, &amp;ppidls);
+    hr = pnsw->GetIDArrayResult(&cItems, &ppidls);
 
     // Perform some action using the PIDLs
 
@@ -150,7 +146,7 @@ The following example creates the <a href="https://msdn.microsoft.com/164732ae-1
 void FreeIDListArrayFull(PIDLIST_ABSOLUTE *ppidls, UINT cItems)
 { 
     // Free the array elements
-    for (UINT i = 0; i &lt; cItems; i++) 
+    for (UINT i = 0; i < cItems; i++) 
     { 
         CoTaskMemFree(ppidls[i]); 
     } 
@@ -159,9 +155,9 @@ void FreeIDListArrayFull(PIDLIST_ABSOLUTE *ppidls, UINT cItems)
     CoTaskMemFree(ppidls);
     
     return; 
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 

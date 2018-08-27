@@ -175,13 +175,9 @@ The adjusted start and stop times are used the next time that <a href="https://m
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT PlayMediaClip(
+
+```cpp
+HRESULT PlayMediaClip(
     IMFPMediaPlayer *pPlayer,
     PCWSTR pszURL,
     LONGLONG    hnsStart,
@@ -193,56 +189,56 @@ The adjusted start and stop times are used the next time that <a href="https://m
 
     ULONGLONG hnsDuration = 0;
 
-    HRESULT hr = pPlayer-&gt;CreateMediaItemFromURL(pszURL, TRUE, 0, &amp;pItem);
+    HRESULT hr = pPlayer->CreateMediaItemFromURL(pszURL, TRUE, 0, &pItem);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = GetPlaybackDuration(pItem, &amp;hnsDuration);
+    hr = GetPlaybackDuration(pItem, &hnsDuration);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    if ((ULONGLONG)hnsEnd &gt; hnsDuration)
+    if ((ULONGLONG)hnsEnd > hnsDuration)
     {
         hnsEnd = hnsDuration;
     }
 
-    hr = InitPropVariantFromInt64(hnsStart, &amp;varStart);
+    hr = InitPropVariantFromInt64(hnsStart, &varStart);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = InitPropVariantFromInt64(hnsEnd, &amp;varEnd);
+    hr = InitPropVariantFromInt64(hnsEnd, &varEnd);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pItem-&gt;SetStartStopPosition(
-        &amp;MFP_POSITIONTYPE_100NS,
-        &amp;varStart,
-        &amp;MFP_POSITIONTYPE_100NS,
-        &amp;varEnd
+    hr = pItem->SetStartStopPosition(
+        &MFP_POSITIONTYPE_100NS,
+        &varStart,
+        &MFP_POSITIONTYPE_100NS,
+        &varEnd
         );
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pPlayer-&gt;SetMediaItem(pItem);
+    hr = pPlayer->SetMediaItem(pItem);
 
 done:
-    SafeRelease(&amp;pItem);
+    SafeRelease(&pItem);
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

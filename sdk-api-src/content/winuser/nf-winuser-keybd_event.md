@@ -139,22 +139,18 @@ An application can simulate a press of the PRINTSCRN key in order to obtain a sc
 
 The following sample program toggles the NUM LOCK light by using <b>keybd_event</b> with a virtual key of <b>VK_NUMLOCK</b>. It takes a Boolean value that indicates whether the light should be turned off (<b>FALSE</b>) or on (<b>TRUE</b>). The same technique can be used for the CAPS LOCK key (<b>VK_CAPITAL</b>) and the SCROLL LOCK key (<b>VK_SCROLL</b>).
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
-   #include &lt;windows.h&gt;
+
+```
+
+   #include <windows.h>
 
    void SetNumLock( BOOL bState )
    {
       BYTE keyState[256];
 
-      GetKeyboardState((LPBYTE)&amp;keyState);
-      if( (bState &amp;&amp; !(keyState[VK_NUMLOCK] &amp; 1)) ||
-          (!bState &amp;&amp; (keyState[VK_NUMLOCK] &amp; 1)) )
+      GetKeyboardState((LPBYTE)&keyState);
+      if( (bState && !(keyState[VK_NUMLOCK] & 1)) ||
+          (!bState && (keyState[VK_NUMLOCK] & 1)) )
       {
       // Simulate a key press
          keybd_event( VK_NUMLOCK,
@@ -174,10 +170,10 @@ The following sample program toggles the NUM LOCK light by using <b>keybd_event<
    {
       SetNumLock( TRUE );
    }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

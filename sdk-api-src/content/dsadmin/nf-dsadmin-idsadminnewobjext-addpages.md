@@ -63,16 +63,12 @@ The <b>IDsAdminNewObjExt::AddPages</b> method is called to enable the object cre
 
 Pointer to a function that the object creation wizard extension calls to add a page to the wizard. This function takes the following format.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BOOL fnAddPage(HPROPSHEETPAGE hPage, LPARAM lParam);</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+BOOL fnAddPage(HPROPSHEETPAGE hPage, LPARAM lParam);
+```
+
+
 <i>hPage</i> contains the handle of the wizard page created by calling <a href="https://msdn.microsoft.com/en-us/library/Bb760807(v=VS.85).aspx">CreatePropertySheetPage</a>.
 
 <i>lParam</i> is the <i>lParam</i> value passed to <b>AddPages</b>.

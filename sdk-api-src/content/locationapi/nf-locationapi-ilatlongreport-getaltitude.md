@@ -118,15 +118,11 @@ The <b>GetAltitude</b> method retrieves the altitude relative to the reference e
 
 The following code example demonstrates how to call <b>GetAltitude</b>. Altitude is an optional field in latitude/longitude reports, so <b>GetAltitude</b> may not always return data.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>DOUBLE altitude = 0;
+
+```cpp
+DOUBLE altitude = 0;
 // Print the Altitude
-if (SUCCEEDED(spLatLongReport-&gt;GetAltitude(&amp;altitude)))
+if (SUCCEEDED(spLatLongReport->GetAltitude(&altitude)))
 {
     wprintf(L"Altitude: %f\n", altitude);
 }
@@ -135,10 +131,10 @@ else
     // Altitude is optional and may not be available
     wprintf(L"Altitude: Not available.\n");
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

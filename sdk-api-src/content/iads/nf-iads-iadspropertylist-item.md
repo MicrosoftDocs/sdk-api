@@ -90,13 +90,9 @@ You must clear <i>pVariant</i> using <b>VariantClear</b> when the value returned
 
 The following code example shows how to enumerate all the entries with the <b>Item</b> method.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim propList As IADsPropertyList
+
+```vb
+Dim propList As IADsPropertyList
 Dim propEntry As IADsPropertyEntry
 Dim count As Long
 
@@ -106,7 +102,7 @@ Set propList = GetObject("LDAP://dc02/DC=Fabrikam,DC=com")
  
 propList.GetInfo
 count = propList.PropertyCount
-Debug.Print "No of Property Found: " &amp; count
+Debug.Print "No of Property Found: " & count
  
 '==== Getting the property list item with Name ==================
 Set propEntry = propList.Item("uSNCreated")
@@ -122,25 +118,21 @@ For i = 0 To count - 1
 Next
 
 Cleanup:
-    If (Err.Number&lt;&gt;0) Then
-        MsgBox("An error has occurred. " &amp; Err.Number)
+    If (Err.Number<>0) Then
+        MsgBox("An error has occurred. " & Err.Number)
     End If
 
     Set propList = Nothing
     Set propEntry = Nothing
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The following code example shows how to retrieve the <b>Owner</b> property of a computer using the <b>IADsPropertyList::Item</b> method. For more information about the <b>GetPropertyCache</b>  function and a code example, see <a href="https://msdn.microsoft.com/70e9ce0e-ae83-43b7-8b84-99d5e1f8a8d2">IADsPropertyList</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>////////////////////////////////////////
+
+```cpp
+////////////////////////////////////////
 // function:    PropertyItem
 //    input:    PropertyList, 
 //              name of the item
@@ -160,18 +152,18 @@ IADsPropertyEntry *PropertyItem(
         return NULL;
     }
 
-    VariantInit(&amp;varItem);
-    VariantInit(&amp;varEntry);
+    VariantInit(&varItem);
+    VariantInit(&varEntry);
  
     // get a property entry
-    V_BSTR(&amp;varItem)= SysAllocString(item);
-    V_VT(&amp;varItem)=VT_BSTR;
-    HRESULT hr = pList-&gt;Item(varItem ,&amp;varEntry);
-    hr = V_DISPATCH(&amp;var)-&gt;QueryInterface(
+    V_BSTR(&varItem)= SysAllocString(item);
+    V_VT(&varItem)=VT_BSTR;
+    HRESULT hr = pList->Item(varItem ,&varEntry);
+    hr = V_DISPATCH(&var)->QueryInterface(
                         IID_IADsPropertyEntry,
-                        (void**)&amp;pEntry);
-    VariantClear(&amp;varItem);
-    VariantClear(&amp;varEntry);
+                        (void**)&pEntry);
+    VariantClear(&varItem);
+    VariantClear(&varEntry);
     return pEntry;
 }
  
@@ -189,28 +181,28 @@ if(pEntry)
     BSTR bstr;
     long ln;
 
-    hr = pEntry-&gt;get_Name(&amp;bstr);
+    hr = pEntry->get_Name(&bstr);
     if(SUCCEEDED(hr))
     {
         SysFreeString(bstr);
     }
     printf(" Name : %S\n", bstr);
  
-    pEntry-&gt;get_ADsType(&amp;ln);
+    pEntry->get_ADsType(&ln);
     if(SUCCEEDED(hr))
     {
         printf(" Type : %d\n", ln);
     }
  
-    pEntry-&gt;get_ControlCode(&amp;ln); 
+    pEntry->get_ControlCode(&ln); 
     if(SUCCEEDED(hr))
     {
         printf(" Code %d\n",ln);
     }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

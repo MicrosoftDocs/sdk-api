@@ -104,13 +104,9 @@ An OpenGL window has its own pixel format. Because of this, only device contexts
 
 The following code example shows <b>SetPixelFormat</b> usage.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>PIXELFORMATDESCRIPTOR pfd = { 
+
+```cpp
+PIXELFORMATDESCRIPTOR pfd = { 
     sizeof(PIXELFORMATDESCRIPTOR),   // size of this pfd  
     1,                     // version number  
     PFD_DRAW_TO_WINDOW |   // support window  
@@ -134,13 +130,13 @@ HDC  hdc;
 int  iPixelFormat; 
  
 // get the best available match of pixel format for the device context   
-iPixelFormat = ChoosePixelFormat(hdc, &amp;pfd); 
+iPixelFormat = ChoosePixelFormat(hdc, &pfd); 
  
 // make that the pixel format of the device context  
-SetPixelFormat(hdc, iPixelFormat, &amp;pfd);</pre>
-</td>
-</tr>
-</table></span></div>
+SetPixelFormat(hdc, iPixelFormat, &pfd);
+```
+
+
 
 
 

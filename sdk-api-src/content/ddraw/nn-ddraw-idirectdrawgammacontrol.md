@@ -103,17 +103,13 @@ You can use the LPDIRECTDRAWGAMMACONTROL data type to declare a variable that co
 
 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 typedef struct IDirectDrawGammaControl    FAR *LPDIRECTDRAWGAMMACONTROL;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

@@ -183,13 +183,9 @@ After a successful call to this function, the result set cursor should be  posit
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>/////////////////////////////////////////////////////////////////////////////////////////
+
+```cpp
+/////////////////////////////////////////////////////////////////////////////////////////
 //
 // StorageAdapterQueryBySubject
 //
@@ -224,26 +220,26 @@ StorageAdapterQueryBySubject(
     }
 
     // Retrieve the context from the pipeline.
-    PWINBIO_STORAGE_CONTEXT storageContext = (PWINBIO_STORAGE_CONTEXT)Pipeline-&gt;StorageContext;
+    PWINBIO_STORAGE_CONTEXT storageContext = (PWINBIO_STORAGE_CONTEXT)Pipeline->StorageContext;
 
     // Verify the pipeline state.
-    if (storageContext == NULL || storageContext-&gt;FileHandle == INVALID_HANDLE_VALUE)
+    if (storageContext == NULL || storageContext->FileHandle == INVALID_HANDLE_VALUE)
     {
         hr =  WINBIO_E_INVALID_DEVICE_STATE;
         goto cleanup;
     }
 
     // Verify the Identity argument.
-    if (Identity-&gt;Type != WINBIO_ID_TYPE_GUID &amp;&amp;
-        Identity-&gt;Type != WINBIO_ID_TYPE_SID &amp;&amp;
-        Identity-&gt;Type != WINBIO_ID_TYPE_WILDCARD)
+    if (Identity->Type != WINBIO_ID_TYPE_GUID &&
+        Identity->Type != WINBIO_ID_TYPE_SID &&
+        Identity->Type != WINBIO_ID_TYPE_WILDCARD)
     {
         hr = E_INVALIDARG;
         goto cleanup;
     }
 
-    if (Identity-&gt;Type == WINBIO_ID_TYPE_WILDCARD &amp;&amp;
-        Identity-&gt;Value.Wildcard != WINBIO_IDENTITY_WILDCARD)
+    if (Identity->Type == WINBIO_ID_TYPE_WILDCARD &&
+        Identity->Value.Wildcard != WINBIO_IDENTITY_WILDCARD)
     {
         hr = E_INVALIDARG;
         goto cleanup;
@@ -265,7 +261,7 @@ StorageAdapterQueryBySubject(
             Pipeline,
             Identity,
             SubFactor,
-            &amp;recordCount
+            &recordCount
             );
     if (FAILED(hr))
     {
@@ -281,10 +277,10 @@ cleanup:
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

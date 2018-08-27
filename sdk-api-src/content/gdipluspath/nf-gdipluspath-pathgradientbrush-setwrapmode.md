@@ -105,13 +105,9 @@ The following example creates a
 
 The output of the code is a grid of tiles. As you move from one tile to the next in a given row, the image (filled boundary path inside the bounding rectangle) is flipped horizontally.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_SetWrapMode(HDC hdc)
+
+```cpp
+VOID Example_SetWrapMode(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -128,14 +124,14 @@ The output of the code is a grid of tiles. As you move from one tile to the next
    INT count = 3;
 
    PathGradientBrush pthGrBrush(points, 3);
-   pthGrBrush.SetSurroundColors(colors, &amp;count);
+   pthGrBrush.SetSurroundColors(colors, &count);
    pthGrBrush.SetWrapMode(WrapModeTileFlipX);
 
-   graphics.FillRectangle(&amp;pthGrBrush, 0, 0, 800, 800); 
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.FillRectangle(&pthGrBrush, 0, 0, 800, 800); 
+}
+```
+
+
 
 
 

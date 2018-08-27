@@ -143,13 +143,9 @@ subsystem is then sent to a custom callback function named IdentifyCallback. Lin
 <li>Conio.h</li>
 <li>Winbio.h</li>
 </ul>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT IdentifyWithCallback(BOOL bCancel)
+
+```cpp
+HRESULT IdentifyWithCallback(BOOL bCancel)
 {
     // Declare variables.
     HRESULT hr = S_OK;
@@ -163,7 +159,7 @@ subsystem is then sent to a custom callback function named IdentifyCallback. Lin
             NULL,                       // Array of biometric unit IDs 
             0,                          // Count of biometric unit IDs 
             WINBIO_DB_DEFAULT,          // Database ID 
-            &amp;sessionHandle              // [out] Session handle
+            &sessionHandle              // [out] Session handle
             );
     if (FAILED(hr))
     {
@@ -315,9 +311,9 @@ VOID CALLBACK IdentifyCallback(
     }
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

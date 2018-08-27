@@ -100,18 +100,14 @@ If the source <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776598(v=VS.85).aspx">VariantToDouble</a> to access a <b>DOUBLE</b> value stored in a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// VARIANT var;
+
+```cpp
+// VARIANT var;
 // Assume variable var is initialize and valid.
 // The application expects var to hold a VT_R8 value.
 DOUBLE dblValue;
 
-HRESULT hr = VariantToDouble(var, &amp; dblValue);
+HRESULT hr = VariantToDouble(var, & dblValue);
 
 if (SUCCEEDED(hr))
 {
@@ -120,10 +116,10 @@ if (SUCCEEDED(hr))
 else
 {
     // dblValue is always FALSE.
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

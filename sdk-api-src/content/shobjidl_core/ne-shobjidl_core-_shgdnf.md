@@ -97,16 +97,12 @@ The <b>SHGDNF</b> type is defined in Shobjidl.h as shown here.
 
                 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef DWORD SHGDNF;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+typedef DWORD SHGDNF;
+```
+
+
 This enumeration consists of two groups of values. The first group—SHGDN_NORMAL and SHGDN_INFOLDER—specifies the name's type. The second group—SHGDN_FOREDITING, SHGDN_FORADDRESSBAR, and SHGDN_FORPARSING—consists of modifiers to the first group that specify name retrieval options.
 
 If SHGDN_FORPARSING is set and SHGDN_INFOLDER is not set, <a href="https://msdn.microsoft.com/2164bbe6-e030-4a64-85db-9ee1cd3c136d">IShellFolder::GetDisplayNameOf</a> can accept a PIDL that contains more than an <a href="https://msdn.microsoft.com/794c8425-2319-4339-881c-c5083ab05638">SHITEMID</a> structure. Otherwise, only a single-level PIDL can be passed.

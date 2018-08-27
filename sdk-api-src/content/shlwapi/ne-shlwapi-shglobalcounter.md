@@ -368,13 +368,9 @@ These global counters are shared variables that can help identify whether the st
 <h3><a id="Example"></a><a id="example"></a><a id="EXAMPLE"></a>Example</h3>
 The following pseudocode example shows how a global counter can be used.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>void ValidateSomeSettings()
+
+```
+void ValidateSomeSettings()
     {
         // Get the current GLOBALCOUNTER_SHELLSETTINGSCHANGED value.
         long lGlobalSettingsCounter = SHGlobalCounterGetValue(GLOBALCOUNTER_SHELLSETTINGSCHANGED);
@@ -394,10 +390,10 @@ The following pseudocode example shows how a global counter can be used.
             // Shell settings have changed. Rollback and redo.
             ...
         }
-    }</pre>
-</td>
-</tr>
-</table></span></div>
+    }
+```
+
+
 
 
 

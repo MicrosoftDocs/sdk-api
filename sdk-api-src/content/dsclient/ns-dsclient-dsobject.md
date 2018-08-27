@@ -117,18 +117,14 @@ Contains the offset, in bytes, from the start of the <a href="https://msdn.micro
 
 The following code example shows how to use this member.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>pwszName = (LPWSTR)((LPBYTE)pdsObjNames + 
-    pdsObjNames-&gt;aObjects[i].offsetName);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+pwszName = (LPWSTR)((LPBYTE)pdsObjNames + 
+    pdsObjNames->aObjects[i].offsetName);
+
+```
+
+
 
 ### -field offsetClass
 
@@ -136,18 +132,14 @@ Contains the offset, in bytes, from the start of the <a href="https://msdn.micro
 
 The following code example shows how to use this member.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>pwszClass = (LPWSTR)((LPBYTE)pdsObjNames + 
-    pdsObjNames-&gt;aObjects[i].offsetClass);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+pwszClass = (LPWSTR)((LPBYTE)pdsObjNames + 
+    pdsObjNames->aObjects[i].offsetClass);
+
+```
+
+
 
 ## -see-also
 

@@ -97,19 +97,15 @@ The following example creates a
 						<b>Graphics</b> object demonstrates how to obtain the compositing mode (which is already known in this case). The code determines whether the compositing mode is CompositingModeSourceCopy and if so, changes it to CompositingModeSourceOver. Then the code calls 
 						<b>Graphics::FillRectangle</b> a second time to fill a rectangle with a color that is a half-and-half blend of the brush color and the background color.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_GetCompositingMode(HDC hdc)
+
+```cpp
+VOID Example_GetCompositingMode(HDC hdc)
 {
    Graphics graphics(hdc);
    
    graphics.SetCompositingMode(CompositingModeSourceCopy);
    SolidBrush alphaBrush(Color(128, 255, 0, 0));
-   graphics.FillRectangle(&amp;alphaBrush, 0, 0, 100, 100);
+   graphics.FillRectangle(&alphaBrush, 0, 0, 100, 100);
    
    // Get the compositing mode.
    CompositingMode compMode = graphics.GetCompositingMode();
@@ -120,11 +116,11 @@ The following example creates a
       graphics.SetCompositingMode(CompositingModeSourceOver);
    }  
   
-   graphics.FillRectangle(&amp;alphaBrush, 0, 100, 100, 100);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.FillRectangle(&alphaBrush, 0, 100, 100, 100);
+}
+```
+
+
 
 
 

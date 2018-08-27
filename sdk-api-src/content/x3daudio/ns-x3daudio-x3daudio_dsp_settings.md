@@ -171,16 +171,12 @@ Only calculated if the X3DAUDIO_CALCULATE_REVERB flag is specified when calling 
 Doppler shift factor. Scales the resampler ratio for Doppler shift effect, where: 
 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>effective_frequency = DopplerFactor × original_frequency</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+effective_frequency = DopplerFactor × original_frequency
+```
+
+
 Only calculated if the X3DAUDIO_CALCULATE_DOPPLER flag is specified when calling <a href="https://msdn.microsoft.com/en-us/library/Ee419052(v=VS.85).aspx">X3DAudioCalculate</a>.
 
 

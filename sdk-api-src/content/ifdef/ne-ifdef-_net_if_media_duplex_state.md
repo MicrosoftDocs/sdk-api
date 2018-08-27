@@ -84,15 +84,11 @@ The miniport adapter can transmit and receive simultaneously.
 The NDIS_MEDIA_DUPLEX_STATE, enumeration type, used to describe NDIS interface providers in the
     OID_GEN_MEDIA_DUPLEX_STATE, OID, is equivalent to this enumeration.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef NET_IF_MEDIA_DUPLEX_STATE NDIS_MEDIA_DUPLEX_STATE, *PNDIS_MEDIA_DUPLEX_STATE;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+typedef NET_IF_MEDIA_DUPLEX_STATE NDIS_MEDIA_DUPLEX_STATE, *PNDIS_MEDIA_DUPLEX_STATE;
+```
+
+
 
 

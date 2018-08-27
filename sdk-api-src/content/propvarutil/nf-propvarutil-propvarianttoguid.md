@@ -104,19 +104,15 @@ This helper function works for<a href="https://msdn.microsoft.com/e86cc279-826d-
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// IPropertyStore *ppropstore;
+
+```cpp
+// IPropertyStore *ppropstore;
 
 // Assume variable ppropstore is initialized and valid
 
 PROPVARIANT propvar = {0};
 
-HRESULT hr = ppropstore-&gt;GetValue(PKEY_Sync_HandlerCollectionID, &amp;propvar);
+HRESULT hr = ppropstore->GetValue(PKEY_Sync_HandlerCollectionID, &propvar);
 
 if (SUCCEEDED(hr))
 
@@ -128,7 +124,7 @@ if (SUCCEEDED(hr))
 
         GUID guidCollectionID;
 
-        hr = PropVariantToGUID(propvar, &amp;guidCollectionID);
+        hr = PropVariantToGUID(propvar, &guidCollectionID);
 
         if (SUCCEEDED(hr))
 
@@ -146,12 +142,12 @@ if (SUCCEEDED(hr))
 
         }
 
-        PropVariantClear(&amp;propvar);
+        PropVariantClear(&propvar);
 
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

@@ -170,32 +170,28 @@ It is safe to use the high 8 bits of EXTENSION_POLICY_MASK for custom data. Thes
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT  hr;
+
+```cpp
+HRESULT  hr;
 LONG     ExtFlags;
 // pCertServerPolicy has been used to call SetContext previously.
-hr = pCertServerPolicy-&gt;GetCertificateExtensionFlags( &amp;ExtFlags);
+hr = pCertServerPolicy->GetCertificateExtensionFlags( &ExtFlags);
 
 // More than one policy flag might be set.
-LONG ExtPolicyFlags = ExtFlags &amp; EXTENSION_POLICY_MASK;
+LONG ExtPolicyFlags = ExtFlags & EXTENSION_POLICY_MASK;
 
-if (ExtPolicyFlags &amp; EXTENSION_CRITICAL_FLAG)
+if (ExtPolicyFlags & EXTENSION_CRITICAL_FLAG)
 {
     // Do something.
 }
 
-if (ExtPolicyFlags &amp; EXTENSION_DISABLE_FLAG)
+if (ExtPolicyFlags & EXTENSION_DISABLE_FLAG)
 {
     // Do something.
 }
 
 // only one origin flag can be set
-switch (ExtFlags &amp; EXTENSION_ORIGIN_MASK)
+switch (ExtFlags & EXTENSION_ORIGIN_MASK)
 {
     case EXTENSION_ORIGIN_REQUEST:
         // Extension was set in certificate request.
@@ -211,10 +207,10 @@ switch (ExtFlags &amp; EXTENSION_ORIGIN_MASK)
         break;
     default:
         break;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

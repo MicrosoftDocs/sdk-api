@@ -164,13 +164,9 @@ The following example uses <b>MoveHere</b> to move the file Temp.txt from the ro
 
 JScript:
 
-<div class="code"><span codelanguage="JScript"><table>
-<tr>
-<th>JScript</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;script language="JScript"&gt;
+
+```javascript
+<script language="JScript">
     var FOF_NOCONFIRMATION = 16;
 
     function fnFolderObjectMoveHereJ()
@@ -184,20 +180,16 @@ JScript:
             objFolder.MoveHere ("C:\\temp.txt", FOF_NOCONFIRMATION);
         }
     }
-&lt;/script&gt;
-</pre>
-</td>
-</tr>
-</table></span></div>
+</script>
+
+```
+
+
 VBScript:
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;script language="VBScript"&gt;
+
+```vb
+<script language="VBScript">
     private const FOF_NOCONFIRMATION = 16
     
     function fnFolderObjectMoveHereVB()
@@ -214,20 +206,16 @@ VBScript:
         set objFolder = nothing
         set objShell = nothing
     end function
-&lt;/script&gt;
-</pre>
-</td>
-</tr>
-</table></span></div>
+</script>
+
+```
+
+
 Visual Basic:
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Private Const FOF_NOCONFIRMATION = &amp;H10
+
+```vb
+Private Const FOF_NOCONFIRMATION = &H10
 
 Private Sub btnMoveHere_Click()
     Dim objShell  As Shell
@@ -243,9 +231,9 @@ Private Sub btnMoveHere_Click()
     Set objFolder = Nothing
     Set objShell = Nothing
 End Sub
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

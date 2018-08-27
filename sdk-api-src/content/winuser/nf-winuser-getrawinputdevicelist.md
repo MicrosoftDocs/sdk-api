@@ -115,24 +115,20 @@ To get more detailed information about the attached devices, call <a href="https
 
 The following sample code shows a typical call to <b>GetRawInputDeviceList</b>:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>UINT nDevices;
+
+```
+UINT nDevices;
 PRAWINPUTDEVICELIST pRawInputDeviceList;
-if (GetRawInputDeviceList(NULL, &amp;nDevices, sizeof(RAWINPUTDEVICELIST)) != 0) { Error();}
+if (GetRawInputDeviceList(NULL, &nDevices, sizeof(RAWINPUTDEVICELIST)) != 0) { Error();}
 if ((pRawInputDeviceList = malloc(sizeof(RAWINPUTDEVICELIST) * nDevices)) == NULL) {Error();}
-if (GetRawInputDeviceList(pRawInputDeviceList, &amp;nDevices, sizeof(RAWINPUTDEVICELIST)) == (&lt;dtype rid="UINT"/&gt;)-1) {Error();}
+if (GetRawInputDeviceList(pRawInputDeviceList, &nDevices, sizeof(RAWINPUTDEVICELIST)) == (<dtype rid="UINT"/>)-1) {Error();}
 // do the job...
 
 // after the job, free the RAWINPUTDEVICELIST
-free(pRawInputDeviceList);</pre>
-</td>
-</tr>
-</table></span></div>
+free(pRawInputDeviceList);
+```
+
+
 
 
 

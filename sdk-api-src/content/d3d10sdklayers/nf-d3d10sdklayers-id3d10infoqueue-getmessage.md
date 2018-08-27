@@ -101,24 +101,20 @@ This method gets messages from the message queue after an optional retrieval fil
 
 Applications should call this method twice to retrieve a message - first to obtain the size of the message and second to get the message. Here is a typical example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 // Get the size of the message
 SIZE_T messageLength = 0;
-HRESULT hr = pInfoQueue-&gt;GetMessage(0, NULL, &amp;messageLength);
+HRESULT hr = pInfoQueue->GetMessage(0, NULL, &messageLength);
 
 // Allocate space and get the message
 D3D10_MESSAGE * pMessage = (D3D10_MESSAGE*)malloc(messageLength);
-hr = pInfoQueue-&gt;GetMessage(0, pMessage, &amp;messageLength);
-</pre>
-</td>
-</tr>
-</table></span></div>
+hr = pInfoQueue->GetMessage(0, pMessage, &messageLength);
+
+```
+
+
 For an overview see <a href="https://msdn.microsoft.com/en-us/library/Bb173779(v=VS.85).aspx">Information Queue Overview</a>.
 
 

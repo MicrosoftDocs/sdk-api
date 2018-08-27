@@ -98,13 +98,9 @@ The following examples use <b>Windows</b> to retrieve the <a href="https://msdn.
 JScript:
                 
 
-<div class="code"><span codelanguage="JScript"><table>
-<tr>
-<th>JScript</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;script language="JScript"&gt;
+
+```javascript
+<script language="JScript">
     function fnShellWindowsJ()
     {
         var objShell = new ActiveXObject("shell.application");
@@ -117,20 +113,16 @@ JScript:
             alert(objShellWindows.Count);
         }
     }
-&lt;/script&gt;
-</pre>
-</td>
-</tr>
-</table></span></div>
+</script>
+
+```
+
+
 VBScript:
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;script language="VBScript"&gt;
+
+```vb
+<script language="VBScript">
     function fnShellWindowsVB()
         dim objShell
         dim objShellWindows
@@ -145,20 +137,16 @@ VBScript:
         set objShellWindows = nothing
         set objShell = nothing
     end function
- &lt;/script&gt;
-</pre>
-</td>
-</tr>
-</table></span></div>
+ </script>
+
+```
+
+
 Visual Basic:
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Private Sub fnShellWindowsVB()
+
+```vb
+Private Sub fnShellWindowsVB()
     Dim objShell        As Shell
     Dim objShellWindows As ShellWindows
     
@@ -172,9 +160,9 @@ Visual Basic:
     Set objShellWindows = Nothing
     Set objShell = Nothing
 End Sub
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

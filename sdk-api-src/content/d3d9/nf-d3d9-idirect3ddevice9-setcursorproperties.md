@@ -108,23 +108,19 @@ It is recommended for applications to always trap WM_MOUSEMOVE events and call D
 
 Direct3D cursor functions use either GDI cursor or software emulation, depending on the hardware. Users typically want to respond to a WM_SETCURSOR message. For example, they might want to write the message handler as follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 case WM_SETCURSOR:
 // Turn off window cursor. 
 SetCursor( NULL );
-m_pd3dDevice-&gt;ShowCursor( TRUE );
+m_pd3dDevice->ShowCursor( TRUE );
 return TRUE; // Prevent Windows from setting cursor to window class cursor.
 break;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Or, users might want to call the <b>IDirect3DDevice9::SetCursorProperties</b> method if they want to change the cursor. 
 
 The application can determine what hardware support is available for cursors by examining appropriate members of the <a href="https://msdn.microsoft.com/en-us/library/Bb172513(v=VS.85).aspx">D3DCAPS9</a> structure. Typically, hardware supports only 32x32 cursors and, when windowed, the system might support only 32x32 cursors. In this case, <b>IDirect3DDevice9::SetCursorProperties</b> still succeeds but the cursor might be reduced to that size. The hot spot is scaled appropriately.

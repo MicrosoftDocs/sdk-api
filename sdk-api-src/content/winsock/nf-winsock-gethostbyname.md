@@ -240,16 +240,12 @@ The
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following examples demonstrates the use of the <b>gethostbyname</b> function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;winsock2.h&gt;
-#include &lt;ws2tcpip.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;windows.h&gt;
+
+```cpp
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <stdio.h>
+#include <windows.h>
 #pragma comment(lib, "ws2_32.lib")
 
 int main(int argc, char **argv)
@@ -281,7 +277,7 @@ int main(int argc, char **argv)
         return 1;
     }
     // Initialize Winsock
-    iResult = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
+    iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
     if (iResult != 0) {
         printf("WSAStartup failed: %d\n", iResult);
         return 1;
@@ -308,12 +304,12 @@ int main(int argc, char **argv)
         }
     } else {
         printf("Function returned:\n");
-        printf("\tOfficial name: %s\n", remoteHost-&gt;h_name);
-        for (pAlias = remoteHost-&gt;h_aliases; *pAlias != 0; pAlias++) {
+        printf("\tOfficial name: %s\n", remoteHost->h_name);
+        for (pAlias = remoteHost->h_aliases; *pAlias != 0; pAlias++) {
             printf("\tAlternate name #%d: %s\n", ++i, *pAlias);
         }
         printf("\tAddress type: ");
-        switch (remoteHost-&gt;h_addrtype) {
+        switch (remoteHost->h_addrtype) {
         case AF_INET:
             printf("AF_INET\n");
             break;
@@ -321,20 +317,20 @@ int main(int argc, char **argv)
             printf("AF_NETBIOS\n");
             break;
         default:
-            printf(" %d\n", remoteHost-&gt;h_addrtype);
+            printf(" %d\n", remoteHost->h_addrtype);
             break;
         }
-        printf("\tAddress length: %d\n", remoteHost-&gt;h_length);
+        printf("\tAddress length: %d\n", remoteHost->h_length);
 
         i = 0;
-        if (remoteHost-&gt;h_addrtype == AF_INET)
+        if (remoteHost->h_addrtype == AF_INET)
         {
-            while (remoteHost-&gt;h_addr_list[i] != 0) {
-                addr.s_addr = *(u_long *) remoteHost-&gt;h_addr_list[i++];
+            while (remoteHost->h_addr_list[i] != 0) {
+                addr.s_addr = *(u_long *) remoteHost->h_addr_list[i++];
                 printf("\tIP Address #%d: %s\n", i, inet_ntoa(addr));
             }
         }
-        else if (remoteHost-&gt;h_addrtype == AF_NETBIOS)
+        else if (remoteHost->h_addrtype == AF_NETBIOS)
         {   
             printf("NETBIOS address was returned\n");
         }   
@@ -342,10 +338,10 @@ int main(int argc, char **argv)
 
     return 0;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 <b>Windows Phone 8:</b> This function is supported for Windows Phone Store apps on Windows Phone 8 and later.
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.

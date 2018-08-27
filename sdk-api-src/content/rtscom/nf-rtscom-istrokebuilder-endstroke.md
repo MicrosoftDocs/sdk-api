@@ -103,13 +103,9 @@ A dirty region describes a tablet range which has been changed.
 
 The following C++ example shows the implementation of a <a href="https://msdn.microsoft.com/b0f9e49c-6a16-43c5-a653-d6142e58019a">IStylusPlugin::StylusUp Method</a> method on an <a href="https://msdn.microsoft.com/bbef5cdb-4112-4733-80bb-692b7a198605">IStylusPlugin Interface</a> object. The plug-in uses a <a href="https://msdn.microsoft.com/0d699089-b913-4020-9284-a955f61fd861">StrokeBuilder</a> object to create a new ink stroke. The <b>IStrokeBuilder::EndStroke Method</b> method is called from <b>IStylusPlugin::StylusUp Method</b> to complete the construction of the stroke and add it to the <a href="https://msdn.microsoft.com/ceb8eaea-5059-4386-ad48-63d563ef9731">Ink</a> object of the <b>StrokeBuilder Class</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>STDMETHODIMP CStrokeBuilderPlugin::StylusUp( 
+
+```cpp
+STDMETHODIMP CStrokeBuilderPlugin::StylusUp( 
             /* [in] */ IRealTimeStylus *piRtsSrc,
             /* [in] */ const StylusInfo *pStylusInfo,
             /* [in] */ ULONG cPropCountPerPkt,
@@ -117,12 +113,12 @@ The following C++ example shows the implementation of a <a href="https://msdn.mi
             /* [out][in] */ LONG **ppInOutPkt)
 {
     // Finish the stroke. This adds the stroke to the StrokeBuilder's Ink object.
-    return m_pStrokeBuilder-&gt;EndStroke(pStylusInfo-&gt;tcid, pStylusInfo-&gt;cid, &amp;m_piStroke, NULL);
+    return m_pStrokeBuilder->EndStroke(pStylusInfo->tcid, pStylusInfo->cid, &m_piStroke, NULL);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

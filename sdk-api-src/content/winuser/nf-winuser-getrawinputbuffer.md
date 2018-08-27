@@ -105,6 +105,9 @@ Using <b>GetRawInputBuffer</b>, the raw input data is buffered in the array of <
 
 The <a href="https://msdn.microsoft.com/en-us/library/ms645593(v=VS.85).aspx">NEXTRAWINPUTBLOCK</a> macro allows an application to traverse an array of <a href="https://msdn.microsoft.com/en-us/library/ms645562(v=VS.85).aspx">RAWINPUT</a> structures.
 
+<div class="alert"><b>Note</b>  To get the correct size of the raw input buffer, do not use *<i>pcbSize</i>, use *<i>pcbSize</i> * 8 instead.   To ensure <b>GetRawInputBuffer</b> behaves properly on WOW64, you must align the <a href="https://msdn.microsoft.com/en-us/library/ms645562(v=VS.85).aspx">RAWINPUT</a> structure by 8 bytes. The following code shows how to align <b>RAWINPUT</b>  for WOW64.  
+
+<div class="code"><span codelanguage=""><table>
 <div class="alert"><b>Note</b>  To get the correct size of the raw input buffer, do not use *<i>pcbSize</i>, use *<i>pcbSize</i> * 8 instead.   To ensure <b>GetRawInputBuffer</b> behaves properly on WOW64, you must align the <a href="https://msdn.microsoft.com/en-us/library/ms645562(v=VS.85).aspx">RAWINPUT</a> structure by 8 bytes. The following code shows how to align <b>RAWINPUT</b>  for WOW64.  <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -130,6 +133,8 @@ internal struct RAWINPUT
 </td>
 </tr>
 </table></span></div>
+
+
 </div>
 <div> </div>
 

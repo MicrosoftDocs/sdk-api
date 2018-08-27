@@ -482,25 +482,21 @@ You must call
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BSTR    bstrPropName = NULL;
+
+```cpp
+BSTR    bstrPropName = NULL;
 VARIANT varProp;
 
-VariantInit(&amp;varProp);
+VariantInit(&varProp);
 
 // Set the property name to RequestID.
 bstrPropName = SysAllocString(L"RequestID");
 
 // Retrieve the certificate property.
 // pCertServerExit has been used to call SetContext previously.
-hr = pCertServerExit-&gt;GetCertificateProperty(bstrPropName,
+hr = pCertServerExit->GetCertificateProperty(bstrPropName,
                                              PROPTYPE_LONG,
-                                             &amp;varProp );
+                                             &varProp );
 if (FAILED(hr))
 {
     printf("Failed GetCertificateProperty [%x]\n", hr);
@@ -515,10 +511,10 @@ else
 // Done processing.
 if (NULL != bstrPropName)
     SysFreeString(bstrPropName);
-VariantClear(&amp;varProp);</pre>
-</td>
-</tr>
-</table></span></div>
+VariantClear(&varProp);
+```
+
+
 
 
 

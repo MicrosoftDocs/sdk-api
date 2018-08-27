@@ -87,13 +87,9 @@ A <a href="https://msdn.microsoft.com/en-us/library/ms534456(v=VS.85).aspx">Grap
 
 The following example creates a path that has one ellipse and one line. The code calls the <b>GraphicsPath::GetPointCount</b> method to determine the number of data points stored in the path. Then the code calls the <a href="https://msdn.microsoft.com/en-us/library/ms535581(v=VS.85).aspx">GraphicsPath::GetPathPoints</a> method to retrieve those data points. Finally, the code fills a small ellipse at each of the data points.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID GetPointCountExample(HDC hdc)
+
+```cpp
+VOID GetPointCountExample(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -110,19 +106,19 @@ The following example creates a path that has one ellipse and one line. The code
    PointF* points = new PointF[count];
    path.GetPathPoints(points, count);
 
-   for(INT j = 0; j &lt; count; ++j)
+   for(INT j = 0; j < count; ++j)
       graphics.FillEllipse(
-         &amp;redBrush, 
+         &redBrush, 
          points[j].X - 3.0f, 
          points[j].Y - 3.0f, 
          6.0f, 
          6.0f); 
 
    delete [] points; 
-} </pre>
-</td>
-</tr>
-</table></span></div>
+} 
+```
+
+
 
 
 

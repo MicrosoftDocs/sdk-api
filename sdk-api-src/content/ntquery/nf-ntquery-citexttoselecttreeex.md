@@ -191,13 +191,9 @@ The query tree allocated by the <b>CITextToSelectTreeEx</b> function must be fre
 
 This example creates a <a href="https://msdn.microsoft.com/en-us/library/ms689889(v=VS.85).aspx">DBCOMMANDTREE</a> structure. A custom property from a Word document named "IssueNumber" of type "Number" is defined and used in the query.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>DBCOMMANDTREE * pCompleteTree; 
+
+```cpp
+DBCOMMANDTREE * pCompleteTree; 
 DBCOMMANDTREE * pTableNode;
  
 // ...
@@ -219,14 +215,14 @@ aProperties[0].dbCol.pwszName.ulPropid = L"ISSUENUMBER";
 DBCOMMANDTREE * pSelectTree;
 HRESULT hr = CiTextToSelectTreeEx( L"microsoft and @issuenumber=2",
                                  ISQLANG_V1
-                                 &amp;pSelectTree,
+                                 &pSelectTree,
                                  1,
                                  aProperties,
                                  GetSystemDefaultLCID() );
 if ( SUCCEEDED( hr ) )
 {
-    pTableNode-&gt;pctNextSibling = pSelectTree;
-    hr = pICommand-&gt;SetCommandTree( pCompleteTree,
+    pTableNode->pctNextSibling = pSelectTree;
+    hr = pICommand->SetCommandTree( pCompleteTree,
                                     DBCOMMANDREUSE_NONE,
                                     FALSE );
     if ( SUCCEEDED( hr ) )
@@ -236,10 +232,10 @@ if ( SUCCEEDED( hr ) )
         // ...
     }
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -98,13 +98,9 @@ To get the device capabilities, call <a href="https://msdn.microsoft.com/93acad9
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT DXVAHD_SetPlanarAlpha(
+
+```cpp
+HRESULT DXVAHD_SetPlanarAlpha(
     IDXVAHD_VideoProcessor *pVP,
     UINT stream,
     BOOL bEnable,
@@ -113,19 +109,19 @@ To get the device capabilities, call <a href="https://msdn.microsoft.com/93acad9
 {
     DXVAHD_STREAM_STATE_ALPHA_DATA alpha = { bEnable, fAlpha };
 
-    HRESULT hr = pVP-&gt;SetVideoProcessStreamState(
+    HRESULT hr = pVP->SetVideoProcessStreamState(
         stream,
         DXVAHD_STREAM_STATE_ALPHA,
         sizeof(alpha),
-        &amp;alpha
+        &alpha
         );
 
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -243,26 +243,22 @@ Making a synchronous call from the user interface (UI) thread of a Windows appli
 
 The following example code requests permissions for all sensors retrieved from the sensor manager, by type, using an asynchronous method call. The platform will only prompt the user to enable sensors that are not already enabled. To determine whether the user enabled any sensors in this case, you must handle the <a href="https://msdn.microsoft.com/fb995dba-23aa-4a09-b411-7e95019535ce">ISensorEvents::OnStateChanged</a> event. For additional examles that demonstrate how to request permissions, see <a href="https://msdn.microsoft.com/e43ad497-86f1-4804-a67a-0aeb56b80d7f">Requesting User Permissions</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Get the sensor collection.
-hr = pSensorManager-&gt;GetSensorsByType(SAMPLE_SENSOR_TYPE_TIME, &amp;pSensorColl);
+
+```cpp
+// Get the sensor collection.
+hr = pSensorManager->GetSensorsByType(SAMPLE_SENSOR_TYPE_TIME, &pSensorColl);
 
 if(SUCCEEDED(hr))
 {
     // Request permissions for all sensors
     // in the collection.
-    hr = pSensorManager-&gt;RequestPermissions(0, pSensorColl, FALSE);
+    hr = pSensorManager->RequestPermissions(0, pSensorColl, FALSE);
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

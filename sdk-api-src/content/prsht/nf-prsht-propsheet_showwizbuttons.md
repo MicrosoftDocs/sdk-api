@@ -156,17 +156,13 @@ One or more of the same values used in <i>dwFlag</i>. Here, they specify which p
 The following example code hides the <b>Back</b> button and shows the <b>Next</b> button. 
 	
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>PropSheet_ShowWizButtons(hwnd,
+
+```
+PropSheet_ShowWizButtons(hwnd,
                          PSWIZB_NEXT,
-                         PSWIZB_BACK | PSWIZB_NEXT);</pre>
-</td>
-</tr>
-</table></span></div>
+                         PSWIZB_BACK | PSWIZB_NEXT);
+```
+
+
 
 

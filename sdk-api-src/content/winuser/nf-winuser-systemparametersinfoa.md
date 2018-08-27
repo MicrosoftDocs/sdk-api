@@ -2988,15 +2988,11 @@ This API is not DPI aware, and should not be used if the calling thread is per-m
 
 The following example uses <b>SystemParametersInfo</b> to double the mouse speed.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
+
+```cpp
+
+#include <windows.h>
+#include <stdio.h>
 #pragma comment(lib, "user32.lib")    
 
 void main()  
@@ -3007,7 +3003,7 @@ void main()
     // Get the current mouse speed.         
     fResult = SystemParametersInfo(SPI_GETMOUSE,   // Get mouse information
                                    0,              // Not used
-                                   &amp;aMouseInfo,    // Holds mouse information
+                                   &aMouseInfo,    // Holds mouse information
                                    0);             // Not used           
                                    
     // Double it.         
@@ -3021,10 +3017,10 @@ void main()
                              aMouseInfo,        // Mouse information
                              SPIF_SENDCHANGE);  // Update Win.ini
     }  
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

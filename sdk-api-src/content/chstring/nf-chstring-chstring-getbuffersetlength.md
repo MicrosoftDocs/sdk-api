@@ -97,13 +97,9 @@ Note that if you keep track of the string length yourself, you should not append
 
 The following code example shows the use of <b>CHString::GetBufferSetLength</b>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>CHString str;
+
+```cpp
+CHString str;
 LPWSTR pstr = str.GetBufferSetLength(3);
 pstr[0] = 'I';
 pstr[1] = 'c';
@@ -113,10 +109,10 @@ pstr[2] = 'e';
 // because GetBufferSetLength() set it for you.
 
 str += " hockey is best!";
-printf( "str: %S\n", (LPCWSTR)str );</pre>
-</td>
-</tr>
-</table></span></div>
+printf( "str: %S\n", (LPCWSTR)str );
+```
+
+
 
 
 

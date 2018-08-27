@@ -335,18 +335,14 @@ the <b>WSAStartup</b> function fails or the <b>WSAStartup</b> function was not c
 The following code fragment demonstrates how an application that supports only version 2.2 of Windows Sockets makes a 
 <b>WSAStartup</b> call:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#define WIN32_LEAN_AND_MEAN
 
-#include &lt;windows.h&gt;
-#include &lt;winsock2.h&gt;
-#include &lt;ws2tcpip.h&gt;
-#include &lt;stdio.h&gt;
+```cpp
+#define WIN32_LEAN_AND_MEAN
+
+#include <windows.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <stdio.h>
 
 // Need to link with Ws2_32.lib
 #pragma comment(lib, "ws2_32.lib")
@@ -362,7 +358,7 @@ int __cdecl main()
 /* Use the MAKEWORD(lowbyte, highbyte) macro declared in Windef.h */
     wVersionRequested = MAKEWORD(2, 2);
 
-    err = WSAStartup(wVersionRequested, &amp;wsaData);
+    err = WSAStartup(wVersionRequested, &wsaData);
     if (err != 0) {
         /* Tell the user that we could not find a usable */
         /* Winsock DLL.                                  */
@@ -397,10 +393,10 @@ int __cdecl main()
 
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

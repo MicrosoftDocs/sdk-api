@@ -463,13 +463,9 @@ The following script code example shows how to use an <b>SWbemDateTime</b>
      <b>InstallDate</b> property in 
      <a href="https://msdn.microsoft.com/eb6a8cff-20a0-4211-b46a-3084e9c39246">Win32_OperatingSystem</a>.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>' Create a new datetime object.
+
+```vb
+' Create a new datetime object.
 Set dateTime = CreateObject("WbemScripting.SWbemDateTime")
 
 ' Retrieve a WMI object that contains a datetime value.
@@ -481,33 +477,29 @@ for each os in GetObject( _
     dateTime.Value = os.InstallDate
 
     ' Display the year of installation.
-    MsgBox "This OS was installed in the year " &amp; dateTime.Year
+    MsgBox "This OS was installed in the year " & dateTime.Year
 
     ' Display the installation date using the VT_DATE format.
     MsgBox "Full installation date (VT_DATE format) is " _
-    &amp; dateTime.GetVarDate
+    & dateTime.GetVarDate
 
     ' Display the installation date using the FILETIME format.
     MsgBox "Full installation date (FILETIME format) is " _
-    &amp; dateTime.GetFileTime 
+    & dateTime.GetFileTime 
 next
-Set datetime = Nothing</pre>
-</td>
-</tr>
-</table></span></div>
+Set datetime = Nothing
+```
+
+
 The following example shows how to create an 
       <b>SWbemDateTime</b> object, store a date value in the object, 
       display the date as local and Coordinated Universal Time (UTC), and store the value in a newly created class and 
       property. For more information about the constant <b>wbemCimtypeDatetime</b>, see 
       <a href="https://msdn.microsoft.com/d9929464-742e-4f6c-b631-a6c191167858">WbemCimtypeEnum</a>.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>' Create an SWbemDateTime object.
+
+```vb
+' Create an SWbemDateTime object.
 Set dateTime = CreateObject("WbemScripting.SWbemDateTime")
 ' Set the value 
 Const wbemCimTypeDatetime = 101
@@ -521,17 +513,17 @@ dateTime.SetVarDate (CDate ("January 20 11:56:32"))
 ' The value in dateTime displays as 
 ' 20000120195632.000000-480. This is the equivalent time
 ' in GMT with the specified offset for PST of -8 hrs.
-MsgBox "CIM datetime " &amp; dateTime
+MsgBox "CIM datetime " & dateTime
 
 ' The value now displays as B=0/2000 11:56:32 AM because the
 ' parameter contains the default TRUE value causing the value to be
 ' interpreted as a local time.
-MsgBox "Local datetime " &amp; dateTime.GetVarDate ()
+MsgBox "Local datetime " & dateTime.GetVarDate ()
 
 ' The value now displays as B=0/2000 7:56:32 PM because the
 ' parameter value is FALSE, which indicates a GMT time.
 ' non-local time.
-MsgBox "Datetime in GMT " &amp; dateTime.GetVarDate (false)
+MsgBox "Datetime in GMT " & dateTime.GetVarDate (false)
 
 ' Create a new class and add a DateTime property value.
 ' SWbemServices.Get returns an empty SWbemObject
@@ -547,7 +539,7 @@ NewObject.Properties_.Add "InterestingDate", wbemCimtypeDatetime
 ' Set the new value of the SWbemDateTime object in the InterestingDate
 ' property.
 NewObject.InterestingDate = dateTime.Value
-MsgBox "Datetime in new object " &amp; NewObject.InterestingDate
+MsgBox "Datetime in new object " & NewObject.InterestingDate
 
 ' Write the new class (named "NewClass") containing
 ' the SWbemDateTime object to the repository.
@@ -556,28 +548,24 @@ WScript.Echo "NewClass is now in WMI repository"
 
 ' Clean up the example by deleting the new class from the repository
 NewObject.Delete_
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The following script code example shows how to use an 
       <b>SWbemDateTime</b> object to modify an interval value on a 
       property that is read from the WMI repository.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>' Construct an interval value of 100 days, 1 hour, and 3 seconds.
+
+```vb
+' Construct an interval value of 100 days, 1 hour, and 3 seconds.
 dateTime.IsInterval = true 
 dateTime.Day = 100
 dateTime.Hours = 1
 dateTime.Seconds = 3
 
 ' The datetime displays as 00000100010003.000000:000.
-MsgBox "Constructed interval value " &amp; datetime
+MsgBox "Constructed interval value " & datetime
 
 ' Retrieve an empty WMI object and add a datetime property. 
 Const wbemCimTypeDatetime = 101
@@ -587,55 +575,47 @@ NewObject.Properties_.Add "InterestingDate", wbemCimtypeDatetime
 
 ' Set the new value in the property and update. 
 NewObject.InterestingDate = dateTime.Value
-MsgBox "NewObject.InterestingDate = " &amp; NewObject.InterestingDate
+MsgBox "NewObject.InterestingDate = " & NewObject.InterestingDate
 
 ' Write the new SWbemDateTime object to the repository.
 NewObject.Put_
 
 ' Delete the object.
-NewObject.Delete_</pre>
-</td>
-</tr>
-</table></span></div>
+NewObject.Delete_
+```
+
+
 The following script code example shows how to use an <b>SWbemDate</b> object to read a 
         <b>FILETIME</b> value.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>' Create a new datetime object.
+
+```vb
+' Create a new datetime object.
 Set datetime = CreateObject("WbemScripting.SWbemDateTime")
 
 ' Set from a FILETIME value (non-local).
 ' Assume a timezone -7 hrs. GMT.
-MsgBox "FILETIME value " &amp; "126036951652030000"
+MsgBox "FILETIME value " & "126036951652030000"
 datetime.SetFileTime "126036951652030000", false
 
 ' Displays as 5/24/2000 7:26:05 PM.
-MsgBox "GMT time " &amp; dateTime.GetVarDate   
+MsgBox "GMT time " & dateTime.GetVarDate   
 
 ' Set from a FILETIME value (local).
 datetime.SetFileTime "126036951652030000"
 
 ' Displays as 5/25/2000 2:26:05 AM.
-MsgBox "Same value in local time " &amp; dateTime.GetVarDate
-Set datetime = Nothing</pre>
-</td>
-</tr>
-</table></span></div>
+MsgBox "Same value in local time " & dateTime.GetVarDate
+Set datetime = Nothing
+```
+
+
 The following PowerShell code creates an instance of a SWbemDateTime object, 
     retrieves the OS install date, and converts the date to a different format
 
-<div class="code"><span codelanguage="PowerShell"><table>
-<tr>
-<th>PowerShell</th>
-</tr>
-<tr>
-<td>
-<pre># Create swbemdatetime object
+
+```powershell
+# Create swbemdatetime object
 $datetime = New-Object -ComObject WbemScripting.SWbemDateTime
 
 #  Get OS installation time and assign to datetime object
@@ -646,25 +626,21 @@ $dateTime.Value = $os.InstallDate
 "This OS was installed in the year {0}"           -f $dateTime.Year
 "Full installation date (VT_DATE format) is {0}"  -f $dateTime.GetVarDate()
 "Full installation date (FILETIME format) is {0}" -f $dateTime.GetFileTime() 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The following Powershell code translates the code into a format ready to be consumed by a CIM provider.
 
-<div class="code"><span codelanguage="PowerShell"><table>
-<tr>
-<th>PowerShell</th>
-</tr>
-<tr>
-<td>
-<pre> $time = (Get-Date)
+
+```powershell
+ $time = (Get-Date)
  $objScriptTime = New-Object -ComObject WbemScripting.SWbemDateTime
  $objScriptTime.SetVarDate($time)
- $cimTime = $objScriptTime.Value</pre>
-</td>
-</tr>
-</table></span></div>
+ $cimTime = $objScriptTime.Value
+```
+
+
 
 
 

@@ -108,13 +108,9 @@ In GDI+, the union of two rectangles is the smallest rectangle that encloses the
 
 The following example creates three rectangles. The code forms the union of the first two rectangles and stores the result in the third rectangle. The code determines whether the union is nonempty and, if so, draws the union.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_UnionABC(HDC hdc)
+
+```cpp
+VOID Example_UnionABC(HDC hdc)
 {
    Graphics graphics(hdc);
    Pen* pGreenPen;
@@ -135,11 +131,11 @@ The following example creates three rectangles. The code forms the union of the 
    }
    // Draw rectA and rectB with a thin black pen.
    Pen blackPen(Color(255, 0, 0, 0), 1);
-   graphics.DrawRectangle(&amp;blackPen, rectA);
-   graphics.DrawRectangle(&amp;blackPen, rectB);}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.DrawRectangle(&blackPen, rectA);
+   graphics.DrawRectangle(&blackPen, rectB);}
+```
+
+
 
 
 

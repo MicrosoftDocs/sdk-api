@@ -83,25 +83,21 @@ Win32 applications must verify that the ACM version is at least 0x03320000 (vers
 
 To display the ACM version for a user, an application should use the following format (note that the values should be printed as unsigned decimals):
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 { 
     DWORD   dw; 
     TCHAR   ach[10]; 
  
     dw = acmGetVersion(); 
     _stprintf_s(ach, TEXT("%u.%.02u"), 
-        HIWORD(dw) &gt;&gt; 8, HIWORD(dw) &amp; 0x00FF); 
+        HIWORD(dw) >> 8, HIWORD(dw) & 0x00FF); 
 } 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

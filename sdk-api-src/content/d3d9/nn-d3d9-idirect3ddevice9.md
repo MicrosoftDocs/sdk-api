@@ -1127,18 +1127,14 @@ This interface, like all COM interfaces, inherits the <a href="https://msdn.micr
 
 The LPDIRECT3DDEVICE9 and PDIRECT3DDEVICE9 types are defined as pointers to the <b>IDirect3DDevice9</b> interface.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 typedef struct IDirect3DDevice9 *LPDIRECT3DDEVICE9, *PDIRECT3DDEVICE9;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

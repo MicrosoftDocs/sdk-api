@@ -152,16 +152,12 @@ The caller needs <a href="https://msdn.microsoft.com/77f0a1ac-3e99-4cba-a7c6-b87
 
 The following C++ example illustrates initialization of a sublayer object and adding the sublayer key to a filter object.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;fwpmu.h&gt;
-#include &lt;rpc.h&gt;
-#include &lt;stdio.h&gt;
+
+```cpp
+#include <windows.h>
+#include <fwpmu.h>
+#include <rpc.h>
+#include <stdio.h>
 
 #pragma comment(lib, "Fwpuclnt.lib")
 #pragma comment(lib, "Rpcrt4.lib")
@@ -174,8 +170,8 @@ void main()
     DWORD  result = ERROR_SUCCESS; 
     RPC_STATUS rpcStatus = RPC_S_OK;
      
-    memset(&amp;fwpFilterSubLayer, 0, sizeof(fwpFilterSubLayer));
-    rpcStatus = UuidCreate(&amp;fwpFilterSubLayer.subLayerKey);
+    memset(&fwpFilterSubLayer, 0, sizeof(fwpFilterSubLayer));
+    rpcStatus = UuidCreate(&fwpFilterSubLayer.subLayerKey);
           
     if (RPC_S_OK != rpcStatus)
     {
@@ -183,7 +179,7 @@ void main()
            return;
     }
 
-    result = FwpmEngineOpen0( NULL, RPC_C_AUTHN_WINNT, NULL, NULL, &amp;engineHandle );
+    result = FwpmEngineOpen0( NULL, RPC_C_AUTHN_WINNT, NULL, NULL, &engineHandle );
     if (result != ERROR_SUCCESS)
     {
         printf("FwpmEngineOpen0 failed.\n");
@@ -196,7 +192,7 @@ void main()
     fwpFilterSubLayer.weight = 0x100;
             
     printf("Adding filter sublayer.\n");
-      result = FwpmSubLayerAdd0(engineHandle, &amp;fwpFilterSubLayer, NULL);
+      result = FwpmSubLayerAdd0(engineHandle, &fwpFilterSubLayer, NULL);
 
       if (result != ERROR_SUCCESS)
       {           
@@ -205,19 +201,19 @@ void main()
     }
 
     // Add sublayer key to a filter.
-    memset(&amp;fwpFilter, 0, sizeof(FWPM_FILTER0));
+    memset(&fwpFilter, 0, sizeof(FWPM_FILTER0));
 
-    if (&amp;fwpFilterSubLayer.subLayerKey != NULL)
+    if (&fwpFilterSubLayer.subLayerKey != NULL)
         fwpFilter.subLayerKey = fwpFilterSubLayer.subLayerKey;
 
     // Finish initializing filter...
 
     return;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

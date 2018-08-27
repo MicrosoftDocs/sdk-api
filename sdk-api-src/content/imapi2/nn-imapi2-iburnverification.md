@@ -97,13 +97,9 @@ Sets the  Burn Verification Level.
 
 The following example function demonstrates how the burn verification level defined by <a href="https://msdn.microsoft.com/83a267b7-8b25-49b8-b1d0-83efbad8fa2a">IMAPI_BURN_VERIFICATION_LEVEL</a>, can be implemented. Burn verification level should be set prior to a burn operation.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;imapi2.h&gt;
+
+```cpp
+#include <imapi2.h>
 
 HRESULT setBurnVerification(
     IDiscFormat2Data                *DataWriter,
@@ -114,25 +110,25 @@ HRESULT setBurnVerification(
     HRESULT hr = S_OK;
     IBurnVerification *burnVerifier = NULL;
  
-    hr = DataWriter-&gt;QueryInterface(IID_PPV_ARGS(&amp;burnVerifier));
+    hr = DataWriter->QueryInterface(IID_PPV_ARGS(&burnVerifier));
  
     if (SUCCEEDED(hr))
     {
-        hr = burnVerifier-&gt;put_BurnVerificationLevel(VerificationLevel);
+        hr = burnVerifier->put_BurnVerificationLevel(VerificationLevel);
     }
  
     if (burnVerifier != NULL)
     {
-        burnVerifier-&gt;Release();
+        burnVerifier->Release();
         burnVerifier = NULL;
     }
  
     return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 This interface is supported in Windows Server 2003 with Service Pack 1 (SP1), Windows XP with Service Pack 2 (SP2),  and Windows Vista  via the <a href="http://go.microsoft.com/fwlink/p/?linkid=141659">Windows Feature Pack for Storage</a>. All  features provided by this  update package are supported natively in Windows 7 and Windows Server 2008 R2.
 
 

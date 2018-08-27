@@ -101,13 +101,9 @@ The <b>End</b> method is called whether or not the transfer was successful, and 
 
 The following C++ code closes a global file handle after a read or write action, and outputs a message.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT End(HRESULT* phCompletionCode, IUnknown* pNewObject)
 {
     // TODO: Display the message: "IWMDMOperation event--End."
@@ -121,10 +117,10 @@ HRESULT End(HRESULT* phCompletionCode, IUnknown* pNewObject)
     m_OperationStatus = OPERATION_UNINITIALIZED;
     return S_OK;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

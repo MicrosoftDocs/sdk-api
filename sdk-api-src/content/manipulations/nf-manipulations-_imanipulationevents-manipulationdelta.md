@@ -146,13 +146,9 @@ Manipulation events are generated for both the <a href="https://msdn.microsoft.c
 
 The following code shows an implementation of the ManipulationDelta method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT STDMETHODCALLTYPE CManipulationEventSink::ManipulationDelta( 
+
+```cpp
+HRESULT STDMETHODCALLTYPE CManipulationEventSink::ManipulationDelta( 
     /* [in] */ FLOAT x,
     /* [in] */ FLOAT y,
     /* [in] */ FLOAT translationDeltaX,
@@ -172,10 +168,10 @@ The following code shows an implementation of the ManipulationDelta method.
 
     return S_OK;
 }    
-    </pre>
-</td>
-</tr>
-</table></span></div>
+    
+```
+
+
 
 
 

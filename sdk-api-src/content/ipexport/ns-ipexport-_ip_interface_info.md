@@ -93,13 +93,9 @@ This structure is defined in the <i>Ipexport.h</i> header file which is automati
 
 The following example retrieves the list of network adapters with IPv4 enabled on the local system and prints various properties of the first adapter.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Declare and initialize variables
+
+```cpp
+// Declare and initialize variables
 PIP_INTERFACE_INFO pInfo;
 pInfo = (IP_INTERFACE_INFO *) malloc( sizeof(IP_INTERFACE_INFO) );
 ULONG ulOutBufLen = 0;
@@ -108,17 +104,17 @@ DWORD dwRetVal = 0;
 
 // Make an initial call to GetInterfaceInfo to get
 // the necessary size in the ulOutBufLen variable
-if ( GetInterfaceInfo(pInfo, &amp;ulOutBufLen) == ERROR_INSUFFICIENT_BUFFER) {
+if ( GetInterfaceInfo(pInfo, &ulOutBufLen) == ERROR_INSUFFICIENT_BUFFER) {
   free(pInfo);
   pInfo = (IP_INTERFACE_INFO *) malloc (ulOutBufLen);
 }
 
 // Make a second call to GetInterfaceInfo to get
 // the actual data we need
-if ((dwRetVal = GetInterfaceInfo(pInfo, &amp;ulOutBufLen)) == NO_ERROR ) {
-  printf("\tAdapter Name: %ws\n", pInfo-&gt;Adapter[0].Name);
-  printf("\tAdapter Index: %ld\n", pInfo-&gt;Adapter[0].Index);
-  printf("\tNum Adapters: %ld\n", pInfo-&gt;NumAdapters);
+if ((dwRetVal = GetInterfaceInfo(pInfo, &ulOutBufLen)) == NO_ERROR ) {
+  printf("\tAdapter Name: %ws\n", pInfo->Adapter[0].Name);
+  printf("\tAdapter Index: %ld\n", pInfo->Adapter[0].Index);
+  printf("\tNum Adapters: %ld\n", pInfo->NumAdapters);
 
   // free memory allocated
   free(pInfo);
@@ -139,17 +135,17 @@ else {
     NULL,
     dwRetVal,
     MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT), // Default language
-    (LPTSTR) &amp;lpMsgBuf,
+    (LPTSTR) &lpMsgBuf,
     0,
     NULL ))  {
     printf("\tError: %s", lpMsgBuf);
   }
   LocalFree( lpMsgBuf );
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

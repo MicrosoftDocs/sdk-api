@@ -92,13 +92,9 @@ The <b>IADsGroup::IsMember</b> method will only work correctly if the group and 
 
 The following code example adds the "jeffsmith" user to the "Administrators" group on the "Fabrikam" domain and then reports that the user is now a member of the group.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim grp As IADsGroup
+
+```vb
+Dim grp As IADsGroup
 On Error GoTo Cleanup
 
 Set grp = GetObject("WinNT://Microsoft/Administrators")
@@ -106,34 +102,30 @@ grp.Add ("WinNT://Fabrikam/jeffsmith")
 Debug.Print grp.IsMember("WinNT://Fabrikam/jeffsmith ") ' Should be TRUE.
 
 Cleanup:
-    If (Err.Number&lt;&gt;0) Then
-        MsgBox("An error has occurred. " &amp; Err.Number)
+    If (Err.Number<>0) Then
+        MsgBox("An error has occurred. " & Err.Number)
     End If
-    Set grp = Nothing</pre>
-</td>
-</tr>
-</table></span></div>
+    Set grp = Nothing
+```
+
+
 The following code example verifies that a user belongs to a group before adding it to the group.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IADsGroup *pGroup = NULL;
+
+```cpp
+IADsGroup *pGroup = NULL;
 HRESULT hr = S_OK;
 LPWSTR adsPath = L"WinNT://Fabrikam/Administrators";
 BSTR bstr = NULL;
 
-hr = ADsGetObject(adsPath, IID_IADsGroup, (void**)&amp;pGroup);
+hr = ADsGetObject(adsPath, IID_IADsGroup, (void**)&pGroup);
 
 if(FAILED(hr))
 {
     goto Cleanup;
 }
 
-hr = pGroup-&gt;get_Description(&amp;bstr);
+hr = pGroup->get_Description(&bstr);
 if(FAILED(hr))
 {
     goto Cleanup;
@@ -143,7 +135,7 @@ printf("Description: %S\n",bstr);
 SysFreeString(bstr);
 
 VARIANT_BOOL inG=false;
-hr = pGroup-&gt;IsMember(CComBSTR("WinNT://Microsoft/SecUser"), &amp;inG);
+hr = pGroup->IsMember(CComBSTR("WinNT://Microsoft/SecUser"), &inG);
 
 if (inG ) 
 {
@@ -151,7 +143,7 @@ if (inG )
 }
 else 
 {
-    hr = pGroup-&gt;Add(CComBSTR("WinNT://Microsoft/SecUser"));
+    hr = pGroup->Add(CComBSTR("WinNT://Microsoft/SecUser"));
     if(FAILED(hr))
     {
         goto Cleanup;
@@ -163,17 +155,17 @@ else
 Cleanup:
 if(pGroup)
 {
-    pGroup-&gt;Release();
+    pGroup->Release();
 }
 if(bstr)
 {
     SysFreeString(bstr);
 }
 
-return hr;</pre>
-</td>
-</tr>
-</table></span></div>
+return hr;
+```
+
+
 
 
 

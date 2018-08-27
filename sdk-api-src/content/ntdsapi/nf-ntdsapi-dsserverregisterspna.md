@@ -112,16 +112,12 @@ If the function successfully registers one or more SPNs, it returns <b>ERROR_SUC
 
 The two SPNs composed by the <b>DsServerRegisterSpn</b> function have the following format:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;ServiceClass&gt;/&lt;host&gt;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+<ServiceClass>/<host>
+```
+
+
 In one SPN, the host computer is the fully qualified DNS name of the local computer. In the other SPN, the host component is the NetBIOS name of the local computer.
 
 In most cases, the <b>DsServerRegisterSpn</b> caller must have domain administrator privileges to successfully modify the <b>servicePrincipalName</b> attribute of an account object. The exception to this rule is if the calling thread is running under the LocalSystem account, <b>DsServerRegisterSpn</b> is allowed if the <i>UserObjectDN</i> parameter is either <b>NULL</b> or specifies the distinguished name of the local computer account.

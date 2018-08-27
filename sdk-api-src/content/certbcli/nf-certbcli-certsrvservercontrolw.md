@@ -118,13 +118,9 @@ This function's name in Certadm.dll is <b>CertSrvServerControlW</b>. You must us
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>FNCERTSRVSERVERCONTROLW* pfnControl;
+
+```cpp
+FNCERTSRVSERVERCONTROLW* pfnControl;
 char * szControlFunc = "CertSrvServerControlW";
 HRESULT    hr=0;
 
@@ -150,10 +146,10 @@ if ( FAILED( hr ) )
 {
     printf("Failed pfnControl call [%x]\n", hr);
     exit(1); // Or other appropriate error action.
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

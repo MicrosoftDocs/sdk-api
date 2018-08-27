@@ -132,18 +132,14 @@ Returns the names of all available domains.
 
 #### Examples
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim objApplication as ClusApplication
+
+```vb
+Dim objApplication as ClusApplication
 Set objApplication = New ClusApplication
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

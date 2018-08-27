@@ -128,17 +128,13 @@ The <i>DDInstall</i> section name is used as the base for <b>Hardware</b> and <b
 
 The original <i>DDInstall</i> section name that is specified in the driver node is written to the driver's registry key's <b>InfSection</b> value entry. The extension that was found is stored in the key as the REG_SZ value <b>InfSectionExt</b>. For example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>InfSection       : REG_SZ :    "InstallSec"
-InfSectionExt    : REG_SZ :    ".NTX86"</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+InfSection       : REG_SZ :    "InstallSec"
+InfSectionExt    : REG_SZ :    ".NTX86"
+```
+
+
 If a driver is not selected for the specified device information element, a null driver is installed. Upon return, the flags in the device's <a href="https://msdn.microsoft.com/1bd21150-f8f4-480d-a4b2-99fa4b4233b9">SP_DEVINSTALL_PARAMS</a> structure indicate whether the system should be restarted or rebooted to cause the device to start.
 
 

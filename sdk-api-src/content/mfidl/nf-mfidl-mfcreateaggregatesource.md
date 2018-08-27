@@ -120,13 +120,9 @@ The aggregated media source is useful for combining  streams from separate media
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT CreateAggregatedSource(
+
+```cpp
+HRESULT CreateAggregatedSource(
     IMFMediaSource *pSource1,
     IMFMediaSource *pSource2,
     IMFMediaSource **ppAggSource
@@ -136,27 +132,27 @@ The aggregated media source is useful for combining  streams from separate media
 
     IMFCollection *pCollection = NULL;
 
-    HRESULT hr = MFCreateCollection(&amp;pCollection);
+    HRESULT hr = MFCreateCollection(&pCollection);
 
     if (SUCCEEDED(hr))
     {
-        hr = pCollection-&gt;AddElement(pSource1);
+        hr = pCollection->AddElement(pSource1);
     }
     if (SUCCEEDED(hr))
     {
-        hr = pCollection-&gt;AddElement(pSource2);
+        hr = pCollection->AddElement(pSource2);
     }
     if (SUCCEEDED(hr))
     {
         hr = MFCreateAggregateSource(pCollection, ppAggSource);
     }
-    SafeRelease(&amp;pCollection);
+    SafeRelease(&pCollection);
     return hr;    
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

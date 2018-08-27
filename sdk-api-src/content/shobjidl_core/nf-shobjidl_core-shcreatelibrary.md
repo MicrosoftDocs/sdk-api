@@ -94,23 +94,19 @@ The <b>IID_PPV_ARGS</b> macro is generally used to generate the <i>riid</i> and 
             
                 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#include "shobjidl.h"
+
+```
+#include "shobjidl.h"
 #include "objbase.h" // Defines the IID_PPV_ARGS macro.        
 
 ...
 
 IShellLibrary *pIShellLib;
-SHCreateLibrary(IID_PPV_ARGS(&amp;pIShellLib));
-</pre>
-</td>
-</tr>
-</table></span></div>
+SHCreateLibrary(IID_PPV_ARGS(&pIShellLib));
+
+```
+
+
 
 
 

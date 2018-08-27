@@ -124,38 +124,34 @@ This function succeeds if the package is staged, regardless of the user context 
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#define _UNICODE 1
+
+```cpp
+#define _UNICODE 1
 #define UNICODE 1
 
-#include &lt;Windows.h&gt;
-#include &lt;appmodel.h&gt;
-#include &lt;stdlib.h&gt;
-#include &lt;stdio.h&gt;
+#include <Windows.h>
+#include <appmodel.h>
+#include <stdlib.h>
+#include <stdio.h>
 
 int ShowUsage();
 
 int ShowUsage()
 {
-    wprintf(L"Usage: GetStagedPackagePathByFullName &lt;fullname&gt; [&lt;fullname&gt;...]\n");
+    wprintf(L"Usage: GetStagedPackagePathByFullName <fullname> [<fullname>...]\n");
     return 1;
 }
 
 int __cdecl wmain(__in int argc, __in_ecount(argc) WCHAR * argv[])
 {
-    if (argc &lt;= 1)
+    if (argc <= 1)
         return ShowUsage();
 
-    for (int i=1; i&lt;argc; ++i)
+    for (int i=1; i<argc; ++i)
     {
         PCWSTR fullName = argv[i];
         UINT32 length = 0;
-        LONG rc = GetStagedPackagePathByFullName(fullName, &amp;length, NULL);
+        LONG rc = GetStagedPackagePathByFullName(fullName, &length, NULL);
         if (rc != ERROR_INSUFFICIENT_BUFFER)
         {
             wprintf(L"Error %d in GetStagedPackagePathByFullName\n", rc);
@@ -169,7 +165,7 @@ int __cdecl wmain(__in int argc, __in_ecount(argc) WCHAR * argv[])
             return 3;
         }
 
-        rc = GetStagedPackagePathByFullName(fullName, &amp;length, path);
+        rc = GetStagedPackagePathByFullName(fullName, &length, path);
         if (rc != ERROR_SUCCESS)
             wprintf(L"Error %d retrieving Package's path\n", rc);
         else
@@ -180,9 +176,9 @@ int __cdecl wmain(__in int argc, __in_ecount(argc) WCHAR * argv[])
 
     return 0;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

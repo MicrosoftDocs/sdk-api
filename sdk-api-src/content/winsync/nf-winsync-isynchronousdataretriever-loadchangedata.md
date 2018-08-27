@@ -117,13 +117,9 @@ The source provider determines the data retrieval interface that is implemented 
 
 The following example is an implementation of <b>LoadChangeData</b> that finds the specified change in a custom data store and returns a copy of it.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>STDMETHODIMP CItemStore::LoadChangeData(
+
+```cpp
+STDMETHODIMP CItemStore::LoadChangeData(
     ILoadChangeContext * pLoadChangeContext,
     IUnknown ** ppUnkData)
 {
@@ -137,40 +133,40 @@ The following example is an implementation of <b>LoadChangeData</b> that finds t
     {
         // Find the item in the data store, clone it, and return its IUnknown interface.
         ISyncChange* pChange = NULL;
-        hr = pLoadChangeContext-&gt;GetSyncChange(&amp;pChange);
+        hr = pLoadChangeContext->GetSyncChange(&pChange);
         if (SUCCEEDED(hr))
         {
             SYNC_GID gidItem;
             DWORD cbID = sizeof(gidItem);
-            hr = pChange-&gt;GetRootItemId((BYTE*)&amp;gidItem, &amp;cbID);
+            hr = pChange->GetRootItemId((BYTE*)&gidItem, &cbID);
             if (SUCCEEDED(hr))
             {
                 IXMLDOMNode* pNodeItem = NULL;
-                hr = FindItem(&amp;gidItem, &amp;pNodeItem);
+                hr = FindItem(&gidItem, &pNodeItem);
                 if (SUCCEEDED(hr))
                 {
                     IXMLDOMNode* pNodeClone = NULL;
-                    hr = pNodeItem-&gt;cloneNode(TRUE, &amp;pNodeClone);
+                    hr = pNodeItem->cloneNode(TRUE, &pNodeClone);
                     if (SUCCEEDED(hr))
                     {
-                        hr = pNodeClone-&gt;QueryInterface(IID_IUnknown, (void**)ppUnkData);
+                        hr = pNodeClone->QueryInterface(IID_IUnknown, (void**)ppUnkData);
 
-                        pNodeClone-&gt;Release();
+                        pNodeClone->Release();
                     }
 
-                    pNodeItem-&gt;Release();                
+                    pNodeItem->Release();                
                 }
             }
 
-            pChange-&gt;Release();
+            pChange->Release();
         }
     }
 
     return hr;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

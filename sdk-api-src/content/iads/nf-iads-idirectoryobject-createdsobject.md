@@ -100,13 +100,9 @@ Specify all attributes to be initialized on creation in the <i>pAttributeEntries
 
 The following C/C++ code example shows how to create a user object using the <b>IDirectoryObject::CreateDSObject</b> method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT    hr;
+
+```cpp
+HRESULT    hr;
 IDirectoryObject *pDirObject=NULL;
 ADSVALUE   sAMValue;
 ADSVALUE   uPNValue;
@@ -116,11 +112,11 @@ LPDISPATCH pDisp;
 ADS_ATTR_INFO  attrInfo[] = 
 {  
    { L"objectClass", ADS_ATTR_UPDATE, 
-                       ADSTYPE_CASE_IGNORE_STRING, &amp;classValue, 1 },
+                       ADSTYPE_CASE_IGNORE_STRING, &classValue, 1 },
    {L"sAMAccountName", ADS_ATTR_UPDATE, 
-                       ADSTYPE_CASE_IGNORE_STRING, &amp;sAMValue, 1},
+                       ADSTYPE_CASE_IGNORE_STRING, &sAMValue, 1},
    {L"userPrincipalName", ADS_ATTR_UPDATE, 
-                      ADSTYPE_CASE_IGNORE_STRING, &amp;uPNValue, 1},
+                      ADSTYPE_CASE_IGNORE_STRING, &uPNValue, 1},
 };
 DWORD dwAttrs = sizeof(attrInfo)/sizeof(ADS_ATTR_INFO); 
  
@@ -134,26 +130,26 @@ uPNValue.dwType=ADSTYPE_CASE_IGNORE_STRING;
 uPNValue.CaseIgnoreString = L"jeffsmith@Fabrikam.com";
  
 hr = ADsGetObject(L"LDAP://OU=Sales,DC=Fabrikam,DC=com",
-          IID_IDirectoryObject, (void**) &amp;pDirObject );
+          IID_IDirectoryObject, (void**) &pDirObject );
  
 if ( SUCCEEDED(hr) )
 {
-    hr = pDirObject-&gt;CreateDSObject( L"CN=Jeff Smith",  attrInfo, 
-                                    dwAttrs, &amp;pDisp );
+    hr = pDirObject->CreateDSObject( L"CN=Jeff Smith",  attrInfo, 
+                                    dwAttrs, &pDisp );
 
     if ( SUCCEEDED(hr) )
     {
          // Use the DS object.
 
-         pDisp-&gt;Release();
+         pDisp->Release();
     }
 
-    pDirObject-&gt;Release();
+    pDirObject->Release();
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

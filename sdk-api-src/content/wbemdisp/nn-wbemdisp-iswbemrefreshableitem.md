@@ -197,13 +197,9 @@ The following script illustrates the creation of an
 <a href="https://msdn.microsoft.com/cc5872a1-932b-4b68-9f5e-a91d35c8e117">SWbemRefresher</a> object and the addition of single object and enumerator 
 <b>SWbemRefreshableItem</b> to it.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>' Get some namespace connections
+
+```vb
+' Get some namespace connections
 set cimv2 = GetObject("winmgmts:root\cimv2")
 set default = GetObject("winmgmts:root\default")    
 
@@ -224,15 +220,15 @@ set item2 = refresher.AddEnum (cimv2, "Win32_Process").ObjectSet
 ' Loop three times, refreshing the items
 
 For I= 1 To 3
-MsgBox "Refresh number " &amp; I
+MsgBox "Refresh number " & I
 refresher.Refresh
 
 ' Iterate through the collection of
 ' processes in item2 with name of wscript
     For each process in item2
         If process.name = "wscript.exe" then
-        MsgBox "Process " &amp; process.Name &amp; _
-           " Page Faults " &amp; process.PageFaults
+        MsgBox "Process " & process.Name & _
+           " Page Faults " & process.PageFaults
         End If
     Next 
 Next
@@ -242,10 +238,10 @@ refresher.DeleteAll
 
 ' The following should return 0
 MsgBox "Number of items in Refresher after DeleteAll " _
-    &amp; refresher.Count</pre>
-</td>
-</tr>
-</table></span></div>
+    & refresher.Count
+```
+
+
 
 
 

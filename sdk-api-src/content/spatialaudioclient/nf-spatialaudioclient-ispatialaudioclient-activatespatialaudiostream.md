@@ -102,24 +102,20 @@ This method supports activation of the following spatial audio stream interfaces
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>Microsoft::WRL::ComPtr&lt;ISpatialAudioClient&gt; spatialAudioClient;
+
+```cpp
+Microsoft::WRL::ComPtr<ISpatialAudioClient> spatialAudioClient;
 
 // Activate ISpatialAudioClient on the desired audio-device 
-hr = defaultDevice-&gt;Activate(__uuidof(ISpatialAudioClient), CLSCTX_INPROC_SERVER, nullptr, (void**)&amp;spatialAudioClient);
+hr = defaultDevice->Activate(__uuidof(ISpatialAudioClient), CLSCTX_INPROC_SERVER, nullptr, (void**)&spatialAudioClient);
 
-hr = spatialAudioClient-&gt;IsAudioObjectFormatSupported(&amp;format);
+hr = spatialAudioClient->IsAudioObjectFormatSupported(&format);
 
 // Create the event that will be used to signal the client for more data
 HANDLE bufferCompletionEvent = CreateEvent(nullptr, FALSE, FALSE, nullptr);
 
 SpatialAudioObjectRenderStreamActivationParams streamParams;
-streamParams.ObjectFormat = &amp;format;
+streamParams.ObjectFormat = &format;
 streamParams.StaticObjectTypeMask = ChannelMask_Stereo;
 streamParams.MinDynamicObjectCount = 0;
 streamParams.MaxDynamicObjectCount = 0;
@@ -128,17 +124,17 @@ streamParams.EventHandle = bufferCompletionEvent;
 streamParams.NotifyObject = nullptr;
 
 PROPVARIANT activationParams;
-PropVariantInit(&amp;activationParams);
+PropVariantInit(&activationParams);
 activationParams.vt = VT_BLOB;
 activationParams.blob.cbSize = sizeof(streamParams);
-activationParams.blob.pBlobData = reinterpret_cast&lt;BYTE *&gt;(&amp;streamParams);
+activationParams.blob.pBlobData = reinterpret_cast<BYTE *>(&streamParams);
 
-Microsoft::WRL::ComPtr&lt;ISpatialAudioObjectRenderStream&gt; spatialAudioStream;
-hr = spatialAudioClient-&gt;ActivateSpatialAudioStream(&amp;activationParams, __uuidof(spatialAudioStream), (void**)&amp;spatialAudioStream);
-</pre>
-</td>
-</tr>
-</table></span></div>
+Microsoft::WRL::ComPtr<ISpatialAudioObjectRenderStream> spatialAudioStream;
+hr = spatialAudioClient->ActivateSpatialAudioStream(&activationParams, __uuidof(spatialAudioStream), (void**)&spatialAudioStream);
+
+```
+
+
 
 
 

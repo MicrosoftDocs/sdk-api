@@ -122,29 +122,25 @@ The third minor version number of the client app, used for event logging.
 
 The following example code shows how to initialize this structure.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>PROPVARIANT var; 
-PropVariantInit(&amp;var);  
-auto p = reinterpret_cast&lt;SpatialAudioClientActivationParams *&gt;(CoTaskMemAlloc(sizeof(SpatialAudioClientActivationParams)));  
+
+```cpp
+PROPVARIANT var; 
+PropVariantInit(&var);  
+auto p = reinterpret_cast<SpatialAudioClientActivationParams *>(CoTaskMemAlloc(sizeof(SpatialAudioClientActivationParams)));  
 if (nullptr == p) { ... } 
-p-&gt;tracingContextId = /* context identifier */;  
-p-&gt;appId = /* app identifier */;  
-p-&gt;majorVersion = /* app version info */;  
-p-&gt;majorVersionN = /* app version info */;
+p->tracingContextId = /* context identifier */;  
+p->appId = /* app identifier */;  
+p->majorVersion = /* app version info */;  
+p->majorVersionN = /* app version info */;
 var.vt = VT_BLOB;
 var.blob.cbSize = sizeof(*p);
-var.blob.pBlobData = reinterpret_cast&lt;BYTE *&gt;(p); 
-hr = ActivateAudioInterfaceAsync(device, __uuidof(ISpatialAudioClient), &amp;var, ...);
+var.blob.pBlobData = reinterpret_cast<BYTE *>(p); 
+hr = ActivateAudioInterfaceAsync(device, __uuidof(ISpatialAudioClient), &var, ...);
 // ...
-ropVariantClear(&amp;var);</pre>
-</td>
-</tr>
-</table></span></div>
+ropVariantClear(&var);
+```
+
+
 To access the <b>ActivateAudioIntefaceAsync</b>, you will need to link to mmdevapi.lib.
 
 

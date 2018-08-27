@@ -200,18 +200,14 @@ The effect system groups the information required for rendering into an effect w
 
 <div class="alert"><b>Note</b>  <p class="note">If you call <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> on an <b>ID3D10Effect</b> object to retrieve the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface, <b>QueryInterface</b> returns E_NOINTERFACE. To work around this issue, use the following code:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>IUnknown* pIUnknown = (IUnknown*)pEffect;
-    pIUnknown-&gt;AddRef();
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+IUnknown* pIUnknown = (IUnknown*)pEffect;
+    pIUnknown->AddRef();
+
+```
+
+
 </div>
 <div> </div>
 

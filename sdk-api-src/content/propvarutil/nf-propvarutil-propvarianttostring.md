@@ -155,19 +155,15 @@ In addition to the conversions provided by <a href="https://msdn.microsoft.com/e
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776559(v=VS.85).aspx">PropVariantToString</a> to access a string value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// IPropertyStore *ppropstore;
+
+```cpp
+// IPropertyStore *ppropstore;
 
 // Assume variable ppropstore is initialized and valid
 
 PROPVARIANT propvar = {0};
 
-HRESULT hr = ppropstore-&gt;GetValue(PKEY_Title, &amp;propvar);
+HRESULT hr = ppropstore->GetValue(PKEY_Title, &propvar);
 
 if (SUCCEEDED(hr))
 
@@ -201,12 +197,12 @@ if (SUCCEEDED(hr))
 
     }
 
-    PropVariantClear(&amp;propvar);
+    PropVariantClear(&propvar);
 
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

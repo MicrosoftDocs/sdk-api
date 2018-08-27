@@ -128,30 +128,22 @@ This method is similar to
 <a href="https://msdn.microsoft.com/b7a815a2-7bf6-436f-b3b4-de55eeb2de0e">StartService</a> provider method in <a href="https://msdn.microsoft.com/713402d3-ee73-4a6c-afb9-ad8033a4c580">Win32_Service</a> and uses 
 <a href="https://msdn.microsoft.com/682cbe12-1487-4681-8d2f-4caf21cb068a">direct access</a>.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>oService = GetObject("winmgmts:Win32_Service=Alerter")
-iStatus = oService.StartService()</pre>
-</td>
-</tr>
-</table></span></div>
+
+```vb
+oService = GetObject("winmgmts:Win32_Service=Alerter")
+iStatus = oService.StartService()
+```
+
+
 This version calls <b>SWbemObject.ExecMethod_</b> to execute the <a href="https://msdn.microsoft.com/b7a815a2-7bf6-436f-b3b4-de55eeb2de0e">StartService</a> method.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>oService = GetObject("winmgmts:Win32_Service=Alerter")
-Set outParam = process.ExecMethod_("StartService")</pre>
-</td>
-</tr>
-</table></span></div>
+
+```vb
+oService = GetObject("winmgmts:Win32_Service=Alerter")
+Set outParam = process.ExecMethod_("StartService")
+```
+
+
 Use <b>SWbemObject.ExecMethod_</b> as an alternative to direct access for executing a <a href="https://msdn.microsoft.com/en-us/library/Aa390825(v=VS.85).aspx">provider method</a> in cases where it is not possible to execute a method directly. For example, you would use <b>SWbemObject.ExecMethod_</b> with a scripting language that does not support output parameters if your method has out parameters. Otherwise, the recommended means of invoking a method is to use direct access.
 
 <ul>
@@ -167,13 +159,9 @@ The following example shows the
 <a href="https://msdn.microsoft.com/be80abec-fab4-4403-bc29-d0d4a38e3c87">Create Method in Class Win32_Process</a> . For an example of the same operation using an <a href="https://msdn.microsoft.com/7fcfa404-2fe6-42e5-85ac-64536f6d2a44">SWbemServices</a> object, see 
 <b>SWbemServices.ExecMethod</b>.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>' Connect to WMI and obtain a Win32_Process object.
+
+```vb
+' Connect to WMI and obtain a Win32_Process object.
 ' This is also an SWbemObject object.
 Set oProcess = GetObject("winmgmts:Win32_Process")
 
@@ -203,12 +191,12 @@ Else
         wscript.echo "Create method failed to execute."  
     Else
         wscript.echo "Create method executed but had error" _
-            &amp; "0x" &amp; hex(oOutParams.ReturnValue)
+            & "0x" & hex(oOutParams.ReturnValue)
     End If
-End If</pre>
-</td>
-</tr>
-</table></span></div>
+End If
+```
+
+
 
 
 

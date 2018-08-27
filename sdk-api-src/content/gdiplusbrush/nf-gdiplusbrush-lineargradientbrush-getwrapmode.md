@@ -95,13 +95,9 @@ The default wrap mode for a linear gradient brush is WrapModeTile, which indicat
 
 The following example creates a linear gradient brush and sets its wrap mode. Next, the code gets the brush's wrap mode and performs tasks based on the brush's current wrap mode.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_GetWrapMode(HDC hdc)
+
+```cpp
+VOID Example_GetWrapMode(HDC hdc)
 {
    Graphics myGraphics(hdc);
 
@@ -126,10 +122,10 @@ The following example creates a linear gradient brush and sets its wrap mode. Ne
    {
        // Do a different task.
    }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

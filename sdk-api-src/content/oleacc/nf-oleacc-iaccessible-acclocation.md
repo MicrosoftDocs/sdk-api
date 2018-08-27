@@ -151,13 +151,9 @@ This method retrieves the object's bounding rectangle. If the object has a non-r
 <h3><a id="Server_Example"></a><a id="server_example"></a><a id="SERVER_EXAMPLE"></a>Server Example</h3>
 The following example shows a possible implementation of the method for a custom list box whose list items are child elements. For the list box itself, the call is passed to the standard accessible object, which returns the screen coordinates of the window.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 // m_pStdAccessibleObject is the standard accessible object for the control window. 
 // m_pControl is the object that represents the control. Its GetItemRect method  
 //   retrieves the screen coordinates of the specified item in a zero-based collection. 
@@ -179,12 +175,12 @@ HRESULT STDMETHODCALLTYPE AccServer::accLocation(
     }
     if (varChild.lVal == CHILDID_SELF)
     {
-        return m_pStdAccessibleObject-&gt;accLocation(pxLeft, pyTop, pcxWidth, pcyHeight, varChild);
+        return m_pStdAccessibleObject->accLocation(pxLeft, pyTop, pcxWidth, pcyHeight, varChild);
     }
     else
     {
         RECT rect;
-        if (m_pControl-&gt;GetItemRect(varChild.lVal - 1, &amp;rect) == FALSE)
+        if (m_pControl->GetItemRect(varChild.lVal - 1, &rect) == FALSE)
         {
             return E_INVALIDARG;
         }
@@ -198,10 +194,10 @@ HRESULT STDMETHODCALLTYPE AccServer::accLocation(
         }
     }
 };
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -94,19 +94,15 @@ Returns the HRESULT defined by OLE.
 
 For handlers written in C++, <b>SetInfo</b> has the following syntax:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT SetInfo(AVISTREAMINFO *lpInfo, LONG cbInfo); 
  
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

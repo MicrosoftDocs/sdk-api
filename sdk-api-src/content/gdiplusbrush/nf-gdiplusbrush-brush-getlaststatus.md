@@ -102,13 +102,9 @@ The following example creates a <a href="https://msdn.microsoft.com/en-us/librar
 						<b>solidBrush</b>. Then, if the call was successful, the code uses 
 						<b>solidBrush</b> to fill a rectangle.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_GetLastStatus(HDC hdc)
+
+```cpp
+VOID Example_GetLastStatus(HDC hdc)
 {
    Graphics graphics(hdc);
    // Create a SolidBrush object.
@@ -117,11 +113,11 @@ The following example creates a <a href="https://msdn.microsoft.com/en-us/librar
    Status lastStatus = solidBrush.GetLastStatus();
    //If the call to create myBrush was successful, use it to fill a rectangle.
    if (lastStatus == Ok)
-       graphics.FillRectangle(&amp;solidBrush, Rect(0, 0, 100, 100)); 
-}</pre>
-</td>
-</tr>
-</table></span></div>
+       graphics.FillRectangle(&solidBrush, Rect(0, 0, 100, 100)); 
+}
+```
+
+
 
 
 

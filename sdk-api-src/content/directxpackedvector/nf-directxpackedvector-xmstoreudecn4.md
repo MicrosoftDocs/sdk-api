@@ -84,13 +84,9 @@ None.
 
 The following pseudocode demonstrates the operation of the function.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>XMVECTOR N;	
+
+```
+XMVECTOR N;	
 static const XMVECTOR  Scale = {1023.0f, 1023.0f, 1023.0f, 3.0f};
 
 assert(pDestination);
@@ -98,13 +94,13 @@ assert(pDestination);
 N = XMVectorClamp(V, XMVectorZero(), g_XMOne);
 N = XMVectorMultiply(N, Scale);
 
-pDestination-&gt;v = ((uint32_t)N.v[3] &lt;&lt; 30) |
-                  (((uint32_t)N.v[2] &amp; 0x3FF) &lt;&lt; 20) |
-                  (((uint32_t)N.v[1] &amp; 0x3FF) &lt;&lt; 10) |
-                  (((uint32_t)N.v[0] &amp; 0x3FF));</pre>
-</td>
-</tr>
-</table></span></div>
+pDestination->v = ((uint32_t)N.v[3] << 30) |
+                  (((uint32_t)N.v[2] & 0x3FF) << 20) |
+                  (((uint32_t)N.v[1] & 0x3FF) << 10) |
+                  (((uint32_t)N.v[0] & 0x3FF));
+```
+
+
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 

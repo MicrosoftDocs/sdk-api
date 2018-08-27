@@ -97,54 +97,42 @@ The <b>ItemIndex</b> method allows WMI clients scripts and applications written 
 
 The following VBScript code example queries for a collection of all the <a href="https://msdn.microsoft.com/51206aca-4784-4d18-95ca-bc0a45691f78">Win32_Process</a> instances then displays the names of the first three processes.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>strComputer = "."
-Set objWMIService = GetObject("winmgmts:\\" &amp; _
-    strComputer &amp; "\root\cimv2")
+
+```vb
+strComputer = "."
+Set objWMIService = GetObject("winmgmts:\\" & _
+    strComputer & "\root\cimv2")
 
 set colProcesses = _
     objWMIService.Execquery("Select * from Win32_Process")
 Wscript.Echo  colProcesses.ItemIndex(0).Name
 Wscript.Echo  colProcesses.ItemIndex(1).Name
-Wscript.Echo  colProcesses.ItemIndex(2).Name</pre>
-</td>
-</tr>
-</table></span></div>
+Wscript.Echo  colProcesses.ItemIndex(2).Name
+```
+
+
 Only one instance of <a href="https://msdn.microsoft.com/eb6a8cff-20a0-4211-b46a-3084e9c39246">Win32_OperatingSystem</a> exists for each operating system installation.  Creating the  <a href="https://msdn.microsoft.com/en-us/library/Bb774345(v=VS.85).aspx">GetObject</a> path to obtain the single instance is awkward so scripts normally enumerate  <b>Win32_OperatingSystem</b>  even though only one instance is available. The following VBScript code example shows how to use the <b>ItemIndex</b> method to get to the one <b>Win32_OperatingSystem</b> without  using a <b>For Each</b> loop.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>strComputer = "."
+
+```vb
+strComputer = "."
 Set objWMIService = GetObject("winmgmts:" _
-    &amp; "{impersonationLevel=impersonate}!\\" &amp; strComputer &amp; "\root\cimv2")
+    & "{impersonationLevel=impersonate}!\\" & strComputer & "\root\cimv2")
 
 Set colOperatingSystems = objWMIService.ExecQuery _
     ("Select * from Win32_OperatingSystem")
 
-Wscript.Echo "Caption: " &amp; colOperatingSystems.ItemIndex(0).Caption</pre>
-</td>
-</tr>
-</table></span></div>
+Wscript.Echo "Caption: " & colOperatingSystems.ItemIndex(0).Caption
+```
+
+
 The following VBScript code example gets  instances associated with <a href="https://msdn.microsoft.com/eb6a8cff-20a0-4211-b46a-3084e9c39246">Win32_OperatingSystem</a>, such as <a href="https://msdn.microsoft.com/dc71f80b-6fbd-4bc8-8783-3922d8050518">Win32_SystemOperatingSystem</a>.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>strComputer = "."
-Set objWMIService = GetObject("winmgmts:\\" &amp; _
-    strComputer &amp; "\root\cimv2")
+
+```vb
+strComputer = "."
+Set objWMIService = GetObject("winmgmts:\\" & _
+    strComputer & "\root\cimv2")
 
 set colOS = _
     objWMIService.Execquery("Select * from Win32_OperatingSystem")
@@ -153,10 +141,10 @@ set colOS = _
 set colAssociators = colOS.ItemIndex(0).Associators_
     For Each Associator in colAssociators 
         Wscript.Echo Associator.Path_.RelPath  
-    Next</pre>
-</td>
-</tr>
-</table></span></div>
+    Next
+```
+
+
 The following code example output shows instances associated with <a href="https://msdn.microsoft.com/eb6a8cff-20a0-4211-b46a-3084e9c39246">Win32_OperatingSystem</a>.
 
 <pre class="syntax" xml:space="preserve"><code>Windows Server 2008 

@@ -115,51 +115,43 @@ For more information about advise sinks that can be installed by each implementa
 <b>ITfThreadMgr</b>
 
 <div class="code"></div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT hr;
 ITfSourceSingle *pSourceSingle;
 
-hr = pThreadManager-&gt;QueryInterface(IID_ITfSourceSingle, (LPVOID*)&amp;pSourceSingle);
+hr = pThreadManager->QueryInterface(IID_ITfSourceSingle, (LPVOID*)&pSourceSingle);
 if(SUCCEEDED(hr))
 {
     //Use the ITfSourceSingle interface. 
     
-    pSourceSingle-&gt;Release();
+    pSourceSingle->Release();
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 <b>ITfContext</b>
 
 <div class="code"></div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT hr;
 ITfSourceSingle *pSourceSingle;
 
-hr = pContext-&gt;QueryInterface(IID_ITfSourceSingle, (LPVOID*)&amp;pSourceSingle);
+hr = pContext->QueryInterface(IID_ITfSourceSingle, (LPVOID*)&pSourceSingle);
 if(SUCCEEDED(hr))
 {
     //Use the ITfSourceSingle interface. 
     
-    pSourceSingle-&gt;Release();
+    pSourceSingle->Release();
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

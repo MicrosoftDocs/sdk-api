@@ -81,20 +81,16 @@ Returns true if all of the compared components within the set bounds.
 
 The following code snippet highlights how this function might be used:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>uint32_t comparisonValue = XMVectorInBoundsR( V, Bounds );
+
+```
+uint32_t comparisonValue = XMVectorInBoundsR( V, Bounds );
 if( XMComparisonAllInBounds( comparisonValue ) )
 {
 	DoStuff();
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 The <code>DoStuff</code> function will be called only if all four components of <i>V</i> are within the volume
    determined by <i>Bounds</i> and -<i>Bounds</i>.
 

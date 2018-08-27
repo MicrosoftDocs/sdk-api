@@ -219,13 +219,9 @@ The example application code defines the <b>CDataCallback</b> object that it der
 
 Periodically, the <a href="https://msdn.microsoft.com/en-us/library/ms630151(v=VS.85).aspx">idtGetBandedData</a> method uses the <a href="https://msdn.microsoft.com/en-us/library/ms630157(v=VS.85).aspx">IWiaDataCallback</a> interface pointer to invoke the  <b>CDataCallback::BandedDataCallback</b> method of the application. The first invocations send status messages. These are followed by a call that transfers a data header to the callback method. After the application receives the data header, <b>idtGetBandedData</b> invokes <b>CDataCallback::BandedDataCallback</b> to transfer data to the application. When the data transfer is complete, it calls the callback method a final time to transmit a termination message.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 //
 // The application must instantiate the CDataCallback object using
 // the "new" operator, and call QueryInterface to retrieve the 
@@ -293,11 +289,11 @@ public:
         //
         if (IsEqualIID( riid, IID_IUnknown ))
         {
-            *ppvObject = static_cast&lt;CDataCallback *&gt;(this);
+            *ppvObject = static_cast<CDataCallback *>(this);
         }
         else if (IsEqualIID( riid, IID_IWiaDataCallback ))
         {
-            *ppvObject = static_cast&lt;CDataCallback *&gt;(this);
+            *ppvObject = static_cast<CDataCallback *>(this);
         }
         else
         {
@@ -308,16 +304,16 @@ public:
         //
         // Increment the reference count before returning the interface.
         //
-        reinterpret_cast&lt;IUnknown*&gt;(*ppvObject)-&gt;AddRef();
+        reinterpret_cast<IUnknown*>(*ppvObject)->AddRef();
         return S_OK;
     }
     ULONG CALLBACK AddRef()
     {
-        return InterlockedIncrement(&amp;m_cRef);
+        return InterlockedIncrement(&m_cRef);
     }    
     ULONG CALLBACK Release()
     {
-        LONG cRef = InterlockedDecrement(&amp;m_cRef);
+        LONG cRef = InterlockedDecrement(&m_cRef);
         if (0 == cRef)
         {
             delete this;
@@ -353,18 +349,18 @@ public:
                 // The data header contains the image's final size.
                 //
                 PWIA_DATA_CALLBACK_HEADER pHeader = reinterpret_cast(pbData);
-                if (pHeader &amp;&amp; pHeader-&gt;lBufferSize)
+                if (pHeader && pHeader->lBufferSize)
                 {
                     //
                     // Allocate a block of memory to hold the image
                     //
-                    m_pBuffer = reinterpret_cast(LocalAlloc(LPTR,pHeader-&gt;lBufferSize));
+                    m_pBuffer = reinterpret_cast(LocalAlloc(LPTR,pHeader->lBufferSize));
                     if (m_pBuffer)
                     {
                         //
                         // Save the buffer size.
                         //
-                        m_nBufferLength = pHeader-&gt;lBufferSize;
+                        m_nBufferLength = pHeader->lBufferSize;
 
                         //
                         // Initialize the bytes transferred count.
@@ -374,7 +370,7 @@ public:
                         //
                         // Save the file format.
                         //
-                        m_guidFormat = pHeader-&gt;guidFormatID;
+                        m_guidFormat = pHeader->guidFormatID;
                     }
                 }
             }
@@ -405,15 +401,15 @@ public:
                 //
                 // Display transfer phase
                 //
-                if (lStatus &amp; IT_STATUS_TRANSFER_FROM_DEVICE)
+                if (lStatus & IT_STATUS_TRANSFER_FROM_DEVICE)
                 {
                     _tprintf(TEXT("Transfer from device\n"));
                 }
-                else if (lStatus &amp; IT_STATUS_PROCESSING_DATA)
+                else if (lStatus & IT_STATUS_PROCESSING_DATA)
                 {
                     _tprintf(TEXT("Processing Data\n"));
                 }
-                else if (lStatus &amp; IT_STATUS_TRANSFER_TO_CLIENT)
+                else if (lStatus & IT_STATUS_TRANSFER_TO_CLIENT)
                 {
                     _tprintf(TEXT("Transfer to Client\n"));
                 }
@@ -429,9 +425,9 @@ public:
         return S_OK;
     }
 };
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

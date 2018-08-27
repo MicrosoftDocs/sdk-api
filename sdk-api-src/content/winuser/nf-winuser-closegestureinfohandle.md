@@ -104,21 +104,17 @@ If the message is passed to <a href="http://go.microsoft.com/fwlink/p/?linkid=13
 
 The following code shows a handler that closes the <a href="https://msdn.microsoft.com/f5b8b530-ff1e-4d78-a12f-86990fe9ac88">GESTUREINFO</a> handle if the gesture has been handled.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>  LRESULT DecodeGesture(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam){
+
+```cpp
+  LRESULT DecodeGesture(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam){
     // Create a structure to populate and retrieve the extra message info.
     GESTUREINFO gi;  
     
-    ZeroMemory(&amp;gi, sizeof(GESTUREINFO));
+    ZeroMemory(&gi, sizeof(GESTUREINFO));
     
     gi.cbSize = sizeof(GESTUREINFO);
 
-    BOOL bResult  = GetGestureInfo((HGESTUREINFO)lParam, &amp;gi);
+    BOOL bResult  = GetGestureInfo((HGESTUREINFO)lParam, &gi);
     BOOL bHandled = FALSE;
 
     if (bResult){
@@ -150,7 +146,7 @@ The following code shows a handler that closes the <a href="https://msdn.microso
         }
     }else{
         DWORD dwErr = GetLastError();
-        if (dwErr &gt; 0){
+        if (dwErr > 0){
             //MessageBoxW(hWnd, L"Error!", L"Could not retrieve a GESTUREINFO structure.", MB_OK);
         }
     }
@@ -160,10 +156,10 @@ The following code shows a handler that closes the <a href="https://msdn.microso
         return DefWindowProc(hWnd, message, wParam, lParam);
     }
   }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -89,16 +89,12 @@ You must call
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Set the context. The value nContext (long) would be the same
+
+```cpp
+// Set the context. The value nContext (long) would be the same
 // as the context parameter in ICertExit::Notify.
 // hr is defined as an HRESULT.
-hr = pCertServerExit-&gt;SetContext( nContext );
+hr = pCertServerExit->SetContext( nContext );
 if (FAILED(hr))
 {
     printf("Failed SetContext [%x]\n", hr);
@@ -106,15 +102,15 @@ if (FAILED(hr))
 }
 
 // Setup the enumeration.
-hr = pCertServerExit-&gt;EnumerateExtensionsSetup( 0 );
+hr = pCertServerExit->EnumerateExtensionsSetup( 0 );
 if (FAILED(hr))
 {
     printf("Failed EnumerateExtensionsSetup [%x]\n", hr);
     goto error;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

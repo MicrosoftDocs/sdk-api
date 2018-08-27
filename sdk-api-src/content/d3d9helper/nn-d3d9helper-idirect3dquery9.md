@@ -126,16 +126,12 @@ The LPDIRECT3DQUERY9 and PDIRECT3DQUERY9 types are defined as pointers to the <b
     
             
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>typedef struct IDirect3DQuery9 *LPDIRECT3DQUERY9, *PDIRECT3DQUERY9;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+typedef struct IDirect3DQuery9 *LPDIRECT3DQUERY9, *PDIRECT3DQUERY9;
+```
+
+
 
 
 

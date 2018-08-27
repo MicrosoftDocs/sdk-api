@@ -99,13 +99,9 @@ The following example creates two
 						<b>RectF</b> object horizontally by a specified value, and then determines whether the two 
 						<b>RectF</b> objects are the same.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_Equals(HDC hdc)
+
+```cpp
+VOID Example_Equals(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -118,10 +114,10 @@ The following example creates two
    {
       // The two rectangles are the same.
    }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

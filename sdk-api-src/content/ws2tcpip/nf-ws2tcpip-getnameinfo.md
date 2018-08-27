@@ -193,18 +193,14 @@ Macros in the Winsock header file define a mixed-case function name of <b>GetNam
 
 To simplify determining buffer requirements for the <i>host</i> and <i>serv</i> parameters, the following values for maximum host name length and maximum service name are defined in the <i>Ws2tcpip.h</i> header file.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#define NI_MAXSERV    32
+
+```cpp
+#define NI_MAXSERV    32
 #define NI_MAXHOST  1025
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 The <i>flags</i> parameter can be used to customize processing of the 
 <b>getnameinfo</b> function. The following flags are available:
@@ -246,15 +242,11 @@ Setting the <b>NI_DGRAM</b> flag indicates that the service is a datagram servic
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following code example shows how to use the <b>getnameinfo</b> function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;winsock2.h&gt;
-#include &lt;ws2tcpip.h&gt;
-#include &lt;stdio.h&gt;
+
+```cpp
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <stdio.h>
 
 // link with ws2_32.lib
 #pragma comment(lib, "Ws2_32.lib")
@@ -282,7 +274,7 @@ int __cdecl main(int argc, char **argv)
         return 1;
     }
     // Initialize Winsock
-    iResult = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
+    iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
     if (iResult != 0) {
         printf("WSAStartup failed: %d\n", iResult);
         return 1;
@@ -296,7 +288,7 @@ int __cdecl main(int argc, char **argv)
 
     //-----------------------------------------
     // Call getnameinfo
-    dwRetval = getnameinfo((struct sockaddr *) &amp;saGNI,
+    dwRetval = getnameinfo((struct sockaddr *) &saGNI,
                            sizeof (struct sockaddr),
                            hostname,
                            NI_MAXHOST, servInfo, NI_MAXSERV, NI_NUMERICSERV);
@@ -309,10 +301,10 @@ int __cdecl main(int argc, char **argv)
         return 0;
     }
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 <h3><a id="Support_for_getnameinfo_on_older_versions_of_Windows_"></a><a id="support_for_getnameinfo_on_older_versions_of_windows_"></a><a id="SUPPORT_FOR_GETNAMEINFO_ON_OLDER_VERSIONS_OF_WINDOWS_"></a>Support for getnameinfo on older versions of Windows
 </h3>
 The <b>getnameinfo</b> function was added to the <i>Ws2_32.dll</i> on Windows XP and later. If you want to execute an application using this function on earlier versions of Windows (Windows 2000, Windows NT, and Windows Me/98/95), then you need to include the <i>Ws2tcpip.h</i> file and also include the <i>Wspiapi.h</i> file. When the <i>Wspiapi.h</i> include file is added, the <b>getnameinfo</b> function is defined to the WspiapiGetNameInfo inline function in the <i>Wspiapi.h</i> file. At runtime, the WspiapiGetNameInfo function is implemented in such a way that if the <i>Ws2_32.dll</i> or the <i>Wship6.dll</i> (the file containing <b>getnameinfo</b> in the IPv6 Technology Preview for Windows 2000) does not include <b>getnameinfo</b>, then a version of  <b>getnameinfo</b> is implemented inline based on code in the <i>Wspiapi.h</i> header file. This inline code will be used on older Windows platforms that do not natively support the <b>getnameinfo</b> function. 

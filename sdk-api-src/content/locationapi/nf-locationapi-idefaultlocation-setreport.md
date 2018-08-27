@@ -141,14 +141,10 @@ The latitude and longitude provided in a latitude/longitude report must correspo
 
 The following example shows how to set the default location using a civic address report.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>            // set the civic address fields of the Default Location
-            hr = spDefaultLocation-&gt;SetReport(IID_ICivicAddressReport, spCivicAddressReport);
+
+```cpp
+            // set the civic address fields of the Default Location
+            hr = spDefaultLocation->SetReport(IID_ICivicAddressReport, spCivicAddressReport);
             if (E_INVALIDARG == hr)
             {
                 wprintf(L"The civic address report has invalid data. ");
@@ -158,10 +154,10 @@ The following example shows how to set the default location using a civic addres
             {
                 wprintf(L"Administrator privilege required.\n");
             }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

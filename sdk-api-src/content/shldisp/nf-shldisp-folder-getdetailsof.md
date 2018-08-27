@@ -141,13 +141,9 @@ The following example uses <b>GetDetailsOf</b> to retrieve the type of the file 
 
 JScript:
 
-<div class="code"><span codelanguage="JScript"><table>
-<tr>
-<th>JScript</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;script language="JScript"&gt;
+
+```javascript
+<script language="JScript">
     function fnGetDetailsOfJ()
     {
         var objShell = new ActiveXObject("shell.application");
@@ -167,20 +163,16 @@ JScript:
             }
         }
     }
-&lt;/script&gt;
-</pre>
-</td>
-</tr>
-</table></span></div>
+</script>
+
+```
+
+
 VBScript:
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;script language="VBScript"&gt;
+
+```vb
+<script language="VBScript">
     function fnGetDetailsOfVB()
         dim objShell
         dim objFolder
@@ -205,20 +197,16 @@ VBScript:
         set objFolder = nothing
         set objShell = nothing
     end function
-&lt;/script&gt;
-</pre>
-</td>
-</tr>
-</table></span></div>
+</script>
+
+```
+
+
 Visual Basic:
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Private Sub btnGetDetailsOf_Click()
+
+```vb
+Private Sub btnGetDetailsOf_Click()
     Dim objShell  As Shell
     Dim objFolder As Folder
 
@@ -240,9 +228,9 @@ Visual Basic:
     Set objFolder = Nothing
     Set objShell = Nothing
 End Sub
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

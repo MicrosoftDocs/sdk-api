@@ -93,13 +93,9 @@ If <i>uMsg</i> is  PSCB_INITIALIZED or PSCB_BUTTONPRESSED, the value of <i>lPara
 
 If <i>uMsg</i> is PSCB_PRECREATE, then <i>lParam</i> will be a pointer to either a  <a href="https://msdn.microsoft.com/en-us/library/ms645394(v=VS.85).aspx">DLGTEMPLATE</a> or <a href="https://msdn.microsoft.com/en-us/library/ms645398(v=VS.85).aspx">DLGTEMPLATEEX</a> structure describing the property sheet dialog box. Test the signature of the structure to determine the type. If signature is equal to 0xFFFF then the structure is an extended dialog template, otherwise the structure is a standard dialog template.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
    if (uMsg == PSCB_PRECREATE) 
    {
         if (lParam)
@@ -108,7 +104,7 @@ If <i>uMsg</i> is PSCB_PRECREATE, then <i>lParam</i> will be a pointer to either
              DLGTEMPLATEEX *pDlgTemplateEx;
             
              pDlgTemplateEx = (DLGTEMPLATEEX *)lParam;
-             if (pDlgTemplateEx-&gt;signature == 0xFFFF)
+             if (pDlgTemplateEx->signature == 0xFFFF)
              {
                     // pDlgTemplateEx points to an extended  
                     // dialog template structure.
@@ -120,10 +116,10 @@ If <i>uMsg</i> is PSCB_PRECREATE, then <i>lParam</i> will be a pointer to either
                     pDlgTemplate = (DLGTEMPLATE *)lParam;
              }
         }    
-   }</pre>
-</td>
-</tr>
-</table></span></div>
+   }
+```
+
+
 
 #### - uMsg
 

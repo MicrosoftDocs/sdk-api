@@ -97,21 +97,17 @@ However, if you call
 
 The following code sample, taken from <a href="https://Gallery.TechNet.Microsoft.Com/5649568b-074e-4f5d-be52-e8b7d8fe4517">List All the WMI cimV2 Classes</a> in the TechNet Gallery, uses the Path_ property to list all the WMI cimV2 classes.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>strComputer = "." 
-Set objWMIService=GetObject("winmgmts:{impersonationLevel=impersonate}!\\" &amp; _  
-    strComputer &amp; "\root\cimv2") 
+
+```vb
+strComputer = "." 
+Set objWMIService=GetObject("winmgmts:{impersonationLevel=impersonate}!\\" & _  
+    strComputer & "\root\cimv2") 
   
 For Each objclass in objWMIService.SubclassesOf() 
     Wscript.Echo objClass.Path_.Class 
-Next </pre>
-</td>
-</tr>
-</table></span></div>
+Next 
+```
+
+
 
 

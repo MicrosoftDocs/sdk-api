@@ -96,19 +96,15 @@ The <a href="https://msdn.microsoft.com/cb6cb9da-8f7f-47e9-980a-aa77fe04c80c">BI
 
 An application should use the information stored in the <b>bcSize</b> member to locate the color table in a <a href="https://msdn.microsoft.com/cb6cb9da-8f7f-47e9-980a-aa77fe04c80c">BITMAPCOREINFO</a> structure, using a method such as the following:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 pColor = ((LPBYTE) pBitmapCoreInfo + 
-        (WORD) (pBitmapCoreInfo -&gt; bcSize)) 
-</pre>
-</td>
-</tr>
-</table></span></div>
+        (WORD) (pBitmapCoreInfo -> bcSize)) 
+
+```
+
+
 
 
 

@@ -82,13 +82,9 @@ When the <b>PurgePropertyList</b> method is called, all the items are removed fr
 
 The following code example shows how to implement <b>IADsPropertyList::PurgePropertyList</b>.
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>Dim propList As IADsPropertyList
+
+```vb
+Dim propList As IADsPropertyList
  
 On Error GoTo Cleanup
 
@@ -102,24 +98,20 @@ propList.PurgePropertyList
 Set propEntry = propList.GetPropertyItem("adminDescription", ADSTYPE_CASE_IGNORE_STRING)
 
 Cleanup:
-    If (Err.Number&lt;&gt;0) Then
-        MsgBox("An error has occurred. " &amp; Err.Number)
+    If (Err.Number<>0) Then
+        MsgBox("An error has occurred. " & Err.Number)
     End If
 
     Set propList = Nothing
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The following code example shows the effect produced by a call to <b>IADsPropertyList::PurgePropertyList</b>.  For more information about the <b>GetPropertyCache</b>  function and a code example, see <a href="https://msdn.microsoft.com/70e9ce0e-ae83-43b7-8b84-99d5e1f8a8d2">IADsPropertyList</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IADsPropertyList *GetPropertyCache(LPWSTR);
+
+```cpp
+IADsPropertyList *GetPropertyCache(LPWSTR);
  
 void TestPurgePropertyList()
 {
@@ -130,18 +122,18 @@ void TestPurgePropertyList()
 
     if(pList)
     {
-        pList-&gt;get_PropertyCount(&amp;count);
+        pList->get_PropertyCount(&count);
         printf("Number of properties before purging: %d\n",count);
  
         count = -1;
-        pList-&gt;PurgePropertyList();
-        pList-&gt;get_PropertyCount(&amp;count);
+        pList->PurgePropertyList();
+        pList->get_PropertyCount(&count);
         printf("Number of properties after purging: %d\n",count);
     }
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

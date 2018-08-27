@@ -84,54 +84,42 @@ Reciprocal of Q factor. Controls how quickly frequencies beyond Frequency are da
 
 Setting XAUDIO2_FILTER_PARAMETERS with the following values is acoustically equivalent to the filter being fully bypassed.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>XAUDIO2_FILTER_PARAMETERS FilterParams;
+
+```
+XAUDIO2_FILTER_PARAMETERS FilterParams;
 FilterParams.Frequency = 1.0f;    
 FilterParams.OneOverQ = 1.0f;
 FilterParams.Type = LowPassFilter;
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The following formulas show the relationship between the members of XAUDIO2_FILTER_PARAMETERS and the per-voice filter.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>Yl( n ) = F1 yb( n ) + yl( n - 1 )
+
+```
+Yl( n ) = F1 yb( n ) + yl( n - 1 )
 Yb( n ) = F1 yh( n ) + yb( n - 1 )
 Yh( n ) = x( n ) - yl( n ) - OneOverQ(yb( n - 1 )
 Yn( n ) = Yl(n) + Yh(n)
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Where:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>Yl = lowpass output
+
+```
+Yl = lowpass output
 Yb = bandpass output
 Yh = highpass output
 Yn = notch output
 F1 = XAUDIO2_FILTER_PARAMETERS.Frequency
-OneOverQ = XAUDIO2_FILTER_PARAMETERS.OneOverQ</pre>
-</td>
-</tr>
-</table></span></div>
+OneOverQ = XAUDIO2_FILTER_PARAMETERS.OneOverQ
+```
+
+
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK (XAudio 2.7)
 

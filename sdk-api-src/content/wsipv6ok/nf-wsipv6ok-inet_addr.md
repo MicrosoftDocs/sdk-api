@@ -130,17 +130,13 @@ When only one part is given, the value is stored directly in the network address
 
 The following code example shows how to use the <b>inet_addr</b> function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#define WIN32_LEAN_AND_MEAN
 
-#include &lt;winsock2.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;windows.h&gt;
+```cpp
+#define WIN32_LEAN_AND_MEAN
+
+#include <winsock2.h>
+#include <stdio.h>
+#include <windows.h>
 
 
 // need link with Ws2_32.lib
@@ -158,7 +154,7 @@ int __cdecl main(int argc, char **argv)
 
     // Validate the parameters
     if (argc != 2) {
-        printf("usage: %s &lt;IPv4 address&gt;\n", argv[0]);
+        printf("usage: %s <IPv4 address>\n", argv[0]);
         printf("  inetaddr converts a string containing an\n");
         printf("  IPv4 address in one of the supported formats\n");
         printf("  to a unsigned long representing an IN_ADDR\n");
@@ -166,7 +162,7 @@ int __cdecl main(int argc, char **argv)
         return 1;
     }
     // Initialize Winsock
-    iResult = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
+    iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
     if (iResult != 0) {
         printf("WSAStartup failed: %d\n", iResult);
         return 1;
@@ -192,15 +188,15 @@ int __cdecl main(int argc, char **argv)
     
     // Here we could implement code to retrieve each address and 
     // print out the hex bytes
-    // for(i=0, ptr= (Char*) &amp;ulAddr; i &lt; 4; i++, ptr++) {
+    // for(i=0, ptr= (Char*) &ulAddr; i < 4; i++, ptr++) {
 
     WSACleanup();
     return 0;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

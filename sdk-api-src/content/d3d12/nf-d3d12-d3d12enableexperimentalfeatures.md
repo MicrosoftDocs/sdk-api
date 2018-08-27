@@ -125,13 +125,9 @@ If this function is called again with a different list of features to enable, al
 
 This example shows what an experimental feature definition looks like.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// --------------------------------------------------------------------------------------------------------------------------------
+
+```cpp
+// --------------------------------------------------------------------------------------------------------------------------------
 // Experimental Feature: D3D12ExperimentalShaderModels
 //
 // Use with D3D12EnableExperimentalFeatures to enable experimental shader model support,
@@ -146,10 +142,10 @@ static const UUID D3D12ExperimentalShaderModels = { /* 76f5573e-f13a-40f5-b297-8
     0x40f5,
     { 0xb2, 0x97, 0x81, 0xce, 0x9e, 0x18, 0x93, 0x3f }
 };
-	</pre>
-</td>
-</tr>
-</table></span></div>
+	
+```
+
+
 
 
 

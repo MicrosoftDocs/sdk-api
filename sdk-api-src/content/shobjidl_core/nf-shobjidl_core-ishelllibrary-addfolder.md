@@ -91,13 +91,9 @@ For convenience, <a href="https://msdn.microsoft.com/308e7905-dfa1-438f-9e7e-f89
 
 The following code example shows the helper function <a href="https://msdn.microsoft.com/308e7905-dfa1-438f-9e7e-f895517e7adb">SHAddFolderPathToLibrary</a>, which wraps this method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//
+
+```cpp
+//
 // From Shobjidl.h
 //
 __inline HRESULT SHAddFolderPathToLibrary (
@@ -110,18 +106,18 @@ __inline HRESULT SHAddFolderPathToLibrary (
     HRESULT hr = SHCreateItemFromParsingName (
       pszFolderPath, 
       NULL,
-      IID_PPV_ARGS(&amp;psiFolder));
+      IID_PPV_ARGS(&psiFolder));
     
     if (SUCCEEDED(hr))
     {
-        hr = plib-&gt;AddFolder (psiFolder);
-        psiFolder-&gt;Release ();
+        hr = plib->AddFolder (psiFolder);
+        psiFolder->Release ();
     }
     return hr;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

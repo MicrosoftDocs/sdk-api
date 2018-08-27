@@ -91,35 +91,27 @@ This macro does not check whether the four-character code it returns is valid.
 
 The <b>mmioFOURCC</b> macro is defined as follows:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 #define mmioFOURCC(ch0, ch1, ch2, ch3) \ 
     MAKEFOURCC(ch0, ch1, ch2, ch3); 
  
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The <b>MAKEFOURCC</b> macro, in turn, is defined as follows:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 #define MAKEFOURCC(ch0, ch1, ch2, ch3)  \ 
-    ((DWORD)(BYTE)(ch0) | ((DWORD)(BYTE)(ch1) &lt;&lt; 8) |  \ 
-    ((DWORD)(BYTE)(ch2) &lt;&lt; 16) | ((DWORD)(BYTE)(ch3) &lt;&lt; 24 )); 
-</pre>
-</td>
-</tr>
-</table></span></div>
+    ((DWORD)(BYTE)(ch0) | ((DWORD)(BYTE)(ch1) << 8) |  \ 
+    ((DWORD)(BYTE)(ch2) << 16) | ((DWORD)(BYTE)(ch3) << 24 )); 
+
+```
+
+
 
 

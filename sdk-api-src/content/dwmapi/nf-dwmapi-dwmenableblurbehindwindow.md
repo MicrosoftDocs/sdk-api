@@ -99,13 +99,9 @@ This function must be called whenver Desktop Window Manager (DWM) composition is
 
 The following example demonstrates how to apply the blur behind the entire window.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT EnableBlurBehind(HWND hwnd)
 {
    HRESULT hr = S_OK;
@@ -119,16 +115,16 @@ HRESULT EnableBlurBehind(HWND hwnd)
    bb.hRgnBlur = NULL;
 
    // Apply Blur Behind
-   hr = DwmEnableBlurBehindWindow(hwnd, &amp;bb);
+   hr = DwmEnableBlurBehindWindow(hwnd, &bb);
    if (SUCCEEDED(hr))
    {
       // ...
    }
    return hr;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

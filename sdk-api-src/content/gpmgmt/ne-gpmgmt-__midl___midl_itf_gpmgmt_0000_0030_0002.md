@@ -55,19 +55,15 @@ req.product: GDI+ 1.1
 <b>GPMStarterGPOType</b> defines if  the Starter Group Policy object is a system  Starter Group Policy object or a custom Starter Group Policy object.
 
 <b>GPMStarterGPOType</b> defines if   the Starter Group Policy object is a system  Starter Group Policy object or a custom Starter Group Policy object.
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>typedef enum {
+
+```cpp
+typedef enum {
         typeSystem = 0,
         typeCustom
-} GPMStarterGPOType;</pre>
-</td>
-</tr>
-</table></span></div>
+} GPMStarterGPOType;
+```
+
+
 
 ## -enum-fields
 

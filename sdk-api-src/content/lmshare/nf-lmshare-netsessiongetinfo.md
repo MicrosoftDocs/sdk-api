@@ -285,20 +285,16 @@ The following code sample demonstrates how to retrieve information about a sessi
 <b>NetSessionGetInfo</b>, specifying information level 10 (
 <a href="https://msdn.microsoft.com/a23a5647-f99d-4cb8-9d84-93653a3e7428">SESSION_INFO_10</a>). If the call succeeds, the code prints information about the session. Finally, the sample frees the memory allocated for the information buffer.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef UNICODE
+
+```cpp
+#ifndef UNICODE
 #define UNICODE
 #endif
 #pragma comment(lib, "Netapi32.lib")
 
-#include &lt;stdio.h&gt;
-#include &lt;windows.h&gt; 
-#include &lt;lm.h&gt;
+#include <stdio.h>
+#include <windows.h> 
+#include <lm.h>
 
 int wmain(int argc, wchar_t *argv[])
 {
@@ -334,7 +330,7 @@ int wmain(int argc, wchar_t *argv[])
                                pszUNCClientName,
                                pszUserName,
                                dwLevel,
-                               (LPBYTE *)&amp;pBuf);
+                               (LPBYTE *)&pBuf);
    //
    // If the call succeeds,
    //
@@ -345,10 +341,10 @@ int wmain(int argc, wchar_t *argv[])
          //
          // Print the session information. 
          //
-         wprintf(L"\n\tClient: %s\n", pBuf-&gt;sesi10_cname);
-         wprintf(L"\tUser:   %s\n", pBuf-&gt;sesi10_username);
-         printf("\tActive: %d\n", pBuf-&gt;sesi10_time);
-         printf("\tIdle:   %d\n", pBuf-&gt;sesi10_idle_time);
+         wprintf(L"\n\tClient: %s\n", pBuf->sesi10_cname);
+         wprintf(L"\tUser:   %s\n", pBuf->sesi10_username);
+         printf("\tActive: %d\n", pBuf->sesi10_time);
+         printf("\tIdle:   %d\n", pBuf->sesi10_idle_time);
       }
    }
    //
@@ -364,10 +360,10 @@ int wmain(int argc, wchar_t *argv[])
 
    return 0;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

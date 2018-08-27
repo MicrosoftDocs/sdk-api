@@ -93,68 +93,56 @@ The <code>RegisterService</code> method enables you to register a service with t
 
 A service is identified by a GUID, called the service identifier (SID). One service can support multiple interfaces. To register the service, call <code>RegisterService</code>, as shown in the following code:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 DEFINE_GUID(SID_MyService, ....);
 IRegisterServiceProvider *pRSP;
-hr = pGraph-&gt;QueryInterface(IID_IRegisterServiceProvider, (void**)&amp;pRSP);
+hr = pGraph->QueryInterface(IID_IRegisterServiceProvider, (void**)&pRSP);
 if (SUCCEEDED(hr))
 {
     IUnknown pServiceObj;
-    MyCreateServiceHelper(SID_MyService, &amp;pServiceObj);
-    pRSP-&gt;RegisterService(SID_MyService, pServiceObj);
-    pRSP-&gt;Release();
-    pServiceObj-&gt;Release();
+    MyCreateServiceHelper(SID_MyService, &pServiceObj);
+    pRSP->RegisterService(SID_MyService, pServiceObj);
+    pRSP->Release();
+    pServiceObj->Release();
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 This example assumes that MyCreateServiceHelper is a helper function that creates the service object. A client could get a pointer to the service object by calling <b>IServiceProvider::QueryService</b>:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 IServiceProvider *pSP;
-hr = pGraph-&gt;QueryInterface(IID_IServiceProvider, (void**)&amp;pSP);
+hr = pGraph->QueryInterface(IID_IServiceProvider, (void**)&pSP);
 if (SUCCEEDED(hr))
 {
     ISomeInterface *pService;
-    hr = pSP-&gt;QueryService(SID_MyService, IID_ISomeInterface, (void**)&amp;pService);
-    pSP-&gt;Release();
+    hr = pSP->QueryService(SID_MyService, IID_ISomeInterface, (void**)&pService);
+    pSP->Release();
     if (SUCCEEDED(hr))
     {
-        pService-&gt;SomeMethod();
-        pService-&gt;Release();
+        pService->SomeMethod();
+        pService->Release();
     }
 };
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 To unregister the service, call <code>RegisterService</code> with a <b>NULL</b> pointer in the second parameter:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-pRSP-&gt;RegisterService(SID_MyService, NULL);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+
+pRSP->RegisterService(SID_MyService, NULL);
+
+```
+
+
 When the Filter Graph Manager is released, it unregisters all services.
 
 The Filter Graph Manager keeps a reference count on the service object until the service is unregistered. To prevent circular reference counts, the service object should not hold a reference count on the Filter Graph Manager. For example, you cannot use the destructor method of the service object to unregister the service, because as long as the service holds a reference count on the Filter Graph Manager, the destructor will never be called. One solution is to create a separate object that registers and unregisters the service. Or, you can simply release the service object after you register it and let the Filter Graph Manager control its lifetime.

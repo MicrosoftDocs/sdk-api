@@ -93,14 +93,10 @@ If the screen saver should not be activated, the function returns <b>FALSE</b>.
 
 If your GINA DLL does not export this function, Winlogon uses the following default behavior.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;Winwlx.h&gt;
+
+```cpp
+#include <windows.h>
+#include <Winwlx.h>
 
 BOOL DefaultScreenSaverNotify(
    PVOID   pWlxContext,
@@ -112,10 +108,10 @@ BOOL DefaultScreenSaverNotify(
   }
   return(TRUE);
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Before calling <b>WlxScreenSaverNotify</b>, Winlogon sets the desktop state so that the current desktop is the Winlogon desktop and sets the workstation state so that the desktop is locked.
 
 

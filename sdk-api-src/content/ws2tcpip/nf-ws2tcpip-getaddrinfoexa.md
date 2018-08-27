@@ -264,23 +264,19 @@ This parameter is only supported when the <b>UNICODE</b> or <b>_UNICODE</b> macr
 
 On Windows 8 and Windows Server 2012, if this parameter is specified, it must be a pointer to a function with the following signature:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>typedef   
+
+```cpp
+typedef   
 void   
 (CALLBACK * LPLOOKUPSERVICE_COMPLETION_ROUTINE)(   
     __in      DWORD    dwError,   
     __in      DWORD    dwBytes,   
     __in      LPWSAOVERLAPPED lpOverlapped   
     );   
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 When the asynchronous operation has completed, the completion routine will be invoked with <i>lpOverlapped</i> parameter set to the value of <i>lpOverlapped</i> parameter passed to <b>GetAddrInfoEx</b>. The <b>Pointer</b> member of the <a href="https://msdn.microsoft.com/5037f6b9-e316-483b-a8e2-b58d2587ebd9">OVERLAPPED</a> structure will be set to the value of the <i>ppResult</i> parameter of the original call. If the <b>Pointer</b> member points to a non-NULL pointer to the <a href="https://msdn.microsoft.com/1077e03d-a1a4-45ab-a5d2-29a67e03f5df">addrinfoex</a> structure, it is the caller’s responsibility to call <a href="https://msdn.microsoft.com/bc3d7ba7-ec00-4ee0-ad7d-d46641043a7b">FreeAddrInfoEx</a> to free the <b>addrinfoex</b>  structure. The <i>dwError</i> parameter passed to the completion routine will be set to a Winsock error code. The <i>dwBytes</i> parameter is reserved for future use and must be ignored.
 
 On Windows 8 and Windows Server 2012 whenever the <b>UNICODE</b> or <b>_UNICODE</b> macro is not defined,  this parameter is currently reserved and must be set to <b>NULL</b>. 
@@ -592,20 +588,16 @@ All information returned by the
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following example demonstrates the use of the <b>GetAddrInfoEx</b> function.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef UNICODE
+
+```cpp
+#ifndef UNICODE
 #define UNICODE
 #endif
 
-#include &lt;winsock2.h&gt;
-#include &lt;ws2tcpip.h&gt;
-#include &lt;objbase.h&gt;
-#include &lt;stdio.h&gt;
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <objbase.h>
+#include <stdio.h>
 
 // Need to link with Ws2_32.lib
 #pragma comment(lib, "ws2_32.lib")
@@ -645,7 +637,7 @@ int __cdecl wmain(int argc, wchar_t ** argv)
 
     // Validate the parameters
     if (argc != 4) {
-        wprintf(L"usage: %ws &lt;hostname&gt; &lt;servicename&gt; &lt;namespace&gt;\n", argv[0]);
+        wprintf(L"usage: %ws <hostname> <servicename> <namespace>\n", argv[0]);
         wprintf(L"getaddrinfoex provides protocol-independent translation\n");
         wprintf(L"   from a host name to an IP address\n");
         wprintf(L"%ws example usage\n", argv[0]);
@@ -655,7 +647,7 @@ int __cdecl wmain(int argc, wchar_t ** argv)
         return 1;
     }
     // Initialize Winsock
-    iResult = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
+    iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
     if (iResult != 0) {
         wprintf(L"WSAStartup failed: %d\n", iResult);
         return 1;
@@ -663,7 +655,7 @@ int __cdecl wmain(int argc, wchar_t ** argv)
     //--------------------------------
     // Setup the hints address info structure
     // which is passed to the getaddrinfo() function
-    ZeroMemory(&amp;hints, sizeof (hints));
+    ZeroMemory(&hints, sizeof (hints));
     hints.ai_family = AF_UNSPEC;
     hints.ai_socktype = SOCK_STREAM;
     hints.ai_protocol = IPPROTO_TCP;
@@ -717,7 +709,7 @@ int __cdecl wmain(int argc, wchar_t ** argv)
 // of addrinfo structures containing response
 // information
     dwRetval =
-        GetAddrInfoEx(argv[1], argv[2], dwNamespace, lpNspid, &amp;hints, &amp;result,
+        GetAddrInfoEx(argv[1], argv[2], dwNamespace, lpNspid, &hints, &result,
                       NULL, NULL, NULL, NULL);
     if (dwRetval != 0) {
         wprintf(L"GetAddrInfoEx failed with error: %d\n", dwRetval);
@@ -728,30 +720,30 @@ int __cdecl wmain(int argc, wchar_t ** argv)
     wprintf(L"GetAddrInfoEx returned success\n");
 
     // Retrieve each address and print out the hex bytes
-    for (ptr = result; ptr != NULL; ptr = ptr-&gt;ai_next) {
+    for (ptr = result; ptr != NULL; ptr = ptr->ai_next) {
 
         wprintf(L"GetAddrInfoEx response %d\n", i++);
-        wprintf(L"\tFlags: 0x%x\n", ptr-&gt;ai_flags);
+        wprintf(L"\tFlags: 0x%x\n", ptr->ai_flags);
         wprintf(L"\tFamily: ");
-        switch (ptr-&gt;ai_family) {
+        switch (ptr->ai_family) {
         case AF_UNSPEC:
             wprintf(L"Unspecified\n");
             break;
         case AF_INET:
             wprintf(L"AF_INET (IPv4)\n");
             // the InetNtop function is available on Windows Vista and later
-            sockaddr_ipv4 = (struct sockaddr_in *) ptr-&gt;ai_addr;
+            sockaddr_ipv4 = (struct sockaddr_in *) ptr->ai_addr;
             wprintf(L"\tIPv4 address %ws\n",
-                    InetNtop(AF_INET, &amp;sockaddr_ipv4-&gt;sin_addr, ipstringbuffer,
+                    InetNtop(AF_INET, &sockaddr_ipv4->sin_addr, ipstringbuffer,
                              46));
 
             // We could also use the WSAAddressToString function
-            // sockaddr_ip = (LPSOCKADDR) ptr-&gt;ai_addr;
+            // sockaddr_ip = (LPSOCKADDR) ptr->ai_addr;
             // The buffer length is changed by each call to WSAAddresstoString
             // So we need to set it for each iteration through the loop for safety
             // ipbufferlength = 46;
-            // iRetval = WSAAddressToString(sockaddr_ip, (DWORD) ptr-&gt;ai_addrlen, NULL, 
-            //    ipstringbuffer, &amp;ipbufferlength );
+            // iRetval = WSAAddressToString(sockaddr_ip, (DWORD) ptr->ai_addrlen, NULL, 
+            //    ipstringbuffer, &ipbufferlength );
             // if (iRetval)
             //    wprintf(L"WSAAddressToString failed with %u\n", WSAGetLastError() );
             // else    
@@ -760,29 +752,29 @@ int __cdecl wmain(int argc, wchar_t ** argv)
         case AF_INET6:
             wprintf(L"AF_INET6 (IPv6)\n");
             // the InetNtop function is available on Windows Vista and later
-            sockaddr_ipv6 = (struct sockaddr_in6 *) ptr-&gt;ai_addr;
+            sockaddr_ipv6 = (struct sockaddr_in6 *) ptr->ai_addr;
             wprintf(L"\tIPv6 address %ws\n",
-                    InetNtop(AF_INET6, &amp;sockaddr_ipv6-&gt;sin6_addr,
+                    InetNtop(AF_INET6, &sockaddr_ipv6->sin6_addr,
                              ipstringbuffer, 46));
 
             // We could also use WSAAddressToString which also returns the scope ID
-            // sockaddr_ip = (LPSOCKADDR) ptr-&gt;ai_addr;
+            // sockaddr_ip = (LPSOCKADDR) ptr->ai_addr;
             // The buffer length is changed by each call to WSAAddresstoString
             // So we need to set it for each iteration through the loop for safety
             // ipbufferlength = 46;
-            //iRetval = WSAAddressToString(sockaddr_ip, (DWORD) ptr-&gt;ai_addrlen, NULL, 
-            //    ipstringbuffer, &amp;ipbufferlength );
+            //iRetval = WSAAddressToString(sockaddr_ip, (DWORD) ptr->ai_addrlen, NULL, 
+            //    ipstringbuffer, &ipbufferlength );
             //if (iRetval)
             //    wprintf(L"WSAAddressToString failed with %u\n", WSAGetLastError() );
             //else    
             //    wprintf(L"\tIPv6 address %ws\n", ipstringbuffer);
             break;
         default:
-            wprintf(L"Other %ld\n", ptr-&gt;ai_family);
+            wprintf(L"Other %ld\n", ptr->ai_family);
             break;
         }
         wprintf(L"\tSocket type: ");
-        switch (ptr-&gt;ai_socktype) {
+        switch (ptr->ai_socktype) {
         case 0:
             wprintf(L"Unspecified\n");
             break;
@@ -802,11 +794,11 @@ int __cdecl wmain(int argc, wchar_t ** argv)
             wprintf(L"SOCK_SEQPACKET (pseudo-stream packet)\n");
             break;
         default:
-            wprintf(L"Other %ld\n", ptr-&gt;ai_socktype);
+            wprintf(L"Other %ld\n", ptr->ai_socktype);
             break;
         }
         wprintf(L"\tProtocol: ");
-        switch (ptr-&gt;ai_protocol) {
+        switch (ptr->ai_protocol) {
         case 0:
             wprintf(L"Unspecified\n");
             break;
@@ -817,26 +809,26 @@ int __cdecl wmain(int argc, wchar_t ** argv)
             wprintf(L"IPPROTO_UDP (UDP) \n");
             break;
         default:
-            wprintf(L"Other %ld\n", ptr-&gt;ai_protocol);
+            wprintf(L"Other %ld\n", ptr->ai_protocol);
             break;
         }
-        wprintf(L"\tLength of this sockaddr: %d\n", ptr-&gt;ai_addrlen);
-        wprintf(L"\tCanonical name: %s\n", ptr-&gt;ai_canonname);
+        wprintf(L"\tLength of this sockaddr: %d\n", ptr->ai_addrlen);
+        wprintf(L"\tCanonical name: %s\n", ptr->ai_canonname);
 
-        if (ptr-&gt;ai_blob == NULL)
+        if (ptr->ai_blob == NULL)
             wprintf(L"\tBlob: (null)\n");
         else    
             wprintf(L"\tLength of the blob: %u\n",
-                    (DWORD) ptr-&gt;ai_bloblen);
+                    (DWORD) ptr->ai_bloblen);
 
-        if (ptr-&gt;ai_provider == NULL)
+        if (ptr->ai_provider == NULL)
             wprintf(L"\tNamespace provider GUID: (null)\n");
         else {
             iRet =
-                StringFromGUID2(*(ptr-&gt;ai_provider), (LPOLESTR) &amp; GuidString,
+                StringFromGUID2(*(ptr->ai_provider), (LPOLESTR) & GuidString,
                                 39);
             // For c rather than C++ source code, the above line needs to be
-            // iRet = StringFromGUID2(&amp;ptr.ai_provider, (LPOLESTR) &amp;GuidString, 39); 
+            // iRet = StringFromGUID2(&ptr.ai_provider, (LPOLESTR) &GuidString, 39); 
             if (iRet == 0)
                 wprintf(L"StringFromGUID2 failed\n");
             else {
@@ -851,34 +843,30 @@ int __cdecl wmain(int argc, wchar_t ** argv)
     return 0;
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The following example demonstrates how to use the <b>GetAddrInfoEx</b> function asynchronous to
 resolve a name to an IP address..
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>//
+
+```cpp
+//
 //    This sample demonstrates how to use asynchronous GetAddrInfoEx to
 //    resolve a name to an IP address.
 //
-//    ResolveName &lt;QueryName&gt;
+//    ResolveName <QueryName>
 //
 
 #ifndef UNICODE
 #define UNICODE
 #endif
 
-#include &lt;winsock2.h&gt;
-#include &lt;ws2tcpip.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;stdlib.h&gt;
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 // Need to link with Ws2_32.lib
 #pragma comment(lib, "ws2_32.lib")
@@ -918,7 +906,7 @@ wmain(
     HANDLE              CancelHandle = NULL;
     DWORD               QueryTimeout = 5 * 1000; // 5 seconds
 
-    ZeroMemory(&amp;QueryContext, sizeof(QueryContext));
+    ZeroMemory(&QueryContext, sizeof(QueryContext));
 
     //
     //  Validate the parameters
@@ -926,7 +914,7 @@ wmain(
 
     if (Argc != 2)
     {
-        wprintf(L"Usage: ResolveName &lt;QueryName&gt;\n");
+        wprintf(L"Usage: ResolveName <QueryName>\n");
         goto exit;
     }
 
@@ -934,7 +922,7 @@ wmain(
     //  All Winsock functions require WSAStartup() to be called first
     //
 
-    Error = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
+    Error = WSAStartup(MAKEWORD(2, 2), &wsaData);
     if (Error != 0)
     {
         wprintf(L"WSAStartup failed with %d\n", Error);
@@ -943,7 +931,7 @@ wmain(
 
     IsWSAStartupCalled = TRUE;
 
-    ZeroMemory(&amp;Hints, sizeof(Hints));
+    ZeroMemory(&Hints, sizeof(Hints));
     Hints.ai_family = AF_UNSPEC;
 
     //
@@ -975,12 +963,12 @@ wmain(
                            NULL,
                            NS_DNS,
                            NULL,
-                           &amp;Hints,
-                           &amp;QueryContext.QueryResults,
+                           &Hints,
+                           &QueryContext.QueryResults,
                            NULL,
-                           &amp;QueryContext.QueryOverlapped,
+                           &QueryContext.QueryOverlapped,
                            QueryCompleteCallback,
-                           &amp;CancelHandle);
+                           &CancelHandle);
 
     //
     //  If GetAddrInfoExW() returns  WSA_IO_PENDING, GetAddrInfoExW will invoke
@@ -990,7 +978,7 @@ wmain(
 
     if (Error != WSA_IO_PENDING)
     {
-        QueryCompleteCallback(Error, 0, &amp;QueryContext.QueryOverlapped);
+        QueryCompleteCallback(Error, 0, &QueryContext.QueryOverlapped);
         goto exit;
     }
 
@@ -1013,7 +1001,7 @@ wmain(
         wprintf(L"The query took longer than %d seconds to complete; "
                 L"cancelling the query...\n", QueryTimeout/1000);
 
-        GetAddrInfoExCancel(&amp;CancelHandle);
+        GetAddrInfoExCancel(&CancelHandle);
 
         WaitForSingleObject(QueryContext.CompleteEvent,
                             INFINITE);
@@ -1065,40 +1053,40 @@ QueryCompleteCallback(
 
     wprintf(L"ResolveName succeeded. Query Results:\n");
 
-    QueryResults = QueryContext-&gt;QueryResults;
+    QueryResults = QueryContext->QueryResults;
 
     while(QueryResults)
     {
         AddressStringLength = MAX_ADDRESS_STRING_LENGTH;
 
-        WSAAddressToString(QueryResults-&gt;ai_addr,
-                           (DWORD)QueryResults-&gt;ai_addrlen,
+        WSAAddressToString(QueryResults->ai_addr,
+                           (DWORD)QueryResults->ai_addrlen,
                            NULL,
                            AddrString,
-                           &amp;AddressStringLength);
+                           &AddressStringLength);
 
         wprintf(L"Ip Address: %s\n", AddrString);
-        QueryResults = QueryResults-&gt;ai_next;
+        QueryResults = QueryResults->ai_next;
     }
 
 exit:
 
-    if (QueryContext-&gt;QueryResults)
+    if (QueryContext->QueryResults)
     {
-        FreeAddrInfoEx(QueryContext-&gt;QueryResults);
+        FreeAddrInfoEx(QueryContext->QueryResults);
     }
 
     //
     //  Notify caller that the query completed
     //
 
-    SetEvent(QueryContext-&gt;CompleteEvent);
+    SetEvent(QueryContext->CompleteEvent);
     return;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 <div class="alert"><b>Note</b>  Ensure that the development environment targets the newest version of <i>Ws2tcpip.h</i> which includes structure and function definitions for <a href="https://msdn.microsoft.com/1077e03d-a1a4-45ab-a5d2-29a67e03f5df">addrinfoex</a> and <b>GetAddrInfoEx</b>, respectively.</div>
 <div> </div>

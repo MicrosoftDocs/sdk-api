@@ -350,16 +350,12 @@ Note that the include directive for <i>Iphlpapi.h</i> header file must be placed
 
 The following example calls the <b>IcmpSendEcho2</b> function synchronously. The example sends an ICMP echo request to the IP address specified on the command line and prints the information received from the first response.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;winsock2.h&gt;
-#include &lt;iphlpapi.h&gt;
-#include &lt;icmpapi.h&gt;
-#include &lt;stdio.h&gt;
+
+```cpp
+#include <winsock2.h>
+#include <iphlpapi.h>
+#include <icmpapi.h>
+#include <stdio.h>
 
 #pragma comment(lib, "iphlpapi.lib")
 #pragma comment(lib, "ws2_32.lib")
@@ -409,9 +405,9 @@ int __cdecl main(int argc, char **argv)
     if (dwRetVal != 0) {
         PICMP_ECHO_REPLY pEchoReply = (PICMP_ECHO_REPLY) ReplyBuffer;
         struct in_addr ReplyAddr;
-        ReplyAddr.S_un.S_addr = pEchoReply-&gt;Address;
+        ReplyAddr.S_un.S_addr = pEchoReply->Address;
         printf("\tSent icmp message to %s\n", argv[1]);
-        if (dwRetVal &gt; 1) {
+        if (dwRetVal > 1) {
             printf("\tReceived %ld icmp message responses\n", dwRetVal);
             printf("\tInformation from the first response:\n");
         } else {
@@ -419,8 +415,8 @@ int __cdecl main(int argc, char **argv)
             printf("\tInformation from this response:\n");
         }
         printf("\t  Received from %s\n", inet_ntoa(ReplyAddr));
-        printf("\t  Status = %ld  ", pEchoReply-&gt;Status);
-        switch (pEchoReply-&gt;Status) {
+        printf("\t  Status = %ld  ", pEchoReply->Status);
+        switch (pEchoReply->Status) {
         case IP_DEST_HOST_UNREACHABLE:
             printf("(Destination host was unreachable)\n");
             break;
@@ -436,7 +432,7 @@ int __cdecl main(int argc, char **argv)
         }
 
         printf("\t  Roundtrip time = %ld milliseconds\n",
-               pEchoReply-&gt;RoundTripTime);
+               pEchoReply->RoundTripTime);
     } else {
         printf("Call to IcmpSendEcho2 failed.\n");
         dwError = GetLastError();
@@ -455,10 +451,10 @@ int __cdecl main(int argc, char **argv)
     }
     return 0;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

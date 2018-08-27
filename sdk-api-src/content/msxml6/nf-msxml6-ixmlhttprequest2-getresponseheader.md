@@ -88,18 +88,14 @@ The results of this method are valid only after <a href="https://msdn.microsoft.
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT hr = S_OK;
+
+```cpp
+HRESULT hr = S_OK;
 WCHAR *pwszHeaderValue = NULL;
 IXMLHTTPRequest2 *pIXMLHTTPRequest2 = NULL;
 
 // Create XMLHTTPRequest2 object and initialize pIXMLHTTP2Request.
-hr = pIXMLHTTPRequest2-&gt;GetResponseHeader(L"Server", &amp;pwszHeaderValue);
+hr = pIXMLHTTPRequest2->GetResponseHeader(L"Server", &pwszHeaderValue);
 if(SUCCEEDED(hr))
 {
    MessageBox(NULL, pwszHeaderValue, L"Response Header-Server", MB_OK);   
@@ -112,10 +108,10 @@ if (pwszHeaderValue != NULL)
 }
 
 // Release pIXMLHTTPRequest2 when finished with it.
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

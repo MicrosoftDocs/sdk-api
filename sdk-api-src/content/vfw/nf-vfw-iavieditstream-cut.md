@@ -99,20 +99,16 @@ Returns the HRESULT defined by OLE.
 
 For handlers written in C++, <b>Cut</b> has the following syntax:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
 HRESULT Cut(LONG *plStart, LONG *plLength, 
     PAVISTREAM *ppResult); 
  
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

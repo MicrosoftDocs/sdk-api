@@ -131,29 +131,25 @@ After calling <b>SafeArrayAccessData</b>, you must call the <a href="https://msd
 
 The following example sorts a safe array of one dimension that contains BSTRs by accessing the array elements directly. This approach is faster than using <a href="https://msdn.microsoft.com/47e9ee31-1e3b-4193-8467-6ef0db05966e">SafeArrayGetElement</a> and <a href="https://msdn.microsoft.com/7c837b4f-d319-4d98-934a-b585fe521bf8">SafeArrayPutElement</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>long i, j, min; 
+
+```cpp
+long i, j, min; 
 BSTR bstrTemp;
 BSTR HUGEP *pbstr;
 HRESULT hr;
 
 // Get a pointer to the elements of the array.
-hr = SafeArrayAccessData(psa, (void HUGEP**)&amp;pbstr);
+hr = SafeArrayAccessData(psa, (void HUGEP**)&pbstr);
 if (FAILED(hr))
 goto error;
 
 // Selection sort.
-for (i = 0; i &lt; psa-&gt;rgsabound.cElements-1; i++)
+for (i = 0; i < psa->rgsabound.cElements-1; i++)
 {
    min = i;
-   for (j = i+1; j &lt; psa-&gt;rgsabound.cElements; j++)
+   for (j = i+1; j < psa->rgsabound.cElements; j++)
    {
-      if (wcscmp(pbstr[j], pbstr[min]) &lt; 0)
+      if (wcscmp(pbstr[j], pbstr[min]) < 0)
          min = j; 
    }
 
@@ -164,9 +160,9 @@ for (i = 0; i &lt; psa-&gt;rgsabound.cElements-1; i++)
 
 }
 
-SafeArrayUnaccessData(psa);</pre>
-</td>
-</tr>
-</table></span></div>
+SafeArrayUnaccessData(psa);
+```
+
+
 
 

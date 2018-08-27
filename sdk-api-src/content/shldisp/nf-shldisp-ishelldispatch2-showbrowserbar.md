@@ -156,13 +156,9 @@ The following examples show the use of <b>ShowBrowserBar</b> to display the <b>F
 JScript:
                 
 
-<div class="code"><span codelanguage="JScript"><table>
-<tr>
-<th>JScript</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;script language="JavaScript"&gt;
+
+```javascript
+<script language="JavaScript">
     function fnShowBrowserBarJ()
     {
         var objShell = new ActiveXObject("shell.application");
@@ -170,20 +166,16 @@ JScript:
         
         bReturn = objShell.ShowBrowserBar("{EFA24E61-B078-11d0-89E4-00C04FC9E26E}", true);
     }
-&lt;/script&gt;
-</pre>
-</td>
-</tr>
-</table></span></div>
+</script>
+
+```
+
+
 VBScript:
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;script language="VBScript"&gt;
+
+```vb
+<script language="VBScript">
     function fnShowBrowserBarVB()
         dim objShell
         dim bReturn
@@ -194,10 +186,10 @@ VBScript:
 
         set objShell = nothing
     end function
-&lt;/script&gt;
-</pre>
-</td>
-</tr>
-</table></span></div>
+</script>
+
+```
+
+
 
 

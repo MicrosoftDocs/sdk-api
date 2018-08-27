@@ -112,17 +112,13 @@ For more information about using methods semisynchronously, see
 
 The following code shows how to use the <b>IEnumWbemClassObject::Clone</b> method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BOOL CloneEnum(IEnumWbemClassObject *pSrc)
+
+```cpp
+BOOL CloneEnum(IEnumWbemClassObject *pSrc)
 {
     IEnumWbemClassObject *pCopy = 0;
 
-    HRESULT hRes = pSrc-&gt;Clone(&amp;pCopy);
+    HRESULT hRes = pSrc->Clone(&pCopy);
 
     if (hRes != WBEM_S_NO_ERROR)       // Failed to clone it.
         return FALSE;
@@ -130,12 +126,12 @@ The following code shows how to use the <b>IEnumWbemClassObject::Clone</b> metho
     // Use the copy of the enumerator.
     // ...
 
-    pCopy-&gt;Release();
+    pCopy->Release();
 
     return TRUE;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 

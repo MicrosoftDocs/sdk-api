@@ -145,19 +145,15 @@ The first is to have the <b>BCryptEnumRegisteredProviders</b> function allocate 
 
 The following example shows how to use the <b>BCryptEnumRegisteredProviders</b> function to allocate memory by passing the address of a <b>NULL</b> pointer for the <i>ppBuffer</i> parameter.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>PCRYPT_PROVIDERS pBuffer = NULL;
-BCryptEnumRegisteredProviders(/*...*/, &amp;pBuffer);
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+```cpp
+PCRYPT_PROVIDERS pBuffer = NULL;
+BCryptEnumRegisteredProviders(/*...*/, &pBuffer);
+
+
+```
+
+
 This code will allocate the memory required for the <a href="https://msdn.microsoft.com/aef0e173-d3df-466e-ac2a-c686cae5edc9">CRYPT_PROVIDERS</a> structure and the associated strings. When the <b>BCryptEnumRegisteredProviders</b> function is used in this manner, you must free the memory when it is no longer needed by passing <i>ppBuffer</i> to the <a href="https://msdn.microsoft.com/0ee83ca1-2fe6-4ff2-823e-888b3e66f310">BCryptFreeBuffer</a> function.
 
 </li>

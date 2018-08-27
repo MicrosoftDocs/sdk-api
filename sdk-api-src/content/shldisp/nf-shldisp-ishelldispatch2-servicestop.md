@@ -126,13 +126,9 @@ The following examples show the use of <b>ServiceStop</b> to stop the Messenger 
 JScript:
                 
 
-<div class="code"><span codelanguage="JScript"><table>
-<tr>
-<th>JScript</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;script language="JScript"&gt;
+
+```javascript
+<script language="JScript">
     function fnServiceStopJ()
     {
         var objShell = new ActiveXObject("shell.application");
@@ -140,20 +136,16 @@ JScript:
         
         bReturn = objShell.ServiceStop("Messenger", true);
     }
-&lt;/script&gt;
-</pre>
-</td>
-</tr>
-</table></span></div>
+</script>
+
+```
+
+
 VBScript:
 
-<div class="code"><span codelanguage="VisualBasic"><table>
-<tr>
-<th>VB</th>
-</tr>
-<tr>
-<td>
-<pre>&lt;script language="VBScript"&gt;
+
+```vb
+<script language="VBScript">
     function fnServiceStopVB()
         dim objShell
         dim bReturn
@@ -164,10 +156,10 @@ VBScript:
 
         set objShell = nothing
     end function
-&lt;/script&gt;
-</pre>
-</td>
-</tr>
-</table></span></div>
+</script>
+
+```
+
+
 
 

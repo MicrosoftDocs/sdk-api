@@ -86,16 +86,12 @@ The following code snippet shows how to create an instance of <a href="https://m
          
                 
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#include "shobjidl.h"
+
+```
+#include "shobjidl.h"
 #include "atlbase.h"   // For COM smart pointers
                     
-CComPtr&lt;IHomeGroup&gt; spHomeGroup;
+CComPtr<IHomeGroup> spHomeGroup;
 HRESULT hr = S_OK;
 BOOL fIsHGMember = FALSE;
 
@@ -107,16 +103,16 @@ if (FAILED(hr)) return hr;
 hr = CoCreateInstance(CLSID_HomeGroup, 
                       NULL, 
                       CLSCTX_INPROC_SERVER, 
-                      IID_PPV_ARGS(&amp;spHomeGroup));
+                      IID_PPV_ARGS(&spHomeGroup));
 
 if (FAILED(hr)) return hr;
 
 // fIsHGMember receives the value TRUE if the local computer is a member of a 
 // HomeGroup, or FALSE if the computer is not a HomeGroup member.
-hr = spHomeGroup-&gt;IsMember(&amp;fIsHGMember);</pre>
-</td>
-</tr>
-</table></span></div>
+hr = spHomeGroup->IsMember(&fIsHGMember);
+```
+
+
 
 
 

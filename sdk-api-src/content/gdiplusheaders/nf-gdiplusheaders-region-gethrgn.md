@@ -93,13 +93,9 @@ It is the caller's responsibility to call the GDI function
 
 The following example creates a GDI+ region from a path and then uses the GDI+ region to create a GDI region. The code then uses a GDI function to display the GDI region.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_GetHRGN(HDC hdc)
+
+```cpp
+VOID Example_GetHRGN(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -115,11 +111,11 @@ The following example creates a GDI+ region from a path and then uses the GDI+ r
    path.AddClosedCurve(points, 6);
 
     // Create a region from a path.
-    Region pathRegion(&amp;path);
+    Region pathRegion(&path);
 
    // Get a handle to a GDI region.
    HRGN hRegion;
-   hRegion = pathRegion.GetHRGN(&amp;graphics);
+   hRegion = pathRegion.GetHRGN(&graphics);
 
    // Use GDI to display the region.
    HBRUSH hBrush = CreateSolidBrush(RGB(255, 0, 0));
@@ -127,10 +123,10 @@ The following example creates a GDI+ region from a path and then uses the GDI+ r
 
    DeleteObject(hBrush);
    DeleteObject(hRegion);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

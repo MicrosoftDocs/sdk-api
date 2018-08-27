@@ -309,23 +309,19 @@ The following code sample demonstrates how to retrieve information about a parti
 <b>NetUserGetInfo</b> function. The sample calls 
 <b>NetUserGetInfo</b>, specifying various information levels . If the call succeeds, the code prints information about the user account. Finally, the sample frees the memory allocated for the information buffer.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef UNICODE
+
+```cpp
+#ifndef UNICODE
 #define UNICODE
 #endif
 #pragma comment(lib, "advapi32.lib")
 #pragma comment(lib, "netapi32.lib")
 
-#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
-#include &lt;assert.h&gt;
-#include &lt;lm.h&gt;
-#include &lt;sddl.h&gt;               /* for ConvertSidToStringSid function */
+#include <windows.h>
+#include <stdio.h>
+#include <assert.h>
+#include <lm.h>
+#include <sddl.h>               /* for ConvertSidToStringSid function */
 
 int wmain(int argc, wchar_t * argv[])
 {
@@ -354,7 +350,7 @@ int wmain(int argc, wchar_t * argv[])
         exit(1);
     }
 
-    while (i &lt; 24) 
+    while (i < 24) 
     {
 
         //
@@ -364,7 +360,7 @@ int wmain(int argc, wchar_t * argv[])
         wprintf
             (L"\nCalling NetUserGetinfo with Servername=%s Username=%s Level=%d\n",
              argv[1], argv[2], dwLevel);
-        nStatus = NetUserGetInfo(argv[1], argv[2], dwLevel, (LPBYTE *) &amp; pBuf);
+        nStatus = NetUserGetInfo(argv[1], argv[2], dwLevel, (LPBYTE *) & pBuf);
         //
         // If the call succeeds, print the user information.
         //
@@ -376,107 +372,107 @@ int wmain(int argc, wchar_t * argv[])
                 switch (i) 
                 {
                 case 0:
-                    wprintf(L"\tUser account name: %s\n", pBuf-&gt;usri0_name);
+                    wprintf(L"\tUser account name: %s\n", pBuf->usri0_name);
                     break;
                 case 1:
                     pBuf1 = (LPUSER_INFO_1) pBuf;
-                    wprintf(L"\tUser account name: %s\n", pBuf1-&gt;usri1_name);
-                    wprintf(L"\tPassword: %s\n", pBuf1-&gt;usri1_password);
+                    wprintf(L"\tUser account name: %s\n", pBuf1->usri1_name);
+                    wprintf(L"\tPassword: %s\n", pBuf1->usri1_password);
                     wprintf(L"\tPassword age (seconds): %d\n",
-                            pBuf1-&gt;usri1_password_age);
-                    wprintf(L"\tPrivilege level: %d\n", pBuf1-&gt;usri1_priv);
-                    wprintf(L"\tHome directory: %s\n", pBuf1-&gt;usri1_home_dir);
-                    wprintf(L"\tUser comment: %s\n", pBuf1-&gt;usri1_comment);
-                    wprintf(L"\tFlags (in hex): %x\n", pBuf1-&gt;usri1_flags);
-                    wprintf(L"\tScript path: %s\n", pBuf1-&gt;usri1_script_path);
+                            pBuf1->usri1_password_age);
+                    wprintf(L"\tPrivilege level: %d\n", pBuf1->usri1_priv);
+                    wprintf(L"\tHome directory: %s\n", pBuf1->usri1_home_dir);
+                    wprintf(L"\tUser comment: %s\n", pBuf1->usri1_comment);
+                    wprintf(L"\tFlags (in hex): %x\n", pBuf1->usri1_flags);
+                    wprintf(L"\tScript path: %s\n", pBuf1->usri1_script_path);
                     break;
                 case 2:
                     pBuf2 = (LPUSER_INFO_2) pBuf;
-                    wprintf(L"\tUser account name: %s\n", pBuf2-&gt;usri2_name);
-                    wprintf(L"\tPassword: %s\n", pBuf2-&gt;usri2_password);
+                    wprintf(L"\tUser account name: %s\n", pBuf2->usri2_name);
+                    wprintf(L"\tPassword: %s\n", pBuf2->usri2_password);
                     wprintf(L"\tPassword age (seconds): %d\n",
-                            pBuf2-&gt;usri2_password_age);
-                    wprintf(L"\tPrivilege level: %d\n", pBuf2-&gt;usri2_priv);
-                    wprintf(L"\tHome directory: %s\n", pBuf2-&gt;usri2_home_dir);
-                    wprintf(L"\tComment: %s\n", pBuf2-&gt;usri2_comment);
-                    wprintf(L"\tFlags (in hex): %x\n", pBuf2-&gt;usri2_flags);
-                    wprintf(L"\tScript path: %s\n", pBuf2-&gt;usri2_script_path);
+                            pBuf2->usri2_password_age);
+                    wprintf(L"\tPrivilege level: %d\n", pBuf2->usri2_priv);
+                    wprintf(L"\tHome directory: %s\n", pBuf2->usri2_home_dir);
+                    wprintf(L"\tComment: %s\n", pBuf2->usri2_comment);
+                    wprintf(L"\tFlags (in hex): %x\n", pBuf2->usri2_flags);
+                    wprintf(L"\tScript path: %s\n", pBuf2->usri2_script_path);
                     wprintf(L"\tAuth flags (in hex): %x\n",
-                            pBuf2-&gt;usri2_auth_flags);
-                    wprintf(L"\tFull name: %s\n", pBuf2-&gt;usri2_full_name);
-                    wprintf(L"\tUser comment: %s\n", pBuf2-&gt;usri2_usr_comment);
-                    wprintf(L"\tParameters: %s\n", pBuf2-&gt;usri2_parms);
-                    wprintf(L"\tWorkstations: %s\n", pBuf2-&gt;usri2_workstations);
+                            pBuf2->usri2_auth_flags);
+                    wprintf(L"\tFull name: %s\n", pBuf2->usri2_full_name);
+                    wprintf(L"\tUser comment: %s\n", pBuf2->usri2_usr_comment);
+                    wprintf(L"\tParameters: %s\n", pBuf2->usri2_parms);
+                    wprintf(L"\tWorkstations: %s\n", pBuf2->usri2_workstations);
                     wprintf
                         (L"\tLast logon (seconds since January 1, 1970 GMT): %d\n",
-                         pBuf2-&gt;usri2_last_logon);
+                         pBuf2->usri2_last_logon);
                     wprintf
                         (L"\tLast logoff (seconds since January 1, 1970 GMT): %d\n",
-                         pBuf2-&gt;usri2_last_logoff);
+                         pBuf2->usri2_last_logoff);
                     wprintf
                         (L"\tAccount expires (seconds since January 1, 1970 GMT): %d\n",
-                         pBuf2-&gt;usri2_acct_expires);
-                    wprintf(L"\tMax storage: %d\n", pBuf2-&gt;usri2_max_storage);
+                         pBuf2->usri2_acct_expires);
+                    wprintf(L"\tMax storage: %d\n", pBuf2->usri2_max_storage);
                     wprintf(L"\tUnits per week: %d\n",
-                            pBuf2-&gt;usri2_units_per_week);
+                            pBuf2->usri2_units_per_week);
                     wprintf(L"\tLogon hours:");
-                    for (j = 0; j &lt; 21; j++) 
+                    for (j = 0; j < 21; j++) 
                     {
-                        printf(" %x", (BYTE) pBuf2-&gt;usri2_logon_hours[j]);
+                        printf(" %x", (BYTE) pBuf2->usri2_logon_hours[j]);
                     }
                     wprintf(L"\n");
                     wprintf(L"\tBad password count: %d\n",
-                            pBuf2-&gt;usri2_bad_pw_count);
+                            pBuf2->usri2_bad_pw_count);
                     wprintf(L"\tNumber of logons: %d\n",
-                            pBuf2-&gt;usri2_num_logons);
-                    wprintf(L"\tLogon server: %s\n", pBuf2-&gt;usri2_logon_server);
-                    wprintf(L"\tCountry code: %d\n", pBuf2-&gt;usri2_country_code);
-                    wprintf(L"\tCode page: %d\n", pBuf2-&gt;usri2_code_page);
+                            pBuf2->usri2_num_logons);
+                    wprintf(L"\tLogon server: %s\n", pBuf2->usri2_logon_server);
+                    wprintf(L"\tCountry code: %d\n", pBuf2->usri2_country_code);
+                    wprintf(L"\tCode page: %d\n", pBuf2->usri2_code_page);
                     break;
                 case 4:
                     pBuf4 = (LPUSER_INFO_4) pBuf;
-                    wprintf(L"\tUser account name: %s\n", pBuf4-&gt;usri4_name);
-                    wprintf(L"\tPassword: %s\n", pBuf4-&gt;usri4_password);
+                    wprintf(L"\tUser account name: %s\n", pBuf4->usri4_name);
+                    wprintf(L"\tPassword: %s\n", pBuf4->usri4_password);
                     wprintf(L"\tPassword age (seconds): %d\n",
-                            pBuf4-&gt;usri4_password_age);
-                    wprintf(L"\tPrivilege level: %d\n", pBuf4-&gt;usri4_priv);
-                    wprintf(L"\tHome directory: %s\n", pBuf4-&gt;usri4_home_dir);
-                    wprintf(L"\tComment: %s\n", pBuf4-&gt;usri4_comment);
-                    wprintf(L"\tFlags (in hex): %x\n", pBuf4-&gt;usri4_flags);
-                    wprintf(L"\tScript path: %s\n", pBuf4-&gt;usri4_script_path);
+                            pBuf4->usri4_password_age);
+                    wprintf(L"\tPrivilege level: %d\n", pBuf4->usri4_priv);
+                    wprintf(L"\tHome directory: %s\n", pBuf4->usri4_home_dir);
+                    wprintf(L"\tComment: %s\n", pBuf4->usri4_comment);
+                    wprintf(L"\tFlags (in hex): %x\n", pBuf4->usri4_flags);
+                    wprintf(L"\tScript path: %s\n", pBuf4->usri4_script_path);
                     wprintf(L"\tAuth flags (in hex): %x\n",
-                            pBuf4-&gt;usri4_auth_flags);
-                    wprintf(L"\tFull name: %s\n", pBuf4-&gt;usri4_full_name);
-                    wprintf(L"\tUser comment: %s\n", pBuf4-&gt;usri4_usr_comment);
-                    wprintf(L"\tParameters: %s\n", pBuf4-&gt;usri4_parms);
-                    wprintf(L"\tWorkstations: %s\n", pBuf4-&gt;usri4_workstations);
+                            pBuf4->usri4_auth_flags);
+                    wprintf(L"\tFull name: %s\n", pBuf4->usri4_full_name);
+                    wprintf(L"\tUser comment: %s\n", pBuf4->usri4_usr_comment);
+                    wprintf(L"\tParameters: %s\n", pBuf4->usri4_parms);
+                    wprintf(L"\tWorkstations: %s\n", pBuf4->usri4_workstations);
                     wprintf
                         (L"\tLast logon (seconds since January 1, 1970 GMT): %d\n",
-                         pBuf4-&gt;usri4_last_logon);
+                         pBuf4->usri4_last_logon);
                     wprintf
                         (L"\tLast logoff (seconds since January 1, 1970 GMT): %d\n",
-                         pBuf4-&gt;usri4_last_logoff);
+                         pBuf4->usri4_last_logoff);
                     wprintf
                         (L"\tAccount expires (seconds since January 1, 1970 GMT): %d\n",
-                         pBuf4-&gt;usri4_acct_expires);
-                    wprintf(L"\tMax storage: %d\n", pBuf4-&gt;usri4_max_storage);
+                         pBuf4->usri4_acct_expires);
+                    wprintf(L"\tMax storage: %d\n", pBuf4->usri4_max_storage);
                     wprintf(L"\tUnits per week: %d\n",
-                            pBuf4-&gt;usri4_units_per_week);
+                            pBuf4->usri4_units_per_week);
                     wprintf(L"\tLogon hours:");
-                    for (j = 0; j &lt; 21; j++) 
+                    for (j = 0; j < 21; j++) 
                     {
-                        printf(" %x", (BYTE) pBuf4-&gt;usri4_logon_hours[j]);
+                        printf(" %x", (BYTE) pBuf4->usri4_logon_hours[j]);
                     }
                     wprintf(L"\n");
                     wprintf(L"\tBad password count: %d\n",
-                            pBuf4-&gt;usri4_bad_pw_count);
+                            pBuf4->usri4_bad_pw_count);
                     wprintf(L"\tNumber of logons: %d\n",
-                            pBuf4-&gt;usri4_num_logons);
-                    wprintf(L"\tLogon server: %s\n", pBuf4-&gt;usri4_logon_server);
-                    wprintf(L"\tCountry code: %d\n", pBuf4-&gt;usri4_country_code);
-                    wprintf(L"\tCode page: %d\n", pBuf4-&gt;usri4_code_page);
+                            pBuf4->usri4_num_logons);
+                    wprintf(L"\tLogon server: %s\n", pBuf4->usri4_logon_server);
+                    wprintf(L"\tCountry code: %d\n", pBuf4->usri4_country_code);
+                    wprintf(L"\tCode page: %d\n", pBuf4->usri4_code_page);
                     if (ConvertSidToStringSid
-                        (pBuf4-&gt;usri4_user_sid, &amp;sStringSid)) 
+                        (pBuf4->usri4_user_sid, &sStringSid)) 
                     {
                         wprintf(L"\tUser SID: %s\n", sStringSid);
                         LocalFree(sStringSid);
@@ -485,78 +481,78 @@ int wmain(int argc, wchar_t * argv[])
                         wprintf(L"ConvertSidToSTringSid failed with error %d\n",
                                 GetLastError());
                     wprintf(L"\tPrimary group ID: %d\n",
-                            pBuf4-&gt;usri4_primary_group_id);
-                    wprintf(L"\tProfile: %s\n", pBuf4-&gt;usri4_profile);
+                            pBuf4->usri4_primary_group_id);
+                    wprintf(L"\tProfile: %s\n", pBuf4->usri4_profile);
                     wprintf(L"\tHome directory drive letter: %s\n",
-                            pBuf4-&gt;usri4_home_dir_drive);
+                            pBuf4->usri4_home_dir_drive);
                     wprintf(L"\tPassword expired information: %d\n",
-                            pBuf4-&gt;usri4_password_expired);
+                            pBuf4->usri4_password_expired);
                     break;
                 case 10:
                     pBuf10 = (LPUSER_INFO_10) pBuf;
-                    wprintf(L"\tUser account name: %s\n", pBuf10-&gt;usri10_name);
-                    wprintf(L"\tComment: %s\n", pBuf10-&gt;usri10_comment);
+                    wprintf(L"\tUser account name: %s\n", pBuf10->usri10_name);
+                    wprintf(L"\tComment: %s\n", pBuf10->usri10_comment);
                     wprintf(L"\tUser comment: %s\n",
-                            pBuf10-&gt;usri10_usr_comment);
-                    wprintf(L"\tFull name: %s\n", pBuf10-&gt;usri10_full_name);
+                            pBuf10->usri10_usr_comment);
+                    wprintf(L"\tFull name: %s\n", pBuf10->usri10_full_name);
                     break;
                 case 11:
                     pBuf11 = (LPUSER_INFO_11) pBuf;
-                    wprintf(L"\tUser account name: %s\n", pBuf11-&gt;usri11_name);
-                    wprintf(L"\tComment: %s\n", pBuf11-&gt;usri11_comment);
+                    wprintf(L"\tUser account name: %s\n", pBuf11->usri11_name);
+                    wprintf(L"\tComment: %s\n", pBuf11->usri11_comment);
                     wprintf(L"\tUser comment: %s\n",
-                            pBuf11-&gt;usri11_usr_comment);
-                    wprintf(L"\tFull name: %s\n", pBuf11-&gt;usri11_full_name);
-                    wprintf(L"\tPrivilege level: %d\n", pBuf11-&gt;usri11_priv);
+                            pBuf11->usri11_usr_comment);
+                    wprintf(L"\tFull name: %s\n", pBuf11->usri11_full_name);
+                    wprintf(L"\tPrivilege level: %d\n", pBuf11->usri11_priv);
                     wprintf(L"\tAuth flags (in hex): %x\n",
-                            pBuf11-&gt;usri11_auth_flags);
+                            pBuf11->usri11_auth_flags);
                     wprintf(L"\tPassword age (seconds): %d\n",
-                            pBuf11-&gt;usri11_password_age);
-                    wprintf(L"\tHome directory: %s\n", pBuf11-&gt;usri11_home_dir);
-                    wprintf(L"\tParameters: %s\n", pBuf11-&gt;usri11_parms);
+                            pBuf11->usri11_password_age);
+                    wprintf(L"\tHome directory: %s\n", pBuf11->usri11_home_dir);
+                    wprintf(L"\tParameters: %s\n", pBuf11->usri11_parms);
                     wprintf
                         (L"\tLast logon (seconds since January 1, 1970 GMT): %d\n",
-                         pBuf11-&gt;usri11_last_logon);
+                         pBuf11->usri11_last_logon);
                     wprintf
                         (L"\tLast logoff (seconds since January 1, 1970 GMT): %d\n",
-                         pBuf11-&gt;usri11_last_logoff);
+                         pBuf11->usri11_last_logoff);
                     wprintf(L"\tBad password count: %d\n",
-                            pBuf11-&gt;usri11_bad_pw_count);
+                            pBuf11->usri11_bad_pw_count);
                     wprintf(L"\tNumber of logons: %d\n",
-                            pBuf11-&gt;usri11_num_logons);
+                            pBuf11->usri11_num_logons);
                     wprintf(L"\tLogon server: %s\n",
-                            pBuf11-&gt;usri11_logon_server);
+                            pBuf11->usri11_logon_server);
                     wprintf(L"\tCountry code: %d\n",
-                            pBuf11-&gt;usri11_country_code);
+                            pBuf11->usri11_country_code);
                     wprintf(L"\tWorkstations: %s\n",
-                            pBuf11-&gt;usri11_workstations);
-                    wprintf(L"\tMax storage: %d\n", pBuf11-&gt;usri11_max_storage);
+                            pBuf11->usri11_workstations);
+                    wprintf(L"\tMax storage: %d\n", pBuf11->usri11_max_storage);
                     wprintf(L"\tUnits per week: %d\n",
-                            pBuf11-&gt;usri11_units_per_week);
+                            pBuf11->usri11_units_per_week);
                     wprintf(L"\tLogon hours:");
-                    for (j = 0; j &lt; 21; j++) 
+                    for (j = 0; j < 21; j++) 
                     {
-                        printf(" %x", (BYTE) pBuf11-&gt;usri11_logon_hours[j]);
+                        printf(" %x", (BYTE) pBuf11->usri11_logon_hours[j]);
                     }
                     wprintf(L"\n");
-                    wprintf(L"\tCode page: %d\n", pBuf11-&gt;usri11_code_page);
+                    wprintf(L"\tCode page: %d\n", pBuf11->usri11_code_page);
                     break;
                 case 20:
                     pBuf20 = (LPUSER_INFO_20) pBuf;
-                    wprintf(L"\tUser account name: %s\n", pBuf20-&gt;usri20_name);
-                    wprintf(L"\tFull name: %s\n", pBuf20-&gt;usri20_full_name);
-                    wprintf(L"\tComment: %s\n", pBuf20-&gt;usri20_comment);
-                    wprintf(L"\tFlags (in hex): %x\n", pBuf20-&gt;usri20_flags);
-                    wprintf(L"\tUser ID: %u\n", pBuf20-&gt;usri20_user_id);
+                    wprintf(L"\tUser account name: %s\n", pBuf20->usri20_name);
+                    wprintf(L"\tFull name: %s\n", pBuf20->usri20_full_name);
+                    wprintf(L"\tComment: %s\n", pBuf20->usri20_comment);
+                    wprintf(L"\tFlags (in hex): %x\n", pBuf20->usri20_flags);
+                    wprintf(L"\tUser ID: %u\n", pBuf20->usri20_user_id);
                     break;
                 case 23:
                     pBuf23 = (LPUSER_INFO_23) pBuf;
-                    wprintf(L"\tUser account name: %s\n", pBuf23-&gt;usri23_name);
-                    wprintf(L"\tFull name: %s\n", pBuf23-&gt;usri23_full_name);
-                    wprintf(L"\tComment: %s\n", pBuf23-&gt;usri23_comment);
-                    wprintf(L"\tFlags (in hex): %x\n", pBuf23-&gt;usri23_flags);
+                    wprintf(L"\tUser account name: %s\n", pBuf23->usri23_name);
+                    wprintf(L"\tFull name: %s\n", pBuf23->usri23_full_name);
+                    wprintf(L"\tComment: %s\n", pBuf23->usri23_comment);
+                    wprintf(L"\tFlags (in hex): %x\n", pBuf23->usri23_flags);
                     if (ConvertSidToStringSid
-                        (pBuf23-&gt;usri23_user_sid, &amp;sStringSid)) 
+                        (pBuf23->usri23_user_sid, &sStringSid)) 
                     {
                         wprintf(L"\tUser SID: %s\n", sStringSid);
                         LocalFree(sStringSid);
@@ -606,10 +602,10 @@ int wmain(int argc, wchar_t * argv[])
     }
     return 0;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

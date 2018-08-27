@@ -188,20 +188,16 @@ The following code sample demonstrates how to set user-specific information for 
 <b>NetWkstaUserSetInfo</b> function, specifying information level 1101 (
 <a href="https://msdn.microsoft.com/88772ba2-046b-4b03-ae02-d851075e4363">WKSTA_USER_INFO_1101</a>).
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef UNICODE
+
+```cpp
+#ifndef UNICODE
 #define UNICODE
 #endif
 #pragma comment(lib, "netapi32.lib")
 
-#include &lt;stdio.h&gt;
-#include &lt;windows.h&gt; 
-#include &lt;lm.h&gt;
+#include <stdio.h>
+#include <windows.h> 
+#include <lm.h>
 
 int wmain(int argc, wchar_t *argv[])
 {
@@ -225,7 +221,7 @@ int wmain(int argc, wchar_t *argv[])
    //
    nStatus = NetWkstaUserSetInfo(NULL,
                                  dwLevel,
-                                 (LPBYTE)&amp;wui,
+                                 (LPBYTE)&wui,
                                  NULL);
    //
    // Display the result of the call.
@@ -237,10 +233,10 @@ int wmain(int argc, wchar_t *argv[])
 
    return 0;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

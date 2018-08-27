@@ -355,13 +355,9 @@ If the server closes the connection, the following notifications will also be re
 
 This example shows code that  writes data to an HTTP server.  The server name supplied in the example, www.wingtiptoys.com, is fictitious and must be replaced with the name of a server for which you have write access.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    LPSTR pszData = "WinHttpWriteData Example";
+
+```cpp
+    LPSTR pszData = "WinHttpWriteData Example";
     DWORD dwBytesWritten = 0;
     BOOL  bResults = FALSE;
     HINTERNET hSession = NULL,
@@ -398,7 +394,7 @@ This example shows code that  writes data to an HTTP server.  The server name su
     if (bResults)
         bResults = WinHttpWriteData( hRequest, pszData, 
                                      (DWORD)strlen(pszData), 
-                                     &amp;dwBytesWritten);
+                                     &dwBytesWritten);
 
     // End the request.
     if (bResults)
@@ -413,10 +409,10 @@ This example shows code that  writes data to an HTTP server.  The server name su
     if (hRequest) WinHttpCloseHandle(hRequest);
     if (hConnect) WinHttpCloseHandle(hConnect);
     if (hSession) WinHttpCloseHandle(hSession);
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

@@ -238,16 +238,12 @@ The format of the specified entry name is invalid.
 
 The following sample code validates the phone-book entry specified by the variable <i>lpszEntry</i>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#include &lt;windows.h&gt;
-#include &lt;stdio.h&gt;
+
+```cpp
+#include <windows.h>
+#include <stdio.h>
 #include "ras.h"
-#include &lt;tchar.h&gt;
+#include <tchar.h>
 
 DWORD __cdecl wmain(){
 
@@ -271,10 +267,10 @@ DWORD __cdecl wmain(){
             break;
     }
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

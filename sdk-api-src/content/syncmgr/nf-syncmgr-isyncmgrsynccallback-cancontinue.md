@@ -113,13 +113,9 @@ By implementing this functionality as a separate method, the handler can check f
 
 The following example shows the usage of <b>ISyncMgrSyncCallback::CanContinue</b> by the <a href="https://msdn.microsoft.com/6742f6a8-eda8-4ef0-8a11-dc70baefcc83">Synchronize</a> method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT CMyDeviceHandler::Synchronize(...)
+
+```cpp
+HRESULT CMyDeviceHandler::Synchronize(...)
 {
     ...
 
@@ -128,10 +124,10 @@ The following example shows the usage of <b>ISyncMgrSyncCallback::CanContinue</b
     ...
 
     // If a cancellation has been requested, stop the sync and exit.
-    if (pCallback-&gt;CanContinue(pszItemID) == S_FALSE)
+    if (pCallback->CanContinue(pszItemID) == S_FALSE)
     {
         // End the sync operation and exit the function.
-        hr = pCallback-&gt;ReportProgress(pszItemID,
+        hr = pCallback->ReportProgress(pszItemID,
                                        pszCancelMessage,
                                        SYNCMGR_PS_CANCELED,
                                        uCurrentStep,
@@ -140,9 +136,9 @@ The following example shows the usage of <b>ISyncMgrSyncCallback::CanContinue</b
     }
     ...
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

@@ -112,13 +112,9 @@ The following example creates a
 						<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object and sets the compound array for the pen. The code then draws a line using the 
 						<b>Pen</b> object.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>VOID Example_SetCompoundArray(HDC hdc)
+
+```cpp
+VOID Example_SetCompoundArray(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -130,11 +126,11 @@ The following example creates a
    pen.SetCompoundArray(compVals, 6);
 
    // Draw a line with the pen.
-   graphics.DrawLine(&amp;pen, 5, 20, 405, 200);
-}</pre>
-</td>
-</tr>
-</table></span></div>
+   graphics.DrawLine(&pen, 5, 20, 405, 200);
+}
+```
+
+
 
 
 

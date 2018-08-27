@@ -109,13 +109,9 @@ When this method is called from script, the method displays a user interface tha
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>BSTR bstrDN = NULL;
+
+```cpp
+BSTR bstrDN = NULL;
 BSTR bstrReq = NULL;
 BSTR bstrOID = NULL;
 ICEnroll4 * pEnroll = NULL;
@@ -133,7 +129,7 @@ hr = CoCreateInstance( __uuidof(CEnroll),
                        NULL,
                        CLSCTX_INPROC_SERVER,
                        __uuidof(ICEnroll4),
-                       (void **)&amp;pEnroll);
+                       (void **)&pEnroll);
 if (FAILED(hr))
 {
     printf("Failed CoCreateInstance - pEnroll [%x]\n", hr);
@@ -153,7 +149,7 @@ if (NULL == bstrDN)
 }
 
 // generate the OID, for example, "1.3.6.1.4.1.311.2.1.21".
-bstrOID = SysAllocString(TEXT("&lt;OIDHERE&gt;"));
+bstrOID = SysAllocString(TEXT("<OIDHERE>"));
 if (NULL == bstrOID)
 {
     printf("Memory allocation failed for bstrOID.\n");
@@ -161,7 +157,7 @@ if (NULL == bstrOID)
 }
 
 // create the PKCS10
-hr = pEnroll-&gt;createPKCS10( bstrDN, bstrOID, &amp;bstrReq );
+hr = pEnroll->createPKCS10( bstrDN, bstrOID, &bstrReq );
 if (FAILED(hr))
 {
     printf("Failed createPKCS10 - %x\n", hr);
@@ -180,12 +176,12 @@ if ( bstrOID )
 if ( bstrReq )
     SysFreeString( bstrReq );
 if ( pEnroll )
-    pEnroll-&gt;Release();
+    pEnroll->Release();
 
 CoUninitialize();
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

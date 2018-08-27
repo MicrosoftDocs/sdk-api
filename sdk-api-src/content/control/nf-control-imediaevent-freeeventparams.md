@@ -102,20 +102,16 @@ After you call the <a href="https://msdn.microsoft.com/en-us/library/Dd406907(v=
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
-hr = pEvent-&gt;GetEvent(&amp;evCode, &amp;param1, &amp;param2, 0);
+
+```cpp
+
+hr = pEvent->GetEvent(&evCode, &param1, &param2, 0);
 // Handle the event (not shown). 
-hr = pEvent-&gt;FreeEventParams(evCode, param1, param2);
-</pre>
-</td>
-</tr>
-</table></span></div>
+hr = pEvent->FreeEventParams(evCode, param1, param2);
+
+```
+
+
 
 
 
