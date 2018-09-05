@@ -4,10 +4,10 @@ title: QOSSetFlow function
 author: windows-sdk-content
 description: Is called by an application to request the QOS subsystem to prioritize the application's packets and change the flow traffic.
 old-location: qos\qossetoutgoingrate.htm
-old-project: qos
+old-project: QOS
 ms.assetid: b30e8887-4445-480d-aba8-79ec36384648
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: QOSSetFlow, QOSSetFlow function [QOS], QOSSetOutgoingDSCPValue, QOSSetOutgoingRate, QOSSetTrafficType, qos.qossetoutgoingrate, qos2/QOSSetFlow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -360,43 +360,47 @@ Other QoS function examples that show initialization of parameters include <a hr
 
 See the Windows SDK for a complete sample code listing. SDK folder: Samples\NetDs\GQos\Qos2
 
-
-```cpp
-if( QOSSetFlow( QOSHandle,
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>if( QOSSetFlow( QOSHandle,
         FlowId,
         QOSSetOutgoingRate,           // Operation 
         sizeof(QoSOutgoingFlowrate),  // Size
-        &QoSOutgoingFlowrate,         // Buffer
+        &amp;QoSOutgoingFlowrate,         // Buffer
         0,                            // Flags (Must be set to 0 with QoS Version 1.0)
         NULL)                         // Overlapped
         == 0 )
 {
     if( ERROR_INVALID_PARAMETER == GetLastError())
     {
-        std::cerr << __FILE__ <<" Line: " << __LINE__ ;
-        std::cerr << " - QOSSetFlow failed. Exception code: "; 
-        std::cerr << GetLastError() << " - Invalid parameter"; 
-        std::cerr << std::endl;
+        std::cerr &lt;&lt; __FILE__ &lt;&lt;" Line: " &lt;&lt; __LINE__ ;
+        std::cerr &lt;&lt; " - QOSSetFlow failed. Exception code: "; 
+        std::cerr &lt;&lt; GetLastError() &lt;&lt; " - Invalid parameter"; 
+        std::cerr &lt;&lt; std::endl;
     }
     else
     {
-        std::cerr << __FILE__ <<" Line: " << __LINE__ ;
-        std::cerr << " - QOSSetFlow failed. Exception code: "; 
-        std::cerr << GetLastError() << std::endl;
+        std::cerr &lt;&lt; __FILE__ &lt;&lt;" Line: " &lt;&lt; __LINE__ ;
+        std::cerr &lt;&lt; " - QOSSetFlow failed. Exception code: "; 
+        std::cerr &lt;&lt; GetLastError() &lt;&lt; std::endl;
     }
     
 }
 else
 {
-    std::cout << "QOSSetFlow set outgoing flowrate bandwidth to "; 
-    std::cout << QoSOutgoingFlowrate.Bandwidth;
-    std::cerr << std::endl;
+    std::cout &lt;&lt; "QOSSetFlow set outgoing flowrate bandwidth to "; 
+    std::cout &lt;&lt; QoSOutgoingFlowrate.Bandwidth;
+    std::cerr &lt;&lt; std::endl;
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

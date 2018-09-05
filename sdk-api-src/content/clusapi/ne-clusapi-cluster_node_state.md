@@ -7,7 +7,7 @@ old-location: mscs\cluster_node_state.htm
 old-project: mscs
 ms.assetid: 25bc275e-8d9c-43b3-8f95-dd3fd2cbe3ce
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CLUSTER_NODE_STATE, CLUSTER_NODE_STATE enumeration [Failover Cluster], ClusterNodeDown, ClusterNodeJoining, ClusterNodePaused, ClusterNodeStateUnknown, ClusterNodeUp, _CLUSTER_NODE_STATE, _CLUSTER_NODE_STATE enumeration [Failover Cluster], clusapi/CLUSTER_NODE_STATE, clusapi/ClusterNodeDown, clusapi/ClusterNodeJoining, clusapi/ClusterNodePaused, clusapi/ClusterNodeStateUnknown, clusapi/ClusterNodeUp, clusapi/_CLUSTER_NODE_STATE, msclus/CLUSTER_NODE_STATE, msclus/ClusterNodeDown, msclus/ClusterNodeJoining, msclus/ClusterNodePaused, msclus/ClusterNodeStateUnknown, msclus/ClusterNodeUp, msclus/_CLUSTER_NODE_STATE, mscs.cluster_node_state
 ms.prod: windows
 ms.technology: windows-sdk
@@ -22,7 +22,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: CluAdmEx.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -54,7 +54,7 @@ req.irql:
 
 Describes the state of a cluster node. The 
     <a href="https://msdn.microsoft.com/94c83582-3d99-4a20-ad58-1af4e8190781">GetClusterNodeState</a> and 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa368110(v=VS.85).aspx">State</a> properties use this enumeration.
+    <a href="https://msdn.microsoft.com/c1887055-518a-4177-a618-418c75883d69">State</a> properties use this enumeration.
 
 
 ## -enum-fields
@@ -73,7 +73,7 @@ The operation was not successful. For more information about the error, call the
 The node is physically plugged in, turned on, booted, and capable of executing programs. This value is also 
        used by the 
        <a href="https://msdn.microsoft.com/4afadb62-2bea-46ef-b0d6-e327ac96d16f">SetClusterServiceAccountPassword</a> 
-       function and <a href="https://msdn.microsoft.com/en-us/library/Aa368109(v=VS.85).aspx">Resume</a> method.
+       function and <a href="https://msdn.microsoft.com/74e465e2-1328-4e05-b287-3ce27359c67a">Resume</a> method.
 
 
 ### -field ClusterNodeDown
@@ -86,12 +86,12 @@ The node is turned off or not operational.
 The node is running but not participating in cluster operations. This value is also used by the 
        <a href="https://msdn.microsoft.com/23b4ff74-f72f-4227-9b69-ff36fa6ed55b">PauseClusterNode</a> and 
        <a href="https://msdn.microsoft.com/4afadb62-2bea-46ef-b0d6-e327ac96d16f">SetClusterServiceAccountPassword</a> 
-       functions. This value is also used <a href="https://msdn.microsoft.com/en-us/library/Aa368105(v=VS.85).aspx">Pause</a> method.
+       functions. This value is also used <a href="https://msdn.microsoft.com/2fd16dda-b554-47fa-a040-15c7685d6392">Pause</a> method.
 
 
 ### -field ClusterNodeJoining
 
-The node is in the process of joining a <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+The node is in the process of joining a <a href="c_gly.htm">cluster</a>.
 
 
 ## -see-also
@@ -99,7 +99,7 @@ The node is in the process of joining a <a href="https://msdn.microsoft.com/en-u
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309147(v=VS.85).aspx">Failover Cluster Enumerations</a>
+<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
 
 
 
@@ -107,7 +107,7 @@ The node is in the process of joining a <a href="https://msdn.microsoft.com/en-u
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368105(v=VS.85).aspx">Pause Method of the ClusNode Object</a>
+<a href="https://msdn.microsoft.com/2fd16dda-b554-47fa-a040-15c7685d6392">Pause Method of the ClusNode Object</a>
 
 
 
@@ -119,7 +119,7 @@ The node is in the process of joining a <a href="https://msdn.microsoft.com/en-u
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368110(v=VS.85).aspx">State Property of the ClusNode Object</a>
+<a href="https://msdn.microsoft.com/c1887055-518a-4177-a618-418c75883d69">State Property of the ClusNode Object</a>
  
 
  

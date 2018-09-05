@@ -4,10 +4,10 @@ title: PIBIO_ENGINE_QUERY_INDEX_VECTOR_SIZE_FN
 author: windows-sdk-content
 description: Retrieves the size of the index vector used by the engine adapter.
 old-location: secbiomet\engineadapterqueryindexvectorsize.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: 07e9f956-1bae-4011-92a0-6c5ed0d105a0
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: EngineAdapterQueryIndexVectorSize, EngineAdapterQueryIndexVectorSize callback function [Windows Biometric Framework API], PIBIO_ENGINE_QUERY_INDEX_VECTOR_SIZE_FN, PIBIO_ENGINE_QUERY_INDEX_VECTOR_SIZE_FN callback, secbiomet.engineadapterqueryindexvectorsize, winbio_adapter/EngineAdapterQueryIndexVectorSize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,9 +109,13 @@ The index vector is used by the engine adapter to index the available biometric 
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-
-```cpp
-///////////////////////////////////////////////////////////////////////////////
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>///////////////////////////////////////////////////////////////////////////////
 //
 // EngineAdapterQueryIndexVectorSize
 //
@@ -152,10 +156,10 @@ cleanup:
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

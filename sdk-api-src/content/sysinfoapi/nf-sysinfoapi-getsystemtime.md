@@ -4,10 +4,10 @@ title: GetSystemTime function
 author: windows-sdk-content
 description: Retrieves the current system date and time. The system time is expressed in Coordinated Universal Time (UTC).
 old-location: base\getsystemtime.htm
-old-project: sysinfo
+old-project: SysInfo
 ms.assetid: 9ed8386b-f035-446f-b0f8-12e0d3f23aac
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: GetSystemTime, GetSystemTime function, _win32_getsystemtime, base.getsystemtime, sysinfoapi/GetSystemTime
 ms.prod: windows
 ms.technology: windows-sdk

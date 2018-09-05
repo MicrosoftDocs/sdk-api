@@ -4,10 +4,10 @@ title: IRDPSRAPIViewer::get_Attendees
 author: windows-sdk-content
 description: Returns an object implementing the IRDPSRAPIAttendeeManager interface.
 old-location: rdp\irdpsrapiviewer_attendees.htm
-old-project: rdp
+old-project: Rdp
 ms.assetid: 7d61577b-d8e3-49d9-ac61-cc7c35cdd87f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Attendees property [RDP], Attendees property [RDP],IRDPSRAPIViewer interface, Attendees property [RDP],RDPViewer object, IRDPSRAPIViewer interface [RDP],Attendees property, IRDPSRAPIViewer.Attendees, IRDPSRAPIViewer.get_Attendees, IRDPSRAPIViewer::Attendees, IRDPSRAPIViewer::get_Attendees, RDPViewer object [RDP],Attendees property, get_Attendees, rdp.irdpsrapiviewer_attendees, rdpencomapi/IRDPSRAPIViewer::Attendees, rdpencomapi/IRDPSRAPIViewer::get_Attendees
 ms.prod: windows
 ms.technology: windows-sdk

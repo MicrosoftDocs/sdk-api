@@ -4,10 +4,10 @@ title: PIBIO_ENGINE_REFRESH_CACHE_FN
 author: windows-sdk-content
 description: Notifies the Engine Adapter that it should discard any cached templates that it may be keeping in memory.
 old-location: secbiomet\engineadapterrefreshcache.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: AD0A3BBC-3948-402A-AC3A-96BAF00A164C
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: EngineAdapterRefreshCache, EngineAdapterRefreshCache callback function [Windows Biometric Framework API], PIBIO_ENGINE_REFRESH_CACHE_FN, PIBIO_ENGINE_REFRESH_CACHE_FN callback, secbiomet.engineadapterrefreshcache, winbio_adapter/EngineAdapterRefreshCache
 ms.prod: windows
 ms.technology: windows-sdk

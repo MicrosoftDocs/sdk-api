@@ -91,7 +91,7 @@ Pointer to a pointer to an <b>INSSBuffer</b> object.
 </tr>
 <tr>
 <td>WM_SFEX_NOTASYNCPOINT</td>
-<td>This flag is the opposite of the WM_SF_CLEANPOINT flag used in other methods of this SDK. It indicates that the point is not a <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">key frame</a>, or is not a good point to go to during a seek. This inverse definition is used for compatibility with DirectShow.</td>
+<td>This flag is the opposite of the WM_SF_CLEANPOINT flag used in other methods of this SDK. It indicates that the point is not a <a href="wmformat_glossary.htm">key frame</a>, or is not a good point to go to during a seek. This inverse definition is used for compatibility with DirectShow.</td>
 </tr>
 <tr>
 <td>WM_SFEX_DATALOSS</td>

@@ -4,10 +4,10 @@ title: "_ASSEMBLY_INFO"
 author: windows-sdk-content
 description: The ASSEMBLY_INFO structure contains information about an assembly in the side-by-side assembly store. The information is used by the QueryAssemblyInfo method.
 old-location: setup\assembly_info_.htm
-old-project: sbscs
+old-project: SbsCs
 ms.assetid: 4281b375-0edd-453b-9505-e7dc5bd586fc
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ASSEMBLYINFO_FLAG_INSTALLED, ASSEMBLY_INFO, ASSEMBLY_INFO structure [Side-by-side Assemblies], _ASSEMBLY_INFO, setup.assembly_info_, winsxs/ASSEMBLY_INFO
 ms.prod: windows
 ms.technology: windows-sdk

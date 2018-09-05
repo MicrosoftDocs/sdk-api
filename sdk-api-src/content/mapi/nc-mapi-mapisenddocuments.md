@@ -4,10 +4,10 @@ title: MAPISENDDOCUMENTS
 author: windows-sdk-content
 description: The MAPISendDocuments function sends a standard message with one or more attached files and a cover note.
 old-location: mapi\mapisenddocuments.htm
-old-project: windowsmapi
+old-project: WindowsMAPI
 ms.assetid: 79a2f17e-fb07-4f3b-b8f6-0448399ffa50
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/29/2018
 ms.keywords: MAPISendDocuments, MAPISendDocuments callback, MAPISendDocuments callback function, mapi.mapisenddocuments, mapi/MAPISendDocuments
 ms.prod: windows
 ms.technology: windows-sdk

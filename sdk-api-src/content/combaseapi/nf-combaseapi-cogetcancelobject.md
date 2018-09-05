@@ -7,7 +7,7 @@ old-location: com\cogetcancelobject.htm
 old-project: com
 ms.assetid: d38161af-d662-4430-99b7-6563efda6f4e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CoGetCancelObject, CoGetCancelObject function [COM], _com_CoGetCancelObject, com.cogetcancelobject, combaseapi/CoGetCancelObject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ req.irql:
 ## -description
 
 
-Obtains a pointer to a call control interface, normally <a href="https://msdn.microsoft.com/en-us/library/ms683860(v=VS.85).aspx">ICancelMethodCalls</a>, on the cancel object corresponding to an outbound COM method call pending on the same or another client thread.
+Obtains a pointer to a call control interface, normally <a href="https://msdn.microsoft.com/5e31f706-1c9c-4510-845c-4e47093780a1">ICancelMethodCalls</a>, on the cancel object corresponding to an outbound COM method call pending on the same or another client thread.
 
 
 ## -parameters

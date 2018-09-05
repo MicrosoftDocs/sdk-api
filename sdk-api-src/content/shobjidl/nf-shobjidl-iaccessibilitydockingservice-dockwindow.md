@@ -7,7 +7,7 @@ old-location: com\iaccessibilitydockingservice_dockwindow.htm
 old-project: com
 ms.assetid: 99C6A82C-A421-4A5E-B23A-167384A7AB90
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DockWindow, DockWindow method [COM], DockWindow method [COM],IAccessibilityDockingService interface, IAccessibilityDockingService interface [COM],DockWindow method, IAccessibilityDockingService.DockWindow, IAccessibilityDockingService::DockWindow, com.iaccessibilitydockingservice_dockwindow, shobjidl/IAccessibilityDockingService::DockWindow
 ms.prod: windows
 ms.technology: windows-sdk

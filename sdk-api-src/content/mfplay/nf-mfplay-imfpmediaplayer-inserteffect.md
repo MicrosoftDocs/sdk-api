@@ -174,27 +174,31 @@ Non-audio, non-video effects do not affect remote optimizations. Also, if you in
 
 #### Examples
 
-
-```cpp
-HRESULT AddPlaybackEffect(REFGUID clsid, IMFPMediaPlayer *pPlayer)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT AddPlaybackEffect(REFGUID clsid, IMFPMediaPlayer *pPlayer)
 {
     IMFTransform *pMFT = NULL;
 
     HRESULT hr = CoCreateInstance(clsid, NULL, CLSCTX_INPROC_SERVER, 
-        IID_PPV_ARGS(&pMFT));
+        IID_PPV_ARGS(&amp;pMFT));
 
     if (SUCCEEDED(hr))
     {
-        hr = pPlayer->InsertEffect(pMFT, TRUE); // Set as optional.
+        hr = pPlayer-&gt;InsertEffect(pMFT, TRUE); // Set as optional.
     }
 
-    SafeRelease(&pMFT);
+    SafeRelease(&amp;pMFT);
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

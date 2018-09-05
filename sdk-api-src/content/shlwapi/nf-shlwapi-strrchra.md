@@ -7,7 +7,7 @@ old-location: shell\StrRChr.htm
 old-project: shell
 ms.assetid: 7f1e91ad-aaa0-4449-834e-8e309c88d6b1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: StrRChr, StrRChr function [Windows Shell], StrRChrA, StrRChrW, _win32_StrRChr, shell.StrRChr, shlwapi/StrRChr, shlwapi/StrRChrA, shlwapi/StrRChrW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

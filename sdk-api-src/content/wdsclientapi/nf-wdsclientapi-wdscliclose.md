@@ -4,10 +4,10 @@ title: WdsCliClose function
 author: windows-sdk-content
 description: Closes a handle to a WDS session or image, and releases resources.
 old-location: wds\wdscliclose.htm
-old-project: wds
+old-project: Wds
 ms.assetid: 6a833209-b7a0-40d8-8eca-43c08287d67e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WdsCliClose, WdsCliClose function [Windows Deployment Services], wds.wdscliclose, wdsclientapi/WdsCliClose
 ms.prod: windows
 ms.technology: windows-sdk

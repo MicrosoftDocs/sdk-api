@@ -7,7 +7,7 @@ old-location: wcm\wcmgetprofilelist.htm
 old-project: wcm
 ms.assetid: ceef4e74-3c67-4267-a82a-9912c039f41c
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: WcmGetProfileList, WcmGetProfileList function [Windows Connection Manager], wcm.wcmgetprofilelist, wcmapi/WcmGetProfileList
 ms.prod: windows
 ms.technology: windows-sdk

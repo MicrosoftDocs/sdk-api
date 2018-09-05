@@ -4,10 +4,10 @@ title: RESPONSEBODY_Subscribe
 author: windows-sdk-content
 description: Represents a WS-Eventing Subscribe response message.
 old-location: ncd\responsebody_subscribe_struct.htm
-old-project: wsdapi
+old-project: WsdApi
 ms.assetid: 8cba3835-9695-4741-b5ac-faba11c1c974
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RESPONSEBODY_Subscribe, RESPONSEBODY_Subscribe structure, ncd.responsebody_subscribe_struct, wsdtypes/RESPONSEBODY_Subscribe
 ms.prod: windows
 ms.technology: windows-sdk

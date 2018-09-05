@@ -74,15 +74,19 @@ Handle to an open stream.
 
 The <b>AVIStreamLengthTime</b> macro is defined as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 #define AVIStreamLengthTime(pavi) \ 
     AVIStreamSampleToTime(pavi, AVIStreamLength(pavi)) 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

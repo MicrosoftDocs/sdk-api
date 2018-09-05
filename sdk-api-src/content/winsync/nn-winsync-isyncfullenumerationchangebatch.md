@@ -7,7 +7,7 @@ old-location: winsync\isyncfullenumerationchangebatch.htm
 old-project: winsync
 ms.assetid: 9086991d-03e3-4f2c-ad03-c1f554fe32ce
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ISyncFullEnumerationChangeBatch, ISyncFullEnumerationChangeBatch interface [Windows Sync], ISyncFullEnumerationChangeBatch interface [Windows Sync],described, winsync.isyncfullenumerationchangebatch, winsync/ISyncFullEnumerationChangeBatch
 ms.prod: windows
 ms.technology: windows-sdk

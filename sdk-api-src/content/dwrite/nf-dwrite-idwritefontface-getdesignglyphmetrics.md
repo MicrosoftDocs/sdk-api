@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFontFace_GetDesignGlyphMetrics.htm
 old-project: DirectWrite
 ms.assetid: 4da03cbe-5287-4d9c-aaa2-cff3dbf259fc
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetDesignGlyphMetrics, GetDesignGlyphMetrics method [Direct Write], GetDesignGlyphMetrics method [Direct Write],IDWriteFontFace interface, IDWriteFontFace interface [Direct Write],GetDesignGlyphMetrics method, IDWriteFontFace.GetDesignGlyphMetrics, IDWriteFontFace::GetDesignGlyphMetrics, directwrite.IDWriteFontFace_GetDesignGlyphMetrics, dwrite/IDWriteFontFace::GetDesignGlyphMetrics
 ms.prod: windows
 ms.technology: windows-sdk

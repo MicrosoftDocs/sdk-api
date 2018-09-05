@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10shaderreflection_getdesc.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10shaderreflection_getdesc.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 8b97a8fe-7942-b7f8-b7be-a445a5865955, GetDesc, GetDesc method [Direct3D 10], GetDesc method [Direct3D 10],ID3D10ShaderReflection interface, ID3D10ShaderReflection interface [Direct3D 10],GetDesc method, ID3D10ShaderReflection.GetDesc, ID3D10ShaderReflection::GetDesc, d3d10shader/ID3D10ShaderReflection::GetDesc, direct3d10.id3d10shaderreflection_getdesc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,18 +61,18 @@ Get a shader description.
 
 ### -param pDesc [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb172432(v=VS.85).aspx">D3D10_SHADER_DESC</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/94261f80-dce5-4ab0-ad9b-ca012e0da73c">D3D10_SHADER_DESC</a>*</b>
 
-A pointer to a shader description. See <a href="https://msdn.microsoft.com/en-us/library/Bb172432(v=VS.85).aspx">D3D10_SHADER_DESC</a>.
+A pointer to a shader description. See <a href="https://msdn.microsoft.com/94261f80-dce5-4ab0-ad9b-ca012e0da73c">D3D10_SHADER_DESC</a>.
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -82,7 +82,7 @@ Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/B
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173835(v=VS.85).aspx">ID3D10ShaderReflection Interface</a>
+<a href="https://msdn.microsoft.com/097ed643-4e7a-4214-80a1-9a56d1157044">ID3D10ShaderReflection Interface</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: mscs\clusdisk_disknumber.htm
 old-project: mscs
 ms.assetid: f55fd6aa-8707-4a62-8e6c-259d7bf52d0d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusDisk object [Failover Cluster],DiskNumber property, ClusDisk.DiskNumber, DiskNumber property [Failover Cluster], DiskNumber property [Failover Cluster],ClusDisk object, ISClusDisk.get_DiskNumber, ISClusDisk::get_DiskNumber, _wolf_clusdisk.disknumber, get_DiskNumber, mscs.clusdisk_disknumber
 ms.prod: windows
 ms.technology: windows-sdk

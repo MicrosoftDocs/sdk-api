@@ -4,10 +4,10 @@ title: IWindowsMediaLibrarySharingDevice::put_Authorization
 author: windows-sdk-content
 description: The put_Authorization method authorizes or unauthorizes the device to have access to the current user's media library.
 old-location: wmlss\IWMLSDeviceput_Authorization.htm
-old-project: wmlss
+old-project: WMLSS
 ms.assetid: 26ac8f24-d212-4558-a66e-ffe5e90bd73b
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IWindowsMediaLibrarySharingDevice interface [Windows Media Library Sharing Services],put_Authorization method, IWindowsMediaLibrarySharingDevice.put_Authorization, IWindowsMediaLibrarySharingDevice::put_Authorization, put_Authorization, put_Authorization method [Windows Media Library Sharing Services], put_Authorization method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingDevice interface, wmlss.IWMLSDeviceput_Authorization, wmlss/IWindowsMediaLibrarySharingDevice::put_Authorization
 ms.prod: windows
 ms.technology: windows-sdk

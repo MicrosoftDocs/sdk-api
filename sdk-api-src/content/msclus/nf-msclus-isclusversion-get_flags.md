@@ -7,7 +7,7 @@ old-location: mscs\clusversion_flags.htm
 old-project: mscs
 ms.assetid: f671f494-6c46-45e6-9756-fc27dc10783a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CLUSTER_VERSION_FLAG_MIXED_MODE, ClusVersion object [Failover Cluster],Flags property, ClusVersion.Flags, Flags property [Failover Cluster], Flags property [Failover Cluster],ClusVersion object, ISClusVersion.get_Flags, ISClusVersion::get_Flags, _wolf_clusversion.flags, get_Flags, mscs.clusversion_flags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Returns flags associated with 
-    the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster version</a>.
+    the <a href="c_gly.htm">cluster version</a>.
 
 This property is read-only.
 
@@ -71,7 +71,7 @@ This property is read-only.
 
 
 All <a href="https://msdn.microsoft.com/2215335a-1858-437f-8654-2e9d601fe061">ClusVersion</a> properties are static values 
-    corresponding the state of the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> when the 
+    corresponding the state of the <a href="c_gly.htm">cluster</a> when the 
     <b>ClusVersion</b> object was first created. To obtain the 
     latest version information from the cluster, create a new 
     <b>ClusVersion</b> object.

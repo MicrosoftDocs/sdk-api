@@ -90,9 +90,13 @@ Allocate the <i>lpCompiledHelpFile</i> string with the COM API function <a href=
 
 #### Examples
 
-
-```cpp
-STDMETHODIMP CComponentData::GetHelpTopic( LPOLESTR *lpCompiledFile )
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CComponentData::GetHelpTopic( LPOLESTR *lpCompiledFile )
 {
     LPOLESTR lpHelpFile;
  
@@ -111,10 +115,10 @@ STDMETHODIMP CComponentData::GetHelpTopic( LPOLESTR *lpCompiledFile )
     *lpCompiledHelpFile = lpHelpFile;
  
     return S_OK;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -131,7 +135,7 @@ STDMETHODIMP CComponentData::GetHelpTopic( LPOLESTR *lpCompiledFile )
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt300864(v=VS.85).aspx">ISnapinHelp</a>
+<a href="https://msdn.microsoft.com/baf2dc0e-c53e-44d5-b79a-f77118e2f798">ISnapinHelp</a>
 
 
 

@@ -73,7 +73,7 @@ Starting with Windows 8.1, this parameter must be set to <b>NULL</b>. If this p
 
 ### -param pTimingInfo [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa969503(v=VS.85).aspx">DWM_TIMING_INFO</a> structure that, when this function returns successfully, receives the current composition timing information for the window. The <b>cbSize</b> member of this structure must be set before this function is called.
+A pointer to a <a href="https://msdn.microsoft.com/7a2bf2b0-8bf3-4702-bf48-d105d90c84c2">DWM_TIMING_INFO</a> structure that, when this function returns successfully, receives the current composition timing information for the window. The <b>cbSize</b> member of this structure must be set before this function is called.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: wmi\cinstance_getwchar.htm
 old-project: WmiSdk
 ms.assetid: 1c2f3dfc-aa84-4dff-a25b-b8f2ec3afa74
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],GetWCHAR method, CInstance.GetWCHAR, CInstance::GetWCHAR, GetWCHAR, GetWCHAR method [Windows Management Instrumentation], GetWCHAR method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getwchar, instance/CInstance::GetWCHAR, wmi.cinstance_getwchar
 ms.prod: windows
 ms.technology: windows-sdk
@@ -99,12 +99,16 @@ Returns <b>TRUE</b> if the operation was successful and <b>FALSE</b> if an attem
 
 It is the responsibility of the implementer to free the memory occupied by the <b>WCHAR</b> string:
 
-
-```cpp
-    free(pw);
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    free(pw);</pre>
+</td>
+</tr>
+</table></span></div>
 Use <b>free</b> rather than <b>delete</b> because the provider framework allocates the string using <b>malloc</b> and does not use the <b>new</b> operator.
 
 

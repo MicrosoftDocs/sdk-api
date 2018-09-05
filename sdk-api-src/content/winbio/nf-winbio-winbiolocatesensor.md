@@ -4,10 +4,10 @@ title: WinBioLocateSensor function
 author: windows-sdk-content
 description: Retrieves the ID number of a biometric unit selected interactively by a user.
 old-location: secbiomet\winbiolocatesensor.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: 61110f24-aa3b-4c51-9205-acac92e03554
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: WinBioLocateSensor, WinBioLocateSensor function [Windows Biometric Framework API], secbiomet.winbiolocatesensor, winbio/WinBioLocateSensor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -155,9 +155,13 @@ biometric sensor. Link to the Winbio.lib static library and include the followin
 <li>Conio.h</li>
 <li>Winbio.h</li>
 </ul>
-
-```cpp
-HRESULT LocateSensor( )
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT LocateSensor( )
 {
     HRESULT hr = S_OK;
     WINBIO_SESSION_HANDLE sessionHandle = NULL;
@@ -171,7 +175,7 @@ HRESULT LocateSensor( )
             NULL,                       // Array of biometric unit IDs
             0,                          // Count of biometric unit IDs
             NULL,                       // Database ID
-            &sessionHandle              // [out] Session handle
+            &amp;sessionHandle              // [out] Session handle
             );
     if (FAILED(hr))
     {
@@ -181,7 +185,7 @@ HRESULT LocateSensor( )
 
     // Locate the sensor.
     wprintf_s(L"\n Tap the sensor once...\n");
-    hr = WinBioLocateSensor( sessionHandle, &unitId);
+    hr = WinBioLocateSensor( sessionHandle, &amp;unitId);
     if (FAILED(hr))
     {
         wprintf_s(L"\n WinBioLocateSensor failed. hr = 0x%x\n", hr);
@@ -203,10 +207,10 @@ e_Exit:
     return hr;
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

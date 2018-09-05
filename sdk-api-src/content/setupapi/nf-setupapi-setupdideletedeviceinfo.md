@@ -7,7 +7,7 @@ old-location: devinst\setupdideletedeviceinfo.htm
 old-project: devinst
 ms.assetid: f510c42d-8488-4aad-a3a4-662fc8138d28
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: SetupDiDeleteDeviceInfo, SetupDiDeleteDeviceInfo function [Device and Driver Installation], devinst.setupdideletedeviceinfo, di-rtns_9bc5c091-910a-4152-acdf-eae4d86cda05.xml, setupapi/SetupDiDeleteDeviceInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ The <b>SetupDiDeleteDeviceInfo</b> function deletes a device information element
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains the device information element to delete.
+A handle to the <a href="devinst.device_information_sets">device information set</a> that contains the device information element to delete.
 
 
 ### -param DeviceInfoData [in]

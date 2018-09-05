@@ -7,7 +7,7 @@ old-location: wmdm\imdspdevice_getversion.htm
 old-project: WMDM
 ms.assetid: 88c935ad-dbf0-41bb-8676-ddafe9d1fe0e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetVersion, GetVersion method [windows Media Device Manager], GetVersion method [windows Media Device Manager],IMDSPDevice interface, IMDSPDevice interface [windows Media Device Manager],GetVersion method, IMDSPDevice.GetVersion, IMDSPDevice::GetVersion, IMDSPDeviceGetVersion, mswmdm/IMDSPDevice::GetVersion, wmdm.imdspdevice_getversion
 ms.prod: windows
 ms.technology: windows-sdk

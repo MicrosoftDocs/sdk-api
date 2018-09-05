@@ -57,9 +57,9 @@ Provides a mechanism for recipients of published events to restrict the number o
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesEventsFilter</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IOfflineFilesEventsFilter</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesEventsFilter</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IOfflineFilesEventsFilter</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -72,25 +72,25 @@ The <b>IOfflineFilesEventsFilter</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530533(v=VS.85).aspx">GetExcludedEvents</a>
+<a href="https://msdn.microsoft.com/40e388b2-b051-4b0a-b96e-7a73b521758e">GetExcludedEvents</a>
 </td>
 <td align="left" width="63%">
-Retrieves an array of <a href="https://msdn.microsoft.com/en-us/library/Bb530645(v=VS.85).aspx">OFFLINEFILES_EVENTS</a> enumeration values describing which events should not be received by the event sink.
+Retrieves an array of <a href="https://msdn.microsoft.com/4ab65756-5985-4240-805d-2221db3d1459">OFFLINEFILES_EVENTS</a> enumeration values describing which events should not be received by the event sink.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530535(v=VS.85).aspx">GetIncludedEvents</a>
+<a href="https://msdn.microsoft.com/ecb10da3-7566-43f7-8349-f94e59e12907">GetIncludedEvents</a>
 </td>
 <td align="left" width="63%">
-Retrieves an array of <a href="https://msdn.microsoft.com/en-us/library/Bb530645(v=VS.85).aspx">OFFLINEFILES_EVENTS</a> enumeration values describing which events should be received by the event sink.
+Retrieves an array of <a href="https://msdn.microsoft.com/4ab65756-5985-4240-805d-2221db3d1459">OFFLINEFILES_EVENTS</a> enumeration values describing which events should be received by the event sink.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb530536(v=VS.85).aspx">GetPathFilter</a>
+<a href="https://msdn.microsoft.com/0b9d8339-3daa-4f0c-8a52-59e06b663163">GetPathFilter</a>
 </td>
 <td align="left" width="63%">
 Retrieves a UNC path string and a scope indicator describing which path-based events should be delivered to this event sink.
@@ -105,7 +105,7 @@ Retrieves a UNC path string and a scope indicator describing which path-based ev
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530659(v=VS.85).aspx">Offline Files API Interfaces</a>
+<a href="https://msdn.microsoft.com/9dea396f-ab71-4b2e-b5d3-776c16614f26">Offline Files API Interfaces</a>
  
 
  

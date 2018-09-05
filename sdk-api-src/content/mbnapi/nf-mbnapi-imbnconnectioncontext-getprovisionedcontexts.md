@@ -7,7 +7,7 @@ old-location: mbn\imbnconnectioncontext_getprovisionedcontexts.htm
 old-project: mbn
 ms.assetid: eceba2a8-baff-436f-b561-d9e130df5702
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetProvisionedContexts, GetProvisionedContexts method [Microsoft Broadband Networks], GetProvisionedContexts method [Microsoft Broadband Networks],IMbnConnectionContext interface, IMbnConnectionContext interface [Microsoft Broadband Networks],GetProvisionedContexts method, IMbnConnectionContext.GetProvisionedContexts, IMbnConnectionContext::GetProvisionedContexts, mbn.imbnconnectioncontext_getprovisionedcontexts, mbnapi/IMbnConnectionContext::GetProvisionedContexts
 ms.prod: windows
 ms.technology: windows-sdk

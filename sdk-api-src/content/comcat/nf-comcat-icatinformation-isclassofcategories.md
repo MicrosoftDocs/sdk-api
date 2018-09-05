@@ -7,7 +7,7 @@ old-location: com\icatinformation_isclassofcategories.htm
 old-project: com
 ms.assetid: 772d4d75-2076-4922-bf47-2e6e41a5687d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ICatInformation interface [COM],IsClassOfCategories method, ICatInformation.IsClassOfCategories, ICatInformation::IsClassOfCategories, IsClassOfCategories, IsClassOfCategories method [COM], IsClassOfCategories method [COM],ICatInformation interface, _com_icatinformation_isclassofcategories, com.icatinformation_isclassofcategories, comcat/ICatInformation::IsClassOfCategories
 ms.prod: windows
 ms.technology: windows-sdk
@@ -101,7 +101,7 @@ If the class ID is of one of the specified categories, the return value is S_OK.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd542655(v=VS.85).aspx">ICatInformation</a>
+<a href="https://msdn.microsoft.com/1fd68126-b512-4131-8e93-cea7c1c3e9c0">ICatInformation</a>
  
 
  

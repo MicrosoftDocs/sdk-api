@@ -62,7 +62,7 @@ Describes the pixel format and dpi
 
 ### -field pixelFormat
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368138(v=VS.85).aspx">D2D1_PIXEL_FORMAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/e95afd9c-5793-4cb7-bcb8-aae4d28b6532">D2D1_PIXEL_FORMAT</a></b>
 
 The bitmap's pixel format and alpha mode.
 

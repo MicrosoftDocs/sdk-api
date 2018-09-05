@@ -54,7 +54,7 @@ req.irql:
 The <b>DDPIXELFORMAT</b> structure describes the pixel format of a DirectDrawSurface object for the <a href="https://msdn.microsoft.com/2c33c46b-6cd7-4ee7-976c-a81f9d92b379">IDirectDrawSurface7::GetPixelFormat</a> method.
 
 
-<div class="alert"><b>Note</b>  Rather than use this structure to decode files with the DirectDraw Surface (DDS) file format (.dds), you should use an alternative structure that does not rely on Ddraw.h. For more information about alternative structures for DDS, see <a href="https://msdn.microsoft.com/en-us/library/Bb943990(v=VS.85).aspx">DDS</a>.</div><div> </div>
+<div class="alert"><b>Note</b>  Rather than use this structure to decode files with the DirectDraw Surface (DDS) file format (.dds), you should use an alternative structure that does not rely on Ddraw.h. For more information about alternative structures for DDS, see <a href="https://msdn.microsoft.com/b0f3a1af-e816-4d64-93d9-51e510423869">DDS</a>.</div><div> </div>
 
 ## -struct-fields
 
@@ -547,23 +547,27 @@ The <b>dwAlphaBitDepth</b> member reflects the bit depth of an alpha-only pixel 
 
 
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 WORD GetNumberOfBits( DWORD dwMask )
 {
     WORD wBits = 0;
     while( dwMask )
     {
-        dwMask = dwMask & ( dwMask - 1 );  
+        dwMask = dwMask &amp; ( dwMask - 1 );  
         wBits++;
     }
     return wBits;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The unions in <b>DDPIXELFORMAT</b> have been updated to work with compilers that do not support nameless unions. If your compiler does not support nameless unions, define the NONAMELESSUNION token before including the Ddraw.h header file.
 
 

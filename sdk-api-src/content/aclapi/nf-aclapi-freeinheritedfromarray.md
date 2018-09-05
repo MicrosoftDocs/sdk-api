@@ -4,10 +4,10 @@ title: FreeInheritedFromArray function
 author: windows-sdk-content
 description: Frees memory allocated by the GetInheritanceSource function.
 old-location: security\freeinheritedfromarray.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: c9c58b9a-1b65-40e2-b518-30e247f9718e
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: FreeInheritedFromArray, FreeInheritedFromArray function [Security], _win32_freeinheritedfromarray, aclapi/FreeInheritedFromArray, security.freeinheritedfromarray
 ms.prod: windows
 ms.technology: windows-sdk

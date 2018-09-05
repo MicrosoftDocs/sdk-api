@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransitionlibrary_creatediscretetransition
 old-project: UIAnimation
 ms.assetid: 7c3f6ccb-7a42-4a48-90ad-dba99c67aa6f
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CreateDiscreteTransition, CreateDiscreteTransition method [Windows Animation], CreateDiscreteTransition method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateDiscreteTransition method, IUIAnimationTransitionLibrary.CreateDiscreteTransition, IUIAnimationTransitionLibrary::CreateDiscreteTransition, uianimation.iuianimationtransitionlibrary_creatediscretetransition, uianimation/IUIAnimationTransitionLibrary::CreateDiscreteTransition
 ms.prod: windows
 ms.technology: windows-sdk

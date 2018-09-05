@@ -4,10 +4,10 @@ title: IRDPSRAPIAttendee
 author: windows-sdk-content
 description: Attendee objects are created as a result of clients connecting to the session and being authenticated. After an attendee object is created, it is automatically added to the attendees list.
 old-location: rdp\irdpsrapiattendee.htm
-old-project: rdp
+old-project: Rdp
 ms.assetid: e9edd9f2-ccbf-45b2-b71c-e30368435a60
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IRDPSRAPIAttendee, IRDPSRAPIAttendee interface [RDP], IRDPSRAPIAttendee interface [RDP],described, rdp.irdpsrapiattendee, rdpencomapi/IRDPSRAPIAttendee
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ Attendee objects are created as a result of clients connecting to the session an
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPIAttendee</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IRDPSRAPIAttendee</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRDPSRAPIAttendee</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IRDPSRAPIAttendee</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -209,7 +209,7 @@ Applications should not save pointers to attendee objects. The lifetime of the a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

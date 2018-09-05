@@ -7,7 +7,7 @@ old-location: cos\iprocessinitializer.htm
 old-project: cossdk
 ms.assetid: 7c7edeb7-5bc1-4ede-8fe4-78fc7c6bdd30
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IProcessInitializer, IProcessInitializer interface [COM+], IProcessInitializer interface [COM+],described, _cos_IProcessInitializer, comsvcs/IProcessInitializer, cos.iprocessinitializer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,9 +57,9 @@ Provides methods that can be called whenever Dllhost.exe starts up or shuts down
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProcessInitializer</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IProcessInitializer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProcessInitializer</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IProcessInitializer</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -72,7 +72,7 @@ The <b>IProcessInitializer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms687578(v=VS.85).aspx">Shutdown</a>
+<a href="https://msdn.microsoft.com/e525ded0-971d-4711-b078-b2e6b28c313f">Shutdown</a>
 </td>
 <td align="left" width="63%">
 Called when Dllhost.exe shuts down.
@@ -81,7 +81,7 @@ Called when Dllhost.exe shuts down.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms678918(v=VS.85).aspx">Startup</a>
+<a href="https://msdn.microsoft.com/0ba8844e-a1ef-4a1a-aef6-abd828ec59b0">Startup</a>
 </td>
 <td align="left" width="63%">
 Called when Dllhost.exe starts.

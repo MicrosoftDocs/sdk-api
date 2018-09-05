@@ -7,7 +7,7 @@ old-location: wintouch\imanipulationprocessor_minimumscalerotateradius.htm
 old-project: wintouch
 ms.assetid: b4c49f41-c5ea-4c6a-872b-2d982e588b09
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IManipulationProcessor interface [Windows Touch],MinimumScaleRotateRadius property, IManipulationProcessor.MinimumScaleRotateRadius, IManipulationProcessor.put_MinimumScaleRotateRadius, IManipulationProcessor::MinimumScaleRotateRadius, IManipulationProcessor::get_MinimumScaleRotateRadius, IManipulationProcessor::put_MinimumScaleRotateRadius, MinimumScaleRotateRadius property [Windows Touch], MinimumScaleRotateRadius property [Windows Touch],IManipulationProcessor interface, manipulations/IManipulationProcessor::MinimumScaleRotateRadius, manipulations/IManipulationProcessor::get_MinimumScaleRotateRadius, manipulations/IManipulationProcessor::put_MinimumScaleRotateRadius, put_MinimumScaleRotateRadius, wintouch.imanipulationprocessor_minimumscalerotateradius
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,13 +80,17 @@ This property is read/write.
 
 #### Examples
 
-
-```cpp
-pManip->put_MinimumScaleRotateRadius(4000.0f);  
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>pManip-&gt;put_MinimumScaleRotateRadius(4000.0f);  
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

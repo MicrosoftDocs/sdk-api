@@ -4,10 +4,10 @@ title: IX509PrivateKey::put_Length
 author: windows-sdk-content
 description: Specifies or retrieves the length, in bits, of the private key.
 old-location: security\ix509privatekey_length_property.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: de25aa05-bd65-49a6-9cd1-e18522c9e190
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509PrivateKey interface [Security],Length property, IX509PrivateKey.Length, IX509PrivateKey.put_Length, IX509PrivateKey::Length, IX509PrivateKey::get_Length, IX509PrivateKey::put_Length, Length property [Security], Length property [Security],IX509PrivateKey interface, certenroll/IX509PrivateKey::Length, certenroll/IX509PrivateKey::get_Length, certenroll/IX509PrivateKey::put_Length, put_Length, security.ix509privatekey_length_property
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378921(v=VS.85).aspx">IX509PrivateKey</a>
+<a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a>
  
 
  

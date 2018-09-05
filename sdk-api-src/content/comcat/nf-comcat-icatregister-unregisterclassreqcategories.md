@@ -7,7 +7,7 @@ old-location: com\icatregister_unregisterclassreqcategories.htm
 old-project: com
 ms.assetid: d957bc13-f5f7-4cb3-925e-4867ba9622cd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ICatRegister interface [COM],UnRegisterClassReqCategories method, ICatRegister.UnRegisterClassReqCategories, ICatRegister::UnRegisterClassReqCategories, UnRegisterClassReqCategories, UnRegisterClassReqCategories method [COM], UnRegisterClassReqCategories method [COM],ICatRegister interface, _com_icatregister_unregisterclassreqcategories, com.icatregister_unregisterclassreqcategories, comcat/ICatRegister::UnRegisterClassReqCategories
 ms.prod: windows
 ms.technology: windows-sdk
@@ -127,7 +127,7 @@ In case of an error, this method does not ensure that the registry is restored t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680737(v=VS.85).aspx">ICatRegister</a>
+<a href="https://msdn.microsoft.com/3f4f9beb-51db-407f-91ea-6e32ff5796ce">ICatRegister</a>
  
 
  

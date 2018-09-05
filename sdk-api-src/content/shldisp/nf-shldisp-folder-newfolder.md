@@ -7,7 +7,7 @@ old-location: shell\Folder_NewFolder.htm
 old-project: shell
 ms.assetid: 7a552e5a-e9a3-4fcf-bc6b-17e8bc39af87
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: Folder object [Windows Shell],NewFolder method, Folder.NewFolder, Folder::NewFolder, NewFolder, NewFolder method [Windows Shell], NewFolder method [Windows Shell],Folder object, _win32_Folder_NewFolder, shell.Folder_NewFolder
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ Creates a new folder.
 
 ### -param bName
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a></b>
+Type: <b><a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a></b>
 
 A string that specifies the name of the new folder.
 
@@ -96,9 +96,13 @@ The following example uses <b>NewFolder</b> to create the new folder C:\TestFold
 
 JScript:
 
-
-```javascript
-<script language="JScript">
+<div class="code"><span codelanguage="JScript"><table>
+<tr>
+<th>JScript</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="JScript"&gt;
     function fnFolderObjectNewFolderJ()
     {
         var objShell  = new ActiveXObject("shell.application");
@@ -110,16 +114,20 @@ JScript:
             objFolder.NewFolder("TestFolder");
         }
     }
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 VBScript:
 
-
-```vb
-<script language="VBScript">
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="VBScript"&gt;
     function fnFolderObjectNewFolderVB()
         dim objShell
         dim objFolder
@@ -134,16 +142,20 @@ VBScript:
         set objFolder = nothing
         set objShell = nothing
     end function
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 Visual Basic:
 
-
-```vb
-Private Sub btnNewFolder_Click()
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Private Sub btnNewFolder_Click()
     Dim objShell  As Shell
     Dim objFolder As Folder
 
@@ -157,9 +169,9 @@ Private Sub btnNewFolder_Click()
     Set objFolder = Nothing
     Set objShell = Nothing
 End Sub
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

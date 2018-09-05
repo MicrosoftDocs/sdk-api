@@ -7,7 +7,7 @@ old-location: winsensors_com_ref\isensor_setproperties.htm
 old-project: SensorsAPI
 ms.assetid: f2bed074-fcee-4dbb-a4c1-d5922d65d3b9
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ISensor interface,SetProperties method, ISensor.SetProperties, ISensor::SetProperties, SetProperties, SetProperties method, SetProperties method,ISensor interface, sensorsapi/ISensor::SetProperties, winsensors_com_ref.isensor_setproperties
 ms.prod: windows
 ms.technology: windows-sdk

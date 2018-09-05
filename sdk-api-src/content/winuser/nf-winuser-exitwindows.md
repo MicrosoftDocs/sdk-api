@@ -4,10 +4,10 @@ title: ExitWindows macro
 author: windows-sdk-content
 description: Calls the ExitWindowsEx function to log off the interactive user.
 old-location: base\exitwindows.htm
-old-project: shutdown
+old-project: Shutdown
 ms.assetid: 7c76caac-459d-45df-ae00-bc208a9e7b22
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ExitWindows, ExitWindows macro, _win32_exitwindows, base.exitwindows, winuser/ExitWindows
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ This parameter must be zero.
 The system sends a <a href="https://msdn.microsoft.com/7ad73444-f1f6-4b73-8450-0580b146a5a6">WM_QUERYENDSESSION</a> to the main window of each running application.
 
 An application agrees to terminate by returning <b>TRUE</b> when it receives this message (or by allowing the 
-<a href="https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx">DefWindowProc</a> function to process the message). If any application returns <b>FALSE</b> when it receives the 
+<a href="_win32_defwindowproc_cpp">DefWindowProc</a> function to process the message). If any application returns <b>FALSE</b> when it receives the 
 <a href="https://msdn.microsoft.com/7ad73444-f1f6-4b73-8450-0580b146a5a6">WM_QUERYENDSESSION</a> message, the logoff is canceled.
 
 After the system processes the results of the 
@@ -99,7 +99,7 @@ For an example, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633572(v=VS.85).aspx">DefWindowProc</a>
+<a href="_win32_defwindowproc_cpp">DefWindowProc</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: shell\SHChangeNotifyRegisterThread.htm
 old-project: shell
 ms.assetid: 170afefc-b4de-4661-9c12-1341656b0fdb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHChangeNotifyRegisterThread, SHChangeNotifyRegisterThread function [Windows Shell], _shell_SHChangeNotifyRegisterThread, shell.SHChangeNotifyRegisterThread, shlobj/SHChangeNotifyRegisterThread
 ms.prod: windows
 ms.technology: windows-sdk

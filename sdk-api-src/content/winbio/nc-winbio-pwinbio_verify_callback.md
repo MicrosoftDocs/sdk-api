@@ -4,10 +4,10 @@ title: PWINBIO_VERIFY_CALLBACK
 author: windows-sdk-content
 description: Returns results from the asynchronous WinBioVerifyWithCallback function.
 old-location: secbiomet\pwinbio_verify_callback.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: CD847827-D50F-41C2-81F7-B5ED316E7ABD
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: PWINBIO_VERIFY_CALLBACK, PWINBIO_VERIFY_CALLBACK callback, PWINBIO_VERIFY_CALLBACK callback function [Windows Biometric Framework API], secbiomet.pwinbio_verify_callback, winbio/PWINBIO_VERIFY_CALLBACK
 ms.prod: windows
 ms.technology: windows-sdk
@@ -136,9 +136,13 @@ the current user. The callback routine, VerifyCallback, and a helper function, G
 <li>Conio.h</li>
 <li>Winbio.h</li>
 </ul>
-
-```cpp
-HRESULT VerifyWithCallback(BOOL bCancel, WINBIO_BIOMETRIC_SUBTYPE subFactor)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT VerifyWithCallback(BOOL bCancel, WINBIO_BIOMETRIC_SUBTYPE subFactor)
 {
     // Declare variables.
     HRESULT hr = S_OK;
@@ -148,7 +152,7 @@ HRESULT VerifyWithCallback(BOOL bCancel, WINBIO_BIOMETRIC_SUBTYPE subFactor)
     WINBIO_IDENTITY identity = {0};
 
     // Find the identity of the user.
-    hr = GetCurrentUserIdentity( &identity );
+    hr = GetCurrentUserIdentity( &amp;identity );
     if (FAILED(hr))
     {
         wprintf_s(L"\n User identity not found. hr = 0x%x\n", hr);
@@ -163,7 +167,7 @@ HRESULT VerifyWithCallback(BOOL bCancel, WINBIO_BIOMETRIC_SUBTYPE subFactor)
             NULL,                       // Array of biometric unit IDs
             0,                          // Count of biometric unit IDs
             NULL,                       // Database ID
-            &sessionHandle              // [out] Session handle
+            &amp;sessionHandle              // [out] Session handle
             );
     if (FAILED(hr))
     {
@@ -175,7 +179,7 @@ HRESULT VerifyWithCallback(BOOL bCancel, WINBIO_BIOMETRIC_SUBTYPE subFactor)
     wprintf_s(L"\n Calling WinBioVerifyWithCallback.\n");
     hr = WinBioVerifyWithCallback(
             sessionHandle,              // Open session handle
-            &identity,                  // User SID or GUID
+            &amp;identity,                  // User SID or GUID
             subFactor,                  // Sample sub-factor
             VerifyCallback,             // Callback function
             NULL                        // Optional context
@@ -288,14 +292,14 @@ HRESULT GetCurrentUserIdentity(__inout PWINBIO_IDENTITY Identity)
 
     // Zero the input identity and specify the type.
     ZeroMemory( Identity, sizeof(WINBIO_IDENTITY));
-    Identity->Type = WINBIO_ID_TYPE_NULL;
+    Identity-&gt;Type = WINBIO_ID_TYPE_NULL;
 
     // Open the access token associated with the
     // current process
     if (!OpenProcessToken(
             GetCurrentProcess(),            // Process handle
             TOKEN_READ,                     // Read access only
-            &tokenHandle))                  // Access token handle
+            &amp;tokenHandle))                  // Access token handle
     {
         DWORD win32Status = GetLastError();
         wprintf_s(L"Cannot open token handle: %d\n", win32Status);
@@ -304,16 +308,16 @@ HRESULT GetCurrentUserIdentity(__inout PWINBIO_IDENTITY Identity)
     }
 
     // Zero the tokenInfoBuffer structure.
-    ZeroMemory(&tokenInfoBuffer, sizeof(tokenInfoBuffer));
+    ZeroMemory(&amp;tokenInfoBuffer, sizeof(tokenInfoBuffer));
 
     // Retrieve information about the access token. In this case,
     // retrieve a SID.
     if (!GetTokenInformation(
             tokenHandle,                    // Access token handle
             TokenUser,                      // User for the token
-            &tokenInfoBuffer.tokenUser,     // Buffer to fill
+            &amp;tokenInfoBuffer.tokenUser,     // Buffer to fill
             sizeof(tokenInfoBuffer),        // Size of the buffer
-            &bytesReturned))                // Size needed
+            &amp;bytesReturned))                // Size needed
     {
         DWORD win32Status = GetLastError();
         wprintf_s(L"Cannot query token information: %d\n", win32Status);
@@ -325,14 +329,14 @@ HRESULT GetCurrentUserIdentity(__inout PWINBIO_IDENTITY Identity)
     // WINBIO_IDENTITY structure. 
     CopySid(
         SECURITY_MAX_SID_SIZE,
-        Identity->Value.AccountSid.Data,
+        Identity-&gt;Value.AccountSid.Data,
         tokenInfoBuffer.tokenUser.User.Sid
         );
 
     // Specify the size of the SID and assign WINBIO_ID_TYPE_SID
     // to the type member of the WINBIO_IDENTITY structure.
-    Identity->Value.AccountSid.Size = GetLengthSid(tokenInfoBuffer.tokenUser.User.Sid);
-    Identity->Type = WINBIO_ID_TYPE_SID;
+    Identity-&gt;Value.AccountSid.Size = GetLengthSid(tokenInfoBuffer.tokenUser.User.Sid);
+    Identity-&gt;Type = WINBIO_ID_TYPE_SID;
 
 e_Exit:
 
@@ -344,9 +348,9 @@ e_Exit:
     return hr;
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

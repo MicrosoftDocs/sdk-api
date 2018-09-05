@@ -7,7 +7,7 @@ old-location: wsw\ws_message_properties.htm
 old-project: wsw
 ms.assetid: 74ad74fd-457a-4408-8032-15d365f98b14
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_MESSAGE_PROPERTIES, WS_MESSAGE_PROPERTIES structure [Web Services for Windows], _WS_MESSAGE_PROPERTIES, webservices/WS_MESSAGE_PROPERTIES, wsw.ws_message_properties
 ms.prod: windows
 ms.technology: windows-sdk

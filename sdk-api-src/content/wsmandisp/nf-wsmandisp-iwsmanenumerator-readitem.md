@@ -4,10 +4,10 @@ title: IWSManEnumerator::ReadItem
 author: windows-sdk-content
 description: Retrieves an item from the resource and returns an XML representation of the item.
 old-location: winrm\enumerator_readitem.htm
-old-project: winrm
+old-project: WinRM
 ms.assetid: 4280ecb8-2449-41bd-868a-785e8ac3b3d5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Enumerator object [Windows Remote Management],ReadItem method, Enumerator.ReadItem, IWSManEnumerator.ReadItem, IWSManEnumerator::ReadItem, ReadItem, ReadItem method [Windows Remote Management], ReadItem method [Windows Remote Management],Enumerator object, winrm.enumerator_readitem, wsman.enumerator_readitem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,14 +90,18 @@ The <a href="https://msdn.microsoft.com/ed8ad3ad-d033-45cb-b681-995c5f73b12e">Se
 
 The following VBScript example calls the <a href="https://msdn.microsoft.com/ed8ad3ad-d033-45cb-b681-995c5f73b12e">Session.Enumerate</a> method to obtain a list of scheduled jobs.  The DisplayOutput subroutine uses the Winrm command line tool XML transform file (WsmTxt.xsl) to output the data in a tabular form.
 
-
-```vb
-Const RemoteComputer = "servername.domain.com"
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Const RemoteComputer = "servername.domain.com"
 
 Set objWsman = CreateObject( "WSMan.Automation" )
-Set objSession = objWsman.CreateSession( "http://" & RemoteComputer )
+Set objSession = objWsman.CreateSession( "http://" &amp; RemoteComputer )
 
-strResource = "http://schemas.microsoft.com/wbem/wsman/1/" &_
+strResource = "http://schemas.microsoft.com/wbem/wsman/1/" &amp;_
               "wmi/root/cimv2/Win32_ScheduledJob"
 
 Set objResultSet = objSession.Enumerate( strResource )
@@ -108,7 +112,7 @@ While Not objResultSet.AtEndOfStream
     DisplayOutput( objResultSet.ReadItem ) 
 Wend
 
-Wscript.Echo "There are " & NumOfJobs & " jobs scheduled."
+Wscript.Echo "There are " &amp; NumOfJobs &amp; " jobs scheduled."
 
 '****************************************************
 ' Displays WinRM XML message using built-in XSL
@@ -120,10 +124,10 @@ Sub DisplayOutput( strWinRMXml )
     xmlFile.LoadXml( strWinRMXml )
     xslFile.Load( "WsmTxt.xsl" )
     Wscript.Echo xmlFile.TransformNode( xslFile ) 
-End Sub
-```
-
-
+End Sub</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

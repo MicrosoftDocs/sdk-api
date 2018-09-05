@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch2_CanStartStopService.htm
 old-project: shell
 ms.assetid: cbb54ae9-02e6-4243-a782-e9f125c21c0d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: CanStartStopService, CanStartStopService method [Windows Shell], CanStartStopService method [Windows Shell],IShellDispatch2 object, IShellDispatch2 object [Windows Shell],CanStartStopService method, IShellDispatch2.CanStartStopService, IShellDispatch2::CanStartStopService, _win32_IShellDispatch2_CanStartStopService, shell.IShellDispatch2_CanStartStopService
 ms.prod: windows
 ms.technology: windows-sdk
@@ -112,9 +112,13 @@ The following examples show the usage of <b>CanStartStopService</b> for JScript 
 JScript:
                 
 
-
-```javascript
-<script language="JScript">
+<div class="code"><span codelanguage="JScript"><table>
+<tr>
+<th>JScript</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="JScript"&gt;
     function fnCanStartStopServiceJ()
     {
         var objShell = new ActiveXObject("shell.application");
@@ -122,16 +126,20 @@ JScript:
 
         bReturn = objShell.CanStartStopService("service name");
     }
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 VBScript:
 
-
-```vb
-<script language="VBScript">
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="VBScript"&gt;
     function fnCanStartStopServiceVB()
         dim objShell
         dim bReturn
@@ -142,10 +150,10 @@ VBScript:
 
         set objShell = nothing
     end function
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

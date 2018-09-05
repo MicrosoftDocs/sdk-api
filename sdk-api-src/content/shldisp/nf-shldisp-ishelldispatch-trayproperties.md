@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_TrayProperties.htm
 old-project: shell
 ms.assetid: 8E0AC08E-1132-4312-9B75-E7686B91AB02
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellDispatch object [Windows Shell],TrayProperties method, IShellDispatch.TrayProperties, IShellDispatch::TrayProperties, TrayProperties, TrayProperties method [Windows Shell], TrayProperties method [Windows Shell],IShellDispatch object, shell.IShellDispatch_TrayProperties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,25 +89,33 @@ The following examples show the use of <b>TrayProperties</b> in JScript, VBScrip
 JScript:
                 
 
-
-```javascript
-<script language="JScript">
+<div class="code"><span codelanguage="JScript"><table>
+<tr>
+<th>JScript</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="JScript"&gt;
     function fnShellTrayPropertiesJ()
     {
         var objShell = new ActiveXObject("shell.application");
         
         objshell.TrayProperties();
     }
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 VBScript:
 
-
-```vb
-<script language="VBScript">
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="VBScript"&gt;
     function fnShellTrayPropertiesVB()
         dim objShell
         
@@ -116,16 +124,20 @@ VBScript:
 
         set objShell = nothing
     end function
- </script>
-
-```
-
-
+ &lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 Visual Basic:
 
-
-```vb
-Private Sub fnShellTrayPropertiesVB()
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Private Sub fnShellTrayPropertiesVB()
     Dim objShell As Shell
     
     Set objShell = New Shell
@@ -133,9 +145,9 @@ Private Sub fnShellTrayPropertiesVB()
 
     Set objShell = Nothing
 End Sub
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

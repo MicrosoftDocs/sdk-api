@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevicepropertiesbulkcallback.htm
 old-project: wpd_sdk
 ms.assetid: 0a066e30-f584-4a8f-be08-c542060a335b
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IPortableDevicePropertiesBulkCallback, IPortableDevicePropertiesBulkCallback interface [Windows Portable Devices SDK], IPortableDevicePropertiesBulkCallback interface [Windows Portable Devices SDK],described, IPortableDevicePropertiesBulkCallbackInterface, portabledeviceapi/IPortableDevicePropertiesBulkCallback, wpdsdk.iportabledevicepropertiesbulkcallback
 ms.prod: windows
 ms.technology: windows-sdk

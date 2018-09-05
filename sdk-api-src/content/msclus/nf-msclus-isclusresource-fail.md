@@ -7,7 +7,7 @@ old-location: mscs\clusresource_fail.htm
 old-project: mscs
 ms.assetid: c184a7f3-b09a-4349-a940-20d622f729a6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusResource class [Failover Cluster],Fail method, ClusResource.Fail, Fail, Fail method [Failover Cluster], Fail method [Failover Cluster],ClusResource class, ISClusResource.Fail, ISClusResource::Fail, _wolf_clusresource.fail, mscs.clusresource_fail
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,7 +83,7 @@ This method does not return a value.
 
 
 The <b>Fail</b> method causes the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> to initiate the same procedures that would result 
+    <a href="c_gly.htm">cluster</a> to initiate the same procedures that would result 
     if the resource had actually failed. Use the <b>Fail</b> 
     method to test <a href="https://msdn.microsoft.com/6722d075-02e0-4817-abc3-dce8951c17da">failover</a> policies for resources and 
     <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">groups</a>. For more information about resource failure policies, see 

@@ -57,7 +57,7 @@ A render-target-view interface represents the render-target subresources that ca
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11RenderTargetView1</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Ff476582(v=VS.85).aspx">ID3D11RenderTargetView</a>. <b>ID3D11RenderTargetView1</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D11RenderTargetView1</b> interface inherits from <a href="https://msdn.microsoft.com/3ae7c255-2403-493a-9fb9-fc9795f6d920">ID3D11RenderTargetView</a>. <b>ID3D11RenderTargetView1</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -98,7 +98,7 @@ A render target is a resource that can be written by the output-merger stage at 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476582(v=VS.85).aspx">ID3D11RenderTargetView</a>
+<a href="https://msdn.microsoft.com/3ae7c255-2403-493a-9fb9-fc9795f6d920">ID3D11RenderTargetView</a>
 
 
 

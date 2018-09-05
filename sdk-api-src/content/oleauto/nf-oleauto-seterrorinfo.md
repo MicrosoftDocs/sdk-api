@@ -107,26 +107,30 @@ Entering the COM modal message loop will clear any existing error object. A call
 
 #### Examples
 
-
-```cpp
-ICreateErrorInfo *pcerrinfo;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>ICreateErrorInfo *pcerrinfo;
 IErrorInfo *perrinfo;
 HRESULT hr;
 
-hr = CreateErrorInfo(&pcerrinfo);
+hr = CreateErrorInfo(&amp;pcerrinfo);
 if (SUCCEEDED(hr))
 {
-   hr = pcerrinfo->QueryInterface(IID_IErrorInfo, (LPVOID FAR*) &perrinfo);
+   hr = pcerrinfo-&gt;QueryInterface(IID_IErrorInfo, (LPVOID FAR*) &amp;perrinfo);
    if (SUCCEEDED(hr))
    {
       SetErrorInfo(0, perrinfo);
-      perrinfo->Release();
+      perrinfo-&gt;Release();
    }
-   pcerrinfo->Release();
+   pcerrinfo-&gt;Release();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

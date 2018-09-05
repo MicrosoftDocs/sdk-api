@@ -84,16 +84,20 @@ Address to contain the buffer size for the optional header data.
 
 The <b>AVIStreamDataSize</b> macro is defined as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 #define AVIStreamDataSize(pavi, fcc, plSize) \ 
     AVIStreamReadData(pavi, fcc, NULL, plSize) 
  
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

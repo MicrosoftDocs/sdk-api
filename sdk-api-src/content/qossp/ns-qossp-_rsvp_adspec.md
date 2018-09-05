@@ -4,10 +4,10 @@ title: "_RSVP_ADSPEC"
 author: windows-sdk-content
 description: The QOS object RSVP_ADSPEC provides a means by which information describing network devices along the data path between sender and receiver, pertaining to RSVP functionality and available services, is provided or retrieved.
 old-location: qos\rsvp_adspec.htm
-old-project: qos
+old-project: QOS
 ms.assetid: 90fad5de-7105-4126-a6db-d4fb663e01f4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPRSVP_ADSPEC, LPRSVP_ADSPEC, LPRSVP_ADSPEC structure pointer [QOS], RSVP_ADSPEC, RSVP_ADSPEC structure [QOS], _RSVP_ADSPEC, _gqos_rsvp_adspec, qos.rsvp_adspec, qossp/LPRSVP_ADSPEC, qossp/RSVP_ADSPEC"
 ms.prod: windows
 ms.technology: windows-sdk

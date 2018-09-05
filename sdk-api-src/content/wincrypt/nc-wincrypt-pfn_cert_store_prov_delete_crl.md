@@ -4,11 +4,11 @@ title: PFN_CERT_STORE_PROV_DELETE_CRL
 author: windows-sdk-content
 description: An application-defined callback function that is called by CertDeleteCRLFromStore before deleting the CRL from the store.
 old-location: security\certstoreprovdeletecrlcallback.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: aa93cfaf-238f-4d77-a1cd-433a856ed133
 ms.author: windowssdkdev
-ms.date: 08/15/2018
-ms.keywords: CertStoreProvDeleteCRLCallback, CertStoreProvDeleteCRLCallback callback, CertStoreProvDeleteCRLCallback callback function [Security], PFN_CERT_STORE_PROV_DELETE_CRL, PFN_CERT_STORE_PROV_DELETE_CRL callback function [Security], _crypto2_certstoreprovdeletecrlcallback, security.certstoreprovdeletecrlcallback, wincrypt/CertStoreProvDeleteCRLCallback, wincrypt/PFN_CERT_STORE_PROV_DELETE_CRL
+ms.date: 08/29/2018
+ms.keywords: CertStoreProvDeleteCRLCallback, PFN_CERT_STORE_PROV_DELETE_CRL, PFN_CERT_STORE_PROV_DELETE_CRL callback, PFN_CERT_STORE_PROV_DELETE_CRL callback function [Security], _crypto2_certstoreprovdeletecrlcallback, security.certstoreprovdeletecrlcallback, wincrypt/PFN_CERT_STORE_PROV_DELETE_CRL
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - CertStoreProvDeleteCRLCallback
+ - PFN_CERT_STORE_PROV_DELETE_CRL
 product: Windows
 targetos: Windows
 req.lib: 
@@ -92,7 +92,7 @@ Returns <b>TRUE</b> if it is okay to delete from the store. Otherwise, returns <
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Callback Functions</a>
+<a href="cryptography_functions.htm">Callback Functions</a>
  
 
  

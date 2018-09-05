@@ -7,7 +7,7 @@ old-location: netmgmt\netalertraise.htm
 old-project: netmgmt
 ms.assetid: 11367a72-c21d-4044-98cf-a7a30cc43a8b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ALERT_ADMIN_EVENT, ALERT_ERRORLOG_EVENT, ALERT_MESSAGE_EVENT, ALERT_PRINT_EVENT, ALERT_USER_EVENT, NetAlertRaise, NetAlertRaise function [Network Management], _win32_netalertraise, lmalert/NetAlertRaise, netmgmt.netalertraise
 ms.prod: windows
 ms.technology: windows-sdk
@@ -221,17 +221,21 @@ The following code sample demonstrates how to raise an administrative alert by c
 <a href="https://msdn.microsoft.com/ff71fb3d-8c01-47ac-93f2-108b1f49e2da">ALERT_VAR_DATA</a> macro. Finally, the code sample frees the memory allocated for the buffer with a call to the 
 <a href="https://msdn.microsoft.com/5fe910ac-f857-45ca-9c0f-4f9ba3c5e61b">GlobalFree</a> function.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 #pragma comment(lib, "netapi32.lib")
 
-#include <windows.h>
-#include <stdio.h>
-#include <time.h>
-#include <lm.h>
+#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;time.h&gt;
+#include &lt;lm.h&gt;
 
 const int ALERT_VAR_DATA_SIZE = 216;
 
@@ -269,10 +273,10 @@ int wmain(int argc, wchar_t *argv[])
    //   (This is required when you call NetAlertRaise.)
    //
    pStdAlert = (PSTD_ALERT)pAlertOtherInfo;
-   time( &now );
-   pStdAlert->alrt_timestamp = (DWORD)now;
-   wcscpy_s(pStdAlert->alrt_eventname, EVLEN + 1, ALERT_ADMIN_EVENT);
-   wcscpy_s(pStdAlert->alrt_servicename, SNLEN + 1, argv[0]);
+   time( &amp;now );
+   pStdAlert-&gt;alrt_timestamp = (DWORD)now;
+   wcscpy_s(pStdAlert-&gt;alrt_eventname, EVLEN + 1, ALERT_ADMIN_EVENT);
+   wcscpy_s(pStdAlert-&gt;alrt_servicename, SNLEN + 1, argv[0]);
    //
    // Retrieve the pointer to the ADMIN_OTHER_INFO structure 
    //  that follows the STD_ALERT portion of the buffer.
@@ -282,12 +286,12 @@ int wmain(int argc, wchar_t *argv[])
    //
    // Assign values to the ADMIN_OTHER_INFO structure.
    //
-   pAdminOtherInfo->alrtad_numstrings = 1;
+   pAdminOtherInfo-&gt;alrtad_numstrings = 1;
    //
    // Error 2377, NERR_LogOverflow, indicates
    //  a log file is full.
    //
-   pAdminOtherInfo->alrtad_errcode = 2377;
+   pAdminOtherInfo-&gt;alrtad_errcode = 2377;
    //
    // Retrieve the pointer to the variable data portion
    //  of the buffer by calling the ALERT_VAR_DATA macro.
@@ -320,10 +324,10 @@ int wmain(int argc, wchar_t *argv[])
 
    return (dwResult);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

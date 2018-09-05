@@ -7,7 +7,7 @@ old-location: wmi\wbemtimespan_operator_minus_equal.htm
 old-project: WmiSdk
 ms.assetid: 4cf466bc-278e-4352-a818-ed74ff65903a
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: WBEMTimeSpan interface [Windows Management Instrumentation],operator-= method, WBEMTimeSpan.operator-=, WBEMTimeSpan::operator-=, _hmm_wbemtimespan_operator_minus_equal, operator-=, operator-= method [Windows Management Instrumentation], operator-= method [Windows Management Instrumentation],WBEMTimeSpan interface, wbemtime/WBEMTimeSpan::operator-=, wmi.wbemtimespan_operator_minus_equal
 ms.prod: windows
 ms.technology: windows-sdk

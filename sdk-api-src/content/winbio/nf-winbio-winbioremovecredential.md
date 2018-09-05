@@ -4,10 +4,10 @@ title: WinBioRemoveCredential function
 author: windows-sdk-content
 description: Deletes a biometric logon credential for a specified user. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbioremovecredential.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: 56a5d510-f2cb-457b-884a-ad08ea21ce01
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: WINBIO_CREDENTIAL_ALL, WINBIO_CREDENTIAL_PASSWORD, WinBioRemoveCredential, WinBioRemoveCredential function [Windows Biometric Framework API], secbiomet.winbioremovecredential, winbio/WinBioRemoveCredential
 ms.prod: windows
 ms.technology: windows-sdk
@@ -156,16 +156,20 @@ The following function shows how to call <b>WinBioRemoveCredential</b> to remove
 <li>Conio.h</li>
 <li>Winbio.h</li>
 </ul>
-
-```cpp
-HRESULT RemoveCredential()
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT RemoveCredential()
 {
     HRESULT hr = S_OK;
     WINBIO_IDENTITY identity;
 
     // Find the identity of the user.
     wprintf_s(L"\n Finding user identity.\n");
-    hr = GetCurrentUserIdentity( &identity );
+    hr = GetCurrentUserIdentity( &amp;identity );
     if (FAILED(hr))
     {
         wprintf(L"\n User identity not found. hr = 0x%x\n", hr);
@@ -208,14 +212,14 @@ HRESULT GetCurrentUserIdentity(__inout PWINBIO_IDENTITY Identity)
 
     // Zero the input identity and specify the type.
     ZeroMemory( Identity, sizeof(WINBIO_IDENTITY));
-    Identity->Type = WINBIO_ID_TYPE_NULL;
+    Identity-&gt;Type = WINBIO_ID_TYPE_NULL;
 
     // Open the access token associated with the
     // current process
     if (!OpenProcessToken(
             GetCurrentProcess(),            // Process handle
             TOKEN_READ,                     // Read access only
-            &tokenHandle))                  // Access token handle
+            &amp;tokenHandle))                  // Access token handle
     {
         DWORD win32Status = GetLastError();
         wprintf_s(L"Cannot open token handle: %d\n", win32Status);
@@ -224,16 +228,16 @@ HRESULT GetCurrentUserIdentity(__inout PWINBIO_IDENTITY Identity)
     }
 
     // Zero the tokenInfoBuffer structure.
-    ZeroMemory(&tokenInfoBuffer, sizeof(tokenInfoBuffer));
+    ZeroMemory(&amp;tokenInfoBuffer, sizeof(tokenInfoBuffer));
 
     // Retrieve information about the access token. In this case,
     // retrieve a SID.
     if (!GetTokenInformation(
             tokenHandle,                    // Access token handle
             TokenUser,                      // User for the token
-            &tokenInfoBuffer.tokenUser,     // Buffer to fill
+            &amp;tokenInfoBuffer.tokenUser,     // Buffer to fill
             sizeof(tokenInfoBuffer),        // Size of the buffer
-            &bytesReturned))                // Size needed
+            &amp;bytesReturned))                // Size needed
     {
         DWORD win32Status = GetLastError();
         wprintf_s(L"Cannot query token information: %d\n", win32Status);
@@ -245,14 +249,14 @@ HRESULT GetCurrentUserIdentity(__inout PWINBIO_IDENTITY Identity)
     // WINBIO_IDENTITY structure. 
     CopySid(
         SECURITY_MAX_SID_SIZE,
-        Identity->Value.AccountSid.Data,
+        Identity-&gt;Value.AccountSid.Data,
         tokenInfoBuffer.tokenUser.User.Sid
         );
 
     // Specify the size of the SID and assign WINBIO_ID_TYPE_SID
     // to the type member of the WINBIO_IDENTITY structure.
-    Identity->Value.AccountSid.Size = GetLengthSid(tokenInfoBuffer.tokenUser.User.Sid);
-    Identity->Type = WINBIO_ID_TYPE_SID;
+    Identity-&gt;Value.AccountSid.Size = GetLengthSid(tokenInfoBuffer.tokenUser.User.Sid);
+    Identity-&gt;Type = WINBIO_ID_TYPE_SID;
 
 e_Exit:
 
@@ -264,10 +268,10 @@ e_Exit:
     return hr;
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,10 +4,10 @@ title: IRDPViewerInputSink::BeginTouchFrame
 author: windows-sdk-content
 description: Begins to accept a series of touch inputs.
 old-location: rdp\irdpviewerinputsink_begintouchframe.htm
-old-project: rdp
+old-project: Rdp
 ms.assetid: DCB67D63-A866-4D98-907B-6CDB7EB56312
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BeginTouchFrame, BeginTouchFrame method [RDP], BeginTouchFrame method [RDP],IRDPViewerInputSink interface, IRDPViewerInputSink interface [RDP],BeginTouchFrame method, IRDPViewerInputSink.BeginTouchFrame, IRDPViewerInputSink::BeginTouchFrame, rdp.irdpviewerinputsink_begintouchframe, rdpencomapi/IRDPViewerInputSink::BeginTouchFrame
 ms.prod: windows
 ms.technology: windows-sdk

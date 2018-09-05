@@ -4,10 +4,10 @@ title: SnmpUtilVarBindListFree function
 author: windows-sdk-content
 description: The SnmpUtilVarBindListFree function frees the memory allocated for an SnmpVarBindList structure. This function is an element of the SNMP Utility API.
 old-location: snmp\snmputilvarbindlistfree.htm
-old-project: snmp
+old-project: SNMP
 ms.assetid: 79143aaa-26e1-4142-9c67-508d70034de2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SnmpUtilVarBindListFree, SnmpUtilVarBindListFree function [SNMP], _snmp_snmputilvarbindlistfree, snmp.snmputilvarbindlistfree, snmp/SnmpUtilVarBindListFree
 ms.prod: windows
 ms.technology: windows-sdk

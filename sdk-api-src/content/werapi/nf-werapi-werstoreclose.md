@@ -7,7 +7,7 @@ old-location: wer\werstoreclose.htm
 old-project: wer
 ms.assetid: C34FBA67-5267-471C-B1AA-87BFC5725831
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WerStoreClose, WerStoreClose function [Windows Error Reporting], wer.werstoreclose, werapi/WerStoreClose
 ms.prod: windows
 ms.technology: windows-sdk

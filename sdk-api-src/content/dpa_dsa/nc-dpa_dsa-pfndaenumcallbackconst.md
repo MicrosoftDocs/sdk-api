@@ -70,7 +70,7 @@ A pointer to the constant structure to be enumerated.
 
 Type: <b>void*</b>
 
-A value that was passed in the <i>pData</i> parameter to function <a href="https://msdn.microsoft.com/en-us/library/Bb775657(v=VS.85).aspx">DSA_EnumCallback</a> or function <a href="https://msdn.microsoft.com/en-us/library/Bb775615(v=VS.85).aspx">DPA_EnumCallback</a>.
+A value that was passed in the <i>pData</i> parameter to function <a href="https://msdn.microsoft.com/31abb9f9-52b5-45d3-81e3-f9ccb5977597">DSA_EnumCallback</a> or function <a href="https://msdn.microsoft.com/25400c05-5f1d-46b6-b603-d33ed9bd24db">DPA_EnumCallback</a>.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontdownloadqueue_getgenerationcount.htm
 old-project: DirectWrite
 ms.assetid: 6fbbe575-b186-7ffb-ff32-efceccccc48c
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetGenerationCount, GetGenerationCount method [Direct Write], GetGenerationCount method [Direct Write],IDWriteFontDownloadQueue interface, IDWriteFontDownloadQueue interface [Direct Write],GetGenerationCount method, IDWriteFontDownloadQueue.GetGenerationCount, IDWriteFontDownloadQueue::GetGenerationCount, directwrite.idwritefontdownloadqueue_getgenerationcount, dwrite_3/IDWriteFontDownloadQueue::GetGenerationCount
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mscs\clusnode_evict.htm
 old-project: mscs
 ms.assetid: e65a230e-3931-4e1a-b80d-3fd2499d330c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusNode object [Failover Cluster],Evict method, ClusNode.Evict, Evict, Evict method [Failover Cluster], Evict method [Failover Cluster],ClusNode object, ISClusNode.Evict, ISClusNode::Evict, _wolf_clusnode.evict, mscs.clusnode_evict
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ req.product: GDI+ 1.1
 
 Removes a 
     <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a> from the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+    <a href="c_gly.htm">cluster</a>.
 
 
 ## -parameters
@@ -82,7 +82,7 @@ This method does not return a value.
 
 
 
-An evicted node is no longer a member of the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>. 
+An evicted node is no longer a member of the <a href="c_gly.htm">cluster</a>. 
     The <a href="https://msdn.microsoft.com/90717d6e-f2a4-49a0-86b6-17de1c4bcfe4">Cluster service</a> must be reinstalled on the node to 
     reestablish the node's cluster membership.
 

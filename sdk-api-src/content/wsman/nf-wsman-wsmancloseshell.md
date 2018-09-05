@@ -4,10 +4,10 @@ title: WSManCloseShell function
 author: windows-sdk-content
 description: Deletes a shell object and frees the resources associated with the shell.
 old-location: winrm\wsmancloseshell.htm
-old-project: winrm
+old-project: WinRM
 ms.assetid: 1da452ef-5842-4d8d-941b-09fa57393ebb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WSManCloseShell, WSManCloseShell function [Windows Remote Management], winrm.wsmancloseshell, wsman/WSManCloseShell
 ms.prod: windows
 ms.technology: windows-sdk

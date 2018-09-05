@@ -7,7 +7,7 @@ old-location: wmi\swbemobject_execmethod_.htm
 old-project: WmiSdk
 ms.assetid: 39a8a6e7-b499-410a-8c27-d4a05d1a61b9
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: ExecMethod_, ExecMethod_ method [Windows Management Instrumentation], ExecMethod_ method [Windows Management Instrumentation],ISWbemObject interface, ExecMethod_ method [Windows Management Instrumentation],SWbemObject object, ISWbemObject interface [Windows Management Instrumentation],ExecMethod_ method, ISWbemObject.ExecMethod_, ISWbemObject::ExecMethod_, SWbemObject object [Windows Management Instrumentation],ExecMethod_ method, SWbemObject.ExecMethod_, _hmm_swbemobject.execmethod_, wmi.swbemobject_execmethod_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -128,23 +128,31 @@ This method is similar to
 <a href="https://msdn.microsoft.com/b7a815a2-7bf6-436f-b3b4-de55eeb2de0e">StartService</a> provider method in <a href="https://msdn.microsoft.com/713402d3-ee73-4a6c-afb9-ad8033a4c580">Win32_Service</a> and uses 
 <a href="https://msdn.microsoft.com/682cbe12-1487-4681-8d2f-4caf21cb068a">direct access</a>.
 
-
-```vb
-oService = GetObject("winmgmts:Win32_Service=Alerter")
-iStatus = oService.StartService()
-```
-
-
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>oService = GetObject("winmgmts:Win32_Service=Alerter")
+iStatus = oService.StartService()</pre>
+</td>
+</tr>
+</table></span></div>
 This version calls <b>SWbemObject.ExecMethod_</b> to execute the <a href="https://msdn.microsoft.com/b7a815a2-7bf6-436f-b3b4-de55eeb2de0e">StartService</a> method.
 
-
-```vb
-oService = GetObject("winmgmts:Win32_Service=Alerter")
-Set outParam = process.ExecMethod_("StartService")
-```
-
-
-Use <b>SWbemObject.ExecMethod_</b> as an alternative to direct access for executing a <a href="https://msdn.microsoft.com/en-us/library/Aa390825(v=VS.85).aspx">provider method</a> in cases where it is not possible to execute a method directly. For example, you would use <b>SWbemObject.ExecMethod_</b> with a scripting language that does not support output parameters if your method has out parameters. Otherwise, the recommended means of invoking a method is to use direct access.
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>oService = GetObject("winmgmts:Win32_Service=Alerter")
+Set outParam = process.ExecMethod_("StartService")</pre>
+</td>
+</tr>
+</table></span></div>
+Use <b>SWbemObject.ExecMethod_</b> as an alternative to direct access for executing a <a href="gloss_p.htm">provider method</a> in cases where it is not possible to execute a method directly. For example, you would use <b>SWbemObject.ExecMethod_</b> with a scripting language that does not support output parameters if your method has out parameters. Otherwise, the recommended means of invoking a method is to use direct access.
 
 <ul>
 <li>The <b>SWbemObject.ExecMethod_</b> method assumes the object represented by <a href="https://msdn.microsoft.com/d303ec1a-5e0c-4a5e-8ed3-ed353a138755">SWbemObject</a> contains the method to execute. By contrast, <a href="https://msdn.microsoft.com/2637efdc-fde5-4a44-a41f-67e0fb0df19d">SWbemServices.ExecMethod</a> requires an object path. Use <b>SWbemObject.ExecMethod_</b> if you already have obtained the object whose method you want to execute.</li>
@@ -159,9 +167,13 @@ The following example shows the
 <a href="https://msdn.microsoft.com/be80abec-fab4-4403-bc29-d0d4a38e3c87">Create Method in Class Win32_Process</a> . For an example of the same operation using an <a href="https://msdn.microsoft.com/7fcfa404-2fe6-42e5-85ac-64536f6d2a44">SWbemServices</a> object, see 
 <b>SWbemServices.ExecMethod</b>.
 
-
-```vb
-' Connect to WMI and obtain a Win32_Process object.
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>' Connect to WMI and obtain a Win32_Process object.
 ' This is also an SWbemObject object.
 Set oProcess = GetObject("winmgmts:Win32_Process")
 
@@ -191,12 +203,12 @@ Else
         wscript.echo "Create method failed to execute."  
     Else
         wscript.echo "Create method executed but had error" _
-            & "0x" & hex(oOutParams.ReturnValue)
+            &amp; "0x" &amp; hex(oOutParams.ReturnValue)
     End If
-End If
-```
-
-
+End If</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

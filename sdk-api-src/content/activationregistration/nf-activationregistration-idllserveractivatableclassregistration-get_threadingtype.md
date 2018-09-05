@@ -7,7 +7,7 @@ old-location: winrt\idllserveractivatableclassregistration_threadingtype.htm
 old-project: WinRT
 ms.assetid: 08F95AD6-B559-4652-A496-84777BF0189D
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IDllServerActivatableClassRegistration interface [Windows Runtime],get_ThreadingType method, IDllServerActivatableClassRegistration.get_ThreadingType, IDllServerActivatableClassRegistration::get_ThreadingType, activationregistration/IDllServerActivatableClassRegistration::get_ThreadingType, get_ThreadingType, get_ThreadingType method [Windows Runtime], get_ThreadingType method [Windows Runtime],IDllServerActivatableClassRegistration interface, winrt.idllserveractivatableclassregistration_threadingtype
 ms.prod: windows
 ms.technology: windows-sdk

@@ -102,9 +102,13 @@ Note that the value is clamped to the range [0...1] before multiplying by 255.
 
 #### Examples
 
-
-```cpp
-HRESULT DXVAHD_SetLumaKey(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT DXVAHD_SetLumaKey(
     IDXVAHD_VideoProcessor *pVP,
     UINT stream,
     BOOL bEnable,
@@ -114,19 +118,19 @@ HRESULT DXVAHD_SetLumaKey(
 {
     DXVAHD_STREAM_STATE_LUMA_KEY_DATA luma = { bEnable, fLower, fUpper };
 
-    HRESULT hr = pVP->SetVideoProcessStreamState(
+    HRESULT hr = pVP-&gt;SetVideoProcessStreamState(
         stream,
         DXVAHD_STREAM_STATE_LUMA_KEY,
         sizeof(luma),
-        &luma
+        &amp;luma
         );
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

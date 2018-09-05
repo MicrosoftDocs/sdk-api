@@ -4,10 +4,10 @@ title: RpcNsMgmtEntryInqIfIdsW function
 author: windows-sdk-content
 description: The RpcNsMgmtEntryInqIfIds function returns the list of interfaces exported to a name service&#8211;database entry.
 old-location: rpc\rpcnsmgmtentryinqifids.htm
-old-project: rpc
+old-project: Rpc
 ms.assetid: 92f33e1d-a054-4484-903a-c91d3cd549d1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcNsMgmtEntryInqIfIds, RpcNsMgmtEntryInqIfIds function [RPC], RpcNsMgmtEntryInqIfIdsA, RpcNsMgmtEntryInqIfIdsW, _rpc_rpcnsmgmtentryinqifids, rpc.rpcnsmgmtentryinqifids, rpcnsi/RpcNsMgmtEntryInqIfIds, rpcnsi/RpcNsMgmtEntryInqIfIdsA, rpcnsi/RpcNsMgmtEntryInqIfIdsW
 ms.prod: windows
 ms.technology: windows-sdk

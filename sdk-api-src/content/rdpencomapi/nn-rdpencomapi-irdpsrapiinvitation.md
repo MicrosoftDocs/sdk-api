@@ -4,10 +4,10 @@ title: IRDPSRAPIInvitation
 author: windows-sdk-content
 description: Invitations enable a person or group of persons to connect to a session. When an attendee connects to a session, the client sends a ticket and a password. These two pieces of information are used to authenticate an attendee.
 old-location: rdp\irdpsrapiinvitation.htm
-old-project: rdp
+old-project: Rdp
 ms.assetid: 66cd8251-726a-4368-8da5-4d3f6899bdc8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IRDPSRAPIInvitation, IRDPSRAPIInvitation interface [RDP], IRDPSRAPIInvitation interface [RDP],described, rdp.irdpsrapiinvitation, rdpencomapi/IRDPSRAPIInvitation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,7 +69,7 @@ An attendee can join a session if the invitation list contains and invitation wi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

@@ -4,10 +4,10 @@ title: IUPnPService::get_ServiceTypeIdentifier
 author: windows-sdk-content
 description: The ServiceTypeIdentifier property specifies the service type identifier for the device.
 old-location: upnp\iupnpservice_servicetypeidentifier.htm
-old-project: upnp
+old-project: UPnP
 ms.assetid: 440344c9-b229-421b-b8a7-76f2f98c2c6b
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: IUPnPService interface [UPnP APIs],get_ServiceTypeIdentifier method, IUPnPService.get_ServiceTypeIdentifier, IUPnPService::get_ServiceTypeIdentifier, _upnp_iupnpservice_servicetypeidentifier, get_ServiceTypeIdentifier, get_ServiceTypeIdentifier method [UPnP APIs], get_ServiceTypeIdentifier method [UPnP APIs],IUPnPService interface, upnp.iupnpservice_servicetypeidentifier, upnp/IUPnPService::get_ServiceTypeIdentifier
 ms.prod: windows
 ms.technology: windows-sdk

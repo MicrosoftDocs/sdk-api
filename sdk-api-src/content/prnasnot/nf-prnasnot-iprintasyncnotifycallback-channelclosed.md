@@ -97,13 +97,17 @@ The return values are COM error codes. Because this function might complete the 
 
 See <a href="https://msdn.microsoft.com/2fb6698c-5d59-4ba0-a8ff-1313fade438c">PrintAsyncNotifyError</a> for other possible return values.
 
-For more information about COM error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa376932(v=VS.85).aspx">Error Handling</a>.
+For more information about COM error codes, see <a href="_com_error_handling">Error Handling</a>.
 
 The following code example shows how these macros can be used to evaluate the return value.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 if (SUCCEEDED(hr)){
   // Call was successful 
 }
@@ -125,10 +129,10 @@ if (FAILED(hr)) {
 } else {
   // Call succeeded 
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -152,7 +156,7 @@ If the listening application closes a bidirectional communication channel, it sh
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376932(v=VS.85).aspx">Error Handling</a>
+<a href="_com_error_handling">Error Handling</a>
 
 
 

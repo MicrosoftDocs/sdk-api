@@ -84,11 +84,11 @@ The user has a subscription account and the subscription content can be synchron
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd562861(v=VS.85).aspx">Enumerations for Type 1 Online Stores</a>
+<a href="https://msdn.microsoft.com/7359585f-6e8f-498f-a5a2-230265bae147">Enumerations for Type 1 Online Stores</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563164(v=VS.85).aspx">IWMPContentPartner::GetContentPartnerInfo</a>
+<a href="https://msdn.microsoft.com/ca63b65c-9a60-4c5d-a9f2-69d1168c53a5">IWMPContentPartner::GetContentPartnerInfo</a>
  
 
  

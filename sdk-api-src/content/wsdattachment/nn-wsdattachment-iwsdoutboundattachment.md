@@ -4,10 +4,10 @@ title: IWSDOutboundAttachment
 author: windows-sdk-content
 description: Enables applications to send attachment data in a message using a MIME container.
 old-location: ncd\iwsdoutboundattachment.htm
-old-project: wsdapi
+old-project: WsdApi
 ms.assetid: ba2f2038-e6ef-4ad4-a1fb-50e225394c60
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWSDOutboundAttachment, IWSDOutboundAttachment interface, IWSDOutboundAttachment interface,described, ncd.iwsdoutboundattachment, wsdattachment/IWSDOutboundAttachment
 ms.prod: windows
 ms.technology: windows-sdk

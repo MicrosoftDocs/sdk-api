@@ -4,10 +4,10 @@ title: IItemEnumerator
 author: windows-sdk-content
 description: Enumerates the items of a collection of settings and attributes.
 old-location: smi\iitemenumerator.htm
-old-project: smi
+old-project: SMI
 ms.assetid: f43245f1-81d9-4b06-8f0c-d490618a99fa
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IItemEnumerator, IItemEnumerator interface [SMI], IItemEnumerator interface [SMI],described, smi.iitemenumerator, wcmconfig/IItemEnumerator
 ms.prod: windows
 ms.technology: windows-sdk

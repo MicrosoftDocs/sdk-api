@@ -4,10 +4,10 @@ title: CStdStubBuffer2_QueryInterface function
 author: windows-sdk-content
 description: Implements the IRpcStubBuffer::QueryInterface method.
 old-location: rpc\cstdstubbuffer2_queryinterface.htm
-old-project: rpc
+old-project: Rpc
 ms.assetid: 50859CA3-6DD5-4316-974A-971DA6523B5A
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CStdStubBuffer2_QueryInterface, CStdStubBuffer2_QueryInterface function [RPC], rpc.cstdstubbuffer2_queryinterface, rpcproxy/CStdStubBuffer2_QueryInterface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ req.product: ADAM
 
 <p class="CCE_Message">[CStdStubBuffer2_QueryInterface is not supported and may be altered or unavailable in the future.]
 
-Implements the <a href="https://msdn.microsoft.com/en-us/library/ms678504(v=VS.85).aspx">IRpcStubBuffer::QueryInterface</a> method.
+Implements the <a href="_com_irpcstubbuffer">IRpcStubBuffer::QueryInterface</a> method.
 
 
 ## -parameters
@@ -66,7 +66,7 @@ Implements the <a href="https://msdn.microsoft.com/en-us/library/ms678504(v=VS.8
 
 ### -param This [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms678504(v=VS.85).aspx">IRpcStubBuffer</a> object.
+Pointer to the <a href="_com_irpcstubbuffer">IRpcStubBuffer</a> object.
 
 
 ### -param riid [in]

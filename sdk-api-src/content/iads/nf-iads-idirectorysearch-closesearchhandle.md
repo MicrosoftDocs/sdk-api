@@ -96,19 +96,23 @@ The caller may call this method only once for each opened search handle and must
 
 #### Examples
 
-
-```cpp
-ADS_SEARCH_HANDLE hSearch;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>ADS_SEARCH_HANDLE hSearch;
 HRESULT hr;
-hr = m_pSearch->ExecuteSearch(L"(&(objectCategory=user)(l=Redmond))", pszAttr, dwCount, &hSearch );
+hr = m_pSearch-&gt;ExecuteSearch(L"(&amp;(objectCategory=user)(l=Redmond))", pszAttr, dwCount, &amp;hSearch );
 if ( SUCCEEDED(hr) )
 {
    // Omit getting the data
-   m_pSearch->CloseSearchHandle(hSearch);
-}
-```
-
-
+   m_pSearch-&gt;CloseSearchHandle(hSearch);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

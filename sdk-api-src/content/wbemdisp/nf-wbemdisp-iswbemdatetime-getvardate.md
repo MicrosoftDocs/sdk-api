@@ -7,7 +7,7 @@ old-location: wmi\swbemdatetime_getvardate.htm
 old-project: WmiSdk
 ms.assetid: e63e7acc-89d4-458a-a1ab-4d4a65cf7f8b
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: GetVarDate, GetVarDate method [Windows Management Instrumentation], GetVarDate method [Windows Management Instrumentation],ISWbemDateTime interface, GetVarDate method [Windows Management Instrumentation],SWbemDateTime object, ISWbemDateTime interface [Windows Management Instrumentation],GetVarDate method, ISWbemDateTime.GetVarDate, ISWbemDateTime::GetVarDate, SWbemDateTime object [Windows Management Instrumentation],GetVarDate method, SWbemDateTime.GetVarDate, _hmm_swbemdatetime.getvardate, wmi.swbemdatetime_getvardate
 ms.prod: windows
 ms.technology: windows-sdk

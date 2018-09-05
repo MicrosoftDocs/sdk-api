@@ -7,7 +7,7 @@ old-location: mscs\cluster_upgrade_phase.htm
 old-project: mscs
 ms.assetid: 75FB1BCD-03E0-4A6F-8C97-99AE8E958174
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CLUSTER_UPGRADE_PHASE, CLUSTER_UPGRADE_PHASE enumeration [Failover Cluster], ClusterUpgradePhaseInitialize, ClusterUpgradePhaseInstallingNewComponents, ClusterUpgradePhaseUpgradeComplete, ClusterUpgradePhaseUpgradingComponents, ClusterUpgradePhaseValidatingUpgrade, _CLUSTER_UPGRADE_PHASE, clusapi/CLUSTER_UPGRADE_PHASE, clusapi/ClusterUpgradePhaseInitialize, clusapi/ClusterUpgradePhaseInstallingNewComponents, clusapi/ClusterUpgradePhaseUpgradeComplete, clusapi/ClusterUpgradePhaseUpgradingComponents, clusapi/ClusterUpgradePhaseValidatingUpgrade, msclus/CLUSTER_UPGRADE_PHASE, msclus/ClusterUpgradePhaseInitialize, msclus/ClusterUpgradePhaseInstallingNewComponents, msclus/ClusterUpgradePhaseUpgradeComplete, msclus/ClusterUpgradePhaseUpgradingComponents, msclus/ClusterUpgradePhaseValidatingUpgrade, mscs.cluster_upgrade_phase
 ms.prod: windows
 ms.technology: windows-sdk
@@ -22,7 +22,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: CluAdmEx.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-Describes the state of a rolling upgrade of the operating system on a cluster. This enumeration is used by the <a href="https://msdn.microsoft.com/en-us/library/Dn806599(v=VS.85).aspx">ClusterUpgradeProgressCallback</a> callback function.
+Describes the state of a rolling upgrade of the operating system on a cluster. This enumeration is used by the <a href="https://msdn.microsoft.com/EE803D8C-3EFD-414F-8E38-65A1DFA8079B">ClusterUpgradeProgressCallback</a> callback function.
 
 
 ## -enum-fields
@@ -94,7 +94,7 @@ The upgrade is complete.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309147(v=VS.85).aspx">Failover Cluster Enumerations</a>
+<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
  
 
  

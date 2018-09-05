@@ -147,17 +147,21 @@ On Windows Vista and later, the <b>DeleteIPAddress</b> function can only be cal
 
 The following example retrieves the IP address table, then adds the IP address 192.168.0.27 to the first adapter. The IP address that was added is then deleted.
 
-
-```cpp
-#ifndef WIN32_LEAN_AND_MEAN
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef WIN32_LEAN_AND_MEAN
 #define WIN32_LEAN_AND_MEAN
 #endif
 
-#include <windows.h>
-#include <winsock2.h>
-#include <iphlpapi.h>
-#include <stdio.h>
-#include <stdlib.h>
+#include &lt;windows.h&gt;
+#include &lt;winsock2.h&gt;
+#include &lt;iphlpapi.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
 
 #pragma comment(lib, "iphlpapi.lib")
 #pragma comment(lib, "ws2_32.lib")
@@ -186,18 +190,18 @@ int main()
 
     // Make an initial call to GetIpAddrTable to get the
     // necessary size into the dwSize variable
-    if (GetIpAddrTable(pIPAddrTable, &dwSize, 0) == ERROR_INSUFFICIENT_BUFFER) {
+    if (GetIpAddrTable(pIPAddrTable, &amp;dwSize, 0) == ERROR_INSUFFICIENT_BUFFER) {
         GlobalFree(pIPAddrTable);
         pIPAddrTable = (MIB_IPADDRTABLE *) malloc(dwSize);
     }
     // Make a second call to GetIpAddrTable to get the
     // actual data we want
-    if ((dwRetVal = GetIpAddrTable(pIPAddrTable, &dwSize, 0)) == NO_ERROR) {
-        printf("\tAddress: %ld\n", pIPAddrTable->table[0].dwAddr);
-        printf("\tMask:    %ld\n", pIPAddrTable->table[0].dwMask);
-        printf("\tIndex:   %ld\n", pIPAddrTable->table[0].dwIndex);
-        printf("\tBCast:   %ld\n", pIPAddrTable->table[0].dwBCastAddr);
-        printf("\tReasm:   %ld\n", pIPAddrTable->table[0].dwReasmSize);
+    if ((dwRetVal = GetIpAddrTable(pIPAddrTable, &amp;dwSize, 0)) == NO_ERROR) {
+        printf("\tAddress: %ld\n", pIPAddrTable-&gt;table[0].dwAddr);
+        printf("\tMask:    %ld\n", pIPAddrTable-&gt;table[0].dwMask);
+        printf("\tIndex:   %ld\n", pIPAddrTable-&gt;table[0].dwIndex);
+        printf("\tBCast:   %ld\n", pIPAddrTable-&gt;table[0].dwBCastAddr);
+        printf("\tReasm:   %ld\n", pIPAddrTable-&gt;table[0].dwReasmSize);
     } else {
         printf("Call to GetIpAddrTable failed.\n");
     }
@@ -209,8 +213,8 @@ int main()
 
     if ((dwRetVal = AddIPAddress(iaIPAddress,
                                  imIPMask,
-                                 pIPAddrTable->table[0].dwIndex,
-                                 &NTEContext, &NTEInstance)) == NO_ERROR) {
+                                 pIPAddrTable-&gt;table[0].dwIndex,
+                                 &amp;NTEContext, &amp;NTEInstance)) == NO_ERROR) {
         printf("\tIP address added.\n");
     }
 
@@ -218,7 +222,7 @@ int main()
         printf("Error adding IP address.\n");
 
         if (FormatMessage(FORMAT_MESSAGE_ALLOCATE_BUFFER | FORMAT_MESSAGE_FROM_SYSTEM | FORMAT_MESSAGE_IGNORE_INSERTS, NULL, dwRetVal, MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT),       // Default language
-                          (LPTSTR) & lpMsgBuf, 0, NULL)) {
+                          (LPTSTR) &amp; lpMsgBuf, 0, NULL)) {
             printf("\tError: %s", lpMsgBuf);
         }
         LocalFree(lpMsgBuf);
@@ -233,10 +237,10 @@ int main()
     }
 
     exit(0);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

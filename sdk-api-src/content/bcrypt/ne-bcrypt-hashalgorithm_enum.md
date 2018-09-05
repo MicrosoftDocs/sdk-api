@@ -4,10 +4,10 @@ title: HASHALGORITHM_ENUM
 author: windows-sdk-content
 description: Specifies signing and hashing algorithms.
 old-location: security\hashalgorithm_enum.htm
-old-project: seccng
+old-project: SecCNG
 ms.assetid: 482DA4B6-EC1C-4E88-95C0-62ED1356DC3B
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DSA_HASH_ALGORITHM_SHA1, DSA_HASH_ALGORITHM_SHA256, DSA_HASH_ALGORITHM_SHA512, HASHALGORITHM_ENUM, HASHALGORITHM_ENUM enumeration [Security], bcrypt/DSA_HASH_ALGORITHM_SHA1, bcrypt/DSA_HASH_ALGORITHM_SHA256, bcrypt/DSA_HASH_ALGORITHM_SHA512, bcrypt/HASHALGORITHM_ENUM, security.hashalgorithm_enum
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>HASHALGORITHM_ENUM</b> enumeration type specifies signing and hashing algorithms. It is used by the <a href="https://msdn.microsoft.com/en-us/library/JJ670561(v=VS.85).aspx">BCRYPT_DSA_KEY_BLOB_V2</a> and <a href="https://msdn.microsoft.com/en-us/library/JJ670562(v=VS.85).aspx">BCRYPT_DSA_PARAMETER_HEADER_V2</a> structures.
+The <b>HASHALGORITHM_ENUM</b> enumeration type specifies signing and hashing algorithms. It is used by the <a href="https://msdn.microsoft.com/E8240DE1-B65F-4DAC-92C9-45725435A0F7">BCRYPT_DSA_KEY_BLOB_V2</a> and <a href="https://msdn.microsoft.com/25FF89D8-1E3E-433B-AC5C-1CADC09A49D0">BCRYPT_DSA_PARAMETER_HEADER_V2</a> structures.
 
 
 ## -enum-fields
@@ -79,11 +79,11 @@ Represents a Digital Signature Algorithm (DSA) that uses the Secure Hashing Algo
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/JJ670561(v=VS.85).aspx">BCRYPT_DSA_KEY_BLOB_V2</a>
+<a href="https://msdn.microsoft.com/E8240DE1-B65F-4DAC-92C9-45725435A0F7">BCRYPT_DSA_KEY_BLOB_V2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/JJ670562(v=VS.85).aspx">BCRYPT_DSA_PARAMETER_HEADER_V2</a>
+<a href="https://msdn.microsoft.com/25FF89D8-1E3E-433B-AC5C-1CADC09A49D0">BCRYPT_DSA_PARAMETER_HEADER_V2</a>
  
 
  

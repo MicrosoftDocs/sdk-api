@@ -7,7 +7,7 @@ old-location: mbn\imbnsmsreadmsgtextcdma_message.htm
 old-project: mbn
 ms.assetid: 4ee67021-5c28-4f29-83fe-43387a4df5cc
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks],Message property, IMbnSmsReadMsgTextCdma.Message, IMbnSmsReadMsgTextCdma.get_Message, IMbnSmsReadMsgTextCdma::Message, IMbnSmsReadMsgTextCdma::get_Message, Message property [Microsoft Broadband Networks], Message property [Microsoft Broadband Networks],IMbnSmsReadMsgTextCdma interface, get_Message, mbn.imbnsmsreadmsgtextcdma_message, mbnapi/IMbnSmsReadMsgTextCdma::Message, mbnapi/IMbnSmsReadMsgTextCdma::get_Message
 ms.prod: windows
 ms.technology: windows-sdk

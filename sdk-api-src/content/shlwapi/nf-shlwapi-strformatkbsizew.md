@@ -7,7 +7,7 @@ old-location: shell\StrFormatKBSize.htm
 old-project: shell
 ms.assetid: 029c2eb8-3bcd-4302-8894-be2dbe430426
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: StrFormatKBSize, StrFormatKBSize function [Windows Shell], StrFormatKBSizeA, StrFormatKBSizeW, _win32_StrFormatKBSize, shell.StrFormatKBSize, shlwapi/StrFormatKBSize, shlwapi/StrFormatKBSizeA, shlwapi/StrFormatKBSizeW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

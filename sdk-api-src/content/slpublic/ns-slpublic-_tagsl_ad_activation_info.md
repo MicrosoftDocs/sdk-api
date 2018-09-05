@@ -4,10 +4,10 @@ title: "_tagSL_AD_ACTIVATION_INFO"
 author: windows-sdk-content
 description: Specifies information used for the retail or Active Directory phone activation of a license.
 old-location: security\sl_ad_activation_info.htm
-old-project: secslapi
+old-project: SecSLApi
 ms.assetid: 17012938-3E59-47DA-A046-8264CC3F06AF
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PSL_AD_ACTIVATION_INFO, PSL_AD_ACTIVATION_INFO structure pointer [Security], SL_AD_ACTIVATION_INFO, SL_AD_ACTIVATION_INFO structure [Security], _tagSL_AD_ACTIVATION_INFO, security.sl_ad_activation_info, slpublic/PSL_AD_ACTIVATION_INFO, slpublic/SL_AD_ACTIVATION_INFO
 ms.prod: windows
 ms.technology: windows-sdk

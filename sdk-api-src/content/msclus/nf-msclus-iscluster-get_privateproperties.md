@@ -7,7 +7,7 @@ old-location: mscs\cluster_privateproperties.htm
 old-project: mscs
 ms.assetid: f866a25f-64ef-4289-b95a-c55cb90a5d42
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Cluster object [Failover Cluster],PrivateProperties property, Cluster.PrivateProperties, ISCluster.get_PrivateProperties, ISCluster::get_PrivateProperties, PrivateProperties property [Failover Cluster], PrivateProperties property [Failover Cluster],Cluster object, _wolf_cluster.privateproperties, get_PrivateProperties, mscs.cluster_privateproperties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ req.product: GDI+ 1.1
 
 Returns the 
     read/write <a href="https://msdn.microsoft.com/a1dee11c-f1fe-4509-a40a-a58c4b8999ef">private properties</a> of a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+    <a href="c_gly.htm">cluster</a>.
 
 This property is read-only.
 

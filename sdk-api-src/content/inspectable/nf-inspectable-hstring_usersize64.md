@@ -7,7 +7,7 @@ old-location: winrt\hstring_usersize64.htm
 old-project: WinRT
 ms.assetid: 38ACC82C-959C-4E15-ABEF-0B92EE712E87
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: HSTRING_UserSize64, HSTRING_UserSize64 function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserSize64, winrt.hstring_usersize64
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,17 @@ Calculates the wire size of the <a href="https://msdn.microsoft.com/763ACE57-EFD
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
+
+TBD
+
+
+### -param arg3
 
 TBD
 

@@ -7,7 +7,7 @@ old-location: cos\ithreadpoolknobs_setqueuedepth.htm
 old-project: cossdk
 ms.assetid: 42c12d8b-d7e6-4dd3-926c-176638433839
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IThreadPoolKnobs interface [COM+],SetQueueDepth method, IThreadPoolKnobs.SetQueueDepth, IThreadPoolKnobs::SetQueueDepth, SetQueueDepth, SetQueueDepth method [COM+], SetQueueDepth method [COM+],IThreadPoolKnobs interface, _cos_IThreadPoolKnobs_SetQueueDepth, comsvcs/IThreadPoolKnobs::SetQueueDepth, cos.ithreadpoolknobs_setqueuedepth
 ms.prod: windows
 ms.technology: windows-sdk

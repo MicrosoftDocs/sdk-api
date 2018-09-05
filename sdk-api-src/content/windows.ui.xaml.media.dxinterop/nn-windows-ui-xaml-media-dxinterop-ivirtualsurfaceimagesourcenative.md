@@ -7,7 +7,7 @@ old-location: winrt\ivirtualsurfaceimagesourcenative.htm
 old-project: WinRT
 ms.assetid: 1CABA8F5-2380-45B9-804C-B1DC9FF34B62
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IVirtualSurfaceImageSourceNative, IVirtualSurfaceImageSourceNative interface [Windows Runtime], IVirtualSurfaceImageSourceNative interface [Windows Runtime],described, windows/IVirtualSurfaceImageSourceNative, winrt.ivirtualsurfaceimagesourcenative
 ms.prod: windows
 ms.technology: windows-sdk
@@ -133,17 +133,21 @@ Resizes the surface.
 
 This interface provides the native implementation of the <a href="https://msdn.microsoft.com/7a28cfdd-44d4-4aa7-b57e-a5fbdf66bee3">Windows::UI::Xaml::Media::Imaging::VirtualSurfaceImageSource</a> Windows runtime type. To obtain a pointer to <b>IVirtualSurfaceImageSourceNative</b>, you must cast a <b>VirtualSurfaceImageSource</b> instance to <a href="https://msdn.microsoft.com/0657E51F-D4C0-46C6-927D-B01E54B6846C">IInspectable</a> or <b>IUnknown</b>, and call <b>QueryInterface</b>.
 
-
-```cpp
-
-Microsoft::WRL::ComPtr<IVirtualSurfaceImageSourceNative>	m_vsisNative;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+Microsoft::WRL::ComPtr&lt;IVirtualSurfaceImageSourceNative&gt;	m_vsisNative;
 // ...
-IInspectable* vsisInspectable = (IInspectable*) reinterpret_cast<IInspectable*>(virtualSurfaceImageSource);
-vsisInspectable->QueryInterface(__uuidof(IVirtualSurfaceImageSourceNative), (void **)&m_vsisNative)
-	
-```
-
-
+IInspectable* vsisInspectable = (IInspectable*) reinterpret_cast&lt;IInspectable*&gt;(virtualSurfaceImageSource);
+vsisInspectable-&gt;QueryInterface(__uuidof(IVirtualSurfaceImageSourceNative), (void **)&amp;m_vsisNative)
+	</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,10 +4,10 @@ title: QOSNotifyFlow function
 author: windows-sdk-content
 description: Registers the calling application to receive a notification.
 old-location: qos\qosnotifyflow.htm
-old-project: qos
+old-project: QOS
 ms.assetid: e6d541fe-2aeb-4969-b138-869754dbdaa3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: QOSNotifyFlow, QOSNotifyFlow function [QOS], qos.qosnotifyflow, qos2/QOSNotifyFlow
 ms.prod: windows
 ms.technology: windows-sdk

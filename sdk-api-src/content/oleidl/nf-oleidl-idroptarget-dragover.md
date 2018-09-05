@@ -7,7 +7,7 @@ old-location: com\idroptarget_dragover.htm
 old-project: com
 ms.assetid: 31bb71dd-eed7-48f9-9f6c-f5d7f9d4118e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DragOver, DragOver method [COM], DragOver method [COM],IDropTarget interface, IDropTarget interface [COM],DragOver method, IDropTarget.DragOver, IDropTarget::DragOver, _ole_idroptarget_dragover, com.idroptarget_dragover, oleidl/IDropTarget::DragOver
 ms.prod: windows
 ms.technology: windows-sdk

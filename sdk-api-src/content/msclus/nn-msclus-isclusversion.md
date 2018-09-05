@@ -7,7 +7,7 @@ old-location: mscs\clusversion_object.htm
 old-project: mscs
 ms.assetid: 2215335a-1858-437f-8654-2e9d601fe061
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusVersion, ClusVersion object [Failover Cluster], ClusVersion object [Failover Cluster],described, ISClusVersion, _wolf_clusversion_object, msclus/ClusVersion, mscs.clusversion_object
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,9 +58,9 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Provides version information 
-    about the operating system and the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">Cluster service</a>. 
-    For more information on <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster versions</a> and 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa373122(v=VS.85).aspx">version numbers</a>, see 
+    about the operating system and the <a href="c_gly.htm">Cluster service</a>. 
+    For more information on <a href="c_gly.htm">cluster versions</a> and 
+    <a href="v_gly.htm">version numbers</a>, see 
     <a href="https://msdn.microsoft.com/919345fa-cbaa-4d01-bd3c-9ca69cab5094">Version Compatibility</a>.
 
 
@@ -90,9 +90,13 @@ For more information about the versioning process see
 The following script instantiates and uses a 
      <b>ClusVersion</b> object.
 
-
-```vb
-'---------------------------------------------------------------------
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>'---------------------------------------------------------------------
 ' ClusVersion.vbs
 ' Uses the ClusVersion object to display version information about
 ' the local cluster.
@@ -108,35 +112,35 @@ objClus.Open ""
 Set objVers = objClus.Version
 
 ' Format a string describing the current version
-strOSVersion = CStr(objVers.MajorVersion) & "." & _
-               CStr(objVers.MinorVersion) & "." & _
+strOSVersion = CStr(objVers.MajorVersion) &amp; "." &amp; _
+               CStr(objVers.MinorVersion) &amp; "." &amp; _
                CStr(objVers.BuildNumber)
 
 ' Format a string describing the highest compatible version.
 ' We must extract the upper and lower 16 bits of the 32-bit value.
-strHighest = CStr(CLng(objVers.ClusterHighestVersion / (2 ^ 15))) & _
-             ".0." & _
+strHighest = CStr(CLng(objVers.ClusterHighestVersion / (2 ^ 15))) &amp; _
+             ".0." &amp; _
              CStr(CLng(objVers.ClusterHighestVersion And LOW16))
 
 ' Format a string describing the lowest compatible version.
 ' We must extract the upper and lower 16 bits of the 32-bit value.
-strLowest = CStr(CLng(objVers.ClusterLowestVersion / (2 ^ 15))) & _
-            ".0." & _
+strLowest = CStr(CLng(objVers.ClusterLowestVersion / (2 ^ 15))) &amp; _
+            ".0." &amp; _
             CStr(CLng(objVers.ClusterLowestVersion And LOW16))
 
 ' Format and display the output string.
-strVersion = objVers.Name & vbCrLf & _
-             objVers.VendorID & " version " & _
-             strOSVersion & vbCrLf & "Compatible with versions: " & _
-             strLowest & " and " & strHighest & vbCrLf
+strVersion = objVers.Name &amp; vbCrLf &amp; _
+             objVers.VendorID &amp; " version " &amp; _
+             strOSVersion &amp; vbCrLf &amp; "Compatible with versions: " &amp; _
+             strLowest &amp; " and " &amp; strHighest &amp; vbCrLf
 WScript.Echo strVersion
 
 Set objVers = Nothing
 Set objClus = Nothing
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

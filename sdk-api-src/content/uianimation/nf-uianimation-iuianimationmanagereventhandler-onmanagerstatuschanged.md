@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationmanagereventhandler_onmanagerstatuschanged
 old-project: UIAnimation
 ms.assetid: 17f98ff5-f18e-44be-a8bd-bc5a6467fa83
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IUIAnimationManagerEventHandler interface [Windows Animation],OnManagerStatusChanged method, IUIAnimationManagerEventHandler.OnManagerStatusChanged, IUIAnimationManagerEventHandler::OnManagerStatusChanged, OnManagerStatusChanged, OnManagerStatusChanged method [Windows Animation], OnManagerStatusChanged method [Windows Animation],IUIAnimationManagerEventHandler interface, uianimation.iuianimationmanagereventhandler_onmanagerstatuschanged, uianimation/IUIAnimationManagerEventHandler::OnManagerStatusChanged
 ms.prod: windows
 ms.technology: windows-sdk

@@ -73,7 +73,7 @@ Pointer to IUnknown on aggregated TAPI call object.
 Pointer to templated MSP call class, type implementation dependent.
 
 
-### -param param
+### -param arg1
 
 TBD
 

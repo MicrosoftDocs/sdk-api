@@ -7,7 +7,7 @@ old-location: shell\IStream_Copy.htm
 old-project: shell
 ms.assetid: 7d6a1080-dad4-4821-8f2a-bd1e01ca10cf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IStream_Copy, IStream_Copy function [Windows Shell], _shell_IStream_Copy, shell.IStream_Copy, shlwapi/IStream_Copy
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

@@ -4,10 +4,10 @@ title: EvtSaveChannelConfig function
 author: windows-sdk-content
 description: Saves the changes made to a channel's configuration.
 old-location: wes\evtsavechannelconfig.htm
-old-project: wes
+old-project: WES
 ms.assetid: 3f3eff67-24b6-448e-bb61-0bc851d9bdfa
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EvtSaveChannelConfig, EvtSaveChannelConfig function [EventLog], wes.evtsavechannelconfig, winevt/EvtSaveChannelConfig
 ms.prod: windows
 ms.technology: windows-sdk

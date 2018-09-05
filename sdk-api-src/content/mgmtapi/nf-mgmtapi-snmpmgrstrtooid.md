@@ -4,10 +4,10 @@ title: SnmpMgrStrToOid function
 author: windows-sdk-content
 description: The SnmpMgrStrToOid function converts the string format of an object identifier to its internal object identifier structure. This function is an element of the SNMP Management API.
 old-location: snmp\snmpmgrstrtooid.htm
-old-project: snmp
+old-project: SNMP
 ms.assetid: d245b43c-3893-4081-874c-93619a8c461c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SnmpMgrStrToOid, SnmpMgrStrToOid function [SNMP], _snmp_snmpmgrstrtooid, mgmtapi/SnmpMgrStrToOid, snmp.snmpmgrstrtooid
 ms.prod: windows
 ms.technology: windows-sdk

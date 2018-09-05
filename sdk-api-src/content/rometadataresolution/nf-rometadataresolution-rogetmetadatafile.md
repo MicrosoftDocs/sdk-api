@@ -7,7 +7,7 @@ old-location: winrt\rogetmetadatafile.htm
 old-project: WinRT
 ms.assetid: FF4FEA9F-3FB0-4D56-BE9A-E8E2CB13D718
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RoGetMetaDataFile, RoGetMetaDataFile function [Windows Runtime], rometadataresolution/RoGetMetaDataFile, winrt.rogetmetadatafile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -316,13 +316,17 @@ Resolving 3rd-party types from a process that's not in a Windows Store app is no
 
 The following C++ example shows how to use the <b>RoGetMetaDataFile</b> function to find the metadata file for a specified type name.
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
-#include <WinRTString.h>
-#include <TypeResolution.h>
-#include <atlbase.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;WinRTString.h&gt;
+#include &lt;TypeResolution.h&gt;
+#include &lt;atlbase.h&gt;
 
 HRESULT PrintMetaDataFilePathForTypeName(PCWSTR pszTypename);
 
@@ -356,22 +360,22 @@ HRESULT PrintMetaDataFilePathForTypeName(PCWSTR pszTypename)
     HRESULT hr;
     HSTRING hstrTypeName = nullptr;
     HSTRING hstrMetaDataFilePath = nullptr;
-    CComPtr<IMetaDataImport2> spMetaDataImport;
+    CComPtr&lt;IMetaDataImport2&gt; spMetaDataImport;
     mdTypeDef typeDef;
 
     hr = WindowsCreateString(
         pszTypename,
-        static_cast<UINT32>(wcslen(pszTypename)),
-        &hstrTypeName);
+        static_cast&lt;UINT32&gt;(wcslen(pszTypename)),
+        &amp;hstrTypeName);
 
     if (SUCCEEDED(hr))
     {
         hr = RoGetMetaDataFile(
             hstrTypeName,
             nullptr,
-            &hstrMetaDataFilePath,
-            &spMetaDataImport,
-            &typeDef);
+            &amp;hstrMetaDataFilePath,
+            &amp;spMetaDataImport,
+            &amp;typeDef);
     }
 
     if (SUCCEEDED(hr))
@@ -400,9 +404,9 @@ HRESULT PrintMetaDataFilePathForTypeName(PCWSTR pszTypename)
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

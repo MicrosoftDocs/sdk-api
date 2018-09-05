@@ -7,7 +7,7 @@ old-location: mscs\clusrespossibleownernodes_refresh.htm
 old-project: mscs
 ms.assetid: 99ca2887-1e8b-4fe7-92fa-1d498d38a421
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusResPossibleOwnerNodes class [Failover Cluster],Refresh method, ClusResPossibleOwnerNodes.Refresh, ISClusResPossibleOwnerNodes.Refresh, ISClusResPossibleOwnerNodes::Refresh, Refresh, Refresh method [Failover Cluster], Refresh method [Failover Cluster],ClusResPossibleOwnerNodes class, _wolf_clusrespossibleownernodes.refresh, mscs.clusrespossibleownernodes_refresh
 ms.prod: windows
 ms.technology: windows-sdk

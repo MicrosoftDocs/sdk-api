@@ -62,9 +62,9 @@ The <b>Region::GetHRGN</b> method creates a Windows Graphics Device Interface (G
 
 ### -param g [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object that contains the world and page transformations required to calculate the device coordinates of this region. 
+Pointer to a <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object that contains the world and page transformations required to calculate the device coordinates of this region. 
 
 
 ## -returns
@@ -93,9 +93,13 @@ It is the caller's responsibility to call the GDI function
 
 The following example creates a GDI+ region from a path and then uses the GDI+ region to create a GDI region. The code then uses a GDI function to display the GDI region.
 
-
-```cpp
-VOID Example_GetHRGN(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_GetHRGN(HDC hdc)
 {
    Graphics graphics(hdc);
 
@@ -111,11 +115,11 @@ VOID Example_GetHRGN(HDC hdc)
    path.AddClosedCurve(points, 6);
 
     // Create a region from a path.
-    Region pathRegion(&path);
+    Region pathRegion(&amp;path);
 
    // Get a handle to a GDI region.
    HRGN hRegion;
-   hRegion = pathRegion.GetHRGN(&graphics);
+   hRegion = pathRegion.GetHRGN(&amp;graphics);
 
    // Use GDI to display the region.
    HBRUSH hBrush = CreateSolidBrush(RGB(255, 0, 0));
@@ -123,10 +127,10 @@ VOID Example_GetHRGN(HDC hdc)
 
    DeleteObject(hBrush);
    DeleteObject(hRegion);
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -139,15 +143,15 @@ VOID Example_GetHRGN(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a>
+<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534501(v=VS.85).aspx">Region</a>
+<a href="https://msdn.microsoft.com/2972b879-7d2f-4cad-b17d-670125f43691">Region</a>
  
 
  

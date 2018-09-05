@@ -7,7 +7,7 @@ old-location: shell\SHCreateDefaultExtractIcon.htm
 old-project: shell
 ms.assetid: 483dc9ae-4820-47f1-888e-ad7a6bdf3d29
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHCreateDefaultExtractIcon, SHCreateDefaultExtractIcon function [Windows Shell], _shell_SHCreateDefaultExtractIcon, shell.SHCreateDefaultExtractIcon, shobjidl_core/SHCreateDefaultExtractIcon
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,31 +95,35 @@ The intended usage for this function is as follows:
             
                 
 
-
-```
-IExtractIcon *pxi;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>IExtractIcon *pxi;
 
 IDefaultExtractIconInit *pdxi;
 
-HRESULT hr = SHCreateDefaultExtractIcon(IID_PPV_ARGS(&pdxi);
+HRESULT hr = SHCreateDefaultExtractIcon(IID_PPV_ARGS(&amp;pdxi);
 
- if (SUCCEEDED(hr)) &&
+ if (SUCCEEDED(hr)) &amp;&amp;
 
-      SUCCEEDED(hr = pdxi->SetFlags(GIL_PERCLASS)) &&
+      SUCCEEDED(hr = pdxi-&gt;SetFlags(GIL_PERCLASS)) &amp;&amp;
 
-      SUCCEEDED(hr = pdxi->SetKey(hkey)) &&   // optional
+      SUCCEEDED(hr = pdxi-&gt;SetKey(hkey)) &amp;&amp;   // optional
 
-      SUCCEEDED(hr = pdxi->SetNormalIcon(L"this.dll", 1)) &&
+      SUCCEEDED(hr = pdxi-&gt;SetNormalIcon(L"this.dll", 1)) &amp;&amp;
 
-      SUCCEEDED(hr = pdxi->SetOpenIcon(NULL, SIID_FOLDEROPEN)) && // optional
+      SUCCEEDED(hr = pdxi-&gt;SetOpenIcon(NULL, SIID_FOLDEROPEN)) &amp;&amp; // optional
 
-      SUCCEEDED(hr = pdxi->SetDefaultIcon(NULL, SIID_FOLDER)) && // optional
+      SUCCEEDED(hr = pdxi-&gt;SetDefaultIcon(NULL, SIID_FOLDER)) &amp;&amp; // optional
 
-      SUCCEEDED(hr = pdxi->SetShortcutIcon(L"this.dll", 2))) // optional
+      SUCCEEDED(hr = pdxi-&gt;SetShortcutIcon(L"this.dll", 2))) // optional
 
 {
 
-      hr = pdxi->QueryInterface(IID_PPV_ARGS(&pxi)) 
+      hr = pdxi-&gt;QueryInterface(IID_PPV_ARGS(&amp;pxi)) 
 
 }
 
@@ -127,11 +131,11 @@ HRESULT hr = SHCreateDefaultExtractIcon(IID_PPV_ARGS(&pdxi);
 
 {
 
-    pdxi->Release();
+    pdxi-&gt;Release();
 
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

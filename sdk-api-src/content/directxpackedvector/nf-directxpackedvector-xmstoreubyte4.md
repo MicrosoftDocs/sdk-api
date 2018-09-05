@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Stores an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> in an <a href="https://msdn.microsoft.com/en-us/library/Ee420424(v=VS.85).aspx">XMUBYTE4</a>.
+Stores an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> in an <a href="https://msdn.microsoft.com/210300b6-9bf2-4ac4-94e3-b2df2d228365">XMUBYTE4</a>.
 
 
 ## -parameters
@@ -84,9 +84,13 @@ None.
 
 The following pseudocode demonstrates the operation of the function.
 
-
-```
-XMVECTOR N;	
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>XMVECTOR N;	
 static const XMVECTOR  Max = {255.0f, 255.0f, 255.0f, 255.0f};
 
 assert(pDestination);
@@ -94,13 +98,13 @@ assert(pDestination);
 N = XMVectorClamp(V, XMVectorZero(), Max);
 N = XMVectorRound(N);
 
-pDestination->x = (uint8_t)N.v[0];
-pDestination->y = (uint8_t)N.v[1];
-pDestination->z = (uint8_t)N.v[2];
-pDestination->w = (uint8_t)N.v[3];
-```
-
-
+pDestination-&gt;x = (uint8_t)N.v[0];
+pDestination-&gt;y = (uint8_t)N.v[1];
+pDestination-&gt;z = (uint8_t)N.v[2];
+pDestination-&gt;w = (uint8_t)N.v[3];</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 

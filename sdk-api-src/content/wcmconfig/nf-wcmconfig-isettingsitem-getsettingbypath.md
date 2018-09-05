@@ -4,10 +4,10 @@ title: ISettingsItem::GetSettingByPath
 author: windows-sdk-content
 description: Gets a setting based on the given path.
 old-location: smi\isettingsitem_getsettingbypath.htm
-old-project: smi
+old-project: SMI
 ms.assetid: a4270c46-b214-4232-b414-d6b6e4e35635
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetSettingByPath, GetSettingByPath method [SMI], GetSettingByPath method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetSettingByPath method, ISettingsItem.GetSettingByPath, ISettingsItem::GetSettingByPath, smi.isettingsitem_getsettingbypath, wcmconfig/ISettingsItem::GetSettingByPath
 ms.prod: windows
 ms.technology: windows-sdk

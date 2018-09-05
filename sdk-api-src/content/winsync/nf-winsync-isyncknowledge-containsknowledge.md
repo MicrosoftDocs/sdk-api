@@ -7,7 +7,7 @@ old-location: winsync\isyncknowledge_containsknowledge.htm
 old-project: winsync
 ms.assetid: b6b58390-84be-48ff-a3b9-3b3c83d4f661
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ContainsKnowledge, ContainsKnowledge method [Windows Sync], ContainsKnowledge method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],ContainsKnowledge method, ISyncKnowledge.ContainsKnowledge, ISyncKnowledge::ContainsKnowledge, winsync.isyncknowledge_containsknowledge, winsync/ISyncKnowledge::ContainsKnowledge
 ms.prod: windows
 ms.technology: windows-sdk

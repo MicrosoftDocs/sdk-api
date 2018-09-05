@@ -4,10 +4,10 @@ title: TcCloseInterface function
 author: windows-sdk-content
 description: The TcCloseInterface function closes an interface previously opened with a call to TcOpenInterface. All flows and filters on a particular interface should be closed before closing the interface with a call to TcCloseInterface.
 old-location: qos\tccloseinterface.htm
-old-project: qos
+old-project: QOS
 ms.assetid: c7c78f98-0890-4889-994e-bbac08ba9c44
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: TcCloseInterface, TcCloseInterface function [QOS], _gqos_tccloseinterface, qos.tccloseinterface, traffic/TcCloseInterface
 ms.prod: windows
 ms.technology: windows-sdk

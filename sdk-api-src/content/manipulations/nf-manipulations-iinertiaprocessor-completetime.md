@@ -7,7 +7,7 @@ old-location: wintouch\iinertiaprocessor_completetime.htm
 old-project: wintouch
 ms.assetid: 325e04c2-a477-43c7-9513-36a2a92eef8e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CompleteTime, CompleteTime method [Windows Touch], CompleteTime method [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],CompleteTime method, IInertiaProcessor.CompleteTime, IInertiaProcessor::CompleteTime, manipulations/IInertiaProcessor::CompleteTime, wintouch.iinertiaprocessor_completetime
 ms.prod: windows
 ms.technology: windows-sdk

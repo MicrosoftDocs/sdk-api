@@ -57,7 +57,7 @@ The <b>IADsPrintJob</b> interface is a dual interface that inherits from <a href
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsPrintJob</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> and <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>. <b>IADsPrintJob</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsPrintJob</b> interface inherits from <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> and <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>. <b>IADsPrintJob</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -446,9 +446,13 @@ To access any print jobs in a print queue, call the  <a href="https://msdn.micro
 
 The following code example shows how to manage a print job submitted to the printer, "\\aMachine\aPrinter".
 
-
-```vb
-Dim pq As IADsPrintQueue
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim pq As IADsPrintQueue
 Dim pqo As IADsPrintQueueOperations
 Dim pj As IADsPrintJob
 Dim pjo As IADsPrintJobOperations
@@ -471,22 +475,26 @@ For Each pj In pqo.PrintJobs
 Next
 
 Cleanup:
-    If (Err.Number<>0) Then
-        MsgBox("An error has occurred. " & Err.Number)
+    If (Err.Number&lt;&gt;0) Then
+        MsgBox("An error has occurred. " &amp; Err.Number)
     End If
     Set pq = Nothing
     Set pqo = Nothing
     Set pj = Nothing
     Set pjo = Nothing
-    Set pjs = Nothing
-```
-
-
+    Set pjs = Nothing</pre>
+</td>
+</tr>
+</table></span></div>
 The following code example shows how to manage a print job submitted to the printer, "\\aMachine\aPrinter".
 
-
-```cpp
-IADsPrintJobOperations *pjo = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IADsPrintJobOperations *pjo = NULL;
 IADsPrintQueueOperations *pqo = NULL;
 IADsCollection *pColl = NULL;
 IUnknown *pUnk = NULL;
@@ -500,29 +508,29 @@ long status;
 HRESULT hr = S_OK;
 hr = ADsGetObject(L"WinNT://aMachine/aPrinter", 
                   IID_IADsPrintQueueOperations, 
-                  (void**)&pqo);
+                  (void**)&amp;pqo);
 if(FAILED(hr)){goto Cleanup;}
 
-hr = pqo->PrintJobs(&pColl);
+hr = pqo-&gt;PrintJobs(&amp;pColl);
 
-hr = pColl->get__NewEnum(&pUnk);
+hr = pColl-&gt;get__NewEnum(&amp;pUnk);
 if(FAILED(hr)){goto Cleanup;}
 
-hr = pUnk->QueryInterface(IID_IEnumVARIANT,(void**)&pEnum);
+hr = pUnk-&gt;QueryInterface(IID_IEnumVARIANT,(void**)&amp;pEnum);
 if(FAILED(hr)){goto Cleanup;}
 
 // Now Enumerate
-VariantInit(&var);
-hr = pEnum->Next(1, &var, &lFetch);
+VariantInit(&amp;var);
+hr = pEnum-&gt;Next(1, &amp;var, &amp;lFetch);
 while(hr == S_OK)
 {
     if (lFetch == 1)    
     {
-        pDisp = V_DISPATCH(&var);
-        pDisp->QueryInterface(IID_IADsPrintJobOperations, 
-                              (void**)&pjo);
+        pDisp = V_DISPATCH(&amp;var);
+        pDisp-&gt;QueryInterface(IID_IADsPrintJobOperations, 
+                              (void**)&amp;pjo);
 
-        pjo->get_Status(&status);
+        pjo-&gt;get_Status(&amp;status);
         printf("Job status: %x\n",status);
         if(stats == ADS_JOB_PRINTING) {
             pjo.Pause();
@@ -530,22 +538,22 @@ while(hr == S_OK)
         else {
             pjo.Resume();
         }
-        pjo->Release();
+        pjo-&gt;Release();
     }
-    pDisp->Release();
-    VariantClear(&var);
-    hr = pEnum->Next(1, &var, &lFetch);
+    pDisp-&gt;Release();
+    VariantClear(&amp;var);
+    hr = pEnum-&gt;Next(1, &amp;var, &amp;lFetch);
 };
 
 Cleanup:
-    VariantClear(&var);
-    if(pColl) pColl->Release();
-    if(pUnk) pUnk->Release();
-    if(pEnum) pEnum->Release();
-    if(pqo) pqo->Release();
-```
-
-
+    VariantClear(&amp;var);
+    if(pColl) pColl-&gt;Release();
+    if(pUnk) pUnk-&gt;Release();
+    if(pEnum) pEnum-&gt;Release();
+    if(pqo) pqo-&gt;Release();</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -570,7 +578,7 @@ Cleanup:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

@@ -4,10 +4,10 @@ title: ITaskSettings::put_DeleteExpiredTaskAfter
 author: windows-sdk-content
 description: Gets or sets the amount of time that the Task Scheduler will wait before deleting the task after it expires.
 old-location: taskschd\itasksettings_deleteexpiredtaskafter.htm
-old-project: taskschd
+old-project: TaskSchd
 ms.assetid: c6a2a12d-a41a-4fd8-a328-bce0fe19deba
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DeleteExpiredTaskAfter property [Task Scheduler], DeleteExpiredTaskAfter property [Task Scheduler],ITaskSettings interface, ITaskSettings interface [Task Scheduler],DeleteExpiredTaskAfter property, ITaskSettings.DeleteExpiredTaskAfter, ITaskSettings.put_DeleteExpiredTaskAfter, ITaskSettings::DeleteExpiredTaskAfter, ITaskSettings::get_DeleteExpiredTaskAfter, ITaskSettings::put_DeleteExpiredTaskAfter, put_DeleteExpiredTaskAfter, taskschd.itasksettings_deleteexpiredtaskafter, taskschd/ITaskSettings::DeleteExpiredTaskAfter, taskschd/ITaskSettings::get_DeleteExpiredTaskAfter, taskschd/ITaskSettings::put_DeleteExpiredTaskAfter
 ms.prod: windows
 ms.technology: windows-sdk

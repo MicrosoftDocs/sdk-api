@@ -7,7 +7,7 @@ old-location: setup\setupremovesectionfromdiskspacelist.htm
 old-project: SetupApi
 ms.assetid: 0ac9becd-bdd5-4017-b880-4f226150d275
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: FILEOP_COPY, FILEOP_DELETE, SetupRemoveSectionFromDiskSpaceList, SetupRemoveSectionFromDiskSpaceList function [Setup API], SetupRemoveSectionFromDiskSpaceListA, SetupRemoveSectionFromDiskSpaceListW, _setupapi_setupremovesectionfromdiskspacelist, setup.setupremovesectionfromdiskspacelist, setupapi/SetupRemoveSectionFromDiskSpaceList, setupapi/SetupRemoveSectionFromDiskSpaceListA, setupapi/SetupRemoveSectionFromDiskSpaceListW
 ms.prod: windows
 ms.technology: windows-sdk

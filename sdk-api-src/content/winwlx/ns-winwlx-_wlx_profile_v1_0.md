@@ -4,10 +4,10 @@ title: "_WLX_PROFILE_V1_0"
 author: windows-sdk-content
 description: Contains information used for setting up the initial environment.
 old-location: security\wlx_profile_v1_0.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 3b75cf38-e1d7-48dd-8319-d4daf508a3e9
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PWLX_PROFILE_V1_0, PWLX_PROFILE_V1_0, PWLX_PROFILE_V1_0 structure pointer [Security], WLX_PROFILE_V1_0, WLX_PROFILE_V1_0 structure [Security], _WLX_PROFILE_V1_0, _gina_wlx_profile_v1_0, security.wlx_profile_v1_0, winwlx/PWLX_PROFILE_V1_0, winwlx/WLX_PROFILE_V1_0"
 ms.prod: windows
 ms.technology: windows-sdk

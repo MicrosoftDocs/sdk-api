@@ -7,7 +7,7 @@ old-location: wmi\swbemqualifierset_item.htm
 old-project: WmiSdk
 ms.assetid: 5ed3a336-c06f-446d-85d4-243daddc82a5
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: ISWbemQualifierSet interface [Windows Management Instrumentation],Item method, ISWbemQualifierSet.Item, ISWbemQualifierSet::Item, Item, Item method [Windows Management Instrumentation], Item method [Windows Management Instrumentation],ISWbemQualifierSet interface, Item method [Windows Management Instrumentation],SWbemQualifierSet object, SWbemQualifierSet object [Windows Management Instrumentation],Item method, SWbemQualifierSet.Item, _hmm_swbemqualifierset.item, wmi.swbemqualifierset_item
 ms.prod: windows
 ms.technology: windows-sdk

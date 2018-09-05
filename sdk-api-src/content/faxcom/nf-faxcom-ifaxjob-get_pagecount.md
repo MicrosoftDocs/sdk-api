@@ -64,9 +64,9 @@ This property is read-only.
 
 
 
-The total page count is only available for faxes where <a href="https://msdn.microsoft.com/en-us/library/ms691914(v=VS.85).aspx">Type</a> returns JT_SEND. If the page count is not available, <b>PageCount</b> returns zero.
+The total page count is only available for faxes where <a href="https://msdn.microsoft.com/04d3f8e2-cf49-4497-bf89-7b9f777923b2">Type</a> returns JT_SEND. If the page count is not available, <b>PageCount</b> returns zero.
 
-The total page count is only available for faxes that have a <a href="https://msdn.microsoft.com/en-us/library/ms691914(v=VS.85).aspx">Type</a> property equal to JT_SEND. If the page count is not available, the <b>PageCount</b> property is zero.
+The total page count is only available for faxes that have a <a href="https://msdn.microsoft.com/04d3f8e2-cf49-4497-bf89-7b9f777923b2">Type</a> property equal to JT_SEND. If the page count is not available, the <b>PageCount</b> property is zero.
 
 
 
@@ -76,27 +76,27 @@ The total page count is only available for faxes that have a <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691931(v=VS.85).aspx">Fax Service Client API Interfaces</a>
+<a href="https://msdn.microsoft.com/f564dc20-7c7c-41c3-81a1-2dfc61ee09f1">Fax Service Client API Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692829(v=VS.85).aspx">Fax Service Client API for Windows 2000</a>
+<a href="https://msdn.microsoft.com/cbc79dc5-d0ca-418d-8572-64b0a582056f">Fax Service Client API for Windows 2000</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690298(v=VS.85).aspx">FaxJob</a>
+<a href="https://msdn.microsoft.com/c6e95bae-c1f8-4636-9847-7c66187cfc8d">FaxJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692310(v=VS.85).aspx">IFaxJob</a>
+<a href="https://msdn.microsoft.com/48de5e31-0286-4b7a-a86b-46411bf0e9e8">IFaxJob</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692372(v=VS.85).aspx">IFaxJobs</a>
+<a href="https://msdn.microsoft.com/c9e548c4-9381-4b7d-9a9d-55fbc59f198f">IFaxJobs</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691914(v=VS.85).aspx">Type</a>
+<a href="https://msdn.microsoft.com/04d3f8e2-cf49-4497-bf89-7b9f777923b2">Type</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: wpdsdk\ienumportabledeviceobjectids_cancel.htm
 old-project: wpd_sdk
 ms.assetid: ecf4644f-299c-46e0-922c-16de35674222
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Cancel, Cancel method [Windows Portable Devices SDK], Cancel method [Windows Portable Devices SDK],IEnumPortableDeviceObjectIDs interface, IEnumPortableDeviceObjectIDs interface [Windows Portable Devices SDK],Cancel method, IEnumPortableDeviceObjectIDs.Cancel, IEnumPortableDeviceObjectIDs::Cancel, IEnumPortableDeviceObjectIDsCancel, portabledeviceapi/IEnumPortableDeviceObjectIDs::Cancel, wpdsdk.ienumportabledeviceobjectids_cancel
 ms.prod: windows
 ms.technology: windows-sdk

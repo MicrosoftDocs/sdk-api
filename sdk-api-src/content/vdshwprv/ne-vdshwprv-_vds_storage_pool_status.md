@@ -4,10 +4,10 @@ title: "_VDS_STORAGE_POOL_STATUS"
 author: windows-sdk-content
 description: Defines the set of object status values for a storage pool.
 old-location: base\vds_storage_pool_status.htm
-old-project: vds
+old-project: VDS
 ms.assetid: b2af30c8-116c-4e51-bffc-0dee9a4bd04e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: VDS_SPS_NOT_READY, VDS_SPS_OFFLINE, VDS_SPS_ONLINE, VDS_SPS_UNKNOWN, VDS_STORAGE_POOL_STATUS, VDS_STORAGE_POOL_STATUS enumeration, _VDS_STORAGE_POOL_STATUS, base.vds_storage_pool_status, vds/VDS_SPS_NOT_READY, vds/VDS_SPS_OFFLINE, vds/VDS_SPS_ONLINE, vds/VDS_SPS_UNKNOWN, vds/VDS_STORAGE_POOL_STATUS, vdshwprv/VDS_SPS_NOT_READY, vdshwprv/VDS_SPS_OFFLINE, vdshwprv/VDS_SPS_ONLINE, vdshwprv/VDS_SPS_UNKNOWN, vdshwprv/VDS_STORAGE_POOL_STATUS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,7 +87,7 @@ The storage pool is not available.
 
 
 
-The <a href="https://msdn.microsoft.com/2a82e872-2005-4b05-b67a-161b16c4f3aa">VDS_STORAGE_POOL_PROP</a> structure uses a <b>VDS_STORAGE_POOL_STATUS</b> value in the <a href="https://msdn.microsoft.com/en-us/library/Dd405631(v=VS.85).aspx">status</a> member to indicate the current status of the storage pool.
+The <a href="https://msdn.microsoft.com/2a82e872-2005-4b05-b67a-161b16c4f3aa">VDS_STORAGE_POOL_PROP</a> structure uses a <b>VDS_STORAGE_POOL_STATUS</b> value in the <a href="vds_storage_pool_prop.htm">status</a> member to indicate the current status of the storage pool.
 
 <div class="alert"><b>Note</b>  Additional constants might be added to the <b>VDS_STORAGE_POOL_STATUS</b> enumeration in future Windows versions. For this reason, your application must be designed to gracefully handle an unrecognized <b>VDS_STORAGE_POOL_STATUS</b> enumeration constant.</div>
 <div> </div>

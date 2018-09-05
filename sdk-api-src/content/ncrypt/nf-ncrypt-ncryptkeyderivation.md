@@ -4,10 +4,10 @@ title: NCryptKeyDerivation function
 author: windows-sdk-content
 description: Creates a key from another key by using the specified key derivation function.
 old-location: security\ncryptkeyderivation.htm
-old-project: seccng
+old-project: SecCNG
 ms.assetid: 5D2D61B1-022E-412F-A19E-11057930A615
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BCRYPT_CAPI_AES_FLAG, NCRYPT_SILENT_FLAG, NCryptKeyDerivation, NCryptKeyDerivation function [Security], ncrypt/NCryptKeyDerivation, security.ncryptkeyderivation
 ms.prod: windows
 ms.technology: windows-sdk

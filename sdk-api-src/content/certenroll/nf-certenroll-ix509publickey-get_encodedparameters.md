@@ -4,10 +4,10 @@ title: IX509PublicKey::get_EncodedParameters
 author: windows-sdk-content
 description: Retrieves a byte array that contains the parameters associated with the public key algorithm.
 old-location: security\ix509publickey_encodedparameters_property.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: f7c7bf0a-0b66-4676-9448-f74937823f90
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: EncodedParameters property [Security], EncodedParameters property [Security],IX509PublicKey interface, IX509PublicKey interface [Security],EncodedParameters property, IX509PublicKey.EncodedParameters, IX509PublicKey.get_EncodedParameters, IX509PublicKey::EncodedParameters, IX509PublicKey::get_EncodedParameters, certenroll/IX509PublicKey::EncodedParameters, certenroll/IX509PublicKey::get_EncodedParameters, get_EncodedParameters, security.ix509publickey_encodedparameters_property
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-The <b>EncodedParameters</b> property retrieves a byte array that contains the parameters associated with the <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">public key</a> algorithm. The byte array is represented by a Unicode-encoded string.
+The <b>EncodedParameters</b> property retrieves a byte array that contains the parameters associated with the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a> algorithm. The byte array is represented by a Unicode-encoded string.
 
 This property is read-only.
 
@@ -64,9 +64,9 @@ This property is read-only.
 
 
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/Aa379044(v=VS.85).aspx">InitializeFromEncodedPublicKeyInfo</a> method or the <a href="https://msdn.microsoft.com/en-us/library/Aa379045(v=VS.85).aspx">Initialize</a> method to initialize the public key object before calling this property.
+Call the <a href="https://msdn.microsoft.com/3e92d934-1ab7-4f09-a579-0dde4ef44c7f">InitializeFromEncodedPublicKeyInfo</a> method or the <a href="https://msdn.microsoft.com/b6db46b2-95f5-4ba9-829d-97bf83fd9806">Initialize</a> method to initialize the public key object before calling this property.
 
-The AlgorithmIdentifier <a href="https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx">Abstract Syntax Notation One</a> (ASN.1) object that is referenced by the SubjectPublicKeyInfo object in an <a href="https://msdn.microsoft.com/en-us/library/ms721636(v=VS.85).aspx">X.509</a> version 3 certificate contains an algorithm <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> (OID) and optional parameters.
+The AlgorithmIdentifier <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1) object that is referenced by the SubjectPublicKeyInfo object in an <a href="https://msdn.microsoft.com/28dba6ef-939f-4789-9789-ee6e0fef0177">X.509</a> version 3 certificate contains an algorithm <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) and optional parameters.
 
 <pre class="syntax" xml:space="preserve"><code>
 SubjectPublicKeyInfo  ::=  SEQUENCE
@@ -81,7 +81,7 @@ AlgorithmIdentifier  ::=  SEQUENCE
    parameters           ANY DEFINED BY algorithm OPTIONAL  
 }
 </code></pre>
- The format and content of the parameters differs by algorithm. The <a href="https://msdn.microsoft.com/en-us/library/Aa376517(v=VS.85).aspx">Certificate Enrollment Control</a> generates parameter values for various algorithms as required. For more information, see the following sections:<ul>
+ The format and content of the parameters differs by algorithm. The <a href="https://msdn.microsoft.com/ce6661b0-7ed2-452f-a54c-6705d14f3298">Certificate Enrollment Control</a> generates parameter values for various algorithms as required. For more information, see the following sections:<ul>
 <li><b>RSA Public Key Algorithm</b></li>
 <li><b>Key Transport Using RSA-OAEP</b></li>
 <li><b>Key Agreement Using ECDH</b></li>
@@ -90,7 +90,7 @@ AlgorithmIdentifier  ::=  SEQUENCE
 
 
 <h3><a id="rsa_public_key_algorithm_cpp"></a><a id="RSA_PUBLIC_KEY_ALGORITHM_CPP"></a>RSA Public Key Algorithm</h3>
- RSA is often used to encrypt a <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">private key</a> and send it to a <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> (CA) for archival. The XCN_OID_RSA_RSA (1.2.840.113549.1.1.1) algorithm OID must have a <b>NULL</b> parameter value. The ASN.1 <b>NULL</b> value is represented by two bytes. The tag number is 0x05 and the value associated with the tag is 0x00. This is shown by the following  certificate example.
+ RSA is often used to encrypt a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> and send it to a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) for archival. The XCN_OID_RSA_RSA (1.2.840.113549.1.1.1) algorithm OID must have a <b>NULL</b> parameter value. The ASN.1 <b>NULL</b> value is represented by two bytes. The tag number is 0x05 and the value associated with the tag is 0x00. This is shown by the following  certificate example.
 
 <pre class="syntax" xml:space="preserve"><code>
 ...
@@ -113,8 +113,8 @@ RSAES-OAEP-params  ::=  SEQUENCE
 </code></pre>
 <h3><a id="key_agreement_using_ecdh"></a><a id="KEY_AGREEMENT_USING_ECDH"></a>Key Agreement Using ECDH</h3>
 The single pass Elliptic Curve Diffie-Hellman algorithm, XCN_OID_DH_SINGLE_PASS_STDDH_SHA1_KDF (1.3.133.16.840.63.0.2), is supported for key agreement. Key agreement uses two levels of encryption:<ul>
-<li>The message is encrypted by using a content encryption key (CEK) and a <a href="https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx">symmetric encryption</a> algorithm.</li>
-<li>The CEK is encrypted (wrapped) by using a <a href="https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx">symmetric key</a> encryption key (KEK).</li>
+<li>The message is encrypted by using a content encryption key (CEK) and a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">symmetric encryption</a> algorithm.</li>
+<li>The CEK is encrypted (wrapped) by using a <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">symmetric key</a> encryption key (KEK).</li>
 </ul>The KEK is computed from a shared secret number that is computed from the private key of one party and the public key of the other party. The parameters field contains the OID of the  KEK algorithm used to wrap or encrypt the CEK. The following wrap algorithms are supported:<ul>
 <li>XCN_OID_RSA_SMIMEalgCMS3DESwrap (1.2.840.113549.1.9.16.3.)</li>
 <li>XCN_OID_RSA_SMIMEalgCMSRC2wrap (1.2.840.113549.1.9.16.3.7)</li>
@@ -142,7 +142,7 @@ AES-IV ::= OCTET STRING (SIZE(16))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379039(v=VS.85).aspx">IX509PublicKey</a>
+<a href="https://msdn.microsoft.com/cd6f28a3-9998-40d7-a3e8-dab0cf3991a8">IX509PublicKey</a>
  
 
  

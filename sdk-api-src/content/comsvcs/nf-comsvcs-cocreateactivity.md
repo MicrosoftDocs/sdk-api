@@ -7,7 +7,7 @@ old-location: cos\cocreateactivity.htm
 old-project: cossdk
 ms.assetid: 3009eb4f-e3f3-497b-ba05-5b750d8a40d0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CoCreateActivity, CoCreateActivity function [COM+], _cos_CoCreateActivity, comsvcs/CoCreateActivity, cos.cocreateactivity
 ms.prod: windows
 ms.technology: windows-sdk

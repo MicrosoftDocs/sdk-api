@@ -4,10 +4,10 @@ title: IWindowsMediaLibrarySharingDeviceProperties
 author: windows-sdk-content
 description: The IWindowsMediaLibrarySharingDeviceProperties interface defines methods that provide access to the collection of all properties for an individual media device.
 old-location: wmlss\IWindowsMediaLibrarySharingDevicePropertiesInterface.htm
-old-project: wmlss
+old-project: WMLSS
 ms.assetid: b975428c-e518-4bc8-a621-193d510661b0
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IWindowsMediaLibrarySharingDeviceProperties, IWindowsMediaLibrarySharingDeviceProperties interface [Windows Media Library Sharing Services], IWindowsMediaLibrarySharingDeviceProperties interface [Windows Media Library Sharing Services],described, wmlss.IWindowsMediaLibrarySharingDevicePropertiesInterface, wmlss/IWindowsMediaLibrarySharingDeviceProperties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ The <b>IWindowsMediaLibrarySharingDeviceProperties</b> interface defines methods
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWindowsMediaLibrarySharingDeviceProperties</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IWindowsMediaLibrarySharingDeviceProperties</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWindowsMediaLibrarySharingDeviceProperties</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IWindowsMediaLibrarySharingDeviceProperties</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -114,7 +114,7 @@ To obtain an <b>IWindowsMediaLibrarySharingDeviceProperties</b> interface, call 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

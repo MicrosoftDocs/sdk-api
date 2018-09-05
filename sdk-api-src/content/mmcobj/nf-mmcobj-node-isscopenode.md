@@ -80,18 +80,22 @@ Nodes that appear in the scope tree are scope nodes. Be aware that the child of 
 
 #### Examples
 
-
-```vb
-' Determine if the node is a scope node.
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>' Determine if the node is a scope node.
 Dim lScopeNode As Long
 lScopeNode = objNode.IsScopeNode()
 If (1 = lScopeNode) Then
     MsgBox ("Node is a ScopeNode")
 Else
     MsgBox ("Node is not a ScopeNode")
-End If
-```
-
-
+End If</pre>
+</td>
+</tr>
+</table></span></div>
 
 

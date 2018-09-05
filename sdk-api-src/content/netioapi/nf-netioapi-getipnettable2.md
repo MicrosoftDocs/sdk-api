@@ -220,18 +220,22 @@ Note that the returned <a href="https://msdn.microsoft.com/39b87d81-69ce-4f9b-8a
 
 The following example retrieves the IP neighbor table, then prints the values for IP neighbor row entries in the table.
 
-
-```cpp
-#ifndef WIN32_LEAN_AND_MEAN
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef WIN32_LEAN_AND_MEAN
 #define WIN32_LEAN_AND_MEAN
 #endif
 
-#include <windows.h>
-#include <winsock2.h>
-#include <ws2ipdef.h>
-#include <iphlpapi.h>
-#include <stdio.h>
-#include <stdlib.h>
+#include &lt;windows.h&gt;
+#include &lt;winsock2.h&gt;
+#include &lt;ws2ipdef.h&gt;
+#include &lt;iphlpapi.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
 
 #pragma comment(lib, "iphlpapi.lib")
 #pragma comment(lib, "ws2_32.lib")
@@ -248,25 +252,25 @@ int main()
     PMIB_IPNET_TABLE2 pipTable = NULL;
 //    MIB_IPNET_ROW2 ipRow;
 
-    status = GetIpNetTable2(AF_INET, &pipTable);
+    status = GetIpNetTable2(AF_INET, &amp;pipTable);
     if (status != NO_ERROR) {
         printf("GetIpNetTable for IPv4 table returned error: %ld\n", status);
         exit(1);
     }
     // Print some variables from the table
-    printf("Number of IPv4 table entries: %d\n\n", pipTable->NumEntries);
+    printf("Number of IPv4 table entries: %d\n\n", pipTable-&gt;NumEntries);
 
-    for (i = 0; (unsigned) i < pipTable->NumEntries; i++) {
+    for (i = 0; (unsigned) i &lt; pipTable-&gt;NumEntries; i++) {
 //        printf("Table entry: %d\n", i);
         printf("IPv4 Address[%d]:\t %s\n", (int) i,
-               inet_ntoa(pipTable->Table[i].Address.Ipv4.sin_addr));
+               inet_ntoa(pipTable-&gt;Table[i].Address.Ipv4.sin_addr));
         printf("Interface index[%d]:\t\t %lu\n", (int) i,
-               pipTable->Table[i].InterfaceIndex);
+               pipTable-&gt;Table[i].InterfaceIndex);
 
         printf("Interface LUID NetLuidIndex[%d]:\t %lu\n",
-               (int) i, pipTable->Table[i].InterfaceLuid.Info.NetLuidIndex);
+               (int) i, pipTable-&gt;Table[i].InterfaceLuid.Info.NetLuidIndex);
         printf("Interface LUID IfType[%d]: ", (int) i);
-        switch (pipTable->Table[i].InterfaceLuid.Info.IfType) {
+        switch (pipTable-&gt;Table[i].InterfaceLuid.Info.IfType) {
         case IF_TYPE_OTHER:
             printf("Other\n");
             break;
@@ -296,27 +300,27 @@ int main()
             break;
         default:
             printf("Unknown: %d\n",
-                   pipTable->Table[i].InterfaceLuid.Info.IfType);
+                   pipTable-&gt;Table[i].InterfaceLuid.Info.IfType);
             break;
         }
 
         printf("Physical Address[%d]:\t ", (int) i);
-        if (pipTable->Table[i].PhysicalAddressLength == 0)
+        if (pipTable-&gt;Table[i].PhysicalAddressLength == 0)
             printf("\n");
-//        for (j = 0; (unsigned) j < pipTable->Table[i].PhysicalAddressLength; j++)
+//        for (j = 0; (unsigned) j &lt; pipTable-&gt;Table[i].PhysicalAddressLength; j++)
 //         printf ("%c" 
-        for (j = 0; j < pipTable->Table[i].PhysicalAddressLength; j++) {
-            if (j == (pipTable->Table[i].PhysicalAddressLength - 1))
-                printf("%.2X\n", (int) pipTable->Table[i].PhysicalAddress[j]);
+        for (j = 0; j &lt; pipTable-&gt;Table[i].PhysicalAddressLength; j++) {
+            if (j == (pipTable-&gt;Table[i].PhysicalAddressLength - 1))
+                printf("%.2X\n", (int) pipTable-&gt;Table[i].PhysicalAddress[j]);
             else
-                printf("%.2X-", (int) pipTable->Table[i].PhysicalAddress[j]);
+                printf("%.2X-", (int) pipTable-&gt;Table[i].PhysicalAddress[j]);
         }
 
         printf("Physical Address Length[%d]:\t %lu\n", (int) i,
-               pipTable->Table[i].PhysicalAddressLength);
+               pipTable-&gt;Table[i].PhysicalAddressLength);
 
         printf("Neighbor State[%d]:\t ", (int) i);
-        switch (pipTable->Table[i].State) {
+        switch (pipTable-&gt;Table[i].State) {
         case NlnsUnreachable:
             printf("NlnsUnreachable\n");
             break;
@@ -339,15 +343,15 @@ int main()
             printf("NlnsPermanent\n");
             break;
         default:
-            printf("Unknown: %d\n", pipTable->Table[i].State);
+            printf("Unknown: %d\n", pipTable-&gt;Table[i].State);
             break;
         }
 
         printf("Flags[%d]:\t\t %u\n", (int) i,
-               (unsigned char) pipTable->Table[i].Flags);
+               (unsigned char) pipTable-&gt;Table[i].Flags);
 
         printf("ReachabilityTime[%d]:\t %lu\n\n", (int) i,
-               pipTable->Table[i].ReachabilityTime);
+               pipTable-&gt;Table[i].ReachabilityTime);
 
     }
     FreeMibTable(pipTable);
@@ -356,10 +360,10 @@ int main()
     exit(0);
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

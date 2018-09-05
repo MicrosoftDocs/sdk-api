@@ -7,7 +7,7 @@ old-location: shell\SHDefExtractIcon.htm
 old-project: shell
 ms.assetid: fbaa600a-5e5c-4948-81fb-d2c3993dcd47
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GIL_SIMULATEDOC, SHDefExtractIcon, SHDefExtractIcon function [Windows Shell], SHDefExtractIconA, SHDefExtractIconW, _win32_SHDefExtractIcon, shell.SHDefExtractIcon, shlobj_core/SHDefExtractIcon, shlobj_core/SHDefExtractIconA, shlobj_core/SHDefExtractIconW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,21 +95,21 @@ Overlays the extracted icon on the default document icon to create the final ico
 
 Type: <b>HICON*</b>
 
-A pointer to an HICON that, when this function returns successfully, receives the handle of the large version of the icon specified in the <a href="https://msdn.microsoft.com/en-us/library/ms632659(v=VS.85).aspx">LOWORD</a> of <i>nIconSize</i>. This value can be <b>NULL</b>.
+A pointer to an HICON that, when this function returns successfully, receives the handle of the large version of the icon specified in the <a href="https://msdn.microsoft.com/4f169f33-ed13-4efc-bf3f-ea2a4fe1de4e">LOWORD</a> of <i>nIconSize</i>. This value can be <b>NULL</b>.
 
 
 ### -param phiconSmall [out, optional]
 
 Type: <b>HICON*</b>
 
-A pointer to an HICON that, when this function returns successfully, receives the handle of the small version of the icon specified in the <a href="https://msdn.microsoft.com/en-us/library/ms632657(v=VS.85).aspx">HIWORD</a> of <i>nIconSize</i>.
+A pointer to an HICON that, when this function returns successfully, receives the handle of the small version of the icon specified in the <a href="https://msdn.microsoft.com/9f79d489-ff3f-437c-821e-fd353d712c7b">HIWORD</a> of <i>nIconSize</i>.
 
 
 ### -param nIconSize
 
 Type: <b>UINT</b>
 
-A value that contains the large icon size in its <a href="https://msdn.microsoft.com/en-us/library/ms632659(v=VS.85).aspx">LOWORD</a> and the small icon size in its <a href="https://msdn.microsoft.com/en-us/library/ms632657(v=VS.85).aspx">HIWORD</a>. Size is measured in pixels. Pass 0 to specify default large and small sizes.
+A value that contains the large icon size in its <a href="https://msdn.microsoft.com/4f169f33-ed13-4efc-bf3f-ea2a4fe1de4e">LOWORD</a> and the small icon size in its <a href="https://msdn.microsoft.com/9f79d489-ff3f-437c-821e-fd353d712c7b">HIWORD</a>. Size is measured in pixels. Pass 0 to specify default large and small sizes.
 
 
 ##### - uFlags.GIL_SIMULATEDOC
@@ -173,7 +173,7 @@ The file cannot be accessed, or is being accessed through a slow link.
 
 
 
-It is the responsibility of the caller to free the icon resources created through this function when they are no longer needed. This can be done through the <a href="https://msdn.microsoft.com/en-us/library/ms648063(v=VS.85).aspx">DestroyIcon</a> function.
+It is the responsibility of the caller to free the icon resources created through this function when they are no longer needed. This can be done through the <a href="https://msdn.microsoft.com/ffe21e34-ebe0-4ec8-830f-64c733ef9097">DestroyIcon</a> function.
 
 
 

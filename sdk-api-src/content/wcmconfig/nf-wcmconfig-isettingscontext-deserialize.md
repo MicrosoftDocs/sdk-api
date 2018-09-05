@@ -4,10 +4,10 @@ title: ISettingsContext::Deserialize
 author: windows-sdk-content
 description: Deserializes the data in the stream that is provided to this context.
 old-location: smi\isettingscontext_deserialize.htm
-old-project: smi
+old-project: SMI
 ms.assetid: 382f2864-047e-4095-929b-a8b67773eefb
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Deserialize, Deserialize method [SMI], Deserialize method [SMI],ISettingsContext interface, ISettingsContext interface [SMI],Deserialize method, ISettingsContext.Deserialize, ISettingsContext::Deserialize, smi.isettingscontext_deserialize, wcmconfig/ISettingsContext::Deserialize
 ms.prod: windows
 ms.technology: windows-sdk

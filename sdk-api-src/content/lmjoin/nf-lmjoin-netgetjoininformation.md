@@ -7,7 +7,7 @@ old-location: netmgmt\netgetjoininformation.htm
 old-project: netmgmt
 ms.assetid: c7cc1cf2-4530-4039-806b-fbee572f564d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NetGetJoinInformation, NetGetJoinInformation function [Network Management], NetSetupDomainName, NetSetupUnjoined, NetSetupUnknownStatus, NetSetupWorkgroupName, _win32_netgetjoininformation, lmjoin/NetGetJoinInformation, netmgmt.netgetjoininformation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,9 +82,13 @@ Receives the join status of the specified computer. This parameter can have one 
 
 
 
-
-```cpp
-typedef enum _NETSETUP_JOIN_STATUS {
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>typedef enum _NETSETUP_JOIN_STATUS {
 
     NetSetupUnknownStatus = 0,
     NetSetupUnjoined,
@@ -92,10 +96,10 @@ typedef enum _NETSETUP_JOIN_STATUS {
     NetSetupDomainName
 
 } NETSETUP_JOIN_STATUS, *PNETSETUP_JOIN_STATUS;
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 These values have the following meanings.
 
 <table>

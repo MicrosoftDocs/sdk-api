@@ -7,7 +7,7 @@ old-location: indexsrv\cibuildquerytree.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_4b6t.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: CIBuildQueryTree, CIBuildQueryTree function [Indexing Service], _idxs_CIBuildQueryTree, indexsrv.cibuildquerytree, ntquery/CIBuildQueryTree
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/6da601c6-3742-40ad-99f2-8817f7f642b3">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
 Builds a query restriction tree for a Command object.
 
@@ -64,12 +64,12 @@ Builds a query restriction tree for a Command object.
 
 ### -param pExistingTree
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms689889(v=VS.85).aspx">DBCOMMANDTREE</a> structure representing the tree. This parameter can be <b>NULL</b>.
+A pointer to a <a href="https://msdn.microsoft.com/141f1952-c1b7-4fbb-81d8-7ad3e9aa9b31">DBCOMMANDTREE</a> structure representing the tree. This parameter can be <b>NULL</b>.
 
 
 ### -param dbBoolOp
 
-The operation to be performed on the node. See <a href="https://msdn.microsoft.com/en-us/library/ms690290(v=VS.85).aspx">DBCOMMANDOP</a>.
+The operation to be performed on the node. See <a href="https://msdn.microsoft.com/564e287b-ab3c-484e-8818-1d24ba5246ce">DBCOMMANDOP</a>.
 
 
 ### -param cSiblings
@@ -79,12 +79,12 @@ The number of sibling nodes for this node.
 
 ### -param ppSibsToCombine
 
-A pointer to the address that contains the array of <a href="https://msdn.microsoft.com/en-us/library/ms689889(v=VS.85).aspx">DBCOMMANDTREE</a> structures for the siblings to be combined with this node using the operation in <i>dbBoolOp</i>.
+A pointer to the address that contains the array of <a href="https://msdn.microsoft.com/141f1952-c1b7-4fbb-81d8-7ad3e9aa9b31">DBCOMMANDTREE</a> structures for the siblings to be combined with this node using the operation in <i>dbBoolOp</i>.
 
 
 ### -param ppTree
 
-The address of the location to receive a pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms689889(v=VS.85).aspx">DBCOMMANDTREE</a> structure for the tree structure.
+The address of the location to receive a pointer to the <a href="https://msdn.microsoft.com/141f1952-c1b7-4fbb-81d8-7ad3e9aa9b31">DBCOMMANDTREE</a> structure for the tree structure.
 
 
 ## -returns
@@ -175,31 +175,31 @@ An unknown error has occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690822(v=VS.85).aspx">CIBuildQueryNode</a>
+<a href="https://msdn.microsoft.com/4efc1d6a-a646-4a88-8114-206a44531e41">CIBuildQueryNode</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690933(v=VS.85).aspx">CITextToFullTree</a>
+<a href="https://msdn.microsoft.com/679b96f7-43b3-44c1-86dd-e995bb9a9c53">CITextToFullTree</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690845(v=VS.85).aspx">CITextToFullTreeEx</a>
+<a href="https://msdn.microsoft.com/095debd6-242f-4449-b5d7-1c2cae232bf4">CITextToFullTreeEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690937(v=VS.85).aspx">CITextToSelectTree</a>
+<a href="https://msdn.microsoft.com/333fb241-f484-4d79-89cd-9b1d8240b8a8">CITextToSelectTree</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms691026(v=VS.85).aspx">CITextToSelectTreeEx</a>
+<a href="https://msdn.microsoft.com/8d59e0f4-2c80-4d63-938b-91e7360c039b">CITextToSelectTreeEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690290(v=VS.85).aspx">DBCOMMANDOP</a>
+<a href="https://msdn.microsoft.com/564e287b-ab3c-484e-8818-1d24ba5246ce">DBCOMMANDOP</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689889(v=VS.85).aspx">DBCOMMANDTREE</a>
+<a href="https://msdn.microsoft.com/141f1952-c1b7-4fbb-81d8-7ad3e9aa9b31">DBCOMMANDTREE</a>
  
 
  

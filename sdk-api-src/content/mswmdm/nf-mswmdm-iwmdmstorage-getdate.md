@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstorage_getdate.htm
 old-project: WMDM
 ms.assetid: 53693e2f-f6d2-42cc-9387-798f8dc10556
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetDate, GetDate method [windows Media Device Manager], GetDate method [windows Media Device Manager],IWMDMStorage interface, IWMDMStorage interface [windows Media Device Manager],GetDate method, IWMDMStorage.GetDate, IWMDMStorage::GetDate, IWMDMStorageGetDate, mswmdm/IWMDMStorage::GetDate, wmdm.iwmdmstorage_getdate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,17 +96,21 @@ The time is specified in coordinated universal time.
 
 The following C++ code gets the "last modified" value from a storage passed in.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // Get the "Last Modified" date
 WMDMDATETIME lastModified;
-hr = pStorage->GetDate(&lastModified);
+hr = pStorage-&gt;GetDate(&amp;lastModified);
 // TODO: Display the last modified month, day, and year.
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: shell\SHGetLocalizedName.htm
 old-project: shell
 ms.assetid: 2929b77f-4467-44a8-9885-96f0c3e35584
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHGetLocalizedName, SHGetLocalizedName function [Windows Shell], _shell_SHGetLocalizedName, shell.SHGetLocalizedName, shellapi/SHGetLocalizedName
 ms.prod: windows
 ms.technology: windows-sdk

@@ -66,9 +66,13 @@ Handling the <b>IADsLargeInteger</b> in Visual Basic is made difficult by the fa
 
 The following example shows how to convert an <b>IADsLargeInteger</b> object to a hex string.
 
-
-```vb
-Dim oDomain As IADs
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim oDomain As IADs
 Dim oLargeInt As LargeInteger
 
 Set oDomain = GetObject("LDAP://DC=fabrikam,DC=com")
@@ -77,17 +81,21 @@ Set oLargeInt = oDomain.Get("creationTime")
 Debug.Print oLargeInt.HighPart
 Debug.Print oLargeInt.LowPart
 
-strTemp = "&H" + CStr(Hex(oLargeInt.HighPart)) + _
+strTemp = "&amp;H" + CStr(Hex(oLargeInt.HighPart)) + _
      CStr(Hex(oLargeInt.LowPart))
-Debug.Print strTemp
-```
-
-
+Debug.Print strTemp</pre>
+</td>
+</tr>
+</table></span></div>
 In Visual Basic, it is possible to convert an <b>IADsLargeInteger</b> objects that represents a date and/or time into a time Variant using the <a href="https://msdn.microsoft.com/d1d55f1f-4daa-4b9d-9962-873e38b1e0cf">FileTimeToSystemTime</a> and <a href="https://msdn.microsoft.com/d9d69521-9b33-4fc5-8a1c-929f216db450">SystemTimeToVariantTime</a> APIs. This is shown in the following code example.
 
-
-```vb
-Public Declare Function FileTimeToSystemTime Lib "kernel32" _
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Public Declare Function FileTimeToSystemTime Lib "kernel32" _
    (lpFileTime As FILETIME, _
    lpSystemTime As SYSTEMTIME) As Long
 
@@ -159,15 +167,19 @@ Function LargeInteger_To_Time(oLargeInt As LargeInteger, vTime As Variant)_
     vTime = CDate(dbTime)
     LargeInteger_To_Time = True
 
-End Function
-```
-
-
+End Function</pre>
+</td>
+</tr>
+</table></span></div>
 The following example shows how to convert an <b>IADsLargeInteger</b> to a 64-bit integer.
 
-
-```cpp
-HRESULT PrintAccountExpires(LPCWSTR pwszADsPath)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT PrintAccountExpires(LPCWSTR pwszADsPath)
 {
     if(!pwszADsPath)
     {
@@ -175,10 +187,10 @@ HRESULT PrintAccountExpires(LPCWSTR pwszADsPath)
     }
     
     HRESULT hr;
-    CComPtr<IADs> spads;
+    CComPtr&lt;IADs&gt; spads;
 
     // Bind to the object.
-    hr = ADsGetObject(pwszADsPath, IID_IADs, (LPVOID*)&spads);
+    hr = ADsGetObject(pwszADsPath, IID_IADs, (LPVOID*)&amp;spads);
     if(FAILED(hr))
     {
         return hr;
@@ -189,16 +201,16 @@ HRESULT PrintAccountExpires(LPCWSTR pwszADsPath)
     IDispatch that contains an IADsLargeInteger.
     */
     CComVariant svar;
-    hr = spads->Get(CComBSTR("accountExpires"), &svar);
+    hr = spads-&gt;Get(CComBSTR("accountExpires"), &amp;svar);
     if(FAILED(hr))
     {
         return hr;
     }
 
     // Get the IADsLargeInteger interface.
-    CComPtr<IADsLargeInteger> spli;
-    hr = svar.pdispVal->QueryInterface(IID_IADsLargeInteger, 
-                                      (LPVOID*)&spli);
+    CComPtr&lt;IADsLargeInteger&gt; spli;
+    hr = svar.pdispVal-&gt;QueryInterface(IID_IADsLargeInteger, 
+                                      (LPVOID*)&amp;spli);
     if(FAILED(hr))
     {
         return hr;
@@ -207,13 +219,13 @@ HRESULT PrintAccountExpires(LPCWSTR pwszADsPath)
     // Get the high and low parts of the value.
     long lHigh;
     long lLow;
-    hr = spli->get_HighPart(&lHigh);
-    hr = spli->get_LowPart(&lLow);
+    hr = spli-&gt;get_HighPart(&amp;lHigh);
+    hr = spli-&gt;get_LowPart(&amp;lLow);
 
     // Convert the high and low parts to an __i64.
     __int64 i64;
     i64 = (ULONG)lHigh;
-    i64 = (i64 << 32);
+    i64 = (i64 &lt;&lt; 32);
     i64 = i64 + (ULONG)lLow;
     
     // Print all of the values.
@@ -221,10 +233,10 @@ HRESULT PrintAccountExpires(LPCWSTR pwszADsPath)
             lHigh, lLow, i64);
 
     return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -237,7 +249,7 @@ HRESULT PrintAccountExpires(LPCWSTR pwszADsPath)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

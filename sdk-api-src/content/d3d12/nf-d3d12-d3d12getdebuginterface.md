@@ -66,7 +66,7 @@ Type: <b>REFIID</b>
 
 The globally unique identifier (<b>GUID</b>) for the debug interface.
             The <b>REFIID</b>, or <b>GUID</b>, of the debug interface can be obtained by using the __uuidof() macro.
-            For example, __uuidof(<a href="https://msdn.microsoft.com/en-us/library/Dn950153(v=VS.85).aspx">ID3D12Debug</a>) will get the <b>GUID</b> of the debug interface.
+            For example, __uuidof(<a href="https://msdn.microsoft.com/6CFAE096-EE09-4DD0-ADA3-A700FD9FDCB9">ID3D12Debug</a>) will get the <b>GUID</b> of the debug interface.
           
 
 
@@ -76,8 +76,8 @@ Type: <b>void**</b>
 
 The debug interface, as a pointer to pointer to void.
             See
-            <a href="https://msdn.microsoft.com/en-us/library/Dn950153(v=VS.85).aspx">ID3D12Debug</a>and
-            <a href="https://msdn.microsoft.com/en-us/library/Dn986873(v=VS.85).aspx">ID3D12DebugDevice</a>.
+            <a href="https://msdn.microsoft.com/6CFAE096-EE09-4DD0-ADA3-A700FD9FDCB9">ID3D12Debug</a>and
+            <a href="https://msdn.microsoft.com/6FD77F14-E260-4DBB-8434-664DE1F6DE39">ID3D12DebugDevice</a>.
             
 
 
@@ -85,9 +85,9 @@ The debug interface, as a pointer to pointer to void.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-This method returns one of the <a href="https://msdn.microsoft.com/en-us/library/Dn706075(v=VS.85).aspx">Direct3D 12 Return Codes</a>.
+This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>.
           
 
 
@@ -105,22 +105,26 @@ The function signature PFN_D3D12_GET_DEBUG_INTERFACE is provided as a typedef, s
 
 Enable the D3D12 debug layer.
 
-
-```cpp
-// Enable the D3D12 debug layer.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Enable the D3D12 debug layer.
 {
     
-    ComPtr<ID3D12Debug> debugController;
-    if (SUCCEEDED(D3D12GetDebugInterface(IID_PPV_ARGS(&debugController))))
+    ComPtr&lt;ID3D12Debug&gt; debugController;
+    if (SUCCEEDED(D3D12GetDebugInterface(IID_PPV_ARGS(&amp;debugController))))
     {
-        debugController->EnableDebugLayer();
+        debugController-&gt;EnableDebugLayer();
     }
 }
-
-```
-
-
-Refer to the <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85).aspx">Example Code in the D3D12 Reference</a>.
+</pre>
+</td>
+</tr>
+</table></span></div>
+Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
           
 
 <div class="code"></div>
@@ -132,7 +136,7 @@ Refer to the <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770456(v=VS.85).aspx">Core Functions</a>
+<a href="https://msdn.microsoft.com/C0F9A52C-483D-40B2-9E1F-CB92ADDC2856">Core Functions</a>
  
 
  

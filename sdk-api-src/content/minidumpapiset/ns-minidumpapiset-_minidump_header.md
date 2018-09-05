@@ -7,7 +7,7 @@ old-location: base\minidump_header_str.htm
 old-project: debug
 ms.assetid: 693bd569-e3f2-4cc7-b744-dd1f6da54736
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: "*PMINIDUMP_HEADER, MINIDUMP_HEADER, MINIDUMP_HEADER structure, PMINIDUMP_HEADER, PMINIDUMP_HEADER structure pointer, _MINIDUMP_HEADER, _win32_minidump_header_str, base.minidump_header_str, minidumpapiset/MINIDUMP_HEADER, minidumpapiset/PMINIDUMP_HEADER"
 ms.prod: windows
 ms.technology: windows-sdk

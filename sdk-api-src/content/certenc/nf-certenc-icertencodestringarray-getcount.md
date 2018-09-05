@@ -4,10 +4,10 @@ title: ICertEncodeStringArray::GetCount
 author: windows-sdk-content
 description: Returns the number of string values in the string array.
 old-location: security\icertencodestringarray_getcount.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: c02a23ea-87c2-4458-8b1a-b010e8103a90
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CCertEncodeStringArray object [Security],GetCount method, GetCount, GetCount method [Security], GetCount method [Security],CCertEncodeStringArray object, GetCount method [Security],ICertEncodeStringArray interface, ICertEncodeStringArray interface [Security],GetCount method, ICertEncodeStringArray.GetCount, ICertEncodeStringArray::GetCount, _certsrv_icertencodestringarray_getcount, certenc/ICertEncodeStringArray::GetCount, security.icertencodestringarray_getcount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,7 +72,7 @@ A pointer to a <b>LONG</b> that receives the number of string values contained i
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the number of string values contained in the string array.
@@ -85,11 +85,11 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385013(v=VS.85).aspx">ICertEncodeStringArray</a>
+<a href="https://msdn.microsoft.com/5515c25e-f788-4222-8f66-f5d86bd2a3a3">ICertEncodeStringArray</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385019(v=VS.85).aspx">ICertEncodeStringArray::Reset</a>
+<a href="https://msdn.microsoft.com/125524ae-236d-4507-9c00-76a016bf6c62">ICertEncodeStringArray::Reset</a>
  
 
  

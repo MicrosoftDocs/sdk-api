@@ -7,7 +7,7 @@ old-location: winsync\sync_version.htm
 old-project: winsync
 ms.assetid: 6a493a58-3dab-4032-90de-be9f903ae489
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: SYNC_VERSION, SYNC_VERSION structure [Windows Sync], _SYNC_VERSION, winsync.sync_version, winsync/SYNC_VERSION
 ms.prod: windows
 ms.technology: windows-sdk

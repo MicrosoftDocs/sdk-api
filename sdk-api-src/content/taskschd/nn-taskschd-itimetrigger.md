@@ -4,10 +4,10 @@ title: ITimeTrigger
 author: windows-sdk-content
 description: Represents a trigger that starts a task at a specific date and time.
 old-location: taskschd\itimetrigger.htm
-old-project: taskschd
+old-project: TaskSchd
 ms.assetid: 4ebd5470-0801-42ff-a0c2-4d1e7f7ee365
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ITimeTrigger, ITimeTrigger interface [Task Scheduler], ITimeTrigger interface [Task Scheduler],described, taskschd.itimetrigger, taskschd/ITimeTrigger, time trigger [Task Scheduler],interface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,7 +85,7 @@ For more information and example code for this interface, see <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383606(v=VS.85).aspx">Task Scheduler Interfaces</a>
+<a href="task_scheduler_interfaces.htm">Task Scheduler Interfaces</a>
  
 
  

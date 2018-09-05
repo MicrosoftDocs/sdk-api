@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstorage3_setmetadata.htm
 old-project: WMDM
 ms.assetid: f06eb965-af34-4247-b8a6-0ac1ee4e4839
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IWMDMStorage3 interface [windows Media Device Manager],SetMetadata method, IWMDMStorage3.SetMetadata, IWMDMStorage3::SetMetadata, IWMDMStorage3SetMetadata, SetMetadata, SetMetadata method [windows Media Device Manager], SetMetadata method [windows Media Device Manager],IWMDMStorage3 interface, mswmdm/IWMDMStorage3::SetMetadata, wmdm.iwmdmstorage3_setmetadata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,23 +98,27 @@ To set properties for a Windows Portable Devices (WPD) device, an application wo
 
 The following C++ code adds a subtitle as metadata to a storage (pStorage3) using the <b>IWMDMMetaData</b> interface retrieved from the storage previously (not shown).
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // Set metadata values on a storage.
 WCHAR* station = L"Mysubtitle";
 UINT numBytes = (wcslen(station) + 1) * sizeof(WCHAR); // WCHAR string is 2 * length of characters long
                                                        // plus the terminating null character.
-hr = pMetadata->AddItem(WMDM_TYPE_STRING, g_wszWMDMMediaStationName, (BYTE*)station, numBytes) ;
+hr = pMetadata-&gt;AddItem(WMDM_TYPE_STRING, g_wszWMDMMediaStationName, (BYTE*)station, numBytes) ;
 BREAK_HR(hr, "Added a metadata value to the interface in TestUpdateMetadata.", "Couldn't add a metadata value to the interface in TestUpdateMetadata.");
 
 // Add the metadata to the storage.
-hr = pStorage3->SetMetadata(pMetadata);
-BREAK_HR(hr, "Set metadata on the storage in TestUpdateMetadata.", "Couldn't set metadata on the storage in TestUpdateMetadata: " << hex << hr << dec);
-
-```
-
-
+hr = pStorage3-&gt;SetMetadata(pMetadata);
+BREAK_HR(hr, "Set metadata on the storage in TestUpdateMetadata.", "Couldn't set metadata on the storage in TestUpdateMetadata: " &lt;&lt; hex &lt;&lt; hr &lt;&lt; dec);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: com\iolecache2_updatecache.htm
 old-project: com
 ms.assetid: 67bb0bcf-981a-4b2f-8ab9-2afc0659b2db
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IOleCache2 interface [COM],UpdateCache method, IOleCache2.UpdateCache, IOleCache2::UpdateCache, UPDFCACHE_ ALLBUTNODATACACHE, UPDFCACHE_ IFBLANKORONSAVECACHE, UPDFCACHE_ALL, UPDFCACHE_IFBLANK, UPDFCACHE_NODATACACHE, UPDFCACHE_NORMALCACHE, UPDFCACHE_ONLYIFBLANK, UPDFCACHE_ONSAVECACHE, UPDFCACHE_ONSTOPCACHE, UpdateCache, UpdateCache method [COM], UpdateCache method [COM],IOleCache2 interface, _ole_iolecache2_updatecache, com.iolecache2_updatecache, oleidl/IOleCache2::UpdateCache
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: SnmpStrToOid function
 author: windows-sdk-content
 description: The WinSNMP SnmpStrToOid function converts the dotted numeric string format of an SNMP object identifier, for example, &#0034;1.2.3.4.5.6&#0034;, to its internal binary representation.
 old-location: snmp\snmpstrtooid.htm
-old-project: snmp
+old-project: SNMP
 ms.assetid: cbcf8fc6-c5d6-476b-9490-4b87fd6a8a56
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SnmpStrToOid, SnmpStrToOid function [SNMP], _snmp_snmpstrtooid, snmp.snmpstrtooid, winsnmp/SnmpStrToOid
 ms.prod: windows
 ms.technology: windows-sdk

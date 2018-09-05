@@ -7,7 +7,7 @@ old-location: mscs\cluster_change_shared_volume_v2.htm
 old-project: mscs
 ms.assetid: 2934115D-B52B-4289-9BCD-E66A4F363AE8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CLUSTER_CHANGE_SHARED_VOLUME_ADDED_V2, CLUSTER_CHANGE_SHARED_VOLUME_ALL_V2, CLUSTER_CHANGE_SHARED_VOLUME_REMOVED_V2, CLUSTER_CHANGE_SHARED_VOLUME_STATE_V2, CLUSTER_CHANGE_SHARED_VOLUME_V2, CLUSTER_CHANGE_SHARED_VOLUME_V2 enumeration [Failover Cluster], clusapi/CLUSTER_CHANGE_SHARED_VOLUME_ADDED_V2, clusapi/CLUSTER_CHANGE_SHARED_VOLUME_ALL_V2, clusapi/CLUSTER_CHANGE_SHARED_VOLUME_REMOVED_V2, clusapi/CLUSTER_CHANGE_SHARED_VOLUME_STATE_V2, clusapi/CLUSTER_CHANGE_SHARED_VOLUME_V2, msclus/CLUSTER_CHANGE_SHARED_VOLUME_ADDED_V2, msclus/CLUSTER_CHANGE_SHARED_VOLUME_ALL_V2, msclus/CLUSTER_CHANGE_SHARED_VOLUME_REMOVED_V2, msclus/CLUSTER_CHANGE_SHARED_VOLUME_STATE_V2, msclus/CLUSTER_CHANGE_SHARED_VOLUME_V2, mscs.cluster_change_shared_volume_v2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -22,7 +22,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: CluAdmEx.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 

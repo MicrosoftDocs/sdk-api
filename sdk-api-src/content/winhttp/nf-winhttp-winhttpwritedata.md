@@ -4,10 +4,10 @@ title: WinHttpWriteData function
 author: windows-sdk-content
 description: The WinHttpWriteData function writes request data to an HTTP server.
 old-location: http\winhttpwritedata.htm
-old-project: winhttp
+old-project: WinHttp
 ms.assetid: c8b94285-1b01-451b-9803-cc1bacb015ff
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: WinHttpWriteData, WinHttpWriteData function [WinHTTP], http.winhttpwritedata, winhttp.winhttpwritedata_function, winhttp/WinHttpWriteData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -217,9 +217,13 @@ To work around these two issues, one solution is to send an idempotent warm-up r
 
 This example shows code that  writes data to an HTTP server.  The server name supplied in the example, www.wingtiptoys.com, is fictitious and must be replaced with the name of a server for which you have write access.
 
-
-```cpp
-    LPSTR pszData = "WinHttpWriteData Example";
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    LPSTR pszData = "WinHttpWriteData Example";
     DWORD dwBytesWritten = 0;
     BOOL  bResults = FALSE;
     HINTERNET hSession = NULL,
@@ -256,7 +260,7 @@ This example shows code that  writes data to an HTTP server.  The server name su
     if (bResults)
         bResults = WinHttpWriteData( hRequest, pszData, 
                                      (DWORD)strlen(pszData), 
-                                     &dwBytesWritten);
+                                     &amp;dwBytesWritten);
 
     // End the request.
     if (bResults)
@@ -271,10 +275,10 @@ This example shows code that  writes data to an HTTP server.  The server name su
     if (hRequest) WinHttpCloseHandle(hRequest);
     if (hConnect) WinHttpCloseHandle(hConnect);
     if (hSession) WinHttpCloseHandle(hSession);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

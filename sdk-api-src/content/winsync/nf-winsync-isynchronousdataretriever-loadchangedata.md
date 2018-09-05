@@ -7,7 +7,7 @@ old-location: winsync\isynchronousdataretriever_loadchangedata.htm
 old-project: winsync
 ms.assetid: ae309301-3810-4785-b4f2-a55fbdf819d8
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ISynchronousDataRetriever interface [Windows Sync],LoadChangeData method, ISynchronousDataRetriever.LoadChangeData, ISynchronousDataRetriever::LoadChangeData, LoadChangeData, LoadChangeData method [Windows Sync], LoadChangeData method [Windows Sync],ISynchronousDataRetriever interface, winsync.isynchronousdataretriever_loadchangedata, winsync/ISynchronousDataRetriever::LoadChangeData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -117,9 +117,13 @@ The source provider determines the data retrieval interface that is implemented 
 
 The following example is an implementation of <b>LoadChangeData</b> that finds the specified change in a custom data store and returns a copy of it.
 
-
-```cpp
-STDMETHODIMP CItemStore::LoadChangeData(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CItemStore::LoadChangeData(
     ILoadChangeContext * pLoadChangeContext,
     IUnknown ** ppUnkData)
 {
@@ -133,40 +137,40 @@ STDMETHODIMP CItemStore::LoadChangeData(
     {
         // Find the item in the data store, clone it, and return its IUnknown interface.
         ISyncChange* pChange = NULL;
-        hr = pLoadChangeContext->GetSyncChange(&pChange);
+        hr = pLoadChangeContext-&gt;GetSyncChange(&amp;pChange);
         if (SUCCEEDED(hr))
         {
             SYNC_GID gidItem;
             DWORD cbID = sizeof(gidItem);
-            hr = pChange->GetRootItemId((BYTE*)&gidItem, &cbID);
+            hr = pChange-&gt;GetRootItemId((BYTE*)&amp;gidItem, &amp;cbID);
             if (SUCCEEDED(hr))
             {
                 IXMLDOMNode* pNodeItem = NULL;
-                hr = FindItem(&gidItem, &pNodeItem);
+                hr = FindItem(&amp;gidItem, &amp;pNodeItem);
                 if (SUCCEEDED(hr))
                 {
                     IXMLDOMNode* pNodeClone = NULL;
-                    hr = pNodeItem->cloneNode(TRUE, &pNodeClone);
+                    hr = pNodeItem-&gt;cloneNode(TRUE, &amp;pNodeClone);
                     if (SUCCEEDED(hr))
                     {
-                        hr = pNodeClone->QueryInterface(IID_IUnknown, (void**)ppUnkData);
+                        hr = pNodeClone-&gt;QueryInterface(IID_IUnknown, (void**)ppUnkData);
 
-                        pNodeClone->Release();
+                        pNodeClone-&gt;Release();
                     }
 
-                    pNodeItem->Release();                
+                    pNodeItem-&gt;Release();                
                 }
             }
 
-            pChange->Release();
+            pChange-&gt;Release();
         }
     }
 
     return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

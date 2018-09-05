@@ -7,7 +7,7 @@ old-location: shell\SCNRT_STATUS.htm
 old-project: shell
 ms.assetid: 31fd993b-d8cb-40cc-9f31-15711dba1b10
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SCNRT_DISABLE, SCNRT_ENABLE, SCNRT_STATUS, SCNRT_STATUS enumeration [Windows Shell], _shell_SCNRT_STATUS, shell.SCNRT_STATUS, shlobj_core/SCNRT_DISABLE, shlobj_core/SCNRT_ENABLE, shlobj_core/SCNRT_STATUS
 ms.prod: windows
 ms.technology: windows-sdk

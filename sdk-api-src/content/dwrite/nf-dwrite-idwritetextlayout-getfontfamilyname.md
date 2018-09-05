@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteTextLayout_GetFontFamilyName.htm
 old-project: DirectWrite
 ms.assetid: c5283d1f-8a40-4272-b71c-590b6bc6a340
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetFontFamilyName, GetFontFamilyName method [Direct Write], GetFontFamilyName method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetFontFamilyName method, IDWriteTextLayout.GetFontFamilyName, IDWriteTextLayout::GetFontFamilyName, directwrite.IDWriteTextLayout_GetFontFamilyName, dwrite/IDWriteTextLayout::GetFontFamilyName
 ms.prod: windows
 ms.technology: windows-sdk

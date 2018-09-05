@@ -7,7 +7,7 @@ old-location: remoteassist\remoteassist_IRendezvousSession_State.htm
 old-project: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\ifaces\irendezvoussession\state.htm
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: IRendezvousSession interface [Remote Assistance],State property, IRendezvousSession.State, IRendezvousSession.get_State, IRendezvousSession::State, IRendezvousSession::get_State, State property [Remote Assistance], State property [Remote Assistance],IRendezvousSession interface, get_State, remoteassist.remoteassist_IRendezvousSession_State, remoteassist_IRendezvousSession_State, rendezvoussession/IRendezvousSession::State, rendezvoussession/IRendezvousSession::get_State
 ms.prod: windows
 ms.technology: windows-sdk

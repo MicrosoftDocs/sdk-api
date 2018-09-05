@@ -7,7 +7,7 @@ old-location: wmi\cframeworkquery_getrequiredproperties.htm
 old-project: WmiSdk
 ms.assetid: cf02aa01-6d56-4fd7-b8f2-67b0c855e807
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: CFrameworkQuery interface [Windows Management Instrumentation],GetRequiredProperties method, CFrameworkQuery.GetRequiredProperties, CFrameworkQuery::GetRequiredProperties, GetRequiredProperties, GetRequiredProperties method [Windows Management Instrumentation], GetRequiredProperties method [Windows Management Instrumentation],CFrameworkQuery interface, _hmm_cframeworkquery_getrequiredproperties, frquery/CFrameworkQuery::GetRequiredProperties, wmi.cframeworkquery_getrequiredproperties
 ms.prod: windows
 ms.technology: windows-sdk

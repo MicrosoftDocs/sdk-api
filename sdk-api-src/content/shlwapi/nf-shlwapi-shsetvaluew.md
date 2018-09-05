@@ -7,7 +7,7 @@ old-location: shell\SHSetValue.htm
 old-project: shell
 ms.assetid: 6cd5b7fd-8fb9-4c24-9670-20c23ca709bf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: HKEY_CLASSES_ROOT, HKEY_CURRENT_CONFIG, HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_PERFORMANCE_DATA, HKEY_USERS, SHSetValue, SHSetValue function [Windows Shell], SHSetValueA, SHSetValueW, _win32_SHSetValue, shell.SHSetValue, shlwapi/SHSetValue, shlwapi/SHSetValueA, shlwapi/SHSetValueW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

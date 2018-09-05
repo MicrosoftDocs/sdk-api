@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFontFace_GetFiles.htm
 old-project: DirectWrite
 ms.assetid: 505238e5-bfc9-4d5e-b807-3c5e8b2e82d3
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetFiles, GetFiles method [Direct Write], GetFiles method [Direct Write],IDWriteFontFace interface, IDWriteFontFace interface [Direct Write],GetFiles method, IDWriteFontFace.GetFiles, IDWriteFontFace::GetFiles, directwrite.IDWriteFontFace_GetFiles, dwrite/IDWriteFontFace::GetFiles
 ms.prod: windows
 ms.technology: windows-sdk

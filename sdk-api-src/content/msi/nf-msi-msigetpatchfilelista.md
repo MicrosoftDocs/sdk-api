@@ -7,7 +7,7 @@ old-location: setup\msigetpatchfilelist.htm
 old-project: msi
 ms.assetid: c0a98ae4-d348-462d-8907-87116a64f79e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MsiGetPatchFileList, MsiGetPatchFileList function, MsiGetPatchFileListA, MsiGetPatchFileListW, msi/MsiGetPatchFileList, msi/MsiGetPatchFileListA, msi/MsiGetPatchFileListW, setup.msigetpatchfilelist
 ms.prod: windows
 ms.technology: windows-sdk

@@ -64,7 +64,7 @@ The
 ### -param vpsp
 
 A pointer to the Microsoft Windows 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774548(v=VS.85).aspx">PROPSHEETPAGE</a> structure. Be aware that by default, MFC installs its own callback in the <b>pfnCallback</b> member of the structure.
+<a href="_win32_propsheetpage_str_cpp">PROPSHEETPAGE</a> structure. Be aware that by default, MFC installs its own callback in the <b>pfnCallback</b> member of the structure.
 
 
 ## -returns
@@ -92,12 +92,16 @@ For each page derived from <b>CPropertyPage</b>, call
 </ul>
 MFC must have the correct module state set from exported functions or COM interfaces. This includes calls made from the operating system to the module. For exported functions or COM interfaces, this is done by adding the AFX_MANAGE_STATE macro at the beginning of all the exported functions in snap-in DLLs that dynamically link to MFC. This is done by adding the following line of code to the beginning of functions exported from the snap-in:
 
-
-```vb
-AFX_MANAGE_STATE(AfxGetStaticModuleState( ))
-```
-
-
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>AFX_MANAGE_STATE(AfxGetStaticModuleState( ))</pre>
+</td>
+</tr>
+</table></span></div>
 For an operating system call, MFC does this automatically. Because MMC's property sheet is not an MFC <b>CPropertySheet</b>, the operating system call due to the callback is in the wrong module state. As a result, you need to make sure that the module state is correctly set during the page creation. This is the purpose of 
 <b>MMCPropPageCallback</b>. After the module state has been set, the only AFX_MANAGE_STATE calls that need to be made are those exposed by the COM interfaces implemented by the snap-in (for example 
 <a href="https://msdn.microsoft.com/14c4f088-ad94-48a1-8c6d-a199b2938074">IExtendPropertySheet2::CreatePropertyPages</a>). To determine whether the application has the correct module state, look at <b>CWinApp</b> and note the application name.

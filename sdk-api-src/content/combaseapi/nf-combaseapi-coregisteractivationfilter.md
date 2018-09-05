@@ -7,7 +7,7 @@ old-location: com\coregisteractivationfilter.htm
 old-project: com
 ms.assetid: 4189633F-9B14-4EAD-84BD-F74355376164
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CoRegisterActivationFilter, CoRegisterActivationFilter function [COM], com.coregisteractivationfilter, combaseapi/CoRegisterActivationFilter
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmi\swbemobject_instancesasync_.htm
 old-project: WmiSdk
 ms.assetid: d10fcbbf-6110-4152-8201-db43dc7a3c14
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: ISWbemObject interface [Windows Management Instrumentation],InstancesAsync_ method, ISWbemObject.InstancesAsync_, ISWbemObject::InstancesAsync_, InstancesAsync_, InstancesAsync_ method [Windows Management Instrumentation], InstancesAsync_ method [Windows Management Instrumentation],ISWbemObject interface, InstancesAsync_ method [Windows Management Instrumentation],SWbemObject object, SWbemObject object [Windows Management Instrumentation],InstancesAsync_ method, SWbemObject.InstancesAsync_, _hmm_swbemobject.instancesasync_, wbemFlagDontSendStatus, wbemFlagSendStatus, wbemFlagUseAmendedQualifiers, wmi.swbemobject_instancesasync_
 ms.prod: windows
 ms.technology: windows-sdk

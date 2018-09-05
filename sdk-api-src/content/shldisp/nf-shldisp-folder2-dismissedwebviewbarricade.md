@@ -7,7 +7,7 @@ old-location: shell\Folder2_DismissedWebViewBarricade.htm
 old-project: shell
 ms.assetid: 170893b6-c947-45b1-b717-a93a0b083bda
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: DismissedWebViewBarricade, DismissedWebViewBarricade method [Windows Shell], DismissedWebViewBarricade method [Windows Shell],Folder2 object, Folder2 object [Windows Shell],DismissedWebViewBarricade method, Folder2.DismissedWebViewBarricade, Folder2::DismissedWebViewBarricade, _win32_Folder2_DismissedWebViewBarricade, shell.Folder2_DismissedWebViewBarricade
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,9 +84,13 @@ The following example uses <b>DismissedWebViewBarricade</b> to specify that the 
 
 JScript:
 
-
-```javascript
-<script language="JScript">
+<div class="code"><span codelanguage="JScript"><table>
+<tr>
+<th>JScript</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="JScript"&gt;
     function fnFolder2ObjectDismissedWebViewBarricadeJ()
     {
         var objShell  = new ActiveXObject("shell.application");
@@ -98,16 +102,20 @@ JScript:
             objFolder2.DismissedWebViewBarricade();
         }
     }
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 VBScript:
 
-
-```vb
-<script language="VBScript">
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="VBScript"&gt;
     function fnFolder2ObjectDismissedWebViewBarricadeVB()
         dim objShell
         dim objFolder2
@@ -122,16 +130,20 @@ VBScript:
         set objFolder2 = nothing
         set objShell = nothing
     end function
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 Visual Basic:
 
-
-```vb
-Private Sub btnDismissedWebViewBarricade_Click()
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Private Sub btnDismissedWebViewBarricade_Click()
     Dim objShell   As Shell
     Dim objFolder2 As Folder2
 
@@ -145,10 +157,10 @@ Private Sub btnDismissedWebViewBarricade_Click()
     Set objFolder2 = Nothing
     Set objShell = Nothing
 End Sub
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

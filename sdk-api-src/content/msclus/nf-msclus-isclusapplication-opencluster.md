@@ -7,7 +7,7 @@ old-location: mscs\clusapplication_opencluster.htm
 old-project: mscs
 ms.assetid: 2501e921-5b0a-429f-aa7f-56191ab9795b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ISClusApplication object [Failover Cluster],OpenCluster method, ISClusApplication.OpenCluster, ISClusApplication::OpenCluster, OpenCluster, OpenCluster method [Failover Cluster], OpenCluster method [Failover Cluster],ISClusApplication object, _wolf_clusapplication.opencluster, mscs.clusapplication_opencluster
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
     unavailable in subsequent versions.]
 
 Opens a 
-    connection to a <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+    connection to a <a href="c_gly.htm">cluster</a>.
 
 
 ## -parameters

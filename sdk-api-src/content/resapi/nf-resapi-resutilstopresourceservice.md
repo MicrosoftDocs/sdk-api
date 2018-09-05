@@ -7,7 +7,7 @@ old-location: mscs\resutilstopresourceservice.htm
 old-project: mscs
 ms.assetid: 25e8417d-d314-4987-bdb2-7740793e4ac2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PRESUTIL_STOP_RESOURCE_SERVICE, PRESUTIL_STOP_RESOURCE_SERVICE function [Failover Cluster], ResUtilStopResourceService, ResUtilStopResourceService function [Failover Cluster], _wolf_resutilstopresourceservice, mscs.resutilstopresourceservice, resapi/PRESUTIL_STOP_RESOURCE_SERVICE, resapi/ResUtilStopResourceService
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Stops a named <a href="https://msdn.microsoft.com/en-us/library/Aa372937(v=VS.85).aspx">service</a>. The <b>PRESUTIL_STOP_RESOURCE_SERVICE</b> type defines a pointer to this function.
+Stops a named <a href="s_gly.htm">service</a>. The <b>PRESUTIL_STOP_RESOURCE_SERVICE</b> type defines a pointer to this function.
 
 
 ## -parameters

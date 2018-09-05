@@ -7,7 +7,7 @@ old-location: wmi\swbemobjectpath_isclass.htm
 old-project: WmiSdk
 ms.assetid: 55d50785-6cdb-4e42-8b59-121f339494df
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: ISWbemObjectPath interface [Windows Management Instrumentation],IsClass property, ISWbemObjectPath.get_IsClass, ISWbemObjectPath::get_IsClass, IsClass property [Windows Management Instrumentation], IsClass property [Windows Management Instrumentation],ISWbemObjectPath interface, IsClass property [Windows Management Instrumentation],SWbemObjectPath object, SWbemObjectPath object [Windows Management Instrumentation],IsClass property, SWbemObjectPath.IsClass, _hmm_swbemobjectpath.isclass, get_IsClass, wmi.swbemobjectpath_isclass
 ms.prod: windows
 ms.technology: windows-sdk

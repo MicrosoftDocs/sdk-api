@@ -67,7 +67,7 @@ Handle to the Bluetooth device or parent service.
 
 ### -param ParentService [in, optional]
 
-Address of a <a href="https://msdn.microsoft.com/en-us/library/Hh450850(v=VS.85).aspx">BTH_LE_GATT_SERVICE</a> structure that contains the parent service of the included services to be retrieved. This parameter is required if a device handle is passed to <i>hDevice</i>. This parameter is optional if a service handle was passed to <i>hDevice</i>, in which case the service specified by the service handle will be treated as the parent.
+Address of a <a href="https://msdn.microsoft.com/B4433D0F-7938-4C6D-994F-D99393EC013A">BTH_LE_GATT_SERVICE</a> structure that contains the parent service of the included services to be retrieved. This parameter is required if a device handle is passed to <i>hDevice</i>. This parameter is optional if a service handle was passed to <i>hDevice</i>, in which case the service specified by the service handle will be treated as the parent.
 
 
 ### -param IncludedServicesBufferCount [in]
@@ -77,7 +77,7 @@ The number of elements allocated for the <i>IncludedServicesBuffer</i> parameter
 
 ### -param IncludedServicesBuffer [out, optional]
 
-Address of a buffer containing a <a href="https://msdn.microsoft.com/en-us/library/Hh450850(v=VS.85).aspx">BTH_LE_GATT_SERVICE</a> structure into which to return included services.
+Address of a buffer containing a <a href="https://msdn.microsoft.com/B4433D0F-7938-4C6D-994F-D99393EC013A">BTH_LE_GATT_SERVICE</a> structure into which to return included services.
 
 
 ### -param IncludedServicesBufferActual [out]
@@ -236,9 +236,13 @@ Do not modify the returned service structure,
 
 <b>Example</b>
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 ////////////////////////////////////////////////////////////////////////////
 // Determine Included Services Buffer Size
 ////////////////////////////////////////////////////////////////////////////
@@ -247,7 +251,7 @@ hr = BluetoothGATTGetIncludedServices(
      gattService,
      0,
      NULL,
-     &inclServicesBufferSize,
+     &amp;inclServicesBufferSize,
      BLUETOOTH_GATT_FLAG_NONE);
 
      if (HRESULT_FROM_WIN32(ERROR_MORE_DATA) != hr) {
@@ -255,7 +259,7 @@ hr = BluetoothGATTGetIncludedServices(
          goto Done;
      }
 
-     if (inclServicesBufferSize > 0) {
+     if (inclServicesBufferSize &gt; 0) {
          pInclServicesBuffer = (PBTH_LE_GATT_ PBTH_LE_GATT_SERVICE)
                     malloc(inclServicesBufferSize * sizeof(BTH_LE_GATT_SERVICE));
 
@@ -276,17 +280,17 @@ hr = BluetoothGATTGetIncludedServices(
               gattService,
               inclServicesBufferSize,
               pInclServicesBuffer,
-              &numIncludedServices
+              &amp;numIncludedServices
               BLUETOOTH_GATT_FLAG_NONE);
 
          if (S_OK != hr) {
              PrintHr("BluetoothGATTGetIncludedServices - Actual Data", hr);
              goto Done;
          }
-     }
-```
-
-
+     }</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -295,7 +299,7 @@ hr = BluetoothGATTGetIncludedServices(
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh450850(v=VS.85).aspx">BTH_LE_GATT_SERVICE</a>
+<a href="https://msdn.microsoft.com/B4433D0F-7938-4C6D-994F-D99393EC013A">BTH_LE_GATT_SERVICE</a>
  
 
  

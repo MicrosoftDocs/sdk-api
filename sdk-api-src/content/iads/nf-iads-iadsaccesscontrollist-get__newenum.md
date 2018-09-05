@@ -69,8 +69,8 @@ The <b>IADsAccessControlList::get__NewEnum</b> method is used to obtain an enume
 
 #### - ppEnumerator [out]
 
-Pointer to pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface used to retrieve
-      <a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> interface on an enumerator object for the ACL.
+Pointer to pointer to the <a href="_com_iunknown">IUnknown</a> interface used to retrieve
+      <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> interface on an enumerator object for the ACL.
 
 
 ## -returns
@@ -93,9 +93,13 @@ Be aware  that there are two underscores in <b>get__NewEnum</b>.
 
 The following code example makes an implicit call to the <b>get__NewEnum</b> method in the execution of the <b>For Each</b> loop.
 
-
-```vb
-Dim Dacl As IADsAccessControlList
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim Dacl As IADsAccessControlList
 Dim ace As IADsAccessControlEntry
 
 On Error GoTo Cleanup
@@ -108,20 +112,24 @@ For Each ace In Dacl
 Next ace
 
 Cleanup:
-    If (Err.Number<>0) Then
-        MsgBox("An error has occurred. " & Err.Number)
+    If (Err.Number&lt;&gt;0) Then
+        MsgBox("An error has occurred. " &amp; Err.Number)
     End If
     Set Dacl = Nothing
     Set ace = Nothing
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The following code example shows how to enumerate ACEs using <b>IADsAccessControlList::get__NewEnum</b>.
 
-
-```cpp
-HRESULT ListTrustees(IADsAccessControlList *pACL)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT ListTrustees(IADsAccessControlList *pACL)
 {
     IEnumVARIANT *pEnum = NULL;
     LPUNKNOWN     pUnk = NULL;
@@ -132,56 +140,56 @@ HRESULT ListTrustees(IADsAccessControlList *pACL)
     VARIANT var;
     HRESULT hr = S_OK;
     
-    VariantInit(&var);
+    VariantInit(&amp;var);
      
-    hr = pACL->get__NewEnum(&pUnk);
+    hr = pACL-&gt;get__NewEnum(&amp;pUnk);
     if (FAILED(hr)){goto Cleanup;}
     
-    hr = pUnk->QueryInterface( IID_IEnumVARIANT, (void**) &pEnum );
-    pUnk->Release();
+    hr = pUnk-&gt;QueryInterface( IID_IEnumVARIANT, (void**) &amp;pEnum );
+    pUnk-&gt;Release();
     if (FAILED(hr)){goto Cleanup;}
      
-    hr = pEnum->Next( 1, &var, &lFetch );
+    hr = pEnum-&gt;Next( 1, &amp;var, &amp;lFetch );
     if (FAILED(hr)){goto Cleanup;}
      
     while( hr == S_OK )
     {
         if ( lFetch == 1 )
         {
-            if ( VT_DISPATCH != V_VT(&var) )
+            if ( VT_DISPATCH != V_VT(&amp;var) )
             {
                 goto Cleanup;
             }
-            pDisp = V_DISPATCH(&var);
+            pDisp = V_DISPATCH(&amp;var);
             /////////////////////////
             // Get the individual ACE
             /////////////////////////
-            hr = pDisp->QueryInterface( IID_IADsAccessControlEntry,(void**)&pACE ); 
+            hr = pDisp-&gt;QueryInterface( IID_IADsAccessControlEntry,(void**)&amp;pACE ); 
             if ( SUCCEEDED(hr) )
             {
-                pACE->get_Trustee(&bstr);
+                pACE-&gt;get_Trustee(&amp;bstr);
                 printf("\n %S:\n", bstr);
                 //ACE manipulation here
                 SysFreeString(bstr);
-                pACE->Release();
+                pACE-&gt;Release();
             }
-            pACE->Release();
-            pDisp->Release();
-            VariantClear(&var);
+            pACE-&gt;Release();
+            pDisp-&gt;Release();
+            VariantClear(&amp;var);
         }
-        hr = pEnum->Next( 1, &var, &lFetch );
+        hr = pEnum-&gt;Next( 1, &amp;var, &amp;lFetch );
     }
     Cleanup:        
-        if(pEnum) pEnum->Release();
-        if(pUnk) pUnk->Release();
+        if(pEnum) pEnum-&gt;Release();
+        if(pUnk) pUnk-&gt;Release();
         if(bstr) SysFreeString(bstr);
-        if(pACE) pACE->Release();
-        VariantClear(&var);
+        if(pACE) pACE-&gt;Release();
+        VariantClear(&amp;var);
         return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -202,7 +210,7 @@ HRESULT ListTrustees(IADsAccessControlList *pACL)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a>
+<a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a>
  
 
  

@@ -4,10 +4,10 @@ title: NetQueryServiceAccount function
 author: windows-sdk-content
 description: Gets information about the specified managed service account.
 old-location: security\netqueryserviceaccount.htm
-old-project: secmgmt
+old-project: SecMgmt
 ms.assetid: ee253cab-bd53-426e-809a-12a1ccdc010b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NetQueryServiceAccount, NetQueryServiceAccount function [Security], lmaccess/NetQueryServiceAccount, security.netqueryserviceaccount
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmi\swbemrefresher_item.htm
 old-project: WmiSdk
 ms.assetid: 8ae3dea5-0582-422e-9cd8-b6d91b41588a
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: ISWbemRefresher interface [Windows Management Instrumentation],Item method, ISWbemRefresher.Item, ISWbemRefresher::Item, Item, Item method [Windows Management Instrumentation], Item method [Windows Management Instrumentation],ISWbemRefresher interface, Item method [Windows Management Instrumentation],SWbemRefresher object, SWbemRefresher object [Windows Management Instrumentation],Item method, SWbemRefresher.Item, _hmm_swbemrefresher.item, wmi.swbemrefresher_item
 ms.prod: windows
 ms.technology: windows-sdk

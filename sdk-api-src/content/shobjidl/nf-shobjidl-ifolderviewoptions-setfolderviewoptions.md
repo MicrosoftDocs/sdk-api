@@ -7,7 +7,7 @@ old-location: shell\IFolderViewOptions_SetFolderViewOptions.htm
 old-project: shell
 ms.assetid: e170f60f-9b6c-4765-8aad-b370b08db053
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IFolderViewOptions interface [Windows Shell],SetFolderViewOptions method, IFolderViewOptions.SetFolderViewOptions, IFolderViewOptions::SetFolderViewOptions, SetFolderViewOptions, SetFolderViewOptions method [Windows Shell], SetFolderViewOptions method [Windows Shell],IFolderViewOptions interface, _shell_IFolderViewOptions_SetFolderViewOptions, shell.IFolderViewOptions_SetFolderViewOptions, shobjidl/IFolderViewOptions::SetFolderViewOptions
 ms.prod: windows
 ms.technology: windows-sdk

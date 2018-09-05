@@ -61,7 +61,22 @@ The <b>DrawFrameControl</b> function draws a frame control of the specified type
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
+
+TBD
+
+
+### -param arg3
+
+TBD
+
+
+### -param arg4
 
 TBD
 

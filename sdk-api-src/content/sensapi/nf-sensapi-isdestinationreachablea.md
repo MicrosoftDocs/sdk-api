@@ -4,10 +4,10 @@ title: IsDestinationReachableA function
 author: windows-sdk-content
 description: The IsDestinationReachable function determines whether or not a specified destination can be reached, and provides Quality of Connection (QOC) information for a destination.
 old-location: sens\isdestinationreachable.htm
-old-project: sens
+old-project: Sens
 ms.assetid: 377af331-8494-4a3d-b822-78c2b568239c
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IsDestinationReachable, IsDestinationReachable function [SENS], IsDestinationReachableA, IsDestinationReachableW, _zaw_isdestinationreachable, sens.isdestinationreachable, sensapi/IsDestinationReachable, sensapi/IsDestinationReachableA, sensapi/IsDestinationReachableW, syncmgr.isdestinationreachable
 ms.prod: windows
 ms.technology: windows-sdk

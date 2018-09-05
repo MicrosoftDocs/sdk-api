@@ -4,10 +4,10 @@ title: "_WSD_CONFIG_ADDRESSES"
 author: windows-sdk-content
 description: Information about specific addresses that a host should listen on.
 old-location: ncd\wsd_config_addresses.htm
-old-project: wsdapi
+old-project: WsdApi
 ms.assetid: aaec97f4-c0b9-49d3-ab4c-758feda15d6a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PWSD_CONFIG_ADDRESSES, WSD_CONFIG_ADDRESSES, WSD_CONFIG_ADDRESSES structure, _WSD_CONFIG_ADDRESSES, ncd.wsd_config_addresses, wsdbase/WSD_CONFIG_ADDRESSES"
 ms.prod: windows
 ms.technology: windows-sdk

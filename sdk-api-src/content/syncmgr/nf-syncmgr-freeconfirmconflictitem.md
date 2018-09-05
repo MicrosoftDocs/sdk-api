@@ -7,7 +7,7 @@ old-location: shell\FreeConfirmConflictItem.htm
 old-project: shell
 ms.assetid: 504a63e0-39e9-4228-ab3d-c34b272f8fd3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: FreeConfirmConflictItem, FreeConfirmConflictItem function [Windows Shell], _shell_FreeConfirmConflictItem, shell.FreeConfirmConflictItem, syncmgr/FreeConfirmConflictItem
 ms.prod: windows
 ms.technology: windows-sdk

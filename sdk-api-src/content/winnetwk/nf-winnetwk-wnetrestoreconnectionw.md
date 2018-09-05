@@ -4,10 +4,10 @@ title: WNetRestoreConnectionW function
 author: windows-sdk-content
 description: The WNetRestoreConnectionW function restores the connection to a network resource. The function prompts the user, if necessary, for a name and password.
 old-location: wnet\wnetrestoreconnectionw.htm
-old-project: wnet
+old-project: WNet
 ms.assetid: 641b37f1-9cea-4c7a-9b42-b4bd28c747ad
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: WNetRestoreConnectionW, WNetRestoreConnectionW function [Windows Networking (WNet)], winnetwk/WNetRestoreConnectionW, wnet.wnetrestoreconnectionw
 ms.prod: windows
 ms.technology: windows-sdk

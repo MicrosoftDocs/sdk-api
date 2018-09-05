@@ -7,7 +7,7 @@ old-location: mscs\clusresdependencies_collection.htm
 old-project: mscs
 ms.assetid: 10695840-38ec-4614-8bbd-5772a53dea4b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusResDependencies, ClusResDependencies collection [Failover Cluster], ClusResDependencies collection [Failover Cluster],described, ISClusResDependencies, _wolf_clusresdependencies_collection, msclus/ClusResDependencies, mscs.clusresdependencies_collection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,7 +85,7 @@ The <b>ClusResDependencies</b> collection has these methods.
 <a href="https://msdn.microsoft.com/f8462df8-dece-423f-a585-5774411401c8">AddItem</a>
 </td>
 <td align="left" width="63%">
-Adds an existing <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> resource to the dependency 
+Adds an existing <a href="c_gly.htm">cluster</a> resource to the dependency 
      collection.
 
 </td>

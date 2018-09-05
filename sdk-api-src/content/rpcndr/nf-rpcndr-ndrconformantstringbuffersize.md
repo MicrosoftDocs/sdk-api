@@ -4,10 +4,10 @@ title: NdrConformantStringBufferSize function
 author: windows-sdk-content
 description: The NdrConformantStringBufferSize function calculates the size of the buffer, in bytes, needed to marshal the conformant string.
 old-location: rpc\ndrconformantstringbuffersize.htm
-old-project: rpc
+old-project: Rpc
 ms.assetid: 6090d96c-dd00-4df6-879b-893cd5b457b9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NdrConformantStringBufferSize, NdrConformantStringBufferSize function [RPC], rpc.ndrconformantstringbuffersize, rpcndr/NdrConformantStringBufferSize
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\SetProcessReference.htm
 old-project: shell
 ms.assetid: 65C1BE1D-2C67-47a3-9958-38829BB8CCB0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SetProcessReference, SetProcessReference function [Windows Shell], shell.SetProcessReference, shlwapi/SetProcessReference
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

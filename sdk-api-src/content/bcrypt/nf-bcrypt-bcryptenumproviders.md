@@ -4,10 +4,10 @@ title: BCryptEnumProviders function
 author: windows-sdk-content
 description: Obtains all of the CNG providers that support a specified algorithm.
 old-location: security\bcryptenumproviders_func.htm
-old-project: seccng
+old-project: SecCNG
 ms.assetid: 0496f241-9530-47fb-89e2-15d7ab6da87a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BCryptEnumProviders, BCryptEnumProviders function [Security], bcrypt/BCryptEnumProviders, security.bcryptenumproviders_func
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ The <b>BCryptEnumProviders</b> function obtains all of the CNG providers that su
 
 ### -param pszAlgId [in]
 
-A pointer to a null-terminated Unicode string that identifies the algorithm to obtain the providers for. This can be one of the predefined <a href="https://msdn.microsoft.com/en-us/library/Aa375534(v=VS.85).aspx">CNG Algorithm Identifiers</a> or another algorithm identifier.
+A pointer to a null-terminated Unicode string that identifies the algorithm to obtain the providers for. This can be one of the predefined <a href="https://msdn.microsoft.com/a05ae7e6-d882-4287-9990-23e4cd340b05">CNG Algorithm Identifiers</a> or another algorithm identifier.
 
 
 ### -param pImplCount [out]

@@ -7,7 +7,7 @@ old-location: com\ipipedouble_push.htm
 old-project: com
 ms.assetid: 49c9121f-eb92-42e4-bd30-fe2213d44de9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IPipeDouble interface [COM],Push method, IPipeDouble.Push, IPipeDouble::Push, Push, Push method [COM], Push method [COM],IPipeDouble interface, _com_ipipedouble_push, com.ipipedouble_push, objidlbase/IPipeDouble::Push
 ms.prod: windows
 ms.technology: windows-sdk

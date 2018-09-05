@@ -4,10 +4,10 @@ title: RmRemoveFilter function
 author: windows-sdk-content
 description: Removes any modifications to shutdown or restart actions that have been applied using the RmAddFilter function.
 old-location: rstmgr\rmremovefilter.htm
-old-project: rstmgr
+old-project: RstMgr
 ms.assetid: fb1baa7b-0dfb-4bd1-8a3f-cfaf9bf4079f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RmRemoveFilter, RmRemoveFilter function [Restart Mgr], restartmanager/RmRemoveFilter, rstmgr.rmremovefilter
 ms.prod: windows
 ms.technology: windows-sdk

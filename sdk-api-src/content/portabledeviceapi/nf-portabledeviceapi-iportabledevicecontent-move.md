@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevicecontent_move.htm
 old-project: wpd_sdk
 ms.assetid: 938a6a06-31c5-44d1-b87b-a108995ae9a1
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IPortableDeviceContent interface [Windows Portable Devices SDK],Move method, IPortableDeviceContent.Move, IPortableDeviceContent::Move, IPortableDeviceContentMove, Move, Move method [Windows Portable Devices SDK], Move method [Windows Portable Devices SDK],IPortableDeviceContent interface, portabledeviceapi/IPortableDeviceContent::Move, wpdsdk.iportabledevicecontent_move
 ms.prod: windows
 ms.technology: windows-sdk
@@ -163,7 +163,7 @@ For an example of how to use this method, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd388529(v=VS.85).aspx">IPortableDeviceContent Interface</a>
+<a href="wpdsdk.iportabledevicecontent">IPortableDeviceContent Interface</a>
 
 
 

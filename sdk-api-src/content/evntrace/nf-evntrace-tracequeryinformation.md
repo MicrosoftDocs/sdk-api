@@ -46,6 +46,7 @@ targetos: Windows
 req.lib: Sechost.lib on Windows 8.1 and Windows Server 2012 R2; Advapi32.lib on Windows 8 and Windows Server 2012
 req.dll: Sechost.dll on Windows 8.1 and Windows Server 2012 R2; Advapi32.dll on Windows 8 and Windows Server 2012
 req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # TraceQueryInformation function

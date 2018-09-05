@@ -7,7 +7,7 @@ old-location: tablet\inkdisp_strokes.htm
 old-project: tablet
 ms.assetid: f58cb875-a2f1-44f4-b8be-f3dfe9643c46
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: IInkDisp interface [Tablet PC],Strokes property, IInkDisp.Strokes, IInkDisp.get_Strokes, IInkDisp::Strokes, IInkDisp::get_Strokes, InkDisp.get_Strokes, Strokes property [Tablet PC], Strokes property [Tablet PC],IInkDisp interface, get_Strokes, msinkaut/IInkDisp::Strokes, msinkaut/IInkDisp::get_Strokes, tablet.inkdisp_strokes
 ms.prod: windows
 ms.technology: windows-sdk

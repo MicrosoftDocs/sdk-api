@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteTextLayout_GetFontStretch.htm
 old-project: DirectWrite
 ms.assetid: f72cdbbf-71ca-45fe-8250-c920c82519e3
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetFontStretch, GetFontStretch method [Direct Write], GetFontStretch method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetFontStretch method, IDWriteTextLayout.GetFontStretch, IDWriteTextLayout::GetFontStretch, directwrite.IDWriteTextLayout_GetFontStretch, dwrite/IDWriteTextLayout::GetFontStretch
 ms.prod: windows
 ms.technology: windows-sdk

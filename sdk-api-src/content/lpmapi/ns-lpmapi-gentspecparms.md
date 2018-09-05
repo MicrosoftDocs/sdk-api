@@ -4,10 +4,10 @@ title: GenTspecParms
 author: windows-sdk-content
 description: The GenTspecParms structure stores generic Tspec parameters.
 old-location: qos\gentspecparms.htm
-old-project: qos
+old-project: QOS
 ms.assetid: 8a702e7c-0dfd-48f5-8612-d64d19f2a55c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GenTspecParms, GenTspecParms structure [QOS], lpmapi/GenTspecParms, qos.gentspecparms
 ms.prod: windows
 ms.technology: windows-sdk

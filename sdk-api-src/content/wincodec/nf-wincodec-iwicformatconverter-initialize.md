@@ -165,40 +165,44 @@ The following example converts an image frame to a 32bppPBGRA format with no dit
             For a full sample demonstrating the use of the <a href="https://msdn.microsoft.com/d558aaa7-5962-424c-9e83-363fba09ad50">IWICFormatConverter</a>, see the <a href="https://msdn.microsoft.com/4f989ff6-b513-4354-a1bb-8d9521f693a2">WIC Image Viewer Using Direct2D Sample</a>.
          
 
-
-```cpp
-HRESULT hr = S_OK;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr = S_OK;
 
 IWICBitmapDecoder *pIDecoder = NULL;
 IWICBitmapFrameDecode *pIDecoderFrame  = NULL;
 IWICFormatConverter *pIFormatConverter = NULL;
 
 // Create the decoder.
-hr = m_pIWICFactory->CreateDecoderFromFilename(
+hr = m_pIWICFactory-&gt;CreateDecoderFromFilename(
    L"turtle.jpg",                  // Image to be decoded
    NULL,                           // Do not prefer a particular vendor
    GENERIC_READ,                   // Desired read access to the file
    WICDecodeMetadataCacheOnDemand, // Cache metadata when needed
-   &pIDecoder                      // Pointer to the decoder
+   &amp;pIDecoder                      // Pointer to the decoder
    );
 
 // Retrieve the first bitmap frame.
 if (SUCCEEDED(hr))
 {
-   hr = pIDecoder->GetFrame(0, &pIDecoderFrame);
+   hr = pIDecoder-&gt;GetFrame(0, &amp;pIDecoderFrame);
 }
 
 
 // Create the flip/rotator.
 if (SUCCEEDED(hr))
 {
-   hr = m_pIWICFactory->CreateFormatConverter(&pIFormatConverter);
+   hr = m_pIWICFactory-&gt;CreateFormatConverter(&amp;pIFormatConverter);
 }
 
 // Initialize the format converter.
 if (SUCCEEDED(hr))
 {
-   hr = pIFormatConverter->Initialize(
+   hr = pIFormatConverter-&gt;Initialize(
        pIDecoderFrame,                  // Input source to convert
        GUID_WICPixelFormat32bppPBGRA,   // Destination pixel format
        WICBitmapDitherTypeNone,         // Specified dither pattern
@@ -216,16 +220,16 @@ if (SUCCEEDED(hr))
 if (SUCCEEDED(hr))
 {
    // Need to release the previous D2DBitmap if there is one
-   SafeRelease(&m_pD2DBitmap);
-   hr = m_pRT->CreateBitmapFromWicBitmap(pIFormatConverter, NULL, &m_pD2DBitmap);
+   SafeRelease(&amp;m_pD2DBitmap);
+   hr = m_pRT-&gt;CreateBitmapFromWicBitmap(pIFormatConverter, NULL, &amp;m_pD2DBitmap);
 }
 
-SafeRelease(&pIFormatConverter);
-SafeRelease(&pIDecoderFrame);
-SafeRelease(&pIDecoder);
-
-```
-
-
+SafeRelease(&amp;pIFormatConverter);
+SafeRelease(&amp;pIDecoderFrame);
+SafeRelease(&amp;pIDecoder);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

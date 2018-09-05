@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectconnectorinfo.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnectorinfo\imilbitmapeffectconnectorinfo.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IMILBitmapEffectConnectorInfo, IMILBitmapEffectConnectorInfo interface [WPF Bitmap Effects], IMILBitmapEffectConnectorInfo interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectconnectorinfo, mileffects/IMILBitmapEffectConnectorInfo, wibe._wibe_imilbitmapeffectconnectorinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,7 +72,7 @@ The <b>IMILBitmapEffectConnectorInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735299(v=VS.85).aspx">GetFormat</a>
+<a href="https://msdn.microsoft.com/bf0beb64-f26a-45e1-ad4a-5d11127a516f">GetFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the pixel format for the given pin.
@@ -81,7 +81,7 @@ Retrieves the pixel format for the given pin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735300(v=VS.85).aspx">GetIndex</a>
+<a href="https://msdn.microsoft.com/da4bee4c-8263-46f2-a265-71bdd1f69b0c">GetIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves the zero based index value for the pin.
@@ -90,7 +90,7 @@ Retrieves the zero based index value for the pin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735301(v=VS.85).aspx">GetNumberFormats</a>
+<a href="https://msdn.microsoft.com/b589f382-1c1c-4537-9815-d262e10173a4">GetNumberFormats</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of pixel formats supported by the pin.
@@ -99,7 +99,7 @@ Retrieves the number of pixel formats supported by the pin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735302(v=VS.85).aspx">GetOptimalFormat</a>
+<a href="https://msdn.microsoft.com/5f670662-c58c-4b1d-b7b6-c766b9fa8692">GetOptimalFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the optimal pixel format for the pin.

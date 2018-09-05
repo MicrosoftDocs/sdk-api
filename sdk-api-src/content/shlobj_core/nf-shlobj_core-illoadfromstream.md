@@ -7,7 +7,7 @@ old-location: shell\ILLoadFromStream.htm
 old-project: shell
 ms.assetid: 060cc008-eb6a-4359-b84b-05c26d69f793
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ILLoadFromStream, ILLoadFromStream function [Windows Shell], _win32_ILLoadFromStream, shell.ILLoadFromStream, shlobj_core/ILLoadFromStream
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: NCryptEnumKeys function
 author: windows-sdk-content
 description: Obtains the names of the keys that are stored by the provider.
 old-location: security\ncryptenumkeys_func.htm
-old-project: seccng
+old-project: SecCNG
 ms.assetid: ca8c5b70-ea5e-4fb9-82d3-1de839f0d244
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NCRYPT_MACHINE_KEY_FLAG, NCRYPT_SILENT_FLAG, NCryptEnumKeys, NCryptEnumKeys function [Security], ncrypt/NCryptEnumKeys, security.ncryptenumkeys_func
 ms.prod: windows
 ms.technology: windows-sdk

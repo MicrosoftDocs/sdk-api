@@ -92,9 +92,13 @@ It is important to emphasize the differences between the  <a href="https://msdn.
 
 The following code example illustrates the differences between the <a href="https://msdn.microsoft.com/fd6d79b6-46f8-42dd-8525-a72a6e0a7672">IADs::Get</a> and <b>IADs::GetInfo</b> methods.
 
-
-```vb
-Set x = GetObject("LDAP://CN=Administrator,CN=Users,DC=Fabrikam,DC=com")
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Set x = GetObject("LDAP://CN=Administrator,CN=Users,DC=Fabrikam,DC=com")
                                      ' The first IADs::Get calls
                                      ' GetInfo implicitly.
 Debug.Print x.Get("homePhone")       ' Assume value is '999-9999'. 
@@ -102,10 +106,10 @@ x.Put "homePhone", "868-4449"        ' Put with no commit(SetInfo)
 Debug.Print x.Get("homePhone")       ' Value='868-4449' from the cache.
 x.GetInfo                            ' Refresh the cache, get the data 
                                      ' from the directory.
-Debug.Print x.Get("homePhone")       ' Value will be '999-9999'.
-```
-
-
+Debug.Print x.Get("homePhone")       ' Value will be '999-9999'.</pre>
+</td>
+</tr>
+</table></span></div>
 For increased performance, explicitly call <a href="https://msdn.microsoft.com/306ab953-890a-4ec9-8ec2-bea73888ea20">IADs::GetInfoEx</a> to refresh specific properties. Also, <b>IADs::GetInfoEx</b> 
 must be called instead of <b>IADs::GetInfo</b> if the object's operational property values have to be accessed. This function overwrites any previously cached values of the specified properties.
 
@@ -114,9 +118,13 @@ must be called instead of <b>IADs::GetInfo</b> if the object's operational prope
 
 The following code example uses a computer object served by the WinNT provider. The supported properties include <b>Owner</b> ("Owner"), <b>OperatingSystem</b> ("Windows NT"), <b>OperatingSystemVersion</b> ("4.0"), <b>Division</b> ("Fabrikam"), <b>ProcessorCount</b> ("Uniprococessor Free"), <b>Processor</b> ("x86 Family 6 Model 5 Stepping 1"). The default values are shown in parentheses.
 
-
-```vb
-Dim pList As IADsPropertyList
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim pList As IADsPropertyList
 Dim pEntry As IADsPropertyEntry
 Dim pValue As IADsPropertyValue
 
@@ -128,7 +136,7 @@ Set pList = GetObject("WinNT://localhost,computer")
 pList.Put "Owner", "JeffSmith"  ' Property cache remains uninitialized,
                                ' but with one property value.
 count = pList.PropertyCount  ' count = 1.
-MsgBox "Number of property found in the property cache: " & count
+MsgBox "Number of property found in the property cache: " &amp; count
  
 v = pList.Get("Division")   ' pList.GetInfo is called implicitly
 ShowPropertyCache           ' This will display "JeffSmith" for Owner,
@@ -142,8 +150,8 @@ ShowPropertyCache            ' This will display "Owner" for Owner,
                              ' OperatingSystem, and so on.
 
 Cleanup:
-    If (Err.Number<>0) Then
-        MsgBox("An error has occurred. " & Err.Number)
+    If (Err.Number&lt;&gt;0) Then
+        MsgBox("An error has occurred. " &amp; Err.Number)
     End If
     Set pList = Nothing
     Set pEntry = Nothing
@@ -156,42 +164,46 @@ Private Sub ShowPropertyCache()
        Debug.Print pEntry.Name
        For Each v In pEntry.Values
            Set pValue = v
-           Debug.Print "   " & pvalue.CaseIgnoreString
+           Debug.Print "   " &amp; pvalue.CaseIgnoreString
        Next
     Next
-End Sub
-```
-
-
+End Sub</pre>
+</td>
+</tr>
+</table></span></div>
 The following code example is a client-side script that illustrates the effect of <b>IADs::GetInfo</b> method. The supported properties include <b>Owner</b> ("Owner"), <b>OperatingSystem</b> ("Windows NT"), <b>OperatingSystemVersion</b> ("4.0"), <b>Division</b> ("Fabrikam"), <b>ProcessorCount</b> ("Uniprococessor Free"), <b>Processor</b> ("x86 Family 6 Model 5 Stepping 1"). The default values are shown in parentheses.
 
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;html&gt;
+&lt;body&gt;
+ &lt;table&gt;
+    &lt;tr&gt;
+       &lt;td&gt;Owner:&lt;/td&gt;
+       &lt;td&gt;&lt;input type=text name=txtOwner&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+       &lt;td&gt;Operating System:&lt;/td&gt;
+       &lt;td&gt;&lt;input type=text name=txtOS&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+       &lt;td&gt;Operating System Version:&lt;/td&gt;
+       &lt;td&gt;&lt;input type=text name=txtOSV&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+       &lt;td&gt;Division:&lt;/td&gt;
+       &lt;td&gt;&lt;input type=text name=txtDiv&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+ &lt;/table&gt;
 
-```vb
-<html>
-<body>
- <table>
-    <tr>
-       <td>Owner:</td>
-       <td><input type=text name=txtOwner></td>
-    </tr>
-    <tr>
-       <td>Operating System:</td>
-       <td><input type=text name=txtOS></td>
-    </tr>
-    <tr>
-       <td>Operating System Version:</td>
-       <td><input type=text name=txtOSV></td>
-    </tr>
-    <tr>
-       <td>Division:</td>
-       <td><input type=text name=txtDiv></td>
-    </tr>
- </table>
+ &lt;input type=button onClick = "showGetInfo()"&gt;
+&lt;/body&gt;
 
- <input type=button onClick = "showGetInfo()">
-</body>
-
-<script language="vbscript">
+&lt;script language="vbscript"&gt;
 Dim pList 
 
 sub showGetInfo()
@@ -226,17 +238,21 @@ sub ShowPropertyCache()
   txtOS.Value = pList.Get("OperatingSystem")
   txtOSV.value = pList.Get("OperatingSystemVersion")
 end sub
-</script>
+&lt;/script&gt;
 
-</html>
-```
-
-
+&lt;/html&gt;</pre>
+</td>
+</tr>
+</table></span></div>
 The following code example highlights the effect of Get and GetInfo. For brevity, error checking is omitted.
 
-
-```cpp
-IADs *pADs;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IADs *pADs;
 IADsPropertyList *pList;
 BSTR bstr;
 VARIANT var;
@@ -244,59 +260,59 @@ HRESULT hr;
  
 hr = ADsGetObject(L"WinNT://somecomputer,computer",
                   IID_IADsPropertyList,
-                  (void**)&pList);
+                  (void**)&amp;pList);
 
 if(!(hr==S_OK)){return hr;}
 
-VariantInit(&var);
+VariantInit(&amp;var);
  
 // Get the number of property entries, should be zero.
 long pCount;      
-hr = pList->get_PropertyCount(&pCount);
+hr = pList-&gt;get_PropertyCount(&amp;pCount);
 printf("    prop count = %d\n",pCount);     // 0 for empty cache.
  
-hr = pList->QueryInterface(IID_IADs, (void**)&pADs);
+hr = pList-&gt;QueryInterface(IID_IADs, (void**)&amp;pADs);
  
  
 // Set "Owner=JeffSmith" in the property cache.
-V_BSTR(&var) = SysAllocString(L"JeffSmith");
-V_VT(&var) = VT_BSTR;
-hr = pADs->Put(CComBSTR("Owner"), var);
-VariantClear(&var);
+V_BSTR(&amp;var) = SysAllocString(L"JeffSmith");
+V_VT(&amp;var) = VT_BSTR;
+hr = pADs-&gt;Put(CComBSTR("Owner"), var);
+VariantClear(&amp;var);
  
 // This time the number of property entries should read one (1).
-hr = pList->get_PropertyCount(&pCount);
+hr = pList-&gt;get_PropertyCount(&amp;pCount);
 printf("    prop count = %d\n",pCount);    // 1 for what was set.
  
 // The following Get invokes GetInfo implicitly, but 
 // the cache (that is, "Owner=JeffSmith") remains intact.
-hr = pADs->Get(CComBSTR("Division"), &var);  
-printf("    division   = %S\n", V_BSTR(&var));
-VariantClear(&var);
+hr = pADs-&gt;Get(CComBSTR("Division"), &amp;var);  
+printf("    division   = %S\n", V_BSTR(&amp;var));
+VariantClear(&amp;var);
  
-hr = pADs->Get(CComBSTR("Owner"), &var);
-printf("    owner      = %S\n", V_BSTR(&var));  // Owner = JeffSmith
-VariantClear(&var);
+hr = pADs-&gt;Get(CComBSTR("Owner"), &amp;var);
+printf("    owner      = %S\n", V_BSTR(&amp;var));  // Owner = JeffSmith
+VariantClear(&amp;var);
  
 // The following GetInfo call refreshes the entire prop cache.
 // Now Owner is no longer "JeffSmith", but the value stored in the
 // persistent store, for example, "BenSmith".
-hr = pADs->GetInfo();
+hr = pADs-&gt;GetInfo();
  
-hr = pADs->Get(CComBSTR("Owner"), &var);
-printf("    owner      = %S\n", V_BSTR(&var));  // Owner = BenSmith
-VariantClear(&var);
+hr = pADs-&gt;Get(CComBSTR("Owner"), &amp;var);
+printf("    owner      = %S\n", V_BSTR(&amp;var));  // Owner = BenSmith
+VariantClear(&amp;var);
  
 // ...
 
 if(pADs)
-   pADs->Release();
+   pADs-&gt;Release();
 
 if(pList)
-   pList->Release();
-```
-
-
+   pList-&gt;Release();</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -64,7 +64,12 @@ The <b>CopyMetaFile</b> function copies the content of a Windows-format metafile
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
 
 TBD
 

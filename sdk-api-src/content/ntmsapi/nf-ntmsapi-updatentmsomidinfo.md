@@ -7,7 +7,7 @@ old-location: fs\updatentmsomidinfo.htm
 old-project: Rsm
 ms.assetid: 2e154005-a14c-4de6-aec5-f30b934c64a2
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: NTMS_OMID_TYPE_FILESYSTEM_INFO, NTMS_OMID_TYPE_RAW_LABEL, UpdateNtmsOmidInfo, UpdateNtmsOmidInfo function [Files], _zaw_updatentmsomidinfo, base.updatentmsomidinfo, fs.updatentmsomidinfo, ntmsapi/UpdateNtmsOmidInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -255,7 +255,7 @@ RSM uses this file system info as the OMID. The format utilities (LDM, explorer,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">On-Media-Identifier Management Functions</a>
+<a href="removable_storage_manager_functions.htm">On-Media-Identifier Management Functions</a>
  
 
  

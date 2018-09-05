@@ -7,7 +7,7 @@ old-location: tablet\peninputpanel_busy.htm
 old-project: tablet
 ms.assetid: c2ccf82a-2ca6-4358-96de-12efb77c2a68
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: Busy property [Tablet PC], Busy property [Tablet PC],IPenInputPanel interface, IPenInputPanel interface [Tablet PC],Busy property, IPenInputPanel.Busy, IPenInputPanel.get_Busy, IPenInputPanel::Busy, IPenInputPanel::get_Busy, PenInputPanel.get_Busy, c2ccf82a-2ca6-4358-96de-12efb77c2a68, get_Busy, peninputpanel/IPenInputPanel::Busy, peninputpanel/IPenInputPanel::get_Busy, tablet.peninputpanel_busy
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: fs\openntmssession.htm
 old-project: Rsm
 ms.assetid: 5a323911-e99c-4f81-9580-0feac2f0a54e
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: OpenNtmsSession, OpenNtmsSession function [Files], OpenNtmsSessionA, OpenNtmsSessionW, _zaw_openntmssession, base.openntmssession, fs.openntmssession, ntmsapi/OpenNtmsSession, ntmsapi/OpenNtmsSessionA, ntmsapi/OpenNtmsSessionW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -211,7 +211,7 @@ Sessions are thread-safe but cannot be passed among processes.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Session Management Functions</a>
+<a href="removable_storage_manager_functions.htm">Session Management Functions</a>
  
 
  

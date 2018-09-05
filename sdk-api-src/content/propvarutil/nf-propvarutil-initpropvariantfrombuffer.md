@@ -101,27 +101,31 @@ Creates a VT_VECTOR | VT_UI1 propvariant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762289(v=VS.85).aspx">InitPropVariantFromBuffer</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromBuffer">InitPropVariantFromBuffer</a>.
 
-
-```cpp
-// void *pv;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// void *pv;
 // UINT cb;
 // Assume variable pv and cb are initialized and valid. pv points to a buffer  
 // and cb contains the size of the buffer in bytes.
 PROPVARIANT propvar;
 
-HRESULT hr = InitPropVariantFromBuffer(pv, cb, &propvar);
+HRESULT hr = InitPropVariantFromBuffer(pv, cb, &amp;propvar);
 
 if (SUCCEEDED(hr))
 {
     // propvar now is valid and has type VT_VECTOR | VT_UI1.
  
-    PropVariantClear(&propvar);
-}
-```
-
-
+    PropVariantClear(&amp;propvar);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -130,11 +134,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762318(v=VS.85).aspx">InitVariantFromBuffer</a>
+<a href="shell.InitVariantFromBuffer">InitVariantFromBuffer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776536(v=VS.85).aspx">PropVariantToBuffer</a>
+<a href="shell.PropVariantToBuffer">PropVariantToBuffer</a>
  
 
  

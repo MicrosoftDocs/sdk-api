@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectevents.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectevents\imilbitmapeffectevents.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IMILBitmapEffectEvents, IMILBitmapEffectEvents interface [WPF Bitmap Effects], IMILBitmapEffectEvents interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectevents, mileffects/IMILBitmapEffectEvents, wibe._wibe_imilbitmapeffectevents
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,19 +72,19 @@ The <b>IMILBitmapEffectEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735296(v=VS.85).aspx">DirtyRegion</a>
+<a href="https://msdn.microsoft.com/4e7886ff-f211-4c9b-b57d-e1d24ca20bc2">DirtyRegion</a>
 </td>
 <td align="left" width="63%">
-Invalidates the specified region of the given <a href="https://msdn.microsoft.com/en-us/library/ms735258(v=VS.85).aspx">IMILBitmapEffectPrimitive</a>.
+Invalidates the specified region of the given <a href="https://msdn.microsoft.com/23eea785-8545-44d3-bfcb-1ffbc82ecc6a">IMILBitmapEffectPrimitive</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735298(v=VS.85).aspx">PropertyChange</a>
+<a href="https://msdn.microsoft.com/5836de27-aea8-4366-9690-65e66e1418b4">PropertyChange</a>
 </td>
 <td align="left" width="63%">
-Notifies an <a href="https://msdn.microsoft.com/en-us/library/ms735258(v=VS.85).aspx">IMILBitmapEffectPrimitive</a> of a property change.
+Notifies an <a href="https://msdn.microsoft.com/23eea785-8545-44d3-bfcb-1ffbc82ecc6a">IMILBitmapEffectPrimitive</a> of a property change.
 
 </td>
 </tr>

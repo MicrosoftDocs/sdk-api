@@ -4,10 +4,10 @@ title: IsWindows8OrGreater function
 author: windows-sdk-content
 description: Indicates if the current OS version matches, or is greater than, the Windows 8 version.
 old-location: base\iswindows8orgreater.htm
-old-project: sysinfo
+old-project: SysInfo
 ms.assetid: D11971C8-2E8F-4AD2-BE0B-FEFEC8949125
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: IsWindows8OrGreater, IsWindows8OrGreater function, base.iswindows8orgreater, versionhelpers/IsWindows8OrGreater
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,18 +87,22 @@ The inline functions defined in the <b>VersionHelpers.h</b> header file let you 
 
 For example, if your application requires Windows 8 or later, use the following test.
 
-
-```cpp
-#include <VersionHelpers.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;VersionHelpers.h&gt;
 …
     if (!IsWindows8OrGreater())
     {
        MessageBox(NULL, "You need at least Windows 8", "Version Not Supported", MB_OK);
     }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

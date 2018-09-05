@@ -7,7 +7,7 @@ old-location: directwrite\idwritefactory5_analyzecontainertype.htm
 old-project: DirectWrite
 ms.assetid: A13656C9-E793-40E2-81BD-0F9C0F437F1E
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: AnalyzeContainerType, AnalyzeContainerType method [Direct Write], AnalyzeContainerType method [Direct Write],IDWriteFactory5 interface, IDWriteFactory5 interface [Direct Write],AnalyzeContainerType method, IDWriteFactory5.AnalyzeContainerType, IDWriteFactory5::AnalyzeContainerType, directwrite.idwritefactory5_analyzecontainertype, dwrite_3/IDWriteFactory5::AnalyzeContainerType
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmdm\iscpsecurequery3_makedecisiononclearchannel.htm
 old-project: WMDM
 ms.assetid: 63ffa9ec-b8bb-4d5d-b380-e4dbe0fc865a
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ISCPSecureQuery3 interface [windows Media Device Manager],MakeDecisionOnClearChannel method, ISCPSecureQuery3.MakeDecisionOnClearChannel, ISCPSecureQuery3::MakeDecisionOnClearChannel, ISCPSecureQuery3MakeDecisionOnClearChannel, MakeDecisionOnClearChannel, MakeDecisionOnClearChannel method [windows Media Device Manager], MakeDecisionOnClearChannel method [windows Media Device Manager],ISCPSecureQuery3 interface, mswmdm/ISCPSecureQuery3::MakeDecisionOnClearChannel, wmdm.iscpsecurequery3_makedecisiononclearchannel
 ms.prod: windows
 ms.technology: windows-sdk

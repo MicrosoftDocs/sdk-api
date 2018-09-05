@@ -7,7 +7,7 @@ old-location: rdc\irdccomparator.htm
 old-project: Rdc
 ms.assetid: ad39b922-3271-491e-b74b-80a1f647e663
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: IRdcComparator, IRdcComparator interface [Remote Differential Compression], IRdcComparator interface [Remote Differential Compression],described, fs.irdccomparator, msrdc/IRdcComparator, rdc.irdccomparator
 ms.prod: windows
 ms.technology: windows-sdk

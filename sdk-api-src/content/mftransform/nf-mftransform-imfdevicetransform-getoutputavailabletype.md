@@ -7,7 +7,7 @@ old-location: stream\imfdevicetransform_getoutputavailabletype.htm
 old-project: stream
 ms.assetid: B4224C70-5864-4AE3-8388-2B9A62517B62
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: GetOutputAvailableType, GetOutputAvailableType method [Streaming Media Devices], GetOutputAvailableType method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],GetOutputAvailableType method, IMFDeviceTransform.GetOutputAvailableType, IMFDeviceTransform::GetOutputAvailableType, mftransform/IMFDeviceTransform::GetOutputAvailableType, stream.imfdevicetransform_getoutputavailabletype
 ms.prod: windows
 ms.technology: windows-sdk

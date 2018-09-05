@@ -7,7 +7,7 @@ old-location: mscs\clusdisk_partitions.htm
 old-project: mscs
 ms.assetid: d0a6ec99-c7c8-4746-aaa7-ee70a2e8f355
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusDisk object [Failover Cluster],Partitions property, ClusDisk.Partitions, ISClusDisk.get_Partitions, ISClusDisk::get_Partitions, Partitions property [Failover Cluster], Partitions property [Failover Cluster],ClusDisk object, _wolf_clusdisk.partitions, get_Partitions, mscs.clusdisk_partitions
 ms.prod: windows
 ms.technology: windows-sdk

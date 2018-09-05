@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog2_getapplicationinstanceidfromprocessid.htm
 old-project: cossdk
 ms.assetid: a09569af-11ec-406a-a51c-72b81b84fe41
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetApplicationInstanceIDFromProcessID, GetApplicationInstanceIDFromProcessID method [COM+], GetApplicationInstanceIDFromProcessID method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],GetApplicationInstanceIDFromProcessID method, ICOMAdminCatalog2.GetApplicationInstanceIDFromProcessID, ICOMAdminCatalog2::GetApplicationInstanceIDFromProcessID, _cos_icomadmincatalog2_GetApplicationInstanceIDFromProcessID, comadmin/ICOMAdminCatalog2::GetApplicationInstanceIDFromProcessID, cos.icomadmincatalog2_getapplicationinstanceidfromprocessid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,7 +83,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee309562(v=VS.85).aspx">ICOMAdminCatalog2</a>
+<a href="https://msdn.microsoft.com/ffca611d-dacc-47be-9101-9de76ecc8393">ICOMAdminCatalog2</a>
  
 
  

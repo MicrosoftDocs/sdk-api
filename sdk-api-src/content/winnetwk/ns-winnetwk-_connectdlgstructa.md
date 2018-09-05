@@ -4,10 +4,10 @@ title: "_CONNECTDLGSTRUCTA"
 author: windows-sdk-content
 description: Used by the WNetConnectionDialog1 function to establish browsing dialog box parameters.
 old-location: wnet\connectdlgstruct_str.htm
-old-project: wnet
+old-project: WNet
 ms.assetid: fb2a4b5a-ad8a-4ebf-8430-349d821eee20
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPCONNECTDLGSTRUCTA, CONNDLG_CONN_POINT, CONNDLG_HIDE_BOX, CONNDLG_NOT_PERSIST, CONNDLG_PERSIST, CONNDLG_RO_PATH, CONNDLG_USE_MRU, CONNECTDLGSTRUCT, CONNECTDLGSTRUCT structure [Windows Networking (WNet)], CONNECTDLGSTRUCTA, CONNECTDLGSTRUCTW, LPCONNECTDLGSTRUCT, LPCONNECTDLGSTRUCT structure pointer [Windows Networking (WNet)], SidTypeUser, _CONNECTDLGSTRUCTA, _win32_connectdlgstruct_str, winnetwk/CONNECTDLGSTRUCT, winnetwk/CONNECTDLGSTRUCTA, winnetwk/CONNECTDLGSTRUCTW, winnetwk/LPCONNECTDLGSTRUCT, wnet.connectdlgstruct_str"
 ms.prod: windows
 ms.technology: windows-sdk

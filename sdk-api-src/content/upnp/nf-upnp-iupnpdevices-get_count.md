@@ -4,10 +4,10 @@ title: IUPnPDevices::get_Count
 author: windows-sdk-content
 description: The Count property specifies the number of devices in the collection.
 old-location: upnp\iupnpdevices_count.htm
-old-project: upnp
+old-project: UPnP
 ms.assetid: 1a3e3b65-b147-41e7-a5df-7424613b50f6
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: IUPnPDevices interface [UPnP APIs],get_Count method, IUPnPDevices.get_Count, IUPnPDevices::get_Count, _upnp_iupnpdevices_count, get_Count, get_Count method [UPnP APIs], get_Count method [UPnP APIs],IUPnPDevices interface, upnp.iupnpdevices_count, upnp/IUPnPDevices::get_Count
 ms.prod: windows
 ms.technology: windows-sdk

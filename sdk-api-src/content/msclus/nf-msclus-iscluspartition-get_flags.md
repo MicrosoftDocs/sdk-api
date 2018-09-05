@@ -7,7 +7,7 @@ old-location: mscs\cluspartition_flags.htm
 old-project: mscs
 ms.assetid: 19a69c92-495c-486d-9f42-6b0531dfb992
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CLUSPROP_PIFLAG_DEFAULT_QUORUM, CLUSPROP_PIFLAG_REMOVABLE, CLUSPROP_PIFLAG_STICKY, CLUSPROP_PIFLAG_USABLE, ClusPartition object [Failover Cluster],Flags property, ClusPartition.Flags, Flags property [Failover Cluster], Flags property [Failover Cluster],ClusPartition object, ISClusPartition.get_Flags, ISClusPartition::get_Flags, _wolf_cluspartition.flags, get_Flags, mscs.cluspartition_flags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Returns the flags 
-    set for a <a href="https://msdn.microsoft.com/en-us/library/Aa372937(v=VS.85).aspx">storage class resource</a> 
+    set for a <a href="s_gly.htm">storage class resource</a> 
     partition.
 
 This property is read-only.

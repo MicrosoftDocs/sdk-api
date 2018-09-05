@@ -7,7 +7,7 @@ old-location: devinst\setupdiopendeviceinfo.htm
 old-project: devinst
 ms.assetid: 0c4a2d09-62b2-43ce-a202-aeb59248d9fc
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: SetupDiOpenDeviceInfo, SetupDiOpenDeviceInfo function [Device and Driver Installation], SetupDiOpenDeviceInfoA, SetupDiOpenDeviceInfoW, devinst.setupdiopendeviceinfo, di-rtns_57646ff4-705a-46ff-9c51-49880bb19f90.xml, setupapi/SetupDiOpenDeviceInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ The <b>SetupDiOpenDeviceInfo</b> function adds a device information element for 
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> to which <b>SetupDiOpenDeviceInfo</b> adds a device information element, if one does not already exist, for the device instance that is specified by <i>DeviceInstanceId</i>. 
+A handle to the <a href="devinst.device_information_sets">device information set</a> to which <b>SetupDiOpenDeviceInfo</b> adds a device information element, if one does not already exist, for the device instance that is specified by <i>DeviceInstanceId</i>. 
 
 
 ### -param DeviceInstanceId [in]

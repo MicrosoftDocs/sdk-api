@@ -60,7 +60,12 @@ The <b>wglMakeCurrent</b> function makes a specified OpenGL rendering context th
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
 
 TBD
 

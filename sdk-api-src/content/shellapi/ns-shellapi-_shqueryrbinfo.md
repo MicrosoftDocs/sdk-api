@@ -7,7 +7,7 @@ old-location: shell\SHQUERYRBINFO.htm
 old-project: shell
 ms.assetid: 7e9bc7e9-5712-45e7-a424-0afb62f26450
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "*LPSHQUERYRBINFO, LPSHQUERYRBINFO, LPSHQUERYRBINFO structure pointer [Windows Shell], SHQUERYRBINFO, SHQUERYRBINFO structure [Windows Shell], _SHQUERYRBINFO, _win32_SHQUERYRBINFO, shell.SHQUERYRBINFO, shellapi/LPSHQUERYRBINFO, shellapi/SHQUERYRBINFO"
 ms.prod: windows
 ms.technology: windows-sdk

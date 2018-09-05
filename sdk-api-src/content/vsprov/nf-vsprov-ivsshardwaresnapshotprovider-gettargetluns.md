@@ -4,10 +4,10 @@ title: IVssHardwareSnapshotProvider::GetTargetLuns
 author: windows-sdk-content
 description: Prompts the hardware provider to initialize the VDS_LUN_INFORMATION structures for the newly created shadow copy LUNs.
 old-location: base\ivsshardwaresnapshotprovider_gettargetluns.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 299020eb-0afd-41c8-9551-1275eff45fa1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetTargetLuns, GetTargetLuns method [VSS], GetTargetLuns method [VSS],IVssHardwareSnapshotProvider interface, IVssHardwareSnapshotProvider interface [VSS],GetTargetLuns method, IVssHardwareSnapshotProvider.GetTargetLuns, IVssHardwareSnapshotProvider::GetTargetLuns, base.ivsshardwaresnapshotprovider_gettargetluns, vsprov/IVssHardwareSnapshotProvider::GetTargetLuns
 ms.prod: windows
 ms.technology: windows-sdk

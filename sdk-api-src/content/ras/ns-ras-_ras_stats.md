@@ -4,10 +4,10 @@ title: "_RAS_STATS"
 author: windows-sdk-content
 description: The RAS_STATS structure stores the statistics for a single-link RAS connection, or for one of the links in a multilink RAS connection.
 old-location: rras\ras_stats.htm
-old-project: rras
+old-project: RRAS
 ms.assetid: f55852f9-fa6f-480c-9c65-d6631d5270a0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PRAS_STATS, RAS_STATS, RAS_STATS structure [RAS], _RAS_STATS, _ras_ras_stats, ras/RAS_STATS, rras.ras_stats"
 ms.prod: windows
 ms.technology: windows-sdk

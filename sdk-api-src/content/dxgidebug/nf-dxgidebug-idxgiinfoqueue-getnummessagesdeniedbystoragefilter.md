@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiinfoqueue_getnummessagesdeniedbystoragefilter.ht
 old-project: direct3ddxgi
 ms.assetid: 98A71D07-8E9A-403D-B02B-70B7F4112246
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: GetNumMessagesDeniedByStorageFilter, GetNumMessagesDeniedByStorageFilter method [DXGI], GetNumMessagesDeniedByStorageFilter method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetNumMessagesDeniedByStorageFilter method, IDXGIInfoQueue.GetNumMessagesDeniedByStorageFilter, IDXGIInfoQueue::GetNumMessagesDeniedByStorageFilter, direct3ddxgi.idxgiinfoqueue_getnummessagesdeniedbystoragefilter, dxgidebug/IDXGIInfoQueue::GetNumMessagesDeniedByStorageFilter
 ms.prod: windows
 ms.technology: windows-sdk

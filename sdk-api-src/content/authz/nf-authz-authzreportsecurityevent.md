@@ -4,10 +4,10 @@ title: AuthzReportSecurityEvent function
 author: windows-sdk-content
 description: Generates a security audit for a registered security event source.
 old-location: security\authzreportsecurityevent.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 95d561ef-3233-433a-a1e7-b914df1dd211
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: APF_AuditFailure, APF_AuditSuccess, AuthzReportSecurityEvent, AuthzReportSecurityEvent function [Security], authz/AuthzReportSecurityEvent, security.authzreportsecurityevent
 ms.prod: windows
 ms.technology: windows-sdk
@@ -116,7 +116,14 @@ A pointer to the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0
 The number of AuditParamFlag  type/value pairs that appear in the variable arguments section that follows this parameter.
 
 
-### -param param [in]
+### -param arg1
+
+TBD
+
+
+
+
+#### - param [in]
 
 A list of AuditParamFlag type/value pairs that provide additional information about the event.
 

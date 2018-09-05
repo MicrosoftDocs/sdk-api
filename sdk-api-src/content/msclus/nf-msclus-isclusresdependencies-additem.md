@@ -7,7 +7,7 @@ old-location: mscs\clusresdependencies_additem.htm
 old-project: mscs
 ms.assetid: f8462df8-dece-423f-a585-5774411401c8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: AddItem, AddItem method [Failover Cluster], AddItem method [Failover Cluster],ClusResDependencies class, ClusResDependencies class [Failover Cluster],AddItem method, ClusResDependencies.AddItem, ISClusResDependencies.AddItem, ISClusResDependencies::AddItem, _wolf_clusresdependencies.additem, mscs.clusresdependencies_additem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ req.product: GDI+ 1.1
 
 Adds an 
     existing cluster <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> to the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369367(v=VS.85).aspx">dependency</a> collection.
+    <a href="d_gly.htm">dependency</a> collection.
 
 
 ## -parameters
@@ -104,9 +104,13 @@ Resources added to a
 The following script uses the <b>AddItem</b> 
      method to add a dependency to a resource.
 
-
-```vb
-''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 ' adddependency.vbs
 ' Adds a dependency to a resource. Both resources must already exist
 ' and be able to form a dependency relationship. Run the script on 
@@ -118,7 +122,7 @@ The following script uses the <b>AddItem</b>
 Option Explicit
 Dim objArgs, objCluster, objResource, objDependency
 Set objArgs = WScript.Arguments
-If objArgs.Count <> 2 Then
+If objArgs.Count &lt;&gt; 2 Then
     WScript.Echo "Syntax:   AddDependency Resourcename Dependencyname"
     WScript.Quit
 End If
@@ -129,15 +133,15 @@ Set objDependency = objCluster.Resources.Item(objArgs(1))
 If objResource.CanResourceBeDependent(objDependency) Then
     objResource.Dependencies.AddItem(objDependency)
 Else
-    WScript.Echo objResource.Name & " cannot depend on " & objDependency.Name
+    WScript.Echo objResource.Name &amp; " cannot depend on " &amp; objDependency.Name
 End If
 Set objResource = Nothing
 Set objDependency = Nothing
 Set objCluster = Nothing
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

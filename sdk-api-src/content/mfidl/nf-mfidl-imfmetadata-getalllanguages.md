@@ -93,18 +93,22 @@ To set the current language, call <a href="https://msdn.microsoft.com/da615053-d
 
 The following example shows how to get the list of language tags and enumerate the list.
 
-
-```cpp
-HRESULT DisplayLanguageList(IMFMetadata *pMetadata)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT DisplayLanguageList(IMFMetadata *pMetadata)
 {
     PROPVARIANT varLangs;
 
-    HRESULT hr = pMetadata->GetAllLanguages(&varLangs);
+    HRESULT hr = pMetadata-&gt;GetAllLanguages(&amp;varLangs);
     if (SUCCEEDED(hr))
     {
         if (varLangs.vt == (VT_VECTOR | VT_LPWSTR))
         {
-            for (ULONG i = 0; i < varLangs.calpwstr.cElems; i++)
+            for (ULONG i = 0; i &lt; varLangs.calpwstr.cElems; i++)
             {
                 wprintf(L"%s\n", varLangs.calpwstr.pElems[i]);
             }
@@ -113,14 +117,14 @@ HRESULT DisplayLanguageList(IMFMetadata *pMetadata)
         {
             hr = E_UNEXPECTED;
         }
-        PropVariantClear(&varLangs);
+        PropVariantClear(&amp;varLangs);
     }
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: shell\DllInstall.htm
 old-project: shell
 ms.assetid: d161f2ec-31e6-405e-b76c-9976b0880816
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: DllInstall, DllInstall function [Windows Shell], _win32_DllInstall, shell.DllInstall, shlwapi/DllInstall
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

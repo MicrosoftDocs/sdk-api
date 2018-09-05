@@ -4,10 +4,10 @@ title: IEnumSTATSTG::Skip
 author: windows-sdk-content
 description: Skips a specified number of STATSTG structures in the enumeration sequence.
 old-location: stg\ienumstatstg_skip.htm
-old-project: stg
+old-project: Stg
 ms.assetid: 97d785d9-961c-44af-a0a0-1d2f610e6c9a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IEnumSTATSTG interface [Structured Storage],Skip method, IEnumSTATSTG.Skip, IEnumSTATSTG::Skip, Skip, Skip method [Structured Storage], Skip method [Structured Storage],IEnumSTATSTG interface, objidl/IEnumSTATSTG::Skip, stg.ienumstatstg_skip
 ms.prod: windows
 ms.technology: windows-sdk

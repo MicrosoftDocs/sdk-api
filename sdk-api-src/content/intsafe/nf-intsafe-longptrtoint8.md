@@ -7,7 +7,7 @@ old-location: shell\LongPtrToInt8.htm
 old-project: shell
 ms.assetid: 38ef67b9-362f-4776-9b4c-6ca40e1efe0b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: LongPtrToInt8, LongPtrToInt8 function [Windows Shell], intsafe/LongPtrToInt8, shell.LongPtrToInt8
 ms.prod: windows
 ms.technology: windows-sdk

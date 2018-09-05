@@ -7,7 +7,7 @@ old-location: wmi\swbemobjectpath_locale.htm
 old-project: WmiSdk
 ms.assetid: cde4ebac-b112-48b5-a274-802e6d3fbfbf
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: ISWbemObjectPath interface [Windows Management Instrumentation],Locale property, ISWbemObjectPath.get_Locale, ISWbemObjectPath.put_Locale, ISWbemObjectPath::get_Locale, Locale property [Windows Management Instrumentation], Locale property [Windows Management Instrumentation],ISWbemObjectPath interface, Locale property [Windows Management Instrumentation],SWbemObjectPath object, SWbemObjectPath object [Windows Management Instrumentation],Locale property, SWbemObjectPath.Locale, _hmm_swbemobjectpath.locale, get_Locale, wmi.swbemobjectpath_locale
 ms.prod: windows
 ms.technology: windows-sdk

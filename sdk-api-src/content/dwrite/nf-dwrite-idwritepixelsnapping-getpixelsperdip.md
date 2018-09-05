@@ -7,7 +7,7 @@ old-location: directwrite\IDWritePixelSnapping_GetPixelsPerDip.htm
 old-project: DirectWrite
 ms.assetid: 41b07197-e50c-4145-a931-e35e778541cc
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetPixelsPerDip, GetPixelsPerDip method [Direct Write], GetPixelsPerDip method [Direct Write],IDWritePixelSnapping interface, IDWritePixelSnapping interface [Direct Write],GetPixelsPerDip method, IDWritePixelSnapping.GetPixelsPerDip, IDWritePixelSnapping::GetPixelsPerDip, directwrite.IDWritePixelSnapping_GetPixelsPerDip, dwrite/IDWritePixelSnapping::GetPixelsPerDip
 ms.prod: windows
 ms.technology: windows-sdk

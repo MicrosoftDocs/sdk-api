@@ -7,7 +7,7 @@ old-location: wmi\cthreadbase_endwrite.htm
 old-project: WmiSdk
 ms.assetid: 8b57bcc0-f8ca-412a-87d9-9afeb5ac8446
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: "?Empty@CHString@@QEAAXXZ, CThreadBase interface [Windows Management Instrumentation],EndWrite method, CThreadBase.EndWrite, CThreadBase::EndWrite, EndWrite, EndWrite method [Windows Management Instrumentation], EndWrite method [Windows Management Instrumentation],CThreadBase interface, thrdbase/CThreadBase::EndWrite, wmi.cthreadbase_endwrite"
 ms.prod: windows
 ms.technology: windows-sdk

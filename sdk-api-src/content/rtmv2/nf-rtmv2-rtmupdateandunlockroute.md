@@ -4,10 +4,10 @@ title: RtmUpdateAndUnlockRoute function
 author: windows-sdk-content
 description: The RtmUpdateAndUnlockRoute function updates the position of the route in the set of routes for a destination, and adjusts the best route information for the destination.
 old-location: rras\rtmupdateandunlockroute.htm
-old-project: rras
+old-project: RRAS
 ms.assetid: 917e3e90-b06b-410d-8456-d76e2baa76f8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RtmUpdateAndUnlockRoute, RtmUpdateAndUnlockRoute function [RAS], _rtmv2ref_rtmupdateandunlockroute, rras.rtmupdateandunlockroute, rtmv2/RtmUpdateAndUnlockRoute
 ms.prod: windows
 ms.technology: windows-sdk

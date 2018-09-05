@@ -7,7 +7,7 @@ old-location: mscs\clusresource_name.htm
 old-project: mscs
 ms.assetid: 9ed3c032-3ad0-4001-9dcf-9d0d0fa0c79a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusResource class [Failover Cluster],Name property, ClusResource.Name, ISClusResource.get_Name, ISClusResource.put_Name, ISClusResource::get_Name, Name property [Failover Cluster], Name property [Failover Cluster],ClusResource class, _wolf_clusresource.name, get_Name, mscs.clusresource_name
 ms.prod: windows
 ms.technology: windows-sdk

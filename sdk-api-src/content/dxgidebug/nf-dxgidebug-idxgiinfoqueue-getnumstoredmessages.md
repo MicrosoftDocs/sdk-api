@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgiinfoqueue_getnumstoredmessages.htm
 old-project: direct3ddxgi
 ms.assetid: 81556BB3-D8B8-4868-8B21-C9E01C3F183E
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: GetNumStoredMessages, GetNumStoredMessages method [DXGI], GetNumStoredMessages method [DXGI],IDXGIInfoQueue interface, IDXGIInfoQueue interface [DXGI],GetNumStoredMessages method, IDXGIInfoQueue.GetNumStoredMessages, IDXGIInfoQueue::GetNumStoredMessages, direct3ddxgi.idxgiinfoqueue_getnumstoredmessages, dxgidebug/IDXGIInfoQueue::GetNumStoredMessages
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: base\symgetlinefromaddr64.htm
 old-project: debug
 ms.assetid: a1dad8e0-cd85-41f7-b0e3-e359be94c0ac
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: SymGetLineFromAddr, SymGetLineFromAddr function, SymGetLineFromAddr64, SymGetLineFromAddr64 function, SymGetLineFromAddrW64, _win32_symgetlinefromaddr64, base.symgetlinefromaddr64, dbghelp/SymGetLineFromAddr, dbghelp/SymGetLineFromAddr64, dbghelp/SymGetLineFromAddrW64
 ms.prod: windows
 ms.technology: windows-sdk
@@ -119,9 +119,13 @@ To call the Unicode version of this function, define <b>DBGHELP_TRANSLATE_TCHAR<
    Dbghelp.h.
    
 
-
-```cpp
-BOOL
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL
 IMAGEAPI
 SymGetLineFromAddrW64(
     _In_ HANDLE hProcess,
@@ -132,16 +136,20 @@ SymGetLineFromAddrW64(
 
 #ifdef DBGHELP_TRANSLATE_TCHAR
  #define SymGetLineFromAddr64   SymGetLineFromAddrW64
-#endif
-```
-
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 This function supersedes the <b>SymGetLineFromAddr</b> function. For more information, see 
 <a href="https://msdn.microsoft.com/34ec8cd3-3260-441d-b55f-4ea21c736eb1">Updated Platform Support</a>. <b>SymGetLineFromAddr</b> is defined as follows in Dbghelp.h. 
 
-
-```cpp
-#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
 #define SymGetLineFromAddr SymGetLineFromAddr64
 #define SymGetLineFromAddrW SymGetLineFromAddrW64
 #else
@@ -162,10 +170,10 @@ SymGetLineFromAddrW(
     _Out_ PDWORD pdwDisplacement,
     _Out_ PIMAGEHLP_LINEW Line
     );
-#endif
-```
-
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 
 #### Examples
 

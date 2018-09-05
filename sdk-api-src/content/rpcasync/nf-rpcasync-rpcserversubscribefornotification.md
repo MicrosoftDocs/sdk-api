@@ -4,10 +4,10 @@ title: RpcServerSubscribeForNotification function
 author: windows-sdk-content
 description: Subscribes the server for RPC notifications.
 old-location: rpc\rpcserversubscribefornotification.htm
-old-project: rpc
+old-project: Rpc
 ms.assetid: 544b1e57-7b3c-474d-8b89-d6c62f54b2c2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcServerSubscribeForNotification, RpcServerSubscribeForNotification function [RPC], rpc.rpcserversubscribefornotification, rpcasync/RpcServerSubscribeForNotification
 ms.prod: windows
 ms.technology: windows-sdk

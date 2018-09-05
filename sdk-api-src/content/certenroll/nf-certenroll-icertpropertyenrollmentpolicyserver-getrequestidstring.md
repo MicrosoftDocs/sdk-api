@@ -4,10 +4,10 @@ title: ICertPropertyEnrollmentPolicyServer::GetRequestIdString
 author: windows-sdk-content
 description: Retrieves a unique string identifier for the certificate request sent to the certification authority during enrollment.
 old-location: security\icertpropertyenrollmentpolicyserver_getrequestidstring.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: c9855a9d-938f-4579-8447-a931dbba1428
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetRequestIdString, GetRequestIdString method [Security], GetRequestIdString method [Security],ICertPropertyEnrollmentPolicyServer interface, ICertPropertyEnrollmentPolicyServer interface [Security],GetRequestIdString method, ICertPropertyEnrollmentPolicyServer.GetRequestIdString, ICertPropertyEnrollmentPolicyServer::GetRequestIdString, certenroll/ICertPropertyEnrollmentPolicyServer::GetRequestIdString, security.icertpropertyenrollmentpolicyserver_getrequestidstring
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ Pointer to a <b>BSTR</b> that receives the ID string.
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -121,7 +121,7 @@ The property value has not been initialized.
 
 
 
-The string can contain any information that uniquely identifies the certificate request.  This value is set when you call  the <a href="https://msdn.microsoft.com/en-us/library/Ee351591(v=VS.85).aspx">Initialize</a> method.
+The string can contain any information that uniquely identifies the certificate request.  This value is set when you call  the <a href="https://msdn.microsoft.com/5d54ffb2-4a81-4d52-80db-b8526a52bb53">Initialize</a> method.
 
 
 
@@ -131,7 +131,7 @@ The string can contain any information that uniquely identifies the certificate 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee338624(v=VS.85).aspx">ICertPropertyEnrollmentPolicyServer</a>
+<a href="https://msdn.microsoft.com/1af7b178-3226-43c3-bfbe-08738f9ef851">ICertPropertyEnrollmentPolicyServer</a>
  
 
  

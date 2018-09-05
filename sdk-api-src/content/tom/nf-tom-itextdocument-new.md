@@ -91,11 +91,11 @@ If another document is open, this method saves any current changes and closes th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774052(v=VS.85).aspx">ITextDocument</a>
+<a href="https://msdn.microsoft.com/0c3f161f-f6d3-44b9-b041-1b682d1915af">ITextDocument</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774093(v=VS.85).aspx">Open</a>
+<a href="https://msdn.microsoft.com/6ea20837-4987-49c9-88e5-81d79c9016ac">Open</a>
 
 
 
@@ -103,7 +103,7 @@ If another document is open, this method saves any current changes and closes th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

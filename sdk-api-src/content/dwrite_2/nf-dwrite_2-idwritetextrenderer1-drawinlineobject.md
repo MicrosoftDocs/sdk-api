@@ -7,7 +7,7 @@ old-location: directwrite\idwritetextrenderer1_drawinlineobject.htm
 old-project: DirectWrite
 ms.assetid: 1115e215-d04e-28db-c196-7d693ca91044
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: DrawInlineObject, DrawInlineObject method [Direct Write], DrawInlineObject method [Direct Write],IDWriteTextRenderer1 interface, IDWriteTextRenderer1 interface [Direct Write],DrawInlineObject method, IDWriteTextRenderer1.DrawInlineObject, IDWriteTextRenderer1::DrawInlineObject, directwrite.idwritetextrenderer1_drawinlineobject, dwrite_2/IDWriteTextRenderer1::DrawInlineObject
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmi\swbemobjectpath_parentnamespace.htm
 old-project: WmiSdk
 ms.assetid: 506cf172-2c8b-48fe-bcdd-572bdca754a8
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: ISWbemObjectPath interface [Windows Management Instrumentation],ParentNamespace property, ISWbemObjectPath.get_ParentNamespace, ISWbemObjectPath::get_ParentNamespace, ParentNamespace property [Windows Management Instrumentation], ParentNamespace property [Windows Management Instrumentation],ISWbemObjectPath interface, ParentNamespace property [Windows Management Instrumentation],SWbemObjectPath object, SWbemObjectPath object [Windows Management Instrumentation],ParentNamespace property, SWbemObjectPath.ParentNamespace, _hmm_swbemobjectpath.parentnamespace, get_ParentNamespace, wmi.swbemobjectpath_parentnamespace
 ms.prod: windows
 ms.technology: windows-sdk

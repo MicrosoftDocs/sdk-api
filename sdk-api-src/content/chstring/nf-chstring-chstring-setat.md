@@ -7,7 +7,7 @@ old-location: wmi\chstring_setat.htm
 old-project: WmiSdk
 ms.assetid: ccac0f07-a272-41b0-950c-7e5d97d9f1d7
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],SetAt method, CHString.SetAt, CHString::SetAt, SetAt, SetAt method [Windows Management Instrumentation], SetAt method [Windows Management Instrumentation],CHString interface, _hmm_chstring_setat, chstring/CHString::SetAt, wmi.chstring_setat
 ms.prod: windows
 ms.technology: windows-sdk

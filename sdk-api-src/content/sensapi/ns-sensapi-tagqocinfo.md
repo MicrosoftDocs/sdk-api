@@ -4,10 +4,10 @@ title: tagQOCINFO
 author: windows-sdk-content
 description: The QOCINFO structure is returned by the IsDestinationReachable function and provides Quality of Connection information to the caller.
 old-location: sens\qocinfo.htm
-old-project: sens
+old-project: Sens
 ms.assetid: 1f78a7c5-b3c7-4f21-8848-58cfb481f4bb
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPQOCINFO, LPQOCINFO, LPQOCINFO structure pointer [SENS], NETWORK_ALIVE_AOL, NETWORK_ALIVE_LAN, NETWORK_ALIVE_WAN, QOCINFO, QOCINFO structure [SENS], _zaw_qocinfo, sens.qocinfo, sensapi/LPQOCINFO, sensapi/QOCINFO, syncmgr.qocinfo, tagQOCINFO"
 ms.prod: windows
 ms.technology: windows-sdk

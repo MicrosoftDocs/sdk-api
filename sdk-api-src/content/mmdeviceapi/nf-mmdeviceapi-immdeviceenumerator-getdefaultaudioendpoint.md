@@ -7,7 +7,7 @@ old-location: coreaudio\immdeviceenumerator_getdefaultaudioendpoint.htm
 old-project: CoreAudio
 ms.assetid: 96776d2a-27b7-490a-b3a8-04782ec34f91
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: GetDefaultAudioEndpoint, GetDefaultAudioEndpoint method [Core Audio], GetDefaultAudioEndpoint method [Core Audio],IMMDeviceEnumerator interface, IMMDeviceEnumerator interface [Core Audio],GetDefaultAudioEndpoint method, IMMDeviceEnumerator.GetDefaultAudioEndpoint, IMMDeviceEnumerator::GetDefaultAudioEndpoint, IMMDeviceEnumeratorGetDefaultAudioEndpoint, coreaudio.immdeviceenumerator_getdefaultaudioendpoint, mmdeviceapi/IMMDeviceEnumerator::GetDefaultAudioEndpoint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -170,15 +170,19 @@ In Windows Vista, the MMDevice API supports <a href="https://msdn.microsoft.com/
 
 This method retrieves the default endpoint device for the specified data-flow direction (rendering or capture) and role. For example, a client can get the default console playback device by making the following call:
 
-
-```cpp
-
-  hr = pDevEnum->GetDefaultAudioEndpoint(
-                   eRender, eConsole, &pDeviceOut);
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+  hr = pDevEnum-&gt;GetDefaultAudioEndpoint(
+                   eRender, eConsole, &amp;pDeviceOut);
+</pre>
+</td>
+</tr>
+</table></span></div>
 In the preceding code fragment, variable <i>hr</i> is of type <b>HRESULT</b>, <i>pDevEnum</i> is a pointer to an <b>IMMDeviceEnumerator</b> interface, and <i>pDeviceOut</i> is a pointer to an <b>IMMDevice</b> interface.
 
 A Windows system might contain some combination of audio endpoint devices such as desktop speakers, high-fidelity headphones, desktop microphones, headsets with speaker and microphones, and high-fidelity multichannel speakers. The user can assign appropriate roles to the devices. For example, an application that manages voice communications streams can call <b>GetDefaultAudioEndpoint</b> to identify the designated rendering and capture devices for that role.

@@ -7,7 +7,7 @@ old-location: wmi\cinstance_getstringarray.htm
 old-project: WmiSdk
 ms.assetid: d7fc870a-952e-49a9-87ff-c191e4896511
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],GetStringArray method, CInstance.GetStringArray, CInstance::GetStringArray, GetStringArray, GetStringArray method [Windows Management Instrumentation], GetStringArray method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getstringarray, instance/CInstance::GetStringArray, wmi.cinstance_getstringarray
 ms.prod: windows
 ms.technology: windows-sdk

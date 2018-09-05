@@ -4,10 +4,10 @@ title: RpcNsBindingImportDone function
 author: windows-sdk-content
 description: The RpcNsBindingImportDone function signals that a client has finished looking for a compatible server and deletes the import context.
 old-location: rpc\rpcnsbindingimportdone.htm
-old-project: rpc
+old-project: Rpc
 ms.assetid: 093c988a-5d88-45b5-b69a-f26962118fdb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcNsBindingImportDone, RpcNsBindingImportDone function [RPC], _rpc_rpcnsbindingimportdone, rpc.rpcnsbindingimportdone, rpcnsi/RpcNsBindingImportDone
 ms.prod: windows
 ms.technology: windows-sdk

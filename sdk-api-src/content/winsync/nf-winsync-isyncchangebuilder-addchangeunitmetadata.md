@@ -7,7 +7,7 @@ old-location: winsync\isyncchangebuilder_addchangeunitmetadata.htm
 old-project: winsync
 ms.assetid: 218e0f9d-9471-4b21-a424-b1298da2fb23
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: AddChangeUnitMetadata, AddChangeUnitMetadata method [Windows Sync], AddChangeUnitMetadata method [Windows Sync],ISyncChangeBuilder interface, ISyncChangeBuilder interface [Windows Sync],AddChangeUnitMetadata method, ISyncChangeBuilder.AddChangeUnitMetadata, ISyncChangeBuilder::AddChangeUnitMetadata, winsync.isyncchangebuilder_addchangeunitmetadata, winsync/ISyncChangeBuilder::AddChangeUnitMetadata
 ms.prod: windows
 ms.technology: windows-sdk

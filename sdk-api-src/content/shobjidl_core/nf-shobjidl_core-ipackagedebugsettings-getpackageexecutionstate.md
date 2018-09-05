@@ -7,7 +7,7 @@ old-location: shell\IPackageDebugSettings_GetPackageExecutionState.htm
 old-project: shell
 ms.assetid: 39560adc-9d35-48ec-8b70-2ed4b83dd1f6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetPackageExecutionState, GetPackageExecutionState method [Windows Shell], GetPackageExecutionState method [Windows Shell],IPackageDebugSettings interface, IPackageDebugSettings interface [Windows Shell],GetPackageExecutionState method, IPackageDebugSettings.GetPackageExecutionState, IPackageDebugSettings::GetPackageExecutionState, shell.IPackageDebugSettings_GetPackageExecutionState, shobjidl_core/IPackageDebugSettings::GetPackageExecutionState
 ms.prod: windows
 ms.technology: windows-sdk

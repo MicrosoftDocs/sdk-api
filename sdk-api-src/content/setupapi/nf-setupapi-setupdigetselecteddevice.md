@@ -7,7 +7,7 @@ old-location: devinst\setupdigetselecteddevice.htm
 old-project: devinst
 ms.assetid: 317ed10b-f779-449e-8b57-329279629cc6
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: SetupDiGetSelectedDevice, SetupDiGetSelectedDevice function [Device and Driver Installation], devinst.setupdigetselecteddevice, di-rtns_c28297c0-dcc3-4bfa-9448-46ec7e9ac3a0.xml, setupapi/SetupDiGetSelectedDevice
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ The <b>SetupDiGetSelectedDevice</b> function retrieves the selected device infor
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> for which to retrieve the selected device information element.
+A handle to the <a href="devinst.device_information_sets">device information set</a> for which to retrieve the selected device information element.
 
 
 ### -param DeviceInfoData [out]

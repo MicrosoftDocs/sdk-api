@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFactory_CreateDisplayTextLayout.htm
 old-project: DirectWrite
 ms.assetid: f9205ce6-1586-461a-9c48-3f3f25780dd0
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: CreateGdiCompatibleTextLayout, CreateGdiCompatibleTextLayout method [Direct Write], CreateGdiCompatibleTextLayout method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],CreateGdiCompatibleTextLayout method, IDWriteFactory.CreateGdiCompatibleTextLayout, IDWriteFactory::CreateGdiCompatibleTextLayout, directwrite.IDWriteFactory_CreateDisplayTextLayout, dwrite/IDWriteFactory::CreateGdiCompatibleTextLayout
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: PIBIO_ENGINE_VERIFY_FEATURE_SET_FN
 author: windows-sdk-content
 description: Compares the template in the current feature set with a specific template in the database.
 old-location: secbiomet\engineadapterverifyfeatureset.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: 64107d5b-3071-4bd4-9c2c-dd06006aec4d
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: EngineAdapterVerifyFeatureSet, EngineAdapterVerifyFeatureSet callback function [Windows Biometric Framework API], PIBIO_ENGINE_VERIFY_FEATURE_SET_FN, PIBIO_ENGINE_VERIFY_FEATURE_SET_FN callback, secbiomet.engineadapterverifyfeatureset, winbio_adapter/EngineAdapterVerifyFeatureSet
 ms.prod: windows
 ms.technology: windows-sdk
@@ -217,9 +217,13 @@ The <i>PayloadBlob</i> and <i>HashValue</i> buffers are owned and managed by the
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-
-```cpp
-//////////////////////////////////////////////////////////////////////////////////////////
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//////////////////////////////////////////////////////////////////////////////////////////
 //
 // EngineAdapterVerifyFeatureSet
 //
@@ -282,7 +286,7 @@ EngineAdapterVerifyFeatureSet(
 
     // Retrieve the context from the pipeline.
     PWINBIO_ENGINE_CONTEXT context = 
-           (PWINBIO_ENGINE_CONTEXT)Pipeline->EngineContext;
+           (PWINBIO_ENGINE_CONTEXT)Pipeline-&gt;EngineContext;
 
     // Initialize the return values.
     *Match              = FALSE;
@@ -294,7 +298,7 @@ EngineAdapterVerifyFeatureSet(
 
     // The biometric unit cannot perform verification or identification
     // operations while it is performing an enrollment sequence.
-    if (context->Enrollment.InProgress == TRUE)
+    if (context-&gt;Enrollment.InProgress == TRUE)
     {
         hr = WINBIO_E_ENROLLMENT_IN_PROGRESS;
         goto cleanup;
@@ -325,7 +329,7 @@ EngineAdapterVerifyFeatureSet(
 
     // Retrieve the current template record for the Identity and SubFactor 
     // combination specified on input. 
-    hr = WbioStorageGetCurrentRecord( Pipeline, &thisRecord );
+    hr = WbioStorageGetCurrentRecord( Pipeline, &amp;thisRecord );
     if (FAILED(hr))
     {
         goto cleanup;
@@ -341,11 +345,11 @@ EngineAdapterVerifyFeatureSet(
     // RejectDetail parameter.
     hr = _AdapterCompareTemplateToCurrentFeatureSet( 
                 context, 
-                context->FeatureSet,
-                context->FeatureSetSize,
+                context-&gt;FeatureSet,
+                context-&gt;FeatureSetSize,
                 thisRecord.TemplateBlob, 
                 thisRecord.TemplateBlobSize,
-                &match,
+                &amp;match,
                 RejectDetail 
                 );
     if (FAILED(hr))
@@ -362,8 +366,8 @@ EngineAdapterVerifyFeatureSet(
                 context,
                 thisRecord.TemplateBlob, 
                 thisRecord.TemplateBlobSize,
-                context->HashBuffer,
-                &context->HashSize
+                context-&gt;HashBuffer,
+                &amp;context-&gt;HashSize
                 );
     if (FAILED(hr))
     {
@@ -374,8 +378,8 @@ EngineAdapterVerifyFeatureSet(
     *Match              = TRUE;
     *PayloadBlob        = thisRecord.PayloadBlob;
     *PayloadBlobSize    = thisRecord.PayloadBlobSize;
-    *HashValue          = &context->HashBuffer;
-    *HashSize           = context->HashSize;
+    *HashValue          = &amp;context-&gt;HashBuffer;
+    *HashSize           = context-&gt;HashSize;
 
 cleanup:
 
@@ -386,10 +390,10 @@ cleanup:
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

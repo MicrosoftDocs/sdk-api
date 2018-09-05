@@ -4,10 +4,10 @@ title: BCRYPT_HASH_OPERATION_TYPE
 author: windows-sdk-content
 description: The BCRYPT_HASH_OPERATION_TYPE enumeration specifies the hash operation type.
 old-location: security\bcrypt_hash_operation_type.htm
-old-project: seccng
+old-project: SecCNG
 ms.assetid: DC570FB0-15DF-442C-951A-52A3120DB782
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BCRYPT_HASH_OPERATION_FINISH_HASH, BCRYPT_HASH_OPERATION_HASH_DATA, BCRYPT_HASH_OPERATION_TYPE, BCRYPT_HASH_OPERATION_TYPE enumeration [Security], bcrypt/BCRYPT_HASH_OPERATION_FINISH_HASH, bcrypt/BCRYPT_HASH_OPERATION_HASH_DATA, bcrypt/BCRYPT_HASH_OPERATION_TYPE, security.bcrypt_hash_operation_type
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,12 +61,12 @@ The <b>BCRYPT_HASH_OPERATION_TYPE</b> enumeration specifies the hash operation t
 
 ### -field BCRYPT_HASH_OPERATION_HASH_DATA
 
-Equivalent to calling the <a href="https://msdn.microsoft.com/en-us/library/Aa375468(v=VS.85).aspx">BCryptHashData</a> function.
+Equivalent to calling the <a href="https://msdn.microsoft.com/dab89dff-dc84-4f69-8b6b-de65704b0265">BCryptHashData</a> function.
 
 
 ### -field BCRYPT_HASH_OPERATION_FINISH_HASH
 
-Equivalent to calling the <a href="https://msdn.microsoft.com/en-us/library/Aa375443(v=VS.85).aspx">BCryptFinishHash</a> function.
+Equivalent to calling the <a href="https://msdn.microsoft.com/82a7c3d9-c01b-46d0-8b54-694dc0d8ffdd">BCryptFinishHash</a> function.
 
 
 ## -see-also
@@ -74,11 +74,11 @@ Equivalent to calling the <a href="https://msdn.microsoft.com/en-us/library/Aa37
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375443(v=VS.85).aspx">BCryptFinishHash</a>
+<a href="https://msdn.microsoft.com/82a7c3d9-c01b-46d0-8b54-694dc0d8ffdd">BCryptFinishHash</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375468(v=VS.85).aspx">BCryptHashData</a>
+<a href="https://msdn.microsoft.com/dab89dff-dc84-4f69-8b6b-de65704b0265">BCryptHashData</a>
  
 
  

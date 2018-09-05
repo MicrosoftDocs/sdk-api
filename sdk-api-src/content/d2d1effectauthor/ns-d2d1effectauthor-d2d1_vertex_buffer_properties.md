@@ -96,7 +96,7 @@ If the initialization data is not specified, the buffer will be uninitialized.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404337(v=VS.85).aspx">D2D1_VERTEX_USAGE</a>
+<a href="https://msdn.microsoft.com/ff122e0d-5f0e-4a61-bead-53bea6f1648f">D2D1_VERTEX_USAGE</a>
 
 
 

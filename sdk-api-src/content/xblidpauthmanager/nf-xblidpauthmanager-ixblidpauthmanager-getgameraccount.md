@@ -7,7 +7,7 @@ old-location: xblidp\ixblidpauthmanager_getgameraccount.htm
 old-project: xblidp
 ms.assetid: 8AAE50DC-249A-4744-8B5B-CEFD9BE83A8D
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: GetGamerAccount, GetGamerAccount method, GetGamerAccount method,IXblIdpAuthManager interface, IXblIdpAuthManager interface,GetGamerAccount method, IXblIdpAuthManager.GetGamerAccount, IXblIdpAuthManager::GetGamerAccount, xblidp.ixblidpauthmanager_getgameraccount, xblidpauthmanager/IXblIdpAuthManager::GetGamerAccount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,7 +74,7 @@ Type: <b>__RPC__deref_out_opt_string*</b>
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 

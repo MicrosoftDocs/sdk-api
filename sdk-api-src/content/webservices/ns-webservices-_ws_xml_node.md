@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_node.htm
 old-project: wsw
 ms.assetid: 98c40d57-ee71-40f8-9416-5b29adc30489
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_XML_NODE, WS_XML_NODE structure [Web Services for Windows], _WS_XML_NODE, webservices/WS_XML_NODE, wsw.ws_xml_node
 ms.prod: windows
 ms.technology: windows-sdk

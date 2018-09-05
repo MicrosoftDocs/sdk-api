@@ -144,11 +144,15 @@ Use a bitwise <b>AND</b> to test the bitmask. If neither test is true, return S_
 
 The following code shows a possible implementation. It assumes that the object stores the bitmasks in a two-dimensional array named Mask:
 
-
-```cpp
-
-if ((0 != Mask[system][level] & BfIsBlocked) || 
-    (0 != Mask[system][level] & attributes))
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+if ((0 != Mask[system][level] &amp; BfIsBlocked) || 
+    (0 != Mask[system][level] &amp; attributes))
 {
     return S_FALSE; // Blocked.
 }
@@ -156,10 +160,10 @@ else
 {
     return S_OK; // Not blocked.
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

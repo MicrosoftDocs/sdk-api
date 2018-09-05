@@ -7,7 +7,7 @@ old-location: wmi\iwbemeventsink.htm
 old-project: WmiSdk
 ms.assetid: dd076dd0-ed39-47a2-86fb-a595baf3f464
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: IWbemEventSink, IWbemEventSink interface [Windows Management Instrumentation], IWbemEventSink interface [Windows Management Instrumentation],described, _hmm_iwbemeventsink, wbemprov/IWbemEventSink, wmi.iwbemeventsink
 ms.prod: windows
 ms.technology: windows-sdk

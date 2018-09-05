@@ -7,7 +7,7 @@ old-location: com\dvaspectinfo.htm
 old-project: com
 ms.assetid: c9375b9d-c822-4322-ba6f-967792257672
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DVASPECTINFO, DVASPECTINFO structure [COM], _ole_DVASPECTINFO, com.dvaspectinfo, ocidl/DVASPECTINFO, tagAspectInfo
 ms.prod: windows
 ms.technology: windows-sdk

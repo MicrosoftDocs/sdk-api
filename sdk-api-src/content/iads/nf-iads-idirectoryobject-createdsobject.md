@@ -77,7 +77,7 @@ Provides a number of attributes set when the object is created.
 
 ### -param ppObject [out]
 
-Provides a pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface on the created object.
+Provides a pointer to the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface on the created object.
 
 
 ## -returns
@@ -100,9 +100,13 @@ Specify all attributes to be initialized on creation in the <i>pAttributeEntries
 
 The following C/C++ code example shows how to create a user object using the <b>IDirectoryObject::CreateDSObject</b> method.
 
-
-```cpp
-HRESULT    hr;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT    hr;
 IDirectoryObject *pDirObject=NULL;
 ADSVALUE   sAMValue;
 ADSVALUE   uPNValue;
@@ -112,11 +116,11 @@ LPDISPATCH pDisp;
 ADS_ATTR_INFO  attrInfo[] = 
 {  
    { L"objectClass", ADS_ATTR_UPDATE, 
-                       ADSTYPE_CASE_IGNORE_STRING, &classValue, 1 },
+                       ADSTYPE_CASE_IGNORE_STRING, &amp;classValue, 1 },
    {L"sAMAccountName", ADS_ATTR_UPDATE, 
-                       ADSTYPE_CASE_IGNORE_STRING, &sAMValue, 1},
+                       ADSTYPE_CASE_IGNORE_STRING, &amp;sAMValue, 1},
    {L"userPrincipalName", ADS_ATTR_UPDATE, 
-                      ADSTYPE_CASE_IGNORE_STRING, &uPNValue, 1},
+                      ADSTYPE_CASE_IGNORE_STRING, &amp;uPNValue, 1},
 };
 DWORD dwAttrs = sizeof(attrInfo)/sizeof(ADS_ATTR_INFO); 
  
@@ -130,26 +134,26 @@ uPNValue.dwType=ADSTYPE_CASE_IGNORE_STRING;
 uPNValue.CaseIgnoreString = L"jeffsmith@Fabrikam.com";
  
 hr = ADsGetObject(L"LDAP://OU=Sales,DC=Fabrikam,DC=com",
-          IID_IDirectoryObject, (void**) &pDirObject );
+          IID_IDirectoryObject, (void**) &amp;pDirObject );
  
 if ( SUCCEEDED(hr) )
 {
-    hr = pDirObject->CreateDSObject( L"CN=Jeff Smith",  attrInfo, 
-                                    dwAttrs, &pDisp );
+    hr = pDirObject-&gt;CreateDSObject( L"CN=Jeff Smith",  attrInfo, 
+                                    dwAttrs, &amp;pDisp );
 
     if ( SUCCEEDED(hr) )
     {
          // Use the DS object.
 
-         pDisp->Release();
+         pDisp-&gt;Release();
     }
 
-    pDirObject->Release();
+    pDirObject-&gt;Release();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

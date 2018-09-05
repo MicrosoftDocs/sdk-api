@@ -7,7 +7,7 @@ old-location: wec\ecopensubscriptionenum.htm
 old-project: WEC
 ms.assetid: edbfabb0-6ad1-415a-a2ef-094b1d3bcccb
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: EcOpenSubscriptionEnum, EcOpenSubscriptionEnum function, evcoll/EcOpenSubscriptionEnum, wec.ecopensubscriptionenum, wes.ecopensubscriptionenum
 ms.prod: windows
 ms.technology: windows-sdk

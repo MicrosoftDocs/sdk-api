@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaLogEx_InitializeLogEx.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwialogex\initializelogex.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IWiaLogEx interface [WIA],InitializeLogEx method, IWiaLogEx.InitializeLogEx, IWiaLogEx::InitializeLogEx, InitializeLogEx, InitializeLogEx method [WIA], InitializeLogEx method [WIA],IWiaLogEx interface, _wia_IWiaLogEx_InitializeLogEx, wia._wia_IWiaLogEx_InitializeLogEx, wia_xp/IWiaLogEx::InitializeLogEx
 ms.prod: windows
 ms.technology: windows-sdk

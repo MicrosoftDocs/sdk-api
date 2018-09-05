@@ -7,7 +7,7 @@ old-location: cos\imtseventinfo_get_displayname.htm
 old-project: cossdk
 ms.assetid: d3d8ed52-0ad3-4073-877b-071bac90c71f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IMtsEventInfo interface [COM+],get_DisplayName method, IMtsEventInfo.get_DisplayName, IMtsEventInfo::get_DisplayName, _dtc_IMtsEventInfo_DisplayName, comsvcs/IMtsEventInfo::get_DisplayName, cos.imtseventinfo_get_displayname, get_DisplayName, get_DisplayName method [COM+], get_DisplayName method [COM+],IMtsEventInfo interface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,11 +78,11 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684268(v=VS.85).aspx">IMtsEventInfo</a>
+<a href="https://msdn.microsoft.com/9508df6d-281b-4a02-bb95-233b369b8279">IMtsEventInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683390(v=VS.85).aspx">IMtsEvents</a>
+<a href="https://msdn.microsoft.com/7db3a373-00d3-480e-8f8e-7e65a468d5dc">IMtsEvents</a>
  
 
  

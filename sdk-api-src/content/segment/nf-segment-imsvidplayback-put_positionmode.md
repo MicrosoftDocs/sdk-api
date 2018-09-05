@@ -168,14 +168,18 @@ Call the <a href="https://msdn.microsoft.com/49f78dd8-f26e-456d-b67e-155ae0ed541
 
 #### Examples
 
-
-```cpp
-
-hr = m_pPlayback->put_PositionMode(TenthsSecondsMode);
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+hr = m_pPlayback-&gt;put_PositionMode(TenthsSecondsMode);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

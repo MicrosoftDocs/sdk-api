@@ -7,7 +7,7 @@ old-location: com\icallframe_getreturnvalue.htm
 old-project: com
 ms.assetid: eb03e968-37af-46fd-b2ed-08c5ef8eb265
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetReturnValue, GetReturnValue method [COM], GetReturnValue method [COM],ICallFrame interface, ICallFrame interface [COM],GetReturnValue method, ICallFrame.GetReturnValue, ICallFrame::GetReturnValue, _com_icallframe_getreturnvalue, callobj/ICallFrame::GetReturnValue, com.icallframe_getreturnvalue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,7 +75,7 @@ This method returns the <b>HRESULT</b> value stored in the call frame.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683709(v=VS.85).aspx">ICallFrame</a>
+<a href="https://msdn.microsoft.com/56a75123-f402-4187-af13-d31f72a5f094">ICallFrame</a>
  
 
  

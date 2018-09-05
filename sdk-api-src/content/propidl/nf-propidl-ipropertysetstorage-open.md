@@ -4,10 +4,10 @@ title: IPropertySetStorage::Open
 author: windows-sdk-content
 description: Opens a property set contained in the property set storage object.
 old-location: stg\ipropertysetstorage_open.htm
-old-project: stg
+old-project: Stg
 ms.assetid: a0e2239f-b908-460a-98e8-c805c1d84def
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IPropertySetStorage interface [Structured Storage],Open method, IPropertySetStorage.Open, IPropertySetStorage::Open, Open, Open method [Structured Storage], Open method [Structured Storage],IPropertySetStorage interface, _stg_ipropertysetstorage_open, propidl/IPropertySetStorage::Open, stg.ipropertysetstorage_open
 ms.prod: windows
 ms.technology: windows-sdk

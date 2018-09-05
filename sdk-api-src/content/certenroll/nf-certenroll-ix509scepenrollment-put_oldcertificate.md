@@ -4,10 +4,10 @@ title: IX509SCEPEnrollment::put_OldCertificate
 author: windows-sdk-content
 description: Gets or sets an old certificate that a request is intended to replace.
 old-location: security\ix509scepenrollment_oldcertificate.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: caa88227-b068-4b3d-9334-c0283153b1ce
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509SCEPEnrollment interface [Security],OldCertificate property, IX509SCEPEnrollment.OldCertificate, IX509SCEPEnrollment.put_OldCertificate, IX509SCEPEnrollment::OldCertificate, IX509SCEPEnrollment::get_OldCertificate, IX509SCEPEnrollment::put_OldCertificate, OldCertificate property [Security], OldCertificate property [Security],IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::OldCertificate, certenroll/IX509SCEPEnrollment::get_OldCertificate, certenroll/IX509SCEPEnrollment::put_OldCertificate, put_OldCertificate, security.ix509scepenrollment_oldcertificate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ This property is read/write.
 
 
 
-You must set this property before you call the <a href="https://msdn.microsoft.com/en-us/library/Dn424976(v=VS.85).aspx">CreateRequestMessage</a> method.
+You must set this property before you call the <a href="https://msdn.microsoft.com/b86d6dc3-aa96-45f3-9551-f24c39ea6cbf">CreateRequestMessage</a> method.
 
 
 
@@ -75,7 +75,7 @@ You must set this property before you call the <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn424973(v=VS.85).aspx">IX509SCEPEnrollment</a>
+<a href="https://msdn.microsoft.com/fcbac911-9e37-4994-bbb6-544b19a92749">IX509SCEPEnrollment</a>
  
 
  

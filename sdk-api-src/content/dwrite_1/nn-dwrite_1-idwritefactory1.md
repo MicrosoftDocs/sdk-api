@@ -7,7 +7,7 @@ old-location: directwrite\idwritefactory1.htm
 old-project: DirectWrite
 ms.assetid: 43FA7E32-FFAD-4F26-A225-811C2CC507DF
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: IDWriteFactory1, IDWriteFactory1 interface [Direct Write], IDWriteFactory1 interface [Direct Write],described, directwrite.idwritefactory1, dwrite_1/IDWriteFactory1
 ms.prod: windows
 ms.technology: windows-sdk

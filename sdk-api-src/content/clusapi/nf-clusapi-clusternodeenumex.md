@@ -7,7 +7,7 @@ old-location: mscs\clusternodeenumex.htm
 old-project: mscs
 ms.assetid: 1F3DFD5C-978B-4943-B4D8-81A7F9D7A3AF
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusterNodeEnumEx, ClusterNodeEnumEx function [Failover Cluster], PCLUSAPI_CLUSTER_NODE_ENUM_EX, PCLUSAPI_CLUSTER_NODE_ENUM_EX function [Failover Cluster], clusapi/ClusterNodeEnumEx, clusapi/PCLUSAPI_CLUSTER_NODE_ENUM_EX, mscs.clusternodeenumex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Retrieves the specified cluster node from a <a href="https://msdn.microsoft.com/en-us/library/Dn622910(v=VS.85).aspx">CLUSTER_ENUM_ITEM</a> enumeration.
+Retrieves the specified cluster node from a <a href="https://msdn.microsoft.com/2E7FB4DA-88AD-4739-ACE0-D43670F914D4">CLUSTER_ENUM_ITEM</a> enumeration.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Retrieves the specified cluster node from a <a href="https://msdn.microsoft.com/
 
 ### -param hNodeEnum [in]
 
-A handle to the <a href="https://msdn.microsoft.com/en-us/library/Dn622910(v=VS.85).aspx">CLUSTER_ENUM_ITEM</a> enumeration that contains the cluster node to retrieve.
+A handle to the <a href="https://msdn.microsoft.com/2E7FB4DA-88AD-4739-ACE0-D43670F914D4">CLUSTER_ENUM_ITEM</a> enumeration that contains the cluster node to retrieve.
 
 
 ### -param dwIndex [in]
@@ -85,7 +85,7 @@ On output, either the required size in bytes of the buffer if the buffer is too 
 
 
 
-This function returns DWORD __stdcall.
+This function returns DWORD.
 
 
 
@@ -95,11 +95,11 @@ This function returns DWORD __stdcall.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn622910(v=VS.85).aspx">CLUSTER_ENUM_ITEM</a>
+<a href="https://msdn.microsoft.com/2E7FB4DA-88AD-4739-ACE0-D43670F914D4">CLUSTER_ENUM_ITEM</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa371760(v=VS.85).aspx">Node Management Functions</a>
+<a href="https://msdn.microsoft.com/18981eec-42c0-4e31-8e5c-b79d8ff89fc8">Node Management Functions</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: wininet\ftprenamefile.htm
 old-project: WinInet
 ms.assetid: 2c46d8bb-aceb-4dd2-be4f-2c418357d4ae
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: FtpRenameFile, FtpRenameFile function [WinINet], FtpRenameFileA, FtpRenameFileW, _inet_ftprenamefile_function, wininet.ftprenamefile, wininet/FtpRenameFile, wininet/FtpRenameFileA, wininet/FtpRenameFileW
 ms.prod: windows
 ms.technology: windows-sdk

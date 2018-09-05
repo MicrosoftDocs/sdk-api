@@ -7,7 +7,7 @@ old-location: cos\icomcrmevents_oncrmforget.htm
 old-project: cossdk
 ms.assetid: 2e6c5bb1-aa99-434a-9376-c853b1fb1d12
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IComCRMEvents interface [COM+],OnCRMForget method, IComCRMEvents.OnCRMForget, IComCRMEvents::OnCRMForget, OnCRMForget, OnCRMForget method [COM+], OnCRMForget method [COM+],IComCRMEvents interface, _dtc_IComCRMEvents_OnCRMForget, comsvcs/IComCRMEvents::OnCRMForget, cos.icomcrmevents_oncrmforget
 ms.prod: windows
 ms.technology: windows-sdk

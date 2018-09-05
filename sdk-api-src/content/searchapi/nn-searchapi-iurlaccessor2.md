@@ -52,12 +52,12 @@ req.product: ADAM
 ## -description
 
 
-Extends functionality of the <a href="https://msdn.microsoft.com/en-us/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a> interface.
+Extends functionality of the <a href="https://msdn.microsoft.com/1e6272e7-d9bc-4372-8feb-f96626b88903">IUrlAccessor</a> interface.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUrlAccessor2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a>. <b>IUrlAccessor2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IUrlAccessor2</b> interface inherits from <a href="https://msdn.microsoft.com/1e6272e7-d9bc-4372-8feb-f96626b88903">IUrlAccessor</a>. <b>IUrlAccessor2</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>IUrlAccessor2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231400(v=VS.85).aspx">GetCodePage</a>
+<a href="https://msdn.microsoft.com/471388c3-c9f6-49f0-bd28-f683315c0bd3">GetCodePage</a>
 </td>
 <td align="left" width="63%">
 Gets the code page for properties of the URL item.
@@ -82,7 +82,7 @@ Gets the code page for properties of the URL item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231401(v=VS.85).aspx">GetDisplayUrl</a>
+<a href="https://msdn.microsoft.com/309490fd-eff8-499f-b126-99ac2bae9543">GetDisplayUrl</a>
 </td>
 <td align="left" width="63%">
 Gets the user-friendly path for the URL item.
@@ -92,7 +92,7 @@ Gets the user-friendly path for the URL item.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb231411(v=VS.85).aspx">IsDocument</a>
+<a href="https://msdn.microsoft.com/62f237b1-0599-4d9f-bbbb-30bcb90ce14d">IsDocument</a>
 </td>
 <td align="left" width="63%">
 Ascertains whether an item URL is a document or directory.
@@ -111,11 +111,11 @@ Ascertains whether an item URL is a document or directory.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a>
+<a href="https://msdn.microsoft.com/1e6272e7-d9bc-4372-8feb-f96626b88903">IUrlAccessor</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Cc142931(v=VS.85).aspx">IUrlAccessor3</a>
+<a href="https://msdn.microsoft.com/4e13a780-b264-4baa-a7b5-a5736f2004f8">IUrlAccessor3</a>
 
 
 
@@ -123,11 +123,11 @@ Ascertains whether an item URL is a document or directory.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa965709(v=VS.85).aspx">Search Protocol Handler Error Messages</a>
+<a href="https://msdn.microsoft.com/b5e99ad1-1698-483c-8173-796af33085c4">Search Protocol Handler Error Messages</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Cc678933(v=VS.85).aspx">The Indexing Process</a>
+<a href="https://msdn.microsoft.com/cfba12eb-4123-4b57-8311-d4fc8f9f514e">The Indexing Process</a>
  
 
  

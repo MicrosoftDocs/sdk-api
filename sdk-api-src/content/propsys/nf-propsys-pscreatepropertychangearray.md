@@ -52,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Creates a container for a set of <a href="https://msdn.microsoft.com/en-us/library/Bb775244(v=VS.85).aspx">IPropertyChange</a> objects. This container can be used with <a href="https://msdn.microsoft.com/6596607e-0699-4eb6-b0d6-7cc2e5eb49c7">IFileOperation</a> to apply a set of property changes to a set of files.
+Creates a container for a set of <a href="shell.IPropertyChange">IPropertyChange</a> objects. This container can be used with <a href="https://msdn.microsoft.com/6596607e-0699-4eb6-b0d6-7cc2e5eb49c7">IFileOperation</a> to apply a set of property changes to a set of files.
 
 
 ## -parameters
@@ -62,16 +62,16 @@ Creates a container for a set of <a href="https://msdn.microsoft.com/en-us/libra
 
 ### -param rgpropkey [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a>*</b>
+Type: <b>const <a href="shell.PROPERTYKEY">PROPERTYKEY</a>*</b>
 
-Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> structures that name the specific properties whose changes are being stored. If this value is <b>NULL</b>, <i>cChanges</i> must be 0.
+Pointer to an array of <a href="shell.PROPERTYKEY">PROPERTYKEY</a> structures that name the specific properties whose changes are being stored. If this value is <b>NULL</b>, <i>cChanges</i> must be 0.
 
 
 ### -param rgflags [in, optional]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb762521(v=VS.85).aspx">PKA_FLAGS</a>*</b>
+Type: <b>const <a href="shell.PKA_FLAGS">PKA_FLAGS</a>*</b>
 
-Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Bb762521(v=VS.85).aspx">PKA_FLAGS</a> values. If this value is <b>NULL</b>, <i>cChanges</i> must be 0.
+Pointer to an array of <a href="shell.PKA_FLAGS">PKA_FLAGS</a> values. If this value is <b>NULL</b>, <i>cChanges</i> must be 0.
 
 
 ### -param rgpropvar [in, optional]
@@ -99,7 +99,7 @@ Reference to the ID of the requested interface.
 
 Type: <b>void**</b>
 
-When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="https://msdn.microsoft.com/en-us/library/Bb775223(v=VS.85).aspx">IPropertyChangeArray</a>.
+When this function returns, contains the interface pointer requested in <i>riid</i>. This is typically <a href="shell.IPropertyChangeArray">IPropertyChangeArray</a>.
 
 
 ## -returns
@@ -117,11 +117,11 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-This function creates a Component Object Model (COM) object that implements <a href="https://msdn.microsoft.com/en-us/library/Bb775223(v=VS.85).aspx">IPropertyChangeArray</a>. This object is a container for a set of <a href="https://msdn.microsoft.com/en-us/library/Bb775244(v=VS.85).aspx">IPropertyChange</a> interfaces and can be used with <a href="https://msdn.microsoft.com/6596607e-0699-4eb6-b0d6-7cc2e5eb49c7">IFileOperation</a> to apply a set of property changes to a set of files.
+This function creates a Component Object Model (COM) object that implements <a href="shell.IPropertyChangeArray">IPropertyChangeArray</a>. This object is a container for a set of <a href="shell.IPropertyChange">IPropertyChange</a> interfaces and can be used with <a href="https://msdn.microsoft.com/6596607e-0699-4eb6-b0d6-7cc2e5eb49c7">IFileOperation</a> to apply a set of property changes to a set of files.
 
-You must initialize COM with <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> or <a href="https://msdn.microsoft.com/9a13e7a0-f2e2-466b-98f5-38d5972fa391">OleInitialize</a> before you call <a href="https://msdn.microsoft.com/en-us/library/Bb776491(v=VS.85).aspx">PSCreatePropertyChangeArray</a>. COM must remain initialized for the lifetime of this object. The property change array executes in a single-threaded apartment (STA).
+You must initialize COM with <a href="https://msdn.microsoft.com/0f171cf4-87b9-43a6-97f2-80ed344fe376">CoInitialize</a> or <a href="https://msdn.microsoft.com/9a13e7a0-f2e2-466b-98f5-38d5972fa391">OleInitialize</a> before you call <a href="shell.PSCreatePropertyChangeArray">PSCreatePropertyChangeArray</a>. COM must remain initialized for the lifetime of this object. The property change array executes in a single-threaded apartment (STA).
 
-A property change array can be initialized either by specifying simple changes by using the parameters, or by using various <a href="https://msdn.microsoft.com/en-us/library/Bb775223(v=VS.85).aspx">IPropertyChangeArray</a> methods to insert or append additional changes.
+A property change array can be initialized either by specifying simple changes by using the parameters, or by using various <a href="shell.IPropertyChangeArray">IPropertyChangeArray</a> methods to insert or append additional changes.
 
 The parameters are tied together by their index value. For instance, for property rgpropkey[0], the new value rgpropvar[0] is applied as specified by rgflags[0]. The <i>cChanges</i> parameter states how many of these sets there are. Therefore, the number of elements in each array should be the same: ARRAYSIZE(rgpropkey) = ARRAYSIZE(rgflags) = ARRAYSIZE(rgpropvar) = cChanges.
 
@@ -131,21 +131,25 @@ The parameters are tied together by their index value. For instance, for propert
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776491(v=VS.85).aspx">PSCreatePropertyChangeArray</a> to set the <a href="https://msdn.microsoft.com/en-us/library/ms726934(v=VS.85).aspx">Comment</a> property to "Fun" and <a href="https://msdn.microsoft.com/en-us/library/Dd757585(v=VS.85).aspx">Rating</a> to 4 on one or more files.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PSCreatePropertyChangeArray">PSCreatePropertyChangeArray</a> to set the <a href="shell.props_System_Comment">Comment</a> property to "Fun" and <a href="shell.props_System_Rating">Rating</a> to 4 on one or more files.
 
-
-```cpp
-// IFileOperation *pfo;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// IFileOperation *pfo;
 // Assume variable pfo has been initialized by calling SetOperationFlags, 
 // ApplyPropertiesToItems, and SetProgressMessage as appropriate.
  
 PROPVARIANT rgpropvar[2] = {0};
 
-HRESULT hr = InitPropVariantFromString(L"Fun", &rgpropvar[0]);
+HRESULT hr = InitPropVariantFromString(L"Fun", &amp;rgpropvar[0]);
 
 if (SUCCEEDED(hr))
 {
-    hr = InitPropVariantFromUInt32(RATING_FOUR_STARS_SET, &rgpropvar[1]);
+    hr = InitPropVariantFromUInt32(RATING_FOUR_STARS_SET, &amp;rgpropvar[1]);
 
     if (SUCCEEDED(hr))
     {
@@ -153,24 +157,24 @@ if (SUCCEEDED(hr))
         PKA_FLAGS rgflags[2] = {PKA_SET, PKA_SET};
         IPropertyChangeArray *pChangeArray;
 
-        hr = PSCreatePropertyChangeArray(rgkey, rgflags, rgpropvar, 2, IID_PPV_ARGS(&pChangeArray));
+        hr = PSCreatePropertyChangeArray(rgkey, rgflags, rgpropvar, 2, IID_PPV_ARGS(&amp;pChangeArray));
 
         if (SUCCEEDED(hr))
         {
-            hr = pfo->SetProperties(pChangeArray);
+            hr = pfo-&gt;SetProperties(pChangeArray);
 
             if (SUCCEEDED(hr))
             {
-                hr = pfo->PerformOperations();
+                hr = pfo-&gt;PerformOperations();
             }
-            pChangeArray->Release();
+            pChangeArray-&gt;Release();
         }
     }
     ClearPropVariantArray(rgpropvar, ARRAYSIZE(rgpropvar));
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -179,7 +183,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776494(v=VS.85).aspx">PSCreateSimplePropertyChange</a>
+<a href="shell.PSCreateSimplePropertyChange">PSCreateSimplePropertyChange</a>
  
 
  

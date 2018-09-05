@@ -4,10 +4,10 @@ title: ICspAlgorithm::get_Name
 author: windows-sdk-content
 description: Retrieves the abbreviated algorithm name.
 old-location: security\icspalgorithm_name_property.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: af7fa894-58e2-4607-9b6e-c32d4f412ddf
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ICspAlgorithm interface [Security],Name property, ICspAlgorithm.Name, ICspAlgorithm.get_Name, ICspAlgorithm::Name, ICspAlgorithm::get_Name, Name property [Security], Name property [Security],ICspAlgorithm interface, certenroll/ICspAlgorithm::Name, certenroll/ICspAlgorithm::get_Name, get_Name, security.icspalgorithm_name_property
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,9 +64,9 @@ This property is read-only.
 
 
 
-The <b>Name</b> property retrieves a shortened algorithm name. Call the <a href="https://msdn.microsoft.com/en-us/library/Aa375960(v=VS.85).aspx">LongName</a> property to retrieve a more descriptive name. The names are not localized. Examples are shown in the following table.
+The <b>Name</b> property retrieves a shortened algorithm name. Call the <a href="https://msdn.microsoft.com/aaa5175f-c110-4e76-9145-1c667ea169a1">LongName</a> property to retrieve a more descriptive name. The names are not localized. Examples are shown in the following table.
 
-<div class="alert"><b>Note</b>  Cryptography API: Next Generation (CNG) key storage providers (KSPs) do not support the long name concept. The <a href="https://msdn.microsoft.com/en-us/library/Aa375960(v=VS.85).aspx">LongName</a> property and <b>Name</b> property return an abbreviated name.</div>
+<div class="alert"><b>Note</b>  Cryptography API: Next Generation (CNG) key storage providers (KSPs) do not support the long name concept. The <a href="https://msdn.microsoft.com/aaa5175f-c110-4e76-9145-1c667ea169a1">LongName</a> property and <b>Name</b> property return an abbreviated name.</div>
 <div> </div>
 <table>
 <tr>
@@ -126,7 +126,7 @@ The <b>Name</b> property retrieves a shortened algorithm name. Call the <a href=
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375947(v=VS.85).aspx">ICspAlgorithm</a>
+<a href="https://msdn.microsoft.com/08eba616-2e96-40cd-9fda-8549de98c138">ICspAlgorithm</a>
  
 
  

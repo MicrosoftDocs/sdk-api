@@ -7,7 +7,7 @@ old-location: wininet\internethangup.htm
 old-project: WinInet
 ms.assetid: 5d74532e-14cd-45c1-b16b-b302bed89c12
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: InternetHangUp, InternetHangUp function [WinINet], _inet_internethangup_function, wininet.internethangup, winineti/InternetHangUp
 ms.prod: windows
 ms.technology: windows-sdk

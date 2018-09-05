@@ -7,7 +7,7 @@ old-location: mscs\clusversion_clusterlowestversion.htm
 old-project: mscs
 ms.assetid: 32393f01-467f-4d73-bbe7-18c428806e7c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusVersion object [Failover Cluster],ClusterLowestVersion property, ClusVersion.ClusterLowestVersion, ClusterLowestVersion property [Failover Cluster], ClusterLowestVersion property [Failover Cluster],ClusVersion object, ISClusVersion.get_ClusterLowestVersion, ISClusVersion::get_ClusterLowestVersion, _wolf_clusversion.clusterlowestversion, get_ClusterLowestVersion, mscs.clusversion_clusterlowestversion
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,8 +59,8 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Returns a value containing the lowest version of the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">Cluster service</a> with which the current 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> is compatible.
+    <a href="c_gly.htm">Cluster service</a> with which the current 
+    <a href="c_gly.htm">cluster</a> is compatible.
 
 This property is read-only.
 

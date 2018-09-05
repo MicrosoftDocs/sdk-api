@@ -4,10 +4,10 @@ title: EnumerateSecurityPackagesA function
 author: windows-sdk-content
 description: Returns an array of SecPkgInfo structures that provide information about the security packages available to the client.
 old-location: security\enumeratesecuritypackages.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 900790a6-111d-43f5-9316-e85aab03a3bc
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: EnumerateSecurityPackages, EnumerateSecurityPackages function [Security], EnumerateSecurityPackagesA, EnumerateSecurityPackagesW, _ssp_enumeratesecuritypackages, security.enumeratesecuritypackages, sspi/EnumerateSecurityPackages, sspi/EnumerateSecurityPackagesA, sspi/EnumerateSecurityPackagesW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -154,7 +154,7 @@ The caller can use the <b>Name</b> member of a <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
 
 
 

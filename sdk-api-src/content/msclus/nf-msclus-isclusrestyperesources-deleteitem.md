@@ -7,7 +7,7 @@ old-location: mscs\clusrestyperesources_deleteitem.htm
 old-project: mscs
 ms.assetid: be221cf6-0f27-48b2-bb87-5c7200841cd7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusResTypeResources class [Failover Cluster],DeleteItem method, ClusResTypeResources.DeleteItem, DeleteItem, DeleteItem method [Failover Cluster], DeleteItem method [Failover Cluster],ClusResTypeResources class, ISClusResTypeResources.DeleteItem, ISClusResTypeResources::DeleteItem, _wolf_clusrestyperesources.deleteitem, mscs.clusrestyperesources_deleteitem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ req.product: GDI+ 1.1
 
 Deletes a 
     <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> from the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> and removes it from a 
+    <a href="c_gly.htm">cluster</a> and removes it from a 
     <a href="https://msdn.microsoft.com/3164f2ee-7230-4d77-8c7c-cfba3aaee9d4">ClusResTypeResources</a> collection.
 
 

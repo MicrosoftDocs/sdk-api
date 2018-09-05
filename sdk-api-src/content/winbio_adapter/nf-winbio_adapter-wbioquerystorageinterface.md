@@ -4,10 +4,10 @@ title: WbioQueryStorageInterface function
 author: windows-sdk-content
 description: Retrieves a pointer to the WINBIO_STORAGE_INTERFACE structure for the storage adapter.
 old-location: secbiomet\wbioquerystorageinterface.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: ff7297ee-8d0a-41f4-8abf-66ab5163dae7
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: WbioQueryStorageInterface, WbioQueryStorageInterface function [Windows Biometric Framework API], secbiomet.wbioquerystorageinterface, winbio_adapter/WbioQueryStorageInterface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -108,20 +108,24 @@ To be visible to the Windows Biometric Framework, the <b>WbioQueryStorageInterfa
 
 The following pseudocode shows one possible implementation of this function.
 
-
-```cpp
-HRESULT
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT
 WINAPI
 WbioQueryStorageInterface(
     __out PWINBIO_STORAGE_INTERFACE *StorageInterface
     )
 {
-    *StorageInterface = &g_StorageInterface; 
+    *StorageInterface = &amp;g_StorageInterface; 
     return S_OK;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

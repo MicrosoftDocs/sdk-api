@@ -7,7 +7,7 @@ old-location: wpdauto\iportabledevicedispatchfactory_interface.htm
 old-project: wpdauto
 ms.assetid: 537551c9-0773-44a9-b602-7d2a6bf9ad00
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IPortableDeviceDispatchFactory, IPortableDeviceDispatchFactory interface [WPD Automation], IPortableDeviceDispatchFactory interface [WPD Automation],described, portabledeviceapi/IPortableDeviceDispatchFactory, wpdauto.iportabledevicedispatchfactory_interface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: ADAM
 ## -description
 
 
-Represents a factory that can instantiate a WPD Automation <a href="https://msdn.microsoft.com/en-us/library/ms630493(v=VS.85).aspx">Device</a> object.
+Represents a factory that can instantiate a WPD Automation <a href="wpdauto.device_object_script">Device</a> object.
 
 
 ## -inheritance
@@ -76,7 +76,7 @@ The <b>IPortableDeviceDispatchFactory</b> interface has these methods.
 <a href="https://msdn.microsoft.com/80aa36cd-3831-4eb5-a5bb-a8e48f20fc62">GetDeviceDispatch</a>
 </td>
 <td align="left" width="63%">
-Instantiates a WPD Automation <a href="https://msdn.microsoft.com/en-us/library/ms630493(v=VS.85).aspx">Device</a> object for a given WPD device identifier.
+Instantiates a WPD Automation <a href="wpdauto.device_object_script">Device</a> object for a given WPD device identifier.
 
 </td>
 </tr>
@@ -89,14 +89,18 @@ Instantiates a WPD Automation <a href="https://msdn.microsoft.com/en-us/library/
 
 The <b>IPortableDeviceDispatchFactory</b> interface can be CoCreated directly using <b>CLSID_PortableDeviceDispatchFactory</b> as in the following code.
 
-
-```cpp
-IPortableDeviceDispatchFactgory* pDeviceDispatchFactory = NULL;
-HRESULT hr = CoCreateInstance(CLSID_PortableDeviceDispatchFactory, NULL, CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&pDeviceDispatchFactory));   
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IPortableDeviceDispatchFactgory* pDeviceDispatchFactory = NULL;
+HRESULT hr = CoCreateInstance(CLSID_PortableDeviceDispatchFactory, NULL, CLSCTX_INPROC_SERVER, IID_PPV_ARGS(&amp;pDeviceDispatchFactory));   
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 #### Examples
 

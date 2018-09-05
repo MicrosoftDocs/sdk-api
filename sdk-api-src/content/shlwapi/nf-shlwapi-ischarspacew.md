@@ -7,7 +7,7 @@ old-location: shell\IsCharSpace.htm
 old-project: shell
 ms.assetid: 40ccde4d-38e8-4c03-a826-b6c060037ae5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IsCharSpace, IsCharSpace function [Windows Shell], IsCharSpaceA, IsCharSpaceW, _shell_IsCharSpace, shell.IsCharSpace, shlwapi/IsCharSpace, shlwapi/IsCharSpaceA, shlwapi/IsCharSpaceW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

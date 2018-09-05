@@ -7,7 +7,7 @@ old-location: shell\FolderItem_InvokeVerb.htm
 old-project: shell
 ms.assetid: 569bdc88-15ef-4d08-923c-4f41e5ae5a38
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: FolderItem object [Windows Shell],InvokeVerb method, FolderItem.InvokeVerb, FolderItem::InvokeVerb, InvokeVerb, InvokeVerb method [Windows Shell], InvokeVerb method [Windows Shell],FolderItem object, _win32_FolderItem_InvokeVerb, shell.FolderItem_InvokeVerb
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,9 +91,13 @@ The following example uses <b>InvokeVerb</b> to invoke the default verb ("open" 
 
 JScript:
 
-
-```javascript
-<script language="JScript">
+<div class="code"><span codelanguage="JScript"><table>
+<tr>
+<th>JScript</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="JScript"&gt;
     function fnFolderItemInvokeVerbJ()
     {
         var objShell = new ActiveXObject("shell.application");
@@ -114,16 +118,20 @@ JScript:
             }
         }
     }
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 VBScript:
 
-
-```vb
-<script language="VBScript">
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="VBScript"&gt;
     function fnFolderItemInvokeVerbVB()
         dim objShell
         
@@ -149,16 +157,20 @@ VBScript:
         end if
         set objShell = nothing
     end function
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 Visual Basic:
 
-
-```vb
-Private Sub fnFolderItemInvokeVerbVB()
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Private Sub fnFolderItemInvokeVerbVB()
     Dim objShell   As Shell
     Dim objFolder2 As Folder2
     Dim ssfWINDOWS As Long
@@ -184,10 +196,10 @@ Private Sub fnFolderItemInvokeVerbVB()
     Set objFolder2 = Nothing
     Set objShell = Nothing
 End Sub
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

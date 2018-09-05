@@ -4,10 +4,10 @@ title: IStorage::SetStateBits
 author: windows-sdk-content
 description: The SetStateBits method stores up to 32 bits of state information in this storage object.
 old-location: stg\istorage_setstatebits.htm
-old-project: stg
+old-project: Stg
 ms.assetid: 52606df8-10ea-40e7-bb61-c86c7b7262d2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IStorage interface [Structured Storage],SetStateBits method, IStorage.SetStateBits, IStorage::SetStateBits, SetStateBits, SetStateBits method [Structured Storage], SetStateBits method [Structured Storage],IStorage interface, _stg_istorage_setstatebits, objidl/IStorage::SetStateBits, stg.istorage_setstatebits
 ms.prod: windows
 ms.technology: windows-sdk

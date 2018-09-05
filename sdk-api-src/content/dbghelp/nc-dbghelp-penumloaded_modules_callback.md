@@ -7,7 +7,7 @@ old-location: base\enumerateloadedmodulesproc64.htm
 old-project: debug
 ms.assetid: f6acb9cf-81f7-4b05-95e2-9628855f6b51
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: EnumerateLoadedModulesProc64, EnumerateLoadedModulesProc64 callback, EnumerateLoadedModulesProc64 callback function, PENUMLOADED_MODULES_CALLBACK, PENUMLOADED_MODULES_CALLBACK64, PENUMLOADED_MODULES_CALLBACKW64, _win32_enumerateloadedmodulesproc64, base.enumerateloadedmodulesproc64, dbghelp/EnumerateLoadedModulesProc64
 ms.prod: windows
 ms.technology: windows-sdk
@@ -101,9 +101,13 @@ To stop enumeration, the callback function must return <b>FALSE</b>.
 
 This callback function supersedes the <i>PENUMLOADED_MODULES_CALLBACK</i> callback function. <i>PENUMLOADED_MODULES_CALLBACK</i> is defined as follows in DbgHelp.h. 
 
-
-```cpp
-#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
 #define PENUMLOADED_MODULES_CALLBACK PENUMLOADED_MODULES_CALLBACK64
 #else
 typedef BOOL (CALLBACK *PENUMLOADED_MODULES_CALLBACK)(
@@ -112,10 +116,10 @@ typedef BOOL (CALLBACK *PENUMLOADED_MODULES_CALLBACK)(
     __in ULONG ModuleSize,
     __in_opt PVOID UserContext
     );
-#endif
-```
-
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

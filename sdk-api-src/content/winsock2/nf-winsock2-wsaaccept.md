@@ -4,10 +4,10 @@ title: WSAAccept function
 author: windows-sdk-content
 description: The WSAAccept function conditionally accepts a connection based on the return value of a condition function, provides quality of service flow specifications, and allows the transfer of connection data.
 old-location: winsock\wsaaccept_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: f385f63f-49b2-4eb7-8717-ad4cca1a2252
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: WSAAccept, WSAAccept function [Winsock], _win32_wsaaccept_2, winsock.wsaaccept_2, winsock2/WSAAccept
 ms.prod: windows
 ms.technology: windows-sdk
@@ -105,7 +105,7 @@ The integer referred to by <i>addrlen</i> initially contains the amount of space
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEACCES</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEACCES</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -116,7 +116,7 @@ An attempt was made to access a socket in a way forbidden by its access permissi
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAECONNREFUSED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAECONNREFUSED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -127,7 +127,7 @@ No connection could be made because the target machine actively refused it. This
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAECONNRESET</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAECONNRESET</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -138,7 +138,7 @@ An existing connection was forcibly closed by the remote host. This error is ret
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -149,7 +149,7 @@ The system detected an invalid pointer address in attempting to use a pointer ar
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINTR</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINTR</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -161,7 +161,7 @@ A blocking operation was interrupted by a call to <a href="https://msdn.microsof
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -172,7 +172,7 @@ A blocking operation is currently executing. This error is returned if a blockin
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -185,7 +185,7 @@ An invalid argument was supplied.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEMFILE</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEMFILE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -197,7 +197,7 @@ Too many open sockets. This error is returned if the queue is nonempty upon entr
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -208,7 +208,7 @@ A socket operation encountered a dead network. This error is returned if the net
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOBUFS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOBUFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -219,7 +219,7 @@ An operation on a socket could not be performed because the system lacked suffic
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -230,7 +230,7 @@ An operation was attempted on something that is not a socket. This error is retu
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEOPNOTSUPP</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEOPNOTSUPP</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -241,7 +241,7 @@ The protocol family has not been configured into the system or no implementation
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEWOULDBLOCK</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEWOULDBLOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -252,7 +252,7 @@ A non-blocking socket operation could not be completed immediately. This error i
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -264,7 +264,7 @@ call to the <b>WSAStartup</b> function dit not occur before using this function.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSATRY_AGAIN</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSATRY_AGAIN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -294,7 +294,7 @@ A socket in default mode (blocking) will block until a connection is present whe
 <b>WSAAccept</b> and no connections are pending on the queue.
 
 A socket in nonblocking mode (blocking) fails with the error 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEWOULDBLOCK</a> when an application calls 
+<a href="windows_sockets_error_codes_2.htm">WSAEWOULDBLOCK</a> when an application calls 
 <b>WSAAccept</b> and no connections are pending on the queue. After 
 <b>WSAAccept</b> succeeds and returns a new socket handle, the accepted socket cannot be used to accept any more connections. The original socket remains open and listens for new connection requests.
 
@@ -302,9 +302,13 @@ The <i>addr</i> parameter is a result parameter that is filled in with the addre
 
 A prototype of the condition function is defined in the Winsock2.h header file as the <b>LPCONDITIONPROC</b> as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 int CALLBACK ConditionFunc(
   IN LPWSABUF lpCallerId,
   IN LPWSABUF lpCallerData,
@@ -315,10 +319,10 @@ int CALLBACK ConditionFunc(
   OUT GROUP FAR *g,
   IN DWORD_PTR dwCallbackData
 );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The <b>ConditionFunc</b> is a placeholder for the application-specified callback function. The actual condition function must reside in a DLL or application module. It is exported in the module definition file.
 
 The <i>lpCallerId</i> parameter points to a WSABUF structure that contains the address of the connecting entity, where its <i>len</i> parameter is the length of the buffer in bytes, and its <i>buf</i> parameter is a pointer to the buffer. The <i>lpCallerData</i> is a value parameter that contains any user data. The information in these parameters is sent along with the connection request. If no caller identification or caller data is available, the corresponding parameters will be <b>NULL</b>. Many network protocols do not support connect-time caller data. Most conventional network protocols can be expected to support caller identifier information at connection-request time. The buf portion of the 
@@ -361,11 +365,15 @@ The <i>dwCallbackData</i> parameter value passed to the condition function is th
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following example demonstrates the use of the <b>WSAAccept</b> function.
 
-
-```cpp
-#include <winsock2.h>
-#include <stdio.h>
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;winsock2.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;windows.h&gt;
 
 /* Define an example conditional function that depends on the pQos field */
 int CALLBACK ConditionAcceptFunc(
@@ -401,7 +409,7 @@ int main() {
     int error;
 
     /* Initialize Winsock */
-    error = WSAStartup(MAKEWORD(2,2), &wsaData);
+    error = WSAStartup(MAKEWORD(2,2), &amp;wsaData);
     if (error) {
         printf("WSAStartup() failed with error: %d\n", error);
         return 1;
@@ -423,13 +431,13 @@ int main() {
     service.sin_port = htons(port);
     hostent* thisHost;
     thisHost = gethostbyname("");
-    ip = inet_ntoa (*(struct in_addr *)*thisHost->h_addr_list);
+    ip = inet_ntoa (*(struct in_addr *)*thisHost-&gt;h_addr_list);
     service.sin_addr.s_addr = inet_addr(ip);
 
     /*-----------------------------------------
      *  Bind the listening socket to the IP address.
      */ and port number specified by the sockaddr structure.
-    error = bind(ListenSocket, (SOCKADDR *) &service, sizeof(SOCKADDR));
+    error = bind(ListenSocket, (SOCKADDR *) &amp;service, sizeof(SOCKADDR));
     if (error == SOCKET_ERROR) {  
         printf("bind() failed with error: %d\n", WSAGetLastError() );
         closesocket(ListenSocket);
@@ -453,8 +461,8 @@ int main() {
      *  Accept an incoming connnection request on the
      *  listening socket and transfer control to the 
      */ accepting socket.
-    AcceptSocket = WSAAccept(ListenSocket, (SOCKADDR*) &saClient, &iClientSize, 
-        &ConditionAcceptFunc, NULL);
+    AcceptSocket = WSAAccept(ListenSocket, (SOCKADDR*) &amp;saClient, &amp;iClientSize, 
+        &amp;ConditionAcceptFunc, NULL);
  
     /*  Now do some work with the AcceptSocket 
      *  At this point, the application could
@@ -469,10 +477,10 @@ int main() {
 
     return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <b>Windows Phone 8:</b> This function is supported for Windows Phone Store apps on Windows Phone 8 and later.
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.

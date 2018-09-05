@@ -4,10 +4,10 @@ title: IsWindows7OrGreater function
 author: windows-sdk-content
 description: Indicates if the current OS version matches, or is greater than, the Windows 7 version.
 old-location: base\iswindows7orgreater.htm
-old-project: sysinfo
+old-project: SysInfo
 ms.assetid: 5C475B5E-1412-4F60-AB81-00BE83E204BF
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: IsWindows7OrGreater, IsWindows7OrGreater function, base.iswindows7orgreater, versionhelpers/IsWindows7OrGreater
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,18 +87,22 @@ The inline functions defined in the <b>VersionHelpers.h</b> header file let you 
 
 For example, if your application requires Windows 7 or later, use the following test.
 
-
-```cpp
-#include <VersionHelpers.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;VersionHelpers.h&gt;
 …
     if (!IsWindows7OrGreater())
     {
        MessageBox(NULL, "You need at least Windows 7", "Version Not Supported", MB_OK);
     }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

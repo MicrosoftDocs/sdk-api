@@ -4,10 +4,10 @@ title: ITargetInfo::SetTargetMode
 author: windows-sdk-content
 description: Sets the target mode.
 old-location: smi\itargetinfo_settargetmode.htm
-old-project: smi
+old-project: SMI
 ms.assetid: f8c5e67f-a084-4916-8371-bba4e7fb1da1
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ITargetInfo interface [SMI],SetTargetMode method, ITargetInfo.SetTargetMode, ITargetInfo::SetTargetMode, SetTargetMode, SetTargetMode method [SMI], SetTargetMode method [SMI],ITargetInfo interface, smi.itargetinfo_settargetmode, wcmconfig/ITargetInfo::SetTargetMode
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrControl_UpdateItem.htm
 old-project: shell
 ms.assetid: deb87d2f-74da-450a-a424-505240eadacb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ISyncMgrControl interface [Windows Shell],UpdateItem method, ISyncMgrControl.UpdateItem, ISyncMgrControl::UpdateItem, UpdateItem, UpdateItem method [Windows Shell], UpdateItem method [Windows Shell],ISyncMgrControl interface, _shell_ISyncMgrControl_UpdateItem, shell.ISyncMgrControl_UpdateItem, syncmgr/ISyncMgrControl::UpdateItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -105,9 +105,13 @@ If SYNCMGR_CF_WAIT is set in the <i>nControlFlags</i> parameter, <b>UpdateItem</
 
 The following example shows the usage of <b>ISyncMgrControl::UpdateItem</b> by a handler's procedure.
 
-
-```cpp
-void CMyDeviceHandler::MiscProc(...)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>void CMyDeviceHandler::MiscProc(...)
 {
     ...
 
@@ -116,22 +120,22 @@ void CMyDeviceHandler::MiscProc(...)
     
     hr = CoCreateInstance(CLSID_SyncMgrControl, 
                           CLSCTX_SERVER, 
-                          IID_PPV_ARGS(&pControl));
+                          IID_PPV_ARGS(&amp;pControl));
     if (SUCCEEDED(hr))
     {
         // Tell Sync Center that properties of the item have changed.
-        hr = pControl->UpdateItem(s_szMySyncHandlerID,
+        hr = pControl-&gt;UpdateItem(s_szMySyncHandlerID,
                                   s_szMySyncHandlerMusicContentID,
                                   SYNCMGR_CF_WAIT);
-        pControl->Release();
+        pControl-&gt;Release();
     }
 
     ...
 
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

@@ -4,10 +4,10 @@ title: IAzApplication::OpenScope
 author: windows-sdk-content
 description: Opens an IAzScope object with the specified name.
 old-location: security\iazapplication_openscope.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: c2959a6c-5c87-495b-8025-c6b9c330a0bc
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AzApplication object [Security],OpenScope method, IAzApplication interface [Security],OpenScope method, IAzApplication.OpenScope, IAzApplication::OpenScope, OpenScope, OpenScope method [Security], OpenScope method [Security],AzApplication object, OpenScope method [Security],IAzApplication interface, azroles/IAzApplication::OpenScope, security.iazapplication_openscope
 ms.prod: windows
 ms.technology: windows-sdk

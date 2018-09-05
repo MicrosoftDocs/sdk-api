@@ -84,11 +84,11 @@ Specifies that the job uploads a file to the server and receives a reply file fr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363038(v=VS.85).aspx">IBackgroundCopyJob::GetType</a>
+<a href="https://msdn.microsoft.com/b84c45c2-379a-40d0-91ab-0124f0ef6b00">IBackgroundCopyJob::GetType</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363051(v=VS.85).aspx">IBackgroundCopyManager::CreateJob</a>
+<a href="https://msdn.microsoft.com/6d23e3c0-673b-4f37-b6a0-e364b2d73886">IBackgroundCopyManager::CreateJob</a>
  
 
  

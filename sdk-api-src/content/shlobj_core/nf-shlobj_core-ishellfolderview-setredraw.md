@@ -7,7 +7,7 @@ old-location: shell\IShellFolderView_SetRedraw.htm
 old-project: shell
 ms.assetid: fe249faa-561f-4179-a478-4ff284ffa963
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellFolderView interface [Windows Shell],SetRedraw method, IShellFolderView.SetRedraw, IShellFolderView::SetRedraw, SetRedraw, SetRedraw method [Windows Shell], SetRedraw method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_SetRedraw, shell.IShellFolderView_SetRedraw, shlobj_core/IShellFolderView::SetRedraw
 ms.prod: windows
 ms.technology: windows-sdk

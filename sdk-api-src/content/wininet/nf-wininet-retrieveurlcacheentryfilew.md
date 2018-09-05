@@ -7,7 +7,7 @@ old-location: wininet\retrieveurlcacheentryfile.htm
 old-project: WinInet
 ms.assetid: eb311b8d-560d-4742-af4c-b5afe660c8e5
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: RetrieveUrlCacheEntryFile, RetrieveUrlCacheEntryFile function [WinINet], RetrieveUrlCacheEntryFileA, RetrieveUrlCacheEntryFileW, _inet_retrieveurlcacheentryfile_function, wininet.retrieveurlcacheentryfile, wininet/RetrieveUrlCacheEntryFile, wininet/RetrieveUrlCacheEntryFileA, wininet/RetrieveUrlCacheEntryFileW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wcs\createcolorspace.htm
 old-project: WCS
 ms.assetid: c3fc798c-4bb9-4010-87d4-edc0005b7698
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: CreateColorSpace, CreateColorSpace function [Windows Color System], CreateColorSpaceA, CreateColorSpaceW, _color_CreateColorSpace, wcs.createcolorspace, wingdi/CreateColorSpace, wingdi/CreateColorSpaceA, wingdi/CreateColorSpaceW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>CreateColorSpace</b> function creates a logical <a href="https://msdn.microsoft.com/en-us/library/Dd371818(v=VS.85).aspx">color space</a>.
+The <b>CreateColorSpace</b> function creates a logical <a href="c.htm">color space</a>.
 
 
 ## -parameters

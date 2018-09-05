@@ -7,7 +7,7 @@ old-location: mscs\getclusterfromgroup.htm
 old-project: mscs
 ms.assetid: 43e1a74f-3320-4b1a-a946-6485d380dda1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetClusterFromGroup, GetClusterFromGroup function [Failover Cluster], PCLUSAPI_GET_CLUSTER_FROM_GROUP, PCLUSAPI_GET_CLUSTER_FROM_GROUP function [Failover Cluster], _wolf_getclusterfromgroup, clusapi/GetClusterFromGroup, clusapi/PCLUSAPI_GET_CLUSTER_FROM_GROUP, mscs.getclusterfromgroup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Returns a handle to the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> associated with a  <a href="https://msdn.microsoft.com/en-us/library/Aa369645(v=VS.85).aspx">group</a>. The <b>PCLUSAPI_GET_CLUSTER_FROM_GROUP</b> type defines a pointer to this function.
+Returns a handle to the <a href="c_gly.htm">cluster</a> associated with a  <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a>. The <b>PCLUSAPI_GET_CLUSTER_FROM_GROUP</b> type defines a pointer to this function.
 
 
 ## -parameters

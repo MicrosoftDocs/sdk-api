@@ -4,10 +4,10 @@ title: QOSQueryFlow function
 author: windows-sdk-content
 description: Requests information about a specific flow.
 old-location: qos\qosqueryflow.htm
-old-project: qos
+old-project: QOS
 ms.assetid: 8cae3ba2-beca-45e2-9526-2d917abc2606
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: QOSQueryFlow, QOSQueryFlow function [QOS], QOSQueryFlowFundamentals, QOSQueryOutgoingRate, QOSQueryPacketPriority, QOS_QUERYFLOW_FRESH, qos.qosqueryflow, qos2/QOSQueryFlow
 ms.prod: windows
 ms.technology: windows-sdk

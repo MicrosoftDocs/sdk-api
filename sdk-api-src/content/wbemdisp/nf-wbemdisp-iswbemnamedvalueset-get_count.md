@@ -7,7 +7,7 @@ old-location: wmi\swbemnamedvalueset_count.htm
 old-project: WmiSdk
 ms.assetid: 4086cf91-69cd-4bce-a6e0-f223b18cd18d
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: Count property [Windows Management Instrumentation], Count property [Windows Management Instrumentation],ISWbemNamedValueSet interface, Count property [Windows Management Instrumentation],SWbemNamedValueSet object, ISWbemNamedValueSet interface [Windows Management Instrumentation],Count property, ISWbemNamedValueSet.get_Count, ISWbemNamedValueSet::get_Count, SWbemNamedValueSet object [Windows Management Instrumentation],Count property, SWbemNamedValueSet.Count, _hmm_swbemnamedvalueset.count, get_Count, wmi.swbemnamedvalueset_count
 ms.prod: windows
 ms.technology: windows-sdk

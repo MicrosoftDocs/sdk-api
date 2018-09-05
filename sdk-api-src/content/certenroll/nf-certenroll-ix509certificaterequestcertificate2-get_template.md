@@ -4,10 +4,10 @@ title: IX509CertificateRequestCertificate2::get_Template
 author: windows-sdk-content
 description: Retrieves the certificate request template used during initialization.
 old-location: security\ix509certificaterequestcertificate2_template.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: 0332c4d5-84a9-4e1b-bd43-e1df1024b3c8
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509CertificateRequestCertificate2 interface [Security],Template property, IX509CertificateRequestCertificate2.Template, IX509CertificateRequestCertificate2.get_Template, IX509CertificateRequestCertificate2::Template, IX509CertificateRequestCertificate2::get_Template, Template property [Security], Template property [Security],IX509CertificateRequestCertificate2 interface, certenroll/IX509CertificateRequestCertificate2::Template, certenroll/IX509CertificateRequestCertificate2::get_Template, get_Template, security.ix509certificaterequestcertificate2_template
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351612(v=VS.85).aspx">IX509CertificateRequestCertificate2</a>
+<a href="https://msdn.microsoft.com/4f4b5c95-3213-4ccb-9bdd-05cb221f54bd">IX509CertificateRequestCertificate2</a>
  
 
  

@@ -134,11 +134,11 @@ Director's comments for children.
 
 
 
-<a href="https://msdn.microsoft.com/library/Dd695197(v=VS.85).aspx">DefaultSubpictureLanguageExt</a>
+<a href="mstv.msvidwebdvd_defaultsubpicturelanguageext_property">DefaultSubpictureLanguageExt</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd376377(v=VS.85).aspx">SelectDefaultSubpictureLanguage</a>
+<a href="mstv.msvidwebdvd_selectdefaultsubpicturelanguage_method">SelectDefaultSubpictureLanguage</a>
 
 
 

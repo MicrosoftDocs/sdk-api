@@ -7,7 +7,7 @@ old-location: wec\ecsetobjectarrayproperty.htm
 old-project: WEC
 ms.assetid: 0c219e3b-a7dd-4a7f-8fb3-0d281351ba24
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: EcSetObjectArrayProperty, EcSetObjectArrayProperty function, evcoll/EcSetObjectArrayProperty, wec.ecsetobjectarrayproperty, wes.ecsetobjectarrayproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,7 +89,7 @@ The value of the property.
 
 
 
-This function returns BOOL __stdcall.
+This function returns BOOL.
 
 
 

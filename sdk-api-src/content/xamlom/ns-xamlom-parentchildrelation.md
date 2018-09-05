@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\parentchildrelation.htm
 old-project: xaml_diagnostics
 ms.assetid: 49BC909B-2886-4F03-8F4D-60B9126DA236
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: PParentChildRelation, PParentChildRelation structure pointer, ParentChildRelation, ParentChildRelation structure, xaml_diagnostics.parentchildrelation, xamlom/PParentChildRelation, xamlom/ParentChildRelation
 ms.prod: windows
 ms.technology: windows-sdk

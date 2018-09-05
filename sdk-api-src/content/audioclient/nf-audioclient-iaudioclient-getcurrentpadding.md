@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioclient_getcurrentpadding.htm
 old-project: CoreAudio
 ms.assetid: 2a2c9ddf-f668-41ff-85f0-34de593c0fe2
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: GetCurrentPadding, GetCurrentPadding method [Core Audio], GetCurrentPadding method [Core Audio],IAudioClient interface, IAudioClient interface [Core Audio],GetCurrentPadding method, IAudioClient.GetCurrentPadding, IAudioClient::GetCurrentPadding, IAudioClientGetCurrentPadding, audioclient/IAudioClient::GetCurrentPadding, coreaudio.iaudioclient_getcurrentpadding
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: netmgmt\netwkstatransportenum.htm
 old-project: netmgmt
 ms.assetid: 08bd22a9-00a7-4563-9353-c070ca9b2500
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: 0, NetWkstaTransportEnum, NetWkstaTransportEnum function [Network Management], _win32_netwkstatransportenum, lmwksta/NetWkstaTransportEnum, netmgmt.netwkstatransportenum
 ms.prod: windows
 ms.technology: windows-sdk

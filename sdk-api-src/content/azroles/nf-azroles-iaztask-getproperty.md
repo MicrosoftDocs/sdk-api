@@ -4,10 +4,10 @@ title: IAzTask::GetProperty
 author: windows-sdk-content
 description: Returns the IAzTask object property with the specified property ID.
 old-location: security\iaztask_getproperty.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: d484f56c-3d96-48df-a0d1-1bea58e30f26
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AZ_PROP_APPLICATION_DATA, AZ_PROP_CHILD_CREATE, AZ_PROP_DESCRIPTION, AZ_PROP_NAME, AZ_PROP_TASK_BIZRULE, AZ_PROP_TASK_BIZRULE_LANGUAGE, AZ_PROP_TASK_IS_ROLE_DEFINITION, AZ_PROP_TASK_OPERATIONS, AZ_PROP_TASK_TASKS, AZ_PROP_WRITABLE, AzTask object [Security],GetProperty method, GetProperty, GetProperty method [Security], GetProperty method [Security],AzTask object, GetProperty method [Security],IAzTask interface, IAzTask interface [Security],GetProperty method, IAzTask.GetProperty, IAzTask::GetProperty, azroles/IAzTask::GetProperty, security.iaztask_getproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-The <b>GetProperty</b> method returns the <a href="https://msdn.microsoft.com/en-us/library/Aa378367(v=VS.85).aspx">IAzTask</a> object property  with the specified property ID.
+The <b>GetProperty</b> method returns the <a href="https://msdn.microsoft.com/90eb19c9-1490-43f4-ab4b-393e825aeb2f">IAzTask</a> object property  with the specified property ID.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The <b>GetProperty</b> method returns the <a href="https://msdn.microsoft.com/en
 
 ### -param lPropId [in]
 
-Property ID of the <a href="https://msdn.microsoft.com/en-us/library/Aa378367(v=VS.85).aspx">IAzTask</a> object property  to return. The following table shows the possible values.
+Property ID of the <a href="https://msdn.microsoft.com/90eb19c9-1490-43f4-ab4b-393e825aeb2f">IAzTask</a> object property  to return. The following table shows the possible values.
 
 <table>
 <tr>
@@ -75,7 +75,7 @@ Property ID of the <a href="https://msdn.microsoft.com/en-us/library/Aa378367(v=
 </dl>
 </td>
 <td width="60%">
-Also  accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa378377(v=VS.85).aspx">ApplicationData</a>  property
+Also  accessed through the <a href="https://msdn.microsoft.com/0a3939ee-6449-4eef-bb23-11e6d7018f04">ApplicationData</a>  property
 
 </td>
 </tr>
@@ -95,7 +95,7 @@ Determines whether the current user has permission to create child objects. This
 </dl>
 </td>
 <td width="60%">
-Also  accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa378384(v=VS.85).aspx">Description</a>  property
+Also  accessed through the <a href="https://msdn.microsoft.com/095bf53b-0afa-44f3-87b8-9363dfffef1f">Description</a>  property
 
 </td>
 </tr>
@@ -105,7 +105,7 @@ Also  accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa3
 </dl>
 </td>
 <td width="60%">
-Also  accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa378387(v=VS.85).aspx">Name</a>  property
+Also  accessed through the <a href="https://msdn.microsoft.com/135706b0-8ef9-430b-aff3-3783a62232d9">Name</a>  property
 
 </td>
 </tr>
@@ -115,7 +115,7 @@ Also  accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa3
 </dl>
 </td>
 <td width="60%">
-Also  accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa378378(v=VS.85).aspx">BizRule</a>  property
+Also  accessed through the <a href="https://msdn.microsoft.com/cf3d87af-5320-4fe0-b513-e242f8a1dd1b">BizRule</a>  property
 
 </td>
 </tr>
@@ -125,7 +125,7 @@ Also  accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa3
 </dl>
 </td>
 <td width="60%">
-Also  accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa378380(v=VS.85).aspx">BizRuleLanguage</a>  property
+Also  accessed through the <a href="https://msdn.microsoft.com/922f4fd8-f553-439c-b9ae-51a45a88adc7">BizRuleLanguage</a>  property
 
 </td>
 </tr>
@@ -135,7 +135,7 @@ Also  accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa3
 </dl>
 </td>
 <td width="60%">
-Also  accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa378386(v=VS.85).aspx">IsRoleDefinition</a>  property
+Also  accessed through the <a href="https://msdn.microsoft.com/fef32545-de7e-4516-a289-b9ddf45b7c81">IsRoleDefinition</a>  property
 
 </td>
 </tr>
@@ -145,7 +145,7 @@ Also  accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa3
 </dl>
 </td>
 <td width="60%">
-Also  accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa378388(v=VS.85).aspx">Operations</a>  property
+Also  accessed through the <a href="https://msdn.microsoft.com/b05fd157-6526-49d6-9bb1-fcf8c59cc74e">Operations</a>  property
 
 </td>
 </tr>
@@ -155,7 +155,7 @@ Also  accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa3
 </dl>
 </td>
 <td width="60%">
-Also  accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa378391(v=VS.85).aspx">Tasks</a>  property
+Also  accessed through the <a href="https://msdn.microsoft.com/a4baa899-78eb-4a3b-bcc1-0b8c2831b10f">Tasks</a>  property
 
 </td>
 </tr>
@@ -165,7 +165,7 @@ Also  accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa3
 </dl>
 </td>
 <td width="60%">
-Also  accessed through the <a href="https://msdn.microsoft.com/en-us/library/Aa378392(v=VS.85).aspx">Writable</a>  property
+Also  accessed through the <a href="https://msdn.microsoft.com/68f31203-00de-4729-a836-51d5dc8c8091">Writable</a>  property
 
 </td>
 </tr>
@@ -180,7 +180,7 @@ Reserved for future use.
 
 ### -param pvarProp [out]
 
-A pointer to the returned <a href="https://msdn.microsoft.com/en-us/library/Aa378367(v=VS.85).aspx">IAzTask</a> object property.
+A pointer to the returned <a href="https://msdn.microsoft.com/90eb19c9-1490-43f4-ab4b-393e825aeb2f">IAzTask</a> object property.
 
 
 ## -returns

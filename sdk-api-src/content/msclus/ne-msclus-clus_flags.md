@@ -7,7 +7,7 @@ old-location: mscs\clus_flags.htm
 old-project: mscs
 ms.assetid: 54d00b1c-cef7-4310-8c10-743ee7086979
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CLUS_FLAGS, CLUS_FLAGS enumeration [Failover Cluster], CLUS_FLAG_CORE, _CLUS_FLAGS, _CLUS_FLAGS enumeration [Failover Cluster], clusapi/CLUS_FLAGS, clusapi/CLUS_FLAG_CORE, clusapi/_CLUS_FLAGS, msclus/CLUS_FLAGS, msclus/CLUS_FLAG_CORE, msclus/_CLUS_FLAGS, mscs.clus_flags
 ms.prod: windows
 ms.technology: windows-sdk

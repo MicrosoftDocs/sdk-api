@@ -7,7 +7,7 @@ old-location: wintouch\gestureinfo.htm
 old-project: wintouch
 ms.assetid: f5b8b530-ff1e-4d78-a12f-86990fe9ac88
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PGESTUREINFO, GESTUREINFO, GESTUREINFO structure [Windows Touch], PGESTUREINFO, PGESTUREINFO structure pointer [Windows Touch], tagGESTUREINFO, wintouch.gestureinfo, winuser/GESTUREINFO, winuser/PGESTUREINFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -202,28 +202,36 @@ The following table indicates the various identifiers for gestures.
 <div> </div>
 The following type is defined to represent a constant pointer to a <b>GESTUREINFO</b> structure.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
     typedef GESTUREINFO const * PCGESTUREINFO;	 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 #### Examples
 
-
-```cpp
-  LRESULT DecodeGesture(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam){
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>  LRESULT DecodeGesture(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam){
     // Create a structure to populate and retrieve the extra message info.
     GESTUREINFO gi;  
     
-    ZeroMemory(&gi, sizeof(GESTUREINFO));
+    ZeroMemory(&amp;gi, sizeof(GESTUREINFO));
     
     gi.cbSize = sizeof(GESTUREINFO);
 
-    BOOL bResult  = GetGestureInfo((HGESTUREINFO)lParam, &gi);
+    BOOL bResult  = GetGestureInfo((HGESTUREINFO)lParam, &amp;gi);
     BOOL bHandled = FALSE;
 
     if (bResult){
@@ -255,7 +263,7 @@ The following type is defined to represent a constant pointer to a <b>GESTUREINF
         }
     }else{
         DWORD dwErr = GetLastError();
-        if (dwErr > 0){
+        if (dwErr &gt; 0){
             //MessageBoxW(hWnd, L"Error!", L"Could not retrieve a GESTUREINFO structure.", MB_OK);
         }
     }
@@ -265,10 +273,10 @@ The following type is defined to represent a constant pointer to a <b>GESTUREINF
         return DefWindowProc(hWnd, message, wParam, lParam);
     }
   }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

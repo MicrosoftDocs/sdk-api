@@ -7,7 +7,7 @@ old-location: winrt\ilanguageexceptionstackbacktrace.htm
 old-project: WinRT
 ms.assetid: A5AA17A2-414B-4641-A417-4F73384216F9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ILanguageExceptionStackBackTrace, ILanguageExceptionStackBackTrace interface [Windows Runtime], ILanguageExceptionStackBackTrace interface [Windows Runtime],described, restrictederrorinfo/ILanguageExceptionStackBackTrace, winrt.ilanguageexceptionstackbacktrace
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,13 +93,17 @@ It is recommended that language projections implement this interface when the st
 
 The following example demonstrates a projection providing its back trace through an interface implemented on the language exception object.  Global Error Handling (GEH) queries for this interface when a language exception object is provided to <a href="https://msdn.microsoft.com/573A9209-31EF-4FD4-A504-16795BA42337">RoOriginateLanguageException</a> or <a href="https://msdn.microsoft.com/60026962-4E6C-4906-97D9-46BD2BCA3AC6">CapturePropagationContext</a>.  As such, this scenario allows the GEH to expose back traces for projections which the GEH can’t capture back traces for.
 
-
-```cpp
-class FooExceptionInfo : public Microsoft::WRL::RuntimeClass< 
-    Microsoft::WRL::RuntimeClassFlags< 
-    Microsoft::WRL::RuntimeClassType::ClassicCom>, 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>class FooExceptionInfo : public Microsoft::WRL::RuntimeClass&lt; 
+    Microsoft::WRL::RuntimeClassFlags&lt; 
+    Microsoft::WRL::RuntimeClassType::ClassicCom&gt;, 
     ... 
-    ILanguageExceptionStackBackTrace > 
+    ILanguageExceptionStackBackTrace &gt; 
 { 
     ... 
     ... 
@@ -113,7 +117,7 @@ public:
         ULONG* framesCaptured) 
     { 
         int idx = 0; 
-        for (; idx < maxFramesToCapture && idx < numFramesCaptured; idx++) 
+        for (; idx &lt; maxFramesToCapture &amp;&amp; idx &lt; numFramesCaptured; idx++) 
         { 
             stackBackTrace[idx] = customBackTrace[idx]; 
         } 
@@ -121,10 +125,10 @@ public:
         return S_OK; 
     } 
 } 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

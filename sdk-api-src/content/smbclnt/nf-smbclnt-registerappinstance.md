@@ -7,7 +7,7 @@ old-location: mscs\registerappinstance.htm
 old-project: mscs
 ms.assetid: 43CAC59A-5773-44BD-8965-F9FB85B86926
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PREGISTER_APPINSTANCE, PREGISTER_APPINSTANCE function [Failover Cluster], RegisterAppInstance, RegisterAppInstance function [Failover Cluster], mscs.registerappinstance, smbclnt/PREGISTER_APPINSTANCE, smbclnt/RegisterAppInstance
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,7 +82,7 @@ The application instance ID, which is a <b>GUID</b>.
 
 
 
-This function returns DWORD __stdcall.
+This function returns DWORD.
 
 
 

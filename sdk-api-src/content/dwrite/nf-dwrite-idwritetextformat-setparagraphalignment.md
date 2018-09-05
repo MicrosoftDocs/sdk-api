@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteTextFormat_SetParagraphAlignment.htm
 old-project: DirectWrite
 ms.assetid: a6eb8aea-3945-471d-a34a-c2f3221dfeaf
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: IDWriteTextFormat interface [Direct Write],SetParagraphAlignment method, IDWriteTextFormat.SetParagraphAlignment, IDWriteTextFormat::SetParagraphAlignment, SetParagraphAlignment, SetParagraphAlignment method [Direct Write], SetParagraphAlignment method [Direct Write],IDWriteTextFormat interface, directwrite.IDWriteTextFormat_SetParagraphAlignment, dwrite/IDWriteTextFormat::SetParagraphAlignment
 ms.prod: windows
 ms.technology: windows-sdk

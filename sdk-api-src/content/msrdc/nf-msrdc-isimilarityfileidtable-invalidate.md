@@ -7,7 +7,7 @@ old-location: rdc\isimilarityfileidtable_invalidate.htm
 old-project: Rdc
 ms.assetid: fdd6ff92-d312-4789-b535-4859fa7c871c
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: ISimilarityFileIdTable interface [Remote Differential Compression],Invalidate method, ISimilarityFileIdTable.Invalidate, ISimilarityFileIdTable::Invalidate, Invalidate, Invalidate method [Remote Differential Compression], Invalidate method [Remote Differential Compression],ISimilarityFileIdTable interface, fs.isimilarityfileidtable_invalidate, msrdc/ISimilarityFileIdTable::Invalidate, rdc.isimilarityfileidtable_invalidate
 ms.prod: windows
 ms.technology: windows-sdk

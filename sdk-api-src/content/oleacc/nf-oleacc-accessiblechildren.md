@@ -157,9 +157,13 @@ The following example function displays a view of the element tree below the ele
 
 
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT WalkTreeWithAccessibleChildren(IAccessible* pAcc, int depth)
 {
     HRESULT hr;
@@ -170,7 +174,7 @@ HRESULT WalkTreeWithAccessibleChildren(IAccessible* pAcc, int depth)
     {
         return E_INVALIDARG;
     }
-    hr = pAcc->get_accChildCount(&childCount);
+    hr = pAcc-&gt;get_accChildCount(&amp;childCount);
     if (FAILED(hr))
     {
         return hr;
@@ -180,14 +184,14 @@ HRESULT WalkTreeWithAccessibleChildren(IAccessible* pAcc, int depth)
         return S_FALSE;
     }
     VARIANT* pArray = new VARIANT[childCount];
-    hr = AccessibleChildren(pAcc, 0L, childCount, pArray, &returnCount);
+    hr = AccessibleChildren(pAcc, 0L, childCount, pArray, &amp;returnCount);
     if (FAILED(hr))
     {
         return hr;
     };
 
     // Iterate through children.
-    for (int x = 0; x < returnCount; x++)
+    for (int x = 0; x &lt; returnCount; x++)
     {
         VARIANT vtChild = pArray[x];
         // If it's an accessible object, get the IAccessible, and recurse.
@@ -195,10 +199,10 @@ HRESULT WalkTreeWithAccessibleChildren(IAccessible* pAcc, int depth)
         {
             IDispatch* pDisp = vtChild.pdispVal;
             IAccessible* pChild = NULL;
-            hr = pDisp->QueryInterface(IID_IAccessible, (void**) &pChild);
+            hr = pDisp-&gt;QueryInterface(IID_IAccessible, (void**) &amp;pChild);
             if (hr == S_OK)
             {
-                for (int y = 0; y < depth; y++)
+                for (int y = 0; y &lt; depth; y++)
                 {
                     printf("  ");
                 }
@@ -206,15 +210,15 @@ HRESULT WalkTreeWithAccessibleChildren(IAccessible* pAcc, int depth)
                 printf("(Object) ");
                 PrintRole(pChild, CHILDID_SELF);
                 WalkTreeWithAccessibleChildren(pChild, depth + 1);
-                pChild->Release();
+                pChild-&gt;Release();
             }
-            pDisp->Release();
+            pDisp-&gt;Release();
         }
         // Else it's a child element so we have to call accNavigate on the parent,
         //   and we do not recurse because child elements can't have children.
         else
         {
-            for (int y = 0; y < depth; y++)
+            for (int y = 0; y &lt; depth; y++)
             {
                 printf("  ");
             }
@@ -226,10 +230,10 @@ HRESULT WalkTreeWithAccessibleChildren(IAccessible* pAcc, int depth)
     delete[] pArray;
     return S_OK;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <div class="code"></div>
 
 

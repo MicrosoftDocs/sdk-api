@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmdevice_getname.htm
 old-project: WMDM
 ms.assetid: 4bc5d550-6631-40ea-b020-2f5bb55899d6
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetName, GetName method [windows Media Device Manager], GetName method [windows Media Device Manager],IWMDMDevice interface, IWMDMDevice interface [windows Media Device Manager],GetName method, IWMDMDevice.GetName, IWMDMDevice::GetName, IWMDMDeviceGetName, mswmdm/IWMDMDevice::GetName, wmdm.iwmdmdevice_getname
 ms.prod: windows
 ms.technology: windows-sdk

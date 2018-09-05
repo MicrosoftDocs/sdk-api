@@ -4,10 +4,10 @@ title: FNFCICLOSE macro
 author: windows-sdk-content
 description: The FNFCICLOSE macro provides the declaration for the application-defined callback function to close a file in an FCI context.
 old-location: winprog\fnfciclose.htm
-old-project: devnotes
+old-project: DevNotes
 ms.assetid: c4edf6ca-0b16-4e30-933b-934f8930c6d6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FNFCICLOSE, FNFCICLOSE macro [Windows API], fci/FNFCICLOSE, winprog.fnfciclose
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,9 +84,13 @@ The function accepts parameters similar to <a href="http://go.microsoft.com/fwli
 
 #### Examples
 
-
-```cpp
-FNFCICLOSE(fnFileClose)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNFCICLOSE(fnFileClose)
 {
     INT iResult = 0; 
 
@@ -100,10 +104,10 @@ FNFCICLOSE(fnFileClose)
 
     return iResult;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

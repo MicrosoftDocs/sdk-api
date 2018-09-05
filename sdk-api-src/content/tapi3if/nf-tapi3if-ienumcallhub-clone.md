@@ -132,8 +132,8 @@ Failed for unknown reasons.
 
 
 
-TAPI calls the <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> method on the 
-<a href="https://msdn.microsoft.com/f5dcc21d-5ce1-4b10-88c5-e6772b5eb61d">IEnumCallHub</a> interface returned by <b>IEnumCallHub::Clone</b>. The application must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on the 
+TAPI calls the <a href="_com_iunknown_addref">AddRef</a> method on the 
+<a href="https://msdn.microsoft.com/f5dcc21d-5ce1-4b10-88c5-e6772b5eb61d">IEnumCallHub</a> interface returned by <b>IEnumCallHub::Clone</b>. The application must call <a href="_com_iunknown_release">Release</a> on the 
 <b>IEnumCallHub</b> interface to free resources associated with it.
 
 

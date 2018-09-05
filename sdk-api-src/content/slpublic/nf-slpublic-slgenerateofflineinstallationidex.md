@@ -4,10 +4,10 @@ title: SLGenerateOfflineInstallationIdEx function
 author: windows-sdk-content
 description: Generates Installation ID (IID).
 old-location: security\slgenerateofflineinstallationidex.htm
-old-project: secslapi
+old-project: SecSLApi
 ms.assetid: a9fd3717-7f1d-4f53-a246-c0542fc2e474
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SLGenerateOfflineInstallationIdEx, SLGenerateOfflineInstallationIdEx function [Security], security.slgenerateofflineinstallationidex, slpublic/SLGenerateOfflineInstallationIdEx
 ms.prod: windows
 ms.technology: windows-sdk

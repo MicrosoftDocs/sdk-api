@@ -4,10 +4,10 @@ title: QueryDepthSList function
 author: windows-sdk-content
 description: Retrieves the number of entries in the specified singly linked list.
 old-location: base\querydepthslist.htm
-old-project: sync
+old-project: Sync
 ms.assetid: 3f9b4481-647f-457f-bdfb-62e6ae4198e5
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: QueryDepthSList, QueryDepthSList function, base.querydepthslist, interlockedapi/QueryDepthSList, winbase/QueryDepthSList
 ms.prod: windows
 ms.technology: windows-sdk

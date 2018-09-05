@@ -7,7 +7,7 @@ old-location: com\colockobjectexternal.htm
 old-project: com
 ms.assetid: 36eb55f1-06de-49ad-8a8d-91693ca92e99
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CoLockObjectExternal, CoLockObjectExternal function [COM], _com_CoLockObjectExternal, com.colockobjectexternal, combaseapi/CoLockObjectExternal
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ Called either to lock an object to ensure that it stays in memory, or to release
 
 ### -param pUnk [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface on the object to be locked or unlocked.
+A pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface on the object to be locked or unlocked.
 
 
 ### -param fLock [in]
@@ -98,9 +98,9 @@ The <b>CoLockObjectExternal</b> function must be called in the process in which 
 
 
 
-The <b>CoLockObjectExternal</b> function prevents the reference count of an object from going to zero, thereby "locking" it into existence until the lock is released. The same function (with different parameters) releases the lock. The lock is implemented by having the system call <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">IUnknown::AddRef</a> on the object. The system then waits to call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> on the object until a later call to <b>CoLockObjectExternal</b> with <i>fLock</i> set to <b>FALSE</b>. This function can be used to maintain a reference count on the object on behalf of the end user, because it acts outside of the object, as does the user.
+The <b>CoLockObjectExternal</b> function prevents the reference count of an object from going to zero, thereby "locking" it into existence until the lock is released. The same function (with different parameters) releases the lock. The lock is implemented by having the system call <a href="https://msdn.microsoft.com/b4316efd-73d4-4995-b898-8025a316ba63">IUnknown::AddRef</a> on the object. The system then waits to call <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IUnknown::Release</a> on the object until a later call to <b>CoLockObjectExternal</b> with <i>fLock</i> set to <b>FALSE</b>. This function can be used to maintain a reference count on the object on behalf of the end user, because it acts outside of the object, as does the user.
 
-The end user has explicit control over the lifetime of an application, even if there are external locks on it. That is, if a user decides to close the application, it must shut down. In the presence of external locks (such as the lock set by <b>CoLockObjectExternal</b>), the application can call the <a href="https://msdn.microsoft.com/en-us/library/ms680756(v=VS.85).aspx">CoDisconnectObject</a> function to force these connections to close prior to shutdown.
+The end user has explicit control over the lifetime of an application, even if there are external locks on it. That is, if a user decides to close the application, it must shut down. In the presence of external locks (such as the lock set by <b>CoLockObjectExternal</b>), the application can call the <a href="https://msdn.microsoft.com/4293316a-bafe-4fca-ad6a-68d8e99c8fba">CoDisconnectObject</a> function to force these connections to close prior to shutdown.
 
 
 Calling <b>CoLockObjectExternal</b> sets a strong lock on an object. A strong lock keeps an object in memory, while a weak lock does not. Strong locks are required, for example, during a silent update to an OLE embedding. The embedded object's container must remain in memory until the update process is complete. There must also be a strong lock on an application object to ensure that the application stays alive until it has finished providing services to its clients. All external references place a strong reference lock on an object.
@@ -115,15 +115,15 @@ Object servers should call <b>CoLockObjectExternal</b> with both <i>fLock</i> an
 
 </li>
 <li>
-A call to <b>CoLockObjectExternal</b> on the server can also be used in the implementation of <a href="https://msdn.microsoft.com/en-us/library/ms680128(v=VS.85).aspx">IOleContainer::LockContainer</a>.
+A call to <b>CoLockObjectExternal</b> on the server can also be used in the implementation of <a href="https://msdn.microsoft.com/31b9961a-29a2-48bf-9d39-d86718983682">IOleContainer::LockContainer</a>.
 
 </li>
 </ul>
-There are several things to be aware of when you use <b>CoLockObjectExternal</b> in the implementation of <a href="https://msdn.microsoft.com/en-us/library/ms680128(v=VS.85).aspx">LockContainer</a>. An embedded object would call <b>LockContainer</b> on its container to keep it running (to lock it) in the absence of other reasons to keep it running. When the embedded object becomes visible, the container must weaken its connection to the embedded object with a call to the <a href="https://msdn.microsoft.com/en-us/library/ms679686(v=VS.85).aspx">OleSetContainedObject</a> function, so other connections can affect the object.
+There are several things to be aware of when you use <b>CoLockObjectExternal</b> in the implementation of <a href="https://msdn.microsoft.com/31b9961a-29a2-48bf-9d39-d86718983682">LockContainer</a>. An embedded object would call <b>LockContainer</b> on its container to keep it running (to lock it) in the absence of other reasons to keep it running. When the embedded object becomes visible, the container must weaken its connection to the embedded object with a call to the <a href="https://msdn.microsoft.com/154aa6f0-3c02-4139-8c8e-c2112b015fe0">OleSetContainedObject</a> function, so other connections can affect the object.
 
 
 
-Unless an application manages all aspects of its application and document shutdown completely with calls to <b>CoLockObjectExternal</b>, the container must keep a private lock count in <a href="https://msdn.microsoft.com/en-us/library/ms680128(v=VS.85).aspx">LockContainer</a> so that it exits when the lock count reaches zero and the container is invisible. Maintaining all aspects of shutdown, and thereby avoiding keeping a private lock count, means that <b>CoLockObjectExternal</b> should be called whenever one of the following conditions occur: 
+Unless an application manages all aspects of its application and document shutdown completely with calls to <b>CoLockObjectExternal</b>, the container must keep a private lock count in <a href="https://msdn.microsoft.com/31b9961a-29a2-48bf-9d39-d86718983682">LockContainer</a> so that it exits when the lock count reaches zero and the container is invisible. Maintaining all aspects of shutdown, and thereby avoiding keeping a private lock count, means that <b>CoLockObjectExternal</b> should be called whenever one of the following conditions occur: 
 
 
 
@@ -151,11 +151,11 @@ For debugging purposes, it may be useful to keep a count of the number of extern
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680128(v=VS.85).aspx">IOleContainer::LockContainer</a>
+<a href="https://msdn.microsoft.com/31b9961a-29a2-48bf-9d39-d86718983682">IOleContainer::LockContainer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679686(v=VS.85).aspx">OleSetContainedObject</a>
+<a href="https://msdn.microsoft.com/154aa6f0-3c02-4139-8c8e-c2112b015fe0">OleSetContainedObject</a>
  
 
  

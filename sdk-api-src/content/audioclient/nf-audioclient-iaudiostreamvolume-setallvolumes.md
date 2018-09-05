@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiostreamvolume_setallvolumes.htm
 old-project: CoreAudio
 ms.assetid: 2eabbc37-a0f6-4e56-b68d-18e634d65394
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: IAudioStreamVolume interface [Core Audio],SetAllVolumes method, IAudioStreamVolume.SetAllVolumes, IAudioStreamVolume::SetAllVolumes, IAudioStreamVolumeSetAllVolumes, SetAllVolumes, SetAllVolumes method [Core Audio], SetAllVolumes method [Core Audio],IAudioStreamVolume interface, audioclient/IAudioStreamVolume::SetAllVolumes, coreaudio.iaudiostreamvolume_setallvolumes
 ms.prod: windows
 ms.technology: windows-sdk

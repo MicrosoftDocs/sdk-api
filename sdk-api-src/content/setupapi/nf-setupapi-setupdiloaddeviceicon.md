@@ -7,7 +7,7 @@ old-location: devinst\setupdiloaddeviceicon.htm
 old-project: devinst
 ms.assetid: 65a47cea-1c70-46ed-9cf5-601387dbe323
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: SetupDiLoadDeviceIcon, SetupDiLoadDeviceIcon function [Device and Driver Installation], devinst.setupdiloaddeviceicon, di-rtns_bcd13849-30ed-4c7e-923d-1524552d78aa.xml, setupapi/SetupDiLoadDeviceIcon
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ The <b>SetupDiLoadDeviceIcon</b> function retrieves an icon for a specified devi
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains the device information element that represents the device for which to retrieve an icon. 
+A handle to the <a href="devinst.device_information_sets">device information set</a> that contains the device information element that represents the device for which to retrieve an icon. 
 
 
 ### -param DeviceInfoData [in]
@@ -113,12 +113,16 @@ The <a href="https://msdn.microsoft.com/eafe72c3-b9d8-44c4-a8a7-45a7e0d19b4e">de
 
 The format of a resource-identifier string is
 
-
-```
-[filepath\]filename,-resourceID
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>[filepath\]filename,-resourceID</pre>
+</td>
+</tr>
+</table></span></div>
 Where:
 
 <ul>

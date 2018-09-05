@@ -4,10 +4,10 @@ title: IWSDHttpMessageParameters::SetContext
 author: windows-sdk-content
 description: Sets the private transmission context for the current transaction.
 old-location: ncd\iwsdhttpmessageparameters_setcontext.htm
-old-project: wsdapi
+old-project: WsdApi
 ms.assetid: 8e1bbfbe-b7a7-4235-bb2d-8ee0ef301871
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWSDHttpMessageParameters interface,SetContext method, IWSDHttpMessageParameters.SetContext, IWSDHttpMessageParameters::SetContext, SetContext, SetContext method, SetContext method,IWSDHttpMessageParameters interface, ncd.iwsdhttpmessageparameters_setcontext, wsdbase/IWSDHttpMessageParameters::SetContext
 ms.prod: windows
 ms.technology: windows-sdk

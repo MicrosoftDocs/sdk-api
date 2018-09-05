@@ -7,7 +7,7 @@ old-location: direct3ddxgi\idxgioutputduplication_unmapdesktopsurface.htm
 old-project: direct3ddxgi
 ms.assetid: 1B9AF088-5856-4F1C-A794-6CF870D62A29
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: IDXGIOutputDuplication interface [DXGI],UnMapDesktopSurface method, IDXGIOutputDuplication.UnMapDesktopSurface, IDXGIOutputDuplication::UnMapDesktopSurface, UnMapDesktopSurface, UnMapDesktopSurface method [DXGI], UnMapDesktopSurface method [DXGI],IDXGIOutputDuplication interface, direct3ddxgi.idxgioutputduplication_unmapdesktopsurface, dxgi1_2/IDXGIOutputDuplication::UnMapDesktopSurface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ Invalidates the pointer to the desktop image that was retrieved by using <a href
         <ul>
 <li>S_OK if it successfully completed.</li>
 <li>DXGI_ERROR_INVALID_CALL if the application did not map the desktop surface by calling <a href="https://msdn.microsoft.com/1FFFF954-0AD2-418E-B0CC-D674994C3CCE">IDXGIOutputDuplication::MapDesktopSurface</a>.</li>
-<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/en-us/library/Bb509553(v=VS.85).aspx">DXGI_ERROR</a> topic.</li>
+<li>Possibly other error codes that are described in the <a href="https://msdn.microsoft.com/9aa7dd65-6bf9-4731-8085-a9eab4224cdd">DXGI_ERROR</a> topic.</li>
 </ul>
 
 

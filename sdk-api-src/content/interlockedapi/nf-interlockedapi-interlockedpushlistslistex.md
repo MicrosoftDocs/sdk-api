@@ -4,10 +4,10 @@ title: InterlockedPushListSListEx function
 author: windows-sdk-content
 description: Inserts a singly-linked list at the front of another singly linked list. Access to the lists is synchronized on a multiprocessor system. This version of the method does not use the __fastcall calling convention.
 old-location: base\interlockedpushlistslistex.htm
-old-project: sync
+old-project: Sync
 ms.assetid: f4f334c6-fda8-4c5f-9177-b672c8aed6b3
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: InterlockedPushListSListEx, InterlockedPushListSListEx function, base.interlockedpushlistslistex, interlockedapi/InterlockedPushListSListEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Inserts a singly-linked list at the front of another singly linked list. Access to the lists is synchronized on a multiprocessor system. This version of the method does not use the <a href="https://msdn.microsoft.com/library/6xa169sk(v=VS.85).aspx">__fastcall</a> calling convention.
+Inserts a singly-linked list at the front of another singly linked list. Access to the lists is synchronized on a multiprocessor system. This version of the method does not use the <a href="bb5b9c8a-dfad-450c-9119-0ac2bc59544f">__fastcall</a> calling convention.
 
 
 ## -parameters

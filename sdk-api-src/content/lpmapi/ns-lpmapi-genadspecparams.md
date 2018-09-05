@@ -4,10 +4,10 @@ title: GenAdspecParams
 author: windows-sdk-content
 description: The GenAdspecParams structure contains general path characterization parameters.
 old-location: qos\genadspecparams.htm
-old-project: qos
+old-project: QOS
 ms.assetid: 0d980286-bce6-483e-b2a1-117c7280c1c1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GenAdspecParams, GenAdspecParams structure [QOS], lpmapi/GenAdspecParams, qos.genadspecparams
 ms.prod: windows
 ms.technology: windows-sdk

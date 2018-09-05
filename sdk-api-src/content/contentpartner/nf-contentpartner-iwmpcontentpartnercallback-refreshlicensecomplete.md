@@ -66,7 +66,7 @@ The <b>RefreshLicenseComplete</b> method notifies Windows Media Player that the 
 
 ### -param dwCookie [in]
 
-A cookie that represents a request to update a license for a media file. Windows Media Player previously supplied this cookie to the online store's plug-in by calling <a href="https://msdn.microsoft.com/en-us/library/Dd563173(v=VS.85).aspx">IWMPContentPartner::RefreshLicense</a>.
+A cookie that represents a request to update a license for a media file. Windows Media Player previously supplied this cookie to the online store's plug-in by calling <a href="https://msdn.microsoft.com/2f0d8ed9-027c-45a3-a61a-f6d571e78a0a">IWMPContentPartner::RefreshLicense</a>.
 
 
 ### -param contentID [in]
@@ -111,7 +111,7 @@ The method succeeded.
 
 
 
-Windows Media Player requests a license update by calling the plug-in's <a href="https://msdn.microsoft.com/en-us/library/Dd563173(v=VS.85).aspx">RefreshLicense</a> method, which initiates the update and returns immediately. When the online store has finished processing the update request, the plug-in calls <b>RefreshLicenseComplete</b>.
+Windows Media Player requests a license update by calling the plug-in's <a href="https://msdn.microsoft.com/2f0d8ed9-027c-45a3-a61a-f6d571e78a0a">RefreshLicense</a> method, which initiates the update and returns immediately. When the online store has finished processing the update request, the plug-in calls <b>RefreshLicenseComplete</b>.
 
 
 
@@ -121,11 +121,11 @@ Windows Media Player requests a license update by calling the plug-in's <a href=
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563173(v=VS.85).aspx">IWMPContentPartner::RefreshLicense</a>
+<a href="https://msdn.microsoft.com/2f0d8ed9-027c-45a3-a61a-f6d571e78a0a">IWMPContentPartner::RefreshLicense</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd563142(v=VS.85).aspx">IWMPContentPartnerCallback Interface</a>
+<a href="https://msdn.microsoft.com/3c66052b-2b82-44aa-868d-5d5a4501c457">IWMPContentPartnerCallback Interface</a>
  
 
  

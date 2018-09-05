@@ -4,10 +4,10 @@ title: LsaEnumerateAccountRights function
 author: windows-sdk-content
 description: The LsaEnumerateAccountRights function enumerates the privileges assigned to an account.
 old-location: security\lsaenumerateaccountrights.htm
-old-project: secmgmt
+old-project: SecMgmt
 ms.assetid: 3f4a4a9a-66ca-410a-8bdc-c390e8b966e3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: LsaEnumerateAccountRights, LsaEnumerateAccountRights function [Security], _lsa_lsaenumerateaccountrights, ntsecapi/LsaEnumerateAccountRights, security.lsaenumerateaccountrights
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,7 +96,7 @@ Pointer to a variable that receives the number of privileges in the <i>UserRight
 If at least one account right is found, the function succeeds and returns STATUS_SUCCESS.
 
 If no account rights are found or if the function fails for any other reason, the function returns an NTSTATUS code such as FILE_NOT_FOUND. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms721859(v=VS.85).aspx">LSA Policy Function Return Values</a>. Use the 
+<a href="management_return_values.htm">LSA Policy Function Return Values</a>. Use the 
 <a href="https://msdn.microsoft.com/fa91794c-c502-4b36-84cc-a8d77c8e9d9f">LsaNtStatusToWinError</a> function to convert the NTSTATUS code to a Windows error code.
 
 

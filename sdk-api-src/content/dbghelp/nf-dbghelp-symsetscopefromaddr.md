@@ -7,7 +7,7 @@ old-location: base\symsetscopefromaddr.htm
 old-project: debug
 ms.assetid: 7f7bcf12-8d8d-4dea-8191-4f7b24be1b5a
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: SymSetScopeFromAddr, SymSetScopeFromAddr function, base.symsetscopefromaddr, dbghelp/SymSetScopeFromAddr
 ms.prod: windows
 ms.technology: windows-sdk

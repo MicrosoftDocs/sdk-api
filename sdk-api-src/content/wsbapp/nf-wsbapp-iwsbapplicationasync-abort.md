@@ -7,7 +7,7 @@ old-location: wsb\iwsbapplicationasync_abort.htm
 old-project: wsb
 ms.assetid: 937ca809-4bb0-408e-9c7e-eccc43d8d4ae
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: Abort, Abort method [Windows Server Backup], Abort method [Windows Server Backup],IWsbApplicationAsync interface, IWsbApplicationAsync interface [Windows Server Backup],Abort method, IWsbApplicationAsync.Abort, IWsbApplicationAsync::Abort, wsb.iwsbapplicationasync_abort, wsbapp/IWsbApplicationAsync::Abort
 ms.prod: windows
 ms.technology: windows-sdk

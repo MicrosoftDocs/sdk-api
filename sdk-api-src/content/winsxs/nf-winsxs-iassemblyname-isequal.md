@@ -4,10 +4,10 @@ title: IAssemblyName::IsEqual
 author: windows-sdk-content
 description: The IsEqual method compares the current assembly name to another assembly name.
 old-location: setup\iassemblyname_isequal.htm
-old-project: sbscs
+old-project: SbsCs
 ms.assetid: 798102ce-b696-4940-941d-c3fd3054c584
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IAssemblyName interface [Side-by-side Assemblies],IsEqual method, IAssemblyName.IsEqual, IAssemblyName::IsEqual, IsEqual, IsEqual method [Side-by-side Assemblies], IsEqual method [Side-by-side Assemblies],IAssemblyName interface, setup.iassemblyname_isequal, winsxs/IAssemblyName::IsEqual
 ms.prod: windows
 ms.technology: windows-sdk

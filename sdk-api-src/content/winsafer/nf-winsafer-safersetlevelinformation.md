@@ -4,10 +4,10 @@ title: SaferSetLevelInformation function
 author: windows-sdk-content
 description: Sets the information about a policy level.
 old-location: security\safersetlevelinformation.htm
-old-project: secmgmt
+old-project: SecMgmt
 ms.assetid: 8DB13F94-1736-4C05-B072-BFBFC076A726
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SaferObjectDescription, SaferObjectFriendlyName, SaferObjectLevelId, SaferObjectScopeId, SaferSetLevelInformation, SaferSetLevelInformation function [Security], security.safersetlevelinformation, winsafer/SaferSetLevelInformation
 ms.prod: windows
 ms.technology: windows-sdk

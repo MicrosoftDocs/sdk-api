@@ -200,13 +200,17 @@ A number of members of the <a href="https://msdn.microsoft.com/ff451481-3e9d-4ad
 
 The following example retrieves the IP routing table then prints some fields for each route in the table.
 
-
-```cpp
-// Need to link with Ws2_32.lib and Iphlpapi.lib
-#include <winsock2.h>
-#include <ws2tcpip.h>
-#include <iphlpapi.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Need to link with Ws2_32.lib and Iphlpapi.lib
+#include &lt;winsock2.h&gt;
+#include &lt;ws2tcpip.h&gt;
+#include &lt;iphlpapi.h&gt;
+#include &lt;stdio.h&gt;
 
 #pragma comment(lib, "iphlpapi.lib")
 #pragma comment(lib, "ws2_32.lib")
@@ -241,7 +245,7 @@ int main()
         return 1;
     }
 
-    if (GetIpForwardTable(pIpForwardTable, &dwSize, 0) ==
+    if (GetIpForwardTable(pIpForwardTable, &amp;dwSize, 0) ==
         ERROR_INSUFFICIENT_BUFFER) {
         FREE(pIpForwardTable);
         pIpForwardTable = (MIB_IPFORWARDTABLE *) MALLOC(dwSize);
@@ -254,29 +258,29 @@ int main()
     /* Note that the IPv4 addresses returned in 
      * GetIpForwardTable entries are in network byte order 
      */
-    if ((dwRetVal = GetIpForwardTable(pIpForwardTable, &dwSize, 0)) == NO_ERROR) {
+    if ((dwRetVal = GetIpForwardTable(pIpForwardTable, &amp;dwSize, 0)) == NO_ERROR) {
         printf("\tNumber of entries: %d\n",
-               (int) pIpForwardTable->dwNumEntries);
-        for (i = 0; i < (int) pIpForwardTable->dwNumEntries; i++) {
+               (int) pIpForwardTable-&gt;dwNumEntries);
+        for (i = 0; i &lt; (int) pIpForwardTable-&gt;dwNumEntries; i++) {
             /* Convert IPv4 addresses to strings */
             IpAddr.S_un.S_addr =
-                (u_long) pIpForwardTable->table[i].dwForwardDest;
+                (u_long) pIpForwardTable-&gt;table[i].dwForwardDest;
             strcpy_s(szDestIp, sizeof (szDestIp), inet_ntoa(IpAddr));
             IpAddr.S_un.S_addr =
-                (u_long) pIpForwardTable->table[i].dwForwardMask;
+                (u_long) pIpForwardTable-&gt;table[i].dwForwardMask;
             strcpy_s(szMaskIp, sizeof (szMaskIp), inet_ntoa(IpAddr));
             IpAddr.S_un.S_addr =
-                (u_long) pIpForwardTable->table[i].dwForwardNextHop;
+                (u_long) pIpForwardTable-&gt;table[i].dwForwardNextHop;
             strcpy_s(szGatewayIp, sizeof (szGatewayIp), inet_ntoa(IpAddr));
 
             printf("\n\tRoute[%d] Dest IP: %s\n", i, szDestIp);
             printf("\tRoute[%d] Subnet Mask: %s\n", i, szMaskIp);
             printf("\tRoute[%d] Next Hop: %s\n", i, szGatewayIp);
             printf("\tRoute[%d] If Index: %ld\n", i,
-                   pIpForwardTable->table[i].dwForwardIfIndex);
+                   pIpForwardTable-&gt;table[i].dwForwardIfIndex);
             printf("\tRoute[%d] Type: %ld - ", i,
-                   pIpForwardTable->table[i].dwForwardType);
-            switch (pIpForwardTable->table[i].dwForwardType) {
+                   pIpForwardTable-&gt;table[i].dwForwardType);
+            switch (pIpForwardTable-&gt;table[i].dwForwardType) {
             case MIB_IPROUTE_TYPE_OTHER:
                 printf("other\n");
                 break;
@@ -295,8 +299,8 @@ int main()
                 break;
             }
             printf("\tRoute[%d] Proto: %ld - ", i,
-                   pIpForwardTable->table[i].dwForwardProto);
-            switch (pIpForwardTable->table[i].dwForwardProto) {
+                   pIpForwardTable-&gt;table[i].dwForwardProto);
+            switch (pIpForwardTable-&gt;table[i].dwForwardProto) {
             case MIB_IPPROTO_OTHER:
                 printf("other\n");
                 break;
@@ -356,9 +360,9 @@ int main()
             }
 
             printf("\tRoute[%d] Age: %ld\n", i,
-                   pIpForwardTable->table[i].dwForwardAge);
+                   pIpForwardTable-&gt;table[i].dwForwardAge);
             printf("\tRoute[%d] Metric1: %ld\n", i,
-                   pIpForwardTable->table[i].dwForwardMetric1);
+                   pIpForwardTable-&gt;table[i].dwForwardMetric1);
         }
         FREE(pIpForwardTable);
         return 0;
@@ -370,10 +374,10 @@ int main()
 
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

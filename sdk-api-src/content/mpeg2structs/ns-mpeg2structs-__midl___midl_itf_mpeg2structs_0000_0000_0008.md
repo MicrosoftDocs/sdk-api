@@ -124,21 +124,25 @@ Contains the remaining section data, as a byte array. The length of the array is
 
 The following code shows how to access the bit fields within the <b>Version</b> member:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 LONG_SECTION *pSection; // Points to the section data.
 
 // Coerce the Version field to an MPEG_HEADER_VERSION_BITS type.
 MPEG_HEADER_VERSION_BITS *pVersion;
-pVersion = (MPEG_HEADER_VERSION_BITS*)&pSection->Version.B;
+pVersion = (MPEG_HEADER_VERSION_BITS*)&amp;pSection-&gt;Version.B;
 
 // Now use the pHeader pointer to access the bit fields.
-BYTE VersionNumber = pSection->VersionNumber;
-
-```
-
-
+BYTE VersionNumber = pSection-&gt;VersionNumber;
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

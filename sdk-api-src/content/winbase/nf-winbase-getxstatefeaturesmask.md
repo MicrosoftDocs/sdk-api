@@ -7,7 +7,7 @@ old-location: base\getxstatefeaturesmask.htm
 old-project: debug
 ms.assetid: D9A8D0B6-21E3-46B7-AB88-CE2FF4025A17
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: GetXStateFeaturesMask, GetXStateFeaturesMask function, base.getxstatefeaturesmask, winbase/GetXStateFeaturesMask
 ms.prod: windows
 ms.technology: windows-sdk

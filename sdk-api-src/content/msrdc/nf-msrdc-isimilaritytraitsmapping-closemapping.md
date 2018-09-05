@@ -7,7 +7,7 @@ old-location: rdc\isimilaritytraitsmapping_closemapping.htm
 old-project: Rdc
 ms.assetid: 9ac20c6b-9fe5-4b59-a9ed-faef97fd76f2
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: CloseMapping, CloseMapping method [Remote Differential Compression], CloseMapping method [Remote Differential Compression],ISimilarityTraitsMapping interface, ISimilarityTraitsMapping interface [Remote Differential Compression],CloseMapping method, ISimilarityTraitsMapping.CloseMapping, ISimilarityTraitsMapping::CloseMapping, fs.isimilaritytraitsmapping_closemapping, msrdc/ISimilarityTraitsMapping::CloseMapping, rdc.isimilaritytraitsmapping_closemapping
 ms.prod: windows
 ms.technology: windows-sdk

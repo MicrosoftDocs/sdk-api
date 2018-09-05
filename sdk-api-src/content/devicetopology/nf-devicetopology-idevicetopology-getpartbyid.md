@@ -7,7 +7,7 @@ old-location: coreaudio\idevicetopology_getpartbyid.htm
 old-project: CoreAudio
 ms.assetid: 03310040-2081-47cf-88aa-6281c6bea56e
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: GetPartById, GetPartById method [Core Audio], GetPartById method [Core Audio],IDeviceTopology interface, IDeviceTopology interface [Core Audio],GetPartById method, IDeviceTopology.GetPartById, IDeviceTopology::GetPartById, IDeviceTopologyGetPartById, coreaudio.idevicetopology_getpartbyid, devicetopology/IDeviceTopology::GetPartById
 ms.prod: windows
 ms.technology: windows-sdk

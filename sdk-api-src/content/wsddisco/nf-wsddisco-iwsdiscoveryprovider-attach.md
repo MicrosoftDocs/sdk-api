@@ -4,10 +4,10 @@ title: IWSDiscoveryProvider::Attach
 author: windows-sdk-content
 description: Attaches a callback interface to the discovery provider.
 old-location: ncd\iwsdiscoveryprovider_attach_method.htm
-old-project: wsdapi
+old-project: WsdApi
 ms.assetid: 3bb2aead-b082-4a2b-b4bf-97a1feb1e11e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Attach, Attach method, Attach method,IWSDiscoveryProvider interface, IWSDiscoveryProvider interface,Attach method, IWSDiscoveryProvider.Attach, IWSDiscoveryProvider::Attach, ncd.iwsdiscoveryprovider_attach_method, wsddisco/IWSDiscoveryProvider::Attach
 ms.prod: windows
 ms.technology: windows-sdk

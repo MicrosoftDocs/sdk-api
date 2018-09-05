@@ -7,7 +7,7 @@ old-location: shell\SHRegGetUSValue.htm
 old-project: shell
 ms.assetid: 4d3b3bbe-dc2e-40c9-8ff1-0f9d2e323743
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHRegGetUSValue, SHRegGetUSValue function [Windows Shell], SHRegGetUSValueA, SHRegGetUSValueW, _win32_SHRegGetUSValue, shell.SHRegGetUSValue, shlwapi/SHRegGetUSValue, shlwapi/SHRegGetUSValueA, shlwapi/SHRegGetUSValueW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

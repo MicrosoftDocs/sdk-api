@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmenumdevice.htm
 old-project: WMDM
 ms.assetid: fcb93d2a-2107-4aa9-9b3a-130044d7dc96
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IWMDMEnumDevice, IWMDMEnumDevice interface [windows Media Device Manager], IWMDMEnumDevice interface [windows Media Device Manager],described, IWMDMEnumDeviceInterface, mswmdm/IWMDMEnumDevice, wmdm.iwmdmenumdevice
 ms.prod: windows
 ms.technology: windows-sdk

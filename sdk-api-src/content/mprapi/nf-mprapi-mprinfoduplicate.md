@@ -4,10 +4,10 @@ title: MprInfoDuplicate function
 author: windows-sdk-content
 description: The MprInfoDuplicate function duplicates an existing information header.
 old-location: rras\mprinfoduplicate.htm
-old-project: rras
+old-project: RRAS
 ms.assetid: 446e93a0-8de5-4117-94fe-6f167da1acef
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MprInfoDuplicate, MprInfoDuplicate function [RAS], _mpr_mprinfoduplicate, mprapi/MprInfoDuplicate, rras.mprinfoduplicate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -114,7 +114,7 @@ The requested memory allocation could not be completed.
 </td>
 <td width="60%">
 The call failed. Use 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the error message that corresponds to the returned error code.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the error message that corresponds to the returned error code.
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ The call failed. Use
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="_win32_formatmessage">FormatMessage</a>
 
 
 

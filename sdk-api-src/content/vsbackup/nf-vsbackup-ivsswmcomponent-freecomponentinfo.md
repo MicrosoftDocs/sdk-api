@@ -4,10 +4,10 @@ title: IVssWMComponent::FreeComponentInfo
 author: windows-sdk-content
 description: The FreeComponentInfo method deallocates system resources devoted to the specified component information.
 old-location: base\ivsswmcomponent_freecomponentinfo.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 3f0c4634-2b1c-4a9b-9c13-ace38e03a7ce
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FreeComponentInfo, FreeComponentInfo method [VSS], FreeComponentInfo method [VSS],IVssWMComponent interface, IVssWMComponent interface [VSS],FreeComponentInfo method, IVssWMComponent.FreeComponentInfo, IVssWMComponent::FreeComponentInfo, _win32_ivsswmcomponent_freecomponentinfo, base.ivsswmcomponent_freecomponentinfo, vsbackup/IVssWMComponent::FreeComponentInfo
 ms.prod: windows
 ms.technology: windows-sdk

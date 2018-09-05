@@ -61,36 +61,36 @@ Describes a shader variable.
 
 ### -field Name
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPCSTR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPCSTR</a></b>
 
 The variable name.
 
 
 ### -field StartOffset
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Offset from the start of the parent structure to the beginning of the variable.
 
 
 ### -field Size
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Size of the variable (in bytes).
 
 
 ### -field uFlags
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-A combination of <a href="https://msdn.microsoft.com/en-us/library/Ff728734(v=VS.85).aspx">D3D_SHADER_VARIABLE_FLAGS</a>-typed values that are combined by using a bitwise OR operation. The resulting value identifies shader-variable properties.
+A combination of <a href="https://msdn.microsoft.com/b89dc001-c335-4994-a644-88bfbeb7d663">D3D_SHADER_VARIABLE_FLAGS</a>-typed values that are combined by using a bitwise OR operation. The resulting value identifies shader-variable properties.
           
 
 
 ### -field DefaultValue
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">LPVOID</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LPVOID</a></b>
 
 The default value for initializing the variable.
 
@@ -133,7 +133,7 @@ The size of the sampler, in bytes.
 
 
 
-Get a shader-variable description using reflection by calling <a href="https://msdn.microsoft.com/en-us/library/Ff476608(v=VS.85).aspx">ID3D11ShaderReflectionVariable::GetDesc</a>.
+Get a shader-variable description using reflection by calling <a href="https://msdn.microsoft.com/a384e172-763f-4f4c-b6fb-f657fa31e5ee">ID3D11ShaderReflectionVariable::GetDesc</a>.
         
 
 As of the June 2010 update, <b>DefaultValue</b> emits default values for reflection.
@@ -147,7 +147,7 @@ As of the June 2010 update, <b>DefaultValue</b> emits default values for reflect
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476176(v=VS.85).aspx">Shader Structures</a>
+<a href="https://msdn.microsoft.com/3b8ece5c-5065-4711-b12c-06cf7ea0e1ba">Shader Structures</a>
  
 
  

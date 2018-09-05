@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevicecapabilities_getsupportedcommands.htm
 old-project: wpd_sdk
 ms.assetid: 974b16c7-27a0-40a6-8941-e93293a69b48
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetSupportedCommands, GetSupportedCommands method [Windows Portable Devices SDK], GetSupportedCommands method [Windows Portable Devices SDK],IPortableDeviceCapabilities interface, IPortableDeviceCapabilities interface [Windows Portable Devices SDK],GetSupportedCommands method, IPortableDeviceCapabilities.GetSupportedCommands, IPortableDeviceCapabilities::GetSupportedCommands, IPortableDeviceCapabilitiesGetSupportedCommands, portabledeviceapi/IPortableDeviceCapabilities::GetSupportedCommands, wpdsdk.iportabledevicecapabilities_getsupportedcommands
 ms.prod: windows
 ms.technology: windows-sdk
@@ -112,7 +112,7 @@ None.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319362(v=VS.85).aspx">IPortableDeviceCapabilities Interface</a>
+<a href="wpdsdk.iportabledevicecapabilities">IPortableDeviceCapabilities Interface</a>
  
 
  

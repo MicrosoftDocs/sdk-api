@@ -7,7 +7,7 @@ old-location: devinst\setupdibuildclassinfolist.htm
 old-project: devinst
 ms.assetid: a01b1f8f-55af-4053-8c31-9329ef36f2ce
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: SetupDiBuildClassInfoList, SetupDiBuildClassInfoList function [Device and Driver Installation], devinst.setupdibuildclassinfolist, di-rtns_25e014d5-5a99-42c3-8032-a24acd1856df.xml, setupapi/SetupDiBuildClassInfoList
 ms.prod: windows
 ms.technology: windows-sdk

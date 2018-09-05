@@ -7,7 +7,7 @@ old-location: wcn\iwcndevice_getnetworkprofile.htm
 old-project: wcn
 ms.assetid: a4fb0fc3-a45e-444c-953a-fe4fdfb0b327
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: GetNetworkProfile, GetNetworkProfile method [Windows Connect Now], GetNetworkProfile method [Windows Connect Now],IWCNDevice interface, IWCNDevice interface [Windows Connect Now],GetNetworkProfile method, IWCNDevice.GetNetworkProfile, IWCNDevice::GetNetworkProfile, wcn.iwcndevice_getnetworkprofile, wcndevice/IWCNDevice::GetNetworkProfile
 ms.prod: windows
 ms.technology: windows-sdk

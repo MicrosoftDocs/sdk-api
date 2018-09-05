@@ -4,10 +4,10 @@ title: MprAdminServerGetInfo function
 author: windows-sdk-content
 description: The MprAdminServerGetInfo function retrieves information about the specified RRAS server.
 old-location: rras\mpradminservergetinfo.htm
-old-project: rras
+old-project: RRAS
 ms.assetid: d15dfb60-1239-4552-985f-d3c98f2981f4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MprAdminServerGetInfo, MprAdminServerGetInfo function [RAS], _mpr_mpradminservergetinfo, mprapi/MprAdminServerGetInfo, rras.mpradminservergetinfo
 ms.prod: windows
 ms.technology: windows-sdk

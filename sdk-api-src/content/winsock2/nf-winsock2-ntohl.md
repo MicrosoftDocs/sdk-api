@@ -4,10 +4,10 @@ title: ntohl function
 author: windows-sdk-content
 description: The ntohl function converts a u_long from TCP/IP network order to host byte order (which is little-endian on Intel processors).
 old-location: winsock\ntohl_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: 04673bef-22c6-424f-a5ae-689fb648b54e
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "_win32_ntohl_2, ntohl, ntohl function [Winsock], winsock.ntohl_2, winsock/ntohl"
 ms.prod: windows
 ms.technology: windows-sdk

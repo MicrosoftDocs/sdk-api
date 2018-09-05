@@ -7,7 +7,7 @@ old-location: mscs\clusternames_item.htm
 old-project: mscs
 ms.assetid: c54eceef-4814-4161-8ad6-9323fdb16503
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ISClusterNames collection [Failover Cluster],Item property, ISClusterNames.Item, ISClusterNames.get_Item, ISClusterNames::get_Item, Item property [Failover Cluster], Item property [Failover Cluster],ISClusterNames collection, _wolf_clusternames.item, get_Item, mscs.clusternames_item
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Returns a name of a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> from the 
+    <a href="c_gly.htm">cluster</a> from the 
     <a href="https://msdn.microsoft.com/c4e29498-c4e2-4351-8eed-05bc73437485">ClusterNames</a> collection.
 
 This property is read-only.

@@ -7,7 +7,7 @@ old-location: directwrite\idwriteasyncresult_getresult.htm
 old-project: DirectWrite
 ms.assetid: 40588741-958D-4D7E-8E39-206D7CFCBFB6
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetResult, GetResult method [Direct Write], GetResult method [Direct Write],IDWriteAsyncResult interface, IDWriteAsyncResult interface [Direct Write],GetResult method, IDWriteAsyncResult.GetResult, IDWriteAsyncResult::GetResult, directwrite.idwriteasyncresult_getresult, dwrite_3/IDWriteAsyncResult::GetResult
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winsync\isyncchangebatchadvanced_convertfullenumerationchangebatch
 old-project: winsync
 ms.assetid: 073369ab-232e-410f-b6f1-c43bf15cc652
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ConvertFullEnumerationChangeBatchToRegularChangeBatch, ConvertFullEnumerationChangeBatchToRegularChangeBatch method [Windows Sync], ConvertFullEnumerationChangeBatchToRegularChangeBatch method [Windows Sync],ISyncChangeBatchAdvanced interface, ISyncChangeBatchAdvanced interface [Windows Sync],ConvertFullEnumerationChangeBatchToRegularChangeBatch method, ISyncChangeBatchAdvanced.ConvertFullEnumerationChangeBatchToRegularChangeBatch, ISyncChangeBatchAdvanced::ConvertFullEnumerationChangeBatchToRegularChangeBatch, winsync.isyncchangebatchadvanced_convertfullenumerationchangebatchtoregularchangebatch, winsync/ISyncChangeBatchAdvanced::ConvertFullEnumerationChangeBatchToRegularChangeBatch
 ms.prod: windows
 ms.technology: windows-sdk

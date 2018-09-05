@@ -4,10 +4,10 @@ title: "_PS_DRRSEQ_STATS"
 author: windows-sdk-content
 description: The PS_DRRSEQ_STATS structure provides network interface card (NIC) and packet sequencer&#8211;packet shaper statistics. Note that the PS_DRRSEQ_STATS structure is used in conjunction with the PS_COMPONENT_STATS structure.
 old-location: qos\ps_drrseq_stats.htm
-old-project: qos
+old-project: QOS
 ms.assetid: c8d5bf61-5a19-4bbd-ae4c-0502b6803191
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PPS_DRRSEQ_STATS, PPS_DRRSEQ_STATS, PPS_DRRSEQ_STATS structure pointer [QOS], PS_DRRSEQ_STATS, PS_DRRSEQ_STATS structure [QOS], _PS_DRRSEQ_STATS, _gqos_ps_drrseq_stats, ntddpsch/PPS_DRRSEQ_STATS, ntddpsch/PS_DRRSEQ_STATS, qos.ps_drrseq_stats"
 ms.prod: windows
 ms.technology: windows-sdk

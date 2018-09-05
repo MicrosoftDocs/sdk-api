@@ -7,7 +7,7 @@ old-location: netmgmt\server_transport_info_0_str.htm
 old-project: netmgmt
 ms.assetid: 5b94cf7a-74d1-4ae8-87bd-22b2daf292cb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPSERVER_TRANSPORT_INFO_0, *PSERVER_TRANSPORT_INFO_0, LPSERVER_TRANSPORT_INFO_0, LPSERVER_TRANSPORT_INFO_0 structure pointer [Network Management], PSERVER_TRANSPORT_INFO_0, PSERVER_TRANSPORT_INFO_0 structure pointer [Network Management], SERVER_TRANSPORT_INFO_0, SERVER_TRANSPORT_INFO_0 structure [Network Management], _SERVER_TRANSPORT_INFO_0, _win32_server_transport_info_0_str, lmserver/LPSERVER_TRANSPORT_INFO_0, lmserver/PSERVER_TRANSPORT_INFO_0, lmserver/SERVER_TRANSPORT_INFO_0, netmgmt.server_transport_info_0_str"
 ms.prod: windows
 ms.technology: windows-sdk

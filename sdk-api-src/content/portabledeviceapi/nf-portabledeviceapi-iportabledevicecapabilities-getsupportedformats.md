@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevicecapabilities_getsupportedformats.htm
 old-project: wpd_sdk
 ms.assetid: 7568f5cf-2f9e-459c-ae08-d23b9e37ce4e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetSupportedFormats, GetSupportedFormats method [Windows Portable Devices SDK], GetSupportedFormats method [Windows Portable Devices SDK],IPortableDeviceCapabilities interface, IPortableDeviceCapabilities interface [Windows Portable Devices SDK],GetSupportedFormats method, IPortableDeviceCapabilities.GetSupportedFormats, IPortableDeviceCapabilities::GetSupportedFormats, IPortableDeviceCapabilitiesGetSupportedFormats, portabledeviceapi/IPortableDeviceCapabilities::GetSupportedFormats, wpdsdk.iportabledevicecapabilities_getsupportedformats
 ms.prod: windows
 ms.technology: windows-sdk
@@ -119,7 +119,7 @@ At least one of the arguments was a <b>NULL</b> pointer.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319362(v=VS.85).aspx">IPortableDeviceCapabilities Interface</a>
+<a href="wpdsdk.iportabledevicecapabilities">IPortableDeviceCapabilities Interface</a>
 
 
 

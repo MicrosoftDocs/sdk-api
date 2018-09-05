@@ -4,10 +4,10 @@ title: SLGetLicense function
 author: windows-sdk-content
 description: Returns the license file BLOB.
 old-location: security\slgetlicense.htm
-old-project: secslapi
+old-project: SecSLApi
 ms.assetid: 68648512-ea63-43b9-af86-b1014c89f1d7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SLGetLicense, SLGetLicense function [Security], security.slgetlicense, slpublic/SLGetLicense
 ms.prod: windows
 ms.technology: windows-sdk

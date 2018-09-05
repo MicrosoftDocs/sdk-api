@@ -7,7 +7,7 @@ old-location: shell\syncmgr_isyncmgrsynchronize_setprogresscallback.htm
 old-project: shell
 ms.assetid: 193926e8-824c-4969-9707-e2d95961c242
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ISyncMgrSynchronize interface [Windows Shell],SetProgressCallback method, ISyncMgrSynchronize.SetProgressCallback, ISyncMgrSynchronize::SetProgressCallback, SetProgressCallback, SetProgressCallback method [Windows Shell], SetProgressCallback method [Windows Shell],ISyncMgrSynchronize interface, mobsync/ISyncMgrSynchronize::SetProgressCallback, shell.syncmgr_isyncmgrsynchronize_setprogresscallback, syncmgr.isyncmgrsynchronize_setprogresscallback
 ms.prod: windows
 ms.technology: windows-sdk

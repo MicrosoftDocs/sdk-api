@@ -115,15 +115,15 @@ The fax service calls the <b>FaxRouteSetRoutingInfo</b> function to modify routi
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684519(v=VS.85).aspx">Fax Routing Extension Application Programming Interface Overview</a>
+<a href="https://msdn.microsoft.com/f8bdf0de-9455-45d1-9271-3929e0429d5c">Fax Routing Extension Application Programming Interface Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692865(v=VS.85).aspx">Fax Routing Extension Functions</a>
+<a href="https://msdn.microsoft.com/339f7fb6-64eb-403e-91be-210501042a25">Fax Routing Extension Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692861(v=VS.85).aspx">FaxRouteGetRoutingInfo</a>
+<a href="https://msdn.microsoft.com/e95ea880-7cc0-478a-a585-529347c8543d">FaxRouteGetRoutingInfo</a>
  
 
  

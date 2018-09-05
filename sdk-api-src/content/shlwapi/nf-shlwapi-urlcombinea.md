@@ -7,7 +7,7 @@ old-location: shell\UrlCombine.htm
 old-project: shell
 ms.assetid: f574d365-1ab9-4de4-84fe-17820c327ccf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: URL_DONT_SIMPLIFY, URL_ESCAPE_AS_UTF8, URL_ESCAPE_PERCENT, URL_ESCAPE_SPACES_ONLY, URL_ESCAPE_UNSAFE, URL_NO_META, URL_PLUGGABLE_PROTOCOL, URL_UNESCAPE, UrlCombine, UrlCombine function [Windows Shell], UrlCombineA, UrlCombineW, _win32_UrlCombine, shell.UrlCombine, shlwapi/UrlCombine, shlwapi/UrlCombineA, shlwapi/UrlCombineW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -198,30 +198,38 @@ Items between slashes are treated as hierarchical identifiers; the last item spe
 
 				
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 hRetVal = UrlCombine(TEXT("http://xyz/test/abc"), 
                      TEXT("bar"), 
                      lpszCombined, 
-                     &dwLength, 0);
-```
-
-
+                     &amp;dwLength, 0);</pre>
+</td>
+</tr>
+</table></span></div>
 The preceding code returns the URL http://xyz/test/bar. If you want the combined URL to be http://xyz/test/abc/bar, use the following call to <b>UrlCombine</b>.
 
 				
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 hRetVal = UrlCombine(TEXT("http://xyz/test/abc/"), 
                      TEXT("bar"), 
                      lpszCombined, 
-                     &dwLength, 0);
-```
-
-
+                     &amp;dwLength, 0);</pre>
+</td>
+</tr>
+</table></span></div>
 If a URL string contains '/../' or '/./', <b>UrlCombine</b> usually treats the characters as if they indicated navigation in the URL hierarchy. The function simplifies the URLs before combining them. For instance, "/hello/cruel/../world" is simplified to "/hello/world". If the <b>URL_DONT_SIMPLIFY</b> flag is set in <i>dwFlags</i>, the function does not simplify URLs. In this case, "/hello/cruel/../world" is left as it is.
 
 
@@ -232,7 +240,7 @@ If a URL string contains '/../' or '/./', <b>UrlCombine</b> usually treats the c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384225(v=VS.85).aspx">Handling Uniform Resource Locators</a>
+<a href="_inet_Handling_Uniform_Resource_Locators">Handling Uniform Resource Locators</a>
 
 
 

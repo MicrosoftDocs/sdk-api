@@ -7,7 +7,7 @@ old-location: shell\IShellIconOverlayManager.htm
 old-project: shell
 ms.assetid: 769c3b0b-ece4-4406-a76c-cabc37901351
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellIconOverlayManager, IShellIconOverlayManager interface [Windows Shell], IShellIconOverlayManager interface [Windows Shell],described, _win32_IShellIconOverlayManager, shell.IShellIconOverlayManager, shlobj_core/IShellIconOverlayManager
 ms.prod: windows
 ms.technology: windows-sdk

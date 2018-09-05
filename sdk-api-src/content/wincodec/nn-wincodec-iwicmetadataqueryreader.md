@@ -127,45 +127,53 @@ However, it is not recommended to use this method since <a href="https://msdn.mi
 
 The following code demonstrates how to obtain a query reader and use it to retrieve a metadata item.
 
-
-```
-// Get the query reader
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>// Get the query reader
 if (SUCCEEDED(hr))
 {
-    hr = pFrameDecode->GetMetadataQueryReader(&pQueryReader);
+    hr = pFrameDecode-&gt;GetMetadataQueryReader(&amp;pQueryReader);
 }
 
 if (SUCCEEDED(hr))
 {
-    hr = pQueryReader->GetMetadataByName(L"/app1/ifd/{ushort=18249}", &value);
-    PropVariantClear(&value);
-}
-```
-
-
+    hr = pQueryReader-&gt;GetMetadataByName(L"/app1/ifd/{ushort=18249}", &amp;value);
+    PropVariantClear(&amp;value);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 The following code demonstrates how to obtain query reader and use it to retrieve a nested metadata block.
 
-
-```
-// Get the query reader
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>// Get the query reader
 if (SUCCEEDED(hr))
 {
-    hr = pFrameDecode->GetMetadataQueryReader(&pQueryReader);
+    hr = pFrameDecode-&gt;GetMetadataQueryReader(&amp;pQueryReader);
 }
 
 if (SUCCEEDED(hr))
 {
     // Get the embedded IFD reader
-    hr = pQueryReader->GetMetadataByName(L"/app1/ifd", &value);
+    hr = pQueryReader-&gt;GetMetadataByName(L"/app1/ifd", &amp;value);
     if (value.vt == VT_UNKNOWN)
     {
-        hr = value.punkVal->QueryInterface(IID_IWICMetadataQueryReader, (void **)&pEmbedReader);
+        hr = value.punkVal-&gt;QueryInterface(IID_IWICMetadataQueryReader, (void **)&amp;pEmbedReader);
     }
-    PropVariantClear(&value); // Clear value for new query
-}
-```
-
-
+    PropVariantClear(&amp;value); // Clear value for new query
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

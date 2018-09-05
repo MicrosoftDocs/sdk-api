@@ -7,7 +7,7 @@ old-location: wmi\swbemsink_cancel.htm
 old-project: WmiSdk
 ms.assetid: dbe1eb24-5d9d-407a-b7c6-c58ec6891d7a
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: Cancel, Cancel method [Windows Management Instrumentation], Cancel method [Windows Management Instrumentation],ISWbemSink interface, Cancel method [Windows Management Instrumentation],SWbemSink object, ISWbemSink interface [Windows Management Instrumentation],Cancel method, ISWbemSink.Cancel, ISWbemSink::Cancel, SWbemSink object [Windows Management Instrumentation],Cancel method, _hmm_swbemsink.cancel, wmi.swbemsink_cancel
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,13 +92,17 @@ For more information, see <a href="https://msdn.microsoft.com/7a1eda93-014e-4067
 <div> </div>
 The following example shows you how to cancel an asynchronous call.
 
-
-```vb
-objwbemsink.Cancel()
-set objwbemsink= Nothing
-```
-
-
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>objwbemsink.Cancel()
+set objwbemsink= Nothing</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

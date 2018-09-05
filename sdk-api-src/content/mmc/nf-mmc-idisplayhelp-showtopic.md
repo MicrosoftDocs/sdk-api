@@ -64,12 +64,16 @@ The <b>IDisplayHelp::ShowTopic</b> method displays the specified HTML Help topic
 
 A pointer to a <b>NULL</b>-terminated string specifying the topic to display in the merged MMC HTML Help file. The string must have the following format:
 
-
-```cpp
-helpfilename::topicfilename
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>helpfilename::topicfilename</pre>
+</td>
+</tr>
+</table></span></div>
 where <i>helpfilename</i> is the file name of the snap-in's HTML Help file (.chm) that MMC merged into the MMC HTML Help collection file (this is the file name only, not the path to the original HTML Help file), and <i>topicfilename</i> is the internal path to the topic file within the snap-in's .chm file. The author of the snap-in's HTML Help file determines whether there is an internal directory structure for the topic HTML files or if all topic HTML files are at the root of the .chm file.
 
 A snap-in tells MMC about its .chm file in its implementation of the 
@@ -77,20 +81,28 @@ A snap-in tells MMC about its .chm file in its implementation of the
 
 For example, if the snap-in had the HTML Help file mysnapin.chm merged into the MMC HTML Help collection file, and a topic HTML file that had the internal file path of htm/help01.htm, the string would have the following form:
 
-
-```cpp
-mysnapin.chm::htm/help01.htm
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>mysnapin.chm::htm/help01.htm</pre>
+</td>
+</tr>
+</table></span></div>
 If instead the help01.htm topic file is at the root of the mysnapin.chm Help file, the string should have the following form:
 
-
-```cpp
-mysnapin.chm::/help01.htm
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>mysnapin.chm::/help01.htm</pre>
+</td>
+</tr>
+</table></span></div>
 Support for numeric IDs for topics is not included in versions 1.2 and earlier.
 
 

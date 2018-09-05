@@ -7,7 +7,7 @@ old-location: shell\SMINFO.htm
 old-project: shell
 ms.assetid: aaa6ee05-7236-4b68-9d93-4848c4fe693d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "*PSMINFO, PSMINFO, PSMINFO structure pointer [Windows Shell], SMIF_ACCELERATOR, SMIF_ALTSTATE, SMIF_CHECKED, SMIF_DEMOTED, SMIF_DISABLED, SMIF_DRAGNDROP, SMIF_DROPCASCADE, SMIF_DROPTARGET, SMIF_HIDDEN, SMIF_ICON, SMIF_NEW, SMIF_SUBMENU, SMIF_TRACKPOPUP, SMIF_VOLATILE, SMIM_FLAGS, SMIM_ICON, SMIM_TYPE, SMINFO, SMINFO structure [Windows Shell], SMIT_SEPARATOR, SMIT_STRING, _win32_SMINFO, shell.SMINFO, shobjidl_core/PSMINFO, shobjidl_core/SMINFO, tagSMINFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -168,7 +168,7 @@ Make the item unselectable. It will be displayed in gray and will not respond to
 
 #### SMIF_TRACKPOPUP
 
-Use <a href="https://msdn.microsoft.com/en-us/library/ms648002(v=VS.85).aspx">TrackPopupMenu</a> to create the pop-up menu.
+Use <a href="https://msdn.microsoft.com/2e1e4648-e3fd-4d9a-a558-de7b030e3d75">TrackPopupMenu</a> to create the pop-up menu.
 
 
 

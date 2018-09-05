@@ -7,7 +7,7 @@ old-location: setup\ivalidate_opencub.htm
 old-project: msi
 ms.assetid: cadf3c6e-6fbb-4d46-b9a8-4f2508f1e8bc
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IValidate interface,OpenCUB method, IValidate.OpenCUB, IValidate::OpenCUB, OpenCUB, OpenCUB method, OpenCUB method,IValidate interface, evalcom2/IValidate::OpenCUB, setup.ivalidate_opencub
 ms.prod: windows
 ms.technology: windows-sdk

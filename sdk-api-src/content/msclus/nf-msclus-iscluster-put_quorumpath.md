@@ -7,7 +7,7 @@ old-location: mscs\cluster_quorumpath.htm
 old-project: mscs
 ms.assetid: 5f1c6a47-5f28-40b7-9b36-551335ac72d4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Cluster object [Failover Cluster],QuorumPath property, Cluster.QuorumPath, ISCluster.get_QuorumPath, ISCluster.put_QuorumPath, ISCluster::put_QuorumPath, QuorumPath property [Failover Cluster], QuorumPath property [Failover Cluster],Cluster object, _wolf_cluster.quorumpath, mscs.cluster_quorumpath, put_QuorumPath
 ms.prod: windows
 ms.technology: windows-sdk

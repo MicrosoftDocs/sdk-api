@@ -92,7 +92,7 @@ Type: <b>INT</b>
 
 
 
-Calling <a href="https://msdn.microsoft.com/en-us/library/Bb776516(v=VS.85).aspx">PropVariantCompare</a> is equivalent to calling <a href="https://msdn.microsoft.com/en-us/library/Bb776517(v=VS.85).aspx">PropVariantCompareEx</a> with the PVCHF_DEFAULT flag.
+Calling <a href="shell.PropVariantCompare">PropVariantCompare</a> is equivalent to calling <a href="shell.PropVariantCompareEx">PropVariantCompareEx</a> with the PVCHF_DEFAULT flag.
 
 This function compares only selected types, not all types.
 
@@ -110,7 +110,7 @@ This is an inline function, with its source code provided in the header. It is n
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776517(v=VS.85).aspx">PropVariantCompareEx</a>
+<a href="shell.PropVariantCompareEx">PropVariantCompareEx</a>
  
 
  

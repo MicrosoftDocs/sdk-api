@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationmanager2_setdefaultlongestacceptabledelay.
 old-project: UIAnimation
 ms.assetid: CB00C22B-9837-43AD-9E04-30182B7386E9
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IUIAnimationManager2 interface [Windows Animation],SetDefaultLongestAcceptableDelay method, IUIAnimationManager2.SetDefaultLongestAcceptableDelay, IUIAnimationManager2::SetDefaultLongestAcceptableDelay, SetDefaultLongestAcceptableDelay, SetDefaultLongestAcceptableDelay method [Windows Animation], SetDefaultLongestAcceptableDelay method [Windows Animation],IUIAnimationManager2 interface, uianimation.iuianimationmanager2_setdefaultlongestacceptabledelay, uianimation/IUIAnimationManager2::SetDefaultLongestAcceptableDelay
 ms.prod: windows
 ms.technology: windows-sdk

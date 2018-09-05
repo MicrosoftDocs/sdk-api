@@ -7,7 +7,7 @@ old-location: winstation\openinputdesktop.htm
 old-project: winstation
 ms.assetid: 023d421e-bf32-4e08-b5b3-b7b2ca6c4e00
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 08/29/2018
 ms.keywords: DF_ALLOWOTHERACCOUNTHOOK, OpenInputDesktop, OpenInputDesktop function [Windows Stations and Desktops], base.openinputdesktop, winstation.openinputdesktop, winuser/OpenInputDesktop
 ms.prod: windows
 ms.technology: windows-sdk

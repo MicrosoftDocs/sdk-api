@@ -7,7 +7,7 @@ old-location: winsensors_com_ref\isensor_getstate.htm
 old-project: SensorsAPI
 ms.assetid: ec8683a5-f2b3-48ce-8732-16429ee16a7f
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetState, GetState method, GetState method,ISensor interface, ISensor interface,GetState method, ISensor.GetState, ISensor::GetState, sensorsapi/ISensor::GetState, winsensors_com_ref.isensor_getstate
 ms.prod: windows
 ms.technology: windows-sdk

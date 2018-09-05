@@ -80,9 +80,9 @@ Returns S_OK if successful, or an <b>HRESULT</b> value that indicates the cause 
 
 If the graph is running, this method pauses the graph before stopping it. While paused, video renderers can copy the current frame to display as a poster frame.
 
-This method does not seek to the beginning of the stream. If you call this method and then call the <a href="https://msdn.microsoft.com/en-us/library/Dd390177(v=VS.85).aspx">IMediaControl::Run</a> method, playback resumes from the stopped position. To seek, use the <a href="https://msdn.microsoft.com/en-us/library/Dd407023(v=VS.85).aspx">IMediaSeeking</a> interface.
+This method does not seek to the beginning of the stream. If you call this method and then call the <a href="https://msdn.microsoft.com/b52a5fa7-96f8-4949-9cf0-2d526f23bee1">IMediaControl::Run</a> method, playback resumes from the stopped position. To seek, use the <a href="https://msdn.microsoft.com/32adad53-d1ac-495f-9347-7bdd4ae4b78d">IMediaSeeking</a> interface.
 
-The Filter Graph Manager pauses all the filters in the graph, and then calls the <a href="https://msdn.microsoft.com/en-us/library/Dd406922(v=VS.85).aspx">IMediaFilter::Stop</a> method on all filters, without waiting for the pause operations to complete. Therefore, some filters might have their <code>Stop</code> method called before they complete their pause operation. If you develop a custom rendering filter, you might need to handle this case by pausing the filter if it receives a stop command while in a running state. However, most filters do not need to take any special action in this regard.
+The Filter Graph Manager pauses all the filters in the graph, and then calls the <a href="https://msdn.microsoft.com/8c415b5c-1aee-4ea4-b182-fd95da4898aa">IMediaFilter::Stop</a> method on all filters, without waiting for the pause operations to complete. Therefore, some filters might have their <code>Stop</code> method called before they complete their pause operation. If you develop a custom rendering filter, you might need to handle this case by pausing the filter if it receives a stop command while in a running state. However, most filters do not need to take any special action in this regard.
 
 
 
@@ -92,15 +92,15 @@ The Filter Graph Manager pauses all the filters in the graph, and then calls the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390170(v=VS.85).aspx">IMediaControl Interface</a>
+<a href="https://msdn.microsoft.com/bce64088-3751-420c-b9de-b9b5f3119198">IMediaControl Interface</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd390179(v=VS.85).aspx">StopWhenReady</a>
+<a href="https://msdn.microsoft.com/55dd55b1-51f0-4b47-8432-99741eaee8bb">StopWhenReady</a>
  
 
  

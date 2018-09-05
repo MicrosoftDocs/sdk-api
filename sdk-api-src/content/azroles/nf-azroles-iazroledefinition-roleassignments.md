@@ -4,10 +4,10 @@ title: IAzRoleDefinition::RoleAssignments
 author: windows-sdk-content
 description: Retrieves a collection of IAzRoleAssignment objects that represent the role assignments associated with this IAzRoleDefinition object.
 old-location: security\iazroledefinition_roleassignments.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 1b8c3aaf-ed33-4253-b15f-06e5d3415d58
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: IAzRoleDefinition interface [Security],RoleAssignments property, IAzRoleDefinition.RoleAssignments, IAzRoleDefinition::RoleAssignments, IAzRoleDefinition::get_RoleAssignments, RoleAssignments, RoleAssignments property [Security], RoleAssignments property [Security],IAzRoleDefinition interface, azroles/IAzRoleDefinition::RoleAssignments, azroles/IAzRoleDefinition::get_RoleAssignments, security.iazroledefinition_roleassignments
 ms.prod: windows
 ms.technology: windows-sdk

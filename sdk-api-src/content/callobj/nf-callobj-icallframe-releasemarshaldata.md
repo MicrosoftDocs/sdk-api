@@ -7,7 +7,7 @@ old-location: com\icallframe_releasemarshaldata.htm
 old-project: com
 ms.assetid: c82107ad-68d1-4a46-ba78-37592d445c57
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ICallFrame interface [COM],ReleaseMarshalData method, ICallFrame.ReleaseMarshalData, ICallFrame::ReleaseMarshalData, ReleaseMarshalData, ReleaseMarshalData method [COM], ReleaseMarshalData method [COM],ICallFrame interface, _com_icallframe_releasemarshaldata, callobj/ICallFrame::ReleaseMarshalData, com.icallframe_releasemarshaldata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Releases resources that are held by interface pointers residing in a packet of marshaled data. This method finds all interface pointers in the packet, and calls the <a href="https://msdn.microsoft.com/en-us/library/ms690490(v=VS.85).aspx">CoReleaseMarshalData</a> function on each one.
+Releases resources that are held by interface pointers residing in a packet of marshaled data. This method finds all interface pointers in the packet, and calls the <a href="https://msdn.microsoft.com/a642a20f-3a3c-46bc-b833-e424dab3a16d">CoReleaseMarshalData</a> function on each one.
 
 
 
@@ -82,7 +82,7 @@ The data representation with which the data was marshaled.
 
 ### -param pcontext [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms682388(v=VS.85).aspx">CALLFRAME_MARSHALCONTEXT</a> structure containing context information about how un-marshalling is carried out.
+A pointer to the <a href="https://msdn.microsoft.com/4ecc4646-db3f-4d0e-9c45-b78a288156e1">CALLFRAME_MARSHALCONTEXT</a> structure containing context information about how un-marshalling is carried out.
 
 
 ## -returns
@@ -128,7 +128,7 @@ An unexpected error has occurred.
 
 
 
-The <b>ReleaseMarshalData</b> method must be called exactly once to clean up the resources held in a marshaled buffer. However when the <a href="https://msdn.microsoft.com/en-us/library/ms680759(v=VS.85).aspx">MSHLFLAGS</a> enumeration is set to MSHLFLAGS_NORMAL, this is done automatically during un-marshaling and so need not be carried out explicitly.
+The <b>ReleaseMarshalData</b> method must be called exactly once to clean up the resources held in a marshaled buffer. However when the <a href="https://msdn.microsoft.com/42a482be-d4b8-4f2e-ae43-1d210cb44c7c">MSHLFLAGS</a> enumeration is set to MSHLFLAGS_NORMAL, this is done automatically during un-marshaling and so need not be carried out explicitly.
 
 This method can function correctly on both marshaled [in] and [out] parameters.
 
@@ -140,7 +140,7 @@ This method can function correctly on both marshaled [in] and [out] parameters.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683709(v=VS.85).aspx">ICallFrame</a>
+<a href="https://msdn.microsoft.com/56a75123-f402-4187-af13-d31f72a5f094">ICallFrame</a>
  
 
  

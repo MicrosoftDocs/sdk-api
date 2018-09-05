@@ -7,7 +7,7 @@ old-location: mscs\clusversion_buildnumber.htm
 old-project: mscs
 ms.assetid: 2862d1b8-42b6-437f-8979-e3d385905801
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BuildNumber property [Failover Cluster], BuildNumber property [Failover Cluster],ClusVersion object, ClusVersion object [Failover Cluster],BuildNumber property, ClusVersion.BuildNumber, ISClusVersion.get_BuildNumber, ISClusVersion::get_BuildNumber, _wolf_clusversion.buildnumber, get_BuildNumber, mscs.clusversion_buildnumber
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ This property is read-only.
 
 
 All <a href="https://msdn.microsoft.com/2215335a-1858-437f-8654-2e9d601fe061">ClusVersion</a> properties are static values 
-    corresponding the state of the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> when the 
+    corresponding the state of the <a href="c_gly.htm">cluster</a> when the 
     <b>ClusVersion</b> object was first created. To obtain the 
     latest version information from the cluster, create a new 
     <b>ClusVersion</b> object.

@@ -4,10 +4,10 @@ title: RasGetEapUserDataW function
 author: windows-sdk-content
 description: Use the RasGetEapUserData function to retrieve user-specific Extensible Authentication Protocol (EAP) information for the specified phone-book entry.
 old-location: rras\rasgeteapuserdata.htm
-old-project: rras
+old-project: RRAS
 ms.assetid: 6b1a1c73-28af-43ff-b79c-c796ddae219c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RasGetEapUserData, RasGetEapUserData function [RAS], RasGetEapUserDataA, RasGetEapUserDataW, _ras_rasgeteapuserdata, ras/RasGetEapUserData, ras/RasGetEapUserDataA, ras/RasGetEapUserDataW, rras.rasgeteapuserdata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -161,7 +161,7 @@ The buffer pointed to by <i>pbEapData</i> is too small to receive the data. The 
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>

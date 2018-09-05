@@ -7,7 +7,7 @@ old-location: wcs\getyvalue.htm
 old-project: WCS
 ms.assetid: 5948db59-649f-4940-afb6-5bdb84544915
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: GetYValue, GetYValue macro [Windows Color System], _color_GetYValue, wcs.getyvalue, wingdi/GetYValue
 ms.prod: windows
 ms.technology: windows-sdk

@@ -125,19 +125,23 @@ Video optimizations are negotiated separately for each output stream.
 
 The following pseudo-code shows how an application might negotiate with the DMO:
 
-
-```
-IDMOVideoOutputOptimizations *pVidOpt;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>IDMOVideoOutputOptimizations *pVidOpt;
 // Query the DMO for IDMOVideoOutputOptimizations (not shown).
 
 BOOL  bWantsPreviousBuffer = FALSE;
 DWORD wFlags;
-pVidOpt->QueryOperationModePreferences(0,&dwFlags);
+pVidOpt-&gt;QueryOperationModePreferences(0,&amp;dwFlags);
 
-if (dwFlags & DMO_VOSF_NEEDS_PREVIOUS_SAMPLE) 
+if (dwFlags &amp; DMO_VOSF_NEEDS_PREVIOUS_SAMPLE) 
 {
     // Agree to the request.      
-    pVidOpt->SetOperationMode(0, DMO_VOSF_NEEDS_PREVIOUS_SAMPLE);
+    pVidOpt-&gt;SetOperationMode(0, DMO_VOSF_NEEDS_PREVIOUS_SAMPLE);
     bWantsPreviousBuffer = TRUE;
 }
 
@@ -146,12 +150,12 @@ while (there is input).
 {
     ProcessInput(0, ...);
     if (bWantsPreviousBuffer)
-        pDMO->ProcessOutput(0, ...) // Use the same buffer as last time.
+        pDMO-&gt;ProcessOutput(0, ...) // Use the same buffer as last time.
     else
-        pDMO->ProcessOutput(0, ...) // OK to use a new buffer.
-}
-```
-
-
+        pDMO-&gt;ProcessOutput(0, ...) // OK to use a new buffer.
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

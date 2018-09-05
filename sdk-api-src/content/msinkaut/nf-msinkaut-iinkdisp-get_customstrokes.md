@@ -7,7 +7,7 @@ old-location: tablet\inkdisp_customstrokes.htm
 old-project: tablet
 ms.assetid: 33425e5b-2ba0-4026-ab19-33579e7bb9f5
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 33425e5b-2ba0-4026-ab19-33579e7bb9f5, CustomStrokes property [Tablet PC], CustomStrokes property [Tablet PC],IInkDisp interface, IInkDisp interface [Tablet PC],CustomStrokes property, IInkDisp.CustomStrokes, IInkDisp.get_CustomStrokes, IInkDisp::CustomStrokes, IInkDisp::get_CustomStrokes, InkDisp.get_CustomStrokes, get_CustomStrokes, msinkaut/IInkDisp::CustomStrokes, msinkaut/IInkDisp::get_CustomStrokes, tablet.inkdisp_customstrokes
 ms.prod: windows
 ms.technology: windows-sdk

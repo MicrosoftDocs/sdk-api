@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectimpl_setparenteffect.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectimpl\setparenteffect.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IMILBitmapEffectImpl interface [WPF Bitmap Effects],SetParentEffect method, IMILBitmapEffectImpl.SetParentEffect, IMILBitmapEffectImpl::SetParentEffect, SetParentEffect, SetParentEffect method [WPF Bitmap Effects], SetParentEffect method [WPF Bitmap Effects],IMILBitmapEffectImpl interface, _wibe_imilbitmapeffectimpl_setparenteffect, mileffects/IMILBitmapEffectImpl::SetParentEffect, wibe._wibe_imilbitmapeffectimpl_setparenteffect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,9 +62,9 @@ Sets the parent of the effect.
 
 ### -param pParentEffect [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735291(v=VS.85).aspx">IMILBitmapEffectGroup</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/a8ca1b39-f1b9-40b5-bcec-bf2e3182b9aa">IMILBitmapEffectGroup</a>*</b>
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms735291(v=VS.85).aspx">IMILBitmapEffectGroup</a> parent of the effect.
+The <a href="https://msdn.microsoft.com/a8ca1b39-f1b9-40b5-bcec-bf2e3182b9aa">IMILBitmapEffectGroup</a> parent of the effect.
 
 
 ## -returns

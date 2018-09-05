@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Removes an item from a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774895(v=VS.85).aspx">LVM_DELETEITEM</a> message explicitly. 
+Removes an item from a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/0eddd4c1-7786-4a8c-a16d-9fd83cce98b3">LVM_DELETEITEM</a> message explicitly. 
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Removes an item from a list-view control. You can use this macro or send the <a 
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control. 
 

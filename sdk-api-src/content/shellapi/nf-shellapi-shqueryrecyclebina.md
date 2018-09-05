@@ -7,7 +7,7 @@ old-location: shell\SHQueryRecycleBin.htm
 old-project: shell
 ms.assetid: a9a80486-2c99-4916-af25-10b00573456b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHQueryRecycleBin, SHQueryRecycleBin function [Windows Shell], SHQueryRecycleBinA, SHQueryRecycleBinW, _win32_SHQueryRecycleBin, shell.SHQueryRecycleBin, shellapi/SHQueryRecycleBin, shellapi/SHQueryRecycleBinA, shellapi/SHQueryRecycleBinW
 ms.prod: windows
 ms.technology: windows-sdk

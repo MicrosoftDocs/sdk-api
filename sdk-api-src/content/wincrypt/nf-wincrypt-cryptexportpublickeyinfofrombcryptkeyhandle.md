@@ -4,10 +4,10 @@ title: CryptExportPublicKeyInfoFromBCryptKeyHandle function
 author: windows-sdk-content
 description: Exports the public key information associated with a provider's corresponding private key.
 old-location: security\cryptexportpublickeyinfofrombcryptkeyhandle.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: f96bff4a-d354-4231-907a-383aff5cfacc
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CRYPT_OID_INFO_PUBKEY_ENCRYPT_KEY_FLAG, CRYPT_OID_INFO_PUBKEY_SIGN_KEY_FLAG, CryptExportPublicKeyInfoFromBCryptKeyHandle, CryptExportPublicKeyInfoFromBCryptKeyHandle function [Security], security.cryptexportpublickeyinfofrombcryptkeyhandle, wincrypt/CryptExportPublicKeyInfoFromBCryptKeyHandle
 ms.prod: windows
 ms.technology: windows-sdk

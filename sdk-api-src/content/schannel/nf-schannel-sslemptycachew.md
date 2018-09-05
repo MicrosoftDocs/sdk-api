@@ -4,10 +4,10 @@ title: SslEmptyCacheW function
 author: windows-sdk-content
 description: Removes the specified string from the Schannel cache.
 old-location: security\sslemptycache.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: c914d4e3-657e-45ef-ace8-2cea900a8a76
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: SslEmptyCache, SslEmptyCache function [Security], SslEmptyCacheA, SslEmptyCacheW, schannel/SslEmptyCache, schannel/SslEmptyCacheA, schannel/SslEmptyCacheW, security.sslemptycache
 ms.prod: windows
 ms.technology: windows-sdk

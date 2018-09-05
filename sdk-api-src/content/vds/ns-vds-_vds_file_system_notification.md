@@ -4,10 +4,10 @@ title: "_VDS_FILE_SYSTEM_NOTIFICATION"
 author: windows-sdk-content
 description: Defines the details of file-system events.
 old-location: base\vds_file_system_notification.htm
-old-project: vds
+old-project: VDS
 ms.assetid: 81d62c22-4f29-43f6-a00e-12502174a768
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: VDS_FILE_SYSTEM_NOTIFICATION, VDS_FILE_SYSTEM_NOTIFICATION structure [VDS], VDS_NF_FILE_SYSTEM_FORMAT_PROGRESS, VDS_NF_FILE_SYSTEM_MODIFY, _VDS_FILE_SYSTEM_NOTIFICATION, base.vds_file_system_notification, vds/_VDS_FILE_SYSTEM_NOTIFICATION, vdshwprv/_VDS_FILE_SYSTEM_NOTIFICATION
 ms.prod: windows
 ms.technology: windows-sdk

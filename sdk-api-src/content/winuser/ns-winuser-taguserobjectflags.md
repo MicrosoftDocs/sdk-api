@@ -7,7 +7,7 @@ old-location: winstation\userobjectflags_str.htm
 old-project: winstation
 ms.assetid: 5a973d45-5ff4-47e7-a927-72d3fdd61dc9
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 08/29/2018
 ms.keywords: "*PUSEROBJECTFLAGS, DF_ALLOWOTHERACCOUNTHOOK, PUSEROBJECTFLAGS, PUSEROBJECTFLAGS structure pointer [Windows Stations and Desktops], USEROBJECTFLAGS, USEROBJECTFLAGS structure [Windows Stations and Desktops], WSF_VISIBLE, _win32_userobjectflags_str, base.userobjectflags_str, tagUSEROBJECTFLAGS, winstation.userobjectflags_str, winuser/PUSEROBJECTFLAGS, winuser/USEROBJECTFLAGS"
 ms.prod: windows
 ms.technology: windows-sdk

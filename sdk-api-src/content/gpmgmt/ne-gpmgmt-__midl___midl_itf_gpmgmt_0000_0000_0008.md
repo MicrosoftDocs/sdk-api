@@ -55,15 +55,19 @@ req.product: GDI+ 1.1
 <b>GPMReportingOptions</b> defines options for Group Policy Management Console  reports.
 
 <b>GPMReportingOptions</b> defines options for Group Policy Management Console reports.
-
-```cpp
-typedef enum {
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>typedef enum {
         opReportLegacy = 0,
         opReportComments = 1,
-        } GPMReportingOptions;
-```
-
-
+        } GPMReportingOptions;</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -enum-fields
 

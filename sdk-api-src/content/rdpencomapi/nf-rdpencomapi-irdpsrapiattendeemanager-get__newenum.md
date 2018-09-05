@@ -4,10 +4,10 @@ title: IRDPSRAPIAttendeeManager::get__NewEnum
 author: windows-sdk-content
 description: An enumerator interface for the attendee collection.
 old-location: rdp\irdpsrapiattendeemanager__newenum.htm
-old-project: rdp
+old-project: Rdp
 ms.assetid: f79bfd9c-b9f9-4da4-977c-cae8f11ba239
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IRDPSRAPIAttendeeManager interface [RDP],_NewEnum property, IRDPSRAPIAttendeeManager._NewEnum, IRDPSRAPIAttendeeManager.get__NewEnum, IRDPSRAPIAttendeeManager::_NewEnum, IRDPSRAPIAttendeeManager::get__NewEnum, RDPSRAPIAttendeeManager object [RDP],_NewEnum property, _NewEnum property [RDP], _NewEnum property [RDP],IRDPSRAPIAttendeeManager interface, _NewEnum property [RDP],RDPSRAPIAttendeeManager object, get__NewEnum, rdp.irdpsrapiattendeemanager__newenum, rdpencomapi/IRDPSRAPIAttendeeManager::_NewEnum, rdpencomapi/IRDPSRAPIAttendeeManager::get__NewEnum
 ms.prod: windows
 ms.technology: windows-sdk

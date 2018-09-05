@@ -7,7 +7,7 @@ old-location: inputdev\getregisteredrawinputdevices.htm
 old-project: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputfunctions\getregisteredrawinputdevices.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetRegisteredRawInputDevices, GetRegisteredRawInputDevices function [Keyboard and Mouse Input], _win32_GetRegisteredRawInputDevices, _win32_getregisteredrawinputdevices_cpp, inputdev.getregisteredrawinputdevices, winui._win32_getregisteredrawinputdevices, winuser/GetRegisteredRawInputDevices
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,21 +64,21 @@ Retrieves the information about the raw input devices for the current applicatio
 
 Type: <b>PRAWINPUTDEVICE</b>
 
-An array of <a href="https://msdn.microsoft.com/en-us/library/ms645565(v=VS.85).aspx">RAWINPUTDEVICE</a> structures for the application. 
+An array of <a href="https://msdn.microsoft.com/c8f97d22-2aeb-4aa9-a015-5b13d936899d">RAWINPUTDEVICE</a> structures for the application. 
 
 
 ### -param puiNumDevices [in, out]
 
 Type: <b>PUINT</b>
 
-The number of <a href="https://msdn.microsoft.com/en-us/library/ms645565(v=VS.85).aspx">RAWINPUTDEVICE</a> structures in *<i>pRawInputDevices</i>. 
+The number of <a href="https://msdn.microsoft.com/c8f97d22-2aeb-4aa9-a015-5b13d936899d">RAWINPUTDEVICE</a> structures in *<i>pRawInputDevices</i>. 
 
 
 ### -param cbSize [in]
 
 Type: <b>UINT</b>
 
-The size, in bytes, of a <a href="https://msdn.microsoft.com/en-us/library/ms645565(v=VS.85).aspx">RAWINPUTDEVICE</a> structure. 
+The size, in bytes, of a <a href="https://msdn.microsoft.com/c8f97d22-2aeb-4aa9-a015-5b13d936899d">RAWINPUTDEVICE</a> structure. 
 
 
 ## -returns
@@ -87,7 +87,7 @@ The size, in bytes, of a <a href="https://msdn.microsoft.com/en-us/library/ms645
 
 Type: <b>UINT</b>
 
-If successful, the function returns a non-negative number that is the number of <a href="https://msdn.microsoft.com/en-us/library/ms645565(v=VS.85).aspx">RAWINPUTDEVICE</a> structures written to the buffer. 
+If successful, the function returns a non-negative number that is the number of <a href="https://msdn.microsoft.com/c8f97d22-2aeb-4aa9-a015-5b13d936899d">RAWINPUTDEVICE</a> structures written to the buffer. 
 
 If the <i>pRawInputDevices</i> buffer is too small or <b>NULL</b>, the function sets the last error as <b>ERROR_INSUFFICIENT_BUFFER</b>, returns -1, and sets <i>puiNumDevices</i> to the required number of devices. If the function fails for any other reason, it returns -1. For more details, call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>. 
 
@@ -98,7 +98,7 @@ If the <i>pRawInputDevices</i> buffer is too small or <b>NULL</b>, the function 
 
 
 
-To receive raw input from a device, an application must register it by using <a href="https://msdn.microsoft.com/en-us/library/ms645600(v=VS.85).aspx">RegisterRawInputDevices</a>. 
+To receive raw input from a device, an application must register it by using <a href="https://msdn.microsoft.com/abf60a07-5d82-4737-96df-b76c9c449261">RegisterRawInputDevices</a>. 
 
 
 
@@ -112,11 +112,11 @@ To receive raw input from a device, an application must register it by using <a 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645565(v=VS.85).aspx">RAWINPUTDEVICE</a>
+<a href="https://msdn.microsoft.com/c8f97d22-2aeb-4aa9-a015-5b13d936899d">RAWINPUTDEVICE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645536(v=VS.85).aspx">Raw Input</a>
+<a href="https://msdn.microsoft.com/a2afdb80-d68a-4c33-826f-96739d239cd9">Raw Input</a>
 
 
 
@@ -124,7 +124,7 @@ To receive raw input from a device, an application must register it by using <a 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645600(v=VS.85).aspx">RegisterRawInputDevices</a>
+<a href="https://msdn.microsoft.com/abf60a07-5d82-4737-96df-b76c9c449261">RegisterRawInputDevices</a>
  
 
  

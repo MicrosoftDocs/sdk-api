@@ -7,7 +7,7 @@ old-location: devinst\setupdideletedevregkey.htm
 old-project: devinst
 ms.assetid: 3b332291-0593-4750-9965-f6bf90ec8838
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: SetupDiDeleteDevRegKey, SetupDiDeleteDevRegKey function [Device and Driver Installation], devinst.setupdideletedevregkey, di-rtns_9e60aff0-2d01-4b1b-90e5-7f050a0e075a.xml, setupapi/SetupDiDeleteDevRegKey
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ The <b>SetupDiDeleteDevRegKey</b> function deletes specified user-accessible reg
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains a device information element that represents the device for which to delete registry keys. The device information set must not contain remote elements.
+A handle to the <a href="devinst.device_information_sets">device information set</a> that contains a device information element that represents the device for which to delete registry keys. The device information set must not contain remote elements.
 
 
 ### -param DeviceInfoData [in]

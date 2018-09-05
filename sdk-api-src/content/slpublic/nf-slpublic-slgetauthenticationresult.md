@@ -4,10 +4,10 @@ title: SLGetAuthenticationResult function
 author: windows-sdk-content
 description: Gets the authentication results.
 old-location: security\slgetauthenticationresult.htm
-old-project: secslapi
+old-project: SecSLApi
 ms.assetid: 8f30ac28-92a0-41f5-b076-eda7014fb526
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SLGetAuthenticationResult, SLGetAuthenticationResult function [Security], security.slgetauthenticationresult, slpublic/SLGetAuthenticationResult
 ms.prod: windows
 ms.technology: windows-sdk

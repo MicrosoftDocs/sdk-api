@@ -7,7 +7,7 @@ old-location: fs\getvolumesfromdrive.htm
 old-project: Rsm
 ms.assetid: 2509aed9-193e-402c-b0b7-fe94a8a6e0d6
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: GetVolumesFromDrive, GetVolumesFromDrive function [Files], GetVolumesFromDriveA, GetVolumesFromDriveW, base.getvolumesfromdrive, fs.getvolumesfromdrive, ntmsapi/GetVolumesFromDrive, ntmsapi/GetVolumesFromDriveA, ntmsapi/GetVolumesFromDriveW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -110,7 +110,7 @@ This function assumes there will be only zero or one partitions on a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Library Control Functions</a>
+<a href="removable_storage_manager_functions.htm">Library Control Functions</a>
  
 
  

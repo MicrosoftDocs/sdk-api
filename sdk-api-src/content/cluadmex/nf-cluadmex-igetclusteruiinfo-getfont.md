@@ -7,7 +7,7 @@ old-location: mscs\igetclusteruiinfo_getfont.htm
 old-project: mscs
 ms.assetid: 87dc900d-eee3-4e48-8294-a1d5c3a95179
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetFont, GetFont method [Failover Cluster], GetFont method [Failover Cluster],IGetClusterUIInfo interface, IGetClusterUIInfo interface [Failover Cluster],GetFont method, IGetClusterUIInfo.GetFont, IGetClusterUIInfo::GetFont, _wolf_igetclusteruiinfo_getfont, cluadmex/IGetClusterUIInfo::GetFont, mscs.igetclusteruiinfo_getfont
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,7 +80,7 @@ If <b>GetFont</b> is successful, it returns a
 
 The <b>GetFont</b> method returns the font handle 
      as <b>NULL</b>. 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa369060(v=VS.85).aspx">Failover Cluster Administrator</a> extensions should not 
+     <a href="https://msdn.microsoft.com/5d89c4b8-0554-4672-9e06-2ce7c5d15d5f">Failover Cluster Administrator</a> extensions should not 
      use this return value in their user interface displays.
 
 
@@ -91,7 +91,7 @@ The <b>GetFont</b> method returns the font handle
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa370234(v=VS.85).aspx">IGetClusterUIInfo</a>
+<a href="https://msdn.microsoft.com/e41afb20-5bb8-475f-a056-53d7be8f4bf0">IGetClusterUIInfo</a>
  
 
  

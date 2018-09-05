@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_string.htm
 old-project: wsw
 ms.assetid: 3daa656f-7f97-4e29-a556-7ff72206f01c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_XML_STRING, WS_XML_STRING structure [Web Services for Windows], _WS_XML_STRING, webservices/WS_XML_STRING, wsw.ws_xml_string
 ms.prod: windows
 ms.technology: windows-sdk

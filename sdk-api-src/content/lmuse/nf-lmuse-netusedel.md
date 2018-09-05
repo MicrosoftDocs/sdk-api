@@ -7,7 +7,7 @@ old-location: netmgmt\netusedel.htm
 old-project: netmgmt
 ms.assetid: 200b0640-71e9-4f60-bf4c-c8df10bfe095
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NetUseDel, NetUseDel function [Network Management], USE_FORCE, USE_LOTS_OF_FORCE, USE_NOFORCE, _win32_netusedel, lmuse/NetUseDel, netmgmt.netusedel
 ms.prod: windows
 ms.technology: windows-sdk

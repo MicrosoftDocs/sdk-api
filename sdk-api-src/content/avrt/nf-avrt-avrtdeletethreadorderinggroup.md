@@ -89,11 +89,15 @@ If the parent thread times out and attempts to call this function, the function 
 
 The following code deletes a thread ordering group.
 
-
-```cpp
-#include <windows.h>
-#include <avrt.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;avrt.h&gt;
+#include &lt;stdio.h&gt;
 
 #pragma comment(lib, "Avrt.lib")
 
@@ -109,10 +113,10 @@ int main( void )
 
     return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

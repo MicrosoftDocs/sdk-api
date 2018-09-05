@@ -4,10 +4,10 @@ title: PALLOCMEM
 author: windows-sdk-content
 description: The PALLOCMEM function is a memory allocation function provided by the PCM, used for allocating memory when returning policy information to the PCM.
 old-location: qos\pallocmem.htm
-old-project: qos
+old-project: QOS
 ms.assetid: e7b38820-4a7e-4f17-a67d-b94caa9037f5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PALLOCMEM, PALLOCMEM callback, PALLOCMEM callback function [QOS], _gqos_pallocmem, lpmapi/PALLOCMEM, qos.pallocmem
 ms.prod: windows
 ms.technology: windows-sdk

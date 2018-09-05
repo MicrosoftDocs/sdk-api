@@ -7,7 +7,7 @@ old-location: netmgmt\netwkstausergetinfo.htm
 old-project: netmgmt
 ms.assetid: 25ec7a49-fd26-4105-823b-a257a57f724e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: 0, 1, 1101, NetWkstaUserGetInfo, NetWkstaUserGetInfo function [Network Management], _win32_netwkstausergetinfo, lmwksta/NetWkstaUserGetInfo, netmgmt.netwkstausergetinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -189,16 +189,20 @@ The following code sample demonstrates how to retrieve information about the cur
 <b>NetWkstaUserGetInfo</b>, specifying information level 1 (
 <a href="https://msdn.microsoft.com/a30747de-6cb0-41dc-95a7-be3d471056d5">WKSTA_USER_INFO_1</a>). If the call succeeds, the sample prints information about the logged-on user. Finally, the sample frees the memory allocated for the information buffer.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 #pragma comment(lib, "netapi32.lib")
 
-#include <stdio.h>
-#include <windows.h> 
-#include <lm.h>
+#include &lt;stdio.h&gt;
+#include &lt;windows.h&gt; 
+#include &lt;lm.h&gt;
 
 int wmain(void)
 {
@@ -211,7 +215,7 @@ int wmain(void)
    //
    nStatus = NetWkstaUserGetInfo(NULL,
                                  dwLevel,
-                                 (LPBYTE *)&pBuf);
+                                 (LPBYTE *)&amp;pBuf);
    //
    // If the call succeeds, print the information
    //  about the logged-on user.
@@ -220,10 +224,10 @@ int wmain(void)
    {
       if (pBuf != NULL)
       {
-         wprintf(L"\n\tUser:          %s\n", pBuf->wkui1_username);
-         wprintf(L"\tDomain:        %s\n", pBuf->wkui1_logon_domain);
-         wprintf(L"\tOther Domains: %s\n", pBuf->wkui1_oth_domains);
-         wprintf(L"\tLogon Server:  %s\n", pBuf->wkui1_logon_server);
+         wprintf(L"\n\tUser:          %s\n", pBuf-&gt;wkui1_username);
+         wprintf(L"\tDomain:        %s\n", pBuf-&gt;wkui1_logon_domain);
+         wprintf(L"\tOther Domains: %s\n", pBuf-&gt;wkui1_oth_domains);
+         wprintf(L"\tLogon Server:  %s\n", pBuf-&gt;wkui1_logon_server);
       }
    }
    // Otherwise, print the system error.
@@ -238,10 +242,10 @@ int wmain(void)
 
    return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFont_GetWeight.htm
 old-project: DirectWrite
 ms.assetid: 32959881-42f4-45cb-ad32-1acb2787b155
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetWeight, GetWeight method [Direct Write], GetWeight method [Direct Write],IDWriteFont interface, IDWriteFont interface [Direct Write],GetWeight method, IDWriteFont.GetWeight, IDWriteFont::GetWeight, directwrite.IDWriteFont_GetWeight, dwrite/IDWriteFont::GetWeight
 ms.prod: windows
 ms.technology: windows-sdk

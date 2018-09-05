@@ -7,7 +7,7 @@ old-location: shell\IntlStrEqNI.htm
 old-project: shell
 ms.assetid: 3d201726-b24a-4739-84fb-49b54d3f0f07
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IntlStrEqNI, IntlStrEqNI function [Windows Shell], IntlStrEqNIA, IntlStrEqNIW, _win32_IntlStrEqNI, shell.IntlStrEqNI, shlwapi/IntlStrEqNI, shlwapi/IntlStrEqNIA, shlwapi/IntlStrEqNIW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

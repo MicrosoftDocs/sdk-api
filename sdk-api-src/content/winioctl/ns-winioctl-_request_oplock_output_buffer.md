@@ -170,7 +170,7 @@ The <b>REQUEST_OPLOCK_OUTPUT_FLAG_MODES_PROVIDED</b> flag indicates that the
 
 
 
-<a href="https://msdn.microsoft.com/library/Ff551007(v=VS.85).aspx">Oplock Semantics</a>
+<a href="ifsk.oplock_semantics">Oplock Semantics</a>
 
 
 

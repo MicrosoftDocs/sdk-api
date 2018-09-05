@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch4_ExplorerPolicy.htm
 old-project: shell
 ms.assetid: 490c3e18-b606-456a-9016-dc4f7bad2bc3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ExplorerPolicy, ExplorerPolicy method [Windows Shell], ExplorerPolicy method [Windows Shell],IShellDispatch4 object, IShellDispatch4 object [Windows Shell],ExplorerPolicy method, IShellDispatch4.ExplorerPolicy, IShellDispatch4::ExplorerPolicy, _shell_IShellDispatch4_ExplorerPolicy, shell.IShellDispatch4_ExplorerPolicy
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ Gets the value for a specified Windows Internet Explorer policy.
 
 ### -param bstrPolicyName [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a></b>
+Type: <b><a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a></b>
 
 A <b>String</b> that specifies the name of the policy.
 
@@ -110,9 +110,13 @@ The following examples show the proper use of <b>ExplorerPolicy</b> for JScript,
 JScript:
                 
 
-
-```javascript
-<script language="JScript">
+<div class="code"><span codelanguage="JScript"><table>
+<tr>
+<th>JScript</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="JScript"&gt;
     function fnIShellDispatch4ExplorerPolicyJ()
     {
         var objShell = new ActiveXObject("shell.application");
@@ -121,16 +125,20 @@ JScript:
         vReturn = objshell.ExplorerPolicy("ValueName");
         alert(vReturn);
     }
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 VBScript:
 
-
-```vb
-<script language="VBScript">
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="VBScript"&gt;
      function fnIShellDispatch4ExplorerPolicyVB()
         dim objShell
         dim vReturn
@@ -140,16 +148,20 @@ VBScript:
             alert(vReturn)
         set objShell = nothing
     end function
- </script>
-
-```
-
-
+ &lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 Visual Basic:
 
-
-```vb
-Private Sub fnIShellDispatch4ExplorerPolicyVB()
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Private Sub fnIShellDispatch4ExplorerPolicyVB()
     Dim objShell As Shell
     Dim vReturn  As Variant
     
@@ -158,9 +170,9 @@ Private Sub fnIShellDispatch4ExplorerPolicyVB()
         Debug.Print vReturn
     Set objShell = Nothing
 End Sub
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

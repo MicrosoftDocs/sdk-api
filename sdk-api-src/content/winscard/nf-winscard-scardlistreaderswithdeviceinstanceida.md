@@ -4,10 +4,10 @@ title: SCardListReadersWithDeviceInstanceIdA function
 author: windows-sdk-content
 description: Gets the list of readers that have provided a device instance identifier. This function does not affect the state of the reader.
 old-location: security\scardlistreaderswithdeviceinstanceid.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: D470A10B-B167-4BCA-9042-BF63B9A3A92F
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: SCardListReadersWithDeviceInstanceId, SCardListReadersWithDeviceInstanceId function [Security], SCardListReadersWithDeviceInstanceIdA, SCardListReadersWithDeviceInstanceIdW, security.scardgetreadernamefromdeviceinstanceid, security.scardlistreaderswithdeviceinstanceid, winscard/SCardListReadersWithDeviceInstanceId
 ms.prod: windows
 ms.technology: windows-sdk
@@ -110,7 +110,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -129,9 +129,13 @@ An error code. For more information, see
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 szDeviceInstanceIdcchReaderNameLONG     lReturn, lReturn2;
 
 LPTSTR   pmszReaders = NULL;
@@ -144,8 +148,8 @@ DWORD    cchReaderName = SCARD_AUTOALLOCATE;
 // szDeviceInstanceId was obtained by calling SetupDiGetDeviceInstanceId
 lReturn = SCardListReadersWithDeviceInstanceId (hContext,
                          szDeviceInstanceId,
-                         (LPTSTR)&pmszReaders,
-                         &cchReaderName);
+                         (LPTSTR)&amp;pmszReaders,
+                         &amp;cchReaderName);
 
 switch( lReturn )
 {
@@ -180,9 +184,9 @@ default:
         // ...
         break;
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

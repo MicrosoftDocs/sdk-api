@@ -4,10 +4,10 @@ title: IVssBackupComponents::SetSelectedForRestore
 author: windows-sdk-content
 description: The SetSelectedForRestore method indicates whether the specified selectable component is selected for restoration.
 old-location: base\ivssbackupcomponents_setselectedforrestore.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 8f8051d3-b1b6-418b-8a53-0ddc82a20bb3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetSelectedForRestore method, IVssBackupComponents.SetSelectedForRestore, IVssBackupComponents::SetSelectedForRestore, SetSelectedForRestore, SetSelectedForRestore method [VSS], SetSelectedForRestore method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setselectedforrestore, base.ivssbackupcomponents_setselectedforrestore, vsbackup/IVssBackupComponents::SetSelectedForRestore
 ms.prod: windows
 ms.technology: windows-sdk

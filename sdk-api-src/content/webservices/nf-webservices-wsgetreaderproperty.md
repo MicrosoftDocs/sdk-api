@@ -7,7 +7,7 @@ old-location: wsw\wsgetreaderproperty.htm
 old-project: wsw
 ms.assetid: 32a42d65-c551-4a40-b44d-5ef44e782d30
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WsGetReaderProperty, WsGetReaderProperty function [Web Services for Windows], webservices/WsGetReaderProperty, wsw.wsgetreaderproperty
 ms.prod: windows
 ms.technology: windows-sdk

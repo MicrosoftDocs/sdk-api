@@ -4,10 +4,10 @@ title: SspiEncryptAuthIdentityEx function
 author: windows-sdk-content
 description: Encrypts a SEC_WINNT_AUTH_IDENTITY_OPAQUE structure.
 old-location: security\sspiencryptauthidentityex.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 9290BEF8-24C9-47F0-B258-56ED7D67620B
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: SspiEncryptAuthIdentityEx, SspiEncryptAuthIdentityEx function [Security], security.sspiencryptauthidentityex, sspi/SspiEncryptAuthIdentityEx
 ms.prod: windows
 ms.technology: windows-sdk

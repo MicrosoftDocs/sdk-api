@@ -7,7 +7,7 @@ old-location: wmi\ienumwbemclassobject_next.htm
 old-project: WmiSdk
 ms.assetid: 8bde633b-b04a-4a21-82ce-f5aab1d32d95
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: IEnumWbemClassObject interface [Windows Management Instrumentation],Next method, IEnumWbemClassObject.Next, IEnumWbemClassObject::Next, Next, Next method [Windows Management Instrumentation], Next method [Windows Management Instrumentation],IEnumWbemClassObject interface, _hmm_ienumwbemclassobject_next, wbemcli/IEnumWbemClassObject::Next, wmi.ienumwbemclassobject_next
 ms.prod: windows
 ms.technology: windows-sdk
@@ -142,9 +142,13 @@ For an extended discussion and example of making queries in C++ and WMI, see Mak
 <div class="code"></div>
 In the following code, more than one object is requested:
 
-
-```cpp
-HRESULT ProcessEnum( IEnumWbemClassObject*    pEnum )
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT ProcessEnum( IEnumWbemClassObject*    pEnum )
 {
     HRESULT    hRes = WBEM_S_NO_ERROR;
 
@@ -154,26 +158,26 @@ HRESULT ProcessEnum( IEnumWbemClassObject*    pEnum )
         ULONG            uReturned;
         IWbemClassObject*    apObj[10];
 
-        hRes = pEnum->Next( WBEM_INFINITE, 10, apObj, &uReturned );
+        hRes = pEnum-&gt;Next( WBEM_INFINITE, 10, apObj, &amp;uReturned );
 
         if ( SUCCEEDED( hRes ) )
         {
             // Do something with the objects.
             //ProcessObjects( uReturned,  apObj );
 
-            for ( ULONG n = 0; n < uReturned; n++ )
+            for ( ULONG n = 0; n &lt; uReturned; n++ )
             {
-                apObj[n]->Release();
+                apObj[n]-&gt;Release();
             }
 
         }    // If Enum succeeded...
     }    // While Enum is returning objects...
 
     return hRes;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

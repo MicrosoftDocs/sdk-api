@@ -4,10 +4,10 @@ title: NCryptOpenStorageProvider function
 author: windows-sdk-content
 description: Loads and initializes a CNG key storage provider.
 old-location: security\ncryptopenstorageprovider_func.htm
-old-project: seccng
+old-project: SecCNG
 ms.assetid: febcf440-78b3-420b-b13d-030e8071cd50
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MS_KEY_STORAGE_PROVIDER, MS_SMART_CARD_KEY_STORAGE_PROVIDER, NCryptOpenStorageProvider, NCryptOpenStorageProvider function [Security], ncrypt/NCryptOpenStorageProvider, security.ncryptopenstorageprovider_func
 ms.prod: windows
 ms.technology: windows-sdk

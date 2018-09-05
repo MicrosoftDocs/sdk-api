@@ -4,10 +4,10 @@ title: RpcServerInqBindings function
 author: windows-sdk-content
 description: The RpcServerInqBindings function returns the binding handles over which remote procedure calls can be received.
 old-location: rpc\rpcserverinqbindings.htm
-old-project: rpc
+old-project: Rpc
 ms.assetid: 96f081ab-6210-4ca0-a913-182477463981
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcServerInqBindings, RpcServerInqBindings function [RPC], _rpc_rpcserverinqbindings, rpc.rpcserverinqbindings, rpcdce/RpcServerInqBindings
 ms.prod: windows
 ms.technology: windows-sdk

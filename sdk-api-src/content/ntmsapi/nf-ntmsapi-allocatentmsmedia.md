@@ -7,7 +7,7 @@ old-location: fs\allocatentmsmedia.htm
 old-project: Rsm
 ms.assetid: a0afe0ca-61ad-4ac8-8e3e-4a7e9ddd6600
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: AllocateNtmsMedia, AllocateNtmsMedia function [Files], NTMS_ALLOCATE_ERROR_IF_UNAVAILABLE, NTMS_ALLOCATE_NEW, NTMS_ALLOCATE_NEXT, _zaw_allocatentmsmedia, base.allocatentmsmedia, fs.allocatentmsmedia, ntmsapi/AllocateNtmsMedia
 ms.prod: windows
 ms.technology: windows-sdk
@@ -365,7 +365,7 @@ When an application requires new media containing data, a user or administrator 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Media Services Functions</a>
+<a href="removable_storage_manager_functions.htm">Media Services Functions</a>
 
 
 

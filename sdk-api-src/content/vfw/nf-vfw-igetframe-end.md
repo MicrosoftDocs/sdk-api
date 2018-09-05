@@ -86,15 +86,19 @@ Returns the HRESULT defined by OLE.
 
 For handlers written in C++, <b>Begin</b> has the following syntax:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT End(VOID); 
  
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

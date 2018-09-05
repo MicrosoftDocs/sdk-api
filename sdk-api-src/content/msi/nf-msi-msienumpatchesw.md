@@ -7,7 +7,7 @@ old-location: setup\msienumpatches.htm
 old-project: msi
 ms.assetid: 8f15accf-1ff5-4aa3-8a8e-be0e339360d2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MsiEnumPatches, MsiEnumPatches function, MsiEnumPatchesA, MsiEnumPatchesW, _msi_msienumpatches, msi/MsiEnumPatches, msi/MsiEnumPatchesA, msi/MsiEnumPatchesW, setup.msienumpatches
 ms.prod: windows
 ms.technology: windows-sdk

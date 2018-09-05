@@ -4,10 +4,10 @@ title: RtmReleaseRouteInfo function
 author: windows-sdk-content
 description: The RtmReleaseRouteInfo function releases a route structure.
 old-location: rras\rtmreleaserouteinfo.htm
-old-project: rras
+old-project: RRAS
 ms.assetid: 927d2a32-17bc-453c-b65b-144151bea902
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RtmReleaseRouteInfo, RtmReleaseRouteInfo function [RAS], _rtmv2ref_rtmreleaserouteinfo, rras.rtmreleaserouteinfo, rtmv2/RtmReleaseRouteInfo
 ms.prod: windows
 ms.technology: windows-sdk

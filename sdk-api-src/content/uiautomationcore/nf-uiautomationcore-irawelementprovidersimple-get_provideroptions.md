@@ -65,7 +65,7 @@ This property is read-only.
 
 
 
-The method must return either <a href="https://msdn.microsoft.com/en-us/library/Ee671599(v=VS.85).aspx">ProviderOptions_ServerSideProvider</a> or <a href="https://msdn.microsoft.com/en-us/library/Ee671599(v=VS.85).aspx">ProviderOptions_ClientSideProvider</a>.
+The method must return either <a href="uiauto_ProvOptionsEnum.htm">ProviderOptions_ServerSideProvider</a> or <a href="uiauto_ProvOptionsEnum.htm">ProviderOptions_ClientSideProvider</a>.
 
 UI Automation handles the various types of providers differently. 
 			For example, events from a server-side provider are broadcast to all listening clients, 
@@ -77,16 +77,20 @@ UI Automation handles the various types of providers differently.
 The following example implements this method for a server-side UI Automation provider.
 			
 
-
-```cpp
-HRESULT STDMETHODCALLTYPE Provider::get_ProviderOptions( ProviderOptions* pRetVal )
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT STDMETHODCALLTYPE Provider::get_ProviderOptions( ProviderOptions* pRetVal )
 {
     *pRetVal = ProviderOptions_ServerSideProvider;
     return S_OK;
-}    
-```
-
-
+}    </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

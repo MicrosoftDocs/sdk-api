@@ -4,10 +4,10 @@ title: SLDepositOfflineConfirmationId function
 author: windows-sdk-content
 description: Deposits Installation ID (IID) and Confirmation ID (CID) for offline activation.
 old-location: security\sldepositofflineconfirmationid.htm
-old-project: secslapi
+old-project: SecSLApi
 ms.assetid: 5cea5bba-7bdd-422f-a3fe-ec69d3877efd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SLDepositOfflineConfirmationId, SLDepositOfflineConfirmationId function [Security], security.sldepositofflineconfirmationid, slpublic/SLDepositOfflineConfirmationId
 ms.prod: windows
 ms.technology: windows-sdk

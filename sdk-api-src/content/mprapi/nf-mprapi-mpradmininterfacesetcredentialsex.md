@@ -4,10 +4,10 @@ title: MprAdminInterfaceSetCredentialsEx function
 author: windows-sdk-content
 description: Use the MprAdminInterfaceSetCredentialsEx function to set extended credentials information for an interface. Use this function to set credentials information used for Extensible Authentication Protocols (EAPs).
 old-location: rras\mpradmininterfacesetcredentialsex.htm
-old-project: rras
+old-project: RRAS
 ms.assetid: d0807c03-3994-4624-97ea-94b55e7cd1e4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MprAdminInterfaceSetCredentialsEx, MprAdminInterfaceSetCredentialsEx function [RAS], _mpr_mpradmininterfacesetcredentialsex, mprapi/MprAdminInterfaceSetCredentialsEx, rras.mpradmininterfacesetcredentialsex
 ms.prod: windows
 ms.technology: windows-sdk

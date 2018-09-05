@@ -4,10 +4,10 @@ title: IX509CertificateRequestCmc2::CheckSignature
 author: windows-sdk-content
 description: Verifies that the certificate request has been signed and that the signature is valid.
 old-location: security\ix509certificaterequestcmc2_checksignature.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: 55051bcd-0002-4a0e-874e-8b09e196a838
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: AllowedKeySignature, AllowedNullSignature, CheckSignature, CheckSignature method [Security], CheckSignature method [Security],IX509CertificateRequestCmc2 interface, IX509CertificateRequestCmc2 interface [Security],CheckSignature method, IX509CertificateRequestCmc2.CheckSignature, IX509CertificateRequestCmc2::CheckSignature, certenroll/IX509CertificateRequestCmc2::CheckSignature, security.ix509certificaterequestcmc2_checksignature
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ The <b>CheckSignature</b> method verifies that the certificate request has been 
 
 ### -param AllowedSignatureTypes [in]
 
-A value from the <a href="https://msdn.microsoft.com/en-us/library/Aa379074(v=VS.85).aspx">Pkcs10AllowedSignatureTypes</a> enumeration. This can be a bitwise combination of the following values.
+A value from the <a href="https://msdn.microsoft.com/b5c6a28b-d46b-4d93-adc2-625a82d6df7a">Pkcs10AllowedSignatureTypes</a> enumeration. This can be a bitwise combination of the following values.
 
 <table>
 <tr>
@@ -100,7 +100,7 @@ Null-signed signatures are permitted.
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -136,7 +136,7 @@ The signature type is not specified by the <i>AllowedSignatureTypes</i> paramete
 </dl>
 </td>
 <td width="60%">
-The value specified by the <i>AllowedSignatureTypes</i> parameter is not a member of the <a href="https://msdn.microsoft.com/en-us/library/Aa379074(v=VS.85).aspx">Pkcs10AllowedSignatureTypes</a> enumeration type.
+The value specified by the <i>AllowedSignatureTypes</i> parameter is not a member of the <a href="https://msdn.microsoft.com/b5c6a28b-d46b-4d93-adc2-625a82d6df7a">Pkcs10AllowedSignatureTypes</a> enumeration type.
 
 </td>
 </tr>
@@ -160,7 +160,7 @@ This method uses the public key to decrypt the signature and compares the signat
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351617(v=VS.85).aspx">IX509CertificateRequestCmc2</a>
+<a href="https://msdn.microsoft.com/27edf846-472e-4a22-bd3c-88044a1fbd99">IX509CertificateRequestCmc2</a>
  
 
  

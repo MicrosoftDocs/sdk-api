@@ -7,7 +7,7 @@ old-location: wmdm\csecurechannelserver_getappsec.htm
 old-project: WMDM
 ms.assetid: 60659c36-ef9a-46fd-9a61-4a5a5210fd1f
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CSecureChannelServer interface [windows Media Device Manager],GetAppSec method, CSecureChannelServer.GetAppSec, CSecureChannelServer::GetAppSec, CSecureChannelServerGetAppSec, GetAppSec, GetAppSec method [windows Media Device Manager], GetAppSec method [windows Media Device Manager],CSecureChannelServer interface, scserver/CSecureChannelServer::GetAppSec, wmdm.csecurechannelserver_getappsec
 ms.prod: windows
 ms.technology: windows-sdk

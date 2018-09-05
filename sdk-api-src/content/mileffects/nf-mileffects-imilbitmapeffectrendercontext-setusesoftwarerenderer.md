@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectrendercontext_setusesoftwarerenderer.ht
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontext\setusesoftwarerenderer.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IMILBitmapEffectRenderContext interface [WPF Bitmap Effects],SetUseSoftwareRenderer method, IMILBitmapEffectRenderContext.SetUseSoftwareRenderer, IMILBitmapEffectRenderContext::SetUseSoftwareRenderer, SetUseSoftwareRenderer, SetUseSoftwareRenderer method [WPF Bitmap Effects], SetUseSoftwareRenderer method [WPF Bitmap Effects],IMILBitmapEffectRenderContext interface, _wibe_imilbitmapeffectrendercontext_setusesoftwarerenderer, mileffects/IMILBitmapEffectRenderContext::SetUseSoftwareRenderer, wibe._wibe_imilbitmapeffectrendercontext_setusesoftwarerenderer
 ms.prod: windows
 ms.technology: windows-sdk

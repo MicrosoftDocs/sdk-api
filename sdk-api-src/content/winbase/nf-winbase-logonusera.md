@@ -4,10 +4,10 @@ title: LogonUserA function
 author: windows-sdk-content
 description: The Win32 LogonUser function attempts to log a user on to the local computer. LogonUser returns a handle to a user token that you can use to impersonate user.
 old-location: security\logonuser.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: a6d880a0-0aed-4bdb-89c9-4f667ecb510e
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: LOGON32_LOGON_BATCH, LOGON32_LOGON_INTERACTIVE, LOGON32_LOGON_NETWORK, LOGON32_LOGON_NETWORK_CLEARTEXT, LOGON32_LOGON_NEW_CREDENTIALS, LOGON32_LOGON_SERVICE, LOGON32_LOGON_UNLOCK, LOGON32_PROVIDER_DEFAULT, LOGON32_PROVIDER_WINNT40, LOGON32_PROVIDER_WINNT50, LogonUser, LogonUser function [Security], LogonUserA, LogonUserW, _win32_logonuser, security.logonuser, winbase/LogonUser, winbase/LogonUserA, winbase/LogonUserW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -267,13 +267,17 @@ If the <b>LogonUser</b> call is successful, the system notifies network provider
 
 You can generate a LocalService token by using the following code.
 
-
-```cpp
-LogonUser(L"LocalServer", L"NT AUTHORITY", NULL, LOGON32_LOGON_SERVICE, LOGON32_PROVIDER_DEFAULT, &hToken)
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>LogonUser(L"LocalServer", L"NT AUTHORITY", NULL, LOGON32_LOGON_SERVICE, LOGON32_PROVIDER_DEFAULT, &amp;hToken)
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

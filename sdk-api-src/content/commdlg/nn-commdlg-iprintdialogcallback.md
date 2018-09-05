@@ -7,7 +7,7 @@ old-location: dlgbox\iprintdialogcallback.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxinterfaces\iprintdialogcallback.htm
 ms.author: windowssdkdev
-ms.date: 08/21/2018
+ms.date: 08/24/2018
 ms.keywords: IPrintDialogCallback, IPrintDialogCallback interface [Dialog Boxes], IPrintDialogCallback interface [Dialog Boxes],described, _win32_IPrintDialogCallback, _win32_iprintdialogcallback_cpp, commdlg/IPrintDialogCallback, dlgbox.iprintdialogcallback, winui._win32_iprintdialogcallback
 ms.prod: windows
 ms.technology: windows-sdk

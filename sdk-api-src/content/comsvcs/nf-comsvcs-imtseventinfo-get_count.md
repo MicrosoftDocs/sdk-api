@@ -7,7 +7,7 @@ old-location: cos\imtseventinfo_get_count.htm
 old-project: cossdk
 ms.assetid: f92c93eb-841a-4bc8-9c02-644c30daccad
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IMtsEventInfo interface [COM+],get_Count method, IMtsEventInfo.get_Count, IMtsEventInfo::get_Count, _dtc_IMtsEventInfo_Count, comsvcs/IMtsEventInfo::get_Count, cos.imtseventinfo_get_count, get_Count, get_Count method [COM+], get_Count method [COM+],IMtsEventInfo interface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,11 +78,11 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684268(v=VS.85).aspx">IMtsEventInfo</a>
+<a href="https://msdn.microsoft.com/9508df6d-281b-4a02-bb95-233b369b8279">IMtsEventInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683390(v=VS.85).aspx">IMtsEvents</a>
+<a href="https://msdn.microsoft.com/7db3a373-00d3-480e-8f8e-7e65a468d5dc">IMtsEvents</a>
  
 
  

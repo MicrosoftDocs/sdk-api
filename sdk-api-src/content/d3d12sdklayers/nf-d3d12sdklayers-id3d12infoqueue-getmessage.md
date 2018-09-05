@@ -65,7 +65,7 @@ Get a message from the message queue.
 
 Type: <b>UINT64</b>
 
-Index into message queue after an optional retrieval filter has been applied. This can be between 0 and the number of messages in the message queue that pass through the retrieval filter (which can be obtained with <a href="https://msdn.microsoft.com/en-us/library/Dn950181(v=VS.85).aspx">GetNumStoredMessagesAllowedByRetrievalFilter</a>). 0 is the message at the front of the message queue.
+Index into message queue after an optional retrieval filter has been applied. This can be between 0 and the number of messages in the message queue that pass through the retrieval filter (which can be obtained with <a href="https://msdn.microsoft.com/57F10336-2304-4DC9-B62B-6536A7AD76CB">GetNumStoredMessagesAllowedByRetrievalFilter</a>). 0 is the message at the front of the message queue.
 
 
           
@@ -73,7 +73,7 @@ Index into message queue after an optional retrieval filter has been applied. Th
 
 ### -param pMessage [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn950144(v=VS.85).aspx">D3D12_MESSAGE</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/DED84AC1-0126-450E-8A0A-1336BB4084D4">D3D12_MESSAGE</a>*</b>
 
 Returned message.
 
@@ -91,9 +91,9 @@ Size of <i>pMessage</i> in bytes.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-This method returns one of the <a href="https://msdn.microsoft.com/en-us/library/Dn706075(v=VS.85).aspx">Direct3D 12 Return Codes</a>. 
+This method returns one of the <a href="https://msdn.microsoft.com/5F6CC962-7DB7-489F-82A4-9388313014D3">Direct3D 12 Return Codes</a>. 
           
 
 
@@ -132,7 +132,7 @@ hr = pInfoQueue-&gt;GetMessage(0, pMessage, &amp;messageLength);
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn950163(v=VS.85).aspx">ID3D12InfoQueue</a>
+<a href="https://msdn.microsoft.com/61667AAC-05AC-4745-8992-E9377641D411">ID3D12InfoQueue</a>
  
 
  

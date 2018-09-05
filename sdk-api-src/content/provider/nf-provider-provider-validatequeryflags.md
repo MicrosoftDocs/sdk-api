@@ -7,7 +7,7 @@ old-location: wmi\provider_validatequeryflags.htm
 old-project: WmiSdk
 ms.assetid: b35e6f2f-7d40-4b9b-833d-63efafd06a20
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: "?ValidateQueryFlags@Provider@@MAEJJ@Z, ?ValidateQueryFlags@Provider@@MEAAJJ@Z, Provider interface [Windows Management Instrumentation],ValidateQueryFlags method, Provider.ValidateQueryFlags, Provider::ValidateQueryFlags, ValidateQueryFlags, ValidateQueryFlags method [Windows Management Instrumentation], ValidateQueryFlags method [Windows Management Instrumentation],Provider interface, _hmm_provider_validatequeryflags, provider/Provider::ValidateQueryFlags, wmi.provider_validatequeryflags"
 ms.prod: windows
 ms.technology: windows-sdk

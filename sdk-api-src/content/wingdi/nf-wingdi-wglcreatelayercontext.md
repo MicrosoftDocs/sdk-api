@@ -60,7 +60,12 @@ The <b>wglCreateLayerContext</b> function creates a new OpenGL rendering context
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
 
 TBD
 
@@ -100,9 +105,13 @@ With OpenGL applications that use multiple threads, you create a rendering conte
 
 The following code example shows how to use <b>wglCreateLayerContext</b>.
 
-
-```cpp
-// The following code fragment shows how to render to overlay 1  
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// The following code fragment shows how to render to overlay 1  
 // This example assumes that the pixel format of hdc includes   
 // overlay plane 1  
  
@@ -123,10 +132,10 @@ wglMakeCurrent(hdc, hglrc);
 wglMakeCurrent(NULL, NULL); 
  
 // delete the rendering context  
-wglDeleteContext(hglrc);
-```
-
-
+wglDeleteContext(hglrc);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

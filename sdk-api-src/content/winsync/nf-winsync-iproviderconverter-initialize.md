@@ -7,7 +7,7 @@ old-location: winsync\iproviderconverter_initialize.htm
 old-project: winsync
 ms.assetid: 5bdb8b16-cda3-4f0d-b147-4dcfce81f592
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IProviderConverter interface [Windows Sync],Initialize method, IProviderConverter.Initialize, IProviderConverter::Initialize, Initialize, Initialize method [Windows Sync], Initialize method [Windows Sync],IProviderConverter interface, winsync.iproviderconverter_initialize, winsync/IProviderConverter::Initialize
 ms.prod: windows
 ms.technology: windows-sdk

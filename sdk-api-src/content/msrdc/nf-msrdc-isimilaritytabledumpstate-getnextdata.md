@@ -7,7 +7,7 @@ old-location: rdc\isimilaritytabledumpstate_getnextdata.htm
 old-project: Rdc
 ms.assetid: 40ec97fc-052d-474e-9a55-822aa113ac03
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: GetNextData, GetNextData method [Remote Differential Compression], GetNextData method [Remote Differential Compression],ISimilarityTableDumpState interface, ISimilarityTableDumpState interface [Remote Differential Compression],GetNextData method, ISimilarityTableDumpState.GetNextData, ISimilarityTableDumpState::GetNextData, fs.isimilaritytabledumpstate_getnextdata, msrdc/ISimilarityTableDumpState::GetNextData, rdc.isimilaritytabledumpstate_getnextdata
 ms.prod: windows
 ms.technology: windows-sdk

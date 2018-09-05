@@ -7,7 +7,7 @@ old-location: mscs\clusnodes_refresh.htm
 old-project: mscs
 ms.assetid: 0c488584-344e-4ab4-8abe-c1da9b7ffaea
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusNodes collection [Failover Cluster],Refresh method, ClusNodes.Refresh, ISClusNodes.Refresh, ISClusNodes::Refresh, Refresh, Refresh method [Failover Cluster], Refresh method [Failover Cluster],ClusNodes collection, _wolf_clusnodes.refresh, mscs.clusnodes_refresh
 ms.prod: windows
 ms.technology: windows-sdk

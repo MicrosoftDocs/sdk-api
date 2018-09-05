@@ -78,7 +78,7 @@ Reserved. Specify zero.
 
 ### -field PolicyType
 
-Specifies the members used for a specific policy. Valid values are specified by <a href="https://msdn.microsoft.com/en-us/library/Bb540352(v=VS.85).aspx">CLFS_MGMT_POLICY_TYPE</a>.
+Specifies the members used for a specific policy. Valid values are specified by <a href="https://msdn.microsoft.com/eaa817be-04ac-48c2-b7de-60509b1f65c7">CLFS_MGMT_POLICY_TYPE</a>.
 
 
 ### -field PolicyParameters
@@ -133,7 +133,7 @@ Specifies the growth rate as a relative percentage. There is no default value fo
 
 ### -field PolicyParameters.LogTail
 
-Controls the amount of space that <a href="https://msdn.microsoft.com/en-us/library/Bb540390(v=VS.85).aspx">LOG_TAIL_ADVANCE_CALLBACK</a> requests. The value is either a relative percentage or an absolute number of bytes, but not both. The value is always rounded up to the nearest container. Specify zero to indicate that no action is taken to advance the base log tail.
+Controls the amount of space that <a href="https://msdn.microsoft.com/dfa64e5e-55ef-4102-90d5-104b1a624267">LOG_TAIL_ADVANCE_CALLBACK</a> requests. The value is either a relative percentage or an absolute number of bytes, but not both. The value is always rounded up to the nearest container. Specify zero to indicate that no action is taken to advance the base log tail.
 
 
 ### -field PolicyParameters.LogTail.MinimumAvailablePercentage
@@ -215,7 +215,7 @@ Specifies the extension given to the container file.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540352(v=VS.85).aspx">CLFS_MGMT_POLICY_TYPE</a>
+<a href="https://msdn.microsoft.com/eaa817be-04ac-48c2-b7de-60509b1f65c7">CLFS_MGMT_POLICY_TYPE</a>
  
 
  

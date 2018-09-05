@@ -4,10 +4,10 @@ title: IRegisteredTask::GetSecurityDescriptor
 author: windows-sdk-content
 description: Gets the security descriptor that is used as credentials for the registered task.
 old-location: taskschd\iregisteredtask_getsecuritydescriptor.htm
-old-project: taskschd
+old-project: TaskSchd
 ms.assetid: 474d62a5-9ec7-40f7-b26e-54923f8ebe1e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetSecurityDescriptor, GetSecurityDescriptor method [Task Scheduler], GetSecurityDescriptor method [Task Scheduler],IRegisteredTask interface, IRegisteredTask interface [Task Scheduler],GetSecurityDescriptor method, IRegisteredTask.GetSecurityDescriptor, IRegisteredTask::GetSecurityDescriptor, taskschd.iregisteredtask_getsecuritydescriptor, taskschd/IRegisteredTask::GetSecurityDescriptor
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_CRYPT_XML_TRANSFORM_CHAIN_CONFIG"
 author: windows-sdk-content
 description: Contains application defined transforms that are allowed for use in the XML digital signature.
 old-location: security\crypt_xml_transform_chain_config.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: ad18ee99-685d-4a79-bd91-492df20edb8c
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCRYPT_XML_TRANSFORM_CHAIN_CONFIG, CRYPT_XML_TRANSFORM_CHAIN_CONFIG, CRYPT_XML_TRANSFORM_CHAIN_CONFIG structure [Security], PCRYPT_XML_TRANSFORM_CHAIN_CONFIG, PCRYPT_XML_TRANSFORM_CHAIN_CONFIG structure pointer [Security], _CRYPT_XML_TRANSFORM_CHAIN_CONFIG, cryptxml/CRYPT_XML_TRANSFORM_CHAIN_CONFIG, cryptxml/PCRYPT_XML_TRANSFORM_CHAIN_CONFIG, security.crypt_xml_transform_chain_config"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,5 +71,5 @@ The number of elements in the array pointed to by the <b>rgpTransformInfo</b> me
 
 ### -field rgpTransformInfo
 
-A pointer to an array of pointers to <a href="https://msdn.microsoft.com/en-us/library/Dd433868(v=VS.85).aspx">CRYPT_XML_TRANSFORM_INFO</a> structures that contain the transform parameters.
+A pointer to an array of pointers to <a href="https://msdn.microsoft.com/4821dc8f-11d4-4083-bb17-9d9637d99af5">CRYPT_XML_TRANSFORM_INFO</a> structures that contain the transform parameters.
 

@@ -7,7 +7,7 @@ old-location: shell\UIntToShort.htm
 old-project: shell
 ms.assetid: abad8095-ac1b-4604-b423-5b244fa60127
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: UIntToShort, UIntToShort function [Windows Shell], _shell_UIntToShort, intsafe/UIntToShort, shell.UIntToShort
 ms.prod: windows
 ms.technology: windows-sdk

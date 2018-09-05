@@ -7,7 +7,7 @@ old-location: wsw\wswritexmlbuffer.htm
 old-project: wsw
 ms.assetid: a0845072-95dc-4d81-8322-514b8acff32a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WsWriteXmlBuffer, WsWriteXmlBuffer function [Web Services for Windows], webservices/WsWriteXmlBuffer, wsw.wswritexmlbuffer
 ms.prod: windows
 ms.technology: windows-sdk

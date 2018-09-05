@@ -7,7 +7,7 @@ old-location: com\irpcstubbuffer_disconnect.htm
 old-project: com
 ms.assetid: da0ecd2b-a445-4ecb-a003-ef07fa1d0458
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Disconnect, Disconnect method [COM], Disconnect method [COM],IRpcStubBuffer interface, IRpcStubBuffer interface [COM],Disconnect method, IRpcStubBuffer.Disconnect, IRpcStubBuffer::Disconnect, _com_irpcstubbuffer_disconnect, com.irpcstubbuffer_disconnect, objidlbase/IRpcStubBuffer::Disconnect
 ms.prod: windows
 ms.technology: windows-sdk

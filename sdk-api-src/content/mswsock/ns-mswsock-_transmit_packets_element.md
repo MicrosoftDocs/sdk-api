@@ -4,10 +4,10 @@ title: "_TRANSMIT_PACKETS_ELEMENT"
 author: windows-sdk-content
 description: Specifies a single data element to be transmitted by the TransmitPackets function.
 old-location: winsock\transmit_packets_element_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: cf9f8cd1-284d-4aed-bb43-af02bd012f01
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPTRANSMIT_PACKETS_ELEMENT, *PTRANSMIT_PACKETS_ELEMENT, TP_ELEMENT_EOP, TP_ELEMENT_FILE, TP_ELEMENT_MEMORY, TRANSMIT_PACKETS_ELEMENT, TRANSMIT_PACKETS_ELEMENT structure [Winsock], _TRANSMIT_PACKETS_ELEMENT, _win32_transmit_packets_element_2, mswsock/TRANSMIT_PACKETS_ELEMENT, winsock.transmit_packets_element_2"
 ms.prod: windows
 ms.technology: windows-sdk

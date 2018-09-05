@@ -7,7 +7,7 @@ old-location: shell\ivirtualdesktopmanager.htm
 old-project: shell
 ms.assetid: B95AC349-63E3-4A5A-A353-1C93486BB67A
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IVirtualDesktopManager, IVirtualDesktopManager interface [Windows Shell], IVirtualDesktopManager interface [Windows Shell],described, shell.ivirtualdesktopmanager, shobjidl_core/IVirtualDesktopManager
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,7 +72,7 @@ The <b>IVirtualDesktopManager</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt186441(v=VS.85).aspx">GetWindowDesktopId</a>
+<a href="https://msdn.microsoft.com/1A53C70F-6034-449D-832E-A563886F20E4">GetWindowDesktopId</a>
 </td>
 <td align="left" width="63%">
 Gets the identifier for the virtual desktop hosting the provided top-level window.
@@ -81,7 +81,7 @@ Gets the identifier for the virtual desktop hosting the provided top-level windo
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt186442(v=VS.85).aspx">IsWindowOnCurrentVirtualDesktop</a>
+<a href="https://msdn.microsoft.com/CBC97CF4-0C88-4C68-A873-5A5962C5817D">IsWindowOnCurrentVirtualDesktop</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the provided window is on the currently active virtual desktop.
@@ -90,7 +90,7 @@ Indicates whether the provided window is on the currently active virtual desktop
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Mt186443(v=VS.85).aspx">MoveWindowToDesktop</a>
+<a href="https://msdn.microsoft.com/A8756361-E371-41C5-B3F5-BD99439878D9">MoveWindowToDesktop</a>
 </td>
 <td align="left" width="63%">
 Moves a window to the specified virtual desktop.

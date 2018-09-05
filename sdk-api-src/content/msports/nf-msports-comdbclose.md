@@ -7,7 +7,7 @@ old-location: serports\comdbclose.htm
 old-project: serports
 ms.assetid: 3ea720ba-6cc9-4862-83d2-4f87e5c13da4
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ComDBClose, ComDBClose function [Serial Ports], comdb_0274a1cb-0128-48c8-b536-3a10792582f4.xml, msports/ComDBClose, serports.comdbclose
 ms.prod: windows
 ms.technology: windows-sdk

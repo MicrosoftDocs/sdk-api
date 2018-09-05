@@ -4,10 +4,10 @@ title: "_INHERITED_FROMW"
 author: windows-sdk-content
 description: Provides information about an object's inherited access control entry (ACE).
 old-location: security\inherited_from.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 6839f67a-6c72-406d-b55e-bc366aaad107
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: "*PINHERITED_FROMW, INHERITED_FROM, INHERITED_FROM structure [Security], INHERITED_FROMA, INHERITED_FROMW, PINHERITED_FROM, PINHERITED_FROM structure pointer [Security], _INHERITED_FROMA, _INHERITED_FROMW, accctrl/INHERITED_FROM, accctrl/INHERITED_FROMA, accctrl/INHERITED_FROMW, accctrl/PINHERITED_FROM, security.inherited_from"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: cos\icomobjectevents_onobjectactivate.htm
 old-project: cossdk
 ms.assetid: 149e3820-0d5b-46ee-9be9-22850115a7c7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IComObjectEvents interface [COM+],OnObjectActivate method, IComObjectEvents.OnObjectActivate, IComObjectEvents::OnObjectActivate, OnObjectActivate, OnObjectActivate method [COM+], OnObjectActivate method [COM+],IComObjectEvents interface, _dtc_IComObjectEvents_OnObjectActivate, comsvcs/IComObjectEvents::OnObjectActivate, cos.icomobjectevents_onobjectactivate
 ms.prod: windows
 ms.technology: windows-sdk

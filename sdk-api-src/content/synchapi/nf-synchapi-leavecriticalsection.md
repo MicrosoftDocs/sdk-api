@@ -4,10 +4,10 @@ title: LeaveCriticalSection function
 author: windows-sdk-content
 description: Releases ownership of the specified critical section object.
 old-location: base\leavecriticalsection.htm
-old-project: sync
+old-project: Sync
 ms.assetid: cf740e1d-351f-478c-bdbb-4a776b84acc5
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: LeaveCriticalSection, LeaveCriticalSection function, _win32_leavecriticalsection, base.leavecriticalsection, synchapi/LeaveCriticalSection, winbase/LeaveCriticalSection
 ms.prod: windows
 ms.technology: windows-sdk

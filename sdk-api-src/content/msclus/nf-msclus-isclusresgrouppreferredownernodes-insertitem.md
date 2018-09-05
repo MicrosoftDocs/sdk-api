@@ -7,7 +7,7 @@ old-location: mscs\clusresgrouppreferredownernodes_insertitem.htm
 old-project: mscs
 ms.assetid: ae234397-a592-41a3-a30d-cb4b6450e332
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusResGroupPreferredOwnerNodes class [Failover Cluster],InsertItem method, ClusResGroupPreferredOwnerNodes.InsertItem, ISClusResGroupPreferredOwnerNodes.InsertItem, ISClusResGroupPreferredOwnerNodes::InsertItem, InsertItem, InsertItem method [Failover Cluster], InsertItem method [Failover Cluster],ClusResGroupPreferredOwnerNodes class, _wolf_clusresgrouppreferredownernodes.insertitem, mscs.clusresgrouppreferredownernodes_insertitem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,7 +109,7 @@ This method does not return a value.
 Adding a node to a group's 
     <a href="https://msdn.microsoft.com/3425825e-890c-4d3d-919e-a66963e1fc55">ClusResGroupPreferredOwnerNodes</a> 
     collection means that the node is listed as a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">preferred owner</a> node for the group. Use 
+    <a href="p_gly.htm">preferred owner</a> node for the group. Use 
     <i>lPosition</i> to specify an order of preference, with low values corresponding to highly 
     preferred, high-priority nodes.
 

@@ -7,7 +7,7 @@ old-location: netmgmt\user_info_10_str.htm
 old-project: netmgmt
 ms.assetid: f85e3e92-02b2-4ee8-8a82-38e4ef5b4072
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPUSER_INFO_10, *PUSER_INFO_10, LPUSER_INFO_10, LPUSER_INFO_10 structure pointer [Network Management], PUSER_INFO_10, PUSER_INFO_10 structure pointer [Network Management], USER_INFO_10, USER_INFO_10 structure [Network Management], _USER_INFO_10, _win32_user_info_10_str, lmaccess/LPUSER_INFO_10, lmaccess/PUSER_INFO_10, lmaccess/USER_INFO_10, netmgmt.user_info_10_str"
 ms.prod: windows
 ms.technology: windows-sdk

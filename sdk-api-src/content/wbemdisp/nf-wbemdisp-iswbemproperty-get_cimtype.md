@@ -7,7 +7,7 @@ old-location: wmi\swbemproperty_cimtype.htm
 old-project: WmiSdk
 ms.assetid: fb570ba4-6ce3-4131-8088-2761110033ba
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: CIMType property [Windows Management Instrumentation], CIMType property [Windows Management Instrumentation],ISWbemProperty interface, CIMType property [Windows Management Instrumentation],SWbemProperty object, ISWbemProperty interface [Windows Management Instrumentation],CIMType property, ISWbemProperty.get_CIMType, ISWbemProperty::get_CIMType, SWbemProperty object [Windows Management Instrumentation],CIMType property, SWbemProperty.CIMType, _hmm_swbemproperty.cimtype, get_CIMType, wmi.swbemproperty_cimtype
 ms.prod: windows
 ms.technology: windows-sdk

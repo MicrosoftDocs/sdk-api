@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmprogress2_end2.htm
 old-project: WMDM
 ms.assetid: 85265eb7-0702-4890-b6cb-b247296fe392
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: End2, End2 method [windows Media Device Manager], End2 method [windows Media Device Manager],IWMDMProgress2 interface, IWMDMProgress2 interface [windows Media Device Manager],End2 method, IWMDMProgress2.End2, IWMDMProgress2::End2, IWMDMProgress2End2, mswmdm/IWMDMProgress2::End2, wmdm.iwmdmprogress2_end2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,19 +92,23 @@ The return value from the method is ignored by Windows Media Device Manager.
 
 The following C++ code is a simple implementation of the <b>Progress2</b> method.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT Progress(DWORD  dwTranspiredTicks)
 {
     // TODO: Display the message: "IWMDMProgress::Progress called." 
     // followed by the dwTranspiredTicks value.
     return S_OK;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

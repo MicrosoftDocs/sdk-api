@@ -4,10 +4,10 @@ title: NPPasswordChangeNotify function
 author: windows-sdk-content
 description: MPR calls this function to notify the credential manager of a password change event.
 old-location: security\nppasswordchangenotify.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 5c7f5672-f379-4518-ae60-4f7d7e4caffa
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: NPPasswordChangeNotify, NPPasswordChangeNotify function [Security], SvcCtl, WN_NT_PASSWORD_CHANGED, WN_VALID_LOGON_ACCOUNT, WinSta_0, _mnp_nppasswordchangenotify, npapi/NPPasswordChangeNotify, security.nppasswordchangenotify
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,14 +69,18 @@ Pointer to a string that identifies the type of structure pointed to by <i>lpAut
 
 When Microsoft is the primary authenticator, the following string is specified for interactive and service controller logons.
 
-
-```cpp
-MSV1_0:Interactive 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>MSV1_0:Interactive 
 Kerberos:Interactive
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -param lpAuthentInfo [in]
 
@@ -99,13 +103,17 @@ Pointer to a string that identifies the type of structure pointed to by <i>lpPre
 
 When Microsoft is the primary authenticator, the following string is specified for interactive and service controller logons.
 
-
-```cpp
-MSV1_0:Interactive
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>MSV1_0:Interactive
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -param lpPreviousAuthentInfo [in]
 

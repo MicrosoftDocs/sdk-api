@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_UndoMinimizeALL.htm
 old-project: shell
 ms.assetid: 32BDE544-C4FF-4a64-99AF-F8960AEC4690
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellDispatch object [Windows Shell],UndoMinimizeALL method, IShellDispatch.UndoMinimizeALL, IShellDispatch::UndoMinimizeALL, UndoMinimizeALL, UndoMinimizeALL method [Windows Shell], UndoMinimizeALL method [Windows Shell],IShellDispatch object, shell.IShellDispatch_UndoMinimizeALL
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,25 +89,33 @@ The following examples show the use of <b>UndoMinimizeALL</b> in JScript, VBScri
 JScript:
                 
 
-
-```javascript
-<script language="JScript">
+<div class="code"><span codelanguage="JScript"><table>
+<tr>
+<th>JScript</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="JScript"&gt;
     function fnShellUndoMinimizeALLJ()
     {
         var objShell = new ActiveXObject("shell.application");
         
         objshell.UndoMinimizeALL();
     }
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 VBScript:
 
-
-```vb
-<script language="VBScript">
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="VBScript"&gt;
     function fnShellUndoMinimizeALLVB()
         dim objShell
         
@@ -116,16 +124,20 @@ VBScript:
 
         set objShell = nothing
     end function
- </script>
-
-```
-
-
+ &lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 Visual Basic:
 
-
-```vb
-Private Sub fnShellUndoMinimizeAllVB()
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Private Sub fnShellUndoMinimizeAllVB()
     Dim objShell As Shell
     
     Set objShell = New Shell
@@ -133,9 +145,9 @@ Private Sub fnShellUndoMinimizeAllVB()
 
     Set objShell = Nothing
 End Sub
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

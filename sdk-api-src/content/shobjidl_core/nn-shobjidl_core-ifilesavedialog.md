@@ -7,7 +7,7 @@ old-location: shell\IFileSaveDialog.htm
 old-project: shell
 ms.assetid: 74021f92-54ff-4c02-a8cf-49bcd7b9171e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IFileSaveDialog, IFileSaveDialog interface [Windows Shell], IFileSaveDialog interface [Windows Shell],described, shell.IFileSaveDialog, shell_IFileSaveDialog, shobjidl_core/IFileSaveDialog
 ms.prod: windows
 ms.technology: windows-sdk

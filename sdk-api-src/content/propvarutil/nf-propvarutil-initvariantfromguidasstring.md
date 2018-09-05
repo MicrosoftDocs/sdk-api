@@ -52,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Initializes a <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure based on a <b>GUID</b>. The structure is initialized as a <b>VT_BSTR</b> type.
+Initializes a <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure based on a <b>GUID</b>. The structure is initialized as a <b>VT_BSTR</b> type.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ Reference to the source <b>GUID</b>.
 
 Type: <b>VARIANT*</b>
 
-When this function returns, contains the initialized <a href="https://msdn.microsoft.com/en-us/library/ms221627(v=VS.85).aspx">VARIANT</a> structure.
+When this function returns, contains the initialized <a href="e305240e-9e11-4006-98cc-26f4932d2118">VARIANT</a> structure.
 
 
 ## -returns
@@ -96,20 +96,24 @@ Creates a VT_BSTR variant, formatting the GUID in a form similar to <code>{c200e
 
 The following example, to be included as part of a larger program, demonstrates how to use <b>InitVariantFromGUIDAsString</b>.
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VARIANT var;
 
-```cpp
-VARIANT var;
-
-HRESULT hr = InitVariantFromGUIDAsString(FMTID_DocSummaryInformation, &var);
+HRESULT hr = InitVariantFromGUIDAsString(FMTID_DocSummaryInformation, &amp;var);
 
 if (SUCCEEDED(hr))
 {
     // var now is valid and has type VT_BSTR.
-    VariantClear(&var);
-}
-```
-
-
+    VariantClear(&amp;var);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

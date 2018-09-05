@@ -121,7 +121,7 @@ The object's <a href="https://msdn.microsoft.com/c56b07b5-f595-4933-9af6-868fc89
 
 
 
-Call this method when your application's video playback window receives either a <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a> or <a href="https://msdn.microsoft.com/en-us/library/ms632646(v=VS.85).aspx">WM_SIZE</a> message. This method performs two functions:
+Call this method when your application's video playback window receives either a <a href="https://msdn.microsoft.com/afebaa07-cf00-47db-a919-46436f164881">WM_PAINT</a> or <a href="winui._win32_WM_SIZE">WM_SIZE</a> message. This method performs two functions:
         
         
 
@@ -134,9 +134,13 @@ Call this method when your application's video playback window receives either a
 
 #### Examples
 
-
-```
-IMFPMediaPlayer *g_pPlayer;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>IMFPMediaPlayer *g_pPlayer;
 
 LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 {
@@ -146,21 +150,21 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
     switch (uMsg)
     {
     case WM_PAINT:
-        hdc = BeginPaint(hwnd, &ps);
+        hdc = BeginPaint(hwnd, &amp;ps);
         if (g_pPlayer)
         {
-            g_pPlayer->UpdateVideo();
+            g_pPlayer-&gt;UpdateVideo();
         }
-       	EndPaint(hwnd, &ps);
+       	EndPaint(hwnd, &amp;ps);
         break;
 
     case WM_SIZE:        
-        hdc = BeginPaint(hwnd, &ps);
+        hdc = BeginPaint(hwnd, &amp;ps);
         if (g_pPlayer)
         {
-            g_pPlayer->UpdateVideo();
+            g_pPlayer-&gt;UpdateVideo();
         }
-       	EndPaint(hwnd, &ps);
+       	EndPaint(hwnd, &amp;ps);
         break;
 
     // other messages
@@ -169,10 +173,10 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
         return DefWindowProc(hwnd, uMsg, wParam, lParam); 
     }
     return 0;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

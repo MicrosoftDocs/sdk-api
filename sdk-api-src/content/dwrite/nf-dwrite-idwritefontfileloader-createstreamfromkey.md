@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFontFileLoader_CreateStreamFromKey.htm
 old-project: DirectWrite
 ms.assetid: 1c0a7c7b-8201-45c5-ac46-20f0df034ccd
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: CreateStreamFromKey, CreateStreamFromKey method [Direct Write], CreateStreamFromKey method [Direct Write],IDWriteFontFileLoader interface, IDWriteFontFileLoader interface [Direct Write],CreateStreamFromKey method, IDWriteFontFileLoader.CreateStreamFromKey, IDWriteFontFileLoader::CreateStreamFromKey, directwrite.IDWriteFontFileLoader_CreateStreamFromKey, dwrite/IDWriteFontFileLoader::CreateStreamFromKey
 ms.prod: windows
 ms.technology: windows-sdk

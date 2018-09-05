@@ -7,7 +7,7 @@ old-location: mscs\cluster_netinterfaces.htm
 old-project: mscs
 ms.assetid: f4fbac67-f196-4fd8-a678-8f7877e70f6a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Cluster object [Failover Cluster],NetInterfaces property, Cluster.NetInterfaces, ISCluster.get_NetInterfaces, ISCluster::get_NetInterfaces, NetInterfaces property [Failover Cluster], NetInterfaces property [Failover Cluster],Cluster object, _wolf_cluster.netinterfaces, get_NetInterfaces, mscs.cluster_netinterfaces
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ req.product: GDI+ 1.1
 Returns a 
     <a href="https://msdn.microsoft.com/7d0dc4fd-733c-4a2a-9136-7dc0089b213d">ClusNetInterfaces</a> collection providing 
     access to the <a href="https://msdn.microsoft.com/cc0cbbc3-e342-483e-9c94-4ee43f4d588d">network interfaces</a> in a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+    <a href="c_gly.htm">cluster</a>.
 
 This property is read-only.
 

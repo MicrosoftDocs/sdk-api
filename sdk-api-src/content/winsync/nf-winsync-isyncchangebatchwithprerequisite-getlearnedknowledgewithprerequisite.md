@@ -7,7 +7,7 @@ old-location: winsync\isyncchangebatchwithprerequisite_getlearnedknowledgewithpr
 old-project: winsync
 ms.assetid: 691f2cc1-9acb-4474-b20a-31bb7810372e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetLearnedKnowledgeWithPrerequisite, GetLearnedKnowledgeWithPrerequisite method [Windows Sync], GetLearnedKnowledgeWithPrerequisite method [Windows Sync],ISyncChangeBatchWithPrerequisite interface, ISyncChangeBatchWithPrerequisite interface [Windows Sync],GetLearnedKnowledgeWithPrerequisite method, ISyncChangeBatchWithPrerequisite.GetLearnedKnowledgeWithPrerequisite, ISyncChangeBatchWithPrerequisite::GetLearnedKnowledgeWithPrerequisite, winsync.isyncchangebatchwithprerequisite_getlearnedknowledgewithprerequisite, winsync/ISyncChangeBatchWithPrerequisite::GetLearnedKnowledgeWithPrerequisite
 ms.prod: windows
 ms.technology: windows-sdk

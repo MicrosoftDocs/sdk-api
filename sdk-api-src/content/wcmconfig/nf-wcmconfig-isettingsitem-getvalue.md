@@ -4,10 +4,10 @@ title: ISettingsItem::GetValue
 author: windows-sdk-content
 description: Gets the current value from the item.
 old-location: smi\isettingsitem_getvalue.htm
-old-project: smi
+old-project: SMI
 ms.assetid: 11b61570-d1ed-4dcf-b533-873096ae80b9
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetValue, GetValue method [SMI], GetValue method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetValue method, ISettingsItem.GetValue, ISettingsItem::GetValue, smi.isettingsitem_getvalue, wcmconfig/ISettingsItem::GetValue
 ms.prod: windows
 ms.technology: windows-sdk

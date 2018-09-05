@@ -7,7 +7,7 @@ old-location: wmi\wbemtime_wbemtime.htm
 old-project: WmiSdk
 ms.assetid: 8b0ce221-2186-4aed-a474-00f88cef6350
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: WBEMTime, WBEMTime.WBEMTime, WBEMTime::WBEMTime, WBEMTime::WBEMTime constructors [Windows Management Instrumentation], wbemtime/WBEMTime::WBEMTime, wmi.wbemtime_wbemtime
 ms.prod: windows
 ms.technology: windows-sdk

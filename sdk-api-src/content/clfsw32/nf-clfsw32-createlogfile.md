@@ -325,11 +325,11 @@ The following list identifies the  possible error codes:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540361(v=VS.85).aspx">Common Log File System Functions</a>
+<a href="https://msdn.microsoft.com/a3059828-d291-493d-a4fe-13d06e49ed12">Common Log File System Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540367(v=VS.85).aspx">CreateLogMarshallingArea</a>
+<a href="https://msdn.microsoft.com/750c0615-bfac-402b-a590-6c9d800cf2d8">CreateLogMarshallingArea</a>
 
 
 

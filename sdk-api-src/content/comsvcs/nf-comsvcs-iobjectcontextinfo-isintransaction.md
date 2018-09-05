@@ -7,7 +7,7 @@ old-location: cos\iobjectcontextinfo_isintransaction.htm
 old-project: cossdk
 ms.assetid: 8624e731-8296-4829-afae-fd48721a511c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IObjectContextInfo interface [COM+],IsInTransaction method, IObjectContextInfo.IsInTransaction, IObjectContextInfo::IsInTransaction, IsInTransaction, IsInTransaction method [COM+], IsInTransaction method [COM+],IObjectContextInfo interface, _cos_IObjectContextInfo_IsInTransaction, comsvcs/IObjectContextInfo::IsInTransaction, cos.iobjectcontextinfo_isintransaction
 ms.prod: windows
 ms.technology: windows-sdk

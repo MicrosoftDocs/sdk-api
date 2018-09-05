@@ -4,10 +4,10 @@ title: BCryptDuplicateKey function
 author: windows-sdk-content
 description: Creates a duplicate of a symmetric key.
 old-location: security\bcryptduplicatekey_func.htm
-old-project: seccng
+old-project: SecCNG
 ms.assetid: 13a0b904-353f-498a-bdc2-2fd4e51144ff
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BCryptDuplicateKey, BCryptDuplicateKey function [Security], bcrypt/BCryptDuplicateKey, security.bcryptduplicatekey_func
 ms.prod: windows
 ms.technology: windows-sdk

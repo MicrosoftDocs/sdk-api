@@ -7,7 +7,7 @@ old-location: shell\PathMatchSpec.htm
 old-project: shell
 ms.assetid: 908e7204-d168-4179-9c7b-ad46ba68bebc
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: PathMatchSpec, PathMatchSpec function [Windows Shell], PathMatchSpecA, PathMatchSpecW, _win32_PathMatchSpec, shell.PathMatchSpec, shlwapi/PathMatchSpec, shlwapi/PathMatchSpecA, shlwapi/PathMatchSpecW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

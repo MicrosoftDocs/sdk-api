@@ -7,7 +7,7 @@ old-location: wsw\wswritecharsutf8.htm
 old-project: wsw
 ms.assetid: 53cdaf22-21ed-4e5a-8034-d5a4725b9da3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WsWriteCharsUtf8, WsWriteCharsUtf8 function [Web Services for Windows], webservices/WsWriteCharsUtf8, wsw.wswritecharsutf8
 ms.prod: windows
 ms.technology: windows-sdk

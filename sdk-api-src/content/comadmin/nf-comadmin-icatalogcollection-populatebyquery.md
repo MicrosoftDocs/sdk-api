@@ -7,7 +7,7 @@ old-location: cos\icatalogcollection_populatebyquery.htm
 old-project: cossdk
 ms.assetid: 30e4bb16-f99f-4541-a70a-64eb285df7b6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ICatalogCollection interface [COM+],PopulateByQuery method, ICatalogCollection.PopulateByQuery, ICatalogCollection::PopulateByQuery, PopulateByQuery, PopulateByQuery method [COM+], PopulateByQuery method [COM+],ICatalogCollection interface, _cos_ICatalogCollection_PopulateByQuery, comadmin/ICatalogCollection::PopulateByQuery, cos.icatalogcollection_populatebyquery
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,7 +109,7 @@ Errors occurred while accessing one or more objects.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683140(v=VS.85).aspx">ICatalogCollection</a>
+<a href="https://msdn.microsoft.com/7c24ead4-d69f-467d-b3d8-a81adbc49a7b">ICatalogCollection</a>
  
 
  

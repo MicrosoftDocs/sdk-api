@@ -7,7 +7,7 @@ old-location: shell\SHRegDeleteUSValue.htm
 old-project: shell
 ms.assetid: f70407af-d8ee-4333-be32-01887d4add4c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHRegDeleteUSValue, SHRegDeleteUSValue function [Windows Shell], SHRegDeleteUSValueA, SHRegDeleteUSValueW, _win32_SHRegDeleteUSValue, shell.SHRegDeleteUSValue, shlwapi/SHRegDeleteUSValue, shlwapi/SHRegDeleteUSValueA, shlwapi/SHRegDeleteUSValueW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

@@ -4,10 +4,10 @@ title: "_RTM_ENTITY_INFO"
 author: windows-sdk-content
 description: The RTM_ENTITY_INFO structure is used to exchange client information with the routing table manager.
 old-location: rras\rtm_entity_info.htm
-old-project: rras
+old-project: RRAS
 ms.assetid: b2a1e6b9-0cac-4316-98a0-ff1d44c5a15a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PRTM_ENTITY_INFO, PRTM_ENTITY_INFO, PRTM_ENTITY_INFO structure pointer [RAS], RTM_ENTITY_INFO, RTM_ENTITY_INFO structure [RAS], _RTM_ENTITY_INFO, _rtmv2ref_rtm_entity_info, rras.rtm_entity_info, rtmv2/PRTM_ENTITY_INFO, rtmv2/RTM_ENTITY_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

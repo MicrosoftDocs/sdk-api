@@ -4,10 +4,10 @@ title: EvtOpenChannelEnum function
 author: windows-sdk-content
 description: Gets a handle that you use to enumerate the list of channels that are registered on the computer.
 old-location: wes\evtopenchannelenum.htm
-old-project: wes
+old-project: WES
 ms.assetid: eb077b0c-1ae6-40ae-becc-98d840302e6f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EvtOpenChannelEnum, EvtOpenChannelEnum function [EventLog], wes.evtopenchannelenum, winevt/EvtOpenChannelEnum
 ms.prod: windows
 ms.technology: windows-sdk

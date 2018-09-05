@@ -7,7 +7,7 @@ old-location: com\ienumcontextprops_reset.htm
 old-project: com
 ms.assetid: de6a45d2-f0f7-4233-92d2-8e59d4685557
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IEnumContextProps interface [COM],Reset method, IEnumContextProps.Reset, IEnumContextProps::Reset, Reset, Reset method [COM], Reset method [COM],IEnumContextProps interface, _com_ienumcontextprops_reset, com.ienumcontextprops_reset, objidlbase/IEnumContextProps::Reset
 ms.prod: windows
 ms.technology: windows-sdk

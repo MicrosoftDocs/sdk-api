@@ -7,7 +7,7 @@ old-location: winmsg\calculatepopupwindowposition.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\calculatepopupwindowposition.htm
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: CalculatePopupWindowPosition, CalculatePopupWindowPosition function [Windows and Messages], TPM_BOTTOMALIGN, TPM_CENTERALIGN, TPM_HORIZONTAL, TPM_LEFTALIGN, TPM_RIGHTALIGN, TPM_TOPALIGN, TPM_VCENTERALIGN, TPM_VERTICAL, TPM_WORKAREA, _win32_CalculatePopupWindowPosition, _win32_calculatepopupwindowposition_cpp, winmsg.calculatepopupwindowposition, winui._win32_calculatepopupwindowposition, winuser/CalculatePopupWindowPosition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,7 +78,7 @@ The specified window size.
 
 Type: <b>UINT</b>
 
-Use one of the following flags to specify how the function positions the pop-up window horizontally and vertically. The flags are the same as the vertical and horizontal positioning flags of the <a href="https://msdn.microsoft.com/en-us/library/ms648003(v=VS.85).aspx">TrackPopupMenuEx</a> function.
+Use one of the following flags to specify how the function positions the pop-up window horizontally and vertically. The flags are the same as the vertical and horizontal positioning flags of the <a href="https://msdn.microsoft.com/86b8f21b-0dfe-462e-a34a-c80ee5c1d185">TrackPopupMenuEx</a> function.
 
 
 Use one of the following flags to specify how the function positions the pop-up window horizontally. 
@@ -295,7 +295,7 @@ If the function succeeds, it returns <b>TRUE</b>; otherwise, it returns <b>FALSE
 
 
 
-<b>TPM_WORKAREA</b> is supported for the <a href="https://msdn.microsoft.com/en-us/library/ms648002(v=VS.85).aspx">TrackPopupMenu</a> and <a href="https://msdn.microsoft.com/en-us/library/ms648003(v=VS.85).aspx">TrackPopupMenuEx</a> functions.
+<b>TPM_WORKAREA</b> is supported for the <a href="https://msdn.microsoft.com/2e1e4648-e3fd-4d9a-a558-de7b030e3d75">TrackPopupMenu</a> and <a href="https://msdn.microsoft.com/86b8f21b-0dfe-462e-a34a-c80ee5c1d185">TrackPopupMenuEx</a> functions.
 		 
 
 
@@ -311,11 +311,11 @@ If the function succeeds, it returns <b>TRUE</b>; otherwise, it returns <b>FALSE
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648002(v=VS.85).aspx">TrackPopupMenu</a>
+<a href="https://msdn.microsoft.com/2e1e4648-e3fd-4d9a-a558-de7b030e3d75">TrackPopupMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648003(v=VS.85).aspx">TrackPopupMenuEx</a>
+<a href="https://msdn.microsoft.com/86b8f21b-0dfe-462e-a34a-c80ee5c1d185">TrackPopupMenuEx</a>
  
 
  

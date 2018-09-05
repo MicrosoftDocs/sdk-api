@@ -7,7 +7,7 @@ old-location: wmi\swbemnamedvalueset_item.htm
 old-project: WmiSdk
 ms.assetid: ccebe65e-6032-43d5-9004-2247c3b96d6d
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: ISWbemNamedValueSet interface [Windows Management Instrumentation],Item method, ISWbemNamedValueSet.Item, ISWbemNamedValueSet::Item, Item, Item method [Windows Management Instrumentation], Item method [Windows Management Instrumentation],ISWbemNamedValueSet interface, Item method [Windows Management Instrumentation],SWbemNamedValueSet object, SWbemNamedValueSet object [Windows Management Instrumentation],Item method, SWbemNamedValueSet.Item, _hmm_swbemnamedvalueset.item, wmi.swbemnamedvalueset_item
 ms.prod: windows
 ms.technology: windows-sdk

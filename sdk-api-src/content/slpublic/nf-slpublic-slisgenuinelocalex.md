@@ -4,10 +4,10 @@ title: SLIsGenuineLocalEx function
 author: windows-sdk-content
 description: Checks whether the specified application installation is genuine.
 old-location: security\slisgenuinelocalex.htm
-old-project: secslapi
+old-project: SecSLApi
 ms.assetid: 171edde8-edbd-4040-9623-359f13817687
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SLIsGenuineLocalEx, SLIsGenuineLocalEx function [Security], security.slisgenuinelocalex, slpublic/SLIsGenuineLocalEx
 ms.prod: windows
 ms.technology: windows-sdk

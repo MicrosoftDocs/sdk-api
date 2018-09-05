@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport_findmemberref.htm
 old-project: WinRT
 ms.assetid: beb32bb3-06e3-4817-90f0-0745756e1955
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FindMemberRef, FindMemberRef method [Windows Runtime], FindMemberRef method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],FindMemberRef method, IMetaDataImport.FindMemberRef, IMetaDataImport::FindMemberRef, rometadataapi/IMetaDataImport::FindMemberRef, winrt.imetadataimport_findmemberref
 ms.prod: windows
 ms.technology: windows-sdk

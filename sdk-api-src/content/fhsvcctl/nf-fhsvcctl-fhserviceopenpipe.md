@@ -4,10 +4,10 @@ title: FhServiceOpenPipe function
 author: windows-sdk-content
 description: Opens a communication channel to the File History Service.
 old-location: winprog\fhserviceopenpipe.htm
-old-project: devnotes
+old-project: DevNotes
 ms.assetid: D0927124-0568-4897-9169-445C252E8ED4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FhServiceOpenPipe, FhServiceOpenPipe function [Windows API], fhsvcctl/FhServiceOpenPipe, winprog.fhserviceopenpipe
 ms.prod: windows
 ms.technology: windows-sdk

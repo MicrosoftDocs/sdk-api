@@ -4,10 +4,10 @@ title: RpcBindingSetAuthInfoExA function
 author: windows-sdk-content
 description: The RpcBindingSetAuthInfoEx function sets a binding handle's authentication, authorization, and security quality-of-service information.
 old-location: rpc\rpcbindingsetauthinfoex.htm
-old-project: rpc
+old-project: Rpc
 ms.assetid: 2438816c-995e-4398-999d-48a3538eec18
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcBindingSetAuthInfoEx, RpcBindingSetAuthInfoEx function [RPC], RpcBindingSetAuthInfoExA, RpcBindingSetAuthInfoExW, _rpc_rpcbindingsetauthinfoex, rpc.rpcbindingsetauthinfoex, rpcdce/RpcBindingSetAuthInfoEx, rpcdce/RpcBindingSetAuthInfoExA, rpcdce/RpcBindingSetAuthInfoExW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: WSManConnectShellCommand function
 author: windows-sdk-content
 description: Connects to an existing command running in a shell.
 old-location: winrm\wsmanconnectshellcommand.htm
-old-project: winrm
+old-project: WinRM
 ms.assetid: 860EC6F8-35A9-4C12-9247-4E14E6B1D66A
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WSManConnectShellCommand, WSManConnectShellCommand function [Windows Remote Management], winrm.wsmanconnectshellcommand, wsman/WSManConnectShellCommand
 ms.prod: windows
 ms.technology: windows-sdk

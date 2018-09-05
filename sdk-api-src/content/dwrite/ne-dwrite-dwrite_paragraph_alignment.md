@@ -7,7 +7,7 @@ old-location: directwrite\dwrite_paragraph_alignment.htm
 old-project: DirectWrite
 ms.assetid: fcd11308-741a-47cb-aa7a-0ae2c7a9e769
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: DWRITE_PARAGRAPH_ALIGNMENT, DWRITE_PARAGRAPH_ALIGNMENT enumeration [Direct Write], DWRITE_PARAGRAPH_ALIGNMENT_CENTER, DWRITE_PARAGRAPH_ALIGNMENT_FAR, DWRITE_PARAGRAPH_ALIGNMENT_NEAR, directwrite.dwrite_paragraph_alignment, dwrite/DWRITE_PARAGRAPH_ALIGNMENT, dwrite/DWRITE_PARAGRAPH_ALIGNMENT_CENTER, dwrite/DWRITE_PARAGRAPH_ALIGNMENT_FAR, dwrite/DWRITE_PARAGRAPH_ALIGNMENT_NEAR
 ms.prod: windows
 ms.technology: windows-sdk

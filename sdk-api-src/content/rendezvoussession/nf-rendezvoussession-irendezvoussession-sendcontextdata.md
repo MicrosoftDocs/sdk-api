@@ -7,7 +7,7 @@ old-location: remoteassist\remoteassist_IRendezvousSession_SendContextData.htm
 old-project: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\ifaces\irendezvoussession\sendcontextdata.htm
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: IRendezvousSession interface [Remote Assistance],SendContextData method, IRendezvousSession.SendContextData, IRendezvousSession::SendContextData, SendContextData, SendContextData method [Remote Assistance], SendContextData method [Remote Assistance],IRendezvousSession interface, remoteassist.remoteassist_IRendezvousSession_SendContextData, remoteassist_IRendezvousSession_SendContextData, rendezvoussession/IRendezvousSession::SendContextData
 ms.prod: windows
 ms.technology: windows-sdk

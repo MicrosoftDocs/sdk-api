@@ -7,7 +7,7 @@ old-location: wmi\swbemservices_referencestoasync.htm
 old-project: WmiSdk
 ms.assetid: 2ad66ea1-b8f0-4b6b-b68f-29496afbe4bf
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: ISWbemServices interface [Windows Management Instrumentation],ReferencesToAsync method, ISWbemServices.ReferencesToAsync, ISWbemServices::ReferencesToAsync, ReferencesToAsync, ReferencesToAsync method [Windows Management Instrumentation], ReferencesToAsync method [Windows Management Instrumentation],ISWbemServices interface, ReferencesToAsync method [Windows Management Instrumentation],SWbemServices object, SWbemServices object [Windows Management Instrumentation],ReferencesToAsync method, SWbemServices.ReferencesToAsync, _hmm_swbemservices.referencestoasync, wbemFlagDontSendStatus, wbemFlagSendStatus, wbemFlagUseAmendedQualifiers, wmi.swbemservices_referencestoasync
 ms.prod: windows
 ms.technology: windows-sdk

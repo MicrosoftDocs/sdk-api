@@ -132,7 +132,7 @@ Special characters must be escaped when used for any unintended purposes. For ex
 
 Similarly, the ADSI special character, slash mark (/), separates ADSI-specific elements, "LDAP://server/CN=Jeff Smith,CN=Users,DC=Fabrikam,DC=com". Although it must be escaped when used for any other purposes, for example, "LDAP://server/CN=Jeff Smith\/California,CN=Users,DC=Fabrikam,DC=com". You can choose an <b>ADS_ESCAPE_MODE_ENUM</b> option to display this escaped string in a human-readable form: "LDAP://server/CN=Jeff Smith/California,CN=Users,DC=Fabrikam,DC=com".
 
-Presently, the slash mark (/) is the only ADSI special character. ADSI escaping and unescaping applies to ADSI special characters only. The operation will not affect any LDAP special characters, that is, they are neither escaped nor unescaped. For more information and  a list of  special characters defined by LDAP, see <a href="https://msdn.microsoft.com/en-us/library/Aa746384(v=VS.85).aspx">LDAP Special Characters</a>.
+Presently, the slash mark (/) is the only ADSI special character. ADSI escaping and unescaping applies to ADSI special characters only. The operation will not affect any LDAP special characters, that is, they are neither escaped nor unescaped. For more information and  a list of  special characters defined by LDAP, see <a href="ldap_adspath.htm">LDAP Special Characters</a>.
 
 To show unescaped path string, use 
 the <a href="https://msdn.microsoft.com/9aa26d6c-aa86-4a23-a986-b8cb9057772a">IADsPathname</a> interface and its methods. All other ADSI APIs return the escaped path string.

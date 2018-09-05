@@ -7,7 +7,7 @@ old-location: directwrite\idwritebitmaprendertarget1.htm
 old-project: DirectWrite
 ms.assetid: 5A7D2723-932B-4707-ABCC-0C0282FB7A56
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: IDWriteBitmapRenderTarget1, IDWriteBitmapRenderTarget1 interface [Direct Write], IDWriteBitmapRenderTarget1 interface [Direct Write],described, directwrite.idwritebitmaprendertarget1, dwrite_1/IDWriteBitmapRenderTarget1
 ms.prod: windows
 ms.technology: windows-sdk

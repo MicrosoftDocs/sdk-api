@@ -7,7 +7,7 @@ old-location: com\iviewobject_unfreeze.htm
 old-project: com
 ms.assetid: 76f3c5f6-3f29-4a89-94e2-f77489e6a744
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IViewObject interface [COM],Unfreeze method, IViewObject.Unfreeze, IViewObject::Unfreeze, Unfreeze, Unfreeze method [COM], Unfreeze method [COM],IViewObject interface, _ole_iviewobject_unfreeze, com.iviewobject_unfreeze, oleidl/IViewObject::Unfreeze
 ms.prod: windows
 ms.technology: windows-sdk

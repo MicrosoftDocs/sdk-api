@@ -7,7 +7,7 @@ old-location: shell\SLOWAPPINFO.htm
 old-project: shell
 ms.assetid: e9af8c70-0f03-4f16-bbfb-5e54f7c6c9df
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "*PSLOWAPPINFO, SLOWAPPINFO, SLOWAPPINFO structure [Windows Shell], _tagSlowAppInfo, inet_SLOWAPPINFO, shappmgr/SLOWAPPINFO, shell.SLOWAPPINFO"
 ms.prod: windows
 ms.technology: windows-sdk

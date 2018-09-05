@@ -4,10 +4,10 @@ title: AuthzInitializeCompoundContext function
 author: windows-sdk-content
 description: Creates a user-mode context from the given user and device security contexts.
 old-location: security\authzinitializecompoundcontext.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 2EC9EE76-9A92-40DF-9884-547D96FF3E09
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AuthzInitializeCompoundContext, AuthzInitializeCompoundContext function [Security], authz/AuthzInitializeCompoundContext, security.authzinitializecompoundcontext
 ms.prod: windows
 ms.technology: windows-sdk

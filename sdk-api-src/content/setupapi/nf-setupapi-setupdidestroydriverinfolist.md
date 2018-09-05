@@ -7,7 +7,7 @@ old-location: devinst\setupdidestroydriverinfolist.htm
 old-project: devinst
 ms.assetid: d8067609-1046-4641-9f57-b0ee2be5a3b2
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: SetupDiDestroyDriverInfoList, SetupDiDestroyDriverInfoList function [Device and Driver Installation], devinst.setupdidestroydriverinfolist, di-rtns_6eade614-a4f8-40cc-beb7-0d6728b1ad53.xml, setupapi/SetupDiDestroyDriverInfoList
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ The <b>SetupDiDestroyDriverInfoList</b> function deletes a driver list.
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains the driver list to delete.
+A handle to a <a href="devinst.device_information_sets">device information set</a> that contains the driver list to delete.
 
 
 ### -param DeviceInfoData [in, optional]

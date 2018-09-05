@@ -173,15 +173,19 @@ This interface is available on the following platforms if the Windows Media Form
 
 The following code example shows how to get an attribute whose value is a string.
 
-
-```
-HRESULT AttributeGetString(IMFAttributes *pAttributes)
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT AttributeGetString(IMFAttributes *pAttributes)
 {
     HRESULT hr = S_OK;
     UINT32 cchLength = 0;
     WCHAR *pString = NULL;
 
-    hr = pAttributes->GetStringLength(MY_ATTRIBUTE, &cchLength);
+    hr = pAttributes-&gt;GetStringLength(MY_ATTRIBUTE, &amp;cchLength);
     
     if (SUCCEEDED(hr))
     {
@@ -194,8 +198,8 @@ HRESULT AttributeGetString(IMFAttributes *pAttributes)
 
     if (SUCCEEDED(hr))
     {
-        hr = pAttributes->GetString(
-            MY_ATTRIBUTE, pString, cchLength + 1, &cchLength);
+        hr = pAttributes-&gt;GetString(
+            MY_ATTRIBUTE, pString, cchLength + 1, &amp;cchLength);
     }
 
     if (pString)
@@ -203,10 +207,10 @@ HRESULT AttributeGetString(IMFAttributes *pAttributes)
         delete [] pString;
     }
     return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

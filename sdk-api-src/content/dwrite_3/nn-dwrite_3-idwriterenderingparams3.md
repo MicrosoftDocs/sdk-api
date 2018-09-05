@@ -7,7 +7,7 @@ old-location: directwrite\idwriterenderingparams3.htm
 old-project: DirectWrite
 ms.assetid: A083377C-7315-40F4-AD94-9B65B98DE0D6
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: IDWriteRenderingParams3, IDWriteRenderingParams3 interface [Direct Write], IDWriteRenderingParams3 interface [Direct Write],described, directwrite.idwriterenderingparams3, dwrite_3/IDWriteRenderingParams3
 ms.prod: windows
 ms.technology: windows-sdk

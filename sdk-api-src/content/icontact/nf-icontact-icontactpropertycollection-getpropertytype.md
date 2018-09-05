@@ -7,7 +7,7 @@ old-location: wincontacts\_wincontacts_IContactPropertyCollection_GetPropertyTyp
 old-project: wincontacts
 ms.assetid: 11977b0c-332a-415a-986f-7fb08246413f
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: CGD_ARRAY_NODE, CGD_BINARY_PROPERTY, CGD_DATE_PROPERTY, CGD_STRING_PROPERTY, CGD_UNKNOWN_PROPERTY, GetPropertyType, GetPropertyType method [Windows Contacts], GetPropertyType method [Windows Contacts],IContactPropertyCollection interface, IContactPropertyCollection interface [Windows Contacts],GetPropertyType method, IContactPropertyCollection.GetPropertyType, IContactPropertyCollection::GetPropertyType, _wincontacts_IContactPropertyCollection_GetPropertyType, icontact/IContactPropertyCollection::GetPropertyType, wincontacts._wincontacts_IContactPropertyCollection_GetPropertyType
 ms.prod: windows
 ms.technology: windows-sdk

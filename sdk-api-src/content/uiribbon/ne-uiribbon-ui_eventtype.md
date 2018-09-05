@@ -7,7 +7,7 @@ old-location: windowsribbon\ui_eventtype.htm
 old-project: windowsribbon
 ms.assetid: 424C833C-E6D6-4532-8CF1-A294B429CC21
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: UI_EVENTTYPE, UI_EVENTTYPE enumeration [Windows Ribbon], UI_EVENTTYPE_ApplicationMenuOpened, UI_EVENTTYPE_ApplicationModeSwitched, UI_EVENTTYPE_CommandExecuted, UI_EVENTTYPE_MenuOpened, UI_EVENTTYPE_RibbonExpanded, UI_EVENTTYPE_RibbonMinimized, UI_EVENTTYPE_TabActivated, UI_EVENTTYPE_TooltipShown, uiribbon/UI_EVENTTYPE, uiribbon/UI_EVENTTYPE_ApplicationMenuOpened, uiribbon/UI_EVENTTYPE_ApplicationModeSwitched, uiribbon/UI_EVENTTYPE_CommandExecuted, uiribbon/UI_EVENTTYPE_MenuOpened, uiribbon/UI_EVENTTYPE_RibbonExpanded, uiribbon/UI_EVENTTYPE_RibbonMinimized, uiribbon/UI_EVENTTYPE_TabActivated, uiribbon/UI_EVENTTYPE_TooltipShown, windowsribbon.ui_eventtype
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-Identifies the types of events associated with a <a href="https://msdn.microsoft.com/en-us/library/Dd316811(v=VS.85).aspx">Ribbon</a>.
+Identifies the types of events associated with a <a href="https://msdn.microsoft.com/51083180-4e86-4c90-9fd1-a58c12bcc756">Ribbon</a>.
 
 
 ## -enum-fields
@@ -62,27 +62,27 @@ Identifies the types of events associated with a <a href="https://msdn.microsoft
 
 ### -field UI_EVENTTYPE_ApplicationMenuOpened
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd371601(v=VS.85).aspx">ApplicationMenu</a> opened.
+The <a href="https://msdn.microsoft.com/815e0462-ea45-44b1-81bf-f5797b22e920">ApplicationMenu</a> opened.
 
 
 ### -field UI_EVENTTYPE_RibbonMinimized
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd316811(v=VS.85).aspx">Ribbon</a> minimized.
+The <a href="https://msdn.microsoft.com/51083180-4e86-4c90-9fd1-a58c12bcc756">Ribbon</a> minimized.
 
 
 ### -field UI_EVENTTYPE_RibbonExpanded
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd316811(v=VS.85).aspx">Ribbon</a> expanded.
+The <a href="https://msdn.microsoft.com/51083180-4e86-4c90-9fd1-a58c12bcc756">Ribbon</a> expanded.
 
 
 ### -field UI_EVENTTYPE_ApplicationModeSwitched
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd940486(v=VS.85).aspx">application mode</a> changed.
+The <a href="https://msdn.microsoft.com/8e9d85c5-33e4-4212-b9e4-2fc3b492c273">application mode</a> changed.
 
 
 ### -field UI_EVENTTYPE_TabActivated
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd316894(v=VS.85).aspx">Tab</a> activated.
+A <a href="https://msdn.microsoft.com/2e73a89c-4d31-4075-93c8-e43213a20791">Tab</a> activated.
 
 
 ### -field UI_EVENTTYPE_MenuOpened
@@ -92,23 +92,23 @@ A menu opened.
 
 ### -field UI_EVENTTYPE_CommandExecuted
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd371615(v=VS.85).aspx">Command</a> executed.
+A <a href="https://msdn.microsoft.com/f332423d-d258-488d-9233-71687288b462">Command</a> executed.
 
 
 ### -field UI_EVENTTYPE_TooltipShown
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd371615(v=VS.85).aspx">Command</a> tooltip displayed.
+A <a href="https://msdn.microsoft.com/f332423d-d258-488d-9233-71687288b462">Command</a> tooltip displayed.
 
 
 ## -remarks
 
 
 
-<b>UI_EVENTTYPE_TabActivated</b> is fired for both core tabs and contextual tabs; the <a href="https://msdn.microsoft.com/en-us/library/Dd316811(v=VS.85).aspx">Ribbon</a> event system does not distinguish between the two.
+<b>UI_EVENTTYPE_TabActivated</b> is fired for both core tabs and contextual tabs; the <a href="https://msdn.microsoft.com/51083180-4e86-4c90-9fd1-a58c12bcc756">Ribbon</a> event system does not distinguish between the two.
 
 <b>UI_EVENTTYPE_MenuOpened</b> and <b>UI_EVENTTYPE_MenuClosed</b> are fired when either a regular menu or a gallery menu is opened or closed.
 
-No event is fired when the <a href="https://msdn.microsoft.com/en-us/library/Dd371713(v=VS.85).aspx">QuickAccessToolbar</a> menu is opened or closed.
+No event is fired when the <a href="https://msdn.microsoft.com/59aa35c3-a844-46b3-b066-c9a321fb0891">QuickAccessToolbar</a> menu is opened or closed.
 
 
 
@@ -119,7 +119,7 @@ No event is fired when the <a href="https://msdn.microsoft.com/en-us/library/Dd3
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371540(v=VS.85).aspx">Constants and Enumerations</a>
+<a href="https://msdn.microsoft.com/8499a096-aac3-4af3-a4c9-eebf53698744">Constants and Enumerations</a>
 
 
 

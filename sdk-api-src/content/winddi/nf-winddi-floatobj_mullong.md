@@ -60,7 +60,12 @@ The <b>FLOATOBJ_MulLong</b> function multiplies the <a href="https://msdn.micros
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
 
 TBD
 

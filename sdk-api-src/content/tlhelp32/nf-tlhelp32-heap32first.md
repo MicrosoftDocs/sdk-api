@@ -7,7 +7,7 @@ old-location: toolhelp\heap32first.htm
 old-project: ToolHelp
 ms.assetid: 79d01e3a-b11b-46b5-99d0-b445000288a7
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: Heap32First, Heap32First function [ToolHelp], _win32_heap32first, base.heap32first, tlhelp32/Heap32First, toolhelp.heap32first
 ms.prod: windows
 ms.technology: windows-sdk

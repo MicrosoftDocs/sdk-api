@@ -4,10 +4,10 @@ title: ObjectIdPublicKeyFlags
 author: windows-sdk-content
 description: Specifies whether a public key algorithm is used for signing or for encryption.
 old-location: security\objectidpublickeyflags_enum.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: f41a871a-0247-4c49-b6a0-66d31c54a0e3
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ObjectIdPublicKeyFlags, ObjectIdPublicKeyFlags enumeration [Security], XCN_CRYPT_OID_INFO_PUBKEY_ANY, XCN_CRYPT_OID_INFO_PUBKEY_ENCRYPT_KEY_FLAG, XCN_CRYPT_OID_INFO_PUBKEY_SIGN_KEY_FLAG, certenroll/ObjectIdPublicKeyFlags, certenroll/XCN_CRYPT_OID_INFO_PUBKEY_ANY, certenroll/XCN_CRYPT_OID_INFO_PUBKEY_ENCRYPT_KEY_FLAG, certenroll/XCN_CRYPT_OID_INFO_PUBKEY_SIGN_KEY_FLAG, security.objectidpublickeyflags_enum
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>ObjectIdPublicKeyFlags</b> enumeration type specifies whether a <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">public key</a> algorithm is used for signing or for <a href="https://msdn.microsoft.com/en-us/library/ms721575(v=VS.85).aspx">encryption</a>. Some algorithms, such as <a href="https://msdn.microsoft.com/en-us/library/ms721604(v=VS.85).aspx">RSA</a>, can be used for both purposes. This enumeration is used by the <a href="https://msdn.microsoft.com/en-us/library/Aa376796(v=VS.85).aspx">InitializeFromAlgorithmName</a> method on the <a href="https://msdn.microsoft.com/en-us/library/Aa376784(v=VS.85).aspx">IObjectId</a> interface to narrow and disambiguate the algorithm search.
+The <b>ObjectIdPublicKeyFlags</b> enumeration type specifies whether a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a> algorithm is used for signing or for <a href="https://msdn.microsoft.com/f1caccd2-3453-448e-b194-bf899eff8091">encryption</a>. Some algorithms, such as <a href="https://msdn.microsoft.com/ce589e18-02ac-42c2-b76b-776deb686bbd">RSA</a>, can be used for both purposes. This enumeration is used by the <a href="https://msdn.microsoft.com/ba8c1f11-9380-43a9-b444-b0fff114a176">InitializeFromAlgorithmName</a> method on the <a href="https://msdn.microsoft.com/bc6608e3-cae7-4992-b599-06bc04cc8ad7">IObjectId</a> interface to narrow and disambiguate the algorithm search.
 
 
 ## -enum-fields
@@ -79,11 +79,11 @@ The algorithm is used for encryption.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374846(v=VS.85).aspx">CertEnroll Enumerations</a>
+<a href="https://msdn.microsoft.com/8514fb89-1cf5-4e09-997c-17984efc4e03">CertEnroll Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376796(v=VS.85).aspx">InitializeFromAlgorithmName</a>
+<a href="https://msdn.microsoft.com/ba8c1f11-9380-43a9-b444-b0fff114a176">InitializeFromAlgorithmName</a>
  
 
  

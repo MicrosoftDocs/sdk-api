@@ -7,7 +7,7 @@ old-location: com\iadvisesink_onclose.htm
 old-project: com
 ms.assetid: a695c623-4a4e-4f3d-9f12-ee198c0761a9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IAdviseSink interface [COM],OnClose method, IAdviseSink.OnClose, IAdviseSink::OnClose, OnClose, OnClose method [COM], OnClose method [COM],IAdviseSink interface, _ole_iadvisesink_onclose, com.iadvisesink_onclose, objidl/IAdviseSink::OnClose
 ms.prod: windows
 ms.technology: windows-sdk

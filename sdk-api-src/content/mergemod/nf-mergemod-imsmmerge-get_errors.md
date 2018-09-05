@@ -7,7 +7,7 @@ old-location: setup\imsmmerge_get_errors.htm
 old-project: msi
 ms.assetid: 81bf84f6-d469-47b1-9097-8a3ee9c8550d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IMsmMerge interface,get_Errors method, IMsmMerge.get_Errors, IMsmMerge::get_Errors, _msi_get_errors_function, get_Errors, get_Errors method, get_Errors method,IMsmMerge interface, mergemod/IMsmMerge::get_Errors, setup.imsmmerge_get_errors
 ms.prod: windows
 ms.technology: windows-sdk

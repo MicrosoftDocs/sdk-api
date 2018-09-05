@@ -7,7 +7,7 @@ old-location: wsw\ws_service_endpoint_property.htm
 old-project: wsw
 ms.assetid: 4342d1d2-3126-401b-8019-c7dd243d4ac4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_SERVICE_ENDPOINT_PROPERTY, WS_SERVICE_ENDPOINT_PROPERTY structure [Web Services for Windows], _WS_SERVICE_ENDPOINT_PROPERTY, webservices/WS_SERVICE_ENDPOINT_PROPERTY, wsw.ws_service_endpoint_property
 ms.prod: windows
 ms.technology: windows-sdk

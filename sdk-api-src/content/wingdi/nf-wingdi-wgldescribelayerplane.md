@@ -60,7 +60,27 @@ The <b>wglDescribeLayerPlane</b> function obtains information about the layer pl
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
+
+TBD
+
+
+### -param arg3
+
+TBD
+
+
+### -param arg4
+
+TBD
+
+
+### -param arg5
 
 TBD
 

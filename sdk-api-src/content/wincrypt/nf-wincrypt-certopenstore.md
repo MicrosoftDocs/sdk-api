@@ -4,10 +4,10 @@ title: CertOpenStore function
 author: windows-sdk-content
 description: Opens a certificate store by using a specified store provider type.
 old-location: security\certopenstore.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 4edccbfe-c0a8-442b-b6b7-51ef598e7c90
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CERT_FILE_STORE_COMMIT_ENABLE, CERT_LDAP_STORE_AREC_EXCLUSIVE_FLAG, CERT_LDAP_STORE_OPENED_FLAG, CERT_LDAP_STORE_SIGN_FLAG, CERT_LDAP_STORE_UNBIND_FLAG, CERT_REGISTRY_STORE_REMOTE_FLAG, CERT_REGISTRY_STORE_SERIALIZED_FLAG, CERT_STORE_BACKUP_RESTORE_FLAG, CERT_STORE_CREATE_NEW_FLAG, CERT_STORE_DEFER_CLOSE_UNTIL_LAST_FREE_FLAG, CERT_STORE_DELETE_FLAG, CERT_STORE_ENUM_ARCHIVED_FLAG, CERT_STORE_MAXIMUM_ALLOWED_FLAG, CERT_STORE_NO_CRYPT_RELEASE_FLAG, CERT_STORE_OPEN_EXISTING_FLAG, CERT_STORE_PROV_COLLECTION, CERT_STORE_PROV_FILE, CERT_STORE_PROV_FILENAME(_W), CERT_STORE_PROV_FILENAME_A, CERT_STORE_PROV_LDAP(_W), CERT_STORE_PROV_MEMORY, CERT_STORE_PROV_MSG, CERT_STORE_PROV_PHYSICAL(_W), CERT_STORE_PROV_PKCS12, CERT_STORE_PROV_PKCS7, CERT_STORE_PROV_REG, CERT_STORE_PROV_SERIALIZED, CERT_STORE_PROV_SMART_CARD(_W), CERT_STORE_PROV_SYSTEM(_W), CERT_STORE_PROV_SYSTEM_A, CERT_STORE_PROV_SYSTEM_REGISTRY(_W), CERT_STORE_PROV_SYSTEM_REGISTRY_A, CERT_STORE_READONLY_FLAG, CERT_STORE_SET_LOCALIZED_NAME_FLAG, CERT_STORE_SHARE_CONTEXT_FLAG, CERT_STORE_UPDATE_KEYID_FLAG, CERT_SYSTEM_STORE_CURRENT_SERVICE, CERT_SYSTEM_STORE_CURRENT_USER, CERT_SYSTEM_STORE_CURRENT_USER_GROUP_POLICY, CERT_SYSTEM_STORE_LOCAL_MACHINE, CERT_SYSTEM_STORE_LOCAL_MACHINE_ENTERPRISE, CERT_SYSTEM_STORE_LOCAL_MACHINE_GROUP_POLICY, CERT_SYSTEM_STORE_RELOCATE_FLAG, CERT_SYSTEM_STORE_SERVICES, CERT_SYSTEM_STORE_UNPROTECTED_FLAG, CERT_SYSTEM_STORE_USERS, CertOpenStore, CertOpenStore function [Security], PKCS_7_ASN_ENCODING, X509_ASN_ENCODING, _crypto2_certopenstore, security.certopenstore, wincrypt/CertOpenStore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -822,9 +822,13 @@ For more information about the stores that are automatically migrated, see <a hr
 The following example shows opening several certificate stores of different store provider types.  The example uses the <b>CreateMyDACL</b> function, defined in the <a href="https://msdn.microsoft.com/f8ec202f-4f34-4123-8f3c-cfc5960b4dc2">Creating a DACL</a> topic, to ensure  the open file is created with a proper DACL. For more examples of opening other store provider types, see 
 <a href="https://msdn.microsoft.com/975a56d1-aa45-470e-b385-753baa1911ff">Example C Code for Opening Certificate Stores</a>.
 
-
-```cpp
-//-------------------------------------------------------------------
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//-------------------------------------------------------------------
 // Open a system store, in this case, the My store.
 
 HCERTSTORE hSysStore = NULL;
@@ -886,7 +890,7 @@ sa.bInheritHandle = FALSE;
 
 // Call function to set the DACL. The DACL is set in the 
 // SECURITY_ATTRIBUTES lpSecurityDescriptor member.
-if (!CreateMyDACL(&sa))
+if (!CreateMyDACL(&amp;sa))
 {
      // Error encountered; generate message and exit.
      printf("Failed CreateMyDACL.\n");
@@ -899,7 +903,7 @@ if (hFile = CreateFile(
      GENERIC_READ|GENERIC_WRITE,   // Access mode: Read from and
                                    // write to this file
      0,                            // Share mode
-     &sa,                          // Uses the DACL created 
+     &amp;sa,                          // Uses the DACL created 
                                    // previously 
      OPEN_ALWAYS,                  // How to create
      FILE_ATTRIBUTE_NORMAL,        // File attributes
@@ -987,10 +991,10 @@ else
 {
     printf("An error occurred during closing of the file.\n");
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -1011,7 +1015,7 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Store Functions</a>
+<a href="cryptography_functions.htm">Certificate Store Functions</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: rdc\irdcfilereader_getfileposition.htm
 old-project: Rdc
 ms.assetid: 3cef6883-29d2-4970-9a96-3500b58449d2
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: GetFilePosition, GetFilePosition method [Remote Differential Compression], GetFilePosition method [Remote Differential Compression],IRdcFileReader interface, IRdcFileReader interface [Remote Differential Compression],GetFilePosition method, IRdcFileReader.GetFilePosition, IRdcFileReader::GetFilePosition, fs.irdcfilereader_getfileposition, msrdc/IRdcFileReader::GetFilePosition, rdc.irdcfilereader_getfileposition
 ms.prod: windows
 ms.technology: windows-sdk

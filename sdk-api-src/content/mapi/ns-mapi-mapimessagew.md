@@ -4,10 +4,10 @@ title: MapiMessageW
 author: windows-sdk-content
 description: A MapiMessageW structure contains information about a message.
 old-location: mapi\mapimessagew.htm
-old-project: windowsmapi
+old-project: WindowsMAPI
 ms.assetid: 3C74A9C0-1483-4A97-94EB-19A0D30D9A08
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/29/2018
 ms.keywords: "*lpMapiMessageW, MAPI_RECEIPT_REQUESTED, MAPI_SENT, MAPI_UNREAD, MapiMessageW, MapiMessageW structure, lpMapiMessageW, lpMapiMessageW structure pointer, mapi.mapimessagew, mapi/MapiMessageW, mapi/lpMapiMessageW"
 ms.prod: windows
 ms.technology: windows-sdk

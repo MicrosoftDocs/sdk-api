@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_createblendstate.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_createblendstate.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: CreateBlendState, CreateBlendState method [Direct3D 10], CreateBlendState method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreateBlendState method, ID3D10Device.CreateBlendState, ID3D10Device::CreateBlendState, c235f4fb-80c3-e358-0ebc-ac3b87230e29, d3d10/ID3D10Device::CreateBlendState, direct3d10.id3d10device_createblendstate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,25 +62,25 @@ Create a blend-state object that encapsules blend state for the output-merger st
 
 ### -param pBlendStateDesc [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb204893(v=VS.85).aspx">D3D10_BLEND_DESC</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/c256dd1e-2b25-4dc5-8e49-5bf2b419b3c5">D3D10_BLEND_DESC</a>*</b>
 
-Pointer to a blend-state description (see <a href="https://msdn.microsoft.com/en-us/library/Bb204893(v=VS.85).aspx">D3D10_BLEND_DESC</a>).
+Pointer to a blend-state description (see <a href="https://msdn.microsoft.com/c256dd1e-2b25-4dc5-8e49-5bf2b419b3c5">D3D10_BLEND_DESC</a>).
 
 
 ### -param ppBlendState [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173505(v=VS.85).aspx">ID3D10BlendState</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/fe0186f5-cd8f-478d-9009-a0f82830cd1f">ID3D10BlendState</a>**</b>
 
-Address of a pointer to the blend-state object created (see <a href="https://msdn.microsoft.com/en-us/library/Bb173505(v=VS.85).aspx">ID3D10BlendState Interface</a>).
+Address of a pointer to the blend-state object created (see <a href="https://msdn.microsoft.com/fe0186f5-cd8f-478d-9009-a0f82830cd1f">ID3D10BlendState Interface</a>).
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+This method returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -99,7 +99,7 @@ An application can create up to 4096 unique blend-state objects. For each object
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
  
 
  

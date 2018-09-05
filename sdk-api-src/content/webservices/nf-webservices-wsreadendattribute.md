@@ -7,7 +7,7 @@ old-location: wsw\wsreadendattribute.htm
 old-project: wsw
 ms.assetid: 1181ca68-f67b-47e1-b9de-1bc57ecf36f6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WsReadEndAttribute, WsReadEndAttribute function [Web Services for Windows], webservices/WsReadEndAttribute, wsw.wsreadendattribute
 ms.prod: windows
 ms.technology: windows-sdk

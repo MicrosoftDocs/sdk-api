@@ -7,7 +7,7 @@ old-location: netmgmt\netmessagebuffersend.htm
 old-project: netmgmt
 ms.assetid: d1b9bebd-52e9-4b5f-97fb-e2a98aaff6b7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NetMessageBufferSend, NetMessageBufferSend function [Network Management], _win32_netmessagebuffersend, lmmsg/NetMessageBufferSend, netmgmt.netmessagebuffersend
 ms.prod: windows
 ms.technology: windows-sdk

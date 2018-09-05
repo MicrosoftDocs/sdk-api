@@ -7,7 +7,7 @@ old-location: mscs\clusresgroupresources_collection.htm
 old-project: mscs
 ms.assetid: 9ea90beb-86ae-4026-94bb-175e593da8fa
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusResGroupResources, ClusResGroupResources collection [Failover Cluster], ClusResGroupResources collection [Failover Cluster],described, ISClusResGroupResources, _wolf_clusresgroupresources_collection, msclus/ClusResGroupResources, mscs.clusresgroupresources_collection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,7 +94,7 @@ Creates a new cluster resource and adds it to the group.
 </td>
 <td align="left" width="63%">
 Removes a resource from the group and deletes it from the 
-     <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+     <a href="c_gly.htm">cluster</a>.
 
 </td>
 </tr>

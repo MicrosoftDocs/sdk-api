@@ -4,10 +4,10 @@ title: ISettingsEngine::UnregisterNamespace
 author: windows-sdk-content
 description: Unregisters an existing namespace.
 old-location: smi\isettingsengine_unregisternamespace.htm
-old-project: smi
+old-project: SMI
 ms.assetid: c7254f87-fdf8-4b51-9a06-e593490cd3c5
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ISettingsEngine interface [SMI],UnregisterNamespace method, ISettingsEngine.UnregisterNamespace, ISettingsEngine::UnregisterNamespace, UnregisterNamespace, UnregisterNamespace method [SMI], UnregisterNamespace method [SMI],ISettingsEngine interface, smi.isettingsengine_unregisternamespace, wcmconfig/ISettingsEngine::UnregisterNamespace
 ms.prod: windows
 ms.technology: windows-sdk

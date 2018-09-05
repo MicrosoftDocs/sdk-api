@@ -7,7 +7,7 @@ old-location: mbn\imbnvendorspecificevents_onsetvendorspecificcomplete.htm
 old-project: mbn
 ms.assetid: fc45b203-3e8e-436c-a554-164634026ecc
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMbnVendorSpecificEvents interface [Microsoft Broadband Networks],OnSetVendorSpecificComplete method, IMbnVendorSpecificEvents.OnSetVendorSpecificComplete, IMbnVendorSpecificEvents::OnSetVendorSpecificComplete, OnSetVendorSpecificComplete, OnSetVendorSpecificComplete method [Microsoft Broadband Networks], OnSetVendorSpecificComplete method [Microsoft Broadband Networks],IMbnVendorSpecificEvents interface, mbn.imbnvendorspecificevents_onsetvendorspecificcomplete, mbnapi/IMbnVendorSpecificEvents::OnSetVendorSpecificComplete
 ms.prod: windows
 ms.technology: windows-sdk

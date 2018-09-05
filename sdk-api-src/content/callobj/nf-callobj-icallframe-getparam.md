@@ -7,7 +7,7 @@ old-location: com\icallframe_getparam.htm
 old-project: com
 ms.assetid: 43662600-841c-4237-80ac-3822eb47be88
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetParam, GetParam method [COM], GetParam method [COM],ICallFrame interface, ICallFrame interface [COM],GetParam method, ICallFrame.GetParam, ICallFrame::GetParam, _com_icallframe_getparam, callobj/ICallFrame::GetParam, com.icallframe_getparam
 ms.prod: windows
 ms.technology: windows-sdk
@@ -113,7 +113,7 @@ An unexpected error has occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683709(v=VS.85).aspx">ICallFrame</a>
+<a href="https://msdn.microsoft.com/56a75123-f402-4187-af13-d31f72a5f094">ICallFrame</a>
  
 
  

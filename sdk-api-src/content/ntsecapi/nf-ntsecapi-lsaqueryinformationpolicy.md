@@ -4,10 +4,10 @@ title: LsaQueryInformationPolicy function
 author: windows-sdk-content
 description: Retrieves information about a Policy object.
 old-location: security\lsaqueryinformationpolicy.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 2d543500-f639-4ef7-91f4-cdc5060dd567
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: LsaQueryInformationPolicy, LsaQueryInformationPolicy function [Security], PolicyAccountDomainInformation, PolicyAuditEventsInformation, PolicyDnsDomainInformation, PolicyLsaServerRoleInformation, PolicyModificationInformation, PolicyPrimaryDomainInformation, _lsa_lsaqueryinformationpolicy, ntsecapi/LsaQueryInformationPolicy, security.lsaqueryinformationpolicy
 ms.prod: windows
 ms.technology: windows-sdk

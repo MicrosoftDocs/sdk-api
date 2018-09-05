@@ -4,10 +4,10 @@ title: PGET_MFE_STATUS
 author: windows-sdk-content
 description: The router manager calls the GetMfeStatus function to obtain the status of the multicast forwarding entry (MFE) for the specified interface, group address, and source address.
 old-location: rras\getmfestatus.htm
-old-project: rras
+old-project: RRAS
 ms.assetid: 518eb335-13b9-4980-90fc-11cdd7ef8f1a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetMfeStatus, GetMfeStatus callback function [RAS], MFE_NO_ERROR, MFE_OIF_PRUNED, MFE_OLD_ROUTER, MFE_PRUNED_UPSTREAM, MFE_REACHED_CORE, PGET_MFE_STATUS, PGET_MFE_STATUS callback, _mpr_getmfestatus, routprot/GetMfeStatus, rras.getmfestatus
 ms.prod: windows
 ms.technology: windows-sdk

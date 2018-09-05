@@ -7,7 +7,7 @@ old-location: fs\deallocatentmsmedia.htm
 old-project: Rsm
 ms.assetid: e053c725-2da6-4eeb-b471-644847dd8db5
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: DeallocateNtmsMedia, DeallocateNtmsMedia function [Files], _zaw_deallocatentmsmedia, base.deallocatentmsmedia, fs.deallocatentmsmedia, ntmsapi/DeallocateNtmsMedia
 ms.prod: windows
 ms.technology: windows-sdk
@@ -220,7 +220,7 @@ Sides are decommissioned upon deallocation if the side has been allocated the ma
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Media Services Functions</a>
+<a href="removable_storage_manager_functions.htm">Media Services Functions</a>
  
 
  

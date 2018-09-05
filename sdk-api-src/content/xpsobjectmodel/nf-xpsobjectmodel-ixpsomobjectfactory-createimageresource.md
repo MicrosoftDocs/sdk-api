@@ -138,9 +138,13 @@ The method succeeded.
 
 The code example that follows illustrates how this method is used to create a new  interface.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 IXpsOMImageResource    *newInterface;
 // The following values are defined outside of 
 // this example.
@@ -156,39 +160,39 @@ hr = CoCreateInstance(
     NULL,
     CLSCTX_INPROC_SERVER,
     _uuidof(IXpsOMObjectFactory),
-    reinterpret_cast<LPVOID*>(&xpsFactory)
+    reinterpret_cast&lt;LPVOID*&gt;(&amp;xpsFactory)
     );
 
 if (SUCCEEDED(hr))
 {
     // The partUriString and acquiredStream variables 
     //   are defined outside of this example.
-    hr = xpsFactory->CreatePartUri(partUriString, &partUri);
+    hr = xpsFactory-&gt;CreatePartUri(partUriString, &amp;partUri);
     if (SUCCEEDED(hr))
     {
-        hr = xpsFactory->CreateImageResource (
+        hr = xpsFactory-&gt;CreateImageResource (
             acquiredStream,
             contentType,
             partUri,
-            &newInterface);
+            &amp;newInterface);
         if (SUCCEEDED(hr))
         {
             // use newInterface
 
-            newInterface->Release();
+            newInterface-&gt;Release();
         }
-        partUri->Release();
+        partUri-&gt;Release();
     }
-    xpsFactory->Release();
+    xpsFactory-&gt;Release();
 }
 else
 {
     // evaluate HRESULT error returned in hr
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

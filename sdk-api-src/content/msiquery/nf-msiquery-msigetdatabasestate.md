@@ -7,7 +7,7 @@ old-location: setup\msigetdatabasestate.htm
 old-project: msi
 ms.assetid: 33c4618f-f9b5-4512-baba-27f62cd32329
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MsiGetDatabaseState, MsiGetDatabaseState function, _msi_msigetdatabasestate, msiquery/MsiGetDatabaseState, setup.msigetdatabasestate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ Handle to the database obtained from <a href="https://msdn.microsoft.com/984996e
 
 
 
-This function returns MSIDBSTATE __stdcall.
+This function returns MSIDBSTATE.
 
 
 
@@ -90,7 +90,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Database Management Functions</a>
+<a href="database_functions.htm">Database Management Functions</a>
  
 
  

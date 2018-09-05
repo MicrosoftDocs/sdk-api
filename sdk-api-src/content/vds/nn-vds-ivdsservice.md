@@ -4,10 +4,10 @@ title: IVdsService
 author: windows-sdk-content
 description: Provides methods to query and interact with VDS.
 old-location: base\ivdsservice.htm
-old-project: vds
+old-project: VDS
 ms.assetid: 6b081cc8-fe06-427f-b06d-831a1f1fef52
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVdsService, IVdsService interface [VDS], IVdsService interface [VDS],described, base.ivdsservice, vds/IVdsService
 ms.prod: windows
 ms.technology: windows-sdk

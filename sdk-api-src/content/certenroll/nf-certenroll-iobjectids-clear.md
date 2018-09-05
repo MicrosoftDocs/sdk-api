@@ -4,10 +4,10 @@ title: IObjectIds::Clear
 author: windows-sdk-content
 description: Removes all IObjectId objects from the collection.
 old-location: security\iobjectids_clear_method.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: f539a79a-477a-49cc-b761-2a615c3d5ea4
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],IObjectIds interface, IObjectIds interface [Security],Clear method, IObjectIds.Clear, IObjectIds::Clear, certenroll/IObjectIds::Clear, security.iobjectids_clear_method
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>Clear</b> method removes all <a href="https://msdn.microsoft.com/en-us/library/Aa376784(v=VS.85).aspx">IObjectId</a> objects from the collection.
+The <b>Clear</b> method removes all <a href="https://msdn.microsoft.com/bc6608e3-cae7-4992-b599-06bc04cc8ad7">IObjectId</a> objects from the collection.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ The <b>Clear</b> method removes all <a href="https://msdn.microsoft.com/en-us/li
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 
@@ -77,11 +77,11 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376784(v=VS.85).aspx">IObjectId</a>
+<a href="https://msdn.microsoft.com/bc6608e3-cae7-4992-b599-06bc04cc8ad7">IObjectId</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376785(v=VS.85).aspx">IObjectIds</a>
+<a href="https://msdn.microsoft.com/f376a33e-005b-4810-9a26-b642236ff7af">IObjectIds</a>
  
 
  

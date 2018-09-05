@@ -7,7 +7,7 @@ old-location: toolhelp\thread32next.htm
 old-project: ToolHelp
 ms.assetid: 5efe514e-626c-4138-97a0-bdad217c424f
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: Thread32Next, Thread32Next function [ToolHelp], _win32_thread32next, base.thread32next, tlhelp32/Thread32Next, toolhelp.thread32next
 ms.prod: windows
 ms.technology: windows-sdk

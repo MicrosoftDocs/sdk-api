@@ -61,7 +61,7 @@ Specifies the subresource from a 2D texture that is accessible to a depth-stenci
 
 ### -field MipSlice
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The index of the first mipmap level to use.
 
@@ -70,7 +70,7 @@ The index of the first mipmap level to use.
 
 
 
-This structure is one member of a depth-stencil-view description (see <a href="https://msdn.microsoft.com/en-us/library/Ff476112(v=VS.85).aspx">D3D11_DEPTH_STENCIL_VIEW_DESC</a>).
+This structure is one member of a depth-stencil-view description (see <a href="https://msdn.microsoft.com/f073a798-edd5-4e6a-a8a7-1592721ce35d">D3D11_DEPTH_STENCIL_VIEW_DESC</a>).
 
 
 
@@ -80,7 +80,7 @@ This structure is one member of a depth-stencil-view description (see <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476173(v=VS.85).aspx">Resource Structures</a>
+<a href="https://msdn.microsoft.com/a29e01ac-8aa1-4a40-ad4d-3b738e129436">Resource Structures</a>
  
 
  

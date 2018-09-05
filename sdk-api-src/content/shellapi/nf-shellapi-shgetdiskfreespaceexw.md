@@ -7,7 +7,7 @@ old-location: shell\SHGetDiskFreeSpaceEx.htm
 old-project: shell
 ms.assetid: f8adbfa8-124a-4934-b5dc-16e261c15a8b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHGetDiskFreeSpace, SHGetDiskFreeSpaceEx, SHGetDiskFreeSpaceEx function [Windows Shell], SHGetDiskFreeSpaceExA, SHGetDiskFreeSpaceExW, _shell_SHGetDiskFreeSpaceEx, shell.SHGetDiskFreeSpaceEx, shellapi/SHGetDiskFreeSpaceEx, shellapi/SHGetDiskFreeSpaceExA, shellapi/SHGetDiskFreeSpaceExW
 ms.prod: windows
 ms.technology: windows-sdk

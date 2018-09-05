@@ -4,10 +4,10 @@ title: WinBioEnumDatabases function
 author: windows-sdk-content
 description: Enumerates all registered databases that match a specified type.
 old-location: secbiomet\winbioenumdatabases.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: 163c669d-765f-4f8d-83c4-ff8bd064e44d
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: WinBioEnumDatabases, WinBioEnumDatabases function [Windows Biometric Framework API], secbiomet.winbioenumdatabases, winbio/WinBioEnumDatabases
 ms.prod: windows
 ms.technology: windows-sdk
@@ -150,9 +150,13 @@ biometric databases on the system. The example also includes a function, Display
 <li>Conio.h</li>
 <li>Winbio.h</li>
 </ul>
-
-```cpp
-HRESULT EnumDatabases( )
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT EnumDatabases( )
 {
     // Declare variables.
     HRESULT hr = S_OK;
@@ -163,8 +167,8 @@ HRESULT EnumDatabases( )
     // Enumerate the databases.
     hr = WinBioEnumDatabases( 
             WINBIO_TYPE_FINGERPRINT,    // Type of biometric unit
-            &storageSchemaArray,        // Array of database schemas
-            &storageCount );            // Number of database schemas
+            &amp;storageSchemaArray,        // Array of database schemas
+            &amp;storageCount );            // Number of database schemas
     if (FAILED(hr))
     {
         wprintf_s(L"\nWinBioEnumDatabases failed. hr = 0x%x\n", hr);
@@ -173,18 +177,18 @@ HRESULT EnumDatabases( )
 
     // Display information for each database.
     wprintf_s(L"\nDatabases:\n");
-    for (index = 0; index < storageCount; ++index)
+    for (index = 0; index &lt; storageCount; ++index)
     {
         wprintf_s(L"\n[%d]: \tBiometric factor: 0x%08x\n", 
                  index, 
                  storageSchemaArray[index].BiometricFactor );
         
         wprintf_s(L"\tDatabase ID: ");
-        DisplayGuid(&storageSchemaArray[index].DatabaseId);
+        DisplayGuid(&amp;storageSchemaArray[index].DatabaseId);
         wprintf_s(L"\n");
 
         wprintf_s(L"\tData format: ");
-        DisplayGuid(&storageSchemaArray[index].DataFormat);
+        DisplayGuid(&amp;storageSchemaArray[index].DataFormat);
         wprintf_s(L"\n");
 
         wprintf_s(L"\tAttributes:  0x%08x\n", 
@@ -220,24 +224,24 @@ VOID DisplayGuid( __in PWINBIO_UUID Guid )
 {
     wprintf_s(
         L"{%08X-%04X-%04X-%02X%02X-%02X%02X%02X%02X%02X%02X}",
-        Guid->Data1,
-        Guid->Data2,
-        Guid->Data3,
-        Guid->Data4[0],
-        Guid->Data4[1],
-        Guid->Data4[2],
-        Guid->Data4[3],
-        Guid->Data4[4],
-        Guid->Data4[5],
-        Guid->Data4[6],
-        Guid->Data4[7]
+        Guid-&gt;Data1,
+        Guid-&gt;Data2,
+        Guid-&gt;Data3,
+        Guid-&gt;Data4[0],
+        Guid-&gt;Data4[1],
+        Guid-&gt;Data4[2],
+        Guid-&gt;Data4[3],
+        Guid-&gt;Data4[4],
+        Guid-&gt;Data4[5],
+        Guid-&gt;Data4[6],
+        Guid-&gt;Data4[7]
         );
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

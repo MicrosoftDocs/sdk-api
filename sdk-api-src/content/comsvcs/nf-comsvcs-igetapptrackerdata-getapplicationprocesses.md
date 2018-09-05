@@ -7,7 +7,7 @@ old-location: cos\igetapptrackerdata_getapplicationprocesses.htm
 old-project: cossdk
 ms.assetid: ec15db5c-fce6-42c0-a291-635344a7c4fc
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetApplicationProcesses, GetApplicationProcesses method [COM+], GetApplicationProcesses method [COM+],IGetAppTrackerData interface, IGetAppTrackerData interface [COM+],GetApplicationProcesses method, IGetAppTrackerData.GetApplicationProcesses, IGetAppTrackerData::GetApplicationProcesses, comsvcs/IGetAppTrackerData::GetApplicationProcesses, cos.igetapptrackerdata_getapplicationprocesses
 ms.prod: windows
 ms.technology: windows-sdk

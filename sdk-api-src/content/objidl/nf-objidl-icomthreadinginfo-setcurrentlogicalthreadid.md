@@ -7,7 +7,7 @@ old-location: com\icomthreadinginfo_setcurrentlogicalthreadid.htm
 old-project: com
 ms.assetid: 8a2fb319-094e-4384-b520-2cb8b8819d42
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IComThreadingInfo interface [COM],SetCurrentLogicalThreadId method, IComThreadingInfo.SetCurrentLogicalThreadId, IComThreadingInfo::SetCurrentLogicalThreadId, SetCurrentLogicalThreadId, SetCurrentLogicalThreadId method [COM], SetCurrentLogicalThreadId method [COM],IComThreadingInfo interface, _com_icomthreadinginfo_setcurrentlogicalthreadid, com.icomthreadinginfo_setcurrentlogicalthreadid, objidlbase/IComThreadingInfo::SetCurrentLogicalThreadId
 ms.prod: windows
 ms.technology: windows-sdk

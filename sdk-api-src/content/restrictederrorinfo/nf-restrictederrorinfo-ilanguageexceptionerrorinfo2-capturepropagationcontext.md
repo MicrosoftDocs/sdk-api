@@ -7,7 +7,7 @@ old-location: winrt\ilanguageexceptionerrorinfo2_capturepropagationcontext.htm
 old-project: WinRT
 ms.assetid: 60026962-4E6C-4906-97D9-46BD2BCA3AC6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CapturePropagationContext, CapturePropagationContext method [Windows Runtime], CapturePropagationContext method [Windows Runtime],ILanguageExceptionErrorInfo2 interface, ILanguageExceptionErrorInfo2 interface [Windows Runtime],CapturePropagationContext method, ILanguageExceptionErrorInfo2.CapturePropagationContext, ILanguageExceptionErrorInfo2::CapturePropagationContext, restrictederrorinfo/ILanguageExceptionErrorInfo2::CapturePropagationContext, winrt.ilanguageexceptionerrorinfo2_capturepropagationcontext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,16 +88,20 @@ Generally speaking, the method creates a linked list of <a href="https://msdn.mi
 
 The following example demonstrates the projection receiving an error at its language boundary from another projection or  WRL. This is an existing scenario, but allows the system to capture additional context if the previous projection was unable to do so.
 
-
-```cpp
-HRESULT CreateFooExceptionFromLanguageBoundaryError(HRESULT errorReceived, IFooException** createdException)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CreateFooExceptionFromLanguageBoundaryError(HRESULT errorReceived, IFooException** createdException)
 {
     HRESULT hr = S_OK;
-    ComPtr<IFooException> exception;
+    ComPtr&lt;IFooException&gt; exception;
     // Get the current error
-    ComPtr<IRestrictedErrorInfo> restrictedErrorInfo;
+    ComPtr&lt;IRestrictedErrorInfo&gt; restrictedErrorInfo;
     *createdException = nullptr;
-    if (SUCCEEDED(GetRestrictedErrorInfo(&restrictedErrorInfo)))
+    if (SUCCEEDED(GetRestrictedErrorInfo(&amp;restrictedErrorInfo)))
     {
         // Retrieve details regarding the error to determine if it is a stale error
         // or if it is the error we received at the boundary.
@@ -105,24 +109,24 @@ HRESULT CreateFooExceptionFromLanguageBoundaryError(HRESULT errorReceived, IFooE
         HRESULT errorOriginated;
         BSTR restrictedDescription;
         BSTR capabilitySid;
-        hr = restrictedErrorInfo->GetErrorDetails(
-            &description,
-            &errorOriginated,
-            &restrictedDescription,
-            &capabilitySid);
-        if (SUCCEEDED(hr) && errorReceived == errorOriginated)
+        hr = restrictedErrorInfo-&gt;GetErrorDetails(
+            &amp;description,
+            &amp;errorOriginated,
+            &amp;restrictedDescription,
+            &amp;capabilitySid);
+        if (SUCCEEDED(hr) &amp;&amp; errorReceived == errorOriginated)
         {
             hr = CreateFooException(
                 errorOriginated,
                 restrictedDescription,
                 restrictedErrorInfo.Get(),
-                &exception);
+                &amp;exception);
             // Query for new interface to see if the new logic is there to
             // capture the current propagation context.
-            ComPtr<ILanguageExceptionErrorInfo2> languageExceptionErrorInfo;
-            if (SUCCEEDED(restrictedErrorInfo.As(&languageExceptionErrorInfo)))
+            ComPtr&lt;ILanguageExceptionErrorInfo2&gt; languageExceptionErrorInfo;
+            if (SUCCEEDED(restrictedErrorInfo.As(&amp;languageExceptionErrorInfo)))
             {
-                languageExceptionErrorInfo->CapturePropagationContext(nullptr);
+                languageExceptionErrorInfo-&gt;CapturePropagationContext(nullptr);
             }		
             *createdException = exception.Detach();
             SetRestrictedErrorInfo(restrictedErrorInfo.Get());
@@ -140,19 +144,19 @@ HRESULT CreateFooExceptionFromLanguageBoundaryError(HRESULT errorReceived, IFooE
     // So originate a new error.
     // OriginateErrorInfoForThrow will call RoOriginateLanguageException, which will      
     // capture the context
-    hr = CreateFooException(errorReceived, nullptr, nullptr, &exception);
+    hr = CreateFooException(errorReceived, nullptr, nullptr, &amp;exception);
     if(SUCCEEDED(hr))
     {
-        exception->OriginateErrorInfoForThrow();
+        exception-&gt;OriginateErrorInfoForThrow();
         *createdException = exception.Detach();
     }
     return hr;
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,10 +4,10 @@ title: WinBioEnumServiceProviders function
 author: windows-sdk-content
 description: Retrieves information about installed biometric service providers. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbioenumserviceproviders.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: 2424eae8-4fc6-43f4-97a1-3340870396cc
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: WinBioEnumServiceProviders, WinBioEnumServiceProviders function [Windows Biometric Framework API], secbiomet.winbioenumserviceproviders, winbio/WinBioEnumServiceProviders
 ms.prod: windows
 ms.technology: windows-sdk
@@ -149,9 +149,13 @@ the installed service providers. The example also includes a function, DisplayGu
 <li>Conio.h</li>
 <li>Winbio.h</li>
 </ul>
-
-```cpp
-HRESULT EnumSvcProviders( )
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT EnumSvcProviders( )
 {
     // Declare variables.
     HRESULT hr = S_OK;
@@ -162,8 +166,8 @@ HRESULT EnumSvcProviders( )
     // Enumerate the service providers.
     hr = WinBioEnumServiceProviders( 
             WINBIO_TYPE_FINGERPRINT,    // Provider to enumerate
-            &bspSchemaArray,            // Provider schema array
-            &bspCount );                // Number of schemas returned
+            &amp;bspSchemaArray,            // Provider schema array
+            &amp;bspCount );                // Number of schemas returned
     if (FAILED(hr))
     {
         wprintf_s(L"\n WinBioEnumServiceProviders failed. hr = 0x%x\n", hr);
@@ -172,14 +176,14 @@ HRESULT EnumSvcProviders( )
 
     // Display the schema information.
     wprintf_s(L"\nService providers: \n");
-    for (index = 0; index < bspCount; ++index)
+    for (index = 0; index &lt; bspCount; ++index)
     {
         wprintf_s(L"\n[%d]: \tBiometric factor: 0x%08x\n", 
                  index, 
                  bspSchemaArray[index].BiometricFactor );
         
         wprintf_s(L"\tBspId: ");
-        DisplayGuid(&bspSchemaArray[index].BspId);
+        DisplayGuid(&amp;bspSchemaArray[index].BspId);
         wprintf_s(L"\n");
 
         wprintf_s(L"\tDescription: %ws\n", 
@@ -213,24 +217,24 @@ VOID DisplayGuid( __in PWINBIO_UUID Guid )
 {
     wprintf_s(
         L"{%08X-%04X-%04X-%02X%02X-%02X%02X%02X%02X%02X%02X}",
-        Guid->Data1,
-        Guid->Data2,
-        Guid->Data3,
-        Guid->Data4[0],
-        Guid->Data4[1],
-        Guid->Data4[2],
-        Guid->Data4[3],
-        Guid->Data4[4],
-        Guid->Data4[5],
-        Guid->Data4[6],
-        Guid->Data4[7]
+        Guid-&gt;Data1,
+        Guid-&gt;Data2,
+        Guid-&gt;Data3,
+        Guid-&gt;Data4[0],
+        Guid-&gt;Data4[1],
+        Guid-&gt;Data4[2],
+        Guid-&gt;Data4[3],
+        Guid-&gt;Data4[4],
+        Guid-&gt;Data4[5],
+        Guid-&gt;Data4[6],
+        Guid-&gt;Data4[7]
         );
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

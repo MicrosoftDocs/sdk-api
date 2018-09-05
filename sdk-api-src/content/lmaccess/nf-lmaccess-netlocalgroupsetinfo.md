@@ -7,7 +7,7 @@ old-location: netmgmt\netlocalgroupsetinfo.htm
 old-project: netmgmt
 ms.assetid: c1d2a68b-0910-4815-9547-0f0f3c983164
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: 0, 1, 1002, NetLocalGroupSetInfo, NetLocalGroupSetInfo function [Network Management], _win32_netlocalgroupsetinfo, lmaccess/NetLocalGroupSetInfo, netmgmt.netlocalgroupsetinfo
 ms.prod: windows
 ms.technology: windows-sdk

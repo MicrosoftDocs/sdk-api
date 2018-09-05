@@ -71,15 +71,19 @@ A variable-sized array of SOCKET_ADDRESS structures. The SOCKET_ADDRESS structur
      follows:
      
 
-
-```
-typedef struct _SOCKET_ADDRESS {
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _SOCKET_ADDRESS {
   LPSOCKADDR  lpSockaddr;
   INT  iSockaddrLength;
-} SOCKET_ADDRESS, *PSOCKET_ADDRESS, *LPSOCKET_ADDRESS;
-```
-
-
+} SOCKET_ADDRESS, *PSOCKET_ADDRESS, *LPSOCKET_ADDRESS;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

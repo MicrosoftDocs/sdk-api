@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3dsurface9__getcontainer.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3dsurface9__getcontainer.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: GetContainer, GetContainer method [Direct3D 9], GetContainer method [Direct3D 9],IDirect3DSurface9 interface, IDirect3DSurface9 interface [Direct3D 9],GetContainer method, IDirect3DSurface9.GetContainer, IDirect3DSurface9::GetContainer, b487bd6c-1138-b391-b264-d95eb2cadb18, d3d9helper/IDirect3DSurface9::GetContainer, direct3d9.idirect3dsurface9__getcontainer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,7 +78,7 @@ Address of a pointer to fill with the container pointer if the query succeeds. S
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be D3DERR_INVALIDCALL.
 
@@ -89,28 +89,32 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-If the surface is created using <a href="https://msdn.microsoft.com/en-us/library/Bb174361(v=VS.85).aspx">CreateRenderTarget</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb174358(v=VS.85).aspx">CreateOffscreenPlainSurface</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb174356(v=VS.85).aspx">CreateDepthStencilSurface</a>, the surface is considered stand alone. In this case, <b>GetContainer</b> will return the Direct3D device used to create the surface.
+If the surface is created using <a href="https://msdn.microsoft.com/3c0c8651-0c54-4eeb-bd37-c2aa26b1211d">CreateRenderTarget</a> or <a href="https://msdn.microsoft.com/9502aa34-afde-4547-a5da-224f29719c07">CreateOffscreenPlainSurface</a> or <a href="https://msdn.microsoft.com/c94eed81-0706-44d6-a8be-83e2a5d46c39">CreateDepthStencilSurface</a>, the surface is considered stand alone. In this case, <b>GetContainer</b> will return the Direct3D device used to create the surface.
 
 If the call succeeds, the reference count of the container is increased by one.
 
 Here's an example getting the parent texture of a mip surface.
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
     
 // Assumes pSurface is a valid IDirect3DSurface9 pointer
 void *pContainer = NULL;
 IDirect3DTexture9 *pTexture = NULL;
-HRESULT hr = pSurface->GetContainer(IID_IDirect3DTexture9, &pContainer);
-if (SUCCEEDED(hr) && pContainer)
+HRESULT hr = pSurface-&gt;GetContainer(IID_IDirect3DTexture9, &amp;pContainer);
+if (SUCCEEDED(hr) &amp;&amp; pContainer)
 {
     pTexture = (IDirect3DTexture9 *)pContainer;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -119,7 +123,7 @@ if (SUCCEEDED(hr) && pContainer)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205892(v=VS.85).aspx">IDirect3DSurface9</a>
+<a href="https://msdn.microsoft.com/312eee39-6a5c-46b6-b145-78d5f0f9eecd">IDirect3DSurface9</a>
  
 
  

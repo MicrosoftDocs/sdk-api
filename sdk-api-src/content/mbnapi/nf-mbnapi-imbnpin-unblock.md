@@ -7,7 +7,7 @@ old-location: mbn\imbnpin_unblock.htm
 old-project: mbn
 ms.assetid: 7e5ec24c-681c-4259-9f6a-949bf40d5b3e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMbnPin interface [Microsoft Broadband Networks],Unblock method, IMbnPin.Unblock, IMbnPin::Unblock, Unblock, Unblock method [Microsoft Broadband Networks], Unblock method [Microsoft Broadband Networks],IMbnPin interface, mbn.imbnpin_unblock, mbnapi/IMbnPin::Unblock
 ms.prod: windows
 ms.technology: windows-sdk

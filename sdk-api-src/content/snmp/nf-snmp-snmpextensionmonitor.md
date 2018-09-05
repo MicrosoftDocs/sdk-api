@@ -4,10 +4,10 @@ title: SnmpExtensionMonitor function
 author: windows-sdk-content
 description: The Microsoft SNMP service calls the SnmpExtensionMonitor function to provide the SNMP extension agent with a view to the service's internal counters and parameters. This function is an element of the SNMP Extension Agent API.
 old-location: snmp\snmpextensionmonitor.htm
-old-project: snmp
+old-project: SNMP
 ms.assetid: 40468bf2-0e91-448b-a2e5-b84b786c67a2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SnmpExtensionMonitor, SnmpExtensionMonitor callback, SnmpExtensionMonitor callback function [SNMP], _snmp_snmpextensionmonitor, snmp.snmpextensionmonitor, snmp/SnmpExtensionMonitor
 ms.prod: windows
 ms.technology: windows-sdk

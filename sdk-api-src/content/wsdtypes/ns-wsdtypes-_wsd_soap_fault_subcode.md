@@ -4,10 +4,10 @@ title: "_WSD_SOAP_FAULT_SUBCODE"
 author: windows-sdk-content
 description: Represents a generated SOAP fault subcode.
 old-location: ncd\wsd_soap_fault_subcode_struct.htm
-old-project: wsdapi
+old-project: WsdApi
 ms.assetid: cd8f35e4-7b22-4af0-b6a4-78f43ed8b060
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WSD_SOAP_FAULT_SUBCODE, WSD_SOAP_FAULT_SUBCODE structure, _WSD_SOAP_FAULT_SUBCODE, ncd.wsd_soap_fault_subcode_struct, wsdtypes/WSD_SOAP_FAULT_SUBCODE
 ms.prod: windows
 ms.technology: windows-sdk

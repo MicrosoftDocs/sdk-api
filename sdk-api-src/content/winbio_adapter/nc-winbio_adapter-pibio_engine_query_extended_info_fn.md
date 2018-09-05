@@ -4,10 +4,10 @@ title: PIBIO_ENGINE_QUERY_EXTENDED_INFO_FN
 author: windows-sdk-content
 description: Determines the capabilities and limitations of the biometric engine component.
 old-location: secbiomet\engineadapterqueryextendedinfo.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: 795547BF-FADE-4AFE-B5DF-1A295F759037
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: EngineAdapterQueryExtendedInfo, EngineAdapterQueryExtendedInfo callback function [Windows Biometric Framework API], PIBIO_ENGINE_QUERY_EXTENDED_INFO_FN, PIBIO_ENGINE_QUERY_EXTENDED_INFO_FN callback, secbiomet.engineadapterqueryextendedinfo, winbio_adapter/EngineAdapterQueryExtendedInfo
 ms.prod: windows
 ms.technology: windows-sdk

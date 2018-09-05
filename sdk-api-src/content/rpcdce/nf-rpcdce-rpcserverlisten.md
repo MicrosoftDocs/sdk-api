@@ -4,10 +4,10 @@ title: RpcServerListen function
 author: windows-sdk-content
 description: The RpcServerListen function signals the RPC run-time library to listen for remote procedure calls. This function will not affect auto-listen interfaces; use RpcServerRegisterIfEx if you need that functionality.
 old-location: rpc\rpcserverlisten.htm
-old-project: rpc
+old-project: Rpc
 ms.assetid: 430561b2-c74b-423c-8448-339cc71dbd68
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcServerListen, RpcServerListen function [RPC], _rpc_rpcserverlisten, rpc.rpcserverlisten, rpcdce/RpcServerListen
 ms.prod: windows
 ms.technology: windows-sdk

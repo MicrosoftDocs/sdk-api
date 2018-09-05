@@ -7,7 +7,7 @@ old-location: setup\setupfreesourcelist.htm
 old-project: SetupApi
 ms.assetid: ac326a2c-df67-4a3e-9290-663f84027a48
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: SetupFreeSourceList, SetupFreeSourceList function [Setup API], SetupFreeSourceListA, SetupFreeSourceListW, _setupapi_setupfreesourcelist, setup.setupfreesourcelist, setupapi/SetupFreeSourceList, setupapi/SetupFreeSourceListA, setupapi/SetupFreeSourceListW
 ms.prod: windows
 ms.technology: windows-sdk

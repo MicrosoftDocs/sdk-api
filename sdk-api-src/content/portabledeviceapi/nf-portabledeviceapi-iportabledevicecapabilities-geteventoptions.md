@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevicecapabilities_geteventoptions.htm
 old-project: wpd_sdk
 ms.assetid: b4d3495b-b2d3-4d0d-8dc6-df030a52ab3f
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetEventOptions, GetEventOptions method [Windows Portable Devices SDK], GetEventOptions method [Windows Portable Devices SDK],IPortableDeviceCapabilities method, IPortableDeviceCapabilities method [Windows Portable Devices SDK],GetEventOptions method, IPortableDeviceCapabilities.GetEventOptions, IPortableDeviceCapabilities::GetEventOptions, IPortableDeviceCapabilitiesGetEventOptions, portabledeviceapi/IPortableDeviceCapabilities::GetEventOptions, wpdsdk.iportabledevicecapabilities_geteventoptions
 ms.prod: windows
 ms.technology: windows-sdk
@@ -123,7 +123,7 @@ At least one of the arguments was a <b>NULL</b> pointer.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319362(v=VS.85).aspx">IPortableDeviceCapabilities Interface</a>
+<a href="wpdsdk.iportabledevicecapabilities">IPortableDeviceCapabilities Interface</a>
  
 
  

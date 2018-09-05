@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgi_scaling.htm
 old-project: direct3ddxgi
 ms.assetid: 7EEA4B02-3C81-4A07-BE3B-80A5E35A16BE
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: DXGI_SCALING, DXGI_SCALING enumeration [DXGI], DXGI_SCALING_ASPECT_RATIO_STRETCH, DXGI_SCALING_NONE, DXGI_SCALING_STRETCH, direct3ddxgi.dxgi_scaling, dxgi1_2/DXGI_SCALING, dxgi1_2/DXGI_SCALING_ASPECT_RATIO_STRETCH, dxgi1_2/DXGI_SCALING_NONE, dxgi1_2/DXGI_SCALING_STRETCH
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ Identifies resize behavior when the back-buffer size does not match the size of 
 
 ### -field DXGI_SCALING_STRETCH
 
-Directs DXGI to make the back-buffer contents scale to fit the presentation target size. This is the implicit behavior of DXGI when you call the <a href="https://msdn.microsoft.com/en-us/library/Bb174537(v=VS.85).aspx">IDXGIFactory::CreateSwapChain</a> method.
+Directs DXGI to make the back-buffer contents scale to fit the presentation target size. This is the implicit behavior of DXGI when you call the <a href="https://msdn.microsoft.com/c6c32336-fbea-420b-b0d9-1c1cf3893688">IDXGIFactory::CreateSwapChain</a> method.
 
 
 ### -field DXGI_SCALING_NONE
@@ -86,7 +86,7 @@ Note that with legacy Win32 window swapchains, this works the same as DXGI_SCALI
 
 
 
-The DXGI_SCALING_NONE value is supported only for flip presentation model swap chains that you create with the <a href="https://msdn.microsoft.com/en-us/library/Bb173077(v=VS.85).aspx">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a> value. You pass these values in a call to <a href="https://msdn.microsoft.com/B78E9F87-C6B0-4078-8C59-AFB85B9C3CBD">IDXGIFactory2::CreateSwapChainForHwnd</a>, <a href="https://msdn.microsoft.com/B3AC3AEB-3449-4444-9FD3-866A3795C41F">IDXGIFactory2::CreateSwapChainForCoreWindow</a>, or  <a href="https://msdn.microsoft.com/8AE13082-F8C3-422A-A111-4E91488BD1AF">IDXGIFactory2::CreateSwapChainForComposition</a>. 
+The DXGI_SCALING_NONE value is supported only for flip presentation model swap chains that you create with the <a href="DXGI_SWAP_EFFECT.htm">DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL</a> value. You pass these values in a call to <a href="https://msdn.microsoft.com/B78E9F87-C6B0-4078-8C59-AFB85B9C3CBD">IDXGIFactory2::CreateSwapChainForHwnd</a>, <a href="https://msdn.microsoft.com/B3AC3AEB-3449-4444-9FD3-866A3795C41F">IDXGIFactory2::CreateSwapChainForCoreWindow</a>, or  <a href="https://msdn.microsoft.com/8AE13082-F8C3-422A-A111-4E91488BD1AF">IDXGIFactory2::CreateSwapChainForComposition</a>. 
 
 DXGI_SCALING_ASPECT_RATIO_STRETCH will prefer to use a horizontal fill, otherwise it will use a vertical fill, using the following logic.
 

@@ -67,12 +67,12 @@ The item's UNC path string.
 
 ### -param EventType [in]
 
-An <a href="https://msdn.microsoft.com/en-us/library/Bb530645(v=VS.85).aspx">OFFLINEFILES_EVENTS</a> enumeration value that indicates the type of the item.
+An <a href="https://msdn.microsoft.com/4ab65756-5985-4240-805d-2221db3d1459">OFFLINEFILES_EVENTS</a> enumeration value that indicates the type of the item.
 
 
 ### -param ItemType [in]
 
-An <a href="https://msdn.microsoft.com/en-us/library/Bb530648(v=VS.85).aspx">OFFLINEFILES_ITEM_TYPE</a> enumeration value that indicates the type of the item.
+An <a href="https://msdn.microsoft.com/cf8bb079-d691-4b37-b408-d1af1746ed37">OFFLINEFILES_ITEM_TYPE</a> enumeration value that indicates the type of the item.
 
 
 ### -param bModifiedData [in]
@@ -104,11 +104,11 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd442645(v=VS.85).aspx">IOfflineFilesEvents3</a>
+<a href="https://msdn.microsoft.com/f68c2c0c-e4f7-4048-99c9-761f98928157">IOfflineFilesEvents3</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd442651(v=VS.85).aspx">IOfflineFilesTransparentCacheInfo::IsTransparentlyCached</a>
+<a href="https://msdn.microsoft.com/7f8656e0-0f24-46a0-81b7-62067b0d4c21">IOfflineFilesTransparentCacheInfo::IsTransparentlyCached</a>
  
 
  

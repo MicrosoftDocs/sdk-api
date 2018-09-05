@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationmanager2_createanimationvariable.htm
 old-project: UIAnimation
 ms.assetid: 5E963D24-2436-4B8F-8806-69E521EC83AF
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CreateAnimationVariable, CreateAnimationVariable method [Windows Animation], CreateAnimationVariable method [Windows Animation],IUIAnimationManager2 interface, IUIAnimationManager2 interface [Windows Animation],CreateAnimationVariable method, IUIAnimationManager2.CreateAnimationVariable, IUIAnimationManager2::CreateAnimationVariable, uianimation.iuianimationmanager2_createanimationvariable, uianimation/IUIAnimationManager2::CreateAnimationVariable
 ms.prod: windows
 ms.technology: windows-sdk

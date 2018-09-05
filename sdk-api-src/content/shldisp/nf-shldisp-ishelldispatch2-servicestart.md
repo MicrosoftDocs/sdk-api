@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch2_ServiceStart.htm
 old-project: shell
 ms.assetid: 3af57cdc-f449-433d-a9e1-119038045e4c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellDispatch2 object [Windows Shell],ServiceStart method, IShellDispatch2.ServiceStart, IShellDispatch2::ServiceStart, ServiceStart, ServiceStart method [Windows Shell], ServiceStart method [Windows Shell],IShellDispatch2 object, _win32_IShellDispatch2_ServiceStart, shell.IShellDispatch2_ServiceStart
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,7 +79,7 @@ Starts a named service.
 
 #### - sServiceName [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a></b>
+Type: <b><a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a></b>
 
 A <b>String</b> that contains the name of the service.
 
@@ -126,9 +126,13 @@ The following examples show the use of <b>ServiceStart</b> to start the Messenge
 JScript:
                 
 
-
-```javascript
-<script language="JScript">
+<div class="code"><span codelanguage="JScript"><table>
+<tr>
+<th>JScript</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="JScript"&gt;
     function fnServiceStartJ()
     {
         var objShell = new ActiveXObject("shell.application");
@@ -136,16 +140,20 @@ JScript:
         
         bReturn = objShell.ServiceStart("Messenger", true);
     }
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 VBScript:
 
-
-```vb
-<script language="VBScript">
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="VBScript"&gt;
     function fnServiceStartVB()
         dim objShell
         dim bReturn
@@ -156,10 +164,10 @@ VBScript:
 
         set objShell = nothing
     end function
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

@@ -7,7 +7,7 @@ old-location: setup\setupremovefilelogentry.htm
 old-project: SetupApi
 ms.assetid: a26d2c24-7092-40b0-9ae9-e7edf68aeb3d
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: SetupRemoveFileLogEntry, SetupRemoveFileLogEntry function [Setup API], SetupRemoveFileLogEntryA, SetupRemoveFileLogEntryW, _setupapi_setupremovefilelogentry, setup.setupremovefilelogentry, setupapi/SetupRemoveFileLogEntry, setupapi/SetupRemoveFileLogEntryA, setupapi/SetupRemoveFileLogEntryW
 ms.prod: windows
 ms.technology: windows-sdk

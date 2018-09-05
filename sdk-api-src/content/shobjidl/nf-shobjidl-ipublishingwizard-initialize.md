@@ -7,7 +7,7 @@ old-location: shell\IPublishingWizard_Initialize.htm
 old-project: shell
 ms.assetid: 8312bb2e-cc06-4440-a72c-cf153a5d61b6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: AddNetPlace, IPublishingWizard interface [Windows Shell],Initialize method, IPublishingWizard.Initialize, IPublishingWizard::Initialize, Initialize, Initialize method [Windows Shell], Initialize method [Windows Shell],IPublishingWizard interface, InternetPhotoPrinting, SHPWHF_ANYLOCATION, SHPWHF_NOFILESELECTOR, SHPWHF_NONETPLACECREATE, SHPWHF_NORECOMPRESS, SHPWHF_USEMRU, SHPWHF_VALIDATEVIAWEBFOLDERS, _shell_IPublishingWizard_Initialize, shell.IPublishingWizard_Initialize, shobjidl/IPublishingWizard::Initialize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -194,16 +194,20 @@ The following sample does not work on Windows Vista because the Online Print Wi
 
 				
 
-
-```
-/* initializing the Online Print Wizard in Windows XP or Windows 2003 Server*/
-hr = pPublish->Initialize(pDataObject,  // A data object that represents files or 
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>/* initializing the Online Print Wizard in Windows XP or Windows 2003 Server*/
+hr = pPublish-&gt;Initialize(pDataObject,  // A data object that represents files or 
                                         // folders to transfer.
                           SHPWHF_NOFILESELECTOR,     // Flags
-                          L"InternetPhotoPrinting"); // Display the Online Print Wizard.
-```
-
-
+                          L"InternetPhotoPrinting"); // Display the Online Print Wizard.</pre>
+</td>
+</tr>
+</table></span></div>
 <b>IPublishingWizard::Initialize</b> does not actually display the initialized wizard. See the <a href="https://msdn.microsoft.com/634dcc04-e2ed-4cde-bb4d-d2e8bcf5ab94">IPublishingWizard</a> topic for information on how to display the wizard.
 
 

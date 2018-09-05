@@ -7,7 +7,7 @@ old-location: wcn\wcn_value_type_encryption_type.htm
 old-project: wcn
 ms.assetid: 4bd6ef62-82cd-4d3d-925a-637396452c03
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: WCN_VALUE_ET_AES, WCN_VALUE_ET_NONE, WCN_VALUE_ET_TKIP, WCN_VALUE_ET_TKIP_AES_MIXED, WCN_VALUE_ET_WEP, WCN_VALUE_TYPE_ENCRYPTION_TYPE, WCN_VALUE_TYPE_ENCRYPTION_TYPE enumeration [Windows Connect Now], tagWCN_VALUE_TYPE_ENCRYPTION_TYPE, wcn.wcn_value_type_encryption_type, wcntypes/WCN_VALUE_ET_AES, wcntypes/WCN_VALUE_ET_NONE, wcntypes/WCN_VALUE_ET_TKIP, wcntypes/WCN_VALUE_ET_TKIP_AES_MIXED, wcntypes/WCN_VALUE_ET_WEP, wcntypes/WCN_VALUE_TYPE_ENCRYPTION_TYPE
 ms.prod: windows
 ms.technology: windows-sdk

@@ -66,7 +66,7 @@ The <b>Point</b> class encapsulates a point in a 2-D coordinate system.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535010(v=VS.85).aspx">Point::Point()</a>
+<a href="https://msdn.microsoft.com/41e53402-0fa3-472b-b3e1-cdb16d1b0947">Point::Point()</a>
 </td>
 <td align="left" width="63%">
 Creates a <b>Point</b> object and initializes the 
@@ -77,7 +77,7 @@ Creates a <b>Point</b> object and initializes the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535011(v=VS.85).aspx">Point::Point(INT,INT)</a>
+<a href="https://msdn.microsoft.com/8081890b-5ec0-45c9-9cfe-61c0ee0787c4">Point::Point(INT,INT)</a>
 </td>
 <td align="left" width="63%">
 Creates a <b>Point</b> object using two integers to initialize the 
@@ -88,7 +88,7 @@ Creates a <b>Point</b> object using two integers to initialize the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535012(v=VS.85).aspx">Point::Point(Point&)</a>
+<a href="https://msdn.microsoft.com/4125bb02-471f-4694-ab36-8b3088479242">Point::Point(Point&)</a>
 </td>
 <td align="left" width="63%">
 Creates a new <b>Point</b> object and copies the data members from another <b>Point</b> object.
@@ -97,11 +97,11 @@ Creates a new <b>Point</b> object and copies the data members from another <b>Po
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535013(v=VS.85).aspx">Point::Point(Size&)</a>
+<a href="https://msdn.microsoft.com/16e6f406-9139-4341-8469-1d6345889c86">Point::Point(Size&)</a>
 </td>
 <td align="left" width="63%">
 Creates a <b>Point</b> object using a 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534504(v=VS.85).aspx">Size</a> object to initialize the 
+			<a href="https://msdn.microsoft.com/d5be390d-11c7-47e3-8cd0-335fb6b031fd">Size</a> object to initialize the 
 			<b>X</b> and 
 			<b>Y</b> data members.
 
@@ -116,10 +116,10 @@ Creates a <b>Point</b> object using a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535007(v=VS.85).aspx">Point::Equals</a>
+<a href="https://msdn.microsoft.com/b3719463-8cbf-44c4-bf0b-6673a37d322f">Point::Equals</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535007(v=VS.85).aspx">Point::Equals</a> method determines whether two 
+The <a href="https://msdn.microsoft.com/b3719463-8cbf-44c4-bf0b-6673a37d322f">Point::Equals</a> method determines whether two 
 			<b>Point</b> objects are equal. Two points are considered equal if they have the same 
 			<b>X</b> and 
 			<b>Y</b>  data members.
@@ -128,19 +128,19 @@ The <a href="https://msdn.microsoft.com/en-us/library/ms535007(v=VS.85).aspx">Po
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535009(v=VS.85).aspx">Point::operator-(Point&)</a>
+<a href="https://msdn.microsoft.com/bcd6e8db-7584-4209-8c0a-6ce64c8724ce">Point::operator-(Point&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535009(v=VS.85).aspx">Point::operator-</a> method subtracts the <b>X</b> and <b>Y</b> data members of two <b>Point</b> objects.
+The <a href="https://msdn.microsoft.com/bcd6e8db-7584-4209-8c0a-6ce64c8724ce">Point::operator-</a> method subtracts the <b>X</b> and <b>Y</b> data members of two <b>Point</b> objects.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms535008(v=VS.85).aspx">Point::operator+(Point&)</a>
+<a href="https://msdn.microsoft.com/751eea61-b0c6-4112-bf0b-2936d12fb97e">Point::operator+(Point&)</a>
 </td>
 <td align="left" width="63%">
-The <a href="https://msdn.microsoft.com/en-us/library/ms535008(v=VS.85).aspx">Point::operator+</a> method adds the <b>X</b> and <b>Y</b> data members of two <b>Point</b> objects.
+The <a href="https://msdn.microsoft.com/751eea61-b0c6-4112-bf0b-2936d12fb97e">Point::operator+</a> method adds the <b>X</b> and <b>Y</b> data members of two <b>Point</b> objects.
 
 </td>
 </tr>

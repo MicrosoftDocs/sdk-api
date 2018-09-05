@@ -7,7 +7,7 @@ old-location: wec\ecremoveobjectarrayelement.htm
 old-project: WEC
 ms.assetid: 6c76ca94-b7bc-4590-be0b-6d6f499dda5a
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: EcRemoveObjectArrayElement, EcRemoveObjectArrayElement function, evcoll/EcRemoveObjectArrayElement, wec.ecremoveobjectarrayelement, wes.ecremoveobjectarrayelement
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,7 +74,7 @@ The index of the element to remove from the array.
 
 
 
-This function returns BOOL __stdcall.
+This function returns BOOL.
 
 
 

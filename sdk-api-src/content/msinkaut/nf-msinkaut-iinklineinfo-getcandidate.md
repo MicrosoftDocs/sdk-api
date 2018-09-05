@@ -7,7 +7,7 @@ old-location: tablet\iinklineinfo_getcandidate.htm
 old-project: tablet
 ms.assetid: 59005f51-7052-4aef-915d-4c939eecec99
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 59005f51-7052-4aef-915d-4c939eecec99, GetCandidate, GetCandidate method [Tablet PC], GetCandidate method [Tablet PC],IInkLineInfo interface, IInkLineInfo interface [Tablet PC],GetCandidate method, IInkLineInfo.GetCandidate, IInkLineInfo::GetCandidate, msinkaut/IInkLineInfo::GetCandidate, tablet.iinklineinfo_getcandidate
 ms.prod: windows
 ms.technology: windows-sdk

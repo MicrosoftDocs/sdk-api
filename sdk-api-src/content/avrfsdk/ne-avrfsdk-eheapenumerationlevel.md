@@ -4,10 +4,10 @@ title: eHeapEnumerationLevel
 author: windows-sdk-content
 description: Determines whether the enumeration operation should continue or stop.
 old-location: winprog\eheapenumerationlevel.htm
-old-project: devnotes
+old-project: DevNotes
 ms.assetid: f8260ae8-eb1e-45f4-babc-905f4af7e3b1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: HeapEnumerationEverything, HeapEnumerationStop, avrfsdk/HeapEnumerationEverything, avrfsdk/HeapEnumerationStop, avrfsdk/eHeapEnumerationLevel, base.eheapenumerationlevel, eHeapEnumerationLevel, eHeapEnumerationLevel enumeration [Windows API], winprog.eheapenumerationlevel
 ms.prod: windows
 ms.technology: windows-sdk

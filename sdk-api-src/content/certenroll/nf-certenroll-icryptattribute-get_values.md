@@ -4,10 +4,10 @@ title: ICryptAttribute::get_Values
 author: windows-sdk-content
 description: Retrieves an IX509Attributes object that contains a collection of attributes.
 old-location: security\icryptattribute_values_property.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: ae439c12-65f4-4e2b-b141-6e6bf6738a68
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ICryptAttribute interface [Security],Values property, ICryptAttribute.Values, ICryptAttribute.get_Values, ICryptAttribute::Values, ICryptAttribute::get_Values, Values property [Security], Values property [Security],ICryptAttribute interface, certenroll/ICryptAttribute::Values, certenroll/ICryptAttribute::get_Values, get_Values, security.icryptattribute_values_property
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-The <b>Values</b> property retrieves an <a href="https://msdn.microsoft.com/en-us/library/Aa377108(v=VS.85).aspx">IX509Attributes</a> object that contains a collection of attributes.
+The <b>Values</b> property retrieves an <a href="https://msdn.microsoft.com/dd891506-f25b-4aa5-b739-0d66d5a5f395">IX509Attributes</a> object that contains a collection of attributes.
 
 This property is read-only.
 
@@ -65,19 +65,19 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375929(v=VS.85).aspx">ICryptAttribute</a>
+<a href="https://msdn.microsoft.com/2aefde1b-0f77-4a88-8851-5bacd363900b">ICryptAttribute</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375930(v=VS.85).aspx">ICryptAttributes</a>
+<a href="https://msdn.microsoft.com/beedb57c-1c89-4d16-8514-046e3071fd1e">ICryptAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377058(v=VS.85).aspx">IX509Attribute</a>
+<a href="https://msdn.microsoft.com/20965768-2c6b-488a-ab7c-5e0f6f28ac9b">IX509Attribute</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377108(v=VS.85).aspx">IX509Attributes</a>
+<a href="https://msdn.microsoft.com/dd891506-f25b-4aa5-b739-0d66d5a5f395">IX509Attributes</a>
  
 
  

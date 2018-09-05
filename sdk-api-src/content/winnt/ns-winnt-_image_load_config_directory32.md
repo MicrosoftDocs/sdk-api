@@ -7,7 +7,7 @@ old-location: base\image_load_config_directory64_str.htm
 old-project: debug
 ms.assetid: ebd42f1a-a5aa-4179-a2d0-61c50469d5c0
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: "*PIMAGE_LOAD_CONFIG_DIRECTORY32, IMAGE_LOAD_CONFIG_DIRECTORY, IMAGE_LOAD_CONFIG_DIRECTORY32, IMAGE_LOAD_CONFIG_DIRECTORY64, IMAGE_LOAD_CONFIG_DIRECTORY64 structure, PIMAGE_LOAD_CONFIG_DIRECTORY64, PIMAGE_LOAD_CONFIG_DIRECTORY64 structure pointer, _IMAGE_LOAD_CONFIG_DIRECTORY32, _IMAGE_LOAD_CONFIG_DIRECTORY64, base.image_load_config_directory64_str, winnt/IMAGE_LOAD_CONFIG_DIRECTORY64, winnt/PIMAGE_LOAD_CONFIG_DIRECTORY64"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -285,9 +285,13 @@ Reserved for use by the operating system.
 
 If <b>_WIN64</b> is defined, then <b>IMAGE_LOAD_CONFIG_DIRECTORY</b> is defined as <b>IMAGE_LOAD_CONFIG_DIRECTORY64</b>. However, if <b>_WIN64</b> is not defined,  then <b>IMAGE_LOAD_CONFIG_DIRECTORY</b> is defined as <b>IMAGE_LOAD_CONFIG_DIRECTORY32</b>. 
 
-
-```cpp
-typedef struct {
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct {
     DWORD   Size;
     DWORD   TimeDateStamp;
     WORD    MajorVersion;
@@ -308,10 +312,10 @@ typedef struct {
     DWORD   SecurityCookie;             // VA
     DWORD   SEHandlerTable;             // VA
     DWORD   SEHandlerCount;
-} IMAGE_LOAD_CONFIG_DIRECTORY32, *PIMAGE_LOAD_CONFIG_DIRECTORY32;
-```
-
-
+} IMAGE_LOAD_CONFIG_DIRECTORY32, *PIMAGE_LOAD_CONFIG_DIRECTORY32;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

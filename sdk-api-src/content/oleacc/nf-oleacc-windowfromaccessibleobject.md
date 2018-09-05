@@ -60,11 +60,9 @@ Retrieves the window handle that corresponds to a particular instance of an <a h
 
 
 
-### -param param [in]
+### -param arg1
 
-Type: <b>IAccessible*</b>
-
-Pointer to the <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a> interface whose corresponding window handle will be retrieved. This parameter must not be <b>NULL</b>.
+TBD
 
 
 ### -param phwnd [out]
@@ -72,6 +70,13 @@ Pointer to the <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee4
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a>*</b>
 
 Address of a variable that receives a handle to the window containing the object specified in <i>pacc</i>. If this value is <b>NULL</b> after the call, the object is not contained within a window; for example, the mouse pointer is not contained within a window.
+
+
+#### - param [in]
+
+Type: <b>IAccessible*</b>
+
+Pointer to the <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a> interface whose corresponding window handle will be retrieved. This parameter must not be <b>NULL</b>.
 
 
 ## -returns

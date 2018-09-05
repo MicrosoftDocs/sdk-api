@@ -7,7 +7,7 @@ old-location: wmi\chstring_lockbuffer.htm
 old-project: WmiSdk
 ms.assetid: 820a3ff5-4f99-40b0-8a9d-e5c22fea7ddb
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],LockBuffer method, CHString.LockBuffer, CHString::LockBuffer, LockBuffer, LockBuffer method [Windows Management Instrumentation], LockBuffer method [Windows Management Instrumentation],CHString interface, _hmm_chstring_lockbuffer, chstring/CHString::LockBuffer, wmi.chstring_lockbuffer
 ms.prod: windows
 ms.technology: windows-sdk

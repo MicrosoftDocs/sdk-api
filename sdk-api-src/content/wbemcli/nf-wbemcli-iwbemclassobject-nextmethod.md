@@ -7,7 +7,7 @@ old-location: wmi\iwbemclassobject_nextmethod.htm
 old-project: WmiSdk
 ms.assetid: 4c11e043-518b-46f6-bb39-e80354ef2c8a
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: IWbemClassObject interface [Windows Management Instrumentation],NextMethod method, IWbemClassObject.NextMethod, IWbemClassObject::NextMethod, NextMethod, NextMethod method [Windows Management Instrumentation], NextMethod method [Windows Management Instrumentation],IWbemClassObject interface, _hmm_iwbemclassobject_nextmethod, wbemcli/IWbemClassObject::NextMethod, wmi.iwbemclassobject_nextmethod
 ms.prod: windows
 ms.technology: windows-sdk
@@ -120,7 +120,7 @@ The caller begins the enumeration sequence using
 <a href="https://msdn.microsoft.com/7a6de467-65f7-4873-a2dd-9c52c138b1d2">IWbemClassObject::EndMethodEnumeration</a>. The caller may terminate the enumeration early by calling 
 <b>IWbemClassObject::EndMethodEnumeration</b> at any time.
 
-<div class="alert"><b>Note</b>  The caller must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IWbemClassObject::Release</a> on the <i>ppInSignature</i> and <i>ppOutSignature</i> pointers when these objects are no longer required.</div>
+<div class="alert"><b>Note</b>  The caller must call <a href="_com_iunknown_release">IWbemClassObject::Release</a> on the <i>ppInSignature</i> and <i>ppOutSignature</i> pointers when these objects are no longer required.</div>
 <div> </div>
 
 

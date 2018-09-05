@@ -4,10 +4,10 @@ title: FhServiceUnblockBackup function
 author: windows-sdk-content
 description: This function unblocks backups blocked via FhServiceBlockBackup.
 old-location: winprog\fhserviceunblockbackup.htm
-old-project: devnotes
+old-project: DevNotes
 ms.assetid: 4CCCEEA5-40BC-4862-ADF5-C8757E02916A
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FhServiceUnblockBackup, FhServiceUnblockBackup function [Windows API], fhsvcctl/FhServiceUnblockBackup, winprog.fhserviceunblockbackup
 ms.prod: windows
 ms.technology: windows-sdk

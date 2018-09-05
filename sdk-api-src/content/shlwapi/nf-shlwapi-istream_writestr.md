@@ -7,7 +7,7 @@ old-location: shell\IStream_WriteStr.htm
 old-project: shell
 ms.assetid: 13292ccd-fc0c-4230-a935-4d5aed8cec97
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IStream_WriteStr, IStream_WriteStr function [Windows Shell], _shell_IStream_WriteStr, shell.IStream_WriteStr, shlwapi/IStream_WriteStr
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

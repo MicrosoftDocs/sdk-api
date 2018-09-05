@@ -4,10 +4,10 @@ title: RmCancelCurrentTask function
 author: windows-sdk-content
 description: Cancels the current RmShutdown or RmRestart operation. This function must be called from the application that has started the session by calling the RmStartSession function.
 old-location: rstmgr\rmcancelcurrenttask.htm
-old-project: rstmgr
+old-project: RstMgr
 ms.assetid: 58a9a734-667a-48b0-84e2-8cfd85e918bf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RmCancelCurrentTask, RmCancelCurrentTask function [Restart Mgr], restartmanager/RmCancelCurrentTask, rstmgr.rmcancelcurrenttask
 ms.prod: windows
 ms.technology: windows-sdk

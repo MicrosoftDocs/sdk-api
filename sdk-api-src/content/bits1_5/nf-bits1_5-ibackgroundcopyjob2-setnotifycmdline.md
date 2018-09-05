@@ -143,7 +143,7 @@ The <i>pProgram</i> or <i>pParameters</i> string is too long.
 BITS calls the 
 <a href="https://msdn.microsoft.com/6b3f4dd9-500b-420e-804a-401a9e188be8">CreateProcessAsUser</a> function to launch the program.
 
-Your program should return an exit code of zero. If your program does not return an exit code of zero, BITS checks the state of the job. If the program did not cancel or complete the job, BITS calls the program again after the <a href="https://msdn.microsoft.com/en-us/library/Aa363042(v=VS.85).aspx">minimum retry delay</a> specified for the job expires.
+Your program should return an exit code of zero. If your program does not return an exit code of zero, BITS checks the state of the job. If the program did not cancel or complete the job, BITS calls the program again after the <a href="https://msdn.microsoft.com/52d2b7a1-6f68-424e-9c0b-a9f8df4a5ad6">minimum retry delay</a> specified for the job expires.
 
 <b>BITS 1.5 and earlier:  </b>BITS calls the program only once. 
 
@@ -153,26 +153,26 @@ If your program requires job related information, you must pass this information
 
 You should include the full path to the program. If any of the arguments in <i>pParameters</i> include a path that uses long file names, such as the module name, use quotes around the path.
 
-If the program you want to execute uses the reply or download file, the program must call the <a href="https://msdn.microsoft.com/en-us/library/Aa363021(v=VS.85).aspx">IBackgroundCopyJob::Complete</a> method to make the files available to the client.
+If the program you want to execute uses the reply or download file, the program must call the <a href="https://msdn.microsoft.com/d57b0b2e-1181-45ed-b7fc-d002d14527cf">IBackgroundCopyJob::Complete</a> method to make the files available to the client.
 
 Call the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363044(v=VS.85).aspx">IBackgroundCopyJob::SetNotifyFlags</a> method to specify when to execute the program. You can request command line execution only for job error or transferred events, not job modification events. Note that BITS still executes the command line even if you call the 
+<a href="https://msdn.microsoft.com/24aa6445-d7bd-4825-9121-402e63ae6f69">IBackgroundCopyJob::SetNotifyFlags</a> method to specify when to execute the program. You can request command line execution only for job error or transferred events, not job modification events. Note that BITS still executes the command line even if you call the 
 <b>SetNotifyCmdLine</b> method after the event occurs.
 
 If the BITS job is in a service account context (ie, networkservice/localsystem/localservice), no form of command-line callback will execute. 
 
 If you call both the <b>SetNotifyCmdLine</b> method 
-and the <a href="https://msdn.microsoft.com/en-us/library/Aa363045(v=VS.85).aspx">IBackgroundCopyJob::SetNotifyInterface</a> method, BITS will execute the command line only if the notification interface becomes invalid or the notification method that BITS calls returns a failure  code. For example, if the notification method that BITS calls returns a E_FAIL, BITS will execute the command line. However, if the notification method returns <b>S_OK</b>, BITS will not execute the command line. If the  notification method and command line execution request both fail, BITS will send the notification again after the minimum retry period expires. 
+and the <a href="https://msdn.microsoft.com/34d51546-ec27-471f-9da5-3bec7ed4e1ea">IBackgroundCopyJob::SetNotifyInterface</a> method, BITS will execute the command line only if the notification interface becomes invalid or the notification method that BITS calls returns a failure  code. For example, if the notification method that BITS calls returns a E_FAIL, BITS will execute the command line. However, if the notification method returns <b>S_OK</b>, BITS will not execute the command line. If the  notification method and command line execution request both fail, BITS will send the notification again after the minimum retry period expires. 
 
 Note that calling the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363049(v=VS.85).aspx">IBackgroundCopyJob::TakeOwnership</a> method removes command line notification from the job.
+<a href="https://msdn.microsoft.com/12ac2dd8-516b-4b5d-a2bf-0abb55d18ee0">IBackgroundCopyJob::TakeOwnership</a> method removes command line notification from the job.
 
 
 #### Examples
 
 For an example that calls the 
 <b>SetNotifyCmdLine</b> method, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363148(v=VS.85).aspx">Registering to Execute a Program</a>.
+<a href="https://msdn.microsoft.com/f1996d08-0e35-403b-9cdb-dae9e1c42e05">Registering to Execute a Program</a>.
 
 <div class="code"></div>
 
@@ -183,15 +183,15 @@ For an example that calls the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362982(v=VS.85).aspx">IBackgroundCopyJob2::GetNotifyCmdLine</a>
+<a href="https://msdn.microsoft.com/62978315-e893-4617-8e6d-63bab8204913">IBackgroundCopyJob2::GetNotifyCmdLine</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363044(v=VS.85).aspx">IBackgroundCopyJob::SetNotifyFlags</a>
+<a href="https://msdn.microsoft.com/24aa6445-d7bd-4825-9121-402e63ae6f69">IBackgroundCopyJob::SetNotifyFlags</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363045(v=VS.85).aspx">IBackgroundCopyJob::SetNotifyInterface</a>
+<a href="https://msdn.microsoft.com/34d51546-ec27-471f-9da5-3bec7ed4e1ea">IBackgroundCopyJob::SetNotifyInterface</a>
  
 
  

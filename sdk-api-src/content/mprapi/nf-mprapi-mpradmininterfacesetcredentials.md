@@ -4,10 +4,10 @@ title: MprAdminInterfaceSetCredentials function
 author: windows-sdk-content
 description: Use MprAdminInterfaceSetCredentials function to set the domain, user name, and password that will be used for dialing out on the specified demand-dial interface.
 old-location: rras\mpradmininterfacesetcredentials.htm
-old-project: rras
+old-project: RRAS
 ms.assetid: a5372bfb-185c-4562-afa3-35399c8e2a46
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MprAdminInterfaceSetCredentials, MprAdminInterfaceSetCredentials function [RAS], _mpr_mpradmininterfacesetcredentials, mprapi/MprAdminInterfaceSetCredentials, rras.mpradmininterfacesetcredentials
 ms.prod: windows
 ms.technology: windows-sdk
@@ -157,7 +157,7 @@ Insufficient memory to create a new data structure to contain the credentials.
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -192,7 +192,7 @@ Note that the order of the parameters in
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="_win32_formatmessage">FormatMessage</a>
 
 
 

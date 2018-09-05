@@ -7,7 +7,7 @@ old-location: sr\srremoverestorepoint.htm
 old-project: sr
 ms.assetid: e0f27947-7d88-4d15-8a92-85f88c3b60d4
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: SRRemoveRestorePoint, SRRemoveRestorePoint function [System Restore], _sr_srremoverestorepoint, sr.srremoverestorepoint, srrestoreptapi/SRRemoveRestorePoint
 ms.prod: windows
 ms.technology: windows-sdk

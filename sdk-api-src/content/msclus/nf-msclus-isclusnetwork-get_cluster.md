@@ -7,7 +7,7 @@ old-location: mscs\clusnetwork_cluster.htm
 old-project: mscs
 ms.assetid: 2ed83842-2522-4c1f-9d97-fea77c7960a3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusNetwork object [Failover Cluster],Cluster property, ClusNetwork.Cluster, Cluster property [Failover Cluster], Cluster property [Failover Cluster],ClusNetwork object, ISClusNetwork.get_Cluster, ISClusNetwork::get_Cluster, _wolf_clusnetwork.cluster, get_Cluster, mscs.clusnetwork_cluster
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ req.product: GDI+ 1.1
 
 Returns a 
     <a href="https://msdn.microsoft.com/4a765dce-c823-4a79-8608-ff41feec8a39">Cluster</a> object providing access to the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> that owns the 
+    <a href="c_gly.htm">cluster</a> that owns the 
     <a href="https://msdn.microsoft.com/57d16e1f-e774-4ffb-b26b-7e72d6d589aa">network</a>.
 
 This property is read-only.

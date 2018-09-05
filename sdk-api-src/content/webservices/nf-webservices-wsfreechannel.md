@@ -7,7 +7,7 @@ old-location: wsw\wsfreechannel.htm
 old-project: wsw
 ms.assetid: 74e36d19-c6db-4bba-90e3-88a48b6a1fb5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WsFreeChannel, WsFreeChannel function [Web Services for Windows], webservices/WsFreeChannel, wsw.wsfreechannel
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: fs\addntmsmediatype.htm
 old-project: Rsm
 ms.assetid: fa8ad4af-eeb8-445e-ac6c-671badb651ec
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: AddNtmsMediaType, AddNtmsMediaType function [Files], _zaw_addntmsmediatype, base.addntmsmediatype, fs.addntmsmediatype, ntmsapi/AddNtmsMediaType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -207,7 +207,7 @@ The function was successful.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Media Services Functions</a>
+<a href="removable_storage_manager_functions.htm">Media Services Functions</a>
  
 
  

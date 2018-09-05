@@ -4,10 +4,10 @@ title: ISignerCertificates::Add
 author: windows-sdk-content
 description: Adds an ISignerCertificate object to the collection.
 old-location: security\isignercertificates_add_method.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: 985bda2c-caad-4910-9e9c-d673975953aa
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ISignerCertificates interface, ISignerCertificates interface [Security],Add method, ISignerCertificates.Add, ISignerCertificates::Add, certenroll/ISignerCertificates::Add, security.isignercertificates_add_method
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>Add</b> method adds an <a href="https://msdn.microsoft.com/en-us/library/Aa376820(v=VS.85).aspx">ISignerCertificate</a> object to the collection.
+The <b>Add</b> method adds an <a href="https://msdn.microsoft.com/146a1925-4de6-492c-8014-612c65bd7270">ISignerCertificate</a> object to the collection.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>Add</b> method adds an <a href="https://msdn.microsoft.com/en-us/library/
 
 ### -param pVal [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa376820(v=VS.85).aspx">ISignerCertificate</a> object to add to the collection.
+Pointer to an <a href="https://msdn.microsoft.com/146a1925-4de6-492c-8014-612c65bd7270">ISignerCertificate</a> object to add to the collection.
 
 
 ## -returns
@@ -70,7 +70,7 @@ Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa376820(v=VS.85
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 
@@ -80,11 +80,11 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376820(v=VS.85).aspx">ISignerCertificate</a>
+<a href="https://msdn.microsoft.com/146a1925-4de6-492c-8014-612c65bd7270">ISignerCertificate</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376821(v=VS.85).aspx">ISignerCertificates</a>
+<a href="https://msdn.microsoft.com/420d6550-514a-4fea-987b-6deecbc9b717">ISignerCertificates</a>
  
 
  

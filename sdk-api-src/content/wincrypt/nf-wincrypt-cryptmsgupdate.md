@@ -4,10 +4,10 @@ title: CryptMsgUpdate function
 author: windows-sdk-content
 description: Adds contents to a cryptographic message.
 old-location: security\cryptmsgupdate.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: d27d75f0-1646-4926-b375-59e52b00326c
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CryptMsgUpdate, CryptMsgUpdate function [Security], _crypto2_cryptmsgupdate, security.cryptmsgupdate, wincrypt/CryptMsgUpdate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -240,11 +240,11 @@ If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Low-level Message Functions</a>
+<a href="cryptography_functions.htm">Low-level Message Functions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
+<a href="cryptography_functions.htm">Simplified Message Functions</a>
  
 
  

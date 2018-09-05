@@ -4,10 +4,10 @@ title: IUPnPDescriptionDocument::RootDevice
 author: windows-sdk-content
 description: The RootDevice method returns the root device of the currently loaded document's device tree.
 old-location: upnp\iupnpdescriptiondocument_rootdevice.htm
-old-project: upnp
+old-project: UPnP
 ms.assetid: 0caa4f1e-0c74-4654-be26-6178aefa3ee4
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: IUPnPDescriptionDocument interface [UPnP APIs],RootDevice method, IUPnPDescriptionDocument.RootDevice, IUPnPDescriptionDocument::RootDevice, RootDevice, RootDevice method [UPnP APIs], RootDevice method [UPnP APIs],IUPnPDescriptionDocument interface, _upnp_iupnpdescriptiondocument_rootdevice, upnp.iupnpdescriptiondocument_rootdevice, upnp/IUPnPDescriptionDocument::RootDevice
 ms.prod: windows
 ms.technology: windows-sdk

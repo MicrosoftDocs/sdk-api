@@ -4,10 +4,10 @@ title: "_BCRYPT_KEY_DATA_BLOB_HEADER"
 author: windows-sdk-content
 description: Used to contain information about a key data BLOB.
 old-location: security\bcrypt_key_data_blob_header.htm
-old-project: seccng
+old-project: SecCNG
 ms.assetid: 054bba02-c73a-496d-b619-749c3f4e8ad9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PBCRYPT_KEY_DATA_BLOB_HEADER, BCRYPT_KEY_DATA_BLOB_HEADER, BCRYPT_KEY_DATA_BLOB_HEADER structure [Security], BCRYPT_KEY_DATA_BLOB_MAGIC, BCRYPT_KEY_DATA_BLOB_VERSION1, PBCRYPT_KEY_DATA_BLOB_HEADER, PBCRYPT_KEY_DATA_BLOB_HEADER structure pointer [Security], _BCRYPT_KEY_DATA_BLOB_HEADER, bcrypt/BCRYPT_KEY_DATA_BLOB_HEADER, bcrypt/PBCRYPT_KEY_DATA_BLOB_HEADER, security.bcrypt_key_data_blob_header"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -107,7 +107,7 @@ The size, in bytes, of the key data.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375434(v=VS.85).aspx">BCryptExportKey</a>
+<a href="https://msdn.microsoft.com/a5d73143-c1d6-43b3-a724-7e27c68a5ade">BCryptExportKey</a>
 
 
 

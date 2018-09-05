@@ -7,7 +7,7 @@ old-location: wmi\iwbemconfigurerefresher_addenum.htm
 old-project: WmiSdk
 ms.assetid: 5b013267-78bc-4372-b55a-58e330acf927
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: AddEnum, AddEnum method [Windows Management Instrumentation], AddEnum method [Windows Management Instrumentation],IWbemConfigureRefresher interface, IWbemConfigureRefresher interface [Windows Management Instrumentation],AddEnum method, IWbemConfigureRefresher.AddEnum, IWbemConfigureRefresher::AddEnum, _hmm_iwbemconfigurerefresher_addenum, wbemcli/IWbemConfigureRefresher::AddEnum, wmi.iwbemconfigurerefresher_addenum
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ The
 ### -param pNamespace [in]
 
 An 
-<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> pointer back into Windows Management, which can service any request made by the provider. If the method must call back into Windows Management during its execution, the provider should call <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> with the <i>pNamespace</i> pointer.
+<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> pointer back into Windows Management, which can service any request made by the provider. If the method must call back into Windows Management during its execution, the provider should call <a href="_com_iunknown_addref">AddRef</a> with the <i>pNamespace</i> pointer.
 
 
 ### -param wszClassName [in]
@@ -86,7 +86,7 @@ Bitmask of flags that modify the behavior of this method. If this parameter is s
 ### -param ppEnum [out]
 
 Pointer that holds the reference to a 
-<a href="https://msdn.microsoft.com/71ce1c89-446e-4137-9857-9d3c5921e0b7">IWbemHiPerfEnum</a> object, which will contain the enumeration. The client must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on this pointer when it is no longer required.
+<a href="https://msdn.microsoft.com/71ce1c89-446e-4137-9857-9d3c5921e0b7">IWbemHiPerfEnum</a> object, which will contain the enumeration. The client must call <a href="_com_iunknown_release">Release</a> on this pointer when it is no longer required.
 
 
 ### -param plId [out]
@@ -117,7 +117,7 @@ This method returns an <b>HRESULT</b> indicating the status of the method call. 
 
 The supplied class must specify a valid class, which is provided by the High-Performance Provider. All instances of the returned enumerator can be queried after calls. On each call to refresh, the number of instances in the enumerator can vary. Only instances of the specified class name are returned; subclasses of the specified class will not be enumerated because detailed enumeration is not supported. The returned enumerator must not be touched by the client while a 
 <a href="https://msdn.microsoft.com/6de85040-c938-41dc-8240-0e21e89c7716">Refresh</a> operation is in process. The returned identifier can be used by the 
-<a href="https://msdn.microsoft.com/f6e68b95-e9d1-473e-add4-823b6db51709">Remove</a> function to remove the object. Note that it is not necessary for the user to explicitly remove added enumerators. However, the client must call <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">Release</a> on the returned enumerator when it is no longer required.
+<a href="https://msdn.microsoft.com/f6e68b95-e9d1-473e-add4-823b6db51709">Remove</a> function to remove the object. Note that it is not necessary for the user to explicitly remove added enumerators. However, the client must call <a href="_com_iunknown_release">Release</a> on the returned enumerator when it is no longer required.
 
 
 

@@ -7,7 +7,7 @@ old-location: netmgmt\user_modals_info_1002_str.htm
 old-project: netmgmt
 ms.assetid: d4899deb-6250-4cdc-9820-56d24e3acfc1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPUSER_MODALS_INFO_1002, *PUSER_MODALS_INFO_1002, LPUSER_MODALS_INFO_1002, LPUSER_MODALS_INFO_1002 structure pointer [Network Management], PUSER_MODALS_INFO_1002, PUSER_MODALS_INFO_1002 structure pointer [Network Management], USER_MODALS_INFO_1002, USER_MODALS_INFO_1002 structure [Network Management], _USER_MODALS_INFO_1002, _win32_user_modals_info_1002_str, lmaccess/LPUSER_MODALS_INFO_1002, lmaccess/PUSER_MODALS_INFO_1002, lmaccess/USER_MODALS_INFO_1002, netmgmt.user_modals_info_1002_str"
 ms.prod: windows
 ms.technology: windows-sdk

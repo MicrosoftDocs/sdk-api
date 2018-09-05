@@ -4,10 +4,10 @@ title: IFillLockBytes
 author: windows-sdk-content
 description: The IFillLockBytes interface enables downloading code to write data asynchronously to a structured storage byte array.
 old-location: stg\ifilllockbytes.htm
-old-project: stg
+old-project: Stg
 ms.assetid: 033b3db4-3ff0-4cb4-916f-2490e92f5e6a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IFillLockBytes, IFillLockBytes interface [Structured Storage], IFillLockBytes interface [Structured Storage],described, _stg_ifilllockbytes, objidl/IFillLockBytes, stg.ifilllockbytes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -120,15 +120,15 @@ Notifies byte array wrapper of successful or unsuccessful termination of downloa
 
 
 
-<a href="https://msdn.microsoft.com/library/ms774966(v=VS.85).aspx">BINDINFO</a>
+<a href="ie.BINDINFO_Structure">BINDINFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms694318(v=VS.85).aspx">IConnectionPoint</a>
+<a href="_com_iconnectionpoint">IConnectionPoint</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683857(v=VS.85).aspx">IConnectionPointContainer</a>
+<a href="_com_iconnectionpointcontainer">IConnectionPointContainer</a>
 
 
 
@@ -136,7 +136,7 @@ Notifies byte array wrapper of successful or unsuccessful termination of downloa
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680740(v=VS.85).aspx">IProgressNotify</a>
+<a href="_com_iprogressnotify">IProgressNotify</a>
 
 
 

@@ -4,10 +4,10 @@ title: FNOPEN macro
 author: windows-sdk-content
 description: The FNOPEN macro provides the declaration for the application-defined callback function to open a file in an FDI context.
 old-location: winprog\fnopen.htm
-old-project: devnotes
+old-project: DevNotes
 ms.assetid: 45bd2d23-1f6d-42a6-8afb-86227da6118f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FNOPEN, FNOPEN macro [Windows API], fdi/FNOPEN, winprog.fnopen
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,9 +84,13 @@ The function accepts parameters similar to <a href="http://go.microsoft.com/fwli
 
 #### Examples
 
-
-```cpp
-FNOPEN(fnFileOpen)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNOPEN(fnFileOpen)
 {
     HANDLE hFile = NULL;
     DWORD dwDesiredAccess = 0; 
@@ -94,11 +98,11 @@ FNOPEN(fnFileOpen)
 
     UNREFERENCED_PARAMETER(pmode);
 
-    if ( oflag & _O_RDWR )
+    if ( oflag &amp; _O_RDWR )
     {
         dwDesiredAccess = GENERIC_READ | GENERIC_WRITE;
     }
-    else if ( oflag & _O_WRONLY )
+    else if ( oflag &amp; _O_WRONLY )
     {
         dwDesiredAccess = GENERIC_WRITE;
     }
@@ -107,7 +111,7 @@ FNOPEN(fnFileOpen)
         dwDesiredAccess = GENERIC_READ;
     }
 
-    if ( oflag & _O_CREAT )
+    if ( oflag &amp; _O_CREAT )
     {
         dwCreationDisposition = CREATE_ALWAYS;
     }
@@ -126,10 +130,10 @@ FNOPEN(fnFileOpen)
 
     return (INT_PTR)hFile;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

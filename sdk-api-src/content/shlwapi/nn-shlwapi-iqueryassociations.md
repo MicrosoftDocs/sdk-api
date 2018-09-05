@@ -7,7 +7,7 @@ old-location: shell\IQueryAssociations.htm
 old-project: shell
 ms.assetid: 8edb99d3-5860-4d78-a750-1df34cdfc313
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IQueryAssociations, IQueryAssociations interface [Windows Shell], IQueryAssociations interface [Windows Shell],described, _win32_IQueryAssociations, shell.IQueryAssociations, shlwapi/IQueryAssociations
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

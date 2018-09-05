@@ -4,10 +4,10 @@ title: StgIsStorageFile function
 author: windows-sdk-content
 description: The StgIsStorageFile function indicates whether a particular disk file contains a storage object.
 old-location: stg\stgisstoragefile.htm
-old-project: stg
+old-project: Stg
 ms.assetid: 6a0d2da5-4d5c-4da7-9ea6-3b52cd6673fc
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: StgIsStorageFile, StgIsStorageFile function [Structured Storage], _stg_stgisstoragefile, coml2api/StgIsStorageFile, stg.stgisstoragefile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,8 +71,8 @@ Pointer to the null-terminated Unicode string name of the disk file to be examin
 
 
 <b>StgIsStorageFile</b> function can also return any file system errors or system errors wrapped in an <b>HRESULT</b>. See 
-<a href="https://msdn.microsoft.com/en-us/library/ms688560(v=VS.85).aspx">Error Handling Strategies</a> and 
-<a href="https://msdn.microsoft.com/en-us/library/ms693442(v=VS.85).aspx">Handling Unknown Errors</a>
+<a href="_com_error_handling_strategies">Error Handling Strategies</a> and 
+<a href="_com_handling_unknown_errors">Handling Unknown Errors</a>
 
 
 
@@ -95,7 +95,7 @@ If a root compound file has been created in transacted mode but not yet committe
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380335(v=VS.85).aspx">StgIsStorageILockBytes</a>
+<a href="https://msdn.microsoft.com/ce0e29fd-1b21-4064-8e37-1a5d5df8bb61">StgIsStorageILockBytes</a>
  
 
  

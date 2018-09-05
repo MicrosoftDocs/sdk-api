@@ -4,10 +4,10 @@ title: IAzClientContext3::GetGroups
 author: windows-sdk-content
 description: Returns an array of the application groups associated with this client context.
 old-location: security\iazclientcontext3_getgroups.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: e34b55e1-df7f-4356-b84e-8f297afcda24
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AZ_CLIENT_CONTEXT_GET_GROUPS_STORE_LEVEL_ONLY, GetGroups, GetGroups method [Security], GetGroups method [Security],IAzClientContext3 interface, IAzClientContext3 interface [Security],GetGroups method, IAzClientContext3.GetGroups, IAzClientContext3::GetGroups, azroles/IAzClientContext3::GetGroups, security.iazclientcontext3_getgroups
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,7 +92,7 @@ This method checks only for application groups at the store level.
 
 A pointer to an array of the names of application groups associated with this client context.
 
-This is a variant that contains either a <a href="https://msdn.microsoft.com/en-us/library/ms221482(v=VS.85).aspx">SAFEARRAY</a> or the  JScript <a href="https://msdn.microsoft.com/library/k4h76zbx(v=VS.85).aspx">Array</a> object. Each element of the array holds a <b>VT_BSTR</b> that contains the name of an application group.
+This is a variant that contains either a <a href="9ec8025b-4763-4526-ab45-390c5d8b3b1e">SAFEARRAY</a> or the  JScript <a href="08e5f552-0797-4b48-8164-609582fc18c9">Array</a> object. Each element of the array holds a <b>VT_BSTR</b> that contains the name of an application group.
 
 
 ## -returns

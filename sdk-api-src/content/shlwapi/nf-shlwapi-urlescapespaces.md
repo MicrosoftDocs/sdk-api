@@ -7,7 +7,7 @@ old-location: shell\UrlEscapeSpaces.htm
 old-project: shell
 ms.assetid: d6d676f1-0ef3-4701-99b2-ca520b39ce6e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: UrlEscapeSpaces, UrlEscapeSpaces function [Windows Shell], _win32_UrlEscapeSpaces, shell.UrlEscapeSpaces, shlwapi/UrlEscapeSpaces
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -89,17 +89,21 @@ The number of characters in <i>pszEscaped</i>.
 
 				
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 UrlCanonicalize(pszUrl, 
                 pszEscaped, 
                 pcchEscaped, 
                 URL_ESCAPE_SPACES_ONLY | URL_DONT_ESCAPE_EXTRA_INFO )
-				
-```
-
-
+				</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

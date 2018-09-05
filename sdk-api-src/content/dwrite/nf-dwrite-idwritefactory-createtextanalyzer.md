@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFactory_CreateTextAnalyzer.htm
 old-project: DirectWrite
 ms.assetid: 1f786de4-9498-49ef-b884-7e5f69cefe4a
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: CreateTextAnalyzer, CreateTextAnalyzer method [Direct Write], CreateTextAnalyzer method [Direct Write],IDWriteFactory interface, IDWriteFactory interface [Direct Write],CreateTextAnalyzer method, IDWriteFactory.CreateTextAnalyzer, IDWriteFactory::CreateTextAnalyzer, directwrite.IDWriteFactory_CreateTextAnalyzer, dwrite/IDWriteFactory::CreateTextAnalyzer
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboard.htm
 old-project: UIAnimation
 ms.assetid: 6b30b660-dfa4-410f-a8de-58ea5c9a104d
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IUIAnimationStoryboard, IUIAnimationStoryboard interface [Windows Animation], IUIAnimationStoryboard interface [Windows Animation],described, uianimation.iuianimationstoryboard, uianimation/IUIAnimationStoryboard
 ms.prod: windows
 ms.technology: windows-sdk

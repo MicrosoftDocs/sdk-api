@@ -7,7 +7,7 @@ old-location: com\olecreate.htm
 old-project: com
 ms.assetid: 00b7edd2-8e2e-4e0a-91a6-d966f6c8d456
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: OleCreate, OleCreate function [COM], _ole_OleCreate, com.olecreate, ole/OleCreate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,42 @@ Creates an embedded object identified by a CLSID. You use it typically to implem
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
+
+TBD
+
+
+### -param arg3
+
+TBD
+
+
+### -param arg4
+
+TBD
+
+
+### -param arg5
+
+TBD
+
+
+### -param arg6
+
+TBD
+
+
+### -param arg7
+
+TBD
+
+
+### -param arg8
 
 TBD
 

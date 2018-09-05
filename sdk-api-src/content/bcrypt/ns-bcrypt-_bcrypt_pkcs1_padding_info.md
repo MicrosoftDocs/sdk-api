@@ -4,10 +4,10 @@ title: "_BCRYPT_PKCS1_PADDING_INFO"
 author: windows-sdk-content
 description: Used to provide options for the PKCS #1 padding scheme.
 old-location: security\bcrypt_pkcs1_padding_info.htm
-old-project: seccng
+old-project: SecCNG
 ms.assetid: 920fa461-5b7e-4429-972d-e7c83fb62c64
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BCRYPT_PKCS1_PADDING_INFO, BCRYPT_PKCS1_PADDING_INFO structure [Security], _BCRYPT_PKCS1_PADDING_INFO, bcrypt/BCRYPT_PKCS1_PADDING_INFO, security.bcrypt_pkcs1_padding_info
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,15 +73,15 @@ A pointer to a null-terminated Unicode string that identifies the <a href="https
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375421(v=VS.85).aspx">BCryptEncrypt</a>
+<a href="https://msdn.microsoft.com/69fe4530-4b7c-40db-a85c-f9dc458735e7">BCryptEncrypt</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375510(v=VS.85).aspx">BCryptSignHash</a>
+<a href="https://msdn.microsoft.com/f402ea9e-89ae-4ccc-9591-aa2328287c0e">BCryptSignHash</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375515(v=VS.85).aspx">BCryptVerifySignature</a>
+<a href="https://msdn.microsoft.com/95c32056-e444-441c-bbc1-c5ae82aba964">BCryptVerifySignature</a>
  
 
  

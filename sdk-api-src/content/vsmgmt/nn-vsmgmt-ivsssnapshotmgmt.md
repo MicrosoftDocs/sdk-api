@@ -4,10 +4,10 @@ title: IVssSnapshotMgmt
 author: windows-sdk-content
 description: Provides a method that returns an interface to further configure a shadow copy provider.
 old-location: base\ivsssnapshotmgmt.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 5e5694a1-7c17-4d8a-b094-09dcf28a636f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IVssSnapshotMgmt, IVssSnapshotMgmt interface [Files], IVssSnapshotMgmt interface [Files],described, base.ivsssnapshotmgmt, vsmgmt/IVssSnapshotMgmt
 ms.prod: windows
 ms.technology: windows-sdk
@@ -105,9 +105,13 @@ The <b>IVssSnapshotMgmt</b> interface can be invoked
 
 #### Examples
 
-
-```cpp
-#include "vss.h"
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include "vss.h"
 #include "vsmgmt.h"
 
 void main()
@@ -126,29 +130,29 @@ void main()
                           NULL,
                           CLSCTX_ALL,
                           IID_IVssSnapshotMgmt,
-                          (void**)&(pMgmt));
+                          (void**)&amp;(pMgmt));
     if (FAILED(hr)) 
     {
         // error handling code
     }
 
-    hr = pMgmt->GetProviderMgmtInterface(ProviderId, 
+    hr = pMgmt-&gt;GetProviderMgmtInterface(ProviderId, 
                                          IID_IVssDifferentialSoftwareSnapshotMgmt, 
-                                         (IUnknown**)&pDiffMgmt);
+                                         (IUnknown**)&amp;pDiffMgmt);
     if (FAILED(hr)) 
     {
-        pMgmt->Release();
+        pMgmt-&gt;Release();
     }
 
     // processing code
 
-    pDiffMgmt->Release();
-    pMgmt->Release();
+    pDiffMgmt-&gt;Release();
+    pMgmt-&gt;Release();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -157,7 +161,7 @@ void main()
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_com_iunknown">IUnknown</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: menurc\stringcbvprintf.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbvprintf.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: StringCbVPrintf, StringCbVPrintf function [Menus and Other Resources], StringCbVPrintfA, StringCbVPrintfW, _shell_StringCbVPrintf, _shell_stringcbvprintf_cpp, menurc.stringcbvprintf, strsafe/StringCbVPrintf, strsafe/StringCbVPrintfA, strsafe/StringCbVPrintfW, winui._shell_stringcbvprintf
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Writes formatted data to the specified string using a pointer to a list of argum
 <li><a href="http://go.microsoft.com/fwlink/p/?linkid=192500">vsprintf, vswprintf, _vstprintf</a></li>
 <li><a href="http://go.microsoft.com/fwlink/p/?linkid=192508">vsnprintf, _vsnwprintf, _vsntprintf</a></li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/ms647551(v=VS.85).aspx">wvsprintf</a>
+<a href="https://msdn.microsoft.com/42edd47f-4adf-42db-a1e0-c2192f5a0f65">wvsprintf</a>
 </li>
 <li>
 <a href="https://msdn.microsoft.com/a2aaaa05-d61e-41e3-8e49-7c0da1a661f0">wvnsprintf</a>
@@ -165,7 +165,7 @@ For more information on va_lists, see the conventions defined in Stdarg.h.
 
 Behavior is undefined if the strings pointed to by <i>pszDest</i>, <i>pszFormat</i>, or any argument strings overlap.
 
-Neither <i>pszFormat</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="https://msdn.microsoft.com/en-us/library/ms647516(v=VS.85).aspx">StringCbVPrintfEx</a> if you require the handling of null string pointer values.
+Neither <i>pszFormat</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="https://msdn.microsoft.com/36f77c17-6244-4357-9361-a04118fcd820">StringCbVPrintfEx</a> if you require the handling of null string pointer values.
 
 <b>StringCbVPrintf</b> can be used in its generic form, or in its more specific forms. The data type of the string determines the form of this function that you should use, as shown in the following table.
 
@@ -205,15 +205,15 @@ Neither <i>pszFormat</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647510(v=VS.85).aspx">StringCbPrintf</a>
+<a href="https://msdn.microsoft.com/224c8840-06c6-4144-8f23-8705ac8ef887">StringCbPrintf</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647516(v=VS.85).aspx">StringCbVPrintfEx</a>
+<a href="https://msdn.microsoft.com/36f77c17-6244-4357-9361-a04118fcd820">StringCbVPrintfEx</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647546(v=VS.85).aspx">StringCchVPrintf</a>
+<a href="https://msdn.microsoft.com/82cc5a7c-e4c5-4a88-9bb5-d3f02dc3d7f5">StringCchVPrintf</a>
  
 
  

@@ -4,10 +4,10 @@ title: TokenBindingDeleteAllBindings function
 author: windows-sdk-content
 description: Deletes all token binding keys that are associated with the calling user or app container.
 old-location: security\tokenbindingdeleteallbindings.htm
-old-project: seccng
+old-project: SecCNG
 ms.assetid: 0446F62F-96B4-4F4B-9789-0CD12173E601
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: TokenBindingDeleteAllBindings, TokenBindingDeleteAllBindings function [Security], security.tokenbindingdeleteallbindings, tokenbinding/TokenBindingDeleteAllBindings
 ms.prod: windows
 ms.technology: windows-sdk

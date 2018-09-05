@@ -90,21 +90,25 @@ If no features are active, the method might return <b>NULL</b> in the <i>pVal</i
 
 #### Examples
 
-
-```cpp
-
-CComPtr<IMSVidFeatures> pFeatures;
-hr = m_pVideoControl->get_FeaturesActive(&pFeatures);
-if (SUCCEEDED(hr) && pFeatures)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+CComPtr&lt;IMSVidFeatures&gt; pFeatures;
+hr = m_pVideoControl-&gt;get_FeaturesActive(&amp;pFeatures);
+if (SUCCEEDED(hr) &amp;&amp; pFeatures)
 {
     long c;
-    pFs->get_Count(&c);
+    pFs-&gt;get_Count(&amp;c);
     /* Enumerate the features */
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

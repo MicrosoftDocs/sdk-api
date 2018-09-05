@@ -7,7 +7,7 @@ old-location: winsync\isyncsessionstate_setforgottenknowledgerecoveryrange.htm
 old-project: winsync
 ms.assetid: 2de6bfb3-bde9-49ee-97eb-acc1671efd0d
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ISyncSessionState interface [Windows Sync],SetForgottenKnowledgeRecoveryRange method, ISyncSessionState.SetForgottenKnowledgeRecoveryRange, ISyncSessionState::SetForgottenKnowledgeRecoveryRange, SetForgottenKnowledgeRecoveryRange, SetForgottenKnowledgeRecoveryRange method [Windows Sync], SetForgottenKnowledgeRecoveryRange method [Windows Sync],ISyncSessionState interface, winsync.isyncsessionstate_setforgottenknowledgerecoveryrange, winsync/ISyncSessionState::SetForgottenKnowledgeRecoveryRange
 ms.prod: windows
 ms.technology: windows-sdk

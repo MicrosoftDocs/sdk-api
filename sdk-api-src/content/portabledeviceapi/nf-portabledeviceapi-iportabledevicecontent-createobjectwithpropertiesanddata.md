@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevicecontent_createobjectwithpropertiesanddata.ht
 old-project: wpd_sdk
 ms.assetid: ea3445cc-69af-40a6-a5a4-695e0f2e1fb6
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CreateObjectWithPropertiesAndData, CreateObjectWithPropertiesAndData method [Windows Portable Devices SDK], CreateObjectWithPropertiesAndData method [Windows Portable Devices SDK],IPortableDeviceContent interface, IPortableDeviceContent interface [Windows Portable Devices SDK],CreateObjectWithPropertiesAndData method, IPortableDeviceContent.CreateObjectWithPropertiesAndData, IPortableDeviceContent::CreateObjectWithPropertiesAndData, IPortableDeviceContentCreateObjectWithPropertiesAndData, portabledeviceapi/IPortableDeviceContent::CreateObjectWithPropertiesAndData, wpdsdk.iportabledevicecontent_createobjectwithpropertiesanddata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -153,7 +153,7 @@ For an example of how to use this method, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd388529(v=VS.85).aspx">IPortableDeviceContent Interface</a>
+<a href="wpdsdk.iportabledevicecontent">IPortableDeviceContent Interface</a>
 
 
 

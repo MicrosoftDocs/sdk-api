@@ -7,7 +7,7 @@ old-location: psapi\enumpagefiles.htm
 old-project: psapi
 ms.assetid: 9289fe3c-a7d9-4acb-aeb6-a50de65db0a2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EnumPageFiles, EnumPageFiles function [PSAPI], EnumPageFilesA, EnumPageFilesW, K32EnumPageFiles, K32EnumPageFilesA, K32EnumPageFilesW, _win32_enumpagefiles, base.enumpagefiles, psapi.enumpagefiles, psapi/EnumPageFiles, psapi/EnumPageFilesA, psapi/EnumPageFilesW, psapi/K32EnumPageFiles, psapi/K32EnumPageFilesA, psapi/K32EnumPageFilesW
 ms.prod: windows
 ms.technology: windows-sdk

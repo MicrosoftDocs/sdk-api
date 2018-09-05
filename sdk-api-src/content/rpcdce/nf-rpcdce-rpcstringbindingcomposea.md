@@ -4,10 +4,10 @@ title: RpcStringBindingComposeA function
 author: windows-sdk-content
 description: The RpcStringBindingCompose function creates a string binding handle.
 old-location: rpc\rpcstringbindingcompose.htm
-old-project: rpc
+old-project: Rpc
 ms.assetid: 3f972fc9-67ca-4aa7-a0a0-204a8d90e928
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcStringBindingCompose, RpcStringBindingCompose function [RPC], RpcStringBindingComposeA, RpcStringBindingComposeW, _rpc_rpcstringbindingcompose, rpc.rpcstringbindingcompose, rpcdce/RpcStringBindingCompose, rpcdce/RpcStringBindingComposeA, rpcdce/RpcStringBindingComposeW
 ms.prod: windows
 ms.technology: windows-sdk

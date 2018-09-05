@@ -7,7 +7,7 @@ old-location: wer\werregisterfile.htm
 old-project: wer
 ms.assetid: 4b4bb1bb-6782-447a-901f-75702256d907
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WER_FILE_ANONYMOUS_DATA, WER_FILE_DELETE_WHEN_DONE, WerRegFileTypeMax, WerRegFileTypeOther, WerRegFileTypeUserDocument, WerRegisterFile, WerRegisterFile function [Windows Error Reporting], base.werregisterfile, wer.werregisterfile, werapi/WerRegisterFile
 ms.prod: windows
 ms.technology: windows-sdk

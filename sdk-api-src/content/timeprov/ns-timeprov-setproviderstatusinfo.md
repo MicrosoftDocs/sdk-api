@@ -4,10 +4,10 @@ title: SetProviderStatusInfo
 author: windows-sdk-content
 description: A structure that is used by the SetProviderStatusFunc function.
 old-location: base\setproviderstatusinfo_str.htm
-old-project: sysinfo
+old-project: SysInfo
 ms.assetid: 8e0a79ba-f76a-435a-9b0b-c3a2d9c390da
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: SetProviderStatusInfo, SetProviderStatusInfo structure, TPC_Error, TPS_Running, _win32_setproviderstatusinfo_str, base.setproviderstatusinfo_str, timeprov/SetProviderStatusInfo
 ms.prod: windows
 ms.technology: windows-sdk

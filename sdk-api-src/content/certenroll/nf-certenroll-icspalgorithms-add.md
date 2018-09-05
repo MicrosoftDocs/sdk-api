@@ -4,10 +4,10 @@ title: ICspAlgorithms::Add
 author: windows-sdk-content
 description: Adds an ICspAlgorithm object to the collection.
 old-location: security\icspalgorithms_add_method.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: 53cd408e-752c-4256-839c-e09055487c39
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Add, Add method [Security], Add method [Security],ICspAlgorithms interface, ICspAlgorithms interface [Security],Add method, ICspAlgorithms.Add, ICspAlgorithms::Add, certenroll/ICspAlgorithms::Add, security.icspalgorithms_add_method
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>Add</b> method adds an <a href="https://msdn.microsoft.com/en-us/library/Aa378525(v=VS.85).aspx">ICspAlgorithm</a> object to the collection. This method is web enabled.
+The <b>Add</b> method adds an <a href="https://msdn.microsoft.com/e3b87c45-44c2-4fc6-ac75-0bf125f3c4b3">ICspAlgorithm</a> object to the collection. This method is web enabled.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>Add</b> method adds an <a href="https://msdn.microsoft.com/en-us/library/
 
 ### -param pVal [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa378525(v=VS.85).aspx">ICspAlgorithm</a> interface to add.
+Pointer to an <a href="https://msdn.microsoft.com/e3b87c45-44c2-4fc6-ac75-0bf125f3c4b3">ICspAlgorithm</a> interface to add.
 
 
 ## -returns
@@ -70,7 +70,7 @@ Pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa378525(v=VS.85
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 
@@ -80,11 +80,11 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378525(v=VS.85).aspx">ICspAlgorithm</a>
+<a href="https://msdn.microsoft.com/e3b87c45-44c2-4fc6-ac75-0bf125f3c4b3">ICspAlgorithm</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375948(v=VS.85).aspx">ICspAlgorithms</a>
+<a href="https://msdn.microsoft.com/bbf8cff4-b1b2-480e-8c30-eb34166db143">ICspAlgorithms</a>
  
 
  

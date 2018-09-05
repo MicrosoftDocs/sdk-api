@@ -4,10 +4,10 @@ title: SLGatherMigrationBlob function
 author: windows-sdk-content
 description: Gathers licensing information for the provided file handle. This licensing information can later be applied or deposited using the SLDepositMigrationBlob function.
 old-location: security\slgathermigrationblob.htm
-old-project: secslapi
+old-project: SecSLApi
 ms.assetid: 490a5dbd-8c4b-4b25-ae21-f5f58b97a58f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SLGatherMigrationBlob, SLGatherMigrationBlob function [Security], security.slgathermigrationblob, slpublic/SLGatherMigrationBlob
 ms.prod: windows
 ms.technology: windows-sdk

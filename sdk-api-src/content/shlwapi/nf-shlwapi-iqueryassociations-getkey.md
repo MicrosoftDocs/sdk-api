@@ -7,7 +7,7 @@ old-location: shell\IQueryAssociations_GetKey.htm
 old-project: shell
 ms.assetid: 7f380a9e-fda0-46be-88a1-fd73b0a4b7b7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetKey, GetKey method [Windows Shell], GetKey method [Windows Shell],IQueryAssociations interface, IQueryAssociations interface [Windows Shell],GetKey method, IQueryAssociations.GetKey, IQueryAssociations::GetKey, _win32_IQueryAssociations_GetKey, shell.IQueryAssociations_GetKey, shlwapi/IQueryAssociations::GetKey
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

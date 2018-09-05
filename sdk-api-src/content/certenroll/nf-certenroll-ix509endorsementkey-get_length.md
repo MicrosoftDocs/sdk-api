@@ -4,10 +4,10 @@ title: IX509EndorsementKey::get_Length
 author: windows-sdk-content
 description: The bit length of the endorsement key. You can only access this property after the Open method has been called.
 old-location: security\ix509endorsementkey_length.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: 31a94a37-ab56-4cb5-b4e0-ab3c74b748a0
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509EndorsementKey interface [Security],Length property, IX509EndorsementKey.Length, IX509EndorsementKey.get_Length, IX509EndorsementKey::Length, IX509EndorsementKey::get_Length, Length property [Security], Length property [Security],IX509EndorsementKey interface, certenroll/IX509EndorsementKey::Length, certenroll/IX509EndorsementKey::get_Length, get_Length, security.ix509endorsementkey_length
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-The bit length of the endorsement key. You can only access this property after the <a href="https://msdn.microsoft.com/en-us/library/Dn379364(v=VS.85).aspx">Open</a> method has been called.
+The bit length of the endorsement key. You can only access this property after the <a href="https://msdn.microsoft.com/06855fc0-0d87-4fe7-9525-55eb60bffcd1">Open</a> method has been called.
 
 This property is read-only.
 
@@ -65,7 +65,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn379356(v=VS.85).aspx">IX509EndorsementKey</a>
+<a href="https://msdn.microsoft.com/24f063a7-02e3-47cf-89ca-ebc63bf3e2dc">IX509EndorsementKey</a>
  
 
  

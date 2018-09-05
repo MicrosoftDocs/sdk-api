@@ -7,7 +7,7 @@ old-location: vhd\modifyvhdset.htm
 old-project: VStor
 ms.assetid: C0BDAF45-8F87-4EF5-81F3-F15E7E575EA1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ModifyVhdSet, ModifyVhdSet function [VHD], vdssys/ModifyVhdSet, vhd.modifyvhdset, virtdisk/ModifyVhdSet
 ms.prod: windows
 ms.technology: windows-sdk

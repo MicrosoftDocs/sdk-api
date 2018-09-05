@@ -89,16 +89,20 @@ The y-coordinate, in MM_TEXT client coordinates, of the upper left corner of the
 
 The <b>DrawDibUpdate</b> macro is defined as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 #define DrawDibUpdate( hdd, hdc, x, y) \ 
     DrawDibDraw( hdd, hdc, x, y, 0, 0, NULL, NULL, 0, 0, \ 
     0, 0, DDF_UPDATE) 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 This macro can be used to refresh an image or a portion of an image displayed by your application.
 
 

@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstorage2_getstorage.htm
 old-project: WMDM
 ms.assetid: be7b3da1-583b-4bad-8e35-19f309242744
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetStorage, GetStorage method [windows Media Device Manager], GetStorage method [windows Media Device Manager],IWMDMStorage2 interface, IWMDMStorage2 interface [windows Media Device Manager],GetStorage method, IWMDMStorage2.GetStorage, IWMDMStorage2::GetStorage, IWMDMStorage2GetStorage, mswmdm/IWMDMStorage2::GetStorage, wmdm.iwmdmstorage2_getstorage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -101,17 +101,21 @@ For an extensive list of possible error codes, see <a href="https://msdn.microso
 
 The following C++ function searches for a storage recursively. It uses <b>GetStorage</b> to search the immediate children; if the requested storage is not found, it then loops through all the children and recursively searches folders.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT myFindStorageRecursively(LPCWSTR storageName, IWMDMStorage* pCurrentStorage, IWMDMStorage** ppFoundStorage)
 {
     HRESULT hr = S_OK;
 
     // Start with a quick check of all storages inside the storage.
     // If we found it, stop now and return.
-    CComQIPtr<IWMDMStorage2> pStorage2(pCurrentStorage);
-    hr = pStorage2->GetStorage(storageName, ppFoundStorage);
+    CComQIPtr&lt;IWMDMStorage2&gt; pStorage2(pCurrentStorage);
+    hr = pStorage2-&gt;GetStorage(storageName, ppFoundStorage);
     if (*ppFoundStorage != NULL)
         return hr;
 
@@ -120,19 +124,19 @@ HRESULT myFindStorageRecursively(LPCWSTR storageName, IWMDMStorage* pCurrentStor
     //
 
     // First get enumerator.
-    CComPtr<IWMDMEnumStorage> pEnumStorage;
-    hr = pCurrentStorage->EnumStorage(&pEnumStorage);
-    if (hr != S_OK && pEnumStorage != NULL)
+    CComPtr&lt;IWMDMEnumStorage&gt; pEnumStorage;
+    hr = pCurrentStorage-&gt;EnumStorage(&amp;pEnumStorage);
+    if (hr != S_OK &amp;&amp; pEnumStorage != NULL)
         return hr;
 
     // Now enumerate all folders until found the right item, or out of folders.
-    CComPtr<IWMDMStorage> pThisStorage;
+    CComPtr&lt;IWMDMStorage&gt; pThisStorage;
     DWORD numRetrieved = 0;
     DWORD attr = 0;
-    while(pEnumStorage->Next(1, &pThisStorage, &numRetrieved) == S_OK)
+    while(pEnumStorage-&gt;Next(1, &amp;pThisStorage, &amp;numRetrieved) == S_OK)
     {
-        pThisStorage->GetAttributes(&attr, NULL);
-        if (attr & WMDM_FILE_ATTR_FOLDER)
+        pThisStorage-&gt;GetAttributes(&amp;attr, NULL);
+        if (attr &amp; WMDM_FILE_ATTR_FOLDER)
         {
             hr = myFindStorageRecursively(storageName, pThisStorage, ppFoundStorage);
             if (*ppFoundStorage != NULL)
@@ -143,10 +147,10 @@ HRESULT myFindStorageRecursively(LPCWSTR storageName, IWMDMStorage* pCurrentStor
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

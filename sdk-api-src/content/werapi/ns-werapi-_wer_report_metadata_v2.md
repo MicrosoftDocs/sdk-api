@@ -7,7 +7,7 @@ old-location: wer\wer_report_metadata_v2.htm
 old-project: wer
 ms.assetid: 037170B1-B2DF-402F-A9E6-48C7693C9A93
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PWER_REPORT_METADATA_V2, PWER_REPORT_METADATA_V2, PWER_REPORT_METADATA_V2 structure pointer [Windows Error Reporting], WER_REPORT_METADATA_V2, WER_REPORT_METADATA_V2 structure [Windows Error Reporting], _WER_REPORT_METADATA_V2, wer.wer_report_metadata_v2, werapi/PWER_REPORT_METADATA_V2, werapi/WER_REPORT_METADATA_V2"
 ms.prod: windows
 ms.technology: windows-sdk

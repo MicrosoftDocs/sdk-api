@@ -7,7 +7,7 @@ old-location: mscs\clusrestypepossibleownernodes_item.htm
 old-project: mscs
 ms.assetid: 0d698f44-7480-43da-871b-51e7be2f9eff
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusResTypePossibleOwnerNodes class [Failover Cluster],Item property, ClusResTypePossibleOwnerNodes.Item, ISClusResTypePossibleOwnerNodes.get_Item, ISClusResTypePossibleOwnerNodes::get_Item, Item property [Failover Cluster], Item property [Failover Cluster],ClusResTypePossibleOwnerNodes class, _wolf_clusrestypepossibleownernodes.item, get_Item, mscs.clusrestypepossibleownernodes_item
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ req.product: GDI+ 1.1
     property is available for use in the operating systems specified in the Requirements section. It may be altered or 
     unavailable in subsequent versions.]
 
-Returns a <a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">possible owner</a>
+Returns a <a href="p_gly.htm">possible owner</a>
 <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a> from the collection.
 
 This property is read-only.

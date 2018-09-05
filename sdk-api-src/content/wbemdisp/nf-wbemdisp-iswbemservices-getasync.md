@@ -7,7 +7,7 @@ old-location: wmi\swbemservices_getasync.htm
 old-project: WmiSdk
 ms.assetid: 8da46851-52b8-4b5a-8c9d-1d492f57f4b6
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: GetAsync, GetAsync method [Windows Management Instrumentation], GetAsync method [Windows Management Instrumentation],ISWbemServices interface, GetAsync method [Windows Management Instrumentation],SWbemServices object, ISWbemServices interface [Windows Management Instrumentation],GetAsync method, ISWbemServices.GetAsync, ISWbemServices::GetAsync, SWbemServices object [Windows Management Instrumentation],GetAsync method, SWbemServices.GetAsync, _hmm_swbemservices.getasync, wbemFlagDontSendStatus, wbemFlagSendStatus, wbemFlagUseAmendedQualifiers, wmi.swbemservices_getasync
 ms.prod: windows
 ms.technology: windows-sdk

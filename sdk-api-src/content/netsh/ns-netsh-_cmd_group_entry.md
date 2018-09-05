@@ -110,9 +110,13 @@ If these macros are used, the following constants must be defined in the helper 
 
 The following are example uses of these macros:
 
-
-```cpp
-#define HLP_GROUP_ADD        1100
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define HLP_GROUP_ADD        1100
 #define HLP_GROUP_ADD_EX     1101
 #define HLP_GROUP_DELETE     1102
 #define HLP_GROUP_DELETE_EX  1103
@@ -133,10 +137,10 @@ static CMD_GROUP_ENTRY g_SampleGroupCmds[] =
     CREATE_CMD_GROUP_ENTRY(GROUP_SET,    g_SampleSetCmdTable),
     CREATE_CMD_GROUP_ENTRY(GROUP_SHOW,   g_SampleShowCmdTable),
 };
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

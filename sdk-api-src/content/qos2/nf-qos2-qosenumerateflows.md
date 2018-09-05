@@ -4,10 +4,10 @@ title: QOSEnumerateFlows function
 author: windows-sdk-content
 description: Enumerates all existing flows.
 old-location: qos\qosenumerateflows.htm
-old-project: qos
+old-project: QOS
 ms.assetid: 62027f7b-9ecc-4631-b755-2302e0bb49c0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: QOSEnumerateFlows, QOSEnumerateFlows function [QOS], qos.qosenumerateflows, qos2/QOSEnumerateFlows
 ms.prod: windows
 ms.technology: windows-sdk

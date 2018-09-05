@@ -114,24 +114,28 @@ Success.
 
 This method returns information on all the seeking capabilities of the stream. Examine <i>pCapabilities</i> by performing a separate bitwise-AND operation on each AM_SEEKING_SEEKING_CAPABILITIES value you are interested in.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 DWORD dwCaps = 0;
-pMediaSeeking->GetCapabilities(&dwCaps);
+pMediaSeeking-&gt;GetCapabilities(&amp;dwCaps);
 
-if (dwCaps & AM_SEEKING_CanGetCurrentPos) 
+if (dwCaps &amp; AM_SEEKING_CanGetCurrentPos) 
 {
     // The stream can seek to the current position.
 }
-if (dwCaps & AM_SEEKING_CanPlayBackwards) 
+if (dwCaps &amp; AM_SEEKING_CanPlayBackwards) 
 {
     // The stream can play backward.
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

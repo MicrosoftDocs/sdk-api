@@ -61,7 +61,7 @@ Contains acceleration information for an up-down control.
 
 ### -field nSec
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Amount of elapsed time, in seconds, before the position change increment specified by 
 					<b>nInc</b> is used. 
@@ -69,7 +69,7 @@ Amount of elapsed time, in seconds, before the position change increment specifi
 
 ### -field nInc
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Position change increment to use after the time specified by 
 					<b>nSec</b> elapses. 

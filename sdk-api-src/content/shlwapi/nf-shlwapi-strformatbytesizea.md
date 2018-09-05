@@ -7,7 +7,7 @@ old-location: shell\StrFormatByteSizeA.htm
 old-project: shell
 ms.assetid: 244f93cb-0976-4a31-958c-ae0ed81c1dcf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: StrFormatByteSizeA, StrFormatByteSizeA function [Windows Shell], _win32_StrFormatByteSizeA, shell.StrFormatByteSizeA, shlwapi/StrFormatByteSizeA
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

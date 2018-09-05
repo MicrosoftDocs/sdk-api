@@ -7,7 +7,7 @@ old-location: winrt\ivirtualsurfaceimagesourcenative_getupdaterects.htm
 old-project: WinRT
 ms.assetid: C23F3F82-FB3B-4893-8C14-FC7D3C61D295
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetUpdateRects, GetUpdateRects method [Windows Runtime], GetUpdateRects method [Windows Runtime],IVirtualSurfaceImageSourceNative interface, IVirtualSurfaceImageSourceNative interface [Windows Runtime],GetUpdateRects method, IVirtualSurfaceImageSourceNative.GetUpdateRects, IVirtualSurfaceImageSourceNative.xaml, IVirtualSurfaceImageSourceNative::GetUpdateRects, IVirtualSurfaceImageSourceNative::xaml, windows/IVirtualSurfaceImageSourceNative::GetUpdateRects, winrt.ivirtualsurfaceimagesourcenative_getupdaterects
 ms.prod: windows
 ms.technology: windows-sdk

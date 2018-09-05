@@ -7,7 +7,7 @@ old-location: mbn\imbnpin.htm
 old-project: mbn
 ms.assetid: 76764dbb-7de0-4b95-a210-60b8e6a4b24b
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMbnPin, IMbnPin interface [Microsoft Broadband Networks], IMbnPin interface [Microsoft Broadband Networks],described, mbn.imbnpin, mbnapi/IMbnPin
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IAzRoleAssignment::AddRoleDefinition
 author: windows-sdk-content
 description: Adds the specified IAzRoleDefinition object to this IAzRoleAssignment object.
 old-location: security\iazroleassignment_addroledefinition.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 9946d273-3726-40f4-b438-7f2377fc8013
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AddRoleDefinition, AddRoleDefinition method [Security], AddRoleDefinition method [Security],IAzRoleAssignment interface, IAzRoleAssignment interface [Security],AddRoleDefinition method, IAzRoleAssignment.AddRoleDefinition, IAzRoleAssignment::AddRoleDefinition, azroles/IAzRoleAssignment::AddRoleDefinition, security.iazroleassignment_addroledefinition
 ms.prod: windows
 ms.technology: windows-sdk

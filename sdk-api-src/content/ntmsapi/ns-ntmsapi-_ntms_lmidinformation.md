@@ -7,7 +7,7 @@ old-location: fs\ntms_lmidinformation.htm
 old-project: Rsm
 ms.assetid: f1a003af-101a-4f1f-b644-392e5542e8dd
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: NTMS_LMIDINFORMATION, NTMS_LMIDINFORMATION structure [Files], _NTMS_LMIDINFORMATION, _zaw_ntms_lmidinformation, base.ntms_lmidinformation, fs.ntms_lmidinformation, ntmsapi/NTMS_LMIDINFORMATION
 ms.prod: windows
 ms.technology: windows-sdk

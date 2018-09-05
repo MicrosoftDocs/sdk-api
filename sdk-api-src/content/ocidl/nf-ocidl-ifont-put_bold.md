@@ -7,7 +7,7 @@ old-location: com\ifont_put_bold.htm
 old-project: com
 ms.assetid: c25738fe-daf4-4eac-b4b0-354950e29f27
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IFont interface [COM],put_Bold method, IFont.put_Bold, IFont::put_Bold, _ctrl_ifont_put_bold, com.ifont_put_bold, ocidl/IFont::put_Bold, put_Bold, put_Bold method [COM], put_Bold method [COM],IFont interface
 ms.prod: windows
 ms.technology: windows-sdk

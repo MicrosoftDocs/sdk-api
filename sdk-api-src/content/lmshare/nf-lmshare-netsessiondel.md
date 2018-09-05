@@ -159,16 +159,20 @@ If you are programming for Active Directory, you may be able to call certain Act
 
 The following code sample demonstrates how to terminate a session between a server and a workstation using a call to the <b>NetSessionDel</b> function.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 #pragma comment(lib, "Netapi32.lib")
 
-#include <stdio.h>
-#include <windows.h> 
-#include <lm.h>
+#include &lt;stdio.h&gt;
+#include &lt;windows.h&gt; 
+#include &lt;lm.h&gt;
 
 int wmain(int argc, wchar_t *argv[])
 {
@@ -180,16 +184,16 @@ int wmain(int argc, wchar_t *argv[])
    //
    // Check command line arguments.
    //
-   if (argc > 4)
+   if (argc &gt; 4)
    {
       wprintf(L"Usage: %s [\\\\ServerName] [\\\\ClientName] [UserName]\n", argv[0]);
       exit(1);
    }
 
-   if (argc >= 2)
+   if (argc &gt;= 2)
       pszServerName = argv[1];
 
-   if (argc >= 3)
+   if (argc &gt;= 3)
       pszClientName = argv[2];
 
    if (argc == 4)
@@ -210,10 +214,10 @@ int wmain(int argc, wchar_t *argv[])
 
    return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

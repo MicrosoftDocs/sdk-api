@@ -7,7 +7,7 @@ old-location: wmi\chstring_spanincluding.htm
 old-project: WmiSdk
 ms.assetid: d99ce931-c6ec-4f1c-b4ab-144dc930f990
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: CHString interface [Windows Management Instrumentation],SpanIncluding method, CHString.SpanIncluding, CHString::SpanIncluding, SpanIncluding, SpanIncluding method [Windows Management Instrumentation], SpanIncluding method [Windows Management Instrumentation],CHString interface, _hmm_chstring_spanincluding, chstring/CHString::SpanIncluding, wmi.chstring_spanincluding
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,17 +93,21 @@ The <b>SpanIncluding</b> method starts with the first character of the string an
 
 The following code example shows the use of <b>CHString::SpanIncluding</b>.
 
-
-```cpp
-CHString str( L"cabbage" );
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>CHString str( L"cabbage" );
 CHString res = str.SpanIncluding( L"abc" );
 
 assert( res == L"cabba" );
 res = str.SpanIncluding( L"xyz" );
-assert( res.IsEmpty( ) );
-```
-
-
+assert( res.IsEmpty( ) );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

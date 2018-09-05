@@ -52,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Gets an <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a> object that corresponds to the supplied flags.
+Gets an <a href="shell.IPropertyStore">IPropertyStore</a> object that corresponds to the supplied flags.
 
 
 ## -parameters
@@ -62,10 +62,10 @@ Gets an <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx
 
 ### -param flags [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb762582(v=VS.85).aspx">GETPROPERTYSTOREFLAGS</a></b>
+Type: <b><a href="shell.GETPROPERTYSTOREFLAGS">GETPROPERTYSTOREFLAGS</a></b>
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762582(v=VS.85).aspx">GETPROPERTYSTOREFLAGS</a> values that modify the store that is returned.
+<a href="shell.GETPROPERTYSTOREFLAGS">GETPROPERTYSTOREFLAGS</a> values that modify the store that is returned.
 
 
 ### -param pUnkFactory [in]
@@ -86,7 +86,7 @@ A reference to IID of the object to create.
 
 Type: <b>void**</b>
 
-When this method returns, contains the address of an <a href="https://msdn.microsoft.com/en-us/library/Bb761474(v=VS.85).aspx">IPropertyStore</a> interface pointer.
+When this method returns, contains the address of an <a href="shell.IPropertyStore">IPropertyStore</a> interface pointer.
 
 
 ## -returns

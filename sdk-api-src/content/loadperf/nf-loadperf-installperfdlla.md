@@ -4,10 +4,10 @@ title: InstallPerfDllA function
 author: windows-sdk-content
 description: Installs performance counter strings, as defined in an input .ini file, into the system registry.
 old-location: winprog\installperfdll.htm
-old-project: devnotes
+old-project: DevNotes
 ms.assetid: d674f023-27e5-4ca2-926d-4fa02292ffbb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: InstallPerfDll, InstallPerfDll function [Windows API], InstallPerfDllA, InstallPerfDllW, loadperf/InstallPerfDll, winprog.installperfdll
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: GDI+ 1.1
 
 
 Installs performance counter strings, as defined in an input .ini file, into the system registry.
-<div class="alert"><b>Note</b>  Microsoft recommends that developers use <a href="https://msdn.microsoft.com/en-us/library/Aa372187(v=VS.85).aspx">LoadPerfCounterTextStrings</a> instead of <b>InstallPerfDll</b>. <b>LoadPerfCounterTextStrings</b> calls <b>InstallPerfDll</b> internally. </div><div> </div>
+<div class="alert"><b>Note</b>  Microsoft recommends that developers use <a href="base.loadperfcountertextstrings">LoadPerfCounterTextStrings</a> instead of <b>InstallPerfDll</b>. <b>LoadPerfCounterTextStrings</b> calls <b>InstallPerfDll</b> internally. </div><div> </div>
 
 ## -parameters
 
@@ -98,7 +98,7 @@ This function has no associated import library; you must call it using the <a hr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa372187(v=VS.85).aspx">LoadPerfCounterTextStrings</a>
+<a href="base.loadperfcountertextstrings">LoadPerfCounterTextStrings</a>
  
 
  

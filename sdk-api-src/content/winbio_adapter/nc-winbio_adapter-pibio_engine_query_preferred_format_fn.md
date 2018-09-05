@@ -4,10 +4,10 @@ title: PIBIO_ENGINE_QUERY_PREFERRED_FORMAT_FN
 author: windows-sdk-content
 description: Determines the input data format preferred by the engine adapter.
 old-location: secbiomet\engineadapterquerypreferredformat.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: df76e7d7-9a71-4c98-b038-8925d8cf0980
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: EngineAdapterQueryPreferredFormat, EngineAdapterQueryPreferredFormat callback function [Windows Biometric Framework API], PIBIO_ENGINE_QUERY_PREFERRED_FORMAT_FN, PIBIO_ENGINE_QUERY_PREFERRED_FORMAT_FN callback, secbiomet.engineadapterquerypreferredformat, winbio_adapter/EngineAdapterQueryPreferredFormat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -114,9 +114,13 @@ The sensor adapter calls this function to determine the biometric capture format
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-
-```cpp
-//////////////////////////////////////////////////////////////////////////////////////////
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//////////////////////////////////////////////////////////////////////////////////////////
 //
 // EngineAdapterQueryPreferredFormat
 //
@@ -155,17 +159,17 @@ EngineAdapterQueryPreferredFormat(
    }
 
    // Specify the preferred data formats.
-   StandardFormat->Owner = WINBIO_ANSI_381_FORMAT_OWNER;
-   StandardFormat->Type = WINBIO_ANSI_381_FORMAT_TYPE;
+   StandardFormat-&gt;Owner = WINBIO_ANSI_381_FORMAT_OWNER;
+   StandardFormat-&gt;Type = WINBIO_ANSI_381_FORMAT_TYPE;
    *VendorFormat = VENDOR_UUID_VALUE;
 
 cleanup:
 
     return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

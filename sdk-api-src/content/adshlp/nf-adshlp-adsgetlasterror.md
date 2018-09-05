@@ -118,9 +118,13 @@ ADSI errors fall into two types according to the values of their facility code. 
 <div> </div>
 The following code example shows how to get Win32 error codes and their descriptions using <b>ADsGetLastError</b>.
 
-
-```cpp
-if (FAILED(hr))
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>if (FAILED(hr))
 {
     wprintf(L"An error occurred.\n  HRESULT: %x\n",hr);
     // If facility is Win32, get the Win32 error 
@@ -131,7 +135,7 @@ if (FAILED(hr))
         WCHAR szNameBuf[MAX_PATH];
         // Get extended error value.
         HRESULT hr_return =S_OK;
-        hr_return = ADsGetLastError( &dwLastError,
+        hr_return = ADsGetLastError( &amp;dwLastError,
                                        szErrorBuf,
                                        MAX_PATH,
                                        szNameBuf,
@@ -141,22 +145,26 @@ if (FAILED(hr))
              wprintf(L"Error Code: %d\n Error Text: %ws\n Provider: %ws\n", dwLastError, szErrorBuf, szNameBuf);
         }
     }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 If hr is 80071392, the code example returns the following.
 
-
-```cpp
-An error occurred.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>An error occurred.
     HRESULT: 80071392
     Error Code: 8305
     Error Text: 00002071: UpdErr: DSID-030502F1, problem 6005 (ENTRY_EXISTS), data 0
-    Provider: LDAP Provider
-```
-
-
+    Provider: LDAP Provider</pre>
+</td>
+</tr>
+</table></span></div>
 <div class="alert"><b>Note</b>  The WinNT ADSI provider does not support <b>ADsGetLastError</b>.</div>
 <div> </div>
 

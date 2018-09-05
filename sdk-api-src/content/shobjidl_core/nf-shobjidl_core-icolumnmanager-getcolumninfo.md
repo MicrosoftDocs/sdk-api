@@ -7,7 +7,7 @@ old-location: shell\IColumnManager_GetColumnInfo.htm
 old-project: shell
 ms.assetid: 22b3e5a6-a0a1-46e4-91b8-7bfe3944fffb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetColumnInfo, GetColumnInfo method [Windows Shell], GetColumnInfo method [Windows Shell],IColumnManager interface, IColumnManager interface [Windows Shell],GetColumnInfo method, IColumnManager.GetColumnInfo, IColumnManager::GetColumnInfo, shell.IColumnManager_GetColumnInfo, shell_IColumnManager_GetColumnInfo, shobjidl_core/IColumnManager::GetColumnInfo
 ms.prod: windows
 ms.technology: windows-sdk

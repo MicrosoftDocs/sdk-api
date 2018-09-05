@@ -7,7 +7,7 @@ old-location: tablet\irealtimestylus_addcustomstylusdatatoqueue.htm
 old-project: tablet
 ms.assetid: 9d216853-9103-4027-a724-f35d84553a9b
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 9d216853-9103-4027-a724-f35d84553a9b, AddCustomStylusDataToQueue, AddCustomStylusDataToQueue method [Tablet PC], AddCustomStylusDataToQueue method [Tablet PC],IRealTimeStylus interface, IRealTimeStylus interface [Tablet PC],AddCustomStylusDataToQueue method, IRealTimeStylus.AddCustomStylusDataToQueue, IRealTimeStylus::AddCustomStylusDataToQueue, rtscom/IRealTimeStylus::AddCustomStylusDataToQueue, tablet.irealtimestylus_addcustomstylusdatatoqueue
 ms.prod: windows
 ms.technology: windows-sdk

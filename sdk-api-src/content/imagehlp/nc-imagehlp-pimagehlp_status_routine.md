@@ -7,7 +7,7 @@ old-location: base\statusroutine.htm
 old-project: debug
 ms.assetid: 38a6ddee-5ef1-416f-99ca-11a50643fc97
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: BindExpandFileHeaders, BindForwarder, BindForwarderNOT, BindImageComplete, BindImageModified, BindImportModule, BindImportModuleFailed, BindImportProcedure, BindImportProcedureFailed, BindMismatchedSymbols, BindNoRoomInImage, BindOutOfMemory, BindRvaToVaFailed, BindSymbolsNotUpdated, PIMAGEHLP_STATUS_ROUTINE, StatusRoutine, StatusRoutine callback, StatusRoutine callback function, _win32_statusroutine, base.statusroutine, imagehlp/StatusRoutine
 ms.prod: windows
 ms.technology: windows-sdk
@@ -273,39 +273,43 @@ All ImageHlp functions, such as this one, are single threaded. Therefore, calls 
 
 The following code fragment describes how to use the <i>Va</i> value when the status is BindImageComplete.
 
-
-```cpp
-case BindImageComplete:
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>case BindImageComplete:
     if (fVerbose) {
         fprintf(stderr, "BIND: Details of binding %s\n", ImageName );
         NewImports = (PIMAGE_BOUND_IMPORT_DESCRIPTOR)Va;
         NewImport = NewImports;
-        while (NewImport->OffsetModuleName) {
+        while (NewImport-&gt;OffsetModuleName) {
             fprintf( stderr, "    Import from %s [%x]",
-                     (LPSTR)NewImports + NewImport->OffsetModuleName,
-                     NewImport->TimeDateStamp
+                     (LPSTR)NewImports + NewImport-&gt;OffsetModuleName,
+                     NewImport-&gt;TimeDateStamp
                    );
-            if (NewImport->NumberOfModuleForwarderRefs != 0) {
-                fprintf( stderr, " with %u forwarders", NewImport-> 
+            if (NewImport-&gt;NumberOfModuleForwarderRefs != 0) {
+                fprintf( stderr, " with %u forwarders", NewImport-&gt; 
                          NumberOfModuleForwarderRefs );
             }
             fprintf( stderr, "\n" );
             NewForwarder = (PIMAGE_BOUND_FORWARDER_REF)(NewImport+1);
-            for (i=0; i<NewImport->NumberOfModuleForwarderRefs; i++) 
+            for (i=0; i&lt;NewImport-&gt;NumberOfModuleForwarderRefs; i++) 
             {
                 fprintf( stderr, "        Forward to %s [%x]\n",
-                   (LPSTR)NewImports + NewForwarder->OffsetModuleName,
-                   NewForwarder->TimeDateStamp);
+                   (LPSTR)NewImports + NewForwarder-&gt;OffsetModuleName,
+                   NewForwarder-&gt;TimeDateStamp);
                 NewForwarder += 1;
             }
             NewImport = (PIMAGE_BOUND_IMPORT_DESCRIPTOR)NewForwarder;
         }
     }
     break;
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

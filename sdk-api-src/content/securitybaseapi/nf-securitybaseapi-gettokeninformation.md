@@ -4,10 +4,10 @@ title: GetTokenInformation function
 author: windows-sdk-content
 description: Retrieves a specified type of information about an access token. The calling process must have appropriate access rights to obtain the information.
 old-location: security\gettokeninformation.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: e94de19c-de12-40fb-a72c-060f7ad12f75
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: GetTokenInformation, GetTokenInformation function [Security], _win32_gettokeninformation, security.gettokeninformation, securitybaseapi/GetTokenInformation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -127,7 +127,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

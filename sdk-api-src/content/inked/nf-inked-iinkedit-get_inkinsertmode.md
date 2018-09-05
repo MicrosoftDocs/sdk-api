@@ -7,7 +7,7 @@ old-location: tablet\inkedit_inkinsertmode.htm
 old-project: tablet
 ms.assetid: 6fcc119d-45b1-47d3-98eb-4eb04fccfb61
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 6fcc119d-45b1-47d3-98eb-4eb04fccfb61, IInkEdit interface [Tablet PC],InkInsertMode property, IInkEdit.InkInsertMode, IInkEdit.get_InkInsertMode, IInkEdit::InkInsertMode, IInkEdit::get_InkInsertMode, IInkEdit::put_InkInsertMode, InkEdit.get_InkInsertMode, InkEdit.put_InkInsertMode, InkInsertMode property [Tablet PC], InkInsertMode property [Tablet PC],IInkEdit interface, InsertAsInk, InsertAsText, get_InkInsertMode, inked/IInkEdit::InkInsertMode, inked/IInkEdit::get_InkInsertMode, inked/IInkEdit::put_InkInsertMode, put_InkInsertMode, tablet.inkedit_inkinsertmode
 ms.prod: windows
 ms.technology: windows-sdk

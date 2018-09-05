@@ -7,7 +7,7 @@ old-location: xblidp\ixblidpauthtokenresult.htm
 old-project: xblidp
 ms.assetid: F3E2F3FD-0258-4AB9-B86E-5B12AD8ECA52
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: IXblIdpAuthTokenResult, IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,described, xblidp.ixblidpauthtokenresult, xblidpauthmanager/IXblIdpAuthTokenResult
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: base\symqueryinlinetrace.htm
 old-project: debug
 ms.assetid: e65cf979-f482-4019-ab67-5e908d23bcfa
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: SymQueryInlineTrace, SymQueryInlineTrace function, base.symqueryinlinetrace, dbghelp/SymQueryInlineTrace
 ms.prod: windows
 ms.technology: windows-sdk

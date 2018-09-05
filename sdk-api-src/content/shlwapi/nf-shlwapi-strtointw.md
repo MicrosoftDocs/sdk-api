@@ -7,7 +7,7 @@ old-location: shell\StrToInt.htm
 old-project: shell
 ms.assetid: 74313e56-a820-4d02-91f4-f629d2fc72d4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: StrToInt, StrToInt function [Windows Shell], StrToIntA, StrToIntW, _win32_StrToInt, shell.StrToInt, shlwapi/StrToInt, shlwapi/StrToIntA, shlwapi/StrToIntW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

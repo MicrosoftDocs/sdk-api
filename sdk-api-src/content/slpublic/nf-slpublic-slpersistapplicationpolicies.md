@@ -4,10 +4,10 @@ title: SLPersistApplicationPolicies function
 author: windows-sdk-content
 description: Stores the current consumed policies to disk for fast policy access.
 old-location: security\slpersistapplicationpolicies.htm
-old-project: secslapi
+old-project: SecSLApi
 ms.assetid: a4bf2bcc-3ea5-4288-9bad-b74efdd9969c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SLPersistApplicationPolicies, SLPersistApplicationPolicies function [Security], security.slpersistapplicationpolicies, slpublic/SLPersistApplicationPolicies
 ms.prod: windows
 ms.technology: windows-sdk

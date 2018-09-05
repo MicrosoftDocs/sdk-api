@@ -4,10 +4,10 @@ title: ICameraUIControl::Show
 author: windows-sdk-content
 description: Displays the user interface control for the camera.
 old-location: winprog\icamerauicontrol_show.htm
-old-project: devnotes
+old-project: DevNotes
 ms.assetid: 0426a6ce-9d3e-4ce1-8be8-5d216edc9f2f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ICameraUIControl interface [Windows API],Show method, ICameraUIControl.Show, ICameraUIControl::Show, Show, Show method [Windows API], Show method [Windows API],ICameraUIControl interface, camerauicontrol/ICameraUIControl::Show, winprog.icamerauicontrol_show
 ms.prod: windows
 ms.technology: windows-sdk
@@ -113,7 +113,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh802717(v=VS.85).aspx">ICameraUIControl</a>
+<a href="https://msdn.microsoft.com/e0fbcf43-cd52-4b5b-af4b-f7d673f7a7c9">ICameraUIControl</a>
  
 
  

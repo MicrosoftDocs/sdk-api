@@ -4,10 +4,10 @@ title: "_PROTOCOL_INFOA"
 author: windows-sdk-content
 description: Contains information about a protocol.
 old-location: winsock\protocol_info_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: 0cbddf17-41a8-4e61-b3b0-080ef50dc5de
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPPROTOCOL_INFOA, *PPROTOCOL_INFOA, 0, 0xFFFFFFFF, PROTOCOL_INFO, PROTOCOL_INFO structure [Winsock], PROTOCOL_INFOA, PROTOCOL_INFOW, XP_BANDWIDTH_ALLOCATION, XP_CONNECTIONLESS, XP_CONNECT_DATA, XP_DISCONNECT_DATA, XP_ENCRYPTS, XP_EXPEDITED_DATA, XP_FRAGMENTATION, XP_GRACEFUL_CLOSE, XP_GUARANTEED_DELIVERY, XP_GUARANTEED_ORDER, XP_MESSAGE_ORIENTED, XP_PSEUDO_STREAM, XP_SUPPORTS_BROADCAST, XP_SUPPORTS_MULTICAST, _PROTOCOL_INFOA, _win32_protocol_info_2, nspapi/PROTOCOL_INFO, nspapi/PROTOCOL_INFOA, nspapi/PROTOCOL_INFOW, winsock.protocol_info_2"
 ms.prod: windows
 ms.technology: windows-sdk

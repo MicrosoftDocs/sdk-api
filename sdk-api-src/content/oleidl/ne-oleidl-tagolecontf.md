@@ -7,7 +7,7 @@ old-location: com\olecontf.htm
 old-project: com
 ms.assetid: 9c70fc86-7166-47dd-a424-741f18e381e3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: OLECONTF, OLECONTF enumeration [COM], OLECONTF_EMBEDDINGS, OLECONTF_LINKS, OLECONTF_ONLYIFRUNNING, OLECONTF_ONLYUSER, OLECONTF_OTHERS, _ole_OLECONTF, com.olecontf, oleidl/OLECONTF, oleidl/OLECONTF_EMBEDDINGS, oleidl/OLECONTF_LINKS, oleidl/OLECONTF_ONLYIFRUNNING, oleidl/OLECONTF_ONLYUSER, oleidl/OLECONTF_OTHERS, tagOLECONTF
 ms.prod: windows
 ms.technology: windows-sdk

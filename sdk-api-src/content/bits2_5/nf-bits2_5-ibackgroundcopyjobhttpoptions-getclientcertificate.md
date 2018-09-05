@@ -62,25 +62,25 @@ Retrieves the client certificate from the job.
 
 ### -param pStoreLocation [out]
 
-Identifies the location of a system store to use for looking up the certificate. For possible values, see the <a href="https://msdn.microsoft.com/en-us/library/Aa362796(v=VS.85).aspx">BG_CERT_STORE_LOCATION</a> enumeration.
+Identifies the location of a system store to use for looking up the certificate. For possible values, see the <a href="https://msdn.microsoft.com/596b1ba1-6652-4c97-a44d-e8271471d864">BG_CERT_STORE_LOCATION</a> enumeration.
 
 
 ### -param pStoreName [out]
 
 Null-terminated string that contains the name of the certificate store. To free the string when done, call  the 
-<a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function.
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a> function.
 
 
 ### -param ppCertHashBlob [out]
 
 SHA1 hash that identifies the certificate. To free the blob when done, call  the 
-<a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function.
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a> function.
 
 
 ### -param pSubjectName [out]
 
 Null-terminated string that contains the simple subject name of the certificate. The RDNs in the subject name are in the reverse order from what the certificate displays. Subject name can be empty if the certificate does not contain a subject name. To free the string when done, call  the 
-<a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function.
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a> function.
 
 
 ## -returns
@@ -137,16 +137,20 @@ One of the parameters is <b>NULL</b>.
 
 
 
-You use the <a href="https://msdn.microsoft.com/en-us/library/Aa964256(v=VS.85).aspx">IBackgroundCopyJobHttpOptions::SetClientCertificateByID</a> or <a href="https://msdn.microsoft.com/en-us/library/Aa964257(v=VS.85).aspx">IBackgroundCopyJobHttpOptions::SetClientCertificateByName</a> method to specify the certificate.
+You use the <a href="https://msdn.microsoft.com/60839bac-7f5f-4c43-84d4-26f1b21f974d">IBackgroundCopyJobHttpOptions::SetClientCertificateByID</a> or <a href="https://msdn.microsoft.com/8262b360-ab05-42a3-b5e7-178dc9f23fc6">IBackgroundCopyJobHttpOptions::SetClientCertificateByName</a> method to specify the certificate.
 
 
 #### Examples
 
 The following example shows how to retrieve information about the client certificate. The example assumes pJob points to a valid job. 
 
-
-```cpp
-#define THUMBPRINT_SIZE 20
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define THUMBPRINT_SIZE 20
 
   HRESULT hr = S_OK;
   IBackgroundCopyJob* pJob = NULL;
@@ -159,24 +163,24 @@ The following example shows how to retrieve information about the client certifi
   LPWSTR pSubjectName = NULL;
 
   // Retrieve a pointer to the IBackgroundCopyJobHttpOptions interface.
-  hr = pJob->QueryInterface(__uuidof(IBackgroundCopyJobHttpOptions), (void**)&pHttpOptions);
-  pJob->Release();
+  hr = pJob-&gt;QueryInterface(__uuidof(IBackgroundCopyJobHttpOptions), (void**)&amp;pHttpOptions);
+  pJob-&gt;Release();
   if (FAILED(hr))
   {
-    wprintf(L"pJob->QueryInterface failed with 0x%x.\n", hr);
+    wprintf(L"pJob-&gt;QueryInterface failed with 0x%x.\n", hr);
     goto cleanup;
   }
 
   // Retrieve information about the client certificate set on the job. 
-  hr = pHttpOptions->GetClientCertificate(&StoreLocation, &pStoreName, 
-         &pThumbprint, &pSubjectName);
+  hr = pHttpOptions-&gt;GetClientCertificate(&amp;StoreLocation, &amp;pStoreName, 
+         &amp;pThumbprint, &amp;pSubjectName);
   if (S_OK == hr)
   {
     wprintf(L"\nLocation: %d\nStore name: %s\nSubject: %s\n", 
         StoreLocation, pStoreName, pSubjectName);
 
     wprintf(L"Thumbprint: ");
-    for (DWORD i = 0; i < THUMBPRINT_SIZE; i++)
+    for (DWORD i = 0; i &lt; THUMBPRINT_SIZE; i++)
     {
       wprintf(L"%x ", pThumbprint[i]);
     }
@@ -193,7 +197,7 @@ The following example shows how to retrieve information about the client certifi
   }
   else
   {
-    wprintf(L"pHttpOptions->GetClientCertificate failed with 0x%x.\n", hr);
+    wprintf(L"pHttpOptions-&gt;GetClientCertificate failed with 0x%x.\n", hr);
     goto cleanup;
   }
 
@@ -202,12 +206,12 @@ cleanup:
 
   if (pHttpOptions)
   {
-    hr = pHttpOptions->Release();
+    hr = pHttpOptions-&gt;Release();
   }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -216,19 +220,19 @@ cleanup:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964250(v=VS.85).aspx">IBackgroundCopyJobHttpOptions</a>
+<a href="https://msdn.microsoft.com/d8ccf65d-a4f1-44d9-9903-43e5529f1f29">IBackgroundCopyJobHttpOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964255(v=VS.85).aspx">IBackgroundCopyJobHttpOptions::RemoveClientCertificate</a>
+<a href="https://msdn.microsoft.com/b4fb7213-5f6b-407f-bc44-6d11886ed5ad">IBackgroundCopyJobHttpOptions::RemoveClientCertificate</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964256(v=VS.85).aspx">IBackgroundCopyJobHttpOptions::SetClientCertificateByID</a>
+<a href="https://msdn.microsoft.com/60839bac-7f5f-4c43-84d4-26f1b21f974d">IBackgroundCopyJobHttpOptions::SetClientCertificateByID</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa964257(v=VS.85).aspx">IBackgroundCopyJobHttpOptions::SetClientCertificateByName</a>
+<a href="https://msdn.microsoft.com/8262b360-ab05-42a3-b5e7-178dc9f23fc6">IBackgroundCopyJobHttpOptions::SetClientCertificateByName</a>
  
 
  

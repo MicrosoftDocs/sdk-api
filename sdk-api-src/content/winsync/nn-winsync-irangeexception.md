@@ -7,7 +7,7 @@ old-location: winsync\irangeexception.htm
 old-project: winsync
 ms.assetid: 7eea9fe0-80e7-43a9-a797-df12d4d809dc
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IRangeException, IRangeException interface [Windows Sync], IRangeException interface [Windows Sync],described, winsync.irangeexception, winsync/IRangeException
 ms.prod: windows
 ms.technology: windows-sdk

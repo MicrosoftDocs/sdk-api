@@ -7,7 +7,7 @@ old-location: cos\objectcontrol.htm
 old-project: cossdk
 ms.assetid: 3ca939de-31ce-4ce6-84cd-4b4191a0753c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ObjectControl, ObjectControl interface [COM+], ObjectControl interface [COM+],described, _cos_ObjectControl, comsvcs/ObjectControl, cos.objectcontrol
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.irql:
 
 If you implement this interface in your component, the COM+ run-time environment automatically calls its methods on your objects at the appropriate times. Only the COM+ run-time environment can invoke the <b>ObjectControl</b> methods; they are not accessible to an object's clients or to the object itself. If a client queries for the <b>ObjectControl</b> interface, <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636-f93ac053146d">QueryInterface</a> returns E_NOINTERFACE.
 
-<b>ObjectControl</b> and <a href="https://msdn.microsoft.com/en-us/library/ms686474(v=VS.85).aspx">IObjectControl</a> provide the same functionality, but unlike <b>IObjectControl</b>, <b>ObjectControl</b> is compatible with Automation.
+<b>ObjectControl</b> and <a href="https://msdn.microsoft.com/cbc63f97-dfc7-4e1f-97f9-2043f8bea1d4">IObjectControl</a> provide the same functionality, but unlike <b>IObjectControl</b>, <b>ObjectControl</b> is compatible with Automation.
 
 
 ## -inheritance
@@ -82,7 +82,7 @@ Enables a COM+ object to perform context-specific initialization whenever it is 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms679218(v=VS.85).aspx">CanBePooled</a>
+<a href="https://msdn.microsoft.com/1bca2892-4b9a-4135-b009-37181a028130">CanBePooled</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the object can be pooled for reuse when it is deactivated.
@@ -91,7 +91,7 @@ Indicates whether the object can be pooled for reuse when it is deactivated.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms683592(v=VS.85).aspx">Deactivate</a>
+<a href="https://msdn.microsoft.com/86ab7f50-6f2e-4c6c-ba4d-fd302cccf97d">Deactivate</a>
 </td>
 <td align="left" width="63%">
 Enables a COM+ object to perform cleanup required before it is recycled or destroyed.
@@ -106,15 +106,15 @@ Enables a COM+ object to perform cleanup required before it is recycled or destr
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms681289(v=VS.85).aspx">COM+ Contexts and Threading Models</a>
+<a href="https://msdn.microsoft.com/50ccf75e-2652-4254-a771-af83cc9248b3">COM+ Contexts and Threading Models</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms687581(v=VS.85).aspx">Context Activation</a>
+<a href="https://msdn.microsoft.com/e5602af2-5852-4c34-a792-6742e90b7d41">Context Activation</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686474(v=VS.85).aspx">IObjectControl</a>
+<a href="https://msdn.microsoft.com/cbc63f97-dfc7-4e1f-97f9-2043f8bea1d4">IObjectControl</a>
  
 
  

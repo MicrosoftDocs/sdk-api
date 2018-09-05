@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteTextFormat_SetFlowDirection.htm
 old-project: DirectWrite
 ms.assetid: 0eb1648c-b565-46e8-b6db-1fcc6a66b1bd
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: IDWriteTextFormat interface [Direct Write],SetFlowDirection method, IDWriteTextFormat.SetFlowDirection, IDWriteTextFormat::SetFlowDirection, SetFlowDirection, SetFlowDirection method [Direct Write], SetFlowDirection method [Direct Write],IDWriteTextFormat interface, directwrite.IDWriteTextFormat_SetFlowDirection, dwrite/IDWriteTextFormat::SetFlowDirection
 ms.prod: windows
 ms.technology: windows-sdk

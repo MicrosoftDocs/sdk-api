@@ -7,7 +7,7 @@ old-location: netmgmt\wksta_user_info_0_str.htm
 old-project: netmgmt
 ms.assetid: 8bd8d8c7-4558-46cb-ab46-a2197d53e9f7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPWKSTA_USER_INFO_0, *PWKSTA_USER_INFO_0, LPWKSTA_USER_INFO_0, LPWKSTA_USER_INFO_0 structure pointer [Network Management], PWKSTA_USER_INFO_0, PWKSTA_USER_INFO_0 structure pointer [Network Management], WKSTA_USER_INFO_0, WKSTA_USER_INFO_0 structure [Network Management], _WKSTA_USER_INFO_0, _win32_wksta_user_info_0_str, lmwksta/LPWKSTA_USER_INFO_0, lmwksta/PWKSTA_USER_INFO_0, lmwksta/WKSTA_USER_INFO_0, netmgmt.wksta_user_info_0_str"
 ms.prod: windows
 ms.technology: windows-sdk

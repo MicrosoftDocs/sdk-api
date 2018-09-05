@@ -7,7 +7,7 @@ old-location: shell\PathIsHTMLFile.htm
 old-project: shell
 ms.assetid: f24f82c8-ce32-4fbd-be49-06817cc57e5b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: PathIsHTMLFile, PathIsHTMLFile function [Windows Shell], PathIsHTMLFileA, PathIsHTMLFileW, _win32_PathIsHTMLFile, shell.PathIsHTMLFile, shlwapi/PathIsHTMLFile, shlwapi/PathIsHTMLFileA, shlwapi/PathIsHTMLFileW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

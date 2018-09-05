@@ -7,7 +7,7 @@ old-location: cos\objectcontext_get_security.htm
 old-project: cossdk
 ms.assetid: a160d214-b807-47cd-a712-b4cad941a157
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ObjectContext interface [COM+],get_Security method, ObjectContext.get_Security, ObjectContext::get_Security, _cos_ObjectContext_get_Security, comsvcs/ObjectContext::get_Security, cos.objectcontext_get_security, get_Security, get_Security method [COM+], get_Security method [COM+],ObjectContext interface
 ms.prod: windows
 ms.technology: windows-sdk

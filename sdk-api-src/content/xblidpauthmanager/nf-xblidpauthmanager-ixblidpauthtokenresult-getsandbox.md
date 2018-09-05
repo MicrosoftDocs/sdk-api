@@ -7,7 +7,7 @@ old-location: xblidp\ixblidpauthtokenresult_getsandbox.htm
 old-project: xblidp
 ms.assetid: BDE93755-27E8-4D5A-A777-527954BA5E4C
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: GetSandbox, GetSandbox method, GetSandbox method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetSandbox method, IXblIdpAuthTokenResult.GetSandbox, IXblIdpAuthTokenResult::GetSandbox, xblidp.ixblidpauthtokenresult_getsandbox, xblidpauthmanager/IXblIdpAuthTokenResult::GetSandbox
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,7 +69,7 @@ Type: <b>__RPC__deref_out_opt_string*</b>
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 

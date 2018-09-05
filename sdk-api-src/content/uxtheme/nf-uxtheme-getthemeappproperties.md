@@ -129,14 +129,18 @@ Do not call this function during <a href="https://msdn.microsoft.com/0c3e3083-92
 
 The example extracts a single flag's state from the function result.
 
-
-```cpp
-DWORD resultFlags = GetThemeAppProperties();
-bool ctrlsAreThemed = ((resultFlags & STAP_ALLOW_CONTROLS) != 0);
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DWORD resultFlags = GetThemeAppProperties();
+bool ctrlsAreThemed = ((resultFlags &amp; STAP_ALLOW_CONTROLS) != 0);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -145,7 +149,7 @@ bool ctrlsAreThemed = ((resultFlags & STAP_ALLOW_CONTROLS) != 0);
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb759825(v=VS.85).aspx">SetThemeAppProperties</a>
+<a href="https://msdn.microsoft.com/7675c2c1-c152-41ad-b34b-5ca6cc7cd26b">SetThemeAppProperties</a>
  
 
  

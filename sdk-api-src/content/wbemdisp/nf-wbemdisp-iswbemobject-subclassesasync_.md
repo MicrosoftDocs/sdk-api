@@ -7,7 +7,7 @@ old-location: wmi\swbemobject_subclassesasync_.htm
 old-project: WmiSdk
 ms.assetid: 14d4a609-3aa4-49bd-bea4-6a71bc24d9dd
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: ISWbemObject interface [Windows Management Instrumentation],SubclassesAsync_ method, ISWbemObject.SubclassesAsync_, ISWbemObject::SubclassesAsync_, SWbemObject object [Windows Management Instrumentation],SubclassesAsync_ method, SWbemObject.SubclassesAsync_, SubclassesAsync_, SubclassesAsync_ method [Windows Management Instrumentation], SubclassesAsync_ method [Windows Management Instrumentation],ISWbemObject interface, SubclassesAsync_ method [Windows Management Instrumentation],SWbemObject object, _hmm_swbemobject.subclassesasync_, wbemFlagDontSendStatus, wbemFlagSendStatus, wbemFlagUseAmendedQualifiers, wbemQueryFlagDeep, wbemQueryFlagShallow, wmi.swbemobject_subclassesasync_
 ms.prod: windows
 ms.technology: windows-sdk

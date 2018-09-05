@@ -4,11 +4,11 @@ title: PFN_CERT_STORE_PROV_DELETE_CERT
 author: windows-sdk-content
 description: An application-defined callback function that is called by CertDeleteCertificateFromStore before deleting a certificate from the store.
 old-location: security\certstoreprovdeletecertcallback.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 0ae64bbc-05f6-4fc2-a05d-895654b4b97d
 ms.author: windowssdkdev
-ms.date: 08/15/2018
-ms.keywords: CertStoreProvDeleteCertCallback, CertStoreProvDeleteCertCallback callback, CertStoreProvDeleteCertCallback callback function [Security], PFN_CERT_STORE_PROV_DELETE_CERT, PFN_CERT_STORE_PROV_DELETE_CERT callback function [Security], _crypto2_certstoreprovdeletecertcallback, security.certstoreprovdeletecertcallback, wincrypt/CertStoreProvDeleteCertCallback, wincrypt/PFN_CERT_STORE_PROV_DELETE_CERT
+ms.date: 08/29/2018
+ms.keywords: CertStoreProvDeleteCertCallback, PFN_CERT_STORE_PROV_DELETE_CERT, PFN_CERT_STORE_PROV_DELETE_CERT callback, PFN_CERT_STORE_PROV_DELETE_CERT callback function [Security], _crypto2_certstoreprovdeletecertcallback, security.certstoreprovdeletecertcallback, wincrypt/PFN_CERT_STORE_PROV_DELETE_CERT
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - CertStoreProvDeleteCertCallback
+ - PFN_CERT_STORE_PROV_DELETE_CERT
 product: Windows
 targetos: Windows
 req.lib: 
@@ -92,7 +92,7 @@ Returns <b>TRUE</b> if it is okay to delete the certificate from the store. Othe
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Callback Functions</a>
+<a href="cryptography_functions.htm">Callback Functions</a>
  
 
  

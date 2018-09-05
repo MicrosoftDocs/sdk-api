@@ -4,10 +4,10 @@ title: "_PRIVKEYVER3"
 author: windows-sdk-content
 description: Contains information specific to the particular private key contained in the key BLOB.
 old-location: security\dhprivkey_ver3.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: ad4bf20d-5c6c-4373-bd88-9a5bbb832ba5
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: DHPRIVKEY_VER3, DHPRIVKEY_VER3 structure [Security], DSSPRIVKEY_VER3, _PRIVKEYVER3, _crypto2_dhprivkey_ver3, security.dhprivkey_ver3, wincrypt/DHPRIVKEY_VER3
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,6 +88,15 @@ Number of bits in the DH key BLOB private exponent, X.
 ### -field DSSSeed
 
 Seed structure holding the seed and counter values used to generate the primes Q and P. If values in the <a href="https://msdn.microsoft.com/fbf2b5e4-b572-4b2c-907d-281570a0f26b">DSSSEED</a> structure are not available, then the counter element of the structure should be 0xFFFFFFFF.
+
+
+## -remarks
+
+
+
+<b>DSSPRIVKEY_VER3</b> is an alias for this structure.
+
+
 
 
 ## -see-also

@@ -7,7 +7,7 @@ old-location: com\oletranslatecolor.htm
 old-project: com
 ms.assetid: f4b407c3-e88a-47b4-bb43-8f691629d2f3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: OleTranslateColor, OleTranslateColor function [COM], _ctrl_OleTranslateColor, com.oletranslatecolor, olectl/OleTranslateColor
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: MprConfigTransportGetHandle function
 author: windows-sdk-content
 description: The MprConfigTransportGetHandle function retrieves a handle to the specified transport protocol's configuration in the specified router configuration.
 old-location: rras\mprconfigtransportgethandle.htm
-old-project: rras
+old-project: RRAS
 ms.assetid: 2d3a2300-de10-4ee0-ba0e-bda26cf9a910
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MprConfigTransportGetHandle, MprConfigTransportGetHandle function [RAS], _mpr_mprconfigtransportgethandle, mprapi/MprConfigTransportGetHandle, rras.mprconfigtransportgethandle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -160,7 +160,7 @@ The transport protocol specified by <i>dwTransportId</i> was not found in the ro
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -175,7 +175,7 @@ Use
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="_win32_formatmessage">FormatMessage</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: mbn\imbnconnection_getconnectionstate.htm
 old-project: mbn
 ms.assetid: 85f3e0bb-c694-4870-b423-cb4ac7a0477d
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetConnectionState, GetConnectionState method [Microsoft Broadband Networks], GetConnectionState method [Microsoft Broadband Networks],IMbnConnection interface, IMbnConnection interface [Microsoft Broadband Networks],GetConnectionState method, IMbnConnection.GetConnectionState, IMbnConnection::GetConnectionState, mbn.imbnconnection_getconnectionstate, mbnapi/IMbnConnection::GetConnectionState
 ms.prod: windows
 ms.technology: windows-sdk

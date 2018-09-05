@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationmanager2_resume.htm
 old-project: UIAnimation
 ms.assetid: 943BCFBB-3E16-4CC8-BA9F-06D4C99B1DF0
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IUIAnimationManager2 interface [Windows Animation],Resume method, IUIAnimationManager2.Resume, IUIAnimationManager2::Resume, Resume, Resume method [Windows Animation], Resume method [Windows Animation],IUIAnimationManager2 interface, uianimation.iuianimationmanager2_resume, uianimation/IUIAnimationManager2::Resume
 ms.prod: windows
 ms.technology: windows-sdk

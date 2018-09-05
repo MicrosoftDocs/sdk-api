@@ -7,7 +7,7 @@ old-location: wec\ecgetobjectarrayproperty.htm
 old-project: WEC
 ms.assetid: a145c982-a1df-442f-8923-58f1db67ac25
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: EcGetObjectArrayProperty, EcGetObjectArrayProperty function, evcoll/EcGetObjectArrayProperty, wec.ecgetobjectarrayproperty, wes.ecgetobjectarrayproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -99,7 +99,7 @@ The size of the user-supplied buffer that is used by the function on successful 
 
 
 
-This function returns BOOL __stdcall.
+This function returns BOOL.
 
 
 

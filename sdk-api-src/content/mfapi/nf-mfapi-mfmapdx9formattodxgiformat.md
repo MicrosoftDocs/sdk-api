@@ -69,7 +69,7 @@ The <a href="https://msdn.microsoft.com/a1ba825b-0574-4657-8a10-447a3caf8149">D3
 
 
 
-Returns a <a href="https://msdn.microsoft.com/en-us/library/Bb173059(v=VS.85).aspx">DXGI_FORMAT</a> value.
+Returns a <a href="https://msdn.microsoft.com/dce61bc4-4ed5-4e64-84e8-6db88025e5c2">DXGI_FORMAT</a> value.
 
 
 

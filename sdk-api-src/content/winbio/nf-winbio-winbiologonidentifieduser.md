@@ -4,10 +4,10 @@ title: WinBioLogonIdentifiedUser function
 author: windows-sdk-content
 description: Causes a fast user switch to the account associated with the last successful identification operation performed by the biometric session.
 old-location: secbiomet\winbiologonidentifieduser.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: 0df6da19-e23b-445f-82d9-bd51cda3ae15
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: WinBioLogonIdentifiedUser, WinBioLogonIdentifiedUser function [Windows Biometric Framework API], secbiomet.winbiologonidentifieduser, winbio/WinBioLogonIdentifiedUser
 ms.prod: windows
 ms.technology: windows-sdk
@@ -188,9 +188,13 @@ previously identified user. For this function to work correctly, secure logon mu
 <li>Conio.h</li>
 <li>Winbio.h</li>
 </ul>
-
-```cpp
-HRESULT LogonIdentifiedUser()
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT LogonIdentifiedUser()
 {
     // Declare variables.
     HRESULT hr;
@@ -209,7 +213,7 @@ HRESULT LogonIdentifiedUser()
             NULL,                       // Array of biometric unit IDs
             0,                          // Count of biometric unit IDs
             WINBIO_DB_DEFAULT,                       // Database ID
-            &sessionHandle              // [out] Session handle
+            &amp;sessionHandle              // [out] Session handle
             );
     if (FAILED(hr))
     {
@@ -224,10 +228,10 @@ HRESULT LogonIdentifiedUser()
     {
         hr = WinBioIdentify(
                 sessionHandle,          // Session handle    
-                &UnitId,                // Biometric unit ID
-                &Identity,              // User SID or GUID
-                &SubFactor,             // Finger sub factor
-                &RejectDetail           // rejection information
+                &amp;UnitId,                // Biometric unit ID
+                &amp;Identity,              // User SID or GUID
+                &amp;SubFactor,             // Finger sub factor
+                &amp;RejectDetail           // rejection information
                 );
 
         switch(hr)
@@ -274,10 +278,10 @@ e_Exit:
     return hr;
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

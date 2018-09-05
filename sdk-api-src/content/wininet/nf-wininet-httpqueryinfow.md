@@ -7,7 +7,7 @@ old-location: wininet\httpqueryinfo.htm
 old-project: WinInet
 ms.assetid: 5747ce19-5004-4eea-abe9-dd00abac1b3b
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: HttpQueryInfo, HttpQueryInfo function [WinINet], HttpQueryInfoA, HttpQueryInfoW, _inet_httpqueryinfo_function, wininet.httpqueryinfo, wininet/HttpQueryInfo, wininet/HttpQueryInfoA, wininet/HttpQueryInfoW
 ms.prod: windows
 ms.technology: windows-sdk

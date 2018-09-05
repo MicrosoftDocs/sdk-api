@@ -4,10 +4,10 @@ title: ICspInformation::get_Type
 author: windows-sdk-content
 description: Retrieves the type of the provider.
 old-location: security\icspinformation_type_property.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: a52caea6-fbd5-4c06-8a25-e65f7b4a72f7
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ICspInformation interface [Security],Type property, ICspInformation.Type, ICspInformation.get_Type, ICspInformation::Type, ICspInformation::get_Type, Type property [Security], Type property [Security],ICspInformation interface, certenroll/ICspInformation::Type, certenroll/ICspInformation::get_Type, get_Type, security.icspinformation_type_property
 ms.prod: windows
 ms.technology: windows-sdk
@@ -130,7 +130,7 @@ The values associated with the providers distributed by Microsoft are listed in 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375967(v=VS.85).aspx">ICspInformation</a>
+<a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a>
  
 
  

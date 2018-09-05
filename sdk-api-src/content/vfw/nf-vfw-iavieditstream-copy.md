@@ -99,16 +99,20 @@ Returns the HRESULT defined by OLE.
 
 For handlers written in C++, <b>Copy</b> has the following syntax:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT Copy(LONG *plStart, LONG *plLength, 
     PAVISTREAM * ppResult); 
  
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

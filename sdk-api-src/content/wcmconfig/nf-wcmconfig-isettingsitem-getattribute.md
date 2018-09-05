@@ -4,10 +4,10 @@ title: ISettingsItem::GetAttribute
 author: windows-sdk-content
 description: Gets the value of an attribute by specifying its name.
 old-location: smi\isettingsitem_getattribute.htm
-old-project: smi
+old-project: SMI
 ms.assetid: 995184e4-05ff-41f1-9404-872a82bedd49
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetAttribute, GetAttribute method [SMI], GetAttribute method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetAttribute method, ISettingsItem.GetAttribute, ISettingsItem::GetAttribute, smi.isettingsitem_getattribute, wcmconfig/ISettingsItem::GetAttribute
 ms.prod: windows
 ms.technology: windows-sdk

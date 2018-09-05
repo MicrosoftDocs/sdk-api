@@ -4,10 +4,10 @@ title: "_MSV1_0_SUBAUTH_RESPONSE"
 author: windows-sdk-content
 description: Contains the response from a subauthentication package.
 old-location: security\msv1_0_subauth_response.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 62808fba-6e10-4f3b-a705-6958fc4fe480
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PMSV1_0_SUBAUTH_RESPONSE, MSV1_0_SUBAUTH_RESPONSE, MSV1_0_SUBAUTH_RESPONSE structure [Security], PMSV1_0_SUBAUTH_RESPONSE, PMSV1_0_SUBAUTH_RESPONSE structure pointer [Security], _MSV1_0_SUBAUTH_RESPONSE, _lsa_msv1_0_subauth_response, ntsecapi/MSV1_0_SUBAUTH_RESPONSE, ntsecapi/PMSV1_0_SUBAUTH_RESPONSE, security.msv1_0_subauth_response"
 ms.prod: windows
 ms.technology: windows-sdk

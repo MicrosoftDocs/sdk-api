@@ -4,10 +4,10 @@ title: LPM_IpAddressTable function
 author: windows-sdk-content
 description: The LPM_IpAddressTable function is used by the PCM to pass a list of IP addresses assigned to the Windows 2000 Server upon which the LPM is initialized.
 old-location: qos\lpm_ipaddresstable.htm
-old-project: qos
+old-project: QOS
 ms.assetid: f02ecb97-3797-49a0-8bff-fcb16096cb25
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: LPM_IpAddressTable, LPM_IpAddressTable callback, LPM_IpAddressTable callback function [QOS], _gqos_lpm_ipaddresstable, lpmapi/LPM_IpAddressTable, qos.lpm_ipaddresstable
 ms.prod: windows
 ms.technology: windows-sdk

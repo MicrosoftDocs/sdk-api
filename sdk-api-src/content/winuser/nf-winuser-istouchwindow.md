@@ -7,7 +7,7 @@ old-location: wintouch\istouchwindow.htm
 old-project: wintouch
 ms.assetid: 080b9d18-5975-4d38-ae3b-151f74120bb3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IsTouchWindow, IsTouchWindow function [Windows Touch], wintouch.istouchwindow, winuser/IsTouchWindow
 ms.prod: windows
 ms.technology: windows-sdk

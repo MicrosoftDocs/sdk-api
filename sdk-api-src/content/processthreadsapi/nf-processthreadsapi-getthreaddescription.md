@@ -98,18 +98,22 @@ To free the memory for the thread description, call the <a href="https://msdn.mi
 
 The following example gets the description for a thread,  prints the description, and then frees the memory for the description.
 
-
-```cpp
-HRESULT hr = GetThreadDescription(ThreadHandle, &data);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr = GetThreadDescription(ThreadHandle, &amp;data);
 if (SUCCEEDED(hr))
 {   
     wprintf(“%ls\m”, data);
     LocalFree(data);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

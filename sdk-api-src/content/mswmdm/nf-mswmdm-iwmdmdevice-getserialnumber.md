@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmdevice_getserialnumber.htm
 old-project: WMDM
 ms.assetid: e2498ca3-7109-4713-9110-2dbca0436d00
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetSerialNumber, GetSerialNumber method [windows Media Device Manager], GetSerialNumber method [windows Media Device Manager],IWMDMDevice interface, IWMDMDevice interface [windows Media Device Manager],GetSerialNumber method, IWMDMDevice.GetSerialNumber, IWMDMDevice::GetSerialNumber, IWMDMDeviceGetSerialNumber, mswmdm/IWMDMDevice::GetSerialNumber, wmdm.iwmdmdevice_getserialnumber
 ms.prod: windows
 ms.technology: windows-sdk
@@ -103,15 +103,19 @@ After calling this method, an application can verify that the serial has not bee
 
 The following C++ code retrieves the device serial number and verifies the MAC.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 //
 // Get and verify the serial number.
 //
 WMDMID serialNumber;
 BYTE receivedMAC[WMDM_MAC_LENGTH];
-hr = pIWMDMDevice->GetSerialNumber(&serialNumber, receivedMAC);
+hr = pIWMDMDevice-&gt;GetSerialNumber(&amp;serialNumber, receivedMAC);
 
 // Check the MAC to guarantee the serial number has not been tampered with.
 if (hr == S_OK)
@@ -121,9 +125,9 @@ if (hr == S_OK)
     // and finally retrieve the calculated MAC value.
     HMAC hMAC;
     BYTE calculatedMAC[WMDM_MAC_LENGTH];
-    hr = m_pSAC->MACInit(&hMAC);
-    hr = m_pSAC->MACUpdate(hMAC, (BYTE*)(&serialNumber), sizeof(serialNumber));
-    hr = m_pSAC->MACFinal(hMAC, (BYTE*)calculatedMAC);
+    hr = m_pSAC-&gt;MACInit(&amp;hMAC);
+    hr = m_pSAC-&gt;MACUpdate(hMAC, (BYTE*)(&amp;serialNumber), sizeof(serialNumber));
+    hr = m_pSAC-&gt;MACFinal(hMAC, (BYTE*)calculatedMAC);
     if (memcmp(calculatedMAC, receivedMAC, sizeof(calculatedMAC)) == 0)
     {
         // MAC is authentic. Print the serial number.
@@ -136,10 +140,10 @@ if (hr == S_OK)
     else
         // TODO: Display a message indicating that the serial number MAC does not match in EnumDevices
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

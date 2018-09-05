@@ -4,10 +4,10 @@ title: PIBIO_STORAGE_PIPELINE_INIT_FN
 author: windows-sdk-content
 description: Gives the Storage Adapter the chance to perform any initialization that remains incomplete.
 old-location: secbiomet\storageadapterpipelineinit.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: F969AC5A-6760-4904-A04E-F2FEF4290F7A
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: PIBIO_STORAGE_PIPELINE_INIT_FN, PIBIO_STORAGE_PIPELINE_INIT_FN callback, StorageAdapterPipelineInit, StorageAdapterPipelineInit callback function [Windows Biometric Framework API], secbiomet.storageadapterpipelineinit, winbio_adapter/StorageAdapterPipelineInit
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: CredMarshalCredentialA function
 author: windows-sdk-content
 description: The CredMarshalCredential function transforms a credential into a text string.
 old-location: security\credmarshalcredential.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 20a1d54b-04a7-4b0a-88e4-1970d1f71502
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CredMarshalCredential, CredMarshalCredential function [Security], CredMarshalCredentialA, CredMarshalCredentialW, _cred_credmarshalcredential, security.credmarshalcredential, wincred/CredMarshalCredential, wincred/CredMarshalCredentialA, wincred/CredMarshalCredentialW
 ms.prod: windows
 ms.technology: windows-sdk

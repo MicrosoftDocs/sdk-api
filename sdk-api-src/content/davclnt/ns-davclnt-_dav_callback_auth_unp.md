@@ -4,10 +4,10 @@ title: "_DAV_CALLBACK_AUTH_UNP"
 author: windows-sdk-content
 description: Stores user name and password information that was retrieved by the DavAuthCallback callback function.
 old-location: webdav\dav_callback_auth_unp.htm
-old-project: webdav
+old-project: WebDAV
 ms.assetid: 47420a67-bf3f-40d9-bfc4-ac2cb2776a40
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PDAV_CALLBACK_AUTH_UNP, DAV_CALLBACK_AUTH_UNP, DAV_CALLBACK_AUTH_UNP structure [WebDAV], PDAV_CALLBACK_AUTH_UNP, PDAV_CALLBACK_AUTH_UNP structure pointer [WebDAV], _DAV_CALLBACK_AUTH_UNP, davclnt/DAV_CALLBACK_AUTH_UNP, davclnt/PDAV_CALLBACK_AUTH_UNP, webdav.dav_callback_auth_unp"
 ms.prod: windows
 ms.technology: windows-sdk

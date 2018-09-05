@@ -7,7 +7,7 @@ old-location: fs\getntmsrequestorder.htm
 old-project: Rsm
 ms.assetid: 68617846-63c7-4a47-887a-ee49705753ce
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: GetNtmsRequestOrder, GetNtmsRequestOrder function [Files], _zaw_getntmsrequestorder, base.getntmsrequestorder, fs.getntmsrequestorder, ntmsapi/GetNtmsRequestOrder
 ms.prod: windows
 ms.technology: windows-sdk
@@ -185,7 +185,7 @@ Currently on NTMS_LM_MOUNT, requests are sorted using the order number.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Library Control Functions</a>
+<a href="removable_storage_manager_functions.htm">Library Control Functions</a>
 
 
 

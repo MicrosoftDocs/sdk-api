@@ -7,7 +7,7 @@ old-location: wec\ecretrysubscription.htm
 old-project: WEC
 ms.assetid: 31a9148d-8026-4383-9f31-04b75b4a278d
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: EcRetrySubscription, EcRetrySubscription function, evcoll/EcRetrySubscription, wec.ecretrysubscription, wes.ecretrysubscription
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,7 +79,7 @@ Reserved. Must be <b>NULL</b>.
 
 
 
-This function returns BOOL __stdcall.
+This function returns BOOL.
 
 
 

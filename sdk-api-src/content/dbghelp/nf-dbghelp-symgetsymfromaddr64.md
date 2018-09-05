@@ -7,7 +7,7 @@ old-location: base\symgetsymfromaddr64.htm
 old-project: debug
 ms.assetid: c4882a3b-7773-4ab0-ad83-bdde512b5fb4
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: SymGetSymFromAddr, SymGetSymFromAddr function, SymGetSymFromAddr64, SymGetSymFromAddr64 function, _win32_symgetsymfromaddr64, base.symgetsymfromaddr64, dbghelp/SymGetSymFromAddr, dbghelp/SymGetSymFromAddr64
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,9 +109,13 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 This function supersedes the <b>SymGetSymFromAddr</b> function. For more information, see 
 <a href="https://msdn.microsoft.com/34ec8cd3-3260-441d-b55f-4ea21c736eb1">Updated Platform Support</a>. <b>SymGetSymFromAddr</b> is defined as follows in Dbghelp.h. 
 
-
-```cpp
-#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
 #define SymGetSymFromAddr SymGetSymFromAddr64
 #else
 BOOL
@@ -122,10 +126,10 @@ SymGetSymFromAddr(
     __out_opt PDWORD pdwDisplacement,
     __inout PIMAGEHLP_SYMBOL Symbol
     );
-#endif
-```
-
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

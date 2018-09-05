@@ -4,10 +4,10 @@ title: WSManCreateSession function
 author: windows-sdk-content
 description: Creates a session object.
 old-location: winrm\wsmancreatesession.htm
-old-project: winrm
+old-project: WinRM
 ms.assetid: 5123d876-5123-4fa4-8f6f-859a26aad825
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WSManCreateSession, WSManCreateSession function [Windows Remote Management], winrm.wsmancreatesession, wsman/WSManCreateSession
 ms.prod: windows
 ms.technology: windows-sdk

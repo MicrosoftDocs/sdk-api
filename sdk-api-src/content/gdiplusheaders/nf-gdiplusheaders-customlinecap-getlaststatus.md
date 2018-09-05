@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>CustomLineCap::GetLastStatus</b> method returns a value that indicates the nature of this <a href="https://msdn.microsoft.com/en-us/library/ms534432(v=VS.85).aspx">CustomLineCap</a> object's most recent method failure.
+The <b>CustomLineCap::GetLastStatus</b> method returns a value that indicates the nature of this <a href="https://msdn.microsoft.com/bab33c8b-3203-4560-9e71-c112d528e20c">CustomLineCap</a> object's most recent method failure.
 
 
 ## -parameters
@@ -66,15 +66,15 @@ The <b>CustomLineCap::GetLastStatus</b> method returns a value that indicates th
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
 </strong>
 
-The <b>CustomLineCap::GetLastStatus</b> method returns an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+The <b>CustomLineCap::GetLastStatus</b> method returns an element of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
                 
 
-If no methods invoked on this <a href="https://msdn.microsoft.com/en-us/library/ms534432(v=VS.85).aspx">CustomLineCap</a> object have failed since the previous call to <b>CustomLineCap::GetLastStatus</b>, then <b>CustomLineCap::GetLastStatus</b> returns Ok.
+If no methods invoked on this <a href="https://msdn.microsoft.com/bab33c8b-3203-4560-9e71-c112d528e20c">CustomLineCap</a> object have failed since the previous call to <b>CustomLineCap::GetLastStatus</b>, then <b>CustomLineCap::GetLastStatus</b> returns Ok.
 
-If at least one method invoked on this <a href="https://msdn.microsoft.com/en-us/library/ms534432(v=VS.85).aspx">CustomLineCap</a> object has failed since the previous call to <b>CustomLineCap::GetLastStatus</b>, then <b>CustomLineCap::GetLastStatus</b> returns a value that indicates the nature of the most recent failure.
+If at least one method invoked on this <a href="https://msdn.microsoft.com/bab33c8b-3203-4560-9e71-c112d528e20c">CustomLineCap</a> object has failed since the previous call to <b>CustomLineCap::GetLastStatus</b>, then <b>CustomLineCap::GetLastStatus</b> returns a value that indicates the nature of the most recent failure.
 
 
 
@@ -83,9 +83,9 @@ If at least one method invoked on this <a href="https://msdn.microsoft.com/en-us
 
 
 
-You can call <b>CustomLineCap::GetLastStatus</b> immediately after constructing a <a href="https://msdn.microsoft.com/en-us/library/ms534432(v=VS.85).aspx">CustomLineCap</a> object to determine whether the constructor succeeded.
+You can call <b>CustomLineCap::GetLastStatus</b> immediately after constructing a <a href="https://msdn.microsoft.com/bab33c8b-3203-4560-9e71-c112d528e20c">CustomLineCap</a> object to determine whether the constructor succeeded.
 
-The first time you call the <b>CustomLineCap::GetLastStatus</b> method of a <a href="https://msdn.microsoft.com/en-us/library/ms534432(v=VS.85).aspx">CustomLineCap</a> object, it returns Ok if the constructor succeeded and all methods invoked so far on the <b>CustomLineCap</b> object succeeded. Otherwise, it returns a value that indicates the nature of the most recent failure.
+The first time you call the <b>CustomLineCap::GetLastStatus</b> method of a <a href="https://msdn.microsoft.com/bab33c8b-3203-4560-9e71-c112d528e20c">CustomLineCap</a> object, it returns Ok if the constructor succeeded and all methods invoked so far on the <b>CustomLineCap</b> object succeeded. Otherwise, it returns a value that indicates the nature of the most recent failure.
 
 
 

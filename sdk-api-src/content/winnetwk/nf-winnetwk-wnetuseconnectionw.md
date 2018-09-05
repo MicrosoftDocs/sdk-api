@@ -4,10 +4,10 @@ title: WNetUseConnectionW function
 author: windows-sdk-content
 description: The WNetUseConnection function makes a connection to a network resource. The function can redirect a local device to a network resource.
 old-location: wnet\wnetuseconnection.htm
-old-project: wnet
+old-project: WNet
 ms.assetid: 80fa471d-074c-468f-b90f-1636081e1583
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: CONNECT_CMD_SAVECRED, CONNECT_COMMANDLINE, CONNECT_INTERACTIVE, CONNECT_LOCALDRIVE, CONNECT_PROMPT, CONNECT_REDIRECT, CONNECT_UPDATE_PROFILE, WNetUseConnection, WNetUseConnection function [Windows Networking (WNet)], WNetUseConnectionA, WNetUseConnectionW, _win32_wnetuseconnection, dwType, lpLocalName, lpProvider, lpRemoteName, winnetwk/WNetUseConnection, winnetwk/WNetUseConnectionA, winnetwk/WNetUseConnectionW, wnet.wnetuseconnection
 ms.prod: windows
 ms.technology: windows-sdk

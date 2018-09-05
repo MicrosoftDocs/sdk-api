@@ -4,10 +4,10 @@ title: ICEnroll3::EnumAlgs
 author: windows-sdk-content
 description: The ICEnroll4::EnumAlgs method retrieves the IDs of cryptographic algorithms in a given algorithm class that are supported by the current cryptographic service provider (CSP).
 old-location: security\icenroll4_enumalgs.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: b7fe4abc-38e8-42a0-a7a0-312ccfc309e5
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CEnroll object [Security],EnumAlgs method, EnumAlgs, EnumAlgs method [Security], EnumAlgs method [Security],CEnroll object, EnumAlgs method [Security],ICEnroll3 interface, EnumAlgs method [Security],ICEnroll4 interface, ICEnroll3 interface [Security],EnumAlgs method, ICEnroll3.EnumAlgs, ICEnroll3::EnumAlgs, ICEnroll4 interface [Security],EnumAlgs method, ICEnroll4::EnumAlgs, security.icenroll4_enumalgs, xenroll/ICEnroll3::EnumAlgs, xenroll/ICEnroll4::EnumAlgs
 ms.prod: windows
 ms.technology: windows-sdk
@@ -108,11 +108,15 @@ For algorithm ID and class constants used by this method, see Wincrypt.h.
 
 #### Examples
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
-#include <Xenroll.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;Xenroll.h&gt;
 
 DWORD     dwAlgID;
 DWORD     dwIndex;
@@ -126,7 +130,7 @@ dwIndex = 0;
 while ( TRUE )
 {
     // Enumerate the alg IDs for a specific class.
-    hr = pEnroll->EnumAlgs(dwIndex, ALG_CLASS_SIGNATURE, &dwAlgID);
+    hr = pEnroll-&gt;EnumAlgs(dwIndex, ALG_CLASS_SIGNATURE, &amp;dwAlgID);
     if ( S_OK != hr )
     {
        break;
@@ -134,7 +138,7 @@ while ( TRUE )
 
     // Do something with the AlgID.
     // For example, retrieve the corresponding name.
-    hr2 = pEnroll->GetAlgName( dwAlgID, &bstrAlgName);
+    hr2 = pEnroll-&gt;GetAlgName( dwAlgID, &amp;bstrAlgName);
     if ( FAILED( hr2 ) )    
         printf("Failed GetAlgName [%x]\n", hr);
     else
@@ -151,10 +155,10 @@ while ( TRUE )
     dwIndex++;
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

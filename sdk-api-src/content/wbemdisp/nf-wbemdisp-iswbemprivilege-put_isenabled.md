@@ -7,7 +7,7 @@ old-location: wmi\swbemprivilege_isenabled.htm
 old-project: WmiSdk
 ms.assetid: 282c8865-ba0d-4e82-be05-96a940036590
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: ISWbemPrivilege interface [Windows Management Instrumentation],IsEnabled property, ISWbemPrivilege.get_IsEnabled, ISWbemPrivilege.put_IsEnabled, ISWbemPrivilege::put_IsEnabled, IsEnabled property [Windows Management Instrumentation], IsEnabled property [Windows Management Instrumentation],ISWbemPrivilege interface, IsEnabled property [Windows Management Instrumentation],SWbemPrivilege object, SWbemPrivilege object [Windows Management Instrumentation],IsEnabled property, SWbemPrivilege.IsEnabled, _hmm_swbemprivilege.isenabled, put_IsEnabled, wmi.swbemprivilege_isenabled
 ms.prod: windows
 ms.technology: windows-sdk

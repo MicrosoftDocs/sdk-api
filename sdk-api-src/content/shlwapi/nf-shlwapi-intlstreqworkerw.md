@@ -7,7 +7,7 @@ old-location: shell\IntlStrEqWorker.htm
 old-project: shell
 ms.assetid: bc8e823e-79b2-49fd-950d-96a6e7256377
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IntlStrEqWorker, IntlStrEqWorker function [Windows Shell], IntlStrEqWorkerA, IntlStrEqWorkerW, _win32_IntlStrEqWorker, shell.IntlStrEqWorker, shlwapi/IntlStrEqWorker, shlwapi/IntlStrEqWorkerA, shlwapi/IntlStrEqWorkerW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

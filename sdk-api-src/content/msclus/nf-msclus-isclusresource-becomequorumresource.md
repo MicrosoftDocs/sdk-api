@@ -7,7 +7,7 @@ old-location: mscs\clusresource_becomequorumresource.htm
 old-project: mscs
 ms.assetid: fd316586-8553-4c4a-824e-ee5b7bf48184
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BecomeQuorumResource, BecomeQuorumResource method [Failover Cluster], BecomeQuorumResource method [Failover Cluster],ClusResource object, ClusResource object [Failover Cluster],BecomeQuorumResource method, ClusResource.BecomeQuorumResource, ISClusResource.BecomeQuorumResource, ISClusResource::BecomeQuorumResource, _wolf_clusresource.becomequorumresource, mscs.clusresource_becomequorumresource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ req.product: GDI+ 1.1
 
 Establishes a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> as the 
     <a href="https://msdn.microsoft.com/4c2ee30e-4de2-44ba-93ba-d2d89196545e">quorum resource</a> for the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+    <a href="c_gly.htm">cluster</a>.
 
 
 ## -parameters

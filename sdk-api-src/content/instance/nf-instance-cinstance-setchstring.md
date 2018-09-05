@@ -7,7 +7,7 @@ old-location: wmi\cinstance_setchstring.htm
 old-project: WmiSdk
 ms.assetid: a75b574d-9ee7-4930-a003-5d71c5f1d687
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: CInstance.SetCHString, CInstance::SetCHString, CInstance::SetCHString methods [Windows Management Instrumentation], SetCHString, instance/CInstance::SetCHString, wmi.cinstance_setchstring
 ms.prod: windows
 ms.technology: windows-sdk

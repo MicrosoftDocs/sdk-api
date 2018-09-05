@@ -62,7 +62,7 @@ Notifies Desktop Window Manager (DWM) that a touch contact has been recognized a
 
 
 
-### -param param
+### -param arg1
 
 TBD
 

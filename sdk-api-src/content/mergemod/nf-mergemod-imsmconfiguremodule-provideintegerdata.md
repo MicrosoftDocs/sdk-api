@@ -7,7 +7,7 @@ old-location: setup\configuremodule_provideintegerdata.htm
 old-project: msi
 ms.assetid: 13d48301-bd63-432c-b663-85a840886dda
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ConfigureModule object,ProvideIntegerData method, ConfigureModule.ProvideIntegerData, IMsmConfigureModule.ProvideIntegerData, IMsmConfigureModule::ProvideIntegerData, ProvideIntegerData, ProvideIntegerData method, ProvideIntegerData method,ConfigureModule object, _msi_provideintegerdata_method, setup.configuremodule_provideintegerdata
 ms.prod: windows
 ms.technology: windows-sdk

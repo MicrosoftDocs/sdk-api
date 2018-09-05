@@ -7,7 +7,7 @@ old-location: com\ienumstatdata_skip.htm
 old-project: com
 ms.assetid: fe3d45bc-bdcf-4e05-a03f-a40780b016e4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IEnumSTATDATA interface [COM],Skip method, IEnumSTATDATA.Skip, IEnumSTATDATA::Skip, Skip, Skip method [COM], Skip method [COM],IEnumSTATDATA interface, _ole_ienumstatdata_skip, com.ienumstatdata_skip, objidl/IEnumSTATDATA::Skip
 ms.prod: windows
 ms.technology: windows-sdk

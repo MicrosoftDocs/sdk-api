@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\ivisualtreeservice_clearchildren.htm
 old-project: xaml_diagnostics
 ms.assetid: E32B07F5-BB62-435A-A869-36A0E93915D9
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ClearChildren, ClearChildren method, ClearChildren method,IVisualTreeService interface, IVisualTreeService interface,ClearChildren method, IVisualTreeService.ClearChildren, IVisualTreeService::ClearChildren, xaml_diagnostics.ivisualtreeservice_clearchildren, xamlom/IVisualTreeService::ClearChildren
 ms.prod: windows
 ms.technology: windows-sdk

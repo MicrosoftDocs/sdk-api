@@ -4,10 +4,10 @@ title: IX509PrivateKey
 author: windows-sdk-content
 description: Represents an asymmetric private key that can be used for encryption, signing, and key agreement.
 old-location: security\ix509privatekey.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: 72612ea4-ed45-46ac-9dad-614a9a754d83
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509PrivateKey, IX509PrivateKey interface [Security], IX509PrivateKey interface [Security],described, certenroll/IX509PrivateKey, security.ix509privatekey
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,16 +53,16 @@ req.irql:
 
 The <b>IX509PrivateKey</b> interface represents an asymmetric private key that can be used for encryption, signing, and key agreement.  Private keys are referenced in the following objects:<ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa375725(v=VS.85).aspx">ICertPropertyKeyProvInfo</a>
+<a href="https://msdn.microsoft.com/1c35c2f0-8e79-4031-bae2-2be081f3c8dd">ICertPropertyKeyProvInfo</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa376820(v=VS.85).aspx">ISignerCertificate</a>
+<a href="https://msdn.microsoft.com/146a1925-4de6-492c-8014-612c65bd7270">ISignerCertificate</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa377059(v=VS.85).aspx">IX509AttributeArchiveKey</a>
+<a href="https://msdn.microsoft.com/b42111e9-e39e-4192-9aba-47403fb627dc">IX509AttributeArchiveKey</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa377505(v=VS.85).aspx">IX509CertificateRequestPkcs10</a>
+<a href="https://msdn.microsoft.com/5b3764dc-fc63-45cc-8c35-65539c461e81">IX509CertificateRequestPkcs10</a>
 </li>
 </ul>
 
@@ -70,10 +70,10 @@ The <b>IX509PrivateKey</b> interface represents an asymmetric private key that c
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509PrivateKey</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IX509PrivateKey</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IX509PrivateKey</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IX509PrivateKey</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Properties</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
 </ul>
 
 ## -members
@@ -86,7 +86,7 @@ The <b>IX509PrivateKey</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa378935(v=VS.85).aspx">Close</a>
+<a href="https://msdn.microsoft.com/c4ed2375-0d50-4cb5-b0c4-c80962e22c9c">Close</a>
 </td>
 <td align="left" width="63%">
 Releases the handle of the cryptographic service provider (CSP) or the handle of the Cryptography API: Next Generation (CNG) key storage provider (KSP).
@@ -95,7 +95,7 @@ Releases the handle of the cryptographic service provider (CSP) or the handle of
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa378957(v=VS.85).aspx">Create</a>
+<a href="https://msdn.microsoft.com/e8c6564a-6009-437e-9b83-3711e43a7374">Create</a>
 </td>
 <td align="left" width="63%">
 Creates an asymmetric  private key.
@@ -104,7 +104,7 @@ Creates an asymmetric  private key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa378989(v=VS.85).aspx">Delete</a>
+<a href="https://msdn.microsoft.com/0f319e20-d993-480e-846d-0912bb854415">Delete</a>
 </td>
 <td align="left" width="63%">
 Releases the handle of the CSP or KSP and deletes the key from disk or smart card.
@@ -113,7 +113,7 @@ Releases the handle of the CSP or KSP and deletes the key from disk or smart car
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa379006(v=VS.85).aspx">Export</a>
+<a href="https://msdn.microsoft.com/86316966-11d5-42d6-8690-eddfe86f8150">Export</a>
 </td>
 <td align="left" width="63%">
 Copies the private key to a byte array.
@@ -122,7 +122,7 @@ Copies the private key to a byte array.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa379003(v=VS.85).aspx">ExportPublicKey</a>
+<a href="https://msdn.microsoft.com/4ebcba09-1fea-4d21-8315-3570eaf6d42d">ExportPublicKey</a>
 </td>
 <td align="left" width="63%">
 Exports the public key portion of the asymmetric key pair.
@@ -131,7 +131,7 @@ Exports the public key portion of the asymmetric key pair.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa379011(v=VS.85).aspx">Import</a>
+<a href="https://msdn.microsoft.com/33e335e2-9c3f-4aa1-a393-db0ee8095b64">Import</a>
 </td>
 <td align="left" width="63%">
 Imports an existing private key into a key container within a CSP.
@@ -140,7 +140,7 @@ Imports an existing private key into a key container within a CSP.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa379027(v=VS.85).aspx">Open</a>
+<a href="https://msdn.microsoft.com/965e3bf8-22b9-4015-8fb2-102c5f7b1cb5">Open</a>
 </td>
 <td align="left" width="63%">
 Opens an existing private key.
@@ -149,7 +149,7 @@ Opens an existing private key.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa379038(v=VS.85).aspx">Verify</a>
+<a href="https://msdn.microsoft.com/4a792c39-71a7-4289-854d-98e6f749a526">Verify</a>
 </td>
 <td align="left" width="63%">
 Verifies that a private key exists and can be used by the client but does not open the key.
@@ -167,7 +167,7 @@ Verifies that a private key exists and can be used by the client but does not op
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378926(v=VS.85).aspx">Algorithm</a>
+<a href="https://msdn.microsoft.com/40d2eae1-733a-4e5b-bb15-71301d73f438">Algorithm</a>
 
 
 </td>
@@ -176,7 +176,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Specifies or retrieves an <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> (OID) for the public key algorithm.
+Specifies or retrieves an <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) for the public key algorithm.
 
 [WebEnabled]
 
@@ -185,7 +185,7 @@ Specifies or retrieves an <a href="https://msdn.microsoft.com/en-us/library/ms72
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378928(v=VS.85).aspx">Certificate</a>
+<a href="https://msdn.microsoft.com/035615f1-2dc7-47d7-98e4-7b5b0924030f">Certificate</a>
 
 
 </td>
@@ -201,7 +201,7 @@ Specifies or retrieves a byte array that contains the certificate associated wit
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378953(v=VS.85).aspx">ContainerName</a>
+<a href="https://msdn.microsoft.com/1d56fa7e-8113-461d-a4f0-ebc048fbcb49">ContainerName</a>
 
 
 </td>
@@ -219,7 +219,7 @@ Specifies or retrieves the name of the key container.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378946(v=VS.85).aspx">ContainerNamePrefix</a>
+<a href="https://msdn.microsoft.com/af5a30dd-4707-4b38-bf6b-b971d854d5b0">ContainerNamePrefix</a>
 
 
 </td>
@@ -235,7 +235,7 @@ Specifies or retrieves a prefix added to the name of the key container.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378966(v=VS.85).aspx">CspInformations</a>
+<a href="https://msdn.microsoft.com/81cf4689-0cd6-4185-9242-ef26de9161a1">CspInformations</a>
 
 
 </td>
@@ -244,7 +244,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Specifies or retrieves a collection of <a href="https://msdn.microsoft.com/en-us/library/Aa375967(v=VS.85).aspx">ICspInformation</a> objects that contain information about the available cryptographic providers  that support the public key algorithm associated with the private key.
+Specifies or retrieves a collection of <a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a> objects that contain information about the available cryptographic providers  that support the public key algorithm associated with the private key.
 
 [WebEnabled]
 
@@ -253,7 +253,7 @@ Specifies or retrieves a collection of <a href="https://msdn.microsoft.com/en-us
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378972(v=VS.85).aspx">CspStatus</a>
+<a href="https://msdn.microsoft.com/8bf6e62d-9ecf-4eee-9652-f04d2010b4f7">CspStatus</a>
 
 
 </td>
@@ -262,7 +262,7 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Specifies or retrieves an <a href="https://msdn.microsoft.com/en-us/library/Aa376760(v=VS.85).aspx">ICspStatus</a> object that contains information about the cryptographic provider and algorithm pair associated with the private key.
+Specifies or retrieves an <a href="https://msdn.microsoft.com/30cc43c8-6ef3-49ad-8cff-9a5b7389ff68">ICspStatus</a> object that contains information about the cryptographic provider and algorithm pair associated with the private key.
 
 [WebEnabled]
 
@@ -271,7 +271,7 @@ Specifies or retrieves an <a href="https://msdn.microsoft.com/en-us/library/Aa37
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378982(v=VS.85).aspx">DefaultContainer</a>
+<a href="https://msdn.microsoft.com/31998dee-b656-47b8-acb5-246e1a10382a">DefaultContainer</a>
 
 
 </td>
@@ -287,7 +287,7 @@ Retrieves a Boolean value that specifies whether the private key represents the 
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa965843(v=VS.85).aspx">Description</a>
+<a href="https://msdn.microsoft.com/84889286-7740-4f4f-b095-1fb999702f9a">Description</a>
 
 
 </td>
@@ -303,7 +303,7 @@ Specifies or retrieves a string that contains a description of the private key.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378993(v=VS.85).aspx">Existing</a>
+<a href="https://msdn.microsoft.com/0ef32207-1fb0-49a2-95cf-353f907f3fc6">Existing</a>
 
 
 </td>
@@ -321,7 +321,7 @@ Specifies or retrieves a Boolean value that indicates whether the private key ha
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379002(v=VS.85).aspx">ExportPolicy</a>
+<a href="https://msdn.microsoft.com/e3f04252-fe49-48fb-9e77-8a05031abf5f">ExportPolicy</a>
 
 
 </td>
@@ -339,7 +339,7 @@ Specifies or retrieves export constraints for a private key.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa965844(v=VS.85).aspx">FriendlyName</a>
+<a href="https://msdn.microsoft.com/93cd4fe0-5a08-4936-bbb0-6a723027e8c7">FriendlyName</a>
 
 
 </td>
@@ -355,7 +355,7 @@ Specifies or retrieves a display name for the private key.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379019(v=VS.85).aspx">KeyProtection</a>
+<a href="https://msdn.microsoft.com/39d8b9ac-ebbd-4bd8-8d5e-a4b28595b030">KeyProtection</a>
 
 
 </td>
@@ -373,7 +373,7 @@ Specifies or retrieves a  value that indicates how a private key is protected be
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379020(v=VS.85).aspx">KeySpec</a>
+<a href="https://msdn.microsoft.com/163e0fb5-e5b1-48db-a90f-66984530f92f">KeySpec</a>
 
 
 </td>
@@ -391,7 +391,7 @@ Specifies or retrieves a value that identifies whether a private key can be used
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379021(v=VS.85).aspx">KeyUsage</a>
+<a href="https://msdn.microsoft.com/e983c95b-6b3a-4e27-8a23-ef9051b11a16">KeyUsage</a>
 
 
 </td>
@@ -409,7 +409,7 @@ Specifies or retrieves a  value that identifies the specific purpose for which a
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379022(v=VS.85).aspx">LegacyCsp</a>
+<a href="https://msdn.microsoft.com/53a93aea-4435-4e04-9bd1-6356446aaefc">LegacyCsp</a>
 
 
 </td>
@@ -427,7 +427,7 @@ Specifies  or retrieves a Boolean value that indicates whether the provider is a
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379023(v=VS.85).aspx">Length</a>
+<a href="https://msdn.microsoft.com/de25aa05-bd65-49a6-9cd1-e18522c9e190">Length</a>
 
 
 </td>
@@ -445,7 +445,7 @@ Specifies or retrieves the length, in bits, of the private key.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379024(v=VS.85).aspx">MachineContext</a>
+<a href="https://msdn.microsoft.com/bdc3278e-3b5a-4ad0-9e9b-9639a2db4040">MachineContext</a>
 
 
 </td>
@@ -463,7 +463,7 @@ Specifies or retrieves a Boolean value that identifies the local certificate sto
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379026(v=VS.85).aspx">Opened</a>
+<a href="https://msdn.microsoft.com/7f02b3d7-ab3a-4413-81ac-c626bc79a88c">Opened</a>
 
 
 </td>
@@ -479,7 +479,7 @@ Retrieves a Boolean value that specifies whether the private key is open.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379028(v=VS.85).aspx">ParentWindow</a>
+<a href="https://msdn.microsoft.com/97243031-ef60-467d-ba65-6c7e6432d51f">ParentWindow</a>
 
 
 </td>
@@ -495,7 +495,7 @@ Specifies or retrieves the ID of the window used to display key information.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379029(v=VS.85).aspx">Pin</a>
+<a href="https://msdn.microsoft.com/d81fad8a-767d-48c8-874a-c34843600b13">Pin</a>
 
 
 </td>
@@ -511,7 +511,7 @@ Specifies a personal identification number (PIN) that is used to authenticate us
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379031(v=VS.85).aspx">ProviderName</a>
+<a href="https://msdn.microsoft.com/42a348ae-9946-4d76-a035-14990d823449">ProviderName</a>
 
 
 </td>
@@ -529,7 +529,7 @@ Specifies or retrieves the name of the cryptographic provider.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379032(v=VS.85).aspx">ProviderType</a>
+<a href="https://msdn.microsoft.com/5f4d2e29-8c02-4d9c-a3a6-15c222650c3e">ProviderType</a>
 
 
 </td>
@@ -547,7 +547,7 @@ Specifies or retrieves the type of cryptographic provider associated with the pr
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379033(v=VS.85).aspx">ReaderName</a>
+<a href="https://msdn.microsoft.com/1c9bb81a-c91b-42b9-a44c-de1ae5b68af6">ReaderName</a>
 
 
 </td>
@@ -563,7 +563,7 @@ Specifies the name of a smart card reader.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379034(v=VS.85).aspx">SecurityDescriptor</a>
+<a href="https://msdn.microsoft.com/5fa1e5d8-b745-494c-a727-426084fce2a1">SecurityDescriptor</a>
 
 
 </td>
@@ -572,14 +572,14 @@ Read/write
 
 </td>
 <td align="left" width="63%">
-Specifies or retrieves the <a href="https://msdn.microsoft.com/en-us/library/ms721625(v=VS.85).aspx">security descriptor</a> for the private key.
+Specifies or retrieves the <a href="https://msdn.microsoft.com/3e9d7672-2314-45c8-8178-5a0afcfd0c50">security descriptor</a> for the private key.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379035(v=VS.85).aspx">Silent</a>
+<a href="https://msdn.microsoft.com/4f61a513-620c-48c4-b9dd-032b13a9f654">Silent</a>
 
 
 </td>
@@ -595,7 +595,7 @@ Specifies or retrieves a Boolean value that indicates whether the Certificate En
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379036(v=VS.85).aspx">UIContextMessage</a>
+<a href="https://msdn.microsoft.com/a1a6a474-5ffa-4b68-b84f-b0c9bea30ee5">UIContextMessage</a>
 
 
 </td>
@@ -611,7 +611,7 @@ Specifies or retrieves a string that contains user interface text associated wit
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379037(v=VS.85).aspx">UniqueContainerName</a>
+<a href="https://msdn.microsoft.com/93da413f-556d-4cda-8628-ce4a2150da19">UniqueContainerName</a>
 
 
 </td>
@@ -632,15 +632,15 @@ Retrieves a unique name for the key container.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374850(v=VS.85).aspx">CertEnroll Interfaces</a>
+<a href="https://msdn.microsoft.com/d49511ed-8651-457e-a102-0bea4edde24c">CertEnroll Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379039(v=VS.85).aspx">IX509PublicKey</a>
+<a href="https://msdn.microsoft.com/cd6f28a3-9998-40d7-a3e8-dab0cf3991a8">IX509PublicKey</a>
  
 
  

@@ -4,10 +4,10 @@ title: "_SecPkgContext_KeyInfoA"
 author: windows-sdk-content
 description: The SecPkgContext_KeyInfo structure contains information about the session keys used in a security context.
 old-location: security\secpkgcontext_keyinfo.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: ec146329-6789-460c-ae62-629a1765a4c1
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSecPkgContext_KeyInfoA, PSecPkgContext_KeyInfo, PSecPkgContext_KeyInfo structure pointer [Security], SecPkgContext_KeyInfo, SecPkgContext_KeyInfo structure [Security], SecPkgContext_KeyInfoA, SecPkgContext_KeyInfoW, _SecPkgContext_KeyInfoA, _ssp_secpkgcontext_keyinfo, security.secpkgcontext_keyinfo, sspi/PSecPkgContext_KeyInfo, sspi/SecPkgContext_KeyInfo, sspi/SecPkgContext_KeyInfoA, sspi/SecPkgContext_KeyInfoW"
 ms.prod: windows
 ms.technology: windows-sdk

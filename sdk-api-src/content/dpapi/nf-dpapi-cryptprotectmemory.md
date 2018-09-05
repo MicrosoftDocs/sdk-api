@@ -4,10 +4,10 @@ title: CryptProtectMemory function
 author: windows-sdk-content
 description: encrypts memory to prevent others from viewing sensitive information in your process.
 old-location: security\cryptprotectmemory.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 6b372552-87d4-4047-afa5-0d1113348289
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CRYPTPROTECTMEMORY_CROSS_PROCESS, CRYPTPROTECTMEMORY_SAME_LOGON, CRYPTPROTECTMEMORY_SAME_PROCESS, CryptProtectMemory, CryptProtectMemory function [Security], dpapi/CryptProtectMemory, security.cryptprotectmemory, wincrypt/CryptProtectMemory
 ms.prod: windows
 ms.technology: windows-sdk
@@ -127,7 +127,7 @@ If the function fails, it returns <b>FALSE</b>. For extended error information, 
 
 
 
-Using  <a href="https://msdn.microsoft.com/en-us/library/Aa380262(v=VS.85).aspx">CryptProtectMemory</a> and <a href="https://msdn.microsoft.com/en-us/library/Aa380890(v=VS.85).aspx">CryptUnprotectMemory</a> for password encryption is not secure because the data exists as plaintext in memory before it is encrypted and at any time the caller decrypts it for use.
+Using  <a href="seccpki.cryptprotectmemory">CryptProtectMemory</a> and <a href="seccpki.cryptunprotectmemory">CryptUnprotectMemory</a> for password encryption is not secure because the data exists as plaintext in memory before it is encrypted and at any time the caller decrypts it for use.
 
 Typically, you use the <b>CryptProtectMemory</b> function to encrypt sensitive information that you are going to decrypt while your process is running.  Do not use this function to save data that you want to decrypt later; you will not be able to decrypt the data if the computer is restarted. To save encrypted data to a file to decrypt later, use the <a href="https://msdn.microsoft.com/765a68fd-f105-49fc-a738-4a8129eb0770">CryptProtectData</a> function.  
 
@@ -142,11 +142,15 @@ If the client uses the CRYPTPROTECTMEMORY_SAME_LOGON flag, the server must imper
 
 The following example calls  the <b>CryptProtectMemory</b> function to encrypt data that is in memory.
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
-#include <Wincrypt.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;Wincrypt.h&gt;
 
 #define SSN_STR_LEN 12  // includes null
 
@@ -191,10 +195,10 @@ void main()
     pSensitiveText = NULL;
 
     return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -87,9 +87,13 @@ Calls to <b>Activate</b> and <a href="https://msdn.microsoft.com/7f80fe8a-e088-4
 
 The following example shows how to activate and deactivate input processing.
 
-
-```
-LRESULT WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam )
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>LRESULT WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam )
 {
     BOOL handled = FALSE;
     switch ( msg )
@@ -99,11 +103,11 @@ LRESULT WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam )
         {
         case SIZE_MINIMIZED:
         case SIZE_MAXHIDE:
-            pManipulationManager->Deactivate(hwnd);
+            pManipulationManager-&gt;Deactivate(hwnd);
             break;
 
         default:
-            pManipulationManager->Activate(hwnd);
+            pManipulationManager-&gt;Activate(hwnd);
             break;
         }
         break;
@@ -116,10 +120,10 @@ LRESULT WndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam )
     {
         return 0;
     }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

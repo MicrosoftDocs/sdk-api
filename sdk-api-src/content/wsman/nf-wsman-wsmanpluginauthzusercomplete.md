@@ -4,10 +4,10 @@ title: WSManPluginAuthzUserComplete function
 author: windows-sdk-content
 description: Reports either a successful or failed user connection authorization.
 old-location: winrm\wsmanpluginauthzusercomplete.htm
-old-project: winrm
+old-project: WinRM
 ms.assetid: f8897936-91fa-4b91-a13a-0ef0a52d780c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WSManPluginAuthzUserComplete, WSManPluginAuthzUserComplete function [Windows Remote Management], winrm.wsmanpluginauthzusercomplete, wsman/WSManPluginAuthzUserComplete
 ms.prod: windows
 ms.technology: windows-sdk

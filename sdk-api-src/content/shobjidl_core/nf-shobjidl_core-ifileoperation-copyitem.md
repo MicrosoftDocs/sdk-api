@@ -7,7 +7,7 @@ old-location: shell\IFileOperation_CopyItem.htm
 old-project: shell
 ms.assetid: 36d623b7-67c3-48b7-be9b-9264b5b8d919
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: CopyItem, CopyItem method [Windows Shell], CopyItem method [Windows Shell],IFileOperation interface, IFileOperation interface [Windows Shell],CopyItem method, IFileOperation.CopyItem, IFileOperation::CopyItem, _shell_IFileOperation_CopyItem, shell.IFileOperation_CopyItem, shobjidl_core/IFileOperation::CopyItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -115,9 +115,13 @@ This method does not copy the item, it merely declares the item to be copied. To
 
 The following example code shows a sample implementation of this method.
 
-
-```cpp
-HRESULT CopyItem(__in PCWSTR pszSrcItem, __in PCWSTR pszDest, PCWSTR pszNewName)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CopyItem(__in PCWSTR pszSrcItem, __in PCWSTR pszDest, PCWSTR pszNewName)
 {
     //
     // Initialize COM as STA.
@@ -133,7 +137,7 @@ HRESULT CopyItem(__in PCWSTR pszSrcItem, __in PCWSTR pszDest, PCWSTR pszNewName)
         hr = CoCreateInstance(CLSID_FileOperation, 
                               NULL, 
                               CLSCTX_ALL, 
-                              IID_PPV_ARGS(&pfo));
+                              IID_PPV_ARGS(&amp;pfo));
         if (SUCCEEDED(hr))
         {
             //
@@ -141,7 +145,7 @@ HRESULT CopyItem(__in PCWSTR pszSrcItem, __in PCWSTR pszDest, PCWSTR pszNewName)
             // user during the operation. This includes error, confirmation,
             // and progress dialogs.
             //
-            hr = pfo->SetOperationFlags(FOF_NO_UI);
+            hr = pfo-&gt;SetOperationFlags(FOF_NO_UI);
             if (SUCCEEDED(hr))
             {
                 //
@@ -150,7 +154,7 @@ HRESULT CopyItem(__in PCWSTR pszSrcItem, __in PCWSTR pszDest, PCWSTR pszNewName)
                 IShellItem *psiFrom = NULL;
                 hr = SHCreateItemFromParsingName(pszSrcItem, 
                                                  NULL, 
-                                                 IID_PPV_ARGS(&psiFrom));
+                                                 IID_PPV_ARGS(&amp;psiFrom));
                 if (SUCCEEDED(hr))
                 {
                     IShellItem *psiTo = NULL;
@@ -163,7 +167,7 @@ HRESULT CopyItem(__in PCWSTR pszSrcItem, __in PCWSTR pszDest, PCWSTR pszNewName)
                         //
                         hr = SHCreateItemFromParsingName(pszDest, 
                                                          NULL, 
-                                                         IID_PPV_ARGS(&psiTo));
+                                                         IID_PPV_ARGS(&amp;psiTo));
                     }
                     
                     if (SUCCEEDED(hr))
@@ -171,15 +175,15 @@ HRESULT CopyItem(__in PCWSTR pszSrcItem, __in PCWSTR pszDest, PCWSTR pszNewName)
                         //
                         // Add the operation
                         //
-                        hr = pfo->CopyItem(psiFrom, psiTo, pszNewName, NULL);
+                        hr = pfo-&gt;CopyItem(psiFrom, psiTo, pszNewName, NULL);
 
                         if (NULL != psiTo)
                         {
-                            psiTo->Release();
+                            psiTo-&gt;Release();
                         }
                     }
                     
-                    psiFrom->Release();
+                    psiFrom-&gt;Release();
                 }
                 
                 if (SUCCEEDED(hr))
@@ -187,23 +191,23 @@ HRESULT CopyItem(__in PCWSTR pszSrcItem, __in PCWSTR pszDest, PCWSTR pszNewName)
                     //
                     // Perform the operation to copy the file.
                     //
-                    hr = pfo->PerformOperations();
+                    hr = pfo-&gt;PerformOperations();
                 }        
             }
             
             //
             // Release the IFileOperation interface.
             //
-            pfo->Release();
+            pfo-&gt;Release();
         }
   
         CoUninitialize();
     }
     return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

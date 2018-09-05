@@ -4,10 +4,10 @@ title: ITaskScheduler::GetTargetComputer
 author: windows-sdk-content
 description: The GetTargetComputer method returns the name of the computer on which ITaskScheduler is currently targeted.
 old-location: taskschd\itaskscheduler_gettargetcomputer.htm
-old-project: taskschd
+old-project: TaskSchd
 ms.assetid: c421a739-3290-4698-88e6-5c746baf903d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetTargetComputer, GetTargetComputer method [Task Scheduler], GetTargetComputer method [Task Scheduler],ITaskScheduler interface, ITaskScheduler interface [Task Scheduler],GetTargetComputer method, ITaskScheduler.GetTargetComputer, ITaskScheduler::GetTargetComputer, _msb_itaskscheduler_gettargetcomputer, mstask/ITaskScheduler::GetTargetComputer, taskschd.itaskscheduler_gettargetcomputer
 ms.prod: windows
 ms.technology: windows-sdk

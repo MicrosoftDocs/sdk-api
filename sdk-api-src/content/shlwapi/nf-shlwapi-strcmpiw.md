@@ -7,7 +7,7 @@ old-location: shell\StrCmpI.htm
 old-project: shell
 ms.assetid: d059b6bd-8f03-4273-aa7a-b8b07f84d268
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: StrCmpI, StrCmpI function [Windows Shell], StrCmpIW, _win32_StrCmpI, shell.StrCmpI, shlwapi/StrCmpI, shlwapi/StrCmpIW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

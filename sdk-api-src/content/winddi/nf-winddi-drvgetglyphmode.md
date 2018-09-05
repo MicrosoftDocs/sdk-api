@@ -60,7 +60,12 @@ The <b>DrvGetGlyphMode</b> function tells GDI how to cache glyph information.
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
 
 TBD
 

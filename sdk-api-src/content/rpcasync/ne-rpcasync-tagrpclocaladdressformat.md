@@ -4,10 +4,10 @@ title: tagRpcLocalAddressFormat
 author: windows-sdk-content
 description: Specifies the possible local IP address formats supported by RPC.
 old-location: rpc\rpclocaladdressformat.htm
-old-project: rpc
+old-project: Rpc
 ms.assetid: c05610ba-6b00-45e4-b28f-9ce288d08df8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcLocalAddressFormat, RpcLocalAddressFormat enumeration [RPC], rlafIPv4, rlafIPv6, rlafInvalid, rpc.rpclocaladdressformat, rpcasync/RpcLocalAddressFormat, rpcasync/rlafIPv4, rpcasync/rlafIPv6, rpcasync/rlafInvalid, tagRpcLocalAddressFormat
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmi\provider_getobject.htm
 old-project: WmiSdk
 ms.assetid: c8e2633a-cbea-422c-9598-1b1b1104bbc2
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: "?GetObject@Provider@@MAEJPAVCInstance@@JAAVCFrameworkQuery@@@Z, ?GetObject@Provider@@MEAAJPEAVCInstance@@JAEAVCFrameworkQuery@@@Z, GetObject, GetObject method [Windows Management Instrumentation], GetObject method [Windows Management Instrumentation],Provider interface, Provider interface [Windows Management Instrumentation],GetObject method, Provider.GetObject, Provider::GetObject, _hmm_provider_getobject, provider/Provider::GetObject, wmi.provider_getobject"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: setup\setupbackuperror.htm
 old-project: SetupApi
 ms.assetid: 4c2a8a63-29e7-4750-9239-6693754dff58
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: SetupBackupError, SetupBackupError function [Setup API], SetupBackupErrorA, SetupBackupErrorW, _setupapi_setupbackuperror, setup.setupbackuperror, setupapi/SetupBackupError, setupapi/SetupBackupErrorA, setupapi/SetupBackupErrorW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -105,7 +105,7 @@ This structure does not need to be specified if one of the standard vertex shade
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh404337(v=VS.85).aspx">D2D1_VERTEX_USAGE</a>
+<a href="https://msdn.microsoft.com/ff122e0d-5f0e-4a61-bead-53bea6f1648f">D2D1_VERTEX_USAGE</a>
 
 
 

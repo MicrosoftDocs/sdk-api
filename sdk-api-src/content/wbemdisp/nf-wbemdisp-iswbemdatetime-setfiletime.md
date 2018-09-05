@@ -7,7 +7,7 @@ old-location: wmi\swbemdatetime_setfiletime.htm
 old-project: WmiSdk
 ms.assetid: e375afda-5e94-46d6-b1ac-e801e0f4a620
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: ISWbemDateTime interface [Windows Management Instrumentation],SetFileTime method, ISWbemDateTime.SetFileTime, ISWbemDateTime::SetFileTime, SWbemDateTime object [Windows Management Instrumentation],SetFileTime method, SWbemDateTime.SetFileTime, SetFileTime, SetFileTime method [Windows Management Instrumentation], SetFileTime method [Windows Management Instrumentation],ISWbemDateTime interface, SetFileTime method [Windows Management Instrumentation],SWbemDateTime object, _hmm_swbemdatetime.setfiletime, wmi.swbemdatetime_setfiletime
 ms.prod: windows
 ms.technology: windows-sdk

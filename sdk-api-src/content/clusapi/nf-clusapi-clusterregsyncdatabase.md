@@ -7,7 +7,7 @@ old-location: mscs\clusterregsyncdatabase.htm
 old-project: mscs
 ms.assetid: 90A66286-F17D-40AD-B0CB-6E02C1E1709A
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusterRegSyncDatabase, ClusterRegSyncDatabase function [Failover Cluster], PCLUSAPI_CLUSTER_REG_SYNC_DATABASE, PCLUSAPI_CLUSTER_REG_SYNC_DATABASE function [Failover Cluster], clusapi/ClusterRegSyncDatabase, clusapi/PCLUSAPI_CLUSTER_REG_SYNC_DATABASE, mscs.clusterregsyncdatabase
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Synchronizes the <a href="https://msdn.microsoft.com/en-us/library/Aa369094(v=VS.85).aspx">Cluster Database</a> with a cluster.
+Synchronizes the <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a1a-7f1756f97804">Cluster Database</a> with a cluster.
 
 
 ## -parameters
@@ -83,7 +83,7 @@ If the operation succeeds, returns <b>ERROR_SUCCESS</b> (0); otherwise, returns 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369128(v=VS.85).aspx">Cluster Registry Access Functions</a>
+<a href="https://msdn.microsoft.com/2bb0650f-ef9c-40bb-ae90-229bfa23838e">Cluster Registry Access Functions</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: wsw\wscreatemessageforchannel.htm
 old-project: wsw
 ms.assetid: 0a4f076b-6725-45a9-8817-5dec3b647c4f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WsCreateMessageForChannel, WsCreateMessageForChannel function [Web Services for Windows], webservices/WsCreateMessageForChannel, wsw.wscreatemessageforchannel
 ms.prod: windows
 ms.technology: windows-sdk

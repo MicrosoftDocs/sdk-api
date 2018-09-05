@@ -99,25 +99,29 @@ Obtain this interface by calling <b>ITfContext::QueryInterface</b> with IID_ITfC
 
 
 <div class="code"></div>
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT hr;
 ITfContextOwnerCompositionServices *pCompServices;
 
 //Get the ITfContextOwnerCompositionServices interface pointer. 
-hr = m_pContext->QueryInterface(IID_ITfContextOwnerCompositionServices, (LPVOID*)&pCompServices);
+hr = m_pContext-&gt;QueryInterface(IID_ITfContextOwnerCompositionServices, (LPVOID*)&amp;pCompServices);
 if(SUCCEEDED(hr))
 {
     //Use the interface. 
 
     //Release the interface. 
-    pCompServices->Release();
+    pCompServices-&gt;Release();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -135,7 +139,7 @@ if(SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

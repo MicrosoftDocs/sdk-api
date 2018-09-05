@@ -4,10 +4,10 @@ title: IWSManEnumerator
 author: windows-sdk-content
 description: Represents a stream of results returned from operations, such as a Pull operation.
 old-location: winrm\enumerator.htm
-old-project: winrm
+old-project: WinRM
 ms.assetid: 8d8b461d-06a7-4600-8b68-2faf741a394b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Enumerator, Enumerator object [Windows Remote Management], Enumerator object [Windows Remote Management],described, IWSManEnumerator, winrm.enumerator, wsman.enumerator, wsmandisp/Enumerator
 ms.prod: windows
 ms.technology: windows-sdk
@@ -119,7 +119,7 @@ Gets an XML representation of additional error information.
 
 
 
-To start an enumeration, use <a href="https://msdn.microsoft.com/ed8ad3ad-d033-45cb-b681-995c5f73b12e">Session.Enumerate</a>. To do a <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">WS-Enumeration:</a><a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">Pull</a> operation that continues reading items in the enumeration, use <a href="https://msdn.microsoft.com/4280ecb8-2449-41bd-868a-785e8ac3b3d5">Enumerator.ReadItem</a>.
+To start an enumeration, use <a href="https://msdn.microsoft.com/ed8ad3ad-d033-45cb-b681-995c5f73b12e">Session.Enumerate</a>. To do a <a href="windows_remote_management_glossary.htm">WS-Enumeration:</a><a href="windows_remote_management_glossary.htm">Pull</a> operation that continues reading items in the enumeration, use <a href="https://msdn.microsoft.com/4280ecb8-2449-41bd-868a-785e8ac3b3d5">Enumerator.ReadItem</a>.
 
 The <b>Enumerator</b> object corresponds to the  <a href="https://msdn.microsoft.com/c7afac5d-946f-49ec-a7d0-de558ed2144b">IWSManEnumerator</a> interface.
 
@@ -128,9 +128,13 @@ The <b>Enumerator</b> object corresponds to the  <a href="https://msdn.microsoft
 
 The following VBScript code example enumerates all the disks on a remote computer specified by the fully qualified domain name (servername.domain.com). The DisplayOutput subroutine formats the data output in the same way as the WinRM.cmd tool.
 
-
-```vb
-Option Explicit
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Option Explicit
 
 Const RemoteComputer = "MIG50-64D.mig.net"
 
@@ -139,9 +143,9 @@ Dim objResultSet
 
 Set objWsman = CreateObject( "WSMan.Automation" )
 Set objSession = objWsman.CreateSession( "http://" _
-    & RemoteComputer )
+    &amp; RemoteComputer )
 strResource = "http://schemas.microsoft.com/wbem/wsman/1/" _
-     & "wmi/root/cimv2/Win32_OperatingSystem"
+     &amp; "wmi/root/cimv2/Win32_OperatingSystem"
 Dim iFlag
 iFlag = objWsman.EnumerationFlagReturnObjectAndEPR or _
     objWsman.EnumerationFlagHierarchyDeep
@@ -162,10 +166,10 @@ Sub DisplayOutput( strWinRMXml )
     xmlFile.LoadXml( strWinRMXml )
     xslFile.Load( "WsmTxt.xsl" )
     Wscript.Echo xmlFile.TransformNode( xslFile ) 
-End Sub
-```
-
-
+End Sub</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

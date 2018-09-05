@@ -98,13 +98,17 @@ The <b>PROPVARIANT</b> returned in <i>pvarSegmentOffset</i> can be used for the 
 
 #### Examples
 
-
-```cpp
-// Skips to the specified segment in the sequencer source
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Skips to the specified segment in the sequencer source
 
 HRESULT CPlaylist::SkipTo(DWORD index)
 {
-    if (index >= m_count)
+    if (index &gt;= m_count)
     {
         return E_INVALIDARG;
     }
@@ -113,19 +117,19 @@ HRESULT CPlaylist::SkipTo(DWORD index)
 
     PROPVARIANT var;
 
-    HRESULT hr = MFCreateSequencerSegmentOffset(ID, NULL, &var);
+    HRESULT hr = MFCreateSequencerSegmentOffset(ID, NULL, &amp;var);
     
     if (SUCCEEDED(hr))
     {
-        hr = m_pSession->Start(&MF_TIME_FORMAT_SEGMENT_OFFSET, &var);
-        PropVariantClear(&var);
+        hr = m_pSession-&gt;Start(&amp;MF_TIME_FORMAT_SEGMENT_OFFSET, &amp;var);
+        PropVariantClear(&amp;var);
     }
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: fs\ntms_partitioninformation.htm
 old-project: Rsm
 ms.assetid: 75ba3b8d-4b44-49be-b238-e02e62c3def6
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: NTMS_PARTITIONINFORMATION, NTMS_PARTITIONINFORMATION structure [Files], NTMS_PARTITIONINFORMATIONW, NTMS_PARTSTATE_ALLOCATED, NTMS_PARTSTATE_AVAILABLE, NTMS_PARTSTATE_COMPLETE, NTMS_PARTSTATE_DECOMMISIONED, NTMS_PARTSTATE_FOREIGN, NTMS_PARTSTATE_IMPORT, NTMS_PARTSTATE_INCOMPATIBLE, NTMS_PARTSTATE_RESERVED, NTMS_PARTSTATE_UNPREPARED, _NTMS_PARTITIONINFORMATIONA, _NTMS_PARTITIONINFORMATIONW, _zaw_ntms_partitioninformation, base.ntms_partitioninformation, fs.ntms_partitioninformation, ntmsapi/NTMS_PARTITIONINFORMATION
 ms.prod: windows
 ms.technology: windows-sdk

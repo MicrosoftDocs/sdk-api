@@ -4,10 +4,10 @@ title: IWdsTransportNamespaceScheduledCast
 author: windows-sdk-content
 description: Represents a base interface to the derived interfaces:\_IWdsTransportNamespaceScheduledCastManualStart and IWdsTransportNamespaceScheduledCastAutoStart.
 old-location: wds\iwdstransportnamespacescheduledcast.htm
-old-project: wds
+old-project: Wds
 ms.assetid: 434e2eb2-b149-46e6-b7d0-0d07c44bcec2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWdsTransportNamespaceScheduledCast, IWdsTransportNamespaceScheduledCast interface [Windows Deployment Services], IWdsTransportNamespaceScheduledCast interface [Windows Deployment Services],described, wds.iwdstransportnamespacescheduledcast, wdstptmgmt/IWdsTransportNamespaceScheduledCast
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_RM_UNIQUE_PROCESS"
 author: windows-sdk-content
 description: Uniquely identifies a process by its PID and the time the process began.
 old-location: rstmgr\rm_unique_process.htm
-old-project: rstmgr
+old-project: RstMgr
 ms.assetid: 5e3698c7-1ea8-4f9d-8fae-e69055a000fc
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PRM_UNIQUE_PROCESS, *PRM_UNIQUE_PROCESS structure [Restart Mgr], RM_UNIQUE_PROCESS, RM_UNIQUE_PROCESS structure [Restart Mgr], _RM_UNIQUE_PROCESS, restartmanager/*PRM_UNIQUE_PROCESS, restartmanager/_RM_UNIQUE_PROCESS, rstmgr.rm_unique_process"
 ms.prod: windows
 ms.technology: windows-sdk

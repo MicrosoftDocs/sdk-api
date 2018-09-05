@@ -7,7 +7,7 @@ old-location: tablet\inkedit_appearance.htm
 old-project: tablet
 ms.assetid: 4575728c-79ca-4b3f-b068-3b0f8f976cf9
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: Appearance property [Tablet PC], Appearance property [Tablet PC],IInkEdit interface, IInkEdit interface [Tablet PC],Appearance property, IInkEdit.Appearance, IInkEdit.get_Appearance, IInkEdit::Appearance, IInkEdit::get_Appearance, IInkEdit::put_Appearance, InkEdit.get_Appearance, InkEdit.put_Appearance, get_Appearance, inked/IInkEdit::Appearance, inked/IInkEdit::get_Appearance, inked/IInkEdit::put_Appearance, put_Appearance, tablet.inkedit_appearance
 ms.prod: windows
 ms.technology: windows-sdk

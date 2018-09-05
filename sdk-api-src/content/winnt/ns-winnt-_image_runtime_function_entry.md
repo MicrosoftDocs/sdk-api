@@ -7,7 +7,7 @@ old-location: base\_image_runtime_function_entry.htm
 old-project: debug
 ms.assetid: 9ed16f9a-3403-4ba9-9968-f51f6788a1f8
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: "*PRUNTIME_FUNCTION, *_PIMAGE_RUNTIME_FUNCTION_ENTRY, IMAGE_IA64_RUNTIME_FUNCTION_ENTRY, IMAGE_RUNTIME_FUNCTION_ENTRY, RUNTIME_FUNCTION, _IMAGE_RUNTIME_FUNCTION_ENTRY, _IMAGE_RUNTIME_FUNCTION_ENTRY structure, _PIMAGE_RUNTIME_FUNCTION_ENTRY, _PIMAGE_RUNTIME_FUNCTION_ENTRY structure pointer, base._image_runtime_function_entry, winnt/_IMAGE_RUNTIME_FUNCTION_ENTRY, winnt/_PIMAGE_RUNTIME_FUNCTION_ENTRY"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: UnregisterApplicationRestart function
 author: windows-sdk-content
 description: Removes the active instance of an application from the restart list.
 old-location: recovery\unregisterapplicationrestart.htm
-old-project: recovery
+old-project: Recovery
 ms.assetid: 7491812d-6469-4ac3-8d51-68b9c4b13b29
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: UnregisterApplicationRestart, UnregisterApplicationRestart function [Recovery], recovery.unregisterapplicationrestart, winbase/UnregisterApplicationRestart
 ms.prod: windows
 ms.technology: windows-sdk

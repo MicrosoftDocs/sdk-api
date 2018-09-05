@@ -57,7 +57,7 @@ The <b>IADsPrintQueue</b> interface represents a printer on a network. It is a d
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsPrintQueue</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> and <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>. <b>IADsPrintQueue</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IADsPrintQueue</b> interface inherits from <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> and <a href="https://msdn.microsoft.com/f53d9ee0-3f4d-4a01-b953-98d168ad94cb">IADs</a>. <b>IADsPrintQueue</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 <li><a href="https://docs.microsoft.com/">Properties</a></li>
@@ -459,25 +459,33 @@ In Windows, a printer, or a print queue, is managed by a host computer. If the p
 
 The following Visual Basic code example shows the bind operation.
 
-
-```vb
-Dim pq as IADsPrintQueue
-Set pq = GetObject("WinNT://aMachine/aPrinter")
-```
-
-
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim pq as IADsPrintQueue
+Set pq = GetObject("WinNT://aMachine/aPrinter")</pre>
+</td>
+</tr>
+</table></span></div>
 The following C++ code example shows the bind operation.
 
-
-```cpp
-IADsPrintQueue *pq;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IADsPrintQueue *pq;
 LPWSTR adsPath = L"WinNT://aMachine/aPrinter";
 HRESULT hr = ADsGetObject(adsPath,
                           IID_IADsPrintQueue,
-                          (void**)&pq);
-```
-
-
+                          (void**)&amp;pq);</pre>
+</td>
+</tr>
+</table></span></div>
 <p class="proch"><img alt="" src="../common/wedge.gif"/><b>To enumerate all print queues on a given computer</b>
 
 <ol>
@@ -490,9 +498,13 @@ HRESULT hr = ADsGetObject(adsPath,
 
 The following code example enumerates printers on a given computer.
 
-
-```vb
-Dim cont As IADsContainer
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim cont As IADsContainer
 Dim pq As IADsPrintQueue
 
 On Error GoTo Cleanup
@@ -504,18 +516,18 @@ cont.Filter = Array("PrintQueue")
 
 For Each p In cont
    Set pq = GetObject(p.ADsPath)
-   MsgBox pq.Name & " is a " & pq.Model
+   MsgBox pq.Name &amp; " is a " &amp; pq.Model
 Next p
 
 Cleanup:
-    If (Err.Number<>0) Then
-        MsgBox("An error has occurred. " & Err.Number)
+    If (Err.Number&lt;&gt;0) Then
+        MsgBox("An error has occurred. " &amp; Err.Number)
     End If
     Set cont = Nothing
-    Set pq = Nothing
-```
-
-
+    Set pq = Nothing</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -540,7 +552,7 @@ Cleanup:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

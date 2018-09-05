@@ -4,10 +4,10 @@ title: IAzScope::get_Name
 author: windows-sdk-content
 description: Sets or retrieves the name of the scope.
 old-location: security\iazscope_name.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 66c5722a-5217-4e77-b14f-f9cfa4e030c0
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AzScope object [Security],Name property, IAzScope interface [Security],Name property, IAzScope.Name, IAzScope.get_Name, IAzScope::Name, IAzScope::get_Name, IAzScope::put_Name, Name property [Security], Name property [Security],AzScope object, Name property [Security],IAzScope interface, azroles/IAzScope::Name, azroles/IAzScope::get_Name, azroles/IAzScope::put_Name, get_Name, security.iazscope_name
 ms.prod: windows
 ms.technology: windows-sdk

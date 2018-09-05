@@ -7,7 +7,7 @@ old-location: wmi\swbemobject_references_.htm
 old-project: WmiSdk
 ms.assetid: ba02da47-0bb2-40e1-af50-1c42b4be2abd
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: ISWbemObject interface [Windows Management Instrumentation],References_ method, ISWbemObject.References_, ISWbemObject::References_, References_, References_ method [Windows Management Instrumentation], References_ method [Windows Management Instrumentation],ISWbemObject interface, References_ method [Windows Management Instrumentation],SWbemObject object, SWbemObject object [Windows Management Instrumentation],References_ method, SWbemObject.References_, _hmm_swbemobject.references_, wbemFlagBidirectional, wbemFlagForwardOnly, wbemFlagReturnImmediately, wbemFlagReturnWhenComplete, wbemFlagUseAmendedQualifiers, wmi.swbemobject_references_
 ms.prod: windows
 ms.technology: windows-sdk

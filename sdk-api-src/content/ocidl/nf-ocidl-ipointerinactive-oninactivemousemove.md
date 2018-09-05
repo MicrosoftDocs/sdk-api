@@ -7,7 +7,7 @@ old-location: com\ipointerinactive_oninactivemousemove.htm
 old-project: com
 ms.assetid: d026c570-b51b-456f-b121-eb2be08e2cac
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IPointerInactive interface [COM],OnInactiveMouseMove method, IPointerInactive.OnInactiveMouseMove, IPointerInactive::OnInactiveMouseMove, OnInactiveMouseMove, OnInactiveMouseMove method [COM], OnInactiveMouseMove method [COM],IPointerInactive interface, _ctrl_ipointerinactive_oninactivemousemove, com.ipointerinactive_oninactivemousemove, ocidl/IPointerInactive::OnInactiveMouseMove
 ms.prod: windows
 ms.technology: windows-sdk

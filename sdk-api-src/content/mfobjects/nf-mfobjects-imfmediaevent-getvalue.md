@@ -116,40 +116,44 @@ This interface is available on the following platforms if the Windows Media Form
 
 The following function gets the event value if the value is an <b>IUnknown</b> pointer. If the <b>PROPVARIANT</b> type is not <b>VT_UNKOWN</b>, the function returns <b>MF_E_INVALIDTYPE</b>.
 
-
-```cpp
-//  Gets an IUnknown pointer from an IMFMediaEvent event and queries 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//  Gets an IUnknown pointer from an IMFMediaEvent event and queries 
 //  the pointer for a specified interface.
 //
 //  NOTE: Applies only to events that contain IUnknown pointers.
 //        Otherwise, the function returns MF_E_INVALIDTYPE.
 
-template <class Q>
+template &lt;class Q&gt;
 HRESULT GetEventObject(IMFMediaEvent *pEvent, Q **ppObject)
 {
     *ppObject = NULL;   // zero output
 
     PROPVARIANT var;
-    HRESULT hr = pEvent->GetValue(&var);
+    HRESULT hr = pEvent-&gt;GetValue(&amp;var);
     if (SUCCEEDED(hr))
     {
         if (var.vt == VT_UNKNOWN)
         {
-            hr = var.punkVal->QueryInterface(ppObject);
+            hr = var.punkVal-&gt;QueryInterface(ppObject);
         }
         else
         {
             hr = MF_E_INVALIDTYPE;
         }
-        PropVariantClear(&var);
+        PropVariantClear(&amp;var);
     }
     return hr;
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

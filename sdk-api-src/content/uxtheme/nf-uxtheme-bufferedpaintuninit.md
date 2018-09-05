@@ -54,7 +54,7 @@ req.product: Windows UI
 ## -description
 
 
-Closes down buffered painting for the current thread. Called once for each call to <a href="https://msdn.microsoft.com/en-us/library/Bb773266(v=VS.85).aspx">BufferedPaintInit</a> after calls to <a href="https://msdn.microsoft.com/en-us/library/Bb773257(v=VS.85).aspx">BeginBufferedPaint</a> are no longer needed.
+Closes down buffered painting for the current thread. Called once for each call to <a href="https://msdn.microsoft.com/e35fd59a-f493-4ac0-971a-d0746123e255">BufferedPaintInit</a> after calls to <a href="https://msdn.microsoft.com/da574e22-b08e-47e8-b874-e158862c2f9a">BeginBufferedPaint</a> are no longer needed.
 
 
 ## -parameters

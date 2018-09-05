@@ -7,7 +7,7 @@ old-location: wsw\ws_byte_array_description.htm
 old-project: wsw
 ms.assetid: 4bdc2956-387e-4cf6-93e1-3a3879c74ccf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_BYTE_ARRAY_DESCRIPTION, WS_BYTE_ARRAY_DESCRIPTION structure [Web Services for Windows], _WS_BYTE_ARRAY_DESCRIPTION, webservices/WS_BYTE_ARRAY_DESCRIPTION, wsw.ws_byte_array_description
 ms.prod: windows
 ms.technology: windows-sdk

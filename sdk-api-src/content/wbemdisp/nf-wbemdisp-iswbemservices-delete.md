@@ -7,7 +7,7 @@ old-location: wmi\swbemservices_delete.htm
 old-project: WmiSdk
 ms.assetid: 7dabab12-e8ee-4d44-932f-f3239b6f066e
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: Delete, Delete method [Windows Management Instrumentation], Delete method [Windows Management Instrumentation],ISWbemServices interface, Delete method [Windows Management Instrumentation],SWbemServices object, ISWbemServices interface [Windows Management Instrumentation],Delete method, ISWbemServices.Delete, ISWbemServices::Delete, SWbemServices object [Windows Management Instrumentation],Delete method, SWbemServices.Delete, _hmm_swbemservices.delete, wmi.swbemservices_delete
 ms.prod: windows
 ms.technology: windows-sdk
@@ -107,9 +107,13 @@ The <b>SWbemServices.Delete</b> method can be used when the key property for the
 
 The following example creates a new class, adds a property that is not a key, writes the new class to the repository, and displays the path of the new class object. The script then spawns an instance of the new class, writes the instance, and displays the path. Note that the script deletes both the class and its instances from the repository by  deleting the class. For more information about WMI classes and instances, see <a href="https://msdn.microsoft.com/682cbe12-1487-4681-8d2f-4caf21cb068a">Manipulating Class and Instance Information</a> and <a href="https://msdn.microsoft.com/3e619cb7-18a9-40ff-82fe-c10eb5090a93">Common Information Model</a>.
 
-
-```vb
-wbemCimtypeSint32 = 3
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>wbemCimtypeSint32 = 3
 Set objSWbemService = GetObject("Winmgmts:root\default")
 Set objClass = objSWbemService.Get()
 objClass.Path_.Class = "NewClass"
@@ -135,17 +139,17 @@ wscript.echo objInstancePath.Path
 
 ' Remove the new class and instance from the repository
 objSWbemService.Delete("NewClass")
-If Err <> 0 Then
-    WScript.Echo Err.Number & "    " & Err.Description 
+If Err &lt;&gt; 0 Then
+    WScript.Echo Err.Number &amp; "    " &amp; Err.Description 
 Else
     WScript.Echo "Delete succeeded"
 End If
 
 ' Release SwbemServices object
-Set objSWbemService = Nothing
-```
-
-
+Set objSWbemService = Nothing</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

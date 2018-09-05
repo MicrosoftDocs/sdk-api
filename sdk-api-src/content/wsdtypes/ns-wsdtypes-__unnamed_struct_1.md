@@ -4,10 +4,10 @@ title: REQUESTBODY_Subscribe
 author: windows-sdk-content
 description: Represents a WS-Eventing Subscribe request message.
 old-location: ncd\requestbody_subscribe_struct.htm
-old-project: wsdapi
+old-project: WsdApi
 ms.assetid: 28e7ee55-ad82-4ee6-9716-80951525ca96
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: REQUESTBODY_Subscribe, REQUESTBODY_Subscribe structure, ncd.requestbody_subscribe_struct, wsdtypes/REQUESTBODY_Subscribe
 ms.prod: windows
 ms.technology: windows-sdk

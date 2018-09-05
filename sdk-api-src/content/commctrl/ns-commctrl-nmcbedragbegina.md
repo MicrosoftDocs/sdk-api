@@ -53,7 +53,7 @@ req.irql:
 ## -description
 
 
-Contains information used with the <a href="https://msdn.microsoft.com/en-us/library/Bb775758(v=VS.85).aspx">CBEN_DRAGBEGIN</a> notification code. 
+Contains information used with the <a href="https://msdn.microsoft.com/bdab2700-a605-48af-aee3-bbf573408e3f">CBEN_DRAGBEGIN</a> notification code. 
 
 
 ## -struct-fields
@@ -63,9 +63,9 @@ Contains information used with the <a href="https://msdn.microsoft.com/en-us/lib
 
 ### -field hdr
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a></b>
+Type: <b><a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a></b>
 
-An <a href="https://msdn.microsoft.com/en-us/library/Bb775514(v=VS.85).aspx">NMHDR</a> structure that contains information about the notification code. 
+An <a href="https://msdn.microsoft.com/0c8b116b-82ad-495a-b19d-8c172e0b2608">NMHDR</a> structure that contains information about the notification code. 
 
 
 ### -field iItemid

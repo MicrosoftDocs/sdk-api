@@ -4,10 +4,10 @@ title: GetSecurityDescriptorGroup function
 author: windows-sdk-content
 description: Retrieves the primary group information from a security descriptor.
 old-location: security\getsecuritydescriptorgroup.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: a920b49e-a4c2-4e49-b529-88c12205d995
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: GetSecurityDescriptorGroup, GetSecurityDescriptorGroup function [Security], _win32_getsecuritydescriptorgroup, security.getsecuritydescriptorgroup, securitybaseapi/GetSecurityDescriptorGroup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -130,7 +130,7 @@ If the function fails, it returns zero. To get extended error information, call
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Low-level Access Control Functions</a>
+<a href="authorization_functions.htm">Low-level Access Control Functions</a>
 
 
 

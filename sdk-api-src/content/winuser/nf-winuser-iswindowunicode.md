@@ -7,7 +7,7 @@ old-location: winmsg\iswindowunicode.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\iswindowunicode.htm
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: IsWindowUnicode, IsWindowUnicode function [Windows and Messages], _win32_IsWindowUnicode, _win32_iswindowunicode_cpp, winmsg.iswindowunicode, winui._win32_iswindowunicode, winuser/IsWindowUnicode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,7 +89,7 @@ If the window is not a native Unicode window, the return value is zero. The wind
 
 
 
-The character set of a window is determined by the use of the <a href="https://msdn.microsoft.com/en-us/library/ms633586(v=VS.85).aspx">RegisterClass</a> function. If the window class was registered with the ANSI version of <b>RegisterClass</b> (<b>RegisterClassA</b>), the character set of the window is ANSI. If the window class was registered with the Unicode version of <b>RegisterClass</b> (<b>RegisterClassW</b>), the character set of the window is Unicode. 
+The character set of a window is determined by the use of the <a href="https://msdn.microsoft.com/485115e5-b4ec-4e93-89ce-eee229ccabb7">RegisterClass</a> function. If the window class was registered with the ANSI version of <b>RegisterClass</b> (<b>RegisterClassA</b>), the character set of the window is ANSI. If the window class was registered with the Unicode version of <b>RegisterClass</b> (<b>RegisterClassW</b>), the character set of the window is Unicode. 
 
 The system does automatic two-way translation (Unicode to ANSI) for window messages. For example, if an ANSI window message is sent to a window that uses the Unicode character set, the system translates that message into a Unicode message before calling the window procedure. The system calls <b>IsWindowUnicode</b> to determine whether to translate the message. 
 
@@ -101,7 +101,7 @@ The system does automatic two-way translation (Unicode to ANSI) for window messa
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows Overview</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows Overview</a>
  
 
  

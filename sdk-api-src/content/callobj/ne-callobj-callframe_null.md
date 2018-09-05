@@ -7,7 +7,7 @@ old-location: com\callframe_null.htm
 old-project: com
 ms.assetid: 99d83bdc-a33b-4233-84c6-350274f42965
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CALLFRAME_NULL, CALLFRAME_NULL enumeration [COM], CALLFRAME_NULL_ALL, CALLFRAME_NULL_INOUT, CALLFRAME_NULL_NONE, CALLFRAME_NULL_OUT, callobj/CALLFRAME_NULL, callobj/CALLFRAME_NULL_ALL, callobj/CALLFRAME_NULL_INOUT, callobj/CALLFRAME_NULL_NONE, callobj/CALLFRAME_NULL_OUT, com.callframe_null
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,7 @@ All [out] and [in, out] parameters are freed.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms690081(v=VS.85).aspx">ICallFrame::Free</a>
+<a href="https://msdn.microsoft.com/97261d93-40cf-4a27-9bee-677600c04699">ICallFrame::Free</a>
  
 
  

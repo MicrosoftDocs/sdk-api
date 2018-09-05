@@ -120,9 +120,13 @@ There is no guarantee that exactly the same set of variants will be enumerated t
 
 The following code implements <b>IEnumVariant::Clone</b>. A complete example implementation of the <b>IEnumVariant</b> interface is available in the COM Fundamentals Lines sample (Enumvar.cpp).
 
-
-```cpp
-STDMETHODIMP
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP
 CEnumVariant::Clone(IEnumVARIANT ** ppenum)
 {
    CEnumVariant * penum = NULL;
@@ -133,23 +137,23 @@ CEnumVariant::Clone(IEnumVARIANT ** ppenum)
 
    *ppenum = NULL;
 
-   hr = CEnumVariant::Create(m_psa, m_cElements, &penum);
+   hr = CEnumVariant::Create(m_psa, m_cElements, &amp;penum);
    if (FAILED(hr))
       goto error;
-   penum->AddRef();
-   penum->m_lCurrent = m_lCurrent;
+   penum-&gt;AddRef();
+   penum-&gt;m_lCurrent = m_lCurrent;
 
    *ppenum = penum;
    return NOERROR;
 
 error:
    if (penum)
-      penum->Release();
+      penum-&gt;Release();
    return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

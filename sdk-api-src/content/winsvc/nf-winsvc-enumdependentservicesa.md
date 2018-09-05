@@ -4,10 +4,10 @@ title: EnumDependentServicesA function
 author: windows-sdk-content
 description: Retrieves the name and status of each service that depends on the specified service.
 old-location: base\enumdependentservices.htm
-old-project: services
+old-project: Services
 ms.assetid: 905d4453-96d4-4055-8a17-36714c547cdd
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: EnumDependentServices, EnumDependentServices function, EnumDependentServicesA, EnumDependentServicesW, SERVICE_ACTIVE, SERVICE_INACTIVE, SERVICE_STATE_ALL, _win32_enumdependentservices, base.enumdependentservices, winsvc/EnumDependentServices, winsvc/EnumDependentServicesA, winsvc/EnumDependentServicesW
 ms.prod: windows
 ms.technology: windows-sdk

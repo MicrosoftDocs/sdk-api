@@ -7,7 +7,7 @@ old-location: setup\setupopenappendinffile.htm
 old-project: SetupApi
 ms.assetid: 12b1c676-912f-4876-998c-6b0ff162b95d
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: SetupOpenAppendInfFile, SetupOpenAppendInfFile function [Setup API], SetupOpenAppendInfFileA, SetupOpenAppendInfFileW, _setupapi_setupopenappendinffile, setup.setupopenappendinffile, setupapi/SetupOpenAppendInfFile, setupapi/SetupOpenAppendInfFileA, setupapi/SetupOpenAppendInfFileW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: MprAdminInterfaceEnum function
 author: windows-sdk-content
 description: The MprAdminInterfaceEnum function enumerates all the interfaces on a specified server.
 old-location: rras\mpradmininterfaceenum.htm
-old-project: rras
+old-project: RRAS
 ms.assetid: 50486ad3-2f1d-4ab9-9a7f-7b72128486fb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MprAdminInterfaceEnum, MprAdminInterfaceEnum function [RAS], _mpr_mpradmininterfaceenum, mprapi/MprAdminInterfaceEnum, rras.mpradmininterfaceenum
 ms.prod: windows
 ms.technology: windows-sdk

@@ -109,20 +109,24 @@ If an extension snap-in is intended to be used as a dynamic extension only, that
 
 The following code example adds the extension snap-in specified by <b>CLSID_Extension</b>:
 
-
-```cpp
-IConsoleNameSpace2* pExtensions = NULL;
-HRESULT hr = m_pConsole->QueryInterface(IID_IConsoleNameSpace2, reinterpret_cast<void**>(&pExtensions));
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IConsoleNameSpace2* pExtensions = NULL;
+HRESULT hr = m_pConsole-&gt;QueryInterface(IID_IConsoleNameSpace2, reinterpret_cast&lt;void**&gt;(&amp;pExtensions));
  
 if (SUCCEEDED(hr))
 {
-    hr = pExtensions->AddExtension(m_pStaticRoot, const_cast<CLSID*>(&CLSID_Extension));
+    hr = pExtensions-&gt;AddExtension(m_pStaticRoot, const_cast&lt;CLSID*&gt;(&amp;CLSID_Extension));
     ASSERT(hr == S_OK);
-    pExtensions->Release();
-}
-```
-
-
+    pExtensions-&gt;Release();
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

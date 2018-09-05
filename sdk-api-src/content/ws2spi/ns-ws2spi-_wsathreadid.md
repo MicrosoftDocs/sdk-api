@@ -4,10 +4,10 @@ title: "_WSATHREADID"
 author: windows-sdk-content
 description: The WSATHREADID structure enables a provider to identify a thread on which asynchronous procedure calls (APCs) can be queued using the WPUQueueApc function.
 old-location: winsock\wsathreadid_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: eeea1139-1d14-4f53-bd64-833539b53bed
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPWSATHREADID, LPWSATHREADID, LPWSATHREADID structure pointer [Winsock], WSATHREADID, WSATHREADID structure [Winsock], _WSATHREADID, _win32_wsathreadid_2, winsock.wsathreadid_2, ws2spi/LPWSATHREADID, ws2spi/WSATHREADID"
 ms.prod: windows
 ms.technology: windows-sdk

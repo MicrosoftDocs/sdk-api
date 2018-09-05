@@ -7,7 +7,7 @@ old-location: shell\IAccessibilityDockingService_GetAvailableSize.htm
 old-project: shell
 ms.assetid: B447D464-EFAF-4743-900F-E77A2FE140DD
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetAvailableSize, GetAvailableSize method [Windows Shell], GetAvailableSize method [Windows Shell],IAccessibilityDockingService interface, IAccessibilityDockingService interface [Windows Shell],GetAvailableSize method, IAccessibilityDockingService.GetAvailableSize, IAccessibilityDockingService::GetAvailableSize, shell.IAccessibilityDockingService_GetAvailableSize, shobjidl/IAccessibilityDockingService::GetAvailableSize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -146,12 +146,16 @@ A docked accessibility window is limited in the amount of space that it can use 
 
 This example shows this method in use.
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
  IAccessibilityDockingService *pDockingService;
  
- HRESULT hr = CoCreateInstance(CLSID_AccessibilityDockingService, CLSCTX_INPROV_SERVER, nullptr, IID_PPV_ARGS(&pDockingService));
+ HRESULT hr = CoCreateInstance(CLSID_AccessibilityDockingService, CLSCTX_INPROV_SERVER, nullptr, IID_PPV_ARGS(&amp;pDockingService));
  if (SUCCEEDED(hr)) 
  {
      UINT uMaxHeight;
@@ -160,12 +164,12 @@ This example shows this method in use.
      HMONITOR hMonitor = MonitorFromWindow(_hwndMyApplication, MONITOR_DEFAULTTONULL);
      if (hMonitor != nullptr)
      {
-         hr = pDockingService->GetAvailableSize(hMonitor, &uMaxHeight, &uFixedWidth);
+         hr = pDockingService-&gt;GetAvailableSize(hMonitor, &amp;uMaxHeight, &amp;uFixedWidth);
      }
- }
-```
-
-
+ }</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

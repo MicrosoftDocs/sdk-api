@@ -4,10 +4,10 @@ title: "_RM_REBOOT_REASON"
 author: windows-sdk-content
 description: Describes the reasons a restart of the system is needed.
 old-location: rstmgr\rm_reboot_reason.htm
-old-project: rstmgr
+old-project: RstMgr
 ms.assetid: f99c1b66-db2f-4520-86cf-19961e511474
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RM_REBOOT_REASON, RM_REBOOT_REASON enumeration [Restart Mgr], RmRebootReasonCriticalProcess, RmRebootReasonCriticalService, RmRebootReasonDetectedSelf, RmRebootReasonNone, RmRebootReasonPermissionDenied, RmRebootReasonSessionMismatch, _RM_REBOOT_REASON, restartmanager/RM_REBOOT_REASON, restartmanager/RmRebootReasonCriticalProcess, restartmanager/RmRebootReasonCriticalService, restartmanager/RmRebootReasonDetectedSelf, restartmanager/RmRebootReasonNone, restartmanager/RmRebootReasonPermissionDenied, restartmanager/RmRebootReasonSessionMismatch, rstmgr.rm_reboot_reason
 ms.prod: windows
 ms.technology: windows-sdk

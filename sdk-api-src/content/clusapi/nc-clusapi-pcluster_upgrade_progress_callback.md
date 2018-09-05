@@ -7,7 +7,7 @@ old-location: mscs\clusterupgradeprogresscallback.htm
 old-project: mscs
 ms.assetid: EE803D8C-3EFD-414F-8E38-65A1DFA8079B
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusterUpgradeProgressCallback, ClusterUpgradeProgressCallback callback, ClusterUpgradeProgressCallback callback function [Failover Cluster], PCLUSTER_UPGRADE_PROGRESS_CALLBACK, PCLUSTER_UPGRADE_PROGRESS_CALLBACK callback function [Failover Cluster], clusapi/ClusterUpgradeProgressCallback, clusapi/PCLUSTER_UPGRADE_PROGRESS_CALLBACK, mscs.clusterupgradeprogresscallback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ A pointer to the arguments.
 
 ### -param eUpgradePhase
 
-A  <a href="https://msdn.microsoft.com/en-us/library/Dn806625(v=VS.85).aspx">CLUSTER_UPGRADE_PHASE</a> enumeration values that indicates the state of the rolling upgrade.
+A  <a href="https://msdn.microsoft.com/75FB1BCD-03E0-4A6F-8C97-99AE8E958174">CLUSTER_UPGRADE_PHASE</a> enumeration values that indicates the state of the rolling upgrade.
 
 
 ## -returns
@@ -90,7 +90,7 @@ This function returns one of the following values:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369107(v=VS.85).aspx">Failover Cluster Management Functions</a>
+<a href="https://msdn.microsoft.com/1b3a3b23-39db-47b7-b4a8-17fc1ee45df6">Failover Cluster Management Functions</a>
  
 
  

@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: 
+req.typenames: DBTEXT
 topic_type:
  - APIRef
  - kbSyntax

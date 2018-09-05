@@ -7,7 +7,7 @@ old-location: wmdm\iwmdevicemanager3_setdeviceenumpreference.htm
 old-project: WMDM
 ms.assetid: a39aaa62-6f23-4fe0-9231-1781ce74b090
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IWMDeviceManager3 interface [windows Media Device Manager],SetDeviceEnumPreference method, IWMDeviceManager3.SetDeviceEnumPreference, IWMDeviceManager3::SetDeviceEnumPreference, IWMDeviceManager3SetDeviceEnumPreference, SetDeviceEnumPreference, SetDeviceEnumPreference method [windows Media Device Manager], SetDeviceEnumPreference method [windows Media Device Manager],IWMDeviceManager3 interface, mswmdm/IWMDeviceManager3::SetDeviceEnumPreference, wmdm.iwmdevicemanager3_setdeviceenumpreference
 ms.prod: windows
 ms.technology: windows-sdk

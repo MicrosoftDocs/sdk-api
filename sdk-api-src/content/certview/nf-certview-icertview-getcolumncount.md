@@ -4,10 +4,10 @@ title: ICertView::GetColumnCount
 author: windows-sdk-content
 description: Retrieves the number of columns in the view of the Certificate Services database.
 old-location: security\icertview2_getcolumncount.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 0297d8e3-5077-40da-88b7-adac252e0f1b
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CCertView object [Security],GetColumnCount method, CVRC_COLUMN_MASK, CVRC_COLUMN_RESULT, CVRC_COLUMN_SCHEMA, CVRC_COLUMN_VALUE, GetColumnCount, GetColumnCount method [Security], GetColumnCount method [Security],CCertView object, GetColumnCount method [Security],ICertView interface, GetColumnCount method [Security],ICertView2 interface, ICertView interface [Security],GetColumnCount method, ICertView.GetColumnCount, ICertView2 interface [Security],GetColumnCount method, ICertView2::GetColumnCount, ICertView::GetColumnCount, certview/ICertView2::GetColumnCount, certview/ICertView::GetColumnCount, security.icertview2_getcolumncount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -126,7 +126,7 @@ A pointer to a variable that contains the number of columns in the view. This fu
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK, and the <i>pcColumn</i> parameter is set to the number of columns in the view.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value is the number of columns in the view.
@@ -148,15 +148,15 @@ This method is used to determine the number of columns in the view. The returned
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385417(v=VS.85).aspx">CCertView</a>
+<a href="https://msdn.microsoft.com/c29f1db3-0cdf-463e-a202-47fbba8e1c81">CCertView</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385414(v=VS.85).aspx">ICertView</a>
+<a href="https://msdn.microsoft.com/0b6660ee-458f-457f-8a38-0d950aee2710">ICertView</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385450(v=VS.85).aspx">ICertView::SetResultColumnCount</a>
+<a href="https://msdn.microsoft.com/f98b2f45-be9f-47ba-9c6b-63a2912288ac">ICertView::SetResultColumnCount</a>
  
 
  

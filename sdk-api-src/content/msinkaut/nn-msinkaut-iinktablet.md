@@ -7,7 +7,7 @@ old-location: tablet\iinktablet.htm
 old-project: tablet
 ms.assetid: 9a945740-b191-41f5-8b3d-49b7e2d1e463
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 9a945740-b191-41f5-8b3d-49b7e2d1e463, IInkTablet, IInkTablet interface [Tablet PC], IInkTablet interface [Tablet PC],described, msinkaut/IInkTablet, tablet.iinktablet
 ms.prod: windows
 ms.technology: windows-sdk

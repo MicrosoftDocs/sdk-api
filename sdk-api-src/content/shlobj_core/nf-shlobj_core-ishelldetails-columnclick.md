@@ -7,7 +7,7 @@ old-location: shell\IShellDetails_ColumnClick.htm
 old-project: shell
 ms.assetid: df37b2c7-16ea-4768-a1c2-6ccec4fecde9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ColumnClick, ColumnClick method [Windows Shell], ColumnClick method [Windows Shell],IShellDetails interface, IShellDetails interface [Windows Shell],ColumnClick method, IShellDetails.ColumnClick, IShellDetails::ColumnClick, _win32_IShellDetails_ColumnClick, shell.IShellDetails_ColumnClick, shlobj_core/IShellDetails::ColumnClick
 ms.prod: windows
 ms.technology: windows-sdk

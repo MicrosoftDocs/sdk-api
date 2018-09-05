@@ -4,10 +4,10 @@ title: socket function
 author: windows-sdk-content
 description: The socket function creates a socket that is bound to a specific transport service provider.
 old-location: winsock\socket_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: 6bf6e6c4-6268-479c-86a6-52e90cf317db
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: AF_APPLETALK, AF_BTH, AF_INET, AF_INET6, AF_IPX, AF_IRDA, AF_NETBIOS, AF_UNSPEC, BTHPROTO_RFCOMM, IPPROTO_ICMP, IPPROTO_ICMPV6, IPPROTO_IGMP, IPPROTO_RM, IPPROTO_TCP, IPPROTO_UDP, SOCK_DGRAM, SOCK_RAW, SOCK_RDM, SOCK_SEQPACKET, SOCK_STREAM, _win32_socket_2, socket, socket function [Winsock], winsock.socket_2, winsock2/socket
 ms.prod: windows
 ms.technology: windows-sdk
@@ -391,7 +391,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -403,7 +403,7 @@ A successful
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -414,7 +414,7 @@ The network subsystem or the associated service provider has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEAFNOSUPPORT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEAFNOSUPPORT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -425,7 +425,7 @@ The specified address family is not supported. For example, an application tried
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -436,7 +436,7 @@ A blocking Windows Sockets 1.1 call is in progress, or the service provider is s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEMFILE</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEMFILE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -447,7 +447,7 @@ No more socket descriptors are available.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -458,7 +458,7 @@ An invalid argument was supplied.  This error is returned if the <i>af</i> param
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVALIDPROVIDER</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVALIDPROVIDER</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -469,7 +469,7 @@ The service provider returned a version other than 2.2.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVALIDPROCTABLE</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVALIDPROCTABLE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -481,7 +481,7 @@ The service provider returned an invalid or incomplete procedure table to the
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOBUFS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOBUFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -492,7 +492,7 @@ No buffer space is available. The socket cannot be created.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEPROTONOSUPPORT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEPROTONOSUPPORT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -503,7 +503,7 @@ The specified protocol is not supported.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEPROTOTYPE</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEPROTOTYPE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -514,7 +514,7 @@ The specified protocol is the wrong type for this socket.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEPROVIDERFAILEDINIT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEPROVIDERFAILEDINIT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -525,7 +525,7 @@ The service provider failed to initialize. This error is returned if a layered s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAESOCKTNOSUPPORT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAESOCKTNOSUPPORT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -554,8 +554,8 @@ Sockets without the overlapped attribute can be created by using
 <a href="https://msdn.microsoft.com/038aeca6-d7b7-4f74-ac69-4536c2e5118b">WSAIoctl</a>) also support nonoverlapped usage on an overlapped socket if the values for parameters related to overlapped operation are <b>NULL</b>.
 
 When selecting a protocol and its supporting service provider this procedure will only choose a base protocol or a protocol chain, not a protocol layer by itself. Unchained protocol layers are not considered to have partial matches on <i>type</i> or <i>af</i> either. That is, they do not lead to an error code of 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEAFNOSUPPORT</a> or 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEPROTONOSUPPORT</a> if no suitable protocol is found.
+<a href="windows_sockets_error_codes_2.htm">WSAEAFNOSUPPORT</a> or 
+<a href="windows_sockets_error_codes_2.htm">WSAEPROTONOSUPPORT</a> if no suitable protocol is found.
 
 <div class="alert"><b>Note</b>    The manifest constant <b>AF_UNSPEC</b> continues to be defined in the header file but its use is strongly discouraged, as this can cause ambiguity in interpreting the value of the <i>protocol</i> parameter.</div>
 <div> </div>
@@ -568,7 +568,7 @@ Connection-oriented sockets such as <b>SOCK_STREAM</b> provide full-duplex conne
 <a href="https://msdn.microsoft.com/2f357aa8-389b-4c92-8a9f-289e048cc41c">closesocket</a> must be performed.
 
 The communications protocols used to implement a reliable, connection-oriented socket ensure that data is not lost or duplicated. If data for which the peer protocol has buffer space cannot be successfully transmitted within a reasonable length of time, the connection is considered broken and subsequent calls will fail with the error code set to 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAETIMEDOUT</a>.
+<a href="windows_sockets_error_codes_2.htm">WSAETIMEDOUT</a>.
 
 Connectionless, message-oriented sockets allow sending and receiving of datagrams to and from arbitrary peers using 
 <a href="https://msdn.microsoft.com/a1c89c6b-d11d-4d3e-a664-af2beed0cd09">sendto</a> and 
@@ -598,24 +598,28 @@ Keep the following in mind:
 <li>Only <b>SOCK_STREAM</b> is supported; the <b>SOCK_DGRAM</b> type is not supported by IrDA.</li>
 <li>The <i>protocol</i> parameter is always set to 0 for IrDA.</li>
 </ul>
-A socket for use with the AF_IRDA address family can only be created if the local computer has an infrared port and driver installed. Otherwise, a call to the <b>socket</b> function with <i>af</i> parameter set to AF_IRDA will fail and <a href="https://msdn.microsoft.com/39e41b66-44ed-46dc-bfc2-65228b669992">WSAGetLastError</a> returns <a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEPROTONOSUPPORT</a>. 
+A socket for use with the AF_IRDA address family can only be created if the local computer has an infrared port and driver installed. Otherwise, a call to the <b>socket</b> function with <i>af</i> parameter set to AF_IRDA will fail and <a href="https://msdn.microsoft.com/39e41b66-44ed-46dc-bfc2-65228b669992">WSAGetLastError</a> returns <a href="windows_sockets_error_codes_2.htm">WSAEPROTONOSUPPORT</a>. 
 
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following example demonstrates the use of the <b>socket</b> function to create a socket that is bound to a specific transport service provider..
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE 1
 #endif
 
 // link with Ws2_32.lib
 #pragma comment(lib,"Ws2_32.lib")
 
-#include <winsock2.h>
-#include <ws2tcpip.h>
-#include <stdio.h>
-#include <stdlib.h>   // Needed for _wtoi
+#include &lt;winsock2.h&gt;
+#include &lt;ws2tcpip.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;   // Needed for _wtoi
 
 
 int __cdecl wmain(int argc, wchar_t **argv)
@@ -635,8 +639,8 @@ int __cdecl wmain(int argc, wchar_t **argv)
 
     // Validate the parameters
     if (argc != 4) {
-        wprintf(L"usage: %s <addressfamily> <type> <protocol>\n", argv[0]);
-        wprintf(L"socket opens a socket for the specified family, type, & protocol\n");
+        wprintf(L"usage: %s &lt;addressfamily&gt; &lt;type&gt; &lt;protocol&gt;\n", argv[0]);
+        wprintf(L"socket opens a socket for the specified family, type, &amp; protocol\n");
         wprintf(L"%ws example usage\n", argv[0]);
         wprintf(L"   %ws 0 2 17\n", argv[0]);
         wprintf(L"   where AF_UNSPEC=0 SOCK_DGRAM=2 IPPROTO_UDP=17\n", argv[0]);
@@ -648,7 +652,7 @@ int __cdecl wmain(int argc, wchar_t **argv)
     iProtocol = _wtoi(argv[3]);
     
     // Initialize Winsock
-    iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
+    iResult = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
     if (iResult != 0) {
         wprintf(L"WSAStartup failed: %d\n", iResult);
         return 1;
@@ -753,10 +757,10 @@ int __cdecl wmain(int argc, wchar_t **argv)
     return 0;
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <b>Windows Phone 8:</b> This function is supported for Windows Phone Store apps on Windows Phone 8 and later.
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.

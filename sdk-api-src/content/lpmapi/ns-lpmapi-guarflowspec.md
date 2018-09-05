@@ -4,10 +4,10 @@ title: GuarFlowSpec
 author: windows-sdk-content
 description: The GuarFlowSpec structure contains guaranteed flowspec information.
 old-location: qos\guarflowspec.htm
-old-project: qos
+old-project: QOS
 ms.assetid: 549380cc-b4ac-414a-9058-f506741f1e76
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GuarFlowSpec, GuarFlowSpec structure [QOS], lpmapi/GuarFlowSpec, qos.guarflowspec
 ms.prod: windows
 ms.technology: windows-sdk

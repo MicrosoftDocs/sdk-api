@@ -7,7 +7,7 @@ old-location: wmi\swbemprivilege_name.htm
 old-project: WmiSdk
 ms.assetid: cc1cdde7-20ad-4ff7-ad49-43eb46c15df9
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: ISWbemPrivilege interface [Windows Management Instrumentation],Name property, ISWbemPrivilege.get_Name, ISWbemPrivilege::get_Name, Name property [Windows Management Instrumentation], Name property [Windows Management Instrumentation],ISWbemPrivilege interface, Name property [Windows Management Instrumentation],SWbemPrivilege object, SWbemPrivilege object [Windows Management Instrumentation],Name property, SWbemPrivilege.Name, _hmm_swbemprivilege.name, get_Name, wmi.swbemprivilege_name
 ms.prod: windows
 ms.technology: windows-sdk

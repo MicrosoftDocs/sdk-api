@@ -7,7 +7,7 @@ old-location: com\iolewindow_getwindow.htm
 old-project: com
 ms.assetid: 833adc81-be58-44a1-88f1-9aa28808e67b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetWindow, GetWindow method [COM], GetWindow method [COM],IOleWindow interface, IOleWindow interface [COM],GetWindow method, IOleWindow.GetWindow, IOleWindow::GetWindow, _ole_iolewindow_getwindow, com.iolewindow_getwindow, oleidl/IOleWindow::GetWindow
 ms.prod: windows
 ms.technology: windows-sdk

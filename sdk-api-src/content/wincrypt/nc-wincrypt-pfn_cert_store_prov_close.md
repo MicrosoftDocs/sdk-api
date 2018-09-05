@@ -4,11 +4,11 @@ title: PFN_CERT_STORE_PROV_CLOSE
 author: windows-sdk-content
 description: An application-defined callback function that is called by CertCloseStore when the store's reference count is decremented to zero.
 old-location: security\certstoreprovclosecallback.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 2d0aa2c2-e79f-485c-ad47-6d9672c778da
 ms.author: windowssdkdev
-ms.date: 08/15/2018
-ms.keywords: CertStoreProvCloseCallback, CertStoreProvCloseCallback callback, CertStoreProvCloseCallback callback function [Security], PFN_CERT_STORE_PROV_CLOSE, PFN_CERT_STORE_PROV_CLOSE callback function [Security], _crypto2_certstoreprovclosecallback, security.certstoreprovclosecallback, wincrypt/CertStoreProvCloseCallback, wincrypt/PFN_CERT_STORE_PROV_CLOSE
+ms.date: 08/29/2018
+ms.keywords: CertStoreProvCloseCallback, PFN_CERT_STORE_PROV_CLOSE, PFN_CERT_STORE_PROV_CLOSE callback, PFN_CERT_STORE_PROV_CLOSE callback function [Security], _crypto2_certstoreprovclosecallback, security.certstoreprovclosecallback, wincrypt/PFN_CERT_STORE_PROV_CLOSE
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - CertStoreProvCloseCallback
+ - PFN_CERT_STORE_PROV_CLOSE
 product: Windows
 targetos: Windows
 req.lib: 
@@ -88,7 +88,7 @@ This callback function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Callback Functions</a>
+<a href="cryptography_functions.htm">Callback Functions</a>
  
 
  

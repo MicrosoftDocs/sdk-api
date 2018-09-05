@@ -4,10 +4,10 @@ title: IAzApplication3::get_RoleAssignments
 author: windows-sdk-content
 description: Gets an IAzRoleAssignments object that represents the collection of IAzRoleAssignment objects associated with the current IAzApplication3 object.
 old-location: security\iazapplication3_roleassignments.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 5f70cc85-9275-4ccd-ad53-c22b00a4dea3
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: IAzApplication3 interface [Security],RoleAssignments property, IAzApplication3.RoleAssignments, IAzApplication3.get_RoleAssignments, IAzApplication3::RoleAssignments, IAzApplication3::get_RoleAssignments, RoleAssignments property [Security], RoleAssignments property [Security],IAzApplication3 interface, azroles/IAzApplication3::RoleAssignments, azroles/IAzApplication3::get_RoleAssignments, get_RoleAssignments, security.iazapplication3_roleassignments
 ms.prod: windows
 ms.technology: windows-sdk

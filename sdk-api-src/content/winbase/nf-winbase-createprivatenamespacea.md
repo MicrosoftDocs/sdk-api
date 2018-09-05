@@ -4,10 +4,10 @@ title: CreatePrivateNamespaceA function
 author: windows-sdk-content
 description: Creates a private namespace.
 old-location: base\createprivatenamespace.htm
-old-project: sync
+old-project: Sync
 ms.assetid: bb6331b0-88cb-4695-b159-6e8750440a69
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: CreatePrivateNamespace, CreatePrivateNamespace function, CreatePrivateNamespaceA, CreatePrivateNamespaceW, base.createprivatenamespace, winbase/CreatePrivateNamespace, winbase/CreatePrivateNamespaceA, winbase/CreatePrivateNamespaceW
 ms.prod: windows
 ms.technology: windows-sdk

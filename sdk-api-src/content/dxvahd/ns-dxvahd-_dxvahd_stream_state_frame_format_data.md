@@ -80,9 +80,13 @@ To get the device's capabilities, call <a href="https://msdn.microsoft.com/93aca
 
 #### Examples
 
-
-```cpp
-HRESULT DXVAHD_SetFrameFormat(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT DXVAHD_SetFrameFormat(
     IDXVAHD_VideoProcessor *pVP,
     UINT stream,
     DXVAHD_FRAME_FORMAT format
@@ -90,19 +94,19 @@ HRESULT DXVAHD_SetFrameFormat(
 {
     DXVAHD_STREAM_STATE_FRAME_FORMAT_DATA frame_format = { format };
 
-    HRESULT hr = pVP->SetVideoProcessStreamState(
+    HRESULT hr = pVP-&gt;SetVideoProcessStreamState(
         stream,
         DXVAHD_STREAM_STATE_FRAME_FORMAT,
         sizeof(frame_format),
-        &frame_format
+        &amp;frame_format
         );
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

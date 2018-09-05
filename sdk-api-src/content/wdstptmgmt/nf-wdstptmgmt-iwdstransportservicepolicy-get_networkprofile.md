@@ -4,10 +4,10 @@ title: IWdsTransportServicePolicy::get_NetworkProfile
 author: windows-sdk-content
 description: Enables a client computer to configure the network profile that is used by the WDS Transport Server.
 old-location: wds\iwdstransportservicepolicy_networkprofile.htm
-old-project: wds
+old-project: Wds
 ms.assetid: f4eee4b3-915e-4d47-8464-306f890a5a2e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWdsTransportServicePolicy interface [Windows Deployment Services],NetworkProfile property, IWdsTransportServicePolicy.NetworkProfile, IWdsTransportServicePolicy.get_NetworkProfile, IWdsTransportServicePolicy::NetworkProfile, IWdsTransportServicePolicy::get_NetworkProfile, IWdsTransportServicePolicy::put_NetworkProfile, NetworkProfile property [Windows Deployment Services], NetworkProfile property [Windows Deployment Services],IWdsTransportServicePolicy interface, get_NetworkProfile, wds.iwdstransportservicepolicy_networkprofile, wdstptmgmt/IWdsTransportServicePolicy::NetworkProfile, wdstptmgmt/IWdsTransportServicePolicy::get_NetworkProfile, wdstptmgmt/IWdsTransportServicePolicy::put_NetworkProfile
 ms.prod: windows
 ms.technology: windows-sdk

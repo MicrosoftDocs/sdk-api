@@ -7,7 +7,7 @@ old-location: shell\IUnknown_GetSite.htm
 old-project: shell
 ms.assetid: 95e83078-ab74-40d6-8e31-653e578770f2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IUnknown_GetSite, IUnknown_GetSite function [Windows Shell], _win32_IUnknown_GetSite, shell.IUnknown_GetSite, shlwapi/IUnknown_GetSite
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

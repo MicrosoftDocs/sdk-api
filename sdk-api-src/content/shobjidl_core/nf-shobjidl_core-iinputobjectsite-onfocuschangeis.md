@@ -7,7 +7,7 @@ old-location: shell\IInputObjectSite_OnFocusChangeIS.htm
 old-project: shell
 ms.assetid: b779beea-534b-4cf0-9426-db2bbcb52277
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IInputObjectSite interface [Windows Shell],OnFocusChangeIS method, IInputObjectSite.OnFocusChangeIS, IInputObjectSite::OnFocusChangeIS, OnFocusChangeIS, OnFocusChangeIS method [Windows Shell], OnFocusChangeIS method [Windows Shell],IInputObjectSite interface, _win32_IInputObjectSite_OnFocusChangeIS, shell.IInputObjectSite_OnFocusChangeIS, shobjidl_core/IInputObjectSite::OnFocusChangeIS
 ms.prod: windows
 ms.technology: windows-sdk

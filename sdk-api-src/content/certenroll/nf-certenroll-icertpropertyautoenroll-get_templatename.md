@@ -4,10 +4,10 @@ title: ICertPropertyAutoEnroll::get_TemplateName
 author: windows-sdk-content
 description: Retrieves a string that contains the name of the template that the certificate can use for autoenrollment.
 old-location: security\icertpropertyautoenroll_templatename_property.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: bec4be81-ff39-4517-be17-e5ca6f0b08e9
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ICertPropertyAutoEnroll interface [Security],TemplateName property, ICertPropertyAutoEnroll.TemplateName, ICertPropertyAutoEnroll.get_TemplateName, ICertPropertyAutoEnroll::TemplateName, ICertPropertyAutoEnroll::get_TemplateName, TemplateName property [Security], TemplateName property [Security],ICertPropertyAutoEnroll interface, certenroll/ICertPropertyAutoEnroll::TemplateName, certenroll/ICertPropertyAutoEnroll::get_TemplateName, get_TemplateName, security.icertpropertyautoenroll_templatename_property
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/Aa375251(v=VS.85).aspx">Initialize</a> method to specify the property value.
+Call the <a href="https://msdn.microsoft.com/f9a949c8-acd9-45b2-882e-84daf0acfad4">Initialize</a> method to specify the property value.
 
 
 
@@ -74,11 +74,11 @@ Call the <a href="https://msdn.microsoft.com/en-us/library/Aa375251(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375239(v=VS.85).aspx">ICertProperty</a>
+<a href="https://msdn.microsoft.com/947c2f09-993d-4ced-8b76-66b79d96e3bc">ICertProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375250(v=VS.85).aspx">ICertPropertyAutoEnroll</a>
+<a href="https://msdn.microsoft.com/25eab0e9-4980-49ad-9d3b-35ad47c20bcb">ICertPropertyAutoEnroll</a>
  
 
  

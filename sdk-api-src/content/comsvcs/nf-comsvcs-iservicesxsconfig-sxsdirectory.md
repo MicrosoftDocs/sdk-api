@@ -7,7 +7,7 @@ old-location: cos\iservicesxsconfig_sxsdirectory.htm
 old-project: cossdk
 ms.assetid: 5eb909a5-7730-4f0b-aee6-9bb8de076cea
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IServiceSxsConfig interface [COM+],SxsDirectory method, IServiceSxsConfig.SxsDirectory, IServiceSxsConfig::SxsDirectory, SxsDirectory, SxsDirectory method [COM+], SxsDirectory method [COM+],IServiceSxsConfig interface, _cos_IServiceSxsConfig_SxsDirectory, comsvcs/IServiceSxsConfig::SxsDirectory, cos.iservicesxsconfig_sxsdirectory
 ms.prod: windows
 ms.technology: windows-sdk

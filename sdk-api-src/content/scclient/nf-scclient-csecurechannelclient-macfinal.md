@@ -7,7 +7,7 @@ old-location: wmdm\csecurechannelclient_macfinal.htm
 old-project: WMDM
 ms.assetid: 64dc8e36-c135-415f-a646-04919e4d031d
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CSecureChannelClient interface [windows Media Device Manager],MACFinal method, CSecureChannelClient.MACFinal, CSecureChannelClient::MACFinal, CSecureChannelClientMACFinal, MACFinal, MACFinal method [windows Media Device Manager], MACFinal method [windows Media Device Manager],CSecureChannelClient interface, scclient/CSecureChannelClient::MACFinal, wmdm.csecurechannelclient_macfinal
 ms.prod: windows
 ms.technology: windows-sdk
@@ -123,31 +123,35 @@ This method completes creating a MAC key. For information about MAC creation, se
 
 The following example code checks the MAC received by a call to <a href="https://msdn.microsoft.com/5b654d32-b72a-44cf-a8d9-63fc0ae76171">IWMDMStorage::GetRights</a> to verify that the data has not been tampered with.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT hr;
 CSecureChannelClient *pSPClient = NULL;
-hr = m_pStorage->GetRights(ppRights, pnRightsCount, abTempMAC);
+hr = m_pStorage-&gt;GetRights(ppRights, pnRightsCount, abTempMAC);
 if (SUCCEEDED(hr))
 {
     // Verify MAC returned by GetRights on the service provider.
-    pSPClient->MACInit(&hMAC);
-    pSPClient->MACUpdate(hMAC, (BYTE*)(*ppRights),
+    pSPClient-&gt;MACInit(&amp;hMAC);
+    pSPClient-&gt;MACUpdate(hMAC, (BYTE*)(*ppRights),
                        sizeof(WMDMRIGHTS) * (*pnRightsCount));
-    pSPClient->MACUpdate(hMAC, (BYTE*)(pnRightsCount),
+    pSPClient-&gt;MACUpdate(hMAC, (BYTE*)(pnRightsCount),
                         sizeof(*pnRightsCount));
-    pSPClient->MACFinal(hMAC, abMACVerify);
+    pSPClient-&gt;MACFinal(hMAC, abMACVerify);
     if (memcmp(abMACVerify, abTempMAC, WMDM_MAC_LENGTH) != 0)
     {
         hr = WMDM_E_MAC_CHECK_FAILED;
         goto exit;
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

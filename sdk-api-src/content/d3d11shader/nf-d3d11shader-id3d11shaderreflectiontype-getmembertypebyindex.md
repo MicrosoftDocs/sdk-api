@@ -61,7 +61,7 @@ Get a shader-reflection-variable type by index.
 
 ### -param Index [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Zero-based index.
 
@@ -70,9 +70,9 @@ Zero-based index.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476595(v=VS.85).aspx">ID3D11ShaderReflectionType</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/04520be2-2491-4f10-988a-e203659efddf">ID3D11ShaderReflectionType</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Ff476595(v=VS.85).aspx">ID3D11ShaderReflectionType Interface</a>.
+A pointer to a <a href="https://msdn.microsoft.com/04520be2-2491-4f10-988a-e203659efddf">ID3D11ShaderReflectionType Interface</a>.
 
 
 
@@ -91,7 +91,7 @@ This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476595(v=VS.85).aspx">ID3D11ShaderReflectionType Interface</a>
+<a href="https://msdn.microsoft.com/04520be2-2491-4f10-988a-e203659efddf">ID3D11ShaderReflectionType Interface</a>
  
 
  

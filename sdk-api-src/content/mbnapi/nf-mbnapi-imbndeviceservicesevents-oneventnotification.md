@@ -7,7 +7,7 @@ old-location: mbn\imbndeviceservicesevents_oneventnotification.htm
 old-project: mbn
 ms.assetid: 6C3B223A-E791-4861-B93B-1EDC0DC8038B
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMbnDeviceServicesEvents interface [Microsoft Broadband Networks],OnEventNotification method, IMbnDeviceServicesEvents.OnEventNotification, IMbnDeviceServicesEvents::OnEventNotification, OnEventNotification, OnEventNotification method [Microsoft Broadband Networks], OnEventNotification method [Microsoft Broadband Networks],IMbnDeviceServicesEvents interface, mbn.imbndeviceservicesevents_oneventnotification, mbnapi/IMbnDeviceServicesEvents::OnEventNotification
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ Notification method signaling a device service state change event from the Mobil
 
 ### -param deviceService [in]
 
-The <a href="https://msdn.microsoft.com/en-us/library/Hh780509(v=VS.85).aspx">IMbnDeviceService</a> object for which the event notification was received.
+The <a href="IMbnDeviceService">IMbnDeviceService</a> object for which the event notification was received.
 
 
 ### -param eventID [in]

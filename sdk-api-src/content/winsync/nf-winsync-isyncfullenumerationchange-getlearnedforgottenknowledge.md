@@ -7,7 +7,7 @@ old-location: winsync\isyncfullenumerationchange_getlearnedforgottenknowledge.ht
 old-project: winsync
 ms.assetid: 958bca82-67a7-401f-a9d3-a17f60496cba
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetLearnedForgottenKnowledge, GetLearnedForgottenKnowledge method [Windows Sync], GetLearnedForgottenKnowledge method [Windows Sync],ISyncFullEnumerationChange interface, ISyncFullEnumerationChange interface [Windows Sync],GetLearnedForgottenKnowledge method, ISyncFullEnumerationChange.GetLearnedForgottenKnowledge, ISyncFullEnumerationChange::GetLearnedForgottenKnowledge, winsync.isyncfullenumerationchange_getlearnedforgottenknowledge, winsync/ISyncFullEnumerationChange::GetLearnedForgottenKnowledge
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wab\_wab_gender.htm
 old-project: wab
 ms.assetid: VS|wab|~\wab\reference\enums\gender.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: Gender, Gender enumeration [Windows Address Book], _wab_gender, genderFemale, genderMale, genderUnspecified, wab._wab_gender, wabtags/Gender, wabtags/genderFemale, wabtags/genderMale, wabtags/genderUnspecified
 ms.prod: windows
 ms.technology: windows-sdk

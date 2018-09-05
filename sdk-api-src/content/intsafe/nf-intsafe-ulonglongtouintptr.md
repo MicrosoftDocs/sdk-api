@@ -7,7 +7,7 @@ old-location: shell\ULongLongToUIntPtr.htm
 old-project: shell
 ms.assetid: c3c08ff3-e583-435d-9e44-5fab9371b7cd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ULongLongToSizeT, ULongLongToUIntPtr, ULongLongToUIntPtr function [Windows Shell], _shell_ULongLongToUIntPtr, intsafe/ULongLongToUIntPtr, shell.ULongLongToUIntPtr
 ms.prod: windows
 ms.technology: windows-sdk

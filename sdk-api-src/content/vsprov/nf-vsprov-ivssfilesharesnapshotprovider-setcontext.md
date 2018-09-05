@@ -4,10 +4,10 @@ title: IVssFileShareSnapshotProvider::SetContext
 author: windows-sdk-content
 description: Sets the context for the subsequent shadow copy-related operations.
 old-location: base\ivssfilesharesnapshotprovider_setcontext.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 28e53076-4d8e-4f24-83b0-d0aaf7260802
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IVssFileShareSnapshotProvider interface [VSS],SetContext method, IVssFileShareSnapshotProvider.SetContext, IVssFileShareSnapshotProvider::SetContext, SetContext, SetContext method [VSS], SetContext method [VSS],IVssFileShareSnapshotProvider interface, base.ivssfilesharesnapshotprovider_setcontext, vsprov/IVssFileShareSnapshotProvider::SetContext
 ms.prod: windows
 ms.technology: windows-sdk

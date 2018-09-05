@@ -140,11 +140,15 @@ The caller must free the returned object by a call to <a href="https://msdn.micr
 
 The following C++ example shows how to retrieve an application identifier using <b>FwpmGetAppIdFromFileName0</b>.
 
-
-```cpp
-#include <windows.h>
-#include <fwpmu.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;fwpmu.h&gt;
+#include &lt;stdio.h&gt;
 
 #pragma comment(lib, "Fwpuclnt.lib")
 
@@ -159,7 +163,7 @@ int main()
     FWP_BYTE_BLOB *fwpApplicationByteBlob = NULL;
      
     printf("Retrieving Id for application to allow through firewall.\n");
-    result = FwpmGetAppIdFromFileName0(FILE_PATH1, &fwpApplicationByteBlob);
+    result = FwpmGetAppIdFromFileName0(FILE_PATH1, &amp;fwpApplicationByteBlob);
 
     if (result != ERROR_SUCCESS)
     {
@@ -168,17 +172,17 @@ int main()
     }
     else
     {
-        printf("The Id is: %d\n", fwpApplicationByteBlob->data);
+        printf("The Id is: %d\n", fwpApplicationByteBlob-&gt;data);
     }
     
     return 0;
 }
 // ----------------------------------------------------------------------
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

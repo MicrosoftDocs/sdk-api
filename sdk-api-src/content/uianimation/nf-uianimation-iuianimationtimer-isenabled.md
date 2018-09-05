@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtimer_isenabled.htm
 old-project: UIAnimation
 ms.assetid: 42a7e690-40bb-4795-9076-5e4bed62562d
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IUIAnimationTimer interface [Windows Animation],IsEnabled method, IUIAnimationTimer.IsEnabled, IUIAnimationTimer::IsEnabled, IsEnabled, IsEnabled method [Windows Animation], IsEnabled method [Windows Animation],IUIAnimationTimer interface, uianimation.iuianimationtimer_isenabled, uianimation/IUIAnimationTimer::IsEnabled
 ms.prod: windows
 ms.technology: windows-sdk

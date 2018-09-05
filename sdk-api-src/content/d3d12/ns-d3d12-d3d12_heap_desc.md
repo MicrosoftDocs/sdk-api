@@ -64,13 +64,13 @@ Describes a heap.
 The size, in bytes, of the heap.
             To avoid wasting memory, applications should pass <i>SizeInBytes</i> values which are multiples of the effective <i>Alignment</i>;
             but non-aligned <i>SizeInBytes</i> is also supported, for convenience.
-            To find out how large a heap must be to support textures with undefined layouts and adapter-specific sizes, call <a href="https://msdn.microsoft.com/en-us/library/Dn788680(v=VS.85).aspx">ID3D12Device::GetResourceAllocationInfo</a>.
+            To find out how large a heap must be to support textures with undefined layouts and adapter-specific sizes, call <a href="https://msdn.microsoft.com/43467E09-835B-4DB9-B0A4-F75868DE4609">ID3D12Device::GetResourceAllocationInfo</a>.
           
 
 
 ### -field Properties
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dn770373(v=VS.85).aspx">D3D12_HEAP_PROPERTIES</a> structure that describes the heap properties.
+A <a href="https://msdn.microsoft.com/0A197D3D-67F4-46BB-8578-15E05DF46067">D3D12_HEAP_PROPERTIES</a> structure that describes the heap properties.
           
 
 
@@ -109,7 +109,7 @@ The alignment value for the heap.  Valid values:
 
 ### -field Flags
 
-A combination of <a href="https://msdn.microsoft.com/en-us/library/Dn986730(v=VS.85).aspx">D3D12_HEAP_FLAGS</a>-typed values that are combined by using a bitwise-OR operation.
+A combination of <a href="https://msdn.microsoft.com/C3C1B611-714C-49DB-8034-9C9B7D6772E4">D3D12_HEAP_FLAGS</a>-typed values that are combined by using a bitwise-OR operation.
             The resulting value identifies heap options.
             When creating heaps to support adapters with resource heap tier 1, an application must choose some flags.
           
@@ -119,7 +119,7 @@ A combination of <a href="https://msdn.microsoft.com/en-us/library/Dn986730(v=VS
 
 
 
-This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/Dn788664(v=VS.85).aspx">CreateHeap</a> method, and returned by the <a href="https://msdn.microsoft.com/en-us/library/Dn788689(v=VS.85).aspx">GetDesc</a> method.
+This structure is used by the <a href="https://msdn.microsoft.com/DB5DF4B2-4673-4B8D-BDED-9F672A41E7F6">CreateHeap</a> method, and returned by the <a href="https://msdn.microsoft.com/45237F32-FBDE-49FF-926F-80B914B36AE5">GetDesc</a> method.
       
 
 
@@ -130,11 +130,11 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt186570(v=VS.85).aspx">CD3DX12_HEAP_DESC</a>
+<a href="https://msdn.microsoft.com/38E0BA60-2BB0-4AC1-870A-10AB16E4C6E6">CD3DX12_HEAP_DESC</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770459(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
 
 
 

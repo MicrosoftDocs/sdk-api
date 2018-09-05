@@ -104,24 +104,28 @@ The <b>IDirectorySearch::GetColumn</b> method tries to read the schema definitio
 
 #### Examples
 
-
-```cpp
-ADS_SEARCH_COLUMN col;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>ADS_SEARCH_COLUMN col;
 /*.. Omit the set preference and execute*/
-while( m_pSearch->GetNextRow( hSearch) != S_ADS_NOMORE_ROWS )
+while( m_pSearch-&gt;GetNextRow( hSearch) != S_ADS_NOMORE_ROWS )
 {
    // Get the Name and display it in the list.
-   hr = m_pSearch->GetColumn( hSearch, pszAttr[0], &col );
+   hr = m_pSearch-&gt;GetColumn( hSearch, pszAttr[0], &amp;col );
    if ( SUCCEEDED(hr) )
    {
           switch (col.dwADsType)
           {
              case ADSTYPE_CASE_IGNORE_STRING:
-                printf("%S\n", col.pADsValues->CaseIgnoreString);
+                printf("%S\n", col.pADsValues-&gt;CaseIgnoreString);
              break;
  
              case ADSTYPE_PROV_SPECIFIC:
-                printf("%S\n", col.pADsValues-->ProviderSpecific.lpValue);
+                printf("%S\n", col.pADsValues--&gt;ProviderSpecific.lpValue);
              break;
  
              default:
@@ -131,13 +135,13 @@ while( m_pSearch->GetNextRow( hSearch) != S_ADS_NOMORE_ROWS )
 
           {
        
-             m_pSearch->FreeColumn( &col );
+             m_pSearch-&gt;FreeColumn( &amp;col );
           }
    }
-m_pSearch->CloseSearchHandle( hSearch );
-```
-
-
+m_pSearch-&gt;CloseSearchHandle( hSearch );</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

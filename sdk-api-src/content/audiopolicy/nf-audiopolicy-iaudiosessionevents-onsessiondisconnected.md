@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessionevents_onsessiondisconnected.htm
 old-project: CoreAudio
 ms.assetid: 9fd653f0-c9d1-4155-9c1e-7e6124b40cca
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: IAudioSessionEvents interface [Core Audio],OnSessionDisconnected method, IAudioSessionEvents.OnSessionDisconnected, IAudioSessionEvents::OnSessionDisconnected, IAudioSessionEventsOnSessionDisconnected, OnSessionDisconnected, OnSessionDisconnected method [Core Audio], OnSessionDisconnected method [Core Audio],IAudioSessionEvents interface, audiopolicy/IAudioSessionEvents::OnSessionDisconnected, coreaudio.iaudiosessionevents_onsessiondisconnected
 ms.prod: windows
 ms.technology: windows-sdk

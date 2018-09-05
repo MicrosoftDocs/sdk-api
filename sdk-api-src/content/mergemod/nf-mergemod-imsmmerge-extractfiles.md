@@ -7,7 +7,7 @@ old-location: setup\imsmmerge_extractfiles.htm
 old-project: msi
 ms.assetid: e5bafd2d-0750-4aa6-87e8-22ef3cfdd5ff
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ExtractFiles, ExtractFiles method, ExtractFiles method,IMsmMerge interface, IMsmMerge interface,ExtractFiles method, IMsmMerge.ExtractFiles, IMsmMerge::ExtractFiles, _msi_extractfiles_function, mergemod/IMsmMerge::ExtractFiles, setup.imsmmerge_extractfiles
 ms.prod: windows
 ms.technology: windows-sdk

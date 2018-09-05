@@ -7,7 +7,7 @@ old-location: shell\getappcontainerfolderpath.htm
 old-project: shell
 ms.assetid: 7D3AB78D-C094-4F89-8032-13F3C137E910
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetAppContainerFolderPath, GetAppContainerFolderPath function [Windows Shell], shell.getappcontainerfolderpath, userenv/GetAppContainerFolderPath
 ms.prod: windows
 ms.technology: windows-sdk

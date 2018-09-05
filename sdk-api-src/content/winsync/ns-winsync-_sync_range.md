@@ -7,7 +7,7 @@ old-location: winsync\sync_range.htm
 old-project: winsync
 ms.assetid: d3e4a4f4-4a67-4dce-a81a-3861dcf788e6
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: SYNC_RANGE, SYNC_RANGE structure [Windows Sync], _SYNC_RANGE, winsync.sync_range, winsync/SYNC_RANGE
 ms.prod: windows
 ms.technology: windows-sdk

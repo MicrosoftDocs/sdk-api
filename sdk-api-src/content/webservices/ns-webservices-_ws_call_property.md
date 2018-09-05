@@ -7,7 +7,7 @@ old-location: wsw\ws_call_property.htm
 old-project: wsw
 ms.assetid: 2ab778b2-c6d0-41ea-aa3a-a6c16c87a9e9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_CALL_PROPERTY, WS_CALL_PROPERTY structure [Web Services for Windows], _WS_CALL_PROPERTY, webservices/WS_CALL_PROPERTY, wsw.ws_call_property
 ms.prod: windows
 ms.technology: windows-sdk

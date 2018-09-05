@@ -4,10 +4,10 @@ title: SLSetAuthenticationData function
 author: windows-sdk-content
 description: Sets authentication data.
 old-location: security\slsetauthenticationdata.htm
-old-project: secslapi
+old-project: SecSLApi
 ms.assetid: 68906873-6c49-4221-ad87-1e1f1463c0d4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SLSetAuthenticationData, SLSetAuthenticationData function [Security], security.slsetauthenticationdata, slpublic/SLSetAuthenticationData
 ms.prod: windows
 ms.technology: windows-sdk

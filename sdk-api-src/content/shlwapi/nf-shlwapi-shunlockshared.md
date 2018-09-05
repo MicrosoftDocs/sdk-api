@@ -7,7 +7,7 @@ old-location: shell\SHUnlockShared.htm
 old-project: shell
 ms.assetid: 8ecbf62b-fd0d-4a8d-bd55-42c0c3f64390
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHUnlockShared, SHUnlockShared function [Windows Shell], _win32_SHUnlockShared, shell.SHUnlockShared, shlwapi/SHUnlockShared
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

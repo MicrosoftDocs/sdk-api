@@ -4,10 +4,10 @@ title: "_RPC_BINDING_HANDLE_TEMPLATE_V1_A"
 author: windows-sdk-content
 description: Contains the basic options with which to create an RPC binding handle.
 old-location: rpc\rpc_binding_handle_template_v1.htm
-old-project: rpc
+old-project: Rpc
 ms.assetid: b5712e0b-1751-4e5f-8000-da2a330da202
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PRPC_BINDING_HANDLE_TEMPLATE_V1_A, RPC_BHT_OBJECT_UUID_VALID, RPC_BINDING_HANDLE_TEMPLATE, RPC_BINDING_HANDLE_TEMPLATE structure [RPC], RPC_BINDING_HANDLE_TEMPLATE_V1, RPC_BINDING_HANDLE_TEMPLATE_V1 structure [RPC], RPC_BINDING_HANDLE_TEMPLATE_V1_A, _RPC_BINDING_HANDLE_TEMPLATE_V1_A, _RPC_BINDING_HANDLE_TEMPLATE_V1_W, ncacn_http, ncacn_ip_tcp, ncacn_np, ncalrpc, rpc.rpc_binding_handle_template_v1, rpcdce/RPC_BINDING_HANDLE_TEMPLATE, rpcdce/RPC_BINDING_HANDLE_TEMPLATE_V1"
 ms.prod: windows
 ms.technology: windows-sdk

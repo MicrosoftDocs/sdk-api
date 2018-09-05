@@ -7,7 +7,7 @@ old-location: mbn\imbndeviceservice_interfaceid.htm
 old-project: mbn
 ms.assetid: 3789F9FA-703E-486D-8B4E-AE4128DE705B
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMbnDeviceService interface [Microsoft Broadband Networks],InterfaceID property, IMbnDeviceService.InterfaceID, IMbnDeviceService.get_InterfaceID, IMbnDeviceService::InterfaceID, IMbnDeviceService::get_InterfaceID, InterfaceID property [Microsoft Broadband Networks], InterfaceID property [Microsoft Broadband Networks],IMbnDeviceService interface, get_InterfaceID, mbn.imbndeviceservice_interfaceid, mbnapi/IMbnDeviceService::InterfaceID, mbnapi/IMbnDeviceService::get_InterfaceID
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmdevice_getformatsupport.htm
 old-project: WMDM
 ms.assetid: a917660d-300f-4ac4-befe-a3f78172411e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetFormatSupport, GetFormatSupport method [windows Media Device Manager], GetFormatSupport method [windows Media Device Manager],IWMDMDevice interface, IWMDMDevice interface [windows Media Device Manager],GetFormatSupport method, IWMDMDevice.GetFormatSupport, IWMDMDevice::GetFormatSupport, IWMDMDeviceGetFormatSupport, mswmdm/IWMDMDevice::GetFormatSupport, wmdm.iwmdmdevice_getformatsupport
 ms.prod: windows
 ms.technology: windows-sdk
@@ -111,9 +111,13 @@ The recommended way to retrieve device-supported formats is <a href="https://msd
 
 The following C++ function retrieves various device capabilities.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // Function to print out device caps for a device that supports
 // only IWMDMDevice.
 void GetCaps(IWMDMDevice* pDevice)
@@ -125,16 +129,16 @@ void GetCaps(IWMDMDevice* pDevice)
     LPWSTR* pMimeFormats;
     UINT numAudioFormats = 0;
     UINT numMimeFormats = 0;
-    hr = pDevice->GetFormatSupport(
-        &pAudioFormats,
-        &numAudioFormats,
-        &pMimeFormats,
-        &numMimeFormats);
+    hr = pDevice-&gt;GetFormatSupport(
+        &amp;pAudioFormats,
+        &amp;numAudioFormats,
+        &amp;pMimeFormats,
+        &amp;numMimeFormats);
 
     HANDLE_HR(hr, "Got audio and mime formats in GetCaps IWMDMDevice", "Couldn't get audio and mime formats in GetCaps IWMDMDevice");
 
     // Print out audio format data.
-    if (numAudioFormats > 0)
+    if (numAudioFormats &gt; 0)
     {
         / /TODO: Display a banner to precede the supported formats.
     }
@@ -142,7 +146,7 @@ void GetCaps(IWMDMDevice* pDevice)
     {
         // TODO: Display a message indicating that no formats are supported.
     }
-    for(int i = 0; i < numAudioFormats; i++)
+    for(int i = 0; i &lt; numAudioFormats; i++)
     {
         // TODO: Display a configuration value.
         PrintWaveFormatGuid(pAudioFormats[i].wFormatTag);
@@ -154,11 +158,11 @@ void GetCaps(IWMDMDevice* pDevice)
     }
 
     // Print out MIME formats.
-    if (numMimeFormats > 0)
+    if (numMimeFormats &gt; 0)
         // TODO: Display a banner for the MIME format listing.
     else
         / /TODO: Display a message indicating that no MIME formats are supported.
-    for(i = 0; i < numMimeFormats; i++)
+    for(i = 0; i &lt; numMimeFormats; i++)
     {
         // TODO: Display each individual MIME format.
     }
@@ -167,10 +171,10 @@ e_Exit:
     return;
 
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

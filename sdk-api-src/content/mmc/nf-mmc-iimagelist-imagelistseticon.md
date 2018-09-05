@@ -101,21 +101,29 @@ The ILSI_LARGE_ICON macro is used to change only the large icon at nLoc. The ILS
 To set different large and small icons, you can use either one of the two macros. The following code examples show these macros.
 
 <h3><a id="Snippet_1"></a><a id="snippet_1"></a><a id="SNIPPET_1"></a>Snippet 1</h3>
-
-```cpp
-pImageList->ImageListSetIcon((LONG_PTR*) hLargeIcon, nLoc); // set both
-pImageList->ImageListSetIcon((LONG_PTR*) hSmallIcon, ILSI_SMALL_ICON (nLoc)); // change small
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>pImageList-&gt;ImageListSetIcon((LONG_PTR*) hLargeIcon, nLoc); // set both
+pImageList-&gt;ImageListSetIcon((LONG_PTR*) hSmallIcon, ILSI_SMALL_ICON (nLoc)); // change small</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Snippet_2"></a><a id="snippet_2"></a><a id="SNIPPET_2"></a>Snippet 2</h3>
-
-```cpp
-pImageList->ImageListSetIcon((LONG_PTR*) hSmallIcon, nLoc); // set both
-pImageList->ImageListSetIcon((LONG_PTR*) hLargeIcon, ILSI_LARGE_ICON (nLoc)); // change large
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>pImageList-&gt;ImageListSetIcon((LONG_PTR*) hSmallIcon, nLoc); // set both
+pImageList-&gt;ImageListSetIcon((LONG_PTR*) hLargeIcon, ILSI_LARGE_ICON (nLoc)); // change large</pre>
+</td>
+</tr>
+</table></span></div>
 Before using either ILSI_LARGE_ICON or ILSI_SMALL_ICON, the snap-in must first insert an image at nLoc. The 
 ImageListSetIcon method will fail if the ILSI_LARGE_ICON or ILSI_SMALL_ICON macro is used and nLoc does not refer to an existing image.
 

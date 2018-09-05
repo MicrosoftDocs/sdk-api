@@ -4,10 +4,10 @@ title: "_WSAQuerySet2A"
 author: windows-sdk-content
 description: Provides relevant information about a given service, including service class ID, service name , applicable namespace identifier and protocol information, as well as a set of transport addresses at which the service listens.
 old-location: winsock\wsaqueryset2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: ffe71de0-3561-481f-b81f-835c6c3a3ee4
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPWSAQUERYSET2A, *PWSAQUERYSET2A, LPWSAQUERYSET2, LPWSAQUERYSET2 structure pointer [Winsock], NS_ALL, NS_BTH, NS_DNS, NS_EMAIL, NS_NLA, NS_PNRPCLOUD, NS_PNRPNAME, PWSAQUERYSET2, PWSAQUERYSET2 structure pointer [Winsock], WSAQUERYSET2, WSAQUERYSET2 structure [Winsock], WSAQUERYSET2A, WSAQUERYSET2W, _WSAQuerySet2A, winsock.wsaqueryset2, winsock2/LPWSAQUERYSET2, winsock2/PWSAQUERYSET2, winsock2/WSAQUERYSET2, winsock2/WSAQUERYSET2A, winsock2/WSAQUERYSET2W"
 ms.prod: windows
 ms.technology: windows-sdk

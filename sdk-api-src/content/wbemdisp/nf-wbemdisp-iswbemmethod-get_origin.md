@@ -7,7 +7,7 @@ old-location: wmi\swbemmethod_origin.htm
 old-project: WmiSdk
 ms.assetid: da98393b-af95-47ad-b589-663063f65afb
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: ISWbemMethod interface [Windows Management Instrumentation],Origin property, ISWbemMethod.get_Origin, ISWbemMethod::get_Origin, Origin property [Windows Management Instrumentation], Origin property [Windows Management Instrumentation],ISWbemMethod interface, Origin property [Windows Management Instrumentation],SWbemMethod object, SWbemMethod object [Windows Management Instrumentation],Origin property, SWbemMethod.Origin, _hmm_swbemmethod.origin, get_Origin, wmi.swbemmethod_origin
 ms.prod: windows
 ms.technology: windows-sdk

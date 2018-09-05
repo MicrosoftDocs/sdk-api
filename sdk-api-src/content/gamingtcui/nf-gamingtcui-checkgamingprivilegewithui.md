@@ -7,7 +7,7 @@ old-location: tcui\CheckGamingPrivilegeWithUI.htm
 old-project: tcui
 ms.assetid: D6336E6F-427B-4122-B437-411A7F6A0751
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CheckGamingPrivilegeWithUI, CheckGamingPrivilegeWithUI function, gamingtcui/CheckGamingPrivilegeWithUI, tcui.CheckGamingPrivilegeWithUI
 ms.prod: windows
 ms.technology: windows-sdk
@@ -108,7 +108,7 @@ Do not use. This API is only supported for Xbox developers.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Do not use. This API is only supported for Xbox developers.
 

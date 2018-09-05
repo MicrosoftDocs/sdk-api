@@ -7,7 +7,7 @@ old-location: com\ipropertypage.htm
 old-project: com
 ms.assetid: ad2cb3ae-dd24-4774-95bd-f5a0773c68b1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IPropertyPage, IPropertyPage interface [COM], IPropertyPage interface [COM],described, _ctrl_ipropertypage, com.ipropertypage, ocidl/IPropertyPage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ A property page manages a dialog box that contains only those controls that shou
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyPage</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IPropertyPage</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPropertyPage</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IPropertyPage</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

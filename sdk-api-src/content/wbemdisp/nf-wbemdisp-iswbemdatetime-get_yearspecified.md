@@ -7,7 +7,7 @@ old-location: wmi\swbemdatetime_yearspecified.htm
 old-project: WmiSdk
 ms.assetid: afac0a08-7bd0-42f1-b5a7-8664f9db8615
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: ISWbemDateTime interface [Windows Management Instrumentation],YearSpecified property, ISWbemDateTime.get_YearSpecified, ISWbemDateTime.put_YearSpecified, ISWbemDateTime::get_YearSpecified, SWbemDateTime object [Windows Management Instrumentation],YearSpecified property, SWbemDateTime.YearSpecified, YearSpecified property [Windows Management Instrumentation], YearSpecified property [Windows Management Instrumentation],ISWbemDateTime interface, YearSpecified property [Windows Management Instrumentation],SWbemDateTime object, _hmm_swbemdatetime.yearspecified, get_YearSpecified, wmi.swbemdatetime_yearspecified
 ms.prod: windows
 ms.technology: windows-sdk

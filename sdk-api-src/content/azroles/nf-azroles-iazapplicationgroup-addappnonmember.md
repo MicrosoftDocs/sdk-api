@@ -4,10 +4,10 @@ title: IAzApplicationGroup::AddAppNonMember
 author: windows-sdk-content
 description: Adds the specified IAzApplicationGroup object to the list of application groups that are refused membership in this application group.
 old-location: security\iazapplicationgroup_addappnonmember.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 31b8538f-afe1-4fd3-bf6f-6f3f0641fc2a
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AddAppNonMember, AddAppNonMember method [Security], AddAppNonMember method [Security],AzApplicationGroup object, AddAppNonMember method [Security],IAzApplicationGroup interface, AzApplicationGroup object [Security],AddAppNonMember method, IAzApplicationGroup interface [Security],AddAppNonMember method, IAzApplicationGroup.AddAppNonMember, IAzApplicationGroup::AddAppNonMember, azroles/IAzApplicationGroup::AddAppNonMember, security.iazapplicationgroup_addappnonmember
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-The <b>AddAppNonMember</b> method adds the specified <a href="https://msdn.microsoft.com/en-us/library/Aa377253(v=VS.85).aspx">IAzApplicationGroup</a> object to the list of application groups that are refused membership in this application group.
+The <b>AddAppNonMember</b> method adds the specified <a href="https://msdn.microsoft.com/6a15acde-e582-4c49-b7e4-82d4e54012b1">IAzApplicationGroup</a> object to the list of application groups that are refused membership in this application group.
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The <b>AddAppNonMember</b> method adds the specified <a href="https://msdn.micro
 
 ### -param bstrProp [in]
 
-String that contains the <a href="https://msdn.microsoft.com/en-us/library/Aa377318(v=VS.85).aspx">Name</a> property of the <a href="https://msdn.microsoft.com/en-us/library/Aa377253(v=VS.85).aspx">IAzApplicationGroup</a> object to add to the list of the application groups that are refused membership in this application group.
+String that contains the <a href="https://msdn.microsoft.com/a42fb625-d04e-4884-b644-2007f6dc52ba">Name</a> property of the <a href="https://msdn.microsoft.com/6a15acde-e582-4c49-b7e4-82d4e54012b1">IAzApplicationGroup</a> object to add to the list of the application groups that are refused membership in this application group.
 
 
 ### -param varReserved [in, optional]
@@ -74,11 +74,11 @@ Reserved for future use.
 
 
 
-To view the list of application groups that are refused membership in this application group, use the <a href="https://msdn.microsoft.com/en-us/library/Aa377305(v=VS.85).aspx">AppNonMembers</a> property.
+To view the list of application groups that are refused membership in this application group, use the <a href="https://msdn.microsoft.com/a85a9004-f3f5-44ce-a0d7-fa450af74917">AppNonMembers</a> property.
 
 Denying membership to an account in an application group does not prevent that account from being assigned to a role through a different application group, nor from being granted permission to a resource through assignment to any other role.
 
-You must call the <a href="https://msdn.microsoft.com/en-us/library/Aa377322(v=VS.85).aspx">Submit</a> method to persist any changes made by this method.
+You must call the <a href="https://msdn.microsoft.com/51a855dd-4a90-4f7a-b32f-f91e3941655b">Submit</a> method to persist any changes made by this method.
 
 
 

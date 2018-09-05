@@ -88,15 +88,19 @@ Because VBScript cannot read data from a type library, VBScript applications do 
 
 Search scope is one of the search preferences clients can specify. The following code example shows how to accomplish this using the  <a href="https://msdn.microsoft.com/5fc46271-a1be-4a9d-a340-ed801211736a">ADS_SEARCHPREF_INFO</a> structure, together with the elements defined in the  <a href="https://msdn.microsoft.com/f3ab3d53-e53c-459e-929f-f2a3fc95c3ff">ADS_SEARCHPREF_ENUM</a> and this enumeration.
 
-
-```cpp
-ADS_SEARCHPREF_INFO prefInfo;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>ADS_SEARCHPREF_INFO prefInfo;
 prefInfo.dwSearchPref = ADS_SEARCHPREF_SEARCH_SCOPE;
 prefInfo.vValue.dwType = ADSTYPE_INTEGER;
-prefInfo.vValue.Integer = ADS_SCOPE_SUBTREE;
-```
-
-
+prefInfo.vValue.Integer = ADS_SCOPE_SUBTREE;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

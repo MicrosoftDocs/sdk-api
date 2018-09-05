@@ -7,7 +7,7 @@ old-location: mscs\clusresgrouppreferredownernodes_collection.htm
 old-project: mscs
 ms.assetid: 3425825e-890c-4d3d-919e-a66963e1fc55
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusResGroupPreferredOwnerNodes, ClusResGroupPreferredOwnerNodes collection [Failover Cluster], ClusResGroupPreferredOwnerNodes collection [Failover Cluster],described, ISClusResGroupPreferredOwnerNodes, _wolf_clusresgrouppreferredownernodes_collection, msclus/ClusResGroupPreferredOwnerNodes, mscs.clusresgrouppreferredownernodes_collection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ req.product: GDI+ 1.1
     unavailable in subsequent versions.]
 
 Provides access to the <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">nodes</a> that belong to the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">preferred owner</a> list for a 
+    <a href="p_gly.htm">preferred owner</a> list for a 
     <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a>.
 
 

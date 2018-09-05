@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_ShutdownWindows.htm
 old-project: shell
 ms.assetid: 3C4F6579-6398-4af4-8911-FE22555B0ABC
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellDispatch object [Windows Shell],ShutdownWindows method, IShellDispatch.ShutdownWindows, IShellDispatch::ShutdownWindows, ShutdownWindows, ShutdownWindows method [Windows Shell], ShutdownWindows method [Windows Shell],IShellDispatch object, shell.IShellDispatch_ShutdownWindows
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,25 +89,33 @@ The following example shows the use of <b>ShutdownWindows</b> in JScript, VBScri
 JScript:
                 
 
-
-```javascript
-<script language="JScript">
+<div class="code"><span codelanguage="JScript"><table>
+<tr>
+<th>JScript</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="JScript"&gt;
     function fnShellShutdownWindowsJ()
     {
         var objShell = new ActiveXObject("shell.application");
         
         objshell.ShutdownWindows();
     }
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 VBScript:
 
-
-```vb
-<script language="VBScript">
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="VBScript"&gt;
     function fnShellShutdownWindowsVB()
         dim objShell
         
@@ -116,16 +124,20 @@ VBScript:
 
         set objShell = nothing
     end function
- </script>
-
-```
-
-
+ &lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 Visual Basic:
 
-
-```vb
-Private Sub fnShellShutdownWindowsVB()
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Private Sub fnShellShutdownWindowsVB()
     Dim objShell As Shell
     
     Set objShell = New Shell
@@ -133,9 +145,9 @@ Private Sub fnShellShutdownWindowsVB()
 
     Set objShell = Nothing
 End Sub
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

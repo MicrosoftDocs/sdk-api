@@ -7,7 +7,7 @@ old-location: com\icallframe_getparaminfo.htm
 old-project: com
 ms.assetid: fb75930d-8e1b-4e97-87f2-bb9d171658a8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetParamInfo, GetParamInfo method [COM], GetParamInfo method [COM],ICallFrame interface, ICallFrame interface [COM],GetParamInfo method, ICallFrame.GetParamInfo, ICallFrame::GetParamInfo, _com_icallframe_getparaminfo, callobj/ICallFrame::GetParamInfo, com.icallframe_getparaminfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ The parameter number.
 
 ### -param pInfo [out]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/ms678619(v=VS.85).aspx">CALLFRAMEPARAMINFO</a> structure.
+A pointer to a <a href="https://msdn.microsoft.com/0f3a1e81-c8b6-4141-8712-c600b30a2779">CALLFRAMEPARAMINFO</a> structure.
 
 
 ## -returns
@@ -113,7 +113,7 @@ An unexpected error has occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms683709(v=VS.85).aspx">ICallFrame</a>
+<a href="https://msdn.microsoft.com/56a75123-f402-4187-af13-d31f72a5f094">ICallFrame</a>
  
 
  

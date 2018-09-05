@@ -7,7 +7,7 @@ old-location: coreaudio\activateaudiointerfaceasync.htm
 old-project: CoreAudio
 ms.assetid: 7BAFD9DB-DCD7-4093-A24B-9A8556C6C45B
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: ActivateAudioInterfaceAsync, ActivateAudioInterfaceAsync function [Core Audio], coreaudio.activateaudiointerfaceasync, mmdeviceapi/ActivateAudioInterfaceAsync
 ms.prod: windows
 ms.technology: windows-sdk

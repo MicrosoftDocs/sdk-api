@@ -7,7 +7,7 @@ old-location: setup\imsmmerge_closedatabase.htm
 old-project: msi
 ms.assetid: efbb6238-e9e3-4603-896a-75fcff2bb362
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CloseDatabase, CloseDatabase method, CloseDatabase method,IMsmMerge interface, IMsmMerge interface,CloseDatabase method, IMsmMerge.CloseDatabase, IMsmMerge::CloseDatabase, _msi_closedatabase_function, mergemod/IMsmMerge::CloseDatabase, setup.imsmmerge_closedatabase
 ms.prod: windows
 ms.technology: windows-sdk

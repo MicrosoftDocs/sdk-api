@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmdevicecontrol_seek.htm
 old-project: WMDM
 ms.assetid: f416a520-197c-4607-979e-8f43951f2076
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IWMDMDeviceControl interface [windows Media Device Manager],Seek method, IWMDMDeviceControl.Seek, IWMDMDeviceControl::Seek, IWMDMDeviceControlSeek, Seek, Seek method [windows Media Device Manager], Seek method [windows Media Device Manager],IWMDMDeviceControl interface, mswmdm/IWMDMDeviceControl::Seek, wmdm.iwmdmdevicecontrol_seek
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: SLUninstallProofOfPurchase function
 author: windows-sdk-content
 description: Unregisters the product key information.
 old-location: security\sluninstallproofofpurchase.htm
-old-project: secslapi
+old-project: SecSLApi
 ms.assetid: f3e5e43e-ea4a-4aad-b60a-833859996339
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SLUninstallProofOfPurchase, SLUninstallProofOfPurchase function [Security], security.sluninstallproofofpurchase, slpublic/SLUninstallProofOfPurchase
 ms.prod: windows
 ms.technology: windows-sdk

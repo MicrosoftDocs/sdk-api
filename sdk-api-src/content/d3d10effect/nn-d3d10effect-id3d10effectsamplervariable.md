@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectsamplervariable.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectsamplervariable.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 5f4e0586-ee65-dc10-114c-2c07af8387a7, ID3D10EffectSamplerVariable, ID3D10EffectSamplerVariable interface [Direct3D 10], ID3D10EffectSamplerVariable interface [Direct3D 10],described, d3d10effect/ID3D10EffectSamplerVariable, direct3d10.id3d10effectsamplervariable
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ A sampler interface accesses sampler state.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10EffectSamplerVariable</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable</a>. <b>ID3D10EffectSamplerVariable</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D10EffectSamplerVariable</b> interface inherits from <a href="https://msdn.microsoft.com/55bfed47-6f5a-4eed-8389-b291e00c6f69">ID3D10EffectVariable</a>. <b>ID3D10EffectSamplerVariable</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -72,7 +72,7 @@ The <b>ID3D10EffectSamplerVariable</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173678(v=VS.85).aspx">GetBackingStore</a>
+<a href="https://msdn.microsoft.com/7cb808d6-fa2b-4268-ae24-c295bf3e0b6c">GetBackingStore</a>
 </td>
 <td align="left" width="63%">
 Get a pointer to a variable that contains sampler state.
@@ -81,7 +81,7 @@ Get a pointer to a variable that contains sampler state.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Bb173679(v=VS.85).aspx">GetSampler</a>
+<a href="https://msdn.microsoft.com/0e3af04f-d5ea-455b-a950-c5929fa61409">GetSampler</a>
 </td>
 <td align="left" width="63%">
 Get a pointer to a sampler interface.
@@ -98,7 +98,7 @@ Get a pointer to a sampler interface.
 An <b>ID3D10EffectSamplerVariable Interface</b> is created when an effect is read into memory.
 
 Effect variables are saved in memory in the backing store; when a technique is applied, the values in the backing store are copied to the device. You
- can use either of these methods to return state. For examples, see <a href="https://msdn.microsoft.com/en-us/library/Bb205115(v=VS.85).aspx">Two Ways to Get the State in an Effect Variable</a>.
+ can use either of these methods to return state. For examples, see <a href="https://msdn.microsoft.com/743261a8-fdd8-492e-be8a-4faeb9b6f986">Two Ways to Get the State in an Effect Variable</a>.
 
 
 
@@ -108,11 +108,11 @@ Effect variables are saved in memory in the backing store; when a technique is a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205178(v=VS.85).aspx">Effect Interfaces (Direct3D 10)</a>
+<a href="https://msdn.microsoft.com/ebe0afc7-6261-4c96-a54e-9b491e240c03">Effect Interfaces (Direct3D 10)</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173724(v=VS.85).aspx">ID3D10EffectVariable</a>
+<a href="https://msdn.microsoft.com/55bfed47-6f5a-4eed-8389-b291e00c6f69">ID3D10EffectVariable</a>
  
 
  

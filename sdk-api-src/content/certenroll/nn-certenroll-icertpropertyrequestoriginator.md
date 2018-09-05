@@ -4,10 +4,10 @@ title: ICertPropertyRequestOriginator
 author: windows-sdk-content
 description: Represents a certificate property that contains the Domain Naming System (DNS) name of the computer on which the request was created.
 old-location: security\icertpropertyrequestoriginator.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: ce33605e-c3ae-4b96-a13e-6f06e8d5ffee
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ICertPropertyRequestOriginator, ICertPropertyRequestOriginator interface [Security], ICertPropertyRequestOriginator interface [Security],described, certenroll/ICertPropertyRequestOriginator, security.icertpropertyrequestoriginator
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,17 +51,17 @@ req.irql:
 ## -description
 
 
-The <b>ICertPropertyRequestOriginator</b> interface represents a certificate property that contains the Domain Naming System (DNS) name of the computer on which the request was  created. This property exists to reduce the potential for race conditions when using auto-enrollment to renew a certificate. Auto-enrollment attempts to renew a certificate that exists on the originating computer when the potential renewal period begins. Other computers on which that certificate is also installed and for which this property is set wait to determine whether that renewal attempt is successful. If the originating computer successfully enrolls and the new certificate is roamed to the other computers in a timely manner, the other computers will not attempt to enroll.<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/en-us/library/Aa374867(v=VS.85).aspx">CERTENROLL_PROPERTYID</a> value is XCN_CERT_REQUEST_ORIGINATOR_PROP_ID.</div>
+The <b>ICertPropertyRequestOriginator</b> interface represents a certificate property that contains the Domain Naming System (DNS) name of the computer on which the request was  created. This property exists to reduce the potential for race conditions when using auto-enrollment to renew a certificate. Auto-enrollment attempts to renew a certificate that exists on the originating computer when the potential renewal period begins. Other computers on which that certificate is also installed and for which this property is set wait to determine whether that renewal attempt is successful. If the originating computer successfully enrolls and the new certificate is roamed to the other computers in a timely manner, the other computers will not attempt to enroll.<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/e7ad0ec5-a568-4506-ba54-908e00083c2b">CERTENROLL_PROPERTYID</a> value is XCN_CERT_REQUEST_ORIGINATOR_PROP_ID.</div>
 <div> </div>
 
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertPropertyRequestOriginator</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Aa375239(v=VS.85).aspx">ICertProperty</a>. <b>ICertPropertyRequestOriginator</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertPropertyRequestOriginator</b> interface inherits from <a href="https://msdn.microsoft.com/947c2f09-993d-4ced-8b76-66b79d96e3bc">ICertProperty</a>. <b>ICertPropertyRequestOriginator</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Properties</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
 </ul>
 
 ## -members
@@ -74,7 +74,7 @@ The <b>ICertPropertyRequestOriginator</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa375781(v=VS.85).aspx">Initialize</a>
+<a href="https://msdn.microsoft.com/3308dde9-ab97-40a1-9251-c207a3a66061">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes the object from a string that contains the DNS name of the originating computer.
@@ -83,7 +83,7 @@ Initializes the object from a string that contains the DNS name of the originati
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa375775(v=VS.85).aspx">InitializeFromLocalRequestOriginator</a>
+<a href="https://msdn.microsoft.com/466e0767-d13a-4f5d-9715-47bb7b9d4142">InitializeFromLocalRequestOriginator</a>
 </td>
 <td align="left" width="63%">
 Initializes the object from the DNS name of the local computer.
@@ -100,7 +100,7 @@ Initializes the object from the DNS name of the local computer.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375789(v=VS.85).aspx">RequestOriginator</a>
+<a href="https://msdn.microsoft.com/0ac6b8da-9183-4683-a172-a9742b40da64">RequestOriginator</a>
 
 
 </td>
@@ -117,11 +117,11 @@ Retrieves a string that contains the DNS name of the originating computer.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374850(v=VS.85).aspx">CertEnroll Interfaces</a>
+<a href="https://msdn.microsoft.com/d49511ed-8651-457e-a102-0bea4edde24c">CertEnroll Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375239(v=VS.85).aspx">ICertProperty</a>
+<a href="https://msdn.microsoft.com/947c2f09-993d-4ced-8b76-66b79d96e3bc">ICertProperty</a>
  
 
  

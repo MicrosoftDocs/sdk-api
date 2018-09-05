@@ -114,17 +114,21 @@ There is no guarantee that exactly the same set of variants will be enumerated t
 
 The following code implements <b>IEnumVariant::Reset</b>. A complete example implementation of the <b>IEnumVariant</b> interface is available in the COM Fundamentals Lines sample (Enumvar.cpp).
 
-
-```cpp
-STDMETHODIMP
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP
 CEnumVariant::Reset()
 {
    m_lCurrent = m_lLBound;
    return NOERROR;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: base\symnext.htm
 old-project: debug
 ms.assetid: ffd2d416-7149-4a4c-a1d5-7a7f3bdf5dc4
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: SymNext, SymNext function, SymNextW, base.symnext, dbghelp/SymNext, dbghelp/SymNextW
 ms.prod: windows
 ms.technology: windows-sdk

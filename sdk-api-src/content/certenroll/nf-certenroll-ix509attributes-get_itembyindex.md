@@ -4,10 +4,10 @@ title: IX509Attributes::get_ItemByIndex
 author: windows-sdk-content
 description: Retrieves an IX509Attribute object from the collection by index number.
 old-location: security\ix509attributes_itembyindex_property.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: 2bcf46d9-93b5-4fbe-9be8-004b3653902e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509Attributes interface [Security],ItemByIndex property, IX509Attributes.ItemByIndex, IX509Attributes.get_ItemByIndex, IX509Attributes::ItemByIndex, IX509Attributes::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],IX509Attributes interface, certenroll/IX509Attributes::ItemByIndex, certenroll/IX509Attributes::get_ItemByIndex, get_ItemByIndex, security.ix509attributes_itembyindex_property
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-The <b>ItemByIndex</b> property retrieves an <a href="https://msdn.microsoft.com/en-us/library/Aa377058(v=VS.85).aspx">IX509Attribute</a> object from the collection by index number.
+The <b>ItemByIndex</b> property retrieves an <a href="https://msdn.microsoft.com/20965768-2c6b-488a-ab7c-5e0f6f28ac9b">IX509Attribute</a> object from the collection by index number.
 
 This property is read-only.
 
@@ -65,15 +65,15 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377058(v=VS.85).aspx">IX509Attribute</a>
+<a href="https://msdn.microsoft.com/20965768-2c6b-488a-ab7c-5e0f6f28ac9b">IX509Attribute</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377090(v=VS.85).aspx">IX509AttributeExtensions</a>
+<a href="https://msdn.microsoft.com/d216bcfd-50be-4445-87a5-d1cb223aa70c">IX509AttributeExtensions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377108(v=VS.85).aspx">IX509Attributes</a>
+<a href="https://msdn.microsoft.com/dd891506-f25b-4aa5-b739-0d66d5a5f395">IX509Attributes</a>
  
 
  

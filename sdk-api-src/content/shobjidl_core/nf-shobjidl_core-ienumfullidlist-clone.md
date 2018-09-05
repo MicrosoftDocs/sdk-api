@@ -7,7 +7,7 @@ old-location: shell\IEnumFullIDList_Clone.htm
 old-project: shell
 ms.assetid: 23345978-6178-4f6d-8757-d5fd95199067
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: Clone, Clone method [Windows Shell], Clone method [Windows Shell],IEnumFullIDList interface, IEnumFullIDList interface [Windows Shell],Clone method, IEnumFullIDList.Clone, IEnumFullIDList::Clone, _shell_IEnumFullIDList_Clone, shell.IEnumFullIDList_Clone, shobjidl_core/IEnumFullIDList::Clone
 ms.prod: windows
 ms.technology: windows-sdk

@@ -85,9 +85,13 @@ The property <a href="https://msdn.microsoft.com/ff05ab0c-b4fe-4c67-8894-9ac8427
 
 The following code example shows how to set a password for the Microsoft Fax Service running on Windows 2000.
 
-
-```vb
-Dim cp As IADsComputer
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim cp As IADsComputer
 Dim so As IADsServiceOperations
 Dim s As IADsService
 Dim sPass As String
@@ -100,69 +104,73 @@ Set so = cp.GetObject("Service", "Fax")
 so.SetPassword sPass
  
 Set s = so
-MsgBox "The password for " & so.name & " has been changed on "_
-        & s.ServiceAccountName
+MsgBox "The password for " &amp; so.name &amp; " has been changed on "_
+        &amp; s.ServiceAccountName
 
 Cleanup:
-    If (Err.Number<>0) Then
-        MsgBox("An error has occurred. " & Err.Number)
+    If (Err.Number&lt;&gt;0) Then
+        MsgBox("An error has occurred. " &amp; Err.Number)
     End If
     Set cp = Nothing
     Set so = Nothing
     Set s = Nothing
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The following code example shows how to set a password for the Microsoft Fax Service running on Windows 2000.
 
-
-```cpp
-HRESULT SetServicePassword(LPCWSTR pwszADsPath, LPCWSTR, pwszPasword)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT SetServicePassword(LPCWSTR pwszADsPath, LPCWSTR, pwszPasword)
 {
     IADsContainer *pCont = NULL;
     IADsServiceOperations *pSrvOp = NULL;
     IDispatch *pDisp = NULL;
     HRESULT hr = S_OK;
 
-    hr = ADsGetObject(pwszADsPath, IID_IADsContainer, (void**)&pCont);
+    hr = ADsGetObject(pwszADsPath, IID_IADsContainer, (void**)&amp;pCont);
     if(FAILED(hr)) 
     {
         goto Cleanup;
     }
 
-    hr = pCont->GetObject(CComBSTR("Service"), CComBSTR("Fax"), &pDisp);
+    hr = pCont-&gt;GetObject(CComBSTR("Service"), CComBSTR("Fax"), &amp;pDisp);
     if(FAILED(hr)) 
     {
         goto Cleanup;
     }
 
-    hr = pDisp->QueryInterface(IID_IADsServiceOperations, (void**)&pSrvOp);
+    hr = pDisp-&gt;QueryInterface(IID_IADsServiceOperations, (void**)&amp;pSrvOp);
     if(FAILED(hr)) 
     {
         goto Cleanup;
     }
 
     // Insert code to securely retrieve the password from the user.
-    hr = pSrvOp->SetPassword(CComBSTR(pwszPassword));
+    hr = pSrvOp-&gt;SetPassword(CComBSTR(pwszPassword));
 
 Cleanup:
     if(pDisp) 
     {
-        pDisp->Release();
+        pDisp-&gt;Release();
     }
     if(pCont) 
     {
-        pCont->Release();
+        pCont-&gt;Release();
     }
     if(pSrvOp) 
     {
-        pSrvOp->Release();
+        pSrvOp-&gt;Release();
     }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

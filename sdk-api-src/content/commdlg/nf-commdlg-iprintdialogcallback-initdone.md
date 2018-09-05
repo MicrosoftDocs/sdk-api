@@ -7,7 +7,7 @@ old-location: dlgbox\iprintdialogcallback_initdone.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxinterfaces\iprintdialogcallback\iprintdialogcallbackinitdone.htm
 ms.author: windowssdkdev
-ms.date: 08/21/2018
+ms.date: 08/24/2018
 ms.keywords: IPrintDialogCallback interface [Dialog Boxes],InitDone method, IPrintDialogCallback.InitDone, IPrintDialogCallback::InitDone, InitDone, InitDone method [Dialog Boxes], InitDone method [Dialog Boxes],IPrintDialogCallback interface, _win32_IPrintDialogCallback_InitDone, _win32_iprintdialogcallback_initdone_cpp, commdlg/IPrintDialogCallback::InitDone, dlgbox.iprintdialogcallback_initdone, winui._win32_iprintdialogcallback_initdone
 ms.prod: windows
 ms.technology: windows-sdk

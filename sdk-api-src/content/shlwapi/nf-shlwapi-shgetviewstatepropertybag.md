@@ -7,7 +7,7 @@ old-location: shell\SHGetViewStatePropertyBag.htm
 old-project: shell
 ms.assetid: 6852867a-30a5-4d4e-b790-3746104e3ed8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHGVSPB_ALLFOLDERS, SHGVSPB_ALLUSERS, SHGVSPB_FOLDER, SHGVSPB_FOLDERNODEFAULTS, SHGVSPB_GLOBALDEFAULTS, SHGVSPB_INHERIT, SHGVSPB_NOAUTODEFAULTS, SHGVSPB_PERFOLDER, SHGVSPB_PERUSER, SHGVSPB_ROAM, SHGVSPB_USERDEFAULTS, SHGetViewStatePropertyBag, SHGetViewStatePropertyBag function [Windows Shell], shell.SHGetViewStatePropertyBag, shell_SHGetViewStatePropertyBag, shlwapi/SHGetViewStatePropertyBag
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

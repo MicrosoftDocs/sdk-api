@@ -81,7 +81,7 @@ The method returns an <b>HRESULT</b> value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693443(v=VS.85).aspx">IBDA_TIF_REGISTRATION Interface</a>
+<a href="https://msdn.microsoft.com/96c76a81-57c9-4c4b-a5f6-7b9862757847">IBDA_TIF_REGISTRATION Interface</a>
  
 
  

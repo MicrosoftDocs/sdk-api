@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncCallback_ProposeItem.htm
 old-project: shell
 ms.assetid: d0c73950-f80e-4831-9c56-4316561a269b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ISyncMgrSyncCallback interface [Windows Shell],ProposeItem method, ISyncMgrSyncCallback.ProposeItem, ISyncMgrSyncCallback::ProposeItem, ProposeItem, ProposeItem method [Windows Shell], ProposeItem method [Windows Shell],ISyncMgrSyncCallback interface, _shell_ISyncMgrSyncCallback_ProposeItem, shell.ISyncMgrSyncCallback_ProposeItem, syncmgr/ISyncMgrSyncCallback::ProposeItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,9 +91,13 @@ Returns S_OK if successful, or an error value otherwise. Returns E_INVALIDARG if
 
 The following example shows the usage of <b>ISyncMgrSyncCallback::ProposeItem</b> and <a href="https://msdn.microsoft.com/e0964cd3-42ad-4af0-90b2-0f365f457448">ISyncMgrSyncCallback::CommitItem</a> by the <a href="https://msdn.microsoft.com/6742f6a8-eda8-4ef0-8a11-dc70baefcc83">Synchronize</a> method.
 
-
-```cpp
-HRESULT CMyDeviceHandler::Synchronize(...)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CMyDeviceHandler::Synchronize(...)
 {
     ...
 
@@ -108,25 +112,25 @@ HRESULT CMyDeviceHandler::Synchronize(...)
         ISyncMgrSyncItem *pNewItem = NULL;
         LPWSTR szItemID[MAX_SYNCMGR_ID];
         
-        hr = GetNextNewItem(&pNewItem, szItemID, ARRAYSIZE(szItemID));
+        hr = GetNextNewItem(&amp;pNewItem, szItemID, ARRAYSIZE(szItemID));
         if (SUCCEEDED(hr))
         {
             // Propose this item to Sync Center.
-            hr = pCallback->ProposeItem(pNewItem);
+            hr = pCallback-&gt;ProposeItem(pNewItem);
             if (SUCCEEDED(hr))
             {
                 // Synchronize the item.
                 // Synchronization was successful.  Commit the item.
-                hr = pCallback->CommitItem(szItemID);
+                hr = pCallback-&gt;CommitItem(szItemID);
             }
-            pNewItem->Release();
+            pNewItem-&gt;Release();
         }
     }
     ...
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

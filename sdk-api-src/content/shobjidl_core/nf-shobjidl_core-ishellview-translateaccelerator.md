@@ -7,7 +7,7 @@ old-location: shell\IShellView_TranslateAccelerator.htm
 old-project: shell
 ms.assetid: 425a281e-2d34-4bb3-92b9-05ae4cf70a9f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellView interface [Windows Shell],TranslateAccelerator method, IShellView.TranslateAccelerator, IShellView::TranslateAccelerator, TranslateAccelerator, TranslateAccelerator method [Windows Shell], TranslateAccelerator method [Windows Shell],IShellView interface, _win32_IShellView_TranslateAccelerator, shell.IShellView_TranslateAccelerator, shobjidl_core/IShellView::TranslateAccelerator
 ms.prod: windows
 ms.technology: windows-sdk

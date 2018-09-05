@@ -7,7 +7,7 @@ old-location: wmi\swbemobject_delete_.htm
 old-project: WmiSdk
 ms.assetid: bf1db667-4bd5-4717-bc0b-5bffe9d0f4fb
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: Delete_, Delete_ method [Windows Management Instrumentation], Delete_ method [Windows Management Instrumentation],ISWbemObject interface, Delete_ method [Windows Management Instrumentation],SWbemObject object, ISWbemObject interface [Windows Management Instrumentation],Delete_ method, ISWbemObject.Delete_, ISWbemObject::Delete_, SWbemObject object [Windows Management Instrumentation],Delete_ method, SWbemObject.Delete_, _hmm_swbemobject.delete_, wmi.swbemobject_delete_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -107,9 +107,13 @@ The
 
 The following example creates a new class;  adds a key property; writes the new class to the repository; and displays the path of the new class object. The script then spawns an instance of the new class; writes it; and displays the path. Note that the script deletes both the class and its instances from the repository by simply deleting the class.
 
-
-```vb
-On Error Resume Next
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>On Error Resume Next
 wbemCimtypeString = 8             ' String datatype
 Set objSWbemService = GetObject("Winmgmts:root\default")
 Set objClass = objSWbemService.Get()
@@ -137,16 +141,16 @@ wscript.echo objInstancePath.Path
 
 ' Remove the new class and instance from the repository
 objClass.Delete_()
-If Err <> 0 Then
-    WScript.Echo Err.Number & "    " & Err.Description 
+If Err &lt;&gt; 0 Then
+    WScript.Echo Err.Number &amp; "    " &amp; Err.Description 
 Else
     WScript.Echo "Delete succeeded"
 End If
 
 ' Release SwbemServices object
-Set objSWbemService = Nothing
-```
-
-
+Set objSWbemService = Nothing</pre>
+</td>
+</tr>
+</table></span></div>
 
 

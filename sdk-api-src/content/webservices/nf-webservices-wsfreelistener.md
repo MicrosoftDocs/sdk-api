@@ -7,7 +7,7 @@ old-location: wsw\wsfreelistener.htm
 old-project: wsw
 ms.assetid: 3a8a4cd3-d98e-467b-bbed-5cbd66f892ed
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WsFreeListener, WsFreeListener function [Web Services for Windows], webservices/WsFreeListener, wsw.wsfreelistener
 ms.prod: windows
 ms.technology: windows-sdk

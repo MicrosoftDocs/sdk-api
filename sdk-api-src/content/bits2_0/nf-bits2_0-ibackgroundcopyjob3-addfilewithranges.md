@@ -61,7 +61,7 @@ Adds a file to a download job and specifies the ranges of the file you want to d
 
 ### -param RemoteUrl [in]
 
-Null-terminated string that contains the name of the file on the server. For information on specifying the remote name, see the <b>RemoteName</b> member and Remarks section of the <a href="https://msdn.microsoft.com/en-us/library/Aa362800(v=VS.85).aspx">BG_FILE_INFO</a> structure. 
+Null-terminated string that contains the name of the file on the server. For information on specifying the remote name, see the <b>RemoteName</b> member and Remarks section of the <a href="https://msdn.microsoft.com/bf5302e9-da8f-4c57-a998-fd49484e0584">BG_FILE_INFO</a> structure. 
 
 
 
@@ -72,7 +72,7 @@ Null-terminated string that contains the name of the file on the server. For inf
 
 ### -param LocalName [in]
 
-Null-terminated string that contains the name of the file on the client. For information on specifying the local name, see the <b>LocalName</b> member and Remarks section of the <a href="https://msdn.microsoft.com/en-us/library/Aa362800(v=VS.85).aspx">BG_FILE_INFO</a> structure.
+Null-terminated string that contains the name of the file on the client. For information on specifying the local name, see the <b>LocalName</b> member and Remarks section of the <a href="https://msdn.microsoft.com/bf5302e9-da8f-4c57-a998-fd49484e0584">BG_FILE_INFO</a> structure.
 
 
 ### -param RangeCount [in]
@@ -82,7 +82,7 @@ Number of elements in <i>Ranges</i>.
 
 ### -param Ranges [in]
 
-Array of one or more <a href="https://msdn.microsoft.com/en-us/library/Aa362802(v=VS.85).aspx">BG_FILE_RANGE</a> structures that specify the ranges to download. Do not specify duplicate or overlapping ranges. 
+Array of one or more <a href="https://msdn.microsoft.com/4ed20321-fb89-410b-906e-9f2c4366645a">BG_FILE_RANGE</a> structures that specify the ranges to download. Do not specify duplicate or overlapping ranges. 
 
 
 ## -returns
@@ -237,11 +237,15 @@ For better performance on Windows BranchCache-enabled file transfers, it is reco
 
 #### Examples
 
-The following example shows how to call the <b>AddFileWithRanges</b> method to specify the ranges of a file to download. The example assumes the <a href="https://msdn.microsoft.com/en-us/library/Aa362973(v=VS.85).aspx">IBackgroundCopyJob</a> variable, <i>pJob</i>, is valid.
+The following example shows how to call the <b>AddFileWithRanges</b> method to specify the ranges of a file to download. The example assumes the <a href="https://msdn.microsoft.com/91dd1ae1-1740-4d95-a476-fc18aead1dc2">IBackgroundCopyJob</a> variable, <i>pJob</i>, is valid.
 
-
-```cpp
-    IBackgroundCopyJob *pJob;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    IBackgroundCopyJob *pJob;
     IBackgroundCopyJob3 *pJob3 = NULL;
     DWORD dwRangeCount = 3;                  //Number of elements in Ranges.
     BG_FILE_RANGE Ranges[] = {24, 17,        //Array of ranges to download (offset and length).
@@ -251,13 +255,13 @@ The following example shows how to call the <b>AddFileWithRanges</b> method to s
 
     //Need to query the IBackgroundCopyJob interface for an IBackgroundCopyJob3
     //interface pointer. The IBackgroundCopyJob3 interface contains the AddFileWithRanges method.
-    hr = pJob->QueryInterface(__uuidof( IBackgroundCopyJob3 ), (void**)&pJob3;);
+    hr = pJob-&gt;QueryInterface(__uuidof( IBackgroundCopyJob3 ), (void**)&amp;pJob3;);
     if (S_OK == hr)
     {
-         pJob->Release(); //No longer need the IBackgoundCopyJob interface pointer.
+         pJob-&gt;Release(); //No longer need the IBackgoundCopyJob interface pointer.
 
          //Add a file to the job and specify the ranges from the file to download.
-         hr = pJob3->AddFileWithRanges(L"<REMOTENAMEGOESHERE>", L"<LOCALNAMEGOESHERE>",
+         hr = pJob3-&gt;AddFileWithRanges(L"&lt;REMOTENAMEGOESHERE&gt;", L"&lt;LOCALNAMEGOESHERE&gt;",
                                        dwRangeCount, Ranges);
          if (FAILED(hr))
          {
@@ -268,16 +272,16 @@ The following example shows how to call the <b>AddFileWithRanges</b> method to s
               //Returns BG_E_OVERLAPPING_RANGES if you specify overlapping or duplicate ranges.
          }
 
-          pJob3->Release(); //Release the interface if you are done with it.
+          pJob3-&gt;Release(); //Release the interface if you are done with it.
      }
     else
     {
          //Handle error. QueryInterface will return E_NOINTERFACE if the version of BITS
          //running on the computer is less than BITS 2.0.
-    }
-```
-
-
+    }</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -286,19 +290,19 @@ The following example shows how to call the <b>AddFileWithRanges</b> method to s
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362802(v=VS.85).aspx">BG_FILE_RANGE</a>
+<a href="https://msdn.microsoft.com/4ed20321-fb89-410b-906e-9f2c4366645a">BG_FILE_RANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362946(v=VS.85).aspx">IBackgroundCopyFile2::GetFileRanges</a>
+<a href="https://msdn.microsoft.com/2e0ea08e-5f97-45c9-9280-ce6c4dce7a17">IBackgroundCopyFile2::GetFileRanges</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362990(v=VS.85).aspx">IBackgroundCopyJob3</a>
+<a href="https://msdn.microsoft.com/46e115bb-2634-4b79-b307-45720d8cb2be">IBackgroundCopyJob3</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363017(v=VS.85).aspx">IBackgroundCopyJob::AddFile</a>
+<a href="https://msdn.microsoft.com/0dada1d3-49b6-41af-b17f-612f27ea4d56">IBackgroundCopyJob::AddFile</a>
  
 
  

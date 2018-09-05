@@ -7,7 +7,7 @@ old-location: mbn\mbn_pin_state.htm
 old-project: mbn
 ms.assetid: 5e32e369-2e83-4682-a10c-718f228308ab
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: MBN_PIN_STATE, MBN_PIN_STATE enumeration [Microsoft Broadband Networks], MBN_PIN_STATE_ENTER, MBN_PIN_STATE_NONE, MBN_PIN_STATE_UNBLOCK, mbn.mbn_pin_state, mbnapi/MBN_PIN_STATE, mbnapi/MBN_PIN_STATE_ENTER, mbnapi/MBN_PIN_STATE_NONE, mbnapi/MBN_PIN_STATE_UNBLOCK
 ms.prod: windows
 ms.technology: windows-sdk

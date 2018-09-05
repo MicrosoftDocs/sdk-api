@@ -7,7 +7,7 @@ old-location: shell\PathIsNetworkPath.htm
 old-project: shell
 ms.assetid: 3a9c33bc-2325-4285-b6c3-4c3e1d323c1e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: PathIsNetworkPath, PathIsNetworkPath function [Windows Shell], PathIsNetworkPathA, PathIsNetworkPathW, _win32_PathIsNetworkPath, shell.PathIsNetworkPath, shlwapi/PathIsNetworkPath, shlwapi/PathIsNetworkPathA, shlwapi/PathIsNetworkPathW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

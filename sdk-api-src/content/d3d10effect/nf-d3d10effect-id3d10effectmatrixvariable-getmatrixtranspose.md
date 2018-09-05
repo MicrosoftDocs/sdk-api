@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10effectmatrixvariable_getmatrixtranspose.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectmatrixvariable_getmatrixtranspose.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: 417baa18-036a-1c79-9d4f-9e61637c5308, GetMatrixTranspose, GetMatrixTranspose method [Direct3D 10], GetMatrixTranspose method [Direct3D 10],ID3D10EffectMatrixVariable interface, ID3D10EffectMatrixVariable interface [Direct3D 10],GetMatrixTranspose method, ID3D10EffectMatrixVariable.GetMatrixTranspose, ID3D10EffectMatrixVariable::GetMatrixTranspose, d3d10effect/ID3D10EffectMatrixVariable::GetMatrixTranspose, direct3d10.id3d10effectmatrixvariable_getmatrixtranspose
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,9 +70,9 @@ A pointer to the first element of a transposed matrix.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-Returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+Returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -91,7 +91,7 @@ Transposing a matrix will rearrange the data order from row-column order to colu
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173647(v=VS.85).aspx">ID3D10EffectMatrixVariable Interface</a>
+<a href="https://msdn.microsoft.com/82ffcc6e-9a92-4d72-a397-0a66600ad508">ID3D10EffectMatrixVariable Interface</a>
  
 
  

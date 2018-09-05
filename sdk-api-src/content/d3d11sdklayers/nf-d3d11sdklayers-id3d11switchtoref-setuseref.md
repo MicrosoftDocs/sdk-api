@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/en-us/library/Ff476630(v=VS.85).aspx">ID3D11SwitchToRef</a> interface and its methods are not supported in Direct3D 11.</div><div> </div>
+<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/02295183-b117-4ca9-89ad-223fdd3b0aa5">ID3D11SwitchToRef</a> interface and its methods are not supported in Direct3D 11.</div><div> </div>
 
 ## -parameters
 
@@ -60,7 +60,7 @@ req.irql:
 
 ### -param UseRef
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Reserved.
 
@@ -69,7 +69,7 @@ Reserved.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Reserved.
 
@@ -81,7 +81,7 @@ Reserved.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476630(v=VS.85).aspx">ID3D11SwitchToRef Interface</a>
+<a href="https://msdn.microsoft.com/02295183-b117-4ca9-89ad-223fdd3b0aa5">ID3D11SwitchToRef Interface</a>
  
 
  

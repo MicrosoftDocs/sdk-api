@@ -157,15 +157,19 @@ This method returns a pointer to an enumerator object that supports the <a href=
 
 The following example enumerates all audio effect DMOs on the user's system, including keyed DMOs.
 
-
-```
-IEnumDMO* pEnum = NULL; 
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>IEnumDMO* pEnum = NULL; 
 HRESULT hr = DMOEnum(
     DMOCATEGORY_AUDIO_EFFECT, // Category
     DMO_ENUMF_INCLUDE_KEYED,  // Included keyed DMOs
     0, NULL,                  // Input types (don't care)
     0, NULL,                  // Output types (don't care)
-    &pEnum);
+    &amp;pEnum);
 
 if (SUCCEEDED(hr)) 
 {
@@ -173,7 +177,7 @@ if (SUCCEEDED(hr))
     WCHAR* wszName;
     do
     {
-        hr = pEnum->Next(1, &clsidDMO, &wszName, NULL);
+        hr = pEnum-&gt;Next(1, &amp;clsidDMO, &amp;wszName, NULL);
         if (hr == S_OK) 
         {  
             // Now wszName holds the friendly name of the DMO, 
@@ -183,12 +187,12 @@ if (SUCCEEDED(hr))
             CoTaskMemFree(wszName);
         }
     } while (hr == S_OK);
-    pEnum->Release();
+    pEnum-&gt;Release();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

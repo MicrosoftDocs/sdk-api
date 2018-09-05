@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_SetTime.htm
 old-project: shell
 ms.assetid: D4B949F6-5508-4624-9706-491184703DC6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellDispatch object [Windows Shell],SetTime method, IShellDispatch.SetTime, IShellDispatch::SetTime, SetTime, SetTime method [Windows Shell], SetTime method [Windows Shell],IShellDispatch object, shell.IShellDispatch_SetTime
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,25 +89,33 @@ The following examples show the use of <b>SetTime</b> in JScript, VBScript, and 
 JScript:
                 
 
-
-```javascript
-<script language="JScript">
+<div class="code"><span codelanguage="JScript"><table>
+<tr>
+<th>JScript</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="JScript"&gt;
     function fnShellSetTimeJ()
     {
         var objShell = new ActiveXObject("shell.application");
         
         objshell.SetTime();
     }
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 VBScript:
 
-
-```vb
-<script language="VBScript">
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="VBScript"&gt;
     function fnShellSetTimeVB()
         dim objShell
         
@@ -116,24 +124,28 @@ VBScript:
  
         set objShell = nothing
     end function
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 Visual Basic:
 
-
-```vb
-Private Sub fnShellSetTimeVB()
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Private Sub fnShellSetTimeVB()
     Dim objShell As Shell
     
     Set objShell = New Shell
     objshell.SetTime
  
     Set objShell = Nothing
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

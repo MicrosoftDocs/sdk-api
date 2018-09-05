@@ -7,7 +7,7 @@ old-location: shell\PathCanonicalize.htm
 old-project: shell
 ms.assetid: e9b1e877-2cd6-4dd9-a15b-676cb940daed
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: PathCanonicalize, PathCanonicalize function [Windows Shell], PathCanonicalizeA, PathCanonicalizeW, _win32_PathCanonicalize, shell.PathCanonicalize, shlwapi/PathCanonicalize, shlwapi/PathCanonicalizeA, shlwapi/PathCanonicalizeW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -104,11 +104,15 @@ If there are more ".." sequences than there are path segments, the function retu
 
 
 
-
-```cpp
-
-#include <windows.h>
-#include <iostream>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+#include &lt;windows.h&gt;
+#include &lt;iostream&gt;
 #include "Shlwapi.h"
 
 using namespace std;
@@ -145,30 +149,30 @@ char buffer_6[ ] = "C:\\..";
 char *lpStr6;
 lpStr6 = buffer_6;
 
-cout << "The un-canonicalized path 2 is : " << lpStr2
-     << "\nThe return value is            : " 
-     << PathCanonicalize(lpStr1,lpStr2)
-     << "\nThe canonicalized path 1 is    : " << lpStr1 << endl;
+cout &lt;&lt; "The un-canonicalized path 2 is : " &lt;&lt; lpStr2
+     &lt;&lt; "\nThe return value is            : " 
+     &lt;&lt; PathCanonicalize(lpStr1,lpStr2)
+     &lt;&lt; "\nThe canonicalized path 1 is    : " &lt;&lt; lpStr1 &lt;&lt; endl;
 
-cout << "\nThe un-canonicalized path 3 is : " << lpStr3
-     << "\nThe return value is            : " 
-     << PathCanonicalize(lpStr1,lpStr3)
-     << "\nThe canonicalized path 1 is    : " << lpStr1 << endl;
+cout &lt;&lt; "\nThe un-canonicalized path 3 is : " &lt;&lt; lpStr3
+     &lt;&lt; "\nThe return value is            : " 
+     &lt;&lt; PathCanonicalize(lpStr1,lpStr3)
+     &lt;&lt; "\nThe canonicalized path 1 is    : " &lt;&lt; lpStr1 &lt;&lt; endl;
 
-cout << "\nThe un-canonicalized path 4 is : " << lpStr4
-     << "\nThe return value is            : " 
-     << PathCanonicalize(lpStr1,lpStr4)
-     << "\nThe canonicalized path 1 is    : " << lpStr1 << endl;
+cout &lt;&lt; "\nThe un-canonicalized path 4 is : " &lt;&lt; lpStr4
+     &lt;&lt; "\nThe return value is            : " 
+     &lt;&lt; PathCanonicalize(lpStr1,lpStr4)
+     &lt;&lt; "\nThe canonicalized path 1 is    : " &lt;&lt; lpStr1 &lt;&lt; endl;
 
-cout << "\nThe un-canonicalized path 5 is : " << lpStr5
-     << "\nThe return value is            : " 
-     << PathCanonicalize(lpStr1,lpStr5) 
-     << "\nThe canonicalized path 1 is    : " << lpStr1 << endl;
+cout &lt;&lt; "\nThe un-canonicalized path 5 is : " &lt;&lt; lpStr5
+     &lt;&lt; "\nThe return value is            : " 
+     &lt;&lt; PathCanonicalize(lpStr1,lpStr5) 
+     &lt;&lt; "\nThe canonicalized path 1 is    : " &lt;&lt; lpStr1 &lt;&lt; endl;
 
-cout << "\nThe un-canonicalized path 6 is : " << lpStr6
-     << "\nThe return value is            : " 
-     << PathCanonicalize(lpStr1,lpStr6)
-     << "\nThe canonicalized path 1 is    : " << lpStr1 << endl;
+cout &lt;&lt; "\nThe un-canonicalized path 6 is : " &lt;&lt; lpStr6
+     &lt;&lt; "\nThe return value is            : " 
+     &lt;&lt; PathCanonicalize(lpStr1,lpStr6)
+     &lt;&lt; "\nThe canonicalized path 1 is    : " &lt;&lt; lpStr1 &lt;&lt; endl;
 }
 OUTPUT:
 ---------
@@ -190,9 +194,9 @@ The canonicalized path 1 is    : A:\name_1\name_2
 
 The un-canonicalized path 6 is : C:\..
 The return value is            : 1
-The canonicalized path 1 is    : C:\
-```
-
-
+The canonicalized path 1 is    : C:\</pre>
+</td>
+</tr>
+</table></span></div>
 
 

@@ -7,7 +7,7 @@ old-location: com\oledraw.htm
 old-project: com
 ms.assetid: c45c6746-59ea-43bb-9f2b-2182d7a3fc7a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: OleDraw, OleDraw function [COM], _ole_OleDraw, com.oledraw, ole/OleDraw
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,27 @@ Enables drawing objects more easily. You can use it instead of calling <a href="
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
+
+TBD
+
+
+### -param arg3
+
+TBD
+
+
+### -param arg4
+
+TBD
+
+
+### -param arg5
 
 TBD
 

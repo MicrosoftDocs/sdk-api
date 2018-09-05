@@ -4,10 +4,10 @@ title: PSYMBOLSERVERCALLBACKPROC
 author: windows-sdk-content
 description: An entry point to the symbol server DLL.
 old-location: winprog\symbolservercallback.htm
-old-project: devnotes
+old-project: DevNotes
 ms.assetid: 11c833ee-a9f3-4d08-a6cd-0da62844c589
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PSYMBOLSERVERCALLBACKPROC, SSRVACTION_EVENT, SSRVACTION_QUERYCANCEL, SSRVACTION_SIZE, SSRVACTION_TRACE, SymbolServerCallback, SymbolServerCallback callback, SymbolServerCallback callback function [Windows API], _win32_symbolservercallback, base.symbolservercallback, dbghelp/SymbolServerCallback, winprog.symbolservercallback
 ms.prod: windows
 ms.technology: windows-sdk

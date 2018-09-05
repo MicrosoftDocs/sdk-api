@@ -4,10 +4,10 @@ title: IShowMessageAction::put_MessageBody
 author: windows-sdk-content
 description: Gets or sets the message text that is displayed in the body of the message box.
 old-location: taskschd\ishowmessageaction_messagebody.htm
-old-project: taskschd
+old-project: TaskSchd
 ms.assetid: 7a9e4140-a010-4922-83d2-a063322640c6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IShowMessageAction interface [Task Scheduler],MessageBody property, IShowMessageAction.MessageBody, IShowMessageAction.put_MessageBody, IShowMessageAction::MessageBody, IShowMessageAction::get_MessageBody, IShowMessageAction::put_MessageBody, MessageBody property [Task Scheduler], MessageBody property [Task Scheduler],IShowMessageAction interface, put_MessageBody, taskschd.ishowmessageaction_messagebody, taskschd/IShowMessageAction::MessageBody, taskschd/IShowMessageAction::get_MessageBody, taskschd/IShowMessageAction::put_MessageBody
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-<p class="CCE_Message">[This interface is no longer supported.  You can use IExecAction with the Windows scripting <a href="https://msdn.microsoft.com/library/sfw6660x(v=VS.85).aspx">MsgBox function</a> to show a message in the user session.]
+<p class="CCE_Message">[This interface is no longer supported.  You can use IExecAction with the Windows scripting <a href="ae073d50-e4a4-4e23-8e46-0cb1369965e7">MsgBox function</a> to show a message in the user session.]
 
 Gets or sets the message text that is displayed in the body of the message box.
 

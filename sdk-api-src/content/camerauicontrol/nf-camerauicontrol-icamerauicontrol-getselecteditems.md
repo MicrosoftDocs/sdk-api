@@ -4,10 +4,10 @@ title: ICameraUIControl::GetSelectedItems
 author: windows-sdk-content
 description: Gets the selected items.
 old-location: winprog\icamerauicontrol_getselecteditems.htm
-old-project: devnotes
+old-project: DevNotes
 ms.assetid: 572cbf23-b9b5-441c-9bde-55ef856397ca
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetSelectedItems, GetSelectedItems method [Windows API], GetSelectedItems method [Windows API],ICameraUIControl interface, ICameraUIControl interface [Windows API],GetSelectedItems method, ICameraUIControl.GetSelectedItems, ICameraUIControl::GetSelectedItems, camerauicontrol/ICameraUIControl::GetSelectedItems, winprog.icamerauicontrol_getselecteditems
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,7 +78,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh802717(v=VS.85).aspx">ICameraUIControl</a>
+<a href="https://msdn.microsoft.com/e0fbcf43-cd52-4b5b-af4b-f7d673f7a7c9">ICameraUIControl</a>
  
 
  

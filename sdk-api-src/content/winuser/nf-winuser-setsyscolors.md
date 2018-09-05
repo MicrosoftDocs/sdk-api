@@ -7,7 +7,7 @@ old-location: winmsg\setsyscolors.htm
 old-project: winmsg
 ms.assetid: 41a7a96c-f9d1-44e3-a7e1-fd7d155c4ed0
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: SetSysColors, SetSysColors function [Windows and Messages], _win32_setsyscolors, base.changing_the_colors_of_window_elements, base.setsyscolors, winmsg.setsyscolors, winui.setsyscolors, winuser/SetSysColors
 ms.prod: windows
 ms.technology: windows-sdk
@@ -122,10 +122,14 @@ function affects only the current session. The new colors are not saved when the
 
 The following example demonstrates the use of  the <a href="https://msdn.microsoft.com/165c1781-161e-4ab2-98c9-eec4e9098d09">GetSysColor</a> and <b>SetSysColors</b> functions.  First, the example uses <b>GetSysColor</b> to retrieve the colors of the window background and active caption and displays the red, green, blue (RGB) values in hexadecimal notation. Next, example uses <b>SetSysColors</b> to change the color of the window background to light gray and the active title bars to dark purple. After a 10-second delay, the example restores the previous colors for these elements using <a href="https://msdn.microsoft.com/41a7a96c-f9d1-44e3-a7e1-fd7d155c4ed0">SetSysColors</a>.
 
-
-```
-#include <windows.h>
-#include <stdio.h>
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
 #pragma comment(lib, "user32.lib")
 
 void main()
@@ -180,10 +184,10 @@ void main()
     // Restore the elements to their original colors
 
     SetSysColors(2, aElements, aOldColors); 
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

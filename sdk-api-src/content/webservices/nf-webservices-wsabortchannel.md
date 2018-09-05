@@ -7,7 +7,7 @@ old-location: wsw\wsabortchannel.htm
 old-project: wsw
 ms.assetid: 67af85d7-db75-4e26-a7cc-8115ac3f2d59
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WsAbortChannel, WsAbortChannel function [Web Services for Windows], webservices/WsAbortChannel, wsw.wsabortchannel
 ms.prod: windows
 ms.technology: windows-sdk

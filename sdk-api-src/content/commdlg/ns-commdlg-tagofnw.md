@@ -7,7 +7,7 @@ old-location: dlgbox\openfilename_str.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\openfilename.htm
 ms.author: windowssdkdev
-ms.date: 08/21/2018
+ms.date: 08/24/2018
 ms.keywords: "*LPOPENFILENAMEW, LPOPENFILENAME, LPOPENFILENAME structure pointer [Dialog Boxes], OFN_ALLOWMULTISELECT, OFN_CREATEPROMPT, OFN_DONTADDTORECENT, OFN_ENABLEHOOK, OFN_ENABLEINCLUDENOTIFY, OFN_ENABLESIZING, OFN_ENABLETEMPLATE, OFN_ENABLETEMPLATEHANDLE, OFN_EXPLORER, OFN_EXTENSIONDIFFERENT, OFN_EX_NOPLACESBAR, OFN_FILEMUSTEXIST, OFN_FORCESHOWHIDDEN, OFN_HIDEREADONLY, OFN_LONGNAMES, OFN_NOCHANGEDIR, OFN_NODEREFERENCELINKS, OFN_NOLONGNAMES, OFN_NONETWORKBUTTON, OFN_NOREADONLYRETURN, OFN_NOTESTFILECREATE, OFN_NOVALIDATE, OFN_OVERWRITEPROMPT, OFN_PATHMUSTEXIST, OFN_READONLY, OFN_SHAREAWARE, OFN_SHOWHELP, OPENFILENAME, OPENFILENAME structure [Dialog Boxes], OPENFILENAMEA, OPENFILENAMEW, _win32_OPENFILENAME_str, _win32_openfilename_str_cpp, commdlg/LPOPENFILENAME, commdlg/OPENFILENAME, commdlg/OPENFILENAMEA, commdlg/OPENFILENAMEW, dlgbox.openfilename_str, tagOFNW, winui._win32_openfilename_str"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,9 +53,9 @@ req.irql:
 ## -description
 
 
-<p class="CCE_Message">[Starting with Windows Vista, the <b>Open</b> and <b>Save As</b> common dialog boxes have been superseded by the <a href="https://msdn.microsoft.com/en-us/library/Bb776913(v=VS.85).aspx">Common Item Dialog</a>. We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.]
+<p class="CCE_Message">[Starting with Windows Vista, the <b>Open</b> and <b>Save As</b> common dialog boxes have been superseded by the <a href="_shell_common_file_dialog">Common Item Dialog</a>. We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.]
 
-Contains information that the <a href="https://msdn.microsoft.com/en-us/library/ms646927(v=VS.85).aspx">GetOpenFileName</a> and <a href="https://msdn.microsoft.com/en-us/library/ms646928(v=VS.85).aspx">GetSaveFileName</a> functions use to initialize an <b>Open</b> or <b>Save As</b> dialog box. After the user closes the dialog box, the system returns information about the user's selection in this structure.
+Contains information that the <a href="https://msdn.microsoft.com/22b8f3d0-455a-4eb8-9835-e90d41924ec7">GetOpenFileName</a> and <a href="https://msdn.microsoft.com/424e9d85-853b-4dc6-a29a-c532a8bb23f7">GetSaveFileName</a> functions use to initialize an <b>Open</b> or <b>Save As</b> dialog box. After the user closes the dialog box, the system returns information about the user's selection in this structure.
 
 
 ## -struct-fields
@@ -97,7 +97,7 @@ The system does not change the order of the filters. It displays them in the <b>
 
 If <b>lpstrFilter</b> is <b>NULL</b>, the dialog box does not display any filters.
 
- In the case of a shortcut, if no filter is set, <a href="https://msdn.microsoft.com/en-us/library/ms646927(v=VS.85).aspx">GetOpenFileName</a> and <a href="https://msdn.microsoft.com/en-us/library/ms646928(v=VS.85).aspx">GetSaveFileName</a> retrieve the name of the .lnk file, not its target. This behavior is the same as setting the <b>OFN_NODEREFERENCELINKS</b> flag in the <b>Flags</b> member. To retrieve a shortcut's target without filtering, use the string <code>"All Files\0*.*\0\0"</code>.
+ In the case of a shortcut, if no filter is set, <a href="https://msdn.microsoft.com/22b8f3d0-455a-4eb8-9835-e90d41924ec7">GetOpenFileName</a> and <a href="https://msdn.microsoft.com/424e9d85-853b-4dc6-a29a-c532a8bb23f7">GetSaveFileName</a> retrieve the name of the .lnk file, not its target. This behavior is the same as setting the <b>OFN_NODEREFERENCELINKS</b> flag in the <b>Flags</b> member. To retrieve a shortcut's target without filtering, use the string <code>"All Files\0*.*\0\0"</code>.
 
 
 ### -field lpstrCustomFilter
@@ -129,18 +129,18 @@ The index of the currently selected filter in the <b>File Types</b> control. The
 
 Type: <b>LPTSTR</b>
 
-The file name used to initialize the <b>File Name</b> edit control. The first character of this buffer must be <b>NULL</b> if initialization is not necessary. When the <a href="https://msdn.microsoft.com/en-us/library/ms646927(v=VS.85).aspx">GetOpenFileName</a> or <a href="https://msdn.microsoft.com/en-us/library/ms646928(v=VS.85).aspx">GetSaveFileName</a> function returns successfully, this buffer contains the drive designator, path, file name, and extension of the selected file.
+The file name used to initialize the <b>File Name</b> edit control. The first character of this buffer must be <b>NULL</b> if initialization is not necessary. When the <a href="https://msdn.microsoft.com/22b8f3d0-455a-4eb8-9835-e90d41924ec7">GetOpenFileName</a> or <a href="https://msdn.microsoft.com/424e9d85-853b-4dc6-a29a-c532a8bb23f7">GetSaveFileName</a> function returns successfully, this buffer contains the drive designator, path, file name, and extension of the selected file.
 
 If the <b>OFN_ALLOWMULTISELECT</b> flag is set and the user selects multiple files, the buffer contains the current directory followed by the file names of the selected files. For Explorer-style dialog boxes, the directory and file name strings are <b>NULL</b> separated, with an extra <b>NULL</b> character after the last file name. For old-style dialog boxes, the strings are space separated and the function uses short file names for file names with spaces. You can use the <a href="https://msdn.microsoft.com/02fc92c4-582d-4c9f-a811-b5c839e9fffa">FindFirstFile</a> function to convert between long and short file names. If the user selects only one file, the <b>lpstrFile</b> string does not have a separator between the path and file name.
 
-If the buffer is too small, the function returns <b>FALSE</b> and the <a href="https://msdn.microsoft.com/en-us/library/ms646916(v=VS.85).aspx">CommDlgExtendedError</a> function returns <b>FNERR_BUFFERTOOSMALL</b>. In this case, the first two bytes of the <b>lpstrFile</b> buffer contain the required size, in bytes or characters.
+If the buffer is too small, the function returns <b>FALSE</b> and the <a href="https://msdn.microsoft.com/20c94a3d-7856-4fa1-86ef-2005b418c0bb">CommDlgExtendedError</a> function returns <b>FNERR_BUFFERTOOSMALL</b>. In this case, the first two bytes of the <b>lpstrFile</b> buffer contain the required size, in bytes or characters.
 
 
 ### -field nMaxFile
 
 Type: <b>DWORD</b>
 
-The size, in characters, of the buffer pointed to by <b>lpstrFile</b>. The buffer must be large enough to store the path and file name string or strings, including the terminating <b>NULL</b> character. The <a href="https://msdn.microsoft.com/en-us/library/ms646927(v=VS.85).aspx">GetOpenFileName</a> and <a href="https://msdn.microsoft.com/en-us/library/ms646928(v=VS.85).aspx">GetSaveFileName</a> functions return <b>FALSE</b> if the buffer is too small to contain the file information. The buffer should be at least 256 characters long.
+The size, in characters, of the buffer pointed to by <b>lpstrFile</b>. The buffer must be large enough to store the path and file name string or strings, including the terminating <b>NULL</b> character. The <a href="https://msdn.microsoft.com/22b8f3d0-455a-4eb8-9835-e90d41924ec7">GetOpenFileName</a> and <a href="https://msdn.microsoft.com/424e9d85-853b-4dc6-a29a-c532a8bb23f7">GetSaveFileName</a> functions return <b>FALSE</b> if the buffer is too small to contain the file information. The buffer should be at least 256 characters long.
 
 
 ### -field lpstrFileTitle
@@ -235,7 +235,7 @@ If the user specifies a file that does not exist, this flag causes the dialog bo
 </dl>
 </td>
 <td width="60%">
- Prevents the system from adding a link to the selected file in the file system directory that contains the user's most recently used documents. To retrieve the location of this directory, call the <a href="https://msdn.microsoft.com/en-us/library/Bb762203(v=VS.85).aspx">SHGetSpecialFolderLocation</a> function with the <b>CSIDL_RECENT</b> flag.
+ Prevents the system from adding a link to the selected file in the file system directory that contains the user's most recently used documents. To retrieve the location of this directory, call the <a href="_win32_SHGetSpecialFolderLocation">SHGetSpecialFolderLocation</a> function with the <b>CSIDL_RECENT</b> flag.
 
 </td>
 </tr>
@@ -257,7 +257,7 @@ Enables the hook function specified in the <b>lpfnHook</b> member.
 </dl>
 </td>
 <td width="60%">
- Causes the dialog box to send <a href="https://msdn.microsoft.com/en-us/library/ms646862(v=VS.85).aspx">CDN_INCLUDEITEM</a> notification messages to your <a href="https://msdn.microsoft.com/en-us/library/ms646931(v=VS.85).aspx">OFNHookProc</a> hook procedure when the user opens a folder. The dialog box sends a notification for each item in the newly opened folder. These messages enable you to control which items the dialog box displays in the folder's item list.
+ Causes the dialog box to send <a href="https://msdn.microsoft.com/0972a78d-e058-4bac-85bd-fbd4c3885552">CDN_INCLUDEITEM</a> notification messages to your <a href="https://msdn.microsoft.com/3d3a7878-1ccc-4832-9351-8f9cf6c7a601">OFNHookProc</a> hook procedure when the user opens a folder. The dialog box sends a notification for each item in the newly opened folder. These messages enable you to control which items the dialog box displays in the folder's item list.
 
 </td>
 </tr>
@@ -302,7 +302,7 @@ The <b>hInstance</b> member identifies a data block that contains a preloaded di
 </dl>
 </td>
 <td width="60%">
-Indicates that any customizations made to the <b>Open</b> or <b>Save As</b> dialog box use the Explorer-style customization methods. For more information, see <a href="https://msdn.microsoft.com/en-us/library/ms646960(v=VS.85).aspx">Explorer-Style Hook Procedures</a> and <a href="https://msdn.microsoft.com/en-us/library/ms646960(v=VS.85).aspx">Explorer-Style Custom Templates</a>. 
+Indicates that any customizations made to the <b>Open</b> or <b>Save As</b> dialog box use the Explorer-style customization methods. For more information, see <a href="open_and_save_as_dialog_boxes.htm">Explorer-Style Hook Procedures</a> and <a href="open_and_save_as_dialog_boxes.htm">Explorer-Style Custom Templates</a>. 
 
 By default, the <b>Open</b> and <b>Save As</b> dialog boxes use the Explorer-style user interface regardless of whether this flag is set. This flag is necessary only if you provide a hook procedure or custom template, or set the <b>OFN_ALLOWMULTISELECT</b> flag.
 
@@ -374,7 +374,7 @@ For old-style dialog boxes, this flag causes the dialog box to use long file nam
 <td width="60%">
 Restores the current directory to its original value if the user changed the directory while searching for files.
 
- This flag is ineffective for <a href="https://msdn.microsoft.com/en-us/library/ms646927(v=VS.85).aspx">GetOpenFileName</a>.
+ This flag is ineffective for <a href="https://msdn.microsoft.com/22b8f3d0-455a-4eb8-9835-e90d41924ec7">GetOpenFileName</a>.
 
 </td>
 </tr>
@@ -440,7 +440,7 @@ The file is not created before the dialog box is closed. This flag should be spe
 </dl>
 </td>
 <td width="60%">
-The common dialog boxes allow invalid characters in the returned file name. Typically, the calling application uses a hook procedure that checks the file name by using the <a href="https://msdn.microsoft.com/en-us/library/ms646870(v=VS.85).aspx">FILEOKSTRING</a> message. If the text box in the edit control is empty or contains nothing but spaces, the lists of files and directories are updated. If the text box in the edit control contains anything else, <b>nFileOffset</b> and <b>nFileExtension</b> are set to values generated by parsing the text. No default extension is added to the text, nor is text copied to the buffer specified by <b>lpstrFileTitle</b>. If the value specified by <b>nFileOffset</b> is less than zero, the file name is invalid. Otherwise, the file name is valid, and <b>nFileExtension</b> and <b>nFileOffset</b> can be used as if the <b>OFN_NOVALIDATE</b> flag had not been specified.
+The common dialog boxes allow invalid characters in the returned file name. Typically, the calling application uses a hook procedure that checks the file name by using the <a href="https://msdn.microsoft.com/32bf3cc7-76a2-4b78-81d7-682b088c4e14">FILEOKSTRING</a> message. If the text box in the edit control is empty or contains nothing but spaces, the lists of files and directories are updated. If the text box in the edit control contains anything else, <b>nFileOffset</b> and <b>nFileExtension</b> are set to values generated by parsing the text. No default extension is added to the text, nor is text copied to the buffer specified by <b>lpstrFileTitle</b>. If the value specified by <b>nFileOffset</b> is less than zero, the file name is invalid. Otherwise, the file name is valid, and <b>nFileExtension</b> and <b>nFileOffset</b> can be used as if the <b>OFN_NOVALIDATE</b> flag had not been specified.
 
 </td>
 </tr>
@@ -484,7 +484,7 @@ Causes the <b>Read Only</b> check box to be selected initially when the dialog b
 </dl>
 </td>
 <td width="60%">
-Specifies that if a call to the  <a href="https://msdn.microsoft.com/800f4d40-252a-44fe-b10d-348c22d69355">OpenFile</a> function fails because of a network sharing violation, the error is ignored and the dialog box returns the selected file name. If this flag is not set, the dialog box notifies your hook procedure when a network sharing violation occurs for the file name specified by the user. If you set the <b>OFN_EXPLORER</b> flag, the dialog box sends the <a href="https://msdn.microsoft.com/en-us/library/ms646866(v=VS.85).aspx">CDN_SHAREVIOLATION</a> message to the hook procedure. If you do not set <b>OFN_EXPLORER</b>, the dialog box sends the <a href="https://msdn.microsoft.com/en-us/library/ms646878(v=VS.85).aspx">SHAREVISTRING</a> registered message to the hook procedure.
+Specifies that if a call to the  <a href="https://msdn.microsoft.com/800f4d40-252a-44fe-b10d-348c22d69355">OpenFile</a> function fails because of a network sharing violation, the error is ignored and the dialog box returns the selected file name. If this flag is not set, the dialog box notifies your hook procedure when a network sharing violation occurs for the file name specified by the user. If you set the <b>OFN_EXPLORER</b> flag, the dialog box sends the <a href="https://msdn.microsoft.com/a62ca550-0997-4379-aaaf-a5bc9414bd69">CDN_SHAREVIOLATION</a> message to the hook procedure. If you do not set <b>OFN_EXPLORER</b>, the dialog box sends the <a href="https://msdn.microsoft.com/53884497-4872-4aa8-b56e-2bb98df58fed">SHAREVISTRING</a> registered message to the hook procedure.
 
 </td>
 </tr>
@@ -495,7 +495,7 @@ Specifies that if a call to the  <a href="https://msdn.microsoft.com/800f4d40-25
 </dl>
 </td>
 <td width="60%">
-Causes the dialog box to display the <b>Help</b> button. The <b>hwndOwner</b> member must specify the window to receive the <a href="https://msdn.microsoft.com/en-us/library/ms646874(v=VS.85).aspx">HELPMSGSTRING</a> registered messages that the dialog box sends when the user clicks the <b>Help</b> button. An Explorer-style dialog box sends a <a href="https://msdn.microsoft.com/en-us/library/ms646860(v=VS.85).aspx">CDN_HELP</a> notification message to your hook procedure when the user clicks the <b>Help</b> button.
+Causes the dialog box to display the <b>Help</b> button. The <b>hwndOwner</b> member must specify the window to receive the <a href="https://msdn.microsoft.com/21c0fcf5-785b-4005-8133-e48347f991a8">HELPMSGSTRING</a> registered messages that the dialog box sends when the user clicks the <b>Help</b> button. An Explorer-style dialog box sends a <a href="https://msdn.microsoft.com/18ee86b2-3446-4de4-a47a-2e44e677f4f7">CDN_HELP</a> notification message to your hook procedure when the user clicks the <b>Help</b> button.
 
 </td>
 </tr>
@@ -521,14 +521,14 @@ The zero-based offset, in characters, from the beginning of the path to the file
 
 Type: <b>LPCTSTR</b>
 
-The default extension. <a href="https://msdn.microsoft.com/en-us/library/ms646927(v=VS.85).aspx">GetOpenFileName</a> and <a href="https://msdn.microsoft.com/en-us/library/ms646928(v=VS.85).aspx">GetSaveFileName</a> append this extension to the file name if the user fails to type an extension. This string can be any length, but only the first three characters are appended. The string should not contain a period (.). If this member is <b>NULL</b> and the user fails to type an extension, no extension is appended.
+The default extension. <a href="https://msdn.microsoft.com/22b8f3d0-455a-4eb8-9835-e90d41924ec7">GetOpenFileName</a> and <a href="https://msdn.microsoft.com/424e9d85-853b-4dc6-a29a-c532a8bb23f7">GetSaveFileName</a> append this extension to the file name if the user fails to type an extension. This string can be any length, but only the first three characters are appended. The string should not contain a period (.). If this member is <b>NULL</b> and the user fails to type an extension, no extension is appended.
 
 
 ### -field lCustData
 
 Type: <b>LPARAM</b>
 
-Application-defined data that the system passes to the hook procedure identified by the <b>lpfnHook</b> member. When the system sends the <a href="https://msdn.microsoft.com/en-us/library/ms645428(v=VS.85).aspx">WM_INITDIALOG</a> message to the hook procedure, the message's <i>lParam</i> parameter is a pointer to the <b>OPENFILENAME</b> structure specified when the dialog box was created. The hook procedure can use this pointer to get the <b>lCustData</b> value.
+Application-defined data that the system passes to the hook procedure identified by the <b>lpfnHook</b> member. When the system sends the <a href="https://msdn.microsoft.com/bc4f4718-1dab-48db-ae3b-5a81a7be2644">WM_INITDIALOG</a> message to the hook procedure, the message's <i>lParam</i> parameter is a pointer to the <b>OPENFILENAME</b> structure specified when the dialog box was created. The hook procedure can use this pointer to get the <b>lCustData</b> value.
 
 
 ### -field lpfnHook
@@ -539,14 +539,14 @@ A pointer to a hook procedure. This member is ignored unless the <b>Flags</b> me
 
 If the <b>OFN_EXPLORER</b> flag is not set in the <b>Flags</b> member, <b>lpfnHook</b> is a pointer to an <a href="https://msdn.microsoft.com/ee551824-51f9-422d-9741-96248e3fc8cc">OFNHookProcOldStyle</a> hook procedure that receives messages intended for the dialog box. The hook procedure returns <b>FALSE</b> to pass a message to the default dialog box procedure or <b>TRUE</b> to discard the message.
 
-If <b>OFN_EXPLORER</b> is set, <b>lpfnHook</b> is a pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms646931(v=VS.85).aspx">OFNHookProc</a> hook procedure. The hook procedure receives notification messages sent from the dialog box. The hook procedure also receives messages for any additional controls that you defined by specifying a child dialog template. The hook procedure does not receive messages intended for the standard controls of the default dialog box.
+If <b>OFN_EXPLORER</b> is set, <b>lpfnHook</b> is a pointer to an <a href="https://msdn.microsoft.com/3d3a7878-1ccc-4832-9351-8f9cf6c7a601">OFNHookProc</a> hook procedure. The hook procedure receives notification messages sent from the dialog box. The hook procedure also receives messages for any additional controls that you defined by specifying a child dialog template. The hook procedure does not receive messages intended for the standard controls of the default dialog box.
 
 
 ### -field lpTemplateName
 
 Type: <b>LPCTSTR</b>
 
-The name of the dialog template resource in the module identified by the <b>hInstance</b> member. For numbered dialog box resources, this can be a value returned by the <a href="https://msdn.microsoft.com/en-us/library/ms648029(v=VS.85).aspx">MAKEINTRESOURCE</a> macro. This member is ignored unless the <b>OFN_ENABLETEMPLATE</b> flag is set in the <b>Flags</b> member. If the <b>OFN_EXPLORER</b> flag is set, the system uses the specified template to create a dialog box that is a child of the default Explorer-style dialog box. If the <b>OFN_EXPLORER</b> flag is not set, the system uses the template to create an old-style dialog box that replaces the default dialog box.
+The name of the dialog template resource in the module identified by the <b>hInstance</b> member. For numbered dialog box resources, this can be a value returned by the <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a> macro. This member is ignored unless the <b>OFN_ENABLETEMPLATE</b> flag is set in the <b>Flags</b> member. If the <b>OFN_EXPLORER</b> flag is set, the system uses the specified template to create a dialog box that is a child of the default Explorer-style dialog box. If the <b>OFN_EXPLORER</b> flag is not set, the system uses the template to create an old-style dialog box that replaces the default dialog box.
 
 
 ### -field lpEditInfo
@@ -613,7 +613,7 @@ For compatibility reasons, the Places Bar is hidden if <b>Flags</b> is set to <b
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645524(v=VS.85).aspx">Common Dialog Box Library</a>
+<a href="https://msdn.microsoft.com/28573019-f0bd-4a8e-a1a1-48559f658a81">Common Dialog Box Library</a>
 
 
 
@@ -621,11 +621,11 @@ For compatibility reasons, the Places Bar is hidden if <b>Flags</b> is set to <b
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646927(v=VS.85).aspx">GetOpenFileName</a>
+<a href="https://msdn.microsoft.com/22b8f3d0-455a-4eb8-9835-e90d41924ec7">GetOpenFileName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646928(v=VS.85).aspx">GetSaveFileName</a>
+<a href="https://msdn.microsoft.com/424e9d85-853b-4dc6-a29a-c532a8bb23f7">GetSaveFileName</a>
 
 
 
@@ -637,7 +637,7 @@ For compatibility reasons, the Places Bar is hidden if <b>Flags</b> is set to <b
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762203(v=VS.85).aspx">SHGetSpecialFolderLocation</a>
+<a href="_win32_SHGetSpecialFolderLocation">SHGetSpecialFolderLocation</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: wnv\wnv_notification_param.htm
 old-project: wnv
 ms.assetid: C8A27B21-462A-4D70-AA19-743023FD1810
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: "*PWNV_NOTIFICATION_PARAM, PWNV_NOTIFICATION_PARAM, PWNV_NOTIFICATION_PARAM structure pointer [Windows Network Virtualization], WNV_NOTIFICATION_PARAM, WNV_NOTIFICATION_PARAM structure [Windows Network Virtualization], _WNV_NOTIFICATION_PARAM, wnv.wnv_notification_param, wnvapi/PWNV_NOTIFICATION_PARAM, wnvapi/WNV_NOTIFICATION_PARAM"
 ms.prod: windows
 ms.technology: windows-sdk

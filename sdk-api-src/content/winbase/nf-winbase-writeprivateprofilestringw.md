@@ -4,10 +4,10 @@ title: WritePrivateProfileStringW function
 author: windows-sdk-content
 description: Copies a string into the specified section of an initialization file.
 old-location: base\writeprivateprofilestring.htm
-old-project: sysinfo
+old-project: SysInfo
 ms.assetid: f0799092-c6c1-4800-a17a-fcf744b1228f
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: WritePrivateProfileString, WritePrivateProfileString function, WritePrivateProfileStringA, WritePrivateProfileStringW, _win32_writeprivateprofilestring, base.writeprivateprofilestring, winbase/WritePrivateProfileString, winbase/WritePrivateProfileStringA, winbase/WritePrivateProfileStringW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -190,11 +190,15 @@ The following sample code illustrates the preceding guidelines and is based on s
 </li>
 <li>The user will not have to reboot the system in order to have future invocations of the application see the mapping of the .ini file to the registry.</li>
 </ul>
-
-```cpp
-#include <windows.h> 
-#include <tchar.h>
-#include <stdio.h> 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt; 
+#include &lt;tchar.h&gt;
+#include &lt;stdio.h&gt; 
  
 int main() 
 { 
@@ -212,8 +216,8 @@ int main()
        REG_OPTION_NON_VOLATILE, 
        KEY_WRITE, 
        NULL, 
-       &hKey1, 
-       &dwDisposition); 
+       &amp;hKey1, 
+       &amp;dwDisposition); 
  
    if (lRetCode != ERROR_SUCCESS)
    { 
@@ -249,8 +253,8 @@ int main()
                                REG_OPTION_NON_VOLATILE,
                                KEY_WRITE, 
                                NULL, 
-                               &hKey2, 
-                               &dwDisposition); 
+                               &amp;hKey2, 
+                               &amp;dwDisposition); 
  
    if (lRetCode != ERROR_SUCCESS) 
    { 
@@ -310,10 +314,10 @@ int main()
    
    return(1); 
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

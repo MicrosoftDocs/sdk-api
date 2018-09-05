@@ -69,18 +69,18 @@ A pointer to a tiled resource.
 
 ### -param pTileRegionStartCoordinate [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dn770443(v=VS.85).aspx">D3D12_TILED_RESOURCE_COORDINATE</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/B7C51C7A-8500-4570-99C1-AE51D6A88529">D3D12_TILED_RESOURCE_COORDINATE</a>*</b>
 
 A pointer to a
-            <a href="https://msdn.microsoft.com/en-us/library/Dn770443(v=VS.85).aspx">D3D12_TILED_RESOURCE_COORDINATE</a> structure that describes the starting coordinates of the tiled resource.
+            <a href="https://msdn.microsoft.com/B7C51C7A-8500-4570-99C1-AE51D6A88529">D3D12_TILED_RESOURCE_COORDINATE</a> structure that describes the starting coordinates of the tiled resource.
           
 
 
 ### -param pTileRegionSize [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dn770448(v=VS.85).aspx">D3D12_TILE_REGION_SIZE</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/6F71BD17-09B5-4638-9CD4-E2D3BBA97044">D3D12_TILE_REGION_SIZE</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn770448(v=VS.85).aspx">D3D12_TILE_REGION_SIZE</a> structure that describes the size of the tiled region.
+A pointer to a <a href="https://msdn.microsoft.com/6F71BD17-09B5-4638-9CD4-E2D3BBA97044">D3D12_TILE_REGION_SIZE</a> structure that describes the size of the tiled region.
           
 
 
@@ -88,7 +88,7 @@ A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn770448(v=VS.8
 
 Type: <b>ID3D12Resource*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dn788709(v=VS.85).aspx">ID3D12Resource</a> that represents a default, dynamic, or staging buffer.
+A pointer to an <a href="https://msdn.microsoft.com/AF453D2F-F0FD-4552-A843-84119A829CD5">ID3D12Resource</a> that represents a default, dynamic, or staging buffer.
           
 
 
@@ -102,9 +102,9 @@ The offset in bytes into the buffer at <i>pBuffer</i> to start the operation.
 
 ### -param Flags
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn986751(v=VS.85).aspx">D3D12_TILE_COPY_FLAGS</a></b>
+Type: <b><a href="https://msdn.microsoft.com/A540A369-DF23-4961-8213-B4B2B5C365E5">D3D12_TILE_COPY_FLAGS</a></b>
 
-A combination of <a href="https://msdn.microsoft.com/en-us/library/Dn986751(v=VS.85).aspx">D3D12_TILE_COPY_FLAGS</a>-typed values that are combined by using a bitwise OR operation and that identifies how to copy tiles.
+A combination of <a href="https://msdn.microsoft.com/A540A369-DF23-4961-8213-B4B2B5C365E5">D3D12_TILE_COPY_FLAGS</a>-typed values that are combined by using a bitwise OR operation and that identifies how to copy tiles.
           
 
 
@@ -125,7 +125,7 @@ This method does not return a value.
 <b>CopyTiles</b> drops write operations to 
 		  unmapped areas and handles read operations from unmapped areas 
 		  (except on Tier_1 tiled resources, 
-		  where reading and writing unmapped areas is invalid - refer to <a href="https://msdn.microsoft.com/en-us/library/Dn879489(v=VS.85).aspx">D3D12_TILED_RESOURCES_TIER</a>).
+		  where reading and writing unmapped areas is invalid - refer to <a href="https://msdn.microsoft.com/ADBA96C3-BD9E-4F12-89C8-371F6F7D369D">D3D12_TILED_RESOURCES_TIER</a>).
       
 
 If a copy operation involves writing to the same memory location multiple times because multiple locations in the 
@@ -136,11 +136,11 @@ If a copy operation involves writing to the same memory location multiple times 
 The tiles involved in the copy operation can't include tiles that contain packed mipmaps or results of the copy 
 		  operation are undefined. To transfer data to and from mipmaps that the hardware packs into one tile, you must 
 		  use the standard (that is, non-tile specific) copy APIs 
-		  like <a href="https://msdn.microsoft.com/en-us/library/Dn903862(v=VS.85).aspx">CopyTextureRegion</a>.
+		  like <a href="https://msdn.microsoft.com/2EAFC6B9-376C-4801-8E53-BF0DB08943AA">CopyTextureRegion</a>.
 
 <b>CopyTiles</b> does copy data in a slightly different pattern than the standard copy methods.
 
-The memory layout of the tiles in the non-tiled buffer resource side of the copy operation is linear in memory within 64 KB tiles, which the hardware and driver swizzle and de-swizzle per tile as appropriate when they transfer to and from a tiled resource. For multisample antialiasing (MSAA) surfaces, the hardware and driver traverse each pixel's samples in sample-index order before they move to the next pixel. For tiles that are partially filled on the right side (for a surface that has a width not a multiple of tile width in pixels), the pitch and stride to move down a row is the full size in bytes of the number pixels that would fit across the tile if the tile was full. So, there can be a gap between each row of pixels in memory. Mipmaps that are smaller than a tile are not packed together in the linear layout, which might seem to be a waste of memory space, but as mentioned you can't use <b>CopyTiles</b> to copy to mipmaps that the hardware packs together. You can just use generic copy APIs, like <a href="https://msdn.microsoft.com/en-us/library/Dn903862(v=VS.85).aspx">CopyTextureRegion</a>, to copy small mipmaps individually.
+The memory layout of the tiles in the non-tiled buffer resource side of the copy operation is linear in memory within 64 KB tiles, which the hardware and driver swizzle and de-swizzle per tile as appropriate when they transfer to and from a tiled resource. For multisample antialiasing (MSAA) surfaces, the hardware and driver traverse each pixel's samples in sample-index order before they move to the next pixel. For tiles that are partially filled on the right side (for a surface that has a width not a multiple of tile width in pixels), the pitch and stride to move down a row is the full size in bytes of the number pixels that would fit across the tile if the tile was full. So, there can be a gap between each row of pixels in memory. Mipmaps that are smaller than a tile are not packed together in the linear layout, which might seem to be a waste of memory space, but as mentioned you can't use <b>CopyTiles</b> to copy to mipmaps that the hardware packs together. You can just use generic copy APIs, like <a href="https://msdn.microsoft.com/2EAFC6B9-376C-4801-8E53-BF0DB08943AA">CopyTextureRegion</a>, to copy small mipmaps individually.
 
 
 
@@ -150,7 +150,7 @@ The memory layout of the tiles in the non-tiled buffer resource side of the copy
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn903537(v=VS.85).aspx">ID3D12GraphicsCommandList</a>
+<a href="https://msdn.microsoft.com/1BF282A7-F6D4-43A9-BDAD-D877564A1C6B">ID3D12GraphicsCommandList</a>
 
 
 

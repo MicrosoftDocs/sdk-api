@@ -7,7 +7,7 @@ old-location: shell\SHSetThreadRef.htm
 old-project: shell
 ms.assetid: 1d0d70ca-a0e6-4620-9a01-8d4986990b9c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHSetThreadRef, SHSetThreadRef function [Windows Shell], _win32_SHSetThreadRef, shell.SHSetThreadRef, shlwapi/SHSetThreadRef
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

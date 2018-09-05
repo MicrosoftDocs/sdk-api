@@ -7,7 +7,7 @@ old-location: winstation\switchdesktop.htm
 old-project: winstation
 ms.assetid: 401be515-ada9-42be-b8e8-4e86f513bb8d
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 08/29/2018
 ms.keywords: SwitchDesktop, SwitchDesktop function [Windows Stations and Desktops], base.switchdesktop, winstation.switchdesktop, winuser/SwitchDesktop
 ms.prod: windows
 ms.technology: windows-sdk

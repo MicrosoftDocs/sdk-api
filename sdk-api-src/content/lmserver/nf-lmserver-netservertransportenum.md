@@ -7,7 +7,7 @@ old-location: netmgmt\netservertransportenum.htm
 old-project: netmgmt
 ms.assetid: db42ac44-d70d-4b89-882a-6ac83fd611fd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: 0, 1, NetServerTransportEnum, NetServerTransportEnum function [Network Management], _win32_netservertransportenum, lmserver/NetServerTransportEnum, netmgmt.netservertransportenum
 ms.prod: windows
 ms.technology: windows-sdk
@@ -219,17 +219,21 @@ The following code sample demonstrates how to retrieve information about transpo
 <b>NetServerTransportEnum</b>, specifying information level 0 (
 <a href="https://msdn.microsoft.com/5b94cf7a-74d1-4ae8-87bd-22b2daf292cb">SERVER_TRANSPORT_INFO_0</a>). The sample prints the name of each transport protocol and the total number enumerated. Finally, the code sample frees the memory allocated for the information buffer.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 #pragma comment(lib, "netapi32.lib")
 
-#include <stdio.h>
-#include <assert.h>
-#include <windows.h> 
-#include <lm.h>
+#include &lt;stdio.h&gt;
+#include &lt;assert.h&gt;
+#include &lt;windows.h&gt; 
+#include &lt;lm.h&gt;
 
 int wmain(int argc, wchar_t *argv[])
 {
@@ -245,7 +249,7 @@ int wmain(int argc, wchar_t *argv[])
    LPTSTR pszServerName = NULL;
    DWORD i;
 
-   if (argc > 2)
+   if (argc &gt; 2)
    {
       fwprintf(stderr, L"Usage: %s [\\\\ServerName]\n", argv[0]);
       exit(1);
@@ -261,11 +265,11 @@ int wmain(int argc, wchar_t *argv[])
    {
       nStatus = NetServerTransportEnum(pszServerName,
                                        dwLevel,
-                                       (LPBYTE *) &pBuf,
+                                       (LPBYTE *) &amp;pBuf,
                                        dwPrefMaxLen,
-                                       &dwEntriesRead,
-                                       &dwTotalEntries,
-                                       &dwResumeHandle);
+                                       &amp;dwEntriesRead,
+                                       &amp;dwTotalEntries,
+                                       &amp;dwResumeHandle);
       //
       // If the call succeeds,
       //
@@ -277,7 +281,7 @@ int wmain(int argc, wchar_t *argv[])
             // Loop through the entries;
             //  process access errors.
             //
-            for (i = 0; i < dwEntriesRead; i++)
+            for (i = 0; i &lt; dwEntriesRead; i++)
             {
                assert(pTmpBuf != NULL);
 
@@ -289,7 +293,7 @@ int wmain(int argc, wchar_t *argv[])
                //
                // Print the transport protocol name. 
                //
-               wprintf(L"\tTransport: %s\n", pTmpBuf->svti0_transportname);
+               wprintf(L"\tTransport: %s\n", pTmpBuf-&gt;svti0_transportname);
 
                pTmpBuf++;
                dwTotalCount++;
@@ -328,10 +332,10 @@ int wmain(int argc, wchar_t *argv[])
 
    return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

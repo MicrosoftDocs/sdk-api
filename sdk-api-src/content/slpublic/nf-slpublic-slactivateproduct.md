@@ -4,10 +4,10 @@ title: SLActivateProduct function
 author: windows-sdk-content
 description: Acquires a use license from the Software License Server (SLS).
 old-location: security\slactivateproduct.htm
-old-project: secslapi
+old-project: SecSLApi
 ms.assetid: 14a2e84f-f5f7-4f17-8c7c-2cf580e14a26
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SLActivateProduct, SLActivateProduct function [Security], security.slactivateproduct, slpublic/SLActivateProduct
 ms.prod: windows
 ms.technology: windows-sdk

@@ -73,9 +73,13 @@ To set a root directory in a network environment, you must first set this proper
 
 The following example shows a script that binds to the SAM database without credentials.
 
-
-```vb
-Set DSO = GetObject("WinNT:")
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Set DSO = GetObject("WinNT:")
 Set usr = DSO.OpenDSObject("WinNT://Server1/Test,user")
 WScript.echo usr.TerminalServicesHomeDrive
 Wscript.echo usr.TerminalServicesHomeDirectory
@@ -86,10 +90,10 @@ usr.SetInfo
 
 WScript.echo usr.TerminalServicesHomeDrive
 WScript.echo usr.TerminalServicesHomeDirectory
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: directwrite\idwritetextlayout1_setpairkerning.htm
 old-project: DirectWrite
 ms.assetid: AE43D7E4-CD2D-4BBD-88C3-B5287FD235AF
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: IDWriteTextLayout1 interface [Direct Write],SetPairKerning method, IDWriteTextLayout1.SetPairKerning, IDWriteTextLayout1::SetPairKerning, SetPairKerning, SetPairKerning method [Direct Write], SetPairKerning method [Direct Write],IDWriteTextLayout1 interface, directwrite.idwritetextlayout1_setpairkerning, dwrite_1/IDWriteTextLayout1::SetPairKerning
 ms.prod: windows
 ms.technology: windows-sdk

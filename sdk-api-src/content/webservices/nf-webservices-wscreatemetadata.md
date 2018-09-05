@@ -7,7 +7,7 @@ old-location: wsw\wscreatemetadata.htm
 old-project: wsw
 ms.assetid: c3b6f926-331b-46a7-8180-36762abf63d7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WsCreateMetadata, WsCreateMetadata function [Web Services for Windows], webservices/WsCreateMetadata, wsw.wscreatemetadata
 ms.prod: windows
 ms.technology: windows-sdk

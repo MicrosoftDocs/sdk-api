@@ -4,10 +4,10 @@ title: ICspInformations::get_ItemByName
 author: windows-sdk-content
 description: Retrieves an ICspInformation object from the collection by name.
 old-location: security\icspinformations_itembyname_property.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: cf90f136-0318-40b5-9378-5c6f386e996f
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ICspInformations interface [Security],ItemByName property, ICspInformations.ItemByName, ICspInformations.get_ItemByName, ICspInformations::ItemByName, ICspInformations::get_ItemByName, ItemByName property [Security], ItemByName property [Security],ICspInformations interface, certenroll/ICspInformations::ItemByName, certenroll/ICspInformations::get_ItemByName, get_ItemByName, security.icspinformations_itembyname_property
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-The <b>ItemByName</b> property retrieves an <a href="https://msdn.microsoft.com/en-us/library/Aa375967(v=VS.85).aspx">ICspInformation</a> object from the collection by name. This property is web enabled.
+The <b>ItemByName</b> property retrieves an <a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a> object from the collection by name. This property is web enabled.
 
 This property is read-only.
 
@@ -65,11 +65,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375967(v=VS.85).aspx">ICspInformation</a>
+<a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375968(v=VS.85).aspx">ICspInformations</a>
+<a href="https://msdn.microsoft.com/8141023c-c162-46d6-9c37-e227ce1c8761">ICspInformations</a>
  
 
  

@@ -174,21 +174,25 @@ The category specified by <i>clsidDeviceClass</i> does not exist or is empty.
 
 If the category does not exist or is empty, the return value is S_FALSE, and the <i>ppEnumMoniker</i> parameter receives the value <b>NULL</b>. Therefore, test for the return value S_OK instead of using the <b>SUCCEEDED</b> macro:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 IEnumMoniker *pEnum = NULL;
-hr = pSysDevEnum->CreateClassEnumerator(
-    CLSID_VideoCompressorCategory, &pEnum, 0);
+hr = pSysDevEnum-&gt;CreateClassEnumerator(
+    CLSID_VideoCompressorCategory, &amp;pEnum, 0);
 if (hr == S_OK) 
 {
     // Safe to dereference pEnum.
-    pEnum->Release();
+    pEnum-&gt;Release();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 Use the <b>IEnumMoniker</b> interface to enumerate monikers that represent the filters in the device category. Monikers support the <b>IMoniker</b> interface. The monikers created by <b>CreateClassEnumerator</b> also support the <a href="https://msdn.microsoft.com/97a9112f-7b7b-4a7e-8f40-bdb148d413c8">IGetCapabilitiesKey</a> interface.
 
 

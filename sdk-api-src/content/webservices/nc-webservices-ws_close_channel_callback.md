@@ -7,7 +7,7 @@ old-location: wsw\ws_close_channel_callback.htm
 old-project: wsw
 ms.assetid: 363ac4e0-5cfe-4c12-ad06-027ec2b735e6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_CLOSE_CHANNEL_CALLBACK, WS_CLOSE_CHANNEL_CALLBACK callback, WS_CLOSE_CHANNEL_CALLBACK callback function [Web Services for Windows], webservices/WS_CLOSE_CHANNEL_CALLBACK, wsw.ws_close_channel_callback
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: PstAcquirePrivateKey function
 author: windows-sdk-content
 description: Associates the caller's private key with the specified certificate.
 old-location: security\pstacquireprivatekey.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: dad2886b-5a74-433f-bd58-deb130104e33
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: PstAcquirePrivateKey, PstAcquirePrivateKey function [Security], certpoleng/PstAcquirePrivateKey, security.pstacquireprivatekey
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Associates the caller's <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">private key</a> with the specified <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate</a>.
+Associates the caller's <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> with the specified <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate</a>.
 
 
 ## -parameters

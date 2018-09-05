@@ -7,7 +7,7 @@ old-location: wintouch\getgestureinfo.htm
 old-project: wintouch
 ms.assetid: 407ed585-09aa-4174-8907-8bb9590f1795
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetGestureInfo, GetGestureInfo function [Windows Touch], wintouch.getgestureinfo, winuser/GetGestureInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -111,20 +111,24 @@ If the message is passed to <a href="http://go.microsoft.com/fwlink/p/?linkid=13
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
     GESTUREINFO gestureInfo = {0};
     gestureInfo.cbSize = sizeof(gestureInfo);
-    BOOL bResult = GetGestureInfo((HGESTUREINFO)lParam, &gestureInfo);
+    BOOL bResult = GetGestureInfo((HGESTUREINFO)lParam, &amp;gestureInfo);
 
     if (!bResult){                
         DWORD err = GetLastError();                                       
     }
-    
-```
-
-
+    </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

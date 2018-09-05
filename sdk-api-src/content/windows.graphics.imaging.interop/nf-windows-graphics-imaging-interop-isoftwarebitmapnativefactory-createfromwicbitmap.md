@@ -7,7 +7,7 @@ old-location: winrt\isoftwarebitmapnativefactory_createfromwicbitmap.htm
 old-project: WinRT
 ms.assetid: D52F70E8-AF26-40A5-8E9E-1A5B9D20E35F
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CreateFromWICBitmap, CreateFromWICBitmap method [Windows Runtime], CreateFromWICBitmap method [Windows Runtime],ISoftwareBitmapNativeFactory interface, ISoftwareBitmapNativeFactory interface [Windows Runtime],CreateFromWICBitmap method, ISoftwareBitmapNativeFactory.CreateFromWICBitmap, ISoftwareBitmapNativeFactory.imaging, ISoftwareBitmapNativeFactory::CreateFromWICBitmap, ISoftwareBitmapNativeFactory::imaging, windows/ISoftwareBitmapNativeFactory::CreateFromWICBitmap, winrt.isoftwarebitmapnativefactory_createfromwicbitmap
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,7 +94,7 @@ When this method returns successfully, contains the requested interface.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns S_OK on successful completion.
 

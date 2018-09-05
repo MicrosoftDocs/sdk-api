@@ -66,7 +66,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/library/Aa752574(v=VS.85).aspx">IHTMLDocument2</a>
+<a href="_win32_IHTMLDocument2">IHTMLDocument2</a>
 
 
 

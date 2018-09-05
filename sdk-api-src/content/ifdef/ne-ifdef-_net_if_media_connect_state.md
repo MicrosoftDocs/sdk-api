@@ -53,7 +53,7 @@ req.product: GDI+ 1.1
 
 
 The NET_IF_MEDIA_CONNECT_STATE enumeration type specifies the 
-  <a href="https://msdn.microsoft.com/library/Ff566527(v=VS.85).aspx">NDIS network interface</a> connection
+  <a href="netvista.ndis_network_interfaces2">NDIS network interface</a> connection
   state.
 
 
@@ -84,11 +84,15 @@ The interface is not connected to the network.
 The NDIS_MEDIA_CONNECT_STATE enumeration type, used to describe NDIS interface providers in the
     OID_GEN_MEDIA_CONNECT_STATUS_EX OID, is equivalent to this enumeration.
 
-
-```
-typedef NET_IF_MEDIA_CONNECT_STATE NDIS_MEDIA_CONNECT_STATE, *PNDIS_MEDIA_CONNECT_STATE;
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>typedef NET_IF_MEDIA_CONNECT_STATE NDIS_MEDIA_CONNECT_STATE, *PNDIS_MEDIA_CONNECT_STATE;</pre>
+</td>
+</tr>
+</table></span></div>
 
 

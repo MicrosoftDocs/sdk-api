@@ -174,14 +174,18 @@ The following code sample demonstrates how to list the connections made to a sha
 <b>NetConnectionEnum</b> function. The sample calls 
 <b>NetConnectionEnum</b>, specifying information level 1 (<a href="https://msdn.microsoft.com/9904c448-dcc4-47cc-a2e0-7df8d4d37f3f">CONNECTION_INFO_1</a>). If there are entries to return, it prints the values of the <b>coni1_username</b> and <b>coni1_netname</b> members. If there are no entries to return, the sample prints an appropriate message. Finally, the code sample frees the memory allocated for the information buffer.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
-#include <windows.h>
-#include <lm.h>
-#include <stdio.h>
+#include &lt;windows.h&gt;
+#include &lt;lm.h&gt;
+#include &lt;stdio.h&gt;
 #pragma comment(lib, "Netapi32.lib")
 
 void wmain(int argc, wchar_t *argv[ ])
@@ -190,14 +194,14 @@ void wmain(int argc, wchar_t *argv[ ])
    PCONNECTION_INFO_1 p,b;
    LPTSTR lpszServer = NULL, lpszShare = NULL;
 
-   if(argc<2)
+   if(argc&lt;2)
       wprintf(L"Syntax: %s [ServerName] ShareName | \\\\ComputerName\n", argv[0]);
    else
    {
       //
       // The server is not the default local computer.
       //
-      if(argc>2)
+      if(argc&gt;2)
          lpszServer=argv[1];
       //
       // ShareName is always the last argument.
@@ -207,7 +211,7 @@ void wmain(int argc, wchar_t *argv[ ])
       // Call the NetConnectionEnum function,
       //  specifying information level 1.
       //
-      res=NetConnectionEnum(lpszServer, lpszShare, 1, (LPBYTE *) &p, MAX_PREFERRED_LENGTH, &er, &tr, &resume);
+      res=NetConnectionEnum(lpszServer, lpszShare, 1, (LPBYTE *) &amp;p, MAX_PREFERRED_LENGTH, &amp;er, &amp;tr, &amp;resume);
       //
       // If no error occurred,
       //
@@ -216,15 +220,15 @@ void wmain(int argc, wchar_t *argv[ ])
          //
          // If there were any results,
          //
-         if(er>0)
+         if(er&gt;0)
          {
             b=p;
             //
             // Loop through the entries; print user name and network name.
             //
-            for(i=0;i<er;i++)
+            for(i=0;i&lt;er;i++)
             {
-               printf("%S\t%S\n", b->coni1_username,b->coni1_netname);
+               printf("%S\t%S\n", b-&gt;coni1_username,b-&gt;coni1_netname);
                b++;
             }
             // Free the allocated buffer.
@@ -253,10 +257,10 @@ void wmain(int argc, wchar_t *argv[ ])
    }
    return;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

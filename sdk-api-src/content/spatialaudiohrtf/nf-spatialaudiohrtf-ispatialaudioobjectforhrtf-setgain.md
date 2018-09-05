@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioobjectforhrtf_setgain.htm
 old-project: CoreAudio
 ms.assetid: 7DE268DC-5AA0-4866-8495-34292AEFB142
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: ISpatialAudioObjectForHrtf interface [Core Audio],SetGain method, ISpatialAudioObjectForHrtf.SetGain, ISpatialAudioObjectForHrtf::SetGain, SetGain, SetGain method [Core Audio], SetGain method [Core Audio],ISpatialAudioObjectForHrtf interface, coreaudio.ispatialaudioobjectforhrtf_setgain, spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetGain
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wnv\wnvrequestnotification.htm
 old-project: wnv
 ms.assetid: CA0F9AAE-95E5-4A62-8A26-11F933B2D09E
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: WnvRequestNotification, WnvRequestNotification function [Windows Network Virtualization], wnv.wnvrequestnotification, wnvapi/WnvRequestNotification
 ms.prod: windows
 ms.technology: windows-sdk

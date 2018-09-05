@@ -7,7 +7,7 @@ old-location: base\minidump_handle_operation_list.htm
 old-project: debug
 ms.assetid: f7666ff5-a1ae-4ffb-b4ee-9fe5bb58fd36
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: "*PMINIDUMP_HANDLE_OPERATION_LIST, MINIDUMP_HANDLE_OPERATION_LIST, MINIDUMP_HANDLE_OPERATION_LIST structure, PMINIDUMP_HANDLE_OPERATION_LIST, PMINIDUMP_HANDLE_OPERATION_LIST structure pointer, _MINIDUMP_HANDLE_OPERATION_LIST, _MINIDUMP_HANDLE_OPERATION_LISTa, base.minidump_handle_operation_list, minidumpapiset/MINIDUMP_HANDLE_OPERATION_LIST, minidumpapiset/PMINIDUMP_HANDLE_OPERATION_LIST"
 ms.prod: windows
 ms.technology: windows-sdk

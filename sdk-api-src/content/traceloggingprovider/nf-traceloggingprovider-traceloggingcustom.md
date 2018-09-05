@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingcustom.htm
 old-project: tracelogging
 ms.assetid: 617B5EFF-DB4F-493E-841B-14BBA312E26B
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: TraceLoggingCustom, TraceLoggingCustom macro, tracelogging.traceloggingcustom, traceloggingprovider/TraceLoggingCustom
 ms.prod: windows
 ms.technology: windows-sdk
@@ -138,9 +138,13 @@ Existing decoders that do not take these extra steps to recognize the PropertyHa
 
 #### Examples
 
-
-```cpp
-BYTE rgValue[] = {...};
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BYTE rgValue[] = {...};
 
 TraceLoggingWrite(
    g_hProvider,
@@ -152,9 +156,9 @@ TraceLoggingWrite(
       ( 0x0, 0x1, 0x2 ),
       3,
       "MyCustomField"
-   ));
-```
-
-
+   ));</pre>
+</td>
+</tr>
+</table></span></div>
 
 

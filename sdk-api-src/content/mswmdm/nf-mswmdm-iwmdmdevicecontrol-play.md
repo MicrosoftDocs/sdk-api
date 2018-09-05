@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmdevicecontrol_play.htm
 old-project: WMDM
 ms.assetid: e8d717e6-365c-44ad-b24e-daa3c35664de
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IWMDMDeviceControl interface [windows Media Device Manager],Play method, IWMDMDeviceControl.Play, IWMDMDeviceControl::Play, IWMDMDeviceControlPlay, Play, Play method [windows Media Device Manager], Play method [windows Media Device Manager],IWMDMDeviceControl interface, mswmdm/IWMDMDeviceControl::Play, wmdm.iwmdmdevicecontrol_play
 ms.prod: windows
 ms.technology: windows-sdk

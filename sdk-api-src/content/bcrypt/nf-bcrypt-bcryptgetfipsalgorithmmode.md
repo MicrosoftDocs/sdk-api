@@ -4,10 +4,10 @@ title: BCryptGetFipsAlgorithmMode function
 author: windows-sdk-content
 description: Determines whether Federal Information Processing Standard (FIPS) compliance is enabled.
 old-location: security\bcryptgetfipsalgorithmmode.htm
-old-project: seccng
+old-project: SecCNG
 ms.assetid: eb7b758d-3466-49fe-8729-a8a059fadcde
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BCryptGetFipsAlgorithmMode, BCryptGetFipsAlgorithmMode function [Security], bcrypt/BCryptGetFipsAlgorithmMode, security.bcryptgetfipsalgorithmmode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -112,7 +112,7 @@ The <i>pfEnabled</i> parameter is not valid.
 
 
 
-<b>BCryptGetFipsAlgorithmMode</b> can be called either from user mode or kernel mode. Kernel mode callers must be executing at <b>PASSIVE_LEVEL</b> <a href="https://msdn.microsoft.com/en-us/library/ms721588(v=VS.85).aspx">IRQL</a>.
+<b>BCryptGetFipsAlgorithmMode</b> can be called either from user mode or kernel mode. Kernel mode callers must be executing at <b>PASSIVE_LEVEL</b> <a href="https://msdn.microsoft.com/af511aed-88f5-4b12-ad44-317925297f70">IRQL</a>.
 
 
 

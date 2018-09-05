@@ -4,10 +4,10 @@ title: SLGetWindowsInformation function
 author: windows-sdk-content
 description: Retrieves the value portion of a name-value pair from the licensing policy of a software component.
 old-location: security\slgetwindowsinformation.htm
-old-project: secslapi
+old-project: SecSLApi
 ms.assetid: 007b3f3a-c320-4bbc-ab5c-746b513cb815
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SLGetWindowsInformation, SLGetWindowsInformation function [Security], security.slgetwindowsinformation, slpublic/SLGetWindowsInformation
 ms.prod: windows
 ms.technology: windows-sdk

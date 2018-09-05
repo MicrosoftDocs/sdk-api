@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport_getcustomattributebyname.htm
 old-project: WinRT
 ms.assetid: e2771a90-4ac3-4c5a-869a-e18d1a4c6b3e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetCustomAttributeByName, GetCustomAttributeByName method [Windows Runtime], GetCustomAttributeByName method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetCustomAttributeByName method, IMetaDataImport.GetCustomAttributeByName, IMetaDataImport::GetCustomAttributeByName, rometadataapi/IMetaDataImport::GetCustomAttributeByName, winrt.imetadataimport_getcustomattributebyname
 ms.prod: windows
 ms.technology: windows-sdk

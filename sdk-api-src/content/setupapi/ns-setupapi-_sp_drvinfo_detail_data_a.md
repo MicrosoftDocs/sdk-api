@@ -7,7 +7,7 @@ old-location: devinst\sp_drvinfo_detail_data.htm
 old-project: devinst
 ms.assetid: 6e16a90a-a876-471c-917b-a26229a9187a
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: "*PSP_DRVINFO_DETAIL_DATA_A, PSP_DRVINFO_DETAIL_DATA, PSP_DRVINFO_DETAIL_DATA structure pointer [Device and Driver Installation], SP_DRVINFO_DETAIL_DATA, SP_DRVINFO_DETAIL_DATA structure [Device and Driver Installation], SP_DRVINFO_DETAIL_DATA_A, _SP_DRVINFO_DETAIL_DATA_A, devinst.sp_drvinfo_detail_data, di-struct_74ef2af7-e982-4041-9c39-605ca316359c.xml, setupapi/PSP_DRVINFO_DETAIL_DATA, setupapi/SP_DRVINFO_DETAIL_DATA"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,7 +74,7 @@ Date of the INF file for this driver.
 
 The offset, in characters, from the beginning of the <b>HardwareID</b> buffer where the CompatIDs list begins.
 
-This value can also be used to determine whether there is a <a href="https://msdn.microsoft.com/library/Ff546152(v=VS.85).aspx">hardware ID</a> that precedes the CompatIDs list. If this value is greater than 1, the first string in the <b>HardwareID</b> buffer is the hardware ID. If this value is less than or equal to 1, there is no hardware ID.
+This value can also be used to determine whether there is a <a href="devinst.hardware_ids">hardware ID</a> that precedes the CompatIDs list. If this value is greater than 1, the first string in the <b>HardwareID</b> buffer is the hardware ID. If this value is less than or equal to 1, there is no hardware ID.
 
 
 ### -field CompatIDsLength
@@ -93,7 +93,7 @@ Reserved. For internal use only.
 
 ### -field SectionName
 
-A NULL-terminated string that contains the name of the <a href="https://msdn.microsoft.com/library/Ff547344(v=VS.85).aspx">INF DDInstall section</a> for this driver. This must be the basic <i>DDInstall</i> section name, such as <b>InstallSec</b>, without any OS/architecture-specific extensions.
+A NULL-terminated string that contains the name of the <a href="devinst.inf_ddinstall_section">INF DDInstall section</a> for this driver. This must be the basic <i>DDInstall</i> section name, such as <b>InstallSec</b>, without any OS/architecture-specific extensions.
 
 
 ### -field InfFileName
@@ -108,7 +108,7 @@ A NULL-terminated string that describes the driver.
 
 ### -field HardwareID
 
-A buffer that contains a list of IDs (a single <a href="https://msdn.microsoft.com/library/Ff546152(v=VS.85).aspx">hardware ID</a> followed by a list of <a href="https://msdn.microsoft.com/library/Ff539950(v=VS.85).aspx">compatible IDs</a>). These IDs correspond to the hardware ID and compatible IDs in the <a href="https://msdn.microsoft.com/library/Ff547456(v=VS.85).aspx">INF Models section</a>. 
+A buffer that contains a list of IDs (a single <a href="devinst.hardware_ids">hardware ID</a> followed by a list of <a href="devinst.compatible_ids">compatible IDs</a>). These IDs correspond to the hardware ID and compatible IDs in the <a href="devinst.inf_models_section">INF Models section</a>. 
 
 Each ID in the list is a NULL-terminated string.
 
@@ -121,7 +121,7 @@ If the CompatIDs list is not empty (that is, if <b>CompatIDsLength</b> is not ze
 
 
 
-The <a href="https://msdn.microsoft.com/library/Ff546152(v=VS.85).aspx">hardware ID</a> and <a href="https://msdn.microsoft.com/library/Ff539950(v=VS.85).aspx">compatible IDs</a> for a device are specified in the <a href="https://msdn.microsoft.com/library/Ff547456(v=VS.85).aspx">INF Models section</a> in the following order:
+The <a href="devinst.hardware_ids">hardware ID</a> and <a href="devinst.compatible_ids">compatible IDs</a> for a device are specified in the <a href="devinst.inf_models_section">INF Models section</a> in the following order:
 
 <ul>
 <li>
@@ -135,7 +135,7 @@ The remaining IDs (if specified) are compatible IDs for the device.
 </ul>
 When you parse the <b>HardwareID</b> buffer, you must ensure that you correctly determine the end of the data in the buffer. Be aware that the buffer is not necessarily double NULL terminated.
 
-For example, depending on how the list of <a href="https://msdn.microsoft.com/library/Ff546152(v=VS.85).aspx">hardware ID</a> and <a href="https://msdn.microsoft.com/library/Ff539950(v=VS.85).aspx">compatible IDs</a> are specified in the <a href="https://msdn.microsoft.com/library/Ff547456(v=VS.85).aspx">INF Models section</a>, the <b>HardwareID</b> buffer can resemble any of the following:
+For example, depending on how the list of <a href="devinst.hardware_ids">hardware ID</a> and <a href="devinst.compatible_ids">compatible IDs</a> are specified in the <a href="devinst.inf_models_section">INF Models section</a>, the <b>HardwareID</b> buffer can resemble any of the following:
 
 <ul>
 <li>
@@ -155,25 +155,29 @@ For example, depending on how the list of <a href="https://msdn.microsoft.com/li
 
 </li>
 </ul>
-An algorithm to correctly parse this buffer must use the <b>CompatIDsOffset</b> and <b>CompatIDsLength</b> fields to extract the <a href="https://msdn.microsoft.com/library/Ff546152(v=VS.85).aspx">hardware ID</a> and <a href="https://msdn.microsoft.com/library/Ff539950(v=VS.85).aspx">compatible IDs</a>, as shown in the following code example:
+An algorithm to correctly parse this buffer must use the <b>CompatIDsOffset</b> and <b>CompatIDsLength</b> fields to extract the <a href="devinst.hardware_ids">hardware ID</a> and <a href="devinst.compatible_ids">compatible IDs</a>, as shown in the following code example:
 
-
-```
-// parse the hardware ID, if it exists
-if (CompatIDsOffset > 1)
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>// parse the hardware ID, if it exists
+if (CompatIDsOffset &gt; 1)
 {
     // Parse for hardware ID from index 0. 
     // This is a single NULL-terminated string
 }
  // Parse the compatible IDs, if they exist
-if (CompatIDsLength > 0)
+if (CompatIDsLength &gt; 0)
 {
     // Parse for list of compatible IDs from CompatIDsOffset. 
     // This is a double NULL-terminated list of strings (i.e. MULTI-SZ)
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -182,19 +186,19 @@ if (CompatIDsLength > 0)
 
 
 
-<a href="https://msdn.microsoft.com/library/Ff539950(v=VS.85).aspx">Compatible IDs</a>
+<a href="devinst.compatible_ids">Compatible IDs</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Ff546152(v=VS.85).aspx">Hardware ID</a>
+<a href="devinst.hardware_ids">Hardware ID</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Ff547344(v=VS.85).aspx">INF DDInstall Section</a>
+<a href="devinst.inf_ddinstall_section">INF DDInstall Section</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Ff547456(v=VS.85).aspx">INF Models Section</a>
+<a href="devinst.inf_models_section">INF Models Section</a>
 
 
 

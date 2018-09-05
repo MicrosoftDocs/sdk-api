@@ -7,7 +7,7 @@ old-location: base\symsetcontext.htm
 old-project: debug
 ms.assetid: 0a9c6bfe-5e60-48c4-af98-b910df3032d5
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: SymSetContext, SymSetContext function, _win32_symsetcontext, base.symsetcontext, dbghelp/SymSetContext
 ms.prod: windows
 ms.technology: windows-sdk

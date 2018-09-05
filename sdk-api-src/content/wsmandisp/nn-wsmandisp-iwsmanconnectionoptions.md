@@ -4,10 +4,10 @@ title: IWSManConnectionOptions
 author: windows-sdk-content
 description: The ConnectionOptions object is passed to the CreateSession method to provide the user name and password associated with the local account on the remote computer.
 old-location: winrm\connectionoptions.htm
-old-project: winrm
+old-project: WinRM
 ms.assetid: 7a87a5f7-78ed-452c-9b9f-ad48811a3339
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ConnectionOptions, ConnectionOptions object [Windows Remote Management], ConnectionOptions object [Windows Remote Management],described, IWSManConnectionOptions, winrm.connectionoptions, wsman.connectionoptions, wsmandisp/ConnectionOptions
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,9 +71,13 @@ The <b>WSManFlagCredUserNamePassword</b> flag should be set on the <a href="http
 
 The following VBScript code example shows how to create a <b>ConnectionOptions</b> object, set the properties for the account on the remote computer, and use it in creating a <a href="https://msdn.microsoft.com/b98ca759-71cb-492e-8645-8766b202eb36">Session</a> object.
 
-
-```vb
-Set objWsman = CreateObject( "Wsman.Automation" )
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Set objWsman = CreateObject( "Wsman.Automation" )
 'Create ConnectionOptions object.
 Set objConnectionOptions = objWsman.CreateConnectionOptions
 objConnectionOptions.UserName = "johns "
@@ -82,10 +86,10 @@ iFlags = objWsman.SessionFlagUseBasic Or _
   objWsman.SessionFlagCredUserNamePassword
 Set objSession = objWsman.CreateSession _
   ("https://172.30.168.2", iFlags, objConnectionOptions)
-strResource = objSession.Get("winrm/config")
-```
-
-
+strResource = objSession.Get("winrm/config")</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

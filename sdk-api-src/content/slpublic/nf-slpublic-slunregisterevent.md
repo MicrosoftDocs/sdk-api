@@ -4,10 +4,10 @@ title: SLUnregisterEvent function
 author: windows-sdk-content
 description: Unregisters a registered event in the SL service.
 old-location: security\slunregisterevent.htm
-old-project: secslapi
+old-project: SecSLApi
 ms.assetid: 0fd02eb4-16d9-4892-b50c-3f9b0ead8478
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SLUnregisterEvent, SLUnregisterEvent function [Security], security.slunregisterevent, slpublic/SLUnregisterEvent
 ms.prod: windows
 ms.technology: windows-sdk

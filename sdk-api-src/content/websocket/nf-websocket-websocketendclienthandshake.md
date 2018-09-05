@@ -7,7 +7,7 @@ old-location: websock\websocketendclienthandshake.htm
 old-project: WebSock
 ms.assetid: 07f2b2b8-1997-4ac7-b498-56d1e1fba9ef
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: WebSocketEndClientHandshake, WebSocketEndClientHandshake function [Websocket Protocol Component API], websock.websocketendclienthandshake, websocket/WebSocketEndClientHandshake
 ms.prod: windows
 ms.technology: windows-sdk

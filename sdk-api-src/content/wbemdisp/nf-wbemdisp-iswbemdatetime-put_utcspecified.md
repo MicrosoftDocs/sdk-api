@@ -7,7 +7,7 @@ old-location: wmi\swbemdatetime_utcspecified.htm
 old-project: WmiSdk
 ms.assetid: 9cb04351-294b-48ba-8d1c-2f28cb9ce463
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: ISWbemDateTime interface [Windows Management Instrumentation],UTCSpecified property, ISWbemDateTime.get_UTCSpecified, ISWbemDateTime.put_UTCSpecified, ISWbemDateTime::put_UTCSpecified, SWbemDateTime object [Windows Management Instrumentation],UTCSpecified property, SWbemDateTime.UTCSpecified, UTCSpecified property [Windows Management Instrumentation], UTCSpecified property [Windows Management Instrumentation],ISWbemDateTime interface, UTCSpecified property [Windows Management Instrumentation],SWbemDateTime object, _hmm_swbemdatetime.utcspecified, put_UTCSpecified, wmi.swbemdatetime_utcspecified
 ms.prod: windows
 ms.technology: windows-sdk

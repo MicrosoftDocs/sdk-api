@@ -7,7 +7,7 @@ old-location: mscs\clusresgroup_offline.htm
 old-project: mscs
 ms.assetid: ca4b8bd9-26fb-40f6-86f7-bbd1514fc9ac
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusResGroup class [Failover Cluster],Offline method, ClusResGroup.Offline, ISClusResGroup.Offline, ISClusResGroup::Offline, Offline, Offline method [Failover Cluster], Offline method [Failover Cluster],ClusResGroup class, _wolf_clusresgroup.offline, mscs.clusresgroup_offline
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Takes a <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a>
-<a href="https://msdn.microsoft.com/en-us/library/Aa371781(v=VS.85).aspx">offline</a>.
+<a href="o_gly.htm">offline</a>.
 
 
 ## -parameters

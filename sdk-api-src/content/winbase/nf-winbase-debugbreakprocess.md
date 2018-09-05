@@ -7,7 +7,7 @@ old-location: base\debugbreakprocess.htm
 old-project: debug
 ms.assetid: db90d46b-fdbc-49c9-ac99-6b1db1db708c
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: DebugBreakProcess, DebugBreakProcess function, _win32_debugbreakprocess, base.debugbreakprocess, winbase/DebugBreakProcess
 ms.prod: windows
 ms.technology: windows-sdk

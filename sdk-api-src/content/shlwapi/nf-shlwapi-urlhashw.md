@@ -7,7 +7,7 @@ old-location: shell\UrlHash.htm
 old-project: shell
 ms.assetid: 9c0ce709-e097-4501-bee1-b24df9d4828d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: UrlHash, UrlHash function [Windows Shell], UrlHashA, UrlHashW, _win32_UrlHash, shell.UrlHash, shlwapi/UrlHash, shlwapi/UrlHashA, shlwapi/UrlHashW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

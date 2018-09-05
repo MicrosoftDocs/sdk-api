@@ -4,10 +4,10 @@ title: SnmpUtilAsnAnyFree function
 author: windows-sdk-content
 description: The SnmpUtilAsnAnyFree function frees the memory allocated for the specified AsnAny structure. This function is an element of the SNMP Utility API.
 old-location: snmp\snmputilasnanyfree.htm
-old-project: snmp
+old-project: SNMP
 ms.assetid: b18c3722-398e-4659-ab1c-edd09d5c220d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SnmpUtilAsnAnyFree, SnmpUtilAsnAnyFree function [SNMP], _snmp_snmputilasnanyfree, snmp.snmputilasnanyfree, snmp/SnmpUtilAsnAnyFree
 ms.prod: windows
 ms.technology: windows-sdk

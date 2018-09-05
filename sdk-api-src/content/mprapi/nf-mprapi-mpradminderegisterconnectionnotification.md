@@ -4,10 +4,10 @@ title: MprAdminDeregisterConnectionNotification function
 author: windows-sdk-content
 description: The MprAdminDeregisterConnectionNotification function deregisters an event object that was previously registered using MprAdminRegisterConnectionNotification. Once deregistered, this event is no longer signaled when an interface connects or disconnects.
 old-location: rras\mpradminderegisterconnectionnotification.htm
-old-project: rras
+old-project: RRAS
 ms.assetid: 72918a54-8e8a-404a-9fd3-45b0bcc98038
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MprAdminDeregisterConnectionNotification, MprAdminDeregisterConnectionNotification function [RAS], _mpr_mpradminderegisterconnectionnotification, mprapi/MprAdminDeregisterConnectionNotification, rras.mpradminderegisterconnectionnotification
 ms.prod: windows
 ms.technology: windows-sdk
@@ -127,7 +127,7 @@ The <i>hEventNotification</i> parameter is <b>NULL</b> or is an invalid handle.
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -146,7 +146,7 @@ Use
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="_win32_formatmessage">FormatMessage</a>
 
 
 

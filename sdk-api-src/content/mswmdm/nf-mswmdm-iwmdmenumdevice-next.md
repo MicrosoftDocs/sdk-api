@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmenumdevice_next.htm
 old-project: WMDM
 ms.assetid: 75a5961f-2c61-4e10-a570-7ebfabb97367
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IWMDMEnumDevice interface [windows Media Device Manager],Next method, IWMDMEnumDevice.Next, IWMDMEnumDevice::Next, IWMDMEnumDeviceNext, Next, Next method [windows Media Device Manager], Next method [windows Media Device Manager],IWMDMEnumDevice interface, mswmdm/IWMDMEnumDevice::Next, wmdm.iwmdmenumdevice_next
 ms.prod: windows
 ms.technology: windows-sdk
@@ -103,12 +103,16 @@ The returned device interface(s) are based on a cached list of devices. If a Plu
 
 If you only want to retrieve a single interface at a time, you do not need to allocate an array for this method, as shown in the following code:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // Get a device enumerator to examine each device.
-CComPtr<IWMDeviceManager2> pIWMDevMgr2;
-hr = m_IWMDeviceMgr->QueryInterface (__uuidof(IWMDeviceManager2), (void**) &pIWMDevMgr2);
+CComPtr&lt;IWMDeviceManager2&gt; pIWMDevMgr2;
+hr = m_IWMDeviceMgr-&gt;QueryInterface (__uuidof(IWMDeviceManager2), (void**) &amp;pIWMDevMgr2);
 if (hr == S_OK)
 {
     // TODO: Display a message that the application retrieved IWMDeviceManager2.
@@ -121,8 +125,8 @@ else
 }
 
 // Enumerate through the devices using the faster EnumDevices2 plug-and-play method.
-CComPtr<IWMDMEnumDevice> pEnumDevice;
-hr = pIWMDevMgr2->EnumDevices2(&pEnumDevice);
+CComPtr&lt;IWMDMEnumDevice&gt; pEnumDevice;
+hr = pIWMDevMgr2-&gt;EnumDevices2(&amp;pEnumDevice);
 if (hr != S_OK)
 {
     //.TODO: Display a message that an error occurred in calling EnumDevices2.
@@ -132,7 +136,7 @@ if (hr != S_OK)
 // Enumerate through devices.
 IWMDMDevice *pIWMDMDevice;
 ULONG ulFetched = 0;
-while(pEnumDevice->Next(1, &pIWMDMDevice, &ulFetched) == S_OK)
+while(pEnumDevice-&gt;Next(1, &amp;pIWMDMDevice, &amp;ulFetched) == S_OK)
 {
     if (ulFetched != 1)
     {
@@ -140,10 +144,10 @@ while(pEnumDevice->Next(1, &pIWMDMDevice, &ulFetched) == S_OK)
     }
     // Do some stuff here....
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

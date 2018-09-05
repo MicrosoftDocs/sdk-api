@@ -4,10 +4,10 @@ title: IsWindowsVistaSP2OrGreater function
 author: windows-sdk-content
 description: Indicates if the current OS version matches, or is greater than, the Windows Vista with Service Pack 2 (SP2) version.
 old-location: base\iswindowsvistasp2orgreater.htm
-old-project: sysinfo
+old-project: SysInfo
 ms.assetid: 8D7F5DA2-8927-4453-A5E3-35A345B099EC
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: IsWindowsVistaSP2OrGreater, IsWindowsVistaSP2OrGreater function, base.iswindowsvistasp2orgreater, versionhelpers/IsWindowsVistaSP2OrGreater
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,18 +87,22 @@ The inline functions defined in the <b>VersionHelpers.h</b> header file let you 
 
 For example, if your application requires Windows Vista with SP2 or later, use the following test.
 
-
-```cpp
-#include <VersionHelpers.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;VersionHelpers.h&gt;
 …
     if (!IsWindowsVistaSP2OrGreater())
     {
        MessageBox(NULL, "You need at least Windows Vista with SP2", "Version Not Supported", MB_OK);
     }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

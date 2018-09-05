@@ -86,11 +86,15 @@ A rectangle is defined as empty if either the width or the height is zero or les
 
 
 The following example creates a 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a> object, inflates the dimensions of the rectangle, and determines whether the rectangle is empty.
+						<a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a> object, inflates the dimensions of the rectangle, and determines whether the rectangle is empty.
 
-
-```cpp
-VOID Example_IsEmptyArea(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_IsEmptyArea(HDC hdc)
 {
    Graphics graphics(hdc);
    RectF rect(50, 50, 200, 100);
@@ -99,10 +103,10 @@ VOID Example_IsEmptyArea(HDC hdc)
    if(rect.IsEmptyArea())
 
    // The rectangle does not enclose any area.
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -111,23 +115,23 @@ VOID Example_IsEmptyArea(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534944(v=VS.85).aspx">Inflate Methods</a>
+<a href="https://msdn.microsoft.com/5f393247-0209-41b4-a97c-89e4d5d7d55d">Inflate Methods</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
+<a href="https://msdn.microsoft.com/d91562ab-41e6-4bca-a320-74f490a4f88f">Pens, Lines, and Rectangles</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a>
+<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534497(v=VS.85).aspx">RectF</a>
+<a href="https://msdn.microsoft.com/6821442b-d352-48cb-a48a-839105a8c36a">RectF</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533855(v=VS.85).aspx">Using a Pen to Draw Lines and Rectangles</a>
+<a href="https://msdn.microsoft.com/f2e4144f-f2f1-49db-bfdf-ffce3023b4cb">Using a Pen to Draw Lines and Rectangles</a>
  
 
  

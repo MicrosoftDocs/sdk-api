@@ -4,10 +4,10 @@ title: IAzAuthorizationStore::OpenApplication
 author: windows-sdk-content
 description: Opens the IAzApplication object with the specified name.
 old-location: security\azauthorizationstore_openapplication.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 63215a9a-b739-4ba9-a760-a9968be9e017
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AzAuthorizationStore object [Security],OpenApplication method, IAzAuthorizationStore interface [Security],OpenApplication method, IAzAuthorizationStore.OpenApplication, IAzAuthorizationStore::OpenApplication, OpenApplication, OpenApplication method [Security], OpenApplication method [Security],AzAuthorizationStore object, OpenApplication method [Security],IAzAuthorizationStore interface, azroles/IAzAuthorizationStore::OpenApplication, security.azauthorizationstore_openapplication
 ms.prod: windows
 ms.technology: windows-sdk

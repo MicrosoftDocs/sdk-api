@@ -4,10 +4,10 @@ title: WdsTransportProviderGetContentSize function
 author: windows-sdk-content
 description: Retrieves the size of an open content stream.
 old-location: wds\wdstransportprovidergetcontentsize.htm
-old-project: wds
+old-project: Wds
 ms.assetid: 2ab55723-b55a-454e-92f8-164a07c86028
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WdsTransportProviderGetContentSize, WdsTransportProviderGetContentSize callback, WdsTransportProviderGetContentSize callback function [Windows Deployment Services], wds.wdstransportprovidergetcontentsize, wdstpdi/WdsTransportProviderGetContentSize
 ms.prod: windows
 ms.technology: windows-sdk

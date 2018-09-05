@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_MinimizeAll.htm
 old-project: shell
 ms.assetid: 25DD56B0-221E-44a2-9FAD-FB358ADD7FF1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellDispatch object [Windows Shell],MinimizeAll method, IShellDispatch.MinimizeAll, IShellDispatch::MinimizeAll, MinimizeAll, MinimizeAll method [Windows Shell], MinimizeAll method [Windows Shell],IShellDispatch object, shell.IShellDispatch_MinimizeAll
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,25 +89,33 @@ The following examples show the use of <b>MinimizeAll</b> in use for JScript, VB
 JScript:
                 
 
-
-```javascript
-<script language="JScript">
+<div class="code"><span codelanguage="JScript"><table>
+<tr>
+<th>JScript</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="JScript"&gt;
     function fnShellMinimizeAllJ()
     {
         var objShell = new ActiveXObject("shell.application");
         
         objshell.MinimizeAll();
     }
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 VBScript:
 
-
-```vb
-<script language="VBScript">
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="VBScript"&gt;
     function fnShellMinimizeAllVB()
         dim objShell
         
@@ -116,16 +124,20 @@ VBScript:
 
         set objShell = nothing
     end function
- </script>
-
-```
-
-
+ &lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 Visual Basic:
 
-
-```vb
-Private Sub fnShellMinimizeAllVB()
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Private Sub fnShellMinimizeAllVB()
     Dim objShell As Shell
 
     Set objShell = New Shell
@@ -133,10 +145,10 @@ Private Sub fnShellMinimizeAllVB()
 
     Set objShell = Nothing
 End Sub
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

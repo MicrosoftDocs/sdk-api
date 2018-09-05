@@ -4,10 +4,10 @@ title: WinHttpConnect function
 author: windows-sdk-content
 description: The WinHttpConnect function specifies the initial target server of an HTTP request and returns an HINTERNET connection handle to an HTTP session for that initial target.
 old-location: http\winhttpconnect.htm
-old-project: winhttp
+old-project: WinHttp
 ms.assetid: afcdad8d-687e-4a1f-99d8-5d8be13825fa
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: INTERNET_DEFAULT_HTTPS_PORT, INTERNET_DEFAULT_HTTP_PORT, INTERNET_DEFAULT_PORT, WinHttpConnect, WinHttpConnect function [WinHTTP], http.winhttpconnect, winhttp.winhttpconnect, winhttp/WinHttpConnect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -99,7 +99,7 @@ Uses the default port for HTTP servers (port 80).
 </td>
 <td width="60%">
 Uses the default port for HTTPS servers (port 443).  Selecting this port does not automatically establish a secure connection.  You must still specify the use of secure transaction semantics by using the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa384099(v=VS.85).aspx">WINHTTP_FLAG_SECURE</a> flag with 
+<a href="winhttpopenrequest.htm">WINHTTP_FLAG_SECURE</a> flag with 
 <a href="https://msdn.microsoft.com/9ecd035d-1abf-48ca-baf2-d9754f912c60">WinHttpOpenRequest</a>.
 
 </td>
@@ -242,9 +242,13 @@ The following example shows how to use secure transaction semantics to download 
 <a href="https://msdn.microsoft.com/041ec571-10ed-48d0-9a99-e0b5d9e08f70">WinHttpQueryDataAvailable</a> is used with the request handle to determine how much data is available for download, then 
 <a href="https://msdn.microsoft.com/06340601-9b2d-487a-a82a-aa2175a52dc5">WinHttpReadData</a> is used to read that data.  This process repeats until the entire document has been retrieved and displayed.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
     DWORD dwSize = 0;
     DWORD dwDownloaded = 0;
     LPSTR pszOutBuffer;
@@ -289,7 +293,7 @@ The following example shows how to use secure transaction semantics to download 
         {
             // Check for available data.
             dwSize = 0;
-            if (!WinHttpQueryDataAvailable( hRequest, &dwSize))
+            if (!WinHttpQueryDataAvailable( hRequest, &amp;dwSize))
                 printf("Error %u in WinHttpQueryDataAvailable.\n", GetLastError());
 
             // Allocate space for the buffer.
@@ -305,7 +309,7 @@ The following example shows how to use secure transaction semantics to download 
                 ZeroMemory(pszOutBuffer, dwSize+1);
 
                 if (!WinHttpReadData( hRequest, (LPVOID)pszOutBuffer, 
-                                      dwSize, &dwDownloaded))
+                                      dwSize, &amp;dwDownloaded))
                     printf( "Error %u in WinHttpReadData.\n", GetLastError());
                 else
                     printf( "%s\n", pszOutBuffer);
@@ -314,7 +318,7 @@ The following example shows how to use secure transaction semantics to download 
                 delete [] pszOutBuffer;
             }
 
-        } while (dwSize > 0);
+        } while (dwSize &gt; 0);
 
 
     // Report any errors.
@@ -325,10 +329,10 @@ The following example shows how to use secure transaction semantics to download 
     if (hRequest) WinHttpCloseHandle(hRequest);
     if (hConnect) WinHttpCloseHandle(hConnect);
     if (hSession) WinHttpCloseHandle(hSession);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

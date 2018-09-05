@@ -4,10 +4,10 @@ title: WPUCompleteOverlappedRequest function
 author: windows-sdk-content
 description: The WPUCompleteOverlappedRequest function performs overlapped I/O completion notification for overlapped I/O operations.
 old-location: winsock\wpucompleteoverlappedrequest_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: b0e5015f-d23f-46da-91b1-f646111f70f9
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: WPUCompleteOverlappedRequest, WPUCompleteOverlappedRequest function [Winsock], _win32_wpucompleteoverlappedrequest_2, winsock.wpucompleteoverlappedrequest_2, ws2spi/WPUCompleteOverlappedRequest
 ms.prod: windows
 ms.technology: windows-sdk
@@ -108,7 +108,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">

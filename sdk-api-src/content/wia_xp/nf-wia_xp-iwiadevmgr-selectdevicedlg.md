@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaDevMgr_SelectDeviceDlg.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadevmgr\selectdevicedlg.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IWiaDevMgr interface [WIA],SelectDeviceDlg method, IWiaDevMgr.SelectDeviceDlg, IWiaDevMgr::SelectDeviceDlg, SelectDeviceDlg, SelectDeviceDlg method [WIA], SelectDeviceDlg method [WIA],IWiaDevMgr interface, _wia_IWiaDevMgr_SelectDeviceDlg, wia._wia_IWiaDevMgr_SelectDeviceDlg, wia_xp/IWiaDevMgr::SelectDeviceDlg
 ms.prod: windows
 ms.technology: windows-sdk
@@ -108,9 +108,9 @@ On output, receives a string which contains the device's identifier string. On i
 
 ### -param ppItemRoot [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms630113(v=VS.85).aspx">IWiaItem</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/b9aaf7ae-7222-44d1-8cf1-89234b263135">IWiaItem</a>**</b>
 
-Receives the address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms630113(v=VS.85).aspx">IWiaItem</a> interface of the root item of the tree that represents the selected WIA device. If no devices are found, it contains the value <b>NULL</b>.
+Receives the address of a pointer to the <a href="https://msdn.microsoft.com/b9aaf7ae-7222-44d1-8cf1-89234b263135">IWiaItem</a> interface of the root item of the tree that represents the selected WIA device. If no devices are found, it contains the value <b>NULL</b>.
 
 
 ## -returns
@@ -148,9 +148,9 @@ This method returns the following values:
 
 
 
-This method creates and displays the <b>Select Device</b> dialog box so the user can select a WIA device for image acquisition. If a device is successfully selected, the <b>IWiaDevMgr::SelectDeviceDlg</b> method creates a hierarchical tree of <a href="https://msdn.microsoft.com/en-us/library/ms630113(v=VS.85).aspx">IWiaItem</a> objects for the device. It stores a pointer to the <b>IWiaItem</b> interface of the root item in the parameter <i>ppItemRoot</i>.
+This method creates and displays the <b>Select Device</b> dialog box so the user can select a WIA device for image acquisition. If a device is successfully selected, the <b>IWiaDevMgr::SelectDeviceDlg</b> method creates a hierarchical tree of <a href="https://msdn.microsoft.com/b9aaf7ae-7222-44d1-8cf1-89234b263135">IWiaItem</a> objects for the device. It stores a pointer to the <b>IWiaItem</b> interface of the root item in the parameter <i>ppItemRoot</i>.
 
-Particular types of devices may be displayed to the user by specifying the device types through the <i>lDeviceType</i> parameter. If only one device meets the specification, <b>IWiaDevMgr::SelectDeviceDlg</b> does not display the <b>Select Device</b> dialog box. Instead it creates the <a href="https://msdn.microsoft.com/en-us/library/ms630113(v=VS.85).aspx">IWiaItem</a> tree for the device and store a pointer to the  <b>IWiaItem</b> interface of the root item in the parameter <i>ppItemRoot</i>. You can override this behavior and force <b>IWiaDevMgr::SelectDeviceDlg</b> to display the <b>Select Device</b> dialog box by passing WIA_SELECT_DEVICE_NODEFAULT as the value for the <i>lFlags</i> parameter.
+Particular types of devices may be displayed to the user by specifying the device types through the <i>lDeviceType</i> parameter. If only one device meets the specification, <b>IWiaDevMgr::SelectDeviceDlg</b> does not display the <b>Select Device</b> dialog box. Instead it creates the <a href="https://msdn.microsoft.com/b9aaf7ae-7222-44d1-8cf1-89234b263135">IWiaItem</a> tree for the device and store a pointer to the  <b>IWiaItem</b> interface of the root item in the parameter <i>ppItemRoot</i>. You can override this behavior and force <b>IWiaDevMgr::SelectDeviceDlg</b> to display the <b>Select Device</b> dialog box by passing WIA_SELECT_DEVICE_NODEFAULT as the value for the <i>lFlags</i> parameter.
 
 If more than one WIA device matches the specification, all matching devices are displayed in the <b>Select Device</b> dialog box so the user may choose one.
 

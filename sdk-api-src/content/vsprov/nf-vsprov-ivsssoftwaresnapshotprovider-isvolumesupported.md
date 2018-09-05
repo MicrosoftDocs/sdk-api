@@ -4,10 +4,10 @@ title: IVssSoftwareSnapshotProvider::IsVolumeSupported
 author: windows-sdk-content
 description: Determines whether the provider supports shadow copies on the specified volume.
 old-location: base\ivsssoftwaresnapshotprovider_isvolumesupported.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 5dbaa5ad-4a35-49e2-a528-de1ea38e6e0b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IVssSoftwareSnapshotProvider interface,IsVolumeSupported method, IVssSoftwareSnapshotProvider.IsVolumeSupported, IVssSoftwareSnapshotProvider::IsVolumeSupported, IsVolumeSupported, IsVolumeSupported method, IsVolumeSupported method,IVssSoftwareSnapshotProvider interface, base.ivsssoftwaresnapshotprovider_isvolumesupported, vsprov/IVssSoftwareSnapshotProvider::IsVolumeSupported
 ms.prod: windows
 ms.technology: windows-sdk

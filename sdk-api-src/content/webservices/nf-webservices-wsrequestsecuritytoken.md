@@ -7,7 +7,7 @@ old-location: wsw\wsrequestsecuritytoken.htm
 old-project: wsw
 ms.assetid: ee754a7d-73a9-49ae-afc7-b443fbbe0cce
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WsRequestSecurityToken, WsRequestSecurityToken function [Web Services for Windows], webservices/WsRequestSecurityToken, wsw.wsrequestsecuritytoken
 ms.prod: windows
 ms.technology: windows-sdk

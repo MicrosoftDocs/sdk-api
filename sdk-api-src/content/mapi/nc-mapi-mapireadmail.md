@@ -4,10 +4,10 @@ title: MAPIREADMAIL
 author: windows-sdk-content
 description: The MAPIReadMail function retrieves a message for reading.
 old-location: mapi\mapireadmail.htm
-old-project: windowsmapi
+old-project: WindowsMAPI
 ms.assetid: 46a8ff9f-17d9-4c33-8ca4-0a3978013f52
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/29/2018
 ms.keywords: MAPIReadMail, MAPIReadMail callback, MAPIReadMail callback function, MAPI_BODY_AS_FILE, MAPI_ENVELOPE_ONLY, MAPI_PEEK, MAPI_SUPPRESS_ATTACH, mapi.mapireadmail, mapi/MAPIReadMail
 ms.prod: windows
 ms.technology: windows-sdk

@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Gets the information for a flat scroll bar. If flat scroll bars are not initialized for the window, this function calls the standard <a href="https://msdn.microsoft.com/en-us/library/Bb787583(v=VS.85).aspx">GetScrollInfo</a> function. 
+Gets the information for a flat scroll bar. If flat scroll bars are not initialized for the window, this function calls the standard <a href="https://msdn.microsoft.com/c4bd075b-b4fd-44cf-ba51-b9d8a95a5152">GetScrollInfo</a> function. 
 
 
 ## -parameters
@@ -59,11 +59,9 @@ Gets the information for a flat scroll bar. If flat scroll bars are not initiali
 
 
 
-### -param param
+### -param arg1
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
-
-A handle to the window that contains the flat scroll bar. This window handle must have been passed previously in a call to <a href="https://msdn.microsoft.com/en-us/library/Bb775443(v=VS.85).aspx">InitializeFlatSB</a>. 
+TBD
 
 
 ### -param code
@@ -101,11 +99,18 @@ Retrieves the information for the vertical scroll bar.
  
 
 
+### -param arg2
+
+TBD
+
+
+
+
 #### - lpsi
 
 Type: <b>LPSCROLLINFO</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb787537(v=VS.85).aspx">SCROLLINFO</a> structure that will receive the information for the specified scroll bar. The <b>cbSize</b> and <b>fMask</b> members of the structure must be filled out prior to calling <b>FlatSB_GetScrollInfo</b>. The <b>fMask</b> member specifies which properties should be retrieved and can be any combination of the following values: 
+A pointer to a <a href="https://msdn.microsoft.com/abb0d18e-81b5-422c-b6e6-318a2d1d11a4">SCROLLINFO</a> structure that will receive the information for the specified scroll bar. The <b>cbSize</b> and <b>fMask</b> members of the structure must be filled out prior to calling <b>FlatSB_GetScrollInfo</b>. The <b>fMask</b> member specifies which properties should be retrieved and can be any combination of the following values: 
 
 <table>
 <tr>
@@ -118,7 +123,7 @@ A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb787537(v=VS.8
 </dl>
 </td>
 <td width="60%">
-Retrieves the page information for the flat scroll bar. This will be placed in the <b>nPage</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb787537(v=VS.85).aspx">SCROLLINFO</a> structure. 
+Retrieves the page information for the flat scroll bar. This will be placed in the <b>nPage</b> member of the <a href="https://msdn.microsoft.com/abb0d18e-81b5-422c-b6e6-318a2d1d11a4">SCROLLINFO</a> structure. 
 
 </td>
 </tr>
@@ -129,7 +134,7 @@ Retrieves the page information for the flat scroll bar. This will be placed in t
 </td>
 <td width="60%">
 Retrieves the position information for the flat scroll bar. This will be placed in the 
-						<b>nPos</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Bb787537(v=VS.85).aspx">SCROLLINFO</a> structure. 
+						<b>nPos</b> member of the <a href="https://msdn.microsoft.com/abb0d18e-81b5-422c-b6e6-318a2d1d11a4">SCROLLINFO</a> structure. 
 
 </td>
 </tr>
@@ -139,7 +144,7 @@ Retrieves the position information for the flat scroll bar. This will be placed 
 </dl>
 </td>
 <td width="60%">
-Retrieves the range information for the flat scroll bar. This will be placed in the <b>nMin</b> and <b>nMax</b> members of the <a href="https://msdn.microsoft.com/en-us/library/Bb787537(v=VS.85).aspx">SCROLLINFO</a> structure. 
+Retrieves the range information for the flat scroll bar. This will be placed in the <b>nMin</b> and <b>nMax</b> members of the <a href="https://msdn.microsoft.com/abb0d18e-81b5-422c-b6e6-318a2d1d11a4">SCROLLINFO</a> structure. 
 
 </td>
 </tr>
@@ -157,11 +162,18 @@ A combination of SIF_PAGE, SIF_POS, and SIF_RANGE.
  
 
 
+#### - param
+
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
+
+A handle to the window that contains the flat scroll bar. This window handle must have been passed previously in a call to <a href="https://msdn.microsoft.com/ecad7e1b-5250-47fc-bc0f-81889186729f">InitializeFlatSB</a>. 
+
+
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Returns nonzero if successful, or zero otherwise. 
 

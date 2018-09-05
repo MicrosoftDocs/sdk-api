@@ -7,7 +7,7 @@ old-location: cos\imanagedobjectinfo.htm
 old-project: cossdk
 ms.assetid: 7fa5f76e-df07-41b3-8fb0-62b84a034aa5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IManagedObjectInfo, IManagedObjectInfo interface [COM+], IManagedObjectInfo interface [COM+],described, _cos_IManagedObjectInfo, comsvcs/IManagedObjectInfo, cos.imanagedobjectinfo
 ms.prod: windows
 ms.technology: windows-sdk

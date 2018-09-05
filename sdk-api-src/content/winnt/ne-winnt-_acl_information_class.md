@@ -4,10 +4,10 @@ title: "_ACL_INFORMATION_CLASS"
 author: windows-sdk-content
 description: Contains values that specify the type of information being assigned to or retrieved from an access control list (ACL).
 old-location: security\acl_information_class.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: e1abf877-9757-4ee4-b7da-f3e7eb53bddd
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: ACL_INFORMATION_CLASS, ACL_INFORMATION_CLASS enumeration [Security], AclRevisionInformation, AclSizeInformation, _ACL_INFORMATION_CLASS, _win32_acl_information_class_str, security.acl_information_class, winnt/ACL_INFORMATION_CLASS, winnt/AclRevisionInformation, winnt/AclSizeInformation
 ms.prod: windows
 ms.technology: windows-sdk

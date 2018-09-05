@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaVideo_PreviewVisible.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\previewvisible.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IWiaVideo interface [WIA],PreviewVisible property, IWiaVideo.PreviewVisible, IWiaVideo.get_PreviewVisible, IWiaVideo::PreviewVisible, IWiaVideo::get_PreviewVisible, IWiaVideo::put_PreviewVisible, PreviewVisible property [WIA], PreviewVisible property [WIA],IWiaVideo interface, _wia_IWiaVideo_PreviewVisible, get_PreviewVisible, wia._wia_IWiaVideo_PreviewVisible, wiavideo/IWiaVideo::PreviewVisible, wiavideo/IWiaVideo::get_PreviewVisible, wiavideo/IWiaVideo::put_PreviewVisible
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>IWiaVideo::PreviewVisible</b> property specifies whether the video playback is visible in its parent window. This does not affect the <a href="https://msdn.microsoft.com/en-us/library/ms630181(v=VS.85).aspx">WIAVIDEO_STATE</a> of the video.
+The <b>IWiaVideo::PreviewVisible</b> property specifies whether the video playback is visible in its parent window. This does not affect the <a href="https://msdn.microsoft.com/3d460ca8-6760-4649-b33d-ebf24d318346">WIAVIDEO_STATE</a> of the video.
 
 This property is read/write.
 
@@ -67,11 +67,11 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms629896(v=VS.85).aspx">IWiaVideo</a>
+<a href="https://msdn.microsoft.com/aed8bc1d-7b59-4276-a63f-8d9401faab1a">IWiaVideo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms630181(v=VS.85).aspx">WIAVIDEO_STATE</a>
+<a href="https://msdn.microsoft.com/3d460ca8-6760-4649-b33d-ebf24d318346">WIAVIDEO_STATE</a>
  
 
  

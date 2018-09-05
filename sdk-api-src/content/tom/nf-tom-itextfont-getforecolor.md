@@ -79,7 +79,7 @@ The foreground color. It can be one of the following values.
 <tr>
 <td>A value returned by <a href="https://msdn.microsoft.com/76d859fa-11a5-451f-9d7a-9cf0740eca36">PALETTEINDEX</a>
 </td>
-<td>The high-order byte is 1, and the <a href="https://msdn.microsoft.com/en-us/library/ms632659(v=VS.85).aspx">LOWORD</a> specifies the index of a logical-color palette entry.</td>
+<td>The high-order byte is 1, and the <a href="https://msdn.microsoft.com/4f169f33-ed13-4efc-bf3f-ea2a4fe1de4e">LOWORD</a> specifies the index of a logical-color palette entry.</td>
 </tr>
 <tr>
 <td><b>tomAutocolor</b> (-9999997)</td>
@@ -143,7 +143,7 @@ The font object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>
+<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
 
 
 
@@ -159,11 +159,11 @@ The font object is attached to a range that has been deleted.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774147(v=VS.85).aspx">SetForeColor</a>
+<a href="https://msdn.microsoft.com/ac2db646-b9f5-46fb-a9c2-e789bec8a4de">SetForeColor</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

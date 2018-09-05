@@ -53,7 +53,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Pen::GetDashPattern</b> method gets an array of custom dashes and spaces currently set for this 
-			<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object.
+			<a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a> object.
 
 
 ## -parameters
@@ -80,14 +80,14 @@ Integer that specifies the number of elements in the
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
 </strong>
 
 If the method succeeds, it returns <b>Ok</b>, which is an element of the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
 If the method fails, it returns one of the other elements of the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+						<a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
 
 
@@ -100,7 +100,7 @@ The elements in the
 				<i>dashArray</i> array set the length of each dash and space in the dash pattern. The first element sets the length of a dash, the second element sets the length of a space, the third element sets the length of a dash, and so forth.
 
 The length of each dash and space in the dash pattern is the product of each element in the array and the width of the 
-				<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object.
+				<a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a> object.
 
 
 #### Examples
@@ -108,11 +108,15 @@ The length of each dash and space in the dash pattern is the product of each ele
 
 
 The following example creates an array of real numbers and a 
-						<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a> object, sets the dash pattern, and draws a custom dashed line. The code then gets the dash pattern currently set for the pen.
+						<a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a> object, sets the dash pattern, and draws a custom dashed line. The code then gets the dash pattern currently set for the pen.
 
-
-```cpp
-VOID Example_GetDashPattern(HDC hdc
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_GetDashPattern(HDC hdc
 {
    Graphics graphics(hdc);
 
@@ -120,7 +124,7 @@ VOID Example_GetDashPattern(HDC hdc
    REAL dashVals[4] = {5, 2, 15, 4};
    Pen pen(Color(255, 0, 0, 0), 5);
    pen.SetDashPattern(dashVals, 4);
-   graphics.DrawLine(&pen, 5, 20, 405, 200);
+   graphics.DrawLine(&amp;pen, 5, 20, 405, 200);
 
    // Obtain information about the pen.
    INT count = 0;
@@ -130,15 +134,15 @@ VOID Example_GetDashPattern(HDC hdc
    dashValues = new REAL[count];
    pen.GetDashPattern(dashValues, count);
 
-   for(INT j = 0; j < count; ++j)
+   for(INT j = 0; j &lt; count; ++j)
    {
       // Inspect or use the value in dashValues[j].
    }
    delete [] dashValues;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -147,23 +151,23 @@ VOID Example_GetDashPattern(HDC hdc
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533850(v=VS.85).aspx">Drawing a Custom Dashed Line</a>
+<a href="https://msdn.microsoft.com/0e75de3b-1006-4c8f-875c-eeb0782f24b0">Drawing a Custom Dashed Line</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534485(v=VS.85).aspx">Pen</a>
+<a href="https://msdn.microsoft.com/b48affa5-d953-478c-b651-0534db4d2b78">Pen</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535027(v=VS.85).aspx">Pen::GetDashPatternCount</a>
+<a href="https://msdn.microsoft.com/bba50ce3-d466-47a5-acad-7b0d83b41191">Pen::GetDashPatternCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535049(v=VS.85).aspx">Pen::SetDashPattern</a>
+<a href="https://msdn.microsoft.com/bfddd867-a2b1-4f2b-9c99-cc2112e13fa0">Pen::SetDashPattern</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536372(v=VS.85).aspx">Pens, Lines, and Rectangles</a>
+<a href="https://msdn.microsoft.com/d91562ab-41e6-4bca-a320-74f490a4f88f">Pens, Lines, and Rectangles</a>
  
 
  

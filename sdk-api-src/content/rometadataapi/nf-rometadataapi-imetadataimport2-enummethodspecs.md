@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport2_enummethodspecs.htm
 old-project: WinRT
 ms.assetid: b4327a57-8a19-44f9-90b6-df2b089f63e4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EnumMethodSpecs, EnumMethodSpecs method [Windows Runtime], EnumMethodSpecs method [Windows Runtime],IMetaDataImport2 interface, IMetaDataImport2 interface [Windows Runtime],EnumMethodSpecs method, IMetaDataImport2.EnumMethodSpecs, IMetaDataImport2::EnumMethodSpecs, rometadataapi/IMetaDataImport2::EnumMethodSpecs, winrt.imetadataimport2_enummethodspecs
 ms.prod: windows
 ms.technology: windows-sdk

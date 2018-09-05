@@ -76,9 +76,9 @@ A pointer to a <b>BOOL</b> value: <b>TRUE</b> if <i>pszURL</i> is included in th
 
 ### -param pReason [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa965690(v=VS.85).aspx">CLUSION_REASON</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/51755776-ab35-4a65-8ac1-71edfb196ce7">CLUSION_REASON</a>*</b>
 
-Retrieves a pointer to a value from the <a href="https://msdn.microsoft.com/en-us/library/Aa965690(v=VS.85).aspx">CLUSION_REASON</a> enumeration that indicates the reason that the specified URL was included in or excluded from the crawl scope.
+Retrieves a pointer to a value from the <a href="https://msdn.microsoft.com/51755776-ab35-4a65-8ac1-71edfb196ce7">CLUSION_REASON</a> enumeration that indicates the reason that the specified URL was included in or excluded from the crawl scope.
 
 
 ## -returns

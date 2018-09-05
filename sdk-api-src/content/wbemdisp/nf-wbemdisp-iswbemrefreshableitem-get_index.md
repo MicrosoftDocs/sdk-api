@@ -7,7 +7,7 @@ old-location: wmi\swbemrefreshableitem_index.htm
 old-project: WmiSdk
 ms.assetid: f076eb01-1e71-487d-a1af-687a052b4d67
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: ISWbemRefreshableItem interface [Windows Management Instrumentation],Index property, ISWbemRefreshableItem.get_Index, ISWbemRefreshableItem.put_Index, ISWbemRefreshableItem::get_Index, Index property [Windows Management Instrumentation], Index property [Windows Management Instrumentation],ISWbemRefreshableItem interface, Index property [Windows Management Instrumentation],SWbemRefreshableItem object, SWbemRefreshableItem object [Windows Management Instrumentation],Index property, SWbemRefreshableItem.Index, _hmm_swbemrefreshableitem.index, get_Index, wmi.swbemrefreshableitem_index
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevice_sendcommand.htm
 old-project: wpd_sdk
 ms.assetid: ccc7f87a-dea3-4a1e-a181-86928e23bd35
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IPortableDevice interface [Windows Portable Devices SDK],SendCommand method, IPortableDevice.SendCommand, IPortableDevice::SendCommand, IPortableDeviceSendCommand, SendCommand, SendCommand method [Windows Portable Devices SDK], SendCommand method [Windows Portable Devices SDK],IPortableDevice interface, portabledeviceapi/IPortableDevice::SendCommand, wpdsdk.iportabledevice_sendcommand
 ms.prod: windows
 ms.technology: windows-sdk
@@ -183,32 +183,36 @@ There is no option to set a timeout in a call to <b>SendCommand</b> but the deve
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // 
 
 void ResetDevice(IPortableDevice* pDevice)
 {
     HRESULT  hr = S_OK;
-    CComPtr<IPortableDeviceValues>  pDevValues;
+    CComPtr&lt;IPortableDeviceValues&gt;  pDevValues;
 
     hr = CoCreateInstance(CLSID_PortableDeviceValues,
         NULL,
         CLSCTX_INPROC_SERVER,
         IID_IPortableDeviceValues,
-        (VOID**) &pDevValues);
+        (VOID**) &amp;pDevValues);
     if (SUCCEEDED(hr))
     {
         if (pDevValues != NULL)
         {
-            hr = pDevValues->SetGuidValue(WPD_PROPERTY_COMMON_COMMAND_CATEGORY, 
+            hr = pDevValues-&gt;SetGuidValue(WPD_PROPERTY_COMMON_COMMAND_CATEGORY, 
                 WPD_COMMAND_COMMON_RESET_DEVICE.fmtid);
             if (FAILED(hr))
             {
                 printf("! IPortableDeviceValues::SetGuidValue failed, hr= 0x%lx\n", hr);
             }
-            hr = pDevValues->SetUnsignedIntegerValue(WPD_PROPERTY_COMMON_COMMAND_ID,
+            hr = pDevValues-&gt;SetUnsignedIntegerValue(WPD_PROPERTY_COMMON_COMMAND_ID,
                 WPD_COMMAND_COMMON_RESET_DEVICE.pid);
             if (FAILED(hr))
             {
@@ -216,7 +220,7 @@ void ResetDevice(IPortableDevice* pDevice)
             }
         }
     }
-    hr = pDevice->SendCommand(0, pDevValues, &pDevValues);
+    hr = pDevice-&gt;SendCommand(0, pDevValues, &amp;pDevValues);
     if (FAILED(hr))
     {
         printf("! Failed to reset the device, hr = 0x%lx\n",hr);
@@ -227,10 +231,10 @@ void ResetDevice(IPortableDevice* pDevice)
 }
 
 //
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

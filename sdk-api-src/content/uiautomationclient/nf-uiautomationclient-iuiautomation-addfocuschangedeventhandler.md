@@ -98,9 +98,13 @@ A UI Automation client should not use multiple threads to add or remove event ha
 
 The following example function creates an object that implements <a href="https://msdn.microsoft.com/5dcc6ab0-02c1-4168-96f1-a71a00268527">IUIAutomationFocusChangedEventHandler</a> and subscribes to the event by adding the handler.
 
-
-```cpp
-HRESULT AddFocusHandler(IUIAutomation* pAutomation)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT AddFocusHandler(IUIAutomation* pAutomation)
 { 
     // CFocusHandler is a class that implements IUIAutomationFocusChangedEventHandler. 
     CFocusHandler* pFocusHandler = new CFocusHandler();
@@ -109,15 +113,15 @@ HRESULT AddFocusHandler(IUIAutomation* pAutomation)
         return E_OUTOFMEMORY;
     }
     IUIAutomationFocusChangedEventHandler* pHandler;
-    pFocusHandler->QueryInterface(IID_IUIAutomationFocusChangedEventHandler, (void**)&pHandler);
-    HRESULT hr = pAutomation->AddFocusChangedEventHandler(NULL, pHandler);
-    pFocusHandler->Release();
+    pFocusHandler-&gt;QueryInterface(IID_IUIAutomationFocusChangedEventHandler, (void**)&amp;pHandler);
+    HRESULT hr = pAutomation-&gt;AddFocusChangedEventHandler(NULL, pHandler);
+    pFocusHandler-&gt;Release();
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

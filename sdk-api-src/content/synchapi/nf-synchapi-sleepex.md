@@ -85,8 +85,8 @@ A value of INFINITE indicates that the suspension should not time out.
 
 If this parameter is FALSE, the function does not return until the time-out period has elapsed. If an I/O completion callback occurs, the function does not return and the I/O completion function is not executed. If an APC is queued to the thread, the function does not return and the APC function is not executed.
 
-If the parameter is TRUE and the thread that called this function is the same thread that called the extended I/O function (<a href="https://msdn.microsoft.com/en-us/library/Aa365468(v=VS.85).aspx">ReadFileEx</a> or 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365748(v=VS.85).aspx">WriteFileEx</a>), the function returns when either the time-out period has elapsed or when an I/O completion callback function occurs. If an I/O completion callback occurs, the I/O completion function is called. If an APC is queued to the thread (<a href="https://msdn.microsoft.com/5b141372-7c95-4eb2-987b-64fdf7d0783d">QueueUserAPC</a>), the function returns when either the timer-out period has elapsed or when the APC function is called.
+If the parameter is TRUE and the thread that called this function is the same thread that called the extended I/O function (<a href="base.readfileex">ReadFileEx</a> or 
+<a href="base.writefileex">WriteFileEx</a>), the function returns when either the time-out period has elapsed or when an I/O completion callback function occurs. If an I/O completion callback occurs, the I/O completion function is called. If an APC is queued to the thread (<a href="https://msdn.microsoft.com/5b141372-7c95-4eb2-987b-64fdf7d0783d">QueueUserAPC</a>), the function returns when either the timer-out period has elapsed or when the APC function is called.
 
 
 ## -returns
@@ -110,7 +110,7 @@ This function causes a thread to relinquish the remainder of its time slice and 
 After the sleep interval has passed, the thread is ready to run. If you specify 0 milliseconds, the thread will relinquish the remainder of its time slice but remain ready. Note that a ready thread is not guaranteed to run immediately. Consequently, the thread may not run until some time after the sleep interval elapses. For more information, see 
 <a href="https://msdn.microsoft.com/8710cd56-6bf3-4317-a1f6-1a159394ce2a">Scheduling Priorities</a>.
 
-This function can be used with the <a href="https://msdn.microsoft.com/en-us/library/Aa365468(v=VS.85).aspx">ReadFileEx</a> or <a href="https://msdn.microsoft.com/en-us/library/Aa365748(v=VS.85).aspx">WriteFileEx</a> functions to suspend a thread until an I/O operation has been completed. These functions specify a completion routine that is to be executed when the I/O operation has been completed. For the completion routine to be executed, the thread that called the I/O function must be in an alertable wait state when the completion callback function occurs. A thread goes into an alertable wait state by calling either 
+This function can be used with the <a href="base.readfileex">ReadFileEx</a> or <a href="base.writefileex">WriteFileEx</a> functions to suspend a thread until an I/O operation has been completed. These functions specify a completion routine that is to be executed when the I/O operation has been completed. For the completion routine to be executed, the thread that called the I/O function must be in an alertable wait state when the completion callback function occurs. A thread goes into an alertable wait state by calling either 
 <b>SleepEx</b>, 
 <a href="https://msdn.microsoft.com/1774b721-3ad4-492e-96af-b71de9066f0c">MsgWaitForMultipleObjectsEx</a>, 
 <a href="https://msdn.microsoft.com/530b5340-f8b2-4e00-a3ca-87a7c7372482">WaitForSingleObjectEx</a>, or 
@@ -156,7 +156,7 @@ Be careful when using <b>SleepEx</b> in the following scenarios:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365468(v=VS.85).aspx">ReadFileEx</a>
+<a href="base.readfileex">ReadFileEx</a>
 
 
 
@@ -184,7 +184,7 @@ Be careful when using <b>SleepEx</b> in the following scenarios:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa365748(v=VS.85).aspx">WriteFileEx</a>
+<a href="base.writefileex">WriteFileEx</a>
  
 
  

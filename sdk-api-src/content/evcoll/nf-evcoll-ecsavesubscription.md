@@ -7,7 +7,7 @@ old-location: wec\ecsavesubscription.htm
 old-project: WEC
 ms.assetid: 41702fb8-5b39-4daa-8904-aa36de18665c
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: EcSaveSubscription, EcSaveSubscription function, evcoll/EcSaveSubscription, wec.ecsavesubscription, wes.ecsavesubscription
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,7 +74,7 @@ Reserved. Must be <b>NULL</b>.
 
 
 
-This function returns BOOL __stdcall.
+This function returns BOOL.
 
 
 

@@ -4,10 +4,10 @@ title: MprAdminConnectionEnumEx function
 author: windows-sdk-content
 description: The MprAdminConnectionEnumEx function enumerates the active connections for a specified RRAS server.
 old-location: rras\mpradminconnectionenumex.htm
-old-project: rras
+old-project: RRAS
 ms.assetid: 12507432-bf18-444d-9bcc-4ebc1418c083
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MprAdminConnectionEnumEx, MprAdminConnectionEnumEx function [RAS], mprapi/MprAdminConnectionEnumEx, rras.mpradminconnectionenumex
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmdm\icomponentauthenticate_sacauth.htm
 old-project: WMDM
 ms.assetid: 26cecd09-5f28-47e5-92ec-c2f277be8052
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IComponentAuthenticate interface [windows Media Device Manager],SACAuth method, IComponentAuthenticate.SACAuth, IComponentAuthenticate::SACAuth, IComponentAuthenticateSACAuth, SACAuth, SACAuth method [windows Media Device Manager], SACAuth method [windows Media Device Manager],IComponentAuthenticate interface, mswmdm/IComponentAuthenticate::SACAuth, wmdm.icomponentauthenticate_sacauth
 ms.prod: windows
 ms.technology: windows-sdk
@@ -123,9 +123,13 @@ The structure of the data in <i>pbDataIn</i> and <i>ppbDataOut</i> is determined
 
 The following C++ code demonstrates a service provider's implementation of <b>SACAuth</b>. It calls <a href="https://msdn.microsoft.com/e32aac59-4b7f-4c0e-a200-0dec50d89cb0">CSecureChannelServer::SACAuth</a> on a previously created private <a href="https://msdn.microsoft.com/e6e1463a-5a26-4b83-85e0-a639d384a199">CSecureChannelServer</a> member.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT CMyServiceProvider::SACAuth(
     DWORD   dwProtocolID,
     DWORD   dwPass,
@@ -140,7 +144,7 @@ HRESULT CMyServiceProvider::SACAuth(
     if(g_pAppSCServer == NULL)
         return E_FAIL;
 
-    hr = g_pAppSCServer->SACAuth(
+    hr = g_pAppSCServer-&gt;SACAuth(
         dwProtocolID,
         dwPass,
         pbDataIn, dwDataInLen,
@@ -148,10 +152,10 @@ HRESULT CMyServiceProvider::SACAuth(
     );
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

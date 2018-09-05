@@ -4,10 +4,10 @@ title: GetTickCount function
 author: windows-sdk-content
 description: Retrieves the number of milliseconds that have elapsed since the system was started, up to 49.7 days.
 old-location: base\gettickcount.htm
-old-project: sysinfo
+old-project: SysInfo
 ms.assetid: 22201c82-a49a-4972-9f49-6baf6d23a1ea
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: GetTickCount, GetTickCount function, _win32_gettickcount, base.gettickcount, sysinfoapi/GetTickCount
 ms.prod: windows
 ms.technology: windows-sdk

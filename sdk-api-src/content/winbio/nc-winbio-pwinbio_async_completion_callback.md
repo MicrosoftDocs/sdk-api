@@ -4,10 +4,10 @@ title: PWINBIO_ASYNC_COMPLETION_CALLBACK
 author: windows-sdk-content
 description: Notifies the client application that an asynchronous operation started by using WinBioAsyncOpenSession or WinBioAsyncOpenFramework has completed.
 old-location: secbiomet\pwinbio_async_completion_callback.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: 550EA13D-18CE-4B73-9C9B-4D5C46C48A75
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: PWINBIO_ASYNC_COMPLETION_CALLBACK, PWINBIO_ASYNC_COMPLETION_CALLBACK function, PWINBIO_ASYNC_COMPLETION_CALLBACK function pointer [Windows Biometric Framework API], secbiomet.pwinbio_async_completion_callback, winbio/PWINBIO_ASYNC_COMPLETION_CALLBACK
 ms.prod: windows
 ms.technology: windows-sdk

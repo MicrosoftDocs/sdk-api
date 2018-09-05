@@ -4,10 +4,10 @@ title: ICertRequest2::GetCAProperty
 author: windows-sdk-content
 description: Retrieves a property value for the certification authority (CA).
 old-location: security\icertrequest2_getcaproperty.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 093d657d-2d9c-4973-a71b-5b134cc35034
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CCertRequest object [Security],GetCAProperty method, CV_OUT_BASE64, CV_OUT_BASE64HEADER, CV_OUT_BASE64REQUESTHEADER, CV_OUT_BASE64X509CRLHEADER, CV_OUT_BINARY, CV_OUT_HEX, CV_OUT_HEXADDR, CV_OUT_HEXASCII, CV_OUT_HEXASCIIADDR, GetCAProperty, GetCAProperty method [Security], GetCAProperty method [Security],CCertRequest object, GetCAProperty method [Security],ICertRequest interface, GetCAProperty method [Security],ICertRequest2 interface, ICertRequest interface [Security],GetCAProperty method, ICertRequest2 interface [Security],GetCAProperty method, ICertRequest2.GetCAProperty, ICertRequest2::GetCAProperty, ICertRequest::GetCAProperty, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, _certsrv_icertrequest2_getcaproperty, certcli/ICertRequest2::GetCAProperty, certcli/ICertRequest::GetCAProperty, security.icertrequest2_getcaproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.irql:
 ## -description
 
 
-The <b>GetCAProperty</b> method retrieves a property value for the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> (CA). This method's functionality is identical to <a href="https://msdn.microsoft.com/en-us/library/Aa383238(v=VS.85).aspx">ICertAdmin2::GetCAProperty</a>. For information about this method, see <b>ICertAdmin2::GetCAProperty</b>.
+The <b>GetCAProperty</b> method retrieves a property value for the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA). This method's functionality is identical to <a href="https://msdn.microsoft.com/8eaa2e36-4358-4abd-a7c2-2c9768766597">ICertAdmin2::GetCAProperty</a>. For information about this method, see <b>ICertAdmin2::GetCAProperty</b>.
 
 
 ## -parameters
@@ -64,13 +64,13 @@ The <b>GetCAProperty</b> method retrieves a property value for the <a href="http
 ### -param strConfig [in]
 
 Represents a valid configuration string for the CA in the form COMPUTERNAME\CANAME, where COMPUTERNAME is the Certificate Services server's network name, and CANAME is the common name of the CA, as entered during Certificate Services setup. For information about the configuration string name, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383268(v=VS.85).aspx">ICertConfig</a>.
+<a href="https://msdn.microsoft.com/92bece6a-73f0-47cf-8142-77e986448824">ICertConfig</a>.
 
 
 ### -param PropId [in]
 
 Specifies the property identifier. For information about this parameter, see the table in 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383238(v=VS.85).aspx">ICertAdmin2::GetCAProperty</a>.
+<a href="https://msdn.microsoft.com/8eaa2e36-4358-4abd-a7c2-2c9768766597">ICertAdmin2::GetCAProperty</a>.
 
 
 ### -param PropIndex [in]
@@ -123,7 +123,7 @@ Binary data
 </dl>
 </td>
 <td width="60%">
-<a href="https://msdn.microsoft.com/en-us/library/ms721629(v=VS.85).aspx">Unicode</a> string data
+<a href="https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb">Unicode</a> string data
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ Binary data
 
 ### -param Flags [in]
 
-The following flags can be used to specify the format of the returned property value; these flags have meaning only for binary data (such as certificates, certificate chains, or <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate revocation lists</a>) and is ignored otherwise.
+The following flags can be used to specify the format of the returned property value; these flags have meaning only for binary data (such as certificates, certificate chains, or <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation lists</a>) and is ignored otherwise.
 
 <table>
 <tr>
@@ -238,7 +238,7 @@ Hexadecimal string with ASCII and address/offset
 
 A pointer to a <b>VARIANT</b> that receives the requested property value.
 
-When you have finished using the <b>VARIANT</b>, free it by calling the <a href="https://msdn.microsoft.com/en-us/library/ms221165(v=VS.85).aspx">VariantClear</a> function.
+When you have finished using the <b>VARIANT</b>, free it by calling the <a href="28741d81-8404-4f85-95d3-5c209ec13835">VariantClear</a> function.
 
 
 ## -returns
@@ -248,7 +248,7 @@ When you have finished using the <b>VARIANT</b>, free it by calling the <a href=
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
 The return value is a <b>Variant</b> that receives the requested property value.
@@ -265,11 +265,11 @@ The return value is a <b>Variant</b> that receives the requested property value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385040(v=VS.85).aspx">ICertRequest</a>
+<a href="https://msdn.microsoft.com/2f371aa6-492e-41ba-8455-66e9d5f5da44">ICertRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385041(v=VS.85).aspx">ICertRequest2</a>
+<a href="https://msdn.microsoft.com/8587a682-27a5-4f26-b4bb-7088e4e5d8d3">ICertRequest2</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: shell\IFileDialogCustomize_AddPushButton.htm
 old-project: shell
 ms.assetid: cd0e4a8f-59c7-4056-8521-abb4c8c08a40
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: AddPushButton, AddPushButton method [Windows Shell], AddPushButton method [Windows Shell],IFileDialogCustomize interface, IFileDialogCustomize interface [Windows Shell],AddPushButton method, IFileDialogCustomize.AddPushButton, IFileDialogCustomize::AddPushButton, shell.IFileDialogCustomize_AddPushButton, shell_IFileDialogCustomize_AddPushButton, shobjidl_core/IFileDialogCustomize::AddPushButton
 ms.prod: windows
 ms.technology: windows-sdk

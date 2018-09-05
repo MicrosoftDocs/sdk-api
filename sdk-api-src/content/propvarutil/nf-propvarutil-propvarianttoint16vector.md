@@ -151,13 +151,17 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 #### Examples
 
-
-```cpp
-// PROPVARIANT propvar;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// PROPVARIANT propvar;
 // Assume the variable propvar is initialized and valid
 SHORT rgShorts[4]; // The application is expecting propvar to hold 4 Int16s in a vector
 ULONG cElems;
-HRESULT hr = PropVariantToInt16Vector(propvar, rgShorts, ARRAYSIZE(rgShorts), &cElems);
+HRESULT hr = PropVariantToInt16Vector(propvar, rgShorts, ARRAYSIZE(rgShorts), &amp;cElems);
 if (SUCCEEDED(hr))
 {
      if (cElems == ARRAYSIZE(rgShorts))
@@ -168,10 +172,10 @@ if (SUCCEEDED(hr))
      {
          // The application got cElems which are stored in the first cElems elements of rgShorts
      }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -180,23 +184,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762298(v=VS.85).aspx">InitPropVariantFromInt16Vector</a>
+<a href="shell.InitPropVariantFromInt16Vector">InitPropVariantFromInt16Vector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776524(v=VS.85).aspx">PropVariantGetInt16Elem</a>
+<a href="shell.PropVariantGetInt16Elem">PropVariantGetInt16Elem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776546(v=VS.85).aspx">PropVariantToInt16</a>
+<a href="shell.PropVariantToInt16">PropVariantToInt16</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776548(v=VS.85).aspx">PropVariantToInt16VectorAlloc</a>
+<a href="shell.PropVariantToInt16VectorAlloc">PropVariantToInt16VectorAlloc</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776605(v=VS.85).aspx">VariantToInt16Array</a>
+<a href="shell.VariantToInt16Array">VariantToInt16Array</a>
  
 
  

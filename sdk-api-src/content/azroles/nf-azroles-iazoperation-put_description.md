@@ -4,10 +4,10 @@ title: IAzOperation::put_Description
 author: windows-sdk-content
 description: The Description property of IAzOperation sets or retrieves a comment that describes the operation.
 old-location: security\iazoperation_description.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 9f39032d-7624-43f8-91a4-6e616e691156
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AzOperation object [Security],Description property, Description property [Security], Description property [Security],AzOperation object, Description property [Security],IAzOperation interface, IAzOperation interface [Security],Description property, IAzOperation.Description, IAzOperation.put_Description, IAzOperation::Description, IAzOperation::get_Description, IAzOperation::put_Description, azroles/IAzOperation::Description, azroles/IAzOperation::get_Description, azroles/IAzOperation::put_Description, put_Description, security.iazoperation_description
 ms.prod: windows
 ms.technology: windows-sdk

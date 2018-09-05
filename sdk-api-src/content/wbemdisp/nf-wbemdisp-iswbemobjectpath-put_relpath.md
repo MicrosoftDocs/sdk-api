@@ -7,7 +7,7 @@ old-location: wmi\swbemobjectpath_relpath.htm
 old-project: WmiSdk
 ms.assetid: 9a4363ae-b6b3-4e8c-a7ca-a9e48c28e19b
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: ISWbemObjectPath interface [Windows Management Instrumentation],Relpath property, ISWbemObjectPath.get_Relpath, ISWbemObjectPath.put_RelPath, ISWbemObjectPath.put_Relpath, ISWbemObjectPath::put_RelPath, Relpath property [Windows Management Instrumentation], Relpath property [Windows Management Instrumentation],ISWbemObjectPath interface, Relpath property [Windows Management Instrumentation],SWbemObjectPath object, SWbemObjectPath object [Windows Management Instrumentation],Relpath property, SWbemObjectPath.Relpath, _hmm_swbemobjectpath.relpath, put_RelPath, wmi.swbemobjectpath_relpath
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch4_ToggleDesktop.htm
 old-project: shell
 ms.assetid: 60199e18-b8da-48a6-b316-e7f07ff44b78
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellDispatch4 object [Windows Shell],ToggleDesktop method, IShellDispatch4.ToggleDesktop, IShellDispatch4::ToggleDesktop, ToggleDesktop, ToggleDesktop method [Windows Shell], ToggleDesktop method [Windows Shell],IShellDispatch4 object, _shell_IShellDispatch4_ToggleDesktop, shell.IShellDispatch4_ToggleDesktop
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,25 +89,33 @@ The following examples show the proper use of <b>ToggleDesktop</b> for JScript, 
 JScript:
                 
 
-
-```javascript
-<script language="JScript">
+<div class="code"><span codelanguage="JScript"><table>
+<tr>
+<th>JScript</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="JScript"&gt;
     function fnIShellDispatch4ToggleDesktopJ()
     {
         var objShell = new ActiveXObject("shell.application");
         
         objShell.ToggleDesktop();
     }
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 VBScript:
 
-
-```vb
-<script language="VBScript">
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="VBScript"&gt;
     function fnIShellDispatch4ToggleDesktopVB()
         dim objShell
         
@@ -115,25 +123,29 @@ VBScript:
             objShell.ToggleDesktop
         set objShell = nothing
     end function
- </script>
-
-```
-
-
+ &lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 Visual Basic:
 
-
-```vb
-Private Sub fnIShellDispatch4ToggleDesktopVB()
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Private Sub fnIShellDispatch4ToggleDesktopVB()
     Dim objShell As Shell
             
     Set objShell = New Shell
         objShell.ToggleDesktop
     Set objShell = Nothing
 End Sub
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

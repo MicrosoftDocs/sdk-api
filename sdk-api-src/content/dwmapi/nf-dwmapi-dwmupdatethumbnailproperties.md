@@ -67,7 +67,7 @@ The handle to the DWM thumbnail to be updated. Null or invalid thumbnails, as we
 
 ### -param ptnProperties [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Aa969502(v=VS.85).aspx">DWM_THUMBNAIL_PROPERTIES</a> structure that contains the new thumbnail properties.
+A pointer to a <a href="https://msdn.microsoft.com/3dc9676d-c540-4fdf-806b-0feda0ba0371">DWM_THUMBNAIL_PROPERTIES</a> structure that contains the new thumbnail properties.
 
 
 ## -returns
@@ -83,16 +83,20 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-Thumbnail relationships created by the <a href="https://msdn.microsoft.com/en-us/library/Aa969521(v=VS.85).aspx">DwmRegisterThumbnail</a> function will not be rendered to the destination window until this function is called. Subsequent calls will update the thumbnail according to the provided properties.
+Thumbnail relationships created by the <a href="https://msdn.microsoft.com/0105b167-9cf0-420d-88a1-2b99cabb4734">DwmRegisterThumbnail</a> function will not be rendered to the destination window until this function is called. Subsequent calls will update the thumbnail according to the provided properties.
 
 
 #### Examples
 
 The following example demonstrates how to register and display the desktop thumbnail.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT UpdateDesktop(HWND hwnd)
 {
 	HRESULT hr = S_OK;
@@ -101,7 +105,7 @@ HRESULT UpdateDesktop(HWND hwnd)
 	SIZE size = {100,100};
 	HTHUMBNAIL thumbnail = NULL;
 
-	hr = DwmRegisterThumbnail(hwnd, FindWindow(_T("Progman"), NULL), &size, &thumbnail);
+	hr = DwmRegisterThumbnail(hwnd, FindWindow(_T("Progman"), NULL), &amp;size, &amp;thumbnail);
 	if (SUCCEEDED(hr))
 	{
 		// The destination rectangle size
@@ -118,17 +122,17 @@ HRESULT UpdateDesktop(HWND hwnd)
 		dskThumbProps.rcDestination = dest;
 
 		// Display the thumbnail
-		hr = DwmUpdateThumbnailProperties(thumbnail,&dskThumbProps);
+		hr = DwmUpdateThumbnailProperties(thumbnail,&amp;dskThumbProps);
 		if (SUCCEEDED(hr))
 		{
 			// ...
 		}
 	}
 	return hr;	
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -137,19 +141,19 @@ HRESULT UpdateDesktop(HWND hwnd)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa969541(v=VS.85).aspx">DWM Thumbnail Overview</a>
+<a href="https://msdn.microsoft.com/6d71fcda-0cf0-463c-8c60-0415109d154f">DWM Thumbnail Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa969540(v=VS.85).aspx">Desktop Window Manager Overview</a>
+<a href="https://msdn.microsoft.com/fb1e0f1e-a6db-4961-bfa5-9c2218f8c950">Desktop Window Manager Overview</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa969520(v=VS.85).aspx">DwmQueryThumbnailSourceSize</a>
+<a href="https://msdn.microsoft.com/279be12c-e993-46e2-aaf8-19747809cb41">DwmQueryThumbnailSourceSize</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa969525(v=VS.85).aspx">DwmUnregisterThumbnail</a>
+<a href="https://msdn.microsoft.com/fd14a133-e027-48dd-ae2e-f85652e76e3c">DwmUnregisterThumbnail</a>
  
 
  

@@ -4,10 +4,10 @@ title: accept function
 author: windows-sdk-content
 description: The accept function permits an incoming connection attempt on a socket.
 old-location: winsock\accept_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: 72246263-4806-4ab2-9b26-89a1782a954b
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "_win32_accept_2, accept, accept function [Winsock], winsock.accept_2, winsock2/accept"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -99,7 +99,7 @@ The integer referred to by <i>addrlen</i> initially contains the amount of space
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -111,7 +111,7 @@ A successful
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAECONNRESET</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAECONNRESET</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -122,7 +122,7 @@ An incoming connection was indicated, but was subsequently terminated by the rem
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -133,7 +133,7 @@ The <i>addrlen</i> parameter is too small or <i>addr</i> is not a valid part of 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINTR</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINTR</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -145,7 +145,7 @@ A blocking Windows Sockets 1.1 call was canceled through
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -158,7 +158,7 @@ The
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -169,7 +169,7 @@ A blocking Windows Sockets 1.1 call is in progress, or the service provider is s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEMFILE</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEMFILE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -181,7 +181,7 @@ The queue is nonempty upon entry to
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -192,7 +192,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOBUFS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOBUFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -203,7 +203,7 @@ No buffer space is available.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -214,7 +214,7 @@ The descriptor is not a socket.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEOPNOTSUPP</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEOPNOTSUPP</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -225,7 +225,7 @@ The referenced socket is not a type that supports connection-oriented service.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEWOULDBLOCK</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEWOULDBLOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -263,15 +263,19 @@ The
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following example demonstrates the use of the <b>accept</b> function.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 
-#include <winsock2.h>
-#include <stdio.h>
-#include <windows.h>
+#include &lt;winsock2.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;windows.h&gt;
 
 // Need to link with Ws2_32.lib
 #pragma comment(lib, "Ws2_32.lib")
@@ -282,7 +286,7 @@ int wmain(void)
     //----------------------
     // Initialize Winsock.
     WSADATA wsaData;
-    int iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
+    int iResult = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
     if (iResult != NO_ERROR) {
         wprintf(L"WSAStartup failed with error: %ld\n", iResult);
         return 1;
@@ -306,7 +310,7 @@ int wmain(void)
     service.sin_port = htons(27015);
 
     if (bind(ListenSocket,
-             (SOCKADDR *) & service, sizeof (service)) == SOCKET_ERROR) {
+             (SOCKADDR *) &amp; service, sizeof (service)) == SOCKET_ERROR) {
         wprintf(L"bind failed with error: %ld\n", WSAGetLastError());
         closesocket(ListenSocket);
         WSACleanup();
@@ -344,10 +348,10 @@ int wmain(void)
     return 0;
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 For another example that uses the  <b>accept</b> function, see <a href="https://msdn.microsoft.com/905cd5bc-44af-4d3f-841a-9e9a2700a785">Getting Started With Winsock</a>.
 
 <h3><a id="Notes_for_ATM"></a><a id="notes_for_atm"></a><a id="NOTES_FOR_ATM"></a>Notes for ATM</h3>

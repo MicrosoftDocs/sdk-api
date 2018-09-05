@@ -4,10 +4,10 @@ title: IWSManEx::SessionFlagUseNoAuthentication
 author: windows-sdk-content
 description: Returns the value of the authentication flag WSManFlagUseNoAuthentication for use in the flags parameter of IWSMan::CreateSession.
 old-location: winrm\iwsmanex_sessionflagusenoauthentication.htm
-old-project: winrm
+old-project: WinRM
 ms.assetid: af3f7512-c1d5-4c4d-b79a-b0bf8b95be6d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWSManEx interface [Windows Remote Management],SessionFlagUseNoAuthentication method, IWSManEx.SessionFlagUseNoAuthentication, IWSManEx::SessionFlagUseNoAuthentication, SessionFlagUseNoAuthentication, SessionFlagUseNoAuthentication method [Windows Remote Management], SessionFlagUseNoAuthentication method [Windows Remote Management],IWSManEx interface, winrm.iwsmanex_sessionflagusenoauthentication, wsmandisp/IWSManEx::SessionFlagUseNoAuthentication
 ms.prod: windows
 ms.technology: windows-sdk

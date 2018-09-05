@@ -7,7 +7,7 @@ old-location: devinst\busnumber_des.htm
 old-project: devinst
 ms.assetid: 3007e271-fe78-404c-ba97-ceb0be334592
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: "*PBUSNUMBER_DES, BUSNUMBER_DES, BUSNUMBER_DES structure [Device and Driver Installation], BusNumber_Des_s, PBUSNUMBER_DES, PBUSNUMBER_DES structure pointer [Device and Driver Installation], cfgmgr32/BUSNUMBER_DES, cfgmgr32/PBUSNUMBER_DES, cfgmgrst_791be216-3ef2-407b-b250-4e09f40356a3.xml, devinst.busnumber_des"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,7 +73,7 @@ Zero.
 
 #### For a resource requirements list:
 
-The number of elements in the <a href="https://msdn.microsoft.com/en-us/library/Ff537831(v=VS.85).aspx">BUSNUMBER_RANGE</a> array that is included in the <a href="https://msdn.microsoft.com/en-us/library/Ff537838(v=VS.85).aspx">BUSNUMBER_RESOURCE</a> structure.
+The number of elements in the <a href="https://msdn.microsoft.com/00b9bcd3-f1fe-4853-a6fb-0ac8b1fffa1b">BUSNUMBER_RANGE</a> array that is included in the <a href="https://msdn.microsoft.com/8dbf5499-8e43-4db9-b0ec-6536f1c6121c">BUSNUMBER_RESOURCE</a> structure.
 
 
 ### -field BUSD_Type
@@ -124,7 +124,7 @@ Zero.
 
 
 
-The BUSNUMBER_DES structure is included as a member of the <a href="https://msdn.microsoft.com/en-us/library/Ff537838(v=VS.85).aspx">BUSNUMBER_RESOURCE</a> structure.
+The BUSNUMBER_DES structure is included as a member of the <a href="https://msdn.microsoft.com/8dbf5499-8e43-4db9-b0ec-6536f1c6121c">BUSNUMBER_RESOURCE</a> structure.
 
 
 
@@ -134,11 +134,11 @@ The BUSNUMBER_DES structure is included as a member of the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff537831(v=VS.85).aspx">BUSNUMBER_RANGE</a>
+<a href="https://msdn.microsoft.com/00b9bcd3-f1fe-4853-a6fb-0ac8b1fffa1b">BUSNUMBER_RANGE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff537838(v=VS.85).aspx">BUSNUMBER_RESOURCE</a>
+<a href="https://msdn.microsoft.com/8dbf5499-8e43-4db9-b0ec-6536f1c6121c">BUSNUMBER_RESOURCE</a>
  
 
  

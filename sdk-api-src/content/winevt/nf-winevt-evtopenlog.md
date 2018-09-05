@@ -4,10 +4,10 @@ title: EvtOpenLog function
 author: windows-sdk-content
 description: Gets a handle to a channel or log file that you can then use to get information about the channel or log file.
 old-location: wes\evtopenlog.htm
-old-project: wes
+old-project: WES
 ms.assetid: 1bf81452-2a62-4999-91b1-f1b42e6db91f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EvtOpenLog, EvtOpenLog function [EventLog], wes.evtopenlog, winevt/EvtOpenLog
 ms.prod: windows
 ms.technology: windows-sdk

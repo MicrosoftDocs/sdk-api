@@ -7,7 +7,7 @@ old-location: setup\msisetinternalui.htm
 old-project: msi
 ms.assetid: 303c2ea9-4c8f-46d3-b587-7c50e2810c28
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: INSTALLUILEVEL_BASIC, INSTALLUILEVEL_DEFAULT, INSTALLUILEVEL_ENDDIALOG, INSTALLUILEVEL_FULL, INSTALLUILEVEL_HIDECANCEL, INSTALLUILEVEL_NOCHANGE, INSTALLUILEVEL_NONE, INSTALLUILEVEL_PROGRESSONLY, INSTALLUILEVEL_REDUCED, INSTALLUILEVEL_SOURCERESONLY, MsiSetInternalUI, MsiSetInternalUI function, _msi_msisetinternalui, msi/MsiSetInternalUI, setup.msisetinternalui
 ms.prod: windows
 ms.technology: windows-sdk
@@ -209,7 +209,7 @@ When Msi.dll is loaded, the user interface level is set to DEFAULT and the user 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369426(v=VS.85).aspx">Interface and Logging Functions</a>
+<a href="installer_function_reference.htm">Interface and Logging Functions</a>
  
 
  

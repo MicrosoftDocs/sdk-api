@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_EjectPC.htm
 old-project: shell
 ms.assetid: 34448D82-187C-40aa-90B4-A4111B33048B
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: EjectPC, EjectPC method [Windows Shell], EjectPC method [Windows Shell],IShellDispatch object, IShellDispatch object [Windows Shell],EjectPC method, IShellDispatch.EjectPC, IShellDispatch::EjectPC, shell.IShellDispatch_EjectPC
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,25 +89,33 @@ The following examples show the use of <b>EjectPC</b> in JScript, VBScript, and 
 JScript:
                 
 
-
-```javascript
-<script language="JScript">
+<div class="code"><span codelanguage="JScript"><table>
+<tr>
+<th>JScript</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="JScript"&gt;
     function fnShellEjectPCJ()
     {
         var objShell = new ActiveXObject("shell.application");
         
         objshell.EjectPC();
     }
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 VBScript:
 
-
-```vb
-<script language="VBScript">
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="VBScript"&gt;
     function fnShellEjectPCVB()
         dim objShell
         
@@ -116,16 +124,20 @@ VBScript:
 
         set objShell = nothing
     end function
- </script>
-
-```
-
-
+ &lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 Visual Basic:
 
-
-```vb
-Private Sub fnShellEjectPCVB()
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Private Sub fnShellEjectPCVB()
     Dim objShell As Shell
     
     Set objShell = New Shell
@@ -133,9 +145,9 @@ Private Sub fnShellEjectPCVB()
 
     Set objShell = Nothing
 End Sub
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

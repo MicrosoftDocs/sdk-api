@@ -4,10 +4,10 @@ title: IWSDServiceProxyEventing::SubscribeToMultipleOperations
 author: windows-sdk-content
 description: Subscribes to a collection of notifications or solicit/response events.
 old-location: ncd\iwsdserviceproxyeventing_subscribetomultipleoperations.htm
-old-project: wsdapi
+old-project: WsdApi
 ms.assetid: 0df5b429-5b6e-4cef-af05-7f615c93aa0f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWSDServiceProxyEventing interface,SubscribeToMultipleOperations method, IWSDServiceProxyEventing.SubscribeToMultipleOperations, IWSDServiceProxyEventing::SubscribeToMultipleOperations, SubscribeToMultipleOperations, SubscribeToMultipleOperations method, SubscribeToMultipleOperations method,IWSDServiceProxyEventing interface, ncd.iwsdserviceproxyeventing_subscribetomultipleoperations, wsdclient/IWSDServiceProxyEventing::SubscribeToMultipleOperations
 ms.prod: windows
 ms.technology: windows-sdk

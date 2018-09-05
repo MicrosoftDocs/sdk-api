@@ -4,10 +4,10 @@ title: SENDER_TSPEC
 author: windows-sdk-content
 description: The SENDER_TSPEC structure contains information for an RSVP sender Tspec.
 old-location: qos\sender_tspec.htm
-old-project: qos
+old-project: QOS
 ms.assetid: d7905687-1af8-4469-b8de-a2445afa90f4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SENDER_TSPEC, SENDER_TSPEC structure [QOS], lpmapi/SENDER_TSPEC, qos.sender_tspec
 ms.prod: windows
 ms.technology: windows-sdk

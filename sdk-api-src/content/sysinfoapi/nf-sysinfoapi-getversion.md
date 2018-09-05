@@ -4,10 +4,10 @@ title: GetVersion function
 author: windows-sdk-content
 description: With the release of Windows 8.1, the behavior of the GetVersion API has changed in the value it will return for the operating system version. The value returned by the GetVersion function now depends on how the application is manifested.
 old-location: base\getversion.htm
-old-project: sysinfo
+old-project: SysInfo
 ms.assetid: 25cb87c6-e4a5-447e-8153-f12638859d00
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: GetVersion, GetVersion function, _win32_getversion, base.getversion, sysinfoapi/GetVersion
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: NdrOleFree function
 author: windows-sdk-content
 description: The NdrOleFree function is a wrapper for the CoTaskMemFree function.
 old-location: rpc\ndrolefree.htm
-old-project: rpc
+old-project: Rpc
 ms.assetid: c4289448-11bb-40d1-ae63-68521b901796
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NdrOleFree, NdrOleFree function [RPC], rpc.ndrolefree, rpcndr/NdrOleFree
 ms.prod: windows
 ms.technology: windows-sdk

@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Stores an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> in an <a href="https://msdn.microsoft.com/en-us/library/Ee420402(v=VS.85).aspx">XMU555</a>.
+Stores an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a> in an <a href="https://msdn.microsoft.com/e3cc449d-4db8-402e-9d92-38ae5022deaf">XMU555</a>.
 
 
 ## -parameters
@@ -84,23 +84,27 @@ None.
 
 The following pseudocode demonstrates the operation of the function.
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
   XMVECTOR N;
   static const XMVECTOR  Max = {31.f, 31.f, 31.f, 1.0f };
 
   N = XMVectorClamp(V, XMVectorZero, Max);
   N = XMVectorRound(N);
 
-  pDestination->x = (int8_t)N.v[0];
-  pDestination->y = (int8_t)N.v[1];
-  pDestination->z = (int8_t)N.v[2];
-  pDestination->w = (int8_t)N.v[3];
-
-```
-
-
+  pDestination-&gt;x = (int8_t)N.v[0];
+  pDestination-&gt;y = (int8_t)N.v[1];
+  pDestination-&gt;z = (int8_t)N.v[2];
+  pDestination-&gt;w = (int8_t)N.v[3];
+</pre>
+</td>
+</tr>
+</table></span></div>
 Note these are not normalized values. To convert to the RGBA 5/5/5/1 format,
     you must scale the input vector by <code>(31.f, 31.f, 31.f, 1.f)</code>. 
     Also, you will probably need to swizzle 

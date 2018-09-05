@@ -7,7 +7,7 @@ old-location: psapi\getprocessmemoryinfo.htm
 old-project: psapi
 ms.assetid: 12990e8d-6097-4502-824e-db6c3f76c715
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetProcessMemoryInfo, GetProcessMemoryInfo function [PSAPI], K32GetProcessMemoryInfo, _win32_getprocessmemoryinfo, base.getprocessmemoryinfo, psapi.getprocessmemoryinfo, psapi/GetProcessMemoryInfo, psapi/K32GetProcessMemoryInfo
 ms.prod: windows
 ms.technology: windows-sdk

@@ -99,7 +99,7 @@ The sizes of any configuration structs passed in pConfigurationStructs parameter
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns an HRESULT success or error code that can include E_NOINTERFACE if an unrecognized feature is specified or Developer Mode is not enabled, or E_INVALIDARG if the configuration of a feature is in correct, the experimental features specified are not compatible, or other errors.
 
@@ -125,9 +125,13 @@ If this function is called again with a different list of features to enable, al
 
 This example shows what an experimental feature definition looks like.
 
-
-```cpp
-// --------------------------------------------------------------------------------------------------------------------------------
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// --------------------------------------------------------------------------------------------------------------------------------
 // Experimental Feature: D3D12ExperimentalShaderModels
 //
 // Use with D3D12EnableExperimentalFeatures to enable experimental shader model support,
@@ -142,10 +146,10 @@ static const UUID D3D12ExperimentalShaderModels = { /* 76f5573e-f13a-40f5-b297-8
     0x40f5,
     { 0xb2, 0x97, 0x81, 0xce, 0x9e, 0x18, 0x93, 0x3f }
 };
-	
-```
-
-
+	</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -154,7 +158,7 @@ static const UUID D3D12ExperimentalShaderModels = { /* 76f5573e-f13a-40f5-b297-8
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770456(v=VS.85).aspx">Core Functions</a>
+<a href="https://msdn.microsoft.com/C0F9A52C-483D-40B2-9E1F-CB92ADDC2856">Core Functions</a>
  
 
  

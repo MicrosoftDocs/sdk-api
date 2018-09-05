@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncItem_GetItemID.htm
 old-project: shell
 ms.assetid: 2add1902-1258-49ed-ad44-35d28d0776c1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetItemID, GetItemID method [Windows Shell], GetItemID method [Windows Shell],ISyncMgrSyncItem interface, ISyncMgrSyncItem interface [Windows Shell],GetItemID method, ISyncMgrSyncItem.GetItemID, ISyncMgrSyncItem::GetItemID, _shell_ISyncMgrSyncItem_GetItemID, shell.ISyncMgrSyncItem_GetItemID, syncmgr/ISyncMgrSyncItem::GetItemID
 ms.prod: windows
 ms.technology: windows-sdk
@@ -99,9 +99,13 @@ In older Sync Manager implementations, this data was retrieved through the <a hr
 
 The following example shows an implementation of this method.
 
-
-```cpp
-STDMETHODIMP CMyDeviceSyncItem::GetItemID(__out LPWSTR *ppszItemID)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CMyDeviceSyncItem::GetItemID(__out LPWSTR *ppszItemID)
 {
     HRESULT hr = S_OK;
     *ppszName = NULL;
@@ -110,7 +114,7 @@ STDMETHODIMP CMyDeviceSyncItem::GetItemID(__out LPWSTR *ppszItemID)
     if (_pszItemID == NULL)
     {
         LPOLESTR pszItemID = NULL;
-        hr = StringFromCLSID(_guidItemID, &_pszItemID);
+        hr = StringFromCLSID(_guidItemID, &amp;_pszItemID);
     }
 
     if (SUCCEEDED(hr))
@@ -121,9 +125,9 @@ STDMETHODIMP CMyDeviceSyncItem::GetItemID(__out LPWSTR *ppszItemID)
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

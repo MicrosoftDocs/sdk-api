@@ -7,7 +7,7 @@ old-location: mscs\cluscryptokeys_additem.htm
 old-project: mscs
 ms.assetid: 4f830e93-fa0a-4dbe-9544-9065cb2b4e8d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: AddItem, AddItem method [Failover Cluster], AddItem method [Failover Cluster],ClusCryptoKeys class, ClusCryptoKeys class [Failover Cluster],AddItem method, ClusCryptoKeys.AddItem, ISClusCryptoKeys.AddItem, ISClusCryptoKeys::AddItem, _wolf_cluscryptokeys.additem, mscs.cluscryptokeys_additem
 ms.prod: windows
 ms.technology: windows-sdk

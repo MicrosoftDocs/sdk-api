@@ -4,10 +4,10 @@ title: FILTER_SPEC
 author: windows-sdk-content
 description: The FILTER_SPEC structure stores information about an RSVP FILTERSPEC.
 old-location: qos\filter_spec.htm
-old-project: qos
+old-project: QOS
 ms.assetid: 72d08944-7ac9-496f-a18b-e6fcddb59c56
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FILTER_SPEC, FILTER_SPEC structure [QOS], SENDER_TEMPLATE, lpmapi/FILTER_SPEC, qos.filter_spec
 ms.prod: windows
 ms.technology: windows-sdk

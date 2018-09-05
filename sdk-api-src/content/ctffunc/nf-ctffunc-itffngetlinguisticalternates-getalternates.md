@@ -61,12 +61,12 @@ Returns a list of alternate strings for a given text range.
 
 ### -param pRange [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms628908(v=VS.85).aspx">ITfRange</a> object that covers the text to return alternates for.
+Pointer to an <a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange</a> object that covers the text to return alternates for.
 
 
 ### -param ppCandidateList [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms538492(v=VS.85).aspx">ITfCandidateList</a> pointer that receives the list object containing alternate strings.
+Pointer to an <a href="https://msdn.microsoft.com/e41ba461-6337-4feb-ba16-3942920ebb9f">ITfCandidateList</a> pointer that receives the list object containing alternate strings.
 
 
 ## -returns
@@ -135,7 +135,7 @@ One or more parameters are invalid.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn495079(v=VS.85).aspx">ITfFnGetLinguisticAlternates</a>
+<a href="https://msdn.microsoft.com/854FB6EC-CEF1-4FB6-AA5F-34B26B46A3CA">ITfFnGetLinguisticAlternates</a>
  
 
  

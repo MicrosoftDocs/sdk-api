@@ -7,7 +7,7 @@ old-location: shell\IShellFolderView_GetDragPoint.htm
 old-project: shell
 ms.assetid: 6ea29e97-41cb-4de7-8320-1d6389cfb6f6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetDragPoint, GetDragPoint method [Windows Shell], GetDragPoint method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],GetDragPoint method, IShellFolderView.GetDragPoint, IShellFolderView::GetDragPoint, _shell_IShellFolderView_GetDragPoint, shell.IShellFolderView_GetDragPoint, shlobj_core/IShellFolderView::GetDragPoint
 ms.prod: windows
 ms.technology: windows-sdk

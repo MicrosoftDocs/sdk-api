@@ -7,7 +7,7 @@ old-location: stream\mf_mediasource_status_info.htm
 old-project: stream
 ms.assetid: 44A1911A-0C36-4A35-84D3-FE4934EF9CBD
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: MF_MEDIASOURCE_STATUS_INFO, MF_MEDIASOURCE_STATUS_INFO enumeration [Streaming Media Devices], MF_MEDIASOURCE_STATUS_INFO_FULLYSUPPORTED, MF_MEDIASOURCE_STATUS_INFO_UNKNOWN, mfidl/MF_MEDIASOURCE_STATUS_INFO, mfidl/MF_MEDIASOURCE_STATUS_INFO_FULLYSUPPORTED, mfidl/MF_MEDIASOURCE_STATUS_INFO_UNKNOWN, stream.mf_mediasource_status_info
 ms.prod: windows
 ms.technology: windows-sdk

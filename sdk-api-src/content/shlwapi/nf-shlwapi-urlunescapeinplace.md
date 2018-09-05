@@ -7,7 +7,7 @@ old-location: shell\UrlUnescapeInPlace.htm
 old-project: shell
 ms.assetid: 315215dc-c074-4abb-8bb2-006eff18b88d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: URL_DONT_UNESCAPE_EXTRA_INFO, UrlUnescapeInPlace, UrlUnescapeInPlace function [Windows Shell], _win32_UrlUnescapeInPlace, shell.UrlUnescapeInPlace, shlwapi/UrlUnescapeInPlace
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -87,14 +87,18 @@ Do not convert the # or ? character, or any characters following them in the str
 <b>UrlUnescapeInPlace</b> is equivalent to the following:
 				
 
-
-```
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>
 UrlUnescape(pszUrl, NULL, NULL, dwFlags | URL_UNESCAPE_INPLACE)
-				
-```
-
-
+				</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

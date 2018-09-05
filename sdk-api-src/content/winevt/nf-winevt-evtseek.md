@@ -4,10 +4,10 @@ title: EvtSeek function
 author: windows-sdk-content
 description: Seeks to a specific event in a query result set.
 old-location: wes\evtseek.htm
-old-project: wes
+old-project: WES
 ms.assetid: 62cf5039-f7c5-4f16-b7e3-dcc8907e6b7c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EvtSeek, EvtSeek function [EventLog], wes.evtseek, winevt/EvtSeek
 ms.prod: windows
 ms.technology: windows-sdk

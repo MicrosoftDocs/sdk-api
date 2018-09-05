@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteTextLayout_SetLocaleName.htm
 old-project: DirectWrite
 ms.assetid: c00d28dc-5338-438f-9046-5ad54e845e9d
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetLocaleName method, IDWriteTextLayout.SetLocaleName, IDWriteTextLayout::SetLocaleName, SetLocaleName, SetLocaleName method [Direct Write], SetLocaleName method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetLocaleName, dwrite/IDWriteTextLayout::SetLocaleName
 ms.prod: windows
 ms.technology: windows-sdk

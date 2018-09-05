@@ -4,10 +4,10 @@ title: protoent
 author: windows-sdk-content
 description: The protoent structure contains the name and protocol numbers that correspond to a given protocol name.
 old-location: winsock\protoent_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: 8fc729dd-5a73-42a1-9c3f-adc68d83d863
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPPROTOENT, *PPROTOENT, PROTOENT, _win32_protoent_2, protoent, protoent structure [Winsock], winsock.protoent_2, winsock/protoent"
 ms.prod: windows
 ms.technology: windows-sdk

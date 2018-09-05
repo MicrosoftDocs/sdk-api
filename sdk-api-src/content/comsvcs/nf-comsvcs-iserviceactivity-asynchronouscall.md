@@ -7,7 +7,7 @@ old-location: cos\iserviceactivity_asynchronouscall.htm
 old-project: cossdk
 ms.assetid: 1d81f2e6-9426-4733-bd1d-0b6ca087cc0a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: AsynchronousCall, AsynchronousCall method [COM+], AsynchronousCall method [COM+],IServiceActivity interface, IServiceActivity interface [COM+],AsynchronousCall method, IServiceActivity.AsynchronousCall, IServiceActivity::AsynchronousCall, _cos_IServiceActivity_AsynchronousCall, comsvcs/IServiceActivity::AsynchronousCall, cos.iserviceactivity_asynchronouscall
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Performs the user-defined work asynchronously.
 
 ### -param pIServiceCall [in]
 
-A pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms684294(v=VS.85).aspx">IServiceCall</a> interface that is used to implement the batch work.
+A pointer to the <a href="https://msdn.microsoft.com/97532e29-3d1a-4a7c-8103-dd7ae2866a70">IServiceCall</a> interface that is used to implement the batch work.
 
 
 ## -returns
@@ -108,7 +108,7 @@ The batch work cannot be added to the asynchronous work queue of the activity.
 
 
 
-The batch work that is run by this method runs in the context and thread apartment of the activity that was created by the call to <a href="https://msdn.microsoft.com/en-us/library/ms679553(v=VS.85).aspx">CoCreateActivity</a>.
+The batch work that is run by this method runs in the context and thread apartment of the activity that was created by the call to <a href="https://msdn.microsoft.com/3009eb4f-e3f3-497b-ba05-5b750d8a40d0">CoCreateActivity</a>.
 
 
 
@@ -119,7 +119,7 @@ The batch work that is run by this method runs in the context and thread apartme
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms678822(v=VS.85).aspx">IServiceActivity</a>
+<a href="https://msdn.microsoft.com/005bf0ec-f5a7-41a3-85b3-07f79f26af27">IServiceActivity</a>
  
 
  

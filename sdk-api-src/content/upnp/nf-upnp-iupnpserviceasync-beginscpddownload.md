@@ -4,10 +4,10 @@ title: IUPnPServiceAsync::BeginSCPDDownload
 author: windows-sdk-content
 description: BeginSCPDDownload method initiates the asynchronous download of an Service Control Protocol Description (SCPD) document.
 old-location: upnp\iupnpserviceasync_beginscpddownload.htm
-old-project: upnp
+old-project: UPnP
 ms.assetid: CA573855-6D86-4C6C-B557-F8E8776BDBD3
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: BeginSCPDDownload, BeginSCPDDownload method [UPnP APIs], BeginSCPDDownload method [UPnP APIs],IUPnPServiceAsync interface, IUPnPServiceAsync interface [UPnP APIs],BeginSCPDDownload method, IUPnPServiceAsync.BeginSCPDDownload, IUPnPServiceAsync::BeginSCPDDownload, upnp.iupnpserviceasync_beginscpddownload, upnp/IUPnPServiceAsync::BeginSCPDDownload
 ms.prod: windows
 ms.technology: windows-sdk

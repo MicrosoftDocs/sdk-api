@@ -7,7 +7,7 @@ old-location: winstation\closedesktop.htm
 old-project: winstation
 ms.assetid: 861e57b2-061c-4598-ad38-6aef7b79ca54
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 08/29/2018
 ms.keywords: CloseDesktop, CloseDesktop function [Windows Stations and Desktops], _win32_closedesktop, base.closedesktop, winstation.closedesktop, winuser/CloseDesktop
 ms.prod: windows
 ms.technology: windows-sdk

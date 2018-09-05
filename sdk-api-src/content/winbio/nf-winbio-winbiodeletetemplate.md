@@ -4,10 +4,10 @@ title: WinBioDeleteTemplate function
 author: windows-sdk-content
 description: Deletes a biometric template from the template store. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbiodeletetemplate.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: aad22c42-d306-42b5-8415-0b561c8bcecf
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: WinBioDeleteTemplate, WinBioDeleteTemplate function [Windows Biometric Framework API], secbiomet.winbiodeletetemplate, winbio/WinBioDeleteTemplate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -168,9 +168,13 @@ The following code example calls <b>WinBioDeleteTemplate</b> to delete a specifi
 <li>Conio.h</li>
 <li>Winbio.h</li>
 </ul>
-
-```cpp
-HRESULT DeleteTemplate(WINBIO_BIOMETRIC_SUBTYPE subFactor)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT DeleteTemplate(WINBIO_BIOMETRIC_SUBTYPE subFactor)
 {
     HRESULT hr = S_OK;
     WINBIO_IDENTITY identity = {0};
@@ -178,7 +182,7 @@ HRESULT DeleteTemplate(WINBIO_BIOMETRIC_SUBTYPE subFactor)
     WINBIO_UNIT_ID unitId = 0;
 
     // Find the identity of the user.
-    hr = GetCurrentUserIdentity( &identity );
+    hr = GetCurrentUserIdentity( &amp;identity );
     if (FAILED(hr))
     {
         wprintf_s(L"\n User identity not found. hr = 0x%x\n", hr);
@@ -194,7 +198,7 @@ HRESULT DeleteTemplate(WINBIO_BIOMETRIC_SUBTYPE subFactor)
             NULL,                       // Array of biometric unit IDs
             0,                          // Count of biometric unit IDs
             NULL,                       // Database ID
-            &sessionHandle              // [out] Session handle
+            &amp;sessionHandle              // [out] Session handle
             );
     if (FAILED(hr))
     {
@@ -205,7 +209,7 @@ HRESULT DeleteTemplate(WINBIO_BIOMETRIC_SUBTYPE subFactor)
     // Locate the sensor.
     //
     wprintf_s(L"\n Swipe your finger on the sensor...\n");
-    hr = WinBioLocateSensor( sessionHandle, &unitId);
+    hr = WinBioLocateSensor( sessionHandle, &amp;unitId);
     if (FAILED(hr))
     {
         wprintf_s(L"\n WinBioLocateSensor failed. hr = 0x%x\n", hr);
@@ -217,7 +221,7 @@ HRESULT DeleteTemplate(WINBIO_BIOMETRIC_SUBTYPE subFactor)
     hr = WinBioDeleteTemplate(
             sessionHandle,
             unitId,
-            &identity,
+            &amp;identity,
             subFactor
             );
     if (FAILED(hr))
@@ -257,14 +261,14 @@ HRESULT GetCurrentUserIdentity(__inout PWINBIO_IDENTITY Identity)
 
     // Zero the input identity and specify the type.
     ZeroMemory( Identity, sizeof(WINBIO_IDENTITY));
-    Identity->Type = WINBIO_ID_TYPE_NULL;
+    Identity-&gt;Type = WINBIO_ID_TYPE_NULL;
 
     // Open the access token associated with the
     // current process
     if (!OpenProcessToken(
             GetCurrentProcess(),            // Process handle
             TOKEN_READ,                     // Read access only
-            &tokenHandle))                  // Access token handle
+            &amp;tokenHandle))                  // Access token handle
     {
         DWORD win32Status = GetLastError();
         wprintf_s(L"Cannot open token handle: %d\n", win32Status);
@@ -273,16 +277,16 @@ HRESULT GetCurrentUserIdentity(__inout PWINBIO_IDENTITY Identity)
     }
 
     // Zero the tokenInfoBuffer structure.
-    ZeroMemory(&tokenInfoBuffer, sizeof(tokenInfoBuffer));
+    ZeroMemory(&amp;tokenInfoBuffer, sizeof(tokenInfoBuffer));
 
     // Retrieve information about the access token. In this case,
     // retrieve a SID.
     if (!GetTokenInformation(
             tokenHandle,                    // Access token handle
             TokenUser,                      // User for the token
-            &tokenInfoBuffer.tokenUser,     // Buffer to fill
+            &amp;tokenInfoBuffer.tokenUser,     // Buffer to fill
             sizeof(tokenInfoBuffer),        // Size of the buffer
-            &bytesReturned))                // Size needed
+            &amp;bytesReturned))                // Size needed
     {
         DWORD win32Status = GetLastError();
         wprintf_s(L"Cannot query token information: %d\n", win32Status);
@@ -294,14 +298,14 @@ HRESULT GetCurrentUserIdentity(__inout PWINBIO_IDENTITY Identity)
     // WINBIO_IDENTITY structure. 
     CopySid(
         SECURITY_MAX_SID_SIZE,
-        Identity->Value.AccountSid.Data,
+        Identity-&gt;Value.AccountSid.Data,
         tokenInfoBuffer.tokenUser.User.Sid
         );
 
     // Specify the size of the SID and assign WINBIO_ID_TYPE_SID
     // to the type member of the WINBIO_IDENTITY structure.
-    Identity->Value.AccountSid.Size = GetLengthSid(tokenInfoBuffer.tokenUser.User.Sid);
-    Identity->Type = WINBIO_ID_TYPE_SID;
+    Identity-&gt;Value.AccountSid.Size = GetLengthSid(tokenInfoBuffer.tokenUser.User.Sid);
+    Identity-&gt;Type = WINBIO_ID_TYPE_SID;
 
 e_Exit:
 
@@ -313,9 +317,9 @@ e_Exit:
     return hr;
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

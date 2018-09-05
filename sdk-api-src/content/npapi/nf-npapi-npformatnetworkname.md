@@ -4,10 +4,10 @@ title: NPFormatNetworkName function
 author: windows-sdk-content
 description: Formats a network name in a provider-specific format for display in a control.
 old-location: security\npformatnetworkname.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: a1d599fb-7b1c-4828-9cd7-bd520513f5be
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: NPFormatNetworkName, NPFormatNetworkName function [Security], WNFMT_ABBREVIATED, WNFMT_INENUM, WNFMT_MULTILINE, _mnp_npformatnetworkname, npapi/NPFormatNetworkName, security.npformatnetworkname
 ms.prod: windows
 ms.technology: windows-sdk

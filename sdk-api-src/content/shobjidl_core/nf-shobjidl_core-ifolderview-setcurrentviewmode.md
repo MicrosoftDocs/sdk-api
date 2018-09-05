@@ -7,7 +7,7 @@ old-location: shell\IFolderView_SetCurrentViewMode.htm
 old-project: shell
 ms.assetid: 7ca42567-7bb9-41e1-8f2a-5f6d0309c636
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: FVM_DETAILS, FVM_ICON, FVM_LIST, FVM_SMALLICON, FVM_THUMBNAIL, FVM_THUMBSTRIP, FVM_TILE, IFolderView interface [Windows Shell],SetCurrentViewMode method, IFolderView.SetCurrentViewMode, IFolderView::SetCurrentViewMode, SetCurrentViewMode, SetCurrentViewMode method [Windows Shell], SetCurrentViewMode method [Windows Shell],IFolderView interface, _shell_IFolderView_SetCurrentViewMode, shell.IFolderView_SetCurrentViewMode, shobjidl_core/IFolderView::SetCurrentViewMode
 ms.prod: windows
 ms.technology: windows-sdk

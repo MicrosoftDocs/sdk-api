@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_device_state_types.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_device_state_types.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: D3D10_DEVICE_STATE_TYPES, D3D10_DEVICE_STATE_TYPES enumeration [Direct3D 10], D3D10_DST_GS, D3D10_DST_GS_CONSTANT_BUFFERS, D3D10_DST_GS_SAMPLERS, D3D10_DST_GS_SHADER_RESOURCES, D3D10_DST_IA_INDEX_BUFFER, D3D10_DST_IA_INPUT_LAYOUT, D3D10_DST_IA_PRIMITIVE_TOPOLOGY, D3D10_DST_IA_VERTEX_BUFFERS, D3D10_DST_OM_BLEND_STATE, D3D10_DST_OM_DEPTH_STENCIL_STATE, D3D10_DST_OM_RENDER_TARGETS, D3D10_DST_PREDICATION, D3D10_DST_PS, D3D10_DST_PS_CONSTANT_BUFFERS, D3D10_DST_PS_SAMPLERS, D3D10_DST_PS_SHADER_RESOURCES, D3D10_DST_RS_RASTERIZER_STATE, D3D10_DST_RS_SCISSOR_RECTS, D3D10_DST_RS_VIEWPORTS, D3D10_DST_SO_BUFFERS, D3D10_DST_VS, D3D10_DST_VS_CONSTANT_BUFFERS, D3D10_DST_VS_SAMPLERS, D3D10_DST_VS_SHADER_RESOURCES, _D3D10_DEVICE_STATE_TYPES, c62471d5-c132-390b-67ea-4e1491105ee0, d3d10effect/D3D10_DEVICE_STATE_TYPES, d3d10effect/D3D10_DST_GS, d3d10effect/D3D10_DST_GS_CONSTANT_BUFFERS, d3d10effect/D3D10_DST_GS_SAMPLERS, d3d10effect/D3D10_DST_GS_SHADER_RESOURCES, d3d10effect/D3D10_DST_IA_INDEX_BUFFER, d3d10effect/D3D10_DST_IA_INPUT_LAYOUT, d3d10effect/D3D10_DST_IA_PRIMITIVE_TOPOLOGY, d3d10effect/D3D10_DST_IA_VERTEX_BUFFERS, d3d10effect/D3D10_DST_OM_BLEND_STATE, d3d10effect/D3D10_DST_OM_DEPTH_STENCIL_STATE, d3d10effect/D3D10_DST_OM_RENDER_TARGETS, d3d10effect/D3D10_DST_PREDICATION, d3d10effect/D3D10_DST_PS, d3d10effect/D3D10_DST_PS_CONSTANT_BUFFERS, d3d10effect/D3D10_DST_PS_SAMPLERS, d3d10effect/D3D10_DST_PS_SHADER_RESOURCES, d3d10effect/D3D10_DST_RS_RASTERIZER_STATE, d3d10effect/D3D10_DST_RS_SCISSOR_RECTS, d3d10effect/D3D10_DST_RS_VIEWPORTS, d3d10effect/D3D10_DST_SO_BUFFERS, d3d10effect/D3D10_DST_VS, d3d10effect/D3D10_DST_VS_CONSTANT_BUFFERS, d3d10effect/D3D10_DST_VS_SAMPLERS, d3d10effect/D3D10_DST_VS_SHADER_RESOURCES, direct3d10.d3d10_device_state_types
 ms.prod: windows
 ms.technology: windows-sdk
@@ -183,7 +183,7 @@ Predication state.
 
 
 
-This enumeration is used by <a href="https://msdn.microsoft.com/en-us/library/Bb205104(v=VS.85).aspx">D3D10StateBlockMaskDisableCapture</a>, <a href="https://msdn.microsoft.com/en-us/library/Bb205106(v=VS.85).aspx">D3D10StateBlockMaskEnableCapture</a>, and <a href="https://msdn.microsoft.com/en-us/library/Bb205107(v=VS.85).aspx">D3D10StateBlockMaskGetSetting</a>.
+This enumeration is used by <a href="https://msdn.microsoft.com/ef68ea4a-5648-426b-8e45-ea801ade13f2">D3D10StateBlockMaskDisableCapture</a>, <a href="https://msdn.microsoft.com/85e4a56d-016b-42e3-9ec8-b279fd4bd95b">D3D10StateBlockMaskEnableCapture</a>, and <a href="https://msdn.microsoft.com/01bf6437-71f5-455a-8028-1df203b33759">D3D10StateBlockMaskGetSetting</a>.
 
 
 
@@ -193,7 +193,7 @@ This enumeration is used by <a href="https://msdn.microsoft.com/en-us/library/Bb
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205150(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/3d1541bf-75d8-459d-a912-4068e9a0a9e4">Core Enumerations</a>
  
 
  

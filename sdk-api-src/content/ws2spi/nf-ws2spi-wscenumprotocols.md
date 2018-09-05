@@ -4,10 +4,10 @@ title: WSCEnumProtocols function
 author: windows-sdk-content
 description: The WSCEnumProtocols function retrieves information about available transport protocols.
 old-location: winsock\wscenumprotocols_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: c2e5332f-3327-4624-96b4-8e321795961d
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: WSCEnumProtocols, WSCEnumProtocols function [Winsock], _win32_wscenumprotocols_2, winsock.wscenumprotocols_2, ws2spi/WSCEnumProtocols
 ms.prod: windows
 ms.technology: windows-sdk
@@ -99,7 +99,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -110,7 +110,7 @@ One of more of the arguments is not in a valid part of the user address space.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -121,7 +121,7 @@ Indicates that one of the specified parameters was invalid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOBUFS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOBUFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -159,17 +159,21 @@ The order in which the
 
 The following example demonstrates the use of the <b>WSCEnumProtocols</b> function to retrieve an array of <a href="https://msdn.microsoft.com/be5f3e81-1442-43c7-9e4e-9eb2b2a05132">WSAPROTOCOL_INFOW</a> structures for protocols installed on the local computer.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE 1
 #endif
 
-#include <winsock2.h>
-#include <ws2tcpip.h>
-#include <ws2spi.h>
-#include <objbase.h>
-#include <stdio.h>
+#include &lt;winsock2.h&gt;
+#include &lt;ws2tcpip.h&gt;
+#include &lt;ws2spi.h&gt;
+#include &lt;objbase.h&gt;
+#include &lt;stdio.h&gt;
 
 // Link with ws2_32.lib and ole32.lib
 #pragma comment (lib, "Ws2_32.lib")
@@ -201,7 +205,7 @@ int wmain()
     WCHAR GuidString[40] = { 0 };
 
     // Initialize Winsock
-    iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
+    iResult = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
     if (iResult != 0) {
         wprintf(L"WSAStartup failed: %d\n", iResult);
         return 1;
@@ -214,7 +218,7 @@ int wmain()
         return 1;
     }
 
-    iNuminfo = WSCEnumProtocols(NULL, lpProtocolInfo, &dwBufferLen, &iErrno);
+    iNuminfo = WSCEnumProtocols(NULL, lpProtocolInfo, &amp;dwBufferLen, &amp;iErrno);
     if (iNuminfo == SOCKET_ERROR) {
         if (iErrno != WSAENOBUFS) {
             wprintf(L"WSCEnumProtocols failed with error: %d\n", iErrno);
@@ -239,7 +243,7 @@ int wmain()
                 return 1;
             }
             iNuminfo =
-                WSCEnumProtocols(NULL, lpProtocolInfo, &dwBufferLen, &iErrno);
+                WSCEnumProtocols(NULL, lpProtocolInfo, &amp;dwBufferLen, &amp;iErrno);
             if (iNuminfo == SOCKET_ERROR) {
                 wprintf(L"WSCEnumProtocols failed with error: %d\n", iErrno);
                 if (lpProtocolInfo) {
@@ -255,7 +259,7 @@ int wmain()
 
     wprintf(L"WSCEnumProtocols succeeded with protocol count = %d\n\n",
             iNuminfo);
-    for (i = 0; i < iNuminfo; i++) {
+    for (i = 0; i &lt; iNuminfo; i++) {
         wprintf(L"Winsock Catalog Provider Entry #%d\n", i);
         wprintf
             (L"----------------------------------------------------------\n");
@@ -269,7 +273,7 @@ int wmain()
 
         iRet =
             StringFromGUID2(lpProtocolInfo[i].ProviderId,
-                            (LPOLESTR) & GuidString, 39);
+                            (LPOLESTR) &amp; GuidString, 39);
         if (iRet == 0)
             wprintf(L"StringFromGUID2 failed\n");
         else
@@ -324,10 +328,10 @@ int wmain()
     return 0;
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

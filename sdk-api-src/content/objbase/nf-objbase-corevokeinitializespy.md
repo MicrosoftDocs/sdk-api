@@ -7,7 +7,7 @@ old-location: com\corevokeinitializespy.htm
 old-project: com
 ms.assetid: 24b0bedd-421a-4215-8edc-9fdce53e3b44
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CoRevokeInitializeSpy, CoRevokeInitializeSpy function [COM], _com_CoRevokeInitializeSpy, com.corevokeinitializespy, objbase/CoRevokeInitializeSpy
 ms.prod: windows
 ms.technology: windows-sdk

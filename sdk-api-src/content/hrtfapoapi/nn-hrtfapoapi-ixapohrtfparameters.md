@@ -7,7 +7,7 @@ old-location: xaudio2\ixapohrtfparameters.htm
 old-project: xaudio2
 ms.assetid: EDA29173-84B5-4D2F-90B0-546EEEC49539
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IXAPOHrtfParameters, IXAPOHrtfParameters interface [XAudio2 Audio Mixing APIs], IXAPOHrtfParameters interface [XAudio2 Audio Mixing APIs],described, hrtfapoapi/IXAPOHrtfParameters, xaudio2.ixapohrtfparameters
 ms.prod: windows
 ms.technology: windows-sdk

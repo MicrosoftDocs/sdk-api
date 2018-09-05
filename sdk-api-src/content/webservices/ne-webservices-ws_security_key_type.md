@@ -7,7 +7,7 @@ old-location: wsw\ws_security_key_type.htm
 old-project: wsw
 ms.assetid: 95915a10-ba8f-41ca-89eb-777c85d2a411
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_SECURITY_KEY_TYPE, WS_SECURITY_KEY_TYPE enumeration [Web Services for Windows], WS_SECURITY_KEY_TYPE_ASYMMETRIC, WS_SECURITY_KEY_TYPE_NONE, WS_SECURITY_KEY_TYPE_SYMMETRIC, webservices/WS_SECURITY_KEY_TYPE, webservices/WS_SECURITY_KEY_TYPE_ASYMMETRIC, webservices/WS_SECURITY_KEY_TYPE_NONE, webservices/WS_SECURITY_KEY_TYPE_SYMMETRIC, wsw.ws_security_key_type
 ms.prod: windows
 ms.technology: windows-sdk

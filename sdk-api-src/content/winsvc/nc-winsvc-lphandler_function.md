@@ -4,10 +4,10 @@ title: LPHANDLER_FUNCTION
 author: windows-sdk-content
 description: An application-defined callback function used with the RegisterServiceCtrlHandler function. A service program can use it as the control handler function of a particular service.
 old-location: base\handler.htm
-old-project: services
+old-project: Services
 ms.assetid: e2d6d3a7-070e-4343-abd7-b4b9f8dd6fbc
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: Handler, Handler callback, Handler callback function, LPHANDLER_FUNCTION, SERVICE_CONTROL_CONTINUE, SERVICE_CONTROL_INTERROGATE, SERVICE_CONTROL_NETBINDADD, SERVICE_CONTROL_NETBINDDISABLE, SERVICE_CONTROL_NETBINDENABLE, SERVICE_CONTROL_NETBINDREMOVE, SERVICE_CONTROL_PARAMCHANGE, SERVICE_CONTROL_PAUSE, SERVICE_CONTROL_SHUTDOWN, SERVICE_CONTROL_STOP, _win32_handler, base.handler, winsvc/Handler
 ms.prod: windows
 ms.technology: windows-sdk
@@ -278,7 +278,7 @@ If the service requires more time to clean up, it should send <b>STOP_PENDING</b
 
 
 
-Services can also use the <a href="https://msdn.microsoft.com/library/ms686016(v=VS.85).aspx">SetConsoleCtrlHandler</a> function to receive shutdown notification. This notification is received when the running applications are shutting down, which occurs before services are shut down.
+Services can also use the <a href="base.setconsolectrlhandler">SetConsoleCtrlHandler</a> function to receive shutdown notification. This notification is received when the running applications are shutting down, which occurs before services are shut down.
 
 
 #### Examples

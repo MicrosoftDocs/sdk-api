@@ -7,7 +7,7 @@ old-location: rdc\irdcgeneratorfiltermaxparameters_sethashwindowsize.htm
 old-project: Rdc
 ms.assetid: b18a5db1-f480-46c4-bac3-b0b2f0da6cfa
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: IRdcGeneratorFilterMaxParameters interface [Remote Differential Compression],SetHashWindowSize method, IRdcGeneratorFilterMaxParameters.SetHashWindowSize, IRdcGeneratorFilterMaxParameters::SetHashWindowSize, SetHashWindowSize, SetHashWindowSize method [Remote Differential Compression], SetHashWindowSize method [Remote Differential Compression],IRdcGeneratorFilterMaxParameters interface, fs.irdcgeneratorfiltermaxparameters_sethashwindowsize, msrdc/IRdcGeneratorFilterMaxParameters::SetHashWindowSize, rdc.irdcgeneratorfiltermaxparameters_sethashwindowsize
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: netmgmt\netaccessadd.htm
 old-project: netmgmt
 ms.assetid: 54b78f1d-53d1-4cb8-99ba-51c3d6e6de0c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: 1, NetAccessAdd, NetAccessAdd function [Network Management], _win32_netaccessadd, lmaccess/NetAccessAdd, netmgmt.netaccessadd
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: setup\getfiles_modulefiles.htm
 old-project: msi
 ms.assetid: e1c8049c-b271-4def-abde-89ea99393574
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetFiles object,ModuleFiles property, GetFiles.ModuleFiles, IMsmGetFiles.get_ModuleFiles, IMsmGetFiles::get_ModuleFiles, ModuleFiles property, ModuleFiles property,GetFiles object, _msi_modulefiles_property, get_ModuleFiles, setup.getfiles_modulefiles
 ms.prod: windows
 ms.technology: windows-sdk

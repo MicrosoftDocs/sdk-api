@@ -7,7 +7,7 @@ old-location: rdc\irdcgeneratorparameters_getgeneratorparameterstype.htm
 old-project: Rdc
 ms.assetid: d9fd60d5-a542-4a00-becd-85c7dafbe105
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: GetGeneratorParametersType, GetGeneratorParametersType method [Remote Differential Compression], GetGeneratorParametersType method [Remote Differential Compression],IRdcGeneratorParameters interface, IRdcGeneratorParameters interface [Remote Differential Compression],GetGeneratorParametersType method, IRdcGeneratorParameters.GetGeneratorParametersType, IRdcGeneratorParameters::GetGeneratorParametersType, fs.irdcgeneratorparameters_getgeneratorparameterstype, msrdc/IRdcGeneratorParameters::GetGeneratorParametersType, rdc.irdcgeneratorparameters_getgeneratorparameterstype
 ms.prod: windows
 ms.technology: windows-sdk

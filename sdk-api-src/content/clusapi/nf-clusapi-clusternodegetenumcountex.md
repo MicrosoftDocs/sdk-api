@@ -7,7 +7,7 @@ old-location: mscs\clusternodegetenumcountex.htm
 old-project: mscs
 ms.assetid: 5C45ED88-9CB4-4C20-97D1-6F02A51048CE
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusterNodeGetEnumCountEx, ClusterNodeGetEnumCountEx function [Failover Cluster], PCLUSAPI_CLUSTER_NODE_GET_ENUM_COUNT_EX, PCLUSAPI_CLUSTER_NODE_GET_ENUM_COUNT_EX function [Failover Cluster], clusapi/ClusterNodeGetEnumCountEx, clusapi/PCLUSAPI_CLUSTER_NODE_GET_ENUM_COUNT_EX, mscs.clusternodegetenumcountex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,7 +80,7 @@ The number of objects that are associated with the enumeration handle.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa371760(v=VS.85).aspx">Node Management Functions</a>
+<a href="https://msdn.microsoft.com/18981eec-42c0-4e31-8e5c-b79d8ff89fc8">Node Management Functions</a>
  
 
  

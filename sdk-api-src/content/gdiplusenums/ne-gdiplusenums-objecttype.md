@@ -127,7 +127,7 @@ Minimum enumeration value. Currently, it is ObjectTypeBrush.
 
 
 
-To determine whether the object type value of an EMF+ record is valid, call <a href="https://msdn.microsoft.com/en-us/library/ms534087(v=VS.85).aspx">ObjectTypeIsValid</a>.
+To determine whether the object type value of an EMF+ record is valid, call <a href="https://msdn.microsoft.com/7cfdbad5-3d32-4383-85da-cfe338f1664e">ObjectTypeIsValid</a>.
 
 
 

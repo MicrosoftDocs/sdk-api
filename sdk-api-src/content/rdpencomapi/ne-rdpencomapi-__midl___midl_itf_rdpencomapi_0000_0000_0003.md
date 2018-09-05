@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_rdpencomapi_0000_0000_0003"
 author: windows-sdk-content
 description: Defines values for the priority used to send packets on the channel.
 old-location: rdp\channel_priority.htm
-old-project: rdp
+old-project: Rdp
 ms.assetid: 8b472714-dcd2-4da9-83cf-64e846417456
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CHANNEL_PRIORITY, CHANNEL_PRIORITY enumeration [RDP], CHANNEL_PRIORITY_HI, CHANNEL_PRIORITY_LO, CHANNEL_PRIORITY_MED, __MIDL___MIDL_itf_rdpencomapi_0000_0000_0003, rdp.channel_priority, rdpencomapi/CHANNEL_PRIORITY, rdpencomapi/CHANNEL_PRIORITY_HI, rdpencomapi/CHANNEL_PRIORITY_LO, rdpencomapi/CHANNEL_PRIORITY_MED
 ms.prod: windows
 ms.technology: windows-sdk

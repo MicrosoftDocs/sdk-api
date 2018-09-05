@@ -7,7 +7,7 @@ old-location: cos\icomobjectevents.htm
 old-project: cossdk
 ms.assetid: 4354fc5b-4d72-4a56-b246-2ae2cf9b5ae1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IComObjectEvents, IComObjectEvents interface [COM+], IComObjectEvents interface [COM+],described, _dtc_IComObjectEvents, comsvcs/IComObjectEvents, cos.icomobjectevents
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,14 +51,14 @@ req.irql:
 ## -description
 
 
-Notifies the subscriber if an instance of a just-in-time (JIT) activated object has been created or freed. The subscriber is notified if <a href="https://msdn.microsoft.com/en-us/library/ms687629(v=VS.85).aspx">IObjectContext::DisableCommit</a>, <a href="https://msdn.microsoft.com/en-us/library/ms681803(v=VS.85).aspx">IObjectContext::EnableCommit</a>, <a href="https://msdn.microsoft.com/en-us/library/ms684201(v=VS.85).aspx">IObjectContext::SetComplete</a> or <a href="https://msdn.microsoft.com/en-us/library/ms686120(v=VS.85).aspx">IObjectContext::SetAbort</a> is called. The events are published to the subscriber using the <a href="https://msdn.microsoft.com/en-us/library/ms679237(v=VS.85).aspx">COM+ Events</a> service, a loosely coupled events system that stores event information from different publishers in an event store in the COM+ catalog.
+Notifies the subscriber if an instance of a just-in-time (JIT) activated object has been created or freed. The subscriber is notified if <a href="https://msdn.microsoft.com/e83d1223-9b8e-4a92-b98d-9d2b6ed34721">IObjectContext::DisableCommit</a>, <a href="https://msdn.microsoft.com/6571aadc-bf5a-48c3-817a-66ce444ef96a">IObjectContext::EnableCommit</a>, <a href="https://msdn.microsoft.com/8ff25b68-fcb3-4e11-9c74-b49b31806796">IObjectContext::SetComplete</a> or <a href="https://msdn.microsoft.com/c254305f-1fc5-417e-b93b-d5e2b36e9e39">IObjectContext::SetAbort</a> is called. The events are published to the subscriber using the <a href="https://msdn.microsoft.com/1e0570ae-9099-465a-9133-72aa7d574932">COM+ Events</a> service, a loosely coupled events system that stores event information from different publishers in an event store in the COM+ catalog.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComObjectEvents</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IComObjectEvents</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IComObjectEvents</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IComObjectEvents</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,25 +71,25 @@ The <b>IComObjectEvents</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms680606(v=VS.85).aspx">OnDisableCommit</a>
+<a href="https://msdn.microsoft.com/413d7216-294c-4e46-b24c-abe1d1a09239">OnDisableCommit</a>
 </td>
 <td align="left" width="63%">
-Generated when the client calls <a href="https://msdn.microsoft.com/en-us/library/ms687629(v=VS.85).aspx">DisableCommit</a> on a context.
+Generated when the client calls <a href="https://msdn.microsoft.com/e83d1223-9b8e-4a92-b98d-9d2b6ed34721">DisableCommit</a> on a context.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms683628(v=VS.85).aspx">OnEnableCommit</a>
+<a href="https://msdn.microsoft.com/88fdf857-1dbd-4a6b-87c6-0d72eeeab9b4">OnEnableCommit</a>
 </td>
 <td align="left" width="63%">
-Generated when the client calls <a href="https://msdn.microsoft.com/en-us/library/ms681803(v=VS.85).aspx">EnableCommit</a> on a context.
+Generated when the client calls <a href="https://msdn.microsoft.com/6571aadc-bf5a-48c3-817a-66ce444ef96a">EnableCommit</a> on a context.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms679174(v=VS.85).aspx">OnObjectActivate</a>
+<a href="https://msdn.microsoft.com/149e3820-0d5b-46ee-9be9-22850115a7c7">OnObjectActivate</a>
 </td>
 <td align="left" width="63%">
 Generated when an object gets an instance of a new JIT-activated object.
@@ -98,19 +98,19 @@ Generated when an object gets an instance of a new JIT-activated object.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms679569(v=VS.85).aspx">OnObjectDeactivate</a>
+<a href="https://msdn.microsoft.com/3284da44-bcc4-49eb-9aa8-40061bf51869">OnObjectDeactivate</a>
 </td>
 <td align="left" width="63%">
-Generated when the JIT-activated object is freed by <a href="https://msdn.microsoft.com/en-us/library/ms684201(v=VS.85).aspx">SetComplete</a> or <a href="https://msdn.microsoft.com/en-us/library/ms686120(v=VS.85).aspx">SetAbort</a>.
+Generated when the JIT-activated object is freed by <a href="https://msdn.microsoft.com/8ff25b68-fcb3-4e11-9c74-b49b31806796">SetComplete</a> or <a href="https://msdn.microsoft.com/c254305f-1fc5-417e-b93b-d5e2b36e9e39">SetAbort</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms680204(v=VS.85).aspx">OnSetComplete</a>
+<a href="https://msdn.microsoft.com/3bda05b7-3306-428c-b920-d87eee0b35d7">OnSetComplete</a>
 </td>
 <td align="left" width="63%">
-Generated when the client calls <a href="https://msdn.microsoft.com/en-us/library/ms684201(v=VS.85).aspx">SetComplete</a> on a context.
+Generated when the client calls <a href="https://msdn.microsoft.com/8ff25b68-fcb3-4e11-9c74-b49b31806796">SetComplete</a> on a context.
 
 </td>
 </tr>
@@ -122,11 +122,11 @@ Generated when the client calls <a href="https://msdn.microsoft.com/en-us/librar
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679237(v=VS.85).aspx">COM+ Events</a>
+<a href="https://msdn.microsoft.com/1e0570ae-9099-465a-9133-72aa7d574932">COM+ Events</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms678896(v=VS.85).aspx">COM+ Instrumentation</a>
+<a href="https://msdn.microsoft.com/07f68734-a382-4fe5-86af-90805f61c68d">COM+ Instrumentation</a>
  
 
  

@@ -90,9 +90,13 @@ Attempting to change a node name that cannot be changed results in a Windows Scr
 
 #### Examples
 
-
-```vb
-' This example renames the Document object's RootNode.
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>' This example renames the Document object's RootNode.
 ' Retrieve the RootNode object.
 Dim var1 As Variant
 Set var1 = objDoc.RootNode
@@ -101,10 +105,10 @@ Set var1 = objDoc.RootNode
 objView.RenameScopeNode "New Console Root", var1
  
 ' Free the Variant when done.
-Set var1 = Nothing
-```
-
-
+Set var1 = Nothing</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

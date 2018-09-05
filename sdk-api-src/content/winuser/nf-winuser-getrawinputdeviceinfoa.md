@@ -7,7 +7,7 @@ old-location: inputdev\getrawinputdeviceinfo.htm
 old-project: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputfunctions\getrawinputdeviceinfo.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetRawInputDeviceInfo, GetRawInputDeviceInfo function [Keyboard and Mouse Input], GetRawInputDeviceInfoA, GetRawInputDeviceInfoW, RIDI_DEVICEINFO, RIDI_DEVICENAME, RIDI_PREPARSEDDATA, _win32_GetRawInputDeviceInfo, _win32_getrawinputdeviceinfo_cpp, inputdev.getrawinputdeviceinfo, winui._win32_getrawinputdeviceinfo, winuser/GetRawInputDeviceInfo, winuser/GetRawInputDeviceInfoA, winuser/GetRawInputDeviceInfoW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ Retrieves information about the raw input device.
 
 Type: <b>HANDLE</b>
 
-A handle to the raw input device. This comes from the <b>hDevice</b> member of <a href="https://msdn.microsoft.com/en-us/library/ms645571(v=VS.85).aspx">RAWINPUTHEADER</a> or from <a href="https://msdn.microsoft.com/en-us/library/ms645598(v=VS.85).aspx">GetRawInputDeviceList</a>. 
+A handle to the raw input device. This comes from the <b>hDevice</b> member of <a href="https://msdn.microsoft.com/abc4226a-679a-4963-af8e-e87670e60126">RAWINPUTHEADER</a> or from <a href="https://msdn.microsoft.com/0283e578-8f6c-4239-b856-99d8812f588b">GetRawInputDeviceList</a>. 
 
 
 ### -param uiCommand [in]
@@ -108,7 +108,7 @@ For this
 </dl>
 </td>
 <td width="60%">
-<i>pData</i> points to an <a href="https://msdn.microsoft.com/en-us/library/ms645581(v=VS.85).aspx">RID_DEVICE_INFO</a> structure.
+<i>pData</i> points to an <a href="https://msdn.microsoft.com/1d44f5b1-2dbb-4a49-b8c0-8f65bb3fa79a">RID_DEVICE_INFO</a> structure.
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ Type: <b>LPVOID</b>
 
 A pointer to a buffer that contains the information specified by 
 					<i>uiCommand</i>. If 
-					<i>uiCommand</i> is <b>RIDI_DEVICEINFO</b>, set the <b>cbSize</b> member of <a href="https://msdn.microsoft.com/en-us/library/ms645581(v=VS.85).aspx">RID_DEVICE_INFO</a> to <code>sizeof(RID_DEVICE_INFO)</code> before calling <b>GetRawInputDeviceInfo</b>. 
+					<i>uiCommand</i> is <b>RIDI_DEVICEINFO</b>, set the <b>cbSize</b> member of <a href="https://msdn.microsoft.com/1d44f5b1-2dbb-4a49-b8c0-8f65bb3fa79a">RID_DEVICE_INFO</a> to <code>sizeof(RID_DEVICE_INFO)</code> before calling <b>GetRawInputDeviceInfo</b>. 
 
 
 ### -param pcbSize [in, out]
@@ -173,15 +173,15 @@ Call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">G
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645571(v=VS.85).aspx">RAWINPUTHEADER</a>
+<a href="https://msdn.microsoft.com/abc4226a-679a-4963-af8e-e87670e60126">RAWINPUTHEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645581(v=VS.85).aspx">RID_DEVICE_INFO</a>
+<a href="https://msdn.microsoft.com/1d44f5b1-2dbb-4a49-b8c0-8f65bb3fa79a">RID_DEVICE_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645536(v=VS.85).aspx">Raw Input</a>
+<a href="https://msdn.microsoft.com/a2afdb80-d68a-4c33-826f-96739d239cd9">Raw Input</a>
 
 
 
@@ -189,7 +189,7 @@ Call <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">G
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645590(v=VS.85).aspx">WM_INPUT</a>
+<a href="https://msdn.microsoft.com/a014d68c-841c-4120-b752-4b3fac60e12d">WM_INPUT</a>
  
 
  

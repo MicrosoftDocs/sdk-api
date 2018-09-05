@@ -4,10 +4,10 @@ title: IWSDiscoveryPublisher::Publish
 author: windows-sdk-content
 description: Announces the presence of a network host by sending a Hello message.
 old-location: ncd\iwsdiscoverypublisher_publish_method.htm
-old-project: wsdapi
+old-project: WsdApi
 ms.assetid: 71c6e4af-128a-4418-9c3b-f64aa734fb50
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWSDiscoveryPublisher interface,Publish method, IWSDiscoveryPublisher.Publish, IWSDiscoveryPublisher::Publish, Publish, Publish method, Publish method,IWSDiscoveryPublisher interface, ncd.iwsdiscoverypublisher_publish_method, wsddisco/IWSDiscoveryPublisher::Publish
 ms.prod: windows
 ms.technology: windows-sdk

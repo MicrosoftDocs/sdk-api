@@ -7,7 +7,7 @@ old-location: shell\IProgressDialog_HasUserCancelled.htm
 old-project: shell
 ms.assetid: bd817850-7776-47cd-b1b3-ccb946660781
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: HasUserCancelled, HasUserCancelled method [Windows Shell], HasUserCancelled method [Windows Shell],IProgressDialog interface, IProgressDialog interface [Windows Shell],HasUserCancelled method, IProgressDialog.HasUserCancelled, IProgressDialog::HasUserCancelled, _win32_IProgressDialog_HasUserCancelled, shell.IProgressDialog_HasUserCancelled, shlobj_core/IProgressDialog::HasUserCancelled
 ms.prod: windows
 ms.technology: windows-sdk

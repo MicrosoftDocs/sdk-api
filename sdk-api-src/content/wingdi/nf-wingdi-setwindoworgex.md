@@ -101,15 +101,19 @@ If the function fails, the return value is zero.
 
 This helps define the mapping from the logical coordinate space (also known as a <i>window</i>) to the device coordinate space (the <i>viewport</i>). <b>SetWindowOrgEx</b> specifies which logical point maps to the device point (0,0). It has the effect of shifting the axes so that the logical point (0,0) no longer refers to the upper-left corner.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 //map the logical point (xWinOrg, yWinOrg) to the device point (0,0) 
 SetWindowOrgEx (hdc, xWinOrg, yWinOrg, NULL)
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 This is related to the <a href="https://msdn.microsoft.com/d3b6326e-9fec-42a1-8d2e-d1ad4fcc79a4">SetViewportOrgEx</a> function. Generally, you will use one function or the other, but not both. Regardless of your use of <b>SetWindowOrgEx</b> and <b>SetViewportOrgEx</b>, the device point (0,0) is always the upper-left corner.
 
 

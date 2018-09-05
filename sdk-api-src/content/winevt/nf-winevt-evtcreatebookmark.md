@@ -4,10 +4,10 @@ title: EvtCreateBookmark function
 author: windows-sdk-content
 description: Creates a bookmark that identifies an event in a channel.
 old-location: wes\evtcreatebookmark.htm
-old-project: wes
+old-project: WES
 ms.assetid: 1020d923-090b-48fc-96c2-394db5cd241e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EvtCreateBookmark, EvtCreateBookmark function [EventLog], wes.evtcreatebookmark, winevt/EvtCreateBookmark
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: setup\setupverifyinffile.htm
 old-project: SetupApi
 ms.assetid: 3e64783f-6ded-498a-a994-ccd3ba217e91
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: SetupVerifyInfFile, SetupVerifyInfFile function [Setup API], SetupVerifyInfFileA, SetupVerifyInfFileW, _setupapi_setupverifyinffile, setup.setupverifyinffile, setupapi/SetupVerifyInfFile, setupapi/SetupVerifyInfFileA, setupapi/SetupVerifyInfFileW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,7 +85,7 @@ A pointer to an <a href="https://msdn.microsoft.com/50ceee47-3a89-4bd7-8508-5a4d
 
 
 
-This function returns WINSETUPAPI BOOL __stdcall.
+This function returns WINSETUPAPI BOOL.
 
 
 

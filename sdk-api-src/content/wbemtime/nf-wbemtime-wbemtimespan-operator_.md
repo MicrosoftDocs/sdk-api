@@ -7,7 +7,7 @@ old-location: wmi\wbemtimespan_comparison_operators_greaterthan.htm
 old-project: WmiSdk
 ms.assetid: 579e0041-0e33-4367-923d-15b59eee4cae
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: "??OWBEMTimeSpan@@QBEHABV0@@Z, WBEMTimeSpan interface [Windows Management Instrumentation],operator> method, WBEMTimeSpan.operator>, WBEMTimeSpan::operator>, operator>, operator> method [Windows Management Instrumentation], operator> method [Windows Management Instrumentation],WBEMTimeSpan interface, wbemtime/WBEMTimeSpan::operator>, wmi.wbemtimespan_comparison_operators_greaterthan"
 ms.prod: windows
 ms.technology: windows-sdk

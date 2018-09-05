@@ -7,7 +7,7 @@ old-location: wsb\iwsbapplicationrestoresupport_ordercomponents.htm
 old-project: wsb
 ms.assetid: 15250479-841d-421e-8780-6dee795f29b5
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IWsbApplicationRestoreSupport interface [Windows Server Backup],OrderComponents method, IWsbApplicationRestoreSupport.OrderComponents, IWsbApplicationRestoreSupport::OrderComponents, OrderComponents, OrderComponents method [Windows Server Backup], OrderComponents method [Windows Server Backup],IWsbApplicationRestoreSupport interface, wsb.iwsbapplicationrestoresupport_ordercomponents, wsbapp/IWsbApplicationRestoreSupport::OrderComponents
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: base\symgetsymprev64.htm
 old-project: debug
 ms.assetid: dbb1353b-5cc1-4986-a2b5-f67be7189ea8
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: SymGetSymPrev, SymGetSymPrev function, SymGetSymPrev64, SymGetSymPrev64 function, _win32_symgetsymprev64, base.symgetsymprev64, dbghelp/SymGetSymPrev, dbghelp/SymGetSymPrev64
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,23 +98,31 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR. <b>SymGetSymPrevW64</b> is defined as follows in DbgHelp.h. 
 
-
-```cpp
-BOOL
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL
 IMAGEAPI
 SymGetSymPrevW64(
     __in HANDLE hProcess,
     __inout PIMAGEHLP_SYMBOLW64 Symbol
-    );
-```
-
-
+    );</pre>
+</td>
+</tr>
+</table></span></div>
 This function supersedes the <b>SymGetSymPrev</b> function. For more information, see 
 <a href="https://msdn.microsoft.com/34ec8cd3-3260-441d-b55f-4ea21c736eb1">Updated Platform Support</a>. <b>SymGetSymPrev</b> is defined as follows in Dbghelp.h. 
 
-
-```cpp
-#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
 #define SymGetSymPrev SymGetSymPrev64
 #define SymGetSymPrevW SymGetSymPrevW64
 #else
@@ -131,10 +139,10 @@ SymGetSymPrevW(
     __in HANDLE hProcess,
     __inout PIMAGEHLP_SYMBOLW Symbol
     );
-#endif
-```
-
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

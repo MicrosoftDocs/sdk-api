@@ -4,10 +4,10 @@ title: SspiZeroAuthIdentity function
 author: windows-sdk-content
 description: Fills the block of memory associated with the specified identity structure with zeros.
 old-location: security\sspizeroauthidentity.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 50b1f24a-c802-4691-a450-316cb31bf44d
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: SspiZeroAuthIdentity, SspiZeroAuthIdentity function [Security], security.sspizeroauthidentity, sspi/SspiZeroAuthIdentity
 ms.prod: windows
 ms.technology: windows-sdk

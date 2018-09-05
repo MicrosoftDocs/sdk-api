@@ -4,10 +4,10 @@ title: sendto function
 author: windows-sdk-content
 description: The sendto function sends data to a specific destination.
 old-location: winsock\sendto_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: a1c89c6b-d11d-4d3e-a664-af2beed0cd09
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "_win32_sendto_2, sendto, sendto function [Winsock], winsock.sendto_2, winsock/sendto"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -108,7 +108,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -120,7 +120,7 @@ A successful
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -131,7 +131,7 @@ The network subsystem has failed.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEACCES</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEACCES</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -143,7 +143,7 @@ The requested address is a broadcast address, but the appropriate flag was not s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -154,7 +154,7 @@ An unknown flag was specified, or MSG_OOB was specified for a socket with SO_OOB
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINTR</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINTR</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -166,7 +166,7 @@ A blocking Windows Sockets 1.1 call was canceled through
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINPROGRESS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINPROGRESS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -177,7 +177,7 @@ A blocking Windows Sockets 1.1 call is in progress, or the service provider is s
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -188,7 +188,7 @@ The <i>buf</i> or <i>to</i> parameters are not part of the user address space, o
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETRESET</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETRESET</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -199,7 +199,7 @@ The connection has been broken due to keep-alive activity detecting a failure wh
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOBUFS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOBUFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -210,7 +210,7 @@ No buffer space is available.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOTCONN</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOTCONN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -221,7 +221,7 @@ The socket is not connected (connection-oriented sockets only).
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -232,7 +232,7 @@ The descriptor is not a socket.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEOPNOTSUPP</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEOPNOTSUPP</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -243,7 +243,7 @@ MSG_OOB was specified, but the socket is not stream-style such as type SOCK_STRE
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAESHUTDOWN</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAESHUTDOWN</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -255,7 +255,7 @@ The socket has been shut down; it is not possible to sendto on a socket after
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEWOULDBLOCK</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEWOULDBLOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -266,7 +266,7 @@ The socket is marked as nonblocking and the requested operation would block.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEMSGSIZE</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEMSGSIZE</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -277,7 +277,7 @@ The socket is message oriented, and the message is larger than the maximum suppo
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEHOSTUNREACH</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEHOSTUNREACH</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -288,7 +288,7 @@ The remote host cannot be reached from this host at this time.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAECONNABORTED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAECONNABORTED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -299,7 +299,7 @@ The virtual circuit was terminated due to a time-out or other failure. The appli
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAECONNRESET</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAECONNRESET</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -310,7 +310,7 @@ The virtual circuit was reset by the remote side executing a hard or abortive cl
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEADDRNOTAVAIL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEADDRNOTAVAIL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -321,7 +321,7 @@ The remote address is not a valid address, for example, ADDR_ANY.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEAFNOSUPPORT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEAFNOSUPPORT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -332,7 +332,7 @@ Addresses in the specified family cannot be used with this socket.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEDESTADDRREQ</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEDESTADDRREQ</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -343,7 +343,7 @@ A destination address is required.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETUNREACH</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENETUNREACH</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -354,7 +354,7 @@ The network cannot be reached from this host at this time.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEHOSTUNREACH</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEHOSTUNREACH</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -365,7 +365,7 @@ A socket operation was attempted to an unreachable host.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAETIMEDOUT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAETIMEDOUT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -386,12 +386,12 @@ The connection has been dropped, because of a network failure or because the sys
 The 
 <b>sendto</b> function is used to write outgoing data on a socket. For message-oriented sockets, care must be taken not to exceed the maximum packet size of the underlying subnets, which can be obtained by using 
 <a href="https://msdn.microsoft.com/25bc511d-7a9f-41c1-8983-1af1e3f8bf2d">getsockopt</a> to retrieve the value of socket option SO_MAX_MSG_SIZE. If the data is too long to pass atomically through the underlying protocol, the error 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEMSGSIZE</a> is returned and no data is transmitted.
+<a href="windows_sockets_error_codes_2.htm">WSAEMSGSIZE</a> is returned and no data is transmitted.
 
 The <i>to</i> parameter can be any valid address in the socket's address family, including a broadcast or any multicast address. To send to a broadcast address, an application must have used 
 <a href="https://msdn.microsoft.com/3a6960c9-0c04-4403-aee1-ce250459dc30">setsockopt</a> with SO_BROADCAST enabled. Otherwise, 
 <b>sendto</b> will fail with the error code 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEACCES</a>. For TCP/IP, an application can send to any multicast address (without becoming a group member).
+<a href="windows_sockets_error_codes_2.htm">WSAEACCES</a>. For TCP/IP, an application can send to any multicast address (without becoming a group member).
 
 <div class="alert"><b>Note</b>  If a socket is opened, a 
 <a href="https://msdn.microsoft.com/3a6960c9-0c04-4403-aee1-ce250459dc30">setsockopt</a> call is made, and then a 
@@ -416,17 +416,21 @@ The
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following example demonstrates the use of the <b>sendto</b> function.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 
 #define WIN32_LEAN_AND_MEAN
 
-#include <winsock2.h>
-#include <Ws2tcpip.h>
-#include <stdio.h>
+#include &lt;winsock2.h&gt;
+#include &lt;Ws2tcpip.h&gt;
+#include &lt;stdio.h&gt;
 
 // Link with ws2_32.lib
 #pragma comment(lib, "Ws2_32.lib")
@@ -447,7 +451,7 @@ int main()
 
     //----------------------
     // Initialize Winsock
-    iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
+    iResult = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
     if (iResult != NO_ERROR) {
         wprintf(L"WSAStartup failed with error: %d\n", iResult);
         return 1;
@@ -473,7 +477,7 @@ int main()
     // Send a datagram to the receiver
     wprintf(L"Sending a datagram to the receiver...\n");
     iResult = sendto(SendSocket,
-                     SendBuf, BufLen, 0, (SOCKADDR *) & RecvAddr, sizeof (RecvAddr));
+                     SendBuf, BufLen, 0, (SOCKADDR *) &amp; RecvAddr, sizeof (RecvAddr));
     if (iResult == SOCKET_ERROR) {
         wprintf(L"sendto failed with error: %d\n", WSAGetLastError());
         closesocket(SendSocket);
@@ -496,10 +500,10 @@ int main()
     return 0;
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="For_Sockets_Using_IP__Version_4_"></a><a id="for_sockets_using_ip__version_4_"></a><a id="FOR_SOCKETS_USING_IP__VERSION_4_"></a>For Sockets Using IP (Version 4)</h3>
 To send a broadcast (on a SOCK_DGRAM only), the address pointed to by the <i>to</i> parameter can be constructed to contain the special IPv4 address INADDR_BROADCAST (defined in Winsock2.h), together with the intended port number. If the address pointed to by the <i>to</i> parameter contains the INADDR_BROADCAST address and intended port, then the broadcast will be sent out on all interfaces to that port. 
 

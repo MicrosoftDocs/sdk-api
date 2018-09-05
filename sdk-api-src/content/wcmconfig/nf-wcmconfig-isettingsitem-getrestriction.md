@@ -4,10 +4,10 @@ title: ISettingsItem::GetRestriction
 author: windows-sdk-content
 description: Gets the information for a given restriction.
 old-location: smi\isettingsitem_getrestriction.htm
-old-project: smi
+old-project: SMI
 ms.assetid: 14bc4956-e8ea-464b-949e-ddc7ae445c1a
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetRestriction, GetRestriction method [SMI], GetRestriction method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetRestriction method, ISettingsItem.GetRestriction, ISettingsItem::GetRestriction, smi.isettingsitem_getrestriction, wcmconfig/ISettingsItem::GetRestriction
 ms.prod: windows
 ms.technology: windows-sdk

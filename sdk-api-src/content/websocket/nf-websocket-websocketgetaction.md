@@ -7,7 +7,7 @@ old-location: websock\websocketgetaction.htm
 old-project: WebSock
 ms.assetid: 566cff2d-15dd-45c6-bc41-550be1f45cfd
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: WebSocketGetAction, WebSocketGetAction function [Websocket Protocol Component API], websock.websocketgetaction, websocket/WebSocketGetAction
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mscs\clusresgrouppreferredownernodes_modified.htm
 old-project: mscs
 ms.assetid: 05a5f903-ea0d-4058-9806-3d9a9ef38e15
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusResGroupPreferredOwnerNodes class [Failover Cluster],Modified property, ClusResGroupPreferredOwnerNodes.Modified, ISClusResGroupPreferredOwnerNodes.get_Modified, ISClusResGroupPreferredOwnerNodes::get_Modified, Modified property [Failover Cluster], Modified property [Failover Cluster],ClusResGroupPreferredOwnerNodes class, _wolf_clusresgrouppreferredownernodes.modified, get_Modified, mscs.clusresgrouppreferredownernodes_modified
 ms.prod: windows
 ms.technology: windows-sdk

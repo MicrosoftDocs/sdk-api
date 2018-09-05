@@ -7,7 +7,7 @@ old-location: winsync\ichangeconflict_getdestinationproviderconflictingchange.ht
 old-project: winsync
 ms.assetid: 4624f92a-8455-4490-a256-9cf849626844
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetDestinationProviderConflictingChange, GetDestinationProviderConflictingChange method [Windows Sync], GetDestinationProviderConflictingChange method [Windows Sync],IChangeConflict interface, IChangeConflict interface [Windows Sync],GetDestinationProviderConflictingChange method, IChangeConflict.GetDestinationProviderConflictingChange, IChangeConflict::GetDestinationProviderConflictingChange, winsync.ichangeconflict_getdestinationproviderconflictingchange, winsync/IChangeConflict::GetDestinationProviderConflictingChange
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wcn\iwcndevice_getintegerattribute.htm
 old-project: wcn
 ms.assetid: 95ad3427-c8c9-4ac9-8c8e-c9bedf855a37
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: GetIntegerAttribute, GetIntegerAttribute method [Windows Connect Now], GetIntegerAttribute method [Windows Connect Now],IWCNDevice interface, IWCNDevice interface [Windows Connect Now],GetIntegerAttribute method, IWCNDevice.GetIntegerAttribute, IWCNDevice::GetIntegerAttribute, wcn.iwcndevice_getintegerattribute, wcndevice/IWCNDevice::GetIntegerAttribute
 ms.prod: windows
 ms.technology: windows-sdk

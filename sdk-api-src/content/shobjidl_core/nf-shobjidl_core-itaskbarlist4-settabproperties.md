@@ -7,7 +7,7 @@ old-location: shell\ITaskbarList4_SetTabProperties.htm
 old-project: shell
 ms.assetid: cc3fec4b-7770-44af-9892-239a17dd96b8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ITaskbarList4 interface [Windows Shell],SetTabProperties method, ITaskbarList4.SetTabProperties, ITaskbarList4::SetTabProperties, SetTabProperties, SetTabProperties method [Windows Shell], SetTabProperties method [Windows Shell],ITaskbarList4 interface, _shell_ITaskbarList4_SetTabProperties, shell.ITaskbarList4_SetTabProperties, shobjidl_core/ITaskbarList4::SetTabProperties
 ms.prod: windows
 ms.technology: windows-sdk

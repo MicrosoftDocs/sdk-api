@@ -93,9 +93,6 @@ Non-client scaling for top-level windows is not enabled by default. You must cal
 
 Calling this function enables non-client scaling for top-level windows only. Child windows are unaffected.
 
-This function must be called from WM_NCCREATE during the initialization of a new window. An example call might look like this:
-
-<div class="code"><span codelanguage=""><table>
 This function must be called from WM_NCCREATE during the initialization of a new window. An example call might look like this:<div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -110,8 +107,6 @@ This function must be called from WM_NCCREATE during the initialization of a new
 </td>
 </tr>
 </table></span></div>
-
-
 
 
 

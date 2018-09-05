@@ -73,15 +73,19 @@ Pointer to a <a href="https://msdn.microsoft.com/f08a449c-fed4-400b-a2fc-817bd59
 
 As defined in the header file Amvideo.h, this macro is not correct and will cause a compile error. Replace it with the following:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 #undef RESET_MASKS
-#define RESET_MASKS(x) (ZeroMemory((PVOID)(x)->dwBitMasks, SIZE_MASKS))
-
-```
-
-
+#define RESET_MASKS(x) (ZeroMemory((PVOID)(x)-&gt;dwBitMasks, SIZE_MASKS))
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

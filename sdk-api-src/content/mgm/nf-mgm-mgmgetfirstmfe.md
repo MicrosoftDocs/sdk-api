@@ -4,10 +4,10 @@ title: MgmGetFirstMfe function
 author: windows-sdk-content
 description: The MgmGetFirstMfe function retrieves MFEs starting at the beginning of the MFE list.
 old-location: rras\mgmgetfirstmfe.htm
-old-project: rras
+old-project: RRAS
 ms.assetid: b270efc9-479c-4f70-a29d-1fee269c4f30
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MgmGetFirstMfe, MgmGetFirstMfe function [RAS], _mpr_mgmgetfirstmfe, mgm/MgmGetFirstMfe, rras.mgmgetfirstmfe
 ms.prod: windows
 ms.technology: windows-sdk

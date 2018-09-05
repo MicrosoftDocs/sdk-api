@@ -7,7 +7,7 @@ old-location: stream\facecharacterizationblobheader.htm
 old-project: stream
 ms.assetid: F3BDB935-A8CB-41BA-B912-0B9264FE0B09
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: FaceCharacterizationBlobHeader, FaceCharacterizationBlobHeader structure [Streaming Media Devices], mfapi/FaceCharacterizationBlobHeader, stream.facecharacterizationblobheader, tagFaceCharacterizationBlobHeader
 ms.prod: windows
 ms.technology: windows-sdk

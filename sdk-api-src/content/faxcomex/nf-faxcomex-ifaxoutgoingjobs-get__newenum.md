@@ -52,7 +52,7 @@ req.product: Internet Explorer 5
 ## -description
 
 
-The <b>IFaxOutgoingJobs::get__NewEnum</b> method returns a reference to an enumerator object that you can use to iterate through the <a href="https://msdn.microsoft.com/en-us/library/ms689507(v=VS.85).aspx">IFaxOutgoingJobs</a> collection.
+The <b>IFaxOutgoingJobs::get__NewEnum</b> method returns a reference to an enumerator object that you can use to iterate through the <a href="https://msdn.microsoft.com/0d666ce6-b027-4650-8835-eac445b376a9">IFaxOutgoingJobs</a> collection.
 
 
 ## -parameters
@@ -62,9 +62,9 @@ The <b>IFaxOutgoingJobs::get__NewEnum</b> method returns a reference to an enume
 
 ### -param ppUnk [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>**</b>
+Type: <b><a href="_com_IUnknown">IUnknown</a>**</b>
 
-Receives an indirect pointer to the enumerator object's <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface for this collection.
+Receives an indirect pointer to the enumerator object's <a href="_com_IUnknown">IUnknown</a> interface for this collection.
 
 
 ## -returns
@@ -83,11 +83,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689505(v=VS.85).aspx">FaxOutgoingJobs</a>
+<a href="https://msdn.microsoft.com/cfd8e842-838e-41d7-97c0-e75be908c5a0">FaxOutgoingJobs</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms689507(v=VS.85).aspx">IFaxOutgoingJobs</a>
+<a href="https://msdn.microsoft.com/0d666ce6-b027-4650-8835-eac445b376a9">IFaxOutgoingJobs</a>
  
 
  

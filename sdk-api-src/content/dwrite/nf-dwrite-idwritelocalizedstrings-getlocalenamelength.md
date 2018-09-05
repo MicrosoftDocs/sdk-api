@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteLocalizedStrings_GetLocaleNameLength.htm
 old-project: DirectWrite
 ms.assetid: a175380b-1109-476d-8bd7-9ba0753c125f
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetLocaleNameLength, GetLocaleNameLength method [Direct Write], GetLocaleNameLength method [Direct Write],IDWriteLocalizedStrings interface, IDWriteLocalizedStrings interface [Direct Write],GetLocaleNameLength method, IDWriteLocalizedStrings.GetLocaleNameLength, IDWriteLocalizedStrings::GetLocaleNameLength, directwrite.IDWriteLocalizedStrings_GetLocaleNameLength, dwrite/IDWriteLocalizedStrings::GetLocaleNameLength
 ms.prod: windows
 ms.technology: windows-sdk

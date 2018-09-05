@@ -4,10 +4,10 @@ title: CryptFindLocalizedName function
 author: windows-sdk-content
 description: Finds the localized name for the specified name, such as the localize name of the &#0034;Root&#0034; system store.
 old-location: security\cryptfindlocalizedname.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 8f0006a9-0930-4b71-87ce-e72371095e4c
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CryptFindLocalizedName, CryptFindLocalizedName function [Security], _crypto2_cryptfindlocalizedname, security.cryptfindlocalizedname, wincrypt/CryptFindLocalizedName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -156,7 +156,7 @@ For an example that uses this function, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Data Management Functions</a>
+<a href="cryptography_functions.htm">Data Management Functions</a>
  
 
  

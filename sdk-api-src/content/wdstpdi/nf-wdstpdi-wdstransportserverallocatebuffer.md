@@ -4,10 +4,10 @@ title: WdsTransportServerAllocateBuffer function
 author: windows-sdk-content
 description: Allocates a buffer in memory.
 old-location: wds\wdstransportserverallocatebuffer.htm
-old-project: wds
+old-project: Wds
 ms.assetid: 0e227f46-a6f6-4fed-ac33-6e4e54f8b14d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WdsTransportServerAllocateBuffer, WdsTransportServerAllocateBuffer function [Windows Deployment Services], wds.wdstransportserverallocatebuffer, wdstpdi/WdsTransportServerAllocateBuffer
 ms.prod: windows
 ms.technology: windows-sdk

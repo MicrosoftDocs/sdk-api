@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstorage_getname.htm
 old-project: WMDM
 ms.assetid: 1387a82f-e320-402a-b3c9-2f28550c4caf
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetName, GetName method [windows Media Device Manager], GetName method [windows Media Device Manager],IWMDMStorage interface, IWMDMStorage interface [windows Media Device Manager],GetName method, IWMDMStorage.GetName, IWMDMStorage::GetName, IWMDMStorageGetName, mswmdm/IWMDMStorage::GetName, wmdm.iwmdmstorage_getname
 ms.prod: windows
 ms.technology: windows-sdk

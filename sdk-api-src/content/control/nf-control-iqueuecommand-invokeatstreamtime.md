@@ -65,7 +65,7 @@ The <code>InvokeAtStreamTime</code> method queues a method or property change fo
 
 ### -param pCmd [out]
 
-Address of a variable that receives an <a href="https://msdn.microsoft.com/en-us/library/Dd406762(v=VS.85).aspx">IDeferredCommand</a> interface pointer.
+Address of a variable that receives an <a href="https://msdn.microsoft.com/8161932a-16aa-4700-b91d-b4d8948ad59f">IDeferredCommand</a> interface pointer.
 
 
 ### -param time [in]
@@ -131,40 +131,44 @@ Use the <b>IDispatch::GetIDsOfNames</b> method to retrieve the DISPID for the <i
 
 #### Examples
 
-The following example queues an <a href="https://msdn.microsoft.com/en-us/library/Dd390178(v=VS.85).aspx">IMediaControl::Stop</a> command for 3.0 seconds.
+The following example queues an <a href="https://msdn.microsoft.com/89e48d43-a31f-4912-98ff-36ba2069812d">IMediaControl::Stop</a> command for 3.0 seconds.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 IQueueCommand *pQ = 0;
 IMediaControl *pControl = 0;
 
 // Query for IQueueCommand.
-pGraph->QueryInterface(IID_IQueueCommand, reinterpret_cast<void**>(&pQ));
+pGraph-&gt;QueryInterface(IID_IQueueCommand, reinterpret_cast&lt;void**&gt;(&amp;pQ));
 
 // Query for IMediaControl.
-pGraph->QueryInterface(IID_IMediaControl, reinterpret_cast<void**>(&pControl));
+pGraph-&gt;QueryInterface(IID_IMediaControl, reinterpret_cast&lt;void**&gt;(&amp;pControl));
 
 // Find the DISPID of the IMediaControl::Stop method.
 OLECHAR *szMethod = OLESTR("Stop");
 
 long dispid;
-hr = pControl->GetIDsOfNames(IID_NULL, &szMethod, 1, 0, &dispid);
+hr = pControl-&gt;GetIDsOfNames(IID_NULL, &amp;szMethod, 1, 0, &amp;dispid);
 
 // Invoke the command.
 IDeferredCommand *pCmd = 0;
-hr = pQ->InvokeAtPresentationTime(&pCmd, 3.0,
-    const_cast<GUID*>(&IID_IMediaControl), dispid, DISPATCH_METHOD, 
+hr = pQ-&gt;InvokeAtPresentationTime(&amp;pCmd, 3.0,
+    const_cast&lt;GUID*&gt;(&amp;IID_IMediaControl), dispid, DISPATCH_METHOD, 
     0, 0, 0, 0);
 if (SUCCEEDED(hr))
 {
-    pControl->Run();
-    pCmd->Release();
+    pControl-&gt;Run();
+    pCmd-&gt;Release();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -173,11 +177,11 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd376922(v=VS.85).aspx">IQueueCommand Interface</a>
+<a href="https://msdn.microsoft.com/08efcbec-ce17-44e8-a3c1-4b5b95dcaaa4">IQueueCommand Interface</a>
  
 
  

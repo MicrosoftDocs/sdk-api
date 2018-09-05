@@ -4,10 +4,10 @@ title: RmShutdown function
 author: windows-sdk-content
 description: Initiates the shutdown of applications.
 old-location: rstmgr\rmshutdown.htm
-old-project: rstmgr
+old-project: RstMgr
 ms.assetid: cdbc3bb7-0b3c-4fbc-8023-45a309c65bae
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RmForceShutdown, RmShutdown, RmShutdown function [Restart Mgr], RmShutdownOnlyRegistered, restartmanager/RmShutdown, rstmgr.rmshutdown
 ms.prod: windows
 ms.technology: windows-sdk

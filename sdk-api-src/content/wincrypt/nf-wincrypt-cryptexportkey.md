@@ -4,10 +4,10 @@ title: CryptExportKey function
 author: windows-sdk-content
 description: Exports a cryptographic key or a key pair from a cryptographic service provider (CSP) in a secure manner.
 old-location: security\cryptexportkey.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 8a7c7b46-3bea-4043-b568-6d91d6335737
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CRYPT_BLOB_VER3, CRYPT_DESTROYKEY, CRYPT_OAEP, CRYPT_SSL2_FALLBACK, CRYPT_Y_ONLY, CryptExportKey, CryptExportKey function [Security], OPAQUEKEYBLOB, PLAINTEXTKEYBLOB, PRIVATEKEYBLOB, PUBLICKEYBLOB, SIMPLEBLOB, SYMMETRICWRAPKEYBLOB, _crypto2_cryptexportkey, security.cryptexportkey, wincrypt/CryptExportKey
 ms.prod: windows
 ms.technology: windows-sdk
@@ -424,11 +424,15 @@ The following example shows how to export a cryptographic key or a key pair in a
 <a href="https://msdn.microsoft.com/72f5d30a-efd5-4bf5-8057-cb73e5aa0514">Example C Program: Signing a Hash and Verifying the Hash Signature</a>. For another example that uses this function, see <a href="https://msdn.microsoft.com/a7f2fdd1-9514-4cda-bae2-2f379dd9a27d">Example C Program: Exporting a Session Key</a>.
 				
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
-#include <Wincrypt.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;Wincrypt.h&gt;
 
 BOOL GetExportedKey(
     HCRYPTKEY hKey, 
@@ -450,7 +454,7 @@ BOOL GetExportedKey(
         dwBlobType,
         0,    
         NULL, 
-        &dwBlobLength)) 
+        &amp;dwBlobLength)) 
     {
         printf("Size of the BLOB for the public key determined. \n");
     }
@@ -478,7 +482,7 @@ BOOL GetExportedKey(
         dwBlobType,    
         0,    
         *ppbKeyBlob,    
-        &dwBlobLength))
+        &amp;dwBlobLength))
     {
         printf("Contents have been written to the BLOB. \n");
         *pdwBlobLen = dwBlobLength;
@@ -493,10 +497,10 @@ BOOL GetExportedKey(
     }
 
     return TRUE;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -509,7 +513,7 @@ BOOL GetExportedKey(
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Key Generation and Exchange Functions</a>
+<a href="cryptography_functions.htm">Key Generation and Exchange Functions</a>
  
 
  

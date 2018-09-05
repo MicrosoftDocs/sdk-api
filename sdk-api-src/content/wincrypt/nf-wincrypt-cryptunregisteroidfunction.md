@@ -4,10 +4,10 @@ title: CryptUnregisterOIDFunction function
 author: windows-sdk-content
 description: Removes the registration of a DLL that contains the function to be called for the specified encoding type, function name, and OID.
 old-location: security\cryptunregisteroidfunction.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: c06ffda5-df7c-4e0e-bf4f-8b8c968fcd4c
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CryptUnregisterOIDFunction, CryptUnregisterOIDFunction function [Security], _crypto2_cryptunregisteroidfunction, security.cryptunregisteroidfunction, wincrypt/CryptUnregisterOIDFunction
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,7 +97,7 @@ If the function fails, the return value is zero (<b>FALSE</b>).
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">OID Support Functions</a>
+<a href="cryptography_functions.htm">OID Support Functions</a>
  
 
  

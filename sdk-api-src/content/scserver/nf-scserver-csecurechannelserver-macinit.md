@@ -7,7 +7,7 @@ old-location: wmdm\csecurechannelserver_macinit.htm
 old-project: WMDM
 ms.assetid: 92161bf3-8e2f-4b4a-a09a-98e33637df27
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CSecureChannelServer interface [windows Media Device Manager],MACInit method, CSecureChannelServer.MACInit, CSecureChannelServer::MACInit, CSecureChannelServerMACInit, MACInit, MACInit method [windows Media Device Manager], MACInit method [windows Media Device Manager],CSecureChannelServer interface, scserver/CSecureChannelServer::MACInit, wmdm.csecurechannelserver_macinit
 ms.prod: windows
 ms.technology: windows-sdk
@@ -116,28 +116,32 @@ The <b>MACInit</b> method begins a message authentication code (MAC) session. Th
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 g_pAppSCServer = new CsecureChannelServer();
 if( dwRead )
 {
     // MAC the parameters.
     HMAC hMAC;
     
-    g_pAppSCServer->MACInit(&hMAC);
-    g_pAppSCServer->MACUpdate(hMAC, (BYTE*)(pTmpData), dwRead);
-    g_pAppSCServer->MACUpdate(hMAC, (BYTE*)(pdwSize), sizeof(DWORD));
-    g_pAppSCServer->MACFinal(hMAC, abMac);
+    g_pAppSCServer-&gt;MACInit(&amp;hMAC);
+    g_pAppSCServer-&gt;MACUpdate(hMAC, (BYTE*)(pTmpData), dwRead);
+    g_pAppSCServer-&gt;MACUpdate(hMAC, (BYTE*)(pdwSize), sizeof(DWORD));
+    g_pAppSCServer-&gt;MACFinal(hMAC, abMac);
     
-    g_pAppSCServer->EncryptParam(pTmpData, dwRead);
+    g_pAppSCServer-&gt;EncryptParam(pTmpData, dwRead);
     
     memcpy(pData, pTmpData, dwRead);
     }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

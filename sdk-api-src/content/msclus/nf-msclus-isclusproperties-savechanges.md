@@ -7,7 +7,7 @@ old-location: mscs\clusproperties_savechanges.htm
 old-project: mscs
 ms.assetid: 2792025f-c434-47e0-a5e8-06a992e3a8d2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusProperties collection [Failover Cluster],SaveChanges method, ClusProperties.SaveChanges, ISClusProperties.SaveChanges, ISClusProperties::SaveChanges, SaveChanges, SaveChanges method [Failover Cluster], SaveChanges method [Failover Cluster],ClusProperties collection, _wolf_clusproperties.savechanges, mscs.clusproperties_savechanges
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,7 +90,7 @@ This method does not return a value.
 
 A <a href="https://msdn.microsoft.com/b117b0eb-e188-4514-8e11-9acca1303e8f">ClusProperties</a> collection contains a 
     local copy of property data. Changes to the data do not take effect in the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> until 
+    <a href="c_gly.htm">cluster</a> until 
     <b>ClusProperties.SaveChanges</b> is called.
 
 If the properties are successfully saved, 

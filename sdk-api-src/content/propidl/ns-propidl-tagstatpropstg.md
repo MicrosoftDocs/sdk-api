@@ -4,10 +4,10 @@ title: tagSTATPROPSTG
 author: windows-sdk-content
 description: Contains data about a single property in a property set. This data is the property ID and type tag, and the optional string name that may be associated with the property.
 old-location: stg\statpropstg.htm
-old-project: stg
+old-project: Stg
 ms.assetid: 3b8de6d3-18a3-4c0a-94d1-04bcec05d41a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: STATPROPSTG, STATPROPSTG [Strctd Stg], STATPROPSTG structure [Structured Storage], _stg_statpropstg, propidlbase/STATPROPSTG, stg.statpropstg, tagSTATPROPSTG
 ms.prod: windows
 ms.technology: windows-sdk

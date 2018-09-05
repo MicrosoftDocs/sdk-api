@@ -4,10 +4,10 @@ title: PIBIO_SENSOR_ATTACH_FN
 author: windows-sdk-content
 description: Adds a sensor adapter to the processing pipeline of the biometric unit.
 old-location: secbiomet\sensoradapterattach.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: 91243128-0543-4df9-bde8-74ef5ae46914
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: PIBIO_SENSOR_ATTACH_FN, PIBIO_SENSOR_ATTACH_FN callback, SensorAdapterAttach, SensorAdapterAttach callback function [Windows Biometric Framework API], secbiomet.sensoradapterattach, winbio_adapter/SensorAdapterAttach
 ms.prod: windows
 ms.technology: windows-sdk
@@ -134,9 +134,13 @@ If the <b>SensorContext</b> field is not <b>NULL</b> when this function is calle
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-
-```cpp
-//////////////////////////////////////////////////////////////////////////////////////////
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//////////////////////////////////////////////////////////////////////////////////////////
 //
 // SensorAdapterAttach
 //
@@ -164,7 +168,7 @@ SensorAdapterAttach(
     }
 
     // Validate the current sensor state.
-    if (Pipeline->SensorContext != NULL)
+    if (Pipeline-&gt;SensorContext != NULL)
     {
         hr = WINBIO_E_INVALID_DEVICE_STATE;
         goto cleanup;
@@ -180,8 +184,8 @@ SensorAdapterAttach(
     }
 
     // Create a manual reset event to monitor overlapped I/O.
-    newContext->Overlapped.hEvent = CreateEvent(NULL, TRUE, FALSE, NULL);
-    if (newContext->Overlapped.hEvent == NULL)
+    newContext-&gt;Overlapped.hEvent = CreateEvent(NULL, TRUE, FALSE, NULL);
+    if (newContext-&gt;Overlapped.hEvent == NULL)
     {
         hr = E_OUTOFMEMORY;
         goto cleanup;
@@ -189,31 +193,31 @@ SensorAdapterAttach(
 
     // Initialize any required context fields. This example assumes that your
     // sensor context points to a capture buffer and an attributes buffer.
-    newContext->CaptureBuffer = NULL;
-    newContext->CaptureBufferSize = 0;
+    newContext-&gt;CaptureBuffer = NULL;
+    newContext-&gt;CaptureBufferSize = 0;
 
-    newContext->AttributesBuffer = NULL;
-    newContext->AttributesBufferSize = sizeof (WINBIO_SENSOR_ATTRIBUTES);
+    newContext-&gt;AttributesBuffer = NULL;
+    newContext-&gt;AttributesBufferSize = sizeof (WINBIO_SENSOR_ATTRIBUTES);
 
     // Transfer ownership of the new sensor context structure to the 
     // pipeline.
-    Pipeline->SensorContext = newContext;
+    Pipeline-&gt;SensorContext = newContext;
     newContext = NULL;
 
 cleanup:
 
-    if (FAILED(hr) && newContext != NULL)
+    if (FAILED(hr) &amp;&amp; newContext != NULL)
     {
-        CloseHandle( newContext->Overlapped.hEvent;
+        CloseHandle( newContext-&gt;Overlapped.hEvent;
         _AdapterRelease( newContext );
         newContext = NULL;
     }
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

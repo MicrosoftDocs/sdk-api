@@ -96,21 +96,25 @@ Creates a VT_LPWSTR <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-
 
 The following example, to be included as part of a larger program, demonstrates how to use <b>InitPropVariantFromGUIDAsString</b>.
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>PROPVARIANT propvar;
 
-```cpp
-PROPVARIANT propvar;
-
-HRESULT hr = InitPropVariantFromGUIDAsString(FMTID_DocSummaryInformation, &propvar);
+HRESULT hr = InitPropVariantFromGUIDAsString(FMTID_DocSummaryInformation, &amp;propvar);
 
 if (SUCCEEDED(hr))
 {
     // propvar now is valid and has type VT_LPWSTR.
  
-    PropVariantClear(&propvar);
-}
-```
-
-
+    PropVariantClear(&amp;propvar);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -119,7 +123,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762290(v=VS.85).aspx">InitPropVariantFromCLSID</a>
+<a href="shell.InitPropVariantFromCLSID">InitPropVariantFromCLSID</a>
 
 
 
@@ -131,7 +135,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776559(v=VS.85).aspx">PropVariantToString</a>
+<a href="shell.PropVariantToString">PropVariantToString</a>
  
 
  

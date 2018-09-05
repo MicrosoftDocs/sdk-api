@@ -4,10 +4,10 @@ title: ICertPropertyEnrollmentPolicyServer
 author: windows-sdk-content
 description: Represents an external certificate property that contains information about a certificate enrollment policy (CEP) server and a certificate enrollment server (CES).
 old-location: security\icertpropertyenrollmentpolicyserver.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: 1af7b178-3226-43c3-bfbe-08738f9ef851
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ICertPropertyEnrollmentPolicyServer, ICertPropertyEnrollmentPolicyServer interface [Security], ICertPropertyEnrollmentPolicyServer interface [Security],described, certenroll/ICertPropertyEnrollmentPolicyServer, security.icertpropertyenrollmentpolicyserver
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,14 +61,14 @@ The following list identifies the policy data managed by this interface and whic
 <li>The CES URL</li>
 <li>The CEP ID.</li>
 <li>The request ID string.</li>
-</ul>In addition to the preceding policy information, a CEP web service also queries Active Directory for collections of available certification authorities, certificate templates, and custom object identifiers. These collections can be retrieved by using the <a href="https://msdn.microsoft.com/en-us/library/Ee351692(v=VS.85).aspx">IX509EnrollmentPolicyServer</a> interface.
-<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/en-us/library/Aa374867(v=VS.85).aspx">CERTENROLL_PROPERTYID</a> value is XCN_CERT_CEP_PROP_ID.</div><div> </div>
+</ul>In addition to the preceding policy information, a CEP web service also queries Active Directory for collections of available certification authorities, certificate templates, and custom object identifiers. These collections can be retrieved by using the <a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a> interface.
+<div class="alert"><b>Note</b>  The <a href="https://msdn.microsoft.com/e7ad0ec5-a568-4506-ba54-908e00083c2b">CERTENROLL_PROPERTYID</a> value is XCN_CERT_CEP_PROP_ID.</div><div> </div>
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertPropertyEnrollmentPolicyServer</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Aa375239(v=VS.85).aspx">ICertProperty</a>. <b>ICertPropertyEnrollmentPolicyServer</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertPropertyEnrollmentPolicyServer</b> interface inherits from <a href="https://msdn.microsoft.com/947c2f09-993d-4ced-8b76-66b79d96e3bc">ICertProperty</a>. <b>ICertPropertyEnrollmentPolicyServer</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -81,7 +81,7 @@ The <b>ICertPropertyEnrollmentPolicyServer</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee338626(v=VS.85).aspx">GetAuthentication</a>
+<a href="https://msdn.microsoft.com/56f6e7b8-4ed2-47fe-bc57-e238668c5264">GetAuthentication</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that specifies the type of authentication used by the CEP server to authenticate a client.
@@ -90,7 +90,7 @@ Retrieves a value that specifies the type of authentication used by the CEP serv
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee338628(v=VS.85).aspx">GetEnrollmentServerAuthentication</a>
+<a href="https://msdn.microsoft.com/c46d9bc4-26ee-40c0-a228-804e7c598285">GetEnrollmentServerAuthentication</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that specifies the type of authentication used by the CES to authenticate a client.
@@ -99,7 +99,7 @@ Retrieves a value that specifies the type of authentication used by the CES to a
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee338631(v=VS.85).aspx">GetEnrollmentServerUrl</a>
+<a href="https://msdn.microsoft.com/6d8e7f45-f7ff-48d0-95d8-4d426e122554">GetEnrollmentServerUrl</a>
 </td>
 <td align="left" width="63%">
 Retrieves a string that contains the URL for the certificate enrollment server (CES).
@@ -108,7 +108,7 @@ Retrieves a string that contains the URL for the certificate enrollment server (
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee338633(v=VS.85).aspx">GetPolicyServerId</a>
+<a href="https://msdn.microsoft.com/e0cd9f41-d697-4c27-9aff-a37de62d1bad">GetPolicyServerId</a>
 </td>
 <td align="left" width="63%">
 Retrieves a string that uniquely identifies the CEP server.
@@ -117,7 +117,7 @@ Retrieves a string that uniquely identifies the CEP server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee338635(v=VS.85).aspx">GetPolicyServerUrl</a>
+<a href="https://msdn.microsoft.com/9d7ba049-4566-423d-b750-ff091dce1e2a">GetPolicyServerUrl</a>
 </td>
 <td align="left" width="63%">
 Retrieves a string that contains the URL for the CEP server.
@@ -126,7 +126,7 @@ Retrieves a string that contains the URL for the CEP server.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee338637(v=VS.85).aspx">GetPropertyFlags</a>
+<a href="https://msdn.microsoft.com/80d1af3c-2d1a-4d19-aed6-8cb2d3e52535">GetPropertyFlags</a>
 </td>
 <td align="left" width="63%">
 Retrieves a value that specifies the default policy server URL.
@@ -135,7 +135,7 @@ Retrieves a value that specifies the default policy server URL.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee338639(v=VS.85).aspx">GetRequestIdString</a>
+<a href="https://msdn.microsoft.com/c9855a9d-938f-4579-8447-a931dbba1428">GetRequestIdString</a>
 </td>
 <td align="left" width="63%">
 Retrieves a unique string identifier for the certificate request sent to the certification authority during enrollment.
@@ -144,7 +144,7 @@ Retrieves a unique string identifier for the certificate request sent to the cer
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee338640(v=VS.85).aspx">GetUrlFlags</a>
+<a href="https://msdn.microsoft.com/eafd4290-5eef-432f-908c-0640a4ac667f">GetUrlFlags</a>
 </td>
 <td align="left" width="63%">
 Retrieves a set of flags that contain miscellaneous policy information about the CEP server.
@@ -153,7 +153,7 @@ Retrieves a set of flags that contain miscellaneous policy information about the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Ee351591(v=VS.85).aspx">Initialize</a>
+<a href="https://msdn.microsoft.com/5d54ffb2-4a81-4d52-80db-b8526a52bb53">Initialize</a>
 </td>
 <td align="left" width="63%">
 Initializes an <b>ICertPropertyEnrollmentPolicyServer</b> object.
@@ -168,11 +168,11 @@ Initializes an <b>ICertPropertyEnrollmentPolicyServer</b> object.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375239(v=VS.85).aspx">ICertProperty</a>
+<a href="https://msdn.microsoft.com/947c2f09-993d-4ced-8b76-66b79d96e3bc">ICertProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351692(v=VS.85).aspx">IX509EnrollmentPolicyServer</a>
+<a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a>
  
 
  

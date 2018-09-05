@@ -4,10 +4,10 @@ title: DavAddConnection function
 author: windows-sdk-content
 description: Creates a secure connection to a WebDAV server or to a remote file or directory on a WebDAV server.
 old-location: webdav\davaddconnection.htm
-old-project: webdav
+old-project: WebDAV
 ms.assetid: d69cba04-503c-4d21-b762-3094c0921e28
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DavAddConnection, DavAddConnection function [WebDAV], davclnt/DavAddConnection, webdav.davaddconnection
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winsync\isyncproviderregistration.htm
 old-project: winsync
 ms.assetid: e7cf0c05-9d07-4630-ae34-9a9dd81492b2
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ISyncProviderRegistration, ISyncProviderRegistration interface [Windows Sync], ISyncProviderRegistration interface [Windows Sync],described, syncregistration/ISyncProviderRegistration, winsync.isyncproviderregistration
 ms.prod: windows
 ms.technology: windows-sdk

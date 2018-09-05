@@ -60,7 +60,17 @@ The <b>wglCopyContext</b> function copies selected groups of rendering states fr
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
+
+TBD
+
+
+### -param arg3
 
 TBD
 

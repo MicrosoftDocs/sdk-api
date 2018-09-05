@@ -4,10 +4,10 @@ title: CVssWriterEx2::IsWriterShuttingDown
 author: windows-sdk-content
 description: Determines whether the writer is shutting down.
 old-location: base\cvsswriterex2_iswritershuttingdown.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 78ea5993-ee86-435b-a225-8cb6e5f1a240
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CVssWriterEx2 interface,IsWriterShuttingDown method, CVssWriterEx2.IsWriterShuttingDown, CVssWriterEx2::IsWriterShuttingDown, IsWriterShuttingDown, IsWriterShuttingDown method, IsWriterShuttingDown method,CVssWriterEx2 interface, base.cvsswriterex2_iswritershuttingdown, vswriter/CVssWriterEx2::IsWriterShuttingDown
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: PIBIO_ENGINE_IDENTIFY_FEATURE_SET_FN
 author: windows-sdk-content
 description: Builds a template from the current feature set and locates a matching template in the database.
 old-location: secbiomet\engineadapteridentifyfeatureset.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: 838f839d-0bb0-4194-b0a2-ad6936d7b0e4
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: EngineAdapterIdentifyFeatureSet, EngineAdapterIdentifyFeatureSet callback function [Windows Biometric Framework API], PIBIO_ENGINE_IDENTIFY_FEATURE_SET_FN, PIBIO_ENGINE_IDENTIFY_FEATURE_SET_FN callback, secbiomet.engineadapteridentifyfeatureset, winbio_adapter/EngineAdapterIdentifyFeatureSet
 ms.prod: windows
 ms.technology: windows-sdk
@@ -177,9 +177,13 @@ The <i>PayloadBlob</i> and <i>HashValue</i> buffers are owned and managed by the
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-
-```cpp
-//////////////////////////////////////////////////////////////////////////////////////////
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//////////////////////////////////////////////////////////////////////////////////////////
 //
 // EngineAdapterIdentifyFeatureSet
 //
@@ -240,11 +244,11 @@ EngineAdapterIdentifyFeatureSet(
 
     // Retrieve the context from the pipeline.
     PWINBIO_ENGINE_CONTEXT context = 
-           (PWINBIO_ENGINE_CONTEXT)Pipeline->EngineContext;
+           (PWINBIO_ENGINE_CONTEXT)Pipeline-&gt;EngineContext;
 
     // Initialize the return values.
     ZeroMemory( Identity, sizeof(WINBIO_IDENTITY));
-    Identity->Type = WINBIO_ID_TYPE_NULL;
+    Identity-&gt;Type = WINBIO_ID_TYPE_NULL;
     *SubFactor          = WINBIO_SUBTYPE_NO_INFORMATION;
     *PayloadBlob        = NULL;
     *PayloadBlobSize    = 0;
@@ -254,7 +258,7 @@ EngineAdapterIdentifyFeatureSet(
 
     // The biometric unit cannot perform verification or identification
     // operations while it is performing an enrollment sequence.
-    if (context->Enrollment.InProgress == TRUE)
+    if (context-&gt;Enrollment.InProgress == TRUE)
     {
         hr = WINBIO_E_ENROLLMENT_IN_PROGRESS;
         goto cleanup;
@@ -267,8 +271,8 @@ EngineAdapterIdentifyFeatureSet(
     // member.
     hr = _AdapterCreateIndexVector(
                 context, 
-                context->FeatureSet,
-                context->FeatureSetSize,
+                context-&gt;FeatureSet,
+                context-&gt;FeatureSetSize,
                 indexVector, 
                 NUMBER_OF_TEMPLATE_BINS, 
                 RejectDetail
@@ -296,7 +300,7 @@ EngineAdapterIdentifyFeatureSet(
 
     // Determine the size of the result set. WbioStorageGetRecordCount is a wrapper
     // function in the Winbio_adapter.h header file.
-    hr = WbioStorageGetRecordCount( Pipeline, &recordCount);
+    hr = WbioStorageGetRecordCount( Pipeline, &amp;recordCount);
     if (FAILED(hr))
     {
         goto cleanup;
@@ -313,9 +317,9 @@ EngineAdapterIdentifyFeatureSet(
     // Iterate through all records in the result set and determine which record
     // matches the current feature set. WbioStorageGetCurrentRecord is a wrapper
     // function in the Winbio_adapter.h header file.
-    for (index = 0; index < recordCount; ++index)
+    for (index = 0; index &lt; recordCount; ++index)
     {
-        hr = WbioStorageGetCurrentRecord( Pipeline, &thisRecord );
+        hr = WbioStorageGetCurrentRecord( Pipeline, &amp;thisRecord );
         if (FAILED(hr))
         {
             goto cleanup;
@@ -331,14 +335,14 @@ EngineAdapterIdentifyFeatureSet(
         // RejectDetail parameter.
         hr = _AdapterCompareTemplateToCurrentFeatureSet( 
                     context, 
-                    context->FeatureSet,
-                    context->FeatureSetSize,
+                    context-&gt;FeatureSet,
+                    context-&gt;FeatureSetSize,
                     thisRecord.TemplateBlob, 
                     thisRecord.TemplateBlobSize,
-                    &match,
+                    &amp;match,
                     RejectDetail 
                     );
-        if (FAILED(hr) && hr != WINBIO_E_NO_MATCH)
+        if (FAILED(hr) &amp;&amp; hr != WINBIO_E_NO_MATCH)
         {
             goto cleanup;
         }
@@ -373,8 +377,8 @@ EngineAdapterIdentifyFeatureSet(
                     context,
                     thisRecord.TemplateBlob, 
                     thisRecord.TemplateBlobSize,
-                    context->HashBuffer,
-                    &context->HashSize
+                    context-&gt;HashBuffer,
+                    &amp;context-&gt;HashSize
                     );
         if (FAILED(hr))
         {
@@ -387,8 +391,8 @@ EngineAdapterIdentifyFeatureSet(
         *SubFactor          = thisRecord.SubFactor;
         *PayloadBlob        = thisRecord.PayloadBlob;
         *PayloadBlobSize    = thisRecord.PayloadBlobSize;
-        *HashValue          = &context->HashBuffer;
-        *HashSize           = context->HashSize;
+        *HashValue          = &amp;context-&gt;HashBuffer;
+        *HashSize           = context-&gt;HashSize;
     }
     else
     {
@@ -403,10 +407,10 @@ cleanup:
     }
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

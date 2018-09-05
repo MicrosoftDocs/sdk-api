@@ -7,7 +7,7 @@ old-location: wcn\iwcnconnectnotify_connectsucceeded.htm
 old-project: wcn
 ms.assetid: 79c8482a-5cb2-44a7-b324-964bfedd3d2f
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: ConnectSucceeded, ConnectSucceeded method [Windows Connect Now], ConnectSucceeded method [Windows Connect Now],IWCNConnectNotify interface, IWCNConnectNotify interface [Windows Connect Now],ConnectSucceeded method, IWCNConnectNotify.ConnectSucceeded, IWCNConnectNotify::ConnectSucceeded, wcn.iwcnconnectnotify_connectsucceeded, wcndevice/IWCNConnectNotify::ConnectSucceeded
 ms.prod: windows
 ms.technology: windows-sdk

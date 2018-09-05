@@ -62,7 +62,7 @@ Contains information about a drag event. The pointer to <b>DRAGLISTINFO</b> is p
 
 ### -field uNotification
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 The notification code that specifies the type of drag event. This member can be one of the following values: 
 
@@ -117,7 +117,7 @@ The user has released the left mouse button, completing a drag operation.
 
 ### -field hWnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the drag list box. 
 

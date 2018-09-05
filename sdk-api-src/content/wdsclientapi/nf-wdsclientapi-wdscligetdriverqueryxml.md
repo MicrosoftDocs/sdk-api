@@ -4,10 +4,10 @@ title: WdsCliGetDriverQueryXml function
 author: windows-sdk-content
 description: This function generates an XML string which can be used to query a WDS server for driver packages using the WdsCliObtainDriverPackagesEx function.
 old-location: wds\wdscligetdriverqueryxml.htm
-old-project: wds
+old-project: Wds
 ms.assetid: 0E5ABBBD-CD8A-4D0B-9D4B-5044278961D8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WdsCliGetDriverQueryXml, WdsCliGetDriverQueryXml function [Windows Deployment Services], wds.wdscligetdriverqueryxml, wdsclientapi/WdsCliGetDriverQueryXml
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mscs\cluster_name.htm
 old-project: mscs
 ms.assetid: 8d42bb44-f4af-49f3-b6c9-055625739557
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Cluster object [Failover Cluster],Name property, Cluster.Name, ISCluster.get_Name, ISCluster.put_Name, ISCluster::get_Name, Name property [Failover Cluster], Name property [Failover Cluster],Cluster object, _wolf_cluster.name, get_Name, mscs.cluster_name
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Retrieves or sets the name of the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+    <a href="c_gly.htm">cluster</a>.
 
 This property is read/write.
 

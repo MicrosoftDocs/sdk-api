@@ -7,7 +7,7 @@ old-location: com\coincrementmtausage.htm
 old-project: com
 ms.assetid: EFE6E66A-96A3-4B51-92DD-1CE84B1F0185
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CoIncrementMTAUsage, CoIncrementMTAUsage function [COM], com.coincrementmtausage, combaseapi/CoIncrementMTAUsage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ Keeps MTA support active when no MTA threads are running.
 
 ### -param pCookie [out]
 
-Address of a <b>PVOID</b> variable that receives the cookie for the <a href="https://msdn.microsoft.com/en-us/library/JJ151606(v=VS.85).aspx">CoDecrementMTAUsage</a> function, or <b>NULL</b> if the call fails.
+Address of a <b>PVOID</b> variable that receives the cookie for the <a href="https://msdn.microsoft.com/66AA2783-7F24-41BB-911B-D452DF54C003">CoDecrementMTAUsage</a> function, or <b>NULL</b> if the call fails.
 
 
 ## -returns
@@ -84,11 +84,11 @@ The <b>CoIncrementMTAUsage</b> function enables clients to create MTA workers an
 
 The <b>CoIncrementMTAUsage</b> function ensures that the system doesn't free resources related to MTA support., even if the MTA thread count goes to 0.
 
-On success, call the <a href="https://msdn.microsoft.com/en-us/library/JJ151606(v=VS.85).aspx">CoDecrementMTAUsage</a> once only. On failure, don't call the <b>CoDecrementMTAUsage</b> function.
+On success, call the <a href="https://msdn.microsoft.com/66AA2783-7F24-41BB-911B-D452DF54C003">CoDecrementMTAUsage</a> once only. On failure, don't call the <b>CoDecrementMTAUsage</b> function.
 
 Don't call <b>CoIncrementMTAUsage</b> during process shutdown or inside dllmain. You can call <b>CoIncrementMTAUsage</b> before the call to start the shutdown process. 
 
-You can call <b>CoIncrementMTAUsage</b> from one thread and <a href="https://msdn.microsoft.com/en-us/library/JJ151606(v=VS.85).aspx">CoDecrementMTAUsage</a> from another as long as a cookie previously returned by <b>CoIncrementMTAUsage</b> is passed to <b>CoDecrementMTAUsage</b>. 
+You can call <b>CoIncrementMTAUsage</b> from one thread and <a href="https://msdn.microsoft.com/66AA2783-7F24-41BB-911B-D452DF54C003">CoDecrementMTAUsage</a> from another as long as a cookie previously returned by <b>CoIncrementMTAUsage</b> is passed to <b>CoDecrementMTAUsage</b>. 
 
 <b>CoIncrementMTAUsage</b> creates the MTA, if the MTA does not already exist. <b>CoIncrementMTAUsage</b> puts the current thread into the MTA, if the current thread is not already in an apartment
 
@@ -108,7 +108,7 @@ You can use <b>CoIncrementMTAUsage</b> when:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/JJ151606(v=VS.85).aspx">CoDecrementMTAUsage</a>
+<a href="https://msdn.microsoft.com/66AA2783-7F24-41BB-911B-D452DF54C003">CoDecrementMTAUsage</a>
  
 
  

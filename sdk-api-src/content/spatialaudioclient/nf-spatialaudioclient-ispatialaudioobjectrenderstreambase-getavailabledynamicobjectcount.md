@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudioobjectrenderstream_getavailabledynamicobjec
 old-project: CoreAudio
 ms.assetid: 5E17B53A-B999-4B08-9DFB-96D55E7F9CF7
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: GetAvailableDynamicObjectCount, GetAvailableDynamicObjectCount method [Core Audio], GetAvailableDynamicObjectCount method [Core Audio],ISpatialAudioObjectRenderStreamBase interface, ISpatialAudioObjectRenderStreamBase interface [Core Audio],GetAvailableDynamicObjectCount method, ISpatialAudioObjectRenderStreamBase.GetAvailableDynamicObjectCount, ISpatialAudioObjectRenderStreamBase::GetAvailableDynamicObjectCount, coreaudio.ispatialaudioobjectrenderstream_getavailabledynamicobjectcount, spatialaudioclient/ISpatialAudioObjectRenderStreamBase::GetAvailableDynamicObjectCount
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: SCardGetCardTypeProviderNameW function
 author: windows-sdk-content
 description: Returns the name of the module (dynamic link library) that contains the provider for a given card name and provider type.
 old-location: security\scardgetcardtypeprovidername.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 5006d1d6-b0f4-431f-8868-d1f4fc0c8124
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: SCARD_PROVIDER_CARD_MODULE, SCARD_PROVIDER_CSP, SCARD_PROVIDER_KSP, SCARD_PROVIDER_PRIMARY, SCardGetCardTypeProviderName, SCardGetCardTypeProviderName function [Security], SCardGetCardTypeProviderNameA, SCardGetCardTypeProviderNameW, _smart_scardgetcardtypeprovidername, security.scardgetcardtypeprovidername, winscard/SCardGetCardTypeProviderName, winscard/SCardGetCardTypeProviderNameA, winscard/SCardGetCardTypeProviderNameW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -179,7 +179,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -203,9 +203,13 @@ Upon successful completion of this function, the value in <i>szProvider</i> can 
 
 The following example shows how to retrieve the provider name for the specified reader context. The example assumes that hContext is a valid handle obtained from a previous call to the <a href="https://msdn.microsoft.com/1cf9b005-b76c-4fc9-b4bd-a1ad8552535f">SCardEstablishContext</a> function.
 
-
-```cpp
-LPTSTR szProvider = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>LPTSTR szProvider = NULL;
 LPTSTR szCardName = _T("WindowsCard");
 DWORD  chProvider = SCARD_AUTOALLOCATE;
 LONG   lReturn = SCARD_S_SUCCESS;
@@ -215,15 +219,15 @@ LONG   lReturn = SCARD_S_SUCCESS;
 lReturn = SCardGetCardTypeProviderName(hContext,
                                        szCardName,
                                        SCARD_PROVIDER_CSP,
-                                       (LPTSTR)&szProvider,
-                                       &chProvider);
+                                       (LPTSTR)&amp;szProvider,
+                                       &amp;chProvider);
 if (SCARD_S_SUCCESS == lReturn)
 {
     BOOL fSts = TRUE;
     HCRYPTPROV hProv = NULL;
   
   // Acquire a Cryptographic operation context.
-    fSts = CryptAcquireContext(&hProv,
+    fSts = CryptAcquireContext(&amp;hProv,
                                NULL,
                                szProvider,
                                PROV_RSA_FULL,
@@ -234,10 +238,10 @@ if (SCARD_S_SUCCESS == lReturn)
     // Free memory allocated by SCardGetCardTypeProviderName.
     lReturn = SCardFreeMemory(hContext, szProvider);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

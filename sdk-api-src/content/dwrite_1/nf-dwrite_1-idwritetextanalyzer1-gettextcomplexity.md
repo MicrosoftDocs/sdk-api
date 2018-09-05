@@ -7,7 +7,7 @@ old-location: directwrite\idwritetextanalyzer1_gettextcomplexity.htm
 old-project: DirectWrite
 ms.assetid: EC9364F7-4A00-4DEE-B51A-F26FBBA5683F
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetTextComplexity, GetTextComplexity method [Direct Write], GetTextComplexity method [Direct Write],IDWriteTextAnalyzer1 interface, IDWriteTextAnalyzer1 interface [Direct Write],GetTextComplexity method, IDWriteTextAnalyzer1.GetTextComplexity, IDWriteTextAnalyzer1::GetTextComplexity, directwrite.idwritetextanalyzer1_gettextcomplexity, dwrite_1/IDWriteTextAnalyzer1::GetTextComplexity
 ms.prod: windows
 ms.technology: windows-sdk

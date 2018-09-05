@@ -4,10 +4,10 @@ title: IVssWMDependency::GetLogicalPath
 author: windows-sdk-content
 description: The GetLogicalPath method retrieves the logical path of a component that the current component depends on in explicit writer-component dependency.
 old-location: base\ivsswmdependency_getlogicalpath.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 642e9266-40b8-4184-b83f-3131886da32b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetLogicalPath, GetLogicalPath method [VSS], GetLogicalPath method [VSS],IVssWMDependency interface, IVssWMDependency interface [VSS],GetLogicalPath method, IVssWMDependency.GetLogicalPath, IVssWMDependency::GetLogicalPath, _win32_ivsswmdependency_getlogicalpath, base.ivsswmdependency_getlogicalpath, vswriter/IVssWMDependency::GetLogicalPath
 ms.prod: windows
 ms.technology: windows-sdk
@@ -158,7 +158,7 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 
-The caller must free the memory used by the returned string by calling <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
+The caller must free the memory used by the returned string by calling <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>.
 
 A dependency does not indicate an order of preference between the component with the documented dependencies and the components it depends on. A dependency merely indicates that the component and the components it depends on must always be backed up or restored together.
 

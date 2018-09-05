@@ -7,7 +7,7 @@ old-location: shell\FolderItems2_InvokeVerbEx.htm
 old-project: shell
 ms.assetid: 2c02985d-8877-4a02-a232-6aeb1716928c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: FolderItems2 object [Windows Shell],InvokeVerbEx method, FolderItems2.InvokeVerbEx, FolderItems2::InvokeVerbEx, InvokeVerbEx, InvokeVerbEx method [Windows Shell], InvokeVerbEx method [Windows Shell],FolderItems2 object, _win32_FolderItems2_InvokeVerbEx, shell.FolderItems2_InvokeVerbEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,9 +87,13 @@ The following example uses <b>InvokeVerbEx</b> to invoke the default verb ("open
 
 JScript:
 
-
-```javascript
-<script language="JScript">
+<div class="code"><span codelanguage="JScript"><table>
+<tr>
+<th>JScript</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="JScript"&gt;
     function fnFolderItems2InvokeVerbExJ()
     {
         var objShell  = new ActiveXObject("shell.application");
@@ -108,16 +112,20 @@ JScript:
             }
         }
     }
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 VBScript:
 
-
-```vb
-<script language="VBScript">
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="VBScript"&gt;
     function fnFolderItems2InvokeVerbExVB()
         dim objShell
         
@@ -141,16 +149,20 @@ VBScript:
         end if
         set objShell = nothing
     end function
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 Visual Basic:
 
-
-```vb
-Private Sub fnFolderItems2InvokeVerbExVB()
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Private Sub fnFolderItems2InvokeVerbExVB()
     Dim objShell      As Shell
     Dim objFolder     As Folder2
     Dim ssfDRIVES     As Long
@@ -170,10 +182,10 @@ Private Sub fnFolderItems2InvokeVerbExVB()
     Set objFolder = Nothing
     Set objShell = Nothing
 End Sub
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

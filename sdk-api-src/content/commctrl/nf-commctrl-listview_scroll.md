@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Scrolls the content of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761151(v=VS.85).aspx">LVM_SCROLL</a> message explicitly. 
+Scrolls the content of a list-view control. You can use this macro or send the <a href="https://msdn.microsoft.com/4bf6b74e-8fea-48ca-a151-8fd649fc50f8">LVM_SCROLL</a> message explicitly. 
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Scrolls the content of a list-view control. You can use this macro or send the <
 
 ### -param hwndLV
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to the list-view control. 
 

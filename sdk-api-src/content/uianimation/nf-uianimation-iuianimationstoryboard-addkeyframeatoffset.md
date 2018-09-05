@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboard_addkeyframeatoffset.htm
 old-project: UIAnimation
 ms.assetid: f598c8a4-4325-49ed-bc18-5d672e089592
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: AddKeyframeAtOffset, AddKeyframeAtOffset method [Windows Animation], AddKeyframeAtOffset method [Windows Animation],IUIAnimationStoryboard interface, IUIAnimationStoryboard interface [Windows Animation],AddKeyframeAtOffset method, IUIAnimationStoryboard.AddKeyframeAtOffset, IUIAnimationStoryboard::AddKeyframeAtOffset, uianimation.iuianimationstoryboard_addkeyframeatoffset, uianimation/IUIAnimationStoryboard::AddKeyframeAtOffset
 ms.prod: windows
 ms.technology: windows-sdk
@@ -95,19 +95,23 @@ A keyframe represents a moment in time within a storyboard and can be used to sp
 
 The following code adds a keyframe at a fixed offset of 0.3 seconds from the keyframe at the start of the storyboard.
 
-
-```cpp
-const UI_ANIMATION_SECONDS offset = 0.3;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>const UI_ANIMATION_SECONDS offset = 0.3;
 
 UI_ANIMATION_KEYFRAME keyframe1;
-hr = pStoryboard->AddKeyframeAtOffset(
+hr = pStoryboard-&gt;AddKeyframeAtOffset(
        UI_ANIMATION_KEYFRAME_STORYBOARD_START,
        offset,
-       &keyframe1
-);
-```
-
-
+       &amp;keyframe1
+);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

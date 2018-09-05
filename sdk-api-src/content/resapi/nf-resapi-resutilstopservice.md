@@ -7,7 +7,7 @@ old-location: mscs\resutilstopservice.htm
 old-project: mscs
 ms.assetid: 22be9285-7db6-43dc-bf41-08187bbefc41
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PRESUTIL_STOP_SERVICE, PRESUTIL_STOP_SERVICE function [Failover Cluster], ResUtilStopService, ResUtilStopService function [Failover Cluster], _wolf_resutilstopservice, mscs.resutilstopservice, resapi/PRESUTIL_STOP_SERVICE, resapi/ResUtilStopService
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Stops a <a href="https://msdn.microsoft.com/en-us/library/Aa372937(v=VS.85).aspx">service</a> identified by a handle. The <b>PRESUTIL_STOP_SERVICE</b> type defines a pointer to this function.
+Stops a <a href="s_gly.htm">service</a> identified by a handle. The <b>PRESUTIL_STOP_SERVICE</b> type defines a pointer to this function.
 
 
 ## -parameters

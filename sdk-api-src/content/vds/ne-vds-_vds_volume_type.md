@@ -4,10 +4,10 @@ title: "_VDS_VOLUME_TYPE"
 author: windows-sdk-content
 description: Defines the set of valid types for a volume object.
 old-location: base\vds_volume_type.htm
-old-project: vds
+old-project: VDS
 ms.assetid: 07a44bbf-0726-4094-9b5f-2d26b0030796
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: VDS_VOLUME_TYPE, VDS_VOLUME_TYPE enumeration [VDS], VDS_VT_MIRROR, VDS_VT_PARITY, VDS_VT_SIMPLE, VDS_VT_SPAN, VDS_VT_STRIPE, VDS_VT_UNKNOWN, _VDS_VOLUME_TYPE, base.vds_volume_type, vds/VDS_VOLUME_TYPE, vds/VDS_VT_MIRROR, vds/VDS_VT_PARITY, vds/VDS_VT_SIMPLE, vds/VDS_VT_SPAN, vds/VDS_VT_STRIPE, vds/VDS_VT_UNKNOWN
 ms.prod: windows
 ms.technology: windows-sdk

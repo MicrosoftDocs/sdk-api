@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteBitmapRenderTarget_GetPixelsPerDip.htm
 old-project: DirectWrite
 ms.assetid: 4bf0488d-cc2e-4a95-8d95-f0bd8e5029d6
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetPixelsPerDip, GetPixelsPerDip method [Direct Write], GetPixelsPerDip method [Direct Write],IDWriteBitmapRenderTarget interface, IDWriteBitmapRenderTarget interface [Direct Write],GetPixelsPerDip method, IDWriteBitmapRenderTarget.GetPixelsPerDip, IDWriteBitmapRenderTarget::GetPixelsPerDip, directwrite.IDWriteBitmapRenderTarget_GetPixelsPerDip, dwrite/IDWriteBitmapRenderTarget::GetPixelsPerDip
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: GetSystemTimes function
 author: windows-sdk-content
 description: Retrieves system timing information. On a multiprocessor system, the values returned are the sum of the designated times across all processors.
 old-location: base\getsystemtimes.htm
-old-project: sysinfo
+old-project: SysInfo
 ms.assetid: 84f674e7-536b-4ae0-b523-6a17cb0a1c17
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: GetSystemTimes, GetSystemTimes function, base.getsystemtimes, processthreadsapi/GetSystemTimes
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectinteriorinputconnector_getinputconnecto
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectinteriorinputconnector\getinputconnector.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GetInputConnector, GetInputConnector method [WPF Bitmap Effects], GetInputConnector method [WPF Bitmap Effects],IMILBitmapEffectInteriorInputConnector interface, IMILBitmapEffectInteriorInputConnector interface [WPF Bitmap Effects],GetInputConnector method, IMILBitmapEffectInteriorInputConnector.GetInputConnector, IMILBitmapEffectInteriorInputConnector::GetInputConnector, _wibe_imilbitmapeffectinteriorinputconnector_getinputconnector, mileffects/IMILBitmapEffectInteriorInputConnector::GetInputConnector, wibe._wibe_imilbitmapeffectinteriorinputconnector_getinputconnector
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-Gets the <a href="https://msdn.microsoft.com/en-us/library/ms735274(v=VS.85).aspx">IMILBitmapEffectInputConnector</a> associated with the interior connector.
+Gets the <a href="https://msdn.microsoft.com/930ffa74-8a38-44c2-8b1c-74c0839d1a5d">IMILBitmapEffectInputConnector</a> associated with the interior connector.
 
 
 ## -parameters
@@ -62,9 +62,9 @@ Gets the <a href="https://msdn.microsoft.com/en-us/library/ms735274(v=VS.85).asp
 
 ### -param pInputConnector [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735274(v=VS.85).aspx">IMILBitmapEffectInputConnector</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/930ffa74-8a38-44c2-8b1c-74c0839d1a5d">IMILBitmapEffectInputConnector</a>**</b>
 
-A pointer that receives a pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms735274(v=VS.85).aspx">IMILBitmapEffectInputConnector</a>.
+A pointer that receives a pointer to the <a href="https://msdn.microsoft.com/930ffa74-8a38-44c2-8b1c-74c0839d1a5d">IMILBitmapEffectInputConnector</a>.
 
 
 ## -returns

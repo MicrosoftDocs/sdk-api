@@ -7,7 +7,7 @@ old-location: setup\setupinstallfileex.htm
 old-project: SetupApi
 ms.assetid: 56013a33-341f-4b6b-a428-ec5aa0981835
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: SP_COPY_DELETESOURCE, SP_COPY_FORCE_IN_USE, SP_COPY_FORCE_NEWER, SP_COPY_FORCE_NOOVERWRITE, SP_COPY_IN_USE_NEEDS_REBOOT, SP_COPY_LANGUAGEAWARE, SP_COPY_NEWER_ONLY, SP_COPY_NEWER_OR_SAME, SP_COPY_NODECOMP, SP_COPY_NOOVERWRITE, SP_COPY_NOSKIP, SP_COPY_REPLACEONLY, SP_COPY_SOURCEPATH_ABSOLUTE, SP_COPY_SOURCE_ABSOLUTE, SP_COPY_WARNIFSKIP, SetupInstallFileEx, SetupInstallFileEx function [Setup API], SetupInstallFileExA, SetupInstallFileExW, _setupapi_setupinstallfileex, setup.setupinstallfileex, setupapi/SetupInstallFileEx, setupapi/SetupInstallFileExA, setupapi/SetupInstallFileExW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -141,7 +141,7 @@ Examine each file being copied to see if its version resources indicate that it 
 
 
 The file version information used during version checks is that specified in the <b>dwFileVersionMS</b> and <b>dwFileVersionLS</b> members of a 
-<a href="https://msdn.microsoft.com/en-us/library/ms646997(v=VS.85).aspx">VS_FIXEDFILEINFO</a> structure, as filled in by the  version functions. If one of the files does not have version resources, or if they have identical version information, the source file is considered newer.
+<a href="_win32_vs_fixedfileinfo_str_cpp">VS_FIXEDFILEINFO</a> structure, as filled in by the  version functions. If one of the files does not have version resources, or if they have identical version information, the source file is considered newer.
 
 If the source file is not newer or equal in version, and <i>CopyMsgHandler</i> is specified, the caller is notified and may cancel the copy. If <i>CopyMsgHandler</i> is not specified, the file is not copied.
 

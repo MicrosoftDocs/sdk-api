@@ -7,7 +7,7 @@ old-location: devinst\cm_get_devnode_property_exw.htm
 old-project: devinst
 ms.assetid: 6766C495-0DAA-41E6-BB62-6FD21718FF8D
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: CM_Get_DevNode_Property_ExW, CM_Get_DevNode_Property_ExW function [Device and Driver Installation], cfgmgr32/CM_Get_DevNode_Property_ExW, devinst.cm_get_devnode_property_exw
 ms.prod: windows
 ms.technology: windows-sdk
@@ -112,7 +112,7 @@ If the operation succeeds, the function returns CR_SUCCESS. Otherwise, it return
 
 
 
-<b>CM_Get_DevNode_Property_ExW</b> is part of the <a href="https://msdn.microsoft.com/library/Ff553515(v=VS.85).aspx">Unified Device Property Model</a>.
+<b>CM_Get_DevNode_Property_ExW</b> is part of the <a href="devinst.unified_device_property_model__windows_vista_and_later_">Unified Device Property Model</a>.
 
 
 

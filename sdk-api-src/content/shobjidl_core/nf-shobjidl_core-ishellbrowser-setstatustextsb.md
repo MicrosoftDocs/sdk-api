@@ -7,7 +7,7 @@ old-location: shell\IShellBrowser_SetStatusTextSB.htm
 old-project: shell
 ms.assetid: d7dd9f17-41e4-4c04-981e-a0bfe7c53fcf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellBrowser interface [Windows Shell],SetStatusTextSB method, IShellBrowser.SetStatusTextSB, IShellBrowser::SetStatusTextSB, SetStatusTextSB, SetStatusTextSB method [Windows Shell], SetStatusTextSB method [Windows Shell],IShellBrowser interface, _win32_IShellBrowser_SetStatusTextSB, shell.IShellBrowser_SetStatusTextSB, shobjidl_core/IShellBrowser::SetStatusTextSB
 ms.prod: windows
 ms.technology: windows-sdk

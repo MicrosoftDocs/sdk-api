@@ -4,10 +4,10 @@ title: PIBIO_SENSOR_START_CAPTURE_FN
 author: windows-sdk-content
 description: Begins an asynchronous biometric capture.
 old-location: secbiomet\sensoradapterstartcapture.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: 79922878-f5d3-4400-8c4f-2636323d7dcf
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: PIBIO_SENSOR_START_CAPTURE_FN, PIBIO_SENSOR_START_CAPTURE_FN callback, SensorAdapterStartCapture, SensorAdapterStartCapture callback function [Windows Biometric Framework API], secbiomet.sensoradapterstartcapture, winbio_adapter/SensorAdapterStartCapture
 ms.prod: windows
 ms.technology: windows-sdk
@@ -198,9 +198,13 @@ The Windows Biometric Framework opens and closes the sensor adapter handle and i
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-
-```cpp
-//////////////////////////////////////////////////////////////////////////////////////////
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//////////////////////////////////////////////////////////////////////////////////////////
 //
 // SensorAdapterStartCapture
 //
@@ -239,11 +243,11 @@ SensorAdapterStartCapture(
 
     // Retrieve the context from the pipeline.
     PWINBIO_SENSOR_CONTEXT sensorContext = 
-                       (PWINBIO_SENSOR_CONTEXT)Pipeline->SensorContext;
+                       (PWINBIO_SENSOR_CONTEXT)Pipeline-&gt;SensorContext;
 
     // Verify the state of the pipeline.
     if (sensorContext == NULL || 
-        Pipeline->SensorHandle == INVALID_HANDLE_VALUE)
+        Pipeline-&gt;SensorHandle == INVALID_HANDLE_VALUE)
     {
         return WINBIO_E_INVALID_DEVICE_STATE;
     }
@@ -251,7 +255,7 @@ SensorAdapterStartCapture(
     *Overlapped = NULL;
 
     //  Synchronously retrieve the status.
-    hr = SensorAdapterQueryStatus(Pipeline, &sensorStatus);
+    hr = SensorAdapterQueryStatus(Pipeline, &amp;sensorStatus);
     if (FAILED(hr))
     {
         return hr;
@@ -269,7 +273,7 @@ SensorAdapterStartCapture(
         // sensor is ready.
         if (SUCCEEDED(hr))
         {
-            hr = SensorAdapterQueryStatus(Pipeline, &sensorStatus);
+            hr = SensorAdapterQueryStatus(Pipeline, &amp;sensorStatus);
         }
 
         if (FAILED(hr))
@@ -290,15 +294,15 @@ SensorAdapterStartCapture(
     // Determine whether the data format has been previously determined.
     // If it has not, find a format supported by both the engine and 
     // the sensor.
-    if ((sensorContext->Format.Owner == 0) &&
-        (sensorContext->Format.Type == 0))
+    if ((sensorContext-&gt;Format.Owner == 0) &amp;&amp;
+        (sensorContext-&gt;Format.Type == 0))
     {
 
         // Retrieve the format preferred by the engine.
-        hr = Pipeline->EngineInterface->QueryPreferredFormat(
+        hr = Pipeline-&gt;EngineInterface-&gt;QueryPreferredFormat(
                                             Pipeline,
-                                            &sensorContext->Format,
-                                            &sensorContext->VendorFormat
+                                            &amp;sensorContext-&gt;Format,
+                                            &amp;sensorContext-&gt;VendorFormat
                                             );
         if (SUCCEEDED(hr))
         {
@@ -313,20 +317,20 @@ SensorAdapterStartCapture(
             // Search the sensor attributes array for the format
             // preferred by the engine adapter.
             DWORD i = 0;
-            for (i = 0; i < sensorContext->AttributesBuffer->SupportedFormatEntries; i++)
+            for (i = 0; i &lt; sensorContext-&gt;AttributesBuffer-&gt;SupportedFormatEntries; i++)
             {
-                if ((sensorContext->AttributesBuffer->SupportedFormat[i].Owner == sensorContext->Format.Owner) &&
-                    (sensorContext->AttributesBuffer->SupportedFormat[i].Type == sensorContext->Format.Type))
+                if ((sensorContext-&gt;AttributesBuffer-&gt;SupportedFormat[i].Owner == sensorContext-&gt;Format.Owner) &amp;&amp;
+                    (sensorContext-&gt;AttributesBuffer-&gt;SupportedFormat[i].Type == sensorContext-&gt;Format.Type))
                 {
                     break;
                 }
             }
 
-            if (i == sensorContext->AttributesBuffer->SupportedFormatEntries)
+            if (i == sensorContext-&gt;AttributesBuffer-&gt;SupportedFormatEntries)
             {
                 // No match was found. Use the default.
-                sensorContext->Format.Owner = WINBIO_ANSI_381_FORMAT_OWNER;
-                sensorContext->Format.Type = WINBIO_ANSI_381_FORMAT_TYPE;
+                sensorContext-&gt;Format.Owner = WINBIO_ANSI_381_FORMAT_OWNER;
+                sensorContext-&gt;Format.Type = WINBIO_ANSI_381_FORMAT_TYPE;
             }
         }
         else
@@ -338,17 +342,17 @@ SensorAdapterStartCapture(
     // Set up the parameter-input block needed for the IOCTL.
     captureParameters.PayloadSize = sizeof(WINBIO_CAPTURE_PARAMETERS);
     captureParameters.Purpose = Purpose;
-    captureParameters.Format.Owner = sensorContext->Format.Owner;
-    captureParameters.Format.Type = sensorContext->Format.Type;
-    CopyMemory(&captureParameters.VendorFormat, &sensorContext->VendorFormat, sizeof (WINBIO_UUID));
+    captureParameters.Format.Owner = sensorContext-&gt;Format.Owner;
+    captureParameters.Format.Type = sensorContext-&gt;Format.Type;
+    CopyMemory(&amp;captureParameters.VendorFormat, &amp;sensorContext-&gt;VendorFormat, sizeof (WINBIO_UUID));
     captureParameters.Flags = WINBIO_DATA_FLAG_RAW;
 
     // Determine whether a buffer has already been allocated for this sensor.
-    if (sensorContext->CaptureBuffer == NULL)
+    if (sensorContext-&gt;CaptureBuffer == NULL)
     {
         DWORD allocationSize = 0;
 
-        sensorContext->CaptureBufferSize = 0;
+        sensorContext-&gt;CaptureBufferSize = 0;
 
         // This sample assumes that the sensor driver returns
         // a fixed-size DWORD buffer containing the required
@@ -361,23 +365,23 @@ SensorAdapterStartCapture(
         // Because this operation is asynchronous, you must block 
         // and wait for it to complete.
         result = DeviceIoControl(
-                    Pipeline->SensorHandle,
+                    Pipeline-&gt;SensorHandle,
                     IOCTL_VENDOR_PRIVATE_CMD_CAPTURE_DATA,
-                    &captureParameters,
+                    &amp;captureParameters,
                     sizeof(WINBIO_CAPTURE_PARAMETERS),
-                    &allocationSize,
+                    &amp;allocationSize,
                     sizeof(DWORD),
-                    &bytesReturned,
-                    &sensorContext->Overlapped
+                    &amp;bytesReturned,
+                    &amp;sensorContext-&gt;Overlapped
                     );
-        if (!result && GetLastError() == ERROR_IO_PENDING)
+        if (!result &amp;&amp; GetLastError() == ERROR_IO_PENDING)
         {
             SetLastError(ERROR_SUCCESS);
 
             result = GetOverlappedResult(
-                        Pipeline->SensorHandle,
-                        &sensorContext->Overlapped,
-                        &bytesReturned,
+                        Pipeline-&gt;SensorHandle,
+                        &amp;sensorContext-&gt;Overlapped,
+                        &amp;bytesReturned,
                         TRUE
                         );
         }
@@ -391,19 +395,19 @@ SensorAdapterStartCapture(
 
         // Make sure that you allocate at least the minimum buffer 
         // size needed to get the payload structure.
-        if (allocationSize < sizeof(WINBIO_CAPTURE_DATA))
+        if (allocationSize &lt; sizeof(WINBIO_CAPTURE_DATA))
         {
             allocationSize = sizeof(WINBIO_CAPTURE_DATA);
         }
 
         // Allocate the buffer.
-        sensorContext->CaptureBuffer = (PWINBIO_CAPTURE_DATA)_AdapterAlloc(allocationSize);
-        if (!sensorContext->CaptureBuffer)
+        sensorContext-&gt;CaptureBuffer = (PWINBIO_CAPTURE_DATA)_AdapterAlloc(allocationSize);
+        if (!sensorContext-&gt;CaptureBuffer)
         {
-            sensorContext->CaptureBufferSize = 0;
+            sensorContext-&gt;CaptureBufferSize = 0;
             return E_OUTOFMEMORY;
         }
-        sensorContext->CaptureBufferSize = allocationSize;
+        sensorContext-&gt;CaptureBufferSize = allocationSize;
     }
     else
     {
@@ -415,20 +419,20 @@ SensorAdapterStartCapture(
     // the IOCTL call will return immediately regardless of 
     // whether the I/O has completed.
     result = DeviceIoControl(
-                Pipeline->SensorHandle,
+                Pipeline-&gt;SensorHandle,
                 IOCTL_VENDOR_PRIVATE_CMD_CAPTURE_DATA,
-                &captureParameters,
+                &amp;captureParameters,
                 sizeof (WINBIO_CAPTURE_PARAMETERS),
-                sensorContext->CaptureBuffer,
-                sensorContext->CaptureBufferSize,
-                &bytesReturned,
-                &sensorContext->Overlapped
+                sensorContext-&gt;CaptureBuffer,
+                sensorContext-&gt;CaptureBufferSize,
+                &amp;bytesReturned,
+                &amp;sensorContext-&gt;Overlapped
                 );
 
     if (result ||
-        (!result && GetLastError() == ERROR_IO_PENDING))
+        (!result &amp;&amp; GetLastError() == ERROR_IO_PENDING))
     {
-        *Overlapped = &sensorContext->Overlapped;
+        *Overlapped = &amp;sensorContext-&gt;Overlapped;
         return S_OK;
     }
     else
@@ -437,10 +441,10 @@ SensorAdapterStartCapture(
         return hr;
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

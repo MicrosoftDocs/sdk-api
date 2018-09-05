@@ -4,10 +4,10 @@ title: ICertPropertyBackedUp::get_BackedUpValue
 author: windows-sdk-content
 description: Retrieves a Boolean value that identifies whether the certificate was backed up.
 old-location: security\icertpropertybackedup_backedupvalue_property.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: 206ef65a-93c5-4c0d-b673-42a0b065225c
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: BackedUpValue property [Security], BackedUpValue property [Security],ICertPropertyBackedUp interface, ICertPropertyBackedUp interface [Security],BackedUpValue property, ICertPropertyBackedUp.BackedUpValue, ICertPropertyBackedUp.get_BackedUpValue, ICertPropertyBackedUp::BackedUpValue, ICertPropertyBackedUp::get_BackedUpValue, certenroll/ICertPropertyBackedUp::BackedUpValue, certenroll/ICertPropertyBackedUp::get_BackedUpValue, get_BackedUpValue, security.icertpropertybackedup_backedupvalue_property
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/Aa375630(v=VS.85).aspx">Initialize</a> method or the <a href="https://msdn.microsoft.com/en-us/library/Aa375364(v=VS.85).aspx">InitializeFromCurrentTime</a> method to set the <b>BackedUpValue</b> property value.
+Call the <a href="https://msdn.microsoft.com/2ca941a6-898d-4955-b334-ffc15e10b330">Initialize</a> method or the <a href="https://msdn.microsoft.com/2033c947-661c-4a52-b24f-82fa71ba7868">InitializeFromCurrentTime</a> method to set the <b>BackedUpValue</b> property value.
 
 
 
@@ -74,11 +74,11 @@ Call the <a href="https://msdn.microsoft.com/en-us/library/Aa375630(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375239(v=VS.85).aspx">ICertProperty</a>
+<a href="https://msdn.microsoft.com/947c2f09-993d-4ced-8b76-66b79d96e3bc">ICertProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375353(v=VS.85).aspx">ICertPropertyBackedUp</a>
+<a href="https://msdn.microsoft.com/9c694991-6f2d-420e-9f9f-5a36b10c39aa">ICertPropertyBackedUp</a>
  
 
  

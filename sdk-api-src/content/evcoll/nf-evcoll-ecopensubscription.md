@@ -7,7 +7,7 @@ old-location: wec\ecopensubscription.htm
 old-project: WEC
 ms.assetid: 3b4ef765-b557-4142-ba7d-e2556bd067ec
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: EcOpenSubscription, EcOpenSubscription function, evcoll/EcOpenSubscription, wec.ecopensubscription, wes.ecopensubscription
 ms.prod: windows
 ms.technology: windows-sdk

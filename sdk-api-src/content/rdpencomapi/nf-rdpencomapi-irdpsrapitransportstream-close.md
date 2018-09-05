@@ -4,10 +4,10 @@ title: IRDPSRAPITransportStream::Close
 author: windows-sdk-content
 description: Called by the Remote Desktop Protocol (RDP) stack to close the stream.
 old-location: rdp\irdpsrapitransportstream_close.htm
-old-project: rdp
+old-project: Rdp
 ms.assetid: 1c9ddc69-bc40-4c75-b4ff-3ff622dcf76c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Close, Close method [RDP], Close method [RDP],IRDPSRAPITransportStream interface, IRDPSRAPITransportStream interface [RDP],Close method, IRDPSRAPITransportStream.Close, IRDPSRAPITransportStream::Close, rdp.irdpsrapitransportstream_close, rdpencomapi/IRDPSRAPITransportStream::Close
 ms.prod: windows
 ms.technology: windows-sdk

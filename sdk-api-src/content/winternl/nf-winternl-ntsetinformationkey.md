@@ -4,10 +4,10 @@ title: NtSetInformationKey function
 author: windows-sdk-content
 description: Sets information for the specified registry key.
 old-location: winprog\ntsetinformationkey.htm
-old-project: devnotes
+old-project: DevNotes
 ms.assetid: 74772ebf-684b-4579-a28a-9b80afb4ccf9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NtSetInformationKey, NtSetInformationKey function [Windows API], base.ntsetinformationkey, winprog.ntsetinformationkey, winternl/NtSetInformationKey
 ms.prod: windows
 ms.technology: windows-sdk

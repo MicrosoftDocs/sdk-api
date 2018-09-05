@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_wcmconfig_0000_0000_0001"
 author: windows-sdk-content
 description: Enumerates the various target modes.
 old-location: smi\wcmtargetmode.htm
-old-project: smi
+old-project: SMI
 ms.assetid: 7a3b61f4-c98f-4c59-98dd-b513f69ac7d8
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: OfflineMode, OnlineMode, WcmTargetMode, WcmTargetMode enumeration [SMI], __MIDL___MIDL_itf_wcmconfig_0000_0000_0001, smi.wcmtargetmode, wcmconfig/OfflineMode, wcmconfig/OnlineMode, wcmconfig/WcmTargetMode
 ms.prod: windows
 ms.technology: windows-sdk

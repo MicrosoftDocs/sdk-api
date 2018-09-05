@@ -7,7 +7,7 @@ old-location: wsw\wsasyncexecute.htm
 old-project: wsw
 ms.assetid: 8705ac1a-62ba-4239-aeb6-b35ac5f0dd18
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WsAsyncExecute, WsAsyncExecute function [Web Services for Windows], webservices/WsAsyncExecute, wsw.wsasyncexecute
 ms.prod: windows
 ms.technology: windows-sdk

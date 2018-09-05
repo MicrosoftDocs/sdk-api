@@ -4,10 +4,10 @@ title: "_SOCKET_PEER_TARGET_NAME"
 author: windows-sdk-content
 description: Contains the IP address and name for a peer target and the type of security protocol to be used on a socket.
 old-location: winsock\socket_peer_target_name.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: 6e807cc3-f9de-4d15-b337-4a6b4be910c2
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: SOCKET_PEER_TARGET_NAME, SOCKET_PEER_TARGET_NAME structure [Winsock], _SOCKET_PEER_TARGET_NAME, mstcpip/SOCKET_PEER_TARGET_NAME, winsock.socket_peer_target_name
 ms.prod: windows
 ms.technology: windows-sdk

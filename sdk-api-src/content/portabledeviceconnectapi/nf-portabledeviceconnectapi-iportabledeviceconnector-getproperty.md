@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceconnector_getproperty.htm
 old-project: wpd_sdk
 ms.assetid: 7503df7a-826c-4e77-b51a-6b3d618732ca
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetProperty, GetProperty method [Windows Portable Devices SDK], GetProperty method [Windows Portable Devices SDK],IPortableDeviceConnector interface, IPortableDeviceConnector interface [Windows Portable Devices SDK],GetProperty method, IPortableDeviceConnector.GetProperty, IPortableDeviceConnector::GetProperty, devpkey/IPortableDeviceConnector::GetProperty, portabledeviceconnectapi/IPortableDeviceConnector::GetProperty, wpdsdk.iportabledeviceconnector_getproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -135,10 +135,14 @@ Once the application no longer needs the property data specified by the <i>ppDat
 
 The following example shows how to read the DEVPKEY_MTPBTH_IsConnected property for a paired MTP/Bluetooth device.
 
-
-```cpp
-#include <devpkey.h>
-#include <PortableDeviceConnectAPI.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;devpkey.h&gt;
+#include &lt;PortableDeviceConnectAPI.h&gt;
 HRESULT IsDeviceConnected(
 __in  IPortableDeviceConnector* pDevice, 
 __out BOOL* pIsConnected)
@@ -147,10 +151,10 @@ __out BOOL* pIsConnected)
     BYTE*           pDataGet;
     UINT32          cbDataGet;
     *pbIsConnected = FALSE; 
-    HRESULT hr = pDevice ->GetProperty(&DEVPKEY_MTPBTH_IsConnected,
-                                       &typeGet,
-                                       &pDataGet,
-                                       &cbDataGet);
+    HRESULT hr = pDevice -&gt;GetProperty(&amp;DEVPKEY_MTPBTH_IsConnected,
+                                       &amp;typeGet,
+                                       &amp;pDataGet,
+                                       &amp;cbDataGet);
     if (SUCCEEDED(hr))
     {
         DEVPROP_BOOLEAN bIsConnected = *((DEVPROP_BOOLEAN*)pDataGet);
@@ -162,10 +166,10 @@ __out BOOL* pIsConnected)
         CoTaskMemFree(pDataGet);
     }  
     return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

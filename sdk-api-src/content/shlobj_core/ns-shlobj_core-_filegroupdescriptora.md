@@ -7,7 +7,7 @@ old-location: shell\FILEGROUPDESCRIPTOR.htm
 old-project: shell
 ms.assetid: 9357ab73-086c-44db-8f89-e14240647e89
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "*LPFILEGROUPDESCRIPTORA, FILEGROUPDESCRIPTOR, FILEGROUPDESCRIPTOR structure [Windows Shell], FILEGROUPDESCRIPTORA, LPFILEGROUPDESCRIPTOR, LPFILEGROUPDESCRIPTOR structure pointer [Windows Shell], _FILEGROUPDESCRIPTORA, _FILEGROUPDESCRIPTORW, _win32_FILEGROUPDESCRIPTOR, shell.FILEGROUPDESCRIPTOR, shlobj_core/FILEGROUPDESCRIPTOR, shlobj_core/LPFILEGROUPDESCRIPTOR"
 ms.prod: windows
 ms.technology: windows-sdk

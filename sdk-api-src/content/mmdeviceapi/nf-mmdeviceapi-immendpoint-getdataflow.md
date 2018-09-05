@@ -7,7 +7,7 @@ old-location: coreaudio\immendpoint_getdataflow.htm
 old-project: CoreAudio
 ms.assetid: 01882c44-bf0c-4180-846e-c1e98c6fb472
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: GetDataFlow, GetDataFlow method [Core Audio], GetDataFlow method [Core Audio],IMMEndpoint interface, IMMEndpoint interface [Core Audio],GetDataFlow method, IMMEndpoint.GetDataFlow, IMMEndpoint::GetDataFlow, IMMEndpointGetDataFlow, coreaudio.immendpoint_getdataflow, mmdeviceapi/IMMEndpoint::GetDataFlow
 ms.prod: windows
 ms.technology: windows-sdk

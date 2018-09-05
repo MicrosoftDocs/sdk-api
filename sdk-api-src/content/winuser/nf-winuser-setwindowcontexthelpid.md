@@ -7,7 +7,7 @@ old-location: shell\SetWindowContextHelpId.htm
 old-project: shell
 ms.assetid: 7e0963d1-5807-4db5-9abf-cdb21a03b525
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SetWindowContextHelpId, SetWindowContextHelpId function [Windows Shell], _win32_SetWindowContextHelpId, shell.SetWindowContextHelpId, winuser/SetWindowContextHelpId
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,12 @@ Associates a Help context identifier with the specified window.
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
 
 TBD
 

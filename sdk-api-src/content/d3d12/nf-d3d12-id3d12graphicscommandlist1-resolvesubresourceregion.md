@@ -133,7 +133,7 @@ A DXGI_FORMAT that specifies how the source and destination resource formats are
 
 ### -param ResolveMode [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Mt492583(v=VS.85).aspx">D3D12_RESOLVE_MODE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/1E14F62A-E6B9-4C88-AC28-2322C4662E1F">D3D12_RESOLVE_MODE</a></b>
 
 <a href="https://msdn.microsoft.com/en-us/library/hh916382.aspx">SAL</a>: <code>_In_</code>
 
@@ -157,7 +157,7 @@ This method does not return a value.
 
 
 
-ResolveSubresourceRegion operates like <a href="https://msdn.microsoft.com/en-us/library/Dn903897(v=VS.85).aspx">ResolveSubresource</a> but allows for only part of a resource to be resolved and for source samples to be resolved in several ways. Partial resolves can be useful in multi-adapter scenarios; for example, when the rendered area has been partitioned across adapters, each adapter might only need to resolve the portion of a subresource that corresponds to its assigned partition.
+ResolveSubresourceRegion operates like <a href="https://msdn.microsoft.com/F1D4BAD1-B08E-47D0-9D2B-41873D6B4456">ResolveSubresource</a> but allows for only part of a resource to be resolved and for source samples to be resolved in several ways. Partial resolves can be useful in multi-adapter scenarios; for example, when the rendered area has been partitioned across adapters, each adapter might only need to resolve the portion of a subresource that corresponds to its assigned partition.
 
 
 
@@ -167,7 +167,7 @@ ResolveSubresourceRegion operates like <a href="https://msdn.microsoft.com/en-us
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt492655(v=VS.85).aspx">ID3D12GraphicsCommandList1</a>
+<a href="https://msdn.microsoft.com/E156C26B-0E51-4F43-9AB2-373E4C67A496">ID3D12GraphicsCommandList1</a>
  
 
  

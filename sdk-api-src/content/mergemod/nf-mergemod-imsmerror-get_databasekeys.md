@@ -7,7 +7,7 @@ old-location: setup\error_databasekeys.htm
 old-project: msi
 ms.assetid: 416a6cef-4c70-4c06-a8d2-801c9440e25a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DatabaseKeys property, DatabaseKeys property,Error object, Error object,DatabaseKeys property, Error.DatabaseKeys, IMsmError.get_DatabaseKeys, IMsmError::get_DatabaseKeys, _msi_databasekeys_property, get_DatabaseKeys, setup.error_databasekeys
 ms.prod: windows
 ms.technology: windows-sdk

@@ -69,7 +69,7 @@ Retrieves the local name of the file.
 #### - ppName [out]
 
 Null-terminated string that contains the name of the file on the client. The name is fully qualified. Call the 
-<a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function to free <i>ppName</i> when done.
+<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680722">CoTaskMemFree</a> function to free <i>ppName</i> when done.
 
 
 ## -returns
@@ -86,33 +86,37 @@ This method returns <b>S_OK</b> on success or one of the standard COM <b>HRESULT
 
 
 The local file name is set when you call the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363017(v=VS.85).aspx">AddFile</a> or 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363019(v=VS.85).aspx">AddFileSet</a> methods of the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362973(v=VS.85).aspx">IBackgroundCopyJob</a> interface.
+<a href="https://msdn.microsoft.com/0dada1d3-49b6-41af-b17f-612f27ea4d56">AddFile</a> or 
+<a href="https://msdn.microsoft.com/fe2f9b47-0f0a-48ab-be0e-658307cfec5f">AddFileSet</a> methods of the 
+<a href="https://msdn.microsoft.com/91dd1ae1-1740-4d95-a476-fc18aead1dc2">IBackgroundCopyJob</a> interface.
 
 
 #### Examples
 
 The following example shows how to retrieve the local and remote file names and progress-related information from the  
-<a href="https://msdn.microsoft.com/en-us/library/Aa362881(v=VS.85).aspx">IBackgroundCopyFile</a> interface. The example assumes the 
+<a href="https://msdn.microsoft.com/fae9cf56-c211-445b-b962-9a9d7d67c59c">IBackgroundCopyFile</a> interface. The example assumes the 
 <b>IBackgroundCopyFile</b> interface pointer is valid.
 
-
-```cpp
-IBackgroundCopyFile* pFile;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IBackgroundCopyFile* pFile;
 HRESULT hr;
 WCHAR* pszLocalFileName = NULL;
 WCHAR* pszRemoteFileName = NULL;
 WCHAR  szPercentComplete[4+1];
 BG_FILE_PROGRESS Progress;
 
-hr = pFile->GetLocalName(&pszLocalFileName);
+hr = pFile-&gt;GetLocalName(&amp;pszLocalFileName);
 if (SUCCEEDED(hr))
 {
-  hr = pFile->GetRemoteName(&pszRemoteFileName);
+  hr = pFile-&gt;GetRemoteName(&amp;pszRemoteFileName);
   if (SUCCEEDED(hr))
   {
-    pFile->GetProgress(&Progress);
+    pFile-&gt;GetProgress(&amp;Progress);
     if (BG_SIZE_UNKNOWN == Progress.BytesTotal) 
     {
       StringCchPrintf(szPercentComplete, sizeof(szPercentComplete), L"0%%");
@@ -128,10 +132,10 @@ if (SUCCEEDED(hr))
 if (pszLocalFileName)
   CoTaskMemFree(pszLocalFileName);
 if (pszRemoteFileName)
-  CoTaskMemFree(pszRemoteFileName);
-```
-
-
+  CoTaskMemFree(pszRemoteFileName);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -140,19 +144,19 @@ if (pszRemoteFileName)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362881(v=VS.85).aspx">IBackgroundCopyFile</a>
+<a href="https://msdn.microsoft.com/fae9cf56-c211-445b-b962-9a9d7d67c59c">IBackgroundCopyFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa362958(v=VS.85).aspx">IBackgroundCopyFile::GetRemoteName</a>
+<a href="https://msdn.microsoft.com/b6b1b1dc-776e-4369-bd39-d159e4edfe38">IBackgroundCopyFile::GetRemoteName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363017(v=VS.85).aspx">IBackgroundCopyJob::AddFile</a>
+<a href="https://msdn.microsoft.com/0dada1d3-49b6-41af-b17f-612f27ea4d56">IBackgroundCopyJob::AddFile</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa363019(v=VS.85).aspx">IBackgroundCopyJob::AddFileSet</a>
+<a href="https://msdn.microsoft.com/fe2f9b47-0f0a-48ab-be0e-658307cfec5f">IBackgroundCopyJob::AddFileSet</a>
  
 
  

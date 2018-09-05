@@ -60,7 +60,12 @@ The <b>FLOATOBJ_SubLong</b> function subtracts the value of type LONG from the <
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
 
 TBD
 

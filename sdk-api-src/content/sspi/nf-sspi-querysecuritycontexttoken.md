@@ -4,10 +4,10 @@ title: QuerySecurityContextToken function
 author: windows-sdk-content
 description: Obtains the access token for a client security context and uses it directly.
 old-location: security\querysecuritycontexttoken.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 5dc23608-9ce3-4fee-8161-2e409cef4063
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: QuerySecurityContextToken, QuerySecurityContextToken function [Security], _ssp_querysecuritycontexttoken, security.querysecuritycontexttoken, sspi/QuerySecurityContextToken
 ms.prod: windows
 ms.technology: windows-sdk
@@ -99,7 +99,7 @@ This function is called by a server application to control impersonation outside
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
  
 
  

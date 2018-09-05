@@ -7,7 +7,7 @@ old-location: mscs\clusnetinterfaces_collection.htm
 old-project: mscs
 ms.assetid: 7d0dc4fd-733c-4a2a-9136-7dc0089b213d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusNetInterfaces, ClusNetInterfaces collection [Failover Cluster], ClusNetInterfaces collection [Failover Cluster],described, ISClusNetInterfaces, _wolf_clusnetinterfaces_collection, msclus/ClusNetInterfaces, mscs.clusnetinterfaces_collection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ req.product: GDI+ 1.1
     in subsequent versions.]
 
 Provides access to the <a href="https://msdn.microsoft.com/cc0cbbc3-e342-483e-9c94-4ee43f4d588d">network interfaces</a> in a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+    <a href="c_gly.htm">cluster</a>.
 
 
 ## -inheritance

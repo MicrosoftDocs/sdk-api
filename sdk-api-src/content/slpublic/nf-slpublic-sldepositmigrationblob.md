@@ -4,10 +4,10 @@ title: SLDepositMigrationBlob function
 author: windows-sdk-content
 description: Deposits licensing information previously collected and gathered using the SLGatherMigrationBlob function.
 old-location: security\sldepositmigrationblob.htm
-old-project: secslapi
+old-project: SecSLApi
 ms.assetid: 0fe3e466-c4df-4c11-9689-1002045df791
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SLDepositMigrationBlob, SLDepositMigrationBlob function [Security], security.sldepositmigrationblob, slpublic/SLDepositMigrationBlob
 ms.prod: windows
 ms.technology: windows-sdk

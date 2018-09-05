@@ -4,10 +4,10 @@ title: WinBioSetCredential function
 author: windows-sdk-content
 description: Saves a biometric logon credential for the current user. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbiosetcredential.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: c35dd874-c545-418a-b08c-82f9e13e93fb
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: WINBIO_PASSWORD_GENERIC, WINBIO_PASSWORD_PACKED, WINBIO_PASSWORD_PROTECTED, WinBioSetCredential, WinBioSetCredential function [Windows Biometric Framework API], secbiomet.winbiosetcredential, winbio/WinBioSetCredential
 ms.prod: windows
 ms.technology: windows-sdk
@@ -205,9 +205,13 @@ current user and then calls <b>WinBioSetCredential</b> to set the credentials. T
 <li>Conio.h</li>
 <li>Winbio.h</li>
 </ul>
-
-```cpp
-HRESULT SetCredential()
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT SetCredential()
 {
     // Declare variables.
     HRESULT hr = S_OK;
@@ -218,7 +222,7 @@ HRESULT SetCredential()
 
     // Find the identity of the user.
     wprintf_s(L"\n Finding user identity.\n");
-    hr = GetCurrentUserIdentity( &identity );
+    hr = GetCurrentUserIdentity( &amp;identity );
     if (FAILED(hr))
     {
         wprintf_s(L"\n User identity not found. hr = 0x%x\n", hr);
@@ -229,7 +233,7 @@ HRESULT SetCredential()
     pSid = identity.Value.AccountSid.Data;
 
     // Retrieve a byte array that contains credential information.
-    hr = GetCredentials(pSid, &pvAuthBlob, &cbAuthBlob);
+    hr = GetCredentials(pSid, &amp;pvAuthBlob, &amp;cbAuthBlob);
     if (FAILED(hr))
     {
         wprintf_s(L"\n GetCredentials failed. hr = 0x%x\n", hr);
@@ -310,10 +314,10 @@ HRESULT GetCredentials(PSID pSid, PVOID* ppvAuthBlob, ULONG* pcbAuthBlob)
               NULL,             // Local computer
               pSid,             // Security identifier for user
               szUsername,       // User name
-              &cchTmpUsername,  // Size of user name
+              &amp;cchTmpUsername,  // Size of user name
               szDomain,         // Domain name
-              &cchTmpDomain,    // Size of domain name
-              &SidUse))         // Account type
+              &amp;cchTmpDomain,    // Size of domain name
+              &amp;SidUse))         // Account type
     {
         dwResult = GetLastError();
         hr = HRESULT_FROM_WIN32(dwResult);
@@ -336,8 +340,8 @@ HRESULT GetCredentials(PSID pSid, PVOID* ppvAuthBlob, ULONG* pcbAuthBlob)
               szDomainAndUser,  // Domain\User name
               szPassword,       // User Password
               NULL,             // Packed credentials
-              &cbInAuthBlob)    // Size, in bytes, of credentials
-        && GetLastError() != ERROR_INSUFFICIENT_BUFFER)
+              &amp;cbInAuthBlob)    // Size, in bytes, of credentials
+        &amp;&amp; GetLastError() != ERROR_INSUFFICIENT_BUFFER)
         {
             dwResult = GetLastError();
             hr = HRESULT_FROM_WIN32(dwResult);
@@ -361,7 +365,7 @@ HRESULT GetCredentials(PSID pSid, PVOID* ppvAuthBlob, ULONG* pcbAuthBlob)
               szDomainAndUser,
               szPassword,
               (PBYTE)pvInAuthBlob,
-              &cbInAuthBlob))
+              &amp;cbInAuthBlob))
     {
         dwResult = GetLastError();
         hr = HRESULT_FROM_WIN32(dwResult);
@@ -378,14 +382,14 @@ HRESULT GetCredentials(PSID pSid, PVOID* ppvAuthBlob, ULONG* pcbAuthBlob)
     ui.hbmBanner = NULL;
 
     dwResult = CredUIPromptForWindowsCredentialsW(
-                   &ui,             // Customizing information
+                   &amp;ui,             // Customizing information
                    0,               // Error code to display
-                   &ulAuthPackage,  // Authorization package
+                   &amp;ulAuthPackage,  // Authorization package
                    pvInAuthBlob,    // Credential byte array
                    cbInAuthBlob,    // Size of credential input buffer
-                   &pvAuthBlob,     // Output credential byte array
-                   &cbAuthBlob,     // Size of credential byte array
-                   &fSave,          // Select the save check box.
+                   &amp;pvAuthBlob,     // Output credential byte array
+                   &amp;cbAuthBlob,     // Size of credential byte array
+                   &amp;fSave,          // Select the save check box.
                    CREDUIWIN_IN_CRED_ONLY |
                    CREDUIWIN_ENUMERATE_CURRENT_USER
                    );
@@ -431,14 +435,14 @@ HRESULT GetCurrentUserIdentity(__inout PWINBIO_IDENTITY Identity)
 
     // Zero the input identity and specify the type.
     ZeroMemory( Identity, sizeof(WINBIO_IDENTITY));
-    Identity->Type = WINBIO_ID_TYPE_NULL;
+    Identity-&gt;Type = WINBIO_ID_TYPE_NULL;
 
     // Open the access token associated with the
     // current process
     if (!OpenProcessToken(
             GetCurrentProcess(),            // Process handle
             TOKEN_READ,                     // Read access only
-            &tokenHandle))                  // Access token handle
+            &amp;tokenHandle))                  // Access token handle
     {
         DWORD win32Status = GetLastError();
         wprintf_s(L"Cannot open token handle: %d\n", win32Status);
@@ -447,16 +451,16 @@ HRESULT GetCurrentUserIdentity(__inout PWINBIO_IDENTITY Identity)
     }
 
     // Zero the tokenInfoBuffer structure.
-    ZeroMemory(&tokenInfoBuffer, sizeof(tokenInfoBuffer));
+    ZeroMemory(&amp;tokenInfoBuffer, sizeof(tokenInfoBuffer));
 
     // Retrieve information about the access token. In this case,
     // retrieve a SID.
     if (!GetTokenInformation(
             tokenHandle,                    // Access token handle
             TokenUser,                      // User for the token
-            &tokenInfoBuffer.tokenUser,     // Buffer to fill
+            &amp;tokenInfoBuffer.tokenUser,     // Buffer to fill
             sizeof(tokenInfoBuffer),        // Size of the buffer
-            &bytesReturned))                // Size needed
+            &amp;bytesReturned))                // Size needed
     {
         DWORD win32Status = GetLastError();
         wprintf_s(L"Cannot query token information: %d\n", win32Status);
@@ -468,14 +472,14 @@ HRESULT GetCurrentUserIdentity(__inout PWINBIO_IDENTITY Identity)
     // WINBIO_IDENTITY structure. 
     CopySid(
         SECURITY_MAX_SID_SIZE,
-        Identity->Value.AccountSid.Data,
+        Identity-&gt;Value.AccountSid.Data,
         tokenInfoBuffer.tokenUser.User.Sid
         );
 
     // Specify the size of the SID and assign WINBIO_ID_TYPE_SID
     // to the type member of the WINBIO_IDENTITY structure.
-    Identity->Value.AccountSid.Size = GetLengthSid(tokenInfoBuffer.tokenUser.User.Sid);
-    Identity->Type = WINBIO_ID_TYPE_SID;
+    Identity-&gt;Value.AccountSid.Size = GetLengthSid(tokenInfoBuffer.tokenUser.User.Sid);
+    Identity-&gt;Type = WINBIO_ID_TYPE_SID;
 
 e_Exit:
 
@@ -487,10 +491,10 @@ e_Exit:
     return hr;
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

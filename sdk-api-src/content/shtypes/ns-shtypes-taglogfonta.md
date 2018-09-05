@@ -7,7 +7,7 @@ old-location: shell\LOGFONT.htm
 old-project: shell
 ms.assetid: 759c54d9-5b8f-4b48-8380-79e7bcae5bdb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: LOGFONT, LOGFONT structure [Windows Shell], LOGFONTA, LOGFONTW, _shell_LOGFONT, _shell_LOGFONT_cpp, dimm/LOGFONT, dimm/LOGFONTA, dimm/LOGFONTW, shell.LOGFONT, tagLOGFONTA
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,22 +96,30 @@ This mapping occurs when the font is used for the first time.
 
 For the MM_TEXT mapping mode, you may use the following formula to specify a height for a font with a given point size.
 
-
-```cpp
-lfHeight = -MulDiv(PointSize, GetDeviceCaps(hDC, LOGPIXELSY), 72);
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>lfHeight = -MulDiv(PointSize, GetDeviceCaps(hDC, LOGPIXELSY), 72);
+</pre>
+</td>
+</tr>
+</table></span></div>
 where <b>MulDiv</b> is defined as follows:
 
-
-```cpp
-#define MulDiv(a,b,c)    (((a)*(b))/(c))
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define MulDiv(a,b,c)    (((a)*(b))/(c))
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -field lfWidth
 

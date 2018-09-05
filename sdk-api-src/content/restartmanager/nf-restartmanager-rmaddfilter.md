@@ -4,10 +4,10 @@ title: RmAddFilter function
 author: windows-sdk-content
 description: Modifies the shutdown or restart actions that are applied to an application or service.
 old-location: rstmgr\rmaddfilter.htm
-old-project: rstmgr
+old-project: RstMgr
 ms.assetid: 63d1d1d2-d7b7-4d6c-99f9-b849229e171f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RmAddFilter, RmAddFilter function [Restart Mgr], restartmanager/RmAddFilter, rstmgr.rmaddfilter
 ms.prod: windows
 ms.technology: windows-sdk

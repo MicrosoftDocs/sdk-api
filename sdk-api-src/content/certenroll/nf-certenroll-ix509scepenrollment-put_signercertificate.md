@@ -4,10 +4,10 @@ title: IX509SCEPEnrollment::put_SignerCertificate
 author: windows-sdk-content
 description: Gets or sets the signer certificate for the request.
 old-location: security\ix509scepenrollment_signercertificate.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: 7d01acc5-158d-4429-a2e8-d179571f9a1c
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509SCEPEnrollment interface [Security],SignerCertificate property, IX509SCEPEnrollment.SignerCertificate, IX509SCEPEnrollment.put_SignerCertificate, IX509SCEPEnrollment::SignerCertificate, IX509SCEPEnrollment::get_SignerCertificate, IX509SCEPEnrollment::put_SignerCertificate, SignerCertificate property [Security], SignerCertificate property [Security],IX509SCEPEnrollment interface, certenroll/IX509SCEPEnrollment::SignerCertificate, certenroll/IX509SCEPEnrollment::get_SignerCertificate, certenroll/IX509SCEPEnrollment::put_SignerCertificate, put_SignerCertificate, security.ix509scepenrollment_signercertificate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ This property is read/write.
 
 
 
-To create a renewal request, you must set this property prior to calling the <a href="https://msdn.microsoft.com/en-us/library/Dn424976(v=VS.85).aspx">CreateRequestMessage</a> method. Otherwise, the <b>CreateRequestMessage</b> method will create a new request and generate a self-signed certificate using the same private key as the inner PKCSV10 reqeust.
+To create a renewal request, you must set this property prior to calling the <a href="https://msdn.microsoft.com/b86d6dc3-aa96-45f3-9551-f24c39ea6cbf">CreateRequestMessage</a> method. Otherwise, the <b>CreateRequestMessage</b> method will create a new request and generate a self-signed certificate using the same private key as the inner PKCSV10 reqeust.
 
 
 
@@ -75,7 +75,7 @@ To create a renewal request, you must set this property prior to calling the <a 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn424973(v=VS.85).aspx">IX509SCEPEnrollment</a>
+<a href="https://msdn.microsoft.com/fcbac911-9e37-4994-bbb6-544b19a92749">IX509SCEPEnrollment</a>
  
 
  

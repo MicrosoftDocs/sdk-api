@@ -7,7 +7,7 @@ old-location: menurc\createmenu.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\createmenu.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: CreateMenu, CreateMenu function [Menus and Other Resources], _win32_CreateMenu, _win32_createmenu_cpp, menurc.createmenu, winui._win32_createmenu, winuser/CreateMenu
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Creates a menu. The menu is initially empty, but it can be filled with menu items by using the <a href="https://msdn.microsoft.com/en-us/library/ms647988(v=VS.85).aspx">InsertMenuItem</a>, <a href="https://msdn.microsoft.com/en-us/library/ms647616(v=VS.85).aspx">AppendMenu</a>, and <a href="https://msdn.microsoft.com/en-us/library/ms647987(v=VS.85).aspx">InsertMenu</a> functions. 
+Creates a menu. The menu is initially empty, but it can be filled with menu items by using the <a href="https://msdn.microsoft.com/be3819c2-8bdc-4a90-a188-ff8b4060eb8f">InsertMenuItem</a>, <a href="https://msdn.microsoft.com/07da4d45-a816-40c1-a5c5-c7fbe954be57">AppendMenu</a>, and <a href="https://msdn.microsoft.com/8ca7510a-e035-4ba2-98dd-57d777cae814">InsertMenu</a> functions. 
 
 
 ## -parameters
@@ -81,7 +81,7 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-Resources associated with a menu that is assigned to a window are freed automatically. If the menu is not assigned to a window, an application must free system resources associated with the menu before closing. An application frees menu resources by calling the <a href="https://msdn.microsoft.com/en-us/library/ms647631(v=VS.85).aspx">DestroyMenu</a> function. 
+Resources associated with a menu that is assigned to a window are freed automatically. If the menu is not assigned to a window, an application must free system resources associated with the menu before closing. An application frees menu resources by calling the <a href="https://msdn.microsoft.com/4fc9e332-09a6-4877-a831-e1128144530d">DestroyMenu</a> function. 
 
 
 
@@ -91,7 +91,7 @@ Resources associated with a menu that is assigned to a window are freed automati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647616(v=VS.85).aspx">AppendMenu</a>
+<a href="https://msdn.microsoft.com/07da4d45-a816-40c1-a5c5-c7fbe954be57">AppendMenu</a>
 
 
 
@@ -99,23 +99,23 @@ Resources associated with a menu that is assigned to a window are freed automati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647626(v=VS.85).aspx">CreatePopupMenu</a>
+<a href="https://msdn.microsoft.com/b1341fe7-1532-4e0b-82f3-540cc88c0aa7">CreatePopupMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647631(v=VS.85).aspx">DestroyMenu</a>
+<a href="https://msdn.microsoft.com/4fc9e332-09a6-4877-a831-e1128144530d">DestroyMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647987(v=VS.85).aspx">InsertMenu</a>
+<a href="https://msdn.microsoft.com/8ca7510a-e035-4ba2-98dd-57d777cae814">InsertMenu</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647988(v=VS.85).aspx">InsertMenuItem</a>
+<a href="https://msdn.microsoft.com/be3819c2-8bdc-4a90-a188-ff8b4060eb8f">InsertMenuItem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
 
 
 
@@ -123,7 +123,7 @@ Resources associated with a menu that is assigned to a window are freed automati
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647995(v=VS.85).aspx">SetMenu</a>
+<a href="https://msdn.microsoft.com/86d61b87-99ad-45e1-bcff-af892b4bb51b">SetMenu</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: dlgbox\cchookproc.htm
 old-project: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxfunctions\cchookproc.htm
 ms.author: windowssdkdev
-ms.date: 08/21/2018
+ms.date: 08/24/2018
 ms.keywords: CCHookProc, LPCCHOOKPROC, LPCCHOOKPROC callback, LPCCHOOKPROC callback function [Dialog Boxes], _win32_CCHookProc, _win32_cchookproc_cpp, commdlg/LPCCHOOKPROC, dlgbox.cchookproc, winui._win32_cchookproc
 ms.prod: windows
 ms.technology: windows-sdk

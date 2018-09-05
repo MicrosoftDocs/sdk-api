@@ -7,7 +7,7 @@ old-location: shell\SHRegEnumUSValue.htm
 old-project: shell
 ms.assetid: 78ba5df4-8ee3-473f-b3ef-0bca65bb0a2a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHRegEnumUSValue, SHRegEnumUSValue function [Windows Shell], SHRegEnumUSValueA, SHRegEnumUSValueW, _win32_SHRegEnumUSValue, shell.SHRegEnumUSValue, shlwapi/SHRegEnumUSValue, shlwapi/SHRegEnumUSValueA, shlwapi/SHRegEnumUSValueW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

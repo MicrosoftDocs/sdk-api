@@ -4,10 +4,10 @@ title: NCryptStreamUpdate function
 author: windows-sdk-content
 description: Encrypts and decrypts blocks of data.
 old-location: security\ncryptstreamupdate.htm
-old-project: seccng
+old-project: SecCNG
 ms.assetid: 417F9267-6055-489C-AF26-BEF5E17CB8B4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NCryptStreamUpdate, NCryptStreamUpdate function [Security], ncryptprotect/NCryptStreamUpdate, security.ncryptstreamupdate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -153,9 +153,13 @@ To do this, use <b>NCryptStreamUpdate</b> in a loop that advances through the fi
 
 <div class="alert"><b>Note</b>  We recommend against using too small of a block size. Small blocks require more calls and therefore more calling overhead. Further, the streaming APIs are optimized for larger blocks. You should experiment to find the best block size for the data  you must process.</div>
 <div> </div>
-
-```cpp
-BOOL                        fFinal = FALSE;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL                        fFinal = FALSE;
 PBYTE                       pbBuf = NULL;
 
 // Determine the number of bytes to read.
@@ -165,9 +169,9 @@ DWORD cbData = GetFileSize( hFileIn, NULL );
 while(FALSE == fFinal)
 {
     // Read dwBlockSize bytes from the file.
-    if(dwBlockSize > 1)
+    if(dwBlockSize &gt; 1)
     {
-        if( !ReadFile(hFileIn, pbBuf, dwBlockSize, &cbResult, NULL) )
+        if( !ReadFile(hFileIn, pbBuf, dwBlockSize, &amp;cbResult, NULL) )
         {
             hr = HRESULT_FROM_WIN32(hr);            
             goto CleanUp;
@@ -178,7 +182,7 @@ while(FALSE == fFinal)
     cbData -= cbResult;
 
     // Set fFinal if there are no bytes left to read.
-    if (cbData <= 0) fFinal = TRUE;
+    if (cbData &lt;= 0) fFinal = TRUE;
 
     // Encrypt (or decrypt) the bytes pointed to by pbBuf
     hr = NCryptStreamUpdate(hStream, pbBuf, cbResult, fFinal); 
@@ -201,10 +205,10 @@ CleanUp:
     {
         LocalFree(pbBuf);
         pbBuf = NULL;
-    }
-```
-
-
+    }</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

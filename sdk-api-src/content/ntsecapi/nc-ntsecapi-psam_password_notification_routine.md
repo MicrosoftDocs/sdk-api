@@ -4,10 +4,10 @@ title: PSAM_PASSWORD_NOTIFICATION_ROUTINE
 author: windows-sdk-content
 description: Is implemented by a password filter DLL. It notifies the DLL that a password was changed.
 old-location: security\passwordchangenotify.htm
-old-project: secmgmt
+old-project: SecMgmt
 ms.assetid: 81d34dff-3842-407b-8fd8-3b0a5a5f38f1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PSAM_PASSWORD_NOTIFICATION_ROUTINE, PSAM_PASSWORD_NOTIFICATION_ROUTINE callback, PasswordChangeNotify, PasswordChangeNotify callback function [Security], _pswd_passwordchangenotify, ntsecapi/PasswordChangeNotify, security.passwordchangenotify
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingsocketaddress.htm
 old-project: tracelogging
 ms.assetid: 7965C10A-2C19-4AA3-A9E3-7219EFB2D3A0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: TraceLoggingSocketAddress, TraceLoggingSocketAddress macro, tracelogging.traceloggingsocketaddress, traceloggingprovider/TraceLoggingSocketAddress
 ms.prod: windows
 ms.technology: windows-sdk

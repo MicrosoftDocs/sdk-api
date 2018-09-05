@@ -4,10 +4,10 @@ title: ISecurityInformation::GetInheritTypes
 author: windows-sdk-content
 description: The GetInheritTypes method requests information about how ACEs can be inherited by child objects. For more information, see ACE Inheritance.
 old-location: security\isecurityinformation_getinherittypes.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: dafe6c45-616f-4339-a119-9b88055b5d3a
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: GetInheritTypes, GetInheritTypes method [Security], GetInheritTypes method [Security],ISecurityInformation interface, ISecurityInformation interface [Security],GetInheritTypes method, ISecurityInformation.GetInheritTypes, ISecurityInformation::GetInheritTypes, _win32_isecurityinformation_getinherittypes, aclui/ISecurityInformation::GetInheritTypes, security.isecurityinformation_getinherittypes
 ms.prod: windows
 ms.technology: windows-sdk

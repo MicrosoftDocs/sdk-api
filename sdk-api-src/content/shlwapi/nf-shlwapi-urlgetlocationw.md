@@ -7,7 +7,7 @@ old-location: shell\UrlGetLocation.htm
 old-project: shell
 ms.assetid: e75bde92-2ca0-4d34-a276-50b4eeceda1c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: UrlGetLocation, UrlGetLocation function [Windows Shell], UrlGetLocationA, UrlGetLocationW, _win32_UrlGetLocation, shell.UrlGetLocation, shlwapi/UrlGetLocation, shlwapi/UrlGetLocationA, shlwapi/UrlGetLocationW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

@@ -4,10 +4,10 @@ title: ICertServerPolicy::EnumerateExtensionsSetup
 author: windows-sdk-content
 description: Initializes the internal enumeration pointer to the first certificate extension associated with the current context.
 old-location: security\icertserverpolicy_enumerateextensionssetup.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: e7ad32a5-d7df-407f-8efe-c9931610c2d2
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CCertServerPolicy object [Security],EnumerateExtensionsSetup method, EnumerateExtensionsSetup, EnumerateExtensionsSetup method [Security], EnumerateExtensionsSetup method [Security],CCertServerPolicy object, EnumerateExtensionsSetup method [Security],ICertServerPolicy interface, ICertServerPolicy interface [Security],EnumerateExtensionsSetup method, ICertServerPolicy.EnumerateExtensionsSetup, ICertServerPolicy::EnumerateExtensionsSetup, _certsrv_icertserverpolicy_enumerateextensionssetup, certif/ICertServerPolicy::EnumerateExtensionsSetup, security.icertserverpolicy_enumerateextensionssetup
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,7 +72,7 @@ This parameter is reserved and must be set to zero.
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 
@@ -82,35 +82,39 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 The 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385398(v=VS.85).aspx">SetContext</a> method must be called prior to calling this method. The call to <b>SetContext</b> specifies which request is the current context.
+<a href="https://msdn.microsoft.com/ba45cda8-49a5-4bd6-af68-90b4b56aff7d">SetContext</a> method must be called prior to calling this method. The call to <b>SetContext</b> specifies which request is the current context.
 
-To retrieve the extension, call the <a href="https://msdn.microsoft.com/en-us/library/Aa385084(v=VS.85).aspx">EnumerateExtensions</a> method. The call to <b>EnumerateExtensions</b> retrieves the first extension and moves the index to the next extension if one exists.
+To retrieve the extension, call the <a href="https://msdn.microsoft.com/565ff4d5-0d22-466d-8458-f98b992a1868">EnumerateExtensions</a> method. The call to <b>EnumerateExtensions</b> retrieves the first extension and moves the index to the next extension if one exists.
 
 
 #### Examples
 
-
-```cpp
-// Set the context. The value nContext (long) would be the same
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Set the context. The value nContext (long) would be the same
 // as the context parameter in ICertPolicy::VerifyRequest.
 // hr is defined as an HRESULT.
 // pCertServerPolicy has been used to call SetContext previously.
-hr = pCertServerPolicy->SetContext( nContext );
+hr = pCertServerPolicy-&gt;SetContext( nContext );
 if (FAILED(hr))
 {
     printf("Failed SetContext [%x]\n", hr);
     goto error;
 }
 // Setup the enumeration.
-hr = pCertServerPolicy->EnumerateExtensionsSetup( 0 );
+hr = pCertServerPolicy-&gt;EnumerateExtensionsSetup( 0 );
 if (FAILED(hr))
 {
     printf("Failed EnumerateExtensionsSetup [%x]\n", hr);
     goto error;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -119,15 +123,15 @@ if (FAILED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385084(v=VS.85).aspx">EnumerateExtensions</a>
+<a href="https://msdn.microsoft.com/565ff4d5-0d22-466d-8458-f98b992a1868">EnumerateExtensions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385080(v=VS.85).aspx">ICertServerPolicy</a>
+<a href="https://msdn.microsoft.com/7d16161e-9827-46a0-9989-30ebca792bb1">ICertServerPolicy</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385398(v=VS.85).aspx">SetContext</a>
+<a href="https://msdn.microsoft.com/ba45cda8-49a5-4bd6-af68-90b4b56aff7d">SetContext</a>
  
 
  

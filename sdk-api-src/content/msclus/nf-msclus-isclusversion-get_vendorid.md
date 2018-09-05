@@ -7,7 +7,7 @@ old-location: mscs\clusversion_vendorid.htm
 old-project: mscs
 ms.assetid: d7d4b2cd-bb61-429a-970a-4e69113d42a8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusVersion object [Failover Cluster],VendorId property, ClusVersion.VendorId, ISClusVersion.get_VendorId, ISClusVersion::get_VendorId, VendorId property [Failover Cluster], VendorId property [Failover Cluster],ClusVersion object, _wolf_clusversion.vendorid, get_VendorId, mscs.clusversion_vendorid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
     in subsequent versions.]
 
 Returns vendor 
-    information about the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">Cluster service</a> installed on 
+    information about the <a href="c_gly.htm">Cluster service</a> installed on 
     the local <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a>.
 
 This property is read-only.
@@ -72,7 +72,7 @@ This property is read-only.
 
 
 All <a href="https://msdn.microsoft.com/2215335a-1858-437f-8654-2e9d601fe061">ClusVersion</a> properties are static values 
-    corresponding the state of the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> when the 
+    corresponding the state of the <a href="c_gly.htm">cluster</a> when the 
     <b>ClusVersion</b> object was first created. To obtain the 
     latest version information from the cluster, create a new 
     <b>ClusVersion</b> object.

@@ -7,7 +7,7 @@ old-location: com\iolewindow.htm
 old-project: com
 ms.assetid: 2d0efbae-4a1c-43b1-9021-8d89377f7282
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IOleWindow, IOleWindow interface [COM], IOleWindow interface [COM],described, _ole_iolewindow, com.iolewindow, oleidl/IOleWindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ The <b>IOleWindow</b> interface provides methods that allow an application to ob
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleWindow</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IOleWindow</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOleWindow</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IOleWindow</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

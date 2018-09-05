@@ -7,7 +7,7 @@ old-location: uianimation\ui_animation_mode.htm
 old-project: UIAnimation
 ms.assetid: b8995687-c0dc-4cd7-b11a-f871172895f9
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: UI_ANIMATION_MODE, UI_ANIMATION_MODE enumeration [Windows Animation], UI_ANIMATION_MODE_DISABLED, UI_ANIMATION_MODE_ENABLED, UI_ANIMATION_MODE_SYSTEM_DEFAULT, __MIDL___MIDL_itf_UIAnimation_0000_0000_0003, uianimation.ui_animation_mode, uianimation/UI_ANIMATION_MODE, uianimation/UI_ANIMATION_MODE_DISABLED, uianimation/UI_ANIMATION_MODE_ENABLED, uianimation/UI_ANIMATION_MODE_SYSTEM_DEFAULT
 ms.prod: windows
 ms.technology: windows-sdk

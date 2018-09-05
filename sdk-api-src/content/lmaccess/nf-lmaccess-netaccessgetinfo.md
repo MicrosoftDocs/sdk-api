@@ -7,7 +7,7 @@ old-location: netmgmt\netaccessgetinfo.htm
 old-project: netmgmt
 ms.assetid: 76d818db-ce13-4879-9ba5-c26d13fe098a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: 0, 1, NetAccessGetInfo, NetAccessGetInfo function [Network Management], _win32_netaccessgetinfo, lmaccess/NetAccessGetInfo, netmgmt.netaccessgetinfo
 ms.prod: windows
 ms.technology: windows-sdk

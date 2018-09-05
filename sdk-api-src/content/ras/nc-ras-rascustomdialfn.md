@@ -4,10 +4,10 @@ title: RasCustomDialFn
 author: windows-sdk-content
 description: The RasCustomDial function is an application-defined function that is exported by a third-party custom-dialing DLL. This function allows third-party vendors to implement custom remote-access dialing routines.
 old-location: rras\rascustomdial.htm
-old-project: rras
+old-project: RRAS
 ms.assetid: 8c3f807b-3e31-4ce6-8549-74ab06cbba7f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RasCustomDial, RasCustomDial callback function [RAS], RasCustomDialA, RasCustomDialFn, RasCustomDialFn callback, RasCustomDialW, _ras_rascustomdial, ras/RasCustomDial, ras/RasCustomDialA, ras/RasCustomDialW, rras.rascustomdial
 ms.prod: windows
 ms.technology: windows-sdk

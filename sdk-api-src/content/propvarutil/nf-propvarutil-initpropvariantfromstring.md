@@ -94,21 +94,25 @@ This is an inline function, with its source code provided in the header. It is n
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762305(v=VS.85).aspx">InitPropVariantFromString</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromString">InitPropVariantFromString</a>.
 
-
-```cpp
-PROPVARIANT propvar;
-HRESULT hr = InitPropVariantFromString(L"Hello World", &propvar);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>PROPVARIANT propvar;
+HRESULT hr = InitPropVariantFromString(L"Hello World", &amp;propvar);
 
 if (SUCCEEDED(hr))
 {
     // propvar now is valid and has type VT_LPWSTR.
-    PropVariantClear(&propvar);
-}
-```
-
-
+    PropVariantClear(&amp;propvar);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -117,23 +121,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762306(v=VS.85).aspx">InitPropVariantFromStringAsVector</a>
+<a href="shell.InitPropVariantFromStringAsVector">InitPropVariantFromStringAsVector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762307(v=VS.85).aspx">InitPropVariantFromStringVector</a>
+<a href="shell.InitPropVariantFromStringVector">InitPropVariantFromStringVector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762335(v=VS.85).aspx">InitVariantFromString</a>
+<a href="shell.InitVariantFromString">InitVariantFromString</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776559(v=VS.85).aspx">PropVariantToString</a>
+<a href="shell.PropVariantToString">PropVariantToString</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776563(v=VS.85).aspx">PropVariantToStringWithDefault</a>
+<a href="shell.PropVariantToStringWithDefault">PropVariantToStringWithDefault</a>
  
 
  

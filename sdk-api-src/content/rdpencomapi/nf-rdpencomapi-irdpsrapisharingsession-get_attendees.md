@@ -4,10 +4,10 @@ title: IRDPSRAPISharingSession::get_Attendees
 author: windows-sdk-content
 description: Returns an object implementing the IRDPSRAPIAttendeeManager interface.
 old-location: rdp\irdpsrapisharingsession_attendees.htm
-old-project: rdp
+old-project: Rdp
 ms.assetid: bcbc8f16-855d-4835-966c-73773f3ac6d4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Attendees property [RDP], Attendees property [RDP],IRDPSRAPISharingSession interface, Attendees property [RDP],IRDPSRAPISharingSession2 interface, Attendees property [RDP],RDPSession object, IRDPSRAPISharingSession interface [RDP],Attendees property, IRDPSRAPISharingSession.Attendees, IRDPSRAPISharingSession.get_Attendees, IRDPSRAPISharingSession2 interface [RDP],Attendees property, IRDPSRAPISharingSession2.Attendees, IRDPSRAPISharingSession2::Attendees, IRDPSRAPISharingSession2::get_Attendees, IRDPSRAPISharingSession::get_Attendees, RDPSession object [RDP],Attendees property, get_Attendees, rdp.irdpsrapisharingsession_attendees, rdpencomapi/IRDPSRAPISharingSession2::Attendees, rdpencomapi/IRDPSRAPISharingSession2::get_Attendees, rdpencomapi/IRDPSRAPISharingSession::Attendees, rdpencomapi/IRDPSRAPISharingSession::get_Attendees
 ms.prod: windows
 ms.technology: windows-sdk

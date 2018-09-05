@@ -7,7 +7,7 @@ old-location: com\olereggetusertype.htm
 old-project: com
 ms.assetid: 492a4084-494e-4d78-8f3a-853ec486a2d6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: OleRegGetUserType, OleRegGetUserType function [COM], _com_OleRegGetUserType, com.olereggetusertype, ole2/OleRegGetUserType
 ms.prod: windows
 ms.technology: windows-sdk

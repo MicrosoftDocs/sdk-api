@@ -137,17 +137,21 @@ These additional error conditions are tracked by the audio engine.
 
 If this method is used to initialize an APO without the need to initialize any data, it is acceptable to supply a <b>NULL</b> as the value of the pbyData parameter and a 0 (zero) as the value of the cbDataSize parameter. The data that is supplied is of variable length and must have the following format:
 
-
-```
-Struct MyAPOInitializationData
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>Struct MyAPOInitializationData
 {
 APOInitBaseStruct APOInit;
 // list additional struct members here
 // ...
-};
-```
-
-
+};</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

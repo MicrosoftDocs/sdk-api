@@ -7,7 +7,7 @@ old-location: setup\error_type.htm
 old-project: msi
 ms.assetid: 5567ba71-c815-4434-962c-aa46cd171712
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Error object,Type property, Error.Type, IMsmError.get_Type, IMsmError::get_Type, Type property, Type property,Error object, _msi_type_property_error_object_, get_Type, setup.error_type
 ms.prod: windows
 ms.technology: windows-sdk

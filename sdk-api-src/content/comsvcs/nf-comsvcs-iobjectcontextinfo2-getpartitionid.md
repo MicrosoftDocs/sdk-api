@@ -7,7 +7,7 @@ old-location: cos\iobjectcontextinfo2_getpartitionid.htm
 old-project: cossdk
 ms.assetid: 090afcec-d124-4b7c-822a-ecb56f9037a6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetPartitionId, GetPartitionId method [COM+], GetPartitionId method [COM+],IObjectContextInfo2 interface, IObjectContextInfo2 interface [COM+],GetPartitionId method, IObjectContextInfo2.GetPartitionId, IObjectContextInfo2::GetPartitionId, _cos_IObjectContextInfo2_GetPartitionId, comsvcs/IObjectContextInfo2::GetPartitionId, cos.iobjectcontextinfo2_getpartitionid
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: rdc\ifindsimilarresults_getnextfileid.htm
 old-project: Rdc
 ms.assetid: 881e0ae6-311f-4bc4-9660-b0e96b7b9bd2
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: GetNextFileId, GetNextFileId method [Remote Differential Compression], GetNextFileId method [Remote Differential Compression],IFindSimilarResults interface, IFindSimilarResults interface [Remote Differential Compression],GetNextFileId method, IFindSimilarResults.GetNextFileId, IFindSimilarResults::GetNextFileId, fs.ifindsimilarresults_getnextfileid, msrdc/IFindSimilarResults::GetNextFileId, rdc.ifindsimilarresults_getnextfileid
 ms.prod: windows
 ms.technology: windows-sdk

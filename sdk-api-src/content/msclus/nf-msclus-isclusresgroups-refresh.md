@@ -7,7 +7,7 @@ old-location: mscs\clusresgroups_refresh.htm
 old-project: mscs
 ms.assetid: 09945337-86b7-495f-9f34-90efb238629a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusResGroups collection [Failover Cluster],Refresh method, ClusResGroups.Refresh, ISClusResGroups.Refresh, ISClusResGroups::Refresh, Refresh, Refresh method [Failover Cluster], Refresh method [Failover Cluster],ClusResGroups collection, _wolf_clusresgroups.refresh, mscs.clusresgroups_refresh
 ms.prod: windows
 ms.technology: windows-sdk

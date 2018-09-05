@@ -143,7 +143,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
 Specifies information about the shared resource, including the name of the resource, type and permissions, number of connections, and other pertinent information. The <i>buf</i> parameter points to a 
-<a href="https://msdn.microsoft.com/en-us/library/Cc462916(v=VS.85).aspx">SHARE_INFO_503</a> structure. If the <b>shi503_servername</b> member of this structure is "*", there is no configured server name.
+<a href="fs.share_info_503">SHARE_INFO_503</a> structure. If the <b>shi503_servername</b> member of this structure is "*", there is no configured server name.
 
 <b>Windows Server 2003 and Windows XP:  </b>This information level is not supported.
 
@@ -265,7 +265,7 @@ For interactive users (users who are logged on locally to the machine), no speci
 If you are programming for Active Directory, you may be able to call certain Active Directory Service Interface (ADSI) methods to achieve the same functionality you can achieve by calling the network management share functions. For more information, see 
 <a href="https://msdn.microsoft.com/37695195-fc33-499d-98c1-ccfd190cb2f9">IADsFileShare</a>.
 
-If 503 is specified for the <i>level</i> parameter, the remote server specified in the <b>shi503_servername</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Cc462916(v=VS.85).aspx">SHARE_INFO_503</a> structure must have been bound to a transport protocol using the <a href="https://msdn.microsoft.com/d1edc75d-8313-422c-a6fb-8b51a309a252">NetServerTransportAddEx</a> function. In the call to  <b>NetServerTransportAddEx</b>, either 2 or 3 must have been specified for the <i>level</i> parameter, and the <b>SVTI2_SCOPED_NAME</b> flag must have been specified in the <a href="https://msdn.microsoft.com/b422eb71-1f93-432d-8283-81432edfe568">SERVER_TRANSPORT_INFO_2</a> structure for the transport protocol.
+If 503 is specified for the <i>level</i> parameter, the remote server specified in the <b>shi503_servername</b> member of the <a href="fs.share_info_503">SHARE_INFO_503</a> structure must have been bound to a transport protocol using the <a href="https://msdn.microsoft.com/d1edc75d-8313-422c-a6fb-8b51a309a252">NetServerTransportAddEx</a> function. In the call to  <b>NetServerTransportAddEx</b>, either 2 or 3 must have been specified for the <i>level</i> parameter, and the <b>SVTI2_SCOPED_NAME</b> flag must have been specified in the <a href="https://msdn.microsoft.com/b422eb71-1f93-432d-8283-81432edfe568">SERVER_TRANSPORT_INFO_2</a> structure for the transport protocol.
 
 
 #### Examples
@@ -276,14 +276,18 @@ The following code sample demonstrates how to retrieve information about a parti
 <a href="https://msdn.microsoft.com/306e6704-2068-42da-bcc4-c0772c719ee8">SHARE_INFO_502</a>). If the call succeeds, the code prints the retrieved data. The sample also calls the 
 <a href="https://msdn.microsoft.com/24a98229-11e4-45ef-988b-c2cf831275e7">IsValidSecurityDescriptor</a> function to validate the <b>shi502_security_descriptor</b> member. Finally, the sample frees the memory allocated for the information buffer.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
-#include <windows.h>
-#include <stdio.h>
-#include <lm.h>
+#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;lm.h&gt;
 
 #pragma comment(lib, "Netapi32.lib")
 #pragma comment(lib, "Advapi32.lib")
@@ -304,23 +308,23 @@ void wmain( int argc, TCHAR *lpszArgv[ ])
       lpszShare = lpszArgv[1];
       break;
    default:
-      printf("Usage: NetShareGetInfo sharename <servername>\n");
+      printf("Usage: NetShareGetInfo sharename &lt;servername&gt;\n");
       return;
    }
    //
    // Call the NetShareGetInfo function, specifying level 502.
    //
-   if((res = NetShareGetInfo (lpszServer,lpszShare,502,(LPBYTE *) &BufPtr)) == ERROR_SUCCESS)
+   if((res = NetShareGetInfo (lpszServer,lpszShare,502,(LPBYTE *) &amp;BufPtr)) == ERROR_SUCCESS)
    {
       //
       // Print the retrieved data.
       //
-      printf("%S\t%S\t%u\n",BufPtr->shi502_netname, BufPtr->shi502_path, BufPtr->shi502_current_uses);
+      printf("%S\t%S\t%u\n",BufPtr-&gt;shi502_netname, BufPtr-&gt;shi502_path, BufPtr-&gt;shi502_current_uses);
       //
       // Validate the value of the 
       //  shi502_security_descriptor member.
       //
-      if (IsValidSecurityDescriptor(BufPtr->shi502_security_descriptor))
+      if (IsValidSecurityDescriptor(BufPtr-&gt;shi502_security_descriptor))
          printf("It has a valid Security Descriptor.\n");
       else
          printf("It does not have a valid Security Descriptor.\n");
@@ -333,10 +337,10 @@ void wmain( int argc, TCHAR *lpszArgv[ ])
       printf("Error: %ld\n",res);
    return;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -391,7 +395,7 @@ void wmain( int argc, TCHAR *lpszArgv[ ])
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Cc462916(v=VS.85).aspx">SHARE_INFO_503</a>
+<a href="fs.share_info_503">SHARE_INFO_503</a>
  
 
  

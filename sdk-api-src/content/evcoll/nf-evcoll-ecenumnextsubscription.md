@@ -7,7 +7,7 @@ old-location: wec\ecenumnextsubscription.htm
 old-project: WEC
 ms.assetid: 4228c9ca-6143-4301-8ff3-0ee296a53239
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: EcEnumNextSubscription, EcEnumNextSubscription function, evcoll/EcEnumNextSubscription, wec.ecenumnextsubscription, wes.ecenumnextsubscription
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,7 @@ The size of the user-supplied buffer that is used by the function on successful 
 
 
 
-This function returns BOOL __stdcall.
+This function returns BOOL.
 
 
 

@@ -4,10 +4,10 @@ title: ICertSrvSetup::CAImportPFX
 author: windows-sdk-content
 description: Imports a certification authority (CA) certificate and its associated private key into the local computer store.
 old-location: security\icertsrvsetup_caimportpfx.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: a661b74b-04ba-49b9-bde2-3e368ae6228e
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CAImportPFX, CAImportPFX method [Security], CAImportPFX method [Security],ICertSrvSetup interface, ICertSrvSetup interface [Security],CAImportPFX method, ICertSrvSetup.CAImportPFX, ICertSrvSetup::CAImportPFX, casetup/ICertSrvSetup::CAImportPFX, security.icertsrvsetup_caimportpfx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>CAImportPFX</b> method imports a <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> (CA) certificate and its associated <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">private key</a> into the local computer store. This method does not change the state of the <b>CCertSrvSetup</b> object.
+The <b>CAImportPFX</b> method imports a <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) certificate and its associated <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a> into the local computer store. This method does not change the state of the <b>CCertSrvSetup</b> object.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ The <b>CAImportPFX</b> method imports a <a href="https://msdn.microsoft.com/en-u
 
 ### -param bstrFileName [in]
 
-A string that contains the name of a PFX file used to import a <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">private key</a>.
+A string that contains the name of a PFX file used to import a <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private key</a>.
 
 
 ### -param bstrPasswd [in]
@@ -76,14 +76,14 @@ A value that indicates whether to overwrite an existing key of the same name.
 
 ### -param ppVal [out]
 
-The address of a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Bb736372(v=VS.85).aspx">ICertSrvSetupKeyInformation</a> interface that can be used to set properties of the imported private key.
+The address of a pointer to an <a href="https://msdn.microsoft.com/d27c9ba5-ddee-4c9c-b812-e61b974b515a">ICertSrvSetupKeyInformation</a> interface that can be used to set properties of the imported private key.
 
 
 ## -remarks
 
 
 
-The <b>CAImportPFX</b> method uses the input parameters to decrypt and decode a PFX file and then installs the key and <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate</a> in the local computer store. If the certificate satisfies the following criteria and after installation of the key, the method returns an <a href="https://msdn.microsoft.com/en-us/library/Bb736372(v=VS.85).aspx">ICertSrvSetupKeyInformation</a> object to the caller.
+The <b>CAImportPFX</b> method uses the input parameters to decrypt and decode a PFX file and then installs the key and <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate</a> in the local computer store. If the certificate satisfies the following criteria and after installation of the key, the method returns an <a href="https://msdn.microsoft.com/d27c9ba5-ddee-4c9c-b812-e61b974b515a">ICertSrvSetupKeyInformation</a> object to the caller.
 
 <ul>
 <li>Contains an AT_SIGNATURE key that matches the key in the private key container.
@@ -92,7 +92,7 @@ The <b>CAImportPFX</b> method uses the input parameters to decrypt and decode a 
 <li>Passes chain validation but might have an offline revocation error.
 </li>
 </ul>
-If the PFX file contains multiple certificates and keys, <b>CAImportPFX</b> installs all of the certificates and keys; however, the returned <a href="https://msdn.microsoft.com/en-us/library/Bb736372(v=VS.85).aspx">ICertSrvSetupKeyInformation</a> object only contains properties of the last CA certificate in the file. When the caller finishes using the <b>ICertSrvSetupKeyInformation</b> object, the caller must release it by using the <a href="http://go.microsoft.com/fwlink/p/?linkid=96732">Release</a> method.
+If the PFX file contains multiple certificates and keys, <b>CAImportPFX</b> installs all of the certificates and keys; however, the returned <a href="https://msdn.microsoft.com/d27c9ba5-ddee-4c9c-b812-e61b974b515a">ICertSrvSetupKeyInformation</a> object only contains properties of the last CA certificate in the file. When the caller finishes using the <b>ICertSrvSetupKeyInformation</b> object, the caller must release it by using the <a href="http://go.microsoft.com/fwlink/p/?linkid=96732">Release</a> method.
 
 
 
@@ -102,7 +102,7 @@ If the PFX file contains multiple certificates and keys, <b>CAImportPFX</b> inst
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb736371(v=VS.85).aspx">ICertSrvSetup</a>
+<a href="https://msdn.microsoft.com/6792a0d6-d304-481d-a97b-5fb7033c7eae">ICertSrvSetup</a>
  
 
  

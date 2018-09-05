@@ -4,10 +4,10 @@ title: SLInstallLicense function
 author: windows-sdk-content
 description: Stores the specified license and returns a license file ID.
 old-location: security\slinstalllicense.htm
-old-project: secslapi
+old-project: SecSLApi
 ms.assetid: 39b14ce1-116b-4469-9e95-8cc4db70171a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SLInstallLicense, SLInstallLicense function [Security], security.slinstalllicense, slpublic/SLInstallLicense
 ms.prod: windows
 ms.technology: windows-sdk

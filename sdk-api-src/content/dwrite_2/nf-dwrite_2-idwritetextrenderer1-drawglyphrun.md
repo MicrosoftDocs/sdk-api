@@ -7,7 +7,7 @@ old-location: directwrite\idwritetextrenderer1_drawglyphrun.htm
 old-project: DirectWrite
 ms.assetid: b5f24a23-fb81-90f3-85de-55d8599a18d3
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: DrawGlyphRun, DrawGlyphRun method [Direct Write], DrawGlyphRun method [Direct Write],IDWriteTextRenderer1 interface, IDWriteTextRenderer1 interface [Direct Write],DrawGlyphRun method, IDWriteTextRenderer1.DrawGlyphRun, IDWriteTextRenderer1::DrawGlyphRun, directwrite.idwritetextrenderer1_drawglyphrun, dwrite_2/IDWriteTextRenderer1::DrawGlyphRun
 ms.prod: windows
 ms.technology: windows-sdk

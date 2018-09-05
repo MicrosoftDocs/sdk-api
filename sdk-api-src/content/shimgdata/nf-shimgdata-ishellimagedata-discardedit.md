@@ -7,7 +7,7 @@ old-location: shell\IShellImageData_DiscardEdit.htm
 old-project: shell
 ms.assetid: 9bd16fa1-530d-46c7-bd1b-4ec9bf596881
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: DiscardEdit, DiscardEdit method [Windows Shell], DiscardEdit method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],DiscardEdit method, IShellImageData.DiscardEdit, IShellImageData::DiscardEdit, _shell_IShellImageData_DiscardEdit, shell.IShellImageData_DiscardEdit, shimgdata/IShellImageData::DiscardEdit
 ms.prod: windows
 ms.technology: windows-sdk

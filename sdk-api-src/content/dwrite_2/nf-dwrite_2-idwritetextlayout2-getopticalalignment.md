@@ -7,7 +7,7 @@ old-location: directwrite\idwritetextlayout2_getopticalalignment.htm
 old-project: DirectWrite
 ms.assetid: C372B1F9-E874-48AE-B22E-72D883B6DBF9
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetOpticalAlignment, GetOpticalAlignment method [Direct Write], GetOpticalAlignment method [Direct Write],IDWriteTextLayout2 interface, IDWriteTextLayout2 interface [Direct Write],GetOpticalAlignment method, IDWriteTextLayout2.GetOpticalAlignment, IDWriteTextLayout2::GetOpticalAlignment, directwrite.idwritetextlayout2_getopticalalignment, dwrite_2/IDWriteTextLayout2::GetOpticalAlignment
 ms.prod: windows
 ms.technology: windows-sdk

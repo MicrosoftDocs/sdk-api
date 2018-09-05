@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevice_content.htm
 old-project: wpd_sdk
 ms.assetid: f65ff0b5-ca3b-498f-9c5e-36a76104d220
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Content, Content method [Windows Portable Devices SDK], Content method [Windows Portable Devices SDK],IPortableDevice interface, IPortableDevice interface [Windows Portable Devices SDK],Content method, IPortableDevice.Content, IPortableDevice::Content, IPortableDeviceContent, portabledeviceapi/IPortableDevice::Content, wpdsdk.iportabledevice_content
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ The <b>Content</b> method retrieves an interface that you can use to access obje
 
 ### -param ppContent [out]
 
-Address of a variable that receives a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Dd388529(v=VS.85).aspx">IPortableDeviceContent</a> interface that is used to access the content on a device. The caller must release this interface when it is done with it.
+Address of a variable that receives a pointer to an <a href="wpdsdk.iportabledevicecontent">IPortableDeviceContent</a> interface that is used to access the content on a device. The caller must release this interface when it is done with it.
           
 
 

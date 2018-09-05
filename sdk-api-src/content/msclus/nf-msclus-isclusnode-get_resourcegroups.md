@@ -7,7 +7,7 @@ old-location: mscs\clusnode_resourcegroups.htm
 old-project: mscs
 ms.assetid: 45eae46b-54d2-4945-aab1-8b471df64881
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusNode object [Failover Cluster],ResourceGroups property, ClusNode.ResourceGroups, ISClusNode.get_ResourceGroups, ISClusNode::get_ResourceGroups, ResourceGroups property [Failover Cluster], ResourceGroups property [Failover Cluster],ClusNode object, _wolf_clusnode.resourcegroups, get_ResourceGroups, mscs.clusnode_resourcegroups
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,7 +72,7 @@ This property is read-only.
 
 
 To retrieve information about all of the groups in the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>, use the 
+    <a href="c_gly.htm">cluster</a>, use the 
     <a href="https://msdn.microsoft.com/449e4432-571c-403c-81c7-da50f455224c">Cluster.ResourceGroups</a> property.
 
 

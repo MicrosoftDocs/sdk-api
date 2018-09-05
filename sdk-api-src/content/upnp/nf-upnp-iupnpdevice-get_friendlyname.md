@@ -4,10 +4,10 @@ title: IUPnPDevice::get_FriendlyName
 author: windows-sdk-content
 description: The FriendlyName property specifies the device display name for the device.
 old-location: upnp\iupnpdevice_friendlyname.htm
-old-project: upnp
+old-project: UPnP
 ms.assetid: dd24384f-2657-4cb0-812e-1b51d53b73de
 ms.author: windowssdkdev
-ms.date: 08/16/2018
+ms.date: 08/29/2018
 ms.keywords: IUPnPDevice interface [UPnP APIs],get_FriendlyName method, IUPnPDevice.get_FriendlyName, IUPnPDevice::get_FriendlyName, _upnp_iupnpdevice_friendlyname, get_FriendlyName, get_FriendlyName method [UPnP APIs], get_FriendlyName method [UPnP APIs],IUPnPDevice interface, upnp.iupnpdevice_friendlyname, upnp/IUPnPDevice::get_FriendlyName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ The
 
 ### -param pbstr [out]
 
-Receives a reference to a string that contains the device display name. Release this string with <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> when it is no longer required.
+Receives a reference to a string that contains the device display name. Release this string with <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> when it is no longer required.
 
 
 ## -returns

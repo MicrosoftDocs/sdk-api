@@ -7,7 +7,7 @@ old-location: base\registerwaitchaincomcallback.htm
 old-project: debug
 ms.assetid: f8adffa3-6e63-4fae-81e8-5f6643e988e9
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: RegisterWaitChainCOMCallback, RegisterWaitChainCOMCallback function, base.registerwaitchaincomcallback, wct/RegisterWaitChainCOMCallback
 ms.prod: windows
 ms.technology: windows-sdk

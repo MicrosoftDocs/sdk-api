@@ -7,7 +7,7 @@ old-location: setup\msiverifydiskspace.htm
 old-project: msi
 ms.assetid: 5b1ded22-37a4-4026-872a-20ac3a69fe86
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MsiVerifyDiskSpace, MsiVerifyDiskSpace function, _msi_msiverifydiskspace, msiquery/MsiVerifyDiskSpace, setup.msiverifydiskspace
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ Handle to the installation provided to a DLL custom action or obtained through <
 
 
 
-This function returns UINT __stdcall.
+This function returns UINT.
 
 
 
@@ -90,7 +90,7 @@ See
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Installer Selection Functions</a>
+<a href="database_functions.htm">Installer Selection Functions</a>
  
 
  

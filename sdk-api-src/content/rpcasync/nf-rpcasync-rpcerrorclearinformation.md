@@ -4,10 +4,10 @@ title: RpcErrorClearInformation function
 author: windows-sdk-content
 description: The RpcErrorClearInformation function clears all extended error information on the current thread.
 old-location: rpc\rpcerrorclearinformation.htm
-old-project: rpc
+old-project: Rpc
 ms.assetid: ff96904c-285d-4d39-af3b-bf295c29e62f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcErrorClearInformation, RpcErrorClearInformation function [RPC], _rpc_rpcerrorclearinformation, rpc.rpcerrorclearinformation, rpcasync/RpcErrorClearInformation
 ms.prod: windows
 ms.technology: windows-sdk

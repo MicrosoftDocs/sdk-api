@@ -7,7 +7,7 @@ old-location: wmi\swbemservices_execmethodasync.htm
 old-project: WmiSdk
 ms.assetid: 933a4c64-7538-474e-9f6f-f94da6066b46
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: ExecMethodAsync, ExecMethodAsync method [Windows Management Instrumentation], ExecMethodAsync method [Windows Management Instrumentation],ISWbemServices interface, ExecMethodAsync method [Windows Management Instrumentation],SWbemServices object, ISWbemServices interface [Windows Management Instrumentation],ExecMethodAsync method, ISWbemServices.ExecMethodAsync, ISWbemServices::ExecMethodAsync, SWbemServices object [Windows Management Instrumentation],ExecMethodAsync method, SWbemServices.ExecMethodAsync, _hmm_swbemservices.execmethodasync, wbemFlagDontSendStatus, wbemFlagSendStatus, wmi.swbemservices_execmethodasync
 ms.prod: windows
 ms.technology: windows-sdk
@@ -147,7 +147,7 @@ This method does not return a value. If the call is successful, an
 If the method executed has input parameters, the <a href="https://msdn.microsoft.com/fba1bb97-29f9-41d3-8ecc-f283989118c1">InParameters</a> object in the <i>objWbemInParam</i> parameter must be the same as the description in 
 the <a href="https://msdn.microsoft.com/be9332b5-8094-44a2-8632-af9957ecf36b">Constructing InParameters Objects and Parsing OutParameters Objects</a> topics.
 
-Use <b>SWbemServices.ExecMethodAsync</b> as an alternative to direct access for executing a <a href="https://msdn.microsoft.com/en-us/library/Aa390825(v=VS.85).aspx">provider method</a> when it is not possible to execute a method directly. For example, use it with a scripting language that does not support output parameters, that is, if your method has OUT parameters. Otherwise, it is recommended  that you use  direct access to invoke a method. For more information, see 
+Use <b>SWbemServices.ExecMethodAsync</b> as an alternative to direct access for executing a <a href="gloss_p.htm">provider method</a> when it is not possible to execute a method directly. For example, use it with a scripting language that does not support output parameters, that is, if your method has OUT parameters. Otherwise, it is recommended  that you use  direct access to invoke a method. For more information, see 
 <a href="https://msdn.microsoft.com/682cbe12-1487-4681-8d2f-4caf21cb068a">Manipulating Class and Instance Information</a>.
 
 The <b>SWbemServices.ExecMethodAsync</b> method requires an object path. If the script already contains an <a href="https://msdn.microsoft.com/d303ec1a-5e0c-4a5e-8ed3-ed353a138755">SWbemObject</a> object, you can call <a href="https://msdn.microsoft.com/b848b38b-c0c3-49cd-b1e2-b0a440b82d61">SWbemObject.ExecMethodAsync</a>.
@@ -170,9 +170,13 @@ The following code example shows the
 <a href="https://msdn.microsoft.com/be80abec-fab4-4403-bc29-d0d4a38e3c87">Create Method in Class Win32_Process</a>. For an example of the same operation using <a href="https://msdn.microsoft.com/d303ec1a-5e0c-4a5e-8ed3-ed353a138755">SWbemObject</a>, see 
 <a href="https://msdn.microsoft.com/b848b38b-c0c3-49cd-b1e2-b0a440b82d61">SWbemObject.ExecMethodAsync</a>.
 
-
-```vb
-' Connect to WMI.
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>' Connect to WMI.
 set Services = getobject("winmgmts:root\cimv2")
 
 ' Obtain the class definition object
@@ -218,19 +222,19 @@ wend
 ' Sink subroutines
 sub Sink_OnObjectReady(oOutParams, oContext)
     wscript.echo "Sink_OnObjectReady subroutine " _ 
-        &VBCR & "ReturnValue = " _
-        & oOutParams.ReturnValue &VBCR & _
-        "ProcessId = " & oOutParams.ProcessId
+        &amp;VBCR &amp; "ReturnValue = " _
+        &amp; oOutParams.ReturnValue &amp;VBCR &amp; _
+        "ProcessId = " &amp; oOutParams.ProcessId
 end sub
 
 sub Sink_OnCompleted(HResult, LastErrorObj, oContext)
     wscript.echo "Sink_OnCompleted subroutine, hresult = " _
-        & hex(HResult)
+        &amp; hex(HResult)
     bdone = true
-end sub
-```
-
-
+end sub</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

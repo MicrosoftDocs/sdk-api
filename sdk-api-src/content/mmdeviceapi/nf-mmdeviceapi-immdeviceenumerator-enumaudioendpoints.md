@@ -7,7 +7,7 @@ old-location: coreaudio\immdeviceenumerator_enumaudioendpoints.htm
 old-project: CoreAudio
 ms.assetid: ebdd2dcd-82c5-423f-a85d-04388f5078ec
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: EnumAudioEndpoints, EnumAudioEndpoints method [Core Audio], EnumAudioEndpoints method [Core Audio],IMMDeviceEnumerator interface, IMMDeviceEnumerator interface [Core Audio],EnumAudioEndpoints method, IMMDeviceEnumerator.EnumAudioEndpoints, IMMDeviceEnumerator::EnumAudioEndpoints, IMMDeviceEnumeratorEnumAudioEndpoints, coreaudio.immdeviceenumerator_enumaudioendpoints, mmdeviceapi/IMMDeviceEnumerator::EnumAudioEndpoints
 ms.prod: windows
 ms.technology: windows-sdk
@@ -152,16 +152,20 @@ Out of memory.
 
 For example, the following call enumerates all audio-rendering endpoint devices that are currently active (present and not disabled):
 
-
-```cpp
-
-  hr = pDevEnum->EnumAudioEndpoints(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+  hr = pDevEnum-&gt;EnumAudioEndpoints(
                    eRender, DEVICE_STATE_ACTIVE,
-                   &pEndpoints);
-
-```
-
-
+                   &amp;pEndpoints);
+</pre>
+</td>
+</tr>
+</table></span></div>
 In the preceding code fragment, variable <i>hr</i> is of type <b>HRESULT</b>, <i>pDevEnum</i> is a pointer to an <b>IMMDeviceEnumerator</b> interface, and <i>pEndpoints</i> is a pointer to an <b>IMMDeviceCollection</b> interface.
 
 

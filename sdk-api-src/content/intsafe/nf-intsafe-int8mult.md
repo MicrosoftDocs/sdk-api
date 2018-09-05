@@ -7,7 +7,7 @@ old-location: shell\Int8Mult.htm
 old-project: shell
 ms.assetid: 0dbdd21a-b38b-4130-bc60-eef78a063ea8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: Int8Mult, Int8Mult function [Windows Shell], intsafe/Int8Mult, shell.Int8Mult
 ms.prod: windows
 ms.technology: windows-sdk

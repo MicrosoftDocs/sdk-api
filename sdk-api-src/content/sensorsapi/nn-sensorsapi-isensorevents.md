@@ -7,7 +7,7 @@ old-location: winsensors\isensorevents.htm
 old-project: SensorsAPI
 ms.assetid: 41acbb4f-b4f8-4573-a993-ed93ec9494f0
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ISensorEvents, ISensorEvents interface [WinSensors], ISensorEvents interface [WinSensors],described, sensorsapi/ISensorEvents, winsensors.isensorevents
 ms.prod: windows
 ms.technology: windows-sdk

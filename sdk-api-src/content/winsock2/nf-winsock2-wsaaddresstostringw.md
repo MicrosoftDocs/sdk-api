@@ -4,10 +4,10 @@ title: WSAAddressToStringW function
 author: windows-sdk-content
 description: Converts all components of a sockaddr structure into a human-readable string representation of the address.
 old-location: winsock\wsaaddresstostring_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: d72e55e6-79a9-4386-9e1a-24a322f13426
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: WSAAddressToString, WSAAddressToString function [Winsock], WSAAddressToStringA, WSAAddressToStringW, _win32_wsaaddresstostring_2, winsock.wsaaddresstostring_2, winsock2/WSAAddressToString, winsock2/WSAAddressToStringA, winsock2/WSAAddressToStringW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,7 +92,7 @@ A pointer to the buffer that receives the human-readable address string.
 ### -param lpdwAddressStringLength [in, out]
 
 On input, this parameter specifies the length of the buffer pointed to by the <i>lpszAddressString</i> parameter. The length is represented in bytes for ANSI strings, and in WCHARs for Unicode strings. On output, this parameter returns the length of the string including the <b>NULL</b> terminator actually copied into the buffer pointed to by the <i>lpszAddressString</i> parameter. If the specified buffer is not large enough, the function fails with a specific error of 
-<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a> and this parameter is updated with the required size.
+<a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a> and this parameter is updated with the required size.
 
 
 ## -returns
@@ -111,7 +111,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -122,7 +122,7 @@ The specified <i>lpcsAddress</i>, <i>lpProtocolInfo</i>, and <i>lpszAddressStrin
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -133,7 +133,7 @@ An invalid parameter was passed. This error is returned if the <i>lpsaAddress</i
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOBUFS</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOBUFS</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -144,7 +144,7 @@ No buffer space is available.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -172,7 +172,7 @@ If the <i>lpsaAddress</i> parameter points to an IPv4 socket address (the addres
 If the <i>lpsaAddress</i> parameter points to an IPv6 socket address (the address family is  <b>AF_INET6</b>), then the address string returned in the buffer pointed to by the <i>lpszAddressString</i> parameter is  in Internet standard format. The basic string representation consists of 8 hexadecimal numbers separated by colons. A string of consecutive zero numbers is replaced with a double-colon. There can only be one double-colon in the string representation of the IPv6 address. 
 
 If the length of the buffer pointed to by the <i>lpszAddressString</i> parameter is not large enough to receive the string representation of the socket address, <b>WSAAddressToString</b> returns 
-								<a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a>. 
+								<a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a>. 
 
 Support for IPv6 addresses using the <b>WSAAddressToString</b> function was added on Windows XP with Service Pack 1 (SP1)and later. IPv6 must also be installed on the local computer for the <b>WSAAddressToString</b> function to support IPv6 addresses. 
 

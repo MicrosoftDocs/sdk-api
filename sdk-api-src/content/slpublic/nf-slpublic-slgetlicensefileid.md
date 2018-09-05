@@ -4,10 +4,10 @@ title: SLGetLicenseFileId function
 author: windows-sdk-content
 description: Checks if the license BLOB has been installed already.
 old-location: security\slgetlicensefileid.htm
-old-project: secslapi
+old-project: SecSLApi
 ms.assetid: b8474a25-2aef-43b6-85be-71dc287fd712
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SLGetLicenseFileId, SLGetLicenseFileId function [Security], security.slgetlicensefileid, slpublic/SLGetLicenseFileId
 ms.prod: windows
 ms.technology: windows-sdk

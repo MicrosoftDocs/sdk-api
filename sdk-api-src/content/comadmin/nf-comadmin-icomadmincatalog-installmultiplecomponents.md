@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog_installmultiplecomponents.htm
 old-project: cossdk
 ms.assetid: 7206c93b-43ca-402f-9a55-930f872d4201
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ICOMAdminCatalog interface [COM+],InstallMultipleComponents method, ICOMAdminCatalog.InstallMultipleComponents, ICOMAdminCatalog::InstallMultipleComponents, InstallMultipleComponents, InstallMultipleComponents method [COM+], InstallMultipleComponents method [COM+],ICOMAdminCatalog interface, _cos_ICOMAdminCatalog_InstallMultipleComponents, comadmin/ICOMAdminCatalog::InstallMultipleComponents, cos.icomadmincatalog_installmultiplecomponents
 ms.prod: windows
 ms.technology: windows-sdk
@@ -118,7 +118,7 @@ Errors occurred while accessing one or more objects.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee309561(v=VS.85).aspx">ICOMAdminCatalog</a>
+<a href="https://msdn.microsoft.com/2c3c49df-9ca5-40ea-b45c-f4eca1004602">ICOMAdminCatalog</a>
  
 
  

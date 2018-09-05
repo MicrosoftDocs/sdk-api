@@ -4,10 +4,10 @@ title: IWindowsMediaLibrarySharingDeviceProperties::get_Count
 author: windows-sdk-content
 description: The get_Count method retrieves the number of properties associated with an individual media device.
 old-location: wmlss\IWMLSDevicePropertiesget_Count.htm
-old-project: wmlss
+old-project: WMLSS
 ms.assetid: fd0d1031-875d-4081-b23b-fb2cf77c4f13
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IWindowsMediaLibrarySharingDeviceProperties interface [Windows Media Library Sharing Services],get_Count method, IWindowsMediaLibrarySharingDeviceProperties.get_Count, IWindowsMediaLibrarySharingDeviceProperties::get_Count, get_Count, get_Count method [Windows Media Library Sharing Services], get_Count method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingDeviceProperties interface, wmlss.IWMLSDevicePropertiesget_Count, wmlss/IWindowsMediaLibrarySharingDeviceProperties::get_Count
 ms.prod: windows
 ms.technology: windows-sdk

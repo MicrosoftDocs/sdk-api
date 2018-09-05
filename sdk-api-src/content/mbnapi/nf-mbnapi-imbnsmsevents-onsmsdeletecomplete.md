@@ -7,7 +7,7 @@ old-location: mbn\imbnsmsevents_onsmsdeletecomplete.htm
 old-project: mbn
 ms.assetid: bac1c7b3-fedc-47fb-822c-712805a86f6e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: E_MBN_BAD_SIM, E_MBN_PIN_REQUIRED, E_MBN_SIM_NOT_INSERTED, E_MBN_SMS_FILTER_NOT_SUPPORTED, E_MBN_SMS_INVALID_MEMORY_INDEX, E_MBN_SMS_MEMORY_FAILURE, HRESULT_FROM_WIN32(ERROR_NOT_SUPPORTED), IMbnSmsEvents interface [Microsoft Broadband Networks],OnSmsDeleteComplete method, IMbnSmsEvents.OnSmsDeleteComplete, IMbnSmsEvents::OnSmsDeleteComplete, OnSmsDeleteComplete, OnSmsDeleteComplete method [Microsoft Broadband Networks], OnSmsDeleteComplete method [Microsoft Broadband Networks],IMbnSmsEvents interface, S_OK, mbn.imbnsmsevents_onsmsdeletecomplete, mbnapi/IMbnSmsEvents::OnSmsDeleteComplete
 ms.prod: windows
 ms.technology: windows-sdk

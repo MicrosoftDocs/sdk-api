@@ -7,7 +7,7 @@ old-location: devinst\cm_is_dock_station_present_ex.htm
 old-project: devinst
 ms.assetid: d94411e6-a98d-4feb-adfb-6d94e3d33d46
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: CM_Is_Dock_Station_Present_Ex, CM_Is_Dock_Station_Present_Ex function [Device and Driver Installation], cfgmgr32/CM_Is_Dock_Station_Present_Ex, cfgmgrfn_9e17b4dc-d5ac-49fb-99f7-0fc1144e23f4.xml, devinst.cm_is_dock_station_present_ex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,12 +96,12 @@ Use this function to determine whether a docking station is present in a local o
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff539811(v=VS.85).aspx">CM_Request_Eject_PC</a> requests that a portable PC, which is inserted in a local docking station, be ejected.
+<a href="https://msdn.microsoft.com/45d8151a-67d0-4cb1-8593-4cfb271a3411">CM_Request_Eject_PC</a> requests that a portable PC, which is inserted in a local docking station, be ejected.
 
 </li>
 <li>
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff539815(v=VS.85).aspx">CM_Request_Eject_PC_Ex</a> requests that a portable PC, which is inserted in a local or a remote docking station, be ejected.
+<a href="https://msdn.microsoft.com/69bcbfa4-fb89-4b5f-bd0a-260569dfb466">CM_Request_Eject_PC_Ex</a> requests that a portable PC, which is inserted in a local or a remote docking station, be ejected.
 
 </li>
 </ul>
@@ -119,11 +119,11 @@ Use this function to determine whether a docking station is present in a local o
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff539811(v=VS.85).aspx">CM_Request_Eject_PC</a>
+<a href="https://msdn.microsoft.com/45d8151a-67d0-4cb1-8593-4cfb271a3411">CM_Request_Eject_PC</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff539815(v=VS.85).aspx">CM_Request_Eject_PC_Ex</a>
+<a href="https://msdn.microsoft.com/69bcbfa4-fb89-4b5f-bd0a-260569dfb466">CM_Request_Eject_PC_Ex</a>
  
 
  

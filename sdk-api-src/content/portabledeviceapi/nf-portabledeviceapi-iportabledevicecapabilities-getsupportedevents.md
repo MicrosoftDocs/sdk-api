@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevicecapabilities_getsupportedevents.htm
 old-project: wpd_sdk
 ms.assetid: f5082b2b-d925-4f9d-bbfd-edcf4553a6fa
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetSupportedEvents, GetSupportedEvents method [Windows Portable Devices SDK], GetSupportedEvents method [Windows Portable Devices SDK],IPortableDeviceCapabilities interface, IPortableDeviceCapabilities interface [Windows Portable Devices SDK],GetSupportedEvents method, IPortableDeviceCapabilities.GetSupportedEvents, IPortableDeviceCapabilities::GetSupportedEvents, IPortableDeviceCapabilitiesGetSupportedEvents, portabledeviceapi/IPortableDeviceCapabilities::GetSupportedEvents, wpdsdk.iportabledevicecapabilities_getsupportedevents
 ms.prod: windows
 ms.technology: windows-sdk
@@ -113,7 +113,7 @@ At least one of the arguments was a <b>NULL</b> pointer.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319362(v=VS.85).aspx">IPortableDeviceCapabilities Interface</a>
+<a href="wpdsdk.iportabledevicecapabilities">IPortableDeviceCapabilities Interface</a>
  
 
  

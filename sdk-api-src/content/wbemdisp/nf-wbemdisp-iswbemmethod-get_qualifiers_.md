@@ -7,7 +7,7 @@ old-location: wmi\swbemmethod_qualifiers_.htm
 old-project: WmiSdk
 ms.assetid: 8cbbec60-3b8a-4390-97b6-1cb616e5b944
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: ISWbemMethod interface [Windows Management Instrumentation],Qualifiers_ property, ISWbemMethod.get_Qualifiers_, ISWbemMethod::get_Qualifiers_, Qualifiers_ property [Windows Management Instrumentation], Qualifiers_ property [Windows Management Instrumentation],ISWbemMethod interface, Qualifiers_ property [Windows Management Instrumentation],SWbemMethod object, SWbemMethod object [Windows Management Instrumentation],Qualifiers_ property, SWbemMethod.Qualifiers_, _hmm_swbemmethod.qualifiers_, get_Qualifiers_, wmi.swbemmethod_qualifiers_
 ms.prod: windows
 ms.technology: windows-sdk

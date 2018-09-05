@@ -7,7 +7,7 @@ old-location: com\ipersist.htm
 old-project: com
 ms.assetid: 932eb0e2-35a6-482e-9138-00cff30508a9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IPersist, IPersist interface [COM], IPersist interface [COM],described, _com_ipersist, com.ipersist, objidl/IPersist
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ Provides the CLSID of an object that can be stored persistently in the system. A
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPersist</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IPersist</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPersist</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IPersist</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

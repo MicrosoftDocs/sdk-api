@@ -4,10 +4,10 @@ title: IVssDifferentialSoftwareSnapshotMgmt2::MigrateDiffAreas
 author: windows-sdk-content
 description: This method is reserved for future use.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt2_migratediffareas.htm
-old-project: vss
+old-project: VSS
 ms.assetid: c452dfad-fbc6-45d0-895d-566f12dbfa70
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IVssDifferentialSoftwareSnapshotMgmt2 interface,MigrateDiffAreas method, IVssDifferentialSoftwareSnapshotMgmt2.MigrateDiffAreas, IVssDifferentialSoftwareSnapshotMgmt2::MigrateDiffAreas, MigrateDiffAreas, MigrateDiffAreas method, MigrateDiffAreas method,IVssDifferentialSoftwareSnapshotMgmt2 interface, base.ivssdifferentialsoftwaresnapshotmgmt2_migratediffareas, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2::MigrateDiffAreas
 ms.prod: windows
 ms.technology: windows-sdk

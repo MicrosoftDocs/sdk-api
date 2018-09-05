@@ -7,7 +7,7 @@ old-location: mscs\clus_group_start_setting.htm
 old-project: mscs
 ms.assetid: 9F0A7B9B-278E-4176-BCA7-6CEEF35AFE2E
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CLUS_GROUP_DO_NOT_START, CLUS_GROUP_START_ALLOWED, CLUS_GROUP_START_ALWAYS, CLUS_GROUP_START_SETTING, CLUS_GROUP_START_SETTING enumeration [Failover Cluster], clusapi/CLUS_GROUP_DO_NOT_START, clusapi/CLUS_GROUP_START_ALLOWED, clusapi/CLUS_GROUP_START_ALWAYS, clusapi/CLUS_GROUP_START_SETTING, msclus/CLUS_GROUP_DO_NOT_START, msclus/CLUS_GROUP_START_ALLOWED, msclus/CLUS_GROUP_START_ALWAYS, msclus/CLUS_GROUP_START_SETTING, mscs.clus_group_start_setting
 ms.prod: windows
 ms.technology: windows-sdk
@@ -22,7 +22,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: CluAdmEx.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 

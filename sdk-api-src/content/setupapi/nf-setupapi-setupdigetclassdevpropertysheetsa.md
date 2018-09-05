@@ -7,7 +7,7 @@ old-location: devinst\setupdigetclassdevpropertysheets.htm
 old-project: devinst
 ms.assetid: cf5e8511-37be-4fb8-bded-b9b1e6bd247b
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: SetupDiGetClassDevPropertySheets, SetupDiGetClassDevPropertySheets function [Device and Driver Installation], SetupDiGetClassDevPropertySheetsA, SetupDiGetClassDevPropertySheetsW, devinst.setupdigetclassdevpropertysheets, di-rtns_cdfb15cd-b7a4-42bf-ad4c-a3084a7a6d98.xml, setupapi/SetupDiGetClassDevPropertySheets
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ The <b>SetupDiGetClassDevPropertySheets</b> function retrieves handles to the pr
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> for which to return property sheet handles. If <i>DeviceInfoData</i> does not specify a device information element in the device information set, the device information set must have an associated device setup class. 
+A handle to the <a href="devinst.device_information_sets">device information set</a> for which to return property sheet handles. If <i>DeviceInfoData</i> does not specify a device information element in the device information set, the device information set must have an associated device setup class. 
 
 
 ### -param DeviceInfoData [in, optional]

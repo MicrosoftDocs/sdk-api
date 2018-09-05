@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectprimitive_getaffinematrix.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectprimitive\getaffinematrix.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GetAffineMatrix, GetAffineMatrix method [WPF Bitmap Effects], GetAffineMatrix method [WPF Bitmap Effects],IMILBitmapEffectPrimitive interface, IMILBitmapEffectPrimitive interface [WPF Bitmap Effects],GetAffineMatrix method, IMILBitmapEffectPrimitive.GetAffineMatrix, IMILBitmapEffectPrimitive::GetAffineMatrix, _wibe_imilbitmapeffectprimitive_getaffinematrix, mileffects/IMILBitmapEffectPrimitive::GetAffineMatrix, wibe._wibe_imilbitmapeffectprimitive_getaffinematrix
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,7 +69,7 @@ A zero based index value indicating the output pin through which to retrieve the
 
 ### -param pMatrix [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735227(v=VS.85).aspx">MIL_MATRIX3X2D</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/ab98ba80-da72-462c-b774-304b257b2a7d">MIL_MATRIX3X2D</a>*</b>
 
 When this method returns, contains a pointer to the affine matrix describing the effects transform.
 

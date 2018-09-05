@@ -7,7 +7,7 @@ old-location: mscs\clusrestype_resources.htm
 old-project: mscs
 ms.assetid: 2fa27a3c-c340-478a-af05-1583efb420b4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusResType object [Failover Cluster],Resources property, ClusResType.Resources, ISClusResType.get_Resources, ISClusResType::get_Resources, Resources property [Failover Cluster], Resources property [Failover Cluster],ClusResType object, _wolf_clusrestype.resources, get_Resources, mscs.clusrestype_resources
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ Returns a
     <a href="https://msdn.microsoft.com/3164f2ee-7230-4d77-8c7c-cfba3aaee9d4">ClusResTypeResources</a> collection 
     providing access to the <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resources</a> of a particular 
     <a href="https://msdn.microsoft.com/d02e4f51-7b86-451a-a51c-ea850ae464d1">type</a> in the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+    <a href="c_gly.htm">cluster</a>.
 
 This property is read-only.
 

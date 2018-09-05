@@ -7,7 +7,7 @@ old-location: winstation\closewindowstation.htm
 old-project: winstation
 ms.assetid: 417cb01b-c206-4b5b-9516-94e5d90717f4
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 08/29/2018
 ms.keywords: CloseWindowStation, CloseWindowStation function [Windows Stations and Desktops], _win32_closewindowstation, base.closewindowstation, winstation.closewindowstation, winuser/CloseWindowStation
 ms.prod: windows
 ms.technology: windows-sdk

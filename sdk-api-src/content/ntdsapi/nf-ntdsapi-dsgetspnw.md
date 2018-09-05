@@ -73,12 +73,16 @@ Identifies the format of the SPNs to compose. The <i>ServiceType</i> parameter c
 
 The SPNs have the following format.
 
-
-```cpp
-ServiceClass/ InstanceName: InstancePort
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>ServiceClass/ InstanceName: InstancePort</pre>
+</td>
+</tr>
+</table></span></div>
 The <i>ServiceName</i> parameter must be <b>NULL</b>. This is the SPN format for a host-based service, which provides services identified with its host computer. The <i>InstancePort</i> component is optional.
 
 
@@ -87,12 +91,16 @@ The <i>ServiceName</i> parameter must be <b>NULL</b>. This is the SPN format for
 
 The SPNs have the following format.
 
-
-```cpp
-ServiceClass/ InstanceName: InstancePort/ ServiceName
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>ServiceClass/ InstanceName: InstancePort/ ServiceName</pre>
+</td>
+</tr>
+</table></span></div>
 The <i>ServiceName</i> parameter must be the DNS name or DN of a domain. This format is used for a replicable service that provides services to the specified domain.
 
 
@@ -101,12 +109,16 @@ The <i>ServiceName</i> parameter must be the DNS name or DN of a domain. This fo
 
 The SPNs have the following format.
 
-
-```cpp
-ServiceClass/ InstanceName: InstancePort/ ServiceName
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>ServiceClass/ InstanceName: InstancePort/ ServiceName</pre>
+</td>
+</tr>
+</table></span></div>
 The <i>ServiceName</i> parameter must be a canonical DN or DNS name that identifies an instance of the service. For example, it could be a DNS name of a SRV record, or the distinguished name of the service connection point for this service instance.
 
 
@@ -155,12 +167,16 @@ Pointer to a variable that receives a pointer to an array of SPNs. This array mu
 
 The SPNs have the following format.
 
-
-```cpp
-ServiceClass/ InstanceName: InstancePort
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>ServiceClass/ InstanceName: InstancePort</pre>
+</td>
+</tr>
+</table></span></div>
 The <i>ServiceName</i> parameter must be <b>NULL</b>. This is the SPN format for a host-based service, which provides services identified with its host computer. The <i>InstancePort</i> component is optional.
 
 
@@ -168,12 +184,16 @@ The <i>ServiceName</i> parameter must be <b>NULL</b>. This is the SPN format for
 
 The SPNs have the following format.
 
-
-```cpp
-ServiceClass/ InstanceName: InstancePort/ ServiceName
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>ServiceClass/ InstanceName: InstancePort/ ServiceName</pre>
+</td>
+</tr>
+</table></span></div>
 The <i>ServiceName</i> parameter must be the DNS name or DN of a domain. This format is used for a replicable service that provides services to the specified domain.
 
 
@@ -181,12 +201,16 @@ The <i>ServiceName</i> parameter must be the DNS name or DN of a domain. This fo
 
 The SPNs have the following format.
 
-
-```cpp
-ServiceClass/ InstanceName: InstancePort/ ServiceName
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>ServiceClass/ InstanceName: InstancePort/ ServiceName</pre>
+</td>
+</tr>
+</table></span></div>
 The <i>ServiceName</i> parameter must be a canonical DN or DNS name that identifies an instance of the service. For example, it could be a DNS name of a SRV record, or the distinguished name of the service connection point for this service instance.
 
 

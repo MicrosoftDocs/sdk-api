@@ -4,10 +4,10 @@ title: IX509CertificateRequestCmc::get_EncryptedKeyHash
 author: windows-sdk-content
 description: Retrieves a hash of the private key to be archived.
 old-location: security\ix509certificaterequestcmc_encryptedkeyhash_property.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: 63aba8aa-bee7-46b6-a821-4e4d440356ac
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: EncryptedKeyHash property [Security], EncryptedKeyHash property [Security],IX509CertificateRequestCmc interface, IX509CertificateRequestCmc interface [Security],EncryptedKeyHash property, IX509CertificateRequestCmc.EncryptedKeyHash, IX509CertificateRequestCmc.get_EncryptedKeyHash, IX509CertificateRequestCmc::EncryptedKeyHash, IX509CertificateRequestCmc::get_EncryptedKeyHash, certenroll/IX509CertificateRequestCmc::EncryptedKeyHash, certenroll/IX509CertificateRequestCmc::get_EncryptedKeyHash, get_EncryptedKeyHash, security.ix509certificaterequestcmc_encryptedkeyhash_property
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-For more information about archiving private keys, see the <a href="https://msdn.microsoft.com/en-us/library/Aa377134(v=VS.85).aspx">ArchivePrivateKey</a> and <a href="https://msdn.microsoft.com/en-us/library/Aa377262(v=VS.85).aspx">KeyArchivalCertificate</a> properties.
+For more information about archiving private keys, see the <a href="https://msdn.microsoft.com/6d17222e-3657-4911-a8e7-d90214284441">ArchivePrivateKey</a> and <a href="https://msdn.microsoft.com/93f71fd7-33bb-4352-b184-7270bca1363f">KeyArchivalCertificate</a> properties.
 
 
 
@@ -74,7 +74,7 @@ For more information about archiving private keys, see the <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377133(v=VS.85).aspx">IX509CertificateRequestCmc</a>
+<a href="https://msdn.microsoft.com/77059388-c442-4db5-ab27-1db25e2f63b9">IX509CertificateRequestCmc</a>
  
 
  

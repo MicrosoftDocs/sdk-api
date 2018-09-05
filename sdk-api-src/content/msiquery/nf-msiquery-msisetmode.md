@@ -7,7 +7,7 @@ old-location: setup\msisetmode.htm
 old-project: msi
 ms.assetid: bf0eef83-8ef4-4107-b598-ccc50b179858
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MSIRUNMODE_REBOOTATEND, MSIRUNMODE_REBOOTNOW, MsiSetMode, MsiSetMode function, _msi_msisetmode, msiquery/MsiSetMode, setup.msisetmode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -111,7 +111,7 @@ Specifies the state to set to <b>TRUE</b> or <b>FALSE</b>.
 
 
 
-This function returns UINT __stdcall.
+This function returns UINT.
 
 
 
@@ -121,7 +121,7 @@ This function returns UINT __stdcall.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Installer State Access Functions</a>
+<a href="database_functions.htm">Installer State Access Functions</a>
  
 
  

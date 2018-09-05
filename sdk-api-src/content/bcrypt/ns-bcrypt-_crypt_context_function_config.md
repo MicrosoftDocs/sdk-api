@@ -4,10 +4,10 @@ title: "_CRYPT_CONTEXT_FUNCTION_CONFIG"
 author: windows-sdk-content
 description: Contains configuration information for a cryptographic function of a CNG context.
 old-location: security\crypt_context_function_config.htm
-old-project: seccng
+old-project: SecCNG
 ms.assetid: 53026095-c871-4027-ac7d-428f1cb4aafe
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCRYPT_CONTEXT_FUNCTION_CONFIG, CRYPT_CONTEXT_FUNCTION_CONFIG, CRYPT_CONTEXT_FUNCTION_CONFIG structure [Security], CRYPT_EXCLUSIVE, PCRYPT_CONTEXT_FUNCTION_CONFIG, PCRYPT_CONTEXT_FUNCTION_CONFIG structure pointer [Security], _CRYPT_CONTEXT_FUNCTION_CONFIG, bcrypt/CRYPT_CONTEXT_FUNCTION_CONFIG, bcrypt/PCRYPT_CONTEXT_FUNCTION_CONFIG, security.crypt_context_function_config"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,7 +94,7 @@ Restricts the set of usable providers for this function to only those that this 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375380(v=VS.85).aspx">BCryptConfigureContextFunction</a>
+<a href="https://msdn.microsoft.com/e93c5e3e-3c63-49a3-8c8c-6510e10611ea">BCryptConfigureContextFunction</a>
  
 
  

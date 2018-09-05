@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_FindComputer.htm
 old-project: shell
 ms.assetid: 9B687A8A-BB29-49a0-8AE3-11A75FAF3257
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: FindComputer, FindComputer method [Windows Shell], FindComputer method [Windows Shell],IShellDispatch object, IShellDispatch object [Windows Shell],FindComputer method, IShellDispatch.FindComputer, IShellDispatch::FindComputer, shell.IShellDispatch_FindComputer
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,25 +89,33 @@ The following examples show the use of <b>FindComputer</b> in JScript, VBScript,
 JScript:
                 
 
-
-```javascript
-<script language="JScript">
+<div class="code"><span codelanguage="JScript"><table>
+<tr>
+<th>JScript</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="JScript"&gt;
     function fnShellFindComputerJ()
     {
         var objShell = new ActiveXObject("shell.application");
         
         objshell.FindComputer();
     }
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 VBScript:
 
-
-```vb
- <script language="VBScript">
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre> &lt;script language="VBScript"&gt;
     function fnShellFindComputerVB()
         dim objShell
         dim ssfWINDOWS
@@ -118,16 +126,20 @@ VBScript:
 
         set objShell = nothing
     end function
- </script>
-
-```
-
-
+ &lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 Visual Basic:
 
-
-```vb
-Private Sub fnShellFindComputerVB()
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Private Sub fnShellFindComputerVB()
     Dim objShell As Shell
 
     Set objShell = New Shell
@@ -135,9 +147,9 @@ Private Sub fnShellFindComputerVB()
 
     Set objShell = Nothing
 End Sub
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

@@ -7,7 +7,7 @@ old-location: cos\icomadmincatalog2_copycomponents.htm
 old-project: cossdk
 ms.assetid: 931f4929-b99b-4c4f-8980-eaceacc0e7fa
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CopyComponents, CopyComponents method [COM+], CopyComponents method [COM+],ICOMAdminCatalog2 interface, ICOMAdminCatalog2 interface [COM+],CopyComponents method, ICOMAdminCatalog2.CopyComponents, ICOMAdminCatalog2::CopyComponents, _cos_icomadmincatalog2_CopyComponents, comadmin/ICOMAdminCatalog2::CopyComponents, cos.icomadmincatalog2_copycomponents
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ The application ID or name of the source application.
 
 ### -param pVarCLSIDOrProgID [in]
 
-The components to be copied. Each element of the <b>Variant</b> may be a <b>String</b> containing a class ID or program ID, a single catalog object, or a catalog collection (for example, as returned by the <a href="https://msdn.microsoft.com/en-us/library/ms685970(v=VS.85).aspx">GetCollectionByQuery2</a> method).
+The components to be copied. Each element of the <b>Variant</b> may be a <b>String</b> containing a class ID or program ID, a single catalog object, or a catalog collection (for example, as returned by the <a href="https://msdn.microsoft.com/b1861e8f-bb42-42b5-9435-6fa366f8284a">GetCollectionByQuery2</a> method).
 
 
 ### -param bstrDestinationApplicationIDOrName [in]
@@ -118,7 +118,7 @@ At least one of the named applications exists in multiple partitions. To avoid t
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee309562(v=VS.85).aspx">ICOMAdminCatalog2</a>
+<a href="https://msdn.microsoft.com/ffca611d-dacc-47be-9101-9de76ecc8393">ICOMAdminCatalog2</a>
  
 
  

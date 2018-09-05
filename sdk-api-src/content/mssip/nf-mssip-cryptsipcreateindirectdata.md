@@ -4,10 +4,10 @@ title: CryptSIPCreateIndirectData function
 author: windows-sdk-content
 description: Returns a SIP_INDIRECT_DATA structure that contains a hash of the supplied SIP_SUBJECTINFO structure, the digest algorithm, and an encoding attribute. The hash can be used as an indirect reference to the data.
 old-location: security\cryptsipcreateindirectdata.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: bb4ecc95-972f-415c-9722-59b00a27cddc
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CryptSIPCreateIndirectData, CryptSIPCreateIndirectData function [Security], mssip/CryptSIPCreateIndirectData, security.cryptsipcreateindirectdata
 ms.prod: windows
 ms.technology: windows-sdk

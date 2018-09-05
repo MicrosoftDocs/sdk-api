@@ -4,10 +4,10 @@ title: RegisterServiceCtrlHandlerExW function
 author: windows-sdk-content
 description: Registers a function to handle extended service control requests.
 old-location: base\registerservicectrlhandlerex.htm
-old-project: services
+old-project: Services
 ms.assetid: 23eea346-9899-4214-88f4-9b7eb7ce1332
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: RegisterServiceCtrlHandlerEx, RegisterServiceCtrlHandlerEx function, RegisterServiceCtrlHandlerExA, RegisterServiceCtrlHandlerExW, _win32_registerservicectrlhandlerex, base.registerservicectrlhandlerex, winsvc/RegisterServiceCtrlHandlerEx, winsvc/RegisterServiceCtrlHandlerExA, winsvc/RegisterServiceCtrlHandlerExW
 ms.prod: windows
 ms.technology: windows-sdk

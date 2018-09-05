@@ -4,10 +4,10 @@ title: "_RM_FILTER_ACTION"
 author: windows-sdk-content
 description: Specifies the type of modification that is applied to restart or shutdown actions.
 old-location: rstmgr\rm_filter_action.htm
-old-project: rstmgr
+old-project: RstMgr
 ms.assetid: 68f77dbc-14cb-4b87-9589-328b1cef38d9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RM_FILTER_ACTION, RM_FILTER_ACTION enumeration [Restart Mgr], RmInvalidFilterAction, RmNoRestart, RmNoShutdown, _RM_FILTER_ACTION, restartmanager/RM_FILTER_ACTION, restartmanager/RmInvalidFilterAction, restartmanager/RmNoRestart, restartmanager/RmNoShutdown, rstmgr.rm_filter_action
 ms.prod: windows
 ms.technology: windows-sdk

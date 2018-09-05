@@ -7,7 +7,7 @@ old-location: shell\SHRemoveFolderPathFromLibrary.htm
 old-project: shell
 ms.assetid: 34de407c-54f0-4be9-a383-4bf1baa63eef
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHRemoveFolderPathFromLibrary, SHRemoveFolderPathFromLibrary function [Windows Shell], _shell_SHRemoveFolderPathFromLibrary, shell.SHRemoveFolderPathFromLibrary, shobjidl_core/SHRemoveFolderPathFromLibrary
 ms.prod: windows
 ms.technology: windows-sdk

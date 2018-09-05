@@ -7,7 +7,7 @@ old-location: mscs\clres_v3_function_table_set.htm
 old-project: mscs
 ms.assetid: 4915EAD2-771E-4BD5-B2A7-4149007F4E47
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CLRES_V3_FUNCTION_TABLE_SET, CLRES_V3_FUNCTION_TABLE_SET macro [Failover Cluster], mscs.clres_v3_function_table_set, resapi/CLRES_V3_FUNCTION_TABLE_SET
 ms.prod: windows
 ms.technology: windows-sdk

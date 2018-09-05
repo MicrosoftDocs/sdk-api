@@ -7,7 +7,7 @@ old-location: mscs\cluscryptokeys_refresh.htm
 old-project: mscs
 ms.assetid: d5b0dcd1-c2c4-4867-b532-93f6337804e6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusCryptoKeys class [Failover Cluster],Refresh method, ClusCryptoKeys.Refresh, ISClusCryptoKeys.Refresh, ISClusCryptoKeys::Refresh, Refresh, Refresh method [Failover Cluster], Refresh method [Failover Cluster],ClusCryptoKeys class, _wolf_cluscryptokeys.refresh, mscs.cluscryptokeys_refresh
 ms.prod: windows
 ms.technology: windows-sdk

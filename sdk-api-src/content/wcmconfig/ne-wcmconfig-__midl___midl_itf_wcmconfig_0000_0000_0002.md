@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_wcmconfig_0000_0000_0002"
 author: windows-sdk-content
 description: Describes the types of enumeration flags.
 old-location: smi\wcmnamespaceenumerationflags.htm
-old-project: smi
+old-project: SMI
 ms.assetid: 606fad95-1f93-4e16-9be5-2ebd52b91180
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: AllEnumeration, SharedEnumeration, UserEnumeration, WcmNamespaceEnumerationFlags, WcmNamespaceEnumerationFlags enumeration [SMI], __MIDL___MIDL_itf_wcmconfig_0000_0000_0002, smi.wcmnamespaceenumerationflags, wcmconfig/AllEnumeration, wcmconfig/SharedEnumeration, wcmconfig/UserEnumeration, wcmconfig/WcmNamespaceEnumerationFlags
 ms.prod: windows
 ms.technology: windows-sdk

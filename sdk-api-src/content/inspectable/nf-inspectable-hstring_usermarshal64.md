@@ -7,7 +7,7 @@ old-location: winrt\hstring_usermarshal64.htm
 old-project: WinRT
 ms.assetid: 31B9885A-FE5B-4375-883E-F8DBD5F2F4D1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: HSTRING_UserMarshal64, HSTRING_UserMarshal64 function [Windows Runtime], remotesystemadditionalinfo/HSTRING_UserMarshal64, winrt.hstring_usermarshal64
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,17 @@ Marshals an <a href="https://msdn.microsoft.com/763ACE57-EFDD-482E-851E-668D7756
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
+
+TBD
+
+
+### -param arg3
 
 TBD
 

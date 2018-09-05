@@ -7,7 +7,7 @@ old-location: setup\msisourcelistaddsource.htm
 old-project: msi
 ms.assetid: 5f01a49a-38ae-4a53-967a-38aad1aa01f4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MsiSourceListAddSource, MsiSourceListAddSource function, MsiSourceListAddSourceA, MsiSourceListAddSourceW, _msi_msisourcelistaddsource, msi/MsiSourceListAddSource, msi/MsiSourceListAddSourceA, msi/MsiSourceListAddSourceW, setup.msisourcelistaddsource
 ms.prod: windows
 ms.technology: windows-sdk

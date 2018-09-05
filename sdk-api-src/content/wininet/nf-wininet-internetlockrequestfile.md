@@ -7,7 +7,7 @@ old-location: wininet\internetlockrequestfile.htm
 old-project: WinInet
 ms.assetid: 5924d117-1dcd-43d8-817e-02bda302bdd4
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: InternetLockRequestFile, InternetLockRequestFile function [WinINet], _inet_internetlockrequestfile_function, wininet.internetlockrequestfile, wininet/InternetLockRequestFile
 ms.prod: windows
 ms.technology: windows-sdk

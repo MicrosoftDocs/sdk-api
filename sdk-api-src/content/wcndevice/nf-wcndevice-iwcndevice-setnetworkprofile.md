@@ -7,7 +7,7 @@ old-location: wcn\iwcndevice_setnetworkprofile.htm
 old-project: wcn
 ms.assetid: 267aa55a-005d-4db8-9569-f8ee77a15168
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: IWCNDevice interface [Windows Connect Now],SetNetworkProfile method, IWCNDevice.SetNetworkProfile, IWCNDevice::SetNetworkProfile, SetNetworkProfile, SetNetworkProfile method [Windows Connect Now], SetNetworkProfile method [Windows Connect Now],IWCNDevice interface, wcn.iwcndevice_setnetworkprofile, wcndevice/IWCNDevice::SetNetworkProfile
 ms.prod: windows
 ms.technology: windows-sdk

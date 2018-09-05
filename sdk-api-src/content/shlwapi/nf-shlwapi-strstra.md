@@ -7,7 +7,7 @@ old-location: shell\StrStr.htm
 old-project: shell
 ms.assetid: b1de5007-6773-4dea-8a15-ccd5f6924a13
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: StrStr, StrStr function [Windows Shell], StrStrA, StrStrW, _win32_StrStr, shell.StrStr, shlwapi/StrStr, shlwapi/StrStrA, shlwapi/StrStrW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

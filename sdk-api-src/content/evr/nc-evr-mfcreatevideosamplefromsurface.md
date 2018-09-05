@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: EVENT_FILTER_LEVEL_KW, *PEVENT_FILTER_LEVEL_KW
+req.typenames: TRACE_PROVIDER_INSTANCE_INFO, *PTRACE_PROVIDER_INSTANCE_INFO
 topic_type:
  - APIRef
  - kbSyntax
@@ -105,9 +105,13 @@ Alternatively, you can set <i>pUnkSurface</i> to <b>NULL</b>, and later add a Di
 
 The following example is taken from the <a href="https://msdn.microsoft.com/791a9816-4c40-4683-8b32-22f73d7fe84d">EVRPresenter Sample</a>.
 
-
-```cpp
-//-----------------------------------------------------------------------------
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//-----------------------------------------------------------------------------
 // CreateD3DSample
 //
 // Creates a sample object (IMFSample) to hold a Direct3D swap chain.
@@ -126,22 +130,22 @@ HRESULT D3DPresentEngine::CreateD3DSample(
     IMFSample* pSample = NULL;
 
     // Get the back buffer surface.
-    HRESULT hr = pSwapChain->GetBackBuffer(
-        0, D3DBACKBUFFER_TYPE_MONO, &pSurface);
+    HRESULT hr = pSwapChain-&gt;GetBackBuffer(
+        0, D3DBACKBUFFER_TYPE_MONO, &amp;pSurface);
     if (FAILED(hr))
     {
         goto done;
     }
 
     // Fill it with black.
-    hr = m_pDevice->ColorFill(pSurface, NULL, clrBlack);
+    hr = m_pDevice-&gt;ColorFill(pSurface, NULL, clrBlack);
     if (FAILED(hr))
     {
         goto done;
     }
 
     // Create the sample.
-    hr = MFCreateVideoSampleFromSurface(pSurface, &pSample);
+    hr = MFCreateVideoSampleFromSurface(pSurface, &amp;pSample);
     if (FAILED(hr))
     {
         goto done;
@@ -149,17 +153,17 @@ HRESULT D3DPresentEngine::CreateD3DSample(
 
     // Return the pointer to the caller.
     *ppVideoSample = pSample;
-    (*ppVideoSample)->AddRef();
+    (*ppVideoSample)-&gt;AddRef();
 
 done:
-    SafeRelease(&pSurface);
-    SafeRelease(&pSample);
+    SafeRelease(&amp;pSurface);
+    SafeRelease(&amp;pSample);
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: com\idataadviseholder_enumadvise.htm
 old-project: com
 ms.assetid: 0863d013-6f55-40ce-92d2-68bb0455a911
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EnumAdvise, EnumAdvise method [COM], EnumAdvise method [COM],IDataAdviseHolder interface, IDataAdviseHolder interface [COM],EnumAdvise method, IDataAdviseHolder.EnumAdvise, IDataAdviseHolder::EnumAdvise, _ole_idataadviseholder_enumadvise, com.idataadviseholder_enumadvise, objidl/IDataAdviseHolder::EnumAdvise
 ms.prod: windows
 ms.technology: windows-sdk

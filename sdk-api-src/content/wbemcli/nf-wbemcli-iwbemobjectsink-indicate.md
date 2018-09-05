@@ -7,7 +7,7 @@ old-location: wmi\iwbemobjectsink_indicate.htm
 old-project: WmiSdk
 ms.assetid: 96756b27-cbcf-47ce-a8c8-88795a81edde
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: IWbemObjectSink interface [Windows Management Instrumentation],Indicate method, IWbemObjectSink.Indicate, IWbemObjectSink::Indicate, IWbemObjectSinkEx interface [Windows Management Instrumentation],Indicate method, IWbemObjectSinkEx::Indicate, Indicate, Indicate method [Windows Management Instrumentation], Indicate method [Windows Management Instrumentation],IWbemObjectSink interface, Indicate method [Windows Management Instrumentation],IWbemObjectSinkEx interface, _hmm_iwbemobjectsink_indicate, wbemcli/IWbemObjectSink::Indicate, wbemcli/IWbemObjectSinkEx::Indicate, wmi.iwbemobjectsink_indicate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,7 +85,7 @@ Number of objects in the following array of pointers.
 #### - ppObjArray [in]
 
 Array of pointers to 
-<a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> interfaces. The array memory itself is read-only, and is owned by the caller of the method. Because this is an in parameter, the implementation has the option of calling <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">IWbemClassObject::AddRef</a> on any object pointer in the array and holding it before returning if the objects will be used after the method has returned, in accordance with COM rules. If the objects are only used for the duration of the 
+<a href="https://msdn.microsoft.com/a3ce37d7-5580-4b84-9119-78412c8e0d27">IWbemClassObject</a> interfaces. The array memory itself is read-only, and is owned by the caller of the method. Because this is an in parameter, the implementation has the option of calling <a href="_com_iunknown_addref">IWbemClassObject::AddRef</a> on any object pointer in the array and holding it before returning if the objects will be used after the method has returned, in accordance with COM rules. If the objects are only used for the duration of the 
 <b>Indicate</b> call, then you do not need to call <b>AddRef</b> on each object pointer.
 
 

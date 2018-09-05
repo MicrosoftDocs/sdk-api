@@ -4,10 +4,10 @@ title: WlxShutdown function
 author: windows-sdk-content
 description: Winlogon calls this function just before shutting down, allowing the GINA to perform any shutdown tasks, such as ejecting a smart card from a reader.
 old-location: security\wlxshutdown.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: dab8a93d-a0fe-4a29-9a29-ad64627050b7
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: WLX_SAS_ACTION_SHUTDOWN, WLX_SAS_ACTION_SHUTDOWN_POWER_OFF, WLX_SAS_ACTION_SHUTDOWN_REBOOT, WlxShutdown, WlxShutdown function [Security], _gina_wlxshutdown, security.wlxshutdown, winwlx/WlxShutdown
 ms.prod: windows
 ms.technology: windows-sdk

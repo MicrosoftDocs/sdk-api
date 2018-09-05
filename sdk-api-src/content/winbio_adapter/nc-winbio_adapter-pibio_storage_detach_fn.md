@@ -4,10 +4,10 @@ title: PIBIO_STORAGE_DETACH_FN
 author: windows-sdk-content
 description: Releases adapter-specific resources attached to the pipeline.
 old-location: secbiomet\storageadapterdetach.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: cebf03d3-e393-437a-81f7-579fea95aa9c
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: PIBIO_STORAGE_DETACH_FN, PIBIO_STORAGE_DETACH_FN callback, StorageAdapterDetach, StorageAdapterDetach callback function [Windows Biometric Framework API], secbiomet.storageadapterdetach, winbio_adapter/StorageAdapterDetach
 ms.prod: windows
 ms.technology: windows-sdk
@@ -119,9 +119,13 @@ Before returning S_OK, this function must set the <b>StorageContext</b> field of
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-
-```cpp
-/////////////////////////////////////////////////////////////////////////////////////////
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>/////////////////////////////////////////////////////////////////////////////////////////
 //
 // StorageAdapterDetach
 //
@@ -149,7 +153,7 @@ StorageAdapterDetach(
 
     // Retrieve the context from the pipeline.
     PWINBIO_STORAGE_CONTEXT storageContext = 
-           (PWINBIO_STORAGE_CONTEXT)Pipeline->StorageContext;
+           (PWINBIO_STORAGE_CONTEXT)Pipeline-&gt;StorageContext;
 
     // Verify the pipeline state.
     if (storageContext == NULL)
@@ -168,13 +172,13 @@ StorageAdapterDetach(
     StorageAdapterCloseDatabase(Pipeline);
 
     // Remove the context from the pipeline.
-    Pipeline->StorageContext = NULL;
-    Pipeline->StorageHandle = INVALID_HANDLE_VALUE;
+    Pipeline-&gt;StorageContext = NULL;
+    Pipeline-&gt;StorageHandle = INVALID_HANDLE_VALUE;
 
     // Clear the result set. Depending on your implementation, this action
     // can be performed by the StorageAdapterClearContext function called
     // earlier.
-    ResultSetCleanup(&storageContext->ResultSet);
+    ResultSetCleanup(&amp;storageContext-&gt;ResultSet);
 
     // Release the adapter context.
     _AdapterRelease( storageContext );
@@ -184,10 +188,10 @@ cleanup:
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

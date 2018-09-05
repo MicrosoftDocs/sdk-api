@@ -4,10 +4,10 @@ title: IWSDServiceProxy::UnsubscribeToOperation
 author: windows-sdk-content
 description: Cancels a subscription to a notification or solicit/response event.
 old-location: ncd\iwsdserviceproxy_unsubscribetooperation_method.htm
-old-project: wsdapi
+old-project: WsdApi
 ms.assetid: b306239c-95a4-4a1d-990c-193237bad275
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWSDServiceProxy interface,UnsubscribeToOperation method, IWSDServiceProxy.UnsubscribeToOperation, IWSDServiceProxy::UnsubscribeToOperation, UnsubscribeToOperation, UnsubscribeToOperation method, UnsubscribeToOperation method,IWSDServiceProxy interface, ncd.iwsdserviceproxy_unsubscribetooperation_method, wsdclient/IWSDServiceProxy::UnsubscribeToOperation
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winsync\isyncchange.htm
 old-project: winsync
 ms.assetid: 0cd29977-8d02-4a1e-b63f-783cc10021ee
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ISyncChange, ISyncChange interface [Windows Sync], ISyncChange interface [Windows Sync],described, winsync.isyncchange, winsync/ISyncChange
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: com\ienumcategoryinfo_skip.htm
 old-project: com
 ms.assetid: 405a506b-8bce-47ea-a5a7-6cd7146dcef3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IEnumCATEGORYINFO interface [COM],Skip method, IEnumCATEGORYINFO.Skip, IEnumCATEGORYINFO::Skip, Skip, Skip method [COM], Skip method [COM],IEnumCATEGORYINFO interface, _com_ienumcategoryinfo_skip, com.ienumcategoryinfo_skip, comcat/IEnumCATEGORYINFO::Skip
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,7 +78,7 @@ If the method skips the number of items requested, the return value is S_OK. Oth
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd542656(v=VS.85).aspx">IEnumCATEGORYINFO</a>
+<a href="https://msdn.microsoft.com/87469ace-ae34-40e5-aab6-f26a4bc50b54">IEnumCATEGORYINFO</a>
  
 
  

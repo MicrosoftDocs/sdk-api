@@ -7,7 +7,7 @@ old-location: psapi\queryworkingset.htm
 old-project: psapi
 ms.assetid: b932153f-2bbd-460e-8ff7-b3e493c397bb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: K32QueryWorkingSet, QueryWorkingSet, QueryWorkingSet function [PSAPI], _win32_queryworkingset, base.queryworkingset, psapi.queryworkingset, psapi/K32QueryWorkingSet, psapi/QueryWorkingSet
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,11 +4,11 @@ title: PFN_CERT_STORE_PROV_SET_CTL_PROPERTY
 author: windows-sdk-content
 description: The CertStoreProvSetCTLProperty callback function determines whether a property can be set on a CTL.
 old-location: security\certstoreprovsetctlproperty.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: d062c875-b8c1-454f-8a0d-2ada74e5028d
 ms.author: windowssdkdev
-ms.date: 08/15/2018
-ms.keywords: CertStoreProvSetCTLProperty, CertStoreProvSetCTLProperty callback, CertStoreProvSetCTLProperty callback function [Security], PFN_CERT_STORE_PROV_SET_CTL_PROPERTY, PFN_CERT_STORE_PROV_SET_CTL_PROPERTY callback function [Security], _crypto2_certstoreprovsetctlproperty, security.certstoreprovsetctlproperty, wincrypt/CertStoreProvSetCTLProperty, wincrypt/PFN_CERT_STORE_PROV_SET_CTL_PROPERTY
+ms.date: 08/29/2018
+ms.keywords: CertStoreProvSetCTLProperty, PFN_CERT_STORE_PROV_SET_CERT_PROPERTY, PFN_CERT_STORE_PROV_SET_CERT_PROPERTY callback, PFN_CERT_STORE_PROV_SET_CERT_PROPERTY callback function [Security], PFN_CERT_STORE_PROV_SET_CTL_PROPERTY, PFN_CERT_STORE_PROV_SET_CTL_PROPERTY callback function [Security], _crypto2_certstoreprovsetctlproperty, security.certstoreprovsetctlproperty, wincrypt/PFN_CERT_STORE_PROV_SET_CERT_PROPERTY, wincrypt/PFN_CERT_STORE_PROV_SET_CTL_PROPERTY
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - CertStoreProvSetCTLProperty
+ - PFN_CERT_STORE_PROV_SET_CERT_PROPERTY
 product: Windows
 targetos: Windows
 req.lib: 

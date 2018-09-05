@@ -4,10 +4,10 @@ title: IPropertyStorage::Revert
 author: windows-sdk-content
 description: The Revert method discards all changes to the named property set since it was last opened or discards changes that were last committed to the property set. This method has no effect on a direct-mode property set.
 old-location: stg\ipropertystorage_revert.htm
-old-project: stg
+old-project: Stg
 ms.assetid: 31e0d3e7-8575-4788-b42e-606221cf5a4c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IPropertyStorage [Strctd Stg],Revert, IPropertyStorage interface [Structured Storage],Revert method, IPropertyStorage.Revert, IPropertyStorage::Revert, Revert, Revert method [Structured Storage], Revert method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_revert, propidl/IPropertyStorage::Revert, stg.ipropertystorage_revert
 ms.prod: windows
 ms.technology: windows-sdk

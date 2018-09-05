@@ -7,7 +7,7 @@ old-location: wininet\internetcanonicalizeurl.htm
 old-project: WinInet
 ms.assetid: 3bfde980-e478-4960-b41f-e1c8105ef419
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: InternetCanonicalizeUrl, InternetCanonicalizeUrl function [WinINet], InternetCanonicalizeUrlA, InternetCanonicalizeUrlW, _inet_internetcanonicalizeurl_function, wininet.internetcanonicalizeurl, wininet/InternetCanonicalizeUrl, wininet/InternetCanonicalizeUrlA, wininet/InternetCanonicalizeUrlW
 ms.prod: windows
 ms.technology: windows-sdk

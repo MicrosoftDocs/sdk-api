@@ -199,25 +199,33 @@ The examples reference the following structures and enums:
 </ul>
 Clearing an entire surface's mappings to NULL
 
-
-```cpp
-// - NULL for pResourceRegionStartCoordinates and pResourceRegionSizes defaults to the entire resource
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// - NULL for pResourceRegionStartCoordinates and pResourceRegionSizes defaults to the entire resource
 // - NULL for pHeapRangeStartOffsets since it isn't needed for mapping tiles to NULL
 // - NULL for pRangeTileCounts when NumRanges is 1 defaults to the same number of tiles as the resource region (which is
 //   the entire surface in this case)
 //
 UINT RangeFlags = D3D12_TILE_RANGE_FLAG_NULL;
-pCommandQueue->UpdateTileMappings(pResource, 1, NULL, NULL, NULL, 1, &RangeFlags, NULL, NULL, D3D12_TILE_MAPPING_FLAG_NONE);
-
-```
-
-
+pCommandQueue-&gt;UpdateTileMappings(pResource, 1, NULL, NULL, NULL, 1, &amp;RangeFlags, NULL, NULL, D3D12_TILE_MAPPING_FLAG_NONE);
+</pre>
+</td>
+</tr>
+</table></span></div>
 Mapping a region of tiles to a single tile:
         
 
-
-```cpp
-// - This maps a 2x3 tile region at tile offset (1,1) in a resource to tile [12] in a heap
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// - This maps a 2x3 tile region at tile offset (1,1) in a resource to tile [12] in a heap
 // 
 D3D12_TILED_RESOURCE_COORDINATE TRC;
 TRC.X = 1;
@@ -235,17 +243,21 @@ TRS.NumTiles = TRS.Width * TRS.Height * TRS.Depth;
 UINT RangeFlags = D3D12_TILE_RANGE_FLAG_REUSE_SINGLE_TILE;
 UINT StartOffset = 12;
 
-pCommandQueue->UpdateTileMappings(pResource,1,&TRC,&TRS,pHeap,1,&RangeFlags,&StartOffset,NULL,D3D12_TILE_MAPPING_FLAG_NONE);
-
-```
-
-
+pCommandQueue-&gt;UpdateTileMappings(pResource,1,&amp;TRC,&amp;TRS,pHeap,1,&amp;RangeFlags,&amp;StartOffset,NULL,D3D12_TILE_MAPPING_FLAG_NONE);
+</pre>
+</td>
+</tr>
+</table></span></div>
 Defining mappings for a set of disjoint individual tiles:
         
 
-
-```cpp
-// - This can also be accomplished in multiple calls. 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// - This can also be accomplished in multiple calls. 
 //   A single call to define multiple mapping updates can reduce CPU call overhead slightly,
 //   at the cost of having to pass arrays as parameters.
 // - Passing NULL for pResourceRegionSizes defaults to each region in the resource
@@ -272,17 +284,21 @@ TRC[2].Y = 3;
 TRC[2].Subresource = 0;
 StartOffsets[2] = 7;
 
-pCommandQueue->UpdateTileMappings(pResource,NumSingleTiles,&TRC,NULL,pHeap,NumSingleTiles,NULL,StartOffsets,
+pCommandQueue-&gt;UpdateTileMappings(pResource,NumSingleTiles,&amp;TRC,NULL,pHeap,NumSingleTiles,NULL,StartOffsets,
 NULL,D3D12_TILE_MAPPING_FLAG_NONE);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 Complex example - defining mappings for regions with some skips, some NULL mappings. 
 
-
-```cpp
-// - This complex example hard codes the parameter arrays, whereas in practice the 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// - This complex example hard codes the parameter arrays, whereas in practice the 
 //   application would likely configure the paramaters programatically or in a data driven way.
 // - Suppose we have 3 regions in a resource to configure mappings for, 2x3 at coordinate (1,1),
 //   3x3 at coordinate (4,7), and 7x1 at coordinate (20,30)
@@ -359,12 +375,12 @@ RangeFlags[7] = 0;
 HeapRangeStartOffsets[7] = 17; 
 RangeTileCounts[7] = 1;
 
-pCommandQueue->UpdateTileMappings(pResource,NumRegions,TRC,TRS,pHeap,NumRanges,RangeFlags,
+pCommandQueue-&gt;UpdateTileMappings(pResource,NumRegions,TRC,TRS,pHeap,NumRanges,RangeFlags,
 HeapRangeStartOffsets,RangeTileCounts,D3D12_TILE_MAPPING_FLAG_NONE);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

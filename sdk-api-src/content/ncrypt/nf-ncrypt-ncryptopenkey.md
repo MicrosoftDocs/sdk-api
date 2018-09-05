@@ -4,10 +4,10 @@ title: NCryptOpenKey function
 author: windows-sdk-content
 description: Opens a key that exists in the specified CNG key storage provider.
 old-location: security\ncryptopenkey_func.htm
-old-project: seccng
+old-project: SecCNG
 ms.assetid: 581c5d89-730d-4d8c-b3bb-a28edec25910
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: AT_KEYEXCHANGE, AT_SIGNATURE, NCRYPT_MACHINE_KEY_FLAG, NCRYPT_SILENT_FLAG, NCryptOpenKey, NCryptOpenKey function [Security], ncrypt/NCryptOpenKey, security.ncryptopenkey_func
 ms.prod: windows
 ms.technology: windows-sdk

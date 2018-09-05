@@ -117,14 +117,18 @@ This mapping occurs when the font is used for the first time.
 
 For the MM_TEXT mapping mode, you can use the following formula to specify a height for a font with a specified point size:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 nHeight = -MulDiv(PointSize, GetDeviceCaps(hDC, LOGPIXELSY), 72);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -param cWidth [in]
 
@@ -799,9 +803,13 @@ The following situations do not support ClearType antialiasing:
 
 #### Examples
 
-
-```cpp
-LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 {
     int wmId, wmEvent;
     PAINTSTRUCT ps;
@@ -815,7 +823,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
         RECT rect;
         HBRUSH hBrush;
         HFONT hFont;
-        hdc = BeginPaint(hWnd, &ps);
+        hdc = BeginPaint(hWnd, &amp;ps);
 
             
             //Logical units are device dependent pixels, so this will create a handle to a logical font that is 48 pixels in height.
@@ -826,9 +834,9 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
             SelectObject(hdc, hFont);
             
             //Sets the coordinates for the rectangle in which the text is to be formatted.
-            SetRect(&rect, 100,100,700,200);
+            SetRect(&amp;rect, 100,100,700,200);
             SetTextColor(hdc, RGB(255,0,0));
-            DrawText(hdc, TEXT("Drawing Text with Impact"), -1,&rect, DT_NOCLIP);
+            DrawText(hdc, TEXT("Drawing Text with Impact"), -1,&amp;rect, DT_NOCLIP);
             
 
             //Logical units are device dependent pixels, so this will create a handle to a logical font that is 36 pixels in height.
@@ -839,9 +847,9 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
             SelectObject(hdc,hFont);
             
             //Sets the coordinates for the rectangle in which the text is to be formatted.
-            SetRect(&rect, 100, 200, 900, 800);
+            SetRect(&amp;rect, 100, 200, 900, 800);
             SetTextColor(hdc, RGB(0,128,0));
-            DrawText(hdc, TEXT("Drawing Text with Times New Roman"), -1,&rect, DT_NOCLIP);
+            DrawText(hdc, TEXT("Drawing Text with Times New Roman"), -1,&amp;rect, DT_NOCLIP);
             
                 
             //Logical units are device dependent pixels, so this will create a handle to a logical font that is 36 pixels in height.
@@ -852,12 +860,12 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
             SelectObject(hdc,hFont);
 
             //Sets the coordinates for the rectangle in which the text is to be formatted.
-            SetRect(&rect, 500, 200, 1400, 600);
+            SetRect(&amp;rect, 500, 200, 1400, 600);
             SetTextColor(hdc, RGB(0,0,255));
-            DrawText(hdc, TEXT("Drawing Text with Arial"), -1,&rect, DT_NOCLIP);
+            DrawText(hdc, TEXT("Drawing Text with Arial"), -1,&amp;rect, DT_NOCLIP);
             DeleteObject(hFont);    
         
-        EndPaint(hWnd, &ps);
+        EndPaint(hWnd, &amp;ps);
         break;
         }
     case WM_DESTROY:
@@ -868,11 +876,11 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
     }
     return 0;
 }
-
-```
-
-
-For another example, see "Setting Fonts for Menu-Item Text Strings" in <a href="https://msdn.microsoft.com/en-us/library/ms647558(v=VS.85).aspx">Using Menus</a>.
+</pre>
+</td>
+</tr>
+</table></span></div>
+For another example, see "Setting Fonts for Menu-Item Text Strings" in <a href="_win32_Using_Menus_cpp">Using Menus</a>.
 
 <div class="code"></div>
 

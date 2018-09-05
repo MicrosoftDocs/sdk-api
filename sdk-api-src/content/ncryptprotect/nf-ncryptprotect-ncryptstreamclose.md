@@ -4,10 +4,10 @@ title: NCryptStreamClose function
 author: windows-sdk-content
 description: Closes a data protection stream object opened by using the NCryptStreamOpenToProtect or NCryptStreamOpenToUnprotect functions.
 old-location: security\ncryptstreamclose.htm
-old-project: seccng
+old-project: SecCNG
 ms.assetid: 770640F2-04C7-4512-8004-41F4ECDC110E
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NCryptStreamClose, NCryptStreamClose function [Security], ncryptprotect/NCryptStreamClose, security.ncryptstreamclose
 ms.prod: windows
 ms.technology: windows-sdk

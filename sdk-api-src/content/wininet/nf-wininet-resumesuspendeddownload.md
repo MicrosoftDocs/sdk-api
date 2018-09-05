@@ -7,7 +7,7 @@ old-location: wininet\resumesuspendeddownload.htm
 old-project: WinInet
 ms.assetid: 72b5511a-872d-4058-9f38-9b1bdf6784c3
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: ResumeSuspendedDownload, ResumeSuspendedDownload function [WinINet], wininet.resumesuspendeddownload, wininet/ResumeSuspendedDownload
 ms.prod: windows
 ms.technology: windows-sdk

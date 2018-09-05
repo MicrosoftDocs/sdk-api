@@ -4,10 +4,10 @@ title: InitializeSRWLock function
 author: windows-sdk-content
 description: Initialize a slim reader/writer (SRW) lock.
 old-location: base\initializesrwlock.htm
-old-project: sync
+old-project: Sync
 ms.assetid: a94443e1-009c-49ba-a51c-6daa63b07cda
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: InitializeSRWLock, InitializeSRWLock function, base.initializesrwlock, synchapi/InitializeSRWLock, winbase/InitializeSRWLock
 ms.prod: windows
 ms.technology: windows-sdk

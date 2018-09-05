@@ -4,10 +4,10 @@ title: SLSetCurrentProductKey function
 author: windows-sdk-content
 description: Sets the current product key to the previously installed product key.
 old-location: security\slsetcurrentproductkey.htm
-old-project: secslapi
+old-project: SecSLApi
 ms.assetid: a6490a89-9280-4b7d-8ea0-afa80c0a03f8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SLSetCurrentProductKey, SLSetCurrentProductKey function [Security], security.slsetcurrentproductkey, slpublic/SLSetCurrentProductKey
 ms.prod: windows
 ms.technology: windows-sdk

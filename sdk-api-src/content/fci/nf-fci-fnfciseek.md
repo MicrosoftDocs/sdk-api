@@ -4,10 +4,10 @@ title: FNFCISEEK macro
 author: windows-sdk-content
 description: The FNFCISEEK macro provides the declaration for the application-defined callback function to move a file pointer to the specified location in an FCI context.
 old-location: winprog\fnfciseek.htm
-old-project: devnotes
+old-project: DevNotes
 ms.assetid: e5a14c98-4de6-452e-8993-afb7964aeee7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FNFCISEEK, FNFCISEEK macro [Windows API], fci/FNFCISEEK, winprog.fnfciseek
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,9 +94,13 @@ The function accepts parameters similar to <a href="http://go.microsoft.com/fwli
 
 #### Examples
 
-
-```cpp
-FNFCISEEK(fnFileSeek)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNFCISEEK(fnFileSeek)
 {
     INT iResult = 0;
 
@@ -111,10 +115,10 @@ FNFCISEEK(fnFileSeek)
 
     return iResult;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

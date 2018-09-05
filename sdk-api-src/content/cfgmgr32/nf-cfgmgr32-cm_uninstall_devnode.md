@@ -7,7 +7,7 @@ old-location: devinst\cm_uninstall_devnode.htm
 old-project: devinst
 ms.assetid: e472e642-cf0d-4c88-907f-5cfb08fb4e76
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: CM_Uninstall_DevNode, CM_Uninstall_DevNode function [Device and Driver Installation], cfgmgr32/CM_Uninstall_DevNode, cfgmgrfn_a3aadd47-2a1b-4123-823f-7d7cb988812e.xml, devinst.cm_uninstall_devnode
 ms.prod: windows
 ms.technology: windows-sdk

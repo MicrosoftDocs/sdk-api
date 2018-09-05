@@ -4,10 +4,10 @@ title: IntServMainHdr
 author: windows-sdk-content
 description: The IntServMainHdr structure is a header for Integrated Services RSVP objects.
 old-location: qos\intservmainhdr.htm
-old-project: qos
+old-project: QOS
 ms.assetid: b67fdf53-322b-4a70-ae83-63d4365e9b57
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IntServMainHdr, IntServMainHdr structure [QOS], lpmapi/IntServMainHdr, qos.intservmainhdr
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: base\rtlunwindex.htm
 old-project: debug
 ms.assetid: 3d2d8778-311e-4cc1-b280-4f83ab457755
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: RtlUnwindEx, RtlUnwindEx function, base.rtlunwindex, winnt/RtlUnwindEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -113,15 +113,19 @@ This function does not return a value.
 
 The <b>FRAME_POINTERS</b> structure is defined as follows:
 
-
-```cpp
-typedef struct _FRAME_POINTERS {
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _FRAME_POINTERS {
     ULONGLONG MemoryStackFp;
     ULONGLONG BackingStoreFp;
-} FRAME_POINTERS, *PFRAME_POINTERS;
-```
-
-
+} FRAME_POINTERS, *PFRAME_POINTERS;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

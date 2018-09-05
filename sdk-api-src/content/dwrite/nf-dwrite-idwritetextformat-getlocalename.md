@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteTextFormat_GetLocaleName.htm
 old-project: DirectWrite
 ms.assetid: 89b35622-0898-4fc5-9871-b75244e4dba6
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetLocaleName, GetLocaleName method [Direct Write], GetLocaleName method [Direct Write],IDWriteTextFormat interface, IDWriteTextFormat interface [Direct Write],GetLocaleName method, IDWriteTextFormat.GetLocaleName, IDWriteTextFormat::GetLocaleName, directwrite.IDWriteTextFormat_GetLocaleName, dwrite/IDWriteTextFormat::GetLocaleName
 ms.prod: windows
 ms.technology: windows-sdk

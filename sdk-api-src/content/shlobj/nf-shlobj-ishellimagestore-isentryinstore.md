@@ -7,7 +7,7 @@ old-location: shell\IShellImageStore_IsEntryInStore.htm
 old-project: shell
 ms.assetid: 571df609-9d17-415c-a4e0-23c4e1523993
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellImageStore interface [Windows Shell],IsEntryInStore method, IShellImageStore.IsEntryInStore, IShellImageStore::IsEntryInStore, IsEntryInStore, IsEntryInStore method [Windows Shell], IsEntryInStore method [Windows Shell],IShellImageStore interface, _win32_IShellImageStore_IsEntryInStore, shell.IShellImageStore_IsEntryInStore, shlobj/IShellImageStore::IsEntryInStore
 ms.prod: windows
 ms.technology: windows-sdk

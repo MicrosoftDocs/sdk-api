@@ -4,10 +4,10 @@ title: ICEnroll4::get_ThumbPrint
 author: windows-sdk-content
 description: Sets or retrieves a hash of the certificate data.
 old-location: security\icenroll4_thumbprint.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 58f027c6-fa92-40ac-b41d-89b6fba7455d
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CEnroll object [Security],ThumbPrint property, ICEnroll4 interface [Security],ThumbPrint property, ICEnroll4.ThumbPrint, ICEnroll4.get_ThumbPrint, ICEnroll4::ThumbPrint, ICEnroll4::get_ThumbPrint, ICEnroll4::put_ThumbPrint, ThumbPrint property [Security], ThumbPrint property [Security],CEnroll object, ThumbPrint property [Security],ICEnroll4 interface, _xen_icenroll4_thumbprint, get_ThumbPrint, security.icenroll4_thumbprint, xenroll/ICEnroll4::ThumbPrint, xenroll/ICEnroll4::get_ThumbPrint, xenroll/ICEnroll4::put_ThumbPrint
 ms.prod: windows
 ms.technology: windows-sdk

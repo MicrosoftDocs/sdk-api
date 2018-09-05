@@ -7,7 +7,7 @@ old-location: rdc\isimilarityfileidtable_createtableindirect.htm
 old-project: Rdc
 ms.assetid: 6e472ab0-efa4-4edd-8d78-68d5a66cf41c
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: CreateTableIndirect, CreateTableIndirect method [Remote Differential Compression], CreateTableIndirect method [Remote Differential Compression],ISimilarityFileIdTable interface, ISimilarityFileIdTable interface [Remote Differential Compression],CreateTableIndirect method, ISimilarityFileIdTable.CreateTableIndirect, ISimilarityFileIdTable::CreateTableIndirect, fs.isimilarityfileidtable_createtableindirect, msrdc/ISimilarityFileIdTable::CreateTableIndirect, rdc.isimilarityfileidtable_createtableindirect
 ms.prod: windows
 ms.technology: windows-sdk

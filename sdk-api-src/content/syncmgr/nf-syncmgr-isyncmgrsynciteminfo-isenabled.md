@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrSyncItemInfo_IsEnabled.htm
 old-project: shell
 ms.assetid: 47383322-3fb6-47aa-9c97-9d432845fd35
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ISyncMgrSyncItemInfo interface [Windows Shell],IsEnabled method, ISyncMgrSyncItemInfo.IsEnabled, ISyncMgrSyncItemInfo::IsEnabled, IsEnabled, IsEnabled method [Windows Shell], IsEnabled method [Windows Shell],ISyncMgrSyncItemInfo interface, _shell_ISyncMgrSyncItemInfo_IsEnabled, shell.ISyncMgrSyncItemInfo_IsEnabled, syncmgr/ISyncMgrSyncItemInfo::IsEnabled
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,16 +98,20 @@ Sync Center calls this method whenever the <a href="https://msdn.microsoft.com/d
 
 The following example shows an implementation of this method that calls a private class function to retrieve the enabled state.
 
-
-```cpp
-STDMETHODIMP CMyDeviceSyncItem::IsEnabled()
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CMyDeviceSyncItem::IsEnabled()
 {
     // Return a previously-calculated value.
     return (_fIsEnabled ? S_OK : S_FALSE);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

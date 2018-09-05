@@ -4,10 +4,10 @@ title: PIBIO_ENGINE_CHECK_FOR_DUPLICATE_FN
 author: windows-sdk-content
 description: Determines whether a new template in the pipeline duplicates any template already saved in the database regardless of the identity associated with the templates.
 old-location: secbiomet\engineadaptercheckforduplicate.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: 0c73e8b3-2bec-419c-bcb0-3e35d1520f05
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: EngineAdapterCheckForDuplicate, EngineAdapterCheckForDuplicate callback function [Windows Biometric Framework API], PIBIO_ENGINE_CHECK_FOR_DUPLICATE_FN, PIBIO_ENGINE_CHECK_FOR_DUPLICATE_FN callback, secbiomet.engineadaptercheckforduplicate, winbio_adapter/EngineAdapterCheckForDuplicate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -137,9 +137,13 @@ If this method does not find a matching template in the database, it should set 
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-
-```cpp
-//////////////////////////////////////////////////////////////////////////////////////////
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//////////////////////////////////////////////////////////////////////////////////////////
 //
 // EngineAdapterCheckForDuplicate
 // 
@@ -187,11 +191,11 @@ EngineAdapterCheckForDuplicate(
 
     // Retrieve the context from the pipeline.
     PWINBIO_ENGINE_CONTEXT context = 
-           (PWINBIO_ENGINE_CONTEXT)Pipeline->EngineContext;
+           (PWINBIO_ENGINE_CONTEXT)Pipeline-&gt;EngineContext;
 
     // Return if an enrollment is not in progress. This example assumes that 
     // an enrollment object is part of your engine context structure.
-    if (context->Enrollment.InProgress != TRUE)
+    if (context-&gt;Enrollment.InProgress != TRUE)
     {
         hr = WINBIO_E_INVALID_DEVICE_STATE;
         goto cleanup;
@@ -200,7 +204,7 @@ EngineAdapterCheckForDuplicate(
     // Zero the memory pointed to by the Identity argument and set the
     // pointer to NULL.
     ZeroMemory( Identity, sizeof(WINBIO_IDENTITY));
-    Identity->Type = WINBIO_ID_TYPE_NULL;
+    Identity-&gt;Type = WINBIO_ID_TYPE_NULL;
 
     // Eliminate sub-factor information.
     *SubFactor  = WINBIO_SUBTYPE_NO_INFORMATION;
@@ -216,11 +220,11 @@ EngineAdapterCheckForDuplicate(
     // differ.
     hr = _AdapterCreateIndexVector(
                 context, 
-                context->Enrollment.Template, 
-                context->Enrollment.TemplateSize,
+                context-&gt;Enrollment.Template, 
+                context-&gt;Enrollment.TemplateSize,
                 indexVector, 
                 NUMBER_OF_TEMPLATE_BINS, 
-                &rejectDetail
+                &amp;rejectDetail
                 );
     if (FAILED(hr))
     {
@@ -245,7 +249,7 @@ EngineAdapterCheckForDuplicate(
 
     // Determine the size of the result set. WbioStorageGetRecordCount is a wrapper
     // function in the Winbio_adapter.h header file.
-    hr = WbioStorageGetRecordCount( Pipeline, &recordCount);
+    hr = WbioStorageGetRecordCount( Pipeline, &amp;recordCount);
     if (FAILED(hr))
     {
         goto cleanup;
@@ -262,9 +266,9 @@ EngineAdapterCheckForDuplicate(
     // Iterate through all records in the result set and determine which record
     // matches the current feature set. WbioStorageGetCurrentRecord is a wrapper
     // function in the Winbio_adapter.h header file. 
-    for (index = 0; index < recordCount; ++index)
+    for (index = 0; index &lt; recordCount; ++index)
     {
-        hr = WbioStorageGetCurrentRecord( Pipeline, &thisRecord );
+        hr = WbioStorageGetCurrentRecord( Pipeline, &amp;thisRecord );
         if (FAILED(hr))
         {
             goto cleanup;
@@ -279,11 +283,11 @@ EngineAdapterCheckForDuplicate(
         // other reason, return a failure HRESULT.
         hr = _AdapterCompareTemplateToEnrollmentTemplate( 
                     context, 
-                    context->Enrollment.Template, 
-                    context->Enrollment.TemplateSize,
+                    context-&gt;Enrollment.Template, 
+                    context-&gt;Enrollment.TemplateSize,
                     thisRecord.TemplateBlob, 
                     thisRecord.TemplateBlobSize,
-                    &match
+                    &amp;match
                     );
         if (FAILED(hr))
         {
@@ -329,10 +333,10 @@ cleanup:
     }
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

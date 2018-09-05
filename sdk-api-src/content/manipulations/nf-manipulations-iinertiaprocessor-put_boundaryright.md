@@ -7,7 +7,7 @@ old-location: wintouch\iinertiaprocessor_rightboundary.htm
 old-project: wintouch
 ms.assetid: ff8e0602-4e35-40ad-afae-a03046dda954
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BoundaryRight property [Windows Touch], BoundaryRight property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],BoundaryRight property, IInertiaProcessor.BoundaryRight, IInertiaProcessor.put_BoundaryRight, IInertiaProcessor::BoundaryRight, IInertiaProcessor::get_BoundaryRight, IInertiaProcessor::put_BoundaryRight, manipulations/IInertiaProcessor::BoundaryRight, manipulations/IInertiaProcessor::get_BoundaryRight, manipulations/IInertiaProcessor::put_BoundaryRight, put_BoundaryRight, wintouch.iinertiaprocessor_rightboundary
 ms.prod: windows
 ms.technology: windows-sdk

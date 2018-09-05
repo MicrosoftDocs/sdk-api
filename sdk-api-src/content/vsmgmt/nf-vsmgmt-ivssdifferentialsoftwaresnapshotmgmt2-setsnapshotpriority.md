@@ -4,10 +4,10 @@ title: IVssDifferentialSoftwareSnapshotMgmt2::SetSnapshotPriority
 author: windows-sdk-content
 description: This method is reserved for future use.
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt2_setsnapshotpriority.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 4b98d4d8-5b32-4be5-8e80-852305731a7e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IVssDifferentialSoftwareSnapshotMgmt2 interface,SetSnapshotPriority method, IVssDifferentialSoftwareSnapshotMgmt2.SetSnapshotPriority, IVssDifferentialSoftwareSnapshotMgmt2::SetSnapshotPriority, SetSnapshotPriority, SetSnapshotPriority method, SetSnapshotPriority method,IVssDifferentialSoftwareSnapshotMgmt2 interface, base.ivssdifferentialsoftwaresnapshotmgmt2_setsnapshotpriority, vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2::SetSnapshotPriority
 ms.prod: windows
 ms.technology: windows-sdk

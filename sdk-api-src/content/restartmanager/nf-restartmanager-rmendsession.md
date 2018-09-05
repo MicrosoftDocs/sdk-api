@@ -4,10 +4,10 @@ title: RmEndSession function
 author: windows-sdk-content
 description: Ends the Restart Manager session.
 old-location: rstmgr\rmendsession.htm
-old-project: rstmgr
+old-project: RstMgr
 ms.assetid: 2681cb69-a66f-4aec-a164-98d2d28f9908
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RmEndSession, RmEndSession function [Restart Mgr], restartmanager/RmEndSession, rstmgr.rmendsession
 ms.prod: windows
 ms.technology: windows-sdk

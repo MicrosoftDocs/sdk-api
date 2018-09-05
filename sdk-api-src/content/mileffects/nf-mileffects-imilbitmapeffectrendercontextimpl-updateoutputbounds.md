@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectrendercontextimpl_updateoutputbounds.ht
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontextimpl\updateoutputbounds.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IMILBitmapEffectRenderContextImpl interface [WPF Bitmap Effects],UpdateOutputBounds method, IMILBitmapEffectRenderContextImpl.UpdateOutputBounds, IMILBitmapEffectRenderContextImpl::UpdateOutputBounds, UpdateOutputBounds, UpdateOutputBounds method [WPF Bitmap Effects], UpdateOutputBounds method [WPF Bitmap Effects],IMILBitmapEffectRenderContextImpl interface, _wibe_imilbitmapeffectrendercontextimpl_updateoutputbounds, mileffects/IMILBitmapEffectRenderContextImpl::UpdateOutputBounds, wibe._wibe_imilbitmapeffectrendercontextimpl_updateoutputbounds
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ Updates the output bounds with the given region.
 
 ### -param pRect [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735228(v=VS.85).aspx">MIL_RECTD</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/da11ec7a-3d36-49b2-be4d-cbc05517d364">MIL_RECTD</a>*</b>
 
 The new output bounds to use.
 

@@ -4,10 +4,10 @@ title: CheckTokenMembership function
 author: windows-sdk-content
 description: Determines whether a specified security identifier (SID) is enabled in an access token.
 old-location: security\checktokenmembership.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: c254a167-c4e7-4b84-9be3-6862761309f8
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: CheckTokenMembership, CheckTokenMembership function [Security], _win32_checktokenmembership, security.checktokenmembership, securitybaseapi/CheckTokenMembership
 ms.prod: windows
 ms.technology: windows-sdk
@@ -116,9 +116,13 @@ If <i>TokenHandle</i> is a restricted token, or if <i>TokenHandle</i> is <b>NULL
 
 The following example shows checking a token for membership in the Administrators local group.
 
-
-```cpp
-BOOL IsUserAdmin(VOID)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL IsUserAdmin(VOID)
 /*++ 
 Routine Description: This routine returns TRUE if the caller's
 process is a member of the Administrators local group. Caller is NOT
@@ -134,15 +138,15 @@ BOOL b;
 SID_IDENTIFIER_AUTHORITY NtAuthority = SECURITY_NT_AUTHORITY;
 PSID AdministratorsGroup; 
 b = AllocateAndInitializeSid(
-    &NtAuthority,
+    &amp;NtAuthority,
     2,
     SECURITY_BUILTIN_DOMAIN_RID,
     DOMAIN_ALIAS_RID_ADMINS,
     0, 0, 0, 0, 0, 0,
-    &AdministratorsGroup); 
+    &amp;AdministratorsGroup); 
 if(b) 
 {
-    if (!CheckTokenMembership( NULL, AdministratorsGroup, &b)) 
+    if (!CheckTokenMembership( NULL, AdministratorsGroup, &amp;b)) 
     {
          b = FALSE;
     } 
@@ -151,10 +155,10 @@ if(b)
 
 return(b);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -171,7 +175,7 @@ return(b);
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

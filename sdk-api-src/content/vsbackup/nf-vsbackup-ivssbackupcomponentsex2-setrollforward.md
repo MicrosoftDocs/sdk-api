@@ -4,10 +4,10 @@ title: IVssBackupComponentsEx2::SetRollForward
 author: windows-sdk-content
 description: Sets the roll-forward operation type for a component and specifies the restore point for a partial roll-forward operation.
 old-location: base\ivssbackupcomponentsex2_setrollforward.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 9529284f-2150-4d32-af6c-178ba8681945
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IVssBackupComponentsEx2 interface,SetRollForward method, IVssBackupComponentsEx2.SetRollForward, IVssBackupComponentsEx2::SetRollForward, SetRollForward, SetRollForward method, SetRollForward method,IVssBackupComponentsEx2 interface, base.ivssbackupcomponentsex2_setrollforward, vsbackup/IVssBackupComponentsEx2::SetRollForward
 ms.prod: windows
 ms.technology: windows-sdk

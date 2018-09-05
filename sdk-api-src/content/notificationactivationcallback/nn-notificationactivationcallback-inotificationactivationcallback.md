@@ -7,7 +7,7 @@ old-location: win32_tile_badge_notif\inotificationactivationcallback.htm
 old-project: win32_tile_badge_notif
 ms.assetid: 9DB90C47-6FFA-44CA-8D33-709DD8CDDA29
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: INotificationActivationCallback, INotificationActivationCallback interface, INotificationActivationCallback interface,described, notificationactivationcallback/INotificationActivationCallback, win32_tile_badge_notif.inotificationactivationcallback
 ms.prod: windows
 ms.technology: windows-sdk

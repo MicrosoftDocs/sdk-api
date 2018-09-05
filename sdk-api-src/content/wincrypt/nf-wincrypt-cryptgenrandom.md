@@ -4,10 +4,10 @@ title: CryptGenRandom function
 author: windows-sdk-content
 description: Fills a buffer with cryptographically random bytes.
 old-location: security\cryptgenrandom.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 3e5a437f-7439-43c9-a191-2908d2df0eb6
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CryptGenRandom, CryptGenRandom function [Security], _crypto2_cryptgenrandom, security.cryptgenrandom, wincrypt/CryptGenRandom
 ms.prod: windows
 ms.technology: windows-sdk
@@ -166,9 +166,13 @@ With Microsoft CSPs, <b>CryptGenRandom</b> uses the same random number generator
 
 The following example shows the generation of 8 random bytes. These can be used to create cryptographic keys or for any application that uses random numbers. For an example that includes the complete context for this example, see <a href="https://msdn.microsoft.com/e57274cf-42d3-445b-97f1-dd574010290f">Example C Program: Duplicating a Session Key</a>.
 
-
-```cpp
-//--------------------------------------------------------------------
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//--------------------------------------------------------------------
 // Declare and initialize variables.
 
 HCRYPTPROV   hCryptProv;
@@ -193,10 +197,10 @@ else
 {
      printf("Error during CryptGenRandom.\n");
      exit(1);
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -217,7 +221,7 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Key Generation and Exchange Functions</a>
+<a href="cryptography_functions.htm">Key Generation and Exchange Functions</a>
  
 
  

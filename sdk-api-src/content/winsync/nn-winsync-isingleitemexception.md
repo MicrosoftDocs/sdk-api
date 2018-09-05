@@ -7,7 +7,7 @@ old-location: winsync\isingleitemexception.htm
 old-project: winsync
 ms.assetid: 623553cb-9dc2-4504-9c49-357a0526b130
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ISingleItemException, ISingleItemException interface [Windows Sync], ISingleItemException interface [Windows Sync],described, winsync.isingleitemexception, winsync/ISingleItemException
 ms.prod: windows
 ms.technology: windows-sdk

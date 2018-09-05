@@ -7,7 +7,7 @@ old-location: devinst\cm_free_resource_conflict_handle.htm
 old-project: devinst
 ms.assetid: 8c6b4f0d-d4d0-44dc-9a8f-5e3fe36c73a5
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: CM_Free_Resource_Conflict_Handle, CM_Free_Resource_Conflict_Handle function [Device and Driver Installation], cfgmgr32/CM_Free_Resource_Conflict_Handle, cfgmgrfn_e6d2dc8a-4aa5-4271-808f-f16a885f9ad2.xml, devinst.cm_free_resource_conflict_handle
 ms.prod: windows
 ms.technology: windows-sdk

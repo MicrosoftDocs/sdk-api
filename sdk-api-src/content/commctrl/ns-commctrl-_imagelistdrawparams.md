@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Contains information about an image list draw operation and is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb761455(v=VS.85).aspx">IImageList::Draw</a> function. 
+Contains information about an image list draw operation and is used with the <a href="https://msdn.microsoft.com/4a52a225-b5b3-444d-8878-a8d6de7478ee">IImageList::Draw</a> function. 
 
 
 ## -struct-fields
@@ -105,14 +105,14 @@ The y-coordinate that specifies where the image is drawn.
 
 Type: <b>int</b>
 
-A value that specifies the number of pixels to draw, relative to the upper-left corner of the drawing operation as specified by <b>xBitmap</b> and <b>yBitmap</b>. If <b>cx</b> and <b>cy</b> are zero, then <a href="https://msdn.microsoft.com/en-us/library/Bb761455(v=VS.85).aspx">Draw</a> draws the entire valid section. The method does not ensure that the parameters are valid. 
+A value that specifies the number of pixels to draw, relative to the upper-left corner of the drawing operation as specified by <b>xBitmap</b> and <b>yBitmap</b>. If <b>cx</b> and <b>cy</b> are zero, then <a href="https://msdn.microsoft.com/4a52a225-b5b3-444d-8878-a8d6de7478ee">Draw</a> draws the entire valid section. The method does not ensure that the parameters are valid. 
 
 
 ### -field cy
 
 Type: <b>int</b>
 
-A value that specifies the number of pixels to draw, relative to the upper-left corner of the drawing operation as specified by <b>xBitmap</b> and <b>yBitmap</b>. If <b>cx</b> and <b>cy</b> are zero, then <a href="https://msdn.microsoft.com/en-us/library/Bb761455(v=VS.85).aspx">Draw</a> draws the entire valid section. The method does not ensure that the parameters are valid.  
+A value that specifies the number of pixels to draw, relative to the upper-left corner of the drawing operation as specified by <b>xBitmap</b> and <b>yBitmap</b>. If <b>cx</b> and <b>cy</b> are zero, then <a href="https://msdn.microsoft.com/4a52a225-b5b3-444d-8878-a8d6de7478ee">Draw</a> draws the entire valid section. The method does not ensure that the parameters are valid.  
 
 
 ### -field xBitmap
@@ -168,7 +168,7 @@ No background color. The image is drawn transparently.
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
 
-The image foreground color. This member is used only if <b>fStyle</b> includes the <a href="https://msdn.microsoft.com/en-us/library/Bb775230(v=VS.85).aspx">ILD_BLEND25</a> or <a href="https://msdn.microsoft.com/en-us/library/Bb775230(v=VS.85).aspx">ILD_BLEND50</a> flag. This parameter can be an application-defined RGB value or one of the following values:  
+The image foreground color. This member is used only if <b>fStyle</b> includes the <a href="IMAGELISTDRAWFLAGS.htm">ILD_BLEND25</a> or <a href="IMAGELISTDRAWFLAGS.htm">ILD_BLEND50</a> flag. This parameter can be an application-defined RGB value or one of the following values:  
 
 <table>
 <tr>
@@ -203,14 +203,14 @@ No blend color. The image is blended with the color of the destination device co
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-A flag specifying the drawing style and, optionally, the overlay image. See the comments section at the end of this topic for information on the overlay image. This member can contain one or more <a href="https://msdn.microsoft.com/en-us/library/Bb775230(v=VS.85).aspx">image list drawing flags</a>. 
+A flag specifying the drawing style and, optionally, the overlay image. See the comments section at the end of this topic for information on the overlay image. This member can contain one or more <a href="https://msdn.microsoft.com/99fd2cb2-0cb0-40c2-b184-b6d8e54397b4">image list drawing flags</a>. 
 
 
 ### -field dwRop
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-A value specifying a raster operation code. These codes define how the color data for the source rectangle will be combined with the color data for the destination rectangle to achieve the final color. This member is ignored if	<b>fStyle</b> does not include the <a href="https://msdn.microsoft.com/en-us/library/Bb775230(v=VS.85).aspx">ILD_ROP</a> flag. Some common raster operation codes include: 
+A value specifying a raster operation code. These codes define how the color data for the source rectangle will be combined with the color data for the destination rectangle to achieve the final color. This member is ignored if	<b>fStyle</b> does not include the <a href="IMAGELISTDRAWFLAGS.htm">ILD_ROP</a> flag. Some common raster operation codes include: 
 
 <table>
 <tr>
@@ -375,7 +375,7 @@ Fills the destination rectangle using the color associated with index one in the
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
-A flag that specifies the drawing state. This member can contain one or more <a href="https://msdn.microsoft.com/en-us/library/Bb775231(v=VS.85).aspx">image list state flags</a>. You must use comctl32.dll version 6 to use this member. See the Remarks.
+A flag that specifies the drawing state. This member can contain one or more <a href="https://msdn.microsoft.com/a22b4acf-c290-44b2-9216-b006d0326236">image list state flags</a>. You must use comctl32.dll version 6 to use this member. See the Remarks.
 
 
 ### -field Frame
@@ -384,7 +384,7 @@ Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d4
 
 Used with the <b>alpha blending</b> effect.
 
-When used with <a href="https://msdn.microsoft.com/en-us/library/Bb775231(v=VS.85).aspx">ILS_ALPHA</a>, this member holds the value for the alpha channel. This value can be from 0 to 255, with 0 being completely transparent, and 255 being completely opaque. 
+When used with <a href="IMAGELISTSTATEFLAGS.htm">ILS_ALPHA</a>, this member holds the value for the alpha channel. This value can be from 0 to 255, with 0 being completely transparent, and 255 being completely opaque. 
 
 You must use comctl32.dll version 6 to use this member. See the Remarks.
  
@@ -401,11 +401,11 @@ A color used for the <b>glow</b> and <b>shadow</b> effects. You must use comctl3
 
 
 
-An overlay image is an image that is drawn on top of the primary image specified in the <b>i</b> member of this structure. To specify an overlay image, use the bitwise <b>OR</b> operator to combine <b>fStyle</b> with the <a href="https://msdn.microsoft.com/en-us/library/Bb761408(v=VS.85).aspx">INDEXTOOVERLAYMASK</a> macro, passing the one-based index of the overlay image in the macro. This image must have been previously specified as an overlay image using the <a href="https://msdn.microsoft.com/en-us/library/Bb775227(v=VS.85).aspx">ImageList_SetOverlayImage</a> API. 
+An overlay image is an image that is drawn on top of the primary image specified in the <b>i</b> member of this structure. To specify an overlay image, use the bitwise <b>OR</b> operator to combine <b>fStyle</b> with the <a href="https://msdn.microsoft.com/6619d390-0c23-41ff-a07b-31425e47712b">INDEXTOOVERLAYMASK</a> macro, passing the one-based index of the overlay image in the macro. This image must have been previously specified as an overlay image using the <a href="https://msdn.microsoft.com/8cb1babc-01bd-4aae-9bc7-073050242ce4">ImageList_SetOverlayImage</a> API. 
 
-To extract the overlay image from the <b>fStyle</b>, use the bitwise <b>AND</b> operator to mask <b>fStyle</b> with the <a href="https://msdn.microsoft.com/en-us/library/Bb775230(v=VS.85).aspx">ILD_OVERLAYMASK</a> value. 
+To extract the overlay image from the <b>fStyle</b>, use the bitwise <b>AND</b> operator to mask <b>fStyle</b> with the <a href="IMAGELISTDRAWFLAGS.htm">ILD_OVERLAYMASK</a> value. 
 
-Comctl32.dll version 6 is not redistributable.. To use Comctl32.dll version 6, you must specify it in a manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/en-us/library/Bb773175(v=VS.85).aspx">Enabling Visual Styles</a>. 
+Comctl32.dll version 6 is not redistributable.. To use Comctl32.dll version 6, you must specify it in a manifest. For more information on manifests, see <a href="https://msdn.microsoft.com/eb6c2469-25b9-43c4-a6ca-391a7b2859b3">Enabling Visual Styles</a>. 
 
 
 

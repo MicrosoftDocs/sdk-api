@@ -7,7 +7,7 @@ old-location: com\olesavetostream.htm
 old-project: com
 ms.assetid: 0085c6a8-1a94-4379-9937-c8d792d130da
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: OleSaveToStream, OleSaveToStream function [COM], _ole_OleSaveToStream, com.olesavetostream, ole/OleSaveToStream
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,12 @@ Saves an object with the <a href="https://msdn.microsoft.com/97ea64ee-d950-4872-
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
 
 TBD
 

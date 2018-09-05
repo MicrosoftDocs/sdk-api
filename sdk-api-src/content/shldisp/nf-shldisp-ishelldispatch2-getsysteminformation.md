@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch2_GetSystemInformation.htm
 old-project: shell
 ms.assetid: 57c066e3-080f-4ecc-b56e-877f0569e901
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetSystemInformation, GetSystemInformation method [Windows Shell], GetSystemInformation method [Windows Shell],IShellDispatch2 object, IShellDispatch2 object [Windows Shell],GetSystemInformation method, IShellDispatch2.GetSystemInformation, IShellDispatch2::GetSystemInformation, _win32_IShellDispatch2_GetSystemInformation, shell.IShellDispatch2_GetSystemInformation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,7 +74,7 @@ Retrieves system information.
 
 #### - sName [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a></b>
+Type: <b><a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a></b>
 
 A <b>String</b> that specifies the system information that is being requested.
 
@@ -179,9 +179,13 @@ The following examples show the use of <b>GetSystemInformation</b> for JScript a
 JScript:
                 
 
-
-```javascript
-<script language="JavaScript">
+<div class="code"><span codelanguage="JScript"><table>
+<tr>
+<th>JScript</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="JavaScript"&gt;
     function fnGetSystemInformationJ()
     {
         var objShell = new ActiveXObject("shell.application");
@@ -190,16 +194,20 @@ JScript:
         vReturn = objShell.GetSystemInformation("ProcessorLevel");
         document.write(vReturn);
     }
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 VBScript:
 
-
-```vb
-<script language="VBScript">
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="VBScript"&gt;
     function fnGetSystemInformationVB()
         dim objShell
         dim vReturn
@@ -211,10 +219,10 @@ VBScript:
 
         set objShell = nothing
     end function
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

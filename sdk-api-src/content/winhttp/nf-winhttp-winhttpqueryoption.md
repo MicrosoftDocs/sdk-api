@@ -4,10 +4,10 @@ title: WinHttpQueryOption function
 author: windows-sdk-content
 description: The WinHttpQueryOption function queries an Internet option on the specified handle.
 old-location: http\winhttpqueryoption.htm
-old-project: winhttp
+old-project: WinHttp
 ms.assetid: 47973eab-de70-47bf-9713-97b87a500cfa
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: WinHttpQueryOption, WinHttpQueryOption function [WinHTTP], http.winhttpqueryoption, winhttp.winhttpqueryoption_function, winhttp/WinHttpQueryOption
 ms.prod: windows
 ms.technology: windows-sdk
@@ -179,9 +179,13 @@ Even when  WinHTTP is used in asynchronous mode (that is, when <b>WINHTTP_FLAG_A
 This example demonstrates retrieving the connection 
                 time-out value:
 
-
-```cpp
-    DWORD data;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    DWORD data;
     DWORD dwSize = sizeof(DWORD);
 
     // Use WinHttpOpen to obtain an HINTERNET handle.
@@ -196,7 +200,7 @@ This example demonstrates retrieving the connection
         // Use WinHttpQueryOption to retrieve internet options.
         if (WinHttpQueryOption( hSession, 
                                 WINHTTP_OPTION_CONNECT_TIMEOUT, 
-                                &data, &dwSize))
+                                &amp;data, &amp;dwSize))
         {
             printf("Connection timeout: %u ms\n\n",data);
         }
@@ -212,10 +216,10 @@ This example demonstrates retrieving the connection
     {
         printf("Error %u in WinHttpOpen.\n", GetLastError());
     }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

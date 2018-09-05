@@ -7,7 +7,7 @@ old-location: tablet\iec_recognitionresultinfo__win32_only_.htm
 old-project: tablet
 ms.assetid: a17dd2e4-0649-4cfc-aab3-c032710480a1
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: IEC_RECOGNITIONRESULTINFO, IEC_RECOGNITIONRESULTINFO (Win32 Only), IEC_RECOGNITIONRESULTINFO (Win32 Only) structure [Tablet PC], a17dd2e4-0649-4cfc-aab3-c032710480a1, inked/IEC_RECOGNITIONRESULTINFO, tablet.iec_recognitionresultinfo__win32_only_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,16 +67,20 @@ Contains information about an <a href="https://msdn.microsoft.com/fd7ee250-6f76-
 
  The NMHDR structure that contains standard information about the WM_NOTIFY message. The NMHDR structure contains the handle and identifier of the control that is sending the message and the notification code, which in this case is <a href="https://msdn.microsoft.com/26023012-9ab1-4bd9-beff-41587bc74f5e">IECN_RECOGNITIONRESULT</a>. The format of the NMHDR structure is:
 
-
-```cpp
-typedef struct tagNMHDR {
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct tagNMHDR {
       HWND hwndFrom;
       UINT idFrom;
       UINT code;
-  } NMHDR;
-```
-
-
+  } NMHDR;</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -field RecognitionResult
 

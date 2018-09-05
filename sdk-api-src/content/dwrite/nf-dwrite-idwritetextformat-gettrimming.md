@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteTextFormat_GetTrimming.htm
 old-project: DirectWrite
 ms.assetid: 6147d0a4-8f50-40c6-864e-734cfef57089
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetTrimming, GetTrimming method [Direct Write], GetTrimming method [Direct Write],IDWriteTextFormat interface, IDWriteTextFormat interface [Direct Write],GetTrimming method, IDWriteTextFormat.GetTrimming, IDWriteTextFormat::GetTrimming, directwrite.IDWriteTextFormat_GetTrimming, dwrite/IDWriteTextFormat::GetTrimming
 ms.prod: windows
 ms.technology: windows-sdk

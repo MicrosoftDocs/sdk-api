@@ -7,7 +7,7 @@ old-location: shell\IShellFolderViewDual_SelectItem.htm
 old-project: shell
 ms.assetid: fb9bc12f-bf5f-42f2-a1cd-160298f7c73a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellFolderViewDual interface [Windows Shell],SelectItem method, IShellFolderViewDual.SelectItem, IShellFolderViewDual::SelectItem, SelectItem, SelectItem method [Windows Shell], SelectItem method [Windows Shell],IShellFolderViewDual interface, _shell_IShellFolderViewDual_SelectItem, shell.IShellFolderViewDual_SelectItem, shldisp/IShellFolderViewDual::SelectItem
 ms.prod: windows
 ms.technology: windows-sdk

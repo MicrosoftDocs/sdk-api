@@ -4,10 +4,10 @@ title: "_VDS_ISCSI_LOGIN_FLAG"
 author: windows-sdk-content
 description: Defines the set of valid flags for specifying iSCSI target login options.
 old-location: base\vds_iscsi_login_flag.htm
-old-project: vds
+old-project: VDS
 ms.assetid: c315f5cc-2b15-4185-8d22-7114950273e7
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: VDS_ILF_MULTIPATH_ENABLED, VDS_ILF_REQUIRE_IPSEC, VDS_ISCSI_LOGIN_FLAG, VDS_ISCSI_LOGIN_FLAG enumeration [VDS], _VDS_ISCSI_LOGIN_FLAG, base.vds_iscsi_login_flag, vds/VDS_ILF_MULTIPATH_ENABLED, vds/VDS_ILF_REQUIRE_IPSEC, vds/VDS_ISCSI_LOGIN_FLAG, vdshwprv/VDS_ILF_MULTIPATH_ENABLED, vdshwprv/VDS_ILF_REQUIRE_IPSEC, vdshwprv/VDS_ISCSI_LOGIN_FLAG
 ms.prod: windows
 ms.technology: windows-sdk

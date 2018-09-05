@@ -4,10 +4,10 @@ title: "_QOS_SHAPING"
 author: windows-sdk-content
 description: The QOS_SHAPING enumeration defines the shaping behavior of a flow.
 old-location: qos\qos_shaping.htm
-old-project: qos
+old-project: QOS
 ms.assetid: 8cd40e29-3af4-440c-8c44-3aeb5291e9c9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PQOS_SHAPING, PQOS_SHAPING, PQOS_SHAPING enumeration pointer [QOS], QOSShapeAndMark, QOSShapeOnly, QOSUseNonConformantMarkings, QOS_SHAPING, QOS_SHAPING enumeration [QOS], _QOS_SHAPING, qos.qos_shaping, qos2/PQOS_SHAPING, qos2/QOSShapeAndMark, qos2/QOSShapeOnly, qos2/QOSUseNonConformantMarkings, qos2/QOS_SHAPING"
 ms.prod: windows
 ms.technology: windows-sdk

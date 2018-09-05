@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh706328(v=VS.85).aspx">Directional blur effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/59328FA4-5C27-4A81-AAB2-C5B25B3615C6">Directional blur effect</a>.
         
 
 
@@ -88,7 +88,7 @@ The default value is 0.0f.
 The optimization mode. See Optimization modes for more info.
           
 
-The type is <a href="https://msdn.microsoft.com/en-us/library/Dn934235(v=VS.85).aspx">D2D1_DIRECTIONALBLUR_OPTIMIZATION</a>.
+The type is <a href="https://msdn.microsoft.com/28B99069-3380-4D44-82A1-9A8F551B3C45">D2D1_DIRECTIONALBLUR_OPTIMIZATION</a>.
 
 The default value is D2D1_DIRECTIONALBLUR_OPTIMIZATION_BALANCED. 
 
@@ -98,7 +98,7 @@ The default value is D2D1_DIRECTIONALBLUR_OPTIMIZATION_BALANCED.
 The mode used to calculate the border of the image, soft or hard. See Border modes for more info.
           
 
-The type is <a href="https://msdn.microsoft.com/en-us/library/Dn934220(v=VS.85).aspx">D2D1_BORDER_MODE</a>.
+The type is <a href="https://msdn.microsoft.com/093C7028-9C0E-4BB5-9769-C456B7A23B6F">D2D1_BORDER_MODE</a>.
 
 The default value is D2D1_BORDER_MODE_SOFT.
 

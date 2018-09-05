@@ -7,7 +7,7 @@ old-location: shell\SHCreateThreadWithHandle.htm
 old-project: shell
 ms.assetid: 22a3a97a-857f-46b8-a2e0-8f3a14f40322
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHCreateThreadWithHandle, SHCreateThreadWithHandle function [Windows Shell], _shell_SHCreateThreadWithHandle, shell.SHCreateThreadWithHandle, shlwapi/SHCreateThreadWithHandle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -119,15 +119,19 @@ The function pointed to by <i>pfnThreadProc</i> and <i>pfnCallback</i> must take
 
                 
 
-
-```
-DWORD WINAPI ThreadProc(LPVOID pData)
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>DWORD WINAPI ThreadProc(LPVOID pData)
 {
     ...
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 The function name is arbitrary. The <i>pData</i> parameter points to an application-defined data structure with initialization information.
 
 
@@ -135,9 +139,13 @@ The function name is arbitrary. The <i>pData</i> parameter points to an applicat
 
 The following code example provides a function pointer prototype typedef for calling <b>SHCreateThreadWithHandle</b> by ordinal and shows how to accomplish such a call.
 
-
-```cpp
-// Define SHCREATETHREADWITHHANDLE as a function pointer to SHCreateThreadWithHandle.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Define SHCREATETHREADWITHHANDLE as a function pointer to SHCreateThreadWithHandle.
 typedef BOOL (STDMETHODCALLTYPE *SHCREATETHREADWITHHANDLE)(LPTHREAD_START_ROUTINE, 
                                                            void *, 
                                                            DWORD, 
@@ -189,10 +197,10 @@ BOOL CallSHCreateThreadWithHandle(LPTHREAD_START_ROUTINE pfnThreadProc,
                        ? S_OK : HRESULT_FROM_WIN32(GetLastError());
     }
     return SUCCEEDED(hr);
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -213,7 +221,7 @@ BOOL CallSHCreateThreadWithHandle(LPTHREAD_START_ROUTINE pfnThreadProc,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680746(v=VS.85).aspx">HRESULT_FROM_WIN32</a>
+<a href="com.hresult_from_win32">HRESULT_FROM_WIN32</a>
 
 
 

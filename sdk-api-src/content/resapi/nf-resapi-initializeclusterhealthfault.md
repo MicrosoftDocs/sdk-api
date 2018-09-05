@@ -7,7 +7,7 @@ old-location: mscs\initializeclusterhealthfault.htm
 old-project: mscs
 ms.assetid: 4631df2f-8fde-446c-9fbc-f7e88bc6d4e6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: InitializeClusterHealthFault, InitializeClusterHealthFault function [Failover Cluster], mscs.initializeclusterhealthfault, resapi/InitializeClusterHealthFault
 ms.prod: windows
 ms.technology: windows-sdk

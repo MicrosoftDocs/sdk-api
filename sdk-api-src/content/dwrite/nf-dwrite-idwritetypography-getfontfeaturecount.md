@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteTypography_GetFontFeatureCount.htm
 old-project: DirectWrite
 ms.assetid: 434ea913-00c9-4051-b13c-68f9d67ebd84
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetFontFeatureCount, GetFontFeatureCount method [Direct Write], GetFontFeatureCount method [Direct Write],IDWriteTypography interface, IDWriteTypography interface [Direct Write],GetFontFeatureCount method, IDWriteTypography.GetFontFeatureCount, IDWriteTypography::GetFontFeatureCount, directwrite.IDWriteTypography_GetFontFeatureCount, dwrite/IDWriteTypography::GetFontFeatureCount
 ms.prod: windows
 ms.technology: windows-sdk

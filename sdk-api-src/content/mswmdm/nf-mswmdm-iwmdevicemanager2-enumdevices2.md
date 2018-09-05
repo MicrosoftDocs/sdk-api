@@ -7,7 +7,7 @@ old-location: wmdm\iwmdevicemanager2_enumdevices2.htm
 old-project: WMDM
 ms.assetid: b5015263-23f2-466f-a89f-26c14f7a2263
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: EnumDevices2, EnumDevices2 method [windows Media Device Manager], EnumDevices2 method [windows Media Device Manager],IWMDeviceManager2 interface, IWMDeviceManager2 interface [windows Media Device Manager],EnumDevices2 method, IWMDeviceManager2.EnumDevices2, IWMDeviceManager2::EnumDevices2, IWMDeviceManager2EnumDevices2, mswmdm/IWMDeviceManager2::EnumDevices2, wmdm.iwmdevicemanager2_enumdevices2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,13 +100,17 @@ This method returns a snapshot of the devices connected when the underlying obje
 
 The following C++ code loops through all the devices and retrieves the display name of each.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // Enumerate through the devices using the faster EnumDevices2 Plug-and-Play method.
 // IWMDevMgr2 is a global IWMDeviceManager2 pointer.
-CComPtr<IWMDMEnumDevice> pEnumDevice;
-hr = pIWMDevMgr2->EnumDevices2(&pEnumDevice);
+CComPtr&lt;IWMDMEnumDevice&gt; pEnumDevice;
+hr = pIWMDevMgr2-&gt;EnumDevices2(&amp;pEnumDevice);
 if (hr == S_OK)
 {
     // Length of all the strings we'll send in. 
@@ -119,21 +123,21 @@ if (hr == S_OK)
         // Get a device handle.
         IWMDMDevice* pDevice;
         ULONG ulFetched = 0;
-        hr = pEnumDevice->Next(1, &pDevice, &ulFetched);
-        CComQIPtr<IWMDMDevice2> pDevice2(pDevice);
+        hr = pEnumDevice-&gt;Next(1, &amp;pDevice, &amp;ulFetched);
+        CComQIPtr&lt;IWMDMDevice2&gt; pDevice2(pDevice);
 
         if (hr != S_OK || ulFetched != 1)
         {
             break;
         }
         ZeroMemory(name, MAX_CHARS);
-        hr = pDevice2->GetName(name, MAX_CHARS);
+        hr = pDevice2-&gt;GetName(name, MAX_CHARS);
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

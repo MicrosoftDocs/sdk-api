@@ -4,10 +4,10 @@ title: IWSDMessageParameters::GetLocalAddress
 author: windows-sdk-content
 description: Retrieves the generic address object representing the local address that received the message.
 old-location: ncd\iwsdmessageparameters_getlocaladdress.htm
-old-project: wsdapi
+old-project: WsdApi
 ms.assetid: 97eab68f-9a77-46ae-a50e-be6267e25040
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetLocalAddress, GetLocalAddress method, GetLocalAddress method,IWSDMessageParameters interface, IWSDMessageParameters interface,GetLocalAddress method, IWSDMessageParameters.GetLocalAddress, IWSDMessageParameters::GetLocalAddress, ncd.iwsdmessageparameters_getlocaladdress, wsdbase/IWSDMessageParameters::GetLocalAddress
 ms.prod: windows
 ms.technology: windows-sdk

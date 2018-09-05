@@ -4,10 +4,10 @@ title: IWSDMessageParameters
 author: windows-sdk-content
 description: Use this interface to communicate message specific information up and down the protocol stack.
 old-location: ncd\iwsdmessageparameters.htm
-old-project: wsdapi
+old-project: WsdApi
 ms.assetid: fb659a5e-1f55-47a6-b22d-660975d8c0fd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWSDMessageParameters, IWSDMessageParameters interface, IWSDMessageParameters interface,described, ncd.iwsdmessageparameters, wsdbase/IWSDMessageParameters
 ms.prod: windows
 ms.technology: windows-sdk

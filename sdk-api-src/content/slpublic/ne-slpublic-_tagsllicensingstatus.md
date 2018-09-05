@@ -4,10 +4,10 @@ title: "_tagSLLICENSINGSTATUS"
 author: windows-sdk-content
 description: Represents the licensing status.
 old-location: security\sllicensingstatus.htm
-old-project: secslapi
+old-project: SecSLApi
 ms.assetid: 8af21021-ad18-4045-8a24-0af0d39db919
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SLLICENSINGSTATUS, SLLICENSINGSTATUS enumeration [Security], SL_LICENSING_STATUS_IN_GRACE_PERIOD, SL_LICENSING_STATUS_LAST, SL_LICENSING_STATUS_LICENSED, SL_LICENSING_STATUS_NOTIFICATION, SL_LICENSING_STATUS_UNLICENSED, _tagSLLICENSINGSTATUS, security.sllicensingstatus, slpublic/SLLICENSINGSTATUS, slpublic/SL_LICENSING_STATUS_IN_GRACE_PERIOD, slpublic/SL_LICENSING_STATUS_LAST, slpublic/SL_LICENSING_STATUS_LICENSED, slpublic/SL_LICENSING_STATUS_NOTIFICATION, slpublic/SL_LICENSING_STATUS_UNLICENSED
 ms.prod: windows
 ms.technology: windows-sdk

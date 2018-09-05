@@ -7,7 +7,7 @@ old-location: rdc\irdcsimilaritygenerator.htm
 old-project: Rdc
 ms.assetid: 60133763-9678-4927-9d3a-3e431310b601
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: IRdcSimilarityGenerator, IRdcSimilarityGenerator interface [Remote Differential Compression], IRdcSimilarityGenerator interface [Remote Differential Compression],described, fs.irdcsimilaritygenerator, msrdc/IRdcSimilarityGenerator, rdc.irdcsimilaritygenerator
 ms.prod: windows
 ms.technology: windows-sdk

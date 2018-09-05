@@ -7,7 +7,7 @@ old-location: mbn\imbnmulticarrierevents_oncurrentcellularclasschange.htm
 old-project: mbn
 ms.assetid: 76B5349E-EA51-422D-81BC-A93B85FBCF90
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMbnMultiCarrierEvents interface [Microsoft Broadband Networks],OnCurrentCellularClassChange method, IMbnMultiCarrierEvents.OnCurrentCellularClassChange, IMbnMultiCarrierEvents::OnCurrentCellularClassChange, OnCurrentCellularClassChange, OnCurrentCellularClassChange method [Microsoft Broadband Networks], OnCurrentCellularClassChange method [Microsoft Broadband Networks],IMbnMultiCarrierEvents interface, mbn.imbnmulticarrierevents_oncurrentcellularclasschange, mbnapi/IMbnMultiCarrierEvents::OnCurrentCellularClassChange
 ms.prod: windows
 ms.technology: windows-sdk

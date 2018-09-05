@@ -7,7 +7,7 @@ old-location: winstation\getuserobjectinformation.htm
 old-project: winstation
 ms.assetid: 64f7361d-1a94-4d5b-86f1-a2a21737668a
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 08/29/2018
 ms.keywords: GetUserObjectInformation, GetUserObjectInformation function [Windows Stations and Desktops], GetUserObjectInformationA, GetUserObjectInformationW, UOI_FLAGS, UOI_HEAPSIZE, UOI_IO, UOI_NAME, UOI_TYPE, UOI_USER_SID, _win32_getuserobjectinformation, base.getuserobjectinformation, winstation.getuserobjectinformation, winuser/GetUserObjectInformation, winuser/GetUserObjectInformationA, winuser/GetUserObjectInformationW
 ms.prod: windows
 ms.technology: windows-sdk

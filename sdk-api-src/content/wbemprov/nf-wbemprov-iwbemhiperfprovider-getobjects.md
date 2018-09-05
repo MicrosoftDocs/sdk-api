@@ -7,7 +7,7 @@ old-location: wmi\iwbemhiperfprovider_getobjects.htm
 old-project: WmiSdk
 ms.assetid: ba56b029-95d4-4c79-8385-0a5adb9f7dcc
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: GetObjects, GetObjects method [Windows Management Instrumentation], GetObjects method [Windows Management Instrumentation],IWbemHiPerfProvider interface, IWbemHiPerfProvider interface [Windows Management Instrumentation],GetObjects method, IWbemHiPerfProvider.GetObjects, IWbemHiPerfProvider::GetObjects, _hmm_iwbemhiperfprovider_getobjects, wbemprov/IWbemHiPerfProvider::GetObjects, wmi.iwbemhiperfprovider_getobjects
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,7 +69,7 @@ The
 ### -param pNamespace [in]
 
 An 
-<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> pointer back into Windows Management, which can service any request made by the provider. The provider should call <a href="https://msdn.microsoft.com/en-us/library/ms691379(v=VS.85).aspx">AddRef</a> on this pointer if it is going to call back into Windows Management during its execution.
+<a href="https://msdn.microsoft.com/58e2ecca-7d1f-4831-93fc-f946f8ada2c0">IWbemServices</a> pointer back into Windows Management, which can service any request made by the provider. The provider should call <a href="_com_iunknown_addref">AddRef</a> on this pointer if it is going to call back into Windows Management during its execution.
 
 
 ### -param lNumObjects [in]
@@ -123,9 +123,13 @@ The requested objects will have their key properties filled out.
 The following code example describes how to implement 
 <b>GetObjects</b>.
 
-
-```cpp
-HRESULT CMyHiPerfProvider::GetObjects(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CMyHiPerfProvider::GetObjects(
   /* [in] */IWbemServices *pNamespace,
   /* [in] */  long lNumObjects,
   /* [in,out] */IWbemObjectAccess **apObj,
@@ -134,7 +138,7 @@ HRESULT CMyHiPerfProvider::GetObjects(
 )
 {
 
-  for ( long i = 0; i < lNumObjects; i++ )
+  for ( long i = 0; i &lt; lNumObjects; i++ )
   {
       // Validate the instance (that is, ensure
       // the path is good); if it fails, return
@@ -153,10 +157,10 @@ HRESULT CMyHiPerfProvider::GetObjects(
   }
 
   return WBEM_S_NO_ERROR;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

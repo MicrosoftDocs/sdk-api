@@ -4,10 +4,10 @@ title: ICertificatePolicy::get_PolicyQualifiers
 author: windows-sdk-content
 description: Retrieves a collection of optional policy qualifiers that can be applied to a certificate policy.
 old-location: security\icertificatepolicy_policyqualifiers_property.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: 7955dfa1-70b2-4b6e-975f-c489a6284c5c
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ICertificatePolicy interface [Security],PolicyQualifiers property, ICertificatePolicy.PolicyQualifiers, ICertificatePolicy.get_PolicyQualifiers, ICertificatePolicy::PolicyQualifiers, ICertificatePolicy::get_PolicyQualifiers, PolicyQualifiers property [Security], PolicyQualifiers property [Security],ICertificatePolicy interface, certenroll/ICertificatePolicy::PolicyQualifiers, certenroll/ICertificatePolicy::get_PolicyQualifiers, get_PolicyQualifiers, security.icertificatepolicy_policyqualifiers_property
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-An empty <a href="https://msdn.microsoft.com/en-us/library/Aa376804(v=VS.85).aspx">IPolicyQualifiers</a> object is created when you call the <a href="https://msdn.microsoft.com/en-us/library/Aa375226(v=VS.85).aspx">Initialize</a> method. You can call the <b>PolicyQualifiers</b> property to retrieve this object and specify qualifying information for the policy. Policy qualifiers only apply if you are creating a <b>CertificatePolicies</b> extension. For more information, see the <a href="https://msdn.microsoft.com/en-us/library/Aa378121(v=VS.85).aspx">IX509ExtensionCertificatePolicies</a>.
+An empty <a href="https://msdn.microsoft.com/da8b6289-379e-4dff-b15a-b0967f245c3d">IPolicyQualifiers</a> object is created when you call the <a href="https://msdn.microsoft.com/995b344b-ed1f-47e4-a7c6-0d638ed9ec23">Initialize</a> method. You can call the <b>PolicyQualifiers</b> property to retrieve this object and specify qualifying information for the policy. Policy qualifiers only apply if you are creating a <b>CertificatePolicies</b> extension. For more information, see the <a href="https://msdn.microsoft.com/d35d155c-fb81-4d7e-b5c9-82ac5af4b79e">IX509ExtensionCertificatePolicies</a>.
 
 
 
@@ -74,11 +74,11 @@ An empty <a href="https://msdn.microsoft.com/en-us/library/Aa376804(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375214(v=VS.85).aspx">ICertificatePolicies</a>
+<a href="https://msdn.microsoft.com/2503adcb-0b73-42ef-98cf-a2b906e34ef7">ICertificatePolicies</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375225(v=VS.85).aspx">ICertificatePolicy</a>
+<a href="https://msdn.microsoft.com/2162de70-edcc-4f01-807d-79ff200d0016">ICertificatePolicy</a>
  
 
  

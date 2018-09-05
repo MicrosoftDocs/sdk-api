@@ -7,7 +7,7 @@ old-location: mbn\imbninterfacemanagerevents_oninterfacearrival.htm
 old-project: mbn
 ms.assetid: 1a65aed6-34d4-420b-b175-a2a778712771
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMbnInterfaceManagerEvents interface [Microsoft Broadband Networks],OnInterfaceArrival method, IMbnInterfaceManagerEvents.OnInterfaceArrival, IMbnInterfaceManagerEvents::OnInterfaceArrival, OnInterfaceArrival, OnInterfaceArrival method [Microsoft Broadband Networks], OnInterfaceArrival method [Microsoft Broadband Networks],IMbnInterfaceManagerEvents interface, mbn.imbninterfacemanagerevents_oninterfacearrival, mbnapi/IMbnInterfaceManagerEvents::OnInterfaceArrival
 ms.prod: windows
 ms.technology: windows-sdk

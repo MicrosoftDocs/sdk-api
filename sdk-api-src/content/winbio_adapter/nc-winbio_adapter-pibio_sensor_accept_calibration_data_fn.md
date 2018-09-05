@@ -4,10 +4,10 @@ title: PIBIO_SENSOR_ACCEPT_CALIBRATION_DATA_FN
 author: windows-sdk-content
 description: Passes calibration data from the engine adapter to the sensor adapter.
 old-location: secbiomet\sensoradapteracceptcalibrationdata.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: EE3B7066-BE91-4F63-8E0A-70F5CAB46496
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: PIBIO_SENSOR_ACCEPT_CALIBRATION_DATA_FN, PIBIO_SENSOR_ACCEPT_CALIBRATION_DATA_FN callback, SensorAdapterAcceptCalibrationData, SensorAdapterAcceptCalibrationData callback function [Windows Biometric Framework API], secbiomet.sensoradapteracceptcalibrationdata, winbio_adapter/SensorAdapterAcceptCalibrationData
 ms.prod: windows
 ms.technology: windows-sdk

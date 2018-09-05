@@ -4,10 +4,10 @@ title: IAzTasks::get_Count
 author: windows-sdk-content
 description: Retrieves the number of IAzTask objects in the collection.
 old-location: security\iaztasks_count.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 505768ce-27a3-4f36-aeea-081cf8e45d14
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AzTasks object [Security],Count property, Count property [Security], Count property [Security],AzTasks object, Count property [Security],IAzTasks interface, IAzTasks interface [Security],Count property, IAzTasks.Count, IAzTasks.get_Count, IAzTasks::Count, IAzTasks::get_Count, azroles/IAzTasks::Count, azroles/IAzTasks::get_Count, get_Count, security.iaztasks_count
 ms.prod: windows
 ms.technology: windows-sdk

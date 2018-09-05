@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioclient_getdeviceperiod.htm
 old-project: CoreAudio
 ms.assetid: f2f75fce-9eca-488d-b183-87d97d4e599a
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: GetDevicePeriod, GetDevicePeriod method [Core Audio], GetDevicePeriod method [Core Audio],IAudioClient interface, IAudioClient interface [Core Audio],GetDevicePeriod method, IAudioClient.GetDevicePeriod, IAudioClient::GetDevicePeriod, IAudioClientGetDevicePeriod, audioclient/IAudioClient::GetDevicePeriod, coreaudio.iaudioclient_getdeviceperiod
 ms.prod: windows
 ms.technology: windows-sdk

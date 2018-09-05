@@ -4,10 +4,10 @@ title: RpcNsBindingExportPnPW function
 author: windows-sdk-content
 description: The RpcNsBindingExportPnP function establishes a name-service database entry with multiple binding handles and multiple objects for a server that supports Plug and Play.
 old-location: rpc\rpcnsbindingexportpnp.htm
-old-project: rpc
+old-project: Rpc
 ms.assetid: 01440165-ab04-447a-9a39-9e91743aba65
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcNsBindingExportPnP, RpcNsBindingExportPnP function [RPC], RpcNsBindingExportPnPA, RpcNsBindingExportPnPW, _rpc_rpcnsbindingexportpnp, rpc.rpcnsbindingexportpnp, rpcnsi/RpcNsBindingExportPnP, rpcnsi/RpcNsBindingExportPnPA, rpcnsi/RpcNsBindingExportPnPW
 ms.prod: windows
 ms.technology: windows-sdk

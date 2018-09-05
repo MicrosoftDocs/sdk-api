@@ -7,7 +7,7 @@ old-location: wsw\wspushbytes.htm
 old-project: wsw
 ms.assetid: 295eb530-00f1-4e80-bd8a-ffb3eb1fad5b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WsPushBytes, WsPushBytes function [Web Services for Windows], webservices/WsPushBytes, wsw.wspushbytes
 ms.prod: windows
 ms.technology: windows-sdk

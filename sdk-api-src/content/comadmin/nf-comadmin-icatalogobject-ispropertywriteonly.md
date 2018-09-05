@@ -7,7 +7,7 @@ old-location: cos\icatalogobject_ispropertywriteonly.htm
 old-project: cossdk
 ms.assetid: 463ca1eb-5386-4265-882b-fa29c4cbe877
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ICatalogObject interface [COM+],IsPropertyWriteOnly method, ICatalogObject.IsPropertyWriteOnly, ICatalogObject::IsPropertyWriteOnly, IsPropertyWriteOnly, IsPropertyWriteOnly method [COM+], IsPropertyWriteOnly method [COM+],ICatalogObject interface, _cos_ICatalogObject_IsPropertyWriteOnly, comadmin/ICatalogObject::IsPropertyWriteOnly, cos.icatalogobject_ispropertywriteonly
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Indicates whether the specified property can be read using <a href="https://msdn.microsoft.com/en-us/library/ms687686(v=VS.85).aspx">Value</a>.
+Indicates whether the specified property can be read using <a href="https://msdn.microsoft.com/eb4203c5-b51c-411c-9c2d-405b3d70bc80">Value</a>.
 
 
 ## -parameters
@@ -83,7 +83,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms688526(v=VS.85).aspx">ICatalogObject</a>
+<a href="https://msdn.microsoft.com/fe3f7452-57b2-4f9e-9b48-5dedfe519ac1">ICatalogObject</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: shell\SHSetDefaultProperties.htm
 old-project: shell
 ms.assetid: c3ab80a3-c1f3-4223-9fe3-f7fe48c36460
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHSetDefaultProperties, SHSetDefaultProperties function [Windows Shell], _shell_SHSetDefaultProperties, shell.SHSetDefaultProperties, shobjidl/SHSetDefaultProperties
 ms.prod: windows
 ms.technology: windows-sdk

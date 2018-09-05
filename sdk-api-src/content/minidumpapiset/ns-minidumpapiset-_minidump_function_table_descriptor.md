@@ -7,7 +7,7 @@ old-location: base\minidump_function_table_descriptor_str.htm
 old-project: debug
 ms.assetid: 284435dc-3443-4b26-9c13-ce9567482628
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: "*PMINIDUMP_FUNCTION_TABLE_DESCRIPTOR, MINIDUMP_FUNCTION_TABLE_DESCRIPTOR, MINIDUMP_FUNCTION_TABLE_DESCRIPTOR structure, PMINIDUMP_FUNCTION_TABLE_DESCRIPTOR, PMINIDUMP_FUNCTION_TABLE_DESCRIPTOR structure pointer, _MINIDUMP_FUNCTION_TABLE_DESCRIPTOR, _win32_minidump_function_table_descriptor_str, base.minidump_function_table_descriptor_str, minidumpapiset/MINIDUMP_FUNCTION_TABLE_DESCRIPTOR, minidumpapiset/PMINIDUMP_FUNCTION_TABLE_DESCRIPTOR"
 ms.prod: windows
 ms.technology: windows-sdk

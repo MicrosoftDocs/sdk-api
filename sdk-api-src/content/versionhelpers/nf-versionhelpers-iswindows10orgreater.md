@@ -4,10 +4,10 @@ title: IsWindows10OrGreater function
 author: windows-sdk-content
 description: Indicates if the current OS version matches, or is greater than, the Windows 10 version.
 old-location: base\iswindows10orgreater.htm
-old-project: sysinfo
+old-project: SysInfo
 ms.assetid: 1F7AE6CA-3E2B-4DF1-A047-58AB9A0B1DA4
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: IsWindows10OrGreater, IsWindows10OrGreater function, base.iswindows10orgreater, versionhelpers/IsWindows10OrGreater
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,18 +90,22 @@ The inline functions defined in the <b>VersionHelpers.h</b> header file let you 
 
 For example, if your application requires Windows 10 or later, use the following test.
 
-
-```cpp
-#include <VersionHelpers.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;VersionHelpers.h&gt;
 …
     if (!IsWindows10OrGreater())
     {
        MessageBox(NULL, "You need at least Windows 10.", "Version Not Supported", MB_OK);
     }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: winmsg\unhookwindowshookex.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookfunctions\unhookwindowshookex.htm
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: UnhookWindowsHookEx, UnhookWindowsHookEx function [Windows and Messages], _win32_UnhookWindowsHookEx, _win32_unhookwindowshookex_cpp, winmsg.unhookwindowshookex, winui._win32_unhookwindowshookex, winuser/UnhookWindowsHookEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Removes a hook procedure installed in a hook chain by the <a href="https://msdn.microsoft.com/en-us/library/ms644990(v=VS.85).aspx">SetWindowsHookEx</a> function. 
+Removes a hook procedure installed in a hook chain by the <a href="https://msdn.microsoft.com/66c96282-528c-4f57-acab-ae03178e4fe9">SetWindowsHookEx</a> function. 
 
 
 ## -parameters
@@ -71,7 +71,7 @@ Removes a hook procedure installed in a hook chain by the <a href="https://msdn.
 
 Type: <b>HHOOK</b>
 
-A handle to the hook to be removed. This parameter is a hook handle obtained by a previous call to <a href="https://msdn.microsoft.com/en-us/library/ms644990(v=VS.85).aspx">SetWindowsHookEx</a>. 
+A handle to the hook to be removed. This parameter is a hook handle obtained by a previous call to <a href="https://msdn.microsoft.com/66c96282-528c-4f57-acab-ae03178e4fe9">SetWindowsHookEx</a>. 
 
 
 ## -returns
@@ -97,7 +97,7 @@ The hook procedure can be in the state of being called by another thread even af
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644960(v=VS.85).aspx">Monitoring System Events</a>.
+For an example, see <a href="using_hooks.htm">Monitoring System Events</a>.
 
 <div class="code"></div>
 
@@ -112,7 +112,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644960(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632589(v=VS.85).aspx">Hooks</a>
+<a href="https://msdn.microsoft.com/987095d7-059f-4eae-925d-6723ab6d524c">Hooks</a>
 
 
 
@@ -120,7 +120,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644960(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644990(v=VS.85).aspx">SetWindowsHookEx</a>
+<a href="https://msdn.microsoft.com/66c96282-528c-4f57-acab-ae03178e4fe9">SetWindowsHookEx</a>
  
 
  

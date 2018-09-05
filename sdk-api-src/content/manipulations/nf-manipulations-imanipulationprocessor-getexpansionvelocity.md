@@ -7,7 +7,7 @@ old-location: wintouch\imanipulationprocessor_getexpansionvelocity.htm
 old-project: wintouch
 ms.assetid: 5dbaeaa3-4abf-485e-9f84-8450dce14fc9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetExpansionVelocity, GetExpansionVelocity method [Windows Touch], GetExpansionVelocity method [Windows Touch],IManipulationProcessor interface, IManipulationProcessor interface [Windows Touch],GetExpansionVelocity method, IManipulationProcessor.GetExpansionVelocity, IManipulationProcessor::GetExpansionVelocity, manipulations/IManipulationProcessor::GetExpansionVelocity, wintouch.imanipulationprocessor_getexpansionvelocity
 ms.prod: windows
 ms.technology: windows-sdk

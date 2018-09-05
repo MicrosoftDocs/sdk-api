@@ -7,7 +7,7 @@ old-location: winsync\isupportlastwritetime.htm
 old-project: winsync
 ms.assetid: b95e2b75-add7-4cdd-b18a-21918e9c8c08
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ISupportLastWriteTime, ISupportLastWriteTime interface [Windows Sync], ISupportLastWriteTime interface [Windows Sync],described, winsync.isupportlastwritetime, winsync/ISupportLastWriteTime
 ms.prod: windows
 ms.technology: windows-sdk

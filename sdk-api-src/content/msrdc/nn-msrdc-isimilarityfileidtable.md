@@ -7,7 +7,7 @@ old-location: rdc\isimilarityfileidtable.htm
 old-project: Rdc
 ms.assetid: 539a2e9b-9719-4012-bb7f-4d14723a3695
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: ISimilarityFileIdTable, ISimilarityFileIdTable interface [Remote Differential Compression], ISimilarityFileIdTable interface [Remote Differential Compression],described, fs.isimilarityfileidtable, msrdc/ISimilarityFileIdTable, rdc.isimilarityfileidtable
 ms.prod: windows
 ms.technology: windows-sdk

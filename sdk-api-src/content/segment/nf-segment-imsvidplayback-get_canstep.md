@@ -167,15 +167,19 @@ Call the <a href="https://msdn.microsoft.com/49f78dd8-f26e-456d-b67e-155ae0ed541
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 VARIANT_BOOL fCan = VARIANT_FALSE;
-hr = m_pPlayback->get_CanStep(VARIANT_FALSE, &fCan);
-
-```
-
-
+hr = m_pPlayback-&gt;get_CanStep(VARIANT_FALSE, &amp;fCan);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

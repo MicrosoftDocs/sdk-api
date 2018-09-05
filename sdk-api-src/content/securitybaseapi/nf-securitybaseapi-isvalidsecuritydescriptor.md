@@ -4,10 +4,10 @@ title: IsValidSecurityDescriptor function
 author: windows-sdk-content
 description: Determines whether the components of a security descriptor are valid.
 old-location: security\isvalidsecuritydescriptor.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 24a98229-11e4-45ef-988b-c2cf831275e7
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: IsValidSecurityDescriptor, IsValidSecurityDescriptor function [Security], _win32_isvalidsecuritydescriptor, security.isvalidsecuritydescriptor, securitybaseapi/IsValidSecurityDescriptor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -139,7 +139,7 @@ The <b>IsValidSecurityDescriptor</b> function checks the validity of the compone
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Low-level Access Control Functions</a>
+<a href="authorization_functions.htm">Low-level Access Control Functions</a>
 
 
 

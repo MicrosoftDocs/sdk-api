@@ -7,7 +7,7 @@ old-location: com\olecmd.htm
 old-project: com
 ms.assetid: a75ca136-ed6a-43c5-b775-a50535431f1d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: OLECMD, OLECMD structure [COM], _ole_OLECMD, _tagOLECMD, com.olecmd, docobj/OLECMD
 ms.prod: windows
 ms.technology: windows-sdk

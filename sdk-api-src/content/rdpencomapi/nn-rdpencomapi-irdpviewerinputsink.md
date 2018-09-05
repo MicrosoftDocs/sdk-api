@@ -4,10 +4,10 @@ title: IRDPViewerInputSink
 author: windows-sdk-content
 description: Sends mouse and keyboard events, and supports touch input.
 old-location: rdp\irdpviewerinputsink.htm
-old-project: rdp
+old-project: Rdp
 ms.assetid: 364EC709-C41C-4ADD-8E7D-6A635E5BCCDA
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IRDPViewerInputSink, IRDPViewerInputSink class [RDP], IRDPViewerInputSink class [RDP],described, rdp.irdpviewerinputsink, rdpencomapi/IRDPViewerInputSink
 ms.prod: windows
 ms.technology: windows-sdk

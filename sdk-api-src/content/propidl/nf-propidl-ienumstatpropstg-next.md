@@ -4,10 +4,10 @@ title: IEnumSTATPROPSTG::Next
 author: windows-sdk-content
 description: Retrieves a specified number of STATPROPSTG structures, that follow subsequently in the enumeration sequence.
 old-location: stg\ienumstatpropstg_next.htm
-old-project: stg
+old-project: Stg
 ms.assetid: 8e911da9-0056-4267-b9d0-c4ba929ddb94
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IEnumSTATPROPSTG interface [Structured Storage],Next method, IEnumSTATPROPSTG.Next, IEnumSTATPROPSTG::Next, Next, Next method [Structured Storage], Next method [Structured Storage],IEnumSTATPROPSTG interface, propidlbase/IEnumSTATPROPSTG::Next, stg.ienumstatpropstg_next
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ISettingsItem::SetValue
 author: windows-sdk-content
 description: Sets the value of an item.
 old-location: smi\isettingsitem_setvalue.htm
-old-project: smi
+old-project: SMI
 ms.assetid: 52b7e852-b389-47ec-a9d0-e4ce2e95f1f8
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ISettingsItem interface [SMI],SetValue method, ISettingsItem.SetValue, ISettingsItem::SetValue, SetValue, SetValue method [SMI], SetValue method [SMI],ISettingsItem interface, smi.isettingsitem_setvalue, wcmconfig/ISettingsItem::SetValue
 ms.prod: windows
 ms.technology: windows-sdk

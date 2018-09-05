@@ -7,7 +7,7 @@ old-location: mscs\cluster_resources.htm
 old-project: mscs
 ms.assetid: fdfdd1de-fa4a-4bfb-80e1-15b2141d488b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Cluster object [Failover Cluster],Resources property, Cluster.Resources, ISCluster.get_Resources, ISCluster::get_Resources, Resources property [Failover Cluster], Resources property [Failover Cluster],Cluster object, _wolf_cluster.resources, get_Resources, mscs.cluster_resources
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ req.product: GDI+ 1.1
 Returns a 
     <a href="https://msdn.microsoft.com/56dd53e7-7e2e-481f-b343-da51c7c52553">ClusResources</a> collection providing access 
     to the <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resources</a> in a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+    <a href="c_gly.htm">cluster</a>.
 
 This property is read-only.
 

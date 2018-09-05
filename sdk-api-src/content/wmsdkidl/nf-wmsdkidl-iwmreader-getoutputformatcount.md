@@ -89,7 +89,7 @@ If the method succeeds, it returns S_OK. If it fails, it returns an <b>HRESULT</
 
 
 
-The number of formats that can be delivered on output is determined by the decoding codec. The Windows Media codecs can deliver media samples for a stream in a number of formats. For example, the Windows Media Video 9 codec can deliver samples as bitmapped images or as <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">YUV</a> images with varying properties to suit your needs.
+The number of formats that can be delivered on output is determined by the decoding codec. The Windows Media codecs can deliver media samples for a stream in a number of formats. For example, the Windows Media Video 9 codec can deliver samples as bitmapped images or as <a href="wmformat_glossary.htm">YUV</a> images with varying properties to suit your needs.
 
 Every compressed media type has a default output format determined by the codec. You can obtain the properties of the default output format by calling <a href="https://msdn.microsoft.com/8958abd0-cc2b-4d02-a831-c998d468fb06">IWMReader::GetOutputProps</a>.
 

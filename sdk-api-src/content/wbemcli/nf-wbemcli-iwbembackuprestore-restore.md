@@ -7,7 +7,7 @@ old-location: wmi\iwbembackuprestore_restore.htm
 old-project: WmiSdk
 ms.assetid: 73a61c69-0a78-4c38-aaec-a72b644f19b4
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: IWbemBackupRestore interface [Windows Management Instrumentation],Restore method, IWbemBackupRestore.Restore, IWbemBackupRestore::Restore, Restore, Restore method [Windows Management Instrumentation], Restore method [Windows Management Instrumentation],IWbemBackupRestore interface, WBEM_FLAG_BACKUP_RESTORE_DEFAULT, WBEM_FLAG_BACKUP_RESTORE_FORCE_SHUTDOWN, _hmm_iwbembackuprestore_restore, wbemcli/IWbemBackupRestore::Restore, wmi.iwbembackuprestore_restore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -105,15 +105,19 @@ The default mode is the same as setting the force-mode flag, which breaks all ac
 
 The following C++ example shows how to call the <b>IWbemBackupRestore::Restore</b> method.
 
-
-```cpp
-// The pInt variable is of type IWbemBackupRestore*
-pInt->Restore(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// The pInt variable is of type IWbemBackupRestore*
+pInt-&gt;Restore(
         L"c:\\\\Windows\\System32\\wbem\\repository\\back.x",
         WBEM_FLAG_BACKUP_RESTORE_FORCE_SHUTDOWN
-      );
-```
-
-
+      );</pre>
+</td>
+</tr>
+</table></span></div>
 
 

@@ -7,7 +7,7 @@ old-location: wintouch\manipulation_processor_manipulations.htm
 old-project: wintouch
 ms.assetid: 85ddd2d3-cb4b-48ae-8ad4-230be5420abd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MANIPULATION_ALL, MANIPULATION_NONE, MANIPULATION_PROCESSOR_MANIPULATIONS, MANIPULATION_PROCESSOR_MANIPULATIONS enumeration [Windows Touch], MANIPULATION_ROTATE, MANIPULATION_SCALE, MANIPULATION_TRANSLATE_X, MANIPULATION_TRANSLATE_Y, manipulations/MANIPULATION_ALL, manipulations/MANIPULATION_NONE, manipulations/MANIPULATION_PROCESSOR_MANIPULATIONS, manipulations/MANIPULATION_ROTATE, manipulations/MANIPULATION_SCALE, manipulations/MANIPULATION_TRANSLATE_X, manipulations/MANIPULATION_TRANSLATE_Y, wintouch.manipulation_processor_manipulations
 ms.prod: windows
 ms.technology: windows-sdk
@@ -101,19 +101,23 @@ Use this enumeration with the <a href="https://msdn.microsoft.com/1909394f-83ec-
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
         CoInitialize(0);
 
         hr = spIManipProc.CoCreateInstance(CLSID_ManipulationProcessor, NULL, CLSCTX_ALL);
 
         MANIPULATION_PROCESSOR_MANIPULATIONS mpm;
-        spIManipProc->get_SupportedManipulations(&mpm);    
-        
-```
-
-
+        spIManipProc-&gt;get_SupportedManipulations(&amp;mpm);    
+        </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

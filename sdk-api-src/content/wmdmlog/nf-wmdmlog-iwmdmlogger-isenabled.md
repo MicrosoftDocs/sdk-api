@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmlogger_isenabled.htm
 old-project: WMDM
 ms.assetid: 10bf20bd-7457-4d37-82b5-7d761b4371c5
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IWMDMLogger interface [windows Media Device Manager],IsEnabled method, IWMDMLogger.IsEnabled, IWMDMLogger::IsEnabled, IWMDMLoggerIsEnabled, IsEnabled, IsEnabled method [windows Media Device Manager], IsEnabled method [windows Media Device Manager],IWMDMLogger interface, wmdm.iwmdmlogger_isenabled, wmdmlog/IWMDMLogger::IsEnabled
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,23 +94,27 @@ The file WmdmLog.idl is the IDL source code for WmdmLog.dll. This file is proces
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // Create logging object.
-CoCreateInstance(CLSID_WMDMLogger, NULL, CLSCTX_ALL, __uuidof(IWMDMLogger), (void**)&m_pLogger);
+CoCreateInstance(CLSID_WMDMLogger, NULL, CLSCTX_ALL, __uuidof(IWMDMLogger), (void**)&amp;m_pLogger);
 BOOL enabled = FALSE;
-hr = m_pLogger->IsEnabled(&enabled);
+hr = m_pLogger-&gt;IsEnabled(&amp;enabled);
 // TODO: Display a message that logging is either enabled or disabled.
 if(!enabled)
 {
-    if(m_pLogger->Enable(TRUE) != S_OK)
+    if(m_pLogger-&gt;Enable(TRUE) != S_OK)
         m_pLogger = NULL;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

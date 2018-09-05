@@ -7,7 +7,7 @@ old-location: setup\error_moduletable.htm
 old-project: msi
 ms.assetid: 390f5889-d638-4c1c-b95c-76d38c934e7c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Error object,ModuleTable property, Error.ModuleTable, IMsmError.get_ModuleTable, IMsmError::get_ModuleTable, ModuleTable property, ModuleTable property,Error object, _msi_moduletable_property, get_ModuleTable, setup.error_moduletable
 ms.prod: windows
 ms.technology: windows-sdk

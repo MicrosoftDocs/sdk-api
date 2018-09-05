@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_omgetblendstate.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_omgetblendstate.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: ID3D10Device interface [Direct3D 10],OMGetBlendState method, ID3D10Device.OMGetBlendState, ID3D10Device::OMGetBlendState, OMGetBlendState, OMGetBlendState method [Direct3D 10], OMGetBlendState method [Direct3D 10],ID3D10Device interface, b8350c99-7325-98c2-8067-e749ec016907, d3d10/ID3D10Device::OMGetBlendState, direct3d10.id3d10device_omgetblendstate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-Get the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx">blend state</a> of the output-merger stage.
+Get the <a href="https://msdn.microsoft.com/8be68c15-2deb-4804-b683-30080a876189">blend state</a> of the output-merger stage.
 
 
 ## -parameters
@@ -62,9 +62,9 @@ Get the <a href="https://msdn.microsoft.com/en-us/library/Bb205120(v=VS.85).aspx
 
 ### -param ppBlendState [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173505(v=VS.85).aspx">ID3D10BlendState</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/fe0186f5-cd8f-478d-9009-a0f82830cd1f">ID3D10BlendState</a>**</b>
 
-Address of a pointer to a blend-state interface (see <a href="https://msdn.microsoft.com/en-us/library/Bb173505(v=VS.85).aspx">ID3D10BlendState</a>).
+Address of a pointer to a blend-state interface (see <a href="https://msdn.microsoft.com/fe0186f5-cd8f-478d-9009-a0f82830cd1f">ID3D10BlendState</a>).
 
 
 ### -param BlendFactor
@@ -74,14 +74,14 @@ Address of a pointer to a blend-state interface (see <a href="https://msdn.micro
 
 ### -param pSampleMask [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a>*</b>
 
-Pointer to a <a href="https://msdn.microsoft.com/en-us/library/Bb173595(v=VS.85).aspx">sample mask</a>.
+Pointer to a <a href="https://msdn.microsoft.com/39169f4f-8a7b-4db0-abd5-5b67b204b394">sample mask</a>.
 
 
 #### - BlendFactor[4] [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">FLOAT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">FLOAT</a></b>
 
 Array of blend factors, one for each RGBA component.
 
@@ -109,7 +109,7 @@ The reference count of the returned interface will be incremented by one when th
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
  
 
  

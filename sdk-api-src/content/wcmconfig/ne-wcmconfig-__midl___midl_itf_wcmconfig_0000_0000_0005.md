@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_wcmconfig_0000_0000_0005"
 author: windows-sdk-content
 description: Enumerates the facet values that may be returned by the ISettingsItem::GetRestrictionFacets method.
 old-location: smi\wcmrestrictionfacets.htm
-old-project: smi
+old-project: SMI
 ms.assetid: b9e62904-f6a9-4299-a558-51b57bd7d3db
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: WcmRestrictionFacets, WcmRestrictionFacets enumeration [SMI], __MIDL___MIDL_itf_wcmconfig_0000_0000_0005, restrictionFacetEnumeration, restrictionFacetMaxInclusive, restrictionFacetMaxLength, restrictionFacetMinInclusive, smi.wcmrestrictionfacets, wcmconfig/WcmRestrictionFacets, wcmconfig/restrictionFacetEnumeration, wcmconfig/restrictionFacetMaxInclusive, wcmconfig/restrictionFacetMaxLength, wcmconfig/restrictionFacetMinInclusive
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.product: Windows Address Book 5.0
 
 Enumerates the facet values that may be returned by the <a href="https://msdn.microsoft.com/64cf82d5-c210-4ff2-a7c8-1a284859382e">ISettingsItem::GetRestrictionFacets</a> method. The facet values are combined by performing an <b>OR</b> operation to provide a full identification of the facets that are defined on the base type for a particular setting. This enumeration type is also used as an input to the <a href="https://msdn.microsoft.com/14bc4956-e8ea-464b-949e-ddc7ae445c1a">ISettingsItem::GetRestriction</a> method to specify a facet and retrieve the corresponding information for that facet.
 
-The facet values roughly conform to the  restrictions defined in <a href="https://msdn.microsoft.com/library/ms256149(v=VS.85).aspx">Data Type Facets</a>. Simple data types (both built-in and derived) have facets. A facet is a single defining aspect that helps determine the set of values for a simple type. For example, <i>MaxLength</i>, <i>minInclusive</i>, and <i>maxInclusive</i> are common facets for the built-in data types. All of the facets for a simple type define the set of legal values for that simple type.
+The facet values roughly conform to the  restrictions defined in <a href="88c691a0-a38e-4025-9f39-bcd2a4447f1b">Data Type Facets</a>. Simple data types (both built-in and derived) have facets. A facet is a single defining aspect that helps determine the set of values for a simple type. For example, <i>MaxLength</i>, <i>minInclusive</i>, and <i>maxInclusive</i> are common facets for the built-in data types. All of the facets for a simple type define the set of legal values for that simple type.
 
 
 ## -enum-fields

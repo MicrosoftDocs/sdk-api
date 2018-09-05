@@ -7,7 +7,7 @@ old-location: base\rtladdgrowablefunctiontable.htm
 old-project: debug
 ms.assetid: 84ba7171-a4eb-4807-9883-f4fac6296ed0
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: RtlAddGrowableFunctionTable, RtlAddGrowableFunctionTable function, base.rtladdgrowablefunctiontable, winnt/RtlAddGrowableFunctionTable
 ms.prod: windows
 ms.technology: windows-sdk

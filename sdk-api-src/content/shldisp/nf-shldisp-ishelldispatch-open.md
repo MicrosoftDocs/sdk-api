@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_Open.htm
 old-project: shell
 ms.assetid: 30FE669A-4AFD-4dfa-9F62-E62E744469C7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellDispatch object [Windows Shell],Open method, IShellDispatch.Open, IShellDispatch::Open, Open, Open method [Windows Shell], Open method [Windows Shell],IShellDispatch object, shell.IShellDispatch_Open
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,9 +96,13 @@ The following examples show the use of <b>Open</b> in JScript, VBScript, and Vis
 JScript:
                 
 
-
-```javascript
-<script language="JScript">
+<div class="code"><span codelanguage="JScript"><table>
+<tr>
+<th>JScript</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="JScript"&gt;
     function fnShellOpenJ()
     {
         var objShell = new ActiveXObject("shell.application");
@@ -106,16 +110,20 @@ JScript:
         
         objshell.Open(ssfWINDOWS);
     }
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 VBScript:
 
-
-```vb
-<script language="VBScript">
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="VBScript"&gt;
     function fnShellOpenVB()
         dim objShell
         
@@ -124,16 +132,20 @@ VBScript:
 
         set objShell = nothing
     end function
- </script>
-
-```
-
-
+ &lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 Visual Basic:
 
-
-```vb
-Private Sub fnShellOpenVB()
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Private Sub fnShellOpenVB()
     Dim objShell As Shell
     
     Set objShell = New Shell
@@ -141,10 +153,10 @@ Private Sub fnShellOpenVB()
 
     Set objShell = Nothing
 End Sub
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

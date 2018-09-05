@@ -7,7 +7,7 @@ old-location: fs\medialabelinfo.htm
 old-project: Rsm
 ms.assetid: 8641e9e6-e251-4bf9-935a-f8888705f9a1
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: "*pMediaLabelInfo, MediaLabelInfo, MediaLabelInfo structure [Files], _zaw_medialabelinfo, base.medialabelinfo, fs.medialabelinfo, ntmsmli/MediaLabelInfo"
 ms.prod: windows
 ms.technology: windows-sdk

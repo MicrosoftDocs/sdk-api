@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmprogress.htm
 old-project: WMDM
 ms.assetid: 9af022a6-19b4-41b7-b951-0acad6aab4a2
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IWMDMProgress, IWMDMProgress interface [windows Media Device Manager], IWMDMProgress interface [windows Media Device Manager],described, IWMDMProgressInterface, mswmdm/IWMDMProgress, wmdm.iwmdmprogress
 ms.prod: windows
 ms.technology: windows-sdk

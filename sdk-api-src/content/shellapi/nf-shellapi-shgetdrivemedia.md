@@ -7,7 +7,7 @@ old-location: shell\SHGetDriveMedia.htm
 old-project: shell
 ms.assetid: 9b1208cd-3c13-456a-8a7f-0f149cb86d38
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHGetDriveMedia, SHGetDriveMedia function [Windows Shell], _shell_SHGetDriveMedia, shell.SHGetDriveMedia, shellapi/SHGetDriveMedia
 ms.prod: windows
 ms.technology: windows-sdk

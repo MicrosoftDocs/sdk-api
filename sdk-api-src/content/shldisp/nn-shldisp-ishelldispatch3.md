@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch3.htm
 old-project: shell
 ms.assetid: 89d0aa4d-844d-497d-82bb-bcc2bcf9c78b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellDispatch3, IShellDispatch3 object [Windows Shell], IShellDispatch3 object [Windows Shell],described, _shell_IShellDispatch3, shell.IShellDispatch3, shldisp/IShellDispatch3
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,7 +98,7 @@ For a discussion of Windows services, see the <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
 
 
 

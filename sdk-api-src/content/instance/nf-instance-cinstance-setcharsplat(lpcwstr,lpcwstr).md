@@ -7,7 +7,7 @@ old-location: wmi\cinstance_setcharsplat_lpcwstr__lpcwstr_.htm
 old-project: WmiSdk
 ms.assetid: 27860c70-9ed5-4744-a643-f3074abe6575
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],SetCharSplat method, CInstance.SetCharSplat, CInstance.SetCharSplat(LPCWSTR,LPCWSTR), CInstance::SetCharSplat, CInstance::SetCharSplat(LPCWSTR,LPCWSTR), SetCharSplat, SetCharSplat method [Windows Management Instrumentation], SetCharSplat method [Windows Management Instrumentation],CInstance interface, instance/CInstance::SetCharSplat, wmi.cinstance_setcharsplat_lpcwstr__lpcwstr_
 ms.prod: windows
 ms.technology: windows-sdk

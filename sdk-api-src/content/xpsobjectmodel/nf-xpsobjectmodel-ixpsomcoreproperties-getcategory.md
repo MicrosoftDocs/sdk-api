@@ -110,7 +110,7 @@ The method succeeded.
 
 The <b>category</b> property contains categorization of the content.
 
-This method allocates the memory used by the string that is returned in <i>category</i>.  If <i>category</i> is not <b>NULL</b>, use the <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function  to free the memory.
+This method allocates the memory used by the string that is returned in <i>category</i>.  If <i>category</i> is not <b>NULL</b>, use the <a href="_com_CoTaskMemFree">CoTaskMemFree</a> function  to free the memory.
 
 
 

@@ -61,14 +61,14 @@ Multiplies two matrices and returns the result.
 
 ### -param point [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dd368132(v=VS.85).aspx">D2D1_MATRIX_3X2_F</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a></b>
 
 The first matrix to multiply.
 
 
 ### -param matrix [ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dd368132(v=VS.85).aspx">D2D1_MATRIX_3X2_F</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a></b>
 
 The second matrix to multiply.
 
@@ -77,7 +77,7 @@ The second matrix to multiply.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dd368132(v=VS.85).aspx">D2D1_MATRIX_3X2_F</a></b>
+Type: <b><a href="https://msdn.microsoft.com/f05d7555-6482-4eea-950f-7b443892cc1f">D2D1_MATRIX_3X2_F</a></b>
 
 The result of multiplying <i>matrix1</i> and <i>matrix2</i>.
 

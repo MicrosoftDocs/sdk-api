@@ -7,7 +7,7 @@ old-location: winrt\imetadataassemblyimport_enumexportedtypes.htm
 old-project: WinRT
 ms.assetid: 8274d8e3-bcfb-4560-b925-2fede03be4cd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EnumExportedTypes, EnumExportedTypes method [Windows Runtime], EnumExportedTypes method [Windows Runtime],IMetaDataAssemblyImport interface, IMetaDataAssemblyImport interface [Windows Runtime],EnumExportedTypes method, IMetaDataAssemblyImport.EnumExportedTypes, IMetaDataAssemblyImport::EnumExportedTypes, rometadataapi/IMetaDataAssemblyImport::EnumExportedTypes, winrt.imetadataassemblyimport_enumexportedtypes
 ms.prod: windows
 ms.technology: windows-sdk

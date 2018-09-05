@@ -40,8 +40,8 @@ api_name:
  - DRM_STATUS_MSG
 product: Windows
 targetos: Windows
-req.lib: Msdrm.lib
-req.dll: Msdrm.dll
+req.lib: 
+req.dll: 
 req.irql: 
 req.product: Rights Management Services client 1.0 SP2 or later
 ---

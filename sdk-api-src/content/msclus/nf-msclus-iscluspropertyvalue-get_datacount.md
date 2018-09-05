@@ -7,7 +7,7 @@ old-location: mscs\cluspropertyvalue_datacount.htm
 old-project: mscs
 ms.assetid: 6b4897e2-8396-4f93-b2b8-52bf7d14ad9c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusPropertyValue object [Failover Cluster],DataCount property, ClusPropertyValue.DataCount, DataCount property [Failover Cluster], DataCount property [Failover Cluster],ClusPropertyValue object, ISClusPropertyValue.get_DataCount, ISClusPropertyValue::get_DataCount, _wolf_cluspropertyvalue.datacount, get_DataCount, mscs.cluspropertyvalue_datacount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,8 +58,8 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Returns the number of 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369367(v=VS.85).aspx">data values</a> currently assigned to a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">property value</a>.
+    <a href="d_gly.htm">data values</a> currently assigned to a 
+    <a href="p_gly.htm">property value</a>.
 
 This property is read-only.
 

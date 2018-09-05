@@ -4,10 +4,10 @@ title: WSManCallbackFlags
 author: windows-sdk-content
 description: Defines a set of flags used by all callback functions.
 old-location: winrm\wsmancallbackflags.htm
-old-project: winrm
+old-project: WinRM
 ms.assetid: ce4c664d-bc69-415a-955d-7761f58a25e2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WSMAN_FLAG_CALLBACK_END_OF_OPERATION, WSMAN_FLAG_CALLBACK_END_OF_STREAM, WSManCallbackFlags, WSManCallbackFlags enumeration [Windows Remote Management], winrm.wsmancallbackflags, wsman/WSMAN_FLAG_CALLBACK_END_OF_OPERATION, wsman/WSMAN_FLAG_CALLBACK_END_OF_STREAM, wsman/WSManCallbackFlags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -40,8 +40,8 @@ api_name:
  - WSManCallbackFlags
 product: Windows
 targetos: Windows
-req.lib: Wslapi.lib
-req.dll: Api-ms-win-wsl-api-l1-1-0.dll
+req.lib: 
+req.dll: 
 req.irql: 
 req.product: Windows XP Professional x64 Edition or 64-bit editions of     Windows Server 2003
 ---

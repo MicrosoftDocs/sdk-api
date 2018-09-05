@@ -4,10 +4,10 @@ title: ICspInformations::Remove
 author: windows-sdk-content
 description: Removes an ICspInformation object from the collection by index number.
 old-location: security\icspinformations_remove_method.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: cbf427d8-3f66-4a54-a226-2060c58924b6
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ICspInformations interface [Security],Remove method, ICspInformations.Remove, ICspInformations::Remove, Remove, Remove method [Security], Remove method [Security],ICspInformations interface, certenroll/ICspInformations::Remove, security.icspinformations_remove_method
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>Remove</b> method removes an <a href="https://msdn.microsoft.com/en-us/library/Aa375967(v=VS.85).aspx">ICspInformation</a> object from the collection by index number.
+The <b>Remove</b> method removes an <a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a> object from the collection by index number.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ A <b>LONG</b> variable that contains the index of the object to remove.
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 
@@ -80,11 +80,11 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375967(v=VS.85).aspx">ICspInformation</a>
+<a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375968(v=VS.85).aspx">ICspInformations</a>
+<a href="https://msdn.microsoft.com/8141023c-c162-46d6-9c37-e227ce1c8761">ICspInformations</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationinterpolator_interpolatevelocity.htm
 old-project: UIAnimation
 ms.assetid: ae0b6674-307b-454e-b8be-db564c234607
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IUIAnimationInterpolator interface [Windows Animation],InterpolateVelocity method, IUIAnimationInterpolator.InterpolateVelocity, IUIAnimationInterpolator::InterpolateVelocity, InterpolateVelocity, InterpolateVelocity method [Windows Animation], InterpolateVelocity method [Windows Animation],IUIAnimationInterpolator interface, uianimation.iuianimationinterpolator_interpolatevelocity, uianimation/IUIAnimationInterpolator::InterpolateVelocity
 ms.prod: windows
 ms.technology: windows-sdk

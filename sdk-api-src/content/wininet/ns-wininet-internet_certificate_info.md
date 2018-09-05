@@ -7,7 +7,7 @@ old-location: wininet\internet_certificate_info.htm
 old-project: WinInet
 ms.assetid: 2262a3cf-f325-470a-a7cd-9bcafc5aadc4
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPINTERNET_CERTIFICATE_INFO, INTERNET_CERTIFICATE_INFO, INTERNET_CERTIFICATE_INFO structure [WinINet], LPINTERNET_CERTIFICATE_INFO, LPINTERNET_CERTIFICATE_INFO structure pointer [WinINet], _inet_internet_certificate_info_structure, wininet.internet_certificate_info, wininet/ LPINTERNET_CERTIFICATE_INFO, wininet/INTERNET_CERTIFICATE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

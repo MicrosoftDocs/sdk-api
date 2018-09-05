@@ -4,10 +4,10 @@ title: WakeByAddressAll function
 author: windows-sdk-content
 description: Wakes all threads that are waiting for the value of an address to change.
 old-location: base\wakebyaddressall.htm
-old-project: sync
+old-project: Sync
 ms.assetid: 2d538cea-06cb-4973-8677-27ebcde0aa6f
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: WakeByAddressAll, WakeByAddressAll function, base.wakebyaddressall, synchapi/WakeByAddressAll
 ms.prod: windows
 ms.technology: windows-sdk

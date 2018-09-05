@@ -4,10 +4,10 @@ title: PIBIO_STORAGE_ATTACH_FN
 author: windows-sdk-content
 description: Adds a storage adapter to the processing pipeline of the biometric unit.
 old-location: secbiomet\storageadapterattach.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: 6abded6b-12e0-4cc6-a011-0b18e8ea747b
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: PIBIO_STORAGE_ATTACH_FN, PIBIO_STORAGE_ATTACH_FN callback, StorageAdapterAttach, StorageAdapterAttach callback function [Windows Biometric Framework API], secbiomet.storageadapterattach, winbio_adapter/StorageAdapterAttach
 ms.prod: windows
 ms.technology: windows-sdk
@@ -132,9 +132,13 @@ If there is an error during the creation and initialization of storage adapter r
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-
-```cpp
-/////////////////////////////////////////////////////////////////////////////////////////
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>/////////////////////////////////////////////////////////////////////////////////////////
 //
 // StorageAdapterAttach
 //
@@ -161,8 +165,8 @@ StorageAdapterAttach(
         goto cleanup;
     }
 
-    if (Pipeline->StorageContext != NULL ||
-        Pipeline->StorageHandle != INVALID_HANDLE_VALUE)
+    if (Pipeline-&gt;StorageContext != NULL ||
+        Pipeline-&gt;StorageHandle != INVALID_HANDLE_VALUE)
     { 
         // The pipeline state is not valid. This function should never
         // be called if the pipeline already contains a storage context
@@ -186,7 +190,7 @@ StorageAdapterAttach(
     // in a known state.
     // The result set is attached to the storage context so that it can persist from
     // one storage adapter call to the next.  
-    hr = _ResultSetInitialize(&newContext->ResultSet);
+    hr = _ResultSetInitialize(&amp;newContext-&gt;ResultSet);
     if (FAILED(hr))
     {
         goto cleanup;
@@ -197,23 +201,23 @@ StorageAdapterAttach(
 
     // If initialization completes successfully, attach the context to the 
     // processing pipeline of the biometric unit.
-    Pipeline->StorageContext = newContext;
+    Pipeline-&gt;StorageContext = newContext;
     newContext = NULL;
 
 cleanup:
 
-    if (FAILED(hr) && newContext != NULL)
+    if (FAILED(hr) &amp;&amp; newContext != NULL)
     {
-        _ResultSetCleanup(&newContext->ResultSet);
+        _ResultSetCleanup(&amp;newContext-&gt;ResultSet);
         _AdapterRelease( newContext );
         newContext = NULL;
     }
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,10 +4,10 @@ title: WinHttpGetProxyResult function
 author: windows-sdk-content
 description: The WinHttpGetProxyResult function retrieves the results of a call to WinHttpGetProxyForUrlEx.
 old-location: http\winhttpgetproxyresult.htm
-old-project: winhttp
+old-project: WinHttp
 ms.assetid: f594e588-b3da-4afb-a5f9-552759bca148
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: WinHttpGetProxyResult, WinHttpGetProxyResult function [WinHTTP], http.winhttpgetproxyresult, winhttp/WinHttpGetProxyResult
 ms.prod: windows
 ms.technology: windows-sdk

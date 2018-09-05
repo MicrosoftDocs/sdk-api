@@ -7,7 +7,7 @@ old-location: wmi\iwbemstatuscodetext_geterrorcodetext.htm
 old-project: WmiSdk
 ms.assetid: f2adc740-f1d9-434e-a7ac-b4830350e862
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: GetErrorCodeText, GetErrorCodeText method [Windows Management Instrumentation], GetErrorCodeText method [Windows Management Instrumentation],IWbemStatusCodeText interface, IWbemStatusCodeText interface [Windows Management Instrumentation],GetErrorCodeText method, IWbemStatusCodeText.GetErrorCodeText, IWbemStatusCodeText::GetErrorCodeText, _hmm_iwbemstatuscodetext_geterrorcodetext, wbemcli/IWbemStatusCodeText::GetErrorCodeText, wmi.iwbemstatuscodetext_geterrorcodetext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -105,15 +105,19 @@ To enable <b>GetErrorCodeText</b> to
 The following example describes how to implement 
 <b>GetErrorCodeText</b>.
 
-
-```cpp
-IWbemStatusCodeText * pStatus = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IWbemStatusCodeText * pStatus = NULL;
 
     SCODE sc = CoCreateInstance(CLSID_WbemStatusCodeText,
                                 0, 
                                 CLSCTX_INPROC_SERVER,
                                 IID_IWbemStatusCodeText,
-                                (LPVOID *) &pStatus);
+                                (LPVOID *) &amp;pStatus);
     
     if(sc == S_OK)
     {
@@ -121,27 +125,27 @@ IWbemStatusCodeText * pStatus = NULL;
 
         // The m_hres isan HRESULT variable that has already
         // been declared and initialized.
-        sc = pStatus->GetErrorCodeText(m_hres, 0, 0, &bstr);
+        sc = pStatus-&gt;GetErrorCodeText(m_hres, 0, 0, &amp;bstr);
         if(sc == S_OK)
         {
             // to do, display this:
             SysFreeString(bstr);
             bstr = 0;
         }
-        sc = pStatus->GetFacilityCodeText(m_hres, 0, 0, &bstr);
+        sc = pStatus-&gt;GetFacilityCodeText(m_hres, 0, 0, &amp;bstr);
         if(sc == S_OK)
         {
             // to do, display this:
             SysFreeString(bstr);
             bstr = 0;
         }
-        pStatus->Release();
+        pStatus-&gt;Release();
     }
 
     // clean up.
-    pStatus->Release();
-```
-
-
+    pStatus-&gt;Release();</pre>
+</td>
+</tr>
+</table></span></div>
 
 

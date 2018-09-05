@@ -7,7 +7,7 @@ old-location: base\symgettypeinfo.htm
 old-project: debug
 ms.assetid: bc94a5b1-d49d-425a-89a8-c584c3979930
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: SymGetTypeInfo, SymGetTypeInfo function, _win32_symgettypeinfo, base.symgettypeinfo, dbghelp/SymGetTypeInfo
 ms.prod: windows
 ms.technology: windows-sdk

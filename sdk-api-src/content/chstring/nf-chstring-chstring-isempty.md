@@ -7,7 +7,7 @@ old-location: wmi\chstring_isempty.htm
 old-project: WmiSdk
 ms.assetid: 06af1063-1e5a-4a09-a0d7-b5567b9efcff
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: "?IsEmpty@CHString@@QBEHXZ, ?IsEmpty@CHString@@QEBAHXZ, CHString interface [Windows Management Instrumentation],IsEmpty method, CHString.IsEmpty, CHString::IsEmpty, IsEmpty, IsEmpty method [Windows Management Instrumentation], IsEmpty method [Windows Management Instrumentation],CHString interface, _hmm_chstring_isempty, chstring/CHString::IsEmpty, wmi.chstring_isempty"
 ms.prod: windows
 ms.technology: windows-sdk

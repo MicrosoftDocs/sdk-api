@@ -92,9 +92,13 @@ This method supports the standard <b>HRESULT</b> return values, including <b>S_O
 
 The following code example shows how to implement <b>ResetPropertyItem</b>.
 
-
-```vb
-Dim propList As IADsPropertyList
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim propList As IADsPropertyList
 
 On Error GoTo Cleanup
  
@@ -120,35 +124,39 @@ propList.PutPropertyItem (propEntry)
 propList.SetInfo 
  
 propList.GetInfo
-Debug.Print " Number of Properties = " & propList.PropertyCount
+Debug.Print " Number of Properties = " &amp; propList.PropertyCount
 propList.ResetPropertyItem "adminDescription"
  
 ' the property count should have been reduced by one.
-Debug.Print "Number of properties = " & propList.PropertyCount
+Debug.Print "Number of properties = " &amp; propList.PropertyCount
 
 Cleanup:
-    If (Err.Number<>0) Then
-        MsgBox("An error has occurred. " & Err.Number)
+    If (Err.Number&lt;&gt;0) Then
+        MsgBox("An error has occurred. " &amp; Err.Number)
     End If
     Set propList = Nothing
     Set propVal = Nothing
     Set propEntry = Nothing
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The following code example shows the effect produced by a call to <b>IADsPropertyList::ResetPropertyItem</b>. For more information and the listing of the <b>GetPropertyCache</b> function, see  <a href="https://msdn.microsoft.com/70e9ce0e-ae83-43b7-8b84-99d5e1f8a8d2">IADsPropertyList</a>. For more information and the listing of the <b>GetNextEntry</b> and <b>PropertyItem</b> functions, see  <a href="https://msdn.microsoft.com/2a12ba88-363b-41e3-bd05-8a71f5317097">IADsPropertyList::Next</a> and  <a href="https://msdn.microsoft.com/6e103872-ea2e-4178-9c8a-b958ae3bcf85">IADsPropertyList::Item</a> respectively.
 
-
-```cpp
-IADsPropertyList *GetPropertyCache(LPWSTR);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IADsPropertyList *GetPropertyCache(LPWSTR);
 IADsPropertyEntry *GetNextEntry(IADsPropertyList *);
 IADsPropertyEntry *PropertyItem(IADsPropertyList *,LPWSTR);
  
 void ResetItem(IADsPropertyList *pList, LPWSTR item)
 {
     VARIANT var;
-    VariantInit(&var);
+    VariantInit(&amp;var);
 
     if(!pList)
     {
@@ -156,11 +164,11 @@ void ResetItem(IADsPropertyList *pList, LPWSTR item)
         return;
     }
 
-    V_BSTR(&var)=SysAllocString(item);
-    V_VT(&var)=VT_BSTR;
+    V_BSTR(&amp;var)=SysAllocString(item);
+    V_VT(&amp;var)=VT_BSTR;
  
-    pList->ResetPropertyItem(var);
-    VariantClear(&var);
+    pList-&gt;ResetPropertyItem(var);
+    VariantClear(&amp;var);
 }
  
 void TestResetItem()
@@ -173,17 +181,17 @@ void TestResetItem()
  
     pList = GetPropertyCache(L"WinNT://myComputer,computer");
  
-    hr = pList->get_PropertyCount(&count);
+    hr = pList-&gt;get_PropertyCount(&amp;count);
     if(SUCCEEDED(hr))
     {
         printf(" Count before item reset : %d\n",count);
     }
  
     printf("Walking up the property list before item reset: \n");
-    for (int i=0; i<count; i++)
+    for (int i=0; i&lt;count; i++)
     {
         pEntry = GetNextEntry(pList);
-        hr = pEntry->get_Name(&bstr);
+        hr = pEntry-&gt;get_Name(&amp;bstr);
         if(SUCCEEDED(hr))
         {
             printf("   Name : %S\n",bstr);
@@ -191,11 +199,11 @@ void TestResetItem()
         }
     }
  
-    pList->Reset();   // Move the cursor to the beginning of the list.
+    pList-&gt;Reset();   // Move the cursor to the beginning of the list.
  
     ResetItem(pList, L"Owner");
  
-    hr = pList->get_PropertyCount(&count);
+    hr = pList-&gt;get_PropertyCount(&amp;count);
     if(SUCCEEDED(hr))
     {
         printf(" Count after item reset : %d\n",count);
@@ -203,10 +211,10 @@ void TestResetItem()
  
     printf("Walking up the property list after item reset: \n");
  
-    for (i=0; i<count; i++)
+    for (i=0; i&lt;count; i++)
     {
         pEntry = GetNextEntry(pList);
-        hr = pEntry->get_Name(&bstr);
+        hr = pEntry-&gt;get_Name(&amp;bstr);
         if(SUCCEEDED(hr))
         {
             printf("   Name : %S\n",bstr);
@@ -214,12 +222,12 @@ void TestResetItem()
         }
     }
  
-    pEntry->Release();
-    pList->Release();
-}
-```
-
-
+    pEntry-&gt;Release();
+    pList-&gt;Release();
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

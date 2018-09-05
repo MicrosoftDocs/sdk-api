@@ -4,10 +4,10 @@ title: IVdsAsync::QueryStatus
 author: windows-sdk-content
 description: Returns when the asynchronous operation is in progress, or has either finished successfully or failed.
 old-location: base\ivdsasync_querystatus.htm
-old-project: vds
+old-project: VDS
 ms.assetid: 993228ae-4817-4d88-8544-9cd57cbe8b49
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVdsAsync interface [VDS],QueryStatus method, IVdsAsync.QueryStatus, IVdsAsync::QueryStatus, QueryStatus, QueryStatus method [VDS], QueryStatus method [VDS],IVdsAsync interface, base.ivdsasync_querystatus, vds/IVdsAsync::QueryStatus, vdshwprv/IVdsAsync::QueryStatus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,7 +83,7 @@ The address of a <b>ULONG</b> passed in by the caller, representing the status o
 
 
 
-This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://msdn.microsoft.com/c9ddd3b7-f017-4880-976a-c879a40dc17b">VDS-specific return values</a>. It can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>  using the <a href="https://msdn.microsoft.com/en-us/library/ms680746(v=VS.85).aspx">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://msdn.microsoft.com/b2f7628c-b567-40a9-9ad7-6c47077af5fb">VDS provider</a> that is being used. Possible return values include the following.
+This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://msdn.microsoft.com/c9ddd3b7-f017-4880-976a-c879a40dc17b">VDS-specific return values</a>. It can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>  using the <a href="_com_hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://msdn.microsoft.com/b2f7628c-b567-40a9-9ad7-6c47077af5fb">VDS provider</a> that is being used. Possible return values include the following.
 
 <table>
 <tr>

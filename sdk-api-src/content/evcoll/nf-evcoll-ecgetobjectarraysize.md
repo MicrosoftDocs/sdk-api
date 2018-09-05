@@ -7,7 +7,7 @@ old-location: wec\ecgetobjectarraysize.htm
 old-project: WEC
 ms.assetid: f04c1748-d8b3-4000-a322-7854f8e7f5f9
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: EcGetObjectArraySize, EcGetObjectArraySize function, evcoll/EcGetObjectArraySize, wec.ecgetobjectarraysize, wes.ecgetobjectarraysize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,7 +74,7 @@ The size of the array (the number of indexes).
 
 
 
-This function returns BOOL __stdcall.
+This function returns BOOL.
 
 
 

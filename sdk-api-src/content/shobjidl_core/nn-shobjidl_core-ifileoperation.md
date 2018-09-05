@@ -7,7 +7,7 @@ old-location: shell\IFileOperation.htm
 old-project: shell
 ms.assetid: 6596607e-0699-4eb6-b0d6-7cc2e5eb49c7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IFileOperation, IFileOperation interface [Windows Shell], IFileOperation interface [Windows Shell],described, _shell_IFileOperation, shell.IFileOperation, shobjidl_core/IFileOperation
 ms.prod: windows
 ms.technology: windows-sdk

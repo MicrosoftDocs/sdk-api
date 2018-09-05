@@ -4,10 +4,10 @@ title: IRDPSRAPITransportStreamBuffer::put_PayloadSize
 author: windows-sdk-content
 description: The size, in bytes, of the content in the internal storage buffer.
 old-location: rdp\irdpsrapitransportstreambuffer_payloadsize.htm
-old-project: rdp
+old-project: Rdp
 ms.assetid: bb85af9e-71d2-46bb-8d14-5aa1571ab6b7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IRDPSRAPITransportStreamBuffer interface [RDP],PayloadSize property, IRDPSRAPITransportStreamBuffer.PayloadSize, IRDPSRAPITransportStreamBuffer.put_PayloadSize, IRDPSRAPITransportStreamBuffer::PayloadSize, IRDPSRAPITransportStreamBuffer::get_PayloadSize, IRDPSRAPITransportStreamBuffer::put_PayloadSize, PayloadSize property [RDP], PayloadSize property [RDP],IRDPSRAPITransportStreamBuffer interface, put_PayloadSize, rdp.irdpsrapitransportstreambuffer_payloadsize, rdpencomapi/IRDPSRAPITransportStreamBuffer::PayloadSize, rdpencomapi/IRDPSRAPITransportStreamBuffer::get_PayloadSize, rdpencomapi/IRDPSRAPITransportStreamBuffer::put_PayloadSize
 ms.prod: windows
 ms.technology: windows-sdk

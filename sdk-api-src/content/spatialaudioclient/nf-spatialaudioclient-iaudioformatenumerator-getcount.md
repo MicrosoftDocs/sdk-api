@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioformatenumerator_getcount.htm
 old-project: CoreAudio
 ms.assetid: A2523D52-6641-4876-A263-E0D02A815522
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: GetCount, GetCount method [Core Audio], GetCount method [Core Audio],IAudioFormatEnumerator interface, IAudioFormatEnumerator interface [Core Audio],GetCount method, IAudioFormatEnumerator.GetCount, IAudioFormatEnumerator::GetCount, coreaudio.iaudioformatenumerator_getcount, spatialaudioclient/IAudioFormatEnumerator::GetCount
 ms.prod: windows
 ms.technology: windows-sdk

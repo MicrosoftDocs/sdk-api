@@ -205,9 +205,13 @@ You must ensure that the pixel format matched by the <b>ChoosePixelFormat</b> fu
 
 The following code sample shows how to use <b>ChoosePixelFormat</b> to match a specified pixel format.
 
-
-```cpp
-PIXELFORMATDESCRIPTOR pfd = { 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>PIXELFORMATDESCRIPTOR pfd = { 
     sizeof(PIXELFORMATDESCRIPTOR),  //  size of this pfd  
     1,                     // version number  
     PFD_DRAW_TO_WINDOW |   // support window  
@@ -230,10 +234,10 @@ PIXELFORMATDESCRIPTOR pfd = {
     HDC  hdc;
     int  iPixelFormat; 
  
-iPixelFormat = ChoosePixelFormat(hdc, &pfd);
-```
-
-
+iPixelFormat = ChoosePixelFormat(hdc, &amp;pfd);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

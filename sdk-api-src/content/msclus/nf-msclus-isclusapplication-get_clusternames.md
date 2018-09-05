@@ -7,7 +7,7 @@ old-location: mscs\clusapplication_clusternames.htm
 old-project: mscs
 ms.assetid: 5c4d64e1-d8cb-4abb-b157-3ecdf02a6219
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusterNames property [Failover Cluster], ClusterNames property [Failover Cluster],ISClusApplication object, ISClusApplication object [Failover Cluster],ClusterNames property, ISClusApplication.ClusterNames, ISClusApplication.get_ClusterNames, ISClusApplication::get_ClusterNames, _wolf_clusapplication.clusternames, get_ClusterNames, mscs.clusapplication_clusternames
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ req.product: GDI+ 1.1
     versions.]
 
 Returns  the 
-    names of all the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">clusters</a> in a 
+    names of all the <a href="c_gly.htm">clusters</a> in a 
     domain.
 
 This property is read-only.

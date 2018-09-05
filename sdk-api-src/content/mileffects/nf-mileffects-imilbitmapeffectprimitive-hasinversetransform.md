@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectprimitive_hasinversetransform.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectprimitive\hasinversetransform.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: HasInverseTransform, HasInverseTransform method [WPF Bitmap Effects], HasInverseTransform method [WPF Bitmap Effects],IMILBitmapEffectPrimitive interface, IMILBitmapEffectPrimitive interface [WPF Bitmap Effects],HasInverseTransform method, IMILBitmapEffectPrimitive.HasInverseTransform, IMILBitmapEffectPrimitive::HasInverseTransform, _wibe_imilbitmapeffectprimitive_hasinversetransform, mileffects/IMILBitmapEffectPrimitive::HasInverseTransform, wibe._wibe_imilbitmapeffectprimitive_hasinversetransform
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_NameSpace.htm
 old-project: shell
 ms.assetid: CEA73705-1C27-4138-86C4-1715016E2ED8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellDispatch object [Windows Shell],NameSpace method, IShellDispatch.NameSpace, IShellDispatch::NameSpace, NameSpace, NameSpace method [Windows Shell], NameSpace method [Windows Shell],IShellDispatch object, shell.IShellDispatch_NameSpace
 ms.prod: windows
 ms.technology: windows-sdk
@@ -105,9 +105,13 @@ The following examples show the use of <a href="https://msdn.microsoft.com/c0d61
 JScript:
                 
 
-
-```javascript
-<script language="JScript">
+<div class="code"><span codelanguage="JScript"><table>
+<tr>
+<th>JScript</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="JScript"&gt;
     function fnShellNameSpaceJ()
     {
         var objShell = new ActiveXObject("shell.application");
@@ -120,16 +124,20 @@ JScript:
             alert(objFolder.Title);
         }
     }
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 VBScript:
 
-
-```vb
-<script language="VBScript">
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="VBScript"&gt;
     function fnShellNameSpaceVB()
         dim objShell
         dim objFolder
@@ -144,16 +152,20 @@ VBScript:
         set objFolder = nothing
         set objShell = nothing
     end function
- </script>
-
-```
-
-
+ &lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 Visual Basic:
 
-
-```vb
-Private Sub fnShellNameSpaceVB()
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Private Sub fnShellNameSpaceVB()
     Dim objShell  As Shell
     Dim objFolder As Folder
 
@@ -167,9 +179,9 @@ Private Sub fnShellNameSpaceVB()
     Set objFolder = Nothing
     Set objShell = Nothing
 End Sub
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevicecapabilities_getfunctionalobjects.htm
 old-project: wpd_sdk
 ms.assetid: 46657e4d-c2fe-42bf-9a3d-5075d4f3ee91
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetFunctionalObjects, GetFunctionalObjects method [Windows Portable Devices SDK], GetFunctionalObjects method [Windows Portable Devices SDK],IPortableDeviceCapabilities interface, IPortableDeviceCapabilities interface [Windows Portable Devices SDK],GetFunctionalObjects method, IPortableDeviceCapabilities.GetFunctionalObjects, IPortableDeviceCapabilities::GetFunctionalObjects, IPortableDeviceCapabilitiesGetFunctionalObjects, portabledeviceapi/IPortableDeviceCapabilities::GetFunctionalObjects, wpdsdk.iportabledevicecapabilities_getfunctionalobjects
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: ADAM
 ## -description
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dd319362(v=VS.85).aspx">GetFunctionalObjects</a> method retrieves all functional objects that match a specified category on the device.
+The <a href="wpdsdk.iportabledevicecapabilities">GetFunctionalObjects</a> method retrieves all functional objects that match a specified category on the device.
       
 
 
@@ -125,7 +125,7 @@ For an example of how to use this method, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319362(v=VS.85).aspx">IPortableDeviceCapabilities Interface</a>
+<a href="wpdsdk.iportabledevicecapabilities">IPortableDeviceCapabilities Interface</a>
 
 
 

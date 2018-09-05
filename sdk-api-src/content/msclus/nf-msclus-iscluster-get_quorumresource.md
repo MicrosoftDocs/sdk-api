@@ -7,7 +7,7 @@ old-location: mscs\cluster_quorumresource.htm
 old-project: mscs
 ms.assetid: e9c1f32a-2008-470e-b451-312cce49c93a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Cluster object [Failover Cluster],QuorumResource property, Cluster.QuorumResource, ISCluster.get_QuorumResource, ISCluster.put_QuorumResource, ISCluster::get_QuorumResource, QuorumResource property [Failover Cluster], QuorumResource property [Failover Cluster],Cluster object, _wolf_cluster.quorumresource, get_QuorumResource, mscs.cluster_quorumresource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ req.product: GDI+ 1.1
 
 Returns the 
     current <a href="https://msdn.microsoft.com/4c2ee30e-4de2-44ba-93ba-d2d89196545e">quorum resource</a> for a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> or allows a new quorum resource to be 
+    <a href="c_gly.htm">cluster</a> or allows a new quorum resource to be 
     designated.
 
 This property is read/write.

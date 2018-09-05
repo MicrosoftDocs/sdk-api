@@ -7,7 +7,7 @@ old-location: wer\werreportcreate.htm
 old-project: wer
 ms.assetid: 41f68dde-5e43-45a6-8e0b-3ae0c6180e8b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WerReportApplicationCrash, WerReportApplicationHang, WerReportCreate, WerReportCreate function [Windows Error Reporting], WerReportCritical, WerReportInvalid, WerReportKernel, WerReportNonCritical, base.werreportcreate, wer.werreportcreate, werapi/WerReportCreate
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\NEWCPLINFO.htm
 old-project: shell
 ms.assetid: a68cd816-6b2c-4cff-9288-9c3758e3fdae
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "*LPNEWCPLINFOA, LPNEWCPLINFO, LPNEWCPLINFO structure pointer [Windows Shell], NEWCPLINFO, NEWCPLINFO structure [Windows Shell], NEWCPLINFOA, _win32_NEWCPLINFO, cpl/LPNEWCPLINFO, cpl/NEWCPLINFO, shell.NEWCPLINFO, tagNEWCPLINFOA"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -134,7 +134,7 @@ The <a href="https://msdn.microsoft.com/23063e34-9d77-4167-83cd-8561accf0a8d">CP
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773239(v=VS.85).aspx">CPLINFO</a>
+<a href="https://msdn.microsoft.com/707950c9-c242-43b2-b665-c97a89e632c5">CPLINFO</a>
  
 
  

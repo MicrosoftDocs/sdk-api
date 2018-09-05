@@ -66,12 +66,16 @@ The <b>DsCrackSpn</b> function parses a service principal name (SPN) into its co
 
 Pointer to a constant null-terminated string that contains the SPN to parse. The SPN has the following format, in which the &lt;service class&gt; and &lt;instance name&gt; components must be present and the &lt;port number&gt; and &lt;service name&gt; components are optional. The &lt;port number&gt; component must be a numeric string value.
 
-
-```cpp
-<service class>/<instance name>:<port number>/<service name>
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;service class&gt;/&lt;instance name&gt;:&lt;port number&gt;/&lt;service name&gt;</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -param pcServiceClass [in, out, optional]
 

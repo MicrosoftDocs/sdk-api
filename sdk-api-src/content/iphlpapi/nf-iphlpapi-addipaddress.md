@@ -213,15 +213,19 @@ On Windows Vista and later, the <a href="https://msdn.microsoft.com/8afca4e9-a4
 
 The following example retrieves the IP address table to determine the interface index for the first adapter, then adds the IP address specified on command line to the first adapter. The IP address that was added is then deleted.
 
-
-```cpp
-#pragma comment(lib, "iphlpapi.lib")
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#pragma comment(lib, "iphlpapi.lib")
 #pragma comment(lib, "ws2_32.lib")
 
-#include <winsock2.h>
-#include <ws2tcpip.h>
-#include <iphlpapi.h>
-#include <stdio.h>
+#include &lt;winsock2.h&gt;
+#include &lt;ws2tcpip.h&gt;
+#include &lt;iphlpapi.h&gt;
+#include &lt;stdio.h&gt;
 
 #define MALLOC(x) HeapAlloc(GetProcessHeap(), 0, (x))
 #define FREE(x) HeapFree(GetProcessHeap(), 0, (x))
@@ -278,7 +282,7 @@ int __cdecl main(int argc, char **argv)
         dwSize = 0;
         // Make an initial call to GetIpAddrTable to get the
         // necessary size into the dwSize variable
-        if (GetIpAddrTable(pIPAddrTable, &dwSize, 0) ==
+        if (GetIpAddrTable(pIPAddrTable, &amp;dwSize, 0) ==
             ERROR_INSUFFICIENT_BUFFER) {
             FREE(pIPAddrTable);
             pIPAddrTable = (MIB_IPADDRTABLE *) MALLOC(dwSize);
@@ -291,21 +295,21 @@ int __cdecl main(int argc, char **argv)
     }
     // Make a second call to GetIpAddrTable to get the
     // actual data we want
-    if ((dwRetVal = GetIpAddrTable(pIPAddrTable, &dwSize, 0)) == NO_ERROR) {
+    if ((dwRetVal = GetIpAddrTable(pIPAddrTable, &amp;dwSize, 0)) == NO_ERROR) {
         // Save the interface index to use for adding an IP address
-        ifIndex = pIPAddrTable->table[0].dwIndex;
+        ifIndex = pIPAddrTable-&gt;table[0].dwIndex;
         printf("\n\tInterface Index:\t%ld\n", ifIndex);
-        IPAddr.S_un.S_addr = (u_long) pIPAddrTable->table[0].dwAddr;
+        IPAddr.S_un.S_addr = (u_long) pIPAddrTable-&gt;table[0].dwAddr;
         printf("\tIP Address:       \t%s (%lu%)\n", inet_ntoa(IPAddr),
-               pIPAddrTable->table[0].dwAddr);
-        IPAddr.S_un.S_addr = (u_long) pIPAddrTable->table[0].dwMask;
+               pIPAddrTable-&gt;table[0].dwAddr);
+        IPAddr.S_un.S_addr = (u_long) pIPAddrTable-&gt;table[0].dwMask;
         printf("\tSubnet Mask:      \t%s (%lu%)\n", inet_ntoa(IPAddr),
-               pIPAddrTable->table[0].dwMask);
-        IPAddr.S_un.S_addr = (u_long) pIPAddrTable->table[0].dwBCastAddr;
+               pIPAddrTable-&gt;table[0].dwMask);
+        IPAddr.S_un.S_addr = (u_long) pIPAddrTable-&gt;table[0].dwBCastAddr;
         printf("\tBroadCast Address:\t%s (%lu%)\n", inet_ntoa(IPAddr),
-               pIPAddrTable->table[0].dwBCastAddr);
+               pIPAddrTable-&gt;table[0].dwBCastAddr);
         printf("\tReassembly size:  \t%lu\n\n",
-               pIPAddrTable->table[0].dwReasmSize);
+               pIPAddrTable-&gt;table[0].dwReasmSize);
     } else {
         printf("Call to GetIpAddrTable failed with error %d.\n", dwRetVal);
         if (pIPAddrTable)
@@ -321,13 +325,13 @@ int __cdecl main(int argc, char **argv)
     if ((dwRetVal = AddIPAddress(iaIPAddress,
                                  iaIPMask,
                                  ifIndex,
-                                 &NTEContext, &NTEInstance)) == NO_ERROR) {
+                                 &amp;NTEContext, &amp;NTEInstance)) == NO_ERROR) {
         printf("\tIPv4 address %s was successfully added.\n", argv[1]);
     } else {
         printf("AddIPAddress failed with error: %d\n", dwRetVal);
 
         if (FormatMessage(FORMAT_MESSAGE_ALLOCATE_BUFFER | FORMAT_MESSAGE_FROM_SYSTEM | FORMAT_MESSAGE_IGNORE_INSERTS, NULL, dwRetVal, MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT),       // Default language
-                          (LPTSTR) & lpMsgBuf, 0, NULL)) {
+                          (LPTSTR) &amp; lpMsgBuf, 0, NULL)) {
             printf("\tError: %s", lpMsgBuf);
             LocalFree(lpMsgBuf);
             exit(1);
@@ -345,10 +349,10 @@ int __cdecl main(int argc, char **argv)
 
     exit(0);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

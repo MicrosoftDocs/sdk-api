@@ -7,7 +7,7 @@ old-location: shell\Folder_CopyHere.htm
 old-project: shell
 ms.assetid: 22bf1b4c-f242-4c52-b094-c5339bb35d02
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: CopyHere, CopyHere method [Windows Shell], CopyHere method [Windows Shell],Folder object, Folder object [Windows Shell],CopyHere method, Folder.CopyHere, Folder::CopyHere, _win32_Folder_CopyHere, shell.Folder_CopyHere
 ms.prod: windows
 ms.technology: windows-sdk
@@ -171,9 +171,13 @@ The following example uses <b>CopyHere</b> to copy the Autoexec.bat file from th
 JScript:
                 
 
-
-```javascript
-<script language="JScript">
+<div class="code"><span codelanguage="JScript"><table>
+<tr>
+<th>JScript</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="JScript"&gt;
     function fnCopyHereJ()
     {
         var objShell = new ActiveXObject("shell.application");
@@ -185,16 +189,20 @@ JScript:
             objFolder.CopyHere("C:\\AUTOEXEC.BAT");
         }
     }
- </script>
-
-```
-
-
+ &lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 VBScript:
 
-
-```vb
-<script language="VBScript">
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="VBScript"&gt;
     function fnCopyHereVB()
         dim objShell
         dim objFolder
@@ -209,16 +217,20 @@ VBScript:
         set objShell = nothing
         set objFolder = nothing
     end function
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 Visual Basic:
 
-
-```vb
-Private Sub btnCopyHere_Click()
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Private Sub btnCopyHere_Click()
     Dim objShell  As Shell
     Dim objFolder As Folder
     
@@ -232,10 +244,10 @@ Private Sub btnCopyHere_Click()
     Set objFolder = Nothing
     Set objShell = Nothing
 End Sub
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,10 +4,10 @@ title: CryptDuplicateHash function
 author: windows-sdk-content
 description: Makes an exact copy of a hash to the point when the duplication is done.
 old-location: security\cryptduplicatehash.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 527fce4d-8d42-437b-9692-42583092efbb
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CryptDuplicateHash, CryptDuplicateHash function [Security], _crypto2_cryptduplicatehash, security.cryptduplicatehash, wincrypt/CryptDuplicateHash
 ms.prod: windows
 ms.technology: windows-sdk
@@ -152,9 +152,13 @@ The <a href="https://msdn.microsoft.com/0a4d6086-5c4c-4e1e-9ab9-b35ee49ffcae">Cr
 
 The following example shows making an exact copy of a hash. For an example that includes the complete context for this example, see <a href="https://msdn.microsoft.com/7aa7c9a1-471b-4b40-9967-b1da946c83a5">Example C Program: Duplicating a Hash</a>.
 
-
-```cpp
-//-------------------------------------------------------------------
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//-------------------------------------------------------------------
 //  Declare and initialize variables.
 
 HCRYPTPROV   hCryptProv = NULL;
@@ -165,7 +169,7 @@ HCRYPTHASH   hDuplicateHash = NULL;
 // Acquire a CSP context.
 
 if(CryptAcquireContext(
-   &hCryptProv, 
+   &amp;hCryptProv, 
    NULL, 
    NULL, 
    PROV_RSA_FULL, 
@@ -186,7 +190,7 @@ if (CryptCreateHash(
     CALG_SHA1, 
     0, 
     0,
-    &hOriginalHash))
+    &amp;hOriginalHash))
 {
    printf("An empty hash object has been created. \n");
 }
@@ -217,7 +221,7 @@ if (CryptDuplicateHash(
    hOriginalHash, 
    NULL, 
    0, 
-   &hDuplicateHash))
+   &amp;hDuplicateHash))
 {
    printf("The hash has been duplicated. \n");
 }
@@ -264,10 +268,10 @@ else
 
 if(hCryptProv) 
    CryptReleaseContext(hCryptProv,0);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -280,7 +284,7 @@ if(hCryptProv)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Hash and Digital Signature Functions</a>
+<a href="cryptography_functions.htm">Hash and Digital Signature Functions</a>
  
 
  

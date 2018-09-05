@@ -4,10 +4,10 @@ title: WSAWaitForMultipleEvents function
 author: windows-sdk-content
 description: Returns when one or all of the specified event objects are in the signaled state, when the time-out interval expires, or when an I/O completion routine has executed.
 old-location: winsock\wsawaitformultipleevents_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: 7a978ade-6323-455b-b655-f372f4bcadc8
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: WSAWaitForMultipleEvents, WSAWaitForMultipleEvents function [Winsock], _win32_wsawaitformultipleevents_2, winsock.wsawaitformultipleevents_2, winsock2/WSAWaitForMultipleEvents
 ms.prod: windows
 ms.technology: windows-sdk
@@ -147,28 +147,28 @@ If the <b>WSAWaitForMultipleEvents</b> function fails, the return value is <b>WS
 <th>Meaning</th>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANOTINITIALISED</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSANOTINITIALISED</a></td>
 <td>A successful 
 <a href="https://msdn.microsoft.com/08299592-867c-491d-9769-d16602133659">WSAStartup</a> call must occur before using this function.</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENETDOWN</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAENETDOWN</a></td>
 <td>The network subsystem has failed.</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINPROGRESS</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSAEINPROGRESS</a></td>
 <td>A blocking Windows Sockets 1.1 call is in progress, or the service provider is still processing a callback function.</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_NOT_ENOUGH_MEMORY</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSA_NOT_ENOUGH_MEMORY</a></td>
 <td>Not enough free memory was available to complete the operation.</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_INVALID_HANDLE</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSA_INVALID_HANDLE</a></td>
 <td>One or more of the values in the <i>lphEvents</i> array is not a valid event object handle.</td>
 </tr>
 <tr>
-<td><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_INVALID_PARAMETER</a></td>
+<td><a href="windows_sockets_error_codes_2.htm">WSA_INVALID_PARAMETER</a></td>
 <td>The <i>cEvents</i> parameter does not contain a valid handle count.</td>
 </tr>
 </table>
@@ -207,17 +207,21 @@ The current implementation of <b>WSAWaitForMultipleEvents</b> calls the <a href=
 <h3><a id="Example_Code"></a><a id="example_code"></a><a id="EXAMPLE_CODE"></a>Example Code</h3>
 The following code example shows how to use the <b>WSAWaitForMultipleEvents</b> function.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 
 #define WIN32_LEAN_AND_MEAN
 
-#include <winsock2.h>
-#include <Ws2tcpip.h>
-#include <stdio.h>
+#include &lt;winsock2.h&gt;
+#include &lt;Ws2tcpip.h&gt;
+#include &lt;stdio.h&gt;
 
 // Link with ws2_32.lib
 #pragma comment(lib, "Ws2_32.lib")
@@ -250,7 +254,7 @@ int main()
     //-----------------------------------------
     // Initialize Winsock
     // Initialize Winsock
-    iResult = WSAStartup(MAKEWORD(2, 2), &wsaData);
+    iResult = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
     if (iResult != 0) {
         wprintf(L"WSAStartup failed: %d\n", iResult);
         return 1;
@@ -280,14 +284,14 @@ int main()
         return 1;
     }
 
-    ip = inet_ntoa(*(struct in_addr *) *thisHost->h_addr_list);
+    ip = inet_ntoa(*(struct in_addr *) *thisHost-&gt;h_addr_list);
 
     service.sin_addr.s_addr = inet_addr(ip);
 
     //-----------------------------------------
     // Bind the listening socket to the local IP address
     // and port number
-    iResult = bind(ListenSocket, (SOCKADDR *) & service, sizeof (SOCKADDR));
+    iResult = bind(ListenSocket, (SOCKADDR *) &amp; service, sizeof (SOCKADDR));
     if (iResult != 0) {
         wprintf(L"bind failed with error = %d\n", WSAGetLastError());
         closesocket(ListenSocket);
@@ -328,7 +332,7 @@ int main()
         return 1;
     }
 
-    ZeroMemory(&AcceptOverlapped, sizeof (WSAOVERLAPPED));
+    ZeroMemory(&amp;AcceptOverlapped, sizeof (WSAOVERLAPPED));
     AcceptOverlapped.hEvent = EventArray[EventTotal];
 
     DataBuf.len = DATA_BUFSIZE;
@@ -339,7 +343,7 @@ int main()
     //-----------------------------------------
     // Call WSARecv to receive data into DataBuf on 
     // the accepted socket in overlapped I/O mode
-    if (WSARecv(AcceptSocket, &DataBuf, 1, &RecvBytes, &Flags, &AcceptOverlapped, NULL) ==
+    if (WSARecv(AcceptSocket, &amp;DataBuf, 1, &amp;RecvBytes, &amp;Flags, &amp;AcceptOverlapped, NULL) ==
         SOCKET_ERROR) {
         iResult = WSAGetLastError();
         if (iResult != WSA_IO_PENDING)
@@ -362,8 +366,8 @@ int main()
         //-----------------------------------------
         // Determine the status of the overlapped event
         bResult =
-            WSAGetOverlappedResult(AcceptSocket, &AcceptOverlapped, &BytesTransferred, FALSE,
-                                   &Flags);
+            WSAGetOverlappedResult(AcceptSocket, &amp;AcceptOverlapped, &amp;BytesTransferred, FALSE,
+                                   &amp;Flags);
         if (bResult == FALSE) {
             wprintf(L"WSAGetOverlappedResult failed with error = %d\n", WSAGetLastError());
         }
@@ -381,14 +385,14 @@ int main()
         // If data has been received, echo the received data
         // from DataBuf back to the client
         iResult =
-            WSASend(AcceptSocket, &DataBuf, 1, &RecvBytes, Flags, &AcceptOverlapped, NULL);
+            WSASend(AcceptSocket, &amp;DataBuf, 1, &amp;RecvBytes, Flags, &amp;AcceptOverlapped, NULL);
         if (iResult != 0) {
             wprintf(L"WSASend failed with error = %d\n", WSAGetLastError());
         }
         //-----------------------------------------         
         // Reset the changed flags and overlapped structure
         Flags = 0;
-        ZeroMemory(&AcceptOverlapped, sizeof (WSAOVERLAPPED));
+        ZeroMemory(&amp;AcceptOverlapped, sizeof (WSAOVERLAPPED));
 
         AcceptOverlapped.hEvent = EventArray[Index - WSA_WAIT_EVENT_0];
 
@@ -405,10 +409,10 @@ int main()
     return 0;
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <b>Windows Phone 8:</b> This  function is supported for Windows Phone Store apps on Windows Phone 8 and later.
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This   function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.

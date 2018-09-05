@@ -4,10 +4,10 @@ title: PIBIO_ENGINE_CLEAR_CONTEXT_FN
 author: windows-sdk-content
 description: Prepares the processing pipeline of the biometric unit for a new operation.
 old-location: secbiomet\engineadapterclearcontext.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: c4ed5971-e657-4583-aac2-6263801f7468
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: EngineAdapterClearContext, EngineAdapterClearContext callback function [Windows Biometric Framework API], PIBIO_ENGINE_CLEAR_CONTEXT_FN, PIBIO_ENGINE_CLEAR_CONTEXT_FN callback, secbiomet.engineadapterclearcontext, winbio_adapter/EngineAdapterClearContext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -135,9 +135,13 @@ Typical examples of the objects in the engine adapter context area that should b
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-
-```cpp
-//////////////////////////////////////////////////////////////////////////////////////////
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//////////////////////////////////////////////////////////////////////////////////////////
 //
 // EngineAdapterClearContext
 //
@@ -164,7 +168,7 @@ EngineAdapterClearContext(
 
     // Retrieve the context from the pipeline.
     PWINBIO_ENGINE_CONTEXT context = 
-           (PWINBIO_ENGINE_CONTEXT)Pipeline->EngineContext;
+           (PWINBIO_ENGINE_CONTEXT)Pipeline-&gt;EngineContext;
 
     if (context == NULL)
     {
@@ -177,45 +181,45 @@ EngineAdapterClearContext(
     // assumes that your engine adapter context contains a ULONG data member 
     // and pointers to a feature set and an enrollment object.
 
-    context->SomeField = 0L;
+    context-&gt;SomeField = 0L;
 
-    if (context->FeatureSet != NULL)
+    if (context-&gt;FeatureSet != NULL)
     {
         // Zero the feature set if it contains unencrypted biometric data.
         SecureZeroMemory(
-            context->FeatureSet,
-            context->FeatureSetSize);
+            context-&gt;FeatureSet,
+            context-&gt;FeatureSetSize);
 
         // Release the feature set.
-        _AdapterRelease(context->FeatureSet);
-        context->FeatureSet = NULL;
-        context->FeatureSetSize = 0;
+        _AdapterRelease(context-&gt;FeatureSet);
+        context-&gt;FeatureSet = NULL;
+        context-&gt;FeatureSetSize = 0;
     }
 
-    if (context->Enrollment.Template != NULL)
+    if (context-&gt;Enrollment.Template != NULL)
     {
         // Zero the template if it contains unencrypted biometric data.
         SecureZeroMemory(
-            context->Enrollment.Template,
-            context->Enrollment.TemplateSize);
+            context-&gt;Enrollment.Template,
+            context-&gt;Enrollment.TemplateSize);
 
         // Release the template.
-        _AdapterRelease(context->Enrollment.Template);
-        context->Enrollment.Template = NULL;
-        context->Enrollment.TemplateSize = 0;
+        _AdapterRelease(context-&gt;Enrollment.Template);
+        context-&gt;Enrollment.Template = NULL;
+        context-&gt;Enrollment.TemplateSize = 0;
 
         // Release other data members attached to the enrollment object.
-        context->Enrollment.SampleCount = 0;
-        context->Enrollment.InProgress = FALSE;
+        context-&gt;Enrollment.SampleCount = 0;
+        context-&gt;Enrollment.InProgress = FALSE;
     }
 
 cleanup:
 
     return S_OK;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

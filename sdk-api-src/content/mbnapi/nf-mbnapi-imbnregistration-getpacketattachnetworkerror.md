@@ -7,7 +7,7 @@ old-location: mbn\imbnregistration_getpacketattachnetworkerror.htm
 old-project: mbn
 ms.assetid: b51103fe-f4b2-46a5-9335-44bf6591e447
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetPacketAttachNetworkError, GetPacketAttachNetworkError method [Microsoft Broadband Networks], GetPacketAttachNetworkError method [Microsoft Broadband Networks],IMbnRegistration interface, IMbnRegistration interface [Microsoft Broadband Networks],GetPacketAttachNetworkError method, IMbnRegistration.GetPacketAttachNetworkError, IMbnRegistration::GetPacketAttachNetworkError, mbn.imbnregistration_getpacketattachnetworkerror, mbnapi/IMbnRegistration::GetPacketAttachNetworkError
 ms.prod: windows
 ms.technology: windows-sdk

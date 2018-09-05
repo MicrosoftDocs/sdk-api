@@ -4,10 +4,10 @@ title: EvtNextChannelPath function
 author: windows-sdk-content
 description: Gets a channel name from the enumerator.
 old-location: wes\evtnextchannelpath.htm
-old-project: wes
+old-project: WES
 ms.assetid: 51fd2449-8a89-4a18-99c3-b974c2c998ca
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EvtNextChannelPath, EvtNextChannelPath function [EventLog], wes.evtnextchannelpath, winevt/EvtNextChannelPath
 ms.prod: windows
 ms.technology: windows-sdk

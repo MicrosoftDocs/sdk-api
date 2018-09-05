@@ -7,7 +7,7 @@ old-location: shell\IntToUIntPtr.htm
 old-project: shell
 ms.assetid: 479958f6-e38c-404c-b4bd-2991be568a2b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IntToUIntPtr, IntToUIntPtr function [Windows Shell], IntToULongLong, _shell_IntToUIntPtr, intsafe/IntToUIntPtr, shell.IntToUIntPtr
 ms.prod: windows
 ms.technology: windows-sdk

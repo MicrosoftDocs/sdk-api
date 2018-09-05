@@ -7,7 +7,7 @@ old-location: mscs\cluspropertyvalues_collection.htm
 old-project: mscs
 ms.assetid: 18ae71ee-5582-4ac9-bb0f-f1c077c0352a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusPropertyValues, ClusPropertyValues collection [Failover Cluster], ClusPropertyValues collection [Failover Cluster],described, ISClusPropertyValues, _wolf_cluspropertyvalues_collection, msclus/ClusPropertyValues, mscs.cluspropertyvalues_collection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
     available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in 
     subsequent versions.]
 
-Contains all of the <a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">property values</a> 
+Contains all of the <a href="p_gly.htm">property values</a> 
     associated with a multi-value property, with each value represented by a 
     <a href="https://msdn.microsoft.com/6a8ffae6-c4f3-42fb-9703-eeb695902877">ClusPropertyValue</a> object.
 

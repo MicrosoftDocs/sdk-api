@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__setclipplane.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__setclipplane.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: IDirect3DDevice9 interface [Direct3D 9],SetClipPlane method, IDirect3DDevice9.SetClipPlane, IDirect3DDevice9::SetClipPlane, SetClipPlane, SetClipPlane method [Direct3D 9], SetClipPlane method [Direct3D 9],IDirect3DDevice9 interface, b1eeda9e-38a1-4dea-dab6-04754538861d, d3d9helper/IDirect3DDevice9::SetClipPlane, direct3d9.idirect3ddevice9__setclipplane
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,7 +78,7 @@ Pointer to an address of a four-element array of values that represent the clipp
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value is D3DERR_INVALIDCALL. This error indicates that the value in Index exceeds the maximum clipping plane index supported by the device or that the array at pPlane is not large enough to contain four floating-point values.
 
@@ -103,11 +103,11 @@ This method does not enable the clipping plane equation being set. To enable a c
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174380(v=VS.85).aspx">IDirect3DDevice9::GetClipPlane</a>
+<a href="https://msdn.microsoft.com/0e8ec541-606d-4f90-a396-40eb72e9422d">IDirect3DDevice9::GetClipPlane</a>
  
 
  

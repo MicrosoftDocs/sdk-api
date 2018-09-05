@@ -133,23 +133,27 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776571(v=VS.85).aspx">PropVariantToUInt32VectorAlloc</a> to access a <b>ULONG</b> vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.PropVariantToUInt32VectorAlloc">PropVariantToUInt32VectorAlloc</a> to access a <b>ULONG</b> vector value in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
-
-```cpp
-// PROPVARIANT propvar;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// PROPVARIANT propvar;
 // Assume the variable propvar is initialized and valid. The application is expecting propvar to contain a vector of ULONG values.
 ULONG *prgLongs;
 ULONG cElems;
-HRESULT hr = PropVariantToUInt32VectorAlloc(propvar, &prgLongs, &cElems);
+HRESULT hr = PropVariantToUInt32VectorAlloc(propvar, &amp;prgLongs, &amp;cElems);
 if (SUCCEEDED(hr))
 {
      // prgLongs now points to a vector of cElems ULONG.
      CoTaskMemFree(prgLongs);
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -158,23 +162,23 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762312(v=VS.85).aspx">InitPropVariantFromUInt32Vector</a>
+<a href="shell.InitPropVariantFromUInt32Vector">InitPropVariantFromUInt32Vector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776529(v=VS.85).aspx">PropVariantGetUInt32Elem</a>
+<a href="shell.PropVariantGetUInt32Elem">PropVariantGetUInt32Elem</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776569(v=VS.85).aspx">PropVariantToUInt32</a>
+<a href="shell.PropVariantToUInt32">PropVariantToUInt32</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776570(v=VS.85).aspx">PropVariantToUInt32Vector</a>
+<a href="shell.PropVariantToUInt32Vector">PropVariantToUInt32Vector</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776628(v=VS.85).aspx">VariantToUInt32Array</a>
+<a href="shell.VariantToUInt32Array">VariantToUInt32Array</a>
  
 
  

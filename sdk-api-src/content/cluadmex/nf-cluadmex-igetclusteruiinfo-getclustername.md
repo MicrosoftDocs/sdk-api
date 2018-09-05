@@ -7,7 +7,7 @@ old-location: mscs\igetclusteruiinfo_getclustername.htm
 old-project: mscs
 ms.assetid: 2c892250-80b7-4bf8-9514-64833d0e3450
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetClusterName, GetClusterName method [Failover Cluster], GetClusterName method [Failover Cluster],IGetClusterUIInfo interface, IGetClusterUIInfo interface [Failover Cluster],GetClusterName method, IGetClusterUIInfo.GetClusterName, IGetClusterUIInfo::GetClusterName, _wolf_igetclusteruiinfo_getclustername, cluadmex/IGetClusterUIInfo::GetClusterName, mscs.igetclusteruiinfo_getclustername
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.irql:
 <p class="CCE_Message">[This method is available for use in the operating systems specified in the Requirements 
     section. Support for this method was removed in Windows Server 2008.]
 
-Returns the name of the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+Returns the name of the <a href="c_gly.htm">cluster</a>.
 
 
 ## -parameters
@@ -104,7 +104,7 @@ If the <i>lpszName</i> parameter is set to <b>NULL</b> and the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa370234(v=VS.85).aspx">IGetClusterUIInfo</a>
+<a href="https://msdn.microsoft.com/e41afb20-5bb8-475f-a056-53d7be8f4bf0">IGetClusterUIInfo</a>
  
 
  

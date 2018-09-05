@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaItem_CreateChildItem.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\createchilditem.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CreateChildItem, CreateChildItem method [WIA], CreateChildItem method [WIA],IWiaItem interface, IWiaItem interface [WIA],CreateChildItem method, IWiaItem.CreateChildItem, IWiaItem::CreateChildItem, _wia_IWiaItem_CreateChildItem, wia._wia_IWiaItem_CreateChildItem, wia_xp/IWiaItem::CreateChildItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>IWiaItem::CreateChildItem</b> method is used by applications to add <a href="https://msdn.microsoft.com/en-us/library/ms630113(v=VS.85).aspx">IWiaItem</a> objects to the <b>IWiaItem</b> tree of a device.
+The <b>IWiaItem::CreateChildItem</b> method is used by applications to add <a href="https://msdn.microsoft.com/b9aaf7ae-7222-44d1-8cf1-89234b263135">IWiaItem</a> objects to the <b>IWiaItem</b> tree of a device.
 
 
 ## -parameters
@@ -64,7 +64,7 @@ The <b>IWiaItem::CreateChildItem</b> method is used by applications to add <a hr
 
 Type: <b>LONG</b>
 
-Specifies the WIA item type. Must be set to one of the values listed in <a href="https://msdn.microsoft.com/en-us/library/ms630198(v=VS.85).aspx">WIA Item Type Flags</a>.
+Specifies the WIA item type. Must be set to one of the values listed in <a href="https://msdn.microsoft.com/7961f692-088a-4f3b-84e9-5fabb0373c3c">WIA Item Type Flags</a>.
 
 
 ### -param bstrItemName [in]
@@ -84,9 +84,9 @@ Specifies the full WIA item name. You can think of this parameter as equivalent 
 
 ### -param ppIWiaItem [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms630113(v=VS.85).aspx">IWiaItem</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/b9aaf7ae-7222-44d1-8cf1-89234b263135">IWiaItem</a>**</b>
 
-Receives the address of a pointer to the <a href="https://msdn.microsoft.com/en-us/library/ms630113(v=VS.85).aspx">IWiaItem</a> interface that sets the <b>IWiaItem::CreateChildItem</b> method.
+Receives the address of a pointer to the <a href="https://msdn.microsoft.com/b9aaf7ae-7222-44d1-8cf1-89234b263135">IWiaItem</a> interface that sets the <b>IWiaItem::CreateChildItem</b> method.
 
 
 ## -returns
@@ -104,9 +104,9 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Some WIA hardware devices allow applications to create new items in the <a href="https://msdn.microsoft.com/en-us/library/ms630113(v=VS.85).aspx">IWiaItem</a> tree that represents the device. Applications must test the devices to see if they support this capability. Use the <a href="https://msdn.microsoft.com/en-us/library/ms630166(v=VS.85).aspx">IEnumWIA_DEV_CAPS</a> interface to enumerate the current device's capabilities.
+Some WIA hardware devices allow applications to create new items in the <a href="https://msdn.microsoft.com/b9aaf7ae-7222-44d1-8cf1-89234b263135">IWiaItem</a> tree that represents the device. Applications must test the devices to see if they support this capability. Use the <a href="https://msdn.microsoft.com/736a8aba-58e0-4b52-a997-ef1fb80473ba">IEnumWIA_DEV_CAPS</a> interface to enumerate the current device's capabilities.
 
-If the device allows the creation of new items in the <a href="https://msdn.microsoft.com/en-us/library/ms630113(v=VS.85).aspx">IWiaItem</a> tree, invoking <b>IWiaItem::CreateChildItem</b> creates a new <b>IWiaItem</b> that is a child of the current node. <b>IWiaItem::CreateChildItem</b> passes a pointer to the new node to the application through the <i>ppIWiaItem</i> parameter.
+If the device allows the creation of new items in the <a href="https://msdn.microsoft.com/b9aaf7ae-7222-44d1-8cf1-89234b263135">IWiaItem</a> tree, invoking <b>IWiaItem::CreateChildItem</b> creates a new <b>IWiaItem</b> that is a child of the current node. <b>IWiaItem::CreateChildItem</b> passes a pointer to the new node to the application through the <i>ppIWiaItem</i> parameter.
 
 Applications must call the <a href="https://msdn.microsoft.com/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a">IUnknown::Release</a> method on the interface pointers they receive through the <i>ppIWiaItem</i> parameter.
 

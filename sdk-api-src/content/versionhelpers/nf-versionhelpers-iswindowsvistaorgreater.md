@@ -4,10 +4,10 @@ title: IsWindowsVistaOrGreater function
 author: windows-sdk-content
 description: Indicates if the current OS version matches, or is greater than, the Windows Vista version.
 old-location: base\iswindowsvistaorgreater.htm
-old-project: sysinfo
+old-project: SysInfo
 ms.assetid: 556C70DC-6A44-4D85-BDBF-C1110D63DC69
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: IsWindowsVistaOrGreater, IsWindowsVistaOrGreater function, base.iswindowsvistaorgreater, versionhelpers/IsWindowsVistaOrGreater
 ms.prod: windows
 ms.technology: windows-sdk
@@ -87,18 +87,22 @@ The inline functions defined in the <b>VersionHelpers.h</b> header file let you 
 
 For example, if your application requires Windows Vista or later, use the following test.
 
-
-```cpp
-#include <VersionHelpers.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;VersionHelpers.h&gt;
 …
     if (!IsWindowsVistaOrGreater())
     {
        MessageBox(NULL, "You need at least Windows Vista", "Version Not Supported", MB_OK);
     }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

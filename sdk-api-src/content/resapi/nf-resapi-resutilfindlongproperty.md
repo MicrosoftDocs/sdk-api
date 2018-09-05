@@ -7,7 +7,7 @@ old-location: mscs\resutilfindlongproperty.htm
 old-project: mscs
 ms.assetid: 6f75be85-37ef-4e2b-a588-bc1238cd8760
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PRESUTIL_FIND_LONG_PROPERTY, PRESUTIL_FIND_LONG_PROPERTY function [Failover Cluster], ResUtilFindLongProperty, ResUtilFindLongProperty function [Failover Cluster], _wolf_resutilfindlongproperty, mscs.resutilfindlongproperty, resapi/PRESUTIL_FIND_LONG_PROPERTY, resapi/ResUtilFindLongProperty
 ms.prod: windows
 ms.technology: windows-sdk

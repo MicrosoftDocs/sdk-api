@@ -7,7 +7,7 @@ old-location: winrt\isoftwarebitmapnative_getdata.htm
 old-project: WinRT
 ms.assetid: 4BB9674A-A95A-4183-A1E1-428AB140D6EB
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetData, GetData method [Windows Runtime], GetData method [Windows Runtime],ISoftwareBitmapNative interface, ISoftwareBitmapNative interface [Windows Runtime],GetData method, ISoftwareBitmapNative.GetData, ISoftwareBitmapNative.imaging, ISoftwareBitmapNative::GetData, ISoftwareBitmapNative::imaging, windows/ISoftwareBitmapNative::GetData, winrt.isoftwarebitmapnative_getdata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,7 +78,7 @@ When this method returns successfully, contains the interface pointer requested 
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Returns S_OK on successful completion. Returns E_NOINTERFACE if the requested interface can't be found.
 

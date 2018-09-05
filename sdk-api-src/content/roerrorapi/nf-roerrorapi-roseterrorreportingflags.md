@@ -7,7 +7,7 @@ old-location: winrt\roseterrorreportingflags.htm
 old-project: WinRT
 ms.assetid: 167C2EC9-9EA0-4E1D-840B-DAF5F47ED1FE
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RoSetErrorReportingFlags, RoSetErrorReportingFlags function [Windows Runtime], WinRTSetErrorReportingFlags, roerrorapi/RoSetErrorReportingFlags, roerrorapi/WinRTSetErrorReportingFlags, winrt.roseterrorreportingflags, winrt.winrtseterrorreportingflags
 ms.prod: windows
 ms.technology: windows-sdk

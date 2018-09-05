@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderCredential_SetDeselected.htm
 old-project: shell
 ms.assetid: 89c01b7c-0d22-44f8-9934-b01d7410f85f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ICredentialProviderCredential interface [Windows Shell],SetDeselected method, ICredentialProviderCredential.SetDeselected, ICredentialProviderCredential::SetDeselected, SetDeselected, SetDeselected method [Windows Shell], SetDeselected method [Windows Shell],ICredentialProviderCredential interface, _shell_ICredentialProviderCredential_SetDeselected, credentialprovider/ICredentialProviderCredential::SetDeselected, shell.ICredentialProviderCredential_SetDeselected
 ms.prod: windows
 ms.technology: windows-sdk

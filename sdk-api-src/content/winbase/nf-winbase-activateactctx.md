@@ -4,10 +4,10 @@ title: ActivateActCtx function
 author: windows-sdk-content
 description: The ActivateActCtx function activates the specified activation context.
 old-location: setup\activateactctx.htm
-old-project: sbscs
+old-project: SbsCs
 ms.assetid: 03381d95-1b5d-4b70-8c86-937ab9b2672d
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ActivateActCtx, ActivateActCtx function [Side-by-side Assemblies], _win32_activateactctx, setup.activateactctx, winbase/ActivateActCtx
 ms.prod: windows
 ms.technology: windows-sdk

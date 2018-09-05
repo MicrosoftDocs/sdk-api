@@ -7,7 +7,7 @@ old-location: winstation\getthreaddesktop.htm
 old-project: winstation
 ms.assetid: 51eec935-43c7-495b-b1fc-2bd5ba1e0090
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 08/29/2018
 ms.keywords: GetThreadDesktop, GetThreadDesktop function [Windows Stations and Desktops], _win32_getthreaddesktop, base.getthreaddesktop, winstation.getthreaddesktop, winuser/GetThreadDesktop
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: "_ACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION"
 author: windows-sdk-content
 description: The ACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION structure is used by the QueryActCtxW function.
 old-location: setup\activation_context_assembly_detailed_information.htm
-old-project: sbscs
+old-project: SbsCs
 ms.assetid: b093cc6a-55ea-49bf-904d-2b43517f9b02
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: "*PACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION, ACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION, ACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION structure [Side-by-side Assemblies], PACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION, PACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION structure pointer [Side-by-side Assemblies], _ACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION, _win32_activation_context_assembly_detailed_information, setup.activation_context_assembly_detailed_information, winnt/ACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION, winnt/PACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -173,9 +173,13 @@ If
 <a href="https://msdn.microsoft.com/7d45f63f-0baf-4236-b245-d36f9eb32e8c">QueryActCtxW</a> is called with the AssemblyDetailedInformationInActivationContext option, and the function succeeds, the information in the returned buffer is in the form of the 
 <b>ACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION</b> structure.
 
-
-```cpp
-PACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION pAssemblyInfo = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>PACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION pAssemblyInfo = NULL;
 ACTIVATION_CONTEXT_QUERY_INDEX QueryIndex;
 BOOL fSuccess = FALSE;
 SIZE_T cbRequired;
@@ -188,21 +192,21 @@ SIZE_T cbAvailable = sizeof(bTemporaryBuffer);
 QueryIndex.ulAssemblyIndex = 1;
 QueryIndex.ulFileIndexInAssembly = 0;
 
-if (GetCurrentActCtx(&hActCtx)) {
+if (GetCurrentActCtx(&amp;hActCtx)) {
 
     // Attempt to use our stack-based buffer first - if that's not large
     // enough, allocate from the heap and try again.
     fSuccess = QueryActCtxW(
         0, 
         hActCtx, 
-        (PVOID)&QueryIndex, 
+        (PVOID)&amp;QueryIndex, 
         AssemblyDetailedInformationInActivationContext,
         pvDataBuffer,
         cbAvailable,
-        &cbRequired);
+        &amp;cbRequired);
 
     // Failed, because the buffer was too small.
-    if (!fSuccess && (GetLastError() == ERROR_INSUFFICIENT_BUFFER)) {
+    if (!fSuccess &amp;&amp; (GetLastError() == ERROR_INSUFFICIENT_BUFFER)) {
 
         // Allocate what we need from the heap - fail if there isn't enough
         // memory to do so.        
@@ -217,17 +221,17 @@ if (GetCurrentActCtx(&hActCtx)) {
         fSuccess = QueryActCtxW(
             0, 
             hActCtx,
-            (PVOID)&QueryIndex,
+            (PVOID)&amp;QueryIndex,
             AssemblyDetailedInformationInActivationContext,
             pvDataBuffer,
             cbAvailable,
-            &cbRequired);
+            &amp;cbRequired);
 
     }
 
     if (fSuccess) {
         // Now that we've found the assembly info, cast our target buffer back to
-        // the assembly info pointer.  Use pAssemblyInfo->lpFileName
+        // the assembly info pointer.  Use pAssemblyInfo-&gt;lpFileName
         pAssemblyInfo = (PACTIVATION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION)pvDataBuffer;
     }
 }
@@ -236,13 +240,13 @@ DoneQuerying:
     if (hActCtx != INVALID_HANDLE_VALUE)
         ReleaseActCtx(hActCtx);
 
-    if (pvDataBuffer && (pvDataBuffer != bTemporaryBuffer)) {
+    if (pvDataBuffer &amp;&amp; (pvDataBuffer != bTemporaryBuffer)) {
         HeapFree(GetProcessHeap(), 0, pvDataBuffer);
         pvDataBuffer = 0;
     }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

@@ -7,7 +7,7 @@ old-location: directwrite\idwritetextformat1_getverticalglyphorientation.htm
 old-project: DirectWrite
 ms.assetid: 0ceebd85-0d57-fd38-a847-0048c2d82b22
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetVerticalGlyphOrientation, GetVerticalGlyphOrientation method [Direct Write], GetVerticalGlyphOrientation method [Direct Write],IDWriteTextFormat1 interface, IDWriteTextFormat1 interface [Direct Write],GetVerticalGlyphOrientation method, IDWriteTextFormat1.GetVerticalGlyphOrientation, IDWriteTextFormat1::GetVerticalGlyphOrientation, directwrite.idwritetextformat1_getverticalglyphorientation, dwrite_2/IDWriteTextFormat1::GetVerticalGlyphOrientation
 ms.prod: windows
 ms.technology: windows-sdk

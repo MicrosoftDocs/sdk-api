@@ -7,7 +7,7 @@ old-location: mscs\clusterclearbackupstateforsharedvolume.htm
 old-project: mscs
 ms.assetid: 54ebfff4-8898-49ed-9a45-07286cda5fb4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusterClearBackupStateForSharedVolume, ClusterClearBackupStateForSharedVolume function [Failover Cluster], PCLUSTER_CLEAR_BACKUP_STATE_FOR_SHARED_VOLUME, PCLUSTER_CLEAR_BACKUP_STATE_FOR_SHARED_VOLUME function [Failover Cluster], mscs.clusterclearbackupstateforsharedvolume, resapi/ClusterClearBackupStateForSharedVolume, resapi/PCLUSTER_CLEAR_BACKUP_STATE_FOR_SHARED_VOLUME
 ms.prod: windows
 ms.technology: windows-sdk

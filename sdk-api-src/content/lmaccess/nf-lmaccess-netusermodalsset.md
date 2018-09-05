@@ -7,7 +7,7 @@ old-location: netmgmt\netusermodalsset.htm
 old-project: netmgmt
 ms.assetid: 9884e076-ee6a-4aca-abe6-a79754667759
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: 0, 1, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 2, 3, NetUserModalsSet, NetUserModalsSet function [Network Management], _win32_netusermodalsset, lmaccess/NetUserModalsSet, netmgmt.netusermodalsset
 ms.prod: windows
 ms.technology: windows-sdk
@@ -360,16 +360,20 @@ The following code sample demonstrates how to set the global information for all
 <a href="https://msdn.microsoft.com/cf3dd091-106e-4a0d-b4db-62bd11fd65cf">USER_MODALS_INFO_0</a> structure and calls 
 <b>NetUserModalsSet</b>, specifying information level 0.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 #pragma comment(lib, "netapi32.lib")
 
-#include <stdio.h>
-#include <windows.h> 
-#include <lm.h>
+#include &lt;stdio.h&gt;
+#include &lt;windows.h&gt; 
+#include &lt;lm.h&gt;
 
 int wmain(int argc, wchar_t *argv[])
 {
@@ -378,7 +382,7 @@ int wmain(int argc, wchar_t *argv[])
    NET_API_STATUS nStatus;
    LPTSTR pszServerName = NULL;
 
-   if (argc > 2)
+   if (argc &gt; 2)
    {
       fwprintf(stderr, L"Usage: %s [\\\\ServerName]\n", argv[0]);
       exit(1);
@@ -400,7 +404,7 @@ int wmain(int argc, wchar_t *argv[])
    //
    nStatus = NetUserModalsSet((LPCWSTR) pszServerName,
                               dwLevel,
-                              (LPBYTE)&ui,
+                              (LPBYTE)&amp;ui,
                               NULL);
    //
    // If the call succeeds, inform the user.
@@ -415,10 +419,10 @@ int wmain(int argc, wchar_t *argv[])
 
    return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

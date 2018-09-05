@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteTextLayout_GetFontStyle.htm
 old-project: DirectWrite
 ms.assetid: 184aa6c8-4dc5-4881-a0e0-61dc0b1a8240
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetFontStyle, GetFontStyle method [Direct Write], GetFontStyle method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],GetFontStyle method, IDWriteTextLayout.GetFontStyle, IDWriteTextLayout::GetFontStyle, directwrite.IDWriteTextLayout_GetFontStyle, dwrite/IDWriteTextLayout::GetFontStyle
 ms.prod: windows
 ms.technology: windows-sdk

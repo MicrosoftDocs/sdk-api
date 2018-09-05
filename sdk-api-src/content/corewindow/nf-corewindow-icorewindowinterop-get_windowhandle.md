@@ -7,7 +7,7 @@ old-location: winrt\icorewindowinterop_windowhandle.htm
 old-project: WinRT
 ms.assetid: F95B96BA-617C-4D77-B974-E78DE4E36210
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ICoreWindowInterop interface [Windows Runtime],WindowHandle property, ICoreWindowInterop.WindowHandle, ICoreWindowInterop.get_WindowHandle, ICoreWindowInterop::WindowHandle, ICoreWindowInterop::get_WindowHandle, WindowHandle property [Windows Runtime], WindowHandle property [Windows Runtime],ICoreWindowInterop interface, corewindow/ICoreWindowInterop::WindowHandle, corewindow/ICoreWindowInterop::get_WindowHandle, get_WindowHandle, winrt.icorewindowinterop_windowhandle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn302117(v=VS.85).aspx">ICoreWindowInterop</a>
+<a href="https://msdn.microsoft.com/6928FA3A-C367-4C99-A67E-8ED0153D6349">ICoreWindowInterop</a>
  
 
  

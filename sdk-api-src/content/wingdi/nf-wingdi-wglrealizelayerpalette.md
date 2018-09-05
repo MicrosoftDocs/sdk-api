@@ -60,7 +60,17 @@ The <b>wglRealizeLayerPalette</b> function maps palette entries from a given col
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
+
+TBD
+
+
+### -param arg3
 
 TBD
 

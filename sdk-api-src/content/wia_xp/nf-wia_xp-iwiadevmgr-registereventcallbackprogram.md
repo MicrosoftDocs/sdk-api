@@ -7,7 +7,7 @@ old-location: wia\_wia_IWiaDevMgr_RegisterEventCallbackProgram.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadevmgr\registereventcallbackprogram.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IWiaDevMgr interface [WIA],RegisterEventCallbackProgram method, IWiaDevMgr.RegisterEventCallbackProgram, IWiaDevMgr::RegisterEventCallbackProgram, RegisterEventCallbackProgram, RegisterEventCallbackProgram method [WIA], RegisterEventCallbackProgram method [WIA],IWiaDevMgr interface, _wia_IWiaDevMgr_RegisterEventCallbackProgram, wia._wia_IWiaDevMgr_RegisterEventCallbackProgram, wia_xp/IWiaDevMgr::RegisterEventCallbackProgram
 ms.prod: windows
 ms.technology: windows-sdk
@@ -100,7 +100,7 @@ Specifies a device identifier. Pass <b>NULL</b> to register for the event on all
 
 Type: <b>const GUID*</b>
 
-Specifies the event for which the application is registering. For a list of valid event GUIDs, see <a href="https://msdn.microsoft.com/en-us/library/ms630188(v=VS.85).aspx">WIA Event Identifiers</a>.
+Specifies the event for which the application is registering. For a list of valid event GUIDs, see <a href="https://msdn.microsoft.com/b94221b3-7cab-40d7-850a-fcc4ec8174b5">WIA Event Identifiers</a>.
 
 
 ### -param bstrCommandline [in]
@@ -149,11 +149,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 Use <b>IWiaDevMgr::RegisterEventCallbackProgram</b> to register for hardware device events of the type WIA_ACTION_EVENT. When an event occurs for which an application is registered, the application is launched and the event information is transmitted to the application.
 
-Applications use the <a href="https://msdn.microsoft.com/en-us/library/ms630105(v=VS.85).aspx">EnumRegisterEventInfo</a> method to retrieve a pointer to an enumerator object for event registration properties.
+Applications use the <a href="https://msdn.microsoft.com/fb35f225-3831-4442-b1e7-6314f59d158a">EnumRegisterEventInfo</a> method to retrieve a pointer to an enumerator object for event registration properties.
 
-An application can find whether an event is an action type or notification type (or both) event by examinging the <b>ulFlags</b> value of a <a href="https://msdn.microsoft.com/en-us/library/ms629872(v=VS.85).aspx">WIA_DEV_CAP</a> structure returned by event enumeration.
+An application can find whether an event is an action type or notification type (or both) event by examinging the <b>ulFlags</b> value of a <a href="https://msdn.microsoft.com/9bf123c7-234f-45d3-bb45-c0cb135ef970">WIA_DEV_CAP</a> structure returned by event enumeration.
 
-Programs should only use the <b>IWiaDevMgr::RegisterEventCallbackProgram</b> method for backward compatibility with applications not written for the WIA architecture. New applications should use the Component Object Model (COM) interfaces provided by the WIA architecture. Specifically, they should call <a href="https://msdn.microsoft.com/en-us/library/ms630146(v=VS.85).aspx">IWiaDevMgr::RegisterEventCallbackInterface</a> or <a href="https://msdn.microsoft.com/en-us/library/ms630145(v=VS.85).aspx">IWiaDevMgr::RegisterEventCallbackCLSID</a> to register for device events.
+Programs should only use the <b>IWiaDevMgr::RegisterEventCallbackProgram</b> method for backward compatibility with applications not written for the WIA architecture. New applications should use the Component Object Model (COM) interfaces provided by the WIA architecture. Specifically, they should call <a href="https://msdn.microsoft.com/81a5bb61-5ec6-4c0b-8627-faccaf54d05a">IWiaDevMgr::RegisterEventCallbackInterface</a> or <a href="https://msdn.microsoft.com/71f1f7f9-583a-423c-bf96-2c2596808079">IWiaDevMgr::RegisterEventCallbackCLSID</a> to register for device events.
 
 Typically, this method is called by an install program or a script. The install program or script registers the application to receive WIA device events. When the event occurs, the application will be started by the WIA run-time system.
 

@@ -7,7 +7,7 @@ old-location: shell\StrCmpN.htm
 old-project: shell
 ms.assetid: e2d97502-1819-463e-a56a-2d22b33502b7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: StrCmpN, StrCmpN function [Windows Shell], StrCmpNA, StrCmpNW, _win32_StrCmpN, shell.StrCmpN, shlwapi/StrCmpN, shlwapi/StrCmpNA, shlwapi/StrCmpNW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

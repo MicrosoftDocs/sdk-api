@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteTextLayout_SetInlineObject.htm
 old-project: DirectWrite
 ms.assetid: 19fc9dd8-d732-4078-9db3-bad18681c7ea
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: IDWriteTextLayout interface [Direct Write],SetInlineObject method, IDWriteTextLayout.SetInlineObject, IDWriteTextLayout::SetInlineObject, SetInlineObject, SetInlineObject method [Direct Write], SetInlineObject method [Direct Write],IDWriteTextLayout interface, directwrite.IDWriteTextLayout_SetInlineObject, dwrite/IDWriteTextLayout::SetInlineObject
 ms.prod: windows
 ms.technology: windows-sdk

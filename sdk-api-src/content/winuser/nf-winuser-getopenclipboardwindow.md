@@ -77,7 +77,7 @@ If the function succeeds, the return value is the handle to the window that has 
 
 
 
-If an application or DLL specifies a <b>NULL</b> window handle when calling the <a href="https://msdn.microsoft.com/en-us/library/ms649048(v=VS.85).aspx">OpenClipboard</a> function, the clipboard is opened but is not associated with a window. In such a case, <b>GetOpenClipboardWindow</b> returns <b>NULL</b>. 
+If an application or DLL specifies a <b>NULL</b> window handle when calling the <a href="https://msdn.microsoft.com/494e4e6f-6d82-45cc-8c0b-f8c54056bc5f">OpenClipboard</a> function, the clipboard is opened but is not associated with a window. In such a case, <b>GetOpenClipboardWindow</b> returns <b>NULL</b>. 
 
 
 
@@ -87,7 +87,7 @@ If an application or DLL specifies a <b>NULL</b> window handle when calling the 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms648709(v=VS.85).aspx">Clipboard</a>
+<a href="https://msdn.microsoft.com/61a9bff7-3c46-4e42-81f7-e020ff0b667f">Clipboard</a>
 
 
 
@@ -95,15 +95,15 @@ If an application or DLL specifies a <b>NULL</b> window handle when calling the 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649041(v=VS.85).aspx">GetClipboardOwner</a>
+<a href="https://msdn.microsoft.com/96c06602-05ec-4f38-a53b-1729f2c1ce4f">GetClipboardOwner</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649043(v=VS.85).aspx">GetClipboardViewer</a>
+<a href="https://msdn.microsoft.com/700bee1f-1bed-4fc8-a4ce-7a48bd05e90b">GetClipboardViewer</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms649048(v=VS.85).aspx">OpenClipboard</a>
+<a href="https://msdn.microsoft.com/494e4e6f-6d82-45cc-8c0b-f8c54056bc5f">OpenClipboard</a>
 
 
 

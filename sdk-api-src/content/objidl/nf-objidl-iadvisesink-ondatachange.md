@@ -7,7 +7,7 @@ old-location: com\iadvisesink_ondatachange.htm
 old-project: com
 ms.assetid: 834a5328-3a1f-4edb-aad0-be8ab87acb04
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IAdviseSink interface [COM],OnDataChange method, IAdviseSink.OnDataChange, IAdviseSink::OnDataChange, OnDataChange, OnDataChange method [COM], OnDataChange method [COM],IAdviseSink interface, _ole_iadvisesink_ondatachange, com.iadvisesink_ondatachange, objidl/IAdviseSink::OnDataChange
 ms.prod: windows
 ms.technology: windows-sdk

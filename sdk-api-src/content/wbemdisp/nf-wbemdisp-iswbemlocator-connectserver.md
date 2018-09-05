@@ -7,7 +7,7 @@ old-location: wmi\swbemlocator_connectserver.htm
 old-project: WmiSdk
 ms.assetid: 31364c68-b031-4cf0-851f-b4e302f077e0
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: ConnectServer, ConnectServer method [Windows Management Instrumentation], ConnectServer method [Windows Management Instrumentation],ISWbemLocator interface, ConnectServer method [Windows Management Instrumentation],SWbemLocator object, ISWbemLocator interface [Windows Management Instrumentation],ConnectServer method, ISWbemLocator.ConnectServer, ISWbemLocator::ConnectServer, SWbemLocator object [Windows Management Instrumentation],ConnectServer method, SWbemLocator.ConnectServer, _hmm_swbemlocator.connectserver, wbemConnectFlagUseMaxWait, wmi.swbemlocator_connectserver
 ms.prod: windows
 ms.technology: windows-sdk
@@ -201,9 +201,13 @@ Using an IPv4 address to connect to a remote server may result in unexpected beh
 
 The following VBScript code example describes how to connect  to a remote computer to obtain <a href="https://msdn.microsoft.com/cb313097-d5d1-4b8e-bee5-20a894c6788d">Win32_IP4RouteTable</a> data. The domain name that is specified in <i>strDomain</i> is used in  <i>strAuthority</i>.
 
-
-```vb
-Const intMin = 3600
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Const intMin = 3600
 strComputer = "RemoteComputer" 
 strDomain = "DomainName"  
 Wscript.StdOut.Write "Please enter your user name:"
@@ -222,40 +226,44 @@ Set objWMIService = objSWbemLocator.ConnectServer(strComputer, _
                                                   "NTLMDomain:" + strDomain) 
 Set colItems = objWMIService.ExecQuery("SELECT * FROM Win32_IP4RouteTable",,48) 
 For Each objItem in colItems
-    WScript.Echo "Age in Minutes: " & int(objItem.Age/intMin) & VBNewLine _
-               & "Description:    " & objItem.Description & VBNewLine _
-               & "Destination:    " & objItem.Destination & VBNewLine _
-               & "InterfaceIndex: " & objItem.InterfaceIndex & VBNewLine _
-               & "Mask:           " & objItem.Mask & VBNewLine _
-               & "Metric1:        " & objItem.Metric1 & VBNewLine _
-               & "Metric2:        " & objItem.Metric2 & VBNewLine _
-               & "Metric3:        " & objItem.Metric3 & VBNewLine _
-               & "Metric4:        " & objItem.Metric4 & VBNewLine _
-               & "Metric5:        " & objItem.Metric5 & VBNewLine _
-               & "Name:           " & objItem.Name & VBNewLine _
-               & "NextHop:        " & objItem.NextHop & VBNewLine _
-               & "Protocol:       " & objItem.Protocol & VBNewLine _
-               & "Type: " & objItem.Type
+    WScript.Echo "Age in Minutes: " &amp; int(objItem.Age/intMin) &amp; VBNewLine _
+               &amp; "Description:    " &amp; objItem.Description &amp; VBNewLine _
+               &amp; "Destination:    " &amp; objItem.Destination &amp; VBNewLine _
+               &amp; "InterfaceIndex: " &amp; objItem.InterfaceIndex &amp; VBNewLine _
+               &amp; "Mask:           " &amp; objItem.Mask &amp; VBNewLine _
+               &amp; "Metric1:        " &amp; objItem.Metric1 &amp; VBNewLine _
+               &amp; "Metric2:        " &amp; objItem.Metric2 &amp; VBNewLine _
+               &amp; "Metric3:        " &amp; objItem.Metric3 &amp; VBNewLine _
+               &amp; "Metric4:        " &amp; objItem.Metric4 &amp; VBNewLine _
+               &amp; "Metric5:        " &amp; objItem.Metric5 &amp; VBNewLine _
+               &amp; "Name:           " &amp; objItem.Name &amp; VBNewLine _
+               &amp; "NextHop:        " &amp; objItem.NextHop &amp; VBNewLine _
+               &amp; "Protocol:       " &amp; objItem.Protocol &amp; VBNewLine _
+               &amp; "Type: " &amp; objItem.Type
     WScript.Echo
-   </example>
-Next
-```
-
-
+   &lt;/example&gt;
+Next</pre>
+</td>
+</tr>
+</table></span></div>
 The following PowerShell snippet access a remote server and lists the available WMI classes.
 
-
-```powershell
-$NameSpace = 'root\ccm'
+<div class="code"><span codelanguage="PowerShell"><table>
+<tr>
+<th>PowerShell</th>
+</tr>
+<tr>
+<td>
+<pre>$NameSpace = 'root\ccm'
 $ComputerName = 'sccm.company.com'
 $WbemLocator = New-Object -ComObject "WbemScripting.SWbemLocator"
 $WbemServices = $WbemLocator.ConnectServer($ComputerName, $Namespace)
 $WbemClasses = $WbemServices.SubclassesOf()
 $WbemClasses
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

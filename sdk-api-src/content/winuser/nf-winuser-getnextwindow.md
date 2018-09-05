@@ -7,7 +7,7 @@ old-location: winmsg\getnextwindow.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getnextwindow.htm
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: GW_HWNDNEXT, GW_HWNDPREV, GetNextWindow, GetNextWindow function [Windows and Messages], _win32_GetNextWindow, _win32_getnextwindow_cpp, winmsg.getnextwindow, winui._win32_getnextwindow, winuser/GetNextWindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Retrieves a handle to the next or previous window in the <a href="https://msdn.microsoft.com/en-us/library/ms632599(v=VS.85).aspx">Z-Order</a>. The next window is below the specified window; the previous window is above.
+Retrieves a handle to the next or previous window in the <a href="window_features.htm">Z-Order</a>. The next window is below the specified window; the previous window is above.
 
 If the specified window is a topmost window, the function searches for a topmost window. If the specified window is a top-level window, the function searches for a top-level window. If the specified window is a child window, the function searches for a child window.
 
@@ -110,7 +110,7 @@ Returns a handle to the window above the given window.
 
 
 
-This function is implemented as a call to the <a href="https://msdn.microsoft.com/en-us/library/ms633515(v=VS.85).aspx">GetWindow</a> function.
+This function is implemented as a call to the <a href="https://msdn.microsoft.com/837f8d99-abc5-4c7c-a363-3d178e71aea2">GetWindow</a> function.
 
 <pre class="syntax" xml:space="preserve"><code>#define GetNextWindow(hWnd, wCmd) GetWindow(hWnd, wCmd)</code></pre>
 
@@ -125,11 +125,11 @@ This function is implemented as a call to the <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633514(v=VS.85).aspx">GetTopWindow</a>
+<a href="https://msdn.microsoft.com/743eb915-5283-4000-954c-d68fa384ab5c">GetTopWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633515(v=VS.85).aspx">GetWindow</a>
+<a href="https://msdn.microsoft.com/837f8d99-abc5-4c7c-a363-3d178e71aea2">GetWindow</a>
 
 
 
@@ -137,7 +137,7 @@ This function is implemented as a call to the <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

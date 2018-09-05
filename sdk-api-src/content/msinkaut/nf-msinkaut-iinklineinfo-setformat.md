@@ -7,7 +7,7 @@ old-location: tablet\iinklineinfo_setformat.htm
 old-project: tablet
 ms.assetid: 42e16e86-fc90-4089-9ae0-9a896cbeaccc
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 42e16e86-fc90-4089-9ae0-9a896cbeaccc, IInkLineInfo interface [Tablet PC],SetFormat method, IInkLineInfo.SetFormat, IInkLineInfo::SetFormat, SetFormat, SetFormat method [Tablet PC], SetFormat method [Tablet PC],IInkLineInfo interface, msinkaut/IInkLineInfo::SetFormat, tablet.iinklineinfo_setformat
 ms.prod: windows
 ms.technology: windows-sdk

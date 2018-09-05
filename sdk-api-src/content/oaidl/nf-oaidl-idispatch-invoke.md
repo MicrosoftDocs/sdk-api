@@ -320,20 +320,24 @@ A required parameter was omitted.
 
 Generally, you should not implement <b>Invoke</b> directly. Instead, use the dispatch interface to create functions <a href="https://msdn.microsoft.com/45a59243-df93-41ca-ac60-354cb1165004">CreateStdDispatch</a> and <a href="https://msdn.microsoft.com/69b89e5c-2a04-4a6a-beb0-18e68f8866ac">DispInvoke</a>. For details, refer to <b>CreateStdDispatch</b>, <b>DispInvoke</b>, <a href="https://msdn.microsoft.com/0606fe11-59e3-4ce1-bde1-a34cfbf0b093">Creating the IDispatch Interface</a> and <a href="https://msdn.microsoft.com/f488675d-4104-40e9-8ee1-265ce92188b3">Exposing ActiveX Objects</a>. 
 
-If some application-specific processing needs to be performed before calling a member, the code should perform the necessary actions, and then call <a href="https://msdn.microsoft.com/en-us/library/ms221652(v=VS.85).aspx">ITypeInfo::Invoke</a> to invoke the member. <b>ITypeInfo::Invoke</b> acts exactly like <b>Invoke</b>. The standard implementations of <b>Invoke</b> created by <b>CreateStdDispatch</b> and <b>DispInvoke</b> defer to <b>ITypeInfo::Invoke</b>.
+If some application-specific processing needs to be performed before calling a member, the code should perform the necessary actions, and then call <a href="DDE2CA58-84BD-4A49-A160-A9955D691F3B">ITypeInfo::Invoke</a> to invoke the member. <b>ITypeInfo::Invoke</b> acts exactly like <b>Invoke</b>. The standard implementations of <b>Invoke</b> created by <b>CreateStdDispatch</b> and <b>DispInvoke</b> defer to <b>ITypeInfo::Invoke</b>.
 
-In an ActiveX client, <b>Invoke</b> should be used to get and set the values of properties, or to call a method of an ActiveX object. The <i>dispIdMember</i> argument identifies the member to invoke. The DISPIDs that identify members are defined by the implementor of the object and can be determined by using the object's documentation, the <a href="https://msdn.microsoft.com/en-us/library/ms221306(v=VS.85).aspx">IDispatch::GetIDsOfNames</a> function, or the <a href="https://msdn.microsoft.com/f3356463-3373-4279-bae1-953378aa2680">ITypeInfo</a> interface.
+In an ActiveX client, <b>Invoke</b> should be used to get and set the values of properties, or to call a method of an ActiveX object. The <i>dispIdMember</i> argument identifies the member to invoke. The DISPIDs that identify members are defined by the implementor of the object and can be determined by using the object's documentation, the <a href="6F6CF233-3481-436E-8D6A-51F93BF91619">IDispatch::GetIDsOfNames</a> function, or the <a href="https://msdn.microsoft.com/f3356463-3373-4279-bae1-953378aa2680">ITypeInfo</a> interface.
 
 When you use <b>IDispatch::Invoke()</b> with DISPATCH_PROPERTYPUT or DISPATCH_PROPERTYPUTREF, you have to specially initialize the <b>cNamedArgs</b> and <b>rgdispidNamedArgs</b> elements of your DISPPARAMS structure with the following: 
 
-
-```cpp
-DISPID dispidNamed = DISPID_PROPERTYPUT;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DISPID dispidNamed = DISPID_PROPERTYPUT;
 dispparams.cNamedArgs = 1;
-dispparams.rgdispidNamedArgs = &dispidNamed;
-```
-
-
+dispparams.rgdispidNamedArgs = &amp;dispidNamed;</pre>
+</td>
+</tr>
+</table></span></div>
 The information that follows addresses developers of ActiveX clients and others who use code to expose ActiveX objects. It describes the behavior that users of exposed objects should expect.
 
 

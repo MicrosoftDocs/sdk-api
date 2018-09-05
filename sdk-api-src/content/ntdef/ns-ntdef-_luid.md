@@ -71,11 +71,11 @@ The <b>LUID</b> structure is an opaque structure that specifies an identifier th
 
 
 
-<a href="https://msdn.microsoft.com/library/Ff561842(v=VS.85).aspx">RtlEqualLuid</a>
+<a href="kernel.rtlequalluid">RtlEqualLuid</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Ff561958(v=VS.85).aspx">RtlIsZeroLuid</a>
+<a href="kernel.rtliszeroluid">RtlIsZeroLuid</a>
  
 
  

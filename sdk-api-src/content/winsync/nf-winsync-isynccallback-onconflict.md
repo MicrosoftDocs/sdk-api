@@ -7,7 +7,7 @@ old-location: winsync\isynccallback_onconflict.htm
 old-project: winsync
 ms.assetid: 439f2a73-b36c-4604-b739-9f9b68275ac5
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ISyncCallback interface [Windows Sync],OnConflict method, ISyncCallback.OnConflict, ISyncCallback::OnConflict, OnConflict, OnConflict method [Windows Sync], OnConflict method [Windows Sync],ISyncCallback interface, winsync.isynccallback_onconflict, winsync/ISyncCallback::OnConflict
 ms.prod: windows
 ms.technology: windows-sdk

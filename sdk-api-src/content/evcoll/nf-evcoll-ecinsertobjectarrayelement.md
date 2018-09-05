@@ -7,7 +7,7 @@ old-location: wec\ecinsertobjectarrayelement.htm
 old-project: WEC
 ms.assetid: 65b0db2f-f929-4d7e-8804-c93b9e127323
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: EcInsertObjectArrayElement, EcInsertObjectArrayElement function, evcoll/EcInsertObjectArrayElement, wec.ecinsertobjectarrayelement, wes.ecinsertobjectarrayelement
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,7 +74,7 @@ An array index indicating where to insert the object.
 
 
 
-This function returns BOOL __stdcall.
+This function returns BOOL.
 
 
 

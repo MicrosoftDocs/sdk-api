@@ -4,10 +4,10 @@ title: IVdsSubSystemIscsi
 author: windows-sdk-content
 description: Provides methods to query and configure iSCSI targets and portals on a subsystem.
 old-location: base\ivdssubsystemiscsi.htm
-old-project: vds
+old-project: VDS
 ms.assetid: e92417b7-6664-4fd7-900f-aedc83291dea
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVdsSubSystemIscsi, IVdsSubSystemIscsi interface [VDS], IVdsSubSystemIscsi interface [VDS],described, base.ivdssubsystemiscsi, vds/IVdsSubSystemIscsi, vdshwprv/IVdsSubSystemIscsi
 ms.prod: windows
 ms.technology: windows-sdk

@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>Graphics::TransformPoints</b> method converts an array of points from one coordinate space to another. The conversion is based on the current world and page transformations of this <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object.
+The <b>Graphics::TransformPoints</b> method converts an array of points from one coordinate space to another. The conversion is based on the current world and page transformations of this <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object.
 
 
 ## -parameters
@@ -62,21 +62,21 @@ The <b>Graphics::TransformPoints</b> method converts an array of points from one
 
 ### -param destSpace [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534097(v=VS.85).aspx">CoordinateSpace</a></b>
+Type: <b><a href="https://msdn.microsoft.com/8e2bd6cd-3a8d-46f8-b669-868cf46f3a82">CoordinateSpace</a></b>
 
-Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534097(v=VS.85).aspx">CoordinateSpace</a> enumeration that specifies the destination coordinate space. 
+Element of the <a href="https://msdn.microsoft.com/8e2bd6cd-3a8d-46f8-b669-868cf46f3a82">CoordinateSpace</a> enumeration that specifies the destination coordinate space. 
 
 
 ### -param srcSpace [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534097(v=VS.85).aspx">CoordinateSpace</a></b>
+Type: <b><a href="https://msdn.microsoft.com/8e2bd6cd-3a8d-46f8-b669-868cf46f3a82">CoordinateSpace</a></b>
 
-Element of the <a href="https://msdn.microsoft.com/en-us/library/ms534097(v=VS.85).aspx">CoordinateSpace</a> enumeration that specifies the source coordinate space. 
+Element of the <a href="https://msdn.microsoft.com/8e2bd6cd-3a8d-46f8-b669-868cf46f3a82">CoordinateSpace</a> enumeration that specifies the source coordinate space. 
 
 
 ### -param pts [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534487(v=VS.85).aspx">Point</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/8bf4d566-b061-4102-8307-218431e286f8">Point</a>*</b>
 
 Pointer to an array that, on input, holds the points to be converted and, on output, holds the converted points. 
 
@@ -92,12 +92,12 @@ Integer that specifies the number of elements in the <i>pts</i> array.
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a></b>
 </strong>
 
-If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+If the method succeeds, it returns Ok, which is an element of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
-If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/en-us/library/ms534175(v=VS.85).aspx">Status</a> enumeration.
+If the method fails, it returns one of the other elements of the <a href="https://msdn.microsoft.com/035fb1bb-cdf3-47e5-a4c7-024598fa01a3">Status</a> enumeration.
 
 
 
@@ -106,18 +106,22 @@ If the method fails, it returns one of the other elements of the <a href="https:
 
 
 
-The world transformation converts points from the world coordinate space to the page coordinate space. The page transformation converts points from the page coordinate space to the device coordinate space. For more information about coordinate spaces, see <a href="https://msdn.microsoft.com/en-us/library/ms536399(v=VS.85).aspx">Types of Coordinate Systems</a>.
+The world transformation converts points from the world coordinate space to the page coordinate space. The page transformation converts points from the page coordinate space to the device coordinate space. For more information about coordinate spaces, see <a href="https://msdn.microsoft.com/eb20f5e9-25f5-4f27-8ea5-83f6819425ed">Types of Coordinate Systems</a>.
 
 
 #### Examples
 
 
 
-The following example creates a <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object and sets its world transformation to a translation 40 units right and 30 units down. Then the code creates an array of points and passes the address of that array to the <b>Graphics::TransformPoints</b> method of the same <b>Graphics</b> object. The points in the array are transformed by the world transformation of the <b>Graphics</b> object. The code calls the <a href="https://msdn.microsoft.com/en-us/library/ms536020(v=VS.85).aspx">Graphics::DrawLine</a> method twice: once to connect the two points before the transformation and once to connect the two points after the transformation.
+The following example creates a <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object and sets its world transformation to a translation 40 units right and 30 units down. Then the code creates an array of points and passes the address of that array to the <b>Graphics::TransformPoints</b> method of the same <b>Graphics</b> object. The points in the array are transformed by the world transformation of the <b>Graphics</b> object. The code calls the <a href="https://msdn.microsoft.com/edaaedfd-6b45-45e6-b23c-df4304420177">Graphics::DrawLine</a> method twice: once to connect the two points before the transformation and once to connect the two points after the transformation.
 
-
-```cpp
-VOID Example_TransformPoints(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_TransformPoints(HDC hdc)
 {
    Graphics graphics(hdc);
    Pen pen(Color(255, 0, 0, 255));
@@ -127,7 +131,7 @@ VOID Example_TransformPoints(HDC hdc)
 
    // Draw a line that connects the two points.
    // No transformation has been performed yet.
-   graphics.DrawLine(&pen, points[0], points[1]);
+   graphics.DrawLine(&amp;pen, points[0], points[1]);
 
    // Set the world transformation of the Graphics object.
    graphics.TranslateTransform(40.0f, 30.0f);
@@ -146,11 +150,11 @@ VOID Example_TransformPoints(HDC hdc)
 
    // Draw a line that connects the transformed points.
    graphics.ResetTransform();
-   graphics.DrawLine(&pen, points[0], points[1]);
-}
-```
-
-
+   graphics.DrawLine(&amp;pen, points[0], points[1]);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -159,51 +163,51 @@ VOID Example_TransformPoints(HDC hdc)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a>
+<a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535729(v=VS.85).aspx">Graphics::GetTransform</a>
+<a href="https://msdn.microsoft.com/f5f1a7bb-4f17-4865-b26e-8672ae78c3a7">Graphics::GetTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535800(v=VS.85).aspx">Graphics::MultiplyTransform</a>
+<a href="https://msdn.microsoft.com/46f90c3e-ed70-40ba-a8e8-1b1d3276862d">Graphics::MultiplyTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535803(v=VS.85).aspx">Graphics::ResetTransform</a>
+<a href="https://msdn.microsoft.com/10357224-cfbd-4d02-af94-93cdff80d466">Graphics::ResetTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535805(v=VS.85).aspx">Graphics::RotateTransform</a>
+<a href="https://msdn.microsoft.com/554cd11e-9b22-48c5-a823-bd29f879fba7">Graphics::RotateTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535807(v=VS.85).aspx">Graphics::ScaleTransform</a>
+<a href="https://msdn.microsoft.com/040bfd10-1a2b-4277-9d27-0919d9efe371">Graphics::ScaleTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535818(v=VS.85).aspx">Graphics::SetTransform</a>
+<a href="https://msdn.microsoft.com/458b62ad-04f0-4202-92db-b1fcf43b3ffa">Graphics::SetTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms535820(v=VS.85).aspx">Graphics::TranslateTransform</a>
+<a href="https://msdn.microsoft.com/99b51fb7-b1de-421f-9743-bf6a5ec758ef">Graphics::TranslateTransform</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534475(v=VS.85).aspx">Matrix</a>
+<a href="https://msdn.microsoft.com/92b0d9db-3d4c-47b8-87cd-60d7b4323f0a">Matrix</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms534149(v=VS.85).aspx">MatrixOrder</a>
+<a href="https://msdn.microsoft.com/df4771b2-f3c0-41c3-b2a9-4eb460162f84">MatrixOrder</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms533810(v=VS.85).aspx">Transformations</a>
+<a href="https://msdn.microsoft.com/4acf3d70-f119-4a5b-a20d-8adea453556f">Transformations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms536399(v=VS.85).aspx">Types of Coordinate Systems</a>
+<a href="https://msdn.microsoft.com/eb20f5e9-25f5-4f27-8ea5-83f6819425ed">Types of Coordinate Systems</a>
  
 
  

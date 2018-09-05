@@ -4,10 +4,10 @@ title: BCryptSetContextFunctionProperty function
 author: windows-sdk-content
 description: Sets the value of a named property for a cryptographic function in an existing CNG context.
 old-location: security\bcryptsetcontextfunctionproperty.htm
-old-project: seccng
+old-project: SecCNG
 ms.assetid: 1e02720b-5210-4127-ab9e-24532a764795
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, BCRYPT_CIPHER_INTERFACE, BCRYPT_HASH_INTERFACE, BCRYPT_RNG_INTERFACE, BCRYPT_SECRET_AGREEMENT_INTERFACE, BCRYPT_SIGNATURE_INTERFACE, BCryptSetContextFunctionProperty, BCryptSetContextFunctionProperty function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, NCRYPT_KEY_STORAGE_INTERFACE, NCRYPT_SCHANNEL_INTERFACE, bcrypt/BCryptSetContextFunctionProperty, security.bcryptsetcontextfunctionproperty
 ms.prod: windows
 ms.technology: windows-sdk

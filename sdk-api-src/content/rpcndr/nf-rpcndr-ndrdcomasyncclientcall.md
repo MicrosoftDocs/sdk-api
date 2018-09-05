@@ -4,10 +4,10 @@ title: NdrDcomAsyncClientCall function
 author: windows-sdk-content
 description: NdrDcomAsyncClientCall may be altered or unavailable.
 old-location: rpc\ndrdcomasyncclientcall.htm
-old-project: rpc
+old-project: Rpc
 ms.assetid: 726ACE34-E1C9-4769-81ED-90D78A26C70A
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NdrDcomAsyncClientCall, NdrDcomAsyncClientCall function [RPC], rpc.ndrdcomasyncclientcall, rpcndr/NdrDcomAsyncClientCall
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,7 +72,14 @@ Reserved.
 Reserved.
 
 
-### -param param [in, out]
+### -param arg1
+
+TBD
+
+
+
+
+#### - param [in, out]
 
 Reserved.
 

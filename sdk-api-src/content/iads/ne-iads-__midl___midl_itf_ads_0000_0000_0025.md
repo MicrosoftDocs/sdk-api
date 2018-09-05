@@ -355,18 +355,22 @@ Because VBScript cannot read data from a type library, VBScript applications do 
 
 The following code example shows how to set up search preferences using the <a href="https://msdn.microsoft.com/5fc46271-a1be-4a9d-a340-ed801211736a">ADS_SEARCHPREF_INFO</a> enumeration.
 
-
-```cpp
-HRESULT SetSearchPreferences2(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT SetSearchPreferences2(
     DWORD dwScope,// -1 indicates default: subtree.
-    DWORD dwOverallTimeOut,// <=0 indicates default: no time out set.
-    DWORD dwOverallSizeLimit,// <=0 indicates default: no size limit set.
-    DWORD dwOverallTimeLimit,// <=0 indicates default: no time limit set.
+    DWORD dwOverallTimeOut,// &lt;=0 indicates default: no time out set.
+    DWORD dwOverallSizeLimit,// &lt;=0 indicates default: no size limit set.
+    DWORD dwOverallTimeLimit,// &lt;=0 indicates default: no time limit set.
     BOOL bCacheResult,// TRUE indicates default.
     BOOL bIsAsynchronous,// FALSE indicates default.
-    DWORD dwPageSize,// <=0 indicates default.
-    DWORD dwPageTimeLimit,// <=0 indicates default.
-    DWORD dwChaseReferral,// <=0 indicates default.
+    DWORD dwPageSize,// &lt;=0 indicates default.
+    DWORD dwPageTimeLimit,// &lt;=0 indicates default.
+    DWORD dwChaseReferral,// &lt;=0 indicates default.
     LPOLESTR szSortKey,// NULL indicates do not sort.
     BOOL bIsDescending,
     BOOL bReturnAttributeNamesOnly,// FALSE indicates default.
@@ -382,21 +386,21 @@ HRESULT SetSearchPreferences2(
  
    if(dwScope==-1)
        dwTotal--;
-   if(dwOverallTimeOut<=0)
+   if(dwOverallTimeOut&lt;=0)
        dwTotal--;
-   if(dwOverallSizeLimit<=0)
+   if(dwOverallSizeLimit&lt;=0)
        dwTotal--;
-   if(dwOverallTimeLimit<=0)
+   if(dwOverallTimeLimit&lt;=0)
        dwTotal--;
    if(bCacheResult)
        dwTotal--;
    if(!bIsAsynchronous)
        dwTotal--;
-   if(dwPageSize<=0)
+   if(dwPageSize&lt;=0)
        dwTotal--;
-   if(dwPageTimeLimit<=0)
+   if(dwPageTimeLimit&lt;=0)
        dwTotal--;
-   if(dwChaseReferral<=0)
+   if(dwChaseReferral&lt;=0)
        dwTotal--;
    if(!bReturnAttributeNamesOnly)
        dwTotal--;
@@ -414,7 +418,7 @@ HRESULT SetSearchPreferences2(
     //////////////////
     // Search Scope
     //////////////////
-    if(dwScope>=0)
+    if(dwScope&gt;=0)
     {
         prefInfo[dwCountPref].dwSearchPref =
                          ADS_SEARCHPREF_SEARCH_SCOPE;
@@ -426,7 +430,7 @@ HRESULT SetSearchPreferences2(
     //////////////////
     // Time Out
     //////////////////
-    if(dwOverallTimeOut>0)
+    if(dwOverallTimeOut&gt;0)
     {
        prefInfo[dwCountPref].dwSearchPref = ADS_SEARCHPREF_TIMEOUT;
        prefInfo[dwCountPref].vValue.dwType = ADSTYPE_INTEGER;
@@ -437,7 +441,7 @@ HRESULT SetSearchPreferences2(
     ///////////////
     // Size Limit
     ///////////////
-    if(dwOverallSizeLimit>0)
+    if(dwOverallSizeLimit&gt;0)
     {
        prefInfo[dwCountPref].dwSearchPref = ADS_SEARCHPREF_SIZE_LIMIT;
        prefInfo[dwCountPref].vValue.dwType = ADSTYPE_INTEGER;
@@ -448,7 +452,7 @@ HRESULT SetSearchPreferences2(
     ///////////////
     // Time Limit
     ///////////////
-    if(dwOverallTimeLimit>0) 
+    if(dwOverallTimeLimit&gt;0) 
     {
        prefInfo[dwCountPref].dwSearchPref = ADS_SEARCHPREF_TIME_LIMIT;
        prefInfo[dwCountPref].vValue.dwType = ADSTYPE_INTEGER;
@@ -472,7 +476,7 @@ HRESULT SetSearchPreferences2(
     //////////////
     // Page Size
     //////////////
-    if(dwPageSize>0)
+    if(dwPageSize&gt;0)
     {
         prefInfo[dwCountPref].dwSearchPref = ADS_SEARCHPREF_PAGESIZE;
         prefInfo[dwCountPref].vValue.dwType = ADSTYPE_INTEGER;;
@@ -483,7 +487,7 @@ HRESULT SetSearchPreferences2(
     //////////////////
     // Page Time Limit
     //////////////////
-    if(dwPageTimeLimit>0)
+    if(dwPageTimeLimit&gt;0)
     {
         prefInfo[dwCountPref].dwSearchPref = 
                                       ADS_SEARCHPREF_PAGED_TIME_LIMIT;
@@ -495,7 +499,7 @@ HRESULT SetSearchPreferences2(
     ///////////////////
     // Chase Referrals
     ///////////////////
-    if(dwChaseReferral>0)
+    if(dwChaseReferral&gt;0)
     {
         prefInfo[dwCountPref].dwSearchPref =
                                       ADS_SEARCHPREF_CHASE_REFERRALS;
@@ -521,7 +525,7 @@ HRESULT SetSearchPreferences2(
         prefInfo[dwCountPref].vValue.ProviderSpecific.dwLength = 
                                                  sizeof(ADS_SORTKEY);
         prefInfo[dwCountPref].vValue.ProviderSpecific.lpValue = 
-                                                 (LPBYTE) &SortKey;
+                                                 (LPBYTE) &amp;SortKey;
         dwCountPref++;
     }
     
@@ -563,10 +567,10 @@ HRESULT SetSearchPreferences2(
  
  
     return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

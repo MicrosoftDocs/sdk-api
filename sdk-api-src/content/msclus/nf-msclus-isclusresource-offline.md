@@ -7,7 +7,7 @@ old-location: mscs\clusresource_offline.htm
 old-project: mscs
 ms.assetid: 5c3f0129-a859-4823-bd73-0c7e004507e5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusResource class [Failover Cluster],Offline method, ClusResource.Offline, ISClusResource.Offline, ISClusResource::Offline, Offline, Offline method [Failover Cluster], Offline method [Failover Cluster],ClusResource class, _wolf_clusresource.offline, mscs.clusresource_offline
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Takes the <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a>
-<a href="https://msdn.microsoft.com/en-us/library/Aa371781(v=VS.85).aspx">offline</a>.
+<a href="o_gly.htm">offline</a>.
 
 
 ## -parameters

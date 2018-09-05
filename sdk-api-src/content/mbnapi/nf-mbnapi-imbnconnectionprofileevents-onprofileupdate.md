@@ -7,7 +7,7 @@ old-location: mbn\imbnconnectionprofileevents_onprofileupdatecomplete.htm
 old-project: mbn
 ms.assetid: eb113544-0c89-4b38-a2f4-c67c639fe8a3
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMbnConnectionProfileEvents interface [Microsoft Broadband Networks],OnProfileUpdate method, IMbnConnectionProfileEvents.OnProfileUpdate, IMbnConnectionProfileEvents::OnProfileUpdate, OnProfileUpdate, OnProfileUpdate method [Microsoft Broadband Networks], OnProfileUpdate method [Microsoft Broadband Networks],IMbnConnectionProfileEvents interface, mbn.imbnconnectionprofileevents_onprofileupdatecomplete, mbnapi/IMbnConnectionProfileEvents::OnProfileUpdate
 ms.prod: windows
 ms.technology: windows-sdk

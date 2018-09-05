@@ -4,10 +4,10 @@ title: MprAdminConnectionGetInfoEx function
 author: windows-sdk-content
 description: Retrieves the connection information for a specific connection on a specified RRAS server.
 old-location: rras\mpradminconnectiongetinfoex.htm
-old-project: rras
+old-project: RRAS
 ms.assetid: 7b6a27da-306c-48e5-830b-215ce6f80ea1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MprAdminConnectionGetInfoEx, MprAdminConnectionGetInfoEx function [RAS], mprapi/MprAdminConnectionGetInfoEx, rras.mpradminconnectiongetinfoex
 ms.prod: windows
 ms.technology: windows-sdk

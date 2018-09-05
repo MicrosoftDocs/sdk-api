@@ -7,7 +7,7 @@ old-location: shell\StrFormatByteSizeW.htm
 old-project: shell
 ms.assetid: 00192755-9135-4193-90bc-6e312b294007
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: StrFormatByteSizeW, StrFormatByteSizeW function [Windows Shell], _win32_StrFormatByteSizeW, shell.StrFormatByteSizeW, shlwapi/StrFormatByteSizeW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

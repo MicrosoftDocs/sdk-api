@@ -4,10 +4,10 @@ title: RpcBindingUnbind function
 author: windows-sdk-content
 description: Unbinds a binding handle previously bound by RpcBindingBind.
 old-location: rpc\rpcbindingunbind.htm
-old-project: rpc
+old-project: Rpc
 ms.assetid: a9e30764-22ea-4dbf-9311-f37bd55ed2c4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcBindingUnbind, RpcBindingUnbind function [RPC], rpc.rpcbindingunbind, rpcasync/RpcBindingUnbind
 ms.prod: windows
 ms.technology: windows-sdk

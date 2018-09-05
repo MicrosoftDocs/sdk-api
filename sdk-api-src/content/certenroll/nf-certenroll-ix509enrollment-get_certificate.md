@@ -4,10 +4,10 @@ title: IX509Enrollment::get_Certificate
 author: windows-sdk-content
 description: Retrieves the installed certificate.
 old-location: security\ix509enrollment_certificate_property.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: 636e4c6d-38b9-4a27-b640-4c071816ee97
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Certificate property [Security], Certificate property [Security],IX509Enrollment interface, IX509Enrollment interface [Security],Certificate property, IX509Enrollment.Certificate, IX509Enrollment.get_Certificate, IX509Enrollment::Certificate, IX509Enrollment::get_Certificate, certenroll/IX509Enrollment::Certificate, certenroll/IX509Enrollment::get_Certificate, get_Certificate, security.ix509enrollment_certificate_property
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-The <b>Certificate</b> property retrieves the installed certificate. The certificate is contained in a byte array that is encoded by using <a href="https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx">Distinguished Encoding Rules</a> (DER) as defined by the <a href="https://msdn.microsoft.com/en-us/library/ms721532(v=VS.85).aspx">Abstract Syntax Notation One</a> (ASN.1) standard.  The DER-encoded byte array is represented by a string that is  either a pure binary sequence or Unicode encoded.
+The <b>Certificate</b> property retrieves the installed certificate. The certificate is contained in a byte array that is encoded by using <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">Distinguished Encoding Rules</a> (DER) as defined by the <a href="https://msdn.microsoft.com/0baaa937-f635-4500-8dcd-9dbbd6f4cd02">Abstract Syntax Notation One</a> (ASN.1) standard.  The DER-encoded byte array is represented by a string that is  either a pure binary sequence or Unicode encoded.
 
 This property is read-only.
 
@@ -65,7 +65,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377809(v=VS.85).aspx">IX509Enrollment</a>
+<a href="https://msdn.microsoft.com/37f1dd3b-bbe9-40ab-87c9-2405d97f5541">IX509Enrollment</a>
  
 
  

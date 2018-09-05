@@ -4,10 +4,10 @@ title: IX509EnrollmentStatus::get_ErrorText
 author: windows-sdk-content
 description: Retrieves a string that contains the message associated with the error result code returned by the Error property.
 old-location: security\ix509enrollmentstatus_errortext_property.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: 3dc46598-5fd6-4462-be93-2358605d6783
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ErrorText property [Security], ErrorText property [Security],IX509EnrollmentStatus interface, IX509EnrollmentStatus interface [Security],ErrorText property, IX509EnrollmentStatus.ErrorText, IX509EnrollmentStatus.get_ErrorText, IX509EnrollmentStatus::ErrorText, IX509EnrollmentStatus::get_ErrorText, certenroll/IX509EnrollmentStatus::ErrorText, certenroll/IX509EnrollmentStatus::get_ErrorText, get_ErrorText, security.ix509enrollmentstatus_errortext_property
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-The <b>ErrorText</b> property retrieves a string that contains the message associated with the error result code returned by the <a href="https://msdn.microsoft.com/en-us/library/Aa377832(v=VS.85).aspx">Error</a> property.
+The <b>ErrorText</b> property retrieves a string that contains the message associated with the error result code returned by the <a href="https://msdn.microsoft.com/397ed934-5ec8-4653-ada4-e966f68cbbf2">Error</a> property.
 
 This property is read-only.
 
@@ -65,7 +65,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377818(v=VS.85).aspx">IX509EnrollmentStatus</a>
+<a href="https://msdn.microsoft.com/fa5e3a10-7f00-46b6-b740-b72d78745bf7">IX509EnrollmentStatus</a>
  
 
  

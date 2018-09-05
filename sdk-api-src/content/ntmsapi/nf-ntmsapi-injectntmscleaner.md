@@ -7,7 +7,7 @@ old-location: fs\injectntmscleaner.htm
 old-project: Rsm
 ms.assetid: 973441cb-2ec4-4a8d-8e75-3c6d01552a59
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: InjectNtmsCleaner, InjectNtmsCleaner function [Files], NTMS_INJECT_START, NTMS_INJECT_STOP, _zaw_injectntmscleaner, base.injectntmscleaner, fs.injectntmscleaner, ntmsapi/InjectNtmsCleaner
 ms.prod: windows
 ms.technology: windows-sdk
@@ -261,7 +261,7 @@ If there is no NTMS_IEPORT object, a door access is performed. In this case, the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Cleaner Management Functions</a>
+<a href="removable_storage_manager_functions.htm">Cleaner Management Functions</a>
 
 
 

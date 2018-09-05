@@ -4,10 +4,10 @@ title: CRYPTCATMEMBER_
 author: windows-sdk-content
 description: The CRYPTCATMEMBER structure provides information about a catalog member. This structure is used by the CryptCATGetMemberInfo and CryptCATEnumerateAttr functions.
 old-location: security\cryptcatmember.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 08f663d9-9dc2-4ac9-95c5-7f2ed972eb9b
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CRYPTCATMEMBER, CRYPTCATMEMBER structure [Security], CRYPTCATMEMBER_, mscat/CRYPTCATMEMBER, security.cryptcatmember
 ms.prod: windows
 ms.technology: windows-sdk

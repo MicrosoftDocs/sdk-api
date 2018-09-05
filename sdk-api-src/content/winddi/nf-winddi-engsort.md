@@ -97,12 +97,16 @@ None
 
 The basis for comparing two elements is defined in the function that <i>pfnComp </i>points to. This function is prototyped as follows:
 
-
-```
-int (__cdecl *SORTCOMP)(const void *pv1, const void *pv2);
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>int (__cdecl *SORTCOMP)(const void *pv1, const void *pv2);</pre>
+</td>
+</tr>
+</table></span></div>
 where <i>pv1</i> and <i>pv2</i> point to the two elements to be compared. The return value is the result of the comparison defined as follows:
 
 <table>

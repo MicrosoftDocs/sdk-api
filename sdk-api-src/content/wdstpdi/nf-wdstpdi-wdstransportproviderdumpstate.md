@@ -4,10 +4,10 @@ title: WdsTransportProviderDumpState function
 author: windows-sdk-content
 description: Instructs the transport provider to print a summary of its state and any other relevant information to the tracing log.
 old-location: wds\wdstransportproviderdumpstate.htm
-old-project: wds
+old-project: Wds
 ms.assetid: e7a7d866-2954-46fb-8356-dbd7761efcf3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WdsTransportProviderDumpState, WdsTransportProviderDumpState callback, WdsTransportProviderDumpState callback function [Windows Deployment Services], wds.wdstransportproviderdumpstate, wdstpdi/WdsTransportProviderDumpState
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: RpcNsEntryObjectInqDone function
 author: windows-sdk-content
 description: The RpcNsEntryObjectInqDone function deletes the inquiry context for a name-service database entry's objects.
 old-location: rpc\rpcnsentryobjectinqdone.htm
-old-project: rpc
+old-project: Rpc
 ms.assetid: de1ed214-1018-498a-81a9-7932d4eead0b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcNsEntryObjectInqDone, RpcNsEntryObjectInqDone function [RPC], _rpc_rpcnsentryobjectinqdone, rpc.rpcnsentryobjectinqdone, rpcnsi/RpcNsEntryObjectInqDone
 ms.prod: windows
 ms.technology: windows-sdk

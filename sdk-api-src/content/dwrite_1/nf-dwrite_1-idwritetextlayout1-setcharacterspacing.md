@@ -7,7 +7,7 @@ old-location: directwrite\idwritetextlayout1_setcharacterspacing.htm
 old-project: DirectWrite
 ms.assetid: 88B210CB-ED37-48F1-92F4-40BA591E7952
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: IDWriteTextLayout1 interface [Direct Write],SetCharacterSpacing method, IDWriteTextLayout1.SetCharacterSpacing, IDWriteTextLayout1::SetCharacterSpacing, SetCharacterSpacing, SetCharacterSpacing method [Direct Write], SetCharacterSpacing method [Direct Write],IDWriteTextLayout1 interface, directwrite.idwritetextlayout1_setcharacterspacing, dwrite_1/IDWriteTextLayout1::SetCharacterSpacing
 ms.prod: windows
 ms.technology: windows-sdk

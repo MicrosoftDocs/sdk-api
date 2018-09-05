@@ -7,7 +7,7 @@ old-location: mscs\setclusterresourcename.htm
 old-project: mscs
 ms.assetid: 8525a0b4-d37e-4ed3-8914-2c427978de6c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PCLUSAPI_SET_CLUSTER_RESOURCE_NAME, PCLUSAPI_SET_CLUSTER_RESOURCE_NAME function [Failover Cluster], SetClusterResourceName, SetClusterResourceName function [Failover Cluster], _wolf_setclusterresourcename, clusapi/PCLUSAPI_SET_CLUSTER_RESOURCE_NAME, clusapi/SetClusterResourceName, mscs.setclusterresourcename
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.irql:
 ## -description
 
 
-Sets the name for a <a href="https://msdn.microsoft.com/en-us/library/Aa372152(v=VS.85).aspx">resource</a>. The 
+Sets the name for a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a>. The 
     <b>PCLUSAPI_SET_CLUSTER_RESOURCE_NAME</b> type defines a pointer to this function.
 
 
@@ -81,7 +81,7 @@ Pointer to the new name for the resource identified by <i>hResource</i>. Resourc
 If the operation succeeds, the function returns <b>ERROR_SUCCESS</b>.
 
 If the operation fails, the function returns a 
-       <a href="https://msdn.microsoft.com/en-us/library/ms681381(v=VS.85).aspx">system error code</a>.
+       <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error code</a>.
 
 
 
@@ -91,13 +91,13 @@ If the operation fails, the function returns a
 
 
 <b>SetClusterResourceName</b> changes the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa372192(v=VS.85).aspx">Name</a> common property of the resource identified by 
+    <a href="https://msdn.microsoft.com/61a4a2bc-e18f-4fac-82f0-8d5ef58e8d70">Name</a> common property of the resource identified by 
     <i>hResource</i>. This is the only way that 
     <b>Name</b>, a read-only property, can be changed.
 
 Do not call <b>SetClusterResourceName</b> from a 
     resource DLL. For more information, see 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369588(v=VS.85).aspx">Function Calls to Avoid in Resource DLLs</a>.
+    <a href="https://msdn.microsoft.com/0eaa4aea-8d9a-4552-b43a-fafa23a3e736">Function Calls to Avoid in Resource DLLs</a>.
 
 
 
@@ -107,7 +107,7 @@ Do not call <b>SetClusterResourceName</b> from a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa372192(v=VS.85).aspx">Name</a>
+<a href="https://msdn.microsoft.com/61a4a2bc-e18f-4fac-82f0-8d5ef58e8d70">Name</a>
 
 
 

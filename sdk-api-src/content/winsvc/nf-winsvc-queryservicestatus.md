@@ -4,10 +4,10 @@ title: QueryServiceStatus function
 author: windows-sdk-content
 description: Retrieves the current status of the specified service.
 old-location: base\queryservicestatus.htm
-old-project: services
+old-project: Services
 ms.assetid: dcd2d8a1-10ef-4229-b873-b4fc3ec9293f
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: QueryServiceStatus, QueryServiceStatus function, _win32_queryservicestatus, base.queryservicestatus, winsvc/QueryServiceStatus
 ms.prod: windows
 ms.technology: windows-sdk

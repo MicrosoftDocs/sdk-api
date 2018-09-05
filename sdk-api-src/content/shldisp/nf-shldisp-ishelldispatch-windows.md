@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_Windows.htm
 old-project: shell
 ms.assetid: 788E2106-3534-4e22-801F-677FD02BDFE0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellDispatch object [Windows Shell],Windows method, IShellDispatch.Windows, IShellDispatch::Windows, Windows, Windows method [Windows Shell], Windows method [Windows Shell],IShellDispatch object, shell.IShellDispatch_Windows
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,12 +72,12 @@ Creates and returns a <a href="https://msdn.microsoft.com/cad1f961-7fb4-4ba1-be4
 
 
 <h3>JScript</h3>
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>**</b>
+Type: <b><a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>**</b>
 
 An object reference to the <a href="https://msdn.microsoft.com/cad1f961-7fb4-4ba1-be48-b664d3de2c60">ShellWindows</a> object.
 
 <h3>VB</h3>
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>**</b>
+Type: <b><a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>**</b>
 
 An object reference to the <a href="https://msdn.microsoft.com/cad1f961-7fb4-4ba1-be48-b664d3de2c60">ShellWindows</a> object.
 
@@ -98,9 +98,13 @@ The following examples use <b>Windows</b> to retrieve the <a href="https://msdn.
 JScript:
                 
 
-
-```javascript
-<script language="JScript">
+<div class="code"><span codelanguage="JScript"><table>
+<tr>
+<th>JScript</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="JScript"&gt;
     function fnShellWindowsJ()
     {
         var objShell = new ActiveXObject("shell.application");
@@ -113,16 +117,20 @@ JScript:
             alert(objShellWindows.Count);
         }
     }
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 VBScript:
 
-
-```vb
-<script language="VBScript">
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="VBScript"&gt;
     function fnShellWindowsVB()
         dim objShell
         dim objShellWindows
@@ -137,16 +145,20 @@ VBScript:
         set objShellWindows = nothing
         set objShell = nothing
     end function
- </script>
-
-```
-
-
+ &lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 Visual Basic:
 
-
-```vb
-Private Sub fnShellWindowsVB()
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Private Sub fnShellWindowsVB()
     Dim objShell        As Shell
     Dim objShellWindows As ShellWindows
     
@@ -160,9 +172,9 @@ Private Sub fnShellWindowsVB()
     Set objShellWindows = Nothing
     Set objShell = Nothing
 End Sub
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

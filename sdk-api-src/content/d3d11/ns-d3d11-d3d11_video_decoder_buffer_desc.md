@@ -61,7 +61,7 @@ Describes a compressed buffer for decoding.
 
 ### -field BufferType
 
-The type of buffer, specified as a member of the <a href="https://msdn.microsoft.com/en-us/library/Hh447642(v=VS.85).aspx">D3D11_VIDEO_DECODER_BUFFER_TYPE</a> enumeration.
+The type of buffer, specified as a member of the <a href="https://msdn.microsoft.com/328B833F-750A-4A88-9571-EAB0532064BD">D3D11_VIDEO_DECODER_BUFFER_TYPE</a> enumeration.
 
 
 ### -field BufferIndex
@@ -128,7 +128,7 @@ If <b>TRUE</b>, the video surfaces are partially encrypted.
 
 ### -field EncryptedBlockInfo
 
-A <a href="https://msdn.microsoft.com/en-us/library/Hh447630(v=VS.85).aspx">D3D11_ENCRYPTED_BLOCK_INFO</a> structure that specifies which bytes of the surface are encrypted.
+A <a href="https://msdn.microsoft.com/C52E2007-1E2B-4259-BE32-A96BB439F7C0">D3D11_ENCRYPTED_BLOCK_INFO</a> structure that specifies which bytes of the surface are encrypted.
 
 
 ## -see-also
@@ -136,11 +136,11 @@ A <a href="https://msdn.microsoft.com/en-us/library/Hh447630(v=VS.85).aspx">D3D1
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447680(v=VS.85).aspx">Direct3D 11 Video Structures</a>
+<a href="https://msdn.microsoft.com/416159A4-F50E-4027-9367-727BA81D2A21">Direct3D 11 Video Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh447718(v=VS.85).aspx">ID3D11VideoContext::SubmitDecoderBuffers</a>
+<a href="https://msdn.microsoft.com/39010E57-FFF2-4793-B839-E336E8D2C1B2">ID3D11VideoContext::SubmitDecoderBuffers</a>
  
 
  

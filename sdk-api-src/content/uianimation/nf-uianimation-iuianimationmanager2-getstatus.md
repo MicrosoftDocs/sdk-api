@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationmanager2_getstatus.htm
 old-project: UIAnimation
 ms.assetid: E989CED1-C6B7-4086-944E-924836AA7ECB
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetStatus, GetStatus method [Windows Animation], GetStatus method [Windows Animation],IUIAnimationManager2 interface, IUIAnimationManager2 interface [Windows Animation],GetStatus method, IUIAnimationManager2.GetStatus, IUIAnimationManager2::GetStatus, uianimation.iuianimationmanager2_getstatus, uianimation/IUIAnimationManager2::GetStatus
 ms.prod: windows
 ms.technology: windows-sdk

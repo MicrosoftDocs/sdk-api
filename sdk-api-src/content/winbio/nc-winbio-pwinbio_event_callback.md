@@ -4,10 +4,10 @@ title: PWINBIO_EVENT_CALLBACK
 author: windows-sdk-content
 description: Returns results from the asynchronous WinBioRegisterEventMonitor function.
 old-location: secbiomet\pwinbio_event_callback.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: E5D3E20E-A174-46E2-9426-7B021496DB3B
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: PWINBIO_EVENT_CALLBACK, PWINBIO_EVENT_CALLBACK callback, PWINBIO_EVENT_CALLBACK callback function [Windows Biometric Framework API], secbiomet.pwinbio_event_callback, winbio/PWINBIO_EVENT_CALLBACK
 ms.prod: windows
 ms.technology: windows-sdk

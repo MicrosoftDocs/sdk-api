@@ -7,7 +7,7 @@ old-location: netmgmt\netrequestprovisioningpackageinstall.htm
 old-project: netmgmt
 ms.assetid: 107ED0F7-8DDD-4C18-8C34-3A67F771FA62
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NETSETUP_PROVISION_ONLINE_CALLER, NetRequestProvisioningPackageInstall, NetRequestProvisioningPackageInstall function [Network Management], lmjoin/NetRequestProvisioningPackageInstall, netmgmt.netrequestprovisioningpackageinstall
 ms.prod: windows
 ms.technology: windows-sdk

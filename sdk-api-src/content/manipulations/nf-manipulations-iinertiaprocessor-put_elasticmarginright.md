@@ -7,7 +7,7 @@ old-location: wintouch\iinertiaprocessor_elasticmarginright.htm
 old-project: wintouch
 ms.assetid: 081dd9d4-d190-4a44-bcd8-d5d0d99d7fd2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ElasticMarginRight property [Windows Touch], ElasticMarginRight property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],ElasticMarginRight property, IInertiaProcessor.ElasticMarginRight, IInertiaProcessor.put_ElasticMarginRight, IInertiaProcessor::ElasticMarginRight, IInertiaProcessor::get_ElasticMarginRight, IInertiaProcessor::put_ElasticMarginRight, manipulations/IInertiaProcessor::ElasticMarginRight, manipulations/IInertiaProcessor::get_ElasticMarginRight, manipulations/IInertiaProcessor::put_ElasticMarginRight, put_ElasticMarginRight, wintouch.iinertiaprocessor_elasticmarginright
 ms.prod: windows
 ms.technology: windows-sdk

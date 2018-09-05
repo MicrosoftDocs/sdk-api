@@ -7,7 +7,7 @@ old-location: mscs\clusresources_collection.htm
 old-project: mscs
 ms.assetid: 56dd53e7-7e2e-481f-b343-da51c7c52553
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusResources, ClusResources collection [Failover Cluster], ClusResources collection [Failover Cluster],described, ISClusResources, _wolf_clusresources_collection, msclus/ClusResources, mscs.clusresources_collection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ req.product: GDI+ 1.1
     versions.]
 
 Provides access to the <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resources</a> that belong to a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+    <a href="c_gly.htm">cluster</a>.
 
 
 ## -inheritance

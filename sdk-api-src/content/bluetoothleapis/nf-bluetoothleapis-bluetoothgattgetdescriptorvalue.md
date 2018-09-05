@@ -67,7 +67,7 @@ Handle to the service.
 
 ### -param Descriptor [in]
 
-Pointer to <a href="https://msdn.microsoft.com/en-us/library/Hh450843(v=VS.85).aspx">BTH_LE_GATT_DESCRIPTOR</a> structure containing the parent descriptor of the descriptor value to be retrieved.
+Pointer to <a href="https://msdn.microsoft.com/DE738ADA-AE8E-4679-887C-A6194E88386E">BTH_LE_GATT_DESCRIPTOR</a> structure containing the parent descriptor of the descriptor value to be retrieved.
 
 
 ### -param DescriptorValueDataSize [in]
@@ -77,7 +77,7 @@ The number of bytes allocated for the <i>DescriptorValue</i> parameter.
 
 ### -param DescriptorValue [out, optional]
 
-Pointer to <a href="https://msdn.microsoft.com/en-us/library/Hh450847(v=VS.85).aspx">BTH_LE_GATT_DESCRIPTOR_VALUE</a> structure into which to return the descriptor value.
+Pointer to <a href="https://msdn.microsoft.com/81D05AA7-B16C-4705-919F-8563FFA4A58E">BTH_LE_GATT_DESCRIPTOR_VALUE</a> structure into which to return the descriptor value.
 
 
 ### -param DescriptorValueSizeRequired [out, optional]
@@ -489,14 +489,18 @@ Profile drivers should pre-allocate  a sufficiently large buffer for the array o
     descriptor values to be returned in.  Callers can determine the necessary buffer size by passing a non-<b>NULL</b> value in <i>DescriptorValueSizeRequired</i> and <b>NULL</b> in <i>DescriptorValue</i>.
 
 The parent service must be present in the
-    cache, otherwise the function will fail.  The parent service must be a service returned by either <a href="https://msdn.microsoft.com/en-us/library/Hh450802(v=VS.85).aspx">BluetoothGATTGetServices</a> or
-    <a href="https://msdn.microsoft.com/en-us/library/Hh450800(v=VS.85).aspx">BluetoothGATTGetIncludedServices</a>.
+    cache, otherwise the function will fail.  The parent service must be a service returned by either <a href="https://msdn.microsoft.com/8EF8B582-FFAE-4C87-8E94-7EFDD2CD2706">BluetoothGATTGetServices</a> or
+    <a href="https://msdn.microsoft.com/72F0E995-88B6-42E0-9B69-429566B5605C">BluetoothGATTGetIncludedServices</a>.
 
 <b>Example</b>
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 ////////////////////////////////////////////////////////////////////////////
 // Determine Descriptor Value Buffer Size
 ////////////////////////////////////////////////////////////////////////////
@@ -505,7 +509,7 @@ The parent service must be present in the
                         currGattDescriptor,
                         0,
                         NULL,
-                        &descValueDataSize,
+                        &amp;descValueDataSize,
                         BLUETOOTH_GATT_FLAG_NONE);
 
                 if (HRESULT_FROM_WIN32(ERROR_MORE_DATA) != hr) {
@@ -538,10 +542,10 @@ The parent service must be present in the
                     PrintHr("BluetoothGATTGetDescriptorValue - Actual Data", hr);
                     goto Done; // allow continuation
                 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -550,11 +554,11 @@ The parent service must be present in the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh450843(v=VS.85).aspx">BTH_LE_GATT_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/DE738ADA-AE8E-4679-887C-A6194E88386E">BTH_LE_GATT_DESCRIPTOR</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh450847(v=VS.85).aspx">BTH_LE_GATT_DESCRIPTOR_VALUE</a>
+<a href="https://msdn.microsoft.com/81D05AA7-B16C-4705-919F-8563FFA4A58E">BTH_LE_GATT_DESCRIPTOR_VALUE</a>
  
 
  

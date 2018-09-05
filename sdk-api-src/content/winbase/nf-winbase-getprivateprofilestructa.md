@@ -4,10 +4,10 @@ title: GetPrivateProfileStructA function
 author: windows-sdk-content
 description: Retrieves the data associated with a key in the specified section of an initialization file.
 old-location: base\getprivateprofilestruct.htm
-old-project: sysinfo
+old-project: SysInfo
 ms.assetid: a14ba43e-d16d-4c52-a8ac-0d4c71229b7b
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: GetPrivateProfileStruct, GetPrivateProfileStruct function, GetPrivateProfileStructA, GetPrivateProfileStructW, _win32_getprivateprofilestruct, base.getprivateprofilestruct, winbase/GetPrivateProfileStruct, winbase/GetPrivateProfileStructA, winbase/GetPrivateProfileStructW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: PIBIO_ENGINE_IDENTIFY_FEATURE_SET_SECURE_FN
 author: windows-sdk-content
 description: Called by the Windows Biometric Framework to build a template from the current feature set and locate a matching template in the database.
 old-location: secbiomet\engineadapteridentifyfeaturesetsecure.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: 56BD9A75-2779-4D21-A083-75736DE6880E
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: EngineAdapterIdentifyFeatureSetSecure, EngineAdapterIdentifyFeatureSetSecure callback function [Windows Biometric Framework API], PIBIO_ENGINE_IDENTIFY_FEATURE_SET_SECURE_FN, PIBIO_ENGINE_IDENTIFY_FEATURE_SET_SECURE_FN callback, secbiomet.engineadapteridentifyfeaturesetsecure, winbio_adapter/EngineAdapterIdentifyFeatureSetSecure
 ms.prod: windows
 ms.technology: windows-sdk
@@ -164,15 +164,19 @@ The account SID of the user referenced by the Identity parameter. The SID bytes 
 
 Here is a pseudocode implementation of the SHA256 HMAC calculation:
 
-
-```
-// Hash the AccountSid.
-    assert(Identity->Type == WINBIO_ID_TYPE_SID);
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>// Hash the AccountSid.
+    assert(Identity-&gt;Type == WINBIO_ID_TYPE_SID);
     hashHandle = CreateHash(SHA256_ALGORITHM);
     HashData(
         hashHandle, 
-        Identity->Value.AccountSid.Data, 
-        Identity->Value.AccountSid.Size);
+        Identity-&gt;Value.AccountSid.Data, 
+        Identity-&gt;Value.AccountSid.Size);
     identityHash = FinishHash(hashHandle);
 
     // Hash the parameters.
@@ -188,9 +192,9 @@ Here is a pseudocode implementation of the SHA256 HMAC calculation:
     hashHandle = CreateHash(HMAC_SHA256_ALGORITHM, key, keySize);
     HashData(hashHandle, parameterHash, SHA256_DIGEST_LENGTH);
     authorization = FinishHash(hashHandle);
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

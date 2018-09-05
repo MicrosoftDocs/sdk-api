@@ -4,10 +4,10 @@ title: tagACTCTXW
 author: windows-sdk-content
 description: The ACTCTX structure is used by the CreateActCtx function to create the activation context.
 old-location: setup\actctx_str.htm
-old-project: sbscs
+old-project: SbsCs
 ms.assetid: b6f97f25-1834-44f7-86b7-33339481ba60
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: "*PACTCTXW, ACTCTX, ACTCTX structure [Side-by-side Assemblies], ACTCTXW, ACTCTX_FLAG_APPLICATION_NAME_VALID, ACTCTX_FLAG_ASSEMBLY_DIRECTORY_VALID, ACTCTX_FLAG_HMODULE_VALID, ACTCTX_FLAG_LANGID_VALID, ACTCTX_FLAG_PROCESSOR_ARCHITECTURE_VALID, ACTCTX_FLAG_RESOURCE_NAME_VALID, ACTCTX_FLAG_SET_PROCESS_DEFAULT, PACTCTX, PACTCTX structure pointer [Side-by-side Assemblies], _win32_actctx_str, setup.actctx_str, tagACTCTXA, tagACTCTXW, winbase/ACTCTX, winbase/ACTCTXW, winbase/PACTCTX"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -220,7 +220,7 @@ Use this member rather than <b>lpSource</b> if you have already loaded a DLL and
 
 If the file identified by the value of the <b>lpSource</b> member is a PE image file, 
 <a href="https://msdn.microsoft.com/11508215-8d8b-4040-a725-88804103fac4">CreateActCtx</a> searches for the manifest in the .manifest file located in the same directory and in the first RT_MANIFEST resource located in the PE image file. To find a specific named resource from the image, set the <b>lpResourceName</b> to the name of the resource, and add the ACTCTX_FLAG_RESOURCE_NAME_VALID to the <b>dwFlags</b> member. Refer to 
-<a href="https://msdn.microsoft.com/en-us/library/ms648042(v=VS.85).aspx">FindResource</a> for more information on specifying resource names.
+<a href="_win32_findresource_cpp">FindResource</a> for more information on specifying resource names.
 
 In most cases, the caller should not set the ACTCTX_FLAG_PROCESSOR_ARCHITECTURE_VALID and ACTCTX_FLAG_LANGID_VALID flags of the <b>dwFlags</b> member. Also, in most cases, the value of the <b>lpResourceName</b> member should be set to null.
 

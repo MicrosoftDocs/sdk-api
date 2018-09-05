@@ -4,10 +4,10 @@ title: IAssemblyCacheItem::CreateStream
 author: windows-sdk-content
 description: The CreateStream method copies the source of a manifest or module into a stream.
 old-location: setup\iassemblycacheitem_createstream.htm
-old-project: sbscs
+old-project: SbsCs
 ms.assetid: 3b3726cc-91c2-4614-a3a7-3f89f201e04a
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CreateStream, CreateStream method [Side-by-side Assemblies], CreateStream method [Side-by-side Assemblies],IAssemblyCacheItem interface, IAssemblyCacheItem interface [Side-by-side Assemblies],CreateStream method, IAssemblyCacheItem.CreateStream, IAssemblyCacheItem::CreateStream, STREAM_FORMAT_COMPLIB_MANIFEST, STREAM_FORMAT_COMPLIB_MODULE, STREAM_FORMAT_WIN32_MANIFEST, STREAM_FORMAT_WIN32_MODULE, setup.iassemblycacheitem_createstream, winsxs/IAssemblyCacheItem::CreateStream
 ms.prod: windows
 ms.technology: windows-sdk

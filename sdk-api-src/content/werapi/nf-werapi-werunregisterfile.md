@@ -7,7 +7,7 @@ old-location: wer\werunregisterfile.htm
 old-project: wer
 ms.assetid: 2b2684a4-3030-4fae-ad1c-a60d13d2c643
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WerUnregisterFile, WerUnregisterFile function [Windows Error Reporting], base.werunregisterfile, wer.werunregisterfile, werapi/WerUnregisterFile
 ms.prod: windows
 ms.technology: windows-sdk

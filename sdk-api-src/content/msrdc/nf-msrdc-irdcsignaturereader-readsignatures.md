@@ -7,7 +7,7 @@ old-location: rdc\irdcsignaturereader_readsignatures.htm
 old-project: Rdc
 ms.assetid: 566a5442-b186-4aac-94fa-5784736a30c3
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: IRdcSignatureReader interface [Remote Differential Compression],ReadSignatures method, IRdcSignatureReader.ReadSignatures, IRdcSignatureReader::ReadSignatures, ReadSignatures, ReadSignatures method [Remote Differential Compression], ReadSignatures method [Remote Differential Compression],IRdcSignatureReader interface, fs.irdcsignaturereader_readsignatures, msrdc/IRdcSignatureReader::ReadSignatures, rdc.irdcsignaturereader_readsignatures
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IVssBackupComponents::SetAdditionalRestores
 author: windows-sdk-content
 description: The SetAdditionalRestores method is used by a requester during incremental or differential restore operations to indicate to writers that a given component will require additional restore operations to completely retrieve it.
 old-location: base\ivssbackupcomponents_setadditionalrestores.htm
-old-project: vss
+old-project: VSS
 ms.assetid: b3a38348-ab89-40a5-bf77-612bcd99c31b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IVssBackupComponents interface [VSS],SetAdditionalRestores method, IVssBackupComponents.SetAdditionalRestores, IVssBackupComponents::SetAdditionalRestores, SetAdditionalRestores, SetAdditionalRestores method [VSS], SetAdditionalRestores method [VSS],IVssBackupComponents interface, _win32_ivssbackupcomponents_setadditionalrestores, base.ivssbackupcomponents_setadditionalrestores, vsbackup/IVssBackupComponents::SetAdditionalRestores
 ms.prod: windows
 ms.technology: windows-sdk

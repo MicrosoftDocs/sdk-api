@@ -7,7 +7,7 @@ old-location: wininet\deleteurlcachecontainer.htm
 old-project: WinInet
 ms.assetid: 97F46974-9B20-46C6-B742-4BA5C60491DA
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: DeleteUrlCacheContainer, DeleteUrlCacheContainer function [WinINet], DeleteUrlCacheContainerA, DeleteUrlCacheContainerW, wininet.deleteurlcachecontainer, winineti/DeleteUrlCacheContainer, winineti/DeleteUrlCacheContainerA, winineti/DeleteUrlCacheContainerW
 ms.prod: windows
 ms.technology: windows-sdk

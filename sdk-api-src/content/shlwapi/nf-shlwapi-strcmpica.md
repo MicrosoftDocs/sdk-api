@@ -7,7 +7,7 @@ old-location: shell\StrCmpIC.htm
 old-project: shell
 ms.assetid: 3f6d1ca1-fbd2-4ce2-b6d4-c3dfb37f1f87
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: StrCmpIC, StrCmpIC function [Windows Shell], StrCmpICA, StrCmpICW, _shell_StrCmpIC, shell.StrCmpIC, shlwapi/StrCmpIC, shlwapi/StrCmpICA, shlwapi/StrCmpICW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

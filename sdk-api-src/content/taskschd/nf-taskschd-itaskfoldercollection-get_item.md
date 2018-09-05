@@ -4,10 +4,10 @@ title: ITaskFolderCollection::get_Item
 author: windows-sdk-content
 description: Gets the specified folder from the collection.
 old-location: taskschd\itaskfoldercollection_item.htm
-old-project: taskschd
+old-project: TaskSchd
 ms.assetid: 6caf3128-5e97-4653-88d3-3eb8131409dd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ITaskFolderCollection interface [Task Scheduler],Item property, ITaskFolderCollection.Item, ITaskFolderCollection.get_Item, ITaskFolderCollection::Item, ITaskFolderCollection::get_Item, Item property [Task Scheduler], Item property [Task Scheduler],ITaskFolderCollection interface, get_Item, taskschd.itaskfoldercollection_item, taskschd/ITaskFolderCollection::Item, taskschd/ITaskFolderCollection::get_Item
 ms.prod: windows
 ms.technology: windows-sdk

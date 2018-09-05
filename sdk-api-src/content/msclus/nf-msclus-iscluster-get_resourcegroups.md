@@ -7,7 +7,7 @@ old-location: mscs\cluster_resourcegroups.htm
 old-project: mscs
 ms.assetid: 449e4432-571c-403c-81c7-da50f455224c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Cluster object [Failover Cluster],ResourceGroups property, Cluster.ResourceGroups, ISCluster.get_ResourceGroups, ISCluster::get_ResourceGroups, ResourceGroups property [Failover Cluster], ResourceGroups property [Failover Cluster],Cluster object, _wolf_cluster.resourcegroups, get_ResourceGroups, mscs.cluster_resourcegroups
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ req.product: GDI+ 1.1
 
 Returns the 
     <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">groups</a> in a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+    <a href="c_gly.htm">cluster</a>.
 
 This property is read-only.
 

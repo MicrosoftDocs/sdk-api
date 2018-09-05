@@ -102,32 +102,36 @@ A metadata query writer uses metadata query expressions to set or remove metadat
 
 The following code demonstrates how to create an XMP query writer and add a new metadata item to it.
 
-
-```
-// Create XMP block
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>// Create XMP block
 IWICMetadataQueryWriter *pXMPWriter = NULL;
 
 if (SUCCEEDED(hr))
 {
-    hr = pFactory->CreateQueryWriter(GUID_MetadataFormatXMP, NULL, &pXMPWriter);
+    hr = pFactory-&gt;CreateQueryWriter(GUID_MetadataFormatXMP, NULL, &amp;pXMPWriter);
 }
 
 // Write metadata to the XMP writer
 if (SUCCEEDED(hr))
 {
     PROPVARIANT value;
-    PropVariantInit(&value);
+    PropVariantInit(&amp;value);
 
     value.vt = VT_LPWSTR;
     value.pwszVal = L"Metadata Test Image.";
 	
-    hr = pXMPWriter->SetMetadataByName(L"/dc:title", &value);
+    hr = pXMPWriter-&gt;SetMetadataByName(L"/dc:title", &amp;value);
 
-    PropVariantClear(&value);
-}
-```
-
-
+    PropVariantClear(&amp;value);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

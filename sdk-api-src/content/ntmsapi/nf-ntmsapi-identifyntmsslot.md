@@ -7,7 +7,7 @@ old-location: fs\identifyntmsslot.htm
 old-project: Rsm
 ms.assetid: 8fdddce9-34fa-4223-b55e-17620db9bbfc
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: IdentifyNtmsSlot, IdentifyNtmsSlot function [Files], NTMS_DISMOUNT_DEFERRED, NTMS_DISMOUNT_IMMEDIATE, _zaw_identifyntmsslot, base.identifyntmsslot, fs.identifyntmsslot, ntmsapi/IdentifyNtmsSlot
 ms.prod: windows
 ms.technology: windows-sdk
@@ -188,7 +188,7 @@ If the slot is empty the function returns ERROR_SUCCESS, but no new media record
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Library Control Functions</a>
+<a href="removable_storage_manager_functions.htm">Library Control Functions</a>
  
 
  

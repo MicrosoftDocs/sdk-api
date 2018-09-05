@@ -7,7 +7,7 @@ old-location: wsw\ws_parameter_description.htm
 old-project: wsw
 ms.assetid: 357ac313-7ad2-411f-802e-d08ecf648710
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_PARAMETER_DESCRIPTION, WS_PARAMETER_DESCRIPTION structure [Web Services for Windows], _WS_PARAMETER_DESCRIPTION, webservices/WS_PARAMETER_DESCRIPTION, wsw.ws_parameter_description
 ms.prod: windows
 ms.technology: windows-sdk

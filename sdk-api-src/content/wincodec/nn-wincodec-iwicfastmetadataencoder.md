@@ -110,16 +110,20 @@ If a fast metadata encoder fails, the image will need to be fully re-encoded to 
 
 The following demonstrates how to obtain a fast metadata encoder from an image frame and use its query writer to write a metadata item.
 
-
-```cpp
-IWICFastMetadataEncoder *pFME = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>IWICFastMetadataEncoder *pFME = NULL;
 IWICMetadataQueryWriter *pFMEQW = NULL;
 
-hr = pFactory->CreateFastMetadataEncoderFromFrameDecode(pFrameDecode, &pFME);
+hr = pFactory-&gt;CreateFastMetadataEncoderFromFrameDecode(pFrameDecode, &amp;pFME);
 
 if (SUCCEEDED(hr))
 {
- 	hr = pFME->GetMetadataQueryWriter(&pFMEQW);
+ 	hr = pFME-&gt;GetMetadataQueryWriter(&amp;pFMEQW);
 }
 
 if (SUCCEEDED(hr))
@@ -127,21 +131,21 @@ if (SUCCEEDED(hr))
 	 // Add additional metadata
  	PROPVARIANT value;
 
-	 PropVariantInit(&value);
+	 PropVariantInit(&amp;value);
 
  	value.vt = VT_UI2;
 	 value.uiVal = 99;
- 	hr = pFMEQW->SetMetadataByName(L"/app1/ifd/{ushort=18249}", &value);
+ 	hr = pFMEQW-&gt;SetMetadataByName(L"/app1/ifd/{ushort=18249}", &amp;value);
 
- 	PropVariantClear(&value);
+ 	PropVariantClear(&amp;value);
 }
 
 if (SUCCEEDED(hr))
 {
-	 hr = pFME->Commit();
-}
-```
-
-
+	 hr = pFME-&gt;Commit();
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

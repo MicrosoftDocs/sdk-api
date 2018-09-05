@@ -7,7 +7,7 @@ old-location: devinst\pccard_resource.htm
 old-project: devinst
 ms.assetid: 41f88d8f-2e1d-447d-90e2-6a2a5f7bef6f
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: "*PPCCARD_RESOURCE, PCCARD_RESOURCE, PCCARD_RESOURCE structure [Device and Driver Installation], PPCCARD_RESOURCE, PPCCARD_RESOURCE structure pointer [Device and Driver Installation], PcCard_Resource_s, cfgmgr32/PCCARD_RESOURCE, cfgmgr32/PPCCARD_RESOURCE, cfgmgrst_e644b9fe-478c-4700-b461-1c4dca3c4d10.xml, devinst.pccard_resource"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: SLUninstallLicense function
 author: windows-sdk-content
 description: Uninstalls the license specified by the license file ID and target user option.
 old-location: security\sluninstalllicense.htm
-old-project: secslapi
+old-project: SecSLApi
 ms.assetid: 1f79a26e-7605-46ad-9854-e90e73320184
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SLUninstallLicense, SLUninstallLicense function [Security], security.sluninstalllicense, slpublic/SLUninstallLicense
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: IFhConfigMgr::ChangeDefaultTargetRecommendation
 author: windows-sdk-content
 description: Causes the currently assigned backup target to be recommended or not recommended to other members of the home group that the computer belongs to.
 old-location: winprog\ifhconfigmgr_changedefaulttargetrecommendation.htm
-old-project: devnotes
+old-project: DevNotes
 ms.assetid: 40F22464-FE28-40A0-85C6-74C5BD819E83
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ChangeDefaultTargetRecommendation, ChangeDefaultTargetRecommendation method [Windows API], ChangeDefaultTargetRecommendation method [Windows API],FhConfigMgr class, ChangeDefaultTargetRecommendation method [Windows API],IFhConfigMgr interface, FhConfigMgr class [Windows API],ChangeDefaultTargetRecommendation method, IFhConfigMgr interface [Windows API],ChangeDefaultTargetRecommendation method, IFhConfigMgr.ChangeDefaultTargetRecommendation, IFhConfigMgr::ChangeDefaultTargetRecommendation, fhcfg/IFhConfigMgr::ChangeDefaultTargetRecommendation, winprog.ifhconfigmgr_changedefaulttargetrecommendation
 ms.prod: windows
 ms.technology: windows-sdk

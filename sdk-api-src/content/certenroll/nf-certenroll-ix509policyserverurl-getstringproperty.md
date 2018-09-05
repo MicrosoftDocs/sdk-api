@@ -4,10 +4,10 @@ title: IX509PolicyServerUrl::GetStringProperty
 author: windows-sdk-content
 description: Retrieves the certificate enrollment policy (CEP) server ID or the display name of the CEP server.
 old-location: security\ix509policyserverurl_getstringproperty.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: 1a163774-2e32-48f7-9aa1-cbfa0ec7a943
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetStringProperty, GetStringProperty method [Security], GetStringProperty method [Security],IX509PolicyServerUrl interface, IX509PolicyServerUrl interface [Security],GetStringProperty method, IX509PolicyServerUrl.GetStringProperty, IX509PolicyServerUrl::GetStringProperty, PsFriendlyName, PsPolicyID, certenroll/IX509PolicyServerUrl::GetStringProperty, security.ix509policyserverurl_getstringproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ The <b>GetStringProperty</b> method retrieves the certificate enrollment policy 
 
 ### -param propertyId [in]
 
-A <a href="https://msdn.microsoft.com/en-us/library/Ee351753(v=VS.85).aspx">PolicyServerUrlPropertyID</a> value that specifies the string to retrieve. This can be one of the following values.
+A <a href="https://msdn.microsoft.com/7b2f898d-9730-4f86-a7b2-dd625889c00a">PolicyServerUrlPropertyID</a> value that specifies the string to retrieve. This can be one of the following values.
 
 <table>
 <tr>
@@ -103,7 +103,7 @@ Pointer to a <b>BSTR</b> variable that receives the property value.
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -154,7 +154,7 @@ Memory could not be allocated for the return value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351734(v=VS.85).aspx">IX509PolicyServerUrl</a>
+<a href="https://msdn.microsoft.com/ad9d61ec-f607-4f71-ad8a-28d821e29c27">IX509PolicyServerUrl</a>
  
 
  

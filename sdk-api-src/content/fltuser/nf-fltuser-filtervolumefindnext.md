@@ -7,7 +7,7 @@ old-location: ifsk\filtervolumefindnext.htm
 old-project: ifsk
 ms.assetid: c18085e9-9781-420e-8070-c71982a2bb46
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: FilterVolumeFindNext, FilterVolumeFindNext function [Installable File System Drivers], FltWin32ApiRef_1a90a670-ab51-4fb7-80ba-72a8b66b3b9a.xml, fltuser/FilterVolumeFindNext, ifsk.filtervolumefindnext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -169,7 +169,7 @@ No more volumes were found in the list of volumes known to the filter manager.
 
 After the search handle is established by calling <a href="https://msdn.microsoft.com/c74ea261-bc9c-4fb0-a886-6947986566b2">FilterVolumeFindFirst</a>, use the <b>FilterVolumeFindNext</b> function to search for other volumes.  <b>FilterVolumeFindNext</b> finds one volume per call.
 
-Note that when using <a href="https://msdn.microsoft.com/c74ea261-bc9c-4fb0-a886-6947986566b2">FilterVolumeFindFirst</a> and <b>FilterVolumeFindNext</b> to enumerate the list of volumes known to the filter manager, it is possible for two or more of the volumes in the list to have the same name.  For more information, see <a href="https://msdn.microsoft.com/library/Ff557237(v=VS.85).aspx">Understanding Volume Enumerations with Duplicate Volume Names</a>.
+Note that when using <a href="https://msdn.microsoft.com/c74ea261-bc9c-4fb0-a886-6947986566b2">FilterVolumeFindFirst</a> and <b>FilterVolumeFindNext</b> to enumerate the list of volumes known to the filter manager, it is possible for two or more of the volumes in the list to have the same name.  For more information, see <a href="ifsk.understanding_volume_enumerations_with_duplicate_volume_names">Understanding Volume Enumerations with Duplicate Volume Names</a>.
 
 
 

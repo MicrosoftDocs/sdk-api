@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariable2_setroundingmode.htm
 old-project: UIAnimation
 ms.assetid: D2FCC17B-0584-4317-8BD7-25454E4A553C
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IUIAnimationVariable2 interface [Windows Animation],SetRoundingMode method, IUIAnimationVariable2.SetRoundingMode, IUIAnimationVariable2::SetRoundingMode, SetRoundingMode, SetRoundingMode method [Windows Animation], SetRoundingMode method [Windows Animation],IUIAnimationVariable2 interface, uianimation.iuianimationvariable2_setroundingmode, uianimation/IUIAnimationVariable2::SetRoundingMode
 ms.prod: windows
 ms.technology: windows-sdk

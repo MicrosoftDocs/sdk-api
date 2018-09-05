@@ -113,12 +113,16 @@ An extension must call this method every time it makes a change to a group polic
 
 For example, you can obtain the interface by calling as follows.
 
-
-```cpp
-lpDataObject->QueryInterface(IID_IGPEInformation, (LPVOID lpDataObject->*)&m_pGPTInformation);
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>lpDataObject-&gt;QueryInterface(IID_IGPEInformation, (LPVOID lpDataObject-&gt;*)&amp;m_pGPTInformation);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

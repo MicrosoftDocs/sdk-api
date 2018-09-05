@@ -4,10 +4,10 @@ title: WdsTransportProviderCreateInstance function
 author: windows-sdk-content
 description: Opens a new instance of a content provider.
 old-location: wds\wdstransportprovidercreateinstance.htm
-old-project: wds
+old-project: Wds
 ms.assetid: 534ba680-e5d7-47e7-83ad-2b621feab99f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WdsTransportProviderCreateInstance, WdsTransportProviderCreateInstance callback, WdsTransportProviderCreateInstance callback function [Windows Deployment Services], wds.wdstransportprovidercreateinstance, wdstpdi/WdsTransportProviderCreateInstance
 ms.prod: windows
 ms.technology: windows-sdk

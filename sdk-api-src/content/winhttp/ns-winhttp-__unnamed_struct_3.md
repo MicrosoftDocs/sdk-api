@@ -4,10 +4,10 @@ title: WINHTTP_PROXY_INFO
 author: windows-sdk-content
 description: The WINHTTP_PROXY_INFO structure contains the session or default proxy configuration.
 old-location: http\internet_proxy_info.htm
-old-project: winhttp
+old-project: WinHttp
 ms.assetid: acb51bc5-43e2-4657-96eb-8e3d3e82e018
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPWINHTTP_PROXY_INFO, WINHTTP_ACCESS_TYPE_DEFAULT_PROXY, WINHTTP_ACCESS_TYPE_NAMED_PROXY, WINHTTP_ACCESS_TYPE_NO_PROXY, WINHTTP_PROXY_INFO, WINHTTP_PROXY_INFO structure [HTTP], WINHTTP_PROXY_INFOW, http.internet_proxy_info, winhttp/WINHTTP_PROXY_INFO, winhttp_internet_proxy_info_structure"
 ms.prod: windows
 ms.technology: windows-sdk

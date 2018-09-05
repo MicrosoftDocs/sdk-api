@@ -4,10 +4,10 @@ title: IX509EndorsementKey::get_Opened
 author: windows-sdk-content
 description: Indicates whether the Open method has been successfully called.
 old-location: security\ix509endorsementkey_opened.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: 6bc1030b-66c9-4175-a3bb-6194d039c73f
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509EndorsementKey interface [Security],Opened property, IX509EndorsementKey.Opened, IX509EndorsementKey.get_Opened, IX509EndorsementKey::Opened, IX509EndorsementKey::get_Opened, Opened property [Security], Opened property [Security],IX509EndorsementKey interface, certenroll/IX509EndorsementKey::Opened, certenroll/IX509EndorsementKey::get_Opened, get_Opened, security.ix509endorsementkey_opened
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-Indicates whether the <a href="https://msdn.microsoft.com/en-us/library/Dn379364(v=VS.85).aspx">Open</a> method has been successfully called.
+Indicates whether the <a href="https://msdn.microsoft.com/06855fc0-0d87-4fe7-9525-55eb60bffcd1">Open</a> method has been successfully called.
 
 This property is read-only.
 
@@ -65,7 +65,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn379356(v=VS.85).aspx">IX509EndorsementKey</a>
+<a href="https://msdn.microsoft.com/24f063a7-02e3-47cf-89ca-ebc63bf3e2dc">IX509EndorsementKey</a>
  
 
  

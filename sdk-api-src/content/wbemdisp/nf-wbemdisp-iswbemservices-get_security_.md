@@ -7,7 +7,7 @@ old-location: wmi\swbemservices_security_.htm
 old-project: WmiSdk
 ms.assetid: d8b1118b-b26d-4740-915e-484a83953b11
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: ISWbemServices interface [Windows Management Instrumentation],Security_ property, ISWbemServices.get_Security_, ISWbemServices::get_Security_, SWbemServices object [Windows Management Instrumentation],Security_ property, SWbemServices.Security_, Security_ property [Windows Management Instrumentation], Security_ property [Windows Management Instrumentation],ISWbemServices interface, Security_ property [Windows Management Instrumentation],SWbemServices object, _hmm_swbemservices.security_, get_Security_, wmi.swbemservices_security_
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: RpcServerUseProtseqIfEx function
 author: windows-sdk-content
 description: The RpcServerUseProtseqIfEx function tells the RPC run-time library to use the specified protocol sequence combined with the endpoints in the interface specification for receiving remote procedure calls.
 old-location: rpc\rpcserveruseprotseqifex.htm
-old-project: rpc
+old-project: Rpc
 ms.assetid: 28238ff2-0ed0-4cb5-8117-b6c544d8c098
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcServerUseProtseqIfEx, RpcServerUseProtseqIfEx function [RPC], RpcServerUseProtseqIfExA, RpcServerUseProtseqIfExW, _rpc_rpcserveruseprotseqifex, rpc.rpcserveruseprotseqifex, rpcdce/RpcServerUseProtseqIfEx, rpcdce/RpcServerUseProtseqIfExA, rpcdce/RpcServerUseProtseqIfExW
 ms.prod: windows
 ms.technology: windows-sdk

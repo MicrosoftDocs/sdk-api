@@ -4,10 +4,10 @@ title: PxeRegisterCallback function
 author: windows-sdk-content
 description: Registers callback functions for different notification events.
 old-location: wds\pxeregistercallback.htm
-old-project: wds
+old-project: Wds
 ms.assetid: e4d7295a-99ef-4dcb-8e40-b5a5383356b5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PXE_CALLBACK_MAX, PXE_CALLBACK_RECV_REQUEST, PXE_CALLBACK_SERVICE_CONTROL, PXE_CALLBACK_SHUTDOWN, PxeRegisterCallback, PxeRegisterCallback function [Windows Deployment Services], wds.pxeregistercallback, wdspxe/PxeRegisterCallback
 ms.prod: windows
 ms.technology: windows-sdk

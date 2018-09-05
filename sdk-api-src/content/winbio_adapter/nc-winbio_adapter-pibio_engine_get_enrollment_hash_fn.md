@@ -4,10 +4,10 @@ title: PIBIO_ENGINE_GET_ENROLLMENT_HASH_FN
 author: windows-sdk-content
 description: Retrieves the hash of the completed enrollment template in the pipeline.
 old-location: secbiomet\engineadaptergetenrollmenthash.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: 3a6984a1-0391-4e26-ad92-c07dc066acdb
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: EngineAdapterGetEnrollmentHash, EngineAdapterGetEnrollmentHash callback function [Windows Biometric Framework API], PIBIO_ENGINE_GET_ENROLLMENT_HASH_FN, PIBIO_ENGINE_GET_ENROLLMENT_HASH_FN callback, secbiomet.engineadaptergetenrollmenthash, winbio_adapter/EngineAdapterGetEnrollmentHash
 ms.prod: windows
 ms.technology: windows-sdk
@@ -154,9 +154,13 @@ The engine adapter must also maintain a separate hash buffer for each pipeline.
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-
-```cpp
-//////////////////////////////////////////////////////////////////////////////////////////
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//////////////////////////////////////////////////////////////////////////////////////////
 //
 // EngineAdapterGetEnrollmentHash
 //
@@ -195,11 +199,11 @@ EngineAdapterGetEnrollmentHash(
 
     // Retrieve the context from the pipeline.
     PWINBIO_ENGINE_CONTEXT context = 
-           (PWINBIO_ENGINE_CONTEXT)Pipeline->EngineContext;
+           (PWINBIO_ENGINE_CONTEXT)Pipeline-&gt;EngineContext;
 
     // Return if an enrollment is not in progress. This example assumes that 
     // an enrollment object is part of your engine context structure.
-    if (context->Enrollment.InProgress != TRUE)
+    if (context-&gt;Enrollment.InProgress != TRUE)
     {
         hr = WINBIO_E_INVALID_DEVICE_STATE;
         goto cleanup;
@@ -215,10 +219,10 @@ EngineAdapterGetEnrollmentHash(
     // context.
     hr = _AdapterGenerateHashForTemplate(
                 context,
-                context->Enrollment.Template, 
-                context->Enrollment.TemplateSize,
-                context->HashBuffer,
-                &context->HashSize
+                context-&gt;Enrollment.Template, 
+                context-&gt;Enrollment.TemplateSize,
+                context-&gt;HashBuffer,
+                &amp;context-&gt;HashSize
                 );
     if (FAILED(hr))
     {
@@ -226,17 +230,17 @@ EngineAdapterGetEnrollmentHash(
     }
 
     // Return the hash to the caller.
-    *HashValue = context->HashBuffer;
-    *HashSize = context->HashSize;
+    *HashValue = context-&gt;HashBuffer;
+    *HashSize = context-&gt;HashSize;
 
 cleanup:
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: mscs\clusrestyperesources_refresh.htm
 old-project: mscs
 ms.assetid: b6f9c220-824d-4d8b-bb2c-61b31ea7c52a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusResTypeResources class [Failover Cluster],Refresh method, ClusResTypeResources.Refresh, ISClusResTypeResources.Refresh, ISClusResTypeResources::Refresh, Refresh, Refresh method [Failover Cluster], Refresh method [Failover Cluster],ClusResTypeResources class, _wolf_clusrestyperesources.refresh, mscs.clusrestyperesources_refresh
 ms.prod: windows
 ms.technology: windows-sdk

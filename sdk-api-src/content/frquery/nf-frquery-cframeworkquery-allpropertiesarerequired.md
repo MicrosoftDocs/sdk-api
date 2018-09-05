@@ -7,7 +7,7 @@ old-location: wmi\cframeworkquery_allpropertiesarerequired.htm
 old-project: WmiSdk
 ms.assetid: 5c17cae5-c68b-41a3-80ca-88d56be4ab74
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: AllPropertiesAreRequired, AllPropertiesAreRequired method [Windows Management Instrumentation], AllPropertiesAreRequired method [Windows Management Instrumentation],CFrameworkQuery interface, CFrameworkQuery interface [Windows Management Instrumentation],AllPropertiesAreRequired method, CFrameworkQuery.AllPropertiesAreRequired, CFrameworkQuery::AllPropertiesAreRequired, _hmm_cframeworkquery_allpropertiesarerequired, frquery/CFrameworkQuery::AllPropertiesAreRequired, wmi.cframeworkquery_allpropertiesarerequired
 ms.prod: windows
 ms.technology: windows-sdk

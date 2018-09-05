@@ -7,7 +7,7 @@ old-location: shell\ICredentialProviderCredentialEvents_SetFieldCheckbox.htm
 old-project: shell
 ms.assetid: a2d5e08f-6a23-4633-beef-8507ab66b102
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ICredentialProviderCredentialEvents interface [Windows Shell],SetFieldCheckbox method, ICredentialProviderCredentialEvents.SetFieldCheckbox, ICredentialProviderCredentialEvents::SetFieldCheckbox, SetFieldCheckbox, SetFieldCheckbox method [Windows Shell], SetFieldCheckbox method [Windows Shell],ICredentialProviderCredentialEvents interface, _shell_ICredentialProviderCredentialEvents_SetFieldCheckbox, credentialprovider/ICredentialProviderCredentialEvents::SetFieldCheckbox, shell.ICredentialProviderCredentialEvents_SetFieldCheckbox
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,9 +61,9 @@ Communicates to the Logon UI or Credential UI that a checkbox field has changed 
 
 ### -param pcpc [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb776029(v=VS.85).aspx">ICredentialProviderCredential</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/ef9bb148-0b4e-4c13-b69d-3e63a5592e4a">ICredentialProviderCredential</a>*</b>
 
-The credential containing the checkbox field that is being set. This value should be set to <b>this</b>. See <a href="https://msdn.microsoft.com/en-us/library/Bb776010(v=VS.85).aspx">ICredentialProviderCredentialEvents</a> for more information.
+The credential containing the checkbox field that is being set. This value should be set to <b>this</b>. See <a href="https://msdn.microsoft.com/258449a4-78e2-475e-ab16-6481207e7354">ICredentialProviderCredentialEvents</a> for more information.
                     
 
 

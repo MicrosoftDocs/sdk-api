@@ -7,7 +7,7 @@ old-location: fs\changentmsmediatype.htm
 old-project: Rsm
 ms.assetid: 89b3eb9b-0614-47a9-825e-1335c7fc5d0d
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: ChangeNtmsMediaType, ChangeNtmsMediaType function [Files], _zaw_changentmsmediatype, base.changentmsmediatype, fs.changentmsmediatype, ntmsapi/ChangeNtmsMediaType
 ms.prod: windows
 ms.technology: windows-sdk
@@ -210,7 +210,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Media Services Functions</a>
+<a href="removable_storage_manager_functions.htm">Media Services Functions</a>
  
 
  

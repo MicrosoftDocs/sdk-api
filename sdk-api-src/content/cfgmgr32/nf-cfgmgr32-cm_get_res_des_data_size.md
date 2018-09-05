@@ -7,7 +7,7 @@ old-location: devinst\cm_get_res_des_data_size.htm
 old-project: devinst
 ms.assetid: 51337d09-2ebb-45fd-82cd-2362093fb7ff
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: CM_Get_Res_Des_Data_Size, CM_Get_Res_Des_Data_Size function [Device and Driver Installation], cfgmgr32/CM_Get_Res_Des_Data_Size, cfgmgrfn_bc279907-eb02-45fc-801d-48dde3d046a9.xml, devinst.cm_get_res_des_data_size
 ms.prod: windows
 ms.technology: windows-sdk

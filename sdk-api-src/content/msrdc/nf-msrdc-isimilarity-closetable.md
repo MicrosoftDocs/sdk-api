@@ -7,7 +7,7 @@ old-location: rdc\isimilarity_closetable.htm
 old-project: Rdc
 ms.assetid: 5bf16568-ed61-42a3-91b9-79a1aa731bc0
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: CloseTable, CloseTable method [Remote Differential Compression], CloseTable method [Remote Differential Compression],ISimilarity interface, ISimilarity interface [Remote Differential Compression],CloseTable method, ISimilarity.CloseTable, ISimilarity::CloseTable, fs.isimilarity_closetable, msrdc/ISimilarity::CloseTable, rdc.isimilarity_closetable
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: netmgmt\netusergetgroups.htm
 old-project: netmgmt
 ms.assetid: ecf1a94c-5dda-4f49-81bd-93e551e089f1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: 0, 1, NetUserGetGroups, NetUserGetGroups function [Network Management], _win32_netusergetgroups, lmaccess/NetUserGetGroups, netmgmt.netusergetgroups
 ms.prod: windows
 ms.technology: windows-sdk
@@ -250,7 +250,7 @@ If you are programming for Active Directory, you may be able to call certain Act
 <a href="https://msdn.microsoft.com/6eea74c2-2d6d-4dfd-9a22-3da2d5ce49bf">IADsUser</a> and 
 <a href="https://msdn.microsoft.com/e2b90a98-5777-42c2-95dd-4623e738c4da">IADsComputer</a>.
 
-If you call this function on a domain controller that is running Active Directory, access is allowed or denied based on the access control list (ACL) for the <a href="https://msdn.microsoft.com/32f2ec06-822f-4d1e-bf51-5ae1d7355e60">securable object</a>. The default ACL permits all authenticated users and members of the "<a href="https://msdn.microsoft.com/library/Aa375347(v=VS.85).aspx">Pre-Windows 2000 compatible access</a>" group to view the information. If you call this function on a member server or workstation, all authenticated users can view the information. For  information about anonymous access and restricting anonymous access on these platforms, see 
+If you call this function on a domain controller that is running Active Directory, access is allowed or denied based on the access control list (ACL) for the <a href="https://msdn.microsoft.com/32f2ec06-822f-4d1e-bf51-5ae1d7355e60">securable object</a>. The default ACL permits all authenticated users and members of the "<a href="security.pre_windows_2000_compatible_access_group">Pre-Windows 2000 compatible access</a>" group to view the information. If you call this function on a member server or workstation, all authenticated users can view the information. For  information about anonymous access and restricting anonymous access on these platforms, see 
 <a href="https://msdn.microsoft.com/846a5b81-d5bf-4275-a898-38e6ba308b8f">Security Requirements for the Network Management Functions</a>. For more information on ACLs, ACEs, and access tokens, see 
 <a href="https://msdn.microsoft.com/fd3b718a-5eff-4894-9fc6-d157ddb67330">Access Control Model</a>.
 
@@ -269,17 +269,21 @@ The following code sample demonstrates how to retrieve a list of global groups t
 <b>NetUserGetGroups</b>, specifying information level 0 (
 <a href="https://msdn.microsoft.com/cc0e5d27-91f1-4640-bb80-e73899fabba9">GROUP_USERS_INFO_0</a>). The code loops through the entries and prints the name of the global groups in which the user has membership. The sample also prints the total number of entries that are available and the number of entries actually enumerated if they do not match. Finally, the code sample frees the memory allocated for the buffer.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 #pragma comment(lib, "netapi32.lib")
 
-#include <stdio.h>
-#include <assert.h>
-#include <windows.h> 
-#include <lm.h>
+#include &lt;stdio.h&gt;
+#include &lt;assert.h&gt;
+#include &lt;windows.h&gt; 
+#include &lt;lm.h&gt;
 
 int wmain(int argc, wchar_t *argv[])
 {
@@ -301,10 +305,10 @@ int wmain(int argc, wchar_t *argv[])
    nStatus = NetUserGetGroups(argv[1],
                               argv[2],
                               dwLevel,
-                              (LPBYTE*)&pBuf,
+                              (LPBYTE*)&amp;pBuf,
                               dwPrefMaxLen,
-                              &dwEntriesRead,
-                              &dwTotalEntries);
+                              &amp;dwEntriesRead,
+                              &amp;dwTotalEntries);
    //
    // If the call succeeds,
    //
@@ -322,7 +326,7 @@ int wmain(int argc, wchar_t *argv[])
          //  print the name of the global groups 
          //  to which the user belongs.
          //
-         for (i = 0; i < dwEntriesRead; i++)
+         for (i = 0; i &lt; dwEntriesRead; i++)
          {
             assert(pTmpBuf != NULL);
 
@@ -332,7 +336,7 @@ int wmain(int argc, wchar_t *argv[])
                break;
             }
 
-            wprintf(L"\t-- %s\n", pTmpBuf->grui0_name);
+            wprintf(L"\t-- %s\n", pTmpBuf-&gt;grui0_name);
 
             pTmpBuf++;
             dwTotalCount++;
@@ -343,7 +347,7 @@ int wmain(int argc, wchar_t *argv[])
       //  not enumerated, print the number actually 
       //  enumerated and the total number available.
       //
-      if (dwEntriesRead < dwTotalEntries)
+      if (dwEntriesRead &lt; dwTotalEntries)
          fprintf(stderr, "\nTotal entries: %d", dwTotalEntries);
       //
       // Otherwise, just print the total.
@@ -360,10 +364,10 @@ int wmain(int argc, wchar_t *argv[])
 
    return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

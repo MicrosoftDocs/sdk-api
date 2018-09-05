@@ -7,7 +7,7 @@ old-location: setup\setupenuminfsections.htm
 old-project: SetupApi
 ms.assetid: 9b19ced6-728a-48e7-9e87-03fc53f7fb72
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: SetupEnumInfSections, SetupEnumInfSections function [Setup API], SetupEnumInfSectionsA, SetupEnumInfSectionsW, setup.setupenuminfsections, setupapi/SetupEnumInfSections, setupapi/SetupEnumInfSectionsA, setupapi/SetupEnumInfSectionsW
 ms.prod: windows
 ms.technology: windows-sdk

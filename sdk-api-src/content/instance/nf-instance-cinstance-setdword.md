@@ -7,7 +7,7 @@ old-location: wmi\cinstance_setdword.htm
 old-project: WmiSdk
 ms.assetid: 06b2ab13-b42d-4dfe-83f2-ecc526977b92
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: "?SetDWORD@CInstance@@QAE_NPBGK@Z, ?SetDWORD@CInstance@@QEAA_NPEBGK@Z, CInstance interface [Windows Management Instrumentation],SetDWORD method, CInstance.SetDWORD, CInstance::SetDWORD, SetDWORD, SetDWORD method [Windows Management Instrumentation], SetDWORD method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setdword, instance/CInstance::SetDWORD, wmi.cinstance_setdword"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -101,25 +101,29 @@ This creates a <b>VT_BOOL</b> | <b>VT_VECTOR</b> propvariant.
 
 #### Examples
 
-The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb762288(v=VS.85).aspx">InitPropVariantFromBooleanVector</a>
+The following example, to be included as part of a larger program, demonstrates how to use <a href="shell.InitPropVariantFromBooleanVector">InitPropVariantFromBooleanVector</a>
 
 
-
-```cpp
-PROPVARIANT propvar;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>PROPVARIANT propvar;
 BOOL rgBool[2] = {TRUE, FALSE};
 
-HRESULT hr = InitPropVariantFromBooleanVector(rgBool, ARRAYSIZE(rgBool), &propvar);
+HRESULT hr = InitPropVariantFromBooleanVector(rgBool, ARRAYSIZE(rgBool), &amp;propvar);
 
 if (SUCCEEDED(hr))
 {
     // propvar now is valid and has type VT_VECTOR | VT_BOOL.
  
-    PropVariantClear(&propvar);
-}
-```
-
-
+    PropVariantClear(&amp;propvar);
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -128,15 +132,15 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762287(v=VS.85).aspx">InitPropVariantFromBoolean</a>
+<a href="shell.InitPropVariantFromBoolean">InitPropVariantFromBoolean</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb762316(v=VS.85).aspx">InitVariantFromBoolean</a>
+<a href="shell.InitVariantFromBoolean">InitVariantFromBoolean</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb776532(v=VS.85).aspx">PropVariantToBooleanVector</a>
+<a href="shell.PropVariantToBooleanVector">PropVariantToBooleanVector</a>
  
 
  

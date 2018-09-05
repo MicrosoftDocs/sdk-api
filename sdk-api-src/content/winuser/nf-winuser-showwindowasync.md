@@ -7,7 +7,7 @@ old-location: winmsg\showwindowasync.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\showwindowasync.htm
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: ShowWindowAsync, ShowWindowAsync function [Windows and Messages], _win32_ShowWindowAsync, _win32_showwindowasync_cpp, winmsg.showwindowasync, winui._win32_showwindowasync, winuser/ShowWindowAsync
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,7 +72,7 @@ A handle to the window.
 
 Type: <b>int</b>
 
-Controls how the window is to be shown. For a list of possible values, see the description of the <a href="https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx">ShowWindow</a> function. 
+Controls how the window is to be shown. For a list of possible values, see the description of the <a href="https://msdn.microsoft.com/13ffef63-3e29-4ca7-a14d-48ff901d82b5">ShowWindow</a> function. 
 
 
 ## -returns
@@ -109,11 +109,11 @@ This function posts a show-window event to the message queue of the given window
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx">ShowWindow</a>
+<a href="https://msdn.microsoft.com/13ffef63-3e29-4ca7-a14d-48ff901d82b5">ShowWindow</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

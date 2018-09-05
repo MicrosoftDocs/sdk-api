@@ -127,17 +127,21 @@ For info about string size limits, see <a href="https://msdn.microsoft.com/C4F81
 
 #### Examples
 
-
-```
-#define _UNICODE 1
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>#define _UNICODE 1
 #define UNICODE 1
 
-#include <Windows.h>
-#include <appmodel.h>
-#include <malloc.h>
-#include <stdlib.h>
-#include <errno.h>
-#include <stdio.h>
+#include &lt;Windows.h&gt;
+#include &lt;appmodel.h&gt;
+#include &lt;malloc.h&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;errno.h&gt;
+#include &lt;stdio.h&gt;
 
 int ShowUsage();
 bool ParseArchitecture(__in PCWSTR architectureString, __out UINT32 * architecture);
@@ -145,27 +149,27 @@ bool ParseVersion(__in PCWSTR versionString, __out PACKAGE_VERSION * version);
 
 int ShowUsage()
 {
-    wprintf(L"Usage: PackageFullNameFromId <name><version> <arch> <resourceid> <publisher>\n");
+    wprintf(L"Usage: PackageFullNameFromId &lt;name&gt;&lt;version&gt; &lt;arch&gt; &lt;resourceid&gt; &lt;publisher&gt;\n");
     return 1;
 }
 
 int __cdecl wmain(__in int argc, __in_ecount(argc) WCHAR * argv[])
 {
-    if (argc <= 5)
+    if (argc &lt;= 5)
         return ShowUsage();
 
     PACKAGE_ID packageId;
-    ZeroMemory(&packageId, sizeof(packageId));
+    ZeroMemory(&amp;packageId, sizeof(packageId));
     packageId.name = argv[1];
-    if (!ParseVersion(argv[2], &packageId.version))
+    if (!ParseVersion(argv[2], &amp;packageId.version))
         return 2;
-    if (!ParseArchitecture(argv[3], &packageId.processorArchitecture))
+    if (!ParseArchitecture(argv[3], &amp;packageId.processorArchitecture))
         return 3;
     packageId.resourceId = argv[4];
     packageId.publisher = argv[5];
 
     UINT32 length = 0;
-    LONG rc = PackageFullNameFromId(&packageId, &length, NULL);
+    LONG rc = PackageFullNameFromId(&amp;packageId, &amp;length, NULL);
     if (rc == ERROR_SUCCESS)
     {
         wprintf(L"PackageFullNameFromId unexpectedly succeeded\n");
@@ -184,7 +188,7 @@ int __cdecl wmain(__in int argc, __in_ecount(argc) WCHAR * argv[])
         return 6;
     }
 
-    rc = PackageFullNameFromId(&packageId, &length, fullName);
+    rc = PackageFullNameFromId(&amp;packageId, &amp;length, fullName);
     if (rc != ERROR_SUCCESS)
         wprintf(L"Error %d converting Package Id to Full Name\n", rc);
     else
@@ -217,12 +221,12 @@ bool ParseVersion(__in PCWSTR versionString, __out PACKAGE_VERSION * version)
 {
     PWSTR s = (PWSTR) versionString;
 
-    ULONG n = wcstoul(s, &s, 10);
-    if (((n == 0) || (n > 65535)) && (errno == ERANGE)) {
+    ULONG n = wcstoul(s, &amp;s, 10);
+    if (((n == 0) || (n &gt; 65535)) &amp;&amp; (errno == ERANGE)) {
         wprintf(L"Invalid Version (Major)\n");
         return false;
     }
-    version->Major = (USHORT) n;
+    version-&gt;Major = (USHORT) n;
 
     if (*s != L'.')
     {
@@ -230,12 +234,12 @@ bool ParseVersion(__in PCWSTR versionString, __out PACKAGE_VERSION * version)
         return false;
     }
 
-    n = wcstoul(++s, &s, 10);
-    if (((n == 0) || (n > 65535)) && (errno == ERANGE)) {
+    n = wcstoul(++s, &amp;s, 10);
+    if (((n == 0) || (n &gt; 65535)) &amp;&amp; (errno == ERANGE)) {
         wprintf(L"Invalid Version (Minor)\n");
         return false;
     }
-    version->Minor = (USHORT) n;
+    version-&gt;Minor = (USHORT) n;
 
     if (*s != L'.')
     {
@@ -243,12 +247,12 @@ bool ParseVersion(__in PCWSTR versionString, __out PACKAGE_VERSION * version)
         return false;
     }
 
-    n = wcstoul(++s, &s, 10);
-    if (((n == 0) || (n > 65535)) && (errno == ERANGE)) {
+    n = wcstoul(++s, &amp;s, 10);
+    if (((n == 0) || (n &gt; 65535)) &amp;&amp; (errno == ERANGE)) {
         wprintf(L"Invalid Version (Build)\n");
         return false;
     }
-    version->Build = (USHORT) n;
+    version-&gt;Build = (USHORT) n;
 
     if (*s != L'.')
     {
@@ -256,19 +260,19 @@ bool ParseVersion(__in PCWSTR versionString, __out PACKAGE_VERSION * version)
         return false;
     }
 
-    n = wcstoul(++s, &s, 10);
-    if (((n == 0) || (n > 65535)) && (errno == ERANGE)) {
+    n = wcstoul(++s, &amp;s, 10);
+    if (((n == 0) || (n &gt; 65535)) &amp;&amp; (errno == ERANGE)) {
         wprintf(L"Invalid Version (Revision)\n");
         return false;
     }
-    version->Revision = (USHORT) n;
+    version-&gt;Revision = (USHORT) n;
 
     return true;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

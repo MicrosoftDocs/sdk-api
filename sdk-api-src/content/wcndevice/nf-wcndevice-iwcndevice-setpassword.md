@@ -7,7 +7,7 @@ old-location: wcn\iwcndevice_setpassword.htm
 old-project: wcn
 ms.assetid: 51d03336-3861-4585-b493-d6765c28b1eb
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: IWCNDevice interface [Windows Connect Now],SetPassword method, IWCNDevice.SetPassword, IWCNDevice::SetPassword, SetPassword, SetPassword method [Windows Connect Now], SetPassword method [Windows Connect Now],IWCNDevice interface, WCN_PASSWORD_TYPE_PIN, WCN_PASSWORD_TYPE_PUSH_BUTTON, wcn.iwcndevice_setpassword, wcndevice/IWCNDevice::SetPassword
 ms.prod: windows
 ms.technology: windows-sdk

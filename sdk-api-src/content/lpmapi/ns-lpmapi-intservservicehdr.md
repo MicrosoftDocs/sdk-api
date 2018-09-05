@@ -4,10 +4,10 @@ title: IntServServiceHdr
 author: windows-sdk-content
 description: The IntServServiceHdr structure is a header for Integrated Services service objects.
 old-location: qos\intservservicehdr.htm
-old-project: qos
+old-project: QOS
 ms.assetid: 63e6a944-f16e-4b90-ab77-22e5c8ef3fb2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IntServServiceHdr, IntServServiceHdr structure [QOS], lpmapi/IntServServiceHdr, qos.intservservicehdr
 ms.prod: windows
 ms.technology: windows-sdk

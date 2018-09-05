@@ -215,18 +215,22 @@ Note that the returned <a href="https://msdn.microsoft.com/c4bbb949-5573-42cd-bb
 
 The following example retrieves the IP interface table, then prints the values of a few members of the IP interface entries in the table.
 
-
-```cpp
-#ifndef WIN32_LEAN_AND_MEAN
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef WIN32_LEAN_AND_MEAN
 #define WIN32_LEAN_AND_MEAN
 #endif
 
-#include <windows.h>
-#include <winsock2.h>
-#include <ws2ipdef.h>
-#include <iphlpapi.h>
-#include <stdio.h>
-#include <stdlib.h>
+#include &lt;windows.h&gt;
+#include &lt;winsock2.h&gt;
+#include &lt;ws2ipdef.h&gt;
+#include &lt;iphlpapi.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
 
 #pragma comment(lib, "iphlpapi.lib")
 
@@ -240,17 +244,17 @@ int main()
 
     PMIB_IPINTERFACE_TABLE pipTable = NULL;
 
-    dwRetVal = GetIpInterfaceTable(AF_UNSPEC, &pipTable);
+    dwRetVal = GetIpInterfaceTable(AF_UNSPEC, &amp;pipTable);
     if (dwRetVal != NO_ERROR) {
         printf("GetIpInterfaceTable returned error: %ld\n", dwRetVal);
         exit(1);
     }
     // Print some variables from the rows in the table
-    printf("Number of table entries: %d\n\n", pipTable->NumEntries);
+    printf("Number of table entries: %d\n\n", pipTable-&gt;NumEntries);
 
-    for (i = 0; i < (int) pipTable->NumEntries; i++) {
+    for (i = 0; i &lt; (int) pipTable-&gt;NumEntries; i++) {
         printf("Address Family[%d]:\t\t", i);
-        switch (pipTable->Table[i].Family) {
+        switch (pipTable-&gt;Table[i].Family) {
         case AF_INET:
             printf("IPv4\n");
             break;
@@ -258,15 +262,15 @@ int main()
             printf("IPv6\n");
             break;
         default:
-            printf("Other: %d\n", pipTable->Table[i].Family);
+            printf("Other: %d\n", pipTable-&gt;Table[i].Family);
             break;
         }
 
         printf("Interface LUID NetLuidIndex[%d]:\t %lu\n",
-               i, pipTable->Table[i].InterfaceLuid.Info.NetLuidIndex);
+               i, pipTable-&gt;Table[i].InterfaceLuid.Info.NetLuidIndex);
 
         printf("Interface LUID IfType[%d]:\t ", i);
-        switch (pipTable->Table[i].InterfaceLuid.Info.IfType) {
+        switch (pipTable-&gt;Table[i].InterfaceLuid.Info.IfType) {
         case IF_TYPE_OTHER:
             printf("Other\n");
             break;
@@ -296,48 +300,48 @@ int main()
             break;
         default:
             printf("Unknown: %d\n",
-                   pipTable->Table[i].InterfaceLuid.Info.IfType);
+                   pipTable-&gt;Table[i].InterfaceLuid.Info.IfType);
             break;
         }
         printf("Interface Index[%d]:\t\t %lu\n",
-               i, pipTable->Table[i].InterfaceIndex);
+               i, pipTable-&gt;Table[i].InterfaceIndex);
         printf("Maximum reassembly size[%d]:\t %lu\n", i,
-               pipTable->Table[i].MaxReassemblySize);
+               pipTable-&gt;Table[i].MaxReassemblySize);
 
         printf("Advertising enabled[%d]:\t\t ", i);
-        if (pipTable->Table[i].AdvertisingEnabled)
+        if (pipTable-&gt;Table[i].AdvertisingEnabled)
             printf("Yes\n");
         else
             printf("No\n");
 
         printf("Forwarding enabled[%d]:\t\t ", i);
-        if (pipTable->Table[i].ForwardingEnabled)
+        if (pipTable-&gt;Table[i].ForwardingEnabled)
             printf("Yes\n");
         else
             printf("No\n");
 
-        printf("Network layer MTU[%d]:\t\t %lu\n", i, pipTable->Table[i].NlMtu);
+        printf("Network layer MTU[%d]:\t\t %lu\n", i, pipTable-&gt;Table[i].NlMtu);
 
         printf("Connected[%d]:\t\t\t ", i);
-        if (pipTable->Table[i].Connected)
+        if (pipTable-&gt;Table[i].Connected)
             printf("Yes\n");
         else
             printf("No\n");
 
         printf("Supports wakeup patterns[%d]:\t ", i);
-        if (pipTable->Table[i].SupportsWakeUpPatterns)
+        if (pipTable-&gt;Table[i].SupportsWakeUpPatterns)
             printf("Yes\n");
         else
             printf("No\n");
 
         printf("Supports neighbor discovery[%d]:\t ", i);
-        if (pipTable->Table[i].SupportsNeighborDiscovery)
+        if (pipTable-&gt;Table[i].SupportsNeighborDiscovery)
             printf("Yes\n");
         else
             printf("No\n");
 
         printf("Supports router discovery[%d]:\t ", i);
-        if (pipTable->Table[i].SupportsRouterDiscovery)
+        if (pipTable-&gt;Table[i].SupportsRouterDiscovery)
             printf("Yes\n");
         else
             printf("No\n");
@@ -351,10 +355,10 @@ int main()
     exit(0);
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

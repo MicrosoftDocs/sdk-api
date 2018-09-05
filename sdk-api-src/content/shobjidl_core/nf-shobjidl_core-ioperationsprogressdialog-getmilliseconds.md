@@ -7,7 +7,7 @@ old-location: shell\IOperationsProgressDialog_GetMilliseconds.htm
 old-project: shell
 ms.assetid: 0e1c34cf-1fa2-43b7-91c9-2ec9224b5b39
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetMilliseconds, GetMilliseconds method [Windows Shell], GetMilliseconds method [Windows Shell],IOperationsProgressDialog interface, IOperationsProgressDialog interface [Windows Shell],GetMilliseconds method, IOperationsProgressDialog.GetMilliseconds, IOperationsProgressDialog::GetMilliseconds, _shell_IOperationsProgressDialog_GetMilliseconds, shell.IOperationsProgressDialog_GetMilliseconds, shobjidl_core/IOperationsProgressDialog::GetMilliseconds
 ms.prod: windows
 ms.technology: windows-sdk

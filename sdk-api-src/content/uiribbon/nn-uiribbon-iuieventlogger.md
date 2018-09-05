@@ -7,7 +7,7 @@ old-location: windowsribbon\iuieventlogger.htm
 old-project: windowsribbon
 ms.assetid: 54DB1BFF-0657-4027-8C8C-89CE998253F4
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IUIEventLogger, IUIEventLogger interface [Windows Ribbon], IUIEventLogger interface [Windows Ribbon],described, uiribbon/IUIEventLogger, windowsribbon.iuieventlogger
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,7 +96,7 @@ Receives notifications that a ribbon event has occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371356(v=VS.85).aspx">Interfaces</a>
+<a href="https://msdn.microsoft.com/d5fd6e4f-ca10-4010-aab4-d2728b0ac53c">Interfaces</a>
  
 
  

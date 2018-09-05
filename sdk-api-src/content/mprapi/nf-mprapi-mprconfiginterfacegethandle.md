@@ -4,10 +4,10 @@ title: MprConfigInterfaceGetHandle function
 author: windows-sdk-content
 description: The MprConfigInterfaceGetHandle function retrieves a handle to the specified interface's configuration in the specified router configuration.
 old-location: rras\mprconfiginterfacegethandle.htm
-old-project: rras
+old-project: RRAS
 ms.assetid: 1088e587-4446-4463-b411-a11e34adaf6a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MprConfigInterfaceGetHandle, MprConfigInterfaceGetHandle function [RAS], _mpr_mprconfiginterfacegethandle, mprapi/MprConfigInterfaceGetHandle, rras.mprconfiginterfacegethandle
 ms.prod: windows
 ms.technology: windows-sdk
@@ -131,7 +131,7 @@ The specified interface was not found in the router configuration.
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ Use
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="_win32_formatmessage">FormatMessage</a>
 
 
 

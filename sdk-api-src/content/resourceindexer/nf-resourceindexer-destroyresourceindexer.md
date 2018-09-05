@@ -7,7 +7,7 @@ old-location: menurc\destroyresourceindexer.htm
 old-project: menurc
 ms.assetid: 42DCE463-B883-4564-9B7E-DEFF0A17CC1C
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: DestroyResourceIndexer, DestroyResourceIndexer function [Menus and Other Resources], menurc.destroyresourceindexer, resourceindexer/DestroyResourceIndexer
 ms.prod: windows
 ms.technology: windows-sdk

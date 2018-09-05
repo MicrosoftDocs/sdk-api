@@ -7,7 +7,7 @@ old-location: wmi\swbemdatetime_minutesspecified.htm
 old-project: WmiSdk
 ms.assetid: de15f87e-0092-467e-b0d7-42ef447fa00a
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: ISWbemDateTime interface [Windows Management Instrumentation],MinutesSpecified property, ISWbemDateTime.get_MinutesSpecified, ISWbemDateTime.put_MinutesSpecified, ISWbemDateTime::put_MinutesSpecified, MinutesSpecified property [Windows Management Instrumentation], MinutesSpecified property [Windows Management Instrumentation],ISWbemDateTime interface, MinutesSpecified property [Windows Management Instrumentation],SWbemDateTime object, SWbemDateTime object [Windows Management Instrumentation],MinutesSpecified property, SWbemDateTime.MinutesSpecified, _hmm_swbemdatetime.minutesspecified, put_MinutesSpecified, wmi.swbemdatetime_minutesspecified
 ms.prod: windows
 ms.technology: windows-sdk

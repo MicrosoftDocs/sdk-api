@@ -7,7 +7,7 @@ old-location: shell\PathIsUNCServer.htm
 old-project: shell
 ms.assetid: 9158ceb6-dd20-4b1a-93d3-cf7a5a5c6c75
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: PathIsUNCServer, PathIsUNCServer function [Windows Shell], PathIsUNCServerA, PathIsUNCServerW, _win32_PathIsUNCServer, shell.PathIsUNCServer, shlwapi/PathIsUNCServer, shlwapi/PathIsUNCServerA, shlwapi/PathIsUNCServerW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

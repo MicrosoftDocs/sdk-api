@@ -7,7 +7,7 @@ old-location: wmi\swbemobject_compareto_.htm
 old-project: WmiSdk
 ms.assetid: 38813551-2403-4def-ae57-2b17f72cd180
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: CompareTo_, CompareTo_ method [Windows Management Instrumentation], CompareTo_ method [Windows Management Instrumentation],ISWbemObject interface, CompareTo_ method [Windows Management Instrumentation],SWbemObject object, ISWbemObject interface [Windows Management Instrumentation],CompareTo_ method, ISWbemObject.CompareTo_, ISWbemObject::CompareTo_, SWbemObject object [Windows Management Instrumentation],CompareTo_ method, SWbemObject.CompareTo_, _hmm_swbemobject.compareto_, wbemComparisonFlagIgnoreCase, wbemComparisonFlagIgnoreClass, wbemComparisonFlagIgnoreDefaultValues, wbemComparisonFlagIgnoreFlavor, wbemComparisonFlagIgnoreObjectSource, wbemComparisonFlagIgnoreQualifiers, wbemComparisonFlagIncludeAll, wmi.swbemobject_compareto_
 ms.prod: windows
 ms.technology: windows-sdk

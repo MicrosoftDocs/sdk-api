@@ -7,7 +7,7 @@ old-location: wmdm\imdspenumstorage_skip.htm
 old-project: WMDM
 ms.assetid: 68025a40-a423-4a11-87c6-ae8c2d7b3765
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMDSPEnumStorage interface [windows Media Device Manager],Skip method, IMDSPEnumStorage.Skip, IMDSPEnumStorage::Skip, IMDSPEnumStorageSkip, Skip, Skip method [windows Media Device Manager], Skip method [windows Media Device Manager],IMDSPEnumStorage interface, mswmdm/IMDSPEnumStorage::Skip, wmdm.imdspenumstorage_skip
 ms.prod: windows
 ms.technology: windows-sdk

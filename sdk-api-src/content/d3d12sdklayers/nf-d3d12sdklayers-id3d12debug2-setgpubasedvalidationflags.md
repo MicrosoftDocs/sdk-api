@@ -61,7 +61,7 @@ This method configures the level of GPU-based validation that the debug device i
 
 ### -param Flags
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Mt492578(v=VS.85).aspx">D3D12_GPU_BASED_VALIDATION_FLAGS</a></b>
+Type: <b><a href="https://msdn.microsoft.com/D9FA7F77-8DE8-4630-A9C7-E95B9E997E23">D3D12_GPU_BASED_VALIDATION_FLAGS</a></b>
 
 Specifies the level of GPU-based validation to perform at runtime.
 
@@ -89,7 +89,7 @@ This method overrides the default behavior of GPU-based validation so it must be
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt492650(v=VS.85).aspx">ID3D12Debug2</a>
+<a href="https://msdn.microsoft.com/7FC7A17B-9DD3-4B6C-998E-F958AA1C56FC">ID3D12Debug2</a>
  
 
  

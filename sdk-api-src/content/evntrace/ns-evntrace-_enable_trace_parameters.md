@@ -43,6 +43,7 @@ targetos: Windows
 req.lib: 
 req.dll: 
 req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # _ENABLE_TRACE_PARAMETERS structure

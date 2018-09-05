@@ -4,10 +4,10 @@ title: NdrClientCall4 function
 author: windows-sdk-content
 description: NdrClientCall4 may be altered or unavailable.
 old-location: rpc\ndrclientcall4.htm
-old-project: rpc
+old-project: Rpc
 ms.assetid: AD2B9995-B092-498E-8D54-204B213D555D
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NdrClientCall4, NdrClientCall4 function [RPC], rpc.ndrclientcall4, rpcndr/NdrClientCall4
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,7 +72,14 @@ Reserved.
 Reserved.
 
 
-### -param param [in, out]
+### -param arg1
+
+TBD
+
+
+
+
+#### - param [in, out]
 
 Reserved.
 

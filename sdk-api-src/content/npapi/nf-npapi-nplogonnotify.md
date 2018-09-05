@@ -4,10 +4,10 @@ title: NPLogonNotify function
 author: windows-sdk-content
 description: MPR calls this function to notify the credential manager that a logon event has occurred, allowing the credential manager to return a logon script.
 old-location: security\nplogonnotify.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 9b0e5646-ac57-4eae-bad7-a16c07b51f4b
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: NPLogonNotify, NPLogonNotify function [Security], SvcCtl, WinSta_0, _mnp_nplogonnotify, npapi/NPLogonNotify, security.nplogonnotify
 ms.prod: windows
 ms.technology: windows-sdk
@@ -99,13 +99,17 @@ Pointer to a string that identifies the type of structure pointed to by <i>lpPre
 
 When Microsoft is the primary authenticator, the following string is specified for interactive and service controller logons.
 
-
-```cpp
-MSV1_0:Interactive
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>MSV1_0:Interactive
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -param lpPreviousAuthentInfo [in]
 

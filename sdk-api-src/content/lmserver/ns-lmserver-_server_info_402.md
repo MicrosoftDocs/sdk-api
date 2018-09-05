@@ -7,7 +7,7 @@ old-location: netmgmt\server_info_402_str.htm
 old-project: netmgmt
 ms.assetid: 51e5c27e-6a7d-45ac-9cfa-37b1f7f241f9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPSERVER_INFO_402, *PSERVER_INFO_402, LPSERVER_INFO_402, LPSERVER_INFO_402 structure pointer [Network Management], PSERVER_INFO_402, PSERVER_INFO_402 structure pointer [Network Management], SERVER_INFO_402, SERVER_INFO_402 structure [Network Management], SV_SHARESECURITY, SV_USERSECURITY, _SERVER_INFO_402, _win32_server_info_402_str, lmserver/LPSERVER_INFO_402, lmserver/PSERVER_INFO_402, lmserver/SERVER_INFO_402, netmgmt.server_info_402_str"
 ms.prod: windows
 ms.technology: windows-sdk

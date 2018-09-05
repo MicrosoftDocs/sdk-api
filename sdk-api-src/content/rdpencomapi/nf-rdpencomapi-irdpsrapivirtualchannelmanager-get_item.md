@@ -4,10 +4,10 @@ title: IRDPSRAPIVirtualChannelManager::get_Item
 author: windows-sdk-content
 description: An item in the virtual channel collection.
 old-location: rdp\irdpsrapivirtualchannelmanager_item.htm
-old-project: rdp
+old-project: Rdp
 ms.assetid: 749072c9-9ad9-41e7-b706-9d27eb684a07
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IRDPSRAPIVirtualChannelManager interface [RDP],Item property, IRDPSRAPIVirtualChannelManager.Item, IRDPSRAPIVirtualChannelManager.get_Item, IRDPSRAPIVirtualChannelManager::Item, IRDPSRAPIVirtualChannelManager::get_Item, Item property [RDP], Item property [RDP],IRDPSRAPIVirtualChannelManager interface, Item property [RDP],RDPSRAPIVirtualChannelManager object, RDPSRAPIVirtualChannelManager object [RDP],Item property, get_Item, rdp.irdpsrapivirtualchannelmanager_item, rdpencomapi/IRDPSRAPIVirtualChannelManager::Item, rdpencomapi/IRDPSRAPIVirtualChannelManager::get_Item
 ms.prod: windows
 ms.technology: windows-sdk

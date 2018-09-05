@@ -4,10 +4,10 @@ title: ICertificatePolicies::get_ItemByIndex
 author: windows-sdk-content
 description: Retrieves an object from the collection by index number.
 old-location: security\icertificatepolicies_itembyindex_property.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: dac1a656-265c-41ec-b460-0414fefe3c40
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ICertificatePolicies interface [Security],ItemByIndex property, ICertificatePolicies.ItemByIndex, ICertificatePolicies.get_ItemByIndex, ICertificatePolicies::ItemByIndex, ICertificatePolicies::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],ICertificatePolicies interface, certenroll/ICertificatePolicies::ItemByIndex, certenroll/ICertificatePolicies::get_ItemByIndex, get_ItemByIndex, security.icertificatepolicies_itembyindex_property
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,11 +65,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375214(v=VS.85).aspx">ICertificatePolicies</a>
+<a href="https://msdn.microsoft.com/2503adcb-0b73-42ef-98cf-a2b906e34ef7">ICertificatePolicies</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375225(v=VS.85).aspx">ICertificatePolicy</a>
+<a href="https://msdn.microsoft.com/2162de70-edcc-4f01-807d-79ff200d0016">ICertificatePolicy</a>
  
 
  

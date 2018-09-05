@@ -4,10 +4,10 @@ title: IntServTspecBody
 author: windows-sdk-content
 description: The IntServTspecBody structure contains information for an RSVP Tspec.
 old-location: qos\intservtspecbody.htm
-old-project: qos
+old-project: QOS
 ms.assetid: c4244dba-237a-437b-94b7-fd814edb3506
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IntServTspecBody, IntServTspecBody structure [QOS], lpmapi/IntServTspecBody, qos.intservtspecbody
 ms.prod: windows
 ms.technology: windows-sdk

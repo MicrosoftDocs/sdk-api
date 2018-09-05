@@ -7,7 +7,7 @@ old-location: devinst\cm_free_log_conf_handle.htm
 old-project: devinst
 ms.assetid: dd8a4a2a-9f99-48c0-acb6-e5ceed63c88e
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: CM_Free_Log_Conf_Handle, CM_Free_Log_Conf_Handle function [Device and Driver Installation], cfgmgr32/CM_Free_Log_Conf_Handle, cfgmgrfn_acfb6a9e-f12b-40af-a239-dba8aff1e22b.xml, devinst.cm_free_log_conf_handle
 ms.prod: windows
 ms.technology: windows-sdk

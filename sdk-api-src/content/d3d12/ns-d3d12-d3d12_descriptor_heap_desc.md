@@ -110,11 +110,11 @@ This structure is used by the following:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770459(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/7FE8796A-98D1-4333-8755-2A47567460B3">Core Structures</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn859359(v=VS.85).aspx">Creating Descriptor Heaps</a>
+<a href="https://msdn.microsoft.com/58677023-692C-4BA4-90B7-D568F3DD3F73">Creating Descriptor Heaps</a>
 
 
 

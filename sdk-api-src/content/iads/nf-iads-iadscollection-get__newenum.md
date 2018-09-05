@@ -52,7 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-The <b>IADsCollection::get__NewEnum</b> method gets a dependent enumerator object that implements  <a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a> for this ADSI collection object. Be aware that there are two underscore characters in the function name (<b>get__NewEnum</b>).
+The <b>IADsCollection::get__NewEnum</b> method gets a dependent enumerator object that implements  <a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a> for this ADSI collection object. Be aware that there are two underscore characters in the function name (<b>get__NewEnum</b>).
 
 
 ## -parameters
@@ -62,7 +62,7 @@ The <b>IADsCollection::get__NewEnum</b> method gets a dependent enumerator objec
 
 ### -param ppEnumerator [out]
 
-Pointer to a pointer to the  <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface on the enumerator object for this collection.
+Pointer to a pointer to the  <a href="_com_iunknown">IUnknown</a> interface on the enumerator object for this collection.
 
 
 ## -returns
@@ -90,9 +90,13 @@ When a server supports paged search and the client has specified the page limit 
 
 The <b>For Each</b>…<b>In</b>…<b>Next</b> statement in the following Visual Basic code example invokes <b>get__NewEnum</b> method implicitly.
 
-
-```vb
-Dim fso As IADsFileServiceOperations 
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim fso As IADsFileServiceOperations 
 On Error GoTo Cleanup
 
 Set fso = GetObject("WinNT://myComputer/Fabrikam01") 
@@ -102,22 +106,26 @@ Set coll = fso.Sessions
  
 ' The following statement invokes IADsCollection::get__NewEnum.
 For Each session In coll 
-   MsgBox "Session name: " & session.Name
+   MsgBox "Session name: " &amp; session.Name
 Next session
 
 Cleanup:
-    If (Err.Number<>0) Then
-        MsgBox("An error has occurred... " & Err.Number)
+    If (Err.Number&lt;&gt;0) Then
+        MsgBox("An error has occurred... " &amp; Err.Number)
     End If
-    Set fso = Nothing
-```
-
-
+    Set fso = Nothing</pre>
+</td>
+</tr>
+</table></span></div>
 The following C++ code example shows how <b>IADsCollection::get__NewEnum</b> is used to enumerate active file service sessions.
 
-
-```cpp
-HRESULT EnumCollection(IADsCollection *);
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT EnumCollection(IADsCollection *);
 
 HRESULT GetACollectionOfSessions()
 {
@@ -129,18 +137,18 @@ HRESULT GetACollectionOfSessions()
     IADsFileServiceOperations *pFso = NULL;
     hr = ADsGetObject(adspath,
                       IID_IADsFileServiceOperations,
-                      (void**)&pFso);
+                      (void**)&amp;pFso);
     if(FAILED(hr)) {goto Cleanup;}
 
     // Get the pointer to the collection.
-    hr = pFso->Sessions(&pColl);
+    hr = pFso-&gt;Sessions(&amp;pColl);
     if(FAILED(hr)) {goto Cleanup;}
 
     hr = EnumCollection(pColl);
 
 Cleanup:
-    if(pColl) pColl->Release();
-    if(pFso) pFso->Release();
+    if(pColl) pColl-&gt;Release();
+    if(pFso) pFso-&gt;Release();
 
     return hr;
 }
@@ -150,11 +158,11 @@ HRESULT EnumCollection(IADsCollection *pColl)
     IUnknown *pUnk=NULL;
     HRESULT hr = S_OK;
     // Get the Enumerator object on the collection object.
-    hr = pColl->get__NewEnum(&pUnk);
+    hr = pColl-&gt;get__NewEnum(&amp;pUnk);
     if(FAILED(hr)) {goto Cleanup;}
 
     IEnumVARIANT *pEnum;
-    hr = pUnk->QueryInterface(IID_IEnumVARIANT,(void**)&pEnum);
+    hr = pUnk-&gt;QueryInterface(IID_IEnumVARIANT,(void**)&amp;pEnum);
     if(FAILED(hr)) {goto Cleanup;}
 
     // Enumerate the collection.
@@ -164,36 +172,36 @@ HRESULT EnumCollection(IADsCollection *pColl)
     ULONG lFetch;
     IDispatch *pDisp = NULL;
 
-    VariantInit(&var);
-    hr = pEnum->Next(1, &var, &lFetch);
+    VariantInit(&amp;var);
+    hr = pEnum-&gt;Next(1, &amp;var, &amp;lFetch);
     while(hr == S_OK)
     {
         if (lFetch == 1)    
         {
-             pDisp = V_DISPATCH(&var);
-             pDisp->QueryInterface(IID_IADs, (void**)&pADs);
-             pADs->get_Name(&bstr);
+             pDisp = V_DISPATCH(&amp;var);
+             pDisp-&gt;QueryInterface(IID_IADs, (void**)&amp;pADs);
+             pADs-&gt;get_Name(&amp;bstr);
              printf("Session name: %S\n",bstr);
              SysFreeString(bstr);
-             pADs->Release();
+             pADs-&gt;Release();
         }
-        VariantClear(&var);
-        pDisp->Release();
+        VariantClear(&amp;var);
+        pDisp-&gt;Release();
         pDisp = NULL;
-        hr = pEnum->Next(1, &var, &lFetch);
+        hr = pEnum-&gt;Next(1, &amp;var, &amp;lFetch);
     };
     
 
 Cleanup:
-    if(pDisp) pDisp->Release();
-    if(pUnk) pUnk->Release();
-    if(pColl) pColl->Release();
-    if(pEnum) pEnum->Release();
+    if(pDisp) pDisp-&gt;Release();
+    if(pUnk) pUnk-&gt;Release();
+    if(pColl) pColl-&gt;Release();
+    if(pEnum) pEnum-&gt;Release();
     return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -210,11 +218,11 @@ Cleanup:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221053(v=VS.85).aspx">IEnumVARIANT</a>
+<a href="139e3c93-faef-4003-9079-e0e94494db3e">IEnumVARIANT</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_com_iunknown">IUnknown</a>
  
 
  

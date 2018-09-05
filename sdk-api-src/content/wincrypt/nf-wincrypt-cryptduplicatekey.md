@@ -4,10 +4,10 @@ title: CryptDuplicateKey function
 author: windows-sdk-content
 description: Makes an exact copy of a key and the state of the key.
 old-location: security\cryptduplicatekey.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: c5658008-7c92-4877-871a-a764884efd79
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CryptDuplicateKey, CryptDuplicateKey function [Security], _crypto2_cryptduplicatekey, security.cryptduplicatekey, wincrypt/CryptDuplicateKey
 ms.prod: windows
 ms.technology: windows-sdk
@@ -152,9 +152,13 @@ A handle to the original key is not valid.
 
 The following example shows the creation of a session key that is a duplicate of an existing session key. For an example that includes the complete context for this example, see <a href="https://msdn.microsoft.com/e57274cf-42d3-445b-97f1-dd574010290f">Example C Program: Duplicating a Session Key</a>.
 
-
-```cpp
-//--------------------------------------------------------------------
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//--------------------------------------------------------------------
 // Declare and initialize variables.
 
 HCRYPTKEY    hDuplicateKey;
@@ -166,7 +170,7 @@ if (CryptDuplicateKey(
      hOriginalKey, 
      NULL, 
      0, 
-     &hDuplicateKey))
+     &amp;hDuplicateKey))
 {
    printf("The session key has been duplicated. \n");
 }
@@ -187,10 +191,10 @@ if (CryptDestroyKey(hDuplicateKey))
 else
 {
   printf("The handle could not be released.\n");
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -207,7 +211,7 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Key Generation and Exchange Functions</a>
+<a href="cryptography_functions.htm">Key Generation and Exchange Functions</a>
  
 
  

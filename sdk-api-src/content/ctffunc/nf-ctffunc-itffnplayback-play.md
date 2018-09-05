@@ -60,7 +60,7 @@ req.irql:
 
 ### -param pRange [in]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms628908(v=VS.85).aspx">ITfRange</a> object that covers the text to play the audio data for. This range object is obtained by calling <a href="https://msdn.microsoft.com/en-us/library/ms538962(v=VS.85).aspx">ITfFnPlayBack::QueryRange</a>.
+Pointer to an <a href="https://msdn.microsoft.com/b8889f7d-3228-4ecc-8d24-c04234d3101e">ITfRange</a> object that covers the text to play the audio data for. This range object is obtained by calling <a href="https://msdn.microsoft.com/d6113703-5515-4f1a-8e2e-1373077dafc2">ITfFnPlayBack::QueryRange</a>.
 
 If the range has zero length, the range played is expanded to cover the entire spoken phrase. If the range has a nonzero length, the range played is expanded to include the entire word, or words, that the range partially covers.
 
@@ -120,7 +120,7 @@ A memory allocation failure occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms538958(v=VS.85).aspx">ITfFnPlayBack</a>
+<a href="https://msdn.microsoft.com/e9a0d1a3-70c9-4816-8cd4-f2574392953e">ITfFnPlayBack</a>
 
 
 

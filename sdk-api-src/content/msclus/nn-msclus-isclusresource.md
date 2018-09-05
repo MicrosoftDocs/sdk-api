@@ -7,7 +7,7 @@ old-location: mscs\clusresource_object.htm
 old-project: mscs
 ms.assetid: c1b66495-c428-4ee4-94e2-263fd31f61ad
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusResource, ClusResource object [Failover Cluster], ClusResource object [Failover Cluster],described, ISClusResource, _wolf_clusresource_object, msclus/ClusResource, mscs.clusresource_object
 ms.prod: windows
 ms.technology: windows-sdk
@@ -101,7 +101,7 @@ Sets the <a href="https://msdn.microsoft.com/4c2ee30e-4de2-44ba-93ba-d2d89196545
 <a href="https://msdn.microsoft.com/d167192f-4577-49b6-aa1c-1dbd6d2aa98c">CanResourceBeDependent</a>
 </td>
 <td align="left" width="63%">
-Determines if the resource can be <a href="https://msdn.microsoft.com/en-us/library/Aa369367(v=VS.85).aspx">dependent</a> on 
+Determines if the resource can be <a href="d_gly.htm">dependent</a> on 
       another resource.
 
 </td>
@@ -197,7 +197,7 @@ Read-only
 
 </td>
 <td align="left" width="63%">
-Returns the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> that includes the resource.
+Returns the <a href="c_gly.htm">cluster</a> that includes the resource.
 
 </td>
 </tr>
@@ -400,7 +400,7 @@ Read-only
 </td>
 <td align="left" width="63%">
 Returns the nodes that are members of the resource's 
-      <a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">possible owners</a> list.
+      <a href="p_gly.htm">possible owners</a> list.
 
 </td>
 </tr>

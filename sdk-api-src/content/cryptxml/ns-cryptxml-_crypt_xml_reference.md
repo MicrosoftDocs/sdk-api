@@ -4,10 +4,10 @@ title: "_CRYPT_XML_REFERENCE"
 author: windows-sdk-content
 description: Contains information used to populate the Reference element.
 old-location: security\crypt_xml_reference.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: af16af5a-b1e5-4250-bdb1-f3fceb1830b9
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCRYPT_XML_REFERENCE, CRYPT_XML_REFERENCE, CRYPT_XML_REFERENCE structure [Security], PCRYPT_XML_REFERENCE, PCRYPT_XML_REFERENCE structure pointer [Security], _CRYPT_XML_REFERENCE, cryptxml/CRYPT_XML_REFERENCE, cryptxml/PCRYPT_XML_REFERENCE, security.crypt_xml_reference"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,12 +86,12 @@ A pointer to a null-terminated Unicode string that contains the value of the <b>
 
 ### -field DigestMethod
 
-A <a href="https://msdn.microsoft.com/en-us/library/Dd433842(v=VS.85).aspx">CRYPT_XML_ALGORITHM</a> structure that specifies the digest method.
+A <a href="https://msdn.microsoft.com/4eb99c1e-fa06-41ec-906c-a3ba34e7aaeb">CRYPT_XML_ALGORITHM</a> structure that specifies the digest method.
 
 
 ### -field DigestValue
 
-A <a href="https://msdn.microsoft.com/en-us/library/Aa380238(v=VS.85).aspx">CRYPT_DATA_BLOB</a> structure that specifies the hash value.
+A <a href="https://msdn.microsoft.com/1c2a07b8-f702-47f3-8d4c-6ac0cbc63f0f">CRYPT_DATA_BLOB</a> structure that specifies the hash value.
 
 
 ### -field cTransform
@@ -101,5 +101,5 @@ The number of elements in the array pointed to by the <b>rgTransform</b> member.
 
 ### -field rgTransform
 
-An array of <a href="https://msdn.microsoft.com/en-us/library/Dd433868(v=VS.85).aspx">CRYPT_XML_TRANSFORM_INFO</a> structures  that contain information about the transform applied to the signed data.
+An array of <a href="https://msdn.microsoft.com/4821dc8f-11d4-4083-bb17-9d9637d99af5">CRYPT_XML_TRANSFORM_INFO</a> structures  that contain information about the transform applied to the signed data.
 

@@ -4,10 +4,10 @@ title: ISettingsItem::GetRestrictionFacets
 author: windows-sdk-content
 description: Gets the restrictions defined for this item.
 old-location: smi\isettingsitem_getrestrictionfacets.htm
-old-project: smi
+old-project: SMI
 ms.assetid: 64cf82d5-c210-4ff2-a7c8-1a284859382e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetRestrictionFacets, GetRestrictionFacets method [SMI], GetRestrictionFacets method [SMI],ISettingsItem interface, ISettingsItem interface [SMI],GetRestrictionFacets method, ISettingsItem.GetRestrictionFacets, ISettingsItem::GetRestrictionFacets, smi.isettingsitem_getrestrictionfacets, wcmconfig/ISettingsItem::GetRestrictionFacets
 ms.prod: windows
 ms.technology: windows-sdk

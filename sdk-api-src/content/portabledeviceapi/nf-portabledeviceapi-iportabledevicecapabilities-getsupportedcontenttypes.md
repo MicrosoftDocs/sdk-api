@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevicecapabilities_getsupportedcontenttypes.htm
 old-project: wpd_sdk
 ms.assetid: 5f56ca91-552f-4a52-8a68-225601c5f6f4
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetSupportedContentTypes, GetSupportedContentTypes method [Windows Portable Devices SDK], GetSupportedContentTypes method [Windows Portable Devices SDK],IPortableDeviceCapabilities interface, IPortableDeviceCapabilities interface [Windows Portable Devices SDK],GetSupportedContentTypes method, IPortableDeviceCapabilities.GetSupportedContentTypes, IPortableDeviceCapabilities::GetSupportedContentTypes, IPortableDeviceCapabilitiesGetSupportedContentTypes, portabledeviceapi/IPortableDeviceCapabilities::GetSupportedContentTypes, wpdsdk.iportabledevicecapabilities_getsupportedcontenttypes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -108,7 +108,7 @@ The method succeeded.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd319362(v=VS.85).aspx">IPortableDeviceCapabilities Interface</a>
+<a href="wpdsdk.iportabledevicecapabilities">IPortableDeviceCapabilities Interface</a>
 
 
 

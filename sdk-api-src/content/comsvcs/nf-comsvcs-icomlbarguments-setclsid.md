@@ -7,7 +7,7 @@ old-location: cos\icomlbarguments_setclsid.htm
 old-project: cossdk
 ms.assetid: 66f24611-0f98-4226-858b-90fef35cc257
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ICOMLBArguments interface [COM+],SetCLSID method, ICOMLBArguments.SetCLSID, ICOMLBArguments::SetCLSID, SetCLSID, SetCLSID method [COM+], SetCLSID method [COM+],ICOMLBArguments interface, _cos_ICOMLBArguments_SetCLSID, comsvcs/ICOMLBArguments::SetCLSID, cos.icomlbarguments_setclsid
 ms.prod: windows
 ms.technology: windows-sdk

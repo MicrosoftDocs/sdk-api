@@ -4,10 +4,10 @@ title: IX509SignatureInformation::get_Parameters
 author: windows-sdk-content
 description: Retrieves a byte array that contains the parameters associated with the signature algorithm.
 old-location: security\ix509signatureinformation_parameters_property.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: cb5675d5-cf06-4407-a7fd-b703a56cacba
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509SignatureInformation interface [Security],Parameters property, IX509SignatureInformation.Parameters, IX509SignatureInformation.get_Parameters, IX509SignatureInformation::Parameters, IX509SignatureInformation::get_Parameters, IX509SignatureInformation::put_Parameters, Parameters property [Security], Parameters property [Security],IX509SignatureInformation interface, certenroll/IX509SignatureInformation::Parameters, certenroll/IX509SignatureInformation::get_Parameters, certenroll/IX509SignatureInformation::put_Parameters, get_Parameters, security.ix509signatureinformation_parameters_property
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ This property is read/write.
 
 
 
-The AlgorithmIdentifier ASN.1 object that is used in various fields of an <a href="https://msdn.microsoft.com/en-us/library/ms721636(v=VS.85).aspx">X.509</a> version 3 certificate contains an algorithm <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> (OID) and optional parameters.
+The AlgorithmIdentifier ASN.1 object that is used in various fields of an <a href="https://msdn.microsoft.com/28dba6ef-939f-4789-9789-ee6e0fef0177">X.509</a> version 3 certificate contains an algorithm <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) and optional parameters.
 
 <pre class="syntax" xml:space="preserve"><code>
 AlgorithmIdentifier  ::=  SEQUENCE  
@@ -129,7 +129,7 @@ RSASSA-PSS-params ::= SEQUENCE
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379050(v=VS.85).aspx">IX509SignatureInformation</a>
+<a href="https://msdn.microsoft.com/25774ccb-8e76-443d-89da-177d6e77c019">IX509SignatureInformation</a>
  
 
  

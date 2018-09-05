@@ -4,10 +4,10 @@ title: WNetGetUniversalNameW function
 author: windows-sdk-content
 description: The WNetGetUniversalName function takes a drive-based path for a network resource and returns an information structure that contains a more universal form of the name.
 old-location: wnet\wnetgetuniversalname.htm
-old-project: wnet
+old-project: WNet
 ms.assetid: 12c02092-f2d5-4477-92a7-ae075b8a243a
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: REMOTE_NAME_INFO_LEVEL, UNIVERSAL_NAME_INFO_LEVEL, WNetGetUniversalName, WNetGetUniversalName function [Windows Networking (WNet)], WNetGetUniversalNameA, WNetGetUniversalNameW, _win32_wnetgetuniversalname, winnetwk/WNetGetUniversalName, winnetwk/WNetGetUniversalNameA, winnetwk/WNetGetUniversalNameW, wnet.wnetgetuniversalname
 ms.prod: windows
 ms.technology: windows-sdk
@@ -275,17 +275,21 @@ The size of the buffer pointed to by the <i>lpBuffer</i> parameter and specified
 The following code sample illustrates how to use the 
 <b>WNetGetUniversalName</b> function to retrieve the universal UNC name strings associated with drive-based path for a network resource.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 #pragma comment(lib, "mpr.lib")
 
-#include <windows.h>
-#include <tchar.h>
-#include <stdio.h>
-#include <Winnetwk.h>
+#include &lt;windows.h&gt;
+#include &lt;tchar.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;Winnetwk.h&gt;
 
 int wmain(int argc, wchar_t * argv[])
 {
@@ -299,15 +303,15 @@ int wmain(int argc, wchar_t * argv[])
     
     wprintf(L"Calling WNetGetUniversalName with Local Path = %s\n", argv[1]);
 
-    unameinfo = (UNIVERSAL_NAME_INFO *) &Buffer;
-    dwRetVal = WNetGetUniversalName(argv[1], UNIVERSAL_NAME_INFO_LEVEL, (LPVOID) unameinfo, &dwBufferLength );
+    unameinfo = (UNIVERSAL_NAME_INFO *) &amp;Buffer;
+    dwRetVal = WNetGetUniversalName(argv[1], UNIVERSAL_NAME_INFO_LEVEL, (LPVOID) unameinfo, &amp;dwBufferLength );
     //
     // If the call succeeds, print the user information.
     //
     if (dwRetVal == NO_ERROR) {
 
         wprintf(L"WNetGetUniversalName returned success for InfoLevel=UNIVERSAL_NAME_INFO_LEVEL\n");
-        wprintf(L"\tUniversal name = %s\n", unameinfo->lpUniversalName);
+        wprintf(L"\tUniversal name = %s\n", unameinfo-&gt;lpUniversalName);
     }
 
     else {
@@ -315,18 +319,18 @@ int wmain(int argc, wchar_t * argv[])
     }
 
 
-    remotenameinfo = (REMOTE_NAME_INFO *) &Buffer;
+    remotenameinfo = (REMOTE_NAME_INFO *) &amp;Buffer;
     dwRetVal = WNetGetUniversalName(argv[1], REMOTE_NAME_INFO_LEVEL, 
-        (LPVOID) remotenameinfo, &dwBufferLength );
+        (LPVOID) remotenameinfo, &amp;dwBufferLength );
     //
     // If the call succeeds, print the user information.
     //
     if (dwRetVal == NO_ERROR) {
 
         wprintf(L"WNetGetUniversalName returned success for InfoLevel=REMOTE_NAME_INFO_LEVEL\n");
-        wprintf(L"\tUniversal name = %s\n", remotenameinfo->lpUniversalName);
-        wprintf(L"\tConnection name = %s\n", remotenameinfo->lpConnectionName);
-        wprintf(L"\tRemaining path = %s\n", remotenameinfo->lpRemainingPath);
+        wprintf(L"\tUniversal name = %s\n", remotenameinfo-&gt;lpUniversalName);
+        wprintf(L"\tConnection name = %s\n", remotenameinfo-&gt;lpConnectionName);
+        wprintf(L"\tRemaining path = %s\n", remotenameinfo-&gt;lpRemainingPath);
     }
 
     else {
@@ -334,10 +338,10 @@ int wmain(int argc, wchar_t * argv[])
     }
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

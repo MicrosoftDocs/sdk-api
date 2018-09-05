@@ -7,7 +7,7 @@ old-location: com\olegeticonoffile.htm
 old-project: com
 ms.assetid: 2fa9cd75-4dc6-45a3-aa62-e82bd28289a5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: OleGetIconOfFile, OleGetIconOfFile function [COM], _com_OleGetIconOfFile, com.olegeticonoffile, ole2/OleGetIconOfFile
 ms.prod: windows
 ms.technology: windows-sdk

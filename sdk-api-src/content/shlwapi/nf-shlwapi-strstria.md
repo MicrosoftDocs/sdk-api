@@ -7,7 +7,7 @@ old-location: shell\StrStrI.htm
 old-project: shell
 ms.assetid: b0281641-1375-4815-a707-03e1ce7e5a29
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: StrStrI, StrStrI function [Windows Shell], StrStrIA, StrStrIW, _win32_StrStrI, shell.StrStrI, shlwapi/StrStrI, shlwapi/StrStrIA, shlwapi/StrStrIW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

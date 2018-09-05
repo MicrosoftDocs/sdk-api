@@ -4,10 +4,10 @@ title: WinBioEnrollCommit function
 author: windows-sdk-content
 description: Finalizes a pending biometric template and saves it to the database associated with the biometric unit used for enrollment. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbioenrollcommit.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: ed9242e5-fee7-46ca-b42c-cda1b5dcdc78
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: WinBioEnrollCommit, WinBioEnrollCommit function [Windows Biometric Framework API], secbiomet.winbioenrollcommit, winbio/WinBioEnrollCommit
 ms.prod: windows
 ms.technology: windows-sdk
@@ -190,9 +190,13 @@ The following function calls <b>WinBioEnrollCommit</b> to commit a biometric enr
 <li>Conio.h</li>
 <li>Winbio.h</li>
 </ul>
-
-```cpp
-HRESULT EnrollSysPool(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT EnrollSysPool(
                       BOOL discardEnrollment, 
                       WINBIO_BIOMETRIC_SUBTYPE subFactor)
 {
@@ -211,7 +215,7 @@ HRESULT EnrollSysPool(
             NULL,                       // Array of biometric unit IDs
             0,                          // Count of biometric unit IDs
             NULL,                       // Database ID
-            &sessionHandle              // [out] Session handle
+            &amp;sessionHandle              // [out] Session handle
             );
     if (FAILED(hr))
     {
@@ -222,7 +226,7 @@ HRESULT EnrollSysPool(
 
     // Locate a sensor.
     wprintf_s(L"\n Swipe your finger on the sensor...\n");
-    hr = WinBioLocateSensor( sessionHandle, &unitId);
+    hr = WinBioLocateSensor( sessionHandle, &amp;unitId);
     if (FAILED(hr))
     {
         wprintf_s(L"\n WinBioLocateSensor failed. hr = 0x%x\n", hr);
@@ -252,7 +256,7 @@ HRESULT EnrollSysPool(
 
         hr = WinBioEnrollCapture(
                 sessionHandle,  // Handle to open biometric session
-                &rejectDetail   // [out] Failure information
+                &amp;rejectDetail   // [out] Failure information
                 );
 
         wprintf_s(L"\n Sample %d captured from unit number %d.", 
@@ -302,8 +306,8 @@ HRESULT EnrollSysPool(
         wprintf_s(L"\n Committing enrollment...\n");
         hr = WinBioEnrollCommit( 
                 sessionHandle,      // Handle to open biometric session
-                &identity,          // WINBIO_IDENTITY object for the user
-                &isNewTemplate);    // Is this a new template
+                &amp;identity,          // WINBIO_IDENTITY object for the user
+                &amp;isNewTemplate);    // Is this a new template
 
         if (FAILED(hr))
         {
@@ -326,10 +330,10 @@ e_Exit:
     return hr;
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

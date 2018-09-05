@@ -52,7 +52,7 @@ req.product: ADAM
 ## -description
 
 
-Show or hide buttons in a wizard. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb774630(v=VS.85).aspx">PSM_SHOWWIZBUTTONS</a> message explicitly.
+Show or hide buttons in a wizard. You can use this macro or send the <a href="https://msdn.microsoft.com/669c4e51-cac1-40e1-8f23-afae0e41fc9b">PSM_SHOWWIZBUTTONS</a> message explicitly.
 
 
 ## -parameters
@@ -156,13 +156,17 @@ One or more of the same values used in <i>dwFlag</i>. Here, they specify which p
 The following example code hides the <b>Back</b> button and shows the <b>Next</b> button. 
 	
 
-
-```
-PropSheet_ShowWizButtons(hwnd,
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>PropSheet_ShowWizButtons(hwnd,
                          PSWIZB_NEXT,
-                         PSWIZB_BACK | PSWIZB_NEXT);
-```
-
-
+                         PSWIZB_BACK | PSWIZB_NEXT);</pre>
+</td>
+</tr>
+</table></span></div>
 
 

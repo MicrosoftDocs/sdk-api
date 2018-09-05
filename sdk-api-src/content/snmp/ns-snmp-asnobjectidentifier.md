@@ -4,10 +4,10 @@ title: AsnObjectIdentifier
 author: windows-sdk-content
 description: The AsnObjectIdentifier structure represents object identifiers. This structure is used by multiple SNMP functions. This structure is not used by the WinSNMP API functions.
 old-location: snmp\asnobjectidentifier_str.htm
-old-project: snmp
+old-project: SNMP
 ms.assetid: 695e5581-00df-49af-8abe-1dd1b25cb215
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: AsnObjectIdentifier, AsnObjectIdentifier structure [SNMP], AsnObjectName, _snmp_asnobjectidentifier_str, snmp.asnobjectidentifier_str, snmp/AsnObjectIdentifier
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wintouch\iinertiaprocessor_initialoriginy.htm
 old-project: wintouch
 ms.assetid: 4b817f8b-79e9-4409-a6b2-2096759bab59
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IInertiaProcessor interface [Windows Touch],InitialOriginY property, IInertiaProcessor.InitialOriginY, IInertiaProcessor.get_InitialOriginY, IInertiaProcessor::InitialOriginY, IInertiaProcessor::get_InitialOriginY, IInertiaProcessor::put_InitialOriginY, InitialOriginY property [Windows Touch], InitialOriginY property [Windows Touch],IInertiaProcessor interface, get_InitialOriginY, manipulations/IInertiaProcessor::InitialOriginY, manipulations/IInertiaProcessor::get_InitialOriginY, manipulations/IInertiaProcessor::put_InitialOriginY, wintouch.iinertiaprocessor_initialoriginy
 ms.prod: windows
 ms.technology: windows-sdk

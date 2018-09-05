@@ -4,10 +4,10 @@ title: "_CMSG_CMS_SIGNER_INFO"
 author: windows-sdk-content
 description: Contains the content of the defined SignerInfo in signed or signed and enveloped messages.
 old-location: security\cmsg_cms_signer_info.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 177323ef-4e26-4681-a474-1a99fb6900af
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCMSG_CMS_SIGNER_INFO, CMSG_CMS_SIGNER_INFO, CMSG_CMS_SIGNER_INFO structure [Security], PCMSG_CMS_SIGNER_INFO, PCMSG_CMS_SIGNER_INFO structure pointer [Security], _CMSG_CMS_SIGNER_INFO, _crypto2_cmsg_cms_signer_info, security.cmsg_cms_signer_info, wincrypt/CMSG_CMS_SIGNER_INFO, wincrypt/PCMSG_CMS_SIGNER_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

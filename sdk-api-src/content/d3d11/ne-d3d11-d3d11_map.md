@@ -89,7 +89,7 @@ Resource is mapped for writing; the existing contents of the resource cannot be 
       index buffers. The resource must have been created with write access (see <a href="https://msdn.microsoft.com/0a19c2a7-2570-40e2-8328-cbf5d7263605">D3D11_CPU_ACCESS_WRITE</a>). 
       Cannot be used on a resource created with the <a href="https://msdn.microsoft.com/4ffa1714-bd85-4d5a-930d-20526f46e4b9">D3D11_BIND_CONSTANT_BUFFER</a> flag.
 
-<div class="alert"><b>Note</b>  The Direct3D 11.1 runtime, which is available starting with Windows 8, enables  mapping dynamic constant buffers and shader resource views (SRVs) of dynamic buffers with <a href="https://msdn.microsoft.com/en-us/library/Ff476181(v=VS.85).aspx">D3D11_MAP_WRITE_NO_OVERWRITE</a>.  The Direct3D 11 and earlier runtimes limited mapping to vertex or index buffers. To determine if a Direct3D device supports these features, call <a href="https://msdn.microsoft.com/7edf2ffd-908a-4cf8-9ac6-8fd14d7a0ea1">ID3D11Device::CheckFeatureSupport</a> with <a href="https://msdn.microsoft.com/en-us/library/Ff476124(v=VS.85).aspx">D3D11_FEATURE_D3D11_OPTIONS</a>. <b>CheckFeatureSupport</b> fills members of a <a href="https://msdn.microsoft.com/02A3B423-75AB-4F44-BEBE-B8039EF384DC">D3D11_FEATURE_DATA_D3D11_OPTIONS</a> structure with the device's features. The relevant members here are <b>MapNoOverwriteOnDynamicConstantBuffer</b> and <b>MapNoOverwriteOnDynamicBufferSRV</b>.</div>
+<div class="alert"><b>Note</b>  The Direct3D 11.1 runtime, which is available starting with Windows 8, enables  mapping dynamic constant buffers and shader resource views (SRVs) of dynamic buffers with <a href="d3d11_map.htm">D3D11_MAP_WRITE_NO_OVERWRITE</a>.  The Direct3D 11 and earlier runtimes limited mapping to vertex or index buffers. To determine if a Direct3D device supports these features, call <a href="https://msdn.microsoft.com/7edf2ffd-908a-4cf8-9ac6-8fd14d7a0ea1">ID3D11Device::CheckFeatureSupport</a> with <a href="d3d11_feature.htm">D3D11_FEATURE_D3D11_OPTIONS</a>. <b>CheckFeatureSupport</b> fills members of a <a href="https://msdn.microsoft.com/02A3B423-75AB-4F44-BEBE-B8039EF384DC">D3D11_FEATURE_DATA_D3D11_OPTIONS</a> structure with the device's features. The relevant members here are <b>MapNoOverwriteOnDynamicConstantBuffer</b> and <b>MapNoOverwriteOnDynamicBufferSRV</b>.</div>
 <div> </div>
 
 ## -remarks
@@ -110,15 +110,15 @@ These remarks are divided into the following topics:
 <h3><a id="NO_OVERWRITE_DETAILS"></a><a id="no_overwrite_details"></a>Meaning of D3D11_MAP_WRITE_NO_OVERWRITE</h3>
 <b>D3D11_MAP_WRITE_NO_OVERWRITE</b> signifies that the application promises not to write to data that the input assembler (IA) stage is using. In exchange, the GPU allows the application to write to other parts of the same buffer.  The application must ensure that it does not write over any data in use by the IA stage.
 
-For example, consider the buffer illustrated in the following diagram. If a <a href="https://msdn.microsoft.com/9c63067b-c7ac-412c-ad49-c35d4fba1d68">Draw</a> call has been issued that uses vertices 4-6, then an application that calls <a href="https://msdn.microsoft.com/en-us/library/Ff476457(v=VS.85).aspx">Map</a> on this buffer must ensure that it does not write to the vertices that the <b>Draw</b> call will access during rendering.
+For example, consider the buffer illustrated in the following diagram. If a <a href="https://msdn.microsoft.com/9c63067b-c7ac-412c-ad49-c35d4fba1d68">Draw</a> call has been issued that uses vertices 4-6, then an application that calls <a href="https://msdn.microsoft.com/c9d57873-1faa-42fa-855c-26f565e3b27c">Map</a> on this buffer must ensure that it does not write to the vertices that the <b>Draw</b> call will access during rendering.
 
-<img alt="Diagram of a buffer that includes vertices in different stages of utilization" src="./images/D3D10_map_nooverwrite.png"/>
+<img alt="Diagram of a buffer that includes vertices in different stages of utilization" src="images/D3D10_map_nooverwrite.png"/>
 However, ensuring this can be difficult, because the GPU is often many frames behind the CPU in terms of which frame it is currently processing. Keeping track of which sections of a resource are being used because of calls made 2 to 5 frames ago is difficult and error-prone. Because of this, it is recommended that applications only write to the uninitialized portions of a resource when using <b>D3D11_MAP_WRITE_NO_OVERWRITE</b>.
 
 <h3><a id="DISCARD_NO_OVERWRITE_USES"></a><a id="discard_no_overwrite_uses"></a>Common Usage of D3D11_MAP_WRITE_DISCARD with D3D11_MAP_WRITE_NO_OVERWRITE</h3>
 <b>D3D11_MAP_WRITE_DISCARD</b> and <b>D3D11_MAP_WRITE_NO_OVERWRITE</b> are normally used in conjunction with dynamic index/vertex buffers. <b>D3D11_MAP_WRITE_DISCARD</b> can also be used with dynamic textures. However, <b>D3D11_MAP_WRITE_NO_OVERWRITE</b> cannot be used with dynamic textures.
 
-A common use of these two flags involves filling dynamic index/vertex buffers with geometry that can be seen from the camera's current position. The first time that data is entered into the buffer on a given frame, <a href="https://msdn.microsoft.com/en-us/library/Ff476457(v=VS.85).aspx">Map</a> is called with <b>D3D11_MAP_WRITE_DISCARD</b>; doing so invalidates the previous contents of the buffer. The buffer is then filled with all available data.
+A common use of these two flags involves filling dynamic index/vertex buffers with geometry that can be seen from the camera's current position. The first time that data is entered into the buffer on a given frame, <a href="https://msdn.microsoft.com/c9d57873-1faa-42fa-855c-26f565e3b27c">Map</a> is called with <b>D3D11_MAP_WRITE_DISCARD</b>; doing so invalidates the previous contents of the buffer. The buffer is then filled with all available data.
 
 Subsequent writes to the buffer within the same frame should use <b>D3D11_MAP_WRITE_NO_OVERWRITE</b>. This will enable the CPU to access a resource that is potentially being used by the GPU as long as the restrictions described previously are respected.
 
@@ -130,7 +130,7 @@ Subsequent writes to the buffer within the same frame should use <b>D3D11_MAP_WR
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476170(v=VS.85).aspx">Resource Enumerations</a>
+<a href="https://msdn.microsoft.com/b547819b-7006-40b5-84a4-adf198048051">Resource Enumerations</a>
  
 
  

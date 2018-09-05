@@ -60,7 +60,7 @@ req.irql:
 
 ### -param ppEnum [out]
 
-Pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms538185(v=VS.85).aspx">IEnumTfLangBarItems</a> interface pointer that receives the enumerator object.
+Pointer to an <a href="https://msdn.microsoft.com/a3988c0f-db2d-4841-8098-f1dc133cb60a">IEnumTfLangBarItems</a> interface pointer that receives the enumerator object.
 
 
 ## -returns
@@ -129,11 +129,11 @@ A memory allocation failure occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms538185(v=VS.85).aspx">IEnumTfLangBarItems</a>
+<a href="https://msdn.microsoft.com/a3988c0f-db2d-4841-8098-f1dc133cb60a">IEnumTfLangBarItems</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628723(v=VS.85).aspx">ITfLangBarItemMgr</a>
+<a href="https://msdn.microsoft.com/a7fa257f-e600-4554-8b23-f73323f37e69">ITfLangBarItemMgr</a>
  
 
  

@@ -4,10 +4,10 @@ title: PIBIO_ENGINE_QUERY_EXTENDED_ENROLLMENT_STATUS_FN
 author: windows-sdk-content
 description: Queries the WINBIO_PROPERTY_EXTENDED_ENROLLMENT_STATUS property.
 old-location: secbiomet\engineadapterqueryextendedenrollmentstatus.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: E471FC60-9FFC-4269-92A0-7CCA53D3475B
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: EngineAdapterQueryExtendedEnrollmentStatus, EngineAdapterQueryExtendedEnrollmentStatus callback function [Windows Biometric Framework API], PIBIO_ENGINE_QUERY_EXTENDED_ENROLLMENT_STATUS_FN, PIBIO_ENGINE_QUERY_EXTENDED_ENROLLMENT_STATUS_FN callback, secbiomet.engineadapterqueryextendedenrollmentstatus, winbio_adapter/EngineAdapterQueryExtendedEnrollmentStatus
 ms.prod: windows
 ms.technology: windows-sdk

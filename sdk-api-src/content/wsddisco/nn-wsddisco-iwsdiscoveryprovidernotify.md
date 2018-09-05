@@ -4,10 +4,10 @@ title: IWSDiscoveryProviderNotify
 author: windows-sdk-content
 description: Is implemented by the client program to receive callback notifications from IWSDiscoveryProvider.
 old-location: ncd\iwsdiscoveryprovidernotify.htm
-old-project: wsdapi
+old-project: WsdApi
 ms.assetid: e186f721-14d9-4d9b-942a-1c05ada2bee6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWSDiscoveryProviderNotify, IWSDiscoveryProviderNotify interface, IWSDiscoveryProviderNotify interface,described, ncd.iwsdiscoveryprovidernotify, wsddisco/IWSDiscoveryProviderNotify
 ms.prod: windows
 ms.technology: windows-sdk

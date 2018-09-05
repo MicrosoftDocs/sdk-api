@@ -4,10 +4,10 @@ title: IAzAuthorizationStore::AddPolicyReaderName
 author: windows-sdk-content
 description: Adds the specified account name to the list of principals that act as policy readers.
 old-location: security\azauthorizationstore_addpolicyreadername.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 3b111542-61d6-4e5d-abf8-0af61161c885
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AddPolicyReaderName, AddPolicyReaderName method [Security], AddPolicyReaderName method [Security],AzAuthorizationStore object, AddPolicyReaderName method [Security],IAzAuthorizationStore interface, AzAuthorizationStore object [Security],AddPolicyReaderName method, IAzAuthorizationStore interface [Security],AddPolicyReaderName method, IAzAuthorizationStore.AddPolicyReaderName, IAzAuthorizationStore::AddPolicyReaderName, azroles/IAzAuthorizationStore::AddPolicyReaderName, security.azauthorizationstore_addpolicyreadername
 ms.prod: windows
 ms.technology: windows-sdk

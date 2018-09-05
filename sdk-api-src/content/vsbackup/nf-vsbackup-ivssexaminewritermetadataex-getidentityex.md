@@ -4,10 +4,10 @@ title: IVssExamineWriterMetadataEx::GetIdentityEx
 author: windows-sdk-content
 description: The GetIdentityEx method obtains the writer instance name and other basic information about a specific writer instance.
 old-location: base\ivssexaminewritermetadataex_getidentityex.htm
-old-project: vss
+old-project: VSS
 ms.assetid: f36cfa0e-b51e-488b-89b1-99544e2883d9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetIdentityEx, GetIdentityEx method [VSS], GetIdentityEx method [VSS],IVssExamineWriterMetadataEx interface, IVssExamineWriterMetadataEx interface [VSS],GetIdentityEx method, IVssExamineWriterMetadataEx.GetIdentityEx, IVssExamineWriterMetadataEx::GetIdentityEx, base.ivssexaminewritermetadataex_getidentityex, vsbackup/IVssExamineWriterMetadataEx::GetIdentityEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -179,7 +179,7 @@ The <i>pbstrInstanceName</i> parameter is the writer instance name that was spec
 
 The writer instance name is useful for writers that support running multiple writer instances with the same writer class ID on a single computer. The writer instance name can be used to identify the specific instance. Therefore, the writer must make the instance name unique within the writer class. Also, the writer instance name is expected to persist between backup and restore, and it is used by VSS to correctly restore multiple-instance writers.
 
-The caller must free the memory held by the <i>pbstrWriterName</i> and <i>pbstrInstanceName</i> parameters by calling <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a>.
+The caller must free the memory held by the <i>pbstrWriterName</i> and <i>pbstrInstanceName</i> parameters by calling <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a>.
 
 An 
 <a href="https://msdn.microsoft.com/363c987c-7d6c-4efe-988a-1b288f9b4d3c">IVssExamineWriterMetadataEx</a> interface might be from stored writer state information (created by a call to 

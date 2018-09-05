@@ -7,7 +7,7 @@ old-location: wmi\swbemobject_execmethodasync_.htm
 old-project: WmiSdk
 ms.assetid: b848b38b-c0c3-49cd-b1e2-b0a440b82d61
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: ExecMethodAsync_, ExecMethodAsync_ method [Windows Management Instrumentation], ExecMethodAsync_ method [Windows Management Instrumentation],ISWbemObject interface, ExecMethodAsync_ method [Windows Management Instrumentation],SWbemObject object, ISWbemObject interface [Windows Management Instrumentation],ExecMethodAsync_ method, ISWbemObject.ExecMethodAsync_, ISWbemObject::ExecMethodAsync_, SWbemObject object [Windows Management Instrumentation],ExecMethodAsync_ method, SWbemObject.ExecMethodAsync_, _hmm_swbemobject.execmethodasync_, wbemFlagDontSendStatus, wbemFlagSendStatus, wmi.swbemobject_execmethodasync_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -144,7 +144,7 @@ This method has no return values. If the call is successful, an
 
 
 
-Use the <b>SWbemObject.ExecMethodAsync_</b> method as an alternative to direct access for executing a <a href="https://msdn.microsoft.com/en-us/library/Aa390825(v=VS.85).aspx">provider method</a> when you cannot execute  a method directly. For example, if your method has out parameters, use the <b>SWbemObject.ExecMethodAsync_</b> method with a scripting language that does not support output parameters. Otherwise, it is recommended that you invoke a method using direct access. For more information, see 
+Use the <b>SWbemObject.ExecMethodAsync_</b> method as an alternative to direct access for executing a <a href="gloss_p.htm">provider method</a> when you cannot execute  a method directly. For example, if your method has out parameters, use the <b>SWbemObject.ExecMethodAsync_</b> method with a scripting language that does not support output parameters. Otherwise, it is recommended that you invoke a method using direct access. For more information, see 
 <a href="https://msdn.microsoft.com/682cbe12-1487-4681-8d2f-4caf21cb068a">Manipulating Class and Instance Information</a>.
 
 This call returns immediately.  The requested objects and status are returned to the caller through callbacks delivered to the sink that is specified in <i>objWbemSink</i>. To process each object when it arrives, create an <i>objWbemSink</i>.<a href="https://msdn.microsoft.com/14110ee7-a808-4786-b695-2ce54189d826">OnObjectReady</a> event subroutine. After all the objects are returned, you can perform final processing in your implementation of the  <i>objWbemSink</i>.<a href="https://msdn.microsoft.com/2723185d-5b8b-4cc7-ada3-51c3275272a9">OnCompleted</a> event.
@@ -171,9 +171,13 @@ For a script that shows the same operations performed synchronously, see
  <a href="https://msdn.microsoft.com/be80abec-fab4-4403-bc29-d0d4a38e3c87">Create Method in Class Win32_Process</a>. For an example of the same operation using an <a href="https://msdn.microsoft.com/7fcfa404-2fe6-42e5-85ac-64536f6d2a44">SWbemServices</a> object, see 
 <a href="https://msdn.microsoft.com/933a4c64-7538-474e-9f6f-f94da6066b46">SWbemServices.ExecMethodAsync</a>.
 
-
-```vb
-On Error Resume Next
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>On Error Resume Next
 
 'Get a Win32_Process class description
 Set oProcess = GetObject("winmgmts:Win32_Process")
@@ -214,19 +218,19 @@ wend
 ' Sink subroutines
 sub Sink_OnObjectReady(oOutParams, oContext)
     wscript.echo "Sink_OnObjectReady subroutine " _
-    & VBNewLine & "ReturnValue = " _
-    & oOutParams.ReturnValue & VBNewLine & _
-    "ProcessId = " & oOutParams.ProcessId
+    &amp; VBNewLine &amp; "ReturnValue = " _
+    &amp; oOutParams.ReturnValue &amp; VBNewLine &amp; _
+    "ProcessId = " &amp; oOutParams.ProcessId
 end sub
 
 sub Sink_OnCompleted(HResult, LastErrorObj, oContext)
     wscript.echo "Sink_OnCompleted subroutine, hresult = " _
-    & hex(HResult)
+    &amp; hex(HResult)
     bdone = true
-end sub
-```
-
-
+end sub</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

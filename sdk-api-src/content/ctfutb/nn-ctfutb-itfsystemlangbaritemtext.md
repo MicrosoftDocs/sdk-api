@@ -56,9 +56,9 @@ The <b>ITfSystemLangBarItemText</b> interface is implemented by a system languag
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfSystemLangBarItemText</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>ITfSystemLangBarItemText</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITfSystemLangBarItemText</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>ITfSystemLangBarItemText</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -71,7 +71,7 @@ The <b>ITfSystemLangBarItemText</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa383137(v=VS.85).aspx">GetItemText</a>
+<a href="https://msdn.microsoft.com/eec4486e-c4fd-484f-bbd7-9f2ee974459b">GetItemText</a>
 </td>
 <td align="left" width="63%">
 Obtain the text displayed for the system language bar menu.
@@ -80,7 +80,7 @@ Obtain the text displayed for the system language bar menu.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa383139(v=VS.85).aspx">SetItemText</a>
+<a href="https://msdn.microsoft.com/4265f1b6-8688-4b88-b738-e373beea622b">SetItemText</a>
 </td>
 <td align="left" width="63%">
 Modify the text displayed for the system language bar menu.

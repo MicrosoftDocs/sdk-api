@@ -7,7 +7,7 @@ old-location: netmgmt\user_info_1007_str.htm
 old-project: netmgmt
 ms.assetid: a2e49802-799d-4f98-aa6d-5cb1478cb4d4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPUSER_INFO_1007, *PUSER_INFO_1007, LPUSER_INFO_1007, LPUSER_INFO_1007 structure pointer [Network Management], PUSER_INFO_1007, PUSER_INFO_1007 structure pointer [Network Management], USER_INFO_1007, USER_INFO_1007 structure [Network Management], _USER_INFO_1007, _win32_user_info_1007_str, lmaccess/LPUSER_INFO_1007, lmaccess/PUSER_INFO_1007, lmaccess/USER_INFO_1007, netmgmt.user_info_1007_str"
 ms.prod: windows
 ms.technology: windows-sdk

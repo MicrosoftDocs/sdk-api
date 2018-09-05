@@ -7,7 +7,7 @@ old-location: websock\websocketcreateclienthandle.htm
 old-project: WebSock
 ms.assetid: c61992cc-7715-4fad-a66a-916402088ad0
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: WebSocketCreateClientHandle, WebSocketCreateClientHandle function [Websocket Protocol Component API], websock.websocketcreateclienthandle, websocket/WebSocketCreateClientHandle
 ms.prod: windows
 ms.technology: windows-sdk

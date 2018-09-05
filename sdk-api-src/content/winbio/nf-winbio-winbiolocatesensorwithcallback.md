@@ -4,10 +4,10 @@ title: WinBioLocateSensorWithCallback function
 author: windows-sdk-content
 description: Asynchronously retrieves the ID number of the biometric unit selected interactively by a user.
 old-location: secbiomet\winbiolocatesensorwithcallback.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: d94db51b-67da-477a-82e6-c92da756f017
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: WinBioLocateSensorWithCallback, WinBioLocateSensorWithCallback function [Windows Biometric Framework API], secbiomet.winbiolocatesensorwithcallback, winbio/WinBioLocateSensorWithCallback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -140,17 +140,21 @@ If the  <i>SessionHandle</i> parameter refers to the system sensor pool, the cal
 
 The callback routine must have the following signature:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 VOID CALLBACK LocateCallback(
 __in_opt PVOID LocateCallbackContext,
 __in HRESULT OperationStatus,
 __in WINBIO_UNIT_ID UnitId
-);
-```
-
-
+);</pre>
+</td>
+</tr>
+</table></span></div>
 
 #### Examples
 
@@ -166,9 +170,13 @@ subsystem is sent to a custom callback function named LocateSensorCallback. Link
 <li>Conio.h</li>
 <li>Winbio.h</li>
 </ul>
-
-```cpp
-HRESULT LocateSensorWithCallback(BOOL bCancel)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT LocateSensorWithCallback(BOOL bCancel)
 {
     HRESULT hr = S_OK;
     WINBIO_SESSION_HANDLE sessionHandle = NULL;
@@ -182,7 +190,7 @@ HRESULT LocateSensorWithCallback(BOOL bCancel)
             NULL,                       // Array of biometric unit IDs
             0,                          // Count of biometric unit IDs
             NULL,                       // Database ID
-            &sessionHandle              // [out] Session handle
+            &amp;sessionHandle              // [out] Session handle
             );
     if (FAILED(hr))
     {
@@ -275,10 +283,10 @@ VOID CALLBACK LocateSensorCallback(
     }
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

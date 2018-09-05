@@ -7,7 +7,7 @@ old-location: shell\ILIsEqual.htm
 old-project: shell
 ms.assetid: 139613fc-cd3b-4d5b-b590-096af8f01b62
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ILIsEqual, ILIsEqual function [Windows Shell], _win32_ILIsEqual, shell.ILIsEqual, shlobj_core/ILIsEqual
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: inputdev\loadkeyboardlayout.htm
 old-project: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\loadkeyboardlayout.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: KLF_ACTIVATE, KLF_NOTELLSHELL, KLF_REORDER, KLF_REPLACELANG, KLF_SETFORPROCESS, KLF_SUBSTITUTE_OK, KLF_UNLOADPREVIOUS, LoadKeyboardLayout, LoadKeyboardLayout function [Keyboard and Mouse Input], LoadKeyboardLayoutA, LoadKeyboardLayoutW, _win32_LoadKeyboardLayout, _win32_loadkeyboardlayout_cpp, inputdev.loadkeyboardlayout, winui._win32_loadkeyboardlayout, winuser/LoadKeyboardLayout, winuser/LoadKeyboardLayoutA, winuser/LoadKeyboardLayoutW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -105,7 +105,7 @@ Specifies how the input locale identifier is to be loaded. This parameter can be
 </td>
 <td width="60%">
 <b>Prior to Windows 8:</b> Prevents a 
-						<a href="https://msdn.microsoft.com/en-us/library/ms644991(v=VS.85).aspx">ShellProc</a>hook procedure from receiving an <b>HSHELL_LANGUAGE</b> hook code when the new input locale identifier is loaded. This value is typically used when an application loads multiple input locale identifiers one after another. Applying this value to all but the last input locale identifier delays the shell's processing until all input locale identifiers have been added.
+						<a href="https://msdn.microsoft.com/4c21e0d8-2529-4b04-ad45-762ca7f1e5ef">ShellProc</a>hook procedure from receiving an <b>HSHELL_LANGUAGE</b> hook code when the new input locale identifier is loaded. This value is typically used when an application loads multiple input locale identifiers one after another. Applying this value to all but the last input locale identifier delays the shell's processing until all input locale identifiers have been added.
 
 <b>Beginning in  Windows 8:</b> In this scenario, the last input locale identifier is set for the entire system.
 
@@ -155,7 +155,7 @@ Substitutes the specified input locale identifier with another locale preferred 
 </td>
 <td width="60%">
 <b>Prior to Windows 8:</b> This flag is valid only with <b>KLF_ACTIVATE</b>. Activates the specified input locale identifier for the entire process and sends the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms632629(v=VS.85).aspx">WM_INPUTLANGCHANGE</a> message to the current thread's Focus or Active window. Typically, <b>LoadKeyboardLayout</b> activates an input locale identifier only for the current thread.
+						<a href="https://msdn.microsoft.com/4d403b1d-f6f7-40d5-9bf5-6a9c4da0803c">WM_INPUTLANGCHANGE</a> message to the current thread's Focus or Active window. Typically, <b>LoadKeyboardLayout</b> activates an input locale identifier only for the current thread.
 
 <b>Beginning in  Windows 8:</b> This flag is not used. <b>LoadKeyboardLayout</b> always activates an input locale identifier for the entire system if the current process owns the window with keyboard focus.
 
@@ -167,7 +167,7 @@ Substitutes the specified input locale identifier with another locale preferred 
 </dl>
 </td>
 <td width="60%">
-This flag is unsupported. Use the <a href="https://msdn.microsoft.com/en-us/library/ms646324(v=VS.85).aspx">UnloadKeyboardLayout</a> function instead.
+This flag is unsupported. Use the <a href="https://msdn.microsoft.com/0fc880a8-ed1e-4110-b309-761c511863f3">UnloadKeyboardLayout</a> function instead.
 
 </td>
 </tr>
@@ -193,7 +193,7 @@ If the function succeeds, the return value is the input locale identifier corres
 The input locale identifier is a broader concept than a keyboard layout, since it can also encompass a speech-to-text converter, an Input Method Editor (IME), or any other form of input. 
 
 An application can and will typically load the default input locale identifier or IME for a language and can do so by specifying only a string version of the language identifier. If an application wants to load a specific locale or IME, it should read the registry to determine the specific input locale identifier to pass to <b>LoadKeyboardLayout</b>. In this case, a request to activate the default input locale identifier for a locale will activate the first matching one. A specific IME should be activated using an explicit input locale identifier returned from 
-				<a href="https://msdn.microsoft.com/en-us/library/ms646296(v=VS.85).aspx">GetKeyboardLayout</a> or <b>LoadKeyboardLayout</b>.
+				<a href="https://msdn.microsoft.com/121e5253-bce3-4f64-8b99-3f89006aa355">GetKeyboardLayout</a> or <b>LoadKeyboardLayout</b>.
 
 <b>Prior to Windows 8:</b> This function only affects the layout for the current process or thread.
 
@@ -207,7 +207,7 @@ An application can and will typically load the default input locale identifier o
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646289(v=VS.85).aspx">ActivateKeyboardLayout</a>
+<a href="https://msdn.microsoft.com/bfc045fb-8696-45f5-b65f-06a08c000765">ActivateKeyboardLayout</a>
 
 
 
@@ -215,11 +215,11 @@ An application can and will typically load the default input locale identifier o
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646298(v=VS.85).aspx">GetKeyboardLayoutName</a>
+<a href="https://msdn.microsoft.com/505e053b-0f3d-47ad-b4ab-37bfae2512ef">GetKeyboardLayoutName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms645530(v=VS.85).aspx">Keyboard Input</a>
+<a href="https://msdn.microsoft.com/a3f6ac32-cde9-440d-bbde-0d76b4b5d4a4">Keyboard Input</a>
 
 
 
@@ -235,7 +235,7 @@ An application can and will typically load the default input locale identifier o
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646324(v=VS.85).aspx">UnloadKeyboardLayout</a>
+<a href="https://msdn.microsoft.com/0fc880a8-ed1e-4110-b309-761c511863f3">UnloadKeyboardLayout</a>
  
 
  

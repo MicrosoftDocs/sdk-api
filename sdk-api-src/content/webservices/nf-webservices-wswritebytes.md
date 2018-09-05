@@ -7,7 +7,7 @@ old-location: wsw\wswritebytes.htm
 old-project: wsw
 ms.assetid: 1fa9ecfc-c791-459f-ae11-ffcdc82b7145
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WsWriteBytes, WsWriteBytes function [Web Services for Windows], webservices/WsWriteBytes, wsw.wswritebytes
 ms.prod: windows
 ms.technology: windows-sdk

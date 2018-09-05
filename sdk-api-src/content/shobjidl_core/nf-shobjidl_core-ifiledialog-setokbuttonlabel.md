@@ -7,7 +7,7 @@ old-location: shell\IFileDialog_SetOkButtonLabel.htm
 old-project: shell
 ms.assetid: 4320de0f-bfa6-4e17-a09d-d004559fae70
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IFileDialog interface [Windows Shell],SetOkButtonLabel method, IFileDialog.SetOkButtonLabel, IFileDialog::SetOkButtonLabel, SetOkButtonLabel, SetOkButtonLabel method [Windows Shell], SetOkButtonLabel method [Windows Shell],IFileDialog interface, shell.IFileDialog_SetOkButtonLabel, shell_IFileDialog_SetOkButtonLabel, shobjidl_core/IFileDialog::SetOkButtonLabel
 ms.prod: windows
 ms.technology: windows-sdk

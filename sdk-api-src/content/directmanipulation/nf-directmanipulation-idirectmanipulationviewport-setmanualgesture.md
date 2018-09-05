@@ -84,12 +84,16 @@ Use this method to specify which gestures the application processes on the UI th
 
 The following example shows how zoom gestures can be ignored by <a href="https://msdn.microsoft.com/26358bc5-71e9-40f0-9243-9bddd961a0e5">Direct Manipulation</a> and handled by the application, which may have custom zoom behavior implementation.
 
-
-```
-HRESULT hr = pViewport->SetManualGesture(DIRECTMANIPULATION_GESTURE_PINCH_ZOOM);
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr = pViewport-&gt;SetManualGesture(DIRECTMANIPULATION_GESTURE_PINCH_ZOOM);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

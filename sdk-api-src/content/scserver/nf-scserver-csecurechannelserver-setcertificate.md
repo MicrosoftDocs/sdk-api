@@ -7,7 +7,7 @@ old-location: wmdm\csecurechannelserver_setcertificate.htm
 old-project: WMDM
 ms.assetid: 9f12e32c-4904-4591-bc6e-38f507b0dcf6
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CSecureChannelServer interface [windows Media Device Manager],SetCertificate method, CSecureChannelServer.SetCertificate, CSecureChannelServer::SetCertificate, CSecureChannelServerSetCertificate, SetCertificate, SetCertificate method [windows Media Device Manager], SetCertificate method [windows Media Device Manager],CSecureChannelServer interface, scserver/CSecureChannelServer::SetCertificate, wmdm.csecurechannelserver_setcertificate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -138,25 +138,29 @@ This method sends the component's authentication certificate to <b>CSecureChanne
 
 The following code demonstrates creating a CSecureChannelServer object and setting its certificate. In this code, the variables <i>pbAppCert</i> and <i>pbAppPVK</i> are a matching certificate/key pair.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 extern CSecureChannelServer *g_pSCWMDM;
 g_pSCWMDM = new CSecureChannelServer();
 
 // Select the certificate and the associated private key into the SAC.
 if (g_pSCWMDM)
 {
-    g_pSCWMDM->SetCertificate( SAC_CERT_V1, 
+    g_pSCWMDM-&gt;SetCertificate( SAC_CERT_V1, 
                                (BYTE*)g_abAppCert,
                                sizeof(g_abAppCert), 
                                (BYTE*)g_abPriv,
                                sizeof(g_abPriv) );
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: base\symundname64.htm
 old-project: debug
 ms.assetid: f7bea3a4-5e17-4743-894f-8eb8f9992cac
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: SymUnDName, SymUnDName function, SymUnDName64, SymUnDName64 function, base.symundname64, dbghelp/SymUnDName, dbghelp/SymUnDName64
 ms.prod: windows
 ms.technology: windows-sdk
@@ -99,9 +99,13 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 This function supersedes the <b>SymUnDName</b> function. For more information, see 
 <a href="https://msdn.microsoft.com/34ec8cd3-3260-441d-b55f-4ea21c736eb1">Updated Platform Support</a>. <b>SymUnDName</b> is defined as follows in Dbghelp.h. 
 
-
-```cpp
-#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
 #define SymUnDName SymUnDName64
 #else
 BOOL
@@ -111,10 +115,10 @@ SymUnDName(
     __out_ecount(UnDecNameLength) PSTR UnDecName,   
     __in DWORD UnDecNameLength 
     );
-#endif
-```
-
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

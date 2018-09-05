@@ -4,10 +4,10 @@ title: FhServiceBlockBackup function
 author: windows-sdk-content
 description: This function temporarily blocks backups for the current user.
 old-location: winprog\fhserviceblockbackup.htm
-old-project: devnotes
+old-project: DevNotes
 ms.assetid: 32B5E241-5A5F-4440-9B47-07D5849FA393
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FhServiceBlockBackup, FhServiceBlockBackup function [Windows API], fhsvcctl/FhServiceBlockBackup, winprog.fhserviceblockbackup
 ms.prod: windows
 ms.technology: windows-sdk

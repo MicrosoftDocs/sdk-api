@@ -4,10 +4,10 @@ title: "_TC_IFC_DESCRIPTOR"
 author: windows-sdk-content
 description: The TC_IFC_DESCRIPTOR structure is an interface identifier used to enumerate interfaces.
 old-location: qos\tc_ifc_descriptor.htm
-old-project: qos
+old-project: QOS
 ms.assetid: 0ab0a17e-4055-43ee-81fd-c23fcecb8cb6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PTC_IFC_DESCRIPTOR, PTC_IFC_DESCRIPTOR, PTC_IFC_DESCRIPTOR structure pointer [QOS], TC_IFC_DESCRIPTOR, TC_IFC_DESCRIPTOR structure [QOS], _TC_IFC_DESCRIPTOR, _gqos_tc_ifc_descriptor, qos.tc_ifc_descriptor, traffic/PTC_IFC_DESCRIPTOR, traffic/TC_IFC_DESCRIPTOR"
 ms.prod: windows
 ms.technology: windows-sdk

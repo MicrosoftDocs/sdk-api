@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteRenderingParams_GetClearTypeLevel.htm
 old-project: DirectWrite
 ms.assetid: 62b2aa39-ca8f-4abd-af10-1c1ca7971dcd
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetClearTypeLevel, GetClearTypeLevel method [Direct Write], GetClearTypeLevel method [Direct Write],IDWriteRenderingParams interface, IDWriteRenderingParams interface [Direct Write],GetClearTypeLevel method, IDWriteRenderingParams.GetClearTypeLevel, IDWriteRenderingParams::GetClearTypeLevel, directwrite.IDWriteRenderingParams_GetClearTypeLevel, dwrite/IDWriteRenderingParams::GetClearTypeLevel
 ms.prod: windows
 ms.technology: windows-sdk

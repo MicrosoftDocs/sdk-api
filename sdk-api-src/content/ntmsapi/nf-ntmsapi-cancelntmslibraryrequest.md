@@ -7,7 +7,7 @@ old-location: fs\cancelntmslibraryrequest.htm
 old-project: Rsm
 ms.assetid: 99626e6f-2716-4e36-b4ec-3fef0315ea41
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: CancelNtmsLibraryRequest, CancelNtmsLibraryRequest function [Files], _zaw_cancelntmslibraryrequest, base.cancelntmslibraryrequest, fs.cancelntmslibraryrequest, ntmsapi/CancelNtmsLibraryRequest
 ms.prod: windows
 ms.technology: windows-sdk
@@ -162,7 +162,7 @@ The library request has been queued for cancellation.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Library Control Functions</a>
+<a href="removable_storage_manager_functions.htm">Library Control Functions</a>
  
 
  

@@ -71,9 +71,9 @@ Number of viewports to bind.
 
 ### -param pViewports [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dn770454(v=VS.85).aspx">D3D12_VIEWPORT</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/BD23FEF6-8231-45C6-8A6B-F0E42FE88A9F">D3D12_VIEWPORT</a>*</b>
 
-An array of <a href="https://msdn.microsoft.com/en-us/library/Dn770454(v=VS.85).aspx">D3D12_VIEWPORT</a> structures to bind to the device.
+An array of <a href="https://msdn.microsoft.com/BD23FEF6-8231-45C6-8A6B-F0E42FE88A9F">D3D12_VIEWPORT</a> structures to bind to the device.
           
 
 
@@ -94,78 +94,86 @@ This method does not return a value.
 All viewports must be set atomically as one operation. Any viewports not defined by the call are disabled.
         
 
-Which viewport to use is determined by the <a href="https://msdn.microsoft.com/en-us/library/Bb509647(v=VS.85).aspx">SV_ViewportArrayIndex</a> semantic output by a geometry shader; if a geometry shader does not specify the semantic, Direct3D will use the first viewport in the array.
+Which viewport to use is determined by the <a href="https://msdn.microsoft.com/6f5c504c-1940-4d1c-b594-a2132599376b">SV_ViewportArrayIndex</a> semantic output by a geometry shader; if a geometry shader does not specify the semantic, Direct3D will use the first viewport in the array.
         
 
-<div class="alert"><b>Note</b>  Even though you specify float values to the members of the <a href="https://msdn.microsoft.com/en-us/library/Dn770454(v=VS.85).aspx">D3D12_VIEWPORT</a> structure for the <i>pViewports</i> array in a call to  <b>RSSetViewports</b> for <a href="https://msdn.microsoft.com/en-us/library/Ff476876(v=VS.85).aspx">feature levels</a> 9_x, <b>RSSetViewports</b> uses DWORDs internally. Because of this behavior, when you use a negative top left corner for the viewport, the call to  <b>RSSetViewports</b> for feature levels 9_x fails. This failure occurs because <b>RSSetViewports</b> for 9_x casts the floating point values into unsigned integers without validation, which results in integer overflow.
+<div class="alert"><b>Note</b>  Even though you specify float values to the members of the <a href="https://msdn.microsoft.com/BD23FEF6-8231-45C6-8A6B-F0E42FE88A9F">D3D12_VIEWPORT</a> structure for the <i>pViewports</i> array in a call to  <b>RSSetViewports</b> for <a href="https://msdn.microsoft.com/5ad0525c-249f-452d-950b-df8fa2addde2">feature levels</a> 9_x, <b>RSSetViewports</b> uses DWORDs internally. Because of this behavior, when you use a negative top left corner for the viewport, the call to  <b>RSSetViewports</b> for feature levels 9_x fails. This failure occurs because <b>RSSetViewports</b> for 9_x casts the floating point values into unsigned integers without validation, which results in integer overflow.
       </div>
 <div> </div>
 
 #### Examples
 
-The <a href="https://msdn.microsoft.com/en-us/library/Mt186624(v=VS.85).aspx">D3D12HelloTriangle</a> sample uses <b>ID3D12GraphicsCommandList::RSSetViewports</b> as follows:
+The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12HelloTriangle</a> sample uses <b>ID3D12GraphicsCommandList::RSSetViewports</b> as follows:
         
 
-
-```cpp
-D3D12_VIEWPORT m_viewport;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>D3D12_VIEWPORT m_viewport;
 D3D12_RECT m_scissorRect;
-ComPtr<IDXGISwapChain3> m_swapChain;
-ComPtr<ID3D12Device> m_device;
-ComPtr<ID3D12Resource> m_renderTargets[FrameCount];
-ComPtr<ID3D12CommandAllocator> m_commandAllocator;
-ComPtr<ID3D12CommandQueue> m_commandQueue;
-ComPtr<ID3D12RootSignature> m_rootSignature;
-ComPtr<ID3D12DescriptorHeap> m_rtvHeap;
-ComPtr<ID3D12PipelineState> m_pipelineState;
-ComPtr<ID3D12GraphicsCommandList> m_commandList;
+ComPtr&lt;IDXGISwapChain3&gt; m_swapChain;
+ComPtr&lt;ID3D12Device&gt; m_device;
+ComPtr&lt;ID3D12Resource&gt; m_renderTargets[FrameCount];
+ComPtr&lt;ID3D12CommandAllocator&gt; m_commandAllocator;
+ComPtr&lt;ID3D12CommandQueue&gt; m_commandQueue;
+ComPtr&lt;ID3D12RootSignature&gt; m_rootSignature;
+ComPtr&lt;ID3D12DescriptorHeap&gt; m_rtvHeap;
+ComPtr&lt;ID3D12PipelineState&gt; m_pipelineState;
+ComPtr&lt;ID3D12GraphicsCommandList&gt; m_commandList;
 UINT m_rtvDescriptorSize;
-
-```
-
-
-
-```cpp
-void D3D12HelloTriangle::PopulateCommandList()
+</pre>
+</td>
+</tr>
+</table></span></div>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>void D3D12HelloTriangle::PopulateCommandList()
 {
     // Command list allocators can only be reset when the associated 
     // command lists have finished execution on the GPU; apps should use 
     // fences to determine GPU execution progress.
-    ThrowIfFailed(m_commandAllocator->Reset());
+    ThrowIfFailed(m_commandAllocator-&gt;Reset());
 
     // However, when ExecuteCommandList() is called on a particular command 
     // list, that command list can then be reset at any time and must be before 
     // re-recording.
-    ThrowIfFailed(m_commandList->Reset(m_commandAllocator.Get(), m_pipelineState.Get()));
+    ThrowIfFailed(m_commandList-&gt;Reset(m_commandAllocator.Get(), m_pipelineState.Get()));
 
     // Set necessary state.
-    m_commandList->SetGraphicsRootSignature(m_rootSignature.Get());
-    m_commandList->RSSetViewports(1, &m_viewport);
-    m_commandList->RSSetScissorRects(1, &m_scissorRect);
+    m_commandList-&gt;SetGraphicsRootSignature(m_rootSignature.Get());
+    m_commandList-&gt;RSSetViewports(1, &amp;m_viewport);
+    m_commandList-&gt;RSSetScissorRects(1, &amp;m_scissorRect);
 
     // Indicate that the back buffer will be used as a render target.
-    m_commandList->ResourceBarrier(1, &CD3DX12_RESOURCE_BARRIER::Transition(m_renderTargets[m_frameIndex].Get(), D3D12_RESOURCE_STATE_PRESENT, D3D12_RESOURCE_STATE_RENDER_TARGET));
+    m_commandList-&gt;ResourceBarrier(1, &amp;CD3DX12_RESOURCE_BARRIER::Transition(m_renderTargets[m_frameIndex].Get(), D3D12_RESOURCE_STATE_PRESENT, D3D12_RESOURCE_STATE_RENDER_TARGET));
 
-    CD3DX12_CPU_DESCRIPTOR_HANDLE rtvHandle(m_rtvHeap->GetCPUDescriptorHandleForHeapStart(), m_frameIndex, m_rtvDescriptorSize);
-    m_commandList->OMSetRenderTargets(1, &rtvHandle, FALSE, nullptr);
+    CD3DX12_CPU_DESCRIPTOR_HANDLE rtvHandle(m_rtvHeap-&gt;GetCPUDescriptorHandleForHeapStart(), m_frameIndex, m_rtvDescriptorSize);
+    m_commandList-&gt;OMSetRenderTargets(1, &amp;rtvHandle, FALSE, nullptr);
 
     // Record commands.
     const float clearColor[] = { 0.0f, 0.2f, 0.4f, 1.0f };
-    m_commandList->ClearRenderTargetView(rtvHandle, clearColor, 0, nullptr);
-    m_commandList->IASetPrimitiveTopology(D3D_PRIMITIVE_TOPOLOGY_TRIANGLELIST);
-    m_commandList->IASetVertexBuffers(0, 1, &m_vertexBufferView);
-    m_commandList->DrawInstanced(3, 1, 0, 0);
+    m_commandList-&gt;ClearRenderTargetView(rtvHandle, clearColor, 0, nullptr);
+    m_commandList-&gt;IASetPrimitiveTopology(D3D_PRIMITIVE_TOPOLOGY_TRIANGLELIST);
+    m_commandList-&gt;IASetVertexBuffers(0, 1, &amp;m_vertexBufferView);
+    m_commandList-&gt;DrawInstanced(3, 1, 0, 0);
 
     // Indicate that the back buffer will now be used to present.
-    m_commandList->ResourceBarrier(1, &CD3DX12_RESOURCE_BARRIER::Transition(m_renderTargets[m_frameIndex].Get(), D3D12_RESOURCE_STATE_RENDER_TARGET, D3D12_RESOURCE_STATE_PRESENT));
+    m_commandList-&gt;ResourceBarrier(1, &amp;CD3DX12_RESOURCE_BARRIER::Transition(m_renderTargets[m_frameIndex].Get(), D3D12_RESOURCE_STATE_RENDER_TARGET, D3D12_RESOURCE_STATE_PRESENT));
 
-    ThrowIfFailed(m_commandList->Close());
+    ThrowIfFailed(m_commandList-&gt;Close());
 }
-
-```
-
-
-See <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85).aspx">Example Code in the D3D12 Reference</a>.
+</pre>
+</td>
+</tr>
+</table></span></div>
+See <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
         
 
 <div class="code"></div>
@@ -177,7 +185,7 @@ See <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85).aspx">Ex
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn903537(v=VS.85).aspx">ID3D12GraphicsCommandList</a>
+<a href="https://msdn.microsoft.com/1BF282A7-F6D4-43A9-BDAD-D877564A1C6B">ID3D12GraphicsCommandList</a>
  
 
  

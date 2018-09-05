@@ -4,10 +4,10 @@ title: RtmDeregisterEntity function
 author: windows-sdk-content
 description: The RtmDeregisterEntity function unregisters a client from a routing table manager instance and address family.
 old-location: rras\rtmderegisterentity.htm
-old-project: rras
+old-project: RRAS
 ms.assetid: dc13022b-e474-4442-a19c-856ee130c383
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RtmDeregisterEntity, RtmDeregisterEntity function [RAS], _rtmv2ref_rtmderegisterentity, rras.rtmderegisterentity, rtmv2/RtmDeregisterEntity
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: MprAdminTransportSetInfo function
 author: windows-sdk-content
 description: The MprAdminTransportSetInfo function sets global information, or default client interface information, or both, for a specified transport.
 old-location: rras\mpradmintransportsetinfo.htm
-old-project: rras
+old-project: RRAS
 ms.assetid: ac0be570-e484-481b-9b16-ccdd4870deda
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MprAdminTransportSetInfo, MprAdminTransportSetInfo function [RAS], _mpr_mpradmintransportsetinfo, mprapi/MprAdminTransportSetInfo, rras.mpradmintransportsetinfo
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch2_ShellExecute.htm
 old-project: shell
 ms.assetid: a55e804c-ed7c-4b22-b86f-8e5653976654
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellDispatch2 object [Windows Shell],ShellExecute method, IShellDispatch2.ShellExecute, IShellDispatch2::ShellExecute, ShellExecute, ShellExecute method [Windows Shell], ShellExecute method [Windows Shell],IShellDispatch2 object, _win32_IShellDispatch2_ShellExecute, shell.IShellDispatch2_ShellExecute
 ms.prod: windows
 ms.technology: windows-sdk
@@ -187,7 +187,7 @@ Open the application with its window in the default state specified by the appli
 
 #### - sFile [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a></b>
+Type: <b><a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a></b>
 
 A <b>String</b> that contains the name of the file on which <b>ShellExecute</b> will perform the action specified by <i>vOperation</i>.
 
@@ -224,25 +224,33 @@ The following examples show the use of <b>ShellExecute</b> to open Notepad. Usag
 JScript:
                 
 
-
-```javascript
-<script language="JScript">
+<div class="code"><span codelanguage="JScript"><table>
+<tr>
+<th>JScript</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="JScript"&gt;
     function fnShellExecuteJ()
     {
         var objShell = new ActiveXObject("shell.application");
         
         objShell.ShellExecute("notepad.exe", "", "", "open", 1);
     }
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 VBScript:
 
-
-```vb
-<script language="VBScript">
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="VBScript"&gt;
     function fnShellExecuteVB()
         dim objShell
 
@@ -252,10 +260,10 @@ VBScript:
 
         set objShell = nothing
     end function
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

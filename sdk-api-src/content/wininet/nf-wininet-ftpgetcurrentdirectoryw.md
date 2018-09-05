@@ -7,7 +7,7 @@ old-location: wininet\ftpgetcurrentdirectory.htm
 old-project: WinInet
 ms.assetid: 1b757061-469b-4c11-9d0d-38b300216221
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: FtpGetCurrentDirectory, FtpGetCurrentDirectory function [WinINet], FtpGetCurrentDirectoryA, FtpGetCurrentDirectoryW, _inet_ftpgetcurrentdirectory_function, wininet.ftpgetcurrentdirectory, wininet/FtpGetCurrentDirectory, wininet/FtpGetCurrentDirectoryA, wininet/FtpGetCurrentDirectoryW
 ms.prod: windows
 ms.technology: windows-sdk

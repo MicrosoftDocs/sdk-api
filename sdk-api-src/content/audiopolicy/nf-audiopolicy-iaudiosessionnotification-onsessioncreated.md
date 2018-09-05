@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessionnotification_onsessioncreated.htm
 old-project: CoreAudio
 ms.assetid: 03f22e06-f446-4c57-a955-3d12deec4152
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: IAudioSessionNotification interface [Core Audio],OnSessionCreated method, IAudioSessionNotification.OnSessionCreated, IAudioSessionNotification::OnSessionCreated, OnSessionCreated, OnSessionCreated method [Core Audio], OnSessionCreated method [Core Audio],IAudioSessionNotification interface, audiopolicy/IAudioSessionNotification::OnSessionCreated, coreaudio.iaudiosessionnotification_onsessioncreated
 ms.prod: windows
 ms.technology: windows-sdk

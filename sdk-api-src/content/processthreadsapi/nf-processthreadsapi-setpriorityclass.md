@@ -218,10 +218,14 @@ Each  thread can enter background processing mode independently using <a href="h
 
 The following example demonstrates the use of process background mode.
 
-
-```cpp
-#include <windows.h>
-#include <tchar.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;tchar.h&gt;
 
 int main( void )
 {
@@ -257,10 +261,10 @@ Cleanup:
    ;
 return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

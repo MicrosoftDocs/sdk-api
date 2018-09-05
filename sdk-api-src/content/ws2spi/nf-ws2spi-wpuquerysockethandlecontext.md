@@ -4,10 +4,10 @@ title: WPUQuerySocketHandleContext function
 author: windows-sdk-content
 description: The WPUQuerySocketHandleContext function queries the context value associated with the specified socket handle.
 old-location: winsock\wpuquerysockethandlecontext_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: 661ddff0-b80c-4e24-84b3-b444ef1c2ad6
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: WPUQuerySocketHandleContext, WPUQuerySocketHandleContext function [Winsock], _win32_wpuquerysockethandlecontext_2, winsock.wpuquerysockethandlecontext_2, ws2spi/WPUQuerySocketHandleContext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,7 +93,7 @@ If no error occurs,
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAENOTSOCK</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAENOTSOCK</a></b></dt>
 </dl>
 </td>
 <td width="60%">

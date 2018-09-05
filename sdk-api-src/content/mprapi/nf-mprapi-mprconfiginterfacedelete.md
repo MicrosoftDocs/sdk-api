@@ -4,10 +4,10 @@ title: MprConfigInterfaceDelete function
 author: windows-sdk-content
 description: The MprConfigInterfaceDelete function removes a router interface from the router configuration. All transport information associated with this interface is also removed.
 old-location: rras\mprconfiginterfacedelete.htm
-old-project: rras
+old-project: RRAS
 ms.assetid: 1777f742-8037-40d9-8279-b4bb89ea6f0d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MprConfigInterfaceDelete, MprConfigInterfaceDelete function [RAS], _mpr_mprconfiginterfacedelete, mprapi/MprConfigInterfaceDelete, rras.mprconfiginterfacedelete
 ms.prod: windows
 ms.technology: windows-sdk
@@ -118,7 +118,7 @@ Insufficient resources to complete the operation.
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -137,7 +137,7 @@ Use
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="_win32_formatmessage">FormatMessage</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: menurc\getmenustring.htm
 old-project: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getmenustring.htm
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetMenuString, GetMenuString function [Menus and Other Resources], GetMenuStringA, GetMenuStringW, MF_BYCOMMAND, MF_BYPOSITION, _win32_GetMenuString, _win32_getmenustring_cpp, menurc.getmenustring, winui._win32_getmenustring, winuser/GetMenuString, winuser/GetMenuStringA, winuser/GetMenuStringW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 
 
 Copies the text string of the specified menu item into the specified buffer. 
-<div class="alert"><b>Note</b>  The <b>GetMenuString</b> function has been superseded. Use the <a href="https://msdn.microsoft.com/en-us/library/ms647980(v=VS.85).aspx">GetMenuItemInfo</a> function to retrieve the menu item text.</div><div> </div>
+<div class="alert"><b>Note</b>  The <b>GetMenuString</b> function has been superseded. Use the <a href="https://msdn.microsoft.com/4a2c9135-510b-4ccf-bdba-35ffabc49d5c">GetMenuItemInfo</a> function to retrieve the menu item text.</div><div> </div>
 
 ## -parameters
 
@@ -160,7 +160,7 @@ The <i>lpString</i> parameter is a <b>TCHAR</b> buffer, and <i>nMaxCount</i> is 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms646337(v=VS.85).aspx">Creating User Editable Accelerators</a>. 
+For an example, see <a href="using_keyboard_accelerators.htm">Creating User Editable Accelerators</a>. 
 
 <div class="code"></div>
 
@@ -175,11 +175,11 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms646337(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms647979(v=VS.85).aspx">GetMenuItemID</a>
+<a href="https://msdn.microsoft.com/69ecdcba-177c-4465-95ae-897ed4e96c2d">GetMenuItemID</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms646977(v=VS.85).aspx">Menus</a>
+<a href="https://msdn.microsoft.com/f00c0b76-fabb-4451-bd4e-30b465d4d235">Menus</a>
 
 
 

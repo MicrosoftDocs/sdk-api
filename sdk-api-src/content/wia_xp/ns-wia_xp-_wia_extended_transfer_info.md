@@ -7,7 +7,7 @@ old-location: wia\_wia_WIA_EXTENDED_TRANSFER_INFO.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\structs\wia_extended_transfer_info.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: "*PWIA_EXTENDED_TRANSFER_INFO, PWIA_EXTENDED_TRANSFER_INFO, PWIA_EXTENDED_TRANSFER_INFO structure pointer [WIA], WIA_EXTENDED_TRANSFER_INFO, WIA_EXTENDED_TRANSFER_INFO structure [WIA], _WIA_EXTENDED_TRANSFER_INFO, _wia_WIA_EXTENDED_TRANSFER_INFO, wia._wia_WIA_EXTENDED_TRANSFER_INFO, wia_xp/PWIA_EXTENDED_TRANSFER_INFO, wia_xp/WIA_EXTENDED_TRANSFER_INFO"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>WIA_EXTENDED_TRANSFER_INFO</b> structure specifies extended transfer information for the <a href="https://msdn.microsoft.com/en-us/library/ms630153(v=VS.85).aspx">IWiaDataTransfer::idtGetExtendedTransferInfo</a> method.
+The <b>WIA_EXTENDED_TRANSFER_INFO</b> structure specifies extended transfer information for the <a href="https://msdn.microsoft.com/268a5c3e-2717-40c3-9f24-cc490b1e593b">IWiaDataTransfer::idtGetExtendedTransferInfo</a> method.
 
 
 ## -struct-fields
@@ -72,21 +72,21 @@ Size of this structure.
 
 Type: <b>ULONG</b>
 
-Minimum buffer size the application should request in a call to <a href="https://msdn.microsoft.com/en-us/library/ms630151(v=VS.85).aspx">IWiaDataTransfer::idtGetBandedData</a>.
+Minimum buffer size the application should request in a call to <a href="https://msdn.microsoft.com/3cbef4c0-cf28-4fdd-b347-84428ffd671b">IWiaDataTransfer::idtGetBandedData</a>.
 
 
 ### -field ulOptimalBufferSize
 
 Type: <b>ULONG</b>
 
-Driver-recommended buffer size the application should request in a call to <a href="https://msdn.microsoft.com/en-us/library/ms630151(v=VS.85).aspx">IWiaDataTransfer::idtGetBandedData</a>.
+Driver-recommended buffer size the application should request in a call to <a href="https://msdn.microsoft.com/3cbef4c0-cf28-4fdd-b347-84428ffd671b">IWiaDataTransfer::idtGetBandedData</a>.
 
 
 ### -field ulMaxBufferSize
 
 Type: <b>ULONG</b>
 
-Driver-recommended maximum buffer size the application could request in a call to <a href="https://msdn.microsoft.com/en-us/library/ms630151(v=VS.85).aspx">IWiaDataTransfer::idtGetBandedData</a>. Going over this limit is not detrimental, however, the driver can simply not use the whole buffer and limit each band of data to this maximum size.
+Driver-recommended maximum buffer size the application could request in a call to <a href="https://msdn.microsoft.com/3cbef4c0-cf28-4fdd-b347-84428ffd671b">IWiaDataTransfer::idtGetBandedData</a>. Going over this limit is not detrimental, however, the driver can simply not use the whole buffer and limit each band of data to this maximum size.
 
 
 ### -field ulNumBuffers

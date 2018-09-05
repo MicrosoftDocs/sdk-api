@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\ivisualtreeservice2_replaceresource.htm
 old-project: xaml_diagnostics
 ms.assetid: DD2066B0-C91E-4299-AFD3-13E74E75E94B
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IVisualTreeService2 interface,ReplaceResource method, IVisualTreeService2.ReplaceResource, IVisualTreeService2::ReplaceResource, ReplaceResource, ReplaceResource method, ReplaceResource method,IVisualTreeService2 interface, xaml_diagnostics.ivisualtreeservice2_replaceresource, xamlom/IVisualTreeService2::ReplaceResource
 ms.prod: windows
 ms.technology: windows-sdk

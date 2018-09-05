@@ -4,10 +4,10 @@ title: IPropertyStorage::Stat
 author: windows-sdk-content
 description: The Stat method retrieves information about the current open property set.
 old-location: stg\ipropertystorage_stat.htm
-old-project: stg
+old-project: Stg
 ms.assetid: 46985c49-cb9b-4f67-8dff-e6fad9e188da
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IPropertyStorage interface [Structured Storage],Stat method, IPropertyStorage.Stat, IPropertyStorage::Stat, Stat, Stat method [Structured Storage], Stat method [Structured Storage],IPropertyStorage interface, _stg_ipropertystorage_stat, propidl/IPropertyStorage::Stat, stg.ipropertystorage_stat
 ms.prod: windows
 ms.technology: windows-sdk

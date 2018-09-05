@@ -7,7 +7,7 @@ old-location: mscs\cluster_node_resume_failback_type.htm
 old-project: mscs
 ms.assetid: 26A002F6-A933-450B-84FF-F2BC8B301B6B
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CLUSTER_NODE_RESUME_FAILBACK_TYPE, CLUSTER_NODE_RESUME_FAILBACK_TYPE enumeration [Failover Cluster], ClusterNodeResumeFailbackTypeCount, DoNotFailbackGroups, FailbackGroupsImmediately, FailbackGroupsPerPolicy, clusapi/CLUSTER_NODE_RESUME_FAILBACK_TYPE, clusapi/ClusterNodeResumeFailbackTypeCount, clusapi/DoNotFailbackGroups, clusapi/FailbackGroupsImmediately, clusapi/FailbackGroupsPerPolicy, mscs.cluster_node_resume_failback_type
 ms.prod: windows
 ms.technology: windows-sdk
@@ -22,7 +22,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: CluAdmEx.idl
+req.idl: 
 req.max-support: 
 req.namespace: 
 req.assembly: 
@@ -84,7 +84,7 @@ Defines the maximum number of failback types.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb309147(v=VS.85).aspx">Failover Cluster Enumerations</a>
+<a href="https://msdn.microsoft.com/546071de-1067-4b47-b862-668be976e563">Failover Cluster Enumerations</a>
 
 
 

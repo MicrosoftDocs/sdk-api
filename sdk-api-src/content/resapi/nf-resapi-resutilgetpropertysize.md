@@ -7,7 +7,7 @@ old-location: mscs\resutilgetpropertysize.htm
 old-project: mscs
 ms.assetid: 0f21ef2b-747c-4fb3-a13c-16bcb7bfd46e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PRESUTIL_GET_PROPERTY_SIZE, PRESUTIL_GET_PROPERTY_SIZE function [Failover Cluster], ResUtilGetPropertySize, ResUtilGetPropertySize function [Failover Cluster], _wolf_resutilgetpropertysize, mscs.resutilgetpropertysize, resapi/PRESUTIL_GET_PROPERTY_SIZE, resapi/ResUtilGetPropertySize
 ms.prod: windows
 ms.technology: windows-sdk

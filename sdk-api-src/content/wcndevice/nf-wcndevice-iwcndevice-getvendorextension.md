@@ -7,7 +7,7 @@ old-location: wcn\iwcndevice_getvendorextension.htm
 old-project: wcn
 ms.assetid: f7fa8446-8013-431a-95ed-fa5d78a90df7
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: GetVendorExtension, GetVendorExtension method [Windows Connect Now], GetVendorExtension method [Windows Connect Now],IWCNDevice interface, IWCNDevice interface [Windows Connect Now],GetVendorExtension method, IWCNDevice.GetVendorExtension, IWCNDevice::GetVendorExtension, wcn.iwcndevice_getvendorextension, wcndevice/IWCNDevice::GetVendorExtension
 ms.prod: windows
 ms.technology: windows-sdk

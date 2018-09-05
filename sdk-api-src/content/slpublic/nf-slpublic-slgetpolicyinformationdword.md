@@ -4,10 +4,10 @@ title: SLGetPolicyInformationDWORD function
 author: windows-sdk-content
 description: Gets the policy information after right has been consumed successfully.
 old-location: security\slgetpolicyinformationdword.htm
-old-project: secslapi
+old-project: SecSLApi
 ms.assetid: 273e843d-94eb-405d-b7fa-43d49783282f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SLGetPolicyInformationDWORD, SLGetPolicyInformationDWORD function [Security], security.slgetpolicyinformationdword, slpublic/SLGetPolicyInformationDWORD
 ms.prod: windows
 ms.technology: windows-sdk

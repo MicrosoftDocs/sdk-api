@@ -7,7 +7,7 @@ old-location: shell\IExplorerBrowserEvents_OnNavigationComplete.htm
 old-project: shell
 ms.assetid: 54c97a55-a8d1-4635-a1e0-2f92d52ddc10
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IExplorerBrowserEvents interface [Windows Shell],OnNavigationComplete method, IExplorerBrowserEvents.OnNavigationComplete, IExplorerBrowserEvents::OnNavigationComplete, OnNavigationComplete, OnNavigationComplete method [Windows Shell], OnNavigationComplete method [Windows Shell],IExplorerBrowserEvents interface, _shell_IExplorerBrowserEvents_OnNavigationComplete, shell.IExplorerBrowserEvents_OnNavigationComplete, shobjidl_core/IExplorerBrowserEvents::OnNavigationComplete
 ms.prod: windows
 ms.technology: windows-sdk

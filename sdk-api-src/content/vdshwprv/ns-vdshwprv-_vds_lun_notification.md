@@ -4,10 +4,10 @@ title: "_VDS_LUN_NOTIFICATION"
 author: windows-sdk-content
 description: Defines the details of a LUN notification.
 old-location: base\vds_lun_notification.htm
-old-project: vds
+old-project: VDS
 ms.assetid: 42b71b32-337e-4352-b4b3-6af2caad86e5
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: VDS_LUN_NOTIFICATION, VDS_LUN_NOTIFICATION structure [VDS], VDS_NF_LUN_ARRIVE, VDS_NF_LUN_DEPART, VDS_NF_LUN_MODIFY, _VDS_LUN_NOTIFICATION, base.vds_lun_notification, vds/_VDS_LUN_NOTIFICATION, vdshwprv/_VDS_LUN_NOTIFICATION
 ms.prod: windows
 ms.technology: windows-sdk

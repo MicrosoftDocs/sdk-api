@@ -4,10 +4,10 @@ title: FNFCIGETNEXTCABINET macro
 author: windows-sdk-content
 description: The FNFCIGETNEXTCABINET macro provides the declaration for the application-defined callback function to request information for the next cabinet.
 old-location: winprog\fnfcigetnextcabinet.htm
-old-project: devnotes
+old-project: DevNotes
 ms.assetid: d56fb63e-91bf-4991-a954-176211697a2e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FNFCIGETNEXTCABINET, FNFCIGETNEXTCABINET macro [Windows API], fci/FNFCIGETNEXTCABINET, winprog.fnfcigetnextcabinet
 ms.prod: windows
 ms.technology: windows-sdk
@@ -86,26 +86,30 @@ When creating multiple cabinets, typically the <i>iCab</i> field is used to crea
 
 #### Examples
 
-
-```cpp
-FNFCIGETNEXTCABINET(fnGetNextCabinet)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNFCIGETNEXTCABINET(fnGetNextCabinet)
 {
     HRESULT hr;
 
     UNREFERENCED_PARAMETER(pv);
     UNREFERENCED_PARAMETER(cbPrevCab);
     
-    hr = StringCchPrintfA(pccab->szCab,
-                          ARRAYSIZE(pccab->szCab),
+    hr = StringCchPrintfA(pccab-&gt;szCab,
+                          ARRAYSIZE(pccab-&gt;szCab),
                           "FCISample%02d.cab",
-                          pccab->iCab);
+                          pccab-&gt;iCab);
         
     return ( SUCCEEDED(hr) );
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

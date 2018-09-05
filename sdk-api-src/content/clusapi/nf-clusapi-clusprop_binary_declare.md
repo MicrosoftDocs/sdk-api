@@ -7,7 +7,7 @@ old-location: mscs\clusprop_binary_declare.htm
 old-project: mscs
 ms.assetid: f4730126-9dbf-438a-a9f2-9e917e5888b8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CLUSPROP_BINARY_DECLARE, CLUSPROP_BINARY_DECLARE macro [Failover Cluster], _wolf_clusprop_binary_declare, clusapi/CLUSPROP_BINARY_DECLARE, mscs.clusprop_binary_declare
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Creates a  <a href="https://msdn.microsoft.com/en-us/library/Aa368368(v=VS.85).aspx">CLUSPROP_BINARY</a> structure with the <b>rgb</b> member set to a size determined by the caller.
+Creates a  <a href="https://msdn.microsoft.com/61169871-4998-4e9f-97dc-77344bbfa962">CLUSPROP_BINARY</a> structure with the <b>rgb</b> member set to a size determined by the caller.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Creates a  <a href="https://msdn.microsoft.com/en-us/library/Aa368368(v=VS.85).a
 
 ### -param name
 
-Name of the  <a href="https://msdn.microsoft.com/en-us/library/Aa368368(v=VS.85).aspx">CLUSPROP_BINARY</a> structure to be created.
+Name of the  <a href="https://msdn.microsoft.com/61169871-4998-4e9f-97dc-77344bbfa962">CLUSPROP_BINARY</a> structure to be created.
 
 
 ### -param cb
@@ -86,17 +86,21 @@ ClusAPI.h defines  <b>CLUSPROP_BINARY_DECLARE</b> as follows:
 
 The following example shows how to use  <b>CLUSPROP_BINARY_DECLARE</b>:
 
-
-```cpp
-BYTE ByteData[] = { 'A', 1, 'B', 2, 'C' };
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BYTE ByteData[] = { 'A', 1, 'B', 2, 'C' };
 CLUSPROP_BINARY_DECLARE( ByteValue, sizeof( ByteData ) );
 ByteValue.Syntax.dw = CLUSPROP_SYNTAX_LIST_VALUE_SZ;
 ByteValue.cbLength = sizeof( ByteData );
 memcpy( ByteValue.rgb, ByteData, sizeof( ByteData ) );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -105,7 +109,7 @@ memcpy( ByteValue.rgb, ByteData, sizeof( ByteData ) );
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368368(v=VS.85).aspx">CLUSPROP_BINARY</a>
+<a href="https://msdn.microsoft.com/61169871-4998-4e9f-97dc-77344bbfa962">CLUSPROP_BINARY</a>
  
 
  

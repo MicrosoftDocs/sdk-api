@@ -7,7 +7,7 @@ old-location: devinst\setupdiopendevregkey.htm
 old-project: devinst
 ms.assetid: ffa435c8-4a73-454e-be36-cd90ba6e6d11
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: SetupDiOpenDevRegKey, SetupDiOpenDevRegKey function [Device and Driver Installation], devinst.setupdiopendevregkey, di-rtns_074a28c6-e847-439c-a694-36a196e418b6.xml, setupapi/SetupDiOpenDevRegKey
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ The <b>SetupDiOpenDevRegKey</b> function opens a registry key for device-specifi
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains a device information element that represents the device for which to open a registry key.
+A handle to the <a href="devinst.device_information_sets">device information set</a> that contains a device information element that represents the device for which to open a registry key.
 
 
 ### -param DeviceInfoData [in]
@@ -127,7 +127,7 @@ Open a <a href="https://msdn.microsoft.com/3be5c842-d1b6-4c34-8990-e23e2d08dd23"
 
 Open a <a href="https://msdn.microsoft.com/5f6fec1a-1134-4765-81be-9b50939e5e66">software key</a> for the device. 
 
-For more information about a device's hardware and software keys, see <a href="https://msdn.microsoft.com/library/Ff549815(v=VS.85).aspx">Registry Trees and Keys for Devices and Drivers</a>.
+For more information about a device's hardware and software keys, see <a href="devinst.registry_trees_and_keys">Registry Trees and Keys for Devices and Drivers</a>.
 
 
 ### -param samDesired [in]

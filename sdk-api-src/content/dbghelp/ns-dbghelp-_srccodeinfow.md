@@ -7,7 +7,7 @@ old-location: base\srccodeinfo_str.htm
 old-project: debug
 ms.assetid: 8a2ee743-d2e8-402a-b659-0c0b75052d1d
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: "*PSRCCODEINFOW, PSRCCODEINFO, PSRCCODEINFO structure pointer, SRCCODEINFO, SRCCODEINFO structure, SRCCODEINFOW, _SRCCODEINFO, _SRCCODEINFOW, base.srccodeinfo_str, dbghelp/PSRCCODEINFO, dbghelp/SRCCODEINFO, dbghelp/SRCCODEINFOW"
 ms.prod: windows
 ms.technology: windows-sdk

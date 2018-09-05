@@ -7,7 +7,7 @@ old-location: shell\UrlCompare.htm
 old-project: shell
 ms.assetid: d5c9e003-b85b-4f9f-b231-e3e4b71d4ce6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: UrlCompare, UrlCompare function [Windows Shell], UrlCompareA, UrlCompareW, _win32_UrlCompare, shell.UrlCompare, shlwapi/UrlCompare, shlwapi/UrlCompareA, shlwapi/UrlCompareW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

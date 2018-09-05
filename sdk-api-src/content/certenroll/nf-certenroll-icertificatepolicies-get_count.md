@@ -4,10 +4,10 @@ title: ICertificatePolicies::get_Count
 author: windows-sdk-content
 description: Retrieves the number of objects in the collection.
 old-location: security\icertificatepolicies_count_property.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: 292c37c1-8b85-4fa3-8ed8-1728ebe3d177
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Count property [Security], Count property [Security],ICertificatePolicies interface, ICertificatePolicies interface [Security],Count property, ICertificatePolicies.Count, ICertificatePolicies.get_Count, ICertificatePolicies::Count, ICertificatePolicies::get_Count, certenroll/ICertificatePolicies::Count, certenroll/ICertificatePolicies::get_Count, get_Count, security.icertificatepolicies_count_property
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,11 +65,11 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375214(v=VS.85).aspx">ICertificatePolicies</a>
+<a href="https://msdn.microsoft.com/2503adcb-0b73-42ef-98cf-a2b906e34ef7">ICertificatePolicies</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375225(v=VS.85).aspx">ICertificatePolicy</a>
+<a href="https://msdn.microsoft.com/2162de70-edcc-4f01-807d-79ff200d0016">ICertificatePolicy</a>
  
 
  

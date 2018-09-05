@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport_enumpermissionsets.htm
 old-project: WinRT
 ms.assetid: 20fec6e8-02f8-4158-8d61-550653e99dad
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EnumPermissionSets, EnumPermissionSets method [Windows Runtime], EnumPermissionSets method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],EnumPermissionSets method, IMetaDataImport.EnumPermissionSets, IMetaDataImport::EnumPermissionSets, rometadataapi/IMetaDataImport::EnumPermissionSets, winrt.imetadataimport_enumpermissionsets
 ms.prod: windows
 ms.technology: windows-sdk

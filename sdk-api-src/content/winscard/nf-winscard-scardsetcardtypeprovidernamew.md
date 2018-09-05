@@ -4,10 +4,10 @@ title: SCardSetCardTypeProviderNameW function
 author: windows-sdk-content
 description: Specifies the name of the module (dynamic link library) containing the provider for a given card name and provider type.
 old-location: security\scardsetcardtypeprovidername.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: c36dfb77-6ebe-4073-b657-72fa294b5464
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: SCARD_PROVIDER_CARD_MODULE, SCARD_PROVIDER_CSP, SCARD_PROVIDER_KSP, SCARD_PROVIDER_PRIMARY, SCardSetCardTypeProviderName, SCardSetCardTypeProviderName function [Security], SCardSetCardTypeProviderNameA, SCardSetCardTypeProviderNameW, _smart_scardsetcardtypeprovidername, security.scardsetcardtypeprovidername, winscard/SCardSetCardTypeProviderName, winscard/SCardSetCardTypeProviderNameA, winscard/SCardSetCardTypeProviderNameW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -166,7 +166,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -190,9 +190,13 @@ This function sets the provider name, while
 
 The following example  shows how to specify the card type provider name.
 
-
-```cpp
-LPTSTR            szNewProvName = _T("My Provider Name");
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>LPTSTR            szNewProvName = _T("My Provider Name");
 LPTSTR            szCardName = _T("WindowsCard");
 LONG              lReturn = SCARD_S_SUCCESS;
 
@@ -207,10 +211,10 @@ if ( SCARD_S_SUCCESS != lReturn )
     printf("Failed SCardSetCardTypeProviderName - %x\n", lReturn);
     exit(1);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

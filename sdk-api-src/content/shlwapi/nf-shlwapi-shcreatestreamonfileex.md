@@ -7,7 +7,7 @@ old-location: shell\SHCreateStreamOnFileEx.htm
 old-project: shell
 ms.assetid: f948f7dd-987d-4c2d-b650-62081133c3f4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHCreateStreamOnFileEx, SHCreateStreamOnFileEx function [Windows Shell], _shell_SHCreateStreamOnFileEx, shell.SHCreateStreamOnFileEx, shlwapi/SHCreateStreamOnFileEx
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

@@ -7,7 +7,7 @@ old-location: shell\IShellFolderView_SetItemPos.htm
 old-project: shell
 ms.assetid: d905260c-fa68-4b39-9c94-a74e1ac71b95
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellFolderView interface [Windows Shell],SetItemPos method, IShellFolderView.SetItemPos, IShellFolderView::SetItemPos, SetItemPos, SetItemPos method [Windows Shell], SetItemPos method [Windows Shell],IShellFolderView interface, _shell_IShellFolderView_SetItemPos, shell.IShellFolderView_SetItemPos, shlobj_core/IShellFolderView::SetItemPos
 ms.prod: windows
 ms.technology: windows-sdk

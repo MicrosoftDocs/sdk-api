@@ -4,10 +4,10 @@ title: ITask::SetWorkingDirectory
 author: windows-sdk-content
 description: This method sets the working directory for the task.
 old-location: taskschd\itask_setworkingdirectory.htm
-old-project: taskschd
+old-project: TaskSchd
 ms.assetid: df12d899-c254-4bbf-a49f-d89a2fcb0e28
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ITask interface [Task Scheduler],SetWorkingDirectory method, ITask.SetWorkingDirectory, ITask::SetWorkingDirectory, SetWorkingDirectory, SetWorkingDirectory method [Task Scheduler], SetWorkingDirectory method [Task Scheduler],ITask interface, _msb_itask_setworkingdirectory, mstask/ITask::SetWorkingDirectory, taskschd.itask_setworkingdirectory
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.product: Rights Management Services client 1.0 or later
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-This method sets the <a href="https://msdn.microsoft.com/en-us/library/Aa384011(v=VS.85).aspx">working directory</a> for the <a href="https://msdn.microsoft.com/en-us/library/Aa382533(v=VS.85).aspx">task</a>.
+This method sets the <a href="w.htm">working directory</a> for the <a href="t.htm">task</a>.
 
 
 ## -parameters

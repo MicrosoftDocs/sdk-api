@@ -7,7 +7,7 @@ old-location: shell\IMenuBand_TranslateMenuMessage.htm
 old-project: shell
 ms.assetid: 5ee1f64f-ca8b-4f50-bbab-24ff1216708c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IMenuBand interface [Windows Shell],TranslateMenuMessage method, IMenuBand.TranslateMenuMessage, IMenuBand::TranslateMenuMessage, TranslateMenuMessage, TranslateMenuMessage method [Windows Shell], TranslateMenuMessage method [Windows Shell],IMenuBand interface, _shell_IMenuBand_TranslateMenuMessage, shell.IMenuBand_TranslateMenuMessage, shobjidl_core/IMenuBand::TranslateMenuMessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,9 +62,9 @@ Translates a message for a Component Object Model (COM) object.
 
 ### -param pmsg [in, out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/fee176ba-ad07-4145-ab4d-1b8c335fd100">MSG</a>*</b>
 
-A pointer to an <a href="https://msdn.microsoft.com/en-us/library/ms644958(v=VS.85).aspx">MSG</a> structure that contains the incoming message.
+A pointer to an <a href="https://msdn.microsoft.com/fee176ba-ad07-4145-ab4d-1b8c335fd100">MSG</a> structure that contains the incoming message.
 
 
 ### -param plRet [out]

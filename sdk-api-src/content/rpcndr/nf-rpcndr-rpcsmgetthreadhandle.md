@@ -4,10 +4,10 @@ title: RpcSmGetThreadHandle function
 author: windows-sdk-content
 description: The RpcSmGetThreadHandle function returns a thread handle, or NULL, for the stub memory&#8211;management environment.
 old-location: rpc\rpcsmgetthreadhandle.htm
-old-project: rpc
+old-project: Rpc
 ms.assetid: 5bf2c93c-8273-484b-a79f-821b2068692d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcSmGetThreadHandle, RpcSmGetThreadHandle function [RPC], _rpc_rpcsmgetthreadhandle, rpc.rpcsmgetthreadhandle, rpcndr/RpcSmGetThreadHandle
 ms.prod: windows
 ms.technology: windows-sdk

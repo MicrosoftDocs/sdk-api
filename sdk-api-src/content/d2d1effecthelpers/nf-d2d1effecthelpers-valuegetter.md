@@ -79,7 +79,7 @@ The number of bytes in the data to be retrieved.
 The actual size of the data, if the data is not measured in bytes.
 
 
-### -param param
+### -param arg1
 
 TBD
 

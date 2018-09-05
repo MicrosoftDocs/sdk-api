@@ -7,7 +7,7 @@ old-location: shell\IShellFolderBand_SetBandInfoSFB.htm
 old-project: shell
 ms.assetid: 6b1a219f-60a3-4073-8293-2e9e1c6459d9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellFolderBand interface [Windows Shell],SetBandInfoSFB method, IShellFolderBand.SetBandInfoSFB, IShellFolderBand::SetBandInfoSFB, SetBandInfoSFB, SetBandInfoSFB method [Windows Shell], SetBandInfoSFB method [Windows Shell],IShellFolderBand interface, _win32_IShellFolderBand_SetBandInfoSFB, shell.IShellFolderBand_SetBandInfoSFB, shlobj/IShellFolderBand::SetBandInfoSFB
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: base\symregistercallback64.htm
 old-project: debug
 ms.assetid: 91d123cd-f68f-4120-b98d-7e3f94b7b1ec
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: SymRegisterCallback, SymRegisterCallback function, SymRegisterCallback64, SymRegisterCallback64 function, SymRegisterCallbackW64, _win32_symregistercallback64, base.symregistercallback64, dbghelp/SymRegisterCallback, dbghelp/SymRegisterCallback64, dbghelp/SymRegisterCallbackW64
 ms.prod: windows
 ms.technology: windows-sdk
@@ -101,9 +101,13 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR. <b>SymRegisterCallbackW64</b> is defined as follows in Dbghelp.h. 
 
-
-```cpp
-BOOL
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL
 IMAGEAPI
 SymRegisterCallbackW64(
     __in HANDLE hProcess,
@@ -113,16 +117,20 @@ SymRegisterCallbackW64(
 
 #ifdef DBGHELP_TRANSLATE_TCHAR
 #define SymRegisterCallback64   SymRegisterCallbackW64
-#endif
-```
-
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 This function supersedes the <b>SymRegisterCallback</b> function. For more information, see 
 <a href="https://msdn.microsoft.com/34ec8cd3-3260-441d-b55f-4ea21c736eb1">Updated Platform Support</a>. <b>SymRegisterCallback</b> is defined as follows in Dbghelp.h. 
 
-
-```cpp
-#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
 #define SymRegisterCallback SymRegisterCallback64
 #else
 BOOL
@@ -132,10 +140,10 @@ SymRegisterCallback(
     __in PSYMBOL_REGISTERED_CALLBACK CallbackFunction,
     __in_opt PVOID UserContext
     );
-#endif
-```
-
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 For a more extensive example, read <a href="https://msdn.microsoft.com/1dd8af0e-280b-4fc4-bf75-45c5c7517365">Getting Notifications</a>.
 
 

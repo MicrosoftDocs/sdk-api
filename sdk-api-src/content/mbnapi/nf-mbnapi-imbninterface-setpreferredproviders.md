@@ -7,7 +7,7 @@ old-location: mbn\imbninterface_setpreferredproviders.htm
 old-project: mbn
 ms.assetid: 2ea95b4a-07d9-40d6-bb82-091b49c965c4
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMbnInterface interface [Microsoft Broadband Networks],SetPreferredProviders method, IMbnInterface.SetPreferredProviders, IMbnInterface::SetPreferredProviders, SetPreferredProviders, SetPreferredProviders method [Microsoft Broadband Networks], SetPreferredProviders method [Microsoft Broadband Networks],IMbnInterface interface, mbn.imbninterface_setpreferredproviders, mbnapi/IMbnInterface::SetPreferredProviders
 ms.prod: windows
 ms.technology: windows-sdk

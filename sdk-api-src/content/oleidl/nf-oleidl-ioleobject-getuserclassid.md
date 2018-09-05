@@ -7,7 +7,7 @@ old-location: com\ioleobject_getuserclassid.htm
 old-project: com
 ms.assetid: 4b3c0292-0476-4f56-abd2-2f3a82195c67
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetUserClassID, GetUserClassID method [COM], GetUserClassID method [COM],IOleObject interface, IOleObject interface [COM],GetUserClassID method, IOleObject.GetUserClassID, IOleObject::GetUserClassID, _ole_ioleobject_getuserclassid, com.ioleobject_getuserclassid, oleidl/IOleObject::GetUserClassID
 ms.prod: windows
 ms.technology: windows-sdk

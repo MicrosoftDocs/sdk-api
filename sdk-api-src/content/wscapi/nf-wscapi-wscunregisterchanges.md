@@ -4,10 +4,10 @@ title: WscUnRegisterChanges function
 author: windows-sdk-content
 description: Cancels a callback registration that was made by a call to the WscRegisterForChanges function.
 old-location: winprog\wscunregisterchanges.htm
-old-project: devnotes
+old-project: DevNotes
 ms.assetid: cfb0d076-bd8b-4483-a036-51c77b8181c9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WscUnRegisterChanges, WscUnRegisterChanges function [Windows API], winprog.wscunregisterchanges, wscapi/WscUnRegisterChanges
 ms.prod: windows
 ms.technology: windows-sdk

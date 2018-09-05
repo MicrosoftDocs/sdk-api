@@ -95,12 +95,16 @@ Calling this method with <a href="https://msdn.microsoft.com/92839109-91d5-45fc-
 
 The following example shows how to use this method.
 
-
-```
-HRESULT hr = pViewport->SetInputMode(DIRECTMANIPULATION_INPUT_MODE_AUTOMATIC);
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr = pViewport-&gt;SetInputMode(DIRECTMANIPULATION_INPUT_MODE_AUTOMATIC);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

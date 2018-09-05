@@ -7,7 +7,7 @@ old-location: base\symsethomedirectory.htm
 old-project: debug
 ms.assetid: 12e65054-c4d5-44b9-8597-b841cac012f5
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: SymSetHomeDirectory, SymSetHomeDirectory function, SymSetHomeDirectoryW, base.symsethomedirectory, dbghelp/SymSetHomeDirectory, dbghelp/SymSetHomeDirectoryW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: devinst\setupdiaskforoemdisk.htm
 old-project: devinst
 ms.assetid: 5be03143-3de0-43ed-a027-832f1e275527
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: SetupDiAskForOEMDisk, SetupDiAskForOEMDisk function [Device and Driver Installation], devinst.setupdiaskforoemdisk, di-rtns_4b903984-cb48-48d3-9de8-dc68a79128c2.xml, setupapi/SetupDiAskForOEMDisk
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ The <b>SetupDiAskForOEMDisk</b> function displays a dialog that asks the user fo
 
 ### -param DeviceInfoSet [in]
 
-A handle to a <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> for the local computer. This set contains a device information element that represents the device that is being installed. 
+A handle to a <a href="devinst.device_information_sets">device information set</a> for the local computer. This set contains a device information element that represents the device that is being installed. 
 
 
 ### -param DeviceInfoData [in, optional]

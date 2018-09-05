@@ -7,7 +7,7 @@ old-location: shell\FreeIDListArray.htm
 old-project: shell
 ms.assetid: 42496da6-452e-45cb-9061-74eba95aff7e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: FreeIDListArray, FreeIDListArray function [Windows Shell], _shell_FreeIDListArray, shell.FreeIDListArray, shobjidl_core/FreeIDListArray
 ms.prod: windows
 ms.technology: windows-sdk

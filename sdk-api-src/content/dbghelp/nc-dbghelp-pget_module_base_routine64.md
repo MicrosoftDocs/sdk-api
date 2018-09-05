@@ -7,7 +7,7 @@ old-location: base\getmodulebaseproc64.htm
 old-project: debug
 ms.assetid: a1060d41-183f-4cb1-8214-afef2996ca66
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: GetModuleBaseProc64, GetModuleBaseProc64 callback, GetModuleBaseProc64 callback function, PGET_MODULE_BASE_ROUTINE, PGET_MODULE_BASE_ROUTINE64, _win32_getmodulebaseproc64, base.getmodulebaseproc64, dbghelp/GetModuleBaseProc64
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,9 +89,13 @@ The function returns the base address of the module.
 
 This callback function supersedes the <i>PGET_MODULE_BASE_ROUTINE</i> callback function.  <i>PGET_MODULE_BASE_ROUTINE</i> is defined as follows in DbgHelp.h. 
 
-
-```cpp
-#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
 #define PGET_MODULE_BASE_ROUTINE PGET_MODULE_BASE_ROUTINE64
 #else
 typedef
@@ -100,10 +104,10 @@ DWORD
     __in HANDLE hProcess,
     __in DWORD Address
     );
-#endif
-```
-
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,10 +4,10 @@ title: RevertSecurityContext function
 author: windows-sdk-content
 description: Allows a security package to discontinue the impersonation of the caller and restore its own security context.
 old-location: security\revertsecuritycontext.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: d4ed1fe9-2e0a-4648-a010-1eae49ba03ee
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: RevertSecurityContext, RevertSecurityContext function [Security], _ssp_revertsecuritycontext, security.revertsecuritycontext, sspi/RevertSecurityContext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -120,7 +120,7 @@ The handle passed to the function is not valid.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374731(v=VS.85).aspx">SSPI Functions</a>
+<a href="authentication_functions.htm">SSPI Functions</a>
  
 
  

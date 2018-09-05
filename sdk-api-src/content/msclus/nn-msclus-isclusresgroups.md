@@ -7,7 +7,7 @@ old-location: mscs\clusresgroups_collection.htm
 old-project: mscs
 ms.assetid: 7411d5f9-15c0-4c03-9128-c6b636979a50
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusResGroups, ClusResGroups collection [Failover Cluster], ClusResGroups collection [Failover Cluster],described, ISClusResGroups, _wolf_clusresgroups_collection, msclus/ClusResGroups, mscs.clusresgroups_collection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ req.product: GDI+ 1.1
     versions.]
 
 Provides access to all cluster <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">groups</a> belonging either to 
-    a <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> or to a particular 
+    a <a href="c_gly.htm">cluster</a> or to a particular 
     <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">node</a> in a cluster.
 
 

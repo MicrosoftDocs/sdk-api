@@ -115,43 +115,51 @@ For more information about advise sinks that can be installed by each implementa
 <b>ITfThreadMgr</b>
 
 <div class="code"></div>
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT hr;
 ITfSourceSingle *pSourceSingle;
 
-hr = pThreadManager->QueryInterface(IID_ITfSourceSingle, (LPVOID*)&pSourceSingle);
+hr = pThreadManager-&gt;QueryInterface(IID_ITfSourceSingle, (LPVOID*)&amp;pSourceSingle);
 if(SUCCEEDED(hr))
 {
     //Use the ITfSourceSingle interface. 
     
-    pSourceSingle->Release();
+    pSourceSingle-&gt;Release();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <b>ITfContext</b>
 
 <div class="code"></div>
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT hr;
 ITfSourceSingle *pSourceSingle;
 
-hr = pContext->QueryInterface(IID_ITfSourceSingle, (LPVOID*)&pSourceSingle);
+hr = pContext-&gt;QueryInterface(IID_ITfSourceSingle, (LPVOID*)&amp;pSourceSingle);
 if(SUCCEEDED(hr))
 {
     //Use the ITfSourceSingle interface. 
     
-    pSourceSingle->Release();
+    pSourceSingle-&gt;Release();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -175,7 +183,7 @@ if(SUCCEEDED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
  
 
  

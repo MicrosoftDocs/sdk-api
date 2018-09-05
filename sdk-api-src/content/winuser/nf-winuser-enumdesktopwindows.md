@@ -7,7 +7,7 @@ old-location: winstation\enumdesktopwindows.htm
 old-project: winstation
 ms.assetid: b399ff19-e2e5-4509-8bb5-9647734881b3
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 08/29/2018
 ms.keywords: EnumDesktopWindows, EnumDesktopWindows function [Windows Stations and Desktops], _win32_enumdesktopwindows, base.enumdesktopwindows, winstation.enumdesktopwindows, winuser/EnumDesktopWindows
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,7 +78,7 @@ If this parameter is NULL, the current desktop is used.
 ### -param lpfn [in]
 
 A pointer to an application-defined 
-<a href="https://msdn.microsoft.com/en-us/library/ms633498(v=VS.85).aspx">EnumWindowsProc</a> callback function.
+<a href="_win32_enumwindowsproc_cpp">EnumWindowsProc</a> callback function.
 
 
 ### -param lParam [in]
@@ -125,7 +125,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633498(v=VS.85).aspx">EnumWindowsProc</a>
+<a href="_win32_enumwindowsproc_cpp">EnumWindowsProc</a>
 
 
 

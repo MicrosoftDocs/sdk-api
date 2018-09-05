@@ -7,7 +7,7 @@ old-location: com\hitresult.htm
 old-project: com
 ms.assetid: 44b070e4-5453-446c-a871-d977a8df8140
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: HITRESULT, HITRESULT enumeration [COM], HITRESULT_CLOSE, HITRESULT_HIT, HITRESULT_OUTSIDE, HITRESULT_TRANSPARENT, _ole_HITRESULT, com.hitresult, ocidl/HITRESULT, ocidl/HITRESULT_CLOSE, ocidl/HITRESULT_HIT, ocidl/HITRESULT_OUTSIDE, ocidl/HITRESULT_TRANSPARENT, tagHITRESULT
 ms.prod: windows
 ms.technology: windows-sdk

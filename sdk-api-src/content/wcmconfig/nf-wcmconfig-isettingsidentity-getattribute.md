@@ -4,10 +4,10 @@ title: ISettingsIdentity::GetAttribute
 author: windows-sdk-content
 description: Gets an identity attribute for a namespace identity.
 old-location: smi\isettingsidentity_getattribute.htm
-old-project: smi
+old-project: SMI
 ms.assetid: d79bf4be-f3ed-426b-a880-b9ab8aee0092
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetAttribute, GetAttribute method [SMI], GetAttribute method [SMI],ISettingsIdentity interface, ISettingsIdentity interface [SMI],GetAttribute method, ISettingsIdentity.GetAttribute, ISettingsIdentity::GetAttribute, smi.isettingsidentity_getattribute, wcmconfig/ISettingsIdentity::GetAttribute
 ms.prod: windows
 ms.technology: windows-sdk

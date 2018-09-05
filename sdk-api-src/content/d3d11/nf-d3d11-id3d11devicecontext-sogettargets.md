@@ -62,16 +62,16 @@ Get the target output buffers for the stream-output stage of the pipeline.
 
 ### -param NumBuffers [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
 Number of buffers to get.
 
 
 ### -param ppSOTargets [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476351(v=VS.85).aspx">ID3D11Buffer</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/7224de57-75cb-4d68-9d70-f5dd2f92b1fd">ID3D11Buffer</a>**</b>
 
-An array of output buffers (see <a href="https://msdn.microsoft.com/en-us/library/Ff476351(v=VS.85).aspx">ID3D11Buffer</a>) to be retrieved from the device.
+An array of output buffers (see <a href="https://msdn.microsoft.com/7224de57-75cb-4d68-9d70-f5dd2f92b1fd">ID3D11Buffer</a>) to be retrieved from the device.
           
 
 
@@ -90,7 +90,7 @@ Returns nothing.
 
 A maximum of four output buffers can be retrieved.
 
-The offsets to the output buffers pointed to in the returned <i>ppSOTargets</i> array may be assumed to be -1 (append), as defined for use in <a href="https://msdn.microsoft.com/en-us/library/Ff476484(v=VS.85).aspx">ID3D11DeviceContext::SOSetTargets</a>.
+The offsets to the output buffers pointed to in the returned <i>ppSOTargets</i> array may be assumed to be -1 (append), as defined for use in <a href="https://msdn.microsoft.com/fba6e33e-7d35-4f26-b841-38610164d276">ID3D11DeviceContext::SOSetTargets</a>.
         
 
 Any returned interfaces will have their reference count incremented by one. Applications should call IUnknown::Release on the returned interfaces when they are no longer needed to avoid memory leaks.
@@ -107,7 +107,7 @@ Any returned interfaces will have their reference count incremented by one. Appl
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476385(v=VS.85).aspx">ID3D11DeviceContext</a>
+<a href="https://msdn.microsoft.com/afb32c09-77f2-4c33-bd93-8dce92a2e45e">ID3D11DeviceContext</a>
  
 
  

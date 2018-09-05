@@ -7,7 +7,7 @@ old-location: cos\icrmmonitorclerks_get_count.htm
 old-project: cossdk
 ms.assetid: 677f39e5-6f77-46a5-9429-682c0d2933df
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ICrmMonitorClerks interface [COM+],get_Count method, ICrmMonitorClerks.get_Count, ICrmMonitorClerks::get_Count, _dtc_ICrmMonitorClerks_Count, comsvcs/ICrmMonitorClerks::get_Count, cos.icrmmonitorclerks_get_count, get_Count, get_Count method [COM+], get_Count method [COM+],ICrmMonitorClerks interface
 ms.prod: windows
 ms.technology: windows-sdk
@@ -108,7 +108,7 @@ A <b>NULL</b> pointer was provided as an argument.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms684207(v=VS.85).aspx">ICrmMonitorClerks</a>
+<a href="https://msdn.microsoft.com/90403516-f677-4396-8991-ae621c159567">ICrmMonitorClerks</a>
  
 
  

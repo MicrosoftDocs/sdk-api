@@ -7,7 +7,7 @@ old-location: wec\ecdeletesubscription.htm
 old-project: WEC
 ms.assetid: 301b982e-a7ab-47ef-99a7-bd63dded792b
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: EcDeleteSubscription, EcDeleteSubscription function, evcoll/EcDeleteSubscription, wec.ecdeletesubscription, wes.ecdeletesubscription
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,7 +78,7 @@ Reserved, must be 0.
 
 
 
-This function returns BOOL __stdcall.
+This function returns BOOL.
 
 
 

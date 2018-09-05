@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteLocalizedStrings.htm
 old-project: DirectWrite
 ms.assetid: 37bfc613-4128-45aa-b6b2-6163d44378e4
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: IDWriteLocalizedStrings, IDWriteLocalizedStrings interface [Direct Write], IDWriteLocalizedStrings interface [Direct Write],described, directwrite.IDWriteLocalizedStrings, dwrite/IDWriteLocalizedStrings
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wnv\wnv_provider_address_change_param.htm
 old-project: wnv
 ms.assetid: 9FC20DFE-663C-47ED-8183-76C10D4E7615
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: "*PWNV_PROVIDER_ADDRESS_CHANGE_PARAM, IpDadStateDeprecated, IpDadStateDuplicate, IpDadStateInvalid, IpDadStatePreferred, IpDadStateTentative, PWNV_PROVIDER_ADDRESS_CHANGE_PARAM, PWNV_PROVIDER_ADDRESS_CHANGE_PARAM structure pointer [Windows Network Virtualization], WNV_PROVIDER_ADDRESS_CHANGE_PARAM, WNV_PROVIDER_ADDRESS_CHANGE_PARAM structure [Windows Network Virtualization], _WNV_PROVIDER_ADDRESS_CHANGE_PARAM, wnv.wnv_provider_address_change_param, wnvapi/PWNV_PROVIDER_ADDRESS_CHANGE_PARAM, wnvapi/WNV_PROVIDER_ADDRESS_CHANGE_PARAM"
 ms.prod: windows
 ms.technology: windows-sdk

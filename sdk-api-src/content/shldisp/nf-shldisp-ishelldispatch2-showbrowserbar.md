@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch2_ShowBrowserBar.htm
 old-project: shell
 ms.assetid: 5776370c-3bbf-449b-a8fe-2dbc7d89dd25
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellDispatch2 object [Windows Shell],ShowBrowserBar method, IShellDispatch2.ShowBrowserBar, IShellDispatch2::ShowBrowserBar, ShowBrowserBar, ShowBrowserBar method [Windows Shell], ShowBrowserBar method [Windows Shell],IShellDispatch2 object, _win32_IShellDispatch2_ShowBrowserBar, shell.IShellDispatch2_ShowBrowserBar
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,7 +79,7 @@ Displays a browser bar.
 
 #### - sCLSID [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a></b>
+Type: <b><a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a></b>
 
 A <b>String</b> that contains the string form of the CLSID of the browser bar to be displayed. The object must be registered as an Explorer Bar object with a CATID_InfoBand component category. For further information, see <a href="https://msdn.microsoft.com/4bf46b3f-f833-42e0-baf7-21bfa9e6d890">Creating Custom Explorer Bars, Tool Bands, and Desk Bands</a>.
 
@@ -156,9 +156,13 @@ The following examples show the use of <b>ShowBrowserBar</b> to display the <b>F
 JScript:
                 
 
-
-```javascript
-<script language="JavaScript">
+<div class="code"><span codelanguage="JScript"><table>
+<tr>
+<th>JScript</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="JavaScript"&gt;
     function fnShowBrowserBarJ()
     {
         var objShell = new ActiveXObject("shell.application");
@@ -166,16 +170,20 @@ JScript:
         
         bReturn = objShell.ShowBrowserBar("{EFA24E61-B078-11d0-89E4-00C04FC9E26E}", true);
     }
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 VBScript:
 
-
-```vb
-<script language="VBScript">
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="VBScript"&gt;
     function fnShowBrowserBarVB()
         dim objShell
         dim bReturn
@@ -186,10 +194,10 @@ VBScript:
 
         set objShell = nothing
     end function
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

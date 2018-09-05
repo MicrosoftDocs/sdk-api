@@ -4,10 +4,10 @@ title: MesIncrementalHandleReset function
 author: windows-sdk-content
 description: The MesIncrementalHandleReset function re-initializes the handle for incremental serialization.
 old-location: rpc\mesincrementalhandlereset.htm
-old-project: rpc
+old-project: Rpc
 ms.assetid: 13ca3bd0-0527-4d54-84a1-aa6efca88e8d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MesIncrementalHandleReset, MesIncrementalHandleReset function [RPC], _rpc_mesincrementalhandlereset, midles/MesIncrementalHandleReset, rpc.mesincrementalhandlereset
 ms.prod: windows
 ms.technology: windows-sdk

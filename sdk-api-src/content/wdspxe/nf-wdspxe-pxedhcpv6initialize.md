@@ -4,10 +4,10 @@ title: PxeDhcpv6Initialize function
 author: windows-sdk-content
 description: Initializes a response packet as a DHCPv6 reply packet.
 old-location: wds\pxedhcpv6initialize.htm
-old-project: wds
+old-project: Wds
 ms.assetid: B9287BDA-3C7A-457C-8D70-E27A0B9BAE99
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PxeDhcpv6Initialize, PxeDhcpv6Initialize function [Windows Deployment Services], wds.pxedhcpv6initialize, wdspxe/PxeDhcpv6Initialize
 ms.prod: windows
 ms.technology: windows-sdk

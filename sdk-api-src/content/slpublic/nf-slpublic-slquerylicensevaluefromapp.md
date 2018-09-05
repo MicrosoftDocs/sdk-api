@@ -4,10 +4,10 @@ title: SLQueryLicenseValueFromApp function
 author: windows-sdk-content
 description: Gets the value for the specified component policy.
 old-location: security\slquerylicensevaluefromapp.htm
-old-project: secslapi
+old-project: SecSLApi
 ms.assetid: C26FF469-2B25-4EDA-8432-EF32A4550650
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SLQueryLicenseValueFromApp, SLQueryLicenseValueFromApp function [Security], security.slquerylicensevaluefromapp, slpublic/SLQueryLicenseValueFromApp
 ms.prod: windows
 ms.technology: windows-sdk

@@ -52,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Sets the width of all columns in a multiple-column list box. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761338(v=VS.85).aspx">LB_SETCOLUMNWIDTH</a> message explicitly.
+Sets the width of all columns in a multiple-column list box. You can use this macro or send the <a href="https://msdn.microsoft.com/227baae1-98f1-450e-97d4-4c7e9142614e">LB_SETCOLUMNWIDTH</a> message explicitly.
 
 
 ## -parameters

@@ -4,10 +4,10 @@ title: IEventTrigger::get_ValueQueries
 author: windows-sdk-content
 description: Gets or sets a collection of named XPath queries. Each query in the collection is applied to the last matching event XML returned from the subscription query specified in the Subscription property.
 old-location: taskschd\ieventtrigger_valuequeries.htm
-old-project: taskschd
+old-project: TaskSchd
 ms.assetid: 0bceb9d5-11f3-40a3-ba05-be896420e1db
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IEventTrigger interface [Task Scheduler],ValueQueries property, IEventTrigger.ValueQueries, IEventTrigger.get_ValueQueries, IEventTrigger::ValueQueries, IEventTrigger::get_ValueQueries, IEventTrigger::put_ValueQueries, ValueQueries property [Task Scheduler], ValueQueries property [Task Scheduler],IEventTrigger interface, get_ValueQueries, taskschd.ieventtrigger_valuequeries, taskschd/IEventTrigger::ValueQueries, taskschd/IEventTrigger::get_ValueQueries, taskschd/IEventTrigger::put_ValueQueries
 ms.prod: windows
 ms.technology: windows-sdk

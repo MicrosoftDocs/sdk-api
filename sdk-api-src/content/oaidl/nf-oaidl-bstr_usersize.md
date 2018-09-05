@@ -60,7 +60,17 @@ Calculates the wire size of the <a href="https://msdn.microsoft.com/1b2d7d2c-47a
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
+
+TBD
+
+
+### -param arg3
 
 TBD
 

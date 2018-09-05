@@ -4,10 +4,10 @@ title: SnmpCreateSession function
 author: windows-sdk-content
 description: The SnmpCreateSession function requests the Microsoft WinSNMP implementation to open a session for the WinSNMP application.
 old-location: snmp\snmpcreatesession.htm
-old-project: snmp
+old-project: SNMP
 ms.assetid: 8d982eb5-a7b5-418e-94ad-3e5dc43d225c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SnmpCreateSession, SnmpCreateSession function [SNMP], _snmp_snmpcreatesession, snmp.snmpcreatesession, winsnmp/SnmpCreateSession
 ms.prod: windows
 ms.technology: windows-sdk

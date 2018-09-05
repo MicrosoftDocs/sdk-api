@@ -7,7 +7,7 @@ old-location: wcn\iwcndevice_getstringattribute.htm
 old-project: wcn
 ms.assetid: 4ef065be-0046-4ce6-8f81-417a4c8a550a
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: GetStringAttribute, GetStringAttribute method [Windows Connect Now], GetStringAttribute method [Windows Connect Now],IWCNDevice interface, IWCNDevice interface [Windows Connect Now],GetStringAttribute method, IWCNDevice.GetStringAttribute, IWCNDevice::GetStringAttribute, wcn.iwcndevice_getstringattribute, wcndevice/IWCNDevice::GetStringAttribute
 ms.prod: windows
 ms.technology: windows-sdk

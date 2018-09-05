@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_RefreshMenu.htm
 old-project: shell
 ms.assetid: D36FA5A0-AF03-4627-86E0-869BF1440958
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellDispatch object [Windows Shell],RefreshMenu method, IShellDispatch.RefreshMenu, IShellDispatch::RefreshMenu, RefreshMenu, RefreshMenu method [Windows Shell], RefreshMenu method [Windows Shell],IShellDispatch object, shell.IShellDispatch_RefreshMenu
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,25 +91,33 @@ The following examples show the use of <b>RefreshMenu</b> in JScript, VBScript, 
 JScript:
                 
 
-
-```javascript
-<script language="JScript">
+<div class="code"><span codelanguage="JScript"><table>
+<tr>
+<th>JScript</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="JScript"&gt;
     function fnShellRefreshMenuJ()
     {
         var objShell = new ActiveXObject("shell.application");
         
         objshell.RefreshMenu();
     }
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 VBScript:
 
-
-```vb
-<script language="VBScript">
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="VBScript"&gt;
     function fnShellRefreshMenuVB()
         dim objShell
         
@@ -118,16 +126,20 @@ VBScript:
 
         set objShell = nothing
     end function
- </script>
-
-```
-
-
+ &lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 Visual Basic:
 
-
-```vb
-Private Sub fnShellRefreshMenuVB()
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Private Sub fnShellRefreshMenuVB()
     Dim objShell As Shell
     
     Set objShell = New Shell
@@ -135,9 +147,9 @@ Private Sub fnShellRefreshMenuVB()
 
     Set objShell = Nothing
 End Sub
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

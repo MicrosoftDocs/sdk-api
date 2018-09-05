@@ -4,10 +4,10 @@ title: WSASetBlockingHook function
 author: windows-sdk-content
 description: This function has been removed in compliance with the Windows Sockets 2 specification, revision 2.2.0.
 old-location: winsock\wsasetblockinghook_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: 3a420778-0082-4c81-bdc9-d79c67453fae
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: WSASetBlockingHook, WSASetBlockingHook function [Winsock], _win32_wsasetblockinghook_2, winsock.wsasetblockinghook_2, winsock2/WSASetBlockingHook
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: com\isurrogateservice_catalogrefresh.htm
 old-project: com
 ms.assetid: 4e7b765b-0ba3-48db-afe2-2cb6257775fa
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CatalogRefresh, CatalogRefresh method [COM], CatalogRefresh method [COM],ISurrogateService interface, ISurrogateService interface [COM],CatalogRefresh method, ISurrogateService.CatalogRefresh, ISurrogateService::CatalogRefresh, _com_isurrogateservice_catalogrefresh, com.isurrogateservice_catalogrefresh, objidl/ISurrogateService::CatalogRefresh
 ms.prod: windows
 ms.technology: windows-sdk

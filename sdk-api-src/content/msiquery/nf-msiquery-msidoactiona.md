@@ -7,7 +7,7 @@ old-location: setup\msidoaction.htm
 old-project: msi
 ms.assetid: 33f2de47-71ab-4da8-bd56-ee58cde86e2b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MsiDoAction, MsiDoAction function, MsiDoActionA, MsiDoActionW, _msi_msidoaction, msiquery/MsiDoAction, msiquery/MsiDoActionA, msiquery/MsiDoActionW, setup.msidoaction
 ms.prod: windows
 ms.technology: windows-sdk
@@ -77,7 +77,7 @@ Specifies the action to execute.
 
 
 
-This function returns UINT __stdcall.
+This function returns UINT.
 
 
 
@@ -109,7 +109,7 @@ Actions that update the system, such as the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Installer Action Functions</a>
+<a href="database_functions.htm">Installer Action Functions</a>
  
 
  

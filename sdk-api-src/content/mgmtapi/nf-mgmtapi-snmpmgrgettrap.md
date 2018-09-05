@@ -4,10 +4,10 @@ title: SnmpMgrGetTrap function
 author: windows-sdk-content
 description: The SnmpMgrGetTrap function returns outstanding trap data that the caller has not received if trap reception is enabled. This function is an element of the SNMP Management API.
 old-location: snmp\snmpmgrgettrap.htm
-old-project: snmp
+old-project: SNMP
 ms.assetid: ce773bbe-0a05-45b5-af80-fc594a83b87a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SNMP_GENERICTRAP_AUTHFAILURE, SNMP_GENERICTRAP_COLDSTART, SNMP_GENERICTRAP_EGPNEIGHLOSS, SNMP_GENERICTRAP_ENTERSPECIFIC, SNMP_GENERICTRAP_LINKDOWN, SNMP_GENERICTRAP_LINKUP, SNMP_GENERICTRAP_WARMSTART, SnmpMgrGetTrap, SnmpMgrGetTrap function [SNMP], _snmp_snmpmgrgettrap, mgmtapi/SnmpMgrGetTrap, snmp.snmpmgrgettrap
 ms.prod: windows
 ms.technology: windows-sdk

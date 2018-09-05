@@ -7,7 +7,7 @@ old-location: wmi\swbemnamedvalueset_clone.htm
 old-project: WmiSdk
 ms.assetid: 0e7fab2e-8175-45e5-aa70-1109502e2b3f
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: Clone, Clone method [Windows Management Instrumentation], Clone method [Windows Management Instrumentation],ISWbemNamedValueSet interface, Clone method [Windows Management Instrumentation],SWbemNamedValueSet object, ISWbemNamedValueSet interface [Windows Management Instrumentation],Clone method, ISWbemNamedValueSet.Clone, ISWbemNamedValueSet::Clone, SWbemNamedValueSet object [Windows Management Instrumentation],Clone method, SWbemNamedValueSet.Clone, _hmm_swbemnamedvalueset.clone, wmi.swbemnamedvalueset_clone
 ms.prod: windows
 ms.technology: windows-sdk

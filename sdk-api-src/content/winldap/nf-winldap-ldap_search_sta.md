@@ -167,9 +167,13 @@ Multithreading: Calls to <b>ldap_search_st</b> are thread-safe.
 
 The following code example shows how to free <i>pMsg</i> if <b>ldap_search_st</b> fails.
 
-
-```cpp
-// Initialize return value to NULL.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Initialize return value to NULL.
 LDAPMessage *pMsg = NULL;
 
 // Perform the search request.
@@ -180,7 +184,7 @@ dwErr = ldap_search_st (i_pldap,
         lpszAttributes,
         0,
         lpsTimeout,
-        &pMsg
+        &amp;pMsg
         );
 
 // Cleanup calling parameters.
@@ -212,10 +216,10 @@ else
     ...
     // Free the results when complete.
     if (pMsg != NULL) ldap_msgfree(pMsg);
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

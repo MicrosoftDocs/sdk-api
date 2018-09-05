@@ -7,7 +7,7 @@ old-location: wmi\swbemobjectpath_security_.htm
 old-project: WmiSdk
 ms.assetid: 26e5e990-3b78-41b6-83c4-ba0d8b0d2f00
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: ISWbemObjectPath interface [Windows Management Instrumentation],Security_ property, ISWbemObjectPath.get_Security_, ISWbemObjectPath::get_Security_, SWbemObjectPath object [Windows Management Instrumentation],Security_ property, SWbemObjectPath.Security_, Security_ property [Windows Management Instrumentation], Security_ property [Windows Management Instrumentation],ISWbemObjectPath interface, Security_ property [Windows Management Instrumentation],SWbemObjectPath object, _hmm_swbemobjectpath.security_, get_Security_, wmi.swbemobjectpath_security_
 ms.prod: windows
 ms.technology: windows-sdk

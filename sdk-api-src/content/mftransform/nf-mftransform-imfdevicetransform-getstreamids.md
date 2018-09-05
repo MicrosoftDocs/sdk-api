@@ -7,7 +7,7 @@ old-location: stream\imfdevicetransform_getstreamids.htm
 old-project: stream
 ms.assetid: 378A8E3F-8B1E-4C0B-9C30-FE78E1939422
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: GetStreamIDs, GetStreamIDs method [Streaming Media Devices], GetStreamIDs method [Streaming Media Devices],IMFDeviceTransform interface, IMFDeviceTransform interface [Streaming Media Devices],GetStreamIDs method, IMFDeviceTransform.GetStreamIDs, IMFDeviceTransform::GetStreamIDs, mftransform/IMFDeviceTransform::GetStreamIDs, stream.imfdevicetransform_getstreamids
 ms.prod: windows
 ms.technology: windows-sdk

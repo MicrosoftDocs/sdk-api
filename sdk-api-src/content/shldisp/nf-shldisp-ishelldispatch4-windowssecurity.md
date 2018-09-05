@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch4_WindowsSecurity.htm
 old-project: shell
 ms.assetid: 665c4644-7749-446e-8212-3ecc9901a035
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellDispatch4 object [Windows Shell],WindowsSecurity method, IShellDispatch4.WindowsSecurity, IShellDispatch4::WindowsSecurity, WindowsSecurity, WindowsSecurity method [Windows Shell], WindowsSecurity method [Windows Shell],IShellDispatch4 object, _shell_IShellDispatch4_WindowsSecurity, shell.IShellDispatch4_WindowsSecurity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,25 +93,33 @@ The following examples show the use of <b>WindowsSecurity</b> for JScript, VBScr
 JScript:
                 
 
-
-```javascript
-<script language="JScript">
+<div class="code"><span codelanguage="JScript"><table>
+<tr>
+<th>JScript</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="JScript"&gt;
      function fnIShellDispatch4WindowsSecurityJ()
     {
         var objShell = new ActiveXObject("shell.application");
         
         objshell.WindowsSecurity();
     }
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 VBScript:
 
-
-```vb
-<script language="VBScript">
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="VBScript"&gt;
      function fnIShellDispatch4WindowsSecurityVB()
         dim objShell
         
@@ -119,25 +127,29 @@ VBScript:
             objshell.WindowsSecurity
         set objShell = nothing
     end function
- </script>
-
-```
-
-
+ &lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 Visual Basic:
 
-
-```vb
-Private Sub fnIShellDispatch4WindowsSecurityVB()
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Private Sub fnIShellDispatch4WindowsSecurityVB()
     Dim objShell As Shell
     
     Set objShell = New Shell
         objshell.WindowsSecurity
     Set objShell = Nothing
 End Sub
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

@@ -7,7 +7,7 @@ old-location: wec\ecgetsubscriptionruntimestatus.htm
 old-project: WEC
 ms.assetid: 17d9d264-5ae3-4e31-869c-ada0c6c5c53b
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: EcGetSubscriptionRunTimeStatus, EcGetSubscriptionRunTimeStatus function, evcoll/EcGetSubscriptionRunTimeStatus, wec.ecgetsubscriptionruntimestatus, wes.ecgetsubscriptionruntimestatus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -99,7 +99,7 @@ The size of the user supplied buffer that is used by the function on successful 
 
 
 
-This function returns BOOL __stdcall.
+This function returns BOOL.
 
 
 

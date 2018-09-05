@@ -7,7 +7,7 @@ old-location: shell\IFileOperationProgressSink_ResetTimer.htm
 old-project: shell
 ms.assetid: b753b53d-4a54-4bb2-af94-dd296f86b37a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IFileOperationProgressSink interface [Windows Shell],ResetTimer method, IFileOperationProgressSink.ResetTimer, IFileOperationProgressSink::ResetTimer, ResetTimer, ResetTimer method [Windows Shell], ResetTimer method [Windows Shell],IFileOperationProgressSink interface, _shell_IFileOperationProgressSink_ResetTimer, shell.IFileOperationProgressSink_ResetTimer, shobjidl_core/IFileOperationProgressSink::ResetTimer
 ms.prod: windows
 ms.technology: windows-sdk

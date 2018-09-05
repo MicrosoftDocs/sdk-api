@@ -4,10 +4,10 @@ title: PIBIO_ENGINE_QUERY_SAMPLE_HINT_FN
 author: windows-sdk-content
 description: Retrieves the number of correct samples required by the engine adapter to construct an enrollment template.
 old-location: secbiomet\engineadapterquerysamplehint.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: 9208cd3e-205d-4ef0-8f67-292385dea9a2
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: EngineAdapterQuerySampleHint, EngineAdapterQuerySampleHint callback function [Windows Biometric Framework API], PIBIO_ENGINE_QUERY_SAMPLE_HINT_FN, PIBIO_ENGINE_QUERY_SAMPLE_HINT_FN callback, secbiomet.engineadapterquerysamplehint, winbio_adapter/EngineAdapterQuerySampleHint
 ms.prod: windows
 ms.technology: windows-sdk
@@ -122,9 +122,13 @@ The value returned by the <i>SampleHint</i> parameter specifies the number of co
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-
-```cpp
-//////////////////////////////////////////////////////////////////////////////////////////
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//////////////////////////////////////////////////////////////////////////////////////////
 //
 // EngineAdapterQuerySampleHint
 //
@@ -164,10 +168,10 @@ cleanup:
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

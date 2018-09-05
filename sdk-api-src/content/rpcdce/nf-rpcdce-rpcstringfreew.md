@@ -4,10 +4,10 @@ title: RpcStringFreeW function
 author: windows-sdk-content
 description: The RpcStringFree function frees a character string allocated by the RPC run-time library.
 old-location: rpc\rpcstringfree.htm
-old-project: rpc
+old-project: Rpc
 ms.assetid: 07226282-1091-4479-adc8-b2f604c645e7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcStringFree, RpcStringFree function [RPC], RpcStringFreeA, RpcStringFreeW, _rpc_rpcstringfree, rpc.rpcstringfree, rpcdce/RpcStringFree, rpcdce/RpcStringFreeA, rpcdce/RpcStringFreeW
 ms.prod: windows
 ms.technology: windows-sdk

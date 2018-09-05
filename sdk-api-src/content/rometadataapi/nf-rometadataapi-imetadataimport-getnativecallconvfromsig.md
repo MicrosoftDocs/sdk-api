@@ -7,7 +7,7 @@ old-location: winrt\imetadataimport_getnativecallconvfromsig.htm
 old-project: WinRT
 ms.assetid: 90e09d3d-c77e-44c3-b4d0-6b2aee995b1e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetNativeCallConvFromSig, GetNativeCallConvFromSig method [Windows Runtime], GetNativeCallConvFromSig method [Windows Runtime],IMetaDataImport interface, IMetaDataImport interface [Windows Runtime],GetNativeCallConvFromSig method, IMetaDataImport.GetNativeCallConvFromSig, IMetaDataImport::GetNativeCallConvFromSig, rometadataapi/IMetaDataImport::GetNativeCallConvFromSig, winrt.imetadataimport_getnativecallconvfromsig
 ms.prod: windows
 ms.technology: windows-sdk

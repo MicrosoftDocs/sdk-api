@@ -7,7 +7,7 @@ old-location: wsl\wsllaunchinteractive.htm
 old-project: wsl
 ms.assetid: F9DF5B7A-D315-44B7-BB01-6440CCB4C64C
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WslLaunchInteractive, WslLaunchInteractive function, wsl.wsllaunchinteractive, wslapi/WslLaunchInteractive
 ms.prod: windows
 ms.technology: windows-sdk

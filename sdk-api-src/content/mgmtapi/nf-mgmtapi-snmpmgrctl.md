@@ -4,10 +4,10 @@ title: SnmpMgrCtl function
 author: windows-sdk-content
 description: The SnmpMgrCtl function sets an operating parameter associated with an SNMP session. This function is an element of the SNMP Management API.
 old-location: snmp\snmpmgrctl.htm
-old-project: snmp
+old-project: SNMP
 ms.assetid: d777c944-a19f-4465-ae56-b60beaa1191c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SnmpMgrCtl, SnmpMgrCtl function [SNMP], _snmp_snmpmgrctl, mgmtapi/SnmpMgrCtl, snmp.snmpmgrctl
 ms.prod: windows
 ms.technology: windows-sdk

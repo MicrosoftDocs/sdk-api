@@ -7,7 +7,7 @@ old-location: xaudio2\ixaudio2_interface_commitchanges.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2.IXAudio2.CommitChanges(UINT32)
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CommitChanges, CommitChanges method [XAudio2 Audio Mixing APIs], CommitChanges method [XAudio2 Audio Mixing APIs],IXAudio2 interface, IXAudio2 interface [XAudio2 Audio Mixing APIs],CommitChanges method, IXAudio2.CommitChanges, IXAudio2::CommitChanges, xaudio2.ixaudio2_interface_commitchanges, xaudio2/IXAudio2::CommitChanges
 ms.prod: windows
 ms.technology: windows-sdk
@@ -96,7 +96,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415908(v=VS.85).aspx">IXAudio2</a>
+<a href="https://msdn.microsoft.com/A49469C6-2C29-407C-8C57-65E3FC9463F1">IXAudio2</a>
  
 
  

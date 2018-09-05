@@ -4,10 +4,10 @@ title: BCryptDeriveKeyPBKDF2 function
 author: windows-sdk-content
 description: Derives a key from a hash value by using the PBKDF2 key derivation algorithm as defined by RFC 2898.
 old-location: security\bcryptderivekeypbkdf2.htm
-old-project: seccng
+old-project: SecCNG
 ms.assetid: afdddfec-a3a5-410c-998b-9a5af8e051b6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BCryptDeriveKeyPBKDF2, BCryptDeriveKeyPBKDF2 function [Security], bcrypt/BCryptDeriveKeyPBKDF2, security.bcryptderivekeypbkdf2
 ms.prod: windows
 ms.technology: windows-sdk

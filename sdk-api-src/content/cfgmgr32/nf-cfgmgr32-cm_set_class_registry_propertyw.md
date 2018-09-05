@@ -7,7 +7,7 @@ old-location: devinst\cm_set_class_registry_property.htm
 old-project: devinst
 ms.assetid: 65e19d09-4a53-439b-9678-f907caf0db5c
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: CM_Set_Class_Registry_Property, CM_Set_Class_Registry_Property function [Device and Driver Installation], CM_Set_Class_Registry_PropertyW, cfgmgr32/CM_Set_Class_Registry_Property, cfgmgr32/CM_Set_Class_Registry_PropertyW, cfgmgrfn_e39d0285-7d83-4228-bbf8-f0520c5d6566.xml, devinst.cm_set_class_registry_property
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,7 +91,7 @@ Reserved for internal use only. Must be set to zero.
 
 ### -param hMachine [in, optional]
 
-A handle to a remote machine on which to set the specified <a href="https://msdn.microsoft.com/library/Ff537744(v=VS.85).aspx">device setup class property</a>. This parameter is optional. If set to <b>NULL</b>, the property is set on the local machine.
+A handle to a remote machine on which to set the specified <a href="devinst.accessing_device_setup_class_properties">device setup class property</a>. This parameter is optional. If set to <b>NULL</b>, the property is set on the local machine.
 
 
 ## -returns

@@ -4,10 +4,10 @@ title: MAPISendMailHelper function
 author: windows-sdk-content
 description: Takes Unicode message information and sends the message using MAPISendMailW or, if necessary, converts the message to ANSI and sends the message using MAPISendMail.
 old-location: mapi\mapisendmailhelper.htm
-old-project: windowsmapi
+old-project: WindowsMAPI
 ms.assetid: 3FBE0950-6D73-4130-9F17-F1449247AB0F
 ms.author: windowssdkdev
-ms.date: 08/07/2018
+ms.date: 08/29/2018
 ms.keywords: MAPISendMailHelper, MAPISendMailHelper function, MAPI_DIALOG, MAPI_DIALOG_MODELESS, MAPI_FORCE_UNICODE, MAPI_LOGON_UI, MAPI_NEW_SESSION, mapi.mapisendmailhelper, mapiunicodehelp/MAPISendMailHelper
 ms.prod: windows
 ms.technology: windows-sdk
@@ -138,7 +138,7 @@ A value of zero means that there are no recipients. Additionally, when this memb
 <div> </div>
 If either <b>MAPI_DIALOG</b> or <b>MAPI_DIALOG_MODELESS</b> is not set, the <b>nRecipCount</b> and <b>lpRecips</b> members of the structure must be valid for successful message delivery. Client applications can set the <b>flFlags</b> member to <b>MAPI_RECEIPT_REQUESTED</b> to request a read report.
 
-For more details about how the function handles recipient information, see <a href="https://msdn.microsoft.com/en-us/library/Hh707275(v=VS.85).aspx">Handling recipient information</a> in <b>MAPISendMailW</b>.
+For more details about how the function handles recipient information, see <a href="mapisendmailw.htm">Handling recipient information</a> in <b>MAPISendMailW</b>.
 
 
 ### -param flFlags [in]

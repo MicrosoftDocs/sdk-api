@@ -7,7 +7,7 @@ old-location: setup\dependency_module.htm
 old-project: msi
 ms.assetid: 22aae1b6-59b6-4842-9523-d1e064511380
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Dependency object,Module property, IMsmDependency interface,Module property, IMsmDependency.get_Module, IMsmDependency::Module, IMsmDependency::get_Module, Module property, Module property,IMsmDependency interface, _msi_module_property, get_Module, setup.dependency_module
 ms.prod: windows
 ms.technology: windows-sdk

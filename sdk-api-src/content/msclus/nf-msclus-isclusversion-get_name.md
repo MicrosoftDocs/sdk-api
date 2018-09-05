@@ -7,7 +7,7 @@ old-location: mscs\clusversion_name.htm
 old-project: mscs
 ms.assetid: 4825ddd9-6293-4a23-83b0-b8c466b3362c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusVersion object [Failover Cluster],Name property, ClusVersion.Name, ISClusVersion.get_Name, ISClusVersion::get_Name, Name property [Failover Cluster], Name property [Failover Cluster],ClusVersion object, _wolf_clusversion.name, get_Name, mscs.clusversion_name
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Returns the name of the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+    <a href="c_gly.htm">cluster</a>.
 
 This property is read-only.
 

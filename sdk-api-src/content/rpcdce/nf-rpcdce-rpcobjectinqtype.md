@@ -4,10 +4,10 @@ title: RpcObjectInqType function
 author: windows-sdk-content
 description: The RpcObjectInqType function returns the type of an object.
 old-location: rpc\rpcobjectinqtype.htm
-old-project: rpc
+old-project: Rpc
 ms.assetid: 9146d4be-4a8a-4655-bd5b-e12f81fd4d23
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcObjectInqType, RpcObjectInqType function [RPC], _rpc_rpcobjectinqtype, rpc.rpcobjectinqtype, rpcdce/RpcObjectInqType
 ms.prod: windows
 ms.technology: windows-sdk

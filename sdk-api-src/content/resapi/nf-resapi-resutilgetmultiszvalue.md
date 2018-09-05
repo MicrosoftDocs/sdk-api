@@ -7,7 +7,7 @@ old-location: mscs\resutilgetmultiszvalue.htm
 old-project: mscs
 ms.assetid: 09547806-16f4-40ce-8713-591a7691a588
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ResUtilGetMultiSzValue, ResUtilGetMultiSzValue function [Failover Cluster], _wolf_resutilgetmultiszvalue, mscs.resutilgetmultiszvalue, resapi/ResUtilGetMultiSzValue
 ms.prod: windows
 ms.technology: windows-sdk

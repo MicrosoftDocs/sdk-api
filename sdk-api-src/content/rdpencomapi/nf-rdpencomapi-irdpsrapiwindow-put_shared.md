@@ -4,10 +4,10 @@ title: IRDPSRAPIWindow::put_Shared
 author: windows-sdk-content
 description: Gets or sets the sharing property for a window.
 old-location: rdp\irdpsrapiwindow_shared.htm
-old-project: rdp
+old-project: Rdp
 ms.assetid: e07ebdbc-79ce-4a85-9960-197c4c7ca445
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IRDPSRAPIWindow interface [RDP],Shared property, IRDPSRAPIWindow.Shared, IRDPSRAPIWindow.put_Shared, IRDPSRAPIWindow::Shared, IRDPSRAPIWindow::get_Shared, IRDPSRAPIWindow::put_Shared, RDPSRAPIWindow object [RDP],Shared property, Shared property [RDP], Shared property [RDP],IRDPSRAPIWindow interface, Shared property [RDP],RDPSRAPIWindow object, put_Shared, rdp.irdpsrapiwindow_shared, rdpencomapi/IRDPSRAPIWindow::Shared, rdpencomapi/IRDPSRAPIWindow::get_Shared, rdpencomapi/IRDPSRAPIWindow::put_Shared
 ms.prod: windows
 ms.technology: windows-sdk

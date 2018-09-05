@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontdownloadlistener_downloadcompleted.htm
 old-project: DirectWrite
 ms.assetid: d4da0189-efe4-4ee6-4cc9-179fbda54b98
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: DownloadCompleted, DownloadCompleted method [Direct Write], DownloadCompleted method [Direct Write],IDWriteFontDownloadListener interface, IDWriteFontDownloadListener interface [Direct Write],DownloadCompleted method, IDWriteFontDownloadListener.DownloadCompleted, IDWriteFontDownloadListener::DownloadCompleted, directwrite.idwritefontdownloadlistener_downloadcompleted, dwrite_3/IDWriteFontDownloadListener::DownloadCompleted
 ms.prod: windows
 ms.technology: windows-sdk

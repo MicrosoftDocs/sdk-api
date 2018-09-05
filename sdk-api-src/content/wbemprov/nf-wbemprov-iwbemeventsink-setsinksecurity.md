@@ -7,7 +7,7 @@ old-location: wmi\iwbemeventsink_setsinksecurity.htm
 old-project: WmiSdk
 ms.assetid: 887b3c21-2ff6-4ae9-80bf-19f601da5e8b
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: IWbemEventSink interface [Windows Management Instrumentation],SetSinkSecurity method, IWbemEventSink.SetSinkSecurity, IWbemEventSink::SetSinkSecurity, SetSinkSecurity, SetSinkSecurity method [Windows Management Instrumentation], SetSinkSecurity method [Windows Management Instrumentation],IWbemEventSink interface, _hmm_iwbemeventsink_setsinksecurity, wbemprov/IWbemEventSink::SetSinkSecurity, wmi.iwbemeventsink_setsinksecurity
 ms.prod: windows
 ms.technology: windows-sdk
@@ -99,17 +99,21 @@ For more information about providing events, see <a href="https://msdn.microsoft
 
 The following code example sets the SD for all the events provided through the sink.The code requires the following #include statements and references.
 
-
-```cpp
-#define _WIN32_WINNT 0x0500
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define _WIN32_WINNT 0x0500
 #define SECURITY_WIN32
 #pragma comment(lib, "wbemuuid.lib")
 #pragma comment(lib, "Secur32.lib")
-#include <windows.h>
-#include <sddl.h>
-#include <wbemidl.h>
-#include <security.h>
-#include <iostream>
+#include &lt;windows.h&gt;
+#include &lt;sddl.h&gt;
+#include &lt;wbemidl.h&gt;
+#include &lt;security.h&gt;
+#include &lt;iostream&gt;
 using namespace std;
 
 HRESULT CMyEventProvider::ProvideEvents( IWbemObjectSink *pSink,
@@ -129,16 +133,16 @@ HRESULT CMyEventProvider::ProvideEvents( IWbemObjectSink *pSink,
     PSECURITY_DESCRIPTOR pSD = NULL;
  
     ConvertStringSecurityDescriptorToSecurityDescriptorW(
-        wstrSD.c_str(), SDDL_REVISION_1, &pSD, &ulSize ); 
-    HRESULT hRes = pSink->QueryInterface( IID_IWbemEventSink,
+        wstrSD.c_str(), SDDL_REVISION_1, &amp;pSD, &amp;ulSize ); 
+    HRESULT hRes = pSink-&gt;QueryInterface( IID_IWbemEventSink,
         (void**)pEventSink );
     if( SUCCEEDED(hRes) )
-        hRes = pEventSink->SetSinkSecurity( ulLength, pSD );
+        hRes = pEventSink-&gt;SetSinkSecurity( ulLength, pSD );
     LocalFree(pSD );
     return hRes;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

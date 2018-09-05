@@ -4,10 +4,10 @@ title: CryptAcquireContextW function
 author: windows-sdk-content
 description: Used to acquire a handle to a particular key container within a particular cryptographic service provider (CSP). This returned handle is used in calls to CryptoAPI functions that use the selected CSP.
 old-location: security\cryptacquirecontext.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 57e13662-3189-4f8d-b90a-d1fbdc09b63c
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CRYPT_DEFAULT_CONTAINER_OPTIONAL, CRYPT_DELETEKEYSET, CRYPT_MACHINE_KEYSET, CRYPT_NEWKEYSET, CRYPT_SILENT, CRYPT_VERIFYCONTEXT, CryptAcquireContext, CryptAcquireContext function [Security], CryptAcquireContextA, CryptAcquireContextW, _crypto2_cryptacquirecontext, security.cryptacquirecontext, wincrypt/CryptAcquireContext, wincrypt/CryptAcquireContextA, wincrypt/CryptAcquireContextW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -520,9 +520,13 @@ The following example shows acquiring a cryptographic context and access to publ
 For an example that includes the complete context for this example, see <a href="https://msdn.microsoft.com/b9d13024-0e53-4930-9962-a2a0d0cb88de">Example C Program: Creating a Key Container and Generating Keys</a>. For additional examples, see 
 <a href="https://msdn.microsoft.com/e8d2503c-a38f-44f6-a653-ae9c7bf903bd">Example C Program: Using CryptAcquireContext</a>.
 
-
-```cpp
-//-------------------------------------------------------------------
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//-------------------------------------------------------------------
 // Declare and initialize variables.
 
 HCRYPTPROV hCryptProv = NULL;        // handle for a cryptographic
@@ -536,7 +540,7 @@ LPCSTR UserName = "MyKeyContainer";  // name of the key container
 // to attempt to open an existing key container.
 
 if(CryptAcquireContext(
-   &hCryptProv,               // handle to the CSP
+   &amp;hCryptProv,               // handle to the CSP
    UserName,                  // container name 
    NULL,                      // use the default provider
    PROV_RSA_FULL,             // provider type
@@ -556,7 +560,7 @@ else
  if (GetLastError() == NTE_BAD_KEYSET)
  {
    if(CryptAcquireContext(
-      &hCryptProv, 
+      &amp;hCryptProv, 
       UserName, 
       NULL, 
       PROV_RSA_FULL, 
@@ -592,10 +596,10 @@ if (CryptReleaseContext(hCryptProv,0))
 else
 {
   printf("The handle could not be released.\n");
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -616,7 +620,7 @@ else
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Service Provider Functions</a>
+<a href="cryptography_functions.htm">Service Provider Functions</a>
 
 
 

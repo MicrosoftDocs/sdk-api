@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboard2_gettag.htm
 old-project: UIAnimation
 ms.assetid: A73D5003-FC28-4A79-B157-3D0D2E0DEB3D
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetTag, GetTag method [Windows Animation], GetTag method [Windows Animation],IUIAnimationStoryboard2 interface, IUIAnimationStoryboard2 interface [Windows Animation],GetTag method, IUIAnimationStoryboard2.GetTag, IUIAnimationStoryboard2::GetTag, uianimation.iuianimationstoryboard2_gettag, uianimation/IUIAnimationStoryboard2::GetTag
 ms.prod: windows
 ms.technology: windows-sdk

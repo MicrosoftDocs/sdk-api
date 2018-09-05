@@ -7,7 +7,7 @@ old-location: mbn\imbndeviceservicescontext_maxdatasize.htm
 old-project: mbn
 ms.assetid: E6E29974-083D-4EC8-A4FF-5AACE7435444
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMbnDeviceServicesContext interface [Microsoft Broadband Networks],MaxDataSize property, IMbnDeviceServicesContext.MaxDataSize, IMbnDeviceServicesContext.get_MaxDataSize, IMbnDeviceServicesContext::MaxDataSize, IMbnDeviceServicesContext::get_MaxDataSize, MaxDataSize property [Microsoft Broadband Networks], MaxDataSize property [Microsoft Broadband Networks],IMbnDeviceServicesContext interface, get_MaxDataSize, mbn.imbndeviceservicescontext_maxdatasize, mbnapi/IMbnDeviceServicesContext::MaxDataSize, mbnapi/IMbnDeviceServicesContext::get_MaxDataSize
 ms.prod: windows
 ms.technology: windows-sdk

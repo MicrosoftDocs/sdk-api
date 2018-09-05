@@ -4,10 +4,10 @@ title: RasSecurityDialogComplete function
 author: windows-sdk-content
 description: The RasSecurityDialogComplete function notifies the RAS server of the results of a third-party security authentication transaction.
 old-location: rras\rassecuritydialogcomplete.htm
-old-project: rras
+old-project: RRAS
 ms.assetid: 9ebe8b85-7500-405f-98c2-6f51f3339629
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RasSecurityDialogComplete, RasSecurityDialogComplete function [RAS], _ras_rassecuritydialogcomplete, rasshost/RasSecurityDialogComplete, rras.rassecuritydialogcomplete
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ISensLogon2::PostShell
 author: windows-sdk-content
 description: Use the PostShell method when a user has logged on and Windows Explorer is running. This method is different from the Logon method because Logon is called after logon when the Shell may not yet be running.
 old-location: sens\isenslogon2_sessionpostshell.htm
-old-project: sens
+old-project: Sens
 ms.assetid: fa187b3c-fc78-410f-9339-9b4c94c43f95
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ISensLogon2 interface [SENS],PostShell method, ISensLogon2.PostShell, ISensLogon2::PostShell, PostShell, PostShell method [SENS], PostShell method [SENS],ISensLogon2 interface, _zaw_isenslogon2_sessionpostshell, sens.isenslogon2_sessionpostshell, sensevts/ISensLogon2::PostShell, syncmgr.isenslogon2_sessionpostshell
 ms.prod: windows
 ms.technology: windows-sdk

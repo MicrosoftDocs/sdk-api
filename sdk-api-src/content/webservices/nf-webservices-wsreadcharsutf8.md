@@ -7,7 +7,7 @@ old-location: wsw\wsreadcharsutf8.htm
 old-project: wsw
 ms.assetid: 03326291-a61b-457b-80ca-dbe5bef6bf9d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WsReadCharsUtf8, WsReadCharsUtf8 function [Web Services for Windows], webservices/WsReadCharsUtf8, wsw.wsreadcharsutf8
 ms.prod: windows
 ms.technology: windows-sdk

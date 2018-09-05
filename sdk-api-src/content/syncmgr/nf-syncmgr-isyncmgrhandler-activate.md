@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrHandler_Activate.htm
 old-project: shell
 ms.assetid: 0061387d-516d-44c5-b511-3236593382a9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: Activate, Activate method [Windows Shell], Activate method [Windows Shell],ISyncMgrHandler interface, ISyncMgrHandler interface [Windows Shell],Activate method, ISyncMgrHandler.Activate, ISyncMgrHandler::Activate, _shell_ISyncMgrHandler_Activate, shell.ISyncMgrHandler_Activate, syncmgr/ISyncMgrHandler::Activate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -107,16 +107,20 @@ If the handler does not need to perform any actions when it is activated, it can
 
 The following example shows a simple implementation of this method.
 
-
-```cpp
-STDMETHODIMP CMyDeviceHandler::Activate(__in BOOL fActivate)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CMyDeviceHandler::Activate(__in BOOL fActivate)
 {
     return E_NOTIMPL;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

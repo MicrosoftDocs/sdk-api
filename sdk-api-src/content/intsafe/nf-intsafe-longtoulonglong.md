@@ -7,7 +7,7 @@ old-location: shell\LongToULongLong.htm
 old-project: shell
 ms.assetid: 6ad0e928-b09b-41d7-be5a-fea9219edf4b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: LongToULongLong, LongToULongLong function [Windows Shell], _shell_LongToULongLong, intsafe/LongToULongLong, shell.LongToULongLong
 ms.prod: windows
 ms.technology: windows-sdk

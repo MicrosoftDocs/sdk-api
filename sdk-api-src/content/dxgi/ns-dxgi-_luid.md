@@ -7,7 +7,7 @@ old-location: direct3ddxgi\_luid.htm
 old-project: direct3ddxgi
 ms.assetid: 00601551-D6CE-4164-BDAF-DBCCF197990E
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: "*PLUID, LUID, LUID structure [DXGI], _LUID, direct3ddxgi._luid, dxgi/LUID"
 ms.prod: windows
 ms.technology: windows-sdk

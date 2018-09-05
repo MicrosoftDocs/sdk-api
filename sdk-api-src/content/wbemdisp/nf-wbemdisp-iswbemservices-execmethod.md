@@ -7,7 +7,7 @@ old-location: wmi\swbemservices_execmethod.htm
 old-project: WmiSdk
 ms.assetid: 2637efdc-fde5-4a44-a41f-67e0fb0df19d
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: ExecMethod, ExecMethod method [Windows Management Instrumentation], ExecMethod method [Windows Management Instrumentation],ISWbemServices interface, ExecMethod method [Windows Management Instrumentation],SWbemServices object, ISWbemServices interface [Windows Management Instrumentation],ExecMethod method, ISWbemServices.ExecMethod, ISWbemServices::ExecMethod, SWbemServices object [Windows Management Instrumentation],ExecMethod method, SWbemServices.ExecMethod, _hmm_swbemservices.execmethod, wmi.swbemservices_execmethod
 ms.prod: windows
 ms.technology: windows-sdk
@@ -123,32 +123,40 @@ If the method is successful, an
 
 
 
-Use <b>SWbemServices.ExecMethod</b> as an alternative to direct access for executing a <a href="https://msdn.microsoft.com/en-us/library/Aa390825(v=VS.85).aspx">provider method</a> in cases where it is not possible to execute a method directly. The 
+Use <b>SWbemServices.ExecMethod</b> as an alternative to direct access for executing a <a href="gloss_p.htm">provider method</a> in cases where it is not possible to execute a method directly. The 
 <b>ExecMethod</b> method allows you to obtain output parameters, if the provider supplies them, with a scripting language that does not support output parameters. Otherwise, the recommended means of invoking a method is to use direct access. For more information, see 
 <a href="https://msdn.microsoft.com/682cbe12-1487-4681-8d2f-4caf21cb068a">Manipulating Class and Instance Information</a>.
 
 For example, the following code example that calls the 
 <a href="https://msdn.microsoft.com/b7a815a2-7bf6-436f-b3b4-de55eeb2de0e">StartService</a> provider method in <a href="https://msdn.microsoft.com/713402d3-ee73-4a6c-afb9-ad8033a4c580">Win32_Service</a> uses direct access.
 
-
-```vb
-oService = GetObject("winmgmts:Win32_Service=Alerter")
-iStatus = oService.StartService()
-```
-
-
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>oService = GetObject("winmgmts:Win32_Service=Alerter")
+iStatus = oService.StartService()</pre>
+</td>
+</tr>
+</table></span></div>
 This example calls <b>SWbemServices.ExecMethod</b> to execute the <a href="https://msdn.microsoft.com/b7a815a2-7bf6-436f-b3b4-de55eeb2de0e">StartService</a> method. Note that an object path is required because <b>SWbemServices.ExecMethod</b> is not operating on the object already, unlike 
 <a href="https://msdn.microsoft.com/39a8a6e7-b499-410a-8c27-d4a05d1a61b9">SWbemObject.ExecMethod</a>.
 
-
-```vb
-Set WbemServices = GetObject("winmgmts:")
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Set WbemServices = GetObject("winmgmts:")
 Set oService = GetObject("winmgmts:Win32_Service='Alerter'")
 Set oPath = GetObject("winmgmts:Win32_Service='Alerter'").Path_
-WbemServices.ExecMethod oPath, "StartService"
-```
-
-
+WbemServices.ExecMethod oPath, "StartService"</pre>
+</td>
+</tr>
+</table></span></div>
 The <b>SWbemServices.ExecMethod</b> method requires an object path. If the script already holds an <a href="https://msdn.microsoft.com/d303ec1a-5e0c-4a5e-8ed3-ed353a138755">SWbemObject</a> object, use the 
 <a href="https://msdn.microsoft.com/39a8a6e7-b499-410a-8c27-d4a05d1a61b9">SWbemObject.ExecMethod</a> method.
 
@@ -164,9 +172,13 @@ The following example shows the
 <a href="https://msdn.microsoft.com/be80abec-fab4-4403-bc29-d0d4a38e3c87">Create Method in Class Win32_Process</a>. For an example of the same operation using an <a href="https://msdn.microsoft.com/d303ec1a-5e0c-4a5e-8ed3-ed353a138755">SWbemObject</a>, see 
 <a href="https://msdn.microsoft.com/39a8a6e7-b499-410a-8c27-d4a05d1a61b9">SWbemObject.ExecMethod</a>.
 
-
-```vb
-' Connect to WMI
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>' Connect to WMI
 set Services = getobject("winmgmts:root\cimv2")
 
 ' Obtain the class definition object of a Win32_Process object.
@@ -200,13 +212,13 @@ Else
         wscript.echo "Create method failed to execute."  
     Else
         wscript.echo "Create method executed" _
-            & " but had error " _
-            & "0x" & hex(oOutParams.ReturnValue)
+            &amp; " but had error " _
+            &amp; "0x" &amp; hex(oOutParams.ReturnValue)
     End If
-End If
-```
-
-
+End If</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

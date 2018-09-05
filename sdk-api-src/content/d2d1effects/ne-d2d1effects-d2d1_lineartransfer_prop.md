@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh706362(v=VS.85).aspx">Linear transfer effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/22DC496E-2958-4726-A74D-B3DE934F507C">Linear transfer effect</a>.
 
 
 ## -enum-fields

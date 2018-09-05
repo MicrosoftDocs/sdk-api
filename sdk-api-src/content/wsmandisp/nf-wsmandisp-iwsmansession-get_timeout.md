@@ -4,10 +4,10 @@ title: IWSManSession::get_Timeout
 author: windows-sdk-content
 description: Sets and gets the maximum amount of time, in milliseconds, that the client application waits for Windows Remote Management to complete its operations.
 old-location: winrm\iwsmansession_timeout.htm
-old-project: winrm
+old-project: WinRM
 ms.assetid: 23cec29b-20aa-440e-9c4d-c65cf81da719
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWSManSession interface [Windows Remote Management],Timeout property, IWSManSession.Timeout, IWSManSession.get_Timeout, IWSManSession::Timeout, IWSManSession::get_Timeout, IWSManSession::put_Timeout, Timeout property [Windows Remote Management], Timeout property [Windows Remote Management],IWSManSession interface, get_Timeout, winrm.iwsmansession_timeout, wsmandisp/IWSManSession::Timeout, wsmandisp/IWSManSession::get_Timeout, wsmandisp/IWSManSession::put_Timeout
 ms.prod: windows
 ms.technology: windows-sdk

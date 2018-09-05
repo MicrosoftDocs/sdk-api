@@ -7,7 +7,7 @@ old-location: shell\SHGetMalloc.htm
 old-project: shell
 ms.assetid: 720cacb9-af54-41b7-9fb6-72dfa634c4c5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHGetMalloc, SHGetMalloc function [Windows Shell], _win32_SHGetMalloc, shell.SHGetMalloc, shlobj_core/SHGetMalloc
 ms.prod: windows
 ms.technology: windows-sdk

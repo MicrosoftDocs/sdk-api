@@ -84,16 +84,20 @@ Position information of the sample in the stream referenced by pavi2.
 
 The <b>AVIStreamSampleToSample</b> macro is defined as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 #define AVIStreamSampleToSample(pavi1, pavi2, lsample) \ 
     AVIStreamTimeToSample(pavi1, AVIStreamSampleToTime \ 
     (pavi2, lsample)) 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

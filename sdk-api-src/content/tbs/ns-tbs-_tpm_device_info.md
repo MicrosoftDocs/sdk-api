@@ -4,10 +4,10 @@ title: "_TPM_DEVICE_INFO"
 author: windows-sdk-content
 description: Provides information about the version of the TPM.
 old-location: tbs\tpm_device_info.htm
-old-project: tbs
+old-project: TBS
 ms.assetid: 59B8AB6D-82D8-4B15-AB62-AB2B9CA7B5E3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PTPM_DEVICE_INFO, PTPM_DEVICE_INFO, PTPM_DEVICE_INFO structure pointer [TBS], TPM_DEVICE_INFO, TPM_DEVICE_INFO structure [TBS], _TPM_DEVICE_INFO, tbs.tpm_device_info, tbs/PTPM_DEVICE_INFO, tbs/TPM_DEVICE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

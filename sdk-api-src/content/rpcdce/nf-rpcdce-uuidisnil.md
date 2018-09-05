@@ -4,10 +4,10 @@ title: UuidIsNil function
 author: windows-sdk-content
 description: An application calls the UuidIsNil function to determine whether the specified UUID is a nil-valued UUID.
 old-location: rpc\uuidisnil.htm
-old-project: rpc
+old-project: Rpc
 ms.assetid: 0b764eca-552b-4431-812b-93fa0c03179e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: UuidIsNil, UuidIsNil function [RPC], _rpc_uuidisnil, rpc.uuidisnil, rpcdce/UuidIsNil
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: RTM_SIZE_OF_DEST_INFO macro
 author: windows-sdk-content
 description: The RTM_SIZE_OF_DEST_INFO macro returns the size of the destination information structure (RTM_DEST_INFO).
 old-location: rras\rtm_size_of_dest_info.htm
-old-project: rras
+old-project: RRAS
 ms.assetid: faad2b79-dcd0-47e7-95ab-05f6bad36650
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RTM_SIZE_OF_DEST_INFO, RTM_SIZE_OF_DEST_INFO macro [RAS], _rtmv2ref_rtm_size_of_dest_info, rras.rtm_size_of_dest_info, rtmv2/RTM_SIZE_OF_DEST_INFO
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,9 +75,13 @@ If the client  only uses one view per destination, the client can allocate an
 
 The macro is defined as follows:
 
-
-```cpp
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
 
 #define RTM_DEST_VIEW_INFO_SIZE                             \
     FIELD_OFFSET(RTM_DEST_INFO, ViewInfo)
@@ -88,9 +92,9 @@ The macro is defined as follows:
 #define RTM_BASIC_DEST_INFO_SIZE                            \
     (RTM_BASIC_DEST_INFO_SIZE + (NumViews) *                \
     RTM_DEST_VIEW_INFO_SIZE)
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

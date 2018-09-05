@@ -7,7 +7,7 @@ old-location: mscs\clusrestypes_collection.htm
 old-project: mscs
 ms.assetid: 614d3ed6-255f-46ed-9354-7a73a21cac87
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusResTypes, ClusResTypes collection [Failover Cluster], ClusResTypes collection [Failover Cluster],described, ISClusResTypes, _wolf_clusrestypes_collection, msclus/ClusResTypes, mscs.clusrestypes_collection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ req.product: GDI+ 1.1
 
 Provides 
     access to the <a href="https://msdn.microsoft.com/d02e4f51-7b86-451a-a51c-ea850ae464d1">resource types</a> in a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+    <a href="c_gly.htm">cluster</a>.
 
 
 ## -inheritance

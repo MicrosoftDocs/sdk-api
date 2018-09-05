@@ -62,9 +62,9 @@ Retrieves information about errors. Applications use the information for user no
 
 
 
-### -param param [in]
+### -param arg1
 
-Handle to the input context.
+TBD
 
 
 ### -param dwIndex [in]
@@ -128,6 +128,11 @@ Pointer to a buffer in which the function retrieves the error message string. Th
 ### -param dwBufLen [in]
 
 Size, in bytes, of the output buffer. The application sets this parameter to 0 if the function is to return the buffer size needed to receive the error message string, not including the terminating null character.
+
+
+#### - param [in]
+
+Handle to the input context.
 
 
 ## -returns

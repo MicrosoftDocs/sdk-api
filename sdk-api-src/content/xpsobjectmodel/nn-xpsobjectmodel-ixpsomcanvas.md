@@ -202,9 +202,13 @@ Sets the value that determines whether the edges of objects in this canvas will 
 
 The code example that follows illustrates how to create an instance of  this interface.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 IXpsOMCanvas    *newInterface;
 
 // Note the implicit requirement that CoInitializeEx 
@@ -215,28 +219,28 @@ hr = CoCreateInstance(
     NULL,
     CLSCTX_INPROC_SERVER,
     _uuidof(IXpsOMObjectFactory),
-    reinterpret_cast<LPVOID*>(&xpsFactory)
+    reinterpret_cast&lt;LPVOID*&gt;(&amp;xpsFactory)
     );
 
 if (SUCCEEDED(hr))
 {
-    hr = xpsFactory->CreateCanvas (&newInterface);
+    hr = xpsFactory-&gt;CreateCanvas (&amp;newInterface);
     if (SUCCEEDED(hr))
     {
         // use newInterface
 
-        newInterface->Release();
+        newInterface-&gt;Release();
     }
-    xpsFactory->Release();
+    xpsFactory-&gt;Release();
 }
 else
 {
     // evaluate HRESULT error returned in hr
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

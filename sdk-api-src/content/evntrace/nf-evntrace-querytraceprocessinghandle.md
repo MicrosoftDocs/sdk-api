@@ -44,6 +44,7 @@ targetos: Windows
 req.lib: AdvAPI32.lib
 req.dll: AdvAPI32.dll
 req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # QueryTraceProcessingHandle function

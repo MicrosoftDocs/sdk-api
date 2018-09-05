@@ -4,10 +4,10 @@ title: CryptGetMessageSignerCount function
 author: windows-sdk-content
 description: The CryptGetMessageSignerCount function returns the number of signers of a signed message.
 old-location: security\cryptgetmessagesignercount.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: d18bda8b-b333-4b1e-8ed5-f8eff04b3168
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CryptGetMessageSignerCount, CryptGetMessageSignerCount function [Security], _crypto2_cryptgetmessagesignercount, security.cryptgetmessagesignercount, wincrypt/CryptGetMessageSignerCount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -126,7 +126,7 @@ If the function fails, <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Simplified Message Functions</a>
+<a href="cryptography_functions.htm">Simplified Message Functions</a>
  
 
  

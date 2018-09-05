@@ -7,7 +7,7 @@ old-location: shell\PathFindNextComponent.htm
 old-project: shell
 ms.assetid: 2c76b901-dc0e-4f26-93c8-3c59b8f7147d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: PathFindNextComponent, PathFindNextComponent function [Windows Shell], PathFindNextComponentA, PathFindNextComponentW, _win32_PathFindNextComponent, shell.PathFindNextComponent, shlwapi/PathFindNextComponent, shlwapi/PathFindNextComponentA, shlwapi/PathFindNextComponentW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -99,12 +99,16 @@ If <i>pszPath</i> points to the terminating null character or if the call fails,
 
 The following simple console application passes various strings to <b>PathFindNextComponent</b> to demonstrate what the function recognizes as a path component and to show what is returned. To run this code in Visual Studio, you must link to Shlwapi.lib and define UNICODE in the preprocessor commands in the project settings.
 
-
-```cpp
-
-#include <windows.h>
-#include <iostream>
-#include <shlwapi.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+#include &lt;windows.h&gt;
+#include &lt;iostream&gt;
+#include &lt;shlwapi.h&gt;
 
 #pragma comment(lib, "shlwapi.lib")     // Link to this file.
 
@@ -125,17 +129,17 @@ int main()
         // The path variable pointed to the terminating null character.
         if (path == NULL)
         {
-            wcout << L"The terminating null character returns NULL\n\n";
+            wcout &lt;&lt; L"The terminating null character returns NULL\n\n";
         }
         // The path variable pointed to a path with only one component.
 		else if (*path == 0)
         {
-            wcout << L"The path " << oldPath 
-                  << L" returns a pointer to the terminating null character\n"; 
+            wcout &lt;&lt; L"The path " &lt;&lt; oldPath 
+                  &lt;&lt; L" returns a pointer to the terminating null character\n"; 
         }
         else 
         {
-            wcout << L"The path " << oldPath << L" returns " << path << L"\n";
+            wcout &lt;&lt; L"The path " &lt;&lt; oldPath &lt;&lt; L" returns " &lt;&lt; path &lt;&lt; L"\n";
         }
     }
  
@@ -145,21 +149,21 @@ int main()
 
     PCWSTR path1 = L"\\path1";
 
-    wcout << L"The path " << path1 << L" returns " 
-          << PathFindNextComponent(path1);
+    wcout &lt;&lt; L"The path " &lt;&lt; path1 &lt;&lt; L" returns " 
+          &lt;&lt; PathFindNextComponent(path1);
         
     PCWSTR path2 = L"\\path1\\path2";
 
-    wcout << L"\nThe path " << path2 << L" returns "
-          << PathFindNextComponent(path2);
+    wcout &lt;&lt; L"\nThe path " &lt;&lt; path2 &lt;&lt; L" returns "
+          &lt;&lt; PathFindNextComponent(path2);
         
     PCWSTR path3 = L"path1\\path2";
  
-    wcout << L"\nThe path " << path3 << L" returns "
-          << PathFindNextComponent(path3);
+    wcout &lt;&lt; L"\nThe path " &lt;&lt; path3 &lt;&lt; L" returns "
+          &lt;&lt; PathFindNextComponent(path3);
  
-    wcout << L"\nThe path " << L"c:\\file.txt" << L" returns "
-          << PathFindNextComponent(L"c:\\file.txt");
+    wcout &lt;&lt; L"\nThe path " &lt;&lt; L"c:\\file.txt" &lt;&lt; L" returns "
+          &lt;&lt; PathFindNextComponent(L"c:\\file.txt");
  
     return 0;
 }
@@ -175,9 +179,9 @@ The terminating null character returns NULL
 The path \path1 returns path1
 The path \path1\path2 returns path1\path2
 The path path1\path2 returns path2
-The path c:\file.txt returns file.txt
-```
-
-
+The path c:\file.txt returns file.txt</pre>
+</td>
+</tr>
+</table></span></div>
 
 

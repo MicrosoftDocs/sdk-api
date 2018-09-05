@@ -7,7 +7,7 @@ old-location: fs\enablentmsobject.htm
 old-project: Rsm
 ms.assetid: 6a752f8e-7be0-4f2c-9bd3-3678d7328b20
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: EnableNtmsObject, EnableNtmsObject function [Files], NTMS_DRIVE, NTMS_LIBRARY, NTMS_PHYSICAL_MEDIA, _zaw_enablentmsobject, base.enablentmsobject, fs.enablentmsobject, ntmsapi/EnableNtmsObject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -246,7 +246,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Object Management Functions</a>
+<a href="removable_storage_manager_functions.htm">Object Management Functions</a>
  
 
  

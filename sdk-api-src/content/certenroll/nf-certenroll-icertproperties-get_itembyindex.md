@@ -4,10 +4,10 @@ title: ICertProperties::get_ItemByIndex
 author: windows-sdk-content
 description: Retrieves a property from the collection by index number.
 old-location: security\icertproperties_itembyindex_property.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: d0e92e8a-2153-440e-829f-3c9cda8c8de4
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ICertProperties interface [Security],ItemByIndex property, ICertProperties.ItemByIndex, ICertProperties.get_ItemByIndex, ICertProperties::ItemByIndex, ICertProperties::get_ItemByIndex, ItemByIndex property [Security], ItemByIndex property [Security],ICertProperties interface, certenroll/ICertProperties::ItemByIndex, certenroll/ICertProperties::get_ItemByIndex, get_ItemByIndex, security.icertproperties_itembyindex_property
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375231(v=VS.85).aspx">ICertProperties</a>
+<a href="https://msdn.microsoft.com/b830c0af-0a38-419d-8a33-8e3626c4e8f1">ICertProperties</a>
  
 
  

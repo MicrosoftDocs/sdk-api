@@ -4,10 +4,10 @@ title: ICertificateEnrollmentPolicyServerSetup::get_ErrorString
 author: windows-sdk-content
 description: Retrieves a string that contains additional information about Certificate Enrollment Policy (CEP) Web Service setup failure.
 old-location: security\icertificateenrollmentpolicyserversetup_errorstring.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: CA9103BD-96CA-4FF3-B78D-A1F1345E58D3
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: ErrorString property [Security], ErrorString property [Security],ICertificateEnrollmentPolicyServerSetup interface, ICertificateEnrollmentPolicyServerSetup interface [Security],ErrorString property, ICertificateEnrollmentPolicyServerSetup.ErrorString, ICertificateEnrollmentPolicyServerSetup.get_ErrorString, ICertificateEnrollmentPolicyServerSetup::ErrorString, ICertificateEnrollmentPolicyServerSetup::get_ErrorString, casetup/ICertificateEnrollmentPolicyServerSetup::ErrorString, casetup/ICertificateEnrollmentPolicyServerSetup::get_ErrorString, get_ErrorString, security.icertificateenrollmentpolicyserversetup_errorstring
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-Calling any method on the <a href="https://msdn.microsoft.com/en-us/library/Ff808370(v=VS.85).aspx">ICertificateEnrollmentPolicyServerSetup</a> interface resets this property value to an empty error string.
+Calling any method on the <a href="https://msdn.microsoft.com/8C9F33BA-5FCB-4B99-869C-FADDC37A326A">ICertificateEnrollmentPolicyServerSetup</a> interface resets this property value to an empty error string.
 
 
 
@@ -74,7 +74,7 @@ Calling any method on the <a href="https://msdn.microsoft.com/en-us/library/Ff80
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff808370(v=VS.85).aspx">ICertificateEnrollmentPolicyServerSetup</a>
+<a href="https://msdn.microsoft.com/8C9F33BA-5FCB-4B99-869C-FADDC37A326A">ICertificateEnrollmentPolicyServerSetup</a>
  
 
  

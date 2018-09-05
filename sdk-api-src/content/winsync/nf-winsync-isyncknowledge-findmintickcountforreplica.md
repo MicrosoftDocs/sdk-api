@@ -7,7 +7,7 @@ old-location: winsync\isyncknowledge_findmintickcountforreplica.htm
 old-project: winsync
 ms.assetid: 6a1a3fb2-b656-4ecf-8fed-dc5f20cd22f1
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: FindMinTickCountForReplica, FindMinTickCountForReplica method [Windows Sync], FindMinTickCountForReplica method [Windows Sync],ISyncKnowledge interface, ISyncKnowledge interface [Windows Sync],FindMinTickCountForReplica method, ISyncKnowledge.FindMinTickCountForReplica, ISyncKnowledge::FindMinTickCountForReplica, winsync.isyncknowledge_findmintickcountforreplica, winsync/ISyncKnowledge::FindMinTickCountForReplica
 ms.prod: windows
 ms.technology: windows-sdk

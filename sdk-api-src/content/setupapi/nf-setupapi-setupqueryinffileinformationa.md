@@ -7,7 +7,7 @@ old-location: setup\setupqueryinffileinformation.htm
 old-project: SetupApi
 ms.assetid: 36f1824d-f71e-462a-a233-0240e76de3d2
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: SetupQueryInfFileInformation, SetupQueryInfFileInformation function [Setup API], SetupQueryInfFileInformationA, SetupQueryInfFileInformationW, _setupapi_setupqueryinffileinformation, setup.setupqueryinffileinformation, setupapi/SetupQueryInfFileInformation, setupapi/SetupQueryInfFileInformationA, setupapi/SetupQueryInfFileInformationW
 ms.prod: windows
 ms.technology: windows-sdk

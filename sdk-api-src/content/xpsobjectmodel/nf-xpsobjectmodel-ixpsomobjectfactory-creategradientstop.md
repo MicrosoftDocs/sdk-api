@@ -183,9 +183,13 @@ The calculations used to render a gradient are described in the <a href="http://
 
 The code example that follows illustrates how this method is used to create a new  interface.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 IXpsOMGradientStop    *newInterface;
 // The following values are defined outside of 
 // this example.
@@ -201,33 +205,33 @@ hr = CoCreateInstance(
     NULL,
     CLSCTX_INPROC_SERVER,
     _uuidof(IXpsOMObjectFactory),
-    reinterpret_cast<LPVOID*>(&xpsFactory)
+    reinterpret_cast&lt;LPVOID*&gt;(&amp;xpsFactory)
     );
 
 if (SUCCEEDED(hr))
 {
-    hr = xpsFactory->CreateGradientStop (
-        &color,
+    hr = xpsFactory-&gt;CreateGradientStop (
+        &amp;color,
         colorProfile,
         offset,
-        &newInterface);
+        &amp;newInterface);
 
     if (SUCCEEDED(hr))
     {
         // use newInterface
 
-        newInterface->Release();
+        newInterface-&gt;Release();
     }
-    xpsFactory->Release();
+    xpsFactory-&gt;Release();
 }
 else
 {
     // evaluate HRESULT error returned in hr
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

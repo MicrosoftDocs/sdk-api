@@ -7,7 +7,7 @@ old-location: wmi\swbemobject_path_.htm
 old-project: WmiSdk
 ms.assetid: 85a55159-5f10-49b5-bc37-39d7b4dfccd7
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: ISWbemObject interface [Windows Management Instrumentation],Path_ property, ISWbemObject.get_Path_, ISWbemObject::get_Path_, Path_ property [Windows Management Instrumentation], Path_ property [Windows Management Instrumentation],ISWbemObject interface, Path_ property [Windows Management Instrumentation],SWbemObject object, SWbemObject object [Windows Management Instrumentation],Path_ property, SWbemObject.Path_, _hmm_swbemobject.path_, get_Path_, wmi.swbemobject_path_
 ms.prod: windows
 ms.technology: windows-sdk
@@ -97,17 +97,21 @@ However, if you call
 
 The following code sample, taken from <a href="https://Gallery.TechNet.Microsoft.Com/5649568b-074e-4f5d-be52-e8b7d8fe4517">List All the WMI cimV2 Classes</a> in the TechNet Gallery, uses the Path_ property to list all the WMI cimV2 classes.
 
-
-```vb
-strComputer = "." 
-Set objWMIService=GetObject("winmgmts:{impersonationLevel=impersonate}!\\" & _  
-    strComputer & "\root\cimv2") 
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>strComputer = "." 
+Set objWMIService=GetObject("winmgmts:{impersonationLevel=impersonate}!\\" &amp; _  
+    strComputer &amp; "\root\cimv2") 
   
 For Each objclass in objWMIService.SubclassesOf() 
     Wscript.Echo objClass.Path_.Class 
-Next 
-```
-
-
+Next </pre>
+</td>
+</tr>
+</table></span></div>
 
 

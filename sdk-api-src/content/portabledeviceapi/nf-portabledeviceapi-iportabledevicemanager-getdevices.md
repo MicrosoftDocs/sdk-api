@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevicemanager_getdevices.htm
 old-project: wpd_sdk
 ms.assetid: 5061b3c0-8b93-480d-b1c6-0a6b616a2c8d
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetDevices, GetDevices method [Windows Portable Devices SDK], GetDevices method [Windows Portable Devices SDK],IPortableDeviceManager interface, IPortableDeviceManager interface [Windows Portable Devices SDK],GetDevices method, IPortableDeviceManager.GetDevices, IPortableDeviceManager::GetDevices, IPortableDeviceManagerGetDevices, portabledeviceapi/IPortableDeviceManager::GetDevices, wpdsdk.iportabledevicemanager_getdevices
 ms.prod: windows
 ms.technology: windows-sdk

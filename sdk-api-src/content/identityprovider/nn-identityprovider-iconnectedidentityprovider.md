@@ -4,10 +4,10 @@ title: IConnectedIdentityProvider
 author: windows-sdk-content
 description: Provides methods of interaction with a connected identity provider.
 old-location: security\iconnectedidentityprovider.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 0AF5036B-326E-4FBE-9F26-18F532EF0BB3
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: IConnectedIdentityProvider, IConnectedIdentityProvider interface [Security], IConnectedIdentityProvider interface [Security],described, identityprovider/IConnectedIdentityProvider, security.iconnectedidentityprovider
 ms.prod: windows
 ms.technology: windows-sdk

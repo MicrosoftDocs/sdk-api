@@ -7,7 +7,7 @@ old-location: mbn\imbnregistrationevents.htm
 old-project: mbn
 ms.assetid: f3b60a93-3b57-4c2c-9114-912ca47f16b2
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMbnRegistrationEvents, IMbnRegistrationEvents interface [Microsoft Broadband Networks], IMbnRegistrationEvents interface [Microsoft Broadband Networks],described, mbn.imbnregistrationevents, mbnapi/IMbnRegistrationEvents
 ms.prod: windows
 ms.technology: windows-sdk

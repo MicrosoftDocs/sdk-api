@@ -63,7 +63,7 @@ Specifies the type of shader patching used by GPU-Based Validation at either the
 
 ### -field D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE_NONE
 
-No shader patching is to be done.  This will retain the original shader bytecode.  Can lead to errors in some of the GPU-Based Validation state tracking as the unpatched shader may still change resource state (see <a href="https://msdn.microsoft.com/en-us/library/Dn899226(v=VS.85).aspx">Common state promotion</a>) but the promotion will be untracked without patching the shader.  This can improve performance but no validation will be performed and may also lead to misleading GPU-Based Validation errors. Use this mode very carefully. 
+No shader patching is to be done.  This will retain the original shader bytecode.  Can lead to errors in some of the GPU-Based Validation state tracking as the unpatched shader may still change resource state (see <a href="using_resource_barriers_to_synchronize_resource_states_in_direct3d_12.htm">Common state promotion</a>) but the promotion will be untracked without patching the shader.  This can improve performance but no validation will be performed and may also lead to misleading GPU-Based Validation errors. Use this mode very carefully. 
 
 
 ### -field D3D12_GPU_BASED_VALIDATION_SHADER_PATCH_MODE_STATE_TRACKING_ONLY
@@ -90,7 +90,7 @@ Unused, simply the count of the number of modes.
 
 
 
-This enum is used by the <a href="https://msdn.microsoft.com/en-us/library/Mt762981(v=VS.85).aspx">D3D12_DEBUG_DEVICE_GPU_BASED_VALIDATION_SETTINGS</a> structure.
+This enum is used by the <a href="https://msdn.microsoft.com/2C4E7A8D-CC42-4C2E-848E-7DA3ECA24391">D3D12_DEBUG_DEVICE_GPU_BASED_VALIDATION_SETTINGS</a> structure.
 
 
 
@@ -100,11 +100,11 @@ This enum is used by the <a href="https://msdn.microsoft.com/en-us/library/Mt762
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn950149(v=VS.85).aspx">Debug Layer Enumerations</a>
+<a href="https://msdn.microsoft.com/6E76C857-128E-4F0E-9711-72C4CF6C835C">Debug Layer Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt490477(v=VS.85).aspx">Using D3D12 Debug Layer GPU-Based Validation</a>
+<a href="https://msdn.microsoft.com/01D1F94F-4DD4-4781-86EF-6C639E8B1069">Using D3D12 Debug Layer GPU-Based Validation</a>
  
 
  

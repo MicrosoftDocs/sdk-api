@@ -7,7 +7,7 @@ old-location: netmgmt\netgroupdeluser.htm
 old-project: netmgmt
 ms.assetid: ab8ce12a-60c0-4d79-8894-4537c6568e15
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NetGroupDelUser, NetGroupDelUser function [Network Management], _win32_netgroupdeluser, lmaccess/NetGroupDelUser, netmgmt.netgroupdeluser
 ms.prod: windows
 ms.technology: windows-sdk

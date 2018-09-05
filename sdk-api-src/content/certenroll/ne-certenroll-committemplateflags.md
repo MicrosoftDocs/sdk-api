@@ -4,10 +4,10 @@ title: CommitTemplateFlags
 author: windows-sdk-content
 description: Specifies options for saving and deleting templates.
 old-location: security\committemplateflags.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: e228928a-ef11-4caa-b33f-fe25a3a6ff86
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CommitFlagDeleteTemplate, CommitFlagSaveTemplateGenerateOID, CommitFlagSaveTemplateOverwrite, CommitFlagSaveTemplateUseCurrentOID, CommitTemplateFlags, CommitTemplateFlags enumeration [Security], certenroll/CommitFlagDeleteTemplate, certenroll/CommitFlagSaveTemplateGenerateOID, certenroll/CommitFlagSaveTemplateOverwrite, certenroll/CommitFlagSaveTemplateUseCurrentOID, certenroll/CommitTemplateFlags, security.committemplateflags
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>CommitTemplateFlags</b> enumeration type specifies options for saving and deleting templates. It is used by the <a href="https://msdn.microsoft.com/en-us/library/Ee351676(v=VS.85).aspx">Commit</a> method on the <a href="https://msdn.microsoft.com/en-us/library/Ee351675(v=VS.85).aspx">IX509CertificateTemplateWritable</a> interface.
+The <b>CommitTemplateFlags</b> enumeration type specifies options for saving and deleting templates. It is used by the <a href="https://msdn.microsoft.com/ee7d5640-8d06-4a1a-bce2-f76ee6276207">Commit</a> method on the <a href="https://msdn.microsoft.com/87660b16-06a8-4a71-8669-24521f1399e4">IX509CertificateTemplateWritable</a> interface.
 
 
 ## -enum-fields
@@ -84,11 +84,11 @@ Delete the template.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351676(v=VS.85).aspx">Commit</a>
+<a href="https://msdn.microsoft.com/ee7d5640-8d06-4a1a-bce2-f76ee6276207">Commit</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351675(v=VS.85).aspx">IX509CertificateTemplateWritable</a>
+<a href="https://msdn.microsoft.com/87660b16-06a8-4a71-8669-24521f1399e4">IX509CertificateTemplateWritable</a>
  
 
  

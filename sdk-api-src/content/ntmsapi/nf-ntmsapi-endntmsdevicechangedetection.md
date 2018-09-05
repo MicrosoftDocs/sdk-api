@@ -7,7 +7,7 @@ old-location: fs\endntmsdevicechangedetection.htm
 old-project: Rsm
 ms.assetid: cb8dc379-30a1-43b0-b5a7-c6bc59b3e9ac
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: EndNtmsDeviceChangeDetection, EndNtmsDeviceChangeDetection function [Files], _zaw_endntmsdevicechangedetection, base.endntmsdevicechangedetection, fs.endntmsdevicechangedetection, ntmsapi/EndNtmsDeviceChangeDetection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -133,7 +133,7 @@ Closing the Removable Storage Manager session also ends all device change detect
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Change Detection Functions</a>
+<a href="removable_storage_manager_functions.htm">Change Detection Functions</a>
 
 
 

@@ -4,10 +4,10 @@ title: SnmpUtilOidAppend function
 author: windows-sdk-content
 description: The SnmpUtilOidAppend function appends the source object identifier to the destination object identifier. This function is an element of the SNMP Utility API.
 old-location: snmp\snmputiloidappend.htm
-old-project: snmp
+old-project: SNMP
 ms.assetid: 8ffa5638-13ef-4cec-80f0-303611a52dac
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SnmpUtilOidAppend, SnmpUtilOidAppend function [SNMP], _snmp_snmputiloidappend, snmp.snmputiloidappend, snmp/SnmpUtilOidAppend
 ms.prod: windows
 ms.technology: windows-sdk

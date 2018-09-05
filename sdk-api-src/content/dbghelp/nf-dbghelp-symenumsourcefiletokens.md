@@ -7,7 +7,7 @@ old-location: base\symenumsourcefiletokens.htm
 old-project: debug
 ms.assetid: 0377ef07-bf9f-4938-8fc4-ae14373db590
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: SymEnumSourceFileTokens, SymEnumSourceFileTokens function, base.symenumsourcefiletokens, dbghelp/SymEnumSourceFileTokens
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winstation\enumdesktops.htm
 old-project: winstation
 ms.assetid: 3e900b34-2c60-4281-881f-13a746674aec
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 08/29/2018
 ms.keywords: EnumDesktops, EnumDesktops function [Windows Stations and Desktops], EnumDesktopsA, EnumDesktopsW, _win32_enumdesktops, base.enumdesktops, winstation.enumdesktops, winuser/EnumDesktops, winuser/EnumDesktopsA, winuser/EnumDesktopsW
 ms.prod: windows
 ms.technology: windows-sdk

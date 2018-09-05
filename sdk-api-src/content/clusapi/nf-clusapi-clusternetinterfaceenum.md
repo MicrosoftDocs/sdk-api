@@ -7,7 +7,7 @@ old-location: mscs\clusternetinterfaceenum.htm
 old-project: mscs
 ms.assetid: 691362e9-88ba-4f10-8fde-eebcc72157b4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusterNetInterfaceEnum, ClusterNetInterfaceEnum function [Failover Cluster], clusapi/ClusterNetInterfaceEnum, mscs.clusternetinterfaceenum
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Enumerates the <a href="https://msdn.microsoft.com/en-us/library/Aa371519(v=VS.85).aspx">network interfaces</a> installed on a 
+Enumerates the <a href="https://msdn.microsoft.com/cc0cbbc3-e342-483e-9c94-4ee43f4d588d">network interfaces</a> installed on a 
     cluster, returning one name with each call.
 
 
@@ -63,7 +63,7 @@ Enumerates the <a href="https://msdn.microsoft.com/en-us/library/Aa371519(v=VS.8
 ### -param hNetInterfaceEnum [in]
 
 Handle to an existing enumeration object originally returned by the 
-       <a href="https://msdn.microsoft.com/en-us/library/Mt705443(v=VS.85).aspx">ClusterNetInterfaceOpenEnum</a> function.
+       <a href="https://msdn.microsoft.com/fd300162-2472-4bd2-91d6-357397c4134c">ClusterNetInterfaceOpenEnum</a> function.
 
 
 ### -param dwIndex [in]

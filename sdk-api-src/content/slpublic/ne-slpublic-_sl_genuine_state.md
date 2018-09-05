@@ -4,10 +4,10 @@ title: "_SL_GENUINE_STATE"
 author: windows-sdk-content
 description: Specifies the state of an application installation.
 old-location: security\sl_genuine_state.htm
-old-project: secslapi
+old-project: SecSLApi
 ms.assetid: 3be69be1-289c-466a-9271-5309fd1319fe
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SL_GENUINE_STATE, SL_GENUINE_STATE enumeration [Security], SL_GEN_STATE_INVALID_LICENSE, SL_GEN_STATE_IS_GENUINE, SL_GEN_STATE_LAST, SL_GEN_STATE_OFFLINE, SL_GEN_STATE_TAMPERED, _SL_GENUINE_STATE, security.sl_genuine_state, slpublic/SL_GENUINE_STATE, slpublic/SL_GEN_STATE_INVALID_LICENSE, slpublic/SL_GEN_STATE_IS_GENUINE, slpublic/SL_GEN_STATE_LAST, slpublic/SL_GEN_STATE_OFFLINE, slpublic/SL_GEN_STATE_TAMPERED
 ms.prod: windows
 ms.technology: windows-sdk

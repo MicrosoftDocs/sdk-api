@@ -4,10 +4,10 @@ title: ICertPropertyRequestOriginator::Initialize
 author: windows-sdk-content
 description: Initializes the object from a string that contains the DNS name of the originating computer.
 old-location: security\icertpropertyrequestoriginator_initialize_method.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: 3308dde9-ab97-40a1-9251-c207a3a66061
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ICertPropertyRequestOriginator interface [Security],Initialize method, ICertPropertyRequestOriginator.Initialize, ICertPropertyRequestOriginator::Initialize, Initialize, Initialize method [Security], Initialize method [Security],ICertPropertyRequestOriginator interface, certenroll/ICertPropertyRequestOriginator::Initialize, security.icertpropertyrequestoriginator_initialize_method
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ A <b>BSTR</b> variable that contains the name.
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -99,7 +99,7 @@ The object is already initialized.
 
 
 
-Call the <a href="https://msdn.microsoft.com/en-us/library/Aa375928(v=VS.85).aspx">SetValueOnCertificate</a> method to associate the property with a certificate. Call the <a href="https://msdn.microsoft.com/en-us/library/Aa375789(v=VS.85).aspx">RequestOriginator</a> property to retrieve the DNS name of the originating computer.
+Call the <a href="https://msdn.microsoft.com/46c409c4-46bd-4349-8363-1983f4411bc2">SetValueOnCertificate</a> method to associate the property with a certificate. Call the <a href="https://msdn.microsoft.com/0ac6b8da-9183-4683-a172-a9742b40da64">RequestOriginator</a> property to retrieve the DNS name of the originating computer.
 
 
 
@@ -109,7 +109,7 @@ Call the <a href="https://msdn.microsoft.com/en-us/library/Aa375928(v=VS.85).asp
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375772(v=VS.85).aspx">ICertPropertyRequestOriginator</a>
+<a href="https://msdn.microsoft.com/ce33605e-c3ae-4b96-a13e-6f06e8d5ffee">ICertPropertyRequestOriginator</a>
  
 
  

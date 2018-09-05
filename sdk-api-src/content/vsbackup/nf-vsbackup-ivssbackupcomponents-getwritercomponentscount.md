@@ -4,10 +4,10 @@ title: IVssBackupComponents::GetWriterComponentsCount
 author: windows-sdk-content
 description: The GetWriterComponentsCount method returns the number of writers whose components have been added to a requester's Backup Components Document.
 old-location: base\ivssbackupcomponents_getwritercomponentscount.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 39ab6179-2828-46dc-bfcd-0dd62c34ce95
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetWriterComponentsCount, GetWriterComponentsCount method [VSS], GetWriterComponentsCount method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GetWriterComponentsCount method, IVssBackupComponents.GetWriterComponentsCount, IVssBackupComponents::GetWriterComponentsCount, _win32_ivssbackupcomponents_getwritercomponentscount, base.ivssbackupcomponents_getwritercomponentscount, vsbackup/IVssBackupComponents::GetWriterComponentsCount
 ms.prod: windows
 ms.technology: windows-sdk

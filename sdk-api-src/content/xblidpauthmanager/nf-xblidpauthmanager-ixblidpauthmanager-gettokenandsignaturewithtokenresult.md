@@ -7,7 +7,7 @@ old-location: xblidp\ixblidpauthmanager_gettokenandsignaturewithtokenresult.htm
 old-project: xblidp
 ms.assetid: 22ACC545-8EDE-4009-9EE9-1AE541985E6A
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: GetTokenAndSignatureWithTokenResult, GetTokenAndSignatureWithTokenResult method, GetTokenAndSignatureWithTokenResult method,IXblIdpAuthManager interface, IXblIdpAuthManager interface,GetTokenAndSignatureWithTokenResult method, IXblIdpAuthManager.GetTokenAndSignatureWithTokenResult, IXblIdpAuthManager::GetTokenAndSignatureWithTokenResult, xblidp.ixblidpauthmanager_gettokenandsignaturewithtokenresult, xblidpauthmanager/IXblIdpAuthManager::GetTokenAndSignatureWithTokenResult
 ms.prod: windows
 ms.technology: windows-sdk
@@ -121,7 +121,7 @@ Type: <b>__RPC__in_ecount_full_opt</b>
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 

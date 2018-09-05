@@ -7,7 +7,7 @@ old-location: com\oleverbattrib.htm
 old-project: com
 ms.assetid: 797498ba-5ad6-4476-87d8-de85b30396f4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: OLEVERBATTRIB, OLEVERBATTRIB enumeration [COM], OLEVERBATTRIB_NEVERDIRTIES, OLEVERBATTRIB_ONCONTAINERMENU, _ole_OLEVERBATTRIB, com.oleverbattrib, oleidl/OLEVERBATTRIB, oleidl/OLEVERBATTRIB_NEVERDIRTIES, oleidl/OLEVERBATTRIB_ONCONTAINERMENU, tagOLEVERBATTRIB
 ms.prod: windows
 ms.technology: windows-sdk

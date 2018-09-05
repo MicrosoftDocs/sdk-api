@@ -7,7 +7,7 @@ old-location: ual\ualregisterproduct.htm
 old-project: ual
 ms.assetid: EF5A9F0E-DD6A-4CFB-B8A6-AA4298FC6BE8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: UalRegisterProduct, UalRegisterProduct function [User Access Logging], ual.ualregisterproduct, ual/UalRegisterProduct
 ms.prod: windows
 ms.technology: windows-sdk

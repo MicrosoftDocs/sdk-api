@@ -4,10 +4,10 @@ title: PINTERFACE_STATUS
 author: windows-sdk-content
 description: Router manager calls the InterfaceStatus function to change the status of an interface.
 old-location: rras\interfacestatus.htm
-old-project: rras
+old-project: RRAS
 ms.assetid: 8fd674a6-375e-450c-bd6b-4f252977dd8e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: InterfaceStatus, InterfaceStatus callback function [RAS], PINTERFACE_STATUS, PINTERFACE_STATUS callback, _mpr_interfacestatus, routprot/InterfaceStatus, rras.interfacestatus
 ms.prod: windows
 ms.technology: windows-sdk

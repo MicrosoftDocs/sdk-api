@@ -7,7 +7,7 @@ old-location: shell\IFolderFilter_ShouldShow.htm
 old-project: shell
 ms.assetid: 60893b97-5b13-4c1f-9fd6-042217d3026f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IFolderFilter interface [Windows Shell],ShouldShow method, IFolderFilter.ShouldShow, IFolderFilter::ShouldShow, ShouldShow, ShouldShow method [Windows Shell], ShouldShow method [Windows Shell],IFolderFilter interface, _shell_IFolderFilter_ShouldShow, shell.IFolderFilter_ShouldShow, shobjidl_core/IFolderFilter::ShouldShow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -102,28 +102,32 @@ It is recommended that your implementation convert the <i>psf</i> and <i>pidlIte
 
                 
 
-
-```
-STDMETHODIMP ShouldShow(IShellFolder *psf, 
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP ShouldShow(IShellFolder *psf, 
                         PCIDLIST_ABSOLUTE pidlFolder, 
                         PCUITEMID_CHILD pidlItem)
 {
     IShellItem *psi;
 
-    HRESULT hr = SHCreateItemWithParent(NULL, psf, pidlItem, IID_PPV_ARGS(&psi));
+    HRESULT hr = SHCreateItemWithParent(NULL, psf, pidlItem, IID_PPV_ARGS(&amp;psi));
     if (SUCCEEDED(hr))
     {
         // Determine here whether the item should be shown. This determination
         // is application-dependent.
 
-        psi->Release();
+        psi-&gt;Release();
     }
 
     return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

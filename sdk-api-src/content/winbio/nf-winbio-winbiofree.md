@@ -4,10 +4,10 @@ title: WinBioFree function
 author: windows-sdk-content
 description: Releases memory allocated for the client application by an earlier call to a Windows Biometric Framework API function. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbiofree.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: b570fc6c-a08e-4485-a621-20f59bd63d40
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: WinBioFree, WinBioFree function [Windows Biometric Framework API], secbiomet.winbiofree, winbio/WinBioFree
 ms.prod: windows
 ms.technology: windows-sdk
@@ -168,9 +168,13 @@ memory created by <b>WinBioEnumBiometricUnits</b>. Link to the Winbio.lib static
 <li>Conio.h</li>
 <li>Winbio.h</li>
 </ul>
-
-```cpp
-HRESULT EnumerateSensors( )
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT EnumerateSensors( )
 {
     HRESULT hr = S_OK;
     PWINBIO_UNIT_SCHEMA unitSchema = NULL;
@@ -179,8 +183,8 @@ HRESULT EnumerateSensors( )
     // Enumerate the installed biometric units.
     hr = WinBioEnumBiometricUnits( 
             WINBIO_TYPE_FINGERPRINT,        // Type of biometric unit
-            &unitSchema,                    // Array of unit schemas
-            &unitCount );                   // Count of unit schemas
+            &amp;unitSchema,                    // Array of unit schemas
+            &amp;unitCount );                   // Count of unit schemas
 
     if (FAILED(hr))
     {
@@ -200,10 +204,10 @@ e_Exit:
     return hr;
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

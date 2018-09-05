@@ -7,7 +7,7 @@ old-location: cos\securityproperty.htm
 old-project: cossdk
 ms.assetid: e4eb8e83-3510-4c2c-8b9c-563bfcbf48b3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SecurityProperty, SecurityProperty interface [COM+], SecurityProperty interface [COM+],described, _cos_SecurityProperty, comsvcs/SecurityProperty, cos.securityproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,12 +55,12 @@ Retrieves information about the current object's original caller and direct call
 
 The preferred way to obtain information about an object's callers is to use the <a href="https://msdn.microsoft.com/e8ac05fb-6665-4e57-b64e-82d9799d29d4">SecurityCallContext</a> class instead of the <b>SecurityProperty</b> interface.
 
-<b>SecurityProperty</b> and <a href="https://msdn.microsoft.com/en-us/library/ms678953(v=VS.85).aspx">ISecurityProperty</a> provide the same functionality, but unlike <b>ISecurityProperty</b>, <b>SecurityProperty</b> is compatible with Automation.
+<b>SecurityProperty</b> and <a href="https://msdn.microsoft.com/116715a5-a3e1-48aa-b155-107ea330b7ee">ISecurityProperty</a> provide the same functionality, but unlike <b>ISecurityProperty</b>, <b>SecurityProperty</b> is compatible with Automation.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">SecurityProperty</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>SecurityProperty</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">SecurityProperty</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>SecurityProperty</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -85,7 +85,7 @@ Retrieves the user name associated with the external process that called the cur
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms679481(v=VS.85).aspx">GetDirectCreatorName</a>
+<a href="https://msdn.microsoft.com/26619719-bcca-4776-9580-edc541e6b821">GetDirectCreatorName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the user name associated with the current object's immediate (out-of-process) creator.
@@ -94,7 +94,7 @@ Retrieves the user name associated with the current object's immediate (out-of-p
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms686463(v=VS.85).aspx">GetOriginalCallerName</a>
+<a href="https://msdn.microsoft.com/ca57950c-3079-42bd-a832-9b7753c61a39">GetOriginalCallerName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the user name associated with the base process that initiated the sequence of calls from which the call into the current object originated.
@@ -103,7 +103,7 @@ Retrieves the user name associated with the base process that initiated the sequ
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms680594(v=VS.85).aspx">GetOriginalCreatorName</a>
+<a href="https://msdn.microsoft.com/403f0f36-f386-4eeb-905a-e04c5699db9b">GetOriginalCreatorName</a>
 </td>
 <td align="left" width="63%">
 Retrieves the user name associated with the original base process that initiated the activity in which the current object is executing.
@@ -118,15 +118,15 @@ Retrieves the user name associated with the original base process that initiated
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms678953(v=VS.85).aspx">ISecurityProperty</a>
+<a href="https://msdn.microsoft.com/116715a5-a3e1-48aa-b155-107ea330b7ee">ISecurityProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms678909(v=VS.85).aspx">ObjectContext</a>
+<a href="https://msdn.microsoft.com/09a17e57-7224-43bc-93c7-16ab95ca2517">ObjectContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms681779(v=VS.85).aspx">Programmatic Component Security</a>
+<a href="https://msdn.microsoft.com/6117970c-5dbd-485e-978e-3aa96e42b359">Programmatic Component Security</a>
  
 
  

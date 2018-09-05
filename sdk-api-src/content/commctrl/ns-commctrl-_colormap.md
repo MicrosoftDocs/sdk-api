@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Contains information used by the <a href="https://msdn.microsoft.com/en-us/library/Bb787467(v=VS.85).aspx">CreateMappedBitmap</a> function to map the colors of the bitmap. 
+Contains information used by the <a href="https://msdn.microsoft.com/dc22a03b-e453-4d18-aa3d-af45e8e620e5">CreateMappedBitmap</a> function to map the colors of the bitmap. 
 
 
 ## -struct-fields
@@ -61,14 +61,14 @@ Contains information used by the <a href="https://msdn.microsoft.com/en-us/libra
 
 ### -field from
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">COLORREF</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
 
 Color to map from. 
 
 
 ### -field to
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">COLORREF</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">COLORREF</a></b>
 
 Color to map to. 
 

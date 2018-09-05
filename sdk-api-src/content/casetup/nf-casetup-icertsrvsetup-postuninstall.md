@@ -4,10 +4,10 @@ title: ICertSrvSetup::PostUnInstall
 author: windows-sdk-content
 description: Is not implemented and is reserved for future use.
 old-location: security\icertsrvsetup_postuninstall.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: e5ec32ec-616c-4460-bd1c-6e70c61b5234
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: ICertSrvSetup interface [Security],PostUnInstall method, ICertSrvSetup.PostUnInstall, ICertSrvSetup::PostUnInstall, PostUnInstall, PostUnInstall method [Security], PostUnInstall method [Security],ICertSrvSetup interface, casetup/ICertSrvSetup::PostUnInstall, security.icertsrvsetup_postuninstall
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,7 +75,7 @@ This method does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb736371(v=VS.85).aspx">ICertSrvSetup</a>
+<a href="https://msdn.microsoft.com/6792a0d6-d304-481d-a97b-5fb7033c7eae">ICertSrvSetup</a>
  
 
  

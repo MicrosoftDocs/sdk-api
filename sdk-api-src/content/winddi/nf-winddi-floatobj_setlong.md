@@ -60,7 +60,12 @@ The <b>FLOATOBJ_SetLong</b> function assigns the value of type LONG to the <a hr
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
 
 TBD
 

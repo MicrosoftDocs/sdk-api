@@ -4,10 +4,10 @@ title: TcOpenInterfaceW function
 author: windows-sdk-content
 description: The TcOpenInterface function opens an interface.
 old-location: qos\tcopeninterface.htm
-old-project: qos
+old-project: QOS
 ms.assetid: 8c7e658c-862f-4715-9ba5-ac079db924a1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: TcOpenInterface, TcOpenInterface function [QOS], TcOpenInterfaceA, TcOpenInterfaceW, _gqos_tcopeninterface, qos.tcopeninterface, traffic/TcOpenInterface, traffic/TcOpenInterfaceA, traffic/TcOpenInterfaceW
 ms.prod: windows
 ms.technology: windows-sdk

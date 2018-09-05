@@ -7,7 +7,7 @@ old-location: wsw\wsfreeerror.htm
 old-project: wsw
 ms.assetid: 61da7bc2-b805-4379-a6b2-1e92374be1a0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WsFreeError, WsFreeError function [Web Services for Windows], webservices/WsFreeError, wsw.wsfreeerror
 ms.prod: windows
 ms.technology: windows-sdk

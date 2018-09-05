@@ -7,7 +7,7 @@ old-location: setup\msisummaryinfogetpropertycount.htm
 old-project: msi
 ms.assetid: 8a9fe9cc-8289-479a-acda-ce2a2b76705f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MsiSummaryInfoGetPropertyCount, MsiSummaryInfoGetPropertyCount function, _msi_msisummaryinfogetpropertycount, msiquery/MsiSummaryInfoGetPropertyCount, setup.msisummaryinfogetpropertycount
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,7 +75,7 @@ Location to receive the total property count.
 
 
 
-This function returns UINT __stdcall.
+This function returns UINT.
 
 
 
@@ -85,7 +85,7 @@ This function returns UINT __stdcall.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Summary Information Property Functions</a>
+<a href="database_functions.htm">Summary Information Property Functions</a>
 
 
 

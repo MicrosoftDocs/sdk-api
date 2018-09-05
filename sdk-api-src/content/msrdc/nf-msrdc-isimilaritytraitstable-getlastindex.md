@@ -7,7 +7,7 @@ old-location: rdc\isimilaritytraitstable_getlastindex.htm
 old-project: Rdc
 ms.assetid: 4e6cb7b4-0dcf-4a51-acf9-3263d73eee63
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: GetLastIndex, GetLastIndex method [Remote Differential Compression], GetLastIndex method [Remote Differential Compression],ISimilarityTraitsTable interface, ISimilarityTraitsTable interface [Remote Differential Compression],GetLastIndex method, ISimilarityTraitsTable.GetLastIndex, ISimilarityTraitsTable::GetLastIndex, fs.isimilaritytraitstable_getlastindex, msrdc/ISimilarityTraitsTable::GetLastIndex, rdc.isimilaritytraitstable_getlastindex
 ms.prod: windows
 ms.technology: windows-sdk

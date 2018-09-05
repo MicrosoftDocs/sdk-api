@@ -46,6 +46,7 @@ targetos: Windows
 req.lib: Advapi32.lib
 req.dll: Advapi32.dll
 req.irql: 
+req.product: Windows Media Format 9 Series or later
 ---
 
 # TraceMessage function

@@ -7,7 +7,7 @@ old-location: xblidp\ixblidpauthtokenresult_getmsaappid.htm
 old-project: xblidp
 ms.assetid: B27ADEA9-EF4F-4A6C-8876-3D2358E442E1
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: GetMsaAppId, GetMsaAppId method, GetMsaAppId method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetMsaAppId method, IXblIdpAuthTokenResult.GetMsaAppId, IXblIdpAuthTokenResult::GetMsaAppId, xblidp.ixblidpauthtokenresult_getmsaappid, xblidpauthmanager/IXblIdpAuthTokenResult::GetMsaAppId
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,7 +69,7 @@ Type: <b>__RPC__deref_out_opt_string*</b>
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 

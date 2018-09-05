@@ -4,10 +4,10 @@ title: ID_ERROR_OBJECT
 author: windows-sdk-content
 description: The ID_ERROR_OBJECT structure contains error message information for Identity Policy Elements for RSVP.
 old-location: qos\id_error_object.htm
-old-project: qos
+old-project: QOS
 ms.assetid: de6e8eaa-4436-4b82-8c47-76da53116ff2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ID_ERROR_OBJECT, ID_ERROR_OBJECT structure [QOS], lpmapi/ID_ERROR_OBJECT, qos.id_error_object
 ms.prod: windows
 ms.technology: windows-sdk

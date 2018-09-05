@@ -7,7 +7,7 @@ old-location: fs\closentmssession.htm
 old-project: Rsm
 ms.assetid: 54bc354a-fdef-4642-8e53-cf20ed374000
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: CloseNtmsSession, CloseNtmsSession function [Files], _zaw_closentmssession, base.closentmssession, fs.closentmssession, ntmsapi/CloseNtmsSession
 ms.prod: windows
 ms.technology: windows-sdk
@@ -130,7 +130,7 @@ If a call to the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Session Management Functions</a>
+<a href="removable_storage_manager_functions.htm">Session Management Functions</a>
  
 
  

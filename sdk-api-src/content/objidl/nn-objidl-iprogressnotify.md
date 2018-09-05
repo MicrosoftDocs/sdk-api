@@ -7,7 +7,7 @@ old-location: com\iprogressnotify.htm
 old-project: com
 ms.assetid: 3f90437d-df8f-42b2-af81-519bfb9577b1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IProgressNotify, IProgressNotify interface [COM], IProgressNotify interface [COM],described, _com_iprogressnotify, com.iprogressnotify, objidl/IProgressNotify
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ Enables applications and other objects to receive notifications of changes in th
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProgressNotify</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IProgressNotify</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IProgressNotify</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IProgressNotify</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

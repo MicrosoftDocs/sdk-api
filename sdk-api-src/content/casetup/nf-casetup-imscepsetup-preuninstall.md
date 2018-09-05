@@ -4,10 +4,10 @@ title: IMSCEPSetup::PreUnInstall
 author: windows-sdk-content
 description: Removes registry and IIS settings for the Network Device Enrollment Service (NDES) role.
 old-location: security\imscepsetup_preuninstall.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 7c9ff619-7c26-4dfb-aeac-fa80a1050cf0
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: IMSCEPSetup interface [Security],PreUnInstall method, IMSCEPSetup.PreUnInstall, IMSCEPSetup::PreUnInstall, PreUnInstall, PreUnInstall method [Security], PreUnInstall method [Security],IMSCEPSetup interface, casetup/IMSCEPSetup::PreUnInstall, security.imscepsetup_preuninstall
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,7 +75,7 @@ You can use this method to support an uninstall of an NDES role. The role must b
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb736404(v=VS.85).aspx">IMSCEPSetup</a>
+<a href="https://msdn.microsoft.com/328c6c04-7ade-4b64-bd8a-4314b6e8dc78">IMSCEPSetup</a>
  
 
  

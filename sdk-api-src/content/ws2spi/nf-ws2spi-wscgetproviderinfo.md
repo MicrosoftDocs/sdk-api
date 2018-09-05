@@ -4,10 +4,10 @@ title: WSCGetProviderInfo function
 author: windows-sdk-content
 description: Retrieves the data associated with an information class for a layered service provider (LSP).
 old-location: winsock\wscgetproviderinfo.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: 5880f3dd-2a74-4af8-b0d8-2a8eedccc1e6
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: WSCGetProviderInfo, WSCGetProviderInfo function [Winsock], winsock.wscgetproviderinfo, ws2spi/WSCGetProviderInfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -116,7 +116,7 @@ The call is not implemented. This error is returned if <b>ProviderInfoAudit</b> 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEFAULT</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEFAULT</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -127,7 +127,7 @@ One or more of the arguments is not in a valid part of the user address space.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -138,7 +138,7 @@ One or more of the arguments are invalid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVALIDPROVIDER</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVALIDPROVIDER</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -149,7 +149,7 @@ The protocol entry could not be found for the specified <i>lpProviderId</i>.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANO_RECOVERY</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANO_RECOVERY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -160,7 +160,7 @@ A nonrecoverable error occurred. This error is returned under several conditions
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
 </dl>
 </td>
 <td width="60%">

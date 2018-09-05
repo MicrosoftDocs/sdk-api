@@ -7,7 +7,7 @@ old-location: netmgmt\netmessagenamedel.htm
 old-project: netmgmt
 ms.assetid: 6d6c65ee-f53e-4a24-b8c0-50faa76af640
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NetMessageNameDel, NetMessageNameDel function [Network Management], _win32_netmessagenamedel, lmmsg/NetMessageNameDel, netmgmt.netmessagenamedel
 ms.prod: windows
 ms.technology: windows-sdk

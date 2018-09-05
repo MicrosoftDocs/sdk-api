@@ -200,11 +200,15 @@ Setting the <b>HeapEnableTerminateOnCorruption</b> option is strongly recommende
 
 The following example shows you how to enable the low-fragmentation heap.
 
-
-```cpp
-#include <windows.h>
-#include <tchar.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;tchar.h&gt;
+#include &lt;stdio.h&gt;
 
 #define HEAP_LFH 2
 
@@ -253,7 +257,7 @@ int __cdecl _tmain()
     HeapInformation = HEAP_LFH;
     bResult = HeapSetInformation(hHeap,
                                  HeapCompatibilityInformation,
-                                 &HeapInformation,
+                                 &amp;HeapInformation,
                                  sizeof(HeapInformation));
     if (bResult != FALSE) {
         _tprintf(TEXT("The low-fragmentation heap has been enabled.\n"));
@@ -266,10 +270,10 @@ int __cdecl _tmain()
 
     return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

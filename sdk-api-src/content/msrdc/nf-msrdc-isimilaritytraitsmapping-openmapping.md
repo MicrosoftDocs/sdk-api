@@ -7,7 +7,7 @@ old-location: rdc\isimilaritytraitsmapping_openmapping.htm
 old-project: Rdc
 ms.assetid: 278d7b78-28c6-41ee-9060-5f7d757ef494
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: ISimilarityTraitsMapping interface [Remote Differential Compression],OpenMapping method, ISimilarityTraitsMapping.OpenMapping, ISimilarityTraitsMapping::OpenMapping, OpenMapping, OpenMapping method [Remote Differential Compression], OpenMapping method [Remote Differential Compression],ISimilarityTraitsMapping interface, fs.isimilaritytraitsmapping_openmapping, msrdc/ISimilarityTraitsMapping::OpenMapping, rdc.isimilaritytraitsmapping_openmapping
 ms.prod: windows
 ms.technology: windows-sdk

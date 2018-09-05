@@ -7,7 +7,7 @@ old-location: wincontacts\_wincontacts_IContact_GetPath.htm
 old-project: wincontacts
 ms.assetid: 4b037961-f2a4-4e75-a664-d70257bed426
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GetPath, GetPath method [Windows Contacts], GetPath method [Windows Contacts],IContact interface, IContact interface [Windows Contacts],GetPath method, IContact.GetPath, IContact::GetPath, _wincontacts_IContact_GetPath, icontact/IContact::GetPath, wincontacts._wincontacts_IContact_GetPath
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: devinst\mfcard_des.htm
 old-project: devinst
 ms.assetid: 75a6857c-d5b7-4bb6-8035-e6317d4ea146
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: "*PMFCARD_DES, MFCARD_DES, MFCARD_DES structure [Device and Driver Installation], MfCard_Des_s, PMFCARD_DES, PMFCARD_DES structure pointer [Device and Driver Installation], cfgmgr32/MFCARD_DES, cfgmgr32/PMFCARD_DES, cfgmgrst_aea737e9-53c7-41dd-b4d3-80f29442358c.xml, devinst.mfcard_des"
 ms.prod: windows
 ms.technology: windows-sdk

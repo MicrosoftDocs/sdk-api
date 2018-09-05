@@ -7,7 +7,7 @@ old-location: wmi\cinstance_getchstring.htm
 old-project: WmiSdk
 ms.assetid: d9295ba1-19da-41a2-86d1-ec80e18e895b
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: "?GetCHString@CInstance@@QBE_NPBGAAVCHString@@@Z, ?GetCHString@CInstance@@QEBA_NPEBGAEAVCHString@@@Z, CInstance interface [Windows Management Instrumentation],GetCHString method, CInstance.GetCHString, CInstance::GetCHString, GetCHString, GetCHString method [Windows Management Instrumentation], GetCHString method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_getchstring, instance/CInstance::GetCHString, wmi.cinstance_getchstring"
 ms.prod: windows
 ms.technology: windows-sdk

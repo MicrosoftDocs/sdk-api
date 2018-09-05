@@ -4,10 +4,10 @@ title: PFXExportOptions
 author: windows-sdk-content
 description: Specifies how much of a certificate chain is included when creating a Personal Information Exchange (PFX) message.
 old-location: security\pfxexportoptions_enum.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: 72a3ac43-aebf-4801-9e36-23cf338b18ab
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: PFXExportChainNoRoot, PFXExportChainWithRoot, PFXExportEEOnly, PFXExportOptions, PFXExportOptions enumeration [Security], certenroll/PFXExportChainNoRoot, certenroll/PFXExportChainWithRoot, certenroll/PFXExportEEOnly, certenroll/PFXExportOptions, security.pfxexportoptions_enum
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>PFXExportOptions</b> enumeration specifies how much of a certificate chain is included when creating a Personal Information Exchange (PFX) message. The PFX message syntax is defined by the PKCS #12 standard. PFX is a transfer syntax for personal identity information, including <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">private keys</a> and <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificates</a>. The enumeration is used by the <a href="https://msdn.microsoft.com/en-us/library/Aa377868(v=VS.85).aspx">CreatePFX</a> method on the <a href="https://msdn.microsoft.com/en-us/library/Aa377809(v=VS.85).aspx">IX509Enrollment</a> interface.
+The <b>PFXExportOptions</b> enumeration specifies how much of a certificate chain is included when creating a Personal Information Exchange (PFX) message. The PFX message syntax is defined by the PKCS #12 standard. PFX is a transfer syntax for personal identity information, including <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">private keys</a> and <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificates</a>. The enumeration is used by the <a href="https://msdn.microsoft.com/4a51bea0-e7f8-4a4e-b612-95616b126466">CreatePFX</a> method on the <a href="https://msdn.microsoft.com/37f1dd3b-bbe9-40ab-87c9-2405d97f5541">IX509Enrollment</a> interface.
 
 
 ## -enum-fields
@@ -66,7 +66,7 @@ Includes only the end entity certificate.
 
 ### -field PFXExportChainNoRoot
 
-Includes the certificate chain without the root <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> certificate.
+Includes the certificate chain without the root <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> certificate.
 
 
 ### -field PFXExportChainWithRoot
@@ -79,15 +79,15 @@ Includes the entire certificate chain, including the root certification authorit
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374846(v=VS.85).aspx">CertEnroll Enumerations</a>
+<a href="https://msdn.microsoft.com/8514fb89-1cf5-4e09-997c-17984efc4e03">CertEnroll Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374850(v=VS.85).aspx">CertEnroll Interfaces</a>
+<a href="https://msdn.microsoft.com/d49511ed-8651-457e-a102-0bea4edde24c">CertEnroll Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377868(v=VS.85).aspx">CreatePFX</a>
+<a href="https://msdn.microsoft.com/4a51bea0-e7f8-4a4e-b612-95616b126466">CreatePFX</a>
  
 
  

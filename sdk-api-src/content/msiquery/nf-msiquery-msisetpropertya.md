@@ -7,7 +7,7 @@ old-location: setup\msisetproperty.htm
 old-project: msi
 ms.assetid: f6376a19-579a-4e25-8ab6-bb66c623dd25
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MsiSetProperty, MsiSetProperty function, MsiSetPropertyA, MsiSetPropertyW, _msi_msisetproperty, msiquery/MsiSetProperty, msiquery/MsiSetPropertyA, msiquery/MsiSetPropertyW, setup.msisetproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -82,7 +82,7 @@ Specifies the value of the property.
 
 
 
-This function returns UINT __stdcall.
+This function returns UINT.
 
 
 
@@ -102,7 +102,7 @@ If the property is not defined, it is created by the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Installer State Access Functions</a>
+<a href="database_functions.htm">Installer State Access Functions</a>
  
 
  

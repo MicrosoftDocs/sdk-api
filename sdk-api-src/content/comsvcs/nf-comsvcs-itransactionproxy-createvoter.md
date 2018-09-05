@@ -7,7 +7,7 @@ old-location: cos\itransactionproxy_createvoter.htm
 old-project: cossdk
 ms.assetid: dd837082-881e-4f7e-b71e-c0f6068e3cdb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CreateVoter, CreateVoter method [COM+], CreateVoter method [COM+],ITransactionProxy interface, ITransactionProxy interface [COM+],CreateVoter method, ITransactionProxy.CreateVoter, ITransactionProxy::CreateVoter, comsvcs/ITransactionProxy::CreateVoter, cos.itransactionproxy_createvoter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,7 +83,7 @@ This method can return the standard return values E_INVALIDARG, E_OUTOFMEMORY, E
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms681620(v=VS.85).aspx">ITransactionProxy</a>
+<a href="https://msdn.microsoft.com/58d40456-fd4f-4690-a679-3fa58b2f3cda">ITransactionProxy</a>
  
 
  

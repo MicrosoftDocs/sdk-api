@@ -7,7 +7,7 @@ old-location: com\iforegroundtransfer_allowforegroundtransfer.htm
 old-project: com
 ms.assetid: 54d138f5-5f16-4eb8-bbac-2d057b7dab2f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: AllowForegroundTransfer, AllowForegroundTransfer method [COM], AllowForegroundTransfer method [COM],IForegroundTransfer interface, IForegroundTransfer interface [COM],AllowForegroundTransfer method, IForegroundTransfer.AllowForegroundTransfer, IForegroundTransfer::AllowForegroundTransfer, _com_iforegroundtransfer_allowforegroundtransfer, com.iforegroundtransfer_allowforegroundtransfer, objidl/IForegroundTransfer::AllowForegroundTransfer
 ms.prod: windows
 ms.technology: windows-sdk

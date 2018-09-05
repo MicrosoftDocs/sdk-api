@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceservicecapabilities_geteventattributes.htm
 old-project: wpd_sdk
 ms.assetid: cd3316aa-6d49-4d26-9ded-c9371ebea27b
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetEventAttributes, GetEventAttributes method [Windows Portable Devices SDK], GetEventAttributes method [Windows Portable Devices SDK],IPortableDeviceServiceCapabilities interface, IPortableDeviceServiceCapabilities interface [Windows Portable Devices SDK],GetEventAttributes method, IPortableDeviceServiceCapabilities.GetEventAttributes, IPortableDeviceServiceCapabilities::GetEventAttributes, portabledeviceapi/IPortableDeviceServiceCapabilities::GetEventAttributes, wpdsdk.iportabledeviceservicecapabilities_geteventattributes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,7 @@ If the method succeeds, it returns <b>S_OK</b>. Any other <b>HRESULT</b> value i
 
 
 
-Possible attributes include the <a href="https://msdn.microsoft.com/en-us/library/Dd389006(v=VS.85).aspx">WPD_EVENT_ATTRIBUTE_NAME</a>, WPD_EVENT_ATTRIBUTE_PARAMETERS, and WPD_EVENT_ATTRIBUTE_OPTIONS properties.
+Possible attributes include the <a href="wpd_attributes.htm">WPD_EVENT_ATTRIBUTE_NAME</a>, WPD_EVENT_ATTRIBUTE_PARAMETERS, and WPD_EVENT_ATTRIBUTE_OPTIONS properties.
       
 
 

@@ -4,10 +4,10 @@ title: IIdentityStore::Reset
 author: windows-sdk-content
 description: Sets the current index of the identity enumeration to zero.
 old-location: security\iidentitystore_reset.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 3a01fde0-0ef6-401a-8af4-ee3310da568a
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: IIdentityStore interface [Security],Reset method, IIdentityStore.Reset, IIdentityStore::Reset, Reset, Reset method [Security], Reset method [Security],IIdentityStore interface, identitystore/IIdentityStore::Reset, security.iidentitystore_reset
 ms.prod: windows
 ms.technology: windows-sdk

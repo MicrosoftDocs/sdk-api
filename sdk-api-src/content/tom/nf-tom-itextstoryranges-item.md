@@ -52,7 +52,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-Retrieves an <a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a> object for the 
+Retrieves an <a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a> object for the 
 			<i>Index</i>th story in this story collection. 
 
 
@@ -65,15 +65,15 @@ Retrieves an <a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85)
 
 Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">LONG</a></b>
 
-Index of story range that is retrieved. The default value is 1, which indicates the first story in the collection. <i>Count</i>, given by <a href="https://msdn.microsoft.com/en-us/library/Bb773939(v=VS.85).aspx">ITextStoryRanges::GetCount</a>, indicates the last story in the collection. If <i>Index</i> is less than zero, the stories are counted from last to first, with -1 being the index of the last story in the collection, and 
+Index of story range that is retrieved. The default value is 1, which indicates the first story in the collection. <i>Count</i>, given by <a href="https://msdn.microsoft.com/ef7f5b30-c3d1-4b8f-ad2d-925e09cab462">ITextStoryRanges::GetCount</a>, indicates the last story in the collection. If <i>Index</i> is less than zero, the stories are counted from last to first, with -1 being the index of the last story in the collection, and 
 					<i>Index</i> = - <i>Count</i> indicating the first story in the collection. 
 
 
 ### -param ppRange
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>**</b>
 
-The <a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a> object.
+The <a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a> object.
 
 
 ## -returns
@@ -127,11 +127,11 @@ Failure for some other reason.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb773939(v=VS.85).aspx">GetCount</a>
+<a href="https://msdn.microsoft.com/ef7f5b30-c3d1-4b8f-ad2d-925e09cab462">GetCount</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774062(v=VS.85).aspx">ITextStoryRanges</a>
+<a href="https://msdn.microsoft.com/eee6c992-1f6a-4e4e-bd8a-34a9aff41859">ITextStoryRanges</a>
 
 
 
@@ -139,7 +139,7 @@ Failure for some other reason.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

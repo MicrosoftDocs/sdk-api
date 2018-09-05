@@ -4,10 +4,10 @@ title: ICspAlgorithm::get_MinLength
 author: windows-sdk-content
 description: Retrieves the minimum permitted length for a key.
 old-location: security\icspalgorithm_minlength_property.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: 1df00a2d-4004-4c5d-ab70-5d39ca517ebd
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ICspAlgorithm interface [Security],MinLength property, ICspAlgorithm.MinLength, ICspAlgorithm.get_MinLength, ICspAlgorithm::MinLength, ICspAlgorithm::get_MinLength, MinLength property [Security], MinLength property [Security],ICspAlgorithm interface, certenroll/ICspAlgorithm::MinLength, certenroll/ICspAlgorithm::get_MinLength, get_MinLength, security.icspalgorithm_minlength_property
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/Aa375958(v=VS.85).aspx">DefaultLength</a>, <a href="https://msdn.microsoft.com/en-us/library/Aa375959(v=VS.85).aspx">IncrementLength</a>, <a href="https://msdn.microsoft.com/en-us/library/Aa375961(v=VS.85).aspx">MaxLength</a>, and <b>MinLength</b> properties can vary by algorithm and provider. The following table lists a few example maximum, minimum and default key sizes.<table>
+The <a href="https://msdn.microsoft.com/03a487e0-5ba4-4065-86e9-bed667db6ff9">DefaultLength</a>, <a href="https://msdn.microsoft.com/296ad5b4-d0c1-4fd8-ab55-6ee15b5599b7">IncrementLength</a>, <a href="https://msdn.microsoft.com/516afaa4-0317-4f05-87e7-bd614b428ccb">MaxLength</a>, and <b>MinLength</b> properties can vary by algorithm and provider. The following table lists a few example maximum, minimum and default key sizes.<table>
 <tr>
 <th>Algorithm OID</th>
 <th>Cryptographic provider</th>
@@ -181,7 +181,7 @@ Increment: 64
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375947(v=VS.85).aspx">ICspAlgorithm</a>
+<a href="https://msdn.microsoft.com/08eba616-2e96-40cd-9fda-8549de98c138">ICspAlgorithm</a>
  
 
  

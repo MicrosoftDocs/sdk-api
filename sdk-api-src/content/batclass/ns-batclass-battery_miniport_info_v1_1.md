@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Battery miniclass drivers fill in the <b>BATTERY_MINIPORT_INFO_V1_1</b> structure before calling the battery class driver's <a href="https://msdn.microsoft.com/en-us/library/Ff536266(v=VS.85).aspx">BatteryClassInitializeDevice</a> routine. <b>BATTERY_MINIPORT_INFO_V1_1</b> is an updated version of the previous structure <a href="https://msdn.microsoft.com/en-us/library/Ff536287(v=VS.85).aspx">BATTERY_MINIPORT_INFO</a>.
+Battery miniclass drivers fill in the <b>BATTERY_MINIPORT_INFO_V1_1</b> structure before calling the battery class driver's <a href="https://msdn.microsoft.com/0af685a5-f5c2-4448-b8b2-f5cd9ed77047">BatteryClassInitializeDevice</a> routine. <b>BATTERY_MINIPORT_INFO_V1_1</b> is an updated version of the previous structure <a href="https://msdn.microsoft.com/db9d4e7d-a794-4c08-b849-d0b75ecf606b">BATTERY_MINIPORT_INFO</a>.
 
 
 ## -struct-fields
@@ -76,32 +76,32 @@ Pointer to the context area allocated by the miniclass driver.
 
 ### -field QueryTag
 
-Specifies the entry point of the miniclass driver's <a href="https://msdn.microsoft.com/en-us/library/Ff536275(v=VS.85).aspx">BatteryMiniQueryTag</a> routine.
+Specifies the entry point of the miniclass driver's <a href="https://msdn.microsoft.com/030b7f5f-8ace-4dfc-8330-97aace86a1eb">BatteryMiniQueryTag</a> routine.
 
 
 ### -field QueryInformation
 
-Specifies the entry point of the miniclass driver's <a href="https://msdn.microsoft.com/en-us/library/Ff536273(v=VS.85).aspx">BatteryMiniQueryInformation</a> routine.
+Specifies the entry point of the miniclass driver's <a href="https://msdn.microsoft.com/bd96b79a-5670-4aaf-b72c-619818c2a2e7">BatteryMiniQueryInformation</a> routine.
 
 
 ### -field SetInformation
 
-Specifies the entry point of the miniclass driver's <a href="https://msdn.microsoft.com/en-us/library/Ff536276(v=VS.85).aspx">BatteryMiniSetInformation</a> routine.
+Specifies the entry point of the miniclass driver's <a href="https://msdn.microsoft.com/ebfcabb7-7447-486d-b980-7cb5456332f4">BatteryMiniSetInformation</a> routine.
 
 
 ### -field QueryStatus
 
-Specifies the entry point of the miniclass driver's <a href="https://msdn.microsoft.com/en-us/library/Ff536274(v=VS.85).aspx">BatteryMiniQueryStatus</a> routine.
+Specifies the entry point of the miniclass driver's <a href="https://msdn.microsoft.com/04811f63-8a57-4b39-84c5-c9b7f803c057">BatteryMiniQueryStatus</a> routine.
 
 
 ### -field SetStatusNotify
 
-Specifies the entry point of the miniclass driver's <a href="https://msdn.microsoft.com/en-us/library/Ff536277(v=VS.85).aspx">BatteryMiniSetStatusNotify</a> routine.
+Specifies the entry point of the miniclass driver's <a href="https://msdn.microsoft.com/ec463202-4c08-475a-b612-73413f1376fc">BatteryMiniSetStatusNotify</a> routine.
 
 
 ### -field DisableStatusNotify
 
-Specifies the entry point of the miniclass driver's <a href="https://msdn.microsoft.com/en-us/library/Ff536272(v=VS.85).aspx">BatteryMiniDisableStatusNotify</a> routine.
+Specifies the entry point of the miniclass driver's <a href="https://msdn.microsoft.com/5120205f-0d55-4391-a560-3089fbe11d82">BatteryMiniDisableStatusNotify</a> routine.
 
 
 ### -field Pdo

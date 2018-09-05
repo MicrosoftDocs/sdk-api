@@ -88,7 +88,7 @@ Before calling <b>EnumDisplayDevices</b>, you must initialize the <b>cb</b> memb
 
 ### -param dwFlags [in]
 
-Set this flag to EDD_GET_DEVICE_INTERFACE_NAME (0x00000001) to retrieve the device interface name for GUID_DEVINTERFACE_MONITOR, which is registered by the operating system on a per monitor basis. The value is placed in the DeviceID member of the <a href="https://msdn.microsoft.com/9a7813fe-358a-44eb-99da-c63f98d055c3">DISPLAY_DEVICE</a> structure returned in <i>lpDisplayDevice</i>. The resulting device interface name can be used with <a href="https://msdn.microsoft.com/library/Ff550855(v=VS.85).aspx">SetupAPI functions</a> and serves as a link between GDI monitor devices and SetupAPI monitor devices. 
+Set this flag to EDD_GET_DEVICE_INTERFACE_NAME (0x00000001) to retrieve the device interface name for GUID_DEVINTERFACE_MONITOR, which is registered by the operating system on a per monitor basis. The value is placed in the DeviceID member of the <a href="https://msdn.microsoft.com/9a7813fe-358a-44eb-99da-c63f98d055c3">DISPLAY_DEVICE</a> structure returned in <i>lpDisplayDevice</i>. The resulting device interface name can be used with <a href="SetupAPI_f2cd3b48-9270-4139-94c3-b1d3fc925716.xml">SetupAPI functions</a> and serves as a link between GDI monitor devices and SetupAPI monitor devices. 
 
 
 ## -returns

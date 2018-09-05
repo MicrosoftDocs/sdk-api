@@ -7,7 +7,7 @@ old-location: direct3d10\d3d10_query_desc.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_query_desc.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: D3D10_QUERY_DESC, D3D10_QUERY_DESC structure [Direct3D 10], c98685a6-35b0-8f3e-8e4a-9394a6936f46, d3d10/D3D10_QUERY_DESC, direct3d10.d3d10_query_desc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,16 +61,16 @@ Describes a query.
 
 ### -field Query
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb205335(v=VS.85).aspx">D3D10_QUERY</a></b>
+Type: <b><a href="https://msdn.microsoft.com/f50197d6-48ba-498e-8c1b-9b0ae08a8782">D3D10_QUERY</a></b>
 
-Type of query (see <a href="https://msdn.microsoft.com/en-us/library/Bb205335(v=VS.85).aspx">D3D10_QUERY</a>).
+Type of query (see <a href="https://msdn.microsoft.com/f50197d6-48ba-498e-8c1b-9b0ae08a8782">D3D10_QUERY</a>).
 
 
 ### -field MiscFlags
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">UINT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">UINT</a></b>
 
-Miscellaneous flags (see <a href="https://msdn.microsoft.com/en-us/library/Bb172406(v=VS.85).aspx">D3D10_QUERY_MISC_FLAG</a>).
+Miscellaneous flags (see <a href="https://msdn.microsoft.com/6f5bca34-fe58-4875-a514-02cff11c059c">D3D10_QUERY_MISC_FLAG</a>).
 
 
 ## -see-also
@@ -78,7 +78,7 @@ Miscellaneous flags (see <a href="https://msdn.microsoft.com/en-us/library/Bb172
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb205153(v=VS.85).aspx">Core Structures</a>
+<a href="https://msdn.microsoft.com/84769515-3f3b-4464-9620-7b806bf905b3">Core Structures</a>
  
 
  

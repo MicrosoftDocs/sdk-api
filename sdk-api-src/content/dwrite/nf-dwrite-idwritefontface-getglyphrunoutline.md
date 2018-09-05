@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFontFace_GetGlyphRunOutline.htm
 old-project: DirectWrite
 ms.assetid: 06edbd68-efc3-44e5-875c-a84488fca252
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetGlyphRunOutline, GetGlyphRunOutline method [Direct Write], GetGlyphRunOutline method [Direct Write],IDWriteFontFace interface, IDWriteFontFace interface [Direct Write],GetGlyphRunOutline method, IDWriteFontFace.GetGlyphRunOutline, IDWriteFontFace::GetGlyphRunOutline, directwrite.IDWriteFontFace_GetGlyphRunOutline, dwrite/IDWriteFontFace::GetGlyphRunOutline
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: ITaskHandler::Pause
 author: windows-sdk-content
 description: Called to pause the COM handler.
 old-location: taskschd\itaskhandler_pause.htm
-old-project: taskschd
+old-project: TaskSchd
 ms.assetid: 851e3f20-a996-4a4b-bf10-7ba5c79c3d82
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ITaskHandler interface [Task Scheduler],Pause method, ITaskHandler.Pause, ITaskHandler::Pause, Pause, Pause method [Task Scheduler], Pause method [Task Scheduler],ITaskHandler interface, taskschd.itaskhandler_pause, taskschd/ITaskHandler::Pause
 ms.prod: windows
 ms.technology: windows-sdk

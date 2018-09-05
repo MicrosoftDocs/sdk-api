@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioclient3_getsharedmodeengineperiod.htm
 old-project: CoreAudio
 ms.assetid: 41ED045F-0C47-40BE-9ECD-6A925E166E6D
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: GetSharedModeEnginePeriod, GetSharedModeEnginePeriod method [Core Audio], GetSharedModeEnginePeriod method [Core Audio],IAudioClient3 interface, IAudioClient3 interface [Core Audio],GetSharedModeEnginePeriod method, IAudioClient3.GetSharedModeEnginePeriod, IAudioClient3::GetSharedModeEnginePeriod, audioclient/IAudioClient3::GetSharedModeEnginePeriod, coreaudio.iaudioclient3_getsharedmodeengineperiod
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,7 +109,7 @@ The longest period, in audio frames,  with which the audio engine will wake the 
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 This method returns <b>S_OK</b> to indicate that it has completed successfully. Otherwise it returns an appropriate error code. 
 

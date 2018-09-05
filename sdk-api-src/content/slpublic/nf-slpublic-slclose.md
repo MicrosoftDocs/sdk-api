@@ -4,10 +4,10 @@ title: SLClose function
 author: windows-sdk-content
 description: Closes the Software Licensing Client (SLC) context handle.
 old-location: security\slclose.htm
-old-project: secslapi
+old-project: SecSLApi
 ms.assetid: a2483fa2-cdd6-48b8-861f-34fd5efc34df
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SLClose, SLClose function [Security], security.slclose, slpublic/SLClose
 ms.prod: windows
 ms.technology: windows-sdk

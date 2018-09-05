@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Sets the Unicode character format flag for the control. This message allows you to change the character set used by the control at run time rather than having to re-create the control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761018(v=VS.85).aspx">MCM_SETUNICODEFORMAT</a> message explicitly. 
+Sets the Unicode character format flag for the control. This message allows you to change the character set used by the control at run time rather than having to re-create the control. You can use this macro or send the <a href="https://msdn.microsoft.com/250789b5-694b-4502-9cc0-3bc260ea06e7">MCM_SETUNICODEFORMAT</a> message explicitly. 
 
 
 ## -parameters
@@ -61,14 +61,14 @@ Sets the Unicode character format flag for the control. This message allows you 
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 Handle to the control. 
 
 
 ### -param fUnicode
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 Determines the character set that is used by the control. If this value is nonzero, the control will use Unicode characters. If this value is zero, the control will use ANSI characters. 
 
@@ -78,7 +78,7 @@ Determines the character set that is used by the control. If this value is nonze
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774708(v=VS.85).aspx">MonthCal_GetUnicodeFormat</a>
+<a href="https://msdn.microsoft.com/c6206fdb-9c3d-4331-89f6-ed6e38aeb935">MonthCal_GetUnicodeFormat</a>
  
 
  

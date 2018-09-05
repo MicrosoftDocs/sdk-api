@@ -4,10 +4,10 @@ title: WdsCliTransferFile function
 author: windows-sdk-content
 description: Transfers a file from a WDS server to the WDS client using a multicast transfer protocol.
 old-location: wds\wdsclitransferfile.htm
-old-project: wds
+old-project: Wds
 ms.assetid: d219b7ee-4cb8-43ce-959b-4793c7df17ff
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WDS_CLI_TRANSFER_ASYNCHRONOUS, WdsCliTransferFile, WdsCliTransferFile function [Windows Deployment Services], wds.wdsclitransferfile, wdsclientapi/WdsCliTransferFile
 ms.prod: windows
 ms.technology: windows-sdk

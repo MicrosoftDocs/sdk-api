@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffects_count.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffects\count.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IMILBitmapEffects interface [WPF Bitmap Effects],get_Count method, IMILBitmapEffects.get_Count, IMILBitmapEffects::get_Count, _wibe_imilbitmapeffects_count, get_Count, get_Count method [WPF Bitmap Effects], get_Count method [WPF Bitmap Effects],IMILBitmapEffects interface, mileffects/IMILBitmapEffects::get_Count, wibe._wibe_imilbitmapeffects_count
 ms.prod: windows
 ms.technology: windows-sdk

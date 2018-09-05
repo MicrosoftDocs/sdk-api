@@ -4,10 +4,10 @@ title: "_CHANGE_ATTRIBUTES_PARAMETERS"
 author: windows-sdk-content
 description: Defines the partition parameters of a partition style.
 old-location: base\change_attributes_parameters.htm
-old-project: vds
+old-project: VDS
 ms.assetid: 6ff3ea68-70dd-4ef1-9c31-1f8c1fcf5fca
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CHANGE_ATTRIBUTES_PARAMETERS, CHANGE_ATTRIBUTES_PARAMETERS structure [VDS], GPT_ATTRIBUTE_PLATFORM_REQUIRED, GPT_BASIC_DATA_ATTRIBUTE_HIDDEN, GPT_BASIC_DATA_ATTRIBUTE_NO_DRIVE_LETTER, GPT_BASIC_DATA_ATTRIBUTE_READ_ONLY, GPT_BASIC_DATA_ATTRIBUTE_SHADOW_COPY, _CHANGE_ATTRIBUTES_PARAMETERS, base.change_attributes_parameters, vds/CHANGE_ATTRIBUTES_PARAMETERS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -141,8 +141,8 @@ If this attribute is set, the partition is not detected by the Mount Manager.
 
 As a result, the partition does not receive a drive letter, 
           does not receive a volume GUID path, does not host mounted folders (also called volume mount points), and is not enumerated by calls to 
-          <a href="https://msdn.microsoft.com/en-us/library/Aa364425(v=VS.85).aspx">FindFirstVolume</a> and 
-          <a href="https://msdn.microsoft.com/en-us/library/Aa364431(v=VS.85).aspx">FindNextVolume</a>. This ensures that applications 
+          <a href="base.findfirstvolume">FindFirstVolume</a> and 
+          <a href="base.findnextvolume">FindNextVolume</a>. This ensures that applications 
           such as Disk Defragmenter do not access the partition. The Volume Shadow Copy Service (VSS) uses this attribute.
 
 Despite its name, this attribute can be set for basic and dynamic disks.
@@ -180,7 +180,7 @@ Despite its name, this attribute can be set for basic and dynamic disks.
 If this attribute is set, the partition is read-only. 
 
 All requests to write to the partition will fail. 
-          <a href="https://msdn.microsoft.com/en-us/library/Aa365182(v=VS.85).aspx">IOCTL_DISK_IS_WRITABLE</a> will fail with the 
+          <a href="base.ioctl_disk_is_writable">IOCTL_DISK_IS_WRITABLE</a> will fail with the 
           ERROR_WRITE_PROTECT Win32 error code, which causes the file system to mount as read-only, if a file system is present.
 
 VSS uses this attribute.

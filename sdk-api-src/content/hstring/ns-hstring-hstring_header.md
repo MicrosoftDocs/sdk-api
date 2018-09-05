@@ -7,7 +7,7 @@ old-location: winrt\hstring_header.htm
 old-project: WinRT
 ms.assetid: E63E73A7-1908-4CEC-ADCB-1A3D23BE8A3B
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: HSTRING_HEADER, HSTRING_HEADER structure [Windows Runtime], hstring/HSTRING_HEADER, winrt.hstring_header
 ms.prod: windows
 ms.technology: windows-sdk

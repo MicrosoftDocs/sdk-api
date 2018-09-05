@@ -7,7 +7,7 @@ old-location: mscs\sr_resource_type_replicated_disks_result.htm
 old-project: mscs
 ms.assetid: 1A4FA103-542A-4B9B-83F5-4ED5AE266389
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSR_RESOURCE_TYPE_REPLICATED_DISKS_RESULT, PSR_RESOURCE_TYPE_REPLICATED_DISKS_RESULT, PSR_RESOURCE_TYPE_REPLICATED_DISKS_RESULT structure pointer [Failover Cluster], SR_RESOURCE_TYPE_REPLICATED_DISKS_RESULT, SR_RESOURCE_TYPE_REPLICATED_DISKS_RESULT structure [Failover Cluster], _SR_RESOURCE_TYPE_REPLICATED_DISKS_RESULT, clusapi/PSR_RESOURCE_TYPE_REPLICATED_DISKS_RESULT, clusapi/SR_RESOURCE_TYPE_REPLICATED_DISKS_RESULT, mscs.sr_resource_type_replicated_disks_result"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,7 +74,7 @@ The retrieved array of replicated disks.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369339(v=VS.85).aspx">Data Structures</a>
+<a href="https://msdn.microsoft.com/e3ad7c34-0c8a-4f03-8e5c-b57802c493f0">Data Structures</a>
  
 
  

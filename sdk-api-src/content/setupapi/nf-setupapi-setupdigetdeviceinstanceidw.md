@@ -7,7 +7,7 @@ old-location: devinst\setupdigetdeviceinstanceid.htm
 old-project: devinst
 ms.assetid: 43ad298d-2ff4-445a-aa23-1319d5f990c8
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: SetupDiGetDeviceInstanceId, SetupDiGetDeviceInstanceId function [Device and Driver Installation], SetupDiGetDeviceInstanceIdA, SetupDiGetDeviceInstanceIdW, devinst.setupdigetdeviceinstanceid, di-rtns_f7f2bb12-37a0-489f-a1e7-0ca67600876c.xml, setupapi/SetupDiGetDeviceInstanceId
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: ADAM
 ## -description
 
 
-The <b>SetupDiGetDeviceInstanceId</b> function retrieves the <a href="https://msdn.microsoft.com/library/Ff541327(v=VS.85).aspx">device instance ID</a> that is associated with a device information element.
+The <b>SetupDiGetDeviceInstanceId</b> function retrieves the <a href="devinst.device_instance_ids">device instance ID</a> that is associated with a device information element.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ The <b>SetupDiGetDeviceInstanceId</b> function retrieves the <a href="https://ms
 
 ### -param DeviceInfoSet [in]
 
-A handle to the <a href="https://msdn.microsoft.com/library/Ff541247(v=VS.85).aspx">device information set</a> that contains the device information element that represents the device for which to retrieve a device instance ID. 
+A handle to the <a href="devinst.device_information_sets">device information set</a> that contains the device information element that represents the device for which to retrieve a device instance ID. 
 
 
 ### -param DeviceInfoData [in]

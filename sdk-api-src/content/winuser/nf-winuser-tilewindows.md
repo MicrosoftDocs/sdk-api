@@ -7,7 +7,7 @@ old-location: winmsg\tilewindows.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\tilewindows.htm
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: MDITILE_HORIZONTAL, MDITILE_VERTICAL, TileWindows, TileWindows function [Windows and Messages], _win32_TileWindows, _win32_tilewindows_cpp, winmsg.tilewindows, winui._win32_tilewindows, winuser/TileWindows
 ms.prod: windows
 ms.technology: windows-sdk
@@ -153,7 +153,7 @@ Calling <b>TileWindows</b> causes all maximized windows to be restored to their 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632674(v=VS.85).aspx">CascadeWindows</a>
+<a href="https://msdn.microsoft.com/9d17ef48-13ec-4770-89a1-ebcca898be8c">CascadeWindows</a>
 
 
 
@@ -173,7 +173,7 @@ Calling <b>TileWindows</b> causes all maximized windows to be restored to their 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: shell\ISyncMgrHandler_GetObject.htm
 old-project: shell
 ms.assetid: 91441b28-a2d8-4114-86dd-9a3e826deef4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetObject, GetObject method [Windows Shell], GetObject method [Windows Shell],ISyncMgrHandler interface, ISyncMgrHandler interface [Windows Shell],GetObject method, ISyncMgrHandler.GetObject, ISyncMgrHandler::GetObject, SYNCMGR_OBJECTID_BrowseContent, SYNCMGR_OBJECTID_ConflictStore, SYNCMGR_OBJECTID_EventLinkClick, SYNCMGR_OBJECTID_EventStore, SYNCMGR_OBJECTID_Icon, SYNCMGR_OBJECTID_QueryBeforeActivate, SYNCMGR_OBJECTID_QueryBeforeDeactivate, SYNCMGR_OBJECTID_QueryBeforeDisable, SYNCMGR_OBJECTID_QueryBeforeEnable, SYNCMGR_OBJECTID_ShowSchedule, _shell_ISyncMgrHandler_GetObject, shell.ISyncMgrHandler_GetObject, syncmgr/ISyncMgrHandler::GetObject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -203,9 +203,13 @@ The handler can implement the requested interface on itself or it can implement 
 
 The following example shows an implementation of this method.
 
-
-```cpp
-STDMETHODIMP CMyDeviceHandler::GetObject( __in REFGUID   rguidObjectID, 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP CMyDeviceHandler::GetObject( __in REFGUID   rguidObjectID, 
                                           __in REFIID    riid,
                                           __out void   **ppv)
 {
@@ -223,9 +227,9 @@ STDMETHODIMP CMyDeviceHandler::GetObject( __in REFGUID   rguidObjectID,
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

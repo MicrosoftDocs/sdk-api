@@ -89,9 +89,13 @@ Returns an <b>HRESULT</b> value. A return code of S_OK indicates to the graph bu
 
 The following example shows how a filter would reverse the steps that are shown in the code example for the <b>IStreamBuilder::Render</b> method:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 STDMETHODIMP CMyOutputPin::BackOut(IPin *pPin, IGraphBuilder *pGraph)
 {
     CheckPointer(pPin, E_POINTER);
@@ -102,17 +106,17 @@ STDMETHODIMP CMyOutputPin::BackOut(IPin *pPin, IGraphBuilder *pGraph)
     {
         // Find the filter that owns the pin connected to us.
         FILTER_INFO fi;
-        hr = m_Connected->QueryFilterInfo(&fi);
+        hr = m_Connected-&gt;QueryFilterInfo(&amp;fi);
         if (SUCCEEDED(hr)) 
         {
             if (fi.pFilter != NULL) 
             {
                 //  Disconnect the pins.
-                pGraph->Disconnect(m_Connected);
-                pGraph->Disconnect(pPin);
+                pGraph-&gt;Disconnect(m_Connected);
+                pGraph-&gt;Disconnect(pPin);
                 // Remove the filter from the graph.
-                pGraph->RemoveFilter(fi.pFilter);
-                fi.pFilter->Release();
+                pGraph-&gt;RemoveFilter(fi.pFilter);
+                fi.pFilter-&gt;Release();
             } 
             else 
             {
@@ -122,10 +126,10 @@ STDMETHODIMP CMyOutputPin::BackOut(IPin *pPin, IGraphBuilder *pGraph)
     }
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

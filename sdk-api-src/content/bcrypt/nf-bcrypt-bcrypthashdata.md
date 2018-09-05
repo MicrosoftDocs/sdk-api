@@ -4,10 +4,10 @@ title: BCryptHashData function
 author: windows-sdk-content
 description: Performs a one way hash or Message Authentication Code (MAC) on a data buffer.
 old-location: security\bcrypthashdata_func.htm
-old-project: seccng
+old-project: SecCNG
 ms.assetid: dab89dff-dc84-4f69-8b6b-de65704b0265
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BCryptHashData, BCryptHashData function [Security], bcrypt/BCryptHashData, security.bcrypthashdata_func
 ms.prod: windows
 ms.technology: windows-sdk

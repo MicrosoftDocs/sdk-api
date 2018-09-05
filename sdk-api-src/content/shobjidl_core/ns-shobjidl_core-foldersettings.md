@@ -7,7 +7,7 @@ old-location: shell\FOLDERSETTINGS.htm
 old-project: shell
 ms.assetid: be00fe39-1add-412e-b88b-4b0b1404b19d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: "*LPFOLDERSETTINGS, *PFOLDERSETTINGS, FOLDERSETTINGS, FOLDERSETTINGS structure [Windows Shell], _win32_FOLDERSETTINGS, shell.FOLDERSETTINGS, shobjidl_core/FOLDERSETTINGS"
 ms.prod: windows
 ms.technology: windows-sdk

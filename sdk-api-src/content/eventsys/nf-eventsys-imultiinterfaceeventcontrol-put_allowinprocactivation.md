@@ -7,7 +7,7 @@ old-location: cos\imultiinterfaceeventcontrol_allowinprocactivation.htm
 old-project: cossdk
 ms.assetid: 152f78d9-4292-45e8-a908-5d2b0368f507
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: AllowInprocActivation property [COM+], AllowInprocActivation property [COM+],IMultiInterfaceEventControl interface, IMultiInterfaceEventControl interface [COM+],AllowInprocActivation property, IMultiInterfaceEventControl.AllowInprocActivation, IMultiInterfaceEventControl.put_AllowInprocActivation, IMultiInterfaceEventControl::AllowInprocActivation, IMultiInterfaceEventControl::get_AllowInprocActivation, IMultiInterfaceEventControl::put_AllowInprocActivation, cos.imultiinterfaceeventcontrol_allowinprocactivation, eventsys/IMultiInterfaceEventControl::AllowInprocActivation, eventsys/IMultiInterfaceEventControl::get_AllowInprocActivation, eventsys/IMultiInterfaceEventControl::put_AllowInprocActivation, put_AllowInprocActivation
 ms.prod: windows
 ms.technology: windows-sdk

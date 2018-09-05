@@ -7,7 +7,7 @@ old-location: cos\ifiringcontrol.htm
 old-project: cossdk
 ms.assetid: 1db216b8-f334-4fa2-81db-0f6c1646b320
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IFiringControl, IFiringControl interface [COM+], IFiringControl interface [COM+],described, _cos_IFiringControl, cos.ifiringcontrol, eventsys/IFiringControl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -57,7 +57,7 @@ Fires an event to a single subscription.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFiringControl</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>IFiringControl</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFiringControl</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IFiringControl</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

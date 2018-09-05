@@ -4,10 +4,10 @@ title: WNetDisconnectDialog1A function
 author: windows-sdk-content
 description: The WNetDisconnectDialog1 function attempts to disconnect a network resource.
 old-location: wnet\wnetdisconnectdialog1.htm
-old-project: wnet
+old-project: WNet
 ms.assetid: ec3abf0c-2a18-4d7d-aac4-e086d00fa6fe
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: WNetDisconnectDialog1, WNetDisconnectDialog1 function [Windows Networking (WNet)], WNetDisconnectDialog1A, WNetDisconnectDialog1W, _win32_wnetdisconnectdialog1, winnetwk/WNetDisconnectDialog1, winnetwk/WNetDisconnectDialog1A, winnetwk/WNetDisconnectDialog1W, wnet.wnetdisconnectdialog1
 ms.prod: windows
 ms.technology: windows-sdk

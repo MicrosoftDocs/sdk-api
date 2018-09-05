@@ -74,9 +74,13 @@ A docking container is a control that allows the arrangement of child elements, 
 The following example shows how to return the DockPosition property.
 			
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
     // dockPosition is a global variable of type DockPosition.
 
     HRESULT STDMETHODCALLTYPE BucketControl::get_DockPosition(DockPosition *pRetVal)
@@ -88,10 +92,10 @@ The following example shows how to return the DockPosition property.
         *pRetVal = dockPosition;
         return S_OK;
     }
-            
-```
-
-
+            </pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

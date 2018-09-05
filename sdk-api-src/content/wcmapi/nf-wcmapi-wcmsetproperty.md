@@ -7,7 +7,7 @@ old-location: wcm\wcmsetproperty.htm
 old-project: wcm
 ms.assetid: 79985d5e-a6a1-447c-b12e-11c6022c19a6
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: WcmSetProperty, WcmSetProperty function [Windows Connection Manager], wcm.wcmsetproperty, wcmapi/WcmSetProperty
 ms.prod: windows
 ms.technology: windows-sdk

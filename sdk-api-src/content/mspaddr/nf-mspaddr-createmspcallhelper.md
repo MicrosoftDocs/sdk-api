@@ -101,7 +101,7 @@ Pointer to <b>IUnknown</b> interface for MSP call object.
 Pointer to templated MSP call class, type implementation dependent.
 
 
-### -param param
+### -param arg1
 
 TBD
 

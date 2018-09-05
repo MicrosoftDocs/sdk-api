@@ -4,10 +4,10 @@ title: WinBioCaptureSampleWithCallback function
 author: windows-sdk-content
 description: Captures a biometric sample asynchronously and returns the raw or processed data in a biometric information record (BIR).
 old-location: secbiomet\winbiocapturesamplewithcallback.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: a99296c8-89da-4b2c-9a1b-fc10700ad48d
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: WINBIO_DATA_FLAG_INTEGRITY, WINBIO_DATA_FLAG_INTERMEDIATE, WINBIO_DATA_FLAG_PRIVACY, WINBIO_DATA_FLAG_PROCESSED, WINBIO_DATA_FLAG_RAW, WINBIO_DATA_FLAG_SIGNED, WinBioCaptureSampleWithCallback, WinBioCaptureSampleWithCallback function [Windows Biometric Framework API], secbiomet.winbiocapturesamplewithcallback, winbio/WinBioCaptureSampleWithCallback
 ms.prod: windows
 ms.technology: windows-sdk
@@ -216,9 +216,13 @@ Callers are responsible for releasing the <a href="https://msdn.microsoft.com/39
 
 The callback routine must have the following signature:
 
-
-```cpp
-VOID CALLBACK CaptureCallback(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID CALLBACK CaptureCallback(
 __in_opt PVOID CaptureCallbackContext,
 __in HRESULT OperationStatus,
 __in WINBIO_UNIT_ID UnitId,
@@ -226,10 +230,10 @@ __in_bcount(SampleSize) PWINBIO_BIR Sample,
 __in SIZE_T SampleSize,
 __in WINBIO_REJECT_DETAIL RejectDetail
 );
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 #### Examples
 
@@ -241,9 +245,13 @@ The following code example captures a sample asynchronously by calling <b>WinBio
 <li>Conio.h</li>
 <li>Winbio.h</li>
 </ul>
-
-```cpp
-HRESULT CaptureSampleWithCallback(BOOL bCancel)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CaptureSampleWithCallback(BOOL bCancel)
 {
     HRESULT hr = S_OK;
     WINBIO_SESSION_HANDLE sessionHandle = NULL;
@@ -256,7 +264,7 @@ HRESULT CaptureSampleWithCallback(BOOL bCancel)
             NULL,                       // Array of biometric unit IDs
             0,                          // Count of biometric unit IDs
             WINBIO_DB_DEFAULT,          // Default database
-            &sessionHandle              // [out] Session handle
+            &amp;sessionHandle              // [out] Session handle
             );
     if (FAILED(hr))
     {
@@ -362,10 +370,10 @@ e_Exit:
     }
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

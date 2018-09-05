@@ -4,10 +4,10 @@ title: ICertProperties
 author: windows-sdk-content
 description: Contains methods and properties that enable you to manage a collection of certificate properties.
 old-location: security\icertproperties.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: b830c0af-0a38-419d-8a33-8e3626c4e8f1
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ICertProperties, ICertProperties interface [Security], ICertProperties interface [Security],described, certenroll/ICertProperties, security.icertproperties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,10 +56,10 @@ The <b>ICertProperties</b> interface contains methods and properties that enable
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertProperties</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ICertProperties</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ICertProperties</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ICertProperties</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Properties</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
 </ul>
 
 ## -members
@@ -72,7 +72,7 @@ The <b>ICertProperties</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa375232(v=VS.85).aspx">Add</a>
+<a href="https://msdn.microsoft.com/53ea895d-0c41-445e-bfcc-2b2e53e10ff8">Add</a>
 </td>
 <td align="left" width="63%">
 Adds a property to the collection.
@@ -83,7 +83,7 @@ Adds a property to the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa375233(v=VS.85).aspx">Clear</a>
+<a href="https://msdn.microsoft.com/b75f6ed2-7f7e-48d6-b5f3-a49dfac68d08">Clear</a>
 </td>
 <td align="left" width="63%">
 Removes all properties from the collection.
@@ -92,7 +92,7 @@ Removes all properties from the collection.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa375235(v=VS.85).aspx">InitializeFromCertificate</a>
+<a href="https://msdn.microsoft.com/74de47cb-44fd-45d7-ba32-03824fc0995d">InitializeFromCertificate</a>
 </td>
 <td align="left" width="63%">
 Initializes the collection from the properties contained in a certificate.
@@ -101,7 +101,7 @@ Initializes the collection from the properties contained in a certificate.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Aa375237(v=VS.85).aspx">Remove</a>
+<a href="https://msdn.microsoft.com/7ee9e624-6f27-4177-9711-7062cb10f77b">Remove</a>
 </td>
 <td align="left" width="63%">
 Removes a property from the collection by index value.
@@ -118,7 +118,7 @@ Removes a property from the collection by index value.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375238(v=VS.85).aspx">_NewEnum</a>
+<a href="https://msdn.microsoft.com/a903113a-5d68-4a8e-b2ba-9993c927415e">_NewEnum</a>
 
 
 </td>
@@ -130,7 +130,7 @@ Retrieves the enumerator for the collection.
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375234(v=VS.85).aspx">Count</a>
+<a href="https://msdn.microsoft.com/a01672b6-f2d1-43ad-a8bf-a052d6435572">Count</a>
 
 
 </td>
@@ -163,11 +163,11 @@ Retrieves a property from the collection by index number.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374850(v=VS.85).aspx">CertEnroll Interfaces</a>
+<a href="https://msdn.microsoft.com/d49511ed-8651-457e-a102-0bea4edde24c">CertEnroll Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a>
+<a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a>
  
 
  

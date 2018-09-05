@@ -4,10 +4,10 @@ title: WSDSetConfigurationOption function
 author: windows-sdk-content
 description: Sets a WSDAPI configuration option.
 old-location: ncd\wsdsetconfigurationoption.htm
-old-project: wsdapi
+old-project: WsdApi
 ms.assetid: d7d9b946-9f02-4770-aafe-5ee9e04a51cd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WSDAPI_OPTION_MAX_INBOUND_MESSAGE_SIZE, WSDSetConfigurationOption, WSDSetConfigurationOption function, ncd.wsdsetconfigurationoption, wsdutil/WSDSetConfigurationOption
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mscs\clusresgroup_state.htm
 old-project: mscs
 ms.assetid: 7eb8662c-a6ca-46e5-99ee-84e0dd6b0961
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusResGroup class [Failover Cluster],State property, ClusResGroup.State, ClusterGroupFailed, ClusterGroupOffline, ClusterGroupOnline, ClusterGroupPartialOnline, ClusterGroupPending, ClusterGroupStateUnknown, ISClusResGroup.get_State, ISClusResGroup::get_State, State property [Failover Cluster], State property [Failover Cluster],ClusResGroup class, _wolf_clusresgroup.state, get_State, mscs.clusresgroup_state
 ms.prod: windows
 ms.technology: windows-sdk

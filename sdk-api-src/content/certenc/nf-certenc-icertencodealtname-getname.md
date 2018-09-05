@@ -4,10 +4,10 @@ title: ICertEncodeAltName::GetName
 author: windows-sdk-content
 description: Returns the specified name from the alternate name array.
 old-location: security\icertencodealtname_getname.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 25a3f36b-1c09-4b2e-84b7-a725d366fd77
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CCertEncodeAltName object [Security],GetName method, GetName, GetName method [Security], GetName method [Security],CCertEncodeAltName object, GetName method [Security],ICertEncodeAltName interface, ICertEncodeAltName interface [Security],GetName method, ICertEncodeAltName.GetName, ICertEncodeAltName::GetName, _certsrv_icertencodealtname_getname, certenc/ICertEncodeAltName::GetName, security.icertencodealtname_getname
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ The <b>GetName</b> method returns the specified name from the alternate name arr
 
 A zero-based index that specifies the index of the alternate name entry to retrieve.  
 
-To retrieve the <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.85).aspx">object identifier</a> (OID) of a CERT_ALT_NAME_OTHER_NAME name, combine the index value with EAN_NAMEOBJECTID (defined as 0x80000000) with a bitwise-<b>OR</b> operation. Otherwise, the binary value is retrieved. To determine the type of name, call the <a href="https://msdn.microsoft.com/en-us/library/Aa383307(v=VS.85).aspx">ICertEncodeAltName::GetNameChoice</a> method.
+To retrieve the <a href="https://msdn.microsoft.com/e6be8932-015e-4058-b249-1671b3fea521">object identifier</a> (OID) of a CERT_ALT_NAME_OTHER_NAME name, combine the index value with EAN_NAMEOBJECTID (defined as 0x80000000) with a bitwise-<b>OR</b> operation. Otherwise, the binary value is retrieved. To determine the type of name, call the <a href="https://msdn.microsoft.com/3b21fbc7-cba1-49b1-bad6-232f717e3056">ICertEncodeAltName::GetNameChoice</a> method.
 
 
 ### -param pstrName
@@ -76,7 +76,7 @@ To retrieve the <a href="https://msdn.microsoft.com/en-us/library/ms721599(v=VS.
 
 #### - pbstrName [out]
 
-A pointer to a <b>BSTR</b> that receives the alternate name. When you have finished using the <b>BSTR</b>, free it by calling the <a href="https://msdn.microsoft.com/en-us/library/ms221481(v=VS.85).aspx">SysFreeString</a> function.
+A pointer to a <b>BSTR</b> that receives the alternate name. When you have finished using the <b>BSTR</b>, free it by calling the <a href="8f230ee3-5f6e-4cb9-a910-9c90b754dcd3">SysFreeString</a> function.
 
 
 ## -returns
@@ -86,10 +86,10 @@ A pointer to a <b>BSTR</b> that receives the alternate name. When you have finis
 <h3>C++</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
- The return value is the alternate name at the specified index. The return value is a <a href="https://msdn.microsoft.com/en-us/library/ms721629(v=VS.85).aspx">Unicode</a> string.
+ The return value is the alternate name at the specified index. The return value is a <a href="https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb">Unicode</a> string.
 
 
 
@@ -99,15 +99,15 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383295(v=VS.85).aspx">ICertEncodeAltName</a>
+<a href="https://msdn.microsoft.com/e0ecfcb0-f2ca-4e1c-a054-c83c03d55465">ICertEncodeAltName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383307(v=VS.85).aspx">ICertEncodeAltName::GetNameChoice</a>
+<a href="https://msdn.microsoft.com/3b21fbc7-cba1-49b1-bad6-232f717e3056">ICertEncodeAltName::GetNameChoice</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383657(v=VS.85).aspx">ICertEncodeAltName::SetNameEntry</a>
+<a href="https://msdn.microsoft.com/5da07c09-9213-4604-b058-5e69df646b09">ICertEncodeAltName::SetNameEntry</a>
  
 
  

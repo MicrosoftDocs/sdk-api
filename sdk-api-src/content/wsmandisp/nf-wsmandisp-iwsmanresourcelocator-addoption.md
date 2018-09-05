@@ -4,10 +4,10 @@ title: IWSManResourceLocator::AddOption
 author: windows-sdk-content
 description: Adds data required to process the request. For example, some WMI providers may require an IWbemContext or SWbemNamedValueSet object with provider-specific information.
 old-location: winrm\iwsmanresourcelocator_addoption.htm
-old-project: winrm
+old-project: WinRM
 ms.assetid: a6709cb7-35a1-41b6-981e-13d3f1bf9816
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: AddOption, AddOption method [Windows Remote Management], AddOption method [Windows Remote Management],IWSManResourceLocator interface, IWSManResourceLocator interface [Windows Remote Management],AddOption method, IWSManResourceLocator.AddOption, IWSManResourceLocator::AddOption, winrm.iwsmanresourcelocator_addoption, wsmandisp/IWSManResourceLocator::AddOption
 ms.prod: windows
 ms.technology: windows-sdk

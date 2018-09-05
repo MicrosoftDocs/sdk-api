@@ -7,7 +7,7 @@ old-location: shell\INameSpaceTreeControlFolderCapabilities_GetFolderCapabilitie
 old-project: shell
 ms.assetid: 1534431c-21fc-4eb9-8f17-ddd7414bef94
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetFolderCapabilities, GetFolderCapabilities method [Windows Shell], GetFolderCapabilities method [Windows Shell],INameSpaceTreeControlFolderCapabilities interface, INameSpaceTreeControlFolderCapabilities interface [Windows Shell],GetFolderCapabilities method, INameSpaceTreeControlFolderCapabilities.GetFolderCapabilities, INameSpaceTreeControlFolderCapabilities::GetFolderCapabilities, NSTCFC_DELAY_REGISTER_NOTIFY, NSTCFC_NONE, NSTCFC_PINNEDITEMFILTERING, _shell_INameSpaceTreeControlFolderCapabilities_GetFolderCapabilities, shell.INameSpaceTreeControlFolderCapabilities_GetFolderCapabilities, shobjidl_core/INameSpaceTreeControlFolderCapabilities::GetFolderCapabilities
 ms.prod: windows
 ms.technology: windows-sdk

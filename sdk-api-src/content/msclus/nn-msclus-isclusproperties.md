@@ -7,7 +7,7 @@ old-location: mscs\clusproperties_collection.htm
 old-project: mscs
 ms.assetid: b117b0eb-e188-4514-8e11-9acca1303e8f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusProperties, ClusProperties collection [Failover Cluster], ClusProperties collection [Failover Cluster],described, ISClusProperties, _wolf_clusproperties_collection, msclus/ClusProperties, mscs.clusproperties_collection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -239,7 +239,7 @@ A <b>ClusProperties</b> collection is similar
     <b>ClusProperties</b> collection is created, it 
     receives a snapshot of the stored data. Changes to the 
     <b>ClusProperties</b> collection do not take 
-    effect in the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> until the 
+    effect in the <a href="c_gly.htm">cluster</a> until the 
     <a href="https://msdn.microsoft.com/2792025f-c434-47e0-a5e8-06a992e3a8d2">SaveChanges</a> method is invoked. Similarly, 
     changes to the cluster database are not reflected in the collection until the 
     <a href="https://msdn.microsoft.com/900c9401-e8f4-423a-80df-598f5edb2935">Refresh</a> method is called.

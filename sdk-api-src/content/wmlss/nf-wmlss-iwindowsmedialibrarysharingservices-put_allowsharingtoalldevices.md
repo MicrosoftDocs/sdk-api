@@ -4,10 +4,10 @@ title: IWindowsMediaLibrarySharingServices::put_allowSharingToAllDevices
 author: windows-sdk-content
 description: The put_allowSharingToAllDevices method allows or disallows sharing of the current user's media library with all devices on the home network.
 old-location: wmlss\IWMLSSput_allowSharingToAllDevices.htm
-old-project: wmlss
+old-project: WMLSS
 ms.assetid: c0dbc9ce-de09-4f60-a975-f09367ba9145
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services],put_allowSharingToAllDevices method, IWindowsMediaLibrarySharingServices.put_allowSharingToAllDevices, IWindowsMediaLibrarySharingServices::put_allowSharingToAllDevices, put_allowSharingToAllDevices, put_allowSharingToAllDevices method [Windows Media Library Sharing Services], put_allowSharingToAllDevices method [Windows Media Library Sharing Services],IWindowsMediaLibrarySharingServices interface, wmlss.IWMLSSput_allowSharingToAllDevices, wmlss/IWindowsMediaLibrarySharingServices::put_allowSharingToAllDevices
 ms.prod: windows
 ms.technology: windows-sdk

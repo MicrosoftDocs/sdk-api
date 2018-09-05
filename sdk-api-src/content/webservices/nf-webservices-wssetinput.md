@@ -7,7 +7,7 @@ old-location: wsw\wssetinput.htm
 old-project: wsw
 ms.assetid: d7ac5233-266e-4ca1-aa58-e50b385b48bb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WsSetInput, WsSetInput function [Web Services for Windows], webservices/WsSetInput, wsw.wssetinput
 ms.prod: windows
 ms.technology: windows-sdk

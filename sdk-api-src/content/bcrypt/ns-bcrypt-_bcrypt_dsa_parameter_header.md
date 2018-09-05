@@ -4,10 +4,10 @@ title: "_BCRYPT_DSA_PARAMETER_HEADER"
 author: windows-sdk-content
 description: Used to contain parameter header information for a Digital Signature Algorithm (DSA) key.
 old-location: security\bcrypt_dsa_parameter_header.htm
-old-project: seccng
+old-project: SecCNG
 ms.assetid: 96c20afb-e429-45b3-b817-88134914a26b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BCRYPT_DSA_PARAMETERS_MAGIC, BCRYPT_DSA_PARAMETER_HEADER, BCRYPT_DSA_PARAMETER_HEADER structure [Security], PBCRYPT_DSA_PARAMETER_HEADER, PBCRYPT_DSA_PARAMETER_HEADER structure pointer [Security], _BCRYPT_DSA_PARAMETER_HEADER, bcrypt/BCRYPT_DSA_PARAMETER_HEADER, bcrypt/PBCRYPT_DSA_PARAMETER_HEADER, security.bcrypt_dsa_parameter_header
 ms.prod: windows
 ms.technology: windows-sdk

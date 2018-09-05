@@ -4,10 +4,10 @@ title: tagStorageLayout
 author: windows-sdk-content
 description: Describes a single block of data, including its name, location, and length.
 old-location: stg\storagelayout.htm
-old-project: stg
+old-project: Stg
 ms.assetid: 1e4fb36d-077b-44bd-ab6e-8c122ec95a46
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: StorageLayout, StorageLayout structure [Structured Storage], _stg_storagelayout, objidl/StorageLayout, stg.storagelayout, tagStorageLayout
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,9 +109,13 @@ A beginning block value of <b>STG_TOEND</b> specifies that elements in a followi
 An array of 
 <b>StorageLayout</b> structures might appear as follows.
 
-
-```cpp
-StorageLayout arrScript[]=
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>StorageLayout arrScript[]=
     // Read first 2k of "WordDocument" stream
     {STGTY_STREAM,L"WordDocument",{0,0},{0,2048}},
  
@@ -127,10 +131,10 @@ StorageLayout arrScript[]=
         {STGTY_STREAM,L"Video", {0,0},{0,65536}},   // 64k of Video
         {STGTY_STREAM,L"Caption", {0,0},{0,128}},   // 128b of text
     {STGTY_REPEAT,NULL, {0,0},{0,0}}
-};
-```
-
-
+};</pre>
+</td>
+</tr>
+</table></span></div>
 <div class="alert"><b>Note</b>  The parameters <i>cOffset</i> and <i>cBytes</i> are <b>LARGE_INTEGER</b> structures, used to represent a 64-bit signed integer value as a union of two 32-bit members. The two 32-bit members must be represented as a <b>LARGE_INTEGER</b> structure with <b>DWORD</b> LowPart and <b>LONG</b> HighPart as the structure members. (LowPart specifies the low-order 32 bits and HighPart specifies the high-order 32 bits.) If your compiler has built-in support for 64-bit integers, use the <b>QuadPart</b> member of the <b>LARGE_INTEGER</b> structure to store the 64-bit integer.</div>
 <div> </div>
 

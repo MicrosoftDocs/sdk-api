@@ -7,7 +7,7 @@ old-location: wintouch\iinertiaprocessor_desiredrotation.htm
 old-project: wintouch
 ms.assetid: 42fcda66-8992-4a44-b4d5-04d4f2c7e25a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DesiredRotation property [Windows Touch], DesiredRotation property [Windows Touch],IInertiaProcessor interface, IInertiaProcessor interface [Windows Touch],DesiredRotation property, IInertiaProcessor.DesiredRotation, IInertiaProcessor.get_DesiredRotation, IInertiaProcessor::DesiredRotation, IInertiaProcessor::get_DesiredRotation, IInertiaProcessor::put_DesiredRotation, get_DesiredRotation, manipulations/IInertiaProcessor::DesiredRotation, manipulations/IInertiaProcessor::get_DesiredRotation, manipulations/IInertiaProcessor::put_DesiredRotation, wintouch.iinertiaprocessor_desiredrotation
 ms.prod: windows
 ms.technology: windows-sdk

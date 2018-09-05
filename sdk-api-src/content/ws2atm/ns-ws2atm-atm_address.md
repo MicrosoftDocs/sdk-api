@@ -4,10 +4,10 @@ title: ATM_ADDRESS
 author: windows-sdk-content
 description: The ATM_ADDRESS structure holds ATM address data for ATM-based sockets.
 old-location: winsock\atm_address_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: 794d4070-45d7-41c3-8229-660ba3c5f72a
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: ATM_ADDRESS, ATM_ADDRESS structure [Winsock], ATM_CALLED_PARTY_NUMBER_IE, ATM_CALLED_PARTY_SUBADDRESS_IE, ATM_CALLING_PARTY_SUBADDRESS_IE, _win32_atm_address_2, winsock.atm_address_2, ws2atm/ATM_ADDRESS
 ms.prod: windows
 ms.technology: windows-sdk

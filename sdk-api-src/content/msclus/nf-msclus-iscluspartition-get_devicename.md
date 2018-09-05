@@ -7,7 +7,7 @@ old-location: mscs\cluspartition_devicename.htm
 old-project: mscs
 ms.assetid: bd94ee19-33d1-43dd-bf4e-dddc63ea1e43
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusPartition object [Failover Cluster],DeviceName property, ClusPartition.DeviceName, DeviceName property [Failover Cluster], DeviceName property [Failover Cluster],ClusPartition object, ISClusPartition.get_DeviceName, ISClusPartition::get_DeviceName, _wolf_cluspartition.devicename, get_DeviceName, mscs.cluspartition_devicename
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ req.product: GDI+ 1.1
 
 Returns the 
     device name of a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa372937(v=VS.85).aspx">storage class resource</a> 
+    <a href="s_gly.htm">storage class resource</a> 
     partition.
 
 This property is read-only.

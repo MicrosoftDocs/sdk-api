@@ -4,10 +4,10 @@ title: IWSDXMLContext::AddNameToNamespace
 author: windows-sdk-content
 description: Creates an object that represents a name in a namespace in an XML context.
 old-location: ncd\iwsdxmlcontext_addnametonamespace_method.htm
-old-project: wsdapi
+old-project: WsdApi
 ms.assetid: d480f868-46ab-4d9c-ae52-4e5ca5cb9fd9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: AddNameToNamespace, AddNameToNamespace method, AddNameToNamespace method,IWSDXMLContext interface, IWSDXMLContext interface,AddNameToNamespace method, IWSDXMLContext.AddNameToNamespace, IWSDXMLContext::AddNameToNamespace, ncd.iwsdxmlcontext_addnametonamespace_method, wsdxml/IWSDXMLContext::AddNameToNamespace
 ms.prod: windows
 ms.technology: windows-sdk

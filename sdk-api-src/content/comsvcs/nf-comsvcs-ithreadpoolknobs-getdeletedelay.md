@@ -7,7 +7,7 @@ old-location: cos\ithreadpoolknobs_getdeletedelay.htm
 old-project: cossdk
 ms.assetid: 93404c39-b4f8-4247-a437-fd373b0b68fe
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetDeleteDelay, GetDeleteDelay method [COM+], GetDeleteDelay method [COM+],IThreadPoolKnobs interface, IThreadPoolKnobs interface [COM+],GetDeleteDelay method, IThreadPoolKnobs.GetDeleteDelay, IThreadPoolKnobs::GetDeleteDelay, _cos_IThreadPoolKnobs_GetDeleteDelay, comsvcs/IThreadPoolKnobs::GetDeleteDelay, cos.ithreadpoolknobs_getdeletedelay
 ms.prod: windows
 ms.technology: windows-sdk

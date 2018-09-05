@@ -4,10 +4,10 @@ title: WinBioCaptureSample function
 author: windows-sdk-content
 description: Captures a biometric sample and fills a biometric information record (BIR) with the raw or processed data.
 old-location: secbiomet\winbiocapturesample.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: 365dcefb-3382-4b62-b47d-919e2d3f56f1
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: WINBIO_DATA_FLAG_INTEGRITY, WINBIO_DATA_FLAG_INTERMEDIATE, WINBIO_DATA_FLAG_PRIVACY, WINBIO_DATA_FLAG_PROCESSED, WINBIO_DATA_FLAG_RAW, WINBIO_DATA_FLAG_SIGNED, WinBioCaptureSample, WinBioCaptureSample function [Windows Biometric Framework API], secbiomet.winbiocapturesample, winbio/WinBioCaptureSample
 ms.prod: windows
 ms.technology: windows-sdk
@@ -256,9 +256,13 @@ The following function calls <b>WinBioCaptureSample</b> to capture a biometric s
 <li>Conio.h</li>
 <li>Winbio.h</li>
 </ul>
-
-```cpp
-HRESULT CaptureSample()
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CaptureSample()
 {
     HRESULT hr = S_OK;
     WINBIO_SESSION_HANDLE sessionHandle = NULL;
@@ -275,7 +279,7 @@ HRESULT CaptureSample()
             NULL,                       // Array of biometric unit IDs
             0,                          // Count of biometric unit IDs
             WINBIO_DB_DEFAULT,          // Default database
-            &sessionHandle              // [out] Session handle
+            &amp;sessionHandle              // [out] Session handle
             );
     if (FAILED(hr))
     {
@@ -289,10 +293,10 @@ HRESULT CaptureSample()
             sessionHandle,
             WINBIO_NO_PURPOSE_AVAILABLE,
             WINBIO_DATA_FLAG_RAW,
-            &unitId,
-            &sample,
-            &sampleSize,
-            &rejectDetail
+            &amp;unitId,
+            &amp;sample,
+            &amp;sampleSize,
+            &amp;rejectDetail
             );
     if (FAILED(hr))
     {
@@ -330,10 +334,10 @@ e_Exit:
     return hr;
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

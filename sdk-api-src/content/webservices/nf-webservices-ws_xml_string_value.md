@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_string_value.htm
 old-project: wsw
 ms.assetid: 95e2326c-d4b2-421c-b991-ca9c332b6f6f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_XML_STRING_VALUE, WS_XML_STRING_VALUE macro [Web Services for Windows], webservices/WS_XML_STRING_VALUE, wsw.ws_xml_string_value
 ms.prod: windows
 ms.technology: windows-sdk

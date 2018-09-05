@@ -7,7 +7,7 @@ old-location: wcs\jabcolorf.htm
 old-project: WCS
 ms.assetid: c92a62b0-6c78-43cd-8b14-201f872c27fa
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: JabColorF, JabColorF structure [Windows Color System], _JabColorF, wcs.jabcolorf, wcsplugin/JChColorF
 ms.prod: windows
 ms.technology: windows-sdk

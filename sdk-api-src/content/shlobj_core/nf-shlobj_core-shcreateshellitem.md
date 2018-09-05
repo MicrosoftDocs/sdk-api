@@ -7,7 +7,7 @@ old-location: shell\SHCreateShellItem.htm
 old-project: shell
 ms.assetid: d4371cdf-a8f4-4a39-ba66-97fd40ed46ae
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHCreateShellItem, SHCreateShellItem function [Windows Shell], _win32_SHCreateShellItem, shell.SHCreateShellItem, shlobj_core/SHCreateShellItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -114,9 +114,6 @@ There are three valid calling patterns for this function:
 <ol>
 <li>The parent folder is identified by an absolute IDList <i>pidlParent</i>. The <i>pidl</i> parameter points to a child IDList that identifies the item within the folder identified by <i>pidlParent</i>.
 
-                        
-
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
                         <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -129,14 +126,9 @@ SHCreateShellItem(pidlParent, NULL, pidlChild, &amp;psi);
 </td>
 </tr>
 </table></span></div>
-
-
 </li>
 <li>The parent folder is identified by <i>psfParent</i>. The <i>pidl</i> parameter points to a child IDList that identifies the item within the folder identified by <i>psfParent</i>.
 
-                        
-
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
                         <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -149,14 +141,9 @@ SHCreateShellItem(NULL, psfParent, pidlChild, &amp;psi);
 </td>
 </tr>
 </table></span></div>
-
-
 </li>
 <li>The item is identified by an absolute IDList passed to the <i>pidl</i> parameter.
 
-                        
-
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
                         <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
 <th>C++</th>
@@ -169,8 +156,6 @@ SHCreateShellItem(NULL, NULL, pidlFull, &amp;psi);
 </td>
 </tr>
 </table></span></div>
-
-
 </li>
 </ol>
 

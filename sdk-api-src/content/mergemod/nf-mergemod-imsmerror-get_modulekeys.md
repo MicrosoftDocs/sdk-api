@@ -7,7 +7,7 @@ old-location: setup\error_modulekeys.htm
 old-project: msi
 ms.assetid: b02b609b-4682-4228-b29a-364f079e863c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Error object,ModuleKeys property, Error.ModuleKeys, IMsmError.get_ModuleKeys, IMsmError::get_ModuleKeys, ModuleKeys property, ModuleKeys property,Error object, _msi_modulekeys_property, get_ModuleKeys, setup.error_modulekeys
 ms.prod: windows
 ms.technology: windows-sdk

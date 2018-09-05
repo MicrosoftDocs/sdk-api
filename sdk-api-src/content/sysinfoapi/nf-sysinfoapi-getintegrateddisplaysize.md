@@ -4,10 +4,10 @@ title: GetIntegratedDisplaySize function
 author: windows-sdk-content
 description: Retrieves the best estimate of the diagonal size of the built-in screen, in inches.
 old-location: base\getintegrateddisplaysize.htm
-old-project: sysinfo
+old-project: SysInfo
 ms.assetid: EA155FCF-3245-498B-BEC8-742DE38DE258
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: GetIntegratedDisplaySize, GetIntegratedDisplaySize function, base.getintegrateddisplaysize, sysinfoapi/GetIntegratedDisplaySize
 ms.prod: windows
 ms.technology: windows-sdk

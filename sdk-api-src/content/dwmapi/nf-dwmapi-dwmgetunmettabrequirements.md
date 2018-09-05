@@ -66,7 +66,7 @@ req.product: Windows Media Format 9 Series or later
 The handle of the window to check.
 
 
-### -param param
+### -param arg1
 
 TBD
 

@@ -4,10 +4,10 @@ title: "_INTERFACE_INFO"
 author: windows-sdk-content
 description: The INTERFACE_INFO structure is used in conjunction with the SIO_GET_INTERFACE_LIST ioctl command to obtain information about an interface IP address.
 old-location: winsock\interface_info_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: fe1bf38d-70a7-4f0a-b76a-c0c9443d1782
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPINTERFACE_INFO, IFF_BROADCAST, IFF_LOOPBACK, IFF_MULTICAST, IFF_POINTTOPOINT, IFF_UP, INTERFACE_INFO, INTERFACE_INFO structure [Winsock], INTERFACE_INFO,FAR * LPINTERFACE_INFO, INTERFACE_INFO,FAR * LPINTERFACE_INFO structure [Winsock], _INTERFACE_INFO, _win32_interface_info_2, winsock.interface_info_2, ws2ipdef/INTERFACE_INFO, ws2tcpip/INTERFACE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wsb\iwsbapplicationrestoresupport_prerestore.htm
 old-project: wsb
 ms.assetid: 2e1b73f9-a931-42a2-a1b1-f939f492c449
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IWsbApplicationRestoreSupport interface [Windows Server Backup],PreRestore method, IWsbApplicationRestoreSupport.PreRestore, IWsbApplicationRestoreSupport::PreRestore, PreRestore, PreRestore method [Windows Server Backup], PreRestore method [Windows Server Backup],IWsbApplicationRestoreSupport interface, wsb.iwsbapplicationrestoresupport_prerestore, wsbapp/IWsbApplicationRestoreSupport::PreRestore
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: setup\error_language.htm
 old-project: msi
 ms.assetid: f47cad5d-8e76-4210-b1ab-377d2d05379e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Error object,Language property, Error.Language, IMsmError.get_Language, IMsmError::get_Language, Language property, Language property,Error object, _msi_language_property_error_object_, get_Language, setup.error_language
 ms.prod: windows
 ms.technology: windows-sdk

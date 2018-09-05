@@ -4,10 +4,10 @@ title: TcAddFlow function
 author: windows-sdk-content
 description: The TcAddFlow function adds a new flow on the specified interface.
 old-location: qos\tcaddflow.htm
-old-project: qos
+old-project: QOS
 ms.assetid: 20b4f34b-a84e-4211-8d41-0efa0dbc6cd4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: TcAddFlow, TcAddFlow function [QOS], _gqos_tcaddflow, qos.tcaddflow, traffic/TcAddFlow
 ms.prod: windows
 ms.technology: windows-sdk

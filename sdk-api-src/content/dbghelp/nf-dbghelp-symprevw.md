@@ -7,7 +7,7 @@ old-location: base\symprev.htm
 old-project: debug
 ms.assetid: 45503f0c-cb66-4ddf-986d-02de7fc480f2
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: SymPrev, SymPrev function, SymPrevW, base.symprev, dbghelp/SymPrev, dbghelp/SymPrevW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Loads an <a href="https://msdn.microsoft.com/en-us/library/Ee420195(v=VS.85).aspx">XMSHORT2</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
+Loads an <a href="https://msdn.microsoft.com/C41BEAA7-E620-4D64-8408-584CDB6F835A">XMSHORT2</a> into an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>.
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Loads an <a href="https://msdn.microsoft.com/en-us/library/Ee420195(v=VS.85).asp
 
 ### -param pSource [in]
 
-Address of the <a href="https://msdn.microsoft.com/en-us/library/Ee420195(v=VS.85).aspx">XMSHORT2</a> structure to load. 
+Address of the <a href="https://msdn.microsoft.com/C41BEAA7-E620-4D64-8408-584CDB6F835A">XMSHORT2</a> structure to load. 
 
 
 ## -returns
@@ -77,24 +77,28 @@ Returns an <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531a
 
 
 
-The <b>x</b> and <b>y</b> members of the <a href="https://msdn.microsoft.com/en-us/library/Ee420195(v=VS.85).aspx">XMSHORT2</a> are converted to
+The <b>x</b> and <b>y</b> members of the <a href="https://msdn.microsoft.com/C41BEAA7-E620-4D64-8408-584CDB6F835A">XMSHORT2</a> are converted to
    single-precision format, and loaded into the corresponding members of the <a href="https://msdn.microsoft.com/1a044094-444d-e787-fa6a-76e88531aef1">XMVECTOR</a>. The
    <b>z</b> and <b>w</b> members of the returned <b>XMVECTOR</b> will be initialized to 0. The
    following pseudocode shows you the operation of this function:
 
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>XMVECTOR Result;
 
-```
-XMVECTOR Result;
-
-Result.x = (float)pSource->x;
-Result.y = (float)pSource->y;
+Result.x = (float)pSource-&gt;x;
+Result.y = (float)pSource-&gt;y;
 vectorOut.z = 0;
 vectorOut.w = 0;
 
-return Result;
-```
-
-
+return Result;</pre>
+</td>
+</tr>
+</table></span></div>
 <h3><a id="Platform_Requirements"></a><a id="platform_requirements"></a><a id="PLATFORM_REQUIREMENTS"></a>Platform Requirements</h3>
 Microsoft Visual Studio 2010 or Microsoft Visual Studio 2012 with the Windows SDK for Windows 8. Supported for Win32 desktop apps, Windows Store apps, and Windows Phone 8 apps.
 

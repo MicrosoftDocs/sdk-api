@@ -4,10 +4,10 @@ title: IX509EnrollmentPolicyServer::GetPolicyServerId
 author: windows-sdk-content
 description: Retrieves a string value that uniquely identifies the certificate enrollment policy (CEP) server.
 old-location: security\ix509enrollmentpolicyserver_getpolicyserverid.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: daff74e8-a124-4194-95f6-5837598c352f
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetPolicyServerId, GetPolicyServerId method [Security], GetPolicyServerId method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetPolicyServerId method, IX509EnrollmentPolicyServer.GetPolicyServerId, IX509EnrollmentPolicyServer::GetPolicyServerId, certenroll/IX509EnrollmentPolicyServer::GetPolicyServerId, security.ix509enrollmentpolicyserver_getpolicyserverid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>GetPolicyServerId</b> method retrieves a string value that uniquely identifies the certificate enrollment policy (CEP) server. This value is set in the <a href="https://msdn.microsoft.com/en-us/library/Ee351710(v=VS.85).aspx">Initialize</a> method.
+The <b>GetPolicyServerId</b> method retrieves a string value that uniquely identifies the certificate enrollment policy (CEP) server. This value is set in the <a href="https://msdn.microsoft.com/b0d848a2-1bac-4a30-ae02-26d5af719688">Initialize</a> method.
 
 
 ## -parameters
@@ -70,7 +70,7 @@ Pointer to a <b>BSTR</b> variable that contains the ID string.
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -121,7 +121,7 @@ The <i>pValue</i> parameter cannot be <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351692(v=VS.85).aspx">IX509EnrollmentPolicyServer</a>
+<a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a>
  
 
  

@@ -4,10 +4,10 @@ title: RasEnumConnectionsW function
 author: windows-sdk-content
 description: The RasEnumConnections function lists all active RAS connections. It returns each connection's handle and phone-book entry name.
 old-location: rras\rasenumconnections.htm
-old-project: rras
+old-project: RRAS
 ms.assetid: b581cfbf-a55e-4f56-89cd-168aa23af550
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RasEnumConnections, RasEnumConnections function [RAS], RasEnumConnectionsA, RasEnumConnectionsW, _ras_rasenumconnections, ras/RasEnumConnections, ras/RasEnumConnectionsA, ras/RasEnumConnectionsW, rras.rasenumconnections
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,17 @@ The
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
+
+TBD
+
+
+### -param arg3
 
 TBD
 
@@ -143,10 +153,14 @@ If a connection was made without specifying a phone-book entry name, the informa
 
 The following code sample code uses <b>RasEnumConnections</b> to enumerates the active RAS connections.
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
 #include "ras.h"
 #include "raserror.h"
 #pragma comment(lib, "rasapi32.lib")
@@ -160,7 +174,7 @@ DWORD __cdecl wmain(){
     
     // Call RasEnumConnections with lpRasConn = NULL. dwCb is returned with the required buffer size and 
     // a return code of ERROR_BUFFER_TOO_SMALL
-    dwRet = RasEnumConnections(lpRasConn, &dwCb, &dwConnections);
+    dwRet = RasEnumConnections(lpRasConn, &amp;dwCb, &amp;dwConnections);
 
     if (dwRet == ERROR_BUFFER_TOO_SMALL){
         // Allocate the memory needed for the array of RAS structure(s).
@@ -173,12 +187,12 @@ DWORD __cdecl wmain(){
         lpRasConn[0].dwSize = sizeof(RASCONN);
         
         // Call RasEnumConnections to enumerate active connections
-        dwRet = RasEnumConnections(lpRasConn, &dwCb, &dwConnections);
+        dwRet = RasEnumConnections(lpRasConn, &amp;dwCb, &amp;dwConnections);
 
         // If successful, print the names of the active connections.
         if (ERROR_SUCCESS == dwRet){
             wprintf(L"The following RAS connections are currently active:\n");
-            for (DWORD i = 0; i < dwConnections; i++){
+            for (DWORD i = 0; i &lt; dwConnections; i++){
                          wprintf(L"%s\n", lpRasConn[i].szEntryName);
                   }
         }
@@ -189,7 +203,7 @@ DWORD __cdecl wmain(){
     }
 
     // There was either a problem with RAS or there are no connections to enumerate    
-    if(dwConnections >= 1){
+    if(dwConnections &gt;= 1){
         wprintf(L"The operation failed to acquire the buffer size.\n");
     }else{
         wprintf(L"There are no active RAS connections.\n");
@@ -197,10 +211,10 @@ DWORD __cdecl wmain(){
 
     return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <b>RasEnumConnections</b> cannot  enumerate a connection as <b>Active</b> until RAS has successfully connected. 
 
 <b>Windows Me/98/95:  </b><b>RasEnumConnections</b>  enumerates a connection as <b>Active</b> as soon as it starts dialing.

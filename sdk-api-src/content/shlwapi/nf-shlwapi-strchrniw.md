@@ -7,7 +7,7 @@ old-location: shell\StrChrNIW.htm
 old-project: shell
 ms.assetid: 01F2CC10-F59A-45dd-8A18-7DC33BDD717F
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: StrChrNIW, StrChrNIW function [Windows Shell], shell.StrChrNIW, shlwapi/StrChrNIW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

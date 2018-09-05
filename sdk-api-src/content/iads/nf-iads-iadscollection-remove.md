@@ -87,9 +87,13 @@ Collections that do not support direct removal of items are required to return <
 
 The following Visual Basic code example shows how to remove a named session object from a collection of active file service sessions.
 
-
-```vb
-Dim fso As IADsFileServiceOperations 
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim fso As IADsFileServiceOperations 
 Dim ses As IADsSession
 Dim coll As IADsCollection
 Dim mySessionName As String
@@ -106,44 +110,48 @@ Set coll = fso.Sessions
 coll.Remove mySessionName
 
 Cleanup:
-    If (Err.Number<>0) Then
-        MsgBox("An error has occurred. " & Err.Number)
+    If (Err.Number&lt;&gt;0) Then
+        MsgBox("An error has occurred. " &amp; Err.Number)
     End If
     Set fso = Nothing
     Set ses = Nothing
     Set coll = Nothing
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 The following C++ code example shows how to remove a named session object from a collection of active file service sessions.
 
-
-```cpp
-HRESULT RemoveASessionObjectFromCollection()
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT RemoveASessionObjectFromCollection()
 {
     LPWSTR adspath = L"WinNT://myComputer/FabrikamServer";
     HRESULT hr = S_OK;
     IADsCollection *pColl = NULL;
     IADsFileServiceOperations *pFso = NULL;
 
-    hr = ADsGetObject(adspath,IID_IADsFileServiceOperations,(void**)&pFso);
+    hr = ADsGetObject(adspath,IID_IADsFileServiceOperations,(void**)&amp;pFso);
     if(FAILED(hr)) {goto Cleanup;}
 
-    hr = pFso->Sessions(&pColl);
+    hr = pFso-&gt;Sessions(&amp;pColl);
     if(FAILED(hr)) {goto Cleanup;}
 
-    hr = pColl->Remove(CComBSTR("MySession"));
+    hr = pColl-&gt;Remove(CComBSTR("MySession"));
 
 Cleanup
-    if(pFso) pFso->Release();
-    if(pColl) pColl->Release();
+    if(pFso) pFso-&gt;Release();
+    if(pColl) pColl-&gt;Release();
 
     return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

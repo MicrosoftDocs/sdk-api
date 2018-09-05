@@ -7,7 +7,7 @@ old-location: remoteassist\remoteassist_IRendezvousSession_Flags.htm
 old-project: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\ifaces\irendezvoussession\flags.htm
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: Flags property [Remote Assistance], Flags property [Remote Assistance],IRendezvousSession interface, IRendezvousSession interface [Remote Assistance],Flags property, IRendezvousSession.Flags, IRendezvousSession.get_Flags, IRendezvousSession::Flags, IRendezvousSession::get_Flags, get_Flags, remoteassist.remoteassist_IRendezvousSession_Flags, remoteassist_IRendezvousSession_Flags, rendezvoussession/IRendezvousSession::Flags, rendezvoussession/IRendezvousSession::get_Flags
 ms.prod: windows
 ms.technology: windows-sdk

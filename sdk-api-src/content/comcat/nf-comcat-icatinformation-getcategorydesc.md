@@ -7,7 +7,7 @@ old-location: com\icatinformation_getcategorydesc.htm
 old-project: com
 ms.assetid: 66f004c2-2616-441e-8bb7-f56eb062bb35
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetCategoryDesc, GetCategoryDesc method [COM], GetCategoryDesc method [COM],ICatInformation interface, ICatInformation interface [COM],GetCategoryDesc method, ICatInformation.GetCategoryDesc, ICatInformation::GetCategoryDesc, _com_icatinformation_getcategorydesc, com.icatinformation_getcategorydesc, comcat/ICatInformation::GetCategoryDesc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ The locale.
 
 ### -param pszDesc [out]
 
-A pointer to the string pointer for the description. This string must be released by the caller using the <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function.
+A pointer to the string pointer for the description. This string must be released by the caller using the <a href="https://msdn.microsoft.com/3d0af12e-fc74-4ef7-b2dd-e9da5d0483c7">CoTaskMemFree</a> function.
 
 
 ## -returns
@@ -118,7 +118,7 @@ There is no description string for <i>rcatid</i> with the specified locale.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd542655(v=VS.85).aspx">ICatInformation</a>
+<a href="https://msdn.microsoft.com/1fd68126-b512-4131-8e93-cea7c1c3e9c0">ICatInformation</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: setup\msievaluatecondition.htm
 old-project: msi
 ms.assetid: 8a444bad-8537-40ec-8c7d-6835e4319580
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MsiEvaluateCondition, MsiEvaluateCondition function, MsiEvaluateConditionA, MsiEvaluateConditionW, _msi_msievaluatecondition, msiquery/MsiEvaluateCondition, msiquery/MsiEvaluateConditionA, msiquery/MsiEvaluateConditionW, setup.msievaluatecondition
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,7 +78,7 @@ Specifies the conditional expression. This parameter must not be <b>NULL</b>. Fo
 
 
 
-This function returns MSICONDITION __stdcall.
+This function returns MSICONDITION.
 
 
 
@@ -128,7 +128,7 @@ The following table shows the feature and component state values used by the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Installer Action Functions</a>
+<a href="database_functions.htm">Installer Action Functions</a>
 
 
 

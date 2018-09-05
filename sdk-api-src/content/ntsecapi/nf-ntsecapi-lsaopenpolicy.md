@@ -4,10 +4,10 @@ title: LsaOpenPolicy function
 author: windows-sdk-content
 description: Opens a handle to the Policy object on a local or remote system.
 old-location: security\lsaopenpolicy.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 361bc962-1e97-4606-a835-cbce37692c55
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: LsaOpenPolicy, LsaOpenPolicy function [Security], _lsa_lsaopenpolicy, ntsecapi/LsaOpenPolicy, security.lsaopenpolicy
 ms.prod: windows
 ms.technology: windows-sdk

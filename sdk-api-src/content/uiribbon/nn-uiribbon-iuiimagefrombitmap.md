@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_iuiimagefrombitmap.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiimagefrombitmap\iuiimagefrombitmap.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IUIImageFromBitmap, IUIImageFromBitmap interface [Windows Ribbon], IUIImageFromBitmap interface [Windows Ribbon],described, scenicintent_IUIImageFromBitmap, uiribbon/IUIImageFromBitmap, windowsribbon.windowsribbon_iuiimagefrombitmap
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.product: Windows UI
 
 
 <b>IUIImageFromBitmap</b> is a factory interface implemented by the Windows Ribbon framework 
-		that defines the method for creating an <a href="https://msdn.microsoft.com/en-us/library/Dd371367(v=VS.85).aspx">IUIImage</a> object.
+		that defines the method for creating an <a href="https://msdn.microsoft.com/27c76385-82ff-485d-b653-a384765b0be8">IUIImage</a> object.
 
 
 ## -inheritance
@@ -73,10 +73,10 @@ The <b>IUIImageFromBitmap</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dd371364(v=VS.85).aspx">CreateImage</a>
+<a href="https://msdn.microsoft.com/09eea6ad-c756-4044-b98f-6d6ba87437db">CreateImage</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://msdn.microsoft.com/en-us/library/Dd371367(v=VS.85).aspx">IUIImage</a> object from a bitmap image.
+Creates an <a href="https://msdn.microsoft.com/27c76385-82ff-485d-b653-a384765b0be8">IUIImage</a> object from a bitmap image.
 
 </td>
 </tr>
@@ -88,7 +88,7 @@ Creates an <a href="https://msdn.microsoft.com/en-us/library/Dd371367(v=VS.85).a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371192(v=VS.85).aspx">Windows Ribbon Framework Samples</a>
+<a href="https://msdn.microsoft.com/79d092c9-347b-4b8f-8ba4-a8f696ce6a85">Windows Ribbon Framework Samples</a>
  
 
  

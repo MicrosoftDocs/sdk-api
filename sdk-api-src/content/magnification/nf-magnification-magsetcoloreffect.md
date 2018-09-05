@@ -69,7 +69,7 @@ The magnification window.
 
 ### -param pEffect [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms692383(v=VS.85).aspx">PMAGCOLOREFFECT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/eb7c283a-ea55-4e7c-8fd1-f106837ecc34">PMAGCOLOREFFECT</a></b>
 
 The color transformation matrix, or <b>NULL</b> to remove the current color effect, if any.
 
@@ -98,9 +98,13 @@ This function requires Windows Display Driver Model (WDDM)-capable video cards.
 
 The following example sets a color transformation matrix that converts the colors displayed in the magnifier to grayscale.
 
-
-```cpp
-// Description:
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Description:
 //   Converts the colors displayed in the magnifier window to grayscale, or
 //   returns the colors to normal.
 // Parameters:
@@ -121,7 +125,7 @@ BOOL ConvertToGrayscale(HWND hwndMag, BOOL fConvert)
                 {  0.0f,  0.0f,  0.0f,  0.0f,  1.0f } 
             }};
 
-        return MagSetColorEffect(hwndMag, &magEffectGrayscale);
+        return MagSetColorEffect(hwndMag, &amp;magEffectGrayscale);
     }
 
     // Return the colors to normal.
@@ -130,10 +134,10 @@ BOOL ConvertToGrayscale(HWND hwndMag, BOOL fConvert)
         return MagSetColorEffect(hwndMag, NULL);
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -142,7 +146,7 @@ BOOL ConvertToGrayscale(HWND hwndMag, BOOL fConvert)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms692387(v=VS.85).aspx">MagGetColorEffect</a>
+<a href="https://msdn.microsoft.com/d86d3e43-5da0-460c-b243-d0797f5d0911">MagGetColorEffect</a>
  
 
  

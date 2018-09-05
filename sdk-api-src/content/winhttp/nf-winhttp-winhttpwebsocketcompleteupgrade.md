@@ -4,10 +4,10 @@ title: WinHttpWebSocketCompleteUpgrade function
 author: windows-sdk-content
 description: Completes a WebSocket handshake started by WinHttpSendRequest.
 old-location: http\winhttpwebsocketcompleteupgrade.htm
-old-project: winhttp
+old-project: WinHttp
 ms.assetid: a5d5971b-ac76-4be5-b884-a0e5ef9a495a
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: WinHttpWebSocketCompleteUpgrade, WinHttpWebSocketCompleteUpgrade function [WinHTTP], http.winhttpwebsocketcompleteupgrade, winhttp/WinHttpWebSocketCompleteUpgrade
 ms.prod: windows
 ms.technology: windows-sdk

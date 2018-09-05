@@ -7,7 +7,7 @@ old-location: base\enumerateloadedmodules64.htm
 old-project: debug
 ms.assetid: 9bfa683f-2a0f-418f-8ac4-5c4224265f2e
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: EnumerateLoadedModules, EnumerateLoadedModules function, EnumerateLoadedModules64, EnumerateLoadedModules64 function, EnumerateLoadedModulesW64, _win32_enumerateloadedmodules64, base.enumerateloadedmodules64, dbghelp/EnumerateLoadedModules, dbghelp/EnumerateLoadedModules64, dbghelp/EnumerateLoadedModulesW64
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,9 +98,13 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 To call the Unicode version of this function, <i>EnumerateLoadedModulesW64</i>, define <b>DBGHELP_TRANSLATE_TCHAR</b>. <i>EnumerateLoadedModulesW64</i> is defined as follows in DbgHelp.h. 
 
-
-```cpp
-BOOL
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL
 IMAGEAPI
 EnumerateLoadedModulesW64(
     __in HANDLE hProcess,
@@ -110,16 +114,20 @@ EnumerateLoadedModulesW64(
 
 #ifdef DBGHELP_TRANSLATE_TCHAR
     #define EnumerateLoadedModules64      EnumerateLoadedModulesW64
-#endif
-```
-
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 This function supersedes the <i>EnumerateLoadedModules</i> function. For more information, see 
 <a href="https://msdn.microsoft.com/34ec8cd3-3260-441d-b55f-4ea21c736eb1">Updated Platform Support</a>. <i>EnumerateLoadedModules</i> is defined as follows in DbgHelp.h. 
 
-
-```cpp
-#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
 #define EnumerateLoadedModules EnumerateLoadedModules64
 #else
 BOOL
@@ -129,10 +137,10 @@ EnumerateLoadedModules(
     __in PENUMLOADED_MODULES_CALLBACK EnumLoadedModulesCallback,
     __in_opt PVOID UserContext
     );
-#endif
-```
-
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: shell\IResultsFolder_AddItem.htm
 old-project: shell
 ms.assetid: 005f7125-8dc2-4d9c-a860-1bb56b4d0b63
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: AddItem, AddItem method [Windows Shell], AddItem method [Windows Shell],IResultsFolder interface, IResultsFolder interface [Windows Shell],AddItem method, IResultsFolder.AddItem, IResultsFolder::AddItem, _shell_IResultsFolder_AddItem, shell.IResultsFolder_AddItem, shobjidl/IResultsFolder::AddItem
 ms.prod: windows
 ms.technology: windows-sdk

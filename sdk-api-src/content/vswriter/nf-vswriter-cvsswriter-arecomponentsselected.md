@@ -4,10 +4,10 @@ title: CVssWriter::AreComponentsSelected
 author: windows-sdk-content
 description: The AreComponentsSelected method indicates whether a requester is running under component mode and supports selecting individual components to be backed up or backs up entire volumes.
 old-location: base\cvsswriter_arecomponentsselected.htm
-old-project: vss
+old-project: VSS
 ms.assetid: da84f1ab-8712-436f-8ae7-ba3d52a761c0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: AreComponentsSelected, AreComponentsSelected method [VSS], AreComponentsSelected method [VSS],CVssWriter class, CVssWriter class [VSS],AreComponentsSelected method, CVssWriter.AreComponentsSelected, CVssWriter::AreComponentsSelected, _win32_cvsswriter_arecomponentsselected, base.cvsswriter_arecomponentsselected, vswriter/CVssWriter::AreComponentsSelected
 ms.prod: windows
 ms.technology: windows-sdk

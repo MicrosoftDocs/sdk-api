@@ -4,10 +4,10 @@ title: SnmpSendMsg function
 author: windows-sdk-content
 description: A WinSNMP application calls the SnmpSendMsg function to request that the Microsoft WinSNMP implementation transmit an SNMP protocol data unit (PDU), in the form of an SNMP message.
 old-location: snmp\snmpsendmsg.htm
-old-project: snmp
+old-project: SNMP
 ms.assetid: c4b9f4bb-24f0-4b5e-b12d-8be839b34895
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SnmpSendMsg, SnmpSendMsg function [SNMP], _snmp_snmpsendmsg, snmp.snmpsendmsg, winsnmp/SnmpSendMsg
 ms.prod: windows
 ms.technology: windows-sdk

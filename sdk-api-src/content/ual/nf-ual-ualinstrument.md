@@ -7,7 +7,7 @@ old-location: ual\ualinstrument.htm
 old-project: ual
 ms.assetid: C7A0340F-3250-4570-9672-FC78AFC9ECC6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: UalInstrument, UalInstrument function [User Access Logging], ual.ualinstrument, ual/UalInstrument
 ms.prod: windows
 ms.technology: windows-sdk

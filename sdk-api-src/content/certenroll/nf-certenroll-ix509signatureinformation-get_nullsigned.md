@@ -4,10 +4,10 @@ title: IX509SignatureInformation::get_NullSigned
 author: windows-sdk-content
 description: Specifies and retrieves a Boolean value that indicates whether the certificate request is null-signed.
 old-location: security\ix509signatureinformation_nullsigned_property.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: a693343e-7c9a-4967-b46c-53936497662a
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509SignatureInformation interface [Security],NullSigned property, IX509SignatureInformation.NullSigned, IX509SignatureInformation.get_NullSigned, IX509SignatureInformation::NullSigned, IX509SignatureInformation::get_NullSigned, IX509SignatureInformation::put_NullSigned, NullSigned property [Security], NullSigned property [Security],IX509SignatureInformation interface, certenroll/IX509SignatureInformation::NullSigned, certenroll/IX509SignatureInformation::get_NullSigned, certenroll/IX509SignatureInformation::put_NullSigned, get_NullSigned, security.ix509signatureinformation_nullsigned_property
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ This property is read/write.
 
 
 
-A null-signed certificate request is not really signed. That is, the request can be digested by using a digest algorithm such as SHA-1, but it is not encrypted with a public key algorithm such as RSA. You must set this property before calling the <a href="https://msdn.microsoft.com/en-us/library/Aa379053(v=VS.85).aspx">GetSignatureAlgorithm</a> method.
+A null-signed certificate request is not really signed. That is, the request can be digested by using a digest algorithm such as SHA-1, but it is not encrypted with a public key algorithm such as RSA. You must set this property before calling the <a href="https://msdn.microsoft.com/e5b43e74-d802-43ff-bdf2-96ab475c31e7">GetSignatureAlgorithm</a> method.
 
 
 
@@ -75,7 +75,7 @@ A null-signed certificate request is not really signed. That is, the request can
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379050(v=VS.85).aspx">IX509SignatureInformation</a>
+<a href="https://msdn.microsoft.com/25774ccb-8e76-443d-89da-177d6e77c019">IX509SignatureInformation</a>
  
 
  

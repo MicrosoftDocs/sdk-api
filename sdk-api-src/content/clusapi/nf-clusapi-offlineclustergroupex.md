@@ -7,7 +7,7 @@ old-location: mscs\offlineclustergroupex.htm
 old-project: mscs
 ms.assetid: ED22150C-7149-4CED-9C9B-356BCEEBF11F
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: OfflineClusterGroupEx, OfflineClusterGroupEx function [Failover Cluster], clusapi/OfflineClusterGroupEx, mscs.offlineclustergroupex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -111,7 +111,7 @@ The size of <i>lpInBuffer</i>, in bytes.
     <b>CLUSAPI_OFFLINE_GROUP_IGNORE_RESOURCE_LOCKED_STATUS</b> flag is not set and any resource in 
     the group has indicated that it is “locked” in its current state.
 
-Similar to <a href="https://msdn.microsoft.com/en-us/library/Hh418101(v=VS.85).aspx">MoveClusterGroupEx</a>, if 
+Similar to <a href="https://msdn.microsoft.com/CE56BA9D-3527-43D3-8656-EA0BBDF48B98">MoveClusterGroupEx</a>, if 
     <b>OfflineClusterGroupEx</b> returns 
     <b>ERROR_IO_PENDING</b>, then the cluster service will attempt to bring the group to the 
     offline state.
@@ -122,12 +122,16 @@ Similar to <a href="https://msdn.microsoft.com/en-us/library/Hh418101(v=VS.85).a
 
 #### Examples
 
-
-```
-#include "stdafx.h"
-#include <windows.h>
-#include <stdio.h>
-#include <ClusAPI.h>
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>#include "stdafx.h"
+#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;ClusAPI.h&gt;
 
 
 #define DemoResDllTypeName L"dummy"
@@ -208,9 +212,9 @@ Cleanup:
     }
 
     return (int)error;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

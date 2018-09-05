@@ -4,10 +4,10 @@ title: LsaCallAuthenticationPackage function
 author: windows-sdk-content
 description: Used by a logon application to communicate with an authentication package.
 old-location: security\lsacallauthenticationpackage.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: b891fa60-28b3-4819-9a92-e4524677fa4f
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: LsaCallAuthenticationPackage, LsaCallAuthenticationPackage function [Security], _lsa_lsacallauthenticationpackage, ntsecapi/LsaCallAuthenticationPackage, security.lsacallauthenticationpackage
 ms.prod: windows
 ms.technology: windows-sdk

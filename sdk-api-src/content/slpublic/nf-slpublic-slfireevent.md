@@ -4,10 +4,10 @@ title: SLFireEvent function
 author: windows-sdk-content
 description: Sends a specified event to a registered listener.
 old-location: security\slfireevent.htm
-old-project: secslapi
+old-project: SecSLApi
 ms.assetid: 7d66526a-f83a-4a7d-9691-e8ee9ec9a135
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SLFireEvent, SLFireEvent function [Security], security.slfireevent, slpublic/SLFireEvent
 ms.prod: windows
 ms.technology: windows-sdk

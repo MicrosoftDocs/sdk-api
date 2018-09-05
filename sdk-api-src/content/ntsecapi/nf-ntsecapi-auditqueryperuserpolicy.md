@@ -4,10 +4,10 @@ title: AuditQueryPerUserPolicy function
 author: windows-sdk-content
 description: Retrieves per-user audit policy in one or more audit-policy subcategories for the specified principal.
 old-location: security\auditqueryperuserpolicy_func.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 7d4790de-ebd6-4840-b532-7158b8d80db2
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AuditQueryPerUserPolicy, AuditQueryPerUserPolicy function [Security], ntsecapi/AuditQueryPerUserPolicy, security.auditqueryperuserpolicy_func
 ms.prod: windows
 ms.technology: windows-sdk

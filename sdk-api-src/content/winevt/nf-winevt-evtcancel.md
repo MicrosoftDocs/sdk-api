@@ -4,10 +4,10 @@ title: EvtCancel function
 author: windows-sdk-content
 description: Cancels all pending operations on a handle.
 old-location: wes\evtcancel.htm
-old-project: wes
+old-project: WES
 ms.assetid: c8770139-93de-4da2-b797-f82775f4c553
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EvtCancel, EvtCancel function [EventLog], wes.evtcancel, winevt/EvtCancel
 ms.prod: windows
 ms.technology: windows-sdk

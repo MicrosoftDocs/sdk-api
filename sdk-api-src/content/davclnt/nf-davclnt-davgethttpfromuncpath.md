@@ -4,10 +4,10 @@ title: DavGetHTTPFromUNCPath function
 author: windows-sdk-content
 description: Converts the specified UNC path to an equivalent HTTP path.
 old-location: webdav\davgethttpfromuncpath.htm
-old-project: webdav
+old-project: WebDAV
 ms.assetid: caa83e54-a029-45aa-9681-26b2be54fea3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DavGetHTTPFromUNCPath, DavGetHTTPFromUNCPath function [WebDAV], davclnt/DavGetHTTPFromUNCPath, webdav.davgethttpfromuncpath
 ms.prod: windows
 ms.technology: windows-sdk

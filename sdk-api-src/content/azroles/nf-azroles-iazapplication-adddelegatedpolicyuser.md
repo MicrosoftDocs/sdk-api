@@ -4,10 +4,10 @@ title: IAzApplication::AddDelegatedPolicyUser
 author: windows-sdk-content
 description: Adds the specified security identifier (SID) in text form to the list of principals that act as delegated policy users.
 old-location: security\iazapplication_adddelegatedpolicyuser.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 89c0e1b9-cf51-4f4f-b530-7982645a9d14
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AddDelegatedPolicyUser, AddDelegatedPolicyUser method [Security], AddDelegatedPolicyUser method [Security],AzApplication object, AddDelegatedPolicyUser method [Security],IAzApplication interface, AzApplication object [Security],AddDelegatedPolicyUser method, IAzApplication interface [Security],AddDelegatedPolicyUser method, IAzApplication.AddDelegatedPolicyUser, IAzApplication::AddDelegatedPolicyUser, azroles/IAzApplication::AddDelegatedPolicyUser, security.iazapplication_adddelegatedpolicyuser
 ms.prod: windows
 ms.technology: windows-sdk

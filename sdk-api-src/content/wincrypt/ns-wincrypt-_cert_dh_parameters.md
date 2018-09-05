@@ -4,10 +4,10 @@ title: "_CERT_DH_PARAMETERS"
 author: windows-sdk-content
 description: Contains parameters associated with a Diffie/Hellman public key algorithm.
 old-location: security\cert_dh_parameters.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: bd57236a-1763-4a43-83f4-95131d8adec9
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCERT_DH_PARAMETERS, CERT_DH_PARAMETERS, CERT_DH_PARAMETERS structure [Security], PCERT_DH_PARAMETERS, PCERT_DH_PARAMETERS structure pointer [Security], _CERT_DH_PARAMETERS, _crypto2_cert_dh_parameters, security.cert_dh_parameters, wincrypt/CERT_DH_PARAMETERS, wincrypt/PCERT_DH_PARAMETERS"
 ms.prod: windows
 ms.technology: windows-sdk

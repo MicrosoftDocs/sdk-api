@@ -7,7 +7,7 @@ old-location: base\symsrvdeltaname.htm
 old-project: debug
 ms.assetid: 35be6aff-efc7-4ed9-bfe7-3d0f798acbd9
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: SymSrvDeltaName, SymSrvDeltaName function, SymSrvDeltaNameW, base.symsrvdeltaname, dbghelp/SymSrvDeltaName, dbghelp/SymSrvDeltaNameW
 ms.prod: windows
 ms.technology: windows-sdk

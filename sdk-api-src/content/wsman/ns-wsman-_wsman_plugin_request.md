@@ -4,10 +4,10 @@ title: "_WSMAN_PLUGIN_REQUEST"
 author: windows-sdk-content
 description: Specifies information for a plug-in request.
 old-location: winrm\wsman_plugin_request.htm
-old-project: winrm
+old-project: WinRM
 ms.assetid: 3191f2b3-e754-4f2d-ae8b-11da859c94b7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WSMAN_PLUGIN_REQUEST, WSMAN_PLUGIN_REQUEST structure [Windows Remote Management], _WSMAN_PLUGIN_REQUEST, winrm.wsman_plugin_request, wsman/WSMAN_PLUGIN_REQUEST
 ms.prod: windows
 ms.technology: windows-sdk
@@ -80,7 +80,7 @@ Any call into the plug-in will have the locale on the thread set to the  locale 
 
 ### -field resourceUri
 
-Specifies the <a href="https://msdn.microsoft.com/en-us/library/Aa384465(v=VS.85).aspx">resource URI</a> for this operation.
+Specifies the <a href="windows_remote_management_glossary.htm">resource URI</a> for this operation.
 
 
 ### -field operationInfo

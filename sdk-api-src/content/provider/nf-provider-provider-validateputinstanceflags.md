@@ -7,7 +7,7 @@ old-location: wmi\provider_validateputinstanceflags.htm
 old-project: WmiSdk
 ms.assetid: dd7a480e-9569-45ed-a46d-218c1a9cf2db
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: "?ValidatePutInstanceFlags@Provider@@MAEJJ@Z, ?ValidatePutInstanceFlags@Provider@@MEAAJJ@Z, Provider interface [Windows Management Instrumentation],ValidatePutInstanceFlags method, Provider.ValidatePutInstanceFlags, Provider::ValidatePutInstanceFlags, ValidatePutInstanceFlags, ValidatePutInstanceFlags method [Windows Management Instrumentation], ValidatePutInstanceFlags method [Windows Management Instrumentation],Provider interface, _hmm_provider_validateputinstanceflags, provider/Provider::ValidatePutInstanceFlags, wmi.provider_validateputinstanceflags"
 ms.prod: windows
 ms.technology: windows-sdk

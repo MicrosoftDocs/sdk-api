@@ -4,10 +4,10 @@ title: "_CERT_ALT_NAME_INFO"
 author: windows-sdk-content
 description: The CERT_ALT_NAME_INFO structure is used in encoding and decoding extensions for subject or issuer certificates, Certificate Revocation Lists (CRLs), and Certificate Trust Lists (CTLs).
 old-location: security\cert_alt_name_info.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: f9a20827-3333-4ce2-b074-2e8ce903fad2
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCERT_ALT_NAME_INFO, CERT_ALT_NAME_INFO, CERT_ALT_NAME_INFO structure [Security], PCERT_ALT_NAME_INFO, PCERT_ALT_NAME_INFO structure pointer [Security], _CERT_ALT_NAME_INFO, _crypto2_cert_alt_name_info, security.cert_alt_name_info, wincrypt/CERT_ALT_NAME_INFO, wincrypt/PCERT_ALT_NAME_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

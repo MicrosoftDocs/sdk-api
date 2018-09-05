@@ -7,7 +7,7 @@ old-location: windowsribbon\ui_swatchcolormode.htm
 old-project: windowsribbon
 ms.assetid: 9ACDE308-B8AE-4986-8B85-190B690A4374
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: UI_SWATCHCOLORMODE, UI_SWATCHCOLORMODE enumeration [Windows Ribbon], UI_SWATCHCOLORMODE_MONOCHROME, UI_SWATCHCOLORMODE_NORMAL, uiribbon/UI_SWATCHCOLORMODE, uiribbon/UI_SWATCHCOLORMODE_MONOCHROME, uiribbon/UI_SWATCHCOLORMODE_NORMAL, windowsribbon.ui_swatchcolormode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,7 +76,7 @@ The swatch is monochrome. The swatch's RGB color value will be interpreted as a 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371540(v=VS.85).aspx">Constants and Enumerations</a>
+<a href="https://msdn.microsoft.com/8499a096-aac3-4af3-a4c9-eebf53698744">Constants and Enumerations</a>
  
 
  

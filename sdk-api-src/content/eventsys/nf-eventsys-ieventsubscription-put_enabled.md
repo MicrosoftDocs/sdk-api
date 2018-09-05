@@ -7,7 +7,7 @@ old-location: cos\ieventsubscription_enabled.htm
 old-project: cossdk
 ms.assetid: 02481b3d-1064-448f-955b-0dd02d90db46
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Enabled property [COM+], Enabled property [COM+],IEventSubscription interface, IEventSubscription interface [COM+],Enabled property, IEventSubscription.Enabled, IEventSubscription.put_Enabled, IEventSubscription::Enabled, IEventSubscription::get_Enabled, IEventSubscription::put_Enabled, cos.ieventsubscription_enabled, eventsys/IEventSubscription::Enabled, eventsys/IEventSubscription::get_Enabled, eventsys/IEventSubscription::put_Enabled, put_Enabled
 ms.prod: windows
 ms.technology: windows-sdk

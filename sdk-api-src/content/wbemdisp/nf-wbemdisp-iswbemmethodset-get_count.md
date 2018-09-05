@@ -7,7 +7,7 @@ old-location: wmi\swbemmethodset_count.htm
 old-project: WmiSdk
 ms.assetid: 492dabef-f417-4b1e-bc3a-8d39d8f7ee35
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: Count property [Windows Management Instrumentation], Count property [Windows Management Instrumentation],ISWbemMethodSet interface, Count property [Windows Management Instrumentation],SWbemMethodSet object, ISWbemMethodSet interface [Windows Management Instrumentation],Count property, ISWbemMethodSet.get_Count, ISWbemMethodSet::get_Count, SWbemMethodSet object [Windows Management Instrumentation],Count property, SWbemMethodSet.Count, _hmm_swbemmethodset.count, get_Count, wmi.swbemmethodset_count
 ms.prod: windows
 ms.technology: windows-sdk

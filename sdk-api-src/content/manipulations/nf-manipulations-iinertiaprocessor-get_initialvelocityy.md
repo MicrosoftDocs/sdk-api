@@ -7,7 +7,7 @@ old-location: wintouch\iinertiaprocessor_initialvelocityy.htm
 old-project: wintouch
 ms.assetid: 3ba0aa0c-a819-4833-883b-218702052ce1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IInertiaProcessor interface [Windows Touch],InitialVelocityY property, IInertiaProcessor.InitialVelocityY, IInertiaProcessor.get_InitialVelocityY, IInertiaProcessor::InitialVelocityY, IInertiaProcessor::get_InitialVelocityY, IInertiaProcessor::put_InitialVelocityY, InitialVelocityY property [Windows Touch], InitialVelocityY property [Windows Touch],IInertiaProcessor interface, get_InitialVelocityY, manipulations/IInertiaProcessor::InitialVelocityY, manipulations/IInertiaProcessor::get_InitialVelocityY, manipulations/IInertiaProcessor::put_InitialVelocityY, wintouch.iinertiaprocessor_initialvelocityy
 ms.prod: windows
 ms.technology: windows-sdk

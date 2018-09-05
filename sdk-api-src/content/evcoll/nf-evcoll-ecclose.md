@@ -7,7 +7,7 @@ old-location: wec\ecclose.htm
 old-project: WEC
 ms.assetid: a2dc71e3-7580-4484-9a08-4e3ee2139921
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: EcClose, EcClose function, evcoll/EcClose, wec.ecclose, wes.ecclose
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,7 +69,7 @@ A valid open handle returned from an event collector management API call.
 
 
 
-This function returns BOOL __stdcall.
+This function returns BOOL.
 
 
 

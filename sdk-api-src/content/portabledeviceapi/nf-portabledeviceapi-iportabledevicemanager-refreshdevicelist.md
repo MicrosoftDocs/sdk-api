@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledevicemanager_refreshdevicelist.htm
 old-project: wpd_sdk
 ms.assetid: 89163407-7b38-4c79-8171-67a5b7e1d17c
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IPortableDeviceManager interface [Windows Portable Devices SDK],RefreshDeviceList method, IPortableDeviceManager.RefreshDeviceList, IPortableDeviceManager::RefreshDeviceList, IPortableDeviceManagerRefreshDeviceList, RefreshDeviceList, RefreshDeviceList method [Windows Portable Devices SDK], RefreshDeviceList method [Windows Portable Devices SDK],IPortableDeviceManager interface, portabledeviceapi/IPortableDeviceManager::RefreshDeviceList, wpdsdk.iportabledevicemanager_refreshdevicelist
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: WintrustSetRegPolicyFlags function
 author: windows-sdk-content
 description: Sets policy flags for a policy provider.
 old-location: security\wintrustsetregpolicyflags.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 8aaeecd0-3814-42a0-9e5b-82b0b220bc9a
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: WTPF_ALLOWONLYPERTRUST, WTPF_IGNOREEXPIRATION, WTPF_IGNOREREVOCATIONONTS, WTPF_IGNOREREVOKATION, WTPF_OFFLINEOKNBU_COM, WTPF_OFFLINEOKNBU_IND, WTPF_OFFLINEOK_COM, WTPF_OFFLINEOK_IND, WTPF_TESTCANBEVALID, WTPF_TRUSTTEST, WTPF_VERIFY_V1_OFF, WintrustSetRegPolicyFlags, WintrustSetRegPolicyFlags function [Security], security.wintrustsetregpolicyflags, wintrust/WintrustSetRegPolicyFlags
 ms.prod: windows
 ms.technology: windows-sdk

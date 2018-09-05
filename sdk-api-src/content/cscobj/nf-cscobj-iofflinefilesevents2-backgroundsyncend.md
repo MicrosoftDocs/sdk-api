@@ -62,7 +62,7 @@ Reports that the Offline Files service completed a background synchronization pa
 
 ### -param dwSyncControlFlags [in]
 
-One or more OFFLINEFILES_SYNC_CONTROL_FLAG_XXXXXX flags describing the purpose of the sync operation.  These may be used to determine if the sync is a one-way or two-way sync. These flags are described in the <i>dwSyncControl</i> parameter of the <a href="https://msdn.microsoft.com/en-us/library/Bb530502(v=VS.85).aspx">IOfflineFilesCache::Synchronize</a> method.
+One or more OFFLINEFILES_SYNC_CONTROL_FLAG_XXXXXX flags describing the purpose of the sync operation.  These may be used to determine if the sync is a one-way or two-way sync. These flags are described in the <i>dwSyncControl</i> parameter of the <a href="https://msdn.microsoft.com/4a9dd105-ea68-40ce-b1cb-6126ca932095">IOfflineFilesCache::Synchronize</a> method.
 
 
 ## -returns
@@ -79,7 +79,7 @@ The return value is ignored.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530521(v=VS.85).aspx">IOfflineFilesEvents2</a>
+<a href="https://msdn.microsoft.com/746f7220-8c87-4218-bd97-ec9b862e549c">IOfflineFilesEvents2</a>
  
 
  

@@ -4,10 +4,10 @@ title: ApplicationRecoveryInProgress function
 author: windows-sdk-content
 description: Indicates that the calling application is continuing to recover data.
 old-location: recovery\applicationrecoveryinprogress.htm
-old-project: recovery
+old-project: Recovery
 ms.assetid: 9c765f72-10ad-4d16-a9e5-d73ea5c4f59b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ApplicationRecoveryInProgress, ApplicationRecoveryInProgress function [Recovery], recovery.applicationrecoveryinprogress, winbase/ApplicationRecoveryInProgress
 ms.prod: windows
 ms.technology: windows-sdk

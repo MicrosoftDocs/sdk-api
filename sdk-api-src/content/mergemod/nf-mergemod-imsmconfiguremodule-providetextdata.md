@@ -7,7 +7,7 @@ old-location: setup\configuremodule_providetextdata.htm
 old-project: msi
 ms.assetid: 286b0b58-1b6a-4d41-89e1-eb9c23bdd788
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ConfigureModule object,ProvideTextData method, ConfigureModule.ProvideTextData, IMsmConfigureModule.ProvideTextData, IMsmConfigureModule::ProvideTextData, ProvideTextData, ProvideTextData method, ProvideTextData method,ConfigureModule object, _msi_providetextdata_method, setup.configuremodule_providetextdata
 ms.prod: windows
 ms.technology: windows-sdk

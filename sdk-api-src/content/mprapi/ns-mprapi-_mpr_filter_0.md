@@ -4,10 +4,10 @@ title: "_MPR_FILTER_0"
 author: windows-sdk-content
 description: Contains static filter configuration information.
 old-location: rras\mpr_filter_0.htm
-old-project: rras
+old-project: RRAS
 ms.assetid: f930b145-554b-40ea-ace0-60978ed428c1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PMPR_FILTER_0, MPR_FILTER_0, MPR_FILTER_0 structure [RAS], PMPR_FILTER_0, PMPR_FILTER_0 structure pointer [RAS], _MPR_FILTER_0, mprapi/MPR_FILTER_0, mprapi/PMPR_FILTER_0, rras.mpr_filter_0"
 ms.prod: windows
 ms.technology: windows-sdk

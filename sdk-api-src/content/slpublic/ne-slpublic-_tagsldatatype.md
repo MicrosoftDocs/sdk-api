@@ -4,10 +4,10 @@ title: "_tagSLDATATYPE"
 author: windows-sdk-content
 description: Specifies the data type of the buffer returned by the SLGetWindowsInformation function.
 old-location: security\sldatatype.htm
-old-project: secslapi
+old-project: SecSLApi
 ms.assetid: 245e79de-4823-4af9-926a-088e263cc802
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SLDATATYPE, SLDATATYPE enumeration [Security], SL_DATA_BINARY, SL_DATA_DWORD, SL_DATA_MULTI_SZ, SL_DATA_NONE, SL_DATA_SUM, SL_DATA_SZ, _tagSLDATATYPE, security.sldatatype, slpublic/SLDATATYPE, slpublic/SL_DATA_BINARY, slpublic/SL_DATA_DWORD, slpublic/SL_DATA_MULTI_SZ, slpublic/SL_DATA_NONE, slpublic/SL_DATA_SUM, slpublic/SL_DATA_SZ
 ms.prod: windows
 ms.technology: windows-sdk

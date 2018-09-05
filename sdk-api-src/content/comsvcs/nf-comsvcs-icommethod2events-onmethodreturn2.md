@@ -7,7 +7,7 @@ old-location: cos\icommethod2events_onmethodreturn2.htm
 old-project: cossdk
 ms.assetid: cf5a7b69-a794-4497-99c9-20c41d454753
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IComMethod2Events interface [COM+],OnMethodReturn2 method, IComMethod2Events.OnMethodReturn2, IComMethod2Events::OnMethodReturn2, OnMethodReturn2, OnMethodReturn2 method [COM+], OnMethodReturn2 method [COM+],IComMethod2Events interface, _dtc_IComMethod2Events_OnMethodReturn2, comsvcs/IComMethod2Events::OnMethodReturn2, cos.icommethod2events_onmethodreturn2
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: base\symenumeratesymbolsproc64.htm
 old-project: debug
 ms.assetid: e1430398-041f-4edd-b7b0-de3a60a42b37
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: PSYM_ENUMSYMBOLS_CALLBACK, PSYM_ENUMSYMBOLS_CALLBACK64, PSYM_ENUMSYMBOLS_CALLBACK64W, SymEnumerateSymbolsProc64, SymEnumerateSymbolsProc64 callback, SymEnumerateSymbolsProc64 callback function, _win32_symenumeratesymbolsproc64, base.symenumeratesymbolsproc64, dbghelp/SymEnumerateSymbolsProc64
 ms.prod: windows
 ms.technology: windows-sdk
@@ -105,9 +105,13 @@ The calling application is called once per symbol until all the symbols are enum
 
 This callback function supersedes the <i>PSYM_ENUMSYMBOLS_CALLBACK</i> callback function.  <i>PSYM_ENUMSYMBOLS_CALLBACK</i> is defined as follows in Dbghelp.h.
 
-
-```cpp
-#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
 #define PSYM_ENUMSYMBOLS_CALLBACK PSYM_ENUMSYMBOLS_CALLBACK64
 #define PSYM_ENUMSYMBOLS_CALLBACKW PSYM_ENUMSYMBOLS_CALLBACK64W
 #else
@@ -126,10 +130,10 @@ typedef BOOL
     __in ULONG SymbolSize,
     __in_opt PVOID UserContext
     );
-#endif
-```
-
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

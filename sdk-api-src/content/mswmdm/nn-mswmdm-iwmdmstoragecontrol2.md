@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmstoragecontrol2.htm
 old-project: WMDM
 ms.assetid: c5a17642-5253-4d01-895a-09d00284f341
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IWMDMStorageControl2, IWMDMStorageControl2 interface [windows Media Device Manager], IWMDMStorageControl2 interface [windows Media Device Manager],described, IWMDMStorageControl2Interface, mswmdm/IWMDMStorageControl2, wmdm.iwmdmstoragecontrol2
 ms.prod: windows
 ms.technology: windows-sdk

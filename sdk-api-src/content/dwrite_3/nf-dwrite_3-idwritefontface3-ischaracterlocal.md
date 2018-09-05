@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontface3_ischaracterlocal.htm
 old-project: DirectWrite
 ms.assetid: 7a47f73b-9ce7-f7db-688b-291cebad54bb
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: IDWriteFontFace3 interface [Direct Write],IsCharacterLocal method, IDWriteFontFace3.IsCharacterLocal, IDWriteFontFace3::IsCharacterLocal, IsCharacterLocal, IsCharacterLocal method [Direct Write], IsCharacterLocal method [Direct Write],IDWriteFontFace3 interface, directwrite.idwritefontface3_ischaracterlocal, dwrite_3/IDWriteFontFace3::IsCharacterLocal
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wmi\swbemservices_instancesof.htm
 old-project: WmiSdk
 ms.assetid: 6465a981-f98e-4ece-a9b6-9da8ae618bc6
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: ISWbemServices interface [Windows Management Instrumentation],InstancesOf method, ISWbemServices.InstancesOf, ISWbemServices::InstancesOf, InstancesOf, InstancesOf method [Windows Management Instrumentation], InstancesOf method [Windows Management Instrumentation],ISWbemServices interface, InstancesOf method [Windows Management Instrumentation],SWbemServices object, SWbemServices object [Windows Management Instrumentation],InstancesOf method, SWbemServices.InstancesOf, _hmm_swbemservices.instancesof, wbemFlagBidirectional, wbemFlagForwardOnly, wbemFlagReturnImmediately, wbemFlagReturnWhenComplete, wbemFlagUseAmendedQualifiers, wbemQueryFlagDeep, wbemQueryFlagShallow, wmi.swbemservices_instancesof
 ms.prod: windows
 ms.technology: windows-sdk
@@ -157,17 +157,21 @@ The
 
 By default, InstancesOf performs a deep retrieval. That is, InstancesOf retrieves all instances of the managed resource you identify and all instances of all the subclasses defined beneath the target class. For example, the following script retrieves all of the resources modeled by all of the dynamic classes defined beneath the CIM_Service abstract class.
 
-
-```vb
-strComputer = "."
-Set objSWbemServices = GetObject("winmgmts:\\" & strComputer & "\root\cimv2")
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>strComputer = "."
+Set objSWbemServices = GetObject("winmgmts:\\" &amp; strComputer &amp; "\root\cimv2")
 Set colSWbemObjectSet = objSWbemServices.InstancesOf("CIM_Service")
 For Each objSWbemObject In colSWbemObjectSet
-    Wscript.Echo "Object Path: " & objSWbemObject.Path_.Path
-Next
-```
-
-
+    Wscript.Echo "Object Path: " &amp; objSWbemObject.Path_.Path
+Next</pre>
+</td>
+</tr>
+</table></span></div>
 If you run this script, you will get information back. However, this information will not be limited to the services installed on a computer. Instead, it will include information from all child classes of <a href="https://msdn.microsoft.com/b95e8ea7-4daf-4dcf-817c-b872560b62df">CIM_Service</a>, including <a href="https://msdn.microsoft.com/67dc6e14-c8c1-4168-8f99-b04c6ecd4ad2">Win32_SystemDriver</a> and <a href="https://msdn.microsoft.com/f1e947c7-bc88-4fe6-ae51-d4acc7317d79">Win32_ApplicationService</a>.
 
 

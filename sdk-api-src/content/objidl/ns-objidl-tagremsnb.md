@@ -4,10 +4,10 @@ title: tagRemSNB
 author: windows-sdk-content
 description: The RemSNB structure is used for marshaling the SNB data type.Defined in the IStorage interface (Storag.idl).
 old-location: stg\remsnb.htm
-old-project: stg
+old-project: Stg
 ms.assetid: 09a50518-2889-49ca-9d81-3035777ac2ac
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*wireSNB, RemSNB, RemSNB structure [Structured Storage], SNB, SNB structure pointer [Structured Storage], _stg_remsnb, objidl/RemSNB, objidl/SNB, stg.remsnb, tagRemSNB"
 ms.prod: windows
 ms.technology: windows-sdk

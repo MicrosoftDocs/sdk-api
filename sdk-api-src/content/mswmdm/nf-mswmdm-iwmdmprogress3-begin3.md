@@ -7,7 +7,7 @@ old-location: wmdm\iwmdmprogress3_begin3.htm
 old-project: WMDM
 ms.assetid: 8c794aff-9800-405e-853a-56dd5bd84665
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Begin3, Begin3 method [windows Media Device Manager], Begin3 method [windows Media Device Manager],IWMDMProgress3 interface, IWMDMProgress3 interface [windows Media Device Manager],Begin3 method, IWMDMProgress3.Begin3, IWMDMProgress3::Begin3, IWMDMProgress3Begin3, mswmdm/IWMDMProgress3::Begin3, wmdm.iwmdmprogress3_begin3
 ms.prod: windows
 ms.technology: windows-sdk
@@ -168,21 +168,25 @@ The application returns S_OK to indicate that an operation should be continued a
 
 The following C++ code shows an example implementation of <b>Begin3</b>.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT Begin3(GUID  EventId, DWORD  dwEstimatedTicks, OPAQUECOMMAND*  pContext)
 {
     WCHAR strGuid[64];
-    StringFromGUID2(reinterpret_cast<GUID&>(EventId),(LPOLESTR)strGuid, 64);
+    StringFromGUID2(reinterpret_cast&lt;GUID&amp;&gt;(EventId),(LPOLESTR)strGuid, 64);
     // TODO: Display the message "IWMDMProgress3::Begin3 called." 
     // followed by the strGuid value.
     return S_OK;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

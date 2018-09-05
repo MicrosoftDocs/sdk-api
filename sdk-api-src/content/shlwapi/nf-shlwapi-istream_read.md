@@ -7,7 +7,7 @@ old-location: shell\IStream_Read.htm
 old-project: shell
 ms.assetid: 07a3a500-babb-458b-ba98-9344c63ea014
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IStream_Read, IStream_Read function [Windows Shell], _win32_IStream_Read, shell.IStream_Read, shlwapi/IStream_Read
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

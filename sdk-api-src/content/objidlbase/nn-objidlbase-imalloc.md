@@ -7,7 +7,7 @@ old-location: com\imalloc.htm
 old-project: com
 ms.assetid: 047f281e-2665-4d6d-9a0b-918cd3339447
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IMalloc, IMalloc interface [COM], IMalloc interface [COM],described, _com_imalloc, com.imalloc, objidlbase/IMalloc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ Allocates, frees, and manages memory.
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMalloc</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a> interface. <b>IMalloc</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IMalloc</b> interface inherits from the <a href="iunknown.htm">IUnknown</a> interface. <b>IMalloc</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>

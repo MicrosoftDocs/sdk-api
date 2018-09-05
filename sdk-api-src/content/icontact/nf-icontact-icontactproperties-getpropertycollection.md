@@ -7,7 +7,7 @@ old-location: wincontacts\_wincontacts_IContactProperties_GetPropertyCollection.
 old-project: wincontacts
 ms.assetid: 12ef5ff0-ac87-4475-86b3-31a6379ffb4e
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GetPropertyCollection, GetPropertyCollection method [Windows Contacts], GetPropertyCollection method [Windows Contacts],IContactProperties interface, IContactProperties interface [Windows Contacts],GetPropertyCollection method, IContactProperties.GetPropertyCollection, IContactProperties::GetPropertyCollection, _wincontacts_IContactProperties_GetPropertyCollection, icontact/IContactProperties::GetPropertyCollection, wincontacts._wincontacts_IContactProperties_GetPropertyCollection
 ms.prod: windows
 ms.technology: windows-sdk

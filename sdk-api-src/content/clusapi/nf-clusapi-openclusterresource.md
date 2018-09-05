@@ -7,7 +7,7 @@ old-location: mscs\openclusterresource.htm
 old-project: mscs
 ms.assetid: c699cb00-b999-45b8-b9db-570150e1a65e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: OpenClusterResource, OpenClusterResource function [Failover Cluster], PCLUSAPI_OPEN_CLUSTER_RESOURCE, PCLUSAPI_OPEN_CLUSTER_RESOURCE function [Failover Cluster], _wolf_openclusterresource, clusapi/OpenClusterResource, clusapi/PCLUSAPI_OPEN_CLUSTER_RESOURCE, mscs.openclusterresource
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.irql:
 ## -description
 
 
-Opens a <a href="https://msdn.microsoft.com/en-us/library/Aa372152(v=VS.85).aspx">resource</a> and returns a handle to 
+Opens a <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a> and returns a handle to 
     it. The <b>PCLUSAPI_OPEN_CLUSTER_RESOURCE</b> type defines a pointer to this function.
 
 
@@ -65,7 +65,7 @@ Opens a <a href="https://msdn.microsoft.com/en-us/library/Aa372152(v=VS.85).aspx
 
 ### -param hCluster [in]
 
-Handle to a <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+Handle to a <a href="c_gly.htm">cluster</a>.
 
 
 ### -param lpszResourceName [in]
@@ -97,7 +97,7 @@ If the operation was successful,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa372262(v=VS.85).aspx">Failover Cluster Resource Management Functions</a>
+<a href="https://msdn.microsoft.com/d1f7360d-f592-49fb-b3b4-60d93afd7c6f">Failover Cluster Resource Management Functions</a>
 
 
 

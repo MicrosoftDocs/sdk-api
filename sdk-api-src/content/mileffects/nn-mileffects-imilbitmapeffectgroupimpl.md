@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectgroupimpl.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectgroupimpl\imilbitmapeffectgroupimpl.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: IMILBitmapEffectGroupImpl, IMILBitmapEffectGroupImpl interface [WPF Bitmap Effects], IMILBitmapEffectGroupImpl interface [WPF Bitmap Effects],described, _wibe_imilbitmapeffectgroupimpl, mileffects/IMILBitmapEffectGroupImpl, wibe._wibe_imilbitmapeffectgroupimpl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -72,7 +72,7 @@ The <b>IMILBitmapEffectGroupImpl</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735284(v=VS.85).aspx">GetChildren</a>
+<a href="https://msdn.microsoft.com/e1d31921-1115-4027-bfa5-58d543602ac6">GetChildren</a>
 </td>
 <td align="left" width="63%">
 Gets the children of the effect group.
@@ -81,7 +81,7 @@ Gets the children of the effect group.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735285(v=VS.85).aspx">GetNumberChildren</a>
+<a href="https://msdn.microsoft.com/a53d96f4-92a9-4095-8ffa-154e65e4eb81">GetNumberChildren</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of children in an effect group.
@@ -90,7 +90,7 @@ Retrieves the number of children in an effect group.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms735287(v=VS.85).aspx">Preprocess</a>
+<a href="https://msdn.microsoft.com/6f68dc0e-5405-4275-9be8-714b4c799d23">Preprocess</a>
 </td>
 <td align="left" width="63%">
 Pre-process the given render context.

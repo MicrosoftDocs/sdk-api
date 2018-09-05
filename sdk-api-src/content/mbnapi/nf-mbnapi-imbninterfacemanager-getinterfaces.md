@@ -7,7 +7,7 @@ old-location: mbn\imbninterfacemanager_getinterfaces.htm
 old-project: mbn
 ms.assetid: 1cd10189-8f36-4bcb-95e9-35064e70fdf8
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetInterfaces, GetInterfaces method [Microsoft Broadband Networks], GetInterfaces method [Microsoft Broadband Networks],IMbnInterfaceManager interface, IMbnInterfaceManager interface [Microsoft Broadband Networks],GetInterfaces method, IMbnInterfaceManager.GetInterfaces, IMbnInterfaceManager::GetInterfaces, mbn.imbninterfacemanager_getinterfaces, mbnapi/IMbnInterfaceManager::GetInterfaces
 ms.prod: windows
 ms.technology: windows-sdk

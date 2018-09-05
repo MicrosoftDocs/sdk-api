@@ -4,10 +4,10 @@ title: BCryptQueryContextConfiguration function
 author: windows-sdk-content
 description: Retrieves the current configuration for the specified CNG context.
 old-location: security\bcryptquerycontextconfiguration.htm
-old-project: seccng
+old-project: SecCNG
 ms.assetid: 3e2ae471-cad6-4bfe-9e30-7b2a7014bc08
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BCryptQueryContextConfiguration, BCryptQueryContextConfiguration function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, bcrypt/BCryptQueryContextConfiguration, security.bcryptquerycontextconfiguration
 ms.prod: windows
 ms.technology: windows-sdk
@@ -200,21 +200,25 @@ The specified context could not be found.
 
 Each context has only one set of configuration information, so although the <i>ppBuffer</i> parameter appears to be a used as an array, this function treats this as an array with only one element. The following example helps clarify how this parameter is used.
 
-
-```cpp
-// Get the configuration information for the context.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Get the configuration information for the context.
 CRYPT_CONTEXT_CONFIG config;
 ULONG uSize = sizeof(config);
-PCRYPT_CONTEXT_CONFIG pConfig = &config;
+PCRYPT_CONTEXT_CONFIG pConfig = &amp;config;
 status = BCryptQueryContextConfiguration(
     CRYPT_LOCAL, 
     pszContextID, 
-    &uSize, 
-    &pConfig);
-
-```
-
-
+    &amp;uSize, 
+    &amp;pConfig);
+</pre>
+</td>
+</tr>
+</table></span></div>
 <b>BCryptQueryContextConfiguration</b> can be called only in user mode.
 
 

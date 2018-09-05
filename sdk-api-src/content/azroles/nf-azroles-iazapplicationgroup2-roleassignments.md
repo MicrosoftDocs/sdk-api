@@ -4,10 +4,10 @@ title: IAzApplicationGroup2::RoleAssignments
 author: windows-sdk-content
 description: Gets a collection of IAzRoleAssignment objects associated with this application group.
 old-location: security\iazapplicationgroup2_roleassignments_method.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 4996fb10-7b46-48e4-8028-a24ae4072bec
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: IAzApplicationGroup2 interface [Security],RoleAssignments property, IAzApplicationGroup2.RoleAssignments, IAzApplicationGroup2::RoleAssignments, IAzApplicationGroup2::get_RoleAssignments, RoleAssignments, RoleAssignments property [Security], RoleAssignments property [Security],IAzApplicationGroup2 interface, azroles/IAzApplicationGroup2::RoleAssignments, azroles/IAzApplicationGroup2::get_RoleAssignments, security.iazapplicationgroup2_roleassignments_method
 ms.prod: windows
 ms.technology: windows-sdk

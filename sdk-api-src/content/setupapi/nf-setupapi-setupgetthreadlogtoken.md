@@ -7,7 +7,7 @@ old-location: devinst\setupgetthreadlogtoken.htm
 old-project: devinst
 ms.assetid: a4d870d0-2a1a-4319-9e52-e5bf469c4cdf
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: SetupGetThreadLogToken, SetupGetThreadLogToken function [Device and Driver Installation], devinst.setupgetthreadlogtoken, setupapi/SetupGetThreadLogToken, setupapilog-ref_2d342787-8c0e-4198-85cc-e64d51e98abb.xml
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ req.product: ADAM
 ## -description
 
 
-The <b>SetupGetThreadLogToken</b> function retrieves the <a href="https://msdn.microsoft.com/library/Ff548678(v=VS.85).aspx">log token</a> for the thread from which this function was called.
+The <b>SetupGetThreadLogToken</b> function retrieves the <a href="devinst.log_tokens">log token</a> for the thread from which this function was called.
 
 
 ## -parameters
@@ -80,9 +80,9 @@ The <b>SetupGetThreadLogToken</b> function retrieves the <a href="https://msdn.m
 
 To set a log token for a thread, call <a href="https://msdn.microsoft.com/c5295bb8-73c8-4516-91fe-ba11aa8a0657">SetupSetThreadLogToken</a>. 
 
-For more information about log tokens, see <a href="https://msdn.microsoft.com/library/Ff548678(v=VS.85).aspx">Log Tokens</a>.
+For more information about log tokens, see <a href="devinst.log_tokens">Log Tokens</a>.
 
-For more information about using log tokens, see <a href="https://msdn.microsoft.com/library/Ff550779(v=VS.85).aspx">Setting and Getting a Log Token for a Thread</a>.
+For more information about using log tokens, see <a href="devinst.setting_and_getting_a_log_token_for_a_thread">Setting and Getting a Log Token for a Thread</a>.
 
 
 
@@ -92,11 +92,11 @@ For more information about using log tokens, see <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/library/Ff548678(v=VS.85).aspx">Log Tokens</a>
+<a href="devinst.log_tokens">Log Tokens</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Ff550779(v=VS.85).aspx">Setting and Getting a Log Token for a Thread</a>
+<a href="devinst.setting_and_getting_a_log_token_for_a_thread">Setting and Getting a Log Token for a Thread</a>
 
 
 

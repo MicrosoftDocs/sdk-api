@@ -4,10 +4,10 @@ title: BCryptProcessMultiOperations function
 author: windows-sdk-content
 description: The BCryptProcessMultiOperations function processes a sequence of operations on a multi-object state.
 old-location: security\bcryptprocessmultioperation.htm
-old-project: seccng
+old-project: SecCNG
 ms.assetid: 5FD28AC3-46D2-4F06-BF06-F5FEF8E531F5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BCryptProcessMultiOperations, BCryptProcessMultiOperations function [Security], bcrypt/BCryptProcessMultiOperations, security.bcryptprocessmultioperation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,17 +62,17 @@ The <b>BCryptProcessMultiOperations</b> function processes a sequence of operati
 
 ### -param hObject [in, out]
 
-A handle to a multi-object state, such as one created by the <a href="https://msdn.microsoft.com/en-us/library/Mt845763(v=VS.85).aspx">BCryptCreateMultiHash</a> function.
+A handle to a multi-object state, such as one created by the <a href="security.bcryptcreatemultihash">BCryptCreateMultiHash</a> function.
 
 
 ### -param operationType [in]
 
-A <b>BCRYPT_OPERATION_TYPE_*</b> value. Currently the only defined value is <b>BCRYPT_OPERATION_TYPE_HASH</b>. This value identifies the <i>hObject</i> parameter as a multi-hash object and the <i>pOperations</i> pointer as pointing to an array of <a href="https://msdn.microsoft.com/en-us/library/Mt845766(v=VS.85).aspx">BCRYPT_MULTI_HASH_OPERATION</a> elements.
+A <b>BCRYPT_OPERATION_TYPE_*</b> value. Currently the only defined value is <b>BCRYPT_OPERATION_TYPE_HASH</b>. This value identifies the <i>hObject</i> parameter as a multi-hash object and the <i>pOperations</i> pointer as pointing to an array of <a href="security.bcrypt_multi_hash_operation">BCRYPT_MULTI_HASH_OPERATION</a> elements.
 
 
 ### -param pOperations [in]
 
-A pointer to an array of operation command structures. For hashing, it is a pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/Mt845766(v=VS.85).aspx">BCRYPT_MULTI_HASH_OPERATION</a> structures.
+A pointer to an array of operation command structures. For hashing, it is a pointer to an array of <a href="security.bcrypt_multi_hash_operation">BCRYPT_MULTI_HASH_OPERATION</a> structures.
 
 
 ### -param cbOperations [in]
@@ -101,11 +101,11 @@ The relative order of two operations that operate on different elements of the a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt845766(v=VS.85).aspx">BCRYPT_MULTI_HASH_OPERATION</a>
+<a href="security.bcrypt_multi_hash_operation">BCRYPT_MULTI_HASH_OPERATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Mt845763(v=VS.85).aspx">BCryptCreateMultiHash</a>
+<a href="security.bcryptcreatemultihash">BCryptCreateMultiHash</a>
  
 
  

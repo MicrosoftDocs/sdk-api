@@ -7,7 +7,7 @@ old-location: ifsk\filterattach.htm
 old-project: ifsk
 ms.assetid: 8f52fdd5-dfea-42c1-85ed-7431015eece8
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: FilterAttach, FilterAttach function [Installable File System Drivers], FltWin32ApiRef_023a1285-b933-438f-b493-33e6c7d74e56.xml, fltuser/FilterAttach, ifsk.filterattach
 ms.prod: windows
 ms.technology: windows-sdk

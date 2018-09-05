@@ -4,10 +4,10 @@ title: ICertAdmin::PublishCRL
 author: windows-sdk-content
 description: Sends a request to the Certificate Services certification authority (CA) to publish a new certificate revocation list (CRL). This method was first introduced in the ICertAdmin interface.
 old-location: security\icertadmin2_publishcrl.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: a42cab2d-2309-43f1-8d67-adbc5923ec45
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CCertAdmin object [Security],PublishCRL method, ICertAdmin interface [Security],PublishCRL method, ICertAdmin.PublishCRL, ICertAdmin2 interface [Security],PublishCRL method, ICertAdmin2::PublishCRL, ICertAdmin::PublishCRL, PublishCRL, PublishCRL method [Security], PublishCRL method [Security],CCertAdmin object, PublishCRL method [Security],ICertAdmin interface, PublishCRL method [Security],ICertAdmin2 interface, certadm/ICertAdmin2::PublishCRL, certadm/ICertAdmin::PublishCRL, security.icertadmin2_publishcrl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -53,7 +53,7 @@ req.irql:
 ## -description
 
 
-The <b>PublishCRL</b> method sends a request to the Certificate Services <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> (CA) to publish a new <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certificate revocation list</a> (CRL). This method was first introduced in the <a href="https://msdn.microsoft.com/en-us/library/Aa383233(v=VS.85).aspx">ICertAdmin</a> interface.
+The <b>PublishCRL</b> method sends a request to the Certificate Services <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) to publish a new <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certificate revocation list</a> (CRL). This method was first introduced in the <a href="https://msdn.microsoft.com/e906b69b-5574-4dd5-aa30-9c2a67972202">ICertAdmin</a> interface.
 
 
 ## -parameters
@@ -63,7 +63,7 @@ The <b>PublishCRL</b> method sends a request to the Certificate Services <a href
 
 ### -param strConfig [in]
 
-Represents a valid configuration string for the CA in the form COMPUTERNAME\CANAME, where COMPUTERNAME is the Certificate Services server's network name, and CANAME is the common name of the certification authority, as entered during Certificate Services setup. For information about the configuration string name, see <a href="https://msdn.microsoft.com/en-us/library/Aa383268(v=VS.85).aspx">ICertConfig</a>.<div class="alert"><b>Important</b>  <b>PublishCRL</b> does not clear the internal cache when the configuration string is changed. When you change the configuration string for the CA, you must instantiate a new <a href="https://msdn.microsoft.com/en-us/library/Aa383234(v=VS.85).aspx">ICertAdmin</a> object and call this method again with the new configuration string.</div>
+Represents a valid configuration string for the CA in the form COMPUTERNAME\CANAME, where COMPUTERNAME is the Certificate Services server's network name, and CANAME is the common name of the certification authority, as entered during Certificate Services setup. For information about the configuration string name, see <a href="https://msdn.microsoft.com/92bece6a-73f0-47cf-8142-77e986448824">ICertConfig</a>.<div class="alert"><b>Important</b>  <b>PublishCRL</b> does not clear the internal cache when the configuration string is changed. When you change the configuration string for the CA, you must instantiate a new <a href="https://msdn.microsoft.com/df40b6ac-825d-4e8d-a80b-6e57a4e740a2">ICertAdmin</a> object and call this method again with the new configuration string.</div>
 <div> </div>
 
 
@@ -81,7 +81,7 @@ If  <i>Date</i> is nonzero, the next update value for the CRL is <i>Date</i>, su
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 
@@ -97,29 +97,33 @@ Administration tasks use DCOM. Code that calls this interface method as defined 
 
 The following example shows publishing a CRL.
 
-
-```cpp
-    DATE ExpDate;  // CRL expiration date
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>    DATE ExpDate;  // CRL expiration date
     SYSTEMTIME st;
     BSTR bstrCA = NULL;
 
     //  Set the CRL Expiration Date to Noon on Jan. 1, 2005 GMT.
     //  Zero out values first 
 	//  (avoids setting minutes, seconds, and so on).
-    memset(&st, 0, sizeof(SYSTEMTIME));
+    memset(&amp;st, 0, sizeof(SYSTEMTIME));
     st.wYear = 2005;
     st.wMonth = 1;     // Jan
     st.wDay = 1;       // 1st day of month
     st.wHour = 12;     // Noon
 
     //  Place the date in required format.
-    if (!SystemTimeToVariantTime(&st, &ExpDate))
+    if (!SystemTimeToVariantTime(&amp;st, &amp;ExpDate))
     {
         printf("Unable to convert time\n");
         goto error;
     }
 
-    bstrCA = SysAllocString(L"<COMPUTERNAMEHERE>\\<CANAMEHERE>");
+    bstrCA = SysAllocString(L"&lt;COMPUTERNAMEHERE&gt;\\&lt;CANAMEHERE&gt;");
     if (NULL == bstrCA)
     {
         printf("Memory allocation failed\n");
@@ -128,17 +132,17 @@ The following example shows publishing a CRL.
 
     //  Publish the CRL.
     //  pCertAdmin is a previously instantiated ICertAdmin object.
-    hr = pCertAdmin->PublishCRL(bstrCA, ExpDate);
+    hr = pCertAdmin-&gt;PublishCRL(bstrCA, ExpDate);
     if (FAILED(hr))
     {
         printf("Failed PublishCRL [%x]\n", hr);
         goto error;
     }
     else
-        printf("PublishCRL succeeded\n");
-```
-
-
+        printf("PublishCRL succeeded\n");</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -147,19 +151,19 @@ The following example shows publishing a CRL.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383234(v=VS.85).aspx">CCertAdmin</a>
+<a href="https://msdn.microsoft.com/df40b6ac-825d-4e8d-a80b-6e57a4e740a2">CCertAdmin</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383233(v=VS.85).aspx">ICertAdmin</a>
+<a href="https://msdn.microsoft.com/e906b69b-5574-4dd5-aa30-9c2a67972202">ICertAdmin</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383234(v=VS.85).aspx">ICertAdmin2</a>
+<a href="https://msdn.microsoft.com/df40b6ac-825d-4e8d-a80b-6e57a4e740a2">ICertAdmin2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa383268(v=VS.85).aspx">ICertConfig</a>
+<a href="https://msdn.microsoft.com/92bece6a-73f0-47cf-8142-77e986448824">ICertConfig</a>
  
 
  

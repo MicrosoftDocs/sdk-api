@@ -7,7 +7,7 @@ old-location: wmdm\icomponentauthenticate_sacgetprotocols.htm
 old-project: WMDM
 ms.assetid: db01f2a4-5cd5-4acc-be17-37b4c9861cc9
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IComponentAuthenticate interface [windows Media Device Manager],SACGetProtocols method, IComponentAuthenticate.SACGetProtocols, IComponentAuthenticate::SACGetProtocols, IComponentAuthenticateSACGetProtocols, SACGetProtocols, SACGetProtocols method [windows Media Device Manager], SACGetProtocols method [windows Media Device Manager],IComponentAuthenticate interface, mswmdm/IComponentAuthenticate::SACGetProtocols, wmdm.icomponentauthenticate_sacgetprotocols
 ms.prod: windows
 ms.technology: windows-sdk
@@ -101,9 +101,13 @@ This method is implemented by a service provider, and never called by an applica
 
 The following method demonstrates a service provider's implementation of the <b>SACGetProtocols</b> method. It does this by calling <a href="https://msdn.microsoft.com/42878774-9c8b-4d80-a17e-6682da4d34ab">CSecureChannelServer::SACGetProtocols</a> on its private <a href="https://msdn.microsoft.com/e6e1463a-5a26-4b83-85e0-a639d384a199">CSecureChannelServer</a> member.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 STDMETHODIMP CMyServiceProvider::SACGetProtocols(
     DWORD **ppdwProtocols,
     DWORD  *pdwProtocolCount)
@@ -114,17 +118,17 @@ STDMETHODIMP CMyServiceProvider::SACGetProtocols(
     if(g_pAppSCServer == NULL)
        return hr;
 
-    hr = g_pAppSCServer->SACGetProtocols(
+    hr = g_pAppSCServer-&gt;SACGetProtocols(
         ppdwProtocols,
         pdwProtocolCount
     );
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

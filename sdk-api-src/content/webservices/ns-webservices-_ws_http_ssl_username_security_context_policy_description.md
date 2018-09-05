@@ -7,7 +7,7 @@ old-location: wsw\ws_http_ssl_username_security_context_policy_description.htm
 old-project: wsw
 ms.assetid: 8bc6fb34-f4ac-4764-a270-9e97292c6c4c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_HTTP_SSL_USERNAME_SECURITY_CONTEXT_POLICY_DESCRIPTION, WS_HTTP_SSL_USERNAME_SECURITY_CONTEXT_POLICY_DESCRIPTION structure [Web Services for Windows], _WS_HTTP_SSL_USERNAME_SECURITY_CONTEXT_POLICY_DESCRIPTION, webservices/WS_HTTP_SSL_USERNAME_SECURITY_CONTEXT_POLICY_DESCRIPTION, wsw.ws_http_ssl_username_security_context_policy_description
 ms.prod: windows
 ms.technology: windows-sdk

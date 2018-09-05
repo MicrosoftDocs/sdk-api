@@ -7,7 +7,7 @@ old-location: shell\IThumbnailCapture_CaptureThumbnail.htm
 old-project: shell
 ms.assetid: 3f492199-f40c-416f-b20f-84bd5c3b3709
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: CaptureThumbnail, CaptureThumbnail method [Windows Shell], CaptureThumbnail method [Windows Shell],IThumbnailCapture interface, IThumbnailCapture interface [Windows Shell],CaptureThumbnail method, IThumbnailCapture.CaptureThumbnail, IThumbnailCapture::CaptureThumbnail, _shell_IThumbnailCapture_CaptureThumbnail, shell.IThumbnailCapture_CaptureThumbnail, shlobj/IThumbnailCapture::CaptureThumbnail
 ms.prod: windows
 ms.technology: windows-sdk

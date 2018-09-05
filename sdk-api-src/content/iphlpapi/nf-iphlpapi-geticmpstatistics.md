@@ -122,16 +122,20 @@ The
 
 The following example retrieves the ICMP for IPv4 statistics for the local computer and prints some information from the returned data.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 
-#include <winsock2.h>
-#include <ws2tcpip.h>
-#include <iphlpapi.h>
-#include <stdio.h>
+#include &lt;winsock2.h&gt;
+#include &lt;ws2tcpip.h&gt;
+#include &lt;iphlpapi.h&gt;
+#include &lt;stdio.h&gt;
 
 #pragma comment(lib, "iphlpapi.lib")
 
@@ -155,13 +159,13 @@ int main()
     dwRetVal = GetIcmpStatistics(pIcmpStats);
     if (dwRetVal == NO_ERROR) {
         wprintf(L"Number of incoming ICMP messages: %ld\n",
-                pIcmpStats->stats.icmpInStats.dwMsgs);
+                pIcmpStats-&gt;stats.icmpInStats.dwMsgs);
         wprintf(L"Number of incoming ICMP errors received: %ld\n",
-                pIcmpStats->stats.icmpInStats.dwErrors);
+                pIcmpStats-&gt;stats.icmpInStats.dwErrors);
         wprintf(L"Number of outgoing ICMP messages: %ld\n",
-                pIcmpStats->stats.icmpOutStats.dwMsgs);
+                pIcmpStats-&gt;stats.icmpOutStats.dwMsgs);
         wprintf(L"Number of outgoing ICMP errors sent: %ld\n",
-                pIcmpStats->stats.icmpOutStats.dwErrors);
+                pIcmpStats-&gt;stats.icmpOutStats.dwErrors);
     } else {
         wprintf(L"GetIcmpStatistics failed with error: %ld\n", dwRetVal);
     }
@@ -171,10 +175,10 @@ int main()
 
     return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

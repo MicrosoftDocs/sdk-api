@@ -7,7 +7,7 @@ old-location: fs\getntmsmediapoolname.htm
 old-project: Rsm
 ms.assetid: 72b9028b-d97e-4441-8677-1a4a0b03dee2
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: GetNtmsMediaPoolName, GetNtmsMediaPoolName function [Files], GetNtmsMediaPoolNameA, GetNtmsMediaPoolNameW, _zaw_getntmsmediapoolname, base.getntmsmediapoolname, fs.getntmsmediapoolname, ntmsapi/GetNtmsMediaPoolName, ntmsapi/GetNtmsMediaPoolNameA, ntmsapi/GetNtmsMediaPoolNameW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -178,7 +178,7 @@ The function was successful.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Media Services Functions</a>
+<a href="removable_storage_manager_functions.htm">Media Services Functions</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: wmi\cthreadbase_endread.htm
 old-project: WmiSdk
 ms.assetid: e34fa8bc-f667-4fca-9282-9ca8038f3e75
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: "?EndRead@CThreadBase@@QAEXXZ, CThreadBase interface [Windows Management Instrumentation],EndRead method, CThreadBase.EndRead, CThreadBase::EndRead, EndRead, EndRead method [Windows Management Instrumentation], EndRead method [Windows Management Instrumentation],CThreadBase interface, thrdbase/CThreadBase::EndRead, wmi.cthreadbase_endread"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiosessionmanager2.htm
 old-project: CoreAudio
 ms.assetid: 476dac90-d0c4-499c-973e-33ea55546659
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: IAudioSessionManager2, IAudioSessionManager2 interface [Core Audio], IAudioSessionManager2 interface [Core Audio],described, audiopolicy/IAudioSessionManager2, coreaudio.iaudiosessionmanager2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -153,9 +153,13 @@ An application that manages the media streams and wants to provide a custom duck
 
 The following example code shows how to get a reference to the <b>IAudioSessionManager2</b> interface of the audio device.
 
-
-```cpp
-HRESULT CreateSessionManager(IAudioSessionManager2** ppSessionManager)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CreateSessionManager(IAudioSessionManager2** ppSessionManager)
 {
  
     HRESULT hr = S_OK;
@@ -170,20 +174,20 @@ HRESULT CreateSessionManager(IAudioSessionManager2** ppSessionManager)
         __uuidof(MMDeviceEnumerator), 
         NULL, CLSCTX_ALL, 
         __uuidof(IMMDeviceEnumerator), 
-        (void**)&pEnumerator));
+        (void**)&amp;pEnumerator));
 
     // Get the default audio device.
-    CHECK_HR( hr = pEnumerator->GetDefaultAudioEndpoint(
-                    eRender, eConsole, &pDevice));
+    CHECK_HR( hr = pEnumerator-&gt;GetDefaultAudioEndpoint(
+                    eRender, eConsole, &amp;pDevice));
 
     // Get the session manager.
-    CHECK_HR( hr = pDevice->Activate(
+    CHECK_HR( hr = pDevice-&gt;Activate(
         __uuidof(IAudioSessionManager2), CLSCTX_ALL,
-        NULL, (void**)&pSessionManager));
+        NULL, (void**)&amp;pSessionManager));
 
     // Return the pointer to the caller.
     *(ppSessionManager) = pSessionManager;
-    (*ppSessionManager)->AddRef();
+    (*ppSessionManager)-&gt;AddRef();
 
 done:
 
@@ -193,10 +197,10 @@ done:
     SAFE_RELEASE(pDevice);
 
     return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

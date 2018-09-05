@@ -60,7 +60,17 @@ Marshals a <a href="https://msdn.microsoft.com/e305240e-9e11-4006-98cc-26f4932d2
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
+
+TBD
+
+
+### -param arg3
 
 TBD
 

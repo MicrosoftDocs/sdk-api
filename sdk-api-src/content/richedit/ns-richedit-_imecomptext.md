@@ -97,7 +97,7 @@ The final composed string.
 
 
 
-This structure is used with the <a href="https://msdn.microsoft.com/en-us/library/Bb788036(v=VS.85).aspx">EM_GETIMECOMPTEXT</a> message.
+This structure is used with the <a href="https://msdn.microsoft.com/1516305c-5f87-4ae0-97db-8709c71abacc">EM_GETIMECOMPTEXT</a> message.
 
 
 
@@ -107,7 +107,7 @@ This structure is used with the <a href="https://msdn.microsoft.com/en-us/librar
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb788036(v=VS.85).aspx">EM_GETIMECOMPTEXT</a>
+<a href="https://msdn.microsoft.com/1516305c-5f87-4ae0-97db-8709c71abacc">EM_GETIMECOMPTEXT</a>
  
 
  

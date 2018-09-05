@@ -7,7 +7,7 @@ old-location: shell\SHLimitInputEdit.htm
 old-project: shell
 ms.assetid: 3f03374f-8dfe-4b80-9ecc-12c6548f2865
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHLimitInputEdit, SHLimitInputEdit function [Windows Shell], _shell_SHLimitInputEdit, shell.SHLimitInputEdit, shlobj_core/SHLimitInputEdit
 ms.prod: windows
 ms.technology: windows-sdk

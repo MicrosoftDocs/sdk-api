@@ -7,7 +7,7 @@ old-location: netmgmt\netlocalgroupaddmembers.htm
 old-project: netmgmt
 ms.assetid: 3b2d3e4a-742e-4e67-8b28-3cd6d7e6a857
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: 0, 3, NetLocalGroupAddMembers, NetLocalGroupAddMembers function [Network Management], _win32_netlocalgroupaddmembers, lmaccess/NetLocalGroupAddMembers, netmgmt.netlocalgroupaddmembers
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,7 +94,7 @@ Specifies the information level of the data. This parameter can be one of the fo
 </td>
 <td width="60%">
 Specifies the 
-<a href="https://msdn.microsoft.com/library/Aa379571(v=VS.85).aspx">security identifier</a> (SID) of the new local group member. The <i>buf</i> parameter points to an array of 
+<a href="security.security_identifiers_sids_">security identifier</a> (SID) of the new local group member. The <i>buf</i> parameter points to an array of 
 <a href="https://msdn.microsoft.com/e559cd90-942c-442a-b57f-7d2024523455">LOCALGROUP_MEMBERS_INFO_0</a> structures.
 
 </td>

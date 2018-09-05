@@ -7,7 +7,7 @@ old-location: wsl\wsllaunch.htm
 old-project: wsl
 ms.assetid: 0C88BCF8-9FFC-4D7C-9A7C-F56F9A4FD7FC
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WslLaunch, WslLaunch function, wsl.wsllaunch, wslapi/WslLaunch
 ms.prod: windows
 ms.technology: windows-sdk

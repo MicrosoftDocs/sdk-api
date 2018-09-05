@@ -4,10 +4,10 @@ title: SLInstallProofOfPurchaseEx function
 author: windows-sdk-content
 description: Register the product key with SL.
 old-location: security\slinstallproofofpurchaseex.htm
-old-project: secslapi
+old-project: SecSLApi
 ms.assetid: 3e80137d-a3e5-4f9e-a114-ac8d5dd69187
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SLInstallProofOfPurchaseEx, SLInstallProofOfPurchaseEx function [Security], security.slinstallproofofpurchaseex, slpublic/SLInstallProofOfPurchaseEx
 ms.prod: windows
 ms.technology: windows-sdk

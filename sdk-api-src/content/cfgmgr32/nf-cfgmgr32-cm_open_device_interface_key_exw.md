@@ -7,7 +7,7 @@ old-location: devinst\cm_open_device_interface_key_exw.htm
 old-project: devinst
 ms.assetid: 71F8EF83-4DEC-4BDC-BBCE-4F7C232F1768
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: CM_Open_Device_Interface_Key_ExW, CM_Open_Device_Interface_Key_ExW function [Device and Driver Installation], cfgmgr32/CM_Open_Device_Interface_Key_ExW, devinst.cm_open_device_interface_key_exw
 ms.prod: windows
 ms.technology: windows-sdk

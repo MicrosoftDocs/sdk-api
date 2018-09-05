@@ -7,7 +7,7 @@ old-location: mscs\clusresgroups_createitem.htm
 old-project: mscs
 ms.assetid: 1b43a7d4-db08-402d-9910-464ba3ea8d18
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusResGroups collection [Failover Cluster],CreateItem method, ClusResGroups.CreateItem, CreateItem, CreateItem method [Failover Cluster], CreateItem method [Failover Cluster],ClusResGroups collection, ISClusResGroups.CreateItem, ISClusResGroups::CreateItem, _wolf_clusresgroups.createitem, mscs.clusresgroups_createitem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
     unavailable in subsequent versions.]
 
 Creates a <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a> in the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> and adds it to the 
+    <a href="c_gly.htm">cluster</a> and adds it to the 
     <a href="https://msdn.microsoft.com/7411d5f9-15c0-4c03-9128-c6b636979a50">ClusResGroups</a> collection.
 
 

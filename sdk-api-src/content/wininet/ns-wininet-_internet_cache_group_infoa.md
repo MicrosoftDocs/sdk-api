@@ -7,7 +7,7 @@ old-location: wininet\internet_cache_group_info.htm
 old-project: WinInet
 ms.assetid: d1c30fee-b8a3-472d-91a5-9d081f66b007
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPINTERNET_CACHE_GROUP_INFOA, INTERNET_CACHE_GROUP_INFO, INTERNET_CACHE_GROUP_INFO structure [WinINet], INTERNET_CACHE_GROUP_INFOA, INTERNET_CACHE_GROUP_INFOW, LPINTERNET_CACHE_GROUP_INFO, LPINTERNET_CACHE_GROUP_INFO structure pointer [WinINet], _INTERNET_CACHE_GROUP_INFOA, _inet_internet_cache_group_info_structure, wininet.internet_cache_group_info, wininet/INTERNET_CACHE_GROUP_INFO, wininet/INTERNET_CACHE_GROUP_INFOA, wininet/INTERNET_CACHE_GROUP_INFOW, wininet/LPINTERNET_CACHE_GROUP_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\PathFindOnPath.htm
 old-project: shell
 ms.assetid: d9281eb2-39b7-444f-85b7-1e1e76c38ae2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: PathFindOnPath, PathFindOnPath function [Windows Shell], PathFindOnPathA, PathFindOnPathW, _win32_PathFindOnPath, shell.PathFindOnPath, shlwapi/PathFindOnPath, shlwapi/PathFindOnPathA, shlwapi/PathFindOnPathW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

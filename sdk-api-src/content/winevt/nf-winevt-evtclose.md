@@ -4,10 +4,10 @@ title: EvtClose function
 author: windows-sdk-content
 description: Closes an open handle.
 old-location: wes\evtclose.htm
-old-project: wes
+old-project: WES
 ms.assetid: c4b82d7b-508d-45bf-b990-04e90e846525
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EvtClose, EvtClose function [EventLog], wes.evtclose, winevt/EvtClose
 ms.prod: windows
 ms.technology: windows-sdk

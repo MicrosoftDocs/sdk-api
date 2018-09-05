@@ -4,10 +4,10 @@ title: SnmpUtilOctetsFree function
 author: windows-sdk-content
 description: The SnmpUtilOctetsFree function frees the memory allocated for the specified octet string. This function is an element of the SNMP Utility API.
 old-location: snmp\snmputiloctetsfree.htm
-old-project: snmp
+old-project: SNMP
 ms.assetid: be101ab3-393c-4b1a-882d-0284715d1da4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SnmpUtilOctetsFree, SnmpUtilOctetsFree function [SNMP], _snmp_snmputiloctetsfree, snmp.snmputiloctetsfree, snmp/SnmpUtilOctetsFree
 ms.prod: windows
 ms.technology: windows-sdk

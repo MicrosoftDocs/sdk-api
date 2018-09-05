@@ -7,7 +7,7 @@ old-location: indexsrv\dbcommandreuseenum.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_71v1.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: DBCOMMANDREUSEENUM, DBCOMMANDREUSEENUM enumeration [Indexing Service], DBCOMMANDREUSE_NONE, DBCOMMANDREUSE_PARAMETERS, DBCOMMANDREUSE_PROPERTIES, _idxs_DBCOMMANDREUSEENUM, cmdtree/DBCOMMANDREUSEENUM, cmdtree/DBCOMMANDREUSE_NONE, cmdtree/DBCOMMANDREUSE_PARAMETERS, cmdtree/DBCOMMANDREUSE_PROPERTIES, indexsrv.dbcommandreuseenum
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/6da601c6-3742-40ad-99f2-8817f7f642b3">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
 The <b>DBCOMMANDREUSEENUM</b> enumerated type specifies whether a state from the previous command is retained.
 
@@ -74,7 +74,7 @@ The <b>DBCOMMANDREUSEENUM</b> enumerated type specifies whether a state from the
 
 
 
-The <a href="https://msdn.microsoft.com/en-us/library/ms690251(v=VS.85).aspx">ICommandTree::SetCommandTree</a> method uses a value from this enumerated type as a parameter.
+The <a href="https://msdn.microsoft.com/13161978-498d-4a55-ba28-b15c66cf966f">ICommandTree::SetCommandTree</a> method uses a value from this enumerated type as a parameter.
 
 
 

@@ -7,7 +7,7 @@ old-location: fs\ntms_iedoorinformation.htm
 old-project: Rsm
 ms.assetid: a0619420-f391-4695-a87e-8cbf8d3a3742
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: NTMS_DOORSTATE_CLOSED, NTMS_DOORSTATE_OPEN, NTMS_DOORSTATE_UNKNOWN, NTMS_IEDOORINFORMATION, NTMS_IEDOORINFORMATION structure [Files], _NTMS_IEDOORINFORMATION, _zaw_ntms_iedoorinformation, base.ntms_iedoorinformation, fs.ntms_iedoorinformation, ntmsapi/NTMS_IEDOORINFORMATION
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: xblidp\ixblidpauthtokenresult_geterrorcode.htm
 old-project: xblidp
 ms.assetid: 0870EC42-9E67-4A5F-A465-CDD8B152D257
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: GetErrorCode, GetErrorCode method, GetErrorCode method,IXblIdpAuthTokenResult interface, IXblIdpAuthTokenResult interface,GetErrorCode method, IXblIdpAuthTokenResult.GetErrorCode, IXblIdpAuthTokenResult::GetErrorCode, xblidp.ixblidpauthtokenresult_geterrorcode, xblidpauthmanager/IXblIdpAuthTokenResult::GetErrorCode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ Reserved for Microsoft use.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 

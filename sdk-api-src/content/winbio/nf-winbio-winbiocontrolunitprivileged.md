@@ -4,10 +4,10 @@ title: WinBioControlUnitPrivileged function
 author: windows-sdk-content
 description: Allows the caller to perform privileged vendor-defined control operations on a biometric unit. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbiocontrolunitprivileged.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: 102299e9-3276-4802-bd65-c3dd593f07b8
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: WINBIO_COMPONENT_ENGINE, WINBIO_COMPONENT_SENSOR, WINBIO_COMPONENT_STORAGE, WinBioControlUnitPrivileged, WinBioControlUnitPrivileged function [Windows Biometric Framework API], secbiomet.winbiocontrolunitprivileged, winbio/WinBioControlUnitPrivileged
 ms.prod: windows
 ms.technology: windows-sdk

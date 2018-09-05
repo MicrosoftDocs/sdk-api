@@ -4,10 +4,10 @@ title: SLGetLicensingStatusInformation function
 author: windows-sdk-content
 description: Gets the licensing status of the specified application or SKU.
 old-location: security\slgetlicensingstatusinformation.htm
-old-project: secslapi
+old-project: SecSLApi
 ms.assetid: d35e6f8d-a019-46e0-9755-51f670f4913e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SLGetLicensingStatusInformation, SLGetLicensingStatusInformation function [Security], security.slgetlicensingstatusinformation, slpublic/SLGetLicensingStatusInformation
 ms.prod: windows
 ms.technology: windows-sdk

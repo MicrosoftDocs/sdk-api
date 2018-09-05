@@ -7,7 +7,7 @@ old-location: shell\Folder_ParseName.htm
 old-project: shell
 ms.assetid: 3af7052c-fb81-4a96-9bf9-379b0365a376
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: Folder object [Windows Shell],ParseName method, Folder.ParseName, Folder::ParseName, ParseName, ParseName method [Windows Shell], ParseName method [Windows Shell],Folder object, _win32_Folder_ParseName, shell.Folder_ParseName
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ Creates and returns a <a href="https://msdn.microsoft.com/38c0e049-2f9f-43bc-8bf
 
 ### -param bName [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a></b>
+Type: <b><a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a></b>
 
 A string that specifies the name of the item.
 
@@ -98,9 +98,13 @@ The following example uses <b>ParseName</b> to create an object representing the
 
 JScript:
 
-
-```javascript
-<script language="JScript">
+<div class="code"><span codelanguage="JScript"><table>
+<tr>
+<th>JScript</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="JScript"&gt;
     function fnFolderObjectParseNameJ()
     {
         var objShell  = new ActiveXObject("shell.application");
@@ -118,16 +122,20 @@ JScript:
             }
         }
     }
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 VBScript:
 
-
-```vb
-<script language="VBScript">
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="VBScript"&gt;
     function fnFolderObjectParseNameVB()
         dim objShell
         dim objFolder
@@ -148,16 +156,20 @@ VBScript:
         set objFolder = nothing
         set objShell = nothing
     end function
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 Visual Basic:
 
-
-```vb
-Private Sub btnParseName_Click()
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Private Sub btnParseName_Click()
     Dim objShell  As Shell
     Dim objFolder As Folder
 
@@ -176,9 +188,9 @@ Private Sub btnParseName_Click()
     Set objFolder = Nothing
     Set objShell = Nothing
 End Sub
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

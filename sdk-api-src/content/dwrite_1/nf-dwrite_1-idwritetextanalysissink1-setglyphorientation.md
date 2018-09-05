@@ -7,7 +7,7 @@ old-location: directwrite\idwritetextanalysissink1_setglyphorientation.htm
 old-project: DirectWrite
 ms.assetid: 81BD4C36-273B-4C28-A89E-88BABCAD511A
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: IDWriteTextAnalysisSink1 interface [Direct Write],SetGlyphOrientation method, IDWriteTextAnalysisSink1.SetGlyphOrientation, IDWriteTextAnalysisSink1::SetGlyphOrientation, SetGlyphOrientation, SetGlyphOrientation method [Direct Write], SetGlyphOrientation method [Direct Write],IDWriteTextAnalysisSink1 interface, directwrite.idwritetextanalysissink1_setglyphorientation, dwrite_1/IDWriteTextAnalysisSink1::SetGlyphOrientation
 ms.prod: windows
 ms.technology: windows-sdk

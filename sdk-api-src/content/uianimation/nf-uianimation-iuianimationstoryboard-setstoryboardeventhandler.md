@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboard_setstoryboardeventhandler.htm
 old-project: UIAnimation
 ms.assetid: 8fbe8e94-8585-4adc-8643-3962aff6a031
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IUIAnimationStoryboard interface [Windows Animation],SetStoryboardEventHandler method, IUIAnimationStoryboard.SetStoryboardEventHandler, IUIAnimationStoryboard::SetStoryboardEventHandler, SetStoryboardEventHandler, SetStoryboardEventHandler method [Windows Animation], SetStoryboardEventHandler method [Windows Animation],IUIAnimationStoryboard interface, uianimation.iuianimationstoryboard_setstoryboardeventhandler, uianimation/IUIAnimationStoryboard::SetStoryboardEventHandler
 ms.prod: windows
 ms.technology: windows-sdk

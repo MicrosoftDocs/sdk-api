@@ -52,7 +52,7 @@ req.irql:
 
 
 Enumerates the types of shaders that Direct3D recognizes.  
-          Used to encode the <b>Version</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Dn960200(v=VS.85).aspx">D3D12_SHADER_DESC</a> structure.
+          Used to encode the <b>Version</b> member of the <a href="https://msdn.microsoft.com/FE989434-B1B6-48F3-8F95-64B1E7C988F5">D3D12_SHADER_DESC</a> structure.
         
 
 
@@ -108,7 +108,7 @@ Indicates the end of the enumeration.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn960193(v=VS.85).aspx">Shader Enumerations</a>
+<a href="https://msdn.microsoft.com/68ce6520-8596-4492-992c-58d1fcf8a2c6">Shader Enumerations</a>
  
 
  

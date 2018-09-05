@@ -7,7 +7,7 @@ old-location: wmi\swbemservices_execnotificationqueryasync.htm
 old-project: WmiSdk
 ms.assetid: 0b0e8313-4ffd-4d4a-8965-d2c6743e7573
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: ExecNotificationQueryAsync, ExecNotificationQueryAsync method [Windows Management Instrumentation], ExecNotificationQueryAsync method [Windows Management Instrumentation],ISWbemServices interface, ExecNotificationQueryAsync method [Windows Management Instrumentation],SWbemServices object, ISWbemServices interface [Windows Management Instrumentation],ExecNotificationQueryAsync method, ISWbemServices.ExecNotificationQueryAsync, ISWbemServices::ExecNotificationQueryAsync, SWbemServices object [Windows Management Instrumentation],ExecNotificationQueryAsync method, SWbemServices.ExecNotificationQueryAsync, _hmm_swbemservices.execnotificationqueryasync, wbemFlagDontSendStatus, wbemFlagSendStatus, wmi.swbemservices_execnotificationqueryasync
 ms.prod: windows
 ms.technology: windows-sdk
@@ -155,14 +155,18 @@ The following VBScript code example shows a script  that is waiting for a WMI  e
 
 The following script runs indefinitely until the computer is rebooted, WMI is stopped, or the script is stopped. To stop the script manually, use Task Manager to stop the process. To stop it programmatically, use the <a href="https://msdn.microsoft.com/6c6b27d4-cf9b-42d7-9136-42641ea56ee8">Terminate</a>  method in the Win32_Process class.
 
-
-```vb
-strComputer = "." 
-Set objWMIService = GetObject("winmgmts:\\" & _strComputer & "\root\CIMV2") 
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>strComputer = "." 
+Set objWMIService = GetObject("winmgmts:\\" &amp; _strComputer &amp; "\root\CIMV2") 
 Set MySink = WScript.CreateObject("WbemScripting.SWbemSink","SINK_")
 
 objWMIservice.ExecNotificationQueryAsync MySink, "SELECT * FROM __InstanceCreationEvent WITHIN 1 " _
-                                               & "WHERE TargetInstance ISA 'Win32_Process'"
+                                               &amp; "WHERE TargetInstance ISA 'Win32_Process'"
 
 WScript.Echo "Waiting for events..."
 
@@ -176,10 +180,10 @@ End Sub
 
 Sub SINK_OnCompleted(objObject, objAsyncContext)
     WScript.Echo "Event call complete."
-End Sub
-```
-
-
+End Sub</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

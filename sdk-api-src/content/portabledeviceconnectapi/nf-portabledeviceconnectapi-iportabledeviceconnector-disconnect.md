@@ -7,7 +7,7 @@ old-location: wpdsdk\iportabledeviceconnector_disconnect.htm
 old-project: wpd_sdk
 ms.assetid: 0cc104e6-5e3a-4fce-ba3b-68f3fb94196b
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Disconnect, Disconnect method [Windows Portable Devices SDK], Disconnect method [Windows Portable Devices SDK],IPortableDeviceConnector interface, IPortableDeviceConnector interface [Windows Portable Devices SDK],Disconnect method, IPortableDeviceConnector.Disconnect, IPortableDeviceConnector::Disconnect, devpkey/IPortableDeviceConnector::Disconnect, portabledeviceconnectapi/IPortableDeviceConnector::Disconnect, wpdsdk.iportabledeviceconnector_disconnect
 ms.prod: windows
 ms.technology: windows-sdk

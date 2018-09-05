@@ -7,7 +7,7 @@ old-location: wcs\colormatchtotarget.htm
 old-project: WCS
 ms.assetid: eb922411-0808-4404-bdaf-bf29d0cad379
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: CS_DELETE_TRANSFORM, CS_DISABLE, CS_ENABLE, ColorMatchToTarget, ColorMatchToTarget function [Windows Color System], _color_ColorMatchToTarget, wcs.colormatchtotarget, wingdi/ColorMatchToTarget
 ms.prod: windows
 ms.technology: windows-sdk

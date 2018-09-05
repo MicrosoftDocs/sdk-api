@@ -163,9 +163,13 @@ At each notification time, the clock releases the semaphore specified in the <i>
 
 The following code example creates an advise request that signals five seconds from the time it is created, and again every second thereafter:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 IReferenceClock *pRefClock = NULL;
 // Get an IReferenceClock pointer (not shown).
 
@@ -174,18 +178,18 @@ HANDLE         hSemaphore = CreateSemaphore(NULL, 0, 0x7FFFFFFF, NULL);
 REFERENCE_TIME rtPeriodTime = 10000000; // A one-second interval
 REFERENCE_TIME rtNow;
 
-pRefClock->GetTime(&rtNow);
-pRefClock->AdvisePeriodic(rtNow + (5 * rtPeriodTime),
+pRefClock-&gt;GetTime(&amp;rtNow);
+pRefClock-&gt;AdvisePeriodic(rtNow + (5 * rtPeriodTime),
                           rtPeriodTime, 
                           hSemaphore, 
-                          &dwAdviseToken);
+                          &amp;dwAdviseToken);
 ...
 
-pRefClock->Unadvise(dwAdviseToken);
-
-```
-
-
+pRefClock-&gt;Unadvise(dwAdviseToken);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,10 +4,10 @@ title: IWSDUdpAddress::SetExclusive
 author: windows-sdk-content
 description: Controls whether the socket is in exclusive mode.
 old-location: ncd\iwsdudpaddress_setexclusive.htm
-old-project: wsdapi
+old-project: WsdApi
 ms.assetid: 08c5ee4a-55a4-4d8b-951e-d7faed45f44f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWSDUdpAddress interface,SetExclusive method, IWSDUdpAddress.SetExclusive, IWSDUdpAddress::SetExclusive, SetExclusive, SetExclusive method, SetExclusive method,IWSDUdpAddress interface, ncd.iwsdudpaddress_setexclusive, wsdbase/IWSDUdpAddress::SetExclusive
 ms.prod: windows
 ms.technology: windows-sdk

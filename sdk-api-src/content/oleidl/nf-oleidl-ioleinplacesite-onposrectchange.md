@@ -7,7 +7,7 @@ old-location: com\ioleinplacesite_onposrectchange.htm
 old-project: com
 ms.assetid: a12d6a2a-6581-41e3-b33d-74af5d772e71
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IOleInPlaceSite interface [COM],OnPosRectChange method, IOleInPlaceSite.OnPosRectChange, IOleInPlaceSite::OnPosRectChange, IOleInPlaceSiteWindowless.OnPosRectChange, OnPosRectChange, OnPosRectChange method [COM], OnPosRectChange method [COM],IOleInPlaceSite interface, _ole_ioleinplacesite_onposrectchange, com.ioleinplacesite_onposrectchange, oleidl/IOleInPlaceSite::OnPosRectChange
 ms.prod: windows
 ms.technology: windows-sdk

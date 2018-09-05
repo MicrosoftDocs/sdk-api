@@ -4,10 +4,10 @@ title: IWSDAddress::Deserialize
 author: windows-sdk-content
 description: Parses the address, validates its component parts and saves them in the object.
 old-location: ncd\iwsdaddress_deserialize.htm
-old-project: wsdapi
+old-project: WsdApi
 ms.assetid: a23ac1cd-d2af-4562-a623-64ca1deb1830
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Deserialize, Deserialize method, Deserialize method,IWSDAddress interface, IWSDAddress interface,Deserialize method, IWSDAddress.Deserialize, IWSDAddress::Deserialize, ncd.iwsdaddress_deserialize, wsdbase/IWSDAddress::Deserialize
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: wsw\wscloseserviceproxy.htm
 old-project: wsw
 ms.assetid: 034f9c60-5616-4ec7-9773-b34bde2e26c6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WsCloseServiceProxy, WsCloseServiceProxy function [Web Services for Windows], webservices/WsCloseServiceProxy, wsw.wscloseserviceproxy
 ms.prod: windows
 ms.technology: windows-sdk

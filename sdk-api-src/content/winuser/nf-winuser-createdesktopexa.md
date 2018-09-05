@@ -7,7 +7,7 @@ old-location: winstation\createdesktopex.htm
 old-project: winstation
 ms.assetid: 2fe8859d-1fe3-4f44-aa97-58e61779c4cc
 ms.author: windowssdkdev
-ms.date: 03/27/2018
+ms.date: 08/29/2018
 ms.keywords: CreateDesktopEx, CreateDesktopEx function [Windows Stations and Desktops], CreateDesktopExA, CreateDesktopExW, DF_ALLOWOTHERACCOUNTHOOK, base.createdesktopex, winstation.createdesktopex, winuser/CreateDesktopEx, winuser/CreateDesktopExA, winuser/CreateDesktopExW
 ms.prod: windows
 ms.technology: windows-sdk

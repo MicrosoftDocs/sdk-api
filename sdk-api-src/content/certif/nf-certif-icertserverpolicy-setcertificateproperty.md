@@ -4,10 +4,10 @@ title: ICertServerPolicy::SetCertificateProperty
 author: windows-sdk-content
 description: To set a property associated with a certificate.
 old-location: security\icertserverpolicy_setcertificateproperty.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 1230aa79-d8b0-4f2b-ab10-412b8c530b0b
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CCertServerPolicy object [Security],SetCertificateProperty method, CrossForest, GeneralFlags, ICertServerPolicy interface [Security],SetCertificateProperty method, ICertServerPolicy.SetCertificateProperty, ICertServerPolicy::SetCertificateProperty, NotAfter, NotBefore, PROPTYPE_BINARY, PROPTYPE_DATE, PROPTYPE_LONG, PROPTYPE_STRING, RequesterDN, RequesterSAMName, RequesterUPN, SetCertificateProperty, SetCertificateProperty method [Security], SetCertificateProperty method [Security],CCertServerPolicy object, SetCertificateProperty method [Security],ICertServerPolicy interface, _certsrv_icertserverpolicy_setcertificateproperty, certif/ICertServerPolicy::SetCertificateProperty, security.icertserverpolicy_setcertificateproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -63,7 +63,7 @@ Use the <b>SetCertificateProperty</b> method to set a property associated with a
 ### -param strPropertyName [in]
 
 Specifies the property to set. You can set any of the 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386991(v=VS.85).aspx">Name Properties</a> associated with the certificate. 
+<a href="https://msdn.microsoft.com/c32756f7-4431-410e-ab3a-c7b748a43829">Name Properties</a> associated with the certificate. 
 
 
  In addition, you can set the following certificate properties.
@@ -104,7 +104,7 @@ The certificate is not valid after the given date.
 <td width="60%">
  Set this property to 0x00000400 to prevent the request from being persisted in the CA database.
 
-<div class="alert"><b>Caution</b>  Do not overwrite any mask values returned by <a href="https://msdn.microsoft.com/en-us/library/Aa385089(v=VS.85).aspx">GetCertificateProperty</a>when setting this property. Set the value by performing a bitwise <b>OR</b> with the existing values.</div>
+<div class="alert"><b>Caution</b>  Do not overwrite any mask values returned by <a href="https://msdn.microsoft.com/e7ece535-31c7-4468-a9ef-84f4dbf16d76">GetCertificateProperty</a>when setting this property. Set the value by performing a bitwise <b>OR</b> with the existing values.</div>
 <div> </div>
 <b>Windows Storage Server 2003:  </b>This field is not supported.
 
@@ -141,7 +141,7 @@ Tells the CA to set the requester account name ("RequesterName") and distinguish
 </dl>
 </td>
 <td width="60%">
-Tells the CA to convert the <a href="https://msdn.microsoft.com/en-us/library/ms721629(v=VS.85).aspx">user principal name</a> (UPN) of the requester to the requester 								name ("RequesterName")  and to set the requester name and the requester distinguished 								name.
+Tells the CA to convert the <a href="https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb">user principal name</a> (UPN) of the requester to the requester 								name ("RequesterName")  and to set the requester name and the requester distinguished 								name.
 
 </td>
 </tr>
@@ -205,7 +205,7 @@ Binary data.
 </dl>
 </td>
 <td width="60%">
-<a href="https://msdn.microsoft.com/en-us/library/ms721629(v=VS.85).aspx">Unicode</a> string data
+<a href="https://msdn.microsoft.com/264f6cb6-36c6-4cdb-b7bb-a5dbd332adcb">Unicode</a> string data
 
 </td>
 </tr>
@@ -225,7 +225,7 @@ Specifies the value to set the property to.
 <h3>VB</h3>
  If the method succeeds, the method returns S_OK.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 
@@ -235,14 +235,14 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 You must call 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385398(v=VS.85).aspx">ICertServerPolicy::SetContext</a> prior to using this method.
+<a href="https://msdn.microsoft.com/ba45cda8-49a5-4bd6-af68-90b4b56aff7d">ICertServerPolicy::SetContext</a> prior to using this method.
 
 The NotBefore and NotAfter certificate properties constrain the lifetime during which a certificate is valid. The data type for these properties is a floating-point <b>VARIANT</b> date derived from COleDateTime in Automation.
 
 The following restrictions apply when setting the NotBefore and NotAfter certificate properties with <b>SetCertificateProperty</b>:
 
 <ul>
-<li>The NotBefore date cannot be set to a date earlier than the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">certification authority</a> (CA) certificate's NotBefore date.</li>
+<li>The NotBefore date cannot be set to a date earlier than the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">certification authority</a> (CA) certificate's NotBefore date.</li>
 <li>The NotAfter date cannot be set to a date later than the CA certificate's NotAfter date.</li>
 <li>The NotBefore date cannot be set to a date earlier than it already is set, even if the new date is later than the CA certificate's NotBefore date.</li>
 <li>The NotAfter date cannot be set to a date later than it already is set, even if the new date is before the CA certificate's NotAfter date.</li>
@@ -250,11 +250,15 @@ The following restrictions apply when setting the NotBefore and NotAfter certifi
 
 #### Examples
 
-The following example calls the <b>SetCertificateProperty</b> method to set the NotBefore certificate property. The example assumes pServer is valid and the <a href="https://msdn.microsoft.com/en-us/library/Aa385398(v=VS.85).aspx">ICertServerPolicy::SetContext</a> method has been called.
+The following example calls the <b>SetCertificateProperty</b> method to set the NotBefore certificate property. The example assumes pServer is valid and the <a href="https://msdn.microsoft.com/ba45cda8-49a5-4bd6-af68-90b4b56aff7d">ICertServerPolicy::SetContext</a> method has been called.
 
-
-```cpp
-HRESULT hr;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT hr;
 ICertServerPolicy *pServer;
 SYSTEMTIME st;
 BSTR bstrPropName;
@@ -268,16 +272,16 @@ if (NULL == bstrPropName)
 }
 
 // Set the 'NotBefore' property to Noon on Jan. 1, 2000.
-memset( &st, 0, sizeof(SYSTEMTIME));
+memset( &amp;st, 0, sizeof(SYSTEMTIME));
 st.wYear = 2000;
 st.wMonth = 1;     // Jan.
 st.wDay = 1;       // 1st day of month.
 st.wHour = 12;     // Noon.
 
 // Place the date into VARIANT required format.
-VariantInit( &vPropValue );
+VariantInit( &amp;vPropValue );
 vPropValue.vt = VT_DATE;
-if ( !SystemTimeToVariantTime( &st, &vPropValue.date))
+if ( !SystemTimeToVariantTime( &amp;st, &amp;vPropValue.date))
 {
     printf("Unable to convert time.\n");
     SysFreeString(bstrPropName);
@@ -285,19 +289,19 @@ if ( !SystemTimeToVariantTime( &st, &vPropValue.date))
 }
 
 // Set the NotBefore property in the certificate:
-hr = pServer->SetCertificateProperty(bstrPropName,
+hr = pServer-&gt;SetCertificateProperty(bstrPropName,
                                      PROPTYPE_DATE, 
-                                     &vPropValue);
+                                     &amp;vPropValue);
 SysFreeString(bstrPropName);
-VariantClear(&vPropValue);
+VariantClear(&amp;vPropValue);
 if (FAILED(hr))
 {
     printf("SetCertificateProperty failed [%x]\n", hr);
     return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -306,19 +310,19 @@ if (FAILED(hr))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385074(v=VS.85).aspx">ICertServerExit::GetCertificateProperty</a>
+<a href="https://msdn.microsoft.com/7a6185cd-fae5-4ee6-b403-c7613b31e48a">ICertServerExit::GetCertificateProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385080(v=VS.85).aspx">ICertServerPolicy</a>
+<a href="https://msdn.microsoft.com/7d16161e-9827-46a0-9989-30ebca792bb1">ICertServerPolicy</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385398(v=VS.85).aspx">ICertServerPolicy::SetContext</a>
+<a href="https://msdn.microsoft.com/ba45cda8-49a5-4bd6-af68-90b4b56aff7d">ICertServerPolicy::SetContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386991(v=VS.85).aspx">Name Properties</a>
+<a href="https://msdn.microsoft.com/c32756f7-4431-410e-ab3a-c7b748a43829">Name Properties</a>
  
 
  

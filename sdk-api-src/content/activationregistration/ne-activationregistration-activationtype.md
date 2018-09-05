@@ -7,13 +7,14 @@ old-location: winrt\activationtype.htm
 old-project: WinRT
 ms.assetid: 200257CC-FE26-407F-8AE4-4DB7030AB4E7
 ms.author: windowssdkdev
-ms.date: 07/23/2018
-ms.keywords: ActivationType, ActivationType enumeration [Windows Runtime], InProcess, OutOfProcess, activationregistration/ActivationType, activationregistration/InProcess, activationregistration/OutOfProcess, winrt.activationtype
+ms.date: 08/29/2018
+ms.keywords: ActivationType, ActivationType enumeration [Windows Runtime], ActivationType_InProcess, ActivationType_OutOfProcess, ActivationType_RemoteProcess, activationregistration/ActivationType, activationregistration/ActivationType_InProcess, activationregistration/ActivationType_OutOfProcess, activationregistration/ActivationType_RemoteProcess, winrt.activationtype
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
 req.header: activationregistration.h
 req.include-header: 
+req.redist: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 [desktop apps only]
 req.target-min-winversvr: Windows Server 2012 R2 [desktop apps only]
@@ -60,26 +61,22 @@ Specifies the kind of activation for an activatable class.
 
 ### -field ActivationType_InProcess
 
+Specifies in-process activation.
+
 
 ### -field ActivationType_OutOfProcess
 
+Specifies out-of-process activation.
+
 
 ### -field ActivationType_RemoteProcess
+
+Specifies remote-process activation.
 
 
 ### -field int
 
 
-
-
-#### - InProcess
-
-Specifies in-process activation.
-
-
-#### - OutOfProcess
-
-Specifies out-of-process activation.
 
 
 ## -see-also

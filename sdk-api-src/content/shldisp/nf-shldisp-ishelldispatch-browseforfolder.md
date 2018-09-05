@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_BrowseForFolder.htm
 old-project: shell
 ms.assetid: 578C51C1-F59B-4604-A09B-62BA61225ABB
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: BrowseForFolder, BrowseForFolder method [Windows Shell], BrowseForFolder method [Windows Shell],IShellDispatch object, IShellDispatch object [Windows Shell],BrowseForFolder method, IShellDispatch.BrowseForFolder, IShellDispatch::BrowseForFolder, shell.IShellDispatch_BrowseForFolder
 ms.prod: windows
 ms.technology: windows-sdk
@@ -98,7 +98,7 @@ An <b>Integer</b> value that contains the options for the method. This can be ze
 
 #### - sTitle [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a></b>
+Type: <b><a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a></b>
 
 A <b>String</b> value that represents the title displayed inside the <b>Browse</b> dialog box.
 
@@ -141,9 +141,13 @@ The following examples use <b>BrowseForFolder</b> to display a browse window tit
 JScript:
                 
 
-
-```javascript
-<script language="JScript">
+<div class="code"><span codelanguage="JScript"><table>
+<tr>
+<th>JScript</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="JScript"&gt;
     function fnShellBrowseForFolderJ()
     {
         var objShell = new ActiveXObject("shell.application");
@@ -156,16 +160,20 @@ JScript:
             // Add code here.
         }
     }
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 VBScript:
 
-
-```vb
-<script language="VBScript">
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="VBScript"&gt;
     function fnShellBrowseForFolderVB()
         dim objShell
         dim ssfWINDOWS
@@ -180,16 +188,20 @@ VBScript:
             set objFolder = nothing
         set objShell = nothing
     end function
- </script>
-
-```
-
-
+ &lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 Visual Basic:
 
-
-```vb
-Private Sub fnShellBrowseForFolderVB()
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Private Sub fnShellBrowseForFolderVB()
     Dim objShell   As Shell
     Dim ssfWINDOWS As Long
     Dim objFolder  As Folder
@@ -203,9 +215,9 @@ Private Sub fnShellBrowseForFolderVB()
         Set objFolder = Nothing
     Set objShell = Nothing
 End Sub
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

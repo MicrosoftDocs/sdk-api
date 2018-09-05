@@ -7,7 +7,7 @@ old-location: setup\setupsetfilequeueflags.htm
 old-project: SetupApi
 ms.assetid: 63a4dfbb-bd48-4183-9e7d-ce337f2707fb
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: SPQ_FLAG_ABORT_IF_UNSIGNED, SPQ_FLAG_BACKUP_AWARE, SPQ_FLAG_VALID, SetupSetFileQueueFlags, SetupSetFileQueueFlags function [Setup API], _setupapi_setupsetfilequeueflags, setup.setupsetfilequeueflags, setupapi/SetupSetFileQueueFlags
 ms.prod: windows
 ms.technology: windows-sdk

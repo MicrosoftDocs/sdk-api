@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFontCollection_GetFontFromFontFace.htm
 old-project: DirectWrite
 ms.assetid: cc3c6cb9-9e98-4d45-bf73-ee625fb17e8c
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetFontFromFontFace, GetFontFromFontFace method [Direct Write], GetFontFromFontFace method [Direct Write],IDWriteFontCollection interface, IDWriteFontCollection interface [Direct Write],GetFontFromFontFace method, IDWriteFontCollection.GetFontFromFontFace, IDWriteFontCollection::GetFontFromFontFace, directwrite.IDWriteFontCollection_GetFontFromFontFace, dwrite/IDWriteFontCollection::GetFontFromFontFace
 ms.prod: windows
 ms.technology: windows-sdk

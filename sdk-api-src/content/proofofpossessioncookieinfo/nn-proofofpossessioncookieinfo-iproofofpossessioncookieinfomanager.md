@@ -7,7 +7,7 @@ old-location: wininet\iproofofpossessioncookieinfomanager.htm
 old-project: WinInet
 ms.assetid: b8b89e48-e47d-4089-a8b6-04d53227767a
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: IProofOfPossessionCookieInfoManager, IProofOfPossessionCookieInfoManager interface [WinINet], IProofOfPossessionCookieInfoManager interface [WinINet],described, proofofpossessioncookieinfo/IProofOfPossessionCookieInfoManager, wininet.iproofofpossessioncookieinfomanager
 ms.prod: windows
 ms.technology: windows-sdk

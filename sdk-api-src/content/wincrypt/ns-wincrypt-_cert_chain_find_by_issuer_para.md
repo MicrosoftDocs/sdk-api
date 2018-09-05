@@ -4,10 +4,10 @@ title: "_CERT_CHAIN_FIND_BY_ISSUER_PARA"
 author: windows-sdk-content
 description: Contains information used in the CertFindChainInStore function to build certificate chains.
 old-location: security\cert_chain_find_by_issuer_para.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 7dee640e-6bad-4d3c-910f-da928a8682c9
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCERT_CHAIN_FIND_BY_ISSUER_PARA, *PCERT_CHAIN_FIND_ISSUER_PARA, AT_KEYEXCHANGE, AT_SIGNATURE, CERT_CHAIN_FIND_BY_ISSUER_PARA, CERT_CHAIN_FIND_BY_ISSUER_PARA structure [Security], CERT_CHAIN_FIND_ISSUER_PARA, _CERT_CHAIN_FIND_BY_ISSUER_PARA, _CERT_CHAIN_FIND_BY_ISSUER_PARA structure [Security], _crypto2_cert_chain_find_by_issuer_para, security.cert_chain_find_by_issuer_para, wincrypt/CERT_CHAIN_FIND_BY_ISSUER_PARA"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,13 +64,17 @@ The <b>CERT_CHAIN_FIND_BY_ISSUER_PARA</b> structure contains information used in
 
 Contains the size of this structure, in bytes. This size should not be hard-coded. It should be set at compile time by using the <b>sizeof</b> operator as shown in the following example.
 
-
-```cpp
-CERT_CHAIN_FIND_BY_ISSUER_PARA findParams;
-findParams.cbSize = sizeof(CERT_CHAIN_FIND_BY_ISSUER_PARA);
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>CERT_CHAIN_FIND_BY_ISSUER_PARA findParams;
+findParams.cbSize = sizeof(CERT_CHAIN_FIND_BY_ISSUER_PARA);</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -field pszUsageIdentifier
 
@@ -168,40 +172,44 @@ The <b>pdwIssuerChainIndex</b> and <b>pdwIssuerElementIndex</b> members are only
 
 The following pseudocode shows how to use the <b>pdwIssuerChainIndex</b> and <b>pdwIssuerElementIndex</b> members of this structure to access the certificate of the issuer.
 
-
-```cpp
-CERT_CHAIN_FIND_BY_ISSUER_PARA findParams;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>CERT_CHAIN_FIND_BY_ISSUER_PARA findParams;
 PCCERT_CHAIN_CONTEXT pChainContext = NULL;
 DWORD dwChainIndex = 0;
 DWORD dwElementIndex = 0;
-findParams.pdwIssuerChainIndex = &dwChainIndex;
-findParams.pdwIssuerElementIndex = &dwElementIndex;
+findParams.pdwIssuerChainIndex = &amp;dwChainIndex;
+findParams.pdwIssuerElementIndex = &amp;dwElementIndex;
 
 pChainContext = CertFindChainInStore(
     hCertStore,
     X509_ASN_ENCODING,
     0,
     CERT_CHAIN_FIND_BY_ISSUER,
-    (LPVOID)&findParams,
+    (LPVOID)&amp;findParams,
     NULL);
 if(pChainContext)
 {
     // Make sure the element index is valid.
-    if(dwElementIndex < pChainContext->
-        rgpChain[dwChainIndex]->cElement)
+    if(dwElementIndex &lt; pChainContext-&gt;
+        rgpChain[dwChainIndex]-&gt;cElement)
     {
         PCERT_CHAIN_ELEMENT pIssuerElement;
-        pIssuerElement = pChainContext->
-            rgpChain[dwChainIndex]->rgpElement[dwElementIndex];
+        pIssuerElement = pChainContext-&gt;
+            rgpChain[dwChainIndex]-&gt;rgpElement[dwElementIndex];
        // ...
     }
 
     // Free the certificate chain.
     CertFreeCertificateChain(pChainContext);
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

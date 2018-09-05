@@ -4,10 +4,10 @@ title: TimeSample
 author: windows-sdk-content
 description: Represents a time sample.
 old-location: base\timesample_str.htm
-old-project: sysinfo
+old-project: SysInfo
 ms.assetid: 020a6502-3357-4800-8fc4-0d73ae42aa51
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: TSF_Authenticated, TSF_Hardware, TimeSample, TimeSample structure, _win32_timesample_str, base.timesample_str, timeprov/TimeSample
 ms.prod: windows
 ms.technology: windows-sdk

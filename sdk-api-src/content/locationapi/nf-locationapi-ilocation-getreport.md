@@ -194,21 +194,25 @@ When <b>GetReport</b> is called, it may result in a notification being displayed
 
 The following example calls <b>GetReport</b> for latitude/longitude reports and demonstrates how to call QueryInterface to retrieve a pointer to the specified report type.
 
-
-```cpp
-CComPtr<ILocationReport> spLocationReport; // This is our location report object
-CComPtr<ILatLongReport> spLatLongReport; // This is our LatLong report object
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>CComPtr&lt;ILocationReport&gt; spLocationReport; // This is our location report object
+CComPtr&lt;ILatLongReport&gt; spLatLongReport; // This is our LatLong report object
 
 // Get the current latitude/longitude location report,
-hr = spLocation->GetReport(IID_ILatLongReport, &spLocationReport);
+hr = spLocation-&gt;GetReport(IID_ILatLongReport, &amp;spLocationReport);
 // then get a pointer to the ILatLongReport interface by calling QueryInterface
 if (SUCCEEDED(hr))
 {
-    hr = spLocationReport->QueryInterface(&spLatLongReport);
+    hr = spLocationReport-&gt;QueryInterface(&amp;spLatLongReport);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

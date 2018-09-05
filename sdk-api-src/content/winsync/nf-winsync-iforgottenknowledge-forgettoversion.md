@@ -7,7 +7,7 @@ old-location: winsync\iforgottenknowledge_forgettoversion.htm
 old-project: winsync
 ms.assetid: 63ea1fdc-5200-40d4-a42a-dcda0318f602
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ForgetToVersion, ForgetToVersion method [Windows Sync], ForgetToVersion method [Windows Sync],IForgottenKnowledge interface, IForgottenKnowledge interface [Windows Sync],ForgetToVersion method, IForgottenKnowledge.ForgetToVersion, IForgottenKnowledge::ForgetToVersion, winsync.iforgottenknowledge_forgettoversion, winsync/IForgottenKnowledge::ForgetToVersion
 ms.prod: windows
 ms.technology: windows-sdk

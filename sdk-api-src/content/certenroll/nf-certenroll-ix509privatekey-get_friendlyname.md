@@ -4,10 +4,10 @@ title: IX509PrivateKey::get_FriendlyName
 author: windows-sdk-content
 description: Specifies or retrieves a display name for the private key.
 old-location: security\ix509privatekey_friendlyname_property.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: 93cd4fe0-5a08-4936-bbb0-6a723027e8c7
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: FriendlyName property [Security], FriendlyName property [Security],IX509PrivateKey interface, IX509PrivateKey interface [Security],FriendlyName property, IX509PrivateKey.FriendlyName, IX509PrivateKey.get_FriendlyName, IX509PrivateKey::FriendlyName, IX509PrivateKey::get_FriendlyName, IX509PrivateKey::put_FriendlyName, certenroll/IX509PrivateKey::FriendlyName, certenroll/IX509PrivateKey::get_FriendlyName, certenroll/IX509PrivateKey::put_FriendlyName, get_FriendlyName, security.ix509privatekey_friendlyname_property
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,7 +75,7 @@ This property can contain any text and is intended to be displayed in a user int
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa378921(v=VS.85).aspx">IX509PrivateKey</a>
+<a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a>
  
 
  

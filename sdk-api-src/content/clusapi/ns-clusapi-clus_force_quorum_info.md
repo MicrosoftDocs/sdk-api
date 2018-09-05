@@ -7,7 +7,7 @@ old-location: mscs\clus_force_quorum_info.htm
 old-project: mscs
 ms.assetid: dda10d88-0e5f-40f7-b18b-82dacef6f886
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCLUS_FORCE_QUORUM_INFO, CLUS_FORCE_QUORUM_INFO, CLUS_FORCE_QUORUM_INFO structure [Failover Cluster], PCLUS_FORCE_QUORUM_INFO, PCLUS_FORCE_QUORUM_INFO structure pointer [Failover Cluster], _wolf_clus_force_quorum_info, clusapi/CLUS_FORCE_QUORUM_INFO, clusapi/PCLUS_FORCE_QUORUM_INFO, mscs.clus_force_quorum_info"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 
 
 Specifies information about the list of 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa371745(v=VS.85).aspx">nodes</a> sufficient to establish quorum in a majority-of-nodes 
+    <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">nodes</a> sufficient to establish quorum in a majority-of-nodes 
     cluster.
 
 
@@ -86,7 +86,7 @@ The names of the nodes that are sufficient to establish quorum in a majority-of-
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa367465(v=VS.85).aspx">CLUSCTL_RESOURCE_FORCE_QUORUM</a>
+<a href="https://msdn.microsoft.com/ab957c9c-fe05-424f-80e7-48d74acca6ed">CLUSCTL_RESOURCE_FORCE_QUORUM</a>
  
 
  

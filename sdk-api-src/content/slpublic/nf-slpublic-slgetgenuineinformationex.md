@@ -4,10 +4,10 @@ title: SLGetGenuineInformationEx function
 author: windows-sdk-content
 description: Specifies information about the genuine status of a Windows computer.
 old-location: security\slgetgenuineinformationex.htm
-old-project: secslapi
+old-project: SecSLApi
 ms.assetid: 229fd8f2-ec8c-4f34-a492-caf18e036b70
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SLGetGenuineInformationEx, SLGetGenuineInformationEx function [Security], security.slgetgenuineinformationex, slpublic/SLGetGenuineInformationEx
 ms.prod: windows
 ms.technology: windows-sdk

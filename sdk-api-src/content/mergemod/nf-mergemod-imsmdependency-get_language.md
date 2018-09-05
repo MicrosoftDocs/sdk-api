@@ -7,7 +7,7 @@ old-location: setup\dependency_language.htm
 old-project: msi
 ms.assetid: 9b0608d1-b6e8-4cf9-8119-3c2909156516
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Dependency object,Language property, IMsmDependency interface,Language property, IMsmDependency.get_Language, IMsmDependency::Language, IMsmDependency::get_Language, Language property, Language property,IMsmDependency interface, _msi_language_property_dependency_object_, get_Language, setup.dependency_language
 ms.prod: windows
 ms.technology: windows-sdk

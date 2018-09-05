@@ -7,7 +7,7 @@ old-location: wmi\iunsecuredapartment.htm
 old-project: WmiSdk
 ms.assetid: 6293d8e3-cc5b-4401-8fdc-86f5d03720ea
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: IUnsecuredApartment, IUnsecuredApartment interface [Windows Management Instrumentation], IUnsecuredApartment interface [Windows Management Instrumentation],described, UnsecuredApartment, _hmm_iunsecuredapartment, wbemcli/IUnsecuredApartment, wmi.iunsecuredapartment
 ms.prod: windows
 ms.technology: windows-sdk

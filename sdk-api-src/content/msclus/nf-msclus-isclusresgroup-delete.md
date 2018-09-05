@@ -7,7 +7,7 @@ old-location: mscs\clusresgroup_delete.htm
 old-project: mscs
 ms.assetid: b1831340-67b9-458c-8669-c8e5e4973c28
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusResGroup class [Failover Cluster],Delete method, ClusResGroup.Delete, Delete, Delete method [Failover Cluster], Delete method [Failover Cluster],ClusResGroup class, ISClusResGroup.Delete, ISClusResGroup::Delete, _wolf_clusresgroup.delete, mscs.clusresgroup_delete
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ req.product: GDI+ 1.1
 
 Deletes a 
     <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a> from the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+    <a href="c_gly.htm">cluster</a>.
 
 
 ## -parameters

@@ -4,10 +4,10 @@ title: "_CERT_SYSTEM_STORE_INFO"
 author: windows-sdk-content
 description: The CERT_SYSTEM_STORE_INFO structure contains information used by functions that work with system stores. Currently, no essential information is contained in this structure.
 old-location: security\cert_system_store_info.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 9c17ebd9-423b-4063-bdc3-6be70ceb8623
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCERT_SYSTEM_STORE_INFO, CERT_SYSTEM_STORE_INFO, CERT_SYSTEM_STORE_INFO structure [Security], PCERT_SYSTEM_STORE_INFO, PCERT_SYSTEM_STORE_INFO structure pointer [Security], _CERT_SYSTEM_STORE_INFO, _crypto2_cert_system_store_info, security.cert_system_store_info, wincrypt/CERT_SYSTEM_STORE_INFO, wincrypt/PCERT_SYSTEM_STORE_INFO"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -65,17 +65,17 @@ Contains the number of advise sinks to install.
 
 ### -param ppunk [in]
 
-Pointer to an array of <a href="https://msdn.microsoft.com/en-us/library/ms628736(v=VS.85).aspx">ITfLangBarItemSink</a> objects to install. This array must be at least <i>ulCount</i> elements in length.
+Pointer to an array of <a href="https://msdn.microsoft.com/1734a011-1ee8-4afd-ace8-334eeaf14518">ITfLangBarItemSink</a> objects to install. This array must be at least <i>ulCount</i> elements in length.
 
 
 ### -param pguidItem [in]
 
-Pointer to an array of <b>GUID</b>s that identify the items to install the advise sinks for. These are the item <b>GUID</b>s that the item supplies in <a href="https://msdn.microsoft.com/en-us/library/ms628741(v=VS.85).aspx">ITfLangBarItem::GetInfo</a>. This array must be at least <i>ulCount</i> elements in length.
+Pointer to an array of <b>GUID</b>s that identify the items to install the advise sinks for. These are the item <b>GUID</b>s that the item supplies in <a href="https://msdn.microsoft.com/b32e433a-c0d6-418e-bf11-2291c85373c2">ITfLangBarItem::GetInfo</a>. This array must be at least <i>ulCount</i> elements in length.
 
 
 ### -param pdwCookie [out]
 
-Pointer to an array of <b>DWORD</b>s that receive the cooresponding advise sink identification cookies. These cookies identify the advise sinks when they are removed with the <a href="https://msdn.microsoft.com/en-us/library/ms628734(v=VS.85).aspx">ITfLangBarItemMgr::UnadviseItemSink</a> or <a href="https://msdn.microsoft.com/en-us/library/ms628735(v=VS.85).aspx">ITfLangBarItemMgr::UnadviseItemsSink</a> method. This array must be at least <i>ulCount</i> elements in length.
+Pointer to an array of <b>DWORD</b>s that receive the cooresponding advise sink identification cookies. These cookies identify the advise sinks when they are removed with the <a href="https://msdn.microsoft.com/20a0f69b-950e-4ad7-9357-74f0b4a75c6b">ITfLangBarItemMgr::UnadviseItemSink</a> or <a href="https://msdn.microsoft.com/e15fb870-bedc-412d-9561-4db6c0515799">ITfLangBarItemMgr::UnadviseItemsSink</a> method. This array must be at least <i>ulCount</i> elements in length.
 
 
 ## -returns
@@ -122,11 +122,11 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628741(v=VS.85).aspx">ITfLangBarItem::GetInfo</a>
+<a href="https://msdn.microsoft.com/b32e433a-c0d6-418e-bf11-2291c85373c2">ITfLangBarItem::GetInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628723(v=VS.85).aspx">ITfLangBarItemMgr</a>
+<a href="https://msdn.microsoft.com/a7fa257f-e600-4554-8b23-f73323f37e69">ITfLangBarItemMgr</a>
 
 
 
@@ -140,7 +140,7 @@ An unspecified error occurred.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms628736(v=VS.85).aspx">ITfLangBarItemSink</a>
+<a href="https://msdn.microsoft.com/1734a011-1ee8-4afd-ace8-334eeaf14518">ITfLangBarItemSink</a>
  
 
  

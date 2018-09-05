@@ -4,10 +4,10 @@ title: CertEnumCertificatesInStore function
 author: windows-sdk-content
 description: Retrieves the first or next certificate in a certificate store. Used in a loop, this function can retrieve in sequence all certificates in a certificate store.
 old-location: security\certenumcertificatesinstore.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: c5ab5b4c-dc0c-416b-aa9e-b939398cfa6d
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CertEnumCertificatesInStore, CertEnumCertificatesInStore function [Security], _crypto2_certenumcertificatesinstore, security.certenumcertificatesinstore, wincrypt/CertEnumCertificatesInStore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -145,11 +145,15 @@ A duplicate of the currently enumerated certificate can be made by calling
 
 The following  example lists the certificate contexts in the certificate store. For another example that uses this function, see <a href="https://msdn.microsoft.com/52a0287b-7d2a-483e-8bbc-43621c4b7103">Example C Program: Deleting Certificates from a Certificate Store</a>.
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
-#include <Wincrypt.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;Wincrypt.h&gt;
 #pragma comment(lib, "crypt32.lib")
 
 
@@ -197,10 +201,10 @@ if (!CertCloseStore(
     printf("Failed CertCloseStore\n");
     exit(1);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -237,7 +241,7 @@ if (!CertCloseStore(
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Functions</a>
+<a href="cryptography_functions.htm">Certificate Functions</a>
  
 
  

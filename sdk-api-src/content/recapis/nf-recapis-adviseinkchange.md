@@ -7,7 +7,7 @@ old-location: tablet\adviseinkchange.htm
 old-project: tablet
 ms.assetid: 326bbbff-4adc-46ae-aab3-626b55fecf0c
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/28/2018
 ms.keywords: 326bbbff-4adc-46ae-aab3-626b55fecf0c, AdviseInkChange, AdviseInkChange function [Tablet PC], recapis/AdviseInkChange, tablet.adviseinkchange
 ms.prod: windows
 ms.technology: windows-sdk

@@ -97,11 +97,11 @@ Restores a specified range object into the TSF context.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms680509(v=VS.85).aspx">IUnknown</a>
+<a href="_COM_IUnknown">IUnknown</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms629023(v=VS.85).aspx">Ranges: Clones and Backups</a>
+<a href="ranges.htm">Ranges: Clones and Backups</a>
  
 
  

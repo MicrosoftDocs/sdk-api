@@ -7,7 +7,7 @@ old-location: wmdm\iscpsession_endsession.htm
 old-project: WMDM
 ms.assetid: 322794ae-f8cd-4e2d-a329-728d281755cd
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: EndSession, EndSession method [windows Media Device Manager], EndSession method [windows Media Device Manager],ISCPSession interface, ISCPSession interface [windows Media Device Manager],EndSession method, ISCPSession.EndSession, ISCPSession::EndSession, ISCPSessionEndSession, mswmdm/ISCPSession::EndSession, wmdm.iscpsession_endsession
 ms.prod: windows
 ms.technology: windows-sdk

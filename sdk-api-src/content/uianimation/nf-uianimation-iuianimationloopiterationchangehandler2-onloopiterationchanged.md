@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationloopiterationchangehandler2_onloopiteratio
 old-project: UIAnimation
 ms.assetid: C441CDC6-944E-488A-B643-13A13E027DF6
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IUIAnimationLoopIterationChangeHandler2 interface [Windows Animation],OnLoopIterationChanged method, IUIAnimationLoopIterationChangeHandler2.OnLoopIterationChanged, IUIAnimationLoopIterationChangeHandler2::OnLoopIterationChanged, OnLoopIterationChanged, OnLoopIterationChanged method [Windows Animation], OnLoopIterationChanged method [Windows Animation],IUIAnimationLoopIterationChangeHandler2 interface, uianimation.iuianimationloopiterationchangehandler2_onloopiterationchanged, uianimation/IUIAnimationLoopIterationChangeHandler2::OnLoopIterationChanged
 ms.prod: windows
 ms.technology: windows-sdk

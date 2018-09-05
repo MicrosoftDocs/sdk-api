@@ -4,10 +4,10 @@ title: BCryptResolveProviders function
 author: windows-sdk-content
 description: Obtains a collection of all of the providers that meet the specified criteria.
 old-location: security\bcryptresolveproviders.htm
-old-project: seccng
+old-project: SecCNG
 ms.assetid: cf30f635-4918-4911-9db0-df90d26a2f1a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BCryptResolveProviders, BCryptResolveProviders function [Security], CRYPT_ALL_FUNCTIONS, CRYPT_ALL_PROVIDERS, CRYPT_KM, CRYPT_MM, CRYPT_UM, bcrypt/BCryptResolveProviders, security.bcryptresolveproviders
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ A pointer to a null-terminated Unicode string that contains the identifier of th
 
 ### -param dwInterface [in, optional]
 
-The identifier of an interface that the provider must support. This must be one of the <a href="https://msdn.microsoft.com/en-us/library/Aa376201(v=VS.85).aspx">CNG Interface Identifiers</a>. If the <i>pszFunction</i> parameter is not <b>NULL</b> or an empty string, you can set <i>dwInterface</i> to zero to force the function to infer the interface.
+The identifier of an interface that the provider must support. This must be one of the <a href="https://msdn.microsoft.com/509c89ff-0c73-4e57-9c39-400522f2086e">CNG Interface Identifiers</a>. If the <i>pszFunction</i> parameter is not <b>NULL</b> or an empty string, you can set <i>dwInterface</i> to zero to force the function to infer the interface.
 
 
 ### -param pszFunction [in, optional]

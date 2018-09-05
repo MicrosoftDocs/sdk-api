@@ -4,10 +4,10 @@ title: MultiplyHigh function
 author: windows-sdk-content
 description: Multiplies two 64-bit integers to produce a 128-bit integer and gets the high 64 bits.
 old-location: winprog\multiplyhigh.htm
-old-project: winprog
+old-project: WinProg
 ms.assetid: 9072FCB1-89AE-4441-A425-AC3071A47E76
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MultiplyHigh, MultiplyHigh function [Windows API], winnt/MultiplyHigh, winprog.multiplyhigh
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: netmgmt\netapibufferallocate.htm
 old-project: netmgmt
 ms.assetid: 9ff1e3eb-9417-469f-a8c0-cdcda3cd9583
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NetApiBufferAllocate, NetApiBufferAllocate function [Network Management], _win32_netapibufferallocate, lmapibuf/NetApiBufferAllocate, netmgmt.netapibufferallocate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -107,15 +107,19 @@ The sample first calls the
 <a href="https://msdn.microsoft.com/61153de0-33d3-4c83-a8aa-a7179252328c">NetApiBufferReallocate</a> to change the size of the memory allocation. Finally, the sample calls 
 <a href="https://msdn.microsoft.com/0e99483c-8cd7-402a-8bf6-1e0118764dd3">NetApiBufferFree</a> to free the memory. In each case, the sample prints a message indicating success or failure.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 
-#include <windows.h>
-#include <lm.h>
-#include <stdio.h>
+#include &lt;windows.h&gt;
+#include &lt;lm.h&gt;
+#include &lt;stdio.h&gt;
 
 #pragma comment(lib, "netapi32.lib")
 
@@ -130,7 +134,7 @@ int main()
    //   to allocate the memory. If successful,
    //   print a message.
    //
-   res = NetApiBufferAllocate(1024, (LPVOID *) &p);
+   res = NetApiBufferAllocate(1024, (LPVOID *) &amp;p);
    if(res == NERR_Success)
    {
       printf("NetApiBufferAllocate:   Allocated 1024 bytes.\n");
@@ -139,7 +143,7 @@ int main()
       //   to retrieve the size of the allocated buffer.
       //   If successful, print the size.
       //
-      res = NetApiBufferSize(p, &dwSize);
+      res = NetApiBufferSize(p, &amp;dwSize);
       if(res == NERR_Success)
       {
          printf("NetApiBufferSize:       Buffer has %u bytes.\n", dwSize);
@@ -148,7 +152,7 @@ int main()
          //   to change the size of the allocated memory.
          //   If successful, print the new size of the buffer.
          //
-         res = NetApiBufferReallocate(p, dwSize * 2, (LPVOID *) &p);   
+         res = NetApiBufferReallocate(p, dwSize * 2, (LPVOID *) &amp;p);   
          if(res == NERR_Success)
             printf("NetApiBufferReallocate: Re-Allocated %u bytes.\n", dwSize * 2);
          else
@@ -178,10 +182,10 @@ void PrintError(LPSTR lpszApi, DWORD res)
    printf("%s: Error %u\n", lpszApi, res);
    return;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

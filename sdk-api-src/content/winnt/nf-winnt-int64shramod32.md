@@ -4,10 +4,10 @@ title: Int64ShraMod32 macro
 author: windows-sdk-content
 description: Performs a right arithmetic shift operation on a signed 64-bit integer value. The function provides improved shifting code for right arithmetic shifts where the shift count is in the range 0-31.
 old-location: winprog\int64shramod32.htm
-old-project: winprog
+old-project: WinProg
 ms.assetid: 69de2eb7-2cbe-48db-935b-b3d2c41f4e86
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Int64ShraMod32, Int64ShraMod32 macro [Windows API], _win32_int64shramod32, winnt/Int64ShraMod32, winprog.int64shramod32
 ms.prod: windows
 ms.technology: windows-sdk

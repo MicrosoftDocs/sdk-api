@@ -4,10 +4,10 @@ title: PWINBIO_LOCATE_SENSOR_CALLBACK
 author: windows-sdk-content
 description: Returns results from the asynchronous WinBioLocateSensorWithCallback function.
 old-location: secbiomet\pwinbio_locate_sensor_callback.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: 2959B5C0-A513-4124-8391-E05E9F43CD53
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: PWINBIO_LOCATE_SENSOR_CALLBACK, PWINBIO_LOCATE_SENSOR_CALLBACK callback, PWINBIO_LOCATE_SENSOR_CALLBACK callback function [Windows Biometric Framework API], secbiomet.pwinbio_locate_sensor_callback, winbio/PWINBIO_LOCATE_SENSOR_CALLBACK
 ms.prod: windows
 ms.technology: windows-sdk

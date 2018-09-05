@@ -7,7 +7,7 @@ old-location: shell\ULongAdd.htm
 old-project: shell
 ms.assetid: 63726f12-ba01-4cb7-a311-95d476e68174
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: DWordAdd, ULongAdd, ULongAdd function [Windows Shell], _shell_ULongAdd, intsafe/ULongAdd, shell.ULongAdd
 ms.prod: windows
 ms.technology: windows-sdk

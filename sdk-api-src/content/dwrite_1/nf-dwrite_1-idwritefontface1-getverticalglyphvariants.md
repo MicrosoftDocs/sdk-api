@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontface1_getverticalglyphvariants.htm
 old-project: DirectWrite
 ms.assetid: 91CD924E-A664-45C6-B787-61129C31501B
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetVerticalGlyphVariants, GetVerticalGlyphVariants method [Direct Write], GetVerticalGlyphVariants method [Direct Write],IDWriteFontFace1 interface, IDWriteFontFace1 interface [Direct Write],GetVerticalGlyphVariants method, IDWriteFontFace1.GetVerticalGlyphVariants, IDWriteFontFace1::GetVerticalGlyphVariants, directwrite.idwritefontface1_getverticalglyphvariants, dwrite_1/IDWriteFontFace1::GetVerticalGlyphVariants
 ms.prod: windows
 ms.technology: windows-sdk

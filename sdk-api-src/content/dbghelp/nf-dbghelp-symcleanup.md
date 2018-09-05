@@ -7,7 +7,7 @@ old-location: base\symcleanup.htm
 old-project: debug
 ms.assetid: 56107b71-a3f9-49af-9a90-df3585aed7c8
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: SymCleanup, SymCleanup function, _win32_symcleanup, base.symcleanup, dbghelp/SymCleanup
 ms.prod: windows
 ms.technology: windows-sdk

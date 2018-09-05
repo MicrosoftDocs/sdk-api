@@ -4,10 +4,10 @@ title: IIdentityStore::ConvertToSid
 author: windows-sdk-content
 description: Retrieves the security identifier (SID) associated with the specified identity and identity provider.
 old-location: security\iidentitystore_converttosid.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 484365a9-aeaf-453f-9a5b-6f88b79f8a35
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: ConvertToSid, ConvertToSid method [Security], ConvertToSid method [Security],IIdentityStore interface, IIdentityStore interface [Security],ConvertToSid method, IIdentityStore.ConvertToSid, IIdentityStore::ConvertToSid, identitystore/IIdentityStore::ConvertToSid, security.iidentitystore_converttosid
 ms.prod: windows
 ms.technology: windows-sdk

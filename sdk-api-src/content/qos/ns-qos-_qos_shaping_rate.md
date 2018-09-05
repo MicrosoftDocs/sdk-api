@@ -4,10 +4,10 @@ title: "_QOS_SHAPING_RATE"
 author: windows-sdk-content
 description: The QOS object QOS_SHAPING_RATE specifies the uniform traffic shaping rate be applied to a given flow.
 old-location: qos\qos_shaping_rate.htm
-old-project: qos
+old-project: QOS
 ms.assetid: 2be833dc-d9e1-495d-831e-09c900c8adb2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPQOS_SHAPING_RATE, LPQOS_SHAPING_RATE, LPQOS_SHAPING_RATE structure pointer [QOS], QOS_SHAPING_RATE, QOS_SHAPING_RATE structure [QOS], _QOS_SHAPING_RATE, _gqos_qos_shaping_rate, qos.qos_shaping_rate, qos/LPQOS_SHAPING_RATE, qos/QOS_SHAPING_RATE"
 ms.prod: windows
 ms.technology: windows-sdk

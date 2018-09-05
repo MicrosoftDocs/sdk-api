@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_ui_invalidations.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_invalidations.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: UI_INVALIDATIONS, UI_INVALIDATIONS enumeration [Windows Ribbon], UI_INVALIDATIONS_ALLPROPERTIES, UI_INVALIDATIONS_PROPERTY, UI_INVALIDATIONS_STATE, UI_INVALIDATIONS_VALUE, scenicintent_UI_INVALIDATIONS, uiribbon/UI_INVALIDATIONS, uiribbon/UI_INVALIDATIONS_ALLPROPERTIES, uiribbon/UI_INVALIDATIONS_PROPERTY, uiribbon/UI_INVALIDATIONS_STATE, uiribbon/UI_INVALIDATIONS_VALUE, windowsribbon.windowsribbon_ui_invalidations
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ Specifies values that identify the aspect of a Command to invalidate.
 
 ### -field UI_INVALIDATIONS_STATE
 
-A state property, such as <a href="https://msdn.microsoft.com/en-us/library/Dd940400(v=VS.85).aspx">UI_PKEY_Enabled</a>.
+A state property, such as <a href="https://msdn.microsoft.com/bb75487c-a222-4d92-87cb-1c11d137af7b">UI_PKEY_Enabled</a>.
 
 
 ### -field UI_INVALIDATIONS_VALUE
@@ -85,11 +85,11 @@ All properties.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371540(v=VS.85).aspx">Constants and Enumerations</a>
+<a href="https://msdn.microsoft.com/8499a096-aac3-4af3-a4c9-eebf53698744">Constants and Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371375(v=VS.85).aspx">IUIFramework::InvalidateUICommand</a>
+<a href="https://msdn.microsoft.com/6f6f6815-5523-42d9-a6b2-a21dd26756c0">IUIFramework::InvalidateUICommand</a>
  
 
  

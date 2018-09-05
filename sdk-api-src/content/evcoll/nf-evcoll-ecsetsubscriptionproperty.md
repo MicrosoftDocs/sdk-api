@@ -7,7 +7,7 @@ old-location: wec\ecsetsubscriptionproperty.htm
 old-project: WEC
 ms.assetid: acba54af-d09d-4de9-bd5d-e7441bf56b9b
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: EcSetSubscriptionProperty, EcSetSubscriptionProperty function, evcoll/EcSetSubscriptionProperty, wec.ecsetsubscriptionproperty, wes.ecsetsubscriptionproperty
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,7 @@ The value of the property to set for the indicated subscription property.
 
 
 
-This function returns BOOL __stdcall.
+This function returns BOOL.
 
 
 

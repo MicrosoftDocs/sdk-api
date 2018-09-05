@@ -7,7 +7,7 @@ old-location: setup\setupremoveinstallsectionfromdiskspacelist.htm
 old-project: SetupApi
 ms.assetid: dd104c59-faee-4eb6-abbc-a4c13d766298
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: SetupRemoveInstallSectionFromDiskSpaceList, SetupRemoveInstallSectionFromDiskSpaceList function [Setup API], SetupRemoveInstallSectionFromDiskSpaceListA, SetupRemoveInstallSectionFromDiskSpaceListW, _setupapi_setupremoveinstallsectionfromdiskspacelist, setup.setupremoveinstallsectionfromdiskspacelist, setupapi/SetupRemoveInstallSectionFromDiskSpaceList, setupapi/SetupRemoveInstallSectionFromDiskSpaceListA, setupapi/SetupRemoveInstallSectionFromDiskSpaceListW
 ms.prod: windows
 ms.technology: windows-sdk

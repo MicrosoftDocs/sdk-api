@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectconnectorinfo_getnumberformats.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnectorinfo\getnumberformats.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GetNumberFormats, GetNumberFormats method [WPF Bitmap Effects], GetNumberFormats method [WPF Bitmap Effects],IMILBitmapEffectConnectorInfo interface, IMILBitmapEffectConnectorInfo interface [WPF Bitmap Effects],GetNumberFormats method, IMILBitmapEffectConnectorInfo.GetNumberFormats, IMILBitmapEffectConnectorInfo::GetNumberFormats, _wibe_imilbitmapeffectconnectorinfo_getnumberformats, mileffects/IMILBitmapEffectConnectorInfo::GetNumberFormats, wibe._wibe_imilbitmapeffectconnectorinfo_getnumberformats
 ms.prod: windows
 ms.technology: windows-sdk

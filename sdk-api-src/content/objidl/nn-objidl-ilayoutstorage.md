@@ -4,10 +4,10 @@ title: ILayoutStorage
 author: windows-sdk-content
 description: The ILayoutStorage interface enables an application to optimize the layout of its compound files for efficient downloading across a slow link.
 old-location: stg\ilayoutstorage.htm
-old-project: stg
+old-project: Stg
 ms.assetid: 72201600-4bbb-4346-a13f-927e8463b6ec
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ILayoutStorage, ILayoutStorage interface [Structured Storage], ILayoutStorage interface [Structured Storage],described, _stg_ilayoutstorage, objidl/ILayoutStorage, stg.ilayoutstorage
 ms.prod: windows
 ms.technology: windows-sdk

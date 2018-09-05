@@ -4,10 +4,10 @@ title: IVssCreateWriterMetadata::AddAlternateLocationMapping
 author: windows-sdk-content
 description: The AddAlternateLocationMapping method creates an alternate location mapping for a file set.
 old-location: base\ivsscreatewritermetadata_addalternatelocationmapping.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 966c40d4-8c19-43cc-ba49-028763478f49
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: AddAlternateLocationMapping, AddAlternateLocationMapping method [VSS], AddAlternateLocationMapping method [VSS],IVssCreateWriterMetadata interface, IVssCreateWriterMetadata interface [VSS],AddAlternateLocationMapping method, IVssCreateWriterMetadata.AddAlternateLocationMapping, IVssCreateWriterMetadata::AddAlternateLocationMapping, _win32_ivsscreatewritermetadata_addalternatelocationmapping, base.ivsscreatewritermetadata_addalternatelocationmapping, vswriter/IVssCreateWriterMetadata::AddAlternateLocationMapping
 ms.prod: windows
 ms.technology: windows-sdk

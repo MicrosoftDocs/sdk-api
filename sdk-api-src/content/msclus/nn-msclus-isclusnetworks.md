@@ -7,7 +7,7 @@ old-location: mscs\clusnetworks_collection.htm
 old-project: mscs
 ms.assetid: 7dba0985-16bc-4bda-9f37-275032c07811
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusNetworks, ClusNetworks collection [Failover Cluster], ClusNetworks collection [Failover Cluster],described, ISClusNetworks, _wolf_clusnetworks_collection, msclus/ClusNetworks, mscs.clusnetworks_collection
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Provides access to the <a href="https://msdn.microsoft.com/57d16e1f-e774-4ffb-b26b-7e72d6d589aa">networks</a> in a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+    <a href="c_gly.htm">cluster</a>.
 
 
 ## -inheritance

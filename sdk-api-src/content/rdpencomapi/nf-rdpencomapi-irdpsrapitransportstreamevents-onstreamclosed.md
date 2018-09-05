@@ -4,10 +4,10 @@ title: IRDPSRAPITransportStreamEvents::OnStreamClosed
 author: windows-sdk-content
 description: Notifies the Remote Desktop Protocol (RDP) stack that the connection was closed.
 old-location: rdp\irdpsrapitransportstreamevents_onstreamclosed.htm
-old-project: rdp
+old-project: Rdp
 ms.assetid: 98767b91-95c1-4883-b27c-16c20d1da507
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IRDPSRAPITransportStreamEvents interface [RDP],OnStreamClosed method, IRDPSRAPITransportStreamEvents.OnStreamClosed, IRDPSRAPITransportStreamEvents::OnStreamClosed, OnStreamClosed, OnStreamClosed method [RDP], OnStreamClosed method [RDP],IRDPSRAPITransportStreamEvents interface, rdp.irdpsrapitransportstreamevents_onstreamclosed, rdpencomapi/IRDPSRAPITransportStreamEvents::OnStreamClosed
 ms.prod: windows
 ms.technology: windows-sdk

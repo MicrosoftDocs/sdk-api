@@ -4,10 +4,10 @@ title: SLGetProductSkuInformation function
 author: windows-sdk-content
 description: Gets information about the specified product SKU.
 old-location: security\slgetproductskuinformation.htm
-old-project: secslapi
+old-project: SecSLApi
 ms.assetid: 38da608d-88c9-4e3a-84a6-5b305560191f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SLGetProductSkuInformation, SLGetProductSkuInformation function [Security], SL_DATA_BINARY, SL_DATA_DWORD, SL_DATA_SZ, SL_INFO_KEY_AUTHOR, SL_INFO_KEY_DESCRIPTION, SL_INFO_KEY_NAME, security.slgetproductskuinformation, slpublic/SLGetProductSkuInformation
 ms.prod: windows
 ms.technology: windows-sdk

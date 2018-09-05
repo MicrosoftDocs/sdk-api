@@ -7,7 +7,7 @@ old-location: shell\PathCreateFromUrlAlloc.htm
 old-project: shell
 ms.assetid: 274411cd-5922-4db8-8775-feb93cae32dd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: PathCreateFromUrlAlloc, PathCreateFromUrlAlloc function [Windows Shell], _shell_PathCreateFromUrlAlloc, shell.PathCreateFromUrlAlloc, shlwapi/PathCreateFromUrlAlloc
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

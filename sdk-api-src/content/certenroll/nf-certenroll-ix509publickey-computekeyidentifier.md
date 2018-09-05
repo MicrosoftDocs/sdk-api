@@ -4,10 +4,10 @@ title: IX509PublicKey::ComputeKeyIdentifier
 author: windows-sdk-content
 description: Creates an identifier from a 160-bit SHA-1 hash of the public key.
 old-location: security\ix509publickey_computekeyidentifier_method.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: b2e471c7-1087-46a2-8938-5d3cea44f7f7
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ComputeKeyIdentifier, ComputeKeyIdentifier method [Security], ComputeKeyIdentifier method [Security],IX509PublicKey interface, IX509PublicKey interface [Security],ComputeKeyIdentifier method, IX509PublicKey.ComputeKeyIdentifier, IX509PublicKey::ComputeKeyIdentifier, certenroll/IX509PublicKey::ComputeKeyIdentifier, security.ix509publickey_computekeyidentifier_method
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>ComputeKeyIdentifier</b> method creates an identifier from a 160-bit SHA-1 hash of the <a href="https://msdn.microsoft.com/en-us/library/ms721603(v=VS.85).aspx">public key</a>.
+The <b>ComputeKeyIdentifier</b> method creates an identifier from a 160-bit SHA-1 hash of the <a href="https://msdn.microsoft.com/2fe6cfd3-8a2e-4dbe-9fb8-332633daa97a">public key</a>.
 
 
 ## -parameters
@@ -61,16 +61,16 @@ The <b>ComputeKeyIdentifier</b> method creates an identifier from a 160-bit SHA-
 
 ### -param Algorithm [in]
 
-A value of the <a href="https://msdn.microsoft.com/en-us/library/Aa379061(v=VS.85).aspx">KeyIdentifierHashAlgorithm</a> enumeration that specifies what hash algorithm to use to create the key identifier.
+A value of the <a href="https://msdn.microsoft.com/80e3c730-880f-4cfa-921f-3bb88cf827f2">KeyIdentifierHashAlgorithm</a> enumeration that specifies what hash algorithm to use to create the key identifier.
 
-If this value is SKIHashDefault or SKIHashSha1, the identifier is created by hashing only the byte array that contains the key and excluding the <a href="https://msdn.microsoft.com/en-us/library/ms721573(v=VS.85).aspx">Distinguished Encoding Rules</a> (DER) tag, length, and unused bits fields.
+If this value is SKIHashDefault or SKIHashSha1, the identifier is created by hashing only the byte array that contains the key and excluding the <a href="https://msdn.microsoft.com/d007cbb9-b547-4dc7-bc22-b526f650f7c2">Distinguished Encoding Rules</a> (DER) tag, length, and unused bits fields.
 
 If this value is SKIHashCapiSha1, the identifier is created by hashing the DER-encoded byte array that contains the tag, length,  number of unused bits, and the public key.
 
 
 ### -param Encoding [in]
 
-An <a href="https://msdn.microsoft.com/en-us/library/Aa374936(v=VS.85).aspx">EncodingType</a> enumeration value that specifies the type of Unicode-encoding to be applied to the hash contained in the <i>pValue</i> parameter. The default value is XCN_CRYPT_STRING_BASE64.
+An <a href="https://msdn.microsoft.com/b42628ae-deed-497b-a20f-d175843b79c2">EncodingType</a> enumeration value that specifies the type of Unicode-encoding to be applied to the hash contained in the <i>pValue</i> parameter. The default value is XCN_CRYPT_STRING_BASE64.
 
 
 ### -param pValue [out]
@@ -84,7 +84,7 @@ Pointer to a <b>BSTR</b> variable that contains the key identifier.
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -113,7 +113,7 @@ The algorithm object identifier or the public key parameters could not be found.
 
 
 
-You must call the <a href="https://msdn.microsoft.com/en-us/library/Aa379044(v=VS.85).aspx">InitializeFromEncodedPublicKeyInfo</a> method or the <a href="https://msdn.microsoft.com/en-us/library/Aa379045(v=VS.85).aspx">Initialize</a> method to initialize the public key object before calling  <b>ComputeKeyIdentifier</b>.
+You must call the <a href="https://msdn.microsoft.com/3e92d934-1ab7-4f09-a579-0dde4ef44c7f">InitializeFromEncodedPublicKeyInfo</a> method or the <a href="https://msdn.microsoft.com/b6db46b2-95f5-4ba9-829d-97bf83fd9806">Initialize</a> method to initialize the public key object before calling  <b>ComputeKeyIdentifier</b>.
 
 
 
@@ -123,7 +123,7 @@ You must call the <a href="https://msdn.microsoft.com/en-us/library/Aa379044(v=V
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa379039(v=VS.85).aspx">IX509PublicKey</a>
+<a href="https://msdn.microsoft.com/cd6f28a3-9998-40d7-a3e8-dab0cf3991a8">IX509PublicKey</a>
  
 
  

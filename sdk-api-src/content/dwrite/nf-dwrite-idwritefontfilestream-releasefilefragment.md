@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFontFileStream_ReleaseFileFragment.htm
 old-project: DirectWrite
 ms.assetid: 8a12c28e-5595-4255-8fdd-5d546ceed90b
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: IDWriteFontFileStream interface [Direct Write],ReleaseFileFragment method, IDWriteFontFileStream.ReleaseFileFragment, IDWriteFontFileStream::ReleaseFileFragment, ReleaseFileFragment, ReleaseFileFragment method [Direct Write], ReleaseFileFragment method [Direct Write],IDWriteFontFileStream interface, directwrite.IDWriteFontFileStream_ReleaseFileFragment, dwrite/IDWriteFontFileStream::ReleaseFileFragment
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mscs\cluster_commonproperties.htm
 old-project: mscs
 ms.assetid: 99de61b9-2979-404a-bbed-94d6f5eea2da
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Cluster object [Failover Cluster],CommonProperties property, Cluster.CommonProperties, CommonProperties property [Failover Cluster], CommonProperties property [Failover Cluster],Cluster object, ISCluster.get_CommonProperties, ISCluster::get_CommonProperties, _wolf_cluster.commonproperties, get_CommonProperties, mscs.cluster_commonproperties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ req.product: GDI+ 1.1
 
 Returns the 
     read/write <a href="https://msdn.microsoft.com/5341d390-69dd-4e84-a443-f35a4b6c0bab">common properties</a> of a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+    <a href="c_gly.htm">cluster</a>.
 
 This property is read-only.
 

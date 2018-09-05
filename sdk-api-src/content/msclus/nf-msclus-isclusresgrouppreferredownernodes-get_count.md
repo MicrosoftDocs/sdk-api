@@ -7,7 +7,7 @@ old-location: mscs\clusresgrouppreferredownernodes_count.htm
 old-project: mscs
 ms.assetid: 02ea0677-45e0-4bce-bd01-2204703b613a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusResGroupPreferredOwnerNodes class [Failover Cluster],Count property, ClusResGroupPreferredOwnerNodes.Count, Count property [Failover Cluster], Count property [Failover Cluster],ClusResGroupPreferredOwnerNodes class, ISClusResGroupPreferredOwnerNodes.get_Count, ISClusResGroupPreferredOwnerNodes::get_Count, _wolf_clusresgrouppreferredownernodes.count, get_Count, mscs.clusresgrouppreferredownernodes_count
 ms.prod: windows
 ms.technology: windows-sdk

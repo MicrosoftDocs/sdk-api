@@ -7,7 +7,7 @@ old-location: netmgmt\netuseadd.htm
 old-project: netmgmt
 ms.assetid: 22550c17-003a-4f59-80f0-58fa3e286844
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: 1, 2, NetUseAdd, NetUseAdd function [Network Management], _win32_netuseadd, lmuse/NetUseAdd, netmgmt.netuseadd
 ms.prod: windows
 ms.technology: windows-sdk

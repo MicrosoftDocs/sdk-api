@@ -7,7 +7,7 @@ old-location: wsw\wssetoutputtobuffer.htm
 old-project: wsw
 ms.assetid: b969700d-7145-45eb-ad4b-c6e643975709
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WsSetOutputToBuffer, WsSetOutputToBuffer function [Web Services for Windows], webservices/WsSetOutputToBuffer, wsw.wssetoutputtobuffer
 ms.prod: windows
 ms.technology: windows-sdk

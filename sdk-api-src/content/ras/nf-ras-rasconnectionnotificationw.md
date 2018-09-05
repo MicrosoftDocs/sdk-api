@@ -4,10 +4,10 @@ title: RasConnectionNotificationW function
 author: windows-sdk-content
 description: The RasConnectionNotification function specifies an event object that the system sets to the signaled state when a RAS connection is created or terminated.
 old-location: rras\rasconnectionnotification.htm
-old-project: rras
+old-project: RRAS
 ms.assetid: 7bbf928e-9b62-44fc-9d57-6c80f89865f0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RASCN_BandwidthAdded, RASCN_BandwidthRemoved, RASCN_Connection, RASCN_Disconnection, RasConnectionNotification, RasConnectionNotification function [RAS], RasConnectionNotificationA, RasConnectionNotificationW, _ras_rasconnectionnotification, ras/RasConnectionNotification, ras/RasConnectionNotificationA, ras/RasConnectionNotificationW, rras.rasconnectionnotification
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,17 @@ The
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
+
+TBD
+
+
+### -param arg3
 
 TBD
 
@@ -137,7 +147,7 @@ If <i>hrasconn</i> is <b>INVALID_HANDLE_VALUE</b>, <i>hEvent</i> is signaled whe
 #### - hEvent [in]
 
 Specifies the handle of an event object. Use the 
-<a href="https://msdn.microsoft.com/en-us/library/ms682396(v=VS.85).aspx">CreateEvent</a> function to create an event object.
+<a href="_win32_createevent">CreateEvent</a> function to create an event object.
 
 
 ## -returns
@@ -156,7 +166,7 @@ If the function fails, the return value is a non-zero error code from <a href="h
 
 
 To determine when the event object is signaled, use any of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms687069(v=VS.85).aspx">wait functions</a>.
+<a href="_win32_wait_functions">wait functions</a>.
 
 When the event is signaled, use other RAS functions, such as 
 <a href="https://msdn.microsoft.com/b581cfbf-a55e-4f56-89cd-168aa23af550">RasEnumConnections</a>, to get more information about the RAS connection that was created or terminated.
@@ -169,7 +179,7 @@ When the event is signaled, use other RAS functions, such as
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms682396(v=VS.85).aspx">CreateEvent</a>
+<a href="_win32_createevent">CreateEvent</a>
 
 
 

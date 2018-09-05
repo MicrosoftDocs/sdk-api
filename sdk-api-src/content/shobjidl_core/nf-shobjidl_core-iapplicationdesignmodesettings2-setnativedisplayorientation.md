@@ -7,7 +7,7 @@ old-location: shell\IApplicationDesignModeSettings2_SetNativeDisplayOrientation.
 old-project: shell
 ms.assetid: 9473724C-3FD2-48D0-BCFA-EA148F0C4569
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IApplicationDesignModeSettings2 interface [Windows Shell],SetNativeDisplayOrientation method, IApplicationDesignModeSettings2.SetNativeDisplayOrientation, IApplicationDesignModeSettings2::SetNativeDisplayOrientation, NDO_LANDSCAPE, NDO_PORTRAIT, SetNativeDisplayOrientation, SetNativeDisplayOrientation method [Windows Shell], SetNativeDisplayOrientation method [Windows Shell],IApplicationDesignModeSettings2 interface, shell.IApplicationDesignModeSettings2_SetNativeDisplayOrientation, shobjidl_core/IApplicationDesignModeSettings2::SetNativeDisplayOrientation
 ms.prod: windows
 ms.technology: windows-sdk

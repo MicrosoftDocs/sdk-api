@@ -7,7 +7,7 @@ old-location: mscs\cluspropertyvaluedata_createitem.htm
 old-project: mscs
 ms.assetid: 75bd2145-aed5-4a8f-b1da-e8fdcb0a537a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusPropertyValueData collection [Failover Cluster],CreateItem method, ClusPropertyValueData.CreateItem, CreateItem, CreateItem method [Failover Cluster], CreateItem method [Failover Cluster],ClusPropertyValueData collection, ISClusPropertyValueData.CreateItem, ISClusPropertyValueData::CreateItem, _wolf_cluspropertyvaluedata.createitem, mscs.cluspropertyvaluedata_createitem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
     in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent 
     versions.]
 
-Creates a <a href="https://msdn.microsoft.com/en-us/library/Aa369367(v=VS.85).aspx">data value</a> and adds it to to a 
+Creates a <a href="d_gly.htm">data value</a> and adds it to to a 
     <a href="https://msdn.microsoft.com/d95a90f6-2a70-428b-aff3-3be9e9e66071">ClusPropertyValueData</a> 
     collection.
 

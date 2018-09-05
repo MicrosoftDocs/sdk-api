@@ -4,10 +4,10 @@ title: ICertRequest::GetRequestId
 author: windows-sdk-content
 description: Gets the current internal request number for the request and subsequent certificate.
 old-location: security\icertrequest2_getrequestid.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: bb808834-7083-4b14-bce7-96b6fef242cc
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CCertRequest object [Security],GetRequestId method, GetRequestId, GetRequestId method [Security], GetRequestId method [Security],CCertRequest object, GetRequestId method [Security],ICertRequest interface, GetRequestId method [Security],ICertRequest2 interface, GetRequestId method [Security],ICertRequest3 interface, ICertRequest interface [Security],GetRequestId method, ICertRequest.GetRequestId, ICertRequest2 interface [Security],GetRequestId method, ICertRequest2::GetRequestId, ICertRequest3 interface [Security],GetRequestId method, ICertRequest3::GetRequestId, ICertRequest::GetRequestId, certcli/ICertRequest2::GetRequestId, certcli/ICertRequest3::GetRequestId, certcli/ICertRequest::GetRequestId, security.icertrequest2_getrequestid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,7 +78,7 @@ A pointer to the request ID value.
 
 Upon successful completion of this function, *<i>pRequestId</i> is set to the value of the request ID.
 
-If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the method fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <h3>VB</h3>
  The return value specifies the current internal request number for the request and subsequent certificate.
@@ -91,19 +91,19 @@ If the method fails, it returns an <b>HRESULT</b> value that indicates the error
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385040(v=VS.85).aspx">CCertRequest</a>
+<a href="https://msdn.microsoft.com/2f371aa6-492e-41ba-8455-66e9d5f5da44">CCertRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385040(v=VS.85).aspx">ICertRequest</a>
+<a href="https://msdn.microsoft.com/2f371aa6-492e-41ba-8455-66e9d5f5da44">ICertRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa385041(v=VS.85).aspx">ICertRequest2</a>
+<a href="https://msdn.microsoft.com/8587a682-27a5-4f26-b4bb-7088e4e5d8d3">ICertRequest2</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee373776(v=VS.85).aspx">ICertRequest3</a>
+<a href="https://msdn.microsoft.com/01de2ac0-4844-41a6-acef-e3e83b350393">ICertRequest3</a>
  
 
  

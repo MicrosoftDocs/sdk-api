@@ -7,7 +7,7 @@ old-location: shell\IShellIconOverlay_GetOverlayIconIndex.htm
 old-project: shell
 ms.assetid: ae7c55a1-8540-44d3-9793-2d6ac849ef60
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetOverlayIconIndex, GetOverlayIconIndex method [Windows Shell], GetOverlayIconIndex method [Windows Shell],IShellIconOverlay interface, IShellIconOverlay interface [Windows Shell],GetOverlayIconIndex method, IShellIconOverlay.GetOverlayIconIndex, IShellIconOverlay::GetOverlayIconIndex, _win32_IShellIconOverlay_GetOverlayIconIndex, shell.IShellIconOverlay_GetOverlayIconIndex, shlobj_core/IShellIconOverlay::GetOverlayIconIndex
 ms.prod: windows
 ms.technology: windows-sdk

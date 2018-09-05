@@ -162,15 +162,19 @@ This interface is available on the following platforms if the Windows Media Form
 
 The following code example shows how to get an attribute whose value is a byte array.
 
-
-```
-HRESULT AttributeGetBlob(IMFAttributes *pAttributes)
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT AttributeGetBlob(IMFAttributes *pAttributes)
 {
     HRESULT hr = S_OK;
     UINT32 cbBlob = 0;
     BYTE *pBlob = NULL;
 
-    hr = pAttributes->GetBlobSize(MY_ATTRIBUTE, &cbBlob);
+    hr = pAttributes-&gt;GetBlobSize(MY_ATTRIBUTE, &amp;cbBlob);
     
     if (SUCCEEDED(hr))
     {
@@ -183,7 +187,7 @@ HRESULT AttributeGetBlob(IMFAttributes *pAttributes)
 
     if (SUCCEEDED(hr))
     {
-        hr = pAttributes->GetBlob(MY_ATTRIBUTE, pBlob, cbBlob, &cbBlob);
+        hr = pAttributes-&gt;GetBlob(MY_ATTRIBUTE, pBlob, cbBlob, &amp;cbBlob);
     }
 
     if (pBlob)
@@ -191,10 +195,10 @@ HRESULT AttributeGetBlob(IMFAttributes *pAttributes)
         delete [] pBlob;
     }
     return hr;
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

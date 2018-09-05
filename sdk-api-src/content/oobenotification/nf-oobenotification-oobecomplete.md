@@ -7,7 +7,7 @@ old-location: windowssetupandmigration\oobecomplete.htm
 old-project: WNF
 ms.assetid: D543CD82-9985-49E2-A902-34CB5880B875
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: OOBEComplete, isOOBEComplete, isOOBEComplete function, oobenotification/isOOBEComplete, windowssetupandmigration.oobecomplete
 ms.prod: windows
 ms.technology: windows-sdk

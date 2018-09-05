@@ -7,7 +7,7 @@ old-location: wmi\cinstance_setbyte.htm
 old-project: WmiSdk
 ms.assetid: d6ecbada-4eb6-40ad-9e59-ba77fd3b883a
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: CInstance interface [Windows Management Instrumentation],SetByte method, CInstance.SetByte, CInstance::SetByte, SetByte, SetByte method [Windows Management Instrumentation], SetByte method [Windows Management Instrumentation],CInstance interface, _hmm_cinstance_setbyte, instance/CInstance::SetByte, wmi.cinstance_setbyte
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: base\checksummappedfile.htm
 old-project: debug
 ms.assetid: 01a99601-64de-412d-991e-b1708286ca8c
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: CheckSumMappedFile, CheckSumMappedFile function, _win32_checksummappedfile, base.checksummappedfile, imagehlp/CheckSumMappedFile
 ms.prod: windows
 ms.technology: windows-sdk

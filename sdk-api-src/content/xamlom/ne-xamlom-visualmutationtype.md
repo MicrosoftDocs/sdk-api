@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\visualmutationtype.htm
 old-project: xaml_diagnostics
 ms.assetid: 9DAABF59-AC88-4B14-A7F1-470D4C0879FF
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Add, Remove, VisualMutationType, VisualMutationType enumeration, xaml_diagnostics.visualmutationtype, xamlom/Add, xamlom/Remove, xamlom/VisualMutationType
 ms.prod: windows
 ms.technology: windows-sdk

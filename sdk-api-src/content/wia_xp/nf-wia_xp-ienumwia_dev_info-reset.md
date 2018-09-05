@@ -7,7 +7,7 @@ old-location: wia\_wia_IEnumWIA_DEV_INFO_Reset.htm
 old-project: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwia_dev_info\reset.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IEnumWIA_DEV_INFO interface [WIA],Reset method, IEnumWIA_DEV_INFO.Reset, IEnumWIA_DEV_INFO::Reset, Reset, Reset method [WIA], Reset method [WIA],IEnumWIA_DEV_INFO interface, _wia_IEnumWIA_DEV_INFO_Reset, wia._wia_IEnumWIA_DEV_INFO_Reset, wia_xp/IEnumWIA_DEV_INFO::Reset
 ms.prod: windows
 ms.technology: windows-sdk

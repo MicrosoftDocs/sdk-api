@@ -7,7 +7,7 @@ old-location: mscs\clus_disk_number_info.htm
 old-project: mscs
 ms.assetid: FF13CF5E-67EA-41B8-986C-B90691F82BF1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCLUS_DISK_NUMBER_INFO, CLUS_DISK_NUMBER_INFO, CLUS_DISK_NUMBER_INFO structure [Failover Cluster], PCLUS_DISK_NUMBER_INFO, PCLUS_DISK_NUMBER_INFO structure pointer [Failover Cluster], _CLUS_DISK_NUMBER_INFO, clusapi/CLUS_DISK_NUMBER_INFO, clusapi/PCLUS_DISK_NUMBER_INFO, mscs.clus_disk_number_info"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -74,7 +74,7 @@ The size of the disk sectors, in bytes.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369339(v=VS.85).aspx">Data structures</a>
+<a href="https://msdn.microsoft.com/e3ad7c34-0c8a-4f03-8e5c-b57802c493f0">Data structures</a>
  
 
  

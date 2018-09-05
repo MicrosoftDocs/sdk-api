@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFont_GetMetrics.htm
 old-project: DirectWrite
 ms.assetid: 0634d683-2c6e-40cb-94d9-2cf128fc3421
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetMetrics, GetMetrics method [Direct Write], GetMetrics method [Direct Write],IDWriteFont interface, IDWriteFont interface [Direct Write],GetMetrics method, IDWriteFont.GetMetrics, IDWriteFont::GetMetrics, directwrite.IDWriteFont_GetMetrics, dwrite/IDWriteFont::GetMetrics
 ms.prod: windows
 ms.technology: windows-sdk

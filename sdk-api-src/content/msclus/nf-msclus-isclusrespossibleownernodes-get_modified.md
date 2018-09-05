@@ -7,7 +7,7 @@ old-location: mscs\clusrespossibleownernodes_modified.htm
 old-project: mscs
 ms.assetid: 5aceabdb-3c11-4e3b-8c8f-04d814ea014c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusResPossibleOwnerNodes class [Failover Cluster],Modified property, ClusResPossibleOwnerNodes.Modified, ISClusResPossibleOwnerNodes.get_Modified, ISClusResPossibleOwnerNodes::get_Modified, Modified property [Failover Cluster], Modified property [Failover Cluster],ClusResPossibleOwnerNodes class, _wolf_clusrespossibleownernodes.modified, get_Modified, mscs.clusrespossibleownernodes_modified
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mscs\cluster_resourcetypes.htm
 old-project: mscs
 ms.assetid: 73a9ca85-0da2-4978-965a-47bdee4ded6c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Cluster object [Failover Cluster],ResourceTypes property, Cluster.ResourceTypes, ISCluster.get_ResourceTypes, ISCluster::get_ResourceTypes, ResourceTypes property [Failover Cluster], ResourceTypes property [Failover Cluster],Cluster object, _wolf_cluster.resourcetypes, get_ResourceTypes, mscs.cluster_resourcetypes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ req.product: GDI+ 1.1
 Returns a 
     <a href="https://msdn.microsoft.com/614d3ed6-255f-46ed-9354-7a73a21cac87">ClusResTypes</a> collection providing access to 
     the <a href="https://msdn.microsoft.com/d02e4f51-7b86-451a-a51c-ea850ae464d1">resource types</a> in a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+    <a href="c_gly.htm">cluster</a>.
 
 This property is read-only.
 

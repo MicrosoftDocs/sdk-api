@@ -131,18 +131,22 @@ This interface is available on the following platforms if the Windows Media Form
 
 The following example copies an attribute from one attribute store to another.
 
-
-```cpp
-HRESULT CopyAttribute(IMFAttributes *pFrom, IMFAttributes *pTo, REFGUID guidKey)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT CopyAttribute(IMFAttributes *pFrom, IMFAttributes *pTo, REFGUID guidKey)
 {
     PROPVARIANT val;
 
-    HRESULT hr = pFrom->GetItem(guidKey, &val);
+    HRESULT hr = pFrom-&gt;GetItem(guidKey, &amp;val);
 
     if (SUCCEEDED(hr))
     {
-        hr = pTo->SetItem(guidKey, val);
-        PropVariantClear(&val);
+        hr = pTo-&gt;SetItem(guidKey, val);
+        PropVariantClear(&amp;val);
     }
     else if (hr == MF_E_ATTRIBUTENOTFOUND)
     {
@@ -150,10 +154,10 @@ HRESULT CopyAttribute(IMFAttributes *pFrom, IMFAttributes *pTo, REFGUID guidKey)
     }
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -4,10 +4,10 @@ title: IWinSATInitiateEvents
 author: windows-sdk-content
 description: Implement this interface to receive notifications when an assessment is complete or making progress.
 old-location: winsat\iwinsatinitiateevents.htm
-old-project: winsat
+old-project: WinSAT
 ms.assetid: f6ab3284-a76f-4148-ae40-04aa782ea9a7
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IWinSATInitiateEvents, IWinSATInitiateEvents interface [WinSAT], IWinSATInitiateEvents interface [WinSAT],described, winsat.iwinsatinitiateevents, winsatcominterfacei/IWinSATInitiateEvents
 ms.prod: windows
 ms.technology: windows-sdk

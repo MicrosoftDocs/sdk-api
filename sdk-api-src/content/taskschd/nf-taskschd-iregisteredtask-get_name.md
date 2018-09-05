@@ -4,10 +4,10 @@ title: IRegisteredTask::get_Name
 author: windows-sdk-content
 description: Gets the name of the registered task.
 old-location: taskschd\iregisteredtask_name.htm
-old-project: taskschd
+old-project: TaskSchd
 ms.assetid: 17aff717-10dd-43ac-9d14-6c07831d4c18
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IRegisteredTask interface [Task Scheduler],Name property, IRegisteredTask.Name, IRegisteredTask.get_Name, IRegisteredTask::Name, IRegisteredTask::get_Name, Name property [Task Scheduler], Name property [Task Scheduler],IRegisteredTask interface, get_Name, taskschd.iregisteredtask_name, taskschd/IRegisteredTask::Name, taskschd/IRegisteredTask::get_Name
 ms.prod: windows
 ms.technology: windows-sdk

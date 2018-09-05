@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_ui_controldock.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_controldock.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: UI_CONTROLDOCK, UI_CONTROLDOCK enumeration [Windows Ribbon], UI_CONTROLDOCK_BOTTOM, UI_CONTROLDOCK_TOP, scenicintent_UI_CONTROLDOCK, uiribbon/UI_CONTROLDOCK, uiribbon/UI_CONTROLDOCK_BOTTOM, uiribbon/UI_CONTROLDOCK_TOP, windowsribbon.windowsribbon_ui_controldock
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,21 +64,21 @@ Specifies values that identify the dock state of the Quick Access Toolbar (QAT).
 
 The QAT is docked in the nonclient area of the Ribbon host application, as shown in the following screen shot.
 
-<img alt="Screen shot showing the Quick Access Toolbar docked above the Ribbon in the nonclient area." src="./images/QAT_DockTop.png"/>
+<img alt="Screen shot showing the Quick Access Toolbar docked above the Ribbon in the nonclient area." src="images/Properties/QAT_DockTop.png"/>
 
 
 ### -field UI_CONTROLDOCK_BOTTOM
 
 The QAT is docked as a visually integral band below the Ribbon, as shown in the following screen shot.
 
-<img alt="Screen shot showing the Quick Access Toolbar docked below the Ribbon." src="./images/QAT_DockBottom.png"/>
+<img alt="Screen shot showing the Quick Access Toolbar docked below the Ribbon." src="images/Properties/QAT_DockBottom.png"/>
 
 
 ## -remarks
 
 
 
-The QAT dock position is based on the <b>UI_CONTROLDOCK</b> value in <a href="https://msdn.microsoft.com/en-us/library/Dd371199(v=VS.85).aspx">UI_PKEY_QuickAccessToolbarDock</a>.
+The QAT dock position is based on the <b>UI_CONTROLDOCK</b> value in <a href="https://msdn.microsoft.com/77f7b0a8-f276-4501-9d53-fb5a3185edcc">UI_PKEY_QuickAccessToolbarDock</a>.
 
 
 
@@ -88,11 +88,11 @@ The QAT dock position is based on the <b>UI_CONTROLDOCK</b> value in <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371540(v=VS.85).aspx">Constants and Enumerations</a>
+<a href="https://msdn.microsoft.com/8499a096-aac3-4af3-a4c9-eebf53698744">Constants and Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371199(v=VS.85).aspx">UI_PKEY_QuickAccessToolbarDock</a>
+<a href="https://msdn.microsoft.com/77f7b0a8-f276-4501-9d53-fb5a3185edcc">UI_PKEY_QuickAccessToolbarDock</a>
  
 
  

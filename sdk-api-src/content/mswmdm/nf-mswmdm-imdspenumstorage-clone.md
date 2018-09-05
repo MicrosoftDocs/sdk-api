@@ -7,7 +7,7 @@ old-location: wmdm\imdspenumstorage_clone.htm
 old-project: WMDM
 ms.assetid: 8621c5fa-7739-4f90-b856-76880f8dd07b
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Clone, Clone method [windows Media Device Manager], Clone method [windows Media Device Manager],IMDSPEnumStorage interface, IMDSPEnumStorage interface [windows Media Device Manager],Clone method, IMDSPEnumStorage.Clone, IMDSPEnumStorage::Clone, IMDSPEnumStorageClone, mswmdm/IMDSPEnumStorage::Clone, wmdm.imdspenumstorage_clone
 ms.prod: windows
 ms.technology: windows-sdk

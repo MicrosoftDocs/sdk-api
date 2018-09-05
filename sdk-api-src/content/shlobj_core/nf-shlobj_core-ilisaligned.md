@@ -7,7 +7,7 @@ old-location: shell\ILIsAligned.htm
 old-project: shell
 ms.assetid: ef6607c6-3ea0-4b45-b443-dbd1359ab873
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ILIsAligned, ILIsAligned function [Windows Shell], _shell_ILIsAligned, shell.ILIsAligned, shlobj_core/ILIsAligned
 ms.prod: windows
 ms.technology: windows-sdk

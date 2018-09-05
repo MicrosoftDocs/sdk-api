@@ -7,7 +7,7 @@ old-location: setup\dependency_version.htm
 old-project: msi
 ms.assetid: 784fb75c-2ed2-411a-b441-9c81297b487d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Dependency object,Version property, IMsmDependency interface,Version property, IMsmDependency.get_Version, IMsmDependency::Version, IMsmDependency::get_Version, Version property, Version property,IMsmDependency interface, _msi_version_property_dependency_object_, get_Version, setup.dependency_version
 ms.prod: windows
 ms.technology: windows-sdk

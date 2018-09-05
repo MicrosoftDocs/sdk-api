@@ -4,10 +4,10 @@ title: RpcErrorStartEnumeration function
 author: windows-sdk-content
 description: The RpcErrorStartEnumeration function begins enumeration of extended error information.
 old-location: rpc\rpcerrorstartenumeration.htm
-old-project: rpc
+old-project: Rpc
 ms.assetid: 56c61902-4b34-4d92-b352-cd1837754aa3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcErrorStartEnumeration, RpcErrorStartEnumeration function [RPC], _rpc_rpcerrorstartenumeration, rpc.rpcerrorstartenumeration, rpcasync/RpcErrorStartEnumeration
 ms.prod: windows
 ms.technology: windows-sdk

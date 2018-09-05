@@ -70,7 +70,7 @@ Null-terminated wide-character string that contains the output file name.
 
 ### -param pContentInfo
 
-A pointer to the <a href="https://msdn.microsoft.com/9f490e6a-f378-45c1-a69d-985c6e884358">IMFASFContentInfo</a> interface of an initialized <a href="https://msdn.microsoft.com/en-us/library/Ee663575(v=VS.85).aspx">ASF Header Object</a> object. Use this interface to configure the ASF media sink.
+A pointer to the <a href="https://msdn.microsoft.com/9f490e6a-f378-45c1-a69d-985c6e884358">IMFASFContentInfo</a> interface of an initialized <a href="asf_file_structure.htm">ASF Header Object</a> object. Use this interface to configure the ASF media sink.
 
 
 ### -param ppIActivate

@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFontList_GetFont.htm
 old-project: DirectWrite
 ms.assetid: b2262707-b5d5-4697-9634-72fd2a72000a
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetFont, GetFont method [Direct Write], GetFont method [Direct Write],IDWriteFontList interface, IDWriteFontList interface [Direct Write],GetFont method, IDWriteFontList.GetFont, IDWriteFontList::GetFont, directwrite.IDWriteFontList_GetFont, dwrite/IDWriteFontList::GetFont
 ms.prod: windows
 ms.technology: windows-sdk

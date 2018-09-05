@@ -87,7 +87,7 @@ Depending on the satellite installation, DiSEqC commands might be required. Howe
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693308(v=VS.85).aspx">IBDA_DiseqCommand</a>
+<a href="https://msdn.microsoft.com/0148a32d-b131-46ba-bbf0-82e2cf9c7d86">IBDA_DiseqCommand</a>
  
 
  

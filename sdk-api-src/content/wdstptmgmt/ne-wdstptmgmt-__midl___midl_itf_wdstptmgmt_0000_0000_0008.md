@@ -4,10 +4,10 @@ title: "__MIDL___MIDL_itf_wdstptmgmt_0000_0000_0008"
 author: windows-sdk-content
 description: Defines settings that are used by WDS transport protocols to optimize data transfer on the network.
 old-location: wds\wdstransport_network_profile_type.htm
-old-project: wds
+old-project: Wds
 ms.assetid: 2fa0d8d8-5ced-402b-8452-bf2e2aa4b19f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PWDSTRANSPORT_NETWORK_PROFILE_TYPE, WDSTRANSPORT_NETWORK_PROFILE_TYPE, WDSTRANSPORT_NETWORK_PROFILE_TYPE enumeration [Windows Deployment Services], WdsTptNetworkProfile100Mbps, WdsTptNetworkProfile10Mbps, WdsTptNetworkProfile1Gbps, WdsTptNetworkProfileCustom, WdsTptNetworkProfileUnknown, __MIDL___MIDL_itf_wdstptmgmt_0000_0000_0008, wds.wdstransport_network_profile_type, wdstptmgmt/WDSTRANSPORT_NETWORK_PROFILE_TYPE, wdstptmgmt/WdsTptNetworkProfile100Mbps, wdstptmgmt/WdsTptNetworkProfile10Mbps, wdstptmgmt/WdsTptNetworkProfile1Gbps, wdstptmgmt/WdsTptNetworkProfileCustom, wdstptmgmt/WdsTptNetworkProfileUnknown"
 ms.prod: windows
 ms.technology: windows-sdk

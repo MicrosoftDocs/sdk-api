@@ -7,7 +7,7 @@ old-location: netmgmt\netuseradd.htm
 old-project: netmgmt
 ms.assetid: b5ca5f76-d40b-4abf-925a-0de54fc476e4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: 1, 2, 3, 4, NetUserAdd, NetUserAdd function [Network Management], _win32_netuseradd, lmaccess/NetUserAdd, netmgmt.netuseradd
 ms.prod: windows
 ms.technology: windows-sdk
@@ -323,16 +323,20 @@ The following code sample demonstrates how to add a user account and assign a pr
 <a href="https://msdn.microsoft.com/f17a1aef-45f1-461f-975d-75221d08277c">USER_INFO_1</a> structure and calls 
 <b>NetUserAdd</b>, specifying information level 1.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 #pragma comment(lib, "netapi32.lib")
 
-#include <stdio.h>
-#include <windows.h> 
-#include <lm.h>
+#include &lt;stdio.h&gt;
+#include &lt;windows.h&gt; 
+#include &lt;lm.h&gt;
 
 int wmain(int argc, wchar_t *argv[])
 {
@@ -364,8 +368,8 @@ int wmain(int argc, wchar_t *argv[])
    //
    nStatus = NetUserAdd(argv[1],
                         dwLevel,
-                        (LPBYTE)&ui,
-                        &dwError);
+                        (LPBYTE)&amp;ui,
+                        &amp;dwError);
    //
    // If the call succeeds, inform the user.
    //
@@ -380,10 +384,10 @@ int wmain(int argc, wchar_t *argv[])
 
    return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: mscs\clusrestypes_createitem.htm
 old-project: mscs
 ms.assetid: f7fc79b1-1803-4060-bf1f-39a253bccab6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusResTypes collection [Failover Cluster],CreateItem method, ClusResTypes.CreateItem, CreateItem, CreateItem method [Failover Cluster], CreateItem method [Failover Cluster],ClusResTypes collection, ISClusResTypes.CreateItem, ISClusResTypes::CreateItem, _wolf_clusrestypes.createitem, mscs.clusrestypes_createitem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -59,7 +59,7 @@ req.product: GDI+ 1.1
 
 Creates a new 
     <a href="https://msdn.microsoft.com/d02e4f51-7b86-451a-a51c-ea850ae464d1">resource type</a> in the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> and adds it to a 
+    <a href="c_gly.htm">cluster</a> and adds it to a 
     <a href="https://msdn.microsoft.com/614d3ed6-255f-46ed-9354-7a73a21cac87">ClusResTypes</a> collection.
 
 

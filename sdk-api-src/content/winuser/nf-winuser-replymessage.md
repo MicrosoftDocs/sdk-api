@@ -7,7 +7,7 @@ old-location: winmsg\replymessage.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\replymessage.htm
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: ReplyMessage, ReplyMessage function [Windows and Messages], _win32_ReplyMessage, _win32_replymessage_cpp, winmsg.replymessage, winui._win32_replymessage, winuser/ReplyMessage
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.product: Windows XP Professional x64 Edition or 64-bit editions of     Wind
 ## -description
 
 
-Replies to a message sent from another thread by the <a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a> function.
+Replies to a message sent from another thread by the <a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a> function.
 
 
 ## -parameters
@@ -87,14 +87,14 @@ If the calling thread was not processing a message sent from another thread or p
 
 
 
-By calling this function, the window procedure that receives the message allows the thread that called <a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a> to continue to run as though the thread receiving the message had returned control. The thread that calls the <b>ReplyMessage</b> function also continues to run. 
+By calling this function, the window procedure that receives the message allows the thread that called <a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a> to continue to run as though the thread receiving the message had returned control. The thread that calls the <b>ReplyMessage</b> function also continues to run. 
 
-If the message was not sent through <a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a> or if the message was sent by the same thread, <b>ReplyMessage</b> has no effect. 
+If the message was not sent through <a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a> or if the message was sent by the same thread, <b>ReplyMessage</b> has no effect. 
 
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644928(v=VS.85).aspx">Sending a Message</a>.
+For an example, see <a href="using_messages_and_message_queues.htm">Sending a Message</a>.
 
 <div class="code"></div>
 
@@ -109,11 +109,11 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644928(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644941(v=VS.85).aspx">InSendMessage</a>
+<a href="https://msdn.microsoft.com/adca4de0-fba5-4a1e-952f-d65bdcca5b0c">InSendMessage</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632590(v=VS.85).aspx">Messages and Message Queues</a>
+<a href="https://msdn.microsoft.com/885bb607-3ec0-4e24-9f55-fbdfb1c538a1">Messages and Message Queues</a>
 
 
 
@@ -121,7 +121,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms644928(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms644950(v=VS.85).aspx">SendMessage</a>
+<a href="https://msdn.microsoft.com/c069c542-f854-41ff-a523-90f3855e2277">SendMessage</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: rdc\similaritydumpdata.htm
 old-project: Rdc
 ms.assetid: 0200008c-5664-445f-ae65-0eb004856a4c
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: SimilarityDumpData, SimilarityDumpData structure [Remote Differential Compression], __MIDL___MIDL_itf_msrdc_0000_0000_0014, fs.similaritydumpdata, msrdc/SimilarityDumpData, rdc.similaritydumpdata
 ms.prod: windows
 ms.technology: windows-sdk

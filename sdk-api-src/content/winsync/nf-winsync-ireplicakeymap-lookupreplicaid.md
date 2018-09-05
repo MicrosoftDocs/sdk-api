@@ -7,7 +7,7 @@ old-location: winsync\ireplicakeymap_lookupreplicaid.htm
 old-project: winsync
 ms.assetid: d76b5dbc-9ca1-4ba4-bdc2-99d31f1c9c8e
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IReplicaKeyMap interface [Windows Sync],LookupReplicaId method, IReplicaKeyMap.LookupReplicaId, IReplicaKeyMap::LookupReplicaId, LookupReplicaId, LookupReplicaId method [Windows Sync], LookupReplicaId method [Windows Sync],IReplicaKeyMap interface, winsync.ireplicakeymap_lookupreplicaid, winsync/IReplicaKeyMap::LookupReplicaId
 ms.prod: windows
 ms.technology: windows-sdk

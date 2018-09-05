@@ -7,7 +7,7 @@ old-location: shell\IsOS.htm
 old-project: shell
 ms.assetid: 827a76bc-3581-4f1c-8095-8e2fd30dfdbc
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IsOS, IsOS function [Windows Shell], _win32_IsOS, shell.IsOS, shlwapi/IsOS
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

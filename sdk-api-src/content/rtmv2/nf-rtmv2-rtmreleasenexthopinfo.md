@@ -4,10 +4,10 @@ title: RtmReleaseNextHopInfo function
 author: windows-sdk-content
 description: The RtmReleaseNextHopInfo function releases a next-hop structure.
 old-location: rras\rtmreleasenexthopinfo.htm
-old-project: rras
+old-project: RRAS
 ms.assetid: 1c5a9b72-8605-4c54-bc44-b7a1a4e1b367
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RtmReleaseNextHopInfo, RtmReleaseNextHopInfo function [RAS], _rtmv2ref_rtmreleasenexthopinfo, rras.rtmreleasenexthopinfo, rtmv2/RtmReleaseNextHopInfo
 ms.prod: windows
 ms.technology: windows-sdk

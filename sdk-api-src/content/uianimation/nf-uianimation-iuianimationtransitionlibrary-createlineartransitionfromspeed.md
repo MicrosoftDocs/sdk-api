@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationtransitionlibrary_createlineartransitionfr
 old-project: UIAnimation
 ms.assetid: 0f9ce1c0-8681-456d-8ab5-76214dc529ba
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CreateLinearTransitionFromSpeed, CreateLinearTransitionFromSpeed method [Windows Animation], CreateLinearTransitionFromSpeed method [Windows Animation],IUIAnimationTransitionLibrary interface, IUIAnimationTransitionLibrary interface [Windows Animation],CreateLinearTransitionFromSpeed method, IUIAnimationTransitionLibrary.CreateLinearTransitionFromSpeed, IUIAnimationTransitionLibrary::CreateLinearTransitionFromSpeed, uianimation.iuianimationtransitionlibrary_createlineartransitionfromspeed, uianimation/IUIAnimationTransitionLibrary::CreateLinearTransitionFromSpeed
 ms.prod: windows
 ms.technology: windows-sdk

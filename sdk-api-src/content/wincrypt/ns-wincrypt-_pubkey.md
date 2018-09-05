@@ -4,10 +4,10 @@ title: "_PUBKEY"
 author: windows-sdk-content
 description: Contains information specific to the particular Diffie-Hellman public key contained in the key BLOB.
 old-location: security\dhpubkey.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 12fb2e81-796d-4501-91b5-ee572a3293bb
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: DHPUBKEY, DHPUBKEY structure [Security], DSSPUBKEY, KEAPUBKEY, TEKPUBKEY, _PUBKEY, _crypto2_dhpubkey, security.dhpubkey, wincrypt/DHPUBKEY
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,6 +73,15 @@ Notice that the hexadecimal values are simply an <a href="https://msdn.microsoft
 ### -field bitlen
 
 Number of bits in the prime modulus, P.
+
+
+## -remarks
+
+
+
+<b>DSSPUBKEY</b> is an alias for this structure.
+
+
 
 
 ## -see-also

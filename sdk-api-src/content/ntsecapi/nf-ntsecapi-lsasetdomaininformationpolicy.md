@@ -4,10 +4,10 @@ title: LsaSetDomainInformationPolicy function
 author: windows-sdk-content
 description: Sets domain information to the Policyobject.
 old-location: security\lsasetdomaininformationpolicy.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 77af6fdc-a52e-476c-9de2-36ee48133a87
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: LsaSetDomainInformationPolicy, LsaSetDomainInformationPolicy function [Security], PolicyDomainEfsInformation, PolicyDomainKerberosTicketInformation, ntsecapi/LsaSetDomainInformationPolicy, security.lsasetdomaininformationpolicy
 ms.prod: windows
 ms.technology: windows-sdk

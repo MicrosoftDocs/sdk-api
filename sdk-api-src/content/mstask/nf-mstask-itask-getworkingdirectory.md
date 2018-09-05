@@ -4,10 +4,10 @@ title: ITask::GetWorkingDirectory
 author: windows-sdk-content
 description: This method retrieves the task'sworking directory.
 old-location: taskschd\itask_getworkingdirectory.htm
-old-project: taskschd
+old-project: TaskSchd
 ms.assetid: 737259f6-63d3-43f1-83a7-a10c95aff0e1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetWorkingDirectory, GetWorkingDirectory method [Task Scheduler], GetWorkingDirectory method [Task Scheduler],ITask interface, ITask interface [Task Scheduler],GetWorkingDirectory method, ITask.GetWorkingDirectory, ITask::GetWorkingDirectory, _msb_itask_getworkingdirectory, mstask/ITask::GetWorkingDirectory, taskschd.itask_getworkingdirectory
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.product: Rights Management Services client 1.0 or later
 
 <p class="CCE_Message">[[This API may be altered or unavailable in subsequent versions of the operating system or product. Please use the <a href="https://msdn.microsoft.com/67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e">Task Scheduler 2.0 Interfaces</a> instead.] ]
 
-This method retrieves the <a href="https://msdn.microsoft.com/en-us/library/Aa382533(v=VS.85).aspx">task's</a><a href="https://msdn.microsoft.com/en-us/library/Aa384011(v=VS.85).aspx">working directory</a>.
+This method retrieves the <a href="t.htm">task's</a><a href="w.htm">working directory</a>.
 
 
 ## -parameters

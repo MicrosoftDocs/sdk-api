@@ -7,7 +7,7 @@ old-location: winsync\irequestfilteredsync.htm
 old-project: winsync
 ms.assetid: e4b76bb3-d572-4441-94db-7088e881ede2
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IRequestFilteredSync, IRequestFilteredSync interface [Windows Sync], IRequestFilteredSync interface [Windows Sync],described, winsync.irequestfilteredsync, winsync/IRequestFilteredSync
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\Shell_MergeMenus.htm
 old-project: shell
 ms.assetid: f9e005fd-b1f2-4a5f-ad36-9c44998dc4eb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: MM_ADDSEPARATOR, MM_DONTREMOVESEPS, MM_SUBMENUSHAVEIDS, Shell_MergeMenus, Shell_MergeMenus function [Windows Shell], _win32_Shell_MergeMenus, shell.Shell_MergeMenus, shlobj_core/Shell_MergeMenus
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,7 +89,7 @@ The point in <i>hmDst</i> after which the entries in <i>hmSrc</i> are inserted.
 
 Type: <b>UINT</b>
 
-This number is added to each menu's ID to give an adjusted ID. Set to <code>0</code> for no adjustment. The value for <i>uIDAdjust</i> would typically be the number of items in <i>hmDst</i>. This number can be obtained using the <a href="https://msdn.microsoft.com/en-us/library/ms647978(v=VS.85).aspx">GetMenuItemCount</a>.
+This number is added to each menu's ID to give an adjusted ID. Set to <code>0</code> for no adjustment. The value for <i>uIDAdjust</i> would typically be the number of items in <i>hmDst</i>. This number can be obtained using the <a href="https://msdn.microsoft.com/6a1d542e-b955-48aa-a3b8-e348fefd6f14">GetMenuItemCount</a>.
 
 
 ### -param uIDAdjustMax

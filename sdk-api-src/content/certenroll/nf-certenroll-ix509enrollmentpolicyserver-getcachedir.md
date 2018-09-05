@@ -4,10 +4,10 @@ title: IX509EnrollmentPolicyServer::GetCacheDir
 author: windows-sdk-content
 description: Retrieves the name of the directory on the certificate enrollment policy (CEP) server that contains the policy cache file.
 old-location: security\ix509enrollmentpolicyserver_getcachedir.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: 72b0b6f0-cc4f-4e03-9b6c-7bd4c12cf0a3
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetCacheDir, GetCacheDir method [Security], GetCacheDir method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetCacheDir method, IX509EnrollmentPolicyServer.GetCacheDir, IX509EnrollmentPolicyServer::GetCacheDir, certenroll/IX509EnrollmentPolicyServer::GetCacheDir, security.ix509enrollmentpolicyserver_getcachedir
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ Pointer to a <b>BSTR</b> that receives the directory name.
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -106,7 +106,7 @@ The <i>pValue</i> parameter must not be <b>NULL</b>.
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/en-us/library/Ee351692(v=VS.85).aspx">IX509EnrollmentPolicyServer</a> has not been initialized.
+The <a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a> has not been initialized.
 
 </td>
 </tr>
@@ -121,7 +121,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/Ee351692(v=VS.85).aspx">IX
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351692(v=VS.85).aspx">IX509EnrollmentPolicyServer</a>
+<a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a>
  
 
  

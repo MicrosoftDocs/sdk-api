@@ -7,7 +7,7 @@ old-location: wsb\wsb_ob_status_entry.htm
 old-project: wsb
 ms.assetid: BFC13B54-60F3-43A1-B464-D09DD96F57FA
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: WSB_OB_STATUS_ENTRY, WSB_OB_STATUS_ENTRY structure [Windows Server Backup], _WSB_OB_STATUS_ENTRY, wsb.wsb_ob_status_entry, wsbonline/WSB_OB_STATUS_ENTRY
 ms.prod: windows
 ms.technology: windows-sdk

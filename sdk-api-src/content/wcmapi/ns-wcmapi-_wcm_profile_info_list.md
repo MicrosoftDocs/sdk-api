@@ -7,7 +7,7 @@ old-location: wcm\wcm_profile_info_list.htm
 old-project: wcm
 ms.assetid: 73ddb610-233a-470b-900d-ae62a1e7121a
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: "*PWCM_PROFILE_INFO_LIST, PWCM_PROFILE_INFO_LIST, PWCM_PROFILE_INFO_LIST structure pointer [Windows Connection Manager], WCM_PROFILE_INFO_LIST, WCM_PROFILE_INFO_LIST structure [Windows Connection Manager], _WCM_PROFILE_INFO_LIST, wcm.wcm_profile_info_list, wcmapi/PWCM_PROFILE_INFO_LIST, wcmapi/WCM_PROFILE_INFO_LIST"
 ms.prod: windows
 ms.technology: windows-sdk

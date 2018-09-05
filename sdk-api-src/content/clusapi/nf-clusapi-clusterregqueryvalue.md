@@ -7,7 +7,7 @@ old-location: mscs\clusterregqueryvalue.htm
 old-project: mscs
 ms.assetid: 78ea27da-2b95-46df-b01e-4a3717276859
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusterRegQueryValue, ClusterRegQueryValue function [Failover Cluster], REG_BINARY, REG_DWORD, REG_DWORD_BIG_ENDIAN, REG_EXPAND_SZ, REG_MULTI_SZ, REG_NONE, REG_QWORD, REG_SZ, _wolf_clusterregqueryvalue, clusapi/ClusterRegQueryValue, mscs.clusterregqueryvalue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -55,7 +55,7 @@ req.irql:
 
 Returns the 
     name, type, and data components associated with a value for an open 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369094(v=VS.85).aspx">cluster database</a> key.
+    <a href="https://msdn.microsoft.com/d2c1a9c0-7e87-4a3c-9a1a-7f1756f97804">cluster database</a> key.
 
 
 ## -parameters
@@ -182,7 +182,7 @@ If <i>lpdwValueType</i> is set to <b>REG_SZ</b>,
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa369004(v=VS.85).aspx">ClusterRegOpenKey</a>
+<a href="https://msdn.microsoft.com/f2cf204e-d02d-40b9-86d7-0262b8cc4db1">ClusterRegOpenKey</a>
  
 
  

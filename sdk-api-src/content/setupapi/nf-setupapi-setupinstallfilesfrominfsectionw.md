@@ -7,7 +7,7 @@ old-location: setup\setupinstallfilesfrominfsection.htm
 old-project: SetupApi
 ms.assetid: 9834a3b0-f8f5-4e4d-92b2-d3c5a4939a41
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: SetupInstallFilesFromInfSection, SetupInstallFilesFromInfSection function [Setup API], SetupInstallFilesFromInfSectionA, SetupInstallFilesFromInfSectionW, _setupapi_setupinstallfilesfrominfsection, setup.setupinstallfilesfrominfsection, setupapi/SetupInstallFilesFromInfSection, setupapi/SetupInstallFilesFromInfSectionA, setupapi/SetupInstallFilesFromInfSectionW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -134,7 +134,7 @@ If the source file is not a newer or equal version, the function notifies the ca
 
 
 The file version information that is used during version checks is specified in the <b>dwFileVersionMS </b>and <b>dwFileVersionLS</b> members of a 
-<a href="https://msdn.microsoft.com/en-us/library/ms646997(v=VS.85).aspx">VS_FIXEDFILEINFO</a> structure, as filled in by the Win32 version functions.
+<a href="_win32_vs_fixedfileinfo_str_cpp">VS_FIXEDFILEINFO</a> structure, as filled in by the Win32 version functions.
 
  If one of the files does not have version resources, or if they have identical version information, the source file is considered newer.
 
@@ -284,7 +284,7 @@ If the source file is not a newer or equal version, the function notifies the ca
 
 
 The file version information that is used during version checks is specified in the <b>dwFileVersionMS </b>and <b>dwFileVersionLS</b> members of a 
-<a href="https://msdn.microsoft.com/en-us/library/ms646997(v=VS.85).aspx">VS_FIXEDFILEINFO</a> structure, as filled in by the Win32 version functions.
+<a href="_win32_vs_fixedfileinfo_str_cpp">VS_FIXEDFILEINFO</a> structure, as filled in by the Win32 version functions.
 
  If one of the files does not have version resources, or if they have identical version information, the source file is considered newer.
 

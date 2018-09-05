@@ -172,12 +172,12 @@ Receives the active video encoder method.
 
 ### -param SignalSourceID [out]
 
-Receives the identifier of the signal source. The value is an auxiliary connector ID, as returned by the <a href="https://msdn.microsoft.com/en-us/library/Dd693259(v=VS.85).aspx">IBDA_AUX::EnumCapability</a>  method.
+Receives the identifier of the signal source. The value is an auxiliary connector ID, as returned by the <a href="https://msdn.microsoft.com/5f04c080-81c9-4aa9-ba54-5e16a538f10a">IBDA_AUX::EnumCapability</a>  method.
 
 
 ### -param SignalFormat [out]
 
-Receives a value from the <a href="https://msdn.microsoft.com/en-us/library/Dd373515(v=VS.85).aspx">AnalogVideoStandard</a> enumeration. This value specifies the analog video standard that is received on the auxiliary input.
+Receives a value from the <a href="https://msdn.microsoft.com/6760a40c-550c-4774-a5d1-d7e2a6aa6096">AnalogVideoStandard</a> enumeration. This value specifies the analog video standard that is received on the auxiliary input.
 
 
 ### -param SignalLock [out]
@@ -209,7 +209,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd693323(v=VS.85).aspx">IBDA_Encoder</a>
+<a href="https://msdn.microsoft.com/43ed9d91-c769-4fb3-bcd9-e5239ec5d9c7">IBDA_Encoder</a>
  
 
  

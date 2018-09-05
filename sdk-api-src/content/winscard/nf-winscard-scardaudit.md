@@ -4,10 +4,10 @@ title: SCardAudit function
 author: windows-sdk-content
 description: Writes event messages to the Windows application log Microsoft-Windows-SmartCard-Audit/Authentication.
 old-location: security\scardaudit.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 5D30DC71-C69A-403B-8658-99C80C268E90
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: SCARD_AUDIT_CHV_FAILURE, SCARD_AUDIT_CHV_SUCCESS, SCardAudit, SCardAudit function [Security], security.scardaudit, winscard/SCardAudit
 ms.prod: windows
 ms.technology: windows-sdk
@@ -130,7 +130,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -149,9 +149,13 @@ This function is not redirected. An application calling the <b>SCardAudit</b> fu
 
 #### Examples
 
-
-```cpp
-// hContext was set by a previous call to SCardEstablishContext.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// hContext was set by a previous call to SCardEstablishContext.
 lReturn = SCardAudit (hContext,
                       SCARD_AUDIT_CHV_SUCCESS);
 
@@ -160,9 +164,9 @@ if ( SCARD_S_SUCCESS != lReturn )
     printf("Failed SCardAudit - %x\n", lReturn);
     // Take appropriate action
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontfallbackbuilder_createfontfallback.htm
 old-project: DirectWrite
 ms.assetid: 933CB690-879E-480E-A0C6-179FA84187F5
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: CreateFontFallback, CreateFontFallback method [Direct Write], CreateFontFallback method [Direct Write],IDWriteFontFallbackBuilder interface, IDWriteFontFallbackBuilder interface [Direct Write],CreateFontFallback method, IDWriteFontFallbackBuilder.CreateFontFallback, IDWriteFontFallbackBuilder::CreateFontFallback, directwrite.idwritefontfallbackbuilder_createfontfallback, dwrite_2/IDWriteFontFallbackBuilder::CreateFontFallback
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: RpcNsMgmtSetExpAge function
 author: windows-sdk-content
 description: The RpcNsMgmtSetExpAge function modifies the application's global expiration age for local copies of name-service data.
 old-location: rpc\rpcnsmgmtsetexpage.htm
-old-project: rpc
+old-project: Rpc
 ms.assetid: 9433e8c3-2c52-4994-8661-6af089fa9bc9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcNsMgmtSetExpAge, RpcNsMgmtSetExpAge function [RPC], _rpc_rpcnsmgmtsetexpage, rpc.rpcnsmgmtsetexpage, rpcnsi/RpcNsMgmtSetExpAge
 ms.prod: windows
 ms.technology: windows-sdk

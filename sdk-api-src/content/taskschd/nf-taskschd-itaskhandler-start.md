@@ -4,10 +4,10 @@ title: ITaskHandler::Start
 author: windows-sdk-content
 description: Called to start the COM handler.
 old-location: taskschd\itaskhandler_start.htm
-old-project: taskschd
+old-project: TaskSchd
 ms.assetid: e0a51387-e638-40ee-a4e4-edd7f3115975
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ITaskHandler interface [Task Scheduler],Start method, ITaskHandler.Start, ITaskHandler::Start, Start, Start method [Task Scheduler], Start method [Task Scheduler],ITaskHandler interface, taskschd.itaskhandler_start, taskschd/ITaskHandler::Start
 ms.prod: windows
 ms.technology: windows-sdk

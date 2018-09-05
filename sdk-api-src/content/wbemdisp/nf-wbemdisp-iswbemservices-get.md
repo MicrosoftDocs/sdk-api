@@ -7,7 +7,7 @@ old-location: wmi\swbemservices_get.htm
 old-project: WmiSdk
 ms.assetid: 3071aeb2-adab-47aa-a10c-9796766bb630
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: Get, Get method [Windows Management Instrumentation], Get method [Windows Management Instrumentation],ISWbemServices interface, Get method [Windows Management Instrumentation],SWbemServices object, ISWbemServices interface [Windows Management Instrumentation],Get method, ISWbemServices.Get, ISWbemServices::Get, SWbemServices object [Windows Management Instrumentation],Get method, SWbemServices.Get, _hmm_swbemservices.get, wbemFlagUseAmendedQualifiers, wmi.swbemservices_get
 ms.prod: windows
 ms.technology: windows-sdk
@@ -128,22 +128,26 @@ Unlike the <a href="https://msdn.microsoft.com/94d5c8ee-2d61-42af-9a22-cc0df423b
     WMI-managed resource. To obtain a specific instance of a WMI-managed resource using the Get method, you must tell 
     Get the instance to retrieve by passing the method the object path, as shown in the following script.
 
-
-```vb
-strComputer = "."
-Set objSWbemServices = GetObject("winmgmts:\\" & strComputer & "\root\cimv2")
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>strComputer = "."
+Set objSWbemServices = GetObject("winmgmts:\\" &amp; strComputer &amp; "\root\cimv2")
 Set objSWbemObject = objSWbemServices.Get("Win32_Service.Name='Messenger'")
-Wscript.Echo "Name:         " & objSWbemObject.Name        & vbCrLf & _
-             "Display Name: " & objSWbemObject.DisplayName & vbCrLf & _
-             "Start Mode:   " & objSWbemObject.StartMode   & vbCrLf & _
-             "State:        " & objSWbemObject.State
+Wscript.Echo "Name:         " &amp; objSWbemObject.Name        &amp; vbCrLf &amp; _
+             "Display Name: " &amp; objSWbemObject.DisplayName &amp; vbCrLf &amp; _
+             "Start Mode:   " &amp; objSWbemObject.StartMode   &amp; vbCrLf &amp; _
+             "State:        " &amp; objSWbemObject.State
+</pre>
+</td>
+</tr>
+</table></span></div>
+You can  use this method to obtain <a href="gloss_s.htm">singleton</a> objects, such as <a href="https://msdn.microsoft.com/907b65b2-a853-40f4-8b36-5a05a2b1cf85">__CIMOMIdentification</a>, which contains version information about the WMI installation that is running.
 
-```
-
-
-You can  use this method to obtain <a href="https://msdn.microsoft.com/en-us/library/Aa390836(v=VS.85).aspx">singleton</a> objects, such as <a href="https://msdn.microsoft.com/907b65b2-a853-40f4-8b36-5a05a2b1cf85">__CIMOMIdentification</a>, which contains version information about the WMI installation that is running.
-
-You can examine the repository with a viewing tool such as <a href="https://msdn.microsoft.com/en-us/library/Aa390436(v=VS.85).aspx">CIM Studio</a> to verify that the new class and instance appear. For an example of removing a class and instance from the repository, see <a href="https://msdn.microsoft.com/7dabab12-e8ee-4d44-932f-f3239b6f066e">SWbemServices.Delete</a> or <a href="https://msdn.microsoft.com/bf1db667-4bd5-4717-bc0b-5bffe9d0f4fb">SWbemObject.Delete_</a>.
+You can examine the repository with a viewing tool such as <a href="further_information.htm">CIM Studio</a> to verify that the new class and instance appear. For an example of removing a class and instance from the repository, see <a href="https://msdn.microsoft.com/7dabab12-e8ee-4d44-932f-f3239b6f066e">SWbemServices.Delete</a> or <a href="https://msdn.microsoft.com/bf1db667-4bd5-4717-bc0b-5bffe9d0f4fb">SWbemObject.Delete_</a>.
 
 
 

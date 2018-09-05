@@ -4,10 +4,10 @@ title: IOCTL_TCP_QUERY_INFORMATION_EX
 author: windows-sdk-content
 description: Retrieves information from the TCP/IP driver.
 old-location: winprog\ioctl_tcp_query_information_ex.htm
-old-project: devnotes
+old-project: DevNotes
 ms.assetid: b992b585-e1c8-4262-a6e0-ad8b5047620f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IOCTL_TCP_QUERY_INFORMATION_EX, IOCTL_TCP_QUERY_INFORMATION_EX control, IOCTL_TCP_QUERY_INFORMATION_EX control code [Windows API], tcpioctl/IOCTL_TCP_QUERY_INFORMATION_EX, winprog.ioctl_tcp_query_information_ex
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,19 +60,23 @@ Retrieves information from the TCP/IP driver.
 
 To perform the <b>IOCTL_TCP_QUERY_INFORMATION_EX</b> operation, call the <a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a> 
 				function with the following parameters.
-
-```cpp
-BOOL DeviceIoControl(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOL DeviceIoControl(
   (HANDLE) hDevice,                  // Open handle to the TCP driver
   IOCTL_TCP_QUERY_INFORMATION_EX,    // dwIoControlCodeNULL,                              // lpInBuffer (the output buffer is used for input too)
   0,                                 // nInBufferSize(LPVOID) lpOutBuffer,              // Pointer to the output buffer
   (DWORD) nOutBufferSize,            // Size of the output buffer
   (LPDWORD) lpBytesReturned,         // Number of bytes returned (if called synchronously)
   (LPOVERLAPPED) lpOverlapped        // OVERLAPPED structure (if called asynchronously)
-);
-```
-
-
+);</pre>
+</td>
+</tr>
+</table></span></div>
 
 ## -ioctlparameters
 
@@ -334,14 +338,18 @@ On return, the output buffer contains a filled-in <a href="https://msdn.microsof
 The following example shows how to obtain a list of the entities present
 				on the TCP adapter on the current machine.
 
-
-```cpp
-#define  UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define  UNICODE
 #define  _WIN32_WINNT  0x0500
 
-#include <stdio.h>
-#include <windows.h>
-#include <iptypes.h>
+#include &lt;stdio.h&gt;
+#include &lt;windows.h&gt;
+#include &lt;iptypes.h&gt;
 #include "winternl.h"
 #include "tdiinfo.h"
 #include "tdistat.h"
@@ -402,7 +410,7 @@ typedef NTSTATUS (NTAPI *P_NT_CREATE_FILE)(
   UnicodeStr.MaximumLength = UnicodeStr.Length + sizeof(UNICODE_NULL);
 
   objectAttributes.Length = sizeof( OBJECT_ATTRIBUTES );
-  objectAttributes.ObjectName = &UnicodeStr;
+  objectAttributes.ObjectName = &amp;UnicodeStr;
   objectAttributes.Attributes = OBJ_CASE_INSENSITIVE;
   objectAttributes.RootDirectory = NULL;
   objectAttributes.SecurityDescriptor = NULL;
@@ -410,8 +418,8 @@ typedef NTSTATUS (NTAPI *P_NT_CREATE_FILE)(
 
   rVal = pNtCreateFile( pTCPDriverHandle,
                        SYNCHRONIZE | GENERIC_EXECUTE,
-                       &objectAttributes,
-                       &ioStatusBlock,
+                       &amp;objectAttributes,
+                       &amp;ioStatusBlock,
                        NULL,
                        FILE_ATTRIBUTE_NORMAL,
                        FILE_SHARE_READ | FILE_SHARE_WRITE,
@@ -420,7 +428,7 @@ typedef NTSTATUS (NTAPI *P_NT_CREATE_FILE)(
                        NULL,
                        0 );
 
-  if( rVal < 0 )
+  if( rVal &lt; 0 )
   {
     printf( "\nFailed to create TCP Driver handle; NT status code = %d.", rVal );
     *pTCPDriverHandle = INVALID_HANDLE_VALUE;
@@ -461,7 +469,7 @@ DWORD GetEntityArray( IN HANDLE TCPDriverHandle,
 // First, if the handle passed in is not valid, try to obtain one.
   if( TCPDriverHandle == INVALID_HANDLE_VALUE )
   {
-    if( GetTCPHandle( &TCPDriverHandle ) == FALSE )
+    if( GetTCPHandle( &amp;TCPDriverHandle ) == FALSE )
     {
       *lplpEntities = NULL;
       return( 0 );
@@ -485,7 +493,7 @@ DWORD GetEntityArray( IN HANDLE TCPDriverHandle,
 //     infinite looping in case of parameter corruption. Only 2
 //     iterations should ever be necessary unless entities are 
 //     being added while the loop is running.
-  for( i = 0; i < 4; ++i )
+  for( i = 0; i &lt; 4; ++i )
   {
     if( pEntity != NULL )
     {
@@ -506,11 +514,11 @@ DWORD GetEntityArray( IN HANDLE TCPDriverHandle,
 
     if( !DeviceIoControl( TCPDriverHandle, // Handle to TCP driver
                           IOCTL_TCP_QUERY_INFORMATION_EX, // Cmd code
-                          &req,            // Pointer to input buffer
+                          &amp;req,            // Pointer to input buffer
                           sizeof(req),     // Size of ipt buffer
                           pEntity,         // Ptr to output buffer
                           bufferLen,       // Size of output buffer
-                          &arrayLen,       // Actual size of array
+                          &amp;arrayLen,       // Actual size of array
                           NULL ) )
       status = GetLastError( );
 
@@ -520,7 +528,7 @@ DWORD GetEntityArray( IN HANDLE TCPDriverHandle,
     // successfully copied to the output buffer.
     if( status == TDI_SUCCESS )
     {
-      if( arrayLen && ( arrayLen <= bufferLen ) )
+      if( arrayLen &amp;&amp; ( arrayLen &lt;= bufferLen ) )
         break;
     }
     else
@@ -542,16 +550,16 @@ int main( )
     *entityPtr;
 
   if( !( entityCount = GetEntityArray( INVALID_HANDLE_VALUE, 
-    &entityArray ) ) )
+    &amp;entityArray ) ) )
     return( 1 );
 
   entityPtr = entityArray;
   printf( "\n\nList of %d Transport Driver Interface Entities on this machine:\n", entityCount );
 
-  for( i = 0; i < entityCount; ++i )
+  for( i = 0; i &lt; entityCount; ++i )
   {
     printf( "\n  Entity #%d:\n    Category (tei_entity) is ", i );
-    switch( entityPtr->tei_entity )
+    switch( entityPtr-&gt;tei_entity )
     {
       case GENERIC_ENTITY:
         printf( "Generic." );
@@ -579,10 +587,10 @@ int main( )
         break;
       default:
         printf( "[Unidentified Entity Type] = 0x%x", 
-        entityPtr->tei_entity );
+        entityPtr-&gt;tei_entity );
     }
     printf( "\n Instance (tei_instance) = %d\n", 
-        entityPtr->tei_instance );
+        entityPtr-&gt;tei_instance );
 
     ++entityPtr;
   }
@@ -593,10 +601,10 @@ int main( )
   return( 0 );
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

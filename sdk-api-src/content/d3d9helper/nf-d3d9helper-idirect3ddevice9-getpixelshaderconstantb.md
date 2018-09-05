@@ -7,7 +7,7 @@ old-location: direct3d9\idirect3ddevice9__getpixelshaderconstantb.htm
 old-project: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3ddevice9__getpixelshaderconstantb.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: GetPixelShaderConstantB, GetPixelShaderConstantB method [Direct3D 9], GetPixelShaderConstantB method [Direct3D 9],IDirect3DDevice9 interface, IDirect3DDevice9 interface [Direct3D 9],GetPixelShaderConstantB method, IDirect3DDevice9.GetPixelShaderConstantB, IDirect3DDevice9::GetPixelShaderConstantB, b5063da2-ebe9-220a-5bcc-e8d602dff035, d3d9helper/IDirect3DDevice9::GetPixelShaderConstantB, direct3d9.idirect3ddevice9__getpixelshaderconstantb
 ms.prod: windows
 ms.technology: windows-sdk
@@ -85,7 +85,7 @@ Number of Boolean values in the array of constants.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 If the method succeeds, the return value is D3D_OK. If the method fails, the return value can be
      D3DERR_INVALIDCALL.
@@ -98,11 +98,11 @@ If the method succeeds, the return value is D3D_OK. If the method fails, the ret
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174336(v=VS.85).aspx">IDirect3DDevice9</a>
+<a href="https://msdn.microsoft.com/cf951e8e-7adb-417a-bda0-9b3cde4912a7">IDirect3DDevice9</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb174451(v=VS.85).aspx">IDirect3DDevice9::SetPixelShaderConstantB</a>
+<a href="https://msdn.microsoft.com/69e44683-a551-4503-8246-c22423092734">IDirect3DDevice9::SetPixelShaderConstantB</a>
  
 
  

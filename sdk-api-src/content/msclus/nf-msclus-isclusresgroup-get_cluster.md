@@ -7,7 +7,7 @@ old-location: mscs\clusresgroup_cluster.htm
 old-project: mscs
 ms.assetid: fb5f1ebd-8d30-4625-9cc1-ce7713e91da6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusResGroup class [Failover Cluster],Cluster property, ClusResGroup.Cluster, Cluster property [Failover Cluster], Cluster property [Failover Cluster],ClusResGroup class, ISClusResGroup.get_Cluster, ISClusResGroup::get_Cluster, _wolf_clusresgroup.cluster, get_Cluster, mscs.clusresgroup_cluster
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
     in subsequent versions.]
 
 Returns the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> associated with the 
+    <a href="c_gly.htm">cluster</a> associated with the 
     <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a>.
 
 This property is read-only.

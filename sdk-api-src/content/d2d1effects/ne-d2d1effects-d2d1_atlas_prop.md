@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Identifiers for properties of the <a href="https://msdn.microsoft.com/en-us/library/Hh780337(v=VS.85).aspx">Atlas effect</a>.
+Identifiers for properties of the <a href="https://msdn.microsoft.com/D35E32CB-4DF7-408F-A717-1E421DDC8763">Atlas effect</a>.
         
 
 

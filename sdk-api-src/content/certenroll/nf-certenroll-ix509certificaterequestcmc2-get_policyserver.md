@@ -4,10 +4,10 @@ title: IX509CertificateRequestCmc2::get_PolicyServer
 author: windows-sdk-content
 description: Retrieves the certificate enrollment policy (CEP) server that contains the template used during initialization.
 old-location: security\ix509certificaterequestcmc2_policyserver.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: 3a0aa790-c337-4033-a8fa-52f2b06ac005
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509CertificateRequestCmc2 interface [Security],PolicyServer property, IX509CertificateRequestCmc2.PolicyServer, IX509CertificateRequestCmc2.get_PolicyServer, IX509CertificateRequestCmc2::PolicyServer, IX509CertificateRequestCmc2::get_PolicyServer, PolicyServer property [Security], PolicyServer property [Security],IX509CertificateRequestCmc2 interface, certenroll/IX509CertificateRequestCmc2::PolicyServer, certenroll/IX509CertificateRequestCmc2::get_PolicyServer, get_PolicyServer, security.ix509certificaterequestcmc2_policyserver
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351617(v=VS.85).aspx">IX509CertificateRequestCmc2</a>
+<a href="https://msdn.microsoft.com/27edf846-472e-4a22-bd3c-88044a1fbd99">IX509CertificateRequestCmc2</a>
  
 
  

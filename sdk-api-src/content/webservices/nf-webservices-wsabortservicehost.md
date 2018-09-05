@@ -7,7 +7,7 @@ old-location: wsw\wsabortservicehost.htm
 old-project: wsw
 ms.assetid: d9405b21-52d2-4d33-b133-f15402dd1d5b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WsAbortServiceHost, WsAbortServiceHost function [Web Services for Windows], webservices/WsAbortServiceHost, wsw.wsabortservicehost
 ms.prod: windows
 ms.technology: windows-sdk

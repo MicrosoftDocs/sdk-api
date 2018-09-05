@@ -7,7 +7,7 @@ old-location: devinst\sp_classinstall_header.htm
 old-project: devinst
 ms.assetid: 9f76b741-d2a7-484d-94cb-b559b017399d
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: "*PSP_CLASSINSTALL_HEADER, PSP_CLASSINSTALL_HEADER, PSP_CLASSINSTALL_HEADER structure pointer [Device and Driver Installation], SP_CLASSINSTALL_HEADER, SP_CLASSINSTALL_HEADER structure [Device and Driver Installation], _SP_CLASSINSTALL_HEADER, devinst.sp_classinstall_header, di-struct_96e0dbc0-fe54-4731-9ec7-0e633b521297.xml, setupapi/PSP_CLASSINSTALL_HEADER, setupapi/SP_CLASSINSTALL_HEADER"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,14 +78,18 @@ DIF codes have the format DIF_<i>XXX</i> and are defined in <i>Setupapi.h</i>. S
 
 When a component allocates a class install parameters structure, it typically initializes the header fields of the structure. Such a component sets the <b>InstallFunction</b> member to the DIF code for the installation request and sets <b>cbSize</b> to the size of the SP_CLASSINSTALL_HEADER structure. For example:
 
-
-```
-SP_REMOVEDEVICE_PARAMS RemoveDeviceParams;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>SP_REMOVEDEVICE_PARAMS RemoveDeviceParams;
 RemoveDeviceParams.ClassInstallHeader.cbSize = sizeof(SP_CLASSINSTALL_HEADER);
-RemoveDeviceParams.ClassInstallHeader.InstallFunction = DIF_REMOVE;
-```
-
-
+RemoveDeviceParams.ClassInstallHeader.InstallFunction = DIF_REMOVE;</pre>
+</td>
+</tr>
+</table></span></div>
 A component must set the <b>InstallFunction</b> member before passing a class install parameters structure to <a href="https://msdn.microsoft.com/a7f35e32-eaad-440b-8109-7320048ec7ba">SetupDiSetClassInstallParams</a>. 
 
 However, a component does not have to set this field when passing class install parameters to <a href="https://msdn.microsoft.com/4ac1eb44-c7d6-48f3-bc7f-fb547e5a985e">SetupDiGetClassInstallParams</a>. This function sets the <b>InstallFunction</b> member in the structure it passes back to the caller. It sets <b>InstallFunction</b> to the DIF_<i>XXX</i> code for the currently active device installation request.

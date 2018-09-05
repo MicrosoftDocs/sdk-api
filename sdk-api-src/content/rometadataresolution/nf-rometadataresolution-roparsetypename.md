@@ -7,7 +7,7 @@ old-location: winrt\roparsetypename.htm
 old-project: WinRT
 ms.assetid: AF007D43-7BAC-4753-9D2B-8F397B4A464A
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RoParseTypeName, RoParseTypeName function [Windows Runtime], rometadataresolution/RoParseTypeName, winrt.roparsetypename
 ms.prod: windows
 ms.technology: windows-sdk
@@ -261,12 +261,16 @@ On success, the caller is responsible for deallocating the <i>typenameParts</i> 
 
 The following C++ example shows how to use the <b>RoParseTypeName</b> function to find the direct child namespaces for a specified type name.
 
-
-```cpp
-#include <windows.h>
-#include <stdio.h>
-#include <WinRTString.h>
-#include <TypeResolution.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;WinRTString.h&gt;
+#include &lt;TypeResolution.h&gt;
 
 HRESULT PrintParameterizedInterfaceParts(PCWSTR pszTypename);
 
@@ -304,22 +308,22 @@ HRESULT PrintParameterizedInterfaceParts(PCWSTR pszTypename)
 
     hr = WindowsCreateString(
         pszTypename,
-        static_cast<UINT32>(wcslen(pszTypename)),
-        &hstrTypeName);
+        static_cast&lt;UINT32&gt;(wcslen(pszTypename)),
+        &amp;hstrTypeName);
 
     if (SUCCEEDED(hr))
     {
         hr = RoParseTypeName(
             hstrTypeName,
-            &cRetrievedNameParts,
-            &phstrNameParts);
+            &amp;cRetrievedNameParts,
+            &amp;phstrNameParts);
     }
 
     if (SUCCEEDED(hr))
     {
         wprintf(L"Parameterized interface %s is composed of:\n", pszTypename);
 
-        for (UINT32 i = 0; i < cRetrievedNameParts; i++)
+        for (UINT32 i = 0; i &lt; cRetrievedNameParts; i++)
         {
             wprintf(L"Element %d: %s\n", i, WindowsGetStringRawBuffer(phstrNameParts[i], nullptr));
         }
@@ -335,7 +339,7 @@ HRESULT PrintParameterizedInterfaceParts(PCWSTR pszTypename)
         WindowsDeleteString(hstrTypeName);
     }
 
-    for (UINT32 i = 0; i < cRetrievedNameParts; i++)
+    for (UINT32 i = 0; i &lt; cRetrievedNameParts; i++)
     {
         WindowsDeleteString(phstrNameParts[i]);
     }
@@ -344,9 +348,9 @@ HRESULT PrintParameterizedInterfaceParts(PCWSTR pszTypename)
 
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

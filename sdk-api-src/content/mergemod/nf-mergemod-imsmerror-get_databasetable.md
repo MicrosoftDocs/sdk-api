@@ -7,7 +7,7 @@ old-location: setup\error_databasetable.htm
 old-project: msi
 ms.assetid: 38ff45ca-4bd6-43f3-88ad-db4077daeb77
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: DatabaseTable property, DatabaseTable property,Error object, Error object,DatabaseTable property, Error.DatabaseTable, IMsmError.get_DatabaseTable, IMsmError::get_DatabaseTable, _msi_databasetable_property, get_DatabaseTable, setup.error_databasetable
 ms.prod: windows
 ms.technology: windows-sdk

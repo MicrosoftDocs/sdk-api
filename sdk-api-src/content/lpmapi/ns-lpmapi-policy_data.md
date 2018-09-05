@@ -4,10 +4,10 @@ title: POLICY_DATA
 author: windows-sdk-content
 description: The POLICY_DATA structure contains policy data for RSVP messages.
 old-location: qos\policy_data.htm
-old-project: qos
+old-project: QOS
 ms.assetid: 0e91b77c-e4dd-4e23-8af6-bf549168cfc5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: POLICY_DATA, POLICY_DATA structure [QOS], lpmapi/POLICY_DATA, qos.policy_data
 ms.prod: windows
 ms.technology: windows-sdk

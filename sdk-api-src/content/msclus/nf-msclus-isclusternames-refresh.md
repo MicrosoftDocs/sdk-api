@@ -7,7 +7,7 @@ old-location: mscs\clusternames_refresh.htm
 old-project: mscs
 ms.assetid: d4f71465-3573-4525-b37a-5b8aa22a84ec
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ISClusterNames collection [Failover Cluster],Refresh method, ISClusterNames.Refresh, ISClusterNames::Refresh, Refresh, Refresh method [Failover Cluster], Refresh method [Failover Cluster],ISClusterNames collection, _wolf_clusternames.refresh, mscs.clusternames_refresh
 ms.prod: windows
 ms.technology: windows-sdk

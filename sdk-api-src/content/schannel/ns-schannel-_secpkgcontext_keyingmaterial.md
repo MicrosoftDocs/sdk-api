@@ -4,10 +4,10 @@ title: "_SecPkgContext_KeyingMaterial"
 author: windows-sdk-content
 description: The SecPkgContext_KeyingMaterial structure.
 old-location: security\secpkgcontext_keyingmaterial.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 2F8C4316-FC03-473C-8A97-83665B3271AC
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSecPkgContext_KeyingMaterial, PSecPkgContext_KeyingMaterial, PSecPkgContext_KeyingMaterial structure pointer [Security], SecPkgContext_KeyingMaterial, SecPkgContext_KeyingMaterial structure [Security], SecPkgContext_KeyingMaterialA, SecPkgContext_KeyingMaterialW, _SecPkgContext_KeyingMaterial, _SecPkgContext_KeyingMaterialInfo, schannel/PSecPkgContext_KeyingMaterial, schannel/SecPkgContext_KeyingMaterial, schannel/SecPkgContext_KeyingMaterialA, schannel/SecPkgContext_KeyingMaterialW, security.secpkgcontext_keyingmaterial"
 ms.prod: windows
 ms.technology: windows-sdk

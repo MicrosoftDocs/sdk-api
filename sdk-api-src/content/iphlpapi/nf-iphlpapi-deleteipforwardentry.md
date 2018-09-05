@@ -177,17 +177,21 @@ The following code example shows how to change the default gateway to NewGateway
 
 <div class="alert"><b>Note</b>  Executing this code will change your IP routing tables and will likely cause network activity to fail.</div>
 <div> </div>
-
-```cpp
-#ifndef WIN32_LEAN_AND_MEAN
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef WIN32_LEAN_AND_MEAN
 #define WIN32_LEAN_AND_MEAN
 #endif
 
-#include <windows.h>
-#include <winsock2.h>
-#include <iphlpapi.h>
-#include <stdio.h>
-#include <stdlib.h>
+#include &lt;windows.h&gt;
+#include &lt;winsock2.h&gt;
+#include &lt;iphlpapi.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
 
 #pragma comment(lib, "iphlpapi.lib")
 
@@ -204,7 +208,7 @@ int main()
     unsigned int i;
 
 // Identify the required size of the buffer.
-    dwStatus = GetIpForwardTable(pIpForwardTable, &dwSize, bOrder);
+    dwStatus = GetIpForwardTable(pIpForwardTable, &amp;dwSize, bOrder);
     if (dwStatus == ERROR_INSUFFICIENT_BUFFER) {
         // Allocate memory for the table.
         if (!(pIpForwardTable = (PMIB_IPFORWARDTABLE) malloc(dwSize))) {
@@ -212,7 +216,7 @@ int main()
             exit(1);
         }
         // Retrieve the table.
-        dwStatus = GetIpForwardTable(pIpForwardTable, &dwSize, bOrder);
+        dwStatus = GetIpForwardTable(pIpForwardTable, &amp;dwSize, bOrder);
     }
 
     if (dwStatus != ERROR_SUCCESS) {
@@ -225,8 +229,8 @@ int main()
 // of 0.0.0.0. Be aware the table continues to be searched, but only
 // one row is copied. This is to ensure that, if multiple gateways exist, all of them are deleted.
 // 
-    for (i = 0; i < pIpForwardTable->dwNumEntries; i++) {
-        if (pIpForwardTable->table[i].dwForwardDest == 0) {
+    for (i = 0; i &lt; pIpForwardTable-&gt;dwNumEntries; i++) {
+        if (pIpForwardTable-&gt;table[i].dwForwardDest == 0) {
             // The default gateway was found.
             if (!pRow) {
                 // Allocate memory to store the row. This is easier than manually filling
@@ -238,11 +242,11 @@ int main()
                     exit(1);
                 }
                 // Copy the row.
-                memcpy(pRow, &(pIpForwardTable->table[i]),
+                memcpy(pRow, &amp;(pIpForwardTable-&gt;table[i]),
                        sizeof (MIB_IPFORWARDROW));
             }
             // Delete the old default gateway entry.
-            dwStatus = DeleteIpForwardEntry(&(pIpForwardTable->table[i]));
+            dwStatus = DeleteIpForwardEntry(&amp;(pIpForwardTable-&gt;table[i]));
 
             if (dwStatus != ERROR_SUCCESS) {
                 printf("Could not delete old gateway\n");
@@ -253,7 +257,7 @@ int main()
 
 // Set the nexthop field to our new gateway. All other properties of the route will
 // remain the same.
-    pRow->dwForwardNextHop = NewGateway;
+    pRow-&gt;dwForwardNextHop = NewGateway;
 
 // Create a new route entry for the default gateway.
     dwStatus = CreateIpForwardEntry(pRow);
@@ -273,10 +277,10 @@ int main()
 
     exit(0);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

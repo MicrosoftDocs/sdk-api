@@ -4,10 +4,10 @@ title: "_VDS_INPUT_DISK"
 author: windows-sdk-content
 description: Defines the details of an input disk.
 old-location: base\vds_input_disk.htm
-old-project: vds
+old-project: VDS
 ms.assetid: 837981e5-8600-4add-85cf-a802615133d3
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: VDS_INPUT_DISK, VDS_INPUT_DISK structure [VDS], _VDS_INPUT_DISK, base.vds_input_disk, vds/_VDS_INPUT_DISK
 ms.prod: windows
 ms.technology: windows-sdk

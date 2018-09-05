@@ -7,7 +7,7 @@ old-location: mscs\clusproperties_count.htm
 old-project: mscs
 ms.assetid: 6988a8c6-b1ef-4dba-b95c-eab52f140fb3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusProperties collection [Failover Cluster],Count property, ClusProperties.Count, Count property [Failover Cluster], Count property [Failover Cluster],ClusProperties collection, ISClusProperties.get_Count, ISClusProperties::get_Count, _wolf_clusproperties.count, get_Count, mscs.clusproperties_count
 ms.prod: windows
 ms.technology: windows-sdk

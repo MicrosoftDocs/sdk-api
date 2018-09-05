@@ -7,7 +7,7 @@ old-location: mscs\clusapplication_object.htm
 old-project: mscs
 ms.assetid: 2f837658-18f5-44c9-b743-1980a616e71a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusApplication, ClusApplication object [Failover Cluster], ClusApplication object [Failover Cluster],described, ISClusApplication, _wolf_clusapplication_object, msclus/ClusApplication, mscs.clusapplication_object
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ req.product: GDI+ 1.1
 The <b>ClusApplication</b> object provides 
     access to the <a href="https://msdn.microsoft.com/e7f806a7-02e7-41be-b8b9-60351180e748">DomainNames</a> and 
     <a href="https://msdn.microsoft.com/c4e29498-c4e2-4351-8eed-05bc73437485">ClusterNames</a> collections and opens a 
-    connection to a specified <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+    connection to a specified <a href="c_gly.htm">cluster</a>.
 
 
 ## -inheritance
@@ -132,14 +132,18 @@ Returns the names of all available domains.
 
 #### Examples
 
-
-```vb
-Dim objApplication as ClusApplication
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Dim objApplication as ClusApplication
 Set objApplication = New ClusApplication
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

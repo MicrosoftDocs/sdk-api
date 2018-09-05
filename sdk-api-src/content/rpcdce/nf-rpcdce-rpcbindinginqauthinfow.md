@@ -4,10 +4,10 @@ title: RpcBindingInqAuthInfoW function
 author: windows-sdk-content
 description: The RpcBindingInqAuthInfo function returns authentication and authorization information from a binding handle.
 old-location: rpc\rpcbindinginqauthinfo.htm
-old-project: rpc
+old-project: Rpc
 ms.assetid: becb2c58-bfc7-47a7-ad2f-947ecf7bba2b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcBindingInqAuthInfo, RpcBindingInqAuthInfo function [RPC], RpcBindingInqAuthInfoA, RpcBindingInqAuthInfoW, _rpc_rpcbindinginqauthinfo, rpc.rpcbindinginqauthinfo, rpcdce/RpcBindingInqAuthInfo, rpcdce/RpcBindingInqAuthInfoA, rpcdce/RpcBindingInqAuthInfoW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -67,7 +67,7 @@ Handle to the Bluetooth device or service.  If a service handle is passed, then 
 
 ### -param Characteristic [in]
 
-Pointer to <a href="https://msdn.microsoft.com/en-us/library/Hh450840(v=VS.85).aspx">BTH_LE_GATT_CHARACTERISTIC</a> structure containing the parent characteristic of the descriptors to be retrieved.
+Pointer to <a href="https://msdn.microsoft.com/BE96F588-28C5-46C8-AFC9-852D940051F2">BTH_LE_GATT_CHARACTERISTIC</a> structure containing the parent characteristic of the descriptors to be retrieved.
 
 
 ### -param DescriptorsBufferCount [in]
@@ -77,7 +77,7 @@ The number of elements allocated for the <i>DescriptorsBuffer</i> parameter.
 
 ### -param DescriptorsBuffer [out, optional]
 
-Pointer to buffer containing a <a href="https://msdn.microsoft.com/en-us/library/Hh450843(v=VS.85).aspx">BTH_LE_GATT_DESCRIPTOR</a> structure into which to return descriptors.
+Pointer to buffer containing a <a href="https://msdn.microsoft.com/DE738ADA-AE8E-4679-887C-A6194E88386E">BTH_LE_GATT_DESCRIPTOR</a> structure into which to return descriptors.
 
 
 ### -param DescriptorsBufferActual [out]
@@ -223,14 +223,18 @@ Do not modify the returned characteristic structure,
     if the caller does this.
 
 The parent characteristic must be present in the
-    cache, otherwise the function will fail.  The parent service must be a service returned by either <a href="https://msdn.microsoft.com/en-us/library/Hh450802(v=VS.85).aspx">BluetoothGATTGetServices</a> or
-    <a href="https://msdn.microsoft.com/en-us/library/Hh450800(v=VS.85).aspx">BluetoothGATTGetIncludedServices</a>.
+    cache, otherwise the function will fail.  The parent service must be a service returned by either <a href="https://msdn.microsoft.com/8EF8B582-FFAE-4C87-8E94-7EFDD2CD2706">BluetoothGATTGetServices</a> or
+    <a href="https://msdn.microsoft.com/72F0E995-88B6-42E0-9B69-429566B5605C">BluetoothGATTGetIncludedServices</a>.
 
 <b>Example</b>
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 ////////////////////////////////////////////////////////////////////////////
 // Determine Descriptor Buffer Size
 ////////////////////////////////////////////////////////////////////////////
@@ -240,7 +244,7 @@ GetDescriptors:
                     currGattChar,
                     0,
                     NULL,
-                    &descriptorBufferSize,
+                    &amp;descriptorBufferSize,
                     BLUETOOTH_GATT_FLAG_NONE);
             
             if (HRESULT_FROM_WIN32(ERROR_MORE_DATA) != hr) {
@@ -248,7 +252,7 @@ GetDescriptors:
                 goto Done; // Allow continuation
             }
             
-            if (descriptorBufferSize > 0) {
+            if (descriptorBufferSize &gt; 0) {
                 pDescriptorBuffer = (PBTH_LE_GATT_DESCRIPTOR)
                         malloc(descriptorBufferSize 
                             * sizeof(BTH_LE_GATT_DESCRIPTOR));
@@ -269,7 +273,7 @@ GetDescriptors:
                         currGattChar,
                         descriptorBufferSize,
                         pDescriptorBuffer,
-                        &numDescriptors,
+                        &amp;numDescriptors,
                         BLUETOOTH_GATT_FLAG_NONE);
             
                 if (S_OK != hr) {
@@ -282,10 +286,10 @@ GetDescriptors:
                     goto Done;
                 }
             }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -294,11 +298,11 @@ GetDescriptors:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh450840(v=VS.85).aspx">BTH_LE_GATT_CHARACTERISTIC</a>
+<a href="https://msdn.microsoft.com/BE96F588-28C5-46C8-AFC9-852D940051F2">BTH_LE_GATT_CHARACTERISTIC</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh450843(v=VS.85).aspx">BTH_LE_GATT_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/DE738ADA-AE8E-4679-887C-A6194E88386E">BTH_LE_GATT_DESCRIPTOR</a>
  
 
  

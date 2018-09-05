@@ -60,7 +60,27 @@ Retrieves the palette entries from a given color-index layer plane for a specifi
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
+
+TBD
+
+
+### -param arg3
+
+TBD
+
+
+### -param arg4
+
+TBD
+
+
+### -param arg5
 
 TBD
 

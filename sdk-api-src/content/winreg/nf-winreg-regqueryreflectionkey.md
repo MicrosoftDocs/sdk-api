@@ -4,10 +4,10 @@ title: RegQueryReflectionKey function
 author: windows-sdk-content
 description: Determines whether reflection has been disabled or enabled for the specified key.
 old-location: base\regqueryreflectionkey.htm
-old-project: sysinfo
+old-project: SysInfo
 ms.assetid: d7516eab-dbcf-4ece-931e-d7bb2a983503
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: RegQueryReflectionKey, RegQueryReflectionKey function, base.regqueryreflectionkey, winreg/RegQueryReflectionKey
 ms.prod: windows
 ms.technology: windows-sdk

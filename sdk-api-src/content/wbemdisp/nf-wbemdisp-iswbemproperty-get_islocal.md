@@ -7,7 +7,7 @@ old-location: wmi\swbemproperty_islocal.htm
 old-project: WmiSdk
 ms.assetid: eda1f962-03b5-4322-bb06-c27aedf94be1
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: ISWbemProperty interface [Windows Management Instrumentation],IsLocal property, ISWbemProperty.get_IsLocal, ISWbemProperty::get_IsLocal, IsLocal property [Windows Management Instrumentation], IsLocal property [Windows Management Instrumentation],ISWbemProperty interface, IsLocal property [Windows Management Instrumentation],SWbemProperty object, SWbemProperty object [Windows Management Instrumentation],IsLocal property, SWbemProperty.IsLocal, _hmm_swbemproperty.islocal, get_IsLocal, wmi.swbemproperty_islocal
 ms.prod: windows
 ms.technology: windows-sdk

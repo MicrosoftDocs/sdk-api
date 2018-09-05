@@ -4,10 +4,10 @@ title: IRDPSRAPITcpConnectionInfo::get_LocalIP
 author: windows-sdk-content
 description: Retrieves the local IP address that is being used by the sharer or by the viewer for communication.
 old-location: rdp\irdpsrapitcpconnectioninfo_localip.htm
-old-project: rdp
+old-project: Rdp
 ms.assetid: 70e9964f-8333-4054-bffc-9ecf0af08691
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IRDPSRAPITcpConnectionInfo interface [RDP],LocalIP property, IRDPSRAPITcpConnectionInfo.LocalIP, IRDPSRAPITcpConnectionInfo.get_LocalIP, IRDPSRAPITcpConnectionInfo::LocalIP, IRDPSRAPITcpConnectionInfo::get_LocalIP, LocalIP property [RDP], LocalIP property [RDP],IRDPSRAPITcpConnectionInfo interface, LocalIP property [RDP],RDPSRAPITcpConnectionInfo object, RDPSRAPITcpConnectionInfo object [RDP],LocalIP property, get_LocalIP, rdp.irdpsrapitcpconnectioninfo_localip, rdpencomapi/IRDPSRAPITcpConnectionInfo::LocalIP, rdpencomapi/IRDPSRAPITcpConnectionInfo::get_LocalIP
 ms.prod: windows
 ms.technology: windows-sdk

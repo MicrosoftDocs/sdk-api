@@ -4,10 +4,10 @@ title: "_CRYPT_CONTEXT_FUNCTIONS"
 author: windows-sdk-content
 description: Contains a set of cryptographic functions for a CNG configuration context.
 old-location: security\crypt_context_functions.htm
-old-project: seccng
+old-project: SecCNG
 ms.assetid: c576f39c-a03a-47aa-90b7-500736070c6f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCRYPT_CONTEXT_FUNCTIONS, CRYPT_CONTEXT_FUNCTIONS, CRYPT_CONTEXT_FUNCTIONS structure [Security], PCRYPT_CONTEXT_FUNCTIONS, PCRYPT_CONTEXT_FUNCTIONS structure pointer [Security], _CRYPT_CONTEXT_FUNCTIONS, bcrypt/CRYPT_CONTEXT_FUNCTIONS, bcrypt/PCRYPT_CONTEXT_FUNCTIONS, security.crypt_context_functions"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Sets the left-to-right order of header items. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775369(v=VS.85).aspx">HDM_SETORDERARRAY</a> message explicitly. 
+Sets the left-to-right order of header items. You can use this macro or send the <a href="https://msdn.microsoft.com/094c424f-10bd-484d-8236-937811b703a6">HDM_SETORDERARRAY</a> message explicitly. 
 
 
 ## -parameters
@@ -61,7 +61,7 @@ Sets the left-to-right order of header items. You can use this macro or send the
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to a header control. 
 
@@ -71,7 +71,7 @@ A handle to a header control.
 Type: <b>int</b>
 
 The size of the buffer at 
-					<i>lpiArray</i>, in elements. This value must equal the value returned by <a href="https://msdn.microsoft.com/en-us/library/Bb775337(v=VS.85).aspx">HDM_GETITEMCOUNT</a>. 
+					<i>lpiArray</i>, in elements. This value must equal the value returned by <a href="https://msdn.microsoft.com/0e6d2131-53b4-4927-bd0f-577b8eaf237a">HDM_GETITEMCOUNT</a>. 
 
 
 ### -param lpi

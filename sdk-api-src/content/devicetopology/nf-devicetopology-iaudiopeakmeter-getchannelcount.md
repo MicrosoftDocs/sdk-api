@@ -7,7 +7,7 @@ old-location: coreaudio\iaudiopeakmeter_getchannelcount.htm
 old-project: CoreAudio
 ms.assetid: 699b3689-1c3f-434e-97c5-3c5930683ad1
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: GetChannelCount, GetChannelCount method [Core Audio], GetChannelCount method [Core Audio],IAudioPeakMeter interface, IAudioPeakMeter interface [Core Audio],GetChannelCount method, IAudioPeakMeter.GetChannelCount, IAudioPeakMeter::GetChannelCount, IAudioPeakMeterGetChannelCount, coreaudio.iaudiopeakmeter_getchannelcount, devicetopology/IAudioPeakMeter::GetChannelCount
 ms.prod: windows
 ms.technology: windows-sdk

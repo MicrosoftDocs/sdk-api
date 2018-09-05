@@ -190,9 +190,13 @@ This function requires the calling process to have UIAccess or higher privileges
 
 This code example shows how to call the <b>AccSetRunningUtilityState</b> function.
 
-
-```cpp
-if (SUCCEEDED(hr))
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>if (SUCCEEDED(hr))
 {
     // Tell the system that an AT application has registered with the 
     // touch redirector.
@@ -204,10 +208,10 @@ if (SUCCEEDED(hr))
         MyErrorHandler(hr); // Application-defined error handler
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

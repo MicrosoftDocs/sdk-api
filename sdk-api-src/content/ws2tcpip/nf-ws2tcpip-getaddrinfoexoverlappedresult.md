@@ -4,10 +4,10 @@ title: GetAddrInfoExOverlappedResult function
 author: windows-sdk-content
 description: Gets the return code for an OVERLAPPED structure used by an asynchronous operation for the GetAddrInfoEx function.
 old-location: winsock\getaddrinfoexoverlappedresult.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: BBA6E407-561C-4B3C-9218-0047477E82DE
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: GetAddrInfoExOverlappedResult, GetAddrInfoExOverlappedResult function [Winsock], winsock.getaddrinfoexoverlappedresult, ws2tcpip/GetAddrInfoExOverlappedResult
 ms.prod: windows
 ms.technology: windows-sdk

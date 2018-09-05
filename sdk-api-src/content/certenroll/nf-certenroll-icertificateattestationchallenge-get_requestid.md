@@ -4,10 +4,10 @@ title: ICertificateAttestationChallenge::get_RequestID
 author: windows-sdk-content
 description: Gets the request ID from the Certificate Management over CMS (CMC) response.
 old-location: security\icertificateattestationchallenge_requestid.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: c3ca69cf-12e0-4341-b3a6-f668155ea3ff
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ICertificateAttestationChallenge interface [Security],RequestID property, ICertificateAttestationChallenge.RequestID, ICertificateAttestationChallenge.get_RequestID, ICertificateAttestationChallenge::RequestID, ICertificateAttestationChallenge::get_RequestID, RequestID property [Security], RequestID property [Security],ICertificateAttestationChallenge interface, certenroll/ICertificateAttestationChallenge::RequestID, certenroll/ICertificateAttestationChallenge::get_RequestID, get_RequestID, security.icertificateattestationchallenge_requestid
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-Gets the request ID from the <a href="https://msdn.microsoft.com/en-us/library/ms721572(v=VS.85).aspx">Certificate Management over CMS</a> (CMC) response.
+Gets the request ID from the <a href="https://msdn.microsoft.com/db46def4-bfdc-4801-a57d-d568e94a2dbb">Certificate Management over CMS</a> (CMC) response.
 
 This property is read-only.
 
@@ -65,7 +65,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn379339(v=VS.85).aspx">ICertificateAttestationChallenge</a>
+<a href="https://msdn.microsoft.com/3b8d3104-5824-4801-9b74-59307e650662">ICertificateAttestationChallenge</a>
  
 
  

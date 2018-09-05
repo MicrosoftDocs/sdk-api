@@ -7,7 +7,7 @@ old-location: winrt\codecodeproxy.htm
 old-project: WinRT
 ms.assetid: C61C68B1-78CA-4052-9E24-629AB4083B86
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CoDecodeProxy, CoDecodeProxy function [Windows Runtime], combaseapi/CoDecodeProxy, winrt.codecodeproxy
 ms.prod: windows
 ms.technology: windows-sdk
@@ -149,7 +149,7 @@ You can call the <b>CoDecodeProxy</b> function from a 32-bit or 64-bit process. 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Hh995039(v=VS.85).aspx">ServerInformation</a>
+<a href="https://msdn.microsoft.com/568246B8-48F7-4A83-B7DE-24F36B2C3F49">ServerInformation</a>
  
 
  

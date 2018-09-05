@@ -7,7 +7,7 @@ old-location: winmsg\animatewindow.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\animatewindow.htm
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: AW_ACTIVATE, AW_BLEND, AW_CENTER, AW_HIDE, AW_HOR_NEGATIVE, AW_HOR_POSITIVE, AW_SLIDE, AW_VER_NEGATIVE, AW_VER_POSITIVE, AnimateWindow, AnimateWindow function [Windows and Messages], _win32_AnimateWindow, _win32_animatewindow_cpp, winmsg.animatewindow, winui._win32_animatewindow, winuser/AnimateWindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -220,7 +220,7 @@ To get extended error information, call the <a href="https://msdn.microsoft.com/
 
 
 
-To show or hide a window without special effects, use <a href="https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx">ShowWindow</a>.
+To show or hide a window without special effects, use <a href="https://msdn.microsoft.com/13ffef63-3e29-4ca7-a14d-48ff901d82b5">ShowWindow</a>.
 
 When using slide or roll animation, you must specify the direction. It can be either <b>AW_HOR_POSITIVE</b>, <b>AW_HOR_NEGATIVE</b>, AW_VER_POSITIVE, or AW_VER_NEGATIVE. 
 
@@ -254,7 +254,7 @@ Avoid animating a window that has a drop shadow because it produces visually dis
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633548(v=VS.85).aspx">ShowWindow</a>
+<a href="https://msdn.microsoft.com/13ffef63-3e29-4ca7-a14d-48ff901d82b5">ShowWindow</a>
 
 
 
@@ -266,7 +266,7 @@ Avoid animating a window that has a drop shadow because it produces visually dis
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

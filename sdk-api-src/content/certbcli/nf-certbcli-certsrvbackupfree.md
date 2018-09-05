@@ -4,10 +4,10 @@ title: CertSrvBackupFree function
 author: windows-sdk-content
 description: Used to free memory allocated from certain Certificate Services Backup APIs.
 old-location: security\certsrvbackupfree.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: dbfac3fc-3156-4253-812a-8b0647719096
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CertSrvBackupFree, CertSrvBackupFree function [Security], _certsrv_certsrvbackupfree, certbcli/CertSrvBackupFree, security.certsrvbackupfree
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,27 +81,31 @@ Call this function when finished with memory allocated by using the following fu
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa376581(v=VS.85).aspx">CertSrvBackupGetBackupLogs</a>
+<a href="https://msdn.microsoft.com/bbc6e6c2-bb2c-4b0e-b1ba-6acf26a48f45">CertSrvBackupGetBackupLogs</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa376582(v=VS.85).aspx">CertSrvBackupGetDatabaseNames</a>
+<a href="https://msdn.microsoft.com/5e62be79-693a-4543-8d83-262f00686c99">CertSrvBackupGetDatabaseNames</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa376583(v=VS.85).aspx">CertSrvBackupGetDynamicFileList</a>
+<a href="https://msdn.microsoft.com/ff60b705-5ac6-4e61-9b88-9ffc2dc9adce">CertSrvBackupGetDynamicFileList</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa377021(v=VS.85).aspx">CertSrvServerControl</a>
+<a href="https://msdn.microsoft.com/6f32e7f4-60d5-4370-b240-46aa2475e279">CertSrvServerControl</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Aa377003(v=VS.85).aspx">CertSrvRestoreGetDatabaseLocations</a>
+<a href="https://msdn.microsoft.com/02355bd7-6788-4c32-940e-b89e47619aa0">CertSrvRestoreGetDatabaseLocations</a>
 </li>
 </ul>
 
 #### Examples
 
-
-```cpp
-FNCERTSRVBACKUPFREE* pfnBackupFree;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>FNCERTSRVBACKUPFREE* pfnBackupFree;
 
 char * szBackupFreeFunc = "CertSrvBackupFree";
 
@@ -122,10 +126,10 @@ if ( NULL == pfnBackupFree )
 
 // Free allocated memory.
 // pBuff was allocated by another certsrv backup function.
-pfnBackupFree(pBuff);
-```
-
-
+pfnBackupFree(pBuff);</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -134,27 +138,27 @@ pfnBackupFree(pBuff);
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376581(v=VS.85).aspx">CertSrvBackupGetBackupLogs</a>
+<a href="https://msdn.microsoft.com/bbc6e6c2-bb2c-4b0e-b1ba-6acf26a48f45">CertSrvBackupGetBackupLogs</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376582(v=VS.85).aspx">CertSrvBackupGetDatabaseNames</a>
+<a href="https://msdn.microsoft.com/5e62be79-693a-4543-8d83-262f00686c99">CertSrvBackupGetDatabaseNames</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa376583(v=VS.85).aspx">CertSrvBackupGetDynamicFileList</a>
+<a href="https://msdn.microsoft.com/ff60b705-5ac6-4e61-9b88-9ffc2dc9adce">CertSrvBackupGetDynamicFileList</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377003(v=VS.85).aspx">CertSrvRestoreGetDatabaseLocations</a>
+<a href="https://msdn.microsoft.com/02355bd7-6788-4c32-940e-b89e47619aa0">CertSrvRestoreGetDatabaseLocations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa377021(v=VS.85).aspx">CertSrvServerControl</a>
+<a href="https://msdn.microsoft.com/6f32e7f4-60d5-4370-b240-46aa2475e279">CertSrvServerControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa388174(v=VS.85).aspx">Using the Certificate Services Backup and Restore Functions</a>
+<a href="https://msdn.microsoft.com/47e8f490-ecb2-4c41-8bf0-b673e173ddc6">Using the Certificate Services Backup and Restore Functions</a>
  
 
  

@@ -4,10 +4,10 @@ title: Session_IPv4
 author: windows-sdk-content
 description: The Session_IPv4 structure stores information about an IPv4 RSVP SESSION object.
 old-location: qos\session_ipv4.htm
-old-project: qos
+old-project: QOS
 ms.assetid: 8fbe41f2-c7c7-4476-b5e6-f3306ce74cf6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Session_IPv4, Session_IPv4 structure [QOS], lpmapi/Session_IPv4, qos.session_ipv4
 ms.prod: windows
 ms.technology: windows-sdk

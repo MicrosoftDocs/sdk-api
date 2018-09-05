@@ -7,7 +7,7 @@ old-location: wmi\swbemmethod_outparameters.htm
 old-project: WmiSdk
 ms.assetid: ae7774f7-8a53-44e4-a110-2aef9ae4037f
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: ISWbemMethod interface [Windows Management Instrumentation],OutParameters property, ISWbemMethod.get_OutParameters, ISWbemMethod::get_OutParameters, OutParameters property [Windows Management Instrumentation], OutParameters property [Windows Management Instrumentation],ISWbemMethod interface, OutParameters property [Windows Management Instrumentation],SWbemMethod object, SWbemMethod object [Windows Management Instrumentation],OutParameters property, SWbemMethod.OutParameters, _hmm_swbemmethod.outparameters, get_OutParameters, wmi.swbemmethod_outparameters
 ms.prod: windows
 ms.technology: windows-sdk

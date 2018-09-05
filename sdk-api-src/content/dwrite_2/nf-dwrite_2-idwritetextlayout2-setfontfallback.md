@@ -7,7 +7,7 @@ old-location: directwrite\idwritetextlayout2_setfontfallback.htm
 old-project: DirectWrite
 ms.assetid: 63B86AE4-92D4-4748-A6E2-987B740080EB
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: IDWriteTextLayout2 interface [Direct Write],SetFontFallback method, IDWriteTextLayout2.SetFontFallback, IDWriteTextLayout2::SetFontFallback, SetFontFallback, SetFontFallback method [Direct Write], SetFontFallback method [Direct Write],IDWriteTextLayout2 interface, directwrite.idwritetextlayout2_setfontfallback, dwrite_2/IDWriteTextLayout2::SetFontFallback
 ms.prod: windows
 ms.technology: windows-sdk

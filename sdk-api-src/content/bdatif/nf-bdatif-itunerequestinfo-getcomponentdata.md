@@ -52,7 +52,7 @@ req.irql:
 
 
 
-The <b>GetComponentData</b> method fills in all network-specific component data for the existing <a href="https://msdn.microsoft.com/en-us/library/Dd693034(v=VS.85).aspx">Components</a> collection on the specified tune request.
+The <b>GetComponentData</b> method fills in all network-specific component data for the existing <a href="https://msdn.microsoft.com/6d779095-12f9-4e00-a25f-0a840f5149fa">Components</a> collection on the specified tune request.
 
 
 
@@ -71,7 +71,7 @@ The <b>GetComponentData</b> method fills in all network-specific component data 
 
 #### - pCurrentRequest [in]
 
-Pointer to the <a href="https://msdn.microsoft.com/en-us/library/Dd694997(v=VS.85).aspx">ITuneRequest</a> interface on the tune request.
+Pointer to the <a href="https://msdn.microsoft.com/34077b45-32b4-466b-b103-6a42fc869265">ITuneRequest</a> interface on the tune request.
 
 
 ## -returns
@@ -127,11 +127,11 @@ The Network Provider calls this method after the tuner has tuned to the specifie
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd375623(v=VS.85).aspx">Error and Success Codes</a>
+<a href="https://msdn.microsoft.com/369c2bd1-9c11-4524-b999-6a3b73c45261">Error and Success Codes</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd694998(v=VS.85).aspx">ITuneRequestInfo Interface</a>
+<a href="https://msdn.microsoft.com/e5cb1a15-29c4-4e0f-aed2-eafe12ea007a">ITuneRequestInfo Interface</a>
  
 
  

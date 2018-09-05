@@ -7,7 +7,7 @@ old-location: mscs\group_failure_info_buffer.htm
 old-project: mscs
 ms.assetid: 69824D88-B9CE-451B-B65A-84822755CEAC
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PGROUP_FAILURE_INFO_BUFFER, GROUP_FAILURE_INFO_BUFFER, GROUP_FAILURE_INFO_BUFFER structure [Failover Cluster], PGROUP_FAILURE_INFO_BUFFER, PGROUP_FAILURE_INFO_BUFFER structure pointer [Failover Cluster], clusapi/GROUP_FAILURE_INFO_BUFFER, clusapi/PGROUP_FAILURE_INFO_BUFFER, msclus/GROUP_FAILURE_INFO_BUFFER, msclus/PGROUP_FAILURE_INFO_BUFFER, mscs.group_failure_info_buffer"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-Represents a buffer for a <a href="https://msdn.microsoft.com/en-us/library/Dn622936(v=VS.85).aspx">GROUP_FAILURE_INFO</a> structure.
+Represents a buffer for a <a href="https://msdn.microsoft.com/C3E7585B-21F8-4E4C-A970-C07F72C80E76">GROUP_FAILURE_INFO</a> structure.
 
 
 ## -struct-fields
@@ -67,7 +67,7 @@ The version of this structure. Set this parameter to <b>GROUP_FAILURE_INFO_VERSI
 
 ### -field Info
 
-The <a href="https://msdn.microsoft.com/en-us/library/Dn622936(v=VS.85).aspx">GROUP_FAILURE_INFO</a> structure that contains information about the failover attempts for the group failure.
+The <a href="https://msdn.microsoft.com/C3E7585B-21F8-4E4C-A970-C07F72C80E76">GROUP_FAILURE_INFO</a> structure that contains information about the failover attempts for the group failure.
 
 
 ## -see-also
@@ -75,7 +75,7 @@ The <a href="https://msdn.microsoft.com/en-us/library/Dn622936(v=VS.85).aspx">GR
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa373109(v=VS.85).aspx">Utility structures</a>
+<a href="https://msdn.microsoft.com/45da8dbc-dd70-4f95-b933-66d8e4340448">Utility structures</a>
  
 
  

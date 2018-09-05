@@ -52,7 +52,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-Gets the index of the uppermost visible line in a multiline edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761574(v=VS.85).aspx">EM_GETFIRSTVISIBLELINE</a> message explicitly.
+Gets the index of the uppermost visible line in a multiline edit or rich edit control. You can use this macro or send the <a href="https://msdn.microsoft.com/022838d2-7948-4c5a-92ca-655822c4f672">EM_GETFIRSTVISIBLELINE</a> message explicitly.
 
 
 ## -parameters
@@ -71,7 +71,7 @@ A handle to the control.
 
 
 
-For more information, see <a href="https://msdn.microsoft.com/en-us/library/Bb761574(v=VS.85).aspx">EM_GETFIRSTVISIBLELINE</a>.
+For more information, see <a href="https://msdn.microsoft.com/022838d2-7948-4c5a-92ca-655822c4f672">EM_GETFIRSTVISIBLELINE</a>.
 
 
 

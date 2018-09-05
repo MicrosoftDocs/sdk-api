@@ -4,10 +4,10 @@ title: SCardUIDlgSelectCardA function
 author: windows-sdk-content
 description: Displays the smart card Select Card dialog box.
 old-location: security\scarduidlgselectcard.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 68014e9e-0ea3-4032-8db5-c1887a1cc9ad
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: SCardUIDlgSelectCard, SCardUIDlgSelectCard function [Security], SCardUIDlgSelectCardA, SCardUIDlgSelectCardW, _smart_scarduidlgselectcard, security.scarduidlgselectcard, winscard/SCardUIDlgSelectCard, winscard/SCardUIDlgSelectCardA, winscard/SCardUIDlgSelectCardW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -76,7 +76,7 @@ If the function successfully displays the
 						<b>Select Card</b> dialog box, the return value is SCARD_S_SUCCESS.
 
 If the function fails, it returns an error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 
 
@@ -133,9 +133,13 @@ This function replaces
 
 The following example  shows how to display the smart card <b>Select Card</b> dialog box.
 
-
-```cpp
-SCARDCONTEXT     hSC;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>SCARDCONTEXT     hSC;
 OPENCARDNAME_EX  dlgStruct;
 WCHAR            szReader[256];
 WCHAR            szCard[256];
@@ -146,7 +150,7 @@ LONG             lReturn;
 lReturn = SCardEstablishContext(SCARD_SCOPE_USER,
                                 NULL,
                                 NULL,
-                                &hSC );
+                                &amp;hSC );
 if ( SCARD_S_SUCCESS != lReturn )
 {
     printf("Failed SCardEstablishContext\n");
@@ -154,7 +158,7 @@ if ( SCARD_S_SUCCESS != lReturn )
 }
 
 // Initialize the structure.
-memset(&dlgStruct, 0, sizeof(dlgStruct));
+memset(&amp;dlgStruct, 0, sizeof(dlgStruct));
 dlgStruct.dwStructSize = sizeof(dlgStruct);
 dlgStruct.hSCardContext = hSC;
 dlgStruct.dwFlags = SC_DLG_FORCE_UI;
@@ -165,17 +169,17 @@ dlgStruct.nMaxCard = 256;
 dlgStruct.lpstrTitle = (LPSTR) "My Select Card Title";
 
 // Display the select card dialog box.
-lReturn = SCardUIDlgSelectCard(&dlgStruct);
+lReturn = SCardUIDlgSelectCard(&amp;dlgStruct);
 if ( SCARD_S_SUCCESS != lReturn )
     printf("Failed SCardUIDlgSelectCard - %x\n", lReturn );
 else
     printf("Reader: %S\nCard: %S\n", szReader, szCard );
 
 // Release the context (by SCardReleaseContext - not shown here).
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: wsw\ws_uint64_description.htm
 old-project: wsw
 ms.assetid: 62a8da3a-3e5d-4ce8-bda5-08f84255ba3f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_UINT64_DESCRIPTION, WS_UINT64_DESCRIPTION structure [Web Services for Windows], _WS_UINT64_DESCRIPTION, webservices/WS_UINT64_DESCRIPTION, wsw.ws_uint64_description
 ms.prod: windows
 ms.technology: windows-sdk

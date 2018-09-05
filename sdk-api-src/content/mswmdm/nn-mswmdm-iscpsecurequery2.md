@@ -7,7 +7,7 @@ old-location: wmdm\iscpsecurequery2.htm
 old-project: WMDM
 ms.assetid: fe5ae201-355d-4402-8d57-a721aecfdbde
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ISCPSecureQuery2, ISCPSecureQuery2 interface [windows Media Device Manager], ISCPSecureQuery2 interface [windows Media Device Manager],described, ISCPSecureQuery2Interface, mswmdm/ISCPSecureQuery2, wmdm.iscpsecurequery2
 ms.prod: windows
 ms.technology: windows-sdk

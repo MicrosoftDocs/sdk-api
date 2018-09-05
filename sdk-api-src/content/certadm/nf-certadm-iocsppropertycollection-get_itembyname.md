@@ -4,10 +4,10 @@ title: IOCSPPropertyCollection::get_ItemByName
 author: windows-sdk-content
 description: Gets the property identified by name in a property set.
 old-location: security\iocsppropertycollection_itembyname_method.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 0f7fe732-1d76-49c0-8b1e-a9950c85ca59
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: IOCSPPropertyCollection interface [Security],ItemByName property, IOCSPPropertyCollection.ItemByName, IOCSPPropertyCollection.get_ItemByName, IOCSPPropertyCollection::ItemByName, IOCSPPropertyCollection::get_ItemByName, ItemByName property [Security], ItemByName property [Security],IOCSPPropertyCollection interface, certadm/IOCSPPropertyCollection::ItemByName, certadm/IOCSPPropertyCollection::get_ItemByName, get_ItemByName, security.iocsppropertycollection_itembyname_method
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa386394(v=VS.85).aspx">IOCSPPropertyCollection</a>
+<a href="https://msdn.microsoft.com/8c700357-0cb4-4780-9ff1-ac57c46f9183">IOCSPPropertyCollection</a>
  
 
  

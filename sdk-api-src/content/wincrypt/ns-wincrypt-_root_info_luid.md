@@ -4,10 +4,10 @@ title: "_ROOT_INFO_LUID"
 author: windows-sdk-content
 description: Contains a locally unique identifier (LUID) for Cryptographic Smart Card Root Information.
 old-location: security\root_info_luid.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 5b61bbdd-a00a-4985-8066-574f9bff0079
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PROOT_INFO_LUID, PROOT_INFO_LUID, PROOT_INFO_LUID structure pointer [Security], ROOT_INFO_LUID, ROOT_INFO_LUID structure [Security], _ROOT_INFO_LUID, security.root_info_luid, wincrypt/PROOT_INFO_LUID, wincrypt/ROOT_INFO_LUID"
 ms.prod: windows
 ms.technology: windows-sdk

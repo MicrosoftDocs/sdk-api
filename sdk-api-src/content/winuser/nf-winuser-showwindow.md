@@ -7,7 +7,7 @@ old-location: winmsg\showwindow.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\showwindow.htm
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: SW_FORCEMINIMIZE, SW_HIDE, SW_MAXIMIZE, SW_MINIMIZE, SW_RESTORE, SW_SHOW, SW_SHOWDEFAULT, SW_SHOWMAXIMIZED, SW_SHOWMINIMIZED, SW_SHOWMINNOACTIVE, SW_SHOWNA, SW_SHOWNOACTIVATE, SW_SHOWNORMAL, ShowWindow, ShowWindow function [Windows and Messages], _win32_ShowWindow, _win32_showwindow_cpp, winmsg.showwindow, winui._win32_showwindow, winuser/ShowWindow
 ms.prod: windows
 ms.technology: windows-sdk
@@ -81,7 +81,7 @@ A handle to the window.
 
 Type: <b>int</b>
 
-Controls how the window is to be shown. This parameter is ignored the first time an application calls <b>ShowWindow</b>, if the program that launched the application provides a <a href="https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3">STARTUPINFO</a> structure. Otherwise, the first time <b>ShowWindow</b> is called, the value should be the value obtained by the <a href="https://msdn.microsoft.com/en-us/library/ms633559(v=VS.85).aspx">WinMain</a> function in its <i>nCmdShow</i> parameter. In subsequent calls, this parameter can be one of the following values. 
+Controls how the window is to be shown. This parameter is ignored the first time an application calls <b>ShowWindow</b>, if the program that launched the application provides a <a href="https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3">STARTUPINFO</a> structure. Otherwise, the first time <b>ShowWindow</b> is called, the value should be the value obtained by the <a href="https://msdn.microsoft.com/e704ccb6-b4ab-4e1b-8d25-2209de3d38f8">WinMain</a> function in its <i>nCmdShow</i> parameter. In subsequent calls, this parameter can be one of the following values. 
 
 <table>
 <tr>
@@ -253,20 +253,20 @@ If the window was previously hidden, the return value is zero.
 
 
 
-To perform certain special effects when showing or hiding a window, use <a href="https://msdn.microsoft.com/en-us/library/ms632669(v=VS.85).aspx">AnimateWindow</a>. 
+To perform certain special effects when showing or hiding a window, use <a href="https://msdn.microsoft.com/b10a4dfd-d544-41de-b359-4946e4030560">AnimateWindow</a>. 
 
-The first time an application calls <b>ShowWindow</b>, it should use the <a href="https://msdn.microsoft.com/en-us/library/ms633559(v=VS.85).aspx">WinMain</a> function's <i>nCmdShow</i> parameter as its <i>nCmdShow</i> parameter. Subsequent calls to <b>ShowWindow</b> must use one of the values in the given list, instead of the one specified by the <b>WinMain</b> function's <i>nCmdShow</i> parameter. 
+The first time an application calls <b>ShowWindow</b>, it should use the <a href="https://msdn.microsoft.com/e704ccb6-b4ab-4e1b-8d25-2209de3d38f8">WinMain</a> function's <i>nCmdShow</i> parameter as its <i>nCmdShow</i> parameter. Subsequent calls to <b>ShowWindow</b> must use one of the values in the given list, instead of the one specified by the <b>WinMain</b> function's <i>nCmdShow</i> parameter. 
 
 As noted in the discussion of the <i>nCmdShow</i> parameter, the <i>nCmdShow</i> value is ignored in the first call to <b>ShowWindow</b> if the program that launched the application specifies startup information in the  structure. In this case, <b>ShowWindow</b> uses the information specified in the <a href="https://msdn.microsoft.com/cf4b795c-52c1-4573-8328-99ee13f68bb3">STARTUPINFO</a> structure to show the window. On subsequent calls, the application must call <b>ShowWindow</b> with <i>nCmdShow</i> set to <b>SW_SHOWDEFAULT</b> to use the startup information provided by the program that launched the application. This behavior is designed for the following situations: 
 
 <ul>
-<li>Applications create their main window by calling <a href="https://msdn.microsoft.com/en-us/library/ms632679(v=VS.85).aspx">CreateWindow</a> with the <b>WS_VISIBLE</b> flag set. </li>
-<li>Applications create their main window by calling <a href="https://msdn.microsoft.com/en-us/library/ms632679(v=VS.85).aspx">CreateWindow</a> with the <b>WS_VISIBLE</b> flag cleared, and later call <b>ShowWindow</b> with the <b>SW_SHOW</b> flag set to make it visible. </li>
+<li>Applications create their main window by calling <a href="https://msdn.microsoft.com/5424b87c-22ea-414e-840e-214d9f0dc9ad">CreateWindow</a> with the <b>WS_VISIBLE</b> flag set. </li>
+<li>Applications create their main window by calling <a href="https://msdn.microsoft.com/5424b87c-22ea-414e-840e-214d9f0dc9ad">CreateWindow</a> with the <b>WS_VISIBLE</b> flag cleared, and later call <b>ShowWindow</b> with the <b>SW_SHOW</b> flag set to make it visible. </li>
 </ul>
 
 #### Examples
 
-For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms632598(v=VS.85).aspx">Creating a Main Window</a>.
+For an example, see <a href="using_windows.htm">Creating a Main Window</a>.
 
 <div class="code"></div>
 
@@ -277,7 +277,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms632598(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632669(v=VS.85).aspx">AnimateWindow</a>
+<a href="https://msdn.microsoft.com/b10a4dfd-d544-41de-b359-4946e4030560">AnimateWindow</a>
 
 
 
@@ -289,7 +289,7 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms632598(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632679(v=VS.85).aspx">CreateWindow</a>
+<a href="https://msdn.microsoft.com/5424b87c-22ea-414e-840e-214d9f0dc9ad">CreateWindow</a>
 
 
 
@@ -305,19 +305,19 @@ For an example, see <a href="https://msdn.microsoft.com/en-us/library/ms632598(v
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633547(v=VS.85).aspx">ShowOwnedPopups</a>
+<a href="https://msdn.microsoft.com/ca4cd67b-6db1-43a9-8918-1400fef2ea1e">ShowOwnedPopups</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633549(v=VS.85).aspx">ShowWindowAsync</a>
+<a href="https://msdn.microsoft.com/ecc6ceb6-78af-4be5-9639-7f1e286d24c3">ShowWindowAsync</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633559(v=VS.85).aspx">WinMain</a>
+<a href="https://msdn.microsoft.com/e704ccb6-b4ab-4e1b-8d25-2209de3d38f8">WinMain</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: mscs\clus_csv_maintenance_mode_info.htm
 old-project: mscs
 ms.assetid: 4DA05ADE-3C54-45A0-8A1C-911EB1ED1308
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PCLUS_CSV_MAINTENANCE_MODE_INFO, CLUS_CSV_MAINTENANCE_MODE_INFO, CLUS_CSV_MAINTENANCE_MODE_INFO structure [Failover Cluster], PCLUS_CSV_MAINTENANCE_MODE_INFO, PCLUS_CSV_MAINTENANCE_MODE_INFO structure pointer [Failover Cluster], clusapi/CLUS_CSV_MAINTENANCE_MODE_INFO, clusapi/PCLUS_CSV_MAINTENANCE_MODE_INFO, mscs.clus_csv_maintenance_mode_info"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 
 
 Used with the 
-    <a href="https://msdn.microsoft.com/en-us/library/Ee342496(v=VS.85).aspx">CLUSCTL_RESOURCE_SET_CSV_MAINTENANCE_MODE</a> 
+    <a href="https://msdn.microsoft.com/12c35048-660d-47d3-b35c-24eea5627ffb">CLUSCTL_RESOURCE_SET_CSV_MAINTENANCE_MODE</a> 
     control code to enables or disables the  maintenance mode on a cluster shared volume (CSV).
 
 
@@ -77,11 +77,11 @@ The volume <b>GUID</b> path of the CSV.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee342496(v=VS.85).aspx">CLUSCTL_RESOURCE_SET_CSV_MAINTENANCE_MODE</a>
+<a href="https://msdn.microsoft.com/12c35048-660d-47d3-b35c-24eea5627ffb">CLUSCTL_RESOURCE_SET_CSV_MAINTENANCE_MODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa373109(v=VS.85).aspx">Utility structures</a>
+<a href="https://msdn.microsoft.com/45da8dbc-dd70-4f95-b933-66d8e4340448">Utility structures</a>
  
 
  

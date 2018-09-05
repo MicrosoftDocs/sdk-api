@@ -2,13 +2,13 @@
 UID: NC:wincrypt.PFN_CERT_STORE_PROV_SET_CRL_PROPERTY
 title: PFN_CERT_STORE_PROV_SET_CRL_PROPERTY
 author: windows-sdk-content
-description: An application-defined callback function that is called by CertSetCRLContextProperty before setting the CRL's property.
-old-location: security\certstoreprovsetcrlpropertycallback.htm
-old-project: SecCrypto
-ms.assetid: 98ad9b24-8d7d-4fbe-8fd8-089f1ddfbff0
+description: An application-defined callback function that is called by CertSetCertificateContextProperty before setting the certificate's property.
+old-location: security\certstoreprovsetcertpropertycallback.htm
+old-project: seccrypto
+ms.assetid: 03d7e1f6-030f-4eae-b76d-5465748d9583
 ms.author: windowssdkdev
-ms.date: 08/15/2018
-ms.keywords: CertStoreProvSetCRLPropertyCallback, CertStoreProvSetCRLPropertyCallback callback, CertStoreProvSetCRLPropertyCallback callback function [Security], PFN_CERT_STORE_PROV_SET_CRL_PROPERTY, PFN_CERT_STORE_PROV_SET_CRL_PROPERTY callback function [Security], _crypto2_certstoreprovsetcrlpropertycallback, security.certstoreprovsetcrlpropertycallback, wincrypt/CertStoreProvSetCRLPropertyCallback, wincrypt/PFN_CERT_STORE_PROV_SET_CRL_PROPERTY
+ms.date: 08/29/2018
+ms.keywords: CertStoreProvSetCertPropertyCallback, PFN_CERT_STORE_PROV_SET_CERT_PROPERTY, PFN_CERT_STORE_PROV_SET_CERT_PROPERTY callback function [Security], PFN_CERT_STORE_PROV_SET_CRL_PROPERTY, PFN_CERT_STORE_PROV_SET_CRL_PROPERTY callback, PFN_CERT_STORE_PROV_SET_CRL_PROPERTY callback function [Security], _crypto2_certstoreprovsetcertpropertycallback, security.certstoreprovsetcertpropertycallback, wincrypt/PFN_CERT_STORE_PROV_SET_CERT_PROPERTY, wincrypt/PFN_CERT_STORE_PROV_SET_CRL_PROPERTY
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: callback
@@ -37,7 +37,7 @@ api_type:
 api_location:
  - Wincrypt.h
 api_name:
- - CertStoreProvSetCRLPropertyCallback
+ - PFN_CERT_STORE_PROV_SET_CRL_PROPERTY
 product: Windows
 targetos: Windows
 req.lib: 
@@ -53,10 +53,10 @@ req.product: Windows Address Book 5.0
 
 
 An application-defined callback function that is called by 
-<a href="https://msdn.microsoft.com/7e4a0a39-ce55-4171-9b66-31c1c28d895f">CertSetCRLContextProperty</a> before setting the CRL's property. It is also called by 
-<a href="https://msdn.microsoft.com/16c2cc06-28fd-42d9-a377-0df2eaeeae56">CertGetCRLContextProperty</a> when getting a hash property that needs to be created and then persisted through the set.
+<a href="https://msdn.microsoft.com/b4a0c66d-997f-49cb-935a-9187320037f1">CertSetCertificateContextProperty</a> before setting the certificate's property. It is also called by 
+<a href="https://msdn.microsoft.com/f766db64-3121-4f70-ac83-ce25ee634efa">CertGetCertificateContextProperty</a> when getting a <a href="https://msdn.microsoft.com/4165b820-30fc-477e-a690-81109f161323">hash</a> property that needs to be created and then persisted through the set.
 
-Upon input, the property has not been set for the <i>pCrlContext</i> parameter.
+Upon input, the property has not been set for the <i>pCertContext</i> parameter.
 
 
 ## -parameters
@@ -71,25 +71,28 @@ Provider-specific value returned in
 <a href="https://msdn.microsoft.com/2fe291dd-23e2-49df-b9e4-a4ed29667123">CertDllOpenStoreProv</a>.
 
 
-### -param pCrlContext [in]
-
-See 
-<a href="https://msdn.microsoft.com/7e4a0a39-ce55-4171-9b66-31c1c28d895f">CertSetCRLContextProperty</a>.
+### -param pCrlContext
 
 
 ### -param dwPropId [in]
 
-See <a href="https://msdn.microsoft.com/7e4a0a39-ce55-4171-9b66-31c1c28d895f">CertSetCRLContextProperty</a>.
+See <a href="https://msdn.microsoft.com/b4a0c66d-997f-49cb-935a-9187320037f1">CertSetCertificateContextProperty</a>.
 
 
 ### -param dwFlags [in]
 
-Copy of the <i>dwFlags</i> passed as a parameter to <a href="https://msdn.microsoft.com/7e4a0a39-ce55-4171-9b66-31c1c28d895f">CertSetCRLContextProperty</a>.
+Copy of the <i>dwFlags</i> passed as a parameter to <a href="https://msdn.microsoft.com/b4a0c66d-997f-49cb-935a-9187320037f1">CertSetCertificateContextProperty</a>.
 
 
 ### -param *pvData [in]
 
-See <a href="https://msdn.microsoft.com/7e4a0a39-ce55-4171-9b66-31c1c28d895f">CertSetCRLContextProperty</a>.
+See <a href="https://msdn.microsoft.com/b4a0c66d-997f-49cb-935a-9187320037f1">CertSetCertificateContextProperty</a>.
+
+
+#### - pCertContext [in]
+
+See 
+<a href="https://msdn.microsoft.com/b4a0c66d-997f-49cb-935a-9187320037f1">CertSetCertificateContextProperty</a>.
 
 
 ## -returns
@@ -110,7 +113,7 @@ Returns <b>TRUE</b> if it is okay to set the property.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Callback Functions</a>
+<a href="cryptography_functions.htm">Callback Functions</a>
 
 
 
@@ -118,11 +121,11 @@ Returns <b>TRUE</b> if it is okay to set the property.
 
 
 
-<a href="https://msdn.microsoft.com/16c2cc06-28fd-42d9-a377-0df2eaeeae56">CertGetCRLContextProperty</a>
+<a href="https://msdn.microsoft.com/f766db64-3121-4f70-ac83-ce25ee634efa">CertGetCertificateContextProperty</a>
 
 
 
-<a href="https://msdn.microsoft.com/7e4a0a39-ce55-4171-9b66-31c1c28d895f">CertSetCRLContextProperty</a>
+<a href="https://msdn.microsoft.com/b4a0c66d-997f-49cb-935a-9187320037f1">CertSetCertificateContextProperty</a>
  
 
  

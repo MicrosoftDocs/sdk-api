@@ -4,10 +4,10 @@ title: MesInqProcEncodingId function
 author: windows-sdk-content
 description: The MesInqProcEncodingId function provides the identity of an encoding.
 old-location: rpc\mesinqprocencodingid.htm
-old-project: rpc
+old-project: Rpc
 ms.assetid: b6d73cc3-cd35-4fe7-87e6-ecbfef777c44
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MesInqProcEncodingId, MesInqProcEncodingId function [RPC], _rpc_mesinqprocencodingid, midles/MesInqProcEncodingId, rpc.mesinqprocencodingid
 ms.prod: windows
 ms.technology: windows-sdk

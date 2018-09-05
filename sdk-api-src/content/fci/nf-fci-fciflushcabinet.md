@@ -4,10 +4,10 @@ title: FCIFlushCabinet function
 author: windows-sdk-content
 description: The FCIFlushCabinet function completes the current cabinet.
 old-location: winprog\fciflushcabinet.htm
-old-project: devnotes
+old-project: DevNotes
 ms.assetid: dc586260-180e-4a6b-accf-2ddd62ac1335
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FCIFlushCabinet, FCIFlushCabinet function [Windows API], fci/FCIFlushCabinet, winprog.fciflushcabinet
 ms.prod: windows
 ms.technology: windows-sdk

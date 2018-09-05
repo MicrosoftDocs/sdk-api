@@ -7,7 +7,7 @@ old-location: mbn\imbnconnectionprofilemanager_getconnectionprofiles.htm
 old-project: mbn
 ms.assetid: 96752181-1135-4dcf-9c07-056dfbf2ca5f
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetConnectionProfiles, GetConnectionProfiles method [Microsoft Broadband Networks], GetConnectionProfiles method [Microsoft Broadband Networks],IMbnConnectionProfileManager interface, IMbnConnectionProfileManager interface [Microsoft Broadband Networks],GetConnectionProfiles method, IMbnConnectionProfileManager.GetConnectionProfiles, IMbnConnectionProfileManager::GetConnectionProfiles, mbn.imbnconnectionprofilemanager_getconnectionprofiles, mbnapi/IMbnConnectionProfileManager::GetConnectionProfiles
 ms.prod: windows
 ms.technology: windows-sdk

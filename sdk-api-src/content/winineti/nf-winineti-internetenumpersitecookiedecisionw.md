@@ -7,7 +7,7 @@ old-location: wininet\internetenumpersitecookiedecision.htm
 old-project: WinInet
 ms.assetid: de1db7e6-21f4-4bbb-b4fc-277bbd01f32c
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: InternetEnumPerSiteCookieDecision, InternetEnumPerSiteCookieDecision function [WinINet], InternetEnumPerSiteCookieDecisionA, InternetEnumPerSiteCookieDecisionW, wininet.internetenumpersitecookiedecision, winineti/InternetEnumPerSiteCookieDecision, winineti/InternetEnumPerSiteCookieDecisionA, winineti/InternetEnumPerSiteCookieDecisionW
 ms.prod: windows
 ms.technology: windows-sdk

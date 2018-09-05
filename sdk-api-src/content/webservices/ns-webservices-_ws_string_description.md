@@ -7,7 +7,7 @@ old-location: wsw\ws_string_description.htm
 old-project: wsw
 ms.assetid: 10abb773-ec10-4e72-bce8-13fe3c41cb52
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_STRING_DESCRIPTION, WS_STRING_DESCRIPTION structure [Web Services for Windows], _WS_STRING_DESCRIPTION, webservices/WS_STRING_DESCRIPTION, wsw.ws_string_description
 ms.prod: windows
 ms.technology: windows-sdk

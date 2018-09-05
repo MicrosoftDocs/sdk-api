@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 ## -description
 
 
-The <b>Graphics::IsVisibleClipEmpty</b> method determines whether the visible clipping region of this <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object is empty. The visible clipping region is the intersection of the clipping region of this <b>Graphics</b> object and the clipping region of the window.
+The <b>Graphics::IsVisibleClipEmpty</b> method determines whether the visible clipping region of this <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object is empty. The visible clipping region is the intersection of the clipping region of this <b>Graphics</b> object and the clipping region of the window.
 
 
 ## -parameters
@@ -69,7 +69,7 @@ The <b>Graphics::IsVisibleClipEmpty</b> method determines whether the visible cl
 Type: <strong>Type: <b>BOOL</b>
 </strong>
 
-If the visible clipping region of this <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object is empty, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
+If the visible clipping region of this <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object is empty, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 
 
 
@@ -78,7 +78,7 @@ If the visible clipping region of this <a href="https://msdn.microsoft.com/en-us
 
 
 
-If the visible clipping region of a <a href="https://msdn.microsoft.com/en-us/library/ms534453(v=VS.85).aspx">Graphics</a> object is empty, there is no area left in which to draw. Consequently, nothing will be drawn when the visible clipping region is empty.
+If the visible clipping region of a <a href="https://msdn.microsoft.com/7e874710-3cd3-42c8-bd2f-8a779b19ba59">Graphics</a> object is empty, there is no area left in which to draw. Consequently, nothing will be drawn when the visible clipping region is empty.
 
 
 #### Examples
@@ -87,20 +87,24 @@ If the visible clipping region of a <a href="https://msdn.microsoft.com/en-us/li
 
 The following example determines whether the visible clipping region is empty. If it is not empty, it draws a rectangle.
 
-
-```cpp
-VOID Example_IsVisibleClipEmpty(HDC hdc)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID Example_IsVisibleClipEmpty(HDC hdc)
 {
    Graphics graphics(hdc);
 
    // If the clipping region is not empty, draw a rectangle.
    if (!graphics.IsVisibleClipEmpty())
    {
-   graphics.DrawRectangle(&Pen(Color(255, 0, 0, 0), 3), 0, 0, 100, 100);
+   graphics.DrawRectangle(&amp;Pen(Color(255, 0, 0, 0), 3), 0, 0, 100, 100);
    }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 

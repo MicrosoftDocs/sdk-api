@@ -7,7 +7,7 @@ old-location: base\getthreadwaitchain.htm
 old-project: debug
 ms.assetid: 5b418fa6-1d07-465e-85ea-b7127264eebf
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: GetThreadWaitChain, GetThreadWaitChain function, WCT_OUT_OF_PROC_COM_FLAG, WCT_OUT_OF_PROC_CS_FLAG, WCT_OUT_OF_PROC_FLAG, base.getthreadwaitchain, wct/GetThreadWaitChain
 ms.prod: windows
 ms.technology: windows-sdk

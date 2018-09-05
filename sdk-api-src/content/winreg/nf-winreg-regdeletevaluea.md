@@ -4,10 +4,10 @@ title: RegDeleteValueA function
 author: windows-sdk-content
 description: Removes a named value from the specified registry key.
 old-location: base\regdeletevalue.htm
-old-project: sysinfo
+old-project: SysInfo
 ms.assetid: 4393b4ef-cd10-40d4-bb12-2d84e7cb7d3c
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: RegDeleteValue, RegDeleteValue function, RegDeleteValueA, RegDeleteValueW, _win32_regdeletevalue, base.regdeletevalue, winreg/RegDeleteValue, winreg/RegDeleteValueA, winreg/RegDeleteValueW
 ms.prod: windows
 ms.technology: windows-sdk

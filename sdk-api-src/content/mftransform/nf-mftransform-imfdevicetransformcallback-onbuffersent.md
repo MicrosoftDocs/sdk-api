@@ -7,7 +7,7 @@ old-location: stream\imfdevicetransformcallback_onbuffersent.htm
 old-project: stream
 ms.assetid: 8736BF02-636A-4894-AA74-92A805152D52
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: IMFDeviceTransformCallback interface [Streaming Media Devices],OnBufferSent method, IMFDeviceTransformCallback.OnBufferSent, IMFDeviceTransformCallback::OnBufferSent, OnBufferSent, OnBufferSent method [Streaming Media Devices], OnBufferSent method [Streaming Media Devices],IMFDeviceTransformCallback interface, mftransform/IMFDeviceTransformCallback::OnBufferSent, stream.imfdevicetransformcallback_onbuffersent
 ms.prod: windows
 ms.technology: windows-sdk

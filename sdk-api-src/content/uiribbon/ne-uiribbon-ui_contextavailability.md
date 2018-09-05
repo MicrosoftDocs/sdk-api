@@ -7,7 +7,7 @@ old-location: windowsribbon\windowsribbon_ui_contextavailability.htm
 old-project: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_contextavailability.htm
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: UI_CONTEXTAVAILABILITY, UI_CONTEXTAVAILABILITY enumeration [Windows Ribbon], UI_CONTEXTAVAILABILITY_ACTIVE, UI_CONTEXTAVAILABILITY_AVAILABLE, UI_CONTEXTAVAILABILITY_NOTAVAILABLE, scenicintent_UI_CONTEXTAVAILABILITY, uiribbon/UI_CONTEXTAVAILABILITY, uiribbon/UI_CONTEXTAVAILABILITY_ACTIVE, uiribbon/UI_CONTEXTAVAILABILITY_AVAILABLE, uiribbon/UI_CONTEXTAVAILABILITY_NOTAVAILABLE, windowsribbon.windowsribbon_ui_contextavailability
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-Specifies values that identify the availability of a <a href="https://msdn.microsoft.com/en-us/library/Dd316798(v=VS.85).aspx">contextual tab</a>.
+Specifies values that identify the availability of a <a href="https://msdn.microsoft.com/1f57a8d7-97ac-4007-8a36-c6aec5b85e6c">contextual tab</a>.
 
 
 ## -enum-fields
@@ -79,7 +79,7 @@ A contextual tab is available for the selected object. The tab is the active tab
 
 
 
-A contextual tab  is displayed based on the <b>UI_CONTEXTAVAILABILITY</b> value in <a href="https://msdn.microsoft.com/en-us/library/Dd940399(v=VS.85).aspx">UI_PKEY_ContextAvailable</a>.
+A contextual tab  is displayed based on the <b>UI_CONTEXTAVAILABILITY</b> value in <a href="https://msdn.microsoft.com/d3cd551d-e71e-4b49-a8b6-f3cd25cf2535">UI_PKEY_ContextAvailable</a>.
 
 
 
@@ -89,11 +89,11 @@ A contextual tab  is displayed based on the <b>UI_CONTEXTAVAILABILITY</b> value 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd371540(v=VS.85).aspx">Constants and Enumerations</a>
+<a href="https://msdn.microsoft.com/8499a096-aac3-4af3-a4c9-eebf53698744">Constants and Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dd940399(v=VS.85).aspx">UI_PKEY_ContextAvailable</a>
+<a href="https://msdn.microsoft.com/d3cd551d-e71e-4b49-a8b6-f3cd25cf2535">UI_PKEY_ContextAvailable</a>
  
 
  

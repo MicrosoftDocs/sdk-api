@@ -7,7 +7,7 @@ old-location: winsensors_com_ref\isensor_seteventsink.htm
 old-project: SensorsAPI
 ms.assetid: 8e2f7edc-894f-4258-8948-2a3d4df532c3
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ISensor interface,SetEventSink method, ISensor.SetEventSink, ISensor::SetEventSink, SetEventSink, SetEventSink method, SetEventSink method,ISensor interface, sensorsapi/ISensor::SetEventSink, winsensors_com_ref.isensor_seteventsink
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: base\findexecutableimageproc.htm
 old-project: debug
 ms.assetid: cbd8cd63-8fdb-4314-8737-9f934de74f89
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: FindExecutableImageProc, FindExecutableImageProc callback, FindExecutableImageProc callback function, PFIND_EXE_FILE_CALLBACK, PFIND_EXE_FILE_CALLBACKW, _win32_findexecutableimageproc, base.findexecutableimageproc, dbghelp/FindExecutableImageProc
 ms.prod: windows
 ms.technology: windows-sdk

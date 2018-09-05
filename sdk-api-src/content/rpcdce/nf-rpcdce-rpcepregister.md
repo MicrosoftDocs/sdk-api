@@ -4,10 +4,10 @@ title: RpcEpRegister function
 author: windows-sdk-content
 description: The RpcEpRegister function adds to or replaces server address information in the local endpoint-map database.
 old-location: rpc\rpcepregister.htm
-old-project: rpc
+old-project: Rpc
 ms.assetid: 35656cdd-b1ae-43d3-a5c7-92bdb7726d5b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcEpRegister, RpcEpRegister function [RPC], RpcEpRegisterA, RpcEpRegisterW, _rpc_rpcepregister, rpc.rpcepregister, rpcdce/RpcEpRegister, rpcdce/RpcEpRegisterA, rpcdce/RpcEpRegisterW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: fs\importntmsdatabase.htm
 old-project: Rsm
 ms.assetid: 9bb41109-6548-4d22-92c8-0d8ed960f119
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: ImportNtmsDatabase, ImportNtmsDatabase function [Files], _zaw_importntmsdatabase, base.importntmsdatabase, fs.importntmsdatabase, ntmsapi/ImportNtmsDatabase
 ms.prod: windows
 ms.technology: windows-sdk
@@ -156,7 +156,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Database Backup and Recovery Functions</a>
+<a href="removable_storage_manager_functions.htm">Database Backup and Recovery Functions</a>
 
 
 

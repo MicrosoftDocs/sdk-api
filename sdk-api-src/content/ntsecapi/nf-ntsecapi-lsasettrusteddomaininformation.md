@@ -4,10 +4,10 @@ title: LsaSetTrustedDomainInformation function
 author: windows-sdk-content
 description: The LsaSetTrustedDomainInformation function modifies a Policy object's information about a trusted domain.
 old-location: security\lsasettrusteddomaininformation.htm
-old-project: secmgmt
+old-project: SecMgmt
 ms.assetid: a7b89ea7-af92-46ba-ac73-2fba1cc27680
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: LsaSetTrustedDomainInformation, LsaSetTrustedDomainInformation function [Security], TrustedDomainNameInformation, TrustedPasswordInformation, TrustedPosixOffsetInformation, _lsa_lsasettrusteddomaininformation, ntsecapi/LsaSetTrustedDomainInformation, security.lsasettrusteddomaininformation
 ms.prod: windows
 ms.technology: windows-sdk
@@ -141,7 +141,7 @@ Pointer to a structure containing the information to set. The type of structure 
 If the function succeeds, the return value is STATUS_SUCCESS.
 
 If the function fails, the return value is an NTSTATUS code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/ms721859(v=VS.85).aspx">LSA Policy Function Return Values</a>.
+<a href="management_return_values.htm">LSA Policy Function Return Values</a>.
 
 You can use the 
 <a href="https://msdn.microsoft.com/fa91794c-c502-4b36-84cc-a8d77c8e9d9f">LsaNtStatusToWinError</a> function to convert the NTSTATUS code to a Windows error code.

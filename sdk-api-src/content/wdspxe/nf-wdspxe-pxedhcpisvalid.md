@@ -4,10 +4,10 @@ title: PxeDhcpIsValid function
 author: windows-sdk-content
 description: Validates that a packet is a DHCP packet.
 old-location: wds\pxedhcpisvalid.htm
-old-project: wds
+old-project: Wds
 ms.assetid: b5f43afb-ab71-4edf-a48a-7315d19af913
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FALSE, PxeDhcpIsValid, PxeDhcpIsValid function [Windows Deployment Services], TRUE, wds.pxedhcpisvalid, wdspxe/PxeDhcpIsValid
 ms.prod: windows
 ms.technology: windows-sdk

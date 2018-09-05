@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationstoryboard_schedule.htm
 old-project: UIAnimation
 ms.assetid: b47d4ffd-ae51-40e7-8f91-9d7b7b2901c8
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IUIAnimationStoryboard interface [Windows Animation],Schedule method, IUIAnimationStoryboard.Schedule, IUIAnimationStoryboard::Schedule, Schedule, Schedule method [Windows Animation], Schedule method [Windows Animation],IUIAnimationStoryboard interface, uianimation.iuianimationstoryboard_schedule, uianimation/IUIAnimationStoryboard::Schedule
 ms.prod: windows
 ms.technology: windows-sdk
@@ -109,19 +109,23 @@ It is possible reuse a storyboard by calling <b>Schedule</b> again after its sta
 
 The following example gets the current time and schedules the storyboard. For an additional example, see <a href="https://msdn.microsoft.com/f3c8fe34-8bca-4421-a390-9e0ba9af27b4">Schedule a Storyboard</a>.
 
-
-```cpp
-// Get the current time and schedule the storyboard
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Get the current time and schedule the storyboard
 UI_ANIMATION_SECONDS secondsNow;
-hr = m_pAnimationTimer->GetTime(
-    &secondsNow
+hr = m_pAnimationTimer-&gt;GetTime(
+    &amp;secondsNow
     );
 if (SUCCEEDED(hr))
 {
     UI_ANIMATION_SCHEDULING_RESULT schedulingResult;
-    hr = pStoryboard->Schedule(
+    hr = pStoryboard-&gt;Schedule(
         secondsNow,
-        &schedulingResult
+        &amp;schedulingResult
         );
     if (SUCCEEDED(hr))
     {
@@ -134,10 +138,10 @@ if (SUCCEEDED(hr))
             ...
         }
     }
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

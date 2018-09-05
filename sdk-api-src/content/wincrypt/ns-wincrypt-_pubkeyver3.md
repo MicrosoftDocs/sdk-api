@@ -4,10 +4,10 @@ title: "_PUBKEYVER3"
 author: windows-sdk-content
 description: Contains information specific to the particular public key contained in the key BLOB.
 old-location: security\dhpubkey_ver3.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 02f702dd-be9d-4a9a-a3af-4db1802386b0
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: DHPUBKEY_VER3, DHPUBKEY_VER3 structure [Security], DSSPUBKEY_VER3, _PUBKEYVER3, _crypto2_dhpubkey_ver3, security.dhpubkey_ver3, wincrypt/DHPUBKEY_VER3
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,6 +83,15 @@ Number of bits in the DH key BLOB's prime, J. If J is not in the BLOB, then this
 ### -field DSSSeed
 
 Seed structure holding the seed and counter values used to generate the primes Q and P. If values in the <a href="https://msdn.microsoft.com/fbf2b5e4-b572-4b2c-907d-281570a0f26b">DSSSEED</a> structure are not available, then the counter element of the structure should be 0xFFFFFFFF.
+
+
+## -remarks
+
+
+
+<b>DSSPUBKEY_VER3</b> is an alias for this structure.
+
+
 
 
 ## -see-also

@@ -7,7 +7,7 @@ old-location: cos\icrmlogcontrol_writelogrecordvariants.htm
 old-project: cossdk
 ms.assetid: ebd3943d-0c77-49fe-a53e-bc0c45e13a54
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ICrmLogControl interface [COM+],WriteLogRecordVariants method, ICrmLogControl.WriteLogRecordVariants, ICrmLogControl::WriteLogRecordVariants, WriteLogRecordVariants, WriteLogRecordVariants method [COM+], WriteLogRecordVariants method [COM+],ICrmLogControl interface, _dtc_ICrmLogControl_WriteLogRecordVariants, comsvcs/ICrmLogControl::WriteLogRecordVariants, cos.icrmlogcontrol_writelogrecordvariants
 ms.prod: windows
 ms.technology: windows-sdk
@@ -141,7 +141,7 @@ The transaction has aborted, most likely because of a transaction time-out.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679573(v=VS.85).aspx">ICrmLogControl</a>
+<a href="https://msdn.microsoft.com/3309ed58-8161-46f3-93bc-afc0c9bc8d50">ICrmLogControl</a>
  
 
  

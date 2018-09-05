@@ -7,7 +7,7 @@ old-location: netmgmt\netaccessgetuserperms.htm
 old-project: netmgmt
 ms.assetid: 8f4f069f-86d7-40cf-a821-32345d308f70
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NetAccessGetUserPerms, NetAccessGetUserPerms function [Network Management], _win32_netaccessgetuserperms, lmaccess/NetAccessGetUserPerms, netmgmt.netaccessgetuserperms
 ms.prod: windows
 ms.technology: windows-sdk

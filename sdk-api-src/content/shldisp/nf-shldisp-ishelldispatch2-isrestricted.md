@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch2_IsRestricted.htm
 old-project: shell
 ms.assetid: 04275c5f-c3ed-4962-882f-2cce0258a9f4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellDispatch2 object [Windows Shell],IsRestricted method, IShellDispatch2.IsRestricted, IShellDispatch2::IsRestricted, IsRestricted, IsRestricted method [Windows Shell], IsRestricted method [Windows Shell],IShellDispatch2 object, _win32_IShellDispatch2_IsRestricted, shell.IShellDispatch2_IsRestricted
 ms.prod: windows
 ms.technology: windows-sdk
@@ -79,14 +79,14 @@ Retrieves a group's restriction setting from the registry.
 
 #### - sGroup [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a></b>
+Type: <b><a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a></b>
 
 A <b>String</b> that contains the group name. This value is the name of a registry subkey under which to check for the restriction.
 
 
 #### - sRestriction [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a></b>
+Type: <b><a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a></b>
 
 A <b>String</b> that contains the restriction whose value is to be retrieved.
 
@@ -136,9 +136,13 @@ The following examples show the use of <b>IsRestricted</b> to retrieve the data 
 JScript:
                 
 
-
-```javascript
-<script language="JScript">
+<div class="code"><span codelanguage="JScript"><table>
+<tr>
+<th>JScript</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="JScript"&gt;
     function fnIsRestricedJ()
     {
         var objShell = new ActiveXObject("shell.application");
@@ -147,16 +151,20 @@ JScript:
         lReturn = objShell.IsRestricted("system", "undockwithoutlogon");
         document.write(lReturn);
     }
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 VBScript:
 
-
-```vb
-<script language="VBScript">
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="VBScript"&gt;
     function fnIsRestricedVB()
         dim objShell
         dim lReturn
@@ -168,10 +176,10 @@ VBScript:
 
         set objShell = nothing
     end function
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

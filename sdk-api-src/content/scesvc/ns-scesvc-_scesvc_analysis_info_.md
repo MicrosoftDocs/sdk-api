@@ -4,10 +4,10 @@ title: "_SCESVC_ANALYSIS_INFO_"
 author: windows-sdk-content
 description: Contains the analysis information.
 old-location: security\scesvc_analysis_info.htm
-old-project: secmgmt
+old-project: SecMgmt
 ms.assetid: 4f0273df-435d-4324-b8ce-a774da935059
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PSCESVC_ANALYSIS_INFO, PSCESVC_ANALYSIS_INFO, PSCESVC_ANALYSIS_INFO structure pointer [Security], SCESVC_ANALYSIS_INFO, SCESVC_ANALYSIS_INFO structure [Security], _SCESVC_ANALYSIS_INFO_, _config_scesvc_analysis_info, scesvc/PSCESVC_ANALYSIS_INFO, scesvc/SCESVC_ANALYSIS_INFO, security.scesvc_analysis_info"
 ms.prod: windows
 ms.technology: windows-sdk

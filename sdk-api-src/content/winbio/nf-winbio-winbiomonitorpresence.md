@@ -4,10 +4,10 @@ title: WinBioMonitorPresence function
 author: windows-sdk-content
 description: Turns on the face-recognition or iris-monitoring mechanism for the specified biometric unit. Starting with Windows 10, build 1607, this function is available to use with a mobile image.
 old-location: secbiomet\winbiomonitorpresence.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: 973DA92D-7319-43A9-B4FF-3CAF8A644C50
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: WinBioMonitorPresence, WinBioMonitorPresence function [Windows Biometric Framework API], secbiomet.winbiomonitorpresence, winbio/WinBioMonitorPresence
 ms.prod: windows
 ms.technology: windows-sdk

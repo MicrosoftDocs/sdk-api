@@ -7,7 +7,7 @@ old-location: winrt\rofreeparameterizedtypeextra.htm
 old-project: WinRT
 ms.assetid: A9A063F3-D6E0-4383-B9AD-EA115FC3A8FD
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RoFreeParameterizedTypeExtra, RoFreeParameterizedTypeExtra function [Windows Runtime], roparameterizediid/RoFreeParameterizedTypeExtra, winrt.rofreeparameterizedtypeextra
 ms.prod: windows
 ms.technology: windows-sdk

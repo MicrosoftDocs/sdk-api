@@ -4,10 +4,10 @@ title: RpcNsMgmtEntryCreateA function
 author: windows-sdk-content
 description: The RpcNsMgmtEntryCreate function creates a name service&#8211;database entry.
 old-location: rpc\rpcnsmgmtentrycreate.htm
-old-project: rpc
+old-project: Rpc
 ms.assetid: 32de2395-174a-4e14-82db-9043db817708
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcNsMgmtEntryCreate, RpcNsMgmtEntryCreate function [RPC], RpcNsMgmtEntryCreateA, RpcNsMgmtEntryCreateW, _rpc_rpcnsmgmtentrycreate, rpc.rpcnsmgmtentrycreate, rpcnsi/RpcNsMgmtEntryCreate, rpcnsi/RpcNsMgmtEntryCreateA, rpcnsi/RpcNsMgmtEntryCreateW
 ms.prod: windows
 ms.technology: windows-sdk

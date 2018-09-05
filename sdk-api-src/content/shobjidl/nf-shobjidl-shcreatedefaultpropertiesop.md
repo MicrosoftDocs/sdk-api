@@ -7,7 +7,7 @@ old-location: shell\SHCreateDefaultPropertiesOp.htm
 old-project: shell
 ms.assetid: 5202ac48-16e7-4d64-8a69-2493036e1e11
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHCreateDefaultPropertiesOp, SHCreateDefaultPropertiesOp function [Windows Shell], _shell_SHCreateDefaultPropertiesOp, shell.SHCreateDefaultPropertiesOp, shobjidl/SHCreateDefaultPropertiesOp
 ms.prod: windows
 ms.technology: windows-sdk

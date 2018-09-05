@@ -4,10 +4,10 @@ title: IRDPSRAPIAudioStream::Start
 author: windows-sdk-content
 description: Starts the audio stream.
 old-location: rdp\irdpsrapiaudiostream_start.htm
-old-project: rdp
+old-project: Rdp
 ms.assetid: 23ADA8F5-9F44-45E6-88DC-852D8F62F03F
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IRDPSRAPIAudioStream interface [RDP],Start method, IRDPSRAPIAudioStream.Start, IRDPSRAPIAudioStream::Start, Start, Start method [RDP], Start method [RDP],IRDPSRAPIAudioStream interface, rdp.irdpsrapiaudiostream_start, rdpencomapi/IRDPSRAPIAudioStream::Start
 ms.prod: windows
 ms.technology: windows-sdk

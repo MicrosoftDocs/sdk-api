@@ -7,7 +7,7 @@ old-location: shell\SetMenuContextHelpId.htm
 old-project: shell
 ms.assetid: 55d944db-d889-468a-991a-b9779c90b44f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SetMenuContextHelpId, SetMenuContextHelpId function [Windows Shell], _win32_SetMenuContextHelpId, shell.SetMenuContextHelpId, winuser/SetMenuContextHelpId
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,12 @@ Associates a Help context identifier with a menu.
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
 
 TBD
 

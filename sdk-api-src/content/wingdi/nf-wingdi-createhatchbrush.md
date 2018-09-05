@@ -170,18 +170,22 @@ When you no longer need the brush, call the <a href="https://msdn.microsoft.com/
 
 The following example creates a logical brush that has the specified hatch pattern and color. You can also  set a hatch brush background to transparent or to opaque.
 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
+#include &lt;windows.h&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;string.h&gt;
+#include &lt;tchar.h&gt;
+#include &lt;stddef.h&gt;
 
-```cpp
 
-#include <windows.h>
-#include <stdlib.h>
-#include <string.h>
-#include <tchar.h>
-#include <stddef.h>
-
-
-#include <gdiplus.h>
-#include <assert.h>
+#include &lt;gdiplus.h&gt;
+#include &lt;assert.h&gt;
 
 using namespace Gdiplus;
 
@@ -229,7 +233,7 @@ int WINAPI WinMain(HINSTANCE hInstance,
     wcex.lpszClassName  = szWindowClass;
     wcex.hIconSm        = LoadIcon(wcex.hInstance, MAKEINTRESOURCE(IDI_APPLICATION));
 
-    if (!RegisterClassEx(&wcex))
+    if (!RegisterClassEx(&amp;wcex))
     {
         MessageBox(NULL,
             _T("Call to RegisterClassEx failed!"),
@@ -289,10 +293,10 @@ int WINAPI WinMain(HINSTANCE hInstance,
 
     // Main message loop:
     MSG msg;
-    while (GetMessage(&msg, NULL, 0, 0))
+    while (GetMessage(&amp;msg, NULL, 0, 0))
     {
-        TranslateMessage(&msg);
-        DispatchMessage(&msg);
+        TranslateMessage(&amp;msg);
+        DispatchMessage(&amp;msg);
     }
 
     return (int) msg.wParam;
@@ -368,7 +372,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
     switch (message)
     {
     case WM_PAINT:
-        hdc = BeginPaint(hWnd, &ps);
+        hdc = BeginPaint(hWnd, &amp;ps);
 
         // Start application-specific layout section.
         // Just print the geeting string in the top left corner.
@@ -381,7 +385,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
         SetHatchBrushBackground(hdc, true);
 
 
-        EndPaint(hWnd, &ps);
+        EndPaint(hWnd, &amp;ps);
         break;
 
     case WM_COMMAND:
@@ -417,10 +421,10 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 
     return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 <div class="code"></div>
 
 

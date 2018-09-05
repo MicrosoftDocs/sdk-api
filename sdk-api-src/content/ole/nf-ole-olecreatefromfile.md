@@ -7,7 +7,7 @@ old-location: com\olecreatefromfile.htm
 old-project: com
 ms.assetid: 98c63646-6617-46b6-8c3e-82d1c4d0adb6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: OleCreateFromFile, OleCreateFromFile function [COM], _ole_OleCreateFromFile, com.olecreatefromfile, ole/OleCreateFromFile
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,47 @@ Creates an embedded object from the contents of a named file.
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
+
+TBD
+
+
+### -param arg3
+
+TBD
+
+
+### -param arg4
+
+TBD
+
+
+### -param arg5
+
+TBD
+
+
+### -param arg6
+
+TBD
+
+
+### -param arg7
+
+TBD
+
+
+### -param arg8
+
+TBD
+
+
+### -param arg9
 
 TBD
 

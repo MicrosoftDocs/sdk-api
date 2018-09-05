@@ -202,15 +202,19 @@ If the user chooses not to enable location services, Windows will not show the  
 
 The following example demonstrates how to call <b>RequestPermissions</b> to request permission for latitude/longitude reports.
 
-
-```cpp
-             // Array of report types of interest. Other ones include IID_ICivicAddressReport
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>             // Array of report types of interest. Other ones include IID_ICivicAddressReport
             IID REPORT_TYPES[] = { IID_ILatLongReport };
 
             // Request permissions for this user account to receive location data for all the
             // types defined in REPORT_TYPES (which is currently just one report type)
             // The last parameter is not used.
-            if (FAILED(spLocation->RequestPermissions(
+            if (FAILED(spLocation-&gt;RequestPermissions(
                   NULL, 
                   REPORT_TYPES, 
                   ARRAYSIZE(REPORT_TYPES), 
@@ -219,9 +223,9 @@ The following example demonstrates how to call <b>RequestPermissions</b> to requ
                 wprintf(L"Warning: Unable to request permissions.\n");
             }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

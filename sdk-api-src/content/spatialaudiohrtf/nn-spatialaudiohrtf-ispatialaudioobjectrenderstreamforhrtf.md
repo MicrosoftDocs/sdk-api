@@ -7,7 +7,7 @@ old-location: coreaudio\ispatialaudiorenderstreamforhrtf.htm
 old-project: CoreAudio
 ms.assetid: 9DFEF82A-1571-47AB-BE0E-059BCCC8289A
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: ISpatialAudioObjectRenderStreamForHrtf, ISpatialAudioObjectRenderStreamForHrtf interface [Core Audio], ISpatialAudioObjectRenderStreamForHrtf interface [Core Audio],described, coreaudio.ispatialaudiorenderstreamforhrtf, spatialaudiohrtf/ISpatialAudioObjectRenderStreamForHrtf
 ms.prod: windows
 ms.technology: windows-sdk

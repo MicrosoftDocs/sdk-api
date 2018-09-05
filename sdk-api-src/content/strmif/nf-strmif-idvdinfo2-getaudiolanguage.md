@@ -152,11 +152,15 @@ DVD Navigator is not in a valid domain.
 
 This method does not return languages for menus. It sets the value pointed to by <i>pLanguage</i> to zero if the stream contains an unknown language. Call the <b>GetLocaleInfo</b> function to create a human-readable string name from <i>pLanguage</i>:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 LCID Language;
-hr = pDvdInfo->GetAudioLanguage(ulStream, &Language);
+hr = pDvdInfo-&gt;GetAudioLanguage(ulStream, &amp;Language);
 if (SUCCEEDED(hr))
 {
     int cchSize = GetLocaleInfo(Language, LOCALE_SENGLANGUAGE, 0, 0);
@@ -168,10 +172,10 @@ if (SUCCEEDED(hr))
         delete [] szString;
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

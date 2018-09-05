@@ -7,7 +7,7 @@ old-location: wer\werunregisterruntimeexceptionmodule.htm
 old-project: wer
 ms.assetid: 1a315923-b554-4363-a607-076690fc76a1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WerUnregisterRuntimeExceptionModule, WerUnregisterRuntimeExceptionModule function [Windows Error Reporting], wer.werunregisterruntimeexceptionmodule, werapi/WerUnregisterRuntimeExceptionModule
 ms.prod: windows
 ms.technology: windows-sdk

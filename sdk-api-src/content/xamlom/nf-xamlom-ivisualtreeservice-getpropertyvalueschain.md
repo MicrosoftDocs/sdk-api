@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\ivisualtreeservice_getpropertyvalueschain.htm
 old-project: xaml_diagnostics
 ms.assetid: 3D997B09-7B20-47BC-B19C-98945CA41D17
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetPropertyValuesChain, GetPropertyValuesChain method, GetPropertyValuesChain method,IVisualTreeService interface, IVisualTreeService interface,GetPropertyValuesChain method, IVisualTreeService.GetPropertyValuesChain, IVisualTreeService::GetPropertyValuesChain, xaml_diagnostics.ivisualtreeservice_getpropertyvalueschain, xamlom/IVisualTreeService::GetPropertyValuesChain
 ms.prod: windows
 ms.technology: windows-sdk

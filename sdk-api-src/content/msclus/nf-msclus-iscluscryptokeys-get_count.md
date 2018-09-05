@@ -7,7 +7,7 @@ old-location: mscs\cluscryptokeys_count.htm
 old-project: mscs
 ms.assetid: cb1daad5-998e-4ea9-bb8b-66dd8246af82
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusCryptoKeys class [Failover Cluster],Count property, ClusCryptoKeys.Count, Count property [Failover Cluster], Count property [Failover Cluster],ClusCryptoKeys class, ISClusCryptoKeys.get_Count, ISClusCryptoKeys::get_Count, _wolf_cluscryptokeys.count, get_Count, mscs.cluscryptokeys_count
 ms.prod: windows
 ms.technology: windows-sdk

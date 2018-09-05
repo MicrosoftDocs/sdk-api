@@ -4,10 +4,10 @@ title: RpcAsyncCancelCall function
 author: windows-sdk-content
 description: The client calls the RpcAsyncCancelCall function to cancel an asynchronous call.
 old-location: rpc\rpcasynccancelcall.htm
-old-project: rpc
+old-project: Rpc
 ms.assetid: e55d586f-969b-4e9a-97d9-b6c74b2a8b6d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcAsyncCancelCall, RpcAsyncCancelCall function [RPC], _rpc_rpcasynccancelcall, rpc.rpcasynccancelcall, rpcasync/RpcAsyncCancelCall
 ms.prod: windows
 ms.technology: windows-sdk

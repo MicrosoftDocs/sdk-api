@@ -4,10 +4,10 @@ title: WINHTTP_AUTOPROXY_OPTIONS
 author: windows-sdk-content
 description: The WINHTTP_AUTOPROXY_OPTIONS structure is used to indicate to the WinHttpGetProxyForURL function whether to specify the URL of the Proxy Auto-Configuration (PAC) file or to automatically locate the URL with DHCP or DNS queries to the network.
 old-location: http\winhttp_autoproxy_options.htm
-old-project: winhttp
+old-project: WinHttp
 ms.assetid: bc08e800-d58f-46d7-ba04-83a9f9144b0f
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: WINHTTP_AUTOPROXY_AUTO_DETECT, WINHTTP_AUTOPROXY_CONFIG_URL, WINHTTP_AUTOPROXY_NO_CACHE_CLIENT, WINHTTP_AUTOPROXY_NO_CACHE_SVC, WINHTTP_AUTOPROXY_NO_DIRECTACCESS, WINHTTP_AUTOPROXY_OPTIONS, WINHTTP_AUTOPROXY_OPTIONS structure [HTTP], WINHTTP_AUTOPROXY_RUN_INPROCESS, WINHTTP_AUTOPROXY_RUN_OUTPROCESS_ONLY, WINHTTP_AUTOPROXY_SORT_RESULTS, WINHTTP_AUTO_DETECT_TYPE_DHCP, WINHTTP_AUTO_DETECT_TYPE_DNS_A, http.winhttp_autoproxy_options, winhttp/WINHTTP_AUTOPROXY_OPTIONS
 ms.prod: windows
 ms.technology: windows-sdk

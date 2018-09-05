@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_Explore.htm
 old-project: shell
 ms.assetid: DB434D02-56B2-4e8f-9E43-BBF47C7BE377
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: Explore, Explore method [Windows Shell], Explore method [Windows Shell],IShellDispatch object, IShellDispatch object [Windows Shell],Explore method, IShellDispatch.Explore, IShellDispatch::Explore, shell.IShellDispatch_Explore
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,25 +94,33 @@ The following examples show the use of <b>Explore</b> in JScript, VBScript, and 
 JScript:
                 
 
-
-```javascript
-<script language="JScript">
+<div class="code"><span codelanguage="JScript"><table>
+<tr>
+<th>JScript</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="JScript"&gt;
     function fnShellExploreJ()
     {
         var objShell = new ActiveXObject("shell.application");
         
         objshell.Explore("C:\\");
     }
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 VBScript:
 
-
-```vb
-<script language="VBScript">
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="VBScript"&gt;
     function fnShellExploreVB()
         dim objShell
         dim ssfWINDOWS
@@ -123,16 +131,20 @@ VBScript:
 
         set objShell = nothing
     end function
- </script>
-
-```
-
-
+ &lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 Visual Basic:
 
-
-```vb
-Private Sub fnShellExploreVB()
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Private Sub fnShellExploreVB()
     Dim objShell As Shell
 
     Set objShell = New Shell
@@ -140,9 +152,9 @@ Private Sub fnShellExploreVB()
 
     Set objShell = Nothing
 End Sub
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

@@ -7,7 +7,7 @@ old-location: wmi\trefpointercollection_empty.htm
 old-project: WmiSdk
 ms.assetid: 08f9dcc6-cb85-42aa-837b-ab8021f488c6
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: Empty, Empty method [Windows Management Instrumentation], Empty method [Windows Management Instrumentation],TRefPointerCollection interface, TRefPointerCollection interface [Windows Management Instrumentation],Empty method, TRefPointerCollection.Empty, TRefPointerCollection::Empty, _hmm_trefpointercollection_empty, refptrco/TRefPointerCollection::Empty, wmi.trefpointercollection_empty
 ms.prod: windows
 ms.technology: windows-sdk

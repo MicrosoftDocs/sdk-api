@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariablechangehandler.htm
 old-project: UIAnimation
 ms.assetid: 2288b256-aaf4-44fe-9ad1-f05ef7b0e30b
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IUIAnimationVariableChangeHandler, IUIAnimationVariableChangeHandler interface [Windows Animation], IUIAnimationVariableChangeHandler interface [Windows Animation],described, uianimation.iuianimationvariablechangehandler, uianimation/IUIAnimationVariableChangeHandler
 ms.prod: windows
 ms.technology: windows-sdk

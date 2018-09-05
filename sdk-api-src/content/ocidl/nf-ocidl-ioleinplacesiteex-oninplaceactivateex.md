@@ -7,7 +7,7 @@ old-location: com\ioleinplacesiteex_oninplaceactivateex.htm
 old-project: com
 ms.assetid: 11c96c79-9884-4bac-828b-53ac4de65182
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IOleInPlaceSiteEx interface [COM],OnInPlaceActivateEx method, IOleInPlaceSiteEx.OnInPlaceActivateEx, IOleInPlaceSiteEx::OnInPlaceActivateEx, OnInPlaceActivateEx, OnInPlaceActivateEx method [COM], OnInPlaceActivateEx method [COM],IOleInPlaceSiteEx interface, _ole_ioleinplacesiteex_oninplaceactivateex, com.ioleinplacesiteex_oninplaceactivateex, ocidl/IOleInPlaceSiteEx::OnInPlaceActivateEx
 ms.prod: windows
 ms.technology: windows-sdk

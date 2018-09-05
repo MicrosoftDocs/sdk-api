@@ -7,7 +7,7 @@ old-location: coreaudio\iaudioloudness_getenabled.htm
 old-project: CoreAudio
 ms.assetid: 1ce0cd1b-e80f-45dc-b64e-1aa09bb53dbd
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: GetEnabled, GetEnabled method [Core Audio], GetEnabled method [Core Audio],IAudioLoudness interface, IAudioLoudness interface [Core Audio],GetEnabled method, IAudioLoudness.GetEnabled, IAudioLoudness::GetEnabled, IAudioLoudnessGetEnabled, coreaudio.iaudioloudness_getenabled, devicetopology/IAudioLoudness::GetEnabled
 ms.prod: windows
 ms.technology: windows-sdk

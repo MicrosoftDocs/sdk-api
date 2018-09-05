@@ -7,7 +7,7 @@ old-location: winmsg\windowpos.htm
 old-project: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\windowpos.htm
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPWINDOWPOS, *PWINDOWPOS, LPWINDOWPOS, LPWINDOWPOS structure pointer [Windows and Messages], PWINDOWPOS, PWINDOWPOS structure pointer [Windows and Messages], SWP_ NOOWNERZORDER, SWP_DRAWFRAME, SWP_FRAMECHANGED, SWP_HIDEWINDOW, SWP_NOACTIVATE, SWP_NOCOPYBITS, SWP_NOMOVE, SWP_NOREDRAW, SWP_NOREPOSITION, SWP_NOSENDCHANGING, SWP_NOSIZE, SWP_NOZORDER, SWP_SHOWWINDOW, WINDOWPOS, WINDOWPOS structure [Windows and Messages], _win32_WINDOWPOS_str, _win32_windowpos_str_cpp, tagWINDOWPOS, winmsg.windowpos, winui._win32_windowpos_str, winuser/LPWINDOWPOS, winuser/PWINDOWPOS, winuser/WINDOWPOS"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ Contains information about the size and position of a window.
 
 Type: <b>HWND</b>
 
-The position of the window in Z order (front-to-back position). This member can be a handle to the window behind which this window is placed, or can be one of the special values listed with the <a href="https://msdn.microsoft.com/en-us/library/ms633545(v=VS.85).aspx">SetWindowPos</a> function. 
+The position of the window in Z order (front-to-back position). This member can be a handle to the window behind which this window is placed, or can be one of the special values listed with the <a href="https://msdn.microsoft.com/e0a28590-0fed-4ffa-adcd-84b60df316b5">SetWindowPos</a> function. 
 
 
 ### -field hwnd
@@ -131,7 +131,7 @@ Draws a frame (defined in the window's class description) around the window. Sam
 </dl>
 </td>
 <td width="60%">
-Sends a <a href="https://msdn.microsoft.com/en-us/library/ms632634(v=VS.85).aspx">WM_NCCALCSIZE</a> message to the window, even if the window's size is not being changed. If this flag is not specified, <b>WM_NCCALCSIZE</b> is sent only when the window's size is being changed.
+Sends a <a href="https://msdn.microsoft.com/d2d5825e-02a5-44b8-8615-55b7259d24ba">WM_NCCALCSIZE</a> message to the window, even if the window's size is not being changed. If this flag is not specified, <b>WM_NCCALCSIZE</b> is sent only when the window's size is being changed.
 
 </td>
 </tr>
@@ -224,7 +224,7 @@ Does not change the owner window's position in the Z order. Same as the <b>SWP_N
 </td>
 <td width="60%">
 Prevents the window from receiving the 
-						<a href="https://msdn.microsoft.com/en-us/library/ms632653(v=VS.85).aspx">WM_WINDOWPOSCHANGING</a> message.
+						<a href="https://msdn.microsoft.com/45ecd966-5222-4738-9e99-8a6edbdd435a">WM_WINDOWPOSCHANGING</a> message.
 
 </td>
 </tr>
@@ -277,7 +277,7 @@ Displays the window.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633440(v=VS.85).aspx">EndDeferWindowPos</a>
+<a href="https://msdn.microsoft.com/5a2c6804-e47b-4af9-9150-0f41bf05ce56">EndDeferWindowPos</a>
 
 
 
@@ -285,15 +285,15 @@ Displays the window.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms633545(v=VS.85).aspx">SetWindowPos</a>
+<a href="https://msdn.microsoft.com/e0a28590-0fed-4ffa-adcd-84b60df316b5">SetWindowPos</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632634(v=VS.85).aspx">WM_NCCALCSIZE</a>
+<a href="https://msdn.microsoft.com/d2d5825e-02a5-44b8-8615-55b7259d24ba">WM_NCCALCSIZE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms632595(v=VS.85).aspx">Windows</a>
+<a href="https://msdn.microsoft.com/e2c778c7-7319-4bf7-a6a7-b526e4f3e98b">Windows</a>
  
 
  

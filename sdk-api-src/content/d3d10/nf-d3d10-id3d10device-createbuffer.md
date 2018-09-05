@@ -7,7 +7,7 @@ old-location: direct3d10\id3d10device_createbuffer.htm
 old-project: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_createbuffer.htm
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: CreateBuffer, CreateBuffer method [Direct3D 10], CreateBuffer method [Direct3D 10],ID3D10Device interface, ID3D10Device interface [Direct3D 10],CreateBuffer method, ID3D10Device.CreateBuffer, ID3D10Device::CreateBuffer, d3d10/ID3D10Device::CreateBuffer, direct3d10.id3d10device_createbuffer, f67833a5-95f8-0430-5015-e074533c6dd1
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 ## -description
 
 
-Create a <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).aspx">buffer</a> (vertex buffer, index buffer, or shader-constant buffer).
+Create a <a href="https://msdn.microsoft.com/c5238a2f-d69d-4ce5-a5aa-66a6c18d5f69">buffer</a> (vertex buffer, index buffer, or shader-constant buffer).
 
 
 ## -parameters
@@ -62,32 +62,32 @@ Create a <a href="https://msdn.microsoft.com/en-us/library/Bb205133(v=VS.85).asp
 
 ### -param pDesc [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb204896(v=VS.85).aspx">D3D10_BUFFER_DESC</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/3f98c741-ff4c-4080-bd57-ef35cd6622d6">D3D10_BUFFER_DESC</a>*</b>
 
-Pointer to a buffer description (see <a href="https://msdn.microsoft.com/en-us/library/Bb204896(v=VS.85).aspx">D3D10_BUFFER_DESC</a>).
+Pointer to a buffer description (see <a href="https://msdn.microsoft.com/3f98c741-ff4c-4080-bd57-ef35cd6622d6">D3D10_BUFFER_DESC</a>).
 
 
 ### -param pInitialData [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Bb172456(v=VS.85).aspx">D3D10_SUBRESOURCE_DATA</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/083d9027-5c4d-47f4-9d42-b1016628b210">D3D10_SUBRESOURCE_DATA</a>*</b>
 
-Pointer to the initialization data (see <a href="https://msdn.microsoft.com/en-us/library/Bb172456(v=VS.85).aspx">D3D10_SUBRESOURCE_DATA</a>); use <b>NULL</b> to allocate space only.
+Pointer to the initialization data (see <a href="https://msdn.microsoft.com/083d9027-5c4d-47f4-9d42-b1016628b210">D3D10_SUBRESOURCE_DATA</a>); use <b>NULL</b> to allocate space only.
 
 
 ### -param ppBuffer [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb173510(v=VS.85).aspx">ID3D10Buffer</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/a81e0dfc-9be4-4ba6-a388-9c9bb97a0fa9">ID3D10Buffer</a>**</b>
 
-Address of a pointer to the buffer created (see <a href="https://msdn.microsoft.com/en-us/library/Bb173510(v=VS.85).aspx">ID3D10Buffer Interface</a>). Set this parameter to <b>NULL</b> to validate the other input parameters (S_FALSE indicates a pass).
+Address of a pointer to the buffer created (see <a href="https://msdn.microsoft.com/a81e0dfc-9be4-4ba6-a388-9c9bb97a0fa9">ID3D10Buffer Interface</a>). Set this parameter to <b>NULL</b> to validate the other input parameters (S_FALSE indicates a pass).
 
 
 ## -returns
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
-This method returns one of the following <a href="https://msdn.microsoft.com/en-us/library/Bb205278(v=VS.85).aspx">Direct3D 10 Return Codes</a>.
+This method returns one of the following <a href="https://msdn.microsoft.com/7b67d428-d000-4c3e-adc1-b5fc67a15a6a">Direct3D 10 Return Codes</a>.
 
 
 
@@ -100,10 +100,10 @@ For example code, see:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb205130(v=VS.85).aspx">Create a Vertex Buffer</a>
+<a href="https://msdn.microsoft.com/9787b153-9301-4a0f-bd6f-21cc6f7fc650">Create a Vertex Buffer</a>
 </li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Bb205130(v=VS.85).aspx">Create an Index Buffer</a>
+<a href="https://msdn.microsoft.com/9787b153-9301-4a0f-bd6f-21cc6f7fc650">Create an Index Buffer</a>
 </li>
 </ul>
 
@@ -114,7 +114,7 @@ For example code, see:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb173528(v=VS.85).aspx">ID3D10Device Interface</a>
+<a href="https://msdn.microsoft.com/63c7fca3-5575-41a7-9bdf-2582e6b9c182">ID3D10Device Interface</a>
  
 
  

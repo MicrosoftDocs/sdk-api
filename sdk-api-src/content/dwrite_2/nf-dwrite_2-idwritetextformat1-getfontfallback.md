@@ -7,7 +7,7 @@ old-location: directwrite\idwritetextformat1_getfontfallback.htm
 old-project: DirectWrite
 ms.assetid: D34A49A0-CE37-43B9-B7CC-6A70D76BA369
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetFontFallback, GetFontFallback method [Direct Write], GetFontFallback method [Direct Write],IDWriteTextFormat1 interface, IDWriteTextFormat1 interface [Direct Write],GetFontFallback method, IDWriteTextFormat1.GetFontFallback, IDWriteTextFormat1::GetFontFallback, directwrite.idwritetextformat1_getfontfallback, dwrite_2/IDWriteTextFormat1::GetFontFallback
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: RtmGetOpaqueInformationPointer function
 author: windows-sdk-content
 description: The RtmGetOpaqueInformationPointer function returns a pointer to the opaque information field in a destination that is reserved for this client.
 old-location: rras\rtmgetopaqueinformationpointer.htm
-old-project: rras
+old-project: RRAS
 ms.assetid: 7ad948fa-cd00-4496-bd62-433d7faa0f85
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RtmGetOpaqueInformationPointer, RtmGetOpaqueInformationPointer function [RAS], _rtmv2ref_rtmgetopaqueinformationpointer, rras.rtmgetopaqueinformationpointer, rtmv2/RtmGetOpaqueInformationPointer
 ms.prod: windows
 ms.technology: windows-sdk

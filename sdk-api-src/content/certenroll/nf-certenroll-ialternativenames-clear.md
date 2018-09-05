@@ -4,10 +4,10 @@ title: IAlternativeNames::Clear
 author: windows-sdk-content
 description: Removes all objects from the collection.
 old-location: security\ialternativenames_clear_method.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: babeb53a-b2db-420c-85fe-dacb9176ec70
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Clear, Clear method [Security], Clear method [Security],IAlternativeNames interface, IAlternativeNames interface [Security],Clear method, IAlternativeNames.Clear, IAlternativeNames::Clear, certenroll/IAlternativeNames::Clear, security.ialternativenames_clear_method
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,7 +67,7 @@ The <b>Clear</b> method removes all objects from the collection.
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 
 
@@ -77,11 +77,11 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374981(v=VS.85).aspx">IAlternativeName</a>
+<a href="https://msdn.microsoft.com/2a6cfda8-b3cb-4a0f-bb65-b182c16207be">IAlternativeName</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374984(v=VS.85).aspx">IAlternativeNames</a>
+<a href="https://msdn.microsoft.com/6ebd5bd5-7bf3-43e3-9b72-47b2c9743174">IAlternativeNames</a>
  
 
  

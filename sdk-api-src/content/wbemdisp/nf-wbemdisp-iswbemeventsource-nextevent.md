@@ -7,7 +7,7 @@ old-location: wmi\swbemeventsource_nextevent.htm
 old-project: WmiSdk
 ms.assetid: ff2d54d4-b8ee-4bb8-b6f7-081a1ca20489
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: ISWbemEventSource interface [Windows Management Instrumentation],NextEvent method, ISWbemEventSource.NextEvent, ISWbemEventSource::NextEvent, NextEvent, NextEvent method [Windows Management Instrumentation], NextEvent method [Windows Management Instrumentation],ISWbemEventSource interface, NextEvent method [Windows Management Instrumentation],SWbemEventSource object, SWbemEventSource object [Windows Management Instrumentation],NextEvent method, SWbemEventSource.NextEvent, _hmm_swbemeventsource.nextevent, wmi.swbemeventsource_nextevent
 ms.prod: windows
 ms.technology: windows-sdk

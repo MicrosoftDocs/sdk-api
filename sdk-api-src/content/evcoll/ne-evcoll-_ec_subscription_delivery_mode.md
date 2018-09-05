@@ -7,7 +7,7 @@ old-location: wec\ec_subscription_delivery_mode.htm
 old-project: WEC
 ms.assetid: ece884d6-df3c-44d0-a10c-affcf3107148
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: EC_SUBSCRIPTION_DELIVERY_MODE, EC_SUBSCRIPTION_DELIVERY_MODE enumeration, EcDeliveryModePull, EcDeliveryModePush, _EC_SUBSCRIPTION_DELIVERY_MODE, evcoll/EC_SUBSCRIPTION_DELIVERY_MODE, evcoll/EcDeliveryModePull, evcoll/EcDeliveryModePush, wec.ec_subscription_delivery_mode, wes.ec_subscription_delivery_mode
 ms.prod: windows
 ms.technology: windows-sdk

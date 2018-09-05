@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingwrite.htm
 old-project: tracelogging
 ms.assetid: BFBC6802-64DC-478E-B09D-F550135994AB
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: TraceLoggingWrite, TraceLoggingWrite macro, tracelogging.traceloggingwrite, traceloggingprovider/TraceLoggingWrite
 ms.prod: windows
 ms.technology: windows-sdk
@@ -88,16 +88,20 @@ The maximum number of event data descriptors is 128. Since each parameter can ha
 
 #### Examples
 
-
-```cpp
-TraceLoggingWrite(
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>TraceLoggingWrite(
 	g_hMyProvider,
 	"MyEventName",
 	TraceLoggingString(szValue1, "MyValue1"), // Field name MyValue1
 	TraceLoggingInt32(value2, "MyValue2")); // Field name MyValue2
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

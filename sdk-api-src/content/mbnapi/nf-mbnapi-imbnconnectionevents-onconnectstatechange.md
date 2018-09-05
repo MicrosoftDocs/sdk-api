@@ -7,7 +7,7 @@ old-location: mbn\imbnconnectionevents_onconnectstatechange.htm
 old-project: mbn
 ms.assetid: 5392e5b7-eac7-40f1-b5cd-adde5a6ff1b8
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMbnConnectionEvents interface [Microsoft Broadband Networks],OnConnectStateChange method, IMbnConnectionEvents.OnConnectStateChange, IMbnConnectionEvents::OnConnectStateChange, OnConnectStateChange, OnConnectStateChange method [Microsoft Broadband Networks], OnConnectStateChange method [Microsoft Broadband Networks],IMbnConnectionEvents interface, mbn.imbnconnectionevents_onconnectstatechange, mbnapi/IMbnConnectionEvents::OnConnectStateChange
 ms.prod: windows
 ms.technology: windows-sdk

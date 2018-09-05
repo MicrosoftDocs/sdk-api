@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFactory_RegisterFontCollectionLoader.htm
 old-project: DirectWrite
 ms.assetid: 495f8f56-42b6-4731-a26e-5da2c56a28ed
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: IDWriteFactory interface [Direct Write],RegisterFontCollectionLoader method, IDWriteFactory.RegisterFontCollectionLoader, IDWriteFactory::RegisterFontCollectionLoader, RegisterFontCollectionLoader, RegisterFontCollectionLoader method [Direct Write], RegisterFontCollectionLoader method [Direct Write],IDWriteFactory interface, directwrite.IDWriteFactory_RegisterFontCollectionLoader, dwrite/IDWriteFactory::RegisterFontCollectionLoader
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: CreateVssBackupComponentsInternal function
 author: windows-sdk-content
 description: The CreateVssBackupComponents function creates an IVssBackupComponents interface object and returns a pointer to it.
 old-location: base\createvssbackupcomponents.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 5531e57a-49e0-42e9-abf0-e8a4849ccac6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CreateVssBackupComponents, CreateVssBackupComponents function [VSS], CreateVssBackupComponentsInternal, _win32_createvssbackupcomponents, base.createvssbackupcomponents, vsbackup/CreateVssBackupComponents, vsbackup/CreateVssBackupComponentsInternal
 ms.prod: windows
 ms.technology: windows-sdk
@@ -152,7 +152,7 @@ Unexpected error. The error code is logged in the error log file. For more infor
 
 
 
-The calling application is responsible for calling <a href="https://msdn.microsoft.com/en-us/library/ms682317(v=VS.85).aspx">IUnknown::Release</a> to release the 
+The calling application is responsible for calling <a href="_com_iunknown_release">IUnknown::Release</a> to release the 
     resources held by the returned 
     <a href="https://msdn.microsoft.com/fe1220c7-11e5-4872-b7a9-61558f7c75c0">IVssBackupComponents</a> when it is no 
     longer needed.

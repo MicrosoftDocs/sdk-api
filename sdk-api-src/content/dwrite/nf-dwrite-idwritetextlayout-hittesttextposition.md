@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteTextLayout_HitTestTextPosition.htm
 old-project: DirectWrite
 ms.assetid: a7a8d82a-74a6-4e4a-a57d-60194e20a087
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: HitTestTextPosition, HitTestTextPosition method [Direct Write], HitTestTextPosition method [Direct Write],IDWriteTextLayout interface, IDWriteTextLayout interface [Direct Write],HitTestTextPosition method, IDWriteTextLayout.HitTestTextPosition, IDWriteTextLayout::HitTestTextPosition, directwrite.IDWriteTextLayout_HitTestTextPosition, dwrite/IDWriteTextLayout::HitTestTextPosition
 ms.prod: windows
 ms.technology: windows-sdk

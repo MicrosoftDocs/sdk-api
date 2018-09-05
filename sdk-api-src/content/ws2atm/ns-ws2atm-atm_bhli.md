@@ -4,10 +4,10 @@ title: ATM_BHLI
 author: windows-sdk-content
 description: The ATM_BHLI structure is used to identify B-HLI information for an associated ATM socket.
 old-location: winsock\atm_bhli_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: a7e09a8e-5990-4493-bd73-016363b57427
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: ATM_BHLI, ATM_BHLI structure [Winsock], ATM_BHLI_IE, _win32_atm_bhli_2, winsock.atm_bhli_2, ws2atm/ATM_BHLI
 ms.prod: windows
 ms.technology: windows-sdk
@@ -83,9 +83,13 @@ Identifies the <b>high layer information</b> field in the B-LLI information elem
 The following are the manifest constants associated with the 
 <b>ATM_BHLI</b> structure:
 
-
-```cpp
-#include <windows.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
 /* 
  *  values used for the HighLayerInfoType field in struct ATM_BHLI
  */
@@ -94,10 +98,10 @@ The following are the manifest constants associated with the
 #define BHLI_UserSpecific          0x01   /* User Specific                       */
 #define BHLI_HighLayerProfile      0x02   /* High layer profile (only in UNI3.0) */
 #define BHLI_VendorSpecificAppId   0x03   /* Vendor-Specific Application ID      */
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

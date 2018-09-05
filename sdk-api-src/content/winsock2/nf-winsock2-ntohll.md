@@ -4,10 +4,10 @@ title: ntohll function
 author: windows-sdk-content
 description: Converts an unsigned __int64 from TCP/IP network order to host byte order (which is little-endian on Intel processors).
 old-location: winsock\ntohll.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: 90C582C4-01C4-4D8B-8AD6-F65F96DABA7E
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: ntohll, ntohll function [Winsock], winsock.ntohll, winsock2/ntohll
 ms.prod: windows
 ms.technology: windows-sdk

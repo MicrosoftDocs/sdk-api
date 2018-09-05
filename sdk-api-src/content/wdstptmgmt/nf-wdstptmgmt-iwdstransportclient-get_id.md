@@ -4,10 +4,10 @@ title: IWdsTransportClient::get_Id
 author: windows-sdk-content
 description: Receives a unique client ID that identifies this WDS client on the WDS server.
 old-location: wds\iwdstransportclient_id.htm
-old-project: wds
+old-project: Wds
 ms.assetid: 3a19e711-ea4a-4b9d-b9ef-30dcd1c42d4e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWdsTransportClient interface [Windows Deployment Services],Id property, IWdsTransportClient.Id, IWdsTransportClient.get_Id, IWdsTransportClient::Id, IWdsTransportClient::get_Id, Id property [Windows Deployment Services], Id property [Windows Deployment Services],IWdsTransportClient interface, get_Id, wds.iwdstransportclient_id, wdstptmgmt/IWdsTransportClient::Id, wdstptmgmt/IWdsTransportClient::get_Id
 ms.prod: windows
 ms.technology: windows-sdk

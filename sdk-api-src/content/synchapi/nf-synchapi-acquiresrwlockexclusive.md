@@ -4,10 +4,10 @@ title: AcquireSRWLockExclusive function
 author: windows-sdk-content
 description: Acquires a slim reader/writer (SRW) lock in exclusive mode.
 old-location: base\acquiresrwlockexclusive.htm
-old-project: sync
+old-project: Sync
 ms.assetid: 02e987a2-4c2f-4ccb-8816-c04320b568c1
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: AcquireSRWLockExclusive, AcquireSRWLockExclusive function, base.acquiresrwlockexclusive, synchapi/AcquireSRWLockExclusive, winbase/AcquireSRWLockExclusive
 ms.prod: windows
 ms.technology: windows-sdk

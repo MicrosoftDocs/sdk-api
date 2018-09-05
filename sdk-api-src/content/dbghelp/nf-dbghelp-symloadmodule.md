@@ -7,7 +7,7 @@ old-location: base\symloadmodule64.htm
 old-project: debug
 ms.assetid: be50588b-066b-42ab-ba81-7537c811676f
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: SymLoadModule, SymLoadModule function, SymLoadModule64, SymLoadModule64 function, _win32_symloadmodule64, base.symloadmodule64, dbghelp/SymLoadModule, dbghelp/SymLoadModule64
 ms.prod: windows
 ms.technology: windows-sdk
@@ -125,9 +125,13 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 This function supersedes the <b>SymLoadModule</b> function. For more information, see 
 <a href="https://msdn.microsoft.com/34ec8cd3-3260-441d-b55f-4ea21c736eb1">Updated Platform Support</a>. <b>SymLoadModule</b> is defined as follows in DbgHelp.h. 
 
-
-```cpp
-#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
 #define SymLoadModule SymLoadModule64
 #else
 DWORD
@@ -140,10 +144,10 @@ SymLoadModule(
     __in DWORD BaseOfDll,
     __in DWORD SizeOfDll
     );
-#endif
-```
-
-
+#endif</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

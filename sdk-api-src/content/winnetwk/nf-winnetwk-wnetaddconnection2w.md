@@ -4,10 +4,10 @@ title: WNetAddConnection2W function
 author: windows-sdk-content
 description: The WNetAddConnection2 function makes a connection to a network resource and can redirect a local device to the network resource.
 old-location: wnet\wnetaddconnection2.htm
-old-project: wnet
+old-project: WNet
 ms.assetid: faec728c-f19e-418c-9bdb-cde93e7d98fb
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: CONNECT_CMD_SAVECRED, CONNECT_COMMANDLINE, CONNECT_CRED_RESET, CONNECT_CURRENT_MEDIA, CONNECT_INTERACTIVE, CONNECT_PROMPT, CONNECT_REDIRECT, CONNECT_TEMPORARY, CONNECT_UPDATE_PROFILE, CONNECT_UPDATE_RECENT, WNetAddConnection2, WNetAddConnection2 function [Windows Networking (WNet)], WNetAddConnection2A, WNetAddConnection2W, _win32_wnetaddconnection2, dwType, lpLocalName, lpProvider, lpRemoteName, winnetwk/WNetAddConnection2, winnetwk/WNetAddConnection2A, winnetwk/WNetAddConnection2W, wnet.wnetaddconnection2
 ms.prod: windows
 ms.technology: windows-sdk
@@ -618,17 +618,21 @@ Other network providers may support the <b>lpRemoteName</b> member of the <a hre
 The following code sample illustrates how to use the 
 <b>WNetAddConnection2</b> function to make connection to a network resource.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 #pragma comment(lib, "mpr.lib")
 
-#include <windows.h>
-#include <tchar.h>
-#include <stdio.h>
-#include <Winnetwk.h>
+#include &lt;windows.h&gt;
+#include &lt;tchar.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;Winnetwk.h&gt;
 
 // Need to link with Netapi32.lib and Mpr.lib
 
@@ -641,7 +645,7 @@ int wmain(int argc, wchar_t * argv[])
     DWORD dwFlags;
 
     if (argc != 5) {
-        wprintf(L"Usage: %s <localname> <remotename> <username> <password>\n",
+        wprintf(L"Usage: %s &lt;localname&gt; &lt;remotename&gt; &lt;username&gt; &lt;password&gt;\n",
                 argv[0]);
         wprintf(L"       %s X: \\\\contoso\\public testuser testpasswd\n",
                 argv[0]);
@@ -655,7 +659,7 @@ int wmain(int argc, wchar_t * argv[])
     wprintf(L"  lpPassword = %s\n", argv[4]);
 
 // Zero out the NETRESOURCE struct
-    memset(&nr, 0, sizeof (NETRESOURCE));
+    memset(&amp;nr, 0, sizeof (NETRESOURCE));
 
 // Assign our values to the NETRESOURCE structure.
 
@@ -670,7 +674,7 @@ int wmain(int argc, wchar_t * argv[])
 // Call the WNetAddConnection2 function to assign
 //   a drive letter to the share.
 //
-    dwRetVal = WNetAddConnection2(&nr, argv[4], argv[3], dwFlags);
+    dwRetVal = WNetAddConnection2(&amp;nr, argv[4], argv[3], dwFlags);
 //
 // If the call succeeds, inform the user; otherwise,
 //  print the error.
@@ -683,10 +687,10 @@ int wmain(int argc, wchar_t * argv[])
     exit(1); 
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 For other code samples that illustrates how to make a connection to a network resource using the 
 <b>WNetAddConnection2</b> function, see 
 <a href="https://msdn.microsoft.com/0dab9eed-9019-4075-833b-324e5caee257">Adding a Network Connection</a> and <a href="https://msdn.microsoft.com/1533aa5c-c3f3-4bd6-b307-fb4bd4c9aa85">Assigning a Drive to a Share</a>.

@@ -4,10 +4,10 @@ title: SCardIsValidContext function
 author: windows-sdk-content
 description: Determines whether a smart card context handle is valid.
 old-location: security\scardisvalidcontext.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 50bcb6aa-6265-4035-8265-45990f791ce3
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: SCardIsValidContext, SCardIsValidContext function [Security], _smart_scardisvalidcontext, security.scardisvalidcontext, winscard/SCardIsValidContext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -107,7 +107,7 @@ The <i>hContext</i> parameter is not valid.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -129,9 +129,13 @@ Call this function to determine whether a <a href="https://msdn.microsoft.com/3e
 
 The following example  shows determining whether a smart card context handle is valid.
 
-
-```cpp
-// Check the smart card context handle.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Check the smart card context handle.
 // hContext was set previously by SCardEstablishContext.
 
 LONG    lReturn;
@@ -153,10 +157,10 @@ else
     // Handle is valid; proceed as needed.
     // ...
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

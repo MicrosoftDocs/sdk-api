@@ -85,7 +85,7 @@ Returns <b>S_OK</b> if successful, or an error value otherwise.
 
 The caller must be an administrator on the local machine.
 
-The current disk space limits may be obtained by calling <a href="https://msdn.microsoft.com/en-us/library/Bb530493(v=VS.85).aspx">IOfflineFilesCache::GetDiskSpaceInformation</a>.
+The current disk space limits may be obtained by calling <a href="https://msdn.microsoft.com/94ea826a-bfc4-4010-a57f-c3a1af985d03">IOfflineFilesCache::GetDiskSpaceInformation</a>.
 
 
 
@@ -95,7 +95,7 @@ The current disk space limits may be obtained by calling <a href="https://msdn.m
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530486(v=VS.85).aspx">IOfflineFilesCache</a>
+<a href="https://msdn.microsoft.com/7b1b5ef6-355a-4760-9d54-ec73cc66fb8a">IOfflineFilesCache</a>
  
 
  

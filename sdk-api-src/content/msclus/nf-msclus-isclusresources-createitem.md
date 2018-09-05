@@ -7,7 +7,7 @@ old-location: mscs\clusresources_createitem.htm
 old-project: mscs
 ms.assetid: 3ff2d33b-08aa-445b-930e-7fbe589f6269
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CLUSTER_RESOURCE_DEFAULT_MONITOR, CLUSTER_RESOURCE_SEPARATE_MONITOR, ClusResources collection [Failover Cluster],CreateItem method, ClusResources.CreateItem, CreateItem, CreateItem method [Failover Cluster], CreateItem method [Failover Cluster],ClusResources collection, ISClusResources.CreateItem, ISClusResources::CreateItem, _wolf_clusresources.createitem, mscs.clusresources_createitem
 ms.prod: windows
 ms.technology: windows-sdk

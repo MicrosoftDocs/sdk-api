@@ -4,10 +4,10 @@ title: RpcBindingInqAuthInfoExW function
 author: windows-sdk-content
 description: The RpcBindingInqAuthInfoEx function returns authentication, authorization, and security quality-of-service information from a binding handle.
 old-location: rpc\rpcbindinginqauthinfoex.htm
-old-project: rpc
+old-project: Rpc
 ms.assetid: e75f5ba6-7a1c-4069-8810-05aa38a47e9c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcBindingInqAuthInfoEx, RpcBindingInqAuthInfoEx function [RPC], RpcBindingInqAuthInfoExA, RpcBindingInqAuthInfoExW, _rpc_rpcbindinginqauthinfoex, rpc.rpcbindinginqauthinfoex, rpcdce/RpcBindingInqAuthInfoEx, rpcdce/RpcBindingInqAuthInfoExA, rpcdce/RpcBindingInqAuthInfoExW
 ms.prod: windows
 ms.technology: windows-sdk

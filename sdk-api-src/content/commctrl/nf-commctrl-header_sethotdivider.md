@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Changes the color of a divider between header items to indicate the destination of an external drag-and-drop operation. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb775363(v=VS.85).aspx">HDM_SETHOTDIVIDER</a> message explicitly. 
+Changes the color of a divider between header items to indicate the destination of an external drag-and-drop operation. You can use this macro or send the <a href="https://msdn.microsoft.com/56f6e5c6-1df3-4b4d-9ad8-97fb168c5462">HDM_SETHOTDIVIDER</a> message explicitly. 
 
 
 ## -parameters
@@ -61,14 +61,14 @@ Changes the color of a divider between header items to indicate the destination 
 
 ### -param hwnd
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">HWND</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">HWND</a></b>
 
 A handle to a header control. 
 
 
 ### -param fPos
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">BOOL</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">BOOL</a></b>
 
 A value specifying how 
 					<i>dwInputValue</i> is to be interpreted. The value in this field can be one of the following: 
@@ -106,7 +106,7 @@ Indicates that
 
 ### -param dw
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Aa383751(v=VS.85).aspx">DWORD</a></b>
+Type: <b><a href="https://msdn.microsoft.com/4553cafc-450e-4493-a4d4-cb6e2f274d46">DWORD</a></b>
 
 The value held here is interpreted depending on the value of 
 					<i>flag</i>. 
@@ -125,7 +125,7 @@ If
 
 
 
-A header control set to the <a href="https://msdn.microsoft.com/en-us/library/Bb775241(v=VS.85).aspx">HDS_DRAGDROP</a> style produces this effect automatically. This message is intended to be used when the owner of the control handles drag-and-drop operations manually. 
+A header control set to the <a href="Header_Control_Styles.htm">HDS_DRAGDROP</a> style produces this effect automatically. This message is intended to be used when the owner of the control handles drag-and-drop operations manually. 
 
 
 

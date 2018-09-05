@@ -7,7 +7,7 @@ old-location: com\ienumguid_reset.htm
 old-project: com
 ms.assetid: 5f31c45a-c7a2-4cdc-a468-76a31a9ba1e9
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IEnumGUID interface [COM],Reset method, IEnumGUID.Reset, IEnumGUID::Reset, Reset, Reset method [COM], Reset method [COM],IEnumGUID interface, _com_ienumguid_reset, com.ienumguid_reset, comcat/IEnumGUID::Reset
 ms.prod: windows
 ms.technology: windows-sdk
@@ -84,7 +84,7 @@ There is no guarantee that the same set of objects will be enumerated after the 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms682393(v=VS.85).aspx">IEnumGUID</a>
+<a href="https://msdn.microsoft.com/4f2e0f96-a471-4883-be41-d93806461020">IEnumGUID</a>
  
 
  

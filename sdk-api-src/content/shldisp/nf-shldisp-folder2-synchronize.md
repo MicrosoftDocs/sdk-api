@@ -7,7 +7,7 @@ old-location: shell\Folder2_Synchronize.htm
 old-project: shell
 ms.assetid: b149df96-0c8e-47b9-b71e-2ad5dcfdeb8f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: Folder2 object [Windows Shell],Synchronize method, Folder2.Synchronize, Folder2::Synchronize, Synchronize, Synchronize method [Windows Shell], Synchronize method [Windows Shell],Folder2 object, _win32_Folder2_Synchronize, shell.Folder2_Synchronize
 ms.prod: windows
 ms.technology: windows-sdk
@@ -78,9 +78,13 @@ The following example shows the proper use of <b>Synchronize</b> for JScript, VB
 
 JScript:
 
-
-```javascript
-<script language="JScript">
+<div class="code"><span codelanguage="JScript"><table>
+<tr>
+<th>JScript</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="JScript"&gt;
     function fnSynchronizeJ()
     {
         var objShell   = new ActiveXObject("shell.application");
@@ -92,16 +96,20 @@ JScript:
             objFolder2.Synchronize();
         }
     }
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 VBScript:
 
-
-```vb
-<script language="VBScript">
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="VBScript"&gt;
     function fnSynchronizeVB()
         dim objShell
         dim objFolder2
@@ -116,16 +124,20 @@ VBScript:
         set objFolder = nothing
         set objShell = nothing
     end function
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 Visual Basic:
 
-
-```vb
-Private Sub fnSynchronizeVB()
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Private Sub fnSynchronizeVB()
     Dim objShell   As Shell
     Dim objFolder2 As Folder2
     
@@ -139,10 +151,10 @@ Private Sub fnSynchronizeVB()
     Set objFolder2 = Nothing
     Set objShell = Nothing
 End Sub
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

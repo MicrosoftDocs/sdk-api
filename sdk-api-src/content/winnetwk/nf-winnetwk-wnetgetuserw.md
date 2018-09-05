@@ -4,10 +4,10 @@ title: WNetGetUserW function
 author: windows-sdk-content
 description: The WNetGetUser function retrieves the current default user name, or the user name used to establish a network connection.
 old-location: wnet\wnetgetuser.htm
-old-project: wnet
+old-project: WNet
 ms.assetid: 8e73d2a9-c776-4661-81ab-84b7cf037cbd
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: WNetGetUser, WNetGetUser function [Windows Networking (WNet)], WNetGetUserA, WNetGetUserW, _win32_wnetgetuser, winnetwk/WNetGetUser, winnetwk/WNetGetUserA, winnetwk/WNetGetUserW, wnet.wnetgetuser
 ms.prod: windows
 ms.technology: windows-sdk
@@ -168,17 +168,21 @@ The <b>WNetGetUser</b> function is not aware of shares on the Distributed File S
 The following code sample illustrates how to use the 
 <b>WNetGetUser</b> function to retrieve the name of the user associated with a redirected local device or a remote network resource.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 #pragma comment(lib, "mpr.lib")
 
-#include <windows.h>
-#include <tchar.h>
-#include <stdio.h>
-#include <Winnetwk.h>
+#include &lt;windows.h&gt;
+#include &lt;tchar.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;Winnetwk.h&gt;
 
 int wmain(int argc, wchar_t * argv[])
 {
@@ -197,14 +201,14 @@ int wmain(int argc, wchar_t * argv[])
 
     wprintf(L"Calling WNetGetUser with Network-Resource = %s\n", argv[1]);
 
-    dwRetVal = WNetGetUser(argv[1], UserName, &dwNameLength);
+    dwRetVal = WNetGetUser(argv[1], UserName, &amp;dwNameLength);
     //
     // If the call succeeds, print the user information.
     //
     if (dwRetVal == NO_ERROR) {
 
         wprintf(L"WNetGetUser returned success\n");
-        wprintf(L"\tUsername=%s   NameLength=%d\n", &UserName, dwNameLength);
+        wprintf(L"\tUsername=%s   NameLength=%d\n", &amp;UserName, dwNameLength);
         exit(0);
     }
 
@@ -214,10 +218,10 @@ int wmain(int argc, wchar_t * argv[])
     }
 }
 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

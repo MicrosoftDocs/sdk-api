@@ -7,7 +7,7 @@ old-location: base\image_debug_information_str.htm
 old-project: debug
 ms.assetid: f8db7695-4967-45c0-a6bf-019e825bd9ab
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: "*PIMAGE_DEBUG_INFORMATION, IMAGE_DEBUG_INFORMATION, IMAGE_DEBUG_INFORMATION structure, IMAGE_FILE_32BIT_MACHINE, IMAGE_FILE_AGGRESIVE_WS_TRIM, IMAGE_FILE_BYTES_REVERSED_HI, IMAGE_FILE_BYTES_REVERSED_LO, IMAGE_FILE_DEBUG_STRIPPED, IMAGE_FILE_DLL, IMAGE_FILE_EXECUTABLE_IMAGE, IMAGE_FILE_LARGE_ADDRESS_AWARE, IMAGE_FILE_LINE_NUMS_STRIPPED, IMAGE_FILE_LOCAL_SYMS_STRIPPED, IMAGE_FILE_MACHINE_AMD64, IMAGE_FILE_MACHINE_I386, IMAGE_FILE_MACHINE_IA64, IMAGE_FILE_NET_RUN_FROM_SWAP, IMAGE_FILE_RELOCS_STRIPPED, IMAGE_FILE_REMOVABLE_RUN_FROM_SWAP, IMAGE_FILE_SYSTEM, IMAGE_FILE_UP_SYSTEM_ONLY, LIST_ENTRY, PIMAGE_DEBUG_INFORMATION, PIMAGE_DEBUG_INFORMATION structure pointer, _IMAGE_DEBUG_INFORMATION, _win32_image_debug_information_str, base.image_debug_information_str, dbghelp/IMAGE_DEBUG_INFORMATION, dbghelp/PIMAGE_DEBUG_INFORMATION"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -443,15 +443,19 @@ This member is reserved for use by the operating system.
 
 The <b>LIST_ENTRY</b> structure is defined as follows:
 
-
-```cpp
-typedef struct _LIST_ENTRY {
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>typedef struct _LIST_ENTRY {
    struct _LIST_ENTRY *Flink;
    struct _LIST_ENTRY *Blink;
-} LIST_ENTRY, *PLIST_ENTRY, *RESTRICTED_POINTER PRLIST_ENTRY;
-```
-
-
+} LIST_ENTRY, *PLIST_ENTRY, *RESTRICTED_POINTER PRLIST_ENTRY;</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

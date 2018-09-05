@@ -7,7 +7,7 @@ old-location: cos\itransactioncontext.htm
 old-project: cossdk
 ms.assetid: 818fe18b-04ed-4f54-aeb7-b19aafc8a51a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ITransactionContext, ITransactionContext interface [COM+], ITransactionContext interface [COM+],described, _cos_ITransactionContext_Interface, comsvcs/ITransactionContext, cos.itransactioncontext
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,14 +54,14 @@ req.irql:
 Enables you to compose the work of multiple COM+ objects in a single transaction and explicitly commit or abort the transaction.
 
 
-<b>ITransactionContext</b> and <a href="https://msdn.microsoft.com/en-us/library/ms686502(v=VS.85).aspx">ITransactionContextEx</a> provide the same functionality, but unlike <b>ITransactionContextEx</b>, <b>ITransactionContext</b> is compatible with Automation.
+<b>ITransactionContext</b> and <a href="https://msdn.microsoft.com/cdf3a74f-cdef-4721-9c0d-90af724c24ba">ITransactionContextEx</a> provide the same functionality, but unlike <b>ITransactionContextEx</b>, <b>ITransactionContext</b> is compatible with Automation.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITransactionContext</b> interface inherits from the <a href="https://msdn.microsoft.com/en-us/library/ms221608(v=VS.85).aspx">IDispatch</a> interface. <b>ITransactionContext</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITransactionContext</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITransactionContext</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -74,7 +74,7 @@ The <b>ITransactionContext</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms686868(v=VS.85).aspx">Abort</a>
+<a href="https://msdn.microsoft.com/d7ea7c31-225c-4eb1-a358-21c4dab1a1da">Abort</a>
 </td>
 <td align="left" width="63%">
 Aborts the work of all COM objects participating in the current transaction. The transaction ends on return from this method.
@@ -83,7 +83,7 @@ Aborts the work of all COM objects participating in the current transaction. The
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms679912(v=VS.85).aspx">Commit</a>
+<a href="https://msdn.microsoft.com/3945fdf1-6361-413e-9621-18871ded47a4">Commit</a>
 </td>
 <td align="left" width="63%">
 Attempts to commit the work of all COM objects participating in the current transaction. The transaction ends on return from this method.
@@ -92,7 +92,7 @@ Attempts to commit the work of all COM objects participating in the current tran
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/ms680405(v=VS.85).aspx">CreateInstance</a>
+<a href="https://msdn.microsoft.com/3dc08700-0872-4d60-a968-cffed974c7b2">CreateInstance</a>
 </td>
 <td align="left" width="63%">
 Creates a COM object that can execute within the scope of the transaction that was initiated by the transaction context object.
@@ -125,7 +125,7 @@ You obtain a reference to the <b>ITransactionContext</b> interface by creating a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms686502(v=VS.85).aspx">ITransactionContextEx</a>
+<a href="https://msdn.microsoft.com/cdf3a74f-cdef-4721-9c0d-90af724c24ba">ITransactionContextEx</a>
 
 
 

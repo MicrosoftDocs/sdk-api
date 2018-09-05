@@ -7,7 +7,7 @@ old-location: vhd\createvirtualdisk.htm
 old-project: VStor
 ms.assetid: 9d9f187e-dea1-48ca-a3fe-9e9c513e9088
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CreateVirtualDisk, CreateVirtualDisk function [VHD], vdssys/CreateVirtualDisk, vhd.createvirtualdisk, virtdisk/CreateVirtualDisk
 ms.prod: windows
 ms.technology: windows-sdk

@@ -135,10 +135,14 @@ If no MFTs match the criteria, the method succeeds but returns the value zero in
 
 To find a decoder, set <i>guidCategory</i> to <b>MFT_CATEGORY_AUDIO_DECODER</b>or <b>MFT_CATEGORY_VIDEO_DECODER</b>and specify the encoding format in <i>pInputType</i>.  You would typically set <i>pOutputType</i> to <b>NULL</b> in this case.
 
-
-```cpp
-HRESULT FindDecoder(
-    const GUID& subtype,        // Subtype
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT FindDecoder(
+    const GUID&amp; subtype,        // Subtype
     BOOL bAudio,                // TRUE for audio, FALSE for video
     IMFTransform **ppDecoder    // Receives a pointer to the decoder.
     )
@@ -156,14 +160,14 @@ HRESULT FindDecoder(
     hr = MFTEnum(   
         bAudio ? MFT_CATEGORY_AUDIO_DECODER : MFT_CATEGORY_VIDEO_DECODER,
         0,      // Reserved
-        &info,  // Input type
+        &amp;info,  // Input type
         NULL,   // Output type
         NULL,   // Reserved
-        &ppCLSIDs,
-        &count
+        &amp;ppCLSIDs,
+        &amp;count
         );
 
-    if (SUCCEEDED(hr) && count == 0)
+    if (SUCCEEDED(hr) &amp;&amp; count == 0)
     {
         hr = MF_E_TOPO_CODEC_NOT_FOUND;
     }
@@ -179,16 +183,20 @@ HRESULT FindDecoder(
     CoTaskMemFree(ppCLSIDs);
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 To find an encoder, set <i>guidCategory</i> to <b>MFT_CATEGORY_AUDIO_ENCODER</b>or <b>MFT_CATEGORY_VIDEO_ENCODER</b>and specify the encoding format in <i>pOutputType</i>.  You would typically set <i>pInputType</i> to <b>NULL</b> in this case.
 
-
-```cpp
-HRESULT FindEncoder(
-    const GUID& subtype, 
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>HRESULT FindEncoder(
+    const GUID&amp; subtype, 
     BOOL bAudio, 
     IMFTransform **ppEncoder
     )
@@ -207,13 +215,13 @@ HRESULT FindEncoder(
         bAudio ? MFT_CATEGORY_AUDIO_ENCODER : MFT_CATEGORY_VIDEO_ENCODER,
         0,          // Reserved
         NULL,       // Input type
-        &info,      // Output type
+        &amp;info,      // Output type
         NULL,       // Reserved
-        &ppCLSIDs,
-        &count
+        &amp;ppCLSIDs,
+        &amp;count
         );
 
-    if (SUCCEEDED(hr) && count == 0)
+    if (SUCCEEDED(hr) &amp;&amp; count == 0)
     {
         hr = MF_E_TOPO_CODEC_NOT_FOUND;
     }
@@ -229,10 +237,10 @@ HRESULT FindEncoder(
     CoTaskMemFree(ppCLSIDs);
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

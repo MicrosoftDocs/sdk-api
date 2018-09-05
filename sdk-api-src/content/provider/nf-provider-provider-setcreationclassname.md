@@ -7,7 +7,7 @@ old-location: wmi\provider_setcreationclassname.htm
 old-project: WmiSdk
 ms.assetid: 0a02e767-95b7-42cb-ab82-66e2d28342fc
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: Provider interface [Windows Management Instrumentation],SetCreationClassName method, Provider.SetCreationClassName, Provider::SetCreationClassName, SetCreationClassName, SetCreationClassName method [Windows Management Instrumentation], SetCreationClassName method [Windows Management Instrumentation],Provider interface, _hmm_provider_setcreationclassname, provider/Provider::SetCreationClassName, wmi.provider_setcreationclassname
 ms.prod: windows
 ms.technology: windows-sdk

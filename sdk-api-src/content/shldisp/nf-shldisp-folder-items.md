@@ -7,7 +7,7 @@ old-location: shell\Folder_Items.htm
 old-project: shell
 ms.assetid: ef2965ec-c8ab-4108-8e5e-b4fd5370521a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: Folder object [Windows Shell],Items method, Folder.Items, Folder::Items, Items, Items method [Windows Shell], Items method [Windows Shell],Folder object, _win32_Folder_Items, shell.Folder_Items
 ms.prod: windows
 ms.technology: windows-sdk
@@ -91,9 +91,13 @@ The following example uses <b>Items</b> to determine the number of items in the 
 
 JScript:
 
-
-```javascript
-<script language="JScript">
+<div class="code"><span codelanguage="JScript"><table>
+<tr>
+<th>JScript</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="JScript"&gt;
     function fnFolderObjectItemsJ()
     {
         var objShell = new ActiveXObject("shell.application");
@@ -111,16 +115,20 @@ JScript:
             }
         }
     }
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 VBScript:
 
-
-```vb
-<script language="VBScript">
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="VBScript"&gt;
     function fnFolderObjectItemsVB()
         dim objShell
         dim objFolder
@@ -143,16 +151,20 @@ VBScript:
         set objFolder = nothing
         set objShell = nothing
     end function
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 Visual Basic:
 
-
-```vb
-Private Sub btnFolderObjectItems_Click()
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Private Sub btnFolderObjectItems_Click()
     Dim objShell  As Shell
     Dim objFolder As Folder
 
@@ -176,9 +188,9 @@ Private Sub btnFolderObjectItems_Click()
     Set objFolder = Nothing
     Set objShell = Nothing
 End Sub
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

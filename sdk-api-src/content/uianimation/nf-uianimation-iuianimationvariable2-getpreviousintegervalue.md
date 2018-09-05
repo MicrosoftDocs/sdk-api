@@ -7,7 +7,7 @@ old-location: uianimation\iuianimationvariable2_getpreviousintegervalue.htm
 old-project: UIAnimation
 ms.assetid: 8B25BE8D-B12F-44B4-AFBF-3E6994BA0771
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetPreviousIntegerValue, GetPreviousIntegerValue method [Windows Animation], GetPreviousIntegerValue method [Windows Animation],IUIAnimationVariable2 interface, IUIAnimationVariable2 interface [Windows Animation],GetPreviousIntegerValue method, IUIAnimationVariable2.GetPreviousIntegerValue, IUIAnimationVariable2::GetPreviousIntegerValue, uianimation.iuianimationvariable2_getpreviousintegervalue, uianimation/IUIAnimationVariable2::GetPreviousIntegerValue
 ms.prod: windows
 ms.technology: windows-sdk

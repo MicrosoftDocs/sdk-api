@@ -7,7 +7,7 @@ old-location: mscs\clusproperties_usedefaultvalue.htm
 old-project: mscs
 ms.assetid: 6ac19293-d489-41ee-b585-6997a29591af
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusProperties collection [Failover Cluster],UseDefaultValue method, ClusProperties.UseDefaultValue, ISClusProperties.UseDefaultValue, ISClusProperties::UseDefaultValue, UseDefaultValue, UseDefaultValue method [Failover Cluster], UseDefaultValue method [Failover Cluster],ClusProperties collection, _wolf_clusproperties.usedefaultvalue, mscs.clusproperties_usedefaultvalue
 ms.prod: windows
 ms.technology: windows-sdk
@@ -118,9 +118,13 @@ The following example uses
      <b>UseDefaultValue</b> to set all of an 
      object's properties to their default values.
 
-
-```vb
-Option Explicit
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Option Explicit
 
 Public Function RestoreDefaults(obj)
   Dim objProp
@@ -137,12 +141,12 @@ Public Function RestoreDefaults(obj)
   objProp.PrivateProperties.SaveChanges
 
   For Each objProp in objProp.CommonProperties
-    strOut = strOut & objProp.Name & " = " & CStr(objProp.Value) & _
+    strOut = strOut &amp; objProp.Name &amp; " = " &amp; CStr(objProp.Value) &amp; _
              vbCrLf
   Next
 
   For Each objProp in objProp.CommonProperties
-    strOut = strOut & objProp.Name & " = " & CStr(objProp.Value) & _
+    strOut = strOut &amp; objProp.Name &amp; " = " &amp; CStr(objProp.Value) &amp; _
               vbCrLf
   Next
 
@@ -151,10 +155,10 @@ Public Function RestoreDefaults(obj)
   Set objProp = Nothing
 
 End Function
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

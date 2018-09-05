@@ -7,7 +7,7 @@ old-location: mscs\clusversion_csdversion.htm
 old-project: mscs
 ms.assetid: a7f32e65-98d6-4d69-a796-c0b4bcfe8316
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CSDVersion property [Failover Cluster], CSDVersion property [Failover Cluster],ClusVersion object, ClusVersion object [Failover Cluster],CSDVersion property, ClusVersion.CSDVersion, ISClusVersion.get_CSDVersion, ISClusVersion::get_CSDVersion, _wolf_clusversion.csdversion, get_CSDVersion, mscs.clusversion_csdversion
 ms.prod: windows
 ms.technology: windows-sdk
@@ -71,7 +71,7 @@ This property is read-only.
 
 
 All <a href="https://msdn.microsoft.com/2215335a-1858-437f-8654-2e9d601fe061">ClusVersion</a> properties are static values 
-    corresponding the state of the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> when the 
+    corresponding the state of the <a href="c_gly.htm">cluster</a> when the 
     <b>ClusVersion</b> object was first created. To obtain the 
     latest version information from the cluster, create a new 
     <b>ClusVersion</b> object.

@@ -4,10 +4,10 @@ title: SCardListReaderGroupsA function
 author: windows-sdk-content
 description: Provides the list of reader groups that have previously been introduced to the system.
 old-location: security\scardlistreadergroups.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: df01fa4b-8053-4d3a-ae2e-66eeb6583225
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: SCARD_ALL_READERS, SCARD_DEFAULT_READERS, SCARD_LOCAL_READERS, SCARD_SYSTEM_READERS, SCardListReaderGroups, SCardListReaderGroups function [Security], SCardListReaderGroupsA, SCardListReaderGroupsW, _smart_scardlistreadergroups, security.scardlistreadergroups, winscard/SCardListReaderGroups, winscard/SCardListReaderGroupsA, winscard/SCardListReaderGroupsW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -162,7 +162,7 @@ SCARD_S_SUCCESS.
 </td>
 <td width="60%">
 An error code. For more information, see 
-<a href="https://msdn.microsoft.com/en-us/library/Aa374738(v=VS.85).aspx">Smart Card Return Values</a>.
+<a href="authentication_return_values.htm">Smart Card Return Values</a>.
 
 </td>
 </tr>
@@ -186,9 +186,13 @@ The <b>SCardListReaderGroups</b> function is a database query function. For more
 
 The following example  shows listing the reader groups.
 
-
-```cpp
-LPTSTR          pmszReaderGroups = NULL;
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>LPTSTR          pmszReaderGroups = NULL;
 LPTSTR          pReaderGroup;
 LONG            lReturn;
 DWORD           cch = SCARD_AUTOALLOCATE;
@@ -196,8 +200,8 @@ DWORD           cch = SCARD_AUTOALLOCATE;
 // Retrieve the list the reader groups.
 // hSC was set by a previous call to SCardEstablishContext.
 lReturn = SCardListReaderGroups(hSC,
-                                (LPTSTR)&pmszReaderGroups,
-                                &cch );
+                                (LPTSTR)&amp;pmszReaderGroups,
+                                &amp;cch );
 if ( SCARD_S_SUCCESS != lReturn )
     printf("Failed SCardListReaderGroups\n");
 else
@@ -217,10 +221,10 @@ else
     // Remember to free pmszReaderGroups by a call to SCardFreeMemory.
     // ...
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

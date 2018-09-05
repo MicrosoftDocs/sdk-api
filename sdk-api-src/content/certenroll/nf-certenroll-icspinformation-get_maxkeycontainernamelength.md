@@ -4,10 +4,10 @@ title: ICspInformation::get_MaxKeyContainerNameLength
 author: windows-sdk-content
 description: Retrieves the maximum supported length for the name of the private key container associated with the provider.
 old-location: security\icspinformation_maxkeycontainernamelength_property.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: 2508786f-0892-4ece-bbef-bd8ed9c81eee
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ICspInformation interface [Security],MaxKeyContainerNameLength property, ICspInformation.MaxKeyContainerNameLength, ICspInformation.get_MaxKeyContainerNameLength, ICspInformation::MaxKeyContainerNameLength, ICspInformation::get_MaxKeyContainerNameLength, MaxKeyContainerNameLength property [Security], MaxKeyContainerNameLength property [Security],ICspInformation interface, certenroll/ICspInformation::MaxKeyContainerNameLength, certenroll/ICspInformation::get_MaxKeyContainerNameLength, get_MaxKeyContainerNameLength, security.icspinformation_maxkeycontainernamelength_property
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ This property is read-only.
 
 
 
-The key container name can be specified and retrieved by calling the <a href="https://msdn.microsoft.com/en-us/library/Aa378953(v=VS.85).aspx">ContainerName</a> property on the <a href="https://msdn.microsoft.com/en-us/library/Aa378921(v=VS.85).aspx">IX509PrivateKey</a> interface. The values associated with the providers distributed by Microsoft are listed in the following table. Some of these providers may not be included on all operating systems and others may be included instead.<table>
+The key container name can be specified and retrieved by calling the <a href="https://msdn.microsoft.com/1d56fa7e-8113-461d-a4f0-ebc048fbcb49">ContainerName</a> property on the <a href="https://msdn.microsoft.com/72612ea4-ed45-46ac-9dad-614a9a754d83">IX509PrivateKey</a> interface. The values associated with the providers distributed by Microsoft are listed in the following table. Some of these providers may not be included on all operating systems and others may be included instead.<table>
 <tr>
 <th>Provider</th>
 <th>MaxKeyContainerNameLength value</th>
@@ -130,7 +130,7 @@ The key container name can be specified and retrieved by calling the <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375967(v=VS.85).aspx">ICspInformation</a>
+<a href="https://msdn.microsoft.com/e337ae2c-6f86-4025-8d31-47bc5d8a4ca8">ICspInformation</a>
  
 
  

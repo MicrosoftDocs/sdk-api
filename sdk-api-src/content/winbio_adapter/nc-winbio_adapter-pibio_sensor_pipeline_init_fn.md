@@ -4,10 +4,10 @@ title: PIBIO_SENSOR_PIPELINE_INIT_FN
 author: windows-sdk-content
 description: Gives the Sensor Adapter the chance to perform any initialization that remains incomplete, and which requires help from the Engine or Storage adapter components.
 old-location: secbiomet\sensoradapterpipelineinit.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: 91667505-78D6-405E-9028-DF4F3037B455
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: PIBIO_SENSOR_PIPELINE_INIT_FN, PIBIO_SENSOR_PIPELINE_INIT_FN callback, SensorAdapterPipelineInit, SensorAdapterPipelineInit callback function [Windows Biometric Framework API], secbiomet.sensoradapterpipelineinit, winbio_adapter/SensorAdapterPipelineInit
 ms.prod: windows
 ms.technology: windows-sdk

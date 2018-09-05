@@ -69,12 +69,16 @@ Pointer to the driver resource that will be tracked by the DRIVEROBJ structure. 
 
 Pointer to a driver-supplied callback function that frees the resource pointed to by <i>pvObj</i>. The callback function should be defined as follows, where <i>pDriverObj</i> points to the DRIVEROBJ structure:
 
-
-```
-BOOL CALLBACK DrvobjFreeObjProc(DRIVEROBJ *pDriverObj);
-```
-
-
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>BOOL CALLBACK DrvobjFreeObjProc(DRIVEROBJ *pDriverObj);</pre>
+</td>
+</tr>
+</table></span></div>
 
 ### -param hdev
 

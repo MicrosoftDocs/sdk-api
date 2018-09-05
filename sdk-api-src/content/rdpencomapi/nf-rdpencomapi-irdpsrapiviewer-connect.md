@@ -4,10 +4,10 @@ title: IRDPSRAPIViewer::Connect
 author: windows-sdk-content
 description: Starts the actual connection to the sharer.
 old-location: rdp\irdpsrapiviewer_connect.htm
-old-project: rdp
+old-project: Rdp
 ms.assetid: f3deec96-af56-4ebe-a5c3-25a4c7be14c0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Connect, Connect method [RDP], Connect method [RDP],IRDPSRAPIViewer interface, IRDPSRAPIViewer interface [RDP],Connect method, IRDPSRAPIViewer.Connect, IRDPSRAPIViewer::Connect, rdp.irdpsrapiviewer_connect, rdpencomapi/IRDPSRAPIViewer::Connect
 ms.prod: windows
 ms.technology: windows-sdk

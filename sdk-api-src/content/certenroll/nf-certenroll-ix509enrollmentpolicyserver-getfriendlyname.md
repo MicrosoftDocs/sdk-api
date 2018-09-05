@@ -4,10 +4,10 @@ title: IX509EnrollmentPolicyServer::GetFriendlyName
 author: windows-sdk-content
 description: Retrieves a display name for the certificate enrollment policy (CEP) server.
 old-location: security\ix509enrollmentpolicyserver_getfriendlyname.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: a2e3da49-19b8-44f6-af7c-ec5c13411f3f
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetFriendlyName, GetFriendlyName method [Security], GetFriendlyName method [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],GetFriendlyName method, IX509EnrollmentPolicyServer.GetFriendlyName, IX509EnrollmentPolicyServer::GetFriendlyName, certenroll/IX509EnrollmentPolicyServer::GetFriendlyName, security.ix509enrollmentpolicyserver_getfriendlyname
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ Pointer to a <b>BSTR</b> variable that contains the display name.
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table.  For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -121,7 +121,7 @@ The <i>pValue</i> parameter cannot be <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351692(v=VS.85).aspx">IX509EnrollmentPolicyServer</a>
+<a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a>
  
 
  

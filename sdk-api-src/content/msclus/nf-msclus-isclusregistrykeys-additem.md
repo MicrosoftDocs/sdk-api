@@ -7,7 +7,7 @@ old-location: mscs\clusregistrykeys_additem.htm
 old-project: mscs
 ms.assetid: 8b28b848-ab26-4422-9e0e-a47613d7aa63
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: AddItem, AddItem method [Failover Cluster], AddItem method [Failover Cluster],ClusRegistryKeys class, ClusRegistryKeys class [Failover Cluster],AddItem method, ClusRegistryKeys.AddItem, ISClusRegistryKeys.AddItem, ISClusRegistryKeys::AddItem, _wolf_clusregistrykeys.additem, mscs.clusregistrykeys_additem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -102,9 +102,13 @@ Use the <b>AddItem</b> method to add a registry
      key to a resource's list of checkpointed registry keys.
 
 <div class="code"></div>
-
-```vb
-Public Function AddKey(ByRef objRes as ClusResource, _
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Public Function AddKey(ByRef objRes as ClusResource, _
                        ByVal strKey as String)
 
   Dim colRegKeys as ClusRegistryKeys
@@ -113,10 +117,10 @@ Public Function AddKey(ByRef objRes as ClusResource, _
   Set colRegKeys = Nothing
 
 End Function
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

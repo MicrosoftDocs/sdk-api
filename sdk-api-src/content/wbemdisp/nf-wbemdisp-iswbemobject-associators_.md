@@ -7,7 +7,7 @@ old-location: wmi\swbemobject_associators_.htm
 old-project: WmiSdk
 ms.assetid: 79f01853-c649-4cbe-b2fa-cff38fb4b733
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: Associators_, Associators_ method [Windows Management Instrumentation], Associators_ method [Windows Management Instrumentation],ISWbemObject interface, Associators_ method [Windows Management Instrumentation],SWbemObject object, ISWbemObject interface [Windows Management Instrumentation],Associators_ method, ISWbemObject.Associators_, ISWbemObject::Associators_, SWbemObject object [Windows Management Instrumentation],Associators_ method, SWbemObject.Associators_, _hmm_swbemobject.associators_, wbemFlagBidirectional, wbemFlagForwardOnly, wbemFlagReturnImmediately, wbemFlagReturnWhenComplete, wbemFlagUseAmendedQualifiers, wmi.swbemobject_associators_
 ms.prod: windows
 ms.technology: windows-sdk

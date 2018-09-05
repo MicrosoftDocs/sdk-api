@@ -81,7 +81,7 @@ Not intended to be called directly.  Use the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn788629(v=VS.85).aspx">CopyTileMappings</a>
+<a href="https://msdn.microsoft.com/FAFA4B5C-EA3C-4209-AB8E-75F3B90F3745">CopyTileMappings</a>
 </td>
 <td align="left" width="63%">
 Copies mappings from a source reserved resource to a destination reserved resource.
@@ -90,7 +90,7 @@ Copies mappings from a source reserved resource to a destination reserved resour
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn986871(v=VS.85).aspx">EndEvent</a>
+<a href="https://msdn.microsoft.com/CA45061A-3DD6-4FFB-9723-ED33343052F3">EndEvent</a>
 </td>
 <td align="left" width="63%">
 Not intended to be called directly.  Use the
@@ -100,7 +100,7 @@ Not intended to be called directly.  Use the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn788631(v=VS.85).aspx">ExecuteCommandLists</a>
+<a href="https://msdn.microsoft.com/653C15CD-0996-4B3B-A5F6-3E85CD0516AD">ExecuteCommandLists</a>
 </td>
 <td align="left" width="63%">
 Submits an array of command lists for execution.
@@ -109,7 +109,7 @@ Submits an array of command lists for execution.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn903825(v=VS.85).aspx">GetClockCalibration</a>
+<a href="https://msdn.microsoft.com/B8E0F8D4-D291-41B5-8E40-0C1FB3DCC253">GetClockCalibration</a>
 </td>
 <td align="left" width="63%">
 This method samples the CPU and GPU timestamp counters at the same moment in time. 
@@ -118,7 +118,7 @@ This method samples the CPU and GPU timestamp counters at the same moment in tim
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn914410(v=VS.85).aspx">GetDesc</a>
+<a href="https://msdn.microsoft.com/AEEE6B15-AEB0-47C5-A3F8-9957516BFBEE">GetDesc</a>
 </td>
 <td align="left" width="63%">
 Gets the description of the command queue.
@@ -128,7 +128,7 @@ Gets the description of the command queue.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn903826(v=VS.85).aspx">GetTimestampFrequency</a>
+<a href="https://msdn.microsoft.com/90D79775-2898-453E-87FB-CD6850829E47">GetTimestampFrequency</a>
 </td>
 <td align="left" width="63%">
 This method is used to determine the rate at which the GPU timestamp counter increments.
@@ -137,7 +137,7 @@ This method is used to determine the rate at which the GPU timestamp counter inc
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn986872(v=VS.85).aspx">SetMarker</a>
+<a href="https://msdn.microsoft.com/993996E9-40B8-4FC6-B1CF-883829F8D1F5">SetMarker</a>
 </td>
 <td align="left" width="63%">
 Not intended to be called directly.  Use the
@@ -147,7 +147,7 @@ Not intended to be called directly.  Use the
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn899171(v=VS.85).aspx">Signal</a>
+<a href="https://msdn.microsoft.com/487E2DED-C741-4376-9EE2-3DDD2F4F76BB">Signal</a>
 </td>
 <td align="left" width="63%">
 Updates a fence to a specified value.
@@ -156,7 +156,7 @@ Updates a fence to a specified value.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn788641(v=VS.85).aspx">UpdateTileMappings</a>
+<a href="https://msdn.microsoft.com/8A8017E5-AB55-4660-855B-D6F93F69CB52">UpdateTileMappings</a>
 </td>
 <td align="left" width="63%">
 Updates mappings of tile locations in reserved resources to memory locations in a resource heap.
@@ -166,7 +166,7 @@ Updates mappings of tile locations in reserved resources to memory locations in 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Dn899173(v=VS.85).aspx">Wait</a>
+<a href="https://msdn.microsoft.com/75D494D0-BCEC-453E-AB4F-E57CE2C9B318">Wait</a>
 </td>
 <td align="left" width="63%">
 Waits until the specified fence reaches or exceeds the specified value.
@@ -180,78 +180,86 @@ Waits until the specified fence reaches or exceeds the specified value.
 
 
 
-Use <a href="https://msdn.microsoft.com/en-us/library/Dn788657(v=VS.85).aspx">ID3D12Device::CreateCommandQueue</a> to create a command queue object. 
+Use <a href="https://msdn.microsoft.com/556D068C-9939-4B42-AFC2-4EBB2D7B553B">ID3D12Device::CreateCommandQueue</a> to create a command queue object. 
 
 
 #### Examples
 
-The <a href="https://msdn.microsoft.com/en-us/library/Mt186624(v=VS.85).aspx">D3D12nBodyGravity</a> sample uses <b>ID3D12CommandQueue</b> as follows:
+The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12nBodyGravity</a> sample uses <b>ID3D12CommandQueue</b> as follows:
         
 
 Header file declarations.
 
-
-```cpp
-// Compute objects.
-ComPtr<ID3D12CommandAllocator> m_computeAllocator[ThreadCount];
-ComPtr<ID3D12CommandQueue> m_computeCommandQueue[ThreadCount];
-ComPtr<ID3D12GraphicsCommandList> m_computeCommandList[ThreadCount];
-
-```
-
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Compute objects.
+ComPtr&lt;ID3D12CommandAllocator&gt; m_computeAllocator[ThreadCount];
+ComPtr&lt;ID3D12CommandQueue&gt; m_computeCommandQueue[ThreadCount];
+ComPtr&lt;ID3D12GraphicsCommandList&gt; m_computeCommandList[ThreadCount];
+</pre>
+</td>
+</tr>
+</table></span></div>
 Asynchronous compute thread.
 
-
-```cpp
-DWORD D3D12nBodyGravity::AsyncComputeThreadProc(int threadIndex)
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DWORD D3D12nBodyGravity::AsyncComputeThreadProc(int threadIndex)
 {
     ID3D12CommandQueue* pCommandQueue = m_computeCommandQueue[threadIndex].Get();
     ID3D12CommandAllocator* pCommandAllocator = m_computeAllocator[threadIndex].Get();
     ID3D12GraphicsCommandList* pCommandList = m_computeCommandList[threadIndex].Get();
     ID3D12Fence* pFence = m_threadFences[threadIndex].Get();
 
-    while (0 == InterlockedGetValue(&m_terminating))
+    while (0 == InterlockedGetValue(&amp;m_terminating))
     {
         // Run the particle simulation.
         Simulate(threadIndex);
 
         // Close and execute the command list.
-        ThrowIfFailed(pCommandList->Close());
+        ThrowIfFailed(pCommandList-&gt;Close());
         ID3D12CommandList* ppCommandLists[] = { pCommandList };
 
-        pCommandQueue->ExecuteCommandLists(1, ppCommandLists);
+        pCommandQueue-&gt;ExecuteCommandLists(1, ppCommandLists);
 
         // Wait for the compute shader to complete the simulation.
-        UINT64 threadFenceValue = InterlockedIncrement(&m_threadFenceValues[threadIndex]);
-        ThrowIfFailed(pCommandQueue->Signal(pFence, threadFenceValue));
-        ThrowIfFailed(pFence->SetEventOnCompletion(threadFenceValue, m_threadFenceEvents[threadIndex]));
+        UINT64 threadFenceValue = InterlockedIncrement(&amp;m_threadFenceValues[threadIndex]);
+        ThrowIfFailed(pCommandQueue-&gt;Signal(pFence, threadFenceValue));
+        ThrowIfFailed(pFence-&gt;SetEventOnCompletion(threadFenceValue, m_threadFenceEvents[threadIndex]));
         WaitForSingleObject(m_threadFenceEvents[threadIndex], INFINITE);
 
         // Wait for the render thread to be done with the SRV so that
         // the next frame in the simulation can run.
-        UINT64 renderContextFenceValue = InterlockedGetValue(&m_renderContextFenceValues[threadIndex]);
-        if (m_renderContextFence->GetCompletedValue() < renderContextFenceValue)
+        UINT64 renderContextFenceValue = InterlockedGetValue(&amp;m_renderContextFenceValues[threadIndex]);
+        if (m_renderContextFence-&gt;GetCompletedValue() &lt; renderContextFenceValue)
         {
-            ThrowIfFailed(pCommandQueue->Wait(m_renderContextFence.Get(), renderContextFenceValue));
-            InterlockedExchange(&m_renderContextFenceValues[threadIndex], 0);
+            ThrowIfFailed(pCommandQueue-&gt;Wait(m_renderContextFence.Get(), renderContextFenceValue));
+            InterlockedExchange(&amp;m_renderContextFenceValues[threadIndex], 0);
         }
 
         // Swap the indices to the SRV and UAV.
         m_srvIndex[threadIndex] = 1 - m_srvIndex[threadIndex];
 
         // Prepare for the next frame.
-        ThrowIfFailed(pCommandAllocator->Reset());
-        ThrowIfFailed(pCommandList->Reset(pCommandAllocator, m_computeState.Get()));
+        ThrowIfFailed(pCommandAllocator-&gt;Reset());
+        ThrowIfFailed(pCommandList-&gt;Reset(pCommandAllocator, m_computeState.Get()));
     }
 
     return 0;
 }
-
-```
-
-
-Refer to the <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85).aspx">Example Code in the D3D12 Reference</a>.
+</pre>
+</td>
+</tr>
+</table></span></div>
+Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>
 
@@ -262,7 +270,7 @@ Refer to the <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85)
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn770457(v=VS.85).aspx">Core Interfaces</a>
+<a href="https://msdn.microsoft.com/A9BD5910-8FF2-4540-BB8E-E8EA5C10528C">Core Interfaces</a>
 
 
 

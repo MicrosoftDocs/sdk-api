@@ -7,7 +7,7 @@ old-location: com\oleuiconvert.htm
 old-project: com
 ms.assetid: 3af4b321-cea2-4f88-ae22-2dcefbb2c2ad
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: OleUIConvert, OleUIConvert function [COM], OleUIConvertA, OleUIConvertW, _ole_OleUIConvert, com.oleuiconvert, oledlg/OleUIConvert, oledlg/OleUIConvertA, oledlg/OleUIConvertW
 ms.prod: windows
 ms.technology: windows-sdk

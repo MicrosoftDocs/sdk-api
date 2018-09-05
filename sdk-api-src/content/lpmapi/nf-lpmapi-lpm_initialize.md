@@ -4,10 +4,10 @@ title: LPM_Initialize function
 author: windows-sdk-content
 description: The LPM_Initialize function initializes a local policy module (LPM).
 old-location: qos\lpm_initialize.htm
-old-project: qos
+old-project: QOS
 ms.assetid: 00f4ab59-8808-4bcb-8258-5aad113ad2b5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: LPM_Initialize, LPM_Initialize callback, LPM_Initialize callback function [QOS], _gqos_lpm_initialize, lpmapi/LPM_Initialize, qos.lpm_initialize
 ms.prod: windows
 ms.technology: windows-sdk

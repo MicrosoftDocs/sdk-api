@@ -4,10 +4,10 @@ title: MprAdminPortClearStats function
 author: windows-sdk-content
 description: The MprAdminPortClearStats function resets the statistics for the specified port.
 old-location: rras\mpradminportclearstats.htm
-old-project: rras
+old-project: RRAS
 ms.assetid: dd932134-7954-4e0a-8170-1dea4ce82011
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MprAdminPortClearStats, MprAdminPortClearStats function [RAS], _mpr_mpradminportclearstats, mprapi/MprAdminPortClearStats, rras.mpradminportclearstats
 ms.prod: windows
 ms.technology: windows-sdk
@@ -146,8 +146,8 @@ An error from MprError.h, RasError.h, or WinError.h.
 
 This function is available on Windows NT Server 4.0 if the RRAS redistributable is installed. However, the version of Mprapi.dll that ships with the RRAS redistributable exports the function as <b>RasAdminPortClearStats</b> rather than 
 <b>MprAdminPortClearStats</b>. Therefore, when using the RRAS redistributable, use 
-<a href="https://msdn.microsoft.com/en-us/library/ms684175(v=VS.85).aspx">LoadLibrary</a> and 
-<a href="https://msdn.microsoft.com/en-us/library/ms683212(v=VS.85).aspx">GetProcAddress</a> to access this function.
+<a href="_win32_loadlibrary">LoadLibrary</a> and 
+<a href="_win32_getprocaddress">GetProcAddress</a> to access this function.
 
 
 

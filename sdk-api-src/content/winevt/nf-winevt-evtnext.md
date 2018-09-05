@@ -4,10 +4,10 @@ title: EvtNext function
 author: windows-sdk-content
 description: Gets the next event from the query or subscription results.
 old-location: wes\evtnext.htm
-old-project: wes
+old-project: WES
 ms.assetid: 46d40734-f022-4775-aa4f-13f4069c43c8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EvtNext, EvtNext function [EventLog], wes.evtnext, winevt/EvtNext
 ms.prod: windows
 ms.technology: windows-sdk

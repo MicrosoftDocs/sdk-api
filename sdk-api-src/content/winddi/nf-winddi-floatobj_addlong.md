@@ -60,7 +60,12 @@ The <b>FLOATOBJ_AddLong</b> function adds the value of type LONG to the <a href=
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
 
 TBD
 

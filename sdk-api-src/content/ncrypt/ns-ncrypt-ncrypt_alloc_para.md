@@ -4,10 +4,10 @@ title: NCRYPT_ALLOC_PARA
 author: windows-sdk-content
 description: Enables you to specify custom functions that can be used to allocate and free data.
 old-location: security\ncrypt_alloc_para.htm
-old-project: seccng
+old-project: SecCNG
 ms.assetid: 4F546F51-E4DE-4703-B1D1-F84165C3C31B
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NCRYPT_ALLOC_PARA, NCRYPT_ALLOC_PARA structure [Security], PNCRYPT_ALLOC_PARA, PNCRYPT_ALLOC_PARA structure pointer [Security], ncrypt/NCRYPT_ALLOC_PARA, ncrypt/PNCRYPT_ALLOC_PARA, security.ncrypt_alloc_para
 ms.prod: windows
 ms.technology: windows-sdk

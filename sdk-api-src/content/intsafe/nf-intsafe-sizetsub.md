@@ -7,7 +7,7 @@ old-location: shell\SizeTSub.htm
 old-project: shell
 ms.assetid: 6a7b22e7-504b-4065-80fa-b972f0360b5c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SizeTSub, SizeTSub function [Windows Shell], _shell_SizeTSub, intsafe/SizeTSub, shell.SizeTSub
 ms.prod: windows
 ms.technology: windows-sdk

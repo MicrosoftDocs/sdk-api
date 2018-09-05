@@ -7,7 +7,7 @@ old-location: mscs\clusrestyperesources_count.htm
 old-project: mscs
 ms.assetid: ccd8739e-9309-4630-92cd-5b2894eb416a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusResTypeResources class [Failover Cluster],Count property, ClusResTypeResources.Count, Count property [Failover Cluster], Count property [Failover Cluster],ClusResTypeResources class, ISClusResTypeResources.get_Count, ISClusResTypeResources::get_Count, _wolf_clusrestyperesources.count, get_Count, mscs.clusrestyperesources_count
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ req.product: GDI+ 1.1
 Returns the number of 
     objects in the collection (the number of <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resources</a> of a 
     particular <a href="https://msdn.microsoft.com/d02e4f51-7b86-451a-a51c-ea850ae464d1">type</a> in the 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>).
+    <a href="c_gly.htm">cluster</a>).
 
 This property is read-only.
 

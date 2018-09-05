@@ -4,10 +4,10 @@ title: BCryptQueryContextFunctionProperty function
 author: windows-sdk-content
 description: Obtains the value of a named property for a cryptographic function in an existing CNG context.
 old-location: security\bcryptquerycontextfunctionproperty.htm
-old-project: seccng
+old-project: SecCNG
 ms.assetid: c8814a13-ac28-4583-927f-c787e0a25faf
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE, BCRYPT_CIPHER_INTERFACE, BCRYPT_HASH_INTERFACE, BCRYPT_RNG_INTERFACE, BCRYPT_SECRET_AGREEMENT_INTERFACE, BCRYPT_SIGNATURE_INTERFACE, BCryptQueryContextFunctionProperty, BCryptQueryContextFunctionProperty function [Security], CRYPT_DOMAIN, CRYPT_LOCAL, NCRYPT_KEY_STORAGE_INTERFACE, NCRYPT_SCHANNEL_INTERFACE, bcrypt/BCryptQueryContextFunctionProperty, security.bcryptquerycontextfunctionproperty
 ms.prod: windows
 ms.technology: windows-sdk

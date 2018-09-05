@@ -7,7 +7,7 @@ old-location: fs\inventoryntmslibrary.htm
 old-project: Rsm
 ms.assetid: ae631417-a83d-48d9-be9b-61424321ffd0
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: InventoryNtmsLibrary, InventoryNtmsLibrary function [Files], NTMS_INVENTORY_DEFAULT, NTMS_INVENTORY_FAST, NTMS_INVENTORY_OMID, NTMS_INVENTORY_STOP, _zaw_inventoryntmslibrary, base.inventoryntmslibrary, fs.inventoryntmslibrary, ntmsapi/InventoryNtmsLibrary
 ms.prod: windows
 ms.technology: windows-sdk
@@ -247,7 +247,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb540727(v=VS.85).aspx">Library Control Functions</a>
+<a href="removable_storage_manager_functions.htm">Library Control Functions</a>
  
 
  

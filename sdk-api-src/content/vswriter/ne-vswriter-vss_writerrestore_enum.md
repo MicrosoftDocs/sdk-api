@@ -4,10 +4,10 @@ title: VSS_WRITERRESTORE_ENUM
 author: windows-sdk-content
 description: Indicate to a requester the conditions under which it will handle events generated during a restore operation.
 old-location: base\vss_writerrestore_enum.htm
-old-project: vss
+old-project: VSS
 ms.assetid: a3e45d52-4d9a-4bdf-a8e5-622939be6f2c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: VSS_WRE_ALWAYS, VSS_WRE_IF_REPLACE_FAILS, VSS_WRE_NEVER, VSS_WRE_UNDEFINED, VSS_WRITERRESTORE_ENUM, VSS_WRITERRESTORE_ENUM enumeration [VSS], _win32_vss_writerrestore_enum, base.vss_writerrestore_enum, enumeration [VSS], vswriter/VSS_WRE_ALWAYS, vswriter/VSS_WRE_IF_REPLACE_FAILS, vswriter/VSS_WRE_NEVER, vswriter/VSS_WRE_UNDEFINED, vswriter/VSS_WRITERRESTORE_ENUM
 ms.prod: windows
 ms.technology: windows-sdk

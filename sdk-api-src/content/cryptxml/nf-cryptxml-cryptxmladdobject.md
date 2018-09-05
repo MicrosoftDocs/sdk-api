@@ -4,10 +4,10 @@ title: CryptXmlAddObject function
 author: windows-sdk-content
 description: Adds the Object element to the Signature in the Document Context opened for encoding.
 old-location: security\cryptxmladdobject.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 906c17a2-d8f3-4f90-a697-432cae7c789a
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CRYPT_XML_ADD_OBJECT_CREATE_REFERENCE, CryptXmlAddObject, CryptXmlAddObject function [Security], cryptxml/CryptXmlAddObject, security.cryptxmladdobject
 ms.prod: windows
 ms.technology: windows-sdk
@@ -61,7 +61,7 @@ The <b>CryptXmlAddObject</b> function adds the <b>Object</b> element to the Sign
 
 ### -param hSignatureOrObject [in]
 
-The handle of a Signature returned by the <a href="https://msdn.microsoft.com/en-us/library/Dd433830(v=VS.85).aspx">CryptXmlOpenToEncode</a> function or the handle of a Reference returned by the <a href="https://msdn.microsoft.com/en-us/library/Dd433807(v=VS.85).aspx">CryptXmlCreateReference</a> function with     the <b>CRYPT_XML_FLAG_CREATE_REFERENCE_AS_OBJECT</b> flag set.
+The handle of a Signature returned by the <a href="https://msdn.microsoft.com/a313d14c-03fc-4719-bacd-c7b3e5ce2dba">CryptXmlOpenToEncode</a> function or the handle of a Reference returned by the <a href="https://msdn.microsoft.com/1078d483-a017-486b-8967-a3efe9d3a29a">CryptXmlCreateReference</a> function with     the <b>CRYPT_XML_FLAG_CREATE_REFERENCE_AS_OBJECT</b> flag set.
 
 
 ### -param dwFlags
@@ -95,7 +95,7 @@ When set, an in-memory copy of the XML part is created and included in the <b>Ob
 
 ### -param rgProperty [in, optional]
 
-A pointer to  a  <a href="https://msdn.microsoft.com/en-us/library/Dd433860(v=VS.85).aspx">CRYPT_XML_PROPERTY</a> structure that specifies additional properties used to decode the <b>Object</b> element.
+A pointer to  a  <a href="https://msdn.microsoft.com/287c205a-56ba-40ae-a664-9bccef2e9655">CRYPT_XML_PROPERTY</a> structure that specifies additional properties used to decode the <b>Object</b> element.
 
 
 ### -param cProperty [in]
@@ -105,12 +105,12 @@ The number of elements in the array pointed to by the <i>rgProperty</i> property
 
 ### -param pEncoded [in]
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd433844(v=VS.85).aspx">CRYPT_XML_BLOB</a> structure that contains the <b>Object</b> element. 
+A pointer to a <a href="https://msdn.microsoft.com/b70aae53-919b-4d4a-b284-ea6bc223842f">CRYPT_XML_BLOB</a> structure that contains the <b>Object</b> element. 
 
 
 ### -param ppObject [out, optional]
 
-A pointer to  a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dd433859(v=VS.85).aspx">CRYPT_XML_OBJECT</a> structure to receive the decoded structure.
+A pointer to  a pointer to a <a href="https://msdn.microsoft.com/b151efb2-8801-451a-83ec-e9045c2e0b81">CRYPT_XML_OBJECT</a> structure to receive the decoded structure.
     This parameter must be <b>NULL</b> when the <i>hSignatureOrObject</i> parameter contains a handle to the Object.
 
 
@@ -130,7 +130,7 @@ If the function fails, it returns an <b>HRESULT</b> value that indicates the err
 
 
     When the <i>hSignatureOrObject</i> parameter specifies a handle to a Reference returned 
-    by the <a href="https://msdn.microsoft.com/en-us/library/Dd433807(v=VS.85).aspx">CryptXmlCreateReference</a> function, the <i>pEncoded</i> parameter specifies XML content that is included
+    by the <a href="https://msdn.microsoft.com/1078d483-a017-486b-8967-a3efe9d3a29a">CryptXmlCreateReference</a> function, the <i>pEncoded</i> parameter specifies XML content that is included
     in the <b>Object</b> node after the optional <b>Manifest</b> element.
     The pointer contained in the <i>pEncoded</i>  parameter must be valid until the signature is complete. 
     Otherwise, use the <b>CRYPT_XML_FLAG_ADD_OBJECT_CREATE_COPY</b> flag to create an in-memory copy.

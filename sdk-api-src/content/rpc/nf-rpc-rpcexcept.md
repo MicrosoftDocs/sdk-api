@@ -4,10 +4,10 @@ title: RpcExcept macro
 author: windows-sdk-content
 description: The RpcExcept statement provides structured exception handling for RPC applications.
 old-location: rpc\rpcexcept.htm
-old-project: rpc
+old-project: Rpc
 ms.assetid: 5bd57250-1fd7-4aeb-aa53-4fd2c8d84836
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcExcept, RpcExcept macro [RPC], _rpc_rpcexcept, rpc.rpcexcept, rpc/RpcExcept
 ms.prod: windows
 ms.technology: windows-sdk

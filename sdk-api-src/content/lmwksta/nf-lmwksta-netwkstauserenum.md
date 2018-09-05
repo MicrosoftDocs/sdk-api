@@ -7,7 +7,7 @@ old-location: netmgmt\netwkstauserenum.htm
 old-project: netmgmt
 ms.assetid: 42eaeb70-3ce8-4eae-b20b-4729db90a7ef
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: 0, 1, NetWkstaUserEnum, NetWkstaUserEnum function [Network Management], _win32_netwkstauserenum, lmwksta/NetWkstaUserEnum, netmgmt.netwkstauserenum
 ms.prod: windows
 ms.technology: windows-sdk
@@ -196,7 +196,7 @@ Note that since the
 <a href="https://msdn.microsoft.com/fd3b718a-5eff-4894-9fc6-d157ddb67330">Access Control Model</a>.
 
 <b>Windows 2000:  </b>If you call this function on a domain controller that is running Active Directory, access is allowed or denied based on the access control list (ACL) for the securable object. The default ACL permits all authenticated users and members of the "
-<a href="https://msdn.microsoft.com/library/Aa375347(v=VS.85).aspx">Pre-Windows 2000 compatible access</a>" group to view the information. By default, the "Pre-Windows 2000 compatible access" group includes Everyone as a member. This enables anonymous access to the information if the system allows anonymous access. If you call this function on a member server or workstation, all authenticated users can view the information. Anonymous access is also permitted if the RestrictAnonymous policy setting allows anonymous access.
+<a href="security.pre_windows_2000_compatible_access_group">Pre-Windows 2000 compatible access</a>" group to view the information. By default, the "Pre-Windows 2000 compatible access" group includes Everyone as a member. This enables anonymous access to the information if the system allows anonymous access. If you call this function on a member server or workstation, all authenticated users can view the information. Anonymous access is also permitted if the RestrictAnonymous policy setting allows anonymous access.
 
 To compile an application that uses this function, define the _WIN32_WINNT macro as 0x0400 or later. For more information,see 
 <a href="https://msdn.microsoft.com/a4def563-8ddc-4630-ae8a-86c07cf98374">Using the Windows Headers</a>.
@@ -209,17 +209,21 @@ The following code sample demonstrates how to list information about all users c
 <b>NetWkstaUserEnum</b>, specifying information level 0 (
 <a href="https://msdn.microsoft.com/8bd8d8c7-4558-46cb-ab46-a2197d53e9f7">WKSTA_USER_INFO_0</a>). The sample loops through the entries and prints the names of the users logged on to a workstation. Finally, the code sample frees the memory allocated for the information buffer, and prints the total number of users enumerated.
 
-
-```cpp
-#ifndef UNICODE
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#ifndef UNICODE
 #define UNICODE
 #endif
 #pragma comment(lib, "netapi32.lib")
 
-#include <stdio.h>
-#include <assert.h>
-#include <windows.h> 
-#include <lm.h>
+#include &lt;stdio.h&gt;
+#include &lt;assert.h&gt;
+#include &lt;windows.h&gt; 
+#include &lt;lm.h&gt;
 
 int wmain(int argc, wchar_t *argv[])
 {
@@ -235,7 +239,7 @@ int wmain(int argc, wchar_t *argv[])
    NET_API_STATUS nStatus;
    LPWSTR pszServerName = NULL;
 
-   if (argc > 2)
+   if (argc &gt; 2)
    {
       fwprintf(stderr, L"Usage: %s [\\\\ServerName]\n", argv[0]);
       exit(1);
@@ -252,11 +256,11 @@ int wmain(int argc, wchar_t *argv[])
    {
       nStatus = NetWkstaUserEnum( pszServerName,
                                   dwLevel,
-                                  (LPBYTE*)&pBuf,
+                                  (LPBYTE*)&amp;pBuf,
                                   dwPrefMaxLen,
-                                  &dwEntriesRead,
-                                  &dwTotalEntries,
-                                  &dwResumeHandle);
+                                  &amp;dwEntriesRead,
+                                  &amp;dwTotalEntries,
+                                  &amp;dwResumeHandle);
       //
       // If the call succeeds,
       //
@@ -267,7 +271,7 @@ int wmain(int argc, wchar_t *argv[])
             //
             // Loop through the entries.
             //
-            for (i = 0; (i < dwEntriesRead); i++)
+            for (i = 0; (i &lt; dwEntriesRead); i++)
             {
                assert(pTmpBuf != NULL);
 
@@ -284,7 +288,7 @@ int wmain(int argc, wchar_t *argv[])
                //
                // Print the user logged on to the workstation. 
                //
-               wprintf(L"\t-- %s\n", pTmpBuf->wkui0_username);
+               wprintf(L"\t-- %s\n", pTmpBuf-&gt;wkui0_username);
 
                pTmpBuf++;
                dwTotalCount++;
@@ -322,10 +326,10 @@ int wmain(int argc, wchar_t *argv[])
 
    return 0;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Updates a list-view item. If the list-view control has the <a href="https://msdn.microsoft.com/en-us/library/Bb774739(v=VS.85).aspx">LVS_AUTOARRANGE</a> style, this macro causes the list-view control to be arranged. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb761230(v=VS.85).aspx">LVM_UPDATE</a> message explicitly. 
+Updates a list-view item. If the list-view control has the <a href="List_view_window_styles.htm">LVS_AUTOARRANGE</a> style, this macro causes the list-view control to be arranged. You can use this macro or send the <a href="https://msdn.microsoft.com/81b332e9-4bea-481e-a7c5-613371103550">LVM_UPDATE</a> message explicitly. 
 
 
 ## -parameters

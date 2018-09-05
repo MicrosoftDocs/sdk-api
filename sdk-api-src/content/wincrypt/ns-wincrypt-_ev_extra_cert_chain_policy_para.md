@@ -4,10 +4,10 @@ title: "_EV_EXTRA_CERT_CHAIN_POLICY_PARA"
 author: windows-sdk-content
 description: Specifies the parameters that are passed in for EV policy validation. Applications use this structure to pass hints to the API that indicate which of the policy qualifier flags of the extended validation certificates are important to the application.
 old-location: security\ev_extra_cert_chain_policy_para.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 64ea96a7-ba37-49e1-a73f-ce772c1a9fb2
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: "*PEV_EXTRA_CERT_CHAIN_POLICY_PARA, CERT_ROOT_PROGRAM_FLAG_LSC, CERT_ROOT_PROGRAM_FLAG_ORG, CERT_ROOT_PROGRAM_FLAG_SUBJECT_LOGO, EV_EXTRA_CERT_CHAIN_POLICY_PARA, EV_EXTRA_CERT_CHAIN_POLICY_PARA structure [Security], PEV_EXTRA_CERT_CHAIN_POLICY_PARA, PEV_EXTRA_CERT_CHAIN_POLICY_PARA structure pointer [Security], _EV_EXTRA_CERT_CHAIN_POLICY_PARA, security.ev_extra_cert_chain_policy_para, wincrypt/EV_EXTRA_CERT_CHAIN_POLICY_PARA, wincrypt/PEV_EXTRA_CERT_CHAIN_POLICY_PARA"
 ms.prod: windows
 ms.technology: windows-sdk

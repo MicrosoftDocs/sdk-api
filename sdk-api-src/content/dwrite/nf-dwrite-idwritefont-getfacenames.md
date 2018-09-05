@@ -7,7 +7,7 @@ old-location: directwrite\IDWriteFont_GetFaceNames.htm
 old-project: DirectWrite
 ms.assetid: 6475610a-68f0-4568-9d47-c83515dfa761
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetFaceNames, GetFaceNames method [Direct Write], GetFaceNames method [Direct Write],IDWriteFont interface, IDWriteFont interface [Direct Write],GetFaceNames method, IDWriteFont.GetFaceNames, IDWriteFont::GetFaceNames, directwrite.IDWriteFont_GetFaceNames, dwrite/IDWriteFont::GetFaceNames
 ms.prod: windows
 ms.technology: windows-sdk

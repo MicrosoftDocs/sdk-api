@@ -4,10 +4,10 @@ title: AuditEnumeratePerUserPolicy function
 author: windows-sdk-content
 description: Enumerates users for whom per-user auditing policy is specified.
 old-location: security\auditenumerateperuserpolicy_func.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 4b13f021-ba08-4eb8-9c7a-0512992ef272
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AuditEnumeratePerUserPolicy, AuditEnumeratePerUserPolicy function [Security], ntsecapi/AuditEnumeratePerUserPolicy, security.auditenumerateperuserpolicy_func
 ms.prod: windows
 ms.technology: windows-sdk

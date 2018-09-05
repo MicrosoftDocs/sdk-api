@@ -60,7 +60,12 @@ The <b>wglSwapLayerBuffers</b> function swaps the front and back buffers in the 
 
 
 
-### -param
+### -param arg1
+
+TBD
+
+
+### -param arg2
 
 TBD
 

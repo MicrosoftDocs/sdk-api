@@ -114,7 +114,7 @@ The specified object is not selected.
 </dl>
 </td>
 <td width="60%">
-An argument is not valid. This return value means that the specified SELFLAG combination is not valid, or that the SELFLAG value does not make sense for the specified object. For example, the following flags are not allowed on a single-selection list box: <a href="https://msdn.microsoft.com/en-us/library/Dd373634(v=VS.85).aspx">SELFLAG_EXTENDSELECTION</a>, <a href="https://msdn.microsoft.com/en-us/library/Dd373634(v=VS.85).aspx">SELFLAG_ADDSELECTION</a>, and <a href="https://msdn.microsoft.com/en-us/library/Dd373634(v=VS.85).aspx">SELFLAG_REMOVESELECTION</a>.
+An argument is not valid. This return value means that the specified SELFLAG combination is not valid, or that the SELFLAG value does not make sense for the specified object. For example, the following flags are not allowed on a single-selection list box: <a href="selflag.htm">SELFLAG_EXTENDSELECTION</a>, <a href="selflag.htm">SELFLAG_ADDSELECTION</a>, and <a href="selflag.htm">SELFLAG_REMOVESELECTION</a>.
 
 </td>
 </tr>
@@ -147,26 +147,30 @@ Client applications use this method to perform complex selection operations. For
 <h3><a id="Client_Example"></a><a id="client_example"></a><a id="CLIENT_EXAMPLE"></a>Client Example</h3>
 The following example function selects the item at a specified point on the screen. It is assumed that a single selection is wanted.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 HRESULT SelectItemAtPoint(POINT point)
 {
     VARIANT varItem;
     IAccessible* pAcc;
-    HRESULT hr = AccessibleObjectFromPoint(point, &pAcc, &varItem);
+    HRESULT hr = AccessibleObjectFromPoint(point, &amp;pAcc, &amp;varItem);
     if ((hr == S_OK))
     {
-        hr = pAcc->accSelect((SELFLAG_TAKEFOCUS | SELFLAG_TAKESELECTION), varItem);
-        VariantClear(&varItem);
-        pAcc->Release();
+        hr = pAcc-&gt;accSelect((SELFLAG_TAKEFOCUS | SELFLAG_TAKESELECTION), varItem);
+        VariantClear(&amp;varItem);
+        pAcc-&gt;Release();
     }
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

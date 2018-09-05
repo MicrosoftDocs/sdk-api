@@ -4,10 +4,10 @@ title: NdrUserMarshalFree function
 author: windows-sdk-content
 description: The NdrUserMarshalFree function frees the user marshal object.
 old-location: rpc\ndrusermarshalfree.htm
-old-project: rpc
+old-project: Rpc
 ms.assetid: 3b850938-13f3-4173-86bb-8b01ac0c5809
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NdrUserMarshalFree, NdrUserMarshalFree function [RPC], rpc.ndrusermarshalfree, rpcndr/NdrUserMarshalFree
 ms.prod: windows
 ms.technology: windows-sdk

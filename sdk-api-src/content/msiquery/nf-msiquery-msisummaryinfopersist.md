@@ -7,7 +7,7 @@ old-location: setup\msisummaryinfopersist.htm
 old-project: msi
 ms.assetid: 76fd8339-2c57-4695-83c7-dcd3cd642f55
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MsiSummaryInfoPersist, MsiSummaryInfoPersist function, _msi_msisummaryinfopersist, msiquery/MsiSummaryInfoPersist, setup.msisummaryinfopersist
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ Handle to summary information.
 
 
 
-This function returns UINT __stdcall.
+This function returns UINT.
 
 
 
@@ -80,7 +80,7 @@ This function returns UINT __stdcall.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Summary Information Property Functions</a>
+<a href="database_functions.htm">Summary Information Property Functions</a>
 
 
 

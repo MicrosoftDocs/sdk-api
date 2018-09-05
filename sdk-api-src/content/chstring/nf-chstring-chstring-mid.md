@@ -7,7 +7,7 @@ old-location: wmi\chstring_mid.htm
 old-project: WmiSdk
 ms.assetid: 2036813b-f991-4ca3-95d3-8bbe858aae09
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: CHString.Mid, CHString::Mid, CHString::Mid methods [Windows Management Instrumentation], Mid, chstring/CHString::Mid, wmi.chstring_mid
 ms.prod: windows
 ms.technology: windows-sdk

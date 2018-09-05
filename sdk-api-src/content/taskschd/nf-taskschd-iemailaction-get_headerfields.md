@@ -4,10 +4,10 @@ title: IEmailAction::get_HeaderFields
 author: windows-sdk-content
 description: Gets or sets the header information in the email message to send.
 old-location: taskschd\iemailaction_headerfields.htm
-old-project: taskschd
+old-project: TaskSchd
 ms.assetid: e7b822a0-1e5e-4dd2-8139-ac44c6308fe0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: HeaderFields property [Task Scheduler], HeaderFields property [Task Scheduler],IEmailAction interface, IEmailAction interface [Task Scheduler],HeaderFields property, IEmailAction.HeaderFields, IEmailAction.get_HeaderFields, IEmailAction::HeaderFields, IEmailAction::get_HeaderFields, IEmailAction::put_HeaderFields, get_HeaderFields, taskschd.iemailaction_headerfields, taskschd/IEmailAction::HeaderFields, taskschd/IEmailAction::get_HeaderFields, taskschd/IEmailAction::put_HeaderFields
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-<p class="CCE_Message">[This interface is no longer supported. Please use IExecAction with the  powershell <a href="https://msdn.microsoft.com/library/Hh849925(v=WPS.620).aspx">Send-MailMessage</a> cmdlet as a workaround.]
+<p class="CCE_Message">[This interface is no longer supported. Please use IExecAction with the  powershell <a href="796227F5-C9FF-402D-8A04-CDE9E0C180EE">Send-MailMessage</a> cmdlet as a workaround.]
 
 Gets or sets the header information in the email message to send.
 

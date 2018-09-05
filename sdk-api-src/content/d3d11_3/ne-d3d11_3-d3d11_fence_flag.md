@@ -87,7 +87,7 @@ The fence is shared with another GPU adapter.
 
 
 
-This enum is used by the <a href="https://msdn.microsoft.com/en-us/library/Mt492479(v=VS.85).aspx">ID3D11Device::CreateFence</a> method.
+This enum is used by the <a href="https://msdn.microsoft.com/B4AA9E0D-AAF4-4632-A98F-A3212764D5E1">ID3D11Device::CreateFence</a> method.
       
 
 
@@ -98,7 +98,7 @@ This enum is used by the <a href="https://msdn.microsoft.com/en-us/library/Mt492
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476152(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/1641713a-5ac8-4597-900b-1bba54f9f522">Core Enumerations</a>
  
 
  

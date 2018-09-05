@@ -7,7 +7,7 @@ old-location: mscs\clusversion_majorversion.htm
 old-project: mscs
 ms.assetid: f4d81e0a-4f65-470b-9215-f1b91e582646
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusVersion object [Failover Cluster],MajorVersion property, ClusVersion.MajorVersion, ISClusVersion.get_MajorVersion, ISClusVersion::get_MajorVersion, MajorVersion property [Failover Cluster], MajorVersion property [Failover Cluster],ClusVersion object, _wolf_clusversion.majorversion, get_MajorVersion, mscs.clusversion_majorversion
 ms.prod: windows
 ms.technology: windows-sdk
@@ -73,19 +73,23 @@ This property is read-only.
 
 The <b>MajorVersion</b> and 
     <a href="https://msdn.microsoft.com/c335922c-ac62-4b37-bafb-b29d58545c85">ClusVersion.MinorVersion</a> properties together 
-    form a complete Windows <a href="https://msdn.microsoft.com/en-us/library/Aa373122(v=VS.85).aspx">version number</a>.
+    form a complete Windows <a href="v_gly.htm">version number</a>.
 
-
-```vb
-Version = X.Y
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Version = X.Y
 MajorVersion = X
 MinorVersion = Y
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 All <a href="https://msdn.microsoft.com/2215335a-1858-437f-8654-2e9d601fe061">ClusVersion</a> properties are static values 
-    corresponding the state of the <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> when the 
+    corresponding the state of the <a href="c_gly.htm">cluster</a> when the 
     <b>ClusVersion</b> object was first created. To obtain the 
     latest version information from the cluster, create a new 
     <b>ClusVersion</b> object.

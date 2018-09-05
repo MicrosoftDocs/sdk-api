@@ -4,10 +4,10 @@ title: IWSDHttpAuthParameters
 author: windows-sdk-content
 description: Use this interface to retrieve the access token or authorization scheme used during the authentication of a client.
 old-location: ncd\iwsdhttpauthparameters.htm
-old-project: wsdapi
+old-project: WsdApi
 ms.assetid: 77AB4D22-55F2-4DF6-8E83-718BFB88841A
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IWSDHttpAuthParameters, IWSDHttpAuthParameters interface, IWSDHttpAuthParameters interface,described, ncd.iwsdhttpauthparameters, wsdbase/IWSDHttpAuthParameters
 ms.prod: windows
 ms.technology: windows-sdk

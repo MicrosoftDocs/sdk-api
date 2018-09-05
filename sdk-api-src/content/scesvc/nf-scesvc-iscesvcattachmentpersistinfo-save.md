@@ -4,10 +4,10 @@ title: ISceSvcAttachmentPersistInfo::Save
 author: windows-sdk-content
 description: The Save method causes the snap-in extension to return information about the data that needs to be saved. The caller is responsible for saving the data.
 old-location: security\iscesvcattachmentpersistinfo_save.htm
-old-project: secmgmt
+old-project: SecMgmt
 ms.assetid: bdec64b8-2a92-4165-95ff-0de981f2d878
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ISceSvcAttachmentPersistInfo interface [Security],Save method, ISceSvcAttachmentPersistInfo.Save, ISceSvcAttachmentPersistInfo::Save, Save, Save method [Security], Save method [Security],ISceSvcAttachmentPersistInfo interface, _config_iscesvcattachmentpersistinfo_save, scesvc/ISceSvcAttachmentPersistInfo::Save, security.iscesvcattachmentpersistinfo_save
 ms.prod: windows
 ms.technology: windows-sdk

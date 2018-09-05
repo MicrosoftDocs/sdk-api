@@ -4,10 +4,10 @@ title: IComHandlerAction::get_ClassId
 author: windows-sdk-content
 description: Gets or sets the identifier of the handler class.
 old-location: taskschd\icomhandleraction_classid.htm
-old-project: taskschd
+old-project: TaskSchd
 ms.assetid: 7a197ed1-613c-4eb3-95eb-5452218f5d48
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClassId property [Task Scheduler], ClassId property [Task Scheduler],IComHandlerAction interface, IComHandlerAction interface [Task Scheduler],ClassId property, IComHandlerAction.ClassId, IComHandlerAction.get_ClassId, IComHandlerAction::ClassId, IComHandlerAction::get_ClassId, IComHandlerAction::put_ClassId, get_ClassId, taskschd.icomhandleraction_classid, taskschd/IComHandlerAction::ClassId, taskschd/IComHandlerAction::get_ClassId, taskschd/IComHandlerAction::put_ClassId
 ms.prod: windows
 ms.technology: windows-sdk

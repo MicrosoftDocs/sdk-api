@@ -4,10 +4,10 @@ title: IX509CertificateTemplate::get_Property
 author: windows-sdk-content
 description: Retrieves a template property value.
 old-location: security\ix509certificatetemplate_property.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: 4588891e-7be4-482a-bbad-c23759b06b1b
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IX509CertificateTemplate interface [Security],Property property, IX509CertificateTemplate.Property, IX509CertificateTemplate.get_Property, IX509CertificateTemplate::Property, IX509CertificateTemplate::get_Property, Property property [Security], Property property [Security],IX509CertificateTemplate interface, certenroll/IX509CertificateTemplate::Property, certenroll/IX509CertificateTemplate::get_Property, get_Property, security.ix509certificatetemplate_property
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ This property is read-only.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351664(v=VS.85).aspx">IX509CertificateTemplate</a>
+<a href="https://msdn.microsoft.com/56122d92-7e38-4eaa-b2f5-713adc81e68e">IX509CertificateTemplate</a>
  
 
  

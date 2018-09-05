@@ -7,7 +7,7 @@ old-location: mscs\clusctl_get_access_mode.htm
 old-project: mscs
 ms.assetid: 75544022-6c6b-4a04-83cc-427307eaf3ea
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: CLUSCTL_GET_ACCESS_MODE, CLUSCTL_GET_ACCESS_MODE macro [Failover Cluster], _wolf_clusctl_get_access_mode, clusapi/CLUSCTL_GET_ACCESS_MODE, mscs.clusctl_get_access_mode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-Extracts the access code from a control code. For more information on the various codes that comprise a control code, see  <a href="https://msdn.microsoft.com/en-us/library/Aa369308(v=VS.85).aspx">Control Code Architecture</a>.
+Extracts the access code from a control code. For more information on the various codes that comprise a control code, see  <a href="https://msdn.microsoft.com/d107f743-8ce8-4c0c-b7a2-24a70ffbc0f3">Control Code Architecture</a>.
 
 
 ## -parameters

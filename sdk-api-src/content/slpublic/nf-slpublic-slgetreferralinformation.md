@@ -4,10 +4,10 @@ title: SLGetReferralInformation function
 author: windows-sdk-content
 description: Gets referral information for the specified product.
 old-location: security\slgetreferralinformation.htm
-old-project: secslapi
+old-project: SecSLApi
 ms.assetid: 880ee26d-4deb-415c-b1dd-f17d802ea8e8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: SLGetReferralInformation, SLGetReferralInformation function [Security], SL_DOWNLOADURL, SL_INSTALLATIONPARAMETERS, SL_MERCHANTCOMMERCEURL, SL_MERCHANTSUPPORTEMAIL, SL_MERCHANTSUPPORTPHONENUMBER, SL_MERCHANTSUPPORTURL, SL_MERCHANTUPGRADEURL, SL_PARTNERID, SL_REFERRALID, SL_SERIALIZEDDATA, security.slgetreferralinformation, slpublic/SLGetReferralInformation
 ms.prod: windows
 ms.technology: windows-sdk

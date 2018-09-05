@@ -4,10 +4,10 @@ title: WlxScreenSaverNotify function
 author: windows-sdk-content
 description: Winlogon calls this function immediately before a screen saver is activated, allowing the GINA to interact with the screen saver program.
 old-location: security\wlxscreensavernotify.htm
-old-project: secauthn
+old-project: SecAuthN
 ms.assetid: 72ed356d-bae3-42ac-87c2-99305951e24b
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: WlxScreenSaverNotify, WlxScreenSaverNotify function [Security], _gina_wlxscreensavernotify, security.wlxscreensavernotify, winwlx/WlxScreenSaverNotify
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,10 +93,14 @@ If the screen saver should not be activated, the function returns <b>FALSE</b>.
 
 If your GINA DLL does not export this function, Winlogon uses the following default behavior.
 
-
-```cpp
-#include <windows.h>
-#include <Winwlx.h>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#include &lt;windows.h&gt;
+#include &lt;Winwlx.h&gt;
 
 BOOL DefaultScreenSaverNotify(
    PVOID   pWlxContext,
@@ -108,10 +112,10 @@ BOOL DefaultScreenSaverNotify(
   }
   return(TRUE);
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 Before calling <b>WlxScreenSaverNotify</b>, Winlogon sets the desktop state so that the current desktop is the Winlogon desktop and sets the workstation state so that the desktop is locked.
 
 

@@ -7,7 +7,7 @@ old-location: coreaudio\isimpleaudiovolume_getmastervolume.htm
 old-project: CoreAudio
 ms.assetid: 362d8e12-a92c-4e0f-b88f-a3937c75d01a
 ms.author: windowssdkdev
-ms.date: 08/14/2018
+ms.date: 08/24/2018
 ms.keywords: GetMasterVolume, GetMasterVolume method [Core Audio], GetMasterVolume method [Core Audio],ISimpleAudioVolume interface, ISimpleAudioVolume interface [Core Audio],GetMasterVolume method, ISimpleAudioVolume.GetMasterVolume, ISimpleAudioVolume::GetMasterVolume, ISimpleAudioVolumeGetMasterVolume, audioclient/ISimpleAudioVolume::GetMasterVolume, coreaudio.isimpleaudiovolume_getmastervolume
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: RegGetValueW function
 author: windows-sdk-content
 description: Retrieves the type and data for the specified registry value.
 old-location: base\reggetvalue.htm
-old-project: sysinfo
+old-project: SysInfo
 ms.assetid: 1c06facb-6735-4b3f-b77d-f162e3faaada
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: RRF_NOEXPAND, RRF_RT_ANY, RRF_RT_DWORD, RRF_RT_QWORD, RRF_RT_REG_BINARY, RRF_RT_REG_DWORD, RRF_RT_REG_EXPAND_SZ, RRF_RT_REG_MULTI_SZ, RRF_RT_REG_NONE, RRF_RT_REG_QWORD, RRF_RT_REG_SZ, RRF_SUBKEY_WOW6432KEY, RRF_SUBKEY_WOW6464KEY, RRF_ZEROONFAILURE, RegGetValue, RegGetValue function, RegGetValueA, RegGetValueW, base.reggetvalue, winreg/RegGetValue, winreg/RegGetValueA, winreg/RegGetValueW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: shell\SHCreateStreamOnFile.htm
 old-project: shell
 ms.assetid: 9b1fd6c4-d7b0-40b9-bc9f-ea062a1079c1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: SHCreateStreamOnFile, SHCreateStreamOnFile function [Windows Shell], SHCreateStreamOnFileA, SHCreateStreamOnFileW, _win32_SHCreateStreamOnFile, shell.SHCreateStreamOnFile, shlwapi/SHCreateStreamOnFile, shlwapi/SHCreateStreamOnFileA, shlwapi/SHCreateStreamOnFileW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax
@@ -79,7 +79,7 @@ A pointer to a null-terminated string that specifies the file name.
 
 Type: <b>DWORD</b>
 
-One or more <a href="https://msdn.microsoft.com/library/Aa380337(v=VS.85).aspx">STGM</a> values that are used to specify the file access mode and how the object that exposes the stream is created and deleted.
+One or more <a href="stg.stgm">STGM</a> values that are used to specify the file access mode and how the object that exposes the stream is created and deleted.
 
 
 ### -param ppstm [out]
@@ -105,7 +105,7 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 
 
 
-<a href="https://msdn.microsoft.com/f948f7dd-987d-4c2d-b650-62081133c3f4">SHCreateStreamOnFileEx</a> fully supports all <a href="https://msdn.microsoft.com/library/Aa380337(v=VS.85).aspx">STGM</a> modes and allows the caller to specify file attributes if creating a new file.
+<a href="https://msdn.microsoft.com/f948f7dd-987d-4c2d-b650-62081133c3f4">SHCreateStreamOnFileEx</a> fully supports all <a href="stg.stgm">STGM</a> modes and allows the caller to specify file attributes if creating a new file.
 
 
 

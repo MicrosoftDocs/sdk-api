@@ -7,7 +7,7 @@ old-location: wer\weraddexcludedapplication.htm
 old-project: wer
 ms.assetid: ac1ec373-868f-4634-8658-4253d4f5923a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WerAddExcludedApplication, WerAddExcludedApplication function [Windows Error Reporting], base.weraddexcludedapplication, wer.weraddexcludedapplication, werapi/WerAddExcludedApplication
 ms.prod: windows
 ms.technology: windows-sdk

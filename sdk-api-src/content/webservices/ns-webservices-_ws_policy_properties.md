@@ -7,7 +7,7 @@ old-location: wsw\ws_policy_properties.htm
 old-project: wsw
 ms.assetid: e03f94d9-aeeb-40df-a367-c80e831125e8
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_POLICY_PROPERTIES, WS_POLICY_PROPERTIES structure [Web Services for Windows], _WS_POLICY_PROPERTIES, webservices/WS_POLICY_PROPERTIES, wsw.ws_policy_properties
 ms.prod: windows
 ms.technology: windows-sdk

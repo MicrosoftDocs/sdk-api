@@ -110,20 +110,24 @@ This method can be called at any time, no matter what state the filter is in, wh
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 BYTE *lpDib = NULL;
-hr = pWindowlessControl->GetCurrentImage(&lpDib);
+hr = pWindowlessControl-&gt;GetCurrentImage(&amp;lpDib);
 if (SUCCEEDED(hr))
 {
     BITMAPINFOHEADER *pBMIH = (BITMAPINFOHEADER*)lpDib;
     /* .... */
     CoTaskMemFree(lpDib);
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

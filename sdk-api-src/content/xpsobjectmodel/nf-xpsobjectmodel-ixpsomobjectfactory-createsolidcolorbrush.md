@@ -155,9 +155,13 @@ The method succeeded.
 
 The code example that follows illustrates how this method is used to create a new  interface.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 IXpsOMSolidColorBrush             *newInterface;
 // The following values are defined outside of 
 // this example.
@@ -172,32 +176,32 @@ hr = CoCreateInstance(
     NULL,
     CLSCTX_INPROC_SERVER,
     _uuidof(IXpsOMObjectFactory),
-    reinterpret_cast<LPVOID*>(&xpsFactory)
+    reinterpret_cast&lt;LPVOID*&gt;(&amp;xpsFactory)
     );
 
 if (SUCCEEDED(hr))
 {
-    hr = xpsFactory->CreateSolidColorBrush (
-        &color,
+    hr = xpsFactory-&gt;CreateSolidColorBrush (
+        &amp;color,
         colorProfile,
-        &newInterface);
+        &amp;newInterface);
 
     if (SUCCEEDED(hr))
     {
         // use newInterface
 
-        newInterface->Release();
+        newInterface-&gt;Release();
     }
-    xpsFactory->Release();
+    xpsFactory-&gt;Release();
 }
 else
 {
     // evaluate HRESULT error returned in hr
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: tracelogging\traceloggingchannel.htm
 old-project: tracelogging
 ms.assetid: E7769335-3A1D-4F0B-86DA-20DA3F7B6733
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: TraceLoggingChannel, TraceLoggingChannel macro, tracelogging.traceloggingchannel, traceloggingprovider/TraceLoggingChannel
 ms.prod: windows
 ms.technology: windows-sdk

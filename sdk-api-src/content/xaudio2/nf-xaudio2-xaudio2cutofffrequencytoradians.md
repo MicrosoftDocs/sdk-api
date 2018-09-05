@@ -7,7 +7,7 @@ old-location: xaudio2\xaudio2cutofffrequencytoradians.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xaudio2.XAudio2CutoffFrequencyToRadians(float,UINT32)
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: XAudio2CutoffFrequencyToRadians, XAudio2CutoffFrequencyToRadians function [XAudio2 Audio Mixing APIs], xaudio2.xaudio2cutofffrequencytoradians, xaudio2/XAudio2CutoffFrequencyToRadians
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: Use Windows Update or a Windows Update Services Server to retrieve 
 ## -description
 
 
-Inline function that converts from filter cutoff frequencies expressed in hertz to the radian frequency values used in the <b>Frequency</b> member of the <a href="https://msdn.microsoft.com/en-us/library/Ee419237(v=VS.85).aspx">XAUDIO2_FILTER_PARAMETERS</a> structure.
+Inline function that converts from filter cutoff frequencies expressed in hertz to the radian frequency values used in the <b>Frequency</b> member of the <a href="https://msdn.microsoft.com/ac0971d3-92cc-41c1-836a-77df89baa750">XAUDIO2_FILTER_PARAMETERS</a> structure.
 
 
 ## -parameters
@@ -67,7 +67,7 @@ The cutoff frequency in hertz. Frequencies greater than SampleRate ÷ 6 are clam
 
 ### -param SampleRate [in]
 
-The sample rate of the audio data affected by the <a href="https://msdn.microsoft.com/en-us/library/Ee419237(v=VS.85).aspx">XAUDIO2_FILTER_PARAMETERS</a> structure.
+The sample rate of the audio data affected by the <a href="https://msdn.microsoft.com/ac0971d3-92cc-41c1-836a-77df89baa750">XAUDIO2_FILTER_PARAMETERS</a> structure.
 
 
 
@@ -75,7 +75,7 @@ The sample rate of the audio data affected by the <a href="https://msdn.microsof
 
 
 
-Returns a radian frequency for use in the <a href="https://msdn.microsoft.com/en-us/library/Ee419237(v=VS.85).aspx">XAUDIO2_FILTER_PARAMETERS</a> structure. 
+Returns a radian frequency for use in the <a href="https://msdn.microsoft.com/ac0971d3-92cc-41c1-836a-77df89baa750">XAUDIO2_FILTER_PARAMETERS</a> structure. 
 
 
 

@@ -107,9 +107,13 @@ The MDL is defined in <a href="https://msdn.microsoft.com/f10a63ab-2117-4a61-b3a
 
 As shown in the following code sample, the video miniport driver can use the pointer to the MDL in the <b>lpDestMDL</b> member of the DDTRANSFERININFO structure at the <i>TransferInInfo</i> parameter to bus master data to the physical memory pages that make up a scattered buffer:
 
-
-```
-DWORD 
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>DWORD 
 DxTransfer(
     DEVICE_EXT *pDeviceExt, 
     PDDTRANSFERININFO pTransferInInfo, 
@@ -122,23 +126,23 @@ DxTransfer(
     PVOID MappedSystemVa;
     ULONG ByteCount;
 
-    pMdl = pTransferInInfo->lpDestMDL;
+    pMdl = pTransferInInfo-&gt;lpDestMDL;
     MappedSystemVa = MmGetMdlVirtualAddress(pMdl);
     ByteCount = MmGetMdlByteCount(pMdl);
     uiNbPages = ADDRESS_AND_SIZE_TO_SPAN_PAGES(MappedSystemVa,
                                                ByteCount);
     pPages = MmGetMdlPfnArray(pMdl)
-    for (i=0; i<uiNbPages; i++) {
+    for (i=0; i&lt;uiNbPages; i++) {
         //
         // Transfer to page[i]
         //
         pPages[i];
     }
-}
-```
-
-
-See the <a href="https://msdn.microsoft.com/library/Ff540562(v=VS.85).aspx">ADDRESS_AND_SIZE_TO_SPAN_PAGES</a>, <a href="https://msdn.microsoft.com/a0493418-2ce2-4917-bf9f-e4dc726a3847">MmGetMdlByteCount</a>, <a href="https://msdn.microsoft.com/library/Ff554537(v=VS.85).aspx">MmGetMdlPfnArray</a>, and <a href="https://msdn.microsoft.com/library/Ff554539(v=VS.85).aspx">MmGetMdlVirtualAddress</a> kernel-mode macros for more information.
+}</pre>
+</td>
+</tr>
+</table></span></div>
+See the <a href="kernel.address_and_size_to_span_pages">ADDRESS_AND_SIZE_TO_SPAN_PAGES</a>, <a href="https://msdn.microsoft.com/a0493418-2ce2-4917-bf9f-e4dc726a3847">MmGetMdlByteCount</a>, <a href="kernel.mmgetmdlpfnarray">MmGetMdlPfnArray</a>, and <a href="kernel.mmgetmdlvirtualaddress">MmGetMdlVirtualAddress</a> kernel-mode macros for more information.
 
 <i>DxTransfer</i> is called at hardware interrupt time. This means the driver cannot wait for a previous bus master to complete and it cannot call any functions that are not safe to call at interrupt time (that is, most of them).
 
@@ -152,7 +156,7 @@ In addition, the driver should not fail the call just because the hardware is cu
 
 
 
-<a href="https://msdn.microsoft.com/library/Ff540562(v=VS.85).aspx">ADDRESS_AND_SIZE_TO_SPAN_PAGES</a>
+<a href="kernel.address_and_size_to_span_pages">ADDRESS_AND_SIZE_TO_SPAN_PAGES</a>
 
 
 
@@ -168,11 +172,11 @@ In addition, the driver should not fail the call just because the hardware is cu
 
 
 
-<a href="https://msdn.microsoft.com/library/Ff554537(v=VS.85).aspx">MmGetMdlPfnArray</a>
+<a href="kernel.mmgetmdlpfnarray">MmGetMdlPfnArray</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/Ff554539(v=VS.85).aspx">MmGetMdlVirtualAddress</a>
+<a href="kernel.mmgetmdlvirtualaddress">MmGetMdlVirtualAddress</a>
  
 
  

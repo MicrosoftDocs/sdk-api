@@ -7,7 +7,7 @@ old-location: cos\ieventclass_eventclassname.htm
 old-project: cossdk
 ms.assetid: 40565df4-01c8-42fa-baf0-deadad77ef1f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EventClassName property [COM+], EventClassName property [COM+],IEventClass interface, IEventClass interface [COM+],EventClassName property, IEventClass.EventClassName, IEventClass.get_EventClassName, IEventClass::EventClassName, IEventClass::get_EventClassName, IEventClass::put_EventClassName, cos.ieventclass_eventclassname, eventsys/IEventClass::EventClassName, eventsys/IEventClass::get_EventClassName, eventsys/IEventClass::put_EventClassName, get_EventClassName
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: mscs\clusnode_object.htm
 old-project: mscs
 ms.assetid: b164f5a6-13f1-4eff-a2f9-805b60138dd1
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusNode, ClusNode object [Failover Cluster], ClusNode object [Failover Cluster],described, ISClusNode, _wolf_clusnode_object, msclus/ClusNode, mscs.clusnode_object
 ms.prod: windows
 ms.technology: windows-sdk
@@ -68,7 +68,7 @@ Enables operations on a
 <td>
 <a href="https://msdn.microsoft.com/fd0e7191-0df5-465e-b867-2c395447ebc9">Cluster</a> Property</td>
 <td>Returns a <a href="https://msdn.microsoft.com/4a765dce-c823-4a79-8608-ff41feec8a39">Cluster</a> object providing access to the 
-      <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a> associated with the node.</td>
+      <a href="c_gly.htm">cluster</a> associated with the node.</td>
 </tr>
 <tr>
 <td>

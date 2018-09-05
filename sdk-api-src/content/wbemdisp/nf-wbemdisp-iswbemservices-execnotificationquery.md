@@ -7,7 +7,7 @@ old-location: wmi\swbemservices_execnotificationquery.htm
 old-project: WmiSdk
 ms.assetid: 3e1bb428-5395-4e90-9713-6d96242fef4e
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: ExecNotificationQuery, ExecNotificationQuery method [Windows Management Instrumentation], ExecNotificationQuery method [Windows Management Instrumentation],ISWbemServices interface, ExecNotificationQuery method [Windows Management Instrumentation],SWbemServices object, ISWbemServices interface [Windows Management Instrumentation],ExecNotificationQuery method, ISWbemServices.ExecNotificationQuery, ISWbemServices::ExecNotificationQuery, SWbemServices object [Windows Management Instrumentation],ExecNotificationQuery method, SWbemServices.ExecNotificationQuery, _hmm_swbemservices.execnotificationquery, wbemFlagForwardOnly, wbemFlagReturnImmediately, wmi.swbemservices_execnotificationquery
 ms.prod: windows
 ms.technology: windows-sdk
@@ -138,16 +138,20 @@ There are limits to the number of <b>AND</b> and <b>OR</b> keywords that can be 
 
 The following VBScript code example monitors changes to volumes on a local computer. Note that <a href="https://msdn.microsoft.com/38595319-d7a1-4dcd-9ad8-a27cc484b699">Win32_VolumeChangeEvent</a> is  an extrinsic event that is defined by a provider—not an intrinsic WMI-defined event. For more information, see <a href="https://msdn.microsoft.com/46cdfcfa-42c6-4169-bc4d-725867224889">Determining the Type of Event to Receive</a>.
 
-
-```vb
-Set colMonitoredEvents = _
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Set colMonitoredEvents = _
    GetObject("Winmgmts:").ExecNotificationQuery_
       ("Select * from Win32_VolumeChangeEvent")
 
 Do While i = 0
    Set strLatestEvent = colMonitoredEvents.NextEvent
-   Wscript.Echo strLatestEvent.DriveName & "Time Created = " _
-      & strLatestEvent.Time_Created
+   Wscript.Echo strLatestEvent.DriveName &amp; "Time Created = " _
+      &amp; strLatestEvent.Time_Created
 
     Select Case strLatestEvent.EventType 
        Case 1        
@@ -162,30 +166,34 @@ Do While i = 0
        Case Else
             WScript.Echo "Unrecognized EventType"
        End Select
-Loop
-```
-
-
+Loop</pre>
+</td>
+</tr>
+</table></span></div>
 The following VBScript code example monitors process deletion. If you delete a process in Task Manager or close an application, then the script displays a message. Note that this script queries an intrinsic event that is defined by WMI - <a href="https://msdn.microsoft.com/a370fc95-15e3-49c3-98de-2f40d742f207">__InstanceDeletionEvent</a>.
 
-
-```vb
-Set objWMIService = GetObject( _
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Set objWMIService = GetObject( _
     "Winmgmts:{impersonationLevel=impersonate}" )
 Set colMonitoredProcesses = _
     objWMIService.ExecNotificationQuery( _
     "SELECT * FROM __InstanceDeletionEvent WITHIN 10 WHERE " _
-    & "TargetInstance ISA 'Win32_Process'")
+    &amp; "TargetInstance ISA 'Win32_Process'")
 i = 0
-Do While i < 11
+Do While i &lt; 11
     Set strLatestProcess = colMonitoredProcesses.NextEvent
     WScript.Echo strLatestProcess.TargetInstance.Name
     WScript.Sleep 10000
     i= i + 1
-Loop
-```
-
-
+Loop</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

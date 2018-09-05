@@ -62,9 +62,9 @@ Gets the properties of the texture resource.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn899166(v=VS.85).aspx">D3D11_TEXTURE2D_DESC1</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/DADDC12C-CF1E-48B4-B8C0-3029EC6B711B">D3D11_TEXTURE2D_DESC1</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn899166(v=VS.85).aspx">D3D11_TEXTURE2D_DESC1</a> structure that receives the description of the 2D texture.
+A pointer to a <a href="https://msdn.microsoft.com/DADDC12C-CF1E-48B4-B8C0-3029EC6B711B">D3D11_TEXTURE2D_DESC1</a> structure that receives the description of the 2D texture.
 
 
 ## -returns
@@ -81,7 +81,7 @@ Returns nothing.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn899244(v=VS.85).aspx">ID3D11Texture2D1</a>
+<a href="https://msdn.microsoft.com/0BEBF03C-CBE5-4988-AC98-76D90363A0B7">ID3D11Texture2D1</a>
  
 
  

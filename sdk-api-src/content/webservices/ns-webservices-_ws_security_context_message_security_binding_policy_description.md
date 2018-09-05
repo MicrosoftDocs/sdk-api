@@ -7,7 +7,7 @@ old-location: wsw\ws_security_context_message_security_binding_policy_descriptio
 old-project: wsw
 ms.assetid: 6727d9d5-9c8c-41f9-90f2-e82ecf309d98
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_POLICY_DESCRIPTION, WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_POLICY_DESCRIPTION structure [Web Services for Windows], _WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_POLICY_DESCRIPTION, webservices/WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_POLICY_DESCRIPTION, wsw.ws_security_context_message_security_binding_policy_description
 ms.prod: windows
 ms.technology: windows-sdk

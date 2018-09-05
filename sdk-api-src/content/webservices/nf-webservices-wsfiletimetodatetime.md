@@ -7,7 +7,7 @@ old-location: wsw\wsfiletimetodatetime.htm
 old-project: wsw
 ms.assetid: 75a547f8-c8dc-47c3-97c9-2a39b046263f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WsFileTimeToDateTime, WsFileTimeToDateTime function [Web Services for Windows], webservices/WsFileTimeToDateTime, wsw.wsfiletimetodatetime
 ms.prod: windows
 ms.technology: windows-sdk

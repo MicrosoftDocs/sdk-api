@@ -7,7 +7,7 @@ old-location: shell\IShellFolderView_GetObject.htm
 old-project: shell
 ms.assetid: a231e92f-b467-4fd7-929d-92259272a734
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetObject, GetObject method [Windows Shell], GetObject method [Windows Shell],IShellFolderView interface, IShellFolderView interface [Windows Shell],GetObject method, IShellFolderView.GetObject, IShellFolderView::GetObject, _shell_IShellFolderView_GetObject, shell.IShellFolderView_GetObject, shlobj_core/IShellFolderView::GetObject
 ms.prod: windows
 ms.technology: windows-sdk

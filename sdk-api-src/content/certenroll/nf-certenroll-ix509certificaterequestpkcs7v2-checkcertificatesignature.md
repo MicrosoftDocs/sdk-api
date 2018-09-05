@@ -4,10 +4,10 @@ title: IX509CertificateRequestPkcs7V2::CheckCertificateSignature
 author: windows-sdk-content
 description: Verifies the certificate signature.
 old-location: security\ix509certificaterequestpkcs7v2_checkcertificatesignature.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: 6ee30e16-1901-45dc-8023-ef605d8a4d21
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: CheckCertificateSignature, CheckCertificateSignature method [Security], CheckCertificateSignature method [Security],IX509CertificateRequestPkcs7V2 interface, IX509CertificateRequestPkcs7V2 interface [Security],CheckCertificateSignature method, IX509CertificateRequestPkcs7V2.CheckCertificateSignature, IX509CertificateRequestPkcs7V2::CheckCertificateSignature, certenroll/IX509CertificateRequestPkcs7V2::CheckCertificateSignature, security.ix509certificaterequestpkcs7v2_checkcertificatesignature
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ A Boolean value that specifies whether to also verify the certificate chain. Thi
 
 If the function succeeds, the function returns <b>S_OK</b>.
 
-If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/en-us/library/Aa378137(v=VS.85).aspx">Common HRESULT Values</a>.
+If the function fails, it returns an <b>HRESULT</b> value that indicates the error. Possible values include, but are not limited to, those in the following table. For a list of common error codes, see <a href="https://msdn.microsoft.com/ce52efc3-92c7-40e4-ac49-0c54049e169f">Common HRESULT Values</a>.
 
 <table>
 <tr>
@@ -109,7 +109,7 @@ A PKCS #7 request has exactly one certificate-based signature.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351631(v=VS.85).aspx">IX509CertificateRequestPkcs7V2</a>
+<a href="https://msdn.microsoft.com/e58e1122-2ef0-4902-a9e9-23934cc544ec">IX509CertificateRequestPkcs7V2</a>
  
 
  

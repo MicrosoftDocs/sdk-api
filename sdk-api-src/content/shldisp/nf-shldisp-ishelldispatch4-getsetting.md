@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch4_GetSetting.htm
 old-project: shell
 ms.assetid: b9b1542c-8e25-4966-b3df-13bfbd9b28aa
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetSetting, GetSetting method [Windows Shell], GetSetting method [Windows Shell],IShellDispatch4 object, IShellDispatch4 object [Windows Shell],GetSetting method, IShellDispatch4.GetSetting, IShellDispatch4::GetSetting, SSF_AUTOCHECKSELECT, SSF_DESKTOPHTML, SSF_DONTPRETTYPATH, SSF_DOUBLECLICKINWEBVIEW, SSF_FILTER, SSF_HIDDENFILEEXTS, SSF_HIDEICONS, SSF_ICONSONLY, SSF_MAPNETDRVBUTTON, SSF_NOCONFIRMRECYCLE, SSF_NONETCRAWLING, SSF_SEPPROCESS, SSF_SERVERADMINUI, SSF_SHOWALLOBJECTS, SSF_SHOWATTRIBCOL, SSF_SHOWCOMPCOLOR, SSF_SHOWEXTENSIONS, SSF_SHOWINFOTIP, SSF_SHOWSTARTPAGE, SSF_SHOWSUPERHIDDEN, SSF_SHOWSYSFILES, SSF_SHOWTYPEOVERLAY, SSF_SORTCOLUMNS, SSF_STARTPANELON, SSF_WEBVIEW, SSF_WIN95CLASSIC, _shell_IShellDispatch4_GetSetting, shell.IShellDispatch4_GetSetting
 ms.prod: windows
 ms.technology: windows-sdk

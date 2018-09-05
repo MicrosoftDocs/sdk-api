@@ -7,7 +7,7 @@ old-location: mscs\clusresource_online.htm
 old-project: mscs
 ms.assetid: 64f63071-b07d-4391-9631-a7a1dae35dc5
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusResource class [Failover Cluster],Online method, ClusResource.Online, ISClusResource.Online, ISClusResource::Online, Online, Online method [Failover Cluster], Online method [Failover Cluster],ClusResource class, _wolf_clusresource.online, mscs.clusresource_online
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Brings the <a href="https://msdn.microsoft.com/090d1c20-fab3-43dd-bfe2-a2c3f9ba8f89">resource</a>
-<a href="https://msdn.microsoft.com/en-us/library/Aa371781(v=VS.85).aspx">online</a>.
+<a href="o_gly.htm">online</a>.
 
 
 ## -parameters
@@ -104,7 +104,7 @@ This method does not return a value.
 
 
 
-Any resources that the resource <a href="https://msdn.microsoft.com/en-us/library/Aa369367(v=VS.85).aspx">depends</a> 
+Any resources that the resource <a href="d_gly.htm">depends</a> 
     on are brought online first.
 
 

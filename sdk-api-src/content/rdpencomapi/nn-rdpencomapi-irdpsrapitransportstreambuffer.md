@@ -4,10 +4,10 @@ title: IRDPSRAPITransportStreamBuffer
 author: windows-sdk-content
 description: Created and used by the IRDPSRAPITransportStream interface for sending and receiving data.
 old-location: rdp\irdpsrapitransportstreambuffer.htm
-old-project: rdp
+old-project: Rdp
 ms.assetid: 44087315-7a71-4557-89b3-bf8c66ed10a4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IRDPSRAPITransportStreamBuffer, IRDPSRAPITransportStreamBuffer interface [RDP], IRDPSRAPITransportStreamBuffer interface [RDP],described, rdp.irdpsrapitransportstreambuffer, rdpencomapi/IRDPSRAPITransportStreamBuffer
 ms.prod: windows
 ms.technology: windows-sdk

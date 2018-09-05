@@ -4,10 +4,10 @@ title: LPNSPINSTALLSERVICECLASS
 author: windows-sdk-content
 description: The NSPInstallServiceClass function registers service class schema within the namespace providers.
 old-location: winsock\nspinstallserviceclass_2.htm
-old-project: winsock
+old-project: WinSock
 ms.assetid: 437a3580-e296-4f20-8921-84e522cccc1a
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: LPNSPINSTALLSERVICECLASS, NSPInstallServiceClass, NSPInstallServiceClass function [Winsock], _win32_nspinstallserviceclass_2, winsock.nspinstallserviceclass_2, ws2spi/NSPInstallServiceClass
 ms.prod: windows
 ms.technology: windows-sdk
@@ -90,7 +90,7 @@ The function should return <b>NO_ERROR</b> (zero) if the routine succeeds. It sh
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_INVALID_PARAMETER</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSA_INVALID_PARAMETER</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -101,7 +101,7 @@ The namespace provider cannot supply the requested class information.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSA_NOT_ENOUGH_MEMORY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -112,7 +112,7 @@ There is not enough memory available to perform this operation.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEACCES</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEACCES</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -123,7 +123,7 @@ The calling routine does not have sufficient privileges to perform this operatio
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEALREADY</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEALREADY</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -134,7 +134,7 @@ The service class information has already been registered for this service class
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEINVAL</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEINVAL</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -145,7 +145,7 @@ The service class identifier was invalid or improperly structured. This error is
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSAEOPNOTSUPP</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSAEOPNOTSUPP</a></b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -156,7 +156,7 @@ The operation is not supported. This error is returned if the namespace provider
 <tr>
 <td width="40%">
 <dl>
-<dt><b><a href="https://msdn.microsoft.com/en-us/library/ms740668(v=VS.85).aspx">WSANO_DATA</a></b></dt>
+<dt><b><a href="windows_sockets_error_codes_2.htm">WSANO_DATA</a></b></dt>
 </dl>
 </td>
 <td width="60%">

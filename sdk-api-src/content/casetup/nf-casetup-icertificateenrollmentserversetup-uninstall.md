@@ -4,10 +4,10 @@ title: ICertificateEnrollmentServerSetup::UnInstall
 author: windows-sdk-content
 description: Removes the Certificate Enrollment Web Service (CES).
 old-location: security\icertificateenrollmentserversetup_uninstall.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 5C979627-7544-4466-9F92-224D48904DD3
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: ICertificateEnrollmentServerSetup interface [Security],UnInstall method, ICertificateEnrollmentServerSetup.UnInstall, ICertificateEnrollmentServerSetup::UnInstall, UnInstall, UnInstall method [Security], UnInstall method [Security],ICertificateEnrollmentServerSetup interface, casetup/ICertificateEnrollmentServerSetup::UnInstall, security.icertificateenrollmentserversetup_uninstall
 ms.prod: windows
 ms.technology: windows-sdk
@@ -94,7 +94,7 @@ This parameter is reserved for future use.
 <td width="60%">
 The user must be a local administrator.
 
-The <a href="https://msdn.microsoft.com/en-us/library/Ff808378(v=VS.85).aspx">ErrorString</a> property value is set to "You have to be the local machine administrator in order to run this setup."
+The <a href="https://msdn.microsoft.com/D4322BE8-1CED-47D0-98C2-D5D7C151DEAB">ErrorString</a> property value is set to "You have to be the local machine administrator in order to run this setup."
 
 </td>
 </tr>
@@ -105,9 +105,9 @@ The <a href="https://msdn.microsoft.com/en-us/library/Ff808378(v=VS.85).aspx">Er
 </dl>
 </td>
 <td width="60%">
-The <a href="https://msdn.microsoft.com/en-us/library/Ff808377(v=VS.85).aspx">ICertificateEnrollmentServerSetup</a> object has been initialized. An object is initialized when you successfully call <a href="https://msdn.microsoft.com/en-us/library/Ff808380(v=VS.85).aspx">InitializeInstallDefaults</a>.
+The <a href="https://msdn.microsoft.com/B25DA7C4-0503-4E3B-BABC-6EFBD9EBDDAE">ICertificateEnrollmentServerSetup</a> object has been initialized. An object is initialized when you successfully call <a href="https://msdn.microsoft.com/2C6E8F84-56AC-4541-A778-839D5F2C764F">InitializeInstallDefaults</a>.
 
-The <a href="https://msdn.microsoft.com/en-us/library/Ff808378(v=VS.85).aspx">ErrorString</a> property value is set to "The object has been initialized. You cannot call UnInstall on an initialized object."
+The <a href="https://msdn.microsoft.com/D4322BE8-1CED-47D0-98C2-D5D7C151DEAB">ErrorString</a> property value is set to "The object has been initialized. You cannot call UnInstall on an initialized object."
 
 </td>
 </tr>
@@ -121,9 +121,9 @@ The <a href="https://msdn.microsoft.com/en-us/library/Ff808378(v=VS.85).aspx">Er
 
 
 
-You can call this method to remove CES. However, because you cannot call the <b>UnInstall</b> method on an <a href="https://msdn.microsoft.com/en-us/library/Ff808377(v=VS.85).aspx">ICertificateEnrollmentServerSetup</a> object that has already been initialized, you must create a new <b>ICertificateEnrollmentServerSetup</b> before calling <b>UnInstall</b>.
+You can call this method to remove CES. However, because you cannot call the <b>UnInstall</b> method on an <a href="https://msdn.microsoft.com/B25DA7C4-0503-4E3B-BABC-6EFBD9EBDDAE">ICertificateEnrollmentServerSetup</a> object that has already been initialized, you must create a new <b>ICertificateEnrollmentServerSetup</b> before calling <b>UnInstall</b>.
 
-This method attempts to delete all CES-related  directories and the application pool. If it is unable to do so, it still returns S_OK, but you can check the  <a href="https://msdn.microsoft.com/en-us/library/Ff808378(v=VS.85).aspx">ErrorString</a> property to determine what problems the method encountered.
+This method attempts to delete all CES-related  directories and the application pool. If it is unable to do so, it still returns S_OK, but you can check the  <a href="https://msdn.microsoft.com/D4322BE8-1CED-47D0-98C2-D5D7C151DEAB">ErrorString</a> property to determine what problems the method encountered.
 
 This function performs the following actions:
 
@@ -133,7 +133,7 @@ Initializes Windows Management Instrumentation (WMI).
 
 </li>
 <li>
-Attempts to delete the %windir%\systemdata\ces directory and all application subdirectories that may exist. For more information, see the <a href="https://msdn.microsoft.com/en-us/library/Ff808381(v=VS.85).aspx">Install</a> Remarks section.
+Attempts to delete the %windir%\systemdata\ces directory and all application subdirectories that may exist. For more information, see the <a href="https://msdn.microsoft.com/35578035-1D09-48AD-B6F5-7314C989B519">Install</a> Remarks section.
 
 </li>
 <li>
@@ -141,7 +141,7 @@ Attempts to delete the application pool and all applications in the pool.
 
 </li>
 <li>
-Attempts to update the security descriptor of the Deleted Objects container in Active Directory to deny access by the computer. For more information, see the <a href="https://msdn.microsoft.com/en-us/library/Ff808381(v=VS.85).aspx">Install</a> Remarks section.
+Attempts to update the security descriptor of the Deleted Objects container in Active Directory to deny access by the computer. For more information, see the <a href="https://msdn.microsoft.com/35578035-1D09-48AD-B6F5-7314C989B519">Install</a> Remarks section.
 
 </li>
 </ul>
@@ -153,7 +153,7 @@ Attempts to update the security descriptor of the Deleted Objects container in A
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff808377(v=VS.85).aspx">ICertificateEnrollmentServerSetup</a>
+<a href="https://msdn.microsoft.com/B25DA7C4-0503-4E3B-BABC-6EFBD9EBDDAE">ICertificateEnrollmentServerSetup</a>
  
 
  

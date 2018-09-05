@@ -7,7 +7,7 @@ old-location: wmi\swbemprivilegeset_add.htm
 old-project: WmiSdk
 ms.assetid: 7d44193f-60e1-4e83-8640-31d8df509d98
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: Add, Add method [Windows Management Instrumentation], Add method [Windows Management Instrumentation],ISWbemPrivilegeSet interface, Add method [Windows Management Instrumentation],SWbemPrivilegeSet object, ISWbemPrivilegeSet interface [Windows Management Instrumentation],Add method, ISWbemPrivilegeSet.Add, ISWbemPrivilegeSet::Add, SWbemPrivilegeSet object [Windows Management Instrumentation],Add method, SWbemPrivilegeSet.Add, _hmm_swbemprivilegeset.add, wmi.swbemprivilegeset_add
 ms.prod: windows
 ms.technology: windows-sdk

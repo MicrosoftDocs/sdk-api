@@ -4,10 +4,10 @@ title: "_EVT_RPC_LOGIN_FLAGS"
 author: windows-sdk-content
 description: Defines the types of authentication that you can use to authenticate the user when connecting to a remote computer.
 old-location: wes\evt_rpc_login_flags.htm
-old-project: wes
+old-project: WES
 ms.assetid: f3001756-7c2d-4a96-bbdf-e707debb5374
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EVT_RPC_LOGIN_FLAGS, EVT_RPC_LOGIN_FLAGS enumeration [EventLog], EvtRpcLoginAuthDefault, EvtRpcLoginAuthKerberos, EvtRpcLoginAuthNTLM, EvtRpcLoginAuthNegotiate, _EVT_RPC_LOGIN_FLAGS, wes.evt_rpc_login_flags, winevt/EVT_RPC_LOGIN_FLAGS, winevt/EvtRpcLoginAuthDefault, winevt/EvtRpcLoginAuthKerberos, winevt/EvtRpcLoginAuthNTLM, winevt/EvtRpcLoginAuthNegotiate
 ms.prod: windows
 ms.technology: windows-sdk

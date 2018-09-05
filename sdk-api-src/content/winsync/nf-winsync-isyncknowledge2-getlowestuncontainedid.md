@@ -7,7 +7,7 @@ old-location: winsync\isyncknowledge2_getlowestuncontainedid.htm
 old-project: winsync
 ms.assetid: 06a1a380-3fe8-4c99-be97-d84b6be9838d
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetLowestUncontainedId, GetLowestUncontainedId method [Windows Sync], GetLowestUncontainedId method [Windows Sync],ISyncKnowledge2 interface, ISyncKnowledge2 interface [Windows Sync],GetLowestUncontainedId method, ISyncKnowledge2.GetLowestUncontainedId, ISyncKnowledge2::GetLowestUncontainedId, winsync.isyncknowledge2_getlowestuncontainedid, winsync/ISyncKnowledge2::GetLowestUncontainedId
 ms.prod: windows
 ms.technology: windows-sdk

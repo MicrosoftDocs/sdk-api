@@ -7,7 +7,7 @@ old-location: mscs\resutilfinddependentdiskresourcedriveletter.htm
 old-project: mscs
 ms.assetid: 8f2187e3-6bb7-4756-af2b-a28857581bcb
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: PRESUTIL_FIND_DEPENDENT_DISK_RESOURCE_DRIVE_LETTER, PRESUTIL_FIND_DEPENDENT_DISK_RESOURCE_DRIVE_LETTER function [Failover Cluster], ResUtilFindDependentDiskResourceDriveLetter, ResUtilFindDependentDiskResourceDriveLetter function [Failover Cluster], _wolf_resutilfinddependentdiskresourcedriveletter, mscs.resutilfinddependentdiskresourcedriveletter, resapi/PRESUTIL_FIND_DEPENDENT_DISK_RESOURCE_DRIVE_LETTER, resapi/ResUtilFindDependentDiskResourceDriveLetter
 ms.prod: windows
 ms.technology: windows-sdk
@@ -118,9 +118,13 @@ The following example takes a resource name as a command line argument and displ
       <a href="https://msdn.microsoft.com/fc2032d2-40a5-45bd-8661-1e778789bad6">ClusDocEx.h</a> header file defined in the Failover Cluster 
       documentation.
 
-
-```cpp
-//////////////////////////////////////////////////////////////////////
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//////////////////////////////////////////////////////////////////////
 
 #include "ClusDocEx.h"
 
@@ -147,7 +151,7 @@ int main( int argc, char argv[] )
         dw = ResUtilFindDependentDiskResourceDriveLetter( hCluster,
                                                           hRes,
                                                           pszResDrive,
-                                                          &cchResDrive );
+                                                          &amp;cchResDrive );
 
         if( dw == ERROR_MORE_DATA )
          {
@@ -156,7 +160,7 @@ int main( int argc, char argv[] )
           dw = ResUtilFindDependentDiskResourceDriveLetter( hCluster,
                                                             hRes,
                                                             pszResDrive,
-                                                            &cchResDrive );
+                                                            &amp;cchResDrive );
          }
 
         switch( dw )
@@ -192,10 +196,10 @@ int main( int argc, char argv[] )
   delete [] pszResDrive;
   return 0;
  }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 If the resource identified by <i>hResource</i> refers to a mount point disk, there may or 
       may not be a drive letter associated with the disk resource. If the mount point disk has no associated drive 
       letter, the value returned by 
@@ -211,19 +215,23 @@ The following example takes the output string from
       get extended error info. If the function succeeds the user has to free the buffer returned using 
       <a href="https://msdn.microsoft.com/a0393983-cb43-4dfa-91a6-d82a5fb8de12">LocalFree</a>.
 
-
-```cpp
-#define UNICODE 1
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>#define UNICODE 1
 #define _UNICODE 1
 #pragma comment(lib, "ResUtils.lib")
 
-#include <windows.h>
-#include <stdlib.h>
-#include <ResApi.h>
-#include <strsafe.h>
+#include &lt;windows.h&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;ResApi.h&gt;
+#include &lt;strsafe.h&gt;
 
-#define IS_DRIVELETTER(x) ((iswalpha((x)[0])) && ((x)[1] == L':'))
-#define IS_NTPATH(x) ((wcsstr((x), L"Disk") != NULL) && (wcsstr((x), L"Partition") != NULL)) 
+#define IS_DRIVELETTER(x) ((iswalpha((x)[0])) &amp;&amp; ((x)[1] == L':'))
+#define IS_NTPATH(x) ((wcsstr((x), L"Disk") != NULL) &amp;&amp; (wcsstr((x), L"Partition") != NULL)) 
 #define GLOBALROOT_DISK_FORMAT L"\\\\\?\\GLOBALROOT\\Device\\Harddisk%u\\Partition%u"
 
 LPWSTR ConvertNtDiskPathToW32DiskPath( LPCWSTR InputString )
@@ -267,7 +275,7 @@ LPWSTR ConvertNtDiskPathToW32DiskPath( LPCWSTR InputString )
   else
    {
     //Has to be NT path format.
-    swscanf_s(InputString, L"Disk%uPartition%u", &diskNum, &partNum);
+    swscanf_s(InputString, L"Disk%uPartition%u", &amp;diskNum, &amp;partNum);
     StringCchPrintfW(outputString, len, GLOBALROOT_DISK_FORMAT, diskNum, partNum);
    }
     
@@ -287,10 +295,10 @@ Error_exit:
 
   return outputString;
  }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

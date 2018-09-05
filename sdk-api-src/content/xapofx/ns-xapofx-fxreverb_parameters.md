@@ -7,7 +7,7 @@ old-location: xaudio2\fxreverb_parameters.htm
 old-project: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xapofx.FXREVERB_PARAMETERS
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: FXREVERB_PARAMETERS, FXREVERB_PARAMETERS structure [XAudio2 Audio Mixing APIs], xapofx/FXREVERB_PARAMETERS, xaudio2.fxreverb_parameters
 ms.prod: windows
 ms.technology: windows-sdk

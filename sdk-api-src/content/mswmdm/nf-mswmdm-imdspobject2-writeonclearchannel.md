@@ -7,7 +7,7 @@ old-location: wmdm\imdspobject2_writeonclearchannel.htm
 old-project: WMDM
 ms.assetid: 9c80f382-2536-4f08-9111-94ad757747f7
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IMDSPObject2 interface [windows Media Device Manager],WriteOnClearChannel method, IMDSPObject2.WriteOnClearChannel, IMDSPObject2::WriteOnClearChannel, IMDSPObject2WriteOnClearChannel, WriteOnClearChannel, WriteOnClearChannel method [windows Media Device Manager], WriteOnClearChannel method [windows Media Device Manager],IMDSPObject2 interface, mswmdm/IMDSPObject2::WriteOnClearChannel, wmdm.imdspobject2_writeonclearchannel
 ms.prod: windows
 ms.technology: windows-sdk

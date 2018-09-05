@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_double_text.htm
 old-project: wsw
 ms.assetid: dff0aceb-7588-47e2-9ca0-dfa58eb25001
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_XML_DOUBLE_TEXT, WS_XML_DOUBLE_TEXT structure [Web Services for Windows], _WS_XML_DOUBLE_TEXT, webservices/WS_XML_DOUBLE_TEXT, wsw.ws_xml_double_text
 ms.prod: windows
 ms.technology: windows-sdk

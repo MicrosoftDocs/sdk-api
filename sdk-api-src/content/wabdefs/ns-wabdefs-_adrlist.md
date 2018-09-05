@@ -7,7 +7,7 @@ old-location: wab\_wab_ADRLIST.htm
 old-project: wab
 ms.assetid: VS|wab|~\wab\reference\structures\adrlist.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPADRLIST, ADRLIST, ADRLIST structure [Windows Address Book], Gender, Gender structure [Windows Address Book], _ADRLIST, _wab_ADRLIST, wab._wab_ADRLIST, wabdefs/ADRLIST"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ Variable of type <b>ULONG</b> that specifies the entry count in the array specif
 
 ### -field aEntries
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms629441(v=VS.85).aspx">ADRENTRY</a>[MAPI_DIM]</b>
+Type: <b><a href="https://msdn.microsoft.com/3044ca5e-f802-4c7b-8521-7d8adc63dc1b">ADRENTRY</a>[MAPI_DIM]</b>
 
-Variable of type <a href="https://msdn.microsoft.com/en-us/library/ms629441(v=VS.85).aspx">ADRENTRY</a> that specifies the array of <b>ADRENTRY</b> structures, one structure for each recipient.
+Variable of type <a href="https://msdn.microsoft.com/3044ca5e-f802-4c7b-8521-7d8adc63dc1b">ADRENTRY</a> that specifies the array of <b>ADRENTRY</b> structures, one structure for each recipient.
 

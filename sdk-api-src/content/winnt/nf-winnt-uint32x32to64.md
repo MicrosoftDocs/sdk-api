@@ -4,10 +4,10 @@ title: UInt32x32To64 macro
 author: windows-sdk-content
 description: Multiplies two unsigned 32-bit integers, returning an unsigned 64-bit integer result.
 old-location: winprog\uint32x32to64.htm
-old-project: winprog
+old-project: WinProg
 ms.assetid: 369e0574-df8b-4e65-bbba-7a7961caebe7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: UInt32x32To64, UInt32x32To64 macro [Windows API], _win32_uint32x32to64, winnt/UInt32x32To64, winprog.uint32x32to64
 ms.prod: windows
 ms.technology: windows-sdk

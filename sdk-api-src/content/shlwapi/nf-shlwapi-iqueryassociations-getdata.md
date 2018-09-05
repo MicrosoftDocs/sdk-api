@@ -7,7 +7,7 @@ old-location: shell\IQueryAssociations_GetData.htm
 old-project: shell
 ms.assetid: 7f21e564-97c6-4f9d-a4fa-160b78dbfc2f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetData, GetData method [Windows Shell], GetData method [Windows Shell],IQueryAssociations interface, IQueryAssociations interface [Windows Shell],GetData method, IQueryAssociations.GetData, IQueryAssociations::GetData, _win32_IQueryAssociations_GetData, shell.IQueryAssociations_GetData, shlwapi/IQueryAssociations::GetData
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

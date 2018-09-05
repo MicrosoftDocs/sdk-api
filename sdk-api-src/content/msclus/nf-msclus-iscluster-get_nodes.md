@@ -7,7 +7,7 @@ old-location: mscs\cluster_nodes.htm
 old-project: mscs
 ms.assetid: 690c9635-114f-4109-a9b9-4ebb1961c58b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Cluster object [Failover Cluster],Nodes property, Cluster.Nodes, ISCluster.get_Nodes, ISCluster::get_Nodes, Nodes property [Failover Cluster], Nodes property [Failover Cluster],Cluster object, _wolf_cluster.nodes, get_Nodes, mscs.cluster_nodes
 ms.prod: windows
 ms.technology: windows-sdk
@@ -60,7 +60,7 @@ req.product: GDI+ 1.1
 Returns a 
     <a href="https://msdn.microsoft.com/f35d610f-014a-48cf-aaa4-93e320bcd890">ClusNodes</a> collection providing access to the 
     <a href="https://msdn.microsoft.com/4381e378-7bf2-4dbc-b56e-3fed33193d32">nodes</a> in a 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369336(v=VS.85).aspx">cluster</a>.
+    <a href="c_gly.htm">cluster</a>.
 
 This property is read-only.
 

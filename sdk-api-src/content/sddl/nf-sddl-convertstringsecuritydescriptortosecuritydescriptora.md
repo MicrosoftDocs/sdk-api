@@ -4,10 +4,10 @@ title: ConvertStringSecurityDescriptorToSecurityDescriptorA function
 author: windows-sdk-content
 description: Converts a string-format security descriptor into a valid, functional security descriptor.
 old-location: security\convertstringsecuritydescriptortosecuritydescriptor.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: c5654148-fb4c-436d-9378-a1168fc82607
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: ConvertStringSecurityDescriptorToSecurityDescriptor, ConvertStringSecurityDescriptorToSecurityDescriptor function [Security], ConvertStringSecurityDescriptorToSecurityDescriptorA, ConvertStringSecurityDescriptorToSecurityDescriptorW, _win32_convertstringsecuritydescriptortosecuritydescriptor, sddl/ConvertStringSecurityDescriptorToSecurityDescriptor, sddl/ConvertStringSecurityDescriptorToSecurityDescriptorA, sddl/ConvertStringSecurityDescriptorToSecurityDescriptorW, security.convertstringsecuritydescriptortosecuritydescriptor
 ms.prod: windows
 ms.technology: windows-sdk
@@ -163,7 +163,7 @@ and neither <b>object_guid</b> nor <b>inherit_object_guid</b> has a  <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Basic Access Control Functions</a>
+<a href="authorization_functions.htm">Basic Access Control Functions</a>
 
 
 

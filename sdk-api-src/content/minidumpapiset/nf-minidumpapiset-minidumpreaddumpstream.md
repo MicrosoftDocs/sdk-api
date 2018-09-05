@@ -7,7 +7,7 @@ old-location: base\minidumpreaddumpstream.htm
 old-project: debug
 ms.assetid: 56df69aa-55b6-451b-a003-3ee88dc934f9
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: MiniDumpReadDumpStream, MiniDumpReadDumpStream function, _win32_minidumpreaddumpstream, base.minidumpreaddumpstream, minidumpapiset/MiniDumpReadDumpStream
 ms.prod: windows
 ms.technology: windows-sdk

@@ -324,9 +324,13 @@ The parameter <i>_this</i> is a pointer to an implementation of the interface th
 
 The following code from the Lines sample file Lines.cpp implements <a href="https://msdn.microsoft.com/964ade8e-9d8a-4d32-bd47-aa678912a54d">Invoke</a> using <b>DispInvoke</b>. This implementation relies on <b>DispInvoke</b> to validate input arguments. To help minimize security risks, include code that performs more robust validation of the input arguments.
 
-
-```cpp
-STDMETHODIMP
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>STDMETHODIMP
 CLines::Invoke(
    DISPID dispidMember,
    REFIID riid,
@@ -341,10 +345,10 @@ CLines::Invoke(
    this, m_ptinfo,
    dispidMember, wFlags, pdispparams,
    pvarResult, pexcepinfo, puArgErr); 
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

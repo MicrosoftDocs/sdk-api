@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_TileVertically.htm
 old-project: shell
 ms.assetid: 63CB7E20-48E6-4cfe-B0BA-0D28A7B151BD
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: IShellDispatch object [Windows Shell],TileVertically method, IShellDispatch.TileVertically, IShellDispatch::TileVertically, TileVertically, TileVertically method [Windows Shell], TileVertically method [Windows Shell],IShellDispatch object, shell.IShellDispatch_TileVertically
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,25 +89,33 @@ The following examples show the use of <b>TileVertically</b> in JScript, VBScrip
 JScript:
                 
 
-
-```javascript
-<script language="JScript">
+<div class="code"><span codelanguage="JScript"><table>
+<tr>
+<th>JScript</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="JScript"&gt;
     function fnShellTileVerticallyJ()
     {
         var objShell = new ActiveXObject("shell.application");
         
         objshell.TileVertically();
     }
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 VBScript:
 
-
-```vb
-<script language="VBScript">
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="VBScript"&gt;
     function fnShellTileVerticallyVB()
         dim objShell
         
@@ -116,16 +124,20 @@ VBScript:
 
         set objShell = nothing
     end function
- </script>
-
-```
-
-
+ &lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 Visual Basic:
 
-
-```vb
-Private Sub fnShellTileVerticallyVB()
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Private Sub fnShellTileVerticallyVB()
     Dim objShell As Shell
     
     Set objShell = New Shell
@@ -133,9 +145,9 @@ Private Sub fnShellTileVerticallyVB()
 
     Set objShell = Nothing
 End Sub
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

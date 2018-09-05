@@ -4,10 +4,10 @@ title: EvtGetObjectArraySize function
 author: windows-sdk-content
 description: Gets the number of elements in the array of objects.
 old-location: wes\evtgetobjectarraysize.htm
-old-project: wes
+old-project: WES
 ms.assetid: fc4043ac-48eb-400b-8cf6-b83cbbb2765c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EvtGetObjectArraySize, EvtGetObjectArraySize function [EventLog], wes.evtgetobjectarraysize, winevt/EvtGetObjectArraySize
 ms.prod: windows
 ms.technology: windows-sdk

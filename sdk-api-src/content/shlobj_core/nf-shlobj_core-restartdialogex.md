@@ -7,7 +7,7 @@ old-location: shell\RestartDialogEx.htm
 old-project: shell
 ms.assetid: 32bc232f-6cc4-4f19-9d33-ba7ad28dfd59
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: EWX_FORCE, EWX_FORCEIFHUNG, EWX_LOGOFF, EWX_POWEROFF, EWX_REBOOT, EWX_SHUTDOWN, RestartDialogEx, RestartDialogEx function [Windows Shell], _win32_RestartDialogEx, shell.RestartDialogEx, shlobj_core/RestartDialogEx
 ms.prod: windows
 ms.technology: windows-sdk

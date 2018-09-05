@@ -4,10 +4,10 @@ title: MprConfigServerConnect function
 author: windows-sdk-content
 description: The MprConfigServerConnect function connects to the router to be configured.
 old-location: rras\mprconfigserverconnect.htm
-old-project: rras
+old-project: RRAS
 ms.assetid: 40029088-191d-49b1-88d3-79ffb2da0eef
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MprConfigServerConnect, MprConfigServerConnect function [RAS], _mpr_mprconfigserverconnect, mprapi/MprConfigServerConnect, rras.mprconfigserverconnect
 ms.prod: windows
 ms.technology: windows-sdk
@@ -114,7 +114,7 @@ Insufficient resources to complete the operation.
 </td>
 <td width="60%">
 Use 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
+<a href="_win32_formatmessage">FormatMessage</a> to retrieve the system error message that corresponds to the error code returned.
 
 </td>
 </tr>
@@ -133,7 +133,7 @@ Use
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ms679351(v=VS.85).aspx">FormatMessage</a>
+<a href="_win32_formatmessage">FormatMessage</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: mscs\cluster_version.htm
 old-project: mscs
 ms.assetid: 77abfb85-48fe-4b18-b79e-5641711f33d7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Cluster object [Failover Cluster],Version property, Cluster.Version, ISCluster.get_Version, ISCluster::get_Version, Version property [Failover Cluster], Version property [Failover Cluster],Cluster object, _wolf_cluster.version, get_Version, mscs.cluster_version
 ms.prod: windows
 ms.technology: windows-sdk

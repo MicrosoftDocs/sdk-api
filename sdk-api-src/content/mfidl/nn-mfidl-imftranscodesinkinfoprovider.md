@@ -147,9 +147,13 @@ To use this interface, perform the following steps:
 
 #### Examples
 
-
-```cpp
-// Creates an activation object for the generic transcode sink.
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>// Creates an activation object for the generic transcode sink.
 
 HRESULT CreateTranscodeSinkActivate(
     REFGUID         guidContainerType,
@@ -164,14 +168,14 @@ HRESULT CreateTranscodeSinkActivate(
     IMFTranscodeProfile* pProfile = NULL;
     IMFAttributes* pContainerAttributes = NULL;
 
-    HRESULT hr = MFCreateAttributes(&pContainerAttributes, 1);
+    HRESULT hr = MFCreateAttributes(&amp;pContainerAttributes, 1);
     if (FAILED(hr))
     {
         goto done;
     }
 
     // Create the transcode profile.
-    hr = MFCreateTranscodeProfile(&pProfile);
+    hr = MFCreateTranscodeProfile(&amp;pProfile);
     if (FAILED(hr))
     {
         goto done;
@@ -179,13 +183,13 @@ HRESULT CreateTranscodeSinkActivate(
 
     // Set the profile attributes.
 
-    hr = pContainerAttributes->SetGUID(MF_TRANSCODE_CONTAINERTYPE, guidContainerType);
+    hr = pContainerAttributes-&gt;SetGUID(MF_TRANSCODE_CONTAINERTYPE, guidContainerType);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pProfile->SetContainerAttributes(pContainerAttributes);
+    hr = pProfile-&gt;SetContainerAttributes(pContainerAttributes);
     if (FAILED(hr))
     {
         goto done;
@@ -193,7 +197,7 @@ HRESULT CreateTranscodeSinkActivate(
 
     if (pVideoAttributes)
     {
-        hr = pProfile->SetVideoAttributes(pVideoAttributes);
+        hr = pProfile-&gt;SetVideoAttributes(pVideoAttributes);
         if (FAILED(hr))
         {
             goto done;
@@ -202,7 +206,7 @@ HRESULT CreateTranscodeSinkActivate(
 
     if (pAudioAttributes)
     {
-        hr = pProfile->SetAudioAttributes(pAudioAttributes);
+        hr = pProfile-&gt;SetAudioAttributes(pAudioAttributes);
         if (FAILED(hr))
         {
             goto done;
@@ -210,27 +214,27 @@ HRESULT CreateTranscodeSinkActivate(
     }
 
     // Create the transcode sink activation object.
-    hr = MFCreateTranscodeSinkActivate(&pSinkActivate);
+    hr = MFCreateTranscodeSinkActivate(&amp;pSinkActivate);
     if (FAILED(hr))
     {
         goto done;
     }
 
-    hr = pSinkActivate->QueryInterface(IID_PPV_ARGS(&pSinkInfoProvider));
+    hr = pSinkActivate-&gt;QueryInterface(IID_PPV_ARGS(&amp;pSinkInfoProvider));
     if (FAILED(hr))
     {
         goto done;
     }
 
     // Set the output byte stream.
-    hr = pSinkInfoProvider->SetOutputByteStream(pByteStreamActivate);
+    hr = pSinkInfoProvider-&gt;SetOutputByteStream(pByteStreamActivate);
     if (FAILED(hr))
     {
         goto done;
     }
 
     // Set the transcode profile.
-    hr = pSinkInfoProvider->SetProfile(pProfile);
+    hr = pSinkInfoProvider-&gt;SetProfile(pProfile);
     if (FAILED(hr))
     {
         goto done;
@@ -238,19 +242,19 @@ HRESULT CreateTranscodeSinkActivate(
 
     // Return the activation object to the caller.
     *ppSinkActivate = pSinkActivate;
-    (*ppSinkActivate)->AddRef();
+    (*ppSinkActivate)-&gt;AddRef();
 
 done:
-    SafeRelease(&pProfile);
-    SafeRelease(&pSinkInfoProvider);
-    SafeRelease(&pSinkActivate);
-    SafeRelease(&pContainerAttributes);
+    SafeRelease(&amp;pProfile);
+    SafeRelease(&amp;pSinkInfoProvider);
+    SafeRelease(&amp;pSinkActivate);
+    SafeRelease(&amp;pContainerAttributes);
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

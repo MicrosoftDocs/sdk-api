@@ -93,11 +93,11 @@ This enum is used by the following:
 
 <ul>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dn899156(v=VS.85).aspx">D3D11_QUERY_DESC1</a> structure
+<a href="https://msdn.microsoft.com/56FFA63E-E7C6-45A4-80E9-B12E9042AE13">D3D11_QUERY_DESC1</a> structure
           </li>
 <li>A CD3D11_QUERY_DESC1 constructor.</li>
 <li>
-<a href="https://msdn.microsoft.com/en-us/library/Dn912876(v=VS.85).aspx">ID3D11DeviceContext3::Flush1</a> method
+<a href="https://msdn.microsoft.com/DBDA19C3-EC4E-4C12-B1ED-A92E5CE28CED">ID3D11DeviceContext3::Flush1</a> method
           </li>
 </ul>
 
@@ -108,11 +108,11 @@ This enum is used by the following:
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ff476152(v=VS.85).aspx">Core Enumerations</a>
+<a href="https://msdn.microsoft.com/1641713a-5ac8-4597-900b-1bba54f9f522">Core Enumerations</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn899156(v=VS.85).aspx">D3D11_QUERY_DESC1</a>
+<a href="https://msdn.microsoft.com/56FFA63E-E7C6-45A4-80E9-B12E9042AE13">D3D11_QUERY_DESC1</a>
  
 
  

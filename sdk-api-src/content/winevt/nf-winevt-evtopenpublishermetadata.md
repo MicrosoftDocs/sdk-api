@@ -4,10 +4,10 @@ title: EvtOpenPublisherMetadata function
 author: windows-sdk-content
 description: Gets a handle that you use to read the specified provider's metadata.
 old-location: wes\evtopenpublishermetadata.htm
-old-project: wes
+old-project: WES
 ms.assetid: 0839fb15-12a9-4e30-9afa-6f6437956df0
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EvtOpenPublisherMetadata, EvtOpenPublisherMetadata function [EventLog], wes.evtopenpublishermetadata, winevt/EvtOpenPublisherMetadata
 ms.prod: windows
 ms.technology: windows-sdk

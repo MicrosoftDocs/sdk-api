@@ -4,10 +4,10 @@ title: CertOpenSystemStoreW function
 author: windows-sdk-content
 description: Opens the most common system certificate store. To open certificate stores with more complex requirements, such as file-based or memory-based stores, use CertOpenStore.
 old-location: security\certopensystemstore.htm
-old-project: SecCrypto
+old-project: seccrypto
 ms.assetid: 23699439-1a6c-4907-93fa-651024856be7
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/29/2018
 ms.keywords: CA, CertOpenSystemStore, CertOpenSystemStore function [Security], CertOpenSystemStoreA, CertOpenSystemStoreW, MY, ROOT, SPC, _crypto2_certopensystemstore, security.certopensystemstore, wincrypt/CertOpenSystemStore, wincrypt/CertOpenSystemStoreA, wincrypt/CertOpenSystemStoreW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -154,9 +154,13 @@ For more information about the stores that are automatically migrated, see <a hr
 
 The following example shows a simplified method for opening the most common system certificate stores. For another example that uses this function, see <a href="https://msdn.microsoft.com/cf87791c-b98c-4dd7-b346-336c4b1a88ca">Example C Program: Certificate Store Operations</a>.
 
-
-```cpp
-//--------------------------------------------------------------------
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//--------------------------------------------------------------------
 // Declare and initialize variables.
 
 HCERTSTORE  hSystemStore;              // system store handle
@@ -186,10 +190,10 @@ if(!CertCloseStore(hSystemStore, 0))
 {
   printf("Unable to close the CA system store.\n");
   exit(1);
-}
-```
-
-
+}</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 
@@ -218,7 +222,7 @@ if(!CertCloseStore(hSystemStore, 0))
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Store Functions</a>
+<a href="cryptography_functions.htm">Certificate Store Functions</a>
  
 
  

@@ -7,7 +7,7 @@ old-location: indexsrv\wordrep_break_type.htm
 old-project: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_12at.htm
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/29/2018
 ms.keywords: WORDREP_BREAK_EOC, WORDREP_BREAK_EOP, WORDREP_BREAK_EOS, WORDREP_BREAK_EOW, WORDREP_BREAK_TYPE, WORDREP_BREAK_TYPE enumeration [Indexing Service], _idxs_WORDREP_BREAK_TYPE, indexsrv.wordrep_break_type, indexsrv/WORDREP_BREAK_EOC, indexsrv/WORDREP_BREAK_EOP, indexsrv/WORDREP_BREAK_EOS, indexsrv/WORDREP_BREAK_EOW, indexsrv/WORDREP_BREAK_TYPE, tagWORDREP_BREAK_TYPE
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.product: GDI+ 1.1
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/en-us/library/Aa965362(v=VS.85).aspx">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://msdn.microsoft.com/6da601c6-3742-40ad-99f2-8817f7f642b3">Windows Search</a> for client side search and  <a href=" http://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
 
 Describes the type of break that separates the current word from the previous word.
 

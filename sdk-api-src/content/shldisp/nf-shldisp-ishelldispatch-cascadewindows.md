@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_CascadeWindows.htm
 old-project: shell
 ms.assetid: 6A957D70-D6A3-4485-8DF3-7FD2C6DEFF78
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: CascadeWindows, CascadeWindows method [Windows Shell], CascadeWindows method [Windows Shell],IShellDispatch object, IShellDispatch object [Windows Shell],CascadeWindows method, IShellDispatch.CascadeWindows, IShellDispatch::CascadeWindows, shell.IShellDispatch_CascadeWindows
 ms.prod: windows
 ms.technology: windows-sdk
@@ -89,25 +89,33 @@ The following examples show the use of <b>CascadeWindows</b> in JScript, VBScrip
 JScript:
                 
 
-
-```javascript
-<script language="JScript">
+<div class="code"><span codelanguage="JScript"><table>
+<tr>
+<th>JScript</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="JScript"&gt;
     function fnShellCascadeWindowsJ()
     {
         var objShell = new ActiveXObject("shell.application");
         
         objshell.CascadeWindows();
     }
-</script>
-
-```
-
-
+&lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 VBScript:
 
-
-```vb
-<script language="VBScript">
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>&lt;script language="VBScript"&gt;
     function fnShellCascadeWindowsVB()
         dim objShell
         
@@ -115,25 +123,29 @@ VBScript:
         objshell.CascadeWindows
         set objShell = nothing
     end function
- </script>
-
-```
-
-
+ &lt;/script&gt;
+</pre>
+</td>
+</tr>
+</table></span></div>
 Visual Basic:
 
-
-```vb
-Private Sub fnShellCascadeWindowsVB()
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>Private Sub fnShellCascadeWindowsVB()
     Dim objShell As Shell
     
     Set objShell = New Shell
     objshell.CascadeWindows
     Set objShell = Nothing
 End Sub
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 

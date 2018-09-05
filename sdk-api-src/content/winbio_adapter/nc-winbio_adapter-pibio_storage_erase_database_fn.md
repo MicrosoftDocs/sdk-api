@@ -4,10 +4,10 @@ title: PIBIO_STORAGE_ERASE_DATABASE_FN
 author: windows-sdk-content
 description: Erases the database and marks it for deletion.
 old-location: secbiomet\storageadaptererasedatabase.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: c1fc2f3f-034b-4546-aeee-1d1a38695793
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: PIBIO_STORAGE_ERASE_DATABASE_FN, PIBIO_STORAGE_ERASE_DATABASE_FN callback, StorageAdapterEraseDatabase, StorageAdapterEraseDatabase callback function [Windows Biometric Framework API], secbiomet.storageadaptererasedatabase, winbio_adapter/StorageAdapterEraseDatabase
 ms.prod: windows
 ms.technology: windows-sdk

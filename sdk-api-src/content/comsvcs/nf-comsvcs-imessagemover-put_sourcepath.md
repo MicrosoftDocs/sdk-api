@@ -7,7 +7,7 @@ old-location: cos\imessagemover_put_sourcepath.htm
 old-project: cossdk
 ms.assetid: b9807fa0-905d-452c-ba26-e59463a7fe7b
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IMessageMover interface [COM+],put_SourcePath method, IMessageMover.put_SourcePath, IMessageMover::put_SourcePath, comsvcs/IMessageMover::put_SourcePath, cos.imessagemover_put_sourcepath, put_SourcePath, put_SourcePath method [COM+], put_SourcePath method [COM+],IMessageMover interface
 ms.prod: windows
 ms.technology: windows-sdk

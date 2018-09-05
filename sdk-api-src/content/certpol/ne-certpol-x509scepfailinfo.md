@@ -4,10 +4,10 @@ title: X509SCEPFailInfo
 author: windows-sdk-content
 description: Describes the nature of an SCEP certificate enrollment failure.
 old-location: security\x509scepfailinfo.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: A2C314FB-A348-41CE-9736-2BDE05F7E70E
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: SCEPFailBadAlgorithm, SCEPFailBadCertId, SCEPFailBadMessageCheck, SCEPFailBadRequest, SCEPFailBadTime, X509SCEPFailInfo, X509SCEPFailInfo enumeration [Security], certpol/SCEPFailBadAlgorithm, certpol/SCEPFailBadCertId, certpol/SCEPFailBadMessageCheck, certpol/SCEPFailBadRequest, certpol/SCEPFailBadTime, certpol/X509SCEPFailInfo, security.x509scepfailinfo
 ms.prod: windows
 ms.technology: windows-sdk
@@ -51,7 +51,7 @@ req.irql:
 ## -description
 
 
-The <b>X509SCEPFailInfo</b> enumeration   describes the nature of an SCEP certificate enrollment failure. This enumeration is used by the <a href="https://msdn.microsoft.com/en-us/library/Dn424973(v=VS.85).aspx">IX509SCEPEnrollment</a> interface.
+The <b>X509SCEPFailInfo</b> enumeration   describes the nature of an SCEP certificate enrollment failure. This enumeration is used by the <a href="https://msdn.microsoft.com/fcbac911-9e37-4994-bbb6-544b19a92749">IX509SCEPEnrollment</a> interface.
 
 
 ## -enum-fields
@@ -92,7 +92,7 @@ No certificate could be identified.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn424980(v=VS.85).aspx">FailInfo</a>
+<a href="https://msdn.microsoft.com/4fd76b7e-8b19-46da-b352-7668917a6585">FailInfo</a>
  
 
  

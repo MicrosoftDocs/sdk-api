@@ -64,7 +64,7 @@ Moves the range ends to the start of the first overlapping <i>Unit</i> in the ra
 
 Type: <b>long</b>
 
-Unit to use in the move operation. For a list of <i>Unit</i> values, see the discussion under <a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>. 
+Unit to use in the move operation. For a list of <i>Unit</i> values, see the discussion under <a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>. 
 
 
 ### -param Extend
@@ -141,7 +141,7 @@ Failure for some other reason.
 
 If the range is an insertion point on a boundary between <i>Unit</i>s, <b>ITextRange::StartOf</b> does not change the start position. 
 
-The <b>ITextRange::StartOf</b> and <a href="https://msdn.microsoft.com/en-us/library/Bb787769(v=VS.85).aspx">ITextRange::EndOf</a> methods differ from the <a href="https://msdn.microsoft.com/en-us/library/Bb774044(v=VS.85).aspx">HomeKey</a> and <a href="https://msdn.microsoft.com/en-us/library/Bb787752(v=VS.85).aspx">EndKey</a> methods in that the latter extend from the active end, whereas <b>ITextRange::StartOf</b> extends from the start position and <b>ITextRange::EndOf</b> extends from the end position. 
+The <b>ITextRange::StartOf</b> and <a href="https://msdn.microsoft.com/8bee17fc-bbc1-4443-a135-87e76b06467c">ITextRange::EndOf</a> methods differ from the <a href="https://msdn.microsoft.com/19c5de79-59b2-4ae6-bcdc-d525ef479d63">HomeKey</a> and <a href="https://msdn.microsoft.com/f61e82fc-cb38-4263-8142-04283bb195bd">EndKey</a> methods in that the latter extend from the active end, whereas <b>ITextRange::StartOf</b> extends from the start position and <b>ITextRange::EndOf</b> extends from the end position. 
 
 
 
@@ -155,19 +155,19 @@ The <b>ITextRange::StartOf</b> and <a href="https://msdn.microsoft.com/en-us/lib
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787752(v=VS.85).aspx">EndKey</a>
+<a href="https://msdn.microsoft.com/f61e82fc-cb38-4263-8142-04283bb195bd">EndKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787769(v=VS.85).aspx">EndOf</a>
+<a href="https://msdn.microsoft.com/8bee17fc-bbc1-4443-a135-87e76b06467c">EndOf</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774044(v=VS.85).aspx">HomeKey</a>
+<a href="https://msdn.microsoft.com/19c5de79-59b2-4ae6-bcdc-d525ef479d63">HomeKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb774058(v=VS.85).aspx">ITextRange</a>
+<a href="https://msdn.microsoft.com/e19678cb-f951-458c-bf96-de4b123fd63a">ITextRange</a>
 
 
 
@@ -175,7 +175,7 @@ The <b>ITextRange::StartOf</b> and <a href="https://msdn.microsoft.com/en-us/lib
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
+<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
  
 
  

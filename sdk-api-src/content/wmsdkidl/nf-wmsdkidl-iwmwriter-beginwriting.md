@@ -198,7 +198,7 @@ The following operations can be performed only before calling <b>BeginWriting</b
 <li>Setting the output filename (if using <a href="https://msdn.microsoft.com/352cf497-f7d6-41e8-bdbb-c59215b617a3">IWMWriter::SetOutputFilename</a>)</li>
 <li>Setting an attribute with <a href="https://msdn.microsoft.com/174969a2-4fe2-477b-9990-051d23bf8a29">IWMHeaderInfo::SetAttribute</a>
 </li>
-<li><a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">Marker</a> operations (<a href="https://msdn.microsoft.com/c0d8e61d-8703-407a-9610-9e9f29ab92a1">IWMHeaderInfo::GetMarkerCount</a>, <a href="https://msdn.microsoft.com/ae035991-86c8-4ffc-b819-5a5ce81a980f">GetMarker</a>, <a href="https://msdn.microsoft.com/cfa111bb-7bbb-448a-b2db-d36637c01a52">AddMarker</a>, and <a href="https://msdn.microsoft.com/b95aa113-b218-44ef-9516-20894e02ee6c">RemoveMarker</a>, although <b>AddMarker</b> is not implemented on the writer and the rest aren't useful if there are no markers)</li>
+<li><a href="wmformat_glossary.htm">Marker</a> operations (<a href="https://msdn.microsoft.com/c0d8e61d-8703-407a-9610-9e9f29ab92a1">IWMHeaderInfo::GetMarkerCount</a>, <a href="https://msdn.microsoft.com/ae035991-86c8-4ffc-b819-5a5ce81a980f">GetMarker</a>, <a href="https://msdn.microsoft.com/cfa111bb-7bbb-448a-b2db-d36637c01a52">AddMarker</a>, and <a href="https://msdn.microsoft.com/b95aa113-b218-44ef-9516-20894e02ee6c">RemoveMarker</a>, although <b>AddMarker</b> is not implemented on the writer and the rest aren't useful if there are no markers)</li>
 <li>Calling <a href="https://msdn.microsoft.com/15084a4d-06e8-4f74-9697-ced794d2cdae">IWMWriter::SetInputProps</a> with a <b>NULL</b><a href="https://msdn.microsoft.com/d901ac66-d4b3-4256-bd7b-53cccb3de644">IWMInputMediaProps</a> parameter to indicate that the input stream will be written using <a href="https://msdn.microsoft.com/498bfb73-bfa5-429d-ae8a-3a691fc25fc2">WriteStreamSample</a>.</li>
 <li>Header Script operations (<a href="https://msdn.microsoft.com/c1a0b35c-db05-402a-9bde-684bead1eedf">IWMHeaderInfo::GetScriptCount</a>, <a href="https://msdn.microsoft.com/779a7618-9f22-4caf-8a4e-b622e422c30d">GetScript</a>, <a href="https://msdn.microsoft.com/e20644fb-077e-4eee-8802-6099002f3969">AddScript</a>, and <a href="https://msdn.microsoft.com/c66e808d-25f9-4745-8bcc-731f2556f470">RemoveScript</a>)</li>
 <li>Codec info operations (<a href="https://msdn.microsoft.com/1f77f362-5cc7-4d12-9b5f-0436d490b46d">IWMHeaderInfo2::GetCodecInfoCount</a> and <a href="https://msdn.microsoft.com/685eaf9e-6cc8-4c38-be34-afa4b504a326">GetCodecInfo</a>)</li>
@@ -279,9 +279,13 @@ The following operations can be performed at any time:
 
 The following example code outlines how to set up a writer and send output both to a network sink and an archive file.
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 IWMWriter *             pWriter = NULL;
 IWMWriterAdvanced *     pWriterAdvanced = NULL;
 IWMWriterFileSink2 *    pWriterFileSink = NULL;
@@ -295,19 +299,19 @@ do
 {
     // Create the basic objects.
 
-    hr = WMCreateWriter( &pWriter );
+    hr = WMCreateWriter( &amp;pWriter );
     if( FAILED( hr ) )
     {
         break;
     }
 
-    hr = WMCreateWriterFileSink( &pWriterFileSink );
+    hr = WMCreateWriterFileSink( &amp;pWriterFileSink );
     if( FAILED( hr ) )
     {
         break;
     }
 
-    hr = WMCreateWriterNetworkSink( &pWriterNetworkSink );
+    hr = WMCreateWriterNetworkSink( &amp;pWriterNetworkSink );
     if( FAILED( hr ) )
     {
         break;
@@ -315,25 +319,25 @@ do
 
     // Retrieve a pointer to an IWMWriterAdvanced interface and add the sinks.
 
-    hr = pWriter->QueryInterface( IID_IWMWriterAdvanced, (void **)&pWriterAdvanced );
+    hr = pWriter-&gt;QueryInterface( IID_IWMWriterAdvanced, (void **)&amp;pWriterAdvanced );
     if( FAILED( hr ) )
     {
         break;
     }
 
-    hr = pWriterAdvanced->AddSink( pWriterFileSink );
+    hr = pWriterAdvanced-&gt;AddSink( pWriterFileSink );
     if( FAILED( hr ) )
     {
         break;
     }
 
-    hr = pWriterAdvanced->AddSink( pWriterNetworkSink );
+    hr = pWriterAdvanced-&gt;AddSink( pWriterNetworkSink );
     if( FAILED( hr ) )
     {
         break;
     }
 
-    hr = pWriterFileSink->Open( L"Archive file name" );
+    hr = pWriterFileSink-&gt;Open( L"Archive file name" );
     if( FAILED( hr ) )
     {
         break;
@@ -342,13 +346,13 @@ do
     // Setting the port number to zero enables the SDK to select an
     // appropriate port number.
     dwPort = 0;
-    hr = pWriterNetworkSink->Open( &dwPort );
+    hr = pWriterNetworkSink-&gt;Open( &amp;dwPort );
     if( FAILED( hr ) )
     {
         break;
     }
 
-    hr = pWriter->BeginWriting();
+    hr = pWriter-&gt;BeginWriting();
     if( FAILED( hr ) )
     {
         break;
@@ -357,19 +361,19 @@ do
     // Code to send data to the writer goes here (not shown).
 
     // Close both sinks.
-    hr = pWriterFileSink->Close();
+    hr = pWriterFileSink-&gt;Close();
     if( FAILED( hr ) )
     {
         break;
     }
 
-    hr = pWriterNetworkSink->Close();
+    hr = pWriterNetworkSink-&gt;Close();
     if( FAILED( hr ) )
     {
         break;
     }
 
-    hr = pWriter-> EndWriting();
+    hr = pWriter-&gt; EndWriting();
     if( FAILED( hr ) )
     {
         break;
@@ -381,24 +385,24 @@ while( FALSE );
 
 if ( pWriter )
 {
-    pWriter->Release();
+    pWriter-&gt;Release();
 }
 if ( pWriterAdvanced )
 {
-    pWriterAdvanced->Release();
+    pWriterAdvanced-&gt;Release();
 }
 if ( pWriterFileSink )
 {
-    pWriterFileSink->Release();
+    pWriterFileSink-&gt;Release();
 }
 if ( pWriterNetworkSink )
 {
-    pWriterNetworkSink->Release();
+    pWriterNetworkSink-&gt;Release();
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

@@ -7,7 +7,7 @@ old-location: mscs\cluspropertyvalue_object.htm
 old-project: mscs
 ms.assetid: 6a8ffae6-c4f3-42fb-9703-eeb695902877
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusPropertyValue, ClusPropertyValue object [Failover Cluster], ClusPropertyValue object [Failover Cluster],described, ISClusPropertyValue, _wolf_cluspropertyvalue_object, msclus/ClusPropertyValue, mscs.cluspropertyvalue_object
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,9 +58,9 @@ req.product: GDI+ 1.1
     in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent 
     versions.]
 
-Represents a single <a href="https://msdn.microsoft.com/en-us/library/Aa371816(v=VS.85).aspx">property value</a> 
+Represents a single <a href="p_gly.htm">property value</a> 
     associated with a multi-value property. The property value consists of one or more 
-    <a href="https://msdn.microsoft.com/en-us/library/Aa369367(v=VS.85).aspx">data values</a>.
+    <a href="d_gly.htm">data values</a>.
 
 
 ## -remarks

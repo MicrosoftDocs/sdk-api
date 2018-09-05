@@ -7,7 +7,7 @@ old-location: wpdsdk\ienumportabledeviceobjectids_next.htm
 old-project: wpd_sdk
 ms.assetid: 0a850b86-aeba-44b7-a686-9f3652a4c4ba
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IEnumPortableDeviceObjectIDs interface [Windows Portable Devices SDK],Next method, IEnumPortableDeviceObjectIDs.Next, IEnumPortableDeviceObjectIDs::Next, IEnumPortableDeviceObjectIDsNext, Next, Next method [Windows Portable Devices SDK], Next method [Windows Portable Devices SDK],IEnumPortableDeviceObjectIDs interface, portabledeviceapi/IEnumPortableDeviceObjectIDs::Next, wpdsdk.ienumportabledeviceobjectids_next
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ A count of the objects requested.
 
 ### -param pObjIDs [in, out]
 
-An array of <b>LPWSTR</b> pointers, each specifying a retrieved object ID. The caller must allocate an array of <i>cObjects</i> LPWSTR elements. The caller must free both the array and the returned strings. The strings are freed by calling <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a>.
+An array of <b>LPWSTR</b> pointers, each specifying a retrieved object ID. The caller must allocate an array of <i>cObjects</i> LPWSTR elements. The caller must free both the array and the returned strings. The strings are freed by calling <a href="4fe971c6-8611-453d-b69b-f02c17cf17d4">CoTaskMemFree</a>.
           
 
 
@@ -130,9 +130,13 @@ If fewer than the requested number of elements remain in the sequence, this meth
 
 #### Examples
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 // This number controls how many object identifiers are requested during each call
 // to IEnumPortableDeviceObjectIDs::Next()
 #define NUM_OBJECTS_TO_REQUEST  10
@@ -154,7 +158,7 @@ void RecursiveEnumerate(LPCWSTR wszParentObjectID, IPortableDeviceContent* pCont
 
     // Get an IEnumPortableDeviceObjectIDs interface by calling EnumObjects with the
     // specified parent object identifier.
-    hr = pContent->EnumObjects(0, wszParentObjectID, NULL, &pEnumObjectIDs);
+    hr = pContent-&gt;EnumObjects(0, wszParentObjectID, NULL, &amp;pEnumObjectIDs);
     if (FAILED(hr))
     {
         // Failed to get IEnumPortableDeviceObjectIDs from IPortableDeviceContent
@@ -165,14 +169,14 @@ void RecursiveEnumerate(LPCWSTR wszParentObjectID, IPortableDeviceContent* pCont
     {
         DWORD  cFetched = 0;
         LPWSTR szObjectIDArray[NUM_OBJECTS_TO_REQUEST] = {0};
-        hr = pEnumObjectIDs->Next(NUM_OBJECTS_TO_REQUEST, // Number of objects to request on each NEXT call
+        hr = pEnumObjectIDs-&gt;Next(NUM_OBJECTS_TO_REQUEST, // Number of objects to request on each NEXT call
                                   szObjectIDArray,        // Array of LPWSTR array which will be populated on each NEXT call
-                                  &cFetched);             // Number of objects written to the LPWSTR array
+                                  &amp;cFetched);             // Number of objects written to the LPWSTR array
         if (SUCCEEDED(hr))
         {
             // Traverse the results of the Next() operation and recursively enumerate
             // Remember to free all returned object identifiers using CoTaskMemFree()
-            for (DWORD dwIndex = 0; dwIndex < cFetched; dwIndex++)
+            for (DWORD dwIndex = 0; dwIndex &lt; cFetched; dwIndex++)
             {
                 RecursiveEnumerate(szObjectIDArray[dwIndex],pContent);
 
@@ -186,14 +190,14 @@ void RecursiveEnumerate(LPCWSTR wszParentObjectID, IPortableDeviceContent* pCont
     // Release the IEnumPortableDeviceObjectIDs when finished
     if (pEnumObjectIDs != NULL)
     {
-        pEnumObjectIDs->Release();
+        pEnumObjectIDs-&gt;Release();
         pEnumObjectIDs = NULL;
     }
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

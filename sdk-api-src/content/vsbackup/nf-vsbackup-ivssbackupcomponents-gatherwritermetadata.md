@@ -4,10 +4,10 @@ title: IVssBackupComponents::GatherWriterMetadata
 author: windows-sdk-content
 description: The GatherWriterMetadata method prompts each writer to send the metadata they have collected. The method will generate an Identify event to communicate with writers.
 old-location: base\ivssbackupcomponents_gatherwritermetadata.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 44f19c10-c966-4ab6-98dd-865d535955db
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GatherWriterMetadata, GatherWriterMetadata method [VSS], GatherWriterMetadata method [VSS],IVssBackupComponents interface, IVssBackupComponents interface [VSS],GatherWriterMetadata method, IVssBackupComponents.GatherWriterMetadata, IVssBackupComponents::GatherWriterMetadata, _win32_ivssbackupcomponents_gatherwritermetadata, base.ivssbackupcomponents_gatherwritermetadata, vsbackup/IVssBackupComponents::GatherWriterMetadata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.product: Windows UI
 
 
 The 
-<b>GatherWriterMetadata</b> method prompts each writer to send the metadata they have collected. The method will generate an <a href="https://msdn.microsoft.com/en-us/library/Aa384659(v=VS.85).aspx">Identify</a> event to communicate with writers.
+<b>GatherWriterMetadata</b> method prompts each writer to send the metadata they have collected. The method will generate an <a href="vssgloss_i.htm">Identify</a> event to communicate with writers.
 
 
 ## -parameters

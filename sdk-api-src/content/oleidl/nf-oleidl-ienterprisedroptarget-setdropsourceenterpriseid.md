@@ -7,7 +7,7 @@ old-location: com\setdropsourceenterpriseid_setdropsourceenterpriseId.htm
 old-project: com
 ms.assetid: FFC64D7F-CBEA-4913-93B2-F19F4D0EA81E
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IEnterpriseDropTarget interface [COM],SetDropSourceEnterpriseId method, IEnterpriseDropTarget.SetDropSourceEnterpriseId, IEnterpriseDropTarget::SetDropSourceEnterpriseId, SetDropSourceEnterpriseId, SetDropSourceEnterpriseId method [COM], SetDropSourceEnterpriseId method [COM],IEnterpriseDropTarget interface, com.setdropsourceenterpriseid_requestaccessforappwithmessageforwindowasync, com.setdropsourceenterpriseid_setdropsourceenterpriseId, oleidl/IEnterpriseDropTarget::SetDropSourceEnterpriseId
 ms.prod: windows
 ms.technology: windows-sdk

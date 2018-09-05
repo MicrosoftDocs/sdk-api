@@ -4,10 +4,10 @@ title: IX509EnrollmentPolicyServer::put_Cost
 author: windows-sdk-content
 description: Specifies and retrieves an arbitrary cost for contacting the certificate enrollment policy server.
 old-location: security\ix509enrollmentpolicyserver_cost.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: e79bc71f-5f7b-47d7-b45b-1279d27439d2
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: Cost property [Security], Cost property [Security],IX509EnrollmentPolicyServer interface, IX509EnrollmentPolicyServer interface [Security],Cost property, IX509EnrollmentPolicyServer.Cost, IX509EnrollmentPolicyServer.put_Cost, IX509EnrollmentPolicyServer::Cost, IX509EnrollmentPolicyServer::get_Cost, IX509EnrollmentPolicyServer::put_Cost, certenroll/IX509EnrollmentPolicyServer::Cost, certenroll/IX509EnrollmentPolicyServer::get_Cost, certenroll/IX509EnrollmentPolicyServer::put_Cost, put_Cost, security.ix509enrollmentpolicyserver_cost
 ms.prod: windows
 ms.technology: windows-sdk
@@ -65,7 +65,7 @@ This property is read/write.
 
 
 
-If multiple CEP servers have the same ID value (specified when the <a href="https://msdn.microsoft.com/en-us/library/Ee351710(v=VS.85).aspx">Initialize</a> method is called), the server with the lowest cost is contacted first. 
+If multiple CEP servers have the same ID value (specified when the <a href="https://msdn.microsoft.com/b0d848a2-1bac-4a30-ae02-26d5af719688">Initialize</a> method is called), the server with the lowest cost is contacted first. 
 
 
 
@@ -75,7 +75,7 @@ If multiple CEP servers have the same ID value (specified when the <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee351692(v=VS.85).aspx">IX509EnrollmentPolicyServer</a>
+<a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a>
  
 
  

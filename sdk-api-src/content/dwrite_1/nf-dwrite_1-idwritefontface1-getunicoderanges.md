@@ -7,7 +7,7 @@ old-location: directwrite\idwritefontface1_getunicoderanges.htm
 old-project: DirectWrite
 ms.assetid: 0464BA91-B098-463D-A4A9-8D3C05E45F0E
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetUnicodeRanges, GetUnicodeRanges method [Direct Write], GetUnicodeRanges method [Direct Write],IDWriteFontFace1 interface, IDWriteFontFace1 interface [Direct Write],GetUnicodeRanges method, IDWriteFontFace1.GetUnicodeRanges, IDWriteFontFace1::GetUnicodeRanges, directwrite.idwritefontface1_getunicoderanges, dwrite_1/IDWriteFontFace1::GetUnicodeRanges
 ms.prod: windows
 ms.technology: windows-sdk

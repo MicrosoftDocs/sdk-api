@@ -104,16 +104,20 @@ The parameters are optional, so that the method can return both parts of the tag
 
 The following example shows the syntax for this method.
 
-
-```
-IUnknown* pObject;
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>IUnknown* pObject;
 UINT32 id;
 
-HRESULT hr = pContent->GetTag(IID_PPV_ARGS(&pObject), &id);
-
-```
-
-
+HRESULT hr = pContent-&gt;GetTag(IID_PPV_ARGS(&amp;pObject), &amp;id);
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

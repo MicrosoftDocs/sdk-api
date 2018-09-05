@@ -7,7 +7,7 @@ old-location: shell\StopWatchMode.htm
 old-project: shell
 ms.assetid: 3db69040-0720-41a3-ba88-db885a2685aa
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: StopWatchMode, StopWatchMode function [Windows Shell], _win32_StopWatchMode, shell.StopWatchMode, shlwapi/StopWatchMode
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

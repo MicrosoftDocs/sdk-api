@@ -4,10 +4,10 @@ title: IX509CertificateRequestPkcs10V3::get_AttestationEncryptionCertificate
 author: windows-sdk-content
 description: The certificate used to encrypt the EKPUB and EKCERT values from the client. This property must be set to a valid certificate that chains to a trusted machine root.
 old-location: security\ix509certificaterequestpkcs10v3_attestationencryptioncertificate.htm
-old-project: seccertenroll
+old-project: SecCertEnroll
 ms.assetid: 0df4d8e5-edb1-49c8-a2b6-f98692168900
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: AttestationEncryptionCertificate property [Security], AttestationEncryptionCertificate property [Security],IX509CertificateRequestPkcs10V3 interface, IX509CertificateRequestPkcs10V3 interface [Security],AttestationEncryptionCertificate property, IX509CertificateRequestPkcs10V3.AttestationEncryptionCertificate, IX509CertificateRequestPkcs10V3.get_AttestationEncryptionCertificate, IX509CertificateRequestPkcs10V3::AttestationEncryptionCertificate, IX509CertificateRequestPkcs10V3::get_AttestationEncryptionCertificate, IX509CertificateRequestPkcs10V3::put_AttestationEncryptionCertificate, certenroll/IX509CertificateRequestPkcs10V3::AttestationEncryptionCertificate, certenroll/IX509CertificateRequestPkcs10V3::get_AttestationEncryptionCertificate, certenroll/IX509CertificateRequestPkcs10V3::put_AttestationEncryptionCertificate, get_AttestationEncryptionCertificate, security.ix509certificaterequestpkcs10v3_attestationencryptioncertificate
 ms.prod: windows
 ms.technology: windows-sdk
@@ -66,7 +66,7 @@ This property is read/write.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Dn379345(v=VS.85).aspx">IX509CertificateRequestPkcs10V3</a>
+<a href="https://msdn.microsoft.com/e833d1dc-da0f-4f5e-9027-ebf7413ef8c3">IX509CertificateRequestPkcs10V3</a>
  
 
  

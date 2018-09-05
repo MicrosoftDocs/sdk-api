@@ -4,10 +4,10 @@ title: "_VSS_DIFF_AREA_PROP"
 author: windows-sdk-content
 description: Describes associations between volumes containing the original file data and volumes containing the shadow copy storage area.
 old-location: base\vss_diff_area_prop.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 9627d7b0-e9d0-425f-9051-cf4ab6b75a8c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*PVSS_DIFF_AREA_PROP, PVSS_DIFF_AREA_PROP, PVSS_DIFF_AREA_PROP structure pointer [VSS], VSS_DIFF_AREA_PROP, VSS_DIFF_AREA_PROP structure [VSS], _VSS_DIFF_AREA_PROP, base.vss_diff_area_prop, vsmgmt/PVSS_DIFF_AREA_PROP, vsmgmt/VSS_DIFF_AREA_PROP"
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: CreateServiceA function
 author: windows-sdk-content
 description: Creates a service object and adds it to the specified service control manager database.
 old-location: base\createservice.htm
-old-project: services
+old-project: Services
 ms.assetid: 47288924-3294-4a50-b27d-7df80d5c957c
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: CreateService, CreateService function, CreateServiceA, CreateServiceW, SERVICE_ADAPTER, SERVICE_AUTO_START, SERVICE_BOOT_START, SERVICE_DEMAND_START, SERVICE_DISABLED, SERVICE_ERROR_CRITICAL, SERVICE_ERROR_IGNORE, SERVICE_ERROR_NORMAL, SERVICE_ERROR_SEVERE, SERVICE_FILE_SYSTEM_DRIVER, SERVICE_INTERACTIVE_PROCESS, SERVICE_KERNEL_DRIVER, SERVICE_RECOGNIZER_DRIVER, SERVICE_SYSTEM_START, SERVICE_USER_OWN_PROCESS, SERVICE_USER_SHARE_PROCESS, SERVICE_WIN32_OWN_PROCESS, SERVICE_WIN32_SHARE_PROCESS, _win32_createservice, base.createservice, winsvc/CreateService, winsvc/CreateServiceA, winsvc/CreateServiceW
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: PIBIO_ENGINE_SET_HASH_ALGORITHM_FN
 author: windows-sdk-content
 description: Selects a hash algorithm for use in subsequent operations.
 old-location: secbiomet\engineadaptersethashalgorithm.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: 0d16d82a-287c-4402-ac10-f601684bd976
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: EngineAdapterSetHashAlgorithm, EngineAdapterSetHashAlgorithm callback function [Windows Biometric Framework API], PIBIO_ENGINE_SET_HASH_ALGORITHM_FN, PIBIO_ENGINE_SET_HASH_ALGORITHM_FN callback, secbiomet.engineadaptersethashalgorithm, winbio_adapter/EngineAdapterSetHashAlgorithm
 ms.prod: windows
 ms.technology: windows-sdk
@@ -155,9 +155,13 @@ Only the SHA1 hash algorithm is used by the Windows Biometric Framework. The OID
 
 The following pseudocode shows one possible implementation of this function. The example does not compile. You must adapt it to suit your purpose.
 
-
-```cpp
-//////////////////////////////////////////////////////////////////////////////////////////
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>//////////////////////////////////////////////////////////////////////////////////////////
 //
 // EngineAdapterSetHashAlgorithm
 //
@@ -216,10 +220,10 @@ cleanup:
     
     return hr;
 }
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

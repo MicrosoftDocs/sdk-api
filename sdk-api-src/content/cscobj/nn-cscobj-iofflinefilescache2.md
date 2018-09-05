@@ -52,14 +52,14 @@ req.irql:
 ## -description
 
 
-Implements the <a href="https://msdn.microsoft.com/en-us/library/Hh769077(v=VS.85).aspx">RenameItemEx</a> method.
+Implements the <a href="https://msdn.microsoft.com/766ABFE7-4417-47BA-ADF2-AA876C3A868A">RenameItemEx</a> method.
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesCache2</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Bb530486(v=VS.85).aspx">IOfflineFilesCache</a>. <b>IOfflineFilesCache2</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IOfflineFilesCache2</b> interface inherits from <a href="https://msdn.microsoft.com/7b1b5ef6-355a-4760-9d54-ec73cc66fb8a">IOfflineFilesCache</a>. <b>IOfflineFilesCache2</b> also has these types of members:
 <ul>
-<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
 
 ## -members
@@ -72,10 +72,10 @@ The <b>IOfflineFilesCache2</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/en-us/library/Hh769077(v=VS.85).aspx">RenameItemEx</a>
+<a href="https://msdn.microsoft.com/766ABFE7-4417-47BA-ADF2-AA876C3A868A">RenameItemEx</a>
 </td>
 <td align="left" width="63%">
-Renames an item in the cache. This method is identical to the <a href="https://msdn.microsoft.com/en-us/library/Bb530500(v=VS.85).aspx">IOfflineFilesCache::RenameItem</a> method, except that it will attempt to do the rename operation right away.
+Renames an item in the cache. This method is identical to the <a href="https://msdn.microsoft.com/883f29cb-d551-4358-8e74-f901956d8829">IOfflineFilesCache::RenameItem</a> method, except that it will attempt to do the rename operation right away.
 
 </td>
 </tr>
@@ -87,11 +87,11 @@ Renames an item in the cache. This method is identical to the <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530486(v=VS.85).aspx">IOfflineFilesCache</a>
+<a href="https://msdn.microsoft.com/7b1b5ef6-355a-4760-9d54-ec73cc66fb8a">IOfflineFilesCache</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Bb530659(v=VS.85).aspx">Offline Files API Interfaces</a>
+<a href="https://msdn.microsoft.com/9dea396f-ab71-4b2e-b5d3-776c16614f26">Offline Files API Interfaces</a>
  
 
  

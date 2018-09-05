@@ -7,7 +7,7 @@ old-location: directwrite\idwritetextanalysissource_getlocalename.htm
 old-project: DirectWrite
 ms.assetid: 88a2474b-c14d-41ce-9687-f498644c0315
 ms.author: windowssdkdev
-ms.date: 07/24/2018
+ms.date: 08/24/2018
 ms.keywords: GetLocaleName, GetLocaleName method [Direct Write], GetLocaleName method [Direct Write],IDWriteTextAnalysisSource interface, IDWriteTextAnalysisSource interface [Direct Write],GetLocaleName method, IDWriteTextAnalysisSource.GetLocaleName, IDWriteTextAnalysisSource::GetLocaleName, directwrite.idwritetextanalysissource_getlocalename, dwrite/IDWriteTextAnalysisSource::GetLocaleName
 ms.prod: windows
 ms.technology: windows-sdk

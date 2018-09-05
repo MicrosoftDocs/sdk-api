@@ -7,7 +7,7 @@ old-location: wibe\_wibe_imilbitmapeffectconnections_getinputconnector.htm
 old-project: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnections\getinputconnector.htm
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GetInputConnector, GetInputConnector method [WPF Bitmap Effects], GetInputConnector method [WPF Bitmap Effects],IMILBitmapEffectConnections interface, IMILBitmapEffectConnections interface [WPF Bitmap Effects],GetInputConnector method, IMILBitmapEffectConnections.GetInputConnector, IMILBitmapEffectConnections::GetInputConnector, _wibe_imilbitmapeffectconnections_getinputconnector, mileffects/IMILBitmapEffectConnections::GetInputConnector, wibe._wibe_imilbitmapeffectconnections_getinputconnector
 ms.prod: windows
 ms.technology: windows-sdk
@@ -69,7 +69,7 @@ A zero based index value indicating which input pin to use to retrieve the input
 
 ### -param ppConnector [out, retval]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms735274(v=VS.85).aspx">IMILBitmapEffectInputConnector</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/930ffa74-8a38-44c2-8b1c-74c0839d1a5d">IMILBitmapEffectInputConnector</a>**</b>
 
 When this method returns, contains the input connector for the given input pin.
 

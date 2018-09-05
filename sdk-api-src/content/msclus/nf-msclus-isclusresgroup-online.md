@@ -7,7 +7,7 @@ old-location: mscs\clusresgroup_online.htm
 old-project: mscs
 ms.assetid: f4861817-a2f6-4b1a-b50c-f3e9119234cd
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusResGroup class [Failover Cluster],Online method, ClusResGroup.Online, ISClusResGroup.Online, ISClusResGroup::Online, Online, Online method [Failover Cluster], Online method [Failover Cluster],ClusResGroup class, _wolf_clusresgroup.online, mscs.clusresgroup_online
 ms.prod: windows
 ms.technology: windows-sdk
@@ -58,7 +58,7 @@ req.product: GDI+ 1.1
     subsequent versions.]
 
 Brings a <a href="https://msdn.microsoft.com/1e0680ba-87d0-4bf0-808c-d80485e4daa3">group</a>
-<a href="https://msdn.microsoft.com/en-us/library/Aa371781(v=VS.85).aspx">online</a>.
+<a href="o_gly.htm">online</a>.
 
 
 ## -parameters

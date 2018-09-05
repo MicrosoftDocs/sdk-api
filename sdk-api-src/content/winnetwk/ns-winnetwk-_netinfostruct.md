@@ -4,10 +4,10 @@ title: "_NETINFOSTRUCT"
 author: windows-sdk-content
 description: Contains information describing the network provider returned by the WNetGetNetworkInformation function.
 old-location: wnet\netinfostruct_str.htm
-old-project: wnet
+old-project: WNet
 ms.assetid: 2f60209f-7777-4130-b212-245673dd0055
 ms.author: windowssdkdev
-ms.date: 08/17/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPNETINFOSTRUCT, ERROR_BUSY, ERROR_NO_NETWORK, LPNETINFOSTRUCT, LPNETINFOSTRUCT structure pointer [Windows Networking (WNet)], NETINFOSTRUCT, NETINFOSTRUCT structure [Windows Networking (WNet)], NETINFO_DISKRED, NETINFO_DLL16, NETINFO_PRINTERRED, NO_ERROR, _NETINFOSTRUCT, _win32_netinfostruct_str, winnetwk/LPNETINFOSTRUCT, winnetwk/NETINFOSTRUCT, wnet.netinfostruct_str"
 ms.prod: windows
 ms.technology: windows-sdk

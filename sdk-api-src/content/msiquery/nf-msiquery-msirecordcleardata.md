@@ -7,7 +7,7 @@ old-location: setup\msirecordcleardata.htm
 old-project: msi
 ms.assetid: 61fc362e-2b8e-4ce4-83e2-bade40fb96bc
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: MsiRecordClearData, MsiRecordClearData function, _msi_msirecordcleardata, msiquery/MsiRecordClearData, setup.msirecordcleardata
 ms.prod: windows
 ms.technology: windows-sdk
@@ -70,7 +70,7 @@ Handle to the record.
 
 
 
-This function returns UINT __stdcall.
+This function returns UINT.
 
 
 
@@ -80,7 +80,7 @@ This function returns UINT __stdcall.
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Record Processing Functions</a>
+<a href="database_functions.htm">Record Processing Functions</a>
  
 
  

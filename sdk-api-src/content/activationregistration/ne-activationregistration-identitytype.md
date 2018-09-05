@@ -7,8 +7,8 @@ old-location: winrt\identitytype.htm
 old-project: WinRT
 ms.assetid: 17EBFEE2-903A-4B64-A59F-D94E96E4457E
 ms.author: windowssdkdev
-ms.date: 08/06/2018
-ms.keywords: ActivateAsActivator, ActivateAsPackage, IdentityType, IdentityType enumeration [Windows Runtime], RunAs, activationregistration/ActivateAsActivator, activationregistration/ActivateAsPackage, activationregistration/IdentityType, activationregistration/RunAs, winrt.identitytype
+ms.date: 08/29/2018
+ms.keywords: IdentityType, IdentityType enumeration [Windows Runtime], IdentityType_ActivateAsActivatingUser, IdentityType_ActivateAsActivator, IdentityType_ActivateAsPackage, IdentityType_RunAs, IdentityType_SessionUser, IdentityType_SessionVirtual, activationregistration/IdentityType, activationregistration/IdentityType_ActivateAsActivatingUser, activationregistration/IdentityType_ActivateAsActivator, activationregistration/IdentityType_ActivateAsPackage, activationregistration/IdentityType_RunAs, activationregistration/IdentityType_SessionUser, activationregistration/IdentityType_SessionVirtual, winrt.identitytype
 ms.prod: windows
 ms.technology: windows-sdk
 ms.topic: enum
@@ -61,40 +61,37 @@ Represents the kind of activation for an out-of-process server.
 
 ### -field IdentityType_ActivateAsActivator
 
+Activate the out-of-process server as an activator.
+
 
 ### -field IdentityType_RunAs
+
+Activate the out-of-process server as an executable.
 
 
 ### -field IdentityType_ActivateAsPackage
 
+Activate the out-of-process server as a Windows Store app package.
+
 
 ### -field IdentityType_SessionVirtual
+
+Activate the out-of-process server as a virtual session.
 
 
 ### -field IdentityType_SessionUser
 
+Activate the out-of-process server as a user session.
+
 
 ### -field IdentityType_ActivateAsActivatingUser
+
+Activate the out-of-process server as an activating user.
 
 
 ### -field int
 
 
-
-
-#### - ActivateAsActivator
-
-Activate the out-of-process server as an activator.
-
-
-#### - ActivateAsPackage
-
-Activate the out-of-process server as a Windows Store app package.
-
-
-#### - RunAs
-
-Activate the out-of-process server as an executable.
 
 
 ## -see-also

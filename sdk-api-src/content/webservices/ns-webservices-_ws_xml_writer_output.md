@@ -7,7 +7,7 @@ old-location: wsw\ws_xml_writer_output.htm
 old-project: wsw
 ms.assetid: 367e6f98-9351-4a08-b8ce-036e7f2788e4
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_XML_WRITER_OUTPUT, WS_XML_WRITER_OUTPUT structure [Web Services for Windows], _WS_XML_WRITER_OUTPUT, webservices/WS_XML_WRITER_OUTPUT, wsw.ws_xml_writer_output
 ms.prod: windows
 ms.technology: windows-sdk

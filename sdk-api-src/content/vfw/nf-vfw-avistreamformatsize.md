@@ -84,15 +84,19 @@ Address to contain the buffer size.
 
 The <b>AVIStreamFormatSize</b> macro is defined as follows:
 
-
-```cpp
-
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>
 #define AVIStreamFormatSize(pavi, lPos, plSize) \ 
     AVIStreamReadFormat(pavi, lPos, NULL, plSize) 
-
-```
-
-
+</pre>
+</td>
+</tr>
+</table></span></div>
 
 
 

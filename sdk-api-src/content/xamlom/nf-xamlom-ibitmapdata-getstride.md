@@ -7,7 +7,7 @@ old-location: xaml_diagnostics\ibitmapdata_getstride.htm
 old-project: xaml_diagnostics
 ms.assetid: 8D4EAB0A-1976-4A40-932C-AAE67F524B94
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetStride, GetStride method, GetStride method,IBitmapData interface, IBitmapData interface,GetStride method, IBitmapData.GetStride, IBitmapData::GetStride, xaml_diagnostics.ibitmapdata_getstride, xamlom/IBitmapData::GetStride
 ms.prod: windows
 ms.technology: windows-sdk

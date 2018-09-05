@@ -7,7 +7,7 @@ old-location: winsync\idataretrievercallback.htm
 old-project: winsync
 ms.assetid: fc49614d-fdd7-433a-a942-f442edf1c69f
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: IDataRetrieverCallback, IDataRetrieverCallback interface [Windows Sync], IDataRetrieverCallback interface [Windows Sync],described, winsync.idataretrievercallback, winsync/IDataRetrieverCallback
 ms.prod: windows
 ms.technology: windows-sdk

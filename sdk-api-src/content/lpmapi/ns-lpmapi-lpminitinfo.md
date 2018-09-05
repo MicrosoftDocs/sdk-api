@@ -4,10 +4,10 @@ title: lpminitinfo
 author: windows-sdk-content
 description: The LPM_INIT_INFO structure contains local policy module initialization information.
 old-location: qos\lpm_init_info.htm
-old-project: qos
+old-project: QOS
 ms.assetid: 7eab2cf0-97e6-4298-99c3-09ce8c09fb87
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: LPM_INIT_INFO, LPM_INIT_INFO structure [QOS], lpmapi/LPM_INIT_INFO, lpminitinfo, qos.lpm_init_info
 ms.prod: windows
 ms.technology: windows-sdk

@@ -7,7 +7,7 @@ old-location: winsensors_com_ref\isensormanagerevents_onsensorenter.htm
 old-project: SensorsAPI
 ms.assetid: 1316e3b0-9677-4575-a3b8-53fa57295987
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ISensorManagerEvents interface,OnSensorEnter method, ISensorManagerEvents.OnSensorEnter, ISensorManagerEvents::OnSensorEnter, OnSensorEnter, OnSensorEnter method, OnSensorEnter method,ISensorManagerEvents interface, sensorsapi/ISensorManagerEvents::OnSensorEnter, winsensors_com_ref.isensormanagerevents_onsensorenter, winsensors_com_ref.isensormanagerevents_sensorenter
 ms.prod: windows
 ms.technology: windows-sdk

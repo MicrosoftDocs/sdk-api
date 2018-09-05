@@ -4,10 +4,10 @@ title: LsaAddAccountRights function
 author: windows-sdk-content
 description: Assigns one or more privileges to an account.
 old-location: security\lsaaddaccountrights.htm
-old-project: secmgmt
+old-project: SecMgmt
 ms.assetid: 66b78404-02c2-48e9-92c3-d27b68f77c23
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: LsaAddAccountRights, LsaAddAccountRights function [Security], _lsa_lsaaddaccountrights, ntsecapi/LsaAddAccountRights, security.lsaaddaccountrights
 ms.prod: windows
 ms.technology: windows-sdk
@@ -93,7 +93,7 @@ Specifies the number of elements in the <i>UserRights</i> array.
 If the function succeeds, the return value is STATUS_SUCCESS.
 
 If the function fails, the return value is an NTSTATUS code, which can be the following value or one of the 
-<a href="https://msdn.microsoft.com/en-us/library/ms721859(v=VS.85).aspx">LSA Policy Function Return Values</a>.
+<a href="management_return_values.htm">LSA Policy Function Return Values</a>.
 
 <table>
 <tr>

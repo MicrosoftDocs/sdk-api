@@ -7,7 +7,7 @@ old-location: wmi\swbemproperty_isarray.htm
 old-project: WmiSdk
 ms.assetid: 24018444-d21c-49d6-8394-57304b439050
 ms.author: windowssdkdev
-ms.date: 08/03/2018
+ms.date: 08/28/2018
 ms.keywords: ISWbemProperty interface [Windows Management Instrumentation],IsArray property, ISWbemProperty.get_IsArray, ISWbemProperty::get_IsArray, IsArray property [Windows Management Instrumentation], IsArray property [Windows Management Instrumentation],ISWbemProperty interface, IsArray property [Windows Management Instrumentation],SWbemProperty object, SWbemProperty object [Windows Management Instrumentation],IsArray property, SWbemProperty.IsArray, _hmm_swbemproperty.isarray, get_IsArray, wmi.swbemproperty_isarray
 ms.prod: windows
 ms.technology: windows-sdk

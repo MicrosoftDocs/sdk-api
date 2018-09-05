@@ -4,10 +4,10 @@ title: IEmailAction::get_Attachments
 author: windows-sdk-content
 description: Gets or sets the pointer to an array of attachments that is sent with the email message.
 old-location: taskschd\iemailaction_attachments.htm
-old-project: taskschd
+old-project: TaskSchd
 ms.assetid: 06a3cf8f-d7fd-4ed6-9fd6-ea45face034a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: Attachments property [Task Scheduler], Attachments property [Task Scheduler],IEmailAction interface, IEmailAction interface [Task Scheduler],Attachments property, IEmailAction.Attachments, IEmailAction.get_Attachments, IEmailAction::Attachments, IEmailAction::get_Attachments, IEmailAction::put_Attachments, get_Attachments, taskschd.iemailaction_attachments, taskschd/IEmailAction::Attachments, taskschd/IEmailAction::get_Attachments, taskschd/IEmailAction::put_Attachments
 ms.prod: windows
 ms.technology: windows-sdk
@@ -54,7 +54,7 @@ req.product: Windows XP with SP1 and later
 ## -description
 
 
-<p class="CCE_Message">[This interface is no longer supported. Please use IExecAction with the  powershell <a href="https://msdn.microsoft.com/library/Hh849925(v=WPS.620).aspx">Send-MailMessage</a> cmdlet as a workaround.]
+<p class="CCE_Message">[This interface is no longer supported. Please use IExecAction with the  powershell <a href="796227F5-C9FF-402D-8A04-CDE9E0C180EE">Send-MailMessage</a> cmdlet as a workaround.]
 
 Gets or sets the pointer to an array of attachments that is sent with the email message.
 

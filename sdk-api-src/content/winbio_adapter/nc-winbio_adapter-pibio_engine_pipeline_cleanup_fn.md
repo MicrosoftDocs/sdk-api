@@ -4,10 +4,10 @@ title: PIBIO_ENGINE_PIPELINE_CLEANUP_FN
 author: windows-sdk-content
 description: Gives the Engine Adapter the chance to perform any cleanup that requires help from the Storage Adapter.
 old-location: secbiomet\engineadapterpipelinecleanup.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: C77EBE33-E781-4FFA-BE3A-A08BD9C3D459
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: EngineAdapterPipelineCleanup, EngineAdapterPipelineCleanup callback function [Windows Biometric Framework API], PIBIO_ENGINE_PIPELINE_CLEANUP_FN, PIBIO_ENGINE_PIPELINE_CLEANUP_FN callback, secbiomet.engineadapterpipelinecleanup, winbio_adapter/EngineAdapterPipelineCleanup
 ms.prod: windows
 ms.technology: windows-sdk

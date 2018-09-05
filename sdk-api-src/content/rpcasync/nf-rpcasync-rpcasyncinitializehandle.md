@@ -4,10 +4,10 @@ title: RpcAsyncInitializeHandle function
 author: windows-sdk-content
 description: The client calls the RpcAsyncInitializeHandle function to initialize the RPC_ASYNC_STATE structure to be used to make an asynchronous call.
 old-location: rpc\rpcasyncinitializehandle.htm
-old-project: rpc
+old-project: Rpc
 ms.assetid: 97121e6c-af5c-4da8-ad28-24b961c105d2
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: RpcAsyncInitializeHandle, RpcAsyncInitializeHandle function [RPC], _rpc_rpcasyncinitializehandle, rpc.rpcasyncinitializehandle, rpcasync/RpcAsyncInitializeHandle
 ms.prod: windows
 ms.technology: windows-sdk

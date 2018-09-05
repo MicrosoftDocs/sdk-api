@@ -7,7 +7,7 @@ old-location: base\initializecontext.htm
 old-project: debug
 ms.assetid: 909BF5F7-0622-4B22-A2EC-27722389700A
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: InitializeContext, InitializeContext function, base.initializecontext, winbase/InitializeContext
 ms.prod: windows
 ms.technology: windows-sdk

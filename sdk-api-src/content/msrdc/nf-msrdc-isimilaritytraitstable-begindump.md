@@ -7,7 +7,7 @@ old-location: rdc\isimilaritytraitstable_begindump.htm
 old-project: Rdc
 ms.assetid: 93298019-334b-4685-b95e-a1081c2bd9dc
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: BeginDump, BeginDump method [Remote Differential Compression], BeginDump method [Remote Differential Compression],ISimilarityTraitsTable interface, ISimilarityTraitsTable interface [Remote Differential Compression],BeginDump method, ISimilarityTraitsTable.BeginDump, ISimilarityTraitsTable::BeginDump, fs.isimilaritytraitstable_begindump, msrdc/ISimilarityTraitsTable::BeginDump, rdc.isimilaritytraitstable_begindump
 ms.prod: windows
 ms.technology: windows-sdk

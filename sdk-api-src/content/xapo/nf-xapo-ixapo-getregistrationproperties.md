@@ -7,7 +7,7 @@ old-location: xaudio2\ixapo_interface_getregistrationproperties.htm
 old-project: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapo.IXAPO.GetRegistrationProperties(XAPO_REGISTRATION_PROPERTIES)
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetRegistrationProperties, GetRegistrationProperties method [XAudio2 Audio Mixing APIs], GetRegistrationProperties method [XAudio2 Audio Mixing APIs],IXAPO interface, IXAPO interface [XAudio2 Audio Mixing APIs],GetRegistrationProperties method, IXAPO.GetRegistrationProperties, IXAPO::GetRegistrationProperties, xapo/IXAPO::GetRegistrationProperties, xaudio2.ixapo_interface_getregistrationproperties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,7 +62,7 @@ Returns the registration properties of an XAPO.
 
 ### -param ppRegistrationProperties
 
-Receives a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Ee419210(v=VS.85).aspx">XAPO_REGISTRATION_PROPERTIES</a> structure containing the registration properties the XAPO was created with; use <a href="https://msdn.microsoft.com/en-us/library/Ee419206(v=VS.85).aspx">XAPOFree</a> to free the structure. 
+Receives a pointer to a <a href="https://msdn.microsoft.com/2824919b-a4ec-4fee-93d2-6157340f2d43">XAPO_REGISTRATION_PROPERTIES</a> structure containing the registration properties the XAPO was created with; use <a href="https://msdn.microsoft.com/7E24273A-483B-42E5-8428-A9ED7DD04561">XAPOFree</a> to free the structure. 
 
 
 ## -returns
@@ -89,7 +89,7 @@ Windows 10 (XAudio2.9); Windows 8, Windows Phone 8 (XAudio 2.8); DirectX SDK
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Ee415893(v=VS.85).aspx">IXAPO</a>
+<a href="https://msdn.microsoft.com/21DA61D2-8EDE-496B-8513-D67121697FBA">IXAPO</a>
  
 
  

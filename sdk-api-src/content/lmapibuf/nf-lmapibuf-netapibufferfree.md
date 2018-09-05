@@ -7,7 +7,7 @@ old-location: netmgmt\netapibufferfree.htm
 old-project: netmgmt
 ms.assetid: 0e99483c-8cd7-402a-8bf6-1e0118764dd3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: NetApiBufferFree, NetApiBufferFree function [Network Management], _win32_netapibufferfree, lmapibuf/NetApiBufferFree, netmgmt.netapibufferfree
 ms.prod: windows
 ms.technology: windows-sdk

@@ -4,10 +4,10 @@ title: WdsCliGetImageLanguages function
 author: windows-sdk-content
 description: Returns an array of languages supported by the current image.
 old-location: wds\wdscligetimagelanguages.htm
-old-project: wds
+old-project: Wds
 ms.assetid: 2f027cf9-fad6-4ae6-98ac-83b9041c095e
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WdsCliGetImageLanguages, WdsCliGetImageLanguages function [Windows Deployment Services], wds.wdscligetimagelanguages, wdsclientapi/WdsCliGetImageLanguages
 ms.prod: windows
 ms.technology: windows-sdk

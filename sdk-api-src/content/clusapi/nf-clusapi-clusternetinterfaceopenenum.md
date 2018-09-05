@@ -7,7 +7,7 @@ old-location: mscs\clusternetinterfaceopenenum.htm
 old-project: mscs
 ms.assetid: fd300162-2472-4bd2-91d6-357397c4134c
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ClusterNetInterfaceOpenEnum, ClusterNetInterfaceOpenEnum function [Failover Cluster], clusapi/ClusterNetInterfaceOpenEnum, mscs.clusternetinterfaceopenenum
 ms.prod: windows
 ms.technology: windows-sdk
@@ -52,7 +52,7 @@ req.irql:
 
 
 Opens an 
-    enumerator for iterating through the installed <a href="https://msdn.microsoft.com/en-us/library/Aa371519(v=VS.85).aspx">network interfaces</a>.
+    enumerator for iterating through the installed <a href="https://msdn.microsoft.com/cc0cbbc3-e342-483e-9c94-4ee43f4d588d">network interfaces</a>.
 
 
 ## -parameters

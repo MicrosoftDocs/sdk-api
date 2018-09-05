@@ -7,7 +7,7 @@ old-location: com\iolecontrol_onambientpropertychange.htm
 old-project: com
 ms.assetid: 9ca43723-a14e-4f03-8eec-e10ab34ecb4d
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IOleControl interface [COM],OnAmbientPropertyChange method, IOleControl.OnAmbientPropertyChange, IOleControl::OnAmbientPropertyChange, OnAmbientPropertyChange, OnAmbientPropertyChange method [COM], OnAmbientPropertyChange method [COM],IOleControl interface, _ctrl_iolecontrol_onambientpropertychange, com.iolecontrol_onambientpropertychange, ocidl/IOleControl::OnAmbientPropertyChange
 ms.prod: windows
 ms.technology: windows-sdk

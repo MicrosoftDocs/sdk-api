@@ -7,7 +7,7 @@ old-location: direct3ddxgi\dxgi_outdupl_move_rect.htm
 old-project: direct3ddxgi
 ms.assetid: B19DB70A-83B4-4683-9E9B-3DA5D33AB564
 ms.author: windowssdkdev
-ms.date: 08/20/2018
+ms.date: 08/24/2018
 ms.keywords: DXGI_OUTDUPL_MOVE_RECT, DXGI_OUTDUPL_MOVE_RECT structure [DXGI], direct3ddxgi.dxgi_outdupl_move_rect, dxgi1_2/DXGI_OUTDUPL_MOVE_RECT
 ms.prod: windows
 ms.technology: windows-sdk

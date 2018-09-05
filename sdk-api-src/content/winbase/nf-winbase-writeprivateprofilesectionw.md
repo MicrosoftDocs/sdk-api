@@ -4,10 +4,10 @@ title: WritePrivateProfileSectionW function
 author: windows-sdk-content
 description: Replaces the keys and values for the specified section in an initialization file.
 old-location: base\writeprivateprofilesection.htm
-old-project: sysinfo
+old-project: SysInfo
 ms.assetid: 23f9e012-4196-437a-9e22-0524b37505b4
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: WritePrivateProfileSection, WritePrivateProfileSection function, WritePrivateProfileSectionA, WritePrivateProfileSectionW, _win32_writeprivateprofilesection, base.writeprivateprofilesection, winbase/WritePrivateProfileSection, winbase/WritePrivateProfileSectionA, winbase/WritePrivateProfileSectionW
 ms.prod: windows
 ms.technology: windows-sdk

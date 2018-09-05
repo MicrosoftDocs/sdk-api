@@ -4,10 +4,10 @@ title: IVdsVolumeMF::GetFileSystemProperties
 author: windows-sdk-content
 description: Returns property details about the file system on the current volume.
 old-location: base\ivdsvolumemf_getfilesystemproperties.htm
-old-project: vds
+old-project: VDS
 ms.assetid: 43f5495c-5a60-44fd-b217-16464c4693a4
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: GetFileSystemProperties, GetFileSystemProperties method [VDS], GetFileSystemProperties method [VDS],IVdsVolumeMF interface, IVdsVolumeMF interface [VDS],GetFileSystemProperties method, IVdsVolumeMF.GetFileSystemProperties, IVdsVolumeMF::GetFileSystemProperties, base.ivdsvolumemf_getfilesystemproperties, vds/IVdsVolumeMF::GetFileSystemProperties
 ms.prod: windows
 ms.technology: windows-sdk
@@ -75,7 +75,7 @@ The address of the <a href="https://msdn.microsoft.com/1068eb6d-0f7f-4d04-b7ec-f
 
 
 
-This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://msdn.microsoft.com/c9ddd3b7-f017-4880-976a-c879a40dc17b">VDS-specific return values</a>. It can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>  using the <a href="https://msdn.microsoft.com/en-us/library/ms680746(v=VS.85).aspx">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://msdn.microsoft.com/b2f7628c-b567-40a9-9ad7-6c47077af5fb">VDS provider</a> that is being used. Possible return values include the following.
+This method can return standard HRESULT values, such as E_INVALIDARG or E_OUTOFMEMORY, and <a href="https://msdn.microsoft.com/c9ddd3b7-f017-4880-976a-c879a40dc17b">VDS-specific return values</a>. It can also return converted <a href="https://msdn.microsoft.com/4a3a8feb-a05f-4614-8f04-1f507da7e5b7">system error codes</a>  using the <a href="_com_hresult_from_win32">HRESULT_FROM_WIN32</a> macro. Errors can originate from VDS itself or from the underlying <a href="https://msdn.microsoft.com/b2f7628c-b567-40a9-9ad7-6c47077af5fb">VDS provider</a> that is being used. Possible return values include the following.
 
 <table>
 <tr>

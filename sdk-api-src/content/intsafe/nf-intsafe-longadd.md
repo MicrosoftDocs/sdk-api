@@ -7,7 +7,7 @@ old-location: shell\LongAdd.htm
 old-project: shell
 ms.assetid: 3cc13a46-3168-44fd-b759-06250eb1117f
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: LongAdd, LongAdd function [Windows Shell], intsafe/LongAdd, shell.LongAdd
 ms.prod: windows
 ms.technology: windows-sdk

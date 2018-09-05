@@ -4,10 +4,10 @@ title: ITaskFolder::GetTasks
 author: windows-sdk-content
 description: Gets all the tasks in the folder.
 old-location: taskschd\itaskfolder_gettasks.htm
-old-project: taskschd
+old-project: TaskSchd
 ms.assetid: 2dcef962-d4b0-4fc9-845a-e33f020dba41
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: GetTasks, GetTasks method [Task Scheduler], GetTasks method [Task Scheduler],ITaskFolder interface, ITaskFolder interface [Task Scheduler],GetTasks method, ITaskFolder.GetTasks, ITaskFolder::GetTasks, taskschd.itaskfolder_gettasks, taskschd/ITaskFolder::GetTasks
 ms.prod: windows
 ms.technology: windows-sdk

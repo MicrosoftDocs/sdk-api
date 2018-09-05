@@ -7,7 +7,7 @@ old-location: wmdm\iscpsecurequery2_makedecision2.htm
 old-project: WMDM
 ms.assetid: a3031585-7a56-49d9-ad4b-d2f9e687dd6b
 ms.author: windowssdkdev
-ms.date: 07/30/2018
+ms.date: 08/29/2018
 ms.keywords: ISCPSecureQuery2 interface [windows Media Device Manager],MakeDecision2 method, ISCPSecureQuery2.MakeDecision2, ISCPSecureQuery2::MakeDecision2, ISCPSecureQuery2MakeDecision2, MakeDecision2, MakeDecision2 method [windows Media Device Manager], MakeDecision2 method [windows Media Device Manager],ISCPSecureQuery2 interface, mswmdm/ISCPSecureQuery2::MakeDecision2, wmdm.iscpsecurequery2_makedecision2
 ms.prod: windows
 ms.technology: windows-sdk

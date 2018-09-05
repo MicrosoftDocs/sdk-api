@@ -7,7 +7,7 @@ old-location: rdc\isimilarityreportprogress.htm
 old-project: Rdc
 ms.assetid: 813bda93-08d5-456c-9bde-ce6dd53fb8bf
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: ISimilarityReportProgress, ISimilarityReportProgress interface [Remote Differential Compression], ISimilarityReportProgress interface [Remote Differential Compression],described, fs.isimilarityreportprogress, msrdc/ISimilarityReportProgress, rdc.isimilarityreportprogress
 ms.prod: windows
 ms.technology: windows-sdk

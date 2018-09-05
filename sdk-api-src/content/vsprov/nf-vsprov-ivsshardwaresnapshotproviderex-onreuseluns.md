@@ -4,10 +4,10 @@ title: IVssHardwareSnapshotProviderEx::OnReuseLuns
 author: windows-sdk-content
 description: This method is reserved for future use.
 old-location: base\ivsshardwaresnapshotproviderex_onreuseluns.htm
-old-project: vss
+old-project: VSS
 ms.assetid: 0a92c992-a351-4d39-a370-f720e50dfbf3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: IVssHardwareSnapshotProviderEx interface,OnReuseLuns method, IVssHardwareSnapshotProviderEx.OnReuseLuns, IVssHardwareSnapshotProviderEx::OnReuseLuns, OnReuseLuns, OnReuseLuns method, OnReuseLuns method,IVssHardwareSnapshotProviderEx interface, base.ivsshardwaresnapshotproviderex_onreuseluns, vsprov/IVssHardwareSnapshotProviderEx::OnReuseLuns
 ms.prod: windows
 ms.technology: windows-sdk

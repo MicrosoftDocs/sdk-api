@@ -4,10 +4,10 @@ title: ITrigger::put_EndBoundary
 author: windows-sdk-content
 description: Gets or sets the date and time when the trigger is deactivated.
 old-location: taskschd\itrigger_endboundary.htm
-old-project: taskschd
+old-project: TaskSchd
 ms.assetid: 985316de-eaba-478f-a53f-1bea2a0cc9c6
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: EndBoundary property [Task Scheduler], EndBoundary property [Task Scheduler],ITrigger interface, ITrigger interface [Task Scheduler],EndBoundary property, ITrigger.EndBoundary, ITrigger.put_EndBoundary, ITrigger::EndBoundary, ITrigger::get_EndBoundary, ITrigger::put_EndBoundary, put_EndBoundary, taskschd.itrigger_endboundary, taskschd/ITrigger::EndBoundary, taskschd/ITrigger::get_EndBoundary, taskschd/ITrigger::put_EndBoundary
 ms.prod: windows
 ms.technology: windows-sdk

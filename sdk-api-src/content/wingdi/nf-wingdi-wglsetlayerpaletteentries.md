@@ -60,11 +60,31 @@ Sets the palette entries in a given color-index layer plane for a specified devi
 
 
 
-### -param
+### -param arg1
 
-Type: <b>HDC</b>
+TBD
 
-The device context of a window whose layer palette is to be set.
+
+### -param arg2
+
+TBD
+
+
+### -param arg3
+
+TBD
+
+
+### -param arg4
+
+TBD
+
+
+### -param arg5
+
+TBD
+
+
 
 
 #### - COLORREF
@@ -86,6 +106,13 @@ The number of palette entries to be set.
 Type: <b>int</b>
 
 The first palette entry to be set.
+
+
+#### - param
+
+Type: <b>HDC</b>
+
+The device context of a window whose layer palette is to be set.
 
 
 #### - pcr

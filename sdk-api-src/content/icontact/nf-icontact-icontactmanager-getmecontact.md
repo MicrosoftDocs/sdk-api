@@ -7,7 +7,7 @@ old-location: wincontacts\_wincontacts_IContactManager_GetMeContact.htm
 old-project: wincontacts
 ms.assetid: 0fcf5700-399f-4388-9741-6be3b7aef6a9
 ms.author: windowssdkdev
-ms.date: 07/29/2018
+ms.date: 08/29/2018
 ms.keywords: GetMeContact, GetMeContact method [Windows Contacts], GetMeContact method [Windows Contacts],IContactManager interface, IContactManager interface [Windows Contacts],GetMeContact method, IContactManager.GetMeContact, IContactManager::GetMeContact, _wincontacts_IContactManager_GetMeContact, icontact/IContactManager::GetMeContact, wincontacts._wincontacts_IContactManager_GetMeContact
 ms.prod: windows
 ms.technology: windows-sdk

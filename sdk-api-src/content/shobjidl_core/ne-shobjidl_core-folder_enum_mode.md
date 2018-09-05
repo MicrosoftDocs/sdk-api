@@ -7,7 +7,7 @@ old-location: shell\FOLDER_ENUM_MODE.htm
 old-project: shell
 ms.assetid: ef360e40-63c9-49a0-bcfa-1f2e2ff11a3a
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: FEM_NAVIGATION, FEM_VIEWRESULT, FOLDER_ENUM_MODE, FOLDER_ENUM_MODE enumeration [Windows Shell], _shell_FOLDER_ENUM_MODE, shell.FOLDER_ENUM_MODE, shobjidl_core/FEM_NAVIGATION, shobjidl_core/FEM_VIEWRESULT, shobjidl_core/FOLDER_ENUM_MODE
 ms.prod: windows
 ms.technology: windows-sdk

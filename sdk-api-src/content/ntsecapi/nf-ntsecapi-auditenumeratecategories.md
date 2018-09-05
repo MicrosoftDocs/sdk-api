@@ -4,10 +4,10 @@ title: AuditEnumerateCategories function
 author: windows-sdk-content
 description: Enumerates the available audit-policy categories.
 old-location: security\auditenumeratecategories_func.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: bcfdb24b-182e-4845-95c0-a210915435ae
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: AuditEnumerateCategories, AuditEnumerateCategories function [Security], ntsecapi/AuditEnumerateCategories, security.auditenumeratecategories_func
 ms.prod: windows
 ms.technology: windows-sdk

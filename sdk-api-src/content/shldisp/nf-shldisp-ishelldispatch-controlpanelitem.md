@@ -7,7 +7,7 @@ old-location: shell\IShellDispatch_ControlPanelItem.htm
 old-project: shell
 ms.assetid: 9A9B6B3F-FBBC-4e76-8018-8858B6392276
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: ControlPanelItem, ControlPanelItem method [Windows Shell], ControlPanelItem method [Windows Shell],IShellDispatch object, IShellDispatch object [Windows Shell],ControlPanelItem method, IShellDispatch.ControlPanelItem, IShellDispatch::ControlPanelItem, shell.IShellDispatch_ControlPanelItem
 ms.prod: windows
 ms.technology: windows-sdk
@@ -67,7 +67,7 @@ Runs the specified Control Panel application. If the application is already open
 
 ### -param bstrDir [in]
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms221069(v=VS.85).aspx">BSTR</a></b>
+Type: <b><a href="1b2d7d2c-47af-4389-a6b6-b01b7e915228">BSTR</a></b>
 
 The Control Panel application's file name.
 
@@ -99,26 +99,34 @@ The following examples use <a href="https://msdn.microsoft.com/54979bbd-b36b-4b5
 JScript:
                 
 
-
-```javascript
-
-<script language="JScript">
+<div class="code"><span codelanguage="JScript"><table>
+<tr>
+<th>JScript</th>
+</tr>
+<tr>
+<td>
+<pre>
+&lt;script language="JScript"&gt;
     function fnShellControlPanelItemJ()
     {
         var objShell = new ActiveXObject("shell.application");
         
         objshell.Shell_ControlPanelItem("desk.cpl");
     }
-</script>
-```
-
-
+&lt;/script&gt;</pre>
+</td>
+</tr>
+</table></span></div>
 VBScript:
 
-
-```vb
-
-<script language="VBScript">
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>
+&lt;script language="VBScript"&gt;
     function fnShellControlPanelItemVB()
         dim objShell
         
@@ -127,15 +135,19 @@ VBScript:
        
         set objShell = nothing
     end function
- </script>
-```
-
-
+ &lt;/script&gt;</pre>
+</td>
+</tr>
+</table></span></div>
 Visual Basic:
 
-
-```vb
-
+<div class="code"><span codelanguage="VisualBasic"><table>
+<tr>
+<th>VB</th>
+</tr>
+<tr>
+<td>
+<pre>
 Private Sub fnShellControlPanelItemVB()
     Dim objShell As Shell
     
@@ -143,9 +155,9 @@ Private Sub fnShellControlPanelItemVB()
     objshell.Shell_ControlPanelItem ("desk.cpl")
     
     Set objShell = Nothing
-End Sub
-```
-
-
+End Sub</pre>
+</td>
+</tr>
+</table></span></div>
 
 

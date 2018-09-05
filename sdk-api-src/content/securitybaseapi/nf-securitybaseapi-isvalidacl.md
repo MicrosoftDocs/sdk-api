@@ -4,10 +4,10 @@ title: IsValidAcl function
 author: windows-sdk-content
 description: Validates an access control list (ACL).
 old-location: security\isvalidacl.htm
-old-project: secauthz
+old-project: SecAuthZ
 ms.assetid: 3ae9f147-4e90-44df-a1af-cf6ebad92aea
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: IsValidAcl, IsValidAcl function [Security], _win32_isvalidacl, security.isvalidacl, securitybaseapi/IsValidAcl
 ms.prod: windows
 ms.technology: windows-sdk
@@ -117,7 +117,7 @@ If <i>pAcl</i> is <b>NULL</b>, the application will fail with an access violatio
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa375742(v=VS.85).aspx">Low-level Access Control Functions</a>
+<a href="authorization_functions.htm">Low-level Access Control Functions</a>
  
 
  

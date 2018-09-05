@@ -7,7 +7,7 @@ old-location: setup\msigetfeaturecost.htm
 old-project: msi
 ms.assetid: 492968a5-d781-45de-a4b2-eb1be3f3f148
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: INSTALLSTATE_ABSENT, INSTALLSTATE_DEFAULT, INSTALLSTATE_LOCAL, INSTALLSTATE_SOURCE, INSTALLSTATE_UNKNOWN, MSICOSTTREE_CHILDREN, MSICOSTTREE_PARENTS, MSICOSTTREE_SELFONLY, MsiGetFeatureCost, MsiGetFeatureCost function, MsiGetFeatureCostA, MsiGetFeatureCostW, _msi_msigetfeaturecost, msiquery/MsiGetFeatureCost, msiquery/MsiGetFeatureCostA, msiquery/MsiGetFeatureCostW, setup.msigetfeaturecost
 ms.prod: windows
 ms.technology: windows-sdk
@@ -249,7 +249,7 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/Aa368250(v=VS.85).aspx">Installer Selection Functions</a>
+<a href="database_functions.htm">Installer Selection Functions</a>
 
 
 

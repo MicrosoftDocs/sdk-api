@@ -7,7 +7,7 @@ old-location: wcs\getlogcolorspace.htm
 old-project: WCS
 ms.assetid: 01862a48-8c2f-4b29-b928-2800c02218a2
 ms.author: windowssdkdev
-ms.date: 08/15/2018
+ms.date: 08/29/2018
 ms.keywords: GetLogColorSpace, GetLogColorSpace function [Windows Color System], GetLogColorSpaceA, GetLogColorSpaceW, _color_GetLogColorSpace, wcs.getlogcolorspace, wingdi/GetLogColorSpace, wingdi/GetLogColorSpaceA, wingdi/GetLogColorSpaceW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -56,7 +56,7 @@ req.product: Windows Address Book 5.0
 ## -description
 
 
-The <b>GetLogColorSpace</b> function retrieves the <a href="https://msdn.microsoft.com/en-us/library/Dd371818(v=VS.85).aspx">color space</a> definition identified by a specified handle.
+The <b>GetLogColorSpace</b> function retrieves the <a href="c.htm">color space</a> definition identified by a specified handle.
 
 
 ## -parameters

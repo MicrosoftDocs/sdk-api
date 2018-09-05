@@ -7,7 +7,7 @@ old-location: base\rtlunwind.htm
 old-project: debug
 ms.assetid: 254b2547-9d3d-468f-a360-20a12e9dd82e
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/28/2018
 ms.keywords: RtlUnwind, RtlUnwind function, base.rtlunwind, winnt/RtlUnwind
 ms.prod: windows
 ms.technology: windows-sdk

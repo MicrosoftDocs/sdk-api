@@ -7,7 +7,7 @@ old-location: wsw\ws_proxy_message_callback.htm
 old-project: wsw
 ms.assetid: 5590ef4f-38a5-4aeb-9e77-803abb7ef6a7
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: WS_PROXY_MESSAGE_CALLBACK, WS_PROXY_MESSAGE_CALLBACK callback, WS_PROXY_MESSAGE_CALLBACK callback function [Web Services for Windows], webservices/WS_PROXY_MESSAGE_CALLBACK, wsw.ws_proxy_message_callback
 ms.prod: windows
 ms.technology: windows-sdk

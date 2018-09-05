@@ -7,7 +7,7 @@ old-location: wnv\wnvopen.htm
 old-project: wnv
 ms.assetid: C20BA303-7ECD-4CF3-BB5E-D4509162CD85
 ms.author: windowssdkdev
-ms.date: 02/15/2018
+ms.date: 08/29/2018
 ms.keywords: WnvOpen, WnvOpen function [Windows Network Virtualization], wnv.wnvopen, wnvapi/WnvOpen
 ms.prod: windows
 ms.technology: windows-sdk

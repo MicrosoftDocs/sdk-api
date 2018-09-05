@@ -4,10 +4,10 @@ title: PIBIO_ENGINE_DEACTIVATE_FN
 author: windows-sdk-content
 description: Gives the Engine Adapter the chance to perform any work needed to put the sensor component into an idle state.
 old-location: secbiomet\engineadapterdeactivate.htm
-old-project: secbiomet
+old-project: SecBioMet
 ms.assetid: A7FDB75C-146C-47E9-AB3B-8457EA3304BF
 ms.author: windowssdkdev
-ms.date: 04/25/2018
+ms.date: 08/29/2018
 ms.keywords: EngineAdapterDeactivate, EngineAdapterDeactivate callback function [Windows Biometric Framework API], PIBIO_ENGINE_DEACTIVATE_FN, PIBIO_ENGINE_DEACTIVATE_FN callback, secbiomet.engineadapterdeactivate, winbio_adapter/EngineAdapterDeactivate
 ms.prod: windows
 ms.technology: windows-sdk

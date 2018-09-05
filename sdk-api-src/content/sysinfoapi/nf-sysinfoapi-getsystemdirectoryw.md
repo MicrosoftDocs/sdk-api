@@ -4,10 +4,10 @@ title: GetSystemDirectoryW function
 author: windows-sdk-content
 description: Retrieves the path of the system directory.
 old-location: base\getsystemdirectory.htm
-old-project: sysinfo
+old-project: SysInfo
 ms.assetid: 79f045b2-40d9-498a-b720-e729c92bf50b
 ms.author: windowssdkdev
-ms.date: 08/10/2018
+ms.date: 08/29/2018
 ms.keywords: GetSystemDirectory, GetSystemDirectory function, GetSystemDirectoryA, GetSystemDirectoryW, _win32_getsystemdirectory, base.getsystemdirectory, sysinfoapi/GetSystemDirectory, sysinfoapi/GetSystemDirectoryA, sysinfoapi/GetSystemDirectoryW
 ms.prod: windows
 ms.technology: windows-sdk

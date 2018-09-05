@@ -7,7 +7,7 @@ old-location: shell\IShellImageData_GetPixelFormat.htm
 old-project: shell
 ms.assetid: 43520cdd-66f1-4c75-bcec-7631de4f96c3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: GetPixelFormat, GetPixelFormat method [Windows Shell], GetPixelFormat method [Windows Shell],IShellImageData interface, IShellImageData interface [Windows Shell],GetPixelFormat method, IShellImageData.GetPixelFormat, IShellImageData::GetPixelFormat, _shell_IShellImageData_GetPixelFormat, shell.IShellImageData_GetPixelFormat, shimgdata/IShellImageData::GetPixelFormat
 ms.prod: windows
 ms.technology: windows-sdk
@@ -64,7 +64,7 @@ Gets the pixel format of the image.
 
 Type: <b>PixelFormat*</b>
 
-A pointer to a value of type <a href="https://msdn.microsoft.com/en-us/library/ms534412(v=VS.85).aspx">PixelFormat</a> indicating the pixel format.  This value is valid only when the method returns <b>S_OK</b>.
+A pointer to a value of type <a href="_gdiplus_CONSTANT_Image_Pixel_Format_Constants">PixelFormat</a> indicating the pixel format.  This value is valid only when the method returns <b>S_OK</b>.
 
 
 ## -returns

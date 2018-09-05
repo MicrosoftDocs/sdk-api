@@ -7,7 +7,7 @@ old-location: shell\UrlCreateFromPath.htm
 old-project: shell
 ms.assetid: b69ab203-daab-4951-b3b9-c5ca37c532b3
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/24/2018
 ms.keywords: UrlCreateFromPath, UrlCreateFromPath function [Windows Shell], UrlCreateFromPathA, UrlCreateFromPathW, _win32_UrlCreateFromPath, shell.UrlCreateFromPath, shlwapi/UrlCreateFromPath, shlwapi/UrlCreateFromPathA, shlwapi/UrlCreateFromPathW
 ms.prod: windows
 ms.technology: windows-sdk
@@ -28,7 +28,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 tech.root: 
-req.typenames: URL_SCHEME
+req.typenames: 
 topic_type:
  - APIRef
  - kbSyntax

@@ -7,7 +7,7 @@ old-location: tcui\showtitleachievementsui.htm
 old-project: tcui
 ms.assetid: 9A637543-1EDF-4065-844B-05E9E2C6300D
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: ShowTitleAchievementsUI, ShowTitleAchievementsUI function, gamingtcui/ShowTitleAchievementsUI, tcui.showtitleachievementsui
 ms.prod: windows
 ms.technology: windows-sdk
@@ -92,7 +92,7 @@ Do not use. This API is only supported for Xbox developers.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
+Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
 
 Do not use. This API is only supported for Xbox developers.
 

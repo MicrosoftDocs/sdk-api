@@ -7,7 +7,7 @@ old-location: com\bind_opts2.htm
 old-project: com
 ms.assetid: fb2aa8c1-dddc-480e-b544-61a1074125ef
 ms.author: windowssdkdev
-ms.date: 08/06/2018
+ms.date: 08/29/2018
 ms.keywords: "*LPBIND_OPTS2, BIND_OPTS2, BIND_OPTS2 structure [COM], LPBIND_OPTS2, LPBIND_OPTS2 structure pointer [COM], _com_BIND_OPTS2, com.bind_opts2, objidl/BIND_OPTS2, objidl/LPBIND_OPTS2, tagBIND_OPTS2"
 ms.prod: windows
 ms.technology: windows-sdk
@@ -62,9 +62,9 @@ Contains parameters used during a moniker-binding operation.
 
 ### -field dwTrackFlags
 
-A moniker can use this value during link tracking. If the original persisted data that the moniker is referencing has been moved, the moniker can attempt to reestablish the link by searching for the original data though some adequate mechanism. This member provides additional information on how the link should be resolved. See the documentation of the <i>fFlags</i> parameter in <a href="https://msdn.microsoft.com/library/Bb774952(v=VS.85).aspx">IShellLink::Resolve</a>.
+A moniker can use this value during link tracking. If the original persisted data that the moniker is referencing has been moved, the moniker can attempt to reestablish the link by searching for the original data though some adequate mechanism. This member provides additional information on how the link should be resolved. See the documentation of the <i>fFlags</i> parameter in <a href="_win32_IShellLink_Resolve">IShellLink::Resolve</a>.
 
-COM's file moniker implementation uses the shell link mechanism to reestablish links and passes these flags to <a href="https://msdn.microsoft.com/library/Bb774952(v=VS.85).aspx">IShellLink::Resolve</a>. 
+COM's file moniker implementation uses the shell link mechanism to reestablish links and passes these flags to <a href="_win32_IShellLink_Resolve">IShellLink::Resolve</a>. 
 
 
 ### -field dwClassContext
