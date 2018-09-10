@@ -86,7 +86,7 @@ Retrieves the property sheet pages associated with a task.
 
 
 
-This is the primary interface of the <a href="t.htm">task object</a>. To create a task object, call 
+This is the primary interface of the <a href="https://msdn.microsoft.com/en-us/library/Aa382533(v=VS.85).aspx">task object</a>. To create a task object, call 
 <a href="https://msdn.microsoft.com/27391e34-8632-4ab5-9d6e-d2fde7942f80">ITaskScheduler::Activate</a> for existing tasks or 
 <a href="https://msdn.microsoft.com/1fbd65ae-0b54-4175-bf26-4226b1aabdc1">ITaskScheduler::NewWorkItem</a> for new tasks.
 

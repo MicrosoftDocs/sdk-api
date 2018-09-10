@@ -52,8 +52,8 @@ req.product: GDI+ 1.0
 
 
 The <b>StringFormat::GetTrimming</b> method gets an element of the 
-			<a href="https://msdn.microsoft.com/8ecaabac-dfc6-47ca-91e3-9f577be77b5f">StringTrimming</a> enumeration that indicates the trimming style of this 
-			<a href="https://msdn.microsoft.com/2d7af5fe-f3e9-4db3-90a5-4e623d9ce773">StringFormat</a> object. The trimming style determines how to trim characters from a string that is too large to fit in the layout rectangle. 
+			<a href="https://msdn.microsoft.com/en-us/library/ms534403(v=VS.85).aspx">StringTrimming</a> enumeration that indicates the trimming style of this 
+			<a href="https://msdn.microsoft.com/en-us/library/ms534510(v=VS.85).aspx">StringFormat</a> object. The trimming style determines how to trim characters from a string that is too large to fit in the layout rectangle. 
 
 
 ## -parameters
@@ -67,11 +67,11 @@ The <b>StringFormat::GetTrimming</b> method gets an element of the
 
 
 
-Type: <strong>Type: <b><a href="https://msdn.microsoft.com/8ecaabac-dfc6-47ca-91e3-9f577be77b5f">StringTrimming</a></b>
+Type: <strong>Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms534403(v=VS.85).aspx">StringTrimming</a></b>
 </strong>
 
 This method returns an element of the 
-						<a href="https://msdn.microsoft.com/8ecaabac-dfc6-47ca-91e3-9f577be77b5f">StringTrimming</a> enumeration. 
+						<a href="https://msdn.microsoft.com/en-us/library/ms534403(v=VS.85).aspx">StringTrimming</a> enumeration. 
 
 
 

@@ -52,7 +52,7 @@ req.redist:
 
 The 
 <b>BG_JOB_PROGRESS</b> structure provides job-related progress information, such as the number of bytes and files transferred. For upload jobs, the progress applies to the upload file, not the reply file. To view reply file progress, see the 
-<a href="https://msdn.microsoft.com/ea78ee22-87b2-4859-bd49-dd309c8aa234">BG_JOB_REPLY_PROGRESS</a> structure.
+<a href="https://msdn.microsoft.com/en-us/library/Aa362808(v=VS.85).aspx">BG_JOB_REPLY_PROGRESS</a> structure.
 
 
 ## -struct-fields
@@ -87,19 +87,19 @@ Number of files transferred.
 
 
 
-<a href="https://msdn.microsoft.com/322363b4-081e-4100-9087-e34c21a3ffae">BG_FILE_PROGRESS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362801(v=VS.85).aspx">BG_FILE_PROGRESS</a>
 
 
 
-<a href="https://msdn.microsoft.com/ea78ee22-87b2-4859-bd49-dd309c8aa234">BG_JOB_REPLY_PROGRESS</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362808(v=VS.85).aspx">BG_JOB_REPLY_PROGRESS</a>
 
 
 
-<a href="https://msdn.microsoft.com/b3601f23-1a69-47db-8943-7515652cf015">IBackgroundCopyJob3::AddFileWithRanges</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa362991(v=VS.85).aspx">IBackgroundCopyJob3::AddFileWithRanges</a>
 
 
 
-<a href="https://msdn.microsoft.com/30aae990-1cc1-468b-9e5f-7ef5ce6eeb9a">IBackgroundCopyJob::GetProgress</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363034(v=VS.85).aspx">IBackgroundCopyJob::GetProgress</a>
  
 
  

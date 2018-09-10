@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Defines animation parameters for the <a href="https://msdn.microsoft.com/46ebf529-530f-4ccd-a3f8-7fcc7c71fca7">BP_PAINTPARAMS</a> structure used by <a href="https://msdn.microsoft.com/da574e22-b08e-47e8-b874-e158862c2f9a">BeginBufferedPaint</a>.
+Defines animation parameters for the <a href="https://msdn.microsoft.com/en-us/library/Bb773228(v=VS.85).aspx">BP_PAINTPARAMS</a> structure used by <a href="https://msdn.microsoft.com/en-us/library/Bb773257(v=VS.85).aspx">BeginBufferedPaint</a>.
 
 
 ## -struct-fields
@@ -74,7 +74,7 @@ Reserved.
 
 ### -field style
 
-Type: <b><a href="https://msdn.microsoft.com/435AA5FA-3C40-4BBC-8F8C-D6E0323C3FD8">BP_ANIMATIONSTYLE</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Bb759833(v=VS.85).aspx">BP_ANIMATIONSTYLE</a></b>
 
 Animation style.
 

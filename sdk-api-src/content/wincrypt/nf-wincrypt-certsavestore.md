@@ -166,7 +166,7 @@ This parameter can be one of the following values.
 </dl>
 </td>
 <td width="60%">
-The function saves the certificate store to a file. The <i>pvSaveToPara</i> parameter contains a handle to a file previously obtained by using the <a href="base.createfile">CreateFile</a> function. The file must be opened with write permission. After a successful save operation, the file pointer is positioned after the last write operation.
+The function saves the certificate store to a file. The <i>pvSaveToPara</i> parameter contains a handle to a file previously obtained by using the <a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> function. The file must be opened with write permission. After a successful save operation, the file pointer is positioned after the last write operation.
 
 </td>
 </tr>
@@ -237,7 +237,7 @@ If the function succeeds, the function returns nonzero.
 If the function fails, it returns zero. For extended error information, call 
 <a href="https://msdn.microsoft.com/d852e148-985c-416f-a5a7-27b6914b45d4">GetLastError</a>.
 
-Note that <a href="base.createfile">CreateFile</a> or <a href="base.writefile">WriteFile</a> errors can be propagated to this function. One possible error code is <b>CRYPT_E_FILE_ERROR</b> which indicates that an error occurred while writing to the file.
+Note that <a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a> or <a href="https://msdn.microsoft.com/en-us/library/Aa365747(v=VS.85).aspx">WriteFile</a> errors can be propagated to this function. One possible error code is <b>CRYPT_E_FILE_ERROR</b> which indicates that an error occurred while writing to the file.
 
 
 
@@ -255,15 +255,15 @@ Note that <a href="base.createfile">CreateFile</a> or <a href="base.writefile">W
 
 
 
-<a href="cryptography_functions.htm">Certificate Store Functions</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa380252(v=VS.85).aspx">Certificate Store Functions</a>
 
 
 
-<a href="base.createfile">CreateFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363858(v=VS.85).aspx">CreateFile</a>
 
 
 
-<a href="base.writefile">WriteFile</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa365747(v=VS.85).aspx">WriteFile</a>
  
 
  

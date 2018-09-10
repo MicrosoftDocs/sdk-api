@@ -60,7 +60,7 @@ Notification method indicating that a device service session <b>CloseDataSession
 
 ### -param deviceService [in]
 
-The <a href="IMbnDeviceService">IMbnDeviceService</a> session object on which the <b>CloseDataSession</b> was requested.
+The <a href="https://msdn.microsoft.com/en-us/library/Hh780509(v=VS.85).aspx">IMbnDeviceService</a> session object on which the <b>CloseDataSession</b> was requested.
 
 
 ### -param status [in]

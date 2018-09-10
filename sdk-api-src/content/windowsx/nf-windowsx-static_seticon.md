@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Sets the icon for a static control. You can use this macro or send the <a href="https://msdn.microsoft.com/105b0667-8e23-47ed-9fb1-0792a22d7100">STM_SETICON</a> message explicitly. 
+Sets the icon for a static control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760780(v=VS.85).aspx">STM_SETICON</a> message explicitly. 
 
 
 

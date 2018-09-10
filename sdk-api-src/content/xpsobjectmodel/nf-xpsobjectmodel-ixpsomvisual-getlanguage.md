@@ -108,7 +108,7 @@ The method succeeded.
 
 The <b>Language</b> property that is set by this method specifies the language of the resource content.
 
-This method allocates the memory that is used by the string returned in <i>language</i>.  If <i>language</i> is not <b>NULL</b>, use the <a href="_com_CoTaskMemFree">CoTaskMemFree</a> function  to free the memory.
+This method allocates the memory that is used by the string returned in <i>language</i>.  If <i>language</i> is not <b>NULL</b>, use the <a href="https://msdn.microsoft.com/en-us/library/ms680722(v=VS.85).aspx">CoTaskMemFree</a> function  to free the memory.
 
 Internet Engineering Task Force (IETF) RFC 3066 specifies the recommended encoding for the <b>Language</b> property.
 

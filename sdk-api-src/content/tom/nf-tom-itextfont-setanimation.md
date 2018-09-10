@@ -148,11 +148,11 @@ Invalid argument.
 
 
 
-<a href="https://msdn.microsoft.com/996f4ca0-bb7b-4a6a-84d5-3c5a9a178c09">GetAnimation</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb773931(v=VS.85).aspx">GetAnimation</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>
 
 
 
@@ -160,7 +160,7 @@ Invalid argument.
 
 
 
-<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

@@ -113,7 +113,7 @@ BITS cannot download content from an unauthenticated peer. When peers are detect
 
 
 
-<a href="https://msdn.microsoft.com/617b88d4-6c3e-4c33-9bfa-6d9f6f629866">IBitsPeer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa964270(v=VS.85).aspx">IBitsPeer</a>
  
 
  

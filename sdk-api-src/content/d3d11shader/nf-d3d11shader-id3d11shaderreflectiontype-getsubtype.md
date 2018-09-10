@@ -64,9 +64,9 @@ Gets the base class of a class.
 
 
 
-Type: <b><a href="https://msdn.microsoft.com/04520be2-2491-4f10-988a-e203659efddf">ID3D11ShaderReflectionType</a>*</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Ff476595(v=VS.85).aspx">ID3D11ShaderReflectionType</a>*</b>
 
-Returns a pointer to a <a href="https://msdn.microsoft.com/04520be2-2491-4f10-988a-e203659efddf">ID3D11ShaderReflectionType Interface</a> containing the base class type.  Returns <b>NULL</b> if the class does not have a base class.
+Returns a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Ff476595(v=VS.85).aspx">ID3D11ShaderReflectionType Interface</a> containing the base class type.  Returns <b>NULL</b> if the class does not have a base class.
 
 
 
@@ -85,7 +85,7 @@ This method's interface is hosted in the out-of-box DLL D3DCompiler_xx.dll.
 
 
 
-<a href="https://msdn.microsoft.com/04520be2-2491-4f10-988a-e203659efddf">ID3D11ShaderReflectionType Interface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ff476595(v=VS.85).aspx">ID3D11ShaderReflectionType Interface</a>
  
 
  

@@ -80,20 +80,20 @@ If the function succeeds, the return value is <b>ERROR_SUCCESS</b>. Otherwise, t
 
 The <b>InstallApplication</b> function can only install applications that have been deployed by using  Group Policy. A domain administrator can deploy applications to  target users by using  the  user configuration section of Group Policy Objects (GPO). The target user must belong to the target domain and the GPO must apply to this  user in the target  domain. The <b>InstallApplication</b> function installs applications according to standard Group Policy inheritance rules.  If the same application is deployed in multiple GPOs, the function installs the version of the application deployed in the highest precedence GPO.  After an application has been  installed for a user, it is not visible to other users on the computer. This is standard for applications that are deployed through user group policy.
 
-The <b>InstallApplication</b> function can  install deployed applications that  use <a href="setup.windows_installer_start_page">Windows Installer</a> (.msi files) or software installation settings (.zap files) to handle setup and installation.
+The <b>InstallApplication</b> function can  install deployed applications that  use <a href="https://msdn.microsoft.com/en-us/library/Cc185688(v=VS.85).aspx">Windows Installer</a> (.msi files) or software installation settings (.zap files) to handle setup and installation.
 
 The
-    <b>InstallApplication</b> function can install applications that use a <a href="setup.windows_installer_start_page">Windows Installer</a> package for their installation.  In this case,  the  user calling <b>InstallApplication</b> is not required to have administrator privileges. The system can install the application because the  Windows Installer  is a trusted application deployed by a domain administrator. The user that receives the application must have access to the location of the .msi files.
+    <b>InstallApplication</b> function can install applications that use a <a href="https://msdn.microsoft.com/en-us/library/Cc185688(v=VS.85).aspx">Windows Installer</a> package for their installation.  In this case,  the  user calling <b>InstallApplication</b> is not required to have administrator privileges. The system can install the application because the  Windows Installer  is a trusted application deployed by a domain administrator. The user that receives the application must have access to the location of the .msi files.
 
-Remove applications installed using .msi files by calling the <a href="setup.windows_installer_start_page">Windows Installer</a> function <a href="https://msdn.microsoft.com/06f341ac-badd-47a0-af86-4fb76bf528d6">MsiConfigureProduct</a> to uninstall the application. Then call <a href="https://msdn.microsoft.com/d45494e2-d86e-4d94-a158-4024eacf46a2">UninstallApplication</a>  to  inform the system that the application is no longer managed on the client by Group Policy.  <b>UninstallApplication</b> should be called even if the uninstall fails because this enables the system to keep the <a href="https://msdn.microsoft.com/c3367738-21c9-4159-bc33-2529a60f0e39">Resultant Set of Policy (RSoP)</a> accurate.
+Remove applications installed using .msi files by calling the <a href="https://msdn.microsoft.com/en-us/library/Cc185688(v=VS.85).aspx">Windows Installer</a> function <a href="https://msdn.microsoft.com/06f341ac-badd-47a0-af86-4fb76bf528d6">MsiConfigureProduct</a> to uninstall the application. Then call <a href="https://msdn.microsoft.com/d45494e2-d86e-4d94-a158-4024eacf46a2">UninstallApplication</a>  to  inform the system that the application is no longer managed on the client by Group Policy.  <b>UninstallApplication</b> should be called even if the uninstall fails because this enables the system to keep the <a href="https://msdn.microsoft.com/c3367738-21c9-4159-bc33-2529a60f0e39">Resultant Set of Policy (RSoP)</a> accurate.
 
 The
-    <b>InstallApplication</b> function can also install applications that use setup applications based on software installation settings (.zap files). The user that receives the application must have access to the location of the .zap files. A .zap file is a text file similar to an .ini file, which enables Windows to publish an application (for example, Setup.exe) for installation with <b>Add or Remove Programs</b>. To publish applications that do not use the <a href="setup.windows_installer_start_page">Windows Installer</a>, you must create a .zap file, copy the .zap file to the software distribution point servers, and then use Group Policy–based software deployment to publish the application for users. 
+    <b>InstallApplication</b> function can also install applications that use setup applications based on software installation settings (.zap files). The user that receives the application must have access to the location of the .zap files. A .zap file is a text file similar to an .ini file, which enables Windows to publish an application (for example, Setup.exe) for installation with <b>Add or Remove Programs</b>. To publish applications that do not use the <a href="https://msdn.microsoft.com/en-us/library/Cc185688(v=VS.85).aspx">Windows Installer</a>, you must create a .zap file, copy the .zap file to the software distribution point servers, and then use Group Policy–based software deployment to publish the application for users. 
 If the application is deployed using .zap files, the user installing the application must have privileges on the machine to install the software. You cannot use .zap files for assigned applications.
 
 Remove applications using software installation settings (.zap files) by calling the uninstall function or a command  specific for the installation application.
 
-For information about using installation applications other than  the <a href="setup.windows_installer_start_page">Windows Installer</a> see article 231747, "<a href="Http://go.microsoft.com/fwlink/p/?linkid=83984">How to Publish non-MSI Programs with .zap Files</a>," in the Microsoft Knowledge Base.
+For information about using installation applications other than  the <a href="https://msdn.microsoft.com/en-us/library/Cc185688(v=VS.85).aspx">Windows Installer</a> see article 231747, "<a href="Http://go.microsoft.com/fwlink/p/?linkid=83984">How to Publish non-MSI Programs with .zap Files</a>," in the Microsoft Knowledge Base.
 
 
 
@@ -129,7 +129,7 @@ For information about using installation applications other than  the <a href="s
 
 
 
-<a href="setup.windows_installer_start_page">Windows Installer</a>
+<a href="https://msdn.microsoft.com/en-us/library/Cc185688(v=VS.85).aspx">Windows Installer</a>
  
 
  

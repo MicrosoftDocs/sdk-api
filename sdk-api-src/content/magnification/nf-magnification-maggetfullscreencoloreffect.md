@@ -60,7 +60,7 @@ Retrieves the color transformation matrix  associated with the  full-screen magn
 
 ### -param pEffect [out]
 
-Type: <b><a href="https://msdn.microsoft.com/eb7c283a-ea55-4e7c-8fd1-f106837ecc34">PMAGCOLOREFFECT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms692383(v=VS.85).aspx">PMAGCOLOREFFECT</a></b>
 
 The color transformation matrix, or the identity matrix if no color effect has been set. 
 

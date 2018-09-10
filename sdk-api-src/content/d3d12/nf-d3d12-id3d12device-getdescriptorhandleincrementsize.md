@@ -77,12 +77,12 @@ Returns the size of the handle increment for the given type of descriptor heap, 
 
 
 
-The descriptor size returned by this method is used as one input to the helper structures <a href="https://msdn.microsoft.com/91736069-7D13-47B0-B78C-0F6F104F97EB">CD3DX12_CPU_DESCRIPTOR_HANDLE</a> and <a href="https://msdn.microsoft.com/6E405AD6-D370-4B87-849A-C52D64C79BF7">CD3DX12_GPU_DESCRIPTOR_HANDLE</a>.
+The descriptor size returned by this method is used as one input to the helper structures <a href="https://msdn.microsoft.com/en-us/library/Mt186565(v=VS.85).aspx">CD3DX12_CPU_DESCRIPTOR_HANDLE</a> and <a href="https://msdn.microsoft.com/en-us/library/Mt186569(v=VS.85).aspx">CD3DX12_GPU_DESCRIPTOR_HANDLE</a>.
 
 
 #### Examples
 
-The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12PredicationQueries</a> sample uses <b>ID3D12Device::GetDescriptorHandleIncrementSize</b> as follows:
+The <a href="https://msdn.microsoft.com/en-us/library/Mt186624(v=VS.85).aspx">D3D12PredicationQueries</a> sample uses <b>ID3D12Device::GetDescriptorHandleIncrementSize</b> as follows:
         
 
 Create the descriptor heap for the resources. The <code>m_rtvDescriptorSize</code> variable stores the render target view descriptor handle increment size, and is used in the <b>Create frame resources</b> section of the code.
@@ -144,7 +144,7 @@ Create the descriptor heap for the resources. The <code>m_rtvDescriptorSize</cod
 </td>
 </tr>
 </table></span></div>
-Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
+Refer to the <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85).aspx">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>
 
@@ -155,7 +155,7 @@ Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A
 
 
 
-<a href="https://msdn.microsoft.com/D32B3397-A1E0-48AF-9251-2EDA96261A9F">ID3D12Device</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn788650(v=VS.85).aspx">ID3D12Device</a>
  
 
  

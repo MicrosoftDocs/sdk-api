@@ -52,7 +52,7 @@ req.product: GDI+ 1.0
 
 
 The <b>Size::Equals</b> method determines whether two 
-			<a href="https://msdn.microsoft.com/d5be390d-11c7-47e3-8cd0-335fb6b031fd">Size</a> objects are equal.
+			<a href="https://msdn.microsoft.com/en-us/library/ms534504(v=VS.85).aspx">Size</a> objects are equal.
 
 
 ## -parameters
@@ -62,10 +62,10 @@ The <b>Size::Equals</b> method determines whether two
 
 ### -param sz [in, ref]
 
-Type: <b>const <a href="https://msdn.microsoft.com/d5be390d-11c7-47e3-8cd0-335fb6b031fd">Size</a></b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/ms534504(v=VS.85).aspx">Size</a></b>
 
 Reference to a 
-					<a href="https://msdn.microsoft.com/d5be390d-11c7-47e3-8cd0-335fb6b031fd">Size</a> object that is compared to this 
+					<a href="https://msdn.microsoft.com/en-us/library/ms534504(v=VS.85).aspx">Size</a> object that is compared to this 
 					<b>Size</b> object. 
 
 
@@ -79,7 +79,7 @@ Type: <strong>Type: <b>BOOL</b>
 If the 
 						<b>Width</b> and 
 						<b>Height</b>  data members of the two 
-						<a href="https://msdn.microsoft.com/d5be390d-11c7-47e3-8cd0-335fb6b031fd">Size</a> objects are equal, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534504(v=VS.85).aspx">Size</a> objects are equal, this method returns <b>TRUE</b>; otherwise, it returns <b>FALSE</b>.
 
 
 
@@ -89,7 +89,7 @@ If the
 
 
 Two 
-				<a href="https://msdn.microsoft.com/d5be390d-11c7-47e3-8cd0-335fb6b031fd">Size</a> objects are defined as equal if the 
+				<a href="https://msdn.microsoft.com/en-us/library/ms534504(v=VS.85).aspx">Size</a> objects are defined as equal if the 
 				<b>Width</b> and 
 				<b>Height</b>  data members are equal.
 
@@ -99,7 +99,7 @@ Two
 
 
 The following example creates a 
-						<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a> object, gets the size of the rectangle, and determines whether the rectangles are equal.
+						<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a> object, gets the size of the rectangle, and determines whether the rectangles are equal.
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
 <tr>
@@ -129,15 +129,15 @@ if(rectSize.Equals(desiredSize))
 
 
 
-<a href="https://msdn.microsoft.com/9b995615-3ea1-488d-8960-90add719c3f9">Rect</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534495(v=VS.85).aspx">Rect</a>
 
 
 
-<a href="https://msdn.microsoft.com/d5be390d-11c7-47e3-8cd0-335fb6b031fd">Size</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534504(v=VS.85).aspx">Size</a>
 
 
 
-<a href="https://msdn.microsoft.com/b40ade07-f89e-44ba-9185-9aec01f1051f">SizeF</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms534506(v=VS.85).aspx">SizeF</a>
  
 
  

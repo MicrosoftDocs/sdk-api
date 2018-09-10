@@ -146,11 +146,11 @@ The Text Object Model (TOM) version 1.0 does not specify the meanings of the sty
 
 
 
-<a href="https://msdn.microsoft.com/8ebe767e-1f64-4d12-bf11-85b6253d86ce">GetStyle</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787861(v=VS.85).aspx">GetStyle</a>
 
 
 
-<a href="https://msdn.microsoft.com/e8e3ba98-808b-49c5-8764-96484fa33a6e">ITextFont</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb774054(v=VS.85).aspx">ITextFont</a>
 
 
 
@@ -158,7 +158,7 @@ The Text Object Model (TOM) version 1.0 does not specify the meanings of the sty
 
 
 
-<a href="https://msdn.microsoft.com/a15f0334-1a31-4bc3-bc1e-e5cf53112007">Text Object Model</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787607(v=VS.85).aspx">Text Object Model</a>
  
 
  

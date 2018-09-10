@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-The <b>EnrollmentCAProperty</b> enumeration specifies certification authority property values. It is used by the <a href="https://msdn.microsoft.com/02f2d6bf-9290-43e1-ae44-a21325c176b2">Property</a> method on the <a href="https://msdn.microsoft.com/ffd64396-a258-4cf5-aca1-a61102ecf313">ICertificationAuthority</a> interface.
+The <b>EnrollmentCAProperty</b> enumeration specifies certification authority property values. It is used by the <a href="https://msdn.microsoft.com/en-us/library/Ee338622(v=VS.85).aspx">Property</a> method on the <a href="https://msdn.microsoft.com/en-us/library/Ee338621(v=VS.85).aspx">ICertificationAuthority</a> interface.
 
 
 ## -enum-fields
@@ -65,7 +65,7 @@ A <b>VT_BSTR</b> value that contains the common name of the certification author
 
 ### -field CAPropDistinguishedName
 
-A <b>VT_DISPATCH</b> value that contains a pointer to an <a href="https://msdn.microsoft.com/49f176d9-33f6-4bc1-992c-c613279b0969">IX500DistinguishedName</a> object.
+A <b>VT_DISPATCH</b> value that contains a pointer to an <a href="https://msdn.microsoft.com/en-us/library/Aa377051(v=VS.85).aspx">IX500DistinguishedName</a> object.
 
 
 ### -field CAPropSanitizedName
@@ -105,17 +105,17 @@ A <b>VT_ARRAY|VT_BSTR</b> collection of certificate enrollment servers configure
 
 ### -field CAPropSiteName
 
-A <b>VT_BSTR</b> value that contains the name of the AD site to which the CA belongs. This can be used by the enrolling clients to determine the relative cost of communicating with the CA versus CAs that belong to other sites. This value is relevant only for CA objects retrieved by using the <a href="https://msdn.microsoft.com/37836fd1-e95a-4025-b268-f78a9113e568">GetCAs</a> method on the <a href="https://msdn.microsoft.com/e39d40fd-3d43-4cdc-b41a-07a87a11bfad">IX509EnrollmentPolicyServer</a> interface.
+A <b>VT_BSTR</b> value that contains the name of the AD site to which the CA belongs. This can be used by the enrolling clients to determine the relative cost of communicating with the CA versus CAs that belong to other sites. This value is relevant only for CA objects retrieved by using the <a href="https://msdn.microsoft.com/en-us/library/Ee351699(v=VS.85).aspx">GetCAs</a> method on the <a href="https://msdn.microsoft.com/en-us/library/Ee351692(v=VS.85).aspx">IX509EnrollmentPolicyServer</a> interface.
 
 
 ### -field CAPropSecurity
 
-A <b>VT_BSTR</b> value that contains the security descriptor definition language (SDDL) string representation of the security descriptor for the CA. This value is relevant only for CA objects retrieved by using the <a href="https://msdn.microsoft.com/37836fd1-e95a-4025-b268-f78a9113e568">GetCAs</a> method.
+A <b>VT_BSTR</b> value that contains the security descriptor definition language (SDDL) string representation of the security descriptor for the CA. This value is relevant only for CA objects retrieved by using the <a href="https://msdn.microsoft.com/en-us/library/Ee351699(v=VS.85).aspx">GetCAs</a> method.
 
 
 ### -field CAPropRenewalOnly
 
-A <b>VT_BOOL</b> value that specifies whether a CA is configured to perform only certificate renewals. This value is relevant only for CA objects retrieved by using the <a href="https://msdn.microsoft.com/37836fd1-e95a-4025-b268-f78a9113e568">GetCAs</a> method.
+A <b>VT_BOOL</b> value that specifies whether a CA is configured to perform only certificate renewals. This value is relevant only for CA objects retrieved by using the <a href="https://msdn.microsoft.com/en-us/library/Ee351699(v=VS.85).aspx">GetCAs</a> method.
 
 
 ## -see-also
@@ -123,11 +123,11 @@ A <b>VT_BOOL</b> value that specifies whether a CA is configured to perform only
 
 
 
-<a href="https://msdn.microsoft.com/ffd64396-a258-4cf5-aca1-a61102ecf313">ICertificationAuthority</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee338621(v=VS.85).aspx">ICertificationAuthority</a>
 
 
 
-<a href="https://msdn.microsoft.com/02f2d6bf-9290-43e1-ae44-a21325c176b2">Property</a>
+<a href="https://msdn.microsoft.com/en-us/library/Ee338622(v=VS.85).aspx">Property</a>
  
 
  

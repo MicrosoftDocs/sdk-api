@@ -154,7 +154,7 @@ Also note that the Offline Files service automatically performs the encryption o
 </table>
  
 
-The current encryption state of the Offline Files cache can be checked by using the Offline Files Control Panel or by calling <a href="https://msdn.microsoft.com/87c2aced-84c9-40cb-bdf2-6974925e89d5">IOfflineFilesCache::GetEncryptionStatus</a>.
+The current encryption state of the Offline Files cache can be checked by using the Offline Files Control Panel or by calling <a href="https://msdn.microsoft.com/en-us/library/Bb530494(v=VS.85).aspx">IOfflineFilesCache::GetEncryptionStatus</a>.
 
 The caller can implement the progress callback methods in the following list to obtain the progress information for each processed file and directory.
 
@@ -166,46 +166,46 @@ The caller can implement the progress callback methods in the following list to 
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/b568a8c6-119b-486e-94e3-fe4e54a395bb">IOfflineFilesProgress</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530596(v=VS.85).aspx">IOfflineFilesProgress</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/d3fe6abf-fc0c-4bba-9c9f-5d0e77c27b43">Begin</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530597(v=VS.85).aspx">Begin</a>
 </td>
 <td>Called at the start of the operation.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/490f0958-125b-4c09-8ca4-07532ed8d4d4">IOfflineFilesSimpleProgress</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530616(v=VS.85).aspx">IOfflineFilesSimpleProgress</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/0e3496ee-e987-4c37-93ff-bc8409acabde">ItemBegin</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530617(v=VS.85).aspx">ItemBegin</a>
 </td>
 <td>Called at the start of processing for each file.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/490f0958-125b-4c09-8ca4-07532ed8d4d4">IOfflineFilesSimpleProgress</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530616(v=VS.85).aspx">IOfflineFilesSimpleProgress</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/60ed3b12-b56e-4a58-8e37-a4a745ddb783">ItemResult</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530618(v=VS.85).aspx">ItemResult</a>
 </td>
 <td>Called after each file is encrypted.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/b568a8c6-119b-486e-94e3-fe4e54a395bb">IOfflineFilesProgress</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530596(v=VS.85).aspx">IOfflineFilesProgress</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/24b95898-0fe6-420b-83f2-ac77f493aeab">QueryAbort</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530599(v=VS.85).aspx">QueryAbort</a>
 </td>
 <td>Called periodically during the sync operation to detect a request for cancellation.</td>
 </tr>
 <tr>
 <td>
-<a href="https://msdn.microsoft.com/b568a8c6-119b-486e-94e3-fe4e54a395bb">IOfflineFilesProgress</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530596(v=VS.85).aspx">IOfflineFilesProgress</a>
 </td>
 <td>
-<a href="https://msdn.microsoft.com/b3d09f2e-29d5-496f-a046-4ba067e642a6">End</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530598(v=VS.85).aspx">End</a>
 </td>
 <td>Called at the end of the operation.</td>
 </tr>
@@ -220,7 +220,7 @@ The caller can implement the progress callback methods in the following list to 
 
 
 
-<a href="https://msdn.microsoft.com/7b1b5ef6-355a-4760-9d54-ec73cc66fb8a">IOfflineFilesCache</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb530486(v=VS.85).aspx">IOfflineFilesCache</a>
  
 
  

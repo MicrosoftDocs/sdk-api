@@ -135,7 +135,7 @@ This function retrieves the lowest-level accessible object in the object hierarc
 
 As with other <a href="https://msdn.microsoft.com/51e95b01-71e7-435b-85fb-28ee43eb08a7">IAccessible</a> methods and functions, clients might receive errors for <b>IAccessible</b> interface pointers because of a user action. For more information, see <a href="https://msdn.microsoft.com/408bfa47-fda0-4a25-89c1-da41d967ad61">Receiving Errors for IAccessible Interface Pointers</a>.
 
-This function fails if called in response to <a href="event_constants.htm">EVENT_OBJECT_CREATE</a> because the object is not fully initialized. Similarly, clients should not call this in response to <a href="event_constants.htm">EVENT_OBJECT_DESTROY</a> because the object is no longer available and cannot respond. Clients watch for <a href="event_constants.htm">EVENT_OBJECT_SHOW</a> and <a href="event_constants.htm">EVENT_OBJECT_HIDE</a> events rather than for <b>EVENT_OBJECT_CREATE</b> and <b>EVENT_OBJECT_DESTROY</b>.
+This function fails if called in response to <a href="https://msdn.microsoft.com/en-us/library/Dd318066(v=VS.85).aspx">EVENT_OBJECT_CREATE</a> because the object is not fully initialized. Similarly, clients should not call this in response to <a href="https://msdn.microsoft.com/en-us/library/Dd318066(v=VS.85).aspx">EVENT_OBJECT_DESTROY</a> because the object is no longer available and cannot respond. Clients watch for <a href="https://msdn.microsoft.com/en-us/library/Dd318066(v=VS.85).aspx">EVENT_OBJECT_SHOW</a> and <a href="https://msdn.microsoft.com/en-us/library/Dd318066(v=VS.85).aspx">EVENT_OBJECT_HIDE</a> events rather than for <b>EVENT_OBJECT_CREATE</b> and <b>EVENT_OBJECT_DESTROY</b>.
 
 
 #### Examples

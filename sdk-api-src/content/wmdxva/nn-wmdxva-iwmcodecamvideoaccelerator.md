@@ -51,7 +51,7 @@ req.redist:
 
 
 
-This interface is exposed by the Windows Media Decoder <a href="wmformat_glossary.htm">DMO</a> and is called by a media player source filter to set up the various connections required to enable DirectX® video acceleration (VA) for decoding of Windows Media-based video content. A player obtains this interface by calling the <a href="https://msdn.microsoft.com/e38c02bb-335c-4f93-9e98-1a9dc65a37c5">IWMReaderAccelerator::GetCodecInterface</a> method, which is exposed on the reader object.
+This interface is exposed by the Windows Media Decoder <a href="https://msdn.microsoft.com/en-us/library/Dd757828(v=VS.85).aspx">DMO</a> and is called by a media player source filter to set up the various connections required to enable DirectX® video acceleration (VA) for decoding of Windows Media-based video content. A player obtains this interface by calling the <a href="https://msdn.microsoft.com/e38c02bb-335c-4f93-9e98-1a9dc65a37c5">IWMReaderAccelerator::GetCodecInterface</a> method, which is exposed on the reader object.
 
 
 

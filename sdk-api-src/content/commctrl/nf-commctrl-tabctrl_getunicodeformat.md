@@ -50,7 +50,7 @@ req.redist:
 ## -description
 
 
-Retrieves the UNICODE character format flag for the control. You can use this macro or send the <a href="https://msdn.microsoft.com/720e0325-500b-436c-8713-38ed780735bf">TCM_GETUNICODEFORMAT</a> message explicitly. 
+Retrieves the UNICODE character format flag for the control. You can use this macro or send the <a href="https://msdn.microsoft.com/en-us/library/Bb760600(v=VS.85).aspx">TCM_GETUNICODEFORMAT</a> message explicitly. 
 
 
 ## -parameters
@@ -70,7 +70,7 @@ Handle to the control.
 
 
 
-<a href="https://msdn.microsoft.com/0ab36427-861d-491f-9933-636a4039ceaa">TabCtrl_SetUnicodeFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb760702(v=VS.85).aspx">TabCtrl_SetUnicodeFormat</a>
  
 
  

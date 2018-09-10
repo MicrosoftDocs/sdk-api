@@ -51,7 +51,7 @@ req.redist:
 ## -description
 
 
-Creates a rasterizer state object that informs the <a href="https://msdn.microsoft.com/efd3f819-7c63-4e1a-9923-8e7198354ec6">rasterizer stage</a> how to behave and forces the sample count while UAV rendering or rasterizing.
+Creates a rasterizer state object that informs the <a href="https://msdn.microsoft.com/en-us/library/Bb205125(v=VS.85).aspx">rasterizer stage</a> how to behave and forces the sample count while UAV rendering or rasterizing.
 
 
 ## -parameters
@@ -61,25 +61,25 @@ Creates a rasterizer state object that informs the <a href="https://msdn.microso
 
 ### -param pRasterizerDesc [in]
 
-Type: <b>const <a href="https://msdn.microsoft.com/54B5744A-1F50-4203-A43B-7E830D769534">D3D11_RASTERIZER_DESC2</a>*</b>
+Type: <b>const <a href="https://msdn.microsoft.com/en-us/library/Dn899157(v=VS.85).aspx">D3D11_RASTERIZER_DESC2</a>*</b>
 
-A pointer to a <a href="https://msdn.microsoft.com/54B5744A-1F50-4203-A43B-7E830D769534">D3D11_RASTERIZER_DESC2</a> structure that describes the  rasterizer state.
+A pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn899157(v=VS.85).aspx">D3D11_RASTERIZER_DESC2</a> structure that describes the  rasterizer state.
 
 
 ### -param ppRasterizerState [out, optional]
 
-Type: <b><a href="https://msdn.microsoft.com/335D976C-9E7F-4EAE-B671-F99D1B31669B">ID3D11RasterizerState2</a>**</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Dn899238(v=VS.85).aspx">ID3D11RasterizerState2</a>**</b>
 
-A pointer to a memory block that receives a pointer to a <a href="https://msdn.microsoft.com/335D976C-9E7F-4EAE-B671-F99D1B31669B">ID3D11RasterizerState2</a> interface for the created rasterizer state object. Set this parameter to <b>NULL</b> to validate the other input parameters (the method will return <b>S_FALSE</b> if the other input parameters pass validation).
+A pointer to a memory block that receives a pointer to a <a href="https://msdn.microsoft.com/en-us/library/Dn899238(v=VS.85).aspx">ID3D11RasterizerState2</a> interface for the created rasterizer state object. Set this parameter to <b>NULL</b> to validate the other input parameters (the method will return <b>S_FALSE</b> if the other input parameters pass validation).
 
 
 ## -returns
 
 
 
-Type: <b><a href="455d07e9-52c3-4efb-a9dc-2955cbfd38cc">HRESULT</a></b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/Hh437604(v=VS.85).aspx">HRESULT</a></b>
 
-This method returns E_OUTOFMEMORY if there is insufficient memory to create the rasterizer state object.  See <a href="https://msdn.microsoft.com/c0856a58-b760-44e5-8acf-145720b403d1">Direct3D 11 Return Codes</a> for other possible return values.
+This method returns E_OUTOFMEMORY if there is insufficient memory to create the rasterizer state object.  See <a href="https://msdn.microsoft.com/en-us/library/Ff476174(v=VS.85).aspx">Direct3D 11 Return Codes</a> for other possible return values.
 
 
 
@@ -89,7 +89,7 @@ This method returns E_OUTOFMEMORY if there is insufficient memory to create the 
 
 
 
-<a href="https://msdn.microsoft.com/0AA10851-0077-4075-BD41-72FCD7BC0556">ID3D11Device3</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn899218(v=VS.85).aspx">ID3D11Device3</a>
  
 
  

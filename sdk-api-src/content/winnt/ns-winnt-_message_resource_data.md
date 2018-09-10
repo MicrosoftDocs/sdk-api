@@ -62,12 +62,12 @@ Contains information about formatted text for display as an error message or in 
 
 Type: <b>DWORD</b>
 
-The number of <a href="https://msdn.microsoft.com/573f22be-d204-4c0d-9c45-bd6d46094e32">MESSAGE_RESOURCE_BLOCK</a> structures. 
+The number of <a href="https://msdn.microsoft.com/en-us/library/ms648020(v=VS.85).aspx">MESSAGE_RESOURCE_BLOCK</a> structures. 
 
 
 ### -field Blocks
 
-Type: <b><a href="https://msdn.microsoft.com/573f22be-d204-4c0d-9c45-bd6d46094e32">MESSAGE_RESOURCE_BLOCK</a>[1]</b>
+Type: <b><a href="https://msdn.microsoft.com/en-us/library/ms648020(v=VS.85).aspx">MESSAGE_RESOURCE_BLOCK</a>[1]</b>
 
 An array of structures. The array is the size indicated by the 
 					<b>NumberOfBlocks</b>  member. 
@@ -78,7 +78,7 @@ An array of structures. The array is the size indicated by the
 
 
 A <b>MESSAGE_RESOURCE_DATA</b> structure can contain one or more 
-				<a href="https://msdn.microsoft.com/573f22be-d204-4c0d-9c45-bd6d46094e32">MESSAGE_RESOURCE_BLOCK</a> structures, which can each contain one or more <a href="https://msdn.microsoft.com/cce13b09-5c8b-4d64-a229-419d01d91f27">MESSAGE_RESOURCE_ENTRY</a> structures. 
+				<a href="https://msdn.microsoft.com/en-us/library/ms648020(v=VS.85).aspx">MESSAGE_RESOURCE_BLOCK</a> structures, which can each contain one or more <a href="https://msdn.microsoft.com/en-us/library/ms648022(v=VS.85).aspx">MESSAGE_RESOURCE_ENTRY</a> structures. 
 
 
 
@@ -92,11 +92,11 @@ A <b>MESSAGE_RESOURCE_DATA</b> structure can contain one or more
 
 
 
-<a href="https://msdn.microsoft.com/573f22be-d204-4c0d-9c45-bd6d46094e32">MESSAGE_RESOURCE_BLOCK</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648020(v=VS.85).aspx">MESSAGE_RESOURCE_BLOCK</a>
 
 
 
-<a href="https://msdn.microsoft.com/cce13b09-5c8b-4d64-a229-419d01d91f27">MESSAGE_RESOURCE_ENTRY</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms648022(v=VS.85).aspx">MESSAGE_RESOURCE_ENTRY</a>
 
 
 
@@ -104,7 +104,7 @@ A <b>MESSAGE_RESOURCE_DATA</b> structure can contain one or more
 
 
 
-<a href="https://msdn.microsoft.com/ff321356-c999-4021-a537-fbe863996e24">Resources</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms632583(v=VS.85).aspx">Resources</a>
  
 
  

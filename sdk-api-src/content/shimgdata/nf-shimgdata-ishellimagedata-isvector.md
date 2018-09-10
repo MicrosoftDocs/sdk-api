@@ -80,7 +80,7 @@ Returns one of the following:
 </dl>
 </td>
 <td width="60%">
-The image is a vector image, supporting the GDI+ flag <a href="_gdiplus_ENUM_ImageFlags">ImageFlagsScalable</a>.
+The image is a vector image, supporting the GDI+ flag <a href="https://msdn.microsoft.com/en-us/library/ms534136(v=VS.85).aspx">ImageFlagsScalable</a>.
 
 </td>
 </tr>

@@ -84,11 +84,11 @@ This method returns <b>S_OK</b> on success or one of the standard COM <b>HRESULT
 
 
 
-<a href="https://msdn.microsoft.com/4881e5f7-a835-40d5-a056-d6b23e3cd84c">IBackgroundCopyJob::GetNoProgressTimeout</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363029(v=VS.85).aspx">IBackgroundCopyJob::GetNoProgressTimeout</a>
 
 
 
-<a href="https://msdn.microsoft.com/52d2b7a1-6f68-424e-9c0b-a9f8df4a5ad6">IBackgroundCopyJob::SetMinimumRetryDelay</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa363042(v=VS.85).aspx">IBackgroundCopyJob::SetMinimumRetryDelay</a>
  
 
  

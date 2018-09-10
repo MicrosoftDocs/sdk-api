@@ -105,7 +105,7 @@ If the app window that contains the <a href="https://msdn.microsoft.com/fb58f405
 
 
 
-<a href="https://msdn.microsoft.com/9210b966-9e9a-4cd1-ba70-6f1a9fda9d80">IDXGISurface</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb174565(v=VS.85).aspx">IDXGISurface</a>
 
 
 

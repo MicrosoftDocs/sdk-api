@@ -96,7 +96,7 @@ This method is only valid when the control is in-place active; calls while the c
 
 
 
-<a href="https://msdn.microsoft.com/28d86b94-2d36-4749-8954-3857bf6dbdac">ITextHost</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787615(v=VS.85).aspx">ITextHost</a>
 
 
 
@@ -104,15 +104,15 @@ This method is only valid when the control is in-place active; calls while the c
 
 
 
-<a href="https://msdn.microsoft.com/b7e1b5a3-3d63-4a52-8d48-42865bf1eef3">TxCreateCaret</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787640(v=VS.85).aspx">TxCreateCaret</a>
 
 
 
-<a href="https://msdn.microsoft.com/11615426-8c97-4cd0-b0dc-58da8acc45d5">TxSetCaretPos</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787720(v=VS.85).aspx">TxSetCaretPos</a>
 
 
 
-<a href="https://msdn.microsoft.com/71ecd220-ab1a-4caa-b1b9-0951e943692e">Windowless Rich Edit Controls</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb787609(v=VS.85).aspx">Windowless Rich Edit Controls</a>
  
 
  

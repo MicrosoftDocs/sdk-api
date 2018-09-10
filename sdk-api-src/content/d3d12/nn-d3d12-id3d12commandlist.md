@@ -50,14 +50,14 @@ req.redist:
 ## -description
 
 
-An interface from which <a href="https://msdn.microsoft.com/1BF282A7-F6D4-43A9-BDAD-D877564A1C6B">ID3D12GraphicsCommandList</a> inherits from. It represents an ordered set of commands that the GPU executes, while allowing for extension to support other command lists than just those for graphics (such as compute and copy).
+An interface from which <a href="https://msdn.microsoft.com/en-us/library/Dn903537(v=VS.85).aspx">ID3D12GraphicsCommandList</a> inherits from. It represents an ordered set of commands that the GPU executes, while allowing for extension to support other command lists than just those for graphics (such as compute and copy).
 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12CommandList</b> interface inherits from <a href="https://msdn.microsoft.com/AED60281-A6E4-4AAD-A106-6CA6E9BAEB9A">ID3D12DeviceChild</a>. <b>ID3D12CommandList</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12CommandList</b> interface inherits from <a href="https://msdn.microsoft.com/en-us/library/Dn788651(v=VS.85).aspx">ID3D12DeviceChild</a>. <b>ID3D12CommandList</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://msdn.microsoft.com/en-us/library/ms684591(v=VS.85).aspx">Methods</a></li>
 </ul>
 
 ## -members
@@ -70,7 +70,7 @@ The <b>ID3D12CommandList</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/39F9EF96-9761-410A-B5DD-A088F6863923">GetType</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903824(v=VS.85).aspx">GetType</a>
 </td>
 <td align="left" width="63%">
 Gets the type of the command list, such as direct, bundle, compute, or copy.
@@ -85,10 +85,10 @@ Gets the type of the command list, such as direct, bundle, compute, or copy.
 
 
 
-Use <a href="https://msdn.microsoft.com/4C615D7D-6DBC-4EDA-8D72-271EC53047BF">ID3D12Device::CreateCommandList</a> to create a command list object.
+Use <a href="https://msdn.microsoft.com/en-us/library/Dn788656(v=VS.85).aspx">ID3D12Device::CreateCommandList</a> to create a command list object.
       
 
-See also <a href="https://msdn.microsoft.com/1BF282A7-F6D4-43A9-BDAD-D877564A1C6B">ID3D12GraphicsCommandList</a>, which derives from ID3D12CommandList.
+See also <a href="https://msdn.microsoft.com/en-us/library/Dn903537(v=VS.85).aspx">ID3D12GraphicsCommandList</a>, which derives from ID3D12CommandList.
       
 
 A command list corresponds to a set of commands that the graphics processing unit (GPU) executes.  Commands set state, draw, clear, copy, and so on.  
@@ -105,7 +105,7 @@ Direct3D 12 command lists only support these 2 levels of indirection:
 
 #### Examples
 
-The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3D12nBodyGravity</a> sample uses <b>ID3D12CommandList</b> as follows:
+The <a href="https://msdn.microsoft.com/en-us/library/Mt186624(v=VS.85).aspx">D3D12nBodyGravity</a> sample uses <b>ID3D12CommandList</b> as follows:
         
 
 <div class="code"><span codelanguage="ManagedCPlusPlus"><table>
@@ -161,7 +161,7 @@ The <a href="https://msdn.microsoft.com/4C4475D4-534F-484F-8D60-9ACEA09AC109">D3
 </td>
 </tr>
 </table></span></div>
-Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A6B70D">Example Code in the D3D12 Reference</a>.
+Refer to the <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85).aspx">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>
 
@@ -172,19 +172,19 @@ Refer to the <a href="https://msdn.microsoft.com/C2323482-D06D-43B7-9BDE-BFB9A6A
 
 
 
-<a href="https://msdn.microsoft.com/A9BD5910-8FF2-4540-BB8E-E8EA5C10528C">Core Interfaces</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn770457(v=VS.85).aspx">Core Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/AED60281-A6E4-4AAD-A106-6CA6E9BAEB9A">ID3D12DeviceChild</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn788651(v=VS.85).aspx">ID3D12DeviceChild</a>
 
 
 
-<a href="https://msdn.microsoft.com/1BF282A7-F6D4-43A9-BDAD-D877564A1C6B">ID3D12GraphicsCommandList</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn903537(v=VS.85).aspx">ID3D12GraphicsCommandList</a>
 
 
 
-<a href="https://msdn.microsoft.com/F0FF3D7C-1DAC-48C3-B47D-0378BE369F37">Setting descriptor heaps</a>
+<a href="https://msdn.microsoft.com/en-us/library/Dn899210(v=VS.85).aspx">Setting descriptor heaps</a>
  
 
  

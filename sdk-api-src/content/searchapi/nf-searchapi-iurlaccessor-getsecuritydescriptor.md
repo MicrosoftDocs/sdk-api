@@ -104,7 +104,7 @@ This method allows custom mappings between users registered to a content source 
 If the URL contains a user security identifier (SID), then the protocol handler is invoked in the security context of that user, and this method must return E_NOTIMPL. 
             
 
-If the URL does not contain a user SID, then the protocol handler is invoked in the security context of the system service. In that case, this method can return either an access control list (ACL) to restrict read access, or <a href="https://msdn.microsoft.com/b5e99ad1-1698-483c-8173-796af33085c4">PRTH_S_ACL_IS_READ_EVERYONE</a> to allow anyone read access during querying.
+If the URL does not contain a user SID, then the protocol handler is invoked in the security context of the system service. In that case, this method can return either an access control list (ACL) to restrict read access, or <a href="https://msdn.microsoft.com/en-us/library/Aa965709(v=VS.85).aspx">PRTH_S_ACL_IS_READ_EVERYONE</a> to allow anyone read access during querying.
             
 
 <div class="alert"><b>Note</b>  If this method returns E_NOTIMPL and the URL does NOT contain a user SID, then the item is retrievable by all user queries.</div>
@@ -117,11 +117,11 @@ If the URL does not contain a user SID, then the protocol handler is invoked in 
 
 
 
-<a href="https://msdn.microsoft.com/1e6272e7-d9bc-4372-8feb-f96626b88903">IUrlAccessor</a>
+<a href="https://msdn.microsoft.com/en-us/library/Bb231426(v=VS.85).aspx">IUrlAccessor</a>
 
 
 
-<a href="https://msdn.microsoft.com/b5e99ad1-1698-483c-8173-796af33085c4">Search Protocol Handler Error Messages</a>
+<a href="https://msdn.microsoft.com/en-us/library/Aa965709(v=VS.85).aspx">Search Protocol Handler Error Messages</a>
  
 
  

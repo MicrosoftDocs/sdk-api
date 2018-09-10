@@ -70,7 +70,7 @@ The <b>IMILBitmapEffectConnectorInfo</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/bf0beb64-f26a-45e1-ad4a-5d11127a516f">GetFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735299(v=VS.85).aspx">GetFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the pixel format for the given pin.
@@ -79,7 +79,7 @@ Retrieves the pixel format for the given pin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/da4bee4c-8263-46f2-a265-71bdd1f69b0c">GetIndex</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735300(v=VS.85).aspx">GetIndex</a>
 </td>
 <td align="left" width="63%">
 Retrieves the zero based index value for the pin.
@@ -88,7 +88,7 @@ Retrieves the zero based index value for the pin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/b589f382-1c1c-4537-9815-d262e10173a4">GetNumberFormats</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735301(v=VS.85).aspx">GetNumberFormats</a>
 </td>
 <td align="left" width="63%">
 Retrieves the number of pixel formats supported by the pin.
@@ -97,7 +97,7 @@ Retrieves the number of pixel formats supported by the pin.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/5f670662-c58c-4b1d-b7b6-c766b9fa8692">GetOptimalFormat</a>
+<a href="https://msdn.microsoft.com/en-us/library/ms735302(v=VS.85).aspx">GetOptimalFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the optimal pixel format for the pin.
