@@ -331,13 +331,9 @@ The certification authority name portion of the configuration string returned by
 
 The following example shows how to use this method to retrieve the default certification authority configuration string.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```cpp
+
     ICertConfig2 * pConfig = NULL;
     BSTR  bstrConfig = NULL; //Contains CA configuration name
     HRESULT    hr;
@@ -354,7 +350,7 @@ The following example shows how to use this method to retrieve the default certi
                            NULL,
                            CLSCTX_INPROC_SERVER,
                            IID_ICertConfig2,
-                           (void **)&amp;pConfig);
+                           (void **)&pConfig);
     if (FAILED(hr))
     {
         printf("Failed CoCreateInstance - pConfig [%x]\n", hr);
@@ -362,7 +358,7 @@ The following example shows how to use this method to retrieve the default certi
     }
 
     // Retrieve the default CA configuration string.
-    hr = pConfig-&gt;GetConfig(CC_DEFAULTCONFIG, &amp;bstrConfig);
+    hr = pConfig->GetConfig(CC_DEFAULTCONFIG, &bstrConfig);
     if (FAILED(hr))
     {
         printf("Failed GetConfig - [%x]\n", hr);
@@ -375,16 +371,16 @@ error:
 
     // Done processing.
     if (pConfig)
-        pConfig-&gt;Release();
+        pConfig->Release();
 
     if (bstrConfig)
         SysFreeString(bstrConfig);
 
     CoUninitialize();
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

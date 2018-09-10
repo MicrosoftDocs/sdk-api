@@ -83,33 +83,29 @@ None.
 
 The following pseudocode demonstrates the operation of the function.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
   XMVECTOR N;
 
   static const XMVECTOR  Max = { 65472.f, 65427.f, 65427.f, 0 };
   N = XMVectorClamp(V, XMVectorZero(), Max);
 
   uint32_t m[3], e[3];
-  ConvertToFloat14( N.x, &amp;m[0], &amp;e[0]);
-  ConvertToFloat14( N.y, &amp;m[1], &amp;e[1]);
-  ConvertToFloat14( N.z, &amp;m[2], &amp;e[2]);
+  ConvertToFloat14( N.x, &m[0], &e[0]);
+  ConvertToFloat14( N.y, &m[1], &e[1]);
+  ConvertToFloat14( N.z, &m[2], &e[2]);
 
   uint32_t T = XMMax( e[0], XMMax( e[1], e[2] ) );
 
-  pDestination-&gt;xm = m[0] &gt;&gt; (T - e[0]);
-  PDestination-&gt;ym = m[1] &gt;&gt; (T - e[1]);
-  pDestination-&gt;zm = m[2] &gt;&gt; (T - e[2]);
-  pDestination-&gt;e = T;
-</pre>
-</td>
-</tr>
-</table></span></div>
+  pDestination->xm = m[0] >> (T - e[0]);
+  PDestination->ym = m[1] >> (T - e[1]);
+  pDestination->zm = m[2] >> (T - e[2]);
+  pDestination->e = T;
+
+```
+
+
 If the three components are not close to each other in magnitude, the largest value(s) will set the exponent and the
    other components will be shifted to zero.
 

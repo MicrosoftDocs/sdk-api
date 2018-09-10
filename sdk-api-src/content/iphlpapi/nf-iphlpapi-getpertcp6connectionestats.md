@@ -401,26 +401,22 @@ An application that uses the <b>GetPerTcp6ConnectionEStats</b> function to retri
 
 The following example retrieves the TCP extended statistics for an IPv4 and IPv6 TCP connection and prints values from the returned data.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Need to link with Iphlpapi.lib and Ws2_32.lib
+
+```cpp
+// Need to link with Iphlpapi.lib and Ws2_32.lib
 // Need to run as administrator
 
 #ifndef WIN32_LEAN_AND_MEAN
 #define WIN32_LEAN_AND_MEAN
 #endif
 
-#include &lt;windows.h&gt;
-#include &lt;winsock2.h&gt;
-#include &lt;Ws2tcpip.h&gt;
-#include &lt;iphlpapi.h&gt;
-#include &lt;Tcpestats.h&gt;
-#include &lt;stdlib.h&gt;
-#include &lt;stdio.h&gt;
+#include <windows.h>
+#include <winsock2.h>
+#include <Ws2tcpip.h>
+#include <iphlpapi.h>
+#include <Tcpestats.h>
+#include <stdlib.h>
+#include <stdio.h>
 
 // Need to link with Iphlpapi.lib
 #pragma comment(lib, "iphlpapi.lib")
@@ -505,11 +501,11 @@ DWORD RunEstatsTest(bool v6)
     }
 
     if (v6) {
-        serverConnectRow = &amp;server6ConnectRow;
-        clientConnectRow = &amp;client6ConnectRow;
+        serverConnectRow = &server6ConnectRow;
+        clientConnectRow = &client6ConnectRow;
     } else {
-        serverConnectRow = &amp;server4ConnectRow;
-        clientConnectRow = &amp;client4ConnectRow;
+        serverConnectRow = &server4ConnectRow;
+        clientConnectRow = &client4ConnectRow;
     }
 
     UINT winStatus;
@@ -520,7 +516,7 @@ DWORD RunEstatsTest(bool v6)
     // Initialize Winsock.
     //
     WSADATA wsaData;
-    winStatus = WSAStartup(MAKEWORD(2, 2), &amp;wsaData);
+    winStatus = WSAStartup(MAKEWORD(2, 2), &wsaData);
     if (winStatus != ERROR_SUCCESS) {
         wprintf(L"\nFailed to open winsock. Error %d", winStatus);
         goto bail;
@@ -533,8 +529,8 @@ DWORD RunEstatsTest(bool v6)
     // Obtain port numbers of created connections.
     //
     winStatus =
-        CreateTcpConnection(v6, &amp;serviceSocket, &amp;clientSocket, &amp;acceptSocket,
-                            &amp;serverPort, &amp;clientPort);
+        CreateTcpConnection(v6, &serviceSocket, &clientSocket, &acceptSocket,
+                            &serverPort, &clientPort);
     if (winStatus != ERROR_SUCCESS) {
         wprintf(L"\nFailed to create TCP connection. Error %d", winStatus);
         goto bail;
@@ -632,12 +628,12 @@ int CreateTcpConnection(bool v6,
     *clientSocket = INVALID_SOCKET;
     *acceptSocket = INVALID_SOCKET;
 
-    ZeroMemory(&amp;hints, sizeof (hints));
+    ZeroMemory(&hints, sizeof (hints));
     hints.ai_family = aiFamily;
     hints.ai_socktype = SOCK_STREAM;
     hints.ai_protocol = IPPROTO_TCP;
 
-    status = GetAddrInfoW(loopback, L"", &amp;hints, &amp;localhost);
+    status = GetAddrInfoW(loopback, L"", &hints, &localhost);
     if (status != ERROR_SUCCESS) {
         wprintf(L"\nFailed to open localhost. Error %d", status);
         goto bail;
@@ -658,7 +654,7 @@ int CreateTcpConnection(bool v6,
     }
 
     status =
-        bind(*serviceSocket, localhost-&gt;ai_addr, (int) localhost-&gt;ai_addrlen);
+        bind(*serviceSocket, localhost->ai_addr, (int) localhost->ai_addrlen);
     if (status == SOCKET_ERROR) {
         wprintf(L"\nFailed to bind server socket to loopback. Error %d",
                 WSAGetLastError());
@@ -673,15 +669,15 @@ int CreateTcpConnection(bool v6,
     SOCKADDR_STORAGE serverSockName, clientSockName;
     int nameLen = sizeof (SOCKADDR_STORAGE);
     status = getsockname(*serviceSocket,
-                         (sockaddr *) &amp; serverSockName, &amp;nameLen);
+                         (sockaddr *) & serverSockName, &nameLen);
     if (status == SOCKET_ERROR) {
         wprintf(L"\ngetsockname failed %d", WSAGetLastError());
         goto bail;
     }
     if (v6) {
-        *serverPort = ((sockaddr_in6 *) (&amp;serverSockName))-&gt;sin6_port;
+        *serverPort = ((sockaddr_in6 *) (&serverSockName))->sin6_port;
     } else {
-        *serverPort = ((sockaddr_in *) (&amp;serverSockName))-&gt;sin_port;
+        *serverPort = ((sockaddr_in *) (&serverSockName))->sin_port;
     }
 
     status = listen(*serviceSocket, SOMAXCONN);
@@ -692,7 +688,7 @@ int CreateTcpConnection(bool v6,
     }
 
     status =
-        connect(*clientSocket, (sockaddr *) &amp; serverSockName,
+        connect(*clientSocket, (sockaddr *) & serverSockName,
                 (int) sizeof (SOCKADDR_STORAGE));
     if (status == SOCKET_ERROR) {
         wprintf(L"\nCould not connect client and server sockets %d",
@@ -701,15 +697,15 @@ int CreateTcpConnection(bool v6,
     }
 
     status = getsockname(*clientSocket,
-                         (sockaddr *) &amp; clientSockName, &amp;nameLen);
+                         (sockaddr *) & clientSockName, &nameLen);
     if (status == SOCKET_ERROR) {
         wprintf(L"\ngetsockname failed %d", WSAGetLastError());
         goto bail;
     }
     if (v6) {
-        *clientPort = ((sockaddr_in6 *) (&amp;clientSockName))-&gt;sin6_port;
+        *clientPort = ((sockaddr_in6 *) (&clientSockName))->sin6_port;
     } else {
-        *clientPort = ((sockaddr_in *) (&amp;clientSockName))-&gt;sin_port;
+        *clientPort = ((sockaddr_in *) (&clientSockName))->sin_port;
     }
 
     *acceptSocket = accept(*serviceSocket, NULL, NULL);
@@ -769,7 +765,7 @@ GetTcpRow(u_short localPort,
     DWORD status, size = 0, i;
     bool connectionFound = FALSE;
 
-    status = GetTcpTable(tcpTable, &amp;size, TRUE);
+    status = GetTcpTable(tcpTable, &size, TRUE);
     if (status != ERROR_INSUFFICIENT_BUFFER) {
         return status;
     }
@@ -779,17 +775,17 @@ GetTcpRow(u_short localPort,
         return ERROR_OUTOFMEMORY;
     }
 
-    status = GetTcpTable(tcpTable, &amp;size, TRUE);
+    status = GetTcpTable(tcpTable, &size, TRUE);
     if (status != ERROR_SUCCESS) {
         free(tcpTable);
         return status;
     }
 
-    for (i = 0; i &lt; tcpTable-&gt;dwNumEntries; i++) {
-        tcpRowIt = &amp;tcpTable-&gt;table[i];
-        if (tcpRowIt-&gt;dwLocalPort == (DWORD) localPort &amp;&amp;
-            tcpRowIt-&gt;dwRemotePort == (DWORD) remotePort &amp;&amp;
-            tcpRowIt-&gt;State == state) {
+    for (i = 0; i < tcpTable->dwNumEntries; i++) {
+        tcpRowIt = &tcpTable->table[i];
+        if (tcpRowIt->dwLocalPort == (DWORD) localPort &&
+            tcpRowIt->dwRemotePort == (DWORD) remotePort &&
+            tcpRowIt->State == state) {
             connectionFound = TRUE;
             *row = *tcpRowIt;
             break;
@@ -819,7 +815,7 @@ GetTcp6Row(u_short localPort,
     DWORD status, size = 0, i;
     bool connectionFound = FALSE;
 
-    status = GetTcp6Table(tcp6Table, &amp;size, TRUE);
+    status = GetTcp6Table(tcp6Table, &size, TRUE);
     if (status != ERROR_INSUFFICIENT_BUFFER) {
         return status;
     }
@@ -829,17 +825,17 @@ GetTcp6Row(u_short localPort,
         return ERROR_OUTOFMEMORY;
     }
 
-    status = GetTcp6Table(tcp6Table, &amp;size, TRUE);
+    status = GetTcp6Table(tcp6Table, &size, TRUE);
     if (status != ERROR_SUCCESS) {
         free(tcp6Table);
         return status;
     }
 
-    for (i = 0; i &lt; tcp6Table-&gt;dwNumEntries; i++) {
-        tcp6RowIt = &amp;tcp6Table-&gt;table[i];
-        if (tcp6RowIt-&gt;dwLocalPort == (DWORD) localPort &amp;&amp;
-            tcp6RowIt-&gt;dwRemotePort == (DWORD) remotePort &amp;&amp;
-            tcp6RowIt-&gt;State == state) {
+    for (i = 0; i < tcp6Table->dwNumEntries; i++) {
+        tcp6RowIt = &tcp6Table->table[i];
+        if (tcp6RowIt->dwLocalPort == (DWORD) localPort &&
+            tcp6RowIt->dwRemotePort == (DWORD) remotePort &&
+            tcp6RowIt->State == state) {
             connectionFound = TRUE;
             *row = *tcp6RowIt;
             break;
@@ -876,50 +872,50 @@ void ToggleEstat(PVOID row, TCP_ESTATS_TYPE type, bool enable, bool v6)
     switch (type) {
     case TcpConnectionEstatsData:
         dataRw.EnableCollection = enable;
-        rw = (PUCHAR) &amp; dataRw;
+        rw = (PUCHAR) & dataRw;
         size = sizeof (TCP_ESTATS_DATA_RW_v0);
         break;
 
     case TcpConnectionEstatsSndCong:
         sndRw.EnableCollection = enable;
-        rw = (PUCHAR) &amp; sndRw;
+        rw = (PUCHAR) & sndRw;
         size = sizeof (TCP_ESTATS_SND_CONG_RW_v0);
         break;
 
     case TcpConnectionEstatsPath:
         pathRw.EnableCollection = enable;
-        rw = (PUCHAR) &amp; pathRw;
+        rw = (PUCHAR) & pathRw;
         size = sizeof (TCP_ESTATS_PATH_RW_v0);
         break;
 
     case TcpConnectionEstatsSendBuff:
         sendBuffRw.EnableCollection = enable;
-        rw = (PUCHAR) &amp; sendBuffRw;
+        rw = (PUCHAR) & sendBuffRw;
         size = sizeof (TCP_ESTATS_SEND_BUFF_RW_v0);
         break;
 
     case TcpConnectionEstatsRec:
         recRw.EnableCollection = enable;
-        rw = (PUCHAR) &amp; recRw;
+        rw = (PUCHAR) & recRw;
         size = sizeof (TCP_ESTATS_REC_RW_v0);
         break;
 
     case TcpConnectionEstatsObsRec:
         obsRecRw.EnableCollection = enable;
-        rw = (PUCHAR) &amp; obsRecRw;
+        rw = (PUCHAR) & obsRecRw;
         size = sizeof (TCP_ESTATS_OBS_REC_RW_v0);
         break;
 
     case TcpConnectionEstatsBandwidth:
         bandwidthRw.EnableCollectionInbound = operation;
         bandwidthRw.EnableCollectionOutbound = operation;
-        rw = (PUCHAR) &amp; bandwidthRw;
+        rw = (PUCHAR) & bandwidthRw;
         size = sizeof (TCP_ESTATS_BANDWIDTH_RW_v0);
         break;
 
     case TcpConnectionEstatsFineRtt:
         fineRttRw.EnableCollection = enable;
-        rw = (PUCHAR) &amp; fineRttRw;
+        rw = (PUCHAR) & fineRttRw;
         size = sizeof (TCP_ESTATS_FINE_RTT_RW_v0);
         break;
 
@@ -1076,175 +1072,175 @@ void GetAndOutputEstats(void *row, TCP_ESTATS_TYPE type, bool v6)
         synOptsRos = (PTCP_ESTATS_SYN_OPTS_ROS_v0) ros;
         wprintf(L"\nSyn Opts");
         wprintf(L"\nActive Open:    %s",
-                synOptsRos-&gt;ActiveOpen ? L"Yes" : L"No");
-        wprintf(L"\nMss Received:   %u", synOptsRos-&gt;MssRcvd);
-        wprintf(L"\nMss Sent        %u", synOptsRos-&gt;MssSent);
+                synOptsRos->ActiveOpen ? L"Yes" : L"No");
+        wprintf(L"\nMss Received:   %u", synOptsRos->MssRcvd);
+        wprintf(L"\nMss Sent        %u", synOptsRos->MssSent);
         break;
 
     case TcpConnectionEstatsData:
         dataRod = (PTCP_ESTATS_DATA_ROD_v0) rod;
         wprintf(L"\n\nData");
-        wprintf(L"\nBytes Out:   %lu", dataRod-&gt;DataBytesOut);
-        wprintf(L"\nSegs Out:    %lu", dataRod-&gt;DataSegsOut);
-        wprintf(L"\nBytes In:    %lu", dataRod-&gt;DataBytesIn);
-        wprintf(L"\nSegs In:     %lu", dataRod-&gt;DataSegsIn);
-        wprintf(L"\nSegs Out:    %u", dataRod-&gt;SegsOut);
-        wprintf(L"\nSegs In:     %u", dataRod-&gt;SegsIn);
-        wprintf(L"\nSoft Errors: %u", dataRod-&gt;SoftErrors);
-        wprintf(L"\nSoft Error Reason: %u", dataRod-&gt;SoftErrorReason);
-        wprintf(L"\nSnd Una:     %u", dataRod-&gt;SndUna);
-        wprintf(L"\nSnd Nxt:     %u", dataRod-&gt;SndNxt);
-        wprintf(L"\nSnd Max:     %u", dataRod-&gt;SndMax);
-        wprintf(L"\nBytes Acked: %lu", dataRod-&gt;ThruBytesAcked);
-        wprintf(L"\nRcv Nxt:     %u", dataRod-&gt;RcvNxt);
-        wprintf(L"\nBytes Rcv:   %lu", dataRod-&gt;ThruBytesReceived);
+        wprintf(L"\nBytes Out:   %lu", dataRod->DataBytesOut);
+        wprintf(L"\nSegs Out:    %lu", dataRod->DataSegsOut);
+        wprintf(L"\nBytes In:    %lu", dataRod->DataBytesIn);
+        wprintf(L"\nSegs In:     %lu", dataRod->DataSegsIn);
+        wprintf(L"\nSegs Out:    %u", dataRod->SegsOut);
+        wprintf(L"\nSegs In:     %u", dataRod->SegsIn);
+        wprintf(L"\nSoft Errors: %u", dataRod->SoftErrors);
+        wprintf(L"\nSoft Error Reason: %u", dataRod->SoftErrorReason);
+        wprintf(L"\nSnd Una:     %u", dataRod->SndUna);
+        wprintf(L"\nSnd Nxt:     %u", dataRod->SndNxt);
+        wprintf(L"\nSnd Max:     %u", dataRod->SndMax);
+        wprintf(L"\nBytes Acked: %lu", dataRod->ThruBytesAcked);
+        wprintf(L"\nRcv Nxt:     %u", dataRod->RcvNxt);
+        wprintf(L"\nBytes Rcv:   %lu", dataRod->ThruBytesReceived);
         break;
 
     case TcpConnectionEstatsSndCong:
         sndCongRod = (PTCP_ESTATS_SND_CONG_ROD_v0) rod;
         sndCongRos = (PTCP_ESTATS_SND_CONG_ROS_v0) ros;
         wprintf(L"\n\nSnd Cong");
-        wprintf(L"\nTrans Rwin:       %u", sndCongRod-&gt;SndLimTransRwin);
-        wprintf(L"\nLim Time Rwin:    %u", sndCongRod-&gt;SndLimTimeRwin);
-        wprintf(L"\nLim Bytes Rwin:   %u", sndCongRod-&gt;SndLimBytesRwin);
-        wprintf(L"\nLim Trans Cwnd:   %u", sndCongRod-&gt;SndLimTransCwnd);
-        wprintf(L"\nLim Time Cwnd:    %u", sndCongRod-&gt;SndLimTimeCwnd);
-        wprintf(L"\nLim Bytes Cwnd:   %u", sndCongRod-&gt;SndLimBytesCwnd);
-        wprintf(L"\nLim Trans Snd:    %u", sndCongRod-&gt;SndLimTransSnd);
-        wprintf(L"\nLim Time Snd:     %u", sndCongRod-&gt;SndLimTimeSnd);
-        wprintf(L"\nLim Bytes Snd:    %u", sndCongRod-&gt;SndLimBytesSnd);
-        wprintf(L"\nSlow Start:       %u", sndCongRod-&gt;SlowStart);
-        wprintf(L"\nCong Avoid:       %u", sndCongRod-&gt;CongAvoid);
-        wprintf(L"\nOther Reductions: %u", sndCongRod-&gt;OtherReductions);
-        wprintf(L"\nCur Cwnd:         %u", sndCongRod-&gt;CurCwnd);
-        wprintf(L"\nMax Ss Cwnd:      %u", sndCongRod-&gt;MaxSsCwnd);
-        wprintf(L"\nMax Ca Cwnd:      %u", sndCongRod-&gt;MaxCaCwnd);
-        wprintf(L"\nCur Ss Thresh:    0x%x (%u)", sndCongRod-&gt;CurSsthresh,
-                sndCongRod-&gt;CurSsthresh);
-        wprintf(L"\nMax Ss Thresh:    0x%x (%u)", sndCongRod-&gt;MaxSsthresh,
-                sndCongRod-&gt;MaxSsthresh);
-        wprintf(L"\nMin Ss Thresh:    0x%x (%u)", sndCongRod-&gt;MinSsthresh,
-                sndCongRod-&gt;MinSsthresh);
-        wprintf(L"\nLim Cwnd:         0x%x (%u)", sndCongRos-&gt;LimCwnd,
-                sndCongRos-&gt;LimCwnd);
+        wprintf(L"\nTrans Rwin:       %u", sndCongRod->SndLimTransRwin);
+        wprintf(L"\nLim Time Rwin:    %u", sndCongRod->SndLimTimeRwin);
+        wprintf(L"\nLim Bytes Rwin:   %u", sndCongRod->SndLimBytesRwin);
+        wprintf(L"\nLim Trans Cwnd:   %u", sndCongRod->SndLimTransCwnd);
+        wprintf(L"\nLim Time Cwnd:    %u", sndCongRod->SndLimTimeCwnd);
+        wprintf(L"\nLim Bytes Cwnd:   %u", sndCongRod->SndLimBytesCwnd);
+        wprintf(L"\nLim Trans Snd:    %u", sndCongRod->SndLimTransSnd);
+        wprintf(L"\nLim Time Snd:     %u", sndCongRod->SndLimTimeSnd);
+        wprintf(L"\nLim Bytes Snd:    %u", sndCongRod->SndLimBytesSnd);
+        wprintf(L"\nSlow Start:       %u", sndCongRod->SlowStart);
+        wprintf(L"\nCong Avoid:       %u", sndCongRod->CongAvoid);
+        wprintf(L"\nOther Reductions: %u", sndCongRod->OtherReductions);
+        wprintf(L"\nCur Cwnd:         %u", sndCongRod->CurCwnd);
+        wprintf(L"\nMax Ss Cwnd:      %u", sndCongRod->MaxSsCwnd);
+        wprintf(L"\nMax Ca Cwnd:      %u", sndCongRod->MaxCaCwnd);
+        wprintf(L"\nCur Ss Thresh:    0x%x (%u)", sndCongRod->CurSsthresh,
+                sndCongRod->CurSsthresh);
+        wprintf(L"\nMax Ss Thresh:    0x%x (%u)", sndCongRod->MaxSsthresh,
+                sndCongRod->MaxSsthresh);
+        wprintf(L"\nMin Ss Thresh:    0x%x (%u)", sndCongRod->MinSsthresh,
+                sndCongRod->MinSsthresh);
+        wprintf(L"\nLim Cwnd:         0x%x (%u)", sndCongRos->LimCwnd,
+                sndCongRos->LimCwnd);
         break;
 
     case TcpConnectionEstatsPath:
         pathRod = (PTCP_ESTATS_PATH_ROD_v0) rod;
         wprintf(L"\n\nPath");
-        wprintf(L"\nFast Retran:         %u", pathRod-&gt;FastRetran);
-        wprintf(L"\nTimeouts:            %u", pathRod-&gt;Timeouts);
-        wprintf(L"\nSubsequent Timeouts: %u", pathRod-&gt;SubsequentTimeouts);
-        wprintf(L"\nCur Timeout Count:   %u", pathRod-&gt;CurTimeoutCount);
-        wprintf(L"\nAbrupt Timeouts:     %u", pathRod-&gt;AbruptTimeouts);
-        wprintf(L"\nPkts Retrans:        %u", pathRod-&gt;PktsRetrans);
-        wprintf(L"\nBytes Retrans:       %u", pathRod-&gt;BytesRetrans);
-        wprintf(L"\nDup Acks In:         %u", pathRod-&gt;DupAcksIn);
-        wprintf(L"\nSacksRcvd:           %u", pathRod-&gt;SacksRcvd);
-        wprintf(L"\nSack Blocks Rcvd:    %u", pathRod-&gt;SackBlocksRcvd);
-        wprintf(L"\nCong Signals:        %u", pathRod-&gt;CongSignals);
-        wprintf(L"\nPre Cong Sum Cwnd:   %u", pathRod-&gt;PreCongSumCwnd);
-        wprintf(L"\nPre Cong Sum Rtt:    %u", pathRod-&gt;PreCongSumRtt);
-        wprintf(L"\nPost Cong Sum Rtt:   %u", pathRod-&gt;PostCongSumRtt);
-        wprintf(L"\nPost Cong Count Rtt: %u", pathRod-&gt;PostCongCountRtt);
-        wprintf(L"\nEcn Signals:         %u", pathRod-&gt;EcnSignals);
-        wprintf(L"\nEce Rcvd:            %u", pathRod-&gt;EceRcvd);
-        wprintf(L"\nSend Stall:          %u", pathRod-&gt;SendStall);
-        wprintf(L"\nQuench Rcvd:         %u", pathRod-&gt;QuenchRcvd);
-        wprintf(L"\nRetran Thresh:       %u", pathRod-&gt;RetranThresh);
-        wprintf(L"\nSnd Dup Ack Episodes:  %u", pathRod-&gt;SndDupAckEpisodes);
-        wprintf(L"\nSum Bytes Reordered: %u", pathRod-&gt;SumBytesReordered);
-        wprintf(L"\nNon Recov Da:        %u", pathRod-&gt;NonRecovDa);
-        wprintf(L"\nNon Recov Da Episodes: %u", pathRod-&gt;NonRecovDaEpisodes);
-        wprintf(L"\nAck After Fr:        %u", pathRod-&gt;AckAfterFr);
-        wprintf(L"\nDsack Dups:          %u", pathRod-&gt;DsackDups);
-        wprintf(L"\nSample Rtt:          0x%x (%u)", pathRod-&gt;SampleRtt,
-                pathRod-&gt;SampleRtt);
-        wprintf(L"\nSmoothed Rtt:        %u", pathRod-&gt;SmoothedRtt);
-        wprintf(L"\nRtt Var:             %u", pathRod-&gt;RttVar);
-        wprintf(L"\nMax Rtt:             %u", pathRod-&gt;MaxRtt);
-        wprintf(L"\nMin Rtt:             0x%x (%u)", pathRod-&gt;MinRtt,
-                pathRod-&gt;MinRtt);
-        wprintf(L"\nSum Rtt:             %u", pathRod-&gt;SumRtt);
-        wprintf(L"\nCount Rtt:           %u", pathRod-&gt;CountRtt);
-        wprintf(L"\nCur Rto:             %u", pathRod-&gt;CurRto);
-        wprintf(L"\nMax Rto:             %u", pathRod-&gt;MaxRto);
-        wprintf(L"\nMin Rto:             %u", pathRod-&gt;MinRto);
-        wprintf(L"\nCur Mss:             %u", pathRod-&gt;CurMss);
-        wprintf(L"\nMax Mss:             %u", pathRod-&gt;MaxMss);
-        wprintf(L"\nMin Mss:             %u", pathRod-&gt;MinMss);
-        wprintf(L"\nSpurious Rto:        %u", pathRod-&gt;SpuriousRtoDetections);
+        wprintf(L"\nFast Retran:         %u", pathRod->FastRetran);
+        wprintf(L"\nTimeouts:            %u", pathRod->Timeouts);
+        wprintf(L"\nSubsequent Timeouts: %u", pathRod->SubsequentTimeouts);
+        wprintf(L"\nCur Timeout Count:   %u", pathRod->CurTimeoutCount);
+        wprintf(L"\nAbrupt Timeouts:     %u", pathRod->AbruptTimeouts);
+        wprintf(L"\nPkts Retrans:        %u", pathRod->PktsRetrans);
+        wprintf(L"\nBytes Retrans:       %u", pathRod->BytesRetrans);
+        wprintf(L"\nDup Acks In:         %u", pathRod->DupAcksIn);
+        wprintf(L"\nSacksRcvd:           %u", pathRod->SacksRcvd);
+        wprintf(L"\nSack Blocks Rcvd:    %u", pathRod->SackBlocksRcvd);
+        wprintf(L"\nCong Signals:        %u", pathRod->CongSignals);
+        wprintf(L"\nPre Cong Sum Cwnd:   %u", pathRod->PreCongSumCwnd);
+        wprintf(L"\nPre Cong Sum Rtt:    %u", pathRod->PreCongSumRtt);
+        wprintf(L"\nPost Cong Sum Rtt:   %u", pathRod->PostCongSumRtt);
+        wprintf(L"\nPost Cong Count Rtt: %u", pathRod->PostCongCountRtt);
+        wprintf(L"\nEcn Signals:         %u", pathRod->EcnSignals);
+        wprintf(L"\nEce Rcvd:            %u", pathRod->EceRcvd);
+        wprintf(L"\nSend Stall:          %u", pathRod->SendStall);
+        wprintf(L"\nQuench Rcvd:         %u", pathRod->QuenchRcvd);
+        wprintf(L"\nRetran Thresh:       %u", pathRod->RetranThresh);
+        wprintf(L"\nSnd Dup Ack Episodes:  %u", pathRod->SndDupAckEpisodes);
+        wprintf(L"\nSum Bytes Reordered: %u", pathRod->SumBytesReordered);
+        wprintf(L"\nNon Recov Da:        %u", pathRod->NonRecovDa);
+        wprintf(L"\nNon Recov Da Episodes: %u", pathRod->NonRecovDaEpisodes);
+        wprintf(L"\nAck After Fr:        %u", pathRod->AckAfterFr);
+        wprintf(L"\nDsack Dups:          %u", pathRod->DsackDups);
+        wprintf(L"\nSample Rtt:          0x%x (%u)", pathRod->SampleRtt,
+                pathRod->SampleRtt);
+        wprintf(L"\nSmoothed Rtt:        %u", pathRod->SmoothedRtt);
+        wprintf(L"\nRtt Var:             %u", pathRod->RttVar);
+        wprintf(L"\nMax Rtt:             %u", pathRod->MaxRtt);
+        wprintf(L"\nMin Rtt:             0x%x (%u)", pathRod->MinRtt,
+                pathRod->MinRtt);
+        wprintf(L"\nSum Rtt:             %u", pathRod->SumRtt);
+        wprintf(L"\nCount Rtt:           %u", pathRod->CountRtt);
+        wprintf(L"\nCur Rto:             %u", pathRod->CurRto);
+        wprintf(L"\nMax Rto:             %u", pathRod->MaxRto);
+        wprintf(L"\nMin Rto:             %u", pathRod->MinRto);
+        wprintf(L"\nCur Mss:             %u", pathRod->CurMss);
+        wprintf(L"\nMax Mss:             %u", pathRod->MaxMss);
+        wprintf(L"\nMin Mss:             %u", pathRod->MinMss);
+        wprintf(L"\nSpurious Rto:        %u", pathRod->SpuriousRtoDetections);
         break;
 
     case TcpConnectionEstatsSendBuff:
         sndBuffRod = (PTCP_ESTATS_SEND_BUFF_ROD_v0) rod;
         wprintf(L"\n\nSend Buff");
-        wprintf(L"\nCur Retx Queue:   %u", sndBuffRod-&gt;CurRetxQueue);
-        wprintf(L"\nMax Retx Queue:   %u", sndBuffRod-&gt;MaxRetxQueue);
-        wprintf(L"\nCur App W Queue:  %u", sndBuffRod-&gt;CurAppWQueue);
-        wprintf(L"\nMax App W Queue:  %u", sndBuffRod-&gt;MaxAppWQueue);
+        wprintf(L"\nCur Retx Queue:   %u", sndBuffRod->CurRetxQueue);
+        wprintf(L"\nMax Retx Queue:   %u", sndBuffRod->MaxRetxQueue);
+        wprintf(L"\nCur App W Queue:  %u", sndBuffRod->CurAppWQueue);
+        wprintf(L"\nMax App W Queue:  %u", sndBuffRod->MaxAppWQueue);
         break;
 
     case TcpConnectionEstatsRec:
         recRod = (PTCP_ESTATS_REC_ROD_v0) rod;
         wprintf(L"\n\nRec");
-        wprintf(L"\nCur Rwin Sent:   0x%x (%u)", recRod-&gt;CurRwinSent,
-                recRod-&gt;CurRwinSent);
-        wprintf(L"\nMax Rwin Sent:   0x%x (%u)", recRod-&gt;MaxRwinSent,
-                recRod-&gt;MaxRwinSent);
-        wprintf(L"\nMin Rwin Sent:   0x%x (%u)", recRod-&gt;MinRwinSent,
-                recRod-&gt;MinRwinSent);
-        wprintf(L"\nLim Rwin:        0x%x (%u)", recRod-&gt;LimRwin,
-                recRod-&gt;LimRwin);
-        wprintf(L"\nDup Acks:        %u", recRod-&gt;DupAckEpisodes);
-        wprintf(L"\nDup Acks Out:    %u", recRod-&gt;DupAcksOut);
-        wprintf(L"\nCe Rcvd:         %u", recRod-&gt;CeRcvd);
-        wprintf(L"\nEcn Send:        %u", recRod-&gt;EcnSent);
-        wprintf(L"\nEcn Nonces Rcvd: %u", recRod-&gt;EcnNoncesRcvd);
-        wprintf(L"\nCur Reasm Queue: %u", recRod-&gt;CurReasmQueue);
-        wprintf(L"\nMax Reasm Queue: %u", recRod-&gt;MaxReasmQueue);
-        wprintf(L"\nCur App R Queue: %u", recRod-&gt;CurAppRQueue);
-        wprintf(L"\nMax App R Queue: %u", recRod-&gt;MaxAppRQueue);
-        wprintf(L"\nWin Scale Sent:  0x%.2x", recRod-&gt;WinScaleSent);
+        wprintf(L"\nCur Rwin Sent:   0x%x (%u)", recRod->CurRwinSent,
+                recRod->CurRwinSent);
+        wprintf(L"\nMax Rwin Sent:   0x%x (%u)", recRod->MaxRwinSent,
+                recRod->MaxRwinSent);
+        wprintf(L"\nMin Rwin Sent:   0x%x (%u)", recRod->MinRwinSent,
+                recRod->MinRwinSent);
+        wprintf(L"\nLim Rwin:        0x%x (%u)", recRod->LimRwin,
+                recRod->LimRwin);
+        wprintf(L"\nDup Acks:        %u", recRod->DupAckEpisodes);
+        wprintf(L"\nDup Acks Out:    %u", recRod->DupAcksOut);
+        wprintf(L"\nCe Rcvd:         %u", recRod->CeRcvd);
+        wprintf(L"\nEcn Send:        %u", recRod->EcnSent);
+        wprintf(L"\nEcn Nonces Rcvd: %u", recRod->EcnNoncesRcvd);
+        wprintf(L"\nCur Reasm Queue: %u", recRod->CurReasmQueue);
+        wprintf(L"\nMax Reasm Queue: %u", recRod->MaxReasmQueue);
+        wprintf(L"\nCur App R Queue: %u", recRod->CurAppRQueue);
+        wprintf(L"\nMax App R Queue: %u", recRod->MaxAppRQueue);
+        wprintf(L"\nWin Scale Sent:  0x%.2x", recRod->WinScaleSent);
         break;
 
     case TcpConnectionEstatsObsRec:
         obsRecRod = (PTCP_ESTATS_OBS_REC_ROD_v0) rod;
         wprintf(L"\n\nObs Rec");
-        wprintf(L"\nCur Rwin Rcvd:   0x%x (%u)", obsRecRod-&gt;CurRwinRcvd,
-                obsRecRod-&gt;CurRwinRcvd);
-        wprintf(L"\nMax Rwin Rcvd:   0x%x (%u)", obsRecRod-&gt;MaxRwinRcvd,
-                obsRecRod-&gt;MaxRwinRcvd);
-        wprintf(L"\nMin Rwin Rcvd:   0x%x (%u)", obsRecRod-&gt;MinRwinRcvd,
-                obsRecRod-&gt;MinRwinRcvd);
-        wprintf(L"\nWin Scale Rcvd:  0x%x (%u)", obsRecRod-&gt;WinScaleRcvd,
-                obsRecRod-&gt;WinScaleRcvd);
+        wprintf(L"\nCur Rwin Rcvd:   0x%x (%u)", obsRecRod->CurRwinRcvd,
+                obsRecRod->CurRwinRcvd);
+        wprintf(L"\nMax Rwin Rcvd:   0x%x (%u)", obsRecRod->MaxRwinRcvd,
+                obsRecRod->MaxRwinRcvd);
+        wprintf(L"\nMin Rwin Rcvd:   0x%x (%u)", obsRecRod->MinRwinRcvd,
+                obsRecRod->MinRwinRcvd);
+        wprintf(L"\nWin Scale Rcvd:  0x%x (%u)", obsRecRod->WinScaleRcvd,
+                obsRecRod->WinScaleRcvd);
         break;
 
     case TcpConnectionEstatsBandwidth:
         bandwidthRod = (PTCP_ESTATS_BANDWIDTH_ROD_v0) rod;
         wprintf(L"\n\nBandwidth");
         wprintf(L"\nOutbound Bandwidth:   %lu",
-                bandwidthRod-&gt;OutboundBandwidth);
-        wprintf(L"\nInbound Bandwidth:    %lu", bandwidthRod-&gt;InboundBandwidth);
+                bandwidthRod->OutboundBandwidth);
+        wprintf(L"\nInbound Bandwidth:    %lu", bandwidthRod->InboundBandwidth);
         wprintf(L"\nOutbound Instability: %lu",
-                bandwidthRod-&gt;OutboundInstability);
+                bandwidthRod->OutboundInstability);
         wprintf(L"\nInbound Instability:  %lu",
-                bandwidthRod-&gt;InboundInstability);
+                bandwidthRod->InboundInstability);
         wprintf(L"\nOutbound Bandwidth Peaked: %s",
-                bandwidthRod-&gt;OutboundBandwidthPeaked ? L"Yes" : L"No");
+                bandwidthRod->OutboundBandwidthPeaked ? L"Yes" : L"No");
         wprintf(L"\nInbound Bandwidth Peaked:  %s",
-                bandwidthRod-&gt;InboundBandwidthPeaked ? L"Yes" : L"No");
+                bandwidthRod->InboundBandwidthPeaked ? L"Yes" : L"No");
         break;
 
     case TcpConnectionEstatsFineRtt:
         fineRttRod = (PTCP_ESTATS_FINE_RTT_ROD_v0) rod;
         wprintf(L"\n\nFine RTT");
-        wprintf(L"\nRtt Var: %u", fineRttRod-&gt;RttVar);
-        wprintf(L"\nMax Rtt: %u", fineRttRod-&gt;MaxRtt);
-        wprintf(L"\nMin Rtt: 0x%x (%u) ", fineRttRod-&gt;MinRtt,
-                fineRttRod-&gt;MinRtt);
-        wprintf(L"\nSum Rtt: %u", fineRttRod-&gt;SumRtt);
+        wprintf(L"\nRtt Var: %u", fineRttRod->RttVar);
+        wprintf(L"\nMax Rtt: %u", fineRttRod->MaxRtt);
+        wprintf(L"\nMin Rtt: 0x%x (%u) ", fineRttRod->MinRtt,
+                fineRttRod->MinRtt);
+        wprintf(L"\nSum Rtt: %u", fineRttRod->SumRtt);
         break;
 
     default:
@@ -1257,10 +1253,10 @@ void GetAndOutputEstats(void *row, TCP_ESTATS_TYPE type, bool v6)
     free(rod);
 }
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

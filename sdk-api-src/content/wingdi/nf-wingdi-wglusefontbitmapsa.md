@@ -165,13 +165,9 @@ The function determines the parameters of each call to <b>glBitmap</b> as follow
 
 The following code example shows how to use <b>wglUseFontBitmaps</b> to draw some text.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>HDC    hdc; 
+
+```cpp
+HDC    hdc; 
 HGLRC  hglrc; 
  
 // create a rendering context  
@@ -194,10 +190,10 @@ wglUseFontBitmaps (hdc, 0, 255, 1000);
 // indicate start of glyph display lists  
 glListBase (1000); 
 // now draw the characters in a string  
-glCallLists (24, GL_UNSIGNED_BYTE, "Hello Windows OpenGL World");</pre>
-</td>
-</tr>
-</table></span></div>
+glCallLists (24, GL_UNSIGNED_BYTE, "Hello Windows OpenGL World");
+```
+
+
 
 
 

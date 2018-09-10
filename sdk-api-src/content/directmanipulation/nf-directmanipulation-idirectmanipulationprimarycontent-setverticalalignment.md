@@ -85,17 +85,13 @@ If you have activated a configuration consisting only of zoom or zoom inertia, s
 
 The following example shows how to use this method.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>HRESULT hr = pContent-&gt;SetVerticalAlignment(
-    DIRECTMANIPULATION_VERTICALALIGNMENT_CENTER| DIRECTMANIPULATION_VERTICALALIGNMENT_UNLOCKCENTER);</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+HRESULT hr = pContent->SetVerticalAlignment(
+    DIRECTMANIPULATION_VERTICALALIGNMENT_CENTER| DIRECTMANIPULATION_VERTICALALIGNMENT_UNLOCKCENTER);
+```
+
+
 
 
 

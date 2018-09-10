@@ -116,19 +116,15 @@ The <b>ldap_extended_operation_s</b> function enables a client to send an extend
 As a synchronous function, <b>ldap_extended_operation_s</b> returns any response data in the <i>ReturnedOid</i> and <i>ReturnedData</i> fields. When no longer required, free the <i>ReturnedOid</i> string and the <i>ReturnedData</i> buffer by calling 
 <a href="https://msdn.microsoft.com/3256a202-4245-4bea-a66c-0f28bfe2ef7e">ldap_memfree</a>.  Because <i>ReturnedData</i> is not a <b>PCHAR</b> data type, it must be explicitly cast when used as an argument of <b>ldap_memfree</b>, such as:
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>struct berval *pBV;
-ldap_extended_operation_s(......., &amp;pBV);
+
+```cpp
+struct berval *pBV;
+ldap_extended_operation_s(......., &pBV);
 ... 
-ldap_memfree( (PCHAR) pBV);</pre>
-</td>
-</tr>
-</table></span></div>
+ldap_memfree( (PCHAR) pBV);
+```
+
+
 Multithreading: The <b>ldap_extended_operation_s</b> function is thread-safe.
 
 

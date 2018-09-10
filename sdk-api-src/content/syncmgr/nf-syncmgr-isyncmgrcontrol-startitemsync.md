@@ -131,13 +131,9 @@ This method is analogous to <a href="https://msdn.microsoft.com/7a646d11-a84c-44
 
 The following example shows the usage of <b>ISyncMgrControl::StartItemSync</b> by a handler's procedure.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>void CMyDeviceHandler::MiscProc(...)
+
+```cpp
+void CMyDeviceHandler::MiscProc(...)
 {
     ...
 
@@ -146,25 +142,25 @@ The following example shows the usage of <b>ISyncMgrControl::StartItemSync</b> b
     
     hr = CoCreateInstance(CLSID_SyncMgrControl, 
                           CLSCTX_SERVER,
-                          IID_PPV_ARGS(&amp;pControl));
+                          IID_PPV_ARGS(&pControl));
     if (SUCCEEDED(hr))
     {
         // Synchronize one sync item for the sync handler.
-        hr = pControl-&gt;StartItemSync(s_szMySyncHandlerID,
+        hr = pControl->StartItemSync(s_szMySyncHandlerID,
                                      s_szMySyncHandlerMusicContentID,
                                      1,
                                      _hwnd,
                                      NULL,
                                      NULL);
-        pControl-&gt;Release();
+        pControl->Release();
     }
 
     ...
 
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 

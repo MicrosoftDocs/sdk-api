@@ -109,34 +109,30 @@ If the source <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280
 
 The following example, to be included as part of a larger program, demonstrates how to use <a href="https://msdn.microsoft.com/en-us/library/Bb776524(v=VS.85).aspx">PropVariantGetInt16Elem</a> with an iteration statement to access the values in a <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a>.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// PROPVARIANT propvar;
+
+```cpp
+// PROPVARIANT propvar;
     // Assume propvar is initialized and valid;
     
-    if ((propvar.vt &amp; VT_TYPEMASK) == VT_I2)
+    if ((propvar.vt & VT_TYPEMASK) == VT_I2)
     {
         UINT cElem = PropVariantGetElementCount(propvar);
-        HRESULT hr = &lt;mark type="const"&gt;S_OK&lt;/mark&gt;;
+        HRESULT hr = <mark type="const">S_OK</mark>;
     
-        for (UINT iElem = 0; SUCCEEDED(hr) &amp;&amp; iElem &lt; cElem; iElem ++)
+        for (UINT iElem = 0; SUCCEEDED(hr) && iElem < cElem; iElem ++)
         {
             SHORT nValue;
-            hr = PropVariantGetInt16Elem(propvar, iElem, &amp;nValue);
+            hr = PropVariantGetInt16Elem(propvar, iElem, &nValue);
     
             if (SUCCEEDED(hr))
             {
                 // nValue is valid now
             }
         }
-    }</pre>
-</td>
-</tr>
-</table></span></div>
+    }
+```
+
+
 
 
 

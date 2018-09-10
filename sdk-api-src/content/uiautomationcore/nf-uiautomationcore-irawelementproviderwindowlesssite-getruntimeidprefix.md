@@ -104,13 +104,9 @@ A provider typically calls this method as part of handling the <a href="https://
 
 The following C++ code example shows how to implement the <b>GetRuntimeIdPrefix</b> method.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>IFACEMETHODIMP CProviderWindowlessSite::GetRuntimeIdPrefix(   
+
+```cpp
+IFACEMETHODIMP CProviderWindowlessSite::GetRuntimeIdPrefix(   
      SAFEARRAY **ppsaPrefix)   
 {   
     if (ppsaPrefix == NULL) 
@@ -127,18 +123,18 @@ The following C++ code example shows how to implement the <b>GetRuntimeIdPrefix<
         return E_OUTOFMEMORY;
     }
 
-    for (LONG i = 0; i &lt; 2; i++)
+    for (LONG i = 0; i < 2; i++)
     {
-        SafeArrayPutElement(psa, &amp;i, (void*)&amp;(rId[i]));
+        SafeArrayPutElement(psa, &i, (void*)&(rId[i]));
     }
 
     *ppsaPrefix = psa;  
     return S_OK;  
 }  
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

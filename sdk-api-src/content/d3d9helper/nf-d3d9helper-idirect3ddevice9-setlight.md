@@ -103,19 +103,15 @@ The system allocates memory to accommodate a set of lighting properties each tim
 
 The following example prepares and sets properties for a white point-light whose emitted light will not attenuate over distance.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 // Assume d3dDevice is a valid pointer to an IDirect3DDevice9 interface.
 D3DLIGHT9 d3dLight;
 HRESULT   hr;
     
 // Initialize the structure.
-ZeroMemory(&amp;d3dLight, sizeof(d3dLight));
+ZeroMemory(&d3dLight, sizeof(d3dLight));
     
 // Set up a white point light.
 d3dLight.Type = D3DLIGHT_POINT;
@@ -143,15 +139,15 @@ d3dLight.Attenuation0 = 1.0f;
 d3dLight.Range        = 1000.0f;
     
 // Set the property information for the first light.
-hr = d3dDevice-&gt;SetLight(0, &amp;d3dLight);
+hr = d3dDevice->SetLight(0, &d3dLight);
 if (SUCCEEDED(hr))
     // Handle Success
 else
     // Handle failure
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Enable a light source by calling the <a href="https://msdn.microsoft.com/en-us/library/Bb174421(v=VS.85).aspx">IDirect3DDevice9::LightEnable</a> method for the device.
 
 

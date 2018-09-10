@@ -223,19 +223,15 @@ If the Internet protocol of the URL passed in for
 
 This example shows how to break a URL into its components, update a component, then reconstruct the URL.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    URL_COMPONENTS urlComp;
+
+```cpp
+    URL_COMPONENTS urlComp;
     LPCWSTR pwszUrl1 = 
-      L"http://search.msn.com/results.asp?RS=CHECKED&amp;FORM=MSNH&amp;v=1&amp;q=wininet";
+      L"http://search.msn.com/results.asp?RS=CHECKED&FORM=MSNH&v=1&q=wininet";
     DWORD dwUrlLen = 0;
 
     // Initialize the URL_COMPONENTS structure.
-    ZeroMemory(&amp;urlComp, sizeof(urlComp));
+    ZeroMemory(&urlComp, sizeof(urlComp));
     urlComp.dwStructSize = sizeof(urlComp);
 
     // Set required component lengths to non-zero 
@@ -246,7 +242,7 @@ This example shows how to break a URL into its components, update a component, t
     urlComp.dwExtraInfoLength = (DWORD)-1;
 
     // Crack the URL.
-    if (!WinHttpCrackUrl( pwszUrl1, (DWORD)wcslen(pwszUrl1), 0, &amp;urlComp))
+    if (!WinHttpCrackUrl( pwszUrl1, (DWORD)wcslen(pwszUrl1), 0, &urlComp))
     {
         printf("Error %u in WinHttpCrackUrl.\n", GetLastError());
     }
@@ -254,14 +250,14 @@ This example shows how to break a URL into its components, update a component, t
     {
         // Change the search information.  
         // New info is the same length.
-        urlComp.lpszExtraInfo = L"?RS=CHECKED&amp;FORM=MSNH&amp;v=1&amp;q=winhttp";
+        urlComp.lpszExtraInfo = L"?RS=CHECKED&FORM=MSNH&v=1&q=winhttp";
 
         // Obtain the size of the new URL and allocate memory.
-        WinHttpCreateUrl( &amp;urlComp, 0, NULL, &amp;dwUrlLen);
+        WinHttpCreateUrl( &urlComp, 0, NULL, &dwUrlLen);
         LPWSTR pwszUrl2 = new WCHAR[dwUrlLen];
 
         // Create a new URL.
-        if(!WinHttpCreateUrl( &amp;urlComp, 0, pwszUrl2, &amp;dwUrlLen))
+        if(!WinHttpCreateUrl( &urlComp, 0, pwszUrl2, &dwUrlLen))
         {
             printf("Error %u in WinHttpCreateUrl.\n", GetLastError());
         }
@@ -274,10 +270,10 @@ This example shows how to break a URL into its components, update a component, t
         // Free allocated memory.
         delete [] pwszUrl2;
     }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

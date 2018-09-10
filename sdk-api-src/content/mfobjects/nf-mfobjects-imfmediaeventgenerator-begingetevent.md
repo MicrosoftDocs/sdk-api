@@ -168,13 +168,9 @@ Do not call <b>BeginGetEvent</b> a second time before calling <a href="https://m
 
 The following code shows a typical implementation of <a href="https://msdn.microsoft.com/22473605-637e-4783-a8cb-98248b0a0327">IMFAsyncCallback::Invoke</a> for the <b>BeginGetEvent</b> method. The <b>Invoke</b> method calls <a href="https://msdn.microsoft.com/6b38e984-d818-4f69-af28-8b54153faebb">EndGetEvent</a> to get the event data. Then it calls <b>BeginGetEvent</b> again to request another event.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>//////////////////////////////////////////////////////////////////////
+
+```
+//////////////////////////////////////////////////////////////////////
 //  Name: CEventHandler::Invoke
 //  Callback for asynchronous BeginGetEvent method.
 //
@@ -194,19 +190,19 @@ HRESULT CEventHandler::Invoke(IMFAsyncResult *pAsyncResult)
     // Get the event from the event queue.
     // Assume that m_pEventGenerator is a valid pointer to the
     // event generator's IMFMediaEventGenerator interface.
-    hr = m_pEventGenerator-&gt;EndGetEvent(pAsyncResult, &amp;pEvent);
+    hr = m_pEventGenerator->EndGetEvent(pAsyncResult, &pEvent);
 
     // Get the event type.
     if (SUCCEEDED(hr))
     {
-        hr = pEvent-&gt;GetType(&amp;meType);
+        hr = pEvent->GetType(&meType);
     }
 
     // Get the event status. If the operation that triggered the event 
     // did not succeed, the status is a failure code.
     if (SUCCEEDED(hr))
     {
-        hr = pEvent-&gt;GetStatus(&amp;hrStatus);
+        hr = pEvent->GetStatus(&hrStatus);
     }
 
     if (SUCCEEDED(hr))
@@ -219,15 +215,15 @@ HRESULT CEventHandler::Invoke(IMFAsyncResult *pAsyncResult)
     // CEventHandler class, which implements the callback.
     if (fGetAnotherEvent)
     {
-        hr = m_pEventGenerator-&gt;BeginGetEvent(this, NULL);
+        hr = m_pEventGenerator->BeginGetEvent(this, NULL);
     }
 
     SAFE_RELEASE(pEvent);
     return hr;
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

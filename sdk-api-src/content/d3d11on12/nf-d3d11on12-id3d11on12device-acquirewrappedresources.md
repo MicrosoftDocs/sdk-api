@@ -101,47 +101,43 @@ Keyed mutex resources cannot be provided to this method; use <a href="https://ms
 
 Render text over D3D12 using D2D via the 11On12 device.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// Render text over D3D12 using D2D via the 11On12 device.
+
+```cpp
+// Render text over D3D12 using D2D via the 11On12 device.
 void D3D1211on12::RenderUI()
 {
-    D2D1_SIZE_F rtSize = m_d2dRenderTargets[m_frameIndex]-&gt;GetSize();
+    D2D1_SIZE_F rtSize = m_d2dRenderTargets[m_frameIndex]->GetSize();
     D2D1_RECT_F textRect = D2D1::RectF(0, 0, rtSize.width, rtSize.height);
     static const WCHAR text[] = L"11On12";
 
     // Acquire our wrapped render target resource for the current back buffer.
-    m_d3d11On12Device-&gt;AcquireWrappedResources(m_wrappedBackBuffers[m_frameIndex].GetAddressOf(), 1);
+    m_d3d11On12Device->AcquireWrappedResources(m_wrappedBackBuffers[m_frameIndex].GetAddressOf(), 1);
 
     // Render text directly to the back buffer.
-    m_d2dDeviceContext-&gt;SetTarget(m_d2dRenderTargets[m_frameIndex].Get());
-    m_d2dDeviceContext-&gt;BeginDraw();
-    m_d2dDeviceContext-&gt;SetTransform(D2D1::Matrix3x2F::Identity());
-    m_d2dDeviceContext-&gt;DrawTextW(
+    m_d2dDeviceContext->SetTarget(m_d2dRenderTargets[m_frameIndex].Get());
+    m_d2dDeviceContext->BeginDraw();
+    m_d2dDeviceContext->SetTransform(D2D1::Matrix3x2F::Identity());
+    m_d2dDeviceContext->DrawTextW(
         text,
         _countof(text) - 1,
         m_textFormat.Get(),
-        &amp;textRect,
+        &textRect,
         m_textBrush.Get()
         );
-    ThrowIfFailed(m_d2dDeviceContext-&gt;EndDraw());
+    ThrowIfFailed(m_d2dDeviceContext->EndDraw());
 
     // Release our wrapped render target resource. Releasing 
     // transitions the back buffer resource to the state specified
     // as the OutState when the wrapped resource was created.
-    m_d3d11On12Device-&gt;ReleaseWrappedResources(m_wrappedBackBuffers[m_frameIndex].GetAddressOf(), 1);
+    m_d3d11On12Device->ReleaseWrappedResources(m_wrappedBackBuffers[m_frameIndex].GetAddressOf(), 1);
 
     // Flush to submit the 11 command list to the shared command queue.
-    m_d3d11DeviceContext-&gt;Flush();
+    m_d3d11DeviceContext->Flush();
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Refer to the <a href="https://msdn.microsoft.com/en-us/library/Dn933255(v=VS.85).aspx">Example Code in the D3D12 Reference</a>.
 
 <div class="code"></div>

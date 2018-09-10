@@ -93,18 +93,14 @@ The following image shows the Math Input Control with extended buttons disabled.
 
 #### Examples
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
-    hr = g_spMIC-&gt;EnableExtendedButtons(VARIANT_TRUE);
-  </pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+    hr = g_spMIC->EnableExtendedButtons(VARIANT_TRUE);
+  
+```
+
+
 
 
 

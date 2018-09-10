@@ -159,13 +159,9 @@ The following illustration shows the resource as it is laid out in memory.
 
 For example, the following code snippet shows how to specify a destination region in a 2D texture. Assume the destination texture is 512x512 and the operation will copy the data pointed to by <i>pData</i> to  [(120,100)..(200,220)] in the destination texture. Also assume that <i>rowPitch</i> has been initialized with the proper value (as explained above). <b>front</b> and <b>back</b> are set to 0 and 1 respectively, because by having <b>front</b> equal to <b>back</b>, the box is technically empty.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 D3D11_BOX destRegion;
 destRegion.left = 120;
 destRegion.right = 200;
@@ -174,20 +170,16 @@ destRegion.bottom = 220;
 destRegion.front = 0;
 destRegion.back = 1;
 
-pd3dDeviceContext-&gt;UpdateSubresource( pDestTexture, 0, &amp;destRegion, pData, rowPitch, 0 );
-</pre>
-</td>
-</tr>
-</table></span></div>
+pd3dDeviceContext->UpdateSubresource( pDestTexture, 0, &destRegion, pData, rowPitch, 0 );
+
+```
+
+
 The 1D case is similar. The following snippet shows how to specify a destination region in a 1D texture. Use the same assumptions as above, except that the texture is 512 in length.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 D3D11_BOX destRegion;
 destRegion.left = 120;
 destRegion.right = 200;
@@ -196,23 +188,19 @@ destRegion.bottom = 1;
 destRegion.front = 0;
 destRegion.back = 1;
 
-pd3dDeviceContext-&gt;UpdateSubresource( pDestTexture, 0, &amp;destRegion, pData, rowPitch, 0 );
-</pre>
-</td>
-</tr>
-</table></span></div>
+pd3dDeviceContext->UpdateSubresource( pDestTexture, 0, &destRegion, pData, rowPitch, 0 );
+
+```
+
+
 For info about various resource types and how <b>UpdateSubresource</b> might work with each resource type, see <a href="https://msdn.microsoft.com/en-us/library/Ff476900(v=VS.85).aspx">Introduction to a Resource in Direct3D 11</a>. 
 
 <h3><a id="Calling_UpdateSubresource_on_a_Deferred_Context"></a><a id="calling_updatesubresource_on_a_deferred_context"></a><a id="CALLING_UPDATESUBRESOURCE_ON_A_DEFERRED_CONTEXT"></a>Calling UpdateSubresource on a Deferred Context</h3>
 If your application calls <b>UpdateSubresource</b> on a deferred context with a destination box—to which <i>pDstBox</i> points—that has a non-(0,0,0) offset, and if the driver does not support command lists, <b>UpdateSubresource</b> inappropriately applies that destination-box offset to the <i>pSrcData</i> parameter. To work around this behavior, use the following code:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>
+
+```
+
 HRESULT UpdateSubresource_Workaround(
   ID3D11Device *pDevice,
   ID3D11DeviceContext *pDeviceContext,
@@ -227,13 +215,13 @@ HRESULT UpdateSubresource_Workaround(
 {
      HRESULT hr = S_OK;
      bool needWorkaround = false;
-     D3D11_DEVICE_CONTEXT_TYPE contextType = pDeviceContext-&gt;GetType();
+     D3D11_DEVICE_CONTEXT_TYPE contextType = pDeviceContext->GetType();
 
-     if( pDstBox &amp;&amp; (D3D11_DEVICE_CONTEXT_DEFERRED == contextType) )
+     if( pDstBox && (D3D11_DEVICE_CONTEXT_DEFERRED == contextType) )
      {
           D3D11_FEATURE_DATA_THREADING threadingCaps = { FALSE, FALSE };
 
-          hr = pDevice-&gt;CheckFeatureSupport( D3D11_FEATURE_THREADING, &amp;threadingCaps, sizeof(threadingCaps) );
+          hr = pDevice->CheckFeatureSupport( D3D11_FEATURE_THREADING, &threadingCaps, sizeof(threadingCaps) );
           if( SUCCEEDED(hr) )
           {
                if( !threadingCaps.DriverCommandLists )
@@ -261,7 +249,7 @@ HRESULT UpdateSubresource_Workaround(
           pAdjustedSrcData = ((const BYTE*)pSrcData) - (alignedBox.front * srcDepthPitch) - (alignedBox.top * srcRowPitch) - (alignedBox.left * srcBytesPerElement);
      }
 
-     pDeviceContext-&gt;UpdateSubresource( pDstResource, dstSubresource, pDstBox, pAdjustedSrcData, srcRowPitch, srcDepthPitch );
+     pDeviceContext->UpdateSubresource( pDstResource, dstSubresource, pDstBox, pAdjustedSrcData, srcRowPitch, srcDepthPitch );
 
      if( pDidWorkAround )
      {
@@ -270,10 +258,10 @@ HRESULT UpdateSubresource_Workaround(
 
      return hr;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

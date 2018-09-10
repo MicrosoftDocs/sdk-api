@@ -106,17 +106,13 @@ The following illustration shows the effect of applying the  preceding rotation 
 
 <img alt="Illustration a square rotated 45 degrees about the center of the original square" src="./images/rotate_ovw.png"/>
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    // Create a rectangle.
+
+```cpp
+    // Create a rectangle.
     D2D1_RECT_F rectangle = D2D1::Rect(438.0f, 301.5f, 498.0f, 361.5f);
 
     // Draw the rectangle.
-    m_pRenderTarget-&gt;DrawRectangle(
+    m_pRenderTarget->DrawRectangle(
         rectangle,
         m_pOriginalShapeBrush,
         1.0f,
@@ -124,22 +120,22 @@ The following illustration shows the effect of applying the  preceding rotation 
         );
 
     // Apply the rotation transform to the render target.
-    m_pRenderTarget-&gt;SetTransform(
+    m_pRenderTarget->SetTransform(
         D2D1::Matrix3x2F::Rotation(
             45.0f,
             D2D1::Point2F(468.0f, 331.5f))
         );
 
     // Fill the rectangle.
-    m_pRenderTarget-&gt;FillRectangle(rectangle, m_pFillBrush);
+    m_pRenderTarget->FillRectangle(rectangle, m_pFillBrush);
 
     // Draw the transformed rectangle.
-    m_pRenderTarget-&gt;DrawRectangle(rectangle, m_pTransformedShapeBrush);
+    m_pRenderTarget->DrawRectangle(rectangle, m_pTransformedShapeBrush);
 
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 Code has been omitted from this example. For more information about transforms, see the <a href="https://msdn.microsoft.com/en-us/library/Dd756655(v=VS.85).aspx">Transforms Overview</a>. 
 
 <div class="code"></div>

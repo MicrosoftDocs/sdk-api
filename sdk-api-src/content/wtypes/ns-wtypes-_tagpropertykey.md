@@ -82,16 +82,12 @@ As of Windows Vista, the <a href="https://msdn.microsoft.com/bf7b0e3b-527a-4ef5
 
                 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>typedef PROPERTYKEY SHCOLUMNID;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+typedef PROPERTYKEY SHCOLUMNID;
+```
+
+
 
 <a href="https://msdn.microsoft.com/bf7b0e3b-527a-4ef5-894a-a7e1b7750e72">SHCOLUMNID</a> can be considered a legacy structure with <a href="https://msdn.microsoft.com/en-us/library/Bb773381(v=VS.85).aspx">PROPERTYKEY</a> being the new, preferred form. <b>PROPERTYKEY</b> has a broader purpose than <b>SHCOLUMNID</b>, and the new name is more descriptive of its uses.
 

@@ -200,13 +200,9 @@ Be sure  to include the following #define directive before your #include &lt;ole
 
 This sample code creates a command tree. A custom property from a Microsoft Word document named "IssueNumber" of type "Number" is defined and used in the query. The list of properties returned by the query includes path and size. The sort order is first by rank descending, then by path ascending. The default system locale is used to create the command tree.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>CIPROPERTYDEF aProperties[1];
+
+```cpp
+CIPROPERTYDEF aProperties[1];
 const GUID guidOffice = { 0xd5cdd505, 0x2e9c, 0x101b,
                           0x93, 0x97, 0x08, 0x00, 0x2b, 0x2c, 0xf9, 0xae }
                             };
@@ -220,13 +216,13 @@ HRESULT hr = CiTextToFullTree( L"microsoft and @issuenumber=2",
                                L"size,path,issuenumber",
                                L"rank[d],path[a]",
                                ,
-                               &amp;pTree,
+                               &pTree,
                                1,
                                aProperties,
                                GetSystemDefaultLCID() );
 if ( SUCCEEDED( hr ) )
 {
-    hr = pICommandTree-&gt;SetCommandTree( pTree,
+    hr = pICommandTree->SetCommandTree( pTree,
                                     DBCOMMANDREUSE_NONE,
                                     FALSE );
     if ( SUCCEEDED( hr ) )
@@ -236,10 +232,10 @@ if ( SUCCEEDED( hr ) )
         // ...
     }
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 The following diagram shows the <i>pTree</i> parameter, created by the example code, of the <a href="https://msdn.microsoft.com/en-us/library/ms689889(v=VS.85).aspx">DBCOMMANDTREE</a> structure.
 
 <img alt="" src="./images/dbcmdtr2.png"/>

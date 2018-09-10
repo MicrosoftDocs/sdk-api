@@ -144,19 +144,15 @@ There are no functions available for releasing or renewing an IPv6 address. This
 
 The following example retrieves the list of network adapters with IPv4 enabled on the local system, then releases and renews the IPv4 address for the first adapter in the list.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef WIN32_LEAN_AND_MEAN
+
+```cpp
+#ifndef WIN32_LEAN_AND_MEAN
 #define WIN32_LEAN_AND_MEAN
 #endif
 
-#include &lt;winsock2.h&gt;
-#include &lt;iphlpapi.h&gt;
-#include &lt;stdio.h&gt;
+#include <winsock2.h>
+#include <iphlpapi.h>
+#include <stdio.h>
 
 #pragma comment(lib, "iphlpapi.lib")
 
@@ -176,17 +172,17 @@ void __cdecl main()
 
     // Make an initial call to GetInterfaceInfo to get
     // the necessary size into the ulOutBufLen variable
-    if (GetInterfaceInfo(pInfo, &amp;ulOutBufLen) == ERROR_INSUFFICIENT_BUFFER) {
+    if (GetInterfaceInfo(pInfo, &ulOutBufLen) == ERROR_INSUFFICIENT_BUFFER) {
         FREE(pInfo);
         pInfo = (IP_INTERFACE_INFO *) MALLOC (ulOutBufLen);
     }
 
     // Make a second call to GetInterfaceInfo to get the
     // actual data we want
-    if ((dwRetVal = GetInterfaceInfo(pInfo, &amp;ulOutBufLen)) == NO_ERROR ) {
-        printf("\tAdapter Name: %ws\n", pInfo-&gt;Adapter[0].Name);
-        printf("\tAdapter Index: %ld\n", pInfo-&gt;Adapter[0].Index);
-        printf("\tNum Adapters: %ld\n", pInfo-&gt;NumAdapters);
+    if ((dwRetVal = GetInterfaceInfo(pInfo, &ulOutBufLen)) == NO_ERROR ) {
+        printf("\tAdapter Name: %ws\n", pInfo->Adapter[0].Name);
+        printf("\tAdapter Index: %ld\n", pInfo->Adapter[0].Index);
+        printf("\tNum Adapters: %ld\n", pInfo->NumAdapters);
     }
     else if (dwRetVal == ERROR_NO_DATA) {
         printf("There are no network adapters with IPv4 enabled on the local system\n");
@@ -203,7 +199,7 @@ void __cdecl main()
             NULL,
             dwRetVal,
             MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT), // Default language
-            (LPTSTR) &amp;lpMsgBuf,
+            (LPTSTR) &lpMsgBuf,
             0,
             NULL )) {
             printf("\tError: %s", lpMsgBuf);
@@ -215,14 +211,14 @@ void __cdecl main()
 // Call IpReleaseAddress and IpRenewAddress to release and renew
 // the IP address on the first network adapter returned 
 // by the call to GetInterfaceInfo.
-    if ((dwRetVal = IpReleaseAddress(&amp;pInfo-&gt;Adapter[0])) == NO_ERROR) {
+    if ((dwRetVal = IpReleaseAddress(&pInfo->Adapter[0])) == NO_ERROR) {
         printf("IP release succeeded.\n");
     }
     else {
         printf("IP release failed: %ld\n", dwRetVal);
     }
 
-    if ((dwRetVal = IpRenewAddress(&amp;pInfo-&gt;Adapter[0])) == NO_ERROR) {
+    if ((dwRetVal = IpRenewAddress(&pInfo->Adapter[0])) == NO_ERROR) {
         printf("IP renew succeeded.\n");
     }
     else {
@@ -235,10 +231,10 @@ void __cdecl main()
     }
     return;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

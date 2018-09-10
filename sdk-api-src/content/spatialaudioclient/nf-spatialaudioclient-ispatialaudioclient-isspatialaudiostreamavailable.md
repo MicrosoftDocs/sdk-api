@@ -113,18 +113,14 @@ The metadata format supplied in the <i>auxiliaryInfo</i> parameter is not suppor
 
 When querying to see if the <a href="https://msdn.microsoft.com/1623B280-FC12-4C19-9D4A-D8463D1A1046">ISpatialAudioObjectRenderStreamForMetadata</a> you can use the auxilaryInfo parameter to query if a particular metadata format is supported. The following code example demonstrates how to initialize the <a href="https://msdn.microsoft.com/e86cc279-826d-4767-8d96-fc8280060ea1">PROPVARIANT</a> structure to check for support for an example metadata format.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>PROPVARIANT auxiliaryInfo;  
+
+```cpp
+PROPVARIANT auxiliaryInfo;  
 auxiliaryInfo.vt = VT_CLSID;  
-auxiliaryInfo.puuid = const_cast&lt;CLSID*&gt;(&amp;CONTOSO_SPATIAL_METADATA_V1_0);  </pre>
-</td>
-</tr>
-</table></span></div>
+auxiliaryInfo.puuid = const_cast<CLSID*>(&CONTOSO_SPATIAL_METADATA_V1_0);  
+```
+
+
 If the specified metadata format is unsupported, <b>IsSpatialAudioStreamAvailable</b> returns SPTLAUDCLNT_E_METADATA_FORMAT_IS_NOT_SUPPORTED.
 
 

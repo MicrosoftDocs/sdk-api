@@ -94,13 +94,9 @@ The <i>DebugMessage</i> parameter is a variable argument ASCII C string; that is
 
 An example use of <b>EngDebugPrint</b> follows:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>#define STANDARD_DEBUG_PREFIX     "Permedia: "
+
+```
+#define STANDARD_DEBUG_PREFIX     "Permedia: "
 LONG bank;
 LONG width;
 ...
@@ -113,10 +109,10 @@ VOID MyDebugPrint(PCHAR DebugMessage, ...)
     va_end(ap);
 }
 ...
-MyDebugPrint("Bank: %lx; Width: %ld", bank, width);</pre>
-</td>
-</tr>
-</table></span></div>
+MyDebugPrint("Bank: %lx; Width: %ld", bank, width);
+```
+
+
 <div class="alert"><b>Note</b>    The Microsoft Windows Driver Kit (WDK) does not contain the Permedia (<i>3dlabs.htm</i> and <i>Perm3.htm</i>) and FrameBuffer (<i>Framebuf.htm) </i>sample display drivers. You can get these sample drivers from the Windows Server 2003 SP1 Driver Development Kit (DDK), which you can download from the <a href="http://go.microsoft.com/fwlink/p/?linkid=21859">DDK - Windows Driver Development Kit</a> page of the WDHC website.</div>
 <div> </div>
 

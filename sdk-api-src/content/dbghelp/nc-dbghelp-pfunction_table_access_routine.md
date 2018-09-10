@@ -89,13 +89,9 @@ The function returns a pointer to the run-time function table. On an x86 compute
 
 This callback function supersedes the <i>PFUNCTION_TABLE_ACCESS_ROUTINE</i> callback function.  <i>PFUNCTION_TABLE_ACCESS_ROUTINE</i> is defined as follows in DbgHelp.h. 
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#if !defined(_IMAGEHLP_SOURCE_) &amp;&amp; defined(_IMAGEHLP64)
+
+```cpp
+#if !defined(_IMAGEHLP_SOURCE_) && defined(_IMAGEHLP64)
 #define PFUNCTION_TABLE_ACCESS_ROUTINE PFUNCTION_TABLE_ACCESS_ROUTINE64
 #else
 typedef
@@ -104,10 +100,10 @@ PVOID
     __in HANDLE hProcess,
     __in DWORD AddrBase
     );
-#endif</pre>
-</td>
-</tr>
-</table></span></div>
+#endif
+```
+
+
 
 
 

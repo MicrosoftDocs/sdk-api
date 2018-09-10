@@ -114,17 +114,13 @@ Even when  WinHTTP is used in asynchronous mode (that is, when <b>WINHTTP_FLAG_A
 This example shows how to convert an HTTP formatted date to a 
 <a href="https://msdn.microsoft.com/f77cdf86-0f97-4a89-b565-95b46fa7d65b">SYSTEMTIME</a> structure.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>    SYSTEMTIME  sTime;
+
+```cpp
+    SYSTEMTIME  sTime;
     LPCWSTR     pwszTimeStr = L"Tue, 21 Nov 2000 01:06:53 GMT";
 
     // Convert the HTTP string to a SYSTEMTIME structure.
-    if (!WinHttpTimeToSystemTime( pwszTimeStr, &amp;sTime))
+    if (!WinHttpTimeToSystemTime( pwszTimeStr, &sTime))
     {
         printf( "Error %u in WinHttpTimeToSystemTime.\n", GetLastError());
     }
@@ -134,10 +130,10 @@ This example shows how to convert an HTTP formatted date to a
         printf( "The U.S. formatted date is (%u/%u/%u)\n", 
                 sTime.wMonth, sTime.wDay, sTime.wYear);
     }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

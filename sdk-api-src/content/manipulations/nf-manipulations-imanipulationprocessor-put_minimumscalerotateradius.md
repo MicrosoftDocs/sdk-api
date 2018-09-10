@@ -78,17 +78,13 @@ This property is read/write.
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>pManip-&gt;put_MinimumScaleRotateRadius(4000.0f);  
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```cpp
+pManip->put_MinimumScaleRotateRadius(4000.0f);  
+
+```
+
+
 
 
 

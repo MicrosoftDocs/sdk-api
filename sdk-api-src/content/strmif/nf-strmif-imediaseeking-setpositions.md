@@ -229,13 +229,9 @@ The incoming values of <i>pCurrent</i> and <i>pStop</i> are expressed in the cur
 <h3><a id="Filter_Developers"></a><a id="filter_developers"></a><a id="FILTER_DEVELOPERS"></a>Filter Developers</h3>
 If you implement this method, you can check whether the caller is requesting a change in the current or stop position, by using the value AM_SEEKING_PositioningBitsMask to mask out the modifier flags. For example:
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DWORD dwCurrentPos = dwCurrentFlags &amp; AM_SEEKING_PositioningBitsMask
+
+```
+DWORD dwCurrentPos = dwCurrentFlags & AM_SEEKING_PositioningBitsMask
 if (dwCurrentPos == AM_SEEKING_AbsolutePositioning)
 { 
     // Set new position to pCurrent.
@@ -246,10 +242,10 @@ else if (dwCurrentPos == AM_SEEKING_RelativePositioning)
     // Increment current position by pCurrent.
     m_rtStart += *pCurrent;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 For more information, see the source code for the <a href="https://msdn.microsoft.com/4359fe1f-f922-4a4d-beaa-8e13c72f407c">CSourceSeeking::SetPositions</a> method in the base class library.
 
 

@@ -180,13 +180,9 @@ Administration tasks use DCOM. Code that calls this interface method as defined 
 
 #### Examples
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>// The value for nDisp was set by 
+
+```cpp
+// The value for nDisp was set by 
 // a call to ICertAdmin2::IsValidCertificate.
 if (CA_DISP_REVOKED == nDisp)
 {
@@ -194,7 +190,7 @@ if (CA_DISP_REVOKED == nDisp)
     long       nReason;
 
     // Retrieve the revocation reason.
-    hr = pCertAdmin-&gt;GetRevocationReason(&amp;nReason);
+    hr = pCertAdmin->GetRevocationReason(&nReason);
     if (FAILED(hr))
     {
         printf("Failed GetRevocationReason [%x]\n", hr);
@@ -202,10 +198,10 @@ if (CA_DISP_REVOKED == nDisp)
     }
     else
         printf("Revocation reason = %d\n", nReason );
-}</pre>
-</td>
-</tr>
-</table></span></div>
+}
+```
+
+
 
 
 

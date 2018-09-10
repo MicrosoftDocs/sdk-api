@@ -153,23 +153,19 @@ The following example enumerates the wireless LAN interfaces on the local comput
 
 <div class="alert"><b>Note</b>  This example will fail to load on Windows Server 2008 and Windows Server 2008 R2 if the Wireless LAN Service is not installed and started.</div>
 <div> </div>
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifndef UNICODE
+
+```cpp
+#ifndef UNICODE
 #define UNICODE
 #endif
 
-#include &lt;windows.h&gt;
-#include &lt;wlanapi.h&gt;
-#include &lt;objbase.h&gt;
-#include &lt;wtypes.h&gt;
+#include <windows.h>
+#include <wlanapi.h>
+#include <objbase.h>
+#include <wtypes.h>
 
-#include &lt;stdio.h&gt;
-#include &lt;stdlib.h&gt;
+#include <stdio.h>
+#include <stdlib.h>
 
 // Need to link with Wlanapi.lib and Ole32.lib
 #pragma comment(lib, "wlanapi.lib")
@@ -196,38 +192,38 @@ int wmain()
     PWLAN_INTERFACE_INFO pIfInfo = NULL;
 
     
-    dwResult = WlanOpenHandle(dwMaxClient, NULL, &amp;dwCurVersion, &amp;hClient); 
+    dwResult = WlanOpenHandle(dwMaxClient, NULL, &dwCurVersion, &hClient); 
     if (dwResult != ERROR_SUCCESS)  {
         wprintf(L"WlanOpenHandle failed with error: %u\n", dwResult);
         // FormatMessage can be used to find out why the function failed
         return 1;
     }
     
-    dwResult = WlanEnumInterfaces(hClient, NULL, &amp;pIfList); 
+    dwResult = WlanEnumInterfaces(hClient, NULL, &pIfList); 
     if (dwResult != ERROR_SUCCESS)  {
         wprintf(L"WlanEnumInterfaces failed with error: %u\n", dwResult);
         // FormatMessage can be used to find out why the function failed
         return 1;
     }
     else {
-        wprintf(L"Num Entries: %lu\n", pIfList-&gt;dwNumberOfItems);
-        wprintf(L"Current Index: %lu\n", pIfList-&gt;dwIndex);
-        for (i = 0; i &lt; (int) pIfList-&gt;dwNumberOfItems; i++) {
-            pIfInfo = (WLAN_INTERFACE_INFO *) &amp;pIfList-&gt;InterfaceInfo[i];
+        wprintf(L"Num Entries: %lu\n", pIfList->dwNumberOfItems);
+        wprintf(L"Current Index: %lu\n", pIfList->dwIndex);
+        for (i = 0; i < (int) pIfList->dwNumberOfItems; i++) {
+            pIfInfo = (WLAN_INTERFACE_INFO *) &pIfList->InterfaceInfo[i];
             wprintf(L"  Interface Index[%d]:\t %lu\n", i, i);
-            iRet = StringFromGUID2(pIfInfo-&gt;InterfaceGuid, (LPOLESTR) &amp;GuidString, 39); 
+            iRet = StringFromGUID2(pIfInfo->InterfaceGuid, (LPOLESTR) &GuidString, 39); 
             // For c rather than C++ source code, the above line needs to be
-            // iRet = StringFromGUID2(&amp;pIfInfo-&gt;InterfaceGuid, (LPOLESTR) &amp;GuidString, 39); 
+            // iRet = StringFromGUID2(&pIfInfo->InterfaceGuid, (LPOLESTR) &GuidString, 39); 
             if (iRet == 0)
                 wprintf(L"StringFromGUID2 failed\n");
             else {
                 wprintf(L"  InterfaceGUID[%d]: %ws\n",i, GuidString);
             }    
             wprintf(L"  Interface Description[%d]: %ws", i, 
-                pIfInfo-&gt;strInterfaceDescription);
+                pIfInfo->strInterfaceDescription);
             wprintf(L"\n");
             wprintf(L"  Interface State[%d]:\t ", i);
-            switch (pIfInfo-&gt;isState) {
+            switch (pIfInfo->isState) {
             case wlan_interface_state_not_ready:
                 wprintf(L"Not ready\n");
                 break;
@@ -253,7 +249,7 @@ int wmain()
                 wprintf(L"In process of authenticating\n");
                 break;
             default:
-                wprintf(L"Unknown state %ld\n", pIfInfo-&gt;isState);
+                wprintf(L"Unknown state %ld\n", pIfInfo->isState);
                 break;
             }
             wprintf(L"\n");
@@ -266,10 +262,10 @@ int wmain()
     }
     return 0;
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+
+
 
 
 

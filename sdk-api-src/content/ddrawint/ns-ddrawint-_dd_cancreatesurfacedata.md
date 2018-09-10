@@ -89,17 +89,13 @@ Used by the Microsoft DirectDraw API and should not be filled in by the driver.
 
 The DirectDraw surface description pointed to by the <b>lpDDSurfaceDesc</b> member is actually a <a href="https://msdn.microsoft.com/5ded4232-fbf0-4e8e-87cf-30999057cbdd">DDSURFACEDESC2</a> structure (rather than a DDSURFACEDESC structure) for DirectDraw 6.0 and later runtimes. Therefore, if you need information at surface-creation time from those members that are in the DDSURFACEDESC2 structure but not in the DDSURFACEDESC structure, you can simply cast the pointer to a DDSURFACEDESC structure to a pointer to a DDSURFACEDESC2 structure prior to use. The following example shows how the value of <b>dwTextureStage</b> (a member of the DDSURFACEDESC2 structure, but not also of the DDSURFACEDESC structure) can be obtained from a pointer to a DDSURFACEDESC structure.
 
-<div class="code"><span codelanguage=""><table>
-<tr>
-<th></th>
-</tr>
-<tr>
-<td>
-<pre>DDSURFACEDESC2* pddsd = (DDSURFACEDESC2*)pccsd-&gt;lpDDSurfaceDesc;
-DWORD dwStage = pddsd-&gt;dwTextureStage;</pre>
-</td>
-</tr>
-</table></span></div>
+
+```
+DDSURFACEDESC2* pddsd = (DDSURFACEDESC2*)pccsd->lpDDSurfaceDesc;
+DWORD dwStage = pddsd->dwTextureStage;
+```
+
+
 
 
 
