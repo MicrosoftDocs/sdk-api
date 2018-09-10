@@ -87,19 +87,19 @@ This structure is used to access subresource data when calling <a href="https://
 
 To illustrate pitch for an uncompressed texture, assume a 3D texture with mipmap levels, as shown in the following illustration.
 
-<img alt="Illustration of a 3D texture with mipmap levels" src="images/d3d10_resource_texture3d.png"/>
+<img alt="Illustration of a 3D texture with mipmap levels" src="./images/d3d10_resource_texture3d.png"/>
 
 It is easiest to consider the top-level texture only, as shown in the following illustration.
 
-<img alt="Illustration of only the top-level texture" src="images/d3d10_3d_texture_1.png"/>
+<img alt="Illustration of only the top-level texture" src="./images/d3d10_3d_texture_1.png"/>
 
 And then visualize the top-level texture redrawn as a series of 2D textures, each one having a different depth value. This yields several texture planes, as shown in the following illustration.
 
-<img alt="Illustration of top-level texture drawn as 2D texture planes" src="images/d3d10_3d_texture_conceptual.png"/>
+<img alt="Illustration of top-level texture drawn as 2D texture planes" src="./images/d3d10_3d_texture_conceptual.png"/>
 
 However, the actual layout of all the elements from all the texture planes looks more like the following illustration.
 
-<img alt="Illustration of the row pitch and depth pitch in memory" src="images/d3d10_3d_texture_memory.png"/>
+<img alt="Illustration of the row pitch and depth pitch in memory" src="./images/d3d10_3d_texture_memory.png"/>
 
 Use row pitch to advance a pointer between rows within a single 2D texture plane; use depth pitch to advance a pointer between 2D texture planes.
 
